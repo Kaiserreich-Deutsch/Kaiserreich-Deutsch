@@ -1,0 +1,701 @@
+﻿l_german:
+
+## Übersetzt von Thylon ##
+
+TRM_focus: "Schwerpunktbaum von Transamur"
+
+### Leader Traits ###
+TRM_shaky_rule: "Wackelige Herrschaft"
+TRM_admiral_dictator: "Admiral-Diktator"
+
+### Bookmark ###
+TRM_KR_gathering_storm_desc: "Nach seinem gescheiterten Staatsstreich im Jahr 1925 fanden der selbsternannte 'Oberste Führer' Russlands, Aleksander Koltschak, und seine Fraktion Zuflucht im von der IJA besetzten Transamur. Mit japanischer Unterstützung errichtete diese 'Koltschak-Clique' eine abhängige rivalisierende Regierung Russlands in dem Gebiet.\n\n Während Transamur untergeordnet bleibt, hat Tokio die Kontrolle über die Angelegenheiten in Wladiwostok weitgehend verloren. Koltschak wehrt sich gegen seine Anweisungen, und Gerüchte über einen Staatsstreich von innen oder einen von außen aufgezwungenen Regimewechsel machen die Runde. Wird Transamur in den kommenden Jahren ganz Russland kontrollieren oder zu einem Außenposten von Japans Überseeimperium werden?"
+
+### Intro Screen ###
+TRM_country_intro_header: "Transamur - Provisorischer russischer Staat in Wladiwostok"
+TRM_country_intro_content: "Sibirien und der Ferne Osten Russlands waren während des Russischen Bürgerkriegs ein Hauptkonfliktgebiet, da sich dort eine kurzlebige demokratische Republik, der Aufstieg der 'Tschechischen Legion' und die japanische Intervention befanden. Obwohl die Japaner aufgrund des deutschen Drucks (und des heftigen Widerstands der örtlichen Kosaken) gezwungen waren, ihre Truppen zu evakuieren, waren sie weiterhin bestrebt, ihren Einfluss auszuweiten, und drängten 1922 auf die Gründung eines unabhängigen Staates in der Region Transamur. Dieser Antrag fand die Unterstützung der Wladiwostoker Geschäftswelt, obwohl er sie in eine wirtschaftliche Abhängigkeit von Japan bringen konnte. Die Mehrheit der Geschäftswelt sah jedoch in den wirtschaftlichen und diplomatischen Beziehungen zu der aufstrebenden Macht im Osten einen bedeutenden Vorteil, insbesondere im Vergleich zu der Alternative, weiter in die Unruhen hineingezogen zu werden, die das übrige Russland heimsuchten.\n\nDer neue Staat erhielt eine prominente Galionsfigur in Form von Admiral Koltschak, einem der erfolgreicheren Weißen Generäle des Bürgerkriegs und dem einstigen selbsternannten 'Obersten Herrscher von ganz Russland', der nach seinem erfolglosen Versuch, 1925 die Kontrolle zu übernehmen, aus Russland fliehen musste. Im Jahr 1936 ist die Republik Transamur zu einem korporativen und militaristischen Staat geworden und steht politisch, wirtschaftlich und militärisch unter der Fuchtel des japanischen Kaiserreichs. Und doch hat Koltschak eigene Ambitionen. Könnte es sein, dass er einfach ein sehr gefährliches Spiel spielt und den japanischen Schutz nutzt, um seine eigene Herrschaft zu errichten, zunächst über Sibirien und dann über ganz Russland?\n\n§CAlle 90 Tage werden die Japaner Transamur besuchen, um ihren Einfluss zu vergrößern.§!"
+
+TRM_guide: "§MKoltschak bleibt an der Macht§! (§PPaternal Autokratisch§!)\n£white_dot Wenn der Anti-Koltschak-Putsch stattfindet, wählen Sie \"Koltschaks Wachen gelingt es, die Rebellen zu besiegen.\"\n\n§MDer japanische Schoßhund§! (§gAutoritär Demokratisch§!)\n£white_dot Es gibt eine Reihe von Möglichkeiten, wie Japan Ihre Unterwerfung verlangen kann. Akzeptieren Sie eine von ihnen, und Sie werden ein japanischer Marionettenstaat unter Oi Shigemotos §gDelegatsiya§!.\n£white_dot Alternativ können Sie die Spielregel \"Verschwörungen in Wladiwostok\" auf \"Der japanische Schoßhund\" setzen, damit die Japaner eingreifen.\n\n§MWojciechowski an der Macht§! (§PPaternal Autokratisch§!)\n£white_dot Wenn der Anti-Koltschak-Putsch stattfindet, wählen Sie \"Koltschak wird gestürzt.\"\n£white_dot In dem Ereignis \"Koltschak wird gestürzt!\" wählen Sie \"Sergej Wojciechowski ist der neue Führer von Transamur!\" um die Herrschaft der §PVoennye§! unter einem neuen Führer fortzusetzen.\n\n§MDie Demokratie siegt§! (§SSozialdemokraten§! / §mMarktliberale§! / §cSozialkonservative§!)\n£white_dot Wenn der Anti-Koltschak-Putsch stattfindet, wählen Sie \"Koltschak wird gestürzt.\"\n£white_dot In dem Ereignis \"Koltschak wird gestürzt!\" wählen Sie \"Eine Republik wird gegründet.\"\n£white_dot Bei den Dumawahlen können Sie zwischen §SDie Volkspartei des Fernen Ostens§!, §mDie Partei der Volksfreiheit§! und §cDie Partei der Zemski Krai§! wählen.\n"
+
+### Events ###
+tram.1.t: "Transamur bricht weg!"
+tram.1.d: "Die Republik Transamur hat großen Anstoß an unseren Versuchen genommen, ihre inneren Angelegenheiten zu regeln, und bricht alle politischen Beziehungen zu uns ab!"
+tram.1.a: "Zerstört sie!"
+tram.1.b: "Wir können sie nur gehen lassen..."
+
+tram.21.t: "Transamur erobert den Fernen Osten!"
+tram.21.d: "Transamur hat die Unruhen in Sibirien ausgenutzt, um seine Kontrolle über die Region zu etablieren. Obwohl dies eine große Verletzung unserer Souveränität darstellt, sind wir derzeit sehr schwach und möglicherweise nicht in der Lage, einen Krieg zu gewinnen, um unser Land zurückzuerobern, zumal ein Kampf gegen Transamur auch einen Kampf gegen Japan bedeuten könnte."
+tram.21.a: "Es ist sinnlos, um eine eisige Einöde zu kämpfen."
+tram.21.b: "Kommt und nehmt es mit - wer glaubt schon an solche Tricks?"
+tram.21.c: "Verdammt noch mal!"
+
+tram.23.t: "Russland weigert sich zu intervenieren"
+tram.23.d: "Die so genannte \"Russische Regierung\" hat anscheinend die vollendeten Tatsachen in Sibirien akzeptiert und keine ernsthaften militärischen Maßnahmen gegen unsere Befreiungsbemühungen ergriffen."
+tram.23.a: "Eine kluge Entscheidung."
+
+tram.24.t: "Russland antwortet mit Gewalt!"
+tram.24.d: "Die so genannte "Russische Regierung" hat sich nicht nur geweigert, uns unser rechtmäßiges Land zu überlassen. Sie hat uns auch den Krieg erklärt und will Wladiwostok zurückerobern."
+tram.24.a: "Dann ist es Krieg!"
+
+tram.42.t: "Transamurische Expansion in Sibirien"
+tram.42.d: "Unser Vassalenstaat, die Republik Transamur, hat die Kontrolle über mehrere Teile Sibiriens erlangt. Dies ist zwar eine schöne Ergänzung zur Ko-Wohlstandssphäre, aber es ist möglich, dass Transamur zu mächtig wird und zurückgedrängt werden muss."
+tram.42.a: "Es ist gut, starke Vasallenstaaten zu haben!"
+tram.42.b: "[TRM.GetLeader] ist zu gierig für sein eigenes Wohl, es ist an der Zeit, ihn zu ersetzen."
+
+tram.48.t: "Japan plant einen Putsch gegen [TRM.GetLeader]!"
+tram.48.d: "Die Japaner sind der Meinung, dass [TRM.GetLeader] nicht mehr von Nutzen ist, und haben sich an die Elite von Transamur gewandt, um einen Staatsstreich zu unterstützen und ihn durch einen gefügigeren Rat von Wirtschafts- und Militärführern zu ersetzen."
+tram.48.a: "Ja, [TRM.GetLeader] sollte entfernt werden!"
+tram.48.b: "[TRM.GetLeader] geht nirgendwo hin!"
+
+tram.49.t: "Transamur gibt nach"
+tram.49.d: "[TRM.GetLeader] hat beschlossen, sich zu unterwerfen und vor uns niederzuknien. Da das Amt des Gouverneurs von Wladiwostok nun leer ist, werden wir einen Ersatz finden. Mit dem loyalen General Oi Shigemoto, dem Anführer der sibirischen Intervention während des russischen Bürgerkriegs, haben wir einen perfekten Kandidaten. Ab heute wird Transamur nun offiziell von General Shigemoto regiert, damit sind wir faktisch zu seiner Marionette geworden."
+tram.49.a: "Ausgezeichnet."
+
+tram.67.t: "Transamur versucht sich zu befreien"
+tram.67.d: "Mit der kürzlichen Rückeroberung Sibiriens durch Transamur sind sie viel mutiger geworden und versuchen, ihren eigenen Weg unter der Sonne zu finden. Vor kurzem haben sie ihre Hauptstadt von Wladiwostok in entlegenere Teile ihrer Republik verlegt, ein klarer Versuch, unseren Einfluss zu minimieren. Was sollen wir tun?"
+tram.67.a: "Es ist gut, starke Verbündete zu haben!"
+tram.67.b: "Versucht, unseren Einfluss auf Transamur wiederherzustellen!"
+
+tram.68.t: "Japan fordert unsere Unterwerfung!"
+tram.68.d: "Die Japaner fühlen sich durch unsere Versuche, ihren Einfluss auf unser Land zu minimieren, bedroht und haben uns ein Ultimatum gestellt, in dem sie die Unterlassung von Schritten fordern, die ihren Wohlstand bedrohen."
+tram.68.a: "Unterwerfung vor Japan."
+tram.68.b: "Niemals!"
+
+tram.80.t: "Anti-Koltschak-Putsch"
+tram.80.d: "Die Opposition hat einen offenen Aufstand gegen uns begonnen. Abtrünnige Generäle und Soldaten unter der Führung von Sergej Wojciechowski haben die wichtigsten Stadtviertel erobert und marschieren nun direkt auf uns zu. Diejenigen, die Admiral Koltschak noch die Treue halten, sind bereit, diese dreckigen Verräter zu bekämpfen."
+tram.80.a: "Koltschaks Wachen gelingt es, die Rebellen zu besiegen."
+tram.80.b: "Koltschak wird gestürzt."
+
+tram.81.t: "Koltschak wird gestürzt!"
+tram.81.d: "Alexander Koltschak, der seit mehr als 12 Jahren an der Spitze von Transamur stand, wurde von Mitgliedern des Generalstabs unter der Führung von Sergej Wojciechowski gestürzt und durch ein Erschießungskommando hingerichtet. Sein Tod eröffnet das Feld für verschiedene Möglichkeiten des politischen Wandels in Transamur, einschließlich der Ausrufung einer Republik, wenn Sergey Wojciechowski und sein Stab dies zulassen."
+tram.81.a: "Sergey Wojciechowski ist der neue Führer von Transamur!"
+tram.81.b: "Eine Republik wird gegründet."
+
+tram.84.t: "Anti-Koltschak-Putsch in Transamur!"
+tram.84.d: "Admiral Koltschak, der langjährige Führer des Staates Transamur, wurde von Mitgliedern seines eigenen Generalstabs gestürzt und ermordet. Dies wurde von der demokratischen Opposition genutzt, um die Kontrolle über den Staat zu erlangen und Transamur von einer Militärjunta in eine Demokratie zu verwandeln. Wie sollen wir darauf reagieren?"
+tram.84.a: "Fordert die Wiedereinsetzung eines Militärkabinetts!"
+tram.84.b: "Gratulation an die neue Regierung!"
+
+tram.86.t: "Die Dumawahlen"
+tram.86.d: "Nach mehrmonatigen Vorbereitungen hat die provisorische Regierung die Vorbereitungen für die ersten freien Wahlen in Transamur seit 1920 abgeschlossen. Es stehen 90 Sitze in der Nationalversammlung zur Verfügung, und verschiedene politische Parteien haben ihren Wahlkampf begonnen. Derzeit haben nur drei Parteien die Chance, eine Mehrheit zu erlangen und damit eine neue Regierung zu bilden. Welche von ihnen wird sich durchsetzen?"
+tram.86.a: "Die Volkspartei des Fernen Ostens!"
+tram.86.b: "Die Partei der Volksfreiheit!"
+tram.86.c: "Die Zemski Krai Partei!"
+
+tram.87.t: "Die Dumawahlen"
+tram.87.d: "Nach der Verfassung sind alle vier Jahre Wahlen abzuhalten. Die Amtszeit der Staatsduma ist abgelaufen, und es ist an der Zeit, ein neues Parlament zu wählen. Es stehen 90 Sitze in der Duma zur Verfügung, und verschiedene politische Parteien haben ihren Wahlkampf begonnen. Nur drei Parteien haben eine Chance, die Mehrheit zu erlangen und eine neue Regierung zu bilden. Welche wird sich durchsetzen?"
+tram.87.a: "Die Volkspartei des Fernen Ostens!"
+tram.87.b: "Die Partei der Volksfreiheit!"
+tram.87.c: "Die Zemski Krai Partei!"
+
+tram.92.t: "Wiedervereinigung mit Russland vorschlagen?"
+tram.92.d: "Da unsere Chancen, die Macht Japans zu besiegen, gering sind, haben einige führende Persönlichkeiten in Transamur dazu aufgerufen, unsere frühere Rivalität mit Russland aufzugeben und sich ihnen anzuschließen, um die japanische Bedrohung abzuwehren. Mit dem Vorschlag, sich dem russischen Staat friedlich anzuschließen, könnten wir endlich die jahrelange Isolation beenden, die uns durch Koltschaks Kriegstreiberei auferlegt wurde, und hoffentlich die Unterwerfung durch Tokio vermeiden."
+tram.92.a: "Wir müssen unser eigenes Überleben sichern. Sendet den Vorschlag."
+tram.92.b: "Bist du verrückt??"
+
+tram.93.t: "Transamur schlägt die Wiedervereinigung vor"
+tram.93.d: "Es scheint, dass die Verräter in Transamur endlich die Torheit ihres Handelns erkannt haben. Ihr erbärmlicher Rumpfstaat befindet sich im Krieg mit Japan und hat angesichts der japanischen Militärmacht mit Sicherheit keine Chance auf einen Sieg. Vertreter aus Transamur sind zu uns gekommen und haben uns um einen friedlichen Wiedereintritt in unser Land gebeten, vermutlich in der Hoffnung, eine Eroberung durch Japan zu verhindern. Wladiwostok ist zweifelsohne ein wichtiger Hafen, aber sind wir schon bereit, Tokio zu konfrontieren?"
+tram.93.a: "Willkommen zu Hause, Russen."
+tram.93.b: "Es ist zu riskant..."
+
+tram.94.t: "Transamur wird mit Russland wiedervereinigt"
+tram.94.d: "Wie es scheint, ist es dem verräterischen Abschaum in Transamur gelungen, seiner unvermeidlichen Eroberung vorübergehend zu entkommen, indem er sich mit Russland wiedervereinigt hat. Unser Stolz verlangt Vergeltung für ihren Verrat, aber ist es klug, Russland jetzt anzugreifen?"
+tram.94.a: "In den Krieg!"
+tram.94.b: "Transamur ist es nicht wert."
+
+tram.95.t: "Russland lehnt die Wiedervereinigung ab"
+tram.95.d: "Trotz unserer Bemühungen um einen Anschluss an Russland sind die Verhandlungen gescheitert, da sich die russischen Vertreter weigern, unsere friedliche Wiedervereinigung zuzulassen. Angesichts der riesigen japanischen Streitkräfte, die gegen uns aufmarschiert sind, scheinen wir auf uns allein gestellt zu sein."
+tram.95.a: "Verdammt."
+
+tram.96.t: "Katastrophe"
+tram.96.d: "Die so genannte \"Russische Regierung\" hat sich geweigert, unser Land zurückzugeben. Außerdem haben sie uns den Krieg erklärt und wollen Wladiwostok zurückerobern."
+tram.96.a: "Verdammt!"
+
+tram.97.t: "[FROM.GetNameDefCap] bricht weg!"
+tram.97.d: "[FROM.GetNameDefCap] hat beschlossen, unseren Einflussbereich zu verlassen und jeden Kontakt mit uns abzubrechen! Unser ausgeklügelter militärisch-industrieller Würgegriff über sie und ihr fauliges Regime liegt in Trümmern, und es scheint, dass unsere sorgfältig angelegten Ebenen für die Ausweitung unseres Einflusses im russischen Fernen Osten in Scherben liegen."
+tram.97.a: "Vernichtet sie!"
+tram.97.b: "Im Moment können wir nichts tun."
+
+tram.98.t: "Putschversuch in [FROM.GetNameDef]"
+tram.98.d: "Vor kurzem erreichten uns Nachrichten über einen Putsch gegen Koltschak in [FROM.GetNameDef]. Offenbar haben die Rebellen versucht, Alexander Koltschak, unseren De-facto-Marionettenführer des Wladiwostok-Regimes, zu töten, aber ihre Bemühungen scheinen vergeblich gewesen zu sein, da der Putsch von loyalen Wachen niedergeschlagen wurde. Dennoch hat sich Koltschak in [FROM.GetNameDef] eine Reihe von Feinden gemacht und seine Verwundbarkeit wird immer deutlicher. Vielleicht sollten wir Koltschak zum Rücktritt auffordern und einen neuen, gefügigeren Anführer für [FROM.GetNameDef] bestimmen."
+tram.98.a: "Replace him."
+tram.98.e: "Kolchak may be a loose cannon, but he's our loose cannon."
+
+tram.100.t: "Admiral Koltschak ermordet in [FROM.GetNameDefCap]"
+tram.100.d: "Vor kurzem erreichten uns Nachrichten über einen Putsch gegen Koltschak in Transamur. Offenbar ist es den Rebellen gelungen, Alexander Koltschak, unseren De-facto-Marionettenführer des Regimes in Wladiwostok, zu töten, und General Wojciechowski ist der neue Diktator geworden. Obwohl er weniger mutig und ehrgeizig ist als sein früherer politischer Rivale, hat Wojciechowski immer noch große expansive Pläne für Transamur. Vielleicht sollten wir ihn ablösen, bevor er eine geopolitische Krise auslöst?"
+tram.100.a: "Wojciechowski ist die beste Wahl für uns."
+
+tram.102.t: "Admiral Koltschak ermordet in [FROM.GetNameDefCap]"
+tram.102.d: "Der Anführer des Staatsstreichs von 1925, der abtrünnige Admiral Aleksandr Koltschak, wurde kürzlich von seinen eigenen Soldaten bei einem Militärputsch in seinem geliebten Staat [FROM.GetName] getötet. Er war ein sehr ehrgeiziger Mann, der bis zu seinem letzten Atemzug unsere Rechte auf die Herrschaft über die Russische Republik bestritten hat. Mit seinem Tod ist unsere Gesellschaft ein wenig ruhiger geworden."
+tram.102.a: "Der Bastard ist also weg. Ausgezeichnet!"
+
+tram.103.t: "Transamurische Währung in Harbin"
+tram.103.d: "Harbin ist eine wichtige Stadt, die mitten im Gebiet von Fengtian liegt und zwei Teile der Chinesischen Ostbahn verbindet, die unsere Republik 1927 an die Regierung von Fengtian verkauft hat. Aber auch jetzt noch leben viele Russen dort und spielen eine wichtige Rolle bei der Eisenbahn. Da viele von ihnen Anleihen bei uns haben, ziehen sie es vor, den mehr oder weniger stabilen Transamurischen Rubel anstelle des schwankenden Fengtianischen Tael zu verwenden, obwohl unklar ist, ob die Transaktionen mit unserer Währung legal sind oder nicht. Unser Wirtschaftsminister hat vorgeschlagen, ein Abkommen mit Fengtian zu schließen, das die Verwendung des Transamurischen Rubels in Harbin erlaubt, aber eine zusätzliche Besteuerung durch die fengtianische Regierung zulässt."
+tram.103.a: "Schlagen wir es vor!"
+tram.103.b: "Die derzeitige Situation ist akzeptabel."
+
+tram.104.t: "Transamurische Währung in Harbin"
+tram.104.d: "Transamur hat vorgeschlagen, Transaktionen zwischen unserer eigenen Währung und dem transamurischen Rubel in Harbin, der Stadt mit der größten russischen Bevölkerung im gesamten Nordosten, zuzulassen. Die Regierung in Wladiwostok sagt, dass wir in der Lage sein werden, diese Transaktionen zu besteuern, außerdem könnte sich ein solches Abkommen positiv auf die industrielle Entwicklung der Stadt und der Region auswirken, in der die örtlichen russischen Unternehmen verschiedene Investitionen getätigt haben. Einige Mitglieder unserer Regierung weisen jedoch darauf hin, dass die freie Verwendung des transamurischen Rubels zu einer Zunahme der Autonomie Harbins führen kann."
+tram.104.a: "Eine Einigung wird unserer Wirtschaft helfen."
+tram.104.b: "Wir brauchen dieses Abkommen nicht."
+
+tram.105.t: "Fengtian akzeptiert"
+tram.105.d: "Die Regierung von Fengtian hat zugestimmt, die Verwendung unserer Währung in Harbin zuzulassen. Wir hoffen, dass dies die wirtschaftlichen Beziehungen zwischen unseren Ländern stärken wird."
+tram.105.a: "Ausgezeichnet."
+
+tram.106.t: "Die verblassende Sonne"
+tram.106.d: "Mit dem Zusammenbruch des Reiches der aufgehenden Sonne haben wir eine wichtige Stütze verloren - aber wir sind jetzt frei von ihrer Einmischung, im Guten wie im Schlechten."
+tram.106.a: "Ein gemischter Segen?"
+
+tram.121.t: "Weiße Flüchtlinge in Wladiwostok"
+tram.121.d: "Nach ihrem Sieg im Zweiten Russischen Bürgerkrieg haben die Roten begonnen, ihre inneren Feinde zu terrorisieren. Vielen ehemaligen Weißen und ihren Anhängern ist es gelungen, vom russischen Festland zu fliehen, um sich unserer Sache gegen die Bolschewiki anzuschließen. Sie nutzten eine Zeit der Instabilität und Anarchie in Sibirien, um nach Osten zu fliehen. Neben den Soldaten sind auch mehrere gut ausgebildete Offiziere eingetroffen, die ihre Dienste anbieten. Unabhängig von ihrer früheren politischen Zugehörigkeit müssen wir gemeinsam gegen die Rote Hydra vorgehen!"
+tram.121.a: "Willkommen zu Hause, Brüder!"
+
+tram.122.t: "Weitere Exilanten kommen in Transamur an"
+tram.122.d: "Eine lange Periode politischer Instabilität auf dem russischen Festland hat zum Ausbruch von Anarchie in entfernten Teilen Sibiriens geführt. Da die Regierung [RUS.Capital.GetCapitalVictoryPointName] anderweitig damit beschäftigt ist, die Instabilität im Westen einzudämmen, ist es für sie ziemlich schwierig, echte Macht über diese Region auszuüben. Die Menschen verlieren die Hoffnung auf ihre Führer und fliehen in unser Land. Immer mehr Flüchtlinge und Exilanten schließen sich unserer Sache an."
+tram.122.a: "Willkommen zu Hause, Brüder!"
+
+tram.123.t: "Schickt Aufwiegler nach Sibirien"
+tram.123.d: "Mit dem Tod von Kerenskij ist die politische Lage in Russland selbst chaotischer als in den letzten Jahren. Einige unserer Minister sind der Meinung, dass sich uns jetzt die Gelegenheit bietet, erneut zuzuschlagen. Wir sollten damit beginnen, Agenten auszusenden, um unsere Agenda in ganz Ostsibirien durchzusetzen. Wenn die Menschen uns hören, ist es unvermeidlich, dass sie sich uns anschließen werden, um das korrupte Regime im Westen zu stürzen."
+tram.123.a: "Schickt die Aufwiegler."
+tram.123.b: "Es ist zu riskant."
+
+tram.124.t: "Ergebnisse unserer Aufwiegelungsbemühungen"
+tram.124.goodagit: "Kürzlich erreichten uns Berichte, aus denen hervorging, dass unser Plan, Aufwiegler nach Sibirien zu schicken, um unsere Ideen zu verbreiten, noch wirksamer war, als wir vorhergesagt hatten. Eine Reihe von Menschen, viele von ihnen bewaffnet und militärisch ausgebildet, verließen ihre Heimat für unseren Gastgeber. Wir haben jetzt genug zusätzliche Arbeitskräfte für eine gute Division."
+tram.124.agit: "Kürzlich haben uns Berichte erreicht, aus denen hervorgeht, dass unser Plan, Aufwiegler nach Sibirien zu schicken, um unsere Ideen zu verbreiten, erfolgreich war. Eine Reihe von Menschen, darunter mehrere Bewaffnete, verließen ihre Heimat, um zu uns zu kommen. Wir verfügen nun über genügend zusätzliche Arbeitskräfte, um die bestehenden Abteilungen zu verstärken."
+tram.124.badagit: "Kürzlich erreichten uns Berichte, aus denen hervorging, dass unser Plan, Aufwiegler nach Sibirien zu schicken, um unsere Ideen zu verbreiten, unwirksam war. Die Menschen in Sibirien scheinen ungeachtet der Anarchie, die im Land herrscht, nicht bereit zu sein, ihr Leben aufzugeben und sich uns für einen solch hoffnungslosen Traum anzuschließen. Es scheint, dass wir unsere Ressourcen umsonst verschwendet haben."
+tram.124.a: "Willkommen zu Hause, Brüder!"
+tram.124.b: "Willkommen zu Hause, Brüder!"
+tram.124.c: "Wir brauchen sie sowieso nicht..."
+
+tram.125.t: "Unser alter Freund ist tot"
+tram.125.d: "Vor kurzem erreichte die Nachricht vom Tod Georgs V., des Exilkönigs des Vereinigten Königreichs, Wladiwostok. Der Monarch war einst Koltschaks Verbündeter und gewährleistete 1925 bis zur britischen Revolution seine Sicherheit. Sein Sohn, [CAN_king_first_name], hat nun den Thron in Kanada bestiegen. Obwohl weder Koltschak noch [CAN_king_first_name] einander persönlich kennen, könnte diese Wiederaufnahme der Beziehungen der Beginn einer langen Partnerschaft zwischen unseren Ländern sein. Wir sollten einen Abgesandten entsenden, um über Unterstützung zu verhandeln."
+tram.125.a: "Starke Verbündete sind immer gut."
+
+tram.126.t: "Abgesandter aus Transamur"
+tram.126.d: "Heute ist ein Abgesandter der kleinen Militärjunta von Transamur gekommen, um Seine Majestät, [CAN_king_full_name], zu besuchen. In seiner Rede informierte uns der Gesandte über die frühere Unterstützung König Georgs V. für Koltschaks 1925 gescheiterten Putsch in Petrograd und versicherte uns, dass der schurkische Admiral dieses Mal triumphieren wird - allerdings bittet er erneut um Unterstützung durch die Entente. Wir schulden Koltschak nichts, aber vielleicht ist er doch nicht so nutzlos? Wie sollen wir antworten?"
+tram.126.a: "Versichert ihm, dass er alles bekommen wird, was er braucht."
+tram.126.b: "Begrenzte Unterstützung wird ausreichen."
+tram.126.c: "Er ist einfach ein alter Possenreißer."
+
+tram.127.t: "Bericht über das Treffen mit [CAN_king_full_name]"
+tram.127.fullsupport: "Unser Gesandter ist mit großartigen Nachrichten zurückgekehrt: [CAN_king_full_name] hat seine Hochachtung für unsere Sache zum Ausdruck gebracht. Der König hat versprochen, dass wir uns auf ein gewisses Maß an militärischer Unterstützung verlassen können. Es scheint, dass die Entente nun ein effektiver Partner für unser Regime ist."
+tram.127.partialsupport: "Unser Gesandter ist mit guten Nachrichten zurückgekehrt: [CAN_king_full_name] hat seinen Respekt für unsere Sache bekundet. Der König hat zwar versprochen, uns teilweise zu unterstützen, aber er hat sich geweigert, uns vollständig zu unterstützen. Auch wenn das Ergebnis nicht so großartig ist, wie wir es uns erhofft hatten, ist eine gewisse Unterstützung durch die Entente höchst willkommen."
+tram.127.nosupport: "Unser Gesandter ist mit unerfreulichen Nachrichten zurückgekehrt: [CAN_king_full_name] hat wenig Interesse an unserer Sache gezeigt, um es gelinde auszudrücken. Der König sagte unverblümt, wir seien nichts weiter als eine Clique von Possenreißern, die verzweifelt versuchen, ihre missratene Herrschaft zu erhalten. Von der Entente hat er nichts versprochen, und unsere Beziehungen haben sich definitiv verschlechtert."
+tram.127.a: "Ziel, [RUS.Capital.GetCapitalVictoryPointName]!"
+tram.127.b: "Es ist besser als nichts!"
+tram.127.c: "Was für ein unhöflicher Mensch..."
+
+tram.128.t: "Vertrag von Wladiwostok"
+tram.128.d: "Der Krieg zwischen Japan und Transamur hat eindeutig nicht mit einer russischen Niederlage geendet. Die japanischen Truppen, die von den tapferen russischen Verteidigern immense Verluste hinnehmen mussten, waren so lange nicht in der Lage, Wladiwostok zu erobern, dass die ganze Perspektive, Transamur zu zähmen, nun einen zu hohen Preis zu haben scheint.\n\nKaiser [JAP.GetLeader] und [TRM.GetLeader] trafen sich heute in Wladiwostok, um einen Friedensvertrag zu unterzeichnen und alle Feindseligkeiten zwischen diesen beiden Ländern zu beenden. Es scheint, dass Japan sein einziges Druckmittel gegen Russland verloren hat. Das Volk von Transamur feiert diesen herausragenden Sieg."
+tram.128.a: "Verflucht seid ihr, Verräter."
+
+tram.129.t: "Verlegung der Hauptstadt nach [566.GetCapitalVictoryPointName]"
+tram.129.d: "Wir kontrollieren jetzt [566.GetName], das uns eine industrielle Basis für den Aufbau unseres Landes bietet. Um unsere Bestrebungen für ein vereinigtes Russland fortzusetzen, müssen wir die provisorische Hauptstadt nach [566.GetCapitalVictoryPointName] verlagern. Dies könnte die Japaner beunruhigen, da es ihnen einen Hinweis auf unser wahres Ziel geben würde, aber es würde auch ihren Einfluss verringern."
+tram.129.a: "Es ist das Risiko wert."
+
+tram.130.t: "Verlegung der Hauptstadt nach [653.GetCapitalVictoryPointName]"
+tram.130.d: "Da unsere Macht jeden Tag stärker wird, werden wir immer unabhängiger von Japan und seinen imperialen Ambitionen. Die Verlegung der provisorischen Hauptstadt nach [653.GetCapitalVictoryPointName] wird ihnen zeigen, dass wir nicht länger ihre Schoßhündchen sind."
+tram.130.a: "Ein Schritt näher zur Freiheit."
+
+tram.131.t: "Verlegung der Hauptstadt nach [219.GetName]"
+tram.131.d: "[219.GetCapitalVictoryPointName] ist seit 1712, als Peter der Große das heutige [193.GetCapitalVictoryPointName] zur Hauptstadt machte, nicht mehr die Hauptstadt eines vereinigten russischen Staates. Da das unrechtmäßige [193.GetCapitalVictoryPointName]-Regime die Stadt benutzte, sollten wir vielleicht [219.GetCapitalVictoryPointName] als unsere neue Hauptstadt in Betracht ziehen, nicht nur, um uns vom [193.GetCapitalVictoryPointName]-Regime zu distanzieren, sondern auch als Erinnerung an die Gründung von Russland."
+tram.131.a: "Es lebe Russland, eins und unteilbar!"
+
+tram.132.t: "Verlegung der Hauptstadt nach [195.GetName]"
+tram.132.d: "[195.GetCapitalVictoryPointName] has been the capital of a united Russian State since 1712 when Peter The Great created it from the ground up. Our government using the city as our capital is a sign of legitimacy and will allow the public see us a the legitimate Russian State."
+tram.132.a: "Es lebe Russland, eins und unteilbar!"
+
+tram.145.t: "Eine sich ändernde Einstellung"
+tram.145.d: "Die meisten Menschen in Russland sind der ständigen Kriege überdrüssig und wünschen sich ein Ende der Kämpfe. Nach dem jüngsten Sieg unseres Regimes glauben viele, dass wir den Menschen, die so lange gelitten haben, Frieden und Wohlstand bringen können."
+tram.145.a: "Russland darf sich nie wieder selbst bekämpfen"
+
+tram.1000.t: "Ein Angebot von einem alten Verbündeten?"
+tram.1000.d: "Der Teilstaat Wladiwostok hat tatsächlich gesiegt, und nun wurde eine Regierung eingesetzt, die über Russland regiert. Da wir in ihrer trostlosen Lage etwas Hilfe geleistet haben, haben sie ihre Unterstützung für die Entente angeboten."
+tram.1000.a: "Ihre Hilfe ist lebenswichtig, lasst sie herein!"
+tram.1000.b: "Haben sie nicht letztes Mal verloren??"
+
+tram.1001.t: "Wir sind jetzt ein Mitglied der Entente"
+tram.1001.d: "Das Britische Empire hat beschlossen, dass sich die Russen, Franzosen und Briten wieder zu einer Allianz zusammenschließen sollen. Gemeinsam werden wir die Welt wieder zur Vernunft bringen."
+tram.1001.a: "Wir werden die Gefallenen des ersten Weltkriegs rächen"
+
+tram.1002.t: "Die Entente lehnt uns ab"
+tram.1002.d: "Die Entente versteht offensichtlich nicht, was wir für ihre Kriegsanstrengungen tun könnten. Stattdessen lehnen sie uns ab, weil sie befürchten, in einen Krieg mit Deutschland hineingezogen zu werden."
+tram.1002.a: "Treulose Freunde!"
+
+### Parties ###
+TRM_totalist_party: "FETP"
+TRM_totalist_party_long: "Far Eastern Totalist Party"
+TRM_syndicalist_party: "FESP"
+TRM_syndicalist_party_long: "Far Eastern Syndicalist Party"
+TRM_radical_socialist_party: "TSP"
+TRM_radical_socialist_party_long: "Transamurian Socialist Party"
+TRM_social_democrat_party: "PFER"
+TRM_social_democrat_party_long: "People's Far East Party"
+TRM_social_liberal_party: "Demokraty"
+TRM_social_liberal_party_long: "Demokraty"
+TRM_market_liberal_party: "Narodniki"
+TRM_market_liberal_party_long: "Narodniki"
+TRM_social_conservative_party: "Zemchane"
+TRM_social_conservative_party_long: "Zemchane"
+TRM_authoritarian_democrat_party: "Delegatsiya"
+TRM_authoritarian_democrat_party_long: "Delegatsiya"
+TRM_paternal_autocrat_party: "Voennye"
+TRM_paternal_autocrat_party_long: "Voennye"
+TRM_national_populist_party: "Restavratory"
+TRM_national_populist_party_long: "Restavratory"
+
+### Companies ###
+hino_automobile: "Hino Automobile"
+eastern_siberian_railway: "Eastern Siberian Railway"
+vladivostok_university: "Vladivostok University"
+vladivostok_arsenals: "Vladivostok Arsenals"
+dalzavod_heavy_industries_tanks: "Dalzavod Tank Industries"
+siberian_aircraft_industries: "Siberian Aircraft Industries"
+dalzavod_naval_industries: "Dalzavod Naval Industries"
+nakajima_factory_vladivostok: "Nakajima Factory Vladivostok"
+
+### Ideas ###
+TRM_dream: "Großtransamurische Ambitionen"
+TRM_dream_desc: "Seit 1925 behauptet die transamurische Regierung, die rechtmäßige Regierung ganz Russlands zu sein, die von dem dreckigen Verräter und damaligen Präsidenten Alexander Kerenski abgesetzt wurde. Obwohl das Land in keiner guten Verfassung ist, hofft seine Führung, dass Transamur eines Tages eine Großmacht werden könnte."
+
+TRM_legacy_of_transamur: "Das Vermächtnis von Transamur"
+
+TRM_economic_ties_to_japan: "Wirtschaftliche Beziehungen zu Japan"
+TRM_economic_ties_to_japan_desc: "Das Regime in Wladiwostok ist hoffnungslos vom japanischen Kaiserreich abhängig geworden, und die Ranken des kaiserlichen Einflusses beherrschen viele Institutionen und Aspekte der transamurianischen Gesellschaft."
+
+TRM_martial_law: "Kriegsrecht"
+TRM_martial_law_desc: "Die Lage in unserem Land ist instabil. Um einen weiteren Putsch zu verhindern, wird das Kriegsrecht helfen, unser Volk vor sich selbst zu schützen."
+
+TRM_democracy_in_the_amur: "Demokratie am Amur"
+
+TRM_mil_stuff: "Loyales Militärkabinett"
+TRM_mil_stuff_desc: "Die Folgen unserer jüngsten Militärreformen haben zu einem nachgiebigeren Militärapparat geführt, was in einem Staat wie Transamur unerlässlich ist."
+
+TRM_purge: "Nachwirkungen der Säuberung"
+TRM_purge_desc: "Die Wiederherstellung der Unantastbarkeit einer ganzen Militärmaschinerie über Nacht ist eine komplizierte und frustrierende Angelegenheit. Es ist unvermeidlich, dass dies Konsequenzen hat. Langfristig werden wir jedoch eine Armee haben, die diesen Namen verdient."
+
+TRM_new_military: "Neues Militärkabinett"
+TRM_new_military_desc: "Unser Militär ist durch die jüngsten Reformen wesentlich regimetreuer und effektiver geworden."
+
+TRM_ships: "Neue Schiffsentwürfe"
+TRM_ships_desc: "Unsere Nation ist in gewisser Weise eine Marine mit einem Staat. Neue Kriegsschiffe sind für unser militärisches Prestige und auf lange Sicht für unser Überleben unerlässlich."
+
+TRM_modest_society: "Politische Stabilität"
+TRM_modest_society_desc: "Unsere Nation scheint sich endlich stabilisiert zu haben, und eine neue Ära des Wohlstands und der Macht für ganz Transamur unter unserer neuen so genannten 'Bescheidenen Gesellschaft' steht bevor."
+
+TRM_ural_tractor_plants: "Traktorwerke im Ural"
+
+### Focuses ###
+TRM_Continue_The_Militarisation: "Fortsetzung der Militarisierung"
+TRM_Continue_The_Militarisation_desc: "Viel zu lange haben wir uns zum Schutz auf die Japaner verlassen. Wir brauchen unsere eigene Armee - aber das wird Zeit und Mühe kosten."
+
+TRM_Expand_Military_Staff: "Aufstockung des Militärpersonals"
+TRM_Expand_Military_Staff_desc: "Wir haben einen Mangel an geeigneten Offizieren, die unsere Truppen befehligen. Wir müssen eine neue, junge Generation von Offizieren ausbilden."
+
+TRM_Northern_Expansion: "Nördliche Expansion"
+TRM_Northern_Expansion_desc: "Unserem Land mangelt es an Kämpfern, und unsere derzeitige Einberufungsquote scheint nicht auszureichen, um unsere Streitkräfte aufzustocken. Wenn wir die Wehrpflicht einführen, werden wir mehr Truppen haben, um gegen unsere Feinde zu kämpfen."
+
+TRM_Drill_The_Troops: "Drill der Truppen"
+TRM_Drill_The_Troops_desc: "Die Stärke einer effektiven Armee liegt nicht in der Zahl, sondern in ihrer Ausbildung. Eine gut ausgebildete Truppe wird uns zum Sieg führen!"
+
+TRM_Import_Military_Hardware: "Modernisierung der Ausrüstung"
+TRM_Import_Military_Hardware_desc: "Wir haben unsere Ausrüstung seit den 1920er Jahren nicht mehr modernisiert, und viele unserer Waffen sind gelinde gesagt veraltet. Wir können keines unserer Ziele erreichen, wenn wir unwirksame Waffen für unsere Soldaten haben."
+
+TRM_Equipment_Breakthrough: "Durchbruch bei der Ausrüstung"
+TRM_Equipment_Breakthrough_desc: "Vor kurzem haben wir erfolgreich eine brandneue Schusswaffe für unsere Soldaten entwickelt. Obwohl es sich derzeit nur um Prototypen handelt, können wir etwas Geld investieren, um sie in angemessenen Stückzahlen zu produzieren."
+
+TRM_Improve_Supply_Network: "Verbesserung des Versorgungsnetzes"
+TRM_Improve_Supply_Network_desc: "Mit dem zunehmenden Ausbau der Transsibirischen Eisenbahn wird ihre Nützlichkeit immer deutlicher. Wir haben sogar das Potenzial, ein landesweites Eisenbahnversorgungssystem zu schaffen, um Güter im ganzen Land zu liefern."
+
+TRM_Create_A_Motorised_Corps: "Gründung eines motorisierten Korps"
+TRM_Create_A_Motorised_Corps_desc: "Da unsere Armee von Tag zu Tag größer wird, brauchen wir mehr Transportmittel für unsere Truppen. Neue Lastwagen sollten sich als nützlich erweisen."
+
+TRM_Expand_The_Dalzavod_Facilities: "Ausbau der Dalzavod-Einrichtungen"
+TRM_Expand_The_Dalzavod_Facilities_desc: "Wir können unsere Fabrik in Dalzavod nutzen, um eine begrenzte Anzahl unserer eigenen Panzer zu produzieren. Panzer sind in der modernen Kriegsführung aufgrund ihrer Langlebigkeit von unschätzbarem Wert."
+
+TRM_Subsidise_The_Aviation_Sector: "Subventionierung des Luftfahrtsektors"
+TRM_Subsidise_The_Aviation_Sector_desc: "Unsere Luftwaffe ist seit vielen Jahren unterdurchschnittlich. Wenn wir sie wieder auf Vordermann bringen wollen, um mit regionalen Mächten konkurrieren zu können, müssen wir um jeden Preis finanzielle Mittel für die Luftfahrtforschung bereitstellen."
+
+TRM_Expand_The_Vladivostok_Airport: "Ausbau der Flughäfen"
+TRM_Expand_The_Vladivostok_Airport_desc: "Unser Land ist von der Revolution in der Luftfahrt abgehängt worden. Wir haben nicht einen einzigen modernen Flugplatz in unserem Land. Seit dem Weltkrieg sind Flugzeuge zu einer sehr tödlichen Kriegswaffe geworden, und als solche müssen wir sie besitzen. Ohne Fliegerhorste wäre selbst die größte Luftwaffe nutzlos."
+
+TRM_Irkutsk_Air_Base: "Luftwaffenstützpunkt Irkutsk"
+TRM_Irkutsk_Air_Base_desc: "Sibirien hat durchaus Platz für neue Landebahnen und Flugplätze. Wir wären dumm, wenn wir diese Tatsache nicht nutzen würden."
+
+TRM_Develop_Siberian_Air_Fields: "Entwicklung sibirischer Flugplätze"
+TRM_Develop_Siberian_Air_Fields_desc: "Unsere Luftwaffe braucht dringend neue Stützpunkte. Aus diesem Grund sollten wir in Nowosibirsk investieren."
+
+TRM_Develop_Fighters: "Entwicklung von Jägern"
+TRM_Develop_Fighters_desc: "Jäger sind der wichtigste Flugzeugtyp, den wir einsetzen sollten. Ohne sie können wir den Luftraum nicht beherrschen."
+
+TRM_CAS_Units: "CAS Einheiten"
+TRM_CAS_Units_desc: "Da wir jetzt die Luftüberlegenheit haben, können wir mit unseren CAS-Jägern den Boden stürmen. Sie sind auch für uns wertvoll."
+
+TRM_Modernise_The_Air_Command: "Modernisierung der Luftstreitkräfte."
+TRM_Modernise_The_Air_Command_desc: "Selbst mit den modernen Flugzeugen, die wir haben, brauchen wir immer noch einen angemessenen militärischen Stab, der sie befehligt. Wir sollten einige neue Offiziere intensiv ausbilden."
+
+TRM_Bombers_Of_The_East: "Bomber des Ostens"
+TRM_Bombers_Of_The_East_desc: "Der Himmel gehört uns, unsere Luftnahunterstützung stürmt den Boden, und wir können jetzt Flugzeuge herstellen, die unsere Feinde mit Sprengstoff auslöschen können."
+
+TRM_Russias_Eastern_Harbour: "Russlands Osthafen"
+TRM_Russias_Eastern_Harbour_desc: "Unter dem alten Zarenregime war Wladiwostok sowohl ein wichtiger Hafen als auch eine wichtige Stadt im russischen Fernen Osten, doch nach dem Russisch-Japanischen Krieg verlor Wladiwostok etwas an Bedeutung. Nach dem Weltkrieg und Koltschaks erfolglosem Putsch im Jahr 1925 erlebte die Stadt einen erneuten Aufschwung als wichtiger Handelshafen für die Japaner."
+
+TRM_Legacy_Of_The_Weltkrieg: "Das Erbe des Weltkriegs"
+TRM_Legacy_Of_The_Weltkrieg_desc: "Seit dem Ende des Weltkriegs ist viel Zeit vergangen. Das Denken in der Marine hat sich verändert, und neue Technologien wie Flugzeugträger und U-Boote haben eine große Entwicklung erfahren. Dennoch sind diese frivolen neuen Spielzeuge nichts im Vergleich zu den alten Kriegsschiffen. Eine mächtige Flotte würde alles vernichten, was sich ihr in den Weg stellt."
+
+TRM_The_Grand_Fleet: "Die große Flotte"
+TRM_The_Grand_Fleet_desc: "Seit der russischen Niederlage im Russisch-Japanischen Krieg ist die Pazifikflotte ein lebendes Beispiel für Elend. Als rechtmäßige Regierung Russlands ist es unsere Pflicht, den früheren Ruhm unserer Pazifikflotte wiederherzustellen."
+
+TRM_Expand_The_Vladivostok_Port_Authority: "Erweiterung der Hafenbehörde von Wladiwostok"
+TRM_Expand_The_Vladivostok_Port_Authority_desc: "Jede Woche laufen immer mehr Schiffe in unserem Hafen ein, und der Hafen von Wladiwostok ist durch diese endlosen Wellen von Frachtschiffen überlastet. Wir werden den Hafen ausbauen, um diese Probleme zu lösen."
+
+TRM_Pearl_Of_The_East: "Perle des Ostens"
+TRM_Pearl_Of_The_East_desc: "Wladiwostok ist unsere große Perle. Wir müssen alles tun, um unsere Stadt zum Machtzentrum Ostasiens zu machen. Unsere Bemühungen werden zu größeren Marineeinrichtungen und stärkeren Marinebefestigungen führen."
+
+TRM_A_New_Path: "Ein neuer Weg"
+TRM_A_New_Path_desc: "Der Aufstieg von U-Booten und Flugzeugträgern während des Weltkriegs war unerwartet. Seitdem haben sie sich als sehr effektiv erwiesen. Obwohl wir uns wahrscheinlich weiterhin auf unsere bestehende Hauptflotte verlassen werden, könnten wir sie vielleicht mit diesen neuen Schiffstypen verstärken?"
+
+TRM_Expand_Industry_In_Vladivostok: "Ausbau der Industrie in Wladiwostok"
+TRM_Expand_Industry_In_Vladivostok_desc: "Wir haben eine ausgeprägte Rückständigkeit der Industrie, die bald behoben werden muss. Wir sollten damit beginnen, unser Land Schritt für Schritt zu entwickeln. Auch wenn wir nur langsam vorankommen, werden die kleinen Fortschritte eines Tages zu einem wohlhabenden Land führen."
+
+TRM_Expand_Industry_In_Khabarovsk: "Ausbau der Industrie in Chabarowsk"
+TRM_Expand_Industry_In_Khabarovsk_desc: "Chabarowsk ist unsere zweitgrößte Stadt. Obwohl das Wort 'groß' in Bezug auf unser Land schwierig zu verwenden ist, können wir die Industrie in dieser Stadt ausbauen, um sie für unsere Zukunftspläne geeignet zu machen."
+
+TRM_Revive_The_Transsiberian_Railway: "Wiederbelebung der Transsibirischen Eisenbahn"
+TRM_Revive_The_Transsiberian_Railway_desc: "Wir sind jetzt im Besitz eines größeren Teils der Transsibirischen Eisenbahn. Die Bahn selbst ist in sehr schlechtem Zustand, aber wenn wir in den Wiederaufbau und die Verbesserung der Bahn investieren, werden sich unsere Versorgungslinien erheblich verbessern."
+
+TRM_Expand_Industry_In_The_Far_East: "Ausbau der fernöstlichen Industrie"
+TRM_Expand_Industry_In_The_Far_East_desc: "Der russische Ferne Osten ist eine riesige Einöde aus Schnee und Tundra. Aber selbst in diesem rauen Klima können wir einige neue Anlagen zur Entwicklung unserer Industrie eröffnen."
+
+TRM_Improve_The_Nikolayevsk_Port: "Verbesserung des Hafens von Nikolajewsk"
+TRM_Improve_The_Nikolayevsk_Port_desc: "Der Hafen von Nikolajewsk befindet sich in einem schlechten Zustand, da er von seinen früheren Eigentümern nicht mehr genutzt wird. Die Sanierung wird die Einrichtung eines neuen Marinestützpunktes ermöglichen."
+
+TRM_Industrialise_Lake_Baikal: "Industrialisierung des Baikalsees"
+TRM_Industrialise_Lake_Baikal_desc: "Wir haben jetzt die sehr entwickelte Industrieregion Irkutsk in unseren Händen. Sie hat bereits ein starkes industrielles Potenzial, aber wir können es noch weiter verbessern, wenn wir einige neue Anlagen eröffnen."
+
+TRM_Develop_Chita: "Entwickelt Chita"
+TRM_Develop_Chita_desc: "Das Land östlich des Baikalsees ist reich an Ressourcen, aber extrem unterentwickelt. Es wird lange dauern, bis wir diese Region aufgebaut haben, aber wir können jetzt damit beginnen."
+
+TRM_Siberian_Industrialisation: "Sibirische Industrialisierung"
+TRM_Siberian_Industrialisation_desc: "Westsibirien ist unsere wichtigste strategische Region, weil wir von dort aus die Verräter in Petrograd direkt angreifen können. Es müssen viele neue Anlagen gebaut werden, um uns vor der letzten Schlacht zu stärken."
+
+TRM_Expand_The_Baltic: "Erweitert das Baltikum"
+TRM_Expand_The_Baltic_desc: "Die baltischen Staaten sind wieder unter unserer Kontrolle. Wir sollten aus der Vergangenheit lernen und unsere Russifizierung nicht fortsetzen, sondern stattdessen ihre Industrie entwickeln und ihnen eine gewisse Illusion von Autonomie gewähren, damit sie mit unserer Herrschaft zufrieden sind."
+
+TRM_Build_Up_White_Russia: "Aufbau von Weißrussland"
+TRM_Build_Up_White_Russia_desc: "Die Region Weißrussland hat sich in den letzten Jahren nicht allzu sehr entwickelt, daher müssen wir an der Verbesserung des Gebiets arbeiten."
+
+TRM_Appease_The_Polish: "Besänftigung der Polen"
+TRM_Appease_The_Polish_desc: "Die Polen sind ein rebellisches Volk und müssen daher gezähmt werden, anstatt sie zu vernichten. Wir können unser Industrieprojekt auf die Region ausweiten, um ihnen die gewünschte Hilfe zukommen zu lassen."
+
+TRM_Industrialise_Central_Asia: "Industrialisierung Zentralasiens"
+TRM_Industrialise_Central_Asia_desc: "Zentralasien ist ein hervorragender Ort, um eine Industrie aufzubauen, denn im Vergleich zu anderen Regionen Russlands mangelt es dort derzeit an Industrie. Lasst uns die Region aufbauen!"
+
+TRM_Develop_The_Caucasus: "Entwicklung des Kaukasus"
+TRM_Develop_The_Caucasus_desc: "Die Länder des Kaukasus sind reich an Öl, weshalb Deutschland das Gebiet fest im Griff haben wollte. Wenn wir die Region unter unserer Kontrolle haben, können wir die Industrie für die Menschen, die lange gelitten haben, verbessern."
+
+TRM_RDS_1: "RDS-1"
+TRM_RDS_1_desc: "Mit der Rückeroberung der Hauptstadt tragen die dortigen Wissenschaftler nun zu unserer Forschung bei, was uns einen Vorteil gegenüber unseren Rivalen verschafft. Mit dem Ende der Industrialisierungskampagne schließen sich auch mehr Wissenschaftler in den neu eroberten Regionen unseren Reihen an. Diese Kombination hat uns geholfen, ganz neue Möglichkeiten für den Einsatz von Waffen in Kriegen zu entwickeln."
+
+TRM_Increase_Trade_With_Japan: "Ausbau des Handels mit Japan"
+TRM_Increase_Trade_With_Japan_desc: "Wir mögen die Japaner hassen, aber selbst ein Blinder kann verstehen, dass wir von ihrer Wirtschaft abhängig sind. Es wäre mehr als klug, unsere Handelsbeziehungen mit dem Kaiserreich zu verbessern."
+
+TRM_Aid_From_Japan: "Hilfe aus Japan"
+TRM_Aid_From_Japan_desc: "Wir können Japan bitten, etwas Geld in unsere Industrie zu investieren. Das wird uns erlauben, unser Land schneller zu entwickeln. Allerdings wird die Vertiefung der Beziehungen zwischen uns auch immer deutlicher werden, was bedeutet, dass unsere Bevölkerung unzufrieden sein wird."
+
+TRM_Zaibatsu_Investments: "Investitionen der Zaibatsu"
+TRM_Zaibatsu_Investments_desc: "Die japanischen Industriegiganten sehen in uns zunehmend einen nützlichen Markt für ihre Waren. Wenn wir jedoch weitere finanzielle Investitionen von ihnen verlangen, wird die Bevölkerung von Transamur zweifellos nicht gutheißen, dass wir uns bei Tokio anbiedern."
+
+TRM_Invite_Japanese_Instructors: "Einladung von japanischen Ausbildern"
+TRM_Invite_Japanese_Instructors_desc: "Obwohl die japanische Hilfe und die japanischen Investitionen sehr lukrativ waren, ist unsere Wirtschaft im Vergleich zu der des Landes der aufgehenden Sonne lächerlich ineffizient. Wir sollten unsere Freunde im Osten um Wirtschaftsberater bitten und die persönliche Unterstützung japanischer Industrieller anfordern. Ein solcher Schritt könnte jedoch zu massiven Unruhen in unserer Bevölkerung führen; diese Ausbilder könnten als Kolonisten angesehen werden."
+
+TRM_Russo_Japanese_Naval_Treaty: "Russisch-Japanischer Flottenvertrag"
+TRM_Russo_Japanese_Naval_Treaty_desc: "Da wir uns Japan annähern, sind sie bereit, einen Vertrag mit uns zu unterzeichnen, der es uns ermöglichen würde, mit japanischen Wissenschaftlern zusammenzuarbeiten, um Marinedoktrinen zu entwickeln. Allerdings wird dies wahrscheinlich unser Volk verärgern, das die japanischen Imperialisten hasst."
+
+TRM_Japanese_Military_Mission: "Japanische Militärmission"
+TRM_Japanese_Military_Mission_desc: "Unsere Marine profitiert in hohem Maße von unserer freundschaftlichen Beziehung zu Japan, die durch unsere jüngsten Bemühungen um eine gemeinsame Entwicklung der Marine immer ausgeprägter geworden ist. Wir sollten eine ähnliche Beziehung mit der japanischen Armee aufbauen. Dies wird jedoch wahrscheinlich zu weiterem Unmut in unserer Bevölkerung führen."
+
+TRM_Draw_Closer_To_Fengtian: "Annäherung an Fengtian"
+TRM_Draw_Closer_To_Fengtian_desc: "Das Regime in Fengtian steht ebenfalls unter starkem japanischen Einfluss und ist somit unser Verbündeter. Trotz dieser Tatsache und der geografischen Nähe unterhält unser Land diplomatische und wirtschaftliche Beziehungen zu Fengtian, die mit denen aller anderen Länder vergleichbar sind. Wir sollten unsere diplomatische Mission in der Hauptstadt von Fengtian ausbauen, um engere Beziehungen zu fördern."
+
+TRM_Invite_Fengtian_Workers: "Einladung von fengantischen Arbeitern"
+TRM_Invite_Fengtian_Workers_desc: "Im Westen liegen die riesigen Länder der Mandschurei, die von Zhang Zuolin regiert werden, der unser gelegentlicher Partner und Verbündeter ist. Viele arme Chinesen sind bereit, für uns zu arbeiten, und sei es nur für eine Schale Reis am Tag. Billige Arbeitskräfte könnten uns sehr helfen, aber japanische Beamte würden sie zweifellos nutzen, um ihren Einfluss auf unsere Politik zu vergrößern."
+
+TRM_Aftermath_Of_The_Coup: "Aftermath of the Coup"
+TRM_Aftermath_Of_The_Coup_desc: "Tensions in the Transamur regime are finally reaching fever pitch, and there is little doubt now that Kolchak's position is becoming increasingly untenable."
+
+TRM_All_Power_To_The_Admiral: "Alle Macht dem Admiral"
+TRM_All_Power_To_The_Admiral_desc: "Koltschak hat den Putsch überlebt und die rebellischen Generäle besiegt. Doch in Wladiwostok herrscht noch immer Ungewissheit. Nur ein starker Führer ist in der Lage, das Volk zu beruhigen und die Ordnung in Transamur wiederherzustellen."
+
+TRM_Purge_The_Army: "Säuberung der Armee"
+TRM_Purge_The_Army_desc: "Um weitere Putsche und Rebellionen zu vermeiden, muss der gesamte Apparat des militärischen Oberkommandos überprüft werden. Zweifellos gibt es noch immer einige Gegner der Regierung Koltschak, die aus ihren Ämtern entfernt werden müssen. Diese harten Maßnahmen werden jedoch die Fähigkeiten unserer Armee für einige Zeit beeinträchtigen."
+
+TRM_The_Supreme_Ruler: "Der Oberste Herrscher"
+TRM_The_Supreme_Ruler_desc: "Koltschak behauptet von sich selbst, der \"Oberste Herrscher Russlands\" zu sein. Damit unser Führer sein Image aufpolieren kann, braucht er eine starke Propagandamaschine, die ihm hilft, einen effektiven Personenkult zu betreiben. Jeder sollte von seiner glorreichen Persönlichkeit und seinen großen Taten wissen. Koltschak muss in den Augen seines Volkes als Vater der Nation gesehen werden."
+
+TRM_New_Leadership: "Neue Führung"
+TRM_New_Leadership_desc: "Koltschak ist tot und eine neue Diktatur hat sich erhoben. Es wird einige Zeit dauern, bis die Regierung reorganisiert und der neue Diktator legitimiert ist."
+
+TRM_Military_Reforms: "Militärische Reformen"
+TRM_Military_Reforms_desc: "Jede Diktatur stützt sich auf ihre Armee, und deshalb ist es von entscheidender Bedeutung, dass unverzüglich Reformen zur Verbesserung der militärischen Effizienz durchgeführt werden. Nur die loyalsten und effizientesten Streitkräfte werden uns erhalten können."
+
+TRM_Modern_Equipment: "Kauf moderner Ausrüstung"
+TRM_Modern_Equipment_desc: "Unsere Ausrüstung ist veraltet und wir müssen uns an den Weltmarkt wenden. Vielleicht gelingt es uns sogar, Blaupausen zu erwerben, um selbst neue Geräte zu produzieren."
+
+TRM_Political_Stabilisation: "Politische Stabilisierung"
+TRM_Political_Stabilisation_desc: "Die Lage hat sich endlich stabilisiert. Niemand kann unsere Legitimität anzweifeln, unsere Grenzen werden von einer starken und modernen Armee geschützt. Die Menschen haben gelernt, bescheiden zu sein und ihr Geld und ihre Anstrengungen nicht für unsinnige Dinge zu verschwenden. In Transamur ist endlich wieder Ordnung eingekehrt."
+
+TRM_Victory_For_Democracy: "Sieg für die Demokratie"
+TRM_Victory_For_Democracy_desc: "Wir haben endlich unsere Freiheit erlangt. Keine Diktatoren mehr, keine verrückten Militaristen. Es ist an der Zeit, dass sich die wahre Demokratie erhebt und die Präsenz der Autokraten auslöscht."
+
+TRM_Scientific_Investments: "Wissenschaftliche Investitionen"
+TRM_Scientific_Investments_desc: "Der Einfluss der Wissenschaft auf die heutige Welt ist unbestreitbar, und wir sollten uns das zunutze machen und etwas Geld in die großen Köpfe unseres Landes investieren. Wenn wir für sie angemessene Arbeitsbedingungen schaffen, werden ihre Bemühungen noch effektiver sein."
+
+TRM_Subsidise_Industrial_Expansion: "Subventionierung der industriellen Expansion"
+TRM_Subsidise_Industrial_Expansion_desc: "Weitere Investitionen werden es uns ermöglichen, unsere Anlagen zu erweitern und unsere Industrie produktiver zu machen. Es können viele neue Arbeitsplätze geschaffen werden, was mehr stabile Beschäftigung und Sicherheit für die Menschen bedeutet."
+
+TRM_Encourage_Free_Trade: "Förderung des Freihandels"
+TRM_Encourage_Free_Trade_desc: "Jetzt, wo Koltschak weg ist, müssen wir die Wirtschaft öffnen und den freien Handel hierher bringen. Auf diese Weise werden ausländische Investoren für Wohlstand sorgen und unsere Investoren werden anderen Ländern die Macht von [Root.GetNameDef] zeigen. Auf diese Weise werden wir sowohl in den Augen unseres Volkes als auch der internationalen Gemeinschaft als die rechtmäßige Regierung Russlands erscheinen."
+
+TRM_Vladivostok_Under_Japan: "Wladiwostok unter Japan"
+TRM_Vladivostok_Under_Japan_desc: "Die Japaner waren in Transamur noch nie willkommen. Die Nachricht, dass Transamur direkt von General Shigemoto verwaltet werden soll, hat viele in Wladiwostok schockiert und bei vielen erbitterten Nationalisten große Bestürzung ausgelöst. Es wird viel Zeit und Mühe kosten, dieses neue 'Schoßhündchen'-Regime in den Augen der Bevölkerung zu legitimieren."
+
+TRM_Attract_Japanese_Immigrants: "Anziehung japanischer Einwanderer"
+TRM_Attract_Japanese_Immigrants_desc: "Jetzt, da unser Marionettenregime auf festerem Boden steht, ist die Zeit gekommen, die ersten Schritte zur Japanisierung der gesamten Region zu unternehmen. Eine erste Welle japanischer Kolonisten ist bereits eingetroffen - es handelt sich um Lehrer, Ärzte und Ingenieure; ihre Qualifikationen werden uns sehr helfen."
+
+TRM_Invite_Japanese_Workers: "Einladung von japanischen Arbeitern"
+TRM_Invite_Japanese_Workers_desc: "Da das Kolonisierungsprogramm bereits angelaufen ist, werden bald Tausende hungriger armer Japaner auf der Suche nach Arbeit in unser Land fliehen. Billige Arbeitskräfte und Investitionen vom Festland bedeuten neue Einrichtungen und neue Fähigkeiten."
+
+TRM_Pro_Tokyo_Propaganda: "Pro-Tokio-Propaganda"
+TRM_Pro_Tokyo_Propaganda_desc: "Der Widerstand der Russen gegen unsere kulturelle Assimilierung ist noch stärker, als wir erwartet haben. Daher sollten wir Maßnahmen ergreifen, um sie daran zu hindern, Russisch zu sprechen, zu hören und sogar zu denken. Wir sollten eine massive Propagandakampagne starten, um zu untergraben, was es heißt, Russe zu sein, die Liebe der Menschen zu Japan zu stärken und sie schließlich zu assimilieren."
+
+TRM_Major_Education_Reform: "Große Bildungsreform"
+TRM_Major_Education_Reform_desc: "Ganz gleich, ob es sich um eine Diktatur oder eine Demokratie handelt, die Aspekte der Bildung sind in beiden Fällen eindeutig. Weder Männer noch Frauen haben jemals einen Krieg gewonnen, sondern die Wissenschaft. Wir müssen so viel wie möglich investieren, um unseren Wissenschaftlern alles zu geben, was sie wollen."
+
+TRM_Occupy_The_Russian_Far_East: "Besetzt den russischen Fernen Osten"
+TRM_Occupy_The_Russian_Far_East_desc: "Russland befindet sich jetzt im Kriegszustand. Während sie im Westen beschäftigt sind, können wir sie im Osten unter Druck setzen. Wir müssen sie sofort von unserem rechtmäßigen Land vertreiben."
+
+TRM_The_Long_Road_To_Moscow: "Der lange Weg nach Moskau"
+TRM_The_Long_Road_To_Moscow_desc: "Die Zeit ist gekommen! Tag für Tag träumen wir von dem Zeitpunkt, an dem wir unsere Feinde in Moskau angreifen werden. Wir sind nicht mehr nur [Root.GetNameDef]. Nein, unser Anspruch auf den Mantel der Russischen Republik wird nicht mehr nur eine Behauptung sein, sondern eine solide Tatsache! Wir werden Mütterchen Russland von den Verrätern befreien, die es zerstört haben."
+
+TRM_Russia_One_And_Indivisible: "Russland, eins und unteilbar"
+TRM_Russia_One_And_Indivisible_desc: "Die Zeit des Krieges ist zu Ende gegangen. Jetzt ist die Zeit gekommen, in der ein neues, stärkeres Russland entstehen wird. Keine Verräter mehr, keine Bolschewiken, keine japanischen Imperialisten. Wir sind jetzt Russland!"
+
+TRM_Secure_Kazakhstan: "Sichert Kasachstan"
+TRM_Secure_Kazakhstan_desc: "Kasachstan ist groß und wohlhabend. Wenn wir erst einmal dabei sind, können wir noch weiter nach Süden schauen, nach Turkestan."
+
+TRM_Secure_Turkestan: "Sichert Turkestan"
+TRM_Secure_Turkestan_desc: "Turkestan ist nicht besonders wohlhabend oder gar bevölkerungsreich. Aber schon bald wird es uns gehören, und es wird uns hervorragend als Brückenkopf zu den wohlhabenden persischen und indischen Provinzen dienen, wenn wir es brauchen."
+
+TRM_Secure_Armenia: "Sichert Armenien"
+TRM_Secure_Armenia_desc: "Das armenische Volk teilt unseren Glauben. Daher sollten sie nur glücklich sein, zu unserer Herrschaft zurückzukehren, oder?"
+
+TRM_Secure_Georgia: "Sichert Georgien"
+TRM_Secure_Georgia_desc: "Obwohl Georgien nicht groß, reich oder mächtig ist, müssen wir uns sofort mit ihnen befassen... Es ist eine Frage des Prinzips. Dies ist Land, das uns während des Weltkriegs gestohlen wurde. Bald wird es wieder zu uns gehören, zusammen mit dem Rest von ihnen."
+
+TRM_Secure_Azerbaijan: "Sichert Aserbaidschan"
+TRM_Secure_Azerbaijan_desc: "Lange Zeit waren wir auf teure Ölimporte angewiesen, um unsere Kriegsmaschinerie am Laufen zu halten. Alles, was zwischen uns und einer autarken Wirtschaft steht, ist der kleine, schwache Staat Aserbaidschan."
+
+TRM_On_Our_Own: "Auf eigene Faust"
+TRM_On_Our_Own_desc: "Russland sollte kein Schoßhündchen für eine andere Nation sein. Es ist an der Zeit, dass wir unser eigenes Bündnis bilden und nicht mehr nach der Pfeife anderer tanzen!"
+
+TRM_Join_the_Entente: "Tretet der Entente an"
+TRM_Join_the_Entente_desc: "Während des Weltkrieges standen wir an der Seite Großbritanniens und Frankreichs gegen die germanischen Hunnen und ihre Verbündeten. Jetzt, wo wir wieder an der Macht sind, werden sie sicher bereit sein, uns zu helfen, schließlich war Koltschak ein guter Freund von Georg V."
+
+TRM_Invade_White_Ruthenia: "Maschiert in [WHR.GetNameDef] ein"
+TRM_Invade_White_Ruthenia_desc: "Der abtrünnige Staat, der gemeinhin Weißrussland genannt wird, wurde während der alten Teilungen beansprucht, um dann vom Kaiser eingenommen zu werden. Diesmal werden wir unser Land nicht verlieren!"
+
+TRM_Crush_Ukraine: "Vernichtung der Ukraine"
+TRM_Crush_Ukraine_desc: "Mächtige deutsche Armeen hatten die Ukraine seit der Oktoberrevolution vor der Annexion geschützt. Doch jetzt, da wir wieder an der Macht sind, haben wir die Chance, die Ukraine wieder mit Russland zu vereinen."
+
+TRM_Crush_The_German_Hegemony: "Zerschlagung der deutschen Hegemonie"
+TRM_Crush_The_German_Hegemony_desc: "Die Verluste aus dem Friedensvertrag von Brest-Litowsk sind zu groß, um sie zu zählen. Es ist an der Zeit, dass wir Russland den Ruhm zurückgeben, den es vor dem Weltkrieg hatte!"
+
+TRM_Secure_Karelia: "Sichert Karelien"
+TRM_Secure_Karelia_desc: "Finnland und sein falscher König haben Russland lange genug verhöhnt. Es ist an der Zeit, dass wir wieder einmal russische Truppen nach Helsinki schicken."
+
+### Tooltips ###
+TRM_demand_warning: "§RWenn sie sich weigern, werden wir gezwungen sein, den Krieg zu erklären!§!"
+TRM_agitation_tooltip: "Die Ergebnisse unserer Bemühungen können unterschiedlich ausfallen, und es gibt keine Garantie für den Erfolg.\n"
+TRM_motorised_tooltip: "Zwei £nato_unit_motorized_icon_small  §HMotorisiert§! Divisionen werden eingesetzt."
+TRM_generals_join_us: "Mikhail Tornovsky und Nikolay Kazagrandi werden als Generäle für unsere Armee zur Verfügung stehen!"
+
+### Flags ###
+TRM_capital_nov: "Nowosibirsk ist die derzeitige Hauptstadt"
+TRM_capital_mos: "Moskau ist die derzeitige Hauptstadt"
+TRM_capital_stp: "Petrograd ist die derzeitige Hauptstadt"
+TRM_move_capital: "Verlegung der Hauptstadt von Wladiwostok"
+TRM_militia_raised: "Milizeinheiten sind gebildet worden"
+TRM_entente_full_support: "Volle Unterstützung durch die Entente"
+TRM_entente_partial_support: "Teilweise Unterstützung durch die Entente"
+
+### Decisions ###
+TRM_japanese_influence: "Japanische Präsenz in Wladiwostok"
+TRM_japanese_influence_desc: "Unsere Regierung wird von der russischen Bevölkerung nicht als legitimer russischer Staat angesehen, was durch den ständig wachsenden Einfluss Tokios noch deutlicher wird. Wir müssen sicherstellen, dass wir bei ihren Treffen eine 'gute Show' abziehen, in der Hoffnung, dass sie keine Anzeichen von Illoyalität vermuten."
+
+TRM_visit_from_japan: "Ein Besuch unserer Meister"
+TRM_visit_from_japan_desc: "Isoliert und auf den Fernen Osten beschränkt, haben wir in diesen turbulenten Zeiten keine Verbündeten, die uns in unserem glorreichen Kreuzzug unterstützen. Wir haben jedoch von der japanischen Botschaft in Wladiwostok erfahren, dass die Japaner bereit sind, uns zu unterstützen, sei es durch finanzielle Hilfe oder sogar durch Waffen und Ausrüstung. Wir sind zwar dankbar dafür, dass Japan unsere Ziele anerkennt, aber wir müssen vorsichtig sein, denn die japanischen Forderungen sind nur noch gestiegen, und ihre Delegation wird in Zukunft zweifellos noch mehr von uns verlangen."
+
+TRM_zaibatsus: "Eröffnet eine Zaibatsu-Konzession"
+TRM_zaibatsus_desc: "Unsere Wirtschaftspartnerschaft mit Japan zieht eine Menge Geld und Investitionen an, so viel ist wahr. Heute hat die japanische Delegation in Wladiwostok einen direkten Appell an unsere Führung gerichtet, eine neue Konzession in Transamur zu eröffnen."
+
+TRM_support_anti_japanese_rally: "Anti-Japanische Kundgebung unterstützen"
+TRM_support_anti_japanese_rally_desc: "Unsere Spezialagenten arbeiten eng mit lokalen antijapanischen Bewegungen zusammen. Wir könnten ihnen Mittel für eine \"spontane\" Kundgebung zur Verfügung stellen, die die japanische Position in Transamur schwächen würde."
+
+TRM_hold_vladivostok: "Wladiwostok von Japan aus halten"
+TRM_hold_vladivostok_desc: "Wir haben kaum Chancen, die japanischen Truppen bis zum Meer zurückzuschlagen. Unsere einzige Überlebenschance besteht darin, Wladiwostok lange genug zu halten, um den Sinn dieses Krieges in den Köpfen der Japaner zu zerstören. Wie ein russisches Sprichwort sagt: \"Der schwer fassbare Joe ist schwer fassbar, weil niemand ihn finden will\". Wir sollten für die Japaner dieser Joe sein."
+
+TRM_raise_militia: "Aufstellen einer städtischen Miliz in Wladiwostok"
+TRM_raise_militia_desc: "Die Zeit ist gekommen, für unsere Freiheit zu kämpfen. Patriotische Bürger von Wladiwostok bilden Milizgruppen, um ihre Heimat zu verteidigen. Mit ein wenig Hilfe von uns können wir sie in Hilfstruppen organisieren, um die Reihen aufzufüllen."
+
+TRM_russian_expansion: "Angelegenheiten des russischen Staates"
+TRM_russian_expansion_desc: "Wir sind der legitime russische Staat und nicht die Heuchler, die wir das Petrograder Regime nennen. Es gibt jedoch einige Dinge, die wir tun müssen, um sicherzustellen, dass nicht nur das russische Volk, sondern die ganze Welt dies auch so sieht. Lang lebe Russland, eins und unteilbar!"
+
+TRM_relocate_capital_1: "Einrichtung einer provisorischen Hauptstadt in Irkutsk"
+TRM_relocate_capital_1_desc: "Wir werden eine provisorische Hauptstadt in Irkutsk errichten"
+
+TRM_relocate_capital_2: "Verschiebung der provisorischen Hauptstadt nach [653.GetCapitalVictoryPointName]"
+TRM_relocate_capital_2_desc: "Wir werden die vorläufige Hauptstadt nach [653.GetCapitalVictoryPointName] verlegen"
+
+TRM_relocate_capital_3: "Macht Moskau zur Hauptstadt des Staates"
+TRM_relocate_capital_3_desc: "Moskau wird zur ständigen Hauptstadt des Landes ernannt"
+
+TRM_relocate_capital_4: "Macht Petrograd zur Hauptstadt des Staates"
+TRM_relocate_capital_4_desc: "Petrograd wird zur ständigen Hauptstadt des Landes gemacht"
+
+### Country Names ###
+TRM: "Transamur"
+TRM_ADJ: "Transamurisch"
+TRM_DEF: "Transamur"
+ 
+TRM_social_democrat: "Transamurische Republik"
+TRM_social_democrat_ADJ: "Transamurisch"
+TRM_social_democrat_DEF: "die Transamurische Republik"
+TRM_social_liberal: "Transamurische Republik"
+TRM_social_liberal_ADJ: "Transamurisch"
+TRM_social_liberal_DEF: "die Transamurische Republik"
+TRM_market_liberal: "Transamurische Republik"
+TRM_market_liberal_ADJ: "Transamurisch"
+TRM_market_liberal_DEF: "die Transamurische Republik"
+TRM_social_conservative: "Transamurische Republik"
+TRM_social_conservative_ADJ: "Transamurisch"
+TRM_social_conservative_DEF: "die Transamurische Republik"
+
+TRM_FE: "Russischer Ferner Osten"
+TRM_FE_ADJ: "Fernöstlich"
+TRM_FE_DEF: "der Russische Ferne Osten"
+ 
+TRM_FE_totalist: "Fernöstliche Union"
+TRM_FE_totalist_ADJ: "Fernöstliche"
+TRM_FE_totalist_DEF: "die Fernöstliche Union"
+TRM_FE_radical_socialist: "Fernöstliche Union"
+TRM_FE_radical_socialist_ADJ: "Fernöstliche"
+TRM_FE_radical_socialist_DEF: "die Fernöstliche Union"
+TRM_FE_syndicalist: "Fernöstliche Union"
+TRM_FE_syndicalist_ADJ: "Fernöstliche"
+TRM_FE_syndicalist_DEF: "die Fernöstliche Union"
+TRM_FE_social_democrat: "Fernöstliche Republik"
+TRM_FE_social_democrat_ADJ: "Fernöstliche"
+TRM_FE_social_democrat_DEF: "die Fernöstliche Republik"
+TRM_FE_social_liberal: "Fernöstliche Republik"
+TRM_FE_social_liberal_ADJ: "Fernöstliche"
+TRM_FE_social_liberal_DEF: "die Fernöstliche Republik"
+TRM_FE_market_liberal: "Fernöstliche Republik"
+TRM_FE_market_liberal_ADJ: "Fernöstliche"
+TRM_FE_market_liberal_DEF: "die FFernöstliche Republik"
+TRM_FE_social_conservative: "Fernöstliche Republik"
+TRM_FE_social_conservative_ADJ: "Fernöstliche"
+TRM_FE_social_conservative_DEF: "die Fernöstliche Republik"
+TRM_FE_authoritarian_democrat: "Russische Fernöstliche Republik"
+TRM_FE_authoritarian_democrat_ADJ: "Fernöstliche"
+TRM_FE_authoritarian_democrat_DEF: "die Russische Fernöstliche Republik"
+TRM_FE_paternal_autocrat: "Russische Fernöstliche Republik"
+TRM_FE_paternal_autocrat_ADJ: "Fernöstliche"
+TRM_FE_paternal_autocrat_DEF: "die Russische Fernöstliche Republik"
+TRM_FE_national_populist: "Russische Fernöstliche Republik"
+TRM_FE_national_populist_ADJ: "Fernöstliche"
+TRM_FE_national_populist_DEF: "die Russische Fernöstliche Republik"
+
+TRM_RUS: "Russland"
+TRM_RUS_ADJ: "Russisch"
+TRM_RUS_DEF: "Russland"
+ 
+TRM_RUS_totalist: "Russische Republik"
+TRM_RUS_totalist_ADJ: "Russisch"
+TRM_RUS_totalist_DEF: "die Russische Republik"
+TRM_RUS_syndicalist: "Russische Republik"
+TRM_RUS_syndicalist_ADJ: "Russisch"
+TRM_RUS_syndicalist_DEF: "die Russische Republik"
+TRM_RUS_radical_socialist: "Russische Republik"
+TRM_RUS_radical_socialist_ADJ: "Russisch"
+TRM_RUS_radical_socialist_DEF: "die Russische Republik"
+TRM_RUS_social_democrat: "Russische Republik"
+TRM_RUS_social_democrat_ADJ: "Russisch"
+TRM_RUS_social_democrat_DEF: "die Russische Republik"
+TRM_RUS_social_liberal: "Russische Republik"
+TRM_RUS_social_liberal_ADJ: "Russisch"
+TRM_RUS_social_liberal_DEF: "die Russische Republik"
+TRM_RUS_market_liberal: "Russische Republik"
+TRM_RUS_market_liberal_ADJ: "Russisch"
+TRM_RUS_market_liberal_DEF: "die Russische Republik"
+TRM_RUS_social_conservative: "Russische Republik"
+TRM_RUS_social_conservative_ADJ: "Russisch"
+TRM_RUS_social_conservative_DEF: "die Russische Republik"
+TRM_RUS_authoritarian_democrat: "Russische Republik"
+TRM_RUS_authoritarian_democrat_ADJ: "Russisch"
+TRM_RUS_authoritarian_democrat_DEF: "die Russische Republik"
+TRM_RUS_paternal_autocrat: "Russische Republik"
+TRM_RUS_paternal_autocrat_ADJ: "Russisch"
+TRM_RUS_paternal_autocrat_DEF: "die Russische Republik"
+TRM_RUS_national_populist: "Russische Republik"
+TRM_RUS_national_populist_ADJ: "Russisch"
+TRM_RUS_national_populist_DEF: "die Russische Republik"
+
+TRM_free_russia: "Freies Russland"
+TRM_free_russia_ADJ: "Russisch"
+TRM_free_russia_DEF: "Freies Russland"
+
+TRM_GU: "Grüne Ukraine"
+TRM_GU_ADJ: "Grün Ukrainisch"
+TRM_GU_DEF: "Grüne Ukraine"
+
+### Characters ###
+RUS_aleksandr_krasnoshchyokov: "Aleksandr Krasnoshchyokov"
+
+RUS_boris_shumyatsky: "Boris Shumyatsky"
+RUS_boris_shumyatsky_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 16. November 1886, in Werchneudinsk, Gebiet Transbaikalien, Russisches Reich\n§YPolitikkarriere:§! Boris Schumjatskys Eltern wurden ins Exil nach Sibirien gezwungen, weil sie sich weigerten, ihre Heimat zu verlassen. Dieser Vorfall hat Schumyatsky nicht losgelassen und ihn immer wieder an die Korruption innerhalb der zaristischen Regierung in Petrograd erinnert. Als ehemaliger Bolschewik war Schumjatski gezwungen, Russland nach dem Ende des Russischen Bürgerkriegs zu verlassen, und ist heute ein einflussreicher Politiker in Transamur. Obwohl sich seine politischen Ansichten nach rechts verschoben haben, verfolgt Schumjatski weiterhin das Ziel, Transamur zu einem Wohlfahrtsstaat zu machen. Seine frühere Erfahrung als bolschewistischer Agitator hat ihm geholfen, bei den Präsidentschaftswahlen die Mehrheit der Stimmen zu gewinnen."
+
+RUS_viktor_pepelyaev: "Viktor Pepelyayev"
+
+RUS_spiridon_merkulov: "Spiridon Merkulov"
+RUS_spiridon_merkulov_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 1870, in Blagoweschtschensk, Oblast Amur, Russisches Reich\n§YPolitikkarriere:§! Merkulovs Kabinett, ein ehemaliger Führer der pro-japanischen provisorischen Primorsk-Regierung, war in Semyonovs Staat Transbaikal eingegliedert worden. Jetzt, da Koltschak ihm nicht mehr im Wege steht und die Demokratie endlich nach Wladiwostok zurückgekehrt ist, möchte Merkulow, Sohn eines einfachen Bauern, Transamur zu Wohlstand führen. Seine weitreichenden und persönlichen Beziehungen zum Volk haben ihm bei den Präsidentschaftswahlen die Mehrheit der Stimmen eingebracht."
+
+RUS_oi_shigemoto: "Oi Shigemoto"
+
+RUS_grigory_semyonov: "Grigory Semyonov"
+RUS_grigory_semyonov_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 25. September 1890, in Kuranzha, Gebiet Transbaikalien, Russisches Reich\n§YPolitikkarriere:§! Semyonov, ein Ataman der Baikalkosaken, und seine Jungs hatten es geschafft, einen transbaikalischen Staat zu gründen, der heute unter dem Namen Transamur bekannt ist, um die Bolschewiken zu bekämpfen, die im russischen Fernen Osten agitiert hatten. Sein neugeborenes Land wurde bald von Japan unterjocht. Nachdem Koltschaks Putsch 1925 gescheitert war und der abtrünnige Admiral Russland in Richtung Transamur verlassen hatte, war Semjönow gezwungen, zurückzutreten und seine Karriere als Militärkommandant fortzusetzen. Dem 'Staatsvater' ist es jedoch gelungen, politisch einflussreich zurückzukehren. Semyonovs einziges Ziel ist das Gedeihen Transamurs, und um dies zu erreichen, ist er nicht bereit, ungewisse Kriege zu führen."
+
+RUS_aleksandr_kolchak: "Aleksandr Kolchak"
+RUS_aleksandr_kolchak_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 16. November 1874, in Sankt Petersburg, Gouvernement Sankt Petersburg, Russisches Reich\n§YPolitikkarriere:§! Der ehemalige Polarforscher und Kommandeur der kaiserlich-russischen Marine, der sowohl im Russisch-Japanischen Krieg als auch im Weltkrieg kämpfte, versuchte, sich zum "Obersten Herrscher Russlands" zu ernennen, fand jedoch nicht genügend Unterstützung. Sein Verhältnis zur Regierung der neu gegründeten Russischen Republik war aufgrund der Annahme des Vertrags von Brest-Litowsk durch diese sehr angespannt und gipfelte in seinem gescheiterten Putschversuch gegen die "deutschen Schoßhunde" im Jahr 1925. Dem abtrünnigen Admiral gelang es, aus Russland zu fliehen und im pro-japanischen Staat Transamur Unterschlupf zu finden. Jetzt ist Koltschak eine Marionette Tokios und versucht, genügend Macht und Unterstützung zu sammeln, um die Regierung in Petrograd zu stürzen und sich selbst zum Führer Russlands zu ernennen."
+
+RUS_sergey_wojciechowski: "Sergey Wojciechowski"
+RUS_sergey_wojciechowski_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 16. Oktober 1883, in Witebsk, Gouvernement Witebsk, Russisches Reich\n§YPolitikkarriere:§! Der Anführer der tschechoslowakischen Legion und Held des russischen Bürgerkriegs, Wojciechowski hat sich geweigert, den Vertrag von Brest-Litowsk als rechtmäßig anzuerkennen. Empört brach er jeden Kontakt mit der Regierung der Russischen Republik ab und ging nach Transamur, wo er viele Anhänger fand. Sergej, der früher die rechte Hand von Admiral Koltschak war, verriet und tötete seinen 'Freund'. Weniger aggressiv und ehrgeizig als der abtrünnige Admiral und als abgehärteter Veteran ist Wojciechowski nun bereit, nach Westen vorzustoßen."
+
+RUS_anatoly_pepelyaev: "Anatoly Pepelyaev"
+RUS_sergey_baranovsky: "Sergey Baranovsky"
+RUS_mikhail_khanzhin: "Mikhail Khanzhin"
+RUS_dmitry_semyonov: "Dmitry Semyonov"
+RUS_vladimir_tolstov: "Vladimir Tolstov"
+RUS_leonid_skipetrov: "Leonid Skipetrov"
+RUS_vasily_boldyrev: "Vasily Boldyrev"
+RUS_georgiy_stark: "Georgy Stark"
+RUS_pyotr_nikiforov: "Pyotr Nikiforov"
+RUS_nikolay_uhtomski: "Nikolay Uhtomski"
+RUS_aleksey_sirodenko: "Aleksey Sirodenko"
+RUS_magomed_gasanovich: "Magomed Gasanovich"
+RUS_roman_basilievsky: "Roman Basiliavsky"
+RUS_dimitry_lebedev: "Dimitry Lebedev"
+RUS_nikolay_krhistenko: "Nikolay Khristenko"
+RUS_arkady_udintsev: "Arkady Udintsev"
+RUS_TRM_council_of_theorists: "Vladivostok Military Academy"

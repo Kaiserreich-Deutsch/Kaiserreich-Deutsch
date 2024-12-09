@@ -1,0 +1,790 @@
+﻿l_german:
+
+## Übersetzt von Thylon ##
+
+##################################
+### Generic Political Advisors ###
+##################################
+
+### Placeholder Generic Characters ###
+KR_generic_parliament_sic: "Ermächtigte Legislative"
+KR_generic_authoritarian_sic: "Ermächtigte Exekutive"
+KR_generic_socialist_sic: "Ermächtigte Gewerkschaften"
+
+### Placeholder Traits ###
+KR_parliament_sic: "Legislative"
+KR_authoritarian_sic: "Kontrollierte Legislative"
+KR_socialist_sic: "Gestärkte Gewerkschaften"
+KR_colonial_government_sic: "Koloniale Regierung"
+KR_colonial_government_paperless_sic: "$KR_colonial_government_sic$"
+
+### Political ###
+KR_backroom_backstabber: "Hinterzimmer-Verräter"
+KR_compassionate_gentleman: "Mitfühlender Gentleman"
+KR_flamboyant_brute: "Flamboyant Brute"
+KR_great_compromiser: "Großer Kompromissler"
+KR_happy_amateur: "Fröhlicher Amateur"
+KR_iron_fisted_brute: "Eiserne-Faust-Brut"
+KR_man_of_the_people: "Mann des Volkes"
+KR_naive_optimist: "Naiver Optimist"
+KR_plodding_bureaucrat: "Schwerfälliger Bürokrat"
+KR_political_protege: "Politischer Protegé"
+KR_political_specialist: "Politischer Spezialist"
+KR_popular_figurehead: "Populäre Galionsfigur"
+KR_quartermaster_general: "Quartiermeister"
+KR_ideological_crusader: "Ideologischer Kreuzritter"
+KR_pragmatic_statesman: "Pragmatischer Staatsmann"
+KR_prince_of_terror: "Fürst des Schreckens"
+KR_silent_workhorse: "Unscheinbares Arbeitstier"
+KR_ultranationalist_agitator: "Ultranationalistischer Hetzer"
+
+### Economic ###
+KR_agricultural_economist: "Agrarökonom"
+KR_austere_finance_advocate: "Anwalt für sparsame Finanzen"
+KR_bank_president: "Bankpräsident"
+KR_collectivisation_specialist: "Kollektivierungsspezialist"
+KR_council_communist: "Kommunist im Rat"
+KR_economic_reformer: "Wirtschaftsreformer"
+KR_industrialiser: "Industrialisierer"
+KR_inflation_finance_advocate: "Befürworter der Inflationspolitik"
+KR_interventionist_economist: "Interventionistischer Wirtschaftswissenschaftler"
+KR_laissez_faire_capitalist: "Laissez-faire Kapitalist"
+KR_mixed_economy_proponent: "Befürworter der gemischten Wirtschaft"
+KR_traditionalist_economist: "Traditionalistischer Wirtschaftswissenschaftler"
+
+### Military ###
+KR_adventurous_daredevil: "Abenteuerlustiger Draufgänger"
+KR_air_superiority_proponent: "Luftüberlegenheit Befürworter"
+KR_armaments_organiser: "Organisator für Rüstungsgüter"
+KR_battlefield_support_proponent: "Proponent für Gefechtsfeldunterstützung"
+KR_battlefleet_proponent: "Schlachtflotten Befürworter"
+KR_carrier_proponent: "Träger Befürworter"
+KR_general_staffer: "Generalstabschef"
+KR_infantry_proponent: "Infanterie Befürworter"
+KR_naval_aviation_proponent: "Marineflieger Befürworter"
+KR_old_admiral: "Alter Admiral"
+KR_old_air_marshal: "Alter Luftmarschall"
+KR_old_general: "Alter General"
+KR_reformist_soldier: "Reformistischer Soldat"
+KR_respected_war_hero: "Geachteter Kriegsheld"
+KR_strategic_destruction_proponent: "Befürworter der strategischen Zerstörung"
+KR_submarine_proponent: "U-Boot Befürworter"
+KR_tank_proponent: "Panzer Befürworter"
+KR_war_propagandist: "Kriegspropagandist"
+KR_young_guard: "Junge Garde"
+KR_militia_organiser: "Milizorganisator"
+
+### Research ###
+KR_education_reformer: "Bildungsreformer"
+KR_electronics_expert: "Elektronik-Experte"
+KR_industrial_chemist: "Industriechemiker"
+KR_technocrat: "Technokrat"
+KR_theoretical_scientist: "Theoretische Wissenschaftlerin"
+
+### Construction ###
+KR_captain_of_industry: "Führender Industrieller"
+KR_construction_magnate: "Baumagnat"
+KR_fortification_engineer: "Befestigungsexperte"
+KR_railway_magnate: "Eisenbahnmagnat"
+KR_war_industrialist: "Kriegswirtschaftler"
+
+### Other ###
+KR_ambitious_union_boss: "Ehrgeiziger Gewerkschaftsboss"
+KR_administrative_genius: "Administratives Genie"
+KR_brilliant_lawyer: "Brillanter Anwalt"
+KR_corporate_suit: "Gesellschaftsanzug"
+KR_crime_fighter: "Kriminalitätsbekämpfer"
+KR_head_of_intelligence: "Nachrichtenoffizier"
+KR_health_and_safety_adherent: "Gesundheit und Sicherheit Befürworter"
+KR_media_magnate: "Medienmagnat"
+KR_resource_industrialist: "Rohstoffindustrieller"
+KR_secret_police_chief: "Geheimpolizeichef"
+KR_shipping_magnate: "Schifffahrtsmagnat"
+KR_smiling_oilman: "Lächelnder Ölmann"
+KR_socialist_novelist: "Sozialistischer Romanautor"
+KR_social_revolutionary: "Sozialer Revolutionär"
+KR_spiritual_leader: "Geistlicher Führer"
+KR_steel_magnate: "Stahlmagnat"
+KR_elder_aristocrat: "Älterer Aristokrat"
+KR_influential_intellectual: "Einflussreicher Intellektueller"
+KR_chief_justice: "Oberster Richter"
+KR_liberal_philanthropist: "Liberaler Philanthrop"
+KR_stylistic_architect: "Stilistischer Architekt"
+KR_medical_expert: "Medizinischer Experte"
+KR_pious_intellectual: "Frommer Intellektueller"
+KR_heartless_lawyer: "Herzloser Anwalt"
+KR_teleological_planner: "Teleologischer Planer"
+KR_faithful_lieutenant: "Treuer Leutnant"
+
+##################################
+### Generic Seconds in Command ###
+##################################
+
+KR_empty_sic: "TEMP - Leere Eigenschaft"
+
+KR_administrative_genius_sic: "$KR_administrative_genius$"
+KR_agricultural_economist_sic: "$KR_agricultural_economist$"
+KR_ambitious_union_boss_sic: "$KR_ambitious_union_boss$"
+KR_backroom_backstabber_sic: "$KR_backroom_backstabber$"
+KR_brilliant_lawyer_sic: "$KR_brilliant_lawyer$"
+KR_compassionate_gentleman_sic: "$KR_compassionate_gentleman$"
+KR_corporate_suit_sic: "$KR_corporate_suit$"
+KR_economic_reformer_sic: "$KR_economic_reformer$"
+KR_flamboyant_brute_sic: "$KR_flamboyant_brute$"
+KR_great_compromiser_sic: "$KR_great_compromiser$"
+KR_happy_amateur_sic: "$KR_happy_amateur$"
+KR_iron_fisted_brute_sic: "$KR_iron_fisted_brute$"
+KR_local_tyrant_sic: "Lokaler Tyrann"
+KR_man_of_the_people_sic: "$KR_man_of_the_people$"
+KR_media_magnate_sic: "$KR_media_magnate$"
+KR_naive_optimist_sic: "$KR_naive_optimist$"
+KR_old_admiral_sic: "$KR_old_admiral$"
+KR_old_air_marshal_sic: "$KR_old_air_marshal$"
+KR_old_general_sic: "$KR_old_general$"
+KR_political_protege_sic: "$KR_political_protege$"
+KR_political_specialist_sic: "$KR_political_specialist$"
+KR_pragmatic_statesman_sic: "$KR_pragmatic_statesman$"
+KR_reformist_soldier_sic: "$KR_reformist_soldier$"
+KR_silent_workhorse_sic: "$KR_silent_workhorse$"
+KR_smiling_oilman_sic: "$KR_smiling_oilman$"
+KR_spiritual_leader_sic: "$KR_spiritual_leader$"
+KR_ultranationalist_agitator_sic: "$KR_ultranationalist_agitator$"
+KR_respected_war_hero_sic: "$KR_respected_war_hero$"
+KR_war_propagandist_sic: "$KR_war_propagandist$"
+KR_young_guard_sic: "$KR_young_guard$"
+
+######################################################
+### Unique Political Advisors & Seconds in Command ###
+######################################################
+
+### ARM ###
+KR_emergency_government_sic: "Notstandsregierung"
+KR_dashnak_pragmatist_sic: "Daschnak Pragmatiker"
+KR_nzhdehs_protege_sic: "Nzhdeshs Schützling"
+KR_patriotic_visionary_sic: "Patriotischer Visionär"
+KR_diligent_reformer_sic: "Eifriger Reformer"
+KR_resolute_activist_sic: "Entschlossener Aktivist"
+KR_harbiye_officer_sic: "Harbiye Offizier"
+KR_son_of_spartak_sic: "Sohn von Spartak"
+KR_free_thinking_intellectual_sic: "Freigeistiger Intellektueller"
+
+### ASY ###
+KR_supportive_metropolitan: "Unterstützende Metropole"
+KR_gray_eminence_sic: "Graue Eminenz"
+
+### AUS ###
+KR_paneuropean: "Herausragender Paneuropäer"
+KR_genius_cryptologist: "Genialer Kryptologe"
+
+### AZR ###
+KR_ottoman_attache: "Osmanischer Attaché"
+
+### BAT ###
+KR_defender_of_minorities: "Verteidiger von Minderheiten"
+KR_legalist: "Legalist"
+KR_landeswehr_interest_group: "Interessengemeinschaft Landeswehr"
+KR_reactionary_erudite: "Reaktionärer Gelehrter"
+KR_natural_philosopher: "Naturphilosoph"
+KR_white_knight_captain: "Weißer Ritter"
+KR_man_of_the_heimat: "Mann der Heimat"
+KR_secret_council: "Geheimer Rat"
+KR_leader_of_the_democratic_bloc: "Führer des Demokratischen Blocks"
+KR_the_fuhrenden_bruder_sic: "Führender Bruder"
+
+### BUL ###
+KR_sorelian_ideologue: "Sorelianischer Ideologe"
+KR_etatist_ideologue: "Etatistischer Ideologe"
+KR_imro_veteran: "IMRO Veteran"
+KR_zveno_mastermind: "Zveno Drahtzieher"
+KR_democratic_reformer: "Demokratischer Reformer"
+KR_connected_centrist_sic: "Vernetzter Zentrist"
+KR_socialist_industrializer_sic: "Sozialistischer Industrieller"
+KR_agrarian_activist_sic: "Agraraktivist"
+
+### BHU ###
+KR_genius_gongzim_sic: "Genialer Gongzim"
+KR_head_of_the_guard_sic: "Leiter der Garde"
+KR_fraternal_crony_sic: "Geschwisterlicher Kumpan"
+KR_chogyal_of_sikkim: "Tschogyal von Sikkim"
+KR_venerable_diplomat: "Ehrwürdiger Diplomat"
+KR_nepalese_collaborator: "Nepalesische Mitarbeiterin"
+KR_queen_mother: "Königsmutter"
+KR_speech_incarnation: "Inkarnation der Sprache"
+KR_army_reform_council: "Reformierter Rat"
+
+### BRA ###
+BRA_royal_legitimist_sic: "Königlicher Legitimator"
+KR_regional_traditionalist_leader: "Regionaler Traditionalistenführer"
+
+### CAN ###
+KR_premier_of_quebec: "Premier von Quebec"
+KR_minister_of_everything: "Minister für alles"
+KR_national_unity_proponent: "Befürworter der nationalen Einheit"
+
+### CEY ###
+KR_lion_of_boralugoda_sic: "Löwe von Boralugoda"
+KR_parippu_mahathmaya_sic: "Parippu Mahathmaya"
+CEY_genteel_historian: "Edler Historiker"
+CEY_charismatic_opportunist_trait: "Charismatischer Opportunist"
+
+## CHI ###
+KR_heir_to_the_revolution_sic: "Erbe der chinesischen Revolution"
+KR_heir_to_the_revolution: "Erbe der chinesischen Revolution"
+
+KR_mouthpiece_of_rca_sic: "Sprachrohr der RCA"
+KR_mouthpiece_of_rca_2_sic: "Sprachrohr der RCA"
+KR_mouthpiece_of_rca_3_sic: "Sprachrohr der RCA"
+KR_mouthpiece_of_rca_4_sic: "Sprachrohr der the RCA"
+
+KR_hero_of_the_chinese_revolution_sic: "Held der chinesischen Revolution"
+KR_hero_of_the_chinese_revolution_2_sic: "Held der chinesischen Revolution"
+KR_hero_of_the_chinese_revolution_3_sic: "Held der chinesischen Revolution"
+KR_hero_of_the_chinese_revolution_4_sic: "Held der chinesischen Revolution"
+
+KR_the_pursuit_of_datong_sic: "Die Verfolgung von Datong"
+KR_the_pursuit_of_datong_2_sic: "Die Verfolgung von Datong"
+KR_the_pursuit_of_datong_3_sic: "Die Verfolgung von Datong"
+
+KR_realising_datong_sic: "Verwirklichung von Datong"
+KR_realising_datong_sic_tt: "Die Auswirkungen dieser Eigenschaft werden mit dem Modifikator §YVerwirklichung von Datong§! unter Nationalgeist dargestellt."
+
+KR_the_red_napoleon_sic: "Der rote Napoleon"
+KR_the_red_napoleon_sic_tt: "Die Auswirkungen dieser Eigenschaft werden mit dem Modifikator §YDer rote Napoleon§! unter Nationalgeist dargestellt."
+
+KR_dynamic_materialist_sic: "Dynamischer Materialist"
+
+KR_proponent_of_the_united_front_sic: "Befürworter der Einheitsfront"
+KR_proponent_of_the_united_front_2_sic: "Befürworter der Einheitsfront"
+KR_kuomintang_stalwart: "Kuomintang-Verfechter"
+
+KR_state_capitalist: "Staatskapitalist"
+KR_pen_of_the_chairman_sic: "Feder des Vorsitzenden"
+KR_pen_of_the_chairman_2_sic: "Feder des Vorsitzenden"
+KR_pen_of_the_chairman_3_sic: "Feder des Vorsitzenden"
+KR_eyes_and_ears_of_the_chairman_sic: "Augen und Ohren des Vorsitzenden"
+
+KR_moderate_reorganisation_sic: "Moderate Reorganisation"
+KR_moderate_reorganisation_2_sic: "Moderate Reorganisation"
+KR_democracy_with_chinese_characterstics_sic: "Demokratie mit chinesischen Merkmalen"
+
+KR_anti_imperialist_crusader: "Anti-imperialistischer Kämpfer"
+
+KR_chinese_feminist: "Chinesischer Feminist"
+
+KR_iron_necked_liberal: "Der Liberale mit dem eisernen Kragen"
+KR_iron_necked_liberal_tt: "Die Auswirkungen dieser Eigenschaft werden mit dem Modifikator §YDer Liberale mit dem eisernen Kragen§! unter Nationalgeist dargestellt."
+
+KR_madame_wang: "Madame Wang"
+
+KR_kuomintang_crown_prince: "Kronprinz der Kuomintang"
+KR_kuomintang_crown_prince_sic: "$KR_kuomintang_crown_prince$"
+
+KR_blueshirt_harbinger_sic: "Vorbote der Blauhemden"
+KR_blueshirt_harbinger_sic_tt: "Die Auswirkungen dieser Eigenschaft werden mit dem Modifikator §YVorbote der Blauhemden§! unter Nationalgeist dargestellt."
+
+KR_shadowy_laoban_lar: "Schattenlaoban"
+KR_shadowy_laoban: "Schattenlaoban"
+
+KR_shadowy_junta: "Schatten-Junta"
+KR_shadowy_junta_lar: "Schatten-Junta"
+
+### ENG ###
+KR_the_minister_sic: "Der Minister"
+KR_red_ellen_sic: "Red Ellen"
+
+### ETH ###
+KR_tribal_headman: "Stammeshäuptling"
+
+### FRA ###
+KR_modern_dombrowvski: ""Dombrowski der Neuzeit""
+
+### GAL ###
+KR_agrarian_conservative_sic: "Agrarkonservativer"
+
+### GEO ###
+KR_prominent_feminist: "Prominente Feministin"
+KR_consolidated_power_sic: "Konsolidierte Macht des Premierministers"
+
+### GER ###
+KR_ephialtes_of_zentrum_sic: "Ephialtes des Zentrums"
+KR_pragmatic_intriguer_sic: "Pragmatischer Intrigant"
+KR_lion_of_africa_sic: "Löwe von Afrika"
+KR_financial_expert_sic: "Finanzexperte"
+
+KR_nationalist_press_baron: "Nationalistischer Pressebaron"
+KR_liberal_press_baron: "Liberaler Pressebaron"
+KR_mitteleuropa_advocate: "Mitteleuropa Befürworter"
+KR_heer_advocate: "Heer Interessen Befürworter"
+KR_tank_advocate: "Panzertruppe Befürworter"
+KR_propaganda_film_industry: "Propaganda Filmindustrie"
+KR_head_of_kw_society: "Leiter der Kaiser-Wilhelm-Gesellschaft"
+KR_leading_diplomat: "Führender Diplomat"
+KR_nuclear_council: "Nuklearer Forschungsrat"
+KR_air_chief_red_baron: "Der Rote Baron\n(Genie)"
+
+### HUN ###
+KR_morphine_manufacturer: "Morphium Hersteller"
+KR_human_rights_lawyer: "Menschenrechtsanwalt"
+
+### INC ###
+INC_rent_maintained_egalitarian: "Mietpreisgebundene Egalitäre"
+
+### IND ###
+KR_integration_proponent: "Integrationsbeauftragter"
+
+### IRE ###
+KR_big_fellow_3: "$IRE_big_fellow_1$"
+KR_the_chief_4: "$IRE_the_chief_1$"
+KR_agrarian_firebrand: "Landwirtschaftlicher Feuerbrand"
+KR_passionate_feminist: "Leidenschaftlicher Feminist"
+KR_passionate_feminist_2: "$KR_passionate_feminist$"
+KR_consummate_proceduralist: "Vollendeter Prozeduralist"
+KR_loyal_lieutenant_sic: "Loyaler Leutnant"
+
+### IRQ ###
+KR_conniving_opportunist: "Hinterhältiger Opportunist"
+KR_paramilitary_leader: "Paramilitärischer Führer"
+KR_MHC_navy_council: "Marinekommando-Rat"
+KR_MHC_air_council: "Luftkommando-Rat"
+KR_navy_chief_navy_council: "Marinereformrat"
+KR_air_chief_air_council: "Luftreformrat"
+
+### JAP ###
+KR_imperial_prince_sic: "Reichsfürst"
+KR_reformist_socialist_sic: "Reformistischer Sozialist"
+KR_man_with_thousand_friends_sic: "Mann mit tausend Freunden"
+KR_man_with_thousand_friends2_sic: "Mann mit tausend Freunden"
+KR_scion_of_fujiwara_sic: "Nachkomme von Fujiwara"
+KR_long_war_advocate: "Zentralist"
+KR_short_war_advocate: "Restaurator"
+KR_lord_keeper_of_the_privy_seal: "Lordsiegelbewahrer des Geheimen Siegels"
+KR_nationalist_ideologue: "Nationalistischer Ideologe"
+KR_governor_of_bank_of_japan: "Gouverneur der Bank von Japan"
+
+### KUM ###
+KUM_royal_advisory_sic: "Königliche Beratung"
+
+### LBA ###
+KR_desert_cartographer: "Wüstenkartographen"
+KR_desert_spy_ring: "Wüsten-Spionageringe"
+KR_armed_caravans: "Gut bewaffnete Karawanen"
+KR_pliant_authorities: "Nachgiebige Behörden"
+
+### LEP ###
+KR_flour_king: "Mehl König"
+KR_general_guillotine: "General Guillotine"
+
+### LIT ###
+KR_daimler_benz_engineer: "Daimler-Benz Ingenieur"
+
+### NFA ###
+KR_the_master: "Der Meister"
+KR_pied_noir_hero: "Held der Elster (Pied Noir)"
+KR_the_pilot: "Der Pilot"
+KR_leading_bachaga: "Führende Bachaga"
+KR_paternalistic_missionary: "Paternalistischer Missionar"
+KR_combative_press_magnate: "Kämpferischer Pressemagnat"
+KR_staunch_corporatist: "Überzeugter Korporatist"
+KR_dynamic_journalist: "Dynamischer Journalist"
+KR_centrist_educator: "Zentristischer Pädagoge"
+KR_patriotic_socialist: "Patriotischer Sozialist"
+KR_citizen_soldier_proponent: "Bürgersoldat Befürworter"
+KR_tireless_recruiter: "Unermüdlicher Anwerber"
+
+### NIC ###
+NIC_fervent_sandinista: "Eifriger Sandinist"
+
+### NEP ###
+KR_committed_democrat_sic: "Engagierte Demokrat"
+
+### PAP ###
+KR_affable_insider: "Sympathischer Insider"
+KR_pious_entrepreneur: "Frommer Unternehmer"
+KR_popular_nobleman: "Popular Nobleman"
+KR_conscientious_diplomat: "Gewissenhafter Diplomat"
+KR_master_diplomat: "Meisterdiplomat"
+PAP_swiss_guard: "Schweizergarde"
+KR_conservative_prelate_sic: "Konservativer Prälat"
+KR_firebrand_advocate_sic: "Firebrand Befürworter"
+
+### PER ###
+KR_red_star: "Roter Stern"
+KR_thundering_traditionalist: "Donnernder Traditionalist"
+KR_king_of_poets: "König der Dichter"
+
+### POL ###
+KR_grand_magnate: "Großmagnat"
+KR_folk_researcher: "Volksforscher"
+KR_man_of_culture_and_science_sic: "Mann der Kultur und der Wissenschaft"
+KR_editor_in_chief_sic: "Chefredakteur"
+KR_anarchist_proponent_sic: "Anarchistischer Befürworter"
+KR_president_of_lewiatan: "Präsident von Lewiatan"
+KR_the_comissionaire: "Der Kommissar"
+POL_polish_machiavelli_sic: "Polnischer Machiavelli"
+
+### POR ###
+KR_organic_doctrinaire_sic: "Organischer Doktrinär"
+KR_the_kings_lieutenant_sic: "Der Leutnant des Königs"
+KR_militant_reactionary: "Militanter Reaktionär"
+KR_veteran_democrat: "Demokratischer Veteran"
+KR_the_paladin: "Der Paladin"
+KR_charismatic_blueshirt: "Charismatisches Blueshirt"
+KR_defender_of_monsanto: "Verteidiger von Monsanto"
+
+### PRF ###
+KR_gun_salute_legislature_sic: "Waffengruß Legislative"
+KR_dissolved_legislature_sic: "Aufgelöste Legislative"
+
+### QIE ###
+KR_army_chief_imperial_commissioner: "Kaiserlicher Kommissar"
+KR_idealistic_monarchist: "Idealistischer Monarchist"
+KR_contentious_peacemaker: "Streitsüchtiger Friedensstifter"
+KR_hero_of_chinese_liberalism: "Held des chinesischen Liberalismus"
+KR_conductor_of_the_banking_clans: "Dirigent der Bankenclans"
+KR_devout_constitutionalist: "Überzeugter Verfassungsrechtler"
+KR_leftist_lawyer: "Linker Anwalt"
+KR_speaker_of_the_assembly: "Sprecher der Versammlung"
+KR_detested_educator: "Verachteter Erzieher"
+KR_director_general: "Generaldirektor"
+
+### HNN ###
+KR_resented_attache: "Residenter Attaché"
+
+### ROM ###
+KR_the_capitanul_sic: "Căpitanul"
+KR_marshal_of_the_palace: "Marschall des Palastes"
+
+### SCO ###
+KR_vanguardist_worker_sic: "Avantgardistischer Arbeiter"
+KR_modest_trade_unionist: "Bescheidener Gewerkschaftler"
+KR_old_clydesider_sic: "Alter Clydesider"
+KR_pacifist_patriot_sic: "Pazifistischer Patriot"
+KR_true_scotsman_sic: "Echter Schotte"
+KR_the_king_sic: "Der König"
+KR_scottish_legalist_sic: "Schottischer Legalist"
+KR_ambitious_engineer: "Ehrgeiziger Ingenieur"
+KR_cooperative_advocate: "Kooperativer Anwalt"
+KR_popular_cartoonist: "Beliebter Cartoonist"
+KR_public_health_advocate: "Befürworter der öffentlichen Gesundheit"
+KR_old_stonemason: "Alter Steinmetz"
+KR_cultural_organiser: "Kulturveranstalter"
+
+### SER ####
+KR_chetnik_veteran: "Tschetnik Veteran"
+KR_republican_academic: "Republikanischer Akademiker"
+KR_socialism_proponent: "Befürworter des serbischen Sozialismus"
+KR_monarchist_loyalist: "Monarchist Loyalist"
+KR_conspiracy_puppet: "Verschwörungsmarionette"
+KR_republican_firebrand: "Republikanischer Hitzkopf"
+KR_serbian_cultural_club: "Der Klub"
+KR_political_survivor: "Politischer Überlebenskünstler"
+KR_machiavellian_schemer_sic: "Machiavellistischer Intrigant"
+
+### SHX ###
+KR_beijing_liason_sic: "Pekings Verbindung"
+
+### SRD ###
+KR_iron_willed_invalid_sic: "Eisenharter Invalide"
+KR_sardist_firebrand_sic: "Sardischer Feuerbrand"
+
+### SRI ###
+KR_catholic_syndicalist: "Katholischer Syndikalist"
+
+### SWE ###
+KR_staunch_idealist: "Überzeugter Idealist"
+KR_populist_reactionary: "Populistischer Reaktionär"
+
+### SWF ###
+KR_la_pasionaria: "La Pasionaria"
+
+### SZC ###
+KR_gentleman_polymath_sic: "Gentleman-Polymath"
+KR_establishment_navigator_sic: "Establishment Navigator"
+KR_marshal_of_tianjin: "Marschall von Tianjin"
+
+### TIB ###
+KR_foreign_buddhist: "Ausländischer Buddhist"
+
+### UKR ###
+KR_socialist_moderate: "Sozialistischer Moderater"
+KR_red_divine: "Roter Geistlicher"
+KR_geopolitical_theorist: "Geopolitischer Theoretiker"
+KR_natiocrat: "Natiocrat"
+KR_cooperatives_proponent: "Genossenschaften Antragsteller"
+KR_cooperatives_proponent_2: "$KR_cooperatives_proponent$"
+KR_man_of_the_centre: "Mann der Mitte"
+KR_voices_of_our_rebirth: "Stimmen unserer Wiedergeburt"
+KR_council_of_jurors: "Vorsitzender des Rates der Juroren"
+KR_millii_fyrka_frontman: "Millii Fyrka's Frontmann"
+KR_representatives_of_protofis_1: "Repräsentanten von Protofis"
+KR_representatives_of_protofis_2: "$KR_representatives_of_protofis_1$"
+KR_evil_genius: "Böses Genie"
+KR_reformist_socialist_sic_2: "Reformistischer Sozialist"
+KR_social_security_champion_2: "Meister der sozialen Sicherheit"
+KR_radical_firebrand: "Radikaler Brandstifter"
+KR_idealistic_communard: "Idealistischer Kommunarde"
+KR_charming_romantic: "Ein charmanter Romantiker"
+KR_autarkist_revolutionary: "Autarker Revolutionär"
+KR_cooperative_organiser: "Kooperativer Organisator"
+KR_exceptional_acamedician: "Außergewöhnlicher Akademiker"
+KR_fading_forebearer: "Verblassender Vorbote"
+KR_establishment_navigator: "Establishment Navigator"
+KR_marxist_doctrinaire: "Marxistischer Doktrinär"
+KR_cinema_genius: "Genie des Kinos"
+UKR_metropolitan_of_kyiv_and_all_ukraine: "Metropolit von Kiew und der gesamten Ukraine"
+KR_MHC_maknovite: "Makhnovit\n(Experte)"
+KR_MHC_propaganda: "Propaganda\n(Experte)"
+KR_MHC_chief_otaman: "Der Oberste Ataman\n(Experte)"
+KR_MHC_chief_otaman_2: "Der Oberste Ataman\n(Experte)"
+KR_MHC_chief_otaman_3: "Der Oberste Ataman\n(Experte)"
+KR_MHC_chief_otaman_4: "Der Oberste Ataman\n(Experte)"
+KR_commissioner_of_poale_zion: "Kommissar von Poale Zion"
+KR_mathematical_pioneer: "Mathematischer Pionier"
+KR_incendiary_demagogue: "Aufrührerischer Demagoge"
+KR_idealistic_communard1: "Idealistischer Kommunarde"
+KR_idealistic_communard2: "$KR_idealistic_communard1$"
+KR_idealistic_communard3: "$KR_idealistic_communard1$"
+KR_idealistic_communard4: "$KR_idealistic_communard1$"
+KR_idealistic_communard5: "$KR_idealistic_communard1$"
+KR_hetman_in_all_but_name_sic: "Hetman in allen außer dem Namen"
+KR_faithful_lieutenant_sic: "Treuer Leutnant"
+KR_pedantic_polymath_sic: "Pedantischer Polymath"
+KR_devoted_progressivist_sic: "Engagierter Progressivist"
+KR_soldier_orator_sic: "Soldat-Organisator"
+KR_mass_offensive_school: "Massenoffensive Theoretiker"
+KR_mechanised_wave_school: "Mechanisierte Welle Theoretiker"
+
+### USA ###
+KR_agrarian_expert: "Landwirtschaftsexperte"
+KR_catholic_anarchist: "Katholischer Anarchist"
+KR_renaissance_man: "Aufklärungsmann"
+KR_racial_equalist: "Rassengleichheit"
+KR_humanitarian: "Humanitäre Hilfe"
+KR_civil_rights_advocate: "Bürgerrechtler"
+KR_catholic_firebrand: "Katholischer Hitzkopf"
+KR_army_recruiter: "Armee Rekrutierer"
+KR_famous_aviator: "Berühmter Pilot"
+KR_fbi_director: "FBI Direktor"
+KR_chairman_of_the_huac: "Vorsitzender des HUAC"
+KR_progressive_judge: "Progressiver Richter"
+KR_priest_of_the_republic: "Priester der Republik"
+KR_social_security_champion: "Sozialversicherungs-Champion"
+KR_compassionate_priest: "Barmherziger Priester"
+KR_staunch_constitutionalist: "Überzeugter Verfassungsrechtler"
+KR_liberal_jurisprudence: "Liberale Jurisprudenz"
+KR_reformed_justice: "Reformierte Justiz"
+KR_patriotic_director: "Patriotischer Direktor"
+KR_master_engineer: "Meisteringenieur"
+KR_public_works_administrator: "Administrator für öffentliche Arbeiten"
+KR_christian_nationalist: "Christlicher Nationalist"
+KR_committed_internationalist: "Engagierter Internationalist"
+KR_father_of_the_assembly_line: "Vater des Fließbands"
+KR_leapfrog_advocate: "Sprungbrett Advokat"
+KR_rifleman_superiority: "Überlegenheit der Gewehrschützen"
+KR_night_attack_theorist: "Nachtangriffstheoretiker"
+
+### VEN ###
+KR_malariologist: "Malariologe"
+
+### WHR ###
+KR_bundist: "Bundist"
+
+### WLS ###
+KR_socialist_economist_sic: "Sozialistischer Ökonom"
+KR_welsh_dragoness_sic: "Walisische Drachin"
+KR_the_penadur_sic: "Der Penadur"
+KR_tireless_organiser: "Unermüdlicher Organisator"
+KR_gentleman_polymath: "Gentleman Polymath"
+KR_peoples_economist: "Volkswirtschaftler"
+KR_welsh_warrior: "Walisischer Krieger"
+
+### XSM ###
+KR_clan_council_sic: "Rat der Clans"
+KR_nationalist_imam: "Nationalistischer Imam"
+
+####################################################
+### Generic Military Staff - ported from vanilla ###
+####################################################
+
+### Theorists ###
+KR_council_of_theorists: "Rat der Theoretiker"
+KR_mmic_2: "MMIC"
+KR_military_theorist: "Armee-Theoretiker"
+KR_armour_theorist: "Panzer Experte"
+KR_mobile_warfare_expert: "Mobile Kriegsführung Experte"
+KR_superior_firepower_expert: "Feuerüberlegenheits Experte"
+KR_grand_battle_plan_expert: "Großer Schlachtplan Experte"
+KR_mass_assault_expert: "Massenangriff Experte"
+KR_air_warfare_theorist: "Luftkriegsführung-Theoretiker"
+KR_dive_bomber: "Sturzkampfbomber"
+KR_victory_through_airpower: "Sieg durch Feuerkraft"
+KR_close_air_support_proponent: "Luftnahunterstützung Befürworter"
+KR_assault_aviation: "Offensive Luftwaffe"
+KR_naval_theorist: "Marine-Theoretiker"
+KR_naval_aviation_pioneer: "Marineflieger"
+KR_grand_fleet_proponent: "Große Flotte Befürworter"
+KR_submarine_specialist: "U-Boot-Spezialist"
+KR_rocket_scientist: "Raketenforscher"
+KR_nuclear_scientist: "Atomforscher"
+KR_electronic_scientist: "Elektronik-Wissenschaftler"
+
+### Chiefs of Army ###
+KR_army_chief_defensive_1: "Armee - Verteidigung\n(Spezialist)"
+KR_army_chief_defensive_2: "Armee - Verteidigung\n(Expertee)"
+KR_army_chief_defensive_3: "Armee - Verteidigung\n(Genie)"
+KR_army_chief_offensive_1: "Armee - Angriff\n(Spezialist)"
+KR_army_chief_offensive_2: "Armee - Angriff\n(Expertee)"
+KR_army_chief_offensive_3: "Armee - Angriff\n(Genie)"
+KR_army_chief_old_guard: "Alte Garde"
+KR_army_chief_planning_1: "Armeeplanung\n(Spezialist)"
+KR_army_chief_planning_2: "Armeeplanung\n(Experte)"
+KR_army_chief_planning_3: "Armeeplanung\n(Genie)"
+KR_army_chief_drill_1: "Armee - Ausbildung\n(Spezialist)"
+KR_army_chief_drill_2: "Armee - Ausbildung\n(Experte)"
+KR_army_chief_drill_3: "Armee - Ausbildung\n(Genie)"
+KR_army_chief_reform_1: "Armee - Reformen\n(Spezialist)"
+KR_army_chief_reform_2: "Armee - Reformen\n(Experte)"
+KR_army_chief_reform_3: "Armee - Reformen\n(Genie)"
+KR_army_chief_organisational_1: "Armee - Organisation\n(Spezialist)"
+KR_army_chief_organisational_2: "Armee - Organisation\n(Experte)"
+KR_army_chief_organisational_3: "Armee - Organisation\n(Genie)"
+KR_army_chief_morale_1: "Armee - Moral\n(Spezialist)"
+KR_army_chief_morale_2: "Armee - Moral\n(Experte)"
+KR_army_chief_morale_3: "Armee - Moral\n(Genie)"
+KR_army_chief_manoeuvre_1: "Armee - Manöver\n(Spezialist)"
+KR_army_chief_manoeuvre_2: "Armee - Manöver\n(Experte)"
+KR_army_chief_manoeuvre_3: "Armee - Manöver\n(Genie)"
+KR_army_chief_entrenchment_1: "Verschanzung\n(Spezialist)"
+KR_army_chief_entrenchment_2: "Verschanzung\n(Experte)"
+KR_army_chief_entrenchment_3: "Verschanzung\n(Genie)"
+
+### Chiefs of Navy ###
+KR_navy_chief_naval_aviation_1: "Marineflieger\n(Spezialist)"
+KR_navy_chief_naval_aviation_2: "Marineflieger\n(Experte)"
+KR_navy_chief_naval_aviation_3: "Marineflieger\n(Genie)"
+KR_navy_chief_decisive_battle_1: "Entscheidungsschlacht\n(Spezialist)"
+KR_navy_chief_decisive_battle_2: "Entscheidungsschlacht\n(Experte)"
+KR_navy_chief_decisive_battle_3: "Entscheidungsschlacht\n(Genie)"
+KR_navy_chief_commerce_raiding_1: "Handelsüberfall\n(Spezialist)"
+KR_navy_chief_commerce_raiding_2: "Handelsüberfall\n(Experte)"
+KR_navy_chief_commerce_raiding_3: "Handelsüberfall\n(Genie)"
+KR_navy_chief_old_guard: "Alte Garde"
+KR_navy_chief_reform_1: "Marine - Reformen\n(Spezialist)"
+KR_navy_chief_reform_2: "Marine - Reformen\n(Experte)"
+KR_navy_chief_reform_3: "Marine - Reformen\n(Genie)"
+KR_navy_chief_manoeuvre_1: "Marine - Manöver\n(Spezialist)"
+KR_navy_chief_manoeuvre_2: "Marine - Manöver\n(Experte)"
+KR_navy_chief_manoeuvre_3: "Marine - Manöver\n(Genie)"
+
+### Chiefs of Air Force ###
+KR_air_chief_reform_1: "Luftwaffe - Reformen\n(Spezialist)"
+KR_air_chief_reform_2: "Luftwaffe - Reformen\n(Experte)"
+KR_air_chief_reform_3: "Luftwaffe - Reformen\n(Genie)"
+KR_air_chief_safety_1: "Luftwaffe - Sicherheit\n(Spezialist)"
+KR_air_chief_safety_2: "Luftwaffe - Sicherheit\n(Experte)"
+KR_air_chief_safety_3: "Luftwaffe - Sicherheit\n(Genie)"
+KR_air_chief_old_guard: "Alte Garde"
+KR_air_chief_night_operations_1: "Nachtoperationen\n(Spezialist)"
+KR_air_chief_night_operations_2: "Nachtoperationen\n(Experte)"
+KR_air_chief_night_operations_3: "Nachtoperationen\n(Genie)"
+KR_air_chief_ground_support_1: "Bodenunterstützung\n(Spezialist)"
+KR_air_chief_ground_support_2: "Bodenunterstützung\n(Experte)"
+KR_air_chief_ground_support_3: "Bodenunterstützung\n(Genie)"
+KR_air_chief_all_weather_1: "Allwetter\n(Spezialist)"
+KR_air_chief_all_weather_2: "Allwetter\n(Experte)"
+KR_air_chief_all_weather_3: "Allwetter\n(Genie)"
+KR_air_chief_pursuit_doctrine_1: "Verfolgungsdoktrin\n(Spezialist)"
+KR_air_chief_pursuit_doctrine_2: "Verfolgungsdoktrin\n(Experte)"
+KR_air_chief_pursuit_doctrine_3: "Verfolgungsdoktrin\n(Genie)"
+
+### Military High Command ###
+KR_MHC_entrenchment_1: "Verschanzung\n(Spezialist)"
+KR_MHC_entrenchment_2: "Verschanzung\n(Experte)"
+KR_MHC_entrenchment_3: "Verschanzung\n(Genie)"
+KR_MHC_armoured_1: "Panzer\n(Spezialist)"
+KR_MHC_armoured_2: "Panzer\n(Experte)"
+KR_MHC_armoured_3: "Panzer\n(Genie)"
+KR_MHC_artillery_1: "Artillerie\n(Spezialist)"
+KR_MHC_artillery_2: "Artillerie\n(Experte)"
+KR_MHC_artillery_3: "Artillerie\n(Genie)"
+KR_MHC_infantry_1: "Infanterie\n(Spezialist)"
+KR_MHC_infantry_2: "Infanterie\n(Experte)"
+KR_MHC_infantry_3: "Infanterie\n(Genie)"
+KR_MHC_commando_1: "Kommando\n(Spezialist)"
+KR_MHC_commando_2: "Kommando\n(Experte)"
+KR_MHC_commando_3: "Kommando\n(Genie)"
+KR_MHC_cavalry_1: "Kavallerie\n(Spezialist)"
+KR_MHC_cavalry_2: "Kavallerie\n(Experte)"
+KR_MHC_cavalry_3: "Kavallerie\n(Genie)"
+KR_MHC_CombinedArms_1: "Verbundene Waffen\n(Spezialist)"
+KR_MHC_CombinedArms_2: "Verbundene Waffen\n(Experte)"
+KR_MHC_CombinedArms_3: "Verbundene Waffen\n(Genie)"
+KR_MHC_army_regrouping_1: "Armee - Umgruppierung\n(Spezialist)"
+KR_MHC_army_regrouping_2: "Armee - Umgruppierung\n(Experte)"
+KR_MHC_army_regrouping_3: "Armee - Umgruppierung\n(Genie)"
+KR_MHC_concealment_1: "Verschleierung\n(Spezialist)"
+KR_MHC_concealment_2: "Verschleierung\n(Experte)"
+KR_MHC_concealment_3: "Verschleierung\n(Genie)"
+KR_MHC_army_logistics_1: "Armee - Logistik\n(Spezialist)"
+KR_MHC_army_logistics_2: "Armee - Logistik\n(Experte)"
+KR_MHC_army_logistics_3: "Armee - Logistik\n(Genie)"
+KR_MHC_army_radio_intelligence_1: "Funkaufklärung\n(Spezialist)"
+KR_MHC_army_radio_intelligence_2: "Funkaufklärung\n(Experte)"
+KR_MHC_army_radio_intelligence_3: "Funkaufklärung\n(Genie)"
+KR_MHC_army_surveyor_1: "Vermesser\n(Spezialist)"
+KR_MHC_army_surveyor_2: "Vermesser\n(Experte)"
+KR_MHC_army_surveyor_3: "Vermesser\n(Genie)"
+KR_MHC_army_engineering_1: "Pionier\n(Spezialist)"
+KR_MHC_army_engineering_2: "Pionier\n(Experte)"
+KR_MHC_army_engineering_3: "Pionier\n(Genie)"
+KR_MHC_anti_submarine_1: "U-Boot-Abwehr\n(Spezialist)"
+KR_MHC_anti_submarine_2: "U-Boot-Abwehr\n(Experte)"
+KR_MHC_anti_submarine_3: "U-Boot-Abwehr\n(Genie)"
+KR_MHC_naval_air_defence_1: "Marineflugabwehr\n(Spezialist)"
+KR_MHC_naval_air_defence_2: "Marineflugabwehr\n(Experte)"
+KR_MHC_naval_air_defence_3: "Marineflugabwehr\n(Genie)"
+KR_MHC_fleet_logistics_1: "Flottenlogistik\n(Spezialist)"
+KR_MHC_fleet_logistics_2: "Flottenlogistik\n(Experte)"
+KR_MHC_fleet_logistics_3: "Flottenlogistik\n(Genie)"
+KR_MHC_amphibious_assault_1: "Amphibische Angriffe\n(Spezialist)"
+KR_MHC_amphibious_assault_2: "Amphibische Angriffe\n(Experte)"
+KR_MHC_amphibious_assault_3: "Amphibische Angriffe\n(Genie)"
+KR_MHC_submarine_1: "U-Boote\n(Spezialist)"
+KR_MHC_submarine_2: "U-Boote\n(Experte)"
+KR_MHC_submarine_3: "U-Boote\n(Genie)"
+KR_MHC_capital_ship_1: "Großkampfschiffe\n(Spezialist)"
+KR_MHC_capital_ship_2: "Großkampfschiffe\n(Experte)"
+KR_MHC_capital_ship_3: "Großkampfschiffe\n(Genie)"
+KR_MHC_screen_1: "Kampfschiffe\n(Spezialist)"
+KR_MHC_screen_2: "Kampfschiffe\n(Experte)"
+KR_MHC_screen_3: "Kampfschiffe\n(Genie)"
+KR_MHC_carrier_1: "Flugzeugträger\n(Spezialist)"
+KR_MHC_carrier_2: "Flugzeugträger\n(Experte)"
+KR_MHC_carrier_3: "Flugzeugträger\n(Genie)"
+KR_MHC_air_combat_training_1: "Luftkampfausbildung\n(Spezialist)"
+KR_MHC_air_combat_training_2: "Luftkampfausbildung\n(Experte)"
+KR_MHC_air_combat_training_3: "Luftkampfausbildung\n(Genie)"
+KR_MHC_naval_strike_1: "Marineangriff\n(Spezialist)"
+KR_MHC_naval_strike_2: "Marineangriff\n(Experte)"
+KR_MHC_naval_strike_3: "Marineangriff\n(Genie)"
+KR_MHC_bomber_interception_1: "Bomberabfangen\n(Spezialist)"
+KR_MHC_bomber_interception_2: "Bomberabfangen\n(Experte)"
+KR_MHC_bomber_interception_3: "Bomberabfangen\n(Genie)"
+KR_MHC_air_superiority_1: "Luftüberlegenheit\n(Spezialist)"
+KR_MHC_air_superiority_2: "Luftüberlegenheit\n(Experte)"
+KR_MHC_air_superiority_3: "Luftüberlegenheit\n(Genie)"
+KR_MHC_close_air_support_1: "Luftnahunterstützung\n(Spezialist)"
+KR_MHC_close_air_support_2: "Luftnahunterstützung\n(Experte)"
+KR_MHC_close_air_support_3: "Luftnahunterstützung\n(Genie)"
+KR_MHC_strategic_bombing_1: "Strat. Bombardierung\n(Spezialist)"
+KR_MHC_strategic_bombing_2: "Strat. Bombardierung\n(Experte)"
+KR_MHC_strategic_bombing_3: "Strat. Bombardierung\n(Genie)"
+KR_MHC_tactical_bombing_1: "Takt. Bombardierung\n(Spezialist)"
+KR_MHC_tactical_bombing_2: "Takt. Bombardierung\n(Experte)"
+KR_MHC_tactical_bombing_3: "Takt. Bombardierung\n(Genie)"
+KR_MHC_airborne_1: "Luftlandung\n(Spezialist)"
+KR_MHC_airborne_2: "Luftlandung\n(Experte)"
+KR_MHC_airborne_3: "Luftlandung\n(Genie)"
+KR_MHC_pilot_training_1: "Pilotenausbildung\n(Spezialist)"
+KR_MHC_pilot_training_2: "Pilotenausbildung\n(Experte)"
+KR_MHC_pilot_training_3: "Pilotenausbildung\n(Genie)"

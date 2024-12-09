@@ -1,0 +1,96 @@
+﻿l_german:
+###  Übersetzt von DerEherneRächer -> ab 1.1.4 Proho  ###
+ ASM: "Assam"
+ ASM_ADJ: "Assamesisch"
+ ASM_DEF: "Assam"
+
+ BNG: "Bengal"
+ BNG_ADJ: "Bengalisch"
+ BNG_DEF: "Bengal"
+
+ BOM: "Maharashtra"
+ BOM_ADJ: "Maharashtrisch"
+ BOM_DEF: "Maharashtra"
+
+ GUJ: "Gujarat"
+ GUJ_ADJ: "Gujaratisch"
+ GUJ_DEF: "Gujarat"
+
+ INR: "Bharatiya-Rebellen"
+ INR_ADJ: "Bharatiya"
+ INR_DEF: "die Bharatiya-Rebellen"
+
+ KAS: "Kaschmir"
+ KAS_ADJ: "Kaschmirisch"
+ KAS_DEF: "Kaschmir"
+
+ MYS: "Mysore"
+ MYS_ADJ: "Mysorisch"
+ MYS_DEF: "Mysore"
+
+ ORI: "Orissa"
+ ORI_ADJ: "Orissisch"
+ ORI_DEF: "Orissa"
+
+ PJB: "Punjab"
+ PJB_ADJ: "Punjabisch"
+ PJB_DEF: "Punjab"
+
+ pakistan: "Pakistan"
+ pakistan_ADJ: "Pakistanisch"
+ pakistan_DEF: "Pakistan"
+
+ KHA: "Khalistan"
+ KHA_ADJ: "Khalistanisch"
+ KHA_DEF: "Khalistan"
+
+ RJS: "Rajasthan"
+ RJS_ADJ: "Rajasthanisch"
+ RJS_DEF: "Rajasthan"
+
+ TRV: "Travancore"
+ TRV_ADJ: "Travancorisch"
+ TRV_DEF: "Travancore"
+ 
+ HIN: "Hindustan"
+ HIN_ADJ: "Hindustanisch"
+ HIN_DEF: "Hindustan"
+ 
+### World Tension ###
+ indian_wars_threat: "Indische Einigungskriege"
+
+### Characters ###
+ BNG_muzaffar_ahmad: "Muzaffar Ahmad"
+
+ GUJ_bahman_pestonji_wadia: "Bahman Pestonji Wadia"
+ GUJ_sayajirao_gaekwad_iii: "Sayajirao Gaekwad III"
+
+ PJB_aga_khan_iii: "Aga Khan III"
+ PJB_liaquat_ali_khan: "Liaquat Ali Khan"
+ PJB_allama_mashriqi: "Allama Mashriqi"
+ PJB_akbar_khan: "Akbar Khan"
+ PJB_abul_ala_maududi: "Abul A'la Maududi"
+
+ PJB_ali_haidar: "Ali Haidar"
+ PJB_mahmood_khan_durrani: "Mahmood Khan Durrani"
+ PJB_shah_nawaz_khan: "Shah Nawaz Khan"
+
+ KHA_tara_singh: "Tara Singh"
+
+ RJS_sawai_man_singh_ii: "Sawai Man Singh II"
+
+ TRV_chithira_thirunal_balarama_varma: "Chithira Thirunal Balarama Varma"
+ TRV_chandrasekharan_nair: "Chandrasekharan Nair"
+
+### Tooltips ###
+ india_will_seize_ceylon_if_germany_at_war: "Falls dieser Fokus abgeschlossen wird, während Deutschland in einen größeren Krieg verwickelt ist, werden wir Ceylon übernehmen."
+ india_compliance_gain_plus_three: "(§YIndien§!) $MODIFIER_COMPLIANCE_GAIN_ADD$: [?0.03|+=%%]"
+ india_compliance_gain_plus_two: "(§YIndien§!) $MODIFIER_COMPLIANCE_GAIN_ADD$: [?0.02|+=%%]"
+ india_compliance_gain_plus_one: "(§YIndien§!) $MODIFIER_COMPLIANCE_GAIN_ADD$: [?0.01|+=%%]"
+
+### Shared Decisions ###
+
+ india_invade_tawang_decision: "Forderung [858.GetName]"
+ india_invade_tawang_decision_desc: "Während des ursprünglichen Chaos, das zum Zusammenbruch der britischen Herrschaft über Indien führte, fiel das Grenzgebiet von [858.GetName] unter die Besetzung durch lokale Herrscher. Jetzt, da der Subkontinent wieder geeint ist, ist es endlich an der Zeit, die Grenzen der Nation wiederherzustellen."
+ india_invade_aksai_chin_decision: "Forderung [897.GetName]"
+ india_invade_aksai_chin_decision_desc: "Ganz Kaschmir gehört zu Indien, ungeachtet gegenteiliger chinesischer Behauptungen, und das gilt natürlich auch für den nördlichsten Teil der Region, der leider unter ausländische Besatzung geraten ist. Es sollte daher ein Ersuchen an [FROM.GetName] gerichtet werden, um die Evakuierung aus der Region zu fordern, damit sie endlich vollständig unter die Verwaltung von [ROOT.GetAdjective] gestellt werden kann."

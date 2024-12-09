@@ -1,0 +1,139 @@
+﻿l_german:
+
+## Übersetzt von Thylon ##
+
+#######################
+### Faction Joining ###
+#######################
+
+faction_joining_alert_title: "Übertragung von [THIS.GetNameDef]"
+faction_joining_alert_message: "§Y[THIS.GetName]§! ist der §Y[THIS.GetFactionName]§! beigetreten"
+
+#Generic
+
+faction_joining_alert_pre_acw: "Das Gleichgewicht der Kräfte beginnt sich zu verschieben und belastet die empfindliche Nachkriegsordnung, die Deutschland lange Zeit mühsam aufgebaut hat. Das Zustandekommen dieses Bündnisses könnte Folgen haben."
+faction_joining_alert_acw: "Mit dem Ausbruch des Krieges in Nordamerika hat sich das Machtgleichgewicht plötzlich und vielleicht unwiderruflich verändert. Das wird Folgen für die Region und darüber hinaus haben."
+
+faction_joining_alert_pre_wk: "Mit dem Anwachsen der geopolitischen Blöcke nehmen die Spannungen zu, und viele andere Länder stehen nun vor schwierigen Entscheidungen über ihre Ausrichtung. Das Gespenst des Krieges schwebt über der Region und vielleicht der ganzen Welt."
+faction_joining_alert_weltkrieg: "Selbst in Kriegszeiten gibt es ein Machtgleichgewicht, das sich von Moment zu Moment ändert. Ob dieses Abkommen den Konflikt zu Gunsten einer der beiden Seiten verschieben wird, kann nur die Zeit zeigen."
+
+faction_joining_alert_post_wk_internationale: "Nachdem die deutsche Vorherrschaft nun unbestreitbar gebrochen ist, blicken viele bereits in die Zukunft. Ein Abkommen nach dem anderen: eine neue Weltordnung wird aufgebaut."
+faction_joining_alert_post_wk_germany: "Auch wenn die deutschen Waffen in Europa wieder siegreich sind, ist die Welt nicht mehr so, wie sie vor dem Zweiten Weltkrieg war. Ein Abkommen nach dem anderen, die Zukunft entfaltet sich."
+faction_joining_alert_post_wk_entente: "Der Sieg der Entente hat allen Widrigkeiten zum Trotz das Neue durch das Alte ersetzt. Die vorherrschenden Mächte des letzten Jahrhunderts übersehen nun eine vertraute Weltordnung, auch wenn neue Bündnisse entstehen, die sie verändern."
+faction_joining_alert_post_wk_other: "Während die alte Weltordnung in Trümmern liegt, erheben sich neue Mächte aus der Asche. Mit einem Abkommen nach dem anderen wird die Welt wieder aufgebaut."
+
+#North America
+faction_joining_USA_ENT: "Obwohl sie sich kaum vom Bürgerkrieg erholt haben, haben die Vereinigten Staaten beschlossen, sich [CAN.GetNameDef] in ihrem Bestreben anzuschließen, ihr Heimatland und Europa vom Syndikalismus zu befreien."
+faction_joining_USA_GER: "Obwohl sich die Vereinigten Staaten kaum vom Bürgerkrieg erholt haben, haben sie beschlossen, sich dem Reichspakt [GER.GetNameDef] anzuschließen, da sie einen gemeinsamen Hass auf den Syndikalismus hegen."
+
+faction_joining_CSA_INT: "Jetzt, da die Vereinigten Syndikate in Amerika siegreich sind, wenden sie sich Europa zu und treten offiziell dem syndikalistischen Bündnis bei. Die Reaktionäre zittern, da die industrielle Macht Amerikas für die Revolution umgewidmet wird."
+
+#Central America
+faction_joining_COS_GER: "Durch die Verflechtung mit den Kaffeebaronen der ZKG wurde mit der [THIS.faction_leader.GetFactionName] ein Vertrag über militärische Unterstützung und den Zugang zu den Marineeinrichtungen von Puerto Limón unterzeichnet."
+faction_joining_COS_ENT: "Von seinem vertrauten Verbündeten in Washington im Stich gelassen, war San José gezwungen, sich weiter nördlich umzusehen, um seinen Schutz vor seinen räuberischen Nachbarn zu gewährleisten. Ottawa, das immer darauf bedacht ist, Freunde in der Nähe des Kanals zu haben, hat Costa Rica umarmt."
+
+#South America
+faction_joining_ARG_GER: "Nach dem erfolgreichen Handelsabkommen und der militärischen Zusammenarbeit zwischen den beiden Nationen hat [THIS.GetLeader] seine Teilnahme an der [THIS.faction_leader.GetFactionName]"
+faction_joining_ARG_ENT: "Durch kluge Diplomatie haben [THIS.GetLeader] und der [THIS.faction_leader.GetName] die Krise auf den Islas Malvinas gelöst und ihre Differenzen zugunsten der gemeinsamen Bedrohung beiseite geschoben."
+
+#Western Europe
+faction_joining_BEL_GER: "Wie im Vertrag von Arlon vereinbart, ist die neugeborene Nation Belgien offiziell der [THIS.faction_leader.GetFactionName] beigetreten, um ihre Souveränität vor syndikalistischen Falken zu schützen."
+faction_joining_BEL_ENT: "Die Van Belgiës, die während des Weltkriegs auf der Yzer verbündet und mit der britischen Krone blutsverwandt waren, haben ihr Schicksal in die Hände ihrer alten Verbündeten gelegt, um ihr Überleben zu sichern."
+faction_joining_BEL_INT: "Die alte Ordnung zerbröckelt, der [GER.GetName] zerfällt, erhebt euch, ihr Opfer der Unterdrückung, und stürzt den Riesen zur Vergeltung für 1914!"
+
+faction_joining_IRE_GER_IRE_victory: "Aufgrund britischer Provokationen hat [IRE.GetName] ihr Bündnis mit [GER.GetNameDef] formalisiert und ist der [GER.GetFactionName] beigetreten, in der Hoffnung, dass der Kaiser sie vor den syndikalistischen Machenschaften schützen kann."
+faction_joining_IRE_GER_GER_victory: "Nachdem die [IRE.GetAdjective]-Regierung aufgrund interner Streitigkeiten zusammengebrochen ist, hat [GER.GetNameDef] seinen beträchtlichen politischen Einfluss auf das Land geltend gemacht und es durch die Einsetzung eines neuen [GER.GetAdjective]-verbundenen Regimes vor Instabilität und syndikalistischen Vorstößen geschützt."
+faction_joining_IRE_INT_IRE_victory: "Die regierende sozialistisch geführte Koalition in [IRE.GetNameDef] hat die Zeichen der Zeit erkannt und ist offiziell der [INT.GetFactionName] beigetreten, um eine vollständige globale Isolation zu vermeiden."
+faction_joining_IRE_INT_ENG_victory: "Nach Monaten zunehmenden syndikalistischen Einflusses und interner Unruhen führt der Zusammenbruch der [IRE.GetAdjective]-Regierung zu einem von [ENG.GetAdjective] unterstützten sozialistischen Staatsstreich, wobei die neue [IRE.GetAdjective]-Regierung mit der Internationale verbündet ist und von [ENG.GetAdjective]-Waffen gestützt wird."
+faction_joining_IRE_INT_puppet: "In dem Bestreben, die Fehler ihrer Vorgänger zu vermeiden, haben die [ENG.GetAdjective] die [IRE.GetNameDef] in die [ENG.GetFactionName] aufgenommen, nachdem sie eine sozialistische Regierung eingesetzt hatten."
+faction_joining_IRE_ENT: "In dem Bemühen, die Beziehungen zu den Loyalisten im Norden zu besänftigen und einen festen Standpunkt gegen den globalen Syndikalismus einzunehmen, hat [IRE.GetNameDef] allen Widrigkeiten getrotzt und historische Missstände hinter sich gelassen, indem sie sich wieder mit ihren ehemaligen britischen Herren verbündet hat."
+faction_joining_IRE_ENT_desperate_measures: "In einem letzten verzweifelten Versuch, nach dem Fall ihrer [GER.GetAdjective]-Verbündeten zu überleben, hat sich [IRE.GetNameDef] wieder auf die Seite ihrer einstigen Herren geschlagen und ist ein neues Bündnis mit den [ENT.GetAdjective]s eingegangen."
+faction_joining_IRE_ENT_USA: "In dem Bestreben, die Beziehungen zu den Loyalisten im Norden zu beruhigen und einen festen Standpunkt gegen den globalen Syndikalismus einzunehmen, hat sich [IRE.GetNameDef] mit den wiedererstarkten Vereinigten Staaten verbündet, die nun das Militärbündnis der Kameraden ihres ehemaligen Herrn aus dem Weltkrieg anführen."
+faction_joining_IRE_ENT_USA_desperate_measures: "In einem letzten verzweifelten Versuch, nach dem Fall ihrer [GER.GetAdjective]-Verbündeten zu überleben, hat sich [IRE.GetNameDef] wieder auf die Seite der Kameraden ihres ehemaligen Herrn geschlagen, die nun von den wiedererstarkten Vereinigten Staaten angeführt werden."
+faction_joining_IRE_ENT_natpop: "Beeinflusst von integralistischen Idealen und in dem Bestreben, engere Beziehungen zu ihren katholischen Brüdern in Frankreich und Portugal zu knüpfen, ist die [IRE.GetNameDef] der [ENT.GetFactionName] beigetreten, trotz des gegenseitigen Misstrauens zwischen der Inselnation und ihren ehemaligen Herren, die das Bündnis anführen."
+faction_joining_IRE_RUS: "Sonst allein auf der Welt und nach dem Sturz von [GER.GetNameDef] von der syndikalistischen Vorherrschaft bedroht, ist [IRE.GetNameDef] ein unwahrscheinliches Bündnis mit [RUS.GetNameDef] eingegangen."
+faction_joining_IRE_JAP: "Wie ihre amerikanischen Verbündeten hat [IRE.GetNameDef] die Bedeutung des Begriffs ostasiatisch erweitert, indem sie eine unwahrscheinliche Allianz mit [JAP.GetNameDef] eingegangen ist."
+
+faction_joining_POR_ENT: "Aufgrund der langjährigen Beziehungen von [POR.GetName] zur königlichen Familie in Ottawa sind sie offiziell der Entente beigetreten, was Kanada ein Sprungbrett in Europa für die geplante Rückeroberung ihrer Heimatinseln verschafft."
+
+#Northern Europe
+faction_joining_SWE_GER: "Mit einer langen Geschichte wirtschaftlicher Beziehungen zu Berlin und zunehmendem Radikalismus in der Region ist [SWE.GetName] offiziell dem Reichspakt beigetreten."
+faction_joining_SWE_INT: "Nach dem Sturz der schwedischen Regierung durch [SWE.GetLeader] hat sich [SWE.GetNameDef] formell mit Paris verbündet und sich der Dritten Internationale angeschlossen."
+
+faction_joining_FIN_GER: "Angesichts der Bedrohung durch Russland, das versucht, seine europäischen Territorien zurückzuerobern, hat [FIN.GetLeader] seine Beziehungen zum Reichspakt gefestigt, in der Hoffnung, dass dieser die dringend benötigte Sicherheit für die kleine Nation bieten kann."
+faction_joining_FIN_INT: "Nach dem Sturz der Monarchie durch [FIN.GetLeader] haben sie sich der globalen syndikalistischen Bewegung angeschlossen und sind formell der Dritten Internationale beigetreten."
+
+faction_joining_NOR_INT: "Nach dem Sturz der Monarchie hat sich die neue norwegische syndikalistische Regierung formell mit der Dritten Internationale verbündet."
+faction_joining_NOR_ENT: "Da die unmittelbare Bedrohung durch den Radikalismus im eigenen Land gebannt ist, hat sich [NOR.GetName] mit der Entente verbündet."
+
+faction_joining_SWI_AUS_peace: "Auch wenn die französische Bedrohung vorerst gebannt ist, hat sich die Schweiz formell mit Österreichs Bündnis verbündet, um Frieden und Stabilität zu sichern."
+faction_joining_SWI_AUS_war: "Mit dem Fortschreiten des Frankreichkonflikts hat die Schweiz beschlossen, sich offiziell dem österreichischen Bündnis anzuschließen, nur für den Fall, dass jemand dachte, sie sei noch neutral."
+faction_joining_SWI_GER_peace: "Während die französische Bedrohung vorübergehend eingedämmt ist, hat die Schweiz beschlossen, sich mit dem Reichspakt zu verbünden, um Frieden und Sicherheit zu gewährleisten."
+faction_joining_SWI_GER_war: "Mit dem Fortschreiten des Krieges gegen die Syndikalisten hat die Schweiz beschlossen, offiziell dem Reichspakt beizutreten, was sie nur noch mehr mit dem Deutschen Reich verbündet."
+faction_joining_SWI_INT: "Nach der syndikalistischen Revolution in der Schweiz hat die provisorische Regierung beschlossen, der Dritten Internationale beizutreten und damit die bereits engen Beziehungen zwischen der französischen Kommune und [SWI.GetNameDef] zu formalisieren."
+
+#Southern Europe
+faction_joining_ITA_AUS: "Nachdem der Radikalismus von Ciano an der Wahlurne eingedämmt wurde, hat sich [ITA.GetNameDef] offiziell dem österreichischen Verteidigungspakt angeschlossen."
+
+#Eastern Europe
+
+#Balkans
+faction_joining_GRE_BPL: "Aufgrund des gemeinsamen Hasses auf die wachsende Macht Bulgariens hat Griechenland beschlossen, den Belgrader Pakt mit Serbien einzugehen, um Bulgarien ein für alle Mal zu Fall zu bringen. Dies könnte das Machtgleichgewicht auf dem Balkan sehr wohl erschüttern."
+faction_joining_GRE_ENT: "Alliierte während des Weltkriegs, [GRE.GetNameDef] hat offiziell darum gebeten, Kanada wieder in die Entente aufzunehmen, um dem Block eine Machtbasis auf dem Balkan zu geben."
+
+faction_joining_ROM_BPL: "Um die wachsende Macht Österreichs und Bulgariens einzudämmen, ist Rumänien dem Belgrader Pakt beigetreten. Österreich und Bulgarien beobachten mit Furcht, wie das Pulverfass erneut zu explodieren droht."
+
+#Middle East
+
+#Africa
+
+#Central Asia
+
+#India
+
+#South East Asia
+
+#East Asia
+faction_joining_SHX_QIE: "Nach dem von Puyi mit Hilfe von [SHX.GetNameDef] durchgeführten Autoputsch hat [SHX.GetLeader] gegen die Überreste der Zhili-Clique interveniert und sich offiziell auf die Seite Pekings gestellt."
+
+faction_joining_SQI_QIE: "Nach dem von Puyi mit Hilfe von [SQI.GetNameDef] durchgeführten Autoputsch hat [SQI.GetLeader] gegen die Überreste der Zhili-Clique interveniert und sich offiziell mit Peking verbündet."
+
+faction_joining_ANQ_QIE: "Nachdem Wu Peifu den Kampf von [ANQ.GetNameDef] gegen [LEP.GetNameDef] erfolgreich unterstützt hat, hat sich Gouverneur Chen Tiaoyuan mit der nördlichen Zhili-Clique verbündet."
+
+faction_joining_RKMT: "Nachdem sie ihre alten Hochburgen im Süden gesichert hat, vereinigt sich die rechte KMT unter einem Banner. Während sie sich nach Norden wenden, fragt sich China, ob sie erfolgreich sein können, wo Chiang versagt hat..."
+
+#Oceania
+
+#########################
+### State Integration ###
+#########################
+
+state_integration_alert_title: "Integration des Staates abgeschlossen"
+state_integration_alert_message: "§Y[?integrated_state.GetName]§! ist jetzt ein Kernstaat von §Y[ROOT.GetNameWithFlag]§!"
+
+###########################
+### Country Integration ###
+###########################
+
+country_integration_alert_title: "Integration des Landes abgeschlossen"
+country_integration_alert_message: "Alle kontrollierten Kernstaaten von §Y[?integrated_country.GetFlag][?integrated_country.GetNameDef]§! sind jetzt Kernstaaten von §Y[ROOT.GetNameWithFlag]§!"
+
+#########################
+### Incoming War-ning ###
+#########################
+
+incoming_war_alert_title: "DROHENDE KRIEGSERKLÄRUNG"
+incoming_war_alert_message: "[GetIncomingWarAlertMessage]"
+
+incoming_war_alert_message_self: "§Y[THIS.GetNameDefCap]§! bereitet sich darauf vor, uns den Krieg zu erklären!"
+incoming_war_alert_message_puppet: "§Y[THIS.GetNameDefCap]§! bereitet sich darauf vor, unserem Overlord den Krieg zu erklären §Y[?ROOT.alert_war_target_@THIS.GetNameDef]§!!"
+incoming_war_alert_message_guarantor: "§Y[THIS.GetNameDefCap]§! bereitet sich darauf vor §Y[?ROOT.alert_war_target_@THIS.GetNameDef]§!, den Krieg zu erklären, deren Unabhängigkeit wir garantieren!"
+incoming_war_alert_message_civil_war: "§Y[THIS.GetNameDefCap]§! bereitet sich darauf vor, §Y[?ROOT.alert_war_target_@THIS.GetNameDef]§! den Krieg zu erklären!"
+incoming_war_alert_message_ally: "§Y[THIS.GetNameDefCap]§! bereitet sich darauf vor, unserem Verbündeten §Y[?ROOT.alert_war_target_@THIS.GetNameDef]§! den Krieg zu erklären!"
+
+###################
+### Unit Limits ###
+###################
+
+unit_limit_alert_title: "Einheitenlimit überschritten"
+unit_limit_alert_message: "§YWir sind über dem Einheitenlimit, was die Effektivität unseres Militärs beeinträchtigt!§!"

@@ -1,0 +1,108 @@
+﻿l_german:
+###  Übersetzt von Proho  ###
+### Parties ###
+CAM_totalist_party: "Baksa Bdevotta Brachachn Khmer"
+CAM_totalist_party_long: "Baksa Bdevotta Brachachn Khmer (Revolutionäre Khmer-Volkspartei)"
+CAM_radical_socialist_party: "Krom Pracheachon"
+CAM_radical_socialist_party_long: "Krom Pracheachon (Volksgruppe)"
+CAM_syndicalist_party: "Krom Sahakarn Kampouchea"
+CAM_syndicalist_party_long: "Krom Sahakarn Kampouchea (Syndikalistische Partei Kambodschas)"
+CAM_social_democrat_party: "Krom Pracheachon"
+CAM_social_democrat_party_long: "Krom Pracheachon (Volksgruppe)"
+CAM_social_liberal_party: "Krom Brachathibtey"
+CAM_social_liberal_party_long: "Krom Brachathibtey (Demokratische Partei)"
+CAM_market_liberal_party: "Konabaksa Seriniyom"
+CAM_market_liberal_party_long: "Konabaksa Seriniyom (Liberale Partei)"
+CAM_social_conservative_party: "Sangkum Reastr Niyum"
+CAM_social_conservative_party_long: "Sangkum Reastr Niyum (Sozialistische Volksgemeinschaft)"
+CAM_authoritarian_democrat_party: "Sangkum Reastr Niyum"
+CAM_authoritarian_democrat_party_long: "Sangkum Reastr Niyum (Sozialistische Volksgemeinschaft)"
+CAM_paternal_autocrat_party: "Kanakpak Khemara Ponnakar"
+CAM_paternal_autocrat_party_long: "Kanakpak Khemara Ponnakar (Khmer-Erneuerung)"
+CAM_national_populist_party: "Kanakpak Khemara Ponnakar"
+CAM_national_populist_party_long: "Kanakpak Khemara Ponnakar (Khmer-Erneuerung)"
+
+### Country Names ###
+ CAM: "Kambodscha"
+ CAM_ADJ: "Khmer"
+ CAM_DEF: "Kambodscha"
+
+ CAM_totalist: "Demokratisches Kambodscha"
+ CAM_totalist_ADJ: "Khmer"
+ CAM_totalist_DEF: "Demokratisches Kambodscha"
+ CAM_syndicalist: "Demokratisches Kambodscha"
+ CAM_syndicalist_ADJ: "Khmer"
+ CAM_syndicalist_DEF: "Demokratisches Kambodscha"
+ CAM_radical_socialist: "Demokratisches Kambodscha"
+ CAM_radical_socialist_ADJ: "Khmer"
+ CAM_radical_socialist_DEF: "Demokratisches Kambodscha"
+ CAM_social_democrat: "Kambodscha"
+ CAM_social_democrat_ADJ: "Khmer"
+ CAM_social_democrat_DEF: "Kambodscha"
+ CAM_social_liberal: "Kambodscha"
+ CAM_social_liberal_ADJ: "Khmer"
+ CAM_social_liberal_DEF: "Kambodscha"
+ CAM_market_liberal: "Kambodscha"
+ CAM_market_liberal_ADJ: "Khmer"
+ CAM_market_liberal_DEF: "Kambodscha"
+ CAM_social_conservative: "Kambodscha"
+ CAM_social_conservative_ADJ: "Khmer"
+ CAM_social_conservative_DEF: "Kambodscha"
+ CAM_authoritarian_democrat: "Kambodscha"
+ CAM_authoritarian_democrat_ADJ: "Khmer"
+ CAM_authoritarian_democrat_DEF: "Kambodscha"
+ CAM_paternal_autocrat: "Kambodscha"
+ CAM_paternal_autocrat_ADJ: "Khmer"
+ CAM_paternal_autocrat_DEF: "Kambodscha"
+ CAM_national_populist: "Kambodscha"
+ CAM_national_populist_ADJ: "Khmer"
+ CAM_national_populist_DEF: "Kambodscha"
+
+ CAM_monarchy_social_democrat: "Königreich Kambodscha"
+ CAM_monarchy_social_democrat_DEF: "das Königreich Kambodscha"
+ CAM_monarchy_social_liberal: "Königreich Kambodscha"
+ CAM_monarchy_social_liberal_DEF: "das Königreich Kambodscha"
+ CAM_monarchy_market_liberal: "Königreich Kambodscha"
+ CAM_monarchy_market_liberal_DEF: "das Königreich Kambodscha"
+ CAM_monarchy_social_conservative: "Königreich Kambodscha"
+ CAM_monarchy_social_conservative_DEF: "das Königreich Kambodscha"
+ CAM_monarchy_authoritarian_democrat: "Königreich Kambodscha"
+ CAM_monarchy_authoritarian_democrat_DEF: "das Königreich Kambodscha"
+ CAM_monarchy_paternal_autocrat: "Königreich Kambodscha"
+ CAM_monarchy_paternal_autocrat_DEF: "das Königreich Kambodscha"
+ CAM_monarchy_national_populist: "Königreich Kambodscha"
+ CAM_monarchy_national_populist_DEF: "das Königreich Kambodscha"
+
+### Events ###
+
+## Puppets, Monarch's Dead, Elections(?)
+ # Noch keine Wahl der Republikaner bis zur Überarbeitung
+khmer_dom.1000.t: "Aufbau eines neuen kambodschanischen Regimes"
+khmer_dom.1000.d: "Nun, da wir einen kambodschanischen Staat wiederhergestellt haben, haben einige die Wiederherstellung einer kambodschanischen Monarchie vorgeschlagen. Der naheliegendste Kandidat wäre das Königshaus von Sisowath, Nachfahre des Dichterkönigs Ang Duong, das Kambodscha seit den 1840er Jahren sowohl unter den französischen als auch später unter den siamesischen Oberherren regiert hat. Ein weiterer Kandidat für eine solche Position wäre das Königshaus von Norodom, das zuletzt 1904 in Kambodscha regiert hat, sich aber als gute Wahl erweisen könnte, wenn wir eine völlig neue Ordnung in Kambodscha errichten wollen. Nach vielen Diskussionen sind wir zu dem Schluss gekommen, dass..."
+khmer_dom.1000.a: "... der Sisowath soll den Thron besteigen."
+khmer_dom.1000.b: "... der Norodom soll den Thron besteigen."
+
+# Sisowath Line
+ # 1941.4.23
+khmer_dom.1011.t: "Der Tod von Sisowath Monivong"
+khmer_dom.1011.d: "König Sisowath Monivong vom [CAM.GetName], der 2. Monarch des Hauses Sisowath, ist heute Morgen an Altersschwäche gestorben. Der Monarch wird von seinem ersten Sohn, Sisowath Monireth, beerbt."
+
+# Norodom Line
+ # 1960.4.3
+khmer_dom.1012.t: "Der Tod von Norodom Suramarit"
+khmer_dom.1012.d: "König Norodom Suramarit der [CAM.GetName], der 2. Monarch des Hauses Norodom, ist in der vergangenen Nacht an Altersschwäche gestorben. Der Monarch wird von seinem ersten Sohn, Norodom Sihanouk, beerbt."
+
+### Characters ###
+ CAM_norodom_sihanouk: "Norodom Sihanouk"
+ CAM_norodom_suramarit: "Norodom Suramarit"
+ CAM_sisowath_monireth: "Sisowath Monireth"
+ CAM_sisowath_monivong: "Sisowath Monivong"
+ CAM_tou_samouth: "Tou Samouth"
+ CAM_lon_nol: "Lon Nol"
+ CAM_penn_nouth: "Penn Nouth"
+ CAM_chhean_vam: "Chhean Vam"
+ CAM_sisowath_youtevong: "Sisowath Youtevong"
+ CAM_son_ngoc_thanh: "Son Ngoc Thanh"
+ CAM_oum_chheang_sun: "Oum Chheang Sun"
+ CAM_sisowath_watchayavong: "Sisowath Watchayavong"
+ CAM_sam_an: "Sam An"

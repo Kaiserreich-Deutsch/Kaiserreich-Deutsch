@@ -1,0 +1,190 @@
+﻿l_german:
+### Übersetzt von DerEherneRächer ###
+### EE Cooperation Mechanics ###
+
+ mie.0.t: "Die Russische Bedrohung"
+ mie.0.d: "Russlands jahrzehntelanger Niedergang ist vorüber und die Russen beginnen mit dem Wiederaufbau. Schon jetzt beanspruchen sie die ehemaligen Territorien des Zarenreiches und die osteuropäischen Staaten werden sicher eines ihrer Ziele sein.\n\nUm die Eindämmung der russischen Bedrohung und die Souveränität der Staaten Osteuropas zu garantieren, haben sich Politiker und Generäle in [MIE_leader.Capital.GetCapitalVictoryPointName] versammelt, um ein Konzept der gegenseitigen Kooperation zu erarbeiten. Eine gemeinsame militärische Verteidigung wurde etabliert und [MIE_leader.GetNameDef] wurde damit anvertraut, die gemeinsamen Verteidigungsunternehmen der Region zu finanzieren."
+ mie.0.a: "Großartig!"
+
+ MIE_decisions: "Osteuropäische Verteidigungskooperation"
+ MIE_decisions_desc: "[?global.russia.GetNameDefCap] wurde wieder aufgebaut - und die Souveränität der osteuropäischen Staaten ist bedroht. Wenn der Zweite Weltkrieg beginnt, werden wir uns gegen den russischen Ansturm behaupten müssen-und wenn wir nicht zusammenarbeiten, werden wir einer nach dem anderen untergehen.\n\n Nachdem [[?global.russia.GetNameDef] seinen Außenpolitik-Fokusbaum freischaltet,erhalten alle östlichen Mitglieder des Reichspakts die Fähigkeit, §YRessourcen zusammenzulegen§! und sie unter den Mitgliedsstaaten zu verteilen, um Schwachstellen auszumerzen. Die Nation, die für die Verteilung der Ressourcen verantwortlich ist, kann in andere Mitgliedsstaaten investieren, um §YBefestigungen zu bauen§!, §YDivisionen auszuheben§! und vorteilhafte §YNationalgeister§! zu verteilen.\n\nDerzeit gesammelte Ressourcen:\n    £rifle_texticon  Infanterieausrüstung: §Y[?global.MIE_infantry_equipment]§!\n    £support_texticon  Zusatzausrüstung: §Y[?global.MIE_support_equipment]§!\n    £unit_artillery_icon_small  Artillerie: §Y[?global.MIE_artillery_equipment]§!\n\n[MIE_leader.GetNameWithFlag] ist derzeit dafür verantwortlich, die Ressourcen zu verteilen."
+ MIE_intermarium_active: "Die §YOsteuropäische Verteidigungskooperation§! ist aktiv."
+
+ MIE_decisions_GER: "Ostpolitik"
+ MIE_decisions_GER_desc: "Der Osten unseres Reiches erstreckt sich von der Ostsee bis zum Schwarzen Meer. Die Oststaaten, unsere de facto Satellitenstaaten, werden zur einen Hälfte durch unsere militärische Stärke und zur anderen durch ihre Angst vor den Russen im Zaum gehalten. Wir sollten ihre politische Entwicklungen stets im Auge behalten und, falls nötig, entsprechend reagieren.\n\n[POL_in_RP]"
+
+ POL_in_RP_yes: "Polen mag zurzeit zwar einer unserer loyaleren Untertanen sein, doch es ist unsicher, wie lange dies auch so bleiben wird. Wir sollten Investitionen in die polnische Nation in Betracht ziehen, um uns ihre Loyalität und Bereitwilligkeit zur wirtschaftlichen Kooperation auf Dauer zu sichern.\n\n[POL_GER_polish_loyalty]\n"
+
+ POL_early: "Erwarteter Wahlausgang für die Unterstützer von August IV: [POL_circle_chance]"
+ POL_status_stable: "§GPolen ist loyal und stabil.§!"
+ POL_status_restless: "§YPolen ist stabil, doch die Situation könnte sich jederzeit ändern.§!"
+ POL_status_uprising_ready: "§YPolen ist instabil und militärische Rückschläge könnten einen Aufstand provozieren.§!"
+ POL_status_uprising_imminent: "Ein Aufstand in Polen steht kurz bevor!"
+ POL_status_rebellious: "§RPolen rebelliert!§!"
+
+ MIE_intermarium_formed: "Das Osteuropäische Verteidigungskooperations-Programm wurde ins Leben gerufen."
+
+ GER_sponsor_MIE: "Fördert die OEVK"
+ GER_sponsor_MIE_desc: "Die Osteuropäische Verteidigungskooperation wurde ins Leben gerufen, um die militärische Aufrüstung der Oststaaten zu koordinieren. Unsere militärische Industrie ist zwar bereits involviert, eine direkte Unterstützung durch unsere Regierung könnte die Organisation jedoch noch weiter stärken."
+ GER_fight_forest_brothers: "Formt die Baltische Feldgendarmerie"
+ GER_fight_forest_brothers_desc: "Die zeitweilige Entsendung einer Militärpolizei-Einheit in das Vereinigte Baltische Herzogtum könnte diesem dabei helfen, die baltischen Separatistenbewegungen niederzuschlagen."
+ GER_fight_LAF: "Verstärkt die litauische Polizei"
+ GER_fight_LAF_desc: "Die Regierung Litauens tut sich schwer im Kampf gegen die Litauische Aktivistische Front, eine angeblich von Russland unterstützte terroristische Organisation, die für zahlreiche Schreckenstaten verantwortlich ist. Wir könnten eine Spezialeinheit aus Preußen entsenden, um Litauen beim Kampf gegen die Aufständigen zu unterstützen."
+ GER_WHR_coup: "Setzt die BSDP-Regierung ab"
+ GER_WHR_coup_desc: "Wir haben Weißrutheniens Experiment einer linksgerichteten Demokratie nun schon seit Langem toleriert, doch dies scheint ein Fehler gewesen zu sein. Unsere Agenten haben uns über ihr Geheimabkommen mit Moskau und die weißruthenischen Pläne, uns im Kriegsfall in den Rücken zu fallen, in Kenntnis gesetzt. Wir sollten handeln, bevor es zu spät ist."
+
+ POL_GER_buy: "Investitionen in Polen"
+ POL_GER_buy_desc: "Durch eine Ausweitung unserer wirtschaftlichen Kontrolle über Polen können wir unseren Einfluss auf die polnische Nation festigen und sicherstellen, dass die polnische Außenpolitik in der Zukunft unseren Interessen entsprechen wird."
+ POL_GER_sell: "Verkauft unsere polnischen Besitztümer"
+ POL_GER_sell_desc: "Einige unserer wirtschaftlichen Erwerbe in Polen waren nicht so nützlich, wie wir uns anfangs erhofften. Glücklicherweise gibts es zahlreiche österreichische, tschechische und polnische Geschäftsmänner, die sie uns nur allzu gern abkaufen würden."
+ POL_GER_lobby: "Pro-Monarchistische Kampagne in Polen"
+ POL_GER_lobby_desc: "[POL.GetLeader] ist zwar nicht gerade der beliebteste aller Könige, doch das ist nichts, was unsere Werbespezialisten nicht beheben könnten."
+
+ POL_GER_promises: "Versprecht Polen Autonomie"
+ POL_promise_tt: "§CPolens Loyalität wird stark erhöht werden.§!"
+ POL_GER_agricultural_exports: "Exportiert landwirtschaftliche Produkte"
+ POL_promises1: "Hat Polen Unabhängigkeit versprochen"
+
+ POL_GER_recruit_poland: "Verstärkt die Rekrutierungsbemühungen in Polen"
+ POL_GER_recruit_poland_reduce: "Verringert die Rekrutierungsbemühungen in Polen"
+ POL_GER_recruitment: "Rekrutierung polnischer Arbeiter"
+
+ POL_invest_tt: "Durch die Finanzierung der Unterstützer von August IV, können wir uns die polnische Loyalität sichern."
+ POL_exploit_tt: "Eine Ausbeutung Polens wird die anti-deutschen und revolutionären Bewegungen des Landes stärken."
+
+ MIE_refuse_equipment_shipments: "Lehnt Ausrüstungslieferungen ab"
+ MIE_refuse_equipment_shipments_desc: "Wir sollten unseren Verbündeten mitteilen, dass wir derzeit keine Ausrüstungslieferungen benötigen und die Ressourcen andernorts besser genutzt werden können."
+ MIE_allow_equipment_shipments: "Nehmt Ausrüstungslieferungen an"
+ MIE_allow_equipment_shipments_desc: "Wir haben unseren Verbündeten zwar mitgeteilt, dass wir derzeit keine Ausrüstung benötigen, können diese Entscheidung allerdings auch jederzeit rückgängig machen."
+
+ MIE_spend_guns: "Sendet 1000 £rifle_texticon  Infanterieausrüstung"
+ MIE_spend_support: "Sendet 250 £support_texticon  Zusatzausrüstung"
+ MIE_spend_artillery: "Sendet 250 £unit_artillery_icon_small  Artillerie"
+ 
+ MIE_spend_guns_self: "Nehmt 1000 £rifle_texticon  Infanterieausrüstung"
+ MIE_spend_support_self: "Nehmt 250 £support_texticon  Zusatzausrüstung"
+ MIE_spend_artillery_self: "Nehmt 250 £unit_artillery_icon_small  Artillerie"
+
+ MIE_invest_guns: "Investiert 500 £rifle_texticon  Infanterieausrüstung"
+ MIE_invest_support: "Investiert 150 £support_texticon  Zusatzausrüstung"
+ MIE_invest_artillery: "Investiert 250 £unit_artillery_icon_small  Artillerie"
+
+ MIE_250_artilleryeq: "£unit_artillery_icon_small  §H250§!"
+ MIE_250_artilleryeq_blocked: "£unit_artillery_icon_small  §R250§!"
+ MIE_250_artilleryeq_tooltip: "Es kostet $MIE_250_artilleryeq_blocked$, diese Entscheidung zu treffen."
+
+ MIE_2000_guns_500_sup: "£rifle_texticon  §H2000§! £support_texticon §H500§!"
+ MIE_2000_guns_500_sup_blocked: "£rifle_texticon  §R2000§!  £support_texticon §R500§!"
+ MIE_2000_guns_500_sup_tooltip: "Diese Entscheidung kostet $MIE_2000_guns_500_sup_blocked$."
+ MIE_2000_guns_tt: "£rifle_texticon  §H2000§! und £support_texticon §H500§! werden dem Pool hinzugefügt."
+
+ air_xp_50: "£air_experience §H50§!"
+ air_xp_50_blocked: "£air_experience §R50§!"
+ air_xp_50_tooltip: "Diese Entscheidung kostet $air_xp_50_blocked$."
+ 
+ MIE_build_forts_in_whr: "Ausbau des Ostwalls"
+ MIE_build_forts_in_whr_tt: "§gErrichte Level 1 £GFX_land_fort_texticon §Y$bunker_plural$§! in jeder belarussischen Grenzprovinz.§!"
+
+ mie.1.t: "Osteuropäische Kooperation"
+ mie.1.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben für Befestigungen an unserer russischen Grenze auszugeben. Diese Befestigungen wurden nun fertiggestellt und sind bereit, bemannt zu werden."
+ mie.1.a: "Großartig!"
+
+ MIE_joint_offensive_exercises: "Gemeinsames Militär-Training"
+
+ mie.2.t: "Osteuropäische Kooperation"
+ mie.2.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben für die Organisation einer gemeinsamen Militärübung der osteuropäischen Staaten zu nutzen. Generäle, die auf Offensive und Panzer spezialisiert sind, haben einen Angriff auf feindliche Truppen simuliert und untereinander Tipps und Tricks ausgetauscht."
+ mie.2.a: "Großartig!"
+ MIE_all_gain_1_attack: "Alle Generäle der Mitgliedsstaaten mit der §HPanzeranführer§!-Eigenschaft werden §G1§! Angriff erhalten."
+
+ MIE_joint_grand_strategy_planning: "Brilliante Strategie"
+
+ mie.3.t: "Osteuropäische Kooperation"
+ mie.3.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben für die Organisation von Kriegsspielen zwischen den Generälen der osteuropäischen Staaten zu nutzen. Unsere Generäle diskutierten eine vollständige Invasion der Region, haben die Rollen zwischen den Nationalstaaten aufgeteilt und Pläne ausgeklügelt, um die Invasion zu stoppen."
+ mie.3.a: "Großartig!"
+ MIE_all_gain_1_planning: "Alle Generäle der Mitgliedsstaaten mit der §HInfanterieanführer§!-Eigenschaft werden §G1§! Planung erhalten."
+
+ MIE_defense_contributions: "Implementiere verpflichtende Verteidigungsbeiträge"
+ MIE_contributions: "Osteuropäische Verteidigungsbeiträge"
+ MIE_contributions_desc: "Diese Nation nutzt einen Teil ihres Budgets als gemeinschaftlich-osteuropäische Verteidungsbeiträge, um Infanteriewaffen und andere militärische Ausrüstung zu kaufen."
+ MIE_defense_contributions_tt: "Jeder Mitgliedsstaat, der Verteidigungsbeiträge zahlt, wird monatlich £rifle_texticon  §H20§! £support_texticon  §H10§! £unit_artillery_icon_small  §H10§! zum Waffenarsenal hinzufügen."
+
+ mie.4.t: "Osteuropäische Kooperation"
+ mie.4.d: "[MIE_leader.GetNameDefCap] hat vorgeschlagen, die Kooperation zwischen den osteuropäischen Staaten zu vertiefen, indem wir ein System der Verteidigungsbeiträge einführen. Wenn wir dem System beitreten, werden wir einen Teil unseres Budgets als Verteidigungsbeiträge nutzen, mit denen [MIE_leader.GetName] in der Lage sein wird, militärische Ausrüstung für das Waffenarsenal zu kaufen."
+ mie.4.a: "Wir sind dabei."
+ mie.4.b: "Wir lehnen ab."
+ MIE_monthly_purchases: "Waffenkauf"
+ MIE_defense_contributions_amount: "£rifle_texticon  §H[?global.MIE_infantry_equipment_monthly]§! £support_texticon  §H[?global.MIE_support_equipment_monthly]§! £unit_artillery_icon_small  §H[?global.MIE_artillery_equipment_monthly]§! wird dem Waffenarsenal hinzugefügt."
+
+ mie.5.t: "Osteuropäische Kooperation"
+ mie.5.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben zu nutzen, um uns Waffen und Munition zu senden. Diese Ausrüstung wurde unserem Waffenlager hinzugefügt."
+ mie.5.a: "Großartig!"
+
+ mie.6.t: "Osteuropäische Kooperation"
+ mie.6.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben zu nutzen, um uns Zusatzausrüstung zu senden. Diese Ausrüstung wurde unserem Waffenlager hinzugefügt."
+ mie.6.a: "Großartig!"
+
+ mie.7.t: "Osteuropäische Kooperation"
+ mie.7.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben zu nutzen, um uns Artillerie zu senden. Diese Ausrüstung wurde unserem Waffenlager hinzugefügt."
+ mie.7.a: "Großartig!"
+
+ MIE_air_command_1: "Infrastruktur für eine gemeinschaftliche Luftabwehr"
+ MIE_all_build_air_infra: "Jeder Mitgliedsstaat wird in seiner Hauptstadt den §Flughafen§! um eine Stufe und die §HLuftabwehr§! um zwei Stufen verbessern und §H50§!  £unit_fighter_icon_small erhalten.\n\nDies wird neue Entscheidungen freischalten."
+
+ mie.8.t: "Osteuropäische Kooperation"
+ mie.8.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben zu nutzen, um die Infrastruktur für ein gemeinsames Luftabwehrkommando der osteuropäischen Staaten zu errichten. Dazu gehört die Konstruktion neuer Flughäfen und die Bereitstellung von Flugzeugjägern für alle Mitglieder des Kommandos."
+ mie.8.a: "Großartig!"
+
+ MIE_air_command_2: "Integrierte Flugzeuge"
+ MIE_joint_air_command: "Gemeinsames Osteuropäisches Luftabwehrkommando"
+
+ mie.9.t: "Osteuropäische Kooperation"
+ mie.9.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben zu nutzen, um ein offizielles gemeinsames Luftabwehrkommando der osteuropäischen Staaten zu etablieren. Dies wird die Flugzeuge aller Mitgliedsstaaten in eine übergreifende Struktur integrieren, was eine bessere Kooperation und dadurch auch die Kontrolle des Himmels ermöglicht."
+ mie.9.a: "Großartig!"
+
+ MIE_air_command_2_completed: "$has_completed_decision$$MIE_air_command_2$§!"
+ MIE_air_command_3: "Multilinguales Luftabwehrkommando"
+
+ mie.10.t: "Osteuropäische Kooperation"
+ mie.10.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben zu nutzen, um wichtige Reformen im gemeinsamen Luftabwehrkommando der osteuropäischen Staaten durchzuführen. Mit der erfolgreichen Integration multilingualer Disponenten und noch stärker Kooperation zwischen unseren Luftwaffen, wird sich die Effizienz dieser stark erhöhen."
+ mie.10.a: "Großartig!"
+
+ MIE_international_tank_division: "Internationale Panzerdivision"
+ MIE_transferable_armored_division_tt: "Diese gepanzerte Division wird zwischen den osteuropäischen Staaten transferiert, wenn sich die Nation, die für die Ressourcenverteilung verantwortlich ist, ändert."
+
+ mie.11.t: "Osteuropäische Kooperation"
+ mie.11.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben zu nutzen, um eine internationale Panzerdivison, bestehend aus Freiwilligen aller osteuropäischen Länder, zu erschaffen. Während [MIE_leader.GetNameDef] die Division in seine Armee integrieren wird, wird sie von Staat zu Staat transferiert, sollte der derzeitige Eigentümer fallen."
+ mie.11.a: "Großartig!"
+ 
+ mie.12.t: "Die russische Bedrohung neutralisiert!"
+ mie.12.d: "Russland ist der Macht des Reichspakts anheim gefallen, wodurch das osteuropäische Kooperationsprojekt nun seinen primären Zweck erfüllt hat und nicht mehr benötigt wird. Jetzt können wir uns ausruhen und die Tatsache genießen, dass Russland unsere Unabhängigkeit nie wieder bedrohen kann."
+ mie.12.a: "Ein guter Tag."
+ 
+ mie.13.t: "Deutschland spendet Ausrüstung"
+ mie.13.d: "Das deutsche Kriegsministerium hat der Osteuropäischen Verteidigungskooperations-Initiative einige Ausrüstung zukommen lassen. Diese alten aber zuverlässigen Mauser werden sich in den Händen von baltischen und slawischen Patrioten, die ihre Heimat gegen die russischen Aggressoren verteidigen, als äußerst nützlich erweisen."
+ mie.13.a: "Deutschland über alles."
+
+ mie.14.t: "Ankunft der Baltischen Feldgendarmerie"
+ mie.14.d: "Eine Spezialeinheit der Militärpolizei des Kaiserreichs ist eingetroffen, um unsere Sicherheitskräfte zu verstärken. Aufgrund ihrer Erfahrung im Umgang mit Guerilla-Streitkräften könnten diese Männer in der Bekämpfung des Aufstandes, der durch das Baltikum fegt, eine große Hilfe darstellen."
+ mie.14.a: "Entsendet sie nach Lettland."
+ mie.14.b: "Entsendet sie nach Estland."
+
+ mie.15.t: "Deutschland offeriert Unterstützung beim Gesetzesvollzug"
+ mie.15.d: "Berlin hat eine Zusammenarbeit unserer Nationen bei der Bekämpfung der Litauischen Aktivistischen Front vorgeschlagen. Die Deutschen sind dazu bereit, einige militärische Polizeieinheiten aus Ostpreußen nach Litauen zu entsenden, um dort gemeinsame Schläge gegen die LAF zu organisieren. Zusammen sollten wir dazu in der Lange sein, einigen Druck auf die Kräfte der LAF auszuüben."
+ mie.15.a: "Gut."
+
+ mie.17.t: "Pro-deutscher Staatsstreich in Weißruthenien!"
+ mie.17.d: "Wie es scheint, hat der deutsche Geheimdienst unsere Zusammenarbeit mit der belarussischen Regierung aufgedeckt. Auf deutschen Befehl hin haben die reaktionären Elemente der belarussischen Armee die Kontrolle über Minsk übernommen, Ratsvorsitzenden Taraškievič des Hochverrates angeklagt und diesen festgenommen. Schon jetzt werden Sozialisten in ganz Weißruthenien verhaftet, während das bourgeoisie Militär die Freiheit des belarussischen Volkes weiter einschränkt. Sie können sich uns zwar nicht länger direkt im Falle eines Krieges anschließen, doch werden weiterhin ihr Bestes geben, um die Bemühungen der Militärregierung, sich uns zu widersetzen, zu sabotieren. Es ist unsere brüderliche Pflicht, die Belarussen von der preußischen Schreckensherrschaft zu befreien!"
+ mie.17.a: "Auf nach Minsk!"
+ GER_coup_WHR: "Pro-deutscher Staatsstreich in Weißruthenien"
+
+ mie.18.t: "Deutsches Entlastungs-Abkommne"
+ mie.18.d: "Unsere Freunde in Berlin haben uns nicht allein gelassen! Trotz ihrer eigenen wirtschaftlichen Misere hat die deutsche Regierung verkündet, dass unsere Getreideexporte von den verstärkt-protektionistischen Richtlinien der deutschen Handelspolitik, welche dem Schutze ihres eigenen landwirtschaftlichen Sektors dienen, ausgenommen werden. Zudem waren sie dazu bereit, einige unserer Kredite bei deutschen Banken umzuschulden, was uns das Tragen der finanziellen Last auf unseren Schultern etwas erleichtert. Insgesamt sollten die Entscheidungen der Deutschen unsere wirtschaftliche Lage und vor allem das Lot unserer Bauernschaft etwas verbessern."
+ mie.18.a: "Welch wohltätige Verbündete wir doch haben."
+
+ mie.19.t: "Die Stunde rückt näher"
+ mie.19.d: "Unsere Aufklärungseinheiten haben massive russische Truppenbewegungen entlang der Grenze beobachtet. Nach Jahren der zunehmenden Spannungen scheint [RUS.GetNameDef] nun die Eroberung Osteuropas und die Zerschlagung unserer Unabhängigkeit voranzutreiben. Die Osteuropäische Verteidigungskooperation hat die militärischen Kapazitäten sowohl unserer Nation als auch unserer Verbündeten gestärkt - wir blicken dem kommenden Sturm vorbereitet entgegen. Deutschland hat uns nun jedoch darüber informiert, dass sie es bevorzugen würden, wenn unsere Verteidigungsanlagen die Russen zurückhalten könnten, bis die deutsche Armee die Internationale im Westen zerschlagen hat, da eine Aufteilung des Heeres den Zweifrontenkrieg zweifelsohne erschweren würde."
+ mie.19.a: "Sind sie des Wahnsinns? Wir können uns Russland nicht einfach allein entgegenstellen!"
+ mie.19.b: "Wir sind dazu bereit, uns und unsere Nachbarstaaten zu verteidigen!"
+ mie.19.c: "Wir sind dazu bereit, uns selbst zu verteidigen!"
+ mie.19.b.tt: "Bis §H[FRA.GetNameDef]§! kapituliert hat, werden weder §HDeutschland§! noch seine Verbündeten Divisionen zur Verteidigung unserer Grenzen entsenden - wir werden den Russen allein gegenüberstehen.\nNationen der §HOsteuropäischen Verteidigungskooperation§! werden sich auch weiterhin gegenseitig verteidigen können.\n\n§RWARNUNG: Dies wird den Krieg gegen Russland schwieriger gestalten.§!"
+ mie.19.c.tt: "Bis §H[FRA.GetNameDef]§! kapituliert hat, werden weder §HDeutschland§! noch seine Verbündeten Divisionen zur Verteidigung der §HOsteuropäischen Verteidigungskooperation§! entsenden.\n\n§RWARNUNG: Dies wird den Krieg gegen Russland schwieriger gestalten. Außerdem wird Russland zusätzliche Infanterieausrüstung erhalten.§!"

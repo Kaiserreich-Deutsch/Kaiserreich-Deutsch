@@ -1,0 +1,653 @@
+﻿l_german:
+###   Übersetzt von DerEherneRächer   ###
+ PAL_totalist_party: "PAWS (NS)"
+ PAL_totalist_party_long: "Jam'iyyat al-'Ummal al-'Arabiyya al-Filastiniyya (al-niqabiat al-Watani)"
+ PAL_syndicalist_party: "PAWS"
+ PAL_syndicalist_party_long: "Jam'iyyat al-'Ummal al-'Arabiyya al-Filastiniyya"
+ PAL_radical_socialist_party: "PAWS(S)"
+ PAL_radical_socialist_party_long: "Jam'iyyat al-'Ummal al-'Arabiyya al-Filastiniyya (al-Sha'b)"
+ PAL_social_democrat_party: "al-Sha'b al-Filastini"
+ PAL_social_democrat_party_long: "Hizb al-Sha'b al-Filastini"
+ PAL_social_liberal_party: "OPAD"
+ PAL_social_liberal_party_long: "Hizb al-lamarkaziyya al-idariyya al'Uthmani (Osmanische Partei der Administrativen Dezentralisierung)"
+ PAL_market_liberal_party: "Internationaler Rat"
+ PAL_market_liberal_party_long: "Internationaler Rat"
+ PAL_social_conservative_party: "IMF"
+ PAL_social_conservative_party_long: "İttihad-ı Muhammedi Fırkası (Mohammeds Unionspartei)"
+ PAL_authoritarian_democrat_party: "OHF"
+ PAL_authoritarian_democrat_party_long: "Osmanlı Halk Fırkası (Osmanische Volkspartei)"
+ PAL_paternal_autocrat_party: "SIF"
+ PAL_paternal_autocrat_party_long: "Selamet-i Osmaniye Fırkası (Osmanische Erlösungspartei)"
+ PAL_national_populist_party: "‎Al-Fida'iyya"
+ PAL_national_populist_party_long: "Al-Fida'iyya"
+
+### Cosmetic Tags ###
+ PAL: "Palästina"
+ PAL_ADJ: "Palästinensisch"
+ PAL_DEF: "Palästina"
+
+ PAL_social_democrat: "Mutasarrifat von Jerusalem"
+ PAL_social_democrat_ADJ: "Palästinensisch"
+ PAL_social_democrat_DEF: "das Mutasarrifat von Jerusalem"
+ PAL_social_liberal: "Mutasarrifat von Jerusalem"
+ PAL_social_liberal_ADJ: "Palästinensisch"
+ PAL_social_liberal_DEF: "das Mutasarrifat von Jerusalem"
+ PAL_market_liberal: "Mutasarrifat von Jerusalem"
+ PAL_market_liberal_ADJ: "Palästinensisch"
+ PAL_market_liberal_DEF: "das Mutasarrifat von Jerusalem"
+ PAL_social_conservative: "Mutasarrifat von Jerusalem"
+ PAL_social_conservative_ADJ: "Palästinensisch"
+ PAL_social_conservative_DEF: "das Mutasarrifat von Jerusalem"
+ PAL_authoritarian_democrat: "Mutasarrifat von Jerusalem"
+ PAL_authoritarian_democrat_ADJ: "Palästinensisch"
+ PAL_authoritarian_democrat_DEF: "das Mutasarrifat von Jerusalem"
+ PAL_paternal_autocrat: "Mutasarrifat von Jerusalem"
+ PAL_paternal_autocrat_ADJ: "Palästinensisch"
+ PAL_paternal_autocrat_DEF: "das Mutasarrifat von Jerusalem"
+ PAL_national_populist: "Mutasarrifat von Jerusalem"
+ PAL_national_populist_ADJ: "Palästinensisch"
+ PAL_national_populist_DEF: "das Mutasarrifat von Jerusalem"
+
+ PAL_suez: "Sues"
+ PAL_suez_ADJ: "Suesisch"
+ PAL_suez_DEF: "der Sues"
+
+ PAL_suez_totalist: "Internationale Sueszone"
+ PAL_suez_totalist_ADJ: "Suesisch"
+ PAL_suez_totalist_DEF: "die Internationale Sueszone"
+ PAL_suez_syndicalist: "Internationale Sueszone"
+ PAL_suez_syndicalist_ADJ: "Suesisch"
+ PAL_suez_syndicalist_DEF: "die Internationale Sueszone"
+ PAL_suez_radical_socialist: "Internationale Sueszone"
+ PAL_suez_radical_socialist_ADJ: "Suesisch"
+ PAL_suez_radical_socialist_DEF: "die Internationale Sueszone"
+ PAL_suez_social_democrat: "Internationale Sueszone"
+ PAL_suez_social_democrat_ADJ: "Suesisch"
+ PAL_suez_social_democrat_DEF: "die Internationale Sueszone"
+ PAL_suez_social_liberal: "Internationale Sueszone"
+ PAL_suez_social_liberal_ADJ: "Suesisch"
+ PAL_suez_social_liberal_DEF: "die Internationale Sueszone"
+ PAL_suez_market_liberal: "Internationale Sueszone"
+ PAL_suez_market_liberal_ADJ: "Suesisch"
+ PAL_suez_market_liberal_DEF: "die Internationale Sueszone"
+ PAL_suez_social_conservative: "Internationale Sueszone"
+ PAL_suez_social_conservative_ADJ: "Suesisch"
+ PAL_suez_social_conservative_DEF: "die Internationale Sueszone"
+ PAL_suez_authoritarian_democrat: "Internationale Sueszone"
+ PAL_suez_authoritarian_democrat_ADJ: "Suesisch"
+ PAL_suez_authoritarian_democrat_DEF: "die Internationale Sueszone"
+ PAL_suez_paternal_autocrat: "Internationale Sueszone"
+ PAL_suez_paternal_autocrat_ADJ: "Suesisch"
+ PAL_suez_paternal_autocrat_DEF: "die Internationale Sueszone"
+ PAL_suez_national_populist: "Internationale Sueszone"
+ PAL_suez_national_populist_ADJ: "Suesisch"
+ PAL_suez_national_populist_DEF: "die Internationale Sueszone"
+
+### Opinion Modifiers
+ PAL_arabcon: "Nahm am Dritten Arabischen Kongress teil"
+ PAL_arabconletiranin: "Ließ den Iran am Dritten Arabischen Kongress teilnehmen"
+
+### Tooltips
+ Arab_Congress: "Der Dritte Arabische Kongress hat stattgefunden"
+
+ pal_end_moj_tt: "Das §YMutasarrifat von Jerusalem§! wird aufgelöst und die vollständige Kontrolle über sein Land erneut an die Hohen Pforte übergeben.\n§RÄgypten wird eine Invasion der Sinai-Halbinsel starten, sollten sie keine Zugeständnisse erhalten.§!\n"
+
+ palestine_strike: "§YDie Unruhen im M.v.J. sind eskaliert§!"
+ pal_haifa_concluded: "§YDer Kongress von Haifa hat stattgefunden§!"
+
+ abu_raid_tt: "£GFX_sgip_heavy_cruiser_icon_small Die §YCanakkale§! ist die nächsten §R6 Monate§! lang außer Betrieb.\n£GFX_sgip_light_cruiser_icon_small Die §YHamidiye§! ist die nächsten §R6 Monate§! lang außer Betrieb.\n£GFX_sgip_destroyer_icon_small Ein §YZerstörer§! wurde §Rzerstört§!.\n£GFX_sgip_destroyer_icon_small Ein §YZerstörer§! wurde §Rzerstört§!.\n\n"
+ abu_repaired_tt: "£GFX_sgip_heavy_cruiser_icon_small Die §YCanakkale§! kehrt zur Flotte zurück.\n£GFX_sgip_light_cruiser_icon_small Die §YHamidiye§! kehrt zur Flotte zurück.\n"
+
+### Traits
+ PAL_fervent_educator: "Leidenschaftlicher Erzieher"
+ PAL_fervent_educator_desc: "Der Mann, der einst auch Großwesir Mustafa Kemal Pascha lehrte, will sein Wissen nun nutzen, um den Menschen die osmanische Schrift beizubringen, um sicherzustellen, dass kein Bürger vergessen bleibt, wenn das Reich seinen Sprung in die Zukunft wagt."
+
+### Ideas
+ pal_moj: "Internationale Gendarmerie"
+ pal_moj2: "Internationale Gendarmerie"
+ pal_moj3: "Internationale Gendarmerie"
+ pal_alijah: "Dritte Alija"
+ pal_alijah_desc: "Durch die Balfour-Deklaration und später auch durch das Abkommen von Jerusalem wurde es jüdischen Einwanderern erlaubt, im Mutasarrifat von Jerusalem (M.v.J.) zu siedeln. Um der durch den Krieg in Osteuropa entstandenen Zerstörung zu entkommen, flohen tausende Juden in die internationale Zone, was sowohl die Einheimischen als auch die Hohe Pforte verärgerte.\n\nMan darf jedoch nicht vergessen, dass diese Immigranten auch gewisse Fähigkeiten und handwerkliches Geschick mit sich bringen, was die Wirtschaft des Mutasarrifates sowohl für die muslimischen Palästinenser als auch für die jüdischen Neuankömmlinge verbessert hat."
+ pal_sectarian_divide: "Konfessionelle Spaltung"
+ pal_sectarian_divide_desc: "Die sunnitischen Araber, die sich sowohl von der internationalen Gemeinschaft als auch von ihrem Kalifen betrogen fühlen, versuchen, sich gegen das schnelle Wachstum der jüdischen Bevölkerung in ihrem Heimatland zu wehren, was zu zivilem Ungehorsam, Protesten und Streiks führt. Die internationale Gendarmerie, die eigentlich Recht und Ordnung aufrechterhalten sollte, hat große Probleme bei der Erfüllung ihrer Aufgabe, zumal sich die Spannungen mit jedem jüdischen Neuankömmling weiter zuspitzen."
+ pal_immigration_stopped: "Jüdische Immigration gestoppt"
+ pal_immigration_stopped_desc: "Um gegen die wachsenden Unruhen vorzugehen, die aufgrund der zunehmenden Größe der jüdischen Gemeinschaft entstanden sind, hat der Rat offiziell das Ende der jüdischen Immigration in das Mutasarrifat erklärt. Trotz dieser Maßnahme überfluten illegale Immigranten, die über Dritte in die Region gelangen, noch immer die Nation und verschlechtern die so die Beziehungen zwischen den Palästinensern und dem Internationalen Rat."
+ pal_black_monday: "Auswirkungen des Schwarzen Montags"
+ pal_black_monday_desc: "Der Berliner Börsenkrach hatte auch auf die Levante seine Auswirkungen, da die internationale Natur des M.v.J. es äußerst anfällig für ausländische Wirtschaftsschwankungen macht. Während sich die deutsche Wirtschaft auf ihre schrecklichste Rezession in kürzlicher Geschichte vorbereitet, befindet sich unsere Provinz im nahezu vollständigen Chaos."
+ pal_black_monday2: "Auswirkungen des Schwarzen Montags"
+ pal_black_monday2_desc: "Der Berliner Börsenkrach hatte auch auf die Levante seine Auswirkungen, da die internationale Natur des M.v.J. es äußerst anfällig für ausländische Wirtschaftsschwankungen macht. Während sich die deutsche Wirtschaft auf ihre schrecklichste Rezession in kürzlicher Geschichte vorbereitet, befindet sich unsere Provinz im nahezu vollständigen Chaos."
+ pal_foreign_backing: "Ausländisches Hilfskapital"
+ pal_foreign_backing_desc: "Mehrere zionistische Organisationen aus allen Ecken der Welt wollen das Mutasarrifat unterstützen und verhindern, dass osmanische Eingriffe erforderlich werden, weshalb sie nun große Mengen Geld via Schiff und Post nach Jaffa senden."
+ pal_ottoman_reintegration: "Osmanische Wirtschaftliche Reintegration"
+ pal_ottoman_reintegration_desc: "Die Bemühungen des Internationalen Rates, gegen die protektionistischen Maßnahmen der Osmanen in der Region vorzugehen, haben das Gegenteil bewirkt, da die fehlenden Grundgüter im Mutasarrifat sich sowohl auf die palästinensische Bevölkerung als auch auf die Investoren strak negativ auswirken."
+ pal_shortage_of_goods: "Fehlende Grundgüter"
+ pal_shortage_of_goods_desc: "Die weltweite wirtschaftliche Rezession erschwert den Import und den Export landwirtschaftlicher Güter. Das protektionistische Osmanische Reich hat die Zölle stark erhöht, um seine eigene Wirtschaft zu retten, was wiederum zur Folge hatte, dass es im Mutasarrifat selbst an einfachen Grundgütern mangelt. Die Inflation steigt an, Güter werden knapp und die Häfen von Jaffa und Tel-Aviv werden kaum noch von Schiffen besucht."
+ pal_alijah_US: "Vierte Alija"
+ pal_alijah_US_desc: "Durch die Balfour-Deklaration und später auch durch das Abkommen von Jerusalem wurde es jüdischen Einwanderern erlaubt, im Mutasarrifat von Jerusalem (M.v.J.) zu siedeln. Um der durch den Krieg in Osteuropa entstandenen Zerstörung zu entkommen, flohen tausende Juden in die internationale Zone, was sowohl die Einheimischen als auch die Hohe Pforte verärgerte.\n\nMan darf jedoch nicht vergessen, dass diese Immigranten auch gewisse Fähigkeiten und handwerkliches Geschick mit sich bringen, was die Wirtschaft des Mutasarrifates sowohl für die muslimischen Palästinenser als auch für die jüdischen Neuankömmlinge verbessert hat."
+ pal_alijah_EE: "Vierte Alija"
+ pal_alijah_EE_desc: "Durch die Balfour-Deklaration und später auch durch das Abkommen von Jerusalem wurde es jüdischen Einwanderern erlaubt, im Mutasarrifat von Jerusalem (M.v.J.) zu siedeln. Um der durch den Krieg in Osteuropa entstandenen Zerstörung zu entkommen, flohen tausende Juden in die internationale Zone, was sowohl die Einheimischen als auch die Hohe Pforte verärgerte.\n\nMan darf jedoch nicht vergessen, dass diese Immigranten auch gewisse Fähigkeiten und handwerkliches Geschick mit sich bringen, was die Wirtschaft des Mutasarrifates sowohl für die muslimischen Palästinenser als auch für die jüdischen Neuankömmlinge verbessert hat."
+ pal_arab_strike: "Großer Arabischer Streik"
+ pal_arab_strike_desc: "Die Araber Palästinas sind durch die internationale Gendarmerie und die Weigerung der internationalen Koalition, Palästina zu verlassen, erzürnt. Deshalb haben sie einen großen Streik organisiert, mit dem sie die Region in einen Stillstand versetzen und den Rat zur Akzeptierung ihrer Forderungen zwingen wollen. Auch in Ägypten und im Osmanischen Reich haben Araber als Zeichen der Solidarität für ihre Brüder in Palästina ihre Arbeit eingestellt."
+ pal_arab_strike2: "Großer Arabischer Streik"
+ pal_arab_strike2_desc: "Die Araber Palästinas sind durch die internationale Gendarmerie und die Weigerung der internationalen Koalition, Palästina zu verlassen, erzürnt. Deshalb haben sie einen großen Streik organisiert, mit dem sie die Region in einen Stillstand versetzen und den Rat zur Akzeptierung ihrer Forderungen zwingen wollen. Auch in Ägypten und im Osmanischen Reich haben Araber als Zeichen der Solidarität für ihre Brüder in Palästina ihre Arbeit eingestellt."
+ pal_arab_broadcasts: "Radio Kairo"
+ pal_arab_broadcasts_desc: "Das Regime auf der anderen Seite des Sueskanals hat mehrere panarabische Organisationen und Intellektuelle dazu gebracht, ihre Botschaften dem Volk des Mutasarrifates näher zu bringen. Da wir nicht allein gegen sie vorgehen können und die Ägypter eine Intervention verweigern, können wir ihre Botschaften nicht davon abhalten, die Ohren und Herzen unserer Bürger zu erreichen."
+ pal_dividends: "Dividende des Suesunternehmens"
+ pal_international_legislative_assembly: "Die internationale parlamentarische Versammlung des Sues"
+ pal_red_cross_port_said: "Das internationale Krankenhaus von Port Said"
+ pal_frontline_imperialism: "Die Front des westlichen Imperialismus"
+ pal_supplies: "Abteilung zur Beschaffung von Nachschub"
+
+### Events
+ pal.1.t: "Das Mutasarrifat von Jerusalem 1936"
+ pal.1.d: "Das Mutasarrifat von Jerusalem wurde gegen Ende des Weltkriegs als internationale Zone gegründet - und ist mittlerweile nahezu gänzlich außer Kontrolle geraten. Die Grenzen des Mutasarrifats basieren auf einer künstlichen Demarkation entlang den Verteidigungslinien der "Allenby-Line". Dadurch teilte die Zone nicht nur Palästina entzwei, sondern verhinderte auch die anfänglichen Versuche der Zionisten, sich nahe Haifa anzusiedeln. Durch Kompromisse mit allen beteiligten Parteien wurde eine verzweigte administrative Struktur geschaffen, mit der keiner wirklich zufrieden war. Das Territorium dieser Zone, die das alte Kudus-I-Serif Mutasarrifat umfasste, wurde daraufhin nach Süden in Richtung des Roten Meeres expandiert, damit sie auch außerhalb des Mittelmeeres über einen Hafen verfügte.\n\nDie administrative Struktur des M.v.J. (Mutasarrifat von Jerusalem) besteht aus zwei Regierungsorganen: Der Internationale Rat, der aus Repräsentanten aus Deutschland, den USA, Österreich-Ungarn, Großbritannien und dem Osmanischen Reich besteht, verfügt de facto über die größte Macht in der Region, reguliert die Immigration und die Besteuerung und hat das Kommando über die internationale Gendarmerie inne. Die zweite Institution besteht aus Repräsentanten aller religiösen Bewegungen der Region und agiert als lokale Regierung, die eng mit dem Internationalen Rat zusammenarbeitet, der ihr Budget überwacht. Den Vorsitz dieser gesamten Struktur bildet der osmanische Mutasarrif, der vom Sultan selbst ernannt wurde. Allerdings verfügt dieser nicht über die nötige Gewalt, um über die Region, die de jure noch zur Hohen Pforte gehört, zu regieren.\n\nDie Araber Palästinas sind mit dieser Struktur und dem stetigen Wachstum der jüdischen Bevölkerung durch die Immigration ins "Heilige Land" jedoch äußerst unzufrieden, weshalb es immer wieder zu Auseinandersetzungen zwischen ihnen, der internationalen Gendarmerie und den Steuereintreibern kommt. Außerdem ist die Region die Heimat des erwachenden arabischen Nationalismus, der vom Regime in Kairo unterstützt wird. Der Kalif befindet sich in einer Zwickmühle: Im Osmanischen Reich will man die Internationale Zone abschaffen, doch dies ist nicht möglich, ohne den Zorn der anderen Großmächte auf sich zu ziehen. Dennoch bereiten Agenten der Pforte und Propagandasendungen aus dem benachbarten Haifa die palästinensische Bevölkerung stets auf ihre Rückkehr unter den osmanischen Schutz vor und helfen dem Widerstand dabei, den Kollaps des Mutasarrifats zu beschleunigen."
+ pal.1.a: "Es sieht nicht gerade gut aus..."
+
+ pal.2.t: "Die wirtschaftliche Depression trifft das M.v.J."
+ pal.2.d: "Der Berliner Börsenkrach sendet Schockwellen durch die ganze Welt, die auch unsere Region getroffen haben. Da das Osmanische Reich nun verzweifelt versucht, die Auswirkungen dieser Katastrophe zu vermindern, wurde Palästina noch härter getroffen. Durch unsere starke Abhängigkeit vom internationalen Markt waren wir besonders verletzlich. Nun sind nahezu alle Sektoren unserer Wirtschaft (außer dem landwirtschaftlichen Sektor) zusammengebrochen."
+ pal.2.a: "Das ist ein Desaster!"
+
+ pal.3.t: "Proteste in Jaffa"
+ pal.3.d: "Da die wirtschaftliche Depression sich weiter verschlechtert und der Internationale Rat noch immer Maßnahmen zur Bekämpfung dieser Krise aus dem Weg geht, sind Bürger aus Jaffa und Tel Aviv auf die Straßen gegangen, um eine Intervention ihrer "Regierung" und eine Wiederherstellung der Beziehungen zur Hohen Pforte zu fordern. Obwohl die Proteste von friedlicher Natur waren, hat die Gendarmerie einige Muslime festgenommen, um "eine weitere Eskalation der Situation zu vermeiden"."
+ pal.3.a: "Die Ordnung muss aufrechterhalten werden!"
+
+ pal.4.t: "Knappheiten nehmen zu"
+ pal.4.d: "Da sich der internationale Handel noch immer im Chaos befindet, werden Güter wie Kohle, Öl, Lebensmittel und Industriewerkzeuge stetig knapper. Die lokale Produktion ist fast zum Stillstand gekommen, da sowohl der Import als auch der Export derzeit lahmgelegt sind. In den letzten Wochen wurden viele Hafenarbeiter in Jaffa entlassen, da kaum noch Schiffe am wichtigsten Hafen der Region anlegen. Hilfspakete des Osmanischen Reiches wurden an der Grenze der DMZ aufgehalten und von der Gendarmerie zurückgewiesen, um zu verhindern, dass das Mutasarrifat von Damaskus abhängig wird. Des Weiteren fürchtet die Gendarmerie, die Osmanen könnten versuchen, durch diese Pakete Waffen an den palästinensischen Widerstand zu schmuggeln."
+ pal.4.a: "Wir müssen lediglich den Sturm überstehen."
+
+ pal.5.t: "Amerikanische Truppen verlassen das Mutasarrifat"
+ pal.5.d: "Da Amerika erneut in einen Bürgerkrieg verfallen ist, hat [USA.GetLeader] den sofortigen Rückzug aller amerikanischen Truppen aus Palästina angeordnet, damit diese ihre Heimat verteidigen können. Da diese seit der Gründung der internationalen Gendarmerie 1920 einer ihrer wichtigsten Unterstützer waren, ist diese nun noch stärker überstrapaziert."
+ pal.5.a: "Johnny marschiert wieder in die Heimat."
+
+ pal.6.t: "Schmuggel auf der Sinai-Halbinsel"
+ pal.6.d: "Die derzeitige Wirtschaftskrise hat den palästinensischen Widerstand beflügelt und die Nachfrage nach Waffen und Unterstützung von unserer Regierung verstärkt. Alte Routen von Schmugglern durch die Sinai-Halbinsel sind wieder in Betrieb genommen wurden, da die internationale Gendarmerie nicht die nötigen Männer zur Verfügung hat, um die gesamte Wüste zu patrouillieren. Es werden jedoch nicht nur Waffen geschmuggelt, da die Grundgüter-Knappheit viele Palästinenser dazu zwingt, auf den Schwarzmarkt zurückzugreifen, der von unserem Land aus stetig mit Nachschub beliefert wird."
+ pal.6.a: "Wir werden diese verrottete Struktur von innen heraus vernichten!"
+
+ pal.7.t: "Freies Radio Palästina nimmt Fahrt auf"
+ pal.7.d: "Das Freie Radio Palästina, das als Sender konzipiert wurde, der die Öffentlichkeit gegen das Mutasarrifat und die jüdische Immigration richten sollte, hat seine Reichweite vor Kurzem stark vergrößert, da heimliche Geschäfte mit der Ittihad-Partei es dem Sender ermöglicht haben, weitere Sendestationen nahe der Grenze zu errichten. Obwohl unsere Regierung jegliche Verantwortung für diese Organisation vor Diplomaten der Pforte und der Nationen des Abkommens von Jerusalem abstreitet, ist es kein Geheimnis, dass ihre Botschaft gut zu den Plänen unserer Regierung bezüglich des Nahen Ostens passt und die Unzufriedenheit der Araber im Osmanischen Reich steigert."
+ pal.7.a: ""Ist es nicht der Kalif, der euch geopfert hat, um seine Krone behalten zu können?""
+
+ pal.8.t: "Die vierte Alija"
+ pal.8.d: "Die weltweiten politischen Entwicklungen haben zu großer Unzufriedenheit der globalen jüdischen Gemeinschaft geführt. Da sich die USA, das Leuchtfeuer der Freiheit und Unabhängigkeit, in einem zerstörerischen Bürgerkrieg befindet, fliehen Tausende in alle Ecken der Welt. Auch die jüdische Bevölkerung Amerikas, die vor allem im Unionsstaat unterdrückt wird, ergreift zu großen Teilen die Flucht und verfolgt den zionistischen Traum. Im Hafen von Tel Aviv sind bereits tausende gebildete Juden angekommen, die auch ihre Erfahrung und ihr Kapital mit sich bringen und so dabei helfen, den Juden eine neue Heimat zu schaffen. Die Araber sind mit diesem neuen Zustrom jüdischer Siedler allerdings stark unzufrieden. Die neue Immigrationswelle und die Wirtschaftskrise sorgen zusammen für Unruhen, die die Gendarmerie nur schwer unter Kontrolle halten kann."
+ pal.8.a: "Willkommen im M.v.J."
+
+ pal.9.t: "Verstärkte Immigration aus Osteuropa"
+ pal.9.d: "In einigen osteuropäischen Nationen haben antisemitische Regime die Kontrolle übernommen, weshalb es dort vermehrt zu Pogromen gegen ihre jüdische Bevölkerung und zur generellen Diskriminierung der Juden kommt. Da sie sonst nirgendwohin gehen können, begeben sich nun viele Juden auf die lange Reise nach Süden in Richtung Palästina, in der Hoffnung, dort eine sichere Heimat zu finden. Da sie nicht wollen, dass sich die Spannungen noch weiter verschärfen, haben einige Mitglieder der lokalen Regierung den Rat darum gebeten, die Immigration, welche den arabischen Nationalisten lediglich in die Hände spielen würde, zu stoppen."
+ pal.9.a: "Willkommen im M.v.J."
+
+ pal.10.t: "Konfessionelle Spaltungen"
+ pal.10.d: "Der stetige Zustrom jüdischer Siedler am Hafen von Tel Aviv hat die Abneigung der Araber gegenüber dem Mutasarrifat verstärkt und zu einem Anstieg der Verbrechen gegen die neuen Siedler und zu regionalen Protesten geführt. Auch durch den Verhandlungsversuch des Mutasarrifs konnte nicht viel erreicht werden, da der Mufti von Jerusalem noch immer ein komplettes Verbot der jüdischen Immigration fordert."
+ pal.10.a: "Wir sollten aus einer Mücke keinen Elefanten machen."
+
+ pal.11.t: "Proteste in Jerusalem eskalieren"
+ pal.11.d: "Mehrere wichtige arabische Persönlichkeiten haben einen großen Protest in Jerusalem organisiert, mit dem sie den Rat dazu zwingen wollen, die Einwanderungsbehörde zu schließen. Der anfangs noch friedliche Protest ist eskaliert, nachdem die Einheiten der Gendarmerie damit begonnen hatten, gegen die Anführer des Protestes vorzugehen. Als Antwort haben die Demonstranten Steine auf Geschäfte von Ausländern geworfen und ausländische Bürger, die durch die Straßen der Stadt gingen, angegriffen. Schließlich konnten die Behörden den Protest auflösen, bevor er sich noch weiter ausbreitete, doch dem Internationalen Rat ist heute klar geworden, dass die Situation noch angespannter ist, als man es anfangs annahm."
+ pal.11.a: "Verhängt eine Ausgangssperre über Jerusalem!"
+
+ pal.12.t: "Der Rat stoppt weitere jüdische Immigration"
+ pal.12.d: "Als Antwort auf die Forderungen der muslimischen Bevölkerung und die Aufstände in Jerusalem vor einigen Wochen hat der Rat heute offiziell das Ende der jüdischen Immigration verkündet und beschlossen, dass keine neuen Siedler mehr in die Zone kommen dürfen, bis man eine Einigung mit den Arabern erreichen konnte. Aufgrund der begrenzten Ressourcen des Rates ist es zwar unwahrscheinlich, dass dieses Dekret die Immigranten vollends aufhalten wird, doch für das Mutasarrifat ist es dennoch ein wichtiger Wendepunkt."
+ pal.12.a: "Hoffentlich beruhigt das die Araber."
+
+ pal.13.t: "Aufstände in Jaffa"
+ pal.13.d: "Selbst die Umkehr unserer Immigrationspolitik konnte die Menschen nicht beruhigen. Noch immer erschüttern Proteste und Aufstände, die von den Ägyptern und einigen arabischen Bewegungen unterstützt werden, Palästina. Heute Morgen wurde in Jaffa der Bruchpunkt erreicht, als die überforderte Gendarmerie das Feuer auf einige arabische Demonstranten eröffnete, was in dem Tod von 23 Arabern resultierte. Mehrere Regierungen des Nahen Ostens haben bereits auf dieses Ereignis reagiert und fordern nun den sofortigen Rückzug der internationalen Truppen und die Auflösung des M.v.J., bevor es zu weiterer Gewalt kommt. Diese Zuschaustellung des Konflikts der Bevölkerung und der Regierung wird wahrscheinlich zur verstärkten Repression der Juden und zu weiterer Abneigung der arabischen Bevölkerung gegenüber den Behörden führen."
+ pal.13.a: "Das sieht gar nicht gut aus..."
+
+ pal.14.t: "Gewalt im Mutasarrifat"
+ pal.14.d: "Der stetige Zustrom neuer jüdischer Siedler und der Rückzug der amerikanischen Truppen letztes Jahr haben im Mutasarrifat zu Ausbrüchen von Gewalt geführt, die von der internationalen Gendarmerie durch Maßnahmen zur Erhaltung des Friedens und Auflösung der Streiks beantwortet wurden. Diese Maßnahmen resultierten jedoch im Tod mehrerer dutzend Araber. Dadurch ist die Forderung unserer Regierung, die internationale Zone vollständig aufzulösen, noch lauter geworden, mit der Begründung, dass diese Krise nur durch osmanische Herrschaft friedlich gelöst werden kann. Auch die Juden des Reiches wollen, dass der Sultan endlich eine entschlossene Haltung gegenüber dem Mutasarrifat einnimmt, da sie fürchten, dass ihre arabischen Brüder sich an ihnen für die Taten der internationalen Gendarmerie rächen werden."
+ pal.14.a: "Sendet unserem Mutasarrif neue Befehle."
+
+ pal.15.t: "Generalstreik in Palästina"
+ pal.15.d: "Mehrere nationale arabische Komitees haben einen Generalstreik der Araber in den Bereichen der Produktion, des Transportes und des Handels organisiert, mit dem sie den Rückzug der internationalen Truppen fordern wollen. Ihre Forderungen lauten wie folgt: 1.) Das Verbot der jüdischen Immigration heute und in der Zukunft. 2.) Das Verbot des Transfers von arabischem Land an Juden. 3.) Der sofortige Rückzug der internationalen Gendarmerie. Ein Großteil der arabischen Bevölkerung nimmt an dieser Aktion teil, wobei die Menschen stark von mächtigen Familien und religiösen Würdenträgern beeinflusst werden. Der Rat wiederum hat verkündet, dass er gegen jegliche Versuche, seine Auflösung zu erzwingen, hart durchgreifen wird. Schon jetzt wurde die Gendarmerie nach Jaffa entsandt, um mögliche Rädelsführer des Streiks festzunehmen."
+ pal.15.a: "Wir werden nicht nachgeben!"
+
+ pal.16.t: "Der Generalstreik geht weiter"
+ pal.16.d: "Versuche, den Streik mit Gewalt aufzulösen, sind gescheitert - und die gesamte Region wurde durch den Streik paralysiert. Alles, von den Eisenbahnen, über die Verwaltung, bis hin zur Industrie ist stillgelgt. Außerdem ist es wieder zu Gewalttaten gekommen: In vielen Städten der Region kam es zu Überfällen auf Bürger ausländischer Herkunft und gegen jüdische Siedler wird ein regelrechter Guerillakrieg geführt. Die Gendarmerie hat ebenfalls entsprechend reagiert und versucht, die Ordnung aufrechtzuerhalten. Die Zerstörung hunderter Häuser in Jaffa, durch die man die Rebellen ausmerzen wollte, ist allerdings nach hinten losgegangen und hat nur für noch mehr Druck sowohl in Jerusalem als auch in Jaffa selbst gesorgt.\n\nDa viele der Nationen des Abkommens von Jerusalem eigene Probleme zu beklagen haben und ein erneuter Weltkrieg immer wahrscheinlicher scheint, hat der Internationale Rat die Erstellung eines Berichtes über die Notwendigkeit des Mutasarrifates angeordnet und Gespräche mit der osmanischen Regierung über mögliche Lösungen des Problems aufgenommen."
+ pal.16.a: "Alles zerfällt..."
+
+ pal.17.t: "Ägypten verlangt einen Satz im Rat"
+ pal.17.d: "Die ägyptische Regierung, die sich selbst als Verteidiger aller Araber ansieht, nutzt die derzeitige Krise in Palästina aus, um ihren eigenen Einfluss auf die Region zu erhöhen. Als Antwort auf die Hilferufe mehrerer palästinensischer arabischer Organisationen hat Ägypten nun gefordert, ebenfalls in der Verwaltung des Mutasarrifates mitbestimmen zu dürfen. Die osmanischen Gesandten haben bereits ein Veto eingelegt und den Antrag somit abgelehnt, die Aktion zeigt jedoch, dass die Spannungen zwischen den beiden regionalen Mächten immer größer werden - und dass sich das M.v.J. schon bald in der Mitte eines Krieges wiederfinden könnte."
+ pal.17.a: "Organisiert einen Kongress, um diese Angelegenheit endgültig zu klären."
+
+ pal.18.t: "Der Kongress von Haifa beginnt"
+ pal.18.d: "Da die Gewalt in Palästina immer mehr zu eskalieren droht, haben sich die Unterzeichner des Abkommens von Jerusalem dazu entschieden, einen Kongress abzuhalten, der über die Zukunft des M.v.J. entscheiden soll. Die osmanische Delegation fordert die sofortige Wiedervereinigung der Region mit Kostantiniyye, mit der Begründung, das Chaos sei nur entstanden, nachdem die Region 1920 von der Hohen Pforte abgespalten wurde. Währenddessen fordert die ägyptische Regierung die Angliederung Palästinas an Ägypten, da sie der Meinung ist, dass alle Araber vereint werden sollten und dass es die osmanischen Taten während des Weltkrieges waren, die überhaupt erst zur Gründung des Mutasarrifates geführt haben. Auch das Komitee, das untersuchen sollte, ob die wenigen noch verbliebenen Truppen der Gendarmerie ausreichen, um das M.v.J. zu erhalten, sieht die Sache skeptisch. Die Mitglieder des Komitees haben vorgeschlagen, die Region mit dem Osmanischen Reich zu vereinen, sie jedoch auch weiterhin im Auge zu behalten, um sicherzugehen, dass die Juden genügend Land erhalten und frei von Repressalien leben können."
+ pal.18.a: "Die Repräsentanten werden entscheiden."
+
+ pal.19.t: "Der Kongress von Haifa: Die Zukunft des Mutasarrifates"
+ pal.19.d: "Als einer der Unterzeichner des Abkommens von Jerusalen 1920 entsenden wir noch immer eine Gesandtschaft in den Internationalen Rat des Mutasarrifates von Jerusalem. Kürzliche Ereignisse in Palästina, die dazu geführt haben, dass nahezu die gesamte Region einen Krieg gegen die Gendarmerie führt, die für ihre Sicherheit sorgen sollte, haben die Unterzeichner nun erneut zusammengebracht, um über die Zukunft der internationalen Zone zu entscheiden. Die geringe Truppenanzahl, begrenzten Ressourcen und aggressiven Vorgehensweisen der Ägypter und Osmanen bedrohen die Zukunft der Zone und das Komitee, welches die Möglichkeit der Aufrechterhaltung des Mutasarrifates bewerten sollte, sieht die Sache skeptisch. Deshalb hinterfragen auch viele Mitglieder unserer Regierung, ob es vielleicht besser wäre, das M.v.J. vollständig aufzulösen."
+ pal.19.a: "Löst das M.v.J. auf!"
+ pal.19.b: "Wir werden uns nicht zurückziehen!"
+
+ pal.20.t: "Der Internationale Rat stimmt für die Auflösung des M.v.J."
+ pal.20.d: "Als Reaktion auf die Probleme Palästinas haben die Unterzeichner des Abkommens von Jerusalem für die Auflösung der Internationalen Zone und ihre Reintegration in das Osmanische Reich gestimmt. Vorschläge, die Sinai-Halbinsel an Ägypten abzutreten, wurden von unseren Repräsentanten durch ein Veto abgelehnt, was sowohl Kairo, das die volle Kontrolle über die Region erlangen wolle, als auch die anderen beteiligten Nationen, die die Region unter die geteilte Kontrolle der Osmanen und der Ägypter stellen wollten, verärgert hat. Ob das palästinensische Problem dadurch gelöst werden konnte, wird sich noch herausstellen. Es ist jedoch sicher, dass der Konflikt zwischen Ägypten und dem Osmanischen Reich gerade erst begonnen hat.\n\nDa noch der letzte Papierkram erledigt werden und der Machttransfer von der Gendermerie zur osmanischen Armee organisiert werden muss, wird das Mutasarrifat noch eine weitere Woche bestehen, wenngleich es nicht mehr über seine eigene Innenpolitik bestimmen kann, die nun von den Osmanen kontrolliert wird."
+ pal.20.a: "Eine weise Entscheidung."
+
+ pal.21.t: "Die Sinai-Frage"
+ pal.21.d: "Obwohl sich die Zeit der Auflösung des M.v.J. nähert, da dieses, wie von den Unterzeichnern des Abkommens von Jerusalem beschlossen, wieder in das Osmanische Reich integriert werden soll, gibt es noch immer Streitigkeiten bezüglich der Sinai-Halbinsel. Die Osmanen beanspruchen sie als einen Teil des Mutasarrifates, der davor noch zum Khedivat Ägypten gehörte. Ihr Hauptziel scheint jedoch die unangefochtene Kontrolle über den Sueskanal zu sein. Eine Konfliktlösung durch den Rat, die die Übergabe der Sinai-Halbinsel beinhaltet, wird derzeit in Betracht gezogen, von den osmanischen Repräsentanten jedoch strikt abgelehnt. Da sich die osmanische Armee bereits mobilisiert, um die regionalen Garnisonen zu übernehmen, läuft uns die Zeit davon, um die Kontrolle über die arabischen Territorien des Reiches zu erlangen. Wir werden wohl kaum eine Offensive gegen ein Heer gewinnen, das sich nur wenige hundert Kilometer von unserer Hauptstadt entfernt eingegraben hat."
+ pal.21.a: "Besetzt die Halbinsel!"
+ pal.21.b: "Wir werden ihre Entscheidung abwarten."
+
+ pal.22.t: "Der Kongress von Haifa: Die Zukunft der Sinai-Halbinsel"
+ pal.22.d: "Die ägyptische Regierung fordert die Kontrolle über die Sinai-Halbinsel und droht mit Krieg, sollten ihre Forderungen nicht erfüllt werden. Die osmanischen Repräsentanten des Kongresses weigern sich noch immer, ägyptische Gesandte an der Debatte teilhaben zu lassen. Wenn wir es ihnen gleichtun, wird sich wohl nicht mehr verhindern lassen, dass sich Palästina in ein regelrechtes Schlachtfeld verwandelt."
+ pal.22.a: "Der Sinai ist ägyptisch!"
+ pal.22.b: "Die Pforte soll die Halbinsel kontrollieren!"
+
+ pal.23.t: "Der Rat stimmt gegen die Übergabe des Sinai"
+ pal.23.d: "Der Vorschlag, die umstrittene Halbinsel wieder unter unsere Kontrolle zu bringen, wurde auf dem Kongress von Haifa abgelehnt und dem Osmanischen Reich zugesprochen. Das ist zwar ein schwerer Schlag für unser Prestige, aber die ägyptische Armee steht am Suez bereit, um den Sinai gewaltsam zurückzuerobern, bevor die osmanischen Truppen die Region verstärken können und nur noch auf den Befehl des Königs warten."
+ pal.23.a: "Startet eine Invasion!"
+ pal.23.b: "Wir wollen keinen Ärger mit der Pforte."
+
+ pal.24.t: "Ägypten überquert den Sues"
+ pal.24.d: "Ägypten hat sich anscheinend dazu entschieden, die Ergebnisse des Kongresses von Haifa zu ignorieren, und seinen Truppen befohlen, den Sues zu überqueren und die Kontrolle über Palästina gewaltsam zu übernehmen. Unsere Einheiten in Damaskus und Beirut, die bereits bereit standen, für den Falle, dass der Kongress nicht zu unseren Gunsten entscheidet, warten nun nur auf den Befehl ihres Padischahs, um sich den Ägyptern entgegenzustellen."
+ pal.24.a: "In den Krieg!"
+ pal.24.b: "Tretet Palästina an Ägypten ab."
+
+ pal.25.t: "Der Internationale Rat stimmt gegen die Auflösung des M.v.J."
+ pal.25.d: "Die europäischen Verräter im Internationalen Rat haben beschlossen, gegen die Auflösung des Mutasarrifates zu stimmen... Unseren Truppen in Damaskus und Beirut, die bereits auf einen solchen Verrat vorbereitet waren, wurde nun der Befehl erteilt, nach Palästina zu marschieren und die Region zu remilitarisieren, was sowohl die Ägypter als auch die Mitglieder des Rates verärgert hat."
+ pal.25.a: "Wir werden eine solche Beleidigung nicht hinnehmen!"
+
+ pal.26.t: "Die Osmanische Armee fällt im M.v.J. ein"
+ pal.26.d: "Die Hohe Pforte, die sich vom Internationalen Rat betrogen fühlt, hat sich dazu entschieden, die Sache selbst in die Hand zu nehmen, und die Remilitarisierung ganz Palästinas angeordnet, darunter auch die der Sinai-Halbinsel. Da sich die osmanische Armee bereits mobilisiert, um die regionalen Garnisonen zu übernehmen, läuft uns die Zeit davon, um die Kontrolle über die arabischen Territorien des Reiches zu erlangen. Wir werden wohl kaum eine Offensive gegen ein Heer gewinnen, das sich nur wenige hundert Kilometer von unserer Hauptstadt entfernt eingegraben hat."
+ pal.26.a: "Besetzt den Sinai!"
+ pal.26.b: "Greift das Osmanische Reich an!"
+
+ pal.27.t: "Ägypten marschiert im Sinai ein"
+ pal.27.d: "Als Reaktion auf unsere Aktionen in Palästina hat die ägyptische Armee eine Invasion der Sinai-Halbinsel angeordnet, in der Hoffnung, uns so dazu zu zwingen, die Halbinsel an Ägypten abzutreten. Da die ägyptischen Ambitionen jedoch offensichtlich größer sind und nicht nur aus einer kleinen Wüste bestehen, wäre es vielleicht eine gute Idee, schon jetzt ein Exempel an ihnen zu statuieren, bevor andere Nationen damit beginnen, Schwäche zu riechen."
+ pal.27.a: "In den Krieg!"
+ pal.27.b: "Tretet die Halbinsel an Ägypten ab."
+
+ pal.28.t: "Der Kongress von Haifa: Sinai"
+ pal.28.d: "In einer unerwarteten Wendung der Ereignisse hat der Internationale Rat beschlossen, die Kontrolle über den Sinai an uns abzutreten und den Osmanen zu befehlen, sich aus der Halbinsel zurückzuziehen. Da es unwahrscheinlich ist, dass dies die osmanischen Truppen aufhalten wird, wäre es vielleicht eine gute Idee, dennoch mit der Offensive zu beginnen, während wir das Überraschungsmoment noch auf unserer Seite haben, statt später einen Grabenkrieg in Palästina führen zu müssen."
+ pal.28.a: "Befestigt den Sinai"
+ pal.28.b: "In den Krieg!"
+
+ pal.29.t: "Das Pole-Komitee veröffentlicht seinen Bericht"
+ pal.29.d: "Das Pole-Komitee, angeführt von Sir Felix Pole, dem ehemaligen Vorsitzenden der britischen "Great Western Railway", wurde letztes Jahr damit beauftragt, einen möglichen Ausbau der Infrastruktur in Palästina zu untersuchen und die finanziellen Probleme der palästinensischen Eisenbahngesellschaften zu lösen. Außerdem sollte es die Bahnhöfe und Schienen zwischen Jerusalem, Jaffa und Tel Aviv verbessern. Das Komitee hat nun gemeldet, dass es viel Geld benötigen würde, um das derzeitige Stau-Problem zu lösen und eine Verbindung zum osmanischen Haifa herzustellen.\n\nDas Komitee hat die Errichtung einer direkten Verbindung von Tel Aviv nach Jerusalem vorgeschlagen, die durch Rischon LeZion verlaufen soll und sich bei Niana mit der Jerusalem-Linie kreuzt. Des Weiteren hat es die fehlenden Investitionen in den Hafen von Jaffa kritisiert, der aufgrund seiner gefährlichen Felsen für Schiffe zum tödlichen Hindernis werden könnte. Deshalb wurde ein kompletter Neubau des Hafens und eine Erweiterung der Eisenbahn, die Jaffa mit diesem neuen Hafen verbinden soll, gefordert."
+ pal.29.a: "Dieser Bericht wird in Betracht gezogen werden."
+ pal.29.b: "Palästina würde es besser ergehen, wenn es sich der Pforte anschließen würde!"
+ pal.29.c: "Äußerst interessant."
+
+ pal.30.t: "Die DDY übernimmt die palästinensischen Eisenbahnen"
+ pal.30.d: "Aufgrund des drohenden Bankrotts der Eisenbahngesellschaften Palästinas haben sich die Osmanischen Staatseisenbahnen (DDY) dazu entschlossen, die Schienen aufzukaufen und sie in die osmanischen Linien zu integrieren. Schon jetzt werden Pläne geschmiedet, die bereits vorhandenen Schienen durch neue auszutauschen, um sie besser an das bestehende osmanische Schienennetz anzuschließen. Auch eine direkte Verbindung von Haifa und Jaffa für Güter und Passagiere wird in Betracht gezogen."
+ pal.30.a: "Wer die Eisenbahn kontrolliert, kontrolliert auch das Volk."
+
+ pal.31.t: "Fehlgeschlagener Staatsstreich in Kairo"
+ pal.31.d: "[EGY.GetLeader] ist heute Morgen aufgrund von Schüssen aufgewacht, als eine Gruppe von Verschwörern den Palast stürmte, um seiner Herrschaft ein frühes Ende zu bereiten. Sie selbst nannten sich die "Gesellschaft der Gerechtigkeit" und planten, [EGY.GetLeader] zu ermorden und Abbas II auf den Thron zu setzen. Abbas II war der letzte osmanische Khedive und erfreut sich seit Kurzem steigender Beliebtheit in der muslimischen Welt. Seine islamistischen Ideen und seine Geschichte als Regierungsoberhaupt Ägyptens haben zur Entstehung mehrerer Gruppierungen geführt, die sich nach seiner Rückkehr sehnen. Obwohl [EGY.GetLeader] vom Volk geliebt wird, gilt dies nicht für sein Offizierskorps und die Regierung, da diese in seinem Wunsch nach absoluter Kontrolle und in seinem fehlenden Wissen im Bereich der Staatskunst den Beginn eines Desasters befürchten.\n\nDer fehlgeschlagene Staatsstreich hatte jedoch auch seine Vorteile für das Regime in Kairo, da die engen Beziehungen des Khedives zur osmanischen Regierung die öffentliche Meinung stark gegen die Türken gewandt haben. [EGY.GetLeader] selbst hat das versuchte Attentat als bösartigen Plan der imperialistischen Türken bezeichnet, mit dem sie den arabischen Wunsch nach Unabhängigkeit im Keim ersticken wollten. Nun will er aggressiver vorgehen und fordert sofortige Sanktionen gegen die Türken. Einige behaupten sogar, er würde einen Krieg mit der Hohen Pforte in Betracht ziehen."
+ pal.31.a: "Dafür werden die Türken bezahlen!"
+
+ pal.32.t: "Mutasarrif Sagay tritt zurück"
+ pal.32.d: "Nachdem es in Kostantiniyye zu einem Regimewechsel kam, dankte man dem mit der OHF in Verbindung stehendem Mutasarrif für seine Dienste und rief ihn in die Hauptstadt zurück. Die HIF hat ihre dezentralistischen Ziele weiter verfolgt und einen einheimischen Kandidaten zum neuen Mutasarrifen ernannt. Dieser Kandidat war Raghib al-Nashashibi, ein Mitglied der mächtigen Nashashibi-Familie, der mit den Juden zusammenarbeiten und nicht so hart wie Sagay gegen die derzeitige Krise vorgehen möchte, was der zentralen Regierung gefällt."
+ pal.32.a: "Viel Glück!"
+
+ pal.33.t: "Profite der Internationalen Sueszone"
+ pal.33.d: "Nach der erfolgreichen Wiedereröffnung des Sueskanals und der Erschaffung einer international regierten und wirtschaftlich liberalen Zone war es nur eine Frage der Zeit, bis die Gewinne des Suesunternehmens neue Höhen erreichen würden. Da unserer Nation im Abkommen von Port Said Anteile am Unternehmen zugesprochen wurden, erhalten wir nun einen Teil der durch unsere Investitionen entstandenen Gewinne, während unsere Banken und Geschäftsleute entlang des Kanals neue Unternehmen gründen."
+ pal.33.a: "Ein großartiger Tag für den Kapitalismus!"
+
+ pal.34.t: "Das Krankenhaus von Port Said"
+ pal.34.d: "Die britische Armee hatte während des Weltkrieges das Krankenhaus von Port Said errichtet, um ihre Operationen im Nahen Osten und in Gallipoli zu unterstützen. Dieses wurde nun ausgebaut und dient als wichtige medizinische Station auf der Route, die Ost und West miteinander verbindet. Der internationale Status dieser Institution, die vom Roten Kreuz geschützt wird, hat dafür gesorgt, dass im Krankenhaus fortschrittliche medizinische Geräte zur Verfügung stehen und Soldaten und Zivilisten aller Nationen schnell und effizient behandelt werden können."
+ pal.34.a: "Großartig!"
+
+### Pan-Arab agitation events
+ palarb.1.t: "Anti-Zionistische Proteste in Baghdad"
+ palarb.1.d: "Studenten der Juraschule von Baghdad und einige irakische Gruppierungen wie die Gesellschaft junger Muslime haben Proteste organisiert, die die Hauptstadt der irakischen Region erschüttern. Durch die Proteste wollen die Menschen ihre Unzufriedenheit mit dem Zustrom jüdischer Siedler in das M.v.J. ausdrücken und andere Muslime im Reich dazu ermutigen, ihre Brüder in Palästina vor dieser Bedrohung zu schützen."
+ palarb.1.a: "Beunruhigend..."
+
+ palarb.2.t: "Anti-Zionistische Aktionen im Irak"
+ palarb.2.d: "Nachdem die Proteste durch den Wali von Baghdad aufgehalten wurden, da er sie als Störung empfand, suchten arabische und muslimische Gruppierungen nach anderen Wegen, ihre Unzufriedenheit auszudrücken. Es wurden Tage der Trauer organisiert, Gebete für all die Seelen ausgesprochen, die in Palästina umgekommen sind, und Zeitungen größtenteils schwarz bedruckt.\n\nNoch beunruhigender ist jedoch die plötzliche Romantisierung der Flagge der fehlgeschlagenen Arabischen Revolte, die nun bei vielen Versammlungen eine wichtige Rolle spielt. Obwohl ihre Nutzung offiziell verboten wurde, weigern sich viele der arabischen Mitglieder der Gendarmerie, dieses Verbot durchzusetzen, weshalb sie sich schnell in der ganzen Region verbreitet."
+ palarb.2.a: "Die Situation gerät außer Kontrolle..."
+
+ palarb.3.t: "Mord in Baghdad"
+ palarb.3.d: "Während sich die Spannungen im Mutasarrifat weiter verschärfen und die internationale Gendarmerie aggressiv gegen Unruhestifter vorgeht, verschlechtern sich die Beziehungen zwischen Juden und Muslimen auch im Osmanischen Reich selbst.\n\nLetzte Woche wurden zwei Juden von "Unbekannten" in den Straßen von Baghdad erschossen, wobei noch unklar ist, ob das Motiv persönlicher oder politischer Natur war. Einige Tage später wurde ein weiterer Jude ermordet, weshalb die jüdische Gemeinschaft der Stadt um Schutz durch die Gendarmerie bat, die ihnen der Wali auch gewährte. Obwohl es bisher noch nicht zu weiteren Angriffen kam, haben diese Ereignisse die Instabilität des Maschreks verdeutlicht."
+ palarb.3.a: "Äußerst beunruhigend..."
+
+ palarb.4.t: "Oberrabbiner denunziert das Zionistische Programm"
+ palarb.4.d: "Die ständigen Angriffe auf die jüdischen Bewohner Baghdads und Drohungen der lokalen Zeitungen, die verlangen, dass der Rabbiner sich gegen das zionistische Projekt und das internationale Judentum ausspricht, haben den Oberrabbiner Baghdads dazu gezwungen, das Programm zu denunzieren.\n\nUm die Spannungen mit der muslimischen Bevölkerung weiter zu verringern, wurden daraufhin Treffen in den Moscheen Baghdads organisiert, in denen die Situation in Palästina "erklärt" wurde, nachdem man dem Aufstieg des Propheten in einem Gebet gedachte. Ob es nun die Botschaft des Rabbiners oder die hohe Anzahl von Polizisten war, die eine weitere Eskalation verhinderte, ist unklar."
+ palarb.4.a: "Eine weise Entscheidung."
+
+ palarb.5.t: "Die Gesellschaft zur Verteidigung Palästinas"
+ palarb.5.d: "General Taha al-Hashimi, der Bruder des baghdadischen Walis Yasin al-Hashimi, hat zu Beginn der Woche zur Gründung der Gesellschaft zur Verteidigung Palästinas beigetragen. Diese Organisation soll vor allem Spenden für die arabischen Mudschahidun auftreiben, die in Palästina kämpfen, versucht allerdings auch, den arabischen Nationalismus zu fördern, da die Regierung sich noch immer weigert, direkt gegen das M.v.J. vorzugehen.\n\nDennoch könnte es gefährlich sein, gegen die Gruppierung durchzugreifen, da die Beziehungen zwischen ihrem Gründer und dem baghdadischen Wali und Kriegshelden Yasin zu unerwünschten Konsequenzen führen könnten."
+ palarb.5.a: "Zwingt die Organisation zur Auflösung."
+ palarb.5.b: "Wir sollten nicht intervenieren."
+
+ palarb.6.t: "Arabische Desperados ziehen nach Palästina"
+ palarb.6.d: "Eine kleine Gruppe Soldaten der osmanischen Armee im Irak und in Syrien ist desertiert und zieht nun als Freiwillige und Desperados nach Palästina, um sich den dortigen Guerilla-Bewegungen anzuschließen. Die Gruppe wird wahrscheinlich von Fawzi al-Qawuqji, einem osmanischen Offizier syrischer Herkunft, angeführt, ist gut bewaffnet und wird heimlich von den Walis des Maschreks unterstützt."
+ palarb.6.a: "Hoffentlich versteht der Internationale Rat die Schwere der Situation."
+
+ palarb.7.t: "Gründung des Yavuz Sultan Selim-Verbandes"
+ palarb.7.d: "Türkische und arabische Intellektuelle haben sich in einem Verband zusammengeschlossen, der sich auf den berühmten Sultan Selim I beruft, der im frühen 16. Jahrhundert das gesamte Mameluken-Sultanat eroberte, und fordern nun den Sultan dazu auf, eine Lösung für die palästinensische Krise zu finden.\n\nDer Verband organisiert des Weiteren Debatten und politische Foren und lehrt Araber von den Verbindungen, die Türken und Araber nun schon seit Jahrhunderten zusammenhalten. Der Fokus liegt dabei auf der Geschichte des osmanischen Palästinas und dem Wohlstand, der der Region unter der Aufsicht des Kalifen zuteil wurde.\n\nEinige Menschen haben diese Organisation bereits denunziert und als Propagandamaschine der Regierung in Kostantiniyye bezeichnet, der es immer schwerer fällt, Unterstützung für die osmanische Ideologie zu finden. Ausländische Beobachter wiederum sind der Meinung, der Verband sei Teil eines Plans des Großwesirs, mit dem er seine Bevölkerung dazu bringen will, eine militärische Intervention in Palästina zu unterstützen."
+ palarb.7.a: "Damals waren wir noch stark..."
+
+ palarb.8.t: "Proteste in Haifa"
+ palarb.8.d: "Die Provinz Haifa, die den nördlichen Teil des osmanischen Palästinas ausmacht, dient schon seit langem als wirtschaftliches Zentrum der Region. Durch die Demarkation der Grenzen des M.v.J. 1920, die auf der Stellung der damaligen Frontlinien basierte, wurden die wirtschaftlichen Beziehungen zwischen dem Norden und Süden der Region jedoch gestört. Ein Großteil der regionalen Juden wurde in den folgenden Monaten dazu gezwungen, umzusiedeln, was sowohl die Juden als auch die Araber verärgerte.\n\nDa sich die Spannungen im Mutasarrifat immer weiter verschärfen, sind die palästinensischen Araber in Haifa heute auf die Straßen gegangen, um ihre Unterstützung für ihre südlichen Brüder zu verdeutlichen. Sie fordern den Kalifen dazu auf, den Islam vor dieser "Invasion" zu beschützen, Palästina wiederzuvereinen und gegen den Imperialismus vorzugehen. Tausende haben sich den Protesten angeschlossen und marschieren nun durch die schmalen Straßen der Stadt."
+ palarb.8.a: "Wir verlieren langsam die Kontrolle..."
+
+ palarb.9.t: "Oberrabbiner Haim Ishak Saki denunziert das M.v.J."
+ palarb.9.d: "Der Oberrabbiner von Konstantinopel (auch als Hakham Bashi bezeichnet) reagiert normalerweise nicht auf die politischen Entwicklungen innerhalb des Reiches, hat sich nun jedoch dazu entschieden, offiziell seine Unterstützung für die osmanische Regierung und ihre Versuche, Palästina zu reintegrieren, zu verkünden. Er beruft sich hierbei auf die lange und erfolgreiche Geschichte der Juden im Osmanischen Reich und denunziert alle Zionisten, die durch ihr europäisches Gedankengut vergessen, wie sehr sie den Beziehungen der Muslime und der Juden des Orients schaden.\n\nAuch die Rabbiner des Jemens, von Baghdad und Tripolitanien haben dem Hahambasilik (Oberrabbinat) der Hauptstadt ihre Unterstützung zugesprochen, da auch sie immer häufiger anti-jüdische Angriffe durch die erzürnten muslimischen Bürger des Reiches erfahren. Auch wenn ihre Worte wohl kaum einen Einfluss auf die regionale Politik haben werden, zeigt auch dieses Ereignis den Willen der Menschen, die Spannungen zu deeskalieren."
+ palarb.9.a: "Wir sind für diese Unterstützung dankbar."
+
+### Kurdish agitation events (Iran-Ottomans)
+ palkur.1.t: "Scheich Mahmud Barzinji beginnt Gespräche mit [PER.GetName]"
+ palkur.1.d: "Der berüchtigte Scheich Mahmud, der bereits zwei fehlgeschlagene Revolten in Sulaimaniyya anführte, durch die er ein kurdisches Königreich gründen wollte, wurde nun von unseren Spionen dabei beobachtet, wie er sich mit Repräsentanten der iranischen Regierung trifft. Der Scheich kann den anderen Kurden für den Großteil seiner bisherigen Niederlagen danken, da ihr Unwillen, sich ihm zu unterwerfen, schließlich ihr Niedergang war. Die osmanischen Behörden des Iraks konnten die Differenzen der Kurden ausnutzen und den Scheich mit Hilfe kurdischer Truppen, wie denen der mächtigen Dschaf, zur Flucht in den Iran zwingen.\n\nVersuche der iranischen Regierung, seine Truppen zu versorgen und ihn zurück nach Sulaimaniyya zu senden, um für Chaos in der osmanischen Peripherie zu sorgen, waren mit der Zeit immer weniger erfolgreich, da selbst die engsten Unterstützer des Scheichs der Meinung waren, dass er einen Krieg kämpft, der nicht gewonnen werden kann. Außerdem waren die Türken dazu in der Lage, andere Kurden gegen den Scheich auszuspielen. Simqi der Kurde, ein berühmter Kriegsherr des iranischen Kurdistans, der von vielen Assyrern für seine Grausamkeit nahe des Urmia-Sees gegen Ende des Weltkrieges gefürchtet wird, ist der osmanischen Regierung beispielsweise sehr wohlgesonnen. Als er unter türkischer Flagge kämpfte, konnte er für großes Chaos sorgen und sogar die iranische Armee besiegen. Verstärkungen aus Teheran konnten ihn jedoch zurückschlagen, weshalb auch er letztlich dazu gezwungen war, über die Grenze zu fliehen.\n\nDieses ständige Hin und Her der beiden Mächte endete 1927, als die Regierung von Mustafa Kemal und der iranische Schah den Saadabad-Pakt schlossen. Dieser beinhaltete, dass beide Seiten damit aufhören, auf der anderen Seite der Grenze kurdische Rebellionen anzustiften, da ein Erwachen des kurdischen Nationalismus als Gefahr für beide Seiten angesehen wurde. Außerdem wurden einige weniger wichtige Unruhestifter der anderen Seite als symbloische Geste übergeben und die osmanisch-iranische Grenze von 1913 bestätigt."
+ palkur.1.a: "Was planen die Iraner nur?"
+
+ palkur.2.t: "Chaos unter den Dschaf"
+ palkur.2.d: "Die kurdische Stammesföderation der Dschaf, eine der wichtigsten im irakischen Kurdistan, wurde vor wenigen Tagen von der Ermordung ihres Häuptlings erschüttert. Da die Föderation während der ersten Revolte von Scheich Mahmud auf der Seite der Osmanen kämpfte, verweisen nun viele auf die iranische Grenze, wo der im Exil lebende Scheich sich anscheinend auf seine Rückkehr vorbereitet und langsam seine Stärke aufbaut.\n\nDieses Attentat hat dazu geführt, dass einige unzufriedene Mitglieder der Föderation mit ihrer zentralen Politik brechen und ihre eigenen Nachfolger ernennen, bei denen es nicht sicher ist, ob sie mit der osmanischen Regierung kooperieren werden."
+ palkur.2.a: "Beunruhigend."
+
+ palkur.3.t: "Steigende Unzufriedenheit im irakischen Kurdistan"
+ palkur.3.d: "Da man überall das Gefühl hat, dass es bald zu einem Krieg kommen wird, ist die Stabilität der Region Sulaimaniyya stark gesunken. Überfälle von zwei mächtigen Stämmen, den Hawrami und den Hamavand (die während der Revolte auf der Seite von Scheich Mahmud standen) sind so unerträglich geworden, dass Händler und Bewohner der Städte dazu gezwungen waren, nach Kirkuk und Mosul zu fliehen, wo es ihnen der Schutz durch die osmanische Gendarmerie und die lokalen Stammesföderationen ermöglicht, aufzuatmen. In der Region kommt es nun zu Protesten gegen das langsame Vorgehen der Regierung, wegen dem die Kurden ihren Glauben an das Militär verloren haben.\n\nDie Armee hat jedoch 3.000 Mann und einige Fliegerstaffeln in das Territorium der Stämme entsandt, um ihren Überfällen ein Ende zu bereiten. Darauf hat die iranische Regierung schnell reagiert und behauptet, dass derartige Truppenbewegungen so nah an der Grenze ein Zeichen dafür sind, dass die Türken eine Invasion des iranischen Kurdistans planen und die dort lebenden Kurden vertreiben wollen."
+ palkur.3.a: "Eine Verschwendung tapferer türkischer Soldaten..."
+
+ palkur.4.t: "Scheich Mahmud erreicht Sulaimaniyya"
+ palkur.4.d: "Der ins Exil getriebene, selbsternannte "König von Kurdistan" ist heute zusammen mit 500 Reitern in seine Heimat zurückgekehrt. Dies hat die Moral der rebellierenden Kurden gestärkt, die die Rückkehr ihres Helden als Zeichen dafür ansehen, dass sich das Blatt endlich wendet. Sowohl die Hawrami als auch Hamavand haben dem Scheich die Loyalität geschworen und einige Männer zu seinem Hauptquartier nahe der iranischen Grenze entsandt. Auch einige Fraktionen der Dschaf-Föderation, die sich noch immer von der Ermordung ihres Häuptlings erholt, haben sich auf die Seite des Scheichs geschlagen, während andere sich noch unsicher sind, da es unwahrscheinlich ist, dass die iranische Unterstützung, die Mahmud verspricht, auch eintreffen wird.\n\nDa dieses Ereignis einen direkten Bruch des Saadabad-Paktes darstellt, hat die Regierung in Kostantiniyye eine sofortige Antwort der iranischen Regierung verlangt, die erklären soll, warum sie den Scheich nicht an seiner Rückkehr gehindert hat. Außerdem wurde ein Telegramm nach Ostanatolien gesandt, in dem angeordnet wurde, die Überbleibsel von Simqis Truppen zu bewaffnen und auf Operationen nahe des Urmia-Sees vorzubereiten, sollten die Iraner nicht nachgeben."
+ palkur.4.a: "Sie sollten dafür eine gute Erklärung haben!"
+
+ palkur.5.t: "Grenzkonflikte in Kurdistan"
+ palkur.5.d: "Die osmanisch-iranische Grenze war schon immer ein recht launisches Biest, unter anderem aufgrund der großen Anzahl der kurdischen Stämme, die auf keiner Seite stehen und je nach Jahreszeit zwischen beiden Nationen hin- und herreisen. Im 19. Jahrhundert wurde versucht, die Grenze genauer zu definieren. Diese Arbeit dauerte nahezu ein Jahrhundert, resultierte dann jedoch 1913 in einer klar festgelegten Grenze. Dennoch haben wir und die Türken uns nie eine Chance entgehen lassen, die andere Seite zu sabotieren, was uns durch Ausspielung der Kurden gegeneinander oft gelang.\n\nIn den 1920ern endete diese Rivalität jedoch, da die Unterstützung kurdischer Unruhestifter auf der anderen Seite der Grenze auch einen Einfluss auf die Loyalität unserer eigenen kurdischen Bürger hatte. Deshalb wurde 1927 der Saadabad-Pakt ausgehandelt, ein Abkommen unserer beiden Regierungen, in dem wir uns darauf einigten, keine kurdischen Rebellen mehr zu unterstützen.\n\nDas Erwachen des arabischen Nationalismus und all der Ärger, den Ägypten verursacht, haben jedoch dazu geführt, dass unsere Regierung diese Idee noch einmal "überdacht" hat. Da sich der gesamte Nahe Osten gerade auf einen Krieg zubewegt, wurde der im Exil lebende Scheich Mahmud Barzanji von uns nach Sulaimaniyya zurückgesandt, in der Hoffnung, so die östlichen Verteidigungen der Pforte schwächen zu können. Da dies einen direkten Bruch des Saadabad-Paktes darstellt, hat die osmanische Regierung nun eine Erklärung verlangt und damit gedroht, den Vertrag gänzlich aufzulösen, sollten wir nicht nachgeben."
+ palkur.5.a: "Wir verneinen einfach alles."
+
+ palkur.6.t: "Der Iran streitet jegliche Verantwortung ab"
+ palkur.6.d: "Als Antwort auf unsere Anschuldigungen hat die iranische Regierung jegliche Verantwortung in der Sulaimaniyya-Affäre abgestritten. Die Iraner behaupten, dass Mahmut allein seinen Wachen entflohen wäre und daraufhin die Grenze überquert hätte. Jeglicher Ärger, den er danach verursacht habe, sei nicht das Problem des Irans. Außerdem hat die iranische Regierung angemerkt, dass die Osmanen sich vielleicht an die eigene Nase fassen sollten, statt anderen Nationen die Schuld für ihre Fehler zu geben.\n\nBerichte unserer Agenten im Iran und in Kurdistan haben diese Aussagen jedoch als Lügen enttarnt, da sich innerhalb der Ränge der Barzinji mehrere iranische Kurden befinden. Des Weiteren bleibt die Frage, ob der Scheich alleine und ohne finanzielle Unterstützung derartig viele Männer mobilisieren könnte.\n\nDeshalb hat der Ministerrat offiziell Simqi den Kurden in seine Dienste gestellt, der mit osmanischen Gewehren und osmanischer Artillerie ausgerüstet wurde. Zu seinen Truppen gehören auch einige Fußsoldaten, um sicherzustellen, dass die Regierung ihn auch weiterhin kontrollieren kann."
+ palkur.6.a: "Wie es scheint, ist der Saadabad-Pakt Geschichte."
+
+ palkur.7.t: "Simqis Rückkehr"
+ palkur.7.d: "Als Reaktion auf Mahmud Barzanjis Rückkehr haben die Türken ihren eigenen Kriegsherren in unser Territorium entsandt. Simqi, ein Kurde, der einst nahe des Urmia-Sees lebte, wird vor allem von den Assyrern gefürchtet, die er mit Hilfe osmanischer Truppen brutal massakrierte, als sie während des Weltkrieges in den Iran flohen. In den frühen 20er Jahren versuchte er außerdem, seinen eigenen kurdischen Staat zu schaffen, wobei ihn das osmanische Militär unterstützte. Nach mehreren erniedrigenden Niederlagen schaffte es ein großes iranisches Heer endlich, ihn wieder zu vertreiben und aus unserer Nation zu verbannen.\n\nSeine Rückkehr ist äußerst beunruhigend, da sie zeigt, dass die Osmanen sich erneut für die sunnitischen Kurden des Nordens interessieren. Obwohl es in der Region kaum noch Unterstützer von Simqi gibt, könnte er enorme Schäden anrichten. Sollten wir nicht zuerst angreifen, während die Hohe Pforte auch vom Westen aus bedrängt wird, könnten wir uns bald in einer aussichtslosen Lage wiederfinden."
+ palkur.7.a: "Sendet ein Ultimatum!"
+ palkur.7.b: "Wir können keinen Krieg riskieren."
+
+ palkur.8.t: "Der Iran unterbreitet uns ein Ultimatum"
+ palkur.8.d: "Aufgrund des Chaos, das Simqi verursacht, hat uns die iranische Regierung ein Ultimatum gestellt. Sie verlangt den sofortigen Rückzug von Simqi und seinen Truppen, die Auslieferung aller kurdischer Kriegsverbrecher der letzten zwei Jahrzehnte und eine übertriebene Summe Reparationen zur Reparatur der Schäden, welche Simqi angeblich verursacht hat. Es ist klar, dass dieses Ultimatum eher eine verstecke Kriegserklärung ist. Truppenbewegungen in Chuzestan und nahe Täbris haben diese Vermutung bestätigt. Wie es scheint, ziehen die Iraner und die Türken erneut gegeneinander in den Krieg. Möge Allah uns durch diese Feuerprobe leiten!"
+ palkur.8.a: "Wir marschieren nach Teheran!"
+
+### Operation Abu'l-A'war events
+ palabu.1.t: "Operation Abu'l-A'war"
+ palabu.1.d: "Aufgrund der unüberwindbaren Dominanz der osmanischen Flotte haben unsere Militärstrategen mit Attachés der Kommune zusammengearbeitet, um einen Plan für den Seekrieg zu schmieden. Da ein normaler Angriff auf osmanische Marinestützpunkte unmöglich ist, brauchte dieser Plan einen etwas radikaleren Ansatz.\n\nIn den ersten Stunden des Krieges wird ein Geschwader Marinebomber entsandt werden, um die osmanische Flotte unerwartet in ihrem Marinestützpunkt nahe Beirut anzugreifen. Daraufhin werden unsere Landstreitkräfte mit einer Offensive durch den Sinai und Palästina beginnen, wobei uns syrische Untergrundbewegungen unterstützen werden. Es ist ein riskanter Plan, doch sollte er funktionieren, könnte er sogar die Griechen dazu bewegen, sich auf unsere Seite zu stellen und so die Türken in der Ägäis zu beschäftigen."
+ palabu.1.a: "Operation Abu'l-A'war beginnt!"
+
+ palabu.2.t: "Der Blackburn Baffin"
+ palabu.2.d: "Der Höhepunkt der britischen Ingenieruskunst, der Blackburn Baffin, ist ein Doppeldecker-Torpedobomber, der in der Union von Großbritannien eingesetzt wird. Da die Vorbereitungen für Operation Abu'l-A'war noch immer in vollem Gange sind, hat die Regierung von [ENG.GetLeader] angeordnet, einige dieser Flugzeuge an uns zu verkaufen.\n\nSie sind zwar sehr verlässlich, doch einige fragen sich, ob die Flugzeuge den osmanischen Flugabwehrkanonen oder den Flugzeugen der Osmanen, die auf modernen deutschen Modellen basieren, standhalten werden."
+ palabu.2.a: "Kauft 30 Stück!"
+ palabu.2.b: "Dieser Plan wirkt wie eine einzige Verschwendung von Ressourcen..."
+
+ palabu.3.t: "Erfolgreicher Angriff auf Beirut"
+ palabu.3.d: "20 Blackburn Baffins ist es gelungen, die osmanische Flotte in ihrem Marinestützpunkt nahe Beirut im Schatten der Dunkelheit zu überfallen. Das türkische Oberkommando hatte mit diesem Angriff nicht gerechnet, da niemand wusste, dass die Ägypter über Marinebomber verfügen. Aufgrund dieses Überraschungsmoments war der Schaden enorm. Allerdings waren die Verluste auch auf ägyptischer Seite hoch, da es den osmanischen Flugabwehrkanonen gelang, acht der Flugzeuge abzuschießen, bevor sie ihren Angriff beginnen konnten. Sieben weitere konnten am Rückzug gehindert werden.\n\nAls die Sonne über den Hafen aufging, wurde dem Oberkommando die Schwere des Schadens erst richtig bewusst. Das ehemalige Flaggschiff der osmanischen Flotte und ihr Stolz während des Weltkrieges, die Yavuz Sultan Selim-i Evvel, hat zwei direkte Treffer abbekommen. Zusammen mit den Schäden während des letzten Krieges genügte dies, um das Schiff zu versenken. Die Sultan Abdulhamid-i Sani und die Istanköy wurden ebenfalls schwer getroffen und können für mindestens sechs Monate nicht mehr eingesetzt werden.\n\nDer Angriff, den viele für zu riskant hielten, stellte sich als riesiger Erfolg der Ägypter heraus, der sogar die griechische Regierung beeindruckte und Schockwellen bis nach Zypern sandte."
+ palabu.3.ott: "Wir werden unsere gefallenen Brüder rächen!"
+ palabu.3.egy: "Vorwärts! Für den Sieg!"
+
+ palabu.4.t: "Fehlgeschlagener Angriff auf Beirut"
+ palabu.4.d: "16 Blackburn Baffins haben heute Morgen ihre Basis am Mittelmeer verlassen, doch nur einem gelang es, unversehrt von seiner Mission zurückzukehren. Die Katastrophe nahm schon zu Beginn der Operation ihren Lauf, da von den geplanten 20 Flugzeugen nur 16 der Start gelang. Diejenigen, die abheben konnten, wurden daraufhin voneinander getrennt, da heftiger Wind sie in Richtung der Hafenstadt Haifa vom Kurs abweichen ließ. Nachdem die Piloten einen deutschen Frachter mit einem osmanischen Zerstörer verwechselten und von einem osmanischen Jägerschwadron abgefangen wurden, wurden bereits fünf Flugzeuge herabgeschossen und noch keines ihrer Ziele beschädigt. Die verbliebenen elf Flieger flogen schließlich nach Norden, um Beirut zu erreichen, doch den türkischen Piloten gelang es erneut, sie abzufangen. Ein einzelner Doppeldecker konnte unbeschadet zum Flughafen von Alexandria zurückkehren, da er sich nach dem fehlgeschlagenen Angriff auf Haifa vom Hauptgeschwader entfernt hatte.\n\nViele hatten erwartet, dass der Angriff nicht erfolgreich sein wird, doch eine derartige Niederlage wirkt sich dennoch stark auf die Moral der Luftstreitkräfte aus. Nun ist die Katze jedoch aus dem Sack. Während die Gendarmerie in Haifa die Schäden überprüft, überqueren ägyptische Truppen bereits den Sues. Die Zeit des Krieges ist gekommen."
+ palabu.4.ott: "Heute Nacht speisen wir in Kairo!"
+ palabu.4.egy: "Wir werden ihre Opfer nicht vergessen!"
+
+ palabu.5.t: "Flottenreparaturen abgeschlossen"
+ palabu.5.d: "Durch den erfolgreichen Angriff auf Beirut vor sechs Monaten wurden die Istanköy und die Sultan Abdulhamid-i Sani stark beschädigt und dazu gezwungen, sich großflächigen Reparaturarbeiten zu unterziehen. Die Sultan Abdulhamid-i Sani war in besonders schlechter Verfassung, weshalb Spezialisten anfangs glaubten, sie würde genau wie die Yavuz kentern. Nach langer und harter Arbeit sind nun beide Schiffe wieder bereit, in die Schlacht zu ziehen."
+ palabu.5.a: "Wir herrschen erneut über die Meere!"
+
+### Third Arab Congress
+ palcon.1.t: "Der Dritte Arabische Kongress"
+ palcon.1.d: "Seit dem Ersten Arabischen Kongress von 1913, der in den Einrichtungen der Pariser Société de Géographie abgehalten wurde, erhält die arabisch-nationalistische Bewegung immer größere Unterstützung. Die Gründer dieser Bewegung vertraten reformistische Ideen und wollten die Situation der Araber im Osmanischen Reich durch Reformen verbessern, doch durch den Zweiten Arabischen Kongress von 1927 wurde ein neuer Kurs eingeschlagen. Da dieser in Kairo, nach der Ägyptischen Revolution und dem osmanischen Verrat am Sues, abgehalten wurde, kontrollierten Radikale und großarabische Nationalisten den Kongress. Mitglieder der Al-Fatat, haschemitische Exilanten, algerische Revolutionäre und palästinensische Desperados schlossen sich ebenfalls der Versammlung an und beeinflussten die arabisch-nationalistische Bewegung stark. Da die italienische Bedrohung zurückgeschlagen wurde und auch die britische Präsenz im Nahen Osten durch die arabischen Helden von 1925 nahezu gänzlich beseitigt wurde, liegt der Fokus nun auf den Türken.\n\nDer Zweite Kongress hat zwar nichts weiter erreicht, als einige Forderungen und Beschlüsse, für die sich keiner interessierte, doch aufgrund des Zusammenbruchs der deutschen Wirtschaft und der wachsenden politischen Instabilität im Osmanischen Reich wollen die Araber des Nahen Ostens nun schnell Taten sehen. Deshalb wird ein Dritter Arabischer Kongress abgehalten werden, durch den wir alle Araber dazu bringen können, sich uns anzuschließen und uns dabei zu helfen, die Türken aus dem Maschrek zu vertreiben. Von Libyen bis zu den Wüsten Arabiens warten die Menschen ungeduldig auf den Kurs, den unser neuer König einschlagen wird."
+ palcon.1.a: "Versendet die Einladungen!"
+
+ palcon.2.t: "Einladung zum Dritten Arabischen Kongress"
+ palcon.2.d: "Die ägyptische Regierung hat in Kairo den Dritten Arabischen Kongress organisiert, mit dem sie die Kräfte aller Araber vereinen und in eine Richtung lenken will. Da ein Großteil des Maschreks noch immer unter der Herrschaft der Hohen Pforte leidet und die Araber des Maghrebs von einem französischen Sklavenstaat unterdrückt werden, ist klar, dass wir, die unabhängigen arabischen Staaten, uns vereinen und für die Freiheit unserer Brüder kämpfen müssen."
+ palcon.2.a: "Auf nach Kairo!"
+
+ palcon.3.t: "[FROM.GetName] hat unsere Einladung akzeptiert"
+ palcon.3.d: "Die Regierung von [FROM.GetLeader], dem einzigen anderen unabhängigen arabischen Staat, in dessen interne Angelegenheiten sich die Hohe Pforte nur zu gerne einmischt, hat eine Gesandtschaft nach Kairo entsandt. Da sie nun daran interessiert sind, herauszufinden, ob unseren Worten auch Taten folgen werden, haben sie auch ein wichtiges Mitglied ihrer Dynastie nach Kairo geschickt, welches die Ernsthaftigkeit der Diskussion noch weiter erhöht."
+ palcon.3.a: "Willkommen!"
+
+ palcon.4.t: "Der Jemen sendet Repräsentanten"
+ palcon.4.d: "Obwohl der Jemen de jure noch zur Hohen Pforte gehört und ihr dabei half, die Arabische Revolte von 1916 niederzuschlagen, ist es kein Geheimnis, dass die Jemeniten der Regierung in Kostantiniyye nicht gerade wohlgesonnen sind. Imam [YEM.GetLeader] hat deshalb einige Repräsentanten nach Kairo entsandt, obwohl die Pforte ihm befohlen hat, dies zu unterlassen.\n\nIm Gegensatz zu unseren anderen arabischen Verbündeten teilt der Jemen unsere Ambitionen jedoch nicht und sorgt sich in erster Linie um sich selbst. Sollten die Osmanen dem Imam ein besseres Angebot unterbreiten, als wir es tun können, würde es niemanden wundern, wenn er plötzlich unsere Pläne durchkreuzt."
+ palcon.4.a: "Immerhin sind sie gekommen..."
+
+ palcon.5.t: "Der Iran sendet eine Delegation"
+ palcon.5.d: "Obwohl der Iran nicht zum Kongress eingeladen wurde, um den Umgang der neuen Regierung mit den Arabern Chuzestans zu protestieren, hat er sich dazu entschlossen, einige Repräsentanten nach Kairo zu senden.\n\nAuch ein Protest auf den Straßen Kairos, der von irakischen Exilanten, die von der Ittihad-Partei unterstützt wurden, organisiert wurde, konnte König Farouk I. nicht davon abhalten, sie willkommen zu heißen, da er der Meinung ist, dass die islamische Solidarität in diesen schweren Zeiten wichtiger sei als je zuvor. Nach einigen kurzen Streitigkeiten wurde der Delegation ein Sitz beim Kongress gewährt, in der Hoffnung, so das Fundament für eine offene Debatte zu legen."
+ palcon.5.a: "Wir heißen die ehrbaren Herren aus Teheran willkommen!"
+ palcon.5.b: "Dieser Sitz hätte uns gehören sollen!"
+
+ palcon.6.t: "Idris I trifft in Kairo ein"
+ palcon.6.d: "Der Anführer des Senussi-Ordens und Erzfeind der osmanischen Marionette Ahmed Sharif I, der im Exil lebende Idris, ist heute in Kairo angekommen. Er unterstützte die Entente während des Weltkrieges bei ihren Feldzügen in Libyen, war jedoch dazu gezwungen, nach Ägypten zu fliehen, als die italienische Front kollabierte. Von vielen Bewohnern Libyens wird er noch immer als wahrer Anführer ihrer Nation angesehen. Über die Jahre konnte er immer größere Widerstandszellen organisieren, die seine Rückkehr vorbereiten."
+ palcon.6.a: "Ein wahrer Held!"
+
+ palcon.7.t: "Die syrische Delegation ergreift das Wort"
+ palcon.7.d: "Einige politische Exilanten aus Großsyrien, die geheime Organisationen in Damaskus und Beirut repräsentieren, haben am Kongress teilgenommen, um die osmanische Herrschaft über ihre Heimat zu denunzieren. Die palästinensische Situation spielte in ihren Reden eine große Rolle, da sie die Existenz des M.v.J. als Schlag ins Gesicht für alle Muslime der Welt betrachten. Laut ihnen muss Syrien von der türkischen Unterjochung befreit werden, die niemandem etwas Gutes bringt, außer den Schatzkammern von [OTT.GetLeader].\n\nAuch weniger radikale Redner haben das Wort ergriffen, darunter die maronitischen Araber. Diese wollen die Probleme der verschiedenen Bevölkerungsgruppen Großsyriens durch Verhandlungen lösen und fordern sogar ein Abkommen mit den jüdischen Siedlern, eine Forderung, die in der Debatte für einige Streitigkeiten sorgte. Nachdem ein Repräsentant aus Jaffa eine Sandale auf seinen Kollegen aus Aleppo warf, wurde eine kurze Pause eingelegt und der Täter des Raumes verwiesen."
+ palcon.7.a: "Wir unterstützen das syrische Volk!"
+
+ palcon.8.t: "Die irakische Delegation ergreift das Wort"
+ palcon.8.d: "Nachdem der Repräsentant aus Jerusalem seine Rede über den Zionismus und die Bedrohung, die er für uns alle darstellt, gehalten hatte, wurde der irakischen Delegation das Wort erteilt. Diese hat erst unseren palästinensischen Brüdern ihre Unterstützung ausgesprochen, ihre Rede dann jedoch genutzt, um die Anwesenden auf eine zweite Bedrohung für die Araber hinzuweisen. Der Iran mag sich zwar als Freund der Araber darstellen, dies allerdings nur, um seinen Rivalen in Anatolien zu schwächen und die irakischen Araber auszunutzen, sobald das Chaos vorüber ist.\n\nBevor der Repräsentant aus Mosul seine Rede beenden konnte, protestierte die Delegation aus dem Iran allerdings lautstark gegen diese Anschuldigungen. Sollten wir uns nicht auf unseren gemeinsamen Feind konzentrieren, bevor wir uns neue Feinde machen? Da die Debatte immer hitziger wurde, wurde erneut eine Pause eingelegt."
+ palcon.8.a: "Wir werden den Irak befreien!"
+
+ palcon.9.t: "Ghazi ibn Faisal wohnt dem Kongress bei"
+ palcon.9.d: "Ghazi ibn Faisal, der Sohn des arabischen Helden Faisal ibn Hussein, der die haschemitischen Streitkräfte während der Revolte von 1916 anführte, wurde 1920 von seinem Großvater Sharif Hussein nach Ägypten geschickt, als osmanische Truppen nach Mekka marschierten. Unter der Aufsicht von Fuad I wurde aus dem schüchternen und unerfahrenen Jungen das Zentrum der haschemitischen Sympathisanten, die aus dem Hedschas flohen, als dort ein osmanischer Wali eingesetzt wurde.\n\nDa er ein luxuriöses Leben am ägyptischen Hofe gewohnt ist und einige seiner Eskapaden auch in der Zeitung veröffentlicht wurden, betrachten ihn viele Bewohner des Hedschas als illusioniert und entfernt von der politischen Realität der Region. Seine Forderungen einer zweiten Hedschasischen Revolte und eines arabischen Staates, der sich von Mekka bis nach Baghdad erstreckt, vertrat er zwar leidenschaftlich und unterbrach er lediglich durch ein kurzes Gedicht zu Ehren seines Vaters, wurden jedoch von den anderen Repräsentanten größtenteils ignoriert. Als seine Rede vorüber war, applaudierten alle Anwesenden aus Höflichkeit."
+ palcon.9.a: "Wir ehren die haschemitischen Helden!"
+
+ palcon.10.t: "Farouk I verdammt die zionistischen Siedler"
+ palcon.10.d: "Nachdem er die tragischen Berichte von den Arabern Palästinas, die unter der internationalen Gendarmerie leiden, gehört und sich mit den neuesten "Daten" bezüglich der jüdischen Immigration auseinandergesetzt hatte, ergriff König Farouk I. endlich das Wort. Er verurteilte die abscheulichen Übeltaten, die seine Glaubensbrüder durchstehen mussten, und versprach der syrischen Delegation seine volle Unterstützung und die baldige Befreiung der Bewohner Palästinas. Seine Rede wurde mit dem tosenden Applaus aller Repräsentanten beantwortet.\n\nDie Neuigkeiten seiner Rede kamen bei den Juden Ägyptens weniger gut an. Diese genießen zurzeit recht gute Lebensbedingungen und politische Freiheiten und fürchten nun, dass sich dieser offene Angriff auf die "jüdische Bedrohung" in Palästina auch auf ihre Leben negativ auswirken könnte."
+ palcon.10.a: "Wir unterstützen die Bürger Palästinas!"
+
+ palcon.11.t: "Idris bittet um Unterstützung"
+ palcon.11.d: "Nach der Rede von Farouk I hat sich der Kurs des Kongresses geändert. Der Schein einer kulturellen Konferenz zur Feier des arabischen Volkes wurde aufgegeben und stattdessen begannen Diskussionen über Maßnahmen, die man gegen diejenigen ergreifen sollte, die die Araber bedrohen.\n\nDer im Exil lebende Anführer des libyschen Senussi-Ordens Idris I hat seine Rückkehr nun schon seit über einem Jahrzehnt geplant und vorbereitet. Da die osmanischen Garnisonen in Libyen aufgrund der politischen Debatten in der Hauptstadt immer unachtsamer werden, will er noch in diesem Jahr zuschlagen und Ahmed Sharif I vertreiben. Es ist nun an der Zeit, unsere gütigen Worte zu Waffen, Männern und Spenden werden zu lassen, um sicherzustellen, dass Idris Erfolg haben wird."
+ palcon.11.a: "Wir werden Idris unterstützen!"
+ palcon.11.b: "Wir können derzeit keine Ressourcen entbehren."
+
+ palcon.12.t: "Die ägyptischen Ambitionen"
+ palcon.12.d: "Nun, da sich Repräsentanten aus allen Ecken der arabischen Welt in Kairo versammlt haben, ist es an der Zeit, dass wir ihnen unsere wahren Ambitionen zeigen und so einen neuen Kurs für den Nahen Osten einschlagen. Wir sollten jedoch vorsichtig vorgehen, wenn wir die vielen politischen Gruppierungen und Widerstandszellen, von deren Unterstützung der Erfolg unserer Operation abhängt, auch nach ihrer Befreiung noch auf unserer Seite wissen wollen."
+ palcon.12.a: "Ägypten strebt nach einer Eingliederung der Levante!"
+ palcon.12.b: "Ägypten will alle Araber befreien!"
+
+ palcon.13.t: "Ägypten verkündet seine Ambitionen"
+ palcon.13.d: "Nachdem Repräsentanten aus allen Ecken der arabischen Welt in Kairo versammelt wurden, hat sich Ägypten nun dazu entschlossen, seine wahren Ambitionen zu verkünden. Wie einige schon befürchtet und andere gehofft hatten, hat [EGY.GetLeader] das Ziel, die gesamte Levante in sein Königreich zu integrieren. Die Frage des Iraks blieb unbeantwortet, doch bisher weist alles darauf hin, dass der Sultan dort ein ihm wohlgesinntes arabisches Regime erschaffen will. Der Hedschas würde an seine arabischen Verbündeten auf der Halbinsel übergeben werden, als eine Art Bezahlung für ihre Unterstützung in dem kommenden Krieg.\n\nViele Mitglieder der syrischen Delegation haben als Reaktion auf diese Verkündung den Kongress verlassen, mit der Begründung, dass Syrien so lediglich einem neuen Unterdrücker dienen müsste, statt die Autonomie zu erhalten, die sich die Syrer wünschen. Auch die Bewohner des Hedschas sind von diesem Plan nicht sonderlich angetan, da sie ihre Brüder in der Arabischen Wüste als unterentwickelte und unzivilisierte Barbaren betrachten, die dem relativ reichen Küstenland nichts Gutes bringen werden."
+ palcon.13.a: "Hoffentlich ist ihre Überheblichkeit nicht unser Untergang..."
+
+ palcon.14.t: "Ägypten verkündet seine Ambitionen"
+ palcon.14.d: "Nachdem Repräsentanten aus allen Ecken der arabischen Welt in Kairo versammelt wurden, hat sich Ägypten nun dazu entschlossen, seine wahren Ambitionen zu verkünden. [EGY.GetLeader] hat die Bedeutung der Autonomie der arabischen Staaten betont und will versuchen, unabhängige arabische Staaten zu schaffen, die selbst entscheiden können, ob sie sich einem großen arabischen Staat anschließen wollen oder nicht.\n\nRepräsentanten aus Syrien, dem Irak und dem Hedschas sind mit dieser Verkündung sehr zufrieden, da sie ihnen das Recht gibt, ihre Zukunft selbst zu bestimmen. Auf der Halbinsel haben die Menschen die Neuigkeiten jedoch weniger gut aufgenommen. Sie sind der Meinung, dass sie nichts für ihren Kriegsbeitritt erhalten werden, sondern stattdessen lediglich in der Zukunft mit einem starken hedschasischen Staat konkurrieren müssten."
+ palcon.14.a: "Das kann ja noch interessant werden..."
+
+ palcon.15.t: "Der Iran verlässt den Kongress"
+ palcon.15.d: "Da der finale Beschluss des Kongresses einen unabhängigen Irak frei vom iranischen Einfluss beinhaltet, hat die iranische Delegation den Kongress wütend verlassen. Ob dies ihre Entscheidung, den Krieg gegen die Hohe Pforte beizutreten, beeiflussen oder den Iran gar auf die Seite der Türken treiben wird, ist noch unklar, doch so oder so hat diese Protestaktion bei den meisten Repräsentanten einen sauren Nachgeschmack hinterlassen."
+ palcon.15.a: "Sie waren sowieso nicht eingeladen!"
+ palcon.15.b: "Die Araber kennen keine Vernunft!"
+
+ palcon.16.t: "Die Frage der sozialistischen Unterstützung"
+ palcon.16.d: "Aufgrund der Kontakte der arabischen Lobby in Paris und der Zusammenarbeit der Kommune mit Ägypten seit der Sueskrise fragen sich nun viele, wie sehr man den Kampf der Araber mit dem der Internationale verbinden sollte.\n\nDie Internationale, die stark von der wachsenden Unzufriedenheit der Araber in Algerien und der Bedrohung, die wir für das Osmanische Reich darstellen, profitiert, ist daran interessiert, unsere Bemühungen durch Berater und militärische Ausrüstung zu unterstützen. Viele fürchten jedoch den Preis dieser Hilfe. Die vielen wirtschaftlichen Abkommen, darunter auch Vereinbarungen bezüglich des Ölhandels, der für die Kriegsmaschinerie der Kommune von großer Bedeutung ist, werden von einigen Arabern als neue Form des Imperialismus betrachtet. Des Weiteren wird auch die syndikalistische Rhetorik als direkte Bedrohung der arabischen Staaten angesehen, da diese auf dem Rücken reicher und mächtiger Aristokraten aufgebaut wurden."
+ palcon.16.a: "Wir benötigen jede Hilfe, die wir kriegen können!"
+ palcon.16.b: "Diese Heiden können ihre Waren woanders loswerden!"
+
+ palcon.17.t: "Die Gründung des Kairo-Paktes"
+ palcon.17.d: "Gegen Ende des Kongresses wurde ein letzter Beschluss gefasst: Jede der anwesenden Nationen hat geschworen, den anderen beizustehen, sollte es zu einem Krieg mit den Türken kommen. Dieser Beschluss legte das Fundament einer militärischen Allianz, die zum "Kairo-Pakt" getauft wurde und das erste derartige Bündnis der modernen arabischen Geschichte darstellt."
+ palcon.17.a: "Wir werden dem Kairo-Pakt bald beitreten."
+ palcon.17.b: "Wir werden nicht unterzeichnen!"
+ palcon.17.c: "Für ein reiches Arabien!"
+ palcon.17.e: "Wir werden so bald wie möglich beitreten."
+
+ palcon.18.t: "Der Kongress kommt zum Ende"
+ palcon.18.d: "Während die Sonne über dem Nil untergeht, beendet Farouk I den Kongress mit einer letzten Rede. In dieser dankte er allen Anwesenden für ihr Erscheinen. Diese sind sich jedoch bewusst, dass die Konferenz in erster Linie eine Zuschaustellung der ägyptischen Macht war. Araber aller Gruppen und sozialen Schichten konnten den Reichtum Ägyptens genießen und beneiden und die Freiheit kosten, die in diesem wahrhaft arabischen Staat vorherrscht. Außerdem hat Ägypten versucht, den Kongress zu nutzen, um die verschiedenen Mächte der Region zu vereinen und in Richtung einer Ideologie zu drängen, die für Ägypten selbst nur Vorteile schafft."
+ palcon.18.a: "Seht euch nur das Feuerwerk an!"
+ 
+ palcon.19.t: "Teilnahme am Dritten Arabischen Kongress?"
+ palcon.19.d: "Es ist kein Geheimnis, dass die größte arabische Macht, das Königreich Ägypten, nun schon seit geraumer Zeit versucht, seine eigene Stärke und die Reaktionsfähigkeit des Osmanischen Reiches im Falle eines Angriffs zu messen.\n\nObwohl wir keine Einladung zum großen Arabischen Kongress in Kairo erhalten haben, könnte es eventuell vonnützen sein, uns dennoch in die Verhandlungen hineinzwängen. Dies würde es uns erlauben, Einfluss auf die Zukunft des Iraks und des gesamten Maschreks auszüben."
+ palcon.19.a: "Entsendet eine Delegation nach Kairo!"
+ palcon.19.b: "Sie wollen unsere Anwesenheit sowieso nicht."
+
+### News events about events in Palestine
+ palnews.1.t: "Amerikanische Truppen verlassen das M.v.J."
+ palnews.1.d: "Da Amerika sich erneut in einem blutigen Bürgerkrieg befindet, hat [USA.GetLeader] alle amerikanischen Truppen aus Palästina in die Heimat zurückgerufen, damit sie dabei helfen können, diese zu verteidigen.\n\nDa die Armerikaner seit 1920 einer der wichtigsten Partner der internationalen Gendarmerie waren, sind deren Kräfte nun noch dünner verteilt als zuvor. Obwohl die Situation nach und nach außer Kontrolle gerät, weigern sich die deutschen Truppen, sich aus der Region zurückzuziehen, da ein Großteil der deutschen Bevölkerung den Einsatz in Palästina noch immer unterstützt."
+ palnews.1.a: "Johnny marschiert erneut nach Hause."
+
+ palnews.2.t: "Proteste in Jerusalem eskalieren"
+ palnews.2.d: "Bedeutende arabische Persönlichkeiten haben heute einen Massenprotest in Jerusalem organisiert, mit dem sie den Internationalen Rat dazu zwingen wollen, die jüdische Einwanderungsbehörde, die erst vor Kurzem expandiert hat, zu schließen. Der anfangs noch friedliche Protest eskalierte jedoch, als die Gendarmerie begann, gegen die Rädelsführer vozugehen. Die Demonstranten reagierten darauf, indem sie anfingen, Steine auf die Fenster ausländischer Geschäfte zu werfen und Ausländer in den Straßen der Stadt anzugreifen.\n\nNach einiger Zeit gelang es den Behörden, den Protest aufzulösen, bevor sich die Gewalt noch weiter verbreiten konnte. Der Internationale Rat, dem nur sehr begrenzte Ressourcen zur Verfügung stehen, fürchtet nun jedoch, dass die Lage um einiges ernster ist, als anfangs angenommen."
+ palnews.2.a: "Das ist eine Beleidigung unserer muslimischen Brüder!"
+
+ palnews.3.t: "Das M.v.J. stoppt weitere jüdische Immigration"
+ palnews.3.d: "Als Antwort auf die Forderungen der muslimischen Bevölkerung und die Aufstände in Jerusalem vor einigen Wochen hat der Rat heute offiziell das Ende der jüdischen Immigration verkündet und beschlossen, dass keine neuen Siedler mehr in die Zone kommen dürfen, bis man eine Einigung mit den Arabern erreichen konnte. Aufgrund der begrenzten Ressourcen des Rates ist es zwar unwahrscheinlich, dass dieses Dekret die Immigranten vollends aufhalten wird, doch für das Mutasarrifat ist es dennoch ein wichtiger Wendepunkt, zumal dieser Akt einen direkten Verstoß gegen die Balfour- und Talaat-Deklarationen darstellt."
+ palnews.3.a: "Palästina wird niemals frei sein, solange Ausländer seine Politik bestimmen!"
+
+ palnews.4.t: "Generalstreik in Palästina"
+ palnews.4.d: "Mehrere nationale arabische Komitees haben einen Generalstreik der Araber in den Bereichen der Produktion, des Transportes und des Handels organisiert, mit dem sie den Rückzug der internationalen Truppen fordern wollen. Ihre Forderungen lauten wie folgt: 1.) Das Verbot der jüdischen Immigration heute und in der Zukunft. 2.) Das Verbot des Transfers von arabischem Land an Juden. 3.) Der sofortige Rückzug der internationalen Gendarmerie. Ein Großteil der arabischen Bevölkerung nimmt an dieser Aktion teil, wobei die Menschen stark von mächtigen Familien und religiösen Würdenträgern beeinflusst werden. Der Rat wiederum hat verkündet, dass er gegen jegliche Versuche, seine Auflösung zu erzwingen, hart durchgreifen wird. Schon jetzt wurde die Gendarmerie nach Jaffa entsandt, um mögliche Rädelsführer des Streiks festzunehmen."
+ palnews.4.a: "Möge Allah sie segnen."
+
+ palnews.5.t: "Der Kongress von Haifa beginnt"
+ palnews.5.d: "Da die Gewalt in Palästina immer mehr zu eskalieren droht, haben sich die Unterzeichner des Abkommens von Jerusalem dazu entschieden, einen Kongress abzuhalten, der über die Zukunft des M.v.J. entscheiden soll. Die osmanische Delegation fordert die sofortige Wiedervereinigung der Region mit Kostantiniyye, mit der Begründung, das Chaos sei nur entstanden, nachdem die Region 1920 von der Hohen Pforte abgespalten wurde. Währenddessen fordert die ägyptische Regierung die Angliederung Palästinas an Ägypten, da sie der Meinung ist, dass alle Araber vereint werden sollten und dass es die osmanischen Taten während des Weltkrieges waren, die überhaupt erst zur Gründung des Mutasarrifates geführt haben. Auch das Komitee, das untersuchen sollte, ob die wenigen noch verbliebenen Truppen der Gendarmerie ausreichen, um das M.v.J. zu erhalten, sieht die Sache skeptisch. Die Mitglieder des Komitees haben vorgeschlagen, die Region mit dem Osmanischen Reich zu vereinen, sie jedoch auch weiterhin im Auge zu behalten, um sicherzugehen, dass die Juden genügend Land erhalten und frei von Repressalien leben können."
+ palnews.5.a: "Hoffentlich kann eine Lösung gefunden werden."
+
+ palnews.6.t: "Der Internationale Rat löst das M.v.J. auf"
+ palnews.6.d: "Als Reaktion auf die Probleme Palästinas haben die Unterzeichner des Abkommens von Jerusalem für die Auflösung der Internationalen Zone und ihre Reintegration in das Osmanische Reich gestimmt. Vorschläge, die Sinai-Halbinsel an Ägypten abzutreten, wurden von den osmanischen Repräsentanten durch ein Veto abgelehnt, was sowohl Kairo, das die volle Kontrolle über die Region erlangen wolle, als auch die anderen beteiligten Nationen, die die Region unter die geteilte Kontrolle der Osmanen und der Ägypter stellen wollten, verärgert hat. Ob das palästinensische Problem dadurch gelöst werden konnte, wird sich noch herausstellen. Es ist jedoch sicher, dass der Konflikt zwischen Ägypten und dem Osmanischen Reich gerade erst begonnen hat."
+ palnews.6.a: "Eine weise Entscheidung."
+ palnews.6.b: "Das ist ein Skandal!"
+
+ palnews.7.t: "Fehlgeschlagener Staatsstreich in Kairo"
+ palnews.7.d: "Heute Morgen konnten in Kairo Schüsse gehört werden, als eine Gruppe von Verschwörern den königlichen Palast stürmte. Sie selbst nannte sich die "Gesellschaft der Gerechtigkeit" und plante, [EGY.GetLeader] zu ermorden und Abbas II auf den Thron zu setzen. Abbas II war der letzte osmanische Khedive und erfreut sich seit Kurzem steigender Beliebtheit in der muslimischen Welt. Seine islamistischen Ideen und seine Geschichte als Regierungsoberhaupt Ägyptens haben zur Entstehung mehrerer Gruppierungen geführt, die sich nach seiner Rückkehr sehnen.\n\nDer fehlgeschlagene Staatsstreich hatte jedoch auch seine Vorteile für das Regime in Kairo, da die engen Beziehungen des Khedives zur osmanischen Regierung die öffentliche Meinung stark gegen die Türken gewandt haben. [EGY.GetLeader] selbst hat das versuchte Attentat als bösartigen Plan der imperialistischen Türken bezeichnet, mit dem sie den arabischen Wunsch nach Unabhängigkeit im Keim ersticken wollten. Nun will er aggressiver vorgehen und fordert militärische Aktionen gegen die Osmanen."
+ palnews.7.a: "Dies wird den Nahen Osten weiter destabilisieren..."
+ palnews.7.b: "Hatten wir damit etwas zu tun?"
+
+### Foci
+ mutasarrifate_jerusalem_focus: "Fokusbaum des Mutasarrifates von Jerusalem"
+
+ MOJ_1936_Census: "Abschluss der Volkszählung von 1935"
+ MOJ_1936_Census_desc: "Letztes Jahr haben wir mit einer sehr detaillierten Volkszählung in den Gebieten begonnen, die vom Abkommen von Jerusalem betroffen waren. Diese hat sich jedoch als recht schwer durchführbar herausgestellt."
+
+ MOJ_Pole_Report: "Den Pole-Bericht untersuchen"
+ MOJ_Pole_Report_desc: "1935 wurde Sir Felix Pole, der ehemalige Vorsitzende der britischen "Great Western Railway", damit beauftragt, die Möglichkeit eines Ausbaus der palästinensischen Infrastruktur zu untersuchen. Um gegen die derzeitige wirtschaftliche Depression vorzugehen, sollten wir vielleicht einige seiner Empfehlungen in Betracht ziehen."
+
+ MOJ_Foreign_Financial_Backing: "Finanzielle Unterstützung des Rates"
+ MOJ_Foreign_Financial_Backing_desc: "Die Nationen des Internationalen Rates verfügen über viel größere finanzielle Mittel als die Türken. Wenn wir mit ihnen zusammenarbeiten, können wir unsere Wirtschaft wiederaufbauen und stärken."
+ MOJ_Jaffa_Harbour_Project: "Das Jaffa-Hafen-Projekt"
+ MOJ_Jaffa_Harbour_Project_desc: "Jaffa wurde von westlichen Technikern als guter Ort für den Bau moderner Marineeinrichtungen bestimmt. Wir sollten diesen Empfehlungen nachkommen."
+ MOJ_Port_Said_Link: "Verbesserung der Verbindung zu Port Said"
+ MOJ_Port_Said_Link_desc: "Port Said ist dazu in der Lage, die größten und modernsten Frachtschiffe der Welt zu entladen. Vom Hafen aus können einige Güter jedoch nicht direkt nach Palästina versandt werden. Wir sollten den Empfehlungen der Behörden des Sues nachkommen und die Infrastruktur Palästinas entsprechend verbessern."
+ MOJ_Palestinian_Railroads_Initiative: "Palästinensische Eisenbahn-Initiative"
+ MOJ_Palestinian_Railroads_Initiative_desc: "Um das Fortbestehen des palästinensischen Eisenbahnunternehmens zu garantieren, sollten wir internationale Spenden nutzen und neue Eisenbahnlinien zwischen unseren größten Siedlungen errichten."
+ MOJ_Sell_Railroad_Concessions: "Eisenbahnkonzessionen verkaufen"
+ MOJ_Sell_Railroad_Concessions_desc: "Durch eine neue Verwaltung könnten derzeit schwächelnde Eisenbahnlinien wieder Gewinne erzielen. Mit der Hilfe des Rates könnten wir versuchen, unsere unprofitablen Linien an internationale Geschäftsmänner zu verkaufen."
+ MOJ_Beersheba_Sinai_Line: "Ausbau der Beersheba-Sinai-Linie"
+ MOJ_Beersheba_Sinai_Line_desc: "Um der osmanischen Dominanz zu widerstehen und den Güterfluss über den Sinai zu garantieren, müssen wir in der Region neue Eisenbahnlinien errichten."
+ MOJ_Jewish_Private_Investement: "Jüdische Privatinvestitionen ermutigen"
+ MOJ_Jewish_Private_Investement_desc: "Viele reiche europäische Juden, die selbst nicht an der Alija teilnehmen wollen, sind der zionistischen Bewegung wohlgesonnen. Wir sollten direkt auf diese Leute zugehen und ihnen nahelegen, ihre Finanzen zu nutzen, um die jüdischen Gemeinden Palästinas zu unterstützen - was natürlich auch ihnen zugute kommen würde."
+ MOJ_Agricultural_Imports: "Landwirtschaftliche Importe"
+ MOJ_Agricultural_Imports_desc: "Wir dürfen nicht zögern. Wir müssen den Rat darum bitten, uns beim Import landwirtschaftlicher Güter zu unterstützen, um die Schwere der derzeitigen Knappheiten etwas zu mindern."
+ MOJ_Relieve_Shortages: "Lebensmittelknappheiten mildern"
+ MOJ_Relieve_Shortages_desc: "Da sich die Staatskoffer füllen und die Städte wieder über genügend Lebensmittel und andere Vorräte verfügen, sollten wir nun versuchen, auch den Menschen auf dem Land Lebensmittel bereitzustellen. Es wurde ein Plan ausgearbeitet, in dessen Rahmen wir die überschüssigen Lebensmittel einiger Städte aufkaufen und diese an Tafeln, die in den wichtigsten Dörfern der betroffenen Regionen errichtet werden, verteilen würden."
+
+ MOJ_Ottoman_Economic_Reintegration: "Osmanische Wirtschaftliche Reintegration"
+ MOJ_Ottoman_Economic_Reintegration_desc: "Obwohl die Nationen des Rates einen Großteil des weltweiten Reichtums kontrollieren, ist Konstantinopel aufgrund seiner Nähe der bessere finanzielle Unterstützer. Wenn die Probleme unserer Region jemals gelöst werden sollen, muss sie in den Rest des Reiches integriert werden."
+ MOJ_DDY_Takeover: "Die Übernahme der DDY vollenden"
+ MOJ_DDY_Takeover_desc: "Um die palästinensischen Eisenbahnen vor dem Bankrott zu bewahren und die Integration Palästinas in den Rest des Reiches zu erleichtern, hat die osmanische Staatseisenbahn angeboten, die palästinensischen Schienen aufzukaufen. Der Rat hat sich diesem Antrag bisher widersetzt, doch damit ist jetzt Schluss!"
+ MOJ_Refurbish_Haifa_Jerusalem_Line: "Sanierung der Haifa-Jerusalem-Linie"
+ MOJ_Refurbish_Haifa_Jerusalem_Line_desc: "Die derzeitigen Eisenbahnlinien, die die Bevölkerungs- und Handelszentren Jerusalem und Haifa miteinander verbinden, reichen für den heutigen Verkehr nicht mehr aus. Durch die finanzielle Unterstützung Konstantinopels können wir diesem Problem endlich entgegenwirken."
+ MOJ_Haifa_Deep_Water_Harbour: "Der Tiefwasserhafen von Haifa"
+ MOJ_Haifa_Deep_Water_Harbour_desc: "Haifa ist besser als jede andere Region Palästinas für den Bau von großen Schiffswerften geeignet. Um die stetig wachsende Nachfrage nach neuen Frachtschiffen zu befriedigen, sollten wir Haifa modernisieren und neue Eisenbahnverbindungen zur Stadt etablieren."
+ MOJ_Relieve_Goods_Shortage: "Güterknappheiten mildern"
+ MOJ_Relieve_Goods_Shortage_desc: "Wenn wir nichts unternehmen, könnten die derzeit sehr niedrigen Produktionsraten Palästinas zur neuen Norm werden. Auch wenn die anderen Mitglieder des Internationalen Rates gegen diese Vorgehensweise sind, müssen wir erneut Konstantinopel um Unterstützung bitten."
+ MOJ_Cooperation_Technicum: "Techniker-Kooperationsprogramm"
+ MOJ_Cooperation_Technicum_desc: "Wir sollten Konstantinopel um technische Berater bitten, die uns dabei helfen können, neue und bessere Techniker auszubilden."
+ MOJ_Local_Manifacturing: "Inländische Produktion ermutigen"
+ MOJ_Local_Manifacturing_desc: "Damit Palästina vom europäischen Einfluss befreit werden kann, darf es sich nicht länger auf europäische Fertigwaren verlassen. Durch die finanzielle Unterstützung Konstantinopels können wir sicherstellen, dass unsere modernen Industriezentren auch weiterhin große Profite erzielen."
+ MOJ_Damascene_Link: "Förderung der Verbindung zu Damaskus"
+ MOJ_Damascene_Link_desc: "Es werden weitere Eisenbahnverbindungen benötigt, um Palästina an die belebten Märkte Damaskus' anzuschließen."
+
+ MOJ_Restructure_International_Gendarmerie: "Restrukturierung der Gendarmerie"
+ MOJ_Restructure_International_Gendarmerie_desc: "Die Unterzeichner des Abkommens von Jerusalem haben dem Zusammenschluss ihrer Gendarmerien, die derzeit noch Teil ihrer eigenen Streitkräfte sind, zu einer einzigen Einheit, die direkt dem Rat untersteht, zugestimmt. Nun muss dieser Plan nur noch in die Tat umgesetzt werden."
+ MOJ_Broadcast_Disruption: "Unterbrechung der panarabischen Sendungen"
+ MOJ_Broadcast_Disruption_desc: "Die Ägypter versuchen, über Radiosendungen den arabischen Nationalismus zu erwecken und Angriffe auf nicht-arabische Bürger zu ermutigen. Wir sollten uns selbst Radiosender zulegen und auf jeder Frequenz, auf der die Ägypter ihre Propaganda verbreiten wollen, donnerndes Rauschen abspielen."
+ MOJ_Sinai_Patrol: "Sinai-Grenzkontrolle"
+ MOJ_Sinai_Patrol_desc: "Wir haben bereits damit begonnen, die Grenzpatrouillen auf der Sinai-Halbinsel zu verstärken, um gegen die ägyptische Infiltration vorzugehen. Wir sollten jedoch auch die Türken darum bitten, unsere Männer an der Grenze auszubilden, um sicherzustellen, dass keine ägyptischen Schmuggler nach Palästina gelangen."
+ MOJ_Congress_of_Haifa: "Den Kongress von Haifa organisieren"
+ MOJ_Congress_of_Haifa_desc: "Die Abneigung der Araber gegenüber den neuen jüdischen Siedlern und ihrem Landerwerb ist zu einem Problem geworden, dass die Unterzeichner des Abkommens von Jerusalem nicht länger ignorieren können. Zur Lösung dieses Problems müssen wir die anderen Nationen von den guten Abschichten der Hohen Pforte überzeugen und dazu bringen, Palästina erneut unter die Obhut des Osmanischen Reiches zu stellen. Um dieses Ziel zu erreichen, müssen wir die Unterzeichner in einem Kongress versammeln, bei dem über die Zukunft der Internationalen Zone entschieden wird."
+ MOJ_Mutasarrif_Sagay: "Mutasarrif [Root.GetLeader]"
+ MOJ_Mutasarrif_Sagay_desc: "Esat Sagay, ein militärischer Theoretiker und Ausbilder, hat eine besondere Leidenschaft für praktische Bildung. Nun verfügt er endlich über das benötigte politische Kapital, um seine Bildungsagenda zu verfolgen. Es ist an der Zeit, die Bevölkerung Palästinas zu bilden!"
+ MOJ_Restructure_Palestine_Education: "Restrukturierung der palästinensischen Bildung"
+ MOJ_Restructure_Palestine_Education_desc: "Durch Bildung und Entwicklung können alle Menschen lernen, innerhalb eines kulturellen Rahmens in Harmonie miteinander zu leben. Wir sollten die Verwaltungen der privaten und konfessionellen Schulen verschmelzen und sicherstellen, dass alle Schüler die selbe technische Grundausbildung erhalten."
+ MOJ_Reaffirm_Ottoman_Authority: "Stärkung der osmanischen Autorität"
+ MOJ_Reaffirm_Ottoman_Authority_desc: "Viele Araber misstrauen zwar unserer Herrschaft, glauben aber noch immer an die Hohe Pforte. Nur Konstantinopel ist jetzt noch dazu inder Lage, Palästina zu retten. Wir müssen das Reich dazu bringen, Notfallmaßnahmen zu ergreifen, die Kontrolle über Palästina zu übernehmen und bei den anderen Unterzeichnern lediglich um Verständnis zu bitten."
+ MOJ_Abolishment_of_the_MOJ: "Auflösung des Mutasarrifates"
+ MOJ_Abolishment_of_the_MOJ_desc: "Beim Kongress von Haifa haben die Unterzeichner des Abkommens von Jerusalem entschieden, Palästina vollständig in das Osmanische Reich zu reintegrieren und einige neue Richtlinien für die Verwaltung der Region zu erstellen. Dieser Reintegrationsprozess wird jedoch einige Zeit dauern."
+
+ MOJ_Algerian_Immigrants: "Algerische Immigranten ansiedeln"
+ MOJ_Algerian_Immigrants_desc: "Die soziale Situation der algerischen Juden wurde von den Franzosen nach ihrer Niederlage im Weltkrieg radikal verändert. Deshalb sind viele der dortigen Juden mit ihrer jetzigen Situation unzufrieden, darunter auch einige Verwalter, die uns sicherlich eine große Hilfe sein könnten. Wir sollten ihnen die Immigration nach Palästina ermöglichen!"
+ MOJ_Russian_Immigrants: "Russische Immigranten ansiedeln"
+ MOJ_Russian_Immigrants_desc: "Obwohl ein Großteil der jüdischen Bevölkerung des ehemaligen Russischen Imperiums nun in den unabhängigen Staaten Osteuropas lebt, ist Russland noch immer das Land mit der weltweit größten jüdischen Bevölkerung. Da sie schon seit langer Zeit unter Diskriminierung leiden, warten die verarmten Juden Russlands regelrecht darauf, sich den Zionisten in Palästina anschließen zu können."
+ MOJ_Eastern_European_Immigrants: "Osteuropäische Immigranten ansiedeln"
+ MOJ_Eastern_European_Immigrants_desc: "In Osteuropa leben viele Juden, von denen der Großteil über wertvolles Fachwissen in den Bereichen Handel und Technik verfügt. Wir sollten es ihnen erlauben, nach Palästina überzusiedeln."
+ MOJ_American_Immigrants: "Amerikanische Immigranten ansiedeln"
+ MOJ_American_Immigrants_desc: "Obwohl sie am anderen Ende der Welt leben, haben amerikanische Juden viele zionistische Organisationen mit beträchtlichen finanziellen Mitteln unterstützt. Indem wir es den amerikanischen Juden ermöglichen, sich in Palästina anzusiedeln, können wir ihre finanziellen Mittel nutzen, um die Staatsausgaben für ihre Ansiedlung zu kompensieren."
+ MOJ_Coordinate_Jewish_Land_Acquisition: "Koordination des jüdischen Landerwerbs"
+ MOJ_Coordinate_Jewish_Land_Acquisition_desc: "Unsere Ansiedlungsbemühungen haben zu Streitigkeiten der Juden untereinander und der Juden mit den Arabern geführt, die die lokalen Verwalter stark belasten. Um die Schwere dieses Problems zu mindern und den Disputen eine gewisse Einheitlichkeit zu bringen, muss der derzeit noch recht planlose Prozess des Landerwerbs und der Besiedlung durch einen neuen und in ganz Palästina geltenden Prozess ersetzt werden."
+ MOJ_Agricultural_Expansion: "Westjordanisches Bewässerungsprojekt"
+ MOJ_Agricultural_Expansion_desc: "Die Hügel Westjordaniens haben schon immer unter langen Dürreperioden gelitten. Trotzdem wurden bisher nur lokale Bewässerungsprojekte abgeschlossen. Wir sollten eine regionale landwirtschaftliche Entwicklungsbehörde etablieren, die die Bewässerungsprojekte der Region auf Basis europäischer Begutachtungen verwalten kann."
+ MOJ_Tel_Aviv_Expansion: "Städtische Planungskommission Tel Aviv"
+ MOJ_Tel_Aviv_Expansion_desc: "Die Stadt Tel Aviv ist von einer kleinen jüdischen Siedlung, die von Jaffa in den Schatten gestellt wird, zu einem wichtigen Teil des modernen Palästinas geworden. Obwohl ihre Bevölkerung während des Krieges zurückging, ist sie in den darauffolgenden Jahren rasant angestiegen. Dieses Wachstum wurde jedoch aufgrund der schwierigen Beziehungen der Stadt mit den osmanischen Behörden nicht organisiert. Wir sollten eine städtische Planungskommission etablieren, die das Wachstum der Stadt verwalten und einen Vermittler zwischen Juden und Türken darstellen kann."
+ MOJ_Close_Immigration: "Jüdische Immigration stoppen"
+ MOJ_Close_Immigration_desc: "Da die ethnischen Spannungen sich immer weiter verschärfen, ist es an der Zeit, die Immigration der Juden nach Palästina aufzuhalten. Allerdings sollten wir auch sicherstellen, dass die Juden, die bisher umgesiedelt sind, vollständig in die regionale Kultur integriert werden."
+
+### Suez Focus Tree
+
+ Suez_Focus: "Fokusbaum des Sues"
+ SUE_The_Port_Said_Convention: "Das Abkommen von Port Said"
+ SUE_The_Port_Said_Convention_desc: "Um den ständigen Warenfluss durch den Sueskanal zu sichern, hat die Hohe Pforte eine Abmachung mit einigen anderen Nationen getroffen. Entlang des Sueskanals soll ein freier Staat etabliert werden, der von verschiedenen internationalen Kommissaren verwaltet wird."
+
+ SUE_Rebuild_The_Civilian_Administration_Center: "Wiederaufbau der Zivilverwaltung"
+ SUE_Rebuild_The_Civilian_Administration_Center_desc: "Die verschiedenen multinationalen Delegationen von Port Said wurden durch den Krieg zerstreut und viele Gebäude beschädigt oder zerstört. Wir müssen mit dem Wiederaufbau beginnen und Auswanderer zur Rückkehr bewegen."
+
+ SUE_Port_Abdulmecid_Housing_Project: "Wohnprojekt Port Abdulmecid"
+ SUE_Port_Abdulmecid_Housing_Project_desc: "Um all die neuen internationalen Würdenträger unterzubringen, muss eine neue Stadt geplant und errichtet werden. Diese Stadt, die Port Abdulmecid genannt wurde, wird ein Stück Europa inmitten des östlichen Mittelmeeres sein."
+
+ SUE_Clear_The_Port_Said_Suez_Fairway: "Das Port Said-Sues Fahrwasser säubern"
+ SUE_Clear_The_Port_Said_Suez_Fairway_desc: "Um sicherzustellen, dass der Kanal während des Krieges nicht in die Hände des Feindes fällt, wurden mehrere kleine Wasserfahrzeuge im Fahrwasser des Kanals versenkt. Diese müssen nun wieder aus dem Wasser geholt werden."
+
+ SUE_Restore_Suez_Refuelling_Station: "Wiederaufbau der Sues-Tankstelle"
+ SUE_Restore_Suez_Refuelling_Station_desc: "Ein Großteil der modernen Tankausstattung wurde während des Krieges irreversibel beschädigt. Wir müssen die verloren gegangenen Teile mit ausländischer Hilfe ersetzen, damit der Kanal wieder voll funktionstüchtig ist."
+
+ SUE_Re_Open_The_Canal: "Wiedereröffnung des Kanals"
+ SUE_Re_Open_The_Canal_desc: "Nun, da der Kanal endlich repariert wurde, sollten wir uns auf seine Wiedereröffnung vorbereiten."
+
+ SUE_Electrification_Of_Ismailia: "Elektrifizierung Ismailias"
+ SUE_Electrification_Of_Ismailia_desc: "Eine vollständige Elektrifizierung der Stadt Ismailia würde dem internationalen Handel definitiv zugute kommen. Deshalb sollten wir den dortigen Elektrifizierungsbemühungen staatliche Unterstützung gewähren."
+
+ SUE_Expand_Rail_Connections: "Ausbau der Eisenbahnverbindungen"
+ SUE_Expand_Rail_Connections_desc: "Obwohl die Kanalzone vor allem als globales Handelszentrum dient, sollte sie auch wirtschaftlich auf eigenen Beinen stehen können. Neue Eisenbahnen könnten uns nicht nur mit wichtigen internationalen Linien verbinden, sondern auch die Reisezeiten zwischen den am stärksten bevölkerten Gebieten der Zone verkürzen."
+
+ SUE_Create_The_Port_Said_Industrial_Zone: "Förderung des Industriegebiets von Port Said"
+ SUE_Create_The_Port_Said_Industrial_Zone_desc: "Gebiete mit bestehender Industrie sollten anderen Gesetzen als der Rest der Zone unterstehen. Diese Gesetze, die die Entwicklung der Industriegebiete erleichtern, sollten vor allem auch unseren Wohlstand und unseren Reichtum sichern."
+
+ SUE_Expand_Textile_Manufacturing: "Ausbau der Textilproduktion"
+ SUE_Expand_Textile_Manufacturing_desc: "Durch die niedrigen Transportkosten hat sich in der Kanalzone eine kleine Textilindustrie entwickelt, die sogar Arbeiter aus dem Herzland Ägyptens anzieht. Wir sollten die Bedeutung dieser Industrie für unseren Arbeitsmarkt anerkennen und sicherstellen, dass sie auch weiterhin bestehen bleibt."
+
+ SUE_Increase_Shareholder_Dividends: "Dividenden der Aktionäre erhöhen"
+ SUE_Increase_Shareholder_Dividends_desc: "Da der Kanal vollständig repariert wurde, können wir den Unterzeichnern des Abkommens von Port Said nun einen größeren Teil unserer Steuern zukommen lassen."
+
+ SUE_Rebuild_The_Port_Said_Refinery: "Wiederaufbau der Raffinerie von Port Said"
+ SUE_Rebuild_The_Port_Said_Refinery_desc: "Obwohl die Raffinerie für den Kanal nicht gerade essenziell ist, war es für die Wirtschaft der Kanalzone von Vorteil, Erdöl sofort veredeln zu können. Mit Hilfe einiger Investitionen des Staates könnte die alte Raffinerie wieder in Betrieb genommen werden."
+
+ SUE_Found_The_International_Legislative_Assembly: "Gründung der Internationalen Versammlung"
+ SUE_Found_The_International_Legislative_Assembly_desc: "Alle ausländischen Bürger, die in der Kanalzone residieren, sollten ihre Interessen repräsentieren dürfen. Des Weiteren sollte eine speziale Legislatur für Auswanderer geschaffen werden."
+
+ SUE_Expand_The_Suez_Garrison: "Förderung der Sues-Garnison"
+ SUE_Expand_The_Suez_Garrison_desc: "Der Kanal ist das Rückgrat des internationalen Handels. Wir dürfen nicht zulassen, dass er erneut in die Hände eines Feindes fällt. Wir müssen die Garnison fördern, damit sie ihre Operationen ohne Probleme durchführen kann."
+
+ SUE_Establish_The_Port_Said_Naval_Authority: "Die Marinebehörde von Port Said"
+ SUE_Establish_The_Port_Said_Naval_Authority_desc: "Die Kanalzone benötigt eine kleine Flotte unter ihrer direkten Kontrolle. Deshalb sollten wir Einrichtungen etablieren, die militärische Schiffe unterhalten können."
+
+ SUE_Modernise_Repair_Facilities: "Moderne Reparatureinrichtungen"
+ SUE_Modernise_Repair_Facilities_desc: "Zur Unterhaltung von Frachtschiffen werden spezielle Einrichtungen benötigt, weshalb wir die unseren verbessern müssen, wenn sie auch die neuesten Schiffe reparieren sollen."
+
+ SUE_Department_For_The_Procurement_Of_Supplies: "Gründung der Abteilung zur Beschaffung von Nachschub"
+ SUE_Department_For_The_Procurement_Of_Supplies_desc: "Der Import von Lebensmitteln in die Kanalzone sollte zentral verwaltet und überwacht werden, wofür eine neue Institution geschaffen werden muss."
+
+ SUE_Re_Establish_The_Port_Said_Hospital: "Wiedereröffnung des Krankenhauses von Port Said"
+ SUE_Re_Establish_The_Port_Said_Hospital_desc: "Die britische Armee hatte während des Weltkrieges das Krankenhaus von Port Said errichtet, um ihre Operationen im Nahen Osten und in Gallipoli zu unterstützen. Der internationale Status dieser Institution, die vom Roten Kreuz geschützt wird, hat dafür gesorgt, dass im Krankenhaus fortschrittliche medizinische Geräte zur Verfügung stehen und Soldaten und Zivilisten aller Nationen schnell und effizient behandelt werden können."
+
+ SUE_Expand_The_Port_Said_Arsenal: "Ausbau des Arsenals von Port Said"
+ SUE_Expand_The_Port_Said_Arsenal_desc: "Um den Kanal auch im Angesicht einer Belagerung noch offen halten zu können, benötigen wir Ausrüstungslager von beständiger Größe und die Möglichkeit, innerhalb der Zone selbst Munition herzustellen."
+
+ SUE_Found_The_Egyptian_Auxiliary_Corps: "Das ägyptische Hilfskorps"
+ SUE_Found_The_Egyptian_Auxiliary_Corps_desc: "Um sicherzustellen, dass die Ägypter unseren Kanal nicht beschädigen wollen, müssen wir dafür sorgen, dass auch ägyptische Leben von ihm abhängen. Deshalb sollten wir ägyptische Freiwillige in die internationale Gendarmerie aufnehmen und ihnen eine gerechte Behandlung und Bezahlung garantieren."
+
+ SUE_The_Frontline_Of_Imperialism: "Die Frontlinie des Imperialismus"
+ SUE_The_Frontline_Of_Imperialism_desc: "Nun, da die Pläne zur Verteidigung unseres Kanals vollständig in die Tat umgesetzt wurden, sollten wir Veteranen aus dem Westen anheuern, die uns als Berater dienen und einen gut ausgebildeten Kern unserer Garnison bilden können."
+
+### Characters ###
+ PAL_radwan_alhilu: "Radwan al-Hilu"
+ PAL_francois_charles_roux: "François Charles-Roux"
+ PAL_musa_alalami: "Musa Al-Alami"
+ PAL_awni_abd_alhadi: "Awni Abd al-Hadi"
+ PAL_mehmet_esat_bey: "Mehmet Esat Bey"
+ PAL_abraham_antebi: "Abraham Antébi"
+ PAL_abd_alqadir_alhusayni: "Abd al-Qadir al-Husayni"

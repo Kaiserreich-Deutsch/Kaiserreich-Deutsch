@@ -1,0 +1,1279 @@
+﻿l_german:
+### Übersetzt von Proho ###
+### Tooltips ###
+FRA_ongoing_phalanstere_development: "§YHilft bei der Entwicklung eines anderen Landes.§!"
+CSA_redeagles_tt: "Neue freiwillige Piloten und Flugzeuge werden eintreffen."
+FRA_tank_division_tooltip: "Drei £nato_unit_medium_armor_icon_small  §HMittlere Panzer§! Divisionen werden eingesetzt."
+
+ FRA_will_build_in_savoy_if_owned: "§Y[735.GetName]§! wird auch §Y1 $dam$§! erhalten, wenn im Besitz von §Y[ROOT.GetNameWithFlag]§!."
+ FRA_will_build_in_upper_savoy_if_owned: "§Y[943.GetName]§! wird auch §Y1 $dam$§! erhalten, wenn im Besitz von §Y[ROOT.GetNameWithFlag]§!."
+
+ INT_phalanstere: "Phalanstère Internationale"
+
+KR_phalanstere_tooltip: "[GetPhalanstereName]"
+KR_phalanstere_tooltip_desc: "§L$KR_phalanstere_desc$§!"
+
+KR_phalanstere_name_INT: "Führer des §H$INT_phalanstere$§!"
+KR_phalanstere_name: "Mitglieder of the des §H$INT_phalanstere$§!"
+
+KR_phalanstere_desc: "Die Phalanstère Internationale ist eine Organisation für wirtschaftliche Entwicklung und Zusammenarbeit zwischen den sozialistischen Staaten. Ziel der Phalanstère ist es, die Ressourcen zwischen den Mitgliedstaaten besser zu koordinieren, und sie verfügt über zahlreiche Förderprogramme zur Unterstützung der Industrialisierung in den weniger wohlhabenden Ländern."
+
+FRA_syndicalist_agitation: "Syndicalist Agitation: $VALUE|=-%0$"
+
+FRA_all_but_tunisia: "§HTschad§!, §HFranzösisch Sudan§!, §HGuinea§!, §HMauretanien§!, §HNiger§!, §HObervolta§!"
+FRA_all_but_mauritania: "§HTschad§!, §HFranzösisch Sudan§!, §HGuinea§!, §HNiger§!, §HTunesien§!, §HObervolta§!"
+FRA_all_but_senegal_guinea: "§HTschad§!, §HFranzösisch Sudan§!, §HMauretanien§!, §HNiger§!, §HTunesien§!, §HObervolta§!"
+FRA_all_but_sudan_volta: "§HTschad§!, §HGuinea§!, §HMauretanien§!, §HNiger§!, §HTunesien§!"
+FRA_all_but_chad_niger: "§HFranzösisch Sudan§!, §HGuinea§!, §HMauretanien§!, §HTunesien§!, §HObervolta§!"
+
+FRA_wave_of_dissent: "Welle der Unzufriedenheit"
+
+ is_controlled_by_INT_or_ally_tt: "wird von einem Mitglied der §YInternationale§! kontrolliert"
+
+ FRA_blocks_operation_eulen: "§G§Y[GER.GetNameWithFlag]§! behindert das Fortschreiten des Schwerpunktes§! §Y$GER_operation_eulen$§!.\n\n§RWenn §Y$GER_operation_eulen$§! gestartet wird, gehen die Boni verloren!§!"
+ FRA_failed_operation_eulen: "§LAufgrund des Erfolges der deutschen §Y$GER_operation_eulen$§! werden erhebliche Anstrengungen unternommen, um die katholischen Unruhen zu beruhigen, wodurch die potenzielle Wirkung dieser Initiative stark verringert wird.§!"
+
+### World Tension ###
+ FRA_rearmament_threat: "Französische Wiederaufrüstung"
+ FRA_attacks_germany_threat: "Frankreich greift Deutschland an"
+
+### Traits ###
+ FRA_atomic_pair: "Atomares Paar"
+
+### Companies ###
+ metallurgique_de_normandie: "Société Métallurgique de Normandie"
+ famh: "FAMH"
+ radiola: "Radiola"
+ rhone_poulenc: "Rhône-Poulenc"
+ manufacture_saint_etienne: "Manufacture d'armes de Saint-Étienne"
+ manufacture_bayonne: "Manufacture d'armes de Bayonne"
+ atelier_de_puteaux: "Atelier de Construction de Puteaux"
+ berliet: "Berliet"
+ de_dion_bouton: "De Dion-Bouton"
+ lorraine_dietrich: "Argenteuil-Lorraine"
+ somua: "SOMUA"
+ panhard: "Panhard"
+ breguet: "Breguet Aviation"
+ fouga: "Fouga"
+ kr_levasseur: "Levasseur"
+ morane_saulnier: "Morane Saulnier"
+ potez: "Potez"
+ ateliers_de_la_loire: "Ateliers et Chantiers de la Loire"
+ ateliers_de_saint_nazaire: "Ateliers et Chantiers de Saint-Nazaire Penhoët"
+ fcm: "FCM"
+
+### MIO Traits ###
+ FRA_mio_trait_automitrailleuses: "Automitrailleuses"
+ FRA_mio_trait_b1_bis_suspension: "B1 bis Suspension"
+ FRA_mio_trait_l_35: "L/35"
+
+### Ideas ###
+FRA_communard_spirit: "Kommunarder Geist"
+FRA_communard_spirit_desc: "Wir sind das Erbe der Pariser Kommune, des ersten sozialistischen Staates, der jemals geschaffen und dann von den republikanischen Reaktionären brutal unterdrückt wurde. Im Jahr 1920 rächten sich die Arbeiter schließlich und stürzten die Militärjunta der 'Partei der Ordnung'. Wir, Söhne und Töchter der Kommunarden, müssen unseren Staat und unseren Geist schützen, wir lassen uns nicht mehr von Tyrannen kommandieren!"
+
+FRA_to_war_idea: "Revanchistisches Aufrüsten"
+FRA_to_war_idea_desc: "Unsere Nation muss sich wieder erheben, wenn wir die Imperialisten besiegen wollen!"
+ 
+ FRA_renseignements_generaux_lar: "Renseignements Généraux (Zentraler Nachrichtendienst)"
+ FRA_renseignements_generaux_lar_desc: "Der Renseignements Généraux (Zentraler Nachrichtendienst) dienen als Augen und Ohren der Kommune und sammeln Informationen über nationale und internationale Bedrohungen unseres proletarischen Traums. Aber die Aufgabe der RG geht über die reine Sicherheit hinaus. Sie sind auch für die Förderung der Werte und Prinzipien unserer sozialistischen Revolution im In- und Ausland verantwortlich. Durch ihre nachrichtendienstlichen Erkenntnisse und Analysen tragen sie zur Gestaltung unserer Außenpolitik bei und sind die ersten, die bei unseren Bemühungen, die globalen Ketten des Kapitals zu durchbrechen, eingesetzt werden."
+
+FRA_economic_reforms_anar: "Ökonomische Reformen"
+FRA_economic_reforms_anar_desc: "Auf der Tagung der Allgemeinen Arbeitsvermittlung 1936 wurden weitreichende Ökonomische Reformen beschlossen. Diese Reformen haben sich bereits spürbar auf unsere Wirtschaft ausgewirkt und dazu beigetragen, sie dynamischer zu machen und zu festigen."
+
+FRA_economic_reforms_jaco: "Ökonomische Reformen"
+FRA_economic_reforms_jaco_desc: "Auf der Tagung der Allgemeinen Arbeitsvermittlung 1936 wurden weitreichende Ökonomische Reformen beschlossen. Diese Reformen haben sich bereits spürbar auf unsere Wirtschaft ausgewirkt und dazu beigetragen, sie dynamischer zu machen und zu festigen."
+
+FRA_economic_reforms: "Ökonomische Reformen"
+FRA_economic_reforms_desc: "Auf der Tagung der Allgemeinen Arbeitsvermittlung 1936 wurden weitreichende Ökonomische Reformen beschlossen. Diese Reformen haben sich bereits spürbar auf unsere Wirtschaft ausgewirkt und dazu beigetragen, sie dynamischer zu machen und zu festigen."
+
+FRA_military_buildup_two_idea: "Kalibrierte Wirtschaft"
+FRA_military_buildup_two_idea_desc: "Da sich die Welt langsam wieder dem Krieg nähert, können wir unsere gesunde Wirtschaft schnell nutzen, um Teile unserer Wirtschaft auf den militärischen Aufbau umzustellen. Es werden mehr Fabriken für die Bewaffnung unserer Soldaten und den Bau von militärischen Strukturen eingesetzt, ohne dass dies gravierende Auswirkungen auf unsere Bevölkerung hat."
+
+FRA_ruralism_idea: "Ländlicher Raum"
+FRA_ruralism_idea_desc: "Die weitreichenden Reformen unserer Industrie und Wirtschaft bedeuten, dass wir nicht länger massive Industriezentren haben, die bevölkerungsreiche Städte umgeben. Dies macht übrigens jeden Versuch feindlicher Kräfte, unsere Wirtschaft zu lähmen oder gar zu zerstören, umso schwieriger, da die größten ländlichen Industriezentren viel kleiner und viel zahlreicher sind als die großen Industriezentren Europas."
+
+ FRA_collective_properties_idea: "Kollektive Eigenschaften"
+ FRA_collective_properties_idea_desc: "Privateigentum ist mit der Freiheit des Einzelnen unvereinbar. Dies ist theoretisch ein Grundsatz, dem auch orthodoxe Syndikalisten zustimmen. Allerdings wurden die alten kapitalistischen Stadtplanungen und öffentlichen Normen jahrzehntelang weitgehend unverändert beibehalten, und es ist nun an der Zeit, dem ein Ende zu setzen. Mit der Förderung gemeinschaftlicher Lebensformen und der Zusammenlegung von Genossenschaften zu Gemeineigentum wird unsere Gesellschaft zwangsläufig gerechter und weniger verschwenderisch werden."
+
+FRA_mass_production_idea: "Massenproduktion"
+FRA_mass_production_idea_desc: "Fabriken hatten schon immer einen gravierenden Vorteil gegenüber dem Handwerker. Durch die Verkettung von Produktionsaufgaben können sie in einem kleinen Zeitrahmen unendlich viel mehr Produkt bei annähernd gleicher Qualität herstellen. Anstatt zu versuchen, diesen Prozess ständig neu zu erfinden, sollten wir ihn verbessern. Wir streben nach absoluter Effizienz in der Produktion, um die deutschen Kapitalisten zu schlagen."
+
+FRA_modern_farms_idea: "Moderne Bauernhöfe"
+FRA_modern_farms_idea_desc: "Bauernhöfe werden oft als ein altes, kurioses Detail der Volkswirtschaft angesehen, aber wir wissen es besser. Durch die Modernisierung und Mechanisierung der landwirtschaftlichen Flächen der Kommune können wir unsere landwirtschaftliche Produktion massiv steigern und die Ernte, Produktion, Veredelung und Auslieferung sowohl beschleunigen als auch optimieren. An unsere Mitbürger und an unsere Truppen."
+
+FRA_war_eco_agri_idea: "Krieg, Ökonomie und Agrarwirtschaft"
+FRA_war_eco_agri_idea_desc: "Das Konzept von "Krieg, Ökonomie und Agrarwirtschaft", das vom sorelianischen Wirtschaftsminister Jacques Doriot entwickelt wurde, ist interessant. Mit der Behauptung, ein Krieg mit Deutschland sei nicht nur unvermeidlich, sondern stehe kurz bevor, fordern die Soreler eine schnelle Umstellung auf eine Wirtschaft, deren Industrie nicht nur einen Krieg, sondern auch deren Landwirtschaft die Soldaten ernähren kann. Kurzum, eine Art totale Kriegswirtschaft."
+
+ FRA_technician_management_idea: "Techniker Management"
+ FRA_technician_management_idea_desc: "Zu lange hat man es den Gewerkschaften überlassen, die Wirtschaft ohne fachkundige Leitung ineffizient zu verwalten. Um dem wirtschaftlichen Chaos ein Ende zu setzen und eine rasche Modernisierung zu gewährleisten, werden Ingenieure, Wirtschaftswissenschaftler und andere Experten ermächtigt, die Entscheidungen der Gewerkschaften in Wirtschaftsfragen zu leiten und ein Veto einzulegen."
+
+FRA_dedication_idea: "Sinn für Einsatzbereitschaft"
+FRA_dedication_idea_desc: "Französische Arbeiter arbeiten für mehr als ihren Lohn, und sie arbeiten sicher nicht mit Waffengewalt. Jede Dose, die sie versiegeln, jeden Ziegelstein, den sie legen, jedes Gewehr, das sie montieren, jeden Panzer, den sie zusammenschweißen, ist ein Dienst an ihrem Land und am Geist der Kommune insgesamt."
+
+FRA_industrialization_idea: "Kommunale Industrialisierung"
+FRA_industrialization_idea_desc: "Die vom jakobinischen Wirtschaftsminister Barthélémy Montagnon eingeleitete Industrialisierung ist für niemanden in der Kommune oder im Ausland ein fremdes Konzept. Diese Politik zielt darauf ab, die industrielle Kapazität Frankreichs schnell zu erhöhen, um zu unserem Erzfeind Deutschland aufzuschließen. Dies wird begleitet von einer Arbeitskultur und der Schaffung von speziellen Fabrikstädten."
+
+FRA_mass_fire_support_idea: "Unterstützung für Massenfeuer"
+FRA_mass_fire_support_idea_desc: "Jeder Mann hat sein Gewehr und seine Granate, jede Gruppe hat ihr Maschinengewehr. Indem wir unsere Divisionen so organisieren, dass sie sich gegenseitig mit Feuer unterstützen, können wir eine weitere Ebene der Feuerunterstützung schaffen. Jedes Mal, wenn eine Division vorrückt, unterdrücken die anderen Divisionen den Feind. Indem wir dies in Wellen tun, können wir schnell an Boden gewinnen. Nun zur Versorgung mit der benötigten Ausrüstung."
+
+FRA_mass_motorisation_idea: "Massive Motorisierung"
+FRA_mass_motorisation_idea_desc: "Die Motorisierung ermöglicht es unseren Streitkräften, sich schnell dorthin zu bewegen, wo sie am meisten gebraucht werden, unsere Feinde auszumanövrieren und dort anzugreifen, wo sie am schwächsten sind. Sie verringert auch die körperliche Belastung durch langes Marschieren und verbessert die allgemeine Moral unserer Kameraden im Feld. Daher müssen wir in die notwendigen Mittel investieren, um sicherzustellen, dass unsere Armeen voll motorisiert und damit immer mächtiger und schneller in der Verteidigung - und Verbreitung - der Revolution sind."
+
+FRA_empower_rifleman_idea: "Befähigen Sie den Schützen"
+FRA_empower_rifleman_idea_desc: "Der Schütze ist mehr als ein Soldat mit einem Gewehr. Zu lange wurde er von monarchistischen Offizieren als unfähig zu höherem Denken als dem Abfeuern seines Gewehrs angesehen, die den arbeitenden Menschen mit Verachtung betrachten. Wir werden diesen Fehler nicht begehen, der Schütze soll die Taktik vor Ort bestimmen und so seine Effizienz auf dem Schlachtfeld erhöhen."
+
+FRA_military_academy_idea: "Militär-Akademie"
+FRA_military_academy_idea_desc: "Wir müssen der harten Realität ins Auge sehen, dass der Große Krieg zum Niedergang der meisten unserer angesehenen, wenn auch reaktionären Militärakademien geführt hat. Während einige behaupten, dies sei ein akzeptabler Status quo, wissen wir es besser. Lassen Sie uns in neue Militärakademien investieren, um qualifizierte Offiziere für die Zukunft der Kommunalen Armee auszubilden."
+
+FRA_centralized_hc_idea: "Zentrales Oberkommando"
+FRA_centralized_hc_idea_desc: "Die neue kommunale Armee wurde nicht wie die alte französische Armee aufgebaut, viele Kommunarden ärgerten sich über die Militärverwaltung, die versuchte, die Kommune zu ersticken, aber wir können unser Offizierskorps nicht zerrüttet lassen. Lassen Sie uns unser Oberkommando wieder zentralisieren, um Dinge besser zu organisieren, die manche gerne vergessen, wie die Logistik."
+
+FRA_tank_quality_line_idea: "Qualität Tankproduktion"
+FRA_tank_quality_line_idea_desc: "Was nützt ein Panzer, wenn er nicht so gut ist wie die gegnerischen Panzer? Wir sollten nicht auf Qualität zugunsten von Quantität verzichten, das führt nur zu mehr brennenden Wracks auf dem Schlachtfeld. Qualitätspanzer, auch wenn sie zahlenmäßig weniger sind, werden ein Vielfaches ihrer Anzahl einnehmen, was sie zu einem sicheren Rentabilität der Investition macht."
+
+FRA_tank_assembly_line_idea: "Panzer-Montagelinie"
+FRA_tank_assembly_line_idea_desc: "Was nützt ein Panzer, wenn die Feinde viele weitere gegen uns werfen können? Wir können nicht zulassen, dass Perfektionisten unsere Fließbänder für minimale Gewinne sabotieren, sonst sind wir in der Unterzahl. Quantität wird es uns ermöglichen, unsere Feinde mit ganzen Divisionen aus kaltem, hartem Stahl zu überwältigen, und viel mehr Granaten schlagen auf sie ein."
+
+FRA_fast_army_idea: "Geschwindigkeits-Kult"
+FRA_fast_army_idea_desc: "Geschwindigkeit ist mehr als ein kleiner Vorteil oder eine Möglichkeit, schneller zum nächsten Punkt zu gelangen. Geschwindigkeit ist ein wesentlicher Bestandteil der Kriegsführung. Diejenigen, die glauben, dass der nächste Krieg in Schützengräben ausgetragen wird, machen sich bestenfalls etwas vor, denn die Zukunft gehört der mobilen Kriegsführung. Wir müssen aus schnellen, motorisierten Divisionen, wenn nicht gar aus einer motorisierten Armee, Kapital schlagen."
+
+FRA_Red_Army: "Große Rote Armee"
+FRA_Red_Army_desc: "Unsere Armee ist besser denn je in der Lage, sich den Übeln dieser kapitalistischen Welt zu stellen."
+
+FRA_working_women_idea: "Berufstätige Frauen"
+FRA_working_women_idea_desc: "Zu lange wurden die Frauen von reaktionären Denkern unterdrückt. Selbst unter der französischen Republik haben sie selbstlos die Nation unterstützt, während unsere Brüder zur Schlachtbank geschickt wurden. Es ist an der Zeit, dass wir ihren Beitrag zur Gesellschaft anerkennen und die Rechte der arbeitenden Frau in Frieden und Krieg formalisieren."
+
+FRA_bhartiya_support: "Französische Militärunterstützung"
+FRA_bhartiya_support_desc: "Wir erhalten militärische Unterstützung von unseren französischen Verbündeten. Diese selbstlose Hilfe wird sich als entscheidend erweisen, um die reaktionäre Fürstliche Föderation und das imperialistische Dominion von Indien zu besiegen. Mit der Zeit hoffen wir, Frankreich die Hilfe zurückzahlen zu können, aber im Moment müssen wir uns auf die anstehende Aufgabe konzentrieren."
+
+FRA_amenagement_idea: "Verwaltung des Territoriums"
+FRA_amenagement_idea_desc: "Frankreich ist historisch gesehen ein sehr zentralisiertes Land, was bedeutet, dass die meiste Entwicklung auf Industriestädte und Bevölkerungszentren beschränkt war. Wir haben große Projekte finanziert, um sicherzustellen, dass alle Teile unseres Territoriums in zufriedenstellender Weise entwickelt werden."
+
+FRA_plan_prost_idea: "Plan Prost"
+FRA_plan_prost_idea_desc: "Henri Prosts Pläne für Autobahnen, die die Pariser Vororte miteinander verbinden sollen, haben im ganzen Land Anklang gefunden. Viele andere Gemeinden wie Lyon oder Marseille haben sich dem Plan ebenfalls angeschlossen, und es werden bereits Projekte für ein großes Autobahnnetz gezeichnet, das alle großen Städte Frankreichs miteinander verbindet, von Lille bis Toulouse."
+
+FRA_paramilitary_gendarmes: "Paramilitärische Gendarmerie"
+FRA_paramilitary_gendarmes_desc: "Die Gendarmerie ist eine gute Organisation, eine paramilitärische Polizeitruppe, die sowohl zivile als auch militärische Aktivitäten durchführen kann. Während viele darauf gedrängt haben, sie komplett aufzulösen, werden wir stattdessen ihre Aktivitäten ausweiten, um sie zu einer parallelen Kraft zur französischen Gemeindepolizei zu machen."
+
+FRA_secret_police: "Geheimpolizei"
+FRA_secret_police_desc: "Es gibt immer noch viele Feinde der Kommune innerhalb der Kommune, manchmal sogar innerhalb von Machtpositionen oder innerhalb des Militärs. Dieses Drängen auf Transparenz ist gefährlich, wir müssen stattdessen geheime Polizeieinsätze organisieren, um die Sicherheit des französischen Volkes vor internen Einflüssen zu gewährleisten."
+
+FRA_demo_surete: "Demokratische Sicherheit des Volkes"
+FRA_demo_surete_desc: "Wir können nicht zulassen, dass Paranoia zur Zerstörung des feinen Gleichgewichts führt, das wir mit der Sicherheit des Volkes erreicht haben. Indem wir die Organisation demokratisieren, werden wir sicherstellen, dass die Franzosen die Polizei nicht aus Angst respektieren, sondern weil sie ihre Handlungen und Ziele verstehen und wissen, dass sie in erster Linie ihnen dient."
+
+FRA_hawkish_renseignements: "Revolutionäre Informationen"
+FRA_hawkish_renseignements_desc: "Die Allgemeine Informationen müssen unsere Sicherheit vor reaktionären Feinden im Ausland gewährleisten. Einfache Gegenspionage ist nicht ausreichend, wir müssen bereit sein, feindliche Länder auszuspionieren und sozialistische Bewegungen in der ganzen Welt zu unterstützen. Eine gute Offensive ist die beste Verteidigung."
+
+FRA_peace_renseignements: "Schützende Informationen"
+FRA_peace_renseignements_desc: "Die Allgemeine Informationen müssen vor allem die Sicherheit unseres Landes gewährleisten. Die Spionageabwehr ist das Kernstück einer effektiven Landesverteidigung. Es gibt viele Feinde, die auf einen Moment der Schwäche warten, um unsere Bevölkerung zu beeinflussen und aufzuwiegeln."
+
+FRA_peaceful_revolution_idea: "Friedliche Revolution"
+FRA_peaceful_revolution_idea_desc: "Die internationale sozialistische Revolution wird kommen, aber sie wird zivilisiert sein. Nachdem die reaktionären Hauptmächte in Europa endlich zerschlagen und ihre Arbeiter befreit sind, wollen wir weitere Aufstände ermutigen, indem wir lediglich die Überlegenheit des Syndikalismus in der ganzen Welt beweisen."
+
+FRA_amateur_pilots_idea: "Amateur Piloten"
+FRA_amateur_pilots_idea_desc: "Es gibt viele in unserem Land, die die Fliegerei als Hobby oder als Berufung ergriffen haben, aber nicht alle von ihnen verfolgen eine Karriere in der Luftwaffe. Sie sollten vorzugsweise zu unserer Luftwaffe eingezogen werden, wo ihre Fähigkeiten unsere Chancen erhöhen, die neuen Asse der Lüfte zu finden."
+
+FRA_ecole_air_idea: "Flugschule"
+FRA_ecole_air_idea_desc: "Fliegen ist eine Kunst für sich, und gut unter Kampfbedingungen zu fliegen, kann man nicht einfach über Nacht lernen. Wir werden die Fehler des Ersten Weltkriegs nicht wiederholen, als viele Anfänger abgeschlachtet wurden. Wir brauchen eine große Zahl gut ausgebildeter Piloten und kompetente Offiziere, die sie führen."
+
+FRA_waves_of_syndicalism_idea: "Wellen des Syndikalismus"
+FRA_waves_of_syndicalism_idea_desc: "Die Marine der Kommune ist mächtig, und ihre Reichweite ist so groß, wie wir sie uns wünschen. Auch wenn uns die zahlreichen, weltweiten Häfen des alten französischen Reiches fehlen mögen, so streben wir doch eine Marine an, die jederzeit in jede Ecke der Welt eingreifen kann."
+
+FRA_cut_off_capitalists_idea: "Den Kapitalisten den Weg abschneiden"
+FRA_cut_off_capitalists_idea_desc: "Die Kapitalisten sind immer noch stolz auf ihre kolonialen Territorien. Die Früchte ihrer Plünderungen fließen immer noch frei über die hohe See. Aber wenn wir ein Wörtchen mitzureden haben, werden wir dafür sorgen, dass das gestohlene Eigentum der afrikanischen, asiatischen und amerikanischen Arbeiter sie nicht bereichern wird."
+
+ FRA_revolutionary_spirit: "Revolutionäre Stimmung"
+ FRA_revolutionary_spirit_desc: "Das Überleben und Gedeihen der sozialistischen Welt wird nur dann gesichert sein, wenn die letzte reaktionäre Bastion beseitigt ist. Wir müssen bereit sein, zu mobilisieren und jede reaktionäre Regierung auf der ganzen Welt zu zerschlagen. Eines Tages wird sich die Internationale über alle Meere und Kontinente erstrecken!"
+
+FRA_socialist_education_idea: "Sozialistische Bildung"
+FRA_socialist_education_idea_desc: "Die Bildung der Jugend ist eines der größten Ziele, die ein Land wie die Kommune angehen kann. Glücklicherweise war das alte Bildungssystem der Republik bereits revolutionär für seine Zeit und gibt uns eine gute Grundlage für das neue. Ein sozialistisches Bildungssystem, das sich auf die Wissenschaften und Künste konzentriert."
+
+COF_prodcsaplanes: "Herstellung von Flugzeugen für die CSA"
+
+FRA_avantgarde_idea: "Internationale Avant-Garde"
+FRA_avantgarde_idea_desc: "Ein einheitlicher sozialistischer Kunststil, von der Kunst bis zur Musik, könnte ein mächtiges Werkzeug sein, das den Massen in der nicht-syndikalistischen Welt helfen wird, sich für unsere Ideale zu interessieren - durch Unterhaltung."
+
+ FRA_efficient_industry_idea: "Effiziente Industrie"
+ FRA_principe_de_concentration_idea: "Prinzip der Konzentration"
+
+### Parties ###
+FRA_totalist_party: "CNS/PSdF"
+ FRA_totalist_party_long: "Confédération Nationale-Syndicaliste/Parti Socialiste de France (Nationaler-Syndikalistischer Gewerkschaftsbund/Sozialistische Partei Frankreichs)"
+
+ FRA_syndicalist_party: "CSR"
+ FRA_syndicalist_party_long: "Comités Syndicalistes Révolutionnaires (Komitees Syndikalistische Revolutionäre)"
+
+ FRA_radical_socialist_party: "AFA"
+ FRA_radical_socialist_party_long: "Association des Fédéralistes Anarchistes (Vereinigung der föderalistischen Anarchisten)"
+
+ FRA_social_democrat_party: "LJR"
+ FRA_social_democrat_party_long: "Ligue de la Jeune République (Liga der Jungen Republik)"
+
+ FRA_social_liberal_party: "FSR"
+ FRA_social_liberal_party_long: "Fédération Socialiste Républicaine (Föderation der Sozialistischen Republikaner)"
+
+ FRA_market_liberal_party: "FNC"
+ FRA_market_liberal_party_long: "Fédération Nationale des Contribuables (Föderation der Nationalen Steuerzahler)"
+
+ FRA_social_conservative_party: "FCF"
+ FRA_social_conservative_party_long: "Fédération des Chrétiens de France (Föderation der Christen in Frankreich)"
+
+ FRA_authoritarian_democrat_party: "FP"
+ FRA_authoritarian_democrat_party_long: "Front Paysan (Bauernfront)"
+
+ FRA_paternal_autocrat_party: "OSARN"
+ FRA_paternal_autocrat_party_long: "Organisation Secrète d'Action de Restoration Nationale (Geheime Aktionsorganisation zur nationalen Wiederherstellung)"
+
+ FRA_national_populist_party: "OSARN"
+ FRA_national_populist_party_long: "Organisation Secrète d'Action de Restoration Nationale (Geheime Aktionsorganisation zur nationalen Wiederherstellung)"
+
+ FRA_sorelians: "CNS"
+ FRA_sorelians_long: "Confédération Nationale-Syndicaliste (Konföderation Nationaler Syndikalisten)"
+ FRA_jacobins: "PSdF"
+ FRA_jacobins_long: "Parti Socialiste de France (Sozialistische Partei Frankreichs)"
+ FRA_parti_unique: "USR"
+ FRA_parti_unique_long: "Union Socialiste Républicaine (Sozialistische Republikanische Union)"
+ 
+### Flags ###
+ECO_SORE: "Sorelianer Wirtschaftspolitik"
+ECO_JACO: "Jakobiner Wirtschaftspolitik"
+ECO_ANAR: "Anarchistische Wirtschaftspolitik"
+ECO_TRAV: "Orthodoxe Wirtschaftspolitik"
+ARMY_SORE: "Sorelianische Militärpolitik"
+ARMY_JACO: "Jakobinische Militärpolitik"
+ARMY_ANAR: "Anarchistische Militärpolitik"
+ARMY_TRAV: "Orthodoxe Militärpolitik"
+FRA2_FOR_TRAV: "1941 Wahlen: Orthodoxe Außenpolitik"
+FRA2_FOR_ANAR: "1941 Wahlen: Anarchistische Außenpolitik"
+FRA2_FOR_JACO: "1941 Wahlen: Jakobinische Außenpolitik"
+FRA2_FOR_SORE: "1941 Wahlen: Sorelianische Außenpolitik"
+FRA_damocles_refused: "Großbritannien lehnte das Damoklesprojekt ab."
+FRA_support_bharatiya: "Hat einem Militäreinsatz in der Bharatiya-Kommune zugestimmt."
+FRA_created_phalanstere: "§HKommune Frankreich§!: Hat den Schwerpunkt abgeschlossen §H$FRA_Phalanstere_internationale$§!"
+
+### Techs ###
+phalanstere_research_name: "Phalansteriesche Internationale"
+phalanstere_research_desc: "Auf der Tagung der Internationale beschlossen wir die Aufstellung eines weltweiten Plans zur Bündelung der Anstrengungen und des technischen Fortschritts der sozialistischen Nationen. Dieser Plan hat sich seitdem zu einem ehrgeizigeren Plan, der Phalanstère International, entwickelt, der darauf abzielt, sozialistische Regime in der ganzen Welt zu unterstützen."
+
+FRA_tech_marine_bonus: "Colonnes de Neptune"
+
+### Focuses ###
+commune_of_france_focus: "Schwerpunktbaum von Kommune Frankreichs"
+
+FRA_amenagement: "Regionale Planung"
+FRA_amenagement_desc: "Unser Territorium ist riesig und ungleich entwickelt, einige ländliche Regionen wurden zurückgelassen, während andere florieren und mit spektakulären Raten wachsen. Wir müssen lokale Initiativen fördern und ehrgeizige Infrastrukturprojekte in Betracht ziehen, um dieses Problem auf lokaler und nationaler Ebene zu lösen."
+FRA_hydroelectricity: "Wasserkraft"
+FRA_hydroelectricity_desc: "Unsere Gebirgsregionen in den Alpes und im Zentralmassiv verfügen über eine Vielzahl von Flüssen mit hohem Durchfluss, eine perfekte Umgebung, um eine saubere und dauerhafte Energiequelle zu installieren und die rückständigen, ländlichen Bergregionen der Kommune zu beleben."
+ FRA_improve_the_electrical_network: "Verbesserung des Stromnetzes"
+ FRA_improve_the_electrical_network_desc: "Dank der jüngsten Erfolge beim Ausbau der Stromerzeugung aus Wasserkraft können wir nun billigeren Strom nutzen, um unsere industrielle Leistungsfähigkeit weiter zu steigern. Die Renovierung der Stromnetze, um eine gute Verteilung dieses neu gewonnenen Überschusses zu gewährleisten, ist ein perfekter erster Schritt."
+FRA_swiss_hydroelectricity: "Schweizer Wasserkraft"
+FRA_swiss_hydroelectricity_desc: "Unsere kürzliche Eroberung der Romandie hat uns einige perfekte Stellen für die Wasserkraft als Erweiterung unseres bestehenden Netzes in den Alpen eröffnet. Unsere führenden Ingenieure sind sich sicher, dass der Ausbau unserer Dämme in der Region von großem Nutzen für unsere Wirtschaft wäre."
+FRA_chemins_de_fer: "Eisenbahnamt"
+FRA_chemins_de_fer_desc: "Eine Kongress-Sitzung über den Zustand der Infrastruktur Frankreichs auf dem BGT zeigte die Desorganisation unseres Eisenbahnsystems und wie rückständig es geworden ist. Der Kongress einigte sich auf die Notwendigkeit, ein neues Amt zu schaffen, das speziell mit der Entwicklung und Instandhaltung unserer Eisenbahnen beauftragt wird, um alle Teile Frankreichs miteinander zu verbinden."
+FRA_mining_expansion: "Erweiterung des Bergbaus"
+FRA_mining_expansion_desc: "Die wirtschaftliche und infrastrukturelle Entwicklung der Regionen der Alpen und des Zentralmassivs ermöglicht eine stärkere Ausbeutung der dort vorhandenen Bodenschätze. Unsere Prospektoren haben neue Mineralienvorkommen entdeckt und wir sind nun bereit, diese im industriellen Maßstab auszubeuten!"
+FRA_plan_prost: "Plan Prost"
+FRA_plan_prost_desc: "Der Ingenieur und Urbanist Henri Prost hat den Plan, Autobahnen rund um die Pariser Region zu entwickeln, um die Vororte miteinander zu verbinden. Diese Idee findet breite Unterstützung und die BGT beschließt, neue Projekte zum Ausbau von Autobahnen durch die Kommune zu finanzieren. Auch die Kommunen Marseille und Lyon bitten ihn, Autobahnpläne für ihre Städte zu entwerfen."
+FRA_autoroutes: "Die Autobahnen"
+FRA_autoroutes_desc: "Die Autobahnen haben sich als massiver Segen für die Wirtschaft und die Mobilität der Arbeiter in den städtischen Regionen erwiesen, jetzt wurde ein ehrgeiziger Plan vorgelegt, sie auf das ganze Land auszuweiten! Jede Ecke unseres Landes zu verbinden, wird einen massiven Einfluss auf unsere regionale Entwicklung haben und kann der Revolution nur nützen."
+
+FRA_eco_direction: "Richtung der Wirtschaft"
+FRA_eco_direction_desc: "Unsere Wirtschaft ist gerechter für die Arbeiter und im Allgemeinen ziemlich potent, während reaktionäre Wirtschaften von den Launen der Kapitalisten leben und zugrunde gehen, aber interne Konflikte haben uns daran gehindert, unsere Wirtschaft zu steuern. Es ist an der Zeit, eine Versammlung des BGT einzuberufen, damit diese Fragen ein für alle Mal von einer Fraktion der Kommune geklärt werden."
+FRA_orth_syndicalism: "Orthodoxer Syndikalismus"
+FRA_orth_syndicalism_desc: "Der seit der Revolution eingeschlagene Kurs wurde bekräftigt. Diese orthodoxe Haltung hat sich bewährt und kann mit ein wenig Feinschliff noch besser werden."
+FRA_reduce_unemploy: "Abbau der Arbeitslosigkeit"
+FRA_reduce_unemploy_desc: "Jenseits des Rheins ist die Arbeitslosigkeit so hoch wie nie zuvor, wir müssen dafür sorgen, dass der französische Arbeiter immer einen Arbeitsplatz hat, um seine Familie zu ernähren. In dieser einfachen Aufgabe, unser Volk mit den Früchten seines Lebensunterhalts zu versorgen, beweisen wir unsere innewohnende Überlegenheit gegenüber den kapitalistischen Volkswirtschaften und ihren ständigen Krisen."
+FRA_work_design_coop: "Zusammenarbeit zwischen Arbeiter und Projektanten"
+FRA_work_design_coop_desc: "Indem wir die Zusammenarbeit zwischen den Wissenschaftlern und Ingenieuren, die hinter den Designs und Konzepten stehen, und den Arbeitern, die sie tatsächlich bauen, verstärken, werden wir unsere Produktionstechniken schnell verbessern. Dies ermöglicht uns auch, unsere Belegschaft schnell für neue Techniken zu schulen und auszubilden, indem wir die Projektanten die Arbeiter direkt darüber unterrichten lassen."
+FRA_improve_manage: "Verbessern Sie die Verwaltung von Gewerkschaften"
+FRA_improve_manage_desc: "Die Gewerkschaften haben lange Zeit die Wirtschaft gelenkt, aber sie haben einige Lücken und Schlupflöcher in ihren Regeln, die ausgenutzt werden können, was zu katastrophalen Ergebnissen für unsere Wirtschaft führt. Wir werden jedoch den Platz der Gewerkschaften in unserem Land nicht in Frage stellen. Stattdessen werden wir das Management straffen und einige Arbeitsvorschriften neu schreiben."
+FRA_dedication: "Sinn für Einsatzbereitschaft"
+FRA_dedication_desc: "Der Arbeiter muss sich bewusst sein, dass er für das größere Wohl der Kommune und des französischen Volkes als Ganzes arbeitet. Er muss sich zu jeder Zeit in seine Arbeit eingebunden fühlen, und auf diese Weise werden wir unseren nationalen Geist und unsere Produktivität verbessern. Wir brauchen weder Peitschen noch unterdrückerische Unternehmer."
+FRA_fac_towns: "Fabrik Städte"
+FRA_fac_towns_desc: "Unser Plan, die industrielle Basis der Kommune schnell zu erweitern, kann durch die Errichtung neuer Fabrikstädte unterstützt werden, Städte, die speziell dafür entworfen wurden, ihnen und ihren Familien Wohnraum und moderne Gebrauchsgegenstände zur Verfügung zu stellen und gleichzeitig dafür zu sorgen, dass sie in der Nähe ihrer Arbeitsstätten wohnen."
+FRA_Industrialisation: "Industrielle Stadtentwicklung"
+FRA_Industrialisation_desc: "Barthélémy Montagnon ist der neue Wirtschaftsminister der Kommune. Als Jakobiner ist er ein Verfechter der kommunalen Industrialisierung. Obwohl unser Land schon immer zu den modernen Volkswirtschaften Europas gehörte, können wir uns noch nicht mit dem Ruhrgebiet vergleichen. Nur durch einen ehrgeizigen Ausbau der industriellen Basis können wir hoffen, uns mit Deutschland zu messen."
+ FRA_technician_management: "Techniker Management"
+ FRA_technician_management_desc: "Zu lange hat man es den Gewerkschaften überlassen, die Wirtschaft ohne fachkundige Leitung ineffizient zu verwalten. Um dem wirtschaftlichen Chaos ein Ende zu setzen und eine rasche Modernisierung zu gewährleisten, werden Ingenieure, Wirtschaftswissenschaftler und andere Experten ermächtigt, die Entscheidungen der Gewerkschaften in Wirtschaftsfragen zu leiten und ein Veto einzulegen."
+FRA_war_eco_agri: "Kriegsökonomie und Landwirtschaft"
+FRA_war_eco_agri_desc: "Jacques Doriot ist der neue Wirtschaftsminister der Kommune. Als Sorelianer ist er ein Verfechter seiner Theorie "Krieg, Ökonomie und Agrarwirtschaft", die eine rasche Umstellung auf eine Kriegswirtschaft zusammen mit einer ehrgeizigen Entwicklung der Landwirtschaft fordert. Sollten die deutschen Reaktionäre angreifen, werden wir sicherlich eine Verwendung für die Gewehre und das Brot haben."
+FRA_modern_farms: "Moderne Bauernhöfe"
+FRA_modern_farms_desc: "Die Landwirtschaft ist seit der Antike ein Grundnahrungsmittel der Zivilisation, und doch hat sie sich in nur einem Jahrhundert tiefgreifend verändert. Neueste Werkzeuge wie Traktoren ermöglichen es einem einzelnen Landwirt, an einem einzigen Tag Felder zu ernten, für die früher Dutzende von Landwirten und eine Woche nötig gewesen wären. Lassen Sie uns unsere Bauernhöfe mechanisieren, um mehr Essen auf unsere Teller und in unsere Vorräte zu bringen."
+FRA_war_industry: "Eine Kriegsindustrie"
+FRA_war_industry_desc: "Trotz steigender Feindseligkeit aus Deutschland ist unsere Wirtschaft immer noch größtenteils auf die Produktion von zivilen Gütern ausgerichtet und nicht für einen großen Krieg geeignet. Wir müssen unsere Produktion von Waffen und Ausrüstung entwickeln, wenn wir die Kommune effizient gegen äußere Bedrohungen verteidigen wollen."
+FRA_mass_production: "Massenproduktion"
+FRA_mass_production_desc: "Unsere Feinde sind zahlreich, und unsere Armee ist demzufolge ziemlich groß. Diese Armee braucht eine Menge Ausrüstung, und das belastet natürlich unsere Fabriken. Wir müssen nach neuen Wegen suchen, um unsere Produktion von Kleinwaffen sowohl in der Konstruktion als auch in der Fertigung zu verbessern, ohne dabei Abstriche zu machen."
+ FRA_self_management: "Arbeiter-Selbstverwaltung"
+ FRA_self_management_desc: "Daniel Guérin ist der neue Wirtschaftsminister der Kommune. Der Anarchist ist ein Befürworter einer stärkeren Selbstverwaltung der Arbeiterklasse und wird neue Maßnahmen zur Bekämpfung der Bürokratisierung in den Gewerkschaften umsetzen."
+FRA_decentralized_industry: "Dezentrale Industrie"
+FRA_decentralized_industry_desc: "Unsere Industrie konzentriert sich derzeit um Paris und die großen Gemeinden, aber die Menschen leben nicht nur in Paris, Lille oder Lyon, sondern überall in Frankreich. Wir müssen alle Anstrengungen unternehmen, um alle Regionen Frankreichs zu entwickeln, damit unser ganzes Land gedeiht."
+ FRA_collective_properties: "Kollektive Eigenschaften"
+ FRA_collective_properties_desc: "Privateigentum ist mit der Freiheit des Einzelnen unvereinbar. Dies ist theoretisch ein Grundsatz, dem auch orthodoxe Syndikalisten zustimmen. Allerdings wurden die alten kapitalistischen Stadtplanungen und öffentlichen Normen jahrzehntelang weitgehend unverändert beibehalten, und es ist nun an der Zeit, dem ein Ende zu setzen. Mit der Förderung gemeinschaftlicher Lebensformen und der Zusammenlegung von Genossenschaften zu Gemeineigentum wird unsere Gesellschaft zwangsläufig gerechter und weniger verschwenderisch werden."
+FRA_ruralism: "Ländlicher Raum"
+FRA_ruralism_desc: "Das Leben des Bauern ist das beste Leben, das dem Menschen bekannt ist, aber die Notwendigkeit einer industriellen Wirtschaft machte dieses Leben für den Großteil des französischen Volkes unmöglich. Wir können diesen Lebensstil jedoch immer noch fördern, indem wir ihre Fabriken und Arbeitsplätze auf das Land bringen und die Tyrannei der Massenurbanisierung beenden."
+
+FRA_communal_army: "Die Kommunalarmee"
+FRA_communal_army_desc: "Die französische Nation hat eine Armee, aber es ist eine Armee, die noch keine einheitliche Richtung hat. Einige schlagen immer noch dieselbe Armee aus dem Ersten Weltkrieg mit einem Oberkommando vor. Andere wollen mehr Initiative für Unteroffiziere. Wieder andere wünschen sich eine motorisierte und mobile Armee. Schließlich gibt es noch die Idee der massiven Motorisierung. Sobald wir die Militärgewerkschaften auflösen, müssen wir mit einer einheitlichen Vision folgen."
+FRA_principe_concentration: "Prinzip der Konzentration"
+FRA_principe_concentration_desc: "Wie das bürgerliche Gemetzel des Ersten Weltkriegs gezeigt hat, ist nichts damit zu gewinnen, dass wir unsere Truppen gleichmäßig über die gesamte Front verteilen und nur Meter einnehmen, die wir am nächsten Tag durch Artilleriebeschuss verlieren. Indem wir lokale Durchbrüche erzielen und in sie investieren, können wir die gesamte feindliche Front mit einigen guten Schlachten buchstäblich zerschlagen."
+FRA_tank_research: "Panzer-Forschungszuschüsse"
+FRA_tank_research_desc: "Panzer sind nicht neu für uns, noch für die Welt, aber sie sind immer noch eine relativ neue Komponente der Kriegsführung. In der Zwischenkriegszeit gab es rasante Verbesserungen im Panzerbau, und es scheint, dass sich das wahre Potenzial der Panzerung langsam offenbart. Lassen Sie uns großzügig in die Zukunft der Kriegsführung investieren."
+FRA_fast_army: "Geschwindigkeits-Kult"
+FRA_fast_army_desc: "Die Motorisierung ist mehr als nur die Zukunft der Kavallerie. Während der durchschnittliche Lastwagen unter feindlichem Feuer nicht lange durchhält, erlaubt er uns, unsere Truppen in unglaublichen Zeiten an die vordersten Frontlinien zu bringen. Wir müssen Geschwindigkeit zum Ziel all unserer Taktiken, all unserer Ausbildung, all unserer Ausrüstung machen. Schnelligkeit ist eine Chance."
+FRA_tank_assembly_line: "Panzer-Montagelinien"
+FRA_tank_assembly_line_desc: "Panzer sind eine furchterregende Maschine auf dem Schlachtfeld, aber sie sind sehr aufwendig zu bauen. Durch die Schaffung grundlegender Qualitätsstandards können wir die Produktion von Panzern beschleunigen und unsere Panzer zu großen Panzerdivisionen ausrüsten, die auf den Feind niederprasseln werden wie ein Felsbrocken."
+FRA_tank_quality_line: "Qualität Fertigung"
+FRA_tank_quality_line_desc: "Panzer sind eine furchteinflößende Waffe auf dem Schlachtfeld, aber sie sind sehr aufwendig zu bauen. Wenn wir trotzdem auf Qualität setzen, sorgen wir dafür, dass unsere Panzer die Besten der Besten sind. So wird jeder Panzer, den wir produzieren, mit Leichtigkeit die Blechdosen zerquetschen, die unser Feind verzweifelt gegen uns aufstellt."
+FRA_centralized_hc: "Zentrales Oberkommando"
+FRA_centralized_hc_desc: "Wir sind uns bewusst, dass die unappetitlichen Ereignisse des Jahres 1919 in der Bevölkerung ein tiefes Misstrauen gegenüber dem militärischen Oberkommando hervorgerufen haben. Trotzdem werden wir das Konzept des Oberkommandos rehabilitieren müssen. Die Vorstellung, dass der Truppführer über die Kampftaktik entscheidet, ist glamourös, aber wer kümmert sich um die Logistik und die strategischen Manöver?"
+FRA_analysing_wki: "Analyse des Weltkriegs"
+FRA_analysing_wki_desc: "Der Große Krieg, eine Tragödie für uns und unsere britischen Kameraden, ist ein schmerzhaftes Thema, mit dem wir uns beschäftigen müssen, aber es ist eines, das wir trotzdem studieren müssen. Aus den Erfolgen und Misserfolgen dieses Krieges werden wir lernen, wie der nächste geführt werden muss. Diejenigen, die glauben, dass neue Taktiken und Strategien aus dem Nichts auftauchen werden, wenn der Konflikt näher rückt, machen sich etwas vor."
+FRA_war_experience: "Kriegserfahrung"
+FRA_war_experience_desc: "Die französischen Streitkräfte haben viele Kriege geführt, und sie werden noch viele weitere führen. Jedes Mal müssen wir innehalten und über diese Konflikte nachdenken und eine möglichst gründliche Analyse vornehmen, um herauszufinden, wo unsere Pläne richtig oder falsch gelaufen sind. Nur weil sie nicht unter der Flagge der Kommune gekämpft haben, heißt das nicht, dass sie umsonst gestorben sind."
+FRA_military_academy: "Militär-Akademie"
+FRA_military_academy_desc: "Krieg ist ein komplexes Thema, eines, das studiert werden muss, um vollständig verstanden zu werden. Während wir viele Talente während des Bürgerkriegs 1919 gefunden haben, müssen wir die vorbereitenden Schritte zur Ausbildung neuer Offiziere unternehmen. Wir können auch unsere gesamte Doktrin studieren und die Ausbildung unseres Offizierskorps auf diese Weise erneuern."
+FRA_officers_initiative: "Offiziers-Initiative"
+FRA_officers_initiative_desc: "Wie oft wurden während des Ersten Weltkriegs Durchbrüche erzielt, die nicht genutzt wurden, weil die Offiziere nicht reagierten? Wir müssen dafür sorgen, dass sich so etwas nicht wiederholt. Jedes Regiment sollte in der Lage sein, unabhängig zu handeln, Pläne zu erstellen und diese nach eigenem Ermessen umzusetzen. Das ist die Realität der modernen Kriegsführung, die napoleonischen Kolonnen sind Geschichte."
+FRA_mission_type: "Missionstypische Taktik"
+FRA_mission_type_desc: "Unsere Pläne sollen keine Aufgabenlisten sein, sonst sind unsere Truppen gelähmt, sobald das Unerwartete passiert. Unsere Pläne müssen immer auf ein bestimmtes Ziel hin aufgebaut sein. Dies ist der einzige starre Teil des Plans, alles andere wird den Trupps überlassen, um es herauszufinden. Auf diese Weise sind wir immer bereit, unsere Pläne anzupassen, wenn sich die Situation auf dem Feld entwickelt."
+FRA_flexible_support: "Flexible Unterstützung"
+FRA_flexible_support_desc: "Um die Effizienz unserer Trupps zu gewährleisten, müssen wir sicherstellen, dass sie von der Artillerie und den Unterstützungsregimentern auf flexible Weise unterstützt werden. Das bedeutet, dass die Artillerie jederzeit bereit sein muss, auf die Befehle jedes mit ihr verbundenen Squads zu feuern, und Unterstützungskompanien müssen bereit sein, einzugreifen, wenn sie an der Front um Hilfe gerufen werden."
+FRA_empower_rifleman: "Befähigen Sie den Schützen"
+FRA_empower_rifleman_desc: "Letztendlich können wir alle Pläne der Welt entwerfen und so viele Artilleriegeschütze in der Hinterhand stapeln, wie wir für richtig halten, aber der bescheidene Schütze ist derjenige, der den Krieg gewinnen wird. Indem wir dafür sorgen, dass auch sie eigenständig die Initiative ergreifen können, verbessern wir auf subtile Weise die Effizienz jedes Trupps und besiegen jene Feinde, die sie mit Terror anführen."
+FRA_mass_conscription: "Massen-Mobilisierung"
+FRA_mass_conscription_desc: "Der Krieg hat zweifelsohne gezeigt, dass moderne Kriege heute völlig irrsinnige Ausmaße annehmen und Millionen von Menschen auf allen Seiten zum Kampf einberufen werden. Jeder Franzose muss wissen, dass er eines Tages dazu aufgerufen werden kann, sein geliebtes Land gegen die Reaktionäre zu verteidigen. Wir werden erst besiegt sein, wenn der letzte von uns umgekommen ist."
+FRA_improve_manufactures: "Verbessern Sie die Fertigungen"
+FRA_improve_manufactures_desc: "Der Krieg hat wirklich ein gewaltiges Ausmaß angenommen, und ein solcher moderner Krieg wird eine Menge an Ausrüstung benötigen, die wir uns vielleicht noch gar nicht vorstellen können. Zum Gewehr und zur Granate kommen der Panzer und das Flugzeug, bald vielleicht noch mehr. Wir müssen sicherstellen, dass unsere Militärindustrie die beste ist, die sie sein kann, wir werden nie ein Gewehr zu viel haben!"
+FRA_global_organization: "Weltweite Organisation"
+FRA_global_organization_desc: "Eine große Armee braucht ein großes Kommando. Aber es ist nicht das Oberkommando von einst, das in einem Kriegszimmer in Paris sitzt und Pfeile auf eine Karte zeichnet. Es sind die Offiziere jeder Einheit, jedes Regiments, jeder Armee und jeder Front. Alle zusammen werden sie unsere Armee führen und unseren letztendlichen Sieg in einem so großen Konflikt sicherstellen."
+FRA_mass_fire_support: "Massiven Motorisierung"
+FRA_mass_fire_support_desc: "Mit einer so großen Armee kommt eine neue Idee für das alte Konzept des Unterstützungsfeuers. Lange Zeit dachte man, dass die Artillerie allein einen Vorstoß unterstützen kann, aber wir glauben, dass es die Pflicht jedes Trupps ist, der nicht angreift, Deckungsfeuer für diejenigen zu geben, die vorrücken. Auf diese Weise werden sich unsere Feinde für immer ducken, während wir uns vorwärts bewegen."
+FRA_grand_army_reform: "Große Armeereform"
+FRA_grand_army_reform_desc: "Unsere Armee ist jetzt im Ziel und in der Doktrin geeint. Niemand wagt es mehr, sie eine Miliz oder einen Straßenpöbel zu nennen. Das erinnert an das Bild der Grande Armée, und in der Tat ist es ein Erbe, auf das wir stolz sind. Lassen Sie uns dafür sorgen, dass unsere gesamte Armeeorganisation darauf ausgerichtet ist, mit so vielen Soldaten und Offizieren umzugehen."
+
+FRA_equipment_modern: "Moderne Ausrüstung"
+FRA_equipment_modern_desc: "Die Werkzeuge des Krieges werden immer besser, effizienter, tödlicher. Für manche ist das eine Tragödie, aber es ist klar, dass wir sie nicht meiden können. Krieg ist eine hässliche Realität, und wir müssen uns ihr stellen. Indem wir dafür sorgen, dass unsere Ausrüstung immer die beste ist, machen wir Konflikte vielleicht noch tödlicher. Aber unsere Feinde werden uns nicht die Höflichkeit ersparen, diese Waffen gegen uns einzusetzen."
+FRA_special_forces: "Alpine Truppen"
+FRA_special_forces_desc: "Berge waren schon immer eine radikal andere Umgebung zum Kämpfen, und die meisten unserer Grenzen verlaufen über Berge. Wir müssen sicherstellen, dass unsere Ausbildung der Gebirgstruppen makellos ist und dass jedes neue Ausrüstungsstück, das wir erfinden, an die Gebirgskriegsführung angepasst ist. Gebirgsartillerie gibt es, vielleicht auch bald Gebirgspanzer?"
+FRA_tank_division: "Panzer-Divisionen"
+FRA_tank_division_desc: "Es ist schon eine Weile offensichtlich, aber Panzer sind hier, um zu bleiben. Ihre Panzerung ist undurchdringlich für Handfeuerwaffen, und ihre mächtige Kanone zerstört alles, worauf sie gerichtet ist. Im Laufe der Jahre werden ihre Konstruktionen immer schwerer und zerstörerischer. Wir müssen an der Spitze der Panzertechnologie bleiben, damit wir das Schlachtfeld beherrschen können."
+FRA_road_to_war: "Der Weg zum Krieg"
+FRA_road_to_war_desc: "Der Krieg mit Deutschland ist eindeutig unvermeidlich, diese Nation hält unsere Brüder im Elsass und in Lothringen als Geiseln, und mit ihren vielen Marionetten im Reichspakt steht sie als konterrevolutionäre Hauptmacht in Europa, wenn nicht in der Welt, als Tyrann über Hunderte von Millionen Menschen. Das wird aufhören, wir werden sie alle rächen. Der erste Weltkrieg war nicht der letzte."
+FRA_renseignements_generaux: "Die Allgemeine Informationen"
+FRA_renseignements_generaux_desc: "Es ist deutlich geworden, dass wir unser Land ohne einen modernen, zentralisierten Nachrichtendienst nicht zufriedenstellend verteidigen können. Die Tabus der alten Zeit gelten noch immer gegen eine solche zentralisierte, unkontrollierte Autorität, aber es ist ein Opfer, das wir bringen müssen. Deutsche Spione lachen leise über unsere kläglichen "Geheimdienstausschüsse"."
+FRA_military_buildup: "Militärische Aufrüstung"
+FRA_military_buildup_desc: "Um uns auf den kommenden Krieg vorzubereiten, müssen wir unsere Kriegsindustrie schnell und effizient entwickeln. Das mag unserem kurzfristigen Wirtschaftswachstum schaden, und das mag bei denen in unserer Bevölkerung, die auf Frieden und Wohlstand hoffen, nicht beliebt sein, aber wir wissen es leider besser. Das Überleben der Revolution steht hier auf dem Spiel!"
+FRA_military_buildup_two: "Kalibrierung der Wirtschaft"
+FRA_military_buildup_two_desc: "Die kapitalistische Welt kämpft immer noch mit der erschütternden Wirtschaftskrise des letzten Jahres, während sich die Rechtschaffenheit unseres eigenen Systems weiterhin bewährt. Es wurde vorgeschlagen, dass wir diesen industriellen Vorteil nutzen, um bestimmte Aspekte der Wirtschaft ausschließlich auf militärische Zwecke umzustellen."
+FRA_socialist_education: "Sozialistische Bildung"
+FRA_socialist_education_desc: "Die Bildung der Französischen Republik war in vielerlei Hinsicht hervorragend und ermöglichte es dem Durchschnittsbürger, ein großes Wissen in den Wissenschaften und Künsten zu erlangen. Wir versuchen, an diesem Erbe weiterzuarbeiten, indem wir sicherstellen, dass französische Schulen immer das Lernen und die Bildung als oberstes Ziel haben und nicht Hierarchie und Disziplin wie in einigen reaktionären Ländern."
+ FRA_vanguard_of_the_revolution: "Avantgarde der Revolution"
+ FRA_vanguard_of_the_revolution_desc: "Diejenigen, die noch unter der kapitalistischen Unterdrückung kämpfen, blicken mit großer Hoffnung auf uns, als das große Leuchtfeuer, das schlagende Herz der Revolution. Wir müssen alles in unserer Macht Stehende tun, um denen zu helfen, die die Ketten sprengen, das ist unsere historische Pflicht. Ideologische und materielle Unterstützung sind eine Sache, aber wir müssen noch weiter gehen und uns direkt in den bewaffneten Kampf einschalten: Die Franzosen werden in der ganzen Welt für die Freiheit aller Arbeiter kämpfen und triumphieren, so wie wir hier triumphiert haben."
+FRA_department_revolutionary_ideals: "Abteilung für revolutionäre Ideale"
+FRA_department_revolutionary_ideals_desc: "Während die empirischen Lehren sich leicht beweisen, sind die Tugenden der Kommune unserer Bevölkerung schwerer zu vermitteln. Obwohl es unheilvoll klingt, müssen wir eine Institution schaffen, die bereit ist, uns zu helfen, unserem Volk den Wert der Revolution in Erinnerung zu rufen und zu verhindern, dass sich reaktionäre Einflüsse einnisten."
+FRA_Blanqui_Research_Institute: "Blanqui Forschungsinstitut"
+FRA_Blanqui_Research_Institute_desc: "Während sich einige Nationen gegen die Lehren der Wissenschaft wehren, unterstützt Frankreich sie ohne Nuancen. Unterstützen wir die Gründung eines neuen Forschungsinstituts, um unsere technologische Überlegenheit zu fördern. Wo Reaktionäre jede Entdeckung anzweifeln und Veränderungen misstrauisch gegenüberstehen, umarmen wir sie und werden jedes Jahr stärker!"
+FRA_military_buildup_three: "Militärische Weiterentwicklung"
+FRA_military_buildup_three_desc: "Unsere Wirtschaft ist jetzt gut entwickelt und die Kommune ist bereit für den Krieg, aber wir können immer besser werden. Durch die Förderung weiterer industrieller Projekte wird die Kommune nicht nur kriegsbereit sein, sondern unbestreitbar jedem unserer Feinde in jeder Hinsicht überlegen sein. Wir werden der Welt beweisen, dass die Kommune nicht besiegt werden kann!"
+FRA_military_science: "Militärwissenschaft"
+FRA_military_science_desc: "Frankreich arbeitet immer an der Verbesserung seiner Forschungsnetzwerke, aber die theoretischen Wissenschaften können uns nur so weit bringen. Wir werden einen neuen Flügel im Blanqui-Forschungsinstitut eröffnen, der der Militärwissenschaft gewidmet ist und es uns ermöglicht, neue Durchbrüche zu finanzieren und zu entwickeln, die sofort von unserer Armee genutzt werden können."
+FRA_synthetic_refineries: "Synthetische Ressourcen"
+FRA_synthetic_refineries_desc: "Frankreich ist groß und einfallsreich, aber es hat nicht alles. Es fehlt an Öl, Kautschuk, Wolfram und Chrom, und wir dürfen uns nicht auf ausländische Exporteure verlassen, wenn es zu Konflikten kommt. Wir müssen neue Wege erforschen, um diese Ressourcen aus dem zu gewinnen, was wir bereits haben. Einige Wissenschaftler schlagen sogar vor, dass wir in der Lage sein könnten, diese Ressourcen zu synthetisieren."
+FRA_secret_weaponry: "Elektrische Maschinen"
+FRA_secret_weaponry_desc: "Während das Rechnen auf die Tabelliermaschine zurückgeht, haben wir seither massive Durchbrüche auf dem Gebiet des Rechnens gemacht. Unsere Mathematiker versichern bereits, dass diese neuen Maschinen eine enorme Hilfe für schnelles und effizientes Rechnen sind. Mit etwas Förderung und Zeit können wir die Möglichkeiten dieses neuen Gebietes nur erahnen."
+FRA_damocles: "Das Damokles Projekt"
+FRA_damocles_desc: "Angeregt durch die Cambridge-Konferenz während des Zehnten Kongresses der Dritten Internationale fand heute an der Universität Cambridge ein Wiedersehen statt. Eine Gruppe theoretischer Physiker aus Großbritannien und Frankreich bittet um die Finanzierung der Einrichtung des 'Damokles-Projekts', eines gemeinsamen britisch-französischen Ausschusses für Kernforschung."
+FRA_nuclear_weapons: "Curie Projekt"
+FRA_nuclear_weapons_desc: "Während das Damokles-Projekt sehr vielversprechend war, lähmte die Weigerung [ENG.GetNameDef], daran teilzunehmen, die Zusammenarbeit zwischen unseren und ihren Wissenschaftlern. Ungeachtet dessen müssen wir durchhalten und versuchen, herauszufinden, was wir mit dem Atom anfangen können. Wir werden dieses Projekt genau der Frau widmen, die das Radium entdeckt und uns auf diesen Weg gebracht hat."
+FRA_German_borders: "Befestigen Sie die deutsche Grenze"
+FRA_German_borders_desc: "Wir haben bereits ein ziemlich beeindruckendes Netz von Befestigungen entlang der Maas und der Grenze zu Flandern-Wallonien gebaut. Trotzdem können wir es mit neuen Bauten und hochmodernen militärischen Einrichtungen wie Funkstationen und modernen Artilleriegeschützen verbessern. Etwas, das sich die Republik sicher nie hätte leisten können."
+FRA_extend_line: "Verlängern der Linie"
+FRA_extend_line_desc: "Während wir unsere Befestigungsbemühungen hauptsächlich auf die am besten zu verteidigenden Abschnitte der Linie konzentriert haben, ist es ziemlich offensichtlich, dass Deutschland stattdessen unsere schwächeren Punkte angreifen wird. Die Lösung ist ganz einfach, wir werden keine Schwachstellen haben. Wenigstens lernen sie, wie man auf dem Wasser läuft, viel Glück für sie, diese Linie zu überqueren!"
+FRA_Demand_Romandy: "Forderung Haute-Savoie"
+FRA_Demand_Romandy_desc: "Die illegale Schweizer Besetzung der Haute-Savoie dauert schon viel zu lange an! Die Schweizer haben sich als brutale Tyrannen und Unterdrücker unseres Volkes auf unserem eigenen, rechtmäßigen Land erwiesen! Niemand kann die Dreistigkeit besitzen, Franzosen zu verfolgen und zu jagen und zu glauben, er käme damit durch, die perfiden Schweizer haben ihren letzten Fehler gemacht."
+FRA_war_with_spain: "Iberien befreien"
+FRA_war_with_spain_desc: "Direkt an unserer südlichen Grenze, jenseits der Pyrenäen, gibt es noch immer Kapitalismus und Imperialismus. Mit unseren Anstrengungen werden wir erreichen, was kein französischer Imperialist erreichen konnte - die totale Kontrolle über Iberien. Aber wir sind anders. Wir tun es für das gemeine Volk, nicht für imperiale Ambitionen. Der Syndikalismus wird auf der Iberischen Halbinsel Erfolg haben!"
+FRA_War_with_germany: "Deutschland ausschalten"
+FRA_War_with_germany_desc: "Das französische Volk soll nicht länger warten! Die Zeit ist endlich gekommen - die Revolution wird siegen, und unsere Brüder werden gerächt werden für das, was sie im Großen Krieg erlitten haben! Deutschland wird sich wünschen, den ersten Krieg verloren zu haben, denn wir werden vor nichts Halt machen, bis es völlig vernichtet ist!"
+FRA_War_with_austria: "Die Rote Donau"
+FRA_War_with_austria_desc: "Die Donauvölker haben bewiesen, dass sie nicht in der Lage sind, eine erfolgreiche sozialistische Revolution in ihrem Land einzuleiten und sich von der habsburgischen Tyrannei zu befreien. Wir werden ihnen also helfen. Ebenso werden alle Völker, die noch unter der Tyrannei dieses anachronistischen Reiches stehen, befreit werden. Europa wird frei sein vom letzten der reaktionären Reiche."
+FRA_War_with_Netherlands: "Rund um Ludendorff"
+FRA_War_with_Netherlands_desc: "Die Niederungen der Benelux-Staaten sind für unsere Kriegsanstrengungen strategisch wichtig. Die Deutschen werden den Angriff von dieser Seite nicht erwarten und wenn wir Erfolg haben, werden wir Deutschland von seinen lebenswichtigen Wirtschaftsgebieten im Rheinland abschneiden. Deutschland wird fallen."
+FRA_World_revolution: "Weltrevolution"
+FRA_World_revolution_desc: "Da die Revolution nun in Europa gut etabliert ist, können wir beginnen, nach außen zu schauen und einen gewaltigen Plan zur Befreiung der ganzen Welt von den Reaktionären und Imperialisten zu starten. Unser Kampf wird enden, wenn der letzte von ihnen vor dem Volk für seine Verbrechen verurteilt wird. Vive la République Socialiste Mondiale(Es lebe die Sozialistische Weltrepublik)!"
+FRA_european_revolution: "Europäische Revolution"
+FRA_european_revolution_desc: "Während die Idee einer Weltrevolution edel ist, müssen wir realistisch bleiben. Mit intelligentem Einfluss und keiner anderen reaktionären Macht, die sich uns entgegenstellt, werden wir bald sehen, wie die anderen Kontinente zum Syndikalismus übertreten. Wir müssen jedoch sicherstellen, dass Europa frei von Reaktionären ist. Vive la République Socialiste Européenne(Es lebe die Europäische Sozialistische Republik)!"
+FRA_peaceful_revolution: "Friedliche Revolution"
+FRA_peaceful_revolution_desc: "Wir hören diejenigen, die behaupten, dass die Revolution nicht enden kann, und das wird sie auch nicht. Wir können es uns jedoch nicht leisten, ständig in allen Ecken der Welt ohne Grund Krieg zu führen. Die Arbeiter werden ihren Weg finden, wenn wir als Leuchtfeuer der Sehnsucht auftreten. Lassen Sie uns stattdessen auf uns selbst schauen. Vive la République Socialiste Française(Es lebe die Französische Sozialistische Republik)!"
+
+FRA_Host_the_Internationale: "Der Kongress der Dritten Internationale"
+FRA_Host_the_Internationale_desc: "Die Vorsitzenden der sozialistischen, syndikalistischen und totalistischen Parteien, die Staats- und Regierungschefs, Außenminister und Journalisten sind zur Eröffnung des Neunten Kongresses der Dritten Internationale in Paris eingetroffen. Wir sind stolz darauf, erneut Gastgeber des Kongresses zu sein, und hoffen in aller Bescheidenheit, dass wir ihn nutzen können, um unsere Position als führendes sozialistisches Land der Welt zu festigen."
+FRA_mission_bhartiya: "Auftrag an die Bharatiya-Kommune"
+FRA_mission_bhartiya_desc: "Die Bharatiya-Kommune bat um unsere Unterstützung in ihrem Kampf gegen ihre Nachbarn, die Imperialisten aus Lahore und die Reaktionäre der Fürstlichen Föderation. Sie bitten uns um die Entsendung von Militärberatern zur Ausbildung ihrer Offiziere und ihrer Truppen. Wir werden dafür sorgen, dass diese Hilfe schnell eintrifft, damit sie Indien schneller vereinigen können."
+FRA_arab_committee: "Sozialistisches Anti-Kolonial-Komitee"
+FRA_arab_committee_desc: "Die Verräter des französischen Volkes, der Bastard Petain und seine Clique von Freunden, benutzen das einheimische Proletariat bei ihren Bemühungen, auf das Festland zurückzukehren. Wir werden ihnen eine solche Chance nicht geben. Unser algerischer Genosse Mohamed Saïl, der in Frankreich lebt, schlug uns die Idee vor, sozialistische Befreiungsbewegungen in ganz Afrika zu unterstützen, zum Wohle aller Afrikaner."
+FRA_working_women: "Berufstätige Frauen"
+FRA_working_women_desc: "Während des Kongresses betrat Helen Crawfurd die Bühne mit ihrer flammenden Rede über die Rolle der Frauen in der Weltrevolution. Wir unterstützten ihre Argumente und sind nun bereit, Reformen mit gesundem Menschenverstand in Bezug auf den Status der arbeitenden Frauen in unserer Gesellschaft umzusetzen. Die Reaktionäre können glotzen, wir werden sicher den letzten Lacher haben."
+FRA_avantgarde: "Internationale Avant-Garde"
+FRA_avantgarde_desc: "Zu lange haben traditionelle Kunst und klassische Musik die Unterhaltung der Massen dominiert. Während Jazz in unseren Ländern angenehm und weit verbreitet ist, kann ein Genre nicht gegen alle anderen kämpfen. Wir müssen neue schaffen, wir müssen der Welt zeigen, was die wahre Unterhaltung ist. Und es wird der Welt zeigen, dass wir die gute Kraft dieser Ära sind!"
+FRA_second_inter_congress: "Der Zehnte Internationale Kongress"
+FRA_second_inter_congress_desc: "Angesichts des Zweiten Amerikanischen Bürgerkriegs und einer Reihe anderer Konflikte, die jederzeit auf der ganzen Welt ausbrechen können, muss die Internationale ihr Konzept für die globale Revolution überdenken. Da der letzte Kongress der Internationale in Frankreich stattfand, wird der nächste in Britannien abgehalten."
+FRA_scientific_cooperation: "Internationale wissenschaftliche Zusammenarbeit"
+FRA_scientific_cooperation_desc: "Es ist klar, dass wir unsere eigenen technologischen Entdeckungen nicht einfach für uns behalten können. Während eines Treffens an der alten Universität von Cambridge haben wir beschlossen, einen weltweiten Plan aufzustellen, um die technologischen Fortschritte der sozialistischen Länder zu kombinieren. Einige fordern jedoch einen ehrgeizigeren Plan, der auch industrielle Investitionen einschließt."
+FRA_third_inter_congress: "Der Sieges-Kongress"
+FRA_third_inter_congress_desc: "Die Verantwortung für die Durchführung des elften Kongresses ist wieder an uns zurückgefallen, wobei als neuer Ort für diese Aufgabe der Palace Populaire gewählt wurde, wo einst der Louvre voll mit den Plünderungen des französischen Reiches stand. Eines der Themen ist passenderweise die endgültige Befreiung des afrikanischen Kontinents."
+
+FRA_armee_de_lair: "Luftwaffe des Volkes"
+FRA_armee_de_lair_desc: "Flugzeuge sind ein seltsamer neuer Aspekt der Kriegsführung. Diese Maschinen sind ziemlich komplex zu handhaben, und die Strafe für das Versagen, richtig zu fliegen, ist offensichtlich. Und doch kann jeder fähige Mann ein Pilot sein. Wir müssen die Reihen der Luftwaffe für Wehrpflichtige öffnen, wie es die Armee und die Marine getan haben. Unsere Luftwaffe wird keinen Mangel an Piloten haben."
+FRA_amateur_pilots: "Amateur Piloten"
+FRA_amateur_pilots_desc: "Keiner wird als Pilot geboren. Auch wenn einige mit bewundernswerter Anstrengung lernen, sich in der Luft zurechtzufinden und zu kämpfen, können wir nicht erwarten, dass jeder einzelne Pilot ein Ass ist. Wir müssen zivilen Piloten und Hobbypiloten die Chance geben, sich zu beweisen. Dies gilt auch für Frauen, die normalerweise nicht einberufen werden."
+FRA_valin_doctrine: "Valin Doktrin"
+FRA_valin_doctrine_desc: "Martial Valin ist ein brillanter Flieger, und er hat uns viel über diese neue, fremde Welt der Luftkriegsführung zu lehren. Obwohl seine Worte kein Evangelium sind, schätzen wir seine einzigartige Erfahrung sehr und versuchen, seine Lehren zum Rahmen der zukünftigen Luftkriegsdoktrin zu machen. Ein Anfang, gewiss."
+FRA_ecole_air: "Flugschule"
+FRA_ecole_air_desc: "Da sich unsere Luftdoktrin schnell ausweitet und Luftkämpfe von unorganisierten Schlägereien zu sorgfältig ausgearbeiteten Gefechten werden, brauchen wir dringend ausgebildete Piloten und geschulte Offiziere, die Luftkampagnen genauso planen können wie Land- oder Seekampagnen. Nur unser Verstand wird in diesem brandneuen Bereich der Kriegsführung funktionieren, und glücklicherweise haben wir einige."
+FRA_air_bases: "Mehr Luftwaffenstützpunkte einrichten"
+FRA_air_bases_desc: "Flugzeuge benötigen Luftwaffenstützpunkte, um zu landen, aufzutanken, aufzurüsten, zu reparieren und zu starten, ähnlich wie Marinen. Aber im Gegensatz zu Marinen können sie nicht monatelang in der Luft bleiben, sondern nur Stunden. Daher müssen wir sicherstellen, dass unsere Luftwaffenstützpunkte hervorragend abgesichert sind, und wir müssen dafür sorgen, dass wir immer unter der Kapazität bleiben, damit unsere Luftwaffe nie durch mangelnde Infrastruktur lahmgelegt wird."
+FRA_fighters: "Kämpfer Fokus"
+FRA_fighters_desc: "Die Luft ist ein neuer, riesiger Angriffsraum für unsere Feinde, und damit auch ein neuer Verteidigungsraum für uns. Anders als an Land gibt es keine Festungen, keine Deckung, nur Eins-gegen-Eins-Kämpfe. Wenn wir in die Produktion von Kampfflugzeugen investieren, stellen wir sicher, dass sich niemand frei in unserer Luft bewegen kann. Unsere Kampfflugzeuge werden immer über ihnen sein und bereit, sie auf den Boden zurückzubringen."
+FRA_bombers: "Bomber Fokus"
+FRA_bombers_desc: "Die Luft ist ein neuer, riesiger Angriffsbereich für uns, und es ist einer, gegen den sich unsere Feinde vielleicht noch nicht ausreichend verteidigen können. Bomben sind eine einfache, aber elegante Möglichkeit, Kampfmittel vom Hangar zum Ziel zu transportieren. Wir müssen in Bomber investieren, um sicherzustellen, dass unsere Feinde von allen Seiten angegriffen werden - ein Vorteil, den wir nicht ignorieren können."
+FRA_strat_bombers: "Strategischer Zerstörungsfokus"
+FRA_strat_bombers_desc: "Wenn eine Bombe gut gegen einen Feind wirkt, dann müssen zehn Bomben nur noch besser wirken. Die Weiterentwicklung von Bombermodellen hat neue Flugzeuge hervorgebracht, die in der Lage sind, riesige Mengen an Bomben oder einige wenige verheerend große Bomben zu transportieren. In jedem Fall könnten wir bald ganze Städte oder Armeen mit ein paar Wellen von Luftangriffen auslöschen."
+FRA_paratroopers_focus: "Fallschirmjäger Entwicklung"
+FRA_paratroopers_focus_desc: "Bis jetzt waren wir immer der Meinung, dass die einzige Möglichkeit, Truppen zu transportieren, Lastwagen und Landungsboote sind. Die jüngsten Durchbrüche in der Luftfahrt bedeuten jedoch, dass wir jetzt über Flugzeuge verfügen, die ganze Trupps transportieren und sie auf sichere Weise im Kampf absetzen können. Wir müssen sofort Regimenter ausbilden, die zu dieser vertikalen Umzingelung fähig sind!"
+FRA_rocket_development: "Raketentechnik Einsatz"
+FRA_rocket_development_desc: "Der Raketenmotor ist der Höhepunkt unserer Forschung an neuen Antriebsmethoden für Flugzeuge. Während der Weg zur Erschaffung von Raketenflugzeugen noch lang und beschwerlich sein mag, schlagen unsere Wissenschaftler eine einfachere Verwendung für Raketen vor. Indem wir eine Sprengladung anschnallen und sie auf den Feind schleudern, können wir ihn aus der Ferne bombardieren. Einfach, verheerend."
+
+FRA_navy_focus: "Reorganisationsprogramm der Marine"
+FRA_navy_focus_desc: "Wir haben zwar derzeit eine akzeptable Marine, aber sie ist ziemlich unorganisiert, so dass wir sie nicht weiter ausbauen können. Wir müssen unsere Seestreitkräfte wieder in die Hierarchie der Kommunalen Streitkräfte integrieren. Nur weil wir noch keine große Marine haben, heißt das nicht, dass wir keine Marine haben."
+FRA_arsenaux_back_on: "Setzen Sie die Werft wieder in Betrieb"
+FRA_arsenaux_back_on_desc: "Die Marinewerften haben lange geschwiegen, sie wurden zugunsten von Militärfabriken und zivilen Bedürfnissen aufgegeben. Heute werden wir wieder in diese alten Arsenale investieren, sie wieder besetzen und finanzieren, damit wir wieder eine Marine haben, die mit der der Republik vergleichbar ist."
+FRA_old_doctrine: "Die alte Doktrin"
+FRA_old_doctrine_desc: "Unsere Marine ist ein großartiges Ensemble, das langsam über die Meere schippert, bereit, die Flotten unserer Feinde zu vernichten. Sie schützen unsere Konvois, wehren Plünderer ab und sind bereit, jeder großen Flotte mit der ganzen Macht der französischen Marine entgegenzutreten. Warum ändern, was nicht kaputt ist?"
+FRA_new_doctrine: "Die neue Doktrin"
+FRA_new_doctrine_desc: "Unsere Marine ist ein Werkzeug, das sorgfältig eingesetzt werden muss, wenn die Situation es erfordert. Anstatt auf den Köder des Feindes hereinzufallen und sich diesen riesigen Schrottplätzen auf offener See anzuschließen, müssen wir versuchen, ihre Konvois, ihre isolierten Flotten anzugreifen und sie in die Flucht zu schlagen, während wir ihre gesamte Wirtschaft schnell zerstören."
+FRA_castex_plan: "Der Castex Plan"
+FRA_castex_plan_desc: "Der Castex-Plan sieht vor, dass wir den Kern unserer Flotte weiter verbessern. Schlachtschiffe und Kreuzer werden die Schlagkraft unserer großen Flotte sein, die es uns erlaubt, jeden Kampf mit der Routine unseres Feindes zu beenden, mit wenig Schaden für uns, mit Ausnahme von Abwehrschiffen wie Zerstörern."
+FRA_home_fleet: "Heimflotte"
+FRA_home_fleet_desc: "Unsere Flotte verteidigt unsere Küsten, patrouilliert unermüdlich im Ärmelkanal, an der Atlantikküste und im Mittelmeer und sorgt dafür, dass kein einziges U-Boot oder fahrendes Schiff vorbeikommt und unsere Konvois beschädigt oder versucht, unsere Küsten oder unsere festgemachten Schiffe zu beschießen. Wir fürchten keinen Angriff von den Meeren, von niemandem."
+FRA_strike_nat_france: "Schlagt das Regime in Algier!"
+FRA_strike_nat_france_desc: "Das alte Regime lebt immer noch in Algier, lebt von seiner Ausbeutung der afrikanischen Kolonien des untergegangenen französischen Reiches und korrumpiert unser Erbe mit seinen Gräueltaten. Wir müssen das Mittelmeer sichern, und sie stellen sich uns in den Weg. Wir werden dieser Maskerade ein Ende setzen."
+FRA_waves_of_syndicalism: "Die Welle des Syndikalismus"
+FRA_waves_of_syndicalism_desc: "Der Syndikalismus wird bis zu allen Meeren der Welt reichen. Wir mögen nicht die Häfen oder Kolonien der alten, reaktionären Reiche haben, aber wir haben den Willen, unser Schiff auf lange Reisen zu schicken und Geschichten vom Sieg über die Imperialisten zurückzubringen. Unsere Matrosen werden die sieben Weltmeere im Namen des Syndikalismus befahren!"
+FRA_colonnes_neptune: "Die Kolonnen des Neptun"
+FRA_colonnes_neptune_desc: "Wenn wir feindliche Nationen im Ausland besiegen wollen, ist ein Brückenkopf ein notwendiger Schritt, bevor wir die Hauptlast unserer Streitkräfte einsetzen können. Wir müssen unsere Marineinfanteriekräfte zielgerichtet ausbilden und sicherstellen, dass nur die Besten an diesen unglaublich anstrengenden Aufgaben teilnehmen. Das Schicksal ganzer Invasionen hängt allein von ihnen ab."
+FRA_submarines: "Unterwasser-Kriegsführung"
+FRA_submarines_desc: "Der moderne Krieg findet nicht nur in der Luft statt, sondern auch unter dem Meeresspiegel. U-Boote bieten eine neue, revolutionäre Veränderung in der Seekriegsführung. Ihre Torpedos können selbst die am stärksten gepanzerten Schlachtschiffe vernichten, und ihr Profil ist so unauffällig, dass nur die fortschrittlichsten Technologien in der Lage sind, sie zu finden und anzugreifen."
+FRA_cut_off_capitalists: "Den Kapitalisten den Weg abschneiden"
+FRA_cut_off_capitalists_desc: "Wir können nicht einfach zusehen, wie die alten Imperien die Völker der Welt erpressen und ihre Beute in ihre Kolonialämter zurückbringen, um sie zu zählen und zu genießen. Wir werden dafür sorgen, dass jeder Konvoi, der ihre zu Unrecht beschlagnahmten Waren transportiert, das Kommune-U-Boot fürchtet."
+FRA_naval_bombers: "Marinebomber entwickeln"
+FRA_naval_bombers_desc: "Die Luft kann sich gut mit dem Meer paaren. Flugzeuge, die Torpedos tragen, ermöglichen es uns, selbst die größten Schiffe mit großer Genauigkeit sofort zu zerstören, wobei die Torpedos es unnötig machen, dass wir mit einer Bombe mitten auf dem Deck eines Schiffes treffen müssen. Wir müssen in Marinebomber investieren, um uns einen Vorteil gegenüber großen, sperrigen Marinen zu verschaffen."
+FRA_protect_coastlines: "Schützen Sie unsere Küsten"
+FRA_protect_coastlines_desc: "Schließlich kann unsere Marine nicht jeden einzelnen Strand und jeden einzelnen kleinen Hafen in unserem Land schützen. Wir können jedoch vorausplanen und einige grundlegende Befestigungen hinzufügen, um sicherzustellen, dass wir nicht überrumpelt werden. Wenn sie an unseren Stränden landen, werden sie nach einer langen Zeit auf See kalten, harten Stahl genießen."
+
+FRA_Phalanstere_internationale: "Gründung der Phalansteriesche Internationale"
+FRA_Phalanstere_internationale_desc: "Die Notwendigkeit der Geheimhaltung bedingt gewisse Ineffizienzen in der militärischen Forschung. Indem man eng mit anderen syndikalistischen Nationen zusammenarbeitet und den Forschern Zugang zu den am strengsten gehüteten Geheimnissen der anderen gewährt, kann dieses grundlegende Problem überwunden werden. Die Phalansteriesche Internationale soll als zentrale Instanz für den Austausch solcher Geheimnisse dienen."
+
+### Bookmark ###
+ FRA_KR_gathering_storm_desc: "Die Dritte Republik fiel so, wie sie gekommen war: besiegt von deutschen Waffen und mit der Revolution im eigenen Land konfrontiert. 1919 rief die CGT einen Generalstreik aus, der den Sturz der bürgerlichen Regierung zur Folge hatte. 15 Jahre lang stand die neue "Kommune Frankreichs" hinter einer gemeinsamen Plattform des syndikal-sozialistischen Konsenses, an deren Spitze das Comité de Salut Public stand. Doch 1936 halten viele Kritiker die Notwendigkeit des Wiederaufbaus des Landes und der Verteidigung der Revolution für überholt, und der Ruf nach einer radikaleren Politik wird lauter. Frankreich ist von seiner Mission überzeugt, aber es ist unklar, welche revolutionären Strömungen sich in den kommenden Jahren durchsetzen werden..."
+
+### Intro Screen ###
+ FRA_country_intro_header: "Die Kommune Frankreichs"
+ FRA_country_intro_content: "Die Dritte Republik endete so, wie sie begann: besiegt von deutschen Waffen und konfrontiert mit der kommunistischen Revolution im eigenen Land. Im November 1919 rief die CGT einen revolutionären Generalstreik aus, der das Land lahmlegte und den Sturz der bürgerlichen Regierung verursachte. Die Partei der Ordnung" war nicht stark genug, um den Unruhen ein Ende zu setzen, und in den folgenden Monaten wurde das französische Establishment von einer Koalition linker Kräfte in einem kurzen, aber brutalen Bürgerkrieg aus Frankreich vertrieben.\n\n In den letzten fünfzehn Jahren hat sich die selbsternannte Kommune Frankreichs" hinter einer gemeinsamen Plattform des syndikalistisch-sozialistischen Konsenses vereinigt, an deren Spitze der regierende Ausschuss für öffentliche Sicherheit stand. Doch 1936 wird der Konsens, der erreicht wurde, um das zerrüttete Land wieder aufzubauen und die Früchte der Revolution gegen die Bedrohung von außen zu verteidigen, von vielen Kritikern als zunehmend überholt angesehen, und der Ruf nach einer radikaleren Politik wird lauter. Frankreich ist zunehmend zuversichtlich in Bezug auf seine Sicherheit und seine Mission, aber die französische revolutionäre Tradition ist disparat, und es ist unklar, welche ideologischen Stränge in den kommenden Jahren dominant werden sollen..."
+
+ FRA_guide: "§MAnarchisten / Orthodoxe Syndikalisten / Jakobiner / Sorelianer§! (§RRadikale Sozialisten§! / §rSyndikalisten§! / §oTotalisten§!):\n£white_dot Bei den Wahlen von 1936 muss eine Fraktion die Mehrheit erlangen, indem sie 3 Mal oder öfter unterstützt wird.\n\n§MKeine Mehrheit bei Wahlen§! (§rSyndikalisten§!)\n£white_dot Bei der Wahl 1936 darfst du keine Fraktion mehr als 2 Mal unterstützen.\n\n§MRadikale Jakobiner-Reformation§! (§oTotalisten§!)\n£white_dot Die Jakobiner sollen bei den Wahlen von 1936 die Mehrheit erlangen.\n£white_dot Entscheiden Sie sich dafür, das alte System abzuschaffen.\n£white_dot Stellen Sie Léon Blum und die Volksfront vor Gericht.\n£white_dot Exekutieren Sie sie.\n£white_dot Wenn die Volksfront nicht gesäubert wird, kommt es zu einem Staatsstreich von General Gamelin, der die Orthodoxe Syndikalisten wieder an die Macht bringt."
+
+### Events ###
+
+ comfrance.1.t: "Eine neue Flagge für die Föderation?"
+ comfrance.1.d: "Die Frage der Bundesflagge ist seit den Revolutionstagen ein Punkt, der immer wieder zu Meinungsverschiedenheiten geführt hat. Die rote Fahne war natürlich immer die Fahne des Proletariats, die Fahne der Märtyrer, die Fahne der Barrikaden, und viele argumentierten, dass die Revolution nur diese Farben tragen sollte, eine stolze Kampfansage an die Bourgeoisie: Proletarier haben schließlich kein Vaterland. Doch auch wenn die Trikolore schon seit Jahrzehnten nicht mehr die Fahne der revolutionären Begeisterung war und nur noch die Fahne der Bankiersrepublik, die Fahne des Versaillais von 1871, war, fühlten sich viele zu sehr mit ihr verbunden, um sie loszulassen. Ein Teil der sozialistischen Bewegung, vor allem innerhalb der SFIO, hatte lange versucht, diese Fahne aus den Händen der Bourgeoisie zurückzuerobern und ihr die gleiche Kraft zurückzugeben, die sie hatte, als das Volk in Valmy den Monarchen Europas gegenüberstand und triumphierte. Oder sie waren einfach besorgt, dass der Verzicht auf die rot-weiß-blaue Flagge eine zu große Provokation für die Welt und für unsere noch nicht ganz zu Genossen gewordenen Landsleute darstellen würde.\n\nUnd so wurde ein Kompromiss gefunden, wie in jedem Aspekt der Revolution. Die Trikolore blieb erhalten, wurde aber mit den Symbolen des proletarischen Kampfes, der Arbeiter und der Meuterer verunstaltet und wehte immer neben der roten Flagge. Mit unserem Sieg bei den letzten Wahlen haben wir ein Mandat des Volkes erhalten, diese Debatte endgültig zu entscheiden: Sollen wir den Kompromiss von 1920 und die verunstaltete Trikolore beibehalten, eine neue, rötlichere Kompromissflagge schmieden oder einfach die Rote ein für alle Mal festschreiben?"
+ comfrance.1.a: "Schmieden Sie einen neuen Kompromiss, auf dem Weg zu einer revolutionären Erneuerung!"
+ comfrance.1.b: "Rot! Die Arbeitnehmer brauchen nicht mehr und verdienen nicht weniger."
+ comfrance.1.c: "Zu viele haben ihr Leben für die Tricolore gegeben, es gibt keinen Grund, sie in den Ruhestand zu schicken."
+
+comfrance.5.t: "Der Sturz von Marceau Pivert"
+comfrance.5.d: "Trotz der erfolgreichen Organisation des Syndikalistenkongresses im Mai wurde die Regierung Pivert für ihre mangelnde Reaktion auf das harte Vorgehen gegen die Gewerkschaften in Deutschland kritisiert. Heute hat die Opposition in der Allgemeinen Arbeitsvermittlung einem Misstrauensvotum gegen Pivert zugestimmt, der angekündigt hat, dass Neuwahlen vorgezogen werden sollen, um ein neues Comité zu wählen. Seine Aufgaben werden vorübergehend vom Ausschuss für öffentliche Sicherheit übernommen, bis die letzten Ergebnisse vorliegen."
+comfrance.5.a: "Wiedersehen, Kamerad Buntspecht."
+
+comfrance.6.t: "Wahltag 1: Abklärung der Kommunardenarmee"
+comfrance.6.d: "Durch die Präsenz von Gewerkschaften innerhalb der Kommunardenarmee ist diese übermäßig politisiert worden, was zu Spannungen innerhalb des Garanten der nationalen Integrität und des Arms der syndikalistischen Revolution geführt hat! Dies hat dazu geführt, dass der amtierende Generalstabschef, der beliebte Bürgerkriegsgeneral Maurice Gamelin, zurücktreten musste. Die französischen syndikalistischen Militärführer, zumeist Sorelianer, haben beschlossen, die Soldaten zu fragen, wen sie an der Spitze der französischen Armee haben wollen, bevor sie die Militärgewerkschaften endgültig auflösen."
+comfrance.6.a: "Charles Delestraint (Orthodoxe) - Panzer-Befürworter."
+comfrance.6.b: "Ernest Petit (Jakobiner) - Zentrales Oberkommando."
+comfrance.6.c: "Diego Brosset (Sorelianer) - Offiziers-Initiative."
+comfrance.6.e: "Joseph Putz (Anarchist) - Massiven Motorisierung"
+
+comfrance.7.t: "Wahltag 2: The Allgemeine Informationen"
+comfrance.7.d: "Die Position des Direktors des Komitees für Allgemeine Informationen gilt aufgrund seiner Schlüsselrolle in Fragen der äußeren und inneren Sicherheit als einer der Schlüssel zur obersten Macht in der französischen Kommune und ist entscheidend für die Vernichtung politischer Rivalen. In den Händen einer der extremistischen Fraktionen, der Jakobiner und Sorelianer, könnte er eine schreckliche Waffe sein..."
+comfrance.7.a: "Roger Salengro (Orthodoxe)."
+comfrance.7.b: "Louis Vallon (Jakobiner)."
+comfrance.7.c: "Pierre Villon (Sorelianer)."
+comfrance.7.e: "Übertragen Sie die Position an die Milizen (Anarchist)."
+
+comfrance.8.t: "Wahltag 3: Innere Sicherheit"
+comfrance.8.d: "Der orthodoxe Charles Rappoport hat sein Amt als Delegierter für innere Sicherheit niedergelegt, um sich um das Amt des Außenministers zu bewerben. Der ehemalige Vorsitzende Marceau Pivert, der immer noch hofft, seine politische Zukunft zu bewahren, hat es geschafft, vom orthodoxen Flügel unterstützt zu werden, und kämpft nun mit dem strengen Jakobiner Max Bonnafous, dem Sorelianer Jean-Marie Clamamus und dem Anarchisten Maurice Joyeux um das Amt."
+comfrance.8.a: "Marceau Pivert (Orthodoxe)."
+comfrance.8.b: "Max Bonnafous (Jakobiner)."
+comfrance.8.c: "Jean-Marie Clamamus (Sorelianer)."
+comfrance.8.e: "Maurice Joyeux (Anarchist)."
+
+comfrance.9.t: "Wahltag 4: Wirtschaftliche Angelegenheiten"
+comfrance.9.d: "Die heutige Wahl scheint ein Plebiszit über die in den letzten Jahren umgesetzte Wirtschaftspolitik der Kommune zu sein. Viele Visionen der zukünftigen syndikalistischen Wirtschaft, mehr oder weniger konzentriert auf die Industrie oder die Landwirtschaft, stehen im Wettbewerb. Sie alle sind entscheidend für den zukünftigen Endkampf gegen Deutschland..."
+comfrance.9.a: "Benoît Frachon (Orthodoxe) - Orthodoxer Syndikalismus."
+comfrance.9.b: "Barthélémy Montagnon (Jakobiner) - Industrialisierung."
+comfrance.9.c: "Jacques Doriot (Sorelianer) - Kriegsökonomie und Landwirtschaft."
+comfrance.9.e: "Daniel Guérin (Anarchisten) - Totale Selbstverwaltung der Arbeiter."
+
+comfrance.10.t: "Wahltag 5: Auswärtige Angelegenheiten"
+comfrance.10.d: "Mit dem letzten Wahltag wird eine der führenden Fragen der Kommune Frankreichs aufgeworfen: die Diplomatie, die die doppelte Aufgabe trägt, die Revolution in der Welt zu verbreiten und die Rache gegen Deutschland vorzubereiten. Wenn die Existenz der Syndikalistischen Internationale noch nicht in Gefahr ist, so werden heute die künftigen Schauplätze der Weltrevolution bestimmt..."
+comfrance.10.a: "Charles Rappoport (Orthodoxe)-Internationalismus."
+comfrance.10.b: "Marcel Déat (Jacobiner)- Europäischer Sozialismus."
+comfrance.10.c: "Pierre Comert (Sorelianer)- Bürgerkrieg."
+comfrance.10.e: "Fernand Desprès (Anarchist)- Weltrevolution."
+
+comfrance.12.t: "Die Ergebnisse: Orthodoxe Mehrheit"
+comfrance.12.d: "Auch wenn viele in dieser Wahl den Sturz des von den Orthodoxen geführten Konsenses sahen, der die Kommune seit dem Tod von Emile Pouget regiert hat, haben sie es geschafft, sich bei der Wahl eine feste Mehrheit zu sichern.\n\nDie Orthodoxen blicken nun auf den russischen Emigranten Boris Souvarine, der im Gegensatz zu Pivert sowohl als stark genug angesehen wird, um die radikalen Fraktionen auf Linie zu halten, als auch als fähig, die Kommune zu ihrem endgültigen Ruhm zu führen!"
+comfrance.12.a: "Herzlichen Glückwunsch, Kamarad Souvarine."
+
+comfrance.13.t: "Die Ergebnisse: Jakobinische Mehrheit"
+comfrance.13.d: "Die Wahlen haben endlich die Jakobiner an die Macht gebracht und die Rückkehr der republikanischen Werte ermöglicht, um die Kommune zur Weltrevolution zu führen! Die syndikalistischen Strukturen sind nun in jakobinischer Hand, während die sorelianischen Partisanen gejagt, verbannt oder erschossen werden. Nun muss sich die neu gegründete Union Socialiste Française zwischen dem Parteitheoretiker Marcel Déat und dem Bürgermeister von Bordeaux, Adrien Marquet, entscheiden, um Frankreich zu führen!"
+comfrance.13.a: "Herzlichen Glückwunsch, Kamerad Déat."
+comfrance.13.b: "Herzlichen Glückwunsch, Kamerad Marquet."
+
+comfrance.14.t: "Marcel Déat tritt die Nachfolge von Pierre Monatte an"
+comfrance.14.d: "Während der Einweihungsfeier des neuen Ausschusses für öffentliche Sicherheit bei der Allgemeinen Arbeitsvermittlung hat der neue Vorsitzende der CSP seinen BGT-Kollegen Pierre Monatte zum Rücktritt aufgefordert, mit dem Argument, dass das Bündnis mit den Anarchisten nicht mehr den Gelübden der Kommune entspreche. Der alte Mann akzeptierte nur widerwillig und weihte damit die vollständige Übernahme der Kommune durch die Jakobiner ein. Marcel Déat wurde schließlich gewählt."
+comfrance.14.a: "Vive la Révolution!"
+
+comfrance.15.t: "Die Ergebnisse: Sorelianische Mehrheit"
+comfrance.15.d: "Die Wahlen gaben schließlich die Macht an die militärische Fraktion der Commune von Frankreich, treue Anhänger der revolutionären Theorien von Georges Sorel, und schließlich ihre alten jakobinischen Feinde zu zerstören, die nun Opfer einer blutigen Säuberung im ganzen Land sind. Ein neues Zeitalter hat in der französischen Politik begonnen, nach den Schwächen der Orthodoxe-Ära..."
+comfrance.15.b: "Herzlichen Glückwunsch, Kamerad Valois."
+
+comfrance.16.t: "Pierre Monatte's Rücktritt"
+comfrance.16.d: "Während der Einweihungszeremonie des neuen Ausschusses für öffentliche Sicherheit bei der Allgemeinen Arbeitsvermittlung hat der BGT-Vorsitzende Pierre Monatte angekündigt, dass er seinem CSP-Kollegen Georges Valois seinen Rücktritt vorschlagen würde, da er der Meinung sei, dass er zu alt sei, um politische Aufgaben zu übernehmen, selbst rein nominell, und dass die kommenden Herausforderungen für die Kommune Frankreichs jüngere Führungskräfte erfordern würden. Die Lösung liegt nun in Valois' Händen..."
+comfrance.16.a: "Zusammenlegung der Positionen der Vorsitzenden des BGT und des CSP."
+
+comfrance.17.t: "Die Ergebnisse: Anarchistische Mehrheit"
+comfrance.17.d: "Die Wahlen haben den Anarchisten endlich die Macht gegeben, was bedeutet, dass das französische Volk verstanden hat, dass die Revolution in eine neue Phase eingetreten ist und dass jüngere Köpfe für die Führung der Nation benötigt werden. Die restriktivsten Regierungsstrukturen wurden demontiert und läuteten eine neue Ära für den libertären Sozialismus in ganz Europa ein."
+comfrance.17.a: "Herzlichen Glückwunsch, Kameraden."
+
+comfrance.18.t: "Das Ende des Vorsitzes"
+comfrance.18.d: "Da die Anarchisten bei den letzten Kommunalwahlen an die Macht gekommen sind und die Revolution voranschreitet, ist es offensichtlich geworden, dass auch in den höchsten Positionen Reformen durchgeführt werden müssen. Während früher die Macht des Vorsitzenden nicht unbegrenzt war, ist die Führung der Kommune durch eine einzige Person offensichtlich ein restriktives, bürgerliches Konzept. Es spuckt den Ideen ins Gesicht, die von den siegreichen Anarchisten vertreten werden, die einen kommunaleren Führungsstil bevorzugen."
+comfrance.18.a: "Schafft das Amt ab, es ist Zeit für eine kollektive Führung!"
+
+comfrance.19.t: "Pierre Monatte's Rücktritt"
+comfrance.19.d: "Während der Einweihungsfeier des neuen Ausschusses für öffentliche Sicherheit bei der Allgemeinen Arbeitsvermittlung hat der BGT-Vorsitzende Pierre Monatte angekündigt, seinen Rücktritt vorzuschlagen, da viele behaupteten, dass die interne Spaltung innerhalb der Exekutive der Kommune die Hauptursache für die politische Krise sei. Die beiden Favoriten für seine Nachfolge sind der Gewerkschafter Léon Jouhaux und der Bürgerkriegsveteran Benoit Frachon."
+comfrance.19.a: "Léon Jouhaux wird Vorsitzender der Allgemeine Arbeitsvermittlung."
+comfrance.19.b: "Benoît Frachon becomes Chairman of the Allgemeine Arbeitsvermittlung."
+
+comfrance.20.t: "Nach den Wahlen keine Mehrheit gefunden"
+comfrance.20.d: "Nach drei Tagen der Überprüfung ist es nun offiziell: Es hat sich keine feste Mehrheit aus den letzten Wahlen ergeben. Pierre Monatte, der Vorsitzende der Allgemeinen Arbeitsvermittlung, hat angekündigt, dass er und die Versammlung selbst einen neuen Vorsitzenden wählen würden, um ein Kompromisskabinett zu führen und auch um tiefere interne Kämpfe zwischen Jakobinern und Sorelianern zu vermeiden."
+ comfrance.20.c: "Monatte und Pivert bilden eine Kompromissregierung."
+
+comfrance.22.t: "Kamarad Blum's Aufruf zur Solidarität mit Spanien"
+comfrance.22.d: "Während der Bürgerkrieg die iberische Halbinsel verwüstet, stürmen Geschichten über den weißen Terror über die Pyrenäen und versetzen unsere Bevölkerung in Schrecken. Überall in der Kommune wurden spontane Versammlungen und Kongresse einberufen, um Geldmittel und Materialien für unsere spanischen Genossen zu sammeln, um die unerschütterliche Unterstützung der CNT-FAI zu zeigen.\n\n Bei einer solchen Veranstaltung hat der Orthodoxe-Delegierte Leon Blum eine kraftvolle Rede gehalten, in der er die Regierung aufforderte, ihre Unterstützung für die spanischen Arbeiter und Bauern fortzusetzen, indem sie sich in einer internationalen Volksfront gegen Reaktionäre und Monarchisten vereinigt. Diese "Volksfront"-Rede wurde weithin für ihre Eloquenz und solide sozialistische Überzeugung gelobt. Monsieur Blums Ruhm als öffentlicher Redner ist sicherlich verbessert worden."
+comfrance.22.a: "Sehr eloquent, Kamarad."
+
+comfrance.25.t: "Das Damokles Projekt?"
+comfrance.25.d: "Angeregt durch die Cambridge-Konferenz, die während des zehnten Kongresses der Internationale im Mai 1937 stattfand, fand in den letzten Wochen ein weiteres, eher geheimes Treffen an der Universität von Cambridge statt.\n\nEine Gruppe theoretischer Physiker aus Großbritannien und Frankreich unter der Leitung von Norman Feather, Frédéric Joliot-Curie und Francis Perrin erörtert die Möglichkeiten der Radioaktivität und der Kernspaltung sowie deren Einsatzmöglichkeiten - von der Stromerzeugung über medizinische Anwendungen bis hin zu leistungsfähigen strategischen Waffen. Die Teilnehmer beantragen Mittel für die Gründung des "Damokles-Projekts", eines gemeinsamen britisch-französischen Komitees für Kernforschung."
+comfrance.25.a: "Richten Sie das Projekt Damokles ein!"
+comfrance.25.b: "Wir werden kein Geld für solche Absurditäten verschwenden!"
+
+comfrance.26.t: "Etablierung des Damokles-Projekts"
+comfrance.26.d: "Die Regierung der [FROM.GetNameDef] hat unser Angebot bezüglich der Schaffung des gemeinsamen Damokles-Projekts angenommen. Dieses große Unternehmen wird es uns ermöglichen, den Syndikalismus in der ganzen Welt zu verbreiten!"
+comfrance.26.a: "Ausgezeichnet!"
+
+comfrance.27.t: "Großbritannien verweigerte die Zusammenarbeit!"
+comfrance.27.d: "Die Regierung der Union von Großbritannien hat unser Angebot bezüglich der Schaffung des gemeinsamen Damokles-Projekts abgelehnt. Wir werden das alleine führen müssen."
+comfrance.27.a: "Verdammt!"
+
+comfrance.28.t: "Die Dritte Internationale"
+comfrance.28.d: "Die Dritte Internationale wurde 1921, nach der Revolution, gegründet. Unsere Vorväter förderten innerhalb der Organisation eine pluralistische, groß angelegte Haltung: Anarchisten, Kommunisten, Sozialisten, Syndikalisten, Pazifisten, Antikolonialisten und sogar einige Sozialdemokraten wurden zusammengerufen, in der Hoffnung, das Fundament der weltweiten proletarischen Bewegung, die durch die Kriegsjahre erschüttert war, wieder aufzubauen. Jedes Jahr, dann alle paar Jahre, haben wir Kongresse abgehalten, um die Richtung des sozialistischen Kampfes zu diskutieren und festzulegen. Wir sind stolz darauf, sagen zu können, dass wir bald bereit sein werden, die neunte Ausgabe dieser Treffen abzuhalten, genau hier, in und um Paris. Dies wird mehr als eine einfache Konferenz sein, es wird ein großes Fest des Kampfes für die proletarische Befreiung sein!"
+comfrance.28.a: "Der Kongress findet eine Woche nach dem 1. Mai statt!"
+
+comfrance.29.t: "Der neunte Kongress der Dritten Internationale"
+comfrance.29.d: "Es ist an der Zeit, die sozialistischen und syndikalistischen Führer einzuladen, die aus der ganzen Welt kommen werden, um am neunten Kongress der Dritten Internationale teilzunehmen."
+comfrance.29.a: "Verschicken Sie die Einladungen!"
+
+comfrance.30.t: "Die Dritte Internationale"
+comfrance.30.d: "Frankreich ist mit seinen Plänen, den neunten Kongress der Dritten Internationale abzuhalten, durchgekommen, und wir haben, wie erwartet, eine Einladung erhalten. Es wäre töricht, keine Delegation zu entsenden."
+comfrance.30.a: "Fangen Sie an zu packen!"
+
+comfrance.41.t: "Alle Delegierten sind eingetroffen"
+comfrance.41.d: "Nach monatelangen fieberhaften Vorbereitungen ist in Versailles der neunte Kongress der Dritten Internationale eröffnet worden. Menschen aus der ganzen Welt sind zusammengekommen, um die Bemühungen der sozialistischen Bewegung zu koordinieren. Parteien, die der Internationale angeschlossen sind, sowie einige Sympathisanten und Beobachter wurden eingeladen, Vertreter zu entsenden, und Hunderte machten sich auf die manchmal beschwerliche Reise, um dem pulsierenden Herzen der proletarischen Revolution möglichst nahe zu sein. Obwohl die Internationale theoretisch keine Beziehung zu den Regierungen Frankreichs und Großbritanniens hat, werden die Vertreter dieser führenden sozialistischen Nationen mit Sicherheit einen informellen Rang unter ihresgleichen einnehmen, die Ältesten in der weltweiten Befreiung der Arbeiterklasse."
+comfrance.41.a: "Ein herzliches Willkommen an unsere Kameraden!"
+
+comfrance.42.t: "Eröffnung des Kongresses"
+comfrance.42.d: "Die Eröffnungssitzung des Neunten Kongresses der Dritten Internationale fand im Schloss von Versailles statt, das zu diesem Anlass mit karmesinroten Bannern mit sozialistischen Symbolen und Slogans geschmückt war. George Lansbury, der Vater der britischen Revolution, der die Ehre hatte, die Eröffnungsrede zu halten, wies auf die Ironie hin, dass die proletarischen Kräfte im ehemaligen Zentrum der autokratischen Monarchie zusammenkamen - ein Beweis für den unaufhaltsamen Vormarsch der Revolution, wenn es denn eines Beweises bedurfte. Es folgte eine große Rede, in der er den Delegierten dankte, an die revolutionären Erfolge der letzten Jahre erinnerte und Mut für den kommenden Kampf machte. In seinen Schlussworten forderte Lansbury die Delegierten auf, sich ihm in einer Gebetsminute anzuschließen, woraufhin eine französische Stimme prompt antwortete: "Den Teufel werden wir tun", was zu einigen Momenten der Erregung im Publikum führte. Dennoch erhielt der alte Mann reichlich Beifall, und die Vertreter teilten sich in verschiedene Diskussionsgruppen und Ausschüsse auf."
+comfrance.42.a: "Der neunte Kongress der Dritten Internationale ist hiermit eröffnet!"
+
+comfrance.421.t: "Die Internationale zeigt ihr wahres Gesicht"
+comfrance.421.d: "Die Roten sind eindeutig bereit, ihr Gift zu verteilen, wie sie in der letzten Sitzung der Internationale deutlich gezeigt haben! Wir müssen auf alles vorbereitet sein...!"
+comfrance.421.a: "Wir müssen bereit sein..."
+
+comfrance.43.t: "Syndikalismus in Spanien"
+comfrance.43.d: "Joaquín Ascaso Budriá hat die Bühne betreten und die Position der CNT-FAI in Spanien für den Kongress ausgearbeitet. Die CNT-FAI ist die größte syndikalistische Partei in Spanien, die sich aus Anarcho-Syndikalisten, gemäßigten Syndikalisten und Gewerkschaftern zusammensetzt. Die spanischen Revolutionäre haben den Weißen Terror, gewalttätige konterrevolutionäre Aktionen gegen die Arbeiter, aus erster Hand erlebt. Sie sind gekommen und bitten um Unterstützung für ihre Sache, wenn der Moment gekommen ist. Einstimmig wurde eine Resolution zur Unterstützung der spanischen proletarischen Kräfte verabschiedet, und die Rufe “¡Viva la Revolucion!“ hallten durch die Säle von Versailles."
+comfrance.43.a: "Unsere iberischen Kameraden können auf uns zählen!"
+
+comfrance.45.t: "Weißer Terror"
+comfrance.45.d: "Wir hörten Joaquín Ascaso Budriá über die Horrorgeschichten des Weißen Terrors, die aus Madrid und Barcelona kamen, und Kurt Eisner, bayerischer Sozialist, wollte tiefer in das Thema des Weißen Terrors eindringen, und er bekam das Wort. Nachdem sie weitere Geschichten aus Deutschland, Österreich, Ungarn, Russland und Finnland gehört hatten, waren die Kongressmitglieder bereit, ihre Entscheidungen zu treffen."
+comfrance.45.a: "Ein weiterer Grund, warum wir das kapitalistische System des Mordes und Raubes beenden müssen."
+
+comfrance.47.t: "Auch im Herzen des Kapitals"
+ comfrance.47.d: "Der amerikanische Delegierte John 'Jack' Reed hält eine leidenschaftliche Rede: Er ist von Beruf Journalist, einer der ersten Amerikaner, die über die russische und französische Revolution berichten, und wird später selbst politisch aktiv. Heute ist er eine angesehene Stimme in der Bewegung und hat seine Kandidatur für die Präsidentschaftswahlen 1936 für die SPA angekündigt. Trotz der Kritik im In- und Ausland, dass ihn dies in Richtung Reformismus ziehen würde, ist die Aussicht, einen überzeugten Sozialisten an der Spitze der Vereinigten Staaten zu sehen, zu verlockend für die Delegierten, um große Bedenken zu äußern, und Reed wurde vom Kongress herzlich empfangen. In seiner Rede ging er auf die derzeitige Lage in den Vereinigten Staaten ein: Die Große Depression, die sich nun schon seit Jahren hinzieht, hat die amerikanischen Arbeiter und Farmer in eine schreckliche Lage gebracht, die zu einem raschen Anstieg der radikalen Politik geführt hat, der durch den deutschen Crash noch verstärkt wurde. Die Arbeiterbewegung wird immer mächtiger, die SPA gewinnt rasch an Boden in den politischen Institutionen, und die proletarischen Kräfte halten der polizeilichen Repression und den reaktionären Milizen der Longisten stand: eine Gelegenheit scheint sich zu bieten."
+ comfrance.47.a: "Die rote Flagge wird an der Wall Street wehen!"
+comfrance.47.b: "Bieten Sie Unterstützung für Reed und seine Kameraden an."
+comfrance.47.c: "Wir können noch keine Feindschaft mit Amerika riskieren."
+
+ comfrance.50.t: "Hoffnungen in Lateinamerika"
+ comfrance.50.d: "Anschließend fand eine gemeinsame Veranstaltung der lateinamerikanischen Genossen statt. Süd- und Mittelamerika haben sich in den letzten Jahren an die Spitze des sozialistischen Kampfes gestellt. Als Hauptopfer amerikanischer Interessen, die unaufhörlich vom internationalen Kapital ausgebeutet und von kleinen Diktatoren, die Marionetten dieser oder jener 'Yanqui'-Lobby sind, haben die Massen Amerikas die Nase voll. Jeden Tag schließen sich mehr Arbeiter dem Kampf an dieser Frontlinie des Imperialismus an, und wenn wir unseren Genossen glauben, ist der gesamte Kontinent nur noch einen Schritt von der Befreiung entfernt. Ein dicht gedrängtes Publikum lauschte gespannt den Heldengeschichten der patagonischen Revolutionäre, den neuesten Informationen über die noch junge nicaraguanische Revolution oder den Erzählungen von Veteranen der mexikanischen Revolution, die ganz Lateinamerika inspiriert hat. Delegierte aus anderen Ländern wie Brasilien oder Kuba berichteten ausführlich über den Stand des proletarischen Kampfes in ihren Ländern, und viele von ihnen zeigten sich sehr optimistisch, was die Aussichten für die kommenden Jahre angeht."
+comfrance.50.a: "Beginnen Sie, den Syndikalismus in Lateinamerika zu fördern."
+comfrance.50.b: "Wir sollten den Syndikalismus anderswo aufbauen, wir müssen unsere Prioritäten ordnen."
+
+comfrance.51.t: "Die Rolle der Frauen in der weltweiten Revolution"
+comfrance.51.d.FRA: "Heute betrat die britische Feministin Helen Crawfurd die Bühne mit einer flammenden Rede über die Rolle der Frauen in der Weltrevolution. Ihren Argumenten zufolge könnte es ohne die Beteiligung von Frauen in der Industrie und den Streitkräften unmöglich sein, die vielen Feinde des Proletariats zu besiegen. Die Beherzigung dieses Aufrufs wird jedoch wahrscheinlich einige Unruhen unter den eher "konservativen" Elementen der Gesellschaft hervorrufen."
+comfrance.51.d.other: "Heute betrat die britische Feministin Helen Crawfurd die Bühne mit einer flammenden Rede über die Rolle der Frauen in der Weltrevolution. Ihren Argumenten zufolge könnte es ohne die Beteiligung von Frauen in der Industrie und den Streitkräften unmöglich sein, die vielen Feinde des Proletariats zu besiegen. Während unsere Delegation ihrer Botschaft von ganzem Herzen zustimmt, befürchten einige, dass es noch zu früh ist, die Frage der Frauenbefreiung wirklich voranzutreiben, und dass die formelle Bestätigung der Rede nur eine unnötige häusliche Störung ist."
+comfrance.51.a: "Die Beteiligung von arbeitenden Frauen ist notwendig, um die Welt-Revolution zu verwirklichen."
+comfrance.51.b: "Eine tapfere Frau, aber wir werden nicht antworten."
+
+comfrance.52.t: "Die Rolle der Frauen in der weltweiten Revolution"
+comfrance.52.d: "Gestern hielt Helen Crawfurd auf der Bühne eine flammende Rede über die Rolle der Frauen in der Weltrevolution. Sie argumentierte, dass es ohne die volle Beteiligung der Frauen am Kampf unmöglich sein könnte, die vielen Feinde des Proletariats zu besiegen. So verlockend es auch erscheinen mag, das politische Klima in Britannien ist für eine solche Entscheidung noch nicht bereit - wir müssen auf den Gewerkschaftskongress im Herbst warten, um die Sache zu forcieren."
+comfrance.52.a: "So soll es sein."
+
+comfrance.53.t: "Unterstützung des Risorgimento"
+comfrance.53.d: "Der heutige Tag ist eine Gelegenheit für unsere Vertreter auf dem Kongress der Dritten Internationale, ihre Argumente vorzubringen, um internationale Unterstützung für unsere Bemühungen um die Wiedervereinigung zu erbitten. Der Außenminister glaubt, dass die französische Unterstützung für das Risorgimento aufgrund der möglichen österreichischen Beteiligung entscheidend für dessen Erfolg sein könnte."
+comfrance.53.a: "Bittet um Unterstützung für das Risorgimento!"
+comfrance.53.b: "Es gibt wichtigere Themen als diese."
+
+comfrance.54.t: "Politik auf der italienischen Halbinsel"
+comfrance.54.d: "Delegierte der Sozialistischen Republik Italien traten vor dem Kongress auf und plädierten dafür, die Republik in ihren Bemühungen um die Wiedervereinigung der italienischen Halbinsel gegenüber den Verrätern jenseits des Po, dem Königreich Sizilien und ihrem theokratischen Vasallen in Rom, zu unterstützen. Ein Engagement in Italien könnte sich als vorteilhaft für die Ausbreitung der Revolution erweisen, könnte aber zu einem Konflikt mit dem reaktionären Österreichischen Kaiserreich führen, das für den Schutz des Regimes in Mailand verantwortlich war."
+comfrance.54.a: "Garantieren Sie unseren Freunden in Turin Hilfe, wenn die Zeit gekommen ist."
+
+comfrance.55.t: "Die Weltwirtschaftskrise und die Dritte Internationale"
+comfrance.55.d: "Mit dem Berliner Börsenkrach ist in Europa und Südamerika eine Massenarbeitslosigkeit entstanden, und in beiden Ländern haben die Gewerkschaften infolgedessen zu wachsen begonnen. Die französische und die britische Regierung führten streng geheime Gespräche, und langsam, aber sicher wurde allen klar: Jetzt könnte die Stunde schlagen, jetzt könnte der Moment sein, eine gewaltige Anstrengung muss unternommen werden. Doch was genau diese gewaltige Anstrengung sein würde, erwies sich als umstritten, und als der Kongress schließlich zu einer Abstimmungsrunde zusammenkam, dauerten die Debatten bis tief in die Nacht, wobei die Positionen von einer bloßen Verurteilung bis hin zu Aufrufen zum sofortigen bewaffneten Kampf reichten.\n\nSchließlich wurde beschlossen, dass unter der Schirmherrschaft der Dritten Internationale und der sozialistischen Großmächte bald ein Rahmen für eine engere internationale Zusammenarbeit geschaffen werden sollte. Hilfe bei der Entwicklung sozialistischer Volkswirtschaften, eine stärkere wirtschaftliche Integration, Forschungs- und Entwicklungsprogramme sowie ständige internationale Kooperationsräte würden den freien Nationen der Welt helfen, gemeinsam zu handeln und sich auf den Endkampf vorzubereiten. Gleichzeitig würden Initiativen zur konkreteren Unterstützung der sozialistischen Bemühungen in den kapitalistischen Ländern ergriffen, sowohl offen als auch verdeckt. Natürlich müssen die Regierungen die Details noch ausfüllen, aber der Vorschlag wurde fast einstimmig angenommen. Nur über einen Punkt musste noch abgestimmt werden: den Namen dieser Initiative. Ein französischer Delegierter schlug 'Phalanstère' vor, eine Hommage an die vom utopischen Sozialisten Charles Fourier gegründeten harmonischen und sich selbst erhaltenden Gemeinschaften, ein Vorschlag, der sofort Anklang fand: Durch den Aufbau dieser internationalen Phalanstère werden die Arbeiter der Welt bald die Utopie erobern, die sie verdient haben."
+comfrance.55.a: "Eine entscheidende Gelegenheit!"
+
+comfrance.56.t: "Der Stand des indischen Sozialismus"
+comfrance.56.d: "Als sich der Kongress seinem Ende nähert, ergreift der junge Jawaharlal Nehru das Wort, um den prekären Zustand unserer revolutionären Regierung zu erklären. In seiner Rede ruft er nachdrücklich zur internationalen Unterstützung beim Aufbau einer Volksarmee auf, die es mit unseren Feinden in Lahore und Hyderabad aufnehmen kann."
+comfrance.56.a: "Wir brauchen internationale Unterstützung bei der Organisation unserer Armee!"
+comfrance.56.b: "Nein, uns geht es gut, so wie wir sind."
+
+comfrance.57.t: "Die Bharatiya-Kommune bittet um Unterstützung"
+comfrance.57.d: "Die Bharatiya-Kommune bat um Unterstützung in ihrem Kampf gegen ihre Nachbarn - das Dominion von Indien und die Fürstliche Föderation. Sie möchten, dass wir Militärberater schicken, um ihre Anführer und ihre Truppen auszubilden."
+comfrance.57.a: "Schickt Militärberater, um ihre Armee auszubilden!"
+comfrance.57.b: "Wir können unsere Ressourcen nicht verschwenden."
+
+comfrance.58.t: "Genosse Saïl Mohamed möchte sprechen"
+comfrance.58.d: "Genosse Saïl Mohamed, ein prominenter algerischer Sozialist, durfte vor dem versammelten Kongress sprechen. Er hat eine mitreißende Rede über die Situation in Marokko und Französisch-Afrika gehalten, wo die arabische Arbeit zum Nutzen der Reichen und des kolonialen Establishments missbraucht und ausgebeutet wird. Sail forderte den Kongress auf, der Situation sofort Einhalt zu gebieten. Er schlug die Schaffung eines sozialistischen antikolonialen Komitees vor, das daran arbeiten wird, lokale syndikalistische antikoloniale Verschwörer in Nordafrika zu versorgen."
+comfrance.58.a: "Wir werden die Einrichtung des Ausschusses gerne unterstützen."
+
+comfrance.59.t: "Das Ende des neunten Kongresses"
+ comfrance.59.d: "Der Neunte Kongress der Dritten Internationale ist endlich zu Ende gegangen. Er war reich an Ereignissen und Emotionen, hat einmal mehr den Zusammenhalt der internationalen sozialistischen Bewegung gestärkt und ihren Kurs für die unmittelbare Zukunft festgelegt und kann nur als Erfolg bezeichnet werden. Die letzte Abstimmung der Delegierten betraf den Ort des nächsten Kongresses, und obwohl viele Städte vorgeschlagen wurden, wurde schließlich beschlossen, dass er in London, der anderen großen sozialistischen Hauptstadt, stattfinden sollte. Viele Delegierte traten vor, um ihre abschließenden Bemerkungen zu machen und ihren Genossen zu danken.\n\nWenn sie nach Hause kommen, werden sich die Delegierten mit den Folgen eines der größten Ereignisse seit den Revolutionen auseinandersetzen müssen, das sicherlich eine Gelegenheit zum entschlossenen Handeln bietet. Doch zuvor wurden sie mit einer Zeremonie gebührend verabschiedet. Auf dem Montmartre-Hügel, dem Geburtsort der Pariser Kommune von 1871, fand eine große, der Öffentlichkeit zugängliche Aufführung statt, bei der die besten französischen Künstler, regionale Kostüme und Traditionen sowie sportliche Leistungen und technische Innovationen gezeigt wurden. Es folgte ein großes Bankett mit Gerichten aus allen Teilen der Kommune für die zahlreichen Delegierten, das bis tief in die Nacht dauerte. Natürlich beendeten die Gäste dieses Erlebnis der freudigen sozialistischen Einheit auf die einzige Art und Weise, wie es möglich war: mit dem stolzen Gesang der 'Internationale'."
+ comfrance.59.a: "Und morgen wird die Internationale die Menschheit sein!"
+
+comfrance.61.t: "Der erste Schritt der Syndikalisten"
+comfrance.61.d: "Die Roten treffen sich, um ihre Aktivitäten zu koordinieren, die definitiv gegen die Ordnung gerichtet sind, die wir nach unserem Sieg im Weltkrieg in Europa errichtet haben. Wir müssen dieses Treffen beobachten und seine Ergebnisse genau analysieren!"
+comfrance.61.a: "Passen Sie auf!"
+
+comfrance.62.t: "Kommunard Französisch Militärische Unterstützung"
+comfrance.62.d: "Nachdem unsere Delegierten auf dem neunten Kongress der Dritten Internationale um militärische Unterstützung für die Organisation der indischen Revolutionsarmee gebeten hatten, beschlossen die Union Britanniens und die Kommune Frankreichs, hochrangige Militärs und Experten zu entsenden, um unsere vordersten Offiziere auszubilden. Hoffentlich wird diese Zusammenarbeit auf dem Schlachtfeld nützliche Ergebnisse bringen!"
+comfrance.62.a: "Die Rote Armee soll diese Kameraden einsetzen!"
+
+comfrance.63.t: "Der Aufstieg des Sozialistischen Antikolonialkomitees"
+comfrance.63.d.NFA: "Unsere Gegenspionage-Spezialisten haben in letzter Zeit einen Anstieg der syndikalistischen Aktivitäten in unserem Land festgestellt. Wir wissen, dass die Kommune von Frankreich zusammen mit der Union von Großbritannien ein antikoloniales Komitee in der Internationale gegründet hat. Dieses Komitee koordiniert mit Hilfe von Mohamed Saïl, einem in Frankreich lebenden Verräter des algerischen Volkes, die Bemühungen der Syndikalisten zur Unterstützung der antikolonialen Gesinnung in unseren afrikanischen Gebieten.\n\nDie syndikalistischen Mächte haben erhebliche Mengen an Waffen und Material geschickt, um die einheimischen Rebellen zu unterstützen. Sie haben auch einige Trainingslager in den südlichsten Teilen des Landes eröffnet. Während die eher vergesslichen Politiker in unserem Land glauben, dass nichts dabei herauskommen wird, warnen uns unsere Generäle, dass wir vorsichtig sein müssen."
+comfrance.63.d.GER: "Das Wort hat sich herumgesprochen. Die Kommune Frankreichs hat zusammen mit anderen Mitgliedern der Internationale ein sozialistisches antikoloniales Komitee gegründet. Das Komitee will die Sache der Araber und Afrikaner bei der Befreiung ihrer Heimatländer aus den Händen der Kolonialmächte, insbesondere der Überreste des französischen Staates, unterstützen.\nDieses Gremium wird die Aktionen der syndikalistischen Kräfte in Nord- und Westafrika koordinieren. Unsere Geheimdienstberichte zeigen, dass ein kleiner Zustrom von ägyptischen Linksradikalen, die für die revolutionäre Sache kämpfen wollen, auch auf französischem Territorium ankommt. Obwohl wir uns im Moment nicht im Krieg mit der Kommune von Frankreich oder einem anderen syndikalistischen Land befinden, sollten wir sehr vorsichtig sein."
+comfrance.63.d.OTT: "Das Wort hat sich durch deutsche Agenten in Frankreich verbreitet. Die Kommune Frankreichs hat zusammen mit anderen Mitgliedern der Internationale ein sozialistisches antikoloniales Komitee ins Leben gerufen. Das Komitee will die Sache der Araber und Afrikaner bei der Befreiung ihrer Heimatländer aus den Händen der Kolonialmächte, insbesondere der Überreste des französischen Staates, unterstützen.\nDieses Gremium wird die Aktionen der syndikalistischen Kräfte in Nord- und Westafrika koordinieren. So sehr uns die koloniale Herrschaft über unsere ehemaligen Territorien in Nordafrika auch missfallen mag, so beunruhigend ist diese Initiative. Es ist wahrscheinlich, dass die Kommune dafür kämpfen wird, Revolutionäre und Nationalisten vorzuschlagen, die mit der syndikalistischen Sache sympathisieren. Die Initiative spielt auch in den Versuch Ägyptens hinein, den arabischen Nationalismus im Nahen Osten und Nordafrika zu fördern, und könnte unseren Rivalen stärken. Aus diesen Gründen müssen wir vorsichtig sein, auch wenn wir nicht das Hauptziel sein werden."
+comfrance.63.d.SPA: "Das Wort hat sich nach Spanien verbreitet. Die Kommune Frankreichs hat zusammen mit anderen Mitgliedern der Internationale ein sozialistisches antikoloniales Komitee gegründet. Das Komitee will die Sache der Araber und Afrikaner bei der Befreiung ihrer Heimatländer aus den Händen der Kolonialmächte, insbesondere der Überreste des französischen Staates, unterstützen.\nDieses Gremium wird die Aktionen der syndikalistischen Kräfte in Nord- und Westafrika koordinieren. Hoffen wir, dass wir nicht eines seiner Ziele sein werden, denn wir haben im Moment andere, wichtigere Themen, mit denen wir uns beschäftigen müssen."
+comfrance.63.a: "Eine beunruhigende Entwicklung."
+
+comfrance.64.t: "Die Gründung des Sozialistischen Antikolonialkomitees"
+comfrance.64.d: "Unsere Genossen in Frankreich haben kürzlich ein sozialistisches antikoloniales Komitee gegründet. Mit Hilfe des algerischen Revolutionärs Mohamed Saïl zielt das Komitee darauf ab, nationalistischen und syndikalistischen Revolutionären in ganz Afrika zu helfen und alle kolonialen Regierungen zu zerstören. Auch wenn offiziell nichts in diesem Sinne gesagt wurde, ist es offensichtlich, dass sich das Komitee direkt gegen die reaktionäre französische Regierung in Algier richtet, die Schwierigkeiten hat, ihre kolonialen Besitztümer zu verwalten.\n\nDie Franzosen haben uns eingeladen, im Komitee mitzuarbeiten und mit der Entsendung von Ausrüstung, Waffen und Propaganda zu helfen, wozu wir gerne bereit waren. Gemeinsam sind wir stärker, und wir werden bald in der Lage sein, alle afrikanischen Arbeiter aus dem Griff der Imperialisten zu befreien!"
+comfrance.64.a: "Solidarität auf ewig!"
+
+comfrance.65.t: "Worauf sollte sich der Ausschuss konzentrieren?"
+comfrance.65.d.default: "Das Komitee wurde heute einberufen, in Paris. Um den Sitzungstisch herum sind französische, britische, algerische, senegalesische oder auch tunesische Vertreter anwesend, um das Thema des Tages zu besprechen. Zuvor wurde beschlossen, dass eine große Operation gegen die französische Regierung in Algier durchgeführt werden soll, um deren Herrschaft über Afrika zu schwächen. Was jedoch noch zur Debatte stand, ist, wie genau wir ihnen schaden wollen. Unsere Optionen könnten sein, eine Welle von Sabotage und Aufständen gegen ihre Industrie zu starten, rebellische Elemente in einer bestimmten Region massiv zu unterstützen oder mit Hilfe eines großen Propagandanetzwerks Unruhen in ganz Afrika zu schüren. Was sollten wir tun?"
+comfrance.65.d.collapse: "Das Komitee wurde heute einberufen, in Paris. Um den Tisch der Sitzung sind französische, britische und algerische Vertreter anwesend, um die Angelegenheit des Tages zu besprechen. Es wurde zuvor beschlossen, dass eine große Operation gegen den Rest der französischen Regierung in Algier durchgeführt werden sollte, um das zu schwächen, was von ihrer Herrschaft über Afrika übrig ist. Am Ende wurde beschlossen, dass in dieser Situation die einzige vernünftige Option darin besteht, eine Welle von Streiks und Sabotage zu starten, um ihre industrielle Basis zu schädigen."
+comfrance.65.a: "Schwächen ihre industrielle Kapazität"
+comfrance.65.b: "Rebellenelemente unterstützen"
+comfrance.65.c: "Verbreitung von Unruhen in ganz Französisch-Afrika"
+
+comfrance.66.t: "Welle der Sabotage"
+comfrance.66.d: "Ohne jede Vorankündigung begann eine große Welle von gewaltsamen Streiks in einigen unserer Industriestandorte. Diese Streiks sind anders als das, was wir gewohnt sind, sie werden nur von einem kleinen Teil der Arbeiter durchgeführt und scheinen kein klares Motiv zu haben, Fabrikbosse im ganzen Land fanden nur eine besetzte Fabrik vor und einen großen Teil der Ausrüstung zertrümmert. In anderen Fabriken besetzten die Arbeiter zwar nicht die Fabrik, aber ein großer Teil der Maschinen wurde trotzdem beschädigt oder zerstört vorgefunden. Die Unterdrückung der Streiks und die Verhaftung ihrer Teilnehmer war nicht allzu schwierig, aber es scheint ein Schuss ins Blaue zu sein, da diese Vorfälle eindeutig von anderswo aus gesteuert wurden..."
+comfrance.66.a: "Diese verdammten Kommunarden!"
+
+comfrance.67.t: "Syndikalisten schüren Aufstand"
+comfrance.67.d: "Die Kolonialbehörden und das Zweite Büro haben uns berichtet, dass in den letzten Wochen ein ungewöhnlicher Zustrom von Waffen und Ausrüstung in eine unserer Kolonien geflossen ist. Das alles kommt offensichtlich von der französischen Kommune, die die Dunkelheit der Nacht nutzt, um Waffen in unser Gebiet zu schmuggeln, uns zu destabilisieren und zur Rebellion anzustiften. Wir haben jedoch zu lange gebraucht, um diesen Plan aufzudecken, und die Revolutionäre sind jetzt gut genug bewaffnet, um in ihrem Widerstand bestärkt zu werden. Wir können nur hoffen, dass wir in der Lage sein werden, den Sturm zu überstehen."
+comfrance.67.a: "Verräter überall!"
+
+comfrance.68.t: "Kampagne der Ablehnung"
+comfrance.68.d: "In den letzten Wochen haben wir eine verstärkte Propagandaaktivität festgestellt, die von nationalistischen und syndikalistischen Agitatoren ausging. Es sieht so aus, als ob sie plötzlich mit Zehntausenden von Flugblättern und vorbereiteten Radioansprachen ausgestattet wurden und ihre Worte über die Untaten unseres Regimes überall in Afrika verbreiten. Propaganda, zumal wenn sie von der französischen Kommune unterstützt wird, ist schwer zu stoppen, wir können unmöglich jedes Flugblatt beschlagnahmen, das in unseren Kolonien verbreitet wird. Dies ist jedoch keine völlig verlorene Schlacht, da wir versuchen können, uns auf eine bestimmte Region zu konzentrieren, in der unsere Agenten die Radiostationen abschalten und jedes verdächtige Dokument beschlagnahmen werden. Auf diese Weise können wir zumindest die Auswirkungen der Kampagne in einer oder zwei Regionen unserer Wahl reduzieren..."
+comfrance.68.a: "Schwerpunkt Tunesien"
+comfrance.68.b: "Schwerpunkt auf Mauretanien und Südalgerien"
+comfrance.68.c: "Schwerpunkt Senegal und Guinea"
+comfrance.68.e: "Schwerpunkt auf Sudan und Obervolta"
+comfrance.68.f: "Schwerpunkt Tschad und Niger"
+
+comfrance.71.t: "Der Zehnte Kongress der Dritten Internationale"
+comfrance.71.d: "Da der Zweite Amerikanische Bürgerkrieg wütet, sowie eine Reihe anderer Konflikte, die jederzeit auf der ganzen Welt ausbrechen können, muss die Internationale ihren Ansatz gegenüber der globalen Revolution neu definieren. Da der letzte Kongress der Internationale in Frankreich stattfand, glauben viele Aktivisten, dass es das Beste wäre, Großbritannien zum nächste Gastgeber zu machen."
+comfrance.71.a: "Es wäre eine Ehre, Gastgeber des Kongresses zu sein."
+
+comfrance.72.t: "Der Zehnte Kongress der Dritten Internationale"
+comfrance.72.d: "Unsere britischen Kameraden haben ihre Bereitschaft bestätigt, Der zehnte internationale Kongress in London auszurichten. Es ist Zeit für [ROOT.GetNameDef], seine Teilnahme zu bestätigen."
+comfrance.72.a: "Wir nehmen teil."
+
+comfrance.86.t: "Eröffnung des Zehnten Kongresses der Dritten Internationale"
+comfrance.86.d: "Mit allen Delegierten in London begann der zehnte Kongress der Internationale mit einer Rede von Genosse Eric Blair. In seiner sogenannten "Schild-und-Schwert-Rede" unterstrich er die Notwendigkeit, dass die Internationale ihre Anstrengungen verdoppelt, um das "Damoklesschwert" zu schmieden - eine Waffe, die in der Lage ist, die Reaktionäre in der ganzen Welt ein für alle Mal zu vernichten."
+comfrance.86.a: "Bravo, Genosse Blair!"
+
+comfrance.87.t: "Tag 2 - Die amerikanische Frage"
+comfrance.87.d: "Am zweiten Tag besprachen die Delegierten die dringendste Angelegenheit - die Entwicklung des Bürgerkriegs in Amerika. Da Long und die Bundesregierung die CSA in die Defensive drängten, wurde beschlossen, zusätzliche Hilfe für Reed und seine Anhänger zu schicken."
+comfrance.87.a: "Stellen Sie Ressourcen, Industriemaschinen und Waffen bereit."
+comfrance.87.b: "Schicken Sie ein erstklassiges Jagdgeschwader."
+comfrance.87.c: "Organisieren Sie eine Division von Freiwilligen."
+comfrance.87.f: "Wir können nichts mehr entbehren."
+
+comfrance.90.t: "Französische Unterstützung kommt an"
+comfrance.90.d: "Unsere französischen Kameraden haben sich bereit erklärt, uns zusätzliche Hilfe zu schicken. Aus Mexiko unter ständiger Bedrohung aus der Luft transportiert, sind eine Reihe von Industrieausrüstungen und modernen Werkzeugmaschinen sowie Industrieberater in Chicago eingetroffen."
+comfrance.90.a: "Danke, Genossen!"
+
+comfrance.91.t: "Britische Hilfe kommt an"
+comfrance.91.d: "Unsere britischen Kameraden haben zugestimmt, uns zusätzliche Hilfe zu schicken. Ein unter ständiger Luftbedrohung aus Mexiko herbeigeschafftes Geschwader britischer Kampfpiloten ist vor kurzem in Chicago eingetroffen und wartet auf unsere Befehle."
+comfrance.91.a: "Danke, Genossen!"
+
+comfrance.94.t: "Mexikanische Hilfe kommt an"
+comfrance.94.d: "Unsere mexikanischen Kameraden haben zugestimmt, uns zusätzliche Hilfe zu schicken. Unter ständiger Luftbedrohung über die Grenze transportiert, ist eine Waffenlieferung in Illinois eingetroffen, die wir nutzen können."
+comfrance.94.a: "Danke, Genossen!"
+
+comfrance.97.t: "Tag 3 - Hemingways Rede"
+comfrance.97.d: "Nachdem die amerikanische Frage geklärt war, betrat Ernest Hemingway, der Delegierte der Syndikate auf dem Kongress, die Bühne. Er dankte allen, die die Sache der CSA unterstützt hatten, und rief die sozialistische Welt zum ständigen Kampf gegen die Reaktionäre auf. Die Rede wurde mit großem Beifall aufgenommen, besonders von der französischen Delegation."
+comfrance.97.a: "Ja, wir können!"
+comfrance.97.b: "Oui, nous pouvons!(Ja, wir können!)"
+comfrance.97.c: "Eine große Rede."
+
+comfrance.98.t: "Day 3 - Hemingways Rede"
+comfrance.98.d: "Der sozialistische Delegierte bei des zweiten internationalen Kongresses, Ernest Hemingway, hat heute eine Rede gehalten, in der er unser Vorgehen gegen die CSA verurteilt und zu verstärkter Unterstützung der Roten in diesem Krieg aufruft. Wir müssen unsere Anstrengungen verdoppeln und Reed zerschlagen, bevor er weitere Hilfe erhält."
+comfrance.98.a: "Vorwärts!"
+
+comfrance.99.t: "Die Cambridge Konferenz"
+comfrance.99.d: "Neben den Politikern in London fand ein separates Treffen von Wissenschaftlern aus Frankreich und Großbritannien in der alten Universität in Cambridge statt. Es wurde beschlossen, dass die sozialistischen Länder ihre Forschungen zusammenschließen sollten, um eine Waffe zu entwickeln, die die Revolution vor der zunehmend aggressiven imperialistischen Bedrohung schützen könnte."
+comfrance.99.a: "Wissen ist Macht."
+
+comfrance.100.t: "Tag 5 - Internationale Unterstützung für Chile anfordern"
+comfrance.100.d: "Das sozialistische Regime in Santiago ist von Reaktionären umgeben, insbesondere in Argentinien. Es scheint, dass der beste Weg, die Regierung zu schützen, darin besteht, über den Kongress der Internationalen um internationale Unterstützung zu bitten."
+comfrance.100.a: "Wir sind nicht allein."
+
+comfrance.101.t: "Tag 5 - Chile bittet um Unterstützung"
+comfrance.101.d: "Die Chilenen haben um Hilfe bei der Verbesserung ihrer Armee angesichts feindlicher imperialistischer Feinde wie Argentinien gebeten. Von praktisch allen Seiten von Bedrohungen umgeben, könnte die Position Chiles ohne unsere Hilfe immer prekärer werden. Außerdem könnten sie sich bei der Sicherung der Revolution in der Neuen Welt als unschätzbar erweisen."
+comfrance.101.a: "Wir können Chile nicht fallen lassen."
+comfrance.101.b: "Leider können wir nicht jedem helfen."
+
+comfrance.102.t: "Die [FROM.GetAdjective] weigern sich zu helfen!"
+comfrance.102.d: "Die [FROM.GetAdjective] waren von unseren Bemühungen, um Unterstützung zu werben, nicht bewegt und argumentierten, dass Chile durchaus in der Lage sei, sich zu verteidigen und die Revolution in Südamerika voranzutreiben."
+comfrance.102.a: "Wir können es verkraften."
+
+comfrance.103.t: "Die [FROM.GetAdjective] hat sich bereit erklärt zu helfen!"
+comfrance.103.d: "[FROM.GetNameDefCap] hat sich bereit erklärt, uns zu helfen. Wir werden die Lieferung wahrscheinlich in einigen Tagen erhalten, nachdem sie mit den Vorbereitungen fertig sind."
+comfrance.103.a: "Wundervoll!"
+
+comfrance.104.t: "FROM.GetAdjective] Hilfe kommt an"
+comfrance.104.d: "Die uns versprochene Hilfe [FROM.GetNameDef] ist endlich eingetroffen. Es ist eine Lieferung von Gewehren, nicht die modernsten oder effektivsten Modelle, aber wir können sie trotzdem gut gebrauchen."
+comfrance.104.a: "Die Hilfe wird dringend benötigt."
+
+comfrance.110.t: "Die Schlussakte des zehnten Internationalen Kongresses"
+comfrance.110.d: "Nachdem in der ersten Woche alle wichtigen Entscheidungen getroffen wurden, ist der Kongress zu weniger dringenden Angelegenheiten übergegangen. Nach zehn Tagen Verhandlungen, Diskussionen und Politisieren kamen die Delegierten zu einem letzten Akt - einer Erklärung der ewigen Brüderlichkeit und der Bereitschaft, sich den Imperialisten entgegenzustellen, wo immer sie zu finden sind."
+comfrance.110.a: "[FRA_workers_of_the_world_unite]"
+
+FRA_workers_of_the_world_unite_ENG: "Proletarier aller Länder, vereinigt euch!"
+FRA_workers_of_the_world_unite_FRA: "Prolétaires de tous les pays, unissez-vous."
+FRA_workers_of_the_world_unite_SPA: "Proletarios del mundo, uníos!"
+FRA_workers_of_the_world_unite_ITA: "Proletari di tutti i paesi, unitevi!"
+FRA_workers_of_the_world_unite_POR: "Proletários de todos os países, uni-vos!"
+FRA_workers_of_the_world_unite_RUS: "Proletarii vsekh stran, sojedinjajtes!"
+FRA_workers_of_the_world_unite_IRE: "A lucht oibre an domhain, aontaígí!"
+
+ #comfrance.116.t: "Der Tod von Tom Mann"
+ #comfrance.116.d: "Tom Mann ist im Alter von 84 Jahren in seinem Haus in Grassington, Nord-Yorkshire, verstorben. Als Zweiter Vorsitzender der Union of Britain und 'volanischer' Erbe des Revolutionsführers A.J. Cook waren seine Autorität und sein Einfluss in der Gewerkschaft beispiellos. Bei seiner Beerdigung erklärte der TUC-Vorsitzende: "Genosse Mann hat uns verlassen - aber seine Ideen werden weiterleben, für immer.' Die Zeremonie hat sich als eine der größten öffentlichen Manifestationen von Patriotismus seit der Revolution von 1925 erwiesen."
+ #comfrance.116.a: "Sic transit gloria mundi...(So vergeht der Ruhm der Welt)"
+
+comfrance.117.t: "Der Tod von Tom Mann"
+comfrance.117.d: "Tom Mann ist im Alter von 84 Jahren in seinem Haus in Grassington, Nord-Yorkshire, verstorben. Der Verräter und Zweite Vorsitzende der Union of Britain, Mann, ist bei den Royalisten als Synonym für Verrat in Erinnerung geblieben. Obwohl die Sozialisten in Großbritannien seinen Tod betrauern, ist sein Begräbnis in Kanada zu einem einzigen hellen Tag in dieser dunklen Periode der Geschichte geworden."
+comfrance.117.a: "Der Teufel ist tot."
+
+comfrance.124.t: "Französische Hilfe kommt an!"
+comfrance.124.d: "Unsere französischen Genossen haben die Notlage der spanischen Arbeiter gesehen und haben uns beträchtliche Sendungen von Vorräten geschickt! Es sind auch viele Freiwillige eingetroffen, die bereit sind, für die Sache der internationalen proletarischen Solidarität zu kämpfen!"
+comfrance.124.a: "Großartig!"
+
+comfrance.125.t: "Französische Hilfe kommt an!"
+comfrance.125.d: "Die von unseren französischen Kameraden versprochene Hilfe ist heute endlich auf dem Flughafen von Santiago eingetroffen, und tonnenweise Geräte, Maschinen und Baumaterialien warten auf unsere Entscheidung, was wir damit machen sollen."
+comfrance.125.a: "Verwenden Sie es, um unsere Armee zu verbessern."
+comfrance.125.b: "Nutzen Sie es, um unsere Industrie zu verbessern."
+comfrance.125.c: "Verwenden Sie es, um unsere Grenze zu Argentinien zu befestigen."
+
+comfrance.127.t: "Die Phalansteriesche Internationale Forschungsorganisation"
+comfrance.127.d: "Im Laufe der Zeit hat sich schnell gezeigt, dass die globale Revolution weit mehr als nur Hingabe an die Sache erfordert. Da Frankreich und Großbritannien die einzigen hochentwickelten sozialistischen Länder der Welt sind, hat es sich durchgesetzt, dass sie ein langfristiges Forschungshilfeprogramm für andere Länder auflegen. Und so wurde die sogenannte "Phalansteriesche Internationale Forschungsorganisation" ins Leben gerufen, ein Zweig des Programms "Phalansteriesche Internationale", der darauf abzielt, den sozialistischen Ländern in der ganzen Welt technologische Unterstützung zu geben. Die Frage ist nun, ob wir uns diesem Bestreben anschließen sollen."
+comfrance.127.a: "Beteiligung klingt gut."
+
+comfrance.128.t: "Das Phalansteriesche Internationale Industrieprogramm"
+comfrance.128.d: "Es ist vielen in der Internationale klar geworden, dass es die Verantwortung aller ausreichend entwickelten syndikalistischen Nationen ist, den Nationen, die weniger in der Lage sind, sich selbst zu versorgen, industrielle Unterstützung zu gewähren. Wir haben nun die Wahl zu entscheiden, ob wir uns mit den Arbeitern auf der ganzen Welt solidarisch zeigen sollen, indem wir an der Seite unserer französischen Waffenbrüder ein massives Programm industrieller Hilfe umsetzen."
+comfrance.128.a: "Das klingt nach einer tollen Idee!"
+
+comfrance.129.t: "Die Phalanstère bietet Unterstützung"
+comfrance.129.d: "Im Rahmen des Programms Phalansteriesche Internationale haben uns unsere Genossen in Paris und London gerade dringend benötigte Hilfe angeboten. Industriemaschinen, Bergbauausrüstung, Waffen, Munition und mehr - all das wird in unseren Häfen und Flughäfen entladen und quer durchs Land transportiert werden - vorausgesetzt, wir wünschen das."
+comfrance.129.a: "Exzellent!"
+comfrance.129.b: "Wir möchten ihre Hilfe nicht."
+
+comfrance.130.t: "Eine jakobinische Reformation?"
+comfrance.130.d: "Nachdem das jakobinisch geführte Comité de Salut Public (Ausschuss für öffentliche Sicherheit) endlich die Kontrolle über die Kommune übernommen hat, ist es nun gespalten. Die Hardliner fordern die Abschaffung der syndikalistischen Strukturen und deren Ersetzung durch eine \"Parti Unique\" (Einheitspartei) und einen \"Techniker\"-Staat. Dies würde Frankreich jedoch wahrscheinlich bösartig spalten, und so schlagen viele Mitglieder der Partei vor, dass die Jakobiner weiterhin innerhalb der etablierten syndikalistischen Strukturen des BGT und der CSP agieren, während sie den Staat schrittweise nach konstruktiv-revolutionären Grundsätzen reformieren. "
+comfrance.130.a: "Das alte System soll weggefegt werden!"
+comfrance.130.b: "Wir werden den Syndikalismus von innen heraus reformieren."
+
+comfrance.131.t: "Umstrukturierung des BGT und CSP"
+comfrance.131.d: "Die syndikalistischen Strukturen des nachrevolutionären Frankreichs werden umgestaltet, um dem Neosozialismus, wie er von Marcel Déat entworfen wurde, besser zu entsprechen. Die Bourse Générale du Travail wurde in den Congrès des Téchniciens umgewandelt und das Comité de Salut Public wurde durch den Conseil des Ministres ersetzt."
+comfrance.131.a: "Eine Verbesserung, kein Zweifel."
+
+comfrance.132.t: "Auflösung der CGT"
+comfrance.132.d: "Jetzt wenden wir uns gegen den letzten Pfeiler des Syndikalismus in Frankreich, die Confédération Générale du Travail - das dominierende Syndikat, das uns lange daran gehindert hat, die Macht in der Kommune zu übernehmen. Wir können endlich ihre Macht brechen, um zu verhindern, dass unser Rivale sich weiter gegen unsere Konstruktive Revolution wehrt."
+comfrance.132.a: "Sie sind gegen unsere Revolution."
+
+comfrance.133.t: "Berichte über Unruhen beim Militär"
+comfrance.133.d: "Unsere jüngsten Reformen, während sie große Schritte machen, um Frankreich auf den wahren Weg des Sozialismus zu bringen, haben viele in der französischen Gesellschaft verärgert. Jetzt gibt es Berichte, die die Ohren des Komitees für Allgemeine Informationen erreichen, dass es ein Gemurmel des Unmuts sogar innerhalb des Garanten der nationalen Integrität gibt..."
+comfrance.133.a: "Behalten Sie die Augen offen..."
+
+comfrance.134.t: "Léon Blum und die Front Populaire(Volksfront)"
+comfrance.134.d: "Jetzt hat die führende Figur der Orthodoxen, Léon Blum, begonnen, offen dazu aufzurufen, dass sich die ungleichen politischen Fraktionen Frankreichs in Opposition zur jakobinischen Regierung vereinigen, die viele als korrumpiert und verräterisch für die Revolution ansehen. Diese Volksfront hat, trotz des Widerstands der vielen staatlichen Mechanismen der Jakobiner, bereits mehrere große Arbeitskämpfe und politische Kundgebungen in den größeren Städten durchgeführt.\n\nAus Angst, dass diese offene Herausforderung der Parteiherrschaft zu einem direkten Kampf um die Führung der Kommune führen könnte, empfiehlt die Allgemeine Information dem Rat der Ministerien, Blum und die anderen Führer, die mit der Front verbunden sind, zu verhaften - allen voran, neben Blum selbst, der immer noch angesehene General Maurice Gamelin."
+comfrance.134.a: "Bringt sie vor Gericht!"
+comfrance.134.b: "Unser Heldenmut wird diese Verräter überdauern."
+
+comfrance.135.t: "Der Pariser Prozess"
+comfrance.135.d: "Die verschiedenen Führungsfiguren der Front Populaire, aber auch andere prominente potenzielle Verbündete wie Maurice Gamelin, werden verhaftet und wegen Hochverrats angeklagt. Der Pariser Prozess soll beweisen, dass Blum und seine Mitstreiter die Revolution unterminiert und "Frankreichs Verteidigung gegen den deutschen Feind geschwächt" haben. Blum, der sowohl Jurist als auch ein hervorragender Redner ist, nutzt den Gerichtssaal, um eine brillante Anklageschrift gegen das jakobinische Regime zu verfassen. Gamelin hat die ganze Zeit über geschwiegen; er weigert sich, das Recht des Gerichts anzuerkennen, ihn anzuklagen.\n\nDer Prozess ist nicht nach Plan verlaufen, und die Angeklagten haben sich trotz starker Manipulation des Verfahrens als weitgehend erfolgreich bei der Widerlegung der Anklagen erwiesen und eine wohlwollende Berichterstattung sowohl in der inoffiziellen inländischen als auch in der internationalen Presse gewonnen. Sie ist für unser neosozialistisches Regime so peinlich geworden, dass ein Teil der Führung erwägt, die Veranstaltung abzusagen. Andere wollen den Prozess vorantreiben und die Angeklagten trotzdem hinrichten, da sie eine viel zu große Bedrohung darstellen, als dass man ihnen erlauben könnte, auf freien Fuß zu kommen."
+comfrance.135.a: "Exekutiert diese Verräter!"
+comfrance.135.b: "Blasen Sie das Ganze ab."
+
+comfrance.136.t: "Anti-Jakobinische Unruhen"
+comfrance.136.d: "Nach der Hinrichtung der Angeklagten des Pariser Prozesses hat sich die Stadt gegen die Regierung erhoben, doch ohne Führung oder Hilfe von außen ist sie zum Scheitern verurteilt."
+comfrance.136.a: "Vernichte sie!"
+
+comfrance.137.t: "Gamelins Marsch auf Paris"
+comfrance.137.d: "Bei den Allgemeinen Informationen gehen Meldungen ein, dass Einheiten des Bürgerkriegsgenerals Maurice Gamelin gemeutert und sich zur Volksfront bekannt haben. Gamelin marschiert auf Paris!"
+comfrance.137.a: "Wir werden uns diesen Rebellen widersetzen!"
+comfrance.137.b: "Die Rebellen nehmen die Hauptstadt ein!"
+
+comfrance.138.t: "Die Volksfront stellt den Syndikalismus wieder her"
+comfrance.138.d: "Die Volksfront hat Paris eingenommen und säubert die Jakobiner aus der Stadt. Die Gemeinden in ganz Frankreich haben diese Gelegenheit genutzt, um ihre eigenen Zweige der \"Parti Unique\" (Einheitspartei) zu liquidieren. Gamelin und Blum haben die zuvor abgeschafften syndikalistischen Institutionen, die CGT und BGT, wiederhergestellt, und in Notwahlen wurde Gamelin zum Vorsitzenden der Allgemeinen Arbeitsvermittlung und Blum zum Vorsitzenden des Ausschusses für öffentliche Sicherheit gewählt."
+comfrance.138.a: "Dies ist die letzte Schlacht..."
+
+comfrance.144.t: "Kommunalwahlen von 1941"
+comfrance.144.d: "Wie 1936 geplant, geht die fünfjährige Amtszeit der derzeitigen Allgemeinen Arbeitsvermittlung zu Ende. Es ist an der Zeit, die Wirtschafts- und Innenpolitik sowie die Außenpolitik zu besprechen, damit der BGT die neuen Mitglieder des geschäftsführenden Ausschuss für öffentliche Sicherheit wählen kann."
+comfrance.144.a: "An die Arbeit, Kameraden!"
+ comfrance.144.b: "Der Endkampf steht vor der Tür, jetzt ist nicht die Zeit für kleinkarierten Demokratismus!"
+
+comfrance.145.t: "BGT-Wahlen 1941 - Status des Militärs"
+comfrance.145.d: "Fünf Jahre sind seit der letzten großen Reform der Revolutionsstreitkräfte vergangen und die französische Armee ist zu neuen Höhen aufgestiegen. Allerdings sind sich die verschiedenen Fraktionen der CGT immer noch uneins über die weitere Entwicklung des Garanten der nationalen Integrität."
+comfrance.145.a: "Orthodoxe: Modernisieren und optimieren!"
+comfrance.145.b: "Jakobiner: Ein unabhängigeres Oberkommando wird benötigt!"
+comfrance.145.c: "Sorelianer: Die Armee muss der CGT vollständig unterstellt werden!"
+comfrance.145.e: "Anarchisten: Liberalisieren Sie die Armee und fördern Sie den Freiwilligendienst!"
+
+comfrance.146.t: "BGT-Wahlen 1941 - Innere Sicherheit"
+comfrance.146.d: "Angesichts der ständigen Bedrohung Frankreichs durch äußere und innere Feinde wurde bei den Wahlen die Frage nach unserer inneren Sicherheit aufgeworfen."
+comfrance.146.a: "Orthodoxe: Die Volkssicherheit(Sûreté Populaire) macht ihre Sache gut genug!"
+comfrance.146.b: "Jakobiner: Wir brauchen paramilitärische Gendarmen, um den Frieden zu wahren!"
+comfrance.146.c: "Sorelianer: Die Geheimpolizei MUSS aktiver werden!"
+comfrance.146.e: "Anarchisten: Demokratisieren Sie die Volkssicherheit(Sûreté Populaire)!"
+
+comfrance.147.t: "BGT-Wahlen 1941 - Äußere Sicherheit"
+comfrance.147.d: "Im Zuge der Revolution hat das Amt der Allgemeinen Informationen weiterhin entscheidenden Einfluss im politischen Gefüge der Föderation und ist dementsprechend heiß umkämpft."
+comfrance.147.a: "Orthodoxe: Das aktuelle System ist zufriedenstellend."
+comfrance.147.b: "Jakobiner: Die RG muss sich auf die Unterstützung von Revolutionären im Ausland konzentrieren!"
+comfrance.147.c: "Sorelianer: Die RG soll in die totalistische Doktrin eingeführt werden!"
+comfrance.147.e: "Anarchisten: Die RG muss sich auf die Unterstützung von Revolutionären im Ausland konzentrieren!"
+
+comfrance.148.t: "BGT-Wahlen 1941 - Wirtschaftspolitische Maßnahmen"
+comfrance.148.d: "Die syndikalistische Wirtschaft hat den Massen eine beträchtliche Verbesserung gebracht, aber zwischen den vier Hauptfraktionen herrscht immer noch Uneinigkeit darüber, in welche Richtung sie sich entwickeln soll."
+comfrance.148.a: "Orthodoxe: Behalten Sie den syndikalistischen Kurs bei!"
+comfrance.148.b: "Jakobiner: Zentralisierung ist notwendig!"
+comfrance.148.c: "Sorelianer: Wir müssen uns auf die Rüstungsindustrien konzentrieren!"
+comfrance.148.e: "Anarchisten: Mehr Macht für die Genossenschaften!"
+
+comfrance.149.t: "BGT-Wahlen 1941 - Außenpolitik"
+comfrance.149.d: "Zweifellos wäre eine der wichtigsten Fragen für das nächste Komitee, wie man mit den radikal veränderten Entwicklungen in der Welt umgeht. Die Orthodoxen plädieren für eine weitere Zusammenarbeit innerhalb der Internationale, während die Anarchisten eine Welle der Befreiung einleiten wollen, um die alte Ordnung überall wegzufegen, wo sie sich noch hält. Sowohl die Sorelianer als auch die Jakobiner vertreten halsbrecherische Ansichten."
+comfrance.149.a: "Orthodoxe: Die Internationale muss den Frieden garantieren!"
+comfrance.149.b: "Jakobiner: Sichert den europäischen Sozialismus!"
+comfrance.149.c: "Sorelianer: Die Reaktionäre müssen vollständig vernichtet werden!"
+comfrance.149.e: "Die rote Fahne muß überall wehen!"
+
+comfrance.150.t: "BGT-Wahlen 1941: Orthodoxe Mehrheit"
+comfrance.150.d: "Während die Stimmen aus den vielen Gemeinden unserer großen Föderation eintrudeln, ist es klar geworden, dass die Orthodoxe-Fraktion eine Mehrheit in der Allgemeinen Arbeitsvermittlung erzielt hat.\n\nAllerdings ist die Gruppierung gespalten zwischen den Gemäßigten von Leon Jouhaux und den militanteren Mitgliedern, die sich um Benoît Frachon scharen. Unabhängig davon, wer den Anführerposten beansprucht, wird die Kommune Frankreichs sicherlich in guten Händen sein."
+comfrance.150.a: "Herzlichen Glückwunsch, Kamerad Jouhaux."
+comfrance.150.b: "Herzlichen Glückwunsch, Kamerad Frachon."
+
+comfrance.151.t: "BGT-Wahlen 1941: Jakobinische Mehrheit"
+comfrance.151.d: "Während die Stimmen aus den vielen Gemeinden unserer großen Föderation eintrudeln, ist klar geworden, dass die Jakobiner eine Mehrheit in der Allgemeinen Arbeitsvermittlung errungen haben.\n\nMarquet wird das neue Comité bilden, während der neue Vorsitzende der Bourse Générale du Travail Marcel Déat sein wird, der langjährige Haupttheoretiker der Partei. Es wird erwartet, dass die Spitzenmilitärs im Amt bleiben."
+comfrance.151.a: "Herzlichen Glückwunsch, Kamerad Déat."
+
+comfrance.152.t: "BGT-Wahlen 1941: Sorelianische Mehrheit"
+comfrance.152.d: "Während die Stimmen aus den vielen Gemeinden unserer großen Föderation eintrudeln, ist klar geworden, dass die Sorelianer eine Mehrheit in der Allgemeinen Arbeitsvermittlung erreicht haben.\n\nEs wird erwartet, dass die Kamarad Valois, der brillanteste Führer der orthodoxen Sorelianer, das neue Komitee bildet und gleichzeitig der neue Vorsitzende der Allgemeinen Arbeitsvermittlung ist."
+comfrance.152.a: "Herzlichen Glückwunsch, Kamerad Valois."
+
+comfrance.153.t: "BGT-Wahlen 1941: Anarchistische Mehrheit"
+comfrance.153.d: "Während die Stimmen aus den vielen Gemeinden unserer großen Föderation eintrudeln, ist es klar geworden, dass die anarchistische Fraktion eine Mehrheit in der Allgemeinen Arbeitsvermittlung erzielt hat.\n\nDie Anarchisten haben bereits damit begonnen, Räte zu bilden, und es wird erwartet, dass das Amt des Vorsitzenden bald abgeschafft wird."
+comfrance.153.a: "Herzlichen Glückwunsch, Kameraden."
+
+comfrance.154.t: "BGT-Wahlen 1941: Keine Mehrheit erreicht"
+comfrance.154.d: "Da es keiner der Fraktionen innerhalb der CGT gelungen ist, eine Mehrheit zu erreichen, haben die Führer der verschiedenen Gruppierungen begonnen, über die Möglichkeit der Bildung verschiedener Arten von Koalitionsregierungen zu verhandeln."
+comfrance.154.a: "Der Orthodoxe-Anarchisten-Block ist wieder an der Macht!"
+comfrance.154.b: "Linke Orthodoxe und orthodoxe Sorelianer bilden eine Koalition!"
+comfrance.154.c: "Georges Valois und seine totalistischen Sorelianer übernehmen die BGT!"
+
+comfrance.155.t: "Kommunalwahlen von 1946"
+comfrance.155.d: "Das Hauptthema ist die Wiedereingliederung ehemaliger Sozialdemokraten in die Kommune, die vor fünfzehn Jahren ausgetreten sind. Die Orthodoxen, jetzt die reformistischste Fraktion innerhalb der CGT, wollen den Demokratisierungsprozess fortsetzen und drängen auf eine Politik der offenen Arme gegenüber den Sozialdemokraten. Die Anarchisten, obwohl sie für die Liberalisierung sind, lehnen diese Politik ab, ebenso wie die nun schwindenden Sorelianer. Die Jakobiner befürworten natürlich weiterhin eine technokratische Reform."
+comfrance.155.a: "Orthodoxe-Mehrheit : Wir müssen Platz für unsere sozialdemokratischen Freunde schaffen."
+comfrance.155.b: "Sorelianische Mehrheit : Es wird kein Verfall der revolutionären Werte toleriert werden."
+comfrance.155.c: "Anarchistische Mehrheit : Die proletarische Demokratie braucht keine Sozialdemokraten."
+comfrance.155.e: "Jakobinische Mehrheit : Die Kommune ist bereit für die konstruktive Revolution."
+
+comfrance.156.t: "Kommunalwahlen von 1951"
+comfrance.156.d: "Dreißig Jahre sind vergangen, seit die Kommune Frankreichs gegründet wurde. Unser Weg zum Sozialismus und Wohlstand war hart und lang. Jetzt, wo das Volk die neue Regierung wählt, ist unser Hauptziel nicht nur die Entwicklung des Syndikalismus, sondern auch der Schutz der 'des droits de l'homme et du citoyen'(Menschen- und Bürgerrechte), wie Demokratie und das Recht auf Glück."
+comfrance.156.a: "Orthodoxe-Mehrheit - Die Demokratisierung der Kommune sollte schrittweise erfolgen."
+comfrance.156.b: "Sorelianische Mehrheit - Der Totalismus soll triumphieren."
+comfrance.156.c: "Anarchistische Mehrheit - Die staatenlose Gesellschaft wartet!"
+comfrance.156.e: "Jakobinische Mehrheit - Wir sind wahre Revolutionäre."
+
+ comfrance.157.t: "Kamarad Valois' Rede"
+ comfrance.157.d: "Der Genosse Valois hat sich mit einer bescheidenen Bitte an die Vertreter der Arbeiter der Nation gewandt: dass man ihm die Mittel gibt, um im Kampf gegen die Feinde der Revolution zu triumphieren. Jahre der sorelianischen Herrschaft und die Rationalisierung der Verfahren und der Produktion für die Kriegsanstrengungen haben diese Forderung zu einer Formalität gemacht: Valois und seine Regierung sind bereits fast allmächtig. Natürlich wurde der Schein gewahrt: Die sorelianische Rethorik ist eine des radikalen Syndikalismus, und die Wahl des CNS sollte eine Reform in Richtung des Ethos der revolutionären Tage sein. Aber langsam, aber sicher konzentrierte sich die Macht in den Händen der Sorelianer. Die proletarische Demokratie ist lebendig, aber sie dient nur einer Geliebten: dem großen historischen, revolutionären Ziel aller Franzosen, dem Krieg zur Rettung der Zivilisation vor dem bürgerlichen Verfall.\n\nValois ist eher für höfliche theoretische Debatten als für große Reden zu haben. Seine Führung hat dieses Temperament widergespiegelt, und obwohl er oft energisch, um nicht zu sagen gewalttätig war, haben die Sorelianer einen eher ruhigen Führer. Genosse Valois hatte nicht das Zeug zum Diktator und wollte es auch nicht sein: Er sieht sich lediglich durch die Zufälle der Geschichte in die Rolle eines unwürdigen Führers des französischen Proletariats gedrängt. Doch heute verfügt Valois über eine Redekunst, die den größten revolutionären Tribunen in nichts nachsteht. Er plädiert leidenschaftlich dafür, die Exekutive mit Notstandsbefugnissen auszustatten, damit die Revolution ein für alle Mal zuerst in Europa und dann in der ganzen Welt triumphieren kann, und schließt seine Rede mit dem Versprechen, die Reaktion zu jagen, wo immer sie sich versteckt, und erntet dafür begeisterten Beifall. Er hatte natürlich ein aufgeschlossenes Publikum gefunden: Die Gläubigen waren begeistert, die verbliebenen Gegner wollten nicht morgen aufwachen und von bewaffneten Genossen der konterrevolutionären Tätigkeit bezichtigt werden. Und so wurde eine Abstimmung, die der Regierung weitreichende Notstandsbefugnisse einräumte, fast einstimmig angenommen, während begeisterte Vertreter "Vive Camarade-Chef Valois!" riefen."
+ comfrance.157.a: "Tod der Reaktion, wo immer sie sich verbirgt!"
+
+ comfrance.158.t: "Die aufgehende Sonne"
+ comfrance.158.d: "Eine Preisverleihung, wie sie in diesen Tagen häufig vorkommt, da unsere Helden die Anerkennung erhalten, die sie für ihren Einsatz an der Front verdient haben. Die Camarade Valois, die sich gerne unter die Arbeiter-Kämpfer-Kollegen mischt, ist nie zu sehr damit beschäftigt, sie zu grüßen, sich Geschichten von der Front anzuhören, vom heroischen Opfer eines Kameraden zu hören. Diesmal handelte es sich um eine Kavallerieeinheit, die Bundesdragoner. Obwohl die Zeit des Reitens vorbei war und diese Truppen nun eine wilde, mechanisierte Truppe waren, eine Speerspitze, die in das verdunkelte Herz der Reaktion getrieben wurde, blieb der Geist der Kavallerie stark: mutig oder tollkühn, Kritiker würden sagen aristokratisch, aber niemand konnte ihren Mut leugnen. Als Genosse Valois diese Truppen begutachtet, fällt sein Blick auf ein leuchtendes, blutrotes Banner, das an dem führenden Panzer befestigt ist: Karminrot fliegt stolz, geschmückt mit den flammenden Strahlen der Sonne, in seinem Herzen die Symbole der Revolution.\n\nDas Symbol stand in jedem Geschichtsbuch: Es handelte sich um eine Ad-hoc-Nachbildung der Oriflamme, des heiligen Kriegsbanners der alten französischen Könige, dessen goldene Flamme den Feind vertreibt, und das für das Proletariat aktualisiert wurde. Als Valois sich nach diesem merkwürdigen Anblick erkundigte, versuchte ein zunehmend nervöser Offizier zu erklären, dass dies nichts weiter als eine Tradition der Einheit sei, eine Initiative von Soldaten, die kindliche Träume vom Rittertum wieder aufleben ließen. Er rechnete zweifellos mit einem Skandal, vielleicht sogar mit einer Bestrafung, denn bevor der Kamerad-Chef ihm das Wort entzog, versuchte er, die volle Verantwortung zu übernehmen. Stattdessen war Valois voller Enthusiasmus: Wie könnte man den revolutionären Charakter der französischen Nation besser zum Ausdruck bringen, als durch die Verwurzelung unserer Symbole in den glorreichen Siegen unserer Vorfahren? Der Franzose war schon immer ein Beweger der Geschichte, unsere Vergangenheit ist nichts, was man verschweigen sollte. Die Begeisterung war so groß, dass der Staatschef versprach, die Fahne werde bald neben der Bundesflagge und der roten Fahne wehen und als Frankreichs Kriegsfahne in seiner großen zivilisatorischen Pflicht wieder eingeführt werden."
+ comfrance.158.a: "Unsere Kameraden teilen diese Ansicht vielleicht nicht..."
+ comfrance.158.b: "Vertraut auf die grenzenlose Kreativität der Massen! Vorwärts, unter der aufgehenden Sonne des Sozialismus!"
+
+comfrance.159.t: "Paris ist verloren!"
+comfrance.159.d: "Paris, die Stadt der Lichter, Wiege der Revolution und Hauptstadt Frankreichs, wurde vom Feind eingenommen! Während sie sich dem Widerstand der Zivilbevölkerung stellen, müssen wir schnell zum Gegenangriff übergehen und die volle Kontrolle über die Stadt zurückerobern."
+comfrance.159.a: "Sklavenschar, steht auf, steht auf!"
+
+comfrance.160.t: "Befreiung von Elsass-Lothringen"
+comfrance.160.d: "Wir sind in die ehemalige kaiserliche Provinz Elsass-Lothringen vorgedrungen und haben die gesamte Region gesichert. Deutschland kann vor unserer Übermacht nicht bestehen, da die verlorenen Provinzen an Frankreich zurückgegeben werden!"
+comfrance.160.a: "...lass uns zusammenkommen, und morgen..."
+
+comfrance.161.t: "Die Feierlichkeiten zum vierzehnten Juli"
+comfrance.161.d: "Heute wird in Frankreich der Jahrestag des Sturms auf die Bastille gefeiert, der den Auftakt zur Revolution von 1789 bildete. Es finden große Feierlichkeiten statt, und jedes Dorf plant eine Art von Gedenken neben den üblichen Feierlichkeiten: trotz der sozialistischen Revolution bleibt der vierzehnte Juli ein Tag großer Volksfeste. Zu erwarten sind Militär- und Milizparaden, historische Kostüme, Ausstellungen, Reden, Unterhaltungsprogramme und Straßenbankette. Diese Feierlichkeiten werden als besonders wichtig angesehen, um die nationale Einheit vor dem scheinbar unvermeidlichen kommenden Konflikt zu stärken: Trotz aller Unterschiede können alle wahren Franzosen ihre revolutionäre Politik auf den Fall der Bastille zurückführen."
+comfrance.161.a: "Lang lebe das Andenken an unsere Ältesten im Kampf!"
+
+comfrance.163.t: "Tag der Arbeit"
+comfrance.163.d: "1889 stimmten die Delegierten der Zweiten Internationale dafür, den 1. Mai zu einem jährlich wiederkehrenden Mobilisierungstag zu erklären. Auf Vorschlag des Vaters des französischen Marxismus, Jules Guesde, wurde dieses Datum gewählt, um der Märtyrer des Haymarket-Massakers zu gedenken, die getötet wurden, weil sie es gewagt hatten, einen achtstündigen Arbeitstag zu fordern. Jahrelang führte die intensive Mobilisierung an diesem Tag zu weiteren Auseinandersetzungen auf der Straße, die oft weitere Opfer forderten. An diesem Internationalen Tag der Arbeit, der umgangssprachlich bald als Tag der Arbeit bezeichnet wurde, verweigerten die Proletarier die Arbeit und marschierten für ihre Rechte, schwenkten die rote Fahne, sangen die Internationale und trugen in Erinnerung an das Blutbad die rote Eglantine oder die in scharlachrotes Tuch eingewickelten Maiglöckchen an ihren Jacken. Dieser Gedenk- und Oppositionsfeiertag, dieser Tag der Freiheit, der den Klauen des Kapitals entrissen wurde, erschütterte die Bourgeoisie zu Recht.\n\n Mit der Revolution wurde der Erste Mai zum Nationalfeiertag erklärt und wurde schnell zu einem Tag großer offizieller Feierlichkeiten und Gedenkfeiern, Märsche, Volksveranstaltungen und Tänze. Im Inland ein Fest der Revolution und der befreiten Arbeiter, im Ausland immer noch ein Tag des Kampfes, bis eines Tages der Wind der revolutionären Freiheit über alle Ecken der Erde weht. Unser Volk freut sich und erinnert sich an den langen Weg, den es zurückgelegt hat: Einst nur ein Traum, an den man sich in den Fabriken klammerte, lebt und gedeiht die Revolution heute, ihr Herz schlägt stolz in Frankreich, eine Inspiration für alle unsere noch gefesselten Genossen."
+comfrance.163.a: "Der Triumph im Kampf erwartet uns!"
+
+comfrance.164.t: "Das erste internationale Kunstfestival von Bourges"
+comfrance.164.d: "Heute fand das erste Internationale Kunstfestival von Bourges statt. Nur dank der Bemühungen sowohl Großbritanniens als auch Frankreichs um die internationale Avantgarde konnte ein solches Festival stattfinden. Unter den Kunstwerken befanden sich viele berühmte Gemälde des Realismus, die von der französischen Regierung in Auftrag gegeben wurden, sowie viele britische, russische und amerikanische Gemälde und ein von Diego Rivera gemaltes Wandgemälde. Die Veranstaltung dauert noch bis zum Wochenende und hat weltweite Aufmerksamkeit erregt. Wir werden das Rampenlicht erst einmal genießen."
+comfrance.164.a: "Dies wird das Erste von vielen sein, dafür wird die Regierung schon sorgen!"
+
+comfrance.165.t: "Frankreich schlägt internationale Avantgarde vor"
+comfrance.165.d: "Von der französischen Regierung wurde der Versuch unternommen, eine internationale Avantgarde zu etablieren. Das Ziel ist es, neue künstlerische Stile zu schaffen, die in ihrer unorthodoxen Präsentation einzigartig sind, etwas, das diese Welt noch nie gesehen hat.\n\nDie französische Regierung glaubt, dass es ein hilfreiches Werkzeug sein wird, um die syndikalistische Lehre mit gewaltfreien Mitteln zu verbreiten. Jetzt erwarten sie von uns, dass wir uns daran beteiligen."
+comfrance.165.a: "Wir sind dabei!"
+
+ comfrance.170.t: "Ein Bündnis mit der Internationale?"
+ comfrance.170.d: "Die Internationale, das Militärbündnis der wichtigsten sozialistischen Mächte der Welt, ist diskret an uns herangetreten mit dem Angebot, sich ihr anzuschließen, da sie ein Bündnis mit unserer Nation als im Interesse aller und als einen großen Schritt nach vorn im langen Kampf für die Befreiung des internationalen Proletariats ansieht. Dieses Angebot ist mit unbestreitbaren Vorteilen verbunden, wir könnten sicherlich eine große Unterstützung erwarten: Hilfe gegen unsere Feinde und bei der Verwirklichung unserer militärischen Ziele, Schutz, sollte er jemals benötigt werden, und, was ebenso wichtig ist, Unterstützung für die Entwicklung unserer Streitkräfte und sogar unserer Wirtschaft durch das Phalanstère Programm. Allerdings ist dieses Angebot mit vielleicht entmutigenden Verpflichtungen verbunden, die uns auf einen eventuellen, aber sicheren Konflikt mit dem Kaiser und seinen Verbündeten festlegen. Wie sollten wir auf ihr Angebot reagieren?"
+ comfrance.170.a: "Gemeinsam sind wir stärker!"
+ comfrance.170.b: "Wenn ich es mir recht überlege, nein..."
+
+ comfrance.171.t: "[From.GetNameDefCap] Wurde akzeptiert!"
+ comfrance.171.d: "Zeit zu jubeln! [From.GetNameDefCap] hat unser Angebot angenommen, unserem Militärbündnis beizutreten, wie wir es uns sehnlichst erhofft hatten. Mit dieser Entscheidung haben sie sich unserer unendlichen Unterstützung als Verbündete im weltweiten Kampf für die Befreiung der Arbeiterklasse versichert, und wir haben einen wertvollen Verbündeten gegen unsere unbestreitbar mächtigen Feinde gewonnen. Bald werden ihnen viele andere folgen: "Die Internationale wird die Menschheit sein"!"
+ comfrance.171.a: "Exzellent!"
+ 
+ comfrance.172.t: "[From.GetNameDefCap] Hat abgelehnt!"
+ comfrance.172.d: "Zu unserem Leidwesen hat [From.GetNameDef] unser Angebot, unserem Militärbündnis beizutreten, abgelehnt. Vielleicht zu eingeschüchtert von der unbestreitbaren Macht unserer Feinde, oder einfach nicht engagiert genug im Kampf für die Befreiung des Proletariats. In jedem Fall, auch wenn dies sicherlich ein bedauerliches Ergebnis unseres diplomatischen Vorstoßes ist, werden sich uns viele andere in diesem Kampf anschließen: "Die Internationale soll die Menschheit sein"!"
+ comfrance.172.a: "Ihr Verlust."
+
+ comfrance.200.t: "Das Damokles-Projekt"
+ comfrance.200.d: "Deutsche Spione haben vor kurzem die Unterlagen eines Forschungs- und Entwicklungsprogramms aufgedeckt, das von den Mitgliedern der Dritten Internationale finanziert wurde. Bei dem "Damokles-Projekt" handelt es sich um eine umfassende multinationale Studie über die zerstörerische Kraft der Kernspaltung mit dem Ziel, "Bomben mit einer Zerstörungskraft zu entwickeln, die alles bisher Bekannte bei weitem übertrifft". Der berühmte deutsche Physiker Albert Einstein hatte zuvor gewarnt, dass eine erfolgreiche "Atombombe" sogar in der Lage sein könnte, ganze Städte in Asche zu verwandeln.\n\nDie deutschen Geheimdienste haben die Informationen über dieses Projekt an ihre engsten Verbündeten weitergegeben, so dass nun natürlich die ganze Welt davon weiß. Einige haben das Projekt als kindische Fantasie abgetan, aber viele Experten befürchten einen Durchbruch."
+ comfrance.200.a: "Wenn sie Erfolg haben sollten..."
+
+ comfrance.301.t: "Das Ende der Dritten Internationale"
+ comfrance.301.d: "Der Krieg hat sich ganz entschieden nicht zu unseren Gunsten entwickelt. Trotz der größten Anstrengungen von uns und unseren Soldaten haben sich die Kräfte der Reaktion als zu stark für die Macht des internationalen Proletariats erwiesen - durch eine lange Reihe von Rückschlägen und Niederlagen wurde die Kampfkraft des britischen und französischen Militärs im Laufe des Krieges immer weiter reduziert. Während wir bisher die Hoffnung hatten, dass sich die Arbeiter der Welt noch erheben werden, hat die Situation einen so kritischen Punkt erreicht, dass weder Großbritannien noch Frankreich den gegnerischen Kräften wirksamen Widerstand leisten können und kein überlebendes Mitglied der Internationale die nötige Stärke und das Prestige hat, um das Bündnis zusammenzuhalten - als solches hat die Dritte Internationale begonnen zu zerbrechen.\n\nDie Auswirkungen davon sind fast sofort spürbar - was früher eine unerschütterliche Entschlossenheit war, den Reaktionären niemals nachzugeben, ist jetzt schnell einer fast defätistischen Haltung gewichen, da sowohl die verbündeten Aufständischen als auch die Regierungen unsere Sache zunehmend als hoffnungslos betrachten und darüber nachdenken, entweder ihre Gewehre an den Nagel zu hängen oder irgendeine Art von Abkommen mit dem Feind zu suchen, und das Phalanstère und andere Organe der Internationale sind weitgehend außer Kraft gesetzt. Es ist zu erwarten, dass die ehemaligen Mitglieder des Bündnisses, die sich außerhalb der Reichweite der feindlichen Streitkräfte befinden, die offenen Feindseligkeiten bald einstellen werden, während der Rest schließlich gezwungen sein wird, sich bedingungslos zu ergeben ... oder andernfalls endgültig vernichtet zu werden.\n\nWährend die Flamme der Revolution erlischt und die Arbeiter verzweifelt weinen, bleibt uns nichts anderes übrig, als die Rettung zu finden, zu der wir fähig sind..."
+ comfrance.301.a: "Nicht so..."
+
+ INT_collapse_base: "Die aus der Asche des Ersten Weltkriegs geborene Dritte Internationale war über mehr als 20 Jahre hinweg gleichermaßen zur größten Hoffnung und zur größten Angst der Welt geworden - ein Bündnis der ersten sozialistischen Regierungen der Welt, das den großen Ehrgeiz hatte, den lang gehegten Traum von der globalen Arbeiterrevolution zu verwirklichen."
+
+ comfrance.302.t: "Die Internationale bricht zusammen"
+ comfrance.302.d.germany: "$INT_collapse_base$\n\nDie deutsche Weltordnung hat sich jedoch als zu mächtig erwiesen, um besiegt werden zu können - nach langen Kämpfen kontrollieren Deutschland und seine Verbündeten nun den größten Teil Großbritanniens und Frankreichs, und die Dritte Internationale und ihre Organe sind nicht mehr existent, da es keinen überlebenden Staat gibt, der stark genug wäre, um sie zu vereinen. Die Weltrevolution, die jahrelang als zunehmend realistische Aussicht galt, ist nun für Jahrzehnte oder länger unmöglich geworden - wenn nicht sogar für immer."
+ comfrance.302.d.entente: "$INT_collapse_base$\n\nDie Exilregierungen haben jedoch bewiesen, dass sie nicht bereit sind, zu sterben - nach einer monumentalen Kriegsanstrengung ist die Entente nun wieder weitgehend in der Hand Großbritanniens und Frankreichs, so dass die Dritte Internationale und ihre verschiedenen Organe nicht mehr existieren und es keinen überlebenden Staat mehr gibt, der stark genug wäre, sie zu vereinen. Die Weltrevolution, die jahrelang als zunehmend realistische Aussicht galt, ist nun für Jahrzehnte oder länger unmöglich geworden - wenn nicht sogar für immer."
+ comfrance.302.d.germany_entente: "$INT_collapse_base$\n\nDie Kräfte der alten Ordnung haben sich jedoch als zu mächtig erwiesen, um sie zu überwinden - sie stehen Feinden von allen Seiten gegenüber, Großbritannien und Frankreich sind beide den Deutschen und der Entente zum Opfer gefallen, und die Dritte Internationale und ihre Organe haben aufgehört zu funktionieren, ohne dass es einen überlebenden Staat gibt, der stark genug ist, sie zu versammeln. Die Weltrevolution, die jahrelang als zunehmend realistische Aussicht galt, ist nun für Jahrzehnte oder länger unmöglich geworden - wenn nicht sogar für immer."
+ comfrance.302.d.russia: "$INT_collapse_base$\nDoch während sie über Deutschland triumphierte, erwies sich das, was danach kam, als ihr Verhängnis: Nach einem zerstörerischen Krieg war die Internationale nicht in der Lage, über ihren neuen Feind in Russland zu triumphieren und fiel der Invasion zum Opfer, so dass die Dritte Internationale und ihre Organe nicht mehr existierten und es keinen überlebenden Staat gab, der stark genug gewesen wäre, um sie zu sammeln. Dennoch hat die Niederlage gegen Deutschland die Welt, wie wir sie kennen, für immer verändert - auch wenn die Weltrevolution für Jahrzehnte oder länger beendet sein mag, ist ihr Vermächtnis eine Welt, die sich radikal von der vorherigen unterscheidet."
+ comfrance.302.d.generic: "$INT_collapse_base$\n\nIhre Feinde haben sich jedoch als zu zahlreich und zu mächtig erwiesen, um sie zu überwinden - nachdem die sozialistischen Regierungen Großbritanniens und Frankreichs gründlich besiegt wurden und es keine Kraft mehr gibt, die stark genug wäre, um den Mantel zu übernehmen, haben die Dritte Internationale und ihre verschiedenen Organe aufgehört zu funktionieren. Die Weltrevolution, die jahrelang als eine zunehmend realistische Aussicht galt, ist nun für Jahrzehnte oder länger unmöglich geworden - wenn nicht sogar für immer."
+ comfrance.302.a: "Und was für ein Traum das war..."
+ comfrance.302.b: "Wir werden nie wieder eine Revolution fürchten."
+ comfrance.302.c: "Alles ist so, wie es sein soll."
+ comfrance.302.d: "Gib es zurück! Das ist nicht richtig! Das gehörte uns!"
+ comfrance.302.e: "Wir wussten, dass sie es tun würden. Aber sie hätten ein bisschen länger durchhalten können..."
+ comfrance.302.f: "Niemand kann mehr leugnen, dass wir unseren Platz in der Geschichte eingenommen haben."
+ comfrance.302.g: "Das verheißt... nichts Gutes."
+ comfrance.302.h: "Ein besseres Ergebnis hätten wir uns nicht wünschen können."
+ comfrance.302.i: "Der Tod kommt für alle, irgendwann."
+
+ comfrance.999.t: "Kapitalistische Volkswirtschaften brechen zusammen!"
+ comfrance.999.intro: "In den letzten Tagen haben die Arbeiter und Bauern der Welt zugesehen, wie die Banker, Kapitalisten und Tyrannen sich abrackern, um die Früchte der Arbeit der Arbeiter für ihren eigenen Vorteil zu ernten. Sie nennen es den Schwarzen Montag, ein schreckliches Ereignis, sagen sie! Sie sagen, dass ein solcher Zusammenbruch völlig unvorhersehbar war, etwas, das kein Wirtschaftswissenschaftler hätte vorhersagen können! Natürlich sind die Arbeiter nicht dumm. Das Volk durchschaut ihre Lügen.\n\nWie der große Philosoph Karl Marx voraussagte, sind solche Zusammenbrüche eine unvermeidliche Folge des Kapitalismus. In dem Maße, in dem der Kapitalist die Arbeiter missbraucht und von ihnen profitiert, beginnt er, sich wie ein tollwütiger Hund bei lebendigem Leib zu verzehren. Und das alles, während sie ihre Arbeiter auf der Jagd nach dem letzten Stück Fleisch am Wegesrand verrecken lassen."
+ comfrance.999.d: "$comfrance.999.intro$\n\nUnsere Nation hat sich jedoch von der kapitalistischen Welt abgekoppelt und mit dem Aufbau eines echten Volksstaates begonnen. Daher bleiben wir unberührt und können nur zusehen, wie die Nationen der Welt von ihren kapitalistischen Oberherren bei lebendigem Leib aufgefressen werden. Dies ist ein großes Erwachen für die Bauern und Arbeiter der Welt, und bald werden die Arbeiter dieser Nationen beginnen, sich gegen ihre Unterdrücker zu organisieren. Wir müssen dabeistehen und als wahres Beispiel für die Arbeiter der Welt aufrecht stehen!"
+ #CHI hat seine eigene, einzigartige Version dieser Veranstaltung.
+ comfrance.999.a: "Arbeiter der Welt, vereinigt euch!"
+
+comfrance.1000.t: "Gamelin marschiert auf Paris"
+comfrance.1000.d: "Vor ein paar Tagen startete General Maurice Gamelin einen erfolgreichen Putsch gegen das jakobinische Regime von Marcel Déat. Während dies wie ein entschiedener Angriff auf das demokratische System der Kommune erscheint, argumentieren viele, dass die Jakobiner das demokratische System zerstört hätten, wenn Gamelins Intervention nicht gewesen wäre.\n\nGamelin hat versprochen, Frankreich zum traditionellen Syndikalismus zurückzuführen, und der Prozess der De-Jakobinisierung findet bereits statt. Es ist noch unbekannt, wie seine Pläne ausfallen werden. Wir können nur abwarten..."
+comfrance.1000.a: "Überraschend, um es vorsichtig auszudrücken."
+
+ comfrance.1031.t: "Orthodoxe Syndikalisten in Frankreich gewählt"
+ comfrance.1031.d: "Die Kommune Frankreichs ist die führende sozialistische Nation der Welt. Sie ist eine Föderation von Stadtgemeinden und wird vom Comité de Salut Public, dem Hauptvorstand, geleitet. Die Zweite Kommune war jedoch von Anfang an nicht einheitlich in ihrer Politik - es entstanden zahlreiche Fraktionen, von denen jede ihre eigene Vorstellung davon hatte, welchen Weg Frankreich einschlagen sollte. Da die Zeit der Rache gegen Deutschland und der Weltrevolution näher rückt, wird die CGT-Wahl von 1936 von großer Bedeutung sein...\nDie Nachfolge des in Ungnade gefallenen Marceau Pivert wurde von seiner eigenen Fraktion, den Orthodoxen, angetreten, die [FRA.GetLeader] genannt haben und nun die führende Position in der CSP einnehmen. Sie treten für eine Ausweitung der Demokratie ein und lassen sich bei der Dezentralisierung der Kommune von den Briten inspirieren."
+ comfrance.1031.a: "Interessant."
+
+ comfrance.1033.t: "Jakobiner werden in Frankreich gewählt"
+ comfrance.1033.d: "Die Kommune Frankreichs ist die führende sozialistische Nation der Welt. Sie ist eine Föderation von Stadtgemeinden und wird vom Comité de Salut Public, dem Hauptvorstand, geleitet. Die Zweite Kommune war jedoch von Anfang an nicht einheitlich in ihrer Politik - es bildeten sich zahlreiche Fraktionen, von denen jede ihre eigene Vorstellung davon hatte, welchen Weg Frankreich einschlagen sollte. Da die Zeit der Rache gegen Deutschland und der Weltrevolution näher rückt, wird die CGT-Wahl von 1936 von großer Bedeutung sein...\n\nDie Nachfolge des in Ungnade gefallenen Marceau Pivert wurde von den Jakobinern mit [FRA.GetLeader] an der Spitze angetreten, einer extremistischen Fraktion, die eine stärkere Zentralisierung befürwortet. Sie haben nun die Mehrheit in der CSP."
+ comfrance.1033.a: "Interessant."
+
+ comfrance.1034.t: "Sorelianer werden in Frankreich gewählt"
+ comfrance.1034.d: "Die Französische Kommune ist die führende sozialistische Nation der Welt. Sie ist eine Föderation von Stadtgemeinden, die vom Comité de Salut Public, dem Hauptvorstand, geleitet wird. Seit ihrer Gründung war die Zweite Kommune in ihrer Politik nicht einheitlich; zahlreiche Fraktionen, die ihre eigene Richtung für Frankreich verfolgten, wetteiferten um die Macht. Angesichts der Rache gegen Deutschland und der bevorstehenden Weltrevolution waren die Wahlen von 1936 von großer Bedeutung...\n\nDer in Ungnade gefallene Marceau Pivert wurde von den Sorelianern abgelöst, die Georges Valois zu ihrem Führer ernannten und nun die Mehrheit in der CSP haben. Die Sorelianer sind orthodoxe Syndikalisten und befürworten die Zentralisierung mit der Bourse Générale du Travail - dem \"Parlament\" - als wichtigster Institution."
+ comfrance.1034.a: "Interessant."
+
+ comfrance.1035.t: "Anarchistes Elected in France"
+ comfrance.1035.d: "Die Kommune Frankreichs ist die führende sozialistische Nation der Welt. Sie ist eine Föderation von Stadtgemeinden und wird vom Comité de Salut Public, dem Hauptvorstand, geleitet. Die Zweite Kommune war jedoch von Anfang an nicht einheitlich in ihrer Politik - es bildeten sich zahlreiche Fraktionen, von denen jede ihre eigene Vorstellung davon hatte, welchen Weg Frankreich einschlagen sollte. Da die Zeit der Rache gegen Deutschland und der Weltrevolution näher rückt, wird die CGT-Wahl von 1936 von großer Bedeutung sein...\n\nDie Nachfolge des in Ungnade gefallenen Marceau Pivert wurde von den Anarchisten angetreten, einer vom ukrainischen Revolutionär Nestor Makhno inspirierten Bewegung. Die Anarchisten führen nun die CSP an und befürworten größere regionale Freiheiten und eine drastische Beschneidung der Befugnisse der CSP."
+ comfrance.1035.a: "Interessant."
+
+ comfrance.1036.t: "Wahlblockade in Frankreich"
+ comfrance.1036.d: "Die Kommune Frankreichs ist die führende sozialistische Nation der Welt. Sie ist eine Föderation von Stadtgemeinden und wird vom Comité de Salut Public, dem Hauptvorstand, geleitet. Die Zweite Kommune war jedoch von Anfang an nicht einheitlich in ihrer Politik - es bildeten sich zahlreiche Fraktionen, von denen jede ihre eigene Vorstellung davon hatte, welchen Weg Frankreich einschlagen sollte. Da die Zeit der Rache gegen Deutschland und der Weltrevolution näher rückt, wird die CGT-Wahl von 1936 von großer Bedeutung sein...\n\nSie war sogar so wichtig, dass keine der vier Fraktionen eine Mehrheit erlangen konnte. Ähnlich wie vor der Wahl muss eine Koalition gefunden werden, aber wie wird sich dadurch die Politik der Kommune verändern? Das wissen nur die Männer in der CSP selbst."
+ comfrance.1036.a: "Interessant."
+
+ comfrance.1037.t: "Der neunte internationale Kongress"
+ comfrance.1037.d: "Sozialistische Delegierte aus der ganzen Welt sind in und um Paris zum jüngsten Kongress ihrer Bewegung versammelt. Die Dritte Internationale wurde von französischen Sozialisten nach der Revolution von 1920 gegründet und hat seither dazu beigetragen, die Bemühungen der Arbeiterbewegung zu lenken. Die Internationale, die von Syndikalisten dominiert wird, will jedoch eine breit angelegte Organisation sein und heißt daher Rote aller Couleur willkommen. Die Delegierten wurden mit einer Militärparade und einer mitreißenden Rede in Versailles begrüßt und waren zu diesem Anlass in Rot gekleidet.\n\nGanz oben auf der Tagesordnung stehen die Ausbreitung der revolutionären Begeisterung, insbesondere in Asien und Nordamerika, der Konflikt in Spanien, die Kolonialpolitik und die Voraussetzungen für die Mitgliedschaft im Militärbündnis der Internationale."
+ comfrance.1037.a: "Eine interessante Entwicklung."
+
+ comfrance.1038.t: "Der Zehnte Internationale Kongress"
+ comfrance.1038.d: "Der Neunte Kongress der Dritten Internationale, der in Paris stattfand, befasste sich mit der Verbreitung der Ideologie im Ausland, der Unterstützung der sozialistischen Bewegungen und der Stärkung der Verbindungen zwischen den bestehenden sozialistischen Nationen, und dank des Erfolgs der Versammlung wurde der Zehnte Internationale Kongress einberufen, der in London stattfinden soll.\n\nDie Vertreter aus der ganzen Welt wurden mit einem britischen Artilleriesalut, einem schottischen Dudelsackchor und einem insgesamt herzlichen Empfang begrüßt. Da Europa immer näher an den Krieg heranrückt, wird die militärische und wirtschaftliche Zusammenarbeit zwischen den Syndikalisten voraussichtlich das Hauptthema sein, und Frankreich und Großbritannien werden erneut das Sagen über die Politik der Internationale haben."
+ comfrance.1038.a: "Interessant."
+
+ comfrance.1039.t: "Bildung der Internationalen Avantgarde"
+ comfrance.1039.d: "Eine gemeinsame Anstrengung der Französischen Kommune und der Britischen Union hat vor einigen Tagen die Internationale Avantgarde ins Leben gerufen, ein Programm, das darauf abzielt, einen einheitlichen Kunststil für die Kunst und ein Genre für die Musik sowie neue literarische Techniken zu schaffen, die allesamt sozialistisch, unorthodox, antitraditionell und antireligiös sein sollen.\n\nBerichten zufolge werden Künstler, Schriftsteller und Musiker aus der ganzen Welt an diesem Programm teilnehmen, von den Vereinigten Staaten über Südafrika bis Japan. Das erste Festival, auf dem die Früchte des Programms präsentiert werden, soll in zwei Jahren in Cannes stattfinden. Ist dies die Geburtsstunde einer neuen, sozialistischen Unterhaltung?"
+ comfrance.1039.a: "Solidarität für immer!"
+
+### Decisions ###
+FRA_liberate_europe_category: "Die Befreiung Europas"
+FRA_liberate_europe_category_desc: "Der Sieg in Europa ist unser! Die verbliebenen Staaten der Bourgeoisie sind uns ausgeliefert und reif für die Zerstörung. Nutzen wir diese Chance, um die Revolution voranzutreiben und den großen europäischen Kontinent in unsere Festung des Sozialismus zu verwandeln."
+
+FRA_invade_liberation_target: "Angriff [FROM.GetNameDef]"
+FRA_invade_liberation_target_desc: "[FROM.GetNameDefCap] ist ein schwaches und marodes Regime, das zerstört werden muss, vorwärts!"
+
+FRA_internationale_category: "Angelegenheiten der Internationale"
+FRA_internationale_category_desc: "Das Bündnis aller Sozialisten in unserer Welt ist wirklich etwas Schönes. Wir werden zusammenarbeiten, um die Welt zu einem besseren Ort für uns alle zu machen."
+
+FRA_phalanstere_category: "Die Phalansteriesche Internationale"
+FRA_phalanstere_category_desc: "Während des zehnten Internationalen Kongresses haben wir beschlossen, einen ehrgeizigen Plan für industrielle und wirtschaftliche Investitionen für alle sich entwickelnden sozialistischen Nationen, die sich bewerben wollen, in Angriff zu nehmen. Wir werden zusammenarbeiten, um die Welt zu einem besseren Ort für uns alle zu machen."
+
+FRA_join_phalanstere: "Der Phalanstère beitreten"
+FRA_join_phalanstere_desc: "Das wissenschaftliche Phalanstère wurde geschaffen, um Wissenschaftler aus allen Mitgliedsstaaten der Internationalen zusammenzuführen. Wir sollten uns anschließen und unser Wissen in das Programm einbringen."
+
+FRA_Develop_Country: "Entwickeln [FROM.GetNameDef]"
+ FRA_Develop_Country_desc: "[FROM.FRA_Develop_Country_desc]"
+
+FRA_Develop_Country_desc_ENG: "Großbritannien ist zwar nach uns das zweitgrößte Land der Welt, braucht aber dennoch unsere Hilfe beim Wiederaufbau seiner verlorenen und vergessenen Industrie, die einst zu den besten der Welt gehörte. Mit unserer Hilfe wird Großbritannien noch höher aufsteigen als in seiner glanzvollen Vergangenheit und die Kapitalisten und Imperialisten in den Schatten stellen."
+FRA_Develop_Country_desc_SRI: "Unsere [SRI.GetAdjective]-Kameraden haben den Beitritt zur Phalansterieschen Internationale beantragt. Mit der von Habsburg unterstützten Italienischen Republik, die die Po-Grenze bedroht, und den eifrig antisyndikalistischen Beider Sizilien im Süden, ist es nur angemessen, unsere Genossen in ihrem Kampf zu unterstützen."
+FRA_Develop_Country_desc_SWF: "Unsere [SWF.GetNameDef]-Kameraden haben den Beitritt zur Phalansteriesche Internationale beantragt. Nach den schweren Zerstörungen, die der Spanische Bürgerkrieg verursacht hat, ist es nur angemessen, unseren Genossen in ihrem Kampf zu helfen."
+FRA_Develop_Country_desc_NOR: "Vor kurzem haben unsere skandinavischen Genossen in Norwegen beantragt, der Phalanstères Internationale beizutreten. Da der Sozialismus in Norwegen relativ jung ist, ist es am besten, ihn zu pflegen, solange wir können."
+FRA_Develop_Country_desc_HND: "Unsere [HND.GetAdjective]-Genossen haben den Beitritt zur Phalansteriesche Internationale beantragt. Da der Sozialismus in Indien den Imperialisten in Lahore und den Reaktionären in der Föderation gegenübersteht, ist es nur angemessen, unseren Genossen in ihrem Kampf zu helfen."
+FRA_Develop_Country_desc_MEX: "Unsere mexikanischen Genossen haben beantragt, der Phalansterieschen Internationale beizutreten. Da der Sozialismus dort stärker ist als je zuvor, wären wir dumm, dieses Standbein der Freiheit nicht zu sichern."
+FRA_Develop_Country_desc_Central_America: "Unsere [FROM.GetAdjective]-Kameraden haben den Beitritt zur Phalansterieschen Internationale beantragt. Da der Sozialismus dort stärker ist als je zuvor, wären wir dumm, dieses Standbein der Freiheit nicht zu sichern."
+FRA_Develop_Country_desc_CEN: "Unsere [FROM.GetAdjective]-Kameraden haben den Beitritt zur Phalansterieschen Internationale nach deren jüngster Vereinheitlichung beantragt. Da der Sozialismus dort stärker ist als je zuvor, wären wir dumm, dieses Standbein der Freiheit nicht zu sichern."
+FRA_Develop_Country_desc_Caribbean: "Unsere [FROM.GetAdjective]-Kameraden haben den Beitritt zur Phalansterieschen Internationale beantragt. Angesichts der gegenwärtigen Bedrohung des Sozialismus in der Karibik durch kanadische Vergeltungsmaßnahmen wären wir dumm, dieses Standbein der Freiheit nicht zu sichern."
+FRA_Develop_Country_desc_BRA: "Unsere [FROM.GetAdjective]-Kameraden haben den Beitritt zur Phalansterieschen Internationale beantragt. Da der Sozialismus in Brasilien einer verbissenen inneren Opposition gegenübersteht, ist es nur angemessen, ihnen in ihrem Kampf zu helfen."
+FRA_Develop_Country_desc_FOP: "Unsere [FOP.GetAdjective]-Kameraden haben den Beitritt zur Phalansteriesche Internationale beantragt. Nach den Zerstörungen, die der chilenisch-argentinische Krieg verursacht hat, sind sie dringend auf unsere Hilfe angewiesen, und wir haben die Pflicht, ihnen in ihrem Kampf zu helfen."
+FRA_Develop_Country_desc_South_America: "Unsere [FROM.GetAdjective] Genossen haben beantragt, der Phalansteriesche Internationale beizutreten. Da der Sozialismus in Südamerika auf erbitterten Widerstand stößt, ist es nur angemessen, unsere Genossen in ihrem Kampf zu unterstützen."
+
+FRA_help_SWF: "Unterstützung CNT-FAI"
+FRA_help_SWF_desc: "Die CNT taumelt am Abgrund. Wir müssen Spanien, und unsere Südgrenze, für den Sozialismus sichern."
+
+FRA_mobilise_the_reserves: "Mobilisierung der Reserven"
+FRA_mobilise_the_reserves_desc: "Trotz unserer Bemühungen scheitern wir. Wir müssen unsere Reserven mobilisieren, sonst wird die Kommune sicher fallen..."
+
+FRA_help_CHL: "Helfen Sie unseren [FROM.GetAdjective] Brüdern"
+FRA_help_CHL_desc: "Auf dem Zehnte Kongress haben wir versprochen, unseren [FROM.GetAdjective] Genossen zu helfen, ihr Land zu entwickeln und den reaktionären Staat Argentinien zu besiegen. Wir werden keine Kosten scheuen, um ihren Sieg und die Freiheit des gesamten Amerikas zu sichern. Nichts ist zu gut für unsere Genossen!"
+ 
+ FRA_invite_serbia: "Biete [From.GetNameDef] eine Allianz an"
+
+FRA_Sabotage: "Antikoloniale Aktion in [From.GetNameDef] einleiten"
+FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel zu lange die einheimische Bevölkerung für ihre Kriegsmaschinerie und ihr Prestige ausgebeutet. Wir werden nicht zulassen, dass sie weitermachen. Mit Hilfe des Sozialistischen Antikolonialkomitees sind wir in der Lage, Operationen der Rebellion oder Sabotage in den französischen Kolonialgebieten einzuleiten."
+
+ FRA_end_the_algiers_regime: "Ende des Algier-Regimes"
+ FRA_end_the_algiers_regime_desc: "Endlich ist das verabscheuungswürdige imperialistische Regime, das Algerien besetzt hält, verwundbar - lasst uns diese Farce ein für alle Mal beenden."
+
+### Cosmetic Tags ###
+ FRA: "Frankreich"
+ FRA_ADJ: "Französisch"
+ FRA_DEF: "Frankreich"
+
+ FRA_totalist: "Kommune Frankreich"
+ FRA_totalist_ADJ: "Communard"
+ FRA_totalist_DEF: "die Kommune Frankreich"
+ FRA_syndicalist: "Kommune Frankreich"
+ FRA_syndicalist_ADJ: "Communard"
+ FRA_syndicalist_DEF: "die Kommune Frankreich"
+ FRA_radical_socialist: "Kommune Frankreich"
+ FRA_radical_socialist_ADJ: "Communard"
+ FRA_radical_socialist_DEF: "die Kommune Frankreich"
+ FRA_neosocialist: "Französische Sozialrepublik"
+ FRA_neosocialist_DEF: "die Französische Sozialrepublik"
+ FRA_neosocialist_ADJ: "Neosozialistisch"
+
+### Characters ###
+ FRA_marcel_deat: "Marcel Déat"
+ FRA_marcel_deat_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 7. März 1894, Guérigny, Nièvre, Französische Republik\n§YPolitische Karriere:§! Marcel Déat hat das politische System der Kommunarden auf den Kopf gestellt. Als Revisionist, der häufig seine Verachtung für den Syndikalismus öffentlich gemacht hat, steht Déat in Opposition zu einem Großteil des politischen Establishments Frankreichs. Seine vielen Feinde innerhalb und außerhalb Frankreichs könnten zu seinem, und vielleicht auch zum Untergang der Kommune führen."
+ 
+ FRA_adrien_marquet: "Adrien Marquet"
+ FRA_adrien_marquet_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 6. Oktober 1884, Bordeaux, Gironde, Französische Republik\n§YPolitische Karriere:§! Der Jakobiner der ersten Stunde, Adrien Marquet, hat die \"konstruktive Revolution\" von Déat durch seine Führung der Kommune Bordeaux unermüdlich gefördert und zur Schau gestellt. Nachdem die Jakobiner die Mehrheit im BGT errungen haben, wird Marquet beauftragt, seine Führungserfahrung zu nutzen, um dem anarchischen Chaos ein Ende zu setzen."
+
+ FRA_georges_valois: "Georges Valois"
+ FRA_georges_valois_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 7. Oktober 1878, Paris, Seine, Französische Republik\n§YPolitische Karriere:§! Georges Valois, ein Anhänger der nationalsyndikalistischen Lehren von Georges Sorel, ist Vorsitzender der Bourse Générale du Travail geworden. Valois befürwortet die Zusammenlegung der Vorsitze der Bourse Générale du Travail und des Comité de Salut Public, was in den Augen vieler Kommunarden einer Tyrannei gleichkommt."
+ 
+ FRA_marcel_cachin: "Marcel Cachin"
+ FRA_marcel_cachin_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 20. September 1869, Paimpol, Côtes-du-Nord, Französisches Kaiserreich\n§YPolitische Karriere:§! Marcel Cachin, ehemaliger Diplomat und Büroleiter der staatlichen Zeitung Humanité, ist Vorsitzender der Kommune Frankreichs geworden. Obwohl er ein Leninist ist, erlauben ihm seine diplomatische Haltung und sein allgemeines Charisma, ein gewisses Maß an Herzlichkeit mit Syndikalisten und Anarchisten zu bewahren."
+
+ FRA_leon_jouhaux: "Léon Jouhaux"
+ FRA_leon_jouhaux_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 1. Juli 1879, in Paris, Seine, Französische Republik\n§YPolitische Karriere:§! Léon Jouhaux wurde zum Vorsitzenden der Allgemeinen Arbeitsvermittlung gewählt. Jouhaux nahm als revolutionärer Gewerkschafter am Generalstreik von 1919 teil, der die Gründung der Kommune herbeiführte. Er ist ein Anhänger des orthodoxen französischen Syndikalismus, ein echter Zentrist unter den Fraktionen der Kommune."
+
+  FRA_vincent_auriol: "Vincent Auriol"
+ FRA_vincent_auriol_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 27. August 1884, Revel, Haute-Garonne, Französische Republik\n§YPolitische Karriere:§! Vincent Auriol, dem die Hardliner unter den Syndikalisten lange Zeit Sympathien für die Bourgeoisie vorwarfen, ist Vorsitzender der Allgemeinen Arbeitsvermittlung geworden. Er befürwortet den schrittweisen Übergang zu einem demokratischeren Regierungssystem in der Kommune."
+
+ FRA_jacques_doriot: "Jacques Doriot"
+ FRA_jacques_doriot_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 26. September 1898, Bresles, Oise, Französische Republik\n§YPolitische Karriere:§! Jacques Doriot, Veteran des Ersten Weltkriegs, kehrt aus deutscher Gefangenschaft zurück und findet ein für immer verändertes Frankreich vor. Sein persönlicher Wandel vom gemäßigten Sozialisten zum Leninisten und nun zum Nationalsyndikalisten hat ihm eine ausgeprägte Neigung zum Kompromiss eingeimpft."
+
+ FRA_benoit_frachon: "Benoît Frachon"
+ FRA_benoit_frachon_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 13. Mai 1893, in Le Chambon-Feugerolles, Loire, Französische Republik\n§YPolitische Karriere:§! Benoît Frachon, ein Veteran des französischen Bürgerkriegs, ist Vorsitzender der Allgemeinen Arbeitsvermittlung geworden. Obwohl er Syndikalist ist, sympathisiert er mit der gegnerischen anarchistischen Fraktion; zu diesem Zweck hat er die Überwindung des Fraktionszwangs in der Kommune zum Hauptziel seines Vorsitzes erklärt."
+
+ FRA_pierre_monatte: "Pierre Monatte"
+ FRA_pierre_monatte_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 15. Januar 1881, in Monlet, Haute-Loire, Französische Republik\n§YPolitische Karriere:§! Arbeiter. Kämpfer. Revolutionär. Pierre Monatte hat einen immensen Einfluss auf unsere Nation ausgeübt und führt uns nun schon seit über einem Jahrzehnt mit Zuversicht. Er wurde am 15. Januar 1881 geboren und war vor dem Ersten Weltkrieg ein bekannter Gewerkschafter, der mehrmals zu Unrecht wegen verschiedener syndikalistischer 'Verbrechen' gegen das Kapital verhaftet wurde, wie z. B. wegen seiner Teilnahme an den rechtschaffenen Protesten nach dem Grubenunglück von Courrières. Nachdem er in den Reihen des Allgemeinen Gewerkschaftsbundes schnell aufgestiegen war, wurde er durch die Unterdrückung der Bewegung durch die Republik sogar kurzzeitig ins Exil gezwungen. Als der Krieg ausbricht, gehört er zu den wenigen, die es wagen, kurz vor ihrer Einberufung an die Front ein klares Nein zur Kollaboration mit der bürgerlichen Regierung zu sagen. Diese Voraussicht und sein Ruf als standhafter, unermüdlicher Revolutionär führten dazu, dass Monatte, als die Zeit gekommen war, eine entscheidende Rolle beim Sturz der alten Ordnung spielte und in einer hervorragenden Position war, um den neuen proletarischen Kurs unserer Nation zu lenken.\n\nAls einer der Hauptorganisatoren der 'Orthodoxen' und mit Sicherheit ihr einflussreichstes Mitglied führte er den Zusammenschluss der bis dahin verfeindeten 'Zentristen' und 'Ultras' bei den Wahlen 1926 zum Sieg und zur Übernahme der Präsidentschaft. Als meisterhafter Politiker hat Monatte es geschafft, sich in einer brüchigen Koalition mit den Anarchisten über Wasser zu halten, wobei er stets mit deren Forderungen und denen der anderen Fraktionen, die im Parlament so wichtig sind, jonglierte. Doch der Mann an der Spitze wird immer ein Ziel sein, und zu sagen, dass seine Position begehrt ist, wäre eine Untertreibung. Wie lange kann das Licht sie in Schach halten, während in jeder dunklen Ecke die Messer gewetzt werden?"
+
+ FRA_conseil_de_defense_federal: "Föderaler Verteidigungsrat"
+
+ FRA_pierre_jules_cot: "Pierre Jules Cot"
+
+ FRA_maurice_gamelin: "Maurice Gamelin"
+ FRA_maurice_gamelin_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 20. September 1872, in Paris, Seine, Französische Republik\n§YPolitische Karriere:§! General Maurice Gamelin hat das jakobinische Regime von Marcel Déat gestürzt. Während sein Putsch ein offensichtlicher Affront gegen den ohnehin fragwürdigen demokratischen Prozess der Kommunarden ist, betrachten viele Gamelin nun als Retter der Kommune und sogar des Syndikalismus selbst."
+ FRA_maurice_gamelin_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g20. September 1872, in Paris, Seine, Französische Republik§!"
+
+ FRA_georges_catroux: "Georges Catroux"
+ FRA_georges_catroux_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g29. Januar 1877, in Limoges, Haute-Vienne, Französische Republik§!"
+
+ FRA_gaston_billotte: "Gaston Billotte"
+ FRA_gaston_billotte_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g10. Februar 1875, in Sommeval, Aube, Französische Republik§!"
+
+ FRA_charles_delestraint: "Charles Delestraint"
+ FRA_charles_delestraint_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g12. März 1879, in Biache-Saint-Vaast, Pas-de-Calais, Französische Republik§!"
+
+ FRA_marie_pierre_koenig: "Marie-Pierre Koenig"
+ FRA_marie_pierre_koenig_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g10. Oktober 1898, in Caen, Calvados, Französische Republik§!"
+
+ FRA_ernest_petit: "Ernest Petit"
+ FRA_ernest_petit_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g20 February 1888, in Paimbœuf, Loire-Inférieure, Französische Republik§!"
+
+ FRA_henri_tanguy: "Henri Tanguy"
+ FRA_henri_tanguy_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g12. Juni 1908 in Morlaix, Finistère, Französische Republik§!"
+
+ FRA_rene_olry: "René Olry"
+ FRA_rene_olry_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g28. Juni 1880, in Lille, Nord, Französische Republik§!"
+
+ FRA_diego_brosset: "Diego Brosset"
+ FRA_diego_brosset_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g3. Oktober 1898, in Buenos Aires, Argentinische Republik§!"
+
+ FRA_jean_edouard_verneau: "Jean-Édouard Verneau"
+ FRA_jean_edouard_verneau_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g29. August 1890, in Vignot, Maas, Französische Republik§!"
+
+ FRA_georges_revers: "Georges Revers"
+ FRA_georges_revers_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g30. Juli 1891, in Saint-Malo, Ille-et-Vilaine, Französische Republik§!"
+
+ FRA_andre_boris: "André Boris"
+ FRA_andre_boris_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g23. August 1878, in Toul, Meurthe-et-Moselle, Französische Republik§!"
+
+ FRA_nestor_makhno: "Nestor Makhno"
+ FRA_nestor_makhno_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g8. November 1888, in Huliaipole, Gouvernement Jekaterinoslaw, Russisches Reich§!\n§YMilitärische Karriere:§! §gNestor Makhno wurde in extremer Armut in der ländlichen Ostukraine geboren und erlebte das Schlimmste des späten Russischen Reiches - er verlor seinen Vater, als er zehn Monate alt war, und jede Chance auf eine Ausbildung im Alter von zehn Jahren, als er die Schule verlassen musste, um mit Gelegenheitsarbeiten seine Familie zu ernähren. Er entwickelte eine Urwut auf den Gutsherrn und die Fabrikbesitzer, führte mit zwölf Jahren einen wilden Streik gegen seinen Gutsherrn an und widmete sich seit seinem siebzehnten Lebensjahr, nachdem er die Revolution von 1905 miterlebt hatte, ganz der bevorstehenden Revolution. Er leitete anarchistische Studiengruppen, lieferte sich Scharmützel mit der Polizei und wurde schließlich zu lebenslanger Zwangsarbeit verurteilt.\n\nNach der Februarrevolution wurde Makhno kränklich, aber voller Energie entlassen und reiste sofort in die Ukraine, um seine Arbeit fortzusetzen. Nun war er kein Propagandist mehr, sondern ein Revolutionsführer. Nachdem er wegen der deutschen Besatzung kurzzeitig aus Huliapole verbannt worden war, erlebte er den Aufstieg der Bolschewiki, den er als "Papierrevolution" anprangerte, und kehrte im Juli 1918 nach Hause zurück. Dort gründete er die Revolutionäre Aufständische Armee und begann einen einjährigen Widerstandskrieg gegen die Deutschen und ukrainischen Nationalisten. Obwohl er brutal war und über keinerlei militärische Ausbildung verfügte, erwarb sich Makhno die Gunst des Landes und lieferte dem Hetman einen viel härteren Kampf als erwartet, bevor er zur Flucht gezwungen wurde. Schließlich landete er in der französischen Kommune, die er sofort als eine weitere Papierrevolution anprangerte. Ohne sich für ihre intellektuellen Grundlagen zu interessieren, sah Makhno lediglich Uneinigkeit, Untätigkeit und Oligarchie, die die Errungenschaften der Revolution durch die Schaffung einer weiteren Aristokratie zunichte zu machen drohten. Ähnlich wie die bolschewistischen Exilanten wurde er in die föderale Armee integriert und erwarb sich mit Erzählungen über seine Heldentaten eine Anhängerschaft - im Offizierskorps war er jedoch ein Außenseiter, der sich mit seinen Vorgesetzten anlegte und seine Pflichten vernachlässigte. Weder er noch die Armee waren zufrieden, und so zog es Makhno in die weite Welt - er diente in der Nachkriegszeit in revolutionären Freiwilligenkorps, um die Weltrevolution voranzutreiben. Dieser Weg hat ihn nach Patagonien geführt, wo er der Sache dienen kann, ohne an die Kommunarden zu denken."
+
+ FRA_henri_adeline: "Henri Adeline"
+ FRA_henri_adeline_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g8. Mai 1898, in Verdun, Maas, Französische Republik§!"
+
+ FRA_aime_doumenc: "Aimé Doumenc"
+ FRA_aime_doumenc_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g16. November 1880, in Grenoble, Isère, Französische Republik§!"
+
+ FRA_raoul_magrin_vernerey: "Raoul Magrin Vernerey"
+ FRA_raoul_magrin_vernerey_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g7. Februar 1892, in Budapest, Königreich Ungarn, Österreich-Ungarn§!"
+
+ FRA_joseph_putz: "Joseph Putz"
+ FRA_joseph_putz_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g24. April 1895, in Brussels, Brabant, Königreich Belgien§!"
+
+ FRA_andre_marty: "André Marty"
+ FRA_andre_marty_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g6. November 1886, in Perpignan, Pyrénées-Orientales, Französische Republik§!"
+
+ FRA_georges_blanchard: "Georges Blanchard"
+ FRA_georges_blanchard_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g9. Dezember 1877, in Orléans, Loiret, Französische Republik§!"
+
+ FRA_clement_blanc: "Clément Blanc"
+ FRA_clement_blanc_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g1. Oktober 1897, in Perpignan, Pyrénées-Orientales, Französische Republik§!"
+
+ FRA_paul_legentilhomme: "Paul Legentilhomme"
+ FRA_paul_legentilhomme_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g26. März 1884, in Valognes, Manche, Französische Republik§!"
+
+ FRA_florimond_bonte: "Florimond Bonte"
+ FRA_florimond_bonte_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g22. Januar 1890, in Tourcoing, Nord, Französische Republik§!"
+
+ FRA_aubert_frere: "Aubert Frère"
+ FRA_aubert_frere_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g21. August 1881, in Grévillers, Pas-de-Calais, Französische Republik§!\n§YMilitary Career:§! §gEr wurde als 6. von 11 Kindern geboren und erhielt eine christliche Erziehung, bevor er im Alter von 19 Jahren die Militärschule von Saint-Cyr besuchte. Die meiste Zeit seiner frühen Karriere verbrachte er in Marokko, bevor er 1912 nach Frankreich zurückkehrte. Seine erste Erfahrung während des Weltkriegs machte er in der Schlacht von Charleroi, und später kämpfte er sowohl in Verdun als auch an der Somme. Er wird zunächst zum Bataillonskommandeur des ersten Infanterieregiments und später zum Chef eines Bataillons der Alpentruppen befördert. Bis zum Ende des Krieges wurde er dreimal verwundet und achtmal ausgezeichnet."
+
+ FRA_henri_frenay: "Henri Frenay"
+ FRA_henri_frenay_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g11. November 1905, in Lyon, Rhône, Französische Republik"
+
+ FRA_louis_buisson: "Louis Buisson"
+ FRA_louis_buisson_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g14. Dezember 1889, in Le Bourget-du-Lac, Savoie, Französische Republik"
+
+ FRA_francois_darlan: "François Darlan"
+ FRA_francois_darlan_admiral_desc: "§YAdmiral Beschreibung\nGeboren:§! §g7. August 1881, in Nérac, Lot-et-Garonne, Französische Republik§!\n§YMarine Karriere:§! §gJean Louis Xavier François Darlan wurde in eine Familie geboren, die seit langem mit der Marine verbunden war. Er machte 1902 seinen Abschluss an der École Navale(Marineschule) und diente während des Weltkriegs vor allem in einer Artilleriebatterie in der Schlacht von Verdun. In den Wirren der Revolution und aufgrund seines Patriotismus und seiner gemäßigten linken Gesinnung verschmäht, trat Darlan wieder in die Marine der Kommunarden ein und stieg in den folgenden Jahren rasch auf. Heute ist er einer der angesehensten Männer der französischen Marine und stolz auf die Institution, zu deren Wiederaufbau er beigetragen hat.§!"
+
+ FRA_raoul_castex: "Raoul Castex"
+ FRA_raoul_castex_admiral_desc: "§YAdmiral Description\nGeboren:§! §g27. Oktober 1878, in Saint-Omer, Pas-de-Calais, Französische Republik"
+
+ FRA_andre_georges_lemmonier: "André-Georges Lemonnier"
+ FRA_andre_georges_lemmonier_admiral_desc: "§YAdmiral Description\nGeboren:§! §g24. Februar 1896, in Guingamp, Côtes-du-Nord, Französische Republik"
+
+ FRA_gabriel_auphan: "Gabriel Auphan"
+ FRA_gabriel_auphan_admiral_desc: "§YAdmiral Description\nGeboren:§! §g4. November 1894, in Alès, Gard, Französische Republik"
+
+ FRA_philippe_auboyneau: "Philippe Auboyneau"
+ FRA_philippe_auboyneau_admiral_desc: "§YAdmiral Description\nGeboren:§! §g9. November 1899, in Constantinople, Osmanisches Reich"
+
+ FRA_marcel_gensoul: "Marcel Gensoul"
+ FRA_marcel_gensoul_admiral_desc: "§YAdmiral Description\nGeboren:§! §g12. Oktober 1880, in Montpellier, Hérault, Französische Republik"
+
+ FRA_louis_lazare_kahn: "Louis-Lazare Kahn"
+ FRA_louis_lazare_kahn_desc: "§YAdmiral Beschreibung\nGeboren:§! §g13. Oktober 1895, in Versailles, Seine-et-Oise, Französische Republik"
+
+ FRA_edouard_peisson: "Édouard Peisson"
+ FRA_edouard_peisson_admiral_desc: "§YAdmiral Description\nGeboren:§! §g7. März 1896, in Marseille, Bouches-du-Rhône, Französische Republik"
+
+ FRA_irene_and_frederic_joliot_curie: "Irène & Frédéric Joliot-Curie"
+ FRA_robert_esnault_pelterie: "Robert Esnault-Pelterie"
+
+ FRA_joseph_vuillemin: "Joseph Vuillemin"
+ FRA_martial_henri_valin: "Martial Henri Valin"
+ FRA_maryse_bastie: "Maryse Bastié"
+ FRA_victor_leon_ernest_denain: "Victor Léon Ernest Denain"
+ FRA_jean_francois_jannekeyn: "Jean-François Jannekeyn"
+ FRA_alfred_heurtaux: "Alfred Heurtaux"
+ FRA_georges_guynemer: "Georges Guynemer"
+
+ FRA_leon_blum: "Léon Blum"
+ FRA_daniel_guerin: "Daniel Guérin"
+ FRA_maurice_thorez: "Maurice Thorez"
+ FRA_charles_rappoport: "Charles Rappoport"
+ FRA_henri_barbe: "Henri Barbé"
+ FRA_gabriel_lafaye: "Gabriel Lafaye"
+ FRA_joseph_paul_boncour: "Joseph Paul Boncour"
+ FRA_jacques_duclos: "Jacques Duclos"
+ FRA_jean_zyromski: "Jean Zyromski"
+ FRA_jacques_sadoul: "Jacques Sadoul"
+ FRA_suzanne_girault: "Suzanne Girault"
+ 
+ FRA_confederation_general_du_travail: "Confédération Générale du Travail (Allgemeiner Gewerkschaftsbund)"
+
+ FRA_odette_sansom: "Odette Sansom"
+ FRA_richard_sorge: "Richard Sorge"

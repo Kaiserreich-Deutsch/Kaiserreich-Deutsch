@@ -1,0 +1,301 @@
+﻿l_german:
+
+## Übersetzt von Thylon ##
+
+### Ideas ###
+PHI_aid_big: "Hilfsprogramm für die Philippinen"
+PHI_aid_small: "Hilfsprogramm für die Philippinen"
+PHI_mil_bonus: "Militärisches Hilfsprogramm"
+PHI_ind_bonus: "Industriehilfsprogramm"
+PHI_eco_bonus: "Wirtschaftshilfsprogramm"
+PHI_Sabah_purchase: "Abkommen über den Kauf von Sabah"
+PHI_Sabah_income: "Abkommen über den Kauf von Sabah"
+
+### Parties ###
+PHI_totalist_party: "POF"
+PHI_totalist_party_long: "Partido Obrero de Filipinas (POF)"
+PHI_radical_socialist_party: "POF"
+PHI_radical_socialist_party_long: "Partido Obrero de Filipinas (POF)"
+PHI_syndicalist_party: "POF"
+PHI_syndicalist_party_long: "Partido Obrero de Filipinas (POF)"
+PHI_social_democrat_party: "Republican Party"
+PHI_social_democrat_party_long: "Republican Party"
+PHI_social_liberal_party: "Partido Nacionalista"
+PHI_social_liberal_party_long: "Partido Nacionalista"
+PHI_market_liberal_party: "Republican Party"
+PHI_market_liberal_party_long: "Republican Party"
+PHI_social_conservative_party: "Partido Nacionalista"
+PHI_social_conservative_party_long: "Partido Nacionalista"
+PHI_authoritarian_democrat_party: "Partido Progresista"
+PHI_authoritarian_democrat_party_long: "Partido Progresista"
+PHI_paternal_autocrat_party: "Partido Progresista"
+PHI_paternal_autocrat_party_long: "Partido Progresista"
+PHI_national_populist_party: "Partido Progresista"
+PHI_national_populist_party_long: "Partido Progresista"
+
+## Put this in back temporary, else legacyPHI on master wouldn't have a party name when couped
+PHI_authoritarian_democrat_party_KTP: "KTP"
+PHI_authoritarian_democrat_party_KTP_long: "Komisyong Tagapagpaganap ng Pilipinas"
+
+### Country Names ###
+PHI: "Philippinen"
+PHI_ADJ: "Philippinisch"
+PHI_DEF: "die Philippinen"
+
+PHI_totalist: "Sozialistische Republik der Philippinen"
+PHI_totalist_ADJ: "Philippinisch"
+PHI_totalist_DEF: "die Sozialistische Republik der Philippinen"
+PHI_syndicalist: "Sozialistische Republik der Philippinen"
+PHI_syndicalist_ADJ: "Philippinisch"
+PHI_syndicalist_DEF: "die Sozialistische Republik der Philippinen"
+PHI_radical_socialist: "Sozialistische Republik der Philippinen"
+PHI_radical_socialist_ADJ: "Philippinisch"
+PHI_radical_socialist_DEF: "die Sozialistische Republik der Philippinen"
+
+### Opinion Modifiers ###
+PHI_Sabah_GER: "Hat unsere Souveränität über Sabah anerkannt"
+PHI_Sabah_GER_ignore: "Weigerte sich, unseren Anspruch auf Sabah anzuerkennen"
+PHI_Sabah_menace: "Drohungen über Sabah"
+PHI_JAP_Sabah_nope: "Weigerte sich, Sabah abzutreten"
+
+### World Tension ###
+PHI_revolution_threat: "Revolution auf den Philippinen"
+
+### Tooltips ###
+PHI_germil_tt: "Drei Divisionen mit Artillerie und Pionierunterstützung werden erstellt."
+
+### Decisions ###
+PHI_join_faction: "Eine Allianz mit [FROM.GetNameDef]"
+
+### Intro Screen ###
+PHI_country_intro_header: "Ein Weg in die Unabhängigkeit"
+PHI_country_intro_content: "Die Philippinen waren bis Ende 1898 eine spanische Kolonie, als die Vereinigten Staaten sie als Kriegsbeute von Spanien beanspruchten. Es folgten Jahre des gewaltsamen Kampfes für die Unabhängigkeit, und als sich die wirtschaftliche und politische Krise in Amerika zu verschärfen begann, trugen sie schließlich Früchte. Im Jahr 1934 wurde das Tydings-McDuffie-Gesetz verabschiedet, mit dem der Commonwealth der Philippinen mit einer gewählten Regierung unter Manuel Quezon und einer Verfassung, die sich an die der Vereinigten Staaten anlehnte, gegründet wurde, während Washington die Kontrolle über die Außenpolitik und das Militär des Landes behielt. Vor allem aber wurde festgelegt, dass der Archipel nach einer zehnjährigen Übergangsphase eine völlig unabhängige Republik werden sollte. Doch über Amerika ziehen Gewitterwolken auf. Werden die Philippinen früher als erwartet ihre Unabhängigkeit erlangen, und wird dies dazu führen, dass sie zur Beute eines weiteren großen Imperiums werden? Nur die Zeit wird es zeigen..."
+
+PHI_guide: "§MDie Demokratie überlebt§! (§lSozialliberale§!)\n£white_dot Unsere Streitkräfte sollen sich dem syndikalistischen Aufstand widersetzen.\n\n§MMilitärjunta§! (§PPaternal Autokratisch§!)\n£white_dot Lassen Sie die syndikalistischen Rebellen die Hauptstadt besetzen.\n£white_dot Lassen Sie loyale Einheiten die Hauptstadt stürmen und eine Militärdiktatur errichten.\n\n§MSyndikalistische Revolution§! (§rSyndikalisten§!)\n£white_dot Lassen Sie die syndikalistischen Rebellen die Hauptstadt besetzen.\n£white_dot Die Armee muss sich der Rebellion anschließen und die Regierung stürzen.\n\n§MAußenpolitik§!\n§MDritte Internationale§!\n£white_dot Wenn die Revolution erfolgreich ist, wird die Entscheidung, der Dritten Internationale beizutreten, in der Registerkarte Entscheidungen erscheinen.\n§MÖstlicher Syndikalismus§!\n£white_dot Wenn die Revolution erfolgreich verläuft, wird die Entscheidung, der Östlichen Syndikalistischen Union beizutreten, nach der Gründung der Fraktion erscheinen.\n§MReichspakt§! / §MEntente§!\n£white_dot Die Demokratie hat überlebt oder es herrscht eine Militärdiktatur.\n£white_dot Entscheiden Sie sich im Wirtschaftsentwicklungsplan für die Hilfe der Deutschen, um dem Reichspakt beizutreten, oder für die Hilfe Australasiens, um der Entente beizutreten.\n£white_dot Wenn unser Unterstützer den Bau eines Marinestützpunktes vorschlägt, sollten Sie dessen Finanzierung akzeptieren.\n£white_dot Wenn sie zustimmen, sollten wir 6 Monate auf die Eröffnung des Marinestützpunktes warten. Sobald dies geschehen ist, wird die Entscheidung, der Fraktion unserer Unterstützer beizutreten, in der Registerkarte Entscheidungen erscheinen.\n§MGemeinsame Wohlstandssphäre§!\n£white_dot Wir können uns durch die oben beschriebene Methode anschließen oder, wenn Japan uns bedroht, können wir uns ergeben, ihre Marionette werden und ihrer Fraktion beitreten oder, wenn sie uns zur Konferenz in Tokio einladen."
+
+### Events ###
+phil.1.t: "Syndikalistischer Aufstand in Manila"
+phil.1.d: "Während wir aufgrund des chaotischen Bürgerkriegs in den Vereinigten Staaten friedlich unsere Unabhängigkeit erlangt haben, sieht sich unser junges Commonwealth bereits mit den Gefahren des Syndikalismus konfrontiert. Inspiriert vom Aufstand der Sozialistische Republik von Amerika und von der Bharatiya-Kommune in Indien hat eine Gruppe verärgerter Armeeoffiziere ihren Einheiten befohlen, auf unsere Hauptstadt zu marschieren, wo sie sich mit Gruppen von Bauern und Industriearbeitern zusammengetan haben. Sie planen, auf unserem Archipel einen syndikalistischen Staat zu errichten!"
+phil.1.a: "Die Rebellen nehmen die Hauptstadt ein und bereiten die Errichtung eines syndikalistischen Regimes vor."
+phil.1.b: "Befehlt unseren Streitkräften, sich dem Aufstand zu widersetzen."
+
+phil.2.t: "Der Gegenputsch der Armee"
+phil.2.d: "Obwohl die den Syndikalisten nahestehenden Einheiten den größten Teil des Stadtzentrums von Manilla eingenommen haben, steht der größte Teil der Streitkräfte derzeit noch auf der Seite der legalen Regierung. Werden sie sich den Revolutionären anschließen?"
+phil.2.a: "Die Armee schließt sich den Rebellen an und die Regierung wird gestürzt."
+phil.2.b: "Loyale Einheiten stürmen die Hauptstadt und vertreiben die Syndikalisten."
+
+phil.4.t: "Die Revolution ist besiegt"
+phil.4.d: "Als die Streitkräfte ihre Unterstützung für unsere Regierung erklärten, verloren die rebellischen Einheiten schnell an Unterstützung. Nachdem einer unserer Generäle eine Panzerkolonne in die Innenstadt von Manilla gefahren hatte, kapitulierten die Syndikalisten offiziell und beendeten damit die Gefahr eines syndikalistischen Putsches in unserem Land. Mit der Besetzung wichtiger Punkte in der Stadt durch die Armee zeichnet sich jedoch eine neue Bedrohung am Horizont ab, denn es gibt Gerüchte, dass das Militär versuchen könnte, die Gelegenheit zu nutzen, um die Macht an sich zu reißen und eine eigene Diktatur zu errichten."
+phil.4.a: "Die Armee setzt die legale Regierung wieder ein."
+phil.4.b: "Eine Militärdiktatur wird errichtet."
+
+phil.6.t: "Wirtschaftskrise im Anmarsch"
+phil.6.d: "Mit dem Verlust des amerikanischen Schutzes durch den Bürgerkrieg hat unser Land eine wichtige Einnahmequelle verloren, und unsere Wirtschaft befindet sich in einer Krise. Unsere Politiker haben mehrere Pläne ausgearbeitet, die die Erhöhung unserer industriellen Kapazität, die Verlagerung unserer Wirtschaft mit einer Erweiterung unserer Streitkräfte oder die Entwicklung unserer Bergbau- und Forstwirtschaft vorsehen. Wofür sollen wir uns entscheiden?"
+phil.6.a: "Baut unsere Streitkräfte aus, das wird unsere Wirtschaft voranbringen."
+phil.6.b: "Wir müssen unsere industriellen Kapazitäten ausbauen."
+phil.6.c: "Erkundet unsere natürlichen Ressourcen - Bergbau und Forstwirtschaft."
+
+phil.7.t: "Wirtschaftsentwicklungsplan"
+phil.7.d.main: "Da wir beschlossen haben, einen Plan zur Entwicklung unserer Wirtschaft und zur Verhinderung einer größeren Krise in Angriff zu nehmen, müssen wir nun entscheiden, wer uns bei diesem Projekt helfen wird. Sollen wir uns um ausländische Unterstützung bemühen, oder können die Philippinen dies ganz allein tun?"
+phil.7.d.return: "[From.GetNameDefCap] hat unsere Bitte um Hilfe abgelehnt, so dass wir nun unser Vorgehen überdenken müssen. Wen sollen wir bitten, uns in unserer Krise zu helfen?"
+phil.7.a: "Deutschland ist die mächtigste Nation der Welt."
+phil.7.b: "Japan ist unser natürlicher Partner."
+phil.7.c: "Suche nach Finanzmitteln aus Australasien und der Entente."
+phil.7.e: "Die Kommune Frankreichs wird uns helfen."
+phil.7.f: "Die Amerikaner sind unsere historischen Partner."
+phil.7.g: "Wir sollten das alleine machen."
+
+phil.8.t: "Die Philippinen bitten um Unterstützung"
+phil.8.d: "Vertreter der kürzlich unabhängig gewordenen Philippinen haben sich an uns gewandt, da ihr Präsident einen Plan entwickelt hat, um eine Wirtschaftskrise in ihrem Land zu verhindern: Sie wollen ihre Streitkräfte ausbauen und so ihre Industrieproduktion steigern und Arbeitsplätze für ihr Volk schaffen. Sie wünschen, dass [Root.GetNameDef] sie bei dieser Aufgabe finanziell unterstützt, was sich als nützlich erweisen könnte - wir würden nicht nur eine Destabilisierung des Landes verhindern, sondern auch einen Freund in der Region gewinnen."
+phil.8.a: "Wir werden ihnen helfen."
+phil.8.b: "Das würde uns wenig nützen."
+
+phil.9.t: "Die Philippinen bitten um Unterstützung"
+phil.9.d: "Vertreter der kürzlich unabhängig gewordenen Philippinen haben sich an uns gewandt. Sie bitten um [Root.GetAdjective] Hilfe bei der Ausweitung ihrer Industrieproduktion, um eine bedeutende Wirtschaftsmacht in Südostasien zu werden. Sollen wir ihre Projekte finanzieren? Wir würden nicht nur verhindern, dass sie sich destabilisieren, sondern auch einen Freund in der Region gewinnen."
+phil.9.a: "Finanziert den Ausbau ihrer Industrie."
+phil.9.b: "Das würde uns wenig nützen."
+
+phil.10.t: "Die Philippinen bitten um Unterstützung"
+phil.10.d: "Vertreter der kürzlich unabhängig gewordenen Philippinen haben sich mit einer Bitte an unsere Regierung gewandt. Sie bitten um [Root.GetAdjective] Hilfe bei der Ausweitung ihrer Bergbau- und Forstindustrie mit dem Ziel, ein wichtiger Lieferant von natürlichen Ressourcen in Südostasien zu werden. Sollen wir ihre Projekte finanzieren? Wir würden nicht nur verhindern, dass sie sich destabilisieren, sondern auch einen Freund in der Region gewinnen."
+phil.10.a: "Wir werden ihnen helfen."
+phil.10.b: "Das würde uns wenig nützen."
+
+phil.11.t: "Neue Divisionen gegründet"
+phil.11.d: "Nach fast einem Jahr sind die neuen Infanterieeinheiten einsatzbereit. Diese Divisionen wurden in unserem eigenen Land mit Hilfe von Industriespezialisten aus [From.GetNameDef] aufgebaut. Dank dieses Hilfsprogramms konnten wir neue Industrieparks eröffnen, die unserer gesamten Wirtschaft zugute kommen werden."
+phil.11.a: "Das ist gut!"
+
+phil.12.t: "Neue Fabriken gebaut"
+phil.12.d: "Nach fast einem Jahr ist in Manila ein neuer Industriekomplex eingeweiht worden. Diese Fabriken wurden mit finanzieller Unterstützung und der Hilfe von Industrieexperten von [From.GetNameDef] gebaut. Dies wird unserer Wirtschaft insgesamt zugute kommen!"
+phil.12.a: "Das ist gut!"
+
+phil.13.t: "Die Wirtschaft verbessert sich"
+phil.13.d: "Nach fast einem Jahr hat unsere Regierung dank der entscheidenden Hilfe von [From.GetNameDef] eine Reihe neuer Minen und Holzerkundungsgebiete eröffnet. Dies wird unserer Wirtschaft insgesamt zugute kommen, da wir uns zum Ziel gesetzt haben, ein wichtiger Anbieter von natürlichen Ressourcen in Südostasien zu werden!"
+phil.13.a: "Das ist gut!"
+
+phil.14.t: "Marinestützpunkt auf den Philippinen?"
+phil.14.d: "Nach unserem ersten Wirtschaftshilfepaket für die Philippinen haben wir dort ein großes Netz von Kontakten aufgebaut. [Root.GetAdjective] Unternehmen florieren auf diesem neuen Markt, aber wir könnten diese neuen Freunde auch nutzen, um unsere strategischen Interessen durchzusetzen. Einige Kreise innerhalb der [Root.GetAdjective] Marine sind der Meinung, dass wir ihre Regierung davon überzeugen sollten, die Errichtung eines großen Marinestützpunktes im Norden des Archipels zuzulassen, um sie noch weiter in unsere Sphäre zu bringen."
+phil.14.a: "Schlagt ihrer Regierung ein Geschäft vor."
+phil.14.b: "Haben wir nicht schon genug Stützpunkte in Asien?"
+
+phil.15.t: "Ein Vorschlag von [From.GetNameDef]"
+phil.15.d: "Die [From.GetAdjective] Marine hat sich mit dem Vorschlag an unsere Regierung gewandt, im Norden unserer Hauptinsel Luzon einen Marinestützpunkt zu errichten. Einige Politiker fürchten den wachsenden Einfluss von [From.GetAdjective] in unserem Land, aber ein großer Teil unseres Kabinetts ist der Meinung, dass wir ihre Hilfe bei einer neuen Runde wirtschaftlicher Expansionspläne gebrauchen könnten."
+phil.15.a: "Lehnt den Vorschlag ab! Unser Land ist nicht zu verkaufen!"
+phil.15.b: "Wir wollen ihre Finanzierung für einen neuen Industriekomplex im Gegenzug."
+
+phil.16.t: "Filipinos verlangen nach Finanzierungen"
+phil.16.d: "Die philippinische Regierung hat unseren Vorschlag für die Errichtung eines Marinestützpunktes in ihrem Hoheitsgebiet unter der Bedingung akzeptiert, dass wir ihr bei der Finanzierung eines neuen Industriekomplexes helfen."
+phil.16.a: "Das ist nicht einmal die Mühe wert."
+phil.16.b: "Einverstanden!"
+
+phil.17.t: "[From.GetAdjective] Naval Base Inaugurated"
+phil.17.d: "Der neue Stützpunkt der [From.GetAdjective] Marine ist heute in der Provinz Cagayan eingeweiht worden. Wie zuvor vereinbart, hat uns [From.GetNameDef] beim Bau neuer Industrien geholfen, die heute ebenfalls ihre Arbeit aufgenommen haben."
+phil.17.a: "Großartig!"
+
+phil.18.t: "Neuer Marinestützpunkt auf den Philippinen"
+phil.18.d: "Wie zuvor mit [From.GetNameDef] vereinbart, wurde heute der neue Stützpunkt der [Root.GetAdjective] Marine auf der Insel Luzon eingeweiht. Diese neue Einrichtung wird uns bei der Durchführung neuer Operationen im Pazifik helfen."
+phil.18.a: "Großartig!"
+
+phil.19.t: "Ein Bündnis mit den Philippinen?"
+phil.19.d: "Aufgrund unseres wachsenden Einflusses auf die Philippinen sind einige in unserem Kabinett der Meinung, dass wir auch ihre Regierung zur [Root.GetFactionName] einladen sollten."
+phil.19.a: "Nicht interessiert."
+phil.19.b: "Macht ihnen einen Vorschlag."
+
+phil.20.t: "Beitritt zur [From.GetFactionName]?"
+phil.20.d: "[FROM.GetNameDefCap] hat uns eingeladen, der [From.GetFactionName] beizutreten. Sollten wir ihre Einladung annehmen? Auch wenn wir sicherlich durch viele Handelsgeschäfte mit [From.GetNameDef] und ihrem Einflussbereich profitieren werden, könnten wir in unerwünschte Konflikte hineingezogen werden."
+phil.20.a: "Das ist zu gefährlich"
+phil.20.b: "Akzeptiert ihren Vorschlag."
+
+phil.21.t: "[FROM.GetNameDefCap] hat abgelehnt"
+phil.21.d: "Leider scheint die [From.GetAdjective] Regierung nicht zur Vernunft kommen zu wollen. Sie hat unseren Vorschlag abgelehnt."
+phil.21.a: "Na ja"
+
+phil.22.t: "Der Streit um Sabah"
+phil.22.d: "Aufgrund mehrerer komplexer Kolonialverträge, an denen Spanien und Großbritannien im XIX. Jahrhundert beteiligt waren, haben die Philippinen einen Rechtsanspruch auf das Gebiet von Sabah, das heute als nördlicher Teil der deutschen Kolonie Borneo eingegliedert ist. Wir wissen, dass Deutschland aufgrund der Wirtschaftskrise von 1936 bereit war, die Kontrolle über einige seiner Kolonien abzutreten, da sie sehr teuer waren. Vielleicht könnten wir die Gelegenheit nutzen und unsere Verbündeten bitten, uns das Gebiet zurückzugeben?"
+phil.22.a: "Macht Deutschland einen Vorschlag."
+phil.22.b: "Das würde zu viel kosten, legt einfach unsere Forderungen vor."
+phil.22.c: "Wir sind nicht an Sabah interessiert, sollen die Deutschen es doch behalten."
+
+phil.23.t: "Philippinische Ansprüche auf Sabah"
+phil.23.d: "Aufgrund mehrerer komplexer Kolonialverträge, an denen Spanien und Großbritannien im XIX. Jahrhundert beteiligt waren, haben die Philippinen einen Rechtsanspruch auf das Gebiet von Sabah, das heute den nördlichen Teil der deutschen Kolonie Borneo bildet. Wir wurden von philippinischen Vertretern angesprochen, die sich erkundigten, ob wir daran interessiert wären, ihnen die Souveränität über das Gebiet zu übertragen."
+phil.23.a: "Tretet Sabah an unsere Verbündeten als Geste des guten Willens ab."
+phil.23.b: "Wir werden das Gebiet abtreten, wenn sie bereit sind, dafür zu bezahlen."
+phil.23.c: "Nord-Borneo ist ein wichtiger Teil unseres Kolonialreichs, den wir behalten müssen."
+
+phil.24.t: "Ein Vorschlag aus Deutschland"
+phil.24.d: "Das Deutsche Reich hat erklärt, dass es bereit ist, uns das Gebiet von Sabah abzutreten, wenn wir dafür bezahlen!"
+phil.24.a: "Akzeptiert ihre Forderungen."
+phil.24.b: "Das ist mehr, als wir uns leisten können, tut mir leid."
+
+phil.25.t: "Die Übertragung von Sabah"
+phil.25.d: "Die Philippinen haben unsere Bedingungen für das Abkommen akzeptiert."
+phil.25.a: "Okay."
+
+phil.26.t: "[From.GetNameDefCap] bittet darum, der [ROOT.GetFactionName] beizutreten"
+phil.26.d: "Während die revolutionären Feuer durch Asien fegen, wird die Notwendigkeit von Solidarität und Zusammenarbeit unter den neu emanzipierten Völkern immer offensichtlicher. Da wir uns der Gefahr bewusst sind, in der sich schnell verändernden globalen Szene neutral zu bleiben, haben unsere Kameraden von [From.GetNameDef] darum gebeten, der [ROOT.GetFactionName] beizutreten. Die Annahme dieses Antrags würde unseren Einfluss im Pazifik, einer für unsere strategischen Interessen wichtigen Region, ausweiten. Es gab jedoch auch Stimmen, die vor einer Verstrickung in unnötige ausländische Unternehmungen warnten."
+phil.26.a: "Wir begrüßen unsere [From.GetAdjectiveCap]-Kameraden."
+phil.26.b: "Das ist unnötig, lehnen wir ihren Antrag ab."
+
+phil.27.t: "[From.GetNameDefCap] akzeptiert!"
+phil.27.d: "Wie erwartet hat [FROM.GetNameDef] unser Ersuchen angenommen, der [From.GetFactionName] beizutreten, und damit die wachsende Verbundenheit zwischen unseren Nationen besiegelt. Was auch immer die Zukunft bringt, wir werden den Sturm gemeinsam überstehen."
+phil.27.a: "Wir stehen vereint."
+
+phil.28.t: "[From.GetNameDefCap] lehnt ab"
+phil.28.d: "In einem unerwarteten und enttäuschenden Schritt hat [FROM.GetNameDef] unseren Antrag auf Beitritt zur [From.GetFactionName] abgelehnt, und nun sind wir noch weiter von den globalen Angelegenheiten isoliert."
+phil.28.a: "Wir werden auf uns selbst gestellt sein."
+
+phil.40.t: "Der Streit um Sabah"
+phil.40.d: "Aufgrund mehrerer komplexer Kolonialverträge, an denen Spanien und Großbritannien im XIX. Jahrhundert beteiligt waren, haben die Philippinen einen Rechtsanspruch auf das Gebiet von Sabah, das heute zum nördlichen Teil Borneos gehört. Da wir derzeit unter dem Schutz einer fremden Macht stehen, wäre dies ein guter Zeitpunkt, um unsere Ansprüche formell zu präsentieren."
+phil.40.a: "Sabah gehört rechtmäßig uns."
+phil.40.b: "Wir sind nicht an Sabah interessiert."
+
+phil.41.t: "Philippinische Ansprüche auf Sabah"
+phil.41.d: "Aufgrund mehrerer komplexer Kolonialverträge, an denen Spanien und Großbritannien im XIX. Jahrhundert beteiligt waren, haben die Philippinen einen Rechtsanspruch auf das Gebiet von Sabah, das heute als nördlicher Teil der [Root.GetAdjective] Kolonie Borneo gilt. Heute hat die philippinische Regierung ihre Ansprüche auf die Region bekräftigt."
+phil.41.a: "Viel Glück dabei."
+
+phil.42.t: "Anspruch auf Sabah"
+phil.42.d: "Aufgrund mehrerer komplexer Kolonialverträge, an denen Spanien und Großbritannien im XIX. Jahrhundert beteiligt waren, haben die Philippinen einen Rechtsanspruch auf das Gebiet von Sabah, das derzeit vom japanischen Kaiserreich besetzt ist. Dies wäre ein guter Zeitpunkt, das Land für uns zu beanspruchen."
+phil.42.a: "Sabah gehört rechtmäßig uns, erheben wir unsere Ansprüche."
+phil.42.b: "Wir sind nicht an Sabah interessiert, soll Japan es doch behalten."
+
+phil.43.t: "Die Philippinen beanspruchen Sabah"
+phil.43.d: "Aufgrund mehrerer komplexer Kolonialverträge, an denen Spanien und Großbritannien im XIX. Jahrhundert beteiligt waren, haben die Philippinen einen Rechtsanspruch auf das Gebiet von Sabah, das derzeit von uns besetzt ist. Sie haben die Gelegenheit genutzt, um ihre Ansprüche zu bekräftigen."
+phil.43.a: "Natürlich. Übergebt Sabah an sie."
+phil.43.b: "Sabah ist ein Teil des Kaiserreichs."
+
+phil.44.t: "Den Moment ergreifen"
+phil.44.d: "Aufgrund mehrerer komplexer Kolonialverträge, an denen Spanien und Großbritannien im XIX. Jahrhundert beteiligt waren, haben die Philippinen einen Rechtsanspruch auf das Gebiet von Sabah, das derzeit vom Deutschen Reich besetzt ist. Da das Reich in einen großen Krieg verwickelt ist, den es zu verlieren scheint, könnte dies der Zeitpunkt für unsere Truppen sein, das umstrittene Gebiet zu erobern - Deutschland wird sich uns sicher nur schwer widersetzen können!"
+phil.44.a: "Entsendet die Truppen und besetzt Sabah."
+phil.44.b: "Dennoch ist das zu gefährlich."
+
+phil.45.t: "Die Philippinen annektieren Nordborneo"
+phil.45.d: "Die Philippinen haben unsere Rückschläge ausgenutzt und Truppen entsandt, um Sabah in unserer Kolonie Nordborneo zu besetzen!"
+phil.45.a: "Wir können uns ihnen nicht widersetzen, evakuiert unser Personal!"
+phil.45.b: "Dies wird nicht ungestraft bleiben! Krieg!"
+
+phil.52.t: "Marinestützpunkt auf den Philippinen?"
+phil.52.d: "Infolge des australasiatischen Wirtschaftshilfepakets für die Philippinen hat die Entente dort ein umfangreiches Netz von Kontakten aufgebaut. Einige Kreise innerhalb der [Root.GetAdjective] Marine sind der Meinung, dass wir ihre Regierung davon überzeugen sollten, die Errichtung eines großen Marinestützpunktes im Norden des Archipels zuzulassen, um sie weiter in unsere Sphäre zu bringen."
+
+phil.69.t: "Syndikalismus in Ostasien"
+phil.69.d.bhc: "Nach unserem Hilfsprogramm für die Philippinen haben einige Mitglieder unseres Kabinetts darüber nachgedacht, diese Nation als unser Sprungbrett für die Verbreitung des Syndikalismus in Ostasien zu betrachten. Deshalb sollten wir sie einladen, unserem Militärbündnis, der Internationale, beizutreten. Einige Minister sehen Ostasien als ein zu weit entferntes Ziel für uns an und schlagen stattdessen vor, dass wir die Verantwortung an die Bharatiya-Kommune weitergeben."
+phil.69.d.nobhc: "Nach unserem Hilfsprogramm für die Philippinen haben einige Mitglieder unseres Kabinetts darüber nachgedacht, diese Nation als unser Sprungbrett für die Verbreitung des Syndikalismus in Ostasien zu betrachten. Deshalb sollten wir sie einladen, unserem Militärbündnis, der Internationale, beizutreten."
+phil.69.a: "Ladet sie ein, der Internationale beizutreten."
+phil.69.b: "Fördert ein Bündnis mit der Bharatiya-Kommune."
+phil.69.c: "Syndikalismus in Asien ist nur ein fernes Ziel."
+
+phil.70.t: "Ein Bündnis mit den Philippinen?"
+phil.70.d: "[FROM.GetNameDefCap], Führer der Syndikalistischen Revolution, hat mit einer neuen sozialistischen Republik in Asien, den Philippinen, Wirtschaftshilfeprogramme durchgeführt. Sollte diese junge Republik jemals in einen Krieg gegen die bürgerlichen Mächte verwickelt werden, sind sie jedoch zu weit entfernt, um viel Hilfe zu leisten. Deshalb haben sie uns gebeten, Gespräche mit den Philippinen aufzunehmen und zu versuchen, ein Bündnis der syndikalistischen Nationen in Asien zu gründen."
+phil.70.a: "Kein Interesse, tut mir leid."
+phil.70.b: "Macht ihnen einen Vorschlag."
+
+phil.71.t: "Die Östliche Syndikalistische Union und die Philippinen?"
+phil.71.d: "[From.From.GetNameDefCap], Anführer der Syndikalistischen Revolution, hat die sozialistischen Reformen, die wir auf den Philippinen durchgeführt haben, mit großem Interesse verfolgt. Auch wenn wir eine Bastion des Sozialismus in Asien sind, sind sie zu weit weg und könnten nicht viel tun, falls wir in einen Krieg verwickelt werden. Deshalb haben sie [From.GetNameDef] überzeugt, mit uns Gespräche aufzunehmen, um ein Bündnis syndikalistischer Nationen in Asien zu gründen."
+phil.71.a: "Das ist zu gefährlich."
+phil.71.b: "Akzeptiert ihren Vorschlag."
+
+phil.72.t: "Die Philippinen haben akzeptiert"
+phil.72.d: "Die Philippinen haben unser Bündnisangebot angenommen!"
+phil.72.a: "Großartig!"
+
+phil.80.t: "Wiederherstellung alter Bindungen"
+phil.80.d: "Nach unserem Hilfsprogramm für die Philippinen haben einige Mitglieder unseres Kabinetts erwogen, unseren Schutz über dieses Land wiederherzustellen. Auch wenn die Wiederherstellung des alten, von den USA kontrollierten Commonwealth nahezu unmöglich wäre, sollten wir es zumindest versuchen."
+phil.80.a: "Kontaktiert sie."
+phil.80.b: "Wir haben keine Interessen mehr in Ostasien."
+
+phil.82.t: "Die Philippinen haben akzeptiert"
+phil.82.d: "Es gab zwar eine gewisse Kontroverse über das, was sie als 'Rückkehr des amerikanischen Imperialismus' ansahen, aber die philippinische Regierung hat die Weisheit erkannt, unseren Vorschlag zum Schutz anzunehmen und die Beziehungen wiederherzustellen."
+phil.82.a: "Großartig!"
+
+phil.83.t: "Ein amerikanischer Vorschlag"
+phil.83.d: "Auch wenn zwischen unseren beiden Ländern keine politischen Beziehungen mehr bestehen wie vor dem amerikanischen Bürgerkrieg, haben die Vereinigten Staaten die Reformen, die wir auf den Philippinen durchgeführt haben, mit großem Interesse verfolgt. Um die Beziehungen zwischen unseren beiden Ländern wiederherzustellen, haben die Amerikaner einen Vertrag angeboten, um das böse Blut hinter uns zu lassen und die Beziehungen und Geschäftsbeziehungen zwischen unseren Ländern zu verbessern."
+phil.83.a: "Das ist eine Rückkehr zum Kolonialismus, daran sind wir nicht interessiert."
+phil.83.b: "Akzeptiert ihren Vorschlag."
+
+### Characters ###
+PHI_elpidio_quirino: "Elpidio Quirino"
+PHI_manuel_roxas: "Manuel Roxas"
+PHI_manuel_luis_quezon: "Manuel Luis Quezón"
+PHI_emilio_aguinaldo: "Emilio Aguinaldo"
+PHI_juan_antonio_araneta: "Juan Antonio Araneta"
+PHI_lope_kanseco_santos: "Lope Kanseco Santos"
+PHI_crisanto_evangelista: "Crisanto Evangelista"
+PHI_basilio_jose_valdes: "Basilio José Valdes"
+PHI_vicente_lim: "Vicente Lim"
+PHI_paulino_santos: "Paulino Santos"
+PHI_carlos_pena_romulo: "Carlos Penã Romulo"
+PHI_ruperto_kangleon: "Ruperto Kangleon"
+PHI_rafael_liwanag: "Rafael Liwanag"
+PHI_alberto_ramos: "Alberto Ramos"
+PHI_antonio_de_las_alas: "Antonio de las Alas"
+PHI_sergio_osmena: "Sergio Osmena"
+PHI_carlos_p_garcia: "Carlos P Garcia"
+PHI_gregario_licaros: "Gregorio Licaros"
+PHI_basilio_valdes: "Basilio Valdes"
+PHI_jesus_vargas: "Jesus Vargas"
+PHI_mateo_capinpin: "Mateo Capinpin"
+PHI_ramon_magsaysay: "Ramon Magsaysay"
+PHI_basilio_fernando: "Basilio Fernando"
+PHI_pelagio_cruz: "Pelagio Cruz"
+PHI_felix_pestana: "Felix Pestana"
+PHI_enrique_jurado: "Enrique Jurado"
+PHI_jose_v_andrada: "Jose V Andrada"
+PHI_jose_v_francisco: "Jose V Francisco"

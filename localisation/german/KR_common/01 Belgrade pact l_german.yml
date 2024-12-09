@@ -1,0 +1,400 @@
+﻿l_german:
+### Übersetzt von DerEherneRächer ###
+### Ideas ###
+ SER_reparation_payments: "Kriegsreparationen an Bulgarien"
+ SER_reparation_payments_desc: "Da Serbien den Vierten Balkankrieg verloren hat, muss es Kriegsreparationen an Bulgarien zahlen."
+ BUL_reparation_payments_from_serbia: "Kriegsreparationen von Serbien"
+ BUL_reparation_payments_from_serbia_desc: "Serbien bezahlt Kriegsreparationen an Bulgarien."
+ is_in_belgrade_pact: "Mitglied des Belgrader Pakts"
+ BPL_pact_of_organisation: "Organisationspakt"
+ BPL_pact_of_organisation_desc: "Den Organisationspakt zu unterschreiben hat dazu beigetragen, die Wirtschaften der Balkanstaaten zu integrieren und die Beziehungen zu stärken. Der wirtschaftliche Rat des Pakts wiederum half dabei, den Handel und die wirtschaftlichen Beziehungen zu koordinieren und unsere Nation beginnt, die Vorteile dieser Übereinkunft zu erfahren.\n\n§RSollten wir uns mit Mitgliedern des Pakts im Krieg befinden, wird der Rat aufgelöst und wir werden sämtliche seiner Vorteile verlieren!§!"
+ BPL_modify_pact_of_organisation: "Modifiziert §H$BPL_pact_of_organisation$§! durch"
+ BP_war_exhaustion: "Kriegsmüdigkeit im Balkan"
+ belgrade_part_arms_embargo: "Internationales Rüstungsembargo"
+ belgrade_part_arms_embargo_desc: "Das österreichische Kaiserreich und seine Verbündeten haben sich dazu entschieden, ein internationales Waffenembargo gegen uns zu verhängen. Unsere Nation ist vom weltweiten Waffenhandel abgeschnitten, weshalb wir uns mit unserer mageren Produktionsrate zufrieden geben müssen. Wir sollten uns besser beeilen und den Krieg gegen Bulgarien möglichst schnell beenden."
+
+### Decisions ###
+ Belgrade_Pact_Balkan_War: "Belgrader Pakt"
+
+ Belgrade_Pact_invite_member: "Ladet [From.GetNameDef] in den Belgrader Pakt ein."
+ Belgrade_Pact_invite_member_desc: "Die [From.GetAdjective] Armeen werden bitter benötigt, wenn wir unsere Ziele erreichen wollen. Es ist an der Zeit, sie in unsere Allianz einzuladen."
+
+ Belgrade_Pact_Romania_capture_dobrudzha_mission: "Erobert die Dobrudscha"
+ Belgrade_Pact_Romania_capture_dobrudzha_mission_desc: "Endlich können wir unsere Rache an den Bulgaren ausüben! Es ist unsere Pflicht, die Dobrudscha, welche uns von den Zentralmächten nach dem Weltkrieg gestohlen wurde, zurückzuerobern."
+ Belgrade_Pact_Serbia_capture_macedonia_mission: "Erobert Mazedonien"
+ Belgrade_Pact_Serbia_capture_macedonia_mission_desc: "Endlich können wir unsere Rache an den Bulgaren ausüben! Es ist unsere Pflicht, Mazedonien, welches uns von den Zentralmächten nach dem Weltkrieg gestohlen wurde, zurückzuerobern."
+ Belgrade_Pact_Greece_capture_southern_macedonia: "Erobert Südmazedonien"
+ Belgrade_Pact_Greece_capture_southern_macedonia_desc: "Endlich können wir unsere Rache an den Bulgaren ausüben! Es ist unsere Pflicht, Südmazedonien, welches uns von den Zentralmächten nach dem Weltkrieg gestohlen wurde, zurückzuerobern."
+ Belgrade_Pact_race_to_sofia: "Wettlauf nach Sofia"
+ Belgrade_Pact_race_to_sofia_desc: "Die bulgarischen Verteidigungen wurden durchbrochen und die Straße nach Sofia ist frei. Es ist nur eine Frage der Zeit, bis die bulgarische Hauptstadt fällt. Sie einzunehmen wäre ein großer Erfolg für unsere Nation."
+
+### Opinion Modifiers ###
+ Belgrade_Pact_anti_bulgaria: "Gegen Bulgarien"
+ Belgrade_Pact_joined_boo: "Ist Pakt gegen Bulgarien beigetreten"
+ Belgrade_Pact_did_not_join_yay: "Ist dem Belgrader Pakt nicht beigetreten"
+ Belgrade_Pact_joined_yay: "Ist Belgrader Pakt beigetreten"
+ Belgrade_Pact_refused: "Ist unserem Pakt nicht beigetreten"
+ Belgrade_Pact_joined_against_us: "Ist dem Pakt gegen uns beigetreten" 
+
+### Flags ###
+ BP_working_on_eco_union: "Arbeitet bereits an diesem Projekt."
+
+### Events ###
+ pact.1.t: "Der Kongress von Belgrad"
+ pact.1.d: "Die Zusammenarbeit der Nationen des Balkans ist trotz interner Unstimmigkeiten in der gemeinsamen Geschichte nicht ohne Präsedenzfall. Der Balkanbund, der von Serbien, Bulgarien und Griechenland gegründet wurde, um das Osmanische Reich im Balkan zu besiegen, ist  ein Paradebeispiel gerade dafür, auch wenn er den wenige Monate später folgenden zweiten Balkankrieg nicht überleben sollte. Und nun stehen Serbien, Rumänien und Griechenland einer neuen Hegemonialmacht gegenüber - dem Bulgarischen Zarenreich - und ein jeder von ihnen hat Gebietsansprüche durchzusetzen. \n\nIn den letzten zwei Jahrzehnten galt ein solchen Bündnis noch als undenkbar. Diese drei Nationen im Balkan wurden gebrochen, geschwächt und entmilitarisiert und von den europäischen Großmächten unter strengste Beobachtung gestellt. Die stetig anhaltende Schwäche der Doppelmonarchie und ihre daraus entstandener Unwille zu jeglicher Intervention im Balkan hatte den Balkannationen bereits die Möglichkeit verschafft, eine Wiederbewaffnung durchzuführen und hat nun zu einem Gemeinsamen Unterfangen geführt. Zwischenstaatliche Gipfeltreffen und diplomatische Abkommen haben zwischen Serbien und Rumänien bereits seit 1932 stattgefunden, ähnliche Treffen zwischen Rumänien und Griechenland seit 1934. Alle diese Bemühungen haben jetzt zu einem Erfolg geführt - Der Balkankongress. \n\nEin viehrzentagies Gipfeltreffen in der Haupstadt Serbiens, das ein ebenso kulturelles wie politisches Ereignis ist.Zum Beispiel fanden diplomatischen Planungen zwischen der Außenminister der drei Nationen zeitgleich mit Gesprächen zwischen den Universitäten von Belgrad und Bukarest über Forschungs- und Studentenaustausch statt. \n\nNichtsdestrotrotz veröffentlichten die drei beteiligten Nationen zum Ende des Kongressen einen 14-Punkte-Plan - von denen der kontroverseste über die "Anerkennung davon, dass das Selbstbestimmungsrecht der Völker, folglich derer ethnischen Zugehörigkeit, als gerechter Grund zur Souveranität und zu Gebietsansprüchen dient" und die Forderung nach einer "Neuordnung auf dem Balkan" um dieses Ziel durchzusetzen, vermutlich auf Kosten Bulgariens."
+# Natürlich könnte ein solches Ereignis nicht ohne irgendwelche Kontroversen stattfinden. Die Einbeziehung der rumänischen Gesandtschaft, obgleich sie von äußerster Wichtigkeit ist, wurde von vielen Repräsentanten im Skupština nicht akzeptiert, da diese den Gedanken nicht ausstehen können, mit ansehen zu müssen, wie [SER.GetLeader] und der verabscheuenswürdige Corneliu Codreanu sich die Hand geben. - TBA later
+ pact.1.a: "Eröffnet den Kongress!"
+
+ pact.2.t: "Der Kongress von Belgrad"
+ pact.2.d: "[From.GetNameDefCap] hat uns dazu ermutigt, Diplomaten nach Belgrad zu senden, um dort am Kongress von Belgrad teilzunehmen, wo wir die politische und militärische Situation des Balkans besprechen können. Seit dem Sieg Bulgariens im Weltkrieg haben wir unsere Augen auf unser Land, das von ihnen gestohlen wurde, gerichtet, genau wie Serbien. Sie schlagen vor, ein neues Bündnis, bekannt als Belgrader Pakt, zu formen, um unsere gemeinsamen Interessen gegen die bulgarische Bedrohung zu schützen. Dies könnte allerdings Bulgariens ehemalige Verbündete, Deutschland, Österreich und die Osmanen, erzürnen."
+ pact.2.a: "Verkündet unsere Unterstützung für den Belgrader Pakt!"
+ pact.2.b: "Wir haben kein Interesse an ihrem Bündnis!"
+
+ pact.3.t: "[From.GetName] tritt dem Belgrader Pakt bei"
+ pact.3.d: "Die [From.GetAdjective] Regierung hat bekanntgegeben, dass sie dem Kongress von Belgrad beiwohnen und offiziell dem Belgrader Pakt beitreten werden."
+ pact.3.a: "Zusammen für den Frieden!"
+
+ pact.4.t: "[From.GetName] lehnt ab"
+ pact.4.d: "Die [From.GetAdjective] Regierung hat bekanntgegeben, dass sie, zumindest fürs Erste, keinem Bündnis gegen Bulgarien beitreten werden."
+ pact.4.a: "Wir brauchen sie nicht!"
+
+ pact.5.t: "Das Ende des Pakts"
+ pact.5.d: "Obwohl wir versucht haben, eine Allianz zu schaffen, um serbische Interessen im Balkan zu vertreten, finden wir uns allein in der großen Welt wieder. Die Zeit ist gekommen, in der wir erkennen müssen, dass der Belgrader Pakt nur Fantasie bleiben wird."
+ pact.5.a: "Ein trauriger Tag..."
+
+ pact.6.t: "Der Kongress von Belgrad will eine neue Ordnung im Balkan"
+ pact.6.d: "Mehre Nationen sind Serbiens Aufruf gefolgt und haben sich in Belgrad versammelt, um die politische und militärische Situation des Balkans zu besprechen. Während des 14 Tage langen Kongresses haben Serben, Rumänen und Griechen die sogenannte 'Neue Ordnung des Balkans' geplant und sogar ein 14-Punkte-Programm ausgearbeitet, welches besagt, dass 'nur die Selbstbestimmung der Bevölkerung gemäß ihrer ethnischen Zugehörigkeiten als Territorialanspruch oder Grund für die Souveränität angesehen werden darf'.\n\nOffensichtlich befindet sich der Balkan erneut im Aufruhr und der Belgrader Kongress wird wohl als Grund für einen Krieg gegen Bulgarien und, letztendlich, das österreichische Kaiserreich dienen. Was sollten wir mit diesen Neuigkeiten anfangen?""
+ pact.6.a: "Embargot die Serben und Rumänen, dann werden sie es sich nochmal überlegen!"
+ pact.6.b: "Sollen sie nur kommen, der Balkan stellt sowieso keine Bedrohung dar."
+
+ pact.7.t: "[From.GetName] verkündet Unterstützung für Bulgarien"
+ pact.7.d: "Die [From.GetAdjective] Regierung hat heute bekanntgegeben, dass sie Bulgarien im Falle eines Krieges zwischen dem Belgrader Pakt und dem Zarentum unterstützen werde und ein internationales Rüstungsembargo gegen den Pakt verhängen wird, um unser Waffenarsenal schrumpfen zu lassen und die Chancen der Bulgaren auf einen Sieg zu erhöhen."
+ pact.7.a: "Das ist nicht gut."
+
+ pact.8.t: "[From.GetName] verkündet Unterstützung für Bulgarien"
+ pact.8.d: "Mehre Nationen sind Serbiens Aufruf gefolgt und haben sich in Belgrad versammelt, um die politische und militärische Situation des Balkans zu besprechen. Während des 14 Tage langen Kongresses haben Serben, Rumänen und Griechen die sogenannte 'Neue Ordnung des Balkans' geplant und sogar ein 14-Punkte-Programm ausgearbeitet, welches besagt, dass 'nur die Selbstbestimmung der Bevölkerung gemäß ihrer ethnischen Zugehörigkeiten als Territorialanspruch oder Grund für die Souveränität angesehen werden darf'.\n\nOffensichtlich befindet sich der Balkan erneut im Aufruhr und der Belgrader Kongress wird wohl als Grund für einen Krieg gegen Bulgarien und, letztendlich, das österreichische Kaiserreich dienen. Die Österreicher fordern nun, dass ein internationales Rüstungsembargo gegen den Belgrader Pakt verhängt wird, um Bulgariens Chancen auf einen Sieg zu erhöhen. Sollten wir ebenfalls unsere Unterstützung für das Zarentum verkünden?"
+ pact.8.a: "Nur Bulgarien kann den Balkan stabil halten!"
+ pact.8.b: "Wir haben kein Interesse am Balkan..."
+
+ pact.17.t: "Serbien schickt ein Ultiamtum"
+ pact.17.d: "Nachdem wir uns nun zwei Wochen lang am Flusse March gegenüberstanden, hat die serbische Regierung sich nun endlich zu dieser Situation geäußert - und verlangt, dass wir die Regionen Mazedonien und Niš innerhalb der nächsten 48 Stunden räumen und sie den Serben übergeben, mit der Begründung, dass man die serbische Bevölkerung dieser Gebiete vor weiterem Terror und Blutvergießen beschützen müsste. Daraufhin sandten uns auch die anderen Mitglieder des Belgrader Pakts Ultimaten, in denen sie ihre Sorgen aufgrund der ethnischen Konflikte in anderen Territorien unserer Nation zum Ausdruck brachten.\n\nNoch bevor die Tinte auf diesen Dokumenten trocknen konnte, haben unsere Truppen in Niš gemeldet, dass die serbischen Streitkräfte die March überquert haben, woraufhin erste Gefechte und Bombardierungen begannen. Nun bleibt uns nur noch eine Option."
+ pact.17.a: "In den Krieg! Für die Ehre Bulgariens!"
+
+ pact.21.t: "Die Frage Thrakiens"
+ pact.21.d: "Jetzt, da sich Bulgarien in einem blutigen Krieg mit dem Belgrader Pakt befindet, stellt sich die Frage, ob auch wir Land fordern sollten, welches rechtmäßig uns gehört. Seit dem Ende des Weltkriegs besetzt Bulgarien Land in Thrakien, welches hauptsächlich von muslimischen Türken bewohnt wird. Sicherlich würden sie es einem alten Verbündeten nicht verwehren, sein Volk zu vereinen."
+ pact.21.a: "Setzt den Anspruch durch!"
+ pact.21.b: "Sich jetzt einzumischen wäre nicht von Vorteil."
+
+ pact.22.t: "Die Osmanen verlangen Thrakien"
+ pact.22.d: "Wie es scheint wollen unsere alten Verbündeten, die Osmanen, unseren Krieg mit dem Belgrader Pakt zu ihrem Vorteil nutzen. Sie verlangen die sofortige Übergabe von Thrakien, einer Region welche zwar größtenteils muslimisch und türkisch ist, jedoch seit dem Ende des Weltkriegs rechtmäßig uns gehört. Sollten wir ihren Forderungen nicht entsprechen, werden sie uns wahrscheinlich den Krieg erklären - und eine weitere Front wäre wohl kaum von Vorteil."
+ pact.22.a: "Gebt ihnen was sie wollen."
+ pact.22.b: "Niemals! Wir werden auch sie besiegen!"
+
+ pact.23.t: "Bulgarien stimmt zu"
+ pact.23.d: "Nachdem die Bulgaren erkannt haben, dass es strategisch gesehen unklug wäre, eine weitere Front zu eröffnen, haben sie sich bereit erklärt, Thrakien an uns zu übergeben."
+ pact.23.a: "Sehr weise."
+
+ pact.24.t: "Bulgarien lehnt ab"
+ pact.24.d: "Trotz unserer überwältigenden Stärke und ihres Krieges mit dem Belgrader Pakt blieb die bulgarische Regierung stur und weigerte sich, Thrakien an uns abzutreten. Sollte es nötig sein, so behaupten die Bulgaren, sind sie bereit, gegen uns zu kämpfen."
+ pact.24.a: "Sie wollten es nicht anders..."
+
+ pact.25.t: "Die Osmanen auf dem Kriegsfuß"
+ pact.25.d: "Wahrscheinlich mit dem Gedanken, dass der Vierte Balkankrieg eine gute Gelegenheit für sie wäre, alte Territorien wiederzuerlangen, haben die Osmanen ihre Truppen mobilisiert und bemannen ihre bulgarische Grenze. Es lässt sich nicht sagen, ob sie Forderungen stellen oder eine sofortige Invasion anordnen werden, doch wir sollten uns auf beide Fälle vorbereiten."
+ pact.25.a: "Wie können sie es sich wagen?!"
+
+ pact.26.t: "[From.GetAdjective] Hilfe trifft ein"
+ pact.26.d: "Genau wie versprochen, hat die Regierung von [From.GetNameDef] uns Hilfsgüter für unseren Krieg gegen den Belgrader Pakt zukommen lassen. Leider können sie nicht direkt in den Krieg eingreifen, jedoch schickten sie uns einige Freiwilligendivisionen sowie militärische Ausrüstung."
+ pact.26.a: "Jede Hilfe ist willkommen."
+ pact.26.tt: "[From.GetAdjective] Truppen und Ausrüstung kommen an."
+
+ pact.27.t: "Serbien startet Friedensverhandlungen"
+ pact.27.d: "Das serbische Außenministerium hat uns informiert, dass sie Verhandlungen mit Bulgarien aufgenommen haben und einen Friedensvertrag erarbeiten, welcher den Vierten Balkankrieg beenden und Bulgarien dazu zwingen wird, alle von Mitgliedern des Belgrader Pakts gestohlenen Territorien zurückzugeben. Da der Krieg nun schon viel zu lange andauert, würde unser Volk diesen Frieden begrüßen. Jedoch würde Bulgarien ein unabhängiger Staat bleiben, was viele Politiker in unserer Nation beunruhigen würde, da dies bedeutet, dass sich Bulgarien theoretisch neu aufbauen und zurückschlagen kann, genau wie es im Weltkrieg geschah. Sollten wir diesen Vertrag akzeptieren?"
+ pact.27.a: "Wir sollten diesen Krieg jetzt beenden, sonst werden die Kosten unbezahlbar!"
+ pact.27.b: "Bulgarien muss zerstört werden!"
+ BP_temporary_breakaway_tt: "Du kannst dem Pakt nach dem Krieg wieder beitreten."
+
+ pact.28.t: "Der Friedensvertrag von Sofia"
+ pact.28.d: "Ein Friedensvertrag zwischen den Mitgliedsstaaten des Belgrader Pakts und Bulgarien wurde in Sofia unterzeichnet, wodurch der Vierte Balkankrieg endlich beendet wurde."
+ pact.28.a: "Sieg!"
+
+ pact.29.t: "Kriegsmüdigkeit"
+ pact.29.d: "Wir sind dem Vierten Balkankrieg in der Hoffnung auf einen schnellen Sieg beigetreten, doch mittlerweile ist die Front zum Stillstand gekommen und das Volk sehnt sich nach Frieden. Gerüchte besagen, die Bulgaren waren dazu bereit, uns unsere verlorenen Territorien zurückzugeben und den Krieg zu beenden, was jedoch abgelehnt wurde, weshalb nun noch mehr Menschen in diesem sinnlosen Krieg sterben werden. Unseren Generälen gelingt es kaum, die Truppen zum Kämpfen zu motivieren und die Stimmung der Soldaten könnte kaum tiefer sinken."
+ pact.29.a: "Verdammt..."
+
+ pact.30.t: "Erneute Einladung zum Belgrader Pakt"
+ pact.30.d: "Nun, da der Krieg mit Bulgarien endlich vorbei ist, haben serbische Botschafter uns offeriert, dem Belgrader Pakt erneut beizutreten, um uns den kommenden Kampf gegen Österreich anzuschließen."
+ pact.30.a: "Wir sind dabei."
+ pact.30.b: "Nein, wir werden keine weiteren internationelen Unternehmungen durchführen."
+
+ pact.35.t: "Wir verlieren den Balkankrieg"
+ pact.35.d: "Die Truppen des Belgrader Pakts haben unsere Armeen besiegt und große Teile unseres Landes besetzt. Wir müssen den Krieg jetzt beenden, bevor ganz Bulgarien überrannt wird - sonst könnte sogar die Existenz Bulgariens als souveräner Staat bedroht sein."
+ pact.35.a: "Um Frieden bitten"
+ pact.35.b: "Wir können noch gewinnen!"
+ BUL_other_states_may_continue_war_tt: "Der Friedensvertrag, sollte er akzeptiert werden, wird in sieben Tagen eintreten. Bis dahin können die Mitglieder des Belgrader Pakts sich dazu entscheiden, diesen zu verlassen und den Krieg individuell fortzuführen."
+
+ pact.36.t: "Bulgarien bittet um Frieden"
+ pact.36.d: "Mit großen Teilen ihres Landes besetzt und fast ihrer ganzen Armee auf dem Rückzug, hat sich die bulgarische Regierung dazu entschlossen, uns um Frieden zu bitten. Sie werden alle umkämpften Territorien an den Belgrader Pakt abtreten, jedoch müssen wir unsere Truppen hinter die neuen Grenzen zurückziehen. Ein unabhängiger bulgarischer Staat wird, zumindest fürs Erste, bestehen bleiben."
+ pact.36.a: "Der Belgrader Pakt hat triumphiert!"
+ pact.36.b: "Nein, wir werden sie vollständig vernichten!"
+ SER_other_states_may_continue_war_tt: "Der Friedensvertrag, sollte er akzeptiert werden, wird in sieben Tagen eintreten. Bis dahin können die Mitglieder des Belgrader Pakts sich dazu entscheiden, diesen zu verlassen und den Krieg individuell fortzuführen."
+
+ pact.37.t: "Frieden mit dem Belgrader Pakt"
+ pact.37.d: "Der Belgrader Pakt hat unser Friedensangebot akzeptiert. Wir werden alle umkämpften Territorien an sie abtreten müssen, jedoch werden sie wenigstens ihre Truppen hinter diese neuen Grenzen zurückziehen."
+ pact.37.a: "Zumindest existieren wir noch!"
+
+ pact.38.t: "Bulgarien kapituliert"
+ pact.38.d: "Die gemeinsame Stärke aller Nationen des Belgrader Pakts hat es geschafft, die unrechtmäßigen Territorialverschiebungen des Weltkriegs rückgängig zu machen. Bulgarien wird alle umkämpften Territorien an uns abtreten, jedoch müssen wir unsere Truppen hinter die neuen Grenzen zurückziehen. Ein unabhängiger, wenn auch stark geschwächter, bulgarischer Staat darf, zumindest fürs Erste, existieren."
+ pact.38.a: "Der Belgrader Pakt hat triumphiert!"
+
+ pact.39.t: "Bulgarien schließt Frieden"
+ pact.39.d.gained: "Bulgarien hat mit dem Belgrader Pakt Frieden geschlossen, wodurch wir dazu gezwungen sind, auch unseren Krieg zu beenden. Glücklicherweise dürfen wir alle von uns beanspruchten Gebiete, welche wir derzeitig kontrollieren, behalten, wodurch es den Serben nicht möglich ist, diese zwischen sich und ihren Verbündeten aufzuteilen."
+ pact.39.d.nogain: "Bulgarien hat mit dem Belgrader Pakt Frieden geschlossen. Leider kontrollieren wir keine der von uns beanspruchten Gebiete, wodurch die Serben mit ihnen verfahren können, wie sie wollen. Wie es scheint, hätten wir schneller und aggressiver handeln sollen."
+ pact.39.a: "Sehr gut!"
+ pact.39.b: "Wir werden diesen Krieg fortführen!"
+
+ pact.40.t: "Wir haben Thrakien besetzt"
+ pact.40.d: "Unserer Armee ist es gelungen, die vollständige Kontrolle über Westthrakien zu erlangen und die Linie gegen die Bulgaren zu halten. Vielleicht erkennen die Bulgaren jetzt die Vorzüge des Friedens."
+ pact.40.a: "Sendet das Angebot - wir beenden diesen Krieg"
+ pact.40.b: "Nein - sie wollten einen Krieg, also kriegen sie auch einen!"
+
+ pact.41.t: "Die Osmanen bieten Frieden an"
+ pact.41.d: "Die Osmanen haben ihre beanspruchten Territorien besetzt und jegliche unserer Versuche, diese wieder zurückzuerobern, sind fehlgeschlagen. Wenn wir den Krieg gegen sie fortführen, könnte das Bulgariens Untergang sein. Vielleicht sollten wir in Betracht ziehen, ihnen zu geben was sie wollen."
+ pact.41.a: "Wir haben keine andere Wahl..."
+ pact.41.b: "Nein, wir werden diesen Krieg fortführen!"
+
+ pact.42.t: "Wir verlieren den Krieg"
+ pact.42.d: "Obwohl ihre Chancen minimal schienen und wir von einem schnellen Krieg ausgegangen sind, haben die Bulgaren es geschafft, uns zurückzudrängen. Wir kontrollieren kein Land in Europa mehr und wenn das so weitergeht, werden wir uns bald in einer äußerst schwierigen Situation wiederfinden. Vielleicht sollten wir unseren Anspruch auf Thrakien aufgeben und diesen Krieg beenden."
+ pact.42.a: "Ja, sendet ein Friedensangebot!"
+ pact.42.b: "Nein, wir werden weiterkämpfen!"
+
+ pact.43.t: "Die Osmanen wollen Frieden"
+ pact.43.d: "Die Osmanen, welche ihre intervention in diesem Krieg mittlerweile sicherlich bereuen, haben uns ein Friedensangebot gesandt. Sie werden ihren Anspruch auf Westthrakien aufgeben und sich dahin zurückziehen, wo sie herkamen."
+ pact.43.a: "Wir akzeptieren ihren Frieden!"
+
+ pact.46.t: "[From.GetNameDefCap] lehnt Frieden ab"
+ pact.46.d: "Obwohl wir bereit waren, beträchtliche Zugeständnisse gegenüber unseren Feinden einzuräumen, hat die [From.GetAdjective] Regierung unser Friedensangebot abgelehnt und behauptet, sie würden nicht aufgeben, bis wir vollständig vernichtet wurden!"
+ pact.46.a: "Wir müssen das Blatt wenden!"
+
+ pact.47.t: "Wir verlieren den Balkankrieg"
+ pact.47.d: "Der Krieg gegen Bulgarien entwickelte sich schnell zu einem totalen Desaster. Trotz der Hilfe unserer Bündnispartner war Bulgarien erneut in der Lage, uns zu besiegen, und nun nähert sich die bulgarische Armee Belgrad. Im Austausch gegen einen Friedensvertrag und den Rückzug ihrer Truppen aus unserem Territorium würden die Bulgaren die Auflösung des Belgrader Pakts, die Aufgabe der Provinz Montenegro, Autonomie für die Albaner in Albanien und Kosovo und die Demilitarisierung der Grenzgebiete verlangen. Außerdem müssten wir mehrere Jahre lang Kriegsreparationen an Bulgarien zahlen. Diese Bedingungen sind zwar hart, allerdings besser als die vollständige Vernichtung unserers geliebten Heimatlandes."
+ pact.47.a: "Um Frieden bitten"
+ pact.47.b: "Wir können noch gewinnen!"
+
+ pact.48.t: "Serbien bittet um Frieden"
+ pact.48.d: "Durch unseren Erfolg im Vierten Balkankrieg steht der Belgrader Pakt nun kurz vor dem Kollaps, weshalb die serbische Regierung uns nun ein Friedensangebot zukommen ließ. Sie sind bereit, die Provinz Montenegro aufzugeben, ihre Grenze zu demilitarisieren, den Belgrader Pakt aufzulösen und mehrere Jahre lang Kriegsreparationen zu zahlen. Im Gegenzug müssten wir es ihnen erlauben, weiterhin als unabhängiger Staat zu existieren."
+ pact.48.a: "Und wieder haben wir gesiegt!"
+ pact.48.b: "Nein, wir werden sie vernichten!"
+
+ pact.49.t: "Bulgarien akzeptiert das Friedensangebot"
+ pact.49.d: "Der Vierte Balkankrieg lief kein bisschen wie geplant - den Bulgaren gelang eine erfolgreiche Offensive und sie standen kurz davor, Belgrad zu erobern. Allerdings hat Bulgarien glücklicherweise unseren Friedensvertrag akzeptiert, wodurch uns wenigstens unsere Unabhängigkeit geblieben ist. Dieses Privileg kam allerdings auch nicht ohne Preis: Wir wurden gezwungen, Montenegro die Unabhängigkeit zu gewähren, Kosovo an Albanien abzutreten und müssen zudem mehrere Jahre lang Kriegsreparationen zahlen."
+ pact.49.a: "Zumindest dürfen wir noch existieren..."
+
+ pact.50.t: "Die Bulgaren sind siegreich"
+ pact.50.d: "Der Vierte Balkankrieg lief kein bisschen wie geplant - den Bulgaren gelang eine erfolgreiche Offensive und sie standen kurz davor, Belgrad zu erobern. Serbien ist es allerdings gelungen, einen Friedensvertrag mit Bulgarien auszuhandeln. Im Rahmen des Vertrags müssen wir den Belgrader Pakt auflösen und Oltenien demilitarisieren."
+ pact.50.a: "Sind sie unbesiegbar?"
+
+ pact.51.t: "Die Bulgaren sind siegreich"
+ pact.51.d: "Der Vierte Balkankrieg lief kein bisschen wie geplant - den Bulgaren gelang eine erfolgreiche Offensive und sie standen kurz davor, Belgrad zu erobern. Serbien ist es allerdings gelungen, einen Friedensvertrag mit Bulgarien auszuhandeln. Im Rahmen des Vertrages müssen wir den Belgrader Pakt auflösen, Thessaloniki an Bulgarien abtreten, Thessalien demilitarisieren und jegliche Ansprüche auf bulgarisches Territorium widerrufen."
+ pact.51.a: "Sind sie unbesiegbar?"
+
+ pact.52.t: "Der Krieg ist vorbei"
+ pact.52.d: "Mit dem Ende des Vierten Balkankrieges kommen [Root.GetAdjective] Soldaten endlich wieder von der Front zurück in die Heimat und die Dinge beginnen, sich wieder zu normalisieren."
+ pact.52.a: "Endlich."
+
+ pact.53.t: "Der Krieg ist vorbei"
+ pact.53.d: "Nun, da der Krieg mit den Bulgaren endlich vorbei ist, beginnen unsere nördlichen Provinzen damit, in einen Zustand der Normalität zurückzukehren."
+ pact.53.a: "Endlich."
+
+ pact.54.t: "Bulgarien schließt Frieden"
+ pact.54.d: "Bulgarien hat einen Friedensvertrag mit dem Belgrader Pakt unterzeichnet, wodurch sich auch uns die Chance bietet, unseren Krieg mit den Bulgaren zu beenden. Sollten wir Serbiens Sieg nutzen, um unsere Ansprüche durchzusetzen, oder den Krieg weiter in die Länge ziehen?"
+ pact.54.a: "Lasst es uns endlich beenden!"
+ pact.54.b: "Wir werden nicht aufhören, bis wir sie erobert haben!"
+
+ pact.64.t: "Forderung einer gemeinsamen Besatzung Bulgariens"
+ pact.64.d: "Die Bulgaren wurden endlich besiegt und unser Ansehen in den Augen der Welt wiederhergestellt! Jedoch hatten wir zu Beginn des Krieges noch nicht geplant, wie wir mit den restlichen Territorien Bulgariens verfahren sollen. Der Großteil unserer Generäle fordert eine, wenn auch nur temporäre, Besatzung Bulgariens, während andere behaupten, eine Besatzung würde zu viele Kosten für unsere vom Krieg erschöpfte Nation verursachen."
+ pact.64.a: "Teilt Bulgarien in verschiedene Besatzungszonen auf!"
+ pact.64.b: "Lasst sie ihre Unabhängigkeit behalten."
+
+ pact.65.t: "[From.GetName] fordert eine gemeinsame Besatzung Bulgariens"
+ pact.65.d: "Die [From.GetAdjective] Regierung fordert eine gemeinsame Besatzung der noch verbliebenen Territorien Bulgariens. Später könnte aus diesen Besatzungszonen ein neuer bulgarischer Staat entstehen, welcher jedoch kleiner und schwächer als sein Vorgänger wäre. Bis dahin dürfen wir allerdings mit unserer Besatzungszone verfahren, wie es uns beliebt, wobei wir auch vor Plünderungen nicht halt machen müssen."
+ pact.65.a: "Wir akzeptieren."
+ pact.65.b: "Nein, wir behalten unser neues Land!"
+
+ pact.66.t: "[From.GetName] weigert sich, Besatzungszonen zu erstellen"
+ pact.66.d: "Die [From.GetAdjective] Regierung hat unsere Bitte, Besatzungszonen in den ehemaligen bulgarischen Territorien zu errichten, abgelehnt. Sie behaupten, alles Land, was sie derzeitig besitzen, gehöre rechtmäßig ihnen. Unsere Beziehungen mit [From.GetName] wurden stark geschädigt und auch unsere militärische Allianz könnte auf dem Spiel stehen."
+ pact.66.a: "Das ist inakzeptabel!"
+
+ pact.70.t: "Bulgarien helfen?"
+ pact.70.d: "Die Serben haben, zusammen mit den Mitgliedsstaaten des Belgrader Pakts, Bulgarien den Krieg erklärt. Während des Weltkriegs halfen uns die Bulgaren, indem ihre Männer neben den Unseren standen und fielen und indem sie uns Ausrüstung schickten. Einige Generäle sind der Meinung, wir sollten direkt in den Krieg eingreifen, um Bulgarien zu unterstützen, andere meinen jedoch, dass dies die Machtbalance des Balkans zerstören und uns in einen unnützen Krieg mit unseren Nachbarstaaten bringen würde. Natürlich könnten wir den Konflikt auch gänzlich ignorieren, allerdings würde das auch bedeuten, dass wir unserem ehemaligen Verbündeten in den Rücken fallen."
+ pact.70.a: "Sendet Unterstützung."
+ pact.70.b: "Bietet Bulgarien eine Allianz an!"
+ pact.70.c: "Wir können nichts tun."
+
+ pact.71.t: "Albanien bietet eine Allianz an"
+ pact.71.d: "So überraschend es auch kommen mag, die albanische Regierung hat uns kontaktiert und eine formale militärische Allianz vorgeschlagen. Genau wie wir ihnen im Weltkrieg beistanden und sie gegen die Serben verteidigten, wollen sie nun uns helfen, gegen die serbische Bedrohung zu bestehen. Obwohl dieses Bündnis von Vorteil sein könnte, könnten die Albaner unsere Kriegsbemühungen auch behindern. Wie werden wir antworten?"
+ pact.71.a: "Großartig!"
+ pact.71.b: "Wir brauchen sie nicht."
+
+ pact.72.t: "Bulgarien akzeptiert unser Allianzangebot"
+ pact.72.d: "Die bulgarische Regierung hat unserem Angebot einer formalen Allianz mit Freuden zugestimmt. Zusammen werden wir den Belgrader Pakt besiegen und Bulgariens Territorien verteidigen!"
+ pact.72.a: "Zusammen besiegen wir die Serben!"
+
+ pact.73.t: "Bulgarien hat unser Allianzangebot abgelehnt"
+ pact.73.d: "Die bulgarische Regierung hat unser Angebot, eine formale Allianz gegen den Belgrader Pakt zu formen, abgelehnt. Sie behaupten, dass sie in diesem Krieg keine Hilfe benötigen."
+ pact.73.a: "Ihr Verlust."
+
+ pact.74.t: "Wir verlieren den Balkankrieg"
+ pact.74.d: "Unsere Intervention im Vierten Balkankrieg entwickelte sich schnell zu einem totalen Desaster. Bulgarien wurde bereits besiegt und nun sind auch große Teile unseres Landes vom Belgrader Pakt besetzt wurden. Wir sollten um Frieden bitten, solange wir noch können!"
+ pact.74.a: "Um Frieden bitten."
+ pact.74.b: "Wir können noch gewinnen!"
+
+ pact.75.t: "Die Albaner bitten um Frieden"
+ pact.75.d: "Jetzt, da wir einen Großteil ihres Landes besetzen und ihre Armee nichts weiter tun kann, als sich jeden Tag weiter zurückzuziehen, hat die albanische Regierung sich gezwungen gesehen, uns ein Friedensangebot zu senden."
+ pact.75.a: "Der Belgrader Pakt hat gesiegt!"
+ pact.75.b: "Nein, wir werden sie vernichten!"
+
+ pact.76.t: "Frieden mit dem Belgrader Pakt"
+ pact.76.d: "Der Belgrader Pakt hat unser Friedensangebot akzeptiert. Wir müssen zwar einige Territorien, die sie beanspruchen, an sie abtreten, jedoch dürfen wir wenigstens unsere Unabhängigkeit behalten."
+ pact.76.a: "Zumindest bleiben wir ein souveräner Staat!"
+
+ pact.77.t: "Albanien hat kapituliert"
+ pact.77.d: "Die gemeinsame Stärke des Belgrader Pakts hat mit den Albanern kurzen Prozess gemacht. Die albanische Regierung hat kapituliert und einige umstrittene Territorien an den Pakt abgetreten, dafür müssen wir uns nun jedoch aus ihrem verbliebenen Territorium zurückziehen. Ein weiterer Feind wurde bezwungen!"
+ pact.77.a: "Der Belgrader Pakt hat erneut gesiegt!"
+
+ pact.78.t: "Wir verlieren den Balkankrieg"
+ pact.78.d: "So sehr es uns auch schmerzt es zuzugeben, den Albanern ist es gelungen das Blatt des Krieges zu wenden. Vielleicht sollten wir ihnen anbieten, alles Land, welches sie beanspruchen, an sie abzutreten, damit uns wenigstens unsere Unabhängigkeit erhalten bleibt."
+ pact.78.a: "Um Frieden bitten"
+ pact.78.b: "Wir können noch gewinnen!"
+
+ pact.79.t: "Serbien bittet um Frieden"
+ pact.79.d: "Nun, da sich die Truppen des Belgrader Pakts auf dem Rückzug befinden, hat die serbische Regierung uns ein Friedensangebot gesandt. Im Austausch dafür, dass sie weiterhin als unabhängige Staaten existieren dürfen, sind die Mitglieder des Pakts dazu bereit, alle Territorien, auf die wir derzeit einen Anspruch erheben, an uns abzutreten."
+ pact.79.a: "Es wurde genug Blut vergossen. Der Krieg ist vorbei!"
+ pact.79.b: "Nein, wir werden sie vernichten!"
+
+ pact.80.t: "Das Ende des Krieges"
+ pact.80.d: "So sehr es uns auch schmerzt es zuzugeben, die Albaner waren uns auf dem Schlachtfeld überlegen und es ist ihnen gelungen, unsere Truppen zum Rückzug zu zwingen. Serbien ist es gelungen, einen Friedensvertrag mit Albanien auszuhandeln, in dessen Rahmen wir alle von ihnen beanspruchte Territorien an sie abtreten müssen."
+ pact.80.a: "Das werden wir nie vergessen!"
+
+ pact.81.t: "Der Krieg ist vorbei"
+ pact.81.d: "Der Krieg mit den Serben ist endlich zu einem Ende gekommen, und langsam beginnt das Leben in unserem Land, sich wieder zu normalisieren."
+ pact.81.a: "Endlich."
+
+ pact.200.t: "Sieg im Balkankrieg"
+ pact.200.d: "Nach Jahren der Planung und Vorbereitung hat es die gemeinsame Stärke der Truppen des Belgrader Pakts endlich geschafft, über die bulgarischen Armeen zu obsiegen! Nie wieder können die Bulgaren uns bedrohen, unter Druck setzen oder herumkommandieren, denn ab heute sind wir die Herrscher des Balkans! Unser Sieg brachte aber auch Kosten mit sich - viele tapfere Männer ließen ihr Leben, um unseren Traum zu erreichen und auch jetzt, wo der Krieg vorbei und der Traum Wahrheit geworden ist, dürfen wir das Opfer, welches sie gebracht haben, niemals vergessen.\n\n Doch noch dürfen wir nicht ruhen, denn Bulgarien war nur der erste Schritt unserer Mission, das serbische Volk zu vereinen. Zu unserem Norden dominiert noch immer das Reich der Habsburger, welches seine slawische Bevölkerung unterdrückt und ausnutzt, was wir nicht länger dulden dürfen. Wir müssen die Fehler des Weltkriegs korrigieren und die Österreicher zu Fall bringen, doch um die Einigkeit des Belgrader Pakts zu bewahren, sollten wir einen zweiten Kongress in Belgrad vorbereiten, welcher in den kommenden Wochen stattfinden wird."
+ pact.200.a: "Sendet die Einladungen!"
+
+ pact.201.t: "Eine Einladung aus Serbien"
+ pact.201.d: "Heute erreichte uns eine Nachchricht aus Serbien, welche uns dazu einlädt, an dem in einigen Wochen stattfindenden Zweiten Belgrader Kongress teilzunehmen. Unsere Verbündeten wollen die südslawische Bevölkerung, welche derzeitig von den Österreichern unterdrückt wird, befreien, wofür sie wahrscheinlich unsere Unterstützung benötigen werden. Im Gegenzug dafür würden wir einen Teil der Kriegsbeute erhalten, weshalb es von höchster Wichtigkeit ist, dass wir zumindest am Kongress teilnehmen, um Pläne für die Zukunft zu schmieden."
+ pact.201.a: "Wir werden dem Kongress beiwohnen."
+
+ pact.202.t: "Neue Verbündete?"
+ pact.202.d.ITA: "Die Balkanstaaten sind nicht die einzigen, denen Österreich Teile ihres rechtmäßigen Territoriums gestohlen hat. Auch ohne die verschiedenen Kulturen innerhalb ihrer Grenzen, welche sich von den österreichischen Ketten befreien wollen, mitzuzählen, haben die Österreicher genung Feinde außerhalb ihrer Grenzen, die ihre Landsleute aus diesem Gefängnis, welches sich selbst als Staat bezeichnet, befreien wollen. Aber auch wenn die Balkanstaaten sich im Belgrader Pakt gegen Österreich verbündet haben, ist es fragwürdig, ob dies ausreichen wird, um die Habsburger zu besiegen.\n\nWährend des italienischen Bürgerkriegs haben die Österreicher ihre Gelegenheit genutzt, italienisches Land zu besetzten und einen Vasallenstaat in Mailand zu etablieren. Sie konnten diesen neuen Staat allerdings nicht so lange unterdrücken, wie sie es gerne getan hätten, und nun wird [ITA.Capital.GetCapitalVictoryPointName] von einer extremistisch-revanchistischen Partei, angeführt von [ITA.GetLeader], kontrolliert, welche alle ehemaligen italienischen Provinzen, darunter auch einige, die zur Zeit zu Österreich gehören, zurückerobern will.\n\nVielleicht könnte man sie dazu überreden, sich uns anzuschließen?"
+ pact.202.a: "Jede Hilfe ist willkommen."
+ pact.202.b: "Es ist die Mühe nicht wert."
+
+ pact.203.t: "Eine Einladung nach Belgrad"
+ pact.203.d: "Die Balkanstaaten haben es gemeinsam geschafft, Bulgarien zu besiegen und richten nun, angeführt von Serbien, ihre Augen Richtung Österreich-Ungarn, um ihre Landsleute aus den österreichischen Ketten zu befreien. Da wir ähnliche Ziele verfolgen, hat uns die serbische Regierung eine Einladung zum zweiten Belgrader Kongress zukommen lassen. Dort sollen Gesandte verschiedener Staaten darüber beraten, wie man am besten gegen die österreichische Bedrohung vorgehen sollte. Was sollten wir antworten?"
+ pact.203.a: "Nun gut, wir werden teilnehmen."
+ pact.203.b: "Reine Zeitverschwendung."
+
+ pact.204.t: "[FROM.GetNameDefCap] nimmt teil"
+ pact.204.d: "Das Außenministerium von [FROM.GetNameDef] hat uns informiert, dass sie am zweiten Belgrader Kongress teilnehmen werden."
+ pact.204.a: "Exzellent."
+
+ pact.205.t: "Die Gesandten kommen an"
+ pact.205.d: "Heute hat sich eine Schar von Diplomaten, Generälen, Beobachtern und Politikern in Belgrad versammelt, um die Eröffnungszeremonie des Zweiten Belgrader Kongresses miterleben zu können. In einer kurzen Ansprache dankte der Premierminister allen Gesandten dafür, dass sie heute hier erschienen sind und hat daraufhin auf unseren baldigen Sieg über unsere gemeinsamen Feinde in Wien angestoßen, welcher laut ihm unausweichlich ist. Morgen beginnen die Verhandlungen, wem welches Land zugesprochen wird und welche Ansprüche durchgesetzt werden können, heute wird jedoch erst einmal dieses nur selten erreichte Level der internationalen Einigkeit gefeiert!"
+ pact.205.a: "Möge der Kongress beginnen!"
+
+ CongressMembers_Pact_minus_one: "[?SER_attending_congress^0.GetNameDef]"
+ CongressMembers_Pact: "[?SER_attending_congress^0.GetNameDef] und [?SER_attending_congress^1.GetNameDef]"
+ CongressMembers_Pact_plus_one: "[?SER_attending_congress^0.GetNameDef], [?SER_attending_congress^1.GetNameDef] und [?SER_attending_congress^2.GetNameDef]"
+ CongressMembers_Pact_plus_two: "[?SER_attending_congress^0.GetNameDef], [?SER_attending_congress^1.GetNameDef], [?SER_attending_congress^2.GetNameDef] und [?SER_attending_congress^3.GetNameDef]"
+
+ pact.206.t: "Die Entscheidung des Ziels"
+ pact.206.d: "Wir haben zwar alle ein gemeinsames Ziel, jedoch gibt es mehrere Wege, auf denen man unser Land zurückfordern kann. Die radikaleren Gesandten verlangen, die Österreicher mittels eines Krieges für ihre Taten während des Weltkrieges büßen zu lassen. Viele andere Gesandte sind jedoch der Meinung, man sollte es zuerst mit Diplomatie versuchen, in der Hoffnung, mit Wien verhandeln zu können, statt zahlreiche Leben sinnlos zu verlieren. Obwohl Diplomatie in vielerlei Hinsicht vorteilhaft wäre, ist es unwahrscheinlich, dass die Österreicher bereit sind, mit uns zu verhandeln. Letztendlich haben die serbischen Gesandten das letzte Wort darin, wie wir in dieser Angelegenheit verfahren sollten und nach mehreren Besprechungen kommen sie zurück zum Kongress, um diesem ihre Entscheidung mitzuteilen."
+ pact.206.a: "In den Krieg!"
+ pact.206.b: "Diplomatie ist die stärkste Waffe!"
+
+ pact.207.t: "Der Kongress wählt den Krieg"
+ pact.207.d: "Die Gesandten in Belgrad haben beschlossen, dass nun, da Bulgarien besiegt ist, es an der Zeit ist, die österreichische Hegemonie über Zentraleuropa zu zerschlagen. Da ein Großteil der Mitgliedsstaaten des Pakts großflächige Ansprüche auf österreichisches Territorium erhebt, waren viele Abgesandte der Meinung, dass man diese am besten im Krieg durchsetzen könne. Jedoch sind nicht alle Mitglieder froh darüber, viele Leben opfern zu müssen, um dieses Ziel zu erreichen. Nun müssen wir uns entscheiden, ob wir diesen Plan unterstützen oder den Kongress verlassen werden."
+ pact.207.a: "Wir unterstützen diese Initiative."
+ pact.207.b: "Wir werden dem Pakt beitreten!"
+ pact.207.c: "Was? Niemals!"
+ pact.207.e: "Wir wollten Transsylvanien sowieso nicht zurück"
+
+ pact.208.t: "[FROM.GetNameDefCap] verlässt den Kongress"
+ pact.208.d.war: "Die Delegation von [FROM.GetNameDef] hat den Kongress verlassen. Ob sie damit gegen unseren Plan protestieren wollten oder in ihm nur keine Vorteile für sich selbst sehen, ist unklar."
+ pact.208.d.diplomacy: "Die Delegation von [FROM.GetNameDef] hat den Kongress verlassen, da sie die österreichische Frage scheinbar doch nicht interessiert."
+ pact.208.a: "Ihr Verlust."
+
+ pact.209.t: "Die Frage der Ansprüche"
+ pact.209.d: "Jetzt, wo die Vorgangsweise beschlossen ist, muss nur noch die Frage geklärt werden, welche Ansprüche die einzelnen Nationen durchsetzen wollen. Wir haben den Kongress informiert, dass es das große Ziel unserer Nation ist, die Südslawen, welche derzeitig in Österreich unterdrückt werden, zu befreien und unter unserer Flagge zu vereinen."
+ pact.209.a: "Wir werden die Slawen befreien!"
+
+ pact.210.t: "Die Frage der Ansprüche"
+ pact.210.d: "Jetzt, wo die Vorgangsweise beschlossen ist, muss nur noch die Frage geklärt werden, welche Ansprüche die einzelnen Nationen durchsetzen wollen. Wir haben den Kongress darüber informiert, dass es unser Ziel sei, die Rumänen in Transsylvanien zu befreien, welche nun schon seit Jahrhunderten von Österreichern unterdrückt wurden."
+ pact.210.a: "Wir werden uns wieder mit Transsylvanien vereinen!"
+
+ pact.211.t: "Die Frage der Ansprüche"
+ pact.211.d: "Jetzt, wo die Vorgangsweise beschlossen ist, muss nur noch die Frage geklärt werden, welche Ansprüche die einzelnen Nationen durchsetzen wollen. Griechenland hat jedoch kaum Ansprüche auf Territorium der Habsburger, welche es geltend amchen könnte, allerdings glauben wir, dass dieser Krieg dabei helfen wird, die regionale Kooperation zu steigern und unsere Beziehungen zu festigen."
+ pact.211.a: "Wir haben keine Ansprüche."
+ pact.211.b: "Nordepirus gehört uns!"
+
+ pact.213.t: "Die Frage der Ansprüche"
+ pact.213.d: "Jetzt, wo die Vorgangsweise beschlossen ist, muss nur noch die Frage geklärt werden, welche Ansprüche die einzelnen Nationen durchsetzen wollen. Wir haben den Kongress informiert, dass es das große Ziel unserer Nation ist, endlich das Risorgimento zu beenden, die Italiener aus dem österreichischen Joch zu befreien und unsere Rache für 1919 zu bekommen!"
+ pact.213.a: "Wir werden Istrien und Trient zurückerobern!"
+
+ pact.214.t: "Der Kongress wurde beendet"
+ pact.214.d: "Jetzt, wo unser Plan und unsere Ziele klar sind, wurde der Kongress beendet. Wir marschieren nun in den finalen Kampf, um eine neue Ordnung im Balkan zu etablieren, in der unsere Völker nicht länger von anderen Mächten unterjocht werden."
+ pact.214.a: "Vorwärts!"
+
+ pact.215.t: "Der Kongress wählt die Verhandlungen mit Österreich"
+ pact.215.d: "Die Gesandten in Belgrad haben beschlossen, dass es keine gute Idee wäre, das Leben vieler guter Männer für ein paar Grenzverschiebungen aufs Spiel zu setzen. Um unsere Anliegen vorzutragen und die Sympathie der internationalen Gemeinschaft zu gewinnen, ist der Kongress bereit, mit Wien zu verhandeln, um die Fehlentscheidungen, welche nach dem Weltkrieg gefällt wurden, rückgängig zu machen und viele der derzeit unterdrückten Völker, die in Österreich-Ungarn leben, zu befreien. Sollten sie diesen Verhandlungen nicht zustimmen, haben wir zumindest einen legitimen Grund, zu den Waffen zu greifen."
+ pact.215.a: "Wir unterstützen diese Initiative."
+ pact.215.b: "Was? Nein!"
+
+ pact.216.t: "Eine Einladung nach Belgrad"
+ pact.216.d: "Der Belgrader Kongress hat uns eine Einladung zukommen lassen. Obwohl es offensichtlich ist, dass sie unsere Monarchie und unsere Nation am liebsten vernichten würden, wollen sie es anscheinend zuerst auf diplomatische Weise versuchen. Natürlich wissen wir schon jetzt, dass ihre Bedingungen inakzeptabel sein werden; diese Versammlung könnte sich als reine Zeitverschwendung herausstellen und vielleicht wäre es klüger, diese Zeit zu nutzen, um unsere Streitkräfte zu mobilisieren."
+ pact.216.a: "Eine Chance, den Frieden zu erhalten!"
+ pact.216.b: "Wir lehnen dieses Angebot ab!"
+
+ pact.217.t: "Österreich lehnt ab"
+ pact.217.d: "Genau wie erwartet, weigert sich Wien, die Verhandlungen mit uns aufzunehmen. Da sie sich anscheinend dazu entschieden haben, ihr zerfallendes Reich durch einen Krieg endgültig untergehen zu lassen, ist es an der Zeit, ihrem Wunsch nachzukommen und in unsere finale Schlacht zu marschieren."
+ pact.217.a: "Dann sollen sie ihren Krieg bekommen."
+
+ pact.300.t: "Der Organisationspakt"
+ pact.300.d: "[FROM.GetNameDefCap]schlägt vor, dass wir die Bande zwischen den Balkanstaaten vertiefen, indem wir einen gemeinsamen Wirtschaftspakt schließen. Sollten wir den Pakt unterzeichnen, wird ein wirtschaftlicher Rat geformt, um den Handel und die wirtschaftlichen Interessen der Mitgliedsstaaten zu koordinieren. Es steht ohne Zweifel, dass diese Wirtschaftsunion uns große Vorteile bringen wird."
+ pact.300.a: "Natürlich, wir können davon nur profitieren."
+ pact.300.b: "Dies würde nur unsere Unabhängigkeit untergraben!"
+
+ BP_economic_integration_tt: "§GWir werden dem Organisationspakt beitreten und seine wirtschaftlichen Vorteile erhalten§!."
+
+ pact.301.t: "[FROM.GetNameDefCap] lehnt ab"
+ pact.301.d: "Die [FROM.GetAdjective] Regierung weigert sich, den Organisationspakt zu unterschreiben, da sie kein Interesse an näheren wirtschaftlichen Beziehungen der Balkanstaaten haben."
+ pact.301.a: "Ihr Verlust."
+
+ pact.302.t: "Bildung des wirtschaftlichen Rates"
+ pact.302.d: "Mit der Unterzeichnung des Organisationspakts, hat der wirtschaftliche Rat nun damit begonnen, den Handel und die wirtschaftlichen Beziehungen der Mitgliedsstaaten zu koordinieren."
+ pact.302.a: "Uns steht eine reiche Zukunft bevor!"
+
+ pact.303.t: "Bildung des wirtschaftlichen Rates"
+ pact.303.d: "Mit der Unterzeichnung des Organisationspakts, hat der wirtschaftliche Rat nun damit begonnen, den Handel und die wirtschaftlichen Beziehungen der Mitgliedsstaaten zu koordinieren."
+ pact.303.a: "Uns steht eine reiche Zukunft bevor!"
+
+ pact.304.t: "Bericht vom wirtschaftlichen Rat"
+ pact.304.d: "Durch die Bemühungen des wirtschaftlichen Rates und denen unserer Verbündeten, haben sich die Vorteile, die wir durch den Organisationspakt erhalten, weiter verbessert."
+ pact.304.a: "Exzellent!"
+
+ pact.305.t: "Den wirtschaftlichen Rat verlassen"
+ pact.305.d.war: "Aufgrund unseres aggressiven Verhaltens anderen Mitgliedern des wirtschaftlichen Rates gegenüber, wurden wir von diesem mit sofortiger Wirkung verwiesen. Dadurch erhalten wir nicht länger die Vorteile, die der Organisationspakt uns brachte."
+ pact.305.d.revolution: "Unsere neue, sozialistische Regierung hat alle wirtschaftlichen Verträge mit anderen Balkanstaaten für nichtig erklärt und mit sofortiger Wirkung annulliert. Dadurch erhalten wir nicht länger die Vorteile, die der Organisationspakt uns brachte."
+ pact.305.a: "Nun gut."
+
+ pact.306.t: "[FROM.GetNameDefCap] tritt dem wirtschaftlichen Rat bei"
+ pact.306.d: "Die [FROM.GetAdjective] Regierung hat den Organisationspakt unterzeichnet und ist nun ein offizielles Mitglied des wirtschaftlichen Rates, wodurch alle Mitglieder des Rates noch größere Vorteile erhalten."
+ pact.306.a: "Uns steht eine reiche Zukunft bevor!"
+
+ pact.307.t: "Die Zukunft des Belgrader Pakts"
+ pact.307.d: "Jetzt, da Österreich endlich besiegt wurde, stellt sich uns die Frage, wie es weitergehen soll. Auch wenn die meisten Allianzen im Balkan nur für eine kurze Weile anhielten, werden viele Stimmen laut, die den Belgrader Pakt in eine länger andauernde, bleibende und stabile Allianz verwandeln wollen, nicht nur, um den Balkan gegen Bedrohungen von außerhalb zu verteidigen, sondern auch, um die wirtschaftliche Kooperation zu verbessern und ein Zeitalter des Wohlstands im Balkan einzuläuten. Einige sehen das Ganze jedoch etwas pessimistischer: Ideologische Differenzen, die Situation von West Banat und die Tatsache, dass der Balkan sich nur unwahrscheinlich gegen Großmächte wie Deutschland oder Russland verteidigen kann sind Probleme, durch die der Pakt zum Scheitern verurteilt sein könnte. Sollte unsere Regierung jedoch die Idee eines lang anhaltenden Bündnisses unterstützen, wird dies die Wahrscheinlichkeit, dass der Belgrader Pakt bestehen bleibt, stark erhöhen."
+ pact.307.a: "Der Balkan steht auch weiterhin vereint!"
+ pact.307.b: "Der Pakt ist obsolet geworden - wir sollten ihn verlassen."

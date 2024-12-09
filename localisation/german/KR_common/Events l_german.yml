@@ -1,0 +1,78 @@
+﻿l_german:
+###  Übersetzt von Proho  ###
+### Nukleare Angriffe ###
+
+### Allgemeine Ereignisse ###
+nuke_dropped.1.t: "Atom Bombardierung von [From.From.GetName]"
+nuke_dropped.1.d: "Zum ersten und hoffentlich letzten Mal in der Geschichte wurde im Rahmen der internationalen Kriegsführung eine Atombombe in [From.From.GetName] gezündet. Die beispiellose Zerstörung ist ein Beweis für die verheerende Kraft dieser neuen Waffe, die nicht nur befürchtet wird, was sie ihren Zielen antun kann, sondern auch, welche Auswirkungen sie auf denjenigen hat, der sie einsetzt, und auf die Menschheit selbst.\n\nDie Welt hält den Atem an und wartet auf das, was als nächstes kommt. Wird diese [From.From.Owner.GetName] sich ergeben, um weiteren Terror zu vermeiden, oder wird sie nur ihre Entschlossenheit stärken, gegen diejenigen zurückzuschlagen, die auf solche Maßnahmen zurückgreifen?"
+nuke_dropped.1.a: "Die Atomära hat wirklich begonnen."
+nuke_dropped.1.b: "Wir werden alles Notwendige tun, um die [Root.GetAdjective] Menschen zu schützen."
+
+### Special Events ###
+nuke_dropped.2.t: "Atombombe von Hiroshima"
+nuke_dropped.2.d: "'Die Straßen waren wie eine Szene aus der Hölle.' \n- Kuniyoshi Aikawa\n\nHeute wurde eine Atombombe über der Stadt Hiroshima in einer Höhe von 580 Metern gezündet. Mehr als zwei Drittel der Stadt wurden sofort zerstört. Obwohl die Stadt gebaut wurde, um Erdbeben standzuhalten, überlebten nur wenige robuste Gebäude die Explosion.\n\nWährend die Macht der Atombombe in der Öffentlichkeit hochgespielt wurde, wurden die menschlichen Kosten der Waffe heruntergespielt. Keine Seite möchte über den Schrecken des Ereignisses nachdenken, aber sein Vermächtnis wird eines von Leben sein,  die im Handumdrehen und dauerhaften Folgen verloren gehen."
+nuke_dropped.2.a: "Wie viele werden noch fallen, bevor dieser Krieg endet?"
+nuke_dropped.2.b: "Wir müssen schnell handeln, um den Opfern zu helfen."
+
+nuke_dropped.3.t: "Atombombe von Nagasaki"
+nuke_dropped.3.d: "Heute wurde eine Atombombe über der Stadt Nagasaki gezündet.\n\nDie Auswirkungen der Bombe wurden durch die Lage der Stadt in einem Tal etwas eingedämmt, aber der Schaden ist immer noch schwerwiegend. Einige militärische Einrichtungen wurden getroffen, aber die katastrophalen zivilen Verluste überschatten sie bei weitem. Es kann Jahrzehnte dauern, bis wir die langfristigen Auswirkungen dieser Waffe mit Sicherheit kennen."
+nuke_dropped.3.a: "Wird dies zur Kapitulation von [From.From.Owner.GetAdjective] führen?"
+nuke_dropped.3.b: "Wir hatten gehofft, Nagasaki würde verschont bleiben."
+
+nuke_dropped.4.t: "Atombombe von Berlin"
+nuke_dropped.4.d: "Die deutsche Reichshauptstadt Berlin wurde heute bei [GetDateText] von einer Atomexplosion heimgesucht. Die Stadt hat in diesem und im letzten Krieg mehrere Angriffe erlitten, aber alles andere ist im Vergleich dazu blass. Seit dem Dreißigjährigen Krieg hat Berlin keine vergleichbare Verwüstung erlebt - angesichts seines Wachstums wurde dies als unmöglich angesehen.\n\nDas Berliner Stadtschloss scheint die Explosion zumindest teilweise überlebt zu haben, da die Bombe auserhalb seines geplanten Epizentrum explodierte, und Kaiser [From.From.Owner.GetLeader] soll angeblich noch am Leben und empört darüber sein. Wie [From.From.Owner.GetAdjective] Führung evakuiert werden sollten und ob sie vor den Folgen geschützt werden können, ist jedoch eine andere Sache."
+nuke_dropped.4.a: "Heute bin ich erleichtert, kein Berliner zu sein."
+nuke_dropped.4.b: "Unsere Feinde haben das Herz der Nation getroffen!"
+
+nuke_dropped.5.t: "Atombombenabwurf auf London"
+nuke_dropped.5.d.ENG: "Eine nukleare Explosion hat die Stadt London heute verwüstet. Trotz der Luftabwehr der Stadt war [From.From.Owner.GetName] nicht auf diesen Angriff vorbereitet. Bei [GetDateText] schlug Big Ben zum letzten Mal, nachdem er von der Explosion geschmolzen worden war. Frühe Berichte deuten darauf hin, dass der TUC vollständig eingeebnet wurde und der Aufenthaltsort der Regierung derzeit nicht bekannt ist.\n\n[From.From.Owner.GetLeader] wurde dennoch als Überlebend bestätigt und bereitet eine mitreißende Rede für das Radio heute vor. Da die Moral auf einem historischen Tiefstand ist, braucht das britische Volk dies dringend - oder eine sehr beredte Übergabe."
+nuke_dropped.5.d.GBR: "Eine nukleare Explosion hat die Stadt London heute verwüstet. Trotz der Luftabwehr der Stadt war [From.From.Owner.GetName] nicht auf diesen Angriff vorbereitet. Bei [GetDateText] schlug Big Ben zum letzten Mal, nachdem er von der Explosion geschmolzen worden war. Ersten Berichten zufolge wurde der Buckingham Palast komplett dem Erdboden gleichgemacht und der Verbleib der königlichen Familie ist derzeit unbekannt.\n\n[From.From.Owner.GetLeader] wurde dennoch als Überlebend bestätigt und bereitet eine mitreißende Rede für das Radio heute vor. Da die Moral auf einem historischen Tiefstand ist, braucht das britische Volk dies dringend - oder eine sehr beredte Übergabe."
+nuke_dropped.5.a: "Lassen Sie uns das Scharlachrote Phantom angesichts einer nuklearen Druckwelle ein für alle Mal ausschalten."
+nuke_dropped.5.b: "Wir werden uns wieder aus der Asche erheben!"
+nuke_dropped.5.c: "Es ist schwierig, im Angesicht einer nuklearen Druckwelle eine steife Oberlippe zu bewahren."
+nuke_dropped.5.d: "Gott schütze den König!"
+
+nuke_dropped.6.t: "Atombombe auf Kyoto"
+nuke_dropped.6.d: "Die Stadt Kyoto, ein bekanntes Industriezentrum [From.From.Owner.GetAdjective], wurde heute von einer Atombombe getroffen. Es wird spekuliert, dass die Stadt als Ziel ausgewählt wurde, weil sie als intellektuelles Zentrum angesehen wurde.\n\nDie Schönheit und historische Bedeutung des Kyoto ließ viele davon ausgehen, dass es von der Bombe verschont bleiben würde, aber es scheint, dass der Terror der Zerstörung an einem solchen Ort eher als Vorteil angesehen wurde, was die psychologischen Auswirkungen des Angriffs erhöht. Die Lage der Stadt im Tal begrenzte die Explosion etwas, aber der alte Kaiserpalast und viele Industriegebäude wurden vollständig zerstört."
+nuke_dropped.6.a: "Hinterlassenschaft und Schönheit bedeuten nichts in einem Krieg wie diesem."
+nuke_dropped.6.b: "Wenn sie das Alte zerstören, werden wir es neu aufbauen."
+
+nuke_dropped.7.t: "Atombombe von Tokio"
+nuke_dropped.7.d: "Heute richtete sich ein Atomschlag gegen das Herz Japans. Obwohl erwartet wurde, dass die Hauptstadt Tokios das Ziel von Brandbomben ist, wurde nie angenommen, dass sie ein vorrangiges Ziel dieser neuen Waffe ist. Letztendlich ist jedoch möglicherweise aufgrund der Bedeutung der neuen Hauptstadt und des Kaiserpalastes, die jetzt zerstört wurden, ein noch verzehrenderes Feuer auf die Stadt gefallen. \n\nObwohl berichtet wird, dass [From.From.Owner.GetLeader] überlebt hat, hat das Ereignis Fragen aufgeworfen, wie weit Japans Feinde bereit sind zu gehen. Wenn der Krieg damit nicht endet, welche Ziele bleiben dann übrig? Womit bleibt noch zu drohen?"
+nuke_dropped.7.a: "Bedeutet das das Ende Japans?"
+nuke_dropped.7.b: "Solange [From.From.Owner.GetLeader] lebt, lebt auch die Nation."
+
+nuke_dropped.8.t: "Atombombe von Washington D.C."
+nuke_dropped.8.d: "Eine Atombombe wurde heute über der Hauptstadt der Vereinigten Staaten gezündet. Bei einem Angriff, der eindeutig auf das politische Zentrum und das historische Erbe der USA gerichtet war, wurden das Weiße Haus, das Kapitol und eine Reihe von Denkmälern und Denkmälern vom Erdboden gewischt. Sogar der Brand Washingtons vor über einem Jahrhundert verblasst im Vergleich zu der Zerstörung, die diese verheerende Waffe in der Stadt angerichtet hat.\n\nObwohl Präsident [From.From.Owner.GetLeader] in Sicherheit gebracht wurde, ist die Nation bis ins Mark erschüttert . Zweifellos hofften die USA, das erste und einzige Land zu sein, das eine solche Waffe einsetzte. Diese Hoffnungen wurden jetzt auf die schlimmste Weise zerstört."
+nuke_dropped.8.a: "Eine Nation, unteilbar, gegen ein Atom, teilbar."
+nuke_dropped.8.b: "Der Adler wird wie ein Phönix aus der Asche auferstehen."
+
+nuke_dropped.9.t: "Atombombenabwurf auf Rom"
+nuke_dropped.9.d: "Eine Atomexplosion traf heute die Stadt Rom und schockierte Menschen auf der ganzen Welt. Aufgrund seiner historischen und künstlerischen Schätze hatten viele nie gedacht, dass die antike Stadt das Ziel einer solchen wahllosen Zerstörung sein würde.  Auch der Apostolische Palast in dem der Papst lebt wurde teilweise zerstörte, aber er überlebte wenn auch in einem schlechten Zustand, so hat das Ereignis nicht nur Italiener, sondern alle Katholiken auf der ganzen Welt entsetzt.\n\nRoms rasantes Wachstum in den letzten zehn Jahren wurde durch den Angriff fast vollständig rückgängig gemacht. Für eine Weile sah es so aus, als könnte die Stadt der Erholung der Nation nach Kriegsende helfen. Diese Hoffnungen haben sich nun in Staub verwandelt, zusammen mit vielen Menschen."
+nuke_dropped.9.a: "Die Würfel sind gefallen"
+nuke_dropped.9.b: "Rom wird nicht an einem Tag wieder aufgebaut ..."
+
+nuke_dropped.10.t: "Atombombe von Paris"
+nuke_dropped.10.d: "Heute wurde ein Atombombe über der Stadt Paris gezündet, was zu weit verbreiteten Zerstörungen und unzähligen Opfern führte. Frankreich war geschockt, als seine Hauptstadt trotz jahrhundertelanger Kriege und Revolutionen den möglicherweise verheerendsten Angriff erlitt, den es jemals erlebt hat. Die Pariser hatten vielleicht eine Eroberung erwartet, aber keine völlige brutale Verwüstung.\n\nJede Siegesparade bei Champs-Élysées an den Überresten des Arc de Triomphe vorbei scheint im gegenwärtigen Zustand der Stadt unwahrscheinlich. Vielleicht wird in den kommenden Jahrzehnten ein neues Paris geboren, aber Paris in der Öffentlichkeit, die in der Belle Époque erbaute Stadt, ist für immer verschwunden."
+nuke_dropped.10.a: "Die Stadt des Lichts ist ausgebrannt."
+nuke_dropped.10.b: "Erst gestern schien es, wir werden immer Paris haben"
+
+nuke_dropped.11.t: "Atombombe von Moskau"
+nuke_dropped.11.d: "Moskau, eine Stadt, die viele nicht erobert konnten, war heute das Ziel eines Atomangriffs. Die Explosion richtete sich gegen das historische Herz der Stadt, wobei der Kreml durch die Explosion fast vollständig zerstört worden war.\n\n[From.From.Owner.GetName], der sich vor kurzem aller möglichen und unmöglichen Bedrohungen bewusster und ängstlicher geworden war, wurde rechtzeitig evakuiert und überlebte. Doch selbst die Weite von [From.From.Owner.GetName] reicht möglicherweise nicht aus, um einem solch rücksichtslosen Feind zu entkommen. Wenn dies so weitergeht, wird die Nation bald nur noch aus zwei Arten von Ödland bestehen: denen, die schon vorher dort waren, und denen, die von ihren Feinden geschaffen wurden."
+nuke_dropped.11.a: "Wird ein nuklearer Winter Moskau nicht nur zu einem schwierigeren Ziel machen?"
+nuke_dropped.11.b: "Sie mögen jede Stadt, die wir haben, verbrennen, aber sie werden sie niemals einnehmen."
+
+nuke_dropped.12.t: "Atombombe von Kopenhagen"
+nuke_dropped.12.d: "Heute wurde die Stadt Kopenhagen von einer Atomexplosion heimgesucht. Nachdem die Hauptstadt dank der Neutralität Dänemarks der Zerstörung im Weltkrieg entkommen war, hat sie seit den Napoleonischen Kriegen noch nie einen derart verheerenden Angriff erlebt. In der Umgebung von Öresund gab es ebenfalls erhebliche Auswirkungen, und Überlebende flohen aus Angst vor weiteren Angriffen nach Fünen und auf das Festland. \n\nKönig Christian X´s Aufenthaltsort ist derzeit nicht bekannt, und die Moral der Nation wurde durch den Angriff schwer beschädigt. Es bleibt abzuwarten, ob dies für eine der ältesten Nationen Europas der Anfang vom Ende ist."
+nuke_dropped.12.a: "Etwas strahlt im Staate Dänemark"
+nuke_dropped.12.b: "Die Stadt hatte vorher gebrannt, aber ist nie zugrunde gegangen."
+
+nuke_dropped.13.t: "Die Atombombardierung Stockholms"
+nuke_dropped.13.d: "Die wunderschöne Stadt Stockholm, stolzes Venedig des Nordens, wurde heute von einer Atombombe getroffen. Trotz ihrer Bemühungen, in der Vergangenheit neutral zu bleiben, haben die Schweden jetzt den höchsten Preis für internationale Konflikte gezahlt. Das Epizentrum der Explosion befand sich in der Mitte des südlichen Zentrums von Stockholm, einem Gebiet, das für zukünftige Entwicklungs- und Großbauprojekte vorgesehen war und jetzt irreversibel zerstört wurde.\n\nEin Großteil der Stadt ist bis zur Unkenntlichkeit zerstört, aber die alten Strukturen in Slussen scheinen erhalten geblieben zu sein, besser als erwartet. Es wurde beschlossen, dass sie als Denkmal für die Widerstandsfähigkeit der Stadt für immer unberührt bleiben soll."
+nuke_dropped.13.a: "Damit wird die schwedische Neutralität nur eine Erinnerung sein."
+nuke_dropped.13.b: "Der schwedische Tiger wird seine Streifen nicht verlieren!"
+
+nuke_dropped.14.t: "Atombombe von Bangkok"
+nuke_dropped.14.d: "Die wunderschöne Stadt Bangkok, stolzes Venedig des Ostens, wurde heute bei [GetDateText] von einer Atombombe getroffen. Es wird angenommen, dass sich das Epizentrum in der Nähe des Großen Palastes befindet und jahrhundertealte kulturelle Artefakte wie den Smaragdbuddha zerstört wurden.\n\n[From.From.Owner.GetLeader] wurde dennoch als überlebt bestätigt und bereitet eine mitreißende Rede für das Radio heute vor. Ein Großteil der Stadt ist bis zur Unkenntlichkeit zerstört, die Altstadt liegt vollständig am Boden, aber die Goldene Pagode scheint die Explosion besser als erwartet überstanden zu haben. Es wurde beschlossen, dass es als Denkmal für die Widerstandsfähigkeit der Stadt für immer unberührt bleiben soll."
+nuke_dropped.14.a: "Bedeutet dies das Ende der Unabhängigkeit von [SIA.GetAdjective]?"
+nuke_dropped.14.b: "Das [SIA.GetAdjective] soll für immer frei sein! Wir werden uns nicht dem ausländischen Imperialisten ergeben!"

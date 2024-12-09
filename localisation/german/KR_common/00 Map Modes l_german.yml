@@ -1,0 +1,39 @@
+﻿l_english:
+
+### Map Modes ###
+MAPMODE_CORES_CLAIMS_MAP_MODE: "§Y$MAPMODE_CORES_CLAIMS_MAP_MODE_NAME$§! Kartenmodus"
+MAPMODE_CORES_CLAIMS_MAP_MODE_NAME: "Kernstaat/Ansprüche"
+MAPMODE_CORES_CLAIMS_MAP_MODE_DESCRIPTION: "Zeigt die aktuellen Kernstaaten und Ansprüche."
+
+cores_claims_map_mode_tooltip: "§Y[FROM.GetName]§! ([FROM.Owner.GetFlag] [FROM.Owner.GetName])"
+cores_claims_map_mode_tooltip_delayed: "[FROM.GetCoreClaimMapModeTooltip]"
+
+cores_claims_map_mode_tooltip_core: "§Y[FROM.GetName]§! ist ein §YKernstaat§! von §Y[ROOT.GetNameWithFlag]§!."
+cores_claims_map_mode_tooltip_potential_core_50: "§Y[FROM.GetName]§! ist ein §Ypotenzieller Kernstaat§! von §Y[ROOT.GetNameWithFlag]§!. Wenn im Besitz, wird es zu einem Kernstaat, sobald §Y50%§! Gehorsam erreicht wurde."
+cores_claims_map_mode_tooltip_potential_core_80: "§Y[FROM.GetName]§! ist ein §Ypotenzieller Kernstaat§! von §Y[ROOT.GetNameWithFlag]§!. Wenn im Besitz, wird es zu einem Kernstaat, sobald §Y80%§! Gehorsam erreicht wurde."
+cores_claims_map_mode_tooltip_claim: "§Y[FROM.GetName]§! ist §Ybeansprucht§! durch §Y[ROOT.GetNameWithFlag]§!."
+cores_claims_map_mode_tooltip_owned: "§Y[FROM.GetName]§! ist §Ybesetzt§! durch §Y[ROOT.GetNameWithFlag]§!."
+
+MAPMODE_OPINION_MAP_MODE: "§Y$MAPMODE_OPINION_MAP_MODE_NAME$§! Kartenmodus"
+MAPMODE_OPINION_MAP_MODE_NAME: "Meinung"
+MAPMODE_OPINION_MAP_MODE_DESCRIPTION: "Zeigt die Meinung anderer Länder über uns."
+
+opinion_map_mode_tooltip: "§Y[FROM.controller.GetNameWithFlag]§!"
+opinion_map_mode_tooltip_delayed: "[FROM.GetOpinionMapModeTooltip]"
+
+opinion_map_mode_tooltip_delayed2: "ROOT ist [ROOT.GetName]\nFROM ist [FROM.GetName]\nFROM.FROM ist [FROM.FROM.GetName]"
+
+opinion_map_mode_tooltip_delayed_desc: "Ihre Meinung über uns: [?FROM.controller:opinion@ROOT|+=0]\nUnsere Meinung über sie: [?ROOT.opinion@FROM.controller|+=0]"
+
+MAPMODE_ECONOMIC_SPHERES_MAP_MODE: "§Y$MAPMODE_ECONOMIC_SPHERES_MAP_MODE_NAME$§! Kartenmodus"
+MAPMODE_ECONOMIC_SPHERES_MAP_MODE_NAME: "Wirtschaftssphären"
+MAPMODE_ECONOMIC_SPHERES_MAP_MODE_DESCRIPTION: "Zeigt die derzeit existierenden Wirtschaftssphären und ihre Mitglieder."
+
+economic_spheres_map_mode_none: "Keiner"
+
+economic_spheres_map_mode_tooltip: "§Y[FROM.controller.GetNameWithFlag]§! (§Y[GetEconomicSphereMapModeTooltip_SphereName]§!)"
+economic_spheres_map_mode_tooltip_delayed: "[FROM.controller.GetEconomicSphereMapModeTooltip]"
+
+economic_spheres_map_mode_tooltip_leader: "§Y[FROM.controller.GetNameWithFlag]§! ist der Anführer von §Y[GetEconomicSphereMapModeTooltip_SphereName]§!."
+economic_spheres_map_mode_tooltip_member: "§Y[FROM.controller.GetNameWithFlag]§! ist ein Mitglied von §Y[GetEconomicSphereMapModeTooltip_SphereName]§!.\n\n§Y[GetEconomicSphereMapModeTooltip_SphereName]§! wird angeführt von §Y[GetEconomicSphereMapModeTooltip_SphereLeader]§!."
+economic_spheres_map_mode_tooltip_none: "§Y[FROM.controller.GetNameWithFlag]§! ist nicht Mitglied einer Wirtschaftssphäre."

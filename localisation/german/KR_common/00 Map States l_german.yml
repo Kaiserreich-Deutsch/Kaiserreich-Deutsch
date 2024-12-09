@@ -1,0 +1,4613 @@
+﻿l_german:
+###  Übersetzt von Proho  ###
+ STATE_1: "Korsika"
+ STATE_1_RENAME: "[1.Controller.GetStateName_1]"
+ STATE_1_FRENCH: "Corse"
+ 
+ STATE_2: "Latium"
+ STATE_2_RENAME: "[2.Controller.GetStateName_2]"
+ STATE_2_ITALIAN: "Lazio"
+ 
+ STATE_3: "Schweizer Mittelland"
+ STATE_3_RENAME: "[3.Controller.GetStateName_3]"
+ STATE_3_FRENCH: "Plateau Suisse"
+ STATE_3_GERMAN: "Schweizer Mittelland"
+ STATE_3_ITALIAN: "Altopiano Svizzero"
+ STATE_3_SWISS: "Mittelland"
+ 
+ STATE_4: "Niederösterreich"
+ STATE_4_RENAME: "[4.Controller.GetStateName_4]"
+ STATE_4_GERMAN: "Niederösterreich"
+ 
+ STATE_5: "Ostpreußen"
+ STATE_5_RENAME: "[5.Controller.GetStateName_5]"
+ STATE_5_GERMAN: "Ostpreußen"
+ STATE_5_POLISH: "Prusy"
+ 
+ STATE_6: "Flandern"
+ STATE_6_RENAME: "[6.Controller.GetStateName_6]"
+ STATE_6_DUTCH: "Vlaanderen"
+ STATE_6_FRENCH: "Flandres"
+ STATE_6_GERMAN: "Flandern"
+ 
+ STATE_7: "Holland"
+ STATE_7_RENAME: "[7.Controller.GetStateName_7]"
+ 
+ STATE_8: "Luxemburg"
+ STATE_8_RENAME: "[8.Controller.GetStateName_8]"
+ STATE_8_GERMAN: "Luxemburg"
+ 
+ STATE_9: "Prag"
+ STATE_9_RENAME: "[9.Controller.GetStateName_9]"
+ STATE_9_CZECH: "Praha"
+ STATE_9_GERMAN: "Prag"
+ STATE_9_POLISH: "Praga"
+ 
+ STATE_10: "Warschau"
+ STATE_10_RENAME: "[10.Controller.GetStateName_10]"
+ STATE_10_GERMAN: "Warschau"
+ STATE_10_POLISH: "Warszawa"
+ STATE_10_RUSSIAN: "Varshava"
+ 
+ STATE_11: "Kauen"
+ STATE_11_RENAME: "[11.Controller.GetStateName_11]"
+ STATE_11_BELARUSIAN: "Koŭna"
+ STATE_11_LITHUANIAN: "Aukštaitija"
+ STATE_11_POLISH: "Kowno"
+ STATE_11_RUSSIAN: "Kovno"
+ 
+ STATE_12: "Livland"
+ STATE_12_RENAME: "[12.Controller.GetStateName_12]"
+ STATE_12_GERMAN: "Livland"
+ STATE_12_LATVIAN: "Vidzeme"
+ STATE_12_LITHUANIAN: "Vidžemė"
+ STATE_12_RUSSIAN: "Liflandiya"
+ 
+ STATE_13: "Estland"
+ STATE_13_RENAME: "[13.Controller.GetStateName_13]"
+ STATE_13_ESTONIAN: "Harju"
+ STATE_13_GERMAN: "Estland"
+ STATE_13_RUSSIAN: "Estlandiya"
+ 
+ STATE_14: "Obere Bretagne"
+ STATE_14_RENAME: "[14.Controller.GetStateName_14]"
+ STATE_14_BRETON: "Breizh-Uhel"
+ STATE_14_FRENCH: "Haute-Bretagne"
+
+ STATE_15: "Normandie"
+ STATE_15_RENAME: "[15.Controller.GetStateName_15]"
+ STATE_15_FRENCH: "Normandie"
+ 
+ STATE_16: "Île de France"
+ STATE_16_RENAME: "[16.Controller.GetStateName_16]"
+ 
+ STATE_17: "Straße von Kalen"
+ STATE_17_RENAME: "[17.Controller.GetStateName_17]"
+ STATE_17_DUTCH: "Nauw van Kales"
+ STATE_17_GERMAN: "Straße von Kalen"
+ 
+ STATE_18: "Champagne"
+ STATE_18_RENAME: "[18.Controller.GetStateName_18]"
+ 
+ STATE_19: "Aquitanien"
+ STATE_19_RENAME: "[19.Controller.GetStateName_19]"
+ 
+ STATE_20: "Lyonnais"
+ STATE_20_RENAME: "[20.Controller.GetStateName_20]"
+ 
+ STATE_21: "Provence"
+ STATE_21_RENAME: "[21.Controller.GetStateName_21]"
+ 
+ STATE_22: "Languedoc"
+ STATE_22_RENAME: "[22.Controller.GetStateName_22]"
+ 
+ STATE_23: "Poitou"
+ STATE_23_RENAME: "[23.Controller.GetStateName_23]"
+ 
+ STATE_24: "Picardie"
+ STATE_24_RENAME: "[24.Controller.GetStateName_24]"
+ STATE_24_FRENCH: "Picardie"
+ 
+ STATE_25: "Limousin"
+ STATE_25_RENAME: "[25.Controller.GetStateName_25]"
+ 
+ STATE_26: "Auvergne"
+ STATE_26_RENAME: "[26.Controller.GetStateName_26]"
+ 
+ STATE_27: "Burgund"
+ STATE_27_RENAME: "[27.Controller.GetStateName_27]"
+ STATE_27_FRENCH: "Bourgogne"
+ 
+ STATE_28: "Elsaß-Lothringen"
+ STATE_28_RENAME: "[28.Controller.GetStateName_28]"
+ STATE_28_GERMAN: "Elsaß-Lothringen"
+ 
+ STATE_29: "Dünkirchen"
+ STATE_29_RENAME: "[29.Controller.GetStateName_29]"
+ STATE_29_DUTCH: "Duinkerke"
+ STATE_29_FRENCH: "Dunkerque"
+ STATE_29_GERMAN: "Dünkirchen"
+ 
+ STATE_30: "Maine"
+ STATE_30_RENAME: "[30.Controller.GetStateName_30]"
+ 
+ STATE_31: "Garonne"
+ STATE_31_RENAME: "[31.Controller.GetStateName_31]"
+ 
+ STATE_32: "Rhône"
+ STATE_32_RENAME: "[32.Controller.GetStateName_32]"
+ 
+ STATE_33: "Orléans"
+ STATE_33_RENAME: "[33.Controller.GetStateName_33]"
+ 
+ STATE_34: "Hennegau"
+ STATE_34_RENAME: "[34.Controller.GetStateName_34]"
+ STATE_34_DUTCH: "Henegouwen"
+ STATE_34_GERMAN: "Hennegau"
+ 
+ STATE_35: "Nordbrabant"
+ STATE_35_RENAME: "[35.Controller.GetStateName_35]"
+ STATE_35_DUTCH: "Noord-Brabant"
+ STATE_35_GERMAN: "Nordbrabant"
+ 
+ STATE_36: "Friesland"
+ STATE_36_RENAME: "[36.Controller.GetStateName_36]"
+ STATE_36_DUTCH: "Friesland"
+ 
+ STATE_37: "Seeland"
+ STATE_37_RENAME: "[37.Controller.GetStateName_37]"
+ STATE_37_DANISH: "Sjælland"
+ 
+ STATE_38: "Norrland"
+ STATE_38_RENAME: "[38.Controller.GetStateName_38]"
+ 
+ STATE_39: "Südtirol"
+ STATE_39_RENAME: "[39.Controller.GetStateName_39]"
+ STATE_39_GERMAN: "Südtirol"
+ STATE_39_ITALIAN: "Alto Adige"
+ 
+ STATE_40: "Barnaul"
+ STATE_40_RENAME: "[40.Controller.GetStateName_40]"
+ 
+ STATE_41: "Madrid"
+ STATE_41_RENAME: "[41.Controller.GetStateName_41]"
+ 
+ STATE_42: "Pfalz"
+ STATE_42_RENAME: "[42.Controller.GetStateName_42]"
+ STATE_42_FRENCH: "Palatinat Rhénan"
+ STATE_42_GERMAN: "Pfalz"
+ 
+ STATE_43: "Mittelungarn"
+ STATE_43_RENAME: "[43.Controller.GetStateName_43]"
+ STATE_43_GERMAN: "Mittelungarn"
+ STATE_43_HUNGARIAN: "Közép-Magyarország"
+ 
+ STATE_44: "Toskeria"
+ STATE_44_RENAME: "[44.Controller.GetStateName_44]"
+ STATE_44_ALBANIAN: "Toskëria"
+ STATE_44_ITALIAN: "Albania Meridionale"
+ 
+ STATE_45: "Batschka"
+ STATE_45_RENAME: "[45.Controller.GetStateName_45]"
+ STATE_45_GERMAN: "Batschka"
+ STATE_45_HUNGARIAN: "Vajdaság"
+ STATE_45_ROMANIAN: "Bacica""
+ 
+ STATE_46: "Walachei"
+ STATE_46_RENAME: "[46.Controller.GetStateName_46]"
+ 
+ STATE_47: "Mittelgriechenland"
+ STATE_47_RENAME: "[47.Controller.GetStateName_47]"
+ STATE_47_GREEK: "Stereá Elláda"
+ STATE_47_TURKISH: "Orta Yunanistan"
+ 
+ STATE_48: "Sofia"
+ STATE_48_RENAME: "[48.Controller.GetStateName_48]"
+ STATE_48_BULGARIAN: "Sofiya"
+ 
+ STATE_49: "Ankara"
+ STATE_49_RENAME: "[49.Controller.GetStateName_49]"
+ STATE_49_GREEK: "Ánkyra"
+ 
+ STATE_50: "Württemberg"
+ STATE_50_RENAME: "[50.Controller.GetStateName_50]"
+ 
+ STATE_51: "Ostrheinland"
+ STATE_51_RENAME: "[51.Controller.GetStateName_51]"
+ STATE_51_GERMAN: "Ostrheinland"
+ 
+ STATE_52: "Oberbayern"
+ STATE_52_RENAME: "[52.Controller.GetStateName_52]"
+ STATE_52_GERMAN: "Oberbayern"
+ 
+ STATE_53: "Niederbayern"
+ STATE_53_RENAME: "[53.Controller.GetStateName_53]"
+ STATE_53_GERMAN: "Niederbayern"
+ 
+ STATE_54: "Franken"
+ STATE_54_RENAME: "[54.Controller.GetStateName_54]"
+ STATE_54_GERMAN: "Franken"
+ 
+ STATE_55: "Hessen"
+ STATE_55_RENAME: "[55.Controller.GetStateName_55]"
+ STATE_55_GERMAN: "Hessen"
+ 
+ STATE_56: "Oldenburg"
+ STATE_56_RENAME: "[56.Controller.GetStateName_56]"
+ 
+ STATE_57: "Westfalen"
+ STATE_57_RENAME: "[57.Controller.GetStateName_57]"
+ STATE_57_GERMAN: "Westfalen"
+ 
+ STATE_58: "Schleswig-Holstein"
+ STATE_58_RENAME: "[58.Controller.GetStateName_58]"
+ STATE_58_DANISH: "Slesvig-Holsten"
+ 
+ STATE_59: "Hannover"
+ STATE_59_RENAME: "[59.Controller.GetStateName_59]"
+ STATE_59_GERMAN: "Hannover"
+ 
+ STATE_60: "Thüringen"
+ STATE_60_RENAME: "[60.Controller.GetStateName_60]"
+ STATE_60_GERMAN: "Thüringen"
+ 
+ STATE_61: "Mecklenburg"
+ STATE_61_RENAME: "[61.Controller.GetStateName_61]"
+ 
+ STATE_62: "Vorpommern"
+ STATE_62_RENAME: "[62.Controller.GetStateName_62]"
+ STATE_62_GERMAN: "Vorpommern"
+ 
+ STATE_63: "Hinterpommern"
+ STATE_63_RENAME: "[63.Controller.GetStateName_63]"
+ STATE_63_GERMAN: "Hinterpommern"
+ STATE_63_POLISH: "Pomorze Tylne"
+ 
+ STATE_64: "Brandenburg"
+ STATE_64_RENAME: "[64.Controller.GetStateName_64]"
+ 
+ STATE_65: "Sachsen"
+ STATE_65_RENAME: "[65.Controller.GetStateName_65]"
+ STATE_65_GERMAN: "Sachsen"
+ 
+ STATE_66: "Niederschlesien"
+ STATE_66_RENAME: "[66.Controller.GetStateName_66]"
+ STATE_66_GERMAN: "Niederschlesien"
+ STATE_66_POLISH: "Dolny Śląsk"
+ 
+ STATE_67: "Oberschlesien"
+ STATE_67_RENAME: "[67.Controller.GetStateName_67]"
+ STATE_67_GERMAN: "Oberschlesien"
+ STATE_67_POLISH: "Górny Śląsk"
+ 
+ STATE_68: "Neumark"
+ STATE_68_RENAME: "[68.Controller.GetStateName_68]"
+ STATE_68_POLISH: "Ziemia Lubuska"
+ 
+ STATE_69: "Reichenberg"
+ STATE_69_RENAME: "[69.Controller.GetStateName_69]"
+ STATE_69_GERMAN: "Reichenberg"
+
+ STATE_70: "Slowakei"
+ STATE_70_RENAME: "[70.Controller.GetStateName_70]"
+ STATE_70_CZECH: "Slovensko"
+ STATE_70_GERMAN: "Slowakei"
+ STATE_70_HUNGARIAN: "Felvidék"
+ STATE_70_POLISH: "Słowacja"
+ 
+ STATE_71: "Donauebene"
+ STATE_71_RENAME: "[71.Controller.GetStateName_71]"
+ STATE_71_CZECH: "Podunajská rovina"
+ STATE_71_GERMAN: "Donauebene"
+ STATE_71_HUNGARIAN: "Duna Menti Alföld"
+ STATE_71_POLISH: "Nizina Naddunajska"
+ 
+ STATE_72: "Oberer Shan"
+ STATE_72_RENAME: "[72.Controller.GetStateName_72]"
+ STATE_72_BURMESE: "Anya Hram Pranynai"
+ STATE_72_CHINESE: "Dongzhi"
+ STATE_72_SHAN_FULL: "Taunggyi"
+ STATE_72_SHAN_HALF: "Moeng Tai"
+ STATE_72_THAI: "Inthanakhon"
+ 
+ STATE_73: "Unterkarpaten"
+ STATE_73_RENAME: "[73.Controller.GetStateName_73]"
+ STATE_73_CZECH: "Podkarpatsko"
+ STATE_73_GERMAN: "Subkarpatien"
+ STATE_73_HUNGARIAN: "Máramaros"
+ STATE_73_POLISH: "Zakarpacie"
+ STATE_73_UKRAINIAN: "Zakarpattia"
+ STATE_73_RUSSIAN: "Zakarpatye"
+ 
+ STATE_74: "Troppau"
+ STATE_74_RENAME: "[74.Controller.GetStateName_74]"
+ STATE_74_CZECH: "Ceske Slezsko"
+ STATE_74_GERMAN: "Troppau"
+ STATE_74_POLISH: "Śląsk Czeski"
+ 
+ STATE_75: "Mähren"
+ STATE_75_RENAME: "[75.Controller.GetStateName_75]"
+ STATE_75_CZECH: "Morava"
+ STATE_75_GERMAN: "Mähren"
+ STATE_75_POLISH: "Morawy"
+ 
+ STATE_76: "Komitatsboden"
+ STATE_76_RENAME: "[76.Controller.GetStateName_76]"
+ STATE_76_GERMAN: "Komitatsboden"
+ STATE_76_HUNGARIAN: "Kolozsvár"
+ STATE_76_ROMANIAN: "Ardealul de Nord"
+ 
+ STATE_77: "Silistria"
+ STATE_77_RENAME: "[77.Controller.GetStateName_77]"
+ STATE_77_BULGARIAN: "Silistra"
+ STATE_77_ROMANIAN: "Cadrilater"
+ 
+ STATE_78: "Bessarabien"
+ STATE_78_RENAME: "[78.Controller.GetStateName_78]"
+ STATE_78_ROMANIAN: "Basarabia"
+ 
+ STATE_79: "Moldawien"
+ STATE_79_RENAME: "[79.Controller.GetStateName_79]"
+ STATE_79_ROMANIAN: "Moldova"
+ 
+ STATE_80: "Czernowitz"
+ STATE_80_RENAME: "[80.Controller.GetStateName_80]"
+ STATE_80_GERMAN: "Czernowitz"
+ STATE_80_POLISH: "Czerniowce"
+ STATE_80_RUSSIAN: "Chernovitsy"
+ STATE_80_UKRAINIAN: "Chernivtsi"
+ 
+ STATE_81: "Oltenien"
+ STATE_81_RENAME: "[81.Controller.GetStateName_81]"
+ 
+ STATE_82: "Banat"
+ STATE_82_RENAME: "[82.Controller.GetStateName_82]"
+ STATE_82_HUNGARIAN: "Bánság"
+ 
+ STATE_83: "Partium"
+ STATE_83_RENAME: "[83.Controller.GetStateName_83]"
+ STATE_83_HUNGARIAN: "Részek"
+ 
+ STATE_84: "Königsboden"
+ STATE_84_RENAME: "[84.Controller.GetStateName_84]"
+ STATE_84_GERMAN: "Königsboden"
+ STATE_84_HUNGARIAN: "Erdély"
+ STATE_84_ROMANIAN: "Transilvania"
+ 
+ STATE_85: "Basutoland"
+ STATE_85_RENAME: "[85.Controller.GetStateName_85]"
+ STATE_85_SOUTH_AFRICAN: "Lesotho"
+ 
+ STATE_86: "Posen"
+ STATE_86_RENAME: "[86.Controller.GetStateName_86]"
+ STATE_86_POLISH: "Wielkopolska"
+ 
+ STATE_87: "Kalisch"
+ STATE_87_RENAME: "[87.Controller.GetStateName_87]"
+ STATE_87_GERMAN: "Kalisch"
+ STATE_87_RUSSIAN: "Kalish"
+ 
+ STATE_88: "Krakau"
+ STATE_88_RENAME: "[88.Controller.GetStateName_88]"
+ STATE_88_GERMAN: "Krakau"
+ STATE_88_POLISH: "Kraków"
+ STATE_88_RUSSIAN: "Krakov"
+ 
+ STATE_89: "Stanislau"
+ STATE_89_RENAME: "[89.Controller.GetStateName_89]"
+ STATE_89_GERMAN: "Stanislau"
+ STATE_89_POLISH: "Stanisławów"
+ STATE_89_RUSSIAN: "Stanislavov"
+ STATE_89_UKRAINIAN: "Stanyslaviv"
+ 
+ STATE_90: "Kjelzy"
+ STATE_90_RENAME: "[90.Controller.GetStateName_90]"
+ STATE_90_GERMAN: "Kjelzy"
+ STATE_90_RUSSIAN: "Keltsy"
+ 
+ STATE_91: "Lemberg"
+ STATE_91_RENAME: "[91.Controller.GetStateName_91]"
+ STATE_91_GERMAN: "Lemberg"
+ STATE_91_POLISH: "Lwów"
+ STATE_91_RUSSIAN: "Lvov"
+ STATE_91_UKRAINIAN: "Lviv"
+ 
+ STATE_92: "Lublin"
+ STATE_92_RENAME: "[92.Controller.GetStateName_92]"
+ STATE_92_RUSSIAN: "Lyublin"
+ 
+ STATE_93: "Brest"
+ STATE_93_RENAME: "[93.Controller.GetStateName_93]"
+ STATE_93_BELARUSIAN: "Bieraście"
+ STATE_93_POLISH: "Brześć"
+ STATE_93_RUSSIAN: "Brest-Litovsk"
+ STATE_93_UKRAINIAN: "Berestia"
+ 
+ STATE_94: "Wolkowysk"
+ STATE_94_RENAME: "[94.Controller.GetStateName_94]"
+ STATE_94_BELARUSIAN: "Vaŭkavýsk"
+ STATE_94_GERMAN: "Wolkowysk"
+ STATE_94_LITHUANIAN: "Valkaviskas"
+ STATE_94_POLISH: "Wołkowysk"
+ 
+ STATE_95: "Pinsk"
+ STATE_95_RENAME: "[95.Controller.GetStateName_95]"
+ STATE_95_LITHUANIAN: "Pinskas"
+ STATE_95_POLISH: "Pińsk"
+ 
+ STATE_96: "Wilna"
+ STATE_96_RENAME: "[96.Controller.GetStateName_96]"
+ STATE_96_BELARUSIAN: "Viłnia"
+ STATE_96_GERMAN: "Wilna"
+ STATE_96_POLISH: "Wilno"
+ STATE_96_RUSSIAN: "Vilna"
+ 
+ STATE_97: "Bjalistok"
+ STATE_97_RENAME: "[97.Controller.GetStateName_97]"
+ STATE_97_BELARUSIAN: "Biełastok"
+ STATE_97_LITHUANIAN: "Balstogė"
+ STATE_97_POLISH: "Białystok"
+ STATE_97_RUSSIAN: "Byelostok"
+ 
+ STATE_98: "Plotzk"
+ STATE_98_RENAME: "[98.Controller.GetStateName_98]"
+ STATE_98_GERMAN: "Plotzk"
+ STATE_98_POLISH: "Płock"
+ STATE_98_RUSSIAN: "Plotsk"
+ 
+ STATE_99: "Jütland"
+ STATE_99_RENAME: "[99.Controller.GetStateName_99]"
+ STATE_99_DANISH: "Jylland"
+ 
+ STATE_100: "Island"
+ STATE_100_RENAME: "[100.Controller.GetStateName_100]"
+ STATE_100_DANISH: "Island"
+ 
+ STATE_101: "Grönland"
+ STATE_101_RENAME: "[101.Controller.GetStateName_101]"
+ STATE_101_DANISH: "Grønland"
+ 
+ STATE_102: "Krain"
+ STATE_102_RENAME: "[102.Controller.GetStateName_102]"
+ STATE_102_GERMAN: "Krain"
+ STATE_102_SERBIAN: "Kranjska"
+ 
+ STATE_103: "Fiume"
+ STATE_103_RENAME: "[103.Controller.GetStateName_103]"
+ STATE_103_GERMAN: "Fiume"
+ STATE_103_ITALIAN: "Carnaro"
+ 
+ STATE_104: "Bosnien"
+ STATE_104_RENAME: "[104.Controller.GetStateName_104]"
+ STATE_104_GERMAN: "Bosnien"
+ STATE_104_SERBIAN: "Bosna"
+ 
+ STATE_105: "Montenegro"
+ STATE_105_RENAME: "[105.Controller.GetStateName_105]"
+ STATE_105_SERBIAN: "Crna Gora"
+ 
+ STATE_106: "Mazedonien"
+ STATE_106_RENAME: "[106.Controller.GetStateName_106]"
+ STATE_106_ALBANIAN: "Maqedonia"
+ STATE_106_BULGARIAN: "Makedoniya"
+ STATE_106_SERBIAN: "Makedonija"
+ 
+ STATE_107: "Belgrad"
+ STATE_107_RENAME: "[107.Controller.GetStateName_107]"
+ STATE_107_SERBIAN: "Beograd"
+ 
+ STATE_108: "Morava"
+ STATE_108_RENAME: "[108.Controller.GetStateName_108]"
+ 
+ STATE_109: "Zentralkroatien"
+ STATE_109_RENAME: "[109.Controller.GetStateName_109]"
+ STATE_109_GERMAN: "Zentralkroatien"
+ STATE_109_HUNGARIAN: "Közép-Horvátország"
+ STATE_109_SERBIAN: "Središnja Hrvatska"
+ 
+ STATE_110: "Ostland"
+ STATE_110_RENAME: "[110.Controller.GetStateName_110]"
+ 
+ STATE_111: "Tawastland"
+ STATE_111_RENAME: "[111.Controller.GetStateName_111]"
+ STATE_111_FINNISH: "Häme"
+ STATE_111_RUSSIAN: "Tammerfors"
+ STATE_111_SWEDISH: "Tavastland"
+ 
+ STATE_112: "Lissabon"
+ STATE_112_RENAME: "[112.Controller.GetStateName_112]"
+ STATE_112_PORTUGUESE: "Lisboa"
+ 
+ STATE_113: "Leinster"
+ STATE_113_RENAME: "[113.Controller.GetStateName_113]"
+ STATE_113_IRISH: "Laighin"
+ 
+ STATE_114: "Sardinien"
+ STATE_114_RENAME: "[114.Controller.GetStateName_114]"
+ STATE_114_ITALIAN: "Sardegna"
+ 
+ STATE_115: "Sizilien"
+ STATE_115_RENAME: "[115.Controller.GetStateName_115]"
+ STATE_115_ITALIAN: "Sicilia"
+ 
+ STATE_116: "Malta"
+ STATE_116_RENAME: "[116.Controller.GetStateName_116]"
+ STATE_116_FRENCH: "Malte"
+ 
+ STATE_117: "Kampanien"
+ STATE_117_RENAME: "[117.Controller.GetStateName_117]"
+ 
+ STATE_118: "Gibraltar"
+ STATE_118_RENAME: "[118.Controller.GetStateName_118]"
+ 
+ STATE_119: "Nordirland"
+ STATE_119_RENAME: "[119.Controller.GetStateName_119]"
+ STATE_119_IRISH: "Tuaisceart Éireann"
+ 
+ STATE_120: "Schottisches Hochland"
+ STATE_120_RENAME: "[120.Controller.GetStateName_120]"
+ STATE_120_IRISH: "Garbhchríocha na hAlban"
+ STATE_120_SCOTTISH: "Hielands"
+ 
+ STATE_121: "Lothian"
+ STATE_121_RENAME: "[121.Controller.GetStateName_121]"
+ STATE_121_SCOTTISH: "Lowden"
+ 
+ STATE_122: "Südwales"
+ STATE_122_RENAME: "[122.Controller.GetStateName_122]"
+ STATE_122_WELSH: "De Cymru"
+ 
+ STATE_123: "Cornwall"
+ STATE_123_RENAME: "[123.Controller.GetStateName_123]"
+ 
+ STATE_124: "Gotland"
+ STATE_124_RENAME: "[124.Controller.GetStateName_124]"
+ 
+ STATE_125: "Ostanglien"
+ STATE_125_RENAME: "[125.Controller.GetStateName_125]"
+ 
+ STATE_126: "Großraum London"
+ STATE_126_RENAME: "[126.Controller.GetStateName_126]"
+ 
+ STATE_127: "Sussex"
+ STATE_127_RENAME: "[127.Controller.GetStateName_127]"
+ 
+ STATE_128: "West Midlands"
+ STATE_128_RENAME: "[128.Controller.GetStateName_128]"
+ 
+ STATE_129: "East Midlands"
+ STATE_129_RENAME: "[129.Controller.GetStateName_129]"
+ 
+ STATE_130: "Yorkshire"
+ STATE_130_RENAME: "[130.Controller.GetStateName_130]"
+ 
+ STATE_131: "Northumberland"
+ STATE_131_RENAME: "[131.Controller.GetStateName_131]"
+ 
+ STATE_132: "Lancashire"
+ STATE_132_RENAME: "[132.Controller.GetStateName_132]"
+ 
+ STATE_133: "Lanark"
+ STATE_133_RENAME: "[133.Controller.GetStateName_133]"
+ STATE_133_IRISH: "Lannraig"
+ STATE_133_SCOTTISH: "Lanrik"
+ 
+ STATE_134: "Connacht"
+ STATE_134_RENAME: "[134.Controller.GetStateName_134]"
+ 
+ STATE_135: "Munster"
+ STATE_135_RENAME: "[135.Controller.GetStateName_135]"
+ STATE_135_IRISH: "An Mhumhain"
+ 
+ STATE_136: "Aberdeenshire"
+ STATE_136_RENAME: "[136.Controller.GetStateName_136]"
+ STATE_136_SCOTTISH: "Aiberdeenshire"
+ 
+ STATE_137: "Krim"
+ STATE_137_RENAME: "[137.Controller.GetStateName_137]"
+ STATE_137_UKRAINIAN: "Krym"
+ 
+ STATE_138: "Skåneland"
+ STATE_138_RENAME: "[138.Controller.GetStateName_138]"
+ STATE_138_DANISH: "Skånelandene"
+ 
+ STATE_139: "Småland"
+ STATE_139_RENAME: "[139.Controller.GetStateName_139]"
+ 
+ STATE_140: "Västergötland"
+ STATE_140_RENAME: "[140.Controller.GetStateName_140]"
+ 
+ STATE_141: "Svealand"
+ STATE_141_RENAME: "[141.Controller.GetStateName_141]"
+ 
+ STATE_142: "Vestlandet"
+ STATE_142_RENAME: "[142.Controller.GetStateName_142]"
+ 
+ STATE_143: "Trøndelag"
+ STATE_143_RENAME: "[143.Controller.GetStateName_143]"
+ 
+ STATE_144: "Nordland & Troms"
+ STATE_144_RENAME: "[144.Controller.GetStateName_144]"
+ STATE_144_NORWEGIAN: "Nordland og Troms"
+ 
+ STATE_145: "Åland"
+ STATE_145_RENAME: "[145.Controller.GetStateName_145]"
+ STATE_145_FINNISH: "Ahvenanmaa"
+ STATE_145_RUSSIAN: "Alandskiye Ostrova"
+ 
+ STATE_146: "Karelien"
+ STATE_146_RENAME: "[146.Controller.GetStateName_146]"
+ STATE_146_FINNISH: "Karjala"
+ STATE_146_RUSSIAN: "Kareliya"
+ STATE_146_SWEDISH: "Karelen"
+ 
+ STATE_147: "Preußisch Sachsen"
+ STATE_147_RENAME: "[147.Controller.GetStateName_147]"
+ STATE_147_GERMAN: "Preußisch Sachsen"
+ 
+ STATE_148: "Tornio"
+ STATE_148_RENAME: "[148.Controller.GetStateName_148]"
+ STATE_148_SWEDISH: "Torneå"
+ 
+ STATE_149: "Ostbottnien"
+ STATE_149_RENAME: "[149.Controller.GetStateName_149]"
+ STATE_149_FINNISH: "Pohjanmaa"
+ STATE_149_RUSSIAN: "Ostrobotniya"
+ STATE_149_SWEDISH: "Österbotten"
+ 
+ STATE_150: "Louisiana"
+ STATE_150_RENAME: "[150.Controller.GetStateName_150]"
+ 
+ STATE_151: "Ostschweiz"
+ STATE_151_RENAME: "[151.Controller.GetStateName_151]"
+ STATE_151_FRENCH: "Suisse Orientale"
+ STATE_151_GERMAN: "Ostschweiz"
+ STATE_151_ITALIAN: "Svizzera Orientale"
+ 
+ STATE_152: "Oberösterreich"
+ STATE_152_RENAME: "[152.Controller.GetStateName_152]"
+ STATE_152_GERMAN: "Oberösterreich"
+ 
+ STATE_153: "Nordtirol"
+ STATE_153_RENAME: "[153.Controller.GetStateName_153]"
+ STATE_153_GERMAN: "Nordtirol"
+ 
+ STATE_154: "Transtisien"
+ STATE_154_RENAME: "[154.Controller.GetStateName_154]"
+ STATE_154_GERMAN: "Transtisien"
+ STATE_154_ROMANIAN: "Câmpia Ungara"
+ 
+ STATE_155: "Transdanubien"
+ STATE_155_RENAME: "[155.Controller.GetStateName_155]"
+ STATE_155_GERMAN: "Transdanubien"
+ STATE_155_HUNGARIAN: "Dunántúl"
+ 
+ STATE_156: "Kalabrien"
+ STATE_156_RENAME: "[156.Controller.GetStateName_156]"
+ 
+ STATE_157: "Marche"
+ STATE_157_RENAME: "[157.Controller.GetStateName_157]"
+ STATE_157_ITALIAN: "Marche"
+ 
+ STATE_158: "Piemont"
+ STATE_158_RENAME: "[158.Controller.GetStateName_158]"
+ STATE_158_ITALIAN: "Piemonte"
+ 
+ STATE_159: "Lombardei"
+ STATE_159_RENAME: "[159.Controller.GetStateName_159]"
+ STATE_159_ITALIAN: "Lombardia"
+ 
+ STATE_160: "Venetien"
+ STATE_160_RENAME: "[160.Controller.GetStateName_160]"
+ STATE_160_ITALIAN: "Veneto"
+ 
+ STATE_161: "Romagna"
+ STATE_161_RENAME: "[161.Controller.GetStateName_161]"
+ 
+ STATE_162: "Toskana"
+ STATE_162_RENAME: "[162.Controller.GetStateName_162]"
+ STATE_162_ITALIAN: "Toscana"
+ 
+ STATE_163: "Dalmatien"
+ STATE_163_RENAME: "[163.Controller.GetStateName_163]"
+ STATE_163_GERMAN: "Dalmatien"
+ STATE_163_ITALIAN: "Dalmazia"
+ STATE_163_SERBIAN: "Dalmacija"
+ 
+ STATE_164: "Dodekanes"
+ STATE_164_RENAME: "[164.Controller.GetStateName_164]"
+ STATE_164_GREEK: "Dodekánisa"
+ STATE_164_TURKISH: "Mentese Adalari"
+ 
+ STATE_165: "Katalonien"
+ STATE_165_RENAME: "[165.Controller.GetStateName_165]"
+ STATE_165_CATALAN: "Catalunya"
+ STATE_165_FRENCH: "Catalogne"
+ STATE_165_SPANISH: "Cataluña"
+ 
+ STATE_166: "Oberaragon"
+ STATE_166_RENAME: "[166.Controller.GetStateName_166]"
+ STATE_166_SPANISH: "Alto Aragón"
+ 
+ STATE_167: "Valencia"
+ STATE_167_RENAME: "[167.Controller.GetStateName_167]"
+ STATE_167_CATALAN: "València"
+ 
+ STATE_168: "Murcia"
+ STATE_168_RENAME: "[168.Controller.GetStateName_168]"
+ 
+ STATE_169: "Sevilla"
+ STATE_169_RENAME: "[169.Controller.GetStateName_169]"
+ STATE_169_SPANISH: "Sevilla"
+ 
+ STATE_170: "Extremadura"
+ STATE_170_RENAME: "[170.Controller.GetStateName_170]"
+ 
+ STATE_171: "Galicien"
+ STATE_171_RENAME: "[171.Controller.GetStateName_171]"
+ STATE_171_PORTUGUESE: "Galiza"
+ 
+ STATE_172: "Navarra"
+ STATE_172_RENAME: "[172.Controller.GetStateName_172]"
+ STATE_172_BASQUE: "Nafarroa"
+ STATE_172_SPANISH: "Navarra"
+ 
+ STATE_173: "Málaga"
+ STATE_173_RENAME: "[173.Controller.GetStateName_173]"
+ 
+ STATE_174: "León"
+ STATE_174_RENAME: "[174.Controller.GetStateName_174]"
+ 
+ STATE_175: "Ciudad Real"
+ STATE_175_RENAME: "[175.Controller.GetStateName_175]"
+ 
+ STATE_176: "Burgos"
+ STATE_176_RENAME: "[176.Controller.GetStateName_176]"
+ 
+ STATE_177: "Balearische Inseln"
+ STATE_177_RENAME: "[177.Controller.GetStateName_177]"
+ STATE_177_CATALAN: "Illes Balears"
+ STATE_177_SPANISH: "Islas Baleares"
+ 
+ STATE_178: "Kanarische Inseln"
+ STATE_178_RENAME: "[178.Controller.GetStateName_178]"
+ STATE_178_SPANISH: "Islas Canarias"
+ 
+ STATE_179: "Beja"
+ STATE_179_RENAME: "[179.Controller.GetStateName_179]"
+ 
+ STATE_180: "Porto"
+ STATE_180_RENAME: "[180.Controller.GetStateName_180]"
+ STATE_180_SPANISH: "Oporto"
+ 
+ STATE_181: "Guarda"
+ STATE_181_RENAME: "[181.Controller.GetStateName_181]"
+ 
+ STATE_182: "Kreta"
+ STATE_182_RENAME: "[182.Controller.GetStateName_182]"
+ STATE_182_GERMAN: "Kreta"
+ STATE_182_GREEK: "Kríti"
+ STATE_182_ITALIAN: "Creta"
+ STATE_182_TURKISH: "Girit"
+ 
+ STATE_183: "Zypern"
+ STATE_183_RENAME: "[183.Controller.GetStateName_183]"
+ STATE_183_GERMAN: "Zypern"
+ STATE_183_GREEK: "Kýpros"
+ STATE_183_ITALIAN: "Cipro"
+ STATE_183_TURKISH: "Kibris"
+ 
+ STATE_184: "Komotini"
+ STATE_184_RENAME: "[184.Controller.GetStateName_184]"
+ STATE_184_BULGARIAN: "Gyumyurdzhina"
+ STATE_184_GREEK: "Komotiní"
+ STATE_184_TURKISH: "Gümülcine"
+ 
+ STATE_185: "Epirus"
+ STATE_185_RENAME: "[185.Controller.GetStateName_185]"
+ STATE_185_ALBANIAN: "Çamëria"
+ STATE_185_GREEK: "Ípiros"
+ STATE_185_TURKISH: "Epir"
+ 
+ STATE_186: "Peloponnes"
+ STATE_186_RENAME: "[186.Controller.GetStateName_186]"
+ STATE_186_GREEK: "Pelopónnisos"
+ STATE_186_TURKISH: "Mora Yarımadası"
+ 
+ STATE_187: "Ägäische Inseln"
+ STATE_187_RENAME: "[187.Controller.GetStateName_187]"
+ STATE_187_GREEK: "Nisiá Aigaíou"
+ STATE_187_TURKISH: "Ege Adalari"
+ 
+ STATE_188: "Memel"
+ STATE_188_RENAME: "[188.Controller.GetStateName_188]"
+ STATE_188_LITHUANIAN: "Klaipėda"
+ STATE_188_POLISH: "Kłajpeda"
+ 
+ STATE_189: "Samogitien"
+ STATE_189_RENAME: "[189.Controller.GetStateName_189]"
+ STATE_189_GERMAN: "Samogitien"
+ STATE_189_LITHUANIAN: "Žemaitija"
+ STATE_189_POLISH: "Żmudź"
+ STATE_189_RUSSIAN: "Zhemaitija"
+ 
+ STATE_190: "Kurland"
+ STATE_190_RENAME: "[190.Controller.GetStateName_190]"
+ STATE_190_GERMAN: "Kurland"
+ STATE_190_LATVIAN: "Kurzeme"
+ STATE_190_LITHUANIAN: "Kuršas"
+ STATE_190_RUSSIAN: "Kurlyandiya"
+ 
+ STATE_191: "Nordlivland"
+ STATE_191_RENAME: "[191.Controller.GetStateName_191]"
+ STATE_191_ESTONIAN: "Tartu"
+ STATE_191_GERMAN: "Nordlivland"
+ STATE_191_RUSSIAN: "Yuriev"
+ 
+ STATE_192: "Odessa"
+ STATE_192_RENAME: "[192.Controller.GetStateName_192]"
+ STATE_192_UKRAINIAN: "Odesa"
+ 
+ STATE_193: "Tschernigow"
+ STATE_193_RENAME: "[193.Controller.GetStateName_193]"
+ STATE_193_RUSSIAN: "Chernigov"
+ STATE_193_UKRAINIAN: "Chernihiv"
+ 
+ STATE_194: "Mozyr"
+ STATE_194_RENAME: "[194.Controller.GetStateName_194]"
+ STATE_194_BELARUSIAN: "Mazyr"
+ 
+ STATE_195: "Petrograd"
+ STATE_195_RENAME: "[195.Controller.GetStateName_195]"
+ 
+ STATE_196: "Taurida"
+ STATE_196_RENAME: "[196.Controller.GetStateName_196]"
+ STATE_196_UKRAINIAN: "Tavrida"
+ 
+ STATE_197: "Kherson"
+ STATE_197_RENAME: "[197.Controller.GetStateName_197]"
+ STATE_197_RUSSIAN: "Nikolayev"
+ 
+ STATE_198: "Winniza"
+ STATE_198_RENAME: "[198.Controller.GetStateName_198]"
+ STATE_198_UKRAINIAN: "Vinnytsia"
+ 
+ STATE_199: "Proskurow"
+ STATE_199_RENAME: "[199.Controller.GetStateName_199]"
+ STATE_199_RUSSIAN: "Proskurov"
+ 
+ STATE_200: "Alexandrowsk"
+ STATE_200_RENAME: "[200.Controller.GetStateName_200]"
+ STATE_200_RUSSIAN: "Aleksandrovsk"
+ STATE_200_UKRAINIAN: "Oleksandrivske"
+ STATE_200_ZAPORIZHZHIA: "Zaporizhzhia"
+ 
+ STATE_201: "Zhitomir"
+ STATE_201_RENAME: "[201.Controller.GetStateName_201]"
+ STATE_201_UKRAINIAN: "Zhytomyr"
+ 
+ STATE_202: "Kiew"
+ STATE_202_RENAME: "[202.Controller.GetStateName_202]"
+ STATE_202_RUSSIAN: "Kiyev"
+ STATE_202_UKRAINIAN: "Kyiv"
+ 
+ STATE_203: "Tscherkassy"
+ STATE_203_RENAME: "[203.Controller.GetStateName_203]"
+ STATE_203_RUSSIAN: "Cherkassy"
+ 
+ STATE_204: "Nowogrudok"
+ STATE_204_RENAME: "[204.Controller.GetStateName_204]"
+ STATE_204_BELARUSIAN: "Navahradak"
+ STATE_204_LITHUANIAN: "Naugardukas"
+ STATE_204_POLISH: "Nowogródek"
+ 
+ STATE_205: "Kaluga"
+ STATE_205_RENAME: "[205.Controller.GetStateName_205]"
+ 
+ STATE_206: "Minsk"
+ STATE_206_RENAME: "[206.Controller.GetStateName_206]"
+ STATE_206_BELARUSIAN: "Miensk"
+ 
+ STATE_207: "Braslaw"
+ STATE_207_RENAME: "[207.Controller.GetStateName_207]"
+ STATE_207_BELARUSIAN: "Brasłaŭ"
+ STATE_207_LITHUANIAN: "Breslauja"
+ STATE_207_POLISH: "Brasław"
+ 
+ STATE_208: "Luga"
+ STATE_208_RENAME: "[208.Controller.GetStateName_208]"
+ 
+ STATE_209: "Pskow"
+ STATE_209_RENAME: "[209.Controller.GetStateName_209]"
+ 
+ STATE_210: "Welikije Luki"
+ STATE_210_RENAME: "[210.Controller.GetStateName_210]"
+ 
+ STATE_211: "Burgas"
+ STATE_211_RENAME: "[211.Controller.GetStateName_211]"
+ 
+ STATE_212: "Plovdiv"
+ STATE_212_RENAME: "[212.Controller.GetStateName_212]"
+ 
+ STATE_213: "Murmansk"
+ STATE_213_RENAME: "[213.Controller.GetStateName_213]"
+ STATE_213_FINNISH: "Muurmanni"
+ 
+ STATE_214: "Archangelsk"
+ STATE_214_RENAME: "[214.Controller.GetStateName_214]"
+ STATE_214_RUSSIAN: "Arkhangelsk"
+ 
+ STATE_215: "Weißkarelien"
+ STATE_215_RENAME: "[215.Controller.GetStateName_215]"
+ STATE_215_FINNISH: "Vienan Karjala"
+ STATE_215_RUSSIAN: "Belaya Kareliya"
+ 
+ STATE_216: "Petrosawodsk"
+ STATE_216_RENAME: "[216.Controller.GetStateName_216]"
+ STATE_216_FINNISH: "Aunuksen Karjala"
+ 
+ STATE_217: "Zarizyn"
+ STATE_217_RENAME: "[217.Controller.GetStateName_217]"
+ 
+ STATE_218: "Rostow"
+ STATE_218_RENAME: "[218.Controller.GetStateName_218]"
+ STATE_218_UKRAINIAN: "Rostiv"
+ 
+ STATE_219: "Moskau"
+ STATE_219_RENAME: "[219.Controller.GetStateName_219]"
+ STATE_219_RUSSIAN: "Moskva"
+ 
+ STATE_220: "Kursk"
+ STATE_220_RENAME: "[220.Controller.GetStateName_220]"
+ STATE_220_UKRAINIAN: "Kurske"
+ 
+ STATE_221: "Charkow"
+ STATE_221_RENAME: "[221.Controller.GetStateName_221]"
+ STATE_221_RUSSIAN: "Kharkov"
+ 
+ STATE_222: "Orel"
+ STATE_222_RENAME: "[222.Controller.GetStateName_222]"
+ STATE_222_RUSSIAN: "Oryel"
+ 
+ STATE_223: "Tula"
+ STATE_223_RENAME: "[223.Controller.GetStateName_223]"
+ 
+ STATE_224: "Brjansk"
+ STATE_224_RENAME: "[224.Controller.GetStateName_224]"
+ 
+ STATE_225: "Sumy"
+ STATE_225_RENAME: "[225.Controller.GetStateName_225]"
+ 
+ STATE_226: "Jekaterinoslaw"
+ STATE_226_RENAME: "[226.Controller.GetStateName_226]"
+ STATE_226_RUSSIAN: "Yekaterinoslav"
+ STATE_226_SICHESLAV: "Sicheslav"
+ STATE_226_UKRAINIAN: "Katerynoslav"
+ 
+ STATE_227: "Jussowka"
+ STATE_227_RENAME: "[227.Controller.GetStateName_227]"
+ STATE_227_DONETSKE: "Donetske"
+ STATE_227_RUSSIAN: "Yuzovo"
+ 
+ STATE_228: "Starobjelsk"
+ STATE_228_RENAME: "[228.Controller.GetStateName_228]"
+ STATE_228_RUSSIAN: "Starobelsk"
+ STATE_228_UKRAINIAN: "Starobilske"
+ 
+ STATE_229: "Aserbaidschan"
+ STATE_229_RENAME: "[229.Controller.GetStateName_229]"
+ STATE_229_AZERBAIJANI: "Azerbaycan"
+ STATE_229_PERSIAN: "Āzarbāijān"
+ STATE_229_RUSSIAN: "Azerbaydzhan"
+ 
+ STATE_230: "Eriwan"
+ STATE_230_RENAME: "[230.Controller.GetStateName_230]"
+ STATE_230_PERSIAN: "Īravān"
+ STATE_230_RUSSIAN: "Erevan"
+ STATE_230_TURKISH: "Revan"
+ 
+ STATE_231: "Georgien"
+ STATE_231_RENAME: "[231.Controller.GetStateName_231]"
+ STATE_231_GEORGIAN: "Sakartvelo"
+ STATE_231_RUSSIAN: "Gruziya"
+ STATE_231_TURKISH: "Gürcistan"
+ 
+ STATE_232: "Dagestan"
+ STATE_232_RENAME: "[232.Controller.GetStateName_232]"
+ STATE_232_KUMYK: "Dagıstan"
+ 
+ STATE_233: "Wladikawkas"
+ STATE_233_RENAME: "[233.Controller.GetStateName_233]"
+ STATE_233_OSSETIAN: "Dzæwdžyqæw"
+ 
+ STATE_234: "Jekaterinodar"
+ STATE_234_RENAME: "[234.Controller.GetStateName_234]"
+ STATE_234_RUSSIAN: "Yekaterinodar"
+  STATE_234_UKRAINIAN: "Katerynodar"
+  
+ STATE_235: "Stawropol"
+ STATE_235_RENAME: "[235.Controller.GetStateName_235]"
+ 
+ STATE_236: "Astrachan"
+ STATE_236_RENAME: "[236.Controller.GetStateName_236]"
+ STATE_236_KAZAKH: "Qarakol"
+ 
+ STATE_237: "Elista"
+ STATE_237_RENAME: "[237.Controller.GetStateName_237]"
+ 
+ STATE_238: "Zimljansk"
+ STATE_238_RENAME: "[238.Controller.GetStateName_238]"
+ 
+ STATE_239: "Saratow"
+ STATE_239_RENAME: "[239.Controller.GetStateName_239]"
+ 
+ STATE_240: "Belgorod"
+ STATE_240_RENAME: "[240.Controller.GetStateName_240]"
+ STATE_240_UKRAINIAN: "Bilhorod"
+ 
+ STATE_241: "Gomel"
+ STATE_241_RENAME: "[241.Controller.GetStateName_241]"
+ STATE_241_BELARUSIAN: "Homiel"
+ STATE_241_RUSSIAN: "Gomel"
+ 
+ STATE_242: "Smolensk"
+ STATE_242_RENAME: "[242.Controller.GetStateName_242]"
+ STATE_242_BELARUSIAN: "Smaliensk"
+ 
+ STATE_243: "Krichev"
+ STATE_243_RENAME: "[243.Controller.GetStateName_243]"
+ STATE_243_BELARUSIAN: "Kryčaŭ"
+ 
+ STATE_244: "Volkhov"
+ STATE_244_RENAME: "[244.Controller.GetStateName_244]"
+ 
+ STATE_245: "Millerovo"
+ STATE_245_RENAME: "[245.Controller.GetStateName_245]"
+ STATE_245_UKRAINIAN: "Millerove"
+ 
+ STATE_246: "Rzhev"
+ STATE_246_RENAME: "[246.Controller.GetStateName_246]"
+ 
+ STATE_247: "Tver"
+ STATE_247_RENAME: "[247.Controller.GetStateName_247]"
+ 
+ STATE_248: "Jaroslawl"
+ STATE_248_RENAME: "[248.Controller.GetStateName_248]"
+ 
+ STATE_249: "Kasan"
+ STATE_249_RENAME: "[249.Controller.GetStateName_249]"
+ 
+ STATE_250: "Simbirsk"
+ STATE_250_RENAME: "[250.Controller.GetStateName_250]"
+ 
+ STATE_251: "Samara"
+ STATE_251_RENAME: "[251.Controller.GetStateName_251]"
+ 
+ STATE_252: "Nischni Nowgorod"
+ STATE_252_RENAME: "[252.Controller.GetStateName_252]"
+ 
+ STATE_253: "Wladimir"
+ STATE_253_RENAME: "[253.Controller.GetStateName_253]"
+ 
+ STATE_254: "Rjasan"
+ STATE_254_RENAME: "[254.Controller.GetStateName_254]"
+ 
+ STATE_255: "Penza"
+ STATE_255_RENAME: "[255.Controller.GetStateName_255]"
+ 
+ STATE_256: "Tscheboksary"
+ STATE_256_RENAME: "[256.Controller.GetStateName_256]"
+ 
+ STATE_257: "Tambow"
+ STATE_257_RENAME: "[257.Controller.GetStateName_257]"
+ 
+ STATE_258: "Lipezk"
+ STATE_258_RENAME: "[258.Controller.GetStateName_258]"
+ 
+ STATE_259: "Poltawa"
+ STATE_259_RENAME: "[259.Controller.GetStateName_259]"
+ 
+ STATE_260: "Woronesch"
+ STATE_260_RENAME: "[260.Controller.GetStateName_260]"
+ STATE_260_UKRAINIAN: "Voronizh"
+ 
+ STATE_261: "Ohio"
+ STATE_261_RENAME: "[261.Controller.GetStateName_261]"
+ 
+ STATE_262: "Pechora"
+ STATE_262_RENAME: "[262.Controller.GetStateName_262]"
+ 
+ STATE_263: "Nowgorod"
+ STATE_263_RENAME: "[263.Controller.GetStateName_263]"
+ 
+ STATE_264: "Tichwin"
+ STATE_264_RENAME: "[264.Controller.GetStateName_264]"
+ 
+ STATE_265: "Kamyshin"
+ STATE_265_RENAME: "[265.Controller.GetStateName_265]"
+ 
+ STATE_266: "Teheran"
+ STATE_266_RENAME: "[266.Controller.GetStateName_266]"
+ STATE_266_PERSIAN: "Tehrān"
+ 
+ STATE_267: "Kabul"
+ STATE_267_RENAME: "[267.Controller.GetStateName_267]"
+ STATE_267_AFGHAN: "Kābel"
+ 
+ STATE_268: "Dschibuti"
+ STATE_268_RENAME: "[268.Controller.GetStateName_268]"
+ STATE_268_AMHARIC: "Jibutī"
+ STATE_268_GERMAN: "Dschibuti"
+ STATE_268_ITALIAN: "Gibuti"
+ STATE_268_SOMALI: "Jabuuti"
+ 
+ STATE_269: "Hargeisa"
+ STATE_269_RENAME: "[269.Controller.GetStateName_269]"
+ STATE_269_SOMALI: "Hargeysa"
+ 
+ STATE_270: "Osterinsel"
+ STATE_270_RENAME: "[270.Controller.GetStateName_270]"
+ STATE_270_SPANISH: "Isla de Pascua"
+ 
+ STATE_271: "Shewa"
+ STATE_271_RENAME: "[271.Controller.GetStateName_271]"
+ STATE_271_ITALIAN: "Scioa"
+ 
+ STATE_272: "Senegal"
+ STATE_272_RENAME: "[272.Controller.GetStateName_272]"
+ STATE_272_FRENCH: "Sénégal"
+ 
+ STATE_273: "Fezzan"
+ STATE_273_RENAME: "[273.Controller.GetStateName_273]"
+ STATE_273_ARABIC: "Fazzān"
+ STATE_273_TURKISH: "Fizan"
+ 
+ STATE_274: "Goldküste"
+ STATE_274_RENAME: "[274.Controller.GetStateName_274]"
+ STATE_274_FRENCH: "Côte-de-l'Or"
+ STATE_274_GERMAN: "Goldküste"
+ 
+ STATE_275: "Transvaal"
+ STATE_275_RENAME: "[275.Controller.GetStateName_275]"
+ 
+ STATE_276: "Südliches Ontario"
+ STATE_276_RENAME: "[276.Controller.GetStateName_276]"
+ 
+ STATE_277: "Mexiko"
+ STATE_277_RENAME: "[277.Controller.GetStateName_277]"
+ STATE_277_SPANISH: "México"
+ 
+ STATE_278: "Buenos Aires"
+ STATE_278_RENAME: "[278.Controller.GetStateName_278]"
+ 
+ STATE_279: "Santiago"
+ STATE_279_RENAME: "[279.Controller.GetStateName_279]"
+ 
+ STATE_280: "Mato Grosso"
+ STATE_280_RENAME: "[280.Controller.GetStateName_280]"
+ 
+ STATE_281: "Malediven"
+ STATE_281_RENAME: "[281.Controller.GetStateName_281]"
+ STATE_281_GERMAN: "Malediven"
+ STATE_281_JAPANESE: "Marudibu Shōtō"
+ 
+ STATE_282: "Tokyo"
+ STATE_282_RENAME: "[282.Controller.GetStateName_282]"
+ STATE_282_JAPANESE: "Tōkyō"
+ 
+ STATE_283: "Lanzhou"
+ STATE_283_RENAME: "[283.Controller.GetStateName_283]"
+ 
+ STATE_284: "Nordinsel"
+ STATE_284_RENAME: "[284.Controller.GetStateName_284]"
+ 
+ STATE_285: "Neusüdwales"
+ STATE_285_RENAME: "[285.Controller.GetStateName_285]"
+ 
+ STATE_286: "Cochinchina"
+ STATE_286_RENAME: "[286.Controller.GetStateName_286]"
+ STATE_286_CAMBODIAN: "Prey Nokor"
+ STATE_286_THAI: "Prainakhon"
+ STATE_286_VIETNAMESE: "Sài Gòn"
+ 
+ STATE_287: "Hotan"
+ STATE_287_RENAME: "[287.Controller.GetStateName_287]"
+ STATE_287_CHINESE: "Hetian"
+ STATE_287_MONGOLIAN: "Bayingol"
+ 
+ STATE_288: "Rangun"
+ STATE_288_RENAME: "[288.Controller.GetStateName_288]"
+ STATE_288_BURMESE: "Yankoun"
+ 
+ STATE_289: "Siam"
+ STATE_289_RENAME: "[289.Controller.GetStateName_289]"
+ STATE_289_THAI: "Park Glarng"
+ 
+ STATE_290: "Das Rif"
+ STATE_290_RENAME: "[290.Controller.GetStateName_290]"
+ STATE_290_ARABIC: "Ar Rīf"
+ STATE_290_FRENCH: "Le Rif"
+ STATE_290_SPANISH: "El Rif"
+ 
+ STATE_291: "Bagdad"
+ STATE_291_ARABIC: "Baghdad"
+ STATE_291_ARABIC: "Baghdād"
+ STATE_291_SYRIAC: "Bagdad"
+ STATE_291_RENAME: "[291.Controller.GetStateName_291]"
+ 
+ STATE_292: "Jabal Tuwaiq"
+ STATE_292_RENAME: "[292.Controller.GetStateName_292]"
+ STATE_292_ARABIC: "Jabal Tuwayq"
+ STATE_292_TURKISH: "Cebel Tuvayk"
+ 
+ STATE_293: "Jemen"
+ STATE_293_RENAME: "[293.Controller.GetStateName_293]"
+ STATE_293_ARABIC: "Al Yaman"
+ 
+ STATE_294: "Maskat"
+ STATE_294_RENAME: "[294.Controller.GetStateName_294]"
+ STATE_294_ARABIC: "Masqat"
+ STATE_294_TURKISH: "Maskat"
+ 
+ STATE_295: "Leopoldville"
+ STATE_295_RENAME: "[295.Controller.GetStateName_295]"
+ STATE_295_FRENCH: "Léopoldville"
+ STATE_295_PORTUGUESE: "Porto Afonso"
+ 
+ STATE_296: "Bolama"
+ STATE_296_RENAME: "[296.Controller.GetStateName_296]"
+ 
+ STATE_297: "Rio Muni"
+ STATE_297_RENAME: "[297.Controller.GetStateName_297]"
+ 
+ STATE_298: "Pfefferküste"
+ STATE_298_RENAME: "[298.Controller.GetStateName_298]"
+ STATE_298_FRENCH: "Libéria"
+ STATE_298_GERMAN: "Pfefferküste"
+ 
+ STATE_299: "Falkland-Inseln"
+ STATE_299_RENAME: "[299.Controller.GetStateName_299]"
+ STATE_299_SPANISH: "Islas Malvinas"
+ 
+ STATE_300: "Uruguay"
+ STATE_300_RENAME: "[300.Controller.GetStateName_300]"
+ STATE_300_CISPLATINA: "Cisplatina"
+ STATE_300_PORTUGUESE: "Uruguai"
+ 
+ STATE_301: "Paraguay"
+ STATE_301_RENAME: "[301.Controller.GetStateName_301]"
+ STATE_301_PORTUGUESE: "Paraguai"
+ 
+ STATE_302: "La Paz"
+ STATE_302_RENAME: "[302.Controller.GetStateName_302]"
+ STATE_302_AYMARA: "Chuqi Yapu"
+ 
+ STATE_303: "Lima"
+ STATE_303_RENAME: "[303.Controller.GetStateName_303]"
+ 
+ STATE_304: "Panama"
+ STATE_304_RENAME: "[304.Controller.GetStateName_304]"
+ STATE_304_SPANISH: "Panamá"
+ 
+ STATE_305: "Quito"
+ STATE_305_RENAME: "[305.Controller.GetStateName_305]"
+ STATE_305_QUECHUA: "Kitu"
+ 
+ STATE_306: "Cundinamarca"
+ STATE_306_RENAME: "[306.Controller.GetStateName_306]"
+ 
+ STATE_307: "Llanos"
+ STATE_307_RENAME: "[307.Controller.GetStateName_307]"
+ 
+ STATE_308: "Leeward-Inseln"
+ STATE_308_RENAME: "[308.Controller.GetStateName_308]"
+ 
+ STATE_309: "Paramaribo"
+ STATE_309_RENAME: "[309.Controller.GetStateName_309]"
+ 
+ STATE_310: "Cayenne"
+ STATE_310_RENAME: "[310.Controller.GetStateName_310]"
+ STATE_310_PORTUGUESE: "Caiena"
+ 
+ STATE_311: "Belize"
+ STATE_311_RENAME: "[311.Controller.GetStateName_311]"
+ 
+ STATE_312: "Honduras"
+ STATE_312_RENAME: "[312.Controller.GetStateName_312]"
+ 
+ STATE_313: "Guatemala"
+ STATE_313_RENAME: "[313.Controller.GetStateName_313]"
+ 
+ STATE_314: "El Salvador"
+ STATE_314_RENAME: "[314.Controller.GetStateName_314]"
+ 
+ STATE_315: "Havanna"
+ STATE_315_RENAME: "[315.Controller.GetStateName_315]"
+ STATE_315_SPANISH: "La Habana"
+ 
+ STATE_316: "Costa Rica"
+ STATE_316_RENAME: "[316.Controller.GetStateName_316]"
+ 
+ STATE_317: "Managua"
+ STATE_317_RENAME: "[317.Controller.GetStateName_317]"
+ 
+ STATE_318: "Haiti"
+ STATE_318_RENAME: "[318.Controller.GetStateName_318]"
+ STATE_318_SPANISH: "Haïti"
+ 
+ STATE_319: "Santo Domingo"
+ STATE_319_RENAME: "[319.Controller.GetStateName_319]"
+ 
+ STATE_320: "Madras"
+ STATE_320_RENAME: "[320.Controller.GetStateName_320]"
+ 
+ STATE_321: "Goa"
+ STATE_321_RENAME: "[321.Controller.GetStateName_321]"
+ 
+ STATE_322: "Tibet"
+ STATE_322_RENAME: "[322.Controller.GetStateName_322]"
+ STATE_322_CHINESE: "Xizang"
+ STATE_322_TIBETAN: "U-Tsang"
+ 
+ STATE_323: "Nepal"
+ STATE_323_RENAME: "[323.Controller.GetStateName_323]"
+ STATE_323_NEPAL: "Nēpāla"
+ 
+ STATE_324: "Bhutan"
+ STATE_324_RENAME: "[324.Controller.GetStateName_324]"
+ STATE_324_BHUTAN: "Druk Yul"
+ STATE_324_CHINESE: "Budan"
+ STATE_324_TIBETAN: "Zhugyul"
+ 
+ STATE_325: "Kunming"
+ STATE_325_RENAME: "[325.Controller.GetStateName_325]"
+ 
+ STATE_326: "Hongkong"
+ STATE_326_RENAME: "[326.Controller.GetStateName_326]"
+ 
+ STATE_327: "Mittelluzon"
+ STATE_327_RENAME: "[327.Controller.GetStateName_327]"
+ STATE_327_DUTCH: "Midden-Luzon"
+ STATE_327_FILIPINO: "Gitnang Luzon"
+ STATE_327_GERMAN: "Mittelluzon"
+ STATE_327_INDONESIAN: "Luzon Tengah"
+ STATE_327_SPANISH: "Luzón Central"
+ 
+ STATE_328: "Andong"
+ STATE_328_RENAME: "[328.Controller.GetStateName_328]"
+ STATE_328_JAPANESE: "Antō"
+ STATE_328_RUSSIAN: "Andun"
+ 
+ STATE_329: "Tuva"
+ STATE_329_RENAME: "[329.Controller.GetStateName_329]"
+ STATE_329_RUSSIAN: "Uryankhay"
+ 
+ STATE_330: "Mongolei"
+ STATE_330_RENAME: "[330.Controller.GetStateName_330]"
+ STATE_330_CHINESE: "Wai Menggu"
+ STATE_330_MONGOLIAN: "Mongol"
+ STATE_330_RUSSIAN: "Mongoliya"
+ 
+ STATE_331: "Neufundland"
+ STATE_331_RENAME: "[331.Controller.GetStateName_331]"
+ 
+ STATE_332: "Ungava"
+ STATE_332_RENAME: "[332.Controller.GetStateName_332]"
+ 
+ STATE_333: "Nordborneo"
+ STATE_333_RENAME: "[333.Controller.GetStateName_333]"
+ STATE_333_DUTCH: "Noord-Kalimantan"
+ STATE_333_GERMAN: "Nordborneo"
+ STATE_333_INDONESIAN: "Sarawak"
+ 
+ STATE_334: "Westborneo"
+ STATE_334_RENAME: "[334.Controller.GetStateName_334]"
+ STATE_334_DUTCH: "West-Borneo"
+ STATE_334_GERMAN: "Westborneo"
+ STATE_334_INDONESIAN: "Kalimantan Barat"
+ 
+ STATE_335: "Java"
+ STATE_335_RENAME: "[335.Controller.GetStateName_335]"
+ STATE_335_DUTCH: "West- & Midden-Java"
+ STATE_335_GERMAN: "Java"
+ STATE_335_INDONESIAN: "Jawa"
+ 
+ STATE_336: "Singapur"
+ STATE_336_RENAME: "[336.Controller.GetStateName_336]"
+ STATE_336_GERMAN: "Singapur"
+ STATE_336_INDONESIAN: "Singapura"
+ STATE_336_JAPANESE: "Shōnan-tō"
+ STATE_336_THAI: "Singhanakhon"
+ 
+ STATE_337: "Färöer-Inseln"
+ STATE_337_RENAME: "[337.Controller.GetStateName_337]"
+ STATE_337_DANISH: "Færøerne"
+ STATE_337_NORWEGIAN: "Færøyene"
+ 
+ STATE_338: "Gloucestershire"
+ STATE_338_RENAME: "[338.Controller.GetStateName_338]"
+ 
+ STATE_339: "Smyrna"
+ STATE_339_RENAME: "[339.Controller.GetStateName_339]"
+ STATE_339_GREEK: "Smýrna"
+ STATE_339_TURKISH: "Izmir"
+ 
+ STATE_340: "Bursa"
+ STATE_340_RENAME: "[340.Controller.GetStateName_340]"
+ STATE_340_GREEK: "Proúsa"
+ STATE_340_RUSSIAN: "Prusa"
+ 
+ STATE_341: "Adrianopel"
+ STATE_341_RENAME: "[341.Controller.GetStateName_341]"
+ STATE_341_BULGARIAN: "Odrin"
+ STATE_341_GREEK: "Anatolikí Thráki"
+ STATE_341_RUSSIAN: "Adrianopol"
+ STATE_341_TURKISH: "Edirne"
+ 
+ STATE_342: "Mugla"
+ STATE_342_RENAME: "[342.Controller.GetStateName_342]"
+ STATE_342_GREEK: "Marmarís"
+ 
+ STATE_343: "Afyon"
+ STATE_343_RENAME: "[343.Controller.GetStateName_343]"
+ STATE_343_GREEK: "Dorýlaion"
+ 
+ STATE_344: "Adana"
+ STATE_344_RENAME: "[344.Controller.GetStateName_344]"
+ STATE_344_GREEK: "Ádana"
+ 
+ STATE_345: "Sivas"
+ STATE_345_RENAME: "[345.Controller.GetStateName_345]"
+ STATE_345_GREEK: "Sevásteia"
+ STATE_345_KURDISH: "Sêwas"
+ 
+ STATE_346: "Konya"
+ STATE_346_RENAME: "[346.Controller.GetStateName_346]"
+ STATE_346_GREEK: "Ikónion"
+ 
+ STATE_347: "Khasab"
+ STATE_347_RENAME: "[347.Controller.GetStateName_347]"
+ STATE_347_ARABIC: "Hasab"
+ 
+ STATE_348: "Ningxia"
+ STATE_348_RENAME: "[348.Controller.GetStateName_348]"
+ 
+ STATE_349: "Kirkuk"
+ STATE_349_RENAME: "[349.Controller.GetStateName_349]"
+ STATE_349_ARABIC: "Karkūk"
+ STATE_349_KURDISH: "Kerkûk"
+ STATE_349_PERSIAN: "Kerkūk"
+ STATE_349_SYRIAC: "Beth Garmaï"
+ STATE_349_TURKISH: "Kerkük"
+ 
+ STATE_350: "Diyarbakir"
+ STATE_350_RENAME: "[350.Controller.GetStateName_350]"
+ STATE_350_ARABIC: "Diyār Bakr"
+ STATE_350_GREEK: "Ámida"
+ STATE_350_KURDISH: "Amed"
+ STATE_350_PERSIAN: "Dyārbakar"
+ STATE_350_SYRIAC: "Āmīd"
+ 
+ STATE_351: "Vologda"
+ STATE_351_RENAME: "[351.Controller.GetStateName_351]"
+ 
+ STATE_352: "Van"
+ STATE_352_RENAME: "[352.Controller.GetStateName_352]"
+ STATE_352_KURDISH: "Wan"
+ STATE_352_PERSIAN: "Vān"
+ 
+ STATE_353: "Yushu"
+ STATE_353_RENAME: "[353.Controller.GetStateName_353]"
+ STATE_353_TIBETAN: "Amdo"
+ 
+ STATE_354: "Erzurum"
+ STATE_354_RENAME: "[354.Controller.GetStateName_354]"
+ STATE_354_GREEK: "Karín"
+ STATE_354_KURDISH: "Erzîrom"
+ 
+ STATE_355: "Trebizond"
+ STATE_355_RENAME: "[355.Controller.GetStateName_355]"
+ STATE_355_GREEK: "Póntos"
+ STATE_355_TURKISH: "Samsun"
+ 
+ STATE_356: "Kastamonu"
+ STATE_356_RENAME: "[356.Controller.GetStateName_356]"
+ STATE_356_GREEK: "Ámastris"
+ 
+ STATE_357: "Maine"
+ STATE_357_RENAME: "[357.Controller.GetStateName_357]"
+ 
+ STATE_358: "New York City"
+ STATE_358_RENAME: "[358.Controller.GetStateName_358]"
+ 
+ STATE_359: "New Jersey"
+ STATE_359_RENAME: "[359.Controller.GetStateName_359]"
+ 
+ STATE_360: "Philadelphia"
+ STATE_360_RENAME: "[360.Controller.GetStateName_360]"
+ 
+ STATE_361: "Maryland"
+ STATE_361_RENAME: "[361.Controller.GetStateName_361]"
+ 
+ STATE_362: "Virginia"
+ STATE_362_RENAME: "[362.Controller.GetStateName_362]"
+ 
+ STATE_363: "North Carolina"
+ STATE_363_RENAME: "[363.Controller.GetStateName_363]"
+ 
+ STATE_364: "South Carolina"
+ STATE_364_RENAME: "[364.Controller.GetStateName_364]"
+ 
+ STATE_365: "Georgia"
+ STATE_365_RENAME: "[365.Controller.GetStateName_365]"
+ 
+ STATE_366: "Florida"
+ STATE_366_RENAME: "[366.Controller.GetStateName_366]"
+ 
+ STATE_367: "Alabama"
+ STATE_367_RENAME: "[367.Controller.GetStateName_367]"
+ 
+ STATE_368: "Tennessee"
+ STATE_368_RENAME: "[368.Controller.GetStateName_368]"
+ 
+ STATE_369: "Kentucky"
+ STATE_369_RENAME: "[369.Controller.GetStateName_369]"
+ 
+ STATE_370: "Mississippi"
+ STATE_370_RENAME: "[370.Controller.GetStateName_370]"
+ 
+ STATE_371: "New Orleans"
+ STATE_371_RENAME: "[371.Controller.GetStateName_371]"
+ 
+ STATE_372: "Arkansas"
+ STATE_372_RENAME: "[372.Controller.GetStateName_372]"
+ 
+ STATE_373: "Missouri"
+ STATE_373_RENAME: "[373.Controller.GetStateName_373]"
+ 
+ STATE_374: "Oklahoma"
+ STATE_374_RENAME: "[374.Controller.GetStateName_374]"
+ 
+ STATE_375: "Nord-Texas"
+ STATE_375_RENAME: "[375.Controller.GetStateName_375]"
+ STATE_375_SPANISH: "Norte de Tejas"
+ 
+ STATE_376: "Neu-Mexiko"
+ STATE_376_RENAME: "[376.Controller.GetStateName_376]"
+ STATE_376_SPANISH: "Nuevo México"
+ 
+ STATE_377: "Arizona"
+ STATE_377_RENAME: "[377.Controller.GetStateName_377]"
+ 
+ STATE_378: "Nordkalifornien"
+ STATE_378_RENAME: "[378.Controller.GetStateName_378]"
+ STATE_378_SPANISH: "Alta California"
+ 
+ STATE_379: "Nevada"
+ STATE_379_RENAME: "[379.Controller.GetStateName_379]"
+ 
+ STATE_380: "Utah"
+ STATE_380_RENAME: "[380.Controller.GetStateName_380]"
+ 
+ STATE_381: "Wyoming"
+ STATE_381_RENAME: "[381.Controller.GetStateName_381]"
+ 
+ STATE_382: "Colorado"
+ STATE_382_RENAME: "[382.Controller.GetStateName_382]"
+ 
+ STATE_383: "Kansas"
+ STATE_383_RENAME: "[383.Controller.GetStateName_383]"
+ 
+ STATE_384: "Nebraska"
+ STATE_384_RENAME: "[384.Controller.GetStateName_384]"
+ 
+ STATE_385: "Oregon"
+ STATE_385_RENAME: "[385.Controller.GetStateName_385]"
+ 
+ STATE_386: "Washington"
+ STATE_386_RENAME: "[386.Controller.GetStateName_386]"
+ 
+ STATE_387: "Idaho"
+ STATE_387_RENAME: "[387.Controller.GetStateName_387]"
+ 
+ STATE_388: "Montana"
+ STATE_388_RENAME: "[388.Controller.GetStateName_388]"
+ 
+ STATE_389: "North Dakota"
+ STATE_389_RENAME: "[389.Controller.GetStateName_389]"
+ 
+ STATE_390: "South Dakota"
+ STATE_390_RENAME: "[390.Controller.GetStateName_390]"
+ 
+ STATE_391: "Minnesota"
+ STATE_391_RENAME: "[391.Controller.GetStateName_391]"
+ 
+ STATE_392: "Iowa"
+ STATE_392_RENAME: "[392.Controller.GetStateName_392]"
+ 
+ STATE_393: "Michigan"
+ STATE_393_RENAME: "[393.Controller.GetStateName_393]"
+ 
+ STATE_394: "Wisconsin"
+ STATE_394_RENAME: "[394.Controller.GetStateName_394]"
+ 
+ STATE_395: "Illinois"
+ STATE_395_RENAME: "[395.Controller.GetStateName_395]"
+ 
+ STATE_396: "Indiana"
+ STATE_396_RENAME: "[396.Controller.GetStateName_396]"
+ 
+ STATE_397: "Ust-Sysolsk"
+ STATE_397_RENAME: "[397.Controller.GetStateName_397]"
+ 
+ STATE_398: "Perm"
+ STATE_398_RENAME: "[398.Controller.GetStateName_398]"
+ 
+ STATE_399: "Izhevsk"
+ STATE_399_RENAME: "[399.Controller.GetStateName_399]"
+ 
+ STATE_400: "Wjatka"
+ STATE_400_RENAME: "[400.Controller.GetStateName_400]"
+ 
+ STATE_401: "Pokrowsk"
+ STATE_401_RENAME: "[401.Controller.GetStateName_401]"
+ 
+ STATE_402: "Turgai"
+ STATE_402_RENAME: "[402.Controller.GetStateName_402]"
+ 
+ STATE_403: "Tjumen"
+ STATE_403_RENAME: "[403.Controller.GetStateName_403]"
+ 
+ STATE_404: "Karaganda"
+ STATE_404_RENAME: "[404.Controller.GetStateName_404]"
+ STATE_404_KAZAKH: "Qaraghandy"
+ STATE_404_RUSSIAN: "Kirgizkaya Step"
+ 
+ STATE_405: "Buchara"
+ STATE_405_RENAME: "[405.Controller.GetStateName_405]"
+ STATE_405_CENTRAL_ASIAN: "Bukhārā"
+ 
+ STATE_406: "Gurjew"
+ STATE_406_RENAME: "[406.Controller.GetStateName_406]"
+ STATE_406_KAZAKH: "Atyrau"
+ 
+ STATE_407: "Taschkent"
+ STATE_407_RENAME: "[407.Controller.GetStateName_407]"
+ STATE_407_CENTRAL_ASIAN: "Tāshkent"
+ 
+ STATE_408: "Wladiwostok"
+ STATE_408_RENAME: "[408.Controller.GetStateName_408]"
+ STATE_408_CHINESE: "Haishenwai"
+ STATE_408_JAPANESE: "Urajio"
+ 
+ STATE_409: "Chabarowsk"
+ STATE_409_RENAME: "[409.Controller.GetStateName_409]"
+ STATE_409_CHINESE: "Boli"
+ STATE_409_JAPANESE: "Habarofusuku"
+ 
+ STATE_410: "Sistan"
+ STATE_410_RENAME: "[410.Controller.GetStateName_410]"
+ STATE_410_PERSIAN: "Sistān"
+ 
+ STATE_411: "Isfahan"
+ STATE_411_RENAME: "[411.Controller.GetStateName_411]"
+ STATE_411_PERSIAN: "Esfahān"
+ 
+ STATE_412: "Fars"
+ STATE_412_RENAME: "[412.Controller.GetStateName_412]"
+ STATE_412_PERSIAN: "Fārs"
+ STATE_412_SYRIAC: "Beth Pārsaye"
+ 
+ STATE_413: "Khuzestan"
+ STATE_413_RENAME: "[413.Controller.GetStateName_413]"
+ STATE_413_ARABIC: "Khūzistān"
+ STATE_413_PERSIAN: "Khuzestān"
+ STATE_413_SYRIAC: "Beth Huzáyé"
+ STATE_413_TURKISH: "Huzistan"
+ 
+ STATE_414: "Kerman"
+ STATE_414_RENAME: "[414.Controller.GetStateName_414]"
+ STATE_414_KURDISH: "Kirmaşan"
+ STATE_414_PERSIAN: "Kermān"
+ 
+ STATE_415: "Herat"
+ STATE_415_RENAME: "[415.Controller.GetStateName_415]"
+ STATE_415_PERSIAN: "Herāt"
+ 
+ STATE_416: "Chorasan"
+ STATE_416_RENAME: "[416.Controller.GetStateName_416]"
+ STATE_416_PERSIAN: "Khorāsān"
+ 
+ STATE_417: "Urmia"
+ STATE_417_RENAME: "[417.Controller.GetStateName_417]"
+ STATE_417_KURDISH: "Ûrmiye"
+ STATE_417_PERSIAN: "Orumiye"
+ STATE_417_SYRIAC: "Urūmiyya"
+ STATE_417_TURKISH: "Urmiye"
+ 
+ STATE_418: "Aschgabat"
+ STATE_418_RENAME: "[418.Controller.GetStateName_418]"
+ STATE_418_PERSIAN: "Eshqābād"
+ 
+ STATE_419: "Tabriz"
+ STATE_419_RENAME: "[419.Controller.GetStateName_419]"
+ STATE_419_RUSSIAN: "Tebriz"
+ 
+ STATE_420: "Mazanderan"
+ STATE_420_RENAME: "[420.Controller.GetStateName_420]"
+ STATE_420_PERSIAN: "Māzandarān"
+ 
+ STATE_421: "Kermanschah"
+ STATE_421_RENAME: "[421.Controller.GetStateName_421]"
+ STATE_421_PERSIAN: "Kermānshāh"
+ STATE_421_TURKISH: "Kirmanşah"
+ 
+ STATE_422: "Ceylon"
+ STATE_422_RENAME: "[422.Controller.GetStateName_422]"
+ STATE_422_INDIAN: "Lanka"
+ STATE_422_PORTUGUESE: "Ceilão"
+ 
+ STATE_423: "Madurai"
+ STATE_423_RENAME: "[423.Controller.GetStateName_423]"
+ 
+ STATE_424: "Andhra"
+ STATE_424_RENAME: "[424.Controller.GetStateName_424]"
+ 
+ STATE_425: "Mysore"
+ STATE_425_RENAME: "[425.Controller.GetStateName_425]"
+ 
+ STATE_426: "Orissa"
+ STATE_426_RENAME: "[426.Controller.GetStateName_426]"
+ 
+ STATE_427: "Hyderabad"
+ STATE_427_RENAME: "[427.Controller.GetStateName_427]"
+ 
+ STATE_428: "Gujarat"
+ STATE_428_RENAME: "[428.Controller.GetStateName_428]"
+ 
+ STATE_429: "Bombay"
+ STATE_429_RENAME: "[429.Controller.GetStateName_429]"
+ STATE_429_INDIAN: "Mumbai"
+ 
+ STATE_430: "Ost-Bengalen"
+ STATE_430_RENAME: "[430.Controller.GetStateName_430]"
+ STATE_430_INDIAN: "Poorvee Baangaal"
+ 
+ STATE_431: "West-Bengalen"
+ STATE_431_RENAME: "[431.Controller.GetStateName_431]"
+ STATE_431_INDIAN: "Pashchim Baangaal"
+ 
+ STATE_432: "Assam"
+ STATE_432_RENAME: "[432.Controller.GetStateName_432]"
+ 
+ STATE_433: "Rajputana"
+ STATE_433_RENAME: "[433.Controller.GetStateName_433]"
+ 
+ STATE_434: "Manipur"
+ STATE_434_RENAME: "[434.Controller.GetStateName_434]"
+ 
+ STATE_435: "Bihar"
+ STATE_435_RENAME: "[435.Controller.GetStateName_435]"
+ 
+ STATE_436: "Raipur"
+ STATE_436_RENAME: "[436.Controller.GetStateName_436]"
+ 
+ STATE_437: "Zentrale Provinzen"
+ STATE_437_RENAME: "[437.Controller.GetStateName_437]"
+ STATE_437_INDIAN: "Madhy Praant"
+ 
+ STATE_438: "Awadh"
+ STATE_438_RENAME: "[438.Controller.GetStateName_438]"
+ 
+ STATE_439: "Delhi"
+ STATE_439_RENAME: "[439.Controller.GetStateName_439]"
+ 
+ STATE_440: "Ost-Punjab"
+ STATE_440_RENAME: "[440.Controller.GetStateName_440]"
+ STATE_440_INDIAN: "Poorvee Panjaab"
+ 
+ STATE_441: "Kaschmir"
+ STATE_441_RENAME: "[441.Controller.GetStateName_441]"
+ STATE_441_INDIAN: "Kashmeer"
+ 
+ STATE_442: "Peshawar"
+ STATE_442_RENAME: "[442.Controller.GetStateName_442]"
+ STATE_442_INDIAN: "Peshaavar"
+ 
+ STATE_443: "Sindh"
+ STATE_443_RENAME: "[443.Controller.GetStateName_443]"
+ STATE_443_INDIAN: "Sind"
+ 
+ STATE_444: "Belutschistan"
+ STATE_444_RENAME: "[444.Controller.GetStateName_444]"
+ STATE_444_INDIAN: "Balochistan"
+ 
+ STATE_445: "Quetta"
+ STATE_445_RENAME: "[445.Controller.GetStateName_445]"
+ STATE_445_INDIAN: "Kveta"
+ 
+ STATE_446: "Kairo"
+ STATE_446_RENAME: "[446.Controller.GetStateName_446]"
+ STATE_446_ARABIC: "Al Qāhirah"
+ STATE_446_TURKISH: "Kahire"
+ 
+ STATE_447: "Alexandria"
+ STATE_447_RENAME: "[447.Controller.GetStateName_447]"
+ STATE_447_ARABIC: "Al Iskandarīyah"
+ STATE_447_TURKISH: "Iskenderiye"
+ 
+ STATE_448: "Tripolis"
+ STATE_448_RENAME: "[448.Controller.GetStateName_448]"
+ STATE_448_ARABIC: "Tarābulus"
+ STATE_448_ITALIAN: "Tripolitania"
+ STATE_448_TURKISH: "Trablusgarp"
+ 
+ STATE_449: "La Pampa"
+ STATE_449_RENAME: "[449.Controller.GetStateName_449]"
+ 
+ STATE_450: "Benghazi"
+ STATE_450_RENAME: "[450.Controller.GetStateName_450]"
+ STATE_450_ARABIC: "Banghāzī"
+ STATE_450_ITALIAN: "Bengasi"
+ STATE_450_TURKISH: "Bingazi"
+ 
+ STATE_451: "Ajdabiya"
+ STATE_451_RENAME: "[451.Controller.GetStateName_451]"
+ STATE_451_ARABIC: "Ajdābiyā"
+ STATE_451_ITALIAN: "Agedabia"
+ STATE_451_TURKISH: "Ecdebiye"
+ 
+ STATE_452: "Mersa Matruh"
+ STATE_452_RENAME: "[452.Controller.GetStateName_452]"
+ STATE_452_ARABIC: "Marsā Matrūh"
+ 
+ STATE_453: "Sinai"
+ STATE_453_RENAME: "[453.Controller.GetStateName_453]"
+ STATE_453_ARABIC: "Sīnā'"
+ STATE_453_TURKISH: "Sina"
+ 
+ STATE_454: "Jerusalem"
+ STATE_454_RENAME: "[454.Controller.GetStateName_454]"
+ STATE_454_ARABIC: "Al Quds"
+ STATE_454_SYRIAC: "Ūrišlem"
+ STATE_454_TURKISH: "Kudüs-i Serif"
+ 
+ STATE_455: "Transjordanien"
+ STATE_455_RENAME: "[455.Controller.GetStateName_455]"
+ STATE_455_ARABIC: "Sharq al Urdun"
+ STATE_455_SYRIAC: "'ebra d Yawrādān"
+ STATE_455_TURKISH: "Transürdün"
+ 
+ STATE_456: "Assuan"
+ STATE_456_RENAME: "[456.Controller.GetStateName_456]"
+ STATE_456_ARABIC: "Aswān"
+ STATE_456_TURKISH: "Asvan"
+ 
+ STATE_457: "Östliche Wüste"
+ STATE_457_RENAME: "[457.Controller.GetStateName_457]"
+ STATE_457_ARABIC: "Sahrā' ash Sharqīyah"
+ STATE_457_TURKISH: "Dogu Çölü"
+ 
+ STATE_458: "$VICTORY_POINTS_11969$"
+ STATE_458_RENAME: "[458.Controller.GetStateName_458]"
+ STATE_458_ARABIC: "$VICTORY_POINTS_11969_ARABIC$"
+ STATE_458_ITALIAN: "$VICTORY_POINTS_11969_ITALIAN$"
+ STATE_458_TURKISH: "$VICTORY_POINTS_11969_TURKISH$"
+ 
+ STATE_459: "$VICTORY_POINTS_1145$"
+ STATE_459_RENAME: "[459.Controller.GetStateName_459]"
+ STATE_459_ARABIC: "$VICTORY_POINTS_1145_ARABIC$"
+ STATE_459_FRENCH: "$VICTORY_POINTS_1145_FRENCH$"
+ STATE_459_TURKISH: "$VICTORY_POINTS_1145_TURKISH$"
+ 
+ STATE_460: "$VICTORY_POINTS_12051$"
+ STATE_460_RENAME: "[460.Controller.GetStateName_460]"
+ STATE_460_ARABIC: "$VICTORY_POINTS_12051_ARABIC$"
+ STATE_460_TURKISH: "$VICTORY_POINTS_12051_TURKISH$"
+ 
+ STATE_461: "$VICTORY_POINTS_7100$"
+ STATE_461_RENAME: "[461.Controller.GetStateName_461]"
+ STATE_461_ARABIC: "$VICTORY_POINTS_7100_ARABIC$"
+ 
+ STATE_462: "$VICTORY_POINTS_4108$"
+ STATE_462_RENAME: "[462.Controller.GetStateName_462]"
+ STATE_462_ARABIC: "$VICTORY_POINTS_4108_ARABIC$"
+ STATE_462_FRENCH: "$VICTORY_POINTS_4108_FRENCH$"
+ 
+ STATE_463: "Alaska"
+ STATE_463_RENAME: "[463.Controller.GetStateName_463]"
+ STATE_463_JAPANESE: "Arasuka"
+ STATE_463_RUSSIAN: "Alyaska"
+ 
+ STATE_464: "Neuschottland"
+ STATE_464_RENAME: "[464.Controller.GetStateName_464]"
+ 
+ STATE_465: "Neubraunschweig"
+ STATE_465_RENAME: "[465.Controller.GetStateName_465]"
+ 
+ STATE_466: "Saguenay"
+ STATE_466_RENAME: "[466.Controller.GetStateName_466]"
+ 
+ STATE_467: "Manitoba"
+ STATE_467_RENAME: "[467.Controller.GetStateName_467]"
+ 
+ STATE_468: "Sankt Lorenz"
+ STATE_468_RENAME: "[468.Controller.GetStateName_468]"
+ STATE_468_FRENCH: "Saint-Laurent"
+ 
+ STATE_469: "Saskatchewan"
+ STATE_469_RENAME: "[469.Controller.GetStateName_469]"
+ 
+ STATE_470: "Alberta"
+ STATE_470_RENAME: "[470.Controller.GetStateName_470]"
+ 
+ STATE_471: "Yukon"
+ STATE_471_RENAME: "[471.Controller.GetStateName_471]"
+ 
+ STATE_472: "Nunavut"
+ STATE_472_RENAME: "[472.Controller.GetStateName_472]"
+ 
+ STATE_473: "Britisch-Kolumbien"
+ STATE_473_RENAME: "[473.Controller.GetStateName_473]"
+ 
+ STATE_474: "Yucatan"
+ STATE_474_RENAME: "[474.Controller.GetStateName_474]"
+ 
+ STATE_475: "Chiapas"
+ STATE_475_RENAME: "[475.Controller.GetStateName_475]"
+ 
+ STATE_476: "Oaxaca"
+ STATE_476_RENAME: "[476.Controller.GetStateName_476]"
+ 
+ STATE_477: "Veracruz"
+ STATE_477_RENAME: "[477.Controller.GetStateName_477]"
+ 
+ STATE_478: "Jalisco"
+ STATE_478_RENAME: "[478.Controller.GetStateName_478]"
+ 
+ STATE_479: "Tamaulipas"
+ STATE_479_RENAME: "[479.Controller.GetStateName_479]"
+ 
+ STATE_480: "Coahuila"
+ STATE_480_RENAME: "[480.Controller.GetStateName_480]"
+ 
+ STATE_481: "Durango"
+ STATE_481_RENAME: "[481.Controller.GetStateName_481]"
+ 
+ STATE_482: "Chihuahua"
+ STATE_482_RENAME: "[482.Controller.GetStateName_482]"
+ 
+ STATE_483: "Sonora"
+ STATE_483_RENAME: "[483.Controller.GetStateName_483]"
+ 
+ STATE_484: "Niederkalifornien"
+ STATE_484_RENAME: "[484.Controller.GetStateName_484]"
+ STATE_484_SPANISH: "Baja California"
+ 
+ STATE_485: "Guerrero"
+ STATE_485_RENAME: "[485.Controller.GetStateName_485]"
+ 
+ STATE_486: "Meta"
+ STATE_486_RENAME: "[486.Controller.GetStateName_486]"
+ 
+ STATE_487: "Santa Cruz"
+ STATE_487_RENAME: "[487.Controller.GetStateName_487]"
+ STATE_487_AYMARA: "Santa Krus"
+ 
+ STATE_488: "Triest"
+ STATE_488_RENAME: "[488.Controller.GetStateName_488]"
+ STATE_488_GERMAN: "Triest"
+ STATE_488_SERBIAN: "Trst"
+ 
+ STATE_489: "Zulia"
+ STATE_489_RENAME: "[489.Controller.GetStateName_489]"
+ 
+ STATE_490: "Pastaza"
+ STATE_490_RENAME: "[490.Controller.GetStateName_490]"
+ STATE_490_QUECHUA: "Pastasa"
+ 
+ STATE_491: "Loreto"
+ STATE_491_RENAME: "[491.Controller.GetStateName_491]"
+ STATE_491_QUECHUA: "Luritu"
+ 
+ STATE_492: "Arequipa"
+ STATE_492_RENAME: "[492.Controller.GetStateName_492]"
+ STATE_492_QUECHUA: "Ariqipa"
+ 
+ STATE_493: "Karibik"
+ STATE_493_RENAME: "[493.Controller.GetStateName_493]"
+ 
+ STATE_494: "Cuzco"
+ STATE_494_RENAME: "[494.Controller.GetStateName_494]"
+ STATE_494_QUECHUA: "Qusqu"
+ 
+ STATE_495: "Amazonas"
+ STATE_495_RENAME: "[495.Controller.GetStateName_495]"
+ 
+ STATE_496: "Minas Gerais"
+ STATE_496_RENAME: "[496.Controller.GetStateName_496]"
+ 
+ STATE_497: "Piaui"
+ STATE_497_RENAME: "[497.Controller.GetStateName_497]"
+ 
+ STATE_498: "Nordost-Brasilien"
+ STATE_498_RENAME: "[498.Controller.GetStateName_498]"
+ STATE_498_PORTUGUESE: "Nordeste"
+ 
+ STATE_499: "Bahia"
+ STATE_499_RENAME: "[499.Controller.GetStateName_499]"
+ 
+ STATE_500: "Rio de Janeiro"
+ STATE_500_RENAME: "[500.Controller.GetStateName_500]"
+ 
+ STATE_501: "São Paulo"
+ STATE_501_RENAME: "[501.Controller.GetStateName_501]"
+ 
+ STATE_502: "Rio Grande do Sul"
+ STATE_502_RENAME: "[502.Controller.GetStateName_502]"
+ 
+ STATE_503: "Parana"
+ STATE_503_RENAME: "[503.Controller.GetStateName_503]"
+ 
+ STATE_504: "Campo Grande"(Großes Feld)
+ STATE_504_RENAME: "[504.Controller.GetStateName_504]"
+ 
+ STATE_505: "Goyaz"
+ STATE_505_RENAME: "[505.Controller.GetStateName_505]"
+ 
+ STATE_506: "Antofagasta"
+ STATE_506_RENAME: "[506.Controller.GetStateName_506]"
+ 
+ STATE_507: "Magallanes"
+ STATE_507_RENAME: "[507.Controller.GetStateName_507]"
+ 
+ STATE_508: "Tucuman"
+ STATE_508_RENAME: "[508.Controller.GetStateName_508]"
+ 
+ STATE_509: "Santiago del Estero"
+ STATE_509_RENAME: "[509.Controller.GetStateName_509]"
+ 
+ STATE_510: "Mesopotamien"
+ STATE_510_RENAME: "[510.Controller.GetStateName_510]"
+ 
+ STATE_511: "Mendoza"
+ STATE_511_RENAME: "[511.Controller.GetStateName_511]"
+ 
+ STATE_512: "Chubut"
+ STATE_512_RENAME: "[512.Controller.GetStateName_512]"
+ 
+ STATE_513: "Südalgerien"
+ STATE_513_RENAME: "[513.Controller.GetStateName_513]"
+ STATE_513_ARABIC: "Janūb al Jazā'ir"
+ STATE_513_FRENCH: "Territoires du Sud"
+ STATE_513_TURKISH: "Güney Bölgeleri"
+ 
+ STATE_514: "Sahara"
+ STATE_514_RENAME: "[514.Controller.GetStateName_514]"
+ STATE_514_ARABIC: "As Sahrā'"
+ STATE_514_TURKISH: "Sahra"
+ 
+ STATE_515: "Tschad"
+ STATE_515_RENAME: "[515.Controller.GetStateName_515]"
+ STATE_515_FRENCH: "Tchad"
+ 
+ STATE_516: "Taymyr"
+ STATE_516_RENAME: "[516.Controller.GetStateName_516]"
+ 
+ STATE_517: "Victoria"
+ STATE_517_RENAME: "[517.Controller.GetStateName_517]"
+ 
+ STATE_518: "Tasmanien"
+ STATE_518_RENAME: "[518.Controller.GetStateName_518]"
+ 
+ STATE_519: "Südaustralien"
+ STATE_519_RENAME: "[519.Controller.GetStateName_519]"
+ 
+ STATE_520: "Nördliches Territorium"
+ STATE_520_RENAME: "[520.Controller.GetStateName_520]"
+ STATE_520_INDONESIAN: "Marege'"
+ 
+ STATE_521: "Südliches Queensland"
+ STATE_521_RENAME: "[521.Controller.GetStateName_521]"
+ 
+ STATE_522: "Westaustralien"
+ STATE_522_RENAME: "[522.Controller.GetStateName_522]"
+ STATE_522_INDONESIAN: "Kayu Jawa"
+ 
+ STATE_523: "Südostneuguinea"
+ STATE_523_RENAME: "[523.Controller.GetStateName_523]"
+ STATE_523_DUTCH: "Z.O. Nieuw-Guinea"
+ STATE_523_GERMAN: "Südostneuguinea"
+ STATE_523_INDONESIAN: "Irian Tenggara"
+ STATE_523_JAPANESE: "Nantō Nyū-Ginia"
+ 
+ STATE_524: "Taiwan"
+ STATE_524_RENAME: "[524.Controller.GetStateName_524]"
+ 
+ STATE_525: "Gyeonggi"
+ STATE_525_RENAME: "[525.Controller.GetStateName_525]"
+ STATE_525_CHINESE: "Jingji"
+ STATE_525_JAPANESE: "Keiki"
+ 
+ STATE_526: "Ryukyu-Inseln"
+ STATE_526_RENAME: "[526.Controller.GetStateName_526]"
+ STATE_526_CHINESE: "Liuqiu Qundao"
+ STATE_526_JAPANESE: "Ryūkyū Shōtō"
+ 
+ STATE_527: "Yangseo"
+ STATE_527_RENAME: "[527.Controller.GetStateName_527]"
+ STATE_527_CHINESE: "Liangxi"
+ STATE_527_JAPANESE: "Ryōsai"
+ 
+ STATE_528: "Nord Kyushu"
+ STATE_528_RENAME: "[528.Controller.GetStateName_528]"
+ STATE_528_JAPANESE: "Kita-Kyūshū"
+ 
+ STATE_529: "San'yo"
+ STATE_529_RENAME: "[529.Controller.GetStateName_529]"
+ STATE_529_JAPANESE: "San'yō"
+ 
+ STATE_530: "Shikoku"
+ STATE_530_RENAME: "[530.Controller.GetStateName_530]"
+ 
+ STATE_531: "Kansai"
+ STATE_531_RENAME: "[531.Controller.GetStateName_531]"
+ 
+ STATE_532: "Tokai"
+ STATE_532_RENAME: "[532.Controller.GetStateName_532]"
+ STATE_532_JAPANESE: "Tōkai"
+ 
+ STATE_533: "Süd Tohoku"
+ STATE_533_RENAME: "[533.Controller.GetStateName_533]"
+ STATE_533_JAPANESE: "Minami-Tōhoku"
+ 
+ STATE_534: "Niigata"
+ STATE_534_RENAME: "[534.Controller.GetStateName_534]"
+ 
+ STATE_535: "Hokuriku"
+ STATE_535_RENAME: "[535.Controller.GetStateName_535]"
+ 
+ STATE_536: "Hokkaido"
+ STATE_536_RENAME: "[536.Controller.GetStateName_536]"
+ STATE_536_JAPANESE: "Hokkaidō"
+ STATE_536_RUSSIAN: "Yezovsk"
+ 
+ STATE_537: "Sachalin"
+ STATE_537_RENAME: "[537.Controller.GetStateName_537]"
+ STATE_537_CHINESE: "Kuyedao"
+ STATE_537_JAPANESE: "Karafuto"
+ 
+ STATE_538: "Tschuapa"
+ STATE_538_RENAME: "[538.Controller.GetStateName_538]"
+ STATE_538_GERMAN: "Tschuapa"
+ 
+ STATE_539: "Gabun"
+ STATE_539_RENAME: "[539.Controller.GetStateName_539]"
+ STATE_539_GERMAN: "Gabun"
+ 
+ STATE_540: "Luanda"
+ STATE_540_RENAME: "[540.Controller.GetStateName_540]"
+ 
+ STATE_541: "Damaraland"
+ STATE_541_RENAME: "[541.Controller.GetStateName_541]"
+ 
+ STATE_542: "Bechuanaland"
+ STATE_542_RENAME: "[542.Controller.GetStateName_542]"
+ STATE_542_BOER: "Stellaland"
+ STATE_542_SOUTH_AFRICAN: "Botswana"
+ 
+ STATE_543: "Madagaskar"
+ STATE_543_RENAME: "[543.Controller.GetStateName_543]"
+ STATE_543_GERMAN: "Madagaskar"
+ STATE_543_JAPANESE: "Madagasukaru"
+ 
+ STATE_544: "Mosambik"
+ STATE_544_RENAME: "[544.Controller.GetStateName_544]"
+ 
+ STATE_545: "Rhodesien"
+ STATE_545_RENAME: "[545.Controller.GetStateName_545]"
+ STATE_545_SOUTH_AFRICAN: "Munhumutapa"
+ 
+ STATE_546: "Dodoma"
+ STATE_546_RENAME: "[546.Controller.GetStateName_546]"
+ 
+ STATE_547: "Kenia"
+ STATE_547_RENAME: "[547.Controller.GetStateName_547]"
+ STATE_547_GERMAN: "Kenia"
+ 
+ STATE_548: "Uganda"
+ STATE_548_RENAME: "[548.Controller.GetStateName_548]"
+ 
+ STATE_549: "Südsudan"
+ STATE_549_RENAME: "[549.Controller.GetStateName_549]"
+ STATE_549_ARABIC: "Janūb as Sūdān"
+ STATE_549_TURKISH: "Güney Sudan"
+ 
+ STATE_550: "Eritrea"
+ STATE_550_RENAME: "[550.Controller.GetStateName_550]"
+ STATE_550_ETHIOPIAN: "Ēritra"
+ 
+ STATE_551: "Kassala-Sennar"
+ STATE_551_RENAME: "[551.Controller.GetStateName_551]"
+ STATE_551_ARABIC: "Kassalā-Sannār"
+ 
+ STATE_552: "Westliche Wüste"
+ STATE_552_RENAME: "[552.Controller.GetStateName_552]"
+ STATE_552_ARABIC: "Sahrā' al Gharbīyah"
+ STATE_552_TURKISH: "Batı Çölü"
+ 
+ STATE_553: "Beirut"
+ STATE_553_RENAME: "[553.Controller.GetStateName_553]"
+ STATE_553_ARABIC: "Bayrūt"
+ STATE_553_SYRIAC: "Bīrūth"
+ STATE_553_TURKISH: "Beyrut"
+ 
+ STATE_554: "Damaskus"
+ STATE_554_RENAME: "[554.Controller.GetStateName_554]"
+ STATE_554_ARABIC: "Dimashq"
+ STATE_554_SYRIAC: "Darmsûq"
+ STATE_554_TURKISH: "Şam"
+ 
+ STATE_555: "Kurilen-Inseln"
+ STATE_555_RENAME: "[555.Controller.GetStateName_555]"
+ STATE_555_CHINESE: "Qiandao Qundao"
+ STATE_555_JAPANESE: "Chishima Rettō"
+ STATE_555_RUSSIAN: "Kurilskiye Ostrova"
+ 
+ STATE_556: "Bamako"
+ STATE_556_RENAME: "[556.Controller.GetStateName_556]"
+ STATE_556_FRENCH: "Soudan Français"
+ 
+ STATE_557: "Mauretanien"
+ STATE_557_RENAME: "[557.Controller.GetStateName_557]"
+ STATE_557_FRENCH: "Mauritanie"
+ 
+ STATE_558: "Südliches Nigeria"
+ STATE_558_RENAME: "[558.Controller.GetStateName_558]"
+ STATE_558_GERMAN: "Südnigeria"
+ 
+ STATE_559: "Mogadischu"
+ STATE_559_RENAME: "[559.Controller.GetStateName_559]"
+ STATE_559_ITALIAN: "Mogadiscio"
+ STATE_559_SOMALI: "Muqdisho"
+ 
+ STATE_560: "Nikolajewsk"
+ STATE_560_RENAME: "[560.Controller.GetStateName_560]"
+ STATE_560_CHINESE: "Miaojie"
+ 
+ STATE_561: "Amur"
+ STATE_561_RENAME: "[561.Controller.GetStateName_561]"
+ STATE_561_CHINESE: "Wai Heilongjiang"
+ 
+ STATE_562: "Ochotsk"
+ STATE_562_RENAME: "[562.Controller.GetStateName_562]"
+ 
+ STATE_563: "Chita"
+ STATE_563_RENAME: "[563.Controller.GetStateName_563]"
+ 
+ STATE_564: "Werchneudinsk"
+ STATE_564_RENAME: "[564.Controller.GetStateName_564]"
+ STATE_564_MONGOLIAN: "Ulan Ude"
+ 
+ STATE_565: "Bodaybo"
+ STATE_565_RENAME: "[565.Controller.GetStateName_565]"
+ 
+ STATE_566: "Irkutsk"
+ STATE_566_RENAME: "[566.Controller.GetStateName_566]"
+ 
+ STATE_567: "Nischneudinsk"
+ STATE_567_RENAME: "[567.Controller.GetStateName_567]"
+ 
+ STATE_568: "Krasnojarsk"
+ STATE_568_RENAME: "[568.Controller.GetStateName_568]"
+ 
+ STATE_569: "Schtscheglowsk"
+ STATE_569_RENAME: "[569.Controller.GetStateName_569]"
+ 
+ STATE_570: "Nowo-Nikolajewsk"
+ STATE_570_RENAME: "[570.Controller.GetStateName_570]"
+ 
+ STATE_571: "Omsk"
+ STATE_571_RENAME: "[571.Controller.GetStateName_571]"
+ 
+ STATE_572: "Tscheljabinsk"
+ STATE_572_RENAME: "[572.Controller.GetStateName_572]"
+ 
+ STATE_573: "Zlatoust"
+ STATE_573_RENAME: "[573.Controller.GetStateName_573]"
+ 
+ STATE_574: "Jakutsk"
+ STATE_574_RENAME: "[574.Controller.GetStateName_574]"
+ 
+ STATE_575: "Kirensk"
+ STATE_575_RENAME: "[575.Controller.GetStateName_575]"
+ 
+ STATE_576: "Yeniseysk"
+ STATE_576_RENAME: "[576.Controller.GetStateName_576]"
+ 
+ STATE_577: "Surgut"
+ STATE_577_RENAME: "[577.Controller.GetStateName_577]"
+ 
+ STATE_578: "Tomsk"
+ STATE_578_RENAME: "[578.Controller.GetStateName_578]"
+ 
+ STATE_579: "Neuquén"
+ STATE_579_RENAME: "[579.Controller.GetStateName_579]"
+ 
+ STATE_580: "Tobolsk"
+ STATE_580_RENAME: "[580.Controller.GetStateName_580]"
+ 
+ STATE_581: "Uralsk"
+ STATE_581_RENAME: "[581.Controller.GetStateName_581]"
+ STATE_581_KAZAKH: "Oral"
+ 
+ STATE_582: "Orsk"
+ STATE_582_RENAME: "[582.Controller.GetStateName_582]"
+ STATE_582_KAZAKH: "Jamanqala"
+ 
+ STATE_583: "Petropawlowsk"
+ STATE_583_RENAME: "[583.Controller.GetStateName_583]"
+ STATE_583_KAZAKH: "Petropavl"
+ 
+ STATE_584: "Karakum"
+ STATE_584_RENAME: "[584.Controller.GetStateName_584]"
+ STATE_584_CENTRAL_ASIAN: "Qāraqum"
+ STATE_584_RUSSIAN: "Zakaspiyskaya Step"
+ 
+ STATE_585: "Batumi"
+ STATE_585_RENAME: "[585.Controller.GetStateName_585]"
+ STATE_585_GREEK: "Batúmi"
+ STATE_585_TURKISH: "Batum"
+ 
+ STATE_586: "Kokand"
+ STATE_586_RENAME: "[586.Controller.GetStateName_586]"
+ STATE_586_CENTRAL_ASIAN: "Qoqān"
+ 
+ STATE_587: "Mangyschlak"
+ STATE_587_RENAME: "[587.Controller.GetStateName_587]"
+ STATE_587_CENTRAL_ASIAN: "Mangghyshlaq"
+ 
+ STATE_588: "Pawlodar"
+ STATE_588_RENAME: "[588.Controller.GetStateName_588]"
+ 
+ STATE_589: "Semirechye"
+ STATE_589_RENAME: "[589.Controller.GetStateName_589]"
+ STATE_589_KAZAKH: "Zhetysu"
+ STATE_589_RUSSIAN: "Semirechye"
+ 
+ STATE_590: "Akmolinsk"
+ STATE_590_RENAME: "[590.Controller.GetStateName_590]"
+ STATE_590_KAZAKH: "Akmola"
+ 
+ STATE_591: "Hainan"
+ STATE_591_RENAME: "[591.Controller.GetStateName_591]"
+ 
+ STATE_592: "Guangzhou"
+ STATE_592_RENAME: "[592.Controller.GetStateName_592]"
+ STATE_592_CHINESE: "Guangzhou"
+ 
+ STATE_593: "Yuehai"
+ STATE_593_RENAME: "[593.Controller.GetStateName_593]"
+ 
+ STATE_594: "Nanning"
+ STATE_594_RENAME: "[594.Controller.GetStateName_594]"
+ 
+ STATE_595: "Jian'an"
+ STATE_595_RENAME: "[595.Controller.GetStateName_595]"
+ 
+ STATE_596: "Qiantang"
+ STATE_596_RENAME: "[596.Controller.GetStateName_596]"
+ 
+ STATE_597: "Jinan"
+ STATE_597_RENAME: "[597.Controller.GetStateName_597]"
+ 
+ STATE_598: "Huaiyang"
+ STATE_598_RENAME: "[598.Controller.GetStateName_598]"
+ 
+ STATE_599: "Guilin"
+ STATE_599_RENAME: "[599.Controller.GetStateName_599]"
+ 
+ STATE_600: "Gannan"
+ STATE_600_RENAME: "[600.Controller.GetStateName_600]"
+ 
+ STATE_601: "Xikang"
+ STATE_601_RENAME: "[601.Controller.GetStateName_601]"
+ STATE_601_CHINESE: "Chuanbian"
+ STATE_601_TIBETAN: "Garze"
+ 
+ STATE_602: "Xiangjiang"
+ STATE_602_RENAME: "[602.Controller.GetStateName_602]"
+ 
+ STATE_603: "Qianzhong"
+ STATE_603_RENAME: "[603.Controller.GetStateName_603]"
+ 
+ STATE_604: "Xining"
+ STATE_604_RENAME: "[604.Controller.GetStateName_604]"
+ STATE_604_MONGOLIAN: "Kokonur"
+ STATE_604_TIBETAN: "Co Ngoinbo"
+ 
+ STATE_605: "Chengdu"
+ STATE_605_RENAME: "[605.Controller.GetStateName_605]"
+ 
+ STATE_606: "Anqing"
+ STATE_606_RENAME: "[606.Controller.GetStateName_606]"
+ 
+ STATE_607: "Heluo"
+ STATE_607_RENAME: "[607.Controller.GetStateName_607]"
+ 
+ STATE_608: "Jingzhao"
+ STATE_608_RENAME: "[608.Controller.GetStateName_608]"
+ 
+ STATE_609: "Tianjin"
+ STATE_609_RENAME: "[609.Controller.GetStateName_609]"
+ 
+ STATE_610: "Rehe"
+ STATE_610_RENAME: "[610.Controller.GetStateName_610]"
+ STATE_610_CHINESE: "Rehe"
+ STATE_610_KOREAN: "Yeolha"
+ STATE_610_MONGOLIAN: "Khaluungol"
+ 
+ STATE_611: "Süd-Chahar"
+ STATE_611_RENAME: "[611.Controller.GetStateName_611]"
+ STATE_611_CHINESE: "Chahaer"
+ STATE_611_CHINESE_BOTH: "Nan Chahaer"
+ 
+ STATE_612: "Nord-Chahar"
+ STATE_612_RENAME: "[612.Controller.GetStateName_612]"
+ STATE_612_CHINESE: "Bei Chahaer"
+ STATE_612_MONGOLIAN: "Xilingol"
+ STATE_612_RUSSIAN: "Shylyn-Hol"
+ 
+ STATE_613: "Jinling"
+ STATE_613_RENAME: "[613.Controller.GetStateName_613]"
+ 
+ STATE_614: "Tangshan"
+ STATE_614_RENAME: "[614.Controller.GetStateName_614]"
+ 
+ STATE_615: "Ost-Shanxi"
+ STATE_615_RENAME: "[615.Controller.GetStateName_615]"
+ STATE_615_CHINESE: "Jindong"
+ 
+ STATE_616: "Ordos"
+ STATE_616_RENAME: "[616.Controller.GetStateName_616]"
+ STATE_616_CHINESE: "Yikezhao"
+ 
+ STATE_617: "Dihua"
+ STATE_617_RENAME: "[617.Controller.GetStateName_617]"
+ STATE_617_MONGOLIAN: "Urumqi"
+ STATE_617_UIGHUR: "Urumchi"
+ 
+ STATE_618: "Dzungarien"
+ STATE_618_RENAME: "[618.Controller.GetStateName_618]"
+ STATE_618_CHINESE: "Zhungaer"
+ STATE_618_MONGOLIAN: "Zuun Gar"
+ STATE_618_RUSSIAN: "Dzhungariya"
+ STATE_618_UIGHUR: "Jungghariye"
+ 
+ STATE_619: "Kaschgar"
+ STATE_619_RENAME: "[619.Controller.GetStateName_619]"
+ STATE_619_CHINESE: "Kashigaer"
+ STATE_619_UIGHUR: "Altishahr"
+ 
+ STATE_620: "Xiangyang"
+ STATE_620_RENAME: "[620.Controller.GetStateName_620]"
+ 
+ STATE_621: "Suiyuan"
+ STATE_621_RENAME: "[621.Controller.GetStateName_621]"
+ STATE_621_MONGOLIAN: "Ulanqab"
+ 
+ STATE_622: "Yulin"
+ STATE_622_RENAME: "[622.Controller.GetStateName_622]"
+ 
+ STATE_623: "Nordluzon"
+ STATE_623_RENAME: "[623.Controller.GetStateName_623]"
+ STATE_623_DUTCH: "Noord-Luzon"
+ STATE_623_FILIPINO: "Hilagang Luzon"
+ STATE_623_GERMAN: "Nordluzon"
+ STATE_623_INDONESIAN: "Luzon Utara"
+ STATE_623_SPANISH: "Norte de Luzón"
+ 
+ STATE_624: "Südluzon"
+ STATE_624_RENAME: "[624.Controller.GetStateName_624]"
+ STATE_624_DUTCH: "Zuid-Luzon"
+ STATE_624_FILIPINO: "Timog Luzon"
+ STATE_624_GERMAN: "Südluzon"
+ STATE_624_INDONESIAN: "Luzon Selatan"
+ STATE_624_SPANISH: "Sur de Luzón"
+ 
+ STATE_625: "Samar"
+ STATE_625_RENAME: "[625.Controller.GetStateName_625]"
+ 
+ STATE_626: "Palawan"
+ STATE_626_RENAME: "[626.Controller.GetStateName_626]"
+ STATE_626_SPANISH: "La Palagua"
+ 
+ STATE_627: "Mindanao"
+ STATE_627_RENAME: "[627.Controller.GetStateName_627]"
+ 
+ STATE_628: "Westvisayas"
+ STATE_628_RENAME: "[628.Controller.GetStateName_628]"
+ STATE_628_DUTCH: "West-Visayas"
+ STATE_628_FILIPINO: "K. Kabisayaan"
+ STATE_628_GERMAN: "Westvisayas"
+ STATE_628_INDONESIAN: "Visayas Barat"
+ STATE_628_SPANISH: "Bisayas Occidentales"
+ 
+ STATE_629: "Hawaii"
+ STATE_629_RENAME: "[629.Controller.GetStateName_629]"
+ STATE_629_HAWAIIAN: "Hawai'i"
+ STATE_629_JAPANESE: "Hawaī"
+ 
+ STATE_630: "Johnstoninseln"
+ STATE_630_RENAME: "[630.Controller.GetStateName_630]"
+ STATE_630_GERMAN: "Johnstoninseln"
+ STATE_630_HAWAIIAN: "Kalama Mokiki"
+ STATE_630_JAPANESE: "Jonsuton-kanshō"
+ 
+ STATE_631: "Midwayinseln"
+ STATE_631_RENAME: "[631.Controller.GetStateName_631]"
+ STATE_631_GERMAN: "Midwayinseln"
+ STATE_631_HAWAIIAN: "Pihemanu Kauihelani"
+ STATE_631_JAPANESE: "Minazuki-tō"
+ 
+ STATE_632: "Wakeinseln"
+ STATE_632_RENAME: "[632.Controller.GetStateName_632]"
+ STATE_632_GERMAN: "Wakeinseln"
+ STATE_632_JAPANESE: "Ōtorishima"
+ 
+ STATE_633: "Marshallinseln"
+ STATE_633_RENAME: "[633.Controller.GetStateName_633]"
+ STATE_633_GERMAN: "Marshallinseln"
+ STATE_633_JAPANESE: "Māsharu-guntō"
+ 
+ STATE_634: "Salomonen"
+ STATE_634_RENAME: "[634.Controller.GetStateName_634]"
+ STATE_634_GERMAN: "Salomonen"
+ STATE_634_INDONESIAN: "Kep. Suwarnadwipa"
+ STATE_634_JAPANESE: "Soromon-shōtō"
+ 
+ STATE_635: "Neuelsaß"
+ STATE_635_RENAME: "[635.Controller.GetStateName_635]"
+ STATE_635_FRENCH: "Nouvelle-Calédonie"
+ STATE_635_GERMAN: "Neuelsaß"
+ STATE_635_INDONESIAN: "Vanuatu"
+ STATE_635_JAPANESE: "Nyū-Karedonia"
+ 
+ STATE_636: "Fidschi"
+ STATE_636_RENAME: "[636.Controller.GetStateName_636]"
+ STATE_636_GERMAN: "Fidschi"
+ 
+ STATE_637: "Kamtschatka"
+ STATE_637_RENAME: "[637.Controller.GetStateName_637]"
+ 
+ STATE_638: "Guam"
+ STATE_638_RENAME: "[638.Controller.GetStateName_638]"
+ STATE_638_JAPANESE: "Ōmiya-Jima"
+ STATE_638_SPANISH: "Guaján"
+ 
+ STATE_639: "Gilbertinseln"
+ STATE_639_RENAME: "[639.Controller.GetStateName_639]"
+ STATE_639_GERMAN: "Gilbertinseln"
+ STATE_639_JAPANESE: "Girubāto-shōtō"
+ 
+ STATE_640: "Mandalay"
+ STATE_640_RENAME: "[640.Controller.GetStateName_640]"
+ STATE_640_BURMESE: "Mantale"
+ 
+ STATE_641: "Tahiti"
+ STATE_641_RENAME: "[641.Controller.GetStateName_641]"
+ STATE_641_JAPANESE: "Tahichi"
+ 
+ STATE_642: "Phönixinseln"
+ STATE_642_RENAME: "[642.Controller.GetStateName_642]"
+ STATE_642_GERMAN: "Phönixinseln"
+ STATE_642_JAPANESE: "Fenikkusu-shōtō"
+ 
+ STATE_643: "Elliceinseln"
+ STATE_643_RENAME: "[643.Controller.GetStateName_643]"
+ STATE_643_GERMAN: "Elliceinseln"
+ STATE_643_JAPANESE: "Erisu-shōtō"
+ 
+ STATE_644: "Nordostsibirien"
+ STATE_644_RENAME: "[644.Controller.GetStateName_644]"
+ STATE_644_RUSSIAN: "S.-V. Sibir"
+ 
+ STATE_645: "Iwo Jima"
+ STATE_645_RENAME: "[645.Controller.GetStateName_645]"
+ STATE_645_JAPANESE: "Iotō"
+ 
+ STATE_646: "Marianen"
+ STATE_646_RENAME: "[646.Controller.GetStateName_646]"
+ STATE_646_GERMAN: "Marianen"
+ STATE_646_JAPANESE: "Mariana-shōtō"
+ STATE_646_SPANISH: "Islas Marianas"
+ 
+ STATE_647: "Palauinseln"
+ STATE_647_RENAME: "[647.Controller.GetStateName_647]"
+ STATE_647_GERMAN: "Palauinseln"
+ STATE_647_JAPANESE: "Parao-shōtō"
+ STATE_647_SPANISH: "Islas Encantadas"
+ 
+ STATE_648: "Markusinsel"
+ STATE_648_RENAME: "[648.Controller.GetStateName_648]"
+ STATE_648_GERMAN: "Markusinsel"
+ STATE_648_JAPANESE: "Minamitorishima"
+ 
+ STATE_649: "Galapagos-Inseln"
+ STATE_649_RENAME: "[649.Controller.GetStateName_649]"
+ STATE_649_SPANISH: "Islas Galápagos"
+ 
+ STATE_650: "Chongqing"
+ STATE_650_RENAME: "[650.Controller.GetStateName_650]"
+ 
+ STATE_651: "Ufa"
+ STATE_651_RENAME: "[651.Controller.GetStateName_651]"
+ 
+ STATE_652: "Orenburg"
+ STATE_652_RENAME: "[652.Controller.GetStateName_652]"
+ STATE_652_KAZAKH: "Orinbor"
+ 
+ STATE_653: "Jekaterinburg"
+ STATE_653_RENAME: "[653.Controller.GetStateName_653]"
+ STATE_653_RUSSIAN: "Yekaterinburg"
+ 
+ STATE_654: "Ulala"
+ STATE_654_RENAME: "[654.Controller.GetStateName_654]"
+ STATE_654_MONGOLIAN: "Oirot"
+ 
+ STATE_655: "Sudauen"
+ STATE_655_RENAME: "[655.Controller.GetStateName_655]"
+ STATE_655_GERMAN: "Sudauen"
+ STATE_655_LITHUANIAN: "Sūduva"
+ STATE_655_POLISH: "Jaćwież"
+ STATE_655_RUSSIAN: "Sudoviya"
+ 
+ STATE_656: "Al-Hasa"
+ STATE_656_RENAME: "[656.Controller.GetStateName_656]"
+ STATE_656_ARABIC: "Al Ahsā'"
+ STATE_656_TURKISH: "El Ahsa"
+ 
+ STATE_657: "Blagoweschtschensk"
+ STATE_657_RENAME: "[657.Controller.GetStateName_657]"
+ STATE_657_CHINESE: "Hailanpao"
+ 
+ STATE_658: "Abu Dhabi"
+ STATE_658_RENAME: "[658.Controller.GetStateName_658]"
+ STATE_658_ARABIC: "Abū Zabī"
+ STATE_658_TURKISH: "Abu Dabi"
+ 
+ STATE_659: "Aden"
+ STATE_659_RENAME: "[659.Controller.GetStateName_659]"
+ STATE_659_ARABIC: "'Adan"
+ 
+ STATE_660: "Ubangi-Schari"
+ STATE_660_RENAME: "[660.Controller.GetStateName_660]"
+ STATE_660_FRENCH: "Oubangui-Chari"
+ STATE_660_GERMAN: "Ubangi-Schari"
+ 
+ STATE_661: "Daxian"
+ STATE_661_RENAME: "[661.Controller.GetStateName_661]"
+ 
+ STATE_662: "Nordnigeria"
+ STATE_662_RENAME: "[662.Controller.GetStateName_662]"
+ STATE_662_GERMAN: "Nordnigeria"
+ 
+ STATE_663: "Jaghbub"
+ STATE_663_RENAME: "[663.Controller.GetStateName_663]"
+ STATE_663_ARABIC: "Al Jaghbūb"
+ STATE_663_ITALIAN: "Giarabub"
+ STATE_663_TURKISH: "El Cagbub"
+ 
+ STATE_664: "Mischkolz"
+ STATE_664_RENAME: "[664.Controller.GetStateName_664]"
+ STATE_664_CZECH: "Miškovec"
+ STATE_664_GERMAN: "Mischkolz"
+ STATE_664_POLISH: "Miszkolc"
+ 
+  STATE_665: "$VICTORY_POINTS_7005$"
+ STATE_665_RENAME: "[665.Controller.GetStateName_665]"
+ STATE_665_ARABIC: "$VICTORY_POINTS_7005_ARABIC$"
+ STATE_665_FRENCH: "$VICTORY_POINTS_7005_FRENCH$"
+ STATE_665_TURKISH: "$VICTORY_POINTS_7005_TURKISH$"
+ 
+ STATE_666: "Westbottnien"
+ STATE_666_RENAME: "[666.Controller.GetStateName_666]"
+ STATE_666_FINNISH: "Länsipohja"
+ STATE_666_SWEDISH: "Västerbotten"
+ 
+ STATE_667: "Bali & Sumbawa"
+ STATE_667_RENAME: "[667.Controller.GetStateName_667]"
+ STATE_667_DUTCH: "Bali & Soembawa"
+ STATE_667_GERMAN: "Kleine Sundainseln"
+ STATE_667_INDONESIAN: "Nusa Tenggara"
+ 
+ STATE_668: "Molukken"
+ STATE_668_RENAME: "[668.Controller.GetStateName_668]"
+ STATE_668_DUTCH: "Molukken"
+ STATE_668_INDONESIAN: "Maluku"
+ 
+ STATE_669: "Nordwestneuguinea"
+ STATE_669_RENAME: "[669.Controller.GetStateName_669]"
+ STATE_669_DUTCH: "N.W. Nieuw-Guinea"
+ STATE_669_GERMAN: "Nordwestneuguinea"
+ STATE_669_INDONESIAN: "Irian Barat Utara"
+ STATE_669_JAPANESE: "Hokusei Nyū-Ginia"
+ 
+ STATE_670: "Laos"
+ STATE_670_RENAME: "[670.Controller.GetStateName_670]"
+ STATE_670_THAI: "Lao"
+ 
+ STATE_671: "Tonkin"
+ STATE_671_RENAME: "[671.Controller.GetStateName_671]"
+ 
+ STATE_672: "Ostsumatra"
+ STATE_672_RENAME: "[672.Controller.GetStateName_672]"
+ STATE_672_DUTCH: "Oostkust van Sumatra"
+ STATE_672_GERMAN: "Ostsumatra"
+ STATE_672_INDONESIAN: "Sumatera Timur"
+ 
+ STATE_673: "Celebes"
+ STATE_673_RENAME: "[673.Controller.GetStateName_673]"
+ STATE_673_INDONESIAN: "Sulawesi"
+ 
+ STATE_674: "Zentralaustralien"
+ STATE_674_RENAME: "[674.Controller.GetStateName_674]"
+ 
+ STATE_675: "Qassim"
+ STATE_675_RENAME: "[675.Controller.GetStateName_675]"
+ STATE_675_ARABIC: "Al Qasīm"
+ STATE_675_TURKISH: "El Kasım"
+ 
+ STATE_676: "Mosul"
+ STATE_676_RENAME: "[676.Controller.GetStateName_676]"
+ STATE_676_ARABIC: "Al Mawsil"
+ STATE_676_KURDISH: "Mûsil"
+ STATE_676_PERSIAN: "Mosel"
+ STATE_676_SYRIAC: "Nīnwē"
+ STATE_676_TURKISH: "Musul"
+ 
+ STATE_677: "Aleppo"
+ STATE_677_RENAME: "[677.Controller.GetStateName_677]"
+ STATE_677_ARABIC: "Halab"
+ STATE_677_TURKISH: "Halep"
+ 
+ STATE_678: "Arabische Wüste"
+ STATE_678_RENAME: "[678.Controller.GetStateName_678]"
+ STATE_678_ARABIC: "Rub' al Khālī"
+ STATE_678_TURKISH: "Rubülhali Çölü"
+ 
+ STATE_679: "Mekka"
+ STATE_679_RENAME: "[679.Controller.GetStateName_679]"
+ STATE_679_ARABIC: "Makkah"
+ STATE_679_TURKISH: "Mekke"
+ 
+ STATE_680: "Latakien"
+ STATE_680_RENAME: "[680.Controller.GetStateName_680]"
+ STATE_680_ARABIC: "Al Lādhiqīyah"
+ STATE_680_SYRIAC: "Lathqīyā"
+ STATE_680_TURKISH: "Lazkiye"
+ 
+ STATE_681: "Westkap"
+ STATE_681_RENAME: "[681.Controller.GetStateName_681]"
+ 
+ STATE_682: "Nord-Ontario"
+ STATE_682_RENAME: "[682.Controller.GetStateName_682]"
+ 
+ STATE_683: "Görz"
+ STATE_683_RENAME: "[683.Controller.GetStateName_683]"
+ STATE_683_GERMAN: "Görz"
+ STATE_683_SLOVENIAN: "Gorica"
+ 
+ STATE_684: "Karolinen"
+ STATE_684_RENAME: "[684.Controller.GetStateName_684]"
+ STATE_684_DUTCH: "Carolinen"
+ STATE_684_GERMAN: "Karolinen"
+ STATE_684_JAPANESE: "Karorin-shōtō"
+ STATE_684_SPANISH: "Islas Carolinas"
+ 
+ STATE_685: "Panama-Kanal"
+ STATE_685_RENAME: "[685.Controller.GetStateName_685]"
+ STATE_685_SPANISH: "Canal de Panamá"
+ 
+ STATE_686: "Puerto Rico"
+ STATE_686_RENAME: "[686.Controller.GetStateName_686]"
+ 
+ STATE_687: "Demerara"
+ STATE_687_RENAME: "[687.Controller.GetStateName_687]"
+ 
+ STATE_688: "Nord-Chaco"
+ STATE_688_RENAME: "[688.Controller.GetStateName_688]"
+ STATE_688_GUARANI: "Waraniyi Chako"
+ STATE_688_SPANISH: "Chaco Boreal"
+ 
+ STATE_689: "Jamaika"
+ STATE_689_RENAME: "[689.Controller.GetStateName_689]"
+ 
+ STATE_690: "Bahamas"
+ STATE_690_RENAME: "[690.Controller.GetStateName_690]"
+ 
+ STATE_691: "Trinidad und Tobago"
+ STATE_691_RENAME: "[691.Controller.GetStateName_691]"
+ 
+ STATE_692: "Windward Inseln"
+ STATE_692_RENAME: "[692.Controller.GetStateName_692]"
+ 
+ STATE_693: "Chamdo"
+ STATE_693_RENAME: "[693.Controller.GetStateName_693]"
+ STATE_693_CHINESE: "Changdu"
+ STATE_693_TIBETAN: "Qamdo"
+ 
+ STATE_694: "Französisch-Karibik"
+ STATE_694_RENAME: "[694.Controller.GetStateName_694]"
+ STATE_694_FRENCH: "Caraïbes Françaises"
+ 
+ STATE_695: "Curaçao"
+ STATE_695_RENAME: "[695.Controller.GetStateName_695]"
+ 
+ STATE_696: "Bermuda"
+ STATE_696_RENAME: "[696.Controller.GetStateName_696]"
+ 
+ STATE_697: "Madeira"
+ STATE_697_RENAME: "[697.Controller.GetStateName_697]"
+ 
+ STATE_698: "Azoren"
+ STATE_698_RENAME: "[698.Controller.GetStateName_698]"
+ STATE_698_PORTUGUESE: "Açores"
+ 
+ STATE_699: "Río de Oro"
+ STATE_699_RENAME: "[699.Controller.GetStateName_699]"
+ STATE_699_ARABIC: "Wādī ad Dahabī"
+ STATE_699_FRENCH: "Sahara Occidental"
+ 
+ STATE_700: "Sierra Leone"
+ STATE_700_RENAME: "[700.Controller.GetStateName_700]"
+ 
+ STATE_701: "Kachin"
+ STATE_701_RENAME: "[701.Controller.GetStateName_701]"
+ STATE_701_BURMESE: "Wunpawng Mungdan"
+ STATE_701_CHINESE: "Keqin"
+ STATE_701_KACHIN: "Jingphaw Mungdaw"
+ 
+ STATE_702: "Kap Verde"
+ STATE_702_RENAME: "[702.Controller.GetStateName_702]"
+ STATE_702_PORTUGUESE: "Cabo Verde"
+ 
+ STATE_703: "Himmelfahrtsinsel"
+ STATE_703_RENAME: "[703.Controller.GetStateName_703]"
+ STATE_703_GERMAN: "Himmelfahrtsinsel"
+ 
+ STATE_704: "Sankt Helena"
+ STATE_704_RENAME: "[704.Controller.GetStateName_704]"
+ STATE_704_GERMAN: "Sankt Helena"
+ 
+ STATE_705: "São Tomé"
+ STATE_705_RENAME: "[705.Controller.GetStateName_705]"
+ 
+ STATE_706: "Hohenzollern-Insel"
+ STATE_706_RENAME: "[706.Controller.GetStateName_706]"
+ STATE_706_FRENCH: "Île de la Réunion"
+ STATE_706_GERMAN: "Hohenzollern-Insel"
+ STATE_706_JAPANESE: "Reyunion Tō"
+ 
+ STATE_707: "Mauritius"
+ STATE_707_RENAME: "[707.Controller.GetStateName_707]"
+ STATE_707_FRENCH: "Île Maurice"
+ STATE_707_JAPANESE: "Mōrishasu Tō"
+ 
+ STATE_708: "Komoren"
+ STATE_708_RENAME: "[708.Controller.GetStateName_708]"
+ STATE_708_FRENCH: "Comores"
+ STATE_708_GERMAN: "Komoren"
+ STATE_708_JAPANESE: "Komoro Shōtō"
+ 
+ STATE_709: "Seychellen"
+ STATE_709_RENAME: "[709.Controller.GetStateName_709]"
+ STATE_709_GERMAN: "Seychellen"
+ STATE_709_JAPANESE: "Sēsheru Shōtō"
+ 
+ STATE_710: "Diego Garcia"
+ STATE_710_RENAME: "[710.Controller.GetStateName_710]"
+ STATE_710_JAPANESE: "Diega Garushia Tō"
+ 
+ STATE_711: "Weihnachten & Kokos Inseln"
+ STATE_711_RENAME: "[711.Controller.GetStateName_711]"
+ 
+ STATE_712: "Kysylkum"
+ STATE_712_RENAME: "[712.Controller.GetStateName_712]"
+ STATE_712_CENTRAL_ASIAN: "Qizilqum"
+ STATE_712_RUSSIAN: "Perovsk"
+ 
+ STATE_713: "Sutschawa"
+ STATE_713_RENAME: "[713.Controller.GetStateName_713]"
+ STATE_713_GERMAN: "Sutschawa"
+ STATE_713_POLISH: "Suczawa"
+ STATE_713_RUSSIAN: "Suchava"
+ 
+ STATE_714: "Qiqihar"
+ STATE_714_RENAME: "[714.Controller.GetStateName_714]"
+ STATE_714_JAPANESE: "Chichiharu"
+ STATE_714_KOREAN: "Chichiha-eol"
+ STATE_714_MONGOLIAN: "Chikikhar"
+ STATE_714_RUSSIAN: "Cicikar"
+ 
+ STATE_715: "Liaobei"
+ STATE_715_RENAME: "[715.Controller.GetStateName_715]"
+ STATE_715_KOREAN: "Yobuk"
+ 
+ STATE_716: "Liaoning"
+ STATE_716_RENAME: "[716.Controller.GetStateName_716]"
+ STATE_716_JAPANESE: "Ryōnei"
+ STATE_716_KOREAN: "Yoryeong"
+ STATE_716_RUSSIAN: "Lyaonin"
+ 
+ STATE_717: "Hejiang"
+ STATE_717_RENAME: "[717.Controller.GetStateName_717]"
+ STATE_717_JAPANESE: "Gōkō"
+ STATE_717_KOREAN: "Hapgang"
+ STATE_717_RUSSIAN: "Khetszyan"
+ 
+ STATE_718: "Uelle"
+ STATE_718_RENAME: "[718.Controller.GetStateName_718]"
+ STATE_718_FRENCH: "Uélé"
+ STATE_718_GERMAN: "Uelle"
+ 
+ STATE_719: "Natal"
+ STATE_719_RENAME: "[719.Controller.GetStateName_719]"
+ STATE_719_SOUTH_AFRICAN: "Zululand"
+ 
+ STATE_720: "Südgeorgien"
+ STATE_720_RENAME: "[720.Controller.GetStateName_720]"
+ STATE_720_SPANISH: "Isla San Pedro"
+ 
+ STATE_721: "Osttimor"
+ STATE_721_RENAME: "[721.Controller.GetStateName_721]"
+ STATE_721_DUTCH: "Oost-Timor"
+ STATE_721_GERMAN: "Osttimor"
+ STATE_721_INDONESIAN: "Timor Timur"
+ STATE_721_PORTUGUESE: "Timor Português"
+ 
+ STATE_722: "Pechenga"
+ STATE_722_RENAME: "[722.Controller.GetStateName_722]"
+ STATE_722_RUSSIAN: "Pechenga"
+ 
+ STATE_723: "Südinsel"
+ STATE_723_RENAME: "[723.Controller.GetStateName_723]"
+ 
+ STATE_724: "Isthmus von Kra"
+ STATE_724_RENAME: "[724.Controller.GetStateName_724]"
+ STATE_724_DUTCH: "Landengte van Kra"
+ STATE_724_GERMAN: "Isthmus von Kra"
+ STATE_724_INDONESIAN: "Segenting Kra"
+ STATE_724_THAI: "Pak Tai"
+ 
+ STATE_725: "Nauru"
+ STATE_725_RENAME: "[725.Controller.GetStateName_725]"
+ STATE_725_JAPANESE: "Nauru-tō"
+ 
+ STATE_726: "Samoa"
+ STATE_726_RENAME: "[726.Controller.GetStateName_726]"
+ STATE_726_GERMAN: "Ostsamoa"
+ STATE_726_JAPANESE: "Higashi Samoa"
+ 
+ STATE_727: "Lineinseln"
+ STATE_727_RENAME: "[727.Controller.GetStateName_727]"
+ STATE_727_GERMAN: "Lineinseln"
+ STATE_727_JAPANESE: "Rain-shōtō"
+ 
+ STATE_728: "Guangzhouwan"
+ STATE_728_RENAME: "[728.Controller.GetStateName_728]"
+ STATE_728_FRENCH: "Kouang-Tchéou-Wan"
+ 
+ STATE_729: "Macao"
+ STATE_729_RENAME: "[729.Controller.GetStateName_729]"
+ STATE_729_PORTUGUESE: "Macau"
+ 
+ STATE_730: "St. Pierre"
+ STATE_730_RENAME: "[730.Controller.GetStateName_730]"
+ STATE_730_FRENCH: "Saint-Pierre"
+ 
+ STATE_731: "Florina"
+ STATE_731_RENAME: "[731.Controller.GetStateName_731]"
+ STATE_731_BULGARIAN: "Lerin"
+ STATE_731_GREEK: "Flórina"
+ STATE_731_TURKISH: "Filorina"
+ 
+ STATE_732: "Samarkand"
+ STATE_732_RENAME: "[732.Controller.GetStateName_732]"
+ STATE_732_CENTRAL_ASIAN: "Samarqand"
+ 
+ STATE_733: "Andamanen"
+ STATE_733_RENAME: "[733.Controller.GetStateName_733]"
+ STATE_733_GERMAN: "Andamanen"
+ STATE_733_INDONESIAN: "Kepulauan Andaman"
+ STATE_733_JAPANESE: "Andaman Shōtō"
+ STATE_733_THAI: "Mu Koh Andaman"
+ 
+ STATE_734: "Nendo"
+ STATE_734_RENAME: "[734.Controller.GetStateName_734]"
+ 
+ STATE_735: "Savoyen"
+ STATE_735_RENAME: "[735.Controller.GetStateName_735]"
+ STATE_735_FRENCH: "Savoie"
+ STATE_735_GERMAN: "Savoyen"
+ STATE_735_ITALIAN: "Savoia"
+ 
+ STATE_736: "Istrien"
+ STATE_736_RENAME: "[736.Controller.GetStateName_736]"
+ STATE_736_GERMAN: "Istrien"
+ STATE_736_SERBIAN: "Istra"
+ 
+ STATE_737: "Bismarck-Archipel"
+ STATE_737_RENAME: "[737.Controller.GetStateName_737]"
+ STATE_737_GERMAN: "Bismarck-Archipel"
+ STATE_737_INDONESIAN: "Kepulauan Barat Laut"
+ STATE_737_JAPANESE: "Bisumaruku-shōtō"
+ 
+ STATE_738: "Swasiland"
+ STATE_738_RENAME: "[738.Controller.GetStateName_738]"
+ 
+ STATE_739: "Ottawa"
+ STATE_739_RENAME: "[739.Controller.GetStateName_739]"
+ 
+ STATE_740: "Vancouver Island"
+ STATE_740_RENAME: "[740.Controller.GetStateName_740]"
+ 
+ STATE_741: "Velwisch"
+ STATE_741_RENAME: "[741.Controller.GetStateName_741]"
+ STATE_741_GERMAN: "Velwisch"
+ 
+ STATE_742: "Abruzzen"
+ STATE_742_RENAME: "[742.Controller.GetStateName_742]"
+ 
+ STATE_743: "Schanghai"
+ STATE_743_RENAME: "[743.Controller.GetStateName_743]"
+ 
+ STATE_744: "Kiautschou"
+ STATE_744_RENAME: "[744.Controller.GetStateName_744]"
+ STATE_744_GERMAN: "Kiautschou"
+ 
+ STATE_745: "Dalian"
+ STATE_745_RENAME: "[745.Controller.GetStateName_745]"
+ STATE_745_CHINESE: "Dalian"
+ STATE_745_LEGATION: "Port Arthur"
+ STATE_745_JAPANESE: "Kantō-shū"
+ STATE_745_KOREAN: "Daelyeon"
+ STATE_745_RUSSIAN: "Dalniy"
+ 
+ STATE_746: "Ningbo"
+ STATE_746_RENAME: "[746.Controller.GetStateName_746]"
+ 
+ STATE_747: "Fuzhou"
+ STATE_747_RENAME: "[747.Controller.GetStateName_747]"
+ 
+ STATE_748: "Bome"
+ STATE_748_RENAME: "[748.Controller.GetStateName_748]"
+ STATE_748_CHINESE: "Bomi"
+ 
+ STATE_749: "Tenasserim"
+ STATE_749_RENAME: "[749.Controller.GetStateName_749]"
+ STATE_749_BURMESE: "Tanintharyi"
+ STATE_749_THAI: "Tanaosri"
+ 
+ STATE_750: "Phnom Penh"
+ STATE_750_RENAME: "[750.Controller.GetStateName_750]"
+ STATE_750_THAI: "Phnom Penh"
+ 
+ STATE_751: "Kelantan-Terengganu"
+ STATE_751_RENAME: "[751.Controller.GetStateName_751]"
+ STATE_751_CHINESE: "Jilandan-Dengjialou"
+ STATE_751_JAPANESE: "Kurantan-Torenganu"
+ STATE_751_THAI: "Klantan-Trangkanu"
+ 
+ STATE_752: "Hadhramaut"
+ STATE_752_RENAME: "[752.Controller.GetStateName_752]"
+ STATE_752_ARABIC: "Hadramawt"
+ STATE_752_TURKISH: "Hadramut"
+ 
+ STATE_753: "Sueskanal"
+ STATE_753_RENAME: "[753.Controller.GetStateName_753]"
+ STATE_753_ARABIC: "Qanāt as Suways"
+ STATE_753_FRENCH: "Canal de Suez"
+ STATE_753_GERMAN: "Sueskanal"
+ STATE_753_ITALIAN: "Canale di Suez"
+ STATE_753_TURKISH: "Süveyş Kanalı"
+ 
+ STATE_754: "Medina"
+ STATE_754_RENAME: "[754.Controller.GetStateName_754]"
+ STATE_754_ARABIC: "Al Madīnah"
+ STATE_754_TURKISH: "Medine"
+ 
+ STATE_755: "Vitebsk"
+ STATE_755_RENAME: "[755.Controller.GetStateName_755]"
+ STATE_755_BELARUSIAN: "Viciebsk"
+ 
+ STATE_756: "Kengtung"
+ STATE_756_RENAME: "[756.Controller.GetStateName_756]"
+ STATE_756_BURMESE: "Kyaingtong"
+ STATE_756_CHINESE: "Menggen"
+ STATE_756_SHAN: "Kengtung"
+ STATE_756_THAI_FULL: "Khemaratthaburi"
+ STATE_756_THAI_HALF: "Saharat Tai Doem"
+ 
+ STATE_757: "Kaiser-Wilhelmsland"
+ STATE_757_RENAME: "[757.Controller.GetStateName_757]"
+ STATE_757_DUTCH: "N.O. Nieuw-Guinea"
+ STATE_757_GERMAN: "Kaiser-Wilhelmsland"
+ STATE_757_INDONESIAN: "Irian Timur Laut"
+ STATE_757_JAPANESE: "Hokutō Nyū-Ginia"
+ 
+ STATE_758: "Ionische Inseln"
+ STATE_758_RENAME: "[758.Controller.GetStateName_758]"
+ STATE_758_GREEK: "Iónia Nisiá"
+ STATE_758_ITALIAN: "Isole Ionie"
+ STATE_758_TURKISH: "İyon Adaları"
+ 
+ STATE_759: "Friaul"
+ STATE_759_RENAME: "[759.Controller.GetStateName_759]"
+ STATE_759_GERMAN: "Friaul"
+ 
+ STATE_760: "Welschschweiz"
+ STATE_760_RENAME: "[760.Controller.GetStateName_760]"
+ STATE_760_FRENCH: "Romandie"
+ STATE_760_GERMAN: "Welschschweiz"
+ STATE_760_ITALIAN: "Romandia"
+ 
+ STATE_761: "Tessin"
+ STATE_761_RENAME: "[761.Controller.GetStateName_761]"
+ STATE_761_GERMAN: "Tessin"
+ 
+ STATE_762: "Nizza"
+ STATE_762_RENAME: "[762.Controller.GetStateName_762]"
+ STATE_762_ITALIAN: "Nizza"
+ 
+ STATE_763: "Alpes"
+ STATE_763_RENAME: "[763.Controller.GetStateName_763]"
+ 
+ STATE_764: "Viterbo"
+ STATE_764_RENAME: "[764.Controller.GetStateName_764]"
+ 
+ STATE_765: "Kosovo"
+ STATE_765_RENAME: "[765.Controller.GetStateName_765]"
+ STATE_765_ALBANIAN: "Kosova"
+ STATE_765_ITALIAN: "Kossovo"
+ 
+ STATE_766: "Nördliches Epirus"
+ STATE_766_RENAME: "[766.Controller.GetStateName_766]"
+ STATE_766_ALBANIAN: "Gjirokastër"
+ STATE_766_GREEK: "Vórios Ípiros"
+ STATE_766_ITALIAN: "Epiro Settentrionale"
+ STATE_766_TURKISH: "Kuzey Epir"
+ 
+ STATE_767: "Nish"
+ STATE_767_RENAME: "[767.Controller.GetStateName_767]"
+ 
+ STATE_768: "Thessalien"
+ STATE_768_RENAME: "[768.Controller.GetStateName_768]"
+ STATE_768_GREEK: "Thessalía"
+ STATE_768_TURKISH: "Teselya"
+ 
+ STATE_769: "Serres"
+ STATE_769_RENAME: "[769.Controller.GetStateName_769]"
+ STATE_769_BULGARIAN: "Ser"
+ STATE_769_GREEK: "Sérres"
+ STATE_769_TURKISH: "Serez"
+ 
+ STATE_770: "Pleven"
+ STATE_770_RENAME: "[770.Controller.GetStateName_770]"
+ 
+ STATE_771: "Varna"
+ STATE_771_RENAME: "[771.Controller.GetStateName_771]"
+ 
+ STATE_772: "Konstanza"
+ STATE_772_RENAME: "[772.Controller.GetStateName_772]"
+ STATE_772_BULGARIAN: "Kyustendzha"
+ STATE_772_ROMANIAN: "Constanta"
+ 
+ STATE_773: "Konstantinopel"
+ STATE_773_RENAME: "[773.Controller.GetStateName_773]"
+ STATE_773_BULGARIAN: "Tsarigrad"
+ STATE_773_GREEK: "Konstantinoúpolis"
+ STATE_773_RUSSIAN: "Konstantinopol"
+ STATE_773_TURKISH: "Kostantiniyye"
+ 
+ STATE_774: "Hexi-Korridor"
+ STATE_774_RENAME: "[774.Controller.GetStateName_774]"
+ STATE_774_CHINESE: "Hexi Zoulang"
+ 
+ STATE_775: "Steiermark"
+ STATE_775_RENAME: "[775.Controller.GetStateName_775]"
+ STATE_775_GERMAN: "Steiermark"
+ 
+ STATE_776: "Westpreußen"
+ STATE_776_RENAME: "[776.Controller.GetStateName_776]"
+ STATE_776_GERMAN: "Westpreußen"
+ STATE_776_POLISH: "Pomorze Gdańskie"
+ 
+ STATE_777: "Masuren"
+ STATE_777_RENAME: "[777.Controller.GetStateName_777]"
+ STATE_777_GERMAN: "Masuren"
+ STATE_777_POLISH: "Mazury"
+ 
+ STATE_778: "Jämtland"
+ STATE_778_RENAME: "[778.Controller.GetStateName_778]"
+ STATE_778_DANISH: "Jemtland"
+ 
+ STATE_779: "Labourd"
+ STATE_779_RENAME: "[779.Controller.GetStateName_779]"
+ STATE_779_BASQUE: "Iparralde"
+ STATE_779_SPANISH: "Labort"
+ 
+ STATE_780: "Baden"
+ STATE_780_RENAME: "[780.Controller.GetStateName_780]"
+ 
+ STATE_781: "Westrheinland"
+ STATE_781_RENAME: "[781.Controller.GetStateName_781]"
+ STATE_781_DUTCH: "West Rijnland"
+ STATE_781_FRENCH: "Rhénanie Occ."
+ STATE_781_GERMAN: "Westrheinland"
+ 
+ STATE_782: "Nordschleswig"
+ STATE_782_RENAME: "[782.Controller.GetStateName_782]"
+ STATE_782_DANISH: "Nordslesvig"
+ STATE_782_GERMAN: "Nordschleswig"
+ 
+ STATE_783: "Trentino"
+ STATE_783_RENAME: "[783.Controller.GetStateName_783]"
+ STATE_783_GERMAN: "Welschtirol"
+ 
+ STATE_784: "Burgenland"
+ STATE_784_RENAME: "[784.Controller.GetStateName_784]"
+ STATE_784_HUNGARIAN: "Orvidék"
+ 
+ STATE_785: "Lothringen"
+ STATE_785_RENAME: "[785.Controller.GetStateName_785]"
+ STATE_785_GERMAN: "Lothringen"
+ 
+ STATE_786: "Südböhmen"
+ STATE_786_RENAME: "[786.Controller.GetStateName_786]"
+ STATE_786_GERMAN: "Südböhmen"
+ STATE_786_POLISH: "Budziejowice"
+ 
+ STATE_787: "Terek"
+ STATE_787_RENAME: "[787.Controller.GetStateName_787]"
+ 
+ STATE_788: "Aba"
+ STATE_788_RENAME: "[788.Controller.GetStateName_788]"
+ STATE_788_TIBETAN: "Ngawa"
+ 
+ STATE_789: "Szeklerland"
+ STATE_789_RENAME: "[789.Controller.GetStateName_789]"
+ STATE_789_HUNGARIAN: "Székelyföld"
+ STATE_789_ROMANIAN: "Secuimea"
+ 
+ STATE_790: "Arakan"
+ STATE_790_RENAME: "[790.Controller.GetStateName_790]"
+ STATE_790_BURMESE: "Rahkuing Pranynai"
+ 
+ STATE_791: "Starodub"
+ STATE_791_RENAME: "[791.Controller.GetStateName_791]"
+ 
+ STATE_792: "Wolhynien"
+ STATE_792_RENAME: "[792.Controller.GetStateName_792]"
+ STATE_792_POLISH: "Wołyń"
+ STATE_792_UKRAINIAN: "Volyn"
+ 
+ STATE_793: "Asturien"
+ STATE_793_RENAME: "[793.Controller.GetStateName_793]"
+ 
+ STATE_794: "Syrmien"
+ STATE_794_RENAME: "[794.Controller.GetStateName_794]"
+ STATE_794_CROATIAN: "Srijem"
+ STATE_794_GERMAN: "Syrmien"
+ STATE_794_HUNGARIAN: "Szerémség"
+ STATE_794_SERBIAN: "Srem"
+ 
+ STATE_795: "Córdoba"
+ STATE_795_RENAME: "[795.Controller.GetStateName_795]"
+ 
+ STATE_796: "Albany"
+ STATE_796_RENAME: "[796.Controller.GetStateName_796]"
+ 
+ STATE_797: "San Francisco"
+ STATE_797_RENAME: "[797.Controller.GetStateName_797]"
+ 
+ STATE_798: "Los Angeles"
+ STATE_798_RENAME: "[798.Controller.GetStateName_798]"
+ 
+ STATE_799: "Guanzhong"
+ STATE_799_RENAME: "[799.Controller.GetStateName_799]"
+ 
+ STATE_800: "Shaoguan"
+ STATE_800_RENAME: "[800.Controller.GetStateName_800]"
+ 
+ STATE_801: "Shantou"
+ STATE_801_RENAME: "[801.Controller.GetStateName_801]"
+ 
+ STATE_802: "Xiamen"
+ STATE_802_RENAME: "[802.Controller.GetStateName_802]"
+ 
+ STATE_803: "Wenzhou"
+ STATE_803_RENAME: "[803.Controller.GetStateName_803]"
+ 
+ STATE_804: "Pamir"
+ STATE_804_RENAME: "[804.Controller.GetStateName_804]"
+ STATE_804_CENTRAL_ASIAN: "Pāmir"
+ 
+ STATE_805: "$VICTORY_POINTS_7132$"
+ STATE_805_RENAME: "[805.Controller.GetStateName_805]"
+ STATE_805_ARABIC: "$VICTORY_POINTS_7132_ARABIC$"
+ STATE_805_TURKISH: "$VICTORY_POINTS_7132_TURKISH$"
+ 
+ STATE_806: "Conakry"
+ STATE_806_RENAME: "[806.Controller.GetStateName_806]"
+ 
+ STATE_807: "Elfenbeinküste"
+ STATE_807_RENAME: "[807.Controller.GetStateName_807]"
+ STATE_807_FRENCH: "Côte d'Ivoire"
+ STATE_807_GERMAN: "Elfenbeinküste"
+ 
+ STATE_808: "Obervolta"
+ STATE_808_RENAME: "[808.Controller.GetStateName_808]"
+ STATE_808_FRENCH: "Haute-Volta"
+ 
+ STATE_809: "Niger"
+ STATE_809_RENAME: "[809.Controller.GetStateName_809]"
+ 
+ STATE_810: "Semipalatinsk"
+ STATE_810_RENAME: "[810.Controller.GetStateName_810]"
+ STATE_810_CENTRAL_ASIAN: "Alash-Qala"
+ 
+ STATE_811: "Minusinsk"
+ STATE_811_RENAME: "[811.Controller.GetStateName_811]"
+ 
+ STATE_812: "Basra"
+ STATE_812_RENAME: "[812.Controller.GetStateName_812]"
+ STATE_812_ARABIC: "Al Basrah"
+ STATE_812_SYRIAC: "Basrah"
+ 
+ STATE_813: "Südzambesi"
+ STATE_813_RENAME: "[813.Controller.GetStateName_813]"
+ STATE_813_ENGLISH: "Livingstone"
+ STATE_813_GERMAN: "Südzambesia"
+ STATE_813_PORTUGUESE: "Sul de Lacerdia"
+ 
+ STATE_814: "Uttarakhand"
+ STATE_814_RENAME: "[814.Controller.GetStateName_814]"
+ 
+ STATE_815: "Patiala"
+ STATE_815_RENAME: "[815.Controller.GetStateName_815]"
+ 
+ STATE_816: "Dali"
+ STATE_816_RENAME: "[816.Controller.GetStateName_816]"
+ STATE_816_LAOTIAN: "Saelouang"
+ STATE_816_SHAN: "Saelong"
+ STATE_816_THAI: "Nongsae"
+ 
+ STATE_817: "Roussillon"
+ STATE_817_RENAME: "[817.Controller.GetStateName_817]"
+ STATE_817_CATALAN: "Rosselló"
+ STATE_817_SPANISH: "Rosellón"
+ 
+ STATE_818: "Puducherry"
+ STATE_818_RENAME: "[818.Controller.GetStateName_818]"
+ STATE_818_FRENCH: "Pondichéry"
+ 
+ STATE_819: "Sulaimaniyah"
+ STATE_819_RENAME: "[819.Controller.GetStateName_819]"
+ STATE_819_ARABIC: "As Sulaymānīyah"
+ STATE_819_KURDISH: "Silêmanî"
+ STATE_819_PERSIAN: "Soleymānyye"
+ STATE_819_SYRIAC: "Hday'ab"
+ STATE_819_TURKISH: "Süleymaniye"
+ 
+ STATE_820: "Santiago de Cuba"
+ STATE_820_RENAME: "[820.Controller.GetStateName_820]"
+ 
+ STATE_821: "Pawlograd"
+ STATE_821_RENAME: "[821.Controller.GetStateName_821]"
+ STATE_821_UKRAINIAN: "Pavlohrad"
+ 
+ STATE_822: "Lan Na"
+ STATE_822_RENAME: "[822.Controller.GetStateName_822]"
+ STATE_822_BURMESE: "Zinme Pyi"
+ STATE_822_THAI: "Lanna"
+ 
+ STATE_823: "Isan"
+ STATE_823_RENAME: "[823.Controller.GetStateName_823]"
+ 
+ STATE_824: "Rayong"
+ STATE_824_RENAME: "[824.Controller.GetStateName_824]"
+ 
+ STATE_825: "Battambang"
+ STATE_825_RENAME: "[825.Controller.GetStateName_825]"
+ STATE_825_THAI: "Phra Tabong"
+ 
+ STATE_826: "Stung Treng"
+ STATE_826_RENAME: "[826.Controller.GetStateName_826]"
+ STATE_826_LAOTIAN: "Xiang Taeng"
+ STATE_826_THAI: "Chiang Taeng"
+ 
+ STATE_827: "Annam"
+ STATE_827_RENAME: "[827.Controller.GetStateName_827]"
+ 
+ STATE_828: "Sabah"
+ STATE_828_RENAME: "[828.Controller.GetStateName_828]"
+ 
+ STATE_829: "Südkalifornien"
+ STATE_829_RENAME: "[829.Controller.GetStateName_829]"
+ STATE_829_SPANISH: "Media California"
+ 
+ STATE_830: "Pattani"
+ STATE_830_RENAME: "[830.Controller.GetStateName_830]"
+ STATE_830_CHINESE: "Beidanian"
+ STATE_830_INDONESIAN: "Patani"
+ STATE_830_JAPANESE: "Pattānī"
+ 
+ STATE_831: "Moulmein"
+ STATE_831_RENAME: "[831.Controller.GetStateName_831]"
+ STATE_831_BURMESE: "Mawlamyine"
+ STATE_831_THAI: "Morlumlerng"
+ 
+ STATE_832: "Quebec"
+ STATE_832_RENAME: "[832.Controller.GetStateName_832]"
+ STATE_832_FRENCH: "Québec"
+ 
+ STATE_833: "Süd-Texas"
+ STATE_833_RENAME: "[833.Controller.GetStateName_833]"
+ STATE_833_SPANISH: "Sur de Tejas"
+ 
+ STATE_834: "Gambia"
+ STATE_834_RENAME: "[834.Controller.GetStateName_834]"
+ STATE_834_FRENCH: "Gambie"
+ 
+ STATE_835: "Kärnten"
+ STATE_835_RENAME: "[835.Controller.GetStateName_835]"
+ STATE_835_GERMAN: "Kärnten"
+ 
+ STATE_836: "Salzburg"
+ STATE_836_RENAME: "[836.Controller.GetStateName_836]"
+ 
+ STATE_837: "Apulien"
+ STATE_837_RENAME: "[837.Controller.GetStateName_837]"
+ STATE_837_ITALIAN: "Puglia"
+ 
+ STATE_838: "Ligurien"
+ STATE_838_RENAME: "[838.Controller.GetStateName_838]"
+ 
+ STATE_839: "Aravalli"
+ STATE_839_RENAME: "[839.Controller.GetStateName_839]"
+ 
+ STATE_840: "Nyland"
+ STATE_840_RENAME: "[840.Controller.GetStateName_840]"
+ STATE_840_FINNISH: "Uusimaa"
+ STATE_840_RUSSIAN: "Nyuland"
+ 
+ STATE_841: "Kotor"
+ STATE_841_RENAME: "[841.Controller.GetStateName_841]"
+ STATE_841_ITALIAN: "Cattaro"
+ 
+ STATE_842: "Riga"
+ STATE_842_RENAME: "[842.Controller.GetStateName_842]"
+ STATE_842_LITHUANIAN: "Ryga"
+ 
+ STATE_843: "Südwestneuguinea"
+ STATE_843_RENAME: "[843.Controller.GetStateName_843]"
+ STATE_843_DUTCH: "Z.W. Nieuw-Guinea"
+ STATE_843_GERMAN: "Südwestneuguinea"
+ STATE_843_INDONESIAN: "Irian Barat Selatan"
+ STATE_843_JAPANESE: "Nansei Nyū-Ginia"
+ 
+ STATE_844: "Lappland"
+ STATE_844_RENAME: "[844.Controller.GetStateName_844]"
+ STATE_844_FINNISH: "Lappi"
+ STATE_844_RUSSIAN: "Laplandiya"
+ STATE_844_SWEDISH: "Östra Lappland"
+ 
+ STATE_845: "Cajamarca"
+ STATE_845_RENAME: "[845.Controller.GetStateName_845]"
+ STATE_845_QUECHUA: "Kashamarka"
+ 
+ STATE_846: "Dschohor"
+ STATE_846_RENAME: "[846.Controller.GetStateName_846]"
+ STATE_846_CHINESE: "Roufu"
+ STATE_846_GERMAN: "Dschohor"
+ STATE_846_JAPANESE: "Johōru"
+ STATE_846_THAI: "Yaho"
+ 
+ STATE_847: "Beni"
+ STATE_847_RENAME: "[847.Controller.GetStateName_847]"
+ STATE_847_AYMARA: "Winisuyu"
+ 
+ STATE_848: "Potosi"
+ STATE_848_RENAME: "[848.Controller.GetStateName_848]"
+ STATE_848_AYMARA: "Putusi"
+ 
+ STATE_849: "Caracas"
+ STATE_849_RENAME: "[849.Controller.GetStateName_849]"
+ 
+ STATE_850: "Sucre"
+ STATE_850_RENAME: "[850.Controller.GetStateName_850]"
+ 
+ STATE_851: "Caquetá"
+ STATE_851_RENAME: "[851.Controller.GetStateName_851]"
+ 
+ STATE_852: "Cauca"
+ STATE_852_RENAME: "[852.Controller.GetStateName_852]"
+ 
+ STATE_853: "Chocó"
+ STATE_853_RENAME: "[853.Controller.GetStateName_853]"
+ 
+ STATE_854: "Putumayo"
+ STATE_854_RENAME: "[854.Controller.GetStateName_854]"
+ 
+ STATE_855: "Acre"
+ STATE_855_RENAME: "[855.Controller.GetStateName_855]"
+ 
+ STATE_856: "Mekong Delta"
+ STATE_856_RENAME: "[856.Controller.GetStateName_856]"
+ STATE_856_CAMBODIAN: "Prek Russey"
+ STATE_856_THAI: "Putthaimart"
+ STATE_856_VIETNAMESE: "Dong Bang Song Me Kong"
+ 
+ STATE_857: "Dong Bac"
+ STATE_857_RENAME: "[857.Controller.GetStateName_857]"
+ 
+ STATE_858: "Tawang"
+ STATE_858_RENAME: "[858.Controller.GetStateName_858]"
+ STATE_858_CHINESE: "Zangnan"
+ STATE_858_INDIAN: "Arunachal Pradesh"
+ 
+ STATE_859: "Oman"
+ STATE_859_RENAME: "[859.Controller.GetStateName_859]"
+ STATE_859_ARABIC: "Umān"
+ STATE_859_TURKISH: "Umman"
+ 
+ STATE_860: "Azawad"
+ STATE_860_RENAME: "[860.Controller.GetStateName_860]"
+ STATE_860_FRENCH: "Azaouad"
+ 
+ STATE_861: "Choresmien"
+ STATE_861_RENAME: "[861.Controller.GetStateName_861]"
+ STATE_861_CENTRAL_ASIAN: "Khārazm"
+ 
+ STATE_862: "Darfur Wüste"
+ STATE_862_RENAME: "[862.Controller.GetStateName_862]"
+ STATE_862_ARABIC: "Sahrā' Dārfūr"
+ STATE_862_TURKISH: "Darfur Çölü"
+ 
+ STATE_863: "Südwest-Finnland"
+ STATE_863_RENAME: "[863.Controller.GetStateName_863]"
+ STATE_863_FINNISH: "Varsinais-Suomi"
+ STATE_863_RUSSIAN: "Abo-Byornebog"
+ STATE_863_SWEDISH: "Egentliga Finland"
+ 
+ STATE_864: "Savo"
+ STATE_864_RENAME: "[864.Controller.GetStateName_864]"
+ STATE_864_RUSSIAN: "Svyatomikhaylovsk"
+ STATE_864_SWEDISH: "Savolax"
+ 
+ STATE_865: "Aurès"
+ STATE_865_RENAME: "[865.Controller.GetStateName_865]"
+ STATE_865_ARABIC: "Awrās"
+ STATE_865_TURKISH: "Avrâs"
+ 
+ STATE_866: "Geldern"
+ STATE_866_RENAME: "[866.Controller.GetStateName_866]"
+ STATE_866_DUTCH: "Gelderland"
+ 
+ STATE_867: "Travancore"
+ STATE_867_RENAME: "[867.Controller.GetStateName_867]"
+ 
+ STATE_868: "Kolhapur"
+ STATE_868_RENAME: "[868.Controller.GetStateName_868]"
+ 
+ STATE_869: "Ruanda"
+ STATE_869_RENAME: "[869.Controller.GetStateName_869]"
+ STATE_869_GERMAN: "Ruanda"
+ 
+ STATE_870: "Urundi"
+ STATE_870_RENAME: "[870.Controller.GetStateName_870]"
+ 
+ STATE_871: "Njassaland"
+ STATE_871_RENAME: "[871.Controller.GetStateName_871]"
+ STATE_871_GERMAN: "Njassaland"
+ STATE_871_PORTUGUESE: "Niassalândia"
+ 
+ STATE_872: "Arica"
+ STATE_872_RENAME: "[872.Controller.GetStateName_872]"
+ STATE_872_QUECHUA: "Arika"
+ 
+ STATE_873: "Tarapacá"
+ STATE_873_RENAME: "[873.Controller.GetStateName_873]"
+ STATE_873_QUECHUA: "Tarapaka"
+ 
+ STATE_874: "Atacama"
+ STATE_874_RENAME: "[874.Controller.GetStateName_874]"
+ 
+ STATE_875: "Westbanat"
+ STATE_875_RENAME: "[875.Controller.GetStateName_875]"
+ STATE_875_GERMAN: "Westbanat"
+ STATE_875_HUNGARIAN: "Nyugat-Bánság"
+ STATE_875_ROMANIAN: "Banatul de Vest"
+ STATE_875_SERBIAN: "Zapadni Banat"
+ 
+ STATE_876: "Dahomey"
+ STATE_876_RENAME: "[876.Controller.GetStateName_876]"
+ 
+ STATE_877: "Togoland"
+ STATE_877_RENAME: "[877.Controller.GetStateName_877]"
+ 
+ STATE_878: "Hausaland"
+ STATE_878_RENAME: "[878.Controller.GetStateName_878]"
+ 
+ STATE_879: "Katanga"
+ STATE_879_RENAME: "[879.Controller.GetStateName_879]"
+ STATE_879_PORTUGUESE: "Garanganja"
+ 
+ STATE_880: "Lettgallen"
+ STATE_880_RENAME: "[880.Controller.GetStateName_880]"
+ STATE_880_BELARUSIAN: "Łathalija"
+ STATE_880_GERMAN: "Lettgallen"
+ STATE_880_LITHUANIAN: "Latgala"
+ STATE_880_RUSSIAN: "Latgaliya"
+ 
+ STATE_881: "Niederkongo"
+ STATE_881_RENAME: "[881.Controller.GetStateName_881]"
+ STATE_881_GERMAN: "Niederkongo"
+ STATE_881_PORTUGUESE: "Congo Central"
+ 
+ STATE_882: "Samaburi"
+ STATE_882_RENAME: "[882.Controller.GetStateName_882]"
+ STATE_882_LAOTIAN: "Xamabouli"
+ STATE_882_THAI: "Samaburi"
+ 
+ STATE_883: "Heilongjiang"
+ STATE_883_RENAME: "[883.Controller.GetStateName_883]"
+ STATE_883_JAPANESE: "Kokuryūkō"
+ STATE_883_KOREAN: "Heungnyonggang"
+ STATE_883_RUSSIAN: "Kheyluntszyan"
+ 
+ STATE_884: "Xing'an"
+ STATE_884_RENAME: "[884.Controller.GetStateName_884]"
+ STATE_884_JAPANESE: "Kyōan"
+ STATE_884_KOREAN: "Heung-an"
+ STATE_884_MONGOLIAN: "Hulunbuir"
+ STATE_884_RUSSIAN: "Sinan"
+ 
+ STATE_885: "Songjiang"
+ STATE_885_RENAME: "[885.Controller.GetStateName_885]"
+ STATE_885_JAPANESE: "Shōkō"
+ STATE_885_KOREAN: "Songgang"
+ STATE_885_RUSSIAN: "Suntszyan"
+ 
+ STATE_886: "Jilin"
+ STATE_886_RENAME: "[886.Controller.GetStateName_886]"
+ STATE_886_JAPANESE: "Kitsurin"
+ STATE_886_KOREAN: "Gilim"
+ STATE_886_RUSSIAN: "Tsilin"
+ 
+ STATE_887: "Darjeeling"
+ STATE_887_RENAME: "[887.Controller.GetStateName_887]"
+ 
+ STATE_888: "Sikkim"
+ STATE_888_RENAME: "[888.Controller.GetStateName_888]"
+ 
+ STATE_889: "Vizagapatnam"
+ STATE_889_RENAME: "[889.Controller.GetStateName_889]"
+ 
+ STATE_890: "Shimla"
+ STATE_890_RENAME: "[890.Controller.GetStateName_890]"
+ 
+ STATE_891: "West Punjab"
+ STATE_891_RENAME: "[891.Controller.GetStateName_891]"
+ STATE_891_INDIAN: "Pashchim Paanjaab"
+ 
+ STATE_892: "Jubaland"
+ STATE_892_RENAME: "[892.Controller.GetStateName_892]"
+ 
+ STATE_893: "Berar"
+ STATE_893_RENAME: "[893.Controller.GetStateName_893]"
+ 
+ STATE_894: "Santa Catarina"
+ STATE_894_RENAME: "[894.Controller.GetStateName_894]"
+ 
+ STATE_895: "Espírito Santo"
+ STATE_895_RENAME: "[895.Controller.GetStateName_895]"
+ 
+ STATE_896: "Maranhão"
+ STATE_896_RENAME: "[896.Controller.GetStateName_896]"
+ 
+ STATE_897: "Aksai Chin"
+ STATE_897_RENAME: "[897.Controller.GetStateName_897]"
+ 
+ STATE_898: "Pará"
+ STATE_898_RENAME: "[898.Controller.GetStateName_898]"
+ 
+ STATE_899: "Ruvuma"
+ STATE_899_RENAME: "[899.Controller.GetStateName_899]"
+ STATE_899_GERMAN: "Rowuma"
+ 
+ STATE_900: "Guaporé"
+ STATE_900_RENAME: "[900.Controller.GetStateName_900]"
+ 
+ STATE_901: "Süd-Chaco"
+ STATE_901_RENAME: "[901.Controller.GetStateName_901]"
+ STATE_901_SPANISH: "Chaco Austral"
+ 
+ STATE_902: "Córdoba"
+ STATE_902_RENAME: "[902.Controller.GetStateName_902]"
+ 
+ STATE_903: "Jujuy"
+ STATE_903_RENAME: "[903.Controller.GetStateName_903]"
+ 
+ STATE_904: "Rioja"
+ STATE_904_RENAME: "[904.Controller.GetStateName_904]"
+ STATE_904_SPANISH: "La Rioja"
+ 
+ STATE_905: "Sansibar"
+ STATE_905_RENAME: "[905.Controller.GetStateName_905]"
+ STATE_905_GERMAN: "Sansibar"
+ 
+ STATE_906: "Ogaden"
+ STATE_906_RENAME: "[906.Controller.GetStateName_906]"
+ STATE_906_ETHIOPIAN: "Wigadēni"
+ STATE_906_SOMALI: "Ogaadeen"
+ 
+ STATE_907: "Bahrain"
+ STATE_907_RENAME: "[907.Controller.GetStateName_907]"
+ STATE_907_ARABIC: "Al Bahrayn"
+ STATE_907_SYRIAC: "Awal"
+ STATE_907_TURKISH: "Bahreyn"
+ 
+ STATE_908: "Bohuslän"
+ STATE_908_RENAME: "[908.Controller.GetStateName_908]"
+ STATE_908_DANISH: "Båhuslen"
+ 
+ STATE_909: "Haparanda"
+ STATE_909_RENAME: "[909.Controller.GetStateName_909]"
+ STATE_909_FINNISH: "Haaparanta"
+ 
+ STATE_910: "Air"
+ STATE_910_RENAME: "[910.Controller.GetStateName_910]"
+ STATE_910_FRENCH: "Aïr"
+ 
+ STATE_911: "Borku-Ennedi"
+ STATE_911_RENAME: "[911.Controller.GetStateName_911]"
+ STATE_911_FRENCH: "Borkou-Ennedi"
+ 
+ STATE_912: "Bolivar"
+ STATE_912_RENAME: "[912.Controller.GetStateName_912]"
+ 
+ STATE_913: "Bornu"
+ STATE_913_RENAME: "[913.Controller.GetStateName_913]"
+ STATE_913_FRENCH: "Bornou"
+ 
+ STATE_914: "$VICTORY_POINTS_2115$"
+ STATE_914_RENAME: "[914.Controller.GetStateName_914]"
+ STATE_914_CONGOLESE: "$VICTORY_POINTS_2115_CONGOLESE$"
+ STATE_914_GERMAN: "$VICTORY_POINTS_2115_GERMAN$"
+
+ STATE_915: "Hail"
+ STATE_915_RENAME: "[915.Controller.GetStateName_915]"
+ STATE_915_ARABIC: "Hā'il"
+ STATE_915_TURKISH: "Hail"
+ 
+ STATE_916: "Altkongo"
+ STATE_916_RENAME: "[916.Controller.GetStateName_916]"
+ STATE_916_PORTUGUESE: "Congo Antigo"
+ 
+ STATE_917: "Südliches Angola"
+ STATE_917_RENAME: "[917.Controller.GetStateName_917]"
+ STATE_917_PORTUGUESE: "Angola Meridional"
+ 
+ STATE_918: "Bukoba"
+ STATE_918_RENAME: "[918.Controller.GetStateName_918]"
+ 
+ STATE_919: "Sidamo"
+ STATE_919_RENAME: "[919.Controller.GetStateName_919]"
+ STATE_919_ETHIOPIAN: "Sīdamo"
+ STATE_919_ITALIAN: "Sidama"
+ 
+ STATE_920: "Begemder"
+ STATE_920_RENAME: "[920.Controller.GetStateName_920]"
+ STATE_920_ETHIOPIAN: "Begēmidiri"
+ STATE_920_ITALIAN: "Gondar"
+ 
+ STATE_921: "Afar"
+ STATE_921_RENAME: "[921.Controller.GetStateName_921]"
+ STATE_921_ETHIOPIAN: "Āfar"
+ 
+ STATE_922: "Kaffa"
+ STATE_922_RENAME: "[922.Controller.GetStateName_922]"
+ STATE_922_ETHIOPIAN: "Kefa"
+ STATE_922_ITALIAN: "Galla"
+ 
+ STATE_923: "Tigray"
+ STATE_923_RENAME: "[923.Controller.GetStateName_923]"
+ STATE_923_ITALIAN: "Tigrè"
+ 
+ STATE_924: "Teschen"
+ STATE_924_RENAME: "[924.Controller.GetStateName_924]"
+ STATE_924_CZECH: "Tesinsko"
+ STATE_924_GERMAN: "Teschen"
+ STATE_924_POLISH: "Cieszyn"
+ 
+ STATE_925: "Brabant"
+ STATE_925_RENAME: "[925.Controller.GetStateName_925]"
+ 
+ STATE_926: "Grönländischer Eisschild"
+ STATE_926_RENAME: "[926.Controller.GetStateName_926]"
+ STATE_926_DANISH: "Grønlands Indlandsis"
+ 
+ STATE_927: "Duala"
+ STATE_927_RENAME: "[927.Controller.GetStateName_927]"
+ STATE_927_GERMAN: "Duala"
+ 
+ STATE_928: "Mittelkongo"
+ STATE_928_RENAME: "[928.Controller.GetStateName_928]"
+ STATE_928_FRENCH: "Moyen-Congo"
+ STATE_928_GERMAN: "Mittelkongo"
+ 
+ STATE_929: "West Virginia"
+ STATE_929_RENAME: "[929.Controller.GetStateName_929]"
+ 
+ STATE_930: "Buffalo"
+ STATE_930_RENAME: "[930.Controller.GetStateName_930]"
+ 
+ STATE_931: "Connecticut"
+ STATE_931_RENAME: "[931.Controller.GetStateName_931]"
+ 
+ STATE_932: "Massachusetts"
+ STATE_932_RENAME: "[932.Controller.GetStateName_932]"
+ 
+ STATE_933: "Vermont"
+ STATE_933_RENAME: "[933.Controller.GetStateName_933]"
+ 
+ STATE_934: "New Hampshire"
+ STATE_934_RENAME: "[934.Controller.GetStateName_934]"
+ 
+ STATE_935: "Rhode Island"
+ STATE_935_RENAME: "[935.Controller.GetStateName_935]"
+ 
+ STATE_936: "Gwalior"
+ STATE_936_RENAME: "[936.Controller.GetStateName_936]"
+ 
+ STATE_937: "Finnmark"
+ STATE_937_RENAME: "[937.Controller.GetStateName_937]"
+ STATE_937_FINNISH: "Ruija"
+ 
+ STATE_938: "Orkaden und Shetland"
+ STATE_938_RENAME: "[938.Controller.GetStateName_938]"
+ STATE_938_GERMAN: "Orkaden und Shetland"
+ STATE_938_NORWEGIAN: "Norðreyjar"
+ 
+ STATE_939: "Évora"
+ STATE_939_RENAME: "[939.Controller.GetStateName_939]"
+ 
+ STATE_940: "Unteres Aragon"
+ STATE_940_RENAME: "[940.Controller.GetStateName_940]"
+ STATE_940_SPANISH: "Bajo Aragón"
+ 
+ STATE_941: "Deutsch-Samoa"
+ STATE_941_RENAME: "[941.Controller.GetStateName_941]"
+ STATE_941_GERMAN: "Deutsch-Samoa"
+ STATE_941_JAPANESE: "Nishi Samoa"
+ 
+ STATE_942: "Vorarlberg"
+ STATE_942_RENAME: "[942.Controller.GetStateName_942]"
+ 
+ STATE_943: "Hochsavoyen"
+ STATE_943_RENAME: "[943.Controller.GetStateName_943]"
+ STATE_943_FRENCH: "Haute-Savoie"
+ STATE_943_GERMAN: "Hochsavoyen"
+ STATE_943_ITALIAN: "Alta Savoia"
+ 
+ STATE_944: "Hararghe"
+ STATE_944_RENAME: "[944.Controller.GetStateName_944]"
+ STATE_944_ETHIOPIAN: "Hārerge"
+ STATE_944_ITALIAN: "Hararge"
+ STATE_944_SOMALI: "Xararge"
+ 
+ STATE_945: "Nordkap"
+ STATE_945_RENAME: "[945.Controller.GetStateName_945]"
+ 
+ STATE_946: "Ostkap"
+ STATE_946_RENAME: "[946.Controller.GetStateName_946]"
+ 
+ STATE_947: "Orange Freistaat"
+ STATE_947_RENAME: "[947.Controller.GetStateName_947]"
+ STATE_947_ENGLISH: "Oranje-Vrystaat"
+ STATE_947_SOUTH_AFRICAN: "Freistata"
+ 
+ STATE_948: "Lüttich"
+ STATE_948_RENAME: "[948.Controller.GetStateName_948]"
+ STATE_948_DUTCH: "Luik"
+ STATE_948_GERMAN: "Lüttich"
+ 
+ STATE_949: "Maniema"
+ STATE_949_RENAME: "[949.Controller.GetStateName_949]"
+ 
+ STATE_950: "Lourenço Marques"
+ STATE_950_RENAME: "[950.Controller.GetStateName_950]"
+ 
+ STATE_951: "Salamanca"
+ STATE_951_RENAME: "[951.Controller.GetStateName_951]"
+ 
+ STATE_952: "Adamawa"
+ STATE_952_RENAME: "[952.Controller.GetStateName_952]"
+ STATE_952_FRENCH: "Adamaoua"
+ STATE_952_GERMAN: "Adamaua"
+ 
+ STATE_953: "Tekeland"
+ STATE_953_RENAME: "[953.Controller.GetStateName_953]"
+ 
+ STATE_954: "Tete"
+ STATE_954_RENAME: "[954.Controller.GetStateName_954]"
+ 
+ STATE_955: "Ostluangwa"
+ STATE_955_RENAME: "[955.Controller.GetStateName_955]"
+ STATE_955_GERMAN: "Ostluangwa"
+ STATE_955_PORTUGUESE: "Aruângua Oriental"
+ 
+ STATE_956: "Nordzambesia"
+ STATE_956_RENAME: "[956.Controller.GetStateName_956]"
+ STATE_956_ENGLISH: "Copperbelt-Central"
+ STATE_956_GERMAN: "Nordzambesia"
+ STATE_956_PORTUGUESE: "Norte de Lacerdia"
+ 
+ STATE_957: "Nordwales"
+ STATE_957_RENAME: "[957.Controller.GetStateName_957]"
+ STATE_957_WELSH: "Gogledd Cymru"
+ 
+ STATE_958: "Barotsland"
+ STATE_958_RENAME: "[958.Controller.GetStateName_958]"
+ STATE_958_PORTUGUESE: "Baroce"
+ 
+ STATE_959: "Ost-Angola"
+ STATE_959_RENAME: "[959.Controller.GetStateName_959]"
+ STATE_959_PORTUGUESE: "Angola Oriental"
+ 
+ STATE_960: "Lappland"
+ STATE_960_RENAME: "[960.Controller.GetStateName_960]"
+ STATE_960_FINNISH: "Länsi-Lappi"
+ 
+ STATE_961: "Tschetschenien"
+ STATE_961_RENAME: "[961.Controller.GetStateName_961]"
+ STATE_961_CHECHEN: "Noxçiyçö"
+ 
+ STATE_962: "Marua"
+ STATE_962_RENAME: "[962.Controller.GetStateName_962]"
+ STATE_962_GERMAN: "Marua"
+ 
+ STATE_963: "Perak-Selangor"
+ STATE_963_RENAME: "[963.Controller.GetStateName_963]"
+ STATE_963_CHINESE: "Pili-Xuelan'e"
+ STATE_963_JAPANESE: "Pera-Serangōru"
+ STATE_963_THAI: "Pera-Slangngor"
+ 
+ STATE_964: "Owambo & Omaheke"
+ STATE_964_RENAME: "[964.Controller.GetStateName_964]"
+ STATE_964_GERMAN: "Owambo & Omaheke"
+ 
+ STATE_965: "Daressalam"
+ STATE_965_RENAME: "[965.Controller.GetStateName_965]"
+ STATE_965_ENGLISH: "Dar es-Salaam"
+ STATE_965_GERMAN: "Daressalam"
+ STATE_965_PORTUGUESE: "Darés Salã"
+ 
+ STATE_966: "Chhattisgarh"
+ STATE_966_RENAME: "[966.Controller.GetStateName_966]"
+ 
+ STATE_967: "Adrar"
+ STATE_967_RENAME: "[967.Controller.GetStateName_967]"
+ 
+ STATE_968: "Ifni"
+ STATE_968_RENAME: "[968.Controller.GetStateName_968]"
+ STATE_968_ARABIC: "Sīdī Ifnī"
+ 
+ STATE_969: "Grabenbruch"
+ STATE_969_RENAME: "[969.Controller.GetStateName_969]"
+ STATE_969_GERMAN: "Grabenbruch"
+ 
+ STATE_970: "Mombasa"
+ STATE_970_RENAME: "[970.Controller.GetStateName_970]"
+ STATE_970_PORTUGUESE: "Mombaça"
+ 
+ STATE_971: "Neukamerun"
+ STATE_971_RENAME: "[971.Controller.GetStateName_971]"
+ STATE_971_FRENCH: "Nouveau Cameroun"
+ STATE_971_GERMAN: "Neukamerun"
+ 
+ STATE_972: "Aroe-Eilanden"
+ STATE_972_RENAME: "[972.Controller.GetStateName_972]"
+ STATE_972_GERMAN: "Aroe-Eilanden"
+ STATE_972_INDONESIAN: "Kepulauan Aru"
+ 
+ STATE_973: "Lagos"
+ STATE_973_RENAME: "[973.Controller.GetStateName_973]"
+ 
+ STATE_974: "Unter-Ssanga"
+ STATE_974_RENAME: "[974.Controller.GetStateName_974]"
+ STATE_974_FRENCH: "Bas-Sangha"
+ STATE_974_GERMAN: "Unter-Ssanga"
+ 
+ STATE_975: "Pittsburgh"
+ STATE_975_RENAME: "[975.Controller.GetStateName_975]"
+ 
+ STATE_976: "Kasai"
+ STATE_976_RENAME: "[976.Controller.GetStateName_976]"
+ STATE_976_FRENCH: "Kasaï"
+ 
+ STATE_977: "Kivu"
+ STATE_977_RENAME: "[977.Controller.GetStateName_977]"
+ STATE_977_GERMAN: "Kiwu"
+ 
+ STATE_978: "Limburg"
+ STATE_978_RENAME: "[978.Controller.GetStateName_978]"
+ 
+ STATE_979: "Westerschelde"
+ STATE_979_RENAME: "[979.Controller.GetStateName_979]"
+ STATE_979_DUTCH: "Zeeuws-Vlaanderen"
+ STATE_979_GERMAN: "Westerschelde"
+ 
+ STATE_980: "Lille"
+ STATE_980_RENAME: "[980.Controller.GetStateName_980]"
+ STATE_980_DUTCH: "Rijsel"
+ 
+ STATE_981: "Najran"
+ STATE_981_RENAME: "[981.Controller.GetStateName_981]"
+ STATE_981_ARABIC: "Najrān"
+ STATE_981_TURKISH: "Necran"
+ 
+ STATE_982: "Asir"
+ STATE_982_RENAME: "[982.Controller.GetStateName_982]"
+ STATE_982_ARABIC: "Asīr"
+ 
+ STATE_983: "Bretagne"
+ STATE_983_RENAME: "[983.Controller.GetStateName_983]"
+ STATE_983_BRETON: "Breizh"
+ STATE_983_FRENCH: "Bretagne"
+ 
+ STATE_984: "Pyrenäen"
+ STATE_984_RENAME: "[984.Controller.GetStateName_984]"
+ STATE_984_FRENCH: "Pyrénées"
+ 
+ STATE_985: "Canberra"
+ STATE_985_RENAME: "[985.Controller.GetStateName_985]"
+ 
+ STATE_986: "Nord-Queensland"
+ STATE_986_RENAME: "[986.Controller.GetStateName_986]"
+ 
+ STATE_987: "Kimberly"
+ STATE_987_RENAME: "[987.Controller.GetStateName_987]"
+ 
+ STATE_988: "Pilbara"
+ STATE_988_RENAME: "[988.Controller.GetStateName_988]"
+ 
+ STATE_989: "Chalkidiki"
+ STATE_989_RENAME: "[989.Controller.GetStateName_989]"
+ STATE_989_BULGARIAN: "Khalkidika"
+ STATE_989_GREEK: "Chalkidikí"
+ STATE_989_TURKISH: "Halkidiki"
+ 
+ STATE_990: "Widin"
+ STATE_990_RENAME: "[990.Controller.GetStateName_990]"
+ 
+ STATE_991: "Summan"
+ STATE_991_RENAME: "[991.Controller.GetStateName_991]"
+ STATE_991_ARABIC: "As Summān"
+ 
+ STATE_992: "Haifa"
+ STATE_992_RENAME: "[992.Controller.GetStateName_992]"
+ STATE_992_ARABIC: "Hayfā"
+ STATE_992_SYRIAC: "Kepha"
+ STATE_992_TURKISH: "Hayfa"
+ 
+ STATE_993: "Katar"
+ STATE_993_RENAME: "[993.Controller.GetStateName_993]"
+ STATE_993_SYRIAC: "Beth Qatraye"
+ STATE_993_TURKISH: "Katar"
+ 
+ STATE_994: "Al-Jawf"
+ STATE_994_RENAME: "[994.Controller.GetStateName_994]"
+ STATE_994_ARABIC: "Al Jawf"
+ STATE_994_TURKISH: "El Cevf"
+ 
+ STATE_995: "Homs"
+ STATE_995_RENAME: "[995.Controller.GetStateName_995]"
+ STATE_995_ARABIC: "Hums"
+ STATE_995_SYRIAC: "Hems"
+ STATE_995_TURKISH: "Humus"
+ 
+ STATE_996: "Weihaiwei"
+ STATE_996_RENAME: "[996.Controller.GetStateName_996]"
+ 
+ STATE_997: "Polesien"
+ STATE_997_RENAME: "[997.Controller.GetStateName_997]"
+ STATE_997_BELARUSIAN: "Palieśsie"
+ STATE_997_LITHUANIAN: "Polesė"
+ STATE_997_POLISH: "Polesie"
+ STATE_997_RUSSIAN: "Polesye"
+ STATE_997_UKRAINIAN: "Polissia"
+ 
+ STATE_998: "Hochland-Karabach"
+ STATE_998_RENAME: "[998.Controller.GetStateName_998]"
+ STATE_998_ARMENIAN: "Lerrnayin Gharabagh"
+ STATE_998_AZERBAIJANI: "Daglıq Qarabag"
+ STATE_998_PERSIAN: "Qarahbāgh"
+ STATE_998_RUSSIAN: "Nagorny Karabakh"
+ STATE_998_TURKISH: "Yayla Karabag"
+ 
+ STATE_999: "Kedah"
+ STATE_999_RENAME: "[999.Controller.GetStateName_999]"
+ STATE_999_CHINESE: "Jidazhou"
+ STATE_999_JAPANESE: "Keda"
+ STATE_999_THAI: "Saiburi"
+ 
+ STATE_1000: "Kars"
+ STATE_1000_RENAME: "[1000.Controller.GetStateName_1000]"
+ STATE_1000_ARMENIAN: "Ararat"
+ STATE_1000_GREEK: "Karsoúnta"
+ STATE_1000_KURDISH: "Qers"
+ 
+ STATE_1001: "Lazistan"
+ STATE_1001_RENAME: "[1001.Controller.GetStateName_1001]"
+ STATE_1001_GEORGIAN: "Lazeti"
+ STATE_1001_GREEK: "Lazikí"
+ 
+ STATE_1002: "Pahang"
+ STATE_1002_RENAME: "[1002.Controller.GetStateName_1002]"
+ STATE_1002_CHINESE: "Pengheng"
+ STATE_1002_JAPANESE: "Pahan"
+ 
+ STATE_1003: "Aostatal"
+ STATE_1003_RENAME: "[1003.Controller.GetStateName_1003]"
+ STATE_1003_FRENCH: "Vallée d'Aoste"
+ STATE_1003_GERMAN: "Aostatal"
+ STATE_1003_ITALIAN: "Valle d'Aosta"
+ 
+ STATE_1004: "Emilia"
+ STATE_1004_RENAME: "[1004.Controller.GetStateName_1004]"
+ 
+ STATE_1005: "Umbrien"
+ STATE_1005_RENAME: "[1005.Controller.GetStateName_1005]"
+ 
+ STATE_1006: "Noworossiysk"
+ STATE_1006_RENAME: "[1006.Controller.GetStateName_1006]"
+ STATE_1006_UKRAINIAN: "Novorosiyske"
+ 
+ STATE_1007: "Nubien"
+ STATE_1007_RENAME: "[1007.Controller.GetStateName_1007]"
+ STATE_1007_ARABIC: "An Nūba"
+ STATE_1007_TURKISH: "Nübye"
+ 
+ STATE_1008: "Girga"
+ STATE_1008_RENAME: "[1008.Controller.GetStateName_1008]"
+ STATE_1008_ARABIC: "Jirjā"
+ STATE_1008_TURKISH: "Circa"
+ 
+ STATE_1009: "Kufra"
+ STATE_1009_RENAME: "[1009.Controller.GetStateName_1009]"
+ STATE_1009_ARABIC: "Al Kufrah"
+ STATE_1009_FRENCH: "Koufra"
+ STATE_1009_ITALIAN: "Cufra"
+ STATE_1009_TURKISH: "El Küfre"
+ 
+ STATE_1010: "Darfur"
+ STATE_1010_RENAME: "[1010.Controller.GetStateName_1010]"
+ STATE_1010_ARABIC: "Dār Fūr"
+ 
+ STATE_1011: "Nubische Wüste"
+ STATE_1011_RENAME: "[1011.Controller.GetStateName_1011]"
+ STATE_1011_ARABIC: "Sahrā' an Nūbah"
+ STATE_1011_TURKISH: "Nübye Çölü"
+ 
+ STATE_1012: "Chaoxun"
+ STATE_1012_RENAME: "[1012.Controller.GetStateName_1012]"
+ 
+ STATE_1013: "Chenyuan"
+ STATE_1013_RENAME: "[1013.Controller.GetStateName_1013]"
+ 
+ STATE_1014: "Wuhu"
+ STATE_1014_RENAME: "[1014.Controller.GetStateName_1014]"
+ 
+ STATE_1015: "Liangshan"
+ STATE_1015_RENAME: "[1015.Controller.GetStateName_1015]"
+ 
+ STATE_1016: "Ostborneo"
+ STATE_1016_RENAME: "[1016.Controller.GetStateName_1016]"
+ STATE_1016_DUTCH: "Zuid- & Oost-Borneo"
+ STATE_1016_GERMAN: "Ostborneo"
+ STATE_1016_INDONESIAN: "Kalimantan Timur"
+ 
+ STATE_1017: "Westtimor"
+ STATE_1017_RENAME: "[1017.Controller.GetStateName_1017]"
+ STATE_1017_DUTCH: "Nederlandsch-Timor"
+ STATE_1017_GERMAN: "Westtimor"
+ STATE_1017_INDONESIAN: "Timor Barat"
+ 
+ STATE_1018: "Flores-Inseln"
+ STATE_1018_RENAME: "[1018.Controller.GetStateName_1018]"
+ STATE_1018_DUTCH: "Flores & Soemba"
+ STATE_1018_GERMAN: "Flores-Inseln"
+ STATE_1018_INDONESIAN: "Kepulauan Flores"
+ 
+ STATE_1019: "Ostjava"
+ STATE_1019_RENAME: "[1019.Controller.GetStateName_1019]"
+ STATE_1019_DUTCH: "Oost-Java"
+ STATE_1019_GERMAN: "Ostjava"
+ STATE_1019_INDONESIAN: "Jawa Timur"
+ 
+ STATE_1020: "Residenz von Batavia"
+ STATE_1020_RENAME: "[1020.Controller.GetStateName_1020]"
+ STATE_1020_DUTCH: "Residentie Batavia"
+ STATE_1020_INDONESIAN: "Djakarta"
+ 
+ STATE_1021: "Südsumatra"
+ STATE_1021_RENAME: "[1021.Controller.GetStateName_1021]"
+ STATE_1021_GERMAN: "Südsumatra"
+ STATE_1021_INDONESIAN: "Sumatera Selatan"
+ 
+ STATE_1022: "Mittelsumatra"
+ STATE_1022_RENAME: "[1022.Controller.GetStateName_1022]"
+ STATE_1022_DUTCH: "Westkust van Sumatra"
+ STATE_1022_GERMAN: "Mittelsumatra"
+ STATE_1022_INDONESIAN: "Sumatera Tengah"
+ 
+ STATE_1023: "Nordsumatra"
+ STATE_1023_RENAME: "[1023.Controller.GetStateName_1023]"
+ STATE_1023_DUTCH: "Atjeh & Tapanoeli"
+ STATE_1023_GERMAN: "Nordsumatra"
+ STATE_1023_INDONESIAN: "Sumatera Utara"
+ 
+ STATE_1024: "Dhofar"
+ STATE_1024_RENAME: "[1024.Controller.GetStateName_1024]"
+ STATE_1024_ARABIC: "Zufār"
+ STATE_1024_TURKISH: "Zufar"
+ 
+ STATE_1025: "Kongo-Ubangi"
+ STATE_1025_RENAME: "[1025.Controller.GetStateName_1025]"
+ STATE_1025_FRENCH: "Congo-Oubangui"
+ STATE_1025_GERMAN: "Kongo-Ubangi"
+ 
+ STATE_1026: "Stanleyville"
+ STATE_1026_RENAME: "[1026.Controller.GetStateName_1026]"
+ 
+ STATE_1027: "Oberer Chaco"
+ STATE_1027_RENAME: "[1027.Controller.GetStateName_1027]"
+ STATE_1027_SPANISH: "Alto Chaco"
+ 
+ STATE_1028: "Tierra del Fuego"
+ STATE_1028_RENAME: "[1028.Controller.GetStateName_1028]"
+ 
+ STATE_1029: "Santa Cruz"
+ STATE_1029_RENAME: "[1029.Controller.GetStateName_1029]"
+ 
+ STATE_1030: "Westlicher Amazonas"
+ STATE_1030_RENAME: "[1030.Controller.GetStateName_1030]"
+ STATE_1030_PORTUGUESE: "Amazonas Ocidental"
+ 
+ STATE_1031: "Nördlicher Amazonas"
+ STATE_1031_RENAME: "[1031.Controller.GetStateName_1031]"
+ STATE_1031_PORTUGUESE: "Amazônia Setentrional"
+ 
+ STATE_1032: "Groß-Unjamwesi"
+ STATE_1032_RENAME: "[1032.Controller.GetStateName_1032]"
+ STATE_1032_GERMAN: "Groß-Unjamwesi"
+ 
+ STATE_1033: "Östlicher Amazonas"
+ STATE_1033_RENAME: "[1033.Controller.GetStateName_1033]"
+ STATE_1033_PORTUGUESE: "Amazonas Oriental"
+ 
+ STATE_1034: "Malabar-Küste"
+ STATE_1034_RENAME: "[1034.Controller.GetStateName_1034]"
+ STATE_1034_INDIAN: "Malabar Sagaratat"
+ 
+ STATE_1035: "Anizzah"
+ STATE_1035_RENAME: "[1035.Controller.GetStateName_1035]"
+ STATE_1035_ARABIC: "'Anizah"
+ STATE_1035_TURKISH: "Aniza"
+ 
+ STATE_1036: "Bolivar-Dschungel"
+ STATE_1036_RENAME: "[1036.Controller.GetStateName_1036]"
+ STATE_1036_PORTUGUESE: "Selvas de Bolivar"
+ 
+ STATE_1037: "Inini"
+ STATE_1037_RENAME: "[1037.Controller.GetStateName_1037]"
+ 
+ STATE_1038: "Suriname"
+ STATE_1038_RENAME: "[1038.Controller.GetStateName_1038]"
+ 
+ STATE_1039: "Berbice"
+ STATE_1039_RENAME: "[1039.Controller.GetStateName_1039]"
+ 
+ STATE_1040: "Acre-Dschungel"
+ STATE_1040_RENAME: "[1040.Controller.GetStateName_1040]"
+ STATE_1040_PORTUGUESE: "Selvas do Acre"
+ 
+ STATE_1041: "Iguassú"
+ STATE_1041_RENAME: "[1041.Controller.GetStateName_1041]"
+ STATE_1041_PORTUGUESE: "Iguaçu"
+ STATE_1041_SPANISH: "Iguazú"
+ 
+ STATE_1042: "Badachschan"
+ STATE_1042_RENAME: "[1042.Controller.GetStateName_1042]"
+ STATE_1042_CENTRAL_ASIAN: "Badakhshān"
+ 
+ STATE_1043: "Ponta Porã"
+ STATE_1043_RENAME: "[1043.Controller.GetStateName_1043]"
+ STATE_1043_SPANISH: "Punta Porá"
+ 
+ STATE_1044: "Yuzhang"
+ STATE_1044_RENAME: "[1044.Controller.GetStateName_1044]"
+ 
+ STATE_1045: "Xunyang"
+ STATE_1045_RENAME: "[1045.Controller.GetStateName_1045]"
+ 
+ STATE_1046: "Tingzhang"
+ STATE_1046_RENAME: "[1046.Controller.GetStateName_1046]"
+ 
+ STATE_1047: "Xuhai"
+ STATE_1047_RENAME: "[1047.Controller.GetStateName_1047]"
+ 
+ STATE_1048: "Wuhan"
+ STATE_1048_RENAME: "[1048.Controller.GetStateName_1048]"
+ 
+ STATE_1049: "Shihe"
+ STATE_1049_RENAME: "[1049.Controller.GetStateName_1049]"
+ 
+ STATE_1050: "Huaisi"
+ STATE_1050_RENAME: "[1050.Controller.GetStateName_1050]"
+ 
+ STATE_1051: "Guixi"
+ STATE_1051_RENAME: "[1051.Controller.GetStateName_1051]"
+ 
+ STATE_1052: "Zhenyuan"
+ STATE_1052_RENAME: "[1052.Controller.GetStateName_1052]"
+ 
+ STATE_1053: "Ghegeria"
+ STATE_1053_RENAME: "[1053.Controller.GetStateName_1053]"
+ STATE_1053_ALBANIAN: "Gegëria"
+ STATE_1053_ITALIAN: "Albania del Nord"
+ STATE_1053_SERBIAN: "Skadar"
+ 
+ STATE_1054: "Tiannan"
+ STATE_1054_RENAME: "[1054.Controller.GetStateName_1054]"
+ 
+ STATE_1055: "Liujiang"
+ STATE_1055_RENAME: "[1055.Controller.GetStateName_1055]"
+ 
+ STATE_1056: "Qinlian"
+ STATE_1056_RENAME: "[1056.Controller.GetStateName_1056]"
+ 
+ STATE_1057: "Östliche Provinzen"
+ STATE_1057_RENAME: "[1057.Controller.GetStateName_1057]"
+ STATE_1057_INDIAN: "Poorvee Praant"
+ 
+ STATE_1058: "Ruyang"
+ STATE_1058_RENAME: "[1058.Controller.GetStateName_1058]"
+ 
+ STATE_1059: "Kaifeng"
+ STATE_1059_RENAME: "[1059.Controller.GetStateName_1059]"
+ 
+ STATE_1060: "Hebi"
+ STATE_1060_RENAME: "[1060.Controller.GetStateName_1060]"
+ 
+ STATE_1061: "Daming"
+ STATE_1061_RENAME: "[1061.Controller.GetStateName_1061]"
+ 
+ STATE_1062: "Baoding"
+ STATE_1062_RENAME: "[1062.Controller.GetStateName_1062]"
+ 
+ STATE_1063: "Dezhou"
+ STATE_1063_RENAME: "[1063.Controller.GetStateName_1063]"
+ 
+ STATE_1064: "Linyi"
+ STATE_1064_RENAME: "[1064.Controller.GetStateName_1064]"
+ 
+ STATE_1065: "Jiaodong"
+ STATE_1065_RENAME: "[1065.Controller.GetStateName_1065]"
+ 
+ STATE_1066: "Minhou"
+ STATE_1066_RENAME: "[1066.Controller.GetStateName_1066]"
+ 
+ STATE_1067: "Jinhua"
+ STATE_1067_RENAME: "[1067.Controller.GetStateName_1067]"
+ 
+ STATE_1068: "Qinhuangdao"
+ STATE_1068_RENAME: "[1068.Controller.GetStateName_1068]"
+ 
+ STATE_1069: "Lishui"
+ STATE_1069_RENAME: "[1069.Controller.GetStateName_1069]"
+ 
+ STATE_1070: "Baskenland"
+ STATE_1070_RENAME: "[1070.Controller.GetStateName_1070]"
+ STATE_1070_BASQUE: "Euskadi"
+ STATE_1070_SPANISH: "País Vasco"
+ 
+ STATE_1071: "Matagalpa"
+ STATE_1071_RENAME: "[1071.Controller.GetStateName_1071]"
+ 
+ STATE_1072: "West-Shanxi"
+ STATE_1072_RENAME: "[1072.Controller.GetStateName_1072]"
+ STATE_1072_CHINESE: "Jinxi"
+ 
+ STATE_1073: "Tarija"
+ STATE_1073_RENAME: "[1073.Controller.GetStateName_1073]"
+ STATE_1073_AYMARA: "Tarixa"
+ 
+ STATE_1074: "Misiones"
+ STATE_1074_RENAME: "[1074.Controller.GetStateName_1074]"
+ 
+ STATE_1075: "Nantong"
+ STATE_1075_RENAME: "[1075.Controller.GetStateName_1075]"
+ 
+ STATE_1076: "Veria"
+ STATE_1076_RENAME: "[1076.Controller.GetStateName_1076]"
+ STATE_1076_BULGARIAN: "Berŭ"
+ STATE_1076_GREEK: "Véroia"
+ STATE_1076_TURKISH: "Karaferye"
+ 
+ STATE_1077: "Sankt Martin"
+ STATE_1077_RENAME: "[1077.Controller.GetStateName_1077]"
+ STATE_1077_DUTCH: "Sint Maarten"
+ 
+ STATE_1078: "Barima"
+ STATE_1078_RENAME: "[1078.Controller.GetStateName_1078]"
+ 
+ STATE_1079: "Essequibo"
+ STATE_1079_RENAME: "[1079.Controller.GetStateName_1079]"
+ 
+ STATE_1080: "Abchasien"
+ STATE_1080_RENAME: "[1080.Controller.GetStateName_1080]"
+ STATE_1080_ABKHAZ: "Apsny"
+ STATE_1080_GEORGIAN: "Apkhazeti"
+ STATE_1080_RUSSIAN: "Chernomorye"
+ STATE_1080_TURKISH: "Abhazya"
+ 
+ STATE_1081: "Valladolid"
+ STATE_1081_RENAME: "[1081.Controller.GetStateName_1081]"
+ 
+ STATE_1082: "Guadalajara"
+ STATE_1082_RENAME: "[1082.Controller.GetStateName_1082]"
+ 
+ STATE_1083: "Kumul"
+ STATE_1083_RENAME: "[1083.Controller.GetStateName_1083]"
+ STATE_1083_CHINESE: "Hami"
+ STATE_1083_MONGOLIAN: "Khamil"
+ 
+ STATE_1084: "Westmongolei"
+ STATE_1084_RENAME: "[1084.Controller.GetStateName_1084]"
+ STATE_1084_CHINESE: "Wuliyasutai"
+ STATE_1084_MONGOLIAN: "Baruun Mongol"
+ STATE_1084_RUSSIAN: "Zapadnaya Mongoliya"
+ 
+ STATE_1085: "Taklamakan-Wüste"
+ STATE_1085_RENAME: "[1085.Controller.GetStateName_1085]"
+ STATE_1085_CHINESE: "Takelamagan Shamo"
+ STATE_1085_UIGHUR: "Teklimakan Qumluqi"
+ 
+ STATE_1086: "Changtang"
+ STATE_1086_RENAME: "[1086.Controller.GetStateName_1086]"
+ STATE_1086_CHINESE: "Qiangtang"
+ STATE_1086_TIBETAN: "Qangtang"
+ 
+ STATE_1087: "Mogilew"
+ STATE_1087_RENAME: "[1087.Controller.GetStateName_1087]"
+ STATE_1087_BELARUSIAN: "Mahilioŭ"
+ STATE_1087_RUSSIAN: "Mogilev"
+ 
+ STATE_1088: "Chelm"
+ STATE_1088_RENAME: "[1088.Controller.GetStateName_1088]"
+ STATE_1088_POLISH: "Chełm"
+ STATE_1088_RUSSIAN: "Kholm"
+ 
+ STATE_1089: "Kardzhali"
+ STATE_1089_RENAME: "[1089.Controller.GetStateName_1089]"
+ STATE_1089_BULGARIAN: "Kŭrdzhali"
+ STATE_1089_GREEK: "Kártsali"
+ STATE_1089_TURKISH: "Mestanli"
+ 
+ STATE_1090: "Preßburg"
+ STATE_1090_RENAME: "[1090.Controller.GetStateName_1090]"
+ STATE_1090_CZECH: "Prešporok"
+ STATE_1090_GERMAN: "Preßburg"
+ STATE_1090_HUNGARIAN: "Pozsony"
+ STATE_1090_POLISH: "Pożoń"
+
+ STATE_1091: "Wollega"
+ STATE_1091_RENAME: "[1091.Controller.GetStateName_1091]"
+ STATE_1091_ITALIAN: "Uollega"
+
+ STATE_1092: "Godscham"
+ STATE_1092_RENAME: "[1092.Controller.GetStateName_1092]"
+ STATE_1092_ETHIOPIAN: "Gōjjām"
+ STATE_1092_ITALIAN: "Goggiam"
+
+ STATE_1093: "Wällo"
+ STATE_1093_RENAME: "[1093.Controller.GetStateName_1093]"
+ STATE_1093_ETHIOPIAN: "Welo"
+ STATE_1093_ITALIAN: "Uollo"
+
+ STATE_1094: "Bale"
+ STATE_1094_RENAME: "[1094.Controller.GetStateName_1094]"
+ STATE_1094_ETHIOPIAN: "Balē"
+
+ STATE_1095: "Timbuktu"
+ STATE_1095_RENAME: "[1095.Controller.GetStateName_1095]"
+ STATE_1095_FRENCH: "Tombouctou"
+
+ STATE_1096: "Jaunde"
+ STATE_1096_RENAME: "[1096.Controller.GetStateName_1096]"
+ STATE_1096_FRENCH: "Yaoundé"
+ STATE_1096_GERMAN: "Jaunde"
+
+ STATE_1097: "Kaoko-Feld"
+ STATE_1097_RENAME: "[1097.Controller.GetStateName_1097]"
+ STATE_1097_GERMAN: "Kaoko-Feld"
+
+ STATE_1098: "Großnamaland"
+ STATE_1098_RENAME: "[1098.Controller.GetStateName_1098]"
+ STATE_1098_GERMAN: "Großnamaland"
+
+ STATE_1099: "Samnam"
+ STATE_1099_RENAME: "[1099.Controller.GetStateName_1099]"
+ STATE_1099_CHINESE: "Sannan"
+
+ STATE_1100: "Gwanbuk"
+ STATE_1100_RENAME: "[1100.Controller.GetStateName_1100]"
+ STATE_1100_CHINESE: "Guanbei"
+ STATE_1100_JAPANESE: "Kanhoku"
+
+ STATE_1101: "Nord Kanto"
+ STATE_1101_RENAME: "[1101.Controller.GetStateName_1101]"
+ STATE_1101_JAPANESE: "Kita-Kantō"
+
+ STATE_1102: "Süd Kyushu"
+ STATE_1102_RENAME: "[1102.Controller.GetStateName_1102]"
+ STATE_1102_JAPANESE: "Minami-Kyūshū"
+
+ STATE_1103: "San'in"
+ STATE_1103_RENAME: "[1103.Controller.GetStateName_1103]"
+
+ STATE_1104: "Hyogo"
+ STATE_1104_RENAME: "[1104.Controller.GetStateName_1104]"
+ STATE_1104_JAPANESE: "Hyōgo"
+
+ STATE_1105: "Koshinsei"
+ STATE_1105_RENAME: "[1105.Controller.GetStateName_1105]"
+ STATE_1105_JAPANESE: "Kōshinsei"
+
+ STATE_1106: "Nord Tohoku"
+ STATE_1106_RENAME: "[1106.Controller.GetStateName_1106]"
+ STATE_1106_JAPANESE: "Kita-Tōhoku"
+
+ STATE_1107: "Drauland"
+ STATE_1107_RENAME: "[1107.Controller.GetStateName_1107]"
+ STATE_1107_GERMAN: "Drauland"
+ STATE_1107_SLOVENIAN: "Podravje"
+
+ STATE_1108: "Cumberland"
+ STATE_1108_RENAME: "[1108.Controller.GetStateName_1108]"
+
+ STATE_1109: "Mura"
+ STATE_1109_RENAME: "[1109.Controller.GetStateName_1109]"
+ STATE_1109_GERMAN: "Murgebiet"
+ STATE_1109_HUNGARIAN: "Muravidék"
+ STATE_1109_SLOVENIAN: "Murje"
+
+ STATE_1110: "$VICTORY_POINTS_989$"
+ STATE_1110_RENAME: "[1110.Controller.GetStateName_1110]"
+ STATE_1110_ARABIC: "$VICTORY_POINTS_989_ARABIC$"
+
+ STATE_1111: "Hukawng-Tal"
+ STATE_1111_RENAME: "[1111.Controller.GetStateName_1111]"
+ STATE_1111_BURMESE: "Hukaung Gyainhwan"
+ STATE_1111_CHINESE: "Jiangxinpo"
+
+ STATE_1112: "Fünen"
+ STATE_1112_RENAME: "[1112.Controller.GetStateName_1112]"
+ STATE_1112_DANISH: "Fyn"
+
+ STATE_1113: "Cautín"
+ STATE_1113_RENAME: "[279.Controller.GetStateName_1113]"

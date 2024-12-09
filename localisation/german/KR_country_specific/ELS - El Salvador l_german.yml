@@ -1,0 +1,832 @@
+﻿l_german:
+
+## Übersetzt von Thylon ##
+
+####################
+# El Salvador Localisation
+# Done by Drozdovite and Beelzebub
+####################
+
+El_Salvador: "Schwerpunktbaum von El Salvador"
+
+### Parties ###
+ELS_totalist_party_long: "Alianza Totalista Nacionalista (Nationalistisch-totalistische Allianz)"
+ELS_totalist_party: "ATN"
+ELS_syndicalist_party_long: "Fuerzas Populares de Liberación (Volksbefreiungskräfte)"
+ELS_syndicalist_party: "FPL"
+ELS_radical_socialist_party_long: "Movimiento Renovador (Renovierungsbewegung)"
+ELS_radical_socialist_party: "MR"
+ELS_social_democrat_party_long: "Partido Laborista (Arbeiterpartei)"
+ELS_social_democrat_party: "PL"
+ELS_social_liberal_party_long: "Partido Nacional Democrático (Nationale Demokratische Partei)"
+ELS_social_liberal_party: "PND"
+ELS_market_liberal_party_long: "Partido Demócrata Cristiano (Christlich-demokratische Partei)"
+ELS_market_liberal_party: "PDC"
+ELS_social_conservative_party_long: "Alianza Republicana Nacionalista (Nationalistisch-Republikanische Allianz)"
+ELS_social_conservative_party: "ARN"
+ELS_authoritarian_democrat_party_long: "Partido Revolucionario de Unificación Democrática (Revolutionäre Demokratische Vereinigungspartei)"
+ELS_authoritarian_democrat_party: "PRUD"
+ELS_paternal_autocrat_party_long: "Fuerza Armada de El Salvador (Streitkräfte von El Salvador)"
+ELS_paternal_autocrat_party: "FAEL"
+ELS_national_populist_party_long: "Partido Nacional Pro-Patria (Nationale Partei des Vaterlandes)"
+ELS_national_populist_party: "PNPP"
+
+##Modifiers##
+ELS_border_treaty_accepted: "Akzeptierte den Grenzvertrag"
+ELS_border_treaty_refused: "Lehnte den Grenzvertrag ab"
+
+### Tooltips ###
+ELS_revolution_begins_flag: "§RDie salvadorianische Revolution von 1937 hat begonnen.§!"
+ELS_vanguard_stands_flag: "§RDie militärische Vorhut ist stark geblieben.§!"
+ELS_pro_patria_destroyed_flag: "§YSalinas hat Martínez erfolgreich abgesetzt.§!"
+ELS_pro_patria_stands_flag: "§YMartínez hat allen Widrigkeiten getrotzt.§!"
+
+ELS_revolution_success_flag: "§RDie Revolution gegen die Pro-Patria-Partei ist gelungen.§!"
+ELS_presidency_restored_flag: "§YDie Präsidentschaft wurde wiederhergestellt.§!"
+ELS_syndicalist_country_flag: "§YEs wurde beschlossen, dem syndikalistischen System zu folgen.§!"
+ELS_military_victory_flag: "§YDas Militär ist wieder an die Macht gekommen.§!"
+ELS_national_democratic_victory_flag: "§YDie Nationaldemokratische Partei hat es geschafft, in die Politik zurückzukehren.§!"
+ELS_labour_victory_flag: "§YDie Arbeiterpartei hat es geschafft, den Präsidentenposten zu behalten.§!"
+ELS_military_takeover_flag: "§YDie Armee hat San Salvador zurückerobert und gesichert!§!"
+ELS_revolution_over_flag: "§YDie Revolution muss vorbei sein.§!"
+
+ELS_will_upgrade_union: "Dadurch wird die gewählte Gewerkschaft aufgewertet, was die folgenden Auswirkungen hat:"
+
+ELS_election_angry_military: "§RDas salvadorianische Militär wurde nicht geschwächt und könnte intervenieren!§!"
+ELS_military_not_neutered: "§RDas salvadorianische Militär hat eine lange Geschichte der Einmischung in die Politik, und wenn man sich ihnen nicht entgegenstellt, könnte man sie weiter ermutigen!§!"
+
+els_ratification_treaty: "§GWir werden eine Botschaft an Honduras und Guatemala senden, damit sie den Vertrag endgültig unterzeichnen.§!"
+
+ELS_foreign_asset_status: "Wir entscheiden über den Status von Auslandsvermögen. Wir haben folgende Möglichkeiten, je nachdem, ob wir sozialistisch sind oder nicht:"
+
+ELS_buy_planes_tt: "Schaltet £decision_icon_small §HEntscheidungen§! zum Kauf von Flugzeugen für ausländische Unternehmen frei"
+
+##Decisions##
+ELS_Buying_planes_decisions: "Flugzeugproduktion beantragen"
+ELS_buying_fighters: "Ausländische Jäger beschaffen"
+ELS_buying_fighters_desc: "Angesichts der Unzulänglichkeiten unserer einheimischen Flugzeugindustrie müssen wir uns bei der Herstellung unserer lizenzierten Flugzeuge auf ausländisches Know-how verlassen, um uns vor denjenigen zu schützen, die unseren Himmel bedrohen könnten. Das amerikanische Unternehmen Curtiss-Wright Corporation hat uns 1933 eine wirklich gute Serie von Doppeldecker-Modellen geschickt. Sie dienten zwar der Ausbildung unserer Piloten, aber jetzt brauchen wir sie mit Feuerkraft, und deshalb haben unsere Ingenieure ein modifiziertes Design entwickelt, das den Einsatz von Maschinengewehren ermöglicht. Wir werden ihre Produktionskapazitäten anfordern, um diese neuen Modelle zu produzieren, natürlich zu einem angemessenen Preis."
+ELS_buying_fighters1: "Ausländische Jäger beschaffen"
+ELS_buying_fighters1_desc: "Angesichts der Unzulänglichkeiten unserer einheimischen Flugzeugindustrie müssen wir uns bei der Herstellung unserer lizenzierten Flugzeuge auf ausländisches Know-how verlassen, um uns vor denen zu schützen, die unseren Himmel bedrohen könnten. Das amerikanische Unternehmen Fairchild Aircraft hat ein neues Schulungsflugzeugmodell entwickelt, aber angesichts der derzeitigen Lage in den Vereinigten Staaten findet es keine Käufer für diese Flugzeuge. Wir werden eine Variante dieses Modells anfordern, die für den Luftkampf vorbereitet ist. Dies wird dazu beitragen, unsere Luftstreitkräfte noch weiter zu konsolidieren."
+ELS_buying_CAS: "Ausländische Luftnahunterstützung beschaffen"
+ELS_buying_CAS_desc: "Angesichts der Unzulänglichkeiten unserer einheimischen Flugzeugindustrie müssen wir uns bei der Herstellung unserer lizenzierten Flugzeuge auf ausländisches Know-how verlassen, um uns vor denjenigen zu schützen, die unser Land bedrohen könnten. Das italienische Unternehmen Caproni hat in den letzten Jahren ein Angriffsflugzeug entwickelt, das viele Mitglieder unserer Luftstreitkräfte beeindruckt hat. Wir werden einige ihrer Flugzeuge anfordern, um unsere Infanterie in künftigen Kriegen zu unterstützen."
+ELS_buying_nav_bombers: "Ausländische Marinebomber beschaffen"
+ELS_buying_nav_bombers_desc: "Angesichts der Unzulänglichkeiten unserer einheimischen Flugzeugindustrie müssen wir uns bei der Herstellung unserer lizenzierten Flugzeuge auf ausländisches Know-how verlassen, um uns vor denen zu schützen, die unsere Gewässer bedrohen könnten. Das amerikanische Unternehmen North American Aviation hat 1935 ein Trainingsflugzeugmodell entwickelt, das viele unserer Mitarbeiter beeindruckt hat. Seine Manövrierfähigkeit übertrifft zwar nicht die der Curtiss-Wright- und Fairchild-Flugzeuge, aber unsere Ingenieure haben eine Version der T-6 entwickelt, die für Küstenpatrouillen und Seebombardements eingesetzt werden kann. Wir werden ihre Produktionskapazitäten anfordern, um diese neuen Entwürfe zu produzieren, natürlich zu einem angemessenen Preis."
+
+### Ideas ###
+## Starting ideas ##
+
+CEN_monroe_doctrine: "Monroe Doktrin"
+CEN_monroe_doctrine_desc: "Die von den USA erlassene Monroe-Doktrin hat dazu geführt, dass unsere Nation über keine nennenswerten militärischen Kräfte verfügt und generell nicht in der Lage ist, gegen andere amerikanische Länder in den Krieg zu ziehen. Dies gewährleistet zwar die Sicherheit unseres Landes, schränkt aber die Möglichkeiten einer Expansion stark ein."
+
+ELS_memories_32: "Erinnerungen an '32"
+ELS_memories_32_desc: "Das Massaker an den Sozialisten und der indigenen Bevölkerung im Westen El Salvadors hat in unserem Land Narben hinterlassen, und an jeder Ecke lauern Verräter der sozialistischen Guerilla. Sollten sich die Vereinigten Staaten als unfähig erweisen, zu intervenieren, könnte dies zu einem völligen Zusammenbruch unseres Regimes führen."
+
+ELS_depression_leftovers: "Überreste der Depression"
+ELS_depression_leftovers_desc: "Die Große Depression in den Vereinigten Staaten hat unseren Kaffeemarkt weitgehend zerstört, und die Instabilität hat unser Land in den 20er Jahren in Mitleidenschaft gezogen. Dank zahlreicher Bankenreformen und einer natürlichen Entwicklung im Laufe der Zeit hat die Depression El Salvador weitgehend verlassen, wirkt sich aber an einigen Stellen immer noch auf unser Land aus."
+
+## Industrial ideas ##
+
+ELS_coffee_exports: "Kaffee-Exporte"
+ELS_coffee_exports_desc: "Während die meisten anderen mittelamerikanischen Länder als Bananenrepubliken gelten, sind wir einzigartig, weil wir keine großen Mengen an Bananen, dafür aber große Mengen an Kaffee haben. Dies macht uns zu einem begehrten Handelspartner für andere, da wir ein Monopol auf diesen Artikel haben."
+
+ELS_coffee_exports_2: "Kaffee-Exporte"
+ELS_coffee_exports_2_desc: "Während die meisten anderen mittelamerikanischen Länder als Bananenrepubliken gelten, sind wir einzigartig, weil wir keine großen Mengen an Bananen, dafür aber große Mengen an Kaffee haben. Dies macht uns zu einem begehrten Handelspartner für andere, da wir ein Monopol auf diesen Artikel haben."
+
+ELS_coffee_exports_3: "Kaffee-Exporte"
+ELS_coffee_exports_3_desc: "Während die meisten anderen mittelamerikanischen Länder als Bananenrepubliken gelten, sind wir einzigartig, weil wir keine großen Mengen an Bananen, dafür aber große Mengen an Kaffee haben. Dies macht uns zu einem begehrten Handelspartner für andere, da wir ein Monopol auf diesen Artikel haben."
+
+ELS_coffee_exports_4: "Handelswirtschaft"
+ELS_coffee_exports_4_desc: "Der jüngste Boom im Außenhandel hat dazu geführt, dass der Großteil unserer Wirtschaft auf dem Außenhandel basiert. Dies hat den wirtschaftlichen Wohlstand für jetzt und sicherlich auch für die Zukunft gesichert, oder?"
+
+ELS_depression_revamped: "Die Depression in neuem Gewand"
+ELS_depression_revamped_desc: "Die Große Depression in den Vereinigten Staaten hat sich infolge des Schwarzen Montags in Deutschland verschlimmert. Das hat zwar unsere Wirtschaft getroffen, aber das ist nichts im Vergleich zur ursprünglichen Depression. Sicherlich werden wir die Situation bald in den Griff bekommen."
+
+ELS_depression_revamped_2: "Die Depression in neuem Gewand"
+ELS_depression_revamped_2_desc: "Die Große Depression in den Vereinigten Staaten hat sich infolge des Schwarzen Montags in Deutschland verschlimmert. Das hat zwar unsere Wirtschaft getroffen, aber das ist nichts im Vergleich zur ursprünglichen Depression. Sicherlich werden wir die Situation bald in den Griff bekommen."
+
+ELS_depression_revamped_3: "Die Depression in neuem Gewand"
+ELS_depression_revamped_3_desc: "Die Große Depression in den Vereinigten Staaten hat sich infolge des Schwarzen Montags in Deutschland verschlimmert. Das hat zwar unsere Wirtschaft getroffen, aber das ist nichts im Vergleich zur ursprünglichen Depression. Sicherlich werden wir die Situation bald in den Griff bekommen."
+
+ELS_revolution_scars: "Revolutionäre Narben"
+ELS_revolution_scars_desc: "Die Revolution ist zwar längst vorbei, aber das Blutvergießen und die allgemeine Unruhe in der Bevölkerung haben die Entwicklung erheblich erschwert. Dies muss bald in Angriff genommen werden, wenn wir an der Macht bleiben wollen."
+
+ELS_revolution_scars_2: "Revolutionäre Narben"
+ELS_revolution_scars_2_desc: "Die Revolution ist zwar längst vorbei, aber das Blutvergießen und die allgemeine Unruhe in der Bevölkerung haben die Entwicklung erheblich erschwert. Dies muss bald in Angriff genommen werden, wenn wir an der Macht bleiben wollen."
+
+ELS_revolution_scars_3: "Revolutionäre Narben"
+ELS_revolution_scars_3_desc: "Die Revolution ist zwar längst vorbei, aber das Blutvergießen und die allgemeine Unruhe in der Bevölkerung haben die Entwicklung erheblich erschwert. Dies muss bald in Angriff genommen werden, wenn wir an der Macht bleiben wollen."
+
+ELS_agriculture_reform: "Agrarreform"
+ELS_agriculture_reform_desc: "Mit dem jüngsten Aufstieg der Sozialdemokraten wurden enorme Anstrengungen unternommen, um sicherzustellen, dass wir nicht mehr vollständig vom Kaffee abhängig sind, und die Landwirtschaft von Grund auf zu reformieren. Dies hat erhebliche Vorteile gebracht und trägt dazu bei, dass wir einer eigenständigen Wirtschaft näher kommen."
+
+ELS_agriculture_reform_2: "Landwirtschaft & Sicherheit"
+ELS_agriculture_reform_2_desc: "Mit dem jüngsten Aufstieg der Sozialdemokraten wurden enorme Anstrengungen unternommen, um sicherzustellen, dass wir nicht mehr vollständig vom Kaffee abhängig sind, und die Landwirtschaft von Grund auf zu reformieren. Dies hat erhebliche Vorteile gebracht und trägt dazu bei, dass wir einer eigenständigen Wirtschaft näher kommen."
+
+ELS_civillian_union: "Unterstützte UNT"
+ELS_civillian_union_desc: "Die Förderung der UNT hat dazu beigetragen, dass unser Volk ein besseres tägliches Leben führt und die Kontrolle über unsere eigene Wirtschaft gegenüber den imperialistischen Ausländern sichergestellt."
+
+ELS_civillian_union_2: "Gestärkte UNT"
+ELS_civillian_union_2_desc: "Die Förderung der UNT hat dazu beigetragen, dass unser Volk ein besseres tägliches Leben führt und die Kontrolle über unsere eigene Wirtschaft gegenüber den imperialistischen Ausländern sichergestellt."
+
+ELS_military_union: "Unterstützte FETRES"
+ELS_military_union_desc: "Die Förderung der FETRES hat dazu beigetragen, unsere Waffenindustrie in den Mittelpunkt zu rücken, um sicherzustellen, dass keine ausländischen Mächte wie die Vereinigten Staaten jemals wieder in unsere Unabhängigkeit eindringen können."
+
+ELS_military_union_2: "Gestärkte FETRES"
+ELS_military_union_2_desc: "Die Förderung der FETRES hat dazu beigetragen, unsere Waffenindustrie in den Mittelpunkt zu rücken, um sicherzustellen, dass keine ausländischen Mächte wie die Vereinigten Staaten jemals wieder in unsere Unabhängigkeit eindringen können."
+
+ELS_bank_reform: "Bankenreformen"
+ELS_bank_reform_desc: "Das Hauptziel der Pro-Patria-Partei war es, die Wirtschaft aus dem großen Einbruch herauszuholen, und viele Projekte wie die Nationale Behörde haben dazu beigetragen. Diese Reformen müssen fortgesetzt werden, um auf künftige wirtschaftliche Einbrüche vorbereitet zu sein und um sicherzustellen, dass wir sie abwehren können."
+
+ELS_industrial_idea: "Beginnende Industrialisierung"
+ELS_industrial_idea_desc: "Da unsere Wirtschaftsdoktrin fest verankert ist, hat unser Land den Schwerpunkt auf seine Industrialisierung und seinen Wohlstand gelegt, um seine Größe für die Zukunft zu sichern."
+
+ELS_coffee_exportation_to_our_friends: "Kaffee-Importe"
+
+## Military ideas ##
+
+ELS_guerilla_warfare_knowledge: "Guerillakrieg"
+ELS_guerilla_warfare_knowledge_desc: "In Anbetracht der Region, in der wir leben, hat die Armee beschlossen, eine Guerillakriegsdoktrin zu verfolgen, um unter allen Bedingungen kämpfen zu können. Dies wird unsere defensiven Fähigkeiten und unsere Fähigkeit, unter schwierigen Bedingungen zu kämpfen, verbessern, aber Offensiven sehr viel schwieriger machen."
+
+ELS_inspired_youth: "Inspirierte Jugend"
+ELS_inspired_youth_desc: "Unsere Bemühungen um den Guerillakrieg haben es dem einfachen Mann leichter gemacht, in die Armee einzutreten, und mehr Menschen inspiriert, sich und ihr Land gegen ausländische Bedrohungen zu verteidigen."
+
+ELS_inspired_youth_dangerous: "Einberufungs Flut"
+ELS_inspired_youth_dangerous_desc: "Die jüngste Bedrohung unserer Nation hat dazu geführt, dass immer mehr Menschen in die Armee strömen."
+
+ELS_professional_army_knowledge: "Eine professionelle Armee"
+ELS_professional_army_knowledge_desc: "Um uns auf den künftigen Kampf vorzubereiten, haben wir beschlossen, die chaotischen Kampfmethoden zugunsten einer besser organisierten Armee aufzugeben."
+
+ELS_military_academy_idea: "Generalkapitän Gerardo Barrios Militärschule"
+ELS_military_academy_idea_desc: "Immer mehr junge Menschen entscheiden sich für unsere beliebteste Militärschule, was zu mehr Innovation in der Arbeitsweise unserer Armee geführt hat."
+
+ELS_naval_production_idea: "Unser Land verteidigen"
+ELS_naval_production_idea_desc: "Die jüngste Genehmigung zur Gründung einer Marine hat vielen die Möglichkeit eröffnet, in die Marine einzutreten, um das Wasser zu testen, und trägt dazu bei, die Effizienz unserer kleinen Marine zu erhöhen."
+
+ELS_air_production_idea: "Neue Luftfahrtindustrie"
+ELS_air_production_idea_desc: "Mit den Beschränkungen, die Amerika unserer Luftstreitkraft auferlegt hat, sind wir jetzt freier, eine Luftstreitkraft zu schaffen, die den Himmel in Mittelamerika über alle unsere Gegner beherrscht."
+
+##Political tree ideas
+ELS_new_guard1: "Die neue Garde"
+ELS_new_guard1_desc: "Während die alte Pro-Patria-Partei verkümmert, festigen die Streitkräfte ihren Einfluss auf das Land. Mit einer erneuerten Legitimität gegenüber den Pro-Patria-Despoten und einem etwas weicheren Ansatz in sozialen Fragen regiert Salinas unangefochten."
+
+ELS_new_guard4: "Republik neu ausgerufen"
+ELS_new_guard4_desc: "Um die Legitimität der Armee zu festigen, hat Salinas beschlossen, die ausgesetzte Republik erneut auszurufen und sich selbst zum Präsidenten von El Salvador zu erklären."
+
+ELS_new_guard5: "Verfassung wiederhergestellt"
+ELS_new_guard5_desc: "Als letzten Schritt, um seine Legitimität in den Augen der Öffentlichkeit zu sichern, hat Salinas die Verfassung wiederhergestellt, wenn auch nur teilweise, um dem Land Stabilität zu sichern, aber eine begrenzte Freiheit für die Bürger El Salvadors."
+
+ELS_propatriaholds: "Pro Patria konsolidiert"
+ELS_propatriaholds_desc: "Die Pro Patria hat sich erneut gegen ihre Feinde durchgesetzt, und Martínez wird nun alles daran setzen, seine Macht zu festigen und seine Opposition ein für alle Mal zu zerschlagen."
+
+ELS_cleanse_gommies: "Sozialistische Niederschlagung"
+
+ELS_militirazation1: "Militarisierung von El Salvador"
+ELS_militirazation1_desc: "Unsere jüngsten Unzulänglichkeiten bei der Bewältigung des Aufstands haben uns gezeigt, dass El Salvador schwach ist und dass wir Maßnahmen ergreifen müssen, um sicherzustellen, dass unser Land im Falle eines Konflikts bereit ist. Allerdings ist unsere Armee jetzt zwischen Pro-Patria-Loyalisten und gemäßigten Offizieren gespalten, und wir werden nicht in der Lage sein, sie wirksam zu koordinieren, solange ihre Differenzen nicht gelöst sind."
+
+ELS_militirazation15: "Gemeinsame militärische Kontrolle"
+ELS_militirazation15_desc: "Unsere jüngsten Unzulänglichkeiten bei der Bewältigung des Aufstands haben uns gezeigt, dass El Salvador schwach ist und dass wir Schritte unternehmen müssen, um unser Land für den Fall eines Konflikts zu wappnen. Nachdem die Kluft zwischen den Pro-Patria-Offizieren und dem Rest der Armee überwunden ist, können wir uns darauf konzentrieren, die Militarisierung El Salvadors zu vollenden, damit wir im Falle eines totalen Krieges bereit sein können."
+
+ELS_militirazation2_left: "Ein Militär mit einem Staat"
+ELS_militirazation2_left_desc: "Unser Militär ist jetzt bereit für den totalen Krieg. Wir haben beschlossen, der Armee mehr Exekutivrechte einzuräumen, um die Verteidigung unseres Landes besser zu koordinieren, und mit den Militarisierungsbemühungen wird El Salvador langsam zu einer Armee mit Staat."
+
+ELS_militirazation2_right: "Militärische Fördermittel"
+ELS_militirazation2_right_desc: "Unser Militär ist jetzt für den totalen Krieg bereit. Wir haben beschlossen, der Armee mehr Mittel zur Verfügung zu stellen, um mehr Soldaten zu bezahlen und sich mehr Ausrüstung leisten zu können, und mit den Militarisierungsbemühungen werden wir im Falle eines Krieges eine Kraft sein, mit der man rechnen muss."
+
+ELS_memories_32_part_2: "Erinnerungen an '32"
+ELS_memories_32_part_2_desc: "Das Massaker an den Sozialisten und der indigenen Bevölkerung im Westen El Salvadors hat in unserem Land Narben hinterlassen, denn an jeder Ecke lauern Verräter der sozialistischen Guerrilla. Als die USA zusammenbrachen, kochten diese Spannungen in einer neuen Rebellion über, und jetzt, da wir stärker sind als zuvor, müssen wir uns darauf konzentrieren, die Erinnerung an solche Ereignisse loszuwerden, wenn wir an der Macht bleiben wollen."
+
+ELS_native_rights_for_all: "Rechte der Einheimischen erweitert"
+
+ELS_divided_no_more: "Nicht mehr geteilt"
+
+ELS_unruly_military: "Widerspenstiges Militär"
+ELS_unruly_military_desc: "Als wir unseren Sieg verkündeten, begannen die verbliebenen Militärangehörigen einen offenen Aufstand, einige übernahmen sogar kleine Städte, organisierten Guerillalager, militarisierten Außenposten und schossen sogar auf Regierungsbeamte. Wir müssen uns mit dieser Situation auseinandersetzen, wenn wir in naher Zukunft an der Macht bleiben wollen."
+
+ELS_unruly_military2: "Verbleibender militärischer Einfluss"
+ELS_unruly_military2_desc: "Als wir unseren Sieg verkündeten, begannen die verbliebenen Militärangehörigen einen offenen Aufstand, einige übernahmen sogar kleine Städte, organisierten Guerillalager, militarisierten Außenposten und schossen sogar auf Regierungsbeamte. Obwohl wir vor kurzem gegen ihre Aktivitäten vorgegangen sind, hält ihr Einfluss an, und viele unserer Bürger weigern sich, in der Armee zu dienen, weil sie unter dem Einfluss der alten Armee stehen. Wir müssen ihren Einfluss ausrotten und eine neue Armee von Grund auf aufbauen."
+
+ELS_military_purge: "Militär gesäubert"
+ELS_no_censorship: "Zensur abgeschafft"
+ELS_classless_society: "Klassenlose Gesellschaft"
+ELS_democratic_salvador: "Der Weg zur Demokratie"
+ELS_democratic_salvador3right: "Mittelschicht etabliert"
+ELS_democratic_salvador3left: "Den Armen aufhelfen"
+ELS_remade_constitution: "Verfassung umgeschrieben"
+ELS_remade_constitution2: "Ausgedehnte politische Kontrolle"
+ELS_scheming_military: "Schemenhaftes Militär"
+ELS_loyalty_to_democracy: "Loyalität gegenüber der Demokratie"
+ELS_a_military_reborn: "Ein wiedergeborenes Militär"
+
+### Intro Screen ###
+ELS_country_intro_header: "Einführung in El Salvador"
+ELS_country_intro_content: "Der Staatsstreich von Maximiliano Hernández Martínez, der im Dezember 1931 als Vizepräsident gegen die Laborista-Partei und Arturo Araujo putschte, brachte sofortige Unruhe in das Land und beendete eine echte Wiederherstellung der Demokratie gleich zu Beginn. Der Grund für diesen Putsch war eine alarmierende Gehaltskürzung für das Militär zugunsten der Polizei, wodurch er eine geringe Unterstützung in der Bevölkerung erhielt. Mit seiner Politik der Unterdrückung jeglicher Opposition, der Militarisierung des Staates und dem Verbot aller anderen Parteien neben seiner Pro-Patria-Partei, an den Wahlen teilzunehmen, gelang es Martínez, seine Macht in El Salvador zu festigen.\n\nDas Bauernmassaker von 1932 begann, weil Maximiliano eine von Agustín Farabundo Martí und Feliciano Ama inspirierte Politik gegen die Ureinwohner im Westen verfolgte. Während dies zunächst keine Bedrohung darstellte, führte der Erfolg der nicaraguanischen Revolution unter Sandino dazu, dass sich mehr Menschen auf die Seite der Rebellen stellten. Zwar konnten sie immer noch keine Erfolge gegen das Militär erzielen, doch der Sieg Zapatas bei den mexikanischen Wahlen versorgte die Rebellen mit Waffen. Die Rebellion dauerte bis zum 22. Januar 1933, wobei 70 000 Menschen starben und die Rebellenführer Feliciano Ama und Agustín Farabundo Martí sich nach Mexiko zurückzogen.\n\nPartisanen sind in El Salvador keine Seltenheit mehr, denn Maximilianos Regime wird von einem großen Teil der Bevölkerung gehasst. Darüber hinaus hat Maximilianos Art, mit der Rebellion umzugehen, dazu geführt, dass illoyale Teile des Militärs aufgetaucht sind und Maximilianos Regime von den Amerikanern an der kurzen Leine gehalten wird."
+
+ELS_guide: "§MNeue Garde§! (§PPaternal Autokratisch§!)\n£white_dot Schicken Sie die Armee in dem Ereignis \"Verlegung der Armee\"\n£white_dot Haltet Salinas in dem Ereignis \"Die Konfrontation\" nicht in Sicherheit\n\n§MPro Patria Holds On§! (§NNationalpopulisten§!)\n£white_dot Schicken Sie nicht die Armee in dem Ereignis \"Verlegung der Armee\"\n£white_dot Unterstützen Sie die Anti-Partisanen-Truppe bei dem Ereignis \"Schlägereien auf der Straße\"\n\n§MDer syndikalistische Traum§! (§rSyndikalisten§!)\n£white_dot Gewinnen Sie den Bürgerkrieg als Revolutionäre.\n£white_dot Schicken Sie nicht die Armee in dem Ereignis \"Verlegung der Armee\"\n£white_dot Unterstützen Sie die Hauptstreitkräfte bei dem Ereignis \"Schlägereien auf der Straße\"\n£white_dot Entscheiden Sie sich, die Präsidentschaft nicht wiederherzustellen\n£white_dot Sie können sich auch dafür entscheiden, die Präsidentschaft wiederherzustellen und dann die Syndikalen zu wählen (siehe unten)\n\n§MPartido Laborista / Partido Nacional Democratico§! (§SSozialdemokraten §!/ §lSozialliberal §!)\n£white_dot Gewinnen Sie den Bürgerkrieg als Revolutionäre und stellen Sie die Präsidentschaft wieder her (siehe oben)\n£white_dot Konfrontieren Sie das Militär bei dem Ereignis \"Konfrontation mit dem Militär\"\n£white_dot Nehmen Sie den Schwerpunkt \"Ruf nach Vorgezogenen Neuwahlen\" und wählen Sie die gewünschte Partei, die gewinnen soll\n\n§MMilitärische Übernahme§! (§gAutoritär Demokratisch§!)\n£white_dot Gewinnen Sie den Bürgerkrieg als Revolutionäre und stellen Sie die Präsidentschaft wieder her (siehe oben)\n£white_dot Lehnen Sie den Antrag in dem Ereignis \"Konfrontation mit dem Militär\" ab\n£white_dot Wählen Sie den Schwerpunkt \"Ruf nach Vorgezogenen Neuwahlen\""
+
+### Events ###
+els.2.t: "Die Depression verschlimmert sich"
+els.2.d: "Der jüngste Zusammenbruch des deutschen Marktes hat unsere Wirtschaft, die stark von ausländischen Exporten abhängig ist, wieder einmal völlig zerstört. Da die Länder nicht mehr in der Lage sind, unseren Kaffee zu kaufen, und der Zustand der Vereinigten Staaten immer instabiler wird, wird das Martínez-Regime dadurch politisch immer weiter in die Enge getrieben. Wir müssen von nun an vorsichtig handeln, wenn wir wollen, dass unser Land die Welle des Sozialismus überlebt."
+els.2.a: "Schön, dass Martínez die Wirtschaft gut im Griff hat."
+
+els.3.t: "Farabundo Martí kehrt aus Mexiko zurück"
+els.3.d: "Der Held des Massakers von '32, Farabundo Martí, ist vor kurzem zurückgekehrt, um auf den Amerikanischen Bürgerkrieg und das Chaos, in das unser Land dadurch geraten ist, zu reagieren. Die Menschen haben begonnen, Martínez für diesen Ausrutscher verantwortlich zu machen, da es aufgrund des anhaltenden Konflikts im Land selbst keine Grenzkontrollen gibt. Wie dem auch sei, seine Rückkehr hat immer mehr Menschen gegen uns aufgebracht, und im Militär kursieren Gerüchte über einen möglichen Staatsstreich, um die Ordnung wiederherzustellen."
+els.3.a: "Das Land blutet."
+
+els.4.t: "Die militärischen Rebellen!"
+els.4.d: "Trotz unseres Sieges über die reaktionären Kräfte hat der größte Teil des salvadorianischen Militärs unsere Herrschaft noch nicht als rechtmäßig anerkannt. Ihr versprengter Widerstand stellt zwar noch keine Bedrohung für den Fortbestand unserer Regierung dar, doch müssen wir vorsichtig sein, da sie immer noch ein Hindernis für unsere Regierung darstellen, da sie immer noch reaktionäre Freiwillige aus dem ganzen Land rekrutieren können. Noch wichtiger ist, dass sie Dörfer und Versorgungskonvois der Regierung im Nordwesten angreifen und sich dann in ihre Verstecke im Dschungel bei Metapán zurückziehen, was ihnen bei Bedarf einen einfachen Fluchtweg nach Honduras oder Guatemala ermöglicht."
+els.4.a: "Sie werden die Revolution nicht aufhalten!"
+
+els.5.t: "Konfrontation mit dem Militär"
+els.5.d: "Da die Angriffe auf den Nordwesten zunehmen, wird unsere Bevölkerung immer unruhiger, und der Gouverneur der Provinz Santa Ana, Ramón Davila, hat die Regierung um eine Intervention in der Provinz mit allen Kräften gebeten, die sie aufbringen kann. Unser Kabinett ist jedoch noch unentschlossen, ob eine Konfrontation mit dem Militär eine kluge Idee ist. Diese Männer haben einen Eid geschworen, El Salvador zu verteidigen, und vielleicht sehen sie die Dinge ein wenig anders, wenn wir noch ein wenig warten."
+els.5.a: "Antrag abgelehnt, sie werden sich schon mit unserer Regierung arrangieren."
+els.5.b: "Konfrontiert sie, das ist der einzige Weg, die Demokratie zu sichern."
+
+#els.6.t: "Kampf gegen die letzten rebellischen Militärreste"
+#els.6.d: "Es ist uns gelungen, eine beträchtliche Miliztruppe zusammenzustellen, die sich den feindlichen Rebellen entgegenstellt. Viele im Kabinett beharren jedoch darauf, dass eine friedliche Lösung möglich ist, und vor kurzem haben wir Abgesandte der Militärguerilla empfangen, die behaupten, dass sie für Verhandlungen offen sind. Was sollen wir tun?"
+#els.6.a: "Arrangiert ein Treffen mit führenden Persönlichkeiten und versucht, eine Einigung zu erzielen."
+#els.6.b: "Kein Deal, startet sofort einen Angriff."
+
+#els.7.t: "Treffen in der Stadt Metapán"
+#els.7.d: "Nachdem die Gesandten einen vorläufigen Waffenstillstand unterzeichnet hatten, entsandte jede Seite eine Delegation in die Stadt Metapán. Dort hat die Delegation der Guerilla unsere Regierung aufgefordert, dem Militär völlige Unabhängigkeit von der Politik zu gewähren und ihm eine gewisse Exekutivgewalt und Autonomie in seinen Angelegenheiten zuzugestehen. Die Presse hat von den vorgeschlagenen Bedingungen erfahren und die öffentliche Empörung ist groß. Wir können zwar immer noch versuchen, sie friedlich einzubinden, aber ihre Forderungen machen schmerzlich deutlich, dass sie in Zukunft eine Belastung darstellen könnten. Andererseits könnten wir die Empörung ausnutzen, um sie anzugreifen, ohne dass dies ein öffentliches Nachspiel hat..."
+#els.7.a: "Wir werden ihren Anträgen stattgeben, wenn dies die Stabilität in El Salvador wiederherstellt."
+#els.7.b: "Wir werden nicht zulassen, dass sie uns noch einmal hintergehen! Genehmigt den Angriff."
+
+els.17.t: "Unruhen in den Städten"
+els.17.d: "Nach vier Jahren gewaltsamer Herrschaft versucht Martínez immer noch, El Salvador mit eiserner Faust und mit Unterstützung der amerikanischen Regierung zu regieren. Die jüngsten Entwicklungen in den USA und in der Welt schwächen jedoch langsam aber stetig die Macht von Martínez, und viele stellen seine Regierung inzwischen offen in Frage..."
+els.17.a: "Unsicherheit war in einer solchen Krise zu erwarten."
+
+els.18.t: "Salvadorianische Exporte brechen ein"
+els.18.d: "Der Schwarze Montag hat den ohnehin schon geschwächten salvadorianischen Exporten den Garaus gemacht und die Landbesitzer zu massiven Entlassungen gezwungen, um sich über Wasser zu halten. Jetzt bleiben viele Zucker-, Kaffee- und Kakaolieferungen in der Hauptstadt liegen, weil sie nirgendwohin geschickt werden können und es nicht genügend lokale Käufer gibt, um das steigende Angebot zu bewältigen."
+els.18.a: "Das ist eine Katastrophe!"
+
+els.19.t: "Ein Streik in einer Zuckermühle in San Salvador"
+els.19.d: "Die Arbeiter einer Zuckerfabrik in San Salvador sind in den Streik getreten, um bessere Arbeitsbedingungen und die Zahlung ihrer Löhne zu fordern, die seit drei Monaten ausstehen. Martínez hat in einer öffentlichen Erklärung erklärt, dass er den Streik notfalls gewaltsam auflösen wird, wenn er sich nicht von selbst auflöst. Die Spannungen im Lande sind groß, und dieser Streik könnte der letzte Strohhalm sein..."
+els.19.a: "Hoffen wir, dass sie den Hinweis beherzigen und sich auflösen..."
+
+els.20.t: "Martínez unterdrückt den Streik"
+els.20.d: "Martínez rief die Armee in die Hauptstadt, um gegen die Streikenden vorzugehen. Sobald sich die Armee in Reichweite der Streikenden befand, wurden Schüsse angeordnet, um sie aufzuschrecken und zu vertreiben. Aus Angst vor einer gewalttätigen Reaktion schossen viele Soldaten jedoch direkt in die Menge, woraufhin in der Stadt ein Chaos ausbrach, bei dem die Streikenden entweder erfolglos versuchten, die Soldaten abzuwehren, oder davonliefen. Martínez verhängte vorübergehend das Kriegsrecht, um gegen alle Dissidenten vorzugehen, und die gefassten Streikenden wurden bereits durch Martínez' Dekret zum Tode verurteilt..."
+els.20.a: "Diesmal ist er zu weit gegangen..."
+
+els.21.t: "Gerüchte über einen Staatsstreich gelangen in die Presse"
+els.21.d: "Einige anonyme Quellen haben die Presse über ein geheimes Treffen zwischen hochrangigen Offizieren der Armee im Centro del Ejercito Armado de El Salvador in San Esteban de Catarina informiert. Während die Einzelheiten des Treffens nicht bekannt gegeben wurden, haben die jüngsten Entwicklungen die Presse zu Spekulationen veranlasst, dass diese Offiziere den Sturz von Präsident Martínez geplant haben. Der Präsident hat diese Behauptungen als reine Panikmache der Presse zurückgewiesen, aber die Angst vor einem Staatsstreich bleibt im Bewusstsein der Öffentlichkeit."
+els.21.a: "Wer würde so einen Unsinn glauben?"
+
+els.22.t: "Martinez kürzt die Gehälter im öffentlichen Dienst"
+els.22.d: "In einem kühnen Schritt hat Präsident Martínez eine Kürzung aller Löhne und Gehälter der öffentlichen Bediensteten, einschließlich seines eigenen Gehalts, verfügt. Obwohl dies keine wirklichen Auswirkungen auf die Wirtschaft im Allgemeinen haben wird, haben viele Arbeiter des Landes diesen Schritt als liebenswert empfunden, da der salvadorianische Staat bisher als korrupte und geizige Einheit galt. Mit der erneuten Unterstützung durch die Arbeiterklasse hat er nun mehr Spielraum für seine Reformen, was allerdings auch mit erhöhten Erwartungen einhergeht..."
+els.22.a: "Ein symbolischer Schritt des Präsidenten, der aber dennoch geschätzt wird."
+
+els.23.t: "Schließung der Banco Central de la Reserva de El Salvador?"
+els.23.d: "Die Zentralbank der salvadorianischen Reserve wurde 1934 von Martínez gegründet, um den Wert der salvadorianischen Währung, des Colón, zu stabilisieren. Damals war diese Maßnahme wirksam, doch jetzt, wo die Krise wieder ausgebrochen ist, befindet sich der Colón im freien Fall, weil die Währung überdruckt wurde, um die Schulden des Staates zu bezahlen. Viele im Kabinett fordern die Schließung der Bank, obwohl sie in der Vergangenheit nützlich war, und die Rückkehr zu den Zeiten, in denen private Banken die Währung unseres Landes druckten. Was sollten wir tun?"
+els.23.a: "Lasst Sie geöffnet."
+els.23.b: "Schließt Sie."
+
+els.24.t: "Bau von erschwinglichen Häusern für die Arbeiterklasse"
+els.24.d: "Da sich die wirtschaftliche Lage verbessert, hat Präsident Martínez ein ehrgeiziges Bauprogramm beschlossen, um neuen und erschwinglichen Wohnraum für die Arbeiter- und Bauernschaft zu schaffen. Dieses Programm, für das die Junta Nacional de Mejoramiento Social zuständig ist, zielt darauf ab, billigen Wohnraum und erschwingliche Hypotheken für die vielen Arbeiter des Landes zu schaffen, die sich keine private Hypothek leisten können. Auch wenn die Auswirkungen nicht sofort spürbar sein werden, wird dieser Schritt unserem Präsidenten zumindest einen gewissen Rückhalt in der Arbeiterklasse sichern."
+els.24.a: "¡Viva Martínez!"
+
+els.25.t: "Subsidies for the Rural Workers"
+els.25.d: "Zu denjenigen, die durch den Schwarzen Montag am meisten benachteiligt wurden, gehören die kleinen und mittleren Landbesitzer und ihre Landarbeiter. Sie haben zwar das gleiche Produktionsniveau beibehalten, aber die Früchte ihrer Arbeit liegen einfach in den Häfen und können nicht verkauft werden, da es keine ausländischen Käufer mehr gibt, die sie erwerben könnten. Dies hat dazu geführt, dass unsere landwirtschaftliche Produktion erheblich zurückgegangen ist und viele Bauern entlassen werden mussten, weil die Mittel für die Zahlung ihrer Löhne fehlten. Um hier Abhilfe zu schaffen und den Agrarsektor wieder in Schwung zu bringen, hat Präsident Martínez eine Reihe neuer staatlicher Subventionen beschlossen. Diese werden allen landwirtschaftlichen Betrieben gewährt, die Kaffee, Zucker und Baumwolle anbauen, und von der Federación de Cajas de Crédito Rural finanziert, mit dem Ziel, die Produktion dieser lebenswichtigen Kulturen wieder auf das Niveau vor dem Schwarzen Montag zu bringen."
+els.25.a: "¡Viva Martínez!"
+
+els.26.t: "Fertigstellung des salvadorianischen Abschnitts der Panamericana"
+els.26.d: "Die Panamericana, ein multinationales Projekt zwischen allen amerikanischen Staaten, wird seit dem Amtsantritt von Martínez durch El Salvador ausgebaut. Heute, nach mehreren Jahren harter Arbeit und Investitionen, wurde der salvadorianische Abschnitt der Straße endlich eingeweiht. In einer öffentlichen Rede lobte der Präsident die Bemühungen der salvadorianischen Arbeiter und sprach über die Vorteile, die die Straße für El Salvador bringen wird."
+els.26.a: "¡Viva Martínez!"
+
+els.27.t: "Endgültige Ratifizierung des Grenzvertrags Guatemala-El Salvador-Honduras"
+els.27.d: "Seit Jahren arbeiten wir daran, die endgültigen Grenzen zwischen uns, Guatemala und Honduras festzulegen. Aufgrund des Fehlens natürlicher Hindernisse haben sich unsere Grenzen zuvor erheblich verschoben, aber jetzt sind wir bereit, ihnen endlich unseren endgültigen Entwurf des Vertrags über die gemeinsame Grenze zu übermitteln, die im Abschnitt des Rio Frio am Monte Cristo-Hügel festgelegt werden soll. Einige Mitglieder unseres Kabinetts haben uns jedoch davon abgeraten, den Vertrag abzuschicken, da wir die wackeligen Grenzen, die wir jetzt haben, nutzen können, um uns in Zukunft kleine Landstriche anzueignen. Was sollten wir tun?"
+els.27.a: "Schickt den Vorschlag."
+els.27.b: "Behaltet den Status Quo bei."
+
+els.28.t: "Zuckerexporte sinken, aber die Wirtschaft bleibt stark"
+els.28.d: "Mit der Stabilisierung des Weltmarktes haben unsere Konkurrenten auf dem Zuckermarkt, vor allem Brasilien und Kolumbien, damit begonnen, langsam aber stetig ihr Produktionsniveau von vor dem Schwarzen Montag wieder zu erreichen. Wir können auf dem Zuckermarkt weder quantitativ noch qualitativ mit ihren Produkten konkurrieren, und unsere Zuckerplantagen haben darunter zu leiden begonnen. Dennoch hatten wir immer noch einen sicheren lokalen Markt, und da sich unsere landwirtschaftliche Produktion nicht auf Zucker konzentriert, ist dieser Rückgang nur ein geringes Hindernis."
+els.28.a: "Unsere Diversifizierungsbemühungen sind erfolgreich."
+
+els.30.t: "Eine neue politische Dynastie?"
+els.30.d: "Um die Zukunft El Salvadors zu sichern, hat Präsident Castro beschlossen, den Plan für die politische Szene El Salvadors für die kommenden Jahre zu entwerfen. In seinem Plan hat er genau festgelegt, wie die nächsten Wahlen manipuliert werden sollen und wer in das Kabinett berufen wird, um die größtmögliche Geheimhaltung zu gewährleisten. Ein neues Zeitalter der Stabilität bricht für El Salvador an!"
+els.30.a: "El Salvador muss um jeden Preis vor Extremismus geschützt werden!"
+
+els.31.t: "Wahlen von [GetYear]"
+els.31.d: "Heute hat Präsident Castro, wie in der neuen Verfassung vorgesehen, Wahlen ausgerufen, und der Wahlkampf hat begonnen. Während die Partido Laborista und die Partido Nacional Democratico die Partido Revolucionario de Unificación Democratica beschuldigen, ist es in Wahrheit so, dass die PRUD bisher in allen Umfragen in Führung liegt und ihre Behauptungen nichts weiter sind als bloße Klagen schlechter Verlierer, bevor die Stimmen überhaupt ausgezählt wurden."
+els.31.a: "Salvador Castaneda Castro und seine Partei siegen!"
+els.31.b: "Hmm, dieser Stimmzettel sieht seltsam aus..."
+
+els.32.t: "Wahlen von [GetYear]"
+els.32.d: "Heute hat Präsident Castro, wie in der neuen Verfassung vorgesehen, Wahlen ausgerufen, und der Wahlkampf hat begonnen. Während die Partido Laborista und die Partido Nacional Democratico die Partido Revolucionario de Unificación Democratica beschuldigen, ist es in Wahrheit so, dass die PRUD bisher in allen Umfragen in Führung liegt und ihre Behauptungen nichts weiter sind als bloße Klagen schlechter Verlierer, bevor die Stimmen überhaupt ausgezählt wurden."
+els.32.a: "Salvador Castaneda Castro und seine Partei siegen!"
+els.32.b: "Hmm, dieser Stimmzettel sieht seltsam aus..."
+
+els.33.t: "Wahlen von [GetYear]"
+els.33.d: "Heute hat Präsident Castro, wie in der neuen Verfassung vorgesehen, Wahlen ausgerufen, und der Wahlkampf hat begonnen. Während die Partido Laborista und die Partido Nacional Democratico die Partido Revolucionario de Unificación Democratica beschuldigen, ist es in Wahrheit so, dass die PRUD bisher in allen Umfragen in Führung liegt und ihre Behauptungen nichts weiter sind als bloße Klagen schlechter Verlierer, bevor die Stimmen überhaupt ausgezählt wurden."
+els.33.a: "Salvador Castaneda Castro und seine Partei siegen!"
+els.33.b: "Hmm, dieser Stimmzettel sieht seltsam aus..."
+
+els.60.t: "Salvador Castaneda Castro läuft über!"
+els.60.d: "Heute haben wir erfahren, dass General Castro seine Kaserne in Talnique verlassen hat, und unsere Späher haben uns berichtet, dass er mit einem ganzen Regiment zu den Rebellen übergelaufen ist. Obwohl er sich besorgt über die Stärke der Rebellen gezeigt hatte, kam seine Desertion für den Generalstab dennoch überraschend."
+els.60.a: "Unsere Situation wird immer schlimmer."
+
+els.61.t: "Einheimische Bevölkerung beginnt Exodus in Richtung Honduras"
+els.61.d: "Nach der Niederlage der Rebellen im Departement Sonsonante begannen viele der Eingeborenen, nach Honduras zu fliehen. Nach dem Aufstand von 1932 hatte Martínez Massenhinrichtungen an der indigenen Bevölkerung der Pipil durchgeführt, und nach der Niederschlagung ihres neuen Aufstands haben viele Stammesführer beschlossen zu fliehen. Diese Nachricht wurde nicht gut aufgenommen, da Martínez die Schließung der Grenze angeordnet hat, aber das hält die Menschen nicht davon ab, Wege zu finden, die Grenzkontrollen über den Sumpul-Fluss zu umgehen."
+els.61.a: "Sie werden der Gerechtigkeit nicht entkommen."
+
+els.62.t: "Einheimische Flüchtlinge aus El Salvador kommen in Honduras an"
+els.62.d: "In El Salvador hat es vor kurzem einen Bauernaufstand gegeben, und nachdem Präsident Martínez die kurzlebige Revolution niedergeschlagen hat, haben viele von ihnen beschlossen, nach Honduras zu fliehen. Ihre Zahl ist zwar nicht so groß, dass man sich wirklich Sorgen machen müsste, aber die Situation in unserem Nachbarland ist bestenfalls beunruhigend..."
+els.62.a: "Begrüßt diese armen Menschen in."
+
+els.63.t: "Salinas konsolidiert seine Macht"
+els.63.d: "Salinas ist heute formell zum Präsidenten von El Salvador ernannt worden. Nach seinem Sieg über die einheimischen Aufständischen hat er beschlossen, den salvadorianischen Staat umzustrukturieren, um eine neue Art von autoritärem Regime zu schaffen: Eines, das versuchen wird, dem Volk zuzuhören und es vor Extremismus zu schützen. Um dies zu erreichen, hat Salinas die Wiedereinführung einiger bürgerlicher Freiheiten angeordnet und damit das alte autoritäre Regime für weitere Veränderungen geöffnet."
+els.63.a: "¡Viva El Presidente Salinas!"
+
+els.64.t: "Der Status des Auslandsvermögens"
+els.64.d: "Eine Analyse unseres Handelsrechtssystems hat ergeben, dass viele ausländische Unternehmen in El Salvador auf der Grundlage von Schlupflöchern tätig waren, die es ihnen ermöglichten, Vorschriften und die Zahlung bestimmter Steuern zu umgehen. Obwohl von mehreren Kabinettsmitgliedern harte Strafen vorgeschlagen wurden, haben wir beschlossen, diese ausländischen Unternehmen zu verschonen, solange sie sich bereit erklären, die von uns erlassenen neuen Gesetze zu befolgen und die fälligen Steuern zu entrichten."
+els.64.a: "Es ist ein Vergnügen, mit Ihnen Geschäfte zu machen."
+
+els.65.t: "Beschlagnahmung ausländischer Vermögenswerte"
+els.65.d: "Eine Analyse unseres Handelsrechtssystems hat ergeben, dass viele ausländische Unternehmen in El Salvador auf der Grundlage von Schlupflöchern operierten, die es ihnen ermöglichten, Vorschriften und die Zahlung bestimmter Steuern zu umgehen. Obwohl mehrere Kabinettsmitglieder mildere Strafen vorgeschlagen haben, haben wir beschlossen, dass wir uns eine solche Beleidigung nicht gefallen lassen und die Vermögenswerte dieser Unternehmen sofort beschlagnahmen werden, um das Wohlergehen ihrer Arbeitnehmer zu gewährleisten und um ihre Missetaten gegenüber unserem Volk zu vergelten."
+els.65.a: "Ein Sieg für das Volk!"
+
+els.66.t: "Unterstützung einer Gewerkschaft"
+els.66.d: "Gewerkschaften sind in El Salvador so etwas wie eine Neuheit, und als solche sollten wir sie ausbauen. In letzter Zeit ist jedoch eine Debatte über die in El Salvador bestehenden Gewerkschaften entbrannt, bei der es um die Frage geht, welche Gewerkschaft die Führung der anderen übernehmen soll. Eine unserer Optionen, die 'Federación Regional de Trabajadores de El Salvador' oder 'FETRES', hat sich in den letzten Jahren weitgehend radikalisiert, und ihre Stärkung wird mit Sicherheit unsere Wirtschaft darauf ausrichten, die Weltrevolution nach Mittelamerika zu bringen und uns gegen den ausländischen Imperialismus zu verteidigen. Unsere andere Option ist die neu gegründete 'Unión Nacional de Trabajadores' oder 'UNT', deren moderaterer Ansatz sicherlich unserer lokalen Industrie und dem Lebensunterhalt unseres Volkes auf Kosten unserer Kriegsfähigkeiten zugute kommen wird."
+els.66.a: "Unterstützt die FETRES."
+els.66.b: "Unterstützt die UNT."
+
+els.100.t: "Endgültige Ratifizierung des Grenzvertrags Guatemala-El Salvador-Honduras"
+els.100.d: "Wir arbeiten seit Jahren an der Festlegung der endgültigen Grenzen zwischen uns, Guatemala und El Salvador. Aufgrund des Fehlens natürlicher Hindernisse haben sich unsere Grenzen schon früher erheblich verschoben, aber El Salvador hat einen endgültigen Entwurf für den Vertrag über die gemeinsame Grenze vorgelegt, die im Abschnitt des Rio Frio am Monte Cristo-Hügel festgelegt werden soll. Was sollten wir tun?"
+els.100.a: "Akzeptiert den Vertrag."
+els.100.b: "Lehnt den Vertrag ab."
+
+els.101.t: "Endgültige Ratifizierung des Grenzvertrags Guatemala-El Salvador-Honduras"
+els.101.d: "Wir arbeiten seit Jahren an der Festlegung der endgültigen Grenzen zwischen uns, Honduras und El Salvador. Aufgrund des Fehlens natürlicher Hindernisse haben sich unsere Grenzen schon früher erheblich verschoben, aber El Salvador hat einen endgültigen Entwurf für den Vertrag über die gemeinsame Grenze vorgelegt, der im Abschnitt des Rio Frio am Monte Cristo-Hügel errichtet werden soll. Was sollten wir tun?"
+els.101.a: "Akzeptiert den Vertrag."
+els.101.b: "Lehnt den Vertrag ab."
+
+els.102.t: "Honduras akzeptiert den Vertrag"
+els.102.d: "Die honduranische Regierung hat einen Abgesandten zu uns geschickt, der den Vertrag über die gemeinsame Grenze unterzeichnet hat. Hoffentlich wird dies der Beginn einer stabileren Freundschaft zwischen unseren beiden Ländern sein."
+els.102.a: "Excelente."
+
+els.103.t: "Guatemala akzeptiert den Vertrag"
+els.103.d: "Die guatemaltekische Regierung hat einen Abgesandten zu uns geschickt, der den Vertrag über die gemeinsame Grenze unterzeichnet hat. Hoffentlich wird dies der Beginn einer stabileren Freundschaft zwischen unseren beiden Ländern sein."
+els.103.a: "Excelente."
+
+els.104.t: "Honduras lehnt den Vertrag ab"
+els.104.d: "Die honduranische Regierung hat uns mitgeteilt, dass sie mit unserem Entwurf des gemeinsamen Grenzvertrags nicht einverstanden ist und sich weigert, ihn zu unterzeichnen. Viele in unserem Kabinett haben ihre Besorgnis über ihre Weigerung zum Ausdruck gebracht, da dies bedeuten könnte, dass sie versuchen könnten, Land in unserer Grenzregion zu beschlagnahmen, bis ein solider Grenzvertrag unterzeichnet ist."
+els.104.a: "Malditos Hondureños..."
+
+els.105.t: "Guatemala lehnt den Vertrag ab"
+els.105.d: "Die guatemaltekische Regierung hat uns mitgeteilt, dass sie mit unserem Entwurf des gemeinsamen Grenzvertrags nicht einverstanden ist und sich weigert, ihn zu unterzeichnen. Viele in unserem Kabinett haben ihre Besorgnis über ihre Weigerung zum Ausdruck gebracht, da dies bedeuten könnte, dass sie versuchen könnten, Land in unserer Grenzregion zu beschlagnahmen, bis ein solider Grenzvertrag unterzeichnet ist."
+els.105.a: "Malditos Guatemaltecos..."
+
+els.106.t: "Der Amerikanische Bürgerkrieg"
+els.106.d: "Während in den Vereinigten Staaten die Feuer der Revolution brennen, befindet sich Präsident Martínez in einer gefährlichen Lage. Jetzt, ohne das wachsame Auge der USA, gehen viele Menschen auf die Straße, um gegen den nun einsamen Diktator zu protestieren, und die internen Gruppierungen, die sich im Schatten versteckt haben, werden sicher bald ans Licht kommen und sich der Diktatur von Martínez stellen. Wir müssen uns auch um die nationale Sicherheit sorgen, denn unsere äußeren Feinde könnten El Salvador in böser Absicht ins Visier nehmen..."
+els.106.a: "Por Dios..."
+
+els.107.t: "Farabundo Martí kehrt aus Nicaragua zurück"
+els.107.d: "Der Held des Massakers von '32, Farabundo Martí, ist vor kurzem zurückgekehrt, um auf den Amerikanischen Bürgerkrieg und das Chaos, in das unser Land dadurch geraten ist, zu reagieren. Die Menschen haben begonnen, Martínez für diesen Ausrutscher verantwortlich zu machen, da es aufgrund des anhaltenden Konflikts im Land selbst keine Grenzkontrollen gibt. Wie dem auch sei, seine Rückkehr hat immer mehr Menschen gegen uns aufgebracht, und im Militär kursieren Gerüchte über einen möglichen Staatsstreich, um die Ordnung wiederherzustellen."
+els.107.a: "Das Land blutet."
+
+els.108.t: "Die zweite westliche Rebellion"
+els.108.d: "Nach einigen Tagen der Verhandlungen scheint es Martí gelungen zu sein, die verbliebene einheimische Bevölkerung im Westen davon zu überzeugen, sich gegen die Regierung zu erheben. Heute haben sich Tausende von Bauern, meist indigener Herkunft, gegen die Regierung erhoben. Mit Macheten bewaffnet ist es den von Martí angeführten Bauern gelungen, die Kontrolle über mehrere Kleinstädte und deren Waffenlager im Departement Sosonante zu übernehmen. Der Aufstand breitet sich auf die umliegenden Departements aus und stürzt unser Land in ein Chaos, in dem Schießereien zwischen der Polizei und den Rebellen an der Tagesordnung sind."
+els.108.a: "Zeit für ein weiteres Blutbad."
+
+els.109.t: "Verlegung der Armee"
+els.109.d: "Während die Rebellion in vollem Gange ist, hat Präsident Martínez die Armee in San Salvador zusammengezogen, um seinen Einfluss auf die Hauptstadt zu festigen. Martínez muss sich jedoch entscheiden, ob er den Rebellen frontal entgegentreten oder versuchen will, die Teile des Landes zu sichern, die noch nicht von den Rebellen eingenommen worden sind. Wenn wir aber versuchen, die nicht von den Rebellen kontrollierten Gebiete zu sichern, riskieren wir, dass die Rebellen ihren Einfluss auf das besetzte Gebiet festigen und sich dort verschanzen können."
+els.109.a: "Schickt die Armee, das endet jetzt!"
+els.109.b: "Zeit für einen Zermürbungskrieg."
+
+els.110.t: "Die Armee meutert"
+els.110.d: "Nachdem wir unsere Armee ausgesandt hatten, um den Rebellen entgegenzutreten, erlebten wir eine katastrophale Niederlage. Bei der Ankunft in dem besetzten Gebiet wurden unsere Truppen in der gesamten Region von der Guerilla angegriffen, und diese Scharmützel gipfelten in einer vernichtenden Niederlage in der kleinen Stadt Armenia, wo mehrere Schwadronen unserer Armee überliefen und andere aufgrund interner Streitigkeiten zwischen Offizieren völlig lahmgelegt wurden. Die Armee befindet sich nun auf dem Rückweg nach San Salvador, wo Osmín Aguirre Y Salinas bereits eine Botschaft mit der Bitte um ein sofortiges Treffen mit dem Präsidenten geschickt hat."
+els.110.a: "Nun denn..."
+
+els.111.t: "Das Ende von Martínez"
+els.111.d: "Unter dem Kommando von General Osmín Aguirre y Salinas ist die Armee in die Stadt San Salvador eingedrungen, hat die Stadt eingenommen, ist in das Präsidentenhaus eingedrungen und hat Martínez ins Gefängnis geworfen. Salinas hat sich selbst zum Präsidenten ernannt und mit Unterstützung der Armee kühn verkündet, dass die Rebellen im Westen ausgerottet werden würden. Moralisch gestärkt bereitet sich die Armee darauf vor, Verteidigungsmaßnahmen gegen die Rebellentruppen zu ergreifen, die sich in naher Zukunft zum Angriff versammeln."
+els.111.a: "Es ist der Beginn eines neuen Zeitalters!"
+
+els.112.t: "Sozialisten sichern den Westen!"
+els.112.d: "Die sozialistischen Kräfte unter der Führung von Agustín Farabundo Martí haben endlich die verbliebenen kleinen Garnisonen im Westen des Landes überwunden und den westlichen Teil des Landes unter ihre Kontrolle gebracht. Die Rebellen werden nun mit ausländischer Unterstützung immer stärker, und das Schicksal El Salvadors bleibt ungewiss."
+els.112.a: "Unser Schicksal liegt in der Schwebe."
+
+els.113.t: "Arturo Araujo unterstützt die Revolution!"
+els.113.d: "Ex-Präsident Arturo Araujo, der 1932 durch den Putsch von Martínez abgesetzt wurde und derzeitiger Führer der Partido Laborista ist, hat seine Unterstützung für die Rebellen zum Ausdruck gebracht und alle Salvadorianer, die die Demokratie im Lande verteidigen wollen, aufgefordert, sich den Rebellen anzuschließen, um die Tyrannen zu bekämpfen. Sein Einfluss auf die Bevölkerung darf nicht unterschätzt werden, und es mussten mehrere Patrouillen in die Grenzstädte entsandt werden, um sicherzustellen, dass sich die Menschen nicht direkt der Rebellion anschließen. Unsere Lage wird von Tag zu Tag schlimmer..."
+els.113.a: "¡Maldito Sea!"
+
+els.114.t: "Schlägereien auf der Straße"
+els.114.d: "Unter dem Kommando von Martínez wurden unsere Streitkräfte über die gesamte Westgrenze verstreut und sind bereit, sich dem Feind in einem langwierigen Krieg zu stellen. Unsere Truppen sind jedoch weit verstreut, und nun haben Partisanengruppen begonnen, Angriffe auf San Salvador selbst zu verüben. Da die Rebellen ihre Offensive im Westen erneuern, müssen wir nun entscheiden, ob wir die Frontlinie verstärken oder unsere Truppen verteilen, um gegen diese Partisanengruppen vorzugehen."
+els.114.a: "Die Hauptstadt muss gesichert bleiben, unterstützt die Anti-Partisanen-Truppe!"
+els.114.b: "Wir dürfen die Front nicht fallen lassen, sondern müssen die Hauptstreitkräfte unterstützen!"
+
+els.115.t: "Die Front hält"
+els.115.d: "Trotz der fehlenden Verstärkung ist es unseren Truppen an der Front gelungen, die Angriffe abzuwehren, und mit der Zerschlagung der Partisanentruppen wurde ein bedeutender Teil der Rebellenkräfte endgültig niedergeschlagen. Unsere Antipartisanentruppen, die jetzt aus abgehärteten Soldaten bestehen, sind wieder an die Front zurückgekehrt und haben den letzten Vorstoß in das Herz der Rebellion begonnen. Der Sieg von Martínez scheint so gut wie sicher zu sein, da es keinen starken Widerstand gibt, der sich unserer Armee entgegenstellt, während sie den Abschaum der Rebellen niedertrampelt."
+els.115.a: "Die Pro-Patria hält immer durch."
+
+els.116.t: "Die Partisanen übernehmen die Hauptstadt"
+els.116.d: "Nachdem wir uns entschieden hatten, die Frontlinie zu verstärken, konnten unsere Antipartisanentruppen nicht mehr mit den Partisanengruppen mithalten, die ständig lebenswichtige Nachschubgebiete und Arsenale in der Hauptstadt angriffen. Schließlich wurden ihre Kräfte stark genug, um die Stadt einzunehmen, und San Salvador war verloren. Mit dem Fall von San Salvador ist die Frontlinie zusammengebrochen und die Rebellen haben inzwischen den größten Teil des Landes gesichert. Der Sturz des Martínez-Regimes ist nun so gut wie sicher."
+els.116.a: "Das Ende einer schrecklichen Ära."
+
+els.117.t: "Die Konfrontation"
+els.117.d: "Nachdem wir von den Rebellen zurückgeschlagen wurden, ist es uns gelungen, die Armee wieder zu sammeln, und unsere Soldaten sind bereit, den Kampf mit ihnen aufzunehmen, solange Salinas das Kommando führt. Viele in der Armee sind jedoch um Salinas' Sicherheit besorgt und haben den beliebten Präsidenten gebeten, in San Salvador zu bleiben, während die Schlacht um ihn herum weitergeht. Während sein Verbleib in der Hauptstadt die Moral unserer Armee sicherlich beeinträchtigen wird, könnte das Risiko, Salinas Leben zu riskieren, dazu führen, dass er verletzt oder getötet wird, was das Ende unserer Armee bedeuten würde. Was sollen wir also tun?"
+els.117.a: "Wir können nicht ohne unseren Anführer kämpfen."
+els.117.b: "Salinas muss um des Landes willen sicher bleiben."
+
+els.118.t: "Salinas ist siegreich!"
+els.118.d: "Mit Salinas an der Spitze unserer Truppen hat unsere Armee die improvisierte Rebellenarmee zerschlagen und der Rebellion mit Siegen bei Sansonante und Ahuachapán den Todesstoß versetzt. Zwar gibt es noch einige verstreute Partisanengruppen, doch der Sieg von Salinas ist nun so gut wie sicher."
+els.118.a: "Für das neue El Salvador!"
+
+els.119.t: "Salinas wurde verletzt!"
+els.119.d: "Während der Schlacht von Sansonante wurde General Salinas von einer verirrten Kugel getroffen, die ihn zwang, sich zurückzuziehen, um sich medizinisch versorgen zu lassen. Die Moral seiner Truppen sank, als sich die Gerüchte über seinen Tod verbreiteten, so dass die Rebellen einen erfolgreichen Gegenangriff organisieren konnten, der die salvadorianische Armee zurückwarf. Nachdem die Partisanen San Salvador gesichert haben, ist der Sieg der Rebellen so gut wie sicher."
+els.119.a: "Für die Revolution!"
+
+els.120.t: "Menendez' Versagen"
+els.120.d: "Anstelle von Salinas wurde Menendez mit der Führung der Armee beauftragt, um die Rebellen in Sansonante abzuwehren. Während sich der Präsident in relativer Sicherheit im Präsidentenhaus aufhielt, sah sich eine stark demoralisierte salvadorianische Armee einer verschanzten feindlichen Streitmacht gegenüber. Viele Soldaten fühlten sich von Salinas verraten, der sich nun nicht mehr von dem tyrannischen Martínez zu unterscheiden schien, und desertierten, während der Rest von den nun verstärkten Rebellen schnell aufgerieben wurde. Es gibt Berichte, wonach Salinas das Land verlassen hat, um sich und seine Familie zu schützen, und nun scheint der Sieg der Revolution so gut wie sicher zu sein."
+els.120.a: "Für die Revolution!"
+
+els.121.t: "Das neue El Salvador"
+els.121.d: "Nach der Zerschlagung der letzten Widerstandsnester in San Salvador und der Sicherung des Präsidentenhauses veranstalten die internen politischen Fraktionen der Rebellenbewegung schließlich ein Treffen im Präsidentenhaus. Das Thema des Treffens ist die politische Zukunft des Landes. Während die demokratische Fraktion unter Führung von Araujo die Präsidentschaft und das demokratische System wiederherstellen will, möchte die syndikalistische Fraktion unter Führung von Martí das alte System beseitigen und einen neuen syndikalistischen Staat von Grund auf errichten. In der kommenden Nacht erwartet die Bevölkerung eine öffentliche Erklärung über die Zukunft El Salvadors."
+els.121.a: "Der Syndikalismus wird bleiben."
+els.121.b: "Die Präsidentschaft war immer optimal für El Salvador und soll wiederhergestellt werden."
+
+els.122.t: "Das neue El Salvador"
+els.122.d: "Nach der Zerschlagung der letzten Widerstandsnester in San Salvador und der Sicherung des Präsidentenhauses veranstalten die internen politischen Fraktionen der Rebellenbewegung schließlich ein Treffen im Präsidentenhaus. Das Thema des Treffens ist die politische Zukunft des Landes. Während die demokratische Fraktion unter Führung von Araujo die Präsidentschaft und das demokratische System wiederherstellen will, möchte die syndikalistische Fraktion unter Führung von Martí das alte System beseitigen und einen neuen syndikalistischen Staat von Grund auf errichten. In der kommenden Nacht erwartet die Bevölkerung eine öffentliche Erklärung über die Zukunft El Salvadors."
+els.122.a: "Der Syndikalismus wird bleiben."
+els.122.b: "Die Präsidentschaft war immer optimal für El Salvador und soll wiederhergestellt werden."
+
+els.123.t: "Die Vorgezogenen Neuwahlen von [GetYear] in El Salvador"
+els.123.d: "Nach fast zehn Jahren diktatorischer Herrschaft finden nun endlich die ersten Wahlen statt, wie vom Übergangspräsidenten Araujo versprochen. Während die Stimmen ausgezählt werden, warten die Menschen gespannt auf das Ergebnis, das der Beginn eines neuen Zeitalters in El Salvador zu sein scheint."
+els.123.a: "Die Partido Laborista sichert sich den Sieg!"
+els.123.b: "Die Partido Nacional Democratico feiert ihr Comeback!"
+els.123.c: "Martís Syndikalisten erringen einen demokratischen Sieg!"
+
+els.124.t: "Salvador Castaneda Castros Machtübernahme!"
+els.124.d: "Überraschend ist eine Kommandogruppe in das Präsidentenhaus eingedrungen und hat den Präsidenten inhaftiert, während in den demokratischen Hochburgen des Landes wichtige Anschläge verübt wurden. Der Anführer dieser Gruppe, Salvador Castaneda Castro, behauptet, die salvadorianische Demokratie vor den syndikalistischen Extremisten zu schützen und hat sich selbst zum provisorischen Präsidenten von El Salvador ernannt, bis die Situation geklärt ist."
+els.124.a: "Endlich etwas Stabilität..."
+
+els.125.t: "Wiederherstellung der demokratischen Freiheitsrechte"
+els.125.d: "Heute ist die demokratische Republik offiziell wiederhergestellt und die alte Verfassung wurde wieder in Kraft gesetzt. Während der Amtszeit von Martínez ermöglichte ihm die Auflösung dieser Körperschaften, gegen andere Parteien vorzugehen, ihre Auflösung zu erzwingen und im Grunde ein Einparteiensystem zu errichten. Jetzt, da diese Rechte für unser Volk wieder gesichert sind, kommt das alte politische Establishment wieder in Bewegung, und mehrere kleinere Parteien kündigen ihre Neugründung an."
+els.125.a: "Ein Tag für die Menschen."
+
+els.126.t: "Wiedergeburt der Partido Nacional Democrático"
+els.126.d: "Alfonso Quiñones Molina hat heute die Neuformierung der Partido Nacional Democratico (PND) angekündigt. Als liberale Koalitionspartei will Molinas die liberale Politik wiederherstellen, die während der \"Dinastía Meléndez-Quiñones\" vorherrschte. Während Molinas in der Arbeiterklasse weitgehend unpopulär ist, haben sich seine Wohlstandsversprechen bei der unternehmerischen Mittelschicht als sehr wirksam erwiesen, ebenso wie bei den gemäßigteren Kräften in den Streitkräften, die in der Partido Laborista nichts anderes als eine syndikalistische List zur Übernahme El Salvadors sehen."
+els.126.a: "Die Zukunft sieht rosig aus."
+
+els.130.t: "Antrag auf ausländische Investitionen"
+els.130.d: "Da unsere Wirtschaft stärker denn je wächst, wäre es eine kluge Idee, unsere Handelspartner um technische Unterstützung zu bitten. Wenn wir unsere immensen Kaffeereserven und -produktionen nutzen, könnten wir diese wertvolle Kulturpflanze mit den Kanadiern im Austausch gegen Werkzeuge und ihr technisches Fachwissen tauschen, um unser Land zu verbessern. Es ist zu hoffen, dass die Kanadier die Vorteile eines solchen Handelsabkommens erkennen und unsere Entwicklung auf lange Sicht begünstigen."
+els.130.a: "Mal sehen, was die Kanadier von unserem Handelsabkommen halten."
+
+els.131.t: "El Salvador bietet uns ein Handelsabkommen im Austausch für Unterstützung an"
+els.131.d: "Eine salvadorianische Delegation ist heute in Ottawa mit einem Handelsangebot eingetroffen. Sie versprechen, unseren Kaffeebedarf im Austausch gegen Werkzeuge und technische Unterstützung für die Entwicklung ihres Landes zu decken. El Salvador ist eine kleine Nation in Mittelamerika und stellt keine Bedrohung für die Macht des Imperiums und seiner Verbündeten dar, und die Unterstützung seiner Entwicklung wird sich nur als vorteilhaft für unsere Interessen erweisen. Was sollte unsere Antwort sein?"
+els.131.a: "Akzeptiert das Handelsabkommen."
+els.131.b: "Lehnt das Handelsabkommen ab."
+
+els.132.t: "Kanada nimmt unser Handelsabkommen an"
+els.132.d: "Unsere Delegation hat uns aus Ottawa kontaktiert und mitgeteilt, dass die Kanadier den Bedingungen unseres Handelsabkommens zugestimmt haben. Dies ist ein großer Tag für El Salvador und sein Volk!"
+els.132.a: "Wir sind dankbar für ihre Hilfe."
+
+els.133.t: "Kanada lehnt unser Handelsabkommen ab"
+els.133.d: "Unsere Delegation hat uns aus Ottawa kontaktiert und uns mitgeteilt, dass die Kanadier die Bedingungen unseres Handelsabkommens abgelehnt haben. Da sie nicht in der Lage sind, unser Angebot zu verbessern, werden sie nun mit leeren Händen nach Hause kommen, und unsere Entwicklung wird vorübergehend gebremst werden. Aber unser Land ist stark, und wir werden diesen Rückschlag überwinden."
+els.133.a: "¡Maldita sea!"
+
+els.134.t: "Antrag auf ausländische Investitionen"
+els.134.d: "Da unsere Wirtschaft stärker denn je wächst, wäre es eine kluge Idee, unsere Handelspartner um technische Unterstützung zu bitten. Wenn wir unsere immensen Kaffeereserven und -produktionsmengen nutzen, könnten wir diese wertvolle Kulturpflanze mit den Briten im Austausch gegen Werkzeuge und ihr technisches Know-how tauschen, um unser Land zu verbessern. Es bleibt zu hoffen, dass die Briten die Vorteile eines solchen Handelsabkommens erkennen und unsere Entwicklung auf lange Sicht begünstigen."
+els.134.a: "Mal sehen, was die Briten von unserem Handelsabkommen halten."
+
+els.135.t: "El Salvador bietet uns ein Handelsabkommen im Austausch für Unterstützung an"
+els.135.d: "Eine salvadorianische Delegation ist heute mit einem Handelsangebot in London eingetroffen. Sie versprechen, unseren Kaffeebedarf im Austausch gegen Werkzeuge und technische Unterstützung für die Entwicklung ihres Landes zu decken. El Salvador könnte sich trotz seiner geringen Größe in Mittelamerika als wertvoller Verbündeter der Internationalen Gemeinschaft erweisen, und die Unterstützung seiner Entwicklung wird sich für unsere Interessen nur als vorteilhaft erweisen. Was sollte unsere Antwort sein?"
+els.135.a: "Akzeptiert das Handelsabkommen."
+els.135.b: "Lehnt das Handelsabkommen ab."
+
+els.136.t: "[FROM.GetNameDefCap] akzeptiert unser Handelsabkommen"
+els.136.d: "Unsere Delegation hat uns aus London kontaktiert und mitgeteilt, dass die Briten den Bedingungen unseres Handelsabkommens zugestimmt haben. Dies ist ein großer Tag für El Salvador und sein Volk!"
+els.136.a: "Wir sind dankbar für ihre Hilfe."
+
+els.137.t: "[FROM.GetNameDefCap] lehnt unser Handelsabkommen ab"
+els.137.d: "Unsere Delegation hat uns aus London kontaktiert und uns mitgeteilt, dass die Briten die Bedingungen unseres Handelsabkommens abgelehnt haben. Da sie nicht in der Lage sind, unser Angebot zu verbessern, werden sie nun mit leeren Händen nach Hause kommen, und unsere Entwicklung wird vorübergehend gebremst werden. Dennoch ist unser Land stark und wir werden diesen Rückschlag überwinden."
+els.137.a: "¡Maldita sea!"
+
+els.200.t: "Prudencia Ayala stirbt"
+els.200.d: "Heute ist die Schriftstellerin, Journalistin und Frauenrechtlerin Prudencia Ayala friedlich im Schlaf verstorben. Ayala stammte aus einer einheimischen Familie und wurde in El Salvador dafür bekannt, dass sie den Sieg des Kaisers im Weltkrieg und die Neutralität der Vereinigten Staaten während des Krieges voraussagte, wobei sie zunächst mit esoterischen Praktiken in Verbindung gebracht wurde. Diesen Ruhm nutzte sie jedoch, um sich für die Anerkennung der Rechte der Frau und das Frauenwahlrecht in El Salvador einzusetzen. Sie veröffentlichte mehrere Bücher und Artikel zu diesem Thema und versuchte 1930 sogar, für das Präsidentenamt zu kandidieren. Ihre politische Karriere war zwar nur von kurzer Dauer, da der Oberste Gerichtshof ihre Kandidatur ablehnte, aber ihr Versuch hat eine Debatte über die Rolle der Frau in der salvadorianischen Gesellschaft ausgelöst, und ihr Vermächtnis prägt bis heute die nationale feministische Bewegung."
+els.200.a: "Que en Paz Descanse."
+
+els.201.t: "Feliciano Ama schlägt die Einrichtung eines Eingeborenenrats vor"
+els.201.d: "Ama hat Farabundo Martí ein recht merkwürdiges Projekt vorgeschlagen: Die Gründung eines Eingeborenenrats, damit die Eingeborenen mehr Mitspracherecht in der salvadorianischen Politik haben. Theoretisch hätte dieser Rat zwar nicht mehr Macht als eine traditionelle Gewerkschaft, aber Ama hält dies für den ersten Schritt zur Einigung aller Menschen in El Salvador. Der Rat würde von den ethnischen Mehrheiten der Pipil und Lenca geleitet, würde aber die Beteiligung und den Respekt der anderen indigenen Minderheiten garantieren, nämlich der Xinca, der Mixe, der Maya Poqomam, der Alaguilac und der Maya Chorti im Westen und der Cacaopera und der Mangue im Osten. Mit Zustimmung der Regierung können alle diese Gruppen im Rat zusammenkommen, um ihre Anliegen vorzubringen und unsere Regierung zu unterstützen."
+els.201.a: "Ja, natürlich! Sie sind willkommen."
+
+els.202.t: "Überschwemmungen zerstören die Städte Valle Dolores und Apulo!"
+els.202.d: "Aufgrund des jüngsten Unwetters trat der Ilopango-See über die Ufer und überschwemmte die kleinen Städte Valle Dolores und Apulo, die an seinen Ufern liegen. Es gibt zwar keine gemeldeten Todesopfer, aber einige unserer Bürger sind von den Fluten eingeschlossen, haben nur begrenzte Vorräte und sind auf staatliche Hilfe angewiesen, um gerettet zu werden. Da wir keine formelle Marine oder Küstenwache haben, um den Opfern sofort zu helfen, legen viele unserer Mitarbeiter Pläne vor, um den Opfern zu helfen, während die Zivilbevölkerung begonnen hat, Spenden zu sammeln, um ihren Landsleuten zu helfen."
+els.202.a: "Es ist immer noch unsere Pflicht, sie zu retten."
+
+els.203.t: "Die Luftstreitkräfte versorgen die Flutopfer durch eine Luftbrücke"
+els.203.d: "Während die Regierung mehrere Holzboote zur Rettung der Flutopfer bereitstellte, melden sich die Luftstreitkräfte freiwillig, um bei den Rettungsmaßnahmen zu helfen. In einer noch nie dagewesenen Weise wurden Vorräte und Briefe sowohl in alte WACO- als auch in neue Curtiss-Wright-Doppeldecker geladen, die dann über die betroffenen Gebiete flogen und ihre wertvolle Fracht über den Ansammlungen von Überlebenden abwarfen. Dank der verlängerten Versorgungsfrist konnten wir in aller Eile eine Holzflotte zur Rettung der Opfer zusammenstellen, und nun müssen wir uns darauf konzentrieren, aus den überschwemmten Dörfern zu bergen, was wir können, und die Dorfbewohner umzusiedeln."
+els.203.a: "Es scheint, dass das Motto der Luftstreitkräfte nicht nur zur Schau gestellt wird."
+
+els.209.t: "Menendez bittet um Wiedereingliederung in den Armeestab"
+els.209.d: "General Menendez hat aus seinem Gefängnis einen offenen Brief an uns verfasst. Darin schildert er ausführlich seine Handlungen während der Martínez-Diktatur und erklärt, dass er leider nicht in der Lage war, unsere Bemühungen um die Demokratisierung des Landes zu unterstützen, dass er aber mehr als bereit war, sich uns anzuschließen. Anschließend trug er die \"Oracion a la Bandera Salvadoreña\" von 1916 vor, die ursprünglich von David J. Guzman verfasst worden war, und er beendete seinen Brief, in dem er seinem Land erneut seine Dienste anbot. Sollen wir ihn wieder in unsere Reihen aufnehmen?"
+els.209.a: "Lasst ihn herein."
+els.209.b: "Wir können alten Militärangehörigen nicht trauen."
+
+els.210.t: "Pockenepidemie in Santa Ana"
+els.210.d: "Im Rahmen unserer jährlichen Berichte haben wir von unseren medizinischen Einrichtungen einen alarmierenden Bericht erhalten, wonach in El Salvador im vergangenen Jahr erneut die Pocken ausgebrochen sind. Auch wenn er kleiner ist als der von 1935, beunruhigt der Pockenausbruch die Behörden immer noch, da viele dieser Menschen keinen Zugang zu medizinischer Versorgung haben."
+els.210.a: "Es ist eine bedauerliche Wendung der Ereignisse."
+
+els.211.t: "Martínez ergreift Maßnahmen gegen den Ausbruch der Pocken"
+els.211.d: "Präsident Martínez hat heute die Behörden im ganzen Land angewiesen, alle Lampen auf allen öffentlichen Plätzen abzudecken. Gemäß seinen streng theosophischen Ansichten behauptet er, dass das Abdecken dieser Lampen die Bürger des Landes vor der Krankheit schützen wird und dass die bereits Betroffenen schließlich von der Krankheit geheilt werden."
+els.211.a: "Das ist nicht gerade hilfreich..."
+
+els.212.t: "Martínez verschärft das Verbot persönlicher Waffen"
+els.212.d: "Nach dem jüngsten Aufstand hat Martínez beschlossen, die Polizeigesetze zu verschärfen, indem er das Verbot jeglicher Art von Waffen, unabhängig vom Grund ihres Besitzes, ausweitet und ihren Besitz zu einer Straftat macht, die mit monatelanger gemeinnütziger Arbeit bestraft wird. Obwohl unsere Waffenbesitzer öffentlich ihr Missfallen über die Ausweitung dieses Verbots geäußert haben, sind sie gezwungen, sich daran zu halten, und wir haben nun mehrere Schusswaffen erworben, die wir für die Wiederherstellung der Ordnung in unserem Land einsetzen können."
+els.212.a: "Es mag ihnen nicht gefallen, aber es ist ein notwendiger Schritt, um Ordnung zu schaffen."
+
+els.213.t: "Die Fiestas Agostinas"
+els.213.d: "Seit der Kolonialzeit gibt es in El Salvador eine sehr starke christliche Bewegung, die viele christliche Traditionen in die nationale Kultur übernommen hat. Eines der wichtigsten Feste in El Salvador neben Ostern und Weihnachten sind die 'Fiestas patronales de San Salvador' ('Patronatsfeste von San Salvador') oder einfach die 'Fiestas Agostinas'. Während dieser einwöchigen Feierlichkeiten werden verschiedene religiöse Zeremonien und Messen abgehalten, um der Verwandlung Jesu, wie sie im Neuen Testament beschrieben wird, zu gedenken. Am letzten Tag werden die Feierlichkeiten mit einer Prozession von der Kathedrale von San Salvador zum Paradeplatz verbunden, und verschiedene Organisationen sammeln Spenden, um die Bevölkerung und die Regierung zu unterstützen."
+els.213.a: "Lasst uns Feiern!"
+
+els.214.t: "Die Fiestas Agostinas"
+els.214.d: "Die Fiestas Agostinas haben wieder begonnen, und unser Land feiert wieder einmal seine religiösen Überzeugungen."
+els.214.a: "Lasst uns Feiern!"
+
+els.215.t: "Karneval von San Miguel"
+els.215.d: "In der Stadt San Miguel, die als wichtigste Stadt im Osten El Salvadors gilt, findet jedes Jahr am 8. Mai ein Fest zum Gedenken an die Gründung der Stadt vor 406 Jahren durch Kapitän Luis de Moscoso statt, das allgemein als 'Carnavalon' oder 'Karneval von San Miguel' bekannt ist. Während dieses Fest auf nationaler Ebene eher ereignislos erscheint, sind die Paraden und Feiern rund um dieses Datum exponentiell gewachsen und haben sich schnell zu einem der wichtigsten nationalen Karnevalsfeste El Salvadors entwickelt, das viele Künstler und Darsteller anzieht, die den Karneval zu einem unterhaltsamen Ereignis für alle Besucher machen. Außerdem lockt der Karneval Tausende von Touristen und viele Händler und Unternehmer in die Stadt, was uns über unser Steuersystem ein kleines, aber geschätztes Einkommen verschafft."
+els.215.a: "Zum Wohl!"
+
+els.216.t: "Verschiebung des Karnevals von San Miguel"
+els.216.d: "Während der Karneval von San Miguel seit seiner Gründung exponentiell gewachsen ist, erschwert das Datum, an dem er gefeiert wird, das Wachstum des Festes, da es mit der 'Trockenzeit' der Region kollidiert, was es für den Tourismus sowohl außerhalb als auch innerhalb El Salvadors schwieriger macht, tatsächlich zum Fest zu kommen. Vor diesem Hintergrund hat der Gemeinderat von San Miguel einen Vorschlag zur Verlegung des Festes auf das letzte Novemberwochenende verabschiedet, der noch von der Präsidentin genehmigt werden muss, um offiziell zu werden. Dies würde uns zwar einen größeren Gewinn bringen und mehr Menschen die Möglichkeit geben, am Karneval teilzunehmen, aber es wäre auch ein kleiner Bruch mit unseren Traditionen - was sollen wir tun?"
+els.216.a: "Akzeptiert ihren Vorschlag"
+els.216.b: "Lehnt ihren Vorschlag ab"
+
+els.217.t: "Karneval von San Miguel"
+els.217.d: "Der Karneval von San Miguel hat wieder begonnen, wie es unser jährlicher Zeitplan für die Feierlichkeiten vorsieht, und unsere Bevölkerung genießt den Karneval, während der Zustrom von Touristen uns zusätzliche Gewinne beschert, die wir nutzen können."
+els.217.a: "Zum Wohl!"
+
+els.218.t: "Karneval von San Miguel"
+els.218.d: "Der Karneval von San Miguel hat wieder begonnen, wie es unser jährlicher Zeitplan für die Feierlichkeiten vorsieht, und unsere Bevölkerung genießt den Karneval, während der Zustrom von Touristen uns zusätzliche Gewinne beschert, die wir nutzen können."
+els.218.a: "Zum Wohl!"
+
+### Focuses ###
+
+## Rightist tree ##
+ELS_37_revolution: "Die Revolution von '37"
+ELS_37_revolution_desc: "Wie im Jahr 1932 hat das Feuer der Revolution erneut El Salvador erreicht. Während sich der Westen erneut unter Farabundo Martí erhebt, haben die reaktionären Kräfte in der Regierung die Pflicht, ihn auf der Stelle zu stoppen, aber nur die Zeit wird zeigen, wer die Oberhand gewinnen und die Macht in El Salvador übernehmen wird."
+ELS_vanguard_stands: "Die Avantgarde steht"
+ELS_vanguard_stands_desc: "Wieder einmal sind die syndikalistischen Rebellen im Süden niedergeschlagen worden, und ein neues Zeitalter der Stabilität soll wiederhergestellt werden. Während die letzten Reste der feindlichen Kräfte von unserer Armee vernichtet werden, müssen wir noch entscheiden, wer das Land in sein neues Zeitalter der Stabilität führen soll..."
+ELS_new_guard: "Neue Garde"
+ELS_new_guard_desc: "Endlich wurde der Tyrann Martínez abgesetzt, und an seine Stelle ist der charismatische Osmín Aguirre y Salinas als neuer Präsident getreten. Salinas ist zwar immer noch bestrebt, Stabilität und Ordnung in El Salvador aufrechtzuerhalten, aber er ist auch ein Reformist, der seinem Volk zu einem besseren El Salvador verhelfen will."
+ELS_small_liberties: "Begrenzte Freiheiten"
+ELS_small_liberties_desc: "Die salvadorianischen Bürger haben in den Jahren der Präsidentschaft von Martínez erlebt, wie ihre persönliche Freiheit abgeschafft wurde. Unter solchen Bedingungen ist es kein Wunder, dass sich viele unserer Bürger einer Revolte angeschlossen haben, die fälschlicherweise versprach, sie wiederherzustellen. Um künftige Aufstände zu verhindern, werden wir einen Prozess der begrenzten Liberalisierung einleiten, um zu verhindern, dass Radikale unsere Bevölkerung mit falschen Freiheitsversprechen beeinflussen."
+ELS_strengthen_police: "Stärkung der Guardia Nacional"
+ELS_strengthen_police_desc: "Die 1912 von Präsident Araujo gegründete Guardia Nacional hat die Aufgabe, den Frieden zu wahren und die Kriminalität in ganz El Salvador zu bekämpfen, was aufgrund der Topographie El Salvadors außerordentliche Anstrengungen erfordert. Die verschiedenen Umstrukturierungen während des Regimes von Martínez haben diese Sicherheitskräfte weitgehend geschwächt, und um einen erneuten Aufstand zu vermeiden, wäre es eine kluge Entscheidung, die Guardia zu stärken."
+ELS_military_loyalties: "Militärische Loyalitäten"
+ELS_military_loyalties_desc: "Während einige Offiziere zu Martínez hielten, war der größte Teil der Armee eindeutig gegen seine tyrannische Herrschaft, und sie haben das bewiesen, indem sie sich uns angeschlossen haben. Jetzt, da wir an der Macht sind, müssen wir auch erkennen, dass sie uns so schnell, wie sie uns unterstützt haben, auch wieder verlassen und jemand anderen an die Macht bringen können. Wir müssen uns ihre Loyalität sichern, und dafür müssen wir ihnen Pensionen und Vergünstigungen gewähren, um sie an uns zu binden."
+ELS_new_republic: "Wiederausrufung der Republik"
+ELS_new_republic_desc: "Während der Zeit von Martínez wurde das republikanische System El Salvadors informell zugunsten einer autokratischen Diktatur aufgehoben. Jetzt, wo eine neue Regierung an der Macht ist, sollten wir das alte System wiederherstellen. Auf diese Weise können wir unsere Legitimität als Machthaber und unseren Ruf als Befreier festigen."
+ELS_constitution: "Wiederherstellung der Verfassung"
+ELS_constitution_desc: "Die Verfassung von El Salvador, die erstmals 1883 verfasst wurde, ist seit der Absetzung von Präsident Araujo außer Kraft gesetzt. Um sich mit den demokratischen Elementen in unserem Land anzufreunden, wäre es eine kluge Entscheidung, die Verfassung wieder in Kraft zu setzen. Dies würde die Konsolidierung unserer Macht im Lande beenden."
+ELS_military_state: "Militär mit Staat"
+ELS_military_state_desc: "Das salvadorianische Volk braucht in diesen schwierigen Zeiten einen starken Beschützer, und zu seinem Glück hat die Armee einen Eid geschworen, ihr Leben gegen alle zu verteidigen, die das Land und seine Bevölkerung bedrohen könnten. Daher ist es nur richtig, dass der Staatsapparat neu geordnet wird, damit das Militär ihn in eine bessere Zukunft führen kann."
+ELS_eliminating_socialists: "Eliminierung der Sozialisten"
+ELS_eliminating_socialists_desc: "Während sich der Staub der Revolution legt, müssen wir uns auf den Umgang mit den sozialistischen Elementen in unserer Nation konzentrieren. Obwohl sie bereits entscheidend besiegt wurden, weigern sich viele immer noch, unsere Herrschaft anzuerkennen und setzen ihren Kampf fort, indem sie Anschläge und Attentate verüben und sich dann in den verschiedenen Dschungeln des Landes verstecken. Sie sind eine Bedrohung für El Salvador und sein Volk, und als solche müssen sie bekämpft werden."
+ELS_militarization: "Militarisierung"
+ELS_militarization_desc: "Je stärker unser Einfluss im Land wird, desto mehr brauchen wir Soldaten. Da El Salvador ein kleines Land ist, besteht die einzige Möglichkeit, die Rekrutierung zu erhöhen, darin, unsere Gesellschaft von oben bis unten zu militarisieren. Aufgrund der jüngsten Spaltung zwischen der Armee und den Funktionären der Pro Patria ist unsere Befehlskette jedoch nicht in der Lage, diese Truppen wirksam in den Kampf zu schicken, solange diese Differenzen nicht beigelegt sind."
+ELS_loyal_military_board: "Startet eine Propagandakampagne"
+ELS_loyal_military_board_desc: "Während wir die letzten Reste der Erinnerungen an die Sozialisten aufräumen, befinden wir uns in einer seltsamen Lage. Einige der Menschen, die wir geschützt haben, bezeichnen uns jetzt als Verräter und Mörder. Wir müssen unsere Bevölkerung daran erinnern, dass unsere Regierung hier ist, um El Salvador zu verbessern, und um das zu tun, werden wir eine massive Propagandakampagne finanzieren, die auch die entlegensten Dörfer erreichen soll."
+ELS_rooting_memories: "Erinnerungen ausmerzen"
+ELS_rooting_memories_desc: "Pamphlete, Denkmäler und informelles Gedenken an die Revolutionäre sind immer noch überall im Land verbreitet. Wir müssen uns von solchen Symbolen befreien, um die Sozialisten endgültig aus El Salvador zu vertreiben. Wir werden eine massive Propagandakampagne starten, in der wir die Rebellen vollständig diskreditieren werden, bis diese Praktiken öffentlich geächtet und ihre Märtyrer zu gewöhnlichen Kriminellen werden."
+ELS_military_relations: "Militärische Beziehungen"
+ELS_military_relations_desc: "Seit Beginn der Revolution ist eine tiefe Kluft, die sich seit Jahren zwischen der Armee und der Partei Pro Patria gebildet hatte, endlich ans Licht gekommen. Jetzt, mit unserer vergrößerten Armee, müssen wir die Kluft zwischen uns überwinden, denn das, was uns eint, sollte Vorrang vor unseren Unterschieden haben, zumindest solange, bis El Salvador vor der sozialistischen Bedrohung und Leuten wie Farabundo Martí sicher ist."
+ELS_pro_patria_stands: "Pro Patria setzt sich durch"
+ELS_pro_patria_stands_desc: "Die Partei Pro Patria, die 1931 von Martínez gegründet wurde, um seine Herrschaft über El Salvador zu festigen, hat es geschafft, einen weiteren Sturm zu überstehen, der sowohl die Partei als auch El Salvador zu zerstören drohte. Jetzt, da unsere Feinde im Westen zerschlagen sind, müssen wir damit beginnen, unsere Position erneut zu sichern, und hoffen, dass wir El Salvador dieses Mal wirklich von allen Verrätern befreien, die es bedrohen könnten."
+ELS_expand_military_youth: "Ausweitung der militärischen Jugend"
+ELS_expand_military_youth_desc: "Wir haben festgestellt, dass sich in den Reihen der Revolutionäre viele idealistische junge Männer befanden, die sich von utopischen Versprechungen haben verführen lassen. Um dies in Zukunft zu verhindern, werden wir unser militärisches Jugendprogramm verpflichtend ausweiten, so dass alle salvadorianischen Jugendlichen lernen, El Salvador zu lieben und zu respektieren, damit sie sich nicht so leicht von Radikalen wie Martí oder Ama beeinflussen lassen."
+ELS_promote_national_board: "Förderung des Nationalen Ausschusses"
+ELS_promote_national_board_desc: "Eine unserer wichtigsten Stützen ist die ländliche Oligarchie, die unsere Regierung über den Nationalen Rat berät. Da die Krise, die unser Land ins wirtschaftliche Chaos gestürzt hat, endlich abklingt, wäre es eine weise Entscheidung, diejenigen zu belohnen, die an unserer Seite stehen. Aus diesem Grund soll der Nationale Rat für seine Loyalität gefördert und subventioniert werden, damit wir unsere Partnerschaft auch in den kommenden Jahren fortsetzen können."
+ELS_power_one: "Macht dem Einen"
+ELS_power_one_desc: "Die Demokratie hat in El Salvador seit ihren Anfängen wiederholt versagt, und wir können die Zukunft des Landes nicht länger einem Haufen zänkischer Politiker anvertrauen. Präsident Martínez hat sich sein Leben lang bemüht, El Salvador zu verbessern, und es ist nur richtig, dass wir ihm größere Freiheiten in der Exekutive zugestehen, damit er unser Land zum Wohlstand führen kann, ohne dass ihn unser veraltetes Rechtssystem in seiner Arbeit behindert."
+ELS_consolidate_state: "Konsolidierung des Staates"
+ELS_consolidate_state_desc: "Der Staat El Salvador ist das Einzige, was das Land davor bewahrt, in völlige Anarchie zu verfallen. Zum Wohle aller salvadorianischen Bürgerinnen und Bürger werden wir die Rolle des Staates im täglichen Leben der Bürgerinnen und Bürger ausweiten, damit alle sicher sein können, dass der Staat über sie wacht."
+ELS_law_reform: "Rechtsreform"
+ELS_law_reform_desc: "Präsident Martínez ist der Ansicht, dass zur Sicherung der Zukunft El Salvadors eine Gesetzesreform durchgeführt werden muss. Eine der Reformen besteht darin, der Zivilbevölkerung den Besitz von Waffen jeglicher Art zu verbieten, von einfachen Jagdgewehren bis hin zu Messern. Dies würde uns helfen, die Gewaltanwendung zu monopolisieren, und in Verbindung mit neuen Gesetzen soll es uns ermöglichen, unsere Bevölkerung besser zu kontrollieren, um die Kriminalität zu bekämpfen und eine neue Rebellion zu vermeiden."
+ELS_military_grants: "Militärische Zuschüsse"
+ELS_military_grants_desc: "Während wir unsere Macht sichern, dürfen wir die Verbündeten nicht im Stich lassen - die Kraft, die uns in unserem Heimatland sicher hält. Die Armee hat sich in letzter Zeit mit uns zerstritten, und Martínez hat eine Erhöhung der Gehälter und Renten der Armee vorgeschlagen. Dies wird sowohl die Loyalität vieler zweifelhafter Offiziere sichern als auch unsere Rekrutierung erhöhen, da mehr Bürger den Wunsch haben werden, unserer Regierung mit lukrativeren Belohnungen zu dienen."
+
+## Syndie Tree ##
+ELS_revolutionary_ideals: "Revolutionäre Ideale"
+ELS_revolutionary_ideals_desc: "Das salvadorianische Volk hat der Unterdrückung durch die Militärdespoten und den Tyrannen Martínez zu lange widerstanden! Jetzt, wo die Hauptstadt wieder in den Händen des Volkes ist, sieht das Schicksal El Salvadors dank der Zusammenarbeit der Demokraten und der Syndikalisten wieder rosig aus. Doch die Frage, wer El Salvador von nun an führen soll, ist noch nicht geklärt..."
+ELS_social_ideal: "Der syndikalistische Traum"
+ELS_social_ideal_desc: "Farabundo Martí mit seinen Idealen von Freiheit und Gleichheit soll El Salvador anführen. Als Kämpfer und Gelehrter ist Martí für die salvadorianischen Arbeiter, Einheimischen und Bauern zu einem Symbol der Einheit geworden, und er wäre die natürliche Wahl, um El Salvador in eine bessere Zukunft zu führen."
+ELS_presidency_restoration: "Präsidentielle Restaurierung"
+ELS_presidency_restoration_desc: "El Salvador hat seit der Gründung des 'Primer Grito de Independencia Centroamericana' im Jahr 1811 eine starke demokratische Tradition. Arturo Araujo wird vorläufig als provisorischer Präsident fungieren, bis die demokratischen Institutionen, die von Martínez abgeschafft wurden, wieder funktionsfähig sind."
+ELS_ensure_liberties: "Freiheitsrechte sichern"
+ELS_ensure_liberties_desc: "Die jüngsten Übergriffe von Martínez und der Armee haben gezeigt, wie verletzlich unser altes Rechtssystem und die Verfassung sind. Wir werden die alte Verfassung wiederherstellen und eine Reihe von Sicherheitsvorkehrungen und Sicherungsgesetzen einführen, um zu verhindern, dass es in unserem Land jemals wieder zu solchen Übergriffen kommt."
+ELS_recall_election: "Ruf nach Vorgezogenen Neuwahlen"
+ELS_recall_election_desc: "Nachdem unsere Verfassung und unser Rechtssystem wiederhergestellt sind, die Parteien sich neu organisiert haben und die Institutionen bereit sind, ist es nun an der Zeit, dass das Volk entscheidet, wer unser Land von nun an führen soll..."
+ELS_military_back: "Das Militär kehrt zurück"
+ELS_military_back_desc: "Jetzt ist das Land wieder unter der Kontrolle der Armee. Die syndikalistische Bedrohung hat sich lange genug in unserem Land ausgebreitet! Wir werden nicht zulassen, dass sie El Salvador in den Ruin führen!"
+ELS_reform_constitution: "Verfassungsreform"
+ELS_reform_constitution_desc: "With the constitution restored, there's not much we can do without reassembling the despotic regime of Martínez and turning the popular will against us. Castro has decided that reforming the constitution to suit our needs is our best and only option. By twisting the tenets of the constitution, we will gain both the legitimacy and the power to dispose of the dissidents within El Salvador once and for all."
+ELS_stacked_cabinet: "Der ehrliche Mann"
+ELS_stacked_cabinet_desc: "Unsere Regierung ist auf den ehrlichen salvadorianischen Mann zugeschnitten. Diejenigen, die auf den Feldern arbeiten, in den Werkstätten schuften und unsere Häfen und Schiffe bemannen. Sie, die nichts zu befürchten haben, brauchen auch keine Angst zu haben, wenn unsere Beamten vorbeikommen und Fragen zu ihrer Tätigkeit stellen. Diejenigen, die sich dagegen der Lüge und des Verrats bedienen, um sich vor unseren Beamten zu verstecken, sollen gefasst und wegen Dissidenz inhaftiert werden."
+ELS_removing_socialist_ideals: "Demokratisierung der Nation"
+ELS_removing_socialist_ideals_desc: "Bevor unser Land für die volle Demokratie bereit ist, müssen wir die losen Enden der vorherigen Verwaltungen beseitigen. In El Salvador gibt es immer noch viele Menschen, die unserem schönen Land Schaden zufügen wollen, und diese Menschen müssen gefunden und inhaftiert werden, bevor sie die Chance bekommen, bei den Wahlen eine entscheidende Rolle zu spielen. Nur so können wir eine funktionierende Demokratie erreichen..."
+ELS_new_dynasty: "Die neue Dynastie"
+ELS_new_dynasty_desc: "Genau wie die Meléndez-Quiñones-Dynastie sollten wir uns darauf konzentrieren, ein solideres demokratisches System zu errichten, in dem eine politische Dynastie die Führung übernimmt. Unserer Bevölkerung mag das vielleicht nicht gefallen, wenn sie davon erfährt, aber wir würden sonst riskieren, bei den Wahlen eine Niederlage zu erleiden und gezwungen zu sein, die Reformen rückgängig zu machen, die es geschafft haben, El Salvador wieder Frieden und Stabilität zu bringen."
+ELS_labour_secured: "Gesicherte Arbeit"
+ELS_labour_secured_desc: "Mit dem Willen des Volkes, das die Partido Labor unterstützt, wird Arturo Araujo nicht länger provisorischer Präsident sein, sondern ein vollwertiger, demokratisch gewählter und verfassungsmäßiger Präsident werden. Heute ist ein historischer Tag für El Salvador und einer der vielen Schritte auf dem Weg zu einer erfolgreichen Demokratie für alle."
+ELS_land_redistribution: "Landumverteilung"
+ELS_land_redistribution_desc: "Einer der größten Unterstützer des Martínez-Regimes war die ländliche Oligarchie, die sein despotisches Regime trotz des Schadens, den es dem salvadorianischen Volk zufügte, weiter finanzierte. Wenn wir El Salvador von den Militärs befreien wollen, müssen wir in erster Linie diejenigen entlassen, die deren Regime unterstützen. Aus diesem Grund wird die Regierung ein Landumverteilungsprogramm durchführen."
+ELS_national_liberal_comeback: "Comeback der Nationaldemokraten"
+ELS_national_liberal_comeback_desc: "Mit dem Willen des Volkes, das die Partido Nacional Democrática unterstützt, wird Arturo Araujo nicht länger provisorischer Präsident sein, und Alfonso Quiñónez Molina wird ein vollwertiger, demokratisch gewählter und verfassungsmäßiger Präsident werden. Heute ist ein historischer Tag für El Salvador und einer der vielen Schritte auf dem Weg zu einer erfolgreichen Demokratie für alle."
+ELS_natural_mix: "Der natürliche Mix"
+ELS_natural_mix_desc: "Einer der wichtigsten Grundsätze der alten PND, bevor sie von Martínez aufgelöst wurde, war es, eine versöhnliche Kraft in El Salvador zu bleiben. Wir nannten diese Politik 'La Mezcla Natural', und das bedeutete, dass wir versuchten, es den Arbeitern, der Oligarchie, dem Militär und den Sozialisten gleichermaßen recht zu machen. Wir werden zu dieser Politik zurückkehren und versuchen, mit allen in unserem Land zusammenzuarbeiten, um eine bessere Zukunft herbeizuführen."
+ELS_rooting_military: "Militärischen Einfluss zurückdrängen"
+ELS_rooting_military_desc: "Nach fünf Jahren der Militärherrschaft und ihrem kürzlichen Sturz genießt das Militär im ganzen Land noch immer große Unterstützung. Es haben sich viele informelle Milizen gebildet, und mehrere Kasernen weigern sich immer noch, unsere Herrschaft über das Land anzuerkennen. Wir werden eine landesweite Kampagne starten, um den Einfluss des Militärs aus unserem Land zu vertreiben, was hoffentlich dazu führen wird, dass wir das Militär wieder in den Griff bekommen."
+ELS_ending_strife: "Beendigung des Streits"
+ELS_ending_strife_desc: "El Salvador leidet unter einer ziemlich starken Ungleichheit, bei der die reichsten Oligarchen in ihrem Luxus leben, während viele ihrer Landarbeiter hungern. Das ist für uns inakzeptabel, und wir werden mit den Sozialisten zusammenarbeiten, um eine Reihe von Wohlfahrtsreformen auszuarbeiten, die der Notlage der salvadorianischen Bürger hoffentlich von nun an ein Ende bereiten werden."
+ELS_rooting_up_poor: "Eintreten für die Armen"
+ELS_rooting_up_poor_desc: "Es ist den einfachen Bauern und den ehrlichen Arbeitern in unserem Land zu verdanken, dass es uns gelungen ist, das tyrannische Militärregime zu stürzen. Es ist nur recht und billig, dass wir uns als Partei um die Verbesserung ihres Lebensunterhalts kümmern, als Zeichen der Dankbarkeit für ihren Dienst an uns und für die demokratischen Ideale, die El Salvador zusammenhalten."
+ELS_establish_middle_class: "Etablierung einer Mittelschicht"
+ELS_establish_middle_class_desc: "Aufgrund von ständigem Missbrauch, politischer Begünstigung und zügellosem Klientelismus ist unser Land in zwei Gruppen gespalten: die ländliche Oligarchie und die kämpfende Arbeiterklasse. Die einzige Möglichkeit, unser Land wirklich zu verbessern, besteht darin, allen salvadorianischen Bürgern die Chance zu geben, ein besseres Leben zu führen. In diesem Sinne werden wir uns bemühen, eine neue Mittelschicht zu gründen, die mit ihrem Einfallsreichtum die Zukunft unseres Landes prägen wird."
+ELS_native_rights: "Rechte der Eingeborenen"
+ELS_native_rights_desc: "Die vielen Eingeborenenstämme in unserer Nation standen mit uns gegen die tyrannischen Unterdrücker, die uns vernichten wollten. Dank Häuptlingen wie Feliciano Ama waren wir mit unserer Revolution auch erfolgreich. Es ist unsere Pflicht, ihre Loyalität zu belohnen, indem wir ihnen die volle salvadorianische Staatsbürgerschaft gewähren und die Spaltung, die die salvadorianische Gesellschaft jahrzehntelang geplagt hat, ein für alle Mal beenden."
+ELS_unifying_salvador: "Trennungen beseitigen"
+ELS_unifying_salvador_desc: "Obwohl wir die Einbürgerung der Ureinwohner in unsere Gesellschaft sichergestellt haben, werden sie von den Arbeitgebern immer noch anders behandelt als die Nachkommen der Criollos, die in der Regel besser bezahlt werden und bessere Beschäftigungsmöglichkeiten haben. Wir werden eine Reihe von strengen Gesetzen gegen den Rassismus in unserer Gesellschaft einführen, die die ethnische Spaltung unserer Nation ein für alle Mal beenden werden!"
+ELS_trade_unionism: "Gewerkschaftswesen"
+ELS_trade_unionism_desc: "Da ein neues El Salvador aus der Asche des alten geboren wird, müssen wir nun auch unser politisches System modernisieren. Farabundo Martí hat seine Wünsche klar geäußert und verlangt, dass die Gewerkschaften eine größere Rolle in der Regierung erhalten. Wir werden auch damit beginnen, die Gewerkschaften in El Salvador auszubauen, da das Land insgesamt immer noch einen Mangel an Gewerkschaften aufweist."
+ELS_removing_class: "Entfernung der Klassen"
+ELS_removing_class_desc: "Unser Land ist von Ungerechtigkeit geplagt, in dem die Bauern unermüdlich schuften, um ihre Familien kaum ernähren zu können, während die ländliche Oligarchie den gesamten Reichtum für sich behält. Wir werden damit beginnen, ihr Vermögen zu verstaatlichen und die Felder zu kollektivieren. Auf diese Weise können wir sicherstellen, dass die Arbeiter und Bauern unseres Landes wirklich frei von den Missbräuchen der gierigen Oligarchen sind."
+ELS_snapping_military: "Das Militär bekämpfen"
+ELS_snapping_military_desc: "Das Militär lehnt unsere rechtmäßige Herrschaft über das Land ab, besetzt Städte, versteckt sich in Wäldern und Dschungeln und greift unsere Unterstützer an. Wir haben zwar die Oberhand, aber die Beseitigung der Überreste der reaktionären Kräfte wird Zeit und viel Mühe kosten, aber dank der jahrelangen Anwendung ihrer Taktiken zu unserem Vorteil wissen wir, dass wir eine wirksame Aufstandsbekämpfung durchführen und sie besiegen können!"
+ELS_removing_censorship: "Aufhebung der Zensur"
+ELS_removing_censorship_desc: "Das Martínez-Regime hat die Meinungsfreiheit so stark eingeschränkt, dass von den gemäßigten Demokraten bis hin zu den radikalsten Syndikalisten in unseren Milizen alle unabhängig von ihrer Ideologie für die Meinungsfreiheit eintreten. Wir werden einen vereinigenden Schritt machen und die freie Meinungsäußerung für alle wiederherstellen, was uns wiederum helfen wird, unsere Legitimität zu festigen und uns zumindest den Respekt unserer demokratischen Rivalen zu verschaffen."
+
+## Industrial Tree ##
+ELS_coffee_republic: "Die Kaffeerepublik"
+ELS_coffee_republic_desc: "Seit 1840 ist El Salvador auf den Kaffeeexport angewiesen, um seine Wirtschaft aufrechtzuerhalten. Daher ist das Land seit vielen Jahren als 'República Cafetalera' bekannt, und obwohl diese Idee in Zeiten eines rückläufigen Kaffeemarktes einige Probleme mit sich brachte, lässt sich nicht leugnen, dass El Salvador durch den Export dieser Kulturpflanze erheblich gestärkt wird."
+ELS_initial_crash: "Der erste Absturz"
+ELS_initial_crash_desc: "Als die Wellen des Schwarzen Montags schließlich El Salvador erreichen, befinden wir uns in einer seltsamen Situation. Wir verfügen zwar noch über unsere Produktionskapazitäten, aber wir haben keine Abnehmer mehr, an die wir exportieren können. Da unsere Lieferungen ausbleiben, beginnt unsere Wirtschaft stark unter dieser weltweiten Wirtschaftskatastrophe zu leiden."
+ELS_tapping_entente: "Die Entente anzapfen"
+ELS_tapping_entente_desc: "Vor dem Schwarzen Montag waren wir in hohem Maße darauf angewiesen, dass die USA und Deutschland unseren Kaffee kaufen, um uns zu versorgen. Da sich beide Länder in großen wirtschaftlichen Schwierigkeiten befinden, können wir uns nicht mehr auf ihre Unterstützung verlassen und haben uns daher nach neuen Verbündeten umgesehen. Trotz des Schwarzen Montags ist die Entente sicher und wohlhabend geblieben, und so können wir vielleicht immer noch an ihren Gewinnen teilhaben, wenn wir ihnen einige Zugeständnisse machen."
+ELS_promoting_coffee: "Kaffee-Förderung"
+ELS_promoting_coffee_desc: "Kaffee ist heute mehr denn je zum Lebenselixier unserer Wirtschaft geworden. In solchen Krisenzeiten können wir uns nicht mehr den Luxus erlauben, dass unsere Bauern einfach anbauen, was ihnen passt, und wir sollten den Kaffeeanbau wieder fördern, um unsere wirtschaftliche Situation zu verbessern."
+ELS_temporary_recovery: "Vorübergehende Erholung"
+ELS_temporary_recovery_desc: "Nach einer Reihe von Reformen ist es uns endlich gelungen, den Schaden, den der Schwarze Montag in unserer Wirtschaft angerichtet hat, zu beheben. Allerdings haben wir es immer noch mit den Überbleibseln der Großen Depression zu tun, so dass es noch einiger Reformen bedarf, bevor wir ein für alle Mal wieder auf die Beine kommen können."
+ELS_minor_development: "Geringfügige Entwicklung"
+ELS_minor_development_desc: "Wenn die Wirtschaft im Zuge unserer Reformen zu brummen beginnt, kann unsere Regierung damit beginnen, sich auf kleine Industrieprojekte im Departement La Libertad zu konzentrieren. Dies wird uns helfen, unsere Industrie in unserem Land zu verbreiten, und wir sind sicher, dass wir auf lange Sicht von solchen Investitionen profitieren werden."
+ELS_status_foreign_assets: "Status ausländischer Vermögenswerte"
+ELS_status_foreign_assets_desc: "In El Salvador sind viele ausländische Unternehmen ansässig, darunter ein Teil der berüchtigten United Fruit Company. Wir haben vor kurzem festgestellt, dass diese Unternehmen unser geltendes Arbeitsrecht missbrauchen, um unsere Arbeitnehmer zu misshandeln, und es ist an der Zeit zu entscheiden, wie wir darauf reagieren werden, bevor es zu öffentlicher Empörung kommt."
+ELS_revolution_wounds: "Wunden der Revolution"
+ELS_revolution_wounds_desc: "Der jüngste Aufstand hat nicht nur soziale und politische Narben hinterlassen, sondern auch unsere ohnehin schon recht schwache Wirtschaft in Mitleidenschaft gezogen. Die Departements Sonsonante und Ahuachapán sind durch die Kämpfe völlig verwüstet worden, und da das Kaffeegebirge Apaneca-Illamatepec in diesen Provinzen liegt, wäre es in unserem besten Interesse, sie wieder auf die Beine zu bringen."
+ELS_foreign_aid: "Ausländische Hilfe"
+ELS_foreign_aid_desc: "Wir können nicht hoffen, dass wir die jüngsten Schäden allein bewältigen können. Zu unserem Glück verfügen wir über genügend Ressourcen, und unsere Handelspartner sind noch wohlhabend genug, um uns zu helfen. Wir werden unsere Handelspartner um neue Zugeständnisse bitten und eine Reihe von Gesetzesreformen, Steuerbefreiungen und Steuererleichterungen auf den Weg bringen, um die Ansiedlung von Niederlassungen ausländischer Unternehmen in unserem Land zu erleichtern."
+ELS_agriculture_funding: "Landwirtschaftliche Förderungen"
+ELS_agriculture_funding_desc: "Das Lebenselixier El Salvadors ist und war schon immer die Landwirtschaft. Die jüngste Krise hat sowohl die arbeitenden Bauern als auch die Oligarchie der Landbesitzer gleichermaßen hart getroffen. Wenn wir uns jemals von der Krise erholen wollen, müssen sie wieder auf die Beine kommen und neue Ernten einbringen. Wir werden eine Reihe von Subventionen für diese Gruppen bereitstellen, damit sie zur Normalität zurückkehren und uns helfen können, unser Land wieder zu Wohlstand zu führen."
+ELS_resuming_development: "Entwicklung fortsetzen"
+ELS_resuming_development_desc: "Jetzt, da die Wunden der Revolution endlich zu heilen beginnen, unsere Wirtschaft wieder in Schwung kommt und die Wirtschaftskrise, die El Salvador am Boden gehalten hat, endlich überwunden ist, ist es an der Zeit, unsere Entwicklung wieder aufzunehmen. El Salvador wird nicht hinter seinen Nachbarn zurückbleiben, und wir werden uns um die Verbesserung unseres Landes bemühen, bis es wegen seiner wirtschaftlichen Stärke von ganz Mittelamerika beneidet wird."
+ELS_syndie_economy: "Eine sozialistische Wirtschaft"
+ELS_syndie_economy_desc: "Viele Jahre lang haben die Arbeiter unseres Landes ungerechterweise unter dem Leid des kapitalistischen Arbeitssystems gelitten. Von diesem Tag an wird sich El Salvador um eine gerechtere Gesellschaft bemühen, die den Idealen des Vitalismo von Alberto Masferrer folgt, in der jeder Mensch, unabhängig von Geschlecht oder Rasse, das Recht auf einen grundlegenden Lebensstandard durch gleichen Zugang zu Bildung, Arbeit, Nahrung und Unterkunft hat."
+ELS_agriculture_reforms: "Landwirtschaftliche Reformen"
+ELS_agriculture_reforms_desc: "Die Landwirtschaft in El Salvador wird auch in Zukunft einer der wichtigsten Wirtschaftszweige des Landes bleiben. Allerdings wird dieser Sektor seit Jahrzehnten von einer wohlhabenden Elite beherrscht, die nichts anderes getan hat, als die Bauern auf dem Lande zu ihrem eigenen Vorteil auszubeuten. Jetzt ist es unsere Pflicht, den Bauern zu demselben Wohlstand zu verhelfen, den die Großgrundbesitzer einst hatten. Aber dazu müssen wir eine tiefgreifende Agrarreform durchführen."
+ELS_safety_common_man: "Sicherheit für den kleinen Mann"
+ELS_safety_common_man_desc: "Die Sicherheitsbestimmungen in El Salvador sind nichts weiter als eine Ansammlung nebulöser Alibi-Gesetze, die während der Meléndez-Quiñones-Dynastie erlassen wurden, um die Arbeiterklasse zufrieden zu stellen. Wenn wir jedem Einzelnen in unserem Land das Recht auf einen angemessenen Lebensstandard zugestehen wollen, müssen wir die Sicherheitsbestimmungen unseres Arbeitsgesetzes verbessern."
+ELS_supporting_unions: "Gewerkschaften unterstützen"
+ELS_supporting_unions_desc: "Die Gewerkschaften in El Salvador sind in den letzten Jahren durch das tyrannische Regime von Martínez geschwächt worden. Aber jetzt, wo das Volk an der Macht ist, müssen wir die Gewerkschaften wieder aufrichten, damit keine Unternehmen mehr unsere Bürger ausbeuten können, egal ob Arbeiter oder Bauer. Dazu müssen wir jedoch zunächst entscheiden, welche Gewerkschaft wir unterstützen wollen..."
+ELS_follow_fellow_unions: "Folgt der europäischen Methode"
+ELS_follow_fellow_unions_desc: "El Salvador hat immer nach außen geschaut, um sich zu verbessern, und Europa war immer der Ort, von dem es sich inspirieren ließ. Der Aufschwung des Syndikalismus in Europa ist zwar für einige bedrohlich, für uns jedoch aufschlussreich und beweist, dass eine von den Gewerkschaften geführte Gesellschaft sowohl machbar als auch effizient ist. Wir werden ihrem Beispiel folgen und den Gewerkschaften ein größeres Mitspracherecht in Regierungsangelegenheiten einräumen."
+ELS_new_socialist_economy: "Eine neue Wirtschaft"
+ELS_new_socialist_economy_desc: "Nachdem unsere Reformen nun in vollem Umfang in Kraft getreten sind und unsere Projekte ihren Abschluss gefunden haben, können wir nun endlich unsere neue Wirtschaft einweihen. Mit der Einführung besserer Sicherheitsbestimmungen und gleichberechtigterer Arbeitsgesetze wird unsere Wirtschaft sowohl florieren als auch den in El Salvador ansässigen Arbeitnehmern zugute kommen."
+ELS_starting_industrialization: "Beginn der Industrialisierung"
+ELS_starting_industrialization_desc: "El Salvador kann sich nicht nur auf seine Agrarexporte verlassen, das hat die jüngste Krise am Schwarzen Montag bewiesen. Wir müssen einen Industrialisierungsprozess einleiten, wenn auch nur in begrenztem Umfang, um die wirtschaftliche Produktion unseres Landes zu sichern, selbst wenn wir mit dem Zusammenbruch von Industrieriesen wie Deutschland oder den USA konfrontiert werden."
+ELS_foreign_development: "Ausländische Entwicklung"
+ELS_foreign_development_desc: "Es wäre töricht zu glauben, dass sich unsere kleine Nation nur selbst entwickeln könnte. Uns fehlen die Werkzeuge und das Wissen dazu, aber die Welt ist voll von Ländern, die diese besitzen und die sie gerne mit uns teilen würden, wenn wir ihnen Zugang zu unseren wertvollen landwirtschaftlichen Gütern gewähren."
+ELS_military_funding: "Militärische Finanzierung"
+ELS_military_funding_desc: "Trotz der internen Probleme, die die Armee in der letzten Zeit hatte, lässt sich nicht leugnen, dass sie in der Tat die Beschützer El Salvadors gegenüber seinen Nachbarn sind. Angesichts der zunehmenden Spannungen in Mittelamerika wird unsere Armee jedes Gewehr brauchen, das wir herstellen können. Dabei können wir uns nicht auf ausländische Rüstungsunternehmen verlassen, sondern sollten uns um den Ausbau unserer eigenen Rüstungsindustrie bemühen."
+ELS_promoting_civillian: "Förderung der zivilen Entwicklung"
+ELS_promoting_civillian_desc: "Die Bedeutung unserer zivilen Industrie darf nicht unterschätzt werden. Unsere Bevölkerung wird Kleidung, Baumaterialien und grundlegende Konsumgüter benötigen, und wir können uns nicht immer darauf verlassen, dass ausländische Unternehmen diese produzieren. Um zumindest teilweise Autarkie zu erreichen, müssen wir unsere zivile Wirtschaft verbessern."
+ELS_san_salvador_la_union: "San Salvador nach La Unión"
+ELS_san_salvador_la_union_desc: "Die Straßen von der Stadt El Salvador in Richtung La Union sind bestenfalls holprig. Wir müssen eine massive Kampagne starten, um die Littoral- und die Panamericana-Autobahn zu verbessern, die wiederum den Westen unseres Landes mit der Hauptstadt verbinden und den Städten San Miguel und Usulután durch den neuen Verkehr großen Nutzen bringen werden."
+ELS_normal_economy: "An den Grundlagen festhalten"
+ELS_normal_economy_desc: "Bei so vielen radikalen Ideen, die in unserem Land umherschwirren, dürfen wir nicht vergessen, dass El Salvador eine kleine Nation ist und es nur sehr wenige Dinge gibt, die unserem Land Wohlstand bringen könnten. Eines dieser Dinge ist unsere bewährte Handelswirtschaft, die sich den fruchtbaren salvadorianischen Boden zunutze gemacht hat, um unsere Wirtschaft insgesamt zu verbessern. Wir werden bei den Grundlagen bleiben und diese Wirtschaftspolitik fortsetzen."
+ELS_promoting_banking_reforms: "Unterstützung der Bankenreformen"
+ELS_promoting_banking_reforms_desc: "Um neue wirtschaftliche Höhen zu erreichen, müssen wir unseren Bürgern mehr Kapital zur Verfügung stellen, damit sie in neue Unternehmen, landwirtschaftliche Flächen, Werkzeuge und Maschinen investieren können. Dieses Geld könnte von unserem Bankensystem zur Verfügung gestellt werden, aber es hat derzeit sehr strenge Finanzierungsbedingungen. Wir werden eine Bankenreform einleiten, damit es für unsere Bürger einfacher wird, mit finanzieller Unterstützung des Staates eigene Unternehmen zu gründen."
+ELS_beginnings_economy: "Der Beginn einer richtigen Wirtschaft"
+ELS_beginnings_economy_desc: "El Salvador hat sich in der Vergangenheit weitgehend auf eine rückständige Agrar- und Wirtschaftspolitik gestützt, und das muss ein Ende haben. Von nun an wird sich die salvadorianische Regierung bemühen, die interne Wirtschaftsstruktur El Salvadors zu einer der modernsten in Zentralamerika zu machen."
+ELS_american_market_washover: "Amerikanischer Markt"
+ELS_american_market_washover_desc: "Einer der wichtigsten Märkte El Salvadors waren schon immer die Vereinigten Staaten von Amerika. Die jüngsten Entwicklungen in der amerikanischen Nation haben unsere wirtschaftlichen Beziehungen sicherlich geschwächt, aber die Gewinne, die sie uns früher beschert haben, waren von unschätzbarem Wert. Wir werden versuchen, unsere fruchtbaren Wirtschaftsbeziehungen mit der amerikanischen Bevölkerung wiederzubeleben, unabhängig von ihrer Ideologie."
+ELS_promoting_trade: "Förderung des Kaffeehandels"
+ELS_promoting_trade_desc: "Die Kaffeeproduktion befindet sich auf einem historischen Höchststand, aber wir haben immer noch nicht viele stabile Abnehmer, um den Großteil unserer Kaffeevorräte zu verkaufen. Wir werden uns auf diplomatischer Ebene darum bemühen, den Verkauf unseres Kaffees in der gesamten Region zu erleichtern, was wiederum die Gewinne unserer Wirtschaft steigern wird, so dass wir in die Verbesserung unserer Effizienz investieren können."
+ELS_new_trade_economy: "Handelsbasierte Wirtschaft"
+ELS_new_trade_economy_desc: "Nachdem unsere Reformen nun in vollem Umfang in Kraft sind und unsere Projekte ihren Abschluss gefunden haben, können wir nun endlich unsere neue Wirtschaft einweihen. Auch wenn viele behaupten, dass wir die alte Wirtschaftspolitik fortsetzen, können wir sie eines Besseren belehren, denn unsere Gewinne sind größer als je zuvor, und unsere Ausrichtung nach außen erweist sich trotz der Behauptungen der Syndikalisten als weitgehend erfolgreich. Heute ist ein großer Tag für El Salvador!"
+
+## Army Tree ##
+ELS_beginning_army: "Umgestaltung der Armee"
+ELS_beginning_army_desc: "Angesichts der zunehmenden Spannungen in Mittelamerika sind wir auf einen groß angelegten Konflikt schlecht vorbereitet. Wir werden ein Modernisierungsprogramm starten, das mit einer Reihe von Manövern in der zentralen Region unseres Landes beginnt. Dies sollte der erste Schritt sein, um unser Land auf den Stand eines jeden Feindes zu bringen, der es bedrohen könnte."
+ELS_guerilla_warfare: "Guerillataktiken"
+ELS_guerilla_warfare_desc: "Die langjährigen Aufstände in El Salvador haben gezeigt, dass das Terrain in unserem Land eindeutig für eine dezentralisierte Guerilla spricht. Wir werden unser Modernisierungsprogramm auf die asymmetrische Kriegsführung und den Einsatz von Guerillataktiken anstelle konventioneller Kriegstaktiken ausrichten."
+ELS_low_recruitment: "Rekrutierung verstärken"
+ELS_low_recruitment_desc: "El Salvador hat die zweithöchste Bevölkerungszahl in Mittelamerika, die nur noch von Guatemala übertroffen wird. Wir könnten uns diese Tatsache zunutze machen, aber eine Guerillatruppe braucht eine große Zahl von Leuten, um zu funktionieren, und unsere derzeitigen Rekrutierungsmethoden reichen einfach nicht aus, um Freiwillige zu gewinnen. Wir werden eine massive Propagandakampagne starten, um die jungen Idealisten mit Versprechungen von Ehre, Ruhm und Kameradschaft für unsere Truppe zu gewinnen."
+ELS_never_surrender: "Salvadorianischer Stolz"
+ELS_never_surrender_desc: "Die Helden der zentroamerikanischen Unabhängigkeit waren meist Salvadorianer. Menschen wie José Simeón Cañas, Domingo Antonio de Lara oder die Brüder Aguilar y Bustamante führten Armeen gegen übermächtige Kräfte an. Wieder einmal ist unsere Nation bedroht, nicht durch ausländische Unterdrücker, sondern durch unsere einst so genannten Brüder. Unser Überleben steht jetzt auf dem Spiel, und jeder Salvadorianer wird zum Dienst gerufen!"
+ELS_jungle_warfare: "Dschungel-Kriegsführung"
+ELS_jungle_warfare_desc: "Die Topographie El Salvadors begünstigt diejenigen, die lernen, in den verschiedenen Umgebungen zu kämpfen. Während der Stadtkampf in dicht besiedelten Gebieten wie San Salvador oder Managua und der Gebirgskampf in den vielen Gebirgszügen, die unser Land umgeben, funktionieren würde, ist der Dschungel die häufigste Kampfumgebung. Deshalb werden wir im Dschungel von La Joya mit der Ausbildung beginnen, um mit unserer Armee für den Fall der Fälle zu üben."
+ELS_supply_focus: "Erhaltung unserer Waffen"
+ELS_supply_focus_desc: "El Salvador verfügt nicht über so viel Industrie wie unsere Nachbarn. Wir versuchen zwar, diese Tatsache durch Waffenkäufe bei anderen Weltmächten auszugleichen, sind aber dennoch auf einen nicht immer verfügbaren Waffenstrom angewiesen. Jeder salvadorianische Soldat soll gründliche Kenntnisse darüber erhalten, wie man die Waffen in unserem Arsenal repariert und wartet und wie man unsere Munition am besten recycelt."
+ELS_professional_army: "Eine Berufsarmee"
+ELS_professional_army_desc: "Unsere Armee hat sich dank ständiger Reformen seit der Gründung des Landes auf einem sehr hohen Niveau gehalten. Diese Tradition, die mit der Gründung durch Präsident de Arce y Fagoaga im Jahr 1824 begann, hat es unserer Armee ermöglicht, zu einer der fortschrittlichsten in Mittelamerika zu werden. Wir werden uns darauf konzentrieren, unsere Fähigkeiten in der konventionellen Kriegsführung zu verbessern, anstatt auf Guerillataktiken zurückzugreifen."
+ELS_consolidated_divisions: "Modernisierung unserer Divisionen"
+ELS_consolidated_divisions_desc: "Während unsere Armee in Bezug auf die Ausbildung der Offiziere und die Ausrüstung fortschrittlich geblieben ist, ähnelt unsere Armeestruktur immer noch der einer neugeborenen Nation im 19. Wir müssen unsere Armeestruktur ins 20. Jahrhundert bringen und werden uns auf die Umstrukturierung unseres Armeesystems von oben nach unten konzentrieren, was hoffentlich unsere Kampfkraft erhöhen wird."
+ELS_heavy_weaponry: "Schwere Bewaffnung"
+ELS_heavy_weaponry_desc: "Der Weltkrieg hat bewiesen, dass die Infanterie nicht der einzige Faktor in der modernen Kriegsführung ist. Jede moderne Kampftruppe, die siegreich sein will, braucht eine Artillerie, die den Vormarsch der Infanterie decken und den Feind im Falle eines Gegenangriffs unterdrücken kann. In diesem Sinne werden wir mit Investitionen zur Verbesserung unserer nationalen Artillerie beginnen, die in der Lage sein sollte, mit den besten Kanonen zu konkurrieren, die sogar Krupp anbieten kann!"
+ELS_foreign_doctrine: "Ausländische Doktrinen ausleihen"
+ELS_foreign_doctrine_desc: "Die Welt befindet sich seit 30 Jahren in ständigen Konflikten, und auch wenn wir uns durch die Entsendung von Offizieren an ausländische Akademien und als Beobachter Notizen gemacht haben, können wir doch nicht darauf hoffen, so komplexe Kampfdoktrinen zu entwickeln wie Deutschland oder Frankreich mit ihren Erfahrungen auf dem Gebiet der Kriegsführung. Wir werden stattdessen versuchen, von ihren Doktrinen zu lernen, um unsere eigenen zu verbessern und hoffentlich die Oberhand über unsere Nachbarn zu gewinnen."
+ELS_military_academy: "Förderung der CGGB-Schule"
+ELS_military_academy_desc: "Die 'Escuela Militar Capitán Gerardo Barrios' ist unsere Alma Mater. Diese Offiziersschule wurde mit Lehrern und Büchern aus vielen Ländern wie Deutschland, Chile und den Vereinigten Staaten unterstützt. Es ist nur logisch, dass wir in dieser Zeit der Not die Akademie fördern, indem wir unseren Soldaten wirtschaftliche Anreize bieten, der Akademie beizutreten, um Offiziere zu werden und die Qualität der Akademie insgesamt zu verbessern."
+
+## Air and Navy Tree ##
+ELS_beginning_air: "Anfänge einer Luftstreitkraft"
+ELS_beginning_air_desc: "Die Salvadorianische Luftwaffe (FAS) ist ein relativ junger Zweig des Militärs. Sie wurde gegründet, um die Souveränität und Integrität des salvadorianischen Luftraums zu verteidigen, und befindet sich noch in der Reformphase, in der sie eifrige Rekruten aus den anderen Teilstreitkräften und der Zivilbevölkerung aufnimmt. Wir werden diese Rekruten in einigen Übungen einsetzen, bevor wir größere Reformen durchführen."
+ELS_basic_fighters: "Grundlegende Jägerentwicklung"
+ELS_basic_fighters_desc: "In den letzten zehn Jahren haben wir mehrere Kampfflugzeuge importiert. Technisch gesehen sind die meisten von ihnen zwar nur Trainingsflugzeuge, aber unsere Ingenieure haben hart daran gearbeitet, diese Flugzeuge zu vernünftigen Kampfmaschinen zu machen. Wenn wir uns ihr Wissen zunutze machen, könnten wir vielleicht diese ausländischen Flugzeuge nachbauen und selbst Kopien dieser Flugzeuge herstellen."
+ELS_plane_lease: "Flugzeug leasen"
+ELS_plane_lease_desc: "Wir wären zwar gerne in der Lage, die Flugzeugproduktion allein aufrechtzuerhalten, aber die Wahrheit ist, dass wir kaum mit unserer lokalen Gewehrproduktion zurechtkommen, und wir hätten sogar noch mehr Probleme, eine lokale Luftstreitkraft ganz allein zu produzieren. Zum Glück haben wir noch Kontakte in der weltweiten Flugzeugindustrie, die mehr als bereit wären, uns mehr Flugzeuge zu unserer Verteidigung zu verkaufen."
+ELS_bombers: "Bomber-Entwicklung"
+ELS_bombers_desc: "Der Weltkrieg hat der Welt bewiesen, dass eine kompetente Luftstreitkraft der entscheidende Faktor in den Kriegen von morgen sein wird. Während Kampfflugzeuge den Himmel sichern, würden die Bomber die Bodentruppen entweder durch direkte Unterstützung oder durch Bombardierung der Infrastruktur des Feindes unterstützen. Wir verfügen bereits über eine Vielzahl von Kampfflugzeugen, aber wir brauchen mehr Bomber in unserer Luftstreitkraft, wenn wir im Wettbewerb mit unseren Nachbarn bestehen wollen."
+ELS_plane_production: "A la Hora y en Cualquier lugar"
+ELS_plane_production_desc: "El Salvador ist ein kleines Land, das in Bezug auf die Produktion nicht wirklich mit seinen Nachbarn konkurrieren kann. Aus diesem Grund sollten wir uns auf massive Investitionen in unsere Luftstreitkräfte konzentrieren, da diese mit relativ geringem Personalaufwand eine Vielzahl von Feinden abwehren können. Auf diese Weise werden wir in der Lage sein, genügend Flugzeuge aufzustellen, um unserem Motto 'Innerhalb einer Stunde und an jedem Ort' treu zu bleiben."
+ELS_naval_bombers: "Marinebomber"
+ELS_naval_bombers_desc: "El Salvador verfügt über keine nennenswerte Überwasserflotte, um Feinde auf dem Meer abzuwehren. Wenn wir nicht von einer feindlichen Landungstruppe überrascht werden wollen, wäre es klug, unsere importierten T6-Modelle zu studieren, um eine bessere lokale Variante von Marinebombern zu entwickeln, mit der wir unsere Küsten schützen können."
+ELS_beginning_navy: "Gründung einer Marine"
+ELS_beginning_navy_desc: "In El Salvador gibt es keine nennenswerte Marine. Wir werden uns bemühen, eine solche zu gründen, zunächst mit einer Marineoffiziersschule. Diese soll am Ilopango-See angesiedelt werden und mit Holzbooten betrieben werden, bis eine formellere Flotte gegründet wird. Bis der Bau des Gebäudes abgeschlossen ist, müssen die neuen Marineoffiziere jedoch mit einem der Hangars der Luftstreitkräfte vorlieb nehmen..."
+ELS_commission_flagship: "Ausbau des Hafens von Acajutla"
+ELS_commission_flagship_desc: "Die kleine Küstenstadt Acajutla besitzt unseren größten Hafen im Pazifik und unseren einzigen funktionierenden Hafen, der groß genug ist, um unseren Seehandel zu unterstützen. Wenn wir eine seetüchtige Flotte besitzen wollen, sollten wir uns darauf konzentrieren, die Anlagen in Acajutla um eine kleine Werft zu erweitern, die zumindest die Grundlagen für den Aufbau einer Flotte abdecken sollte."
+ELS_sticking_basics: "An den Grundlagen festhalten"
+ELS_sticking_basics_desc: "El Salvador hat keinen Bedarf an einer großen Schlachtflotte. Sollte El Salvador jemals von einem Krieg bedroht werden, wäre unsere Arbeitskraft an Land wertvoller als auf See. Das bedeutet jedoch nicht, dass der Besitz einer Flotte nutzlos wäre. Der Handel ist es, der El Salvador am Leben erhält, und damit das so bleibt, brauchen wir Geleitschiffe für unsere Konvois. Wir werden damit beginnen, unsere Ingenieure zu finanzieren, um ein gutes Geleitschiff zu entwerfen, das wir herstellen können."
+ELS_convey_interception: "Abfangen von Konvois"
+ELS_convey_interception_desc: "Eine der größten Überraschungen des Weltkriegs war die Wirksamkeit der U-Boot-Kriegsführung. Diese Erfindung hat bewiesen, dass eine kleine, weit verstreute Seestreitkraft eine potenzielle Bedrohung für die Kriegsanstrengungen des Feindes darstellen kann, indem sie seine isolierten Schiffe zerstört. Wir werden in diese neue Technologie investieren, die uns im Falle eines Krieges gegen unsere Nachbarn hoffentlich die Oberhand verschaffen wird."
+ELS_salvador_rules_waves: "Patria, Lealtad y Valor"
+ELS_salvador_rules_waves_desc: "Da unsere Marineschule nun endlich eingerichtet ist und unsere Werften eigene Schiffskonstruktionen herstellen, ist es an der Zeit, die 'Marina Nacional de El Salvador' oder 'MNES' offiziell zu gründen, und auf Wunsch von Kapitän Yanez Urias werden wir ihr das Motto 'Land, Treue und Tapferkeit' geben."
+
+#Army Generals#
+
+ELS_maximiliano_hernandez_martinez_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g21. Oktober 1882, in San Matías, La Libertad, Republik El Salvador§!\n§YMilitärkarriere:§! §gMaximiliano Hernández Martínez besuchte die \"Escuela Politecnica\" in Guatemala, wo er die Grundlagen der Kriegsführung erlernte und seinen Abschluss als Leutnant machte. 1903 kehrte er nach El Salvador zurück. Nach seiner Rückkehr begann er ein Studium an der Fakultät für Rechts- und Sozialwissenschaften der \"Universidad de San Salvador\", bevor er seine Karriere im zweiten Jahr beendete. Ende 1903 wurde er zum Leutnant befördert, 1906, während des Krieges gegen Guatemala, zum Hauptmann, wo er unter General Tomás Regalado diente, und schließlich 1919 zum Brigadegeneral. Er wurde 1921 zum Kriegs- und Marineminister ernannt und war Arturo Araujos Kandidat für das Amt des Vizepräsidenten, bevor er 1931 einen Putsch gegen Araujo organisierte. Martínez ist auch der Hauptorganisator des vernichtenden Sieges bei Izalco, der den Bauernaufstand von 1932 beendete.§!\n\n§YAnmerkungen: Anführer der Partei Pro Patria. Bei seinen Truppen wegen seiner Rücksichtslosigkeit unbeliebt."
+ELS_osmin_aguirre_y_salinas_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g24. Dezember 1899, in San Miguel, Republik El Salvador§!\n§YMilitärkarriere:§! §gOsmín Aguirre y Salinas trat nach Beendigung seines Studiums in die Armee ein. Er stieg in den Rängen auf, bis er 1930 Oberst wurde. Später, nach der Absetzung Araujos, nahm er am Directorio Civico teil und war zusammen mit Martínez einer der Hauptverantwortlichen für den Sieg über den Bauernaufstand 1932, bei dem sein Talent als Offizier zum Vorschein kam. Er wurde als Chef der Guardia Nacional eingesetzt und schließlich zum General befördert. Seitdem ist er trotz seiner Differenzen mit der Partei Pro Patria und Martínez eine einflussreiche Persönlichkeit innerhalb der salvadorianischen Armee geblieben.§!\n\n§YAnmerkung: Verachtet Martínez."
+ELS_salvador_castaneda_castro_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g6. August 1888 in Chalchuapa, Santa Ana, Republik El Salvador§!\n§YMilitärkarriere:§! §gSalvador Castaneda Castro meldete sich zum Militär, sobald er volljährig war. Aufgrund seiner Leistungen an der Offiziersakademie stieg er schnell auf, bis er zum Direktor der salvadorianischen Militärakademie ernannt wurde. Seitdem hat er trotz der Meinungsverschiedenheiten mit Martínez und Salinas eine tadellose Dienstbilanz vorzuweisen."
+ELS_andres_ignacio_menendez_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g1. Februar 1879, in Santa Ana, Republik El Salvador§!\n§YMilitärkarriere:§! §gAndrés Ignacio Menéndez trat mit 18 Jahren als einfacher Freiwilliger in das Militär ein, doch nach Jahren vorbildlichen Dienstes wurde er gebeten, eine Offiziersausbildung zu beginnen. Er schloss die salvadorianische Militärakademie 1898 als Leutnant ab und stieg stetig auf, bis er 1920 zum Brigadegeneral befördert wurde. Während der Legislativversammlung von 1934 wurde er zum provisorischen Präsidenten ernannt, wo er versuchte, das Land wirklich zu demokratisieren und die Schulden zurückzuzahlen, die Martínez in zwei kurzen Jahren hinterlassen hatte. Seine Herrschaft war jedoch nur von kurzer Dauer, da Martínez einen Putsch gegen ihn anführte und sich mit amerikanischer Unterstützung wieder als Diktator einsetzte. Dies hat jedoch nichts an seinem Ruf geändert, und er ist immer noch ein vertrauenswürdiges Mitglied des Generalstabs. Menendez wird sowohl vom Militär als auch von der Zivilbevölkerung als ehrenhafter und loyaler Mann angesehen.§!\n\n§YAnmerkung: Apathisch gegenüber der Politik."
+ELS_agustin_farabundo_marti_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g5. Mai 1893, in Teotepeque, La Libertad, Republik El Salvador§!\n§YMilitärkarriere:§! §gAgustín Farabundo Martí Rodríguez verfügt über keine formale militärische Ausbildung. Er war jedoch lange Zeit in der sandinistischen Armee aktiv und kehrte 1929 nach El Salvador zurück. Er versuchte 1932, einen bewaffneten Aufstand anzuführen, der jedoch an der amerikanischen Unterstützung der reaktionären Kräfte scheiterte, so dass er gezwungen war, zunächst nach Guatemala und dann mit seinem alten Freund nach Nicaragua zu fliehen. Mit seinem Sieg in der Revolution von '37 hat er einige Kenntnisse im Guerillakrieg konsolidiert, und er ist auch zu einem salvadorianischen Nationalsymbol geworden.§!\n\n§YAnmerkung: Von seinen Truppen geschätzt, von den Einwohnern geliebt."
+ELS_feliciano_ama_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g1881, in Izalco, Sansonante, Republik El Salvador§!\n§YMilitärkarriere:§! §gFeliciano Ama verfügt über keinerlei formelle militärische Ausbildung. Seine Teilnahme am Aufstand von 1932 und an der jüngsten Machtübernahme haben ihm jedoch den Ruf von Tapferkeit und Führungsqualitäten in Krisenzeiten für die indigene Bevölkerung eingebracht.§!\n\n§YAnmerkung: Derzeitiger Häuptling des indigenen Volkes der Pipil."
+
+ELS_KR_gathering_storm_desc: "Mit dem Staatsstreich von Maximiliano Hernandez Martínez im Jahr 1931 gehört die Demokratie in El Salvador der Vergangenheit an, denn die ultranationalistische Partei Pro Patria hat das Land fest im Griff. Nachdem ein sozialistischer Aufstand 1932 niedergeschlagen wurde, steht Martínez aufrecht da und hat niemanden, der sich seiner tyrannischen Herrschaft widersetzt... Zumindest denkt er das. Seine Kontrolle über das Land hängt in hohem Maße von der amerikanischen Unterstützung ab, und mit der Flucht der sozialistischen Galionsfiguren während des Aufstandes von 1932, dem Sieg von Sandino in Nicaragua und den zunehmenden Spannungen in den Vereinigten Staaten könnte es genügen, dass der große Riese aus dem Norden wegschaut, um El Salvador in Flammen aufgehen zu lassen..."
+
+### Country Names ###
+ELS: "El Salvador"
+ELS_ADJ: "El Salvadorianisch"
+ELS_DEF: "El Salvador"
+
+ELS_totalist: "Salvadorianische Kommune"
+ELS_totalist_ADJ: "El Salvadorianisch"
+ELS_totalist_DEF: "die Salvadorianische Kommune"
+ELS_syndicalist: "Salvadorianische Kommune"
+ELS_syndicalist_ADJ: "El Salvadorianisch"
+ELS_syndicalist_DEF: "die Salvadorianische Kommune"
+ELS_radical_socialist: "Salvadorianische Kommune"
+ELS_radical_socialist_ADJ: "El Salvadorianisch"
+ELS_radical_socialist_DEF: "die Salvadorianische Kommune"
+
+### Characters ###
+ELS_agustin_farabundo_marti: "Agustín Farabundo Martí Rodríguez"
+ELS_agustin_farabundo_marti_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 15. Mai 1893, in Teotepeque, La Libertad, Republik El Salvador\n§YPolitikkarriere:§! Agustin Farabundo Martí begann seine politische Karriere mit Protesten gegen die Meléndez-Quiñones-Dynastie und beteiligte sich an den ersten Arbeiterorganisationen in El Salvador. Später meldete er sich freiwillig, um den zapatistischen Kräften zu helfen, nachdem der Plan von Agua Prieta in Kraft getreten war, und lernte dort einen seiner engsten Freunde kennen, Augusto Cesar Sandino, mit dem er jahrelang befreundet war. Er setzte seine Karriere als politischer Aktivist fort und unterstützte Sandino später bei seinem Kampf in Nicaragua. Mit der Zeit entfernte sich Martí jedoch immer weiter von Sandino, und die beiden waren sich immer häufiger uneins über das Schicksal ihrer Länder, falls ihre Revolutionen erfolgreich sein sollten. Martí entfernte sich schließlich immer weiter von Sandino, und ihre Beziehung erreichte 1929 einen Bruchpunkt, als Martí versuchte, Sandino in einem betrunkenen Wutanfall zu schlagen. Obwohl er sich mehrmals offiziell bei Sandino entschuldigt hatte, beschloss er 1930, nach El Salvador zurückzukehren und die revolutionäre Bewegung allein anzuführen. Seine Zeit kam 1932, als er versuchte, den Ersten Westlichen Aufstand anzuführen, aber nachdem er von Martínez eine vernichtende Niederlage erlitten hatte, floh er nach Mexiko, um sich weiter auf die Revolution in El Salvador vorzubereiten. Jetzt, wo er an der Macht ist, wird er sein Bestes tun, um die von ihm erträumte syndikalistische Utopie nach europäischem Vorbild zu verwirklichen, auch wenn dieser Traum für eine Agrarregion wie Mittelamerika noch weit entfernt scheint..."
+
+ELS_feliciano_ama: "José Feliciano de Jesús Ama Trampa"
+ELS_feliciano_ama_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 1881, in Izalco, Sansonante, Republik El Salvador\n§YPolitikkarriere:§! José Feliciano Ama, ein Häuptling der Pipil-Stämme in Izalco, der dem Massaker von 1932 entkommen konnte, hat es geschafft, das Staatsoberhaupt von El Salvador zu werden. Ama, der über keinerlei formale Bildung und Ideologie verfügt, wird die meisten seiner Aufgaben an seine Minister delegieren und sich hauptsächlich für die Aufrechterhaltung des Status quo und die Verbesserung der allgemeinen Situation der Ureinwohner und Bauern El Salvadors einsetzen, unabhängig von Sprache, ethnischer Zugehörigkeit oder Religion."
+
+ELS_arturo_araujo: "Arturo Araujo Fajardo"
+ELS_arturo_araujo_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 1878, in Santa Tecla, La Libertad, Republik El Salvador\n§YPolitikkarriere:§! Arturo Araujo Fajardo absolvierte ein Ingenieurstudium in Großbritannien, wo er ein starker Anhänger der Politik der britischen Labour Party vor dem Weltkrieg wurde. Nach seiner Rückkehr nach El Salvador wurde er schnell zum Anhänger von Alfredo Masferrer und seiner Ideologie des \"Vitalismo\". 1930 beschloss er, sich endlich offiziell an der salvadorianischen Politik zu beteiligen, und gründete seine eigene Partei, die Partido Laborista, die dank der Unterstützung Masferrers sofort Zulauf erhielt. Die Laboristas gewannen die Wahlen von 1931, und Araujos Karriere schien praktisch über Nacht in die Höhe geschossen zu sein. Wirtschaftliche Not, soziale Instabilität und der Widerstand gegen die Interessen der Armee und der ländlichen Oligarchie schwächten Araujos Position jedoch immer weiter. Seine Präsidentschaft endete, als sein Vizepräsident und Kriegsminister Maximiliano Hernandez Martínez am 2. Dezember 1931 einen erfolgreichen Staatsstreich durchführte, der Araujo aus allen politisch relevanten Positionen verdrängte und die Demokratie in El Salvador beendete. Da der Zweite Westliche Aufstand jedoch erfolgreich war und Araujo dazu auserwählt wurde, sein Land beim Übergang zu einer vollständigen Demokratie wieder anzuführen, ist er in El Salvador zu einer beliebten Figur geworden, und unter seiner Herrschaft werden sicherlich fortschrittliche Reformen und Wohlfahrt für das Land eingeführt werden."
+
+ELS_alfonso_quinonez_molina: "Alfonso Quiñónez Molina"
+ELS_alfonso_quinonez_molina_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 11. Januar 1874, in Suchitoto, Cuscatlán, Republik El Salvador\n§YPolitikkarriere:§! Alfonso Quiñónez Molina hat für salvadorianische Verhältnisse eine lange politische Karriere hinter sich. Als Vizepräsident für seine Schwager Carlos Meléndez und Jorge Meléndez von 1915 bis 1918 bzw. von 1919 bis 1923 hatte er die Grundlagen des Regierens erlernt. 1914 und 1919 wurde er zunächst provisorischer Präsident und 1923 zum verfassungsmäßigen Präsidenten gewählt. Nach seiner Wahl kam es zu einer öffentlichen Empörung, da viele Medien seine Herrschaft als Pseudomonarchie bezeichneten, die als Meléndez-Quiñones-Dynastie bekannt wurde. Trotz der schlechten Presse kam es unter seiner Herrschaft zum größten Kaffeeboom in der Geschichte El Salvadors, der dem Land zu wirtschaftlichem Wohlstand in Rekordhöhe verhalf und Molinas Popularität in neue Höhen katapultierte. Zahlreiche Repressionen während seiner Regierungszeit hatten jedoch seinen Ruf schwer beschädigt, so dass er am Ende seiner Amtszeit zurücktreten musste. In Ermangelung anderer starker liberaler Kandidaten beschloss die PND, Molina erneut mit der Führung der liberalen Koalition zu beauftragen, was Molina gerne annahm. Jetzt, da er wieder an der Macht ist, hat er versprochen, alles in seiner Macht Stehende zu tun, um der salvadorianischen Nation und ihrem Volk den Wohlstand zurückzugeben."
+
+ELS_salvador_castaneda_castro: "Salvador Castaneda Castro"
+ELS_salvador_castaneda_castro_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 6. August 1888 in Chalchuapa, Santa Ana, Republik El Salvador\n§YPolitikkarriere:§! Salvador Castañeda Castro, der von Martínez nach seinem Staatsstreich 1931 zum Direktor der Militärakademie Gerardo Barrios und zum Regierungsminister gewählt wurde, hat sich im Lande insgesamt eher unauffällig verhalten. Nachdem er während des zweiten westlichen Aufstands von Martínez' Truppen übergelaufen war, schien es fast so, als sei der General ein Verteidiger der Demokratie. Offenbar hat er andere Pläne für die salvadorianische Demokratie, die sich stark von denen der PL und der PND unterscheiden. Castro sah die Rote Gefahr über Mittelamerika heraufziehen und nutzte die Weigerung der Regierung, gegen rebellische Militärelemente vorzugehen, um sich heimlich mit ihnen zu verbünden und darauf zu warten, dass die Laboristas einen falschen Schritt machten, um El Salvador zu übernehmen. Jetzt, da er die Kontrolle über das Land hat, wird er die Syndikalisten aus allen Machtpositionen entfernen, während er gleichzeitig versucht, der Bevölkerung einen Anschein von Demokratie zu geben, um einen neuen Aufstand zu verhindern, auch wenn sich diese \"Demokratie\" als nichts anderes als eine List erweisen wird..."
+
+ELS_osmin_aguirre_y_salinas: "Osmín Aguirre y Salinas"
+ELS_osmin_aguirre_y_salinas_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 24. Dezember 1899, in San Miguel, Republik El Salvador\n§YPolitikkarriere:§! Osmín Aguirre y Salinas war seit seiner Jugend Berufsoffizier und hatte sich als solcher nur wenig an der salvadorianischen Lokalpolitik beteiligt... bis zum Staatsstreich von Martínez im Jahr 1931, bei dem Salinas Generaldirektor der Nationalen Polizei, Kriegsminister und provisorischer Führer des Bürgerlichen Direktoriums wurde, das General Martínez die oberste Macht übertrug. Die zunehmende Unruhe in der Armee hat Salinas jedoch zu einer Stimme der Opposition gegen Martínez werden lassen. Martínez' Fehler während des Zweiten Westlichen Aufstands haben die Armee dazu gebracht, Martínez zu stürzen, aber ob Salinas in der Lage sein wird, El Salvador zu sichern und wirksam zu reformieren, bleibt abzuwarten..."
+
+ELS_maximiliano_hernandez_martinez: "Maximiliano Hernandez Martínez"
+ELS_maximiliano_hernandez_martinez_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 21. Oktober 1882, in San Matías, La Libertad, Republik El Salvador\n§YPolitikkarriere:§! Maximilianos politische Karriere war von Anfang an hart. Nach seinem Putsch gegen die Zivilregierung im Dezember 1931 wurde er mit harten Entscheidungen bombardiert, die 1932 zum salvadorianischen Aufstand führten. Dies hat sich als Schandfleck für seine politische Karriere erwiesen, da die Stimmung gegen ihn nicht nur in der Bevölkerung, sondern auch in einigen Teilen der Armee weit verbreitet war. Die Vereinigten Staaten stehen jedoch auf seiner Seite, und das ist das Einzige, was seine politische Karriere im Moment noch sichern kann."
+
+ELS_andres_ignacio_menendez: "Andrés Ignacio Menéndez"
+ELS_miguel_marmol: "Miguel Marmol"
+ELS_claudia_lars: "Claudia Lars"
+ELS_jose_gustavo_guerrero: "José Gustavo Guerrero"
+ELS_jose_castellanos_contreras: "José Castellanos Contreras"
+ELS_oscar_osorio: "Óscar Osorio"
+ELS_fidel_cristino_garay: "Fidel Cristino Garay"
+ELS_mauro_espinola_castro: "Mauro Espinola Castro"
+ELS_humberto_alejandro_aberle: "Humberto Alejandro Aberle"
+ELS_juan_ramon_munes: "Juan Ramón Munés"
+ELS_abel_cuenca: "Abel Cuenca"
+ELS_graciela_amaya_de_garcia: "Graciela Amaya de García"
+ELS_modesto_ramirez: "Modesto Ramirez"
+ELS_hector_escobar_serrano: "Hector Escobar Serrano"
+ELS_julio_enrique_avila: "Julio Enrique Avila"
+ELS_jose_ascencio_menendez: "Jose Ascencio Menendez"
+ELS_alberto_gomez_zarate: "Alberto Gomez Zarate"
+ELS_salvador_pena_trejo: "Salvador Pena Trejo"
+ELS_fidel_rodriguez_quintanilla: "Fidel Rodriguez Quintanilla"
+ELS_oscar_bolanos: "Óscar Bolaños"
+ELS_reynaldo_galindo_pohl: "Reynaldo Galindo Pohl"
+ELS_joaquin_valdes: "Joaquin Valdes"

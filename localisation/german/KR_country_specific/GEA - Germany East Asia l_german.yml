@@ -1,0 +1,738 @@
+﻿l_german:
+### Übersetzt von Proho ###
+German_East_Asia: "Schwerpunktbaum von Deutsch Ostasien"
+
+### Parties ###
+GEA_totalist_party: "Ostasiatische Totalisten"
+GEA_totalist_party_long: "Ostasiatische Totalisten"
+GEA_radical_socialist_party: "Saigon Vereinigung"
+GEA_radical_socialist_party_long: "Vereinigung radikaler Sozialisten Saigons"
+GEA_syndicalist_party: "Indochinesische Syndikalisten"
+GEA_syndicalist_party_long: "Indochinesische Syndikalisten"
+GEA_social_democrat_party: "SPD Unterstützer"
+GEA_social_democrat_party_long: "Sozialdemokratische Partei Deutschlands"
+GEA_social_liberal_party: "FVP"
+GEA_social_liberal_party_long: "Fortschrittliche Volkspartei"
+GEA_market_liberal_party: "NLP"
+GEA_market_liberal_party_long: "Nationalliberale Partei"
+GEA_social_conservative_party: "Die Sultans Liga"
+GEA_social_conservative_party_long: "Die Sultans Liga"
+GEA_authoritarian_democrat_party: "Kolonialverwaltung"
+GEA_authoritarian_democrat_party_long: "Kolonialverwaltung"
+GEA_paternal_autocrat_party: "Kolonialverwaltung"
+GEA_paternal_autocrat_party_long: "Kolonialverwaltung"
+GEA_national_populist_party: "MLN"
+GEA_national_populist_party_long: "Malaiische National Liga"
+
+### Tooltips ###
+GEA_receive_guns_from_home: "§GWir erhalten §Y2500§! Infanterieausrüstung aus Deutschland.§!"
+german_alligned_chinese_tag_controlled_tooltip: "Im Besitz und unter der Kontrolle von §Heiner deutschfreundlichen Regierung§!"
+GEA_try_to_give_guns_to_LEP_tooltip: "Wir werden versuchen, der Regierung in Nanjing §Y2500§! Infanterieausrüstungen zu geben, aber es könnte sein, dass sie sich in einem Akt des Ungehorsams weigern."
+GEA_try_to_give_factories_to_LEP_tooltip: "Wir werden versuchen, die §Y2§!-Militärfabriken vorübergehend der Regierung in Nanjing zu überlassen, aber sie könnten sich in einer Show des Ungehorsams weigern."
+GEA_no_factory_lease: "LEP hat den Mietvertrag abgelehnt."
+
+ GEA_capitulation_conditions: "§R[GER.GetNameDefCap] zieht Frieden nur dann in Betracht, wenn [GEA.GetName] keinen seiner Nicht-Enklaven-Kerne oder Ansprüche mit einer Bevölkerung von mehr als 200K mehr kontrolliert.§!"
+
+ GEA_can_send_volunteers_to_target_tt: "[ROOT.GetName] kann nur Freiwillige an Länder in Asien oder Ozeanien senden."
+
+### Opinion Modifier ###
+ GEA_sinogerman_cooperation: "Deutsch-chinesische Zusammenarbeit"
+
+### State Modifiers ###
+ GER_east_asian_naval_yards: "Ostasiatische Marinewerften"
+ GER_east_asian_naval_yards_desc: "Eine Reihe von Werften in diesem Staat stehen unter der Kontrolle der Ostasiatischen Admiralität und betreuen deren Flotten."
+
+### Focuses ###
+GEA_status_of_the_admiralty: "Zustand der Admiralität"
+GEA_status_of_the_admiralty_desc: "Mit der Annexion der französischen Kolonien und der Einverleibung der britischen Territorien ist Deutsch-Ostasien eine Kolonialbehörde, die in ihrer Kontrolle durch Großadmiral Hellmuth von Mücke und die Ostasienflotte einzigartig ist. Wir müssen den Status unserer fortbestehenden Mission, die Kolonien vor äußeren Aggressoren zu schützen, überprüfen und wie dies am besten erreicht werden kann."
+GEA_ostasien_force: "Die Ostasien-Truppe"
+GEA_ostasien_force_desc: "Die Ostasien-Truppe ist derzeit eine geteilte Mischung aus Ostasien-Marines, lokalen Garnisonseinheiten und frischen Rekruten aus Berlin. Wir müssen eine Bestandsaufnahme unseres Ansatzes machen - wagen wir uns an eine engagiertere Marinetruppe oder versuchen wir etwas Unorthodoxes?"
+GEA_request_arms_from_berlin: "Waffen anfordern aus Berlin"
+GEA_request_arms_from_berlin_desc: "Noch fehlt es uns an einer vernünftigen militärisch-industriellen Ausstattung, so dass wir bei der Versorgung auf Berlin angewiesen sind. Bis wir die Möglichkeit haben, eine heimische Versorgung aufzubauen, sollten wir zusätzliche Gewehre aus dem Heimatland anfordern."
+GEA_modern_artillery_shipments: "Moderne Artillerie anfordern"
+GEA_modern_artillery_shipments_desc: "Unsere vorhandenen Artilleriegeschütze sind verrostete Relikte aus der Zeit noch vor dem Weltkrieg, zum besseren Schutz unserer Kolonien sollten wir moderne Geschütze aus Berlin anfordern."
+GEA_increased_arms_supplies: "Erhöhte Waffenlieferungen"
+GEA_increased_arms_supplies_desc: "Da die Spannungen in der Region weiter zunehmen, müssen wir unsere stehenden Truppen weiter verstärken. Wir werden eine Anfrage an Berlin für weitere Ausrüstung senden."
+GEA_support_the_grand_fleet: "Unterstützung der Großen Flotte"
+GEA_support_the_grand_fleet_desc: "Die [ROOT.GetAdjective]-Doktrin sollte sich an der Unterstützung der Großen Flotte orientieren und sie auf Operationen ausrichten, bei denen Stiefel am Boden benötigt werden."
+GEA_refine_our_methods: "Verfeinerung unserer Methoden"
+GEA_refine_our_methods_desc: "Koordination ist der Schlüssel, und wir müssen sicherstellen, dass alle an einem Angriff beteiligten Einheiten genau wissen, wo sich ihre Verbündeten und ihre Feinde befinden; Funkgeräte werden das Schlüsselelement sein, um die von uns gewünschte Koordination zu erreichen."
+GEA_naval_hutier_tactics: "Marine Hutier Taktik"
+GEA_naval_hutier_tactics_desc: "Obwohl es Oberst Georg Bruchmüller war, der den Einsatz der Artillerie mit Infiltrationstaktiken verfeinerte, schien der Name von General Oskar von Hutier den Titel zu behalten. Es scheint jedoch, dass sich die Geschichte mit einem Korvettenkapitän, Hermann Ehrhardt, der bei der Feinabstimmung des Küstenbombardements der Seestreitkräfte half, wiederholt hat, und wieder wird Hutier der Titel verliehen."
+GEA_east_asian_marine_detachment: "Ostasiatisches Marinekommando"
+GEA_east_asian_marine_detachment_desc: "Wenn wir unsere Kolonien sichern und vor fanatischen Aggressoren schützen wollen, dann brauchen wir Männer, die dieser Herausforderung gewachsen sind. Wenn unsere letzten Reformen abgeschlossen sind, werden wir eine Macht sein, mit der man rechnen muss."
+GEA_unorthodox_approach: "Der Unorthodoxe Ansatz"
+GEA_unorthodox_approach_desc: "Während die Idee, die "Eingeborenen" wieder in die Streitkräfte aufzunehmen, nicht neu ist, ist es die Idee, sie zu etwas mehr als einer Garnisonstruppe auszubilden. Obwohl es scheint, dass einige Mitglieder des Offizierskorps der Herausforderung gewachsen sind."
+GEA_reform_the_garrisons: "Reform der Garnisonen"
+GEA_reform_the_garrisons_desc: "Neue Änderungen wurden vorgenommen, die fähigsten Männer werden zum Kern eines neuen [GEA.GetAdjective] Heeres geformt. Wir haben auch mehr Panzer gesichert, in Übereinstimmung mit unseren lautstarken Offizieren dieser Reformen."
+GEA_local_ncos: "Lokale Unteroffiziere"
+GEA_local_ncos_desc: "Deutsch wird nicht von allen Einheimischen gesprochen, obwohl es langsam das Englische und sogar das Französische verdrängt. Diejenigen, die Deutsch sprechen, sind sehr begehrt und werden in der Regel schnell zum Unteroffizier befördert. Außerdem ist die Bezahlung besser."
+GEA_east_asian_heer: "Ostasien Heer"
+GEA_east_asian_heer_desc: "Trotz aller Entschlossenheit wurde das, was eine lokale Garnisonstruppe war, zu einer wirklich modernen Armee reformiert."
+GEA_fiscal_austerity: "Steuerliche Sparsamkeit"
+GEA_fiscal_austerity_desc: "Angesichts der von Berlin ausgehenden globalen Finanzkrise müssen wir sofort unsere Ausgaben kürzen und unsere Einnahmen erhöhen oder ein enormes Haushaltsdefizit erleiden."
+GEA_colonial_mark: "Eine Kolonial Mark"
+GEA_colonial_mark_desc: "Im Gegensatz zu unseren Freunden in Afrika haben wir nie ernsthafte Anstrengungen unternommen, um die Verwendung der Ostasienmark seit ihrer Einführung im Jahr 1927 zu fördern. Indem wir die Verwendung der Ostasienmark vorschreiben, erhöhen wir die Einheitlichkeit in den Kolonien und verbessern unsere Fähigkeit, Einnahmen zu erzielen."
+GEA_share_our_burden: "Unsere Last teilen"
+GEA_share_our_burden_desc: "Die einheimischen europäischen Siedler haben lange von unserem Schutz profitiert und im Gegenzug für die Ordnung, die sie genießen, sehr wenig Steuern gezahlt. Aber da wir auf ihre Kooperation angewiesen sind, um die Kolonien zu betreiben, und nicht zu weit gehen können, wäre es besser, ein Abkommen mit ihnen zu schmieden."
+GEA_reinforce_colonial_bureaucracy: "Koloniale Bürokratie stärken"
+GEA_reinforce_colonial_bureaucracy_desc: "Deutsch-Ostasien hat nie eine voll funktionsfähige Verwaltung gehabt, um seinen Willen durchzusetzen. Jetzt, nach den kolonialen Wirren, ist es an der Zeit, die Bürokratie auszubauen und die direkte Herrschaft über unsere Kolonien zu etablieren."
+GEA_pacify_indochina: "Befriedung Indochinas"
+GEA_pacify_indochina_desc: "Indochina ist ein wichtiger Teil der Verwaltung von Deutsch-Ostasien und ein wirtschaftliches Zentrum. Angesichts des drohenden Gespenstes der Vietminh-Rebellen ist es nur logisch, dass es befriedet und befestigt wird."
+GEA_factories_of_singapore: "Fabriken in [336.GetCapitalVictoryPointName]"
+GEA_factories_of_singapore_desc: "In [336.GetCapitalVictoryPointName] gibt es derzeit keine nennenswerte Schwerindustrie. Einige deutsche Konzerne sind an einem Sprung nach Asien interessiert, bitten aber um unsere Unterstützung für ihre Investitionen, bevor sie beginnen. Neue Fabriken werden die Beschäftigung erhöhen und die Situation stabilisieren."
+GEA_pacify_malaya: "Befriedung Malayas"
+GEA_pacify_malaya_desc: "Malaya ist das leuchtende Juwel von Deutsch-Ostasien und das operative Zentrum unserer gesamten Verwaltung, aber im Gefolge des Schwarzen Montags ist es durch gewaltsame Aufstände gestört worden. Wir sollten versuchen, ein System von Posten, Bunkern und Bastionen einzuführen, um die lokalen Aufständischen zu befrieden. Dies wird uns auch im Falle eines feindlichen Angriffs von Land aus zugute kommen."
+GEA_indochinese_investments: "Indochinesische Investitionen"
+GEA_indochinese_investments_desc: "Die Textilfabriken von Indochina schreien nach weiterer Finanzierung, um zu expandieren und neue Techniken der Bekleidungsherstellung zu entwickeln. Die Bereitstellung dieser Mittel würde uns bei den Einheimischen beliebt machen und langfristig neue Einnahmen bringen. Dies wird zur wirtschaftlichen Erholung und Stabilisierung der Gesellschaft beitragen."
+GEA_local_arms_foundries: "Lokale Waffenfabriken"
+GEA_local_arms_foundries_desc: "Die derzeitigen Waffenhersteller in unserem Zuständigkeitsbereich sind gelinde gesagt mangelhaft. Wir sollten in die weitere Entwicklung neuer Designs und Anlagen investieren, um unsere Abhängigkeit von Berliner Schrott zu verringern."
+GEA_fiscal_austerity0: "Tsingtau schützen"
+GEA_fiscal_austerity0_desc: "Unsere Truppen kämpften und bluteten bis zum letzten Mann, um Tsingtau während des Weltkrieges zu verteidigen. Diese tapferen und standhaften Männer machen einen großen Teil von Hellmuths innerem Kreis aus und sie drängen ihn, ihr Objekt der Begierde besser zu verteidigen."
+GEA_authorise_local_arms_production: "Lokale Rüstungsproduktion genehmigen"
+GEA_authorise_local_arms_production_desc: "Gegenwärtig verbieten viele unserer Verträge den einheimischen Behörden und Fürsten, eine Waffenproduktion als Bedingung für unseren Schutz aufzubauen. Mit den Reformen, die in der grundlegenden Struktur unserer Regierung stattgefunden haben, sind wir dazu gekommen, diese Beschränkungen als ein veraltetes Hindernis zu betrachten und sind sehr daran interessiert, sie zu entfernen."
+GEA_siamese_border_fortifications: "Siamesische Grenzbefestigungen"
+GEA_siamese_border_fortifications_desc: "Obwohl das Königreich Siam dem Deutschen Reich während des Weltkriegs geholfen hat, wurden sie nicht mit ihren vollen Gebietsansprüchen belohnt, auf denen wir derzeit sitzen. Wir sollten die Grenze befestigen, nur für den Fall, dass sie entscheiden, dass Waffen lauter sprechen als Worte."
+GEA_lessons_from_mittelafrika: "Lehren aus Mittelafrika"
+GEA_lessons_from_mittelafrika_desc: "Mittelafrika ist eine Art Schwesterprojekt, das sich seit seiner Gründung mit der Unzufriedenheit der Einheimischen beschäftigt. Wir sind sicher, dass wir davon profitieren, wenn wir mittelafrikanische Berater anheuern"
+GEA_fiscal_austerity4: "Festung Hainan"
+GEA_fiscal_austerity4_desc: "Hainan ist ein wichtiger Stützpunkt für Operationen in Südchina und entlang der Küste Indochinas. Wir sollten versuchen, die Insel zu befestigen."
+GEA_counter_insurgency_lessons: "Lehren aus der Aufstandsbekämpfung"
+GEA_counter_insurgency_lessons_desc: "Die mittelafrikanischen Kolonialtruppen verfügen über umfangreiche, hart und blutig erkämpfte Erfahrungen bei der Niederschlagung lokaler Rebellen und Aufständischer. Durch die Einrichtung eines ständigen Militärattachés konnten neue Doktrinen und Taktiken angewendet werden. Obwohl dies zu einer höheren Misserfolgsquote bei der Rekrutierung geführt hat, sprechen die Ergebnisse für sich."
+GEA_white_phosphorus_bombs: "Weiße Phosphorbomben"
+GEA_white_phosphorus_bombs_desc: "Mittelafrikanisches Terrain ist mit dichter Vegetation und Dschungel gefüllt, deshalb haben sie eine neue Waffe eingeführt: die Flüssigbrandbombe, um die Aufständischen im dichten Laubwerk Afrikas zu bombardieren. Der Einsatz von weißem Phosphor ist wahrlich atemberaubend, obwohl seine Wirkung auf den Feind von den traditionelleren Mitgliedern der Admiralität als ziemlich geschmacklos angesehen wurde."
+GEA_valkyries_of_the_battlefield: "Walküren des Schlachtfelds"
+GEA_valkyries_of_the_battlefield_desc: "Aufgrund der schlechten Infrastruktur und des unwegsamen Geländes, in dem unsere Truppen operieren, haben wir häufig Schwierigkeiten, Verwundete zu bergen, was zum Tod durch Wunden führt, die ansonsten behandelbar wären. Der Einsatz von einheimischen Krankenträgern, die die Gegebenheiten des Landes kennen, war ein Geschenk des Himmels. Sie wurden von den Soldaten als "Walküren" bezeichnet, da sie die Überlebenden bergen und die Sterbenden aussortieren."
+GEA_singapore_flying_corps: "Singapur Fliegerkorps"
+GEA_singapore_flying_corps_desc: "Unsere derzeitigen Luftstreitkräfte bestehen vollständig aus unserer Marinefliegerabteilung. Wir sollten versuchen, zusätzliche Piloten für eine landgestützte Luftwaffe zu finden und auszubilden."
+GEA_qingdao_airbases: "[744.GetName] Flugplätze"
+GEA_qingdao_airbases_desc: "[744.GetName], die wir uns mit der AOG teilen, ist die perfekte Position, von der aus wir unsere Luftmacht über die gesamte Region ausbreiten können. Theoretisch sind wir in der Lage, Peking, die Mandschurei und sogar Japan anzugreifen, alles von einer Basis aus. Wir sollten nun versuchen, sie zu erweitern, um diese Optionen zu erleichtern."
+GEA_aviation_advisors: "Luftfahrt Berater"
+GEA_aviation_advisors_desc: "Unsere Piloten müssen unter den bestmöglichen Bedingungen für unsere Bedürfnisse trainiert werden. Wir werden Luftkämpfe über Tsingtau veranstalten, um unseren Rivalen zu zeigen, dass wir es ernst meinen."
+GEA_focke_wulf_ostasien: "Focke-Wulf Ostasien"
+GEA_focke_wulf_ostasien_desc: "Focke-Wulf hat sein Interesse bekundet, eine ostasiatische Tochtergesellschaft zu eröffnen, um von unseren lokalen Arbeitskräften und Ressourcen zu profitieren. Wir sollten sie bei diesem Vorhaben voll unterstützen."
+GEA_east_asian_fallschirmjager: "Ostasien Fallschirmjäger"
+GEA_east_asian_fallschirmjager_desc: "Großadmiral von Mücke bewundert schon lange die Fallschimjäger und ihre starke Disziplin. Kürzlich hat er Kontakt mit dem "Wolf" Dietrich Witzel aufgenommen, der angeboten hat, hier im Osten eine Elitedivision auszubilden und zu kommandieren; ein Angebot, das wir nicht ablehnen können."
+GEA_fighter_shipments: "Jagdflugzeug anfordern"
+GEA_fighter_shipments_desc: "Während wir jetzt einige Flugzeuge vor Ort produzieren, benötigen wir immer noch mehr, als wir derzeit produzieren können. Wir werden ein Jäger-Quartett aus Berlin anfordern, um die Lücke in der Zwischenzeit zu füllen."
+GEA_grand_fleet: "Die große Flotte"
+GEA_grand_fleet_desc: "Die Ostasienflotte ist die größte und prächtigste außerhalb Europas und bildet den Kern unserer Operationen in Ostasien; ein leuchtendes Zeugnis unseres Engagements für die gegenwärtige Ordnung. Unser Hauptfeind in der Region ist natürlich das Kaiserreich Japan und seine eigene beachtliche Flotte. Wenn wir unsere große Flotte im Hafen halten, sind die Japaner gezwungen, erhebliche Seestreitkräfte einzusetzen, um sie zu bewachen."
+ GEA_fleet_in_being: "Die Flotte im Einsatz"
+ GEA_fleet_in_being_desc: "Die Hochseeflotte ist derzeit der Meinung, dass wir durch überlegene Kräfte und gelegentliche, verheerende Einsätze die Seeherrschaft erringen werden. Indem wir ihnen in dieser Denkweise folgen, können wir sicherstellen, dass die orthodoxe deutsche Seekriegsdoktrin in allen Flotten beibehalten wird."
+ GEA_modern_destroyers: "Moderne Zerstörer"
+ GEA_modern_destroyers_desc: "Zerstörer sind das Rückgrat einer modernen Kriegsmarine. Wir sollten unsere eigenen Schiffe auf einen höheren Standard bringen und umgestalten."
+ GEA_command_of_the_sea: "Seeherrschaft"
+ GEA_command_of_the_sea_desc: "Die Ostasienflotte hat in Zukunft nur eine Priorität: die Japaner im Falle eines Krieges zu besiegen. Das bedeutet, dass unsere doktrinären Bemühungen darauf ausgerichtet sein sollten, ihre Schwächen auszunutzen. Japan ist in hohem Maße von den Einfuhren seiner Marionetten und Besitztümer abhängig. Wenn wir also auf eine Unterbrechung des Handels abzielen, können wir ihm einen übergroßen Schlag versetzen."
+ GEA_colonial_battlecruisers: "Koloniale Schlachtkreuzer"
+ GEA_colonial_battlecruisers_desc: "Während Schlachtschiffe und kolossale Dreadnoughts die Hauptstütze der Marine sind, verfügen unsere asiatischen Bestände nicht über die erforderlichen Werften und Ressourcen, die Deutschland auf dem Festland hat. Daher beabsichtigen wir, den Einsatz von Schlachtkreuzern zu fördern, einer Art von Panzerkreuzern mit schwereren Waffen, aber schwächerer Panzerung, die bei den Seemächten der Welt in Ungnade gefallen ist. Sie werden unseren Bedürfnissen perfekt entsprechen."
+ GEA_aviation_school: "Flugschule"
+ GEA_aviation_school_desc: "Während die deutsche Doktrin besagt, dass die Marinefliegerei nur der Aufklärung dient, wird dem Großadmiral ein erstaunliches Maß an Freiheit bei der Disposition seiner Streitkräfte eingeräumt. Zu diesem Zweck könnten wir, wenn er es wünscht, damit beginnen, viel mehr Zeit in die Denkschule zu investieren, die die Luftmacht als die Zukunft der Seemacht ansieht, auch wenn dies in Berlin sicher zu Kontroversen führen würde."
+ GEA_light_cruisers: "Leichte Kreuzer"
+ GEA_light_cruisers_desc: "Leicht gepanzerte Kreuzer mit einer Verdrängung von weniger als 5000 Tonnen sind häufig der Schlüssel zum Aufbau einer mobilen Seestreitmacht, sei es für Überfälle auf Konvois, die Kriegsmaterial nach Japan bringen, oder für die Eskorte von Flugzeugträgern, die im Pazifik Luftstreitkräfte einsetzen. Sie werden ein fähiges Rückgrat bilden."
+ GEA_carrier_conversion: "Trägerumbau"
+ GEA_carrier_conversion_desc: "Es mag etwas Bestechung erfordern und Kontroversen auslösen, wenn Berlin davon erfährt, aber zur Unterstützung unserer Doktrin sollten wir in kurzer Zeit einige Schlachtkreuzer in Flugzeugträger mit flacher Spitze umbauen lassen."
+ GEA_naval_aviation_ambition: "Ambitionierte Marinefliegerei"
+ GEA_naval_aviation_ambition_desc: "Was auch immer Berlin über Flugzeugträger denken mag, selbst sie werden nicht leugnen, dass Flugzeuge einen gewissen Nutzen im Rahmen der Marine haben. Deshalb wurden wir ermächtigt, landgestützte Flugzeuge weiterzuentwickeln, die auf den Angriff auf Schiffe und Häfen spezialisiert sind."
+ GEA_form_a_naval_aerial_corps: "Bildung eines Marinefliegerkorps"
+ GEA_form_a_naval_aerial_corps_desc: "Das [336.GetCapitalVictoryPointName] Fliegerkorps könnte ein erweitertes Aufgabengebiet gebrauchen. Durch die Bildung einer spezialisierten Marinedivision können wir ihren Aktionsradius immens vergrößern."
+ GEA_reinforce_aerial_defences: "Verstärkung der Luftabwehr"
+ GEA_reinforce_aerial_defences_desc: "Die Bedrohung durch Luftangriffe auf [336.GetCapitalVictoryPointName] ist eine ständige Sorge, da Flugzeuge vom chinesischen Festland, den Philippinen und Australien nun in der Lage sind, sie zu erreichen. Die Investition in eine lokale Luftabwehr wird uns nicht nur eine gewisse Sicherheit geben, sondern auch den Einheimischen unser Engagement verdeutlichen."
+ GEA_sms_neckar: "SMS Neckar"
+ GEA_sms_neckar_desc: "Die Ostasienflotte ist zwar schon stark und mächtig, aber es kann nie schaden, sie zu vergrößern. Wir werden den Kiel für ein neues Schlachtschiff, die 'Neckar', legen, das als starke und moderne Speerspitze dienen wird."
+ GEA_underwater_fleet: "Unterseeflotte"
+ GEA_underwater_fleet_desc: "Das U-Boot sollte eine herausragende Rolle in unserer Flotte einnehmen, um der japanischen Überwassermacht etwas entgegensetzen zu können. Indem wir die Weiterentwicklung von U-Booten vorantreiben, können wir unseren Vorteil gegenüber den verwundbaren Schifffahrtsrouten der Japaner ausbauen."
+ GEA_expand_local_dockyards: "Ausbau der lokalen Werften"
+ GEA_expand_local_dockyards_desc: "Wir werden zwar nie in der Lage sein, ein Schlachtschiff oder einen Flugzeugträger mit unseren lokalen Ressourcen zu bauen, aber Zerstörer und Kreuzer sind nicht unmöglich. Wir sollten die örtlichen Werftanlagen ausbauen, damit dies Wirklichkeit wird."
+ GEA_expand_naval_facilities: "Marineeinrichtungen ausbauen"
+ GEA_expand_naval_facilities_desc: "Die derzeitigen Marineeinrichtungen in Sembawang und Cam Ranh können derzeit nur die in diesem Gebiet stationierten Küstenpatrouillen unterstützen. Wir sollten diese Marinestützpunkte ausbauen, damit sie besser mit großen Schiffen umgehen können und unsere wachsende Präsenz unterstützen."
+ GEA_east_asian_merchant_navy: "Ostasiatische Handelsflotte"
+ GEA_east_asian_merchant_navy_desc: "Einer der größten Vorteile der ostasiatischen Kolonien und einer der Gründe, warum das Vaterland sie aufrechterhält, ist das schiere Handelsvolumen, das wir dadurch kontrollieren können. Wenn wir einen Teil der umfangreichen Handelsflotte für den Transport von Kriegsmaterial einsetzen, können wir unsere Transportkapazität vorübergehend erhöhen."
+ GEA_new_shipbuilding_methods: "Neue Schiffbaumethoden"
+ GEA_new_shipbuilding_methods_desc: "Der Schiffbau hat sich in den Jahren seit dem Plan von 1934 weiterentwickelt. Durch den Einsatz der neuesten Methoden des Stahlfräsens, des Rumpfbaus und der Elektronik können wir heute neuere, modernere Schiffe viel schneller bauen."
+ GEA_rule_the_pacific: "Den Pazifik beherrschen"
+ GEA_rule_the_pacific_desc: "Deutschland beherrscht die Meere! Vom Atlantik bis zum Pazifik beherrschen wir die Meere, und die Ostasienflotte wird die Königin des größten Ozeans der Welt sein."
+ GEA_coastal_fortifications_programme: "Programm für Küstenbefestigungen"
+ GEA_coastal_fortifications_programme_desc: "Derzeit scheint [336.GetCapitalVictoryPointName] durch amphibische Landungen verwundbar zu sein. Da die Japaner ihre Marinestreitkräfte ausbauen, sollten wir unsere Verteidigung ausbauen, um ihnen zu begegnen."
+ GEA_anti_invasion_plan: "Anti-Invasionsplan"
+ GEA_anti_invasion_plan_desc: "Durch die Durchführung von Kriegsspielen, die Schaffung einer Reserve aus Beton und Stahl und die Schulung der Zivilbevölkerung in Evakuierungsmethoden können wir sicherstellen, dass jedem Invasionsszenario mit voller Wucht begegnet wird."
+ GEA_absolute_defence_sphere: "Absolute Verteidigungssphäre"
+ GEA_absolute_defence_sphere_desc: "Die Doktrin der "Gesamtschutzsphäre" ist eine extreme Weiterentwicklung unserer Konzentration auf die Verteidigung der Kolonien gegen Invasionen. Sie fordert die Aufstellung mehrerer verschiedener Ausfallsicherungen und Sicherungspläne, um auf jedes mögliche Szenario einer Invasion und einer Seelandung vorbereitet zu sein, und die Truppen unablässig zu trainieren, damit sie auf jedes einzelne Szenario vorbereitet sind."
+GEA_navyfort4: "Saigon Küstenbefestigung"
+GEA_navyfort4_desc: "Saigon ist das Tor zu Vietnam und Indochina selbst, und als solches sollten wir versuchen, die Stadt vor amphibischen Angriffen zu schützen."
+ GEA_improved_marine_training: "Verbesserte Marineausbildung"
+GEA_improved_marine_training_desc: "Mit unserer einzigartigen Lage auf dem Globus konzentrieren wir uns natürlich mehr auf Marines als andere nahe gelegene Nationen, wobei das Seebataillon insbesondere für seine harten und schnellen amphibischen Angriffe bekannt ist. Wir sollten sie weiter ausbilden, um sicherzustellen, dass sie auf dem neuesten Stand sind."
+GEA_expand_the_singapore_detachment: "Erweitern Sie die [336.GetCapitalVictoryPointName] Abteilung"
+GEA_expand_the_singapore_detachment_desc: "Unsere Marinesoldaten sind zwar kämpferisch und widerstandsfähig, aber sie sind zahlenmäßig begrenzt. Wir sollten versuchen, die Größe unserer Marinestreitkräfte zu erweitern."
+GEA_jungle_warfare: "Dschungel-Krieg"
+GEA_jungle_warfare_desc: "Der raue Dschungel von Indochina ist seit langem ein Friedhof von Imperien, egal ob Freund oder Feind. Wir müssen alle unsere Truppen trainieren, um unter solch feindlichen Bedingungen besser zu operieren."
+GEA_collaborate_with_local_elites: "Mit lokalen Eliten zusammenarbeiten"
+GEA_collaborate_with_local_elites_desc: "Unsere interne Regierungsführung ist sowohl byzantinisch als auch archaisch aufgrund des Erbes der französischen und britischen Kolonialsysteme zusätzlich zu unseren direkt verwalteten Territorien. Wir haben beschlossen, eine engere Zusammenarbeit mit den lokalen Eliten zu ermöglichen, um zu versuchen, die Situation zu verbessern."
+GEA_strengthen_local_ties: "Lokale Bindungen verstärken"
+GEA_strengthen_local_ties_desc: "Großadmiral von Mücke selbst wird die wichtigen Gespräche mit unseren Partnern vor Ort führen, sein erklärter Ansatz von Charme und Champagner wird vielleicht nicht so gut funktionieren, wie er hofft, aber wir werden unser Bestes tun, um die Treffen zu unterstützen"
+GEA_help_small_businesses: "Hilfe für kleine Firmen"
+GEA_help_small_businesses_desc: "Wir können helfen, die Wirtschaft wieder auf Kurs zu bringen, indem wir lokale Unternehmen gegenüber deutschen Großkonzernen unterstützen. Dies wird Wohlstand und Beschäftigung für die Einheimischen sichern und sie davon abhalten, sich an der Rebellion zu beteiligen."
+GEA_new_admiralty: "Neue Admiralität"
+GEA_new_admiralty_desc: "In Deutsch-Ostasien hat eine Neubewertung der Rolle der Admiralität begonnen, die sich langsam zu einer richtigen Verwaltung und nicht zu einer Flotte mit Territorien entwickelt."
+GEA_negotiate_with_the_sultan_of_johore: "Verhandeln mit dem Sultan von [846.GetName]"
+GEA_negotiate_with_the_sultan_of_johore_desc: "Der Sultan von [846.GetName] war und ist eine Schlüsselfigur dafür, dass die malaiischen Sultanate unsere Herrschaft so leicht akzeptiert haben. Er bittet nun um weitere Zugeständnisse, um das Unrecht der früheren britischen Verwaltung zu korrigieren, und wir stimmen zu, dass diese geändert werden können."
+GEA_collaborate_with_local_monopolies: "Zusammenarbeit mit lokalen Monopolen"
+GEA_collaborate_with_local_monopolies_desc: "Der beste Weg, um aus der Flaute des Schwarzen Montags herauszukommen, ist die Unterstützung der Wirtschaft im eigenen Land und die Wiederbelebung unserer Exporte. Dazu sollten wir große deutsche Unternehmen dabei unterstützen, wirtschaftlich in die Region vorzudringen, um Zugang zu billigen Rohstoffen zu bekommen."
+GEA_local_economic_initiative: "Lokale Wirtschaftsinitiative"
+GEA_local_economic_initiative_desc: "Ruolph Firle, ein hochrangiger Mitarbeiter des Norddeutschen Lloyd, ist mit einem umfassenden Plan zur Förderung des lokalen Handels und der Schifffahrt an uns herangetreten. Dies würde dazu dienen, die Wirtschaft Südostasiens langfristig zu unterstützen, indem sie weniger abhängig vom Export von Rohstoffen wird."
+GEA_bao_dais_reforms: "Bao Dai's Reformen"
+GEA_bao_dais_reforms_desc: "Als wir nach dem Weltkrieg die französischen Gebiete in Besitz nahmen, wurde beschlossen, dass Kaiser Bao Dai in seiner Position als Kaiser von Annam unter unserer "führenden Hand" bleiben würde. Er bittet nun um eine Reihe von Reformen zur Wiederbelebung des alten kaiserlichen Systems. Wir werden sehen, ob wir ihm diese gewähren können."
+GEA_german_advisory_group: "Deutsche Beratergruppe"
+GEA_german_advisory_group_desc: "Indem wir ein permanentes Militärattaché-System für die lokalen Streitkräfte schaffen, können wir nicht nur helfen, den Prozess ihrer Integration in unsere eigene Armee zu erleichtern, sondern auch ein Auge auf radikale Elemente haben, die sie unterwandern könnten."
+GEA_deploy_local_guards: "Lokale Wachen einsetzen"
+GEA_deploy_local_guards_desc: "Viele lokale Fürsten haben ein gemeinsames Anliegen: die Erweiterung ihrer persönlichen militärischen Kräfte. Indem wir dies unter der Bedingung zulassen, dass jeder ein deutschsprachiges Regiment der königlichen Elitewache aufstellt, können wir sowohl unsere regulären Streitkräfte unterstützen als auch ihre Forderungen erfüllen."
+GEA_drinks_with_king_sisavang: "Umtrunk mit König Sisavang"
+GEA_drinks_with_king_sisavang_desc: "Auch wenn König Sisavang einer der kleineren autonomen Abhängigen ist, so ist er doch einflussreich und hat, wie andere auch, verlangt, dass gewisse koloniale Ungerechtigkeiten berichtigt werden. Dies werden wir bis zu einem gewissen Grad tun."
+GEA_education_reform: "Bildungsreform"
+GEA_education_reform_desc: "Die Alphabetisierungsrate der einheimischen Bevölkerung ist derzeit als miserabel zu bezeichnen. Durch die Förderung des Deutschunterrichts durch zweisprachige Einheimische können wir versuchen, einen Teil dieses Problems zu beheben."
+GEA_research_institutes: "Forschungsinstitute"
+GEA_research_institutes_desc: "Die Förderung von zwei Universitäten nach europäischem Vorbild in [336.GetCapitalVictoryPointName] und Saigon wird es uns ermöglichen, unsere Forschungsbasis zu verbreitern und auch reicheren und besser ausgebildeten Einheimischen zu erlauben, hier zu studieren, anstatt ins Ausland zu gehen, wo sie sich radikalisieren könnten."
+GEA_east_asian_infrastructural_plan: "Ostasien Infrastrukturplan"
+GEA_east_asian_infrastructural_plan_desc: "Durch die Formulierung eines umfassenden Plans für lokale Eisenbahnen sowie ein neues Autobahnnetz zwischen den Städten können wir die lokale Infrastruktur modernisieren und unsere ansonsten mangelhaften Verkehrsverbindungen verbessern."
+GEA_tonkin_gulf_steel_factories: "Stahlwerke am Golf von Tonkin"
+GEA_tonkin_gulf_steel_factories_desc: "Die Schwierigkeiten beim Bau der Infrastruktur haben unseren Mangel an einer Stahlindustrie deutlich gemacht. Die Entwicklung der Eisenmine Thach Khe ist seit langem ein Bestreben unserer Industrieplaner. Kombiniert mit der Entwicklung von Kohleminen in Nordvietnam können wir nun ein pan-tonkinisches Stahlproduktionsprojekt starten."
+GEA_transindochinese_railways: "Transindochinesischen Eisenbahnen"
+GEA_transindochinese_railways_desc: "Mit unserer letzten Reihe von Investitionen und neuem Wagenpark haben wir es geschafft, die Verbindungsstrecke nach Tonkin fertigzustellen. Das sollte helfen, unseren Binnenhandel und den Reiseverkehr zu verbessern."
+GEA_develop_tsingtau: "Tsingtau entwickeln"
+GEA_develop_tsingtau_desc: "Tsingtau ist mehr als eine Stadt, es ist ein Symbol der deutschen Dominanz, der Kontrolle, und mehr als alles andere ist es unser Platz an der Sonne. Tsingtau zu verlieren, wäre für das Oberkommando undenkbar, und es müssen alle Anstrengungen unternommen werden, die Konzession zu festigen."
+GEA_fortify_the_concessions: "Die Konzessionen stärken"
+GEA_fortify_the_concessions_desc: "Die Situation in China sieht düster aus. Nationalistische Elemente stören unseren sorgfältig aufgebauten Frieden, und japanische Kräfte warten nur auf ein Zeichen der Schwäche. Die Sicherung unserer aktuellen Konzessionen vor feindlichen Kräften, sowohl innerhalb als auch außerhalb, ist ein Hauptanliegen."
+GEA_resume_sino_german_cooperation: "Zusammenfassung der deutsch-chinesischen Zusammenarbeit"
+GEA_resume_sino_german_cooperation_desc: "Die Befehle Berlins sind klar: Abgesehen von Zivilisations- und Rassenfragen müssen sich Deutschland und China mit ausgestreckten Armen in gegenseitiger Stärke und Freundschaft begegnen, wenn sie einem gemeinsamen Feind gegenüberstehen.\n\nIn Wahrheit braucht Deutschland chinesische Soldaten als Puffer gegen Japan, und China braucht deutsche Waffen, um sie zu bewaffnen."
+GEA_invest_in_the_concessions: "Investieren Sie in die Konzessionen"
+GEA_invest_in_the_concessions_desc: "Tsingtau mag das Juwel in unserer Krone sein, aber es ist nicht die einzige Konzession unter unserer Hoheit. Der Ausbau unserer Stützpunkte in Weihaiwei und Guangzhouwan wird unserer Oberherrschaft in der Region langfristig zugutekommen."
+GEA_secure_the_legation_cities: "Sichern Sie die Gesandtschaftsstädte"
+GEA_secure_the_legation_cities_desc: "In einem Akt höchsten Wahnsinns ist Deutschland aus dem Legationsrat der Konzessionen entfernt worden, dieses Experiment der globalen Partnerschaft ist eindeutig ausgelaufen, und die deutsche Dominanz über diese lukrativen Städte muss wieder hergestellt werden."
+GEA_dispatch_workers_to_the_borneo_mines: "Entsendung von Arbeitern in die Minen auf Borneo"
+GEA_dispatch_workers_to_the_borneo_mines_desc: "Im Norden Borneos gibt es derzeit eine Vielzahl von unerschlossenen Industriegebieten, wobei unser Haupthindernis der Mangel an Arbeitskräften ist, um diese Ressourcen auszubeuten. Durch den Import von chinesischen Wanderarbeitern nach Borneo können wir damit beginnen, diese entstehenden Industrien zu entwickeln."
+GEA_send_aid_to_the_nanjing_warlords: "Hilfe für die Nanjing Kriegsherren senden"
+GEA_send_aid_to_the_nanjing_warlords_desc: "Während unser direkter Einfluss in China auf die Konzessionen beschränkt ist, wird die deutsche Sanfte Macht direkt durch die Nanjing-Clique kanalisiert, jede Bedrohung ihrer anhaltenden Dominanz über Südchina ist eine langfristige Bedrohung für uns."
+GEA_tighten_the_grip_on_the_concessions: "Ziehen Sie den Zugriff auf die Konzessionen an"
+GEA_tighten_the_grip_on_the_concessions_desc: "Wenn der deutsche Einfluss in Nanjing ein akzeptables Niveau erreicht hat, können wir den Anschein einer gleichberechtigten Zusammenarbeit mit den chinesischen Kriegsherren fallen lassen. Die volle Kontrolle über die deutschen Konzessionen in Südchina soll mit sofortiger Wirkung an die Verwaltung Ostasiens übertragen werden."
+
+### Bookmark ###
+ GEA_KR_gathering_storm_desc: "Seit dem Zusammenbruch Großbritanniens im Jahr 1926 ist die Kaiserliche Marine unangefochtener Herrscher über die östlichen Meere und Hüter der westlichen Ordnung im Orient. Der Rückzug der britischen 'China Station' nach Australasien machte ihre asiatischen Kolonien und Konzessionen anfällig für Aufstände und bedurfte des Schutzes, den nur Deutschland bieten konnte, das eine Reihe von Kolonien und Konzessionen von Suez bis Tsingtau vervollständigte. Deutsche Ostasien existiert jedoch nicht als Kolonie, sondern als Gerichtsbarkeit; ein Gebiet, in dem die Admiralität lokale Interessen ausgleichen, sich mit unterschiedlichen Kolonialsystemen auseinandersetzen und den Schutz des Ganzen sicherstellen muss..."
+
+### Intro Screen ###
+ GEA_country_intro_header: "Perle des Orients"
+ GEA_country_intro_content: "Seit dem Zusammenbruch Großbritanniens 1926 ist die Kaiserliche Marine der unangefochtene Herr der östlichen Meere und der Hüter der westlichen Ordnung im Orient. Der Rückzug der britischen "China-Station" nach Australasien ließ ihre asiatischen Kolonien und Konzessionen anfällig für einheimische sozialistische Aufstände und bedurfte des Schutzes, den nur Deutschland bieten konnte, das eine Reihe von Kolonien und Konzessionen von Ceylon bis Tsingtau vervollständigte. Diese glorreiche Leistung hatte jedoch ihren Preis.\n\nUnsere Expansion im Osten war ungewöhnlich in ihrer Schnelligkeit und ihrem Ausmaß und brachte unsere Jurisdiktion über eine vielfältige und komplizierte Reihe von Kolonien, die von ihrer Metropole getrennt waren; gezwungen, unsere Überlegenheit anzuerkennen, und doch allzu byzantinisch, um sie zu rekonstruieren oder völlig neu zu ordnen, damit sie nicht zusammenbrechen und unsere Verwaltung mit sich bringen. So existiert Deutsch-Ostasien nicht als Kolonie oder gar formell als Behörde, sondern stattdessen als eine Jurisdiktion; eine Ausdehnung des Territoriums, in dem die relativ unparteiische Admiralität gleichzeitig lokale Interessen ausgleichen, sich mit unterschiedlichen Kolonialsystemen auseinandersetzen und den Schutz des Ganzen sicherstellen muss.\n\nTrotz unserer Dominanz bleibt Japan eine Bedrohung, entschlossen wie eh und je, uns aus dem Osten zu verdrängen und ihn für sich zu beanspruchen; unsere tapferen Soldaten starren auf die Gesandtschaftsstädte herab, und unsere ruhmreichen Schlachtschiffe wachen über die Meere.\n\nWenn man über die internen Schwierigkeiten hinwegschaut, könnte es noch zu einer Abrechnung kommen, und es ist die Pflicht der Admiralität, dafür zu sorgen, dass sie bereit ist, wenn die Zeit gekommen ist."
+
+ GEA_country_intro_header_1: "China und die AOG"
+ GEA_country_intro_content_1: "Die chinesischen Besitzungen des Vaterlandes liegen ebenfalls unter unserer Jurisdiktion, und gemäß den Bedingungen der von den Amerikanern vermittelten Shanghaier Konferenz von 1928 sind die Rechte Deutschlands in China denen jeder anderen ausländischen Macht gleichgestellt. Die Stadt Tsingtau ist seit langem der Knotenpunkt unserer dortigen Operationen, gleichzeitig eine moderne Stadt, ein blühender Hafen und das Zentrum eines ausgedehnten Handelsnetzes, das den ganzen Osten umspannt.\n\nNicht alles, was die Kiaochow-Bucht passiert, ist jedoch völlig legitim. Der Aufsichtsrat der Ostasiatischen Generalverwaltung verwaltet zahlreiche Schiffe, Fabriken und sogar informelle Konzessionen, die gegen den Geist, wenn nicht sogar gegen den Buchstaben des Abkommens von 1928 verstoßen.\n\nDer Nanjing Kriegsfürst Sun Chuanfang akzeptierte in dem Bestreben, seine Autonomie von der chinesischen Zentralregierung zu sichern, eine Reihe von ausbeuterischen Waffengeschäften im Gegenzug für weitreichende wirtschaftliche Konzessionen innerhalb der Liga der Acht Provinzen. Obwohl von Peking und der übrigen internationalen Gemeinschaft nicht anerkannt, breitet die AOG ihren Einfluss in der Liga und immer tiefer im Landesinneren aus.\n\nLetztlich möchte Berlin, dass wir China als eine Art Puffer gegen Japan nutzen; jeder dort verbrachte Soldat ist einer, der nicht gegen uns in Malaya und Indochina eingesetzt werden kann. Zu diesem Zweck müssen Chinas Regierung und die LEP unterstützt werden, und ein japanischer Übergriff in China muss nur als ein Schritt weg von [336.GetCapitalVictoryPointName] betrachtet werden."
+
+ GEA_guide: "§MDie Indochinesische Rebellion§!\n§MRebellion abgewehrt§!\n£white_dot Entscheiden Sie sich dafür, Indochina vor dem Preisverfall zu schützen.\n£white_dot Ablehnung der Stärkung der Europäischen Privilegien.\n£white_dot Verhandeln Sie mit den streikenden Plantagenarbeitern.\n£white_dot Während der Schwerpunkt \"Bao Dais Reform\" abgeschlossen ist, entscheiden Sie sich dafür, die beiden Reformen zu akzeptieren.\n£white_dot Verhängung des Kriegsrechts in ganz Indochina nach der Yen-Bai-Meuterei.\n£white_dot Entsenden Sie die Truppen, nachdem in der Provinz Binh Dinh Bewegungen aufgetreten sind.\n\n§MErfolgreiche Rebellion§!\n£white_dot Entscheiden Sie sich für einen friedlichen Umgang mit der Binh Dinh-Gemeinde, und eine Woche später wird der Aufstand in Saigon beginnen.\n£white_dot Wählen Sie bei allen genannten Ereignissen die entgegengesetzten Optionen, mit Ausnahme der Annahme der ersten Bao-Dai-Reform und der Ablehnung der zweiten; jede dieser Optionen wird die indochinesische Rebellion stärken.\n§CHinweis: Um die Freilassung Vietnams zu erreichen, müssen Sie sowohl Bao Dais Reformen als auch seine Hilfe nach Ausbruch der Rebellion akzeptieren.§!"
+
+### Events ###
+# Black Monday
+Ostasien.2.t: "Schwarzer Montag!"
+Ostasien.2.d: "Die Lage in Deutschland ist katastrophal. Nach einer verheerenden Finanzkrise liegt die deutsche Wirtschaft in Trümmern, und die Kolonien werden sicher folgen. Wir müssen einen Großteil unserer Ausgaben kürzen und sofort nach Wegen suchen, um die bereits schwächelnde Wirtschaft Ostasiens zu stützen. Die Erholung könnte viele Jahre dauern..."
+Ostasien.2.a: "Verheerend!"
+
+Ostasien.3.t: "Das Ende der schwarzen Woche"
+Ostasien.3.d: "Eine Woche ist seit dem ersten Berliner Börsenkrach vergangen. Kautschuk und Zinn, unsere wichtigsten Exportgüter, haben durch den Einbruch der Reifennachfrage der Automobilindustrie bereits mehr als die Hälfte ihres Wertes vor dem Schwarzen Montag verloren. Inzwischen ist der Reis-Export für den europäischen Markt zum Erliegen gekommen, so dass Zehntausende von Tonnen auf den Feldern und in den Häfen verrotten. Europäer in Singapur, Saigon und anderen Städten mit wenigen Ersparnissen und ohne Landbesitz haben auf dem Markt gezockt und alles verloren und stehen nun kaum besser da als ihre indochinesischen Nachbarn."
+Ostasien.3.a: "Es muss etwas geschehen!"
+
+### Uprising Chain ###
+# Yen Bai Muytiny
+Ostasien.4.t: "Instabilität in Indochina"
+Ostasien.4.d: "Seit unsere Expeditionsarmee vor zehn Jahren Ho Chi Minh und seine syndikalistischen Agitatoren in Guangzhou vernichtete, hat Indochina eine Periode relativer Stabilität genossen. Aber der jüngste Berliner Börsenkrach, der sogenannte Schwarze Montag, hat verheerende Auswirkungen auf die hoch kommerzialisierte indochinesische Wirtschaft gehabt. Streiks und Reisunruhen breiten sich in Tonkin, Annam und Cochinchina aus. Städtische Studenten und Intellektuelle fordern mehr Freiheit. Was noch schlimmer ist: Unsere Geheimdienstinformationen deuten darauf hin, dass einige Untergrundrevolutionäre heimlich ihren Einfluss ausweiten."
+Ostasien.4.a: "Diese Kolonie ist berüchtigt für Ungehorsam."
+
+Ostasien.5.t: "Nationalistische Agitation in Tonkin"
+Ostasien.5.d: "Wir haben eine Reihe von nationalistischen und antikolonialistischen Bewegungen in Tonkin aufgedeckt. In jeder Ecke von Hanoi verbreiten Agitatoren Flugblätter, die zur nationalen Einheit und Unabhängigkeit aufrufen. Der Rädelsführer hinter den Agitationen ist eine Gruppe, die sich Vietnamesische Nationalistische Partei (VNQDD) nennt, und unsere Agenten haben einen heimtückischen Plan entdeckt: Diese Banditen infiltrieren unsere Garnison in Tonkin."
+Ostasien.5.a: "Wir müssen uns vorbereiten."
+
+Ostasien.6.t: "Yen-Bai Meuterei"
+Ostasien.6.d: "Heute haben einige tonkinische Garnisonen in Yen-Bai, einem Militärposten nahe der chinesisch-indochinesischen Grenze, eine Meuterei gegen die Kolonialbeamten organisiert! Mit ihnen zusammen sind bewaffnete Infiltratoren der VNQDD. Dank unserer Agenten haben wir ihren Plan, einen koordinierten Aufstand zu starten, sabotiert. Wir haben die Rebellen abgewehrt und eine groß angelegte Razzia in Tonkin begonnen. Jetzt fliehen die verzweifelten Rebellen in das Berggebiet an der chinesisch-vietnamesischen Grenze."
+Ostasien.6.a: "Konzentriert unsere Kräfte, um diese Banditen zu vernichten!"
+Ostasien.6.b: "Erklären Sie das Kriegsrecht in ganz Indochina!"
+
+ # FRA
+Ostasien.7.t: "Eine indochinesische Tragödie"
+Ostasien.7.d: ""Viet-Nam! Viet-Nam! Viet-Nam! Heimatland des Südens! Dreizehn Mal hörte ich den Aufschrei vor der Guillotine von Yen-Bai. Dreizehn zum Tode verurteilte Männer schrien ihn, einer nach dem anderen, zwei Meter davon entfernt, das Schafott zu besteigen."\n\n— Der französische Journalist Louis Roubaud wurde Zeuge der jüngsten brutalen deutschen Niederschlagung in Indochina, unserer ehemaligen Kolonie und der aktuellen Bastion des deutschen Kolonialismus im Fernen Osten. General André Marty, ein enger Freund des verstorbenen indochinesischen Revolutionärs Ho Chi Minh, sprach sich für eine Intervention in Indochina aus. Seit dem Ende des Weltkrieges sind Tausende von indochinesischen Studenten, Soldaten und Arbeitern in Frankreich geblieben und zu überzeugten Revolutionären geworden. Wenn wir sie mit genügend Waffen zurückschicken, können sie einen Aufstand in Cochinchina organisieren. Das könnte das deutsche Kolonialreich destabilisieren und der Weltrevolution dienen."
+Ostasien.7.a: "Bon voyage, indochinesische Kameraden!"
+Ostasien.7.b: "Wir sind nicht das moderne Pigneau de Behaine."
+
+ # HND
+Ostasien.8.t: "Eine indochinesische Tragödie"
+Ostasien.8.d: ""Vietnam! Viet Nam! Viet Nam! Heimatland des Südens! Dreizehn Mal hörte ich den Aufschrei vor der Guillotine von Yen-Bai. Dreizehn zum Tode verurteilte Männer schrien ihn, einer nach dem anderen, zwei Meter davon entfernt, das Schafott zu besteigen."\n\n- Der französische Journalist Louis Roubaud wurde Zeuge des jüngsten brutalen deutschen Vorgehens in Indochina, der Bastion des deutschen Kolonialismus im Fernen Osten. Jetzt bitten die indochinesischen Revolutionäre in Kalkutta um Unterstützung. Wenn wir Ausrüstung und Freiwillige schicken, während deutsche Polizei und Gendarmen in Tonkin beschäftigt sind, können die indochinesischen Revolutionäre einen Aufstand in Cochinchina organisieren. Dadurch könnte das deutsche Kolonialreich destabilisiert werden. Dies wird ein wichtiger Schritt in unserem internationalen Revolutionsprojekt sein."
+Ostasien.8.a: "Senden Sie unsere Hilfe."
+Ostasien.8.b: "Wir sind nicht interessiert."
+
+# Bao Dai Reform
+Ostasien.9.t: "Kaiser Bao Dai kehrt nach Indochina zurück"
+Ostasien.9.d: "Bao Dai, der Monarch von Annam, hat kürzlich sein Studium in Deutschland beendet und ist nach Indochina zurückgekehrt. Während er sich nicht mit einer bloßen zeremoniellen Rolle zufrieden geben wird, würde eine sorgfältig kontrollierte Monarchie es uns erlauben, die ländliche Instabilität zu mildern und die Unterstützung des Volkes zu gewinnen, da die Annam-Bauern ihrem Kaiser von Natur aus verbunden sind. Die europäischen Siedler in Saigon lehnen jedoch jeden Versuch, die Macht mit den Annamesen zu teilen, entschieden ab."
+Ostasien.9.a: "Willkommen, unser Marionettenkaiser."
+Ostasien.9.b: "Vielleicht sollte er sein Studium fortsetzen."
+
+Ostasien.10.t: "Die Reformen von Bao Dai: Der erste Schritt"
+Ostasien.10.d: "Nach seiner Thronbesteigung hat Bao Dai mehrere reformfreudige Persönlichkeiten an seinen Hof geholt, darunter den neotraditionalistischen Intellektuellen Pham Quyhn und den katholischen Verwalter Ngo Dinh Diem. Nun haben seine Minister beschlossen, eine Verwaltungsreform einzuleiten, um das dysfunktionale bürokratische System wieder zu beleben. Derzeit leiten die Mandarine im Protektorat Annam das Land nur nominell, während ihre europäischen Berater die wahre Macht innehaben. Bao Dais Reform wird der europäischen Monopolisierung der Macht sicherlich schaden."
+Ostasien.10.a: "Es ist notwendig."
+Ostasien.10.b: "Halten Sie ihn auf. Er ist zu weit gegangen."
+
+Ostasien.11.t: "Die Reformen von Bao Dai: Der zweite Schritt"
+Ostasien.11.d: "Nach der Verwaltungsreform hat das Kabinett von Bao Dai begonnen, die Macht weiter zu zentralisieren. Die jüngsten Unruhen in Indochina bieten ihm einen guten Vorwand. Er bittet um die Erlaubnis, eine kaiserliche Polizei einzurichten. Bao Dai und seine Minister argumentieren, dass nur eine kaiserliche Polizei, die die Befehle des kaiserlichen Hofes in Hue ausführt, effektiv die ungehorsamen Bauern befrieden und die Ordnung in Annam wiederherstellen kann."
+Ostasien.11.a: "Es wird helfen."
+Ostasien.11.b: "Es ist gefährlich, den Annamesen Macht zu geben."
+
+# Revolution in Cochinchina
+
+Ostasien.12.t: "Instabilität in Cochinchina"
+Ostasien.12.d: "Während unsere Truppen damit beschäftigt sind, die Nationalisten in Tonkin zu unterdrücken, wird die Situation im Süden in Cochinchina immer instabiler. Die Streiks sind zurückgegangen, aber es wird berichtet, dass Gewerkschaftsaktivisten häufig Versammlungen abhalten, und es verbreiten sich Gerüchte, dass Agitatoren, getarnt als Mönche und Kaufleute, Bauern in Cochinchina und Süd-Annam in Geheimgesellschaften organisieren. Zusätzliche Informationen deuten darauf hin, dass viele vietnamesische Exilanten illegal die Grenze überqueren und nach Indochina einreisen. Es ist wahrscheinlich, dass sie von ausländischen Mächten geschickt werden, um sich an subversiven Aktivitäten zu beteiligen."
+Ostasien.12.a: "Ich spüre die Ruhe vor dem Sturm."
+
+Ostasien.13.t: "Gefängnisausbruch in Poulo Condor"
+Ostasien.13.d: "Heute Morgen meldete unser Zentralgefängnis auf der Insel Poulo Condor einen Massengefängnisausbruch! Dies war offensichtlich eine gut organisierte Aktion; die Gefangenen entkamen im Schutze der Nacht durch einen Tunnel, schifften sich dann auf vorbereitete Dschunken ein und verschwanden in den Kanalnetzen und Sümpfen des Mekong-Deltas. Es wird geschätzt, dass etwa 150 der insgesamt 25.000 Gefangenen entkamen. Die meisten sind linke Agitatoren."
+Ostasien.13.a: "Diese Kolonie hat nichts als Ärger gemacht!"
+
+Ostasien.14.t: "Binh Dinh Kommune Bewegung"
+Ostasien.14.d: "In der Provinz Binh Dinh, der Heimat der Tay-Son-Rebellion, kommt es zu einer dramatischen Eskalation der Bauernbewegung. Die Demonstranten forderten zunächst ein Ende der Corvée-Arbeit, einem Äquivalent zur Leibeigenschaft, doch als sie von der lokalen Verwaltung ignoriert wurden, begannen wütende Bauern, Verwaltungsgebäude, Rathäuser und Bahnhöfe niederzubrennen, Steuerregister zu zerstören und Polizeistationen zu plündern. Die örtliche Verwaltung wurde lahmgelegt und es bildeten sich Vereinigungen, die "Kommunen" genannt wurden, und die Bewegung begann sich auf andere Provinzen im südlichen Annam und am Mekong auszubreiten. Offensichtlich stecken die Viet Minh hinter all diesen Bewegungen!"
+Ostasien.14.a: "Vielleicht können wir das friedlich regeln."
+Ostasien.14.b: "Schicken Sie die Truppen rein!"
+Ostasien.14.c: "KI verhindert Rebellion Betrug - melden Sie dies, wenn Sie es sehen"
+
+Ostasien.15.t: "Aufstand in Saigon"
+Ostasien.15.d: "Gestern brachen gleichzeitig von Tonkin bis Cochinchina abgestimmte Aufstände aus. Die Gewerkschaften traten in den Generalstreik und versuchten, kommunale Regierungsgebäude zu besetzen. Während an den meisten Orten die Ordnung wiederhergestellt wurde, brachten die Viet Minh ihren Bauernaufstand von Binh Dinh und Mekong nach Saigon und drangen in die Stadt ein. Die örtlichen Garnisonen liefen über und die Rebellen übernahmen die Kontrolle über wichtige Kommunikations- und Verwaltungseinrichtungen in Saigon!"
+Ostasien.15.a: "Vive la Revolution! (Wechseln zu INC)"
+Ostasien.15.b: "Verdammt seien die Vietminh!"
+
+Ostasien.16.t: "Situation in Indochina verschlechtert sich"
+Ostasien.16.d: "Die Situation in Indochina hat sich verschlechtert, wobei die Aufständischen viel schwerer zu befrieden sind, als wir dachten. Die regulären Kräfte der Vietminh drängen nach Norden, während ihre Guerilla-Einheiten unsere Logistik belästigen und Angst verbreiten. Viele Siedler bezweifeln, dass wir Indochina noch halten können und fordern eine Evakuierung wertvoller Vermögenswerte in andere Kolonien."
+Ostasien.16.a: "Anlagen evakuieren!"
+Ostasien.16.b: "Alles ist in Ordnung!"
+
+Ostasien.17.t: "Situation in Indochina verschlechtert sich"
+Ostasien.17.d: "Es scheint, dass, obwohl offizielle Berichte aus unseren fernöstlichen Kolonien beachtliche Erfolge bei der Unterdrückung des Aufstandes behaupten, sich die Situation in Indochina laut militärischer Aufklärung tatsächlich verschlechtert hat. Die Befriedung der Vietminh-Rebellen scheint mehr gewesen zu sein, als die Admiralität bewältigen konnte. Einige Großstädte und strategische Positionen sind in die Hände der Rebellen gefallen, Angst und Aufruhr machen sich breit. Vielleicht braucht Deutsch-Ostasien etwas Hilfe?"
+Ostasien.17.a: "Sie kommen damit zurecht."
+Ostasien.17.b: "Schickt Verstärkung!"
+Ostasien.17.c: "Ein Landkrieg in Asien? Halali!"
+
+Ostasien.18.t: "[INC.GetNameDefCap] Sendet ein Friedensangebot"
+Ostasien.18.d: "Die Aufstände in Indochina haben sich verschlimmert. Schlüsselpositionen sind an Vietminh-Banditen gefallen und wir haben Mühe, damit fertig zu werden. Nun schicken uns indochinesische Rebellen eine Initiative für Friedensgespräche. Trotz der Befürchtung, dass dies als Demütigung empfunden wird, könnte es ein kluger Schritt sein, die Kontrolle über die Region aufzugeben."
+Ostasien.18.a: "Nein, wir werden weiter gegen diese Rebellen kämpfen!"
+Ostasien.18.b: "Wir können es uns nicht mehr leisten zu kämpfen."
+
+Ostasien.19.t: "Friedensgespräche gescheitert"
+Ostasien.19.d: "Die deutschen Imperialisten lehnten unsere Friedensinitiative ab und beschlossen, den Krieg fortzusetzen."
+Ostasien.19.a: "Nur Gewehre können mit den Imperialisten reden!"
+
+Ostasien.20.t: "Sieg in Indochina"
+Ostasien.20.d: "Deutschland hat die Friedensinitiative und den Rückzug von der indochinesischen Halbinsel akzeptiert. Wir haben die Mission erfüllt, die deutschen Imperialisten zum Rückzug zu zwingen. Indochina ist nun von dem deutschen Kolonialregime befreit! Das ist ein großer Sieg für unser Volk und eine große Niederlage für die deutschen Imperialisten und ihre Lakaien."
+Ostasien.20.a: "Pickelhauben geht nach Hause!"
+
+Ostasien.21.t: "Gute Nachrichten, schlechte Nachrichten"
+Ostasien.21.d: "Es scheint, dass Berlin mit der Situation in Indochina beschäftigt ist. Die schlechte Nachricht ist, dass sie entdeckt haben, dass es uns nicht gut geht und uns scharf kritisiert haben. Die gute Nachricht ist, sie haben Verstärkung geschickt, um die Vietminh-Aufständischen zu unterdrücken."
+Ostasien.21.a: "Gute Nachrichten."
+
+Ostasien.22.t: "Sieg in Indochina"
+Ostasien.22.d: "Unserer glorreichen Armee ist es gelungen, den Aufstand der Vietminh in Indochina zu vereiteln! Dies ist ein glorreicher Tag für Deutschland!"
+Ostasien.22.a: "Sehr gut, Kameraden!"
+
+Ostasien.23.t: "Eskalation des Krieges in Indochina"
+Ostasien.23.d: "Da das Deutsche Reich seine Hauptstreitmacht auf die indochinesische Halbinsel verlegt hat, ist der Widerstandskrieg auf ein noch nie dagewesenes Niveau eskaliert! Aber wir werden siegen, denn die gerechte Sache der Befreiung ist unbesiegbar. Es wird auch gemunkelt, dass andere Großmächte versuchen, die indochinesische Halbinsel in einen Sumpf für Deutschland zu verwandeln..."
+Ostasien.23.a: "Kämpft!"
+
+ # Extra
+Ostasien.25.t: "Bao Dai Lösung"
+Ostasien.25.d: "Nachdem Cochinchina an die Viet Minh gefallen ist und sich überall Guerillas erheben, befindet sich ganz Indochina im Ausnahmezustand. Lokale Eliten und antisyndikalistische Nationalisten haben sich hinter Kaiser Bao Dai geschart und schlagen eine Lösung vor: Wenn wir den Protektoratsvertrag einhalten, was bedeutet, dass wir der Nguyen-Dynastie sowohl in Annam als auch in Tonkin größere Autonomie gewähren, werden sie helfen, die ländlichen Gebiete zu befrieden, lokale Ressourcen zu mobilisieren und die Rebellen zu besiegen. Andernfalls wird die vorherrschende antikolonialistische Stimmung den Viet Minh einen Vorteil verschaffen. Bao Dais Schreiben endet unheilvoll: Wenn Deutschland nicht auf den vietnamesischen Nationalismus reagiere, "wird jedes Dorf ein Nest des Widerstands sein, jeder ehemalige Kollaborateur ein Feind, und Ihre Beamten und Kolonisten werden selbst versuchen, diese Atmosphäre zu verlassen, die sie ersticken wird.""
+Ostasien.25.b: "Wir können das selbst regeln."
+Ostasien.25.a: "Wir brauchen seine Hilfe."
+#Ostasien.25.c: "Bao Dai wird Annam zu Frieden und Ordnung führen (Freigabe & Wechsel zu VIN)"
+
+Ostasien.30.t: "Sinkende Preise"
+Ostasien.30.d: "Die Preise für Reis und Kautschuk fallen überall in den Kolonien rapide. Die Bauern und Plantagenbesitzer, die auf den Export von Reis und Kautschuk angewiesen sind, wurden hart getroffen, besonders in unseren beiden großen Kolonien Indochina und Malaya. Es ist möglich, den Preis in der einen Kolonie zu kontrollieren, aber unsere Ressourcen sind begrenzt, und das wird fast sicher auf Kosten der anderen gehen?"
+Ostasien.30.a: "Das ist nicht unsere Aufgabe."
+Ostasien.30.b: "Schützen Sie Indochina."
+Ostasien.30.c: "Schützen Sie Malaya."
+
+Ostasien.32.t: "Plantagenstreiks"
+Ostasien.32.d: "Der Preis für Kautschuk fällt weiter. Viele Plantagenbesitzer haben beschlossen, Arbeiter zu entlassen und den Rest in Vollzeit zu beschäftigen. Diese Entscheidungen haben groß angelegte Streiks auf Plantagen in Indochina und Malaya ausgelöst. Die Arbeiter fordern von den Arbeitgebern, die Entlassungen zu stoppen, und fordern kürzere Arbeitszeiten mit besseren Bedingungen. Da die meisten Plantagenarbeiter Analphabeten sind, wird vermutet, dass sozialistische Agitatoren hinter ihrer Koordination stehen."
+Ostasien.32.a: "Unterdrücken Sie die Streiks."
+Ostasien.32.b: "Versuchen Sie zu verhandeln."
+
+Ostasien.31.t: "Europäische Privilegien"
+Ostasien.31.d: "Durch den wirtschaftlichen Schock des Schwarzen Montags haben viele europäische Siedler alles verloren und sind über Nacht verarmt. Nun haben einige eine Petition an uns gerichtet, um ihre sozialen und kommerziellen Privilegien zu stärken, damit sie als Siedler nicht auf ein Leben wie bloße Kolonialuntertanen reduziert werden. Sie argumentieren, dass ein strenges rassisches Kastensystem der einzige Weg ist, den Frieden in unseren Kolonien zu sichern."
+Ostasien.31.a: "Verwerfen Sie sie."
+Ostasien.31.b: "Europäisches Privileg stärken."
+
+Ostasien.33.t: "Die Kommune Binh Dinh ist befriedet"
+Ostasien.33.d: "Die Bauernrebellion in der Provinz Binh Dinh wurde von unseren Soldaten befriedet. Bomber und Marinegeschützfeuer haben sich als besonders effektiv erwiesen, um die vietnamesischen Bauern einzuschüchtern. Binh Dinh bedeutet auf Vietnamesisch Befriedung, und jetzt hat es seinem Namen wirklich alle Ehre gemacht."
+Ostasien.33.a: "Exzellent!"
+
+Ostasien.34.t: "Unruhen in Saigon lassen nach"
+Ostasien.34.d: "Das Geräusch des Regens, der auf den verlassenen Platz fällt, ist ohrenbetäubend. Ein zerfleddertes Pamphlet, in den Rinnstein geworfen - die Tinte läuft in zarten bläulichen Blüten über das Papier - ist das einzige, was noch als Beweis dafür dient, dass Saigon bis vor kurzem eine Brutstätte radikaler sozialistischer und syndikalistischer Agitation war. Auf dem Pamphlet ist ein vietnamesischer Arbeiter abgebildet, der eine rote sozialistische Fahne hält. Auf dem Pamphlet steht: 'Arbeiter von Indochina, vereinigt euch!'. Es wird bald vom Regen weggefegt und landet in der Kanalisation, wo es herkommt."
+Ostasien.34.a: "Gute Nachrichten."
+
+Ostasien.35.t: "Kriegsregel"
+Ostasien.35.d: "Der Viet Minh hält sich nicht an die modernen Regeln des Krieges. Ihre Guerillakämpfer weigern sich nicht nur, Uniformen zu tragen, sie tun oft ihr Bestes, um sich unter die Zivilbevölkerung zu mischen. Es ist fast unmöglich, einen Vietminh-Aufständischen von der Zivilbevölkerung zu unterscheiden. Unsere Generäle argumentieren, dass der Krieg gegen die Viet Minh nur total sein kann."
+Ostasien.35.b: "Versuchen Sie wenigstens zu differenzieren..."
+Ostasien.35.a: "Schießt auf alles, was sich bewegt!"
+
+Ostasien.40.t: "Mittelafrikanische Berater akquirieren"
+Ostasien.40.d: "Mittelafrika ist eine Art Schwesterprojekt, wir beide verteidigen das Kaiserreich gegen äußere Feinde und aufmüpfige Untertanen, also ist es nur vernünftig, wenn wir unsere Beziehungen stärken. Der Großadmiral hat beschlossen, mittelafrikanische Berater einzustellen, in der Hoffnung, dass sie unseren Streitkräften nützen und unsere Aufstandsbekämpfung verstärken werden."
+Ostasien.40.a: "Sicherlich werden wir einige nützliche Lektionen von ihnen lernen."
+
+Ostasien.41.t: "Eine Militärdelegation aus Mittelafrika"
+Ostasien.41.d: "Admiral von Mücke und eine Delegation begrüßten die Mittelafrikaner, als sie in [336.GetCapitalVictoryPointName] von ihrem Boot stiegen. Sie schienen die Männer zu sein, nach denen die Admiralität suchte, denn ihr raues und ungepflegtes Äußeres erweckte Vertrauen. Sie sprachen nur wenige Worte, bevor sie zu ihren lokalen Unterkünften eskortiert wurden, zur Belustigung der Einheimischen, da das Auftauchen mehrerer Askari ziemliches Aufsehen erregt hat."
+Ostasien.41.a: "Mein Gott, er könnte mit einem Stier ringen."
+
+Ostasien.42.t: "Von Mittelafrika lernen"
+Ostasien.42.d: "Unsere Militärdelegation ist aus Mittelafrika zurückgekehrt. Trotz einiger beobachteter Mängel in der lokalen Verwaltung berichtete unsere Delegation, dass sie in Mittelafrika herzlich aufgenommen wurde und viel gelernt hat."
+Ostasien.42.a: "Exzellent!"
+
+Ostasien.51.t: "Eine neue Admiralität"
+Ostasien.51.d.a: "Nach einer Neubewertung des Status der Admiralität haben wir entschieden, dass Deutsch-Ostasien in eine voll funktionsfähige Kolonie umgewandelt werden muss. Wir werden uns auf den Aufbau einer Verwaltung konzentrieren, um eine direkte Herrschaft von Singapur aus zu etablieren!"
+Ostasien.51.d.b: "Nach einer Neubewertung des Status der Admiralität haben wir entschieden, dass Deutsch-Ostasien vor allem ein Zweig der Kaiserlichen Marine ist. Wir werden uns auf den Schiffbau konzentrieren und die Verwaltung den Einheimischen überlassen."
+Ostasien.51.a: "Großartig!"
+Ostasien.51.b: "Großartig!"
+
+# GEA Action in the Philippines
+
+Ostasien.60.t: "Sozialistische Rebellion auf den Philippinen"
+Ostasien.60.d: "Mit dem Ende der amerikanischen Kolonialherrschaft auf den Philippinen stürzte der Archipel ins Chaos. Eine Gruppe verärgerter Armeeoffiziere zusammen mit Banden von Bauern und Industriearbeitern haben sich aufgelehnt, um die Regierung zu stürzen und ein sozialistisches Regime zu errichten. Es bleibt abzuwarten, ob die philippinischen Streitkräfte die Rebellen unterdrücken können, aber etwas Hilfe wird sicherlich ihre Siegchancen erhöhen."
+Ostasien.60.a: "Unterstützen Sie heimlich die philippinische Armee."
+Ostasien.60.b: "Nicht unsere Sache."
+
+Ostasien.61.t: "Sozialisten ergreifen die Macht auf den Philippinen!"
+Ostasien.61.d: "Die philippinische Regierung hatte die Macht an die syndikalistische Bewegung übergeben. Allerdings sind die südlichen Teile der Philippinen, einschließlich der Inseln Palawan und Mindanao, nicht unter fester Kontrolle der neuen Zentralregierung. Könnte dies unsere Chance sein, sie von der syndikalistischen Tyrannei zu befreien und sie unter den imperialen Schutz zu bringen?"
+Ostasien.61.a: "Schicken Sie eine Flotte zur Sicherung der südlichen Inseln."
+Ostasien.61.b: "Lassen Sie sie in Ruhe."
+
+Ostasien.62.t: "Eine deutsche Flotte vor Palawan!"
+Ostasien.62.d: "Deutschland hat die Bevölkerung der südlichen Regionen unter seinen "Schutz" gestellt und eine Flotte geschickt, um das Gebiet zu sichern. Wie sollen wir darauf reagieren?"
+Ostasien.62.a: "Wir werden heroisch sterben."
+Ostasien.62.b: "Wir können nichts tun."
+
+Ostasien.63.t: "Die philippinische Regierung knickt ein"
+Ostasien.63.d: "Die philippinische Regierung hat sich geweigert, uns zu konfrontieren. Nun können die südlichen Inseln der Philippinen den Kolonien Ostasiens hinzugefügt werden, ein glorreicher Tag für das Kaiserreich."
+Ostasien.63.a: "Exzellent."
+
+Ostasien.64.t: "Ostasien-Flotte sichert die südlichen Philippinen"
+Ostasien.64.d: "Heute meldete Admiral von Mücke aus [336.GetCapitalVictoryPointName], dass die Flotte Ostasien die südlichen Inseln der Philippinen erfolgreich gegen das syndikalistische Regime in Manila gesichert hat. Ein glorreicher Tag für das Kaiserreich."
+Ostasien.64.a: "Exzellent!"
+
+Ostasien.65.t: "Die Philippinen erklären den Krieg gegen uns"
+Ostasien.65.d: "Nach der Einsetzung der syndikalistischen Regierung in Manila hat die Flotte Ostasien kühn versucht, die südlichen Inseln der Philippinen zu sichern. Nun hat die syndikalistische Regierung auf den Philippinen selbstmörderisch beschlossen, uns den Krieg zu erklären."
+Ostasien.65.a: "Gut gemacht."
+
+# GEA Intervention in Burma
+
+Ostasien.66.t: "Soziale Unruhen in Burma"
+Ostasien.66.d: "Die Republik Burma, in der viele deutsche Wirtschaftsinteressen beheimatet sind, befindet sich in einer tiefen politischen Krise. Studenten und Arbeiter haben sich in kritischen Demonstrationen und Protesten gegen die Zentralregierung erhoben. Polizeieinheiten waren bisher völlig erfolglos, die radikalen Demonstranten einzudämmen. Sollten wir versuchen, die burmesische Regierung in der Krise zu unterstützen?"
+Ostasien.66.a: "Schicken Sie die Flotte, um unsere Unterstützung zu zeigen."
+Ostasien.66.b: "Nicht unsere Sache."
+
+Ostasien.67.t: "Ankunft der deutschen Flotte in Rangun"
+Ostasien.67.d: "Heute traf eine massive deutsche Flotte in Rangun ein. Die deutsche Marine-Delegation kam, um der burmesischen Regierung ihre Unterstützung zu zeigen. Die Dissidenten wurden durch die mächtige deutsche Flotte schockiert und abgeschreckt."
+Ostasien.67.a: "Mächtiges Deutschland!"
+
+Ostasien.68.t: "Ordnung in Burma wiederhergestellt"
+Ostasien.68.d: "Burma, eine junge Republik, die kürzlich in einer tiefen politischen Krise steckte, hat dank des schnellen und entschlossenen Handelns der Flotte von Ostasien die Ordnung wiederhergestellt. Der burmesische Botschafter bekundete seine Wertschätzung für das Deutsche Reich und Admiral Hellmuth Mücke. Nun suchen sie engere Beziehungen zum Deutschen Reich, um ihre Unabhängigkeit und Stabilität zu schützen."
+Ostasien.68.a: "Garantieren Sie deren Unabhängigkeit."
+Ostasien.68.b: "Aber ich weiß nichts über Burma!"
+
+#GEA natural disaster
+
+Ostasien.69.t: "Die Vulkane Vulcan und Kaia brechen aus!"
+Ostasien.69.d: "Heute wurde die Stadt Rabaul von zwei massiven Vulkanausbrüchen getroffen. Trotz aller Bemühungen konnten Hunderte von Bürgern nicht rechtzeitig fliehen und wurden unter der Asche begraben. Die Sacred-Heart-Missionare beobachteten die explosiven Eruptionen und richteten schnell ein Evakuierungslager in ihrem Missionshauptquartier in Herbertshöhe ein. Mehrere tausend Verletzte und Obdachlose warten nun auf die Hilfe der Kolonialverwaltung nach dieser Katastrophe."
+Ostasien.69.a: "Wir müssen uns sputen"
+
+# Dissolution of the GEA
+
+#Ostasien.69.t: "Berlin wird still"
+#Ostasien.69.d: "Wir haben nun jeden Kontakt zu unserem Kolonialbüro in Berlin verloren und wissen nicht, wie es weitergehen soll. Inzwischen versammeln sich die Eingeborenen vor dem Regierungsamt und fordern die Unabhängigkeit. Die Atmosphäre ist angespannt wie noch nie zuvor."
+#Ostasien.69.a: "Eine ungewisse Zukunft wartet auf uns."
+
+Ostasien.200.t: "Verstärkung für Ostasien"
+Ostasien.200.d: "Das Reichskolonialamt hat um die Entsendung weiterer Männer zu den Operationen in Ostasien gebeten, um die maroden Truppen dort zu entlasten. Auch wenn diese Männer in der Heimat leichter hätten dienen können, ist Ostasien eine Brutstätte des Syndikalismus und der Zwietracht zwischen den verschiedenen Fraktionen, mit denen wir günstige Vereinbarungen haben."
+Ostasien.200.a: "Das sind die Kosten für ein Imperium."
+
+Ostasien.201.t: "Ausrüstungslieferungen nach Ostasien"
+Ostasien.201.d: "Das Reichskolonialamt hat darum gebeten, mehr Gewehre zu den Operationen in Ostasien zu schicken, um den Mangel zu verringern und sicherzustellen, dass alle Divisionen auf vollem Niveau sind. Diese Gewehre werden sich bei der Sicherung der Stabilität unserer fernöstlichen Besitzungen als nützlich erweisen."
+Ostasien.201.a: "Das sind die Kosten für ein Imperium."
+
+Ostasien.202.t: "Deutschland bietet uns Ausrüstung an"
+Ostasien.202.d: "Die deutsche ostasiatische Regierung hat im Namen Deutschlands unsere schlimme Lage erkannt und eine großzügige Lieferung von Infanterieausrüstung angeboten, um uns im Kampf ums Überleben zu helfen. Allerdings verbirgt sich hinter dieser Freundlichkeit sicherlich der Wunsch nach einem noch stärkeren Zugriff auf unsere Wirtschaft, sobald der Krieg beendet ist."
+Ostasien.202.a: "Wir haben keine andere Wahl als zu akzeptieren."
+Ostasien.202.b: "Wir müssen unsere Unabhängigkeit behaupten!"
+
+Ostasien.203.t: "Deutschland bietet uns Hilfe für unsere Industrie an"
+Ostasien.203.d: "Die deutsche ostasiatische Regierung hat im Namen Deutschlands unsere schlimme Lage erkannt und einige ihrer Fabriken auf unserem Land angeboten, vorübergehend zu arbeiten, um unsere Waffenproduktion zu versorgen. Während dies sehr hilfreich erscheint, muss man sich fragen, was das kosten wird, wenn der Krieg zu Ende ist..."
+Ostasien.203.a: "Das Überleben unserer Regierungen hängt davon ab, so traurig das auch ist."
+Ostasien.203.b: "Wir können es uns nicht leisten, uns noch mehr in ihrem Netz zu verheddern!"
+
+Ostasien.204.t: "Der Werksleasingvertrag endete"
+Ostasien.204.d: "Die von der AOG auferlegten Bedingungen diktieren, dass die Pacht ihrer Fabriken heute endet. Sie haben sich in unserem Kampf als sehr nützlich erwiesen, und wir sind sicher, dass die Deutschen das auch wissen."
+Ostasien.204.a: "Wir werden die Konsequenzen dieser "Hilfe" tragen müssen."
+
+Ostasien.205.t: "Die Kramat Pulai Mine erschöpft sich."
+Ostasien.205.d: "Die Kramat Pulai Mine, die Hauptquelle unserer Wolframexporte, hat uns zu einem der weltweit führenden Lieferanten von Wolfram gemacht. Berichte aus der Mine weisen jedoch auf ein Austrocknen der Scheelitvorkommen in der Mine hin und warnen vor einer bevorstehenden vollständigen Erschöpfung der Mine in naher Zukunft."
+Ostasien.205.a: "Beunruhigend."
+
+Ostasien.206.t: "Die Kramat Pulai Mine kollabiert!"
+Ostasien.206.d: "Die Kramat Pulai Mine ist offiziell erschöpft. Zwar gibt es noch Spuren von Scheelit und die Minen in Perak produzieren weiterhin vernünftige Mengen, aber unser Status als führender Exporteur von Wolfram in der Region ist nicht mehr gegeben."
+Ostasien.206.a: "Es war gut, solange es dauerte."
+
+#Ostasien.207.t: "Ostasien und die AOG"
+#Ostasien.207.d: "Als primäres Zentrum des deutschen Einflusses in Asien überschneidet sich die Arbeit der Ostasien-Verwaltung häufig mit der des Aufsichtsrats der Ostasiatischen Generalverwaltung (AOG). Während wir die direkte Kontrolle über Guangzhou und Tsingtau behalten, können wir über die AOG, eine Verwaltungsbehörde innerhalb der Liga der Acht Provinzen, indirekt von mehreren wichtigen Konzessionsstädten an der Küste sowie von verschiedenen Infrastrukturen und Industrien in deutschem Besitz im Landesinneren profitieren. Die AOG ist nicht Ostasien unterstellt, und wir nicht ihnen; dennoch ist es in unser beider direktem Interesse, uns gegenseitig zu unterstützen und zu schützen, wo wir können."
+#Ostasien.207.a: "Zusammenarbeit ist der Schlüssel."
+
+Ostasien.207.t: "Der Einfluss von AOG in China wächst..."
+Ostasien.207.d: "Inmitten einer Serie von durchwachsenen Nachrichten scheint es, dass unsere Partner in der AOG einen Glücksfall erlebt haben. Die Fertigstellung und der Kauf der ZheGan-Eisenbahn, ein groß angelegtes Eisenbahnprojekt innerhalb der Liga der Acht Provinzen, hat es der AOG ermöglicht, ihren Einfluss tiefer in chinesisches Territorium auszuweiten. Während einige Reaktionen auf die Aktionen der AOG nicht besonders erfreulich waren, können wir sicher davon ausgehen, dass dies ein Zeichen für gute Dinge ist, die kommen werden."
+Ostasien.207.a: "Gut zu hören."
+
+Ostasien.208.t: "Schwarzer Montag trifft den AOG!"
+Ostasien.208.d: "Unsere chinesischen Partner haben die Krise des Schwarzen Montags nicht besser überstanden als wir, so scheint es, wobei deutsche Unternehmen, die bereits unter dem Druck lokaler Elemente stehen, besonders hart getroffen wurden. Die Deutsch-Asiatische Bank, die einst als " zu groß zum Scheitern" galt, steht am Rande des Zusammenbruchs, und die Auswirkungen dieser finanziellen Instabilität sind bereits in unserem eigenen Finanzsektor zu spüren."
+Ostasien.208.a: "Du auch, oder?"
+
+Ostasien.209.t: "Deutsche Unternehmen verlassen die Liga"
+Ostasien.209.d: "Mit dem plötzlichen Abstieg der Liga der Acht Provinzen in den Bürgerkrieg ist das deutsche Vertrauen in den Status quo und China im Allgemeinen zusammengebrochen. Während Qi Xieyuan bei seinem Sieg die Unterstützung deutscher Interessen zugesichert hat, sinkt der Glaube an den Fortbestand der AOG und ihrer wertvollen Konzessionsstädte rapide."
+Ostasien.209.a: "Hab etwas Vertrauen, verdammt!"
+
+Ostasien.210.t: "Die AOG-Überbleibsel..."
+Ostasien.210.d: "Mit der vollständigen Auslöschung der Nanjing-Clique scheint das Kapitel des deutschen Einflusses in China zu Ende zu sein. Wir tun unser Bestes, um die verdrängte AOG-Verwaltung in unseren verbleibenden Konzessionen zu absorbieren, aber die Realität des Verlustes unseres asiatischen Einflusses ist schwer zu begreifen."
+Ostasien.210.a: "Wenigstens haben wir noch Tsingtau."
+
+Ostasien.211.t: "Die deutsche Wirtschaft kehrt nach China zurück."
+Ostasien.211.d: "Mit dem erfolgreichen Überleben der Nanjing-Clique begann das Vertrauen in die chinesische Wirtschaft zurückzukehren. Die AOG hat diese Krise als Lernerfahrung und Chance begriffen, in der Hoffnung, den geschwächten Zustand Nanjings nutzen zu können, um die deutschen Interessen gegen künftige Krisen besser abzusichern."
+Ostasien.211.a: "Also alles wie gehabt."
+
+Ostasien.212.t: "Verbundenheit mit Ostasien"
+Ostasien.212.d: "Da unsere gegenwärtigen freundschaftlichen Beziehungen zu Deutschland gesichert sind, hat die Regierung Ostasiens Schritte unternommen, um unseren jungen Marineausbau zu unterstützen. Während ihre Gründe dafür zweifellos ganz pragmatischer Natur sind, ist die Hilfe, die sie angeboten haben, nicht weniger vorteilhaft für unser eigenes Überleben. Deutsche Ingenieure haben angeboten, unsere Werften mit neuen Schiffskonstruktionen zu versorgen, oder alternativ wurde das Angebot eines ständigen Marineattachés zur weiteren Ausbildung unserer eigenen Marine gemacht."
+Ostasien.212.a: "Wir werden ihr Leichtschiff-Design einbeziehen."
+Ostasien.212.b: "Wir können ihre Erfahrung mit Kriegsschiffen nutzen."
+Ostasien.212.c: "Ein ständiger Marineattaché wäre von Vorteil."
+
+ Ostasien.213.t: "Deutsche Unterstützung verloren"
+ #for pro-German QIE:
+ Ostasien.213.d.QIE: "Die deutsche ostasiatische Flotte, der Stolz des Deutschen Reiches und ein Symbol der deutschen militärischen und maritimen Stärke im Pazifik, ist gefallen. Mit dem Zusammenbruch von Deutsch-Ostasien werden die verbliebenen deutschen Berater, Techniker und Experten in China zurückgerufen, da sie keinen Anreiz mehr haben, in Asien zu bleiben. Dies stärkt zwar unsere nationale Unabhängigkeit und beseitigt unsere Abhängigkeit von Deutschland, bedeutet aber auch, dass die deutsch-chinesische Zusammenarbeit bis auf Weiteres beendet sein wird. Wir werden zwar weiterhin herzliche und freundschaftliche Beziehungen zu Deutschland unterhalten, aber wir werden nicht mehr in den Genuss der Vorteile kommen, die mit der Angleichung an Deutschland verbunden sind, und wir werden daher unseren eigenen Weg gehen müssen. Dank der Zusammenarbeit haben wir unsere Streitkräfte und unsere Wirtschaft erfolgreich modernisiert, aber alles muss einmal ein Ende haben."
+ #for pro-German Zhili SZC:
+ Ostasien.213.d.SZC: "Die deutsche ostasiatische Flotte, der Stolz des Deutschen Reiches und ein Symbol der deutschen militärischen und maritimen Stärke im Pazifik, ist gefallen. Mit dem Zusammenbruch von Deutsch-Ostasien werden die verbliebenen deutschen Berater, Techniker und Experten in China zurückgerufen, da sie keinen Anreiz mehr haben, in Asien zu bleiben. Dies stärkt zwar unsere nationale Unabhängigkeit und beseitigt unsere Abhängigkeit von Deutschland, bedeutet aber auch, dass die deutsch-chinesische Zusammenarbeit bis auf Weiteres beendet sein wird. Wir werden zwar weiterhin herzliche und freundschaftliche Beziehungen zu Deutschland unterhalten, aber wir werden nicht mehr in den Genuss der Vorteile kommen, die mit der Angleichung an Deutschland verbunden sind, und wir werden daher unseren eigenen Weg gehen müssen. Dank der Zusammenarbeit haben wir unsere Streitkräfte und unsere Wirtschaft erfolgreich modernisiert, aber alles muss einmal ein Ende haben."
+ #for Zongchang SQI:
+ Ostasien.213.d.SQI: "Die deutsche ostasiatische Flotte, der Stolz des Deutschen Reiches und ein Symbol der deutschen militärischen und maritimen Stärke im Pazifik, ist gefallen. Mit dem Zusammenbruch von Deutsch-Ostasien werden die verbliebenen deutschen Berater, Techniker und Experten in China zurückgerufen, da sie keinen Anreiz mehr haben, in Asien zu bleiben. Dies stärkt zwar unsere nationale Unabhängigkeit und beseitigt unsere Abhängigkeit von Deutschland, bedeutet aber auch, dass die deutsch-chinesische Zusammenarbeit bis auf Weiteres beendet sein wird. Wir werden zwar weiterhin herzliche und freundschaftliche Beziehungen zu Deutschland unterhalten, aber wir werden nicht mehr in den Genuss der Vorteile kommen, die mit der Angleichung an Deutschland verbunden sind, und wir werden daher unseren eigenen Weg gehen müssen. Dank der Zusammenarbeit haben wir unsere Streitkräfte und unsere Wirtschaft erfolgreich modernisiert, aber alles muss einmal ein Ende haben."
+ #for LEP:
+ Ostasien.213.d.LEP: "Die deutsche ostasiatische Flotte, der Stolz des Deutschen Reiches und ein Symbol der deutschen militärischen und maritimen Stärke im Pazifik, ist gefallen. Mit dem Zusammenbruch von Deutsch-Ostasien werden die verbliebenen deutschen Berater, Techniker und Experten in China zurückgerufen, da sie keinen Anreiz mehr haben, in Asien zu bleiben. Dies stärkt zwar unsere nationale Unabhängigkeit und beseitigt unsere Abhängigkeit von Deutschland, bedeutet aber auch, dass die deutsch-chinesische Zusammenarbeit bis auf Weiteres beendet sein wird. Wir werden zwar weiterhin herzliche und freundschaftliche Beziehungen zu Deutschland unterhalten, aber wir werden nicht mehr in den Genuss der Vorteile kommen, die mit der Angleichung an Deutschland verbunden sind, und wir werden daher unseren eigenen Weg gehen müssen. Dank der Zusammenarbeit haben wir unsere Streitkräfte und unsere Wirtschaft erfolgreich modernisiert, aber alles muss einmal ein Ende haben."
+ Ostasien.213.a: "Eine Ära endet... eine neue beginnt"
+
+ Ostasien.214.t: "Wiedererlangung unseres Einflusses in China"
+ Ostasien.214.d: "Mit dem neuen, von Deutschland unterstützten Regime, das von unseren verbündeten Kräften in China geschaffen wurde, konnten wir unseren früheren Einfluss in den Hafenstädten wiederherstellen. Jetzt können wir unsere wirtschaftliche Erschließung des chinesischen Marktes wieder aufnehmen, die zuvor so unsanft unterbrochen wurde."
+ Ostasien.214.a: "Eine neue Ära des deutschen Einflusses in China beginnt!"
+
+ asiapeace.7.t: "Ostasiatische Kommandeure treffen ein"
+ asiapeace.7.d: "Nachdem unsere Kolonien in Ostasien von unseren Feinden überrannt worden sind, haben die Kommandeure ihrer Flotte und Garnison begonnen, in die Heimat zu strömen, indem sie waghalsige Fluchten in U-Booten und lange Reisen durch den Nahen Osten und Afrika unternahmen. Bei weitem nicht alle Kommandeure und Unteroffiziere der ostasiatischen Garnison haben es geschafft zu entkommen, aber diejenigen, die es geschafft haben, sind Veteranen des malaysischen und indochinesischen Dschungelkriegs und würden sich in den Reihen des Heers als nützlich erweisen.\n\n Andererseits haben sie ihre Pflicht in Ostasien nicht erfüllt..."
+ asiapeace.7.a: "Wir werden sie mit offenen Armen empfangen."
+ asiapeace.7.b: "Diese tapferen Männer haben ihre Pflicht getan - sie sollten in den Ruhestand gehen."
+
+#decisions
+GEA_indochina_war_decisions: "Der Indochinakrieg"
+GEA_indochina_war_decisions_desc: "Der indochinesische Aufstand hat sich zu einem ausgewachsenen Krieg ausgeweitet. Der Krieg gegen die Vietminh-Aufständischen hat jedoch keine konkrete Front. Überall ist eine Frontlinie und jeder Bauer, der einen Reishut trägt, könnte ein Vietminh sein. Wir müssen alles tun, was wir können, um den Sieg des Kaiserreichs zu sichern.\n\nGeschätzte §YAufstandsstärke§! in Indochina: §R[?INC.guerilla_activity|-0]§!\n"
+reduce_10_guerilla_tooltip: "Wir schätzen, dass dies die §YAufstandsstärke§! um §R10§! reduziert.\n"
+GEA_suppress_Tonkin: "Vietminh in Tonkin unterdrücken"
+GEA_maintain_Tonkin_control: "Behalten Sie unsere Kontrolle in Tonkin"
+GEA_reinforce_police: "Polizeieinheiten verstärken"
+GEA_Zeppelin_decision: "Einsatz von Zeppelin-Luftschiffen"
+GEA_Zeppelin_decision_desc: "Mit der Entwicklung der Marinefliegerei wurden die Zepplin-Luftschiffe im Arsenal Ostasiens allmählich durch fortschrittlichere Seeaufklärungsflugzeuge ersetzt. Aufgabe der Seeaufklärung. Der jüngste Krieg in Indochina brachte jedoch eine kühne Idee hervor: Zeppeline zur Patrouille über der indochinesischen Halbinsel einzusetzen. Diese Luftschiffe könnten auch Nachschub zu isolierten Garnisonen liefern. Bei der schwachen Anti-Luft-Feuerkraft der Rebellen sollte dies eine sichere Sache sein."
+GEA_Fernspaher_decision: "Bildung von Fernspäher Einheiten"
+GEA_Fernspaher_decision_desc: "Der immer intensiver werdende Krieg in Indochina hat die Schwäche unserer Armee offengelegt. Während unsere Infanterieeinheiten gut ausgerüstet sind, um ihre Position gegen den Feind zu verteidigen, sind sie zu schwerfällig, um aggressiv und flexibel zu kämpfen. Es ist ratsam, Elitesoldaten aus unseren Streitkräften auszuwählen und die besonderen Fähigkeiten von Gebirgsjägern und Fallschirmjägern zu einer eigenen Elite-Fernspäh-Einheit zu kombinieren, um diese Art von Einsätzen besser durchführen zu können."
+ GEA_reintegrate_indochina: "Indochinesen wiedereingliedern"
+ GEA_reintegrate_indochina_desc: "Unseren Streitkräften ist es gelungen, die Vietminh zu besiegen, und sie sind vorerst eingedämmt. Dies ist jedoch nur eine vorübergehende Lösung, und es ist nur eine Frage der Zeit, bis die Guerillas zu einer Revanche bereit sind. Wir müssen unsere Kontrolle in diesen Regionen endgültig festigen und dürfen die Verwaltung nicht wie bisher den französischen Kolonialherren überlassen."
+ GEA_german_indochinese_reconciliation: "Deutsch-Indochinesische Versöhnung"
+ GEA_german_indochinese_reconciliation_desc: "Die Rückblende auf die Aufstandsbekämpfung in Indochina verfolgt Admiral Hellmuth von Mücke und er hat nun das Gefühl, dass er etwas tun muss, um die brutalen Massaker aufzuarbeiten. Er will eine populäre Kolonialpolitik betreiben, indem er eine größere lokale Autonomie gewährt und die Deutsch-Indochinesische Harmonie fördert. Auf diese Weise hofft er, die Herzen und Köpfe der Menschen in Indochina zurückzugewinnen."
+GEA_take_east_asian_navy: "Übernehmen Sie die Kontrolle über die ostasiatische Marine"
+GEA_take_east_asian_navy_desc: "Die deutsche ostasiatische Marine ist eine wertvolle Bereicherung für unsere Marinestrategie in Ostasien. Sie wäre besser dran, wenn sie stärker in die Berliner Kommandostruktur eingebunden wäre."
+
+GEA_colonial_decisions: "Das Reichskolonialamt"
+GEA_colonial_decisions_desc: "Das Reichskolonialamt ist der Oberaufseher über das deutsche Kolonialprojekt. Als solches müssen wir es durchlaufen, um wertvolles Kriegsmaterial oder neues Blut aus dem Vaterland zu gewinnen."
+GEA_steal_manpower_from_home: "Personal anfordern"
+GEA_steal_manpower_from_home_desc: "Da unsere Reserven zur Neige gehen, werden wir bald nicht mehr in der Lage sein, unsere Divisionen in voller Stärke zu halten. Es ist an der Zeit, das Reichskolonialamt zu bitten, uns mehr Wehrpflichtige aus der Heimat zu schicken, um uns in unserem Bestreben, die Interessen des Kaiserreichs zu fördern, zu unterstützen."
+GEA_steal_guns_from_home: "Waffen anfordern"
+GEA_steal_guns_from_home_desc: "Unser Infanterie-Ausrüstungsbestand ist beunruhigend spärlich geworden. Um unsere Pflichten gegenüber dem Kaiser ordnungsgemäß zu erfüllen, müssen wir beim Reichskolonialamt eine Lieferung von Waffen anfordern."
+
+GEA_help_lep_decisions: "Die Nanjing Krise"
+GEA_help_lep_decisions_desc: "Verschiedene Kriegsherren und sogar Syndikalisten haben sich gegen die Regierung in Nanjing erhoben. Wir müssen ihnen helfen, um die Sicherheit unserer Investitionen in China zu gewährleisten, damit unser Einfluss auf die chinesische Wirtschaft nicht zusammenbricht."
+GEA_give_factories_to_lep: "Werksvermietung"
+GEA_give_factories_to_lep_desc: "Wir werden mit der AOG besprechen, dass einige Fabriken in den Konzessionen vorübergehend vollständig der Regierung von Nanjing zur Verfügung gestellt werden, um sie in ihrem Überlebenskampf zu unterstützen."
+GEA_give_guns_to_lep: "Gebt ihnen Waffen"
+GEA_give_guns_to_lep_desc: "Wir werden dafür sorgen, dass eine beträchtliche Ladung deutscher Ausrüstung an die schlecht ausgerüsteten Truppen der Nanjing-Regierung geschickt wird, um hoffentlich das Gleichgewicht zu ihren Gunsten zu beeinflussen."
+
+GEA_development_idea: "Bergbauarbeiten"
+ #Änderung auf die deutsche Schreibweise 'Johore' für Lore-Konsistenz
+GEA_develop_aluminium_deposits: "Entwicklung des Bauxitabbaus in [846.GetCapitalVictoryPointName]"
+GEA_develop_aluminium_deposits_desc: "Unsere Prospektoren haben reiche Bauxitvorkommen im Bundesstaat [846.GetCapitalVictoryPointName] entdeckt, die sich perfekt für die Herstellung von Aluminium eignen. Während die anfänglichen Kosten für den Abbau erheblich sein werden, ist unsere prognostizierte Tonnage den Aufwand wert."
+GEA_develop_aluminium_deposits_wtt: "Entwicklung des Bauxitabbaus in [846.GetCapitalVictoryPointName]"
+GEA_develop_aluminium_deposits_wtt_desc: "Unsere Prospektoren haben reiche Bauxitvorkommen im Bundesstaat [846.GetCapitalVictoryPointName] entdeckt, die sich perfekt für die Herstellung von Aluminium eignen. Während die anfänglichen Kosten für den Abbau erheblich sein werden, ist unsere prognostizierte Tonnage den Aufwand wert."
+ #Änderung auf die deutsche Schreibweise 'Johore' für Lore-Konsistenz
+GEA_develop_sarawak_oil: "Ölförderung in Sarawak"
+GEA_develop_sarawak_oil_desc: "Unser Ölverbrauch ist derzeit nicht in der Lage, unsere Flotte im Falle eines langfristigen Marineeinsatzes zu versorgen. Durch die Erhöhung unserer lokalen Ölproduktion in Borneo können wir jedoch beginnen, eine Reserve zu horten, um Treibstoffengpässe zu vermeiden."
+GEA_develop_sarawak_oil_wtt: "Ölförderung in Sarawak"
+GEA_develop_sarawak_oil_wtt_desc: "Unser Ölverbrauch ist derzeit nicht in der Lage, unsere Flotte im Falle eines langfristigen Marineeinsatzes zu versorgen. Durch die Erhöhung unserer lokalen Ölproduktion in Borneo können wir jedoch beginnen, eine Reserve zu horten, um Treibstoffengpässe zu vermeiden."
+
+#Flotten Übung
+#Mit der Ankunft der neuen Großkampfschiffe hat unsere Flotte neue Gruppentaktiken ausprobiert und geübt. Vielleicht ist es an der Zeit, eine gemeinsame Übung mit der Hochseeflotte durchzuführen?
+#Flotten Übung
+#Admiral Hellmuth wollte eine Flottenübung zwischen der Hochseeflotte und der ostasiatischen Flotte abhalten. Die ostasiatische Flotte ist für ihre taktischen Innovationen bekannt. Das könnte eine gute Gelegenheit sein, unsere Flottentaktik zu prüfen.
+#Die Kaiserliche Marine hat beschlossen, eine groß angelegte Marineübung im Indischen Ozean zu starten. Das Szenario ist ein Krieg um die Kontrolle des Indischen Ozeans zwischen der Schwarzen Flotte in einer defensiven Haltung und einer überlegenen Gelben Flotte, die darauf abzielt, die Schwarze Flotte zu zerstören und die Kontrolle über die Andamanen-Inseln zu übernehmen. Die mächtige Gelbe Flotte, die von Admiral Wilhelm Marschall kommandiert wird, besteht aus einigen der modernsten Schlachtschiffe der Hochseeflotte. Die Gelbe Flotte wird ihre Operation vom Marinestützpunkt Trincomalee aus führen. Jetzt ist es an der Zeit, unsere Flottenzusammensetzung und unseren Plan zu bestimmen.
+#Setzen Sie unsere Schlachtschiffe für ein Gefecht von Angesicht zu Angesicht ein!
+#Setzen Sie Schlachtkreuzer zur strategischen Abschreckung ein!
+#Setzen Sie Trägergruppen für den Langstreckeneinsatz ein!
+
+#Die Gelbe Flotte versuchte, die Andamanen-Inseln zu erobern
+#Die Übung hat begonnen. Der Geheimdienst und die Luftaufklärung legen nahe, dass die Gelbe Flotte aktiv die Invasion der Andamanen-Inseln vorbereitet. Es wird geschätzt, dass die Gelbe versuchen wird, den Golf von Bengalen mit konzentrierter Flotte zu sichern und dann die Invasion zu starten. Sollten wir eine defensive Haltung einnehmen, um die Flotte von Admiral Marschall in der Nähe der Andamanen-Inseln abzufangen, oder versuchen, die Initiative zu ergreifen, um die feindliche Operation durch aggressive Aktionen zu stören?
+#Sie abfangen
+#Ergreife die Initiative!
+
+#Ergebnis: Taktische Niederlage der schwarzen Flotte - Schlachtkreuzer
+#Die Schwarze Flotte lokalisierte die eindringende Gelbe Flotte durch Luftaufklärung. Unsere Schlachtkreuzer trafen bald auf die gelben Aufklärungskreuzer. Obwohl die Gelbe Flotte in der ersten Begegnung von den Schwarzen Schlachtkreuzern abgeschlachtet wurde, gelang es den Gelben Schlachtschiffen, rechtzeitig anzukommen und die Schwarze Flotte mit massiver Feuerkraft zu überwältigen. Ein schwarzer Schlachtkreuzer erlitt kritische Treffer in seinem Maschinenraum und konnte nicht entkommen, aber der Rest kehrte nach [336.GetCapitalVictoryPointName] zurück. Nachdem die Gelbe Flotte schwere Verluste an Kreuzern erlitten hatte, verfügte sie auch nicht mehr über genügend Schutzschiffe, um den amphibischen Angriff zu unterstützen. Die Schlacht wurde als taktische Niederlage der Schwarzen Flotte angesehen, aber das Ergebnis war ein strategisches Patt.
+
+#Ergebnis: Taktiksieg der schwarzen Flotte - Schlachtschiffe
+#Die Schwarze Flotte lokalisierte die eindringende Gelbe Flotte durch Luftaufklärung. Die schwarze Aufklärungslinie, die sich vor der Hauptkampftruppe ausbreitete, stieß bald auf die gelben Aufklärungskreuzer. Die schwarzen Schlachtschiffe wurden in eine exzellente Position gebracht, um den gelben Kreuzern schwere Schläge zu versetzen. Die Hauptstreitmacht von Admiral Marschall kam zum Einsatz, bevor die Kreuzer vernichtet wurden. In den nächsten Stunden lieferten sich beide Flotten ein Feuergefecht auf große Entfernung. Die neuen Entfernungsmesser auf SMS Neckar erlaubten es, auch bei extremer Schussentfernung wertvolle Treffer zu erzielen. Admiral Hellmuth brach das Gefecht ab, bevor die Gelbe Flotte die Reichweite verkürzen und ihren zahlreichen Vorteil voll ausnutzen konnte. gelang der Rückzug, sie hatte schwere Verluste erlitten und die Fähigkeit verloren, die Andamaneninseln zu verteidigen, und die Gelbe Flotte konnte schließlich eine amphibische Operation starten. Obwohl die Schlacht unentschieden verlief, verfügt die Gelbe Flotte nicht über genügend Begleitschiffe, um den amphibischen Angriff zu unterstützen, und die Übung endete mit einem strategischen Sieg der Schwarzen Flotte.
+
+#Ergebnis: Strategische Niederlage der schwarzen Flotte - Schlachtschiffe
+#Der Vormarsch der Schwarzen wurde schnell von den U-Booten der Gelben geortet, wodurch sie jeglichen Überraschungsvorteil verloren. Bald stieß die schwarze Flotte westlich der Andamanen auf die Kreuzergruppe von Admiral Marschall. Die gelben Kreuzer wendeten nach Nordwesten auf einem Kurs, um sich den Schlachtschiffen wieder anzuschließen. Die Schwarze Flotte verfolgte die Kreuzer, bis die Gelben Schlachtschiffe in Position gingen. In den nächsten Stunden lieferten sich beide Flotten ein Fernfeuergefecht und die Schwarze Flotte war der überlegenen Gelben Flotte unterlegen. Als sich Admiral Hellmuths Flotte zurückziehen konnte, hatte sie schwere Verluste erlitten und die Fähigkeit verloren, die Andamanen zu verteidigen, und die Gelbe Flotte konnte schließlich eine amphibische Operation starten. Die Übung endete mit der strategischen Niederlage der Schwarzen Flotte.
+
+#Ergebnis: Strategischer Sieg der schwarzen Flotte - Schlachtkreuzer
+#Admiral Hellmuth beschloss, seine Kreuzer zu verteilen, um die Gelbe Flotte zu bedrängen und sie mit Schlachtkreuzern zu unterstützen. Diese Handelszerstörer stellten eine große Bedrohung für die gelben Konvois dar. Die Gelbe Flotte versuchte, die Angreifer durch Such- und Zerstörungsaktionen abzuwehren, aber die Schwarzen Kreuzer wichen dem Gefecht aus. Schließlich entschied sich Admiral Marschall, seine Flotte zum Schutz der Konvois aufzulösen. In einem Gefecht wurde der Konvoi, der von einem gelben Schlachtschiff eskortiert wurde, von einer schwarzen Raiderflotte angegriffen, die von drei Schlachtkreuzern unterstützt wurde. Die Konvois wurden aufgerieben, bevor die Verstärkung eintraf. Die Gelbe Flotte wurde von weiteren Aktionen abgehalten. Das Ergebnis wurde als strategischer Sieg von Admiral Hellmuths Schwarzer Flotte gewertet.
+
+#Ergebnis: Entscheidender Sieg der schwarzen Flotte - Träger
+#Admiral Hellmuth entschied sich zu einer waghalsigen Aktion: Die schwarze Flotte, bestehend aus vier Flugzeugträgern plus unterstützenden Schiffen unter dem Kommando des Admirals, verlegte etwa 200 Meilen südlich von Sri Lanka. Die erste Angriffswelle von 93 Flugzeugen startete in der Dämmerung in Richtung Trincomalee. Der Luftangriff gelang völlig überraschend. Die Gelbe Schlachtflotte und Konvois liegen im Hafen von Trincomalee vor Anker und konnten keinen Widerstand organisieren. Die Lufttorpedoexperten aller modernen Marinen waren bisher der Meinung, dass Torpedoangriffe auf Schiffe in flachen Gewässern nicht möglich sind, aber die Ostasien-Flotte hatte eine neue Methode entwickelt, um zu verhindern, dass Torpedos zu tief eintauchen. Der Luftangriff versetzte der Gelben Flotte einen verheerenden Schlag mit überraschend wenig Verlusten an Flugzeugen. Die Übung endete mit einem entscheidenden schwarzen Sieg.
+
+#Ergebnis: Entscheidender Sieg der schwarzen Flotte - Träger
+#Die schwarzen Träger und Schutzschiffe bildeten eine konzentrierte Kampfgruppe, die in Richtung Westen segelte. Die Aufklärungsbomber schafften es, die gelben Konvois bis zum Morgen zu lokalisieren. Eine massive Angriffswelle wurde gestartet, aber der Pilot verfehlte die Position der Konvois. Stattdessen entdeckten sie den Standort der gelben Hauptkräfte. Die Ostasien-Torpedobomber starteten ihren Angriff mit tödlicher Präzision. Als Ergebnis von zwei Wellen von Luftangriffen wurden mindestens drei gelbe Schlachtschiffe und zwei Kreuzer als beschädigt eingestuft, darunter ein Kreuzer, der als von drei Torpedos getroffen galt und als versenkt eingestuft wurde. Die Verluste der schwarzen Flugzeuge waren vernachlässigbar. Die Übung endete mit einem entscheidenden schwarzen Sieg.
+
+#Result: Strategische Niederlage der schwarzen Flotte - Träger
+#Der Vormarsch der Schwarzen wurde schnell von der Wachpostenlinie der Gelben von U-Booten geortet. Aufgrund des Versagens der Aufklärung trafen die schwarzen Träger auf die Aufklärungskreuzer-Flotte der Gelben. Während des Feuergefechts an der Oberfläche wurden die Träger erheblich beschädigt, wobei Hellmuths Träger schließlich durch den Torpedo eines gelben Zerstörers als versenkt beurteilt wurde. Die Schwarze Flotte hatte die Fähigkeit verloren, die Andamanen-Inseln zu verteidigen, und die Gelbe Flotte war schließlich in der Lage, eine amphibische Operation zu starten. Die Übung endete mit der strategischen Niederlage der Schwarzen Flotte.
+
+### Misc Events ###
+Ostasien.100.t: "Die große Parade"
+Ostasien.100.d: "Um 09:00 Uhr lief die Große Ostasienflotte aus dem Hafen von [336.GetCapitalVictoryPointName] aus, um außerhalb der Stadtgrenzen groß angelegte Übungen durchzuführen. Beeindruckende Luftangriffsübungen wurden von unseren Flugzeugträgern demonstriert, ergänzt durch große Breitseiten-Feuerübungen unserer Schlachtschiffe. Nachdem dies abgeschlossen war, machte sich die Flotte auf den Weg nach Tsingtau, um dort Übungen als Warnung für alle, die uns bedrohen, durchzuführen."
+Ostasien.100.a: "Sie hätten Recht, unsere Macht zu fürchten."
+
+###decisions
+GEA_start_naval_blockade: "Seeblockade starten"
+GEA_start_naval_blockade_desc: "Die Konvois der Internationalen können ungehindert ins Südchinesische Meer einfahren und den indochinesischen Rebellen heimliche Unterstützung schicken, das kann so nicht weitergehen"
+GEA_shelling_on_Saigon: "Beschuss von Saigon"
+
+GEA_reorganise_north_malaya: "Nord-Malaya reorganisieren"
+GEA_reorganise_north_malaya_desc: "Nachdem wir nun die Kontrolle über die nordmalaiischen Sultanate erlangt haben, soll eine Neuschöpfung der \" Unföderierten Malaiischen Staaten\" als vorübergehender rechtlicher und administrativer Rahmen dienen, um die lokalen Verwaltungen unter den einzelnen Sultanen in eine einzige Einheit zu integrieren.\n\nDies wird uns eine größere Kontrolle über diese neu annektierten Gebiete geben."
+GEA_reorganise_sumatra: "Sumatra reorganisieren"
+GEA_reorganise_sumatra_desc: "Jetzt, wo wir die Kontrolle über Sumatra erlangt haben, ist eine Integration der bestehenden lokalen zivilen Dienste in unsere eigenen notwendig, damit wir diese Gebiete effektiv administrieren können."
+GEA_reorganise_java: "Java reorganisieren"
+GEA_reorganise_java_desc: "Nachdem wir nun die Kontrolle über ganz Java erlangt haben, ist eine Integration der bestehenden lokalen zivilen Dienste in unsere eigenen erforderlich, damit wir diese Gebiete effektiv verwalten können."
+GEA_reorganise_kalimantan: "Süd-Borneo reorganisieren"
+GEA_reorganise_kalimantan_desc: "Nachdem wir nun die Kontrolle über die südliche Hälfte der Insel Borneo erlangt haben, ist eine Eingliederung der bestehenden lokalen Zivilverwaltung in unsere eigene notwendig, um diese Gebiete effektiv zu verwalten."
+GEA_reorganise_sulawesi_sunda: "Celebes & Kleine Sunda Inseln reorganisieren"
+GEA_reorganise_sulawesi_sunda_desc: "Nachdem wir nun die Kontrolle über die Celebes- und die Kleinen Sunda-Inseln erlangt haben, ist eine Integration der bestehenden lokalen zivilen Dienste in unsere eigenen erforderlich, damit wir diese Gebiete effektiv verwalten können."
+GEA_reorganise_maluku_papua: "West-Neuguinea und die Molukken reorganisieren"
+GEA_reorganise_maluku_papua_desc: "Nachdem wir nun die Kontrolle über die Molukken und die westliche Hälfte von Neu-Guinea erlangt haben, ist eine Integration der bestehenden lokalen Verwaltungsdienste in unsere eigenen erforderlich, damit wir diese Gebiete effizient verwalten können."
+GEA_reorganise_east_timor: "Ost-Timor reorganisieren"
+GEA_reorganise_east_timor_desc: "Nachdem wir nun die Kontrolle über die portugiesische Hälfte von Timor erlangt haben, ist eine Integration der bestehenden lokalen Zivilverwaltung in unsere eigene notwendig, damit wir diese Gebiete effektiv verwalten können."
+GEA_reorganise_cambodia: "Kambodschanische Territorien reorganisieren"
+GEA_reorganise_cambodia_desc: "Jetzt, da es uns gelungen ist, die Kontrolle über Kambodscha zu erlangen, können wir vielleicht endlich die Gebiete von Stung Treng von der Verwaltung von Cochinchina abtrennen und das Protektorat \"Königreich Kambodscha\" wiederherstellen.\n\nDies wird uns eine größere Kontrolle über die neu annektierten Gebiete geben, als wenn wir sie einfach Saigon unterstellen."
+GEA_reorganise_laos: "Laotische Territorien reorganisieren"
+GEA_reorganise_laos_desc: "Jetzt, wo wir endlich die volle Kontrolle über Laos erlangt haben, müssen wir unsere zivilen Dienste ausweiten, um die neu annektierten Gebiete auf der anderen Seite des Mekong abzudecken."
+
+### Companies ###
+ GEA_Von_Tirpitz_University: "Von Tirpitz-Universität"
+ GEA_Deutsche_Samoa_Gesellschaft: "Deutsche-Samoa Gesellschaft"
+ GEA_Schantung_Bergbaugesellschaft: "Schantung Bergbaugesellschaft"
+ GEA_Boustead_Co: "Boustead & Co"
+ GEA_Tonkin_Arsernal: "Tonkin Arsenal"
+ GEA_Neu-Guinea-Kompagnie: "Deutsche Neuguinea-Kompagnie"
+ GEA_Opel: "Opel Südostasien"
+ GEA_FMSR: "Kaiserlich Malaiische Staatseisenbahnen"
+ GEA_Chemin_de_fer_Transindochinois: "Trans-Indochinesische Eisenbahn"
+ GEA_Schantung_Eisenbahn_Gesellschaft: "Schantung-Eisenbahn-Gesellschaft"
+ GEA_Focke-Wulf: "Focke Wulf Ostasien"
+ GEA_Malaiisch_Fluggesellschaft: "Malaiische Luft-Reederei"
+ GEA_Rumpler_Flugzeugwerke_Ostasien: "Rumpler Flugzeugwerke Ostasien"
+ GEA_Norddeutscher_Lloyd: "Norddeutscher Lloyd Singapur"
+ # Wurde wegen fehlender Icons gestrichen:
+ GEA_Saigon_Werft: "Saigon Werft"
+ GEA_Germaniawerft: "Germaniawerft Saigon"
+
+### Ideas ###
+GEA_colonial_nation: "Kolonialverwaltung"
+GEA_colonial_nation_desc: "Trotz ihrer begrenzten Autonomie im Umgang mit ihren Nachbarn ist die GEA faktisch eine Kolonialregierung; ihr gesamter Staatsapparat hängt von der deutschen Macht ab und wird von ihr aufrechterhalten, mit einem in Berlin aufgestellten Haushalt und einer an die Deutsche Mark gekoppelten Währung."
+GEA_colonial_question: "Koloniale Frage"
+GEA_colonial_question_desc: "Die Menge an Personal, die unser landgestützter Arm rekrutieren kann, ist stark begrenzt. Strenge Vorschriften bezüglich des Beitritts von Ausländern und ein allgemeiner Mangel an Bereitschaft der Einheimischen ersticken unseren Versuch, eine größere Truppe aufzubauen."
+ GEA_army_of_marines: "Armee von Marinesoldaten"
+ GEA_native_recruitment: "Rekrutierung Einheimischer"
+ GEA_grand_admiral: "Der Großadmiral"
+ GEA_grand_admiral_desc: "Als Gouverneur von Deutsch-Ostasien und Großadmiral der Ostasienflotte ist Hellmuth von Mücke eine äußerst einflussreiche Figur in der Region. Mit seiner Erfahrung in der Marine ist er ein Segen für die deutschen Kolonialbestrebungen und verfügt über eine enorme Machtfülle."
+ GEA_counter_insurgency: "Aufstandsbekämpfungstraining"
+GEA_counter_insurgency_desc: "Der Einsatz konventioneller sowie "unkonventioneller" Taktiken, die von denjenigen entwickelt wurden, die in der rauen Umgebung Afrikas gekämpft haben, hat unseren Truppen den nötigen Vorteil verschafft."
+GEA_black_monday_idea: "Schwarzer Montag"
+GEA_black_monday_idea_desc: "Der Schwarze Montag hat zugeschlagen und unsere ohnehin schwache Wirtschaft lahmgelegt."
+GEA_black_monday_idea2: "Erholung vom Schwarzen Montag"
+GEA_black_monday_idea2_desc: "Der Schwarze Montag hat zugeschlagen und unsere ohnehin schwache Wirtschaft lahmgelegt, aber wir bemühen uns, uns zu berappeln."
+GEA_austerity_budget: "Sparhaushalt"
+GEA_austerity_budget_desc: "Obwohl Maßnahmen ergriffen wurden, um die Auswirkungen des Schwarzen Montags zu reduzieren, ist die Admiralität immer noch durch einen Mangel an finanziellen Mitteln eingeschränkt."
+GEA_austerity_budget2: "Sparhaushalt"
+GEA_austerity_budget2_desc: "Obwohl Maßnahmen ergriffen wurden, um die Auswirkungen des Schwarzen Montags zu reduzieren, ist die Admiralität immer noch durch einen Mangel an finanziellen Mitteln eingeschränkt."
+GEA_flush_budget_desc: "Unsere Haushaltslage hat sich verbessert und liegt nun über dem Vorkrisenniveau."
+GEA_colonial_disaster_idea: "Kolonialer Aufruhr"
+GEA_colonial_disaster_idea_desc: "Als sich die Nachwirkungen des Schwarzen Montags als katastrophal erweisen, breitet sich der Aufstand in allen Kolonien aus."
+GEA_colonial_instability_idea: "Koloniale Instabilität"
+GEA_colonial_instability_idea_desc: "Es wurden Anstrengungen unternommen, die Situation unter Kontrolle zu bringen, aber die Kolonien sind immer noch instabil."
+GEA_Infrastructural_Effort_Idea: "Ostasien Wirtschaftsraum"
+GEA_Infrastructural_Effort_Idea_desc: "Mit der Verbesserung der Infrastruktur waren die Verbindungen zwischen unseren Kolonien noch nie so stark wie heute."
+GEA_Local_Guard_Idea: "Lokale Wachen"
+GEA_Local_Guard_Idea_desc: "Wir haben die lokalen Monarchen ermächtigt, ihre eigene königliche Garde zu rekrutieren."
+GEA_Local_Guard_with_advisors_Idea: "Lokale Wachen"
+GEA_Local_Guard_with_advisors_Idea_desc: "Wir haben die lokalen Monarchen ermächtigt, ihre eigene königliche Garde zu rekrutieren."
+GEA_help_small_business_idea: "Hilfe für kleine Unternehmen"
+GEA_pure_admirality_idea: "Eine Flotte, die von Kolonien unterstützt wird"
+GEA_colonisation_idea: "Ostasien Kolonisierung"
+GEA_New_Shipbuilding_Methods_idea: "Neue Methoden im Schiffbau"
+GEA_Anti_Invasion_Plan_idea: "Anti-Invasionsplan"
+GEA_Absolute_Defense_Sphere_idea: "Absolute Verteidigung Sphäre"
+GEA_plantations_negotiation_idea: "Mit Plantagenarbeitern verhandeln"
+GEA_falling_price_idea: "Sinkender Preis"
+GEA_conrol_price_idea: "Bemühungen um Preiskontrolle"
+GEA_pacific_rule_idea: "Herrsche über den Pazifik"
+GEA_vietcong_killer_idea: "Vietminh Killer"
+GEA_vietcong_killer_idea_desc: "Jeder, der rennt, ist ein Vietminh! Jeder, der stillsteht, ist ein gut disziplinierter Vietminh!"
+
+GEA_AOG_BONUS: "AOG"
+GEA_AOG_bonus_idea: "Ausfsichtsrat der Ostasialischen Generalverwaltung"
+GEA_AOG_bonus_idea_desc: "Durch die AOG haben wir wichtige wirtschaftliche Rechte in §Y[?GEA_AOG_CITIES_NUMBER]§! wichtigen chinesischen Küstenstädten:\n- §[592.GEA_GetStateControllerAllyStatus][592.GetName]§!\n- §[802.GEA_GetStateControllerAllyStatus][802.GetName]§!\n- §[803.GEA_GetStateControllerAllyStatus][803.GetName]§!\n- §[1075.GEA_GetStateControllerAllyStatus][1075.GetName]§!"
+ GEA_AOG_bonus_idea_tt: "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?GEA_AOG_CITIES|Y%1]"
+
+ GEA_arm_of_the_german_empire: "Arm des Deutschen Reiches"
+GEA_naval_attache_idea: "Ostasien Marinemission"
+
+### Country Names ###
+ GEA: "Deutsch Ostasien"
+ GEA_ADJ: "Deutsch Ostasiatisch"
+ GEA_DEF: "Deutsch Ostasien"
+
+### Characters ###
+ GEA_felix_von_luckner: "Felix von Luckner"
+ GEA_hellmuth_von_muecke: "Hellmuth von Mücke"
+ GEA_hermann_voigt_ruscheweyh: "Hermann Voigt Ruscheweyh"
+ GEA_erwin_rommel: "Erwin Rommel"
+ GEA_alexander_von_falkenhausen: "Alexander von Falkenhausen"
+ GEA_fritz_bayerlein: "Fritz Bayerlein"
+ GEA_rudolph_firle: "Rudolph Firle"
+ GEA_heinz_trettner: "Heinz Trettner"
+ GEA_herman_ehrhardt: "Hermann Ehrhardt"
+ GEA_conrad_patzig: "Conrad Patzig"
+ GEA_ernst_von_weizsacker: "Ernst von Weizsäcker"
+ GEA_thomas_tian: "Thomas Tian"
+ GEA_siegfried_graff: "Siegfried Gräff"
+ GEA_paul_schneider: "Paul Schneider"
+ GEA_ernst_boerschmann: "Ernst Boerschmann"
+ GEA_rudolph_kaulla: "Rudolph Kaulla"
+ GEA_julius_dorpmuller: "Julius Dorpmuller"
+ GEA_wilhelm_henningsen: "Wilhelm Henningsen"
+ GEA_arno_spindler: "Arno Spindler"
+ GEA_adolf_ahrens: "Adolf Ahrens"
+ GEA_paul_kuhlo: "Paul Kuhlo"
+ GEA_hans_klein: "Hans Klein"
+ GEA_gunther_plueschow: "Gunther Plüschow"
+ GEA_thilo_von_seebach: "Thilo von Seebach"
+ GEA_theodor_wendorff: "Theodor Wendorff"

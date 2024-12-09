@@ -1,0 +1,641 @@
+﻿l_german:
+###  Übersetzt von Proho  ###
+ ethiopian_focus: "Schwerpunktbaum Äthiopien"
+
+### Parties ###
+ ETH_totalist_party: "YITMK"
+ ETH_totalist_party_long: "Ye Ityopia T'ek'ilayi Mīnīsitiri Konifīsheri (Äthiopische Premie Minister Confiserie)"
+ ETH_syndicalist_party: "MEMN"
+ ETH_syndicalist_party_long: "Mela Ethiopia Mahiberati Niqinaqē(All Äthopische Koperations Bewegung)"
+ ETH_radical_socialist_party: "YISP"
+ ETH_radical_socialist_party_long: "Ye Ityopia Serategnoch Parti (Äthopische Arbeiterpartei)"
+ ETH_social_democrat_party: "YHADIG"
+ ETH_social_democrat_party_long: "Ye'ītiyop'iya Hizibochi Abiyotawī Dīmokirasīyawī Ginibari"
+ ETH_social_liberal_party: "KLIL"
+ ETH_social_liberal_party_long: "K'inijiti Le'ānidineti Ina Ledēmokirasī"
+ ETH_market_liberal_party: "YYDH"
+ ETH_market_liberal_party_long: "Yetebaberuti Ye'ītiyop'iya Dēmokirasīyawī Hayilochi(Yetebaberuti Äthopische Demokratische Hayilochi)"
+ ETH_social_conservative_party: "DL"
+ ETH_social_conservative_party_long: "Dīmokirasīyawī Līgi (Demokratische Liga)"
+ ETH_authoritarian_democrat_party: "YTT"
+ ETH_authoritarian_democrat_party_long: "Yeselomoni Tamanyi Tamanyochi"
+ ETH_paternal_autocrat_party: "YK"
+ ETH_paternal_autocrat_party_long: "Yemeka'ānichi Kawinisili"
+ ETH_national_populist_party: "YM"
+ ETH_national_populist_party_long: "Yepopilaniti Mekoninochi (Yepopilaniti Höflinge)"
+
+### Tooltips ###
+ ETH_People_cons: "Eine Volksverfassung wurde angenommen"
+ ETH_Sellasie_cons: "Eine Reichsverfassung wurde angenommen"
+ ETH_Noble_cons: "Eine Eine Adelsverfassung wurde angenommen"
+ ETH_public_rail: "Die DKAEB befindet sich im Besitz des äthiopischen Staates"
+ ETH_private_rail: "Die DKAEB ist im Besitz von internationalen Unternehmen"
+ ETH_mittelafrika_rail: "Die DKAEB ist Eigentum von Mittelafrika"
+ ETH_mantetsu_rail: "Die DKAEB ist im Besitz von Mantetsu"
+ ETH_DKAEB_maybe_RIP: "Die §YDKAEB-Eisenbahn§! gibt derzeit deutschen Gütern Vorrang vor unseren eigenen Interessen. Dieser Staat-Modifikator verringert die lokale Versorgung um §R10%§!, die Geschwindigkeit der Divisionen um §R10%§! und §Rdeaktiviert§! strategische Verlegungen.\n"
+ ETH_upgrade_DKAEB_tooltip: "Der Modifikator §YDKAEB Eisenbahn§! wird aufgewertet und erhöht die lokale Versorgung um §G15%§!, die Geschwindigkeit der Division um §G15%§! und §Gaktiviert§! die strategische Verlagerung.\n"
+ ETH_german_aligned: "Unsere Nation hat sich an das Deutsche Reich gebunden."
+ ETH_japanese_aligned: "Unsere Nation hat Japan ein Angebot gemacht."
+ ETH_Haile_Reforms: "Haile Selassie hat seine Reformen begonnen"
+ ETH_Constitucion_tt: "Wir werden §Eine neue Verfassung§! auf der Grundlage der bisher beschlossenen Reformen schaffen."
+ ETH_Eritrea_tt: "§RWenn Eritrea bis zum Eintritt in den Konflikt nicht richtig integriert ist, sollten wir nicht erwarten, dass es loyal bleibt!§!\n"
+ ETH_flag_change_ETE_tt: "§GEine neue Flagge soll diesen bedeutenden Anlass feiern!§!\n"
+ ETH_pro_GER: "§HWir werden die Beziehungen zu den Deutschen aufrechterhalten.§!"
+ ETH_not_pro_GER: "§HWir werden einen anderen Weg als die Deutschen nehmen.§!"
+
+### Opinion Modifiers ###
+ ETH_military_mission: "Ausländische Militärmission"
+
+### Companies ###
+ ethiopian_electric_power: "Äthiopisch Electric Power Corporation"
+ university_college_addis_ababa: "University College of Addis Ababa"
+ addis_ababa_arsenal: "Addis Ababa Arsenal"
+ eth_state_artillery_factory: "State Artillery Factory"
+ ethiopia_railway_company: "Imperial Railway Company of Ethiopia"
+ addis_ababa_aircraft: "Addis Ababa Aircraft Workshop"
+ massawa_naval_yard: "Massawa Naval Yard"
+
+### Ideas ###
+ ETH_Debt_idea_1: "Lähmende Schulden"
+ ETH_Debt_idea_1_desc: "Unsere Verschuldung hat eine kritische Höhe erreicht und lastet wie eine schwere Bürde auf den Schultern des Staates. Die Menschen haben begonnen, die Unabhängigkeit Äthiopiens in Frage zu stellen, weil unsere Schulden uns so sehr binden."
+ ETH_Debt_idea_2: "Monumentale Schulden"
+ 
+ ETH_Debt_idea_2_desc: "Trotz unserer hohen Verschuldung, die uns daran hindert, große Projekte in Angriff zu nehmen, ist es uns gelungen, die Belastung für den Staat zu verringern."
+ 
+ ETH_Debt_idea_3: "Immense Schulden"
+ ETH_Debt_idea_3_desc: "Trotz unserer enormen Verschuldung, die uns daran gehindert hat, mehrere Maßnahmen zu ergreifen, ist es uns gelungen, diese dank unserer Bemühungen um das Schuldenmanagement erheblich zu verringern."
+ 
+ ETH_Debt_idea_4: "Handelbare Schulden" 
+ ETH_Debt_idea_4_desc: "Unsere Schulden sind zwar nach wie vor hoch, aber ziemlich überschaubar und nicht mehr so einschränkend."
+ 
+ ETH_Debt_idea_5: "Überschaubare Schulden"
+ ETH_Debt_idea_5_desc: "Der Status unserer Schulden wurde auf den eines Ärgernisses reduziert. Aber sie stören uns immer noch und hindern uns daran, zukünftige Ziele zu erreichen."
+ 
+ ETH_military_focus: "Erhöhter Militärhaushalt"
+ ETH_military_Focus_desc: "Wir haben beschlossen, unsere Haushaltsmittel in erster Linie auf Militärausgaben zu konzentrieren."
+ 
+ ETH_production_focus: "Erhöhter Produktionshaushalt"
+ ETH_production_focus_desc: "Wir haben beschlossen, unsere Haushaltsmittel in erster Linie für die Produktion und den Ausbau der Industrie einzusetzen."
+ 
+ ETH_construction_focus: "Erhöhter Baubhaushalt"
+ ETH_construction_focus_desc: "Wir haben beschlossen, unsere Haushaltsmittel in erster Linie auf die Verbesserung der Infrastruktur und unserer Baukapazität zu konzentrieren."
+ 
+ ETH_advisors_germany: "Deutsche Militärberater"
+ ETH_advisors_germany_desc: "Unsere Offiziere arbeiten eng mit dem Deutschen Militärberater zusammen, um unsere Streitkräfte zu modernisieren und besser zu disziplinieren."
+ 
+ ETH_advisors_japan: "Japanische Militärberater"
+ ETH_advisors_japan_desc: "Unsere Offiziere arbeiten eng mit Japanischen Militärberatern zusammen, um bei der Modernisierung und besseren Disziplinierung unserer Streitkräfte zu helfen."
+
+ ETH_Food: "Surplus of Food"
+ ETH_Food_desc: "Da das Problem der Hungersnot nun gelöst ist, wird mittelfristig mit einem Wachstum unserer Bevölkerung und Wirtschaft gerechnet."
+ 
+ ETH_Scouts: "Äthiopischer Pfadfinderverband"
+ ETH_Scouts_desc: "Die Jugend unserer Nation, die jetzt in Scharen der ESA beitritt, hat sowohl edle als auch bewundernswerte Ziele und wird darauf hinarbeiten, geschätzte und geehrte Bürger des Imperiums zu werden."
+ 
+ ETH_Slavery_idea: "Sklaverei"
+ ETH_Slavery_idea_desc: "Die Sklaverei ist in Äthiopien eine weit verbreitete Praxis. Trotz der zumeist symbolischen Bemühungen der früheren Kaiser nach Menelik II. gibt es weiterhin Sklaverei und Nachkommen von Sklaven, die trotz harter Arbeit keinen Lohn für ihre Mühen erhalten. Diese Institution ist nicht nur ineffizient, sondern auch eine große Schande für Äthiopien, da die Praxis der Sklaverei als unpassend für jede zivilisierte Nation angesehen wird."
+ 
+ ETH_Land_Reform_idea: "Land Einkommen" 
+ ETH_Land_Reform_idea_desc: "Wir nutzen unsere Flächen jetzt viel effizienter und bewirtschaften sie mit modernen Methoden. Das hat sich stark auf unsere landwirtschaftliche Produktion ausgewirkt."
+ 
+ ETH_Aristocratic_Army: "Aristokratisches Militär"
+ ETH_Aristocratic_Army_desc: "Die Positionen in unseren Streitkräften werden durch die Geburt bestimmt, und alle Spitzenpositionen werden von Männern besetzt, die von edlem Geblüt, aber, wie man im Weltkrieg gesehen hat, von fragwürdiger Kompetenz sind."
+ 
+ ETH_Speech_Freedom: "Die Redefreiheit"
+ ETH_Speech_Freedom_desc: "Wir verfügen jetzt über Gesetze, die das Recht der Völker auf die Redefreiheit schützen. Darüber hinaus verfügen wir auch über den politischen Willen, diese neuen Gesetze durchzusetzen."
+ 
+ ETH_Ethiopian_Prosperity: "Äthiopischer Wohlstand"
+ ETH_Ethiopian_Prosperity_desc: "Armut hindert unsere Bürgerinnen und Bürger daran, potenziellen materiellen Gewinn und Wohlstand zu erfahren. Wir müssen auch die ärmsten unserer Untertanen schützen, um sicherzustellen, dass jeder einzelne von ihnen eine optimistische Zukunft haben kann."
+ 
+ ETH_Lion_of_Judah_idea: "Reich des Löwen"
+ ETH_Lion_of_Judah_idea_desc: "Der Löwe von Juda ist mehr als nur ein dynastisches Symbol. Er steht für all die Schwierigkeiten und Herausforderungen, die Äthiopien, die einzige Nation, die den Kolonialismus überlebt und sogar gegen die Kolonisatoren triumphiert hat, überwunden hat. In unserer tausendjährigen Geschichte hat sich das Reich immer wieder behauptet, seit die Erben Salomos zum ersten Mal ihren Fuß hierher gesetzt haben."
+ 
+ ETH_Imperial_Inspiration: "Kaiserliche Inspiration"
+ ETH_Imperial_Inspiration_desc: "Unser Kaiser ist ein Mann, der selbst überlebensgroß ist. Einem Ausländer mag er als Persönlichkeit sanftmütig und von kleiner Statur erscheinen. Doch wenn er spricht, hören alle zu. Er hat von Zewditu ein zerrüttetes und bankrottes Reich geerbt, und jeder kann sehen, aber nur wenige verstehen, für welche Größe er wirklich steht."
+ 
+ ETH_Fringe_Integration: "Integration von Randgruppen"
+ ETH_Fringe_Integration_desc: "Seit wir die Gleichheit vor dem Gesetz verkündet haben, haben sich unsere Beziehungen zu den Menschen außerhalb der Amhara-Gesellschaft und -Kultur erheblich verbessert. Obwohl sie sich immer noch über die Dominanz der Beamten und der Kultur des Nordens ärgern mögen, sind sie eher bereit, zumindest die nominelle Autorität der kaiserlichen Beamten und der Regierung zu akzeptieren."
+ 
+ ETH_Trained_Pilots: "Geschulte Piloten"
+ ETH_Trained_Pilots_desc: "In Addis Abeba wurde eine Pilotschule eröffnet, die von ausländischen Beratern geleitet wird."
+ 
+ ETH_Anti_Imp: "Anti-imperialistischer Geist"
+ ETH_Anti_Imp_desc: "Diejenigen, die versuchen, uns zu erobern, unterschätzen uns ständig. Von Wofla bis Adwa versuchen neidische Aasgeier, unseren Geist zu brechen und das freie Volk Äthiopiens zu unterjochen. Niemals werden sie Erfolg haben!"
+ 
+ ETH_Ethiopian_Guns_idea: "Äthiopische Waffen"
+ ETH_Ethiopian_Guns_idea_desc: "Indem wir auf ausländisches Fachwissen zurückgreifen und unsere Entwürfe auf externe Pläne stützen, können wir sicherstellen, dass die in Äthiopien hergestellten Waffen, die von Äthiopiern für Äthiopier hergestellt werden, von höchstem Kaliber sind und dennoch preiswert bleiben."
+ 
+ ETH_Levy_Army: "Landwehrheer"
+ ETH_Levy_Army_desc: "Im Gegensatz zu den Mächten der Neuzeit verfügt Äthiopien nicht über eine einheitliche und organisierte Armee. Die "Armee" Äthiopiens gehört in Wirklichkeit einzelnen Fürsten, deren Männer ihnen und nur ihnen gegenüber loyal sind."
+
+### Focuses ###
+ ETH_Nationalised_Railroad: "Nationalisierte Eisenbahn"
+ ETH_Nationalised_Railroad_desc: "Wir haben jetzt unsere Eisenbahnen verstaatlicht und damit sichergestellt, dass sie Eigentum des Reiches sind. Wir werden uns gut um sie kümmern und dafür sorgen, dass der Transport von Waren und Truppen schnell und effizient verläuft."
+ 
+ ETH_Privatised_Railroad: "Privatisierte Eisenbahn"
+ ETH_Privatised_Railroad_desc: "Wir werden es zulassen, dass die Eisenbahnen in deutschem Besitz mit deutschem Personal weiter betrieben werden, aber wir werden sie ständig überwachen und sicherstellen, dass ihre Qualität auf höchstem Niveau bleibt."
+ 
+ ETH_Expand_Railroad: "Ausbau der Eisenbahn"
+ ETH_Expand_Railroad_desc: "Der Ausbau des derzeitigen Eisenbahnsystems ist für den langfristigen Nutzen unserer Nation von entscheidender Bedeutung. Kommunikationswege, die Verteilung von Gütern und die Verlegung von Truppen sind alle gleichermaßen wichtig und tragen zum Wohlstand unserer Nation bei. Glücklicherweise ist sich der Kaiser der Bedeutung des Verkehrs bewusst."
+ 
+ ETH_Southern_Expansion: "Erweiterung der Südlichen Eisenbahn"
+ ETH_Southern_Expansion_desc: "Der nächste Schritt unseres Eisenbahnausbauplans ist die Anbindung der südlichsten Regionen des Reiches an die übrige Infrastruktur und hoffentlich auch an den Rest des Landes."
+ 
+ ETH_Expand_Into_Eritrea: "Ausbau der Eisenbahn nach Eritrea"
+ ETH_Expand_Into_Eritrea_desc: "Der nächste Schritt unseres Eisenbahnausbauplans besteht darin, die einzige Küstenregion des Reiches, Eritrea, mit dem Rest des Landes zu verbinden, den Wohlstand der dort lebenden Menschen zu verbessern und die Warenströme in der Region besser zu steuern."
+ 
+ ETH_Speak_Amharic: "Bringen Sie sie dazu, Amharisch zu sprechen"
+ ETH_Speak_Amharic_desc: "Während in der Vergangenheit jede Provinz und Region als eigenständige Einheit agieren konnte, ist diese Zeit längst vorbei, und wenn man heute weit entfernten Regionen erlaubt, nach ihren eigenen Regeln zu agieren, fördert man nur die Gefahr der Abspaltung und letztlich des Zerfalls des gesamten Reiches. Da Eritrea fest unter der Kontrolle des Kaisers steht, werden wir die Verwendung der amharischen Sprache in offiziellen Angelegenheiten durchsetzen und ihre Verwendung im Handel und im öffentlichen Leben fördern."
+ 
+ ETH_Tribe_Integration: "Integration der Stämme"
+ ETH_Tribe_Integration_desc: "Wir können die eritreische Führung auf unsere Seite ziehen... wenn wir ihr erhebliche Anreize bieten."
+ 
+ ETH_Officer_Integration: "Integration von Beamten"
+ ETH_Officer_Integration_desc: "Viele unserer altgedienten Kämpfer hatten nach der Befreiung unter den Italienern und andere unter privaten Milizen gedient. Wir sollten dieselben Grundsätze wie damals anwenden und Maßnahmen ergreifen, um die eritreischen Streitkräfte nahtlos in das äthiopische Militär zu integrieren."
+ 
+ ETH_Construct_Naval_Base: "Marinestützpunkt Massawa"
+ ETH_Construct_Naval_Base_desc: "Wir werden keine Kosten scheuen, um in Massawa einen Hafen zu errichten, der so großartig sein wird, dass er die heutigen Seereiche in den Schatten stellt, denn er wird die wahre Seestärke des Reiches demonstrieren!"
+ 
+ ETH_Integration_Of_Eritrea: "Integration von Eritrea"
+ ETH_Integration_Of_Eritrea_desc: "Zwanzig Jahre später haben sich die Unruhen in Eritrea fast gelegt, und die Menschen in der Region beginnen, eine optimistische Sicht auf das Reich zu entwickeln. Es scheint, dass in naher Zukunft die potenziellen Unruhen abnehmen werden."
+ 
+ ETH_Develop_Eritrea: "Eritrea entwickeln"
+ ETH_Develop_Eritrea_desc: "Im Gegensatz zu den italienischen Imperialisten, die nur selten in Eritrea investiert haben, werden wir als Zeichen des guten Willens umfangreiche Investitionen in der Region tätigen."
+ 
+ ETH_Invest_In_Industry: "In die Industrie investieren"
+ ETH_Invest_In_Industry_desc: "Die Industrialisierung ist der einzige Weg nach vorn. Wir können uns dieser wichtigen Politik nicht entziehen, da das Reich mehr Fabriken benötigt, um seine Produktion zu steigern."
+ 
+ ETH_Legal_Equality: "Gleichheit vor dem Gesetz"
+ ETH_Legal_Equality_desc: "Ein großer Teil der Randgebiete Äthiopiens wird von Menschen bewohnt, die seit langem mit dem Amhara-Volk und seiner Kultur, die den äthiopischen Staat dominieren, rivalisieren und unzufrieden sind. Indem wir dafür sorgen, dass diese Menschen vor dem Gesetz zumindest nominell mit allen Amhara gleichgestellt sind, können wir viel Wohlwollen gewinnen und ihre Integration in den Rest des Landes erleichtern."
+ 
+ ETH_Southern_Industrial_Expansion: "Südliche industrielle Expansion"
+ ETH_Southern_Industrial_Expansion_desc: "Wir werden unser Industrialisierungsprogramm ausweiten und neue Fabriken im südlichen Teil unseres Landes errichten. Auf diese Weise werden die Gewinne und Arbeitsplätze in diesem Wirtschaftssektor besser verteilt, was sowohl die Produktivität als auch den Gewinn steigert."
+ 
+ ETH_Military_On_The_DKAEB: "Äthiopisches Militär auf der DKAEB"
+ ETH_Military_On_The_DKAEB_desc: "Wir müssen von unseren deutschen Partnern verlangen, dass unsere Truppen auf der DKAEB-Eisenbahnstrecke in unseren Ländern Vorrang erhalten. Andernfalls werden wir durch die Bevorzugung der deutschen Truppen auf der Bahnstrecke in die Enge getrieben."
+ 
+ ETH_German_Investment: "Deutsche Investitionen"
+ ETH_German_Investment_desc: "Da wir unsere relative Stabilität und unerschütterliche Loyalität gegenüber Deutschland unter Beweis gestellt haben, könnten sie vielleicht damit beginnen, im Ausland, in Äthiopien, zu investieren, um die Auswirkungen des Schwarzen Montags zu bekämpfen und dabei zu einer besseren Entwicklung Äthiopiens beizutragen."
+ 
+ ETH_German_Aid: "German Aid"
+ ETH_German_Aid_desc: "Wir werden dafür sorgen, dass Deutschland die Hilfe, die wir ihm während des Weltkriegs geleistet haben, nicht vergisst. Deutsche Investoren, private und staatliche, werden dazu beitragen, Äthiopien zu Wohlstand zu verhelfen."
+ 
+ ETH_German_Military_Mission: "Deutsche Militärmission" 
+ ETH_German_Military_Mission_desc: "Da wir uns bereits an Deutschland gewandt haben, um Investitionen und Hilfe zu erhalten, wäre es auch in unserem besten Interesse, Militärberater anzufordern, um zu lernen, wie wir unsere Soldaten besser ausbilden, unsere Taktik verbessern und unsere Armee insgesamt modernisieren können."
+  
+ ETH_A_German_Partner: "Ein deutscher Partner"
+ ETH_A_German_Partner_desc: "Jetzt, da unsere Industrie boomt und unsere lokalen Feinde erledigt sind, ist es an der Zeit, uns der Welt zuzuwenden und vielleicht den Deutschen in diesem Weltkrieg zu helfen, wie wir es im letzten getan haben."
+
+ ETH_Japanese_Investment: "Japanische Investitionen"
+ ETH_Japanese_Investment_desc: "Vielleicht könnte Japan damit beginnen, in Äthiopien zu investieren, um die Auswirkungen des Schwarzen Montags zu bekämpfen und dabei zu einer besseren Entwicklung Äthiopiens beizutragen."
+
+ ETH_Japanese_Aid: "Japanische Hilfe"
+ ETH_Japanese_Aid_desc: "Japanische Investoren, private und staatliche, werden dazu beitragen, Äthiopien zu Wohlstand zu verhelfen."
+
+ ETH_Japanese_Military_Mission: "Japanische Militärmission"
+ ETH_Japanese_Military_Mission_desc: "Da wir uns bereits an Japan gewandt haben, um Investitionen und Hilfe zu erhalten, wäre es auch in unserem besten Interesse, Militärberater anzufordern, um zu lernen, wie wir unsere Soldaten besser ausbilden, unsere Taktik verbessern und unsere Armee insgesamt modernisieren können."
+
+ ETH_A_Japanese_Partner: "Ein Japanischer Partner"
+ ETH_A_Japanese_Partner_desc: "Jetzt, da unsere Branche boomt und die lokalen Feinde beseitigt sind, ist es an der Zeit, sich der Welt zuzuwenden."
+
+ ETH_Debt: "Umgang mit unseren Schulden"
+ ETH_Debt_desc: "Nach dem Ende des Weltkriegs war unsere Staatsverschuldung außer Kontrolle geraten und hat sich weiter erhöht. Die dringend notwendigen Reformen können erst dann durchgeführt werden, wenn das Problem der Schulden vollständig gelöst ist."
+ 
+ ETH_Tax_Church: "Besteuerung der Kirche"
+ ETH_Tax_Church_desc: "Leider müssen wir die Kirche besteuern, da das Reich die Mittel dringend benötigt, um seine Schulden zu begleichen."
+ 
+ ETH_Tax_Slaveowners: "Besteuerung Sklavenhalter"
+ ETH_Tax_Slaveowners_desc: "Eine große Mehrheit, wenn nicht sogar alle, der Sklavenhalter sind wohlhabend. Indem wir Sklaven besteuern, können wir den extrem wohlhabenden Bürgern unserer Nation mehr Reichtum entziehen. Auch wenn dies von einigen als umstritten angesehen werden mag, wird es ein großer Segen für unseren Haushalt sein."
+ 
+ ETH_Tax_Oromo: "Besteuerung der Oromo"
+ ETH_Tax_Oromo_desc: "Dem Volk der Oromo wurden viele Privilegien eingeräumt. Wir müssen diese Privilegien abschaffen, um die Gleichberechtigung innerhalb des Reiches zu fördern und unseren Haushalt und damit auch unsere Fähigkeit zur Schuldentilgung zu verbessern."
+ 
+ ETH_Tax_Eritrea: "Einführung von Steuern in Eritrea"
+ ETH_Tax_Eritrea_desc: "Wir hatten die Eritreer nach dem Ende des Weltkriegs befreit und ihnen besondere Privilegien innerhalb des Reiches gewährt. Doch die Zeit dafür ist vorbei, denn die meisten Eritreer sehen sich ohnehin als Äthiopier, und wenn sie sich wirklich unserer großen Nation für würdig halten, müssen sie anfangen, zum Wohlstand des Reiches beizutragen."
+ 
+ ETH_Budget: "Anpassung des Haushalts"
+ ETH_Budget_desc: "Dank der Haushaltsreform und -anpassung können wir endlich den nächsten Schritt des kaiserlichen Plans in Angriff nehmen: die Reformierung des Reiches.
+ 
+ ETH_Haile: "Selassie's Reformen"
+ ETH_Haile_desc: "Haile Selassie I. ist ein Reformer auf die bestmögliche Art und Weise. Er ist ein dynamischer Mann, der versteht, was nötig ist, um Äthiopien zu modernisieren und es aus der Vergangenheit herauszuholen, in der es viel zu lange feststeckte. Auch wenn der Weg der Modernisierung nicht einfach sein wird, sagt dies viel über den Charakter des Königs und seine Bereitschaft aus, seinem Land zu helfen."
+ 
+ ETH_Educate_Slaves: "Erziehung der Sklaven"
+ ETH_Educate_Slaves_desc: "Da die ehemaligen Sklaven nun frei sind, ist es klar, dass wir Maßnahmen ergreifen müssen, um sie angemessen in die äthiopische Gesellschaft zu integrieren. Dies fällt übrigens auch mit unseren Plänen zur Reform und zum Ausbau des Bildungssystems zusammen. Durch diese geplanten Reformen werden wir sicherstellen, dass die zukünftigen Köpfe Äthiopiens gut ausgebildet sind!"
+ 
+ ETH_Slavery_Question: "Die Frage der Sklaverei"
+ ETH_Slavery_Question_desc: "Sklaverei hat einfach keinen Platz in einer modernen Nation, geschweige denn in dem großen Reich, das Haile Selassie I. vorschwebte. Glücklicherweise hat die neu eingeführte Sklavenhaltersteuer dazu geführt, dass es billiger ist, Arbeiter anzuheuern als Sklaven zu besitzen, und so wird die Abschaffung der Sklaverei wahrscheinlich nicht auf großen Widerstand stoßen. Dennoch wird es ein gewaltiges Unterfangen sein, die sozialen und kulturellen Wunden zu heilen, die das unterdrückte Volk erlitten hat."
+ 
+ ETH_Agriculture_Initative: "Landwirtschaftliche Initiative"
+ ETH_Agriculture_Initative_desc: "Die Existenz eines organisierten und vor allem florierenden Agrarsektors ist für die Zukunft des Reiches von größter Bedeutung. Mit dem Wachstum Äthiopiens wächst auch die Bevölkerung und der Nahrungsmittelverbrauch. Um eine Überbeanspruchung unserer Produktionskapazitäten und Hungersnöte zu vermeiden, müssen wir mit umfassenden Agrarreformen beginnen."
+ 
+ ETH_Land_Reform: "Land Reform"
+ ETH_Land_Reform_desc: "Der Landbesitz in Äthiopien beruht immer noch auf einem archaischen System, bei dem die Menschen, die das Land besitzen, dies nur aufgrund ihrer großen Macht oder ihres Reichtums tun. Legaler Landbesitz ist unüblich, und das ist schon seit langem ein Problem. Es ist an der Zeit, dass wir mit der Reformierung des Landbesitzes und der Landverteilung beginnen und diese Gesetze aktiv durchsetzen."
+ 
+ ETH_Modernise_Bureaucracy: "Die Bürokratie modernisieren"
+ ETH_Modernise_Bureaucracy_desc: "Um unser Reich zu modernisieren, müssen wir das finstere Zeitalter der Zemene Mesafint hinter uns lassen und mit der Zentralisierung beginnen, um die Effizienz der Regierung und der Bürokratie zu steigern. Die erfolgreiche Umsetzung dieser neuen Ideen wird jedoch eine mühsame Aufgabe sein."
+ 
+ ETH_Tax_Question: "Die Frage der Besteuerung"
+ ETH_Tax_Question_desc: "Gegenwärtig haben wir kein offizielles Steuergesetzbuch. Um unser Land zu verwestlichen, ist eine Reform der Steuergesetzgebung von entscheidender Bedeutung. Wir haben derzeit mehrere Möglichkeiten: Erstens können wir das Volk unterstützen und eine Grundsteuer einführen, die in erster Linie die Wohlhabenden trifft, zweitens können wir auf unsere westlichen Berater hören und auf ein progressives Steuersystem drängen, und drittens können wir auf die Aristokraten hören und eine niedrige, flache Steuer einführen."
+ 
+ ETH_Permanent_Feudal_Borders: "Dauerhafte Feudale Grenzen"
+ ETH_Permanent_Feudal_Borders_desc: "Ordnung und Stabilität innerhalb des Reiches sind von größter Bedeutung. Wir müssen die Machtkämpfe zwischen den oberen Klassen entschlossen, aber behutsam beenden, damit sie sich nicht weiterhin gegenseitig an die Kehle gehen und die Stabilität des Reiches bedrohen."
+ 
+ ETH_Governorship_Question: "Die Frage des Gouverneursamtes"
+ ETH_Governorship_Question_desc: "Die Entscheidung, wer die verschiedenen Provinzen Äthiopiens regieren wird, ist eine äußerst wichtige Entscheidung mit weitreichenden Folgen. Wir haben also mehrere Möglichkeiten: Wir können dem Volk gestatten, die jeweiligen Gouverneure zu wählen, wir können dem Negus gestatten, Gouverneure zu ernennen, oder wir können der Oberschicht gestatten, ihr eigenes Land zu regieren."
+ 
+ ETH_Ethiopia_Scout_Association: "Äthiopischer Pfadfinderverband"
+ ETH_Ethiopia_Scout_Association_desc: "Die äthiopische Jugend muss ihre überschäumende Energie in bessere, produktivere Dinge investieren. Wie könnte man ihnen dabei besser helfen als durch die Gründung des Äthiopischen Pfadfinderverbandes, einer vom Staat geförderten Organisation, die jungen Männern in unserem Land hilft, das Reich zu verbessern."
+ 
+ ETH_Military_Question: "Die Frage des Militärs"
+ ETH_Military_Question_desc: "Gegenwärtig gehören die Offiziere in unserer Armee nur dem Adel an oder sind Mitglieder der Selassie-Familie, wobei einfachen Bürgern die Beförderung in die meisten hohen Positionen innerhalb des Militärs verwehrt wird, unabhängig von ihrer Kompetenz. Vielleicht könnten wir Bürgerlichen erlauben, als hochrangige Offiziere in der Armee zu dienen und sie aufgrund ihrer Verdienste und nicht aufgrund ihres Standes zu befördern."
+ 
+ ETH_Finish_The_Reforms: "Die Reformen abschließen"
+ ETH_Finish_The_Reforms_desc: "Wir haben die Reformation des Reiches endlich abgeschlossen, und es fehlt nur noch die Ratifizierung dieser Reformen durch die Schaffung einer Neuen Verfassung."
+ 
+ ETH_New_Constitucion: "Neue Verfassung"
+ ETH_New_Constitucion_desc: "Für das Reich wird eine Neue Verfassung verfasst werden, die die von uns bei ihrer Ausarbeitung vorgenommenen Reformen enthält und durchsetzt. Das Reich wird vorwärts gehen, jetzt stärker als je zuvor!"
+ 
+ ETH_People_Constitucion: "Der Sewochi's Negus"
+ ETH_People_Constitucion_desc: "Die Legitimität eines Herrschers ergibt sich aus der Unterstützung durch sein Volk. Haile Selassie I. wird der erste äthiopische Kaiser sein, der die Kontrolle über weite Teile des Staatsapparats an demokratisch gewählte Beamte abgibt. Die Stimme des einfachen Volkes und der Entrechteten soll gehört werden."
+ 
+ ETH_Freedom_Speech: "Die Redefreiheit"
+ ETH_Freedom_Speech_desc: "Die Menschen verdienen das Recht, das zu sagen, was sie wollen, unabhängig davon, ob wir mit ihnen übereinstimmen oder nicht, und der Staat sollte ihr Recht verteidigen, diese Dinge zu sagen. Durch Meinungsverschiedenheiten können wir als Nation neue Ideen hervorbringen und letztlich den Fortschritt fördern."
+ 
+ ETH_Freedom_Religion: "Religionsfreiheit"
+ ETH_Freedom_Religion_desc: "Äthiopien ist in seiner langen Geschichte die Heimat von Menschen vieler Religionen gewesen. Von den Juden im alten Axum bis zu den Muslimen in der ummauerten Stadt Harar sollen die Bürger Äthiopiens unabhängig von ihrer Religion friedlich und frei und gleichberechtigt mit allen leben."
+ 
+ ETH_Enrich_People: "Bereicherung der Menschen"
+ ETH_Enrich_People_desc: "Armut hindert unsere Bürgerinnen und Bürger daran, potenziellen materiellen Gewinn und Wohlstand zu erfahren. Wir müssen auch die ärmsten unserer Untertanen schützen, um sicherzustellen, dass jeder einzelne von ihnen eine optimistische Zukunft haben kann."
+ 
+ ETH_Elections: "Wahlen abhalten"
+ ETH_Elections_desc: "In Äthiopien werden zum ersten Mal freie und demokratische Wahlen abgehalten. Die politischen Parteien beginnen sich zu sammeln, die Menschen bereiten sich auf die Wahlen vor, und viele sind gespannt auf das, was vor ihnen liegt, während andere ängstlich sind. Wer wird der erste Premierminister sein, der von Seiner Majestät selbst ernannt wird?"
+ 
+ ETH_Emperor_Constitucion: "Der Negusa Nagast"
+ ETH_Emperor_Constitucion_desc: "Wir haben schon viel zu lange zugelassen, dass Männer von minderem Charakter und geringerem Status die natürliche Entwicklung Äthiopiens behindern. Wir werden Maßnahmen ergreifen müssen, um das Reich so umzugestalten, dass der Negus rechtmäßig eine Position der Macht und Autorität einnehmen kann."
+ 
+ ETH_Revered_Emperor: "Verehrter Kaiser"
+ ETH_Revered_Emperor_desc: "Die Bürger Äthiopiens dürfen nicht vergessen, dass Seine Majestät, Halie Selassie I., dem reformierten Reich Äthiopien Frieden, Stabilität, Freiheit und Gerechtigkeit gebracht hat."
+ 
+ ETH_Control_Church: "Kontrolle der Kirche"
+ ETH_Control_Church_desc: "Diejenigen, die treu sind, brauchen eine angemessene Führung. Nicht von denen, die irdische Macht oder materiellen Besitz anstreben, sondern von denen, die dafür sorgen, dass Frieden und Stabilität im Reich durch die gesegnete Herrschaft des Königs der Könige aufrechterhalten werden."
+ 
+ ETH_Royal_Advisors: "Königliche Berater"
+ ETH_Royal_Advisors_desc: "Nur diejenigen, die enge und qualifizierte Berater des Kaisers sind, sollen ein Mitspracherecht bei der Führung des Reiches Seiner Majestät haben. Auf diese Weise können wir eine effiziente Verwaltung und eine gute Führung sicherstellen."
+ 
+ ETH_Lion_Of_Judah: "Löwe von Juda"
+ ETH_Lion_Of_Judah_desc: "Seine Majestät Selassie, der aus dem Gefolge stammt, das die Königin von Saba in ihre Heimat eskortiert hatte, ist die Verkörperung des Symbols des mächtigen Löwen und der 225ste König nach König David. Als größter aller irdischen Herren hat Seine Majestät ein Vermächtnis hinterlassen, das so großartig ist, dass es sogar seine gewaltigen Bemühungen um den Ruhm Äthiopiens überstrahlt."
+ 
+ ETH_Noble_Constitucion: "Der Mekwanint's Negus"
+ ETH_Noble_Constitucion_desc: "Die edlen Herren und Damen von Äthiopien haben es geschafft, das Reich seit Jahrtausenden zusammenzuhalten und werden dies auch weiterhin tun! Sorgen wie der Haushalt und die Verwaltung des Militärs sind zu unbedeutend, um den mächtigen König der Könige zu beunruhigen. Stattdessen sollen sich seine Vasallen an seiner Stelle um diese Angelegenheiten kümmern."
+ 
+ ETH_Noble_Investment: "Adlige Investitionen"
+ ETH_Noble_Investment_desc: "Wir werden dafür sorgen, dass Äthiopien alles erwirbt, was es für notwendig hält, und zwar mit allen erforderlichen Mitteln. Egal, was es kostet und mit wem wir zu tun haben werden, um diese Notwendigkeiten zu erwerben."
+ 
+ ETH_Power_Of_Tradition: "Macht der Tradition"
+ ETH_Power_Of_Tradition_desc: "Adlige sind nicht aufgrund ihres Blutes oder ihrer Vorfahren von so hohem Rang, sondern weil sie von Geburt an geschult wurden, um ihre Fähigkeiten als Verwalter, Soldaten oder Geschäftsleute zu erhalten und zu verbessern. Warum sollte man ein System ändern, das seit Jahrtausenden funktioniert hat und auch weiterhin funktionieren wird?"
+ 
+ ETH_Noble_Armies: "Mekwanint Armeen"
+ ETH_Noble_Armies_desc: "Unsere Armeen verfügen über Männer, die von Geburt an dazu ausgebildet wurden, unsere Truppen wirksam und entschlossen zu führen. Darüber hinaus ist mit der jüngsten Anschaffung geeigneter Ausrüstung und einer besseren Ausbildung unserer Fußsoldaten der Sieg gegen jeden Feind nur eine natürliche Folge."
+ 
+ ETH_Power_Council: "Befugnisse des Rates"
+ ETH_Power_Council_desc: "Es ist an der Zeit, dass ein Rat, der sich aus Adligen zusammensetzt, Selassies Schergen die volle Regierungsgewalt entreißt. Von nun an wird Selassie als König unter Königen regieren und eine schwache Galionsfigur bleiben, hinter der sich der Rat bei Bedarf versammeln kann."
+ 
+ ETH_Military_Reforms: "Militärreformen"
+ ETH_Military_Reforms_desc: "Die Leistung unseres Militärs während des Weltkrieges war leider sehr schlecht. Wir werden die Gründe dafür untersuchen und eine geeignete Lösung finden, damit wir unser Territorium in Ogaden zurückfordern und zurückerobern können, das uns laut Vertrag und Gesetz zusteht."
+ 
+ ETH_Hire_Askari_Veterans: "Askari-Veteranen anheuern"
+ ETH_Hire_Askari_Veterans_desc: "Viele der Askari-Veteranen in Mittelafrika sind des Garnisonsdienstes überdrüssig, da sie ständig auf der Suche nach unsichtbaren Feinden patrouillieren. Wir werden sie hierher bringen, wo ihre Fähigkeiten und Erfahrungen richtig genutzt werden können."
+ 
+ ETH_New_Arms_Production: "Produktion neuer Waffen"
+ ETH_New_Arms_Production_desc: "Wir müssen unsere Anstrengungen verstärken, um unsere Armee besser auszurüsten, denn nach Ansicht der Askari sind unsere Handfeuerwaffen besser für die Sammlung eines Jägers geeignet als für das Arsenal einer Armee."
+ 
+ ETH_Import_Small_Arms: "Import von Kleinwaffen"
+ ETH_Import_Small_Arms_desc: "Der schlechte Zustand und die schlechte Qualität unserer Handfeuerwaffen kann jedoch mit etwas Mühe durch Produktfunktionsuntersuchung ausländischer Modelle verbessert werden. Das Problem ist jedoch der Kauf dieser Waffen."
+ 
+ ETH_Artillery_Effort: "Artillerie Bemühungen"
+ ETH_Artillery_Effort_desc: "Wie der Weltkrieg uns und dem Rest der Welt gezeigt hat, ist die Artillerie ein äußerst wichtiger Bestandteil der modernen Kriegsführung. Dennoch waren wir nie in der Lage, diese großkalibrigen Geschütze zu beherrschen. Zum Glück wissen unsere ausländischen Berater, wie man diese Geschütze konstruiert und bedient."
+ 
+ ETH_Buy_Tanks: "Panzerdesigns kaufen"
+ ETH_Buy_Tanks_desc: "Panzer und andere mechanisierte Fahrzeuge mögen zwar für das Hochland von Gondar ungeeignet sein, in den flachen Ebenen von Ogaden können sie jedoch den Unterschied ausmachen und über Sieg oder Niederlage entscheiden."
+ 
+ ETH_Foreign_Doctrine: "Ausländische Doktrin"
+ ETH_Foreign_Doctrine_desc: "Das militärische Oberkommando ist zu einem einstimmigen Schluss gekommen: Eine Welle von Milizionären auf den Feind zu hetzen, ist vielleicht nicht die beste Vorgehensweise. Vielleicht wäre es am besten, unsere ausländischen Offiziere/Berater zu fragen, was die beste Vorgehensweise wäre? Edle Offiziere können schließlich ziemlich stur sein..."
+ 
+ ETH_Improve_Firepower: "Verbesserung der Feuerkraft"
+ ETH_Improve_Firepower_desc: "Der Sieg wird durch den Einsatz umfassender Feuerkraft errungen werden! Unsere Feinde werden von der Macht und der Reichweite unserer Geschütze zertrampelt werden! Wir werden Maßnahmen ergreifen, um diese Geschütze besser zu nutzen, um ein Maximum an Effizienz zu erreichen."
+ 
+ ETH_Modernise_High_Command: "Oberkommando modernisieren"
+ ETH_Modernise_High_Command_desc: "Vielleicht sollten wir unsere Militärdoktrin verfeinern und statt den Feind mit roher Gewalt anzugreifen, sollten wir Männer auswählen, die geduldig, ordentlich und geschickt sind, um unsere Armee zu planen und zu führen."
+ 
+ ETH_Legacy_Of_Adowa: "Vermächtnis von Adowa"
+ ETH_Legacy_Of_Adowa_desc: "Wir können und werden uns niemals auf Ausländer verlassen, um den Sieg zu erringen. Die Menschen in der Welt haben die Macht des Sieges von Adwa schon viel zu lange vergessen. Ganz Afrika wird uns als das sehen, was wir wirklich sind; der mächtige Löwe!"
+ 
+ ETH_Ethiopian_Guns: "Äthiopische Waffen"
+ ETH_Ethiopian_Guns_desc: "Indem wir auf ausländisches Fachwissen zurückgreifen und unsere Entwürfe auf externe Pläne stützen, können wir sicherstellen, dass die in Äthiopien hergestellten Waffen, die von Äthiopiern für Äthiopier hergestellt werden, von höchstem Kaliber sind und dennoch preiswert bleiben."
+ 
+ ETH_Special_Equipment: "Spezielle Ausrüstung"
+ ETH_Special_Equipment_desc: "Es ist wichtig, dass unseren tapferen Männern alles zur Verfügung steht, um sie im ständigen Kampf um die Unabhängigkeit und den Sieg des Reiches zu unterstützen."
+ 
+ ETH_Anti_Imperialist_Spirit: "Anti-imperialistischer Geist"
+ ETH_Anti_Imperialist_Spirit_desc: "Diejenigen, die versuchen, uns zu erobern, unterschätzen ständig unseren Geist und unsere Entschlossenheit. Von Wofla bis Adwa versuchen neidische und skrupellose Geier, unseren Geist zu brechen und das äthiopische Volk zu unterjochen. Solange unser Geist weiterlebt, werden sie niemals Erfolg haben!"
+ 
+ ETH_Improve_Drilling: "Ausbildung verbessern"
+ ETH_Improve_Drilling_desc: "Wir werden den Verstand schärfen, die Beine ermüden, die Arme trainieren und durch unerbittlichen Drill diese zerlumpten Leute, die wir 'Soldaten' nennen, zu ordentlichen und kräftigen Kämpfern formen!"
+ 
+ ETH_Trust_Officers: "Vertrauen Sie unseren Beamten"
+ ETH_Trust_Officers_desc: "Es ist von entscheidender Bedeutung, dass unsere Offiziere auf dem Schlachtfeld über ein größeres Maß an Autonomie verfügen, damit sie sich an die sich ständig verändernde Landschaft des modernen Krieges anpassen können."
+ 
+ ETH_Develop_Weapons: "Waffenentwicklung"
+ ETH_Develop_Weapons_desc: "Wir sollten nicht nur fortschrittliche Techniken kopieren, sondern auch dafür sorgen, dass unsere Waffen innerhalb des Reiches für die Männer des Reiches entwickelt und gebaut werden."
+ 
+ ETH_Professional_Army: "Berufsarmee"
+ ETH_Professional_Army_desc: "Es ist uns gelungen, die Schwächen unserer Armee zu überwinden und sie in vorteilhafte Erfolge umzuwandeln. Unsere Armee, die einst eine Masse von Wehrpflichtigen war, ist nun zu einer wirklich ordentlichen und organisierten Kampftruppe geworden. Wir können uns nun auf unsere Friedensangelegenheiten konzentrieren, da wir im Falle eines Krieges wirklich vorbereitet sind."
+ 
+ ETH_Doctrine_I: "Marineplanungsanstrengung"
+ ETH_Doctrine_I_desc: "Das Verständnis von Seetaktik ist weit mehr als das bloße Steuern eines Schiffes in feindliche Gewässer. Missionen und Einsatzhierarchie sind wesentliche Bestandteile jeder Marinedoktrin. Zum Glück ist unsere Marine aufgrund ihres jungen Alters flexibel und in der Lage, sich an jede Art von Veränderung anzupassen."
+ 
+ ETH_Submarine_Effort: "U-Boot-Bemühungen"
+ ETH_Submarine_Effort_desc: "Aufgrund der strategischen Lage unserer Häfen in der Nähe des Golfs von Aden ist es wichtig, dass wir in U-Boot-Technologie investieren, um die feindlichen Schifffahrtswege zu zerstören und ihnen so den dringend benötigten Nachschub zu entziehen."
+ 
+ ETH_Submarine_Doctrine: "U-Boot-Doktrin"
+ ETH_Submarine_Doctrine_desc: "Es wird eine große Blockade des Roten Meeres geplant, damit wir die Schifffahrtswege in diesem Gebiet besser kontrollieren können. Keinem Konvoi soll die Durchfahrt gestattet werden, es sei denn, wir halten dies für angebracht."
+ 
+ ETH_Destroyer: "Zerstörer Bemühungen"
+ ETH_Destroyer_desc: "Es ist von entscheidender Bedeutung, dass unsere Konvois vor feindlichen Angriffen sicher sind. Aus diesem Grund ist die Einrichtung von Patrouillen mit U-Boot-Abwehrschiffen, die regelmäßig Wache halten werden, angebracht."
+ 
+ ETH_Cruiser: "Kreuzer Bemühungen"
+ ETH_Cruiser_desc: "Die Marine wird mehr Tonnage benötigen, wenn wir die volle Kontrolle über das Horn von Afrika erlangen wollen. Kreuzer werden für diese Bemühungen von entscheidender Bedeutung sein, insbesondere wenn die Prognosen über die somalische Seemacht zutreffen."
+ 
+ ETH_Doctrine_II: "Reform der Marinedoktrin"
+ ETH_Doctrine_II_desc: "Die Einrichtung einer geeigneten Schule für angehende Marineoffiziere ist für den Krieg auf See von größter Bedeutung. Da der Krieg immer näher rückt, müssen wir sicherstellen, dass unsere Offiziere bereit sind, sich anzupassen und die sich ständig ändernden Taktiken auf See zu meistern."
+ 
+ ETH_Dream_Sky: "Kontrolle des Himmels"
+ ETH_Dream_Sky_desc: "Die Kontrolle über den Luftraum ist in greifbarer Nähe, aber sie könnte uns bald entgleiten. In Addis Abeba wurde bekannt, dass Somalia den Kauf weiterer Flugzeuge plant, um seine Luftwaffe zu erweitern. Das Ziel dieser eklatanten Eskalation der Spannungen ist offensichtlich und darf nicht unbeantwortet bleiben!"
+ 
+ ETH_Hire_Experts: "Luftfahrtexperten anheuern"
+ ETH_Hire_Experts_desc: "Es ist klar, dass wir den Rat erfahrener ausländischer Experten benötigen, um wirklich die Kontrolle über den Himmel zu erlangen. Wenn wir uns die Fähigkeiten dieser Experten aneignen, können wir erst dann die vollständige Kontrolle über das Horn erlangen!"
+ 
+ ETH_Advanced_Doctrine: "Fortgeschrittene Doktrin"
+ ETH_Advanced_Doctrine_desc: "Die Planung von Lufteinsätzen ist eine ziemlich komplizierte Angelegenheit, da eine Vielzahl von Faktoren berücksichtigt werden muss. Das Wetter, die Entfernung und die Anzahl der feindlichen Kräfte müssen gleichermaßen berücksichtigt werden. Die meisten unserer Piloten sind jedoch entweder nicht qualifiziert oder nicht talentiert genug, um die Grundlagen der Planung von Lufteinsätzen zu verstehen. Sie zu schulen wäre die naheliegende Lösung für dieses Problem."
+ 
+ ETH_Train_Pilots: "Ausbildung unserer Piloten"
+ ETH_Train_Pilots_desc: "Der Besitz von Flugzeugen bedeutet wenig, wenn unsere Piloten nicht in der Lage sind, sie gekonnt und richtig zu fliegen. Die kaiserliche Luftwaffe kann eine Kraft werden, mit der man rechnen muss; wir müssen ihr jedoch die Aufmerksamkeit schenken, die sie verdient, bevor sie ein solches Niveau erreichen kann"
+ 
+ ETH_Skylions: "Löwen des Himmels"
+ ETH_Skylions_desc: "Die Ausbildung einer Gruppe von Männern, die zu den besten unserer Piloten gehören, wird stattfinden. Sie werden mit dem Herzen eines Löwen direkt vom Himmel in die Schlacht stürzen und dort zuschlagen, wo wir niemals hoffen könnten, sie zu erreichen und den Kampf zu gewinnen, den wir niemals zu gewinnen hoffen könnten!"
+ 
+ ETH_Harer_Airbase: "Der Luftwaffenstützpunkt Harer"
+ ETH_Harer_Airbase_desc: "Der bestehende Flugplatz in Harar soll ausgebaut werden, um sich auf den bevorstehenden Krieg gegen Somalia vorzubereiten. Das Oberkommando der Luftwaffe geht davon aus, dass unsere Flugzeuge nach dem Ausbau des Flugplatzes auch den entferntesten Punkt Somalias erreichen können."
+ 
+ ETH_Fighter_Focus: "Neue hochmoderne Luftflotten"
+ ETH_Fighter_Focus_desc: "Der Aufbau einer Flotte hochmoderner Kampfflugzeuge soll es ermöglichen, die Luftüberlegenheit über dem Horn von Afrika zu erlangen.\n\nAuch die Entwicklung neuer Bomber wird für unsere Kriegsanstrengungen von Vorteil sein. Feindliche Städte, Häfen und Nachschublinien werden in unserer Reichweite liegen.\n\nWir werden siegreich sein!"
+ 
+ ETH_Crush_Somalia: "Somalia vernichten"
+ ETH_Crush_Somalia_desc: "Ogaden gehört rechtmäßig uns, wie es der Vertrag zur Beendigung des Weltkrieges vorsieht. Die Schwäche der früheren Machthaber und die Unruhen innerhalb Eritreas haben uns jedoch daran gehindert, diesen Anspruch durchzusetzen. Da unser Feind, der verrückte Mullah, tot ist und Deutschland nicht mehr in der Lage ist, sich in afrikanische Angelegenheiten einzumischen, werden wir Somalia angreifen und das Land zurückfordern, das rechtmäßig zu Äthiopien gehört!"
+ 
+ ETH_Pacify_Ogaden: "Befriedung der Ogaden"
+ ETH_Pacify_Ogaden_desc: "Der einfachste Teil der Eroberung ist oft die Kontrolle über das Land selbst. Die Befriedung der Einheimischen und ihre Integration in die äthiopische Gesellschaft ist jedoch eine ganz andere Sache. Die Integration Ogadens in Äthiopien ist von größter Bedeutung, damit wir die Kontrolle über das Land und seine Bevölkerung behalten können."
+ 
+ ETH_Technical_Experts: "Technische Sachverständige einladen"
+ ETH_Technical_Experts_desc: "Äthiopien hat einen großen Mangel an Industriekapazitäten und Fertigung. Darüber hinaus ist unsere Wirtschaft weitgehend feudal und von der Außenwelt abgeschnitten. Um hier Abhilfe zu schaffen, werden wir Industrie- und Technikexperten aus dem Ausland einladen, um äthiopisches Personal auszubilden und unsere heimische Industrie umzugestalten."
+
+ ETH_Heavy_Industry: "Anfänge der Schwerindustrie"
+ ETH_Heavy_Industry_desc: "Während die natürliche Entwicklung einer industriellen Wirtschaft ein ferner Traum bleibt, werden wir mit staatlich geförderten Projekten, die als Beispiel für zukünftige Bemühungen dienen, einen Anstoß in die richtige Richtung geben."
+
+ ETH_Coffee_Harvesting: "Modernisierung der Kaffeeernte"
+ ETH_Coffee_Harvesting_desc: "Kaffee mag zwar in Äthiopien entstanden und domestiziert worden sein, aber was den internationalen Absatz angeht, liegt unsere Produktion weit hinter neueren Marktteilnehmern wie Brasilien zurück. Um diese Situation zu ändern, müssen die Ernte- und Transporttechniken modernisiert werden, damit Äthiopien eines Tages wieder als Heimat des Kaffees bekannt wird."
+
+ ETH_Domestic_Capital: "Inländisches Kapital subventionieren"
+ ETH_Domestic_Capital_desc: "Während wir derzeit einen starken Bedarf an ausländischen Investitionen haben, müssen wir auch sicherstellen, dass die Äthiopier allen Grund haben, ihr Glück in Äthiopien zu suchen, und dass sie mit Giganten aus dem Ausland konkurrieren können."
+
+
+### Intro Screen ###
+ ETH_country_intro_header: "Äthiopien, ein Reich am Scheideweg"
+ ETH_country_intro_content: "Abessinien, auch Äthiopien genannt, ist der einzige afrikanische Staat, der im 19. Jahrhundert unabhängig geblieben ist, nachdem er 1896 eine italienische Invasion erfolgreich abgewehrt hatte. Dieser Sieg war symbolisch für den Modernisierungsprozess im abessinischen Reich, der darauf abzielte, das Land wirtschaftlich, militärisch und verwaltungstechnisch auf europäisches Niveau zu bringen.\n\n1918 trat Abessinien unter Kaiserin Zewditu auf der Seite der Deutschen in den Weltkrieg ein, annektierte erfolgreich die italienische Kolonie Eritrea und ging gegen den Prätendenten Kaiser Iyasu vor. Gegen die italienischen Garnisonen und die wenigen Überfälle der Entente auf das Reich hatte die Armee jedoch nur wenig Erfolg. Die Kontrolle über das umstrittene Gebiet von Harar konnte nicht durchgesetzt werden, da die somalischen Streitkräfte, die einen Großteil des Gebietes hielten, nicht vertrieben werden konnten und bis heute nicht vertrieben wurden.\n\nAls die alte Kaiserin Zewditu ohne hinterbliebene Kinder starb, bestieg ihr Cousin, Regent und häufiger Rivale Ras Tafari Makonnen als Kaiser Haile Selassie den Thron. Der neue Monarch kündigte an, dass er eine Reihe neuer Reformen einleiten wolle, um Abessinien zu verwestlichen, da der wichtigste Anführer der reaktionären Fraktion, sein Vorgänger, nun nicht mehr im Amt sei. Diese Initiativen stoßen jedoch auf den erbitterten Widerstand des konservativen Adels der Nation, der kleineren Könige und Herzöge, die in Zewditu jemanden sehen, der ihrer Vision für das Reich wesentlich näher steht.\n\nDie Beziehungen zu Deutschland, dem neuen Besitzer des nahe gelegenen Dschibuti, wurden durch den Bau einer Eisenbahnlinie (größtenteils mit deutschem Kapital) zwischen diesem Außenposten, Addis Abeba, und Kenia gestärkt. Die Beziehungen sind seither positiv, trotz Berichten über das exzentrische Verhalten des neuen mittelafrikanischen Gouverneurs. Aber die Beziehungen zu Somalia und seinen osmanischen Unterstützern bleiben bestenfalls angespannt, und eine Konfrontation scheint unvermeidlich. Der Kaiser weiß, dass ein solcher Krieg ein geeintes Reich unter einem Banner und einer Sache erfordern würde, da die ehrgeizigen Herzöge sich durchaus auf die Seite des Feindes schlagen könnten, wenn man sie nicht unter Kontrolle hält, und daher müssen zuerst die inneren Angelegenheiten geregelt werden."
+ ETH_guide: "§MModerner Feudalismus§! (§PPaternaler Autokrat§!)\n£white_dot In der \"Frage der Sklaverei\" entscheiden sie sich dafür, die Abschaffung zu verzögern.\n£white_dot Im Falle einer \"Landreform\" entscheiden Sie sich dafür, den derzeitigen Besitz unter dem Adel zu formalisieren.\n£white_dot Im Falle einer \"Steuerreform\" entscheiden Sie sich für die Einführung einer Pauschalsteuer.\n£white_dot Im Falle einer \"Gouverneursreform\" sollten die Adligen ihr eigenes Land regieren dürfen.\n£white_dot Im Falle einer \"Militärreform\" entscheiden Sie sich dafür, die Armee so zu belassen, wie sie ist.\n\n§MWahrer König der Könige§! (§gAutoritärer Demokrat§!)\n£white_dot In dem Fall \"Frage der Sklaverei\", entscheiden Sie sich für die Abschaffung der Sklaverei.\n£white_dot Im Falle einer \"Landreform\" entscheiden Sie sich dafür, dass das gesamte Land im Namen des Negus gehalten wird.\n£white_dot Im Falle einer \"Steuerreform\" entscheiden Sie sich für die Einführung einer progressiven Steuer.\n£white_dot Im Falle einer \"Gouverneursreform\" sollten die Negus ihre Gouverneure selbst ernennen dürfen.\n£white_dot Im Falle einer \"Militärreform\" entscheiden Sie sich dafür, die Armee so zu belassen, wie sie ist.\n\n§MDemokratie§! (§cSozial konservativ§! / §mMarkt Liberal§! / §lSozialliberal§! / §SSozialdemokratisch§!)\n£white_dot In dem Fall \"Frage der Sklaverei\", entscheiden Sie sich für die Abschaffung der Sklaverei.\n£white_dot Im Falle einer \"Landreform\" beschließen Sie, das Land an die Bevölkerung umzuverteilen.\n£white_dot Im Falle einer \"Steuerreform\" beschließen Sie die Einführung einer Grundsteuer.\n£white_dot Im Falle einer \"Gouverneursreform\" sollten die Gouverneure vom Volk gewählt werden.\n£white_dot Im Falle einer \"Militärreform\" sollten die militärischen Positionen nach dem Leistungsprinzip vergeben werden.\n£white_dot Vervollständigen Sie den Schwerpunkt \"Wahlen abhalten\", um die §cDemokratische Liga§!, §mVereinigte Äthiopische Demokratische Kräfte§!, §lKoalition für Einheit und Demokratie§! oder §SDemokratische Volksfront Äthiopiens§! zu wählen.\n\n§MAußenpolitik§!\n§MPro Deutsch§!\n£white_dot Versäumen Sie es nicht, die DKAEB vor dem Bankrott zu bewahren und den Schwerpunkt \"Deutscher Partner\" zu vervollständigen, um dem Reichspakt beizutreten oder eine deutsche Garantie für die Unabhängigkeit zu erhalten.\n§MPro Japanisch§!\n£white_dot Gelingt es nicht, die DKAEB vor dem Bankrott zu bewahren, kann man sich für einen anderen ausländischen Investor entscheiden, den Schwerpunkt \"Japanischer Partner\" abschließen, um der Ko-Wohlstandssphäre beizutreten oder eine japanische Garantie für die Unabhängigkeit zu erhalten."
+
+### Events ###
+ ethiopia.2.t: "Die DKAEB steht kurz vor dem Konkurs"
+ ethiopia.2.d: "Die Deutsche Kaiserliche Abessinien Eisenbahn (DKAEB) wurde Anfang des 20. Jahrhunderts gegründet und verbindet Addis Abeba in Äthiopien mit Dschibuti. Nach einer Reihe von Erweiterungen mit deutscher Unterstützung wird sie heute hauptsächlich für den Transport von Erzen aus dem Kongobecken in Mittelafrika nach Dschibuti genutzt. Der derzeitige wirtschaftliche Abschwung in der Welt hat dazu geführt, dass Erz nicht mehr in dem Maße gekauft wird wie früher, so dass die Zukunft der DKAEB-Eisenbahn in Frage gestellt ist. Dies könnte eine große Chance sein, sich von dieser wirtschaftlichen Dominanz zu befreien.\n\nNatürlich bedeutet ein Abbruch der wirtschaftlichen Beziehungen zu den Deutschen auch, dass sie in Zukunft kaum noch in uns investieren werden, und wir werden uns diplomatisch von ihnen isoliert sehen. Der richtige Weg ist ungewiss, aber die Entscheidung könnte für uns getroffen werden, wenn wir uns über unsere Prioritäten nicht im Klaren sind."
+ ethiopia.2.a: "Wir müssen die Augen offen halten."
+ ethiopia.2.b: "Das würde mehr Ärger bringen, als es wert ist."
+ ethiopia.2.c: "Wir täten gut daran, es ihnen abzunehmen."
+
+ ethiopia.3.t: "Mittelafrika übernimmt die Kontrolle über die DKAEB"
+ ethiopia.3.d: "Angesichts des drohenden Bankrotts der DKAEB hat die mittelafrikanische Verwaltung in Dar-es-Salaam den staatlichen Teil der Eisenbahn von der deutschen Regierung gekauft. Wenn Mittelafrika in der Lage ist, die Leitung während der Depression am Laufen zu halten, könnten wir aus dieser Krise mit stärkeren Verbindungen zu dem deutschen Riesen hervorgehen. Sollte dies jedoch nicht gelingen, könnten die Folgen katastrophal sein."
+ ethiopia.3.a: "Unsere Beziehungen zu Dar-es-Salaam werden vorerst gestärkt."
+
+ ethiopia.4.t: "DKAEB Vom Deutschen Reich im Stich gelassen"
+ ethiopia.4.d: "Mit Blick auf den drohenden Bankrott der DKAEB hat die deutsche Regierung angeboten, den staatlichen Teil der Eisenbahn zu einem niedrigen Preis an unsere Regierung zu verkaufen. Wenn wir das Angebot nicht annehmen, wird wahrscheinlich ein europäisches oder nordamerikanisches Konsortium die Bahn übernehmen und damit den ausländischen Einfluss auf unsere Wirtschaft bestätigen."
+ ethiopia.4.a: "Wir müssen das Geld nicht ausgeben."
+ ethiopia.4.b: "Wir werden die Aktien kaufen."
+
+ ethiopia.5.t: "Die DKAEB hält sich über Wasser"
+ ethiopia.5.d: "Die Entscheidung der mittelafrikanischen Kolonialregierung, die Eisenbahn am Leben zu erhalten, hat sich ausgezahlt, denn Statthalter [MAF.GetLeader] hat die DKAEB während der Krise am Laufen gehalten. Unsere Beziehungen zum Deutschen Reich haben sich gefestigt."
+ ethiopia.5.a: "Gute Nachrichten."
+
+ ethiopia.6.t: "Die DKAEB geht in Konkurs!"
+ ethiopia.6.d: "Die Deutsche Kaiserliche Abessinien Eisenbahn ist in Konkurs gegangen! Diese wichtige Verkehrsverbindung, die vom Kongo über Äthiopien nach Dschibuti führt, musste stillgelegt werden. Viele Menschen sind nun arbeitslos, und unsere Beziehungen zu Mittelafrika haben Schaden genommen."
+ ethiopia.6.a: "Wir werden die Bahnlinie übernehmen."
+ ethiopia.6.b: "Finden Sie einen anderen ausländischen Investor!"
+
+ ethiopia.7.t: "Der Platz Äthiopiens auf der Weltbühne"
+ ethiopia.7.d.germanyatwar: "Nach der Niederlage in Somalia hat Kaiser Haile Selassie erklärt, es sei an der Zeit, die diplomatische Position Äthiopiens zu überdenken. Die Deutschen, unsere Freunde, kämpfen jetzt für das Überleben der Monarchie - das heißt der gerechten Herrschaft - gegen die Verwüstungen des Anarchismus der dekadenten Westeuropäer. Sollen wir uns dem Kampf gegen diese gottlosen Radikalen anschließen, oder neutral bleiben?"
+ ethiopia.7.d.germanyvictorious: "Nach der Niederlage in Somalia hat Kaiser Haile Selassie erklärt, es sei an der Zeit, die diplomatische Position Äthiopiens zu überdenken. Die Deutschen, unsere Freunde, haben die gottlosen Anarchisten in Frankreich und Großbritannien besiegt. Vielleicht ist es das Beste, sich dem Reichspakt anzuschließen und unsere Sicherheit in einer deutschen Welt zu gewährleisten. Sollen wir uns unseren Freunden anschließen, oder neutral bleiben?"
+ ethiopia.7.d.japanatwar: "Nach der Niederlage in Somalia hat Kaiser Haile Selassie erklärt, es sei an der Zeit, die diplomatische Position Äthiopiens zu überdenken. Die Japaner, unsere Freunde, kämpfen jetzt für das Überleben der Monarchie - d.h. der gerechten Herrschaft - gegen den Anarchismus der dekadenten Westmächte. Sollen wir uns dem Kampf gegen diese Imperialisten anschließen oder neutral bleiben?"
+ ethiopia.7.d.japanvictorious: "Nach der Niederlage in Somalia hat Kaiser Haile Selassie erklärt, es sei an der Zeit, die diplomatische Position Äthiopiens zu überdenken. Die Japaner, unsere Freunde, haben die imperialistischen Deutschen in Asien besiegt. Vielleicht ist es das Beste, sich der Ko-Wohlstandssphäre anzuschließen, um unsere Sicherheit in einer freien Welt zu gewährleisten. Sollen wir uns unseren Freunden anschließen oder neutral bleiben?"
+ ethiopia.7.a: "Wir müssen zum weltweiten Kampf gegen den Syndikalismus beitragen!"
+ ethiopia.7.a1: "Wir müssen uns am weltweiten Kampf gegen den westlichen Imperialismus beteiligen!"
+ ethiopia.7.b: "Wir sollten dem Reichspakt beitreten!"
+ ethiopia.7.b1: "Wir sollten uns der Ko-Wohlstandssphäre anschließen!"
+ ethiopia.7.c: "Wir werden nur eine deutsche Garantie verlangen."
+ ethiopia.7.c1: "Wir werden nur eine japanische Garantie verlangen."
+
+ ethiopia.8.t: "Dürre!"
+ ethiopia.8.d: "Der Osten Äthiopiens ist von einer großen Dürre heimgesucht worden. Da die Wirtschaft durch den Niedergang der DKAEB bereits geschwächt ist, droht nun eine Massenhungersnot, da die Ernten ständig ausfallen."
+ ethiopia.8.a: "Verdammt!"
+ ethiopia.8.b: "Nutzen Sie die neu verstaatlichte Eisenbahn zur Verteilung von Lebensmitteln!"
+
+ ethiopia.9.t: "Anpassung des Haushalts"
+ ethiopia.9.d: "Nun, da wir unsere Bürger und Institutionen genug besteuert haben, um unsere lähmenden Schulden zu tilgen, ist es an der Zeit, mit der Neuordnung unseres Haushalts zu beginnen und diese Schuldenkrise ein für alle Mal zu beenden. Wir können wählen, ob wir unseren Haushalt auf eines der drei folgenden Ziele ausrichten: militärische Produktion, zivile Produktion oder Bauwesen. Wofür sollen wir uns entscheiden?"
+ ethiopia.9.a: "Militärische Produktion."
+ ethiopia.9.b: "Zivile Produktion."
+ ethiopia.9.c: "Konstruktion."
+
+ ethiopia.10.t: "Reformen in Äthiopien"
+ ethiopia.10.d: "Es ist bekannt, dass unser Kaiser Haile Selassie das Ziel verfolgt, das Land zu modernisieren. Dazu gehören nicht nur Pläne für den Bau neuer Fabriken, die Erneuerung unserer Infrastruktur und die Modernisierung unserer Armee, sondern auch verschiedene rechtliche und institutionelle Reformen, die hoffentlich die Lebensqualität der Äthiopier verbessern werden. Die Ausweitung dieser Reformen wird jedoch ein Ende der zahlreichen Privilegien des Adels bedeuten."
+ ethiopia.10.a: "Start der Reformen."
+
+ ethiopia.11.t: "Frage der Sklaverei"
+ ethiopia.11.d: "Die Sklaverei ist in Äthiopien immer noch weit verbreitet, und fast 2 Millionen Menschen leben derzeit unter ihrer unterdrückerischen Herrschaft. Dies hat Äthiopien viel Kritik aus dem Westen eingebracht, und es ist offensichtlich, dass wir diese Institution abschaffen müssen, um unser Land wirklich zu verwestlichen. Der Adel wird jedoch sehr verärgert über diese Änderung sein, und wir könnten stattdessen ein neues Gesetz mit dem Spitznamen "Freiheit des Mutterleibs" einführen, um zu versuchen, sie zu besänftigen und das Ende der Sklaverei hinauszuzögern, sie jedoch langsam abzuschaffen."
+ ethiopia.11.a: "Sklaverei abschaffen!"
+ ethiopia.11.b: "Wir müssen die Abschaffung der Geburtsfreiheit aufschieben."
+
+ ethiopia.12.t: "Land Reform"
+ ethiopia.12.d: "Der Landbesitz in Äthiopien beruht immer noch auf einem archaischen System, bei dem die Menschen, die das Land besitzen, dies nur aufgrund ihrer großen Macht oder ihres Reichtums tun. Legaler Landbesitz ist unüblich, und das ist schon seit langem ein Problem. Es ist an der Zeit, dass wir mit der Reformierung des Landbesitzes und der Landverteilung beginnen und diese Gesetze aktiv durchsetzen. Es gibt mehrere Möglichkeiten, dies zu tun:"
+ ethiopia.12.a: "Verteilen Sie das Land an die Bevölkerung um."
+ ethiopia.12.b: "Alle Grundstücke sind namentliches Eigentum des Negus."
+ ethiopia.12.c: "Formalisierung der derzeitigen Eigentumsverhältnisse unter dem Adel."
+
+ ethiopia.13.t: "Steuerreform"
+ ethiopia.13.d: "Das Königreich Äthiopien hat in seiner gesamten Geschichte noch nie ein offizielles Steuergesetzbuch erlassen. Um uns dem Westen anzunähern, müssen wir mit der Reformierung und Vervollständigung unseres Steuerrechts beginnen. Es gibt mehrere Möglichkeiten: Wir können auf das Volk hören und eine Grundsteuer einführen, die in erster Linie die reichen Grundbesitzer treffen wird, wir können auf unsere westlichen Berater hören, die uns raten, das progressive Steuersystem der europäischen Mächte zu kopieren, oder wir können auf den Adel hören und eine niedrige Pauschalsteuer einführen."
+ ethiopia.13.a: "Einführung einer Grundsteuer."
+ ethiopia.13.b: "Einführung einer progressiven Steuer."
+ ethiopia.13.c: "Einführung einer Pauschalsteuer."
+
+ ethiopia.14.t: "Reform des Gouverneursamtes"
+ ethiopia.14.d: "Es ist an der Zeit zu entscheiden, wer die verschiedenen Provinzen des äthiopischen Reiches regieren wird. Es gibt mehrere Möglichkeiten: Wir können entweder dem Volk erlauben, seine Gouverneure zu wählen, wir können dem Negus erlauben, sie zu ernennen, oder wir können den Adligen erlauben, ihr eigenes Land zu regieren."
+ ethiopia.14.a: "Die Gouverneure sollten vom Volk gewählt werden."
+ ethiopia.14.b: "Der Negus ernennt seine Gouverneure."
+ ethiopia.14.c: "Die Adligen sollen ihr eigenes Land regieren."
+
+ ethiopia.15.t: "Militärische Reform"
+ ethiopia.15.d: "Gegenwärtig wird unsere Armee von Adligen und Mitgliedern der Familie Selassie befehligt. Bürgerliche sind von den meisten, wenn nicht sogar von allen hohen Positionen innerhalb des Militärs ausgeschlossen - selbst wenn sie ein besseres Verständnis für militärische Angelegenheiten oder Kriegsführung haben als die Adligen. Sollten wir Bürgerlichen erlauben, hochrangige Positionen in der Armee zu bekleiden?"
+ ethiopia.15.a: "Militärische Positionen müssen leistungsorientiert sein."
+ ethiopia.15.b: "Behalten Sie die Armee, wie sie ist."
+
+ ethiopia.16.t: "Abschluss der Reformen"
+ ethiopia.16.d: "Die Ära der Reformen von Selassie ist nun vorbei. Die Nation hat sich im Guten wie im Schlechten radikal verändert und die Modernisierung ist vollzogen. Der Löwe von Juda wurde in die Flagge des Reiches aufgenommen, um die Wiedergeburt des äthiopischen Reiches zu symbolisieren, und es ist nun an der Zeit, die Ausarbeitung und Formalisierung einer Neuen Verfassung für das Reich in Angriff zu nehmen."
+ ethiopia.16.a: "Gott schütze den Löwen."
+
+ ethiopia.17.t: "Selassie's Verfassung"
+ ethiopia.17.d: "Selassie hat es geschafft, sich die oberste Macht zu sichern, was sich in der Neuen Verfassung widerspiegelt. Sie enthält viele Artikel, die dem Negus Befugnisse verleihen, aber auch Reformen, die den rechtlichen Rahmen Äthiopiens modernisieren sollen. Äthiopien ist nun ganz und gar des Kaisers Nation."
+ ethiopia.17.a: "Es lebe der Löwe von Juda."
+
+ ethiopia.18.t: "Mekawint's Verfassung"
+ ethiopia.18.d: "Durch die Blockierung zahlreicher Reformen und die Einführung eigener Reformen ist es den Adligen gelungen, ihre Macht zu sichern, was sich auch in der Neuen Verfassung widerspiegelt. Sie enthält Artikel, die dem von Adligen dominierten Oberhaus absolute Macht verleihen und die Demokratie und die Macht des Kaisers einschränken. Die jahrhundertealten Traditionen Äthiopiens wurden geschützt, und es wird auch weiterhin ein Land der Adligen und für die Adligen bleiben."
+ ethiopia.18.a: "Der Negusa Nesat ist schwach."
+
+ ethiopia.19.t: "Verfassung des Volkes"
+ ethiopia.19.d: "Haile Selassie hat Reformen eingeleitet, die das Land verwestlicht und demokratisiert haben, und die Neue Verfassung spiegelt dies wider. Sie enthält Artikel, die die Freiheiten des Volkes schützen, und stärkt das Unterhaus, das vom Volk kontrolliert wird. Die Macht der Adligen und sogar von Selassie selbst wurde eingeschränkt, und es ist klar, dass Äthiopien nun eine verwestlichte, konstitutionelle Monarchie ist."
+ ethiopia.19.a: "Das Volk ist stark."
+
+ ethiopia.20.t: "Die ersten Wahlen"
+ ethiopia.20.d: "Zum ersten Mal in der großen Geschichte Äthiopiens werden demokratische und faire Wahlen stattfinden. Die wichtigsten Wahlteilnehmer sind: die rechtsgerichtete "Demokratische Liga", die Mitte-Rechts-Partei "Vereinigte Äthiopische Demokratische Kräfte", die Mitte-Links-Partei "Koalition für Einheit und Demokratie" und die linksgerichtete "Demokratische Volksfront Äthiopiens". Die Stimmen sind ausgezählt und die Gewinner der Wahl sind die: "
+ ethiopia.20.a: "Demokratische Liga."
+ ethiopia.20.b: "Vereinigte Äthiopische Demokratische Kräfte."
+ ethiopia.20.c: "Koalition für Einheit und Demokratie."
+ ethiopia.20.e: "Äthiopische Demokratische Volksfront."
+
+ ethiopia.21.t: "Die äthiopischen Wahlen von [GetYear]"
+ ethiopia.21.d: "Wie in unserer Verfassung festgelegt, finden alle fünf Jahre freie und faire Wahlen statt. Die wichtigsten Teilnehmer an der Wahl sind: die rechte "Demokratische Liga", die Mitte-Rechts-"Vereinigten Äthiopischen Demokratischen Kräfte", die Mitte-Links-"Koalition für Einheit und Demokratie" und die linke "Demokratische Volksfront Äthiopiens". Die Stimmen sind ausgezählt und die Gewinner der Wahl sind die:"
+ ethiopia.21.a: "Demokratische Liga."
+ ethiopia.21.b: "Vereinigte Äthiopische Demokratische Kräfte."
+ ethiopia.21.c: "Koalition für Einheit und Demokratie."
+ ethiopia.21.e: "Äthiopische Demokratische Volksfront."
+
+ ethiopia.22.t: "Befugnisse des Rates"
+ ethiopia.22.d: "Es ist an der Zeit, dass der Rat der Adligen die volle Kontrolle über die Regierung von Selassies Handlangern übernimmt, denn von nun an wird er als König unter Königen regieren und eine schwache Galionsfigur bleiben, hinter der sich der Rat versammeln kann, wenn er gebraucht wird."
+ ethiopia.22.a: "Gelobt sei der Rat."
+
+ ethiopia.23.t: "Eritreische Revolte!"
+ ethiopia.23.d: "Die Bevölkerung Eritreas hat genug davon, bis zur Unkenntlichkeit besteuert zu werden, und da die Stammesführer und Armeeoffiziere nicht integriert sind, ist es den eritreischen Nationalisten gelungen, in dieser verzweifelten Zeit des Krieges einen Aufstand gegen unsere Herrschaft zu organisieren. Wir müssen rasch mit der Mobilisierung beginnen, um sie niederzuschlagen und die Stabilität zu gewährleisten!"
+ ethiopia.23.a: "Verdammte Verräter!"
+
+ ethiopia.24.t: "Das Kaiserreich Äthiopien bittet um eine Militärmission"
+ ethiopia.24.d: "Seit Mittelafrika 1936 unsere Anteile an der DKAEB-Eisenbahn gekauft hat, ist das Reich Äthiopien näher an Deutschland herangerückt und bittet nun um eine Deutsche Militärmission zur Modernisierung seiner Armee. Im Falle eines Sieges im bevorstehenden Krieg gegen die somalischen Feinde könnte es sogar dem Reichspakt beitreten."
+ ethiopia.24.d2: "Das Kaiserreich Äthiopien ist enger mit Japan verbunden, seit wir 1936 die DKAEB-Eisenbahn unter unsere Verwaltung gebracht haben, und es bittet jetzt um eine japanische Militärmission zur Modernisierung seiner Armee. Wenn sie im bevorstehenden Krieg gegen ihre somalischen Feinde siegreich sind, könnten sie sogar der Ko-Wohlstandssphäre beitreten."
+ ethiopia.24.a: "Ein kleines Opfer für einen Verbündeten!"
+ ethiopia.24.b: "Brauchen wir Äthiopien wirklich?"
+
+ ethiopia.25.t: "Deutschland erklärt sich bereit, eine Militärmission zu entsenden"
+ ethiopia.25.t2: "Japan erklärt sich bereit, eine Militärmission zu entsenden"
+ ethiopia.25.d: "Die Deutschen sind mit unseren Freundschaftsanträgen einverstanden und haben eine militärische Mission entsandt, um uns in unserem Kampf mit unseren regionalen Gegnern zu unterstützen. Wieder einmal haben uns unsere christlichen Brüder die Hilfe gegeben, die wir brauchen."
+ ethiopia.25.d2: "Die Japaner sind mit unseren Freundschaftsanträgen einverstanden und haben eine militärische Mission entsandt, um uns in unserem Kampf gegen unsere regionalen Gegner zu unterstützen. Sie haben die Vorteile unseres gemeinsamen Kampfes gegen den westlichen Imperialismus klar erkannt."
+ ethiopia.25.a: " Noch besser als die Portugiesen."
+
+ ethiopia.26.t: "Deutschland verweigert uns die Hilfe"
+ ethiopia.26.t2: "Japan verweigert uns Hilfe"
+ ethiopia.26.d: "Die imperialistischen und eurozentristischen Deutschen haben sich geweigert, unsere Armee in irgendeiner Weise zu organisieren. Es scheint, dass unsere Partnerschaft mit dem Deutschen Reich zu einem abrupten Ende gekommen ist."
+ ethiopia.26.d2: "Die doppelzüngigen und arroganten Japaner haben sich geweigert, uns bei der Organisation unserer Armee in irgendeiner Weise zu unterstützen. Es scheint, dass unsere Partnerschaft mit dem japanischen Kaiserreich zu einem abrupten Ende gekommen ist."
+ ethiopia.26.a: "Dann eben allein!"
+
+ ethiopia.27.t: "Das Kaiserreich Äthiopien bittet um Bündnis"
+ ethiopia.27.d.ethiopiaatwar: "Unser Brudermonarch in Addis Abeba hat unsere Notlage in Westeuropa bemerkt und den gottlosen Syndikalisten bereits den Krieg erklärt. Sollten wir zustimmen, unseren alten Kriegsverbündeten in unser Bündnis aufzunehmen?"
+ ethiopia.27.d.ethiopianotatwar: "Unser Partner in Äthiopien ist an uns herangetreten und hat um ein Bündnis zwischen Äthiopien und Deutschland gebeten. Da der Sudan und Somalia keine Bedrohung mehr für Äthiopien darstellen, würden wir mit einem Bündnis mit ihnen nur wenige Risiken eingehen, aber sie könnten uns auch nicht viel bieten."
+ ethiopia.27.d.ethiopiaatwar2: "Unser Brudermonarch in Addis Abeba hat unsere Notlage in Großasien bemerkt und den deutschen Imperialisten bereits den Krieg erklärt. Sollten wir zustimmen, Äthiopien in unser Bündnis aufzunehmen?"
+ ethiopia.27.d.ethiopianotatwar2: "Unser Partner in Äthiopien ist an uns herangetreten und hat um ein Bündnis zwischen Äthiopien und Japan gebeten. Da der Sudan und Somalia keine Bedrohung mehr für Äthiopien darstellen, würden wir mit einem Bündnis mit ihnen nur wenige Risiken eingehen, aber sie könnten uns auch nicht viel bieten."
+ ethiopia.27.a: "Akzeptieren Sie ihr Angebot!"
+ ethiopia.27.b: "Wer braucht Äthiopien?"
+
+ ethiopia.28.t: "Deutschland akzeptiert!"
+ ethiopia.28.t2: "Japan akzeptiert!"
+ ethiopia.28.d: "Die Deutschen haben zugestimmt, dass wir dem Reichspakt beitreten! Unsere Zukunft in einer deutsch dominierten Welt ist gesichert."
+ ethiopia.28.d2: "Die Japaner haben zugestimmt, uns in die Ko-Wohlstandssphäre aufzunehmen! Unsere Zukunft in einer vom westlichen Imperialismus befreiten Welt ist gesichert."
+ ethiopia.28.a: "Ein Hoch auf die Diplomatie!"
+
+ ethiopia.29.t: "Deutschland lehnt Allianz ab"
+ ethiopia.29.t2: "Japan lehnt Allianz ab"
+ ethiopia.29.d: "Die Deutschen haben deutlich zu verstehen gegeben, dass sie unsere Hilfe und Freundschaft nicht brauchen. Wir werden zwar eine Partnerschaft aufrechterhalten, aber es scheint, dass die Deutschen nicht unsere Verbündeten sein werden."
+ ethiopia.29.d2: "Die Japaner haben deutlich zu verstehen gegeben, dass sie unsere Hilfe und Freundschaft nicht brauchen. Wir werden zwar eine Partnerschaft aufrechterhalten, aber es scheint, dass die Japaner nicht unsere Verbündeten sein werden."
+ ethiopia.29.a: "Dann eben allein!"
+
+ ethiopia.30.t: "Äthiopien fordert eine Garantie"
+ ethiopia.30.d: "Nachdem sie Somalia besiegt haben, haben unsere Partner in Äthiopien beschlossen, sich nicht in weitere Kriege zu verwickeln. Sie fordern eine deutsche Garantie für ihre territoriale Integrität, bieten dafür aber außer Versprechungen wenig."
+ ethiopia.30.d2: "Nachdem unsere Partner in Äthiopien Somalia besiegt haben, haben sie beschlossen, sich nicht in weitere Kriege zu verwickeln. Sie fordern eine japanische Garantie für ihre territoriale Integrität, bieten dafür aber außer Versprechungen wenig."
+ ethiopia.30.a: "Das ist besser als nichts."
+
+ ethiopia.31.t: "Deutschland garantiert uns"
+ ethiopia.31.t2: "Japan garantiert uns"
+ ethiopia.31.d: "Die Deutschen haben unsere Unabhängigkeit garantiert - unsere Position ist sicher, solange die Deutschen in Europa triumphieren."
+ ethiopia.31.d2: "Die Japaner haben unsere Unabhängigkeit garantiert - unsere Position ist sicher, solange die Japaner in Asien triumphieren."
+ ethiopia.31.a: "Das war der beste Schritt, den wir hätten machen können."
+
+ ethiopia.32.t: "Schwarzer Montag!"
+ ethiopia.32.d: "Gestern kam es zu einem massiven Einbruch an der Berliner Börse. Die deutsche Wirtschaft liegt in Trümmern, und da sich unser größter Handelspartner in einer derartigen Notlage befindet, bekommt auch unsere Wirtschaft die Auswirkungen zu spüren. Unser Mangel an einer ausgefeilten Finanzinfrastruktur hat uns jedoch recht gut vor dem Schlimmsten der Depression bewahrt."
+ ethiopia.32.a: "Verheerend!"
+
+ ethiopia.33.t: "Die DKAEB und der Zusammenbruch von Mittelafrika"
+ ethiopia.33.d: "Mit dem Zusammenbruch von Mittelafrika ist unser größter Handelspartner weggefallen. Die äthiopische Regierung hat nun die Kontrolle über die Anteile übernommen, die früher Mittelafrika gehörten, und ein Plan zur Industrialisierung unseres Landes wird bald in Angriff genommen."
+ ethiopia.33.a: "Wir können uns auf niemanden verlassen."
+
+### Country Names ###
+ ETH: "Äthiopien"
+ ETH_ADJ: "Äthiopisch"
+ ETH_DEF: "Äthiopien"
+
+ ETH_totalist: "Äthiopische Sozialistische Republik"
+ ETH_totalist_ADJ: "Äthiopisch"
+ ETH_totalist_DEF: "die Äthiopische Sozialistische Republik"
+ ETH_syndicalist: "Äthiopische Sozialistische Republik"
+ ETH_syndicalist_ADJ: "Äthiopisch"
+ ETH_syndicalist_DEF: "die Äthiopische Sozialistische Republik"
+ ETH_radical_socialist: "Äthiopische Sozialistische Republik"
+ ETH_radical_socialist_ADJ: "Äthiopisch"
+ ETH_radical_socialist_DEF: "die Äthiopische Sozialistische Republik"
+
+### Characters ###
+ ETH_imru_haile_selassie: "Imru Haile Selassie"
+ 
+ ETH_haile_selassie: "Haile Selassie"
+ ETH_haile_selassie_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 23. Juli 1892, in Ejersa Goro, Hararghe, Äthiopisches Reich\n§YPolitische Karriere:§! Nach dem Tod von Zauditu am 2. April 1930 wurde Ras Tafari Makonnen am 2. November 1930 in der St. Georgs-Kathedrale von Addis Abeba zum Kaiser von Äthiopien gekrönt. Nachdem er den Thron bestiegen hatte, begann der neue Kaiser mit einer Reihe umfassender politischer Reformen, um Abessinien "an den Westen" heranzuführen, und war begierig darauf, seine Macht auszuüben. Im Jahr 1923 bereiste er Europa, um Schulen, Krankenhäuser, Fabriken und Kirchen zu besichtigen. Der Kontakt mit der europäischen Lebensweise hatte ihn sehr beeindruckt, denn er beabsichtigte, Abessinien nach europäischem Standard zu modernisieren. Diese Reformen wurden jedoch von den mächtigen konservativen Elementen der Nation heftig bekämpft und durch die wirtschaftlichen Probleme des Reiches, insbesondere die Schulden, die er von Zewditu geerbt hatte, und den allgegenwärtigen und eindringlichen deutschen wirtschaftlichen Einfluss verzögert."
+ 
+ ETH_yemiserach_imru: "Yemiserach Imru"
+ ETH_nasibu_zeamanuel: "Nasibu Zeamanuel"
+ ETH_haile_selassie_gugsa: "Haile Selassie Gugsa"
+ ETH_amha_selassie: "Amha Selassie"
+
+ ETH_beyene_merid: "Beyene Merid"
+ ETH_desta_damtew: "Desta Damtew"
+ ETH_yeebio_woldai: "Yeebio Woldai"
+ ETH_obboo_bulee_dabarsa: "Obboo Bulee Dabarsa"
+ ETH_aklilu_habte_wold: "Aklilu Habte-Wold"
+ ETH_mesfin_sileshi: "Mesfin Sileshi"
+ ETH_seyoum_mengesha: "Seyoum Mengesha"
+ ETH_yilma_deressa: "Yilma Deressa"
+ ETH_lorenzo_taezaz: "Lorenzo Taezaz"
+
+ ETH_mulugeta_yeggazu: "Mulugeta Yeggazu"
+ ETH_abebe_aregai: "Abebe Aregai"
+ ETH_kassa_haile_darge: "Kassa Haile Darge"
+ ETH_hailu_tekle_haymanot: "Hailu Tekle Haymanot"
+
+ ETH_gamtesa_gidera: "Gamtesa Gidera"
+ ETH_ayalew_birru: "Ayalew Birru"
+ ETH_haile_kebedde: "Haile Kebedde"
+ ETH_ethiopian_military_council: "Äthiopischer Militärrat"
+
+### Traits ###
+ ETH_negusa_nagast_1: "Negusa Nagast"
+ ETH_negusa_nagast_2: "Negusa Nagast"
+ ETH_red_prince: "Der rote Prinz"

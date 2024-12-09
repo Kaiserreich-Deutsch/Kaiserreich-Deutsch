@@ -1,0 +1,643 @@
+﻿l_german:
+
+## Übersetzt von Thylon ##
+
+KR_Liberia: "Schwerpunktbaum von Liberia"
+
+### Parties ###
+LIB_radical_socialist_party: "PP"
+LIB_radical_socialist_party_long: "Peoples' Party"
+LIB_totalist_party: "LBD"
+LIB_totalist_party_long: "Liberian Destiny Party"
+LIB_social_liberal_party: "TWP"
+LIB_social_liberal_party_long: "True Whig Party (Neue Garde)"
+LIB_market_liberal_party: "TWP"
+LIB_market_liberal_party_long: "True Whig Party (Zentrum)"
+LIB_social_conservative_party: "TWP"
+LIB_social_conservative_party_long: "True Whig Party (Alte Garde)"
+LIB_authoritarian_democrat_party: "TWP"
+LIB_authoritarian_democrat_party_long: "True Whig Party (Hardliner)"
+LIB_paternal_autocrat_party: "MJ"
+LIB_paternal_autocrat_party_long: "Military Junta"
+LIB_national_populist_party: "GLL"
+LIB_national_populist_party_long: "Grand Lodge of Liberia"
+
+LIB_german_liberian_federation: "DLB"
+LIB_german_liberian_federation_long: "Deutsch-Liberianische Bund"
+
+### Cosmetic Tags ###
+LIB: "Liberia"
+LIB_ADJ: "Liberianisch"
+LIB_DEF: "Liberia"
+
+LIB_totalist: "Sozialistische Republik Liberia"
+LIB_totalist_ADJ: "Liberianisch"
+LIB_totalist_DEF: "die Sozialistische Republik Liberia"
+LIB_syndicalist: "Sozialistische Republik Liberia"
+LIB_syndicalist_ADJ: "Liberianisch"
+LIB_syndicalist_DEF: "die Sozialistische Republik Liberia"
+
+LIB_GER_subject: "Dominion Liberia"
+LIB_GER_subject_ADJ: "Liberianisch"
+LIB_GER_subject_DEF: "die Dominion Liberia"
+
+### Ideas ###
+LIB_massive_debt: "Lähmende Schuldenkrise"
+LIB_massive_debt_desc: "Liberia ist durch eine Reihe gescheiterter Projekte in den letzten Jahren verschuldet und hat nun nicht nur nichts vorzuweisen, sondern auch Probleme, die Kredite zurückzuzahlen. Das Land steht am Rande des Bankrotts und muss möglicherweise eine Rettungsaktion in Erwägung ziehen, wenn es überhaupt noch Hoffnung gibt, aus dem Loch herauszukommen, in das es sich selbst gegraben hat."
+
+LIB_massive_debt_1: "Verschuldungskrise"
+LIB_massive_debt_1_desc: "Liberia ist durch eine Reihe gescheiterter Projekte in den letzten Jahren verschuldet und hat nicht nur nichts vorzuweisen, sondern auch Probleme, die Kredite zurückzuzahlen."
+
+LIB_bailout_usa_2: "Ein amerikanischer Bailout"
+LIB_firestone_bailout: "Firestone Bailout"
+LIB_tax_exemption_idea: "Amerikanische Steuerbefreiung"
+LIB_ger_industrial_model: "Deutsches Industriemodell"
+LIB_black_monday: "Liberianischer Schwarzer Montag"
+LIB_task_force: "Dielib.rianische Task Force"
+LIB_new_army_idea: "Die neuelib.rianische Armee"
+LIB_center_holds: "Das Zentrum hält"
+LIB_broken_center: "Ein zerbrochenes Zentrum"
+LIB_industrial_investments: "Industrielle Investitionen"
+LIB_citizenship_secured: "Staatsbürgerschaft gesichert"
+LIB_radsoc_emancipation: "Soziale Emanzipation"
+LIB_soclib_emancipation: "Liberale Emanzipation"
+LIB_judicial_reform_idea: "Reformiertes Justizwesen"
+LIB_new_constitution: "Sozialverfassung"
+LIB_renewed_immigration: "Erneute Einwanderungsbemühungen"
+LIB_foreign_investment_idea: "Ausländische Investitionen"
+LIB_whiter_pale: "Rassenmischung legalisiert"
+LIB_totalist_zeal: "Revolutionäre Mobilisierung"
+LIB_pax_africana: "Pax Africanus"
+LIB_west_african_commonwealth: "Westafrikanisches Commonwealth-Mitglied"
+LIB_trade_connections_idea: "Handelsbeziehungen"
+LIB_military_academy: "Die Militärakademie Daniel E. Howard"
+firestone_rubber: "Firestone Kautschuk"
+
+### Opinion Modifiers ###
+LIB_foreign_bailout: "Ausländischer Bailout
+LIB_firestone_slaves: "Verurteilt Sklaverei"
+LIB_freemason_purge_1: "Säuberung von Ausländern"
+LIB_freemason_purge_2: "Säuberung von Sozialisten"
+LIB_freemason_purge_3: "Säuberung von Republikanern"
+
+### Tooltips ###
+LIB_1939_elections_held: "Die Wahlen von 1939 haben stattgefunden.\n"
+LIB_receive_militias: "Erhaltet drei Divisionen der Miliz\n"
+LIB_internal_decisions: "Importierte Kriegsindustrie"
+LIB_obtain_dockyard_access: "Bezahlt für die Nutzung der amerikanischen Werft"
+LIB_assemble_air_squadron: "Importiert [FROM.GetAdjective] Kampfflugzeuge"
+LIB_request_infantry_equipment: "Importiert amerikanische Gewehre"
+LIB_pull_strings_with_industrialists: "Lockt die amerikanische Schwerindustrie an"
+LIB_war_in_ivory_coast: "§REin solch aggressives Vorgehen kann durchaus zu einem totalen Krieg führen.§!"
+
+LIB_Not_Enough_Stuff: "Wir haben nicht genügend Ausrüstung, um diese Anfrage zu erfüllen, und müssen sie daher ablehnen."
+LIB_Unlock_equipment_decision: "§YSchaltet die Entscheidung frei:§! £decision_icon_small Fordert Material an"
+LIB_refund_on_fail_decision_TT: "§GDie für die Entscheidung aufgewendete politische Macht wird Ihnen zurückerstattet§!, aber wir müssen warten, bis die Entscheidung wieder auftaucht."
+LIB_asking_more_wont_help_TT: "§RWenn Sie denselben Antrag noch einmal stellen, wird er höchstwahrscheinlich erneut abgelehnt, weil die Ausrüstung fehlt§!"
+
+### Decisions ###
+LIB_request_rifles_from_ally: "Fordert Gewehre von [FROM.GetNameDef] an."
+LIB_request_artillery_from_ally: "Fordert Artillerie von [FROM.GetNameDef] an."
+LIB_request_sup_equip_from_ally: "Fordert Zusatzausrüstung von [FROM.GetNameDef] an."
+
+### Intro Screen ###
+LIB_country_intro_header: "Liberianische Einführung"
+LIB_country_intro_content: "Liberia ist ein unabhängiger westafrikanischer Staat von der Größe Virginias, der unter dem Schutz der Vereinigten Staaten von Amerika steht. Die Oberschicht der Gesellschaft gehört zu einer festen Wählergruppe, der True Whig Party, die seit 1870 jede größere Wahl gewonnen hat. Die Americo Liberians waren für die Verbreitung des Christentums unter den Eingeborenen verantwortlich, haben dabei aber auch einige westafrikanische Traditionen übernommen. Geheimgesellschaften wie die Poro für die unteren Schichten und der Freimaurerorden von Liberia für die Oberschicht sorgen dafür, dass die Reichen reich bleiben und die Armen sich im Verborgenen regieren können.\n\nDer Weltkrieg war eine dunkle und konspirative Zeit für Liberia. Der französische Abhörposten in Monrovia wurde fast entdeckt, der deutsche Botschafter verschwand unter verdächtigen Umständen, und die Grenzen wurden verschoben. Während der Revolution in Großbritannien wurde Sierra Leone besetzt und dann von Frankreich annektiert. Jetzt ist Liberia durch gescheiterte Projekte verschuldet, seine Wirtschaft ist in den Händen von Firestone Natural Rubber, und seine Zukunft ist ungewiss. Wird Präsident Edwin Barclay, ein Legitimist der TWP, in der Lage sein, Liberia vor der Katastrophe zu bewahren?"
+
+LIB_guide: "§MFreimaurer-Putsch§! (§NNationalpopulisten§!)\n£white_dot Nachdem Sie den Schwerpunkt \"Status der Geheimgesellschaften\" abgeschlossen haben, lassen Sie sie \"...aus der Dunkelheit kommen.\"\n£white_dot Wenn die Freimaurer einen Putschversuch unternehmen, verlassen Sie Monrovia.\n\n§MDie rote Flut trifft Liberia§! (§oTotalisten§!)\n£white_dot Nach Abschluss des Schwerpunkts \"Status der Geheimgesellschaften\", verbieten Sie sie.\n£white_dot Wenn die Rote Flut Liberia trifft, fliehen Sie.\n\n§MWahlen - Volkspartei / TWP (Neue Garde) / TWP (Zentrum) / TWP (Alte Garde)§! (§RRadikale Sozialistisch§! / §lSozialliberal§! / §mMarktliberal§! / §cSozialkonservativ§!)\n£white_dot Nach Abschluss des Schwerpunkts \"Status der Geheimgesellschaften\", dürfen sie \"...aus der Dunkelheit kommen\", später während des Putschversuchs verbieten Sie sie.\n£white_dot Oder, wenn die Geheimgesellschaften verboten wurden, setzen Sie später die Liberianische Grenztruppe ein, um sie zu beseitigen.\n£white_dot Stärken Sie die gewünschte Partei bei der darauf folgenden Wahl.\n\n§MRückkehr des Massaquoi§! (§gAutoritär Demokratisch§!)\n£white_dot Nehmen Sie nach dem Schwarzen Montag das deutsche Rettungspaket an.\n£white_dot Liberia wird zu einer deutschen Marionette.\n\nAnmerkung: Nehmen Sie nach dem Schwarzen Montag KEIN Rettungspaket aus Deutschland an, das heißt \"Das Reich hat das Geld und die Macht\", es sei denn, Sie erhalten Anweisungen. Entweder die Amerikaner oder Firestone werden es tun."
+
+### Events ###
+lib.2.t: "Rassenbeziehungen in Liberia"
+lib.2.d: "Seit der Gründung unserer Republik hat die amerikanisch-liberianische Bevölkerung, die ursprünglich von freigelassenen schwarzen Sklaven aus dem Süden der Vereinigten Staaten abstammt, die gesamte politische und wirtschaftliche Macht im Lande inne - zum Nachteil der zahlreicheren einheimischen afrikanischen Völker im Landesinneren. Das Staatsbürgerschaftsgesetz von 1932 war als Kompromiss zwischen Repräsentation und Besteuerung gedacht. In der Praxis wird das Staatsbürgerschaftsgesetz jedoch nicht durchgesetzt, sondern besteuert. Sollten wir unsere Gouverneure zwingen, Eingeborenen den Zutritt zu den Provinzversammlungen zu gestatten, oder haben sie Recht, dieses Recht so lange zu verweigern, bis die Nation wieder stabil ist?"
+lib.2.a: "Wahrt unseren Ruf, gebt den Einheimischen eine Stimme."
+lib.2.b: "Haltet unsere Traditionen aufrecht, sie müssen ihren Platz kennen."
+
+lib.3.t: "Präsidentschaftswahl von 1939"
+lib.3.d: "Heute ist Wahltag in unserer Republik, der ersten, in der sowohl amerikanische Liberianer als auch einheimische Liberianer zugelassen sind. Es treten vier Hauptkandidaten an. Der Amtsinhaber Edwin Barclay von der konservativen True Whig Party. Die True Whig Party Centre unter William Tubman. die True Whig Party New Guard unter Louis Grimes und der vernünftige Sozialist J.J. Dossen von der Peoples Party."
+lib.3.a: "Edwin James Barclay, True Whig Party."
+lib.3.b: "William Tubman, True Whig Party (Zentrum)."
+lib.3.c: "Clarence Simpson, True Whig Party (Neue Garde)."
+lib.3.e: "James Jenkins Dossen, Peoples Party."
+
+lib.5.t: "Der Schwarze Montag erreicht Liberia"
+lib.5.d: "Nach dem totalen Zusammenbruch der deutschen Börse haben die Wellen bereits das Ausland erreicht. Nach dem Zusammenbruch des amerikanischen Aktienmarktes hatten wir gehofft, dass uns eine solche Tragödie nicht so bald ereilen würde. Jetzt müssen wir die Scherben wieder aufsammeln."
+lib.5.a: "Wir müssen bald handeln!"
+
+lib.6.t: "Zuweisung von staatlichen Mitteln"
+lib.6.d: "Wir verfügen über Mittel in unserem Jahreshaushalt, die wir für den Umgang mit unseren Konkurrenten verwenden, einschließlich Bestechung. Die diesjährige globale Wirtschaftskrise könnte jedoch eine wichtigere Verwendung sein, als alle unsere Rivalen zu bezahlen, damit sie sich unterwerfen. Das könnte für unser Regime allerdings riskant sein..."
+lib.6.a: "Schmiergelder sind gar nicht so schlecht."
+lib.6.b: "Legt das Geld in die Reserve."
+
+lib.7.t: "Geheimgesellschaften in Liberia?"
+lib.7.d: "Geheimgesellschaften gibt es sowohl in der amerikanischen als auch in der einheimischen Tradition in Liberia. Die Americo-Liberianer an der Spitze der Gesellschaft stützen sich auf den Freimaurerorden von Liberia, um politisch voranzukommen. Am untersten Ende der Gesellschaft festigen die Poros ihre Stammesidentität durch ihre Rolle als Stammesführer. Der Hang zur Geheimniskrämerei hat in Liberia zu einer so großen gesellschaftlichen Kluft geführt, dass wir ein eigenes Wort dafür haben. Ifa Mo. Wir könnten Poros und die Freimaurer ermächtigen, der Regierung beizutreten und durch gemeinnützige Arbeit zum Wiederaufbau unserer Wirtschaft beizutragen. Oder wir könnten rechtfertigen, dass sie aus der Öffentlichkeit verbannt werden, indem wir sagen, dass ihre Aktivitäten eine leichtfertige Verschwendung öffentlicher Gelder sind."
+lib.7.a: "Die Geheimgesellschaften müssen aus der Dunkelheit herauskommen."
+lib.7.b: "Poros und Freimaurer sind abscheulich und gotteslästerlich, verbietet sie."
+
+lib.8.t: "Die Hut Steuer Situation"
+lib.8.d: "Das System der Hut-Steuer wurde in den britischen Kolonien eingesetzt, um die Wirtschaft zu simulieren und die afrikanischen Ureinwohner zur Teilnahme an der lokalen Wirtschaft zu bewegen. Mit dem Staatsbürgerschaftsgesetz von 1932 wurde für jeden Haushalt der Eingeborenen eine Hutsteuer in Höhe von 1 $ eingeführt, die als Gegenleistung für das Wahlrecht erhoben wurde. Es gibt Bestrebungen, diese Steuer abzuschaffen, da sie der verhassten amerikanischen Kopfsteuer für Afroamerikaner ähnelt. Gleichzeitig brauchen wir aber alles Geld, das wir bekommen können."
+lib.8.a: "Eine geringfügige Erhöhung, von deren Ergebnissen wir alle profitieren werden."
+lib.8.b: "Schafft die Steuer ab, damit die Dorfoberhäupter endlich Ruhe geben."
+
+lib.9.t: "Der Liberalismus schwappt nach Afrika"
+lib.9.d: "In den letzten Tagen hat die alib.ral-Bewegung an Fahrt gewonnen und ist über den Atlantik geschwappt. Am stärksten kommt sie aus den USA, wo die afroamerikanische Kultur eine bessere Zukunft verspricht als die Rassentrennung, die in Liberia immer noch legal ist. Sie stößt nicht nur auf die Kolonialpolitik, sondern auch auf die Gewohnheiten unserer Vorfahren. Könnte das Frauenwahlrecht in weiter Ferne liegen, oder wird dies unser Fundament der Regierung schwächen?"
+lib.9.a: "Woher kommt das??"
+
+lib.10.t: "Die Freimaurer versuchen einen Putsch!"
+lib.10.d: "Während des ersten Festes nach der Legalisierung der Geheimgesellschaften marschiert ein ungewöhnlicher Anblick durch die Straßen von Monrovia. An ihrer Spitze steht der in Ungnade gefallene Großmeister Frank Tolbert, dem das Amt des Vizepräsidenten wegen seiner Jähzornigkeit verweigert wurde. Zusammen mit mehreren Mitgliedern des Freimaurerordens von Liberia führt Frank Tolbert eine bewaffnete Parade zum Präsidentenpalast an! Warum sollten uns die mächtigen Freimaurer jetzt verraten?"
+lib.10.a: "Verlasst Monrovia! Überlasst Barclay den Wölfen."
+lib.10.b: "Diese Verräter haben keine Macht, verhaftet sie!"
+
+lib.11.t: "Die rote Flut trifft Liberia!"
+lib.11.d: "Das Verbot von Geheimgesellschaften hat unsere eigene politische Sphäre geschwächt. Niemand hat uns auf die liberianische Destiny-Bande aufmerksam gemacht, die unter der Führung von George Padmore durch das Hinterland zieht. Padmore ist ein amerikanischer Einwanderer, der sich für die syndikalistische Ideologie von John Reed begeistert hat und den Syndikalismus in Afrika aufbauen will. Padmores Bande von Syndikalisten ist nun bewaffnet und gefährlich in Monrovia eingedrungen und hat es auf unseren Präsidenten abgesehen. Das Schicksal von Liberia steht auf dem Spiel!"
+lib.11.a: "Ich hab's! Verteidigt die Boote während wir fliehen."
+lib.11.b: "Die liberianische Grenztruppe sollte sie aufhalten."
+
+lib.12.t: "Die Ausländerverschwörung"
+lib.12.d: "Da die neue Regierung nun unter unserer Kontrolle steht, müssen wir unsere eigene Position verstehen. So wie wir Liberia gestürzt haben, könnten die ausländischen amerikanischen Einwanderer in Liberia auch uns stürzen. Seit dem Abhörposten und der Bombardierung Liberias haben die Ausländer aus Europa ihre Hintergedanken gezeigt, um uns zu unterwerfen. Auch wenn einige unserer Logenmitglieder wichtige Geschäftsbeziehungen zum Ausland unterhalten, weiß unser Großmeister, dass dies nur unsere Entschlossenheit untergraben wird."
+lib.12.a: "Unbekannte Menschen sind eine Bedrohung für Ifa Mo. Bringt sie zum Schweigen!"
+lib.12.b: "Die Verfolgung von Ausländern beißt die Hand, die uns füttert."
+
+lib.13.t: "Die rote Bedrohung"
+lib.13.d: "Sozialismus und Syndikalismus haben sowohl in den USA als auch im Ausland zu massiven Unruhen geführt. Seit dem Fall Frankreichs bis zum heutigen Tag wird die wachsende rote Bedrohung nicht nachlassen, bis wir sie selbst zerschlagen haben! Man braucht nur einen Blick auf den in Ungnade gefallenen J.J. Dossen zu werfen, der den Sozialismus annahm, um seine scheiternde politische Karriere zu retten. Der einzige Vorbehalt, den die Großloge äußert, ist, dass der Reichtum der amerikanischen Einwanderer nicht gut ankommen würde. Die Verfolgung der Einwanderer könnte ihr Vertrauen in die Regierung untergraben und damit auch ihr wirtschaftliches Potenzial."
+lib.13.a: "Der Syndikalismus wird dieses Land niemals erobern!"
+lib.13.b: "Ja, die beiden Sozialisten in Liberia brauchen unsere Aufmerksamkeit... der nächste bitte."
+
+lib.14.t: "Das Ende der Republikaner"
+lib.14.d: "Zu lange hat die True Whig Party unsere Ideen für eine freie Marktwirtschaft unterdrückt. Es bedurfte einer wirtschaftlichen Katastrophe, um unseren Einparteienstaat zu korrigieren. Sollten wir in der liberianischen Verfassung verankern, dass man Mitglied einer Prince Hall Freemason Lodge sein muss, um der Öffentlichkeit zu dienen? Sollen wir die Sicherheit unserer Partei auf Dauer gewährleisten, oder ist ein Zweiparteiensystem das bessere Ergebnis?"
+lib.14.a: "Die Loge besitzt die Republik Liberia."
+lib.14.b: "Ein Zweiparteiensystem ist Tradition."
+
+lib.20.t: "Der Beginn des afrikanischen Commonwealth!"
+lib.20.d: "Mit unserer totalen Kontrolle über Westafrika können wir nun ein Commonwealth freier Nationen bilden, nicht unähnlich dem, das von den Herrschaftsgebieten des ehemaligen britischen Reiches gebildet wurde. In dieser Welt der ideologischen Kriege und der wirtschaftlichen Ausbeutung müssen wir freien Menschen Westafrikas zusammenstehen. So können wir die Vielfalt Westafrikas am besten auf demokratische Weise repräsentieren."
+lib.20.a: "Ausgezeichnet."
+
+lib.21.t: "Freigabe von Guinea."
+lib.21.d: "Guinea soll in unser neues afrikanisches Commonwealth aufgenommen werden."
+lib.21.a: "Our Commonwealth grows."
+
+lib.22.t: "Freigabe der Goldküste."
+lib.22.d: "Die Goldküste soll in unser neues afrikanisches Commonwealth aufgenommen werden."
+lib.22.a: "Our Commonwealth Grows."
+
+lib.23.t: "Freigabe der Elfenbeinküste."
+lib.23.d: "Die Elfenbeinküste soll in unser neues afrikanisches Commonwealth aufgenommen werden."
+lib.23.a: "Our Commonwealth Grows."
+
+lib.51.t: "Liberia fordert Sierra Leone"
+lib.51.d: "Liberia hat den Staat Sierra Leone lange Zeit begehrt, da es ihn als eine Art Bruderland betrachtet, das von Sklaven gegründet wurde, die aus Kanada nach Afrika zurückgeschickt wurden. Jetzt haben sie uns ein Ultimatum gestellt. Entweder wir übergeben es ihnen, oder es wird Krieg geben."
+lib.51.a: "Gut, sollen sie es haben."
+lib.51.b: "Meinen die das ernst? Absolut nicht!"
+
+lib.52.t: "[From.GetNameDefCap] hat abgelehnt"
+lib.52.d: "Nachdem die [From.GetAdjective] Regierung unsere Forderungen gehört und unsere Diplomaten aus dem Konferenzraum gelacht hatte, bleiben uns nur wenige Optionen für das weitere Vorgehen. Ist diese Beleidigung der Beginn eines großen lib.ration-Krieges, oder ist es ein weiterer gescheiterter Traum in Liberia?"
+lib.52.a: "Dieses Land wird frei sein, DURCH GEWALT!"
+lib.52.b: "Wir haben keine Chance, sie auf dem Schlachtfeld zu bekämpfen."
+
+lib.53.t: "Sierra Leone gehört uns"
+lib.53.d: "Anscheinend hatte die [From.GetAdjective] Regierung zu viel Angst davor, in einen Krieg mit uns verwickelt zu werden - sie hat zugestimmt, uns Sierra Leone zu übergeben."
+lib.53.a: "Ausgezeichnet."
+
+lib.54.t: "Die französische Niederlage"
+lib.54.d: "Nach brutalen Kämpfen mit den Exil-Franzosen haben wir sie aus dem Land und tiefer in die nördlichen Wüsten vertrieben. Unser Militärkabinett glaubt, dass wir mit ihnen zu besseren Bedingungen verhandeln können. Wenn wir jetzt ein Abkommen unterzeichnen, wäre das ein großer politischer Sieg für uns."
+lib.54.a: "Schickt den Franzosen einen Friedensvorschlag."
+lib.54.b: "Wir sind noch nicht bereit für den Frieden."
+
+lib.55.t: "Die Liberianer bieten Frieden an!"
+lib.55.d: "Nach einem unwahrscheinlichen Sieg der Pseudo-Amerikaner in Liberia haben wir uns zurückgezogen. Die liberianische Armee sichert ihre Errungenschaften und bereitet sich darauf vor, ins Landesinnere vorzudringen, aber sie bietet an, alle Feindseligkeiten einzustellen, wenn wir ihnen Sierra Leone abtreten."
+lib.55.a: "Mögen die amerikanischen und britischen Narren frohlocken."
+lib.55.b: "Niemals! Die französische Ehre steht auf dem Spiel!"
+
+lib.56.t: "[From.GetNameDefCap] lehnt Frieden ab!"
+lib.56.d: "Es scheint, dass die [From.GetAdjective] Regierung sich weigert, Vernunft anzunehmen. Wir werden weiter kämpfen müssen."
+lib.56.a: "Das werden sie noch bereuen."
+
+lib.57.t: "Liberia marschiert in die Elfenbeinküste ein"
+lib.57.d: "Liberia hat sich lange nach der Elfenbeinküste gesehnt und sieht die Region als verwandt an. Sie haben sich vorgemacht, dass sie die Elfenbeinküste befreien wollen und dass es sie zu Adeligen macht, wenn sie Familie in Amerika haben. Heute ist ihr Wahn jedoch zu weit gegangen; ohne Rücksicht auf unsere Grenzen haben sie Truppen in unser Land geschickt und erklären die Elfenbeinküste zu ihrem Besitz!"
+lib.57.a: "Gut, wenn sie es so sehr wollen, können sie es haben."
+lib.57.b: "Wie können sie es wagen! Wir werden sie über die Grenze und darüber hinaus zurückdrängen!"
+
+lib.58.t: "[From.GetNameDefCap] Has Refused"
+lib.58.d: "Nachdem die [From.GetAdjective] Regierung unsere Forderungen gehört und unsere Diplomaten aus dem Konferenzraum gelacht hatte, bleiben uns nur wenige Optionen für das weitere Vorgehen. Ist diese Beleidigung der Beginn eines großen lib.ration-Krieges, oder ist es ein weiterer gescheiterter Traum in Liberia?"
+lib.58.a: "Dieses Land wird frei sein, DURCH GEWALT!"
+lib.58.b: "Wir haben keine Chance, sie auf dem Schlachtfeld zu bekämpfen."
+
+lib.59.t: "Die Elfenbeinküste gehört uns"
+lib.59.d: "Anscheinend hatte die [From.GetAdjective] Regierung zu viel Angst, in einen Krieg mit uns verwickelt zu werden - sie hat sich bereit erklärt, die Elfenbeinküste aufzugeben."
+
+lib.85.t: "Ein Bailout für unsere Wirtschaft"
+lib.85.d: "Nach Jahren des wirtschaftlichen Abschwungs seit der Großen Depression und den Auswirkungen des Schwarzen Montags liegt unsere junge Wirtschaft in Trümmern. Die wenigen Wirtschaftsexperten, die wir in Liberia haben, schlagen vor, dass wir eine der Mächte, in deren wirtschaftlicher Sphäre wir uns befinden, um eine Rettungsaktion bitten. Wir haben die USA, zu denen wir engere Beziehungen unterhalten, aber sie haben eine lange Liste von Problemen im eigenen Land. Dann gibt es noch das Deutsche Reich, dem es besser geht als den USA, das uns aber weit weniger freundlich gesonnen ist. Unsere letzte und bei weitem unangenehmste Option ist, die Firestone Corporation zu fragen. Sie haben hier einen großen wirtschaftlichen Einfluss und werden nicht von den Betreibernationen mit Einkaufslisten von Problemen belastet, aber sie haben auch die schwächste Moral und sind bei weitem am ausbeuterischsten. Wen sollen wir fragen?"
+lib.85.a: "Unsere alten Freunde zurück in den Staaten."
+lib.85.b: "Firestone wird uns profitabel machen."
+lib.85.c: "Das Reich hat das Geld und die Macht."
+
+lib.86.t: "Liberia bittet um Hilfe"
+lib.86.d: "Die liberianische Regierung, die durch die Auswirkungen des Schwarzen Montags zusätzlich zu ihrer erdrückenden Staatsverschuldung gelähmt ist, hat einen Abgesandten entsandt, der die amerikanische Regierung um Hilfe bei der Rettung des Landes bittet. Wir haben unsere eigenen Probleme zu bewältigen, aber der Betrag, den sie dringend benötigen, ist im Vergleich dazu gering und wird uns garantieren, dass wir weiterhin ein Verbündeter in Afrika bleiben. Wie sollen wir darauf reagieren?"
+lib.86.a: "Natürlich werden wir helfen."
+lib.86.b: "Sie sind auf sich allein gestellt."
+
+lib.87.d: "Die liberianische Regierung, die durch die Auswirkungen des Schwarzen Montags zusätzlich zu ihrer überwältigenden Staatsverschuldung gelähmt ist, hat einen Abgesandten geschickt, der die deutsche Regierung um Hilfe bei einer Rettungsaktion bittet. Wir haben unsere eigenen Probleme zu bewältigen, aber der Betrag, den sie dringend benötigen, ist im Vergleich dazu gering... und im Gegenzug werden sie wahrscheinlich rechtzeitig unserem Militärbündnis beitreten, was auch immer das wert ist. Ist ein weiterer afrikanischer Verbündeter die Kosten einer solchen Großzügigkeit wert?"
+
+lib.88.t: "Kein [From.GetAdjective] Bailout"
+lib.88.d: "Die [From.GetAdjective] Regierung hat sich rundheraus geweigert, uns die dringend benötigte Hilfe zukommen zu lassen, da sie offensichtlich mit ihren eigenen Problemen beschäftigt ist. An wen sollen wir uns jetzt wenden?"
+lib.88.a: "Die Amerikaner."
+lib.88.b: "Die Deutschen."
+lib.88.c: "Es scheint, dass Firestone unsere einzige Hoffnung ist."
+
+lib.89.t: "[From.GetNameDefCap] stimmt zu!"
+lib.89.d: "Die [From.GetAdjective] Regierung hat sich gnädigerweise bereit erklärt, Liberia mit einem wirtschaftlichen Rettungspaket zu helfen. Es scheint also doch noch Hoffnung zu geben!"
+lib.89.a: "Was für eine Erleichterung."
+
+lib.90.t: "Liberia erklärt seine Unabhängigkeit"
+lib.90.d.default: "Während Liberia bisher ein Protektorat von [ROOT.GetNameDef] war, hat es heute seine Unabhängigkeit erklärt und alle [ROOT.GetAdjective] Berater aus seiner Regierung verbannt. Es gibt Bedenken hinsichtlich der Sicherheit der in Liberia verbliebenen [ROOT.GetAdjective] Bürger, und es steht auch eine Frage des Nationalstolzes auf dem Spiel ... aber ist das wirklich den Preis der Repressalien wert?"
+lib.90.d.faction: "Während Liberia bis jetzt ein Protektorat von [ROOT.GetNameDef] war, hat es heute seine Unabhängigkeit erklärt und alle [ROOT.GetAdjective]-Berater aus seiner Regierung verbannt. Man munkelt, dass sie sich mit [FROM.faction_leader.GetNameDef] und der [FROM.faction_leader.GetFactionName] verbündet haben, offenbar in dem Glauben, dass sie vor jeglichen Repressalien von [ROOT.GetAdjective] geschützt werden.
+lib.90.a: "Wir haben kaum eine andere Wahl, als sie sein zu lassen."
+lib.90.b: "Sie können nicht so einfach entkommen."
+
+lib.91.t: "Liberia will der Internationalen Gemeinschaft beitreten"
+lib.91.d: "Die Liberianer, die kürzlich über die Vorteile einer sozialistischen Regierung aufgeklärt wurden, sind mit einer Bitte an uns herangetreten. Sie möchten offiziell der Internationalen beitreten. Wäre ein Verbündeter in Afrika sinnvoll??"
+lib.91.a: "Ja, natürlich! Wir begrüßen sie."
+lib.91.b: "Wir brauchen keine Verbündeten wie sie."
+
+lib.92.t: "[From.GetNameDefCap] lehnt ab"
+lib.92.d: "Die [From.GetAdjective] Regierung hat unseren Antrag auf Beitritt zu ihrem Bündnis abgelehnt. Vielleicht sind wir für ihre Verhältnisse nicht syndikalistisch genug oder als Verbündete nicht würdig. Wie auch immer, die Antwort war eindeutig nein."
+lib.92.a: "Die Zeitschrift "The Negro Worker" hat gelogen?"
+
+lib.93.t: "Amerika ist gefallen"
+lib.93.d: "Es scheint, dass die amerikanische Regierung angesichts ihres Bürgerkriegs zusammengebrochen ist. Wohl oder übel kann sie uns nicht mehr helfen."
+lib.93.a: "Wir werden aus eigener Kraft überleben!"
+lib.93.b: "Vielleicht sind die Deutschen langlebiger..."
+lib.93.c: "Es scheint, dass Firestone unsere einzige Hoffnung ist."
+
+lib.94.t: "Bitte um Hilfe von [from.GetNameDefCap]"
+lib.94.desc: "Bevor wir einen Antrag auf Hilfe stellen, müssen wir entscheiden, um welche Art von Hilfe es sich handelt - Ausrüstung für unsere Armee, Flugzeuge für die Luftstreitkräfte, Werften zum Bau neuer Schiffe für die Marine oder industrielle Investitionen."
+lib.94.a: "Bittet um Gewehre für unsere Armee."
+lib.94.b: "Bittet um eine Gruppe von Flugzeugen."
+lib.94.c: "Bittet um Pachtverträge für Werften."
+lib.94.d: "Fordert industrielle Investitionen."
+
+lib.941.t: "Verstecktes Ereignis (Sie sollen dieses Ereignis nicht sehen)"
+lib.941.desc: "Dies ist ein Ereignis, das versteckt sein sollte. Wenn Sie dieses Ereignis unter normalen Umständen sehen (d.h. Sie haben es nicht selbst über die Konsole ausgelöst), melden Sie es bitte."
+lib.941.a: "§RBitte melden Sie dieses Ereignis, wenn Sie es sehen.§!"
+
+lib.95.t: "Liberia möchte Infanterieausrüstung erhalten"
+lib.95.desc: "Die kleine westafrikanische Nation Liberia ist keineswegs eine Großmacht, aber sie ist vor kurzem in unseren Einflussbereich gefallen, und ihre geografische Lage könnte sich als nützlich erweisen.\n Die liberianische Regierung, die ihre Streitkräfte aufbauen möchte und der es an der einheimischen Industrie zur Bewaffnung fehlt, hat sich an uns gewandt, in der Hoffnung, Gewehre und modernere Ausrüstung wie Artillerie zu erhalten.\nAls Gegenleistung für diese Hilfe verspricht uns die liberianische Regierung Zugeständnisse in Form einer gewissen Kontrolle über die Kautschukplantagen in ihrem Land."
+lib.95.descUSA: "Seit seiner Gründung unterhält Liberia enge Beziehungen zu Amerika, und aufgrund seiner geografischen Lage an der westafrikanischen Küste könnte es sich als nützlich erweisen, wenn Amerika einen Stützpunkt in der Region benötigt.\nDie liberianische Regierung, die ihre Streitkräfte aufrüsten möchte, aber nicht über die nötige lokale Industrie verfügt, um sich selbst zu bewaffnen, hat sich an uns gewandt, in der Hoffnung, Gewehre und fortschrittlichere Ausrüstung, wie z.B. Artillerie, zu erhalten.\nIm Gegenzug für diese Hilfe verspricht uns die liberianische Regierung Zugeständnisse in Form einer gewissen Kontrolle über die Kautschukplantagen in ihrem Land."
+lib.95.a: "Gebt ihnen Gewehre."
+lib.95.b: "Gebt ihnen Gewehre, Zusatzausrüstung und Artillerie."
+lib.95.c: "Wir würden das, was wir haben, lieber für uns behalten."
+
+lib.951.t: "[from.GetNameDefCap] schenkt uns Gewehre"
+lib.951.desc: "Es scheint, dass unsere Bitte nicht auf taube Ohren gestoßen ist, und eine Lieferung von Gewehren zur Bewaffnung unserer Infanterie wurde von [von.GetNameDef] an uns übergeben."
+lib.951.a: "Gut."
+
+lib.952.t: "[from.GetNameDefCap] gibt uns Gewehre, Artillerie und andere Ausrüstung"
+lib.952.desc: "Es scheint, dass unsere Bitte nicht auf taube Ohren gestoßen ist, sondern dass die Regierung [from.GetAdjective] beschlossen hat, uns mit mehr auszustatten, als wir erbeten hatten, und uns sowohl Gewehre als auch Artillerie und andere Ausrüstungsgegenstände zu schicken, die sowohl auf dem Schlachtfeld als auch außerhalb davon von großem Nutzen sein könnten."
+lib.952.a: "Sehr gut."
+
+lib.953.t: "Unsere Anfrage kommt mit leeren Händen zurück"
+lib.953.desc: "Es hat den Anschein, dass unsere bescheidene Bitte um Hilfe unsere geschätzten Verbündeten nicht überzeugen konnte, weil sie entweder nicht über das geeignete Material verfügen, um uns zu beliefern, oder weil sie der Ansicht sind, dass die Erhaltung dieses Materials an ihrer Heimatfront die größere Priorität hat."
+lib.953.a: "Unglücklich."
+lib.953.b: "Vielleicht könnten sie ein anderes Anliegen erfüllen?"
+
+lib.96.t: "Liberia will Flugzeuge"
+lib.96.desc: "The small west african nation of Liberia is by no means an major power, however, it has recently fallen into our sphere of influence, and its geographical location might prove to be of good use.\nThe Liberian government, wishing to build their airforces, and without much in the way of local air industry (or much industry of note, being an agrarian nation), they have contacted us with the request of sending them airplanes and the crew to fly them as "volunteers".\nIn return for this aid, the Liberian government is promising us concessions in the form of a measure of control over the rubber plantations in their country."
+lib.96.descUSA: "Ever since its founding, Liberia has had close relationship with America, and with their geographical location on the coast of west africa, they might prove of use, should America need a base in the area.\nThe Liberian government, wishing to build their airforces, and without much in the way of local air industry (or much industry of note, being an agrarian nation), they have contacted us with the request of sending them airplanes and the crew to fly them as "volunteers".\nIn return for this aid, the Liberian government is promising us concessions in the form of a measure of control over the rubber plantations in their country."
+lib.96.a: "Veranlasst, dass eine Flugzeugstaffel nach Monrovia geflogen wird."
+lib.96.b: "Alle unsere Flugzeuge sind für unsere eigene Verteidigung unerlässlich."
+
+lib.961.t: "[from.GetNameDefCap] schickt Flugzeuge"
+lib.961.desc: "Unsere Bitten um Luftunterstützung wurden erhört, denn ein Geschwader von [FROM.GetAdjective] Kampfflugzeugen wurde soeben von [FROM.GetNameDef] zu uns entsandt, um als "Freiwillige" in unserer Luftstreitkräfte zu dienen."
+lib.961.descUSA: "Es scheint, dass unser Ersuchen um Hilfe in Form von Flugzeugen nicht übersehen wurde, da ein Geschwader von Kampfflugzeugen und freiwilligen Besatzungen, viele von ihnen Afroamerikaner, die so genannten "Tuskegee Airmen", die sich zum Dienst gemeldet haben, in der Hoffnung, dem harten Leben in ihrer Heimat zu entkommen, in Monrovia eingetroffen sind, um unsere Luftstreitkräfte zu unterstützen."
+lib.961.a: "Wunderbar."
+
+lib.97.t: "Liberia will unsere Werften nutzen"
+lib.97.desc: "Die kleine westafrikanische Nation Liberia ist zwar keine Großmacht, aber sie ist kürzlich in unseren Einflussbereich geraten, und ihre geografische Lage könnte sich als nützlich erweisen. \nDie liberianische Regierung, die ihre Seestreitkräfte ausbauen möchte, hat uns gebeten, ihr ein Geschäft mit lokalen Werften zu vermitteln, die andernfalls vielleicht nicht daran interessiert wären, ihre Ressourcen für eine kleine und relativ arme Nation wie Liberia einzusetzen.\nAls Gegenleistung für diese Hilfe verspricht uns die liberianische Regierung Zugeständnisse in Form einer gewissen Kontrolle über die Kautschukplantagen in ihrem Land."
+lib.97.descUSA: "Seit seiner Gründung unterhält Liberia enge Beziehungen zu Amerika, und aufgrund seiner geografischen Lage an der westafrikanischen Küste könnte es sich als nützlich erweisen, wenn Amerika einen Stützpunkt in diesem Gebiet benötigt. \nDie liberianische Regierung, die ihre Marinestreitkräfte ausbauen möchte, hat uns gebeten, ihr ein Geschäft mit lokalen Werften zu vermitteln, die andernfalls vielleicht nicht daran interessiert wären, ihre Ressourcen für eine kleine und relativ arme Nation wie Liberia einzusetzen.\nAls Gegenleistung für diese Hilfe verspricht uns die liberianische Regierung Zugeständnisse in Form einer gewissen Kontrolle über die Kautschukplantagen in ihrem Land."
+lib.97.a: "Wir arrangieren gerne ein solches Geschäft."
+lib.97.b: "Wir brauchen alle Schiffbaukapazitäten, die wir bekommen können."
+
+lib.971.t: "[from.GetNameDefCap] gibt uns Werften"
+lib.971.desc: "Es scheint, dass das Geschäft, das wir der Regierung [FROM.GetAdjective] angeboten haben, erfolgreich war und uns Zugang zu mehr Schiffbaukapazitäten verschafft hat, allerdings nur für eine begrenzte Zeit, bevor sich diese Werften wieder auf den Bau lukrativerer Aufträge konzentrieren werden."
+lib.971.a: "Wir sollten diese Zeit gut nutzen."
+
+lib.972.t: "Werften schließen die liberianischen Verträgen ab"
+lib.972.desc: "Nachdem unsere Werften eine Zeit lang Schiffe für die liberianischen Seestreitkräfte gebaut haben, sind sie nach dem mit Liberia abgeschlossenen Abkommen wieder dazu übergegangen, Schiffe für uns zu bauen."
+lib.972.a: "Sehr schön."
+
+lib.98.t: "Liberia will Investitionen in seine Infrastruktur"
+lib.98.desc: "Das kleine westafrikanische Land Liberia ist zwar keine Großmacht, aber es ist kürzlich in unseren Einflussbereich geraten, und seine geografische Lage könnte sich als nützlich erweisen.\nDie liberianische Regierung, die ihre heimische Infrastruktur aufbauen möchte, hat sich an uns gewandt, in der Hoffnung, ein Geschäft mit einheimischen Unternehmen zu vermitteln, die nach Liberia gehen und im Baugewerbe arbeiten könnten.\nAls Gegenleistung für diese Hilfe verspricht uns die liberianische Regierung Zugeständnisse in Form einer gewissen Kontrolle über die Kautschukplantagen in ihrem Land."
+lib.98.descUSA: "Seit seiner Gründung unterhält Liberia enge Beziehungen zu Amerika, und aufgrund seiner geografischen Lage an der westafrikanischen Küste könnte es sich als nützlich erweisen, wenn Amerika einen Stützpunkt in der Region benötigt.\nDie liberianische Regierung, die ihre heimische Infrastruktur aufbauen möchte, hat sich an uns gewandt, in der Hoffnung, ein Geschäft mit einheimischen Unternehmen zu vermitteln, die nach Liberia gehen und im Baugewerbe arbeiten könnten.\nAls Gegenleistung für diese Hilfe verspricht uns die liberianische Regierung Zugeständnisse in Form einer gewissen Kontrolle über die Kautschukplantagen in ihrem Land."
+lib.98.a: "Klingt nach einem guten Geschäft."
+lib.98.b: "Wir haben kein Interesse daran."
+
+lib.981.t: "Infrastrukturinvestitionen von [from.GetNameDef]"
+lib.981.desc: "Es scheint, dass der Deal, den wir der Regierung [FROM.GetAdjective] angeboten haben, erfolgreich war und uns Zugang zu modernen Baumaschinen und geschulten Arbeitskräften verschafft hat, allerdings nur für eine begrenzte Zeit, bevor ihre Verträge auslaufen und sie in ihre Heimat zurückkehren werden."
+lib.981.a: "Wir sollten diese Zeit gut nutzen."
+
+lib.982.t: "Unsere Bautrupps kehren aus Liberia zurück"
+lib.982.desc: "Die Bautrupps, die nach Liberia entsandt wurden, um die Infrastruktur zu verbessern, sind in ihre Heimat zurückgekehrt, um alles zu tun, was wir brauchen."
+lib.982.a: "Trautes Heim, Glück allein."
+
+### Focuses ###
+LIB_assess_economy: "Beurteilung der Wirtschaft"
+LIB_assess_economy_desc: "Unsere Regierung schuldet insgesamt 6,4 Millionen Dollar an eine Kombination aus privaten Investoren und der US-Regierung. Da sich die Wirtschaftskrise in Amerika nicht bessert, hat die US-Regierung beschlossen, uns für unsere Schulden zur Rechenschaft zu ziehen, und unsere Investoren werden wahrscheinlich dasselbe tun. Wir müssen eine neue Einnahmequelle finden, und zwar schnell."
+
+LIB_increase_taxes: "Steuererhöhung"
+LIB_increase_taxes_desc: "Benjamin Franklin, ein großer Amerikaner, sagte einmal, dass Tod und Steuern die einzige Gewissheit im Leben seien. Die 1932 eingeführte jährliche Hüttensteuer in Höhe von 1$ wird um das Dreifache erhöht werden müssen. Auf amerikanische Importe, wie Kleidung und Kameras, werden Zölle erhoben. Wir werden das liberianische Volk aufrütteln, sich für den Wohlstand seiner Kinder zu engagieren."
+
+LIB_bailout_partner: "Findeteinen Bailout-Partner"
+LIB_bailout_partner_desc: "Sie ist sich nicht bewusst, dass unsere eigenen Stiefelschlaufen unsere sich verschlechternde Wirtschaft nicht retten werden. Nur durch die Zusammenarbeit mit einem externen Partner können wir die Wirtschaft retten. Wir können die Firestone Natural Rubber Company, die US-Regierung oder sogar Deutschland fragen."
+
+LIB_bailout_ger: "Deutscher Bailout"
+LIB_bailout_ger_desc: "Hatte unser deutscher Botschafter, Massaquoi, nicht einen Plan, wie Deutschland uns aus der Patsche helfen könnte? Wir mögen in der Vergangenheit unsere Differenzen mit Deutschland gehabt haben, aber das ist Geschichte. die Zukunft der Welt, von Afrika, liegt wahrscheinlich in ihren Händen."
+
+LIB_bailout_firestone: "Geschäft mit Firestone"
+LIB_bailout_firestone_desc: "Wir müssen dem Geld, das bereits in Liberia vorhanden ist, Priorität einräumen. Harvey Firestone besitzt 1,5 Millionen Hektar Land und ist bereit, uns aus den Schulden zu helfen. Nach seinen Worten ist unsere Zahlungsfähigkeit ein Zeichen des Stolzes für sein Unternehmen."
+
+LIB_bailout_usa: "Ein amerikanischer Bailout"
+LIB_bailout_usa_desc: "Letztendlich brauchen die USA uns mehr als wir sie brauchen. Wenn ein Krieg an ihre Küste kommt, brauchen sie einen Verbündeten jenseits des Atlantiks. Schicken wir unseren Außenminister in die USA und finden wir einen Weg, die 3,4 Millionen Dollar zu erlassen."
+
+LIB_american_deal: "Onkel Sams Deal"
+LIB_american_deal_desc: "Die USA haben einer Einigung zugestimmt, aber sie sind so hart wie immer. Sie empfehlen uns, Konkurs anzumelden, was eine US-Bestimmung auslöst, die unsere Schulden im Gegenzug für erzwungene Sparmaßnahmen erlässt. Liberia würde dann in jeder Hinsicht zu einem "Unincorporated Unorganized Territory" werden, nur nicht dem Namen nach."
+
+LIB_tax_exemption: "Verlängerung der Steuerbefreiung"
+LIB_tax_exemption_desc: "Da die USA die informelle Macht, die sie über Liberia ausübten, nun formalisiert haben, erhalten wir nun einige soziale Dienstleistungen der USA. Wir können noch mehr tun, indem wir eine dreifache Steuerbefreiung fordern, die es US-Unternehmen erleichtert, nach Liberia zu kommen."
+
+LIB_land_speculation: "Grundstücksspekulation"
+LIB_land_speculation_desc: "Die Firestone Company kam erst nach Liberia, als Spekulanten das Land für geeignet hielten. Wenn die US-Regierung mehr Landspekulanten schicken würde, könnten wir unseren Ressourcenpool erweitern und die Infrastruktur verbessern."
+
+LIB_rubber_plants: "Kautschukfabriken in ganz Liberia"
+LIB_rubber_plants_desc: "Harvey Firestone hat sich bereit erklärt, 3 Millionen Dollar in Form von Staatsanleihen und Bargeld zu zahlen. Im Gegenzug bittet er die liberianische Regierung, seinen Mitarbeitern bei Ford bestimmte "Vorteile" zu gewähren."
+
+LIB_facilitate_lobbying: "Erleichterung der Lobbyarbeit"
+LIB_facilitate_lobbying_desc: "Wegen unseres Geschäfts mit Firestone ist in unseren Ministerien Unruhe ausgebrochen. Sie haben Beweise dafür, dass Firestone Sklavenarbeit betreibt und die Gewerkschaften verfolgt. Zum Glück ist noch genug Schmiergeld übrig, um sie zum Schweigen zu bringen."
+
+LIB_repair_railway: "Reparatur der liberianischen Haupteisenbahnlinie"
+LIB_repair_railway_desc: "Diese neue Vereinbarung mit Ford und Firestone erfordert, dass wir die Hauptstrecke der Eisenbahn wieder aufbauen. Wir werden sogar unsere Armee entlang der Strecke ausbilden. Mal sehen, ob unsere Saboteure mutig genug sind, es erneut zu versuchen."
+
+LIB_join_germany: "Die Rückkehr von Massaquoi"
+LIB_join_germany_desc: "Das Angebot, das auf dem Tisch liegt, ist das größte, das jemals vor unserer Haustür gelandet ist. Schließen Sie sich dem Deutschen Reich an und tilgen Sie die Schulden. Wenn die Alternative Armut und schließlich Sklaverei ist, entscheiden wir uns für die Herrschaft der Deutschen."
+
+LIB_german_industry: "Deutsches Industriemodell"
+LIB_german_industry_desc: "Die deutsche Produktionsmethode legt Wert auf eine umfassende Planung in der Konstruktionsphase. Arbeitssparende Maschinen, Kantinen und mitreißende Musik werden als Geschenk an die Grain Coast geschickt."
+
+LIB_german_tech: "Kaiserliche Technologie"
+LIB_german_tech_desc: "Ein zweiter Konvoi trifft mit Wissenschaftlern und Plänen ein. Der Kaiser will, dass wir eine Musterkolonie werden, so wie Nigeria einst für Großbritannien war. Hoffen wir, dass Mittelafrika nicht neidisch wird."
+
+LIB_economy_direction: "Richtung der Wirtschaft"
+LIB_economy_direction_desc: "Endlich haben wir uns von dem Einbruch erholt, der mit der US-Depression begann. Wir müssen unser Land jetzt auf alles vorbereiten, was die Zukunft bringen wird."
+
+LIB_civ_ind_1: "Zivile Industrie"
+LIB_civ_ind_1_desc: "Der Krieg ist weit weg, und wir haben immer noch viele Arbeitslose. Wenn wir eine autarke Wirtschaft werden wollen, müssen wir langfristige Investitionen tätigen."
+
+LIB_civ_ind_2: "Neue Industriestädte"
+LIB_civ_ind_2_desc: "Wir sollten mit dem Bau einer Reihe von Städten entlang der Küste beginnen, um die Bevölkerung aus dem Dschungel zu vertreiben und unsere industriellen Kapazitäten zu erhöhen."
+
+LIB_civ_ind_3: "Ausbau von Monrovia"
+LIB_civ_ind_3_desc: "Monrovia ist zwar unsere Hauptstadt, aber für europäische Verhältnisse immer noch eine Kleinstadt. Wenn wir neue Industrieanlagen und Wohnhäuser errichten, dürften Massen von Arbeitern aus dem Hinterland auf der Suche nach einem Arbeitsplatz eintreffen."
+
+LIB_mobilisation_1: "Mobilisierung der Getreideküste"
+LIB_mobilisation_1_desc: "Die Amerikaner und Liberianer sind immer noch die Basis unserer Armee, und Monrovia ist immer noch die Basis unserer Macht. Wir sollten neue Militäreisenbahnen bauen, um die Nation effektiv zu kontrollieren."
+
+LIB_mobilisation_2: "Mobilisierung im Hinterland"
+LIB_mobilisation_2_desc: "Im Hinterland lebt immer noch die große Mehrheit unserer Bevölkerung, aber die meisten stehen nicht in Kontakt mit der liberianischen Regierung, sondern sind de facto unabhängige Einheiten. Wir sollten unsere Infrastruktur auf das riesige Gebiet ausdehnen, um die Urbanisierung zu fördern und die Einberufung zum Militär zu erleichtern."
+
+LIB_mil_ind_1: "Kriegsindustrie"
+LIB_mil_ind_1_desc: "Die Liebe zur Freiheit hat uns nach Liberia gebracht. Wir zeigen unsere Wertschätzung, indem wir uns bewaffnen. Wie es unsere Vorfahren taten."
+
+LIB_mil_ind_2: "Festung Maryland"
+LIB_mil_ind_2_desc: "Obwohl Monrovia uns fast ein Jahrhundert lang geschützt hat, müssen wir unsere Kontrollzone nach Süden ausweiten. Maryland an der ivorischen Grenze verschafft uns Zugang zu französischen Waren."
+
+LIB_university: "Ausbau des Universitätssystems"
+LIB_university_desc: "Unser Bildungssystem hat unserer Tradition der Freiheit nie entsprochen. Wir können eine neue Universität im Bezirk Montserrado errichten und sie nach dem ehrenwerten D.B. King benennen."
+
+LIB_mil_ind_3: "Festung Monrovia"
+LIB_mil_ind_3_desc: "Als das deutsche U-Boot 1921 Warnschüsse auf Monrovia abfeuerte, konnten wir uns nirgendwo verstecken. Wenn wir Monrovia kontrollieren, kontrollieren wir Liberia."
+
+LIB_assess_military: "Beurteilung des Militärs"
+LIB_assess_military_desc: "Die liberianische Armee ist eine kleine und unorganisierte Truppe, die mit Waffen aus der Zeit vor dem Zweiten Weltkrieg ausgerüstet ist. Wenn wir unsere Souveränität schützen wollen, müssen wir unsere Streitkräfte bewerten und Diskussionen darüber beginnen, wie sie zu einem richtigen und modernen Militär gemacht werden können."
+
+LIB_freemason_coup: "Freimaurerputsch"
+LIB_freemason_coup_desc: "Es war der größte Fehler von Edwin Barclay, Geheimgesellschaften an die Öffentlichkeit zu lassen. Noch schlimmer als das Staatsbürgerschaftsgesetz, für das er bezahlen wird. Unsere Partei ist der wahre Geist der freien Menschen, die nach Liberia zurückgekehrt sind, und nicht jeder Liberianer hat die Freiheit verdient."
+
+LIB_ultimatum_to_foreigners: "Ultimatum an Ausländer"
+LIB_ultimatum_to_foreigners_desc: "Mit Frank Tolbert als unserem Großmeister haben wir die Autorität, jeden Menschen zu verurteilen. Die Ausländer in Liberia, die Plantagenbesitzer und Flüchtlinge, teilen vielleicht nicht unsere Liebe zum Liberalismus. Wir brauchen nur gute Arbeiter, um ein großes Land aufzubauen."
+
+LIB_no_democracy: "Freiheit ohne Demokratie"
+LIB_no_democracy_desc: "Der Grund für den Untergang der True Whigs war nicht, dass sie korrupt waren, sondern dass sie sich selbst überlisten mussten, um zu beweisen, dass sie die Macht hatten, die ihrem Status entsprach. Wahlen in Liberia haben nie das Vertrauen in die Regierung gestärkt. Ifa Mo, die Geheimhaltung, gewährleistet eine stabile Regierung."
+
+LIB_natpop_rule: "Freiheit ohne Demokratie"
+LIB_natpop_rule_1: "Freiheit ohne Demokratie"
+
+LIB_power_to_poros: "Ermächtigung der Poros"
+LIB_power_to_poros_desc: "Wir sollten die Poros im Hinterland nicht als Ärgernis betrachten. Vielleicht hatte der verstorbene Edwin Barclay recht, ihnen eine Vertretung zu geben. Wenn wir die Macht der Gruppen auf diese zahlreichen Gruppen übertragen, könnten wir eine Armee aufstellen, die sich der Freiheit und dem Ifa Mo verschrieben hat."
+
+LIB_remove_corruption: "Korruption innerhalb der Grenztruppen"
+LIB_remove_corruption_desc: "Was als effiziente und moderne Armee begann, ist zu einem weiteren Verein verkommen. Die Rekruten lernen heute, wie man marschiert und die Nationalhymne schreit. Wir werden unsere Kommandeure zur Rede stellen."
+
+LIB_fighting_tooth_nail: "Mit Zähnen und Klauen gekämpft"
+LIB_fighting_tooth_nail_desc: "Wir können nicht leugnen, dass unsere Grenztruppen besser kämpfen, wenn sie in kleinen Abteilungen operieren. Die Guerillataktik ist zwar nicht ehrenhaft, aber unsere wahre Kampftradition."
+
+LIB_train_militias: "Ausbildung der Milizen"
+LIB_train_militias_desc: "Wir müssen dafür sorgen, dass unser Militär das Terrain kennt. Milizen können größere Feinde ausmanövrieren und schnell Land erobern."
+
+LIB_grand_battleplan: "Grundsätze der Schlacht"
+LIB_grand_battleplan_desc: "Als Deutschland in den Busch vorrückte, um Mittelafrika zu erobern, stellte es fest, dass die Kriegsgeräte die einzigen waren, die das raue Klima überlebten. Das Gewehr, die Pontonbrücke, das kleine Artilleriegeschütz. Das ist unser Brot und Butter."
+
+LIB_defense_force: "Die liberianischen Verteidigungskräfte"
+LIB_defense_force_desc: "Jetzt, da wir die Grundlagen des Militärs gefestigt haben, können wir damit beginnen, uns auf Elitetruppen zu spezialisieren. Die liberianische Task Force wird unsere letzte Verteidigungslinie sein, die bereit ist, für ihr Heimatland zu sterben, ohne Rücksicht auf Loyalität."
+
+LIB_bush_clearing: "Maschinen zur Beseitigung des Busches"
+LIB_bush_clearing_desc: "Es begann, als wir das Volk der Krahn unterwarfen, indem wir ihr Land pflügten. Wir können den Kontinent mit Panzern und Lastwagen unterwerfen. Es wird keinen Platz zum Verstecken geben."
+
+LIB_modern_war: "Maßnahmen gegen die moderne Kriegsführung"
+LIB_modern_war_desc: "Was aber, wenn unser Feind auch den Busch zerstört? Wir müssen sicherstellen, dass wir ausgebildet und ausgerüstet sind, um einem überlegenen Feind zu begegnen."
+
+LIB_new_army: "Die liberianische Armee"
+LIB_new_army_desc: "Jetzt singen unsere Männer über die Frauen, die sie während ihrer Abwesenheit vermissen werden. Die Nationalhymne wird über Lautsprecher gespielt. Wir sind eine moderne Armee."
+
+LIB_secret_societies: "Status der Geheimgesellschaften"
+LIB_secret_societies_desc: "Die Geheimgesellschaften, über die in den USA so viel geschimpft wird, bilden in Liberia ein paralleles Rechtssystem. Der ausschließlich amerikanisch-liberianische Freimaurerorden übt einen unbestreitbaren Einfluss innerhalb der True Whig Party aus, und die Poros im Hinterland ermöglichen den Entrechteten die Beteiligung an der lokalen Regierung entlang der Stammesgrenzen. Wir müssen diese Kräfte entweder in den Busch zurückdrängen oder sie herauslocken."
+
+LIB_1939_elections: "Präsidentschaftswahlen 1939"
+LIB_1939_elections_desc: "Nur unsere ältesten Staatsmänner, die im Jahr 1870 lebten, können sich an eine so umstrittene Wahl erinnern. Die Vorherrschaft der True Whig Party wird von Reformisten, Syndikalisten und Lobbyisten in Frage gestellt. Da uns unsere amerikanischen Ideale sehr am Herzen liegen, stimmen wir mit Überzeugung für unser Regierungssystem."
+
+LIB_true_whig_party: "Die True Whig Party"
+LIB_true_whig_party_desc: "Die True Whig Party, die Partei, die seit dem Ende des 19. Jahrhunderts die libysche Politik dominiert, hat sich bei den diesjährigen Wahlen eine weitere Amtszeit gesichert. Allerdings ist die True Whig Party nicht so groß, wie es den Anschein hat, und Edwin Barclays Position an der Spitze der Nation ist nicht so sicher, wie es scheint..."
+
+LIB_totalist_coup: "Liberianischer Schicksalscoup"
+LIB_totalist_coup_desc: "Die Unterdrückung der Geheimbünde ist der letzte Strohhalm, aber auch unsere größte Chance. Wenn die True Whigs sich nicht an die Grundlagen der Freiheit halten, dann sind sie Feinde der Freiheit und des Sozialismus."
+
+LIB_totalist_2: "Kampf um die Emanzipation"
+LIB_totalist_2_desc: "Die Union für immer, Jungs! Auch wenn die Whigs ins Hinterland fliehen, werden sie von einer Million freier Männer empfangen werden. Lasst uns auf die Plantagen gehen und die Sklaventreiber für immer entwurzeln!"
+
+LIB_totalist_3: "Keine Sklaven mehr"
+LIB_totalist_3_desc: "Seit fast 100 Jahren wird unsere Versklavung von den Vereinigten Staaten gebilligt. Damit ist jetzt Schluss! Die Internationale wird über unsere Ankunft jubeln."
+
+LIB_totalist_4: "Mit dem Rücken zum Meer"
+LIB_totalist_4_desc: "Die politische Realität in Liberia ist immer noch defensiv. Die französischen Exilanten können jeden Moment über uns herfallen und die Revolution beenden. Wir sollten uns darauf vorbereiten, den französischen Waffen mit Eifer zu begegnen."
+
+LIB_election_soccon: "True Whig Sieg"
+LIB_election_soccon_desc: "Edwin Barclay gewinnt die Wiederwahl und erreicht eine dritte Amtszeit, was seinem Vorgänger nicht gelungen ist. Die True Whig Party erringt ihren einzigen umkämpften Sieg seit 1869. In seiner Antrittsrede schwört Barclay, ein neues Kapitel für die Partei und die Nation aufzuschlagen."
+
+LIB_election_radsoc: "Peoples Party Sieg"
+LIB_election_radsoc_desc: "Der Weg zum Präsidentenpalast war für die Sozialisten schwierig. Sie trafen sich im Hinterland, koordinierten sich heimlich mit den IWW und verrieten sogar Padmores Bande. Alles mit dem Ziel, das True Whig-Regime legal zu verdrängen."
+
+LIB_election_mrklib: "True Whig Party (Zentrum) Sieg"
+LIB_election_mrklib_desc: "Die alten, älteren True Whigs sind gestorben, weil sie die Gnade ihrer Vorgesetzten, der Vereinigten Staaten, verloren haben. Wir haben die Stimmen geteilt und sind als Sieger hervorgegangen. Liberia wird sich jetzt verändern und eine bessere Union aufbauen."
+
+LIB_secure_citizenship: "Sichere Staatsbürgerschaft"
+LIB_secure_citizenship_desc: "Trotz der Verabschiedung des Staatsbürgerschaftsgesetzes von 1932 gibt es zahlreiche Probleme bei der Erteilung des Wahlrechts an Eingeborene. Die Hut Steuer, eine Steuer auf alle Wohnungen der Eingeborenen, die auch das Wahlrecht gewährte, wird weitgehend ignoriert. Wir müssen uns entscheiden, ob wir die Erhebung der Hut Tax fortsetzen und damit zu unserer Staatsverschuldung beitragen oder ob wir sie im Namen der wahren Freiheit abschaffen wollen."
+
+LIB_patronize_allies: "Schirmherrschaft über unsere Verbündeten"
+LIB_patronize_allies_desc: "Es ist zwar nicht im Sinne des Gesetzes, aber wir können Anreize für eine erneute Loyalität der Americo-Liberianer bieten. Andererseits kann dieses Kapital direkt in Unternehmen investiert werden, die unsere Arbeitslosigkeit und unsere klägliche Industrie beseitigen werden."
+
+LIB_judicial_reform: "Reform des Justizwesens"
+LIB_judicial_reform_desc: "Seit Beginn des 20. Jahrhunderts haben der Oberste Gerichtshof und die Bürokratie an Macht gewonnen. Die True Whig Party hat dies zugelassen, und im Gegenzug haben sie sich ausgetobt und die Bildung einer Opposition zugelassen. Wenn wir die Richter und die Bürokratie auf der Grundlage von Leistungsprinzipien aufbauen, kann uns das nur helfen."
+
+LIB_reconcile_totalists: "Versöhnung mit den Totalisten"
+LIB_reconcile_totalists_desc: "Als J.J. Dossen Padmore bei der Polizei anzeigte, schuf er einen Riss in der sozialistischen Union, die wir brauchen, um Liberia zu reparieren. Wenn wir ihn und seine Mitglieder begnadigen, beseitigen wir einen potenziellen Feind. Wir sehen beide die Ketten der Sklaverei, warum sollten wir uns um die Werkzeuge streiten, um sie zu zerschlagen?"
+
+LIB_emancipation: "Emanzipation für alle"
+LIB_emancipation_desc: "Als Liberia 1847 gegründet wurde, waren wir das "Land der Freien", so wie es auch die USA waren. Wenn wir sonst nichts erreichen, sollten wir die Zwangsarbeiter befreien und die Bildung für alle öffnen. Die Welt steht in dieser Hinsicht hinter uns."
+
+LIB_internationalism: "Internationalismus"
+LIB_internationalism_desc: "Wie James Ford uns angewiesen hat, werden wir uns an die Dritte Internationale und die Vereinigten Staaten wenden. In Frankreich werden wir ihnen vorschlagen, sich ihrer großen Union anzuschließen und die Sphäre der USA endgültig zu verlassen."
+
+LIB_amend_constitution: "Änderung der Verfassung"
+LIB_amend_constitution_desc: "Der Fehler in unserer Verfassung liegt nicht darin, dass sie auf dem amerikanischen System beruht. Unsere Gründer nahmen die Auslegung der Verfassung aus dem 19. Jahrhundert und fügten einen Schwur auf Gott und brüderliche Liebe hinzu. Wir müssen uns von den Bruderschaften und dem Theismus trennen."
+
+LIB_immigration: "Einwanderungsbeschränkungen aufheben"
+LIB_immigration_desc: "Während die USA Einwanderer aus Asien, Europa und Südamerika willkommen hießen, war unsere Einwanderung minimal. Das liegt an der lächerlichen Bedingung, schwarz sein zu müssen, um Staatsbürger zu werden. Sowohl die US-Regierung als auch unsere Firestone-Gönner sind damit einverstanden."
+
+LIB_foreign_investment: "Ausländische Investitionen anlocken"
+LIB_foreign_investment_desc: "Die Narren von der True Whig Party haben Kredite aufgenommen, um die Wirtschaft zu kontrollieren. Die Wirtschaft muss frei sein, damit unser Kautschuk etwas wert ist. Sollen doch die Ausländer kommen und ihr eigenes Geld direkt investieren und in Liberia leben."
+
+LIB_holy_materialism: "Gottgefälliger Materialismus"
+LIB_holy_materialism_desc: "Obwohl er sich selbst als Prophet Elias bezeichnete und behauptete, mit dem Engel Gabriel gesprochen zu haben, ist William Wadé Harris jetzt ein Verbündeter. Seine Vorstellung, dass materieller Besitz ein Zeichen von Gottes Gnade ist, ist genau das, was wir in Liberia brauchen. Wir sind zwar keine Fetischisten, aber wir brauchen mehr, um unser Land zu bereichern."
+
+LIB_race_mixing: "Eine weißere Schattierung von Bleiche"
+LIB_race_mixing_desc: "Unser Verbündeter, Gabriel Dennis, ist mit einem Buch von Joao Baptiste de Lacerda aus Brasilien zurückgekehrt. In dieser anthropologischen Abhandlung wird der Fehler bei der Leugnung der Rassenmischung aufgezeigt. Tatsächlich ist die Rassenmischung der Weg, um unseren eigenen Status als Nation in Afrika zu verbessern. Die alten Gesetze, die eine Vermischung der Rassen verhindern, müssen um unserer Kinder willen aufgehoben werden."
+
+LIB_legitimize_unions: "Legitimierung der Gewerkschaften"
+LIB_legitimize_unions_desc: "Die Entscheidung über Geheimgesellschaften hat das schmutzige Geheimnis Liberias gelüftet, aber wir schämen uns nicht für unsere Gewerkschaften. Die in Liberia wachsenden Gewerkschaften sind kein Feind, sondern ein potenzieller Verbündeter, um unsere Ziele der Emanzipation mit wirtschaftlicher Solvenz in Einklang zu bringen."
+
+LIB_spread_unionism: "Verbreite das Wort"
+LIB_spread_unionism_desc: "Auch wenn es eine Weile dauern wird, bis die Gewerkschaften modernisiert sind, können wir die Botschaft verbreiten. Die liberianischen Journalisten sind bereit, auf Französisch und Kreolisch zu veröffentlichen und den Soziallibalismus in ganz Westafrika zu verbreiten."
+
+LIB_african_investment: "Afrikanische Investitionen"
+LIB_african_investment_desc: "Wir sind wegen des kurzfristigen Denkens der True Whigs in eine schwere Zeit geraten. Der einzige Weg, um sicherzustellen, dass wir nie wieder fallen, besteht darin, den von Wilmont E. Dennis dargelegten Plan zu befolgen. Wir werden unsere besten und klügsten Köpfe aus Afrika aussenden, damit sie Unternehmen aufbauen und Wohlstand nach Liberia zurückbringen."
+
+LIB_peculiar_institutions: "Eigenartige Institutionen"
+LIB_peculiar_institutions_desc: "Trotz unserer besten Bemühungen, den Ausbruch der Emanzipation aufzuhalten, können wir das nicht mehr. Die Einschätzung von Gunnar Myrdall, dass die Emanzipation die Zahl der Gebildeten und Qualifizierten erhöhen wird, ist weise. Wir sind bereit, unsere Freiheit zu erkaufen, um unsere Integrität gegenüber Firestone nicht zu zerstören."
+
+LIB_election_soclib: "True Whig Party (Neue Garde) Sieg"
+LIB_election_soclib_desc: "Obwohl wir darauf vertraut haben, dass Edwin Barclay Liberia aus der Dunkelheit herausführen wird, hat er sich auf Kompromisse eingelassen. Das liberianische Volk will eine Partei, die es aus der physischen Sklaverei befreit. Die wirtschaftliche Sklaverei ist ein Preis, den man zu zahlen bereit ist."
+
+LIB_defend_trade: "Verteidigt unseren Handel"
+LIB_defend_trade_desc: "Wir müssen uns auf die Zermürbung durch die Marine verlassen, um auf offener See zu gewinnen. Ein direkter Konflikt mit dem Feind muss unter allen Umständen vermieden werden."
+
+LIB_trade_connections: "Handelsbeziehungen"
+LIB_trade_connections_desc: "Jede offenkundige Demonstration von Stärke auf offener See würde einen Krieg provozieren. Wir müssen stattdessen erfahrene Seeleute aus unserem Register heranziehen. Nachahmenswertes Lernen ist immer noch Lernen."
+
+LIB_ambassador_lessons: "Lehren aus dem Botschafterzwischenfall"
+LIB_ambassador_lessons_desc: "Das deutsche Schiff, das unsere große liberianische Marine dezimierte, war ein Kreuzer der Dresden-Klasse. Wir wollen zumindest ein Schiff, das einen deutschen Kreuzer aus dem Jahr 1907 besiegen kann."
+
+LIB_convenient_convoys: "Günstige Konvois"
+LIB_convenient_convoys_desc: "Wir sind zu arm, um uns eine eigene Handelsmarine leisten zu können. Wenn wir die Rechte an unserer Seeflagge an unabhängige Schiffe verkaufen, können wir eine starke Papierflotte und Geld haben."
+
+LIB_swamp_eels: "Baut die 'Sumpfaale'"
+LIB_swamp_eels_desc: "Es ist gefährlich, im Sommer zum Bassa-Delta hinunterzufahren. Die Sumpfaale kommen nachts heraus. Wir haben diese natürliche Strategie ins 20. Jahrhundert übernommen."
+
+LIB_found_military_academy: "Daniel Edward Howard Militärakademie"
+LIB_found_military_academy_desc: "Eine zentrale Einrichtung für die Ausbildung der nächsten Generation liberianischer Offiziere ist eine absolute Notwendigkeit, insbesondere wenn wir ihnen ein Gefühl für Liberia als echte Nation vermitteln wollen."
+
+LIB_tuskegee: "Das Tuskegee-Institut einladen"
+LIB_tuskegee_desc: "Wir kennen eine enthusiastische Gruppe von Männern in Alabama, die uns beim Pilotieren und Entwickeln neuer Flugzeuge helfen können. Es tut uns sehr leid, was mit ihrem College passiert ist."
+
+LIB_african_airmail: "Gründung des African Air Mail Service"
+LIB_african_airmail_desc: "Es gibt einen hinterhältigen Plan, um die Offensivfähigkeiten unserer Luftstreitkräfte zu erweitern, ohne Verdacht zu erregen. Wenn wir unseren Plan zur Entwicklung von Bombern als \"African Air Mail Service\" bezeichnen, können wir unsere Feinde überrumpeln."
+
+LIB_borrowing_research: "Amerikanische Forschung 'ausleihen'"
+LIB_borrowing_research_desc: "Diese jungen Männer aus Alabama erweisen sich als unschätzbar wertvoll für unser Luftprogramm. Im Ausland haben Tuskegee-Studenten in den USA weitere Pläne für fantastische neue Waffen aufgedeckt."
+
+LIB_flying_stars: "Gründet die Flying Stars"
+LIB_flying_stars_desc: "Die jungen Aces aus Tuskeegee haben einen Plan für ein liberianisches Kampfflugzeugprogramm entwickelt. Sie nennen sie die \"Flying Stars\", weil sie so zerstörerisch wie Sternschnuppen sind, aber nie zu Boden fallen."
+
+LIB_copy_best: "Kopiert nur das Beste"
+LIB_copy_best_desc: "Lasst die Vergangenheit hinter uns. Amerikas Übungen beweisen, dass eine vollständige Infanterie komplexe Befehle ausführen kann und Maschinen die bemannte Kriegsführung übertreffen werden."
+
+LIB_air_force: "Gründung der Liberian Air Wing"
+LIB_air_force_desc: "Wir haben die wichtigste Innovation dieses Jahrhunderts, die Luftstreitkräfte, zu lange vernachlässigt. Wir werden in Monrovia einen Luftwaffenstützpunkt und einen Flughafen einrichten, die sowohl unseren wirtschaftlichen als auch unseren militärischen Interessen dienen."
+
+LIB_battle_principles: "Grundsätze der Schlacht"
+LIB_battle_principles_desc: "Als Deutschland in den Busch vorrückte, um Mittelafrika zu erobern, stellte es fest, dass die Kriegsmittel die einzigen waren, die das raue Klima überlebten. Das Gewehr, die Pontonbrücke, das kleine Artilleriegeschütz. Das ist unser Brot und Butter."
+
+LIB_star_of_africa: "Stern von Afrika"
+LIB_star_of_africa_desc: "Der Erste Weltkrieg hat die freien Nationen Westafrikas in Gefahr gebracht. Liberia, Sierra Leone und die Elfenbeinküste. Wir müssen unsere Brüder vor ihren französischen Oberherren schützen. Wir sind die letzten freien Männer Afrikas, ja, aber vielleicht nicht mehr lange."
+
+LIB_war_for_africa: "Krieg um Afrika"
+LIB_war_for_africa_desc: "Die Franzosen haben Afrika schon viel zu lange mit eiserner Faust regiert. Jetzt, da sie in einen europäischen Konflikt verwickelt sind, haben wir die Chance, sie ein für alle Mal zu vertreiben."
+
+LIB_claim_sierra_leone: "Kampf für Sierra Leone"
+LIB_claim_sierra_leone_desc: "Sierra Leone ist zu Recht Teil des großen afrikanischen Gemeinwesens, und es ist unsere Aufgabe, es zurückzufordern."
+
+LIB_liberation_of_west_africa: "Befreiung von Westafrika"
+LIB_liberation_of_west_africa_desc: "Es ist an der Zeit, Westafrika zu befreien - Kolonisatoren, macht Platz!"
+
+LIB_demand_ivory_coast: "Marsch in die Elfenbeinküste"
+LIB_demand_ivory_coast_desc: "Die Elfenbeinküste wird schon viel zu lange von anderen Nationen mit eiserner Faust regiert. Jetzt ist unsere Chance, in dieses Land zu marschieren, das rechtmäßig uns gehört, und es zurückzufordern!"
+
+LIB_ivory_coast_liberated: "Besetzte Elfenbeinküste"
+LIB_ivory_coast_liberated_desc: "Bis wir entscheiden können, wie wir unsere größere Nation besser organisieren können, haben die Bürger von Côte d'Ivoire einen Sitz in unserem Parlament erhalten, und wir werden sie als gleichberechtigte Liberianer behandeln."
+
+LIB_keep_our_promise: "Haltet unser Versprechen"
+LIB_keep_our_promise_desc: "Groß-Liberia ist kein nationales Konzept; es ist vielmehr die Summe der zahlreichen Bemühungen. Wir alle sind hierher gekommen, um Liberia zu lieben, um uns mit unserem Mutterland zu vereinen oder um unser Glück zu finden. Wir werden diesen Traum für ganz Westafrika Wirklichkeit werden lassen."
+
+LIB_military_occupation: "Militärische Besatzung"
+LIB_military_occupation_desc: "Wir werden Sierra Leone und die Elfenbeinküste nicht unverteidigt lassen. Selbst ein Bündnis reicht nicht aus - gemeinsam sind wir stärker, und die liberianischen Truppen werden ihre Freiheit mit unserem Leben verteidigen."
+
+LIB_african_commonwealth: "Erklärung des Westafrikanischen Commonwealth"
+LIB_african_commonwealth_desc: "Mit unserer totalen Kontrolle über Westafrika können wir nun ein Commonwealth der Nationen bilden, nicht unähnlich dem, das von den Herrschaftsgebieten des ehemaligen britischen Reiches gebildet wurde. Dies wird uns davor bewahren, uns zu sehr zu übernehmen und trotzdem die Kontrolle über Westafrika zu behalten."
+
+LIB_greater_liberia: "Ausrufung von Groß-Liberia"
+LIB_greater_liberia_desc: "Wir sind schwach, wenn wir nicht vereint sind - manche glauben, dass die Summe des Ganzen größer ist als seine Teile, aber die Wahrheit ist, dass unsere Brüder in Westafrika stärker sind, wenn sie unter einem einzigen Banner an unserer Seite stehen."
+
+LIB_integrate_guinea: "Integriert Guinea"
+LIB_integrate_guinea_desc: "Der Erwerb Guineas ist ein großer Glücksfall und ein Zeichen dafür, dass Westafrika bereit ist, sich zu vereinen. Auch wenn ihre Völker überwiegend muslimisch sind, wird es eine Ehre sein, an der Seite unserer guineischen Brüder zu kämpfen."
+
+LIB_integrate_mali_and_volta: "Integriert Mali und Volta"
+LIB_integrate_mali_and_volta_desc: "Wir heißen neue Gebiete in unserem Commonwealth willkommen - gemeinsam sind wir stärker!"
+
+LIB_integrate_senegal: "Integriert Senegal"
+LIB_integrate_senegal_desc: "Wir heißen neue Gebiete in unserem Commonwealth willkommen - gemeinsam sind wir stärker!"
+
+LIB_great_minds: "Große Denker Afrikas"
+LIB_great_minds_desc: "Jetzt können sich die westafrikanische Sprache und Kultur entfalten. Auf Englisch, Französisch und Deutsch; wir werden das sprechen, was unser Leben am meisten verbessert. Wir sind endlich geeint und für immer unteilbar."
+
+### Characters ###
+LIB_george_padmore: "George Padmore"
+LIB_james_jenkins_dossen: "James Jenkins Dossen"
+LIB_marcus_garvey: "Marcus Mosiah Garvey"
+LIB_clarence_simpson: "Clarence Lorenzo Simpson"
+LIB_william_tubman: "William Vacanarat Shadrach Tubman"
+LIB_edwin_barclay: "Edwin James Barclay"
+LIB_momolu_massaquoi: "Momolu Massaquoi"
+LIB_jenkins_yancy: "Jenkins Yancy"
+LIB_frank_emmanuel_tolbert: "Frank Emmanuel Tolbert"
+
+LIB_thomas_nimene_botoe: "Thomas Nimene Botoe"
+LIB_harry_augustus_greaves_sr: "Harry Augustus Greaves Sr."
+LIB_momolu_dukuly: "Momolu Dukuly"
+LIB_gabriel_lafayette_dennis: "Gabriel Lafayette Dennis"
+LIB_nete_sie_brownell: "Nete Sie Brownell"
+LIB_jayah_massaquoi: "Jayah Massaquoi"
+LIB_gabriel_johnson: "Gabriel Johnson"
+LIB_didwho_welleh_twe: "Didwho Welleh Twe"
+
+LIB_james_cooper: "James Cooper"
+LIB_william_henry_carter: "William Henry Carter"
+
+LIB_j_a_railey: "J.A. Railey"
+LIB_joseph_dennis: "Joseph Dennis"
+LIB_liberian_military_council: "Liberian Military Council"

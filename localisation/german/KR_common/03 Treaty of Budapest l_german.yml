@@ -1,0 +1,92 @@
+﻿l_german:
+
+##Übersetzt von Thylon##
+
+treaty_of_budapest_events.0.t: "Der Fall von Österreich"
+treaty_of_budapest_events.0.d: "Sowohl im Armee-Oberkommando als auch im Außenministerium wird immer deutlicher, dass sich der Krieg mit unseren aufstrebenden Nachbarn zugespitzt hat. Da die Monarchie in ihren Grundfesten bedroht ist, befürchtet selbst die einst so zuversichtliche AOK das Schlimmste und befürchtet, dass die territoriale Integrität des Reiches nicht nur nicht mehr zu retten ist, sondern dass es möglicherweise bereits kurz vor dem völligen Zusammenbruch steht. Um das Gesicht zu wahren und den drohenden Zusammenbruch zu verhindern, wurde dem Kaiser-König vorgeschlagen, dass wir um Frieden ersuchen oder die Habsburgermonarchie ganz auflösen müssen."
+treaty_of_budapest_events.0.d.germany: "Sowohl im Armee-Oberkommando als auch im Außenministerium wird immer deutlicher, dass sich der Krieg mit unseren aufstrebenden Nachbarn zugespitzt hat. Die Monarchie ist in ihren Grundfesten bedroht, und selbst die einst so zuversichtliche AOK fürchtet, dass wir kurz vor dem völligen Zusammenbruch stehen. Man hat dem Kaiser-König vorgeschlagen, dass wir um Frieden bitten sollten... obwohl wir möglicherweise um eine deutsche Intervention bitten könnten, um sicherzustellen, dass der Kern Österreichs intakt bleibt. Wenn wir das tun, werden die Deutschen zweifellos verlangen, dass wir ihr ständiges Bündnis und ihren Schutz akzeptieren. Unsere einzige Alternative ist, uns der Gnade von [AUS_belgrade_pact_leader.GetAdjective] auszuliefern."
+treaty_of_budapest_events.0.a: "Wir sind besiegt. Bittet um Frieden."
+treaty_of_budapest_events.0.b: "Wir werden nicht kapitulieren!"
+treaty_of_budapest_events.0.c: "Wir müssen uns an [GER.GetNameDef] wenden, um Hilfe zu erhalten."
+treaty_of_budapest_events.0.e: "Keine Deutschen - gebt unseren Feinden einfach, was sie wollen."
+treaty_of_budapest_events.0.f: "Wir brauchen Deutschland nicht - wir kämpfen weiter!"
+
+treaty_of_budapest_events.1.t: "Österreich bittet um Frieden"
+treaty_of_budapest_events.1.t.germany: "Österreich und Deutschland bitten um Frieden"
+treaty_of_budapest_events.1.d.main: "Die Truppen der tyrannischen Habsburgermonarchie wurden auf dem Feld von unseren glorreichen Befreiungsarmeen geschlagen. Selbst das altersschwache Oberhaupt des verrotteten Reiches sieht seinen unausweichlichen Untergang und hat um Frieden gebeten. Sie sind bereit, alle unsere Ansprüche abzutreten, da sie verzweifelt versuchen, zu retten, was noch zu retten ist. Da wir unsere Ziele erreicht haben, gibt es wenig Grund, dieses großzügige Angebot abzulehnen, auch wenn die Aussicht, durch den Wiener Heldenplatz zu marschieren und den sterbenden Leichnam eines Reiches zu erledigen, in der Tat verlockend ist."
+treaty_of_budapest_events.1.d.main.faction1: "Die Truppen der tyrannischen Habsburgermonarchie wurden auf dem Feld von unseren glorreichen Befreiungsarmeen geschlagen. Selbst das altersschwache Oberhaupt des verrotteten Reiches sieht seinen unausweichlichen Untergang und hat um Frieden gebeten. Sie sind bereit, alle unsere Ansprüche abzutreten, da sie verzweifelt versuchen, zu retten, was noch zu retten ist. Da wir unsere Ziele erreicht haben und [From.GetNameDef] ihrem Angebot bereits zugestimmt hat, gibt es wenig Grund, es abzulehnen, auch wenn die Aussicht, durch den Wiener Heldenplatz zu marschieren und den sterbenden Leichnam eines Reiches zu erledigen, tatsächlich verlockend ist."
+treaty_of_budapest_events.1.d.main.faction2: "Die Truppen der tyrannischen Habsburgermonarchie wurden auf dem Feld von unseren glorreichen Befreiungsarmeen geschlagen. Selbst das altersschwache Oberhaupt des verrotteten Reiches sieht seinen unausweichlichen Untergang und hat um Frieden gebeten. Sie sind bereit, alle unsere Ansprüche abzutreten, da sie verzweifelt versuchen, zu retten, was noch zu retten ist. Da wir unsere Ziele erreicht haben, gibt es wenig Grund, dieses Angebot abzulehnen - obwohl [From.GetNameDef] uns mitgeteilt hat, dass sie den Krieg fortsetzen werden. Offenbar ist der Gedanke, dass ihre Truppen durch den Wiener Heldenplatz marschieren und den sterbenden Leichnam eines Reiches beseitigen, zu verlockend."
+treaty_of_budapest_events.1.d.germany.main1: "Die Truppen der tyrannischen Habsburgermonarchie wurden auf dem Feld von unseren glorreichen Befreiungsarmeen so sehr geschlagen, dass sie nicht nur um Frieden bitten, sondern auch bei den Deutschen Schutz suchen. [GER.GetNameDefCap] hat sich bereit erklärt, uns alle Ansprüche zuzugestehen, die das, was sie als 'Kernland' Österreichs betrachten, nicht beeinträchtigen, solange wir Frieden schließen. Andernfalls wird es zum Krieg mit dem gesamten Reichspakt kommen."
+treaty_of_budapest_events.1.d.germany.main2: "Die Truppen der tyrannischen Habsburgermonarchie wurden von unseren glorreichen Befreiungsarmeen so sehr geschlagen, dass sie nicht nur um Frieden bitten, sondern auch bei den Deutschen um Schutz bitten wollen. [GER.GetNameDefCap] hat diktiert, dass keine österreichischen Kernländer annektiert werden... was bedeutet, dass wir *nichts* von dem Vertrag bekommen würden. Das allein ist schon ein Skandal, aber wenn wir uns weigern, bedeutet das einen Krieg mit dem gesamten Reichspakt."
+treaty_of_budapest_events.1.d.germany.main.faction1: "Die Truppen der tyrannischen Habsburgermonarchie wurden von unseren glorreichen Befreiungsarmeen so sehr geschlagen, dass sie nicht nur um Frieden bitten, sondern auch bei den Deutschen um Schutz bitten wollen. [GER.GetNameDefCap] hat sich bereit erklärt, uns alle Ansprüche zuzugestehen, die das, was sie als österreichisches Kernland betrachten, nicht beeinträchtigen, solange wir uns mit [From.GetNameDef] zusammentun, der dieser Vereinbarung bereits zugestimmt hat. Andernfalls wird es zum Krieg mit dem gesamten Reichspakt kommen."
+treaty_of_budapest_events.1.d.germany.main.faction2: "Die Truppen der tyrannischen Habsburgermonarchie wurden von unseren glorreichen Befreiungsarmeen so sehr geschlagen, dass sie nicht nur um Frieden bitten, sondern auch bei den Deutschen um Schutz bitten wollen. [GER.GetNameDefCap] hat sich bereit erklärt, uns alle Ansprüche zuzugestehen, die nicht in das eingreifen, was sie als österreichisches Kernland betrachten - ein Angebot, das [From.GetNameDef] bereits brüsk abgelehnt hat. Schließen wir uns [From.GetNameDef] an und ziehen selbst in den Krieg mit dem Reichspakt, oder brechen wir mit ihnen und akzeptieren den von Deutschland diktierten Frieden?"
+treaty_of_budapest_events.1.a: "Wir stimmen ihren Bedingungen zu."
+treaty_of_budapest_events.1.b: "Nein, wir werden den Habsburgern ein für alle Mal ein Ende setzen!"
+
+#AUS POV:
+treaty_of_budapest_events.2.t: "Der Vertrag von [AUS_treaty_name]"
+treaty_of_budapest_events.2.d.germany: "Delegierte der Habsburgermonarchie und [GER.GetNameDef] trafen sich in Budapest mit Vertretern der feindlichen Nationen, um die Friedensbedingungen auszuhandeln. Österreich hat sich bereit erklärt, im Gegenzug für den Frieden alle Ansprüche seiner Feinde auf kaiserliche und königliche Gebiete abzutreten. Diese demütigende Niederlage markiert ein neues Kapitel in der Geschichte der Habsburger, da sich Österreich nicht länger als Großmacht betrachten kann. Es könnte jedoch in der Lage sein, das zu retten, was noch übrig ist, und die vollständige Zerschlagung seiner Monarchie zu vermeiden, da es nun unter deutschem Schutz steht."
+treaty_of_budapest_events.2.d: "Delegierte der Habsburgermonarchie haben sich mit ihren feindlichen Partnern in Budapest getroffen, um die Friedensbedingungen auszuhandeln. Wir haben zugestimmt, alle Ansprüche auf kaiserliche und königliche Ländereien im Austausch für den Frieden abzutreten. Diese demütigende Niederlage stellt ein neues Kapitel in der Geschichte der Habsburger dar, da wir uns nicht länger als Großmacht betrachten können. Vielleicht gelingt es uns jedoch, das zu retten, was noch übrig ist, und die vollständige Zerschlagung der Monarchie zu verhindern."
+treaty_of_budapest_events.2.a: "Endlich Frieden."
+treaty_of_budapest_events.2.b: "Gut, dann ist es vollbracht"
+
+AUS_treaty_name_budapest: "[43.GetCapitalVictoryPointName]"
+AUS_treaty_name_vienna: "[4.GetCapitalVictoryPointName]"
+
+#SER/ROM/POL/ITA POV:
+treaty_of_budapest_events.3.t: "Der Vertrag von [AUS_treaty_name]"
+treaty_of_budapest_events.3.d.balkan: "Delegierte von [Root.GetNameDef] haben sich mit ihren habsburgischen Kollegen in Budapest getroffen, um die Friedensbedingungen auszuhandeln. In dem daraufhin geschlossenen Vertrag haben die Österreicher im Gegenzug für den Frieden alle unsere Ansprüche abgetreten. Dies ist in der Tat ein glorreicher Tag, denn der Balkan ist endlich frei von fremder Einmischung und unsere ethnischen Brüder sind endlich wieder mit ihrem Heimatland vereint."
+treaty_of_budapest_events.3.d.germany.balkan: "Delegierte von [Root.GetNameDef] haben sich mit ihren deutschen und habsburgischen Kollegen in Budapest getroffen, um die Friedensbedingungen auszuhandeln. In dem daraufhin geschlossenen Vertrag haben die Österreicher alle unsere Ansprüche - mit Ausnahme derer in den österreichischen Kerngebieten - im Austausch für den Frieden abgetreten. Dies ist in der Tat ein glorreicher Tag, denn der Balkan ist endlich frei von ausländischer Einmischung und unsere ethnischen Brüder sind endlich wieder mit ihrer Heimat vereint."
+treaty_of_budapest_events.3.d.italy: "Delegierte von [Root.GetNameDef] haben sich mit ihren habsburgischen Kollegen in Budapest getroffen, um die Friedensbedingungen auszuhandeln. Im darauffolgenden Vertrag haben die Österreicher alle unsere Ansprüche im Austausch für den Frieden abgetreten. Dies ist in der Tat ein glorreicher Tag, denn Italien ist endlich vom Makel des verlorenen Weltkriegs befreit und unsere italienischen Brüder sind endlich wieder mit ihrem Heimatland vereint."
+treaty_of_budapest_events.3.d.germany.italy: "Delegierte von [Root.GetNameDef] haben sich mit ihren deutschen und habsburgischen Kollegen in Budapest getroffen, um die Friedensbedingungen auszuhandeln. Unsere Gewinne im darauffolgenden Vertrag werden begrenzt sein, da Deutschland entschlossen ist, die österreichischen Kerngebiete im Littoral und in Südtirol zu schützen, die zufällig auch größtenteils italienisch sind. Dennoch bedeutet dies vorerst Frieden und keinen Krieg mit dem Reichspakt."
+treaty_of_budapest_events.3.a: "Ein großartiger Sieg!"
+treaty_of_budapest_events.3.b: "Ein letzter Schritt zum Sieg."
+
+treaty_of_budapest_events.4.t: "[FROM.GetNameDefCap] verweigert den Frieden"
+treaty_of_budapest_events.4.d: "Unser Friedensangebot an [FROM.GetNameDef] wurde kurzerhand abgelehnt. Der Krieg wird weitergehen, bis sich eine Seite zur bedingungslosen Kapitulation bereit erklärt. Es wird noch mehr Blut vergossen werden müssen, um diesen gnadenlosen Krieg zu beenden.."
+treaty_of_budapest_events.4.a: "Ein Kampf bis zum bitteren Ende also."
+
+treaty_of_budapest_events.5.t: "[FROM.GetNameDefCap] verweigert den Frieden"
+treaty_of_budapest_events.5.d: "Unsere Entscheidung, das Friedensangebot der Österreicher anzunehmen, scheint unsere einstigen Verbündeten in [FROM.GetNameDef] sehr verärgert zu haben. Ihr Botschafter hat unsere Annahme als \"Verrat\" an der Daseinsberechtigung des Paktes bezeichnet und geschworen, den Krieg bis zum bitteren Ende fortzusetzen. Es scheint, dass unser Bündnis mit [FROM.GetNameDef] am Ende ist."
+treaty_of_budapest_events.5.a: "Sie werden es bereuen, wenn die Österreicher sich ihnen zuwenden."
+
+#global news event:
+treaty_of_budapest_events.6.t: "Der Vertrag von [AUS_treaty_name]"
+treaty_of_budapest_events.6.d: "Für die Habsburgermonarchie beginnt ein neues Kapitel, denn ihre Streitkräfte wurden von [AUS_belgrade_pact_leader.GetNameDef] und ihren Verbündeten besiegt. Einst eine der dominierenden Kräfte auf dem Balkan, hat Österreich seit Jahrzehnten einen kontinuierlichen Niedergang erlebt, und während der hohle Sieg im Weltkrieg eine kurze Atempause brachte, könnte dieser Krieg das einst stolze Reich endgültig zu Fall gebracht haben.\n\nDie Karte des Balkans und Mitteleuropas wurde erneut neu gezeichnet, Österreich kann sich nicht länger als Großmacht betrachten, während seine Nachbarn sich mit ihren nationalen Brüdern, die einst fest unter habsburgischer Kontrolle standen, wiedervereinigt haben."
+treaty_of_budapest_events.6.d.germany: "Für die Habsburgermonarchie beginnt ein neues Kapitel, denn ihre Streitkräfte wurden von [AUS_belgrade_pact_leader.GetNameDef] und ihren Verbündeten besiegt. Einst eine der dominierenden Kräfte auf dem Balkan, hat Österreich seit Jahrzehnten einen kontinuierlichen Niedergang erlebt, und während der hohle Sieg im Weltkrieg eine kurze Atempause brachte, könnte dieser Krieg das einst stolze Reich endgültig zu Fall gebracht haben.\n\nDie Karte des Balkans und Mitteleuropas wurde erneut neu gezeichnet, und Österreich hat sich zum Schutz an [GER.GetNameDef] gewandt. Es kann nicht länger als Großmacht angesehen werden und kann sich glücklich schätzen, wenn seine Monarchie nach dieser Demütigung noch intakt ist."
+treaty_of_budapest_events.6.a: "Österreich ist weit gefallen..."
+
+treaty_of_budapest_events.7.t: "Die Bedingungen des Vertrags von [AUS_treaty_name]"
+treaty_of_budapest_events.7.d: "Gemäß den Bedingungen des Vertrages von [AUS_treaty_name], den wir unterzeichnet haben, müssen wir nun die Kontrolle über alle österreichischen Gebiete zurückgeben, die nicht durch den Vertrag aufgegeben wurden."
+treaty_of_budapest_events.7.a: "Sehr gut."
+
+treaty_of_budapest_events.8.t: "Die Bedingungen des Vertrags von [AUS_treaty_name]"
+treaty_of_budapest_events.8.d: "Gemäß den Bedingungen des Vertrages von [AUS_treaty_name], den wir unterzeichnet haben, müssen wir alle Gebiete räumen, die im Belgrader Pakt an unsere Feinde abgetreten wurden."
+treaty_of_budapest_events.8.a: "Sehr gut."
+
+treaty_of_budapest_events.20.t: "Die Österreicher stehen vor dem Kollaps"
+treaty_of_budapest_events.20.d: "Der Krieg der Österreicher gegen [AUS_belgrade_pact_leader.GetNameDef] hat sich zum Schlechten gewendet, und jetzt stehen sie kurz vor dem Zusammenbruch. Sie haben ihren Stolz heruntergeschluckt und sind zu [Root.GetNameDef] gekommen, um uns um Hilfe und Schutz zu bitten. Wenn wir bei den Friedensverhandlungen dabei sind, können wir sicherstellen, dass die Österreicher nicht völlig demontiert werden, und im Gegenzug werden sie und ihre verbleibenden Untertanen dem Reichspakt beitreten. Das könnte bedeuten, dass wir in einen Balkankrieg verwickelt werden, aber wenn wir die Situation ignorieren, könnten die Balkanstaaten ihre aggressive Expansion fortsetzen... und wer weiß, für welche Seite sie sich in Zukunft entscheiden werden?"
+treaty_of_budapest_events.20.a: "Wir werden intervenieren."
+treaty_of_budapest_events.20.b: "Die Österreicher sind auf sich allein gestellt."
+
+treaty_of_budapest_events.21.t: "Die Deutschen sollen intervenieren"
+treaty_of_budapest_events.21.d: "Die [From.GetAdjective]-Regierung hat sich bereit erklärt, bei unseren Friedensverhandlungen zu intervenieren. Sollte [AUS_belgrade_pact_leader.GetNameDef] sich weigern, Frieden zu schließen, werden sie sich dem Krieg anschließen, aber ansonsten wird ihre Anwesenheit sicherstellen, dass uns unser Kerngebiet nicht entrissen wird. Im Gegenzug werden wir die [Root.GetFactionName] auflösen und der [GER.GetFactionName] beitreten, sobald die Gespräche abgeschlossen sind."
+treaty_of_budapest_events.21.a: "Was für eine Erleichterung! Mögen die Friedensgespräche beginnen!"
+
+treaty_of_budapest_events.22.t: "Die Deutschen werden nicht intervenieren"
+treaty_of_budapest_events.22.d: "Da sie nicht in einen potenziellen Balkankonflikt hineingezogen werden will, hat die Regierung [From.GetAdjective] es abgelehnt, sich an unseren Friedensgesprächen mit [AUS_belgrade_pact_leader.GetNameDef] zu beteiligen. Wir sind auf uns allein gestellt."
+treaty_of_budapest_events.22.a: "Dann haben wir keine Wahl - wir müssen ihnen geben, was sie wollen."
+treaty_of_budapest_events.22.b: "Dann kämpfen wir bis zum bitteren Ende!"
+
+treaty_of_budapest_events.23.t: "[FROM.GetNameDefCap] stimmt dem Frieden zu"
+treaty_of_budapest_events.23.d: "Unsere Entscheidung, das Friedensangebot der Österreicher abzulehnen, scheint unsere einstigen Verbündeten in [FROM.GetNameDef] sehr verärgert zu haben. Ihr Botschafter hat unsere Ablehnung als \"Verrat\" an der Daseinsberechtigung des Paktes bezeichnet und gesagt, dass es keinen Sinn hat, den Krieg fortzusetzen, da unsere Ziele nun erreicht sind. Es scheint, dass unser Bündnis mit [FROM.GetNameDef] am Ende ist."
+treaty_of_budapest_events.23.a: "Sie werden das bereuen."
+
+treaty_of_budapest_events.24.t: "Österreich tritt dem Reichspakt bei"
+treaty_of_budapest_events.24.d: "Infolge des gescheiterten Krieges haben sich die Österreicher an [GER.GetNameDef] gewandt, um Schutz zu erhalten. Sie werden dem Reichspakt-Bündnis vollständig beitreten und haben uns gebeten, sich ihnen anzuschließen. Sollten wir ablehnen, sind wir auf uns allein gestellt."
+treaty_of_budapest_events.24.a: "Natürlich werden wir uns ihnen anschließen!"
+treaty_of_budapest_events.24.b: "Wir sind lieber allein."
+
+treaty_of_budapest_events.25.t: "Beitritt zum Reichspakt"
+treaty_of_budapest_events.25.d: "Nun, da unser Reich weitgehend zerschlagen ist, müssen wir uns wie versprochen an die Deutschen wenden, um ihr Bündnis und ihren Schutz zu erhalten."
+treaty_of_budapest_events.25.a: "So sei es!"

@@ -1,0 +1,88 @@
+﻿l_german:
+###  Übersetzt von Proho  ###
+ st_state_name: "§H[This.GetName]§!"
+
+ mark_tooltip_loc: "[THIS.mark_tooltip]"
+ mark_tooltip_desc: "[!mark_state_click]"
+
+ ST_STATE_MARK_FOR_TRANSFER: "§HStaat markieren§!"
+ ST_STATE_UNMARK_FOR_TRANSFER: "§HStaat unmarkieren§!"
+
+ STT_set_mark: "Wird §Hmarkiert§! für Übertragung oder Entkernung."
+ STT_clear_mark: "Wird nicht mehr §Hmarkiert§! zum Übertragen oder Entkernen."
+
+ MARK_ALL_STATES: "§HMarkiert alle [This.owner.GetAdjective] Staaten§!"
+ MARK_ALL_STATES_DELAYED: "[!mark_all_states_click]"
+
+ MARK_COLONIES: "§HMarkiert Trennung von [This.owner.GetAdjective] Staaten§!\n\nMarkiert alle [This.owner.GetAdjective] Staaten, die nicht mit der Hauptstadt verbunden sind."
+ MARK_COLONIES_DELAYED: "[!mark_colonial_states_click]"
+
+ MARK_NONCORE: "§HMarkiert [This.owner.GetAdjective] Nicht-Kernstaaten§!\n\nMarkiert alle [This.owner.GetAdjective] Staaten, die keine [This.owner.GetAdjective] Kerne sind."
+ MARK_NONCORE_DELAYED: "[!mark_noncore_states_click]"
+
+ CLEAR_ALL_MARKINGS: "§HAlle markierten Staaten löschen§!"
+ CLEAR_ALL_MARKINGS_DELAYED: "[!clear_all_markings_click]"
+
+ AWARD_STATES: "§HStaaten übertragen§!\n\nÜberträgt alle markierten Staaten auf §Y[This.owner.GetNameDef]§!."
+ AWARD_STATES_DELAYED: "[!award_states_click]"
+
+ add_core_loc: "[This.GetAddCoreRuleDesc]"
+ ADD_CORE_STATES: "§HHinzufügen [This.owner.GetAdjective] Kerne§!\n\nFügt [This.owner.GetAdjective]-Kerne zu allen markierten Staaten hinzu, die nicht bereits [This.owner.GetAdjective]-Kerne sind."
+ ADD_CORE_STATES_MP: "§HHinzufügen [This.owner.GetAdjective] Kerne§!\n\n§RDeaktiviert im Mehrspielermodus!§!"
+ ADD_CORE_STATES_DELAYED: "[!add_cores_click]"
+
+ remove_core_loc: "[This.GetRemoveCoreRuleDesc]"
+ REMOVE_CORE_STATES: "§HEntfernen Sie [This.owner.GetAdjective] Kerne§!\n\nEntfernt [This.owner.GetAdjective] Kerne aus allen markierten Staaten, die bereits [This.owner.GetAdjective] Kerne sind."
+ REMOVE_CORE_STATES_MP: "§HEntfernen Sie [This.owner.GetAdjective] Kerne§!\n\n§RDeaktiviert im Mehrspielermodus!§!"
+ REMOVE_CORE_STATES_DELAYED: "[!remove_cores_click]"
+
+ add_claim_loc: "[This.GetAddClaimRuleDesc]"
+ ADD_CLAIM_STATES: "§HHinzufügen von [This.owner.GetAdjective] Ansprüche§!\n\nFügt [This.owner.GetAdjective]-Ansprüche zu allen markierten Staaten hinzu, die nicht bereits [This.owner.GetAdjective]-Kerne oder Ansprüche sind."
+ ADD_CLAIM_STATES_MP: "§HHinzufügen von [This.owner.GetAdjective] Ansprüche§!\n\n§RDeaktiviert im Mehrspielermodus!§!"
+ ADD_CLAIM_STATES_DELAYED: "[!add_claims_click]"
+
+ remove_claim_loc: "[This.GetRemoveClaimRuleDesc]"
+ REMOVE_CLAIM_STATES: "§HEntfernen Sie [This.owner.GetAdjective] Ansprüche.§!\n\nEntfernt [This.owner.GetAdjective]-Ansprüche aus allen markierten Staaten, die bereits [This.owner.GetAdjective]-Ansprüche sind."
+ REMOVE_CLAIM_STATES_MP: "§HEntfernen Sie [This.owner.GetAdjective] Ansprüche.§!\n\n§RDeaktiviert im Mehrspielermodus!§!"
+ REMOVE_CLAIM_STATES_DELAYED: "[!remove_claims_click]"
+ 
+ mark_country_tooltip_loc: "[THIS.mark_country_tooltip]"
+ 
+ COUNTRY_MARKING: "§HMarkiert Land§!"
+ CLEAR_COUNTRY_MARKING: "§HDeutlich gekennzeichnetes Land§!"
+ mark_country_tooltip_desc: "[!mark_country_click]"
+ 
+ STT_set_country_mark: "§H[This.owner.GetNameWithFlag]§! wird §Hmarkiert§! für Marionetten, Fraktionsbeitritt/Freigabe und Krieg/Frieden."
+ STT_clear_country_mark: "§H[marked_country.GetNameWithFlag]§! wird nicht mehr §Hmarkiert§! für Marionetten, Fraktionsbeitritt/Austritt und Krieg/Frieden sein."
+ 
+ ADD_PUPPET_LOC: "[THIS.add_puppet_tooltip]"
+ ADD_PUPPET_LOC_TT: "§HSubjekt erstellen§!\n\nMacht §H[marked_country.GetNameWithFlag]§! zu einem Subjekt von §H[This.owner.GetNameWithFlag]"
+ ADD_PUPPET_DEFAULT: "§HSubjekt erstellen§!"
+ ADD_PUPPET_LOC_DELAYED: "[!add_puppet_click]"
+ 
+ REMOVE_PUPPET_LOC: "[THIS.remove_puppet_tooltip]"
+ REMOVE_PUPPET_LOC_TT: "§HSubjekt entfernen§!\n\nEntfernt den Subjektstatus von §H[marked_country.GetNameWithFlag]§! und macht sie unabhängig."
+ REMOVE_PUPPET_DEFAULT: "§HSubjekt entfernen§!"
+ REMOVE_PUPPET_LOC_DELAYED: "[!remove_puppet_click]"
+ 
+ ADD_FACTION_LOC: "[THIS.add_faction_tooltip]"
+ ADD_FACTION_LOC_TT: "§HBeitritt zum [This.owner.GetFactionName]§!\n\n§H[marked_country.GetNameWithFlag]§! wird sich der Fraktion von §H[This.owner.GetNameWithFlag]§! anschließen, der [This.owner.GetFactionName]."
+ ADD_FACTION_LEADER_LOC_TT: "§HFraktionsführer werden§!\n\n§H[marked_country.GetNameWithFlag]§! wird der neue Anführer der [marked_country.GetFactionName]."
+ ADD_FACTION_DEFAULT: "§HZur Fraktion hinzufügen§!"
+ ADD_FACTION_LOC_DELAYED: "[!add_faction_click]"
+ 
+ REMOVE_FACTION_LOC: "[THIS.remove_faction_tooltip]"
+ REMOVE_FACTION_LOC_TT: "§HVerlassen Sie [marked_country.GetFactionName]§!\n\nEntfernt §H[marked_country.GetNameWithFlag]§! aus [marked_country.GetFactionName]."
+ REMOVE_FACTION_DEFAULT: "§HAus Fraktion entfernen§!"
+ REMOVE_FACTION_LOC_DELAYED: "[!remove_faction_click]"
+ 
+ ADD_PEACE_LOC: "[THIS.add_peace_tooltip]"
+ ADD_PEACE_LOC_TT: "§HFrieden schließen mit [This.owner.GetNameDef]§!\n\n§H[marked_country.GetNameWithFlag]§!, einschließlich aller Verbündeten, werden den Krieg mit §H[This.owner.GetNameWithFlag]§! und ihren Verbündeten beenden."
+ ADD_PEACE_ALL_WARS_LOC_TT: "§HAlle Kriege sind beendet§!\n\n§H[marked_country.GetNameWithFlag]§! wird alle Kriege, an denen es derzeit beteiligt ist, in weißem Frieden beenden."
+ ADD_PEACE_DEFAULT: "§HFrieden schließen§!"
+ ADD_PEACE_LOC_DELAYED: "[!add_peace_click]"
+ 
+ ADD_WAR_LOC: "[THIS.add_war_tooltip]"
+ ADD_WAR_LOC_TT: "§HErklären Sie [This.owner.GetNameDef] den Krieg.§!\n\n§H[marked_country.GetNameWithFlag]§! erklärt den Krieg gegen §H[This.owner.GetNameWithFlag]§!."
+ ADD_WAR_DEFAULT: "§HKriegserklärung§!"
+ ADD_WAR_LOC_DELAYED: "[!add_peace_click]"
