@@ -9,7 +9,7 @@ Es sollte mit allen neueren Hotfixes kompatibel sein, obwohl dies nicht garantie
 2) Lade die `Source code (zip)` Datei unter `Assets` herunter
 3) Lösche alle früheren manuell installiert Versionen
 4) Entpacke die .zip Datei nach 'Documents\Paradox Interactive\Hearts of Iron IV\mod'
-5) Erstelle eine Kopie der Datei `descriptor.mod` im Ordner, benenne sie in `Kaiserreich-Deutsch.mod` um und lege sie in 'Hearts of Iron IV\mod' ab
+5) Verschiebe die Datei `Kaiserreich-Deutsch-1.3.3.8.mod` in den Ordner 'Hearts of Iron IV\mod'
 6) Aktiviere die Mod im Launcher-Mod-Menü und viel Spaß!
 
 ## Probleme/Bugs:
