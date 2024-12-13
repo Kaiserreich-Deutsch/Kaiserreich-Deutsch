@@ -1,5 +1,5 @@
 ﻿l_german:
- PERMISSION_CONTESTED: "Umstritten"
+ PERMISSION_CONTESTED: "Umstritten"   ###  Übersetzt von Proho  ###
  PERMISSION_CONTESTED_DESC: "Wegen des Krieges der Kontrolleur: $SIDE1|H$ vs $SIDE2|H$"
  PERMISSION_ENEMY: "Feind"
  PERMISSION_ENEMY_DESC: "Aufgrund unserer rivalisierenden Beziehungen zu einem der Kontrolleure: $ENEMY|H$"
@@ -24,6 +24,7 @@
  KIEL_CANAL: "Kaiser-Wilhelm-Kanal"
  BOSPHORUS_STRAIT: "Bosphorus"
  disable_canal_tt: "§RDieser Kanal wurde teilweise zerstört und muss repariert werden, bevor er wieder von Schiffen befahren werden kann.§!"
+ disable_canal_tt_NOT: "$disable_canal_tt$"
  CANAL_BLOCKED_FOR_COUNTRY: "Kanal blockiert für [Root.GetName]"
  strait_blocked_tt: "§RDie Schiffahrtsstraße ist für [ROOT.GetName] gesperrt, da sich die Beziehungen zum Kontrolleur der Schiffahrtsstraße verschlechtert haben.§!"
  DARDANELLES_STRAIT: "Dardanellen"
@@ -35,4 +36,4 @@
  ALAND_STRAIT: "Bottnischer Meerbusen"
  TRANSSAHARIAN_ROUTE: "Transsahara-Route"
  disable_transsaharian_tt: "§RDie Transsahar Eisenbahn ist noch nicht fertiggestellt.§!"
-###  Übersetzt von Proho  ###
+ disable_transsaharian_tt_NOT: "$disable_transsaharian_tt$"
