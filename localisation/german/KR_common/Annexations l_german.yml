@@ -77,7 +77,6 @@ annex.integration: "Pass euch unserem Territorium an."
  annex.europe.release_germany_republic: "Gründung einer Deutschen Republik!"
  annex.europe.release_germany_socialist: "Gründung eines freien sozialistischen Deutschlands!"
  annex.europe.release_germany_hohenzollern: "Das Deutsche Reich wiederherstellen!"
- annex.europe.release_germany_romanov: "Krönung von Großherzog Boris zum deutschen Kaiser!"
 
  annex.europe.release_danubia_republic: "Eine Vereinigte Danubische Republik freigeben."
  annex.europe.release_danubia_habsburg: "Wiederherstellung der Habsburger Herrschaft über Danubia."
@@ -201,7 +200,7 @@ annex.integration: "Pass euch unserem Territorium an."
  annex.asia.give_to_bukhara: "[bukhara.GetGrantTerritoryEventOption]"
  annex.asia.give_to_khiva: "[khiva.GetGrantTerritoryEventOption]"
 
- annex.asia.give_to_transamur: "[transamur.GetGrantTerritoryEventOption]"
+ annex.asia.give_to_far_eastern_republic: "[far_eastern_republic.GetGrantTerritoryEventOption]"
 
  annex.asia.release_republican_india: "Eine Indische Republik gründen."
  annex.asia.release_princely_india: "Wiederherstellung des Fürstenbundes."
@@ -235,7 +234,7 @@ annex.integration: "Pass euch unserem Territorium an."
  annex.asia.give_to_owner_of_sindh: "[sindh.GetGrantTerritoryEventOption]"
  annex.asia.give_to_owner_of_bihar: "[bihar.GetGrantTerritoryEventOption]"
  annex.asia.give_to_owner_of_bombay: "[bombay.GetGrantTerritoryEventOption]"
- annex.asia.give_to_owner_of_madurai: "[madurai.GetGrantTerritoryEventOption]"
+ annex.asia.give_to_owner_of_madura: "[madura.GetGrantTerritoryEventOption]"
  annex.asia.give_to_owner_of_andhra: "[andhra.GetGrantTerritoryEventOption]"
 
 # Oceania
@@ -381,7 +380,6 @@ annex.185.a: "O'Neill Abú!"
  annexation_prussia: "Das Schicksal von Preußen"
  annexation_prussia_desc: "Brandenburg war das Gravitationszentrum Preußens und damit des preußisch geprägten Deutschen Reiches. Jahrzehntelang herrschte in Berlin rege Betriebsamkeit, zumeist mit den Politikern und Diplomaten der Großmächte, aber seit [GetYear] auch mit den gebellten Befehlen und Schreien der Soldaten, und jetzt mit der erzwungenen Ruhe unter [Root.GetAdjective] Kriegsrecht. Mit dem Ende des ehemaligen deutschen Staates kommt fast zwangsläufig auch der Beginn eines neuen.\n\nEin deutscher Staat mit Sitz in Berlin wäre ein mächtiger Anwärter auf die Wiedervereinigung Deutschlands. Deshalb haben einige in unserer Regierung vorgeschlagen, Brandenburg und Berlin an einen deutschen Kleinstaat mit Sitz in einer westlichen Stadt zu vergeben, damit Preußen nie wieder aufstehen kann. Andere verweisen auf die Notwendigkeit eines starken preußischen Verbündeten, um unseren Feinden an ihren Grenzen entgegenzutreten, und behaupten, dass Preußen angesichts unserer militärischen Vormachtstellung in Europa nicht im Traum daran denken würde, uns erneut herauszufordern. Zweifellos könnten die Preußen die Ironie einer guten, langen \"vorübergehenden\" militärischen Besetzung zu schätzen wissen."
  annex.1006.a: "Einen Preußischen Staat freigeben."
- annex.1006.b: "Krönung Großherzog Boris zum König von Preußen!"
 annex.1006.c: "[north_germany.GetGrantTerritoryEventOption]"
 
 annexation_west_prussia: "Das Schicksal von [776.GetName]"
@@ -643,17 +641,14 @@ annexation_ukraine_desc: "Nach einem langen Kampf mit der Kornkammer Europas hab
 
 annexation_brest: "Das Schicksal von Brest"
 annexation_brest_desc: "Die umkämpfte Stadt Brest-Litowsk ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen."
- annex.1061.a: "Aufteilung zwischen [chelm.GetNonIdeologyNameDef] und [volhynia.GetNonIdeologyNameDef]."
- annex.1061.b: "Aufteilung zwischen [chelm.GetNonIdeologyNameDef] und [pinsk.GetNonIdeologyNameDef]."
- annex.1061.c: "Teilen Sie es mit [chelm.GetNonIdeologyNameDef]."
 
 annexation_polesia: "Das Schicksal von Polesien"
 annexation_polesia_desc: "Die ruhige Region Polesia ist unter unsere Kontrolle gebracht worden, da unsere Truppen sie besetzt haben. Wir müssen nun entscheiden, was wir mit ihr machen."
 
 annexation_belarus: "Das Schicksal von Weißrussland"
-annexation_belarus_desc: "Nach einem kurzen Feldzug durch Weißrussland haben wir es geschafft, die Verteidigungsanlagen von Minsk zu überwinden. Weißrussland ist nun in unserer Hand! Wir müssen nun über die Zukunft desselben entscheiden."
-annex.1063.a: "Befreien Sie Weißrussland unter einer freundlichen Regierung."
-annex.1063.b: "Befreiung Weißrusslands unter deutscher Militärherrschaft."
+annexation_belarus_desc: "Nach einem kurzen Feldzug durch Weißrussland haben wir es geschafft, die Verteidigungsanlagen von Minsk zu überwinden. Weißrussland ist nun in unserer Hand! Wir müssen jetzt über die Zukunft dieses Landes entscheiden."
+annex.1063.a: "Weißrussland frei geben."
+annex.1063.b: "Weißrussland unter deutsche Militärherrschaft stellen."
 
 annexation_eastern_belarus: "Das Schicksal des östlichen Weißrusslands"
 annexation_eastern_belarus_desc: "Die ehemals von Russland gehaltene Region Ost-Weißrussland ist nun unter unserer Kontrolle, wir müssen entscheiden, was wir mit ihr machen wollen."
@@ -663,8 +658,7 @@ annexation_eastern_belarus_desc: "Die ehemals von Russland gehaltene Region Ost-
 
 annexation_russia: "Das Schicksal von Russland"
 annexation_russia_desc: "Nach einem langen Kampf mit dem russischen Staat haben wir eine umfassende Offensive gestartet und die russischen Streitkräfte zur Kapitulation gezwungen. Moskau ist nun in unserer Hand und damit das Schicksal der russischen Nation!"
-annex.1065.a: "Befreien Sie die russischen Kernländer."
-annex.1065.b: "Trennen Sie Sibirien von Russland."
+annex.1065.a: "Russland frei geben."
 
 annexation_latgale: "Das Schicksal von [880.GetName]"
 annexation_latgale_desc: "Der Staat [880.GetName] ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was damit geschehen soll."
@@ -1224,9 +1218,9 @@ annexation_antofagasta_desc: "Die Region in [506.GetName] ist unter unsere Kontr
  annexation_upper_chaco: "Das Schicksal von [1027.GetName]"
  annexation_upper_chaco_desc: "Die Region von [1027.GetName] wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen wollen."
 
-annexation_alash: "Das Schicksal von Alash"
-annexation_alash_desc: "Alash ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
-annex.3001.a: "Befreit Alash."
+ annexation_kazakhstan: "Das Schicksal von Kasachstan"
+ annexation_kazakhstan_desc: "Kasachstan ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
+annex.3001.a: "Befreit Kasachstan."
  
 annexation_turkestan: "Das Schicksal von Turkestan"
 annexation_turkestan_desc: "Turkestan ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
@@ -1242,11 +1236,11 @@ annex.3004.a: "Befreit Chiwa."
 
 annexation_afghanistan: "Das Schicksal von Afghanistan"
 annexation_afghanistan_desc: "Nach einem langen Kampf mit den Afghanen haben wir eine volle Offensive gestartet und die afghanische Armee gezwungen, sich zu ergeben und in die Berge zu fliehen. Kabul und die wichtigsten Straßen sind jetzt in unserer Hand, aber das Land sammelt sich gegen uns und wir könnten einen großen Kampf vor uns haben, sollten wir versuchen, den sogenannten "Friedhof der Reiche" zu besetzen."
-annex.3007.a: "Afghanistan freigeben."
+annex.3007.a: "Gründung einer Afghanischen Republik."
+ annex.3007.b: "Das Königreich Afghanistan wiederherstellen."
 
 annexation_siberia: "Das Schicksal von Sibirien"
-annexation_siberia_desc: "Mit Nowo-Nikolajewsk in unseren Händen kontrollieren wir nun Sibirien und können entscheiden, was wir mit diesen Gebieten machen."
-annex.3008.a: "Lassen Sie einen loyalen sibirischen Staat frei."
+annexation_siberia_desc: "Mit [570.GetCapitalVictoryPointName] in unseren Händen kontrollieren wir nun Sibirien und können entscheiden, was wir mit diesen Gebieten machen."
 
 annexation_russian_far_east: "Das Schicksal des russischen Fernen Ostens"
 annexation_russian_far_east_desc: "Unsere Armeen haben es geschafft, die Kontrolle über den russischen Fernen Osten zu übernehmen, und er ist nun von uns besetzt. Wir haben jetzt ein paar Optionen. Wir können das Land entweder marionettieren oder es für uns einnehmen, da es eine strategische Schlüsselposition in Ostasien besitzt. Was sollen wir tun?"
@@ -1293,8 +1287,8 @@ annexation_japan: "Das Schicksal von Japan"
 annexation_japan_desc: "Nach unserem erfolgreichen Feldzug auf den japanischen Inseln haben wir nun die Aufgabe, eine neue lokale Verwaltungsbehörde zu gründen, um den Frieden wiederherzustellen, wobei uns mehrere Optionen zur Auswahl stehen..."
  annex.3018.a: "Einsetzung einer Übergangsregierung für Japan."
 
-annexation_sakhalin: "Das Schicksal von [FROM.FROM.GetName]"
-annexation_sakhalin_desc: "[FROM.FROM.GetName] ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen."
+annexation_sakhalin: "Das Schicksal von Sachalin"
+annexation_sakhalin_desc: "Sachalin ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen."
  annex.3019.a: "[russia_vladivostok.GetGrantTerritoryEventOption]"
  annex.3019.b: "[russia_nikolayevsk.GetGrantTerritoryEventOption]"
 
@@ -1557,13 +1551,19 @@ annexation_hawaii_desc: "Die Inseln von Hawaii sind unter unsere Kontrolle gebra
  annexation_uttarakhand: "Das Schicksal von [814.GetName]"
  annexation_uttarakhand_desc: "[814.GetName] wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen wollen."
  annex.3079.a: "[delhi.GetGrantTerritoryEventOption]"
- annex.3079.b: "[shimla.GetGrantTerritoryEventOption]"
+ annex.3079.b: "[simla.GetGrantTerritoryEventOption]"
 
  annexation_darjeeling: "Das Schicksal von [887.GetName]"
  annexation_darjeeling_desc: "[887.GetName] wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen wollen."
 
  annexation_naga_hills: "Das Schicksal von  [1111.GetName]"
  annexation_naga_hills_desc: "[1111.GetName] wurde bis zum Pianma/Hpimaw-Zwischenfall in den 1910er Jahren von Qing-China verwaltet, als die örtlichen Tusi-Führer zu den Briten überliefen und seitdem zu Burma gehörten. Nun, da das Gebiet unter unsere Kontrolle gebracht wurde, müssen wir entscheiden, was mit ihm geschehen soll. Wir müssen nun entscheiden, was wir mit ihr machen wollen."
+
+ annexation_kuril_islands: "Das Schiksal von [FROM.FROM.GetName]"
+ annexation_kuril_islands_desc: "[FROM.FROM.GetName] wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit tun wollen."
+
+ annexation_grey_wedge: "Das Schicksal des Grauen Keils"
+ annexation_grey_wedge_desc: "Der \"Graue Keil\" zwischen Sibirien und Kasachstan ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzt haben. Wir müssen nun entscheiden, was wir damit tun wollen."
 
 annexation_levant: "Das Schicksal des Levante"
 annexation_levant_desc: "Wir haben die wohlhabenden Länder der Levante erobert, einschließlich der großen und alten Stadt Damaskus. Was sollen wir mit diesen alten osmanischen Provinzen machen?"
