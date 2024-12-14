@@ -2,9 +2,6 @@
 
 ## Übersetzt von Thylon ##
 
-### Factions ###
-chinese_united_front: "Chinesische Einheitsfront"
-
 ### Autonomy Levels ###
 chinese_suzerainty: "Chinesische Suzeränität"
 associated_governorate: "Assoziiertes Gouvernement"
@@ -65,11 +62,11 @@ china_declare_government_desc: "[ROOT.china_declare_government_text_desc]"
 china_declare_government_SHX: "Ruft die Zhongyuan-Regierung aus"
 china_declare_government_SHX_desc: "Nachdem unsere Position in der nordchinesischen Tiefebene gesichert ist, können wir nun kühn das Erbe der Xinhai-Revolution für uns beanspruchen. Unsere neue Regierung wird sich nun um die nationale Einigung bemühen und alle Rivalen, die sich uns in den Weg stellen, auslöschen. Niemand, außer vielleicht [SHX.GetLeader] in all seiner Weisheit, hätte erwartet, dass die Provinz Shanxi eine solche Macht erlangen würde. Aber durch unseren Mut und unsere Tapferkeit bei der Befreiung der Zentralebene haben wir uns als würdig erwiesen, die nationale Einigung anzuführen!"
 
-china_declare_government_SQI_national_populist: "Das neue Qing-Reich ausrufen"
-china_declare_government_SQI_national_populist_desc: "Der erbitterte Kampf um die Verbotene Stadt wurde auf Befehl von Zhang Tianran geführt. Die Tore des Palastes wurden zu einem Gefängnis für die feige Familie Aisin-Gioro. Mehrere Familienmitglieder versuchten zu fliehen, wurden aber zurückgeschickt, und die Mauern wurden an allen Ecken mit roten Speeren bewacht. Schließlich kapitulierte der Kaiser vor den Shangqing. Statt des Todes wurde Puyi gezwungen, in seiner kaiserlichen gelben Jacke vor Zhang Tianran zu kapitulieren und dem Volk sein Kaisertum zu bestätigen. Puyi bleibt Kaiser, und die Nebenkaiser, Verwalter und Priester der Shangqing Tianguo sind die offiziellen Magistrate des Qing-Reiches.\n\nZhang Tianran sprach den gefangenen Kaiser von jeglicher Schuld an diesem Krieg frei und erklärte, dass dieser Sieg der Höhepunkt einer spirituellen Genealogie sei, die mit den Boxern und Sun Yat-sen begann."
+china_declare_government_SHD_national_populist: "Das neue Qing-Reich ausrufen"
+china_declare_government_SHD_national_populist_desc: "Der erbitterte Kampf um die Verbotene Stadt wurde auf Befehl von Zhang Tianran geführt. Die Tore des Palastes wurden zu einem Gefängnis für die feige Familie Aisin-Gioro. Mehrere Familienmitglieder versuchten zu fliehen, wurden aber zurückgeschickt, und die Mauern wurden an allen Ecken mit roten Speeren bewacht. Schließlich kapitulierte der Kaiser vor den Shangqing. Statt des Todes wurde Puyi gezwungen, in seiner kaiserlichen gelben Jacke vor Zhang Tianran zu kapitulieren und dem Volk sein Kaisertum zu bestätigen. Puyi bleibt Kaiser, und die Nebenkaiser, Verwalter und Priester der Shangqing Tianguo sind die offiziellen Magistrate des Qing-Reiches.\n\nZhang Tianran sprach den gefangenen Kaiser von jeglicher Schuld an diesem Krieg frei und erklärte, dass dieser Sieg der Höhepunkt einer spirituellen Genealogie sei, die mit den Boxern und Sun Yat-sen begann."
 
-china_declare_government_SQI_manchu_restoration: "Wiederherstellung des Qing-Reiches"
-china_declare_government_SQI_manchu_restoration_desc: "Viele zweifelten an Qu Yingguangs Fähigkeit, die Invasion der Zhili nach dem Scheitern des Manchu-Putsches abzuwehren, doch nun sind alle Zweifel ausgeräumt. Shandong hat nicht nur den Angriff abgewehrt, sondern Qu hat Shandong und den Kaiser vom Abgrund zurückgeführt, und wir stehen jetzt stärker da als je zuvor. Puyi wird als Kaiser wiederhergestellt werden, mit seinem Bruder Pujie an seiner Seite, und Qu Yingguang wird ihr engster Berater sein. Alle, die sich uns in den Weg stellen, sollen wissen, dass die Mandschu zurück sind, und dieses Mal sind sie hier, um zu bleiben."
+china_declare_government_SHD_manchu_restoration: "Wiederherstellung des Qing-Reiches"
+china_declare_government_SHD_manchu_restoration_desc: "Viele zweifelten an Qu Yingguangs Fähigkeit, die Invasion der Zhili nach dem Scheitern des Manchu-Putsches abzuwehren, doch nun sind alle Zweifel ausgeräumt. Shandong hat nicht nur den Angriff abgewehrt, sondern Qu hat Shandong und den Kaiser vom Abgrund zurückgeführt, und wir stehen jetzt stärker da als je zuvor. Puyi wird als Kaiser wiederhergestellt werden, mit seinem Bruder Pujie an seiner Seite, und Qu Yingguang wird ihr engster Berater sein. Alle, die sich uns in den Weg stellen, sollen wissen, dass die Mandschu zurück sind, und dieses Mal sind sie hier, um zu bleiben."
 
 china_declare_government_other: "Eine nationale Regierung bilden"
 china_declare_government_other_desc: "Nachdem wir uns unseren Platz als stärkste Kraft in China gesichert haben, ist es an der Zeit, dass wir unseren Ehrgeiz bekunden, die Nation zu vereinen und dieses elende Zeitalter des Streits ein für alle Mal zu beenden. Das mag unerwünschte Aufmerksamkeit erregen, und es wird wahrscheinlich zu Konflikten kommen, die von denen angezettelt werden, die ihre eigene Vorherrschaft über das Land anstreben, aber das ist das Opfer, das wir bringen müssen, um unsere Nation ein für alle Mal vom Warlordismus zu befreien!"
@@ -107,6 +104,13 @@ china_demand_submission_desc: "Die regionalen Behörden in [FROM.Capital.GetCapi
 china_integrate_subjects: "Stärkere Integration von [FROM.GetNameDef]"
 china_integrate_subjects_desc: "Obwohl die Führung in [FROM.Capital.GetCapitalVictoryPointName] dankenswerterweise Einsicht gezeigt und beschlossen hat, sich uns anzuschließen, müssen wir noch weiter gehen, wenn wir die Ära der Warlords wirklich beenden wollen. Wir werden uns bemühen, die Verwaltung in [FROM.GetAdjective] näher an die unsere heranzuführen."
 
+china_joint_strike_GXC_decision: "Koordiniert einen gemeinsamen Schlag mit [FROM.GetNameDef]"
+china_joint_strike_GXC_decision_desc: "Im Alleingang sind unsere Chancen gegen [GXC.GetNameDef] gering, aber [FROM.GetNameDef] könnte bereit sein, sich der Tyrannei von [GXC.GetAdjective] entgegenzustellen. Wir sollten jedoch schnell handeln - wir müssen den Überraschungsmoment haben, wenn ein solcher gemeinsamer Schlag effektiv sein soll. Sollte dieser Plan funktionieren, werden wir sofort gegen unsere [GXC.GetAdjective] Feinde vorgehen."
+china_joint_strike_GXC_attack_mission: "[YUN.GetNonIdeologyName]-[HNN.GetNonIdeologyName] Gemeinsamer Angriff gegen [GXC.GetNameDef]"
+china_joint_strike_tooltip: "Wir können nur mit einer Fraktion einen gemeinsamen Angriff durchführen."
+HNN_GXC_chicken_exit: "§RWir werden [YUN.GetNameDef] aufgeben, um sich [GXC.GetNameDef] alleine zu stellen§!"
+YUN_GXC_chicken_exit: "§RWir werden [HNN.GetNameDef] aufgeben, um sich [GXC.GetNameDef] alleine zu stellen§!"
+
 northwest_conflict_surrender: "Kapitulation vor dem Feind"
 
 china_integration_timer: "[THIS.overlord.GetNameDef] Stärkt die Integration"
@@ -122,6 +126,36 @@ china_break_free_desc_manchu: "Vor unseren Augen sitzt der Sohn des Himmels auf 
 china_break_free_desc_fallback: "China ist kein Fremder, wenn es um die wechselnden Führungspersönlichkeiten geht, die versuchen, die Nation in ihre Richtung zu lenken. Doch das hat zu einer richtungslosen Nation geführt, die in sich selbst zusammenfällt. Um das Volk wirklich aus seiner Notlage zu befreien, müssen wir daran arbeiten, [ROOT.Overlord.GetLeader] zu stürzen, den letzten Witzbold, der das Konzept der nationalen Führung übernommen hat. Die neue chinesische Nation soll eine von [ROOT.GetNameDef] geführte Nation sein, frei von Korruption."
 china_half_strength_of_overlord_tt: "Geschätztes Verhältnis der Armeestärke von §Y50%§! oder mehr im Vergleich zu unserem Overlord"
 china_has_been_365_days_tt: "Es ist mindestens 365 Tage her, dass wir uns unserem Oberherrn unterworfen haben."
+
+CHN_join_NPA_decision: "Beitritt zur [NPA.GetName]"
+CHN_join_NPA_decision_desc: "Die Nationale Schutzallianz ist eine Wiederbelebung der alten Warlord-Koalition, die Yuan Shikais tyrannischen Versuch, eine neue Monarchie zu errichten, zu Fall bringen und die Republik retten wollte. Diese neueste Version unter der Führung von [NPA.GetLeader] mag unter anderen Umständen existieren, aber das ultimative Ziel bleibt dasselbe - unser Land und unsere Landsleute vor denen zu verteidigen, die es zerstören wollen!"
+
+CHN_join_NZH_decision: "Beitritt zur [NZH.GetName]"
+CHN_join_NZH_decision_desc: "Die Nördliche Zhili-Clique hat die chinesische politische Szene seit ihrem Sieg im Jahr 1927 dominiert und die politischen Stürme Beiyangs, die südlichen Revolutionäre und die nördlichen Rivalen überstanden. Obwohl ihre Vorherrschaft in letzter Zeit in Frage gestellt wurde, ist ihr Sieg unvermeidlich und mit der Erhaltung der chinesischen Moral und politischen Ordnung verbunden."
+
+CHN_join_SZH_decision: "Beitritt zur [SZH.GetName]"
+CHN_join_SZH_decision_desc: "Die Südliche Zhili-Clique ist ein Ableger der Hauptlinie im Norden, der sich auf das Erbe von Sun Chuanfang und seiner Liga der Acht Provinzen stützt. Ihre Fähigkeit, patriotischen Wohlstand zu bringen, bringt uns näher an sie heran, da sie im Allgemeinen eine engere Zusammenarbeit mit Deutschland und den Legationsstädten pflegen."
+
+CHN_join_MCU_decision: "Beitritt zur [MCU.GetName]"
+CHN_join_MCU_decision_desc: "Die Regierung der Mandschu-Restauration hat Wohlwollen und Ordnung in die chinesische Politik zurückgebracht, und als treue Untertanen werden wir uns der richtigen Regierung Chinas anschließen."
+
+CHN_join_AGJ_decision: "Beitritt zur [AGJ.GetName]"
+CHN_join_AGJ_decision_desc: "Die Nationale Befriedungsarmee (Anguojun) war eine von Zhang Zuolin angeführte Warlord-Koalition, die versuchte, die revolutionären Radikalen der Kuomintang zu bekämpfen und China unter dem Banner der Fengtian-Clique wiederzuvereinigen. Obwohl sie in dem darauf folgenden Konflikt von den Zhili besiegt wurden, haben sie die Hoffnung nie aufgegeben, und jetzt, wo es ihnen wieder besser geht, ist es an uns, uns unseren alten Kameraden wieder anzuschließen."
+
+CHN_join_UPC_decision: "Beitritt zur [UPC.GetName]"
+CHN_join_UPC_decision_desc: "Die Föderalistische Bewegung ist ein Bündnis von Parteien, die vor allem im Süden Chinas beheimatet sind und eine neue chinesische Republik nach dem föderalen Modell anstreben. Unsere Beteiligung an dieser Koalition ist unabdingbar, wenn wir China als eine Konföderation gleichberechtigter Provinzen wiedervereinigen wollen, die die Rechte ihrer Gliedstaaten respektiert."
+
+CHN_join_LKT_decision: "Beitritt zur [LKT.GetName]"
+CHN_join_LKT_decision_desc: "Chinas Linke hat sich unter der Führung von [LKT.GetLeader] vereinigt, und ihre Zukunft muss in den Händen derjenigen liegen, die die Vision haben, die weitreichenden Veränderungen zu sehen, die notwendig sind, um die Nation in die Zukunft zu führen. Wir werden uns in die Reihen unserer revolutionären Genossen einreihen und eine neue Ära in unserem Land herbeiführen!"
+
+CHN_join_RKT_decision: "Beitritt zur [RKT.GetName]"
+CHN_join_RKT_decision_desc: "Die Chinesische Nationalistische Partei (die chinesische Kuomintang) wurde von Dr. Sun Yat-sen gegründet, um als Vorhut der nationalen Revolution zu dienen und China vor ausländischem Imperialismus und inländischer Korruption zu retten. Es ist unsere Pflicht, uns in die Reihen der neuen Nationalen Revolutionsarmee einzureihen und unsere Nation zu verteidigen!"
+
+CHN_join_RGC_decision: "Beitritt zur [RGC.GetName]"
+CHN_join_RGC_decision_desc: "Die Sonne geht im Osten auf, und die Rettung Asiens vor dem westlichen Imperialismus ist nahe. Nur durch die Zusammenarbeit mit der  Großostasiatische Wohlstandssphäre können wir China wirklich vor Sozialismus und Imperialismus retten, und deshalb müssen wir uns der von ihr unterstützten Regierung anschließen."
+
+CHN_join_FROM_decision: "Beitritt zur [FROM.GetName]"
+CHN_join_FROM_decision_desc: "[FROM.GetLeader] ist ein aufsteigender Stern in China, der seine Kontrolle über die mächtige [FROM.GetAdjective]-Armee und seine Verbündeten in der [FROM.GetRulingParty] nutzt, um selbst zu einem nationalen Herausforderer zu werden. Dieser unerwartete Herausforderer um die nationale Vorherrschaft, der von seiner Basis in [FROM.Capital.GetCapitalVictoryPointName] aus operiert, ist sehr vielversprechend, und wir werden uns enger an ihn binden."
 
 china_demand_annexation: "Fordert die Annexion von [FROM.GetNameDef]"
 china_demand_annexation_desc: "Da unsere eigenen Magistrate bereits in [FROM.Capital.GetCapitalVictoryPointName] und in den Reihen von [FROM.GetAdjective] eingebettet sind, müssen wir nur noch die endgültige Unterwerfung von [FROM.GetLeader] unter unsere Sache sicherstellen. Ihre Autonomie, die nur noch auf dem Papier besteht, soll beendet werden."
@@ -464,11 +498,11 @@ china_ten_morale_tooltip: "Es kostet $china_ten_morale_blocked$ die Entscheidung
 
 china_league_war_mission_loop: "Dieser Mission wird auch in Zukunft §Ywiederholt§!"
 
-china_morale_sqi: "£GFX_pol_violence §YMoral§!: [SQI.GetLeagueWarMorale] ([?SQI.china_league_war_morale])"
+china_morale_shd: "£GFX_pol_violence §YMoral§!: [SHD.GetLeagueWarMorale] ([?SHD.china_league_war_morale])"
 china_morale_anq: "£GFX_pol_violence §YMoral§!: [ANQ.GetLeagueWarMorale] ([?ANQ.china_league_war_morale])"
 china_morale_lep: "£GFX_pol_violence §YMoral§!: [LEP.GetLeagueWarMorale] ([?LEP.china_league_war_morale])"
 china_morale_chi: "£GFX_pol_violence §YMoral§!: [CHI.GetLeagueWarMorale] ([?CHI.china_league_war_morale])"
-china_morale_sqi_tt: "§Y[SQI.GetName]§!\n--------------\n[GetLeagueWarMoraleSQI]"
+china_morale_shd_tt: "§Y[SHD.GetName]§!\n--------------\n[GetLeagueWarMoraleSHD]"
 china_morale_anq_tt: "§Y[ANQ.GetName]§!\n--------------\n[GetLeagueWarMoraleANQ]"
 china_morale_lep_tt: "§Y[LEP.GetName]§!\n--------------\n[GetLeagueWarMoraleLEP]"
 china_morale_chi_tt: "§Y[CHI.GetName]§!\n--------------\n[GetLeagueWarMoraleCHI]"
@@ -515,7 +549,7 @@ lepwar.5.a: "Es ist nur richtig"
 lepwar.5.b: "Können sie nicht einfach die Klappe halten??"
 
 lepwar.6.t: "Abtrünnige aus Anqing"
-lepwar.6.desc: "Es scheint, dass nach dem Zusammenbruch der Anqing-Clique eine Reihe von Kriegsherren, Generälen und kleinen Despoten, die durch Chen Tiaoyuans Zusammenarbeit mit den Japanern belastet sind, lieber auf [SQI.GetLeader] gesetzt haben, als Vergeltung von der Kuomintang zu riskieren. Ihre Fähigkeiten werden sich sicherlich als Vorteil für uns erweisen."
+lepwar.6.desc: "Es scheint, dass nach dem Zusammenbruch der Anqing-Clique eine Reihe von Kriegsherren, Generälen und kleinen Despoten, die durch Chen Tiaoyuans Zusammenarbeit mit den Japanern belastet sind, lieber auf [SHD.GetLeader] gesetzt haben, als Vergeltung von der Kuomintang zu riskieren. Ihre Fähigkeiten werden sich sicherlich als Vorteil für uns erweisen."
 lepwar.6.a: "Willkommen!"
 
 ### Ideas ###
@@ -541,8 +575,8 @@ defend_nanjing_CHI: "Die Verteidigung von Nanjing"
 defend_nanjing_CHI_desc: "Es ist ein glorreicher Tag für die chinesische Nation! Der Weißen Sonne ist es nicht nur gelungen, weit über die aufständische Zone MinGan hinaus vorzudringen, die stolze Nationale Revolutionsarmee hat auch erfolgreich die auserwählte Hauptstadt der Guofu, Dr. Sun, gesichert.\nSolange Nanjing in der Hand von [ROOT.GetLeader] ist, werden wir die Vorteile dieses Geistes für die Dauer des Liga-Krieges bewahren. §RSollte Nanjing jedoch aus unseren Händen fallen, werden wir diesen National Geist verlieren§!\n\nNichtsdestotrotz behalten wir die Oberhand. Fu Zhan!"
 defend_nanjing_LEP: "Die Verteidigung von Nanjing"
 defend_nanjing_LEP_desc: "Von allen Seiten belagert und von inneren und äußeren Feinden bedrängt, hat die Liga nur noch zwei Stärken: die Kontrolle über die südliche Hauptstadt und den mutigen, modernen und vorbildlichen Wusheng Lianjun. Der Marschall der Liga kann nicht zulassen, dass solch perfide Spötter seinen rechtmäßigen Mantel an sich reißen!\nSolange Nanjing in der Hand von [ROOT.GetLeader] ist, werden wir die Vorteile dieses Geistes für die Dauer des Liga-Krieges bewahren. §RSollte Nanjing jedoch aus unseren Händen fallen, werden wir diesen National Geist verlieren§!\n\nNichtsdestotrotz behalten wir die Oberhand. Fu Zhan!"
-defend_nanjing_SQI: "Die Verteidigung von Nanjing"
-defend_nanjing_SQI_desc: "Es scheint, dass es weder Chen Tiaoyuan, der Marschall der Liga, noch die abscheulichen Kuomintang-Radikalen waren, die die südliche Hauptstadt erobern konnten. Stattdessen waren es [ROOT.GetLeader] und seine treuen Anhänger! Unter seiner Führung wird sich ein neues östliches Land erheben...\nSolange Nanjing in der Hand von [ROOT.GetLeader] ist, werden wir die Vorteile dieses Geistes für die Dauer des Liga-Krieges bewahren. §RSollte Nanjing jedoch aus unseren Händen fallen, werden wir diesen National Geist verlieren§!\n\nNichtsdestotrotz behalten wir die Oberhand. Fu Zhan!"
+defend_nanjing_SHD: "Die Verteidigung von Nanjing"
+defend_nanjing_SHD_desc: "Es scheint, dass es weder Chen Tiaoyuan, der Marschall der Liga, noch die abscheulichen Kuomintang-Radikalen waren, die die südliche Hauptstadt erobern konnten. Stattdessen waren es [ROOT.GetLeader] und seine treuen Anhänger! Unter seiner Führung wird sich ein neues östliches Land erheben...\nSolange Nanjing in der Hand von [ROOT.GetLeader] ist, werden wir die Vorteile dieses Geistes für die Dauer des Liga-Krieges bewahren. §RSollte Nanjing jedoch aus unseren Händen fallen, werden wir diesen National Geist verlieren§!\n\nNichtsdestotrotz behalten wir die Oberhand. Fu Zhan!"
 
 ### Events ###
 
@@ -636,6 +670,28 @@ china_events.3.t: "[FROM.GetNameDefCap] weigert sich, nachzugeben!"
 china_events.3.d: "Trotz unserer Bemühungen, die Angelegenheit friedlich zu regeln, hat [FROM.GetLeader] unsere Bemühungen zur Förderung der nationalen Einheit offiziell aufgegeben und begonnen, [FROM.GetAdjective]-Einheiten zu mobilisieren, um zu versuchen, uns abzuwehren. Außerdem hat [FROM.GetLeader.GetSheHeCap] alle unsere Vertreter hinausgeworfen und unsere Regierung als illegitim bezeichnet, indem er in ganz [FROM.Capital.GetCapitalVictoryPointName] solch abscheuliche Lügen verbreitete.\n\nNatürlich sind seine Handlungen eine schwere Beleidigung, aber es bleibt abzuwarten, wie wir weiter vorgehen. In Anbetracht der sturen und wankelmütigen Natur von Kriegsherren war eine Ablehnung immer vorhersehbar. Aber um unseren Willen gegenüber [FROM.GetNameDef] durchzusetzen, müssen wir Kräfte bereitstellen, die wir anderweitig einsetzen könnten. Das Timing ist, wie immer, alles."
 china_events.3.a: "Verstärktes die Einheiten an der Grenze."
 china_events.3.b: "Die Invasion beginnt jetzt!"
+
+china_events.3000.t: "Die [FROM.GetName] bietet einen gemeinsamen Schlag gegen [GXC.GetAdjective] an"
+china_events.3000.d: "Auf dem Schreibtisch von [ROOT.GetLeader] ist vor kurzem ein höchst merkwürdiges Angebot eingegangen. Unter die hektischen Berichte über die nationale Lage mischte sich ein fein gedrucktes Telegramm des benachbarten Gouverneurs von [FROM.GetNameDefCap], [FROM.GetLeader]. Unter Hinweis auf die gegenseitige Loyalität zu unserer gemeinsamen Sache, der Förderung der nationalen Einheit, der Sicherung der Grenzen und der Förderung der gegenseitigen Beziehungen hat der geschätzte Gouverneur einen \"gemeinsamen Schlag\" zwischen [ROOT.GetLeader] und [FROM.GetLeader] angeboten, der sich gegen [GXC.GetLeader] richtet.\n\nDiese Aussicht ist zwar sehr interessant, aber nicht ganz risikofrei. Denn es würde unsere Soldaten in einen weiteren, möglicherweise sinnlosen Krieg stürzen, im Wesentlichen, um die beiden Provinzen Guangxi und Guangdong für unsere gemeinsame Sache zu erobern. Aber auch das könnte der Partei, die in der Lage ist, die Kontrolle über Kanton, den Schlüssel zum Süden der Nation, zu sichern und zu behalten, große Vorteile bringen. Ebenso verlockend ist die Art des Angebots, denn es ist nur so gut wie das Papier, auf dem es gedruckt ist, und könnte, sollte sich die Lage ändern, wieder zurückgenommen werden."
+china_events.3000.a: "Arm in Arm rücken wir nach Guangdong vor!"
+china_events.3000.b: "Ich habe [FROM.GetLeader] noch nie vertraut."
+
+china_events.3001.t: "[FROM.GetNameDefCap] Antworten auf unseren Aufruf!" #YUN/HNN Accept
+china_events.3001.d: "Höchst erfreuliche Nachrichten! Es scheint, dass unser Aufruf zur Unterstützung einer zukünftigen Kampagne gegen [GXC.GetLeader] einen durchschlagenden Erfolg hatte. Nachdem er sich mit [ROOT.GetLeader] per Telegramm unterhalten und uns über die positiven Erkenntnisse seines Plans informiert hat, hat [FROM.GetLeader] seine Streitkräfte offiziell für die Eroberung von Guangdong eingesetzt. Jetzt müssen wir nur noch für den zukünftigen Konflikt planen und hoffen, dass sein Wort gilt."
+china_events.3001.a: "Der Beginn von etwas Größerem?"
+
+china_events.3002.t: "Die [FROM.GetName] verweigern unseren Aufruf!" #YUN/HNN Decline
+china_events.3002.d: "Tragische Nachrichten haben den Schreibtisch des Gouverneurs erreicht! Wie es scheint, ist unser Aufruf zur Unterstützung einer zukünftigen Kampagne gegen [GXC.GetLeader] mit einem durchschlagenden Misserfolg gekrönt worden. Obwohl [FROM.GetLeader] mit [ROOT.GetLeader] in einem Telegramm sehr freundliche Worte wechselte und uns über die positiven Erkenntnisse seines Plans informierte, weigerte er sich dennoch, Männer oder Material für die Eroberung von Guangdong bereitzustellen. Unter Hinweis auf die möglichen Gefahren, die Instabilität der Nation und die Bevorzugung innerer Stabilität gegenüber der Einladung zu weiteren Konflikten hat sich [FROM.GetLeader] kurz gehalten, unsere vorgeschlagenen Aktionen anzuprangern. In aller Bescheidenheit müssen wir den künftigen Kampf ohne ihre Hilfe planen."
+china_events.3002.a: "I suppose I cannot say we are disappointed."
+
+china_events.3003.t: "Die Ehrenlosen [FROM.GetAdjective]" #YUN/HNN Refuse to enter after agreeing
+china_events.3003.d: "Vielleicht ist es zu viel verlangt, von der Warlord Era Aufrichtigkeit und Ehre zu erwarten, und doch wird sie weiterhin enttäuscht. Trotz früherer Vereinbarungen, gemeinsamer Übungen und sogar der gemeinsamen Ausarbeitung eines Kampagnenplans zur tapferen Zerschlagung von [GXC.GetLeader] und seines illegalen Staatsgebildes an unserer gemeinsamen Grenze hat es den Anschein, dass [FROM.GetLeader] an der Schwelle zur Initiative Zweifel entwickelt hat. Entweder unvorbereitet, Leben wegzuwerfen, oder von vornherein völlig unwillig, hat [FROM.GetLeader] kürzlich an [ROOT.GetLeader] telegrafiert und versprochen, dass sie sich nicht in unser Vorgehen einmischen, es aber nicht mehr unterstützen würden.\n\nDas ist zwar nicht unbegründet, hat aber in unseren Reihen sowohl große Feindseligkeit als auch Wildheit hervorgerufen, wobei viele der eifrigsten Kriegstreiber einen zweigleisigen Angriff vorschlagen. Glücklicherweise scheint [ROOT.GetLeader] dies nicht einmal als Option in Betracht zu ziehen. Stattdessen scheinen die Worte von [FROM.GetLeader] einen gewissen Einfluss gehabt zu haben, vielleicht zumindest ein Gefühl. Wenn sie einen Rückzieher machen, ist an ihren Worten etwas Wahres dran? Wäre es klug, eine Offensive für Canton zu überdenken?"
+china_events.3003.a: "Es ist ja nicht so, dass wir sie brauchen würden!"
+china_events.3003.b: "Vielleicht liegt in ihrem Handeln Weisheit."
+
+china_events.3004.t: "[YUN.GetNameDefCap] und [HNN.GetNameDefCap] bereiten sich darauf vor, gegen uns zu mobilisieren!"
+china_events.3004.d: "Es hat den Anschein, dass Liangguangs Position innerhalb der Nation am bedrohlichsten für seine Nachbarn ist, von denen die wichtigsten die von [HNN.GetNameDefCap] und [YUN.GetNameDefCap] sind. Direkt nördlich und westlich gelegen, werden die Angelegenheiten des Südwestens in der Regel von den Ereignissen in Guangdong dominiert, die sich in Richtung Hunan und Yunnan ausweiten. Daher ist es nur natürlich, dass Kunming und Changsha gegenüber den Ereignissen in Kanton wachsam sind. Da [YUN.GetLeader] und [HNN.GetLeader] eine mögliche Verwundbarkeit oder vielleicht überwältigende Chancen sehen, haben sie vor kurzem eine formelle Kampagne angekündigt, um [ROOT.GetLeader] aus der \"Hausbesetzung\" Guangdongs zu vertreiben.\n\nUnter Berufung auf die Stabilität im Südwesten, die Einheit der Nation und die Beseitigung von \"Banditen\" haben sich die Armeen von Xiang und Dian Berichten zufolge an unseren gemeinsamen Provinzgrenzen versammelt und sich Scharmützel mit lokalen Grenzkommandos geliefert. Es scheint, dass es nur eine Frage der Zeit ist, bis der Hammer fällt, und in einem solchen Fall müssen der Generalstab und die Soldaten zweifellos vorbereitet sein."
+china_events.3004.a: "Zwei gegen einen? Ich mag diese Chancen."
 
 china_events.4.t: "[FROM.GetNameDefCap] bietet eine Allianz an"
 china_events.4.d: "Nur weil wir die einzige rechtmäßige Regierung Chinas sind, heißt das nicht, dass wir allein reisen. Im ganzen Land gibt es viele, die mit unseren Zielen sympathisieren und nur auf die Befreiung warten. Manchmal gelingt es ihnen jedoch, sich schon vorher zu befreien.\n\n[FROM.GetLeader] scheint genau das getan zu haben, indem er die [FROM.GetRulingParty] dazu gebracht hat, das Volk von [FROM.GetNameDef] zu befreien. Sie haben sich unserer Sache angeschlossen, zumindest behaupten sie das, und wir haben offiziell ihre Petition erhalten, sich unserer Sache als lokales Mitglied anzuschließen."
@@ -945,10 +1001,9 @@ china_events.110.d.russia_already_guaranteed: "$china_events.110.intro$\n\nWir g
 china_events.110.d.russia: "$china_events.110.intro$Falls wir zu ihren Gunsten intervenieren, haben sie erklärt, dass sie unserem Bündnis als unabhängiges Mitglied beitreten werden."
 china_events.110.d.india_already_guaranteed: "$china_events.110.intro$\n\nWir garantieren derzeit die Unabhängigkeit von [FROM.GetNameDef] und können ihnen daher natürlich zu Hilfe kommen, um dem chinesischen Expansionismus zu widerstehen. Dennoch gibt es auch in unserer Regierung Stimmen, die argumentieren, dass ein geeintes China für uns zu anstrengend sein könnte und dass wir in einen Krieg verwickelt werden könnten, der nicht so schnell endet. Die Chinesen werden sich zweifelsohne nicht weigern, sich zurückzuziehen, und unser Land hat möglicherweise andere Bedrohungen zu bewältigen."
 china_events.110.d.india: "$china_events.110.intro$Falls wir zu ihren Gunsten intervenieren, haben sie erklärt, dass sie unserem Bündnis als unabhängiges Mitglied beitreten werden."
-china_events.110.a: "Wir werden unsere Garantie wahrnehmen, zu den Waffen!"
-china_events.110.b: "Wir werden ihnen zu Hilfe kommen."
-china_events.110.c: "Fordert die sofortige Einführung einer sozialistischen Regierung."
-china_events.110.d: "Sie sind auf sich allein gestellt."
+china_events.110.a: "Wir werden ihnen zu Hilfe kommen."
+china_events.110.b: "Fordert die sofortige Einführung einer sozialistischen Regierung."
+china_events.110.c: "Sie sind auf sich allein gestellt."
 
 china_events.111.t: "[FROM.GetNameDefCap] hat uns ihren Schutz angeboten!"
 china_events.111.d.russia: "Unsere Bitten um Hilfe sind nicht unbeantwortet geblieben! Die russische Regierung hat unserer Regierung erklärt, dass sie unsere nationale Souveränität anerkennt, und sie wird der chinesischen Regierung erklären, dass sie alle ihre Truppen abziehen muss, andernfalls droht ein gemeinsamer Krieg. Wir können jetzt sicher sein, dass Moskau uns den Rücken freihält."

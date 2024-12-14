@@ -23,6 +23,8 @@ mod_options_button_text: "Weiter"
 ## TAB 1 ##
 KR_welcome_splash_tab_1_header: "[ROOT.GetCountryIntroHeader]"
 KR_welcome_splash_tab_1_content: "[ROOT.GetCountryIntroContent]"
+country_intro_header: "$KR_scenario_name$"
+country_intro_content: "$KR_scenario_desc$"
 
 ## TAB 2 ##
 KR_welcome_splash_tab_2_reveal_spoilers_button: "Spoiler anzeigen?"
@@ -34,24 +36,24 @@ KR_welcome_splash_tab_3_content: "§YBitte beachten Sie Folgendes:§!\n£white_d
 KR_welcome_splash_tab_3_content_0: "Kaiserreich legt Beschränkungen für diplomatische Aktionen wie §Rfrühe Kriege§!, §RFraktionen§! und §RAutonomiestufen§! fest.\nKaiserreich enthält §CDivisionsgrenzen§! und eine §CDemobilisierung§! Mechanik, um die Spielbarkeit im späteren Spiel zu verbessern.\nBei §YFriedenskonferenzen§! sollten Sie darauf achten, dass Sie alle Staaten annektieren. Sie können später Länder aus den annektierten Gebieten durch §CEntscheidungen§! entlassen.\nIm Menü §YIndividuelle Spielregeln§! können Sie viele Optionen einstellen, darunter §CLänderpfade§!, §CVorrang für Spieler bei Friedenskonferenzen§!, und das §CStaat und Land Transfer Tool§!.\nDas £kr_options_icon  §YOptionsmenu im Spiel§! wird durch einen Klick auf das Symbol in der rechten oberen Ecke geöffnet. Hier können Sie die §CHäufigkeit der Nachrichtenereignisse§! einstellen und die §CDynamische Umbenennung§! von Staaten und Siegpunkten aktivieren.\n§YDieses Fenster§! kann jederzeit wieder geöffnet werden, indem Sie auf das Symbol £help_button  oben rechts klicken."
 
 ## TAB 4 ##
-KR_CURRENT_VERSION: "1.3.3"
-KR_CURRENT_VERSION_NAME: "Amid Blue-Coloured Seas"
+KR_CURRENT_VERSION: "1.4"
+KR_CURRENT_VERSION_NAME: "All the Russias"
 KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ \"$KR_CURRENT_VERSION_NAME$\""
 KR_welcome_splash_tab_4_upper_header: "§YWillkommen bei $KR_CURRENT_VERSION_COMBINED$§!"
 KR_welcome_splash_tab_4_lower_header: "§YLiebevoll gestaltet vom Kaiserreich Team:§!"
 KR_welcome_splash_tab_4_content: "$KR_welcome_splash_tab_4_content_1$\n$KR_welcome_splash_tab_4_content_2$\n$KR_welcome_splash_tab_4_content_3$\n$KR_welcome_splash_tab_4_content_4$\n$KR_welcome_splash_tab_4_content_5$\n$KR_welcome_splash_tab_4_content_6$\n$KR_welcome_splash_tab_4_content_7$\n$KR_welcome_splash_tab_4_content_8$\n$KR_welcome_splash_tab_4_content_9$\n$KR_welcome_splash_tab_4_content_10$\n$KR_welcome_splash_tab_4_content_11$"
 
 KR_welcome_splash_tab_4_content_0: "Unser Team hat an allen Ecken und Enden der Welt hart gearbeitet, um euch diese neue Version zu präsentieren, und wir fühlen uns sehr geehrt, dass ihr sie spielen wollt.\n\nWir hoffen, Sie haben genauso viel Spaß beim Spielen von Kaiserreich wie wir beim Erstellen!"
-KR_welcome_splash_tab_4_content_1: "Alpinia  ·  Angel  ·  Arvidus  ·  Augenis  ·  Blackfalcon501  ·  Blackleaf  ·  Cassrabbit"
-KR_welcome_splash_tab_4_content_2: "Carmain  ·  Cazadorian  ·  ClawedAsh  ·  Chazem  ·  Chiang Kai-shrek  ·  Chiron29  ·  Cody"
-KR_welcome_splash_tab_4_content_3: "DerEherneRächer  ·  DuoDex  ·  El Daddy  ·  falling_robin  ·  Fedex  ·  Flamefang"
-KR_welcome_splash_tab_4_content_4: "Frill Shark  ·  Gaboemi  ·  Hamfast  ·  Hazo  ·  Ido  ·  Igor050301  ·  JazzyHugh"
-KR_welcome_splash_tab_4_content_5: "Jeankedezeehond  ·  Jonny BL  ·  Kano  ·  katieluka  ·  kergely  ·  KFateweaver  ·  Klyntar King"
-KR_welcome_splash_tab_4_content_6: "Krčo  ·  lehmannmo  ·  Luwofe  ·  Matoro  ·  McOmghall  ·  MrMano  ·  ~mw~ // miwaco."
-KR_welcome_splash_tab_4_content_7: "Noot  ·  Pelmen  ·  PPsyrius  ·  Purple Jinjo  ·  Remington  ·  Rnk  ·  Rune  ·  Shiroe"
-KR_welcome_splash_tab_4_content_8: "Sonny O'Cad  ·  SuperGreenBeans  ·  suzuha  ·  The Alpha Dog  ·  The Irredentista"
+KR_welcome_splash_tab_4_content_1: "Alpinia  ·  Angel  ·  Amber  ·  Arvidus  ·  Augenis  ·  AwsomeGuy49  ·  Blackfalcon501"
+KR_welcome_splash_tab_4_content_2: "Blackleaf  ·  Cassrabbit  ·  Carmain  ·  Cazadorian  ·  ClawedAsh  ·  Chazem  ·  Chiang Kai-shrek"
+KR_welcome_splash_tab_4_content_3: "Chiron29  ·  Cody  ·  Deliberus  ·  DerEherneRächer  ·  DuoDex  ·  El Daddy  ·  falling_robin"
+KR_welcome_splash_tab_4_content_4: "Fedex  ·  Flamefang  ·  Frill Shark  ·  Gaboemi  ·  Hamfast  ·  Hazo  ·  Ido  ·  Igor050301"
+KR_welcome_splash_tab_4_content_5: "JazzyHugh  ·  Jeankedezeehond  ·  jerv  ·  Jonny BL  ·  Kano  ·  katieluka  ·  kergely"
+KR_welcome_splash_tab_4_content_6: "KFateweaver  ·  Klyntar King  ·  Krčo  ·  lehmannmo  ·  Luwofe  ·  Matoro  ·  McOmghall  ·  MrMano"
+KR_welcome_splash_tab_4_content_7: "~mw~ // miwaco.  ·  Noot  ·  Pelmen  ·  PPsyrius  ·  Purple Jinjo  ·  Rnk  ·  Rune  ·  Sasha"
+KR_welcome_splash_tab_4_content_8: "Shiroe  ·  Sonny O'Cad  ·  SuperGreenBeans  ·  suzuha  ·  The Alpha Dog  ·  The Irredentista"
 KR_welcome_splash_tab_4_content_9: "The Italian Jojo  ·  Toaster  ·  Vidyaország  ·  VladimirLemon  ·  Zimbabwe Salt Co."
-
+# Deutsches Übersetzungsteam:
 KR_welcome_splash_tab_4_content_10: "\n§YDeutsches Übersetzungs-Team:§!"
 KR_welcome_splash_tab_4_content_11: "Proho  ·  SimonStaysNuclear  ·  Thylon  ·  Dave"
 
@@ -89,7 +91,7 @@ market_liberal_plurality: "§m[?token:market_liberal.GetTokenLocalizedKey]§! ha
 social_conservative_plurality: "§c[?token:social_conservative.GetTokenLocalizedKey]§! haben die höchste Popularität"
 authoritarian_democrat_plurality: "§g[?token:authoritarian_democrat.GetTokenLocalizedKey]§! haben die höchste Popularität"
 paternal_autocrat_plurality: "§P[?token:paternal_autocrat.GetTokenLocalizedKey]§! haben die höchste Popularität"
-national_populist_plurality: "§N[?token:national_populist.GetTokenLocalizedKey]§! haben die höchste Popularität"
+national_populist_plurality: "§n[?token:national_populist.GetTokenLocalizedKey]§! haben die höchste Popularität"
  
 ### Diplomacy Triggers ###
 cannot_call_allies_or_join_wars: "Kann keine Verbündeten rufen oder an Kriegen teilnehmen"
@@ -346,6 +348,7 @@ KR_hostile: "Feindselig"
 KR_liberated_us: "Befreite uns"
 KR_loyal_subject: "Treuer Untertan"
 KR_diplomatic_mission: "Diplomatische Mission"
+KR_rival: "Rivale"
 
 KR_close_allies: "Enge Verbündete"
 KR_returned_land: "Gab unser Land zurück"
@@ -377,6 +380,7 @@ FOCUS_FILTER_AIRFORCE_BONUS: "Luftwaffe"
 FOCUS_FILTER_RESISTANCE: "Widerstand"
 FOCUS_FILTER_LEC_CURRENCY: "Währungsreserven"
 FOCUS_FILTER_GER_PREPAREDNESS: "Kriegsvorbereitung"
+FOCUS_FILTER_RUS_POWER_PROJECTION: "Machtprojektion"
 
 ### Autonomy Events ###
 FROM_becomes_puppet: "§H[From.GetNameDefCap]§! ist nicht länger eine §Besetzte Marionette§!."
@@ -473,8 +477,6 @@ is_in_faction_but_not_leader_NOT: "Ist Anführer der Fraktion oder nicht in eine
 
 has_guarantor: "Wird garantiert"
 has_guarantor_NOT: "Wird nicht garantiert"
-
-all_enemy_country_workaround_trigger: "$TRIGGER_ALL_enemy_COUNTRY_STARTS$:\n   Ist im Krieg mit §Y[?target.GetFlag][?target.GetName]§!"
 
 ### Events ###
 generic_events.100.t: "Ordnung wiederhergestellt in [Root.GetNameDef]"
@@ -738,8 +740,6 @@ tech_masterful_blitz: "$tactic_masterful_blitz$"
 
 tech_human_wave_tactics: "$tactic_human_wave_tactics$"
 
-tech_improved_decryption: "Verbesserte Entschlüsselung"
-
 ### Units ###
 assault_battalion: "$blackshirt_assault_battalion$"
 assault_battalion_desc: "$blackshirt_assault_battalion_desc$"
@@ -763,3 +763,7 @@ tank_improvised_turret_desc: "Er beherbergt die Kanone und kann sich drehen. Wen
 XXA: "Integrierbare Territorien"
 XXA_ADJ: "Integrierbar"
 XXA_DEF: "die Integrierbare Territorien"
+
+XXA_on_annex_workaround: " "
+XXA_on_annex_workaround_ADJ: " "
+XXA_on_annex_workaround_DEF: " "

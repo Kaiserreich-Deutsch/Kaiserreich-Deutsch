@@ -75,7 +75,7 @@ UNIT_GENERIC_NAME_FNG: "$NAME$ Di $NR$ Shi"
 UNIT_GENERIC_NAME_LEP: "$NAME$ Di $NR$ Shi"
 UNIT_GENERIC_NAME_ANQ: "$NAME$ Di $NR$ Shi"
 UNIT_GENERIC_NAME_CHI: "$NAME$ Di $NR$ Shi"
-UNIT_GENERIC_NAME_SQI: "$NAME$ Di $NR$ Shi"
+UNIT_GENERIC_NAME_SHD: "$NAME$ Di $NR$ Shi"
 UNIT_GENERIC_NAME_SZC: "$NAME$ Di $NR$ Shi"
 UNIT_GENERIC_NAME_YUN: "$NAME$ Di $NR$ Shi"
 UNIT_GENERIC_NAME_SHX: "$NAME$ Di $NR$ Shi"
@@ -86,7 +86,8 @@ UNIT_GENERIC_NAME_MAN: "$NAME$ Di $NR$ Shi"
 
 #RUSSIAN
 UNIT_GENERIC_NAME_RUS: "$NR$ya $NAME$"
-UNIT_GENERIC_NAME_TRM: "$NR$ya $NAME$"
+UNIT_GENERIC_NAME_FER: "$NR$ya $NAME$"
+UNIT_GENERIC_NAME_RSA: "$NR$ya $NAME$"
 UNIT_GENERIC_NAME_UKR: "$NR$ya $NAME$"
 
 ##################################
@@ -132,7 +133,7 @@ ALB_infantry_equipment_2: "Erma Maschinenpistole Model 1935"
 ALB_infantry_equipment_2_short: "EMP Model 1935"
 ALB_infantry_equipment_3: "ZB Maschinenkarabiner M.44"
 ALB_infantry_equipment_3_short: "MKar M.44"
-ALB_infantry_equipment_3_desc: "Die Entwicklung eines tragbaren automatischen Gewehrs mit einer Zwischenpatrone entstand in der Monarchie dank des Erfolgs der "schweren" Maschinenpistolen der Király-Serie und der Erkenntnis, dass die Kampfreichweiten viel geringer waren als erwartet. Um die Feuerkraft des Infanteristen zu maximieren, entwickelte der tschechische Konstrukteur Alois Farlík die 8x45mm Zwischenpatrone, während ZB die Maschinenkarabine um diese Patrone herum konstruierte. Sie wurde als Maschinenkarabiner M.44 eingeführt."
+ALB_infantry_equipment_3_desc: "Die Entwicklung eines tragbaren automatischen Gewehrs mit einer Zwischenpatrone entstand in der Monarchie dank des Erfolgs der \"schweren\" Maschinenpistolen der Király-Serie und der Erkenntnis, dass die Kampfreichweiten viel geringer waren als erwartet. Um die Feuerkraft des Infanteristen zu maximieren, entwickelte der tschechische Konstrukteur Alois Farlík die 8x45mm Zwischenpatrone, während ZB die Maschinenkarabine um diese Patrone herum konstruierte. Sie wurde als Maschinenkarabiner M.44 eingeführt."
 ALB_infantry_at: "Panzerjägerbüchse M.38"
 ALB_infantry_at2: "Raketenpanzerjägerbüchse M.42"
 ALB_support_weapons: "MG M.07/12 & MW M.14"
@@ -175,16 +176,6 @@ ALB_armored_car_at_equipment_desc: "Da die leichten mechanisierten Einheiten des
 ALG_infantry_equipment_0: "Fusil Lebel Modèle 1886 M93"
 ALG_infantry_equipment_0_short: "Lebel Mle M93"
 ALG_support_weapons: "Darne M1919 & Stokes mortar"
-
-###
-### Alash Autonomy ###
-###
-
-### Land ###
-ALO_infantry_equipment_0: "Vintovka Mosina obr.1891"
-ALO_infantry_equipment_0_short: "Mosina 1891"
-ALO_infantry_equipment_1: "Vintovka Mosina 1891 obr.1891/1930"
-ALO_infantry_equipment_1_short: "Mosina 1891/1930"
 
 ###
 ### Grão Pará (AMA) ###
@@ -3345,8 +3336,8 @@ ETS_infantry_equipment_0_desc: "Ursprünglich ein Produkt der späten Guangxu-Ä
 ETS_infantry_equipment_1: "Türk M1887 Mauser Tüfek"
 ETS_infantry_equipment_1_short: "Tüfek M1887"
 ETS_infantry_equipment_1_desc: "Die türkische Mauser M1887 ist eine Weiterentwicklung der deutschen Mauser M1871/84. Das System wurde durch die Hinzufügung einer einzigen Verriegelungsnase verstärkt und das Kaliber wurde weiter reduziert. Mit diesem Gewehr wurde das kleinste Schwarzpulver-Bleigeschoss-Kaliber verschossen, das von irgendeiner Nation eingeführt wurde, und es war das letzte von Mauser hergestellte Schwarzpulver-Patronengewehr."
-ETS_infantry_equipment_2: "PPSh-41"
-ETS_infantry_equipment_2_short: "PPSh-41"
+ETS_infantry_equipment_2: "AVS Type 38"
+ETS_infantry_equipment_2_short: "AVS 38"
 ETS_infantry_equipment_3: "Hanyang Xuantong Type 35"
 ETS_infantry_equipment_3_short: "Hanyang Type 35"
 ETS_infantry_equipment_3_desc: "Das Typ 35 ist ein halbautomatisches Gewehr, das auf dem General-Liu-Gewehr von 1914 basiert. Obwohl es ähnlich aussieht, ist das Typ 35 kürzer, die Rückseite des Gehäuses ist abgedeckt und das Gasfängersystem wurde durch eine einfache Gasöffnung ersetzt. Das neue Gewehr kann auch nicht mehr auf Handbetrieb umgestellt werden und verwendet die Magazine des böhmischen Gewehrs ZH-29 und des leichten Maschinengewehrs ZB-26."
@@ -3801,6 +3792,196 @@ LIL_anti_air_equipment_1: "Brandt 25mm"
 LIL_anti_air_equipment_1_short: "Brandt 25 mm"
 LIL_anti_air_equipment_2: "Schneider 37 mm"
 LIL_anti_air_equipment_3: "Canon de 75 CA modèle 1940"
+
+###
+### Transamur ###
+###
+#Russian version names are adopted to circumstances - majority of them refer to designer, changes in the design and so on. The ones below are ones which were commonly used in all areas.
+#Version A :
+FER_EQUIPMENT_VERSION_1: "A"
+#Version B :
+FER_EQUIPMENT_VERSION_2: "B"
+#Improved :
+FER_EQUIPMENT_VERSION_3: "-U"
+#Modified :
+FER_EQUIPMENT_VERSION_4: "M"
+#Special :
+FER_EQUIPMENT_VERSION_5: "-S"
+#Model of an year:
+FER_EQUIPMENT_VERSION_6: "obr.[GetYear]"
+#Model of an year:
+FER_EQUIPMENT_VERSION_7: "obr.[GetYear]"
+#Model of an year:
+FER_EQUIPMENT_VERSION_8: "obr.[GetYear]"
+#Model of an year:
+FER_EQUIPMENT_VERSION_9: "obr.[GetYear]"
+#Model of an year:
+FER_EQUIPMENT_VERSION_10: "obr.[GetYear]"
+
+### Land ###
+
+#Infantry Equip
+
+# Mosin rifle, 1891 model :
+FER_infantry_equipment_0: "3-lineynaya vintovka Mosina obr.1891"
+FER_infantry_equipment_0_short: "Vintovka Mosina"
+# Mosin rifle, 1891/1930 model :
+FER_infantry_equipment_1: "7,62-mm vintovka obr.1891/1930"
+FER_infantry_equipment_1_short: "Vintovka obr.1891/1930"
+# AVS M1938 :
+FER_infantry_equipment_2: "7,62-mm samozaryadnaya vintovka Simonova obr.1938"
+FER_infantry_equipment_2_short: "SVS-38"
+# PPS :
+FER_infantry_equipment_3: "Pistolet-pulemyot Sudayeva obr.1943"
+FER_infantry_equipment_3_short: "PPS-43"
+
+# PPD-34/38 :
+FER_infantry_weapons2: "Pistolet-pulemyot Degtyaryova obr.1938"
+FER_infantry_weapons2_short: "PPD-38"
+# PPSh :
+FER_improved_infantry_weapons_2: "Pistolet-pulemyot Shpagina obr.1941"
+FER_improved_infantry_weapons_2_short: "PPSh-41"
+# PPS-44 :
+FER_advanced_infantry_weapons2: "7,62-mm samozaryadny karabin Simonova obr.1945"
+FER_advanced_infantry_weapons2_short: "SKS-44"
+
+# PTRD :
+FER_infantry_at: "Protivotankovoye odnozaryadnoye ruzhye Degtyaryova"
+FER_infantry_at_short: "PTRD"
+# PTR-82 :
+FER_infantry_at2: "Protivotankovoye reaktivnoye ruzhye Ostrovskogo"
+FER_infantry_at2_short: "PTRO"
+
+# Maxim M1930 and 82-BM-37 :
+FER_support_weapons: "Pulemyot Maksima & 82-mm minomyot obr.1937"
+FER_support_weapons_short: "Maksim & 82-mm minomyot"
+# DShK and 50-RM-38 :
+FER_support_weapons2: "Degtyaryova-Shpagina krupnokaliberny & 50-mm minomyot obr.1938"
+FER_support_weapons2_short: "DShK & 50-mm minoyot"
+# DP-39 and 120-PM-38 :
+FER_support_weapons3: "Rychnoy Degtyaryova obr.1940 & 120-mm minomyot obr.1938"
+FER_support_weapons3_short: "RD-40 & 120-mm minomyot"
+# SG-43 and 160-MT-13 :
+FER_support_weapons4: "Stankovy Goryunova obr.1943 & 160-mm minomyot obr.1943"
+FER_support_weapons4_short: "SG-43 & 160-mm minomyot"
+# Devices Vega-1 and Vega-2 :
+FER_night_vision: "Pribor Vega"
+FER_night_vision_short: "Vega"
+# Device Mira :
+FER_night_vision2: "Pribor Mira"
+FER_night_vision2_short: "Mira"
+
+#Motorised
+
+# AMO-F-15 :
+FER_motorized_equipment_0: "Avtomobil AMO-F-15"
+FER_motorized_equipment_0_short: "AMO-F-15"
+# Represent GAZ-AA, GAZ-MM and GAZ-63 (OTL pre-war) trucks :
+FER_motorized_equipment_1: "Avtomobil NAZ-63"
+FER_motorized_equipment_1_short: "NAZ-63"
+
+# BM-13 :
+FER_motorized_rocket_equipment_1: "Boyevaya mashina M-13"
+FER_motorized_rocket_equipment_1_short: "BM-13"
+
+# ZiS-42 :
+FER_mechanized_equipment_1: "Avtomobil AMO-42"
+FER_mechanized_equipment_1_short: "AMO-42"
+# TB-42 :
+FER_mechanized_equipment_2: "Bronetransporter B-42"
+FER_mechanized_equipment_2_short: "B-42"
+# B-3 :
+FER_mechanized_equipment_3: "Bronetransporter B-3"
+FER_mechanized_equipment_3_short: "B-3"
+
+#Modified Shitikov's armored prime mover:
+FER_amphibious_mechanized_equipment_1: "Plavayushchy traktor PBT-37"
+FER_amphibious_mechanized_equipment_1_short: "PBT-37"
+#R-40
+FER_amphibious_mechanized_equipment_2: "Bronetransporter PTR-20"
+FER_amphibious_mechanized_equipment_2_short: "PTR-20"
+
+#Armoured Car
+#The classification of armored cars changes in the middle-late 1930s: the classification by weight is removed.
+
+# represent FAI, BA-20 and BA-20M :
+FER_gw_armored_car_equipment: "Legky broneavtomobil BA-20"
+FER_gw_armored_car_equipment_short: "BA-20"
+# BA-10 :
+FER_armored_car_equipment_1: "Sredny broneavtomobil BA-10"
+FER_armored_car_equipment_1_short: "BA-10"
+# LB-62 :
+FER_armored_car_equipment_2: "Sredny broneavtomobil BA-30"
+FER_armored_car_equipment_2_short: "BA-30"
+# BA-11D/GAZ-33 :
+FER_armored_car_at_equipment: "Tyazhely broneavtomobil BA-12"
+FER_armored_car_at_equipment_short: "BA-12"
+
+#Trains
+# Series FD # Name means “Heavy, Kolomna" :
+FER_train_equipment_1: "Parovoz serii Tk"
+FER_train_equipment_1_short: "Tk"
+# Series SO # Name is chosen from available letters in the Russian naming scheme :
+FER_train_equipment_2: "Parovoz serii Ya"
+FER_train_equipment_2_short: "Ya"
+# BP-43 armoured train composition :
+FER_train_equipment_3: "Bronepoyezd BP-41"
+FER_train_equipment_3_short: "BP-41"
+
+# TP-1 :
+FER_railway_gun_equipment_1: "Zheleznodorozhny transport TP"
+FER_railway_gun_equipment_1_short: "TP"
+
+#Artillery
+
+# 76-mm M1933 F-19 :
+FER_artillery_equipment_1: "76-mm divizionnaya pushka obr.1933"
+FER_artillery_equipment_1_short: "F-19"
+# 76-mm F-22-USV :
+FER_artillery_equipment_2: "76-mm divizionnaya pushka obr.1939"
+FER_artillery_equipment_2_short: "F-22"
+# 76-mm ZIS-3 :
+FER_artillery_equipment_3: "76-mm divizionnaya pushka obr.1942"
+FER_artillery_equipment_3_short: "F-43"
+
+# 45-mm M1937 53-K :
+FER_anti_tank_equipment_1: "45-mm protivotankovaya pushka obr.1937"
+FER_anti_tank_equipment_1_short: "53-P"
+# 57-mm M1941 ZIS-2 :
+FER_anti_tank_equipment_2: "57-mm protivotankovaya pushka obr.1941"
+FER_anti_tank_equipment_2_short: "F-40"
+# 100-mm BS-3 :
+FER_anti_tank_equipment_3: "100-mm protivotankovaya pushka obr.1944"
+FER_anti_tank_equipment_3_short: "OF-63"
+
+# 37-mm ASKON-37 :
+FER_anti_air_equipment_1: "37-mm avtomaticheskaya zenitnaya pushka obr.1937"
+FER_anti_air_equipment_1_short: "ASKOT"
+# 25-mm 72-K :
+FER_anti_air_equipment_2: "25-mm avtomaticheskaya zenitnaya pushka obr.1940"
+FER_anti_air_equipment_2_short: "72-P"
+# 85-mm M1944 KS-1/KS-12 :
+FER_anti_air_equipment_3: "85-mm zenitnaya pushka obr.1944"
+FER_anti_air_equipment_3_short: "112-P"
+
+# Mountain installation for launching RS :
+FER_rocket_artillery_equipment_1: "Pekhotnaya ustanovka M-8"
+FER_rocket_artillery_equipment_1_short: "M-8"
+# Launching frame M-30 :
+FER_rocket_artillery_equipment_2: "Puskovaya rama M-30"
+FER_rocket_artillery_equipment_2_short: "M-30"
+
+#Missile
+
+# Object 301 :
+FER_guided_missile_equipment_1: "Krylataya torpeda T-312"
+FER_guided_missile_equipment_1_short: "KT-312"
+# Modified R-10 :
+FER_guided_missile_equipment_2: "Raketa R-15"
+FER_guided_missile_equipment_2_short: "R-15"
+# R-1 :
+FER_guided_missile_equipment_3: "Raketa R-2"
+FER_guided_missile_equipment_3_short: "R-2"
 
 ###
 ### Gabon ###
@@ -4422,7 +4603,7 @@ GER_improved_infantry_weapons_2_desc: "Die M.P. 40, manchmal fälschlicherweise 
 GER_advanced_infantry_weapons2: "Maschinenkarabiner Modell 44"
 GER_advanced_infantry_weapons2_short: "M.Kb. 44 'Sturmgewehr'"
 GER_advanced_infantry_weapons2_desc: "Der Maschinenkarabiner 44 ist das Ergebnis des deutschen Bedürfnisses, den Infanteristen eine stärkere Feuerkraft ihrer Gewehre zu verleihen. Als Ergebnis der kontinuierlichen Weiterentwicklung des M.Kb. 42 ist das M.Kb. 44 viele der Nachteile des Vorgängermodells und wird manchmal sogar als 'Sturmgewehr' bezeichnet. Das endgültige Design hat eine geringere Reichweite als zeitgenössische Gewehre, was auf die deutsche Erkenntnis zurückzuführen ist, dass die meisten Gefechte im europäischen Krieg auf Entfernungen von weniger als 300 Metern ausgetragen werden. Auf Kosten der Reichweite wurde die Feuerkraft im Nahbereich erheblich verbessert."
-#Panzerfaust - whole line, don’t add numbers:
+#Panzerfaust - whole line, don't add numbers:
 GER_infantry_at: "Panzerabwehrrohr"
 GER_infantry_at_short: "Pa.R."
 GER_infantry_at_desc: "Das Panzerabwehrrohr wurde von Dr. Heinrich Langweiler als Antwort auf die dringende Forderung nach einer leichten Ein-Schuss-Wegwerf-Infanteriewaffe entwickelt, mit der die Infanterie gegen die wachsende Zahl feindlicher schwerer und mittlerer Panzer vorgehen konnte, die die deutschen Verteidigungsanlagen häufig überrannten. Die Reichweite der ersten Panzerabwehrrohre betrug nur 30 Meter, was ihren Einsatz etwas gefährlich machte, bis weiterentwickelte Varianten mit größerer Reichweite in Produktion gingen."
@@ -4508,7 +4689,7 @@ GER_train_equipment_1_desc: "Die S 3/6 ist eine bewährte Schnellzuglokomotive d
 GER_train_equipment_2: "Preu. Sts.B. G 13"
 GER_train_equipment_2_short: "Prussian G 13"
 GER_train_equipment_2_desc: "Die G 13 wurde auf der Grundlage der Erfahrungen aus dem Betrieb der preußischen G 12-Lokomotiven im Großen Krieg entwickelt, wobei der Schwerpunkt auf einfacher Herstellung, langer Lebensdauer und einfacher Wartung lag. Sie konnte bis zu 40 % mehr Fracht befördern als die anderen Lokomotiven, die sie ersetzte, und war billiger in der Herstellung."
-# DRB Class 52 but now they’re armoured:
+# DRB Class 52 but now they're armoured:
 GER_train_equipment_3: "Preu. Sts.B. G 13 Pz."
 GER_train_equipment_3_short: "Prussian G 13 P"
 GER_train_equipment_3_desc: "Da die Eisenbahnen zunehmend von feindlichen Flugzeugen angegriffen werden, müssen neue Lokomotiven für den Einsatz an den Fronten in der Lage sein, Treffer von bis zu 20-mm-Kanonen einzustecken. Um die Lokomotive für den Einsatz gegen Luftangriffe zu schützen, sind einige preußische G 13-Lokomotiven mit drei Zoll dicken Panzerplatten entlang der Lokomotive ausgestattet, um die wichtigen Teile zu schützen."
@@ -4658,7 +4839,7 @@ GRE_infantry_equipment_3_short: "Rigópoulo"
 
 #PTRD:
 GRE_infantry_at: "Antiarmatikó touféki, Dektiáref, 1941"
-GRE_infantry_at_short: "Denktiáref, 1941"
+GRE_infantry_at_short: "Dektiáref, 1941"
 #ROM anti-tank 2:
 GRE_infantry_at2: "Antiarmatikó touféki, Máouzer, 1943"
 GRE_infantry_at2_short: "Máouzer, 1943"
@@ -6238,6 +6419,16 @@ CMR_support_weapons2: "$GER_support_weapons2$"
 CMR_support_weapons2_short: "$GER_support_weapons2_short$"
 
 ###
+### Kazakhstan ###
+###
+
+### Land ###
+KAZ_infantry_equipment_0: "Vintovka Mosina obr.1891"
+KAZ_infantry_equipment_0_short: "Mosina 1891"
+KAZ_infantry_equipment_1: "Vintovka Mosina 1891 obr.1891/1930"
+KAZ_infantry_equipment_1_short: "Mosina 1891/1930"
+
+###
 ### Kenya ###
 ###
 
@@ -6982,98 +7173,99 @@ LEP_mechanized_equipment_2_desc: "Das Sd.Kfz. 251 war ein gepanzertes Kampffahrz
 ###
 
 ### Land ###
-MON_infantry_equipment_0: "Vintovka Mosina 1891 obr.1891"
-MON_infantry_equipment_0_short: "Mosina 1891"
-MON_infantry_equipment_1: "Vintovka Mosina 1891 obr.1891/1930"
-MON_infantry_equipment_1_short: "Mosina 1891/1930"
-MON_infantry_equipment_2: "PPSh-41"
-MON_infantry_equipment_2_short: "PPSh-41"
-MON_infantry_equipment_3: "Pistolet-Pulemyet Shpagina mod.2"
-MON_infantry_equipment_3_short: "PPSh-2"
-MON_infantry_at: "PTRS-41"
-MON_infantry_at2: "RPG-42"
-MON_support_weapons: "Maxim-Tokarev obr.1924 & Dyakonov 40,5mm GV"
-MON_support_weapons2: "Degtyarev DP-29M & 82mm BM obr.1938"
-MON_support_weapons3: "Degtyarev DS-39 & Taubin 40,5mm AG-2"
-MON_support_weapons4: "Goryunov SG-43 & 120mm PM obr.1943"
-MON_night_vision: "Ts-3"
-MON_night_vision2: "NSP-2"
+#Mosin 1891
+MON_infantry_equipment_0: "Mosin vintov 1891 zagvar."
+MON_infantry_equipment_0_short: "Mosin-91"
+#Mosin 1891/1930
+MON_infantry_equipment_1: "Mosin vintov 1930 zagvar."
+MON_infantry_equipment_1_short: "Mosin-30"
+#AVS-38
+MON_infantry_equipment_2: "Simonov vintov 1938 zagvar."
+MON_infantry_equipment_2_short: "Simonov-38"
+#PPS-1943
+MON_infantry_equipment_3: "Sudayev avtomat buu 1943 zagvar."
+MON_infantry_equipment_3_short: "Sudayev-43"
+#PTRD
+MON_infantry_at: "PTRD"
+#PTR-82
+MON_infantry_at2: "PTRO"
+# Maxim M1930 and 82-BM-37 :
+MON_support_weapons: "Maksim & 82-mm mortar"
+# DShK and 50-RM-38 :
+MON_support_weapons2: "DShK & Osa"
+# DP-39 and 120-PM-38 :
+MON_support_weapons3: "RD & 120-mm mortar"
+# SG-43 and 160-MT-13 :
+MON_support_weapons4: "SG & 160-mm mortar"
 
 #Motorised
-MON_motorized_equipment_1: "AMO mod.6"
-MON_motorized_equipment_1_short: "AMO-6"
+# YaG-6 :
+MON_motorized_equipment_0: "YaL-6"
+# Represent GAZ-AA, GAZ-MM and GAZ-63 (OTL pre-war) trucks :
+MON_motorized_equipment_1: "NAZ-MM"
 
-MON_motorized_rocket_equipment_1: "Boyevaya Mashina M-13-16"
-MON_motorized_rocket_equipment_1_short: "BM-13"
+# BM-13 :
+MON_motorized_rocket_equipment_1: "M-13"
 
-MON_mechanized_equipment_1: "Bronevoy Avtomobil Lebedev-6 obr.39"
-MON_mechanized_equipment_1_short: "BA-39"
-MON_mechanized_equipment_2: "Tyazhely Bronetransportyer obr.1942"
-MON_mechanized_equipment_2_short: "TB-42"
-MON_mechanized_equipment_3: "Bronetransportyer mod.3"
-MON_mechanized_equipment_3_short: "B-3"
+# T-20 Komsomolets :
+MON_mechanized_equipment_1: "T-20"
+# TB-42 :
+MON_mechanized_equipment_2: "B-42"
+# B-3 :
+MON_mechanized_equipment_3: "B-3"
 
-MON_amphibious_mechanized_equipment_1: "Plavayushchiy Broneavtomobil mod.2"
-MON_amphibious_mechanized_equipment_1_short: "PB-2"
-MON_amphibious_mechanized_equipment_2: "Plavayushchiy Bronetransportyer obr.1943"
-MON_amphibious_mechanized_equipment_2_short: "PB-43"
+#Modified Shitikov's armored prime mover:
+MON_amphibious_mechanized_equipment_1: "PBT-37"
+#R-40
+MON_amphibious_mechanized_equipment_2: "PTR-20"
 
 #Armoured Car
-MON_gw_armored_car_equipment: "Bronevoy Avtomobil obr.27"
-MON_gw_armored_car_equipment_short: "BA-27"
-MON_armored_car_equipment_1: "Bronevoy Avtomobil mod.10"
-MON_armored_car_equipment_1_short: "BA-10"
-MON_armored_car_equipment_2: "Bronevoy Avtomobil NAZ-64"
-MON_armored_car_equipment_2_short: "BA-64"
-MON_armored_car_at_equipment: "Kolyesnaya Samokhodnaya Pushka NAZ-76"
-MON_armored_car_at_equipment_short: "KSP-76"
+#The classification of armored cars changes in the middle-late 1930s: the classification by weight is removed.
 
-#Trains
-# Soviet Class FD # Der Name bedeutet "Dampflokomotive Typ 1":
-MON_train_equipment_1: "Paravoz Tip 1"
-MON_train_equipment_1_short: "Type P1"
-MON_train_equipment_1_desc: "Die 1931 entworfene Baureihe P1 ersetzte viele der in Amerika gebauten Lokomotiven der Klasse Ye, die auf dem russischen Streckennetz eingesetzt wurden. Im Jahr 1936 wurde die Lokomotive mit einem Überhitzer ausgestattet, um die Leistung zu erhöhen, wodurch die Variante P1-21 entstand. Die solide Leistung der Baureihe führte schnell zu massiven Aufträgen und wurde zur beliebtesten Lokomotive auf dem russischen Streckennetz, so dass Werkstätten ausschließlich für die Produktion dieses Typs errichtet wurden."
-# Soviet Class L # Der Name bedeutet "Februar-Straßen-Dampflokomotive":
-MON_train_equipment_2: "Paravoz Fevralskaya doroga"
-MON_train_equipment_2_short: "Class F"
-MON_train_equipment_2_desc: "Die im Kolomna-Werk entwickelten und nach der Februar-Eisenbahnlinie zwischen Moskau und Petrograd benannten Lokomotiven der Baureihe F sind wirtschaftlich und für den Einsatz auf dem ausgedehnten russischen Eisenbahnnetz geeignet. Durch den Verzicht auf einen Schleppradsatz und komplizierte Bauteile war die Serienproduktion des Typs schneller und billiger als bei der Baureihe P1."
-# PR-43 armoured train :
-MON_train_equipment_3: "Broneparovoz Obrezets 1940"
-MON_train_equipment_3_short: "BPR-40"
-MON_train_equipment_3_desc: "Die gepanzerten Züge der Klasse BP-35 wurden entwickelt, um die Infanterie bei der Sicherung der Bahnstrecken zu unterstützen, die eine wichtige Verbindung zwischen dem riesigen Russland darstellen. Angesichts des absehbaren Krieges wurden neue Klassen gepanzerter Züge und Lokomotiven entwickelt: der PR-40 Panzerzug und die BPR-40 Lokomotive. Der Zug war mit einer drei Zoll dicken Panzerung versehen und verfügte über getrennte Panzerabteile für Flugabwehr- und Panzerabwehrkanonen. Er erforderte eine Besatzung von bis zu 200 Mann und wog über 350 Tonnen."
+# D-12 :
+MON_gw_armored_car_equipment: "D-12"
+# BA-10 :
+MON_armored_car_equipment_1: "BA-10"
+# LB-62 :
+MON_armored_car_equipment_2: "BA-30"
+# BA-11D/GAZ-33 :
+MON_armored_car_at_equipment: "BA-12"
 
-# TM-3-12 :
-MON_railway_gun_equipment_1: "Transportyer Artilleriysky Tip 3 Kalibr 12"
-MON_railway_gun_equipment_1_short: "TA-3-12"
-MON_railway_gun_equipment_1_desc: "Überzählige Marinegeschütze wurden auf Eisenbahnwaggons montiert und in den Dienst der russischen Armee gestellt."
+###Trains
+# E series train :
+MON_train_equipment_1: "E"
+# Series SO # Name is chosen from available letters in the Russian naming scheme :
+MON_train_equipment_2: "Ya"
+# OB-3 armoured train composition :
+MON_train_equipment_3: "OB-3"
 
 #Artillery
 
-MON_artillery_equipment_1: "76mm obr.1902/1930"
-MON_artillery_equipment_1_short: "76mm obr.1902/1930"
-MON_artillery_equipment_2: "107mm obr.1940"
-MON_artillery_equipment_2_short: "107mm obr.1940"
-MON_artillery_equipment_3: "152mm MT-1 obr.1944"
-MON_artillery_equipment_3_short: "152mm MT-1"
+# 76-mm M1933 F-19 :
+MON_artillery_equipment_1: "76-mm F-19"
+# 76-mm F-22-USV :
+MON_artillery_equipment_2: "76-mm F-22"
+# 76-mm ZIS-3 :
+MON_artillery_equipment_3: "76-mm F-43"
 
-MON_anti_tank_equipment_1: "45mm 19-K obr.1931"
-MON_anti_tank_equipment_1_short: "45mm 19-K"
-MON_anti_tank_equipment_2: "57mm AMO-2 obr.1940"
-MON_anti_tank_equipment_2_short: "57mm AMO-2"
-MON_anti_tank_equipment_3: "100mm OB-3 obr.1943"
-MON_anti_tank_equipment_3_short: "100mm OB-3"
+# 45-mm M1937 53-K :
+MON_anti_tank_equipment_1: "45-mm 53-P"
+# 57-mm M1941 ZIS-2 :
+MON_anti_tank_equipment_2: "57-mm F-40"
+# 100-mm BS-3 :
+MON_anti_tank_equipment_3: "100-mm OF-63"
 
-MON_anti_air_equipment_1: "37mm 61-K obr.1932"
-MON_anti_air_equipment_1_short: "37mm 61-K"
-MON_anti_air_equipment_2: "85mm 52-K obr.1938"
-MON_anti_air_equipment_2_short: "85mm 52-K"
-MON_anti_air_equipment_3: "100mm VT-19 obr.1943"
-MON_anti_air_equipment_3_short: "100mm VT-19"
+# 37-mm ASKON-37 :
+MON_anti_air_equipment_1: "37-mm ASKOT"
+# 25-mm 72-K :
+MON_anti_air_equipment_2: "25-mm 72-P"
+# 85-mm M1944 KS-1/KS-12 :
+MON_anti_air_equipment_3: "85-mm 112-P"
 
-MON_rocket_artillery_equipment_1: "132mm M-8-24"
-MON_rocket_artillery_equipment_1_short: "132mm M-8-24"
-MON_rocket_artillery_equipment_2: "302mm M-20-12"
-MON_rocket_artillery_equipment_2_short: "302mm M-20-12"
+# Mountain installation for launching RS :
+MON_rocket_artillery_equipment_1: "M-8"
+# Portable launching carriage M-31 :
+MON_rocket_artillery_equipment_2: "M-31"
 
 ###
 ### Morocco ###
@@ -8666,121 +8858,547 @@ ROM_rocket_artillery_equipment_2_short: "302mm Md. 1943"
 ###
 ### Russia ###
 ###
-
+#Version A :
 RUS_EQUIPMENT_VERSION_1: "A"
-RUS_EQUIPMENT_VERSION_2: "A-1"
-RUS_EQUIPMENT_VERSION_3: "A-2"
-RUS_EQUIPMENT_VERSION_4: "AM"
-RUS_EQUIPMENT_VERSION_5: "B"
-RUS_EQUIPMENT_VERSION_6: "B-1"
-RUS_EQUIPMENT_VERSION_7: "B-2"
-RUS_EQUIPMENT_VERSION_8: "BM"
-RUS_EQUIPMENT_VERSION_9: "C"
-RUS_EQUIPMENT_VERSION_10: "C-1"
-RUS_EQUIPMENT_VERSION_11: "C-2"
-RUS_EQUIPMENT_VERSION_12: "CM"
-RUS_EQUIPMENT_VERSION_13: "D"
-RUS_EQUIPMENT_VERSION_14: "D-1"
-RUS_EQUIPMENT_VERSION_15: "D-2"
-RUS_EQUIPMENT_VERSION_16: "DM"
+#Version B :
+RUS_EQUIPMENT_VERSION_2: "B"
+#Improved :
+RUS_EQUIPMENT_VERSION_3: "-U"
+#Modified :
+RUS_EQUIPMENT_VERSION_4: "M"
+#Special :
+RUS_EQUIPMENT_VERSION_5: "-S"
+#Model of an year:
+RUS_EQUIPMENT_VERSION_6: "obr.[GetYear]"
+#Model of an year:
+RUS_EQUIPMENT_VERSION_7: "obr.[GetYear]"
+#Model of an year:
+RUS_EQUIPMENT_VERSION_8: "obr.[GetYear]"
+#Model of an year:
+RUS_EQUIPMENT_VERSION_9: "obr.[GetYear]"
+#Model of an year:
+RUS_EQUIPMENT_VERSION_10: "obr.[GetYear]"
+
+### Land ###
+
+# Mosin rifle, 1891 model :
+RUS_infantry_equipment_0: "Vintovka obr.1891"
+RUS_infantry_equipment_0_short: "Vintovka obr.1891"
+RUS_infantry_equipment_0_desc: "Im Jahr 1936 ist das alte Mosin-Gewehr von 1891 eine veraltete, aber immer noch zuverlässige Waffe. Im Vergleich zu modernen Gewehren ist es lang und schwer. Die meisten dieser Gewehre wurden auf den neuen Standard des Mosin-Gewehrs von 1930 umgestellt."
+# Mosin rifle, 1891/1930 model :
+RUS_infantry_equipment_1: "Vintovka obr.1891/1930"
+RUS_infantry_equipment_1_short: "Vintovka obr.91/30"
+RUS_infantry_equipment_1_desc: "Das Mosin-Gewehr in der Version von 1930 ist kürzer und leichter und basierte ursprünglich auf der Dragoner-Variante des Gewehrs. Das neue Standardgewehr der russischen Armee ist sowohl leichter als auch zuverlässiger und hat weniger bewegliche Teile als das alte Mosin, behält aber seine Reichweite und Feuerkraft."
+# SVT-40 :
+RUS_infantry_equipment_2: "Samozaryadnaya vintovka obr.1940"
+RUS_infantry_equipment_2_short: "SVT"
+RUS_infantry_equipment_2_desc: "Während das AVS das erste in Russland entwickelte automatische Gewehr war, wurde das SVT von Tokarev schließlich als zuverlässigere Alternative eingeführt. Im Gegensatz zum vollautomatischen AVS, das hauptsächlich von Spezialeinheiten und Grenztruppen verwendet wird, ist das SVT-40 nur halbautomatisch - aber in dieser Rolle ist es hervorragend und durchaus vergleichbar mit seinen Pendants in anderen Ländern."
+# PPSh-2 :
+RUS_infantry_equipment_3: "Avtomat (pistolet-pulemyot) obr.1943"
+RUS_infantry_equipment_3_short: "PPSh-2"
+RUS_infantry_equipment_3_desc: "Die PPSh-43, die offiziell als PPSh-2 bezeichnet wird, ist eine Weiterentwicklung ihres äußerst erfolgreichen Vorgängers, der Maschinenpistole PPSh. Sie ist im Allgemeinen billiger und einfacher zu warten als ihr Vorgänger. Der massenhafte Einsatz von Maschinenpistolen, der durch die schnelle Produktion der PPSh ermöglicht wurde, wurde auf der Grundlage der zu Beginn des Krieges gemachten Erfahrungen in die Doktrin und Taktik der russischen mobilen Infanterie übernommen."
+
+# PPD-34/38 :
+RUS_infantry_weapons2: "Pistolet-pulemyot obr.1934/1938"
+RUS_infantry_weapons2_short: "PPD-2"
+RUS_infantry_weapons2_desc: "Die PPD-Maschinenpistolenfamilie ist die primäre Maschinenpistole der russischen Armee in den 1930er Jahren, aber sie hat keinen klaren Platz in der Militärdoktrin. Hauptsächlich als Waffe von Offizieren und der Militärpolizei verwendet, wurde die technisch komplizierte PPD-34/38 vor kurzem als Standard-Angriffswaffe der russischen Armee eingeführt, obwohl nicht ganz klar ist, welche Bedeutung diese Art von Waffen in der Zukunft der Kriegsführung haben wird."
+# PPSh :
+RUS_improved_infantry_weapons_2: "Avtomat (pistolet-pulemyot) obr.1941"
+RUS_improved_infantry_weapons_2_short: "PPSh"
+RUS_improved_infantry_weapons_2_desc: "Die PPSh-41 wurde als Ersatz für die PPD-34/38 als primäre Maschinenpistole der russischen Armee nach der Einführung der Doktrin der überwältigenden Feuerkraft in den Dienst gestellt. Sie ist einfacher zu produzieren und zu warten als die PPD und hat insgesamt eine bessere Leistung. Die Waffe wird mit zwei Arten von Magazinen hergestellt - Sektorenmagazinen und Trommelmagazinen, wobei das Trommelmagazin am häufigsten verwendet wird."
+# SKS :
+RUS_advanced_infantry_weapons2: "7,62-mm samozaryadny karabin obr.1945"
+RUS_advanced_infantry_weapons2_short: "SKS"
+RUS_advanced_infantry_weapons2_desc: "Das SKS ist eine Weiterentwicklung des AVS-Gewehrs von Sergej Simonow für die neue Runde und behebt viele technische Probleme, die beim ursprünglichen AVS vorhanden waren. Das SKS ist ein vollautomatisches Kampfgewehr, das angesichts seiner hervorragenden Leistung das SVT-40 wahrscheinlich vollständig ersetzen und zum Hauptgewehr der russischen Armee werden wird - zumindest solange, bis die automatischen Gewehre der neuen Generation nicht zu einem akzeptablen Zustand entwickelt sind."
+
+# PTRS :
+RUS_infantry_at: "Protivotankovoye samozaryadnoye ruzhye obr.1941"
+RUS_infantry_at_short: "PTRS"
+RUS_infantry_at_desc: "Das PTRS und das weniger komplexe PTRD sind die wichtigsten Panzerabwehrgewehre der russischen Armee. Das PTRS ist ein Selbstladegewehr mit einem 5-Schuss-Magazin und trotz seiner Feuerkraft immer noch ein reines Panzerabwehrgewehr - und die Erfahrung hat uns gezeigt, dass es gegen die Entwicklung neuerer Panzer zunehmend unterlegen ist. PTRS und PTRD werden hauptsächlich im Masseneinsatz verwendet - selbst wenn ein einzelnes Panzerabwehrgewehr nur bescheidene Fähigkeiten hat, können mehrere Trupps erfahrener Soldaten, die sie bedienen, einen Panzer Stück für Stück auseinandernehmen."
+# PTR-82 :
+RUS_infantry_at2: "Protivotankovoye reaktivnoye ruzhye obr.1944"
+RUS_infantry_at2_short: "PTRO"
+RUS_infantry_at2_desc: "Das von dem Team unter der Leitung von Anatoly Ostrovsky entwickelte PTRO ist ein reaktives Panzerabwehrgewehr, das gegen modernere gepanzerte Fahrzeuge eingesetzt werden kann. Das PTRO ist sperrig, unhandlich und erfordert zwei Männer, um es zu bedienen - aber es ist zweifellos leistungsstark, stärker als vergleichbare Waffen im Westen."
+
+# Maxim M1930 and 82-BM-37 :
+RUS_support_weapons: "Stankovy pulemyot Maksima obr.1910 & 82-mm minomyot obr.1937"
+RUS_support_weapons_short: "Maksim & 82-mm minomyot"
+RUS_support_weapons_desc: "Die schwere Feuerkraft des russischen Infanteriebataillons konzentriert sich auf zwei Waffensysteme: das Maxim-Maschinengewehr von 1930 und eine stark modifizierte Version des britischen 82-mm-Mörsers 'Stokes'. Das Maxim ist trotz seiner Modifikation ein recht altes Maschinengewehr, aber bis zur Einführung eines neuen Infanterie-Maschinengewehrs wird es das Rückgrat der russischen Armee bleiben."
+
+# DShK and 50-RM-38 :
+RUS_support_weapons2: "Stankovy pulemyot obr.1938 & 50-mm minomyot obr.1938"
+RUS_support_weapons2_short: "DShK & Osa"
+RUS_support_weapons2_desc: "Die DShK ist ein deutlich schwereres Maschinengewehr als die Maxim oder die DP-27 und kann zusätzlich zu ihrem Kaliber auch Panzerabwehrmunition verwenden. Aufgrund seines hohen Preises und seiner Komplexität ist das Geschütz nur in geringen Stückzahlen verfügbar. Was die Infanterie-Mörser betrifft, so wurde das neue 50-mm-Modell Osa als Kompaniewaffe eingeführt, um jeder Einheit zuverlässige Feuerunterstützung zu bieten."
+
+# DP-39 and 120-PM-38 :
+RUS_support_weapons3: "Ruchnoy pulemyot obr.1940 & 120-mm minomyot obr.1938"
+RUS_support_weapons3_short: "RD & 120-mm minomyot"
+RUS_support_weapons3_desc: "Das RD-40 (Ruchnoy, Degtyaryov) ist ein gürtelgespeistes Universalmaschinengewehr und ein Ersatz für das DP-27. Es ist eine Weiterentwicklung des früheren Degtyaryov, das in Bezug auf Feuerkraft und Gesamtleistung verbessert wurde, obwohl es immer noch etwas schlechter als deutsche MGs ist. Darüber hinaus wurden neue, schwerere Mörser auf der Grundlage des 120-mm-Mörsers von Stokes-Brandt als neuer Hauptmörser für die Armee eingeführt, der auf Mobilität und Zuverlässigkeit im Angriffskrieg ausgelegt ist."
+
+# SG-43 and 160-MT-13 :
+RUS_support_weapons4: "Stankovy pulemyot obr.1943 & 160-mm minomyot obr.1943"
+RUS_support_weapons4_short: "SG & 160-mm minomyot"
+RUS_support_weapons4_desc: "Bei der Entwicklung des SG-43 wurden die Erfahrungen des Krieges als direkte Orientierung herangezogen. Es ist leichter und zuverlässiger als das Maxim und soll den Realitäten des modernen, mobilen Krieges gerecht werden. Gleichzeitig hat die Entwicklung von Mörsern zu noch größeren Kalibern geführt, da der Bedarf an schwereren Waffen zur Unterstützung der Infanterie in den Stadtkämpfen des Großen Vaterländischen Krieges besonders ausgeprägt war."
+
+# Devices Vega-1 and Vega-2 :
+RUS_night_vision: "Pribor Vega"
+RUS_night_vision_short: "Vega"
+RUS_night_vision_desc: "Die Nachtsichtgeräte der Vega-Serie sind im Wesentlichen Ferngläser für dunkle Bedingungen. Je nach Version variiert die Sichtweite zwischen 150 m und 500 m, wobei die größten Reichweiten nur mit den feststehenden Marineversionen namens Omega möglich sind. Als Nachtsichtgerät der zweiten Generation ist das Vega immer noch ein sehr sperriges und unzuverlässiges Gerät, das Infrarotscheinwerfer und schwere Batterien mit begrenzter Ladung benötigt."
+
+# Device Mira :
+RUS_night_vision2: "Pribor Mira"
+RUS_night_vision2_short: "Mira"
+RUS_night_vision2_desc: "Das Gerät Mira ist ein nächster Schritt bei Nachtsichtgeräten und wird offiziell als 'Brille für Soldaten' bezeichnet, die aus einem Fernglas besteht, das mit Hilfe eines Befestigungssystems an einer Mütze befestigt wird. Das Gerät ist zwar schwer, muss an eine Stromquelle angeschlossen werden und verwendet einen separaten Infrarotprojektor, aber es ist dennoch eine beachtliche Entwicklung in der Nachtsichttechnologie."
+
+###Motorised
+
+# AMO-F-15 :
+RUS_motorized_equipment_0: "Gruzovoy avtomobil AMO-F-15"
+RUS_motorized_equipment_0_short: "AMO-F-15"
+RUS_motorized_equipment_0_desc: "Der AMO-F-15 basiert auf dem italienischen Fiat 15 und wurde 1925 als wichtigster Militärlastwagen der russischen Armee angenommen. Der F-15 war wohl schon damals veraltet und wurde zugunsten des AMO-3, der auf dem amerikanischen Autocar basiert und 1931 in Dienst gestellt wurde, ausgemustert. Der F-15 bleibt trotz seines Alters ein zuverlässiges Arbeitspferd der Armee."
+# Represent GAZ-AA, GAZ-MM and GAZ-63 (OTL pre-war) trucks :
+RUS_motorized_equipment_1: "Gruzovoy avtomobil NAZ-63"
+RUS_motorized_equipment_1_short: "NAZ-63"
+RUS_motorized_equipment_1_desc: "Der NAZ-63 ist ein Lkw der neuen Generation, der auf dem zivilen NAZ-51 basiert und als vollwertiger militärischer Allrad-Lkw konzipiert wurde. Er ist zuverlässig und widersteht den meisten Wetter- und Geländebedingungen, die in Russland anzutreffen sind. Der Lkw wird häufig zusammen mit seinen älteren Brüdern NAZ-AA und NAZ-MM eingesetzt, da er die jüngste Entwicklung der NAZ-Lkw-Familie von zuverlässigen Allroundern darstellt."
+
+# BM-13 :
+RUS_motorized_rocket_equipment_1: "Boyevaya avtoustanovka M-13"
+RUS_motorized_rocket_equipment_1_short: "M-13"
+RUS_motorized_rocket_equipment_1_desc: "Der M-13 ist im Wesentlichen ein AMO-6-LKW mit einem darauf montierten M-13-Raketenwerfer. Eine volle Salve eines Lastwagens besteht aus 16 132-mm-Raketen, die wahllos und ungenau abgefeuert werden, aber eine schreckliche Wirkung haben, wenn genügend Raketen auf denselben Abschnitt der Frontlinie abgefeuert werden."
+
+# ZiS-42 :
+RUS_mechanized_equipment_1: "Polugusenichny avtomobil AMO-42"
+RUS_mechanized_equipment_1_short: "AMO-42"
+RUS_mechanized_equipment_1_desc: "AMO-42, das zweite in der russischen Armee weit verbreitete Halbkettenfahrzeug, ist eine Modifikation des früheren OKMO-VAN, wobei die meisten seiner früheren Probleme behoben wurden. Der AMO-42 verfügt über die Zugkraft, um selbst die schwerste Artillerie zu ziehen, und über Geländefähigkeiten, um Soldaten durch jedes Schlachtfeld zu transportieren. Er ist nicht sonderlich schnell, aber das wird durch seine Zuverlässigkeit wettgemacht."
+# TB-42 :
+RUS_mechanized_equipment_2: "Bronetransporter B-42"
+RUS_mechanized_equipment_2_short: "B-42"
+RUS_mechanized_equipment_2_desc: "Der B-42 ist eine Weiterentwicklung des AMO-42, der von deutschen Halbkettenfahrzeugen inspiriert wurde. Er verfügt über eine schräge Panzerung, kann bis zu 14 Soldaten befördern, ist aber nicht sehr schnell und mit technischen Problemen behaftet."
+# B-3 :
+RUS_mechanized_equipment_3: "Bronetransporter B-3"
+RUS_mechanized_equipment_3_short: "B-3"
+RUS_mechanized_equipment_3_desc: "Der B-3 wurde aus dem gescheiterten Artillerietraktor AT-3 entwickelt, wobei die Lehren aus dem B-42 gezogen wurden. Der B-3 ist ein leistungsstarker und zuverlässiger Kriegsmotor, der bei der Armee beliebt ist, aber seine mangelnde Geschwindigkeit und sein hohes Gewicht lassen zu wünschen übrig."
+
+#Modified Shitikov's armored prime mover mixed with Pioneer B1:
+RUS_amphibious_mechanized_equipment_1: "Plavayushchy traktor PBT-37"
+RUS_amphibious_mechanized_equipment_1_short: "PBT-37"
+RUS_amphibious_mechanized_equipment_1_desc: "In Vorbereitung auf die Invasion Osteuropas wurden die russischen Ingenieure mit der Entwicklung eines flussüberquerenden Transporters beauftragt. Der PBT-37 basiert auf dem Fahrgestell des T-37, verfügt über einen amphibischen Antrieb, Platz für Passagiere, die vom gescheiterten OKMO-STB1 übernommen wurden, und eine stärkere Panzerung, natürlich auf Kosten der Feuerkraft. Dieser gepanzerte Traktor ist für einen einzigen Zweck konzipiert - die Überquerung des Dnjepr, der Dwina und aller anderen Flüsse, die zwischen Russland und Berlin liegen."
+#R-40
+RUS_amphibious_mechanized_equipment_2: "Bronetransporter PTR-20"
+RUS_amphibious_mechanized_equipment_2_short: "PTR-20"
+RUS_amphibious_mechanized_equipment_2_desc: "Der PTR-20 ist eine amphibische Abwandlung des PT-20-Panzers. Er ist viel schwerer und größer als der PBT-37 und kann größere Lasten transportieren. Allerdings ist er auch nicht besonders manövrierfähig und seine amphibischen Fähigkeiten sind bestenfalls mittelmäßig. Trotzdem erfüllt der PTR-20 seinen Zweck und kann ohne Probleme auf einem Schlachtfeld eingesetzt werden."
+
+#Armoured Car
+
+# represent FAI, BA-20 and BA-20M :
+RUS_gw_armored_car_equipment: "Legky broneavtomobil BA-20"
+RUS_gw_armored_car_equipment_short: "BA-20"
+RUS_gw_armored_car_equipment_desc: "Der BA-20 basiert auf dem RB-2 und ist eine verbesserte Version der früheren Panzerwagenmodelle von OKMO. Er ist billig und zuverlässig, hat aber nur wenig Feuerkraft, da er hauptsächlich zur Aufklärung eingesetzt wird."
+# BA-10 :
+RUS_armored_car_equipment_1: "Broneavtomobil BA-10"
+RUS_armored_car_equipment_1_short: "BA-10"
+RUS_armored_car_equipment_1_desc: "Der BA-10 wurde auf der Basis des NAZ-AAA mit verstärktem Fahrgestell gebaut und gilt als sehr erfolgreiches Modell, mit seiner für einen Panzerwagen ordentlichen Geschwindigkeit, Bewaffnung und starken Panzerung."
+# LB-62 :
+RUS_armored_car_equipment_2: "Broneavtomobil BA-30"
+RUS_armored_car_equipment_2_short: "BA-30"
+RUS_armored_car_equipment_2_desc: "Der BA-30 ist ein moderner Ersatz für den BA-20. Er ist mit zwei leichten und einem schweren Maschinengewehr bewaffnet, hat eine hohe Geschwindigkeit für sein Gewicht und eine starke Panzerung für seine Rolle als Aufklärungs- und Unterstützungsfahrzeug."
+# BA-11D/GAZ-33 :
+RUS_armored_car_at_equipment: "Broneavtomobil BA-12"
+RUS_armored_car_at_equipment_short: "BA-12"
+RUS_armored_car_at_equipment_desc: "Die verbesserte Version des BA-11, der BA-12, hat einen Dieselmotor und ist für einen Panzerwagen besonders stark gepanzert. In einer Zeit, in der gepanzerte Fahrzeuge immer weniger nützlich waren, wird der BA-12 hauptsächlich als leichtes AT-Fahrzeug eingesetzt."
+
+###Trains
+# Series FD # Name means “Heavy, Kolomna" :
+RUS_train_equipment_1: "Parovoz serii Tk"
+RUS_train_equipment_1_short: "Serie Tk"
+RUS_train_equipment_1_desc: "Der Tk ist eine moderne Zugserie, die die ältere Serie Э des Kolomna-Werks ersetzen soll. Sie ist als Lokomotive wesentlich leistungsfähiger, aber auch wesentlich komplexer in der Herstellung als die älteren Züge."
+# Series SO # Name is chosen from available letters in the Russian naming scheme :
+RUS_train_equipment_2: "Parovoz serii Ya"
+RUS_train_equipment_2_short: "Serie Ya"
+RUS_train_equipment_2_desc: "Die Serie Ya ist ein komplexes Upgrade der alten Serie Э, das deren Fähigkeiten bis zum Maximum ausreizt. Sie ist etwas schwächer als die Serie Tk, aber wesentlich einfacher zu produzieren und besser an die Kriegsbedingungen angepasst. Sie sind im Wesentlichen von allem Unnötigen befreit."
+# BP-43 armoured train composition :
+RUS_train_equipment_3: "Bronepoyezd BP-41"
+RUS_train_equipment_3_short: "BP-41"
+RUS_train_equipment_3_desc: "Der BP-41 ist eine Weiterentwicklung des OB-3 von OKMO. Er verfügt über eine schräge Panzerung, richtige gepanzerte Türme, die mit Panzern vereinigt sind, und ein allgemein rationalisiertes Layout für den militärischen Einsatz, an dem AA-Abwehrwagen angebracht sind. Er könnte auch der letzte und beste richtige Kriegszug werden, da die technologische Entwicklung die Panzerzüge schnell hinter sich lässt."
+
+# TP-1 :
+RUS_railway_gun_equipment_1: "Zheleznodorozhny transport TP"
+RUS_railway_gun_equipment_1_short: "TP"
+RUS_railway_gun_equipment_1_desc: "TP-1 ist mit einem massiven 356-mm-Eisenbahngeschütz bewaffnet und wurde speziell für die Armee entwickelt, um sowohl die Rolle der offensiven Artillerieunterstützung als auch der stationären Verteidigungsartillerie zu erfüllen."
+
+###Artillery
+
+# 76-mm M1933 F-19 :
+RUS_artillery_equipment_1: "76-mm pushka obr.1933"
+RUS_artillery_equipment_1_short: "F-19"
+RUS_artillery_equipment_1_desc: "Das 76-mm-Geschütz F-19 ist das Hauptdivisionsgeschütz der russischen Armee, das als vorübergehende Maßnahme in Dienst gestellt wurde. Im Vergleich zu den 1930er Jahren ist sie etwas veraltet und mittelmäßig, aber bis neuere Modelle in die Massenproduktion gehen können, wird die F-19 das Rückgrat der russischen Artillerie bilden."
+# 76-mm F-22-USV :
+RUS_artillery_equipment_2: "76-mm pushka obr.1939"
+RUS_artillery_equipment_2_short: "F-22"
+RUS_artillery_equipment_2_desc: "Die 76-mm-Kanone F-22 wurde von Wassili Grabin als 'Verbesserung' der früher abgelehnten F-22 entwickelt, ist aber dennoch eine völlig neue Kanone. Die F-22 hat sich als sehr zuverlässige Konstruktion erwiesen, die in ihren Fähigkeiten manchmal als perfekt ausbalanciert beschrieben wird, was dazu führte, dass die Kanone zum zuverlässigen Arbeitspferd der russischen Artillerie wurde."
+# 76-mm ZIS-3 :
+RUS_artillery_equipment_3: "76-mm pushka obr.1942"
+RUS_artillery_equipment_3_short: "F-43"
+RUS_artillery_equipment_3_desc: "Die F-43 ist ein weiterer Entwurf von Wassili Grabin, der die alten F-22 ersetzen soll. Die F-43 ist leicht, einfach zu handhaben, einfach zu produzieren - aber als Beweis für ein brillantes Design immer noch ohne echte Abstriche bei den Kampffähigkeiten."
+
+# 152-mm mortar ML-21 :
+RUS_interwar_artillery: "152-mm mortira obr.1937"
+RUS_interwar_artillery_short: "M-21"
+RUS_interwar_artillery_desc: "Der von Rhinemetall lizenzierte 152-mm-M1931-Mörser wurde von Motovilikha weiter verbessert und zum M-21 weiterentwickelt. Als Divisionsmörser ist der M-21 im Vergleich zur Divisionsartillerie nicht leistungsfähig genug und nicht weit genug verbreitet, um als direkter Unterstützungsmörser wie die kleineren Kaliber zu dienen."
+# 122-mm howitzer F-25 :
+RUS_artillery2: "122-mm gaubitsa obr.1938"
+RUS_artillery2_short: "F-25"
+RUS_artillery2_desc: "Die F-25 ist eine richtige moderne Divisionshaubitze mit etwas unzureichender Lafette. Sie hat ein Kaliber von 122 mm und verfügt über eine ordentliche Kampfleistung, aber ihre wahre Fähigkeit ergibt sich aus der großen Zahl der F-25, die eingesetzt werden."
+# modernized 152-mm howitzer-gun M1937 ML-20 :
+RUS_artillery3: "152-mm gaubitsa-pushka obr.1937"
+RUS_artillery3_short: "M-20M"
+RUS_artillery3_desc: "Die 152-mm-Haubitze M-20 ist ein Geschütz auf Korpsniveau und einer der besten Erfolge der normalerweise mittelmäßigen russischen Haubitzen. Die Lafette der F-20 dient auch als Kernstück mehrerer Selbstfahrlafetten. Die 152-mm-Haubitze der Motovilikha ist sehr vielseitig, da sie sowohl direktes als auch indirektes Feuer abfeuern kann. Sie verfügt über sehr starke Geschosse, ist aber relativ schwer und unhandlich zu transportieren."
+# 152-mm howitzer D-1 :
+RUS_artillery5: "152-mm gaubitsa obr.1942"
+RUS_artillery5_short: "M-35"
+RUS_artillery5_desc: "Die 152-mm-Haubitze M-35 auf Korpsniveau ist im Wesentlichen eine Weiterentwicklung der M-10 von Motovilikha. Sie ist für ein Geschütz ihres hohen Kalibers vergleichsweise leicht und wendig, was sie von anderen großkalibrigen Geschützen unterscheidet."
+
+# 45-mm M1937 53-K :
+RUS_anti_tank_equipment_1: "45-mm protivotankovaya pushka obr.1937"
+RUS_anti_tank_equipment_1_short: "53-P"
+RUS_anti_tank_equipment_1_desc: "53-P ist ein typisches Panzerabwehrgeschütz der 1930er Jahre: Es hat ein relativ kleines Kaliber von 45 mm und ist zwar gegen leichtere Panzer wirksam, aber gegen schwerere Panzer auf Distanz einfach unwirksam. Das Geschütz wird auch als allgemeine Feuerunterstützung auf Bataillonsebene eingesetzt."
+# 57-mm M1941 ZIS-2 :
+RUS_anti_tank_equipment_2: "57-mm protivotankovaya pushka obr.1941"
+RUS_anti_tank_equipment_2_short: "F-40"
+RUS_anti_tank_equipment_2_desc: "Die Entwicklung des 57-mm-Geschützes F-40 wurde im Rahmen der russischen Kriegsplanung überstürzt vorangetrieben, und trotzdem gilt es als ein sehr hochwertiges Geschütz. Die F-40 ist ein Mehrzweckgeschütz auf Divisionsebene, das bei den Soldaten sehr beliebt ist und zu den weiteren Entwürfen von Wassili Grabin gehört."
+# 100-mm BS-3 :
+RUS_anti_tank_equipment_3: "100-mm protivotankovaya pushka obr.1944"
+RUS_anti_tank_equipment_3_short: "OF-63"
+RUS_anti_tank_equipment_3_desc: "Die 100-mm-Kanone OF-63 von Obuchow wurde in Zusammenarbeit mit Grabin entwickelt, um selbst die schwersten Panzer zu durchschlagen. Sie wird als Panzerabwehrkanone auf Korpsniveau eingesetzt und dient auch als Kanone für Panzerjäger."
+
+# 95-mm M1939 F-28 :
+RUS_antitank1: "95-mm pushka obr.1939"
+RUS_antitank1_short: "F-28"
+RUS_antitank1_desc: "Die F-28 wurde für ein für Russland ungewöhnliches Geschoss entwickelt und stieß daher in der Artillerieabteilung auf Unzufriedenheit, aber die Kanone erregte die Aufmerksamkeit der Panzertruppen, die beschlossen, die Kanone in der Panzerversion F-39 zu übernehmen. Die 95-mm-Kanone M1939 ist teilweise mit der Haubitze F-25 vereinheitlicht und verwendet großkalibrige Geschosse, die eine bessere Durchdringung der Panzerung ermöglichen."
+# 45-mm M1942 M-6:
+RUS_antitank3: "45-mm protivotankovaya pushka obr.1942"
+RUS_antitank3_short: "M-6"
+RUS_antitank3_desc: "Die M-6 ist eine Weiterentwicklung der 53-P, die trotz technischer Verbesserungen nicht in der Lage ist, modernere gepanzerte Fahrzeuge zu durchschlagen. Sie wird vor allem in großen Mengen und auf kurze Distanz eingesetzt, wo sie immer noch eine große Durchschlagskraft hat."
+# 85-mm M1944 S-53 :
+RUS_antitank4: "85-mm protivotankovaya pushka obr.1943"
+RUS_antitank4_short: "F-53"
+RUS_antitank4_desc: "Die 85-mm-Kanone F-53 ist eine Weiterentwicklung der Flugabwehrkanone 52-P, die für den Einsatz gegen Panzer angepasst wurde. Während die Kanone selbst aufgrund von Problemen mit der Lafette fast nie von Artilleriekräften eingesetzt wird, wird sie von Panzern massenhaft verwendet, da dieses Problem bei der Panzerversion nicht auftritt. Das Geschütz ist sehr leistungsfähig und kann die meisten Panzerungen aus großer Entfernung durchschlagen."
+
+# 37-mm ASKON-37 :
+RUS_anti_air_equipment_1: "37-mm avtomaticheskaya zenitnaya pushka obr.1937"
+RUS_anti_air_equipment_1_short: "ASKOT"
+RUS_anti_air_equipment_1_desc: "Das wichtigste Luftabwehrgeschütz auf Divisionsebene, die automatische 37-mm-Kanone ASKON-37, wurde von Kondakovs Team Mitte der 1930er Jahre entwickelt. Sie hat eine sehr hohe Feuerrate von 250 Schuss pro Minute, ist aber aufgrund ihrer Lafette als recht sperrig und schwer bekannt."
+# 25-mm 72-K :
+RUS_anti_air_equipment_2: "25-mm avtomaticheskaya zenitnaya pushka obr.1940"
+RUS_anti_air_equipment_2_short: "72-P"
+RUS_anti_air_equipment_2_desc: "Die 25-mm-Kanone 72-P ist eine Regiments-Luftabwehrkanone, deutlich leichter als die ASKOT, aber immer noch umständlich zu transportieren und vor allem für die unmittelbare Luftabwehr von sich bewegenden Einheiten gedacht. Sie hat eine gute Feuerrate und ist unter Feldbedingungen zuverlässig und kann bei Bedarf auch als improvisierte Panzerabwehrkanone eingesetzt werden."
+# 85-mm M1944 KS-1/KS-12 :
+RUS_anti_air_equipment_3: "85-mm zenitnaya pushka obr.1944"
+RUS_anti_air_equipment_3_short: "112-P"
+RUS_anti_air_equipment_3_desc: "Die schwere 85-mm-Luftabwehrkanone 112-P ist eine verbesserte Version der 52-P mit besserer Nachladegeschwindigkeit und geringerem Gewicht. Es wird auf Divisionsebene eingesetzt und kann auch zur Panzerabwehr verwendet werden."
+
+# 85-mm M1939 52-K :
+RUS_antiair1: "85-mm zenitnaya pushka obr.1939"
+RUS_antiair1_short: "52-P"
+RUS_antiair1_desc: "Die 85-mm-Kanone 52-P ist ein Ersatz für die 3-P-Kanone und stellt eine moderne hochkalibrige Luftabwehrkanone dar. Schnell nachzuladen und leichter als ihre Vorgänger, passt die 52-P zum schnelleren Tempo der Kriegsführung, in der sich moderne Militärs engagieren."
+# 100-mm 73-K :
+RUS_antiair3: "100-mm zenitnaya pushka obr.1940"
+RUS_antiair3_short: "73-P"
+RUS_antiair3_desc: "Das 100-mm-Geschütz 73-P ist eine schwere Korps-Luftabwehrartillerie, die auch gegen gepanzerte Fahrzeuge eingesetzt werden kann. Letztlich ist die 73-P nicht wirklich zweckdienlich, da die Flugabwehrkanonen auf Korpsniveau immer seltener eingesetzt werden, da andere Arten von Flugabwehrwaffen verbessert worden sind."
+# 25-mm 94-KM :
+RUS_antiair4: "25-mm avtomaticheskaya zenitnaya pushka obr.1944"
+RUS_antiair4_short: "94-P"
+RUS_antiair4_desc: "Die 94-P ist ein weiteres leichtes 25-mm-Fliegerabwehrgeschütz für den Einsatz im Regiment. Sie ist eine Weiterentwicklung der 72-P mit gepaarten Läufen und einem Schild, das als effektive Schnellfeuer-Mehrzweckkanone dient."
+
+# Mountain installation for launching RS :
+RUS_rocket_artillery_equipment_1: "Pekhotnaya ustanovka RS"
+RUS_rocket_artillery_equipment_1_short: "M-8"
+RUS_rocket_artillery_equipment_1_desc: "Der M-8 wurde als tragbarer Raketenwerfer für die Infanterie entwickelt und ist einer der ersten seiner Art. Er wird vor allem von Spezialeinheiten eingesetzt und war ursprünglich für Gebirgsjäger gedacht. Der Werfer verschießt 8 132-mm-Raketen mit minimalen Anforderungen an die Position. Wie jedes Raketensystem ist er ungenau, schwer und gut sichtbar."
+# Portable launching carriage M-31 :
+RUS_rocket_artillery_equipment_2: "Puskovaya ustanovka M-31"
+RUS_rocket_artillery_equipment_2_short: "M-31"
+RUS_rocket_artillery_equipment_2_desc: "Der M-31 ist eine Kopie des deutschen Konzepts - ein Raketenwerfer, der zur besseren Mobilität auf einer Lafette montiert ist. Eine einzelne M-31-Plattform ist mit 8 schweren 300-mm-Raketen bestückt, die dank eines verbesserten Rahmens sehr schnell nachgeladen werden können. Sie ist ungenau, kann aber in großer Zahl mit verheerender Wirkung eingesetzt werden."
+
+# Reactive round M-20 :
+RUS_rocket_artillery2: "Reaktivny snaryad M-20"
+RUS_rocket_artillery2_short: "M-20"
+RUS_rocket_artillery2_desc: "Die M-20 basiert auf der reaktiven Munition M-13 und ist eine schwerere und leistungsfähigere Rakete des gleichen Kalibers von 132 mm. Die neue Rakete wird in der gleichen Qualität wie die M-13 verwendet und kann von den M-13-Raketenwerfern abgefeuert werden."
+# Reactive round M-30 :
+RUS_rocket_artillery3: "Reaktivny snaryad M-30"
+RUS_rocket_artillery3_short: "M-30"
+RUS_rocket_artillery3_desc: "Die reaktive 300-mm-Rakete M-30 ist wesentlich leistungsfähiger als frühere Raketen, benötigt aber aufgrund ihres höheren Gewichts und ihrer Größe andere Abschussgeräte. Die M-30, die von den Soldaten aufgrund ihrer Form oft 'Luka' genannt wird, ist eine der verheerendsten Raketen Russlands."
+
+#Special Projects
+
+# TG-1 :
+RUS_super_heavy_railway_gun_equipment_1: "Zheleznodorozhny transport TG"
+RUS_super_heavy_railway_gun_equipment_1_short: "TG"
+RUS_super_heavy_railway_gun_equipment_1_desc: "Eine 500-mm-Eisenbahnhaubitze, die mit der Eisenbahnkanone TP vereint ist. Ähnlich wie die TP wurde auch die TG speziell für die Armee entwickelt. Im Gegensatz zur TP-Kanone dient sie nur dem alleinigen Zweck der Offensive und kann nicht zerlegt werden."
+#RUS_super_heavy_railway_gun_equipment_1: "$RUS_super_heavy_railway_gun_equipment$"
+#RUS_super_heavy_railway_gun_equipment_1_short: "TG"
+#RUS_super_heavy_railway_gun_equipment_1_desc: "$RUS_super_heavy_railway_gun_equipment_desc$"
+
+# 203-mm B-4 :
+RUS_super_heavy_artillery_equipment_1: "203-mm gaubitsa obr.1931"
+RUS_super_heavy_artillery_equipment_1_short: "O-4"
+RUS_super_heavy_artillery_equipment_1_desc: "Die O-4 ist eine der ersten und wichtigsten russischen Belagerungswaffen, die nach dem Ende des Großen Krieges entwickelt wurde. Das Geschütz ist Teil der 'großen Artillerie-Triplex' und kann die meisten Festungen zerstören, mit Ausnahme von modernen Festungen von hoher Qualität. Es handelt sich um eine große, langsame Waffe mit geringer Nachladegeschwindigkeit und einem komplizierten und unzuverlässigen Fahrgestell, die sich ausschließlich für die Zerstörung von Festungen eignet."
+#RUS_super_heavy_artillery_equipment_1: "203-mm gaubitsa obr.1931"
+#RUS_super_heavy_artillery_equipment_1_short: "O-4"
+#RUS_super_heavy_artillery_equipment_1_desc: "$RUS_super_heavy_artillery_equipment_desc$"
+
+# 203-mm S-51 :
+RUS_self_propelled_super_heavy_artillery_equipment_1: "203-mm gaubitsa obr.1943"
+RUS_self_propelled_super_heavy_artillery_equipment_1_short: "F-123"
+RUS_self_propelled_super_heavy_artillery_equipment_1_desc: "Die F-123 ist eine moderne Belagerungswaffe, deren Grundlage jedoch ein modifiziertes O-4-Geschütz ist. Mit einem neuen Fahrgestell wurden die Hauptprobleme der O-4-Kanone behoben, wie z. B. die extrem niedrigen Nachladegeschwindigkeiten."
+#RUS_super_heavy_artillery_equipment_1: "203-mm gaubitsa obr.1943"
+#RUS_super_heavy_artillery_equipment_1_short: "F-123"
+#RUS_super_heavy_artillery_equipment_1_desc: "$RUS_super_heavy_artillery_equipment_desc$"
+
+# M-72 :
+RUS_motorbike_equipment_1: "Mototsikl AM-72"
+RUS_motorbike_equipment_1_short: "AM-72"
+RUS_motorbike_equipment_1_desc: "Die von OKMO in Vorbereitung auf den Krieg entwickelte AM-72 ist eine modifizierte Kopie des deutschen Motorrads BMW R-71. Es ist einfach zu produzieren, zuverlässig, leicht zu reparieren und verfügt über eine solide Geschwindigkeit und gute Manövrierfähigkeit in unwegsamem Gelände. Die AM-72 hebt sich von anderen russischen Motorrädern ab, die entweder zu leicht oder zu unzuverlässig sind, um vom Militär richtig genutzt zu werden."
+#RUS_motorbike_equipment: "Mototsikl AM-72"
+#RUS_motorbike_equipment_short: "AM-72"
+#RUS_motorbike_equipment_desc: "$RUS_motorbike_equipment_desc$"
+
+# Sikorsky R-4 :
+#RUS_helicopter_equipment: "Vertolyot V-4"
+#RUS_helicopter_equipment_short: "V-4"
+RUS_helicopter_equipment_1: "Vertolyot V-4"
+RUS_helicopter_equipment_1_short: "V-4"
+
+# Zveno with Pe-7 :
+#RUS_mothership_equipment: "Bombardirovshchik Zveno-7"
+#RUS_mothership_equipment_short: "Z-7"
+RUS_mothership_equipment_0:  "Bombardirovshchik Zveno-7"
+RUS_mothership_equipment_0_short: "Z-7"
+
+# Tu-85 #TDB stands for "Heavy Long-range Bomber plane" :
+#RUS_strat_bomber_intercontinental_equipment: "Bombardirovshchik TDB-1"
+#RUS_strat_bomber_intercontinental_equipment_short: "TDB-1"
+RUS_strat_bomber_intercontinental_equipment_1: "Bombardirovshchik TDB-1"
+RUS_strat_bomber_intercontinental_equipment_1_short: "TDB-1"
+
+# Object 301 :
+RUS_guided_missile_equipment_1: "Krylataya torpeda T-312"
+RUS_guided_missile_equipment_1_short: "T-312"
+RUS_guided_missile_equipment_1_desc: "Der 'geflügelte Torpedo' ist die erste vom russischen Militär entwickelte taktische Rakete. Er hat eine geringe Genauigkeit, hohe Kosten und ist für diesen Aufwand leider wenig explosiv, aber er ist ein bedeutender Vorreiter in der russischen Raketentechnologie."
+# Modified R-10 :
+RUS_guided_missile_equipment_2: "Raketa R-15"
+RUS_guided_missile_equipment_2_short: "R-15"
+RUS_guided_missile_equipment_2_desc: "Die zweistufige R-15-Rakete hat eine hohe Reichweite, leidet aber unter den gleichen Problemen wie die T-312. Sie wurde von Langemaks Team auf der Grundlage der zivilen R-10-Rakete entwickelt, um als Hauptrakete der russischen Armee im modernen, sich ständig verändernden Krieg zu dienen."
+# R-1 :
+RUS_guided_missile_equipment_3: "Raketa R-2"
+RUS_guided_missile_equipment_3_short: "R-2"
+RUS_guided_missile_equipment_3_desc: "Die R-2-Rakete wurde auf der Grundlage gestohlener deutscher Entwürfe entwickelt und ist im Wesentlichen eine von Russland verbesserte Version der V-2. Die R-2 funktioniert nach völlig anderen Prinzipien als frühere russische Raketen."
+
+# Modified R-10 :
+RUS_ballistic_missile_equipment_1: "$RUS_guided_missile_equipment_2$"
+RUS_ballistic_missile_equipment_1_short: "$RUS_guided_missile_equipment_2_short$"
+# R-1 :
+RUS_ballistic_missile_equipment_2: "$RUS_guided_missile_equipment_3$"
+RUS_ballistic_missile_equipment_2_short: "$RUS_guided_missile_equipment_3_short$"
+
+# S-25 Berkut :
+RUS_sam_missile_equipment_1: "Raketa Rakurs"
+RUS_sam_missile_equipment_1_short: "Rakurs"
+
+#R-2 :
+RUS_nuclear_missile_equipment_1: "Raketa R-3"
+RUS_nuclear_missile_equipment_1_short: "R-3"
+
+# R-7
+RUS_nuclear_missile_equipment_2: "Raketa R-7"
+RUS_nuclear_missile_equipment_2_short: "R-7"
+###
+### RSA ###
+###
+
+#Version A :
+RSA_EQUIPMENT_VERSION_1: "A"
+#Version B :
+RSA_EQUIPMENT_VERSION_2: "B"
+#Improved :
+RSA_EQUIPMENT_VERSION_3: "-U"
+#Modified :
+RSA_EQUIPMENT_VERSION_4: "M"
+#Special :
+RSA_EQUIPMENT_VERSION_5: "-S"
+#Model of an year:
+RSA_EQUIPMENT_VERSION_6: "obr.[GetYear]"
+#Model of an year:
+RSA_EQUIPMENT_VERSION_7: "obr.[GetYear]"
+#Model of an year:
+RSA_EQUIPMENT_VERSION_8: "obr.[GetYear]"
+#Model of an year:
+RSA_EQUIPMENT_VERSION_9: "obr.[GetYear]"
+#Model of an year:
+RSA_EQUIPMENT_VERSION_10: "obr.[GetYear]"
 
 ### Land ###
 
 #Infantry Equip
 
-RUS_infantry_equipment_0: "Russkaya 3-lineynaya vintovka obr.1891"
-RUS_infantry_equipment_0_short: "Vintovka Mosina"
-RUS_infantry_equipment_1: "Avtomaticheskaya Vintovka Simonova obr.1936"
-RUS_infantry_equipment_1_short: "AVS-36"
-RUS_infantry_equipment_2: "Samozaryadnaya Vintovka Tokareva obr.1938"
-RUS_infantry_equipment_2_short: "SVT-38"
-RUS_infantry_equipment_3: "Pistolet-Pulemyet Shpagina mod.2"
-RUS_infantry_equipment_3_short: "PPSh-2"
-RUS_infantry_at: "PTRS-41"
-RUS_infantry_at2: "RPG-42"
-RUS_support_weapons: "Maxim-Tokarev obr.1924 & Dyakonov 40,5mm GV"
-RUS_support_weapons2: "Degtyarev DP-29M & 82mm BM obr.1938"
-RUS_support_weapons3: "Degtyarev DS-39 & Taubin 40,5mm AG-2"
-RUS_support_weapons4: "Goryunov SG-43 & 120mm PM obr.1943"
-RUS_night_vision: "Ts-3"
-RUS_night_vision2: "NSP-2"
+# Mauser 98 :
+RSA_infantry_equipment_0: "Vintovka 98 (Mauzera)"
+RSA_infantry_equipment_0_short: "Vintovka 98"
+# Mauser Standardmodell :
+RSA_infantry_equipment_1: "Vintovka 98B"
+RSA_infantry_equipment_1_short: "Vintovka 98B"
+# SVT-40 :
+RSA_infantry_equipment_2: "Samozaryadnaya vintovka obr.1940"
+RSA_infantry_equipment_2_short: "SVT"
+# PPS-43 :
+RSA_infantry_equipment_3: "Pistolet-pulemyot obr.1943"
+RSA_infantry_equipment_3_short: "PPS"
+
+# Bergmann MP 35 :
+RSA_infantry_weapons2: "Pistolet-pulemyot 35 (Bergmann)"
+RSA_infantry_weapons2_short: "PP-35"
+# Maschinenpistole Modell 40 :
+RSA_improved_infantry_weapons_2: "Pistolet-pulemyot 40"
+RSA_improved_infantry_weapons_2_short: "PP-40"
+# PPS-44 :
+RSA_advanced_infantry_weapons2: "Pistolet-pulemyot obr.1944"
+RSA_advanced_infantry_weapons2_short: "PPS-44"
+
+#Panzerfaust :
+RSA_infantry_at: "Protivotankovaya ruchnaya mortira Ror"
+RSA_infantry_at_short: "Ror"
+# PTR-82 :
+RSA_infantry_at2: "Protivotankovoye reaktivnoye ruzhye obr.1944"
+RSA_infantry_at2_short: "PTRO-44"
+
+# Maschinengewehr M.08/15 & 7,58-cm leichter Minenwerfer :
+RSA_support_weapons: "Ruchnoy pulemyot MG-15 & 75-mm minomyot obr.1909"
+RSA_support_weapons_short: "MG-15 & 75-mm minomyot"
+# Maschinengewehr M.34 and 8-cm schwerer Granatwerfer M.34 :
+RSA_support_weapons2: "Stankovy pulemyot MG-34 & 80-mm minomyot obr.1934"
+RSA_support_weapons2_short: "MG-34 & 80-mm minomyot"
+# DP-39 and 120-PM-38 :
+RSA_support_weapons3: "Ruchnoy pulemyot obr.1940 & 120-mm minomyot obr.1938"
+RSA_support_weapons3_short: "RD & 120-mm minomyot"
+# SG-43 and 160-MT-13 :
+RSA_support_weapons4: "Stankovy pulemyot obr.1943 & 160-mm minomyot obr.1943"
+RSA_support_weapons4_short: "SG & 160-mm minomyot"
+# Devices Vega-1 and Vega-2 :
+RSA_night_vision: "Pribor Vega"
+RSA_night_vision_short: "Vega"
+# Device Mira :
+RSA_night_vision2: "Pribor Mira"
+RSA_night_vision2_short: "Mira"
 
 #Motorised
 
-RUS_motorized_equipment_1: "AMO mod.6"
-RUS_motorized_equipment_1_short: "AMO-6"
+# AMO-F-15 :
+RSA_motorized_equipment_0: "Gruzovoy avtomobil AMO-F-15"
+RSA_motorized_equipment_0_short: "AMO-F-15"
+# Represent GAZ-AA, GAZ-MM and GAZ-63 (OTL pre-war) trucks :
+RSA_motorized_equipment_1: "Gruzovoy avtomobil NAZ-63"
+RSA_motorized_equipment_1_short: "NAZ-63"
 
-RUS_motorized_rocket_equipment_1: "Boyevaya Mashina M-13-16"
-RUS_motorized_rocket_equipment_1_short: "BM-13"
+# NAZ with Wurfrahmen 40 adapted to M-30 :
+RSA_motorized_rocket_equipment_1: "Puskovaya avtoustanovka M-30"
+RSA_motorized_rocket_equipment_1_short: "M-30"
 
-RUS_mechanized_equipment_1: "Bronevoy Avtomobil Lebedev-6 obr.39"
-RUS_mechanized_equipment_1_short: "BA-39"
-RUS_mechanized_equipment_2: "Tyazhely Bronetransportyer obr.1942"
-RUS_mechanized_equipment_2_short: "TB-42"
-RUS_mechanized_equipment_3: "Bronetransportyer mod.3"
-RUS_mechanized_equipment_3_short: "B-3"
+# Sonderkraftfahrzeug 11 :
+RSA_mechanized_equipment_1: "Polugusenihny avtomobil Ganomag"
+RSA_mechanized_equipment_1_short: "Ganomag"
+# Schwerer Wehrmachtschlepper :
+RSA_mechanized_equipment_2: "Polugusenihny avtomobil SVS"
+RSA_mechanized_equipment_2_short: "SVS"
+# B-3 :
+RSA_mechanized_equipment_3: "Bronetransporter B-3"
+RSA_mechanized_equipment_3_short: "B-3"
 
-RUS_amphibious_mechanized_equipment_1: "Plavayushchiy Broneavtomobil mod.2"
-RUS_amphibious_mechanized_equipment_1_short: "PB-2"
-RUS_amphibious_mechanized_equipment_2: "Plavayushchiy Bronetransportyer obr.1943"
-RUS_amphibious_mechanized_equipment_2_short: "PB-43"
+#Landwasserschlepper:
+RSA_amphibious_mechanized_equipment_1: "Plavayushchy transporter LVS"
+RSA_amphibious_mechanized_equipment_1_short: "LVS"
+#R-40
+RSA_amphibious_mechanized_equipment_2: "Bronetransporter PTR-20"
+RSA_amphibious_mechanized_equipment_2_short: "PTR-20"
 
 #Armoured Car
-RUS_gw_armored_car_equipment: "Bronevoy Avtomobil obr.27"
-RUS_gw_armored_car_equipment_short: "BA-27"
-RUS_armored_car_equipment_1: "Bronevoy Avtomobil mod.10"
-RUS_armored_car_equipment_1_short: "BA-10"
-RUS_armored_car_equipment_2: "Bronevoy Avtomobil NAZ-64"
-RUS_armored_car_equipment_2_short: "BA-64"
-RUS_armored_car_at_equipment: "Kolyesnaya Samokhodnaya Pushka NAZ-76"
-RUS_armored_car_at_equipment_short: "KSP-76"
+#The classification of armored cars changes in the middle-late 1930s: the classification by weight is removed.
+
+# Sd.Kfz. 222 :
+RSA_gw_armored_car_equipment: "Broneavtomobil Khorkh-2"
+RSA_gw_armored_car_equipment_short: "Khorkh-2"
+# Sd.Kfz. 231 :
+RSA_armored_car_equipment_1: "Broneavtomobil Magirus"
+RSA_armored_car_equipment_1_short: "Magirus"
+# LB-62 :
+RSA_armored_car_equipment_2: "Broneavtomobil BA-30"
+RSA_armored_car_equipment_2_short: "BA-30"
+# BA-11D/GAZ-33 :
+RSA_armored_car_at_equipment: "Broneavtomobil BA-12"
+RSA_armored_car_at_equipment_short: "BA-12"
 
 #Trains
-# Soviet Class FD # Name means “Steam Locomotive Type 1”:
-RUS_train_equipment_1: "Paravoz Tip 1"
-RUS_train_equipment_1_short: "Type P1"
-RUS_train_equipment_1_desc: "Die 1931 konstruierte Baureihe P1 ersetzte viele der in Amerika gebauten Lokomotiven der Klasse Ye, die auf dem russischen Streckennetz eingesetzt wurden. Im Jahr 1936 wurde die Lokomotive mit einem Überhitzer ausgestattet, um die Leistung zu erhöhen, wodurch die Variante P1-21 entstand. Die solide Leistung der Baureihe führte schnell zu massiven Aufträgen und wurde zur beliebtesten Lokomotive auf dem russischen Streckennetz, so dass Fabriken ausschließlich für die Produktion dieses Typs errichtet wurden."
-# Soviet Class L # Name means “February Road Steam Locomotive”:
-RUS_train_equipment_2: "Paravoz Fevralskaya doroga"
-RUS_train_equipment_2_short: "Class F"
-RUS_train_equipment_2_desc: "Die im Kolomna-Werk entwickelten und nach der Februar-Eisenbahn zwischen Moskau und Petrograd benannten Lokomotiven der Baureihe F sind wirtschaftlich und für den Einsatz auf dem ausgedehnten russischen Eisenbahnnetz geeignet. Durch den Verzicht auf einen Schleppradsatz und komplizierte Bauteile war die Serienproduktion des Typs schneller und billiger als bei der Baureihe P1."
-# PR-43 armoured train :
-RUS_train_equipment_3: "Broneparovoz Obrezets 1940"
-RUS_train_equipment_3_short: "BPR-40"
-RUS_train_equipment_3_desc: "Die gepanzerten Züge der Klasse BP-35 wurden entwickelt, um die Infanterie bei der Sicherung der Bahnstrecken zu unterstützen, die eine wichtige Verbindung zwischen dem riesigen Russland darstellen. Angesichts des absehbaren Krieges wurden neue Klassen gepanzerter Züge und Lokomotiven entwickelt: der PR-40 Panzerzug und die BPR-40 Lokomotive. Der Zug war mit einer drei Zoll dicken Panzerung versehen und verfügte über separate Panzerabteile für Flugabwehr- und Panzerabwehrkanonen. Er benötigte eine Besatzung von bis zu 200 Mann und wog über 350 Tonnen."
-
-# TM-3-12 :
-RUS_railway_gun_equipment_1: "Transportyer Artilleriysky Tip 3 Kalibr 12"
-RUS_railway_gun_equipment_1_short: "TA-3-12"
-RUS_railway_gun_equipment_1_desc: "Ersatzgeschütze der Marine wurden auf Eisenbahnwaggons montiert und in den Dienst der russischen Armee gestellt."
+# Bayern S 3/6 / DRB Class 18.4-5 # Nt stands for German, heavy:
+RSA_train_equipment_1: "Parovoz serii Nt"
+RSA_train_equipment_1_short: "Nt"
+# Series SO # Nya stands for German, similar to Ya series:
+RSA_train_equipment_2: "Parovoz serii Nya"
+RSA_train_equipment_2_short: "Nya"
+# BP-43 armoured train composition :
+RSA_train_equipment_3: "Bronepoyezd BP-41"
+RSA_train_equipment_3_short: "BP-41"
+# TP-1 :
+RSA_railway_gun_equipment_1: "Zheleznodorozhny transport TP"
+RSA_railway_gun_equipment_1_short: "TP"
 
 #Artillery
 
-RUS_artillery_equipment_1: "76mm obr.1902/1930"
-RUS_artillery_equipment_1_short: "76mm obr.1902/1930"
-RUS_artillery_equipment_2: "107mm obr.1940"
-RUS_artillery_equipment_2_short: "107mm obr.1940"
-RUS_artillery_equipment_3: "152mm MT-1 obr.1944"
-RUS_artillery_equipment_3_short: "152mm MT-1"
+# 10,5-cm leichte Feldhaubitze Modell 33 :
+RSA_artillery_equipment_1: "105-mm legkaya polevaya gaubitsa 33"
+RSA_artillery_equipment_1_short: "FKh-33"
+# 15-cm schwere Feldhaubitze Modell 36 :
+RSA_artillery_equipment_2: "150-mm polevaya gaubitsa 36"
+RSA_artillery_equipment_2_short: "FKh-36"
+# 76-mm ZIS-3 :
+RSA_artillery_equipment_3: "76-mm pushka obr.1942"
+RSA_artillery_equipment_3_short: "F-43"
 
-RUS_anti_tank_equipment_1: "45mm 19-K obr.1931"
-RUS_anti_tank_equipment_1_short: "45mm 19-K"
-RUS_anti_tank_equipment_2: "57mm AMO-2 obr.1940"
-RUS_anti_tank_equipment_2_short: "57mm AMO-2"
-RUS_anti_tank_equipment_3: "100mm OB-3 obr.1943"
-RUS_anti_tank_equipment_3_short: "100mm OB-3"
+# 3,7-cm Panzerabwehrkanone Modell 36 :
+RSA_anti_tank_equipment_1: "37-mm protivotankovaya pushka 36"
+RSA_anti_tank_equipment_1_short: "Pak-36"
+# 7,5-cm Panzerabwehrkanone Modell 40 :
+RSA_anti_tank_equipment_2: "75-mm protivotankovaya pushka 40"
+RSA_anti_tank_equipment_2_short: "Pak-40"
+# 100-mm BS-3 :
+RSA_anti_tank_equipment_3: "100-mm protivotankovaya pushka obr.1944"
+RSA_anti_tank_equipment_3_short: "OF-63"
 
-RUS_anti_air_equipment_1: "37mm 61-K obr.1932"
-RUS_anti_air_equipment_1_short: "37mm 61-K"
-RUS_anti_air_equipment_2: "85mm 52-K obr.1938"
-RUS_anti_air_equipment_2_short: "85mm 52-K"
-RUS_anti_air_equipment_3: "100mm VT-19 obr.1943"
-RUS_anti_air_equipment_3_short: "100mm VT-19"
+# 2-cm Flugzeugabwehrkanone Modell 36 :
+RSA_anti_air_equipment_1: "20-mm avtomaticheskaya zenitnaya pushka 36"
+RSA_anti_air_equipment_1_short: "Flak-36"
+# 3,7-cm Flugzeugabwehrkanone Modell 37 :
+RSA_anti_air_equipment_2: "37-mm avtomaticheskaya zenitnaya pushka 40"
+RSA_anti_air_equipment_2_short: "Flak-40"
+# 85-mm M1944 KS-1/KS-12 :
+RSA_anti_air_equipment_3: "85-mm zenitnaya pushka obr.1944"
+RSA_anti_air_equipment_3_short: "112-P"
 
-RUS_rocket_artillery_equipment_1: "132mm M-8-24"
-RUS_rocket_artillery_equipment_1_short: "132mm M-8-24"
-RUS_rocket_artillery_equipment_2: "302mm M-20-12"
-RUS_rocket_artillery_equipment_2_short: "302mm M-20-12"
+# 28/32-cm Schweres Wurfgerät Modell 40 :
+RSA_rocket_artillery_equipment_1: "Puskovaya ustanovka ShV"
+RSA_rocket_artillery_equipment_1_short: "ShV"
+# Portable launching carriage M-31 :
+RSA_rocket_artillery_equipment_2: "Puskovaya ustanovka M-31"
+RSA_rocket_artillery_equipment_2_short: "M-31"
+
+#Missile
+
+# Object 301 :
+RSA_guided_missile_equipment_1: "Krylataya torpeda T-312"
+RSA_guided_missile_equipment_1_short: "T-312"
+# Modified R-10 :
+RSA_guided_missile_equipment_2: "Raketa R-15"
+RSA_guided_missile_equipment_2_short: "R-15"
+# R-1 :
+RSA_guided_missile_equipment_3: "Raketa R-2"
+RSA_guided_missile_equipment_3_short: "R-2"
 
 ###
 ### Rwanda ###
@@ -9445,16 +10063,6 @@ SIA_train_equipment_3_short: "RSR 350 HorKor."
 SIA_train_equipment_3_desc: "Da die Eisenbahnen zunehmend von feindlichen Flugzeugen angegriffen werden, müssen neue Lokomotiven für den Einsatz an den Fronten in der Lage sein, Treffer von bis zu 20-mm-Kanonen einzustecken. Um die Lokomotive für den Einsatz gegen Luftangriffe zu schützen, sind einige RSR 350 Mikado-Lokomotiven mit drei Zoll dicken Panzerplatten entlang der Lokomotive ausgestattet, um die wichtigen Teile zu schützen."
 
 ###
-### Siberia ###
-###
-
-### Land ###
-SIB_infantry_equipment_0: "Vintovka Mosina obr.1891"
-SIB_infantry_equipment_0_short: "Mosina 1891"
-SIB_infantry_equipment_1: "Vintovka Mosina obr.1891/1930"
-SIB_infantry_equipment_1_short: "Mosina 1891/1930"
-
-###
 ### Two Sicilies ###
 ###
 
@@ -9842,22 +10450,22 @@ SWF_modern_tank_equipment_1_short: "Universal Mk I"
 ###
 
 ### Land ###
-SQI_infantry_equipment_0: "Mauser C96 “Boke Qiang”"
-SQI_infantry_equipment_0_short: "Boke Qiang"
-SQI_infantry_equipment_0_desc: "Die Mauser C96 (Construktion 96) ist eine halbautomatische Pistole, die ursprünglich vom deutschen Waffenhersteller Mauser von 1896 bis 1937 hergestellt wurde. Nicht lizenzierte Kopien der Pistole wurden in der ersten Hälfte des 20. Jahrhunderts auch in Spanien und China hergestellt. Die Pistole selbst war als 'Boke Qiang' (Skorpionpistole) bekannt, da sie während der Ära der Kriegsherren weit verbreitet war, obwohl sie aufgrund von Ausrüstungsmangel und persönlichen Vorlieben oft zusammen mit nicht standardisierten Waffen wie dem Dadao verwendet wurde."
-SQI_infantry_equipment_1: "Jinan Type 26"
-SQI_infantry_equipment_1_short: "Jinan Type 26"
-SQI_infantry_equipment_1_desc: "Dieses ursprünglich als 'Xuantong Typ 27' bezeichnete Gewehr wurde 1935 mit deutscher Hilfe nach der Restauration in den Dienst der Qing gestellt. Die Waffe ist funktional eine nahezu identische Kopie der deutschen Mauser M1924 und stellt in Bezug auf Gewicht und Rückstoß eine erhebliche Verbesserung gegenüber der viel älteren Type 88 dar.\n.\nErstmals im Arsenal von Hanyang mit deutschen Werkzeugen hergestellt, haben sich die Fertigungsmethoden bereits nach Jinan ausgebreitet, auch wenn sie ihre Vorgänger wohl noch eine Weile nicht vollständig ersetzen wird."
+SHD_infantry_equipment_0: "Mauser C96 “Boke Qiang”"
+SHD_infantry_equipment_0_short: "Boke Qiang"
+SHD_infantry_equipment_0_desc: "Die Mauser C96 (Construktion 96) ist eine halbautomatische Pistole, die ursprünglich vom deutschen Waffenhersteller Mauser von 1896 bis 1937 hergestellt wurde. Nicht lizenzierte Kopien der Pistole wurden in der ersten Hälfte des 20. Jahrhunderts auch in Spanien und China hergestellt. Die Pistole selbst war als 'Boke Qiang' (Skorpionpistole) bekannt, da sie während der Ära der Kriegsherren weit verbreitet war, obwohl sie aufgrund von Ausrüstungsmangel und persönlichen Vorlieben oft zusammen mit nicht standardisierten Waffen wie dem Dadao verwendet wurde."
+SHD_infantry_equipment_1: "Jinan Type 26"
+SHD_infantry_equipment_1_short: "Jinan Type 26"
+SHD_infantry_equipment_1_desc: "Dieses ursprünglich als 'Xuantong Typ 27' bezeichnete Gewehr wurde 1935 mit deutscher Hilfe nach der Restauration in den Dienst der Qing gestellt. Die Waffe ist funktional eine nahezu identische Kopie der deutschen Mauser M1924 und stellt in Bezug auf Gewicht und Rückstoß eine erhebliche Verbesserung gegenüber der viel älteren Type 88 dar.\n.\nErstmals im Arsenal von Hanyang mit deutschen Werkzeugen hergestellt, haben sich die Fertigungsmethoden bereits nach Jinan ausgebreitet, auch wenn sie ihre Vorgänger wohl noch eine Weile nicht vollständig ersetzen wird."
 #OTL Chinese copy of Astra Model 900:
-SQI_infantry_equipment_2: "Taiyuan Arsenal Xuantong Type 20 “Zilaide”"
-SQI_infantry_equipment_2_short: "Zilaide"
-SQI_infantry_equipment_2_desc:2 "Eine Verbesserung des ursprünglichen Mauser C96-Designs, das M1932 Schnellfeuer, oder auf Chinesisch als 'Zilaide' bekannt, war ein sehr erfolgreiches Design mit abnehmbarem Magazin und selektiver Feuermöglichkeit. Weitere Verbesserungen in den späteren Versionen umfassten einen abnehmbaren Lauf, verbesserte Vorder- und Hinterkimme, haltbarere Teile, um Bruch unter anhaltendem Feuer zu verhindern, und eine abgesenkte Position des Schulterschafts, um 'Hammerbiss' zu vermeiden."
-SQI_infantry_equipment_3: "Hanyang Xuantong Type 35"
-SQI_infantry_equipment_3_short: "Hanyang Type 35"
-SQI_infantry_equipment_3_desc: "Das Typ 35 ist ein halbautomatisches Gewehr, das auf dem General-Liu-Gewehr von 1914 basiert. Obwohl es ähnlich aussieht, ist das Typ 35 kürzer, die Rückseite des Gehäuses ist abgedeckt und das Gasfängersystem wurde durch eine einfache Gasöffnung ersetzt. Das neue Gewehr kann auch nicht mehr auf Handbetrieb umgestellt werden und verwendet die Magazine des böhmischen Gewehrs ZH-29 und des leichten Maschinengewehrs ZB-26."
-SQI_support_weapons: "'Huaning' 7.92mm heavy machine gun & Hanyang-made Stokes mortar"
-SQI_support_weapons2: "Hanyang 30 festival 7.9mm machine gun 'Old yellow ox' & Jinan Xuantong Type 23 82mm mortar"
-SQI_support_weapons3: "Xuantong Type 27 heavy machine gun & Jinan Xuantong Type 34 60mm mortar"
+SHD_infantry_equipment_2: "Taiyuan Arsenal Xuantong Type 20 “Zilaide”"
+SHD_infantry_equipment_2_short: "Zilaide"
+SHD_infantry_equipment_2_desc:2 "Eine Verbesserung des ursprünglichen Mauser C96-Designs, das M1932 Schnellfeuer, oder auf Chinesisch als 'Zilaide' bekannt, war ein sehr erfolgreiches Design mit abnehmbarem Magazin und selektiver Feuermöglichkeit. Weitere Verbesserungen in den späteren Versionen umfassten einen abnehmbaren Lauf, verbesserte Vorder- und Hinterkimme, haltbarere Teile, um Bruch unter anhaltendem Feuer zu verhindern, und eine abgesenkte Position des Schulterschafts, um 'Hammerbiss' zu vermeiden."
+SHD_infantry_equipment_3: "Hanyang Xuantong Type 35"
+SHD_infantry_equipment_3_short: "Hanyang Type 35"
+SHD_infantry_equipment_3_desc: "Das Typ 35 ist ein halbautomatisches Gewehr, das auf dem General-Liu-Gewehr von 1914 basiert. Obwohl es ähnlich aussieht, ist das Typ 35 kürzer, die Rückseite des Gehäuses ist abgedeckt und das Gasfängersystem wurde durch eine einfache Gasöffnung ersetzt. Das neue Gewehr kann auch nicht mehr auf Handbetrieb umgestellt werden und verwendet die Magazine des böhmischen Gewehrs ZH-29 und des leichten Maschinengewehrs ZB-26."
+SHD_support_weapons: "'Huaning' 7.92mm heavy machine gun & Hanyang-made Stokes mortar"
+SHD_support_weapons2: "Hanyang 30 festival 7.9mm machine gun 'Old yellow ox' & Jinan Xuantong Type 23 82mm mortar"
+SHD_support_weapons3: "Xuantong Type 27 heavy machine gun & Jinan Xuantong Type 34 60mm mortar"
 
 ###
 ### Sardinia ###
@@ -10772,16 +11380,6 @@ TRI_anti_tank_equipment_2: "QF 6-pounder"
 TRI_anti_tank_equipment_3: "QF 17-pounder"
 
 ###
-### Transamur ###
-###
-
-### Land ###
-TRM_infantry_equipment_0: "Vintovka Mosina obr.1891"
-TRM_infantry_equipment_0_short: "Mosina 1891"
-TRM_infantry_equipment_1: "Arisaka Type 99"
-TRM_infantry_equipment_1_short: "Type 99"
-
-###
 ### Transylvania ###
 ###
 
@@ -10989,7 +11587,7 @@ UKR_train_equipment_3_short: "$GER_train_equipment_3_short$"
 
 UKR_railway_gun_equipment_1: "TM-3-12"
 #UKR_railway_gun_equipment_1_short: ""
-UKR_railway_gun_equipment_1_desc: "Die aus den geborgenen Geschützen der Imperatritsa Mariya gebauten Kanonen wurden auf eine Geschützplattform gesetzt und in Dienst gestellt."
+UKR_railway_gun_equipment_1_desc: "Die aus den geborgenen Geschützen der Imperatritsa Maria gebauten Kanonen wurden auf eine Geschützplattform gesetzt und in Dienst gestellt."
 
 #Artillery
 UKR_artillery_equipment_1: "10,5-cm Lehka Haubytsia zr.1933"
@@ -11239,7 +11837,7 @@ VEN_infantry_equipment_3_short: "FN-43"
 
 ### Railroad ###
 VEN_train_equipment_1: "Gran Ferrocarril de Venezuela Schwartzkopff 2-8-2T"
-VEN_train_equipment_2: "FC Central de Venezuela 2-6-2T ‘PAO’"
+VEN_train_equipment_2: "FC Central de Venezuela 2-6-2T ‘PAO'"
 #VEN_train_equipment_3: ""
 #VEN_railway_gun_equipment_1: "" #feel free to add if you find more stuff
 
