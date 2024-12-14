@@ -1,5 +1,5 @@
 ﻿l_german:
- ESTABLISHING_PROJECT_STATE: "Gründen"
+ ESTABLISHING_PROJECT_STATE: "Gründen" ## Übersetzt von Dave ##
  INITIAL_RESEARCH_STATE: "Erste Forschung"
  PROTOTYPE_STATE: "Prototyp"
  RESEARCH_COMPLETED: "Forschung abgeschlossen"
@@ -601,7 +601,6 @@
  sp_rockets_experimental_rockets_improved_accuracy_reward: "Genauigkeitsverbesserungen"
  sp_rockets_experimental_rockets_stability_improvements_reward: "Verbesserte Flugstabilität von Raketen"
 
-
  # Flying Bomb
  sp_rocket_design_choice_reward: "Reichweite oder Nutzlast?"
  sp_rocket_design_choice_reward_desc: "Bei der Entwicklung unserer Flügelbomben ist es nach Ansicht unserer Ingenieure wichtig, eine Entscheidung darüber zu treffen, welches Ziel genau verfolgt werden soll. Sollen wir die Reichweite maximieren oder ist die Nutzlast das Wichtigste?"
@@ -632,7 +631,6 @@
  sp_rockets_flying_bomb_test_flight_failures_reward: "Fehlschläge bei Testflügen"
  sp_rockets_flying_bomb_test_flight_failures_reward_desc: "Bei den ersten Testflügen kam es aufgrund von Fehlfunktionen des Leitsystems und strukturellen Schwächen zu einigen gravierenden Ausfällen. Unsere Wissenschaftler haben daraus zwar wichtige Erkenntnisse ziehen können, aber es hat auch unseren Fortschritt gebremst."
  #sp_rockets_flying_bomb_test_flight_failures_reward_option: "They say you learn the most from your failures"
-
 
  # Ground to Air
  sp_rockets_ground_control_improvements_reward: "Bodenkontrollverbesserungen"
@@ -681,6 +679,9 @@
  sp_rocket_launch_site_choice_reward_desc: "Die schiere Größe der neuen Raketen hat bei den vorgesehenen Abschussanlagen Probleme verursacht. Die Projektleiter haben nun um die Finanzierung eines neuen, eigens für diesen Zweck gebauten Standorts gebeten."
  sp_rocket_launch_site_choice_reward_reject: "Findet einen Weg, um die Raketen am derzeitigen Standort abzuschießen."
  sp_rocket_launch_site_choice_reward_accept: "Wir sollten in einen neuen Standort investieren."
+
+ SP_ROCKET_AND_SUBMARINE_SITE_REMINDER_PROJECT: "Um $PROJECT|Y$ effektiv nutzen zu können, müssen wir eine Raketenbasis errichten oder über U-Boote mit Raketenfähigkeit verfügen."
+ SP_ROCKET_SITE_REMINDER_PROJECT: "Um $PROJECT|Y$ effektiv nutzen zu können, müssen wir eine Raketenbasis errichten."
 
 ########################
   ## NAVAL PROJECTS ##
@@ -744,7 +745,6 @@
  sp_naval_proximity_fuze: "Abstandszünder"
  sp_naval_proximity_fuze_desc: "Dank der jüngsten Fortschritte in der Funktechnologie konnte eine neue Art von Zünder entwickelt werden, der den Sprengsatz bereits in der Nähe des Ziels explodieren lässt, um selbiges zu beschädigen."
 
-
 #################################
   ## NAVAL PROTOTYPE REWARDS ###
 #################################
@@ -786,7 +786,6 @@
  sp_naval_midget_submarine_preference_a: "Etwas mehr Tarnung"
  sp_naval_midget_submarine_preference_b: "Etwas weniger anfällig für Explosionen"
  sp_naval_midget_submarine_preference_c: "Etwas längere Reichweite"
-
 
  sp_naval_aip_engine_unique_reward_a: "Unabhängige Verbesserungen"
  sp_naval_aip_engine_unique_reward_a_desc: "Die Wissenschaftler, die an der Verbesserung herkömmlicher Motoren arbeiten, haben ihre Erkenntnisse zwar mit ihren Kollegen geteilt, doch die daraus resultierenden Verbesserungen werden wahrscheinlich nicht sonderlich atemberaubend sein."
