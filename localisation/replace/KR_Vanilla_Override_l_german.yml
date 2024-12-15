@@ -31,7 +31,7 @@ LOAD_GFX_PDXMAP_STATIC_OBJECTS: "Den Wohlstand teilen"
 LOAD_EVENTS: "Zentralisierung der Doppelmonarchie"
 LOAD_GFX: "Ein Landkrieg in Asien"
 LOADING_MAIN_MENU: "Unterstützung sterbender Imperien"
-PRECALC_NAVAL_DIST: "Ermordung Kerenski"
+PRECALC_NAVAL_DIST: "Ermordung Tschernows"
 EXITING_TO_FRONTEND: "Monarchien wiederherstellen"
 LOAD_INIT: "Stationierung der Kaiserlichen Marine"
 LOAD_FLAGS: "Die amerikanische Demokratie retten"
@@ -101,7 +101,7 @@ RELEASE_NATION_DESC: "Wollen Sie $COUNTRY|H$ in $LIST|H$ freilassen?\n\n§RDies 
 PEACE_CONFERENCE_WHITE_PEACE: "Ein §YFriedensvertrag§! wurde zwischen\n@$ACTOR_TAG$$ACTOR_COUNTRY|Y$ und $RECIPIENT_COUNTRY|Y$@$RECIPIENT_TAG$\n zur Beendigung ihrer Feindseligkeiten unterzeichnet."
 
 ### research_l_english
-BLITZKRIEG_LABEL: "KESSELSCHLACHT"
+BLITZKRIEG_LABEL: "SPEERSPITZE"
 MODERN_BLITZKRIEG_LABEL: "VERNICHTUNGSSCHLACHT"
 schwerpunk: "Niederlage im Einzelnen"
 schwerpunk_desc: "Eine Front mit einheitlicher Stärke ist eine Front mit einheitlicher Schwäche. Bei jeder Operation muss ein Brennpunkt identifiziert werden, und die maximale Kraft muss konzentriert werden, um an diesem Punkt zu gewinnen."
@@ -135,7 +135,7 @@ werwolf_guerillas_desc: "Geplante Widerstandsgruppen sind unsere letzte Hoffnung
  basic_ship_hull_submarine: "$ship_hull_submarine_2$"
  improved_ship_hull_submarine: "$ship_hull_submarine_3$"
  advanced_ship_hull_submarine: "$ship_hull_submarine_4$"
- panzerschiffe: "$ship_hull_cruiser_panzerschiff$ Rumpf"
+ panzerschiffe: "$ship_hull_cruiser_panzerschiff$"
 
  early_destroyer: "$destroyer_1$"
  basic_destroyer: "$destroyer_2$"
@@ -546,6 +546,7 @@ zero_island: "Abgelegene Insel(n)"
 
  modifier_army_sub_unit_category_mobile_infantry_max_org_factor: "Kavallerie/Motoren/Mech-Organisation"
  modifier_army_sub_unit_artillery_brigade_attack_factor: "Artillerie Angriff"
+ modifier_army_sub_unit_artillery_brigade_defence_factor: "Artillerie Verteidigung"
 
  modifier_unit_militia_design_cost_factor: "$militia$ Kosten der Designeinheit"
  modifier_unit_irregular_infantry_design_cost_factor: "$irregular_infantry$ Kosten der Designeinheit"
@@ -579,6 +580,14 @@ upgrade_plastic_explosives: "Plastik-Sprengstoff"
 upgrade_suicide_pills: "Selbstmord Pillen"
 upgrade_training_centers: "Lokale Trainingszentren"
 upgrade_commando_training: "Kommandotraining"
+
+### plane_designer_l_english
+ small_plane_cas_airframe_5: "Überschall-Luftnahunterstützungsflugzeug"
+ small_plane_cas_airframe_5_desc: "$small_plane_airframe_5_desc$"
+ small_plane_naval_bomber_airframe_5: "Überschall-Marinebomber Flugzeug"
+ small_plane_naval_bomber_airframe_5_desc: "$small_plane_airframe_5_desc$"
+ small_plane_suicide_airframe_5: "Überschall-Selbstmordflugzeug"
+ small_plane_suicide_airframe_5_desc: "$small_plane_airframe_5_desc$"
 
 ### politics_l_english
 POLITICS_LEADER: "§TLandesführer: $LEADER|H$§!"
@@ -647,6 +656,7 @@ POLITICS_LEADER: "§TLandesführer: $LEADER|H$§!"
  vast_offensives_desc: "Wenn ein Durchbruch erzielt werden kann, muss er so stark wie möglich ausgenutzt werden: Eine groß angelegte Offensive, die so tief wie möglich in die feindlichen Linien eindringt, wird die Verteidigung der Front erschweren, unmöglich machen oder gar zunichte machen."
  mechanized_wave: "Mechanisierte Sturmreihe"
  mechanized_wave_desc: "Mechanisierte Truppen sind ideal für die Durchführung von schnellen Vorstößen, die für einen Durchbruch erforderlich sind, sowohl zur Unterstützung der gepanzerten Kräfte als auch zur Sicherung der Flanken des Durchbruchs."
+ human_infantry_offensive: "Multi-Wellen-Angriff"
  continuous_offensive_desc: "Richtig genutzte Durchbrüche sind zwar oft sehr effektiv, aber früher oder später ist der Angreifer erschöpft und der Verteidiger kann sich neu organisieren und neue Verteidigungslinien aufbauen. Mit genügend Reserven und der richtigen Organisation kann eine Offensive jedoch bis zu einer viel größeren Tiefe fortgesetzt werden, was verheerende Folgen für den Feind hat."
  infantry_weapons2_desc: "Waffen und sonstige Ausrüstung, die ein Infanteriesoldat benötigt. Verbesserte Waffenmodelle und stärker spezialisierte Ausrüstung."
  improved_infantry_weapons_2_desc: "Waffen und sonstige Ausrüstung, die ein Infanteriesoldat benötigt. Verbesserte Waffenmodelle und stärker spezialisierte Ausrüstung."
