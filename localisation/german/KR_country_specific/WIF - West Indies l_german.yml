@@ -57,10 +57,16 @@ WIF_cayenne_agreement_normal_socdems: "Geändertes Cayenne-Abkommen"
 WIF_cayenne_agreement_normal_socdems_desc: "Mit der Parti pour I'Autonomie an der Macht sind die Franzosen überzeugt, für die Föderation zu kämpfen."
 
 WIF_young_army: "Junge Armee"
-WIF_young_army_desc: "Wir haben zwar einen erfahrenen britischen Generalstab hinter uns, aber die Idee einer westindischen Armee ist relativ neu. Die Armee ist jung und damit fehlt es ihr an Erfahrung. Positiv ist, dass unsere Truppen aufgrund ihrer Unerfahrenheit leichter neue Dinge lernen und im Kampf wachsen können."
+WIF_young_army_desc: "Wir haben zwar einen erfahrenen britischen Generalstab hinter uns, aber die Idee einer westindischen Armee ist relativ neu. Unsere Truppen sind zwar lernwillig, verfügen aber noch nicht über die nötige Erfahrung und Ausbildung."
+
+WIF_artillery_investments: "Artillerie-Investitionen"
+
+WIF_increased_artillery_production: "Erhöhte Artillerieproduktion"
+
+WIF_land_air_cooperation: "Land-Luft-Zusammenarbeit"
 
 WIF_air_force_support: "Unterstützung durch die Luftstreitkräfte"
-WIF_air_force_support_desc: "Die Zusammenarbeit zwischen den Luftstreitkräften und der Armee der Westindischen Inseln hat dazu geführt, dass sie in der Art und Weise, wie sie kämpfen, eng miteinander verflochten sind."
+WIF_air_force_support_desc: "Die Zusammenarbeit zwischen der Luftstreitkraft und der Armee der Westindischen Inseln hat beide miteinander verflochten und die Art und Weise, wie wir kämpfen, verändert."
 
 WIF_new_command: "Neues Kommando"
 WIF_new_command_desc: "Mit der Wahl von Cliffords Plan als offizielle Doktrin für die Westindischen Inseln wurde großer Wert auf einen angemessenen Plan und kompetente Generäle zu dessen Umsetzung gelegt."
@@ -72,13 +78,13 @@ WIF_command_navy_cooperation: "Armee-Marine-Kommando"
 WIF_command_navy_cooperation_desc: "Mit der letzten Reform von Clifford wurde die Marine in das gemeinsame Planungssystem einbezogen, was eine wesentlich effektivere Kommunikation zwischen Armee und Marine ermöglicht."
 
 WIF_military_increased_funding: "Erhöhte Militärfinanzierung"
-WIF_military_increased_funding_desc: "Angesichts unseres sehr begrenzten Haushalts haben wir beschlossen, die Mittel für unsere Streitkräfte aufzustocken. Dies wird dazu beitragen, die Professionalität unserer Armee auch in Zukunft zu gewährleisten."
+WIF_military_increased_funding_desc: "Obwohl unser Haushalt begrenzt ist, haben wir beschlossen, die Mittel für das Militär aufzustocken, damit wir für den nächsten Krieg gerüstet sind."
 
 WIF_west_indies_airforce: "Die Westindischen Luftstreitkräfte"
-WIF_west_indies_airforce_desc: "Die Westindische Luftstreitkräfte sind nicht länger eine magere Truppe aus Freiwilligen, lokalen Flugzeugen und Einheimischen, sondern wurden gegründet. Man hat damit begonnen, Männer auszubilden, die unsere Gewässer zum Wohle der Föderation aus der Luft verteidigen."
+WIF_west_indies_airforce_desc: "Die Westindische Luftstreitkraft ist nicht mehr nur eine dürftige Truppe aus Freiwilligen, einheimischen Flugzeugen und Einheimischen, sondern soll unsere Gewässer aus der Luft schützen."
 
-WIF_west_indies_airforce_2: "Die Westindischen Luftstreitkräfte"
-WIF_west_indies_airforce_2_desc: "$WIF_west_indies_airforce_desc$ Überraschenderweise hat die Regierung beschlossen, die Luftstreitkräfte vorrangig vor der Marine und dem Heer zu finanzieren, um mehr Menschen zum Eintritt zu bewegen."
+WIF_increased_air_funding: "Erhöhte Luftstreitkraftfinanzierung"
+WIF_increased_air_funding_desc: "Überraschenderweise hat die Regierung beschlossen, die Luftstreitkräfte vorrangig vor der Marine und dem Heer zu finanzieren, um mehr Menschen zum Eintritt zu bewegen."
 
 WIF_caribbean_trade: "Karibischer Handel"
 WIF_caribbean_trade_desc: "Der Handel in der Karibik und sogar in Mittelamerika ist für unser Land sehr wichtig, und es ist nur natürlich, dass unsere Marine dazu beiträgt, dies zu fördern."
@@ -89,8 +95,12 @@ WIF_wif_academy_desc: "Um unsere Selbstständigkeit zu stärken, haben wir unser
 WIF_canadian_academy: "Eine kanadische Marineakademie"
 WIF_canadian_academy_desc: "Da wir befürchten, dass es uns an Erfahrung mangelt, haben wir begonnen, Kanada um Unterstützung bei der Marineausbildung zu bitten."
 
+WIF_expanded_naval_production: "Erweiterte Marineproduktion"
+
+WIF_defenders_of_caribbean: "Verteidiger der Karibik"
+
 WIF_increased_naval_budget: "Erhöhter Marinehaushalt"
-WIF_increased_naval_budget_desc: "Wie von den meisten erwartet, hat die Regierung beschlossen, unser begrenztes Budget für die Marine zu verwenden, um deren Qualität und die Qualität unserer Admirale durch eine gezieltere Ausbildung zu verbessern."
+WIF_increased_naval_budget_desc: "Wie von den meisten erwartet, hat die Regierung beschlossen, die Ausgaben für die Marine mit unserem begrenzten Budget zu erhöhen, um unseren Marineoffizieren eine qualitativ hochwertige Ausbildung zu gewährleisten."
 
 WIF_economic_downfall: "Wirtschaftlicher Niedergang"
 WIF_economic_downfall_desc: "Der Zusammenbruch des Britischen Empire hat dazu geführt, dass der größte Teil des Marktes auf den Heimatinseln von uns abgeschnitten wurde. Da unsere Exporte und der Tourismus nun sehr begrenzt sind, ist der Lebensstandard der Föderation stark gesunken."
@@ -104,6 +114,8 @@ WIF_CAN_gib_monies_desc: "Die Enthüllungen im Moyne-Bericht führten zu einer E
 WIF_CAN_get_monies: "Finanzielle Kompensation für Westindien"
 WIF_CAN_get_monies_desc: "Die Enthüllungen des Moyne-Berichts führten zu einer Empfehlung der Kommission, die Mittel für die Westindischen Inseln aufzustocken, was die kanadische Regierung auch getan hat."
 
+WIF_tourism_monopolies_idea: "Tourism Monopolies"
+
 WIF_social_programs_idea: "Soziale Programme"
 WIF_social_programs_idea_desc: "Es wurden Sozialprogramme erlassen, um die Bevölkerung zu besänftigen und die Lebensbedingungen der Westindischen Inseln im Allgemeinen zu verbessern."
 
@@ -116,6 +128,8 @@ WIF_expanded_agriculture_desc: "Nach der großen Depression hat sich der Zuckerp
 WIF_agriculture_reform: "Agrarreform"
 WIF_agriculture_reform_desc: "Im Zuge der Expansion der Landwirtschaft wurden zahlreiche Reformen durchgeführt, damit die Landwirtschaft mit höchster Effizienz und nach den richtigen Standards arbeiten kann."
 
+WIF_develeping_industries_for_war: "Industrien für den Krieg entwickeln"
+
 WIF_cayenne_agreement_ncp1: "Das Cayenne-Abkommen kompromittiert"
 WIF_cayenne_agreement_ncp1_desc: "Das 1931 unterzeichnete Abkommen von Cayenne wurde zwischen britischen und französischen Politikern über den Status der französischen Territorien geschlossen. Das Abkommen garantiert den französischen Kolonien eine größere Autonomie als den britischen und war Gegenstand zahlreicher Kontroversen. Nach den Wahlen von 1937 wurde das Cayenne-Abkommen von der NCP in Frage gestellt."
 
@@ -124,9 +138,9 @@ WIF_cayenne_agreement_ncp2_desc: "Das 1931 unterzeichnete Abkommen von Cayenne w
 
 WIF_federal_institute: "Bundesinstitut für Westindien"
 WIF_federal_institute_desc: "Das Bundesinstitut für Westindien ist ein beratendes Gremium, das die Aufgabe hat, den Integrationsprozess zu organisieren. [WIF_federal_institute_head]"
-WIF_federal_institute_head1: "Ralph Grey ist der Leiter des Instituts."
-WIF_federal_institute_head2: "Robert Arundell ist der Leiter des Instituts."
-WIF_federal_institute_head3: "Gegenwärtig gibt es keinen Vorsitzenden."
+WIF_federal_institute_head1: "Ralph Grey ist der derzeitige Leiter."
+WIF_federal_institute_head2: "Robert Arundell ist der derzeitige Leiter."
+WIF_federal_institute_head3: "Derzeit ist die Stelle des Leiters unbesetzt."
 
 WIF_french_conscription_ncp: "Französische Wehrpflicht"
 WIF_french_conscription_ncp_desc: "Die Armee wird uns helfen, die Franzosen in die Föderation zu integrieren. Sie müssen, wie andere auch, in der Armee dienen. Die Zeit der übertriebenen Autonomie liegt hinter uns."
@@ -186,14 +200,22 @@ WIF_SocDem_concessions_2nd_Cayenne: "Zugeständnisse an die Sozialdemokraten"
 WIF_2nd_Cayenne_Agreement: "2. Cayenne-Abkommen"
 WIF_2nd_Cayenne_Agreement_desc: "Das erste Abkommen von Cayenne wurde 1931 zwischen britischen und französischen Politikern unterzeichnet und regelt den Status der französischen Territorien. Das 2. Cayenne-Abkommen hingegen garantiert gleiche Rechte und ein gewisses Maß an Autonomie für die französischen und britischen Kolonien. Es ist weitaus weniger umstritten und garantiert darüber hinaus wichtige Bürgerrechte für alle."
 
-WIF_2nd_Cayenne_Agreement2: "Sangster-Gesetzentwurf"
-WIF_2nd_Cayenne_Agreement2_desc: "Sozialliberale Entschließungen, die sicherlich die Wirtschaft Westindiens ankurbeln werden."
+WIF_sangster_bill: "Sangster-Gesetzentwurf"
+WIF_sangster_bill_desc: "Sozialliberale Entschließungen, die sicherlich die Wirtschaft Westindiens ankurbeln werden."
 
-WIF_conscription_pa1: "Höhere Löhne für Soldaten"
-WIF_conscription_pa1_desc: "Die Einberufung zur Armee sollte nicht erzwungen werden. Um ein zufriedenes Militär zu schaffen, sollten einige Mittel für die Erhöhung der Löhne und die Verbesserung der Lebensqualität der Militärangehörigen eingesetzt werden. Wir sind friedlich, aber wir müssen uns auch schützen."
+WIF_increased_soldier_wages: "Höhere Löhne für Soldaten"
+WIF_increased_soldier_wages_desc: "Die Einberufung zur Armee sollte nicht erzwungen werden. Um ein zufriedenes Militär zu schaffen, sollten einige Mittel für die Erhöhung der Löhne und die Verbesserung der Lebensqualität der Militärangehörigen eingesetzt werden. Wir sind friedlich, aber wir müssen uns auch schützen."
 
-WIF_conscription_pa2: "Pazifismus"
-WIF_conscription_pa2_desc: "Es gibt keinen Grund, die Zahl der Wehrpflichtigen in der Armee zu erhöhen. Deshalb können wir einen Teil der Bevölkerung zurück in die Wirtschaft delegieren. Wir sind eine friedliche und pazifistische Nation."
+WIF_pacifism: "Pazifismus"
+WIF_pacifism_desc: "Es gibt keinen Grund, die Zahl der Wehrpflichtigen in der Armee zu erhöhen. Deshalb können wir einen Teil der Bevölkerung zurück in die Wirtschaft delegieren. Wir sind eine friedliche und pazifistische Nation."
+
+WIF_informal_cooperation_unions: "Informelle Kooperation mit den Gewerkschaften"
+
+WIF_building_social_coalition: "Aufbau der sozialen Koalition"
+
+WIF_decentralise_economy: "Dezentralisierte Wirtschaft"
+
+WIF_a_new_economy_confederation: "Eine neue Wirtschaft für die Konföderation"
 
 WIF_grand_social_coalition: "Die große soziale Koalition"
 WIF_grand_social_coalition_desc: "Indem wir die verschiedenen radikalen Gruppen in unserem Land davon überzeugt haben, ihre Waffen niederzulegen und mit uns zusammenzuarbeiten, um das Land zu einem prosperierenden Sozialismus zu führen, ist es uns gelungen, einen starken Block im Parlament und in der Bevölkerung zu bilden."
@@ -205,6 +227,10 @@ WIF_rebuilding_with_help: "Unterstützter Wiederaufbau"
 
 WIF_caribbean_economy_finish: "Eine karibische Wirtschaft"
 
+WIF_clamp_down_syndicalism: "Eindämmung des Syndikalismus"
+
+WIF_lax_antisyndicalist_laws: "Laxe Anti-Syndikalismus-Gesetze"
+
 WIF_cayenne_agreement_2_00: "Das Zweite Cayenne-Abkommen"
 
 WIF_mending_language_divide_idea: "Überwindung der Sprachbarriere"
@@ -215,6 +241,7 @@ WIF_revolution_internationale: "§RDie Internationale wird dem Krieg beitreten. 
 WIF_event_islands_kept: "§YWir werden einen Frieden anbieten, der uns die weitere Kontrolle über Bermuda und die Bahamas sichert.§!\n"
 WIF_nomorerevolt: "§CSpannungen können nicht mehr zu spontanen sozialistischen und imperialen Putschen führen, obwohl sie immer noch zu Missständen führen können.§!\n"
 WIF_amalgamation_tt: "Ersetzt §YSoziale Programme§! und §YAgrarreform§! durch §YEine karibische Wirtschaft§!\nEffektive Änderung:\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: §G+5.00%§!\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: §G+5.00%§!"
+WIF_a_new_economy_confederation_tt: "Ersetzt sowohl §YLegalisierte Gewerkschaften§! als auch §YDezentralisierte Wirtschaft§! durch §YEine neue Wirtschaft für die Konföderation§!\nEffektive Änderung:\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: §G+5.00%§!\n$MODIFIER_GLOBAL_BUILDING_SLOTS_FACTOR$: §G+10.00%§!"
 
 WIF_transfer_two_cruisers_six_destroyers: "Zwei §YLeichte Kreuzer§! und sechs §YZerstörer§! werden auf §C[WIF.GetNameWithFlag]§! übertragen."
 WIF_transfer_four_destroyers: "Vier §YZerstörer§! werden auf §C[WIF.GetNameWithFlag]§! übertragen."
@@ -223,8 +250,6 @@ wifpol.3100_tt: "§GDem Empire treu ergebene Offiziere werden sich auf unsere Se
 wifpol.3101_tt: "§GAlle Offiziere, die ursprünglich in Westindien eingesetzt waren, sind auf ihren früheren Posten zurückgekehrt.§!"
 
 ## Army Branch ##
-WIF_acquire_artillery_tooltip: "100 Stück des QF 18-Pounder werden in unseren Bestand aufgenommen."
-WIF_anti_air_setup_tooltip: "Verschiedene Luftabwehrsysteme werden im ganzen Land eingerichtet.\n"
 WIF_radio_setup_tooltip: "Radarstationen werden an verschiedenen Orten im ganzen Land eingerichtet.\n"
 WIF_cunningham_doctrine_tooltip: "Wir werden uns auf die Aufstellung einer Marine konzentrieren, die weit von unseren eigenen Küsten entfernt ihre Kräfte einsetzen kann."
 WIF_leatham_doctrine_tooltip: "Wir werden uns auf die Aufstellung einer Marine konzentrieren, die unser Eigentum in der Karibik angemessen schützen kann."
@@ -236,7 +261,12 @@ WIF_unity_conference_ready_flag: "Die Vorbereitung der Konferenz ist abgeschloss
 WIF_unity_prepare_conference_tooltip: "§OWir werden mit den Vorbereitungen für die Konferenz zwischen den Parteien beginnen.§!\n"
 WIF_unity_begin_conference_tooltip: "§RWir werden die Konferenz beginnen und können nur hoffen, dass die Ergebnisse positiv ausfallen.§!"
 WIF_unity_governor_general_status_tooltip: "§OWir müssen entscheiden, welchen Status der Generalgouverneur in der Zukunft der Föderation haben wird.§!"
-WIF_unity_new_agreement_tooltip: "§GEin neues Abkommen wird auf der Grundlage unserer bisherigen Politik geschlossen. Was dieses Abkommen für die Föderation bereithält, wird sich in der Zukunft zeigen.§!"
+WIF_unity_increase_autonomy_1_tooltip: "\nDadurch wird §Y$WIF_cayenne_agreement_2_00$§! modifiziert um:\n$MODIFIER_POLITICAL_POWER_FACTOR$: §R-5.00%§!\n$MODIFIER_CONSCRIPTION_FACTOR$: §G+5.00%§!\n$MODIFIER_STABILITY_FACTOR$: §R-4.00%§!\n$MODIFIER_WAR_SUPPORT_FACTOR$: §G+5.00%§!"
+WIF_unity_increase_autonomy_2_tooltip: "\nDadurch wird §Y$WIF_cayenne_agreement_2_00$§! modifiziert um:\n$MODIFIER_POLITICAL_POWER_FACTOR$: §R-10.00%§!\n$MODIFIER_CONSCRIPTION_FACTOR$: §G+10.00%§!\n$MODIFIER_STABILITY_FACTOR$: §R-8.00%§!\n$MODIFIER_WAR_SUPPORT_FACTOR$: §G+10.00%§!"
+WIF_unity_decrease_autonomy_1_tooltip: "\nDadurch wird §Y$WIF_cayenne_agreement_2_00$§! modifiziert um:\n$MODIFIER_POLITICAL_POWER_FACTOR$: §G+5.00%§!\n$MODIFIER_CONSCRIPTION_FACTOR$: §R-5.00%§!\n$MODIFIER_STABILITY_FACTOR$: §G+4.00%§!\n$MODIFIER_WAR_SUPPORT_FACTOR$: §R-5.00%§!"
+WIF_unity_decrease_autonomy_2_tooltip: "\nDadurch wird §Y$WIF_cayenne_agreement_2_00$§! modifiziert um:\n$MODIFIER_POLITICAL_POWER_FACTOR$: §G+10.00%§!\n$MODIFIER_CONSCRIPTION_FACTOR$: §R-10.00%§!\n$MODIFIER_STABILITY_FACTOR$: §G+8.00%§!\n$MODIFIER_WAR_SUPPORT_FACTOR$: §R-10.00%§!"
+WIF_unity_empower_french_tooltip: "\nDadurch wird §Y$WIF_cayenne_agreement_2_00$§! modifiziert um:\n$MODIFIER_CONSCRIPTION_FACTOR$: §G+10.00%§!\n$MODIFIER_STABILITY_FACTOR$: §R-10.00%§!\n$MODIFIER_WAR_SUPPORT_FACTOR$: §G+10.00%§!"
+WIF_unity_new_agreement_tooltip: "§GEs wird eine neue Vereinbarung auf der Grundlage unserer bisherigen Politik getroffen werden:§!"
 
 ## Variable Tooltips ##
 WIF_lower_socialist_tensions: "§RSozialistische§! Spannungen verringern sich um $RIGHT|G0$.\n"
@@ -267,20 +297,20 @@ WIF_angereffects_modifier: "£pol_idea Soziale Unruhen"
 WIF_angereffect_idea: "Soziale Unruhen\n§W--------------§!\n§gObwohl politisch geeint, ist die [ROOT.GetName] gesellschaftlich gespalten. Loyalistische und sozialistische Kräfte ringen um die Vorherrschaft im öffentlichen Leben, während die lokale Identität auf den vielen kulturell unterschiedlichen Inseln der Nation langsam wächst.\n\n[WIF_coupornotloc]§YDynamische Aktualisierungen:§!\n§W--------------\nAktuelle Spannungen mit den§! §YSozialisten§!§W:§! [WIF_socornot]\n§WAktuelle Spannungen mit dem§! §YEmpire§!§W:§! [WIF_britornot]\n\n§W$MODIFIER_STABILITY_FACTOR$:§! [?WIF.var_wif_stability|=%+]\n§W$MODIFIER_WAR_SUPPORT_FACTOR$:§! [?WIF.var_wif_war_support|=%+]\n§W$MODIFIER_POLITICAL_POWER_FACTOR$:§! [?WIF.var_wif_pol_power|=%+]"
 WIF_angereffect_idea_desc: "Anmerkungen zur Berechnung:\n-Basiseffekte werden linear berechnet. Für jeden geringfügig höheren Grad an sozialistischer bzw. imperialer Verärgerung werden fünf Stabilitätspunkte bzw. fünf Prozent politischer Machtzuwachs abgezogen.\n-Bei mittlerem oder höherem Grad an Verärgerung wird die Kriegsunterstützung auf der gleichen Skala abgezogen.\n-Unter einer sozialistischen oder imperialen Regierung werden zwar die Missstände der an der Macht befindlichen Fraktion offensichtlich negiert, aber die Missstände der anderen Fraktion werden verstärkt. Dies hat keinen Einfluss auf die Schwelle für einen Staatsstreich."
 
-WIF_socialistangerloc_very_low: "§CSehr Niedrig§!"
-WIF_socialistangerloc_low: "§GNiedrig§!"
-WIF_socialistangerloc_medium: "§YMittel§!"
-WIF_socialistangerloc_high: "§OHoch§!"
-WIF_socialistangerloc_very_high: "§RSehr Hoch§!"
+WIF_socialistangerloc_very_low: "§CSehr Niedrig ([?WIF_socialist_anger])§!"
+WIF_socialistangerloc_low: "§GNiedrig ([?WIF_socialist_anger])§!"
+WIF_socialistangerloc_medium: "§YMittel ([?WIF_socialist_anger])§!"
+WIF_socialistangerloc_high: "§OHoch ([?WIF_socialist_anger])§!"
+WIF_socialistangerloc_very_high: "§RSehr Hoch ([?WIF_socialist_anger])§!"
 
-WIF_britishangerloc_very_low: "§CSehr Niedrig§!"
-WIF_britishangerloc_low: "§GNiedrig§!"
-WIF_britishangerloc_medium: "§YMittel§!"
-WIF_britishangerloc_high: "§OHoch§!"
-WIF_britishangerloc_very_high: "§RSehr Hoch§!"
+WIF_britishangerloc_very_low: "§CSehr Niedrig ([?WIF_british_anger])§!"
+WIF_britishangerloc_low: "§GNiedrig ([?WIF_british_anger])§!"
+WIF_britishangerloc_medium: "§YMittel ([?WIF_british_anger])§!"
+WIF_britishangerloc_high: "§OHoch ([?WIF_british_anger])§!"
+WIF_britishangerloc_very_high: "§RSehr Hoch ([?WIF_british_anger])§!"
 
 WIF_coupornotloc_yes: "Wenn die Spannungen mit irgendeiner Gruppe das§! §gNiveau§! §RSehr Hoch§! erreichen, kann ein §RCoup§! gestartet werden.§!\n\n"
-WIF_coupornotloc_no: ""
+WIF_coupornotloc_no: "§!"
 
 WIF_socornot_yes: "§WN/A§!"
 WIF_socornot_no: "[WIF_socialistangerloc]"
@@ -319,19 +349,19 @@ WIF_bahamas_airport: "Bahamas Luftstraße"
 WIF_bahamas_airport_desc: "Die Bahamas sind wahrscheinlich die dezentralste aller unserer Kolonien und bestehen aus insgesamt über 700 Inseln. Obwohl sie für die Verteidigung der Föderation nicht von wesentlicher Bedeutung sind, sind sie gerade für den Tourismusgewinn aus Amerika nützlich und dürfen nicht verloren gehen."
 
 WIF_bermuda_airport: "Bermuda Luftstraße"
-WIF_bermuda_airport_desc: "Bermuda ist einer der vergessenen Orte der Föderation. Mit einer Größe von nur 50 km wird es als unbedeutend angesehen, obwohl es das genaue Gegenteil ist. Hauptsächlich als Verbindung zum nördlichen Teil der Welt und insbesondere zu Kanada genutzt, ist es innerhalb der Föderation sehr nützlich und im Vergleich zu vielen anderen Orten in der Föderation schwer zu erreichen."
+WIF_bermuda_airport_desc: "Bermuda ist nur 50 Quadratkilometer groß und wird oft übersehen. Dank ihrer zentralen Lage im Atlantischen Ozean haben sie jedoch einen hohen strategischen Wert. Das sollten wir uns zunutze machen, indem wir die Flugplätze auf der Insel ausbauen."
 
 WIF_integration_process_NCP_guiana_category: "Reaktion auf den Zwischenfall in Guyana"
 WIF_integration_process_NCP_guiana_category_desc: "Die Ereignisse in Guyana waren ein grausamer Akt der Barbarei. Unschuldige Menschen verloren ihr Leben, getötet von den syndikalistischen Bestien. Wir müssen diese Spirale des Hasses stoppen. Der Integrationsprozess muss beginnen."
 
 WIF_integration_process_NCP_send_police: "Entsendung von Spezialeinheiten"
-WIF_integration_process_NCP_send_police_desc: "Wir müssen die Spezialeinheiten, denen wir vertrauen, entsenden, um die Rebellion in Ost-Guayana zu stoppen. Einige Leute werden verhaftet werden. Erst dann werden wir in der Lage sein, ausreichende Maßnahmen zu ergreifen."
+WIF_integration_process_NCP_send_police_desc: "Wir müssen Spezialkräfte entsenden, um die Rebellion in Ost-Guayana zu stoppen und die Anstifter zu verhaften. Das ist bedauerlich, aber nur so können wir eine Ausweitung der Gewalt verhindern."
 
 WIF_integration_process_NCP_aluminium: "Übernahme von Bauxitminen"
 WIF_integration_process_NCP_aluminium_desc: "Wir müssen die Kontrolle über die Bauxitminen übernehmen und sie zu ihrer vollen Blüte bringen. Die vollständige Verstaatlichung wird es uns ermöglichen, die Förderung leicht zu erhöhen."
 
 WIF_integration_process_NCP_unity_propaganda: "Propagandakampagne"
-WIF_integration_process_NCP_unity_propaganda_desc: "Wir müssen aus den verhafteten Kriminellen in den Augen aller Einwohner der Föderation Bestien machen. So können wir Unterstützung für unsere Aktionen gewinnen."
+WIF_integration_process_NCP_unity_propaganda_desc: "Indem wir die Menschen, die wir verhaften, verleumden und als Monster darstellen, können wir die öffentliche Meinung auf unsere Seite ziehen."
 
 WIF_integration_process_NCP_federal_institute: "Bundesinstitut gründen"
 WIF_integration_process_NCP_federal_institute_desc: "Das Bundesinstitut für Westindien wird ein beratendes Organ sein, dessen Aufgabe es sein wird, den Integrationsprozess zu organisieren."
@@ -399,24 +429,24 @@ palpcoaltion2_4: "Wir §Yhaben keine Mehrheit§!. Wir können allein arbeiten od
 palpcoaltion3_1: "§YDie Regierung ist noch nicht gebildet worden.§!"
 palpcoaltion3_2: "§YDie Regierung wurde gebildet.§!"
 
-WIF_pa_lp_politics1: "Stabilisierung der Koalition mit LP"
-WIF_pa_lp_politics1_desc: "Wir können versuchen, unseren Einfluss zu nutzen, um unsere Koalition mit LP zu stabilisieren. Aber bedenkt, dass diese Aktion jedes Mal teurer wird, wenn wir sie einsetzen. Aber eine stabile oder funktionierende Koalition mit LP sollte für uns Priorität haben."
-WIF_pa_lp_politics2: "Bericht über den Parteienstatus"
-WIF_pa_lp_politics2_desc: "Unsere Partei kann anhand der Stabilität unserer Koalition mit der LP bewertet werden. Die Instabilität hat einige unangenehme Folgen. Aber eine gut funktionierende Partei kann die Qualität des politischen Lebens in Westindien erheblich verbessern."
-WIF_pa_lp_politics3: "Bildet eine Koalition mit einer anderen Partei"
-WIF_pa_lp_politics3_desc: "Wir können Gespräche mit anderen Fraktionen aufnehmen. Wem wir eine Zusammenarbeit anbieten können, hängt davon ab, welche Ziele wir gewählt haben und mit wem wir während der 2."
-WIF_pa_lp_politics4: "Fallende Koalitionssanktionen"
-WIF_pa_lp_politics4_desc: "Jedes Mal, wenn der Countdown abgelaufen ist, kann es zu schlechten Ereignissen kommen oder zu einem, das Ihnen hilft, die Stabilität der PA-LP-Koalition zu verbessern."
-WIF_pa_lp_politics5: "Bildung einer Mehrheitsregierung"
-WIF_pa_lp_politics5_desc: "Endlich. Die Westindischen Inseln haben es gebraucht."
-WIF_pa_lp_politics6: "Sanktionen der Minderheitsregierung"
-WIF_pa_lp_politics6_desc: "Die PA hat keine Mehrheit im Parlament. Daher können wir keine neuen Gesetze verabschieden. Um das zu ändern, müssen wir eine andere Partei finden, die bereit ist, mit uns zusammenzuarbeiten. Mit jeder Woche, die wir warten, verliert unsere Föderation eine Chance, sich zu entwickeln."
+WIF_stabilise_coalition_with_LP: "Stabilisierung der Koalition mit LP"
+WIF_stabilise_coalition_with_LP_desc: "Wir können versuchen, unseren Einfluss zu nutzen, um unsere Koalition mit LP zu stabilisieren. Aber bedenkt, dass diese Aktion jedes Mal teurer wird, wenn wir sie einsetzen. Aber eine stabile oder funktionierende Koalition mit LP sollte für uns Priorität haben."
+WIF_report_on_the_party_status: "Bericht über den Parteienstatus"
+WIF_report_on_the_party_status_desc: "Unsere Partei kann anhand der Stabilität unserer Koalition mit der LP bewertet werden. Die Instabilität hat einige unangenehme Folgen. Aber eine gut funktionierende Partei kann die Qualität des politischen Lebens in Westindien erheblich verbessern."
+WIF_form_a_coalition: "Bildet eine Koalition mit einer anderen Partei"
+WIF_form_a_coalition_desc: "Wir können Gespräche mit anderen Fraktionen aufnehmen. Wem wir eine Zusammenarbeit anbieten können, hängt davon ab, welche Ziele wir gewählt haben und mit wem wir während der 2."
+WIF_falling_coalition_penalties: "Fallende Koalitionssanktionen"
+WIF_falling_coalition_penalties_desc: "Jedes Mal, wenn der Countdown abgelaufen ist, kann es zu schlechten Ereignissen kommen oder zu einem, das Ihnen hilft, die Stabilität der PA-LP-Koalition zu verbessern."
+WIF_form_majority_government: "Bildung einer Mehrheitsregierung"
+WIF_form_majority_government_desc: "Endlich. Die Westindischen Inseln haben es gebraucht."
+WIF_minority_government_penalties: "Sanktionen der Minderheitsregierung"
+WIF_minority_government_penalties_desc: "Die PA hat keine Mehrheit im Parlament. Daher können wir keine neuen Gesetze verabschieden. Um das zu ändern, müssen wir eine andere Partei finden, die bereit ist, mit uns zusammenzuarbeiten. Mit jeder Woche, die wir warten, verliert unsere Föderation eine Chance, sich zu entwickeln."
 
-WIF_2nd_cayenne_meeting1: "Treffen organisieren"
-WIF_2nd_cayenne_meeting2: "Abstimmung"
-WIF_2nd_cayenne_meeting3: "Stimmen von der NCP gewinnen"
-WIF_2nd_cayenne_meeting4: "Stimmen von der Unity gewinnen"
-WIF_2nd_cayenne_meeting5: "Stimmen von den Sozialdemokraten gewinnen"
+WIF_2nd_cayenne_organise_meeting: "Treffen organisieren"
+WIF_2nd_cayenne_voting: "Abstimmung"
+WIF_2nd_cayenne_gain_votes_NCP: "Stimmen von der NCP gewinnen"
+WIF_2nd_cayenne_gain_votes_unity: "Stimmen von der Unity gewinnen"
+WIF_2nd_cayenne_gain_votes_social_democrat: "Stimmen von den Sozialdemokraten gewinnen"
 
 WIF_permanent_junta_1: "Permanente Herrschaft des Generalgouverneurs"
 WIF_permanent_junta_1_desc: "Mit Blick auf die Geschichte der Wahlen in der Föderation hat Sir Fiennes dazu aufgerufen, weiter zu regieren, ohne zur Demokratie zurückzukehren, damit sie das Land nicht erneut zu zerstören droht."
@@ -443,7 +473,7 @@ WIF_KR_gathering_storm_desc: "Die Westindische Föderation wurde als Ergebnis de
 WIF_country_intro_header: "Einführung in die Westindische Föderation"
 WIF_country_intro_content: "Die Westindische Föderation hat seit ihrer Gründung eine bewegte Geschichte hinter sich. Aus der anfänglichen Spaltung zwischen Engländern, die sich die französischen Kolonien einverleiben wollten, und solchen, die dies nicht wollten, entwickelte sich eine vollständige Spaltung zwischen der französischen und der britischen Kultur. Der Sieg der NCP (National Consolidation Party) bei den Wahlen von 1925 führte zur Eingliederung der französischen Kolonien, die jedoch aufgrund ihrer tiefen sozialistischen Wurzeln sofort im Chaos versanken. Dies endete mit dem Sieg der UP ("Unity Party") und der Unterzeichnung des Abkommens von Cayenne im Jahr 1931. Damit wurde den Franzosen die Möglichkeit gegeben, ihre eigenen Parteien zu gründen, und sie erhielten eine größere Autonomie als die britischen Kolonien. Die gemäßigte Rechte forderte, das gesamte Abkommen aufzuheben und durch ein neues zu ersetzen, während die Linke die Autonomie entweder für die Franzosen oder für alle Gebiete der Föderation weiter ausbauen wollte. 1933 wurde eine neue Partei gegründet, die PA (Parti pour l'Autonomie), ein Zusammenschluss französischer Sozialisten und Liberaler sowie einiger linker britischer Politiker, um die Linke zu vertreten. Teilweise als Reaktion darauf hat die NCP stetig an Macht und Popularität gewonnen, da ein großer Teil der britischen Bevölkerung das Gefühl hat, im Abkommen von Cayenne schlecht behandelt worden zu sein. Nachdem sie bei den Wahlen von 1933 nur knapp gescheitert war, befindet sich die Unity Party in einer gefährlichen Lage."
 
-WIF_guide: "§MPA-PNP Sieg§! (§SSozialdemokraten§!)\n£white_dot Vollenden Sie nicht mehr als einen Reformschwerpunkt der Moyne-Kommission, bevor die Moyne-Kommission ihren Bericht vorlegt, und die PA-PNP kann bei der Bundeswahl gewählt werden.\n\n§MPA-LP Sieg§! (§lSozialliberale§!)\n£white_dot Schließen Sie zwei oder mehr Reformschwerpunkte der Moyne-Kommission ab, bevor die Moyne-Kommission ihren Bericht vorlegt, und die PA-LP kann bei der Bundeswahl gewählt werden.\n\n§MUnity Sieg§! (§mMarktliberale§!)\n£white_dot Schließen Sie mindestens einen Reformschwerpunkt der Moyne-Kommission ab, bevor die Moyne-Kommission ihren Bericht vorlegt und die Unity Party bei den Bundeswahlen gewählt werden kann.\n\n§MNCP Sieg§! (§cSozialkonservative§!)\n£white_dot Wählen Sie einfach die NCP als Sieger der Bundeswahl. Sie wird immer verfügbar sein, unabhängig davon, wie viele Schwerpunkte die Moyne-Kommission gesetzt hat oder nicht.\n\n§MDer Vorstoß des Gouverneurs§! (§gAutoritär Demokratisch§!)\n£white_dot Wenn Sie im Frieden sind und die Spannungen mit dem Imperium auf 80 oder mehr stehen, wird der Coup zufällig ausgelöst. \n\n§MRevolution§! - §MLabour Party§! / §MPeople’s Party§! / §MButler Party§!  (§SSozialdemokraten§! / §RRadikale Sozialisten§! / §rSyndikalisten§!)\n£white_dot Wenn die sozialistischen Spannungen bei 80 oder mehr liegen, wird die Revolution zufällig ausgelöst.\n£white_dot Nachdem Sie den Schwerpunkt \"Sozialistische Demokratie\" gewählt haben, können Sie entweder die Labour Party, die Peoples' Party oder die Butler Party wählen.\nAnmerkung: Wenn die Spannungen mit dem Imperium oder den Sozialisten über 89 liegen, wird der Staatsstreich bzw. die Revolution beschleunigt, und wenn sie bei 98 liegen, wird das Ereignis noch schneller eintreten."
+WIF_guide: "§MPA-PNP Sieg§! (§SSozialdemokraten§!)\n£white_dot Vollenden Sie nicht mehr als einen Reformschwerpunkt der Moyne-Kommission, bevor die Moyne-Kommission ihren Bericht vorlegt, und die §SPA-PNP§! kann bei der Bundeswahl gewählt werden.\n\n§MPA-LP Sieg§! (§lSozialliberale§!)\n£white_dot Schließen Sie zwei oder mehr Reformschwerpunkte der Moyne-Kommission ab, bevor die Moyne-Kommission ihren Bericht vorlegt, und die §lPA-LP§! kann bei der Bundeswahl gewählt werden.\n\n§MUnity Sieg§! (§mMarktliberale§!)\n£white_dot Schließen Sie mindestens einen Reformschwerpunkt der Moyne-Kommission ab, bevor die Moyne-Kommission ihren Bericht vorlegt und die §mUnity Party§! bei den Bundeswahlen gewählt werden kann.\n\n§MNCP Sieg§! (§cSozialkonservative§!)\n£white_dot Wählen Sie einfach die §cNCP§! als Sieger der Bundeswahl. Sie wird immer verfügbar sein, unabhängig davon, wie viele Schwerpunkte die Moyne-Kommission gesetzt hat oder nicht.\n\n§MDer Vorstoß des Gouverneurs§! (§gAutoritär Demokratisch§!)\n£white_dot Wenn Sie im Frieden sind und die Spannungen mit dem Imperium auf 80 oder mehr stehen, wird der Coup zufällig ausgelöst.\n£white_dot Wenn Sie den Schwerpunkt \"§YWiederherstellung der Demokratie§!\" abschließen, können Sie unter denselben Bedingungen eine der oben genannten Parteien wählen.\n\n§MRevolution§! - §MLabour Party§! / §MPeople’s Party§! / §MButler Party§!  (§SSozialdemokraten§! / §RRadikale Sozialisten§! / §rSyndikalisten§!)\n£white_dot Wenn die sozialistischen Spannungen bei 80 oder mehr liegen, wird die Revolution zufällig ausgelöst.\n£white_dot Nachdem Sie den Schwerpunkt \"§YSozialistische Demokratie§!\" gewählt haben, können Sie entweder die §RLabour Party§!, die §RPeoples' Party§! oder die §rButler Party§! wählen.\n\n§CAnmerkung: Wenn die Spannungen mit dem Imperium oder den Sozialisten über 89 liegen, wird der Staatsstreich bzw. die Revolution beschleunigt, und wenn sie bei 98 liegen, wird das Ereignis noch schneller eintreten.§!"
 
 ### Events ###
 wifpol.2.t: "Arbeiterstreiks in Guadeloupe"
@@ -651,20 +681,6 @@ wifpol.102.d: "Die Gesetze, die die Plantagen betreffen, sind alt, einige stamme
 wifpol.102.a: "Verabschiedung von Gesetzen, die höhere Lebensstandards festschreiben."
 wifpol.102.b: "Stellt sichern, dass sie weiterarbeiten. Plantagenarbeiter brauchen keine zusätzlichen Privilegien."
 
-wifarmy.1.t: "Westindien bittet um Waffenlieferungen"
-wifarmy.1.d: "Die Regierung der Westindischen Inseln hat 1000 Gewehre aus dem Großen Krieg angefordert, um ihre Armee aufzustocken. Derzeit haben die Westindischen Inseln aufgrund der begrenzten Ausbildung ihrer Armee und der mangelnden Waffenproduktion Schwierigkeiten, eine beachtliche Truppe aufzustellen, daher wäre unsere Hilfe in dieser Angelegenheit sehr willkommen."
-wifarmy.1.a: "Natürlich werden wir helfen"
-wifarmy.1.b: "Wir brauchen sie für die Heimkehr"
-
-wifarmy.2.t: "Die Lieferung kommt an"
-wifarmy.2.d: "Die Lieferung von [WIF_event_army_4] ist heute wie erwartet eingetroffen, mit 1000 Gewehren. Diese mögen zwar alt und veraltet sein, aber sie bilden das Fundament, auf dem unsere Armee aufbaut."
-wifarmy.2.a: "Großartig"
-
-wifarmy.3.t: "Keine Lieferung kommt an"
-wifarmy.3.entente: "[WIF_event_army_4] hat keine Lieferung in unser Land geschickt, so dass wir uns auf unsere bereits geringe Militärproduktion verlassen müssen, um unsere Armee aufrechtzuerhalten. Dies hat indirekt auch zu einer Zunahme sozialistischer Bewegungen in den Kolonien geführt, da dieser Schritt als mangelnder kanadischer Schutz für unsere junge Nation angesehen wird. Hoffen wir, dass Kanada beim nächsten Mal nicht enttäuscht."
-wifarmy.3.syndie: "[WIF_event_army_4] hat keine Lieferung an unser Land geschickt, so dass wir auf unsere ohnehin geringe Militärproduktion angewiesen sind, um unsere Armee aufrechtzuerhalten. Es scheint, dass wir unsere Bemühungen auf den internen Schutz konzentrieren müssen, anstatt uns auf andere zu verlassen."
-wifarmy.3.a: "So viel zu einem Neuanfang..."
-
 wifarmy.4.t: "Die Lage der Doktrin"
 wifarmy.4.d: "Die Armee der Westindischen Inseln war aufgrund ihrer Unerfahrenheit und der ständigen Versetzung britischer Generäle in den 20er Jahren lange Zeit ohne Doktrin. Mit einem konsolidierten und kohärenteren Generalstab könnten die Dinge jedoch endlich in Bewegung kommen. Der Generalstab wird jedoch unsere im Vergleich zu anderen Entente-Ländern begrenzte Bevölkerung im Auge behalten müssen.\n\nEs gibt zwei Vorschläge, einen vom neuen Gouverneur Reginald Hildyard und den anderen vom langjährigen Bede Clifford. Reginald schlägt vor, den Mangel an Arbeitskräften durch den Einsatz schwerer Waffen auszugleichen, um unsere Feinde zu überwältigen, bevor wir viele Verluste erleiden. Bede hält dem entgegen, dass ein erfahrener Generalstab allen helfen wird, in Zeiten der Gefahr die richtigen Entscheidungen zu treffen und sowohl Vorräte als auch Arbeitskräfte zu sparen. Es kann wirklich nur ein Vorschlag ausgewählt werden, und es liegt an uns, einen zu wählen."
 wifarmy.4.a: "Reginald hat die Erfahrung, die wir brauchen!"
@@ -676,19 +692,6 @@ WIF_entente_event_army_4: "Kanada"
 wifarmy.5.t: "Der Rücktritt von Thomas Cubbit"
 wifarmy.5.d: "Obwohl einige mit diesem Schritt gerechnet hatten, überraschte Thomas Cubbit viele mit seinem Rücktritt als Gouverneur von Bermuda heute um 9:00 Uhr morgens. Er hat sich sowohl mit der westindischen als auch mit der kanadischen Regierung getroffen und sich offiziell aus der Politik und auch aus der Armee zurückgezogen, um sich in den letzten Jahren seines Lebens zur Ruhe zu setzen, wie er sagt. Seine Position wurde von einem anderen bekannten General aus dem Weltkrieg, Reginald Hildyard, übernommen. Reginald hat versprochen, das fortzusetzen, was Cubbit auf den Bermudas begonnen hat, indem er die Entwicklung dort unterstützt und der Westindischen Föderation hilft, ihre Armee zu verbessern."
 wifarmy.5.a: "Ein trauriger, aber notwendiger Tag"
-
-wifarmy.6.t: "Westindien bittet um veraltete Flugzeuge"
-wifarmy.6.d: "Die Regierung der Westindischen Inseln hat 25 Flugzeuge aus dem Weltkrieg erbeten, um den Aufbau einer Luftstreitkraft zu ermöglichen. Die Produktion von Flugzeugen war bisher nie ihre Priorität, aber sie hoffen, dass unsere Hilfe das ändern kann."
-wifarmy.6.a: "Was sollen wir mit diesen verstaubten Flugzeugen sonst überhaupt machen?"
-wifarmy.6.b: "Entschuldigung, aber wir haben höhere Prioritäten"
-
-wifarmy.7.t: "Frankreich schickt die Flugzeuge"
-wifarmy.7.d: "Die Lieferung von Frankreich ist heute wie erwartet mit 25 Jägern aus dem Weltkrieg eingetroffen. Diese mögen zwar alt und veraltet sein, aber sie werden dazu beitragen, unsere kleine Luftstreitkraft in Gang zu bringen, die uns bei der Sicherung unserer Gewässer helfen soll."
-wifarmy.7.a: "Die Indies sind in der Luft!"
-
-wifarmy.8.t: "Keine Flugzeuge"
-wifarmy.8.d: "Frankreich hat keine Lieferung an unser Land geschickt, so dass wir uns auf unsere ohnehin geringe Militärproduktion verlassen müssen, um eine Luftstreitkraft aus dem Nichts aufzubauen. Es scheint, dass wir unsere Bemühungen auf den internen Schutz konzentrieren müssen, anstatt uns auf andere zu verlassen."
-wifarmy.8.a: "Unsere hausgemachte Luftstreitkraft wird der Stolz des Landes sein!"
 
 wifarmy.9.t: "Die Lage der Marine"
 wifarmy.9.d: "So sehr sich Cunningham und Leatham auch verstehen und in einigen Aspekten der Marinekontrolle übereinstimmen, gibt es doch einen grundlegenden Unterschied zwischen ihnen. Leatham ist seit langem ein Befürworter einer Marinereform innerhalb des britischen Empire und möchte seine Pläne einer kleineren, aber besser kontrollierten Marine verwirklichen, die auf die Verteidigung der Karibik ausgerichtet ist. Cunningham vertritt genau das Gegenteil, er ist der Meinung, dass die Rückeroberung des Festlandes die Aufgabe der Westindischen Inseln als Teil des Empire ist und dass die Marine dabei eine entscheidende Rolle spielen sollte. Wir stehen vor der Wahl, auf wessen Seite wir stehen wollen. Viele sind der Meinung, dass sie sich auf die Seite von Cunningham als Oberbefehlshaber der westindischen Station stellen sollten, aber einige sind begeistert von der Aussicht auf Leathams Plan..."
@@ -804,13 +807,13 @@ wifpol.508.a: "Der Richter von den Bahamas"
 wifpol.508.b: "Der Richter aus Montreal"
 
 wifpol.509.t: "Waren sie nicht zu hart?"
-wifpol.509.d: "Der Richter begann seine Rechtfertigung mit den dramatischen Ereignissen, die sich in Guyana zugetragen haben. Er erinnerte an die Aussage der unglücklichen Frau des getöteten Wachmanns. Die Menge im Saal forderte den Tod der Verbrecher. Welches Urteil wird jedoch gerecht sein? Wir müssen die laufende Integration der französischen Bevölkerung beachten."
+wifpol.509.d: "Nach einer langen Verhandlung mit vielen Zeugenaussagen, unter anderem von der Frau des verstorbenen Wachmanns, lehnte sich der Richter in seinem Stuhl zurück. Es war an der Zeit, das Urteil zu verkünden. Die Menge forderte lautstark die Todesstrafe, verstummte aber, als der Richter aufstand. Der Richter holte tief Luft und traf seine Entscheidung. Die Strafe würde sein..."
 wifpol.509.a: "Todesstrafe"
 wifpol.509.b: "Öffentliche Hinrichtung"
-wifpol.509.c: "Lebenslange Freiheitsstrafe"
+wifpol.509.c: "Lebenslange Haft"
 
 wifpol.510.t: "Waren sie nicht zu sanft?"
-wifpol.510.d: "Der Richter begann seine Urteilsbegründung mit dem Hinweis auf die christliche Achtung vor dem Leben. Auf der Grundlage des wunderbaren Gewohnheitsrechts beschloss er, ein Urteil zu fällen, das das Leben und die Gerechtigkeit achtet. Sollte die Vielfalt der begangenen Straftaten berücksichtigt werden, oder behandeln wir sie als eine homogene Gruppe?"
+wifpol.510.d: "Der Richter begann seine Urteilsbegründung mit dem Hinweis auf die christliche Achtung vor dem Leben. Auf der Grundlage des wunderbaren Gewohnheitsrechts beschloss er, ein Urteil zu fällen, das das Leben und die Gerechtigkeit achtet. Sollten die Straftaten unterschiedlich oder als Gruppe verurteilt werden?"
 wifpol.510.a: "Unterschiedliche Strafen (von lebenslänglich bis zu 10 Jahren)"
 wifpol.510.b: "Bewährung"
 
@@ -1219,12 +1222,12 @@ WIF_ties_unity_desc: "Ein natürlicher Verbündeter bei der Umsetzung liberaler 
 WIF_hear_people: "Hört die Menschen"
 WIF_hear_people_desc: "Hörst du das Volk sprechen? Es ist die Rede eines Volkes, das nicht wieder Sklave sein will. Es hat sich gezeigt, dass eine Konsolidierung oder andere Formen der Freiheitsbeschränkung nicht wirksam sind. Die NCP hat ihre Position verloren, jetzt könnte sie versuchen, eine Koalition mit der PA zu bilden. Das wäre undenkbar."
 WIF_autonomy_status: "Status der Autonomie"
-WIF_conscription_issue: "Die Frage der Wehrpflicht"
-WIF_ideas_republic: "Ideen einer Republik"
-WIF_present_ideas: "Liberale und gleichberechtigte Gesellschaft"
 WIF_autonomy_status_desc: "Donald Sangster ist ein junger Reformer mit einem Kopf voller frischer Ideen über Dezentralisierung und wie ein Land wirtschaftlich von der Selbstverwaltung seiner Bürger profitieren kann. Wir müssen entscheiden, ob wir diesem jungen Wirtschaftsminister vertrauen wollen."
+WIF_conscription_issue: "Die Frage der Wehrpflicht"
 WIF_conscription_issue_desc: "Während der Wahlen wurde die Frage der Einberufung zur Armee kaum diskutiert. Um jedoch im Einklang mit dem Mainstream unserer Partei zu bleiben, ist es notwendig, das Thema der unfreiwilligen Einberufung zur Armee anzusprechen."
+WIF_ideas_republic: "Ideen einer Republik"
 WIF_ideas_republic_desc: "Das Ideal des politischen Lebens ist die Republik, verstanden als politische Gemeinschaft. Die Westindische Föderation als Untertan Kanadas hat einen Monarchen über sich. Der König ist der Garant der Demokratie, aber kein Monarch, der nicht vom Volk gewählt wurde, sollte das Oberhaupt unseres Landes sein. Es ist an der Zeit, eine Entschließung zu diesem Thema zu verabschieden, in der der König zum 'Schirmherrn der Demokratie in Westindien' erklärt wird."
+WIF_present_ideas: "Liberale und gleichberechtigte Gesellschaft"
 WIF_present_ideas_desc: "Mit der Umsetzung unserer Politik können wir endlich feststellen, dass unsere Regierung, die zwar liberal eingestellt ist und die Idee des freien Marktes vertritt, ihre Bürger nicht ihrem Schicksal überlässt, sondern sich um ein Gleichgewicht zwischen sozioökonomischen Freiheiten und Sozialmaßnahmen bemüht."
 
 WIF_forging_new_agreement_effect: "§C2. Cayenne-Abkommen§! wird über Entscheidungen verfügbar sein."
@@ -1293,8 +1296,8 @@ WIF_integration_process_eff: "§CIntegrations§! Entscheidungen werden nach eini
 WIF_integration_process_eff2: "§CMehr Integrations§! Entscheidungen werden ermöglicht.\n§REin erfolgreicher Abschluss wird leichter zu erreichen sein.§!"
 WIF_integration_process_eff3: "§CMehr Integrations§! Entscheidungen werden ermöglicht.\n§REin erfolgreicher Abschluss wird leichter zu erreichen sein.§!"
 
-WIF_integration_harsh_trail: "§RHarte Prozesse werden den Integrationsfortschritt zunichte machen.§G Auf der anderen Seite sind die Menschen in Westindien sehr dafür.§!"
-WIF_integration_gentle_trail: "§GSanfte Prozesse werden den Integrationsfortschritt vorantreiben.§R Auf der anderen Seite sind die Menschen in Westindien stark dagegen.§!"
+WIF_integration_harsh_trail: "§RHarte Prozesse werden den Integrationsfortschritt zunichte machen.§!§G Auf der anderen Seite sind die Menschen in Westindien sehr dafür.§!"
+WIF_integration_gentle_trail: "§GSanfte Prozesse werden den Integrationsfortschritt vorantreiben.§!§R Auf der anderen Seite sind die Menschen in Westindien stark dagegen.§!"
 
 ## Governor/Syndie Branch ##
 WIF_governor_push: "Vorstoß des Gouverneurs"
@@ -1600,17 +1603,17 @@ TRI_ADJ: "Trinidad und Tobago"
 TRI_DEF: "Trinidad und Tobago"
 
 ### Characters ###
-WIF_cyril_lionel_robert_james: "Cyril Lionel Robert James"
+WIF_joseph_gothon_lunion: "Joseph Gothon-Lunion"
 
 WIF_tubal_uriah_butler: "Tubal Uriah Butler"
-WIF_tubal_uriah_butler_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 21. Januar 1897, in St. George's, Grenada, Britische Inseln über dem Winde\n§YPolitikkarriere:§! Tubal Uriah 'Buzz' Butler ist ein grenadischer, geistlicher Baptistenlehrer in Trinidad und Tobago. Der in Grenada geborene Butler fand nach seinem Grundschulabschluss an der Anglikanischen Schule keine Arbeit und entschied sich mit 17 Jahren, dem British West Indies Regiment beizutreten, das für das Vereinigte Königreich im Weltkrieg kämpfte und in Ägypten stationiert war. Nach seiner Rückkehr im Jahr 1918 wurde er politisch aktiv und war maßgeblich an der Gründung der Grenada Representative Government Movement und der Grenada Union of Returned Soldiers beteiligt. 1921 zog er nach Trinidad, wo er mit dem politischen Denken von Marcus Garvey in Berührung kam. Er wurde 1935 bekannt, als er einen Hungermarsch in Port of Spain anführte, und wurde zu einer unglaublich einflussreichen Figur im westindischen Sozialismus. Heute steht er an der Spitze der British Citizens' and Workers Home Rule Party und hofft, die Position der Gewerkschaften zu stärken."
-WIF_tubal_uriah_butler_commander_desc: "§YGeneral Beschreibung§!\nGeboren:§! §g21. Januar 1897, in St. George's, Grenada, Britische Inseln über dem Winde§!\n§YMilitärkarriere:§! §gButler setzt sich nicht nur für seinen enthusiastischen politischen Aktivismus in der Karibik ein, sondern hat auch de facto das Kommando über die militanteren Aktionen der sozialistischen Bewegung. Seine Erfahrungen als Veteran des Weltkriegs, der mit dem Westindischen Regiment in Ägypten diente, sowie seine vielen Schlägereien und Scharmützel mit den Kolonialbehörden in Trinidad und Grenada haben ihn abgehärtet und ihm die Grundlagen von Strategie, Taktik und Kriegsführung beigebracht. Obwohl Butler eher an den Garnisonsdienst in Ägypten und das Aufstellen von Milizen in den Ölfeldern von Trinidad gewöhnt ist, gelingt es ihm langsam aber sicher, seine militärische Gerissenheit so anzupassen, dass er einen Guerillakrieg größeren Ausmaßes gegen die britischen und französischen Oberherren führen kann.§!\n\n§YAnmerkungen: Er hat nicht viel Ahnung von militärischer Strategie, verfügt aber über das Charisma und die Willenskraft, seine Soldaten zu befehligen\n-Durch seine Zeit im Weltkrieg und im Kampf gegen die Kolonialtruppen in Trinidad ist er kampferprobt und daher mehr als bereit, an der Seite seiner Männer in die Schlacht zu ziehen"
+WIF_tubal_uriah_butler_leader_desc: "§YGeboren:§! §L21. Januar 1897, in St. George's, Grenada, Britische Inseln über dem Winde§!\n§YHintergrund:§! §LTubal Uriah 'Buzz' Butler ist ein grenadischer, geistlicher Baptistenlehrer in Trinidad und Tobago. Der in Grenada geborene Butler fand nach seinem Grundschulabschluss an der Anglikanischen Schule keine Arbeit und entschied sich mit 17 Jahren, dem British West Indies Regiment beizutreten, das für das Vereinigte Königreich im Weltkrieg kämpfte und in Ägypten stationiert war. Nach seiner Rückkehr im Jahr 1918 wurde er politisch aktiv und war maßgeblich an der Gründung der Grenada Representative Government Movement und der Grenada Union of Returned Soldiers beteiligt. 1921 zog er nach Trinidad, wo er mit dem politischen Denken von Marcus Garvey in Berührung kam. Er wurde 1935 bekannt, als er einen Hungermarsch in Port of Spain anführte, und wurde zu einer unglaublich einflussreichen Figur im westindischen Sozialismus. Heute steht er an der Spitze der British Citizens' and Workers Home Rule Party und hofft, die Position der Gewerkschaften zu stärken.§!"
+WIF_tubal_uriah_butler_army_chief_desc: "§YGeboren:§! §L21. Januar 1897, in St. George's, Grenada, Britische Inseln über dem Winde§!\n§YHintergrund:§! §LButler setzt sich nicht nur für seinen enthusiastischen politischen Aktivismus in der Karibik ein, sondern hat auch de facto das Kommando über die militanteren Aktionen der sozialistischen Bewegung. Seine Erfahrungen als Veteran des Weltkriegs, der mit dem Westindischen Regiment in Ägypten diente, sowie seine vielen Schlägereien und Scharmützel mit den Kolonialbehörden in Trinidad und Grenada haben ihn abgehärtet und ihm die Grundlagen von Strategie, Taktik und Kriegsführung beigebracht. Obwohl Butler eher an den Garnisonsdienst in Ägypten und das Aufstellen von Milizen in den Ölfeldern von Trinidad gewöhnt ist, gelingt es ihm langsam aber sicher, seine militärische Gerissenheit so anzupassen, dass er einen Guerillakrieg größeren Ausmaßes gegen die britischen und französischen Oberherren führen kann.§!\n\n§YAnmerkungen: Er hat nicht viel Ahnung von militärischer Strategie, verfügt aber über das Charisma und die Willenskraft, seine Soldaten zu befehligen\n-Durch seine Zeit im Weltkrieg und im Kampf gegen die Kolonialtruppen in Trinidad ist er kampferprobt und daher mehr als bereit, an der Seite seiner Männer in die Schlacht zu ziehen.§!"
 
 WIF_aime_cesaire: "Aimé Césaire"
-WIF_aime_cesaire_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 26. Juni 1913, in Basse-Pointe, Martinique, Französische Republik\n§YPolitikkarriere:§! Von klein auf wurde Aimé von seinem Großvater Fernand Césaire inspiriert, der der erste schwarze Lehrer in der französischen Kolonie war und seinem Enkel eine große literarische und wissenschaftliche Begabung vermittelte. Nachdem er sich durch die High School gearbeitet hatte, reiste Aimé Césaire 1931 in die französische Kommune, angewidert vom kolonialen System der Westindischen Inseln und auf der Suche nach einer höheren Bildung, die er auf seiner Heimatinsel nicht hatte erlangen können. Während seines Aufenthalts an der Sorbonne schloss er sich mit einer Gruppe anderer schwarzer Studenten zusammen und gründete schließlich die Zeitung "L'Étudiant Noir", die für antiimperialistische Ideale eintrat und die Behandlung der kolonialen Untertanen durch die französische Exilrepublik anprangerte. Aimé prägte auch den Begriff Négritude, eine literarische Bewegung, die sich für eine Wiederbelebung der afrikanischen und karibischen Kultur einsetzte, und verurteilte den irreparablen Schaden, den die "dekadenten, moralisch degenerierten Parasiten", die sein Volk unterdrückt hatten, angerichtet hatten. Aufgrund der zunehmenden Konflikte mit seinen Kommilitonen und Lehrern in der Kommune, die er auf rassistische Spannungen und Vorurteile zurückführte, beschloss Aimé schließlich, in die Westindische Föderation zurückzukehren, gerade noch rechtzeitig, um Zeuge zu werden, wie die Menschen in der Karibik ihre Ketten abwerfen. Beflügelt durch den Befreiungskampf richtete er seinen revolutionären Eifer und seine antikoloniale Wut darauf, eine beeindruckende Reihe von Zeugnissen zu erstellen, radikale Abhandlungen zu verfassen und feurige Reden darüber zu halten, was er sich von der neuen sozialistischen Regierung für die Opfer des Imperialismus wünschte und forderte. Es war nicht verwunderlich, dass Césaire sich mit der Zeit für die Verwirklichung dieser Träume einsetzte und es innerhalb weniger Jahre schaffte, an die Spitze der politischen Sphäre der neuen Föderation aufzusteigen."
+WIF_aime_cesaire_leader_desc: "§YGeboren:§! §L26. Juni 1913, in Basse-Pointe, Martinique, Französische Republik§!\n§YHintergrund:§! §LVon klein auf wurde Aimé von seinem Großvater Fernand Césaire inspiriert, der der erste schwarze Lehrer in der französischen Kolonie war und seinem Enkel eine große literarische und wissenschaftliche Begabung vermittelte. Nachdem er sich durch die High School gearbeitet hatte, reiste Aimé Césaire 1931 in die französische Kommune, angewidert vom kolonialen System der Westindischen Inseln und auf der Suche nach einer höheren Bildung, die er auf seiner Heimatinsel nicht hatte erlangen können. Während seines Aufenthalts an der Sorbonne schloss er sich mit einer Gruppe anderer schwarzer Studenten zusammen und gründete schließlich die Zeitung "L'Étudiant Noir", die für antiimperialistische Ideale eintrat und die Behandlung der kolonialen Untertanen durch die französische Exilrepublik anprangerte. Aimé prägte auch den Begriff Négritude, eine literarische Bewegung, die sich für eine Wiederbelebung der afrikanischen und karibischen Kultur einsetzte, und verurteilte den irreparablen Schaden, den die "dekadenten, moralisch degenerierten Parasiten", die sein Volk unterdrückt hatten, angerichtet hatten. Aufgrund der zunehmenden Konflikte mit seinen Kommilitonen und Lehrern in der Kommune, die er auf rassistische Spannungen und Vorurteile zurückführte, beschloss Aimé schließlich, in die Westindische Föderation zurückzukehren, gerade noch rechtzeitig, um Zeuge zu werden, wie die Menschen in der Karibik ihre Ketten abwerfen. Beflügelt durch den Befreiungskampf richtete er seinen revolutionären Eifer und seine antikoloniale Wut darauf, eine beeindruckende Reihe von Zeugnissen zu erstellen, radikale Abhandlungen zu verfassen und feurige Reden darüber zu halten, was er sich von der neuen sozialistischen Regierung für die Opfer des Imperialismus wünschte und forderte. Es war nicht verwunderlich, dass Césaire sich mit der Zeit für die Verwirklichung dieser Träume einsetzte und es innerhalb weniger Jahre schaffte, an die Spitze der politischen Sphäre der neuen Föderation aufzusteigen.§!"
 
 WIF_joseph_lagrosilliere: "Joseph Lagrosillière"
-WIF_joseph_lagrosilliere_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 2. November 1872, in Sainte-Marie, Martinique, Französische Republik\n§YPolitikkarriere:§! Als sehr aktiver französischer Politiker gründete Lagrosillière die Sozialistische Föderation von Martinique (eine Zweigstelle der SFIO auf der Insel) und deren Zeitung Le Prolétaire.\n\nLagrosillière brach jedoch 1913 mit den Pariser Sozialisten, da diese die Assimilierung der Kolonien nicht unterstützten. Lagrosillière ist ein starker Befürworter der Umwandlung von Kolonien in Departements, und die Föderation von Martinique, ohne Lagrosillière, zerfiel. Sie wurde 1924 als Zweite Föderation wiederbelebt. Lagrosillière setzte jedoch sein sozialistisches Engagement in der Karibik fort und wurde nach dem Weltkrieg Politiker in der Westindischen Föderation. 1919 schloss er ein Wahlbündnis mit Fernand Clerc, einem Béké-Industriellen auf der Insel, was ihn von seinen alten sozialistischen Verbündeten entfremdete, die sein 'Bündnis mit Kapitalisten' kritisierten. Er wurde 1925 wegen Aufwiegelung zu Unruhen und Gewalt und 1931 erneut wegen Einflussnahme verhaftet. Nun führt Lagrosillière die PA und die Westindischen Inseln in eine neue Ära der Sozialdemokratie."
+WIF_joseph_lagrosilliere_leader_desc: "§YGeboren:§! §L2. November 1872, in Sainte-Marie, Martinique, Französische Republik§!\n§YHintergrund:§! §LAls sehr aktiver französischer Politiker gründete Lagrosillière die Sozialistische Föderation von Martinique (eine Zweigstelle der SFIO auf der Insel) und deren Zeitung Le Prolétaire.\n\nLagrosillière brach jedoch 1913 mit den Pariser Sozialisten, da diese die Assimilierung der Kolonien nicht unterstützten. Lagrosillière ist ein starker Befürworter der Umwandlung von Kolonien in Departements, und die Föderation von Martinique, ohne Lagrosillière, zerfiel. Sie wurde 1924 als Zweite Föderation wiederbelebt. Lagrosillière setzte jedoch sein sozialistisches Engagement in der Karibik fort und wurde nach dem Weltkrieg Politiker in der Westindischen Föderation. 1919 schloss er ein Wahlbündnis mit Fernand Clerc, einem Béké-Industriellen auf der Insel, was ihn von seinen alten sozialistischen Verbündeten entfremdete, die sein 'Bündnis mit Kapitalisten' kritisierten. Er wurde 1925 wegen Aufwiegelung zu Unruhen und Gewalt und 1931 erneut wegen Einflussnahme verhaftet. Nun führt Lagrosillière die PA und die Westindischen Inseln in eine neue Ära der Sozialdemokratie.§!"
 
 WIF_grantley_herbert_adams: "Grantley Herbert Adams"
 WIF_norman_manley: "Norman Manley"
@@ -1621,12 +1624,12 @@ WIF_georges_robert: "Georges Robert"
 WIF_joel_augustus_rogers: "Joel Augustus Rogers"
 
 WIF_eustace_fiennes: "Eustace Fiennes"
-WIF_eustace_fiennes_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 29. Februar 1864, in Reading, Berkshire, England\n§YPolitikkarriere:§! Sir Eustace Edward Twisleton-Wykeham-Fiennes wurde am 26. Juni 1925 zum Generalgouverneur der Westindischen Föderation ernannt. Aufgrund seiner früheren Erfahrungen im Krieg, als Gouverneur der Westindischen Inseln und in der Politik des Vereinigten Königreichs selbst ist er dafür bekannt, dass er zu seinen politischen Ansichten über die Föderation nicht schweigt. Es gibt Gerüchte, dass er selbst in die Politik eingreifen will, wenn die Wahlen von 1937 außer Kontrolle geraten, doch gibt es bisher keine stichhaltigen Beweise für diese Gerüchte."
+WIF_eustace_fiennes_leader_desc: "§YGeboren:§! §L29. Februar 1864, in Reading, Berkshire, England§!\n§YHintergrund:§! §LSir Eustace Edward Twisleton-Wykeham-Fiennes wurde am 26. Juni 1925 zum Generalgouverneur der Westindischen Föderation ernannt. Aufgrund seiner früheren Erfahrungen im Krieg, als Gouverneur der Westindischen Inseln und in der Politik des Vereinigten Königreichs selbst ist er dafür bekannt, dass er zu seinen politischen Ansichten über die Föderation nicht schweigt. Es gibt Gerüchte, dass er selbst in die Politik eingreifen will, wenn die Wahlen von 1937 außer Kontrolle geraten, doch gibt es bisher keine stichhaltigen Beweise für diese Gerüchte.§!"
 
 WIF_gordon_james_lethem: "Gordon James Lethem"
 
 WIF_arthur_andrew_cipriani: "Arthur Andrew Cipriani"
-WIF_arthur_andrew_cipriani_commander_desc: "§YGeneral Beschreibung§!\nGeboren:§! §g31. Januar 1875, in Port of Spain, Trinidad§!\n§YMilitärkarriere:§! §gAls Sohn einer weißen Familie mit korsisch-französischen Vorfahren wuchs Cipriani inmitten der abgehobenen kolonialen Elite auf und setzte sich bei Ausbruch des Ersten Weltkriegs für die Rekrutierung von Afro-Kariben und Indio-Kariben für das Westindien-Regiment ein. Später wurde er zum Hauptmann des Regiments ernannt und begleitete es an die europäischen Fronten, wo er schnell beeindruckt war, wie fähig die dunkelhäutigen Soldaten waren. Später bezeichnete er die Kameradschaft mit seinen Männern als den Wendepunkt, der ihn dazu brachte, die Idee zu übernehmen, dass die Menschen in der Karibik eine Selbstverwaltung erhalten sollten. Nach seiner Rückkehr nach Trinidad begann er, unter den dunkelhäutigen Arbeitern der Kolonie zu leben und zu arbeiten, baute ein Netzwerk von Gewerkschaften auf und machte sich bei Bürgern aller ethnischen Gruppen und Lebensbereiche beliebt. Seine militärische Erfahrung und sein Wissen über das Innenleben des britischen Kolonialismus waren für die karibischen Sozialisten beim Ausbruch ihrer Revolution von großem Nutzen, und Cipriani wurde neben Männern wie Tubal Uriah Butler als einer der Gründerväter der Revolution anerkannt.§!\n\n§YAnmerkungen: 1923 war er Präsident der Trinidad Worker's Association, die später in Trinidad Labour Party umbenannt wurde. Nach seinem Ausflug in die Politik wurde er wiederholt zum Bürgermeister von Port of Spain gewählt, sehr zum Verdruss der Behörden der Westindischen Föderation.§!"
+WIF_arthur_andrew_cipriani_army_chief_desc: "§YGeboren:§! §L31. Januar 1875, in Port of Spain, Trinidad§!\n§YHintergrund:§! §LAls Sohn einer weißen Familie mit korsisch-französischen Vorfahren wuchs Cipriani inmitten der abgehobenen kolonialen Elite auf und setzte sich bei Ausbruch des Ersten Weltkriegs für die Rekrutierung von Afro-Kariben und Indio-Kariben für das Westindien-Regiment ein. Später wurde er zum Hauptmann des Regiments ernannt und begleitete es an die europäischen Fronten, wo er schnell beeindruckt war, wie fähig die dunkelhäutigen Soldaten waren. Später bezeichnete er die Kameradschaft mit seinen Männern als den Wendepunkt, der ihn dazu brachte, die Idee zu übernehmen, dass die Menschen in der Karibik eine Selbstverwaltung erhalten sollten. Nach seiner Rückkehr nach Trinidad begann er, unter den dunkelhäutigen Arbeitern der Kolonie zu leben und zu arbeiten, baute ein Netzwerk von Gewerkschaften auf und machte sich bei Bürgern aller ethnischen Gruppen und Lebensbereiche beliebt. Seine militärische Erfahrung und sein Wissen über das Innenleben des britischen Kolonialismus waren für die karibischen Sozialisten beim Ausbruch ihrer Revolution von großem Nutzen, und Cipriani wurde neben Männern wie Tubal Uriah Butler als einer der Gründerväter der Revolution anerkannt.§!\n\n§YAnmerkungen: 1923 war er Präsident der Trinidad Worker's Association, die später in Trinidad Labour Party umbenannt wurde. Nach seinem Ausflug in die Politik wurde er wiederholt zum Bürgermeister von Port of Spain gewählt, sehr zum Verdruss der Behörden der Westindischen Föderation.§!"
 
 WIF_alexander_bustamante: "Alexander Bustamante"
 WIF_hubert_nathaniel_critchlow: "Hubert Nathaniel Critchlow"
@@ -1650,24 +1653,24 @@ WIF_edgar_fitzgerald_gordon: "Edgar Fitzgerald Gordon"
 WIF_reginald_conyers: "Reginald Conyers"
 
 WIF_thomas_cubitt: "Thomas Cubitt"
-WIF_thomas_cubitt_commander_desc: "§YGeneral Beschreibung§!\nGeboren:§! §g9. April 1871, in Great Yarmouth, Norfolk, England§!\n§YMilitärkarriere:§! §gCubbit ist ein bekannter Veteran des Weltkriegs. Er trat 1891 in die Königliche Artillerie ein und wurde dann kurz vor dem Weltkrieg stellvertretender Kommissar von Somaliland, wo er gegen den Derwischstaat kämpfte. Nach dem Ausbruch des Krieges blieb er in Somaliland und versuchte verzweifelt, den somalischen Aufstand niederzuschlagen, was ihm jedoch, abgesehen von der Zerstörung zahlreicher Festungen, größtenteils misslang. Als er 1916 darum bat, an die Front versetzt zu werden, befehligte er das Lincolnshire Regiment und die 57. Er übernahm das Kommando über die 38. walisische Infanteriedivision. Nach der Kapitulation Frankreichs wurde er an viele Orte auf der ganzen Welt geschickt, um den Kampf fortzusetzen, bis zur Unterzeichnung des Vertrags von Versailles im Jahr 1919. Er wurde mit dem Order of the Bath, dem Order of St Michael and St George und dem Distinguished Service Order ausgezeichnet, als das Chaos vorbei war. Nach dem Krieg diente er zunächst in Indien, bevor er nach dem Zusammenbruch des Kaiserreichs nach Kanada ging. Jetzt, mit 65 Jahren und sehr kränklich, ist seine Position als Gouverneur von Bermuda eher ein Ruhestandsposten als alles andere, da der Held des Weltkriegs seine Leidenschaft für den Kampf schon vor Jahren aufgegeben hat.§!\n\n§YAnmerkungen: Gouverneur der Bermudas. Das wachsende Desinteresse an militärischen Angelegenheiten veranlasst ihn, seine Methoden nicht zu erneuern. 65 Jahre alt und bereitet sich auf den Ruhestand vor.§!"
+WIF_thomas_cubitt_commander_desc: "§YGeboren:§! §L9. April 1871, in Great Yarmouth, Norfolk, England§!\n§YHintergrund:§! §LCubbit ist ein bekannter Veteran des Weltkriegs. Er trat 1891 in die Königliche Artillerie ein und wurde dann kurz vor dem Weltkrieg stellvertretender Kommissar von Somaliland, wo er gegen den Derwischstaat kämpfte. Nach dem Ausbruch des Krieges blieb er in Somaliland und versuchte verzweifelt, den somalischen Aufstand niederzuschlagen, was ihm jedoch, abgesehen von der Zerstörung zahlreicher Festungen, größtenteils misslang. Als er 1916 darum bat, an die Front versetzt zu werden, befehligte er das Lincolnshire Regiment und die 57. Er übernahm das Kommando über die 38. walisische Infanteriedivision. Nach der Kapitulation Frankreichs wurde er an viele Orte auf der ganzen Welt geschickt, um den Kampf fortzusetzen, bis zur Unterzeichnung des Vertrags von Versailles im Jahr 1919. Er wurde mit dem Order of the Bath, dem Order of St Michael and St George und dem Distinguished Service Order ausgezeichnet, als das Chaos vorbei war. Nach dem Krieg diente er zunächst in Indien, bevor er nach dem Zusammenbruch des Kaiserreichs nach Kanada ging. Jetzt, mit 65 Jahren und sehr kränklich, ist seine Position als Gouverneur von Bermuda eher ein Ruhestandsposten als alles andere, da der Held des Weltkriegs seine Leidenschaft für den Kampf schon vor Jahren aufgegeben hat.§!\n\n§YAnmerkungen: Gouverneur der Bermudas. Das wachsende Desinteresse an militärischen Angelegenheiten veranlasst ihn, seine Methoden nicht zu erneuern. 65 Jahre alt und bereitet sich auf den Ruhestand vor.§!"
 
 WIF_reginald_hildyard: "Reginald Hildyard"
-WIF_reginald_hildyard_commander_desc: "§YGeneral Beschreibung§!\nGeboren:§! §g11. Dezember 1876, in Frimley, Surrey, England§!\n§YMilitärkarriere:§! §gSir Reginald John Thoroton Hildyard ist der Sohn von General Sir Henry Hildyard und trat 1896 in die britische Armee ein. Er diente von 1899 bis 1902 im Zweiten Burenkrieg und wurde mit der Queen's Medal mit vier Spangen und der King's Medal mit zwei Spangen ausgezeichnet. Er diente in Südafrika in vielen Gelegenheitsjobs für die Armee und stieg in den Rängen auf, was teilweise auf den Einfluss seiner Familie in der Armee zurückzuführen war. Als der Große Krieg begann, war er dafür bekannt, dass er versuchte, so viel wie möglich mit dem Oberkommando zu kommunizieren, was ihm während und nach dem Krieg weitere Beförderungen einbrachte. Nachdem er ab 1933 als General in der kanadischen Armee gedient hatte, wurde er im März 1936 zum Gouverneur von Bermuda ernannt, wobei er es bereits schaffte, massiven Einfluss in der Armee zu gewinnen, indem er versuchte, seine Werte in deren Aufbau einzubringen.§!\n\n§YAnmerkungen: Wurde Gouverneur der Bermudas, nachdem Thomas Cubbit in den Ruhestand getreten war. Im Gegensatz zu seinem Vorgänger ist er immer noch sehr an militärischen Angelegenheiten interessiert und daran, wie er die Armee der Westindischen Inseln in ihrem Wachstum unterstützen kann.§!"
+WIF_reginald_hildyard_army_chief_desc: "§YGeboren:§! §L11. Dezember 1876, in Frimley, Surrey, England§!\n§YHintergrund:§! §LSir Reginald John Thoroton Hildyard ist der Sohn von General Sir Henry Hildyard und trat 1896 in die britische Armee ein. Er diente von 1899 bis 1902 im Zweiten Burenkrieg und wurde mit der Queen's Medal mit vier Spangen und der King's Medal mit zwei Spangen ausgezeichnet. Er diente in Südafrika in vielen Gelegenheitsjobs für die Armee und stieg in den Rängen auf, was teilweise auf den Einfluss seiner Familie in der Armee zurückzuführen war. Als der Große Krieg begann, war er dafür bekannt, dass er versuchte, so viel wie möglich mit dem Oberkommando zu kommunizieren, was ihm während und nach dem Krieg weitere Beförderungen einbrachte. Nachdem er ab 1933 als General in der kanadischen Armee gedient hatte, wurde er im März 1936 zum Gouverneur von Bermuda ernannt, wobei er es bereits schaffte, massiven Einfluss in der Armee zu gewinnen, indem er versuchte, seine Werte in deren Aufbau einzubringen.§!\n\n§YAnmerkungen: Wurde Gouverneur der Bermudas, nachdem Thomas Cubbit in den Ruhestand getreten war. Im Gegensatz zu seinem Vorgänger ist er immer noch sehr an militärischen Angelegenheiten interessiert und daran, wie er die Armee der Westindischen Inseln in ihrem Wachstum unterstützen kann.§!"
 
 WIF_geoffrey_archer: "Geoffrey Archer"
 
 WIF_bede_clifford: "Bede Clifford"
-WIF_bede_clifford_commander_desc: "§YGeneral Beschreibung§!\nGeboren:§! §g3. Juli 1890, Südinsel, Neuseeland§!\n§YMilitärkarriere:§! §gSir Bede Edmund Hugh Clifford ist ein in Neuseeland geborener General, Diplomat und Kolonialverwalter. Seine Familie ist die Baron Cliffords of Chudleigh, ein Adelsgeschlecht in England selbst. Eines seiner verborgenen Ziele ist es, "sein Land" für seine Familie und seinen Vater William Hugh Clifford, 10. Baron Clifford of Chudleigh, zurückzugewinnen. Zuvor diente er als Offizier der Handelsmarine und als Landvermesser und wurde während des Ersten Weltkriegs zum Hauptmann der Armee ernannt und mit dem Order of St Michael and St George, dem Order of the Bath und dem Royal Victorian Order ausgezeichnet. Gegenwärtig ist er Gouverneur von Trinidad und Tobago und wird von der dortigen Bevölkerung im Allgemeinen gemocht, obwohl das Land einer der Brennpunkte von Arbeiterunruhen ist. §!\n\n§YAnmerkungen: Gouverneur von Trinidad und Tobago. Erfahren im Gouverneursamt, das er vor Trinidad auf den Bahamas innehatte, ist er bei den Menschen dort trotz der Arbeiterunruhen persönlich beliebt. Hartnäckig, Proteste mit der ihm zur Verfügung stehenden Macht gewaltsam niederzuschlagen.§!"
+WIF_bede_clifford_army_chief_desc: "§YGeboren:§! §L3. Juli 1890, Südinsel, Neuseeland§!\n§YHintergrund:§! §LSir Bede Edmund Hugh Clifford ist ein in Neuseeland geborener General, Diplomat und Kolonialverwalter. Seine Familie ist die Baron Cliffords of Chudleigh, ein Adelsgeschlecht in England selbst. Eines seiner verborgenen Ziele ist es, "sein Land" für seine Familie und seinen Vater William Hugh Clifford, 10. Baron Clifford of Chudleigh, zurückzugewinnen. Zuvor diente er als Offizier der Handelsmarine und als Landvermesser und wurde während des Ersten Weltkriegs zum Hauptmann der Armee ernannt und mit dem Order of St Michael and St George, dem Order of the Bath und dem Royal Victorian Order ausgezeichnet. Gegenwärtig ist er Gouverneur von Trinidad und Tobago und wird von der dortigen Bevölkerung im Allgemeinen gemocht, obwohl das Land einer der Brennpunkte von Arbeiterunruhen ist. §!\n\n§YAnmerkungen: Gouverneur von Trinidad und Tobago. Erfahren im Gouverneursamt, das er vor Trinidad auf den Bahamas innehatte, ist er bei den Menschen dort trotz der Arbeiterunruhen persönlich beliebt. Hartnäckig, Proteste mit der ihm zur Verfügung stehenden Macht gewaltsam niederzuschlagen.§!"
 
 WIF_felix_eboue: "Félix Éboué"
 
 WIF_ralph_leatham: "Ralph Leatham"
-WIF_ralph_leatham_admiral_desc: "§YAdmiral Beschreibung§!\nGeboren:§! §g3. März 1888, in Hemsworth, West Yorkshire, England§!\n§YMarinekarriere:§! §gSir Ralph Leatham wurde in Hemsworth, West Yorkshire, geboren und trat im Jahr 1900 in die königliche Marine ein. Während des Großen Krieges diente er auf mehreren Schiffen wie der HMS Yarmouth und der HMS Valiant. Für seine Verdienste in der Marine wurde er mit dem Order of the Bath ausgezeichnet, doch sein Ruhm währte nicht lange. Nach der britischen Revolution war er zunächst gezwungen, nach Kanada überzusiedeln und weiterhin in der Royal Navy zu dienen, bis er 1929 das Angebot erhielt, auf den Westindischen Inseln zu dienen, was er annahm. Derzeit ist er Stabschef des Oberbefehlshabers der Westindischen Station von Andrew Cunningham. Als Gouverneur von Grenada sind die Meinungen der Menschen über ihn bestenfalls neutral, da er sich mehr auf seine Aufgaben bei der Marine als auf das Regieren zu konzentrieren scheint.§!\n\n§YAnmerkungen: Gouverneur von Grenada. Bekannt dafür, dass er sich mehr auf die Admiralität als auf das Gouverneursamt von Grenada konzentriert, was zu einer eher niedrigen Zustimmungsrate auf der Insel führt. Stabschef des Oberbefehlshabers Andrew Cunningham. Befürworter einer großen Marine, um Großbritannien abzusichern und die Westindischen Inseln als strategische Festung zu verteidigen.§!"
+WIF_ralph_leatham_high_command_desc: "§YGeboren:§! §L3. März 1888, in Hemsworth, West Yorkshire, England§!\n§YHintergrund:§! §LSir Ralph Leatham wurde in Hemsworth, West Yorkshire, geboren und trat im Jahr 1900 in die königliche Marine ein. Während des Großen Krieges diente er auf mehreren Schiffen wie der HMS Yarmouth und der HMS Valiant. Für seine Verdienste in der Marine wurde er mit dem Order of the Bath ausgezeichnet, doch sein Ruhm währte nicht lange. Nach der britischen Revolution war er zunächst gezwungen, nach Kanada überzusiedeln und weiterhin in der Royal Navy zu dienen, bis er 1929 das Angebot erhielt, auf den Westindischen Inseln zu dienen, was er annahm. Derzeit ist er Stabschef des Oberbefehlshabers der Westindischen Station von Andrew Cunningham. Als Gouverneur von Grenada sind die Meinungen der Menschen über ihn bestenfalls neutral, da er sich mehr auf seine Aufgaben bei der Marine als auf das Regieren zu konzentrieren scheint.§!\n\n§YAnmerkungen: Gouverneur von Grenada. Bekannt dafür, dass er sich mehr auf die Admiralität als auf das Gouverneursamt von Grenada konzentriert, was zu einer eher niedrigen Zustimmungsrate auf der Insel führt. Stabschef des Oberbefehlshabers Andrew Cunningham. Befürworter einer großen Marine, um Großbritannien abzusichern und die Westindischen Inseln als strategische Festung zu verteidigen.§!"
 
 WIF_andrew_cunningham: "Andrew Cunningham"
 
-WIF_harry_cordeaux_commander_desc: "§YGeneral Beschreibung§!\nGeboren:§! §g15. November 1870, in Puna, Präsidentschaft Bombay, Britisch Indien§!\n§YMilitärkarriere:§! §gSir Harry Edward Spiller Cordeaux war zwar Brite, wurde aber in Poona, Indien, geboren, da sein Vater Richter in Bombay war. Nach seiner Rückkehr nach Großbritannien zum Studium trat er 1896 in das indische Stabskorps ein. Er wechselte schnell von der Armee in den kolonialen Dienst und wurde von 1904 bis 1906 Konsul von Somaliland sowie Kommissar und Oberbefehlshaber. Als er 1910 Gouverneur von Uganda wurde, half er beim Aufbau der Infrastruktur in der Region, bevor er bis 1921 auf die abgelegene Insel St. Helena versetzt wurde, wo er nach dem Weltkrieg zum Gouverneur der Bahamas ernannt wurde, ein Amt, das er bis heute als Nachfolger von Bede Clifford ausübt. Er hat viele bemerkenswerte Dinge auf der Insel getan, wie die Reform der obersten Gerichte und die Verbesserung des Hafens von Nassau. Er wird vom Volk geliebt, gilt aber im Allgemeinen innerhalb des Generalstabs eher als Gouverneur denn als General.§!\n\n§YAnmerkungen: Gouverneur der Bahamas. Hat mehr Erfahrung mit dem Regieren als damit, General zu sein. Hat es geschafft, die Unruhen auf den Bahamas durch kleinere Entwicklungen auf einem absoluten Tiefstand zu halten, wobei einige voraussagen, dass die Bahamas der königlichen Familie treu bleiben könnten, wenn die Westindischen Inseln revoltieren.§!"
+WIF_harry_cordeaux_commander_desc: "§YGeboren:§! §L15. November 1870, in Puna, Präsidentschaft Bombay, Britisch Indien§!\n§YHintergrund:§! §LSir Harry Edward Spiller Cordeaux war zwar Brite, wurde aber in Poona, Indien, geboren, da sein Vater Richter in Bombay war. Nach seiner Rückkehr nach Großbritannien zum Studium trat er 1896 in das indische Stabskorps ein. Er wechselte schnell von der Armee in den kolonialen Dienst und wurde von 1904 bis 1906 Konsul von Somaliland sowie Kommissar und Oberbefehlshaber. Als er 1910 Gouverneur von Uganda wurde, half er beim Aufbau der Infrastruktur in der Region, bevor er bis 1921 auf die abgelegene Insel St. Helena versetzt wurde, wo er nach dem Weltkrieg zum Gouverneur der Bahamas ernannt wurde, ein Amt, das er bis heute als Nachfolger von Bede Clifford ausübt. Er hat viele bemerkenswerte Dinge auf der Insel getan, wie die Reform der obersten Gerichte und die Verbesserung des Hafens von Nassau. Er wird vom Volk geliebt, gilt aber im Allgemeinen innerhalb des Generalstabs eher als Gouverneur denn als General.§!\n\n§YAnmerkungen: Gouverneur der Bahamas. Hat mehr Erfahrung mit dem Regieren als damit, General zu sein. Hat es geschafft, die Unruhen auf den Bahamas durch kleinere Entwicklungen auf einem absoluten Tiefstand zu halten, wobei einige voraussagen, dass die Bahamas der königlichen Familie treu bleiben könnten, wenn die Westindischen Inseln revoltieren.§!"
 
 WIF_denis_bernard: "Denis Bernard"
 WIF_alban_curteis: "Alban Curteis"

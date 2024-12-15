@@ -32,15 +32,12 @@ ETS_fledgling_military_desc: "Die ostturkestanische Armee verfügt über sehr we
 ETS_fight_for_xinjiang_idea: "Kampf um Xinjiang"
 ETS_amateur_bureaucrats: "Amateur Bürokraten"
 ETS_amateur_bureaucrats_desc: "Die Turkvölker von Xinjiang waren unter der chinesischen Herrschaft von den meisten Verwaltungsposten ausgeschlossen, so dass es nur wenige qualifizierte Bürokraten für die Regierung von Ostturkestan gab."
-ETS_amateur_bureaucrats_2: "Amateur Bürokraten"
 ETS_flex_bureau: "Flexible Bürokratie"
 ETS_invest_branch: "Ermittlungsabteilung"
 ETS_foreign_talent_idea: "Anwerbung ausländischer Talente"
 ETS_new_gentry_idea: "Ein neuer Adel"
 ETS_madrassa_idea: "Nationales islamisches Bildungssystem"
 ETS_welfare_idea: "Sozialwesen"
-ETS_assimilation_idea: "Assimilationsprogramm"
-ETS_assimilation_idea_2: "Assimilationsprogramm"
 ETS_aircraftneg: "Ostturkestan Flugzeugverkauf"
 ETS_aircraftneg_desc: "Wir haben uns bereit erklärt, gegen eine Pauschalzahlung Flugzeuge für das ostturkestanische Militär zu produzieren."
 ETS_desertconstruct: "Aufbau einer Wüsteninfrastruktur"
@@ -61,7 +58,7 @@ ETS_army_created: "Die Armee wurde in vollem Umfang aufgebaut"
 ETS_demoflag: "Verfolgt freie Wahlen"
 ETS_sabriflag: "Nationale Wahlen verschoben"
 ETS_otto_reach_out_flag: "Kontaktaufnahme mit dem Osmanischen Reich"
-ETS_gold_to_currency_converted: "Hat die Entscheidung §H$ETS_convert_gold_to_currency$§! abgeschlossen"
+ETS_gold_to_currency_converted: "$has_completed_decision$§H$ETS_convert_gold_to_currency$§!"
 
 #Opinion Modifiers
 ETS_violent_night: "Botschafter einem Blutbad unterzogen"
@@ -201,11 +198,12 @@ ETS_fight_inauthentic_desc: "Viele außerhalb der Städte halten an kulturellen 
 
 ETS_all_madrasas: "Verstaatlichung und Ausbau der Madrassas"
 ETS_all_madrasas_desc: "Die Madrassas, die von ausländischen Lehrern aufgeklärt werden, sind eine Bastion des Lichts inmitten der weit verbreiteten Perversion. Wir müssen diese Schulen direkt verwalten und die weltlichen Schulen ebenfalls nach ihrem Vorbild umgestalten. Alle, die noch immer den Ruf des wahren Glaubens verleugnen oder an einer Verfälschung desselben festhalten, sollen aufgeklärt werden."
+
 ETS_transform_desert: "Die Wüste verwandeln"
 ETS_transform_desert_desc: "In der Wüste von Taklamakan gibt es außer unbefestigten Wegen und Kamelpfaden keinerlei Infrastruktur. Wir sollten ein modernes Eisenbahnsystem durch das Ödland bauen und entlang der Gleise neue Siedlungen errichten."
 
-ETS_deal_with_hui: "Die Tungan-Frage"
-ETS_deal_with_hui_desc: "Die Tunganen, die einst von der gefühllosen chinesischen Bürokratie fälschlicherweise als 'Hui' eingestuft wurden, haben ihren rechtmäßigen türkischen Besitzern viel Land gestohlen. Nach jahrzehntelanger grausamer Herrschaft ist es nur recht und billig, dass wir es den Tunganern heimzahlen und alle historischen Ungerechtigkeiten auf einen Schlag korrigieren."
+ETS_tighten_government_grip: "Den Griff der Regierung verstärken"
+ETS_tighten_government_grip_desc: "[ROOT.GetLeader] regiert, aber um seine Herrschaft zu festigen und die letzten Stimmen der Opposition zum Schweigen zu bringen, müssen sowohl die Verwaltung als auch die Exekutivkräfte des Landes ein für alle Mal unterworfen werden. Nur durch eine gründliche Umwälzung der etablierten Institutionen können wir wirklich mit unserem Projekt beginnen, Einheit und Stabilität in die weiten Länder von [ROOT.GetNameDef] zu bringen."
 
 ETS_turkic_nationalism: "Türkischer Nationalismus"
 ETS_turkic_nationalism_desc: "Wir unterscheiden uns von denen in China, die uns wieder einmal vernichten wollen. Wir sind überhaupt keine Chinesen, wir sind Türken!"
@@ -308,7 +306,7 @@ ETS_working_the_land_desc: "Mit dem Aufstieg der Türken in den Adelsstand gibt 
 
 #Decisions
 ETS_foreign_diplomacy: "Ausländische Unterstützung für die Revolution"
-ETS_foreign_diplomacy_desc: "Als junge unabhängige Nation, die gegen die chinesischen Unterdrücker und die Kumul-Rebellen kämpft, müssen wir die Unterstützung anderer Nationen suchen, wenn wir überleben wollen.\n\nWichtige Länder:\n§Y[RUS.GetNameWithFlag]§![RUS.get_ETS_foreign_supporters]\n§Y[RAJ.GetNameWithFlag]§![RAJ.get_ETS_foreign_supporters]\n§Y[OTT.GetNameWithFlag]§![OTT.get_ETS_foreign_supporters]\n\nAndere Länder:\n§Y[AFG.GetNameWithFlag]§![AFG.get_ETS_foreign_supporters]\n§Y[TRK.GetNameWithFlag]§![TRK.get_ETS_foreign_supporters]\n§Y[BUK.GetNameWithFlag]§![BUK.get_ETS_foreign_supporters]\n§Y[ALO.GetNameWithFlag]§![ALO.get_ETS_foreign_supporters]\n\nAnzahl der Gewehre:  [get_ETS_infantry_equipment_amount]\nMenge an Gold:  [?ETS_gold_amount|+]\n"
+ETS_foreign_diplomacy_desc: "Als junge unabhängige Nation, die gegen die chinesischen Unterdrücker und die Kumul-Rebellen kämpft, müssen wir die Unterstützung anderer Nationen suchen, wenn wir überleben wollen.\n\nWichtige Länder:\n§Y[RUS.GetNameWithFlag]§![RUS.get_ETS_foreign_supporters]\n§Y[RAJ.GetNameWithFlag]§![RAJ.get_ETS_foreign_supporters]\n§Y[OTT.GetNameWithFlag]§![OTT.get_ETS_foreign_supporters]\n\nAndere Länder:\n§Y[AFG.GetNameWithFlag]§![AFG.get_ETS_foreign_supporters]\n§Y[TRK.GetNameWithFlag]§![TRK.get_ETS_foreign_supporters]\n§Y[BUK.GetNameWithFlag]§![BUK.get_ETS_foreign_supporters]\n§Y[KAZ.GetNameWithFlag]§![KAZ.get_ETS_foreign_supporters]\n\nAnzahl der Gewehre:  [get_ETS_infantry_equipment_amount]\nMenge an Gold:  [?ETS_gold_amount|+]\n"
 ETS_gain_international_recognition: "Anerkennung durch Nachbarn"
 ETS_gain_international_recognition_desc: "Wir haben die Revolution gewonnen! Unsere Nachbarn haben keine andere Wahl, als unsere Existenz zu akzeptieren."
 ETS_foreign_support_send_delgations_RUS: "Unterstützung von den Russen suchen"
@@ -323,8 +321,8 @@ ETS_foreign_support_send_delgations_central_asia: "Unterstützung durch [From.Ge
 ETS_foreign_support_send_delgations_central_asia_desc: "Wir werden einen Kamelzug zusammenstellen und uns auf den Weg nach [From.GetName] machen, um sie um Unterstützung zu bitten."
 ETS_foreign_support_more_equipment_partial_support: "Ausrüstung von [From.GetName] anfordern"
 ETS_foreign_support_more_equipment_full_support: "Mehr Ausrüstung von [From.GetName]"
-ETS_war_economy: "Die Kriegswirtschaft von Ostturkestan"
-ETS_war_economy_desc: "Wenn wir jemals überleben wollen, müssen wir unsere Kriegswirtschaft in Ordnung bringen. Wir müssen damit beginnen, Fabriken umzubauen, und wir müssen eine gute Menge Gold für unsere Kassen bekommen.[get_ETS_hotan_conversion][get_ETS_hotan_firearm_expert][get_ETS_hotan_learn_gunpowder][get_ETS_hotan_learn_mineral_processing]\n\nMenge an Gold:  [?ETS_gold_amount|+]"
+ETS_economics_of_war_decisions: "Wirtschaft des Krieges"
+ETS_economics_of_war_decisions_desc: "Wenn wir jemals überleben wollen, müssen wir unsere Kriegswirtschaft in Ordnung bringen. Wir müssen damit beginnen, Fabriken umzubauen, und wir müssen eine gute Menge Gold für unsere Kassen bekommen.[get_ETS_hotan_conversion][get_ETS_hotan_firearm_expert][get_ETS_hotan_learn_gunpowder][get_ETS_hotan_learn_mineral_processing]\n\nMenge an Gold:  [?ETS_gold_amount|+]"
 ETS_convert_gold_to_currency: "Eine einheitliche Währung schaffen"
 ETS_complete_hotan_conversion: "Beendet den Fabrikumbau"
 ETS_hire_firearm_expert_foreign: "Engagiert einen Schusswaffenexperten von [From.GetName]"
@@ -368,44 +366,42 @@ ETS_firearm_expert_hiring: "Stellt einen Schusswaffenexperten ein"
 ETS_country_intro_header: "Die Situation in Kashgar und Hotan"
 ETS_country_intro_content: "Der erste Aufstand war ein Erfolg! Unseren Brüdern in Kashgar und Hotan ist es gelungen, die örtliche Garnison zu überwältigen und die Kontrolle über beide Städte zu übernehmen. Mit dem Volk auf unserer Seite ist die Revolution stark!\n\nUnsere Revolution ist jedoch noch lange nicht sicher. Aufgrund der mittelalterlichen Industriepolitik von Yang Zengxin sind unsere unausgebildeten Freischärler nicht in der Lage, angemessene Ausrüstung zu produzieren, und haben ohne entschlossenes politisches Handeln kaum eine Chance gegen die Armeen von Ma Shaowu und Jin Shuren. Unsere Streitkräfte müssen reformiert werden, wenn wir Aussicht auf Erfolg haben wollen, und wir sollten versuchen, bei der Schaffung von Militärfabriken mitzuwirken.\n\nPolitisch ist unsere neue Nation in mancher Hinsicht geeint und in anderer völlig gespalten. Der exzentrische Timur Beg, ein altgedienter Handelsführer und Mitglied des lokalen Adels in der Nähe von Kashgar, hat die Führung der Jungen Kashgar-Partei übernommen und seine Heimatstadt Kashgar zu ihrer Machtbasis gemacht. In der Zwischenzeit führen die drei Geschwister der Amire von Hotan, die brutalen Bughras, die durch den Besitz mehrerer profitabler Bergbauunternehmen zu Reichtum gekommen sind, ihre Streitkräfte von Hotan aus. Sabit Damulla Abdulbaki, ein gemäßigter, im Westen ausgebildeter General, wurde zum Interimspräsidenten ernannt. Obwohl er keiner Partei oder Gruppierung angehört, erhält er die meiste Unterstützung von den in Hotan ansässigen Bughras. Viele sehen Sabit Damulla jedoch als einigende Figur der Rebellion, die dazu beiträgt, die Spannungen zwischen dem Kaufmann von Kashgar und den Bughra-Brüdern abzubauen."
 
-ETS_guide: "§MFreie \"Wahlen\"§!(§gAutoritär Demokratisch§!)\n£white_dot Wählen Sie \"Der Abzug wird betätigt, die Männer zerstreuen sich\" in dem Ereignis \"Eine unvergessliche Nacht\".\n£white_dot Schließen Sie den Schwerpunkt \"Militärparade\" ab und wählen Sie \"Sabri weigert sich.\" in dem Ereignis \"Schwierige Entscheidungen\".\n\n§MTimur Shah§! (§gAutoritär Demokratisch§!)\n£white_dot Wählen Sie \"Der Abzug wird betätigt, die Männer zerstreuen sich\" in dem Ereignis \"Eine unvergessliche Nacht\".\n£white_dot Schließen Sie den Schwerpunkt \"Militärparade\" ab und wählen Sie \"Ein Plan wird erstellt.\" in dem Ereignis \"Schwierige Entscheidungen\".\n£white_dot Wählen Sie \"Die Soldaten geben nach und ihre Anführer werden aufgegeben.\" in dem Ereignis \"Eine weitere Katastrophe\".\n\n§MDer Islam in einem Land§! / §MTürkischer Nationalismus§! (§NNationalpopulisten§!)\n£white_dot Wählen Sie \"Die Männer gehen mit gezogenen Schwertern hinein\" in dem Ereignis \"Eine unvergessliche Nacht\".\n£white_dot Schließen Sie den Schwerpunkt \"Ein Teil des Puzzles\" ab und fokusieren Sie sich dann nach innen mit dem Schwerpunkt §MIslam in einem Land§! oder nach außen mit §MTürkischer Nationalismus§!.\n\n§MHerrschaft per Dekret§! (§gAutoritär Demokratisch§!) / §MDemokratie§! (§gAutoritär Demokratisch§! / §cSozialkonservative§! / §SSozialdemokraten§!)\n£white_dot Wählen Sie \"Der Abzug wird betätigt, die Männer zerstreuen sich\" in dem Ereignis \"Eine unvergessliche Nacht\".\n£white_dot Schließen Sie den Schwerpunkt \"Militärparade\" ab und wählen Sie \"Ein Plan wird erstellt.\" in dem Ereignis \"Schwierige Entscheidungen\".\n£white_dot Wählen Sie \"Timur wird gefangen genommen, der Komplott gelingt.\" in dem Ereignis \"Eine weitere Katastrophe\".\n£white_dot Damit Sabri per Dekret regiert: Nehmen Sie den Schwerpunkt \"Die Sonne geht im Osten auf\" und wählen Sie \"Sabri bleibt\" in dem Ereignis \"Populäre Forderungen\".\n£white_dot Für eine Demokratie: Nehmen Sie den Schwerpunkt \"Die Sonne geht im Osten auf\" und wählen Sie \"Sabri tritt zurück\" in dem Ereignis \"Populäre Forderungen\".\n£white_dot Sobald der Schwerpunkt \"Echte Repräsentation\" abgeschlossen ist, können Sie zwischen der §cNationalistische Partei von Kashgar§!, der §gJung Kashgar-Partei§! oder der §SJungturkestanische Partei§! wählen."
+ETS_guide: "§MFreie \"Wahlen\"§!(§gAutoritär Demokratisch§!)\n£white_dot Wählen Sie \"Der Abzug wird betätigt, die Männer zerstreuen sich\" in dem Ereignis \"Eine unvergessliche Nacht\".\n£white_dot Schließen Sie den Schwerpunkt \"Militärparade\" ab und wählen Sie \"Sabri weigert sich.\" in dem Ereignis \"Schwierige Entscheidungen\".\n\n§MTimur Shah§! (§gAutoritär Demokratisch§!)\n£white_dot Wählen Sie \"Der Abzug wird betätigt, die Männer zerstreuen sich\" in dem Ereignis \"Eine unvergessliche Nacht\".\n£white_dot Schließen Sie den Schwerpunkt \"Militärparade\" ab und wählen Sie \"Ein Plan wird erstellt.\" in dem Ereignis \"Schwierige Entscheidungen\".\n£white_dot Wählen Sie \"Die Soldaten geben nach und ihre Anführer werden aufgegeben.\" in dem Ereignis \"Eine weitere Katastrophe\".\n\n§MDer Islam in einem Land§! / §MTürkischer Nationalismus§! (§nNationalpopulisten§!)\n£white_dot Wählen Sie \"Die Männer gehen mit gezogenen Schwertern hinein\" in dem Ereignis \"Eine unvergessliche Nacht\".\n£white_dot Schließen Sie den Schwerpunkt \"Ein Teil des Puzzles\" ab und fokusieren Sie sich dann nach innen mit dem Schwerpunkt §MIslam in einem Land§! oder nach außen mit §MTürkischer Nationalismus§!.\n\n§MHerrschaft per Dekret§! (§gAutoritär Demokratisch§!) / §MDemokratie§! (§gAutoritär Demokratisch§! / §cSozialkonservative§! / §SSozialdemokraten§!)\n£white_dot Wählen Sie \"Der Abzug wird betätigt, die Männer zerstreuen sich\" in dem Ereignis \"Eine unvergessliche Nacht\".\n£white_dot Schließen Sie den Schwerpunkt \"Militärparade\" ab und wählen Sie \"Ein Plan wird erstellt.\" in dem Ereignis \"Schwierige Entscheidungen\".\n£white_dot Wählen Sie \"Timur wird gefangen genommen, der Komplott gelingt.\" in dem Ereignis \"Eine weitere Katastrophe\".\n£white_dot Damit Sabri per Dekret regiert: Nehmen Sie den Schwerpunkt \"Die Sonne geht im Osten auf\" und wählen Sie \"Sabri bleibt\" in dem Ereignis \"Populäre Forderungen\".\n£white_dot Für eine Demokratie: Nehmen Sie den Schwerpunkt \"Die Sonne geht im Osten auf\" und wählen Sie \"Sabri tritt zurück\" in dem Ereignis \"Populäre Forderungen\".\n£white_dot Sobald der Schwerpunkt \"Echte Repräsentation\" abgeschlossen ist, können Sie zwischen der §cNationalistische Partei von Kashgar§!, der §gJung Kashgar-Partei§! oder der §SJungturkestanische Partei§! wählen."
 
 #Events
 ets.1.t: "Die Delegationen sind bereit"
 ets.1.d: "Jedes Mitglied der Delegation kennt seine Aufgabe, und jedes Kamel ist ausgeruht und bereit für eine lange Reise. Als neue Nation müssen wir hart arbeiten, um uns die Unterstützung des Auslands zu sichern, um unsere Miliz in diesem Krieg und in jedem zukünftigen Krieg für die Unabhängigkeit zu unterstützen, wenn die Chinesen wieder anklopfen. Wir sind jetzt bereit und darauf vorbereitet, Delegationen in andere Länder zu entsenden, um sie zu überzeugen, unsere Sache zu unterstützen."
-ets.1.a: "Lasst uns für ihren Erfolg beten"
+ets.1.a: "Lasst uns für ihren Erfolg beten."
 
 ets.2.t: "Ostturkestanische Delegation bittet um Unterstützung"
 ets.2.d: "Die ostturkestanische Delegation ist heute Morgen eingetroffen und hat uns gebeten, ihren Unabhängigkeitskrieg gegen die Xinjiang-Clique zu unterstützen. Wie sollen wir darauf reagieren? Wir können sie regelmäßig mit Waffen und Gold versorgen, um sie voll zu unterstützen, oder nur dieses eine Mal, um sie teilweise zu unterstützen, oder sie überhaupt nicht unterstützen."
-ets.2.a: "Volle Unterstützung leisten"
-ets.2.b: "Teilweise Unterstützung leisten"
-ets.2.c: "Machen wir uns gar nicht erst die Mühe, sie zu treffen"
+ets.2.a: "Volle Unterstützung leisten!"
+ets.2.b: "Teilweise Unterstützung leisten."
+ets.2.c: "Machen wir uns gar nicht erst die Mühe, sie zu treffen."
 
 ets.3.t: "Ostturkestanische Delegation bittet um Unterstützung"
 ets.3.d: "Die ostturkestanische Delegation ist heute Morgen eingetroffen und hat uns gebeten, ihren Unabhängigkeitskrieg gegen die Xinjiang-Clique zu unterstützen. Wie sollen wir darauf reagieren? Wir können sie regelmäßig mit Waffen und Gold versorgen, um sie voll zu unterstützen, oder nur dieses eine Mal, um sie teilweise zu unterstützen, oder sie überhaupt nicht unterstützen."
-ets.3.a: "Volle Unterstützung leisten"
-ets.3.b: "Teilweise Unterstützung leisten"
-ets.3.c: "Machen wir uns gar nicht erst die Mühe, sie zu treffen"
+ets.3.a: "Volle Unterstützung leisten!"
+ets.3.b: "Teilweise Unterstützung leisten."
+ets.3.c: "Machen wir uns gar nicht erst die Mühe, sie zu treffen."
 
 ets.4.t: "Ostturkestanische Delegation bittet um Unterstützung"
 ets.4.d: "Die ostturkestanische Delegation ist heute Morgen eingetroffen und hat uns gebeten, ihren Unabhängigkeitskrieg gegen die Xinjiang-Clique zu unterstützen. Wie sollen wir darauf reagieren? Wir können sie regelmäßig mit Waffen und Gold versorgen, um sie voll zu unterstützen, oder nur dieses eine Mal, um sie teilweise zu unterstützen, oder sie überhaupt nicht unterstützen."
-ets.4.a: "Volle Unterstützung leisten"
-ets.4.b: "Teilweise Unterstützung leisten"
-ets.4.c: "Machen wir uns gar nicht erst die Mühe, sie zu treffen"
+ets.4.a: "Volle Unterstützung leisten!"
+ets.4.b: "Teilweise Unterstützung leisten."
+ets.4.c: "Machen wir uns gar nicht erst die Mühe, sie zu treffen."
 
 ets.5.t: "Ostturkestanische Delegation bittet um Unterstützung"
 ets.5.d: "Die ostturkestanische Delegation ist heute Morgen eingetroffen und hat uns gebeten, ihren Unabhängigkeitskrieg gegen die Xinjiang-Clique zu unterstützen. Wie sollen wir darauf reagieren? Wir können sie regelmäßig mit Waffen und Gold versorgen, um sie voll zu unterstützen, oder nur dieses eine Mal, um sie teilweise zu unterstützen, oder sie überhaupt nicht unterstützen."
-ets.5.a: "Volle Unterstützung leisten"
-ets.5.b: "Teilweise Unterstützung leisten"
-ets.5.c: "Machen wir uns gar nicht erst die Mühe, sie zu treffen"
+ets.5.a: "Volle Unterstützung leisten!"
+ets.5.b: "Teilweise Unterstützung leisten."
+ets.5.c: "Machen wir uns gar nicht erst die Mühe, sie zu treffen."
 
 ets.6.t: "Ostturkestanische Delegation bittet um Unterstützung"
 ets.6.d: "Die ostturkestanische Delegation ist heute Morgen eingetroffen und hat uns gebeten, ihren Unabhängigkeitskrieg gegen die Xinjiang-Clique zu unterstützen. Wie sollen wir darauf reagieren? Wir können sie regelmäßig mit Waffen und Gold versorgen, um sie voll zu unterstützen, oder nur dieses eine Mal, um sie teilweise zu unterstützen, oder sie überhaupt nicht unterstützen."
-ets.6.a: "Volle Unterstützung leisten"
-ets.6.b: "Teilweise Unterstützung leisten"
-ets.6.c: "Machen wir uns gar nicht erst die Mühe, sie zu treffen"
-
-#ets.7 removed
+ets.6.a: "Volle Unterstützung leisten!"
+ets.6.b: "Teilweise Unterstützung leisten."
+ets.6.c: "Machen wir uns gar nicht erst die Mühe, sie zu treffen."
 
 ets.8.t: "Volle Unterstützung gewährt von [From.GetName]"
 ets.8.d: "Die Delegation, die wir nach [From.GetName] geschickt haben, hat großartige Neuigkeiten gebracht. Die Regierung von [From.GetAdjective] steht unserer Sache sehr wohlwollend gegenüber und hat beschlossen, uns bei der Erlangung der Unabhängigkeit voll zu unterstützen. Sie hat eine anständige Menge an Gewehren und Munition sowie etwas Gold bereitgestellt."
@@ -413,17 +409,17 @@ ets.8.a: "Großartig!"
 
 ets.9.t: "Teilweise Unterstützung gewährt von [From.GetName]"
 ets.9.d: "Die Delegation, die wir nach [From.GetName] geschickt haben, hat gute Nachrichten gebracht. Die Regierung von [From.GetAdjective] ist zwar immer noch etwas zögerlich, uns zu helfen, aber sie ist dennoch bereit, uns anzuhören. Dank des überzeugenden diplomatischen Geschicks unserer Delegation beschließt [From.GetName], uns einige Gewehre und Munition zur Unterstützung unserer Sache zur Verfügung zu stellen."
-ets.9.a: "Ein guter Start"
+ets.9.a: "Ein guter Start."
 
 ets.10.t: "Keine Unterstützung durch [From.GetName]"
 ets.10.d: "Schlechte Nachrichten. Die [From.GetAdjective]-Regierung hat unsere Delegation gemieden, weil sie der Meinung ist, dass wir den Aufwand nicht wert sind. Damit sind alle Hoffnungen auf ihre Unterstützung zunichte gemacht."
-ets.10.a: "Für diese Unverschämtheit werden sie später bezahlen"
+ets.10.a: "Für diese Unverschämtheit werden sie später bezahlen!"
 
 ets.11.t: "Ostturkestan bittet um mehr Ausrüstung"
 ets.11.d: "Heute ist eine weitere Delegation aus Ostturkestan eingetroffen, die uns mitteilte, dass sie mehr Waffen benötigen, um gegen ihre Feinde in Xinjiang zu kämpfen. Wir sollten uns davor hüten, zu viel in sie zu investieren."
-ets.11.a: "In Ordnung"
-ets.11.b: "Diesmal nicht"
-ets.11.c: "Nie wieder"
+ets.11.a: "In Ordnung."
+ets.11.b: "Diesmal nicht."
+ets.11.c: "Nie wieder!"
 
 ets.12.t: "[From.GetName] hat unserer Bitte zugestimmt"
 ets.12.d: "Die Karawanen kamen mit guten Nachrichten zurück. [From.GetName] hat unserer Bitte entsprochen und uns mehr Ausrüstung für den Kampf gegen unsere Feinde gegeben."
@@ -431,15 +427,15 @@ ets.12.a: "Großartig"
 
 ets.13.t: "[From.GetName] hat unsere Anfrage abgelehnt"
 ets.13.d: "Schlechte Nachrichten. Die [From.GetAdjective]-Regierung hat unseren Antrag auf mehr Waffen abgelehnt."
-ets.13.a: "In Ordnung"
+ets.13.a: "In Ordnung!"
 
 ets.14.t: "Neue Ausrüstungshilfe für Ostturkestan"
 ets.14.d: "Die ostturkestanische Delegation ist hier, um mehr Ausrüstung für ihren Krieg zu erhalten..."
-ets.14.a: "In Ordnung"
+ets.14.a: "In Ordnung."
 
 ets.15.t: "Neue Runde der Ausrüstungsunterstützung durch [From.GetName]"
 ets.15.d: "Wir haben weitere Ausrüstung von [From.GetName] erhalten, der sich freundlicherweise bereit erklärt hat, uns in unserem Krieg weiter zu unterstützen."
-ets.15.a: "Dankeschön [From.GetName]!"
+ets.15.a: "Dankeschön, [From.GetName]!"
 
 ets.16.t: "Unabhängigkeitserklärung von Ostturkestan"
 ets.16.d: "Nachdem der Kampf um die Kontrolle über die Ländereien unserer Nation gewonnen war, die Mächtigen aber immer noch zögerten, wurde beschlossen, eine neue Unabhängigkeitserklärung zu veröffentlichen, die sich an die Außenwelt richtet. In dem Dokument verspricht unsere große Nation, die Nationen zu respektieren, die sie respektieren, und sich an die etablierten Normen der internationalen Politik zu halten. Der Erklärung beigefügt ist eine vom Staatsrat gebilligte Direktive des Präsidialamtes, die Richtlinien für die Ausbildung und den Einsatz von Bürokraten festlegt und ein Prüfungssystem nach dem Vorbild der Bürokratie in Indien einführt. Damit wird auch der Ausnahmezustand beendet, der bei der Gründung der Nation zur Verfolgung des Unabhängigkeitskrieges verhängt wurde, und das zuvor suspendierte Parlament, das vor so langer Zeit in unseren früheren Kämpfen eingesetzt worden war, kann wieder zusammentreten.\n\nEndlich sind wir frei von chinesischer Kontrolle in unserer Region und können unabhängig von ihren Handlungen leben. Es wird jedoch höchstwahrscheinlich nicht mehr lange dauern, bis die Truppen aus China wieder einmarschieren und uns wieder unter ihre Tyrannei bringen. Das können wir nicht zulassen."
@@ -465,7 +461,7 @@ ets.20.b: "Die Männer gehen mit gezogenen Schwertern hinein."
 ets.200.t: "Die Konferenz von Kashgar"
 ets.200.desc_1: "Die neue Regierung von Ostturkestan veranstaltete eine kleine Konferenz der islamischen und turkstämmigen Nationen. Obwohl wir keine offizielle diplomatische Delegation entsandten, nahmen einige unserer Intellektuellen an der Veranstaltung teil und kehrten mit einer Sympathie für das Regime in Kashgar zurück."
 ets.200.desc_2: "Die neue Regierung von Ostturkestan veranstaltete eine kleine Konferenz der islamischen Nationen. Obwohl wir keine offizielle diplomatische Delegation entsandten, nahm eine Reihe unserer Intellektuellen an der Veranstaltung teil. Während die Konferenz anfangs reibungslos verlief, wurde sie bald zum Mittelpunkt eines Staatsstreichs. Unsere Intellektuellen wurden Opfer eines grausamen Blutbades und kehrten mit großer Besorgnis über das neue Regime in Hotan nach Hause zurück, obwohl es zur islamischen Einheit aufrief."
-ets.200.a: "Gott ist wahrlich der größte Planer"
+ets.200.a: "Gott ist wahrlich der größte Planer!"
 
 ets.201.t: "Meine Republik für ein Pferd"
 ets.201.d: "Nach einer kurzen Unterbrechung wurde die Konferenz fortgesetzt. Bei der Untersuchung der Außenanlagen wurden mehrere Leichen entdeckt, darunter die des widerspenstigen Muhammad Amin Bughra. Viele Teilnehmer der Konferenz waren schockiert über diese Gewalttat, aber für Timur war es etwas anderes. Für Timur war es, als hätte Gott seinen größten Feind erschlagen und ihm zu Füßen gelegt. Mit seinem Tod ist der Widerstand gegen Timurs Macht minimal und seine Konsolidierung wird mit Sicherheit folgen. Zum Abschluss der Konferenz gab Präsident Sabit Damulla Abdulbaki bekannt, dass er zurücktritt und durch Timur Beg ersetzt wird."
@@ -487,7 +483,7 @@ ets.22.b: "Die Soldaten geben nach und ihre Anführer werden aufgegeben."
 
 ets.23.t: "Eine große Affäre"
 ets.23.d: "Eine geplante Militärparade in Kashgar verlief ohne Zwischenfälle. Die Menschen sahen die Macht der ostturkestanischen Armee und die Stärke der Herrschaft von Timur Beg. Anschließend hielt Timur eine Rede, in der er seine Pläne für die Zukunft erläuterte, darunter künftige Präsidentschaftswahlen und die Zusammenarbeit mit Wirtschaftsführern zur Schaffung einer echten Wirtschaft. Nach dieser extravaganten Machtdemonstration kann sich Präsident Timur Beg nun den Staatsgeschäften zuwenden."
-ets.23.a: "Er wird großen Ruhm erlangen"
+ets.23.a: "Er wird großen Ruhm erlangen!"
 
 ets.24.t: "Ein Teil des Puzzles"
 ets.24.d: "Nachdem der Staat gesichert ist, haben sich die Bughra Amirs der weit verbreiteten Korruption zugewandt, die unter der früheren Führung gefördert wurde. Unter der Prämisse, eine Bürokratie von Grund auf aufzubauen, war Vetternwirtschaft bei Ernennungen in der Verwaltung weit verbreitet. Alle, die über ihren Rang hinausgehende Positionen erhalten haben und wahrscheinlich illoyal bleiben, sollen entfernt werden, und künftige Ernennungen sollen allein aufgrund von Verdiensten in einem System erfolgen, das sich an der Sunna orientiert."
@@ -495,12 +491,12 @@ ets.24.a: "Gott ist groß!"
 
 ets.25.t: "Der Wille Gottes"
 ets.25.d: "Nachdem die Bughras die Macht in unserer Republik erringen konnten, stellt sich für sie die Frage, ob sich die Nation zunächst auf die Entwicklung als echte und unabhängige islamische Nation konzentrieren sollte, oder ob es sofort an der Zeit ist, die Hand auszustrecken und engere Beziehungen zu den anderen türkischen Nationen der Welt zu knüpfen. Die ehrgeizige pantürkische Agenda ist gewaltig, und die meisten Intellektuellen stellen sich die Frage, ob wir genügend Ressourcen für einen solchen Ansatz haben."
-ets.25.a: "Wir müssen uns nach innen orientieren für den Islam."
-ets.25.b: "Wir müssen uns nach außen orientieren, für den Pan-Turkismus."
+ets.25.a: "Wir müssen uns nach innen orientieren für den Islam!"
+ets.25.b: "Wir müssen uns nach außen orientieren, für den Pan-Turkismus!"
 
 ets.26.t: "Die Sonne geht im Osten auf"
 ets.26.d: "Sowohl Masud Sabri als auch Isa Alptekin verfügen über Verbindungen nach China und sind daher im Allgemeinen den Chinesen und Tunganern gegenüber freundlicher eingestellt als die allgemeine türkische Bevölkerung. Während Alptekin nicht so weit geht, hat Masud Sabri seine Absicht kundgetan, formelle diplomatische Beziehungen zu denjenigen chinesischen Regimen aufzunehmen, die sich als freundlich erweisen könnten. Obwohl Sabri zunächst versucht hat, die Öffentlichkeit auf seiner Seite zu halten, scheint dies nach dieser Ankündigung nun völlig unmöglich zu sein. Natürlich sind viele mit Sabris Regierung unzufrieden, und es kommt nun regelmäßig zu kleinen Protesten vor Regierungsgebäuden."
-ets.26.a: "Und wir werden der Sonne folgen."
+ets.26.a: "Und wir werden der Sonne folgen!"
 
 ets.27.t: "Populäre Forderungen"
 ets.27.d: "Seit über zwei Wochen gibt es in den großen Städten des Landes massive Proteste, die sich auf die Hauptstadt Kashgar konzentrieren. Die im Allgemeinen uninformierte Bevölkerung Ostturkestans ist verärgert über Sabris Plan, engere Beziehungen zu den Chinesen anzustreben, die von den meisten Turkvölkern immer noch als ihre früheren Unterdrücker angesehen werden. Alptekin, Sabris Koalitionspartner, ist aus der Koalition ausgetreten und hat erklärt, dass es jetzt an der Zeit sei, dass Sabri zurücktritt, natürlich um durch Alptekin ersetzt zu werden, und dass ordentliche Wahlen darüber abgehalten werden können, wen das Volk will. Darüber hinaus ist der sozialistische Führer der Jungturkestan-Partei, Ishaq Bey, aus der Versenkung aufgetaucht und hat begonnen, in den Städten um Unterstützung zu werben. Wenn Sabri nicht zurücktritt, ist klar, dass seine Herrschaft von nun an genauso diktatorisch sein wird, wie es die von Timur Beg jemals hätte sein können."
@@ -531,70 +527,38 @@ ets.33.t: "Abgeschlossene Wüstenprojekte"
 ets.33.d: "Das Projekt zur Verbesserung der Infrastruktur durch die Taklamakan-Wüste ist abgeschlossen, und Muhammad Amin Bughra selbst eröffnete den Beginn der Eisenbahnstrecke in Hotan. Sie wird die Anbindung der umliegenden Regionen massiv verbessern und dazu beitragen, die Einheit der immer noch geteilten Nation zu schaffen."
 ets.33.a: "Ausgezeichnet."
 
-ets.34.t: "Umgang mit den Tunganern"
-ets.34.d: "Nachdem die Vorbereitungen getroffen sind, muss die Tungan-Frage angegangen werden. Die Tunganen sind die große ethnische Gruppe in Ostturkestan, und obwohl sie Moslems sind, sind sie überzeugte Chinesen und sehr eng mit den chinesischen Staaten verbunden. Während zweifellos ein Assimilationsprogramm verabschiedet werden wird, das die chinesische Sprache stark einschränkt, hat die Frage der Deportation, die von vielen in unserer Regierung angestrebt wird, für viel Diskussionsstoff gesorgt. Die Deportation der Tungan-Bevölkerung in strategisch wichtigen Gebieten könnte zwar einen gewissen Nutzen bringen, würde aber auch der Armee dringend benötigte Arbeitskräfte entziehen und im Ausland zu beträchtlichen Kosten für Dissidenten führen."
-ets.34.a: "Abschiebung aus kritischen Gebieten, Assimilierung für die anderen."
-ets.34.b: "Assimilation wird ausreichen"
-
-ets.35.t: "Erste Abschiebungen"
-ets.35.d: "Die Bevölkerung in der Nähe von Großstädten und an strategisch wichtigen Stellen wurde überprüft, und Tausende von Tunganern wurden zusammengetrieben und nach Westen in Richtung Qinghai in Marsch gesetzt. Die Bevölkerung, die deportiert werden sollte, leistete großen Widerstand, doch insgesamt verlief alles so gut wie erwartet."
-ets.35.a: "Wir sind noch nicht fertig!"
-
-ets.350.t: "Flüchtlinge aus dem Osten"
-ets.350.d: "Die neue Regierung von Ostturkestan, der früheren chinesischen Provinz Xinjiang, ist äußerst brutal und in jeder Hinsicht antichinesisch. Erst kürzlich sind Scharen von Flüchtlingen, die aus Ostturkestan selbst vertrieben wurden, in Qinghai eingetroffen und gaben an, dass sie vom ostturkestanischen Militär vertrieben wurden. Insgesamt sind etwa fünfzigtausend Menschen in die Stadt gekommen und haben sich dort niedergelassen, die meisten von ihnen gehören der Volksgruppe der Hui an."
-ets.350.a: "Eine interessante Entwicklung"
-
-ets.36.t: "Konvertierte Zeichen"
-ets.36.d: "Im Rahmen der ersten Phase des Assimilationsprogramms wurden landesweit alle Schilder in chinesischer Sprache in die Standardschrift Chagatay umgewandelt, sowohl im privaten als auch im öffentlichen Bereich. Alle, selbst die entlegensten Dorfbewohner, wurden über das Verbot der chinesischen Sprache und die Folgen einer Missachtung des Gesetzes aufgeklärt."
-ets.36.a: "Es wird noch mehr kommen!"
-
-ets.37.t: "Zweite Abschiebungsrunde"
-ets.37.d: "Die verbliebenen Tunganer aus den für die Deportation vorgesehenen Gebieten wurden zusammengetrieben. Diesmal werden sie in Richtung Gansu deportiert."
-ets.37.a: "Endlich ist unser Land sicher."
-
-ets.370.t: "Flüchtlinge aus dem Osten"
-ets.370.d: "Aus Ostturkestan vertriebene Flüchtlingsscharen sind im nördlichen Gansu angekommen. Insgesamt sind es etwa zwanzigtausend Menschen, die meisten von ihnen Hui."
-ets.370.a: "Eine interessante Entwicklung"
-ets.370.b: "Unser Volk wird gedemütigt. Das bedeutet Krieg."
-
-ets.38.t: "Wachsende Kompetenz"
-ets.38.d: "Unsere Assimilationspolitik ist in vollem Gange. Es wird zwar noch Jahre dauern, bis sich Demografie und Identität ändern, aber wir sind auf dem besten Weg dahin. Zumindest das öffentliche Leben ist hinreichend türkisiert worden. Man wird uns nicht mehr als eine weitere rebellische Provinz Pekings betrachten. Jetzt sind wir wirklich türkisch."
-ets.38.a: "So Gott will!"
-
 ets.39.t: "Die Nationalsprache"
 ets.39.d: "Wir müssen die vielen türkischen Dialekte Ostturkestans vereinheitlichen. Zu diesem Zweck wurde eine Standardsprache vorgeschlagen, die von der zentralasiatischen Intelligenz verwendet wird. Sie basiert auf der in Taschkent gesprochenen Chagatay-Sprache und wird uns zweifellos auch unseren türkischen Brüdern näher bringen."
-ets.39.a: "Es wird ein langer Prozess sein"
+ets.39.a: "Es wird ein langer Prozess sein."
 
 ets.40.t: "Verbreitete Sprachnorm"
 ets.40.d: "Eine Reihe von Normen und Regeln für den Sprachgebrauch wurden ausgearbeitet und im ganzen Land verbreitet. Die von uns angestrebten sprachlichen Reformen werden nun propagiert."
-ets.40.a: "Wir werden ein Volk sein"
+ets.40.a: "Wir werden ein Volk sein."
 
 ets.41.t: "Erfolg der Sprachstandardisierung"
 ets.41.d: "Natürlich wird es noch einige Zeit dauern, bis die neue Einheitssprache die alte verdrängt, aber die neue Standardsprache ist jetzt auf jeder Straße zu hören, da die Menschen gezwungen sind, sie in der Öffentlichkeit zu übernehmen oder mit Strafen zu rechnen."
 ets.41.a: "Wunderbar!"
 
-#ets.42-46 removed
-
 ets.47.t: "Flugplätze errichten"
 ets.47.d: "Um den Aufbau einer Luftstreitkraft vorzubereiten, benötigen wir Luftstützpunkte. In den vergangenen zwei Monaten seit der Genehmigung des Vorhabens wurden Standorte im ganzen Land sorgfältig ausgewählt. Heute sind diese Basen fertiggestellt worden."
-ets.47.a: "Eine lohnende Investition"
+ets.47.a: "Eine lohnende Investition."
 
 ets.48.t: "Flugzeuge erwerben"
 ets.48.d: "Nachdem wir Flugplätze angelegt haben, brauchen wir jetzt die Flugzeuge, um sie zu bemannen. Sollten wir uns auf die Entwicklung einheimischer Modelle konzentrieren oder die Luftstreitkräfte durch den Kauf ausländischer Flugzeuge ankurbeln?"
-ets.48.a: "Kauft ausländischer Flugzeuge"
-ets.48.b: "Konzentrtion auf den innerstaatlichen Fortschritt"
+ets.48.a: "Kauft ausländischer Flugzeuge!"
+ets.48.b: "Konzentrtion auf den innerstaatlichen Fortschritt!"
 
 ets.49.t: "Auswahl eines Lieferanten"
 ets.49.d: "Nachdem die Entscheidung für einen ausländischen Flugzeuglieferanten gefallen ist, müssen wir nun entscheiden, auf wen wir unsere Bemühungen konzentrieren wollen."
-ets.49.a: "Deutschland"
-ets.49.b: "Russland"
-ets.49.c: "Das Osmanische Reich"
-ets.49.e: "Japan"
+ets.49.a: "Deutschland!"
+ets.49.b: "Russland!"
+ets.49.c: "Das Osmanische Reich!"
+ets.49.e: "Japan!"
 
 ets.50.t: "Ostturkestan bittet um den Kauf von Flugzeugen"
 ets.50.d: "Die Regierung von Ostturkestan hat sich an unsere kürzlich eingerichtete Delegation in ihrer Hauptstadt gewandt, um den Kauf veralteter Kampfflugzeuge zu arrangieren."
 ets.50.a: "Wir akzeptieren"
-ets.50.b: "Das ist ein schlechtes Geschäft"
+ets.50.b: "Das ist ein schlechtes Geschäft."
 
 ets.51.t: "[FROM.GetAdjective] Flugzeuggeschäft"
 ets.51.d: "Unser Angebot, [FROM.GetAdjective] Flugzeuge zu kaufen, wurde gut angenommen. Die Flugzeuge sind eingetroffen und das Geld wurde überwiesen."
@@ -609,7 +573,7 @@ ets.53.d: "Seit dem Sieg im Unabhängigkeitskrieg gegen die Chinesen hat das neu
 ets.53.a: "Ausgezeichnet."
 
 ets.54.t: "Ostturkestan will Offiziere zur Ausbildung schicken"
-ets.54.d: "Der neue Staat Ostturkestan hat sich in letzter Zeit unserer Regierung angenähert, und es scheint, dass ihre Pläne für eine Zusammenarbeit verwirklicht worden sind. Ihre Regierung hat eine Anfrage an unsere Regierung gerichtet, in der sie darum bittet, dass unser Militär einige ihrer Offiziere ausbildet, um ihre Armee besser für die Verteidigung des Staates gegen \"Feinde von außen und von innen\" zu rüsten. Die Versorgungskosten könnten jedoch ein Grund sein, sie abzulehnen."
+ets.54.d: 'Der neue Staat Ostturkestan hat sich in letzter Zeit unserer Regierung angenähert, und es scheint, dass ihre Pläne für eine Zusammenarbeit verwirklicht worden sind. Ihre Regierung hat eine Anfrage an unsere Regierung gerichtet, in der sie darum bittet, dass unser Militär einige ihrer Offiziere ausbildet, um ihre Armee besser für die Verteidigung des Staates gegen "Feinde von außen und von innen" zu rüsten. Die Versorgungskosten könnten jedoch ein Grund sein, sie abzulehnen.'
 ets.54.a: "Wir werden sie ausbilden."
 ets.54.b: "Wir haben nicht die nötigen Mittel."
 
@@ -641,13 +605,10 @@ ETS_ADJ: "Ostturkestanisch"
 ETS_DEF: "Ostturkestan"
 
 ETS_totalist: "Volksrepublik Ostturkestan"
-ETS_totalist_ADJ: "Ostturkestanisch"
 ETS_totalist_DEF: "die Volksrepublik Ostturkestan"
 ETS_syndicalist: "Volksrepublik Ostturkestan"
-ETS_syndicalist_ADJ: "Ostturkestanisch"
 ETS_syndicalist_DEF: "die Volksrepublik Ostturkestan"
 ETS_radical_socialist: "Volksrepublik Ostturkestan"
-ETS_radical_socialist_ADJ: "Ostturkestanisch"
 ETS_radical_socialist_DEF: "die Volksrepublik Ostturkestan"
 
 ### Characters ###
@@ -659,10 +620,10 @@ ETS_timur_beg: "Timur Beg"
 ETS_timur_beg_shah: "Timur Shah"
 
 ETS_sabit_damulla_abdulbaki: "Sabit Damulla Abdulbaki"
-ETS_sabit_damulla_abdulbaki_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 1883, in Artush, Provinz Xinjiang, Qing-Reich\n§YPolitikkarriere:§! Sabit Damulla Abdulbaki hätte nie damit gerechnet, dass er das Gesicht der türkischen nationalistischen Bewegung in Xinjiang werden würde. Als hochgebildeter Akademiker und Journalist korrespondierte Abdulbaki mit mehreren der bekanntesten lebenden jadidischen Gelehrten der Welt. Über jadidische Kreise lernte er prominente Mitglieder der nationalistischen Bewegung in Ostturkestan kennen, darunter den wohlhabenden Aristokraten Muhammad Amin Bughra, und über Bughra auch die breitere nationalistische Bewegung. Aufgrund seines angenehmen Auftretens, seiner pragmatischen Sichtweise und seiner fließenden Beherrschung mehrerer Sprachen einigten sich die oft zerstrittenen nationalistischen Gruppierungen auf Damulla als ersten Staats- und Regierungschef Ostturkestans. Sollte Ostturkestan seine Unabhängigkeit erlangen, ist es jedoch wahrscheinlich, dass Damulla von derjenigen Fraktion abgelöst wird, die sich am Ende durchsetzt."
+ETS_sabit_damulla_abdulbaki_leader_desc: "§YGeboren:§! §L1883, in Artush, Provinz Xinjiang, Qing-Reich§!\n§YHintergrund:§! §LSabit Damulla Abdulbaki hätte nie damit gerechnet, dass er das Gesicht der türkischen nationalistischen Bewegung in Xinjiang werden würde. Als hochgebildeter Akademiker und Journalist korrespondierte Abdulbaki mit mehreren der bekanntesten lebenden jadidischen Gelehrten der Welt. Über jadidische Kreise lernte er prominente Mitglieder der nationalistischen Bewegung in Ostturkestan kennen, darunter den wohlhabenden Aristokraten Muhammad Amin Bughra, und über Bughra auch die breitere nationalistische Bewegung. Aufgrund seines angenehmen Auftretens, seiner pragmatischen Sichtweise und seiner fließenden Beherrschung mehrerer Sprachen einigten sich die oft zerstrittenen nationalistischen Gruppierungen auf Damulla als ersten Staats- und Regierungschef Ostturkestans. Sollte Ostturkestan seine Unabhängigkeit erlangen, ist es jedoch wahrscheinlich, dass Damulla von derjenigen Fraktion abgelöst wird, die sich am Ende durchsetzt.§!"
 
 ETS_muhammad_amin_bughra: "Muhammad Amin Bughra"
-ETS_muhammad_amin_bughra_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 1901, in Hotan, Provinz Xinjiang, Qing-Reich\n§YPolitikkarriere:§! Das frühe Leben von Muhammad Amin Bughra ist geheimnisumwittert, und nur wenige Hinweise deuten darauf hin, dass er vor seinem Militärdienst an einer Madrassa unterrichtete. Bughras Hintergrund als Dschadidist und Türke erlaubte ihm nur wenige Annehmlichkeiten, selbst unter Ma Shaowus Herrschaft in Hotan. Bughra war fest entschlossen, sich für die Einigung Xinjiangs einzusetzen, und verachtete die schwache Haltung, mit der Gouverneur Yang seine Garnisonen hielt. Gleichzeitig wandte sich Bughra gegen die von General Sheng Shicai vorgeschlagenen Han-zentrierten Armeereformen, die die Schuld für die Misswirtschaft der Armee eher dem Islam als der Opiumepidemie zuschoben."
+ETS_muhammad_amin_bughra_leader_desc: "§YGeboren:§! §L1901, in Hotan, Provinz Xinjiang, Qing-Reich§!\n§YHintergrund:§! §LDas frühe Leben von Muhammad Amin Bughra ist geheimnisumwittert, und nur wenige Hinweise deuten darauf hin, dass er vor seinem Militärdienst an einer Madrassa unterrichtete. Bughras Hintergrund als Dschadidist und Türke erlaubte ihm nur wenige Annehmlichkeiten, selbst unter Ma Shaowus Herrschaft in Hotan. Bughra war fest entschlossen, sich für die Einigung Xinjiangs einzusetzen, und verachtete die schwache Haltung, mit der Gouverneur Yang seine Garnisonen hielt. Gleichzeitig wandte sich Bughra gegen die von General Sheng Shicai vorgeschlagenen Han-zentrierten Armeereformen, die die Schuld für die Misswirtschaft der Armee eher dem Islam als der Opiumepidemie zuschoben.§!"
 
 ETS_abdullah_bughra: "Abdullah Bughra"
 ETS_nur_ahmadjan_bughra: "Nur Ahmadjan Bughra"
