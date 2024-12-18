@@ -168,6 +168,13 @@ china_request_return_of_concessions_desc: "Bei den Konzessionen handelte es sich
 china_seize_concessions: "Beschlagnahmt die [FROM.GetAdjective] Konzessionen"
 china_seize_concessions_desc: "Da die Verhandlungen gescheitert sind, bleibt uns keine andere Wahl als das Schwert, wenn wir unsere Küstenbewohner von der Fremdherrschaft befreien wollen. Unsere Streitkräfte haben sich bereits in den Außenbezirken versammelt und sind bereit, die Rückgabe der Städte an ihre rechtmäßigen Besitzer zu gewährleisten."
 
+china_expand_mongolian_autonomy: "Erweiterung der Autonomen Region Mongolei"
+china_expand_mongolian_autonomy_desc: "Nachdem wir kürzlich Tuwa von den Russen zurückerobert haben, sollten wir die mongolische autonome Zone um dieses neue Gebiet erweitern."
+china_expand_tibetan_autonomy: "Erweiterung der Autonomen Region Tibet"
+china_expand_tibetan_autonomy_desc: "Nachdem die Frage der McMahon-Linie endgültig geklärt ist, sollten wir dieses neue Gebiet in unsere tibetische autonome Region integrieren."
+china_expand_xinjiang_autonomy: "Erweiterung der Autonomen Region Xinjiang"
+china_expand_xinjiang_autonomy_desc: "Nachdem wir kürzlich Aksai Chin zurückerobert haben, sollten wir dieses neue Gebiet in die Xinjianger Autonomieregion integrieren."
+
 #Reusable loc
 #CHI_alignment_integration_category: "Chinesische autonome Regionen - Integration"
 #CHI_alignment_integration_category_desc: "Unser Sieg im Norden Chinas hat es uns ermöglicht, unsere Nation zu einer zusammenhängenden Regierung zu zentralisieren, aber einige der Provinzen Chinas werden von autonomen Gouverneuren regiert, die direkter unter unsere Kontrolle gebracht werden sollten..."
@@ -304,6 +311,8 @@ china_gets_event_109_from_china_refused_both: "$gets_event_start$$china_events.1
 china_gets_event_109_from_russia: "$gets_event_start$$china_events.109.t.from_russia$$gets_event_end$"
 china_gets_event_109_from_india: "$gets_event_start$$china_events.109.t.from_india$$gets_event_end$"
 
+china_chinese_united_front_does_exist: "Die Chinesische Einheitsfront existiert."
+china_chinese_united_front_does_not_exist: "Die Chinesische Einheitsfront existiert nicht."
 china_cannot_declare_war_while_in_united_front: "Mitglieder der Einheitsfront können keine anderen Kriege erklären."
 
 china_becomes_CHN_tt: "§YWir sind als die legitimste Regierung in China anerkannt.§!"
