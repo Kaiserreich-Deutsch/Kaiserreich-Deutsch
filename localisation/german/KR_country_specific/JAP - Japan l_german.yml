@@ -408,9 +408,9 @@
  JAP_research_slot_warning: "Dieser Forschungsslot bleibt für §H365§! Tage erhalten."
  JAP_deploy_tanks: "Eine Einheit £GFX_nato_unit_light_armor_icon_small §YDokuritsu Konsei Ryodan II§! wird erstellt:\n   x §Y5§! £GFX_nato_unit_light_armor_icon_small Leichtes Panzerbataillon\n   x §Y5§! £GFX_nato_unit_motorized_icon_small  Motorisiertes Bataillon\n      - £GFX_nato_unit_artillery_icon_small  Artillerie Kompanie\n      - £GFX_nato_unit_recon_icon_small  Motorisierte Aufklärungseinheit"
  JAP_unlock_new_triangular: "Schalte die neue £GFX_nato_unit_infantry_icon_small §YSantanisei Shidan§! Vorlage frei:\n   x §Y9§! £GFX_nato_unit_infantry_icon_small  Infanterie Bataillon\n   x §Y3§! £GFX_nato_unit_artillery_icon_small  Artillerie Bataillon\n      - £GFX_nato_unit_engineer_icon_small  Pionier Kompanie\n      - £GFX_nato_unit_artillery_icon_small  Artillerie Kompanie\n      - £GFX_nato_unit_recon_icon_small  Kavallerie-Aufklärungseinheit"
- JAP_war_ready_industries_3_complete: "$has_completed_decision$$JAP_war_ready_industries_3$"
- JAP_war_ready_soldiers_3_complete: "$has_completed_decision$$JAP_war_ready_soldiers_3$"
- JAP_war_ready_equipment_3_complete: "$has_completed_decision$$JAP_war_ready_equipment_3$"
+ JAP_war_ready_industries_3_complete: "$has_completed_decision$$JAP_war_ready_industries_3$§!"
+ JAP_war_ready_soldiers_3_complete: "$has_completed_decision$$JAP_war_ready_soldiers_3$§!"
+ JAP_war_ready_equipment_3_complete: "$has_completed_decision$$JAP_war_ready_equipment_3$§!"
  JAP_merge_into_modern_army: "Verschmelzen von §H$JAP_equipment_modernisation$§!, §H$JAP_research_modernisation_lw$§!, und §H$JAP_staff_modernisation_lw$§! zu §H$JAP_long_war_army_lw$§!\nEffektive Veränderung:\n$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: §G10%§!\n$MODIFIER_STABILITY_WAR_FACTOR$: [?0.10|+=%]"
 
 ### Tooltips ###
@@ -649,10 +649,14 @@
  JAP_fading_sun_timer_enemy: "Die verblassende Sonne"
  JAP_fading_sun_timer_enemy_desc: "Der Verlust der koreanischen Halbinsel und von Port Arthur an ausländische Streitkräfte ist ein schwerer Schlag für Japans laufende Kriegsanstrengungen. Wenn es ihnen nicht gelingt, auf dem Festland wieder Fuß zu fassen, werden die innenpolitischen Unruhen, die durch die zahlreichen Niederlagen ausgelöst wurden, die wir ihnen zugefügt haben, das Reich der aufgehenden Sonne bald an den Verhandlungstisch zwingen."
 
+ JAP_fading_sun_available_tt: "§Y[JAP.GetNameDefCap]§! hat die Kontrolle über Korea vollständig wiedererlangt"
+
  JAP_offer_peace_to_china: "China Frieden anbieten"
  JAP_offer_peace_to_china_desc: "Die Chinesen haben unsere Armeen besiegt und kontrollieren nun die Mandschurei und Korea. Sie sind zwar nicht in der Lage, auf die Heimatinseln vorzudringen, aber die Schande und die Demütigung dieser Niederlage haben massive innere Unruhen ausgelöst. Die beste Vorgehensweise ist nun, einen Frieden auszuhandeln, ungeachtet der Schande, und sich der Bekämpfung unserer neuen internen Probleme zuzuwenden."
  JAP_offer_peace_to_russia: "Angebot Frieden an [From.GetNameDef]"
  JAP_offer_peace_to_russia_desc: "Die Russen haben unsere Armeen besiegt und kontrollieren nun unsere Gebiete auf dem Festland, um ihre Niederlage von 1905 ein für alle Mal zu rächen. Sie sind zwar nicht in der Lage, auf den Heimatinseln einzumarschieren, aber die Schande und Demütigung dieser Niederlage haben zu massiven internen Unruhen geführt. Die beste Vorgehensweise ist nun, einen Frieden auszuhandeln, ungeachtet der Schande, und sich der Bekämpfung unserer neuen internen Probleme zuzuwenden."
+
+ JAP_offer_peace_available_tt: "§Y[JAP.GetNameDefCap]§! oder seine Verbündeten kontrollieren nichts von Koreas"
 
  JAP_will_surrender_if_forced_out_of_china: "Auswirkungen, wenn Japan keine Staaten auf dem chinesischen Festland kontrolliert:"
  JAP_all_chinese_allies_capitulated: "Alle chinesischen Verbündeten auf dem asiatischen Festland haben kapituliert"
