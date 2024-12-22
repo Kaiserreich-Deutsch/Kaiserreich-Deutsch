@@ -96,13 +96,13 @@ UPC_will_join_faction_after_war_FROM: "§G[FROM.GetNameWithFlag] wird der §H[FR
 
 ### Flags ###
 UPC_reconstruction_plan_unlocked: "Hat den Wiederaufbauplan freigeschaltet"
-UPC_built_to_nanning: "Hat die Entscheidung £decision_icon_small §H$UPC_guangzhou_nanning$§! absolviert"
-UPC_built_to_guiyang: "Hat die Entscheidung £decision_icon_small §H$UPC_nanning_guiyang$§! absolviert"
-UPC_built_to_changsha: "Hat die Entscheidung £decision_icon_small §H$UPC_guangzhou_changsha$§! absolviert"
-UPC_built_to_fujian: "Hat die Entscheidung £decision_icon_small §H$UPC_guangzhou_fujian$§! absolviert"
-UPC_connected_the_coast: "Hat die Entscheidung £decision_icon_small §H$UPC_connect_coast$§! absolviert"
-UPC_built_to_nanjing: "Hat die Entscheidung £decision_icon_small §H$UPC_changsha_nanjing$§! absolviert"
-UPC_connected_northwest: "Hat die Entscheidung £decision_icon_small §H$UPC_connect_northwest$§! absolviert"
+UPC_built_to_nanning: "$has_completed_decision$$UPC_guangzhou_nanning$§!"
+UPC_built_to_guiyang: "$has_completed_decision$$UPC_nanning_guiyang$§!"
+UPC_built_to_changsha: "$has_completed_decision$$UPC_guangzhou_changsha$§!"
+UPC_built_to_fujian: "$has_completed_decision$$UPC_guangzhou_fujian$§!"
+UPC_connected_the_coast: "$has_completed_decision$$UPC_connect_coast$§!"
+UPC_built_to_nanjing: "$has_completed_decision$$UPC_changsha_nanjing$§!"
+UPC_connected_northwest: "$has_completed_decision$$UPC_connect_northwest$§!"
 
 ### Decisions ###
 UPC_mopping_up: "Mit Seperatisten abrechnen"

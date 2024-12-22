@@ -280,8 +280,8 @@ CEN_middle_option_army: "§YEine gemischte Truppe wurde von der Versammlung ausg
 CEN_federal_army: "§YEine Bundesarmee wurde von der Versammlung gewählt.§!"
 CEN_the_conflict_begins: "Vorbereitung eines Einigungskrieges für Zentralamerika"
 CENdem_succesful_negotiation: "Wir haben erfolgreich mit Westindien verhandelt."
-CENdem_1_rail_completed: "Hat die Entscheidung £decision_icon_small §Y$CENdem_guatamala_san_salvador_railway$§! abgeschlossen"
-CENdem_2_rail_completed: "Hat die Entscheidung £decision_icon_small §Y$CENdem_san_salvador_tegucigalpa_railway$§! abgeschlossen"
+CENdem_1_rail_completed: "$has_completed_decision$$CENdem_guatamala_san_salvador_railway$§!"
+CENdem_2_rail_completed: "$has_completed_decision$$CENdem_san_salvador_tegucigalpa_railway$§!"
 
 ### Parties ###
 CEN_social_democrat_liberal: "PT"
@@ -1054,9 +1054,9 @@ CEN_elections_people: "Entschied sich dafür, das Volk wählen zu lassen"
 CEN_elections_council: "Entschied sich dafür, den Kongress wählen zu lassen"
 CEN_no_more_centralisation: "Wir haben uns entschieden, unseren Plan der Zentralisierung und Konsolidierung der Macht nicht fortzusetzen."
 
-CEN_continue_land_improvement_in_nicaragua: "Hat die Entscheidung £decision_icon_small §YLandreform in Nicaragua§! abgeschlossen"
-CEN_expanded_road_south: "Hat die Entscheidung £decision_icon_small §YErweiterung der Straße nach Süden§ abgeschlossen!"
-CEN_extented_road_peninsula: "Hat die Entscheidung £decision_icon_small §YErweiterung der Straße nach Yucatan§ abgeschlossen!"
+CEN_continue_land_improvement_in_nicaragua: "$has_completed_decision$$CEN_land_reform_in_nicaragua$§!"
+CEN_expanded_road_south: "$has_completed_decision$$CEN_extent_road_south$§!"
+CEN_extented_road_peninsula: "$has_completed_decision$$CEN_extent_road_peninsula$§!"
 CEN_talks_begin: "Wir konzentrieren uns nicht bereits auf einen anderen Staat."
 
 ### Tooltips

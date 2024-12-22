@@ -23,7 +23,7 @@ LIB_national_populist_party: "GLL"
 LIB_national_populist_party_long: "Grand Lodge of Liberia"
 
 LIB_german_liberian_federation: "DLB"
-LIB_german_liberian_federation_long: "Deutsch-Liberianische Bund"
+LIB_german_liberian_federation_long: "Deutsch-Liberianischer Bund"
 
 ### Cosmetic Tags ###
 LIB: "Liberia"
@@ -31,14 +31,11 @@ LIB_ADJ: "Liberianisch"
 LIB_DEF: "Liberia"
 
 LIB_totalist: "Sozialistische Republik Liberia"
-LIB_totalist_ADJ: "Liberianisch"
 LIB_totalist_DEF: "die Sozialistische Republik Liberia"
 LIB_syndicalist: "Sozialistische Republik Liberia"
-LIB_syndicalist_ADJ: "Liberianisch"
 LIB_syndicalist_DEF: "die Sozialistische Republik Liberia"
 
 LIB_GER_subject: "Dominion Liberia"
-LIB_GER_subject_ADJ: "Liberianisch"
 LIB_GER_subject_DEF: "die Dominion Liberia"
 
 ### Ideas ###
@@ -81,22 +78,11 @@ LIB_freemason_purge_1: "Säuberung von Ausländern"
 LIB_freemason_purge_2: "Säuberung von Sozialisten"
 LIB_freemason_purge_3: "Säuberung von Republikanern"
 
-### Tooltips ###
+### Country Flags ###
 LIB_1939_elections_held: "Die Wahlen von 1939 haben stattgefunden.\n"
-LIB_receive_militias: "Erhaltet drei Divisionen der Miliz\n"
-LIB_internal_decisions: "Importierte Kriegsindustrie"
-LIB_obtain_dockyard_access: "Bezahlt für die Nutzung der amerikanischen Werft"
-LIB_assemble_air_squadron: "Importiert [FROM.GetAdjective] Kampfflugzeuge"
-LIB_request_infantry_equipment: "Importiert amerikanische Gewehre"
-LIB_pull_strings_with_industrialists: "Lockt die amerikanische Schwerindustrie an"
-LIB_war_in_ivory_coast: "§REin solch aggressives Vorgehen kann durchaus zu einem totalen Krieg führen.§!"
-
-LIB_Not_Enough_Stuff: "Wir haben nicht genügend Ausrüstung, um diese Anfrage zu erfüllen, und müssen sie daher ablehnen."
-LIB_Unlock_equipment_decision: "§YSchaltet die Entscheidung frei:§! £decision_icon_small Fordert Material an"
-LIB_refund_on_fail_decision_TT: "§GDie für die Entscheidung aufgewendete politische Macht wird Ihnen zurückerstattet§!, aber wir müssen warten, bis die Entscheidung wieder auftaucht."
-LIB_asking_more_wont_help_TT: "§RWenn Sie denselben Antrag noch einmal stellen, wird er höchstwahrscheinlich erneut abgelehnt, weil die Ausrüstung fehlt§!"
 
 ### Decisions ###
+LIB_internal_decisions: "Importierte Kriegsindustrie"
 LIB_request_rifles_from_ally: "Fordert Gewehre von [FROM.GetNameDef] an."
 LIB_request_artillery_from_ally: "Fordert Artillerie von [FROM.GetNameDef] an."
 LIB_request_sup_equip_from_ally: "Fordert Zusatzausrüstung von [FROM.GetNameDef] an."
