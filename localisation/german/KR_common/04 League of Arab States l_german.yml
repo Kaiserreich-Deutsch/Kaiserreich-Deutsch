@@ -6,12 +6,12 @@
 LOAS_Arab_League: "$league_of_arab_states$"
 LOAS_Arab_League_desc: "Die arabischen Völker, die durch ihre Sprache verbunden sind, haben innerhalb der von ihnen bewohnten Reiche immer eine eigene Gruppe gebildet. Einige sind jedoch der Meinung, dass diese Verbindung nicht weit genug geht und dass es das Schicksal der arabischen Welt ist, sich wie zu Zeiten der großen Kalifate wieder zu vereinigen. Sie glauben, dass durch die Schaffung eines solchen geeinten Arabiens der gesamte Subkontinent endlich seine wahre Renaissance erleben und seinen Platz in der Weltpolitik zurückerobern wird.\n\n Um diese Einigung zu beschleunigen, wurde eine supranationale Organisation (§Y$league_of_arab_states$§!) geschaffen und mit erheblicher Macht ausgestattet. Wenn der Traum eines panarabischen Staates jemals verwirklicht werden soll, müssen wir jedoch die anderen arabischen Staaten davon überzeugen, sich an dieser Initiative zu beteiligen und einen Teil ihrer Souveränität aufzugeben."
 
-LOAS_Invite_Country: "Ladet [FROM.GetName] zur Arabischen Liga ein"
+LOAS_Invite_Country: "Ladet [FROM.GetNameDef] zur Arabischen Liga ein"
 
 ### Tooltips ###
-LOA_invite_countries_IRQ: "\n\nSchaltet £decision_icon_small §YEntscheidungen§! frei, um §C [JBS.GetNameWithFlag], [HEJ.GetNameWithFlag], [SYR.GetNameWithFlag], [SAU.GetNameWithFlag]§!, und §C[YEM.GetNameWithFlag]§! in die §Y$league_of_arab_states$§! einzuladen."
-LOA_invite_countries_SYR: "\n\nSchaltet £decision_icon_small §YEntscheidungen§! frei, um §C [JBS.GetNameWithFlag], [HEJ.GetNameWithFlag], [IRQ.GetNameWithFlag], [SAU.GetNameWithFlag]§!, und §C[YEM.GetNameWithFlag]§! in die §Y$league_of_arab_states$§! einzuladen."
-LOA_invite_oman: "nSchaltet eine £decision_icon_small §YEntscheidung§! frei, um §C [OMA.GetNameWithFlag] §! in die §Y$league_of_arab_states$§! einzuladen."
+LOA_invite_countries_IRQ: "\n\nSchaltet £decision_icon_small §YEntscheidungen§! frei, um §C[JBS.GetNameWithFlag], [HEJ.GetNameWithFlag], [SYR.GetNameWithFlag], [SAU.GetNameWithFlag]§!, und §C[YEM.GetNameWithFlag]§! in die §Y$league_of_arab_states$§! einzuladen."
+LOA_invite_countries_SYR: "\n\nSchaltet £decision_icon_small §YEntscheidungen§! frei, um §C[JBS.GetNameWithFlag], [HEJ.GetNameWithFlag], [IRQ.GetNameWithFlag], [SAU.GetNameWithFlag]§!, und §C[YEM.GetNameWithFlag]§! in die §Y$league_of_arab_states$§! einzuladen."
+LOA_invite_oman: "nSchaltet eine £decision_icon_small §YEntscheidung§! frei, um §C[OMA.GetNameWithFlag]§! in die §Y$league_of_arab_states$§! einzuladen."
 
 LOA_every_member_state: "Jedes Mitglied der §Y$league_of_arab_states$§!"
 LOA_three_random_states: "Drei zufällige gültige Staaten"
