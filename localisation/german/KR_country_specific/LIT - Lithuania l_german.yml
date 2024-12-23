@@ -134,15 +134,6 @@
  LIT_the_warrior_king: "Der Kriegerkönig"
  
  ### Tooltips ###
- LIT_acquire_tank_licences_tooltip: "Die Veranstaltung bietet die Möglichkeit, zwischen drei Varianten von §H$LIT_new_tank_blueprints_sweden$§! zu wählen:\n1. §H$EQUIPMENT_ARMOR$§!: Panzer: [?0.1|=+%0]\n2. §H$EQUIPMENT_ARMOR$§!: Weicher Angriff: [?0.1|=+%0], Harter Angriff: [?0.1|=+%0]\n3. §H$EQUIPMENT_ARMOR$§!: $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]"
- LIT_airborne_detachment_tooltip: "Im Rahmen der Veranstaltung können Sie eine der folgenden Nationalen Geister wählen:\n\n§H$LIT_elite_infantry_formations$§!\n   $MODIFIER_SPECIAL_FORCES_ATTACK_FACTOR$: [?0.05|+=%1]\n   $MODIFIER_SPECIAL_FORCES_DEFENCE_FACTOR$: [?0.05|+=%1]\n   $MODIFIER_SPECIAL_FORCES_CAP$: [?0.1|+=%1]\n\n§H$LIT_jager_detachments$§!\n   $MODIFIER_ORG_LOSS_WHEN_MOVING$: [?-0.1|-=%1]\n   $MODIFIER_RECON_FACTOR$: [?0.1|+=%1]"
-
- LIT_has_black_monday: "Hat Nationalgeist §H$LIT_black_monday$§!"
- LIT_has_black_monday_NOT: "Hat keinen Nationalgeist §H$LIT_black_monday$§!"
-
- LIT_has_cultural_divide: "Hat Nationalgeist §H$LIT_cultural_divide$§!"
- LIT_has_cultural_divide_NOT: "Hat keinen Nationalgeist §H$LIT_cultural_divide$§!"
-
  LIT_legitimacy_tooltip: "Legitimität: $RIGHT|+=%%0$."
  LIT_legitimacy_check_tooltip: "Mindestens $RIGHT|Y%%0$ Legitimität"
 
@@ -191,7 +182,6 @@
 
  LIT_Naruto_new_tree: "Eine Koalition der beiden großen Parteien unter Führung von §YStanisław Narutowicz§! wird Litauen regieren. "
  LIT_Plech_new_tree: "General §YPovilas Plechavičius§! wird die Stabilität in Litauen wiederherstellen!"
- LIT_Swiss_Lit_dec_tt: "Entsperrt £decision_icon_small §CFöderalisierung von Litauen§! Entscheidungsbaum"
 
  ### Flags ###
  LIT_ongoing_project: "Ein weiteres Projekt ist in Arbeit."
@@ -1457,7 +1447,7 @@
  LIT.50.d: "Die Nachricht vom "großen Plan" von König Vytautas II. verbreitete sich schnell im ganzen Land, und die nationale Presse begann über den nächsten Schritt des Monarchen zu spekulieren - nur um dann enttäuscht zu seufzen, als der Tag kam. Nachdem er sich im vergangenen Jahr in Bücher über die litauische Geschichte vertieft hatte, stieß er auf den Palast der Großherzöge, und nun steht er vor dem Seimas und bietet an, die Ressourcen des Königreichs für dessen Wiederherstellung einzusetzen.\n\nDer Palast der Großherzöge wurde im 15. Jahrhundert erbaut, um den Monarchen von Litauen und später der Polnisch-Litauischen Gemeinschaft zu dienen. Während der schwedischen Sintflut im 17. Jahrhundert eignete er sich jedoch nicht mehr als Residenz für einen Monarchen und wurde nach den polnischen Teilungen vollständig abgerissen. Derzeit residiert die litauische Königsfamilie im Verkiai-Palast nördlich von Vilnius, und obwohl dieser für einen Monarchen mehr als ausreichend ist, hat der König der Nation seine Dienste angeboten, indem er eine Rekonstruktion des Palastes der Großherzöge entwarf - natürlich mit einem Art-Déco-Touch.\n\nObwohl der Palast ein berühmtes Relikt der litauischen Geschichte ist, sind die Ressourcen des Königreichs bei weitem nicht unbegrenzt, so dass zwischen dem König und seiner Regierung eine Debatte über die Studie, die Größe und die Machbarkeit entbrannt ist."
  LIT.50.a: "Mal sehen, was der Premierminister zu sagen hat..."
 
- LIT.51.t: ""Nein.""
+ LIT.51.t: "\"Nein.\""
  LIT.51.d: "Die Antwort hätte eigentlich von Anfang an klar sein müssen. König Vytautas II. mag zwar der Monarch des litauischen Volkes sein, aber er hat nicht das Recht, dessen Steuergelder für ein riesiges Eitelkeitsprojekt zu verschwenden, das mit moderner Technologie vielleicht nicht einmal machbar ist. Der König ließ sich davon jedoch nicht beirren, und ein enger Vertrauter von ihm sowie der litauische Botschafter in Schweden, Ignas Šeinius, schlugen einen alternativen Ansatz vor.\n\n'Niemand in Litauen kann leugnen, dass Denkmäler eine Quelle des Nationalstolzes und der Identität sind. Viele von ihnen müssen gebaut oder renoviert werden, und ist es nicht die Pflicht des Monarchen, ein Förderer von Kunst, Handwerk und Kultur zu sein? Es ist nur so, dass der König bei den Projekten, für die er die Schirmherrschaft übernimmt, mitgestaltet und beratend zur Seite steht'. Vytautas II. war begeistert und ordnete sofort die Schirmherrschaft über den Palast der Großherzöge an."
  LIT.51.a: "Moment, das habe ich nicht gemeint..."
 
@@ -2240,28 +2230,35 @@
 
 ### Characters ###
  LIT_juozas_butkus: "Juozas Butkus"
- 
+ LIT_juozas_butkus_leader_desc: "§YGeboren:§! §L21. Juli 1893, in Pažvelsis, Gouvernement Kovno, Russisches Reich§!"
+
  LIT_vincas_galinis: "Vincas Galinis"
- 
+ LIT_vincas_galinis_leader_desc: "§YGeboren:§! §L19. Juli 1897, in Kantališkiai, Gouvernement Suwałki, Russisches Reich§!"
+
  LIT_justas_paleckis: "Justas Paleckis"
- 
+ LIT_justas_paleckis_leader_desc: "§YGeboren:§! §L22. Januar 1899, in Telšiai, Gouvernement Kovno, Russisches Reich§!"
+
  LIT_steponas_kairys: "Steponas Kairys"
+ LIT_steponas_kairys_leader_desc: "§YGeboren:§! §L3. Januar 1879, in Užnevėžiai, Gouvernement Wilna, Russisches Reich§!"
  
  LIT_stanislaw_narutowicz: "Stanislaw Narutowicz"
  LIT_stanislaw_narutowicz_leader_desc: "§§YGeboren:§! §L2. September 1862, in Telšiai, Gouvernement Kovno, Russisches Reich\n§YHintergrund:§! §LStanisław Narutowicz war das einzige Mitglied des litauischen Rates, das die Unabhängigkeitsurkunden in polnischer und nicht in litauischer Sprache unterzeichnete, eine Handlung, die auf zahlreiche Arten interpretiert wurde - die von dem älteren Adligen bevorzugte ist jedoch, dass sie ein Zeichen dafür ist, dass die litauische Sache nicht nur eine ethnisch litauische oder bäuerliche Sache ist. Der Adel und die litauischen Polen, wie er selbst, sahen die Entstehung eines unabhängigen litauischen Staates ebenso kritisch. Narutowiczs politische Karriere erstreckte sich über Jahrzehnte, beginnend mit der Revolution von 1905, als er in der Umgebung seines Landsitzes die so genannte "Republik Alsėdžiai" gründete und durch das ganze Gouvernement reiste, um die Menschen zum Großen Seimas von Vilnius zu rufen. Narutowicz war Mitglied der linken Fraktion des Litauischen Rates und setzte sich in erster Linie für eine Republik ein, gab aber schließlich der monarchistischen Sache nach.\n\nDer Vorsitzende des Komitees der litauischen Polen ist vielleicht der einzige Pole, den selbst litauische Nationalisten wie Antanas Smetona respektieren - sein Einsatz für einen unabhängigen litauischen Staat ist ebenso bekannt wie sein unnachgiebiges Eintreten für Demokratie, die Rechte aller Minderheiten in Litauen und soziale Gerechtigkeit.§!"
 
  LIT_vaclovas_sidzikauskas: "Vaclovas Sidzikauskas"
+ LIT_vaclovas_sidzikauskas_leader_desc: "§YGeboren:§! §L10. April 1893, in Šiaudinė, Gouvernement Suwałki, Russisches Reich§!"
  
  LIT_stasys_salkauskis: "Stasys Šalkauskis"
  LIT_stasys_salkauskis_leader_desc: "§§YGeboren:§! §L16. Mai 1886, in Ariogala, Gouvernement Kowno, Russisches Reich\n§YHintergrund:§! §LStasys Šalkauskis entstammte einer Familie des Kleinadels mit polnisch-litauischem Erbe und wuchs in bescheidenen Verhältnissen auf. Er gehörte zu einer neuen Generation litauischsprachiger Intellektueller aus den letzten Tagen des russischen Reiches. Er entschied sich für ein Jurastudium an der Moskauer Universität, eine Entscheidung, die seinen weiteren Lebensweg bestimmen sollte. Die Erfahrung der nihilistischen und atheistischen Atmosphäre der russischen Intelligenz zwang ihn, sich noch stärker an seinen katholischen Glauben zu klammern, da er erkannte, dass dessen Universalismus und Barmherzigkeit, gestützt auf eine reflektierende Philosophie, die beste Antwort auf die grundlegenden Fragen des Lebens ist. Diese Überzeugung wurde durch den Briefwechsel mit Adomas Jakštas und das Studium an der katholischen Universität Freiburg in der Schweiz gestärkt.\n\nŠalkauskis ist kein Politiker von Beruf und fühlt sich in der Philosophie viel wohler, aber seine komplexe Vision einer neuen, barmherzigen christlichen Gesellschaft hat viele in der Christdemokratischen Partei überzeugt. Das Streben nach einem "optimalen Regierungssystem", die Notwendigkeit einer von Solidarität und Antikapitalismus geleiteten Regierung und eine ganzheitliche Interpretation Litauens als eine Synthese aus östlicher und westlicher Kultur sind die Hauptpunkte seiner Ideologie.§!"
 
  LIT_antanas_smetona: "Antanas Smetona"
+ LIT_antanas_smetona_leader_desc: "§YGeboren:§! §L10. August 1874, in Užulėnis, Gouvernement Kovno, Russisches Reich§!"
  
  LIT_povilas_plechavicius: "Povilas Plechavičius"
  LIT_povilas_plechavicius_leader_desc: "§§YGeboren:§! §L1. Februar 1890, in Židikai, Gouvernement Kovno, Russisches Reich\n§YHintergrund:§! §LPovilas Plechavičius stammt aus einer wohlhabenden Bauernfamilie in Samogitia. Bei Ausbruch des Weltkriegs war er Kavallerieoffizier in der kaiserlich-russischen Armee und kämpfte an der Ost- und der Kaukasusfront, wobei er angeblich neunundzwanzig Mal verwundet wurde und dennoch jedes Mal zurückkehrte, um mehr zu holen. Als er im Kaukasus stationiert war, wurde er von der Oktoberrevolution überrascht, was ihn jedoch nicht entmutigte. Als Kosake verkleidet schloss er sich der Freiwilligenarmee von Anton Denikin an und kämpfte an der Seite der Weißen gegen den bolschewistischen Aufstand im Süden Russlands. Sein Dienst dort war zwar nur kurz, aber er vermittelte Plechavičius einen tiefen und brodelnden Hass auf den Kommunismus - zusammen mit seinem Bruder Aleksas kehrte er im Herbst 1918 nach Litauen zurück.\n\nPlechavičius fand Litauen in Chaos und Unordnung vor, das von Banditen und bolschewistischen Sympathisanten bevölkert war, und in dem die deutschen Behörden nur einen schwachen Einfluss hatten. Er organisierte eine Gruppe samogitischer Männer, die bald zu einer Armee anwuchs, und verfolgte im Norden und Westen Litauens eine Politik des weißen Terrors. Obwohl seine Methoden zur Wiederherstellung der Ordnung in seiner Heimat wirksam waren und sogar von den deutschen Behörden stillschweigend gebilligt wurden, war die verfassungsgebende Versammlung Litauens entsetzt über die Brutalität. Als der sozialdemokratische Abgeordnete Liuda Purėnienė mit rechtlichen Schritten drohte, verteidigte sich Plechavičius ganz einfach: \"Verehrte Richter, wenn ich oder eine Person wie ich damals nicht da gewesen wäre, würde heute niemand von uns hier sitzen\". Er wurde freigesprochen, wenn auch in einem kontroversen Verfahren, und wurde zu einem Volkshelden unter den litauischen Militärs.§!"
 
  LIT_kazimieras_tiskevicius: "Kazimieras Tiskevičius"
- 
+ LIT_kazimieras_tiskevicius_leader_desc: "§YGeboren:§! §L13. Januar 1896, in Kretinga, Gouvernement Kowno, Russisches Reich§!"
+
  LIT_augustinas_voldemaras: "Augustinas Voldemaras"
  LIT_augustinas_voldemaras_leader_desc: "§§YGeboren:§! §L16. April 1883, in Dysna, Gouvernement Wilna, Russisches Reich\n§YHintergrund:§! §LAugustinas Voldemaras begann seine politische Laufbahn im Russischen Reich. Als überzeugter Nationalist setzte er sich in Sankt Petersburg für die nationale Selbstbestimmung Litauens ein. Nach der Einsetzung der deutsch geführten litauischen Marionettenregierung im Anschluss an den Vertrag von Brest-Litowsk kehrte Voldemaras in sein Heimatland zurück, um erneut für dessen Unabhängigkeit zu kämpfen. Als Staatsoberhaupt wird Voldemaras wahrscheinlich eine ultranationalistische Agenda verfolgen, die die Überlegenheit des litauischen Volkes und die Ergebenheit gegenüber dem Staat propagiert.§!"
 
@@ -2298,7 +2295,7 @@
  LIT_vincas_vitkauskas_army_chief_desc: "§YGeboren:§! §Lg4. Oktober 1890, in Užbaliai, Gouvernement Suwałki, Königreich Polen, Russisches Reich\n§YHintergrund:§! §LVincas Vitkauskas fühlte sich anfangs nicht zu einem Leben im Krieg hingezogen. Er war ein kluger Kopf und eine Künstlerseele, studierte Mathematik und war Dichter, bevor er zur kaiserlich-russischen Armee eingezogen wurde - diese Herkunft spiegelt sich in Vitkauskas' Texten und Memoiren wider, die sich stets einer lebendigen, ausdrucksstarken und für einen Offizier ungewöhnlichen Sprache bedienen. Nach zwei Jahren Dienst in der Ukraine kehrte er wieder in seine Heimat zurück, wo er sich bei den litauischen Streitkräften meldete - dort erwarb er sich den Ruf eines nachsichtigen, geselligen Befehlshabers, der es vorzog, die Herzen und den Verstand seiner Männer zu gewinnen, anstatt ihnen mit Gewalt Disziplin beizubringen.\n\nDie Karriere von Vitkauskas in der litauischen Armee war schwierig. Im Gegensatz zu vielen seiner politisch neutralen Offizierskollegen macht er keinen Hehl daraus, dass er die Christdemokraten und die Nationalistische Union ablehnt und progressive politische Ansichten vertritt. Dies hat dazu geführt, dass er in seiner Vergangenheit mehrfach bei Beförderungen übergangen wurde - erst die Intervention von Stasys Raštikis sorgte dafür, dass er 1935 endlich den Rang eines Generalmajors erhielt, den er verdient hatte.§!"
 
  LIT_lucjan_zeligowski: "Lucjan Żeligowski"
- LIT_lucjan_zeligowski_high_command_desc: "§YGeboren:§! §Lg17. Oktober 1865, in Ašmena/Oszmiana/Ashmiany, Gouvernement Vilna, Russisches Reich\n§YHintergrund:§! §LWie viele seiner litauischen Kommandeurskollegen begann Lucjan Żeligowski seine Karriere in der kaiserlich-russischen Armee - mit dem Unterschied, dass er nach dem Sturz des Zarenregimes nicht dem entstehenden Königreich Litauen, sondern der polnischen Nation von nebenan den Eid leistete. Als Kommandeur der 4. polnischen Schützendivision im Kuban wurde er schließlich zum Oberbefehlshaber aller polnischen Freiwilligeneinheiten im russischen Bürgerkrieg und kämpfte an der Seite der Weißen im Süden und Osten Russlands. Żeligowski überquerte 1919 schließlich die russisch-deutsche Grenze, doch was er dort sah, ließ seine Träume zerplatzen: Die polnische Nation, für die er zu kämpfen versuchte, war auf einen Schatten ihres früheren Selbst reduziert, von politischer Instabilität geplagt und besaß nur noch einen Bruchteil des ihr zustehenden Landes. Sein Freund Jozef Piłsudski wurde von den Schergen des Kaisers inhaftiert, und die Polen beugten sich dem Willen Berlins.\n\nBesiegt legte Żeligowski die Träume von einem vereinten polnischen Volk vorerst beiseite und konzentrierte sich auf die anstehende Aufgabe - für die Polen in Litauen zu sprechen und sich für ein Litauen einzusetzen, in dem die Polen ihre Kultur frei zum Ausdruck bringen können - und sich vielleicht eines Tages mit ihren Brüdern im Süden vereinigen.§!"
+ LIT_lucjan_zeligowski_high_command_desc: "§YGeboren:§! §Lg17. Oktober 1865, in Ashmyany, Gouvernement Vilna, Russisches Reich\n§YHintergrund:§! §LWie viele seiner litauischen Kommandeurskollegen begann Lucjan Żeligowski seine Karriere in der kaiserlich-russischen Armee - mit dem Unterschied, dass er nach dem Sturz des Zarenregimes nicht dem entstehenden Königreich Litauen, sondern der polnischen Nation von nebenan den Eid leistete. Als Kommandeur der 4. polnischen Schützendivision im Kuban wurde er schließlich zum Oberbefehlshaber aller polnischen Freiwilligeneinheiten im russischen Bürgerkrieg und kämpfte an der Seite der Weißen im Süden und Osten Russlands. Żeligowski überquerte 1919 schließlich die russisch-deutsche Grenze, doch was er dort sah, ließ seine Träume zerplatzen: Die polnische Nation, für die er zu kämpfen versuchte, war auf einen Schatten ihres früheren Selbst reduziert, von politischer Instabilität geplagt und besaß nur noch einen Bruchteil des ihr zustehenden Landes. Sein Freund Jozef Piłsudski wurde von den Schergen des Kaisers inhaftiert, und die Polen beugten sich dem Willen Berlins.\n\nBesiegt legte Żeligowski die Träume von einem vereinten polnischen Volk vorerst beiseite und konzentrierte sich auf die anstehende Aufgabe - für die Polen in Litauen zu sprechen und sich für ein Litauen einzusetzen, in dem die Polen ihre Kultur frei zum Ausdruck bringen können - und sich vielleicht eines Tages mit ihren Brüdern im Süden vereinigen.§!"
 
  LIT_kazys_ladiga: "Kazys Ladiga"
  LIT_kazys_ladiga_commander_desc: "§YGeboren:§! §LgDecember 25th, 1893, in Iškonys, Kovno Governorate, Russian Empire\n§YHintergrund:§! §LKazys Ladigas militärische Laufbahn begann mit seinem Dienst als Aufklärer in der kaiserlich-russischen Armee - für seine Tapferkeit und mehrere Verwundungen, die er erlitt, wurde er mit dem St.-Georgs-Kreuz ausgezeichnet. Er war einer der wenigen litauischen Offiziere, die nach der Februarrevolution nicht überliefen - stattdessen blieb er bis Februar 1918 im Dienst, als er und seine gesamte Einheit von den vorrückenden deutschen Truppen in Dunaburg gefangen genommen wurden. Ladiga blieb fast ein Jahr lang in Gefangenschaft, bis er von Konstantinas Olšauskas, einem Delegierten des Litauischen Rates, gefunden und auf Kaution freigelassen wurde, um sich den sich entwickelnden litauischen Streitkräften anzuschließen.\n\nKazys Ladiga ist ein überzeugter Abstinenzler und Christ, leidet aber unter böswilligen Stimmen, die ihn als Sympathisanten der Kommunisten bezeichnen - schließlich blieb er auch nach der Oktoberrevolution in der russischen Armee, anders als seine Altersgenossen, die überliefen, sobald sich das Militär aufzulösen begann.§!"
@@ -2313,16 +2310,39 @@
  LIT_wilhelm_von_urach_advisor_desc: "§YGeboren:§! §L27. September 1897, in Stuttgart, Neckarbezirk, Königreich Württemberg, Deutsches Reich§!\n§YHintergrund:§! §L$LIT_wilhelm_von_urach_desc_body$."
 
  LIT_antanas_kaskelis: "Antanas Kaškelis"
+ LIT_antanas_kaskelis_navy_chief_desc: "§YGeboren:§! §L31. März 1879, in Kemėnai, Gouvernement Kovno, Russisches Reich§!"
+
  LIT_povilas_julius_labanauskas: "Povilas Julius Labanauskas"
+ LIT_povilas_julius_labanauskas_admiral_desc: "§YGeboren:§! §L12. Dezember 1908, in Nemakščiai, Gouvernement Kovno, Russisches Reich§!"
+
  LIT_leonas_bistras: "Leonas Bistras"
+ LIT_leonas_bistras_sic_desc: "§YGeboren:§! §L20. Oktober 1890, in Liepāja, Gouvernement Kurland, Russisches Reich§!"
+
  LIT_antanas_merkys: "Antanas Merkys"
+ LIT_antanas_merkys_sic_desc: "§YGeboren:§! §L20. Januar 1887, in Bajorai, Gouvernement Kowno, Russisches Reich§!"
+
  LIT_salomeja_neris: "Saloméja Neris"
+ LIT_salomeja_neris_advisor_desc: "§YGeboren:§! §L17. November 1904, in Kiršai, Gouvernement Suwałki, Russisches Reich§!"
+
  LIT_antanas_gustaitis: "Antanas Gustaitis"
+ LIT_antanas_gustaitis_air_chief_desc: "§YGeboren:§! §L27. März 1898, in Obelinė, Gouvernement Suwałki, Russisches Reich§!"
+
  LIT_augustinas_povilaitis: "Augustinas Povilaitis"
+ LIT_augustinas_povilaitis_advisor_desc: "§YGeboren:§! §L24. Februar 1900, in Pašventys, Gouvernement Kovno, Russisches Reich§!"
+
  LIT_jonas_vailokaitis: "Jonas Vailokaitis"
+ LIT_jonas_vailokaitis_advisor_desc: "§YGeboren:§! §L25. Juni 1886, in Pikžirniai, Gouvernement Suwałki, Russisches Reich§!"
+
  LIT_juozas_paknys: "Juozas Paknys"
+ LIT_juozas_paknys_advisor_desc: "§YGeboren:§! §L23. September 1883, in Jūžintai, Gouvernement Kovno, Russisches Reich§!"
+
  LIT_gabriele_petkevicaite_bite: "Gabrielė Petkevičaitė-Bitė"
+ LIT_gabriele_petkevicaite_bite_advisor_desc: "§YGeboren:§! §L18. März 1861, in Puziniškis, Gouvernement Kovno, Russisches Reich§!"
+
  LIT_herbert_tillmanns: "Herbert Tillmanns"
+ LIT_herbert_tillmanns_advisor_desc: "§YGeboren:§! §L5. August 1907, in Berlin, Provinz Brandenburg, Königreich Preußen, Deutsches Reich§!"
+
  LIT_jonas_pyragius: "Jonas Pyragius"
+ LIT_jonas_pyragius_high_command_desc: "§YGeboren:§! §L29. Dezember 1901, in Baluškiai, Gouvernement Kovno, Russisches Reich§!"
 
  LIT_marcele_kubiliute: "Marcelė Kubiliūtė"
