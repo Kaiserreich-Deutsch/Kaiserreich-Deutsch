@@ -157,11 +157,6 @@
 
 ### Tooltips
  ott_elections: "§YInnerhalb der nächsten 30 Tage werden Wahlen stattfinden§!\n"
- ott_language_reformed: "Schaltet den Fokus §YMillet Mektepleri§! frei"
- ott_vilayets_reformed: "\nSchaltet den Fokus §YReorganisation des Vilayet-Systems§! frei"
- ott_women_rights_reformed: "\nSchaltet den Fokus §YVorhut der Emanzipation§! frei"
- ott_religion_reformed: "\nSchaltet den Fokus §YReligiöse Organisationen bekämpfen§! frei" 
- ott_seperation_power: "\nSchaltet den Fokus §YGewährleistung der Gewaltenteilung§! frei"
  tribunal_too_far_tt: "§RDies wird als Akt der Tyrannei angesehen werden.§!"
  ott_increase_revolt_risk_tt: "£resistance_texticon  Die §YUnruhe§! wird sich §Rerhöhen§!.\n"
  ott_increase_revolt_risk_large_tt: "£resistance_texticon  Die §YUnruhe§! wird sich stark §Rerhöhen§!.\n"
@@ -209,8 +204,6 @@
  OTT_maintenance_of_order_law_tooltip: "$TRIGGER_OR_STARTS$:\n   Der Großwesir hat während des Balkankrieges die Macht übernommen\n   Der Großwesir hat nach einem fehlgeschlagenen Mordversuch die Macht übernommen\n   Dem Großwesir wurden die nötigen Befugnisse zur Beseitigung der Karakol-Gesellschaft gewährt\n   Die Araber haben sich in einer Revolte gegen das Reich erhoben"
  OTT_less_than_124_deputies: "Weniger als 124 Abgeordnete unterstützen die Koalition"
  
- OTT_new_focus_ohf: "§GDies schaltet einen neuen Fokusbaum frei.§!"
- 
 ### Focuses
  ott_education_decree_tt: "\nEs nicht zu schaffen, das §YBildungsdekret§! durchzusetzen, könnte §Rernsthafte Konsequenzen§! haben."
  ott_judicial_decree_tt: "\nEs nicht zu schaffen, das §YZivilgesetzbuch§! zu reformieren, könnte §Rernsthafte Konsequenzen§! haben."
@@ -233,7 +226,7 @@
  ott_but_purging_is_cooler_tt: "Aktiviert die Provinzinteraktion §YGegen illoyale Elemente vorgehen§!\n\n"
  ott_centralisation_army: "$ ott_centralisation_add_tooltip$\n$MODIFIER_POLITICAL_POWER_FACTOR$: §G+1%§!\nOrganisationsregeneration (Armee): §G+1%§!\n$MODIFIER_ARMY_ORG_FACTOR$: §G+1%§!\nLuftüberlegenheit: §G+1%§!\n$modifier_production_speed_arms_factory_factor$: §G+1%§!\n\n"
  ott_reorganisation_commision: "\n§RDeaktiviert§! die Provinzinteraktion §YSenkung der Steuern§!\n§RDeaktiviert§! die Provinzinteraktion §YErhöhung der Steuern§!\n§GAktiviert§! die Provinzinteraktion §YVernichtet die Korruption§!\n§GAktiviert§! die Provinzinteraktion §YHilfsmaßnahmen fokussieren§!"
- ott_army_tree_tt: "Hat den Fokus §YAusgleich unseres Budgets§! abgeschlossen"
+ ott_army_tree_tt: "$has_completed_focus$$OTT_Balance_the_Budget$§!"
  OTT_every_islamic_country: "Jedes islamische Land"
  OTT_armor_division_template_gained: "Erhaltet 2 £nato_unit_light_armor_icon_small  §YZirhli Alayi§! mit 4 §YLeichten Panzer-§! und 2 §YMotorisierten§! Bataillonen, §YUnterstützungs-Artillerie§!, §YPionieren§!, und einer §Ymotorisierten Aufklärungskompanie§!.\n\n"
  grand_assembly_tt: "Die §YGroße Osmanische Versammlung§! wird die Anzahl unserer £deputies_texticon Abgeordneten auf §C1500§! erhöhen, wodurch nun auch unsere kürzlichen Eroberungen beachtet werden."
@@ -250,7 +243,7 @@
 ### Country Flags
  free_press: "Die Pressefreiheit wird von der Verfassung garantiert"
  separated_church_state: "Die Verfassung ist auf eine säkularistische Agenda ausgelegt"
- ott_sharif_abolished: "$has_completed_decision$ $OTT_ARA_Abolish_Sharif$§!"
+ ott_sharif_abolished: "$has_completed_decision$$OTT_ARA_Abolish_Sharif$§!"
  sharif_dead: "Der Großscharif von Mekka ist verstorben"
  ott_restructured_provincial_administration: "Die Verfassung ist auf eine Zentralisierung der Provinzen ausgelegt"
  ott_women_suffrage: "Die Verfassung hat ein universelles Wahlrecht eingeführt"
@@ -265,7 +258,7 @@
  ziraat_bypass: "Die Ziraat Bankasi wurde gegründet"
  RUSSIAN_OTTOMAN_DEAL: "Das Russisch-Osmanische Abkommen wurde unterzeichnet"
  centralist_DF: "Die DF hat eine zentralistische Politik gewählt"
- ott_millet_mektepleri_prereq_tt: "Hat den Fokus §YMillet Mektepleri§! abgeschlossen\n"
+ ott_millet_mektepleri_prereq_tt: "$has_completed_focus$$OTT_Millet_Mektepleri$§!\n"
 
 ### Global Flags
  SUEZ_SUCCESS: "Das §GAbkommen von Port Said§! wurde unterzeichnet."
@@ -393,7 +386,7 @@
  OTT_Fortify_Aleppo: "Befestigt Aleppo"
  OTT_Fortify_Bagdhad: "Befestigt Baghdad"
  OTT_Flood_the_Euphrates_Plain: "Flutet die Ebenen des Euphrats und Tigris"
- OTT_Alliance_With_Azerbaijan: "Bietet [FROM.GetName] eine Allianz an"
+ OTT_Alliance_With_Azerbaijan: "Bietet [FROM.GetNameDef] eine Allianz an"
  OTT_Alliance_With_Azerbaijan_desc: "Nun, da wir von unseren Feinden umzingelt wurden, ist die Zeit gekommen, ehemalige Verträge neu zu bewerten und alte Freundschaften wieder aufleben zu lassen."
 
  Cairo_Pact_decisions: "Nahost-Kampagne"
@@ -1415,7 +1408,7 @@
 
  TUR_guide_2: "Die Söhne von Hayk - §M£KR_game_rule_flag_ARM  Armenien§!\n\n£white_dot Etwa eine Woche, nachdem Persien uns den Krieg erklärt hat, kommt es zu einem Armenischen Aufstand, der es uns ermöglicht, als Armenier zu spielen.\n\n$ARM_guide$"
 
- TUR_guide_3: "Eine neue Heimat - §M£KR_game_rule_flag_ASY  Assyrien§!\n\n£white_dot Bei dem Ereignis \"§YAssyrische Leviten rächen sich für Al-Qurnah§!\" wählt man die Auflösung der Leviten und bei dem Folgeereignis \"§YShimun XXI Eshai plädiert für den Erhalt der Assyrischen Leviten§!\" wählt man erneut deren Auflösung.\n£white_dot Die Assyrische Regierung wird sich erheben und wir werden die Möglichkeit haben, als sie zu spielen.\n\n$ASY_guide$"
+ TUR_guide_3: "Eine neue Heimat - §M£KR_game_rule_flag_ASY  Assyrien§!\n\n£white_dot Bei dem Ereignis \"§Y$assyria_events.3.t$§!\" wählt man die Auflösung der Leviten und bei dem Folgeereignis \"§Y$assyria_events.4.t$§!\" wählt man erneut deren Auflösung.\n£white_dot Die Assyrische Regierung wird sich erheben und wir werden die Möglichkeit haben, als sie zu spielen.\n\n$ASY_guide$"
 
 ##########
 # Events #
