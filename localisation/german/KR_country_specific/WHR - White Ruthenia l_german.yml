@@ -493,13 +493,8 @@
  WHR_Lets_Start_Plan_Sierada: "Wir werden den Sierada-Plan auf den Weg bringen, um die Landreform zu verwirklichen."
  WHR_Oh_No: "§RDie Armee wird ein Problem damit haben.§!"
 
- WHR_doesnt_have_power_struggle: "Hat nicht den Nationalgeist §H$WHR_Power_Struggle$§!"
-
  WHR_lithuanian_autonomy: "Litauische Autonomie\n§WTheoretisch soll Litauen ein gleichberechtigter Partner in der \"brüderlichen Union\" von Litauen und Weißrussland sein. In der Praxis haben die Weißrussen mit Vilnius unter ihrer Kontrolle ein viel größeres Gewicht als ihre litauischen Brüder. Nichtsdestotrotz haben die Litauer in dieser Region volle Autonomie in kulturellen Angelegenheiten und den meisten internen Angelegenheiten, wobei abzuwarten bleibt, ob dies ausreicht, um separatistische Gefühle zu beruhigen.§!"
  WHR_lithuanian_autonomy_tt: "§H[11.GetName]§!, §H[189.GetName]§!, §H[655.GetName]§! erhalten den Zustandsmodifikator §HLitauische Autonomie§!, dieser gewährt ($MODIFIER_LOCAL_MANPOWER$: §G+25%§!, $MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: §G+25%§!).\n"
-
- WHR_has_black_monday: "Hat Nationalgeist §H$WHR_black_monday$§!"
- WHR_has_black_monday_NOT: "Hat nicht den Nationalgeist §H$WHR_black_monday$§!"
 
 ### Country Flags ###
  WHR_LandReform_Success: "Plan Sierada ist ein Erfolg"
@@ -1039,26 +1034,70 @@
 
  WHR_werner_kempf: "Werner Kempf"
  WHR_werner_kempf_leader_desc: "§YGeboren:§! §L9. März 1886, in Königsberg, Provinz Ostpreußen, Königreich Preußen, Deutsches Reich§!\n§YHintergrund:§! §LWerner Kempf ist weder ein Freund noch ein Feind der Weißrussen. Er ist ein preußischer Offizier durch und durch, und sein Ziel ist einfach: Weißrussland auf eine Invasion aus dem Osten vorbereiten. Das Land muss so weit wie möglich für den Krieg mobilisiert werden, bevor es zu spät ist, sonst werden die Russen eine Schwachstelle im Ostwall durchbrechen und zwischen Polesien und dem Baltikum nach Westen vordringen. Um die Menschen dort kümmert sich Kempf nicht; die Zentralrada kann sich um die inneren Angelegenheiten kümmern, seine Priorität ist die militärische Lage, und er erwartet von den Weißrussen so viel Kooperation wie möglich. Schließlich hängt ihr Überleben von der deutschen Armee ab; weder sie noch er können sich eine Niederlage leisten.§!"
+ WHR_werner_kempf_army_chief_desc: "§YGeboren:§! §L9. März 1886, in Königsberg, Provinz Ostpreußen, Königreich Preußen, Deutsches Reich§!"
 
  WHR_kanstancin_jezavitau: "Kanstancin Jezavitaŭ"
+ WHR_kanstancin_jezavitau_army_chief_desc: "§YGeboren:§! §L17. November 1893, in Dźvinsk, Gouvernement Witebsk, Russisches Reich§!"
+
  WHR_cimafiej_chviedcenia: "Cimafiej Chviedčenia"
+ WHR_cimafiej_chviedcenia_high_command_desc: "§YGeboren:§! §L9. Juni 1893, in Zaravichi, Gouvernement Minsk, Russisches Reich§!"
+
  WHR_vital_kazlou: "Vital Kazloŭ"
+ WHR_vital_kazlou_commander_desc: "§YGeboren:§! §L18. Februar 1903, in Zagorodnie, Gouvernement Mogilew, Russisches Reich§!"
+
  WHR_mikalaj_janicki: "Mikalaj Janicki"
+ WHR_mikalaj_janicki_commander_desc: "" # TO-DO
+
  WHR_paval_vent: "Paval Vent"
+ WHR_paval_vent_high_command_desc: "§YGeboren:§! §L17. Juni 1880, in Krynitsa, Gouvernement Minsk, Russisches Reich§!"
+
  WHR_francisak_kusal: "Francišak Kušal"
+ WHR_francisak_kusal_high_command_desc: "§YGeboren:§! §L16. Februar 1895, in Piaršai, Gouvernement Minsk, Russisches Reich§!"
+
  WHR_hasan_kanapacki: "Hasan Kanapacki"
+ WHR_hasan_kanapacki_high_command_desc: "§YGeboren:§! §L25. Februar 1879, in Miensk, Gouvernement Minsk, Russisches Reich§!"
+
  WHR_jan_sierada: "Jan Sierada"
+ WHR_jan_sierada_advisor_desc: "§YGeboren:§! §L13. Mai 1879, in Zadzvieja, Gouvernement Miensk, Russisches Reich§!"
+
  WHR_anton_luckievic: "Anton Luckievič"
+ WHR_anton_luckievic_advisor_desc: "§YGeboren:§! §L29. Januar 1884, in Šiauliai, Gouvernement Kovno, Russisches Reich§!"
+
  WHR_dmitry_pryshchepau: "Dmitry Pryshchepaŭ"
+ WHR_dmitry_pryshchepau_advisor_desc: "§YGeboren:§! §L21. November 1896, in Kolodnitsa, Gouvernement Mogilew, Russisches Reich§!"
+
  WHR_symon_kandybovic: "Symon Kandybovič"
+ WHR_symon_kandybovic_advisor_desc: "§YGeboren:§! §L21. Juli 1891, in Starytsa, Gouvernement Minsk, Russisches Reich§!"
+
  WHR_paluta_badunova: "Paluta Badunova"
+ WHR_paluta_badunova_advisor_desc: "§YGeboren:§! §L21. Juli 1891, in Navabelitsa, Gouvernement Mogilew, Russisches Reich§!"
+
  WHR_jazep_liosik: "Jazep Liosik"
+ WHR_jazep_liosik_advisor_desc: "§YGeboren:§! §L18. November 1884, in Mikalajeŭščyna, Gouvernement Minsk, Russisches Reich§!"
+
  WHR_jan_stankievic: "Jan Stankievič"
+ WHR_jan_stankievic_advisor_desc: "§YGeboren:§! §L26. November 1891, in Aschmyany, Gouvernement Wilna, Russisches Reich§!"
+
  WHR_vaclau_ivanouski: "Vaclaŭ Ivanoŭski"
+ WHR_vaclau_ivanouski_advisor_desc: "§YGeboren:§! §L25. Mai 1880, in Halavičpolie, Gouvernement Vilna, Russisches Reich§!"
+
  WHR_raman_skirmunt: "Raman Skirmunt"
+ WHR_raman_skirmunt_advisor_desc: "§YGeboren:§! §L7. Mai 1868, in Parechtscha, Gouvernement Minsk, Russisches Reich§!"
+
  WHR_jewish_bund: "Allgemeiner Jüdischer Arbeitsbund"
+ WHR_jewish_bund_advisor_desc: "§YGegründet:§! §L1917, in Miensk, Gouvernement Minsk, Russische Republik§!"
+
  WHR_vasil_korz: "Vasil Korž"
+ WHR_vasil_korz_advisor_desc: "§YGeboren:§! §L13. Januar 1899, in Chorostowo, Gouvernement Minsk, Russisches Reich§!"
+
  WHR_anton_ausianik: "Anton Aŭsianik"
+ WHR_anton_ausianik_air_chief_desc: "§YGeboren:§! §L13. Juni 1888, in Kobyle, Gouvernement Minsk, Russisches Reich§!"
+
  WHR_hieorhij_khalasciakou: "Hieorhij Khalasciakoŭ"
+ WHR_hieorhij_khalasciakou_navy_chief_desc: "§YGeboren:§! §L2. August 1902, in Baranowitschi, Gouvernement Minsk, Russisches Reich§!"
+
  WHR_michal_vituska: "Michał Vituška"
- WHR_belvaiskrada: "Militärischer Zentralrat"
+ WHR_michal_vituska_high_command_desc: "§YGeboren:§! §L5. November 1907, in Nyasvizh, Gouvernement Minsk, Russisches Reich§!"
+
+ WHR_belvaiskrada: "Zentraler Militärrat"
+ WHR_belvaiskrada_theorist_desc: "§YGegründet:§! §November 1917, in Miensk, Gouvernement Minsk, Russische Republik§!"
