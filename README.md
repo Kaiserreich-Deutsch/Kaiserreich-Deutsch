@@ -1,7 +1,7 @@
-# Kaiserreich Version 1.3.3
+# Kaiserreich Version 1.4.2
 
 Vielen Dank für den Download der Deutschen Übersetzung von Kaiserreich für Hearts of Iron 4!<br>
-Diese Version wurde für Hearts of Iron IV Version 1.15.1 entwickelt.<br>
+Diese Version wurde für Hearts of Iron IV Version 1.15.3 entwickelt.<br>
 Es sollte mit allen neueren Hotfixes kompatibel sein, obwohl dies nicht garantiert werden kann.<br><br>
 
 ## Manuelle Installationsanleitung
@@ -9,7 +9,7 @@ Es sollte mit allen neueren Hotfixes kompatibel sein, obwohl dies nicht garantie
 2) Lade die `Source code (zip)` Datei unter `Assets` herunter
 3) Lösche alle früheren manuell installiert Versionen
 4) Entpacke die .zip Datei nach 'Documents\Paradox Interactive\Hearts of Iron IV\mod'
-5) Verschiebe die Datei `Kaiserreich-Deutsch-1.3.3.9.mod` in den Ordner 'Hearts of Iron IV\mod'
+5) Verschiebe die Datei `Kaiserreich-Deutsch-main.mod` in den Ordner 'Hearts of Iron IV\mod'
 6) Aktiviere die Mod im Launcher-Mod-Menü und viel Spaß!
 
 ## Probleme/Bugs:
