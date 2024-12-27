@@ -1,4 +1,4 @@
-version="1.3.3.9"
+version="1.4.2.1"
 tags={
 	"Translation"
 }
@@ -8,4 +8,4 @@ dependencies={
 name="KaiserReich Deutsch"
 supported_version="1.15.*"
 remote_file_id="2319740642"
-path="./mod/Kaiserreich-Deutsch-1.3.3.9"
+path="./mod/Kaiserreich-Deutsch-main"
