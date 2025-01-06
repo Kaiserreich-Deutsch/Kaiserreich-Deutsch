@@ -36,9 +36,9 @@ KR_welcome_splash_tab_3_content: "§YBitte beachten Sie Folgendes:§!\n£white_d
 KR_welcome_splash_tab_3_content_0: "Kaiserreich legt Beschränkungen für diplomatische Aktionen wie §Rfrühe Kriege§!, §RFraktionen§! und §RAutonomiestufen§! fest.\nKaiserreich enthält §CDivisionsgrenzen§! und eine §CDemobilisierung§! Mechanik, um die Spielbarkeit im späteren Spiel zu verbessern.\nBei §YFriedenskonferenzen§! sollten Sie darauf achten, dass Sie alle Staaten annektieren. Sie können später Länder aus den annektierten Gebieten durch §CEntscheidungen§! entlassen.\nIm Menü §YIndividuelle Spielregeln§! können Sie viele Optionen einstellen, darunter §CLänderpfade§!, §CVorrang für Spieler bei Friedenskonferenzen§!, und das §CStaat und Land Transfer Tool§!.\nDas £kr_options_icon  §YOptionsmenu im Spiel§! wird durch einen Klick auf das Symbol in der rechten oberen Ecke geöffnet. Hier können Sie die §CHäufigkeit der Nachrichtenereignisse§! einstellen und die §CDynamische Umbenennung§! von Staaten und Siegpunkten aktivieren.\n§YDieses Fenster§! kann jederzeit wieder geöffnet werden, indem Sie auf das Symbol £help_button  oben rechts klicken."
 
 ## TAB 4 ##
-KR_CURRENT_VERSION: "1.4.2"
+KR_CURRENT_VERSION: "1.4.3"
 KR_CURRENT_VERSION_NAME: "All the Russias"
-KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ \"$KR_CURRENT_VERSION_NAME$\""
+KR_CURRENT_VERSION_COMBINED: 'Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$"'
 KR_welcome_splash_tab_4_upper_header: "§YWillkommen bei $KR_CURRENT_VERSION_COMBINED$§!"
 KR_welcome_splash_tab_4_lower_header: "§YLiebevoll gestaltet vom Kaiserreich Team:§!"
 KR_welcome_splash_tab_4_content: "$KR_welcome_splash_tab_4_content_1$\n$KR_welcome_splash_tab_4_content_2$\n$KR_welcome_splash_tab_4_content_3$\n$KR_welcome_splash_tab_4_content_4$\n$KR_welcome_splash_tab_4_content_5$\n$KR_welcome_splash_tab_4_content_6$\n$KR_welcome_splash_tab_4_content_7$\n$KR_welcome_splash_tab_4_content_8$\n$KR_welcome_splash_tab_4_content_9$\n$KR_welcome_splash_tab_4_content_10$\n$KR_welcome_splash_tab_4_content_11$"
@@ -61,7 +61,15 @@ KR_welcome_splash_tab_4_content_11: "Proho  ·  SimonStaysNuclear  ·  Thylon"
 KAISERREICH_CAREER_PROFILE: "Kaiserreich Deutsch"
 
 ### Diplomacy Tooltips ###
-REQUEST_EXP_FORCE_BLOCKED_TT: "§RDieses Land erlaubt Ihnen nicht, ihre Streitkräfte anzufordern.§!"
+REQUEST_EXP_FORCE_BLOCKED_GENERIC_TT: "§RDieses Land erlaubt Ihnen nicht, ihre Streitkräfte anzufordern.§!"
+
+REQUEST_EXP_FORCE_BLOCKED_CROWNLAND_HUNGARY_TT: "§RDas ungarische Kronland erlaubt Ihnen nicht, seine Streitkräfte anzufordern, solange Sie nicht den Schwerpunkt „Immer noch ihr König“ oder „Ausgleichsverhandlungen von 1947“ abgeschlossen haben.§!"
+
+REQUEST_EXP_FORCE_BLOCKED_CROWNLAND_OTHER_TT: "§RDas österreichische Kronland erlaubt es Ihnen nicht, seine Streitkräfte anzufordern, bevor Sie den Schwerpunkt „Drastische Maßnahmen in schlimmen Zeiten“ oder „Cisleithanien gemeinsam“ abgeschlossen haben.§!"
+
+REQUEST_EXP_FORCE_BLOCKED_CHINA_TT: "§RChinesische Kriegsherren, die assoziierte Gouvernements sind, erlauben es Ihnen nicht, ihre Streitkräfte anzufordern, bevor sie nicht mindestens eine Stufe integriert sind.§!"
+
+REQUEST_EXP_FORCE_BLOCKED_SHANXI_TT: "§RShanxi erlaubt Ihnen nicht, seine Streitkräfte anzufordern, solange der Machtkampf zwischen Yan Xishan und Feng Yuxiang nicht beendet ist.§!"
 
 EMBARGO_THREAT_TT: "§RWeltweite Spannung muss höher sein als §Y50%§!.§!"
 EMBARGO_OPINION_TT: "§R- §Y[FROM.GetNameWithFlag]'s§! Meinung über §Y[ROOT.GetNameWithFlag]§! muss niedriger als -50 sein.§!"
@@ -92,7 +100,7 @@ social_conservative_plurality: "§c[?token:social_conservative.GetTokenLocalized
 authoritarian_democrat_plurality: "§g[?token:authoritarian_democrat.GetTokenLocalizedKey]§! haben die höchste Popularität"
 paternal_autocrat_plurality: "§P[?token:paternal_autocrat.GetTokenLocalizedKey]§! haben die höchste Popularität"
 national_populist_plurality: "§n[?token:national_populist.GetTokenLocalizedKey]§! haben die höchste Popularität"
- 
+
 ### Diplomacy Triggers ###
 cannot_call_allies_or_join_wars: "Kann keine Verbündeten rufen oder an Kriegen teilnehmen"
 cannot_call_allies_or_join_wars_except_subjects: "Kann keine Verbündeten rufen oder an Kriegen teilnehmen (außer Untertanen)"
@@ -414,15 +422,15 @@ second_weltkrieg_has_ended: "Der Zweite Weltkrieg ist beendet"
 operation_infiltrate_armed_forces_army_outcome: "$operation_infiltrate_armed_forces_army$ Effektivität"
 operation_infiltrate_armed_forces_army_risk: "$operation_infiltrate_armed_forces_army$ Risiko"
 operation_infiltrate_armed_forces_army_cost: "$operation_infiltrate_armed_forces_army$ Kosten"
- 
+
 operation_infiltrate_armed_forces_navy_outcome: "$operation_infiltrate_armed_forces_navy$ Effektivität"
 operation_infiltrate_armed_forces_navy_risk: "$operation_infiltrate_armed_forces_navy$ Risiko"
 operation_infiltrate_armed_forces_navy_cost: "$operation_infiltrate_armed_forces_navy$ Kosten"
- 
+
 operation_infiltrate_armed_forces_airforce_outcome: "$operation_infiltrate_armed_forces_airforce$ Effektivität"
 operation_infiltrate_armed_forces_airforce_risk: "$operation_infiltrate_armed_forces_airforce$ Risiko"
 operation_infiltrate_armed_forces_airforce_cost: "$operation_infiltrate_armed_forces_airforce$ Kosten"
- 
+
 operation_infiltrate_civilian_outcome: "$operation_infiltrate_civilian$ Effektivität"
 operation_infiltrate_civilian_risk: "$operation_infiltrate_civilian$ Risiko"
 operation_infiltrate_civilian_cost: "$operation_infiltrate_civilian$ Kosten"
@@ -527,35 +535,35 @@ generic_events.111.t: "Der [From.GetAdjective] Unabhängigkeitskrieg"
 generic_events.111.d: "Der Krieg mit [From.GetNameDef] dauert schon seit einiger Zeit an, wobei keiner von uns in der Lage war, einen klaren Vorteil zu erlangen. Vielleicht ist es an der Zeit, ihre Unabhängigkeit einfach anzuerkennen und damit Schluss zu machen."
 generic_events.111.a: "Ja, lassen Sie uns das beenden"
 generic_events.111.b: "Nein! Wir bringen das zu Ende!"
- 
+
 generic_events.250.t: "Marionette [marked_country.GetNameDef]?"
 generic_events.250.d: "Dadurch wird [marked_country.GetNameDef] zu einer Marionette von [to_be_overlord.GetNameDef], wobei der standardmäßige autonome Zustand Besetzt Marionette verwendet wird. Wenn sie in einer anderen Fraktion sind, werden sie diese verlassen, aber dies wird keinen der aktuellen Kriege, in denen sie sich befinden, beenden. Wenn Sie das tun wollen, sollten Sie es separat tun.\n\n§RHINWEIS: Dies kann sehr wohl Kaiserreich-Inhalte brechen! Verwendung auf eigene Gefahr!!§!"
 generic_events.250.a: "Tu es"
-generic_events.250.b: "Tu es, aber lassen Sie sie ihre aktuelle Regierung behalten" 
+generic_events.250.b: "Tu es, aber lassen Sie sie ihre aktuelle Regierung behalten"
 generic_events.250.c: "Bei näherer Überlegung..."
- 
+
 generic_events.251.t: "Freilassung [marked_country.GetNameDef]?"
 generic_events.251.d: "Dies wird [marked_country.GetNameDef] komplett unabhängig machen. Es wird nicht ihre aktuelle Regierung ändern (es sei denn, der Mod hat den Inhalt, dies automatisch zu tun), nicht [marked_country.GetNameDef] aus ihrer Fraktion entfernen, wenn sie in einer sind, noch sie aus irgendwelchen Kriegen entfernen.\n\n§RHINWEIS: Dies kann sehr wohl Kaiserreich-Inhalte brechen! Verwendung auf eigene Gefahr!!§!"
- 
+
 generic_events.252.t: "Beitritt zur [to_be_faction_leader.GetFactionName]?"
 generic_events.252.d: "Dies führt dazu, dass [marked_country.GetNameDef] der [to_be_faction_leader.GetFactionName] beitritt und ihre eigene Fraktion auflöst, wenn sie ein Fraktionsführer sind oder einfach ihre aktuelle Fraktion verlässt, wenn sie in einer sind. Dies ändert nichts an den Kriegen, in denen sie sich gerade befinden.\n\n§RHINWEIS: Dies kann sehr wohl Kaiserreich-Inhalte brechen! Verwendung auf eigene Gefahr!!§!"
 
 generic_events.253.t: "Anführer der [marked_country.GetFactionName]?"
 generic_events.253.d: "Dadurch wird [marked_country.GetNameDef] zum Fraktionsführer für den [marked_country.GetFactionName].\n\n§RHINWEIS: Dies kann sehr wohl Kaiserreich-Inhalte brechen! Verwendung auf eigene Gefahr!!§!"
- 
+
 generic_events.254.t: "Verlassen der [marked_country.GetFactionName]?"
-generic_events.254.d: "Dies führt dazu, dass [marked_country.GetNameDef] die [marked_country.GetFactionName] verlässt und die Fraktion auflöst, wenn sie der Anführer ist. Es hat keinen Einfluss auf Kriege, in denen sie sich gerade befinden.\n\n§RHINWEIS: Dies kann sehr wohl Kaiserreich-Inhalte brechen! Verwendung auf eigene Gefahr!!§!" 
- 
+generic_events.254.d: "Dies führt dazu, dass [marked_country.GetNameDef] die [marked_country.GetFactionName] verlässt und die Fraktion auflöst, wenn sie der Anführer ist. Es hat keinen Einfluss auf Kriege, in denen sie sich gerade befinden.\n\n§RHINWEIS: Dies kann sehr wohl Kaiserreich-Inhalte brechen! Verwendung auf eigene Gefahr!!§!"
+
 generic_events.255.t: "Frieden mit [peace_target.GetNameDef]?"
 generic_events.255.d: "[marked_country.GetNameDefCap], zusammen mit all seinen Verbündeten, weißer Frieden mit [peace_target.GetNameDef] und all seinen Verbündeten.\n\n§RHINWEIS: Dies kann sehr wohl Kaiserreich-Inhalte brechen! Verwendung auf eigene Gefahr!!§!"
 generic_events.255.b: "Trennen Sie [marked_country.GetNameDef] von seinen Verbündeten, dann schließen Sie Frieden"
- 
+
 generic_events.256.t: "Frieden, alle Kriege beenden?"
 generic_events.256.d: "[marked_country.GetNameDefCap] wird einen separaten weißen Frieden für alle seine aktuellen Kriege machen. Wenn es ein Untertan ist, wird es zuerst befreit, und wenn es in einer Fraktion ist, muss es diese zuerst verlassen.\n\n§RHINWEIS: Dies kann sehr wohl Kaiserreich-Inhalte brechen! Verwendung auf eigene Gefahr!!§!"
- 
+
 generic_events.257.t: "Krieg mit [war_target.GetNameDef]?"
 generic_events.257.d: "[marked_country.GetNameDefCap] wird [war_target.GetNameDef] den Krieg erklären. Es gibt keine Prüfungen, um zu sehen, ob dies eine gültige Erklärung ist, außer dass die beiden Länder nicht verbündet sind und sich nicht bereits im Krieg befinden.\n\n§RHINWEIS: Dies kann sehr wohl Kaiserreich-Inhalte brechen! Verwendung auf eigene Gefahr!!§!"
- 
+
 ### Unit Leader Events ###
 unit_leader.1.t: "[From.GetName] wird krank"
 unit_leader.1.d: "In [From.GetHerHis] Dienst an der Nation scheint es, dass [From.GetRank] [From.GetName] [From.GetHerselfHimself] zu weit gegangen ist. Infolge des schlechten Klimas im Einsatzgebiet von [From.GetHerHerHis] ist [From.GetHerHerRank] nun erkrankt und wird wahrscheinlich einige Zeit brauchen, um sich zu erholen. Bis [From.GetSheHe] wieder gesund wird, wird [From.GetSheHe] nicht auf [From.GetHerHerHis] üblichem Niveau arbeiten."
@@ -593,9 +601,9 @@ mtg_generic.1.desc: "Unter Hinweis auf den deutlichen Mangel an Wahlunterstützu
 mtg_generic.1.a: "Wir haben keine andere Wahl als zu akzeptieren."
 
 ### Sub-unit Modifiers ###
-modifier_army_sub_unit_category_mobile_infantry_attack_factor: "Kav/Mot/Mech Angriff" 
-modifier_army_sub_unit_category_mobile_infantry_defence_factor: "Kav/Mot/Mech Verteidigung" 
-modifier_army_sub_unit_category_mobile_infantry_speed_factor: "Kav/Mot/Mech Geschwindigkeit" 
+modifier_army_sub_unit_category_mobile_infantry_attack_factor: "Kav/Mot/Mech Angriff"
+modifier_army_sub_unit_category_mobile_infantry_defence_factor: "Kav/Mot/Mech Verteidigung"
+modifier_army_sub_unit_category_mobile_infantry_speed_factor: "Kav/Mot/Mech Geschwindigkeit"
 
 ### Research Bonus Names ###
 refinery_bonus: "Raffinerie-Bonus"
