@@ -14,7 +14,6 @@ KR_controlled_by_ROOT_or_ally: "wird kontrolliert von §Y[Root.GetNameDef]§! od
 KR_controlled_by_ROOT_or_ally_NOT: "wird §Rnicht§! von §Y[Root.GetNameDef]§! oder einem Verbündeten kontrolliert"
 KR_owned_and_controlled_by_ROOT_or_ally: "ist im Besitz und unter der Kontrolle von §Y[Root.GetNameDef]§! oder einem Verbündeten"
 KR_owned_and_controlled_by_ROOT_or_ally_NOT: "ist §Rnicht§! im Besitz und unter der Kontrolle von §Y[Root.GetNameDef]§! oder einem Verbündeten"
- new_annexation_decisions_tt: "§YEntscheidung wird über das Schicksal der einzelnen Regionen bestimmen§!"
  annexation_occupied_state: "Militärische Besetzung: $VALUE|=-%0$"
 
  is_valid_annexation_state: "Ist Eigentum von §Y[ROOT.GetNameWithFlag]§! und §Rnicht§! ein Kern oder beansprucht"
@@ -307,10 +306,6 @@ annex.2.a: "Hurra!"
  annex.8.desc_generic: "Es scheint, dass das Angebot von [From.From.GetNameDef] für die Rückgabe der beanspruchten Ländereien zu viel für [From.GetNameDef] war, um es abzulehnen. Sie haben unser Bündnis verlassen und sich der [From.From.GetFactionName] angeschlossen. Vielleicht ist es Land, das wir ihnen nie hätten geben können, aber trotzdem ist es eine bittere Pille, die man schlucken muss."
  annex.8.a_romania: "Und das nach allem, was wir durchgemacht haben!"
  annex.8.a_generic: "Hoffentlich landen wir nicht auf gegnerischen Seiten..."
-
-annex.18.t: "Wiedergewonnene Gebiete!"
-annex.18.d: "Die [From.GetAdjective]-Regierung hat sich dafür entschieden, uns Gebiete im ehemals von Österreich besetzten Italien zurückzugeben."
-annex.18.a: "Hurra!"
 
 annex.184.t: "Eine Wiederherstellung von O'Neill?"
 annex.184.d: "Nun, da wir einen irischen Staat wiederhergestellt haben, haben einige die Wiederherstellung einer irischen Monarchie vorgeschlagen. Die naheliegendste Option wären die O'Neills, Nachfahren des letzten Hochkönigs von Irland, Brian O'Neill, und die sowohl im Neunjährigen Krieg als auch in den irischen Konföderationskriegen mit Hugh O'Neill und Owen Roe O'Neill eine wichtige Rolle spielten und viele große Siege gegen die Engländer und Schotten errangen. Das derzeitige Oberhaupt der Clanaboy-Linie der O'Neill-Dynastie, Jorge Maria O'Neill, wohnt in Portugal und arbeitet derzeit als Elektroingenieur - eine Rolle weit unter seinem Niveau."
@@ -1715,49 +1710,49 @@ annexation_asir_desc: "Die Region Asir ist jetzt unter unserer Kontrolle, wir m�
  annex.4035.a: "[khorasan.GetGrantTerritoryEventOption]"
  annex.4035.b: "[karakum.GetGrantTerritoryEventOption]"
 
-annexation_gabon: "Das Schicksal von [GAB.GetNameDef]"
-annexation_gabon_desc: "Wir kontrollieren jetzt die ehemalige deutsche Kolonie [GAB.GetNameDef] und mit ihr Massen von Afrikanern, die sich danach sehnen, frei zu atmen. Sollten wir ihnen diese Freiheit unter unserer strengen Aufsicht geben oder ist dieser Traum vergebens?"
-annex.5000.a: "Bilden Sie den Staat [GAB.GetNameDef]."
+annexation_gabon: "Das Schicksal von Gabun"
+annexation_gabon_desc: "Wir kontrollieren jetzt die ehemalige deutsche Kolonie Gabun und mit ihr Massen von Afrikanern, die sich danach sehnen, frei zu atmen. Sollten wir ihnen diese Freiheit unter unserer strengen Aufsicht geben oder ist dieser Traum vergebens?"
+annex.5000.a: "Bilden Sie den Staat Gabun."
 
-annexation_cameroon: "Das Schicksal von [CMR.GetNameDef]"
-annexation_cameroon_desc: "Mit unserer kürzlichen Annexion der Kolonie [CMR.GetNameDef] ist die frühere Verwaltung gefallen und dieses Gebiet braucht eine neue fähige Verwaltung. Die Frage ist, sollte es unsere sein oder sollte es eine lokale unter unseren Befehlen sein?"
-annex.5001.a: "Bilden Sie den Staat [CMR.GetNameDef]."
+annexation_cameroon: "Das Schicksal von Kamerun"
+annexation_cameroon_desc: "Mit unserer kürzlichen Annexion der Kolonie Kamerun ist die frühere Verwaltung gefallen und dieses Gebiet braucht eine neue fähige Verwaltung. Die Frage ist, sollte es unsere sein oder sollte es eine lokale unter unseren Befehlen sein?"
+annex.5001.a: "Bilden Sie den Staat Kamerun."
 
-annexation_ubangi_shari: "Das Schicksal von [CAR.GetNameDef]"
-annexation_ubangi_shari_desc: "Nach dem Fall von Bangui haben wir die ehemalige Kolonie [CAR.GetNameDef] mit unserer eisernen Faust kontrolliert. Dennoch erweist sich diese Besatzung als kostspielig, und viele Beamte in unserer Hauptstadt stellen nun ihre Sinnhaftigkeit in Frage und fordern ein gewisses Maß an Autonomie. Sollten wir das tun?"
-annex.5002.a: "Bilden Sie den Staat [CAR.GetNameDef]"
+annexation_ubangi_shari: "Das Schicksal von Ubangi-Shari"
+annexation_ubangi_shari_desc: "Nach dem Fall von Bangui haben wir die ehemalige Kolonie Ubangi-Shari mit unserer eisernen Faust kontrolliert. Dennoch erweist sich diese Besatzung als kostspielig, und viele Beamte in unserer Hauptstadt stellen nun ihre Sinnhaftigkeit in Frage und fordern ein gewisses Maß an Autonomie. Sollten wir das tun?"
+annex.5002.a: "Bilden Sie den Staat Ubangi-Shari"
 
-annexation_congo: "Das Schicksal von [COG.GetNameDef]"
-annexation_congo_desc: "Unsere Annexion der ehemaligen deutschen Kolonie [COG.GetNameDef] stellt uns vor die Wahl, sollen wir sie weiter besetzen, um sie unserem Reich hinzuzufügen, oder sollen wir den [COG.GetAdjective] eine gewisse Autonomie lassen und einen Marionettenstaat schaffen?"
-annex.5003.a: "Bilden Sie den Staat [COG.GetNameDef]."
+annexation_congo: "Das Schicksal von der Kongo"
+annexation_congo_desc: "Unsere Annexion der ehemaligen deutschen Kolonie der Kongo stellt uns vor die Wahl, sollen wir sie weiter besetzen, um sie unserem Reich hinzuzufügen, oder sollen wir den Kongolesen eine gewisse Autonomie lassen und einen Marionettenstaat schaffen?"
+annex.5003.a: "Bilden Sie den Staat der Kongo."
 
-annexation_zambia: "Das Schicksal von [ZAM.GetNameDef]"
-annexation_zambia_desc: "Jetzt, wo wir die Kontrolle über die ehemalige deutsche Kolonie Zambesia haben, stehen wir vor der Wahl, wie wir das Gebiet verwalten wollen: Sollen wir ein unabhängiges [ZAM.GetNameDef] gründen und, wenn ja, sollen wir Njassaland darin einbeziehen?"
+annexation_zambia: "Das Schicksal von Zambesia"
+annexation_zambia_desc: "Jetzt, wo wir die Kontrolle über die ehemalige deutsche Kolonie Zambesia haben, stehen wir vor der Wahl, wie wir das Gebiet verwalten wollen: Sollen wir ein unabhängiges Zambesia gründen und, wenn ja, sollen wir Njassaland darin einbeziehen?"
  annex.5004.a: "Bilden Sie den Staat [ZAM.GetNameDef."
 
-annexation_angola: "Das Schicksal von [ANG.GetNameDef]"
-annexation_angola_desc: "Unsere Annexion der ehemaligen portugiesischen Kolonie [ANG.GetNameDef] überließ uns die Verwaltung dieser Millionen von Afrikanern fernab der Meere. Sicherlich wird es für uns einfacher sein, eine lokale Regierung zu installieren, um sie zu verwalten, aber sollten wir das den Einheimischen anvertrauen?"
-annex.5005.a: "Bilden Sie den Staat [ANG.GetNameDef]!"
+annexation_angola: "Das Schicksal von Angola"
+annexation_angola_desc: "Unsere Annexion der ehemaligen portugiesischen Kolonie Angola überließ uns die Verwaltung dieser Millionen von Afrikanern fernab der Meere. Sicherlich wird es für uns einfacher sein, eine lokale Regierung zu installieren, um sie zu verwalten, aber sollten wir das den Einheimischen anvertrauen?"
+annex.5005.a: "Bilden Sie den Staat Angola."
 
-annexation_nigeria: "Das Schicksal von [NGA.GetNameDef]"
-annexation_nigeria_desc: "Die riesige und reiche Kolonie [NGA.GetNameDef] ist nun unter unserer Kontrolle und damit kommt die Last, sie verwalten zu müssen. Könnten wir diese Aufgabe in einem gewissen Umfang an einen lokalen Marionettenstaat delegieren?"
-annex.5006.a: "Bilden Sie den Staat [NGA.GetNameDef]."
+annexation_nigeria: "Das Schicksal von Nigeria"
+annexation_nigeria_desc: "Die riesige und reiche Kolonie Nigeria ist nun unter unserer Kontrolle und damit kommt die Last, sie verwalten zu müssen. Könnten wir diese Aufgabe in einem gewissen Umfang an einen lokalen Marionettenstaat delegieren?"
+annex.5006.a: "Bilden Sie den Staat Nigeria."
 
-annexation_dahomey: "Das Schicksal von [DAH.GetNameDef]"
-annexation_dahomey_desc: "Das alte Territorium von [DAH.GetNameDef], ehemalige deutsche Kolonie, wurde von unseren vorrückenden Truppen erobert und in unser Reich eingegliedert, aber dieses Territorium ist weit entfernt und schwer zu kontrollieren, sollten wir versuchen, es wie eine unserer Kolonien zu verwalten oder ist die Schaffung eines Satelliten in [DAH.GetNameDef] angemessener?"
-annex.5007.a: "Bilden Sie den Staat [DAH.GetNameDef]."
+annexation_dahomey: "Das Schicksal von Dahomey"
+annexation_dahomey_desc: "Die ehemalige deutsche Kolonie Dahomey wurde von unseren vorrückenden Truppen erobert und in unser Reich eingegliedert, aber dieses Gebiet ist weit entfernt und schwer zu kontrollieren. Sollten wir versuchen, es wie eine unserer Kolonien zu verwalten, oder ist die Gründung eines Satelliten in Dahomey angemessener?"
+annex.5007.a: "Bilden Sie den Staat Dahomey."
 
-annexation_togo: "Das Schicksal von [TOG.GetNameDef]"
-annexation_togo_desc: "Wir kontrollieren jetzt die ehemalige deutsche Kolonie [TOG.GetNameDef], und angesichts der Millionen von Afrikanern, die dort leben und ihre eigene Regierung bilden wollen, sollten wir das unter unserer wohlwollenden Aufsicht zulassen?"
-annex.5008.a: "Bilden Sie den Staat [TOG.GetNameDef]."
+annexation_togo: "Das Schicksal von Togoland"
+annexation_togo_desc: "Wir kontrollieren jetzt die ehemalige deutsche Kolonie Togoland, und angesichts der Millionen von Afrikanern, die dort leben und ihre eigene Regierung bilden wollen, sollten wir das unter unserer wohlwollenden Aufsicht zulassen?"
+annex.5008.a: "Bilden Sie den Staat Togoland."
 
-annexation_ghana: "Das Schicksal von [GHA.GetNameDef]"
-annexation_ghana_desc: "Die Region [GHA.GetNameDef] ist nun unter unsere Kontrolle gebracht worden. Die frühere Kolonialverwaltung ist vorzeitig aus der Kolonie geflohen und hat uns ein unregiertes, besetztes Gebiet hinterlassen. Sollten wir diese Besetzung fortsetzen oder eine neue Regierung bilden?"
-annex.5009.a: "Bilden Sie den Staat [GHA.GetNameDef]."
+annexation_ghana: "Das Schicksal von Ghana"
+annexation_ghana_desc: "Die Region Ghana ist nun unter unsere Kontrolle gebracht worden. Die frühere Kolonialverwaltung ist vorzeitig aus der Kolonie geflohen und hat uns ein unregiertes, besetztes Gebiet hinterlassen. Sollten wir diese Besetzung fortsetzen oder eine neue Regierung bilden?"
+annex.5009.a: "Bilden Sie den Staat der Goldküste."
 
 annexation_ivory_coast: "Das Schicksal der Elfenbeinküste"
 annexation_ivory_coast_desc: "Die Elfenbeinküste, einst Teil des französischen Kolonialreichs, ist nun unter unsere Kontrolle geraten. Seine Bewohner verlangen nun eine kompetente Verwaltung, die sich um Steuern oder Wehrpflicht kümmert. Sollten wir versuchen, sie von unserer Hauptstadt aus zu regieren, oder wäre eine lokale begrenzte Regierung eine bessere Lösung?"
-annex.5010.a: "Bilden Sie den Staat [IVO.GetNameDef]."
+annex.5010.a: "Bilden Sie den Staat Elfenbeinküste."
 
 annexation_liberia: "Das Schicksal von Liberia"
 annexation_liberia_desc: "Der Staat Liberia, der von einem amerikanischen Unternehmen mit dem Ziel gegründet wurde, amerikanische Schwarze nach Afrika zurückzubringen, war schon immer eine Besonderheit. Jahrelang unter der losen Kontrolle der Amerikaner, ist das Land nun vor unserer Macht gefallen. Die liberianische Identität ist stark und der Versuch, sie direkt zu annektieren, könnte sich als ineffizient erweisen, Beamte in unserem Land fordern stattdessen die Gründung eines loyalen liberianischen Staates, sollten wir das tun?"
@@ -1765,39 +1760,40 @@ annexation_liberia_desc: "Der Staat Liberia, der von einem amerikanischen Untern
 
 annexation_sierra_leone: "Das Schicksal von Sierra Leone"
 annexation_sierra_leone_desc: "Die ehemalige britische Kolonie Sierra Leone, einst ein Zufluchtsort für ehemalige loyale britische Sklaven, wurde von unseren vorrückenden Armeen erobert und in unser Reich eingegliedert. Aber trotz unserer besten Bemühungen erweist sich seine Verwaltung als eine Schwierigkeit für unsere ungeschulten Administratoren, einige haben dafür plädiert, dem Gebiet ein größeres Maß an Autonomie zu geben, sollten wir es zulassen?"
-annex.5012.a: "Bilden Sie den Staat [SIE.GetNameDef]."
+annex.5012.a: "Bilden Sie den Staat Sierra Leone."
 
 annexation_guinea: "Das Schicksal von Guinea"
 annexation_guinea_desc: "Die ehemalige französische Kolonie Guinea, die zwischen einem traditionellen gebirgigen Norden und einem kolonialen Süden geteilt ist, wurde in unser wachsendes Imperium eingegliedert. Wir stehen nun vor der komplexen Aufgabe, dieses neue Territorium zu organisieren. Sollen wir es direkt in unsere Machtstruktur eingliedern oder sollen wir dort einen separaten Marionettenstaat schaffen?"
-annex.5013.a: "Bilden Sie den Staat [GNA.GetNameDef]."
+annex.5013.a: "Bilden Sie den Staat Guinea."
 
 annexation_senegal: "Das Schicksal von Senegal"
 annexation_senegal_desc: "Der Hafen von Dakar, ehemals der wichtigste Hafen von Französisch-Westafrika, ist durch unsere wiederholten Angriffe gefallen und mit ihm die gesamte Kolonie Senegal einschließlich der 4 französischen Gemeinden. Aber mit diesem Besitzerwechsel kamen mehr Probleme, da die fähigen französischen Verwalter das Gebiet verließen und uns mit einer organisatorischen Leere zurückließen, sollten wir hier einen loyalen Satelliten schaffen, um unsere Probleme zu lindern?"
-annex.5015.a: "Bilden Sie den Staat [SEN.GetNameDef]."
+annex.5015.a: "Bilden Sie den Staat Senegambia."
 
 annexation_mauritania: "Das Schicksal von Mauretanien"
 annexation_mauritania_desc: "Die Wüstenregion Mauretanien ist unter die Kontrolle unserer Armeen gekommen. Die ehemalige französische Kolonie, die vor 15 Jahren noch nicht einmal befriedet war, braucht jetzt eine Regierung, die sie effizient regiert, damit das Gebiet nicht erneut in Anarchie verfällt. Sollten wir die Schaffung eines mauretanischen Marionettenstaates in Betracht ziehen?"
-annex.5016.a: "Bilden Sie den Staat [MRT.GetNameDef]."
+annex.5016.a: "Bilden Sie den Staat Mauretanien."
 
 annexation_mali: "Das Schicksal von Mali"
 annexation_mali_desc: "Das Tal des Niger-Flusses, einst als französischer Sudan oder Mali bekannt, ist nun direkt in unsere Territorien integriert. Diese Kolonie braucht zwar eine bessere Verwaltung, die wir nur schwer bereitstellen können, dennoch können die Einheimischen und die Überreste der französischen Verwaltung sie bis zu einem gewissen Grad für uns verwalten, sollten wir sie einen loyalen Marionettenstaat bilden lassen?"
-annex.5017.a: "Bilden Sie den Staat [MLI.GetNameDef]."
+annex.5017.a: "Bilden Sie den Staat Mali."
 
 annexation_upper_volta: "Das Schicksal von Obervolta"
 annexation_upper_volta_desc: "Das uralte Land der Mossi rund um die Region des Volta ist unter unsere Kontrolle gekommen und ist nun ein Teil unseres Landes. Oft geteilt und von den Kolonialbehörden schlecht angesehen, bittet ihr Volk uns nun um eine Chance, einen eigenen Staat zu bilden. Sollen wir sie sich bis zu einem gewissen Grad selbst organisieren lassen?"
-annex.5018.a: "Bilden Sie den Staat [VOL.GetNameDef]."
+annex.5018.a: "Bilden Sie den Staat Obervolta."
 
 annexation_niger: "Das Schicksal von Niger"
 annexation_niger_desc: "Unsere stolzen Armeen haben gerade die ehemalige französische Kolonie Niger annektiert, die jetzt eine richtige Regierung braucht. Sollten wir unsere Verwaltung dort etablieren oder sollten wir sie eine lokale Regierung bilden lassen?"
-annex.5019.a: "Bilden Sie den Staat [NGR.GetNameDef]."
+annex.5019.a: "Bilden Sie den Staat Niger."
 
 annexation_chad: "Das Schicksal des Tschad"
 annexation_chad_desc: "Schließlich ist unsere Annexion der Region Tschad abgeschlossen, die ehemalige französische Kolonie braucht nun eine kompetente Verwaltung, um sie zu verwalten. In Anbetracht der Schwierigkeiten, die sie Frankreich bereitet hat, zwischen Stammesaufständen und passiven Revolten, sollten wir in Erwägung ziehen, ihr Autonomie zu geben, um diese Last zu lindern?"
-annex.5020.a: "Bilden Sie den Staat [CHA.GetNameDef]."
+annex.5020.a: "Bilden Sie den Staat Tschad."
 
 annexation_morocco: "Das Schicksal von Marokko"
 annexation_morocco_desc: "Wir haben Marokko von den Deutschen befreit und unsere Streitkräfte haben nun Schwierigkeiten, die bergigen und halbtrockenen Regionen des Landes zu besetzen. Obwohl die städtischen Zentren unter unserer Kontrolle sind, wäre es vielleicht klug, die weitere Kontrolle an Einheimische abzugeben."
-annex.5021.a: "Marokko freigeben."
+ annex.5021.a: "Marokkanische Republik freigeben."
+ annex.5021.b: "Wiedereinsetzung des Alaouiten-Monarchen."
 
 annexation_rio_de_oro: "Das Schicksal von Rio de Oro"
 annexation_rio_de_oro_desc: "Die Wüstenregion von Rio de Oro ist nun unter unserer Kontrolle, wir müssen entscheiden, was wir damit machen."
@@ -1827,24 +1823,24 @@ annex.5029.a: "Somalia freigeben."
 
 annexation_kenya: "Das Schicksal von Kenia"
 annexation_kenya_desc: "Die Steppen Kenias sind jetzt in unserer gnädigen Kontrolle, was sollen wir mit ihnen machen? Werden wir sie direkt kontrollieren oder werden wir sie befreien?"
-annex.5030.a: "Bilden Sie den Staat [KEN.GetNameDef]."
+annex.5030.a: "Bilden Sie den Staat Kenia."
 
 annexation_uganda: "Das Schicksal von Uganda"
 annexation_uganda_desc: "Wir besetzen jetzt die ehemalige deutsche Kolonie Uganda und diese Region, die bevölkert ist und in der Nähe der Großen Seen liegt, ist weit entfernt von allem, was wir kontrollieren könnten. Sollten wir es ihnen leichter machen, indem wir ihnen ein gewisses Maß an Selbstständigkeit zugestehen, oder sollten wir die Besatzung fortsetzen?"
-annex.5031.a: "Bilden Sie den Staat [UGA.GetNameDef]."
+annex.5031.a: "Bilden Sie den Staat Uganda."
 
 annexation_tanzania: "Das Schicksal von East Africa"
 annexation_tanzania_desc: "Wir befinden uns jetzt an der Kreuzung der ehemaligen deutschen Kolonie Mittelafrika, Ostafrika, und ihrer Hauptstadt Dar-es-Salaam. Sollen wir diese zu einer möglichen Hauptstadt unseres neuen Kolonialreichs machen oder den Einheimischen die Verwaltung dieses Landes mit einer Effizienz überlassen, die wir nie erreichen könnten?"
 annex.5032.a: "Ein Großes Ostafrika bilden."
 annex.5032.b: "Ostafrika so wiederherstellen, wie es einmal war."
 
-annexation_rwanda: "Das Schicksal von Ruanda"
+annexation_rwanda: "Das Schicksal von Rwanda"
 annexation_rwanda_desc: "Nach der Befreiung Ruandas aus der deutschen Kolonialherrschaft stehen wir vor der Wahl, ob wir die Ruander ein Stück weit sich selbst regieren lassen oder nicht, sollen wir es tun?"
-annex.5033.a: "Bilden Sie den Staat [RWA.GetNameDef]."
+annex.5033.a: "Bilden Sie den Staat Rwanda."
 
 annexation_urundi: "Das Schicksal von Urundi"
 annexation_urundi_desc: "Wir haben jetzt Urundi annektiert, einen Teil der ehemaligen deutschen Kolonie Ostafrika. Sollten wir den Urundi ihre Unabhängigkeit zurückgeben und sie ihr eigenes Land verwalten lassen?"
-annex.5034.a: "Bilden Sie den Staat [BRD.GetNameDef]."
+annex.5034.a: "Bilden Sie den Staat Urundi."
 
 annexation_mozambique: "Das Schicksal von Mosambik"
 annexation_mozambique_desc: "Unsere Annexion der ehemaligen portugiesischen Kolonie Mosambik überließ uns die Verwaltung dieser Millionen von Afrikanern fernab der Meere. Sicherlich wird es für uns einfacher sein, eine lokale Regierung zu installieren, um sie zu verwalten, aber sollten wir das den Einheimischen anvertrauen?"
@@ -1852,12 +1848,12 @@ annex.5035.a: "Bilden Sie den Staat Mosambik!"
 
 annexation_malawi: "Das Schicksal von Njassaland"
 annexation_malawi_desc: "Mit unserer neuen Besetzung der ehemaligen deutschen Kolonie Njassaland wurde die Möglichkeit ins Spiel gebracht, anstelle einer neuen Kolonie eine teilweise von Einheimischen geführte Marionettenregierung einzurichten, sollten wir diese Idee weiterverfolgen?"
-annex.5036.a: "Bilden den Staat [MLW.GetNameDef]."
+annex.5036.a: "Bilden den Staat Njassaland."
  annex.5036.b: "[955.owner.GetNameDef]."
 
 annexation_madagascar: "Das Schicksal von Madagaskar"
 annexation_madagascar_desc: "Unsere mächtigen Armeen haben die Kontrolle über die ehemalige deutsche Kolonie Madagaskar übernommen. Die riesige Insel steht derzeit unter militärischer Verwaltung, aber vielleicht wollen wir dort eine echte Verwaltung installieren. Soll diese lokal sein oder sollen wir die Insel direkt an unser Reich angliedern?"
-annex.5037.a: "Bilden Sie den Staat [MAD.GetNameDef]."
+annex.5037.a: "Bilden Sie den Staat Madagascar."
  annex.5037.b: "Wiedereinführung der Merina-Monarchie."
 
 annexation_south_africa: "Das Schicksal von Südafrika"
@@ -1866,15 +1862,15 @@ annexation_south_africa_desc: "Endlich hat das afrikanische Herrschaftsgebiet S�
 
 annexation_namibia: "Das Schicksal von Namibia"
 annexation_namibia_desc: "Wir haben die ehemalige deutsche Kolonie Südwestafrika annektiert, besser bekannt als Namibia, aber jetzt müssen wir Tausende von Afrikanern in einem Gebiet verwalten, das wir nicht kennen. Sollten wir ein gewisses Maß an Selbstbestimmung einführen oder sollten wir diesen Ort als neue Kolonie regieren?"
-annex.5039.a: "Bilden Sie den Staat [NMB.GetNameDef]!"
+annex.5039.a: "Bilden Sie den Staat Namibia."
 
 annexation_botswana: "Das Schicksal von Botswana"
 annexation_botswana_desc: "Das Protektorat Botswana, das von britischer zu südafrikanischer Führung wechselte, hat viele Veränderungen erlebt und ist nun bereit für die Unabhängigkeit. Sollten wir einen botswanischen Satelliten schaffen?"
-annex.5040.a: "Bilden Sie den Staat [BOT.GetNameDef]."
+annex.5040.a: "Bilden Sie den Staat Betschuanaland."
 
 annexation_zimbabwe: "Das Schicksal von Simbabwe"
 annexation_zimbabwe_desc: "Das Protektorat Simbabwe hat während seiner Zeit als Kolonie viele Bewegungen für die Unabhängigkeit gesehen, aber keine war erfolgreich, bis jetzt, mit unserer Annexion des Landes, gibt es jetzt die Hoffnung, dass die simbabwische Nation geschaffen wird, sollten wir es tun?"
-annex.5041.a: "Bilden Sie den Staat [ZIM.GetNameDef]."
+annex.5041.a: "Bilden Sie den Staat Simbabwe."
 
  annexation_sudan: "Das Schicksal des Sudan"
  annexation_sudan_desc: "Der Sudan wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihm machen wollen."
@@ -1889,11 +1885,11 @@ annex.5041.a: "Bilden Sie den Staat [ZIM.GetNameDef]."
 
  annexation_gebaia: "Das Schicksal von Portugiesisch-Guinea"
  annexation_gebaia_desc: "Im Zusammenhang mit unserer neuen Besetzung der ehemaligen portugiesischen Kolonie Guinea wurde die Möglichkeit der Einrichtung einer Marionettenregierung, die teilweise von Einheimischen geführt wird, anstelle einer neuen Kolonie ins Gespräch gebracht: Sollten wir diese Idee weiterverfolgen?"
- annex.5045.a: "Den Staat [GNB.GetNameDef] bilden."
+ annex.5045.a: "Den Staat Guinea-Bissau bilden."
 
  annexation_equatorial_guinea: "Das Schicksal von Äquatorialguinea"
  annexation_equatorial_guinea_desc: "Im Zusammenhang mit unserer neuen Besetzung der ehemaligen spanischen Kolonie Äquatorialguinea wurde die Möglichkeit der Einrichtung einer Marionettenregierung, die teilweise von Einheimischen geführt wird, anstelle einer neuen Kolonie ins Gespräch gebracht: Sollten wir diese Idee weiterverfolgen?"
- annex.5046.a: "Den Staat [EQG.GetNameDef] bilden."
+ annex.5046.a: "Den Staat Äquatorialguinea bilden."
 
  annexation_rif: "Das Schicksal des Rif"
  annexation_rif_desc: "Der Küstenstreifen Marokkos, der als Rif bekannt ist, steht nun unter unserer Kontrolle, und wir müssen entscheiden, was wir damit anfangen wollen."

@@ -1,7 +1,6 @@
 ﻿l_german:
 ### Übersetzt von DerEherneRächer ###
 ### EE Cooperation Mechanics ###
-
  mie.0.t: "Die Russische Bedrohung"
  mie.0.d: "Russlands jahrzehntelanger Niedergang ist vorüber und die Russen beginnen mit dem Wiederaufbau. Schon jetzt beanspruchen sie die ehemaligen Territorien des Zarenreiches und die osteuropäischen Staaten werden sicher eines ihrer Ziele sein.\n\nUm die Eindämmung der russischen Bedrohung und die Souveränität der Staaten Osteuropas zu garantieren, haben sich Politiker und Generäle in [MIE_leader.Capital.GetCapitalVictoryPointName] versammelt, um ein Konzept der gegenseitigen Kooperation zu erarbeiten. Eine gemeinsame militärische Verteidigung wurde etabliert und [MIE_leader.GetNameDef] wurde damit anvertraut, die gemeinsamen Verteidigungsunternehmen der Region zu finanzieren."
  mie.0.a: "Großartig!"
@@ -9,6 +8,8 @@
  MIE_decisions: "Osteuropäische Verteidigungskooperation"
  MIE_decisions_desc: "[?global.russia.GetNameDefCap] wurde wieder aufgebaut - und die Souveränität der osteuropäischen Staaten ist bedroht. Wenn der Zweite Weltkrieg beginnt, werden wir uns gegen den russischen Ansturm behaupten müssen-und wenn wir nicht zusammenarbeiten, werden wir einer nach dem anderen untergehen.\n\n Nachdem [[?global.russia.GetNameDef] seinen Außenpolitik-Fokusbaum freischaltet,erhalten alle östlichen Mitglieder des Reichspakts die Fähigkeit, §YRessourcen zusammenzulegen§! und sie unter den Mitgliedsstaaten zu verteilen, um Schwachstellen auszumerzen. Die Nation, die für die Verteilung der Ressourcen verantwortlich ist, kann in andere Mitgliedsstaaten investieren, um §YBefestigungen zu bauen§!, §YDivisionen auszuheben§! und vorteilhafte §YNationalgeister§! zu verteilen.\n\nDerzeit gesammelte Ressourcen:\n    £rifle_texticon  Infanterieausrüstung: §Y[?global.MIE_infantry_equipment]§!\n    £support_texticon  Zusatzausrüstung: §Y[?global.MIE_support_equipment]§!\n    £unit_artillery_icon_small  Artillerie: §Y[?global.MIE_artillery_equipment]§!\n\n[MIE_leader.GetNameWithFlag] ist derzeit dafür verantwortlich, die Ressourcen zu verteilen."
  MIE_intermarium_active: "Die §YOsteuropäische Verteidigungskooperation§! ist aktiv."
+ MIE_intermarium_formed: "Das Osteuropäische Verteidigungskooperations-Programm wurde ins Leben gerufen."
+ MIE_member: "Ist Mitglied der §YOsteuropäischen Verteidigungs-Kooperation§!."
 
  MIE_decisions_GER: "Ostpolitik"
  MIE_decisions_GER_desc: "Der Osten unseres Reiches erstreckt sich von der Ostsee bis zum Schwarzen Meer. Die Oststaaten, unsere de facto Satellitenstaaten, werden zur einen Hälfte durch unsere militärische Stärke und zur anderen durch ihre Angst vor den Russen im Zaum gehalten. Wir sollten ihre politische Entwicklungen stets im Auge behalten und, falls nötig, entsprechend reagieren.\n\n[POL_in_RP]"
@@ -22,16 +23,14 @@
  POL_status_uprising_imminent: "Ein Aufstand in Polen steht kurz bevor!"
  POL_status_rebellious: "§RPolen rebelliert!§!"
 
- MIE_intermarium_formed: "Das Osteuropäische Verteidigungskooperations-Programm wurde ins Leben gerufen."
-
  GER_sponsor_MIE: "Fördert die OEVK"
  GER_sponsor_MIE_desc: "Die Osteuropäische Verteidigungskooperation wurde ins Leben gerufen, um die militärische Aufrüstung der Oststaaten zu koordinieren. Unsere militärische Industrie ist zwar bereits involviert, eine direkte Unterstützung durch unsere Regierung könnte die Organisation jedoch noch weiter stärken."
  GER_fight_forest_brothers: "Formt die Baltische Feldgendarmerie"
  GER_fight_forest_brothers_desc: "Die zeitweilige Entsendung einer Militärpolizei-Einheit in das Vereinigte Baltische Herzogtum könnte diesem dabei helfen, die baltischen Separatistenbewegungen niederzuschlagen."
  GER_fight_LAF: "Verstärkt die litauische Polizei"
  GER_fight_LAF_desc: "Die Regierung Litauens tut sich schwer im Kampf gegen die Litauische Aktivistische Front, eine angeblich von Russland unterstützte terroristische Organisation, die für zahlreiche Schreckenstaten verantwortlich ist. Wir könnten eine Spezialeinheit aus Preußen entsenden, um Litauen beim Kampf gegen die Aufständigen zu unterstützen."
- GER_WHR_coup: "Setzt die BSDP-Regierung ab"
- GER_WHR_coup_desc: "Wir haben Weißrutheniens Experiment einer linksgerichteten Demokratie nun schon seit Langem toleriert, doch dies scheint ein Fehler gewesen zu sein. Unsere Agenten haben uns über ihr Geheimabkommen mit Moskau und die weißruthenischen Pläne, uns im Kriegsfall in den Rücken zu fallen, in Kenntnis gesetzt. Wir sollten handeln, bevor es zu spät ist."
+ GER_BLR_coup: "Setzt die BSDP-Regierung ab"
+ GER_BLR_coup_desc: "Wir haben Weißrutheniens Experiment einer linksgerichteten Demokratie nun schon seit Langem toleriert, doch dies scheint ein Fehler gewesen zu sein. Unsere Agenten haben uns über ihr Geheimabkommen mit Moskau und die weißruthenischen Pläne, uns im Kriegsfall in den Rücken zu fallen, in Kenntnis gesetzt. Wir sollten handeln, bevor es zu spät ist."
 
  POL_GER_buy: "Investitionen in Polen"
  POL_GER_buy_desc: "Durch eine Ausweitung unserer wirtschaftlichen Kontrolle über Polen können wir unseren Einfluss auf die polnische Nation festigen und sicherstellen, dass die polnische Außenpolitik in der Zukunft unseren Interessen entsprechen wird."
@@ -82,8 +81,8 @@
  air_xp_50_blocked: "£air_experience §R50§!"
  air_xp_50_tooltip: "Diese Entscheidung kostet $air_xp_50_blocked$."
  
- MIE_build_forts_in_whr: "Ausbau des Ostwalls"
- MIE_build_forts_in_whr_tt: "§gErrichte Level 1 £GFX_land_fort_texticon §Y$bunker_plural$§! in jeder belarussischen Grenzprovinz.§!"
+ MIE_build_forts_in_blr: "Ausbau des Ostwalls"
+ MIE_build_forts_in_blr_tt: "§gErrichte Level 1 £GFX_land_fort_texticon §Y$bunker_plural$§! in jeder belarussischen Grenzprovinz.§!"
 
  mie.1.t: "Osteuropäische Kooperation"
  mie.1.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben für Befestigungen an unserer russischen Grenze auszugeben. Diese Befestigungen wurden nun fertiggestellt und sind bereit, bemannt zu werden."
@@ -175,7 +174,7 @@
  mie.17.t: "Pro-deutscher Staatsstreich in Weißruthenien!"
  mie.17.d: "Wie es scheint, hat der deutsche Geheimdienst unsere Zusammenarbeit mit der belarussischen Regierung aufgedeckt. Auf deutschen Befehl hin haben die reaktionären Elemente der belarussischen Armee die Kontrolle über Minsk übernommen, Ratsvorsitzenden Taraškievič des Hochverrates angeklagt und diesen festgenommen. Schon jetzt werden Sozialisten in ganz Weißruthenien verhaftet, während das bourgeoisie Militär die Freiheit des belarussischen Volkes weiter einschränkt. Sie können sich uns zwar nicht länger direkt im Falle eines Krieges anschließen, doch werden weiterhin ihr Bestes geben, um die Bemühungen der Militärregierung, sich uns zu widersetzen, zu sabotieren. Es ist unsere brüderliche Pflicht, die Belarussen von der preußischen Schreckensherrschaft zu befreien!"
  mie.17.a: "Auf nach Minsk!"
- GER_coup_WHR: "Pro-deutscher Staatsstreich in Weißruthenien"
+ GER_coup_BLR: "Pro-deutscher Staatsstreich in Weißruthenien"
 
  mie.18.t: "Deutsches Entlastungs-Abkommne"
  mie.18.d: "Unsere Freunde in Berlin haben uns nicht allein gelassen! Trotz ihrer eigenen wirtschaftlichen Misere hat die deutsche Regierung verkündet, dass unsere Getreideexporte von den verstärkt-protektionistischen Richtlinien der deutschen Handelspolitik, welche dem Schutze ihres eigenen landwirtschaftlichen Sektors dienen, ausgenommen werden. Zudem waren sie dazu bereit, einige unserer Kredite bei deutschen Banken umzuschulden, was uns das Tragen der finanziellen Last auf unseren Schultern etwas erleichtert. Insgesamt sollten die Entscheidungen der Deutschen unsere wirtschaftliche Lage und vor allem das Lot unserer Bauernschaft etwas verbessern."
