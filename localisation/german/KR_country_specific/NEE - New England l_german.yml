@@ -124,12 +124,12 @@ NEE_limited_recognation1: "Begrenzte Anerkennung"
 NEE_limited_recognation1_desc: "Die Provisorische Regierung wurde in den ersten Monaten des Zweiten Amerikanischen Bürgerkriegs gebildet, als die nordöstlichen Staaten der ehemaligen Vereinigten Staaten die kanadische Regierung um ein offizielles Eingreifen baten. Während es der kanadischen Regierung gelang, die Grenzen Neuenglands davor zu bewahren, in die Hände der kriegführenden Parteien zu fallen, wird die Provisorische Regierung von der internationalen Gemeinschaft kaum anerkannt, und nur wenige sind überzeugt, dass die Provisorische Regierung tatsächlich die letzte Bastion der amerikanischen Demokratie ist."
 
 ### Tooltips ###
-NEE_Liberty_Ships_tt: "Schaltet £decision_icon_small §HEntscheidungen§! zur Erweiterung des §CLiberty Ship Programms§! frei"
-NEE_Defence_Stratagem_A_tt: "Schaltet £decision_icon_small §HEntscheidungen§! zur Organisation der §DVerteidigung von Neuengland§! frei"
+NEE_Liberty_Ships_tt: "$unlocks_decisions$ zur Erweiterung des §CLiberty Ship Programms§!"
+NEE_Defence_Stratagem_A_tt: "$unlocks_decisions$ zur Organisation der §DVerteidigung von Neuengland§!"
 NEE_Behind_Enemy_Lines_tt: "Schaltet §YInfiltrieren, Improvisieren, Sabotieren§! Widerstandsaktionen in den von unseren Feinden kontrollierten Staaten im zweiten amerikanischen Bürgerkrieg frei"
 NEE_Underground_Railroad_tt: "§YFlüchtlinge§! und §YRessourcen§! werden über die Grenze nach §Y[NEE.GetNameWithFlag]§! geschmuggelt"
-NEE_Public_Opinion_Support_tt: "Schaltet £decision_icon_small §HEntscheidungen§! um die §YÖffentliche Meinung§! an der Heimatfront zu beeinflussen frei\n"
-NEE_ISAC_Equipement_tt: "Schaltet £decision_icon_small §HEntscheidungen§! to purchase §YEntente Weaponry§! and increase §YInternational Research Collaboration§!"
+NEE_Public_Opinion_Support_tt: "$unlocks_decisions$ um die §YÖffentliche Meinung§! an der Heimatfront zu beeinflussen\n"
+NEE_ISAC_Equipement_tt: "$unlocks_decisions$ den Kauf von §YEntente Bewaffnung§! und die Verstärkung der §YInternationalen Forschungszusammenarbeit§!"
 
 NEE_legitimacy_decrease: "Verringert unsere §YLegitimität§! um $RIGHT|R0$\n"
 NEE_legitimacy_increase: "Erhöht unsere §YLegitimität§! um $RIGHT|G0$\n"
@@ -976,7 +976,7 @@ nee_enticing_country: "Ein anderes Land dazu bringen, amerikanischen Einfluss zu
 # Congress Decisions #
 
 NEE_Congress_decisions: "Kongress"
-NEE_Congress_decisions_desc: "Mit der Wiederherstellung der amerikanischen Demokratie sind die Flammen der Freiheit in den Hallen des Kongresses wieder entfacht. Um jedoch einen stabilen Kongress zu erhalten und das Vertrauen der Bürger in die Legislative zu sichern, müssen wir dafür sorgen, dass beide politischen Parteien das Gefühl haben, in der nationalen Politik gleichberechtigt mitzureden. Die Bevorzugung der Programme der einen Partei gegenüber denen der anderen wird den Umfang der £pol_power §YPolitische Macht§! verringern, die wir jeden Tag gewinnen. Ein Großteil der vom Kongress zu leistenden Arbeit zielt auf den Wiederaufbau und die Wiederbelebung der amerikanischen Industrie und Gesellschaft nach den immensen Verwüstungen und Verlusten, die der Bürgerkrieg verursacht hat. Da die politischen Spannungen nach wie vor hoch und die Differenzen zwischen den Delegierten groß sind, muss man die Worte des großen ehemaligen Präsidenten Lincoln beherzigen: "Ein Haus, das mit sich selbst uneins ist, kann nicht bestehen.\"\n\n§mRepublikanische§! verabschiedete Politiken: [?NEE.NEE_rep_count|R0]\n§lDemokratische§! verabschiedete Politiken: [?NEE.NEE_dem_count|C0]"
+NEE_Congress_decisions_desc: "Mit der Wiederherstellung der amerikanischen Demokratie sind die Flammen der Freiheit in den Hallen des Kongresses wieder entfacht. Um jedoch einen stabilen Kongress zu erhalten und das Vertrauen der Bürger in die Legislative zu sichern, müssen wir dafür sorgen, dass beide politischen Parteien das Gefühl haben, in der nationalen Politik gleichberechtigt mitzureden. Die Bevorzugung der Programme der einen Partei gegenüber denen der anderen wird den Umfang der £pol_power §YPolitische Macht§! verringern, die wir jeden Tag gewinnen. Ein Großteil der vom Kongress zu leistenden Arbeit zielt auf den Wiederaufbau und die Wiederbelebung der amerikanischen Industrie und Gesellschaft nach den immensen Verwüstungen und Verlusten, die der Bürgerkrieg verursacht hat. Da die politischen Spannungen nach wie vor hoch und die Differenzen zwischen den Delegierten groß sind, muss man die Worte des großen ehemaligen Präsidenten Lincoln beherzigen: \"Ein Haus, das mit sich selbst uneins ist, kann nicht bestehen.\"\n\n§mRepublikanische§! verabschiedete Politiken: [?NEE.NEE_rep_count|R0]\n§lDemokratische§! verabschiedete Politiken: [?NEE.NEE_dem_count|C0]"
 
 NEE_congress_coalition_end: "Die Verfolgung dieser Politik wird zu einem Abbruch der Beziehungen zwischen den Parteien führen"
 NEE_Democrat_cabinet_tooltip: "Die §lDemokratische Partei§! wird §Y20%§! der politischen Macht stellen, die sie erhalten würde, wenn sie an der Macht wäre"

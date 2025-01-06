@@ -27,7 +27,9 @@
 
 ### Tooltips ###
  PER_embargo_anti_socialists_tt: "Wir werden gegen alle Feinde der Internationale ein §HEmbargo§! verhängen und ihnen somit Zugang zu unseren Ölreserven verwehren - doch dafür werden sie auch gegen uns ein Embargo verhängen."
- PER_ottomans_have_lost_desert_war: "§Y[OTT.GetFlag][OTT.GetNameDefCap]§! wurde im Wüstenkrieg besiegt."
+
+ PER_monarchy_tt: "Die Monarchie behält ihre Macht."
+ PER_revolution_tt: "Eine Revolution hat stattgefunden."
 
 ### Focuses ###
  PER_shah_is_dead_press_f: "Der Schah ist tot!"
@@ -277,10 +279,6 @@
  PER_regulating_excavation: "Regulation der Persepolis-Ausgrabung"
  PER_illiteracy: "Analphabetische Bevölkerung"
  PER_illiteracy_desc: "Viele Bürger unserer Nation haben bisher keinerlei Bildung erfahren, was sie ungebildet und ignorant macht."
-
-### Tooltips ###
- PER_monarchy_tt: "Die Monarchie behält ihre Macht."
- PER_revolution_tt: "Eine Revolution hat stattgefunden."
 
 ### Opinion Modifiers ###
  PER_oil_trade: "Ölhandel mit dem Iran"
@@ -690,7 +688,7 @@
 
  PER_Arm_Barzinji: "Verhandlungen mit Barzinji"
  PER_Arm_Barzinji_desc: "Obwohl der Saadabad-Pakt, der 1927 unterzeichnet wurde, die ständige Unterstützung kurdischer Unabhängigkeitsbewegungen im Iran und im Irak beenden sollte, setzen sich mittlerweile nur noch wenige Menschen für freundliche Beziehungen mit der Hohen Pforte ein. Der Schaden, der durch die regionale Dominanz der Osmanen entstand, wird nun als schwerwiegender betrachtet als die Auswirkungenen eines potenziellen kurdischen Aufstands im Iran selbst.\n\nDeshalb hat unsere Regierung beschlossen, Verhandlungen mit dem abgesetzten "König" von Sulaimaniyya, Scheich Mahmut Barzinji, zu beginnen und zu versuchen, für Chaos an der osmanischen Grenze zu sorgen. Da dies die Aufmerksamkeit der Osmanen auf die kurdischen Regionen ziehen wird, wird so der Persische Golf anfälliger für iranische Operationen sein."
- barzinji_contact: "Hat §YVerhandlungen mit Barzinji§! abgeschlossen"
+ barzinji_contact: "$has_completed_decision$$PER_Arm_Barzinji$§!"
  per_arm_barzinji_tt: "Dies könnte zu Vergeltungsmaßnahmen der Osmanen in Westaserbaidschan und Kurdistan führen. Eventuell könnte es sogar zu einem £GFX_in_combat §RKrieg§! mit der Hohen Pforte kommen.\n\n"
  PER_Sulaymaniyah_Revolt: "Beginnt die Sulaimaniyya-Revolte"
  PER_Sulaymaniyah_Revolt_desc: "Da ein Krieg mit der Hohen Pforte unausweichlich scheint, ist es nun an der Zeit, Barzinji nach Sulaimaniyya zu entsenden, in der Hoffnung, dass er die östlichen Verteidigungen der Osmanen durchbrechen und uns so einen Weg in Richtung Baghdad, Kirkuk und Basra schaffen kann."
@@ -738,7 +736,7 @@
  PER_avetis_soltanzadeh: "Avetis Soltanzadeh"
  PER_jafar_pishevari: "Ja'far Pishevari"
  PER_iraj_eskandari: "Iraj Eskandari"
- PER_sayyed_hasan_taqizadeh: "Sayyed Hasan Taqizadeh"
+ PER_hasan_taqizadeh: "Hasan Taqizadeh"
  PER_mohammad_mosaddegh: "Mohammad Mosaddegh"
  PER_mohammad_ali_foroughi_zoka_ol_molk: "Mohammad Ali Foroughi Zoka-ol-Molk"
  PER_ahmad_qavam: "Ahmad Qavām"
