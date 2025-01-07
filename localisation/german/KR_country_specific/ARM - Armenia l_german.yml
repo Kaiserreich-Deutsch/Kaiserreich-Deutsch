@@ -53,14 +53,12 @@
 ### Tooltips ###
  ARM_spawn_vets_tooltip: "§7Eine §YHrats'anneri Bazhanumy§! Division wird zur Verteidigung unseres Heimatlandes aufgestellt werden.§!"
  ARM_mountaineer: "§7 Erhalten Sie die Vorlage §YArmenische Bergsteiger§! mit der folgenden Zusammensetzung:\n - 6 £GFX_unit_mountaineers_icon_small Bataillone;\n - £GFX_unit_artillery_icon_small  Unterstützungs Kompanie.\n\nErstellen Sie §YEine§! Division mit der neu erstellten Vorlage.§!\n"
- ARM_unlock_Nzdeh_path_tt: "Der Schwerpunkt §Y$ARM_armenia_above_all$§! wird freigeschaltet!"
  ARM_Nzhdeh_entrenched: "Die Macht von Nzhdeh hat sich gefestigt."
- ARM_Internationale_accepts: "\nSollten sie unser Ersuchen annehmen, werden wir §YMilitärische Berater§! erhalten und in der Lage sein, §YIndustrielle Unterstützung§! von der Internationalen anzufordern."
+ ARM_Internationale_accepts: "Wir werden uns mit der §rInternationale§! zusammentun und §YMilitärische Berater§! sowie die Möglichkeit erhalten, §YIndustrielle Unterstützung§! anzufordern."
  ARM_western_fortifications_tooltip: "§YBefestigungen§! werden entlang unserer Westgrenze errichtet."
  ARM_once_coast_controlled: "§G2 Werften§! werden in einem zufälligen Küstenstaat errichtet, den wir besitzen und kontrollieren."
  ARM_trade_proposal_ongoing: "Bereits Verhandlungen über ein Handelsabkommen"
  ARM_three_trade_agreements: "Wir haben mindestens drei Handelsabkommen ausgehandelt."
- ARM_ottomans_have_lost_desert_war: "§Y[OTT.GetFlag][OTT.GetNameDefCap]§! wurde im Wüstenkrieg besiegt."
 
 ### Traits ###
  ARM_national_saviour: "Retter der Nation"
@@ -212,7 +210,7 @@
  ARM_free_once_again_desc: "Was lange Zeit für unmöglich gehalten wurde, ist endlich wahr geworden. Endlich ist unser Volk von Fremdherrschaft und Unterdrückung befreit worden, und die armenische Nation hat über das Osmanische Reich gesiegt. Auch wenn noch viel zu tun ist, feiern wir heute unseren Sieg und trauern um die, die wir verloren haben."
 
  ### Tseghakronutyun Tree
- ARM_armenia_above_all: "Armenien über alles"
+ ARM_armenia_above_all: "Armenien über alles!"
  ARM_armenia_above_all_desc: "Es gibt nur eine Nation, um die wir uns wirklich kümmern müssen: Armenien. Unser Volk hat im Laufe der Geschichte immer wieder seine Größe bewiesen, wird aber von anderen Ländern kaum für seine Tapferkeit anerkannt. Bald werden sie lernen, uns zu respektieren!"
  ARM_promote_identity: "Förderung einer nationalen Identität"
  ARM_promote_identity_desc: "Große Teile unserer Bevölkerung sprechen die gleiche Sprache, teilen die gleichen Werte und leben nach ähnlichen Traditionen, was unserem Volk ein Gefühl der Einheit und des Zusammenhalts verleiht. Im Sinne der tseghakronistischen Sache ist es unsere Pflicht, diese nationale Identität zu formalisieren und mit allen erforderlichen Mitteln zu fördern."
@@ -905,6 +903,10 @@
  arm.119.t: "Konstantinopel ist unser!"
  arm.119.d: "In einer außergewöhnlichen Wendung der Ereignisse, die Militärkommentatoren in aller Welt in Erstaunen versetzen wird, hat eine siegreiche Armee unter armenischer Flagge die alte Kaiserstadt Konstantinopel eingenommen. Die osmanischen Streitkräfte waren zwar über unsere Ankunft erstaunt, konnten die Stadt aber nicht gegen unseren Angriff verteidigen. Unser Heimatland Armenien, das von unseren Feinden unterdrückt wurde, ist nun wie ein Phönix aus der Asche auferstanden und hat das Juwel von Konstantinopel in seine Krallen genommen. Während sich unsere Truppen früher in den Hügeln und Bergen versteckten und nur nachts zuschlugen, marschieren sie jetzt die Prachtstraße von Pera entlang. Unser Flickenteppich von Guerillakämpfern hat sich nun zusammengeschlossen und in ganz Anatolien Siege errungen, aber nur wenige haben einen solchen Sieg erwartet! \n\nNach der Einnahme der Stadt scheinen unsere Truppen schockiert zu sein, denn selbst sie scheinen erstaunt zu sein, sich in der Hauptstadt zu befinden. Da sie sich der Unsicherheit ihrer Position bewusst sind, haben sie versucht, den Zorn der Einheimischen nicht zu erregen, und den Sieg so wenig wie möglich offenkundig demonstriert. Auch wenn die Angst vor einem möglichen Gegenangriff der kaiserlichen Truppen und die Sorge darüber, ob sie durch diese Anstrengungen verwundbar geworden sind, zu spüren ist, so strahlt doch zumindest die armenische Trikolore vom Topkapi-Palast aus hell gegen die Feinde, und unsere Nation schwebt wie ein Adler, was noch vor wenigen Monaten undenkbar gewesen wäre.\n\nWährend unser Volk noch immer unter brutaler Unterdrückung und falschen Liberalisierungsversprechen leidet, kann es sich mit dem Wissen trösten, dass unsere Streitkräfte der Welt gezeigt haben, wozu Armenier fähig sind."
  arm.119.a: "Gesegnet ist, wer für die Freiheit seines Volkes stirbt."
+
+ arm.120.t: "Die Befreiung von Karabach"
+ arm.120.d: "Endlich ist die Zeit gekommen. Nach jahrzehntelangem Kampf und nachdem zahllose Männer in den Bergen Karabachs ihr Leben für die armenische Sache geopfert haben, stehen wir kurz vor einem totalen Sieg gegen die Aserbaidschaner, die unser rechtmäßiges Land besetzen. Eriwan ist gesichert, denn ein Großteil der östlichen Gebirgszüge wurde erobert. Die Armenier vor Ort müssen nicht mehr unter dem aserbaidschanischen Joch leiden, denn die Flagge ihres Vaterlandes weht auf jedem Berg. Und, was vielleicht am wichtigsten ist, wir sind einen Schritt näher dran, das Unrecht der Geschichte ungeschehen zu machen, denn wir haben endlich mit der Rückeroberung von Arzach begonnen, das einst als für immer verloren galt.\n\nWährend unsere Soldaten vorrücken und ein Dorf nach dem anderen befreien, feiern die Armenier der Region, die sich größtenteils auf den westlichen und nördlichen Teil Karabachs konzentrieren, ihre scheinbare Wiedervereinigung mit dem eigentlichen Armenien, ebenso wie unsere Bürger in Eriwan und darüber hinaus. Die Muslime hingegen fürchten eine düstere Zukunft. In den letzten Jahren hatte die Rebellion von Nzhdeh die Spannungen, die während des Weltkriegs aufgeflammt waren, wieder entfacht und zu brennenden Dörfern auf beiden Seiten des armenisch-aserbaidschanischen Konflikts geführt. Jetzt, da wir die Oberhand gewonnen haben, fürchten die einheimischen Muslime armenische Vergeltungsmaßnahmen, und viele sind bereits vor unseren vorrückenden Armeen in Richtung Baku geflohen, und weitere werden zweifellos noch folgen.\n\nOb diese Befürchtungen zutreffen, bleibt abzuwarten, aber vorerst ist die fortschreitende Befreiung Karabachs zweifellos ein großer Sieg für unsere Regierung. In einer kürzlich gehaltenen Rede bezeichnete [ROOT.GetLeader] die Region als \"einen festen Bestandteil der armenischen Nation\", und innerhalb der Regierung besteht ein klarer Konsens über die Integration Karabachs in Armenien. Vorerst bleiben diese Visionen eines vollständig vereinten Staates in weiter Ferne, denn es muss noch viel getan werden, bevor Karabach zu einem Zustand der Normalität unter unserer Herrschaft zurückkehren kann, aber dennoch scheint es, als ob die Zukunft Armeniens nun etwas heller leuchtet als zuvor."
+ arm.120.a: "Armenien und Arzach, jetzt und immerdar vereint!"
 
  ### Characters ###
  ARM_anastas_mikoyan: "Anastas Mikoyan"

@@ -8,34 +8,24 @@ Anqing_Clique: "Schwerpunktbaum von Anqing Clique"
  ANQ_DEF: "Anqing"
 
  ANQ_totalist: "Anqing Clique"
- ANQ_totalist_ADJ: "Anqing"
  ANQ_totalist_DEF: "die Anqing Clique"
  ANQ_syndicalist: "Anqing Clique"
- ANQ_syndicalist_ADJ: "Anqing"
  ANQ_syndicalist_DEF: "die Anqing Clique"
  ANQ_radical_socialist: "Anqing Clique"
- ANQ_radical_socialist_ADJ: "Anqing"
  ANQ_radical_socialist_DEF: "die Anqing Clique"
  ANQ_social_democrat: "Anqing Clique"
- ANQ_social_democrat_ADJ: "Anqing"
  ANQ_social_democrat_DEF: "die Anqing Clique"
  ANQ_social_liberal: "Anqing Clique"
- ANQ_social_liberal_ADJ: "Anqing"
  ANQ_social_liberal_DEF: "die Anqing Clique"
  ANQ_market_liberal: "Anqing Clique"
- ANQ_market_liberal_ADJ: "Anqing"
  ANQ_market_liberal_DEF: "die Anqing Clique"
  ANQ_social_conservative: "Anqing Clique"
- ANQ_social_conservative_ADJ: "Anqing"
  ANQ_social_conservative_DEF: "die Anqing Clique"
  ANQ_authoritarian_democrat: "Anqing Clique"
- ANQ_authoritarian_democrat_ADJ: "Anqing"
  ANQ_authoritarian_democrat_DEF: "die Anqing Clique"
  ANQ_paternal_autocrat: "Anqing Clique"
- ANQ_paternal_autocrat_ADJ: "Anqing"
  ANQ_paternal_autocrat_DEF: "die Anqing Clique"
  ANQ_national_populist: "Anqing Clique"
- ANQ_national_populist_ADJ: "Anqing"
  ANQ_national_populist_DEF: "die Anqing Clique"
 
  ANH: "Anhui"
@@ -43,34 +33,24 @@ Anqing_Clique: "Schwerpunktbaum von Anqing Clique"
  ANH_DEF: "Anhui"
 
  ANH_totalist: "Anhui Provinz"
- ANH_totalist_ADJ: "Anhui"
  ANH_totalist_DEF: "die Anhui Provinz
  ANH_syndicalist: "Anhui Provinz"
- ANH_syndicalist_ADJ: "Anhui"
  ANH_syndicalist_DEF: "die Anhui Provinz
  ANH_radical_socialist: "Anhui Provinz"
- ANH_radical_socialist_ADJ: "Anhui"
  ANH_radical_socialist_DEF: "die Anhui Provinz
  ANH_social_democrat: "Anhui Provinz"
- ANH_social_democrat_ADJ: "Anhui"
  ANH_social_democrat_DEF: "die Anhui Provinz
  ANH_social_liberal: "Anhui Provinz"
- ANH_social_liberal_ADJ: "Anhui"
  ANH_social_liberal_DEF: "die Anhui Provinz
  ANH_market_liberal: "Anhui Provinz"
- ANH_market_liberal_ADJ: "Anhui"
  ANH_market_liberal_DEF: "die Anhui Provinz
  ANH_social_conservative: "Anhui Provinz"
- ANH_social_conservative_ADJ: "Anhui"
  ANH_social_conservative_DEF: "die Anhui Provinz
  ANH_authoritarian_democrat: "Anhui"
- ANH_authoritarian_democrat_ADJ: "Anhui"
  ANH_authoritarian_democrat_DEF: "die Anhui Provinz
  ANH_paternal_autocrat: "Anhui Provinz"
- ANH_paternal_autocrat_ADJ: "Anhui"
  ANH_paternal_autocrat_DEF: "die Anhui Provinz
  ANH_national_populist: "Anhui Provinz"
- ANH_national_populist_ADJ: "Anhui"
  ANH_national_populist_DEF: "die Anhui Provinz
 
  ANQ_government_nanjing_totalist: "Nanjing Regierung"
@@ -412,8 +392,8 @@ anq_commit_fengtian_tt: "§RDies bedeutet, dass Anqing sich definitiv verpflicht
 anq_abandon_fengtian_tt: "§RDer Verzicht auf Fengtian wird dazu führen, dass Anqing allein in China steht, was sie sehr verwundbar macht. Es blockiert auch alle weiteren Möglichkeiten der japanischen Hilfe.§!\n"
 
 anq_unlocks_war_beijing_tt: "Entsperrt £decision_icon_small §HEntscheidung§! [QIE.GetName] Unabhängig anzugreifen.\n"
-ANQ_can_attack_hnngxc_tt: "Entsperrt £decision_icon_small §HEntscheidung§! [GXC.GetName] und [HNN.GetName] anzugreifen.\n"
-ANQ_can_attack_hnngxc_proqie_tt: "Entsperrt £decision_icon_small §HEntscheidung§! [GXC.GetName] und [HNN.GetName] anzugreifen, wenn derzeit Frieden herrscht.\n"
+ ANQ_can_attack_hnngxc_tt: "$unlocks_decisions$ zum Angriff auf [GXC.GetName] und [HNN.GetName].\n"
+ ANQ_can_attack_hnngxc_proqie_tt: "$unlocks_decisions$, um [GXC.GetName] und [HNN.GetName] anzugreifen, wenn Frieden herrscht.\n"
 
 anq_fengtian_guarantee_tt: "§H[FNG.GetNameDefCap]§! wird uns garantieren!\n"
 anq_qing_guarantee_tt: "§H[QIE.GetNameDefCap]§! wird uns garantieren!\n"

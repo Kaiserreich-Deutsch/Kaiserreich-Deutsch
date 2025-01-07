@@ -17,7 +17,7 @@
  solvay: "Solvay"
  fabrique_nationale: "Fabrique Nationale"
  mecar: "Mecar"
- forges_de_zeebrugge: "Forges de Zeebrugge"
+ fonderie_de_canons_de_liege: "Fonderie de Canons de Liège (Lütticher Kanonengießerei)"
  brossel: "Brossel"
  minerva: "Minerva"
  familleureux: "Familleureux"
@@ -29,7 +29,23 @@
  stampe_vertongen: "Stampe et Vertongen"
 
 ### MIO Traits ###
- BEL_mio_trait_modernisation_programme: "Modernisierungsprogramm"
+ BEL_mio_trait_global_trade_hub: "Globales Handelszentrum"
+ BEL_mio_trait_high_speed_transport: "Hochgeschwindigkeitstransport"
+ BEL_mio_trait_anti_submarine_expertise: "U-Boot-Abwehrkompetenz"
+ BEL_mio_trait_all_metal_expertise: "Ganzmetall-Kompetenz"
+ BEL_mio_trait_fn_herstal_collaboration: "FN Herstal Zusammenarbeit"
+ BEL_mio_trait_fighter_specialisation: "Jäger-Spezialisierung"
+ BEL_mio_trait_pressurised_air_cabins: "Druckluft-Kabinen"
+ BEL_mio_trait_outsourced_production: "Ausgelagerte Produktion"
+ BEL_mio_trait_automatic_rifles: "Selbstladegewehre"
+ BEL_mio_trait_assault_rifles: "Sturmgewehre"
+ BEL_mio_trait_47mm_at_guns: "47mm AT Geschütze"
+ BEL_mio_trait_excellent_machining_tools: "Exzellente Bearbeitungswerkzeuge"
+ BEL_mio_trait_flourishing_automobile_industry: "Blühende Autoindustrie"
+ BEL_mio_trait_knight_engines: "Knight Motoren"
+ BEL_mio_trait_high_grade_armor: "Hochwertige Rüstung"
+ BEL_mio_trait_heavy_machine_guns: "Schwere Maschinengewehre"
+ BEL_mio_trait_fonderie_de_canons_de_liege: "$fonderie_de_canons_de_liege$"
 
 ### Ideas ###
 BEL_Antwerp_Harbor: "Niederländische Kontrolle über Westerschelde"
@@ -510,9 +526,6 @@ BEL_Coast_Patrol_desc: "Während unsere tapfere Marine alles tut, was sie kann, 
 bel.IPS.tt: "§GDamit wird eine Untersuchung eingeleitet, um die Ursache für die Veruntreuung im großen Stil aufzudecken§!\n"
 bel.GI.tt: "§GDurch die Beauftragung einer deutschen Kommission können wir vielleicht mehr Geheimnisse aufdecken, allerdings um den Preis eines erhöhten Revoltenrisikos§!"
 bel.FI.tt: "§GIndem wir dem Flämischen Kounzil erlauben, seine Arbeit zu tun, werden wir sie nicht gegen uns aufbringen und einige dringend benötigte Unterstützung gewinnen.§!"
-bel.SH.tt: "\n§GDie Wahl des Solvay-Kongresses reduziert unser Potenzial, diese Situation auszunutzen und kompensiert nur den Schwarzen Montag§!"
-bel.LE.tt: "\n§GDiesen Weg einzuschlagen, mag unsere technologischen Fähigkeiten behindern, garantiert aber eine leichte Erholung vom Schwarzen Montag§!"
-bel.SO.tt: "\n§GDiesen Weg einzuschlagen wird unsere Innovation fördern, aber die Mittel zur Bekämpfung des Schwarzen Montags reduzieren§!"
 
 ### Country Flags ###
  TOA_Refused: "Der Vertrag von Arel wurde abgelehnt"
