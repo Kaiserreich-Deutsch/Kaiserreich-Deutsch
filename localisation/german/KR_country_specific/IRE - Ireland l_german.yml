@@ -87,6 +87,8 @@ l_german:
  IRE_radical_socialist: "Irische Sozialistische Republik"
  IRE_radical_socialist_DEF: "die Irische Sozialistische Republik"
 
+ IRE_socialist: "Irische Sozialistische Republik"
+ IRE_socialist_DEF: "die Irische Sozialistische Republik"
  IRE_elected_radsocs: "Irland"
  IRE_elected_radsocs_DEF: "Irland"
 
@@ -970,8 +972,6 @@ l_german:
  IRE_agrarianism_efficiency_tt: "$MODIFIER_PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR$: [?IRE.IRE_agrarianism_efficiency|+=2%]\n"
  IRE_agrarianism_offmap_civs_tt: "$offmap_civilian_factories_tooltip$: [?IRE.IRE_agrarianism_offmap_civs|+=0]"
 
- IRE_fishing_idea_tt: "Wenn dieser §YNationalgeist§! ausläuft:"
-
  IRE_electrification_decisions_tt: "Schaltet £decision_icon_small §YElektrifizierung§! Entscheidungen frei, die den Effekt haben: §G1§! Gebäude-Slot hinzuzufügen."
 
  IRE_has_bm: "Wir leiden weiter unter den Auswirkungen des §YSchwarzer Montag§!"
@@ -1117,8 +1117,6 @@ l_german:
 
  IRE_mitteleuropa_member: "§Y[IRE.GetNameWithFlag]§! ist ein Mitglied von §YMitteleuropa§!"
  IRE_IEDC_member: "§Y[IRE.GetNameWithFlag]§! ist ein Mitglied der Gruppe §YIEDC§!"
-
- IRE_join_bonus_faction_tt: "§CEs werden neue nationale Schwerpunkte erschlossen.§!"
 
  IRE_russia_with_love_tt: "§CDie Küstenbefestigungen entlang der gesamten Küste werden um zwei Stufen erhöht, und die Landbunker in [GetVictoryPointName_11293] werden um drei Stufen aufgestockt.§!"
 
@@ -3246,10 +3244,10 @@ l_german:
  ireland.2601.b: "Devolution for the north." # Nationalisten nicht glücklich - plus 10 Punkte Gewinn, minus 10 Stich
  ireland.2601.c: "A unified, unitary State." # Loyalisten nicht glücklich - minus 10 Punkte Gewinn, minus 5 Stich
  ireland.2601.e: "A federation of Provinces." # Minus 10 cg / plus 5 Stich
- ireland.2601.a.tt1: "Schaltet £decision_icon_small §YEntscheidungen§! frei, um §YNationalistischer Unmut§! und §YLoyalistischer Zorn§! schrittweise zu verringern."
+ ireland.2601.a.tt1: "$unlocks_decisions$, um §YNationalistischer Unmut§! und §YLoyalistischer Zorn§! schrittweise abzubauen."
  ireland.2601.a.tt2: "§RDieser Berater kann nicht entfernt werden§!"
  ireland.2601.a.tt3: "Nach dem Krieg wird §YBasil Brooke§! zu einem unabsetzbaren §YPolitischen Berater§! ernannt."
- ireland.2601.e.tt: "Schaltet £decision_icon_small §YEntscheidungen§! frei, um §YNationalistischer Unmut§! und §YLoyalistischer Zorn§! schrittweise zu verringern, leichter als in den anderen Optionen, die nach Abschluss von £decision_icon_small §YEntscheidungen§! verfügbar werden, um §YBundesversammlungen§! in jeder der vier Provinzen einzuberufen."
+ ireland.2601.e.tt: "$unlocks_decisions$ um §YNationalistischer Unmut§! und §YLoyalistischer Zorn§! schrittweise zu verringern, leichter als in den anderen Optionen, die nach Abschluss von £decision_icon_small §YEntscheidungen§! verfügbar werden, um §YBundesversammlungen§! in jeder der vier Provinzen einzuberufen."
 
  ireland.2602.t: "Die Form der Präsidentschaft"
  ireland.2602.d.start: "Die Form des Präsidentenamtes ist ein heiß diskutiertes Thema. Die Dauer der Amtszeit, die Wahlen und die Wählbarkeitskriterien sind geklärt, aber welche Befugnisse der Präsident haben sollte, ist umstritten. Derzeit verfügt Uachtarán na hÉireann über weitreichende Exekutivbefugnisse, die durch ein Flickwerk von Gesetzen, Rechtsakten und Rechtsprechung definiert sind"

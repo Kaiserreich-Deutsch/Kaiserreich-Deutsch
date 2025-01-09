@@ -779,13 +779,10 @@ LAT_join_internationale: "Beitritt zur Dritten Internationale"
  LAT_DEF: "Lettland"
 
  LAT_totalist: "Republik Iskolat"
- LAT_totalist_ADJ: "Lettisch"
  LAT_totalist_DEF: "die Republik Iskolat"
  LAT_syndicalist: "Republik Iskolat"
- LAT_syndicalist_ADJ: "Lettisch"
  LAT_syndicalist_DEF: "die Republik Iskolat"
  LAT_radical_socialist: "Republik Iskolat"
- LAT_radical_socialist_ADJ: "Lettisch"
  LAT_radical_socialist_DEF: "die Republik Iskolat"
 
  LAT_SOV_totalist: "Soviet Union"
@@ -811,7 +808,10 @@ LAT_join_internationale: "Beitritt zur Dritten Internationale"
  LAT_constitutional_assembly_leader_desc: "§YGegründet:§! §L1936, in Valmiera, Kanton Vidzeme, Republik Lettland§!\n§YHintergrund:§! §LDie Verfassungsversammlung ist ein vorübergehendes Gremium, das gemeinsam als vorläufiges Staatsoberhaupt des neuen lettischen Staates fungiert. Was oder wer sie ersetzen wird, ist ungewiss, aber sie wird sicherlich abgelöst werden.§!"
 
  LAT_pauls_kalnins: "Pauls Kalniņš"
- LAT_pauls_kalnins_leader_desc: "§YGeboren:§! §L3. März 1872, in Mazpečuļi, Gouvernement Kurland, Russisches Reich§!\n§YHintergrund:§! §LWährend des russischen Bürgerkriegs wurde Kalniņš de facto Führer des rechten Flügels der lettischen sozialdemokratischen Arbeiterpartei, die sich weigerte, sich an der Iskolat-Republik zu beteiligen, selbst im Angesicht der deutschen Vorherrschaft. Er führte seine Fraktion stattdessen in ein zaghaftes Bündnis mit der kurzlebigen gemäßigt-konservativen Unabhängigkeitsbewegung unter Führung von Kārlis Ulmanis und fügte sich gemeinsam mit Ulmanis der deutschen politischen Kontrolle. Selbst nachdem Ulmanis das entstehende baltische Herzogtum verlassen hatte, um sich in the Russian Republic erneut für die baltische Unabhängigkeit einzusetzen, blieb Kalniņš und wurde zu einer führenden Stimme für die einheimischen Balten - Letten und Esten gleichermaßen - gegenüber einem feindseligen deutschstämmigen Adel.\n\nAls Oppositionsführer im baltischen Landtag, dem Demokratischen Block, war Kalniņš in der Regel bereit, mit den deutschen Liberalen unter Paul Schiemann zusammenzuarbeiten, obwohl er Schiemanns wirtschaftliche und politische Reformagenda oft als unzureichend bezeichnete. Als das baltische Herzogtum nach dem Schwarzen Montag schnell im Chaos versank, schlug sich Kalniņš schließlich auf die Seite der baltischen Unabhängigkeitsbewegungen, stärkte sie erheblich und ließ seinen Stern im lettischen Lager schnell steigen. Mit der Gründung der freien lettischen Republik wurde Kalniņš zu deren provisorischem Präsidenten ernannt.§!"
+ LAT_pauls_kalnins_desc_body_start: "Während des russischen Bürgerkriegs wurde Kalniņš de facto Führer des rechten Flügels der lettischen sozialdemokratischen Arbeiterpartei, die sich weigerte, sich an der Iskolat-Republik zu beteiligen, selbst im Angesicht der deutschen Vorherrschaft. Er führte seine Fraktion stattdessen in ein zaghaftes Bündnis mit der kurzlebigen gemäßigt-konservativen Unabhängigkeitsbewegung unter Führung von Kārlis Ulmanis und fügte sich gemeinsam mit Ulmanis der deutschen politischen Kontrolle. Selbst nachdem Ulmanis das entstehende baltische Herzogtum verlassen hatte, um sich in the Russian Republic erneut für die baltische Unabhängigkeit einzusetzen, blieb Kalniņš und"
+ LAT_pauls_kalnins_desc_body_end: "wurde zu einer führenden Stimme für die einheimischen Balten - Letten und Esten gleichermaßen - gegenüber einem feindseligen deutschstämmigen Adel."
+ LAT_pauls_kalnins_leader_desc: "§YGeboren:§! §L3. März 1872, in Mazpečuļi, Gouvernement Kurland, Russisches Reich§!\n§YHintergrund:§! §L$LAT_pauls_kalnins_desc_body_start$ wird zu $LAT_pauls_kalnins_desc_body_end$\n\nAls Oppositionsführer im baltischen Landtag, dem Demokratischen Block, war Kalniņš in der Regel bereit, mit den deutschen Liberalen unter Paul Schiemann zusammenzuarbeiten, obwohl er Schiemanns wirtschaftliche und politische Reformagenda oft als unzureichend bezeichnete. Als das baltische Herzogtum nach dem Schwarzen Montag schnell im Chaos versank, schlug sich Kalniņš schließlich auf die Seite der baltischen Unabhängigkeitsbewegungen, stärkte sie erheblich und ließ seinen Stern im lettischen Lager schnell steigen. Mit der Gründung der freien lettischen Republik wurde Kalniņš zu deren provisorischem Präsidenten ernannt.§!"
+ LAT_pauls_kalnins_advisor_desc: "§YGeboren:§! §L3. März 1872, in Mazpečuļi, Gouvernement Kurland, Russisches Reich§!\n§YHintergrund:§! §L$LAT_pauls_kalnins_desc_body_start$ wurde zu $LAT_pauls_kalnins_desc_body_end$§!"
 # Advisor role only in BAT
  
  LAT_margers_skujenieks: "Margers Skujenieks"
