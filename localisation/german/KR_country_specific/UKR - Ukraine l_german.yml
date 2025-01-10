@@ -78,56 +78,39 @@
  UKR_DEF: "Ukraine"
 
  UKR_totalist: "Ukrainische Sozialistische Republik"
- UKR_totalist_ADJ: "Ukrainisch"
  UKR_totalist_DEF: "die Ukrainische Sozialistische Republik"
  UKR_syndicalist: "Ukrainische Sozialistische Republik"
- UKR_syndicalist_ADJ: "Ukrainisch"
  UKR_syndicalist_DEF: "die Ukrainische Sozialistische Republik"
  UKR_radical_socialist: "Ukrainische Volksrepublik"
- UKR_radical_socialist_ADJ: "Ukrainisch"
  UKR_radical_socialist_DEF: "die Ukrainische Volksrepublik"
  UKR_social_democrat: "Ukrainischer Staat"
- UKR_social_democrat_ADJ: "Ukrainisch"
  UKR_social_democrat_DEF: "der Ukrainischer Staat"
  UKR_social_liberal: "Ukrainischer Staat"
- UKR_social_liberal_ADJ: "Ukrainisch"
  UKR_social_liberal_DEF: "der Ukrainischer Staat"
  UKR_market_liberal: "Ukrainischer Staat"
- UKR_market_liberal_ADJ: "Ukrainisch"
  UKR_market_liberal_DEF: "der Ukrainischer Staat"
  UKR_social_conservative: "Ukrainischer Staat"
- UKR_social_conservative_ADJ: "Ukrainisch"
  UKR_social_conservative_DEF: "der Ukrainischer Staat"
  UKR_authoritarian_democrat: "Ukrainischer Staat"
- UKR_authoritarian_democrat_ADJ: "Ukrainisch"
  UKR_authoritarian_democrat_DEF: "der Ukrainischer Staat"
  UKR_paternal_autocrat: "Ukrainischer Staat"
- UKR_paternal_autocrat_ADJ: "Ukrainisch"
  UKR_paternal_autocrat_DEF: "der Ukrainischer Staat"
  UKR_national_populist: "Ukrainische Nationale Republik"
- UKR_national_populist_ADJ: "Ukrainisch"
  UKR_national_populist_DEF: "die Ukrainische Nationale Republik"
 
  UKR_republic_social_democrat: "Ukrainische Volksrepublik"
- UKR_republic_social_democrat_ADJ: "Ukrainisch"
  UKR_republic_social_democrat_DEF: "die Ukrainische Volksrepublik"
  UKR_republic_social_liberal: "Ukrainische Volksrepublik"
- UKR_republic_social_liberal_ADJ: "Ukrainisch"
  UKR_republic_social_liberal_DEF: "die Ukrainische Volksrepublik"
  UKR_republic_market_liberal: "Ukrainische Volksrepublik"
- UKR_republic_market_liberal_ADJ: "Ukrainisch"
  UKR_republic_market_liberal_DEF: "die Ukrainische Volksrepublik"
- UKR_republic_social_conservative: "Staat Ukraine"
- UKR_republic_social_conservative_ADJ: "Ukrainische Volksrepublik"
+ UKR_republic_social_conservative: "Ukrainische Volksrepublik"
  UKR_republic_social_conservative_DEF: "die Ukrainische Volksrepublik"
  UKR_republic_authoritarian_democrat: "Ukrainische Volksrepublik"
- UKR_republic_authoritarian_democrat_ADJ: "Ukrainisch"
  UKR_republic_authoritarian_democrat_DEF: "die Ukrainische Volksrepublik"
  UKR_republic_paternal_autocrat: "Ukrainische Volksrepublik"
- UKR_republic_paternal_autocrat_ADJ: "Ukrainisch"
  UKR_republic_paternal_autocrat_DEF: "die Ukrainische Volksrepublik"
  UKR_republic_national_populist: "Ukrainische Nationale Republik"
- UKR_republic_national_populist_ADJ: "Ukrainisch"
  UKR_republic_national_populist_DEF: "die Ukrainische Nationale Republik"
 
  ### Leaders ###
@@ -551,7 +534,7 @@
  UKR_BSD_attack: "[FROM.GetName] freigeben"
  UKR_BSD_invite: "Einladung [FROM.GetName] in die Schwarzmeer-Union"
  UKR_BSD_invite_warning: "§RDies könnte zu einem Krieg zwischen uns und ihrer ehemaligen Fraktion führen.§!"
- BSD_start_tt: "Schaltet Entscheidungen über Verbündete oder Angriffe auf Länder in der Schwarzmeerregion frei.\n\nFügt die Idee §Y$UKR_black_sea_member_idea$§! hinzu, die durch die Schwerpunkte §5$UKR_bsd_political_union$§! und §5$UKR_bsd_customs_union$§! verbessert werden kann." #TODO vielleicht Flaggen von Ländern hinzufügen, in die man einmarschieren kann
+ BSD_start_tt: "$unlocks_decisions$, um sich mit Ländern in der Schwarzmeerregion zu verbünden oder in sie einzufallen.\n\nFügt die Idee §Y$UKR_black_sea_member_idea$§! hinzu, die durch die Schwerpunkte §5$UKR_bsd_political_union$§! und §5$UKR_bsd_customs_union$§! verbessert werden kann." #TODO vielleicht Flaggen von Ländern hinzufügen, in die man einmarschieren kann
  UKR_bsd_customs_union_tt: "Ändern Sie §YSchwarzmeer-Union Staat§! um §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§!: §Y-5%§! und §Y$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$§!: §G+2%§!.\nFür jede weitere Nation, die der BSU beitritt, erhöht sich dieser Modifikator bis zu einem Maximum von §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§! §Y-25%§!, $MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: §G+10%§!."
  UKR_bsd_political_union_tt: "Ändern Sie §YSchwarzmeer-Union Staat§! um §Y$MODIFIER_STABILITY_FACTOR$§!: §G+2%§! und §Y$MODIFIER_POLITICAL_POWER_GAIN$§!: §G+0.02§!.\nFür jede weitere Nation, die der BSU beitritt, erhöht sich dieser Modifikator bis zu einem Maximum von §Y$MODIFIER_STABILITY_FACTOR$§! §G+10%§!, $MODIFIER_POLITICAL_POWER_GAIN$: §G+0.2§!."
 
@@ -843,10 +826,10 @@
  UKR_legacy_gain_1_tt: "Wir werden politische Macht gewinnen, je nachdem, wie nahe die Stärke der §RR-RB§! §oRadikalen§! und der §RR-RB§! §SModeraten§! sind. Aktueller Gewinn:"
  UKR_legacy_gain_2_tt: "Wir werden politische Macht gewinnen, je nachdem, wie nah die Stärke der §RUPS-R§! §oRadikalen§! und der §RUPS-R§! §SModeraten§! sind. Aktueller Gewinn:"
 
- UKR_mykola_kovalevskyi_trait: "Ändert Ihren §YStellvertreter§!:\n§CDie Eigenschaft von Mykola Kovalevskyi§! enthält nun dynamische Effekte, die von der Popularität der §SSozialdemokraten§! abhängen. Aktueller Effekt:\n - Stabilität: [?party_popularity@social_democrat|=%+]"
- UKR_pavlo_khrystiuk_trait: "Ändert Ihren §YStellvertreter§!:\n§CDie Eigenschaft von Pavlo Khrystiuk§! enthält jetzt dynamische Effekte, die von der Popularität der §rSyndikalisten§! abhängen. Aktueller Effekt:\n - Fabrik Ausstoß: [?party_popularity@syndicalist|=%+]"
- UKR_volodymyr_chekhivskyi_trait: "Ändert Ihren §YStellvertreter§!:\n§CDie Eigenschaft von Volodymyr Chekhivskyi§! enthält nun dynamische Effekte, die mit der Hälfte Ihrer aktuellen Popularität als §RRadikaler Sozialist§! entsprechen. Aktueller Effekt:\n - Forschungsgeschwindigkeit: [?temp|=%+]"
- UKR_anatolii_pisotskyi_trait: "Ändert Ihren §YStellvertreter§!:\n§CDie Eigenschaft von Anatolii Pisotskyi§! enthält nun dynamische Effekte, die von der Popularität der §oTotalisten§! abhängen. Aktueller Effekt:\n - Baugeschwindigkeit: [?party_popularity@totalist|=%+]"
+ UKR_mykola_kovalevskyi_trait: "$modifies_sic$\n§CDie Eigenschaft von Mykola Kovalevskyi§! enthält nun dynamische Effekte, die von der Popularität der §SSozialdemokraten§! abhängen. Aktueller Effekt:\n - Stabilität: [?party_popularity@social_democrat|=%+]"
+ UKR_pavlo_khrystiuk_trait: "$modifies_sic$\n§CDie Eigenschaft von Pavlo Khrystiuk§! enthält jetzt dynamische Effekte, die von der Popularität der §rSyndikalisten§! abhängen. Aktueller Effekt:\n - Fabrik Ausstoß: [?party_popularity@syndicalist|=%+]"
+ UKR_volodymyr_chekhivskyi_trait: "$modifies_sic$\n§CDie Eigenschaft von Volodymyr Chekhivskyi§! enthält nun dynamische Effekte, die mit der Hälfte Ihrer aktuellen Popularität als §RRadikaler Sozialist§! entsprechen. Aktueller Effekt:\n - Forschungsgeschwindigkeit: [?temp|=%+]"
+ UKR_anatolii_pisotskyi_trait: "$modifies_sic$\n§CDie Eigenschaft von Anatolii Pisotskyi§! enthält nun dynamische Effekte, die von der Popularität der §oTotalisten§! abhängen. Aktueller Effekt:\n - Baugeschwindigkeit: [?party_popularity@totalist|=%+]"
 
  KR_cooperative_advocate_2_tt: "Fabrik Ausstoß: §rSyndikalistische§! Popularität"
  KR_agricultural_economist_2_tt: "Stabilität: §SSozialdemokratische§! Popularität"
@@ -980,13 +963,6 @@
  UKR_conservative_opposition_growing_timer_tt: "§CDie Mission §YKonservative Opposition wächst§! wird nun 5 Tage später stattfinden.§!"
  UKR_the_parliamentary_hetmanate_tt: "§CDer Mechanismus der Parlamentarisierung wird deaktiviert und wir gehen zum zweiten Teil unseres Baumes über.§!"
  UKR_is_in_danylo_minigame_tt: "Die Verhandlungsmechanik ist aktiviert."
-
- UKR_unlock_art_of_compromise_tt: "Dies wird §YDie Kunst des Kompromisses§! im zweiten Teil unseres Baumes freischalten."
- UKR_unlock_time_for_radical_change_tt: "Dies wird den Schwerpunkt §YZeit für radikale Aktionen§! im zweiten Teil unseres Baumes freischalten."
- UKR_unlock_uniting_symbol_tt: "Dadurch werden die Schwerpunkte §YVerbindendes Symbol§! und §YSchutz der Verfassungsmäßigen Ordnung§! im zweiten Teil unseres Baumes freigeschaltet."
- UKR_unlock_cooperate_with_womens_organisations_tt: "Dies wird den Schwerpunkt §YKooperation mit Frauenorganisationen§! im zweiten Teil unseres Baumes freischalten."
- UKR_unlock_legacy_of_tup_tt: "Dies wird die Schwerpunkte §YVermächtnis von TUP§! und §YAustromarxistischer Ansatz§! im zweiten Teil unseres Baumes freischalten."
- UKR_unlock_new_administrative_divisions_tt: "Dadurch werden die Schwerpunkte §YNeue Verwaltungsgliederungen§! und §YLandschaft aufwerten§! im zweiten Teil unseres Baumes freigeschaltet."
 
  UKR_landreform_rightwing_tt: "§CDie rechte Landreform wird dazu führen, dass der Nationalgeist, den wir bis zum Ende der Mission gewinnen, sich auf §Ymonnatliche Bevölkerungsentwicklung, Stabilität, Konsumgüterreduzierung und politischen Machtgewinn konzentriert.§!§!"
  UKR_landreform_leftwing_tt: "§CEine linke Landreform wird den nationalen Geist, den wir am Ende der Mission gewinnen, auf §Monatsbevölkerung, rekrutierbare Bevölkerung, Kriegsunterstützung und Stabilität.§ konzentrieren!§!"
@@ -2200,7 +2176,7 @@
  ukraine_revolt.53.d: "In den letzten Wochen des Aufstandes hat das Militär große Macht erlangt. Während der Soim und der Otaman-Minister dem Hetman verschiedene Stellungnahmen zum Umgang mit den republikanischen Verrätern vorgelegt haben, wurden sie oft ignoriert oder zugunsten von Vertretern des Militärs und des SHD beiseite geschoben. Im Büro der Exekutive gab es vermehrt Besuche von deren prominentesten Männern wie Borys Homzyn und Ivan Poltavets-Ostrianytsia, während der Soim immer schwächer zu werden scheint. Es besteht kaum ein Zweifel daran, dass diese Maßnahmen langfristig schwerwiegende Folgen für die Demokratie haben werden..."
  ukraine_revolt.53.a: "Ich sehe..."
 
- ukraine_revolt.54.t: "Freiwillige aus [WHR.GetNameDef]"
+ ukraine_revolt.54.t: "Freiwillige aus [BLR.GetNameDef]"
  ukraine_revolt.54.d: "Bislang hatten unsere Streitkräfte nur wenige ausländische Unterstützer. Obwohl das Deutsche Reich offiziell ein Militärbündnis mit der Ukraine unterhält, wurde in Berlin eingeräumt, dass im Falle eines Sieges der Republikanischen Bewegung über Skoropadskyi die neue Regierung zugunsten der Regierung des Hetman anerkannt würde. Dies hat jedoch andere mit Deutschland verbündete Länder nicht davon abgehalten, dem Hetman kleine Mengen an Freiwilligen und Ausrüstung zukommen zu lassen, insbesondere Polen, dessen Republikanische Bewegung stark an Zulauf gewonnen hat. Außerdem hat Österreich, obwohl es mit unserer Sache zu sympathisieren scheint, größtenteils davon abgesehen, direkte Hilfe zu leisten, um vernünftige Beziehungen zu Deutschland aufrechtzuerhalten und den Hetman nicht zu verärgern, sollte er sich als Sieger erweisen.\n\nDoch in einer Landschaft des Zweifels und der Skepsis war ein Land in unserem Norden eine Bastion des Lichts: die Belarussische Volksrepublik. Obwohl ihre Führung sich nicht geäußert oder versucht hat, unsere Sache direkt zu unterstützen, hat eine kleine Anzahl belarussischer Freiwilliger, die sich denselben demokratischen und republikanischen Idealen verpflichtet fühlen wie wir, die Grenze überquert, um sich unserer Seite anzuschließen. Die Regierung in Minsk hat diese Freiwilligen anscheinend fast unbemerkt passieren lassen, während Kräfte aus anderen Reichspakt-Ländern aufgrund des Militärbündnisses mit der Regierung des Hetman überwacht und eingeschränkt wurden. Obwohl ihre Zahl gering ist und sie auf dem Schlachtfeld wahrscheinlich keinen nennenswerten Unterschied machen werden, hat ihr Beitritt unserer Armee einen großen moralischen Auftrieb gegeben und gezeigt, dass wir im Kampf gegen die Kräfte der Tyrannei und Unterdrückung nicht allein sind."
  ukraine_revolt.54.a: "Gemeinsam für ein freies Osteuropa!"
 
@@ -3760,7 +3736,7 @@
 
  ukraine_republican.119.t1: "Die Taten, die wir schulden"
  ukraine_republican.119.t2: "Die Weißrussische Frage"
- ukraine_republican.119.d1: "Seit Anfang 1936 wird Belarus von einer despotischen reaktionären Regierung unter der Führung von [WHR.GetLeader] und seiner [WHR.GetRulingParty] regiert. Ein pro-deutscher Putsch hatte die rechtmäßige BSDP-Regierung entmachtet und viele der Freiheiten und demokratischen Institutionen, die diese im Laufe von zwei Jahrzehnten sorgfältig eingeführt hatte, zunichte gemacht.\n\nDaher waren nur wenige überrascht, als viele prominente BSDP-Mitglieder und mit der Partei verbündete Soldaten in der Westukraine auftauchten, als der Anti-Hetman-Aufstand begann. Da ihre Sache - die Sache eines freien, demokratischen, sozialistischen Osteuropas - natürlich auch unsere Sache ist, haben diese belarussischen Exilanten in der Ukraine eine neue Heimat gefunden. Seit dem Ende des Aufstandes haben sie sich organisiert, um für die belarussischen Interessen in der Ukraine einzutreten - und auch gegen das tyrannische Regime ihres Landes, indem sie Artikel veröffentlichen, die die Kumpane von [WHR.GetLeader] anprangern, und hoffen, dass sie eines Tages in ihre wahre Heimat in Sicherheit zurückkehren können.\n\nGenau diese Aktionen haben Minsk verärgert. Nach Angaben des belarussischen Außenministers hat die ukrainische Regierung 'verurteilte Kriminelle' beherbergt, die in 'Sabotage und Terrorismus' verwickelt waren, und hat von uns ihre Auslieferung verlangt.\n\nDies ist eine eindeutig unannehmbare und unerhörte Forderung. Unsere Kameraden an die reaktionären Behörden jenseits der Grenze zu verraten, wäre ein Verrat an unseren Grundsätzen und an unserem Volk, aber trotzdem haben einige dafür plädiert, der Forderung nachzukommen. Ihrer Meinung nach ist es keine Frage des Prinzips - es ist einfach die Realität, dass, sollte ihre Regierung nicht bekommen, was sie will, sie sich an Deutschland wenden wird, um uns zu zwingen."
+ ukraine_republican.119.d1: "Seit Anfang 1936 wird Belarus von einer despotischen reaktionären Regierung unter der Führung von [BLR.GetLeader] und seiner [BLR.GetRulingParty] regiert. Ein pro-deutscher Putsch hatte die rechtmäßige BSDP-Regierung entmachtet und viele der Freiheiten und demokratischen Institutionen, die diese im Laufe von zwei Jahrzehnten sorgfältig eingeführt hatte, zunichte gemacht.\n\nDaher waren nur wenige überrascht, als viele prominente BSDP-Mitglieder und mit der Partei verbündete Soldaten in der Westukraine auftauchten, als der Anti-Hetman-Aufstand begann. Da ihre Sache - die Sache eines freien, demokratischen, sozialistischen Osteuropas - natürlich auch unsere Sache ist, haben diese belarussischen Exilanten in der Ukraine eine neue Heimat gefunden. Seit dem Ende des Aufstandes haben sie sich organisiert, um für die belarussischen Interessen in der Ukraine einzutreten - und auch gegen das tyrannische Regime ihres Landes, indem sie Artikel veröffentlichen, die die Kumpane von [BLR.GetLeader] anprangern, und hoffen, dass sie eines Tages in ihre wahre Heimat in Sicherheit zurückkehren können.\n\nGenau diese Aktionen haben Minsk verärgert. Nach Angaben des belarussischen Außenministers hat die ukrainische Regierung 'verurteilte Kriminelle' beherbergt, die in 'Sabotage und Terrorismus' verwickelt waren, und hat von uns ihre Auslieferung verlangt.\n\nDies ist eine eindeutig unannehmbare und unerhörte Forderung. Unsere Kameraden an die reaktionären Behörden jenseits der Grenze zu verraten, wäre ein Verrat an unseren Grundsätzen und an unserem Volk, aber trotzdem haben einige dafür plädiert, der Forderung nachzukommen. Ihrer Meinung nach ist es keine Frage des Prinzips - es ist einfach die Realität, dass, sollte ihre Regierung nicht bekommen, was sie will, sie sich an Deutschland wenden wird, um uns zu zwingen."
  ukraine_republican.119.d2: "Vor nicht allzu langer Zeit, inmitten des Anti-Hetman-Aufstands, waren es die Belarussen, die sich mit dem ukrainischen Volk gegen den Hetman solidarisierten, als es sonst niemand tat. Die Belarussische Volksrepublik ist ein Bollwerk der Sozialdemokratie in einer Region Europas, die zumeist von deutschen Wirtschaftsinteressen und reaktionären Autokraten beherrscht wird, und seit dem Erfolg unserer Revolution haben sich die Beziehungen zwischen beiden Ländern nur noch verstärkt.\n\nAus diesem Grund organisierte der Vorsitzende Vynnychenko einen Besuch in Minsk, um sich bei den Belarussen für ihre Hilfe zu bedanken und die Verbindung zwischen unseren beiden Demokratien zu stärken. Dort nahm Vynnychenko im Staatlichen Sojm Platz, um der regierenden BSDP-Regierung für ihre Leistungen zu applaudieren - und abgesehen von einigen recht speziellen Umständen wäre an der Reise nichts Bemerkenswertes gewesen.\n\nDiese besonderen Umstände liegen bei der BSDP selbst. Während die Partei sich selbst als die Fackel des Fortschritts für den jungen belarussischen Staat darstellt, wird sie von rechten Tendenzen dominiert, die nicht wirklich den Sozialismus anstreben, und ihre Landreformagenda, der "Plan Sierada", wurde durch die Erhöhung der Entschädigungen für Landbesitzer erheblich behindert. In gewisser Weise ist dies verständlich - Deutschland würde nicht zögern, die Truppen zu schicken, wenn die Partei nicht erhebliche Zugeständnisse macht.\n\nDiese unglücklichen Gegebenheiten sind keineswegs in unserem Interesse, aber in der BSDP gibt es immer noch einen beträchtlichen und einflussreichen linken Flügel, der bei der Politikgestaltung stets außen vor gelassen wurde. Mit angeblichen Sympathisanten, die so weit oben sitzen wie der Vorsitzende Taraškievič selbst, besteht die Möglichkeit, sie für den echten Sozialismus gefügig zu machen. Wenn wir die notwendigen Mittel vorbereiten und den linken Flügel mit allen uns zur Verfügung stehenden Mitteln - finanziell oder anderweitig - ausreichend finanzieren, wird die Übernahme der Kontrolle über Weißrussland zu Beginn unserer Revolution ein sehr kostspieliges Unterfangen sein, das jedoch von großem Nutzen sein wird, wenn es gelingt."
  ukraine_republican.119.a: "Wir werden unsere Bürger nicht im Stich lassen, ganz gleich, was ausländische Mächte denken."
  ukraine_republican.119.b: "Akzeptieren Sie ihre Forderungen. Idealismus wird uns nicht weiterbringen."
@@ -3915,7 +3891,7 @@
  ukraine_republican.153.b: "Lassen Sie sie reden. Eines Tages werden sie merken, wie sehr sie uns brauchen."
 
  ukraine_republican.154.t: "Gemeinsam gegen Despotismus"
- ukraine_republican.154.d: "Es sollte nicht lange dauern, bis die in einem Land lebenden russischen Exilanten zu einem Problem werden würden, aber nicht zu einem, das wir erwartet hatten. Die Kritik der Exilanten an der ukrainischen Republik reichte in der Öffentlichkeit nicht sehr weit, und die Exilanten ihrerseits haben sich bisher vor allem auf Anti-Sawinkow-Aktivismus festgelegt. Aus dem letztgenannten Grund haben sich die russisch-ukrainischen Beziehungen weiter verschlechtert.\n\nDer russische Botschafter in der Ukraine übermittelte eine Note der Regierung Sawinkow, in der die Auslieferung der Exilanten gefordert wurde, um sie wegen ihrer 'Verbrechen gegen das russische Volk' vor Gericht zu stellen. Nach einer vagen Warnung über die Folgen einer Weigerung wandte sich Außenminister Margolin an den Nationalen Zbory und erläuterte die Einzelheiten der Botschaft. Direkte Drohungen aus Moskau sind seit einigen Jahren nur noch selten zu hören, aber mit der Schaffung des Moskauer Abkommens und anderen Entwicklungen werden solche Vorfälle immer seltener.\n\nEs dauerte nicht lange, bis ein Konsens erzielt wurde: Die Ukraine wird sich dem russischen Imperialismus nicht mehr beugen, schon gar nicht nach der Wiederherstellung der Demokratie in [202.GetName]. Auf die eine oder andere Weise werden wir ihren traurigen Versuch, uns zu unterwerfen, zurückweisen. Die Frage, wie wir das tun sollen, bleibt jedoch offen. Die eher linken Mitglieder des Zbory wollen eine entschiedene Gegenrede halten, in der sie in Frage stellen, welches Recht Sawinkow hat, die Auslieferung derjenigen zu fordern, die sich in der Ukraine aufhalten wollen. Dies wird mit Sicherheit zeigen, dass die Ukraine bereit ist, sich gegen ausländische Aggressionen zu wehren. Auf der anderen Seite sind einige vorsichtig und schlagen vor, dass wir überhaupt keine Botschaft zurückschicken. Schließlich, so sagen sie, würde dies die ohnehin schon wachsenden Spannungen zwischen den beiden Ländern nur weiter anheizen."
+ ukraine_republican.154.d: "Es sollte nicht lange dauern, bis die in einem Land lebenden russischen Exilanten zu einem Problem werden würden, aber nicht zu einem, das wir erwartet hatten. Die Kritik der Exilanten an der ukrainischen Republik reichte in der Öffentlichkeit nicht sehr weit, und die Exilanten ihrerseits haben sich bisher vor allem auf Anti-Sawinkow-Aktivismus festgelegt. Aus dem letztgenannten Grund haben sich die russisch-ukrainischen Beziehungen weiter verschlechtert.\n\nDer russische Botschafter in der Ukraine übermittelte eine Note der Regierung Sawinkow, in der die Auslieferung der Exilanten gefordert wurde, um sie wegen ihrer 'Verbrechen gegen das russische Volk' vor Gericht zu stellen. Nach einer vagen Warnung über die Folgen einer Weigerung wandte sich Außenminister Margolin an den Nationalen Zbory und erläuterte die Einzelheiten der Botschaft. Direkte Drohungen aus Moskau sind seit einigen Jahren nur noch selten zu hören, aber mit der Schaffung des Moskauer Abkommens und anderen Entwicklungen werden solche Vorfälle immer seltener.\n\nEs dauerte nicht lange, bis ein Konsens erzielt wurde: Die Ukraine wird sich dem russischen Imperialismus nicht mehr beugen, schon gar nicht nach der Wiederherstellung der Demokratie in [202.GetName]. Auf die eine oder andere Weise werden wir ihren traurigen Versuch, uns zu unterwerfen, zurückweisen. Die Frage, wie wir das tun sollen, bleibt jedoch offen. Die eher linken Mitglieder des Zbory wollen eine entschiedene Gegenrede halten, in der sie in Frage stellen, welches Recht Sawinkow hat, die Auslieferung derjenigen zu fordern, die sich in der Ukraine aufhalten wollen. Dies wird mit Sicherheit zeigen, dass die Ukraine bereit ist, sich gegen ausländische Aggressionen zu wehren. Andererseits sind einige vorsichtig und schlagen vor, überhaupt keine Botschaft zurückzusenden. Schließlich, so sagen sie, würde dies die ohnehin schon wachsenden Spannungen zwischen den beiden Ländern nur weiter anheizen."
  ukraine_republican.154.a: "Sagt den Vozhd Bescheid. Wir werden uns euch nicht beugen, aber wir werden euch bekämpfen."
  ukraine_republican.154.b: "Es ist sinnlos, auf solchen Unsinn zu antworten."
 
@@ -4635,11 +4611,6 @@
  ukraine_forpol.32.d: "Die Unruhen in der Ukraine sind endgültig übergekocht, und die kommunistisch-syndikalistische Borotbyst-Bewegung hat die Republik übernommen. Die legale Regierung der Ukraine konnte fliehen und bittet derzeit Deutschland um Hilfe gegen die sozialistische Bedrohung. Schumskyi, der Präsident der neuen sozialistischen Republik, hat sie als Klassenverräter und Kollaborateure denunziert und die volle Souveränität der Ukraine erklärt. Es wurde eine rasche Mobilisierung eingeleitet, um die Revolution gegen alle ausländischen Bedrohungen zu verteidigen. Mit dieser Wendung der Ereignisse ist der Dreh- und Angelpunkt der deutschen Hegemonie im Osten zerbrochen. Even worse, the new government has aligned itself with the Russians in the east."
  ukraine_forpol.32.a: "Dies ist katastrophal. Ready the troops!"
  ukraine_forpol.32.b: "Wir müssen unsere Zeit abwarten."
-
- ukraine_forpol.33.t: "Wahnsinniges Wien"
- ukraine_forpol.33.d: "Nach einem verheerenden ultranationalistischen Putsch gegen Kaiser Karl hat sich in Wien ein höchst autoritäres und deutsch-chauvinistisches Regime an die Macht geputscht. Dies hat zu großen Unruhen in den Ländern der Doppelmonarchie geführt, vor allem in den slawischen Kronländern, in denen sich nun eine rebellische Stimmung breit macht. Unter diesen Umständen können wir unser Bündnis mit Wien nicht mit gutem Gewissen aufrechterhalten."
- ukraine_forpol.33.a: "Informieren Sie Wien über unsere Entscheidung."
- ukraine_forpol.33.b: "...und fragen, ob die Galizier sich uns anschließen wollen."
 
  ukraine_forpol.34.t: "Deutschland nähert sich mit einer Allianz"
  ukraine_forpol.34.d: "Nun, da wir uns als bündnisfrei erweisen, hat Deutschland schnell wieder ein Auge auf uns geworfen. Wenn auch in einem höflicheren Ton als beim letzten Mal, haben sie uns erneut ein Militärbündnis angeboten. Angesichts der derzeitigen Instabilität in der Donauregion würde uns dies zumindest vor möglichen feindlichen Handlungen des österreichischen ultranationalistischen Regimes schützen. Auch wenn ein Bündnis einige an die Unterwerfung der Ukraine unter Deutschland während der Herrschaft des Hetmans erinnert, haben wir keine anderen Möglichkeiten, wenn wir uns vor künftigen russischen Angriffen schützen wollen. Wir müssen also zustimmen,"
@@ -5445,7 +5416,6 @@
  UKR_reclaim_legacy_of_liberation_struggle_desc: "Es zeugt von einer gewissen Dreistigkeit, wenn die Hetmanisten behaupten, wir seien vom ukrainischen Geist losgelöst. Tatsächlich waren es die UPS-R und die heutigen Mitglieder der R-RB, die an der Spitze des nationalen Kampfes standen und zunächst für die Autonomie und dann für die Unabhängigkeit von der Herrschaft Moskaus kämpften. Die Erinnerung an unser großes historisches Erbe wird uns bei denjenigen, die der sozialistischen Sache eher zögerlich gegenüberstehen, Legitimität verschaffen."
  UKR_reclaim_legacy_of_liberation_struggle_tt_1: "Wenn eine der beiden Fraktionen des §RUPS-R§! dominieren wird, gewinnen wir stattdessen:\n"
  UKR_reclaim_legacy_of_liberation_struggle_tt_2: "Wenn eine der beiden Fraktionen des §RR-RB§! dominant ist, gewinnen wir stattdessen:\n"
- UKR_modify_sic: "Ändert Ihren §YStellvertreter§!"
  UKR_remove_socialist_nationalization: "Industrialisierungsentscheidungen werden §Gunsere £Stabilität_texticon Stabilität§! nicht mehr verletzen§!, aber sie werden §Rmehr kosten§!."
  UKR_socialization_of_the_land: "Vergesellschaftung des Landes"
  UKR_socialization_of_the_land_desc: "Der gesamte Reichtum des ukrainischen fruchtbaren Bodens wird von nun an dem Volk gehören. Während bestimmte landwirtschaftliche Einrichtungen verstaatlicht werden, wird die Kontrolle über die überwiegende Mehrheit der Bodenressourcen direkt an die lokalen Behörden übertragen - für eine faire und gerechte Umverteilung zwischen landwirtschaftlichen Kollektiven, Genossenschaften und einzelnen Familienbetrieben."
@@ -5867,7 +5837,7 @@
  UKR_oleh_olzhych_and_olena_teliha_advisor_desc: "§YGeboren:§! §8. Juli 1907, in Schytomyr, Gouvernement Wolhynien, Russisches Reich§!\n§YGeboren:§! §L21. Juli 1906, in Iljinskoje, Gouvernement Moskau, Russisches Reich§!"
 
  UKR_yakiv_moraleyvch: "Yakiv Moralevych"
- UKR_yakiv_moraleyvch_advisor_desc: "§YGeboren:§! §30. April 1878, im Gouvernement Podolien, Russisches Reich§!"
+ UKR_yakiv_moraleyvch_advisor_desc: "§YGeboren:§! §30. April 1879, in Bratslav, Gouvernement Podolien, Russisches Reich§!"
 
  UKR_mykola_kovalevskyi: "Mykola Kovalevskyi"
  UKR_mykola_kovalevskyi_desc_body: "Der aus einer Kosakenfamilie stammende Mykola Kovalevskyi bewies schon in jungen Jahren seinen unabhängigen Charakter. Als er wegen seines Interesses an ukrainischen Zeitungen vom Tschernihiwer Gymnasium verwiesen wurde, war er gezwungen, sein Studium in der Fremde, in Radom, fortzusetzen. Seine Studienjahre waren ähnlich unbeständig. Die Kontrolle der Behörden aufgrund seiner Aktivitäten in einer illegalen Studentenorganisation zwang ihn, die Moskauer Universität zu verlassen und nach Kiew zu ziehen, um sich am Handelsinstitut einzuschreiben. Dort schloss er sich den ukrainischen Sozialisten-Revolutionären an. Sein politischer Aktivismus führte 1914 zu einer kurzen Haftstrafe im Lukianivska-Gefängnis, die seine studentischen Ambitionen beendete.\n\nDas revolutionäre Jahr 1917 sollte für Mykola Mykolaiovych ein sehr arbeitsreiches Jahr werden.  Er wurde zum Führer der formell gegründeten Ukrainischen Partei der Sozialisten-Revolutionäre ernannt, half bei der Gründung der 'Selianska Spilka', wurde Mitglied der Zentralen Rada und diente in der republikanischen Regierung bis zum letzten Tag ihres Bestehens - all dies ist nur eine kurze Zusammenfassung von Kovalevskyis Aktivitäten im Jahr 1917 und Anfang 1918.\n\nWährend des Exils gab er kurzzeitig seine politischen Aktivitäten auf und widmete sich dem Journalismus. Die Pause währte jedoch nicht lange, und bald nahm Kovalevskyi seine Arbeit in der UPS-R wieder auf. Sein Eintreten für eine enge Zusammenarbeit zwischen den ukrainischen sozialistischen Kräften brachte ihn manchmal in Konflikt mit seinen weniger flexiblen Genossen. Der tragische Tod von Mykyta Shapoval, einer der prominentesten Persönlichkeiten der UPS-R, würde seine Position jedoch nur stärken.  Entweder würden die ukrainischen Sozialisten gemeinsam triumphieren - oder einer nach dem anderen in der Bedeutungslosigkeit verschwinden."
@@ -5904,7 +5874,7 @@
  UKR_arnold_margolin: "Arnold Margolin"
  UKR_arnold_margolin_desc_body: "Der aus einer jüdischen Familie in Kiew stammende Arnold Margolin schloss 1900 sein Jurastudium an der Kiewer Universität ab und studierte im Ausland in Deutschland und Frankreich. Bekannt wurde er als Verteidiger von Menachem Beilis in dem weithin bekannten \"Beilis-Prozess\", in dem der jüdische Arbeiter schließlich freigesprochen wurde. Als die ukrainische Revolution stattfand, schloss sich Margolin der Ukrainischen Partei der Sozialisten-Föderalisten an und wurde später Mitglied der Radikaldemokratischen Partei. Zunächst arbeitete er im Außenministerium des Hetman, unterhielt aber inoffizielle Kontakte zu den Republikanern im Exil, darunter auch zu Petljura."
  UKR_arnold_margolin_advisor_desc: "§YGeboren:§! §16. November 1877 in Kiew, Gouvernement Kiew, Russisches Reich§!\n§YHintergrund:§! §L$UKR_arnold_margolin_desc_body$§!"
- UKR_arnold_margolin_alt_advisor_desc: "§YGeboren:§! §16. November 1877 in Kiew, Gouvernement Kiew, Russisches Reich§!\n§YHintergrund:§! §L$UKR_arnold_margolin_desc_body$ Mit der Wahl einer Regierung der Demokratischen Arbeiterunion wurde Arnold Margolin aufgrund seiner Erfahrung und seiner Vertrautheit mit Berlin zum Außenminister ernannt - ein Zugeständnis, mit dem nicht alle zufrieden sind.§!"
+ UKR_arnold_margolin_unremovable_advisor_desc: "§YGeboren:§! §16. November 1877 in Kiew, Gouvernement Kiew, Russisches Reich§!\n§YHintergrund:§! §L$UKR_arnold_margolin_desc_body$ Mit der Wahl einer Regierung der Demokratischen Arbeiterunion wurde Arnold Margolin aufgrund seiner Erfahrung und seiner Vertrautheit mit Berlin zum Außenminister ernannt - ein Zugeständnis, mit dem nicht alle zufrieden sind.§!"
 
  ### Military High Command
  UKR_oleksandr_hrekiv: "Oleksandr Hrekiv"
