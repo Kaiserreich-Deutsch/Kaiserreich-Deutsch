@@ -12,6 +12,7 @@
 
 ### Main Menu ###
 play_in_english_tt: ""
+savegame_crash_workaround_tt: "§YHOI4 1.15.4 wurde am 21. Januar 2025 veröffentlicht.§!\n§5Leider stürzen viele Spielstände, die vor der Veröffentlichung erstellt wurden, sofort ab, wenn sie normal geladen werden.§!\n\n§YWenn eine Ihrer Spielstände betroffen ist, versuchen Sie Folgendes:§!\n£white_dot Laden Sie §tnicht§!  Ihren Spiestandl direkt aus dem Hauptmenü oder durch Klicken auf die Schaltfläche \"Fortsetzen\" im Launcher.\n£white_dot Starten Sie stattdessen §5ein neues Spiel§! und warten Sie bis es geladen hat.\n£white_dot Öffnen Sie das Spielmenü und laden Sie den gewünschten Spielstand, indem Sie auf \"§5Spiel laden§!\" klicken."
 
 ### Splash Screen ###
 KR_welcome_splash_tab_1: "Land"
@@ -20,11 +21,27 @@ KR_welcome_splash_tab_3: "Wie man spielt"
 KR_welcome_splash_tab_4: "Credits"
 mod_options_button_text: "Weiter"
 
-## TAB 1 ##
+## TAB 1 - all needed to avoid starting errors ##
 KR_welcome_splash_tab_1_header: "[ROOT.GetCountryIntroHeader]"
 KR_welcome_splash_tab_1_content: "[ROOT.GetCountryIntroContent]"
 country_intro_header: "$KR_scenario_name$"
+country_intro_header_1: "$KR_scenario_desc$"
+country_intro_header_2: "$KR_scenario_desc$"
+country_intro_header_3: "$KR_scenario_desc$"
+country_intro_header_4: "$KR_scenario_desc$"
+country_intro_header_5: "$KR_scenario_desc$"
+
 country_intro_content: "$KR_scenario_desc$"
+country_intro_content_1: "$KR_scenario_desc$"
+country_intro_content_2: "$KR_scenario_desc$"
+country_intro_content_3: "$KR_scenario_desc$"
+country_intro_content_4: "$KR_scenario_desc$"
+country_intro_content_5: "$KR_scenario_desc$"
+
+guide: ""
+guide_1: ""
+guide_2: ""
+guide_3: ""
 
 ## TAB 2 ##
 KR_welcome_splash_tab_2_reveal_spoilers_button: "Spoiler anzeigen?"
@@ -738,6 +755,8 @@ tech_armored_car_spearhead: "Panzerwagen Speerspitze"
 tech_masterful_blitz: "$tactic_masterful_blitz$"
 
 tech_human_wave_tactics: "$tactic_human_wave_tactics$"
+
+tech_improved_decryption: "Verbesserte Entschlüsselung"
 
 ### Units ###
 assault_battalion: "$blackshirt_assault_battalion$"
