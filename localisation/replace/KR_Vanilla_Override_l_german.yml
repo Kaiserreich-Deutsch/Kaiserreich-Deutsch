@@ -135,7 +135,6 @@ werwolf_guerillas_desc: "Geplante Widerstandsgruppen sind unsere letzte Hoffnung
  basic_ship_hull_submarine: "$ship_hull_submarine_2$"
  improved_ship_hull_submarine: "$ship_hull_submarine_3$"
  advanced_ship_hull_submarine: "$ship_hull_submarine_4$"
- panzerschiffe: "$ship_hull_cruiser_panzerschiff$"
 
  early_destroyer: "$destroyer_1$"
  basic_destroyer: "$destroyer_2$"
@@ -324,9 +323,6 @@ zero_island: "Abgelegene Insel(n)"
  MANPOWER_CURRENT_MOBILIZATION: "Gesamtpersonal: $TOTAL|^2H$\n$PERC|2%H$ (ca. $MOB|+3H%$ wird pro Tag mobilisiert) von verfügbarer zulässiger Kernbevölkerung ($ELIGIBLE|^H$)"
  DIVISION_IN_TEMPLATE_TRANSFER: "Die Division reorganisiert derzeit von der Vorlage $OLD|H$ zu $NEW|H$. Die Umstrukturierung wird abgeschlossen sein, wenn die ersten benötigten Geräte geliefert werden, und die alten Geräte werden dann in den Bestand zurückgeführt."
 
-### diplomacy_l_english
- puppet_opinion: "Marionette"
-
 ### deployment_l_english
  group_armor_title: "Gepanzerte Bataillone"
  HAS_ARMIES_WITH_OLD_TEMPLATE: "§RDiese Vorlage kann nicht gelöscht werden, da $AMOUNT|H$ Division(en) von dieser Vorlage zu einer neuen übergehen (Warten auf den Erhalt von Ausrüstung, die der neuen Vorlage entspricht).§!"
@@ -369,6 +365,15 @@ zero_island: "Abgelegene Insel(n)"
  DR_COMMUNIST_NOT_NEIGHBOUR: "$THEM|UY$ ist nicht Nachbar der Fraktion: "
  free_license: "Kostenlose Lizenz"
 
+ puppet_opinion: "Marionette"
+ small_decrease: "Rückgang der Meinung"
+ medium_decrease: "Rückgang der Meinung"
+ large_decrease: "Rückgang der Meinung"
+ small_increase: "Zunahme der Meinungen"
+ medium_increase: "Zunahme der Meinungen"
+ large_increase: "Zunahme der Meinungen"
+ huge_increase: "Enormer Anstieg der Meinungen"
+ 
 ### effects_l_english
  EFFECT_CONTEXT_LEADER: "$LEADER|H$"
  EFFECT_SET_LEADER_NATIONALITY: "vereinigt $COUNTRYDEF|Y$"
