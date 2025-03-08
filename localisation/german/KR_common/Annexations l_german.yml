@@ -14,7 +14,7 @@ KR_controlled_by_ROOT_or_ally: "wird kontrolliert von §Y[Root.GetNameDef]§! od
 KR_controlled_by_ROOT_or_ally_NOT: "wird §Rnicht§! von §Y[Root.GetNameDef]§! oder einem Verbündeten kontrolliert"
 KR_owned_and_controlled_by_ROOT_or_ally: "ist im Besitz und unter der Kontrolle von §Y[Root.GetNameDef]§! oder einem Verbündeten"
 KR_owned_and_controlled_by_ROOT_or_ally_NOT: "ist §Rnicht§! im Besitz und unter der Kontrolle von §Y[Root.GetNameDef]§! oder einem Verbündeten"
- annexation_occupied_state: "Militärische Besetzung: $VALUE|=-%0$"
+ annexation_resistance_target: "Unter Militärischer Besatzung"
 
  is_valid_annexation_state: "Ist Eigentum von §Y[ROOT.GetNameWithFlag]§! und §Rnicht§! ein Kern oder beansprucht"
 
@@ -210,12 +210,12 @@ annex.integration: "Pass euch unserem Territorium an."
  annex.asia.give_to_british_india: "[india_british.GetGrantTerritoryEventOption]"
 
  annex.asia.give_to_afghanistan: "[afghanistan.GetGrantTerritoryEventOption]"
- annex.asia.give_to_pakistan: "[pakistan.GetGrantTerritoryEventOption]"
  annex.asia.give_to_punjab: "[punjab.GetGrantTerritoryEventOption]"
  annex.asia.give_to_khalistan: "[khalistan.GetGrantTerritoryEventOption]"
  annex.asia.give_to_hyderabad: "[hyderabad.GetGrantTerritoryEventOption]"
  annex.asia.give_to_madras: "[madras.GetGrantTerritoryEventOption]"
  annex.asia.give_to_mysore: "[mysore.GetGrantTerritoryEventOption]"
+ annex.asia.give_to_travancore: "[travancore.GetGrantTerritoryEventOption]"
  annex.asia.give_to_orissa: "[orissa.GetGrantTerritoryEventOption]"
  annex.asia.give_to_bengal: "[bengal.GetGrantTerritoryEventOption]"
  annex.asia.give_to_assam: "[assam.GetGrantTerritoryEventOption]"
@@ -230,7 +230,7 @@ annex.integration: "Pass euch unserem Territorium an."
  annex.asia.give_to_indonesia: "[indonesia.GetGrantTerritoryEventOption]"
  annex.asia.give_to_malaysia: "[malaysia.GetGrantTerritoryEventOption]"
 
- annex.asia.give_to_owner_of_sindh: "[sindh.GetGrantTerritoryEventOption]"
+ annex.asia.give_to_owner_of_sind: "[sind.GetGrantTerritoryEventOption]"
  annex.asia.give_to_owner_of_bihar: "[bihar.GetGrantTerritoryEventOption]"
  annex.asia.give_to_owner_of_bombay: "[bombay.GetGrantTerritoryEventOption]"
  annex.asia.give_to_owner_of_madura: "[madura.GetGrantTerritoryEventOption]"
@@ -705,7 +705,7 @@ annexation_macedonia_desc: "Der kleine Staat Mazedonien ist jetzt unter unserer 
  annex.1075.c: "Bieten Sie es [can_offer_macedonia_to_bulgaria.GetNameDef] im Austausch für ein Bündnis an."
 
 annexation_romania: "Das Schicksal von Rumänien"
-annexation_romania_desc: "Die rumänischen Streitkräfte haben endlich vor unserer Übermacht kapituliert. Die Zeit ist gekommen, um zu entscheiden, was mit ihrem Land geschehen soll. "
+annexation_romania_desc: "Die rumänischen Streitkräfte haben endlich vor unserer Übermacht kapituliert. Die Zeit ist gekommen, um zu entscheiden, was mit ihrem Land geschehen soll."
 annex.1076.a: "Rumänische Republik freigeben"
 annex.1076.b: "Wiederherstellung der Rumänischen Monarchie."
 
@@ -1321,7 +1321,7 @@ annex.3026.a: "Befreien Sie eine loyale philippinische Regierung."
 
 annexation_indonesia: "Das Schicksal von Indonesien"
 annexation_indonesia_desc: "Unsere Armeen haben es geschafft, die Kontrolle über Indonesien zu übernehmen, und die Inseln selbst sind nun von uns besetzt. Wir haben jetzt ein paar Optionen. Wir können die Insel entweder zur Marionette machen oder sie für uns beanspruchen, da sie eine Schlüsselposition in Südostasien einnimmt und über viele strategisch wertvolle Ressourcen verfügt. Was sollen wir tun?"
-annex.3027.a: "Befreien Sie Insulindien."
+annex.3027.a: "Indonesien freigeben."
  annex.3027.b: "Wiederherstellung von Niederländisch-Ostindien."
  annex.3027.c: "Rückgabe an [DEI.GetNameDef]."
  annex.3027.d: "Übertragen Sie es auf [HOL.GetNameDef]."
@@ -1344,7 +1344,7 @@ annex.3029.a: "Malaya als Republik freilassen."
 
 annexation_central_india: "Das Schicksal von Zentralindien"
 annexation_central_india_desc: "Zentralindien ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
-annex.3032.a: "Hindustan freilassen."
+annex.3032.a: "Ganga-Föderation freigeben."
 
 annexation_maharashtra: "Das Schicksal von Maharashtra"
 annexation_maharashtra_desc: "Die Region Bombay ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen."
@@ -1353,11 +1353,11 @@ annex.3033.b: "Maharashtra freigeben."
 
 annexation_gujarat: "Das Schicksal von Gujarat"
 annexation_gujarat_desc: "Gujarat ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was damit zu tun ist."
-annex.3034.a: "Gujarat freigeben."
+annex.3034.a: "Gujarati-Staat freigeben."
 
 annexation_rajputana: "Das Schicksal von Rajputana"
 annexation_rajputana_desc: "Rajputana ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was damit zu tun ist."
-annex.3035.a: "Rajasthan freigeben."
+annex.3035.a: "Rajput-Föderation freigeben."
 
 annexation_east_punjab: "Das Schicksal von Ost-Punjab"
 annexation_east_punjab_desc: "Ost-Punjab ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
@@ -1405,8 +1405,7 @@ annexation_andhra_desc: "Andhra ist unter unsere Kontrolle gebracht worden, da u
 annexation_madras: "Das Schicksal von Madras"
 annexation_madras_desc: "Madras ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
 annex.3046.a: "Dravidia Nadu freigeben."
-annex.3046.b: "Tamil Nadu freigeben."
-annex.3046.c: "Madras freigeben."
+annex.3046.b: "Madras freigeben."
 
 annexation_mysore: "Das Schicksal von Mysore"
 annexation_mysore_desc: "Mysore ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was damit zu tun ist."
@@ -1415,7 +1414,6 @@ annex.3047.b: "Mysore freigeben."
 
 annexation_punjab: "Das Schicksal von Punjab"
 annexation_punjab_desc: "Punjab ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
-annex.3048.a: "Pakistan freigeben."
 annex.3048.b: "Groß-Khalistan freigeben."
  annex.3048.c: "Punjab freigeben."
 
@@ -1430,8 +1428,8 @@ annexation_quetta_desc: "Quetta ist unter unsere Kontrolle gebracht worden, da u
  annexation_peshawar: "Das Schicksal von Peshawar"
  annexation_peshawar_desc: "Peshawar wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit tun wollen."
 
-annexation_sindh: "Das Schicksal von Sindh"
-annexation_sindh_desc: "Sindh ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
+annexation_sind: "Das Schicksal von Sind"
+annexation_sind_desc: "Sind ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
  annex.3051.a: "[gujarat.GetGrantTerritoryEventOption]"
  annex.3051.b: "[rajputana.GetGrantTerritoryEventOption]"
 
@@ -1543,8 +1541,8 @@ annexation_hawaii_desc: "Die Inseln von Hawaii sind unter unsere Kontrolle gebra
  annexation_indian_treaty_ports_desc: "Das Gebiet der [FROM.FROM.GetName] wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen wollen."
  annex.3078.a: "[india_splinter.GetGrantTerritoryEventOption]"
 
- annexation_uttarakhand: "Das Schicksal von [814.GetName]"
- annexation_uttarakhand_desc: "[814.GetName] wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen wollen."
+ annexation_uttaranchal: "Das Schicksal von [814.GetName]"
+ annexation_uttaranchal_desc: "[814.GetName] wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen wollen."
  annex.3079.a: "[delhi.GetGrantTerritoryEventOption]"
  annex.3079.b: "[simla.GetGrantTerritoryEventOption]"
 
@@ -1562,6 +1560,9 @@ annexation_hawaii_desc: "Die Inseln von Hawaii sind unter unsere Kontrolle gebra
 
  annexation_grey_wedge: "Das Schicksal des Grauen Keils"
  annexation_grey_wedge_desc: "Der \"Graue Keil\" zwischen Sibirien und Kasachstan ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzt haben. Wir müssen nun entscheiden, was wir damit tun wollen."
+
+ annexation_malabar_coast: "Das Schicksal der Malabarküste"
+ annexation_malabar_coast_desc: "Die Malabarküste ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzt haben. Wir müssen nun entscheiden, was wir mit ihr machen wollen."
 
 annexation_levant: "Das Schicksal des Levante"
 annexation_levant_desc: "Wir haben die wohlhabenden Länder der Levante erobert, einschließlich der großen und alten Stadt Damaskus. Was sollen wir mit diesen alten osmanischen Provinzen machen?"
@@ -1857,7 +1858,7 @@ annex.5037.a: "Bilden Sie den Staat Madagascar."
  annex.5037.b: "Wiedereinführung der Merina-Monarchie."
 
 annexation_south_africa: "Das Schicksal von Südafrika"
-annexation_south_africa_desc: "Endlich hat das afrikanische Herrschaftsgebiet Südafrika vor unseren glorreichen Armeen kapituliert, die nun durch das Kap marschieren. Nach dem Beginn unserer militärischen Besetzung und nun, da der Krieg beendet ist, sind einige Stimmen aufgekommen, die behaupten, wir müssten eine südafrikanische Marionettennation schaffen, um das Gebiet unter Kontrolle zu halten, aber während dieser Diskussionen wurde eine andere Frage auf den Tisch gebracht: wenn wir diesen Marionettenstaat schaffen, sollte er dann die Protektorate Betschuanaland und Rhodesien behalten, die er seit über einem Jahrzehnt kontrolliert, oder sollten wir ihre Einflusszone auf den Kern des Landes reduzieren? Es liegt nun an Ihnen, zu entscheiden."
+annexation_south_africa_desc: "Endlich hat das afrikanische Herrschaftsgebiet Südafrika vor unseren glorreichen Armeen kapituliert, die nun durch das Kap marschieren. Nach dem Beginn unserer militärischen Besetzung und nun, da der Krieg beendet ist, sind einige Stimmen laut geworden, die fordern, dass wir einen südafrikanischen Marionettenstaat gründen sollten, um das Gebiet unter Kontrolle zu halten, aber während dieser Diskussionen wurde eine andere Frage auf den Tisch gebracht: Wenn wir diesen Marionettenstaat gründen, sollte er das Protektorat Bechuanaland und die desillusionierte Provinz Südrhodesien behalten, die er seit über einem Jahrzehnt kontrolliert, oder sollten wir ihre Einflusszone auf den Kern des Landes reduzieren? Es liegt nun an Ihnen, zu entscheiden."
  annex.5038a: "Südafrika freigeben."
 
 annexation_namibia: "Das Schicksal von Namibia"
