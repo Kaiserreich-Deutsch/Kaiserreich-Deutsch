@@ -250,13 +250,19 @@
  mio_cat_artillery: "Artillerie"
 
  #added by KR
- mio_cat_eq_only_cv_fighter: "Alle Träger-Jäger"
- mio_cat_eq_all_aircraft: "Alle Flugzeug"
- mio_cat_eq_all_artillery_tanks: "Alle Panzerartillerie"
- mio_cat_eq_all_aa_tanks: "Alle Flugabwehrpanzer"
- mio_cat_eq_all_amphibious_tanks: "Alle Amphibische Panzer"
- mio_cat_eq_all_flame_tanks: "Alle Flammpanzer"
+ mio_cat_eq_only_cv_fighter: "Träger-Jäger"
+ mio_cat_eq_all_aircraft: "Flugzeug"
+ mio_cat_eq_all_artillery_tanks: "Panzerartillerie"
+ mio_cat_eq_all_aa_tanks: "Flugabwehrpanzer"
+ mio_cat_eq_all_amphibious_tanks: "Amphibische Panzer"
+ mio_cat_eq_all_flame_tanks: "Flammpanzer"
  mio_cat_eq_all_artillery: "Alle Artillerie"
+ mio_cat_eq_all_surface_ships: "All Surface Ships"
+ mio_cat_eq_all_ships: "Alle Ships"
+ mio_cat_eq_all_cas_aircraft: "Luftnahunterstützung"
+ mio_cat_eq_all_naval_bomber_aircraft: "Marinebomber"
+ mio_cat_eq_all_cas_and_naval_bomber_aircraft: "Luftnahunterstützung und Marinebomber"
+ mio_cat_eq_all_mechanised: "Alle Mechanisierte Ausrüstung"
 
  ##     ## ########    ###    ########  ######## ########   ######
  ##     ## ##         ## ##   ##     ## ##       ##     ## ##    ##
@@ -614,8 +620,8 @@
  ##########################################
  ### INSTANDSETZUNG UND REPARATUR WERFT ###
  ##########################################
- generic_refurbishment_repair_organization: "Instandsetzung und Reparatur Werft"
- generic_mio_refurbishment_repair_organization: "$generic_refurbishment_repair_organization$"
+ generic_refurbishment_repair_dockyard_organization: "Instandsetzung und Reparatur Werft"
+ generic_mio_refurbishment_repair_dockyard_organization: "$generic_refurbishment_repair_dockyard_organization$"
  generic_mio_trait_heavy_armored_hull: "Schwer Gepanzerter Rumpf"
  generic_mio_trait_isolated_firemains: "Isolierte Feuerleitungen"
  generic_mio_trait_counter_flooding_system: "Gegenflutungs-Systeme"
