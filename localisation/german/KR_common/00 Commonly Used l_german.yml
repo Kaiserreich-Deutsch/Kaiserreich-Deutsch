@@ -15,6 +15,7 @@ character_becomes_a_general: "(Skill [?skill_level]) wird ein General.\nEigensch
 tooltip_immediate_effect_upon_focus_start: "§YSofortige Wirkung beim Start des Schwerpunkts:§!\n"
 tooltip_effect_upon_focus_completion: "\n§GAuswirkung bei Abschluss des Schwerpunkts:§!\n"
 after_idea_expires: "Nach dem ablaufen des Nationalgeistes:"
+after_mission_completes: "Sobald die Mission abgeschlossen ist:"
 
 unlock_focuses: "§GDieser Schwerpunkt wird automatisch umgangen und schaltet die anderen Schwerpunkte frei.§!"
 tooltip_focus_unlocked_by_event: "§GDieser Schwerpunkt wird automatisch durch ein Ereignis freigeschaltet.§!"
@@ -114,6 +115,8 @@ tooltip_modify_two_dynmods: "Modifiziert $DYNMOD1|Y$ oder $DYNMOD2|Y$ um"
 tooltip_modify_three_dynmods: "Modifiziert $DYNMOD1|Y$, $DYNMOD2|Y$ oder $DYNMOD3|Y$ um"
 tooltip_modify_four_dynmods: "Modifiziert $DYNMOD1|Y$, $DYNMOD2|Y$, $DYNMOD3|Y$ oder $DYNMOD4|Y$ um"
 
+tooltip_replace_one_of_two_ideas: "Ersetzt $IDEA1|Y$ oder $IDEA2|Y$ mit $IDEA3|Y$\nEffektive Änderung:"
+
 tooltip_spawn_units: "Erstellt $COUNT|Y$ $TYPE|Y$ Divisionen.\n"
 tooltip_spawn_unit: "Erstellt eine $TYPE|Y$ Division.\n"
 
@@ -151,8 +154,12 @@ AI_OPTION: "Nur KI-Option"
 
 ### Decision Names ###
 integrate_state: "Integriert [From.GetName]"
+integrate_country: "Integriert [From.GetNameDef]"
 join_faction: "Tretet [From.GetFactionName] bei"
+invite_country: "Ladet [FROM.GetNameDef] ein"
 attack_country: "Greift [From.GetNameDef] an"
+invade_country: "Erobert [From.GetNameDef]"
+liberate_country: "Befreit [FROM.GetNameDef]"
 
 ### Custom Modifier Tooltips ###
 cannot_enact_conscription_tt: "§RDas Wehrpflichtgesetz kann nicht verschärft werden.§!"
@@ -223,7 +230,9 @@ day_saturday: "Samstag"
 
 ### KR-added Modifiers ###
 offmap_military_factories_tooltip: "Militärfabriken außerhalb der Karte hinzufügen"
+offmap_military_factories_change_tooltip: "$offmap_military_factories_tooltip$: $RIGHT|+=0$"
 offmap_civilian_factories_tooltip: "Zivilfabriken außerhalb der Karte hinzufügen"
+offmap_civilian_factories_change_tooltip: "$offmap_civilian_factories_tooltip$: $RIGHT|+=0$"
 offmap_dockyards_tooltip: "Schiffswerften außerhalb der Karte hinzufügen"
 daily_popularity_drift: "Tägliche Unterstützung für die regierenden Partei"
 daily_non_ruling_popularity_drift: "Tägliche Unterstützung für die Nicht-Regierungsparteien"
@@ -487,6 +496,8 @@ army_artillery_defence_factor_tooltip: "$MODIFIERS_ARMY_ARTILLERY_DEFENCE_FACTOR
 
 special_forces_attack_factor_tooltip: "$MODIFIER_SPECIAL_FORCES_ATTACK_FACTOR$: $RIGHT|+=%1$"
 special_forces_defence_factor_tooltip: "$MODIFIER_SPECIAL_FORCES_DEFENCE_FACTOR$: $RIGHT|+=%1$"
+
+unit_assault_battalion_design_cost_factor_tooltip: "$blackshirt_assault_battalion$ Unit Design Cost: $RIGHT|-=%2$"
 
 recon_factor_tooltip: "$MODIFIER_RECON_FACTOR$: $RIGHT|+=%1$"
 recon_factor_while_entrenched_tooltip: "$MODIFIER_RECON_FACTOR_WHILE_ENTRENCHED$: $RIGHT|+=%1$"
