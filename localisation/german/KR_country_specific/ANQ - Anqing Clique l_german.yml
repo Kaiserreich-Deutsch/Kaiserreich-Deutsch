@@ -87,6 +87,7 @@ ANQ_social_democrat_party: "Anti-Konzessions-Liga"
  ANQ_social_democrat_party_long: "Anti-Konzessions-Bewegung\n§gChens größter Verbündeter - und vielleicht auch seine größte Schwäche - ist die Anti-Konzessions-Bewegung. Die Anti-Konzessions-Bewegung ist ein nebulöses politisches Gebilde, das nur durch eines verbunden ist: den Hass auf den ausländischen Imperialismus. Chens patriotische Rhetorik hat sie auf seine Seite gezogen und ihn bekannt gemacht, aber es bleibt abzuwarten, ob er ihre Erwartungen erfüllen kann. Viele Mitglieder neigen zunehmend zu radikalen Vorstellungen von Volksdemokratie und einem sozialistisch geprägten Staat, kaum das, was Chen selbst im Sinn hatte, und wenn ihr Einfluss unkontrolliert wächst, könnten sie durchaus zu einem unangenehmen Feind werden, wenn Chen sie nicht besänftigen kann. Ihre Führer agitieren weiterhin gegen die Überreste des deutschen Einflusses, und nationalistische Gefühle sind in aller Munde.§!\n"
 
 ### Intro Screen ###
+ ANQ_country_intro_background: "GFX_ANQ_intro"
  ANQ_country_intro_header: "Die Provinz Anhui"
  ANQ_guide: "§MBeistand für Peking§!\n£white_dot Die Qing-Regierung soll unsere Bitte um Hilfe annehmen.\n£white_dot Um dies zu gewährleisten, setzen Sie die Qing in den Spielregeln auf Zhili Monarchie - Pro-Anqing.\n\n§MZhang Zuolin beistehen§!\n£white_dot Lassen Sie unser Hilfegesuch von der Qing-Regierung ablehnen. Dies wird uns die Unterstützung der Fengtian-Clique und Japans einbringen.\n£white_dot Um dies zu gewährleisten, sollten Sie die Qing in den Spielregeln nicht auf Zhili Monarchie - Pro-Anqing einstellen."
 
@@ -273,31 +274,19 @@ ANQ_is_reconstructing: "Schließt bereits ein Wiederaufbauprojekt ab"
 ANQ_abandons_reclamation: "Anqing hat die Teilnahme am Reklamationskrieg aufgegeben."
 ANQ_commits_reclamation: "Anqing hat sich verpflichtet, am Reklamationskrieg teilzunehmen."
 ANQ_reclamation_decided: "Anqing hat entschieden, ob es am Reklamationskrieg teilnehmen will oder nicht."
-ANQ_with_zhili: "Anqing steht zur Zhili-Republik"
-ANQ_with_feds: "Anqing steht zu den Föderalisten"
 
 ANQ_feng_aids_reconstruction: "Fengtian unterstützt unsere Wiederaufbaubemühungen"
 ANQ_fengjapan_aids_reconstruction: "Fengtian und Japan unterstützen unsere Wiederaufbaubemühungen"
 ANQ_feng_aid_undecided: "Fengtian Hilfe für den Wiederaufbau ist unentschlossen"
 ANQ_no_reconstruction_aid: "Fengtian hat uns die Hilfe verweigert"
 
-ANQ_can_prospect_resources_qing: "Hat über Mineralrechte entschieden"
-ANQ_can_prospect_resources_alone: "Hat über Mineralrechte entschieden"
-
 ANQ_shd_is_ally: "Verbündet mit §Hder Shandong-Clique§!"
 
 ## Tooltips ##
  ANQ_check_credibility: "Hat mehr als $RIGHT|YO$ £anq_credibility §YGlaubwürdigkeit§!"
 
-anq_decrease_cred_1: "Reduziert §R1§! £anq_credibility §YGlaubwürdigkeit§!\n"
-anq_decrease_cred_2: "Reduziert §R2§! £anq_credibility §YGlaubwürdigkeit§!\n"
-anq_decrease_cred_5: "Reduziert §R5§! £anq_credibility §YGlaubwürdigkeit§!\n"
-anq_decrease_cred_10: "Reduziert §R10§! £anq_credibility §YGlaubwürdigkeit§!\n"
-anq_decrease_cred_20: "Reduziert §R20§! £anq_credibility §YGlaubwürdigkeit§!\n"
-
-anq_increase_cred_5: "Fügt §G5§! £anq_credibility §YGlaubwürdigkeit§! hinzu\n"
-anq_increase_cred_10: "Fügt §G10§! £anq_credibility §YGlaubwürdigkeit§! hinzu\n"
-anq_increase_cred_20: "Fügt §G20§! £anq_credibility §YGlaubwürdigkeit§! hinzu\n"
+ ANQ_increase_credibility_tt: "Erhöht £anq_credibility §YCredibility§! um $RIGHT|G0$.\n"
+ ANQ_decrease_credibility_tt: "Verringert £anq_credibility §YCredibility§! um $RIGHT|R0$.\n"
 
 anq_increase_qie_05: "Erhöht £anq_qieinfluence §YQing Einfluss§! um §C0.5%§!.\n"
 anq_increase_qie_1: "Erhöht £anq_qieinfluence §YQing Einfluss§! um §C1%§!.\n"
@@ -310,23 +299,15 @@ anq_decrease_qie_1: "Verringert £anq_qieinfluence §YQing Einfluss§! um §C1%�
 anq_decrease_qie_2: "Verringert £anq_qieinfluence §YQing Einfluss§! um §C2%§!.\n"
 anq_decrease_qie_3: "Verringert £anq_qieinfluence §YQing Einfluss§! um §C3%§!.\n"
 anq_decrease_qie_5: "Verringert £anq_qieinfluence §YQing Einfluss§! um §C5%§!.\n"
-anq_decrease_qie_7: "Verringert £anq_qieinfluence §YQing Einfluss§! um §C7%§!.\n"
 
-anq_increase_fng_05: "Erhöht £anq_fnginfluence §YFengtian Einfluss§! um §C0.5%§!.\n"
 anq_increase_fng_1: "Erhöht £anq_fnginfluence §YFengtian Einfluss§! um §C1%§!.\n"
 anq_increase_fng_2: "Erhöht £anq_fnginfluence §YFengtian Einfluss§! um §C2%§!.\n"
-anq_increase_fng_3: "Erhöht £anq_fnginfluence §YFengtian Einfluss§! um §C3%§!.\n"
 anq_increase_fng_5: "Erhöht £anq_fnginfluence §YFengtian Einfluss§! um §C5%§!.\n"
-anq_increase_fng_7: "Erhöht £anq_fnginfluence §YFengtian Einfluss§! um §C7%§!.\n"
 
-anq_decrease_fng_1: "Verringert £anq_fnginfluence §YFengtian Einfluss§! um §C1%§!.\n"
-anq_decrease_fng_2: "Verringert £anq_fnginfluence §YFengtian Einfluss§! um §C2%§!.\n"
 anq_decrease_fng_3: "Verringert £anq_fnginfluence §YFengtian Einfluss§! um §C3%§!.\n"
 anq_decrease_fng_5: "Verringert £anq_fnginfluence §YFengtian Einfluss§! um §C5%§!.\n"
-anq_decrease_fng_7: "Verringert £anq_fnginfluence §YFengtian Einfluss§! um §C7%§!.\n"
 
-anq_increase_jap_1: "Erhöht §YJapanese Aid Score§! um §C1§!.\n"
-anq_increase_jap_2: "Erhöht §YJapanese Aid Score§! um §C1§!.\n"
+ ANQ_increase_aid_score_tt: "Erhöht §YJapanese Aid Score§! um $RIGHT|C0$.\n"
 
 anq_increase_qie_anger_05x: "§RQing wird mit Ihrer Entscheidung etwas unzufrieden sein.§! (Erhöht §YQing Ärger§! ein bisschen)\n"
 anq_increase_qie_anger_1x: "§RQing wird mit Ihrer Entscheidung unzufrieden sein.§! (Erhöht §YQing Ärger§!)\n"
@@ -334,32 +315,14 @@ anq_increase_qie_anger_2x: "§RQing wird mit Ihrer Entscheidung sehr unzufrieden
 anq_increase_qie_anger_3x: "§RQing wird mit Ihrer Entscheidung äußerst unzufrieden sein!§! (Erhöht §YQing Ärger§! sehr stark)\n"
 anq_decrease_qie_anger_5: "Verringert §YQing Ärger§! um §G5§!.\n"
 
-anq_nochange_reclamation_willingness: "§YBereitschaft§! dem Reklamationskrieg gegen Peking beizutreten, ändert sich nicht.\n"
-anq_increase_reclamation_willingness_1: "Erhöhen §YBereitschaft§! sich dem Reklamationskrieg gegen Peking anzuschließen §C1§!.\n"
-anq_increase_reclamation_willingness_2: "Erhöhen §YBereitschaft§! sich dem Reklamationskrieg gegen Peking anzuschließen §C2§!.\n"
-anq_increase_reclamation_willingness_2_feng: "Weil wir mit Fengtians Hilfe den Sieg errungen haben, erhöhen Sie sich §YBereitschaft§! sich ihrem Reklamationskrieg gegen Peking anzuschließen §C2§!.\n"
-anq_decrease_reclamation_willingness_1: "Verringern §YBereitschaft§! sich dem Reklamationskrieg gegen Peking anzuschließen §C1§!.\n"
-anq_decrease_reclamation_willingness_1_shdanq: "Aufgrund des Versagens von Fengtian, einen Deal zwischen uns und Shandong ordnungsgemäß auszuhandeln, sinkt §YBereitschaft§! um sich später ihrem Reklamationskrieg gegen Peking anzuschließen §C1§!.\n"
-anq_decrease_reclamation_willingness_2: "Verringern §YBereitschaft§! sich dem Reklamationskrieg gegen Peking anzuschließen §C2§!.\n"
-anq_decrease_reclamation_willingness_3: "Verringern §YBereitschaft§! sich dem Reklamationskrieg gegen Peking anzuschließen §C3§!.\n"
-
-anq_has_governors_focus_tt: "Hat Gouverneure installiert.\n"
+ ANQ_no_change_reclamation_war_willingness_tt: "§YBereitschaft§! dem Reklamationskrieg gegen Peking beizutreten, ändert sich nicht.\n"
+ ANQ_increase_reclamation_war_willingness_tt: "Erhöhen §YBereitschaft§! sich dem Reklamationskrieg gegen Peking anzuschließen $RIGHT|C0$.\n"
+ ANQ_decrease_reclamation_war_willingness_tt: "Verringern §YBereitschaft§! sich dem Reklamationskrieg gegen Peking anzuschließen $RIGHT|C0$.\n"
 
 anq_increase_jap_shipments_war_tt: "§GErhöht die regulären Sendungen, die Sie aus Japan auf dem Seeweg erhalten!§!\n"
 anq_increase_qing_shipments_war_tt: "§GErhöht die regelmäßigen Sendungen, die Sie von Qing per Fluss und Bahn erhalten!§!\n"
 
 ANQ_nanjing_defections_tt: "§GMehrere ehemalige Divisionen in Nanjing dessardieren zu unseren Streitkräften und wollen nicht für Shandong oder die linke KMT kämpfen!§!"
-
-anq_declare_war_decision_shd_tt: "§REntsperrt £decision_icon_small §HEntscheidung§! anzugreifen §YShandong§!. Wird automatisch in 60 Tagen deklariert.§!\n"
-anq_declare_war_decision_chi_tt: "§REntsperrt £decision_icon_small §HEntscheidung§! anzugreifen die §YKuomintang§!. Wird automatisch in 30 Tagen deklariert.§!\n"
-
-anq_fengtian_will_decide_strategy_tt: "Die Fengtian-Regierung wird über unsere Präferenz informiert werden, dass sie uns beim Wiederaufbau hilft. Wenn sie zustimmen, werden sie Japan fragen. Wenn einer von ihnen sich nicht festlegen will, wird Fengtian andere mögliche Strategien prüfen.\n"
-anq_fengtian_fast_strike_tt: "Fengtian hat Japans Segen, einen schnellen Angriff gegen Peking zu starten, aber sie werden dies nur tun, wenn wir zustimmen. §REinverstanden zu sein bedeutet, innerhalb von Monaten in den Krieg zu ziehen, obwohl unser Land immer noch in Trümmern liegt.§!\n"
-anq_fengtian_will_other_strategy_tt: "Wenn wir nicht Zustimmen. Wird die Fengtian-Regierung wird eine andere Entscheidung treffen müssen.\n"
-anq_fngjap_back_reconstruction_tt: "Fengtian und Japan verpflichten sich zu einem großen und umfassenden Plan, um so schnell wie möglich wieder aufzubauen. Vollendet §YWirtschaftliche ZusammenarbeitR§! Fokus, um es zu beginnen.\n"
-anq_reconstruction_plan_effects_tt: "Deutlich reduzierte Zeit und £pol_power Politische Machtkosten für £decision_icon_small §HWiederaufbauentscheidungen§! und §HKMT und Yiguandao Unruhen§!.\n"
-ANQ_fng_waits_18_months_tt: "Fengtian wird mindestens 18 Monate warten, damit wir uns erholen können.\n"
-ANQ_fng_can_now_proclaim_tt: "Fengtian kann nun den letzten Prozess beginnen, um einen Krieg gegen Peking zu beginnen."
 
 anq_reduce_reconstruction_timecost_ally_tt: "§GReduziert Zeit und Kosten für £decision_icon_small §HWiederaufbauentscheidungen§! ergeblich, aber dafür erhöhen alle Entscheidungen §Y[getanqally] Einfluss§!.§!\n"
 anq_reduce_reconstruction_timecost_qingextra_tt: "§GReduziert Zeit und Kosten für £decision_icon_small §HWiederaufbauentscheidungen§!.§!\n"
@@ -379,8 +342,6 @@ anq_find_steel_resources_tt: "Entsperrt £decision_icon_small §HEntscheidung§!
 anq_anger_mt_5_tt: "§YQing Wut§! muss 5 oder höher sein.\n"
 anq_high_anger_risk_tt: "§RWegen hohen §YQing Einfluss§!, §YQing Wut§! wird schneller steigen und zu größeren Konsequenzen führen. Sei vorsichtig, wenn du sie ablehnst!§!"
 
-anq_two_divisions_qing_land: "£nato_unit_infantry_icon_small Gewinn 2 §YInfanterie-Brigade§! Einheiten mit Rekrutenausbildung und 1936-jähriger Infanterie-Ausrüstung im Krieg mit §Y[QIE.GetNameWithFlag]§!.\n"
-
 anq_will_lead_war_tt: "§RDer Beitritt zu Qings Fraktion wird zu einem sofortigen Krieg führen!§!\n"
 
 anq_instructions_destruction_spirits_tt: "§gDurch £decision_icon_small §HEntscheidungen§! und §HFokusse§!, können diese negativen Einflüsse entfernt werden.§!\n"
@@ -391,16 +352,11 @@ anq_unlocks_xinhai_loyalists_tt: "Entsperrt £decision_icon_small §HEntscheidun
 anq_commit_fengtian_tt: "§RDies bedeutet, dass Anqing sich definitiv verpflichtet, an Fengtians Reklamationskrieg teilzunehmen, was bedeutet, dass es den Beitritt nicht ablehnen kann, sobald die Feindseligkeiten begonnen haben. Anqing muss sich daher auf den Krieg vorbereiten.§!\n"
 anq_abandon_fengtian_tt: "§RDer Verzicht auf Fengtian wird dazu führen, dass Anqing allein in China steht, was sie sehr verwundbar macht. Es blockiert auch alle weiteren Möglichkeiten der japanischen Hilfe.§!\n"
 
-anq_unlocks_war_beijing_tt: "Entsperrt £decision_icon_small §HEntscheidung§! [QIE.GetName] Unabhängig anzugreifen.\n"
- ANQ_can_attack_hnngxc_tt: "$unlocks_decisions$ zum Angriff auf [GXC.GetName] und [HNN.GetName].\n"
- ANQ_can_attack_hnngxc_proqie_tt: "$unlocks_decisions$, um [GXC.GetName] und [HNN.GetName] anzugreifen, wenn Frieden herrscht.\n"
-
 anq_fengtian_guarantee_tt: "§H[FNG.GetNameDefCap]§! wird uns garantieren!\n"
 anq_qing_guarantee_tt: "§H[QIE.GetNameDefCap]§! wird uns garantieren!\n"
 
 anq_denounce_fengtian_tt: "§RWenn wir sie auf diese Weise verurteilen, geben wir Fengtian auf. Das bedeutet, dass Anqing allein in China steht, was es sehr verwundbar macht. Es führt auch dazu, dass jede aktuelle Hilfe und Unterstützung verschwindet, was möglicherweise zu einem gewissen Chaos führt.§!\n"
 anq_abandon_conference_tolerated_tt: "§RWenn wir nicht an der Konferenz teilnehmen, bedeutet dies, Fengtian aufzugeben. Sie tolerierten, dass wir ihren Krieg vorher nicht unterstützten, aber dieses Mal werden sie es nicht tun. Das bedeutet, dass Anqing allein in China steht, was es sehr verwundbar macht. Es führt auch dazu, dass jegliche aktuelle Hilfe und Unterstützung verschwindet und möglicherweise Chaos verursacht.§!\n"
-anq_join_front_profengtian_tt: "§RWenn wir uns der Vereinigten Front anschließen, werden wir gezwungen sein, Fengtians Sache vollständig aufzugeben. Während wir in diesem Krieg andere chinesische Verbündete haben werden, werden wir höchstwahrscheinlich allein stehen, sobald er vorbei ist.§!\n"
 
 anq_change_gov_pataut: "Die Regierung wechselt zum Paternal Autokraten.\n"
 
@@ -573,7 +529,7 @@ ANQ_influence_decisions_desc: "[getanqinfluencesystem]"
 
 anq_influence_decisions_proqing: "Die Qing waren unserer Instrument zum Misserfolg der Nanjing Clique, und wir schulden ihnen viel. Darüber hinaus unterstützen wir das Ideal eines vereinten China. Infolgedessen sind eine enge Zusammenarbeit mit dem Qing auf dem Weg zur möglichen Vereinigung unvermeidlich.\n\n§gAktueller §YQing-Einfluss§!: §H[?party_popularity@Markt-Liberal|%1]§!§! §Y(Markt-Sozial Liberal)§!\n§gAktuelle §YQing Wut§!: §R[?ANQ_beijing_anger|0]§! §Y(Abnahmen 1 pro Woche)§!"
 anq_influence_decisions_projapan: "Wir erkennen die Fengtian-Regierung als die rechtmäßige chinesische Regierung an. Durch sie haben die Japaner einen erheblichen Einfluss, da wir auf ihre Unterstützung angewiesen sind. Mit unserer Unterstützung eines vereinten China wird Fengtian versuchen, seine Kontrolle über uns auszubauen.\n\n[getanqwillingnessreclamation]§gAktueller §YFengtian Einfluss§!: §H[?party_popularity@Markt Liberal|%1]§!§! §Y(Markt-Sozial Liberal)§!\n§gAktuelle §YJapanenische Hilfslieferungen§!: §H[?ANQ_tokyo_score]§!§!"
-anq_influence_decisions_alone: "Wir setzten einst unser Vertrauen in die Fengtianische Regierung, suchten nach der Erfüllung unseres republikanischen Traums. Doch was wir erhielten, war nichts als Verrat. \nFengtian und Japan haben uns im Stich gelassen. Wenn wir nicht schnell handeln und Maßnahmen ergreifen, wird uns diese isolierte Situation in den Strudel der steigenden Spannungen in China hineinziehen und unsere Existenz auslöschen. \n\n§YAber auf der anderen Seite, ohne ihre Fesseln, könnte dies die Gelegenheit sein, ein noch größeres Ziel zu erreichen?§! "
+anq_influence_decisions_alone: "Wir setzten einst unser Vertrauen in die Fengtianische Regierung, suchten nach der Erfüllung unseres republikanischen Traums. Doch was wir erhielten, war nichts als Verrat. \nFengtian und Japan haben uns im Stich gelassen. Wenn wir nicht schnell handeln und Maßnahmen ergreifen, wird uns diese isolierte Situation in den Strudel der steigenden Spannungen in China hineinziehen und unsere Existenz auslöschen. \n\n§YAber auf der anderen Seite, ohne ihre Fesseln, könnte dies die Gelegenheit sein, ein noch größeres Ziel zu erreichen?§!"
 anq_willingness_reclamation_loc: "§g§YBereitschaft§! sich dem Rückgewinnungskrieg anzuschließen: §H[?ANQ_reclamation_willingness|+0]§!§!\n"
 
 ANQ_reduce_qie_influence: "Sabotage Qing Einfluss"
@@ -1870,7 +1826,7 @@ anq.175.d7: "Aufgrund der Umstände wurden wir bereits mit [QIE.GetNameDef] in d
 anq.175.a: "Verpflichte dich zum Reklamationskrieg."
 anq.175.b: "Fengtian aufgeben."
 anq_reclamation_credibility_not_enough: "\nLeider haben wir zu wenig Glaubwürdigkeit, um als eigenständige nationale Regierung zu bestehen und sind daher zu sehr auf Fengtian angewiesen. Daher können wir es uns nicht leisten, ihre Unterstützung zu verlieren, und es wird zu schlimmen Konsequenzen führen, wenn wir nicht an ihrem Rückgewinnungskrieg teilnehmen."
-anq_reclamation_credibility_enough: "\nZum Glück hat unsere Regierung, auch unter Verwendung der Argumente gegen den Reklamationskrieg, genug Glaubwürdigkeit, um getrennt von der Fengtian-Regierung zu stehen und die Teilnahme abzulehnen. Dies wird uns zwingen, entweder unseren eigenen Anspruch auf nationale Führung zu erheben oder eine andere Partei zur Unterstützung zu suchen. "
+anq_reclamation_credibility_enough: "\nZum Glück hat unsere Regierung, auch unter Verwendung der Argumente gegen den Reklamationskrieg, genug Glaubwürdigkeit, um getrennt von der Fengtian-Regierung zu stehen und die Teilnahme abzulehnen. Dies wird uns zwingen, entweder unseren eigenen Anspruch auf nationale Führung zu erheben oder eine andere Partei zur Unterstützung zu suchen."
 
 anq.176.t: "Shandong-Übergabe an Fengtian"
 anq.176.d: "Wie vereinbart, als wir die Provinz Shandong eroberten, müssen wir jetzt, da der Konflikt mit [QIE.GetNameDef] begonnen hat, die Provinz Shandong an Fengtian übergeben, da wir keine berechtigten Ansprüche auf die Region haben."
@@ -1959,4 +1915,3 @@ anq.231.b: "China bleibt gespalten."
  anq.233.d.wubacking: "Es scheint, dass die Worte von Wu Peifu in der Liga immer noch Gewicht haben. Die Unterstützung von Marschall Wu hat sich heute Morgen ausgezahlt, als eine Flottille von Schiffen mit weißer Flagge den Jangtse-Fluss hinauffuhr. Zum Entsetzen unserer Wachen in Anqing haben diese Patrioten darum gebeten, auf unsere Seite überzulaufen! Inspiriert von unserer nationalistischen Sache und ermutigt durch die Worte des Jademarschalls, wurden diese Matrosen von einem führenden Mitglied der Mawěi Marineschule in Fuzhou organisiert. Dieser Mann, Sa Benxin, verfügt trotz seines jungen Alters über mehrere Jahrzehnte Marineerfahrung und - was noch wichtiger ist - über das nötige Wissen, um beim Aufbau einer neuen Flotte zur Verteidigung Südchinas sinnvoll mitzuhelfen. Außerdem stammt er aus einer etablierten Marinefamilie und kann uns helfen, unsere Beziehungen zur Admiralität in Peking zu vertiefen. Alles in allem ist dies ein gutes Omen für die Zukunft unserer Anti-Konzessionsbewegung!"
  anq.233.d.wurefused: "Die steigende Flut des Antikonzessionismus hat heute Früchte getragen, als unsere Botschaft die Ohren einiger der führenden Lehrkräfte der Marineschule Mawěi in Fuzhou erreichte. Desillusioniert durch den chronischen Mangel an finanziellen Mitteln während der Regierung Sun Chuanfangs und angewidert von Qi Xieyuans fortgesetzter Unterwerfung unter die deutschen Auslandsinteressen, hat sich heute Morgen eine kleine Gruppe von Dozenten der Marineschule zu unserer Sache bekannt. Besonders hervorzuheben ist Sa Benxin, der über jahrelange Erfahrung im Studium ausländischer Schiffskonstruktionen im Ausland und als Dozent an Marineakademien verfügt. Obwohl sich einige über seine familiären Verbindungen zum Pekinger Marine-Establishment Sorgen machen, hat Gouverneur Chen beschlossen, sie in seinem neu gegründeten Marineministerium willkommen zu heißen. Obwohl die modernisierte Flotte, von der sie träumen, noch in weiter Ferne liegt, ist klar, dass unsere Bewegung eine neue Generation von Offizieren für eine bessere Zukunft inspiriert hat!"
  anq.233.a: "Willkommen an Bord!"
-
