@@ -12,7 +12,6 @@
 
 ### Main Menu ###
 play_in_english_tt: ""
-savegame_crash_workaround_tt: "§YHOI4 1.15.4 wurde am 21. Januar 2025 veröffentlicht.§!\n§5Leider stürzen viele Spielstände, die vor der Veröffentlichung erstellt wurden, sofort ab, wenn sie normal geladen werden.§!\n\n§YWenn eine Ihrer Spielstände betroffen ist, versuchen Sie Folgendes:§!\n£white_dot Laden Sie §tnicht§!  Ihren Spiestandl direkt aus dem Hauptmenü oder durch Klicken auf die Schaltfläche \"Fortsetzen\" im Launcher.\n£white_dot Starten Sie stattdessen §5ein neues Spiel§! und warten Sie bis es geladen hat.\n£white_dot Öffnen Sie das Spielmenü und laden Sie den gewünschten Spielstand, indem Sie auf \"§5Spiel laden§!\" klicken."
 
 ### Splash Screen ###
 KR_welcome_splash_tab_1: "Land"
@@ -24,6 +23,7 @@ mod_options_button_text: "Weiter"
 ## TAB 1 - all needed to avoid starting errors ##
 KR_welcome_splash_tab_1_header: "[ROOT.GetCountryIntroHeader]"
 KR_welcome_splash_tab_1_content: "[ROOT.GetCountryIntroContent]"
+country_intro_background: "GFX_KR_default_intro"
 country_intro_header: "$KR_scenario_name$"
 country_intro_header_1: "$KR_scenario_desc$"
 country_intro_header_2: "$KR_scenario_desc$"
@@ -53,7 +53,7 @@ KR_welcome_splash_tab_3_content: "§YBitte beachten Sie Folgendes:§!\n£white_d
 KR_welcome_splash_tab_3_content_0: "Kaiserreich legt Beschränkungen für diplomatische Aktionen wie §Rfrühe Kriege§!, §RFraktionen§! und §RAutonomiestufen§! fest.\nKaiserreich enthält §CDivisionsgrenzen§! und eine §CDemobilisierung§! Mechanik, um die Spielbarkeit im späteren Spiel zu verbessern.\nBei §YFriedenskonferenzen§! sollten Sie darauf achten, dass Sie alle Staaten annektieren. Sie können später Länder aus den annektierten Gebieten durch §CEntscheidungen§! entlassen.\nIm Menü §YIndividuelle Spielregeln§! können Sie viele Optionen einstellen, darunter §CLänderpfade§!, §CVorrang für Spieler bei Friedenskonferenzen§!, und das §CStaat und Land Transfer Tool§!.\nDas £kr_options_icon  §YOptionsmenu im Spiel§! wird durch einen Klick auf das Symbol in der rechten oberen Ecke geöffnet. Hier können Sie die §CHäufigkeit der Nachrichtenereignisse§! einstellen und die §CDynamische Umbenennung§! von Staaten und Siegpunkten aktivieren.\n§YDieses Fenster§! kann jederzeit wieder geöffnet werden, indem Sie auf das Symbol £help_button  oben rechts klicken."
 
 ## TAB 4 ##
-KR_CURRENT_VERSION: "1.4.3"
+KR_CURRENT_VERSION: "1.4.4"
 KR_CURRENT_VERSION_NAME: "All the Russias"
 KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ \"$KR_CURRENT_VERSION_NAME$\""
 KR_welcome_splash_tab_4_upper_header: "§YWillkommen bei $KR_CURRENT_VERSION_COMBINED$§!"
@@ -64,8 +64,8 @@ KR_welcome_splash_tab_4_content_0: "Unser Team hat an allen Ecken und Enden der 
 KR_welcome_splash_tab_4_content_1: "Alpinia  ·  Angel  ·  Amber  ·  Arvidus  ·  Augenis  ·  AwsomeGuy49  ·  Blackfalcon501"
 KR_welcome_splash_tab_4_content_2: "Blackleaf  ·  Cassrabbit  ·  Carmain  ·  Cazadorian  ·  ClawedAsh  ·  Chazem  ·  Chiang Kai-shrek"
 KR_welcome_splash_tab_4_content_3: "Chiron29  ·  Cody  ·  Deliberus  ·  DerEherneRächer  ·  DuoDex  ·  El Daddy  ·  falling_robin"
-KR_welcome_splash_tab_4_content_4: "Fedex  ·  Flamefang  ·  Frill Shark  ·  Gaboemi  ·  Hamfast  ·  Hazo  ·  Ido  ·  Igor050301"
-KR_welcome_splash_tab_4_content_5: "JazzyHugh  ·  Jeankedezeehond  ·  jerv  ·  Jonny BL  ·  Kano  ·  katieluka  ·  kergely"
+KR_welcome_splash_tab_4_content_4: "Fedex  ·  Flamefang  ·  Frill Shark  ·  Gaboemi  ·  Georgy  ·  Gre  ·  Hamfast  ·  Hazo  ·  Ido"
+KR_welcome_splash_tab_4_content_5: "Igor050301  ·  JazzyHugh  ·  Jeankedezeehond  ·  jerv  ·  Jonny BL  ·  Kano  ·  katieluka  ·  kergely"
 KR_welcome_splash_tab_4_content_6: "KFateweaver  ·  Klyntar King  ·  Krčo  ·  lehmannmo  ·  Luwofe  ·  Matoro  ·  McOmghall  ·  MrMano"
 KR_welcome_splash_tab_4_content_7: "~mw~ // miwaco.  ·  Noot  ·  Pelmen  ·  PPsyrius  ·  Purple Jinjo  ·  Rnk  ·  Rune  ·  Sasha"
 KR_welcome_splash_tab_4_content_8: "Shiroe  ·  Sonny O'Cad  ·  SuperGreenBeans  ·  suzuha  ·  The Alpha Dog  ·  The Irredentista"

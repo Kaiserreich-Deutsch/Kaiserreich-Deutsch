@@ -2,6 +2,9 @@
 
 ## Übersetzt von Thylon ##
 
+### Factions ###
+chinese_united_front: "Chinesische Einheitsfront" #created by china_create_united_front and FNG_create_united_front decisions
+
 ### Autonomy Levels ###
 chinese_suzerainty: "Chinesische Suzeränität"
 associated_governorate: "Assoziiertes Gouvernement"
@@ -2311,6 +2314,7 @@ zhili_province_state: "Zhili"
 
 ### Flags ###
 china_is_potential_government: "Hat eine §Yprovisorische nationale Regierung§! gebildet."
+china_demanding_concession: "Hat innerhalb des letzten Monats ein Zugeständnis gefordert"
 
 ### Chinese Arsenal Mechanic ###
 CHN_armour_industry_organisation: "Chinesische Rüstungsindustrie"
@@ -2325,24 +2329,47 @@ CHN_automobile_industry_organisation: "Chinesische Autoindustrie"
 china_mio_arsenal_integration_decision_category: "Aufbau einer heimischen Verteidigungsindustrie in China"
 china_mio_arsenal_integration_decision_category_desc: "Einer der wenigen Lichtblicke des jahrzehntelangen Bürgerkriegs ist, dass die hohen Militärausgaben eine solide Grundlage für einen modernen militärisch-industriellen Komplex geschaffen haben. Es gibt jedoch noch viele Hindernisse. Neben den üblichen Verdächtigen wie Korruption, Unerfahrenheit und Kriegswirren wurden chinesische Soldaten in der Vergangenheit mit ausländischem Design, wenn nicht gar mit ausländischen Importen ausgerüstet, was das Wachstum einer einheimischen Waffenindustrie behinderte. Außerdem sind die meisten der riesigen chinesischen Waffenarsenale stark dezentralisiert und schlecht integriert, ein Produkt des Regionalismus der Kriegsherren. Auf dem Weg zur Wiedervereinigung müssen wir daran arbeiten, diese militärischen Produktionszentren zu erobern und zu synchronisieren, um das volle Potenzial des chinesischen Industriegiganten freizusetzen!"
 
+### Chinese Unique MIO traits ###
+
+China_mio_trait_integrated_shenyang: "Integriert das Shenyang Arsenal"
+China_mio_trait_integrated_taiyuan: "Integriert das Taiyuan Arsenal"
+China_mio_trait_integrated_shanghai: "Integriert das Shanghai Arsenal"
+China_mio_trait_integrated_gongxian: "Integriert das Gongxian Arsenal"
+China_mio_trait_integrated_guangdong: "Integriert das Guangdong Arsenal"
+China_mio_trait_integrated_jinling: "Integriert das Jinling Arsenal"
+China_mio_trait_integrated_hanyang: "Integriert das Hanyang Arsenal"
+
 #Major Arsenals
 CHN_integrate_major_arsenal_decision: "[CHN_integrate_major_arsenal_scripted_loc]"
 CHN_integrate_major_arsenal_decision_desc: "[CHN_integrate_major_arsenal_desc_scripted_loc]"
 
 CHN_integrate_major_arsenal_shenyang_key: "Shenyang Arsenal integrieren"
 CHN_integrate_major_arsenal_shenyang_desc_key: "Das Shenyang-Arsenal ist vielleicht eine der wichtigsten Errungenschaften der Fengtian-Clique. Es wurde mit Hilfe japanischer Berater geschaffen und unterhalten, um Zhang Zuolins Kontrolle über die Mandschurei aufrechtzuerhalten und seine Ambitionen, China unter seinem Banner zu vereinen, zu fördern. Das offiziell als Arsenal der drei östlichen Provinzen bekannte Werk ist eines der größten in China und rühmt sich seiner Fähigkeit, in den 1920er Jahren mehr Waffen zu produzieren als alle anderen in China zusammen. Das Shenyang-Arsenal profitierte von der überlegenen industriellen Stärke und den reichen natürlichen Ressourcen Dongbeis und wurde nicht nur zu einem Zentrum für die Produktion, sondern auch für den Aufbau einer umfassenden militärischen Logistikkette (einschließlich der zentralen Produktion von Rationen und Uniformen) sowie für die eigene Waffenentwicklung. Auch wenn Zhang nicht in der Lage war, Chinas Abhängigkeit von ausländischen Waffenimporten vollständig zu durchbrechen, wird es unter unserer Leitung vielleicht eine wertvolle Rolle beim Aufbau einer einheimischen Waffenindustrie spielen."
+integrated_shenyang: "Shenyang Arsenal wurde integriert"
 
 CHN_integrate_major_arsenal_taiyuan_key: "Taiyuan Arsenal integrieren"
 CHN_integrate_major_arsenal_taiyuan_desc_key: "Das Taiyuan Arsenal ist ein gewaltiger Komplex, der in der Hauptstadt von Shanxi von dem ehrwürdigen Gouverneur Yan Xishan errichtet wurde. Mit dem Ausspruch \"Waffengewalt ist der Rückhalt der Gerechtigkeit\" sah er sein wertvolles Arsenal als Eckpfeiler für den Erhalt der Autonomie seiner Provinz. Die Anlage wurde 1912 als Shanxi Machinery Bureau errichtet und im Laufe der Jahrzehnte mehrfach umgebaut, um Gewehre, Maschinengewehre, Mörser, Granaten und Munition für die Shanxi-Clique zu produzieren. Im Gegensatz zu anderen Arsenalen der Warlords zeichnet sich Taiyuan durch die (selbst unter den Einrichtungen der Zentralregierung) seltene Fähigkeit aus, Artilleriegeschütze und Granaten in nennenswerten Mengen herzustellen. Die Eroberung durch unsere Streitkräfte fügt unserer wachsenden Waffenindustrie eine weitere unschätzbare Gießerei im Norden hinzu."
+integrated_taiyuan: "Taiyuan Arsenal wurde integriert"
 
 CHN_integrate_major_arsenal_gongxian_key: "Gongxian Arsenal integrieren"
 CHN_integrate_major_arsenal_gongxian_desc_key: "Im Jahr 1914 überwachte Yuan Shicai persönlich den Bau des Gongxian-Arsenals in Henan. Admiral Sa Zhenbing und angeheuerte deutsche Ingenieure nutzten die strategische Lage des Ortes und den leichten Zugang zu Rohstoffen, um mit amerikanischen Maschinen eines der modernsten Militärarsenale in China zu errichten. Seine relativ unversehrte Eroberung hat uns eine wertvolle Beute in Zentralchina gesichert, die wir schnell mit dem Rest unserer Verteidigungsindustrie integrieren müssen."
+integrated_gongxian: "Gongxian Arsenal wurde integriert"
 
 CHN_integrate_major_arsenal_hanyang_key: "Hanyang Arsenal integrieren"
 CHN_integrate_major_arsenal_hanyang_desc_key: "Das Hanyang-Arsenal ist eines der größten, ältesten und wichtigsten modernen chinesischen Arsenale. Es wurde 1891 als Hubei-Arsenal gebaut und erforderte einen erheblichen Zeit- und Geldaufwand, der von der Flotte abgezogen wurde. Hanyang war in der Lage, Artillerie, Gewehre und Munition herzustellen und versorgte eine Reihe von Armeen, darunter auch die in Wuhan stationierten Xinhai-Revolutionäre. Berühmt wurde das Werk durch die Entwicklung und Herstellung des Gewehrs Hanyang 88 (auf der Grundlage des deutschen Gewehrs 1888) und des General-Liu-Gewehrs (entworfen von General Liu Qingen, dem Oberkommandierenden von Hanyang), die zu den bekanntesten Waffen der Warlord-Ära zählen."
+integrated_hanyang: "Hanyang Arsenal wurde integriert"
 
 CHN_integrate_major_arsenal_guangdong_key: "Guangdong Arsenal integrieren"
 CHN_integrate_major_arsenal_guangdong_desc_key: "Das 1873 vom Vizekönig von Liangguang errichtete Arsenal von Guangdong begann als Guangdong Maschinenbüro zur Herstellung leichter Waffen. Nach und nach wurde es erweitert und modernisiert, indem neue Anlagen gebaut und andere Arsenale wie das Zengbu Arms Bureau übernommen wurden, um einen mächtigen militärisch-industriellen Komplex in Guangdong zu schaffen. Mit der Xinhai-Revolution und den darauf folgenden Kriegen wurde Guangzhou zum Zentrum einer Reihe von Regierungen des Südens, und die Rolle des Guangdong-Arsenals wurde immer größer. Unterstützt von anderen regionalen Arsenalen wie in Shijing, Pajiang und sogar einer eigenen Gasmaskenfabrik werden die Einrichtungen in Südchina der Sache der Nation einen großen Dienst erweisen."
+integrated_guangdong: "Guangdong Arsenal wurde integriert"
+
+CHN_integrate_major_arsenal_jinling_key: "Jinling Arsenal integrieren"
+CHN_integrate_major_arsenal_jinling_desc_key: "Das Jinling Machinery Manufacturing Bureau, das 1865 vom Reformer der späten Qing-Dynastie, Li Hongzhang, auf dem Gelände des alten Xitian-Tempels erbaut wurde, entwickelte sich schnell zu einem der ehrwürdigen Waffenproduktionszentren in Ostchina. Das Arsenal, das manchmal als \"Wiege der nationalen chinesischen Militärindustrie\" bezeichnet wird, wurde für seine Fähigkeit bekannt, Gewehre für die Armeen der südlichen Zhili-Clique herzustellen. Das in Jinling Arsenal umbenannte Werk wurde zum Mittelpunkt der Bemühungen von Sun Chuanfang, eine moderne chinesische Armee nach deutschem Vorbild aufzubauen. Mit deutschen technischen Beratern besetzt, wurde es zu einem Produktionszentrum für die Liga der Acht Provinzen modernisiert."
+integrated_jinling: "Jinling Arsenal wurde integriert"
+
+CHN_integrate_major_arsenal_shanghai_key: "Shanghai Arsenal integrieren"
+CHN_integrate_major_arsenal_shanghai_desc_key: "Das Jiangnan Manufacturing Bureau in Shanghai wurde 1865 während der Selbststärkungsbewegung von Li Hongzhang und Zeng Guofan gegründet, um moderne Feuerwaffen für die Qing-Dynastie zu liefern. Trotz der jahrzehntelangen politischen Unruhen erfuhr die Fabrik bedeutende Erweiterungen und Entwicklungen. Im Jahr 1917 wurde es in Shanghai Arsenal umbenannt und entwickelte sich zu einem der produktivsten Hersteller von Werkzeugmaschinen und modernen Waffen, darunter schwere Maschinengewehre, Mörser, Feldgeschütze und sogar Flugabwehrkanonen."
+integrated_shanghai: "Shanghai Arsenal wurde integriert"
 
 CHN_integrate_major_arsenal_fallback_key: "Integration der wichtigsten Militärarsenale in [FROM.GetName]"
 CHN_integrate_major_arsenal_fallback_desc_key: "Die groß angelegten militärischen Produktionsanlagen hier sind von höchster Qualität oder könnten es zumindest sein, wenn unsere Regierung ausreichend investieren und aufpassen würde. Wir müssen daran arbeiten, sie in unsere breitere Produktionslinie einzubinden."
@@ -2354,11 +2381,14 @@ CHN_integrate_minor_small_arms_arsenal_decision_desc: "[CHN_integrate_minor_smal
 CHN_integrate_minor_small_arms_arsenal_jinan_key: "Jinan Arsenal integrieren"
 CHN_integrate_minor_small_arms_arsenal_jinan_desc_key: "Das 1875 von Gouverneur Ding Baozhen als Shandong Machinery Bureau gegründete Unternehmen erwarb einige Jahre später, 1883, die für die Waffenproduktion erforderlichen Maschinen. Es begann mit der Produktion einer Reihe leichter Waffen nach westlichem Vorbild und baute seine industrielle Basis schnell aus, um immer größere Mengen an Gewehren und anderer Infanterieausrüstung zu produzieren. Von der Beiyang-Regierung in Shandong-Arsenal umbenannt, wurde die Produktion fortgesetzt und unter der Herrschaft von Zhang Zhongchang schließlich in Jinan-Arsenal umbenannt."
 
-CHN_integrate_minor_small_arms_arsenal_jinling_key: "Jinling Arsenal integrieren"
-CHN_integrate_minor_small_arms_arsenal_jinling_desc_key: "Das Jinling Machinery Manufacturing Bureau, das 1865 vom Reformer der späten Qing-Dynastie, Li Hongzhang, auf dem Gelände des alten Xitian-Tempels errichtet wurde, entwickelte sich schnell zu einem der ehrwürdigen Waffenproduktionsstandorte in Ostchina. Es wird manchmal als \"Wiege der nationalen Militärindustrie Chinas\" bezeichnet und ist für seine Fähigkeit bekannt, Gewehre für die Armeen der südlichen Zhili-Clique zu produzieren. Das in Jinling Arsenal umbenannte Werk wurde zum Mittelpunkt der Bemühungen von Sun Chuanfang, eine moderne chinesische Armee nach deutschem Vorbild aufzubauen. Mit deutschen technischen Beratern besetzt, wurde es zu einem Produktionszentrum für die Liga der Acht Provinzen modernisiert."
+CHN_integrate_minor_small_arms_arsenal_chengdu_key: "Chengdu Arsenal integrieren"
+CHN_integrate_minor_small_arms_arsenal_chengdu_desc_key: "Die durch die verschiedenen Kriege in Ostchina verursachten Störungen, einschließlich der jüngsten Entwicklungen nach dem Zusammenbruch der Qing-Autorität, haben dazu geführt, dass einige Produktionsstätten in das Hinterland verlagert wurden. Es ist zwar umstritten, inwieweit diese Verlagerungen geplant waren oder ob es sich um überstürzten Opportunismus handelte, aber Chengdu war ein bereitwilliger Empfänger dieser Verlagerungen und schuf einen eigenen aufkeimenden Rüstungssektor."
 
-CHN_integrate_minor_small_arms_arsenal_chongqing_key: "Chongqing Arsenal integrieren"
-CHN_integrate_minor_small_arms_arsenal_chongqing_desc_key: "Die durch die verschiedenen Kriege in Ostchina verursachten Störungen, einschließlich der jüngsten Entwicklungen nach dem Zusammenbruch der Qing-Autorität, haben dazu geführt, dass einige Produktionsinfrastrukturen in das Hinterland verlagert wurden. Es ist zwar umstritten, inwieweit diese Verlagerungen geplant waren oder ob es sich um überstürzten Opportunismus handelte, aber Chongqing hat diese Verlagerungen bereitwillig in Kauf genommen und einen eigenen aufblühenden Verteidigungssektor geschaffen."
+CHN_integrate_minor_small_arms_arsenal_guizhou_key: "Guizhou Arsenal integrieren"
+CHN_integrate_minor_small_arms_arsenal_guizhou_desc_key: "Das Guizhou-Arsenal wurde im August 1926 in Guiyang von Zhou Xichen durch die Fusion des Chishui-Arsenals und der Yanhe-Gewehrfabrik gegründet, die Zhou 1923 bzw. 1924 gegründet hatte, um Pistolen und Gewehre für seinen Machtkampf in Guizhou herzustellen. Zusammen mit einer Fabrik für rauchloses Pulver, die die Produktion erheblich steigerte, produzierte das Arsenal von Guizhou nun Maschinengewehre, Granaten, Granaten und sogar Minen für die Armeen von Zhou Xichen."
+
+CHN_integrate_minor_small_arms_arsenal_guangxi_key: "Guangxi Arsenal integrieren"
+CHN_integrate_minor_small_arms_arsenal_guangxi_desc_key: "Ursprünglich wurde das Guangxi Machinery Bureau 1899 in Longcheng gegründet, um Waffen für die chinesische Armee an der südwestlichen Grenze zu produzieren. 1914 verbrannte es bei einem Unfall und wurde nach Nanning verlegt. Es wurde zunächst von Lu Rongting für die Bewaffnung seiner Guangxi-Armee genutzt und später von Li Zongren und Huang Shaohong übernommen, die 1924 durch Zusammenlegung ihrer jeweiligen Waffenfabriken das Guangxi-Arsenal gründeten, um Gewehre für ihre Soldaten zu produzieren."
 
 CHN_integrate_minor_small_arms_arsenal_fallback_key: "Integration des Kleinwaffenarsenals in [FROM.GetName]"
 CHN_integrate_minor_small_arms_arsenal_fallback_desc_key: "[FROM.GetName] hat sich zu einem Zentrum für die Herstellung von Kleinwaffen entwickelt, das im Laufe der Jahre eine beträchtliche Menge an Gewehren, Granaten und Munition für die örtlichen Armeen produziert hat. Da wir die neuesten Meister geworden sind, ist es von entscheidender Bedeutung, dass wir ihr Fachwissen zum Wohle der Nation optimal nutzen."
@@ -2367,11 +2397,11 @@ CHN_integrate_minor_small_arms_arsenal_fallback_desc_key: "[FROM.GetName] hat si
 CHN_integrate_minor_support_equipment_arsenal_decision: "[CHN_integrate_minor_support_equipment_arsenal_scripted_loc]"
 CHN_integrate_minor_support_equipment_arsenal_decision_desc: "[CHN_integrate_minor_support_equipment_arsenal_desc_scripted_loc]"
 
-CHN_integrate_minor_light_arms_arsenal_kunming_key: "Arsenale im Südwesten ausbauen"
-CHN_integrate_minor_light_arms_arsenal_kunming_desc_key: "Mit der Angst vor einem drohenden Krieg am Horizont wurden von verschiedenen Regierungen und patriotischen Bürgern vereinzelte, aber dennoch substanzielle Anstrengungen unternommen, um die chinesische Industrie nach Westen ins Hinterland zu verlagern, was zu Ergebnissen führte. Das Yunnan Machine Bureau in Yunnan war einer der größeren Nutznießer dieser \"patriotischen Migration\", obwohl es letztlich auf einer verstreuten Ansammlung kleinerer Produktionsstätten im Südwesten Chinas, darunter das Arsenal in Kunming und das Arsenal in Guizhou Chishui, sitzt. Die Einbindung all dieser westlichen Arsenale in unsere Produktionssphäre wird unser industrielles Potenzial weiter wachsen lassen."
+CHN_integrate_minor_light_arms_arsenal_kunming_key: "Yunnan Arsenal"
+CHN_integrate_minor_light_arms_arsenal_kunming_desc_key: "Das Yunnan Arsenal wurde 1884 als Yunnan Machinery Bureau in Kunming gegründet, um Feuerwaffen zu reparieren und herzustellen. 1905 begann es mit der Produktion moderner Gewehre. Nach dem Zusammenbruch des Qing-Reiches wurde es umbenannt und begann mit der Produktion von Granaten und kleinen Geschossen. Während der Zweiten Revolution und des Nationalen Schutzkriegs unter der lokalen Verwaltung von Yunnan lieferte es Waffen an die Armee von Yunnan, die das Arsenal 1927 erweiterte."
 
-CHN_integrate_minor_light_arms_arsenal_zhuzhou_key: "Zhuzhou Arsenal ausbauen"
-CHN_integrate_minor_light_arms_arsenal_zhuzhou_desc_key: "Als der militärische Bedarf der Zhili-Clique wuchs, begaben sich einige Experten des Gongxian-Arsenals in die frisch eroberte Provinz Hunan, um bei der Errichtung einer neuen Fabrik für leichte Waffen in Zhuzhou zu helfen. Ihr Ziel, eine hochmoderne Anlage zu errichten, scheiterte zwar an der Instabilität, mit der Hunan nach dem Zusammenbruch der Liga konfrontiert war, doch liegt Hunan am Scheideweg der Nation, und deshalb ist es zwingend erforderlich, dass wir in den entsprechenden Ausbau der bestehenden Anlagen investieren."
+CHN_integrate_minor_light_arms_arsenal_zhuzhou_key: "Hunan Arsenal ausbauen"
+CHN_integrate_minor_light_arms_arsenal_zhuzhou_desc_key: "Da der militärische Bedarf der Zhili-Clique wuchs, gingen einige Experten aus dem Gongxian-Arsenal in die frisch eroberte Provinz Hunan, um beim Aufbau einer neuen Fabrik für leichte Waffen in Zhuzhou zu helfen, die auf frühere Arsenale aufbaute, die 1912 von Tan Yankai gegründet und 1924 von Zhao Hengti wiederbelebt wurden. Ihr Ziel, eine hochmoderne Anlage zu errichten, scheiterte zwar an der Instabilität, mit der Hunan nach dem Zusammenbruch der Liga konfrontiert war, doch liegt Hunan am Scheideweg der Nation, und deshalb ist es zwingend erforderlich, dass wir in den entsprechenden Ausbau der bestehenden Anlagen investieren."
 
 CHN_integrate_minor_light_arms_arsenal_dihua_key: "Dihua Arsenal ausbauen"
 CHN_integrate_minor_light_arms_arsenal_dihua_desc_key: "Vor Jahrzehnten hatte der Gouverneur Rao Yingqi in den Weiten von Xinjiang genug Weitsicht, um zu erkennen, dass er als Chinas westlichste Grenze auf die Möglichkeit ausländischer Übergriffe vorbereitet sein musste, als er die Russen und Briten bei ihrem \"Großen Spiel\" um Zentralasien beobachtete. Im Jahr 1897 kaufte er mit Genehmigung der Qing-Regierung deutsche Maschinen in Shanghai und gründete damit offiziell das Xinjiang Machinery Bureau. Die Produktion gestaltete sich schwierig, da die falsche Wahl des Standorts dazu führte, dass das Wasser im Sommer und im Winter versiegte.\n\nDie späteren Kriegsherren investierten jedoch klugerweise in das Werk, benannten es in Dihua Arsenal um und sorgten dafür, dass es einen ständigen Nachschub an neuen Waffen produzieren und bestehende reparieren konnte. Dies verschaffte ihnen einen Vorteil im Kampf gegen die Rebellen in der Region, und mit unserer neu erlangten Herrschaft über die Region ist es wichtig, dass wir von ihrer genügsamen, robusten Art lernen."
@@ -2404,6 +2434,9 @@ CHN_integrate_major_dockyard_mawei_desc_key: "Das Fuzhou-Arsenal, auch bekannt a
 
 CHN_integrate_major_dockyard_whampoa_key: "Whampoa Dock Company integrieren"
 CHN_integrate_major_dockyard_whampoa_desc_key: "Die Hong Kong and Whampoa Dock Company wurde 1866 von Douglas Lapraik und Thomas Sutherland gegründet. Das Unternehmen, das oft als Whampoa Dock oder Kowloon Docks abgekürzt wird, hatte in den 1870er Jahren ein Monopol auf den Schiffbau im Perlflussdelta. Die Region Kanton war traditionell ein Zentrum für den Außenhandel, und ihre Lage machte sie sowohl zu einem Vorteil als auch zu einem Ziel im Südchinesischen Meer. Wir werden diese neu erworbenen Anlagen in unsere Marine integrieren."
+
+CHN_integrate_major_dockyard_dagu_key: "Dagu Werft integrieren"
+CHN_integrate_major_dockyard_dagu_desc_key: "Die 1880 von Li Hongzhang in Dagu gegründete Dagu-Werft hatte zunächst nur die Aufgabe, Schiffe für die Beiyang-Flotte zu reparieren. Zwei Jahre später begann sie mit der Produktion von Kriegsschiffen und stellte 1891 sogar Feuerwaffen wie Marinekanonen her. Nach der Besetzung durch die Mächte im Jahr 1900 und der Rückgabe an China zwei Jahre später blieb die Dagu-Werft ein wichtiger Bestandteil der Republik und produzierte im Auftrag des Marineministeriums Maxim-Geschütze und tschechoslowakische leichte Maschinengewehre."
 
 CHN_integrate_major_dockyard_fallback_key: "Integration der großen Werften in [FROM.GetName]"
 CHN_integrate_major_dockyard_fallback_desc_key: "[FROM.GetName] hat sich zu einem bedeutenden Zentrum für den Schiffbau entwickelt und verfügt über eine Vielzahl von Trockendocks, Werften und Ausbildungszentren für Marinepersonal. Da wir nun die neuesten Herren der Welt sind, ist es von entscheidender Bedeutung, dass wir ihr Fachwissen zum Wohle der Nation optimal nutzen."

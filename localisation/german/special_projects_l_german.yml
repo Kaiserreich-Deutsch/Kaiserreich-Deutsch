@@ -745,6 +745,10 @@
  sp_naval_proximity_fuze: "Abstandszünder"
  sp_naval_proximity_fuze_desc: "Dank der jüngsten Fortschritte in der Funktechnologie konnte eine neue Art von Zünder entwickelt werden, der den Sprengsatz bereits in der Nähe des Ziels explodieren lässt, um selbiges zu beschädigen."
 
+ sp_naval_armoured_cruiser: "Panzerkreuzer"
+ sp_naval_armoured_cruiser_desc: "Ein Panzerkreuzer oder Panzerschiff ist ein kleines Großkampfschiff, das die Lücke zwischen dem altehrwürdigen Schlachtschiff und den neueren schweren Kreuzern schließt. Diese Schiffe haben eine große Reichweite und sind in der Lage, eigenständig zu agieren, insbesondere bei Überwasserangriffen. Im Volksmund werden sie fälschlicherweise als Westentaschenschlachtschiffe bezeichnet, da sie trotz ihrer geringen Größe schwer bewaffnet sind."
+ sp_naval_armoured_cruiser_free_design: "Panzerkreuzer"
+
 #################################
   ## NAVAL PROTOTYPE REWARDS ###
 #################################
@@ -853,6 +857,12 @@
  sp_naval_proximity_fuzes_preference_a: "Munitionsnachschub anpassen"
  sp_naval_proximity_fuzes_preference_b: "Derzeitigen Munitionsnachschub beibehalten"
 
+ sp_naval_armoured_cruiser_unique_reward_a: "Panzerkreuzer Philosophie"
+ sp_naval_armoured_cruiser_unique_reward_a_desc: "Da die Größe und die Ressourcen für ein kleines Großkampfschiff, das zwischen Schlachtschiffen und schweren Kreuzern liegt, begrenzt sind, müssen wir entscheiden, worauf sich unsere Panzerkreuzer-Designs konzentrieren sollen. Wenn wir uns auf die Geschwindigkeit konzentrieren, wird das Schiff in der Lage sein, schwerere Kriegsschiffe zu überholen und leichtere zu verfolgen, ähnlich wie ein größerer Kreuzer oder ein kleinerer Schlachtkreuzer. Leichter Angriff macht das Schiff zu einem starken "Kreuzer-Killer", der feindliche Plünderer zerstören und Zerstörer abhalten kann. Schwerer Angriff schreckt feindliche Großkampfschiffe ab und zwingen sie, sich zurückzuziehen oder einen kostspieligen Angriff zu unternehmen."
+ sp_naval_armoured_cruiser_preference_a: "Geschwindigkeit sorgt für mehr Flexibilität."
+ sp_naval_armoured_cruiser_preference_b: "Leichter Angriff zur Zerstörung kleinerer Schiffe."
+ sp_naval_armoured_cruiser_preference_c: "Schwerer Angriff; mit Schlachtschiffkanonen!"
+
 #########################################
  ### NAVAL ADD_EQUIPMENT_BONUS ###
 ########################################
@@ -893,6 +903,9 @@
  sp_modern_carrier_eq_bonus_anti_torpedo: "Moderner Flugzeugträger - Erhöhter Torpedoschutz"
  sp_mega_carrier_eq_bonus_weather: "Pykrete-Flugzeugträger - Erhöhte Witterungsbeständigkeit"
  sp_mega_carrier_eq_bonus_strength: "Pykrete-Flugzeugträger - Stärkere Konstruktion"
+ sp_armoured_cruiser_eq_bonus_speed: "Schnelle Panzerkreuzer"
+ sp_armoured_cruiser_eq_bonus_light_attack: "Große Panzerkreuzer"
+ sp_armoured_cruiser_eq_bonus_heavy_attack: "Westentaschenschlachtschiffe"
 
 #########################################
  ## GENERIC NAVAL PROTOTYPE REWARDS ###

@@ -437,6 +437,7 @@ KUM_zhongying_war_on_tib_decision: "Tibet bestrafen"
 KUM_zhongying_war_on_tib_decision_desc: "Die Tibeter sind die Hauptursache für Hamis Leiden. Ihre buddhistische Frömmigkeit beschmutzt unseren Ruf bei den Indern und ihre Erinnerung an Ma Zhongyings Familie bedeutet, dass sie sich eines Tages sicherlich rächen werden."
 
 ### Intro Screen ###
+KUM_country_intro_background: "GFX_KUM_intro"
 KUM_country_intro_header: "§PDas Kumul Khanat§!"
 KUM_country_intro_content: "§PDas Kumul-Khanat§!, das direkt vom §PChagatai-Khanat§! abstammt, hat es im Laufe der §cQing-Dynastie§! geschafft, bis in die §lrepublikanische Ära§! und wieder zurück in den Schoß der §cQing§! zu leben. Offiziell ein Protektorat des §cQing-Reiches§!, kontrolliert §PKumul§! die Hauptstraße zwischen §PXinjiang§! und dem Rest §lChinas§!. Die Reihe loyaler §Puigurischer Khane§! würdigt sowohl den §cKaiser§! in §cBeijing§! als auch die §PRegierung von Xinjiang§! selbst.\n\nDer vorherige §PKhan von Kumul§!, §PMasqud Shah§!, war bekannt für die bisher autoritärste Herrschaft in der Geschichte des bescheidenen §PKhanats§!, die zu zwei Aufständen führte gegen ihn in den Jahren 1907 und 1912. Dieser Hass auf den §PKhan§! setzte sich auf unseren neuen Herrscher, §PNasīr Shah§!, fort, der im §PKhanat§! zumindest geringfügige Reformen bezüglich den wahnsinnigen Steuern und der Fronarbeit einleiten will, um sich wieder die Anerkennung seines Volkes zu verdienen. Ob dies funktionieren wird oder nicht, ist noch nicht abzusehen, da er immer noch beschließt, sich entweder auf die als §cBegs§! bekannten §cuigurischen Adligen§! oder seinen Rat des §gKumul-Loyalisten§! §PYulbars Khan§! und des ehemaligen Anti-Kumul-Revolutionärs §PHoja-Niyaz§! zu verlassen.\n\nDer §PKumul§! wird als das Letzte gesehen, was den Frieden und den Wohlstand innerhalb von §PXinjiang§! bewahrt, da er selbst bei den verschiedenen Gegnern des §PNasīr§! den Traum einer möglichen Selbstverwaltung in die Zukunft für die vielen anderen §nUyghur-Bewohner§! von §PXinjiang§! zeigt. Selbst wenn wir klein sind, hat unsere Existenz als unmittelbare Friedenswächter, die einen Massenaufstand verhindern, eine große Wirkung auf den Rest von §PXinjiang§!"
 
@@ -976,49 +977,68 @@ KUM_nasir_shah: "Nasir Shah"
 KUM_nasir_shah_leader_desc: "§YGeboren:§! §L1888, in Kumul, Provinz Xinjiang, Qing-Reich§!\n§YHintergrund:§! §LNasir wurde geboren und erzogen, um sein ganzes Leben lang der neue Khan von Kumul zu sein. Seine Familie sind Nachkommen von Khans von vor Jahrhunderten, und sie haben Kumul genauso lange regiert. Nasirs Vater, Masqud Shah, war ein brutaler Autoritärer, was 1907 und 1912 zu Rebellionen gegen seine Führung führte. Obwohl diese Rebellionen niedergeschlagen wurden, verschwand der anhaltende Groll nie, und als Nasir 1930 seinem Vater folgte, trug ein Großteil dieses Grolls weiter hinüber zu Nasir. Nasir ist jedoch nicht wie sein autoritärer Vater, und er ist viel offener für Reformen und möchte seinen Beratern und den Begs mehr Macht geben.§!"
 
 KUM_bashir_shah: "Bashir Shah"
+KUM_bashir_shah_leader_desc: "§YGeboren:§! §L1911, in Kumul, Provinz Xinjiang, Qing-Reich§!"
 
 KUM_yulbars_khan: "Yulbars Khan"
+KUM_yulbars_khan_sic_desc: "§YGeboren:§! §L13. August 1889, in Yangi Hissar, Provinz Xinjiang, Qing-Reich§!"
 
 KUM_hoja_niyaz_haji: "Hoja-Niyaz Haji"
+KUM_hoja_niyaz_haji_army_chief_desc: "§YGeboren:§! §L1889, in Kumul, Provinz Xinjiang, Qing-Reich§!"
 
 KUM_mahmut_muhiti: "Mahmut Muhiti"
+KUM_mahmut_muhiti_sic_desc: "§YGeboren:§! §L1887, in Turpan, Provinz Xinjiang, Qing-Reich§!"
 
-KUM_khans_court: "Khans Hof"
+KUM_khans_court: "Khan's Court"
+KUM_khans_court_sic_desc: "§YFounded:§! §L1887, in Turpan, Provinz Xinjiang, Qing-Reich§!"
 
 #劉希增
 KUM_liu_xizeng: "Liu Xizeng"
+KUM_liu_xizeng_sic_desc: "§YGeboren:§! §Lim Qing-Reich§!" # No further details
 
 #李謙
 KUM_li_qian: "Li Qian"
+KUM_li_qian_advisor_desc: "§YGeboren:§! §Lim Qing-Reich§!" # No further details
 KUM_sengchen_thubbstan_tshering: "Sengchen Thubbstan Tshering"
+KUM_sengchen_thubbstan_tshering_advisor_desc: "§YGeboren:§! §L1887, im Kreis Heijing, Provinz Xianjiang, Qing-Reich§!"
 
 KUM_tahir_beg: "Tahir Beg"
+KUM_tahir_beg_advisor_desc: "§YGeboren:§! §Lin der Provinz Xinjiang, Qing-Reich§!" # No further details
 
 #馬福元
 KUM_ma_fuyuan: "Ma Fuyuan"
+KUM_ma_fuyuan_advisor_desc: "§YGeboren:§! §Lin der Provinz Gansu, Qing-Reich§!" # No further details
 
 #馬占倉
 KUM_ma_zhancang: "Ma Zhancang"
+KUM_ma_zhancang_high_command_desc: "§YGeboren:§! §L1887, in der Provinz Gansu, Qing-Reich§!"
 
 KUM_dalelkhan_sugirbayev: "Dalelkhan Sugirbayev"
+KUM_dalelkhan_sugirbayev_high_command_desc: "§YGeboren:§! §L24. Juni 1906, in Khovd Territorium, Äußere Mongolei, Qing-Reich§!"
 
 #羅文幹
 KUM_luo_wengan: "Luo Wengan"
+KUM_luo_wengan_advisor_desc: "§YGeboren:§! §L1888, in Guangzhou, Provinz Guangdong, Qing-Reich§!"
 
 KUM_ospan_islamuly: "Ospan Islamuly"
+KUM_ospan_islamuly_army_chief_desc:  "§YGeboren:§! §L1899, im Kreis Koktokay, Provinz Xinjiang, Qing-Reich§!"
 
 #包青山
 KUM_pau_tisan: "Pau Tisan"
+KUM_pau_tisan_advisor_desc: "§YGeboren:§! §L1887, in Peking, Zhili-Provinz, Qing-Reich§!"
 
 KUM_kemal_kaya_efendi: "Kemal Kaya Efendi"
+KUM_kemal_kaya_efendi_high_command_desc: "§YGeboren:§! §Lin Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
 #馬仲傑
 KUM_ma_zhongjie: "Ma Zhongjie"
+KUM_ma_zhongjie_high_command_desc: "§YGeboren:§! §Lin Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!" # Brother of Ma Zhongying
 
 KUM_kalibek_rakhimbekovich: "Kalibek Rakhimbekovich"
+KUM_kalibek_rakhimbekovich_army_chief_desc: "§YGeboren:§! §L1908, im Berg Zhayyr, Provinz Xinjiang, Qing-Reich§!"
 
 #張純熙
 KUM_zhang_chunxi: "Zhang Chunxi"
+KUM_zhang_chunxi_sic_desc: "§YGeboren:§! §Lim Qing-Reich§!" # No further details
 
 ### Traits ###
 KUM_first_reformer: "Der erste Reformer"

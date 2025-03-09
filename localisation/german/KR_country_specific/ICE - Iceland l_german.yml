@@ -425,6 +425,7 @@ ICE_weak_ENG_tt: "Der britische Einfluss auf die Insel schwindet!"
 ICE_KR_gathering_storm_desc: "Ab 1874 hatte Island seinen ersten Eindruck von Unabhängigkeit, als Dänemark der Kolonie Selbstverwaltung gewährte. Als die Waffen nach dem Weltkrieg verstummten, schloss sich Island dem Mitteleuropa-Wirtschaftsblock an, der der Insel eine Periode des Wohlstands brachte. Dieser wirtschaftliche Wohlstand würde jedoch nicht ewig anhalten. Die britische Revolution von 1925 zerstörte das Wunder, das Island nach dem Weltkrieg erlebte. In den letzten zehn Jahren geriet Island ins Wanken, da sich seine Wirtschaft nach dem Verlust Großbritanniens nie vollständig erholte. Viele Politiker bringen jetzt weitere Pläne zur Wiederbelebung der Insel vor."
 
 ### Intro Screen ###
+ICE_country_intro_background: "GFX_ICE_intro"
 ICE_country_intro_header: "Island in 1922"
 ICE_country_intro_content: "Ab 1874 erlebte Island einen ersten Vorgeschmack auf die Unabhängigkeit, als Dänemark der Kolonie das Recht auf Selbstverwaltung und eine Verfassung gewährte. Als Teil Dänemarks blieb Island während des gesamten Weltkriegs neutral. Nach dem Ende des Weltkriegs trat Island an der Seite seines Herren Dänemark dem Wirtschaftsblock Mitteleuropa bei.\n\nDies brachte dem Inselstaat eine Zeit des Wohlstands, da Island nun zwei Märkte für sein Hauptexportgut, Fisch, erschließen konnte. Der britische Markt setzte seine lukrativen Fischimporte aus Island aufgrund der Entfernung zwischen den beiden Inseln fort. Gleichzeitig wurde der Zugang zum europäischen Markt für isländischen Kabeljau zu einer Quelle kleinerer zusätzlicher Mittel, um die isländische Wirtschaft anzukurbeln."
 
@@ -437,7 +438,7 @@ ICE_country_intro_content_2: "Um der massiven Arbeitslosigkeit, die im Land zu s
 ICE_country_intro_header_3: "Island in 1936"
 ICE_country_intro_content_3: "Obwohl das vergangene Jahrzehnt für die Menschen in Island eine Katastrophe war, gibt es immer noch Hoffnung auf eine bessere Zukunft am Horizont. Angehende Regierungsbeamte haben mit der Ausarbeitung von Plänen für groß angelegte öffentliche Bauprojekte begonnen, um Arbeitsplätze zu schaffen, die Tourismusindustrie anzukurbeln oder sogar die geothermischen und hydroelektrischen Ressourcen anzuzapfen, die unsere Insel uns bietet. Vielleicht können wir diese Träume mit ein wenig Unterstützung aus Dänemark wahr werden lassen!"
 
-ICE_guide: "§MPlebiszit im Nordatlantik§!\n §MVerbleib bei Dänemark§! (§SSozialdemokraten§!)\n £white_dot Bei der Volksabstimmung von 1937 entschieden sie sich für den Verbleib in Dänemark.\n\n §MUnabhängigkeit§! (§cSozialkonservative§!)\n £white_dot Entscheiden Sie sich in der Volksabstimmung von 1937 für die Unabhängigkeit.\n\n\n§MErgebnis des Kabeljaukriegs§!\nFür die folgenden Pfade müssen wir unabhängig sein und die passende Spielregel ausgewäjlt haben!\n£white_dot Wir müssen die Entscheidung \"$ICE_North_Atlantic_Region$\" abschließen, damit die Ereigniskette des Kabeljaukriegs beginnt.\n\n §MEine treibende Insel§! (§cSozialkonservative§!)\n £white_dot Nachdem wir unsere Fischereizonen erweitert haben, werden uns sowohl die Royalisten als auch die Syndikalisten ablehnen, so dass wir ganz allein, aber unabhängig sind.\n\n §MDas Nordsee-Gambit§! (§PPaternal Autokratisch§!)\n £white_dot Trennt die britischen Netzte im Ereignis \"$ice.17.t$\".\n £white_dot Wählen Sie irgendeine der Optionen in dem Ereignis \"$ice.20.t$\".\n\n §MEine weitere rote Insel im Atlantik§! (§RRadikale Sozialisten§! / §rSyndikalisten§!)\n £white_dot Lehnen Sie das kanadische Abkommen in dem Ereignis \"$ice.13.t$\" ab.\n £white_dot Nachdem wir den Schwerpunkt \"$ICE_Synd_Gov_Form$\" abgeschlossen haben, können wir zwischen der §rVolkseinheitspartei§! oder der §RBauernpartei§! wählen."
+ICE_guide: "§MPlebiszit im Nordatlantik§!\n §MVerbleib bei Dänemark§! (§SSozialdemokraten§!)\n £white_dot Bei der Volksabstimmung von 1937 entschieden sie sich für den Verbleib in Dänemark.\n\n§MUnabhängigkeit§! (§cSozialkonservative§!)\n £white_dot Entscheiden Sie sich in der Volksabstimmung von 1937 für die Unabhängigkeit.\n\n\n§MErgebnis des Kabeljaukriegs§!\nFür die folgenden Pfade müssen wir unabhängig sein und die passende Spielregel ausgewäjlt haben!\n£white_dot Wir müssen die Entscheidung \"$ICE_North_Atlantic_Region$\" abschließen, damit die Ereigniskette des Kabeljaukriegs beginnt.\n\n§MEine treibende Insel§! (§cSozialkonservative§!)\n £white_dot Nachdem wir unsere Fischereizonen erweitert haben, werden uns sowohl die Royalisten als auch die Syndikalisten ablehnen, so dass wir ganz allein, aber unabhängig sind.\n\n§MDas Nordsee-Gambit§! (§PPaternal Autokratisch§!)\n £white_dot Trennt die britischen Netzte im Ereignis \"$ice.17.t$\".\n £white_dot Wählen Sie irgendeine der Optionen in dem Ereignis \"$ice.20.t$\".\n\n§MEine weitere rote Insel im Atlantik§! (§RRadikale Sozialisten§! / §rSyndikalisten§!)\n £white_dot Lehnen Sie das kanadische Abkommen in dem Ereignis \"$ice.13.t$\" ab.\n £white_dot Nachdem wir den Schwerpunkt \"$ICE_Synd_Gov_Form$\" abgeschlossen haben, können wir zwischen der §rVolkseinheitspartei§! oder der §RBauernpartei§! wählen."
 
 ### Events ###
 #Cod War Events#
@@ -1005,26 +1006,46 @@ ICE_radical_socialist_DEF: "die Union von Island"
 
 ### Characters ###
 ICE_brynjolfur_bjarnason: "Brynjólfur Bjarnason"
+ICE_brynjolfur_bjarnason_leader_desc: "§YGeboren:§! §L26. Mai 1898, in Hæli, Árnessýsla, Island§!"
 ICE_hannibal_valdimarsson: "Hannibal Valdimarsson"
+ICE_hannibal_valdimarsson_leader_desc: "§YGeboren:§! §L13. Januar 1903, in Fremri-Arnardalur, Ísafjörður, Island§!"
 ICE_jon_baldvinsson: "Jón Baldvinsson"
+ICE_jon_baldvinsson_leader_desc: "§YGeboren:§! §L20. Dezember 1882, in Strandseljar, Norður-Ísafjarðarsýsla, Island§!"
 
 ICE_stefan_johann_stefansson: "Stefan Johann Stefansson"
-ICE_stefan_johann_stefansson_leader_desc: "§YGeboren:§! §L26. Juli 1894, in Dagverðareyri, Hörgársveit, Island§!\n§YHintergrund:§! §LDer wirtschaftliche Niedergang, der durch den Zusammenbruch des britischen Empire ausgelöst wurde, hat Stefán Jóhann Stefánsson an die Spitze der isländischen Politik gebracht. Er hat große Pläne für die isländische Wirtschaft, die eine strenge Finanzdisziplin und tiefgreifende Reformen erfordern werden. Um dieses Ziel zu erreichen, sucht er intensiv nach Partnern im Ausland und zögert nicht, bestehende Verbindungen zu kappen.§!"
+ICE_stefan_johann_stefansson_leader_desc: "§YGeboren:§! §L26. Juli 1894, in Dagverðareyri, Eyjafjarðarsýsla, Island§!\n§YHintergrund:§! §LDer wirtschaftliche Niedergang, der durch den Zusammenbruch des britischen Empire ausgelöst wurde, hat Stefán Jóhann Stefánsson an die Spitze der isländischen Politik gebracht. Er hat große Pläne für die isländische Wirtschaft, die eine strenge Finanzdisziplin und tiefgreifende Reformen erfordern werden. Um dieses Ziel zu erreichen, sucht er intensiv nach Partnern im Ausland und zögert nicht, bestehende Verbindungen zu kappen.§!"
 
 ICE_asgeir_asgeirsson: "Ásgeir Ásgeirsson"
+ICE_asgeir_asgeirsson_leader_desc: "§YGeboren:§! §L13. Mai 1894, in Kóranesi á Mýrum, Mýrasyslá, Island§!"
 ICE_olafur_thors: "Ólafur Thors"
+ICE_olafur_thors_leader_desc: "§YGeboren:§! §L19. Januar 1892, in Borgarnes, Mýrasyslá, Island§!"
 ICE_sveinn_bjornsson: "Sveinn Björnsson"
+ICE_sveinn_bjornsson_leader_desc: "§YGeboren:§! §L27. Februar 1881, in Kopenhagen, Königreich Dänemark§!"
 ICE_thor_thors: "Thor Thors"
+ICE_thor_thors_leader_desc: "§YGeboren:§! §L26. November 1903, in Reykjavík, Island§!"
 ICE_agnar_kofoed_hansen: "Agnar Kofoed-Hansen"
+ICE_agnar_kofoed_hansen_army_chief_desc: "§YGeboren:§! §L3. August 1915, in Reykjavík, Island§!"
 ICE_niels_juel_brockdorff: "Niels Juel-Brockdorff"
-ICE_soren_arendrup: "Søren Arendrup"
+ICE_niels_juel_brockdorff_commander_desc: "§YGeboren:§! §L19. Juli 1878, in Hollufgård, Kreis Odense, Königreich Dänemark§!"
+ICE_soren_arendrup: "Søren Arendrup" # Fictional?
+ICE_soren_arendrup_commander_desc: "§YGeboren:§! §Lin Island§!"
 ICE_finnur_jonsson: "Finnur Jonsson"
+ICE_finnur_jonsson_advisor_desc: "§YGeboren:§! §L29. Mai 1858, in Akureyri, Island§!"
 ICE_bjarni_asgeirsson: "Bjarni Asgeirsson"
+ICE_bjarni_asgeirsson_advisor_desc: "§YGeboren:§! §L1. August 1891, in Kóranesi á Mýrum, Mýrasyslá, Island§!"
 ICE_emil_jonsson: "Emil Jonsson"
+ICE_emil_jonsson_advisor_desc: "§YGeboren:§! §L27. Oktober 1902, in Hafnarfjörður, Island§!"
 ICE_bjarni_benediktsson: "Bjarni Benediktsson"
+ICE_bjarni_benediktsson_advisor_desc: "§YGeboren:§! §L30. April 1908, in Reykjavík, Island§!"
 ICE_sigurdur_hlidar: "Sigurdur Hlidar"
+ICE_sigurdur_hlidar_advisor_desc: "§YGeboren:§! §L4. April 1885, in Hafnarfjörður, Island§!"
 ICE_bergur_jonsson: "Bergur Jonsson"
+ICE_bergur_jonsson_advisor_desc: "§YGeboren:§! §L24. September 1898, in Reykjavík, Island§!"
 ICE_finlay_crerar: "Finlay Crerar"
+ICE_finlay_crerar_air_chief_desc: "§YGeboren:§! §L23. März 1904, in Aberdeen, Aberdeenshire, Schottland§!"
 ICE_hermann_jonasson: "Hermann Jonasson"
+ICE_hermann_jonasson_navy_chief_desc: "§YGeboren:§! §L25. Dezember 1896, in Skagafjörður, Skagafjarðarsýsla, Island§!"
 ICE_ib_riis: "Ib Riis"
-ICE_althingishus: "Althinghus"
+ICE_ib_riis_advisor_desc: "§YGeboren:§! §L15. Januar 1915, in Kopenhagen, Königreich Dänemark§!"
+ICE_the_althing: "The Althing"
+ICE_the_althing_sic_desc: "§YFounded:§! §L930, in Þingvellir, Árnessýsla, Island§!"

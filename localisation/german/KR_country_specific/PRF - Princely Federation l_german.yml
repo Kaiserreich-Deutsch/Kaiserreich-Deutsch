@@ -263,6 +263,7 @@ PRF_assam_question: "Schicksal der Teeplantagen in Assam"
 PRF_assam_question_desc: "Die riesigen Teeplantagen von Assam waren bis zum Sturz ihrer sozialistischen Herrscher in Staatsbesitz. Jetzt leiden sie, und wir müssen die Frage klären, was mit ihnen geschehen soll, wenn wir unsere Herrschaft in der Region festigen wollen."
 
 ### Intro Screen ###
+PRF_country_intro_background: "GFX_PRF_intro"
 PRF_country_intro_header: "Einführung in die Fürstliche Föderation"
 PRF_country_intro_content: "Nach der britischen Revolution von 1925 erlangte Indien schließlich seine De-facto-Unabhängigkeit, als das Raj endgültig in sich zusammenbrach. Der Rajput-Maharadscha von Bikaner, Ganga Singh, übernahm die Regierungsgeschäfte. Sein autoritärer Regierungsstil brachte ihn bald in Konflikt mit der linken zivilen Opposition um den Indischen Nationalkongress (INC) und seinen militanten Anhängern im Untergrund.\n\nInnerhalb weniger Monate führte die Aufkündigung des von Singh ausgehandelten anglo-indischen Vertrags durch den INC zu einem Bürgerkrieg auf dem Subkontinent. In dieser chaotischen Zeit schlossen sich die südlichen Fürstenstaaten unter Berufung auf den anglo-indischen Vertrag und zahlreiche Rechtsverstöße von Ganga Singh hinter Osman Ali Khan, dem Nizam von Hyderabad, zusammen und erklärten ihn zum wahren Vizekönig des indischen Dominions.\n\nAls sich der Bürgerkrieg zu einem verwirrenden Sumpf der Gewalt ausweitete, gelang es Ali Khan zwar nicht, in Singhs nördliche Machtbasis einzudringen, aber es gelang ihm, sozialistische Enklaven in Bombay auszurotten und sowohl die Regierung in Lahore als auch die in Kalkutta daran zu hindern, in das Dekkan-Plateau einzumarschieren.\n\nAls endlich Frieden herrschte, machte sich die Fürstenföderation bald daran, eine echte nationalistische Nachfolgeregierung des Raj zu organisieren, wobei Osman Ali Khan als Nizam-al-Mulk (Reichsverweser) diente und seine Mitfürsten im so genannten Fürstenrat sowohl eine beratende als auch eine gesetzgebende Funktion ausübten. Im Jahr 1936 ist die Fürstenföderation ein brüchiger Staat, der jedoch einer konservativen einheimischen Regierung am nächsten kommt."
 
@@ -843,31 +844,51 @@ TRV_PRF_subject_DEF: "Travancore-Cochin"
 
 ### Characters ###
 PRF_osman_ali_khan_emperor: "Osman Ali Khan I"
-PRF_osman_ali_khan_leader_desc: "§YGeboren:§! §L6. April 1886, in Purani Haveli, Staat Hyderabad, Britisch Indien§!\n§YHintergrund:§! §LPrinz Osman Ali Khan, der Prinz von Hyderabad, der offiziell unter seinem königlichen Namen Asaf Jah VII bekannt ist, war einst ein Untertan des mächtigen britischen Empire. Er vereinigte die südlichen Fürstenstaaten im Chaos nach der Auflösung des britischen Raj, und unter seiner Führung schlug die junge Fürstenföderation sowohl sozialistische Invasoren als auch interne Fünfte-Kolumnisten zurück und verhinderte so einen dominionistischen Angriff. Während die Föderation heranreifte, traten jedoch Schwierigkeiten hinsichtlich des Charakters der Regierung der Nation auf. Osman Ali Khan muss die Föderation nun aus dem tödlichen Griff ihrer zahlreichen Belastungen befreien und in eine stabilere Zukunft führen."
-HYD_osman_ali_khan_emperor_leader_desc: "§YGeboren:§! §L6. April 1886, in Purani Haveli, Staat Hyderabad, Britisch Indien§!\n§YHintergrund:§! §LOsman Ali Khan, der Kaiser von Indien, war einst ein Untertan des mächtigen britischen Empire. Er vereinigte die südlichen Fürstenstaaten im Chaos nach der Auflösung des britischen Raj, und unter seiner Führung schlug die junge Fürstenföderation sowohl sozialistische Invasoren als auch interne Fünfte-Kolumnisten zurück und verhinderte so einen dominionistischen Angriff. Während die Föderation heranreifte, traten jedoch Schwierigkeiten hinsichtlich des Charakters der Regierung der Nation auf. Osman Ali Khan muss die Föderation nun aus dem tödlichen Griff ihrer zahlreichen Belastungen befreien und in eine stabilere Zukunft führen."
-PRF_kaisar_i_hind_trait: "Kaisar-i-Hind"
+PRF_osman_ali_khan_leader_desc: "§YGeboren:§! §L6. April 1886, in Purani Haveli, Hyderabad, Bundesstaat Hyderabad, Indien§!\n§YHintergrund:§! §LPrinz Osman Ali Khan, der Prinz von Hyderabad, der offiziell unter seinem königlichen Namen Asaf Jah VII bekannt ist, war einst ein Untertan des mächtigen britischen Empire. Er vereinigte die südlichen Fürstenstaaten im Chaos nach der Auflösung des britischen Raj, und unter seiner Führung schlug die junge Fürstenföderation sowohl sozialistische Invasoren als auch interne Fünfte-Kolumnisten zurück und verhinderte so einen dominionistischen Angriff. Während die Föderation heranreifte, traten jedoch Schwierigkeiten hinsichtlich des Charakters der Regierung der Nation auf. Osman Ali Khan muss die Föderation nun aus dem tödlichen Griff ihrer zahlreichen Belastungen befreien und in eine stabilere Zukunft führen."
+HYD_osman_ali_khan_emperor_leader_desc: "§YGeboren:§! §L6. April 1886, in Purani Haveli, Hyderabad, Bundesstaat Hyderabad, Indien§!\n§YHintergrund:§! §LOsman Ali Khan, der Kaiser von Indien, war einst ein Untertan des mächtigen britischen Empire. Er vereinigte die südlichen Fürstenstaaten im Chaos nach der Auflösung des britischen Raj, und unter seiner Führung schlug die junge Fürstenföderation sowohl sozialistische Invasoren als auch interne Fünfte-Kolumnisten zurück und verhinderte so einen dominionistischen Angriff. Während die Föderation heranreifte, traten jedoch Schwierigkeiten hinsichtlich des Charakters der Regierung der Nation auf. Osman Ali Khan muss die Föderation nun aus dem tödlichen Griff ihrer zahlreichen Belastungen befreien und in eine stabilere Zukunft führen."
 
-PRF_council_of_princes: "Rat der Fürsten"
+PRF_council_of_princes: "Council of Princes"
+PRF_council_of_princes_sic_desc: "§YFounded:§! §L1925, in Hyderabad, Bundesstaat Hyderabad, Fürstliche Föderation§!"
 PRF_rajaram_iii_of_kolhapur: "Rajaram III of Kolhapur"
+PRF_rajaram_iii_of_kolhapur_sic_desc: "§YGeboren:§! §L31. Juli 1897, im Lakshmi Vilas Palace, Kolhapur, Bundesstaat Kolhapur, Indien§!"
 PRF_krushna_chandra_gajapati: "Krushna Chandra Gajapati"
-PRF_krishna_raja_wadiyar_iv: "Krishna Raja Wadiyar IV"
+PRF_krushna_chandra_gajapati_sic_desc: "§YGeboren:§! §L26. April 1892, in Paralakhemundi, Verwaltungsbezirk Fort St. George, Britisch-Indien§!"
 PRF_akbar_hydari: "Akbar Hydari"
+PRF_akbar_hydari_sic_desc: "§YGeboren:§! §L8. November 1869 in Bombay, Präsidentschaft Bombay, Britisch-Indien§!"
 PRF_mirza_muhammad_ismail: "Mirza Muhammad Ismail"
+PRF_mirza_muhammad_ismail_sic_desc: "§YGeboren:§! §L24. Oktober 1883, in Bangalore, Königreich Mysore, Indien§!"
 PRF_nawab_fazal_nawaz_jung_bahadur: "Nawab Fazal Nawaz Jung Bahadur"
+PRF_nawab_fazal_nawaz_jung_bahadur_sic_desc: "§YGeboren:§! §L1894, in Hyderabad, Bundesstaat Hyderabad, Indien§!"
 
 PRF_chintaman_dwarakanath_deshmukh: "Chintaman Dwarakanath Deshmukh"
+PRF_chintaman_dwarakanath_deshmukh_advisor_desc: "§YGeboren:§! §L14. Januar 1896, in Nate, Präsidentschaft Bombay, Britisch-Indien§!"
 PRF_umaid_singh: "Umaid Singh"
+PRF_umaid_singh_advisor_desc: "§YGeboren:§! §L8. Juli 1903, in Mehrangarh Fort, Bundesstaat Jodhpur, Rajputana Agency, Indien§!"
 PRF_harilal_jekisundas_kania: "Harilal Jekisundas Kania"
+PRF_harilal_jekisundas_kania_advisor_desc: "§YGeboren:§! §L3. November 1890, in Navsari, Präsidentschaft Bombay, Britisch-Indien§!"
 PRF_albion_rajkumar_banerjee: "Albion Rajkumar Banerjee"
+PRF_albion_rajkumar_banerjee_advisor_desc: "§YGeboren:§! §L10. Oktober 1871, in Bristol, England§!"
 PRF_mokshagundam_visvesvaraya: "Mokshagundam Visvesvaraya"
+PRF_mokshagundam_visvesvaraya_advisor_desc: "§YGeboren:§! §L15. September 1861, in Muddenahalli, Königreich Mysore, Indien§!"
 PRF_kishen_pershad: "Kishen Pershad"
+PRF_kishen_pershad_advisor_desc: "§YGeboren:§! §L28. Januar 1864, in Hyderabad, Bundesstaat Hyderabad, Indien§!"
 
 PRF_khan_chhatari: "Khan Chhatari"
+PRF_khan_chhatari_commander_desc: "§YGeboren:§! §L12. Dezember 1888, in Chhatari, Nordwestliche Provinzen und Oudh, Britisch-Indien§!"
 
 PRF_d_n_mukerji: "D.N. Mukerji"
+PRF_d_n_mukerji_navy_chief_desc: "§YGeboren:§! §L10. Februar 1903, in Indien§!"
 
 PRF_nathu_singh_rathore: "Nathu Singh Rathore"
+PRF_nathu_singh_rathore_army_chief_desc: "§YGeboren:§! §L22. April 1900, in Gumanpura, Bundesstaat Dungarpur, Agentur Rajputana, Indien§!"
 PRF_yashwantrao_martandrao_mukne: "Yashwantrao Martandrao Mukne"
+PRF_yashwantrao_martandrao_mukne_air_chief_desc: "§YGeboren:§! §L11. Dezember 1917, in Jawhar, Präsidentschaft Bombay, Britisch-Indien§!"
 PRF_jagdish_chandra_varma: "Jagdish Chandra Varma"
+PRF_jagdish_chandra_varma_air_chief_desc: "§YGeboren:§! §L3. Juli 1918, in Indien§!"
 PRF_abdul_naeem_aziz: "Abdul Naeem Aziz"
+PRF_abdul_naeem_aziz_high_command_desc: "§YGeboren:§! §Lin Indien§!" # Born January 11th, 1923 irl
 PRF_syed_abbas_hussain: "Syed Abbas Hussain"
+PRF_syed_abbas_hussain_high_command_desc: "§YGeboren:§! §L1. Februar 1912, in Indien§!"
+
+### Traits ###
+PRF_kaisar_i_hind_trait: "Kaisar-i-Hind"

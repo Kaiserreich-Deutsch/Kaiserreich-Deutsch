@@ -18,11 +18,17 @@ DAH_radical_socialist_DEF: "die Volksrepublik Dahomey"
 
 ### Characters ###
 DAH_Hubert_Maga: "Hubert Maga"
+DAH_hubert_maga_leader_desc: "§YGeboren:§! §L10. August 1916, in Parakou, Kolonie Dahomey und Dependenzen, Französisch-Westafrika§!"
 DAH_Agoli_Agbo: "Agoli-Agbo"
+DAH_agoli_agbo_sic_desc: "§YGeboren:§! §Lim Königreich Dahomey§!"
 DAH_Basile_Adjou_Moumouni: "Basile Adjou Moumouni"
+DAH_basile_adjou_moumouni_leader_desc: "§YGeboren:§! §Lin Cotonou, Kolonie Dahomey und Dependenzen, Französisch-Westafrika§!" # Born October 25th, 1922 irl
 DAH_Christophe_Soglo: "Christophe Soglo"
+DAH_christophe_soglo_leader_desc: "§YGeboren:§! §L28. Juni 1909, in Abomey, Kolonie Dahomey und Dependenzen, Französisch-Westafrika§!"
 DAH_Justin_Ahomadegbe_Tometin: "Justin Ahomadégbé-Tomêtin"
+DAH_justin_ahomadegbe_tometin_leader_desc: "§YGeboren:§! §L16. Januar 1917, in Abomey, Kolonie Dahomey und Dependenzen, Französisch-Westafrika§!"
 DAH_Sourou_Migan_M_J_Apithy: "Sourou-Migan M.J. Apithy"
+DAH_sourou_migan_m_j_apithy_leader_desc: "§YGeboren:§! §L8. April 1913, in Porto-Novo, Kolonie Dahomey und Dependenzen, Französisch-Westafrika§!"
 
 ### Focuses ###
 DAH_our_own: "Auf eigene Faust"
@@ -88,7 +94,6 @@ DAH_baguette_lover: "Vertiefung der Protektoratsbindungen"
 DAH_baguette_lover_desc: "Die Welt ist groß, und es gibt Mächte, die weitaus größer sind als wir und versuchen, mit unserem Land zu spielen. Wenn wir engere Beziehungen zu unserem Oberherrn suchen, könnten wir unser Land wirksamer schützen, als wir es allein könnten."
 DAH_baguette_lover_unlock: "Dahomey wird eine §H$integrated_puppet$§!."
 DAH_status_quo: "Der Status Quo"
-#This Is Fine, the focus:
 DAH_status_quo_desc: "Die Welt ist ein gefährlicher Ort, und diejenigen, die zu hoch stehen, haben die Angewohnheit, gestürzt zu werden. Dahomey als Nation kann sich zurückziehen und seinem Volk Frieden und Wohlstand sichern, während der Rest der Welt in Flammen steht."
 DAH_normal_person: "Eine ausgewogene Haltung"
 DAH_normal_person_desc: "Die Franzosen sind zwar keine... bösen... Herrscher... Es ist nichts falsch daran, ihren Einfluss zu verringern und eine wirklich freie Nation zu werden."
@@ -99,15 +104,10 @@ DAH_tech_desc: "Wir werden die Universität von Porto Novo gründen, um höhere 
 
 ### Events ###
 dah.001.t: "Französiches Wissen"
-#Oh Great Frenchie of The Lake, what is your wisdom?:
 dah.001.d: "Die Franzosen verfügen über viel Wissen über den Aufbau von Staaten, selbst in ihrem Exilstaat. Vielleicht sollten wir sie bitten, etwas von diesem Wissen weiterzugeben, damit wir ein stärkerer Verbündeter werden können?"
 dah.001.a: "Suche nach Beihilfen für die landwirtschaftliche Entwicklung"
 dah.001.b: "Erkundigt euch nach ihrem Fachwissen in den Bereichen Bau und Technik."
 dah.001.c: "Könntet ihr uns bitte zeigen, wie man all eure ausgefallenen Waffen baut?"
-
-dah.002.t: "Kauf von ausländischen Waffen"
-dah.002.d: "Unser Militär ist jung und es fehlt ihm an vielen grundlegenden Ausrüstungsgegenständen, die eine Armee braucht, insbesondere an Waffen. Eine Möglichkeit, diesen Mangel auszugleichen, wäre, eine der Großmächte (mit Ausnahme der verflixten Deutschen) zu bitten, uns einige Waffen zu verkaufen. Sollten wir das tun?"
-dah.002.a: "Lasst uns einkaufen."
 
 dah.005.t: "Unser Platz in der weiten Welt"
 dah.005.d: "Vor der Zeit der afrikanischen Kolonialisierung waren wir ein freies und unabhängiges Volk. Niemand konnte uns daran hindern, stark, stolz und frei zu sein. Heutzutage ist die Welt jedoch viel größer, mit vielen Akteuren, die viel größer sind als wir. Wir sind daher gezwungen, über unseren Platz in der Welt nachzudenken. Werden wir wieder zu einem Untertan Frankreichs? Oder sollten wir uns vielleicht befreien und unsere Chancen dort nutzen? Oder lehnen wir uns zurück und lassen die Ereignisse auf uns zukommen, bevor wir diese Entscheidung treffen?"
@@ -116,13 +116,15 @@ dah.005.a: "Die Zeit wird es zeigen. Früher oder später wird die Zeit es zeige
 dah.006.t: "Dahomey möchte Waffen kaufen"
 dah.006.d: "Die kürzlich unabhängig gewordene Nation Dahomey möchte von uns Schusswaffen kaufen, um ihr im Entstehen begriffenes Militär zu versorgen. Wie sollen wir darauf reagieren?"
 dah.006.a: "Wir können ihnen bestimmt welche verkaufen!"
-dah.006.b: "Wir brauchen die Ausrüstung für uns selbst."
-dah.006.c: "Wir können ein paar von ihnen verkaufen"
+dah.006.b: "Lasst uns ein paar verkaufen."
+dah.006.c: "Wir können im Moment nichts entbehren."
 
 dah.007.t: "Die Antwort"
-dah.007.d: "Wir haben eine Nachricht von [DAH_gun_target.GetNameDef] über die Waffen, die wir kaufen wollten erhalten!"
-dah.007.a: "Sie werden sie an uns verkaufen!"
-dah.007.b: "Verflucht, sie haben uns abgelehnt!"
+dah.007.d: "Wir haben von [FROM.GetNameDef] eine Nachricht über die Waffen erhalten, die wir kaufen wollten. Zu unserem Glück haben sie unserer Bitte zugestimmt!"
+dah.007.a: "Wunderbar!"
+
+dah.009.d: "Wir haben von [FROM.GetNameDef] eine Nachricht über die Waffen erhalten, die wir kaufen wollten. Leider haben sie unsere Anfrage abgelehnt."
+dah.009.a: "Verflucht!"
 
 ### Ideas ###
 DAH_gold_mining: "Goldbergbau"

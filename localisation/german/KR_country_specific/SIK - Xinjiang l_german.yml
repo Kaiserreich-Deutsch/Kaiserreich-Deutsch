@@ -222,6 +222,7 @@ SIK_assassinate_damulla_category_desc: "Sabit Damulla führt derzeit eine Koalit
 SIK_assassinate_sabit_damulla_decision: "Der Plan"
 
 ### Intro Screen ###
+SIK_country_intro_background: "GFX_SIK_intro"
 SIK_country_intro_header: "Einführung in die §PXinjiang-Clique§!"
 SIK_country_intro_content: "Die §lchinesische§! Provinz §PXinjiang§! hat wie ein Großteil des Nordwestens eine bahnbrechende Geschichte, da die Region bis heute ständig von Unruhen geplagt wird. Die §lXinhai-Revolution§! brachte noch mehr von dem bereits gewohnten Chaos hervor, das von der lokalen §nuigurischen Bevölkerung§! verursacht wurde, die mehr zentralasiatisch als chinesisch war. Der derzeitige Gouverneur §PYuan Du-Hua§! konnte die Situation nicht unter Kontrolle halten, er floh aus der Provinz und überließ sie seinem vertrauenswürdigen Berater §PYang Zengxin§!.\n\n§PYang§! hat §PXinjiang§! durch kluge Geschäfte und gewaltsame Repressionen 20 Jahre lang „stabil“ gehalten. §PYang§! selbst ist ein sehr paranoider Mann, der alle möglichen Vorkehrungen trifft, um Aufstände zu verhindern, während er die §nUiguren§! in §PXinjiang§! ohne Ende unterdrückt. Mit 36 ist er eine zurückgezogene Seele, die in seinem Haus bleibt und aus Angst vor einem politischen Attentat durch einen seiner wenigen Gefolgsleute selten nach draußen kommt. Die meisten Aufgaben werden zwischen seinen drei mächtigsten Beratern §PJin Shuren§!, dem §PDao-yin von Hotan Ma Shaowu§! und dem §PDao-yin von Aksu§! und Außenminister §SFan Yaonan§! abgewickelt. Zusammen erledigen diese drei den größten Teil der täglichen Verwaltung von §PXinjiang§!, während sie gelegentlich Befehle von §PYang§! selbst entgegennehmen. Im Moment wird der Status quo in §PXinjiang§! beibehalten, aber da §PYangs§! Abgeschiedenheit immer schlimmer wird, kann alles passieren."
 
@@ -443,7 +444,7 @@ xin.53.desc: "Was Sheng hörte, war ein Treffen zwischen Ma Shaowu, Mahmut Muhti
 xin.53.a: "Vielleicht hätten wir ihnen nicht so viele Ressourcen geben sollen..."
 
 xin.100.t: "Gewalt in Kumul"
-xin.100.desc: "Was Jin Shuren von seinem Palast in Dihua aus nicht sehen konnte, war die grassierende Unzufriedenheit, die sich in Hami zusammenbraute. Nicht nur bei den enteigneten Begs und arbeitslosen Beratern, sondern auch bei den Leuten von Hami war Reformbedarf. Jetzt versammeln sich die Leute um [TAN.GetLeader] und heben ihre Banner hoch als Reaktion auf die von Jins Regime verhängte Unterdrückung. Da eine Straße direkt von Hami nach Dihua führt, ist es wichtig, dass wir diese Rebellion schnell niederschlagen. "
+xin.100.desc: "Was Jin Shuren von seinem Palast in Dihua aus nicht sehen konnte, war die grassierende Unzufriedenheit, die sich in Hami zusammenbraute. Nicht nur bei den enteigneten Begs und arbeitslosen Beratern, sondern auch bei den Leuten von Hami war Reformbedarf. Jetzt versammeln sich die Leute um [KUM.GetLeader] und heben ihre Banner hoch als Reaktion auf die von Jins Regime verhängte Unterdrückung. Da eine Straße direkt von Hami nach Dihua führt, ist es wichtig, dass wir diese Rebellion schnell niederschlagen."
 xin.100.a: "Befolgt meine Befehle und vielleicht überlebt ihr."
 
 xinfd.1.t: "Gaunerei in Dzungaria ausrotten"
@@ -673,15 +674,13 @@ SIK_xinjiang_railways_desc: "Das größte Ziel eines modernen Gouverneurs von Xi
 SIK_yang_zengxin: "Yang Zengxin"
 SIK_yang_zengxin_leader_desc: "§YGeboren:§! §L4. März 1864, in Mengzi, Provinz Yunnan, Qing-Reich§!\n§YHintergrund:§! §LSeit der Nordexpedition und der darauf folgenden deutschen Intervention ist Yang Zengxin in großer Panik und kränklich im Alter. Er verbringt die meiste Zeit versteckt in seinem Haus und geht aus Angst vor einem Attentat oder seiner letzten schicksalhaften Krankheit kaum noch aus dem Haus. Abgesehen davon, dass er innerhalb Chinas politisch völlig isoliert ist, weiß man nicht, wie lange er in seinem jetzigen Zustand noch leben wird, aber er ist sicherlich nicht in einem stabilen Zustand.§!"
 
-SIK_ishaq_bey: "Ishaq Bey"
-
 #樊耀南
 SIK_fan_yaonan: "Fan Yaonan"
-SIK_fan_yaonan_leader_desc: "§YGeboren:§! §L1879, im Kreis Gong'an, Provinz Hubei, Qing-Reich§!\n§YHintergrund:§! §LFan Yaonan wurde zunächst vom Qing-Beamten Zhang Zhidong anerkannt und innerhalb von Hubei befördert. Er konnte genug Geld sparen, um an der Waseda-Universität in Japan Jura zu studieren. Nach seinem Abschluss war Fan bis zu seiner Ernennung zum Gerichtsdirektor als Lehrer an der Xinjiang Law School tätig. Im selben Jahr wurde das Gericht aufgelöst, und Fan reiste nach Peking, um der Beiyang-Regierung zu dienen. Da er für den Posten des Dao-Yin von Dihua nicht in Frage kam, wurde Fan zum Dao-Yin des ärmeren Aksu ernannt. Fan bildete sich weiter, lernte Russisch an der Russischen Rechtsschule von Xinjiang und bemühte sich, den Zusammenhalt zwischen den neu in Aksu angekommenen russischen Einwanderern zu fördern. 1920 ernannte Gouverneur Yang Zengxin Fan zum Vertreter Xinjiangs bei Russland, und Fan handelte ein Abkommen aus, das die russischen Zölle für Xinjiang bis 1940 abschaffte. Fan Yaonan ist bekannt für seine Bescheidenheit und seinen stillen Widerstand gegen die Überbesteuerung von Aksu durch Gouverneur Yang Zengxin.§!"
+SIK_fan_yaonan_leader_desc: "§YGeboren:§! §L1879, im Kreis Gong'an, Provinz Hubei, Qing-Reich§!\n§YHintergrund:§! §LFan Yaonan wurde zunächst vom Qing-Beamten Zhang Zhidong anerkannt und innerhalb von Hubei befördert. Er konnte genug Geld sparen, um an der Waseda-Universität in Japan Jura zu studieren. Nach seinem Abschluss war Fan als Lehrer an der Rechtsschule von Xinjiang tätig, bis er zum Gerichtsdirektor ernannt wurde. Im selben Jahr wurde das Gericht aufgelöst und Fan reiste nach Peking, um der Beiyang-Regierung zu dienen. Da er für den Posten des Dao-Yin von Dihua nicht in Frage kam, wurde Fan zum Dao-Yin des ärmeren Aksu ernannt. Fan bildete sich weiter, lernte Russisch an der Russischen Rechtsschule von Xinjiang und versuchte, den Zusammenhalt zwischen den neu in Aksu angekommenen russischen Einwanderern zu fördern. 1920 ernannte Gouverneur Yang Zengxin Fan zum Vertreter Xinjiangs bei Russland, und Fan handelte ein Abkommen zur Aufhebung der russischen Zölle auf Xinjiang bis 1940 aus. Fan Yaonan ist bekannt für seine Bescheidenheit und seinen stillen Widerstand gegen die Überbesteuerung von Aksu durch Gouverneur Yang Zengxin.§!"
 
 #馬紹武
 SIK_ma_shaowu: "Ma Shaowu"
-SIK_ma_shaowu_leader_desc: "§YGeboren:§! §L1874, im Kreis Tonghai, Provinz Yunnan, Qing-Reich§!\n§YHintergrund:§! §LMa Shaowus Ruf war bereits durch die Taten seines Sufi-Verwandten Ma Yuanzhang geprägt, der gegen die Regierung von Yang Zengxin und den hanafitischen Hui-Kriegsherrn Ma Fuxiang gearbeitet hatte. Dennoch verbrachte Ma Shaowu seine ersten Jahre in den Diensten der Qing und von Yang Zengxin. Yang Zengxin war von Ma Shaowus Loyalität beeindruckt und beauftragte ihn 1924 mit der Beseitigung des Kriegsherrn Ma Fuxing. Ma Shaowu erhielt als Belohnung das Dao-Yin von Hotan. Als Dao-Yin verfolgte Ma Shaowu eine Politik, die sich eher gegen die aggressive russische Einwanderung richtete, und brachte den Uiguren und den mongolischen Einwohnern wenig Achtung entgegen. Nach einem Mordanschlag durch einen kirgisischen Türken ließ Ma Shaowu seine gebrochenen Beine in Russland behandeln. Ma Shaowu erzählte seine Geschichte dem reisenden Journalisten Peter Fleming, der die Widerstandsfähigkeit des alten Mannes und seinen asketischen Lebensstil kommentierte.§!"
+SIK_ma_shaowu_leader_desc: "§YGeboren:§! §L1874, im Kreis Tonghai, Provinz Yunnan, Qing-Reich§!\n§YHintergrund:§! §LMa Shaowus Ruf war bereits durch die Taten seines Sufi-Verwandten Ma Yuanzhang geprägt, der gegen die Regierung von Yang Zengxin und den hanafitischen Hui-Kriegsherrn Ma Fuxiang gearbeitet hatte. Dennoch verbrachte Ma Shaowu seine ersten Jahre im Dienst der Qing und von Yang Zengxin. Yang Zengxin war von Ma Shaowus Loyalität beeindruckt und beauftragte ihn 1924 mit der Beseitigung des Kriegsherrn Ma Fuxing. Ma Shaowu erhielt als Belohnung das Dao-Yin von Hotan. Als Dao-Yin verfolgte Ma Shaowu eine Politik, die sich eher gegen die aggressive russische Einwanderung richtete und die Uiguren und mongolischen Einwohner geringschätzte. Nach einem Mordanschlag durch einen kirgisischen Türken ließ Ma Shaowu seine gebrochenen Beine in Russland behandeln. Ma Shaowu erzählte seine Geschichte dem reisenden Journalisten Peter Fleming, der die Widerstandsfähigkeit des alten Mannes und seinen asketischen Lebensstil lobte.§!"
 
 #盛世才
 SIK_sheng_shicai: "Sheng Shicai"
@@ -693,6 +692,7 @@ SIK_jin_shuren_leader_desc: "§YGeboren:§! §L1879, im Kreis Yongjing, Provinz 
 
 #龍協麟
 SIK_long_xielin: "Long Xielin"
+SIK_long_xielin_leader_desc: "§YGeboren:§! §Lin der Provinz Xinjiang, Reich der Qing§!" # No further details
 
 #包爾漢·沙希迪
 SIK_burhan_shahidi: "Burhan Shahidi"
@@ -712,57 +712,73 @@ SIK_yang_feixia_high_command_desc: "§YGeboren:§! §L1881, im Kreis Mengzi, Pro
 
 #李溶
 SIK_li_rong: "Li Rong"
+SIK_li_rong_sic_desc: "§YGeboren:§! §L1870, im Kreis Zhenxi, Provinz Xinjiang, Qing-Reich§!\n§YHintergrund:§! §LAls Sohn von Eltern, die vor einer Hungersnot in Jingyuan flohen, wurde Li Rong in ein relativ stabiles Elternhaus hineingeboren. Er studierte sowohl an der Songfeng-Akademie als auch an der Lanzhou-Qiugu-Akademie. Schließlich wurde Li Rong 1897 die erste Stelle als Direktor der neu gegründeten zweitklassigen Schule in Huiyuan angeboten. In den nächsten 15 Jahren sollten Li Rongs Fleiß und Intensität als erstes dokumentiert werden. Unabhängig von der Nationalität der Schüler wurde von ihnen allen erwartet, dass sie sich an konfuzionistischen Ritualen beteiligten, ansonsten aber fair behandelt wurden. Während der Xinhai-Revolution von 1911 unterstützte Li die Revolution offen, da er der Meinung war, dass China durch äußere Kräfte die Zerstörung der Nation und der Familie drohte. Als Unterhändler für die Revolutionäre traf Li zum ersten Mal mit Yang Zengxin zusammen. Obwohl sie mit der Politik des jeweils anderen nicht einverstanden waren, waren beide Männer von den Talenten des anderen so beeindruckt, dass Li 1915 zum Gouverneur des Kreises Shaya und 1917 zum Sprecher der Provinzversammlung von Xinjiang ernannt wurde.\n\nAls Mitglied der Provinzregierung besuchte Li mit großem Enthusiasmus und Energie regelmäßig ländliche Gemeinden, um die Organisation der landwirtschaftlichen Produktion zu fördern und zu unterstützen. Während er seine Bewunderung für Yang immer noch offen zur Schau stellt, gilt er vielen als der erste unbestechliche Beamte der Region, der in einem korrupten Umfeld festsitzt. Als geschickter Redner und Befürworter der ethnischen Gleichberechtigung genießt er, unabhängig davon, wer Xinjiang regiert, den Respekt der Bevölkerung.§!§YAnmerkungen: Li Rong ist zwar ein glühender Verehrer von Yang Zengxin, ist aber bereit, mit anderen politischen Kräften zusammenzuarbeiten.\n\nLi tötete versehentlich seinen ältesten Sohn, weil er eine betrunkene Rede hielt. In der Absicht, ihn zu verletzen, anstatt ihn zu töten, warf Li seinem Sohn einen Ziegelstein an den Kopf. Li Rong erlag schließlich dieser Verletzung und bedauert den Vorfall noch immer sehr.§!"
 
 #邱宗浚
 SIK_qiu_zongjun: "Qiu Zongjun"
+SIK_qiu_zongjun_sic_desc: "§YGeboren:§! §L1879, in Shenyang, Provinz Liaoning, Qing-Reich§!\n§YHintergrund:§! §LQiu Zongjun lebte die ersten Jahrzehnte seines Lebens in relativem Frieden, strebte aber immer nach mehr. Im Jahr 1918 ließ er sein Leben als Lehrer hinter sich und ging zu Zhang Zuolin, um mit ihm zu arbeiten. Mit Schmeicheleien konnte Qiu Zhang davon überzeugen, ihn zum Studium an die Offiziersschule der Armee in Baoding zu schicken. Nach seinem Abschluss sollte Qiu unter Guo Songling als Regimentskommandeur dienen. Gehorsam und unterwürfig befolgte Qiu Befehle und tat sich als Anführer nicht sonderlich hervor. Zu dieser Zeit lernte er Shen Shicai kennen, die später Qius zweite Tochter Qiu Yufang heiraten sollte. Im November 1925 revoltierte Guo Songling erfolglos gegen Zhang Zuolin. Nach dem Scheitern dieses Aufstandes wurden alle Truppen Guos, einschließlich Qiu, in verschiedene Einheiten der Fengtian-Armee umorganisiert. Am Ende des Vierten Zhili-Fengtian-Krieges im Jahr 1928 wurde Qiu aus der Armee in Shenyang entlassen. Da er mehrere Jahre lang arbeitslos war, streifte Qiu durch die Stadt und ging, wenn sich die Gelegenheit ergab, in ein Bordell. Als ihm von Sheng Shicai angeboten wurde, nach Xinjiang zu gehen und als Abgesandter für die Landgewinnung in Ili zu fungieren, zog Qiu 1931 in die Region.\n\nNun ist Qiu Generalsekretär des Grenzüberwachungsamtes und seine Gier ist fast so groß wie seine Brutalität. Qiu beschlagnahmt grundlos Eigentum, verwendet öffentliche Gelder missbräuchlich und führt willkürliche Hinrichtungen durch, wobei er fast ungestraft handelt, da er weiß, dass sein Schwiegersohn ihm Schutz gewährt. Solange er diesen Schutz hat, wird Qiu weiterhin einen dekadenten Lebensstil führen und damit seinen Ruf als grausamer Schlächter in Xinjiang aufrechterhalten.§! §YAnmerkungen: Obwohl Qiu Zhongjun häufig veruntreut und Reichtümer anhäuft, bleibt er sparsam. Wenn ihm jemand etwas wegnimmt, das er als sein Eigentum betrachtet, wartet er ab, bis er sich angemessen rächen kann.§!"
 
 #金樹信
 SIK_jin_shuxin: "Jin Shuxin"
+SIK_jin_shuxin_sic_desc: "§YGeboren:§! §Lim Kreis Yongjing, Provinz Gansu, Qing-Reich§!"
 
 #金繩武
 SIK_jin_shengwu: "Jin Shengwu"
+SIK_jin_shengwu_sic_desc: "§YGeboren:§! §Lim Kreis Yongjing, Provinz Gansu, Qing-Reich§!"
 
 #俞秀松
 SIK_yu_xiusong: "Yu Xiusong"
+SIK_yu_xiusong_advisor_desc: "§YGeboren:§! §L1. August 1899, in Zhuji, Provinz Zhejiang, Qing-Reich§!"
 
 #烏靜彬
 SIK_wu_jingbin: "Wu Jingbin"
+SIK_wu_jingbin_advisor_desc: "§YGeboren:§! §L23. Juli 1914, in Peking, Provinz Zhili, Qing-Reich§!"
 
-#廣祿
+#廣祿 (孔果洛氏)
 SIK_guanglu: "Guanglu"
+SIK_guanglu_advisor_desc: "§YGeboren:§! §L4. Mai 1900, im Kreis Ningyuan, Präfektur Yili, Provinz Xinjiang, Qing-Reich§!"
 
 #劉文龍
 SIK_liu_wenlong: "Liu Wenlong"
+SIK_liu_wenlong_advisor_desc: "§YGeboren:§! §L1870, in Yueyang, Provinz Hunan, Qing-Reich§!"
 
 #閻毓善
 SIK_yan_yushan: "Yan Yushan"
-
+SIK_yan_yushan_advisor_desc: "§YGeboren:§! §L1872, in Suzhou, Provinz Jiangsu, Qing-Reich§!"
 SIK_yibulayin: "Yibulayin"
+SIK_yibulayin_advisor_desc: "§YGeboren:§! §Lim Qing-Reich§!" # No further details
 
-SIK_huashengmu: "Huashengmu"
+#華聲慕
+SIK_hua_shengmu: "Hua Shengmu"
+SIK_hua_shengmu_advisor_desc: "§YGeboren:§! §L18. Juli 1909, im Kreis Yecheng, Provinz Xinjiang, Qing-Reich§!"
 
-SIK_alen_zheniskhanovich: "Alen Zheniskhanovich"
-
-#張培元
-SIK_zhang_peiyuan: "Zhang Peiyuan"
+#艾林郡王
+SIK_ailin_jingsi_khan: "Ailin Jingsi Khan"
+SIK_ailin_jingsi_khan_advisor_desc:  "§YGeboren:§! §L1889, in Altay, Provinz Xinjiang, Qing-Reich§!"
 
 #呂黎平
 SIK_lu_liping: "Lu Liping"
+SIK_lu_liping_air_chief_desc: "§YGeboren:§! §LJanuar 1917, in der Stadt Ganzhou, Kreis Xingguo, Provinz Jiangxi§!"
 
 #李笑天
 SIK_li_xiaotian: "Li Xiaotian"
+SIK_li_xiaotian_air_chief_desc: "§YGeboren:§! §Lin der Provinz Xinjiang, Qing-Reich§!"
 
 #黎海如
 SIK_li_hairu: "Li Hairu"
+SIK_li_hairu_high_command_desc: "§YGeboren:§! §L1885, im Kreis Pingyuan, Provinz Guangdong, Qing-Reich§!"
 
 #盛世騏
 SIK_sheng_shiqi: "Sheng Shiqi"
+SIK_sheng_shiqi_high_command_desc: "§YGeboren:§! §L1901, im Kreis Kaiyuan, Mandschurei, Qing-Reich§!"
 
 #蔣德裕
 SIK_jiang_deyu: "Jiang Deyu"
+SIK_jiang_deyu_high_command_desc: "§YGeboren:§! §L1909, im Kreis Hua, Provinz Henan, Qing-Reich§!"
 
 #陳御風
 SIK_chen_yufeng: "Chen Yufeng"
+SIK_chen_yufeng_high_command_desc: "§YGeboren:§! §L8. Januar 1911, im Kreis Gaiping, Mandschurei, Qing-Reich§!"
 
 ### Traits ###
 SIK_panicked_isolationism: "Panikhafter Isolationismus"

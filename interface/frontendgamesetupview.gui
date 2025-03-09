@@ -307,24 +307,6 @@ guiTypes = {
 				max_slots_horizontal = 1
 			}
 		}
-		
-		### temporary button to explain 1.15.4 savegame crash workaround ###
-
-		iconType = {
-			name = "savegame_crash_workaround_icon"
-			spriteType = "GFX_generic_square_button"
-			position = { x = 320 y = 100 }
-			centerPosition = yes
-			pdx_tooltip = savegame_crash_workaround_tt
-		}
-
-		iconType = {
-			name = "savegame_crash_workaround_glow"
-			spriteType = "GFX_building_repair"
-			position = { x = 320 y = 100 }
-			centerPosition = yes
-			scale = 0.86
-		}
 	}
 
 	containerWindowType = {
@@ -2287,6 +2269,7 @@ guiTypes = {
 			name = "ironman_cb"
 			position = { x = 530 y = 101 }
 			quadTextureSprite = "GFX_generic_checkbox"
+			pdx_tooltip = "FE_IRONMAN_TOOLTIP"
 			clicksound = click_checkbox
 		}
 
@@ -2306,6 +2289,7 @@ guiTypes = {
 			name = "historical_cb"
 			position = { x = 530 y = 145 }
 			quadTextureSprite ="GFX_generic_checkbox"
+			pdx_tooltip = "FE_HISTORICAL_TOOLTIP"
 			clicksound = click_checkbox
 		}
 	}

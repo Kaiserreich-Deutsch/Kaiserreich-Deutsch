@@ -326,6 +326,7 @@ SOM_airdoc: "Krieg führen am Himmel"
 SOM_airdoc_desc: "Der Schlüssel zum Erfolg in der Luft liegt in der Planung, dem vielleicht wichtigsten Aspekt jeder Luftmission. Wir müssen sicherstellen, dass unsere Offiziere gut vorbereitet und qualifiziert sind, um den Gefahren der Luftkriegsführung zu begegnen."
 
 ### Intro Screen ###
+SOM_country_intro_background: "GFX_SOM_intro"
 SOM_country_intro_header: "Vereint stehen wir!"
 SOM_country_intro_content: "Die zahlreichen Staaten Somalias wurden von Kolonisten ausgebeutet, und in den Augen der internationalen Gemeinschaft galten wir als schwach. Wir waren geteilt und standen Bruder gegen Bruder. Nach Abdullah Hassans erstaunlichen Siegen über die Italiener während des Weltkriegs hatte sich Italien jedoch vollständig aus Somalia zurückgezogen, und der Sultan von Warsangali war, wenn auch nur dem Namen nach, der britischen Kontrolle entglitten, da die Briten mit dem Kampf gegen die Deutschen beschäftigt waren. Der Vertrag von Versailles, der den Weltkrieg offiziell beendete, machte Somalia paradoxerweise frei, während es aufgrund der Verträge von Ali Shire ein britisches Protektorat blieb.\n\nDieser Status quo, von dem beide Parteien profitiert hatten, hielt jedoch nicht lange an, da das britische Empire zusammenbrach. In einem Moment, den man als opportunistisch bezeichnen könnte, eroberten Warsangalis Truppen das verbliebene Britisch-Somaliland, und die mit ihm verbündeten Fürsten riefen ihn zum Bogor, also zum Kaiser von Somalia, aus. Er versuchte jedoch, sich im Westen als König von Somalia zu bezeichnen, um die Monarchen der Mittelmächte zu umwerben und gleichzeitig die Autorität des Kalifen anzuerkennen.\n\nEs folgte Wohlstand für Somalia, unsere Felder wurden reich und unsere Städte größer. Außerdem gelang es uns, trotz des Widerstands von Äthiopien die Kontrolle über Ogaden zu erlangen. Unsere Straßen, Bücher und Universitäten sind allesamt Symptome dieses Ereignisses, das als somalische Renaissance bezeichnet wird, aber große Gefahren könnten noch vor uns liegen, denn die Weisen wissen, dass gute Zeiten nicht unbegrenzt anhalten können. Halie Selassie schaut neidisch auf unsere große Nation und Mittelafrikas neuer Gouverneur bleibt diplomatisch unnahbar. Was auch immer die Zukunft bringen mag, wir können uns mit der Tatsache zufrieden geben, dass wir jede sich uns bietende Gelegenheit ergriffen haben und Somalia gemeinsam in eine bessere und hellere Zukunft führen."
 
@@ -380,42 +381,59 @@ som.13.b: "Die Besteuerung einer so wichtigen Pflanze kann uns nur schaden."
 
 ### Characters ###
 SOM_aden_abdulle_osman_daar: "Aden Abdulle Osman Daar"
-SOM_aden_abdulle_osman_daar_leader_desc: "§YGeboren:§! §L9. Dezember 1908, in Beledweyne, Hiraan, Italienisch-Somaliland§!\n§YHintergrund:§! §LAden Abdulle erinnert sich noch sehr gut daran, wie es ist, unter der Herrschaft des Kolonialismus aufzuwachsen. Während seines Studiums nähert er sich immer mehr den syndikalistischen Ideologien an, die seiner Meinung nach gut zu Somalia passen; jeder Clan ist eine Gewerkschaft, die am besten autonom arbeitet, aber die meisten kooperieren mit ihren Nachbarn. Er wurde in letzter Zeit stark von der französischen Wissenschaft in Sachen dezentraler Führung beeinflusst und hofft, dass er dafür sorgen kann, dass Somalias harte Jahre der letzten Jahre langfristig in etwas Gutes münden.§!"
+SOM_aden_abdulle_osman_daar_leader_desc: "§YGeboren:§! §L9. Dezember 1908, in Beledweyne, Provinz Hiraan, Italienisch-Somaliland§!\n§YHintergrund:§! §LAden Abdulle erinnert sich noch sehr gut daran, wie es ist, unter der Herrschaft des Kolonialismus aufzuwachsen. Während seines Studiums nähert er sich immer mehr den syndikalistischen Ideologien an, die seiner Meinung nach gut zu Somalia passen; jeder Clan ist eine Gewerkschaft, die am besten autonom arbeitet, aber die meisten kooperieren mit ihren Nachbarn. Er wurde in letzter Zeit stark von der französischen Wissenschaft in Sachen dezentraler Führung beeinflusst und hofft, dass er dafür sorgen kann, dass Somalias harte Jahre der letzten Jahre langfristig in etwas Gutes münden.§!"
+SOM_aden_abdulle_osman_daar_army_chief_desc: "§YGeboren:§! §L9. Dezember 1908, in Beledweyne, Provinz Hiraan, Italienisch-Somaliland§!"
 
 SOM_haji_bashir_ismail_yusuf: "Haji Bashir Ismail Yusuf"
-SOM_haji_bashir_ismail_yusuf_leader_desc: "§YGeboren:§! §L1912, in Hobyo, Mudug, Italienisch-Somaliland§!\n§YHintergrund:§! §LDer aus dem Osman Mahmoud-Clan der Majarteen stammende Yusuf setzt sich für ein demokratischeres und gleichberechtigteres Somalia ein, auch wenn ihm der Eifer für Veränderungen fehlt, den viele seiner Kollegen an den Tag legen. Er hofft auf eine Somalische Demokratische Föderation, in der sowohl die kleinen Clans als auch die Stadtbewohner bei den Machthabern Gehör finden, und schwört, die Armut in den ländlichen Gebieten des Landes zu bekämpfen.§!"
+SOM_haji_bashir_ismail_yusuf_leader_desc: "§YGeboren:§! §L1912, in Hobyo, Provinz Mudug, Italienisch-Somaliland§!\n§YHintergrund:§! §LDer aus dem Osman Mahmoud-Clan der Majarteen stammende Yusuf setzt sich für ein demokratischeres und gleichberechtigteres Somalia ein, auch wenn ihm der Eifer für Veränderungen fehlt, den viele seiner Kollegen an den Tag legen. Er hofft auf eine Somalische Demokratische Föderation, in der sowohl die kleinen Clans als auch die Stadtbewohner bei den Machthabern Gehör finden, und schwört, die Armut in den ländlichen Gebieten des Landes zu bekämpfen.§!"
+SOM_haji_bashir_ismail_yusuf_advisor_desc: "§YGeboren:§! §L1912, in Hobyo, Provinz Mudug, Italienisch-Somaliland§!"
 
 SOM_abdirashid_ali_shermarke: "Abdirashid Ali Shermarke"
-SOM_abdirashid_ali_shermarke_leader_desc: "§YGeboren:§! §L8. Juni 1919, in Harardhere, Mudug, Italienisches Somaliland§!\n§YHintergrund:§! §LAli Shermarke, ein Majarteen aus Mudog, ist ein kompetenter junger Gelehrter, der sich sowohl im islamischen Recht als auch im Bundes- und Außenrecht gut auskennt. Er wünscht sich eine bündnisfreie und friedliche Außenpolitik, aber seine Wünsche könnten durch die Einflüsse, die ausländische Mächte derzeit auf Somalia ausüben, zunichte gemacht werden.§!"
+SOM_abdirashid_ali_shermarke_leader_desc: "§YGeboren:§! §L8. Juni 1919, in Harardhere, Provinz Mudug, Italienisches Somaliland§!\n§YHintergrund:§! §LAli Shermarke, ein Majarteen aus Mudog, ist ein kompetenter junger Gelehrter, der sich sowohl im islamischen Recht als auch im Bundes- und Außenrecht gut auskennt. Er wünscht sich eine bündnisfreie und friedliche Außenpolitik, aber seine Wünsche könnten durch die Einflüsse, die ausländische Mächte derzeit auf Somalia ausüben, zunichte gemacht werden.§!"
 
 SOM_jama_abdullahi_qalib: "Jama Abdullahi Qalib"
-SOM_jama_abdullahi_qalib_leader_desc: "§YGeboren:§! §Lin Hargeisa, Somalia§!\n§YHintergrund:§! §LJama Abdullahi Qalib ist ein junger Liberaler, der aus Hargeisa stammt. Sein Glaube an den Liberalismus als Weg in die Zukunft Somalias ist bewundernswert, aber seine Bereitschaft, mit Ausländern zusammenzuarbeiten, hat in der Bevölkerung Besorgnis ausgelöst, ebenso wie seine liberalen Vorstellungen von einer vollständigen Säkularisierung des Staates.§!"
+SOM_jama_abdullahi_qalib_leader_desc: "§YGeboren:§! §Lin Hargeisa, Provinz Hargeisa, Somalia§!\n§YHintergrund:§! §LJama Abdullahi Qalib ist ein junger Liberaler, der aus Hargeisa stammt. Sein Glaube an den Liberalismus als Weg in die Zukunft Somalias ist bewundernswert, aber seine Bereitschaft, mit Ausländern zusammenzuarbeiten, hat in der Bevölkerung Besorgnis ausgelöst, ebenso wie seine liberalen Vorstellungen von einer vollständigen Säkularisierung des Staates.§!"
 
 SOM_maxamuud_cali_shiire: "Maxamuud Cali Shiire"
-SOM_maxamuud_cali_shiire_leader_desc: "§YGeboren:§! §Lin Las Khorey, Sanag, Britisch-Somaliland§!\n§YHintergrund:§! §LMaxamuud Cali Shiire bestieg 1897 nach einem langwierigen Machtkampf mit seinem Vater Gerad Cali Shiire den Thron des Sultanats Warsangali und entstammt damit einer fast 600 Jahre alten Königslinie am Horn von Afrika. Obwohl Maxamuud Cali Shiire nominell den britischen Interessen untergeordnet war, trug seine Unterstützung für Abdullah Hassan, den verrückten Mullah, entscheidend dazu bei, Italien während des Weltkriegs in Afrika zu besiegen. Als geschickter politischer Navigator hat Maxamuud die Sultanate Somalias unter seiner nominellen Führung zu einer föderalen Monarchie vereinigt. Aber kann man einem Mann, der seinem eigenen Vater den Krieg um die Macht erklärt hat, zutrauen, dass er die verfassungsmäßigen Vorrechte nicht verletzt??§!"
+SOM_maxamuud_cali_shiire_leader_desc: "§YGeboren:§! §Lin Las Khorey, Provinz Sanag, Britisch-Somaliland§!\n§YHintergrund:§! §LMaxamuud Cali Shiire bestieg 1897 nach einem langwierigen Machtkampf mit seinem Vater Gerad Cali Shiire den Thron des Sultanats Warsangali und entstammt damit einer fast 600 Jahre alten Königslinie am Horn von Afrika. Obwohl Maxamuud Cali Shiire nominell den britischen Interessen untergeordnet war, trug seine Unterstützung für Abdullah Hassan, den verrückten Mullah, entscheidend dazu bei, Italien während des Weltkriegs in Afrika zu besiegen. Als geschickter politischer Navigator hat Maxamuud die Sultanate Somalias unter seiner nominellen Führung zu einer föderalen Monarchie vereinigt. Aber kann man einem Mann, der seinem eigenen Vater den Krieg um die Macht erklärt hat, zutrauen, dass er die verfassungsmäßigen Vorrechte nicht verletzt??§!"
 
 SOM_haaji_mahammad_husseen: "Haaji Mahammad Husseen"
 SOM_haaji_mahammad_husseen_leader_desc: "§YGeboren:§! §Lin Somalia§!\n§YHintergrund:§! §LHaaji Mohammed ist der Anführer einer Gruppe von Offizieren und Intellektuellen, die das Konzept eines Großsomalias und die Vereinigung des Volkes unter einem Ziel über alles andere stellen. Trotz seiner tiefen Bewunderung für Abdullah Hassan will seine Gruppe den Islam vollständig vom Staat abkoppeln, und eine solche Maßnahme ist auf vielen Ebenen der Gesellschaft unpopulär.§!"
 
-SOM_assembly_of_clans: "Assembly Of Clans"
+SOM_assembly_of_clans: "Versammlung der Clans"
+SOM_assembly_of_clans_sic_desc: "§YGegründet:§! §Lin Mogadischu, Provinz Benadir, Somalia§!"
 
 SOM_yaasiin_xaaji: "Yaasiin Xaaji"
+SOM_yaasiin_xaaji_advisor_desc: "§YGeboren:§! §L1917, in Hobyo, Provinz Mudug, Italienisches Somaliland§!"
 SOM_madar_hersi_deria: "Madar Hersi Deria"
+SOM_madar_hersi_deria_advisor_desc: "§YGeboren:§! §L1876, im Sultanat Habr Yunis§!"
 SOM_mukhtar_mohamed_husein: "Mukhtar Mohamed Husein"
+SOM_mukhtar_mohamed_husein_advisor_desc: "§YGeboren:§! §L1912, in Hudur, Provinz Bakool, Italienisches Somaliland§!"
 SOM_jama_korshel: "Jama Korshel"
+SOM_jama_korshel_advisor_desc: "§YGeboren:§! §L1911, in Erigavo, Provinz Sanaag, Britisch-Somaliland§!"
 SOM_abdallah_al_qutbi: "Abdallah al-Qutbi"
+SOM_abdallah_al_qutbi_advisor_desc: "§YGeboren:§! §L1879, in Qulunqul, Provinz Hararghe, Äthiopisches Reich§!"
 SOM_olol_dinle: "Olol Dinle"
+SOM_olol_dinle_advisor_desc: "§YGeboren:§! §Lin Somalia§!" # Died 1972 otl
 
 SOM_ismail_mire_elmi: "Ismail Mire Elmi"
+SOM_ismail_mire_elmi_high_command_desc: "§YGeboren:§! §L1862, in Buuhoodle, Isaaq-Sultanat§!"
 SOM_cusmaan_yuusuf_keenadiid: "Cusmaan Yuusuf Keenadiid"
+SOM_cusmaan_yuusuf_keenadiid_high_command_desc: "§YGeboren:§! §L1889, in Ceel Huur, Sultanat Hobyo§!"
 SOM_ughaz_abdi_ii_warfa: "Ughaz Abdi II Warfa"
+SOM_ughaz_abdi_ii_warfa_commander_desc: "§YGeboren:§! §L1854, in Zeila, Isaaq-Sultanat§!"
 
 SOM_cismaan_iii_maxamuud: "Cismaan III Maxamuud"
+SOM_cismaan_iii_maxamuud_navy_chief_desc: "§YGeboren:§! §L1860, im Sultanat Majeerteen§!"
 
 SOM_omar_sheikh_ahmed_aray: "Omar Sheikh Ahmed Aray"
+SOM_omar_sheikh_ahmed_aray_army_chief_desc: "§YGeboren:§! §Lin Somalia§!" # Fictional
 SOM_yasin_haji_osman_sharmarke: "Yasin Haji Osman Sharmarke"
+SOM_yasin_haji_osman_sharmarke_high_command_desc: "§YGeboren:§! §L1917, in Hobyo, Provinz Mudug, Italienisches Somaliland§!"
 SOM_abdulkadir_dheel: "Abdulkadir Dheel"
+SOM_abdulkadir_dheel_air_chief_desc: "§YGeboren:§! §Lin Somalia§!" # Died 1972 otl
 SOM_somali_military_council: "Somalischer Militärrat"
+SOM_somali_military_council_theorist_desc: "§YGegründet:§! §L1919, in Mogadischu, Provinz Benadir, Somalia§!"
 
 ### Traits ###
 SOM_tribal_assembly_1_sic: "Stammesversammlung"
