@@ -2,6 +2,10 @@
 ### Übersetzt von DerEherneRächer ###
  persia_focus: "Schwerpunktbaum von Persien"
 
+### Factions ###
+ golestan_pact: "Golestan-Pakt" #created by pers.60 event and renamed by pers.60 event
+ tabriz_accords: "Abkommen von Täbris" #created by arm.83 event
+
 ### Parties ###
  PER_totalist_party: "HSIi"
  PER_totalist_party_long: "Hezb Socialism Irani"
@@ -27,6 +31,7 @@
 
 ### Tooltips ###
  PER_embargo_anti_socialists_tt: "Wir werden gegen alle Feinde der Internationale ein §HEmbargo§! verhängen und ihnen somit Zugang zu unseren Ölreserven verwehren - doch dafür werden sie auch gegen uns ein Embargo verhängen."
+ PER_puppet_kurdistan_upon_war_tt: "§5Wenn Kurdistan existiert, wenn der Krieg gegen die Osmanen ausbricht, wird es unser Untertan werden.§!"
 
  PER_monarchy_tt: "Die Monarchie behält ihre Macht."
  PER_revolution_tt: "Eine Revolution hat stattgefunden."
@@ -290,6 +295,7 @@
  PER_KR_gathering_storm_desc: "Nach dem Weltkrieg konnte Persien seine vollständige Unabhängigkeit von den Russen und Briten erlangen, doch seither wurde das Land von Krisen geplagt.\n\nDer Schah, welcher sich seit dem Attentatsversuch vor einigen Jahren in schlechter Gesundheit befindet, hat nur noch wenig Zeit auf Erden und sein Bruder, Hassan Mirza, steht bereit, an seine Stelle zu treten. Royalisten glauben, dass er eine gestärkte Monarchie führten sollte, doch selbst seine Besteigung des Thrones ist noch nicht in Stein gemeißelt, da Republikaner und Sozialisten unaufhörlich eine Revolution fordern. Und natürlich besteht noch immer die Frage der persischen Lande unter osmanischer Kontrolle..."
 
 ### Intro Screen ###
+ PER_country_intro_background: "GFX_PER_intro"
  PER_country_intro_header: "Einführung: [PER.GetNameDef]"
  PER_country_intro_content: "In den letzten Jahrzehnten befand sich [PER.GetName] in einer Zeit des ständigen Wandels und der konstanten Instabilität. Nachdem es seine vollständige Unabhängigkeit von Russland und Großbritannien erzielen konnte, hatte es Schwierigkeiten dabei, seinen Platz in der Welt zu finden. In ganz [PER.GetName], von den kleinsten Dörfern am Rande der Nation bis hin zu den großen Städten wie [266.GetCapitalVictoryPointName], bildet sich eine Kluft zwischen den Menschen und ihren unterschiedlichen Ansichten. Vor einigen Jahren wurde der Schah selbst von einem sozialistischen Attentäter angeschossen. Obwohl er überlebte, verschlechterte dieser Vorfall seine Gesundheit immens. Es ist klar, dass die Nation so nicht überleben kann. Da der Tod des Schahs sich zu nähern scheint, befürchten viele, dass aus den ideologischen Differenzen eine organisierte Revolte hervorgehen könnte. Demokraten versuchen eine Republik zu errichten, Royalisten unterstützen eine Monarchie unter der Führung von Hassan Mirza, dem Bruder des Schahs, und Sozialisten wollen den ersten sozialistischen Staat im Nahen Osten gründen. Wir können nur hoffen, dass die Machtübernahme friedlich verlaufen wird...\n\nDas Militär unserer Nation ist ein Schatten seiner früheren Selbst und unsere Nation erholt sich noch immer von einer Hungersnot, die Millionen dahingerafft hat. Hinzu kommt, dass die Politik von der korrupten Aristokratie dominiert wird, was die politische Legitimität der derzeitigen Regierung entscheidend schwächt. Unsere Nation hat viele Probleme, die gelöst werden müssen, doch wenn wir dies schaffen, könnten wir zum großartigsten und mächtigsten Reich werden, das der Nahe Osten je gesehen hat."
  
@@ -561,6 +567,10 @@
  pers.69.d: "Unser Ultimatum bezüglich der Insel Bahrain wurde zurückgewiesen. Nun bleibt uns nur noch der Krieg, um unsere rechtmäßige Herrschaft über die Insel wiederherzustellen."
  pers.69.a: "In den Krieg!"
 
+ pers.70.t: "Die Annexion von Sulaymaniyah"
+ pers.70.d: "Nun, da sich der Staub gelegt hat und wir siegreich über die osmanischen Armeen hervorgegangen sind, scheint es, dass unser kurdischer Verbündeter seinen Nutzen überlebt hat. [KUR.GetLeader] konnte seine wackelige Herrschaft über die Region nur dank des andauernden Krieges gegen die Türken aufrechterhalten, und mit ihrem Zusammenbruch haben viele seiner ehemaligen Mitstreiter bereits begonnen, sich gegen ihn zu wenden, da er weit davon entfernt ist, die Region zu vereinen.\n\nUm die Ordnung in der Region wiederherzustellen, haben wir mehrere Divisionen sowohl in die Stadt Sulaimaniya als auch auf das Land geschickt und den verschiedenen Kriegsherren, die versuchen, das Chaos auszunutzen, das gleiche Ultimatum gestellt: Legt eure Waffen nieder oder sterbt.\n\nDa die desorganisierten Kräfte, aus denen sich die Armeen unserer ehemaligen Verbündeten zusammensetzten, von jeglicher ausländischer Unterstützung abgeschnitten sind und sich einer weitgehend apathischen Bevölkerung gegenübersehen, die sich eine Rückkehr zur Stabilität wünscht, war unsere Armee in der Lage, die gesamte Region effektiv zu besetzen, und auch wenn wir mit sporadischem Widerstand rechnen müssen, gehört Sulaymaniyah jetzt uns."
+ pers.70.a: "Wirklich, wir hatten keine Wahl."
+
  pers.80.t: "Frieden mit Russland?"
  pers.80.d: "Wir haben Russland nun schon bis zum Schwarzen Meer zurückgedrängt. Dennoch sollten wir versuchen, unsere militärischen Kapazitäten nicht zu überschreiten, weshalb es klug wäre, Russland ein Friedensangebot zu unterbreiten."
  pers.80.a: "Bietet ihnen Frieden an."
@@ -734,35 +744,68 @@
  
  ### Characters ###
  PER_avetis_soltanzadeh: "Avetis Soltanzadeh"
+ PER_avetis_soltanzadeh_leader_desc: "§YGeboren:§! §L1889, in Maragheh, Provinz Aserbaidschan, Erhabener Staat Persien§!"
  PER_jafar_pishevari: "Ja'far Pishevari"
+ PER_jafar_pishevari_leader_desc: "§YGeboren:§! §L26. August 1892, in Zaviyeh-ye Sadat, Provinz Aserbaidschan, Erhabener Staat Persien§!"
  PER_iraj_eskandari: "Iraj Eskandari"
+ PER_iraj_eskandari_leader_desc: "§YGeboren:§! §L1907, in Teheran, Provinz Teheran, Erhabener Staat Persien§!"
  PER_hasan_taqizadeh: "Hasan Taqizadeh"
+ PER_hasan_taqizadeh_leader_desc: "§YGeboren:§! §L27. September 1878, in Täbris, Provinz Aserbaidschan, Hoher Staat Iran§!"
  PER_mohammad_mosaddegh: "Mohammad Mosaddegh"
+ PER_mohammad_mosaddegh_leader_desc: "§YGeboren:§! §L16. Juni 1882, in der Provinz Ahmedabad, Erhabener Staat Persien§!"
  PER_mohammad_ali_foroughi_zoka_ol_molk: "Mohammad Ali Foroughi Zoka-ol-Molk"
+ PER_mohammad_ali_foroughi_zoka_ol_molk_leader_desc: "§YGeboren:§! §LJuli 1877, in Teheran, Provinz Teheran, Erhabener Staat Persien§!"
  PER_ahmad_qavam: "Ahmad Qavām"
+ PER_ahmad_qavam_leader_desc: "§YGeboren:§! §L2. Januar 1873, in Teheran, Provinz Teheran, Erhabener Staat Persien§!"
  PER_reza_khan: "Reza Khan"
+ PER_reza_khan_leader_desc: "§YGeboren:§! §L15. März 1878, in Alasht, Provinz Mazandaran, Erhabener Staat Persien§!"
  PER_mahmud_aqa_ansari: "Mahmud Aqa Ansari"
- PER_ahmad_shah_qajar: "Ahmad Shah Kadschar"
- PER_hassan_mirza_qajar: "Hassan Shah Kadschar"
- PER_hamid_mirza_qajar: "Hamid Shah Kadschar"
+ PER_mahmud_aqa_ansari_leader_desc: "§YGeboren:§! §L1871, in Anjireh, Provinz Hormozgan, Erhabener Staat Persien§!"
+ PER_ahmad_shah_qajar: "Ahmad Shah Qajar"
+ PER_ahmad_shah_qajar_leader_desc: "§YGeboren:§! §L21. Januar 1898, in Täbris, Provinz Aserbaidschan, Erhabener Staat Persien§!"
+ PER_hassan_mirza_qajar: "Hassan Shah Qajar"
+ PER_hassan_mirza_qajar_commander_desc: "§YGeboren:§! §L21. Januar 1898, in Täbris, Provinz Aserbaidschan, Erhabener Staat Persien§!"
+ PER_hamid_mirza_qajar: "Hamid Shah Qajar"
+ PER_hamid_mirza_qajar_leader_desc: "§YGeboren:§! §L23. April 1918, in Täbris, Provinz Aserbaidschan, Erhabener Staat Persien§!"
  PER_karim_agha_khan_buzarjomehri: "Karim Agha Khan Buzarjomehri"
+ PER_karim_agha_khan_buzarjomehri_commander_desc: "§YGeboren:§! §L1886, in Natanz, Esfahan Province, Sublime State of Persia§!"
  PER_ahmad_akghar: "Ahmad Akghar"
+ PER_ahmad_akghar_commander_desc: "§YGeboren:§! §L1888, in Teheran, Provinz Teheran, Erhabener Staat Persien§!"
  PER_ahmad_amir_ahmadi: "Ahmad Amir-Ahmadi"
+ PER_ahmad_amir_ahmadi_army_chief_desc: "§YGeboren:§! §L1884, in Isfahan, Provinz Isfahan, Erhabener Staat Persien§!"
  PER_abdollah_khan_amir_tahmasebi: "Abdollah Khan Amir Tahmasebi"
+ PER_abdollah_khan_amir_tahmasebi_commander_desc: "§YGeboren:§! §L1881, in Teheran, Provinz Teheran, Erhabener Staat Persien§!"
  PER_morteza_yazdanpanah: "Morteza Yazdanpanah"
+ PER_morteza_yazdanpanah_army_chief_desc: "§YGeboren:§! §L1888, in Teheran, Provinz Teheran, Erhabener Staat Persien§!"
  PER_mohammad_pouladin: "Mohammad Pouladin"
+ PER_mohammad_pouladin_commander_desc: "§YGeboren:§! §L1885, im Erhabenen Staat Persien§!"
  PER_amanollah_jahanbani: "Amanollah Jahanbani"
+ PER_amanollah_jahanbani_high_command_desc: "§YGeboren:§! §L1891, in Teheran, Provinz Teheran, Erhabener Staat Persien§!"
  PER_fazlollah_zahedi: "Fazlollah Zahedi"
+ PER_fazlollah_zahedi_high_command_desc: "§YGeboren:§! §L17. Mai 1892, in Hamedan, Provinz Kermanshah, Erhabener Staat Persien§!"
  PER_mohammad_taqi_khan_pessian: "Mohammad Taqi-Khan Pessian"
+ PER_mohammad_taqi_khan_pessian_air_chief_desc: "§YGeboren:§! §L1892, in Täbris, Provinz Aserbaidschan, Erhabener Staat Persien§!"
  PER_gholamali_bayandor: "Gholamali Bayandor"
+ PER_gholamali_bayandor_navy_chief_desc: "§YGeboren:§! §L13. Dezember 1898, in Teheran, Provinz Teheran, Erhabener Staat Persien§!"
  PER_ehsanollah_khan_dustdar: "Ehsanollah Khan Dustdar"
+ PER_ehsanollah_khan_dustdar_advisor_desc: "§YGeboren:§! §L1883, in Sari, Provinz Mazandaran, Erhabener Staat Persien§!"
  PER_morteza_hejazi: "Morteza Hejazi"
+ PER_morteza_hejazi_advisor_desc: "§YGeboren:§! §L1902, in Teheran, Provinz Teheran, Erhabener Staat Persien§!"
  PER_khalil_maleki: "Khalil Maleki"
+ PER_khalil_maleki_advisor_desc: "§YGeboren:§! §L1901, in Täbris, Provinz Aserbaidschan, Erhabener Staat Persien§!"
  PER_ebrahim_hakimi: "Ebrahim Hakimi"
+ PER_ebrahim_hakimi_advisor_desc: "§YGeboren:§! §L1869, in Täbris, Provinz Aserbaidschan, Erhabener Staat Persien§!"
  PER_seyyed_ziaeddin_tabatabai: "Seyyed Zia'eddin Tabataba'i"
+ PER_seyyed_ziaeddin_tabatabai_advisor_desc: "§YGeboren:§! §LJuni 1889, in Schiraz, Provinz Fars, Erhabener Staat Persien§!"
  PER_mohammad_taqi_bahar: "Mohammad-Taqi Bahar"
+ PER_mohammad_taqi_bahar_advisor_desc: "§YGeboren:§! §L11. Dezember 1886, in Mashhad, Provinz Khorasan, Erhabener Staat Persien§!"
  PER_mohammad_farmanfarmaian: "Mohammad Vali Farmanfarmaian"
+ PER_mohammad_farmanfarmaian_advisor_desc: "§YGeboren:§! §L1890, in Täbris, Provinz Aserbaidschan, Erhabener Staat Persien§!"
  PER_firouz_od_dowleh: "Firouz Nosrat-Od Dowleh III"
+ PER_firouz_od_dowleh_advisor_desc: "§YGeboren:§! §L1889, in Teheran, Provinz Teheran, Erhabener Staat Persien§!"
  PER_abolhassan_ebtehaj: "Abolhassan Ebtehaj"
+ PER_abolhassan_ebtehaj_advisor_desc: "§YGeboren:§! §L29. November 1899, in Rasht, Provinz Gilan, Erhabener Staat Persien§!"
  PER_jafar_gholi: "Jafar Gholi Khan Bakhtiari"
- PER_joint_committee_of_national_defence: "Nationales Verteidigungskomitee"
+ PER_jafar_gholi_advisor_desc: "§YGeboren:§! §L1879, in der Provinz Bakhtiari, Erhabener Staat Persien§!"
+ PER_joint_committee_of_national_defence: "Gemeinsamer Ausschuss für nationale Verteidigung"
+ PER_joint_committee_of_national_defence_theorist_desc: "§YGegründet:§! §Lin Teheran, Provinz Teheran, Erhabener Staat Persien§!"

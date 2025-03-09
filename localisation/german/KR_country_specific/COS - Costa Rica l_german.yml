@@ -172,7 +172,7 @@
  COS_Nicaragua_Palm_Oil: "Palmplantagen in Nicaragua entwickeln"
 
  COS_Market_decisions: "Globaler Handel"
- COS_Market_decisions_desc: "Da Nationen auf der ganzen Welt ihre Waffenindustrie drastisch ausbauen, um von dieser Gelegenheit zu profitieren, verfügen wir über die Ressourcen, um ebenfalls am Handel teilzunehmen.\n\nUFC Profit: §Y[?COS.cos_profit_factor]§!\n"
+ COS_Market_decisions_desc: "Da Nationen auf der ganzen Welt damit begonnen haben, die Produktion ihrer Waffenindustrie drastisch zu erhöhen, um Gewinne zu erzielen, verfügen wir nun über die Ressourcen, um ebenfalls an diesem Handel teilzunehmen.\n\nUFC Profit: §Y[?COS.cos_profit_factor]§!\n"
 
  COS_Purchase_Convoys: "Handelsschiffe kaufen"
  COS_Purchase_Trucks: "Ausländische Lastwagen kaufen" 
@@ -239,7 +239,7 @@
  COS_merge_with_the_andean_pact_desc: "Der Andenpakt wurde geschaffen, um Stabilität und Schutz in ihrer Region zu gewährleisten, und ihre Ziele sind unseren sehr ähnlich, aber ein Streit um Panama hat die Beziehungen zwischen uns und Kolumbien getrübt. Der beste Weg, diese Kluft zu überbrücken, ist, sie in unsere Allianz einzuladen und unsere Probleme intern zu lösen."
  COS_integrate_into_CEN: "Wiedereintritt in die Bundesrepublik"
  COS_integrate_into_CEN_desc: "Mit vier Mitgliedern der Republik, die bereits vereint sind und bereit sind, für unsere Sache zu kämpfen, ist es an der Zeit, der Bundesrepublik wieder beizutreten, um ihnen bei der Beseitigung der Probleme zu helfen, die die erste zerrissen haben, um die Demokratie in der Union aufrechtzuerhalten und eine mächtige Armee aufzubauen, die in der Lage ist, uns zu schützen und das Ziel unserer Allianz weiterzuführen."
- COS_Invasion: "[FROM.GetName] befreien"
+ COS_Invasion: "[FROM.GetNameDef] befreien"
  COS_Invasion_desc: "Zu lange haben die Menschen in [FROM.GetName] unter Diktatoren und korrupten Beamten gelitten. Um dies zu korrigieren, hat es sich die Karibische Legion zur Aufgabe gemacht, diese Menschen zu befreien, das Regime zu stürzen und die Demokratie in der Nation wiederherzustellen."
 
  CEN_COS_peace_timer: "Frieden mit der Karibischen Allianz"
@@ -278,7 +278,7 @@
 
  COS_influence_of_the_UFC_dynamic_modifier: "£pol_idea Einfluss der UFC"
  COS_influence_of_the_UFC_idea: "Einfluss der UFC"
- COS_influence_of_the_UFC_idea_desc: "Die United Fruit Company oder UFC hat Eisenbahnen, Infrastrukturen und Wohnungen gebaut, um ihre Geschäfte auf unserem Land auszuweiten, aber die schrecklichen Praktiken, die ihre Angestellten ertragen müssen, haben ihnen einen schrecklichen Ruf eingebracht.\nAktueller Einfluss der UFC: §Y[?COS.COS_UFC_influence]§!\n§W-----------------\nDaraus ergeben sich folgende Effekte:\n$MODIFIER_POLITICAL_POWER_GAIN$: [?COS.COS_UFC_influence_modifier|+=]\n$MODIFIER_STABILITY_POPULARITY_FACTOR$: [?COS.COS_UFC_influence_modifier|+=%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?COS.COS_UFC_influence_construction_speed|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$:§! §Y[?COS.COS_UFC_influence_consumer_goods|=%]§!"
+ COS_influence_of_the_UFC_idea_desc: "Die United Fruit Company oder die UFC hat Eisenbahnen, Infrastrukturen und Wohnungen gebaut, um ihre Geschäfte in unserem Land auszuweiten, aber die schrecklichen Praktiken, die ihre Angestellten ertragen müssen, haben ihnen einen schrecklichen Ruf eingebracht.\nAktueller Einfluss der UFC: §Y[?COS.COS_UFC_influence]§!\n§W-----------------\nDaraus ergeben sich folgende Effekte:\n$MODIFIER_POLITICAL_POWER_GAIN$: [?COS.COS_UFC_influence_modifier|+=]\n$MODIFIER_STABILITY_POPULARITY_FACTOR$: [?COS.COS_UFC_influence_modifier|+=%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?COS.COS_UFC_influence_construction_speed|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$:§! §Y[?COS.COS_UFC_influence_consumer_goods|=%]§!"
 
  COS_influence_of_the_ZKG_dynamic_modifier: "£pol_idea Einfluss der ZKG"
  COS_influence_of_the_ZKG_idea: "Einfluss der ZKG"
@@ -538,6 +538,7 @@
  COS_KR_gathering_storm_desc: "Der Klassenkrieg, die schnelle Militarisierung und der eiserne Griff des Kaisers halten die Welt in ihrem Bann, was es umso eigenartiger macht, dass wir inmitten all dieser Gewalt und des Schmerzes die kleine Republik Costa Rica finden. Mit großem Stolz auf ihre beeindruckenden Alphabetisierungsstatistiken und ihre unerschütterliche Verfassungstreue steht die Nation wie ein Fels über ihren Nachbarn, die seit langem ihr Land im Visier haben. Während ihr größter Verbündeter ins Chaos abzugleiten beginnt, warten Geier in ganz Amerika darauf, dass der stolze Adler fällt. Diplomatie muss sich durchsetzen, wenn wir die kommende Flut überleben wollen..."
 
 ### Intro Screen ###
+ COS_country_intro_background: "GFX_COS_intro"
  COS_country_intro_header: "Costa Rica: Eine zentralamerikanische Erfolgsgeschichte"
  COS_country_intro_content: "Tief in den zentralamerikanischen Dschungeln verborgen, hat unsere kleine aber stolze Nation viele Jahrzehnte lang floriert, mit einer Alphabetisierungsrate höher als in manchen europäischen Nationen und einer langsam aber stetig wachsenden Wirtschaft, basierend auf dem Bananen- und besonders dem Kaffeehandel.\n\nGesichert durch die strikte Verfassungstreue aller Parteien gab es seit der gescheiterten Diktatur von Ticino 1917, der unter dem Druck des Volkes nach nur wenigen Monaten abgesetzt wurde, da es keinen Diktator in ihrer Republik dulden wollte, keine militärische Intervention oder politischen Putsch in der Nation. Seither wird die Nation von einer vielfältigen, wenn auch egalitären Politikerkaste kontrolliert, die die Früchte der wachsenden deutschen Wirtschaft und die engen Beziehungen zwischen unseren beiden Nationen genießt.\n\nUnter dem Schutz der PRN kann Präsident Ricardo Jiminez auf eine erfolgreiche Amtszeit zurückblicken, in der er sowohl die durch die amerikanische Rezession verursachte Wirtschaftsdepression als auch die erstarkenden Stimmen sozialistischer Bewegungen bewältigte, die, begeistert vom Atlantischen Arbeiterkongress, endlich aus ihrem Schlummer erwacht sind und bessere Vertretung forderten. Obwohl sie ihre Ziele teilweise erreichten und die Regierung zur Ausarbeitung eines Arbeitsabkommens zwangen, ist das Gesetz noch lange nicht verabschiedet und unter dem aufsteigenden Stern von Manuel Mora Valverde sind die Probleme zwischen Unternehmen und Arbeitern noch lange nicht vorbei.\n\nNichtsdestotrotz floriert die Nation, da die Früchte unserer Beziehungen zu Mitteleuropa in Form von kulturellen Austauschprogrammen, wissenschaftlicher Unterstützung und einer starken Verbindung zwischen Universitäten wie der KU Leuven in Flandern-Wallonien und der costa-ricanischen Oberschicht einfließen."
 
@@ -695,7 +696,7 @@
  cos.33.d_ending: "Diplomaten beider Nationen haben sich in David versammelt, um die offiziellen Dokumente fertigzustellen, und nach Abschluss der Formalitäten wird die Situation endgültig gelöst sein. Costa Rica wird die Region Coto behalten und Panama wird alle Ansprüche auf das Territorium aufgeben."
  cos.33.a: "Wieder einmal gute Arbeit geleistet."
 
- cos.34.d: "Da die panamaische Regierung die Angelegenheit nicht weiter eskalieren lassen will und die kanadische militärische Stärke fürchtet, hat sie zugestimmt, den Streit zu beenden und sich an das Fallo White Urteil zu halten. $cos.33.d_ending$"
+ cos.34.d: "Da die panamaische Regierung die Angelegenheit nicht weiter eskalieren lassen will und die [FROM.GetAdjective] militärische Stärke fürchtet, hat sie zugestimmt, den Streit zu beenden und sich an das Fallo White Urteil zu halten. $cos.33.d_ending$"
  cos.34.a: "Ein weiterer Erfolg für die Diplomatie!"
 
  cos.35.t: "Panama Fordert Finanzielle Entschädigung"
@@ -719,7 +720,8 @@
 
  cos.40.t: "[FROM.GetNameDefCap] verweigert weitere Zusammenarbeit"
  cos.40.d_start: "Obwohl sie in der Vergangenheit behaupteten, dass eine Entschädigung für die Coto-Region hätte gewährt werden können, machte die [FROM.GetAdjective] Delegation heute eine völlige Kehrtwende und bestreitet, dass es jemals ein solches Angebot gab."
- cos.40.d: "$cos.40.d_start$ Die überheblichen Briten wiederholen, dass Panama sich an das Fallo White Urteil halten muss und glauben, dass die Krise so gut wie vorbei ist."
+ cos.40.can.d: "$cos.40.d_start$ Die überheblichen Briten wiederholen, dass Panama sich an das Fallo White Urteil halten muss und glauben, dass die Krise so gut wie vorbei ist."
+ cos.40.ger.d: "$cos.40.d_start$ Indem sie wiederholen, dass Panama sich an das Urteil von Fallo White halten muss, glauben die eingebildeten Krauts, dass die Krise so gut wie vorbei ist."
  cos.40.a: "Dann werden wir es mit Gewalt nehmen!"
  cos.40.b: "Wir haben keine andere Wahl als nachzugeben."
 
@@ -727,27 +729,18 @@
  cos.41.d: "Die Verhandlungen sind gescheitert und Panama hat Costa Rica offiziell den Krieg erklärt. Da wir während der Gespräche auf der Seite Costa Ricas standen, hat Panama auch uns angeprangert und uns herausgefordert, unsere Stärke auf dem Schlachtfeld statt in einem muffigen Büro zu beweisen."
  cos.41.a: "Tja, das lief nicht so gut."
 
- cos.42.d: "Wie wir bereits befürchteten, hat das überhebliche Verhalten der kanadischen Delegation Panama zu weit getrieben und der Krieg ist schließlich ausgebrochen. Während wir die Unterstützung unserer Entente-Verbündeten haben, hätte all dies friedlich verhindert werden können..."
+ cos.42.can.d: "Wie wir bereits befürchteten, hat das überhebliche Verhalten der kanadischen Delegation Panama zu weit getrieben und der Krieg ist schließlich ausgebrochen. Während wir die Unterstützung unserer Entente-Verbündeten haben, hätte all dies friedlich verhindert werden können..."
+ cos.42.ger.d: "Wie wir bereits befürchtet haben, hat das übermütige Verhalten der deutschen Delegation Panama zu weit getrieben, und der Krieg ist schließlich ausgebrochen. Wir haben zwar die Unterstützung unserer deutschen Verbündeten, aber das alles hätte friedlich verhindert werden können..."
  cos.42.a: "Alle Mann auf Gefechtsstation!"
 
  cos.43.t: "Costa Rica verweigert die Zahlung"
  cos.43.d: "Der so sorgfältig vorbereitete Deal für die Costa-Ricaner wurde heute Morgen von San Jose abgelehnt, mit der Begründung, dass Panama keine gültige Grundlage habe, irgendetwas von ihnen zu fordern und dass sie froh sein sollten, dass Costa Rica überhaupt zu Verhandlungen bereit sei. Ob diese harten Worte die Situation eskalieren lassen werden, bleibt abzuwarten, aber ein Kompromiss ist jetzt vollständig vom Tisch."
  cos.43.a: "Hoffentlich verärgern sie Panama nicht."
 
- cos.44.t: "Kanada gibt eine Warnung aus!"
+ cos.44.t: "[FROM.GetNameDefCap] gibt eine Warnung aus!"
  cos.44.d: "Auf Ersuchen ihres Verbündeten Costa Rica hat die [FROM.GetAdjective] Regierung in der Krise zu deren Gunsten interveniert. Die Kanadier fordern, dass wir uns an das Fallo White Urteil halten und haben einen ihrer Kreuzer nahe unserer Küste positioniert, um uns einzuschüchtern."
  cos.44.a: "Das Fallo White Urteil akzeptieren."
- cos.44.b: "Wir haben keine Angst vor Kanada!"
-
-# German mediation events mostly reuse Canadian mediation loc
- cos.48.d: "Da sie die Angelegenheit nicht weiter eskalieren wollen und die deutsche Militärmacht fürchten, hat die Regierung Panamas zugestimmt, den Streit zu beenden und sich an das Fallo White Urteil zu halten. $cos.33.d_ending$"
-
- cos.54.d: "$cos.40.d_start$ Die überheblichen Krauts wiederholen, dass Panama sich an das Fallo White Urteil halten muss und glauben, dass die Krise so gut wie vorbei ist."
-
- cos.56.d: "Wie bereits befürchtet, hat das überhebliche Verhalten der deutschen Delegation Panama zu weit getrieben und der Krieg ist nun endlich ausgebrochen. Obwohl wir die Unterstützung unserer deutschen Verbündeten haben, hätte all dies friedlich verhindert werden können..."
-
- cos.58.t: "Deutschland sendet eine Warnung!"
- cos.58.b: "Wir haben keine Angst vor dem Kaiser!"
+ cos.44.b: "Wir haben keine Angst vor [FROM.GetNameDefCap]!"
 
 ### Other Events ###
  cos.59.t: "Nationalstreik"
@@ -1080,30 +1073,45 @@
 
 ### Characters ###
  COS_manuel_mora_valverde: "Manuel Mora Valverde"
+ COS_manuel_mora_valverde_leader_desc: "§YGeboren:§! §L27. August 1909, in San José, Provinz San José, Republik Costa Rica§!"
  COS_rafael_angel_calderon_guardia: "Rafael Ángel Calderón Guardia"
+ COS_rafael_angel_calderon_guardia_leader_desc: "§YGeboren:§! §L10. März 1900, in San José, Provinz San José, Republik Costa Rica§!"
  COS_teodoro_picado_michalski: "Teodoro Picado Michalski"
+ COS_teodoro_picado_michalski_leader_desc: "§YGeboren:§! §L10. Januar 1900, in San José, Provinz San José, Republik Costa Rica§!"
  COS_jose_figueres_ferrer: "José Figueres Ferrer"
+ COS_jose_figueres_ferrer_army_chief_desc: "§YGeboren:§! §L25. September 1906, in San Ramón, Provinz Alajuela, Republik Costa Rica§!"
  COS_francisco_vargas_vargas: "Francisco Vargas Vargas"
  COS_carlos_maria_jimenez_ortiz: "Carlos María Jiménez Ortiz"
 
  COS_ricardo_jimenez_oreamuno: "Ricardo Jiménez Oreamuno"
- COS_ricardo_jimenez_oreamuno_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 6. Februar 1859 in Cartago, Republik Costa Rica\n§YPolitikkarriere:§! Als Sohn des zweimaligen Präsidenten Jesús Jiménez Zamora stieg Ricardo Jiménez Oreamuno vor dem Weltkrieg zu Prominenz auf. In seiner ersten Amtszeit als Präsident zwischen 1910 und 1914 überwachte er die Rückzahlung der lähmenden Staatsschulden des Landes. Während seiner dritten Amtszeit als Präsident waren die Staatsschulden erneut in die Höhe geschnellt, und wieder versuchte Präsident Jiménez, weniger erfolgreich als zuvor, Costa Rica vor dem Staatsbankrott zu bewahren.\nMit Blick in die Zukunft befürchtet Jiménez, dass ohne eine prinzipientreue Hand die costa-ricanische Demokratie von ausländischen Wirtschaftsinteressen gekapert werden könnte. Vielleicht werden solche Befürchtungen, auch wenn er sich aus der Politik zurückziehen möchte, seine weitere Präsenz sicherstellen."
+ COS_ricardo_jimenez_oreamuno_leader_desc: "§YGeboren:§! §L6. Februar 1859 in Cartago, Provinz Cartago, Republik Costa Rica§!\n§YHintergrund:§! §LAls Sohn des zweimaligen Präsidenten Jesús Jiménez Zamora stieg Ricardo Jiménez Oreamuno vor dem Weltkrieg zu Prominenz auf. In seiner ersten Amtszeit als Präsident zwischen 1910 und 1914 überwachte er die Rückzahlung der lähmenden Staatsschulden des Landes. Während seiner dritten Amtszeit als Präsident waren die Staatsschulden erneut in die Höhe geschnellt, und wieder versuchte Präsident Jiménez, weniger erfolgreich als zuvor, Costa Rica vor dem Staatsbankrott zu bewahren.\nMit Blick in die Zukunft befürchtet Jiménez, dass ohne eine prinzipientreue Hand die costa-ricanische Demokratie von ausländischen Wirtschaftsinteressen gekapert werden könnte. Vielleicht werden solche Befürchtungen, auch wenn er sich aus der Politik zurückziehen möchte, seine weitere Präsenz sicherstellen.§!"
 
  COS_leon_cortes_castro: "León Cortés Castro"
+ COS_leon_cortes_castro_leader_desc: "§YGeboren:§! §L8. Oktober 1882, in Alajuela, Provinz Alajuela, Republik Costa Rica§!"
  COS_julio_acosta_garcia: "Julio Acosta García"
+ COS_julio_acosta_garcia_leader_desc: "§YGeboren:§! §L23. Mai 1872, in San Ramón, Provinz Alajuela, Republik Costa Rica§!"
 
  COS_consejo_de_seguridad_nacional: "Consejo de Seguridad Nacional"
- COS_consejo_de_seguridad_nacional_leader_desc: "Angesichts großer politischer Unruhen wurde ein überwiegend konservativer Ministerrat ernannt, der gemeinsam als Staats- und Regierungsoberhaupt fungiert, während nationale Angelegenheiten geordnet werden."
+ COS_consejo_de_seguridad_nacional_leader_desc: "§YGegründet:§! §Lin San José, Provinz San José, Republik Costa Rica§!\n§YHintergrund:§! §LAngesichts großer politischer Unruhen wurde ein überwiegend konservativer Ministerrat ernannt, der gemeinsam als Staats- und Regierungsoberhaupt fungiert, während nationale Angelegenheiten geordnet werden.§!"
 
  COS_max_koberg_bolandi: "Max Koberg Bolandi"
 
  COS_rafael_castro_quesada: "Rafael Castro Quesada"
+ COS_rafael_castro_quesada_army_chief_desc: "§YGeboren:§! §L27. März 1885, in San José, Provinz San José, Republik Costa Rica§!"
  COS_arturo_quiros_carranza: "Arturo Quirós Carranza"
+ COS_arturo_quiros_carranza_army_chief_desc: "§YGeboren:§! §L8. Juni 1887, in San José, Provinz San José, Republik Costa Rica§!"
 
  COS_ricardo_castro_beeche: "Ricardo Castro Beeche"
+ COS_ricardo_castro_beeche_advisor_desc: "§YGeboren:§! §L11. April 1894, in San José, Provinz San José, Republik Costa Rica§!"
  COS_rafael_calderon_mumoz: "Rafael Calderon Mumoz"
+ COS_rafael_calderon_mumoz_advisor_desc: "§YGeboren:§! §L24. Oktober 1869, in San José, Provinz San José, Republik Costa Rica§!"
  COS_jose_albertazzi_avendano: "Jose Albertazzi Avendano"
+ COS_jose_albertazzi_avendano_advisor_desc: "§YGeboren:§! §L15. Januar 1892, in Paraíso, Provinz Cartago, Republik Costa Rica§!"
  COS_juan_rafael_arias_bonilla: "Juan Rafael Arias Bonilla"
+ COS_juan_rafael_arias_bonilla_advisor_desc: "§YGeboren:§! §L15. Februar 1877, in Heredia, Provinz Heredia, Republik Costa Rica§!"
  COS_cleto_gonzalez_viquez: "Cleto Gonzalez Viquez"
+ COS_cleto_gonzalez_viquez_advisor_desc: "§YGeboren:§! §L13. Oktober 1858, in Barva, Provinz Heredia, Republik Costa Rica§!"
  COS_santos_leon_herrera: "Santos Leon Herrera"
+ COS_santos_leon_herrera_advisor_desc: "§YGeboren:§! §L21. Mai 1874, in San José, Provinz San José, Republik Costa Rica§!"
  COS_jorge_volio_jimenez: "Jorge Volio Jimenez"
+ COS_jorge_volio_jimenez_army_chief_desc: "§YGeboren:§! §L26. August 1882, in Cartago, Provinz Cartago, Republik Costa Rica§!"

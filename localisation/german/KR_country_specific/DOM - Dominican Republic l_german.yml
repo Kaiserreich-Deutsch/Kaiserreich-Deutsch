@@ -364,7 +364,7 @@
  DOM_bypass_tooltip2: "Dieser Fokus wird freigeschaltet, sobald unsere politische Richtung finalisiert wurde und der Schwarze Montag geschehen ist"
  DOM_bypass_tooltip3: "Dieser Fokus wird folgendes am Ende des Verfassungskonvents freischalten"
  DOM_const_tooltip: "§GDer Konsens des Konvents wird umgesetzt!§!"
- DOM_purge_tooltip: "§GDer Bonus vom \"$DOM_empower_loyal_officers\" Schwerpunkt wurde erheblich verbessert!§!"
+ DOM_purge_tooltip: "§GDer Bonus vom \"$DOM_empower_loyal_officers$\" Schwerpunkt wurde erheblich verbessert!§!"
  DOM_conscription_tooltip: "§GDieser Fokus wird Wehrpflichtgesetze aktivieren!§!\n\nWir können eventuell unser $MODIFIER_WAR_SUPPORT_FACTOR$ verbessern bevor wir diesen Fokus starten.\n\n"
  DOM_labourrelief_tooltip: "§GDieses Event wird helfen, die Depression zu beenden!§!\n"
  DOM_trujillogov_tooltip: "§GDiese Fokuse werden freigeschaltet, sobald alle vorherigen Events abgeschlossen wurden.§!\n"
@@ -375,6 +375,7 @@
  DOM_KR_gathering_storm_desc: "Die amerikanische Besatzung der Dominikanischen Republik endete 1924, und bald darauf wurde die volle politische Kontrolle wiederhergestellt, doch schon wenige Jahre später sah sich die neue demokratische Verfassung des Landes inneren und äußeren Herausforderungen gegenüber. Während die Demokratie in der Nation bisher überlebt hat, hat die Spaltung der lange Zeit regierenden Roten Partei das Überleben der Verfassung erneut in Gefahr gebracht."
 
 ### Intro Screen ###
+ DOM_country_intro_background: "GFX_DOM_intro"
  DOM_country_intro_header: "Eine unruhige Zeit"
  DOM_country_intro_content: "Von 1916 bis 1924 war die Dominikanische Republik von den Vereinigten Staaten besetzt. Die Besetzung war zwar weniger streng als im benachbarten Haiti, aber das Land wurde dennoch umgestaltet. Das alte politische Establishment wurde auf den Kopf gestellt und die linke Mitte vollständig zerstört; die Besatzer übertrugen viel Macht an machthungrige Militärs, insbesondere an den ehrgeizigen Rafael Trujillo.\n\n1924 wurde eine neue demokratische Verfassung ausgearbeitet, und das Land erlangte bald darauf seine Unabhängigkeit zurück, wobei die Amerikaner einige Jahre später die volle finanzielle Kontrolle zurückgaben. Zunächst blühte der neue Staat auf und seine Institutionen wurden wieder aufgebaut, doch dies sollte nicht lange anhalten. Präsident Horacio Vásquez versuchte, die Verfassung zu seinem eigenen Vorteil zu ändern, und obwohl er von Vizepräsident Federico Velázquez knapp aus dem Amt gedrängt wurde, war die Demokratie des Landes für immer geschwächt. Nach mehreren glanzlosen Präsidentschaften aus den Reihen der Roten Partei besiegte der konservative Populist Virgilio Martínez Reyna den wirtschaftsfreundlichen Rafael Estrella Ureña in einem Wahlkampf, der die Rote Partei erschütterte und die Erholung der nationalen Stabilität weiter behinderte. Während Präsident Martínez bei den unteren Schichten beliebt ist, haben seine ständige Zentralisierung der Macht und seine Bereitschaft, die Verfassung zu ändern, die den Handlungen von Vásquez selbst unheimlich ähnlich sind, die Wohlhabenden verprellt. Angesichts der bevorstehenden Wahlen könnte die Verzweiflung einen Umsturz herbeiführen."
 
@@ -802,28 +803,47 @@
  DOM_carlos_manuel_bonetti_burgos_leader_desc: "§YGeboren:§! §L17. September 1900, in Santo Domingo, Dominikanische Republik§!\n§YHintergrund:§! §LEin aufstrebender Anwalt, talentierter Baseballspieler, und der produktivste Gönner des Sportes in der Dominikanischen Republik. Trotz seines jungen Alters, schlug sich Carlos Manuel 'Pilindo' Bonetti früh an Trujillos Seite, und verkündete seine Unterstützung für den General vor bei mehreren Gelegenheiten vor schwanzwedelnden Menschenmengen. Jetzt, nachdem er eine Präsidentschaftswahl gewonnen hat der wenig Illusionen über Fairness oder Freiheit machte, macht Bonetti die Angebote des Generals etwas mehr als nur eine Puppe und gibt sein bestes um die Illusion einer Demokratie in der Dominikanischen Republik zu erschaffen.§!"
 
  DOM_rafael_trujillo_molina: "Rafael Trujillo Molina"
- DOM_rafael_trujillo_molina_leader_desc: "§YGeboren:§! §L§L24. Oktober 1891, in San Cristobal, Dominikanische Republik§!\n§YHintergrund:§! §LEin junger Rafael Trujillo hat die besetzenden amerikanischen Marine Corps so beeindruckt, dass er schnell in die Besatzungstruppe der Dominikanischen Armee befördert wurde. Trujillo nutzte seine Position aus um kriegsherrartige Kontrolle über das Meiste des Landes anzusammeln. Seine Macht und sein Ehrgeiz waren so groß, dass die verschiedenen Regierungen, die auf die Unabhängigkeit des Landes im Jahr 1924 folgten, einen Großteil ihrer Entscheidungen darauf gründeten, ihn an einem Griff nach der Macht zu hindern. Jetzt in voller Kontrolle über das Land, wovon er so lang wünschte, arbeitet Trujillo eng mit organisiertem Verbrechen zusammen um seine Taschen zu füllen und den Abstieg zu unterdrücken. Er will außerdem die stürmische Westgrenze unter Kontrolle bringen und die Bedrohung durch die Haitianer dort ein für alle mal eliminieren.§!"
+ DOM_rafael_trujillo_molina_leader_desc: "§YGeboren:§! §L§L24. Oktober 1891, in San Cristóbal, Dominikanische Republik§!\n§YHintergrund:§! §LEin junger Rafael Trujillo hat die besetzenden amerikanischen Marine Corps so beeindruckt, dass er schnell in die Besatzungstruppe der Dominikanischen Armee befördert wurde. Trujillo nutzte seine Position aus um kriegsherrartige Kontrolle über das Meiste des Landes anzusammeln. Seine Macht und sein Ehrgeiz waren so groß, dass die verschiedenen Regierungen, die auf die Unabhängigkeit des Landes im Jahr 1924 folgten, einen Großteil ihrer Entscheidungen darauf gründeten, ihn an einem Griff nach der Macht zu hindern. Jetzt in voller Kontrolle über das Land, wovon er so lang wünschte, arbeitet Trujillo eng mit organisiertem Verbrechen zusammen um seine Taschen zu füllen und den Abstieg zu unterdrücken. Er will außerdem die stürmische Westgrenze unter Kontrolle bringen und die Bedrohung durch die Haitianer dort ein für alle mal eliminieren.§!"
+ DOM_rafael_trujillo_molina_army_chief_desc: "§YGeboren:§! §L§L24. Oktober 1891, in San Cristóbal, Dominikanische Republik§!"
 
  DOM_ramon_vasquez_rivera: "Ramón Vásquez Rivera"
- DOM_ramon_vasquez_rivera_leader_desc: "§YGeboren:§! in Puerto Rico§!\n§YHintergrund:§! §LEin früher Verbündeter vonTrujillo, General Ramon Vasquez Rivera ist eventuell der am politisch ehrgeizigsten von den Vetrauten des Oberhauptes. General Rivera hat schnell die Möglichkeit des politischen Aufstiegs genutzt und regiert nach dem Bilde von Trujillo.§!"
+ DOM_ramon_vasquez_rivera_leader_desc: "§YGeboren:§! §Lin Puerto Rico§!\n§YHintergrund:§! §LEin früher Verbündeter vonTrujillo, General Ramon Vasquez Rivera ist eventuell der am politisch ehrgeizigsten von den Vetrauten des Oberhauptes. General Rivera hat schnell die Möglichkeit des politischen Aufstiegs genutzt und regiert nach dem Bilde von Trujillo.§!"
+ DOM_ramon_vasquez_rivera_high_command_desc: "§YGeboren:§! §Lin Puerto Rico§!"
 
  DOM_hector_porfirio_quezada: "Hector Porfirio Quezada"
+ DOM_hector_porfirio_quezada_advisor_desc: "§YGeboren:§! §Lin der Dominikanischen Republik§!"
  DOM_mauricio_baez_santos: "Mauricio Baez Santos"
+ DOM_mauricio_baez_santos_advisor_desc: "§YGeboren:§! §L23. September 1910, in San Cristóbal, Dominikanische Republik§!"
  DOM_antonio_de_la_maza: "Antonio de la Maza"
+ DOM_antonio_de_la_maza_advisor_desc: "§YGeboren:§! §L24. Mai 1912, in Moca, Dominikanische Republik§!"
  DOM_tomas_baez_diaz: "Tomas Baez Diaz"
+ DOM_tomas_baez_diaz_advisor_desc: "§YGeboren:§! §L25. November 1909, in Baní, Dominikanische Republik§!"
  DOM_fabio_fiallo_cabral: "Fabio Fiallo Cabral"
+ DOM_fabio_fiallo_cabral_advisor_desc: "§YGeboren:§! §L3. Februar 1866, in Santo Domingo, Dominikanische Republik§!"
  DOM_andrea_rodriguez_perozo: "Andrea Rodriguez Perozo"
+ DOM_andrea_rodriguez_perozo_advisor_desc: "§YGeboren:§! §L10. November 1879, in San Rafael del Yuma, Dominikanische Republik§!"
  DOM_tulio_cestero_leiva: "Tulio Cestero Leiva"
+ DOM_tulio_cestero_leiva_advisor_desc: "§YGeboren:§! §L10. Juli 1877, in San Cristóbal, Dominikanische Republik§!"
  DOM_federico_henriquez_carvajal: "Federico Henriquez Carvajal"
+ DOM_federico_henriquez_carvajal_advisor_desc: "§YGeboren:§! §L16. September 1848, in Santo Domingo, Dominikanische Republik§!"
  DOM_emilio_de_los_santos: "Emilio de los Santos"
+ DOM_emilio_de_los_santos_advisor_desc: "§YGeboren:§! §L12. Oktober 1903, in San Juan de la Maguana, Dominikanische Republik§!"
  DOM_arturo_despradel: "Arturo Despradel"
+ DOM_arturo_despradel_advisor_desc: "§YGeboren:§! §L20. Juni 1900, in Puerto Plata, Dominikanische Republik§!"
  DOM_mario_cabral_baez: "Mario Cabral Baez"
+ DOM_mario_cabral_baez_advisor_desc: "§YGeboren:§! §L1877, in Baní, Dominikanische Republik§!"
  DOM_jacinto_bienvenido_peynado: "Jacinto Bienvenido Peynado"
+ DOM_jacinto_bienvenido_peynado_advisor_desc: "§YGeboren:§! §L15. Februar 1878, in San Cristóbal, Dominikanische Republik§!"
  DOM_jesus_da_costa_ruiz: "Jesus da Costa Ruiz"
+ DOM_jesus_da_costa_ruiz_army_chief_desc: "§YGeboren:§! §Lin der Dominikanischen Republik§!" # Fictional
  DOM_anibal_trujillo_molina: "Anibal Trujillo Molina"
+ DOM_anibal_trujillo_molina_army_chief_desc: "§YGeboren:§! §L16. Oktober 1900, in San Cristóbal, Dominikanische Republik§!"
  DOM_honoracio_yuna_robles: "Honoracio Yuna Robles"
+ DOM_honoracio_yuna_robles_navy_chief_desc: "§YGeboren:§! §Lin der Dominikanischen Republik§!" # Fictional
  DOM_anibal_vallejo_sosa: "Anibal Vallejo Sosa"
+ DOM_anibal_vallejo_sosa_air_chief_desc: "§YGeboren:§! §L1892, in San Pedro de Macorís, Dominikanische Republik§!"
  DOM_domingo_de_los_santos_ortiz: "Domingo de los Santos Ortiz"
+ DOM_domingo_de_los_santos_ortiz_high_command_desc: "§YGeboren:§! §Lin der Dominikanischen Republik§!" # Fictional
 
  ### Companies ###
  DOM_CODETEL: "CODOTEL"

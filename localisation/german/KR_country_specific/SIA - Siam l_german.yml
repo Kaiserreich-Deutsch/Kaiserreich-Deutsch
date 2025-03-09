@@ -172,7 +172,7 @@
  SIA_municipal_reform_implemented: "Die Provinzverwaltung ist in diesem Staat bereits eingeführt.\n"
  SIA_local_police_reinforced: "Die lokalen Polizeikräfte werden in diesem Staat verstärkt.\n"
  SIA_civil_service_expanded: "Der Staatsdienst wird in diesem Staat ausgebaut.\n"
- SIA_began_factory_seizure_tt: "Wir werden die §Y"Nationale Industrialisierung"§! von Fall zu Fall beginnen, um eine §Rinternationale Krise§! zu vermeiden. Allerdings könnte es unserem Ansehen in der Heimat schaden und als §RFeigheit§! angesehen werden, wenn wir gar keine Fabriken übernehmen.\n"
+ SIA_began_factory_seizure_tt: "Wir werden die §Y\"Nationale Industrialisierung\"§! von Fall zu Fall beginnen, um eine §Rinternationale Krise§! zu vermeiden. Allerdings könnte es unserem Ansehen in der Heimat schaden und als §RFeigheit§! angesehen werden, wenn wir gar keine Fabriken übernehmen.\n"
  SIA_purge_tt: "Dies wird jene Offiziere gründlich säubern, die Sympathien für die Rebellen hegten, und wird zum Verlust talentierter Kommandeure führen.\n\n"
  SIA_amnesty_tt: "Wir werden denjenigen Amnestie gewähren, die als rettbar eingestuft werden oder die während der Rebellion unfreiwillig gegen uns handeln mussten. Dies wird jedoch zu einiger ziviler Unruhe führen.\n\n"
  SIA_police_centralized_desc: "Dies wird das Risiko einer erfolgreichen Rebellion von Separatisten gegen [SIA.GetSIAshortname] verringern.\n\n"
@@ -297,6 +297,7 @@
  SIA_KR_gathering_storm_desc: "Ursprünglich neutral während des Weltkriegs, schloss sich Siam 1919 in letzter Minute den Mittelmächten an, um Champassak und die inneren kambodschanischen Gebiete entlang der Mekong-Linie zurückzugewinnen. Siam wurde dennoch 1928 in den 36. Siamesisch-Burmesischen Krieg mit dem neu unabhängigen Staat Burma verwickelt. Die große siamesische Nation konnte die Burmesen erfolgreich besiegen, und erst durch deutsche und japanische diplomatische Intervention wurde ein annehmbarer Waffenstillstand erreicht. Nun, als das Jahr 1936 anbricht, genießt die siamesische Nation weiterhin Frieden, Wohlstand und Stabilität, wobei König Prajadhipok hofft, Siams erste Verfassung zu enthüllen."
 
 ### Intro Screen ##
+ SIA_country_intro_background: "GFX_SIA_intro"
  SIA_country_intro_header: "Das Königreich [SIA.GetSIAshortname] 1936"
  SIA_country_intro_content: "Als eines der Länder, die vom deutschen Sieg während des Weltkriegs profitierten, gewann [SIA.GetSIAshortname] den Großteil seines früheren Landes zurück, das zuvor an die westlichen Imperialisten verloren gegangen war. Während [SIA.GetSIAshortname]s Beziehung zu den Hunnen im Allgemeinen herzlich ist, hat die Tatsache, dass sie während der Intervention in Burma 1929 ihre expansionistischen Ambitionen durchkreuzten, die diplomatischen und militärischen Beziehungen zwischen beiden belastet. Ob [SIA.GetSIAshortname] sich mit den Deutschen versöhnen oder sich mit anderen Mächten verbünden soll, ist eine Frage, die im kommenden Jahrzehnt entschieden werden muss."
 
@@ -368,8 +369,8 @@
 
 ## Khana Ratsadon 1936 Election and subsequent Civil War ##
 
- siam.12.t: "Die Affäre der "Gelben Akte""
- siam.12.d: "Heute präsentierte Luang Praditmanutham, Staatsminister und Mitglied der Volkspartei, den Entwurf seines „Nationalen Wirtschaftsentwicklungsplans" der Nationalversammlung.\n\nDer als „Gelbe Akte" bekannte Plan beschreibt die Bildung eines Wohlfahrtsstaates, Landumverteilung, staatliche Eingriffe in den Privatsektor und ein Subventionssystem für Landwirte.\n\nEinige vergleichen den Vorschlag mit dem eines Syndikalisten, während andere zustimmen, dass die Reformen das Leben des [SIA.GetProperAdjective] Volkes stark verbessern werden.\n\nNun bleibt abzuwarten, was Seine Majestät dazu sagt..."
+ siam.12.t: "Die Affäre der \"Gelben Akte\""
+ siam.12.d: "Heute präsentierte Luang Praditmanutham, Staatsminister und Mitglied der Volkspartei, den Entwurf seines \"Nationalen Wirtschaftsentwicklungsplans\" der Nationalversammlung.\n\nDer als „Gelbe Akte" bekannte Plan beschreibt die Bildung eines Wohlfahrtsstaates, Landumverteilung, staatliche Eingriffe in den Privatsektor und ein Subventionssystem für Landwirte.\n\nEinige vergleichen den Vorschlag mit dem eines Syndikalisten, während andere zustimmen, dass die Reformen das Leben des [SIA.GetProperAdjective] Volkes stark verbessern werden.\n\nNun bleibt abzuwarten, was Seine Majestät dazu sagt..."
  siam.12.a: "Seine Majestät stimmt Praditmanutham zu."
  siam.12.b: "Seine Majestät unterstützt einen verwässerten Vorschlag."
  siam.12.c: "Seine Majestät fordert die Verhaftung des Syndikalisten-Sympathisanten!"
@@ -479,7 +480,7 @@
  siam.32.c: "Dafür sind wir jetzt noch nicht bereit..."
 
  siam.33.t: "[SIA.GetNameDefCap] Hat den Krieg Erklärt!"
- siam.33.d: "Schlechte Nachrichten! Offenbar haben die [SIA.GetProperAdjective]n elf "burmesische Spione" gefasst, obwohl diese sich in unserem rechtmäßigen Territorium befanden. Ihre Armee rückt nun auf Yangon vor. Das ist empörend!"
+ siam.33.d: "Schlechte Nachrichten! Offenbar haben die [SIA.GetProperAdjective]n elf \"burmesische Spione\" gefasst, obwohl diese sich in unserem rechtmäßigen Territorium befanden. Ihre Armee rückt nun auf Yangon vor. Das ist empörend!"
  siam.33.a: "Zu den Waffen, Bürger!"
 
  # Siamese Wins:
@@ -514,7 +515,7 @@
 
 ## Phibunsongkhram's Ratthaniyom Reform, Assassination attempt and its aftermath ##
  siam.40.t: "Umsetzung der Ratthaniyom-Reformen"
- siam.40.d: "Die Ratthaniyom- oder „Volksstaat"-Reformen wurden von den Nationalisten als Mittel vorgeschlagen, um das ultimative Ziel einer starken Nation zugunsten des Thai-Volkes zu erreichen. Dies könnte jedoch zu unerwünschten Spannungen mit den Malaien, Chinesen, Mon und Kambodschanern führen, die in unserem Land leben."
+ siam.40.d: "Die Ratthaniyom- oder \"Volksstaat\"-Reformen wurden von den Nationalisten als Mittel vorgeschlagen, um das ultimative Ziel einer starken Nation zugunsten des Thai-Volkes zu erreichen. Dies könnte jedoch zu unerwünschten Spannungen mit den Malaien, Chinesen, Mon und Kambodschanern führen, die in unserem Land leben."
  siam.40.a: "Wen kümmert das? Führt die Reformen durch."
  siam.40.b: "Bei nochmaliger Überlegung ist das wohl keine gute Idee."
 
@@ -1189,7 +1190,7 @@
  SIA_furtherairdevelopment: "Fortgesetzte Luftentwicklung"
  SIA_furtherairdevelopment_desc: "Mit ihrer zunehmenden Bedeutung müssen unsere Luftstreitkräfte ihre Kampftaktiken weiterentwickeln, um besser auf die Zukunft vorbereitet zu sein."
  SIA_bangfai: "Projekt Phi Fa"
- SIA_bangfai_desc: "Inspiriert vom laotischen „Bun Bang Fai"-Festival in Isan könnten angemessene Forschung und Entwicklung diese selbstgebauten Raketen in fürchterliche Tötungswaffen und Antriebe für unsere Flugzeuge verwandeln."
+ SIA_bangfai_desc: "Inspiriert vom laotischen \"Bun Bang Fai\"-Festival in Isan könnten angemessene Forschung und Entwicklung diese selbstgebauten Raketen in fürchterliche Tötungswaffen und Antriebe für unsere Flugzeuge verwandeln."
  SIA_electronicsresearch: "Elektronikforschung"
  SIA_electronicsresearch_desc: "Die Einführung des 'Khanittakorn', eines von Tanin Industry entwickelten Rechengeräts, wird unsere Kriegsanstrengungen enorm unterstützen."
  SIA_rulerofheskies: "Beschützer des Himmels"
@@ -1417,208 +1418,243 @@
 ### Characters ###
  ## Head of State
  SIA_prajadhipok: "Prajadhipok"
- SIA_prajadhipok_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 8. November 1893, in Phra Nakhon Province, Monthon Krungthep, Königreich Siam\n§YPolitikkarriere:§! Prajadhipok, auch bekannt unter seinem Herrschernamen Rama VII., wurde nach dem Tod seines Bruders 1925 zum König von Siam gekrönt. Unvorbereitet auf die Königswürde, da er zuvor weit hinten in der Thronfolge stand, ist er im Wesentlichen eine Marionette des von seinen Cousins geführten Obersten Staatsrates. Obwohl im Ausland ausgebildet und in der britischen Armee in Dienst gestellt, sorgt sich Prajadhipok aufrichtig um sein Volk und arbeitet fleißig daran, das Los seiner Untertanen zu verbessern."
+ SIA_prajadhipok_leader_desc: "§YGeboren:§! §L8. November 1893, in Mueang Krungthep Mahanakhon, Königreich Siam§!\n§YHintergrund:§! §LPrajadhipok, auch bekannt unter seinem Herrschernamen Rama VII., wurde nach dem Tod seines Bruders 1925 zum König von Siam gekrönt. Unvorbereitet auf die Königswürde, da er zuvor weit hinten in der Thronfolge stand, ist er im Wesentlichen eine Marionette des von seinen Cousins geführten Obersten Staatsrates. Obwohl im Ausland ausgebildet und in der britischen Armee in Dienst gestellt, sorgt sich Prajadhipok aufrichtig um sein Volk und arbeitet fleißig daran, das Los seiner Untertanen zu verbessern.§!"
 
  SIA_ananda_mahidol: "Ananda Mahidol"
- SIA_ananda_mahidol_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 20. September 1925, in Heidelberg, Großherzogtum Baden, Deutsches Reich\n§YPolitikkarriere:§! Ananda Mahidol, bekannt unter seinem Herrschernamen Rama VIII., ist nach dem Tod seines Onkels Rama VII. auf den siamesischen Thron gestiegen. Ananda Mahidol galt einst als sehr unwahrscheinlicher Kandidat für den Thron, da er kaum ein Teenager und von niederer Geburt war. Ursprünglich trug er den Rang eines 'Mom Chao', was ihn zu einem der niedrigsten siamesischen Prinzen machte. Trotz seiner Jugend und Unerfahrenheit hat er schnell die Herzen des siamesischen Volkes gewonnen. Ausländische Beobachter glauben jedoch, dass er nicht wirklich König sein wollte und dass seine Herrschaft nicht lange dauern würde."
+ SIA_ananda_mahidol_leader_desc: "§YGeboren:§! §L20. September 1925, in Heidelberg, Großherzogtum Baden, Deutsches Reich§!\n§YHintergrund:§! §LAnanda Mahidol, bekannt unter seinem Herrschernamen Rama VIII., ist nach dem Tod seines Onkels Rama VII. auf den siamesischen Thron gestiegen. Ananda Mahidol galt einst als sehr unwahrscheinlicher Kandidat für den Thron, da er kaum ein Teenager und von niederer Geburt war. Ursprünglich trug er den Rang eines 'Mom Chao', was ihn zu einem der niedrigsten siamesischen Prinzen machte. Trotz seiner Jugend und Unerfahrenheit hat er schnell die Herzen des siamesischen Volkes gewonnen. Ausländische Beobachter glauben jedoch, dass er nicht wirklich König sein wollte und dass seine Herrschaft nicht lange dauern würde.§!"
 
  SIA_bhumibol_adulyadej: "Bhumibol Adulyadej"
- SIA_bhumibol_adulyadej_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 5. Dezember 1927 in Cambridge, Massachusetts, Vereinigte Staaten von Amerika\n§YPolitikkarriere:§! Bhumibol Adulyadej, bekannt unter seinem Herrschernamen Rama IX, bestieg den siamesischen Thron nach dem mysteriösen Tod seines verstorbenen Bruders, Rama VIII. Bhumibol Adulyadej hat sich bisher als politisch weitaus kompetenter als sein verstorbener Bruder erwiesen und navigiert mit scheinbarer Leichtigkeit durch die komplizierte siamesische politische Landschaft. Viele bezeichnen Bhumibol Adulyadej als den Retter der einst bedrängten siamesischen Monarchie."
+ SIA_bhumibol_adulyadej_leader_desc: "§YGeboren:§! §L5. Dezember 1927 in Cambridge, Massachusetts, Vereinigte Staaten von Amerika§!\n§YHintergrund:§! §LBhumibol Adulyadej, bekannt unter seinem Herrschernamen Rama IX, bestieg den siamesischen Thron nach dem mysteriösen Tod seines verstorbenen Bruders, Rama VIII. Bhumibol Adulyadej hat sich bisher als politisch weitaus kompetenter als sein verstorbener Bruder erwiesen und navigiert mit scheinbarer Leichtigkeit durch die komplizierte siamesische politische Landschaft. Viele bezeichnen Bhumibol Adulyadej als den Retter der einst bedrängten siamesischen Monarchie.§!"
 
  SIA_chula_chakrabongse: "Chula Chakrabongse"
- SIA_chula_chakrabongse_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 28. März 1908 in Phra Nakhon Province, Monthon Krungthep, Königreich Siam\n§YPolitikkarriere:§! Chula Chakrabongse, der halb-ukrainische Enkel von König Rama V, wurde als König von Siam eingesetzt. Chula Chakrabongse lebte ein exzentrisches Leben in Muße in Großbritannien und später Österreich, bevor er König wurde und hat fast alle seine königlichen Pflichten zugunsten seiner Leidenschaft für Pferde- und Autorennen delegiert."
+ SIA_chula_chakrabongse_leader_desc: "§YGeboren:§! §L28. März 1908, in Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!\n§YHintergrund:§! §LChula Chakrabongse, der halb-ukrainische Enkel von König Rama V, wurde als König von Siam eingesetzt. Chula Chakrabongse lebte ein exzentrisches Leben in Muße in Großbritannien und später Österreich, bevor er König wurde und hat fast alle seine königlichen Pflichten zugunsten seiner Leidenschaft für Pferde- und Autorennen delegiert.§!"
 
  SIA_paribatra_sukhumbhand: "Paribatra Sukhumbhand"
- SIA_paribatra_sukhumbhand_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 29. Juni 1881 in Phra Nakhon Province, Monthon Krungthep, Königreich Siam\n§YPolitikkarriere:§! Paribatra Sukhumbhand, Onkel des erwarteten Thronfolgers Ananda Mahidol, hat die Kontrolle über die siamesische Regierung ergriffen und verweist dabei auf Anandas Unerfahrenheit und sein Alter. Mit voller Unterstützung des Kronrats hat er sich selbst als König Rama IX gekrönt und damit die Boripatr-Nebenlinie als neues Herrscherhaus fest etabliert."
+ SIA_paribatra_sukhumbhand_leader_desc: "§YGeboren:§! §L29. Juni 1881, in Mueang Krungthep Mahanakhon, Königreich Siam§!\n§YHintergrund:§! §LParibatra Sukhumbhand, Onkel des erwarteten Thronfolgers Ananda Mahidol, hat die Kontrolle über die siamesische Regierung ergriffen und verweist dabei auf Anandas Unerfahrenheit und sein Alter. Mit voller Unterstützung des Kronrats hat er sich selbst als König Rama IX gekrönt und damit die Boripatr-Nebenlinie als neues Herrscherhaus fest etabliert.§!"
+ SIA_paribatra_sukhumbhand_sic_desc: "§YGeboren:§! §L29. Juni 1881, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  SIA_chumbhotbongs_paribatra: "Chumbhotbongs Paribatra"
- SIA_chumbhotbongs_paribatra_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 5. Dezember 1904 in Phra Nakhon Province, Monthon Krungthep, Königreich Siam\n§YPolitikkarriere:§! Chumbhotbongs Paribatra, bekannt unter seinem Herrschernamen Rama X, ist seinem Vater, Rama IX, auf den Thron Siams gefolgt. Chumbhotbongs Paribatra ist etwas zurückgezogen, aber dennoch politisch kompetent. Er ist ein bekannter Kunstmäzen, der mehrere staatliche Gebäude in Museen umgewandelt hat und persönlich viele große Künstler sowohl in Siam als auch im Ausland fördert."
+ SIA_chumbhotbongs_paribatra_leader_desc: "§YGeboren:§! §L5. Dezember 1904 in Provinz Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!\n§YHintergrund:§! §LChumbhotbongs Paribatra, bekannt unter seinem Herrschernamen Rama X, ist seinem Vater, Rama IX, auf den Thron Siams gefolgt. Chumbhotbongs Paribatra ist etwas zurückgezogen, aber dennoch politisch kompetent. Er ist ein bekannter Kunstmäzen, der mehrere staatliche Gebäude in Museen umgewandelt hat und persönlich viele große Künstler sowohl in Siam als auch im Ausland fördert.§!"
 
  SIA_sukhumabhinanda: "Sukhumabhinanda"
- SIA_sukhumabhinanda_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 15. Dezember 1923 in Phra Nakhon Province, Monthon Krungthep, Königreich Siam\n§YPolitikkarriere:§! Sukhumbhinanda, Sohn des ehemaligen Königs Paribatra Sukhumbhand (Rama IX) und einer Frau niederer Herkunft, wurde von seinem Bruder König Rama X legitimiert, da dieser keinen männlichen Erben hervorbringen konnte. Er hat den Thron als Rama XI bestiegen. Sukhumbhinanda ist ein prominenter Philanthrop, dessen Bemühungen zur Unterstützung der Ärmsten Bangkoks ihm viel Aufmerksamkeit eingebracht haben. Mit Sukhumbhinandas Thronbesteigung ist ein Großteil der verbliebenen öffentlichen Unzufriedenheit mit der Monarchie verschwunden."
+ SIA_sukhumabhinanda_leader_desc: "§YGeboren:§! §L15. Dezember 1923 in Provinz Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!\n§YHintergrund:§! §LSukhumbhinanda, Sohn des ehemaligen Königs Paribatra Sukhumbhand (Rama IX) und einer Frau niederer Herkunft, wurde von seinem Bruder König Rama X legitimiert, da dieser keinen männlichen Erben hervorbringen konnte. Er hat den Thron als Rama XI bestiegen. Sukhumbhinanda ist ein prominenter Philanthrop, dessen Bemühungen zur Unterstützung der Ärmsten Bangkoks ihm viel Aufmerksamkeit eingebracht haben. Mit Sukhumbhinandas Thronbesteigung ist ein Großteil der verbliebenen öffentlichen Unzufriedenheit mit der Monarchie verschwunden.§!"
 
  SIA_supha_sirimanon: "Supha Sirimanon"
- SIA_supha_sirimanon_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 15. Juli 1914 in Angthong Province, Monthon Ayutthaya, Königreich Siam\n§YPolitikkarriere:§! Journalist, Dichter und nun der neue Premierminister der Republik - Supha Sirimanon erschien zunächst als ungewöhnliche Wahl für die nationale Führungsposition. In der linken Intellektuellengemeinschaft ist er jedoch unter seinem Pseudonym \"Jittin Thammachart\" bekannter und als Übersetzer der thailändischen Ausgabe von Das Kapital.\n\nObwohl er im Herzen ein Anhänger des klassischen Marxismus ist, ist Supha ein Pragmatiker und sieht die Planwirtschaft als den Weg in die Zukunft - und dass es keine Möglichkeit gibt, Arbeiter und Kapitalisten miteinander zu versöhnen."
+ SIA_supha_sirimanon_leader_desc: "§YGeboren:§! §L15. Juli 1914 in Angthong Province, Monthon Ayutthaya, Königreich Siam§!\n§YHintergrund:§! §LJournalist, Dichter und nun der neue Premierminister der Republik - Supha Sirimanon erschien zunächst als ungewöhnliche Wahl für die nationale Führungsposition. In der linken Intellektuellengemeinschaft ist er jedoch unter seinem Pseudonym \"Jittin Thammachart\" bekannter und als Übersetzer der thailändischen Ausgabe von Das Kapital.\n\nObwohl er im Herzen ein Anhänger des klassischen Marxismus ist, ist Supha ein Pragmatiker und sieht die Planwirtschaft als den Weg in die Zukunft - und dass es keine Möglichkeit gibt, Arbeiter und Kapitalisten miteinander zu versöhnen.§!"
+ SIA_supha_sirimanon_advisor_desc: "§YGeboren:§! §L15. Juli 1914, in Mueang Angthong, Monthon Ayutthaya, Königreich Siam§!"
 
  SIA_pridi_phanomyong: "Pridi Phanomyong"
  SIA_pridi_phanomyong_royal: "Luang Praditmanutham"
- SIA_pridi_phanomyong_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 11. Mai 1900 in Krungkao Province, Monthon Ayutthaya, Königreich Siam\n§YPolitikkarriere:§! Pridi Phanomyong, auch bekannt unter seinem ministeriellen Titel 'Luang Praditmanutham', begann unmittelbar nach seiner Ernennung zum Minister damit, das Leben des siamesischen Volkes zu verbessern. Sein umstrittenes 'Gelbes Dossier' umriss seine politische und wirtschaftliche Reformagenda und spaltete die siamesische Regierung, aber die Kontroverse diente nur dazu, Pridis politische Karriere weiter voranzutreiben."
- SIA_pridi_phanomyong_victorious_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 11. Mai 1900 in Krungkao Province, Monthon Ayutthaya, Königreich Siam\n§YPolitikkarriere:§! Pridi Phanmoyong, zuvor bekannt unter seinem ministeriellen Titel 'Luang Praditmanutham', ist nach einem kurzen aber blutigen siamesischen Bürgerkrieg zum Vorsitzenden des Khanagummakarn Sapha Patiwat geworden. Phanomyongs Politik der wirtschaftlichen Verstaatlichung und radikalen parlamentarischen Reform kann nun fortgesetzt werden, jedoch sind die Herausforderungen durch radikalere Elemente unter Pridis alten Sahachip-Parteimitgliedern deutlich gewachsen. Trotz seiner Popularität kämpft Phanomyong darum, seine Autorität selbst mit seinen Verbündeten in der Marine aufrechtzuerhalten."
+ SIA_pridi_phanomyong_leader_desc: "§YGeboren:§! §L11. Mai 1900, in Mueang Krungkao, Monthon Ayutthaya, Königreich Siam§!\n§YHintergrund:§! §LPridi Phanomyong, auch bekannt unter seinem ministeriellen Titel 'Luang Praditmanutham', begann unmittelbar nach seiner Ernennung zum Minister damit, das Leben des siamesischen Volkes zu verbessern. Sein umstrittenes 'Gelbes Dossier' umriss seine politische und wirtschaftliche Reformagenda und spaltete die siamesische Regierung, aber die Kontroverse diente nur dazu, Pridis politische Karriere weiter voranzutreiben.§!"
+ SIA_pridi_phanomyong_victorious_leader_desc: "§YGeboren:§! §L11. Mai 1900, in Mueang Krungkao, Monthon Ayutthaya, Königreich Siam§!\n§YHintergrund:§! §LPridi Phanmoyong, zuvor bekannt unter seinem ministeriellen Titel 'Luang Praditmanutham', ist nach einem kurzen aber blutigen siamesischen Bürgerkrieg zum Vorsitzenden des Khanagummakarn Sapha Patiwat geworden. Phanomyongs Politik der wirtschaftlichen Verstaatlichung und radikalen parlamentarischen Reform kann nun fortgesetzt werden, jedoch sind die Herausforderungen durch radikalere Elemente unter Pridis alten Sahachip-Parteimitgliedern deutlich gewachsen. Trotz seiner Popularität kämpft Phanomyong darum, seine Autorität selbst mit seinen Verbündeten in der Marine aufrechtzuerhalten.§!"
+ SIA_pridi_phanomyong_sic_desc: "§YGeboren:§! §L11. Mai 1900, in Mueang Krungkao, Monthon Ayutthaya, Königreich Siam§!"
 
  SIA_thawan_thamrongnawasawat: "Thawan Thamrongnawasawat"
  SIA_thawan_thamrongnawasawat_royal: "Luang Thamrongnawasawat"
- SIA_thawan_thamrongnawasawat_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 21. November 1901 in Krungkao Province, Monthon Ayutthaya, Königreich Siam\n§YPolitikkarriere:§! Als 'Goldmündiger Staatsmann' bekannt, ist Thawan berühmt für seine Fähigkeiten in der öffentlichen Rede und Debatte, die er für seinen Koalitionsaufbau voll ausnutzt. Als Verfechter der Graswurzelbewegung bevorzugt der ehemalige Admiral eine Politik, die dem einfachen Volk hilft, wie Preisobergrenzen für Haushaltswaren und die Ausweitung der öffentlichen Wohlfahrt. Diese Politik bringt ihn jedoch in Konflikt mit den Kapitalisten und der aufstrebenden thai-chinesischen Mittelschicht, die mit höheren Steuern belastet werden."
+ SIA_thawan_thamrongnawasawat_leader_desc: "§YGeboren:§! §L21. November 1901, in Mueang Krungkao, Monthon Ayutthaya, Königreich Siam§!\n§YHintergrund:§! §LAls 'Goldmündiger Staatsmann' bekannt, ist Thawan berühmt für seine Fähigkeiten in der öffentlichen Rede und Debatte, die er für seinen Koalitionsaufbau voll ausnutzt. Als Verfechter der Graswurzelbewegung bevorzugt der ehemalige Admiral eine Politik, die dem einfachen Volk hilft, wie Preisobergrenzen für Haushaltswaren und die Ausweitung der öffentlichen Wohlfahrt. Diese Politik bringt ihn jedoch in Konflikt mit den Kapitalisten und der aufstrebenden thai-chinesischen Mittelschicht, die mit höheren Steuern belastet werden.§!"
  # WIP
- SIA_thawan_thamrongnawasawat_high_command_desc: "§YAdmiral Beschreibung\nGeboren:§! §gNovember 21st, 1901, in Krungkao Province, Monthon Ayutthaya, Kingdom of Siam"
+ SIA_thawan_thamrongnawasawat_sic_desc: "§YGeboren:§! §L21. November 1901, in Mueang Krungkao, Monthon Ayutthaya, Königreich Siam§!"
 
  SIA_pote_sarasin: "Pote Sarasin"
- SIA_pote_sarasin_leader_desc: "§YAnführer Beschreibung\nGeboren:§! March 25th, 1905, in Phra Nakhon Province, Monthon Krungthep, Kingdom of Siam\n§YPolitikkarriere:§! Ein Thai-Chinese aus der oberen Mittelschicht, Pote Sarasins Erfahrungen im Finanzministerium während des Schwarzen Montags haben seine Weltanschauung geprägt. Als Anhänger des österreichischen Ökonomen Hayek und strikter Verfechter des Rechts, ist er gegen die Ausweitung staatlicher Unternehmen und setzt sich für einen fairen, freien und offenen Wettbewerb ein. Eine weitere seiner Politiken ist die Expansion der höheren Bildung im ganzen Land als Mittel zur Wiederbelebung der sich erholenden lokalen Industrien."
+ SIA_pote_sarasin_leader_desc: "§YGeboren:§! §L25. März 1905, in Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!\n§YHintergrund:§! §LEin Thai-Chinese aus der oberen Mittelschicht, Pote Sarasins Erfahrungen im Finanzministerium während des Schwarzen Montags haben seine Weltanschauung geprägt. Als Anhänger des österreichischen Ökonomen Hayek und strikter Verfechter des Rechts, ist er gegen die Ausweitung staatlicher Unternehmen und setzt sich für einen fairen, freien und offenen Wettbewerb ein. Eine weitere seiner Politiken ist die Expansion der höheren Bildung im ganzen Land als Mittel zur Wiederbelebung der sich erholenden lokalen Industrien.§!"
+ SIA_pote_sarasin_advisor_desc: "§YGeboren:§! §L25. März 1905, in Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!"
 
  SIA_seni_pramoj: "Seni Pramoj"
- SIA_seni_pramoj_leader_desc: "§YAnführer Beschreibung\nGeboren:§! May 26th, 1905, in Nakhon Sawan Province, Monthon Nakhon Sawan, Kingdom of Siam\n§YPolitikkarriere:§! Als Mitglied einer Nebenlinie der Chakri-Dynastie mit chinesischer Abstammung mag Seni als eine ungewöhnliche Wahl für einen republikanischen siamesischen Staat erscheinen. Trotzdem gelang es dieser 'Jungen Viper', durch politisches Geschick statt familiärer Verbindungen genügend politischen Einfluss in konservativen Kreisen zu sammeln, um eine funktionsfähige Mehrheit für die neue Regierung zu sichern. Seine Politik des 'Ngoen Phan' (Geld-Fluktuation) hilft, die ländlichen Gebiete zufrieden und vor syndikalistischen Einflüssen geschützt zu halten. Ob er der republikanischen Sache nur Lippenbekenntnisse leistet, bleibt abzuwarten..."
+ SIA_seni_pramoj_leader_desc: "§YGeboren:§! §L26. Mai 1905, in Mueang Nakhon Sawan, Monthon Nakhon Sawan, Königreich Siam§!\n§YHintergrund:§! §LAls Mitglied einer Nebenlinie der Chakri-Dynastie mit chinesischer Abstammung mag Seni als eine ungewöhnliche Wahl für einen republikanischen siamesischen Staat erscheinen. Trotzdem gelang es dieser 'Jungen Viper', durch politisches Geschick statt familiärer Verbindungen genügend politischen Einfluss in konservativen Kreisen zu sammeln, um eine funktionsfähige Mehrheit für die neue Regierung zu sichern. Seine Politik des 'Ngoen Phan' (Geld-Fluktuation) hilft, die ländlichen Gebiete zufrieden und vor syndikalistischen Einflüssen geschützt zu halten. Ob er der republikanischen Sache nur Lippenbekenntnisse leistet, bleibt abzuwarten...§!"
+ SIA_seni_pramoj_sic_desc: "§YGeboren:§! §L26. Mai 1905, in Mueang Nakhon Sawan, Monthon Nakhon Sawan, Königreich Siam§!"
 
  SIA_plaek_phibunsongkhram: "Plaek Phibunsongkhram"
  SIA_plaek_phibunsongkhram_royal: "Luang Phibunsongkhram"
- SIA_plaek_phibunsongkhram_leader_desc: "§YAnführer Beschreibung\nGeboren:§! July 14th, 1897, in Nonthaburi Province, Monthon Krungthep, Kingdom of Siam\n§YPolitikkarriere:§! Feldmarschall Plaek Phibunsongkhram, bei den Einheimischen besser bekannt als 'Chormpon Por' und im Westen als 'Phibun', der ehemalige Verbündete von Pridi Phanmoyong und der Volkspartei hat nach der Gelbe-Akten-Affäre die Macht ergriffen. Zusammen mit Luang Wichitwathakarn und seinen Verbündeten im Militär hat er seinen eigenen Personenkult aufgebaut, um die Monarchie ins Abseits zu drängen. Er betrachtet den gegenwärtigen Zustand Siams als 'überholtes Relikt einer vergangenen Ära' und beabsichtigt, seine Macht zu nutzen, um Militarismus und Nationalismus zu fördern, die er beide als zusätzliche essenzielle Prinzipien der modernen Nation proklamiert."
- SIA_plaek_phibunsongkhram_sic_desc: "§YGeneral Beschreibung\nGeboren:§! §gJuly 14th, 1897, in Nonthaburi Province, Monthon Krungthep, Kingdom of Siam§!\n§YMilitärkarriere:§! §gGeboren als Plaek Kittasangkha in einer thailändischen Obstgärtnerfamilie, begannen Phibun und sein älterer Bruder Prakit 1909 ihre Ausbildung an der Royal Siamese Army Cadet School. Nach dem Abschluss diente er kurz im 7. Artillerieregiment (Phitsanulok), wo er seine Frau kennenlernte, und im 1. Royal Guards Artillery Regiment, bevor er ein königliches Stipendium erhielt, um sein Studium an der k.u.k. Artillerie-Schießschule in Hajmáskér, Ungarn und dann an der Theresianische Militärakademie in Wiener Neustadt, Österreich fortzusetzen. Kurz nach seiner Rückkehr nach Siam wurde Phibun für seine Taten während der Siamesischen Intervention in Burma 1928-1929 bei der Befreiung von Moulmein und Dawei in Tenasserim bekannt - wofür er seinen Titel 'Luang Phibunsongkhram' erhielt. Durch pure Ausstrahlung und persönliche Verbindungen sowohl zu den jüngeren Offizieren als auch zum Oberkommando über Prinz Pridi Debyabongs Devakula, seinen ehemaligen Vorgesetzten, ist es keine Überraschung, dass er seine jetzige Position in relativ jungem Alter erreichte.§!\n\n§YAnmerkungen: Sein Vorname bedeutet auf Thai 'Seltsam', da seine Eltern die Position seiner Ohren bei der Geburt als merkwürdig empfanden, weshalb er es vorzog, stattdessen mit seinem Anfangsbuchstaben P (Por) angesprochen zu werden."
+ SIA_plaek_phibunsongkhram_leader_desc: "§YGeboren:§! §L14. Juli 1897, in Mueang Nonthaburi, Königreich Siam§!\n§YHintergrund:§! §LFeldmarschall Plaek Phibunsongkhram, bei den Einheimischen besser bekannt als 'Chormpon Por' und im Westen als 'Phibun', der ehemalige Verbündete von Pridi Phanmoyong und der Volkspartei hat nach der Gelbe-Akten-Affäre die Macht ergriffen. Zusammen mit Luang Wichitwathakarn und seinen Verbündeten im Militär hat er seinen eigenen Personenkult aufgebaut, um die Monarchie ins Abseits zu drängen. Er betrachtet den gegenwärtigen Zustand Siams als 'überholtes Relikt einer vergangenen Ära' und beabsichtigt, seine Macht zu nutzen, um Militarismus und Nationalismus zu fördern, die er beide als zusätzliche essenzielle Prinzipien der modernen Nation proklamiert.§!"
+ SIA_plaek_phibunsongkhram_sic_desc: "§YGeboren:§! §L14. Juli 1897, in Mueang Nonthaburi, Königreich Siam§!\n§YHintergrund:§! §LGeboren als Plaek Kittasangkha in einer thailändischen Obstgärtnerfamilie, begannen Phibun und sein älterer Bruder Prakit 1909 ihre Ausbildung an der Royal Siamese Army Cadet School. Nach dem Abschluss diente er kurz im 7. Artillerieregiment (Phitsanulok), wo er seine Frau kennenlernte, und im 1. Royal Guards Artillery Regiment, bevor er ein königliches Stipendium erhielt, um sein Studium an der k.u.k. Artillerie-Schießschule in Hajmáskér, Ungarn und dann an der Theresianische Militärakademie in Wiener Neustadt, Österreich fortzusetzen. Kurz nach seiner Rückkehr nach Siam wurde Phibun für seine Taten während der Siamesischen Intervention in Burma 1928-1929 bei der Befreiung von Moulmein und Dawei in Tenasserim bekannt - wofür er seinen Titel 'Luang Phibunsongkhram' erhielt. Durch pure Ausstrahlung und persönliche Verbindungen sowohl zu den jüngeren Offizieren als auch zum Oberkommando über Prinz Pridi Debyabongs Devakula, seinen ehemaligen Vorgesetzten, ist es keine Überraschung, dass er seine jetzige Position in relativ jungem Alter erreichte.§!\n\n§YAnmerkungen: Sein Vorname bedeutet auf Thai 'Seltsam', da seine Eltern die Position seiner Ohren bei der Geburt als merkwürdig empfanden, weshalb er es vorzog, stattdessen mit seinem Anfangsbuchstaben P (Por) angesprochen zu werden.§!"
 
  SIA_phao_sriyanond: "Phao Sriyanond"
- SIA_phao_sriyanond_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 1. März 1910, in Phra Nakhon Province, Monthon Krungthep, Königreich Siam\n§YPolitikkarriere:§! Polizeichef Phao Sriyanond ist Plaek Phibunsongkhram als Anführer des siamesischen Militärregimes mit Unterstützung der Soi Ratchakhru Clique nachgefolgt. Phao ist für seine Brutalität und politische Gerissenheit bekannt, und seine politischen Gegner pflegen zu 'verschwinden'. Phao hält die siamesische Monarchie außerdem für ein antiquiertes Relikt, das der Sache des Nationalismus schadet, und ist daher ein überzeugter Republikaner."
+ SIA_phao_sriyanond_leader_desc: "§YGeboren:§! §L1. März 1910, in Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!\n§YHintergrund:§! §LPolizeichef Phao Sriyanond ist Plaek Phibunsongkhram als Anführer des siamesischen Militärregimes mit Unterstützung der Soi Ratchakhru Clique nachgefolgt. Phao ist für seine Brutalität und politische Gerissenheit bekannt, und seine politischen Gegner pflegen zu 'verschwinden'. Phao hält die siamesische Monarchie außerdem für ein antiquiertes Relikt, das der Sache des Nationalismus schadet, und ist daher ein überzeugter Republikaner.§!"
+ SIA_phao_sriyanond_sic_desc: "§YGeboren:§! §L1. März 1910, in Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!"
 
  SIA_sarit_thanarat: "Sarit Thanarat"
- SIA_sarit_thanarat_leader_desc: "§YAnführer Beschreibung\nGeboren:§! 16. Juni 1908, in Phra Nakhon Province, Monthon Krungthep, Königreich Siam\n§YPolitikkarriere:§! General Sarit Thanarat ist Plaek Phibunsongkhram als Anführer des siamesischen Militärregimes mit Unterstützung der Sisao Thawaet Clique nachgefolgt. Ursprünglich ein einfacher Offizier in der Phayap Army, stieg er mit Plaeks und Phins Hilfe schnell durch die Ränge auf. Als überzeugter Anti-Syndikalist sieht er die Monarchie als wichtiges Werkzeug gegen die Roten und als Mittelpunkt des thailändischen Nationalismus."
+ SIA_sarit_thanarat_leader_desc: "§YGeboren:§! §L16. Juni 1908, in Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!\n§YHintergrund:§! §LGeneral Sarit Thanarat ist Plaek Phibunsongkhram als Anführer des siamesischen Militärregimes mit Unterstützung der Sisao Thawaet Clique nachgefolgt. Ursprünglich ein einfacher Offizier in der Phayap Army, stieg er mit Plaeks und Phins Hilfe schnell durch die Ränge auf. Als überzeugter Anti-Syndikalist sieht er die Monarchie als wichtiges Werkzeug gegen die Roten und als Mittelpunkt des thailändischen Nationalismus.§!"
+ SIA_sarit_thanarat_sic_desc: "§YGeboren:§! §L16. Juni 1908, in Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!"
 
  ## Field Marshals/Generals
  SIA_boworadet_kridakorn: "Boworadet Kridakorn"
  SIA_boworadet_kridakorn_royal: "Prince Boworadet Kridakorn"
- SIA_boworadet_kridakorn_sic_desc: "§YGeneral Beschreibung\nGeboren:§! §g3. April 1877, in Phra Nakhon Province, Monthon Krungthep, Königreich Siam§!\n§YMilitärkarriere:§! §gAls Enkel von König Mongkut/Rama IV schloss Boworadet 1898 sein Militärstudium im Vereinigten Königreich ab, während sein Vater dort als siamesischer Botschafter tätig war. Unzufrieden mit seinem Ausgangsrang in der Königlich Siamesischen Armee, absolvierte er ein weiteres Jahr an der School of Military Engineering in Chatham, Vereinigtes Königreich. Nach der schnellen Verdrängung der pro-Entente Militärkommandeure durch den siamesischen Eintritt in den Weltkrieg dauerte es jedoch bis 1928, als König Prajadhipok ihn persönlich zum neuen Verteidigungsminister ernannte, um die Unterstützung des Königs gegen den Siamesischen Obersten Staatsrat zu stärken.§!\n\n§YAnmerkungen: Hat eine enge Beziehung zu König Prajadhipok und ist als populistischer Kommandeur innerhalb der Armee bekannt."
+ SIA_boworadet_kridakorn_sic_desc: "§YGeboren:§! §L3. April 1877, in Mueang Krungthep Mahanakhon, Königreich Siam§!\n§YHintergrund:§! §LAls Enkel von König Mongkut/Rama IV schloss Boworadet 1898 sein Militärstudium im Vereinigten Königreich ab, während sein Vater dort als siamesischer Botschafter tätig war. Unzufrieden mit seinem Ausgangsrang in der Königlich Siamesischen Armee, absolvierte er ein weiteres Jahr an der School of Military Engineering in Chatham, Vereinigtes Königreich. Nach der schnellen Verdrängung der pro-Entente Militärkommandeure durch den siamesischen Eintritt in den Weltkrieg dauerte es jedoch bis 1928, als König Prajadhipok ihn persönlich zum neuen Verteidigungsminister ernannte, um die Unterstützung des Königs gegen den Siamesischen Obersten Staatsrat zu stärken.§!\n\n§YAnmerkungen: Hat eine enge Beziehung zu König Prajadhipok und ist als populistischer Kommandeur innerhalb der Armee bekannt.§!"
 
  SIA_jarun_seriroengrit: "Jarun Rattanakul Seriroengrit"
  SIA_jarun_seriroengrit_royal: "Luang Seriroengrit"
- SIA_jarun_seriroengrit_high_command_desc: "§YGeneral Beschreibung\nGeboren:§! §g27. Oktober 1895, in Phra Nakhon Province, Monthon Krungthep, Königreich Siam§!\n§YMilitärkarriere:§! §gAls Spross des Hauses Rattanakul, dessen Familiengeschichte bis in die Ayutthaya-Periode zurückverfolgt werden kann, trat Jarun 1907 in die Königlich Siamesische Kadettenanstalt ein und schloss mit Bestnoten ab. Jarun stieg schnell durch die Ränge als Protegé von Prince Purachatra Jayakara, dem Vater der siamesischen Eisenbahn und drahtlosen Kommunikation, in der Ingenieurabteilung der Königlich Siamesischen Armee auf.\n\nJaruns Name trat während der Siamesischen Intervention in Burma 1928-1929 in den Vordergrund, als Einheiten unter seinem Kommando der Phayap Army die Shan-Staaten bis zur Verteidigungslinie am Salween-Fluss 'befreiten', wo sich bessere Versorgungszüge und schnelle Kommunikation im unwegsamen Gelände als entscheidender Faktor erwiesen.§!\n\n§YAnmerkungen: Seine Frau, Erb Rattanakul Seriroengrit, soll angeblich einen Schützen angeheuert haben, um Phibuns erste Geliebte, Rujee Uthaikorn, zu ermorden, was jedoch misslang. Das Paar behauptete vor Gericht, sie hätten nur gewusst, dass Phibun eine hatte, aber nicht wen."
+ SIA_jarun_seriroengrit_high_command_desc: "§YGeboren:§! §L27. Oktober 1895, in Mueang Krungthep Mahanakhon, Königreich Siam§!\n§YHintergrund:§! §LAls Spross des Hauses Rattanakul, dessen Familiengeschichte bis in die Ayutthaya-Periode zurückverfolgt werden kann, trat Jarun 1907 in die Königlich Siamesische Kadettenanstalt ein und schloss mit Bestnoten ab. Jarun stieg schnell durch die Ränge als Protegé von Prince Purachatra Jayakara, dem Vater der siamesischen Eisenbahn und drahtlosen Kommunikation, in der Ingenieurabteilung der Königlich Siamesischen Armee auf.\n\nJaruns Name trat während der Siamesischen Intervention in Burma 1928-1929 in den Vordergrund, als Einheiten unter seinem Kommando der Phayap Army die Shan-Staaten bis zur Verteidigungslinie am Salween-Fluss 'befreiten', wo sich bessere Versorgungszüge und schnelle Kommunikation im unwegsamen Gelände als entscheidender Faktor erwiesen.§!\n\n§YAnmerkungen: Seine Frau, Erb Rattanakul Seriroengrit, soll angeblich einen Schützen angeheuert haben, um Phibuns erste Geliebte, Rujee Uthaikorn, zu ermorden, was jedoch misslang. Das Paar behauptete vor Gericht, sie hätten nur gewusst, dass Phibun eine hatte, aber nicht wen.§!"
 
  SIA_phot_phahonyothin: "Phot Phahonyothin"
  SIA_phot_phahonyothin_royal: "Phraya Phahonphonpayuhasena"
- SIA_phot_phahonyothin_sic_desc: "§YGeneral Beschreibung\nGeboren:§! §gAm 29. März 1887 in der Provinz Phra Nakhon, Monthon Krungthep, Königreich Siam§!\n§YMilitärkarriere:§! §gGeboren als Phot Phahonyothin, Sohn eines thai-teochew-chinesischen Vaters, Oberst Kim Phahonyothin, und einer thai-monischen Mutter, Chap Phahonyothin. Phahon trat 1901 in die Königlich Siamesische Kadettenanstalt ein und schloss mit Bestnoten ab. Er wurde später durch ein königliches Stipendium an die Kadettenschule in Potsdam und dann an die Königlich Preußische Hauptkadettenanstalt in Groß-Lichterfelde in Berlin entsandt, wo er Klassenkamerad des späteren deutschen Fliegerasses Hermann von Göring wurde und durch einen Schwertkampf die Bekanntschaft des japanischen Generals Hideki Tojo machte. Phahon setzte sein Studium an der Ingenieursschule in Kopenhagen in Dänemark fort. Er konnte dort jedoch nur ein Jahr studieren, bevor er 1912 nach Siam zurückkehren musste, da seine Stipendienmittel erschöpft waren.\n\nPhraya Phahonphonpayuhasena (Phot Phahonyothin) war später ein Gründungsmitglied der \"Die Musketiere\", der einflussreichen Clique der Nachkriegsoffiziere, wobei Phahon selbst als stellvertretender Artillerie-Inspekteur diente.§!\n\n§YAnmerkungen: Ist eine aufrechte Person, vielleicht zu sehr, da er von allen erwartet, dass sie ihn so behandeln, wie er andere behandelt, und ist Fremden gegenüber im Allgemeinen recht schüchtern."
+ SIA_phot_phahonyothin_sic_desc: "§YGeboren:§! §L29. März 1887, in Mueang Krungthep Mahanakhon, Königreich Siam§!\n§YHintergrund:§! §LGeboren als Phot Phahonyothin, Sohn eines thai-teochew-chinesischen Vaters, Oberst Kim Phahonyothin, und einer thai-monischen Mutter, Chap Phahonyothin. Phahon trat 1901 in die Königlich Siamesische Kadettenanstalt ein und schloss mit Bestnoten ab. Er wurde später durch ein königliches Stipendium an die Kadettenschule in Potsdam und dann an die Königlich Preußische Hauptkadettenanstalt in Groß-Lichterfelde in Berlin entsandt, wo er Klassenkamerad des späteren deutschen Fliegerasses Hermann von Göring wurde und durch einen Schwertkampf die Bekanntschaft des japanischen Generals Hideki Tojo machte. Phahon setzte sein Studium an der Ingenieursschule in Kopenhagen in Dänemark fort. Er konnte dort jedoch nur ein Jahr studieren, bevor er 1912 nach Siam zurückkehren musste, da seine Stipendienmittel erschöpft waren.\n\nPhraya Phahonphonpayuhasena (Phot Phahonyothin) war später ein Gründungsmitglied der \"Die Musketiere\", der einflussreichen Clique der Nachkriegsoffiziere, wobei Phahon selbst als stellvertretender Artillerie-Inspekteur diente.§!\n\n§YAnmerkungen: Ist eine aufrechte Person, vielleicht zu sehr, da er von allen erwartet, dass sie ihn so behandeln, wie er andere behandelt, und ist Fremden gegenüber im Allgemeinen recht schüchtern.§!"
 
  SIA_din_tharab: "Din Tharab"
  SIA_din_tharab_royal: "Phraya Srisitthisongkhram"
- SIA_din_tharab_army_chief_desc: "§YGeneral Beschreibung\nGeboren:§! §gAm 10. Mai 1891 in der Provinz Phetchaburi, Monthon Ratchaburi, Königreich Siam§!\n§YMilitärkarriere:§! §gGeboren als Din Tharab in einer bürgerlichen Bauernfamilie. Din trat 1901 in die Königlich Siamesische Kadettenanstalt ein und schloss mit Bestnoten ab. Er wurde später durch ein königliches Stipendium zusammen mit Kadett Phot Phahonyothin (Phraya Phahonphonpayuhasena) an die Kadettenschule in Potsdam und dann an die Königlich Preußische Hauptkadettenanstalt in Groß-Lichterfelde in Berlin entsandt, bevor er 1914 nach Siam zurückkehrte. Obwohl er demokratische Reformen unterstützte, blieb Din ein überzeugter Royalist und verabscheute jeden Versuch, einen Regimewechsel gewaltsam herbeizuführen.\n\nPhraya Srisitthisongkhram (Din Tharab) war später ein Gründungsmitglied der \"Die Musketiere\", der einflussreichen Clique der Nachkriegsoffiziere, wobei Din selbst als Stabschef der 1. Armee diente.§!\n\n§YAnmerkungen: Allgemein ein Fan deutscher Literatur, mit vollständigen Sammlungen der Werke von Friedrich Schiller und Johann Wolfgang von Goethe in seinem Haus."
+ SIA_din_tharab_army_chief_desc: "§YGeboren:§! §L10. Mai 1891, in Mueang Phetchaburi, Königreich Siam§!\n§YHintergrund:§! §LGeboren als Din Tharab in einer bürgerlichen Bauernfamilie. Din trat 1901 in die Königlich Siamesische Kadettenanstalt ein und schloss mit Bestnoten ab. Er wurde später durch ein königliches Stipendium zusammen mit Kadett Phot Phahonyothin (Phraya Phahonphonpayuhasena) an die Kadettenschule in Potsdam und dann an die Königlich Preußische Hauptkadettenanstalt in Groß-Lichterfelde in Berlin entsandt, bevor er 1914 nach Siam zurückkehrte. Obwohl er demokratische Reformen unterstützte, blieb Din ein überzeugter Royalist und verabscheute jeden Versuch, einen Regimewechsel gewaltsam herbeizuführen.\n\nPhraya Srisitthisongkhram (Din Tharab) war später ein Gründungsmitglied der \"Die Musketiere\", der einflussreichen Clique der Nachkriegsoffiziere, wobei Din selbst als Stabschef der 1. Armee diente.§!\n\n§YAnmerkungen: Allgemein ein Fan deutscher Literatur, mit vollständigen Sammlungen der Werke von Friedrich Schiller und Johann Wolfgang von Goethe in seinem Haus.§!"
 
  SIA_sala_emasiri: "Sala Emasiri"
  SIA_sala_emasiri_royal: "Phrayra Rithhi-arkaney"
- SIA_sala_emasiri_army_chief_desc: "§YGeneral Beschreibung\nGeboren:§! §gAm 14. Januar 1889 in der Provinz Phra Nakhon, Monthon Krungthep, Königreich Siam§!\n§YMilitärkarriere:§! §gGeboren als Sala Emasiri in einer Militärfamilie. Sala trat 1903 in die Königlich Siamesische Kadettenanstalt ein und schloss als Jahrgangsbester ab. Sala diente als stellvertretender Kommandeur des 8. Artillerieregiments in Nakhon Ratchasima, als Siam in den Weltkrieg eintrat, und zeichnete sich während des Krieges an der indochinesischen Front aus.\n\nPhrayra Rithhi-arkaney (Sala Emasiri) wurde später als Kernmitglied der \"Die Musketiere\", der einflussreichen Clique der Nachkriegsoffiziere, aufgenommen, wobei Sala selbst als Kommandeur des 1. Königlichen Artillerieregiments in Bangkok diente und das einzige Schlüsselmitglied der Gruppe war, das nicht im Deutschen Reich studiert hatte.§!\n\n§YAnmerkungen: Gläubiger Theravada-Buddhist. Sein Vater, Siri Emasiri/Phraya Manusarasart Buncha, war auch als großer Dichter bekannt, dessen Version des Ramakien (Thai Ramayana) Epos in die Wände des Wat Phra Kaew eingemeißelt wurde."
+ SIA_sala_emasiri_army_chief_desc: "§YGeboren:§! §L14. Januar 1889, in Mueang Krungthep Mahanakhon, Königreich Siam§!\n§YHintergrund:§! §LGeboren als Sala Emasiri in einer Militärfamilie. Sala trat 1903 in die Königlich Siamesische Kadettenanstalt ein und schloss als Jahrgangsbester ab. Sala diente als stellvertretender Kommandeur des 8. Artillerieregiments in Nakhon Ratchasima, als Siam in den Weltkrieg eintrat, und zeichnete sich während des Krieges an der indochinesischen Front aus.\n\nPhrayra Rithhi-arkaney (Sala Emasiri) wurde später als Kernmitglied der \"Die Musketiere\", der einflussreichen Clique der Nachkriegsoffiziere, aufgenommen, wobei Sala selbst als Kommandeur des 1. Königlichen Artillerieregiments in Bangkok diente und das einzige Schlüsselmitglied der Gruppe war, das nicht im Deutschen Reich studiert hatte.§!\n\n§YAnmerkungen: Gläubiger Theravada-Buddhist. Sein Vater, Siri Emasiri/Phraya Manusarasart Buncha, war auch als großer Dichter bekannt, dessen Version des Ramakien (Thai Ramayana) Epos in die Wände des Wat Phra Kaew eingemeißelt wurde.§!"
 
  SIA_wan_chuthin: "Wan Chuthin"
  SIA_wan_chuthin_royal: "Luang Prasartpitthayayuth"
- SIA_wan_chuthin_army_chief_desc: "§YGeneral Beschreibung\nGeboren:§! §gam 9. Juni 1894 in Phra Nakhon Province, Monthon Krungthep, Königreich Siam§!\n§YMilitärkarriere:§! §gGeboren als Wan Chuthin, Sohn eines thai-teochew-chinesischen Vaters, Richter Euan Chuthin, und einer thailändischen Mutter, Wong Chuthin. Wan trat 1908 in die Royal Siamese Army Cadet School ein und schloss mit der fünftbesten Note ab. Später wurde er mit einem königlichen Stipendium an die Kadettenschule in Potsdam und dann an die Königlich Preußische Hauptkadettenanstalt in Groß-Lichterfelde in Berlin geschickt. Der Beginn des Weltkriegs zwang ihn und viele thailändische Kadetten, stattdessen an die Eidgenössische Technische Hochschule Zürich in der Schweiz zu wechseln, wo er erstmals die Schweizer Demokratie kennenlernte. Nach Siams Kriegseintritt bewarb sich Wan um eine Position als Militärattaché in Berlin und diente kurzzeitig als stellvertretender Kommandeur des kleinen siamesischen Armeekontingents in Europa, bevor er 1921 nach Siam zurückkehrte.\n\nLuang Prasartpitthayayuth (Wan Chuthin) war später Gründungsmitglied der \"The Musketeers\", der einflussreichen Offiziersclique nach dem Weltkrieg, wobei Wan selbst als Direktor des Generalstabskollegs diente.§!\n\n§YAnmerkungen: Hat eine enge Beziehung zu Prinz Paribatra Sukhumbandhu, seinem Förderer und einem der \"Pro-Deutschen Triumvirat\"-Prinzen, und gilt daher als Schützling des Prinzen."
+ SIA_wan_chuthin_army_chief_desc: "§YGeboren:§! §L9. Juni 1894, in Mueang Krungthep Mahanakhon, Königreich Siam§!\n§YHintergrund:§! §LGeboren als Wan Chuthin, Sohn eines thai-teochew-chinesischen Vaters, Richter Euan Chuthin, und einer thailändischen Mutter, Wong Chuthin. Wan trat 1908 in die Royal Siamese Army Cadet School ein und schloss mit der fünftbesten Note ab. Später wurde er mit einem königlichen Stipendium an die Kadettenschule in Potsdam und dann an die Königlich Preußische Hauptkadettenanstalt in Groß-Lichterfelde in Berlin geschickt. Der Beginn des Weltkriegs zwang ihn und viele thailändische Kadetten, stattdessen an die Eidgenössische Technische Hochschule Zürich in der Schweiz zu wechseln, wo er erstmals die Schweizer Demokratie kennenlernte. Nach Siams Kriegseintritt bewarb sich Wan um eine Position als Militärattaché in Berlin und diente kurzzeitig als stellvertretender Kommandeur des kleinen siamesischen Armeekontingents in Europa, bevor er 1921 nach Siam zurückkehrte.\n\nLuang Prasartpitthayayuth (Wan Chuthin) war später Gründungsmitglied der \"The Musketeers\", der einflussreichen Offiziersclique nach dem Weltkrieg, wobei Wan selbst als Direktor des Generalstabskollegs diente.§!\n\n§YAnmerkungen: Hat eine enge Beziehung zu Prinz Paribatra Sukhumbandhu, seinem Förderer und einem der \"Pro-Deutschen Triumvirat\"-Prinzen, und gilt daher als Schützling des Prinzen.§!"
 
  SIA_phin_choonhavan: "Phin Choonhavan"
  SIA_phin_choonhavan_royal: "Luang Chumnanyutthasart"
- SIA_phin_choonhavan_army_chief_desc: "§YGeneral Beschreibung\nGeboren:§! §gam 14. Oktober 1891 in Samut Songkhram Province, Monthon Ratchaburi, Königreich Siam§!\n§YMilitärkarriere:§! §gGeboren in eine Familie thailändischer Obstgarten-Besitzer, schloss Phin die Royal Siamese Army Cadet School mit Auszeichnung ab und erreichte durch seinen reinen Willen eine der schnellsten Beförderungen zum Major-Rang in seinen Mittdreißigern. Er absolvierte dieselbe RSCAS-Klasse wie Phibun und respektiert ihn sehr. Er gilt als einer von Phibuns prominentesten Unterstützern, da er der nächste in der Reihe für den Kommandeur der 3. Militärregion (Isan/Nordosten) ist.§!\n\n§YAnmerkungen: Liebt seine Nation genauso sehr wie seinen Obstgarten; bekannt dafür, gelegentlich selbst gepflanzte Blumen als Geschenke mit verborgener Bedeutung zu überreichen."
+ SIA_phin_choonhavan_army_chief_desc: "§YGeboren:§! §L14. Oktober 1891, in Mueang Samut Songkhram, Königreich Siam§!\n§YHintergrund:§! §LGeboren in eine Familie thailändischer Obstgarten-Besitzer, schloss Phin die Royal Siamese Army Cadet School mit Auszeichnung ab und erreichte durch seinen reinen Willen eine der schnellsten Beförderungen zum Major-Rang in seinen Mittdreißigern. Er absolvierte dieselbe RSCAS-Klasse wie Phibun und respektiert ihn sehr. Er gilt als einer von Phibuns prominentesten Unterstützern, da er der nächste in der Reihe für den Kommandeur der 3. Militärregion (Isan/Nordosten) ist.§!\n\n§YAnmerkungen: Liebt seine Nation genauso sehr wie seinen Obstgarten; bekannt dafür, gelegentlich selbst gepflanzte Blumen als Geschenke mit verborgener Bedeutung zu überreichen.§!"
 
  SIA_thep_panthumasaen: "Thep Phanthumasaen"
  SIA_thep_panthumasaen_royal: "Phraya Songsuradet"
- SIA_thep_panthumasaen_army_chief_desc: "§YGeneral Beschreibung\nGeboren:§! §gam 12. August 1892 in Phra Nakhon Province, Monthon Krungthep, Königreich Siam§!\n§YMilitärkarriere:§! §gGeboren als Thep Phanthumasaen in einer Militärfamilie. Wan trat 1904 in die Royal Siamese Army Cadet School ein und schloss mit der höchsten Punktzahl ab. In der RSACS bemerkte er erstmals die Behandlungskluft zwischen Aristokraten und Gemeinen unter den Kadetten. Songsuradet wurde später mit königlichem Stipendium an die Preußische Kriegsakademie in Berlin geschickt. Er trat dann den Militärdienst als Armeeingenieur in Magdeburg an, bevor er 1915 nach Siam zurückkehrte, nachdem er acht Jahre im Deutschen Reich gelebt hatte. Songsuradet sah kurz Kampfhandlungen während des Weltkriegs an der indochinesischen Front, bevor er als Chefingenieur diente und eine wichtige Rolle beim landesweiten siamesischen Eisenbahnbau spielte. Eine seiner größten Leistungen war der 1,3 km lange Khun Tan Tunnel, der Chiang Mai mit dem Rest des Landes verband.\n\nPhraya Songsuradet (Thep Phanthumasaen) war später Gründungsmitglied der \"The Musketeers\", der einflussreichen Offiziersclique nach dem Weltkrieg, wobei Songsuradet selbst als Chef der Operationsdirektion sowie als Ausbildungschef an der RCACS diente.§!\n\n§YAnmerkungen: Gerät oft mit Phibun bei den meisten Themen aneinander, außerdem ein begeisterter Hundeliebhaber."
+ SIA_thep_panthumasaen_army_chief_desc: "§YGeboren:§! §L12. August 1892, in Mueang Krungthep Mahanakhon, Königreich Siam§!\n§YHintergrund:§! §LGeboren als Thep Phanthumasaen in einer Militärfamilie. Wan trat 1904 in die Royal Siamese Army Cadet School ein und schloss mit der höchsten Punktzahl ab. In der RSACS bemerkte er erstmals die Behandlungskluft zwischen Aristokraten und Gemeinen unter den Kadetten. Songsuradet wurde später mit königlichem Stipendium an die Preußische Kriegsakademie in Berlin geschickt. Er trat dann den Militärdienst als Armeeingenieur in Magdeburg an, bevor er 1915 nach Siam zurückkehrte, nachdem er acht Jahre im Deutschen Reich gelebt hatte. Songsuradet sah kurz Kampfhandlungen während des Weltkriegs an der indochinesischen Front, bevor er als Chefingenieur diente und eine wichtige Rolle beim landesweiten siamesischen Eisenbahnbau spielte. Eine seiner größten Leistungen war der 1,3 km lange Khun Tan Tunnel, der Chiang Mai mit dem Rest des Landes verband.\n\nPhraya Songsuradet (Thep Phanthumasaen) war später Gründungsmitglied der \"The Musketeers\", der einflussreichen Offiziersclique nach dem Weltkrieg, wobei Songsuradet selbst als Chef der Operationsdirektion sowie als Ausbildungschef an der RCACS diente.§!\n\n§YAnmerkungen: Gerät oft mit Phibun bei den meisten Themen aneinander, außerdem ein begeisterter Hundeliebhaber.§!"
 
  SIA_adul_adulyadejchrat: "Adul Adulyadejarat"
  SIA_adul_adulyadejchrat_royal: "Luang Adulyadejchrat"
  # WIP
- SIA_adul_adulyadejchrat_army_chief_desc: "§YGeneral Beschreibung\nGeboren:§! §gam 28. Juni 1894 in Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam"
+ SIA_adul_adulyadejchrat_army_chief_desc: "§YGeboren:§! §L28. Juni 1894, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  SIA_pichit_kriengsakpichit: "Pichit Kriengsakpichit"
  SIA_pichit_kriengsakpichit_royal: "Luang Kriengsakpichit"
- # WIP
- SIA_pichit_kriengsakpichit_army_chief_desc: "§YGeneral Beschreibung\nGeboren:§! §gam 20. Juli 1896 in Phra Pradaeng Province, Monthon Krungthep, Königreich Siam"
+ # WIP; Phra Pradaeng Province's old name
+ SIA_pichit_kriengsakpichit_army_chief_desc: "§YGeboren:§! §L20. Juli 1896, in Mueang Nakhon Khuean Khan, Königreich Siam§!"
 
  SIA_karj_karjsongkhram: "Karj Karjsongkhram"
  SIA_karj_karjsongkhram_royal: "Luang Karjsongkhram"
- SIA_karj_karjsongkhram_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §gam 12. April 1890 im Fürstentum Nakhon Lamphunchai, Monthon Phayap, Königreich Siam§!\n§YMilitärkarriere:§! §gGeboren als Tian Kengradomying, trat Karj in die Königlich Siamesische Kadettenschule ein, bevor er mit durchschnittlicher Leistung in der Phayap-Armee diente. Nach Abschluss des Königlich Siamesischen Generalstabskollegs zog er nach Bangkok, um in militärischen Beschaffungskommissionen für den Königlich Siamesischen Reformplan von 2473 B.E. nach der Burma-Intervention zu sitzen - wodurch er größeren Einfluss ausübte, als sein Titel vermuten ließ.§!\n\n§YAnmerkungen: Er ist dafür bekannt, recht distanziert zu sein und oft mit seinen Untergebenen aneinanderzugeraten, außerdem dafür, mindestens 5 Mätressen gleichzeitig zu haben."
+ SIA_karj_karjsongkhram_commander_desc: "§YGeboren:§! §L12. April 1890, im Fürstentum Nakhon Lamphunchai, Königreich Siam§!\n§YHintergrund:§! §LGeboren als Tian Kengradomying, trat Karj in die Königlich Siamesische Kadettenschule ein, bevor er mit durchschnittlicher Leistung in der Phayap-Armee diente. Nach Abschluss des Königlich Siamesischen Generalstabskollegs zog er nach Bangkok, um in militärischen Beschaffungskommissionen für den Königlich Siamesischen Reformplan von 2473 B.E. nach der Burma-Intervention zu sitzen - wodurch er größeren Einfluss ausübte, als sein Titel vermuten ließ.§!\n\n§YAnmerkungen: Er ist dafür bekannt, recht distanziert zu sein und oft mit seinen Untergebenen aneinanderzugeraten, außerdem dafür, mindestens 5 Mätressen gleichzeitig zu haben.§!"
 
  SIA_mangkorn_promyothee: "Mangkorn Promyothee"
  SIA_mangkorn_promyothee_royal: "Luang Promyothee"
  # WIP
- SIA_mangkorn_promyothee_commander_desc: "§YGeneral Beschreibung\nGeboren:§! §g16. November 1896, in Thonburi Province, Monthon Krungthep, Königreich Siam"
+ SIA_mangkorn_promyothee_commander_desc: "§YGeboren:§! §L16. November 1896, in Mueang Thonburi, Königreich Siam§!"
 
  ## Admirals
  SIA_sindhu_kamolnawin: "Sindhu Kamolnawin"
  SIA_sindhu_kamolnawin_royal: "Luang Sinthusongkhramchai"
  # WIP
- SIA_sindhu_kamolnawin_navy_chief_desc: "§YAdmiral Beschreibung\nGeboren:§! §g23. Juni 1901, in Samut Sakhon Province, Monthon Nakhon Chaisi, Königreich Siam"
+ SIA_sindhu_kamolnawin_navy_chief_desc: "§YGeboren:§! §L23. Juni 1901, in Mueang Samut Sakhon, Monthon Nakhon Chaisi, Königreich Siam§!"
 
  SIA_thongdee_suwanprueng: "Thongdee Suwanprueng"
  SIA_thongdee_suwanprueng_royal: "Phraya Witchitchollatee"
  # WIP
- SIA_thongdee_suwanprueng_navy_chief_desc: "§YAdmiral Beschreibung\nGeboren:§! §g23. Oktober 1890 in der Provinz Thonburi, Monthon Krungthep, Königreich Siam"
+ SIA_thongdee_suwanprueng_navy_chief_desc: "§YGeboren:§! §L23. Oktober 1890, in Mueang Thonburi, Königreich Siam§!"
 
  SIA_bunchai_sawathasuk: "Bunchai Sawathasuk"
  SIA_bunchai_sawathasuk_royal: "Phraya Wicharnjakkich"
  # WIP
- SIA_bunchai_sawathasuk_navy_chief_desc: "§YAdmiral Beschreibung\nGeboren:§! §g17. Juni 1890 in der Provinz Phra Nakhon, Monthon Krungthep, Königreich Siam"
+ SIA_bunchai_sawathasuk_navy_chief_desc: "§YGeboren:§! §L17. Juni 1890, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  SIA_mongkol_mongkolnawin: "Mongkol Mongkolnawin"
  SIA_mongkol_mongkolnawin_royal: "Phra Mongkolnavavuth"
  # WIP
- SIA_mongkol_mongkolnawin_navy_chief_desc: "§YAdmiral Beschreibung\nGeboren:§! §g1. November 1894 in der Provinz Nonthaburi, Monthon Krungthep, Königreich Siam"
+ SIA_mongkol_mongkolnawin_navy_chief_desc: "§YGeboren:§! §L1. November 1894, in Mueang Nonthaburi, Königreich Siam§!"
 
  SIA_prayoon_yutthasartkosol: "Prayoon Yutthasartkosol"
  SIA_prayoon_yutthasartkosol_royal: "Luang Yutthasartkosol"
+ SIA_prayoon_yutthasartkosol_high_command_desc: "§YGeboren:§! §L19. Oktober 1893, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  ## Air Chiefs
  SIA_boonjeam_komolmit: "Boonjeam Komolmit"
  SIA_boonjeam_komolmit_royal: "Luang Athuekthewadet"
+ SIA_boonjeam_komolmit_air_chief_desc: "§YGeboren:§! §L2. August 1897, in Mueang Nakhon Chaisi, Monthon Nakhon Chaisi, Königreich Siam§!"
 
  SIA_long_sinsuk: "Long Sinsuk"
  SIA_long_sinsuk_royal: "Phraya Vehasayarnsilpasit"
+ SIA_long_sinsuk_air_chief_desc: "§YGeboren:§! §L5. Oktober 1887, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  SIA_munee_mahasantana: "Munee Mahasantana"
  SIA_munee_mahasantana_royal: "Phra Vejayantrungsarit"
+ SIA_munee_mahasantana_air_chief_desc: "§YGeboren:§! §L25. März 1892, in Mueang Thonburi, Königreich Siam§!"
 
  SIA_sunee_suwanprateep: "Sunee Suwanprateep"
  SIA_sunee_suwanprateep_royal: "Phraya Chalermarkart"
+ SIA_sunee_suwanprateep_air_chief_desc: "§YGeboren:§! §L26. April 1887, in Mueang Suphanburi, Königreich Siam§!"
 
  SIA_thip_ketuthat: "Thip Ketuthat"
  SIA_thip_ketuthat_royal: "Phraya Tayarnpikart"
+ SIA_thip_ketuthat_air_chief_desc: "§YGeboren:§! §L23. Februar 1887, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  ## Seconds in Command
  SIA_kon_hutasingha: "Kon Hutasingha"
  SIA_kon_hutasingha_royal: "Phraya Manopakorn Nitithada"
+ SIA_kon_hutasingha_sic_desc: "§YGeboren:§! §L15. Juli 1884, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  SIA_pramarn_adireksarn: "Pramarn Adireksarn"
+ SIA_pramarn_adireksarn_sic_desc: "§YGeboren:§! §L31. Dezember 1913, in Mueang Saraburi, Monthon Ayutthaya, Königreich Siam§!"
 
  SIA_sawaet_piampongsarn: "Sawaet Piampongsarn"
+ SIA_sawaet_piampongsarn_sic_desc: "§YGeboren:§! §L26. Februar 1909, in Mueang Rayong, Monthon Chanthaburi, Königreich Siam§!"
 
  ## Political
  SIA_tiang_sirikhanth: "Tiang Sirikhanth"
+ SIA_tiang_sirikhanth_advisor_desc: "§YGeboren:§! §L5. Dezember 1909, in Mueang Sakon Nakhon, Monthon Udon, Königreich Siam§!"
 
  SIA_wan_waithayakon: "Wan Waithayakon"
- SIA_wan_waithayakon_royal: "Prinz Wan Waithayakon"
+ SIA_wan_waithayakon_royal: "Prince Wan Waithayakon"
+ SIA_wan_waithayakon_advisor_desc: "§YGeboren:§! §L25. August 1891, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  SIA_wichit_wichitwathakan: "Wichit Wichitwathakan"
  SIA_wichit_wichitwathakan_royal: "Luang Wichitwathakan"
+ SIA_wichit_wichitwathakan_advisor_desc: "§YGeboren:§! §L11. August 1898, in Mueang Uthai Thani, Monthon Nakhon Sawan, Königreich Siam§!"
 
  ## Economic
  SIA_mangkorn_samsen: "Mangkorn Samsen"
+ SIA_mangkorn_samsen_advisor_desc: "§YGeboren:§! §L3. Juli 1888, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  SIA_sun_kijjumnong: "Sun Kijjumnong"
+ SIA_sun_kijjumnong_advisor_desc: "§YGeboren:§! §L1898, im Königreich Siam§!"
 
  SIA_wichit_lulitanon: "Wichit Lulitanon"
+ SIA_wichit_lulitanon_advisor_desc: "§YGeboren:§! §L30. Juni 1906, in Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!"
 
  SIA_wisuth_tonwanik: "Wisuth Tonwanik"
  SIA_wisuth_tonwanik_royal: "Phraya Tonwanikmontri"
+ SIA_wisuth_tonwanik_advisor_desc: "§YGeboren:§! §L1. März 1894, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  ## Research
  SIA_jira_wichitsongkhram: "Jira Wichitsongkhram"
  SIA_jira_wichitsongkhram_royal: "Luang Wichitsongkhram"
+ SIA_jira_wichitsongkhram_advisor_desc: "§YGeboren:§! §L4. Oktober 1897, in Mueang Thonburi, Monthon Krungthep, Königreich Siam§!"
 
  SIA_pin_malakul: "Pin Malakul"
+ SIA_pin_malakul_advisor_desc: "§YGeboren:§! §L24. Oktober 1903, in Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!"
 
  SIA_tua_lapanukrom: "Tua Lapanukrom"
+ SIA_tua_lapanukrom_advisor_desc: "§YGeboren:§! §L21. Oktober 1898, in Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!"
 
  ## Construction
  SIA_jerm_arwuth: "Jerm Arwuth"
  SIA_jerm_arwuth_royal: "Phraya Jinda Chakkarath"
+ SIA_jerm_arwuth_advisor_desc: "§YGeboren:§! §L12. Oktober 1880, in Mueang Thonburi, Königreich Siam§!"
 
  SIA_narisara_nuwattiwong: "Narisara Nuwattiwong"
- SIA_narisara_nuwattiwong_royal: "Prinz Narisara Nuwattiwong"
+ SIA_narisara_nuwattiwong_royal: "Prince Narisara Nuwattiwong"
+ SIA_narisara_nuwattiwong_advisor_desc: "§YGeboren:§! §L28. April 1863, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  SIA_purachatra_jayakara: "Purachatra Jayakara"
- SIA_purachatra_jayakara_royal: "Prinz Purachatra Jayakara"
+ SIA_purachatra_jayakara_royal: "Prince Purachatra Jayakara"
+ SIA_purachatra_jayakara_advisor_desc: "§YGeboren:§! §L23. Januar 1881, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  ## Other
  SIA_bung_suphachalasai: "Bung Suphachalasai"
  SIA_bung_suphachalasai_royal: "Luang Suphachalasai"
+ SIA_bung_suphachalasai_advisor_desc: "§YGeboren:§! §L22. Januar 1895, in Mueang Krungthep Mahanakhon, Königreich Siam§!"
 
  SIA_buntaeng_thongsawat: "Buntaeng Thongsawat"
+ SIA_buntaeng_thongsawat_advisor_desc: "§YGeboren:§! §L15. April 1912, im Fürstentum Nakhon Lampang, Monthon Phayap, Königreich Siam§!"
 
  SIA_kulap_saipradit: "Kulap Saipradit"
+ SIA_kulap_saipradit_advisor_desc: "§YGeboren:§! §L31. März 1906, in Mueang Phra Nakhon, Monthon Krungthep, Königreich Siam§!"
 
  SIA_pijarn_dullalampha: "Pijarn Dullalampha"
  SIA_pijarn_dullalampha_royal: "Phra Pijarnpollakij"
+ SIA_pijarn_dullalampha_advisor_desc: "§YGeboren:§! §L9. Januar 1893, in Mueang Trat, Königreich Siam§!"
 
  SIA_tianthai_apichartbhut: "Tianthai Apichartbhut"
+ SIA_tianthai_apichartbhut_advisor_desc: "§YGeboren:§! §L8. April 1907, im Königreich Siam§!"
 
  SIA_wart_sunthonjamorn: "Wart Sunthonjamorn"
+ SIA_wart_sunthonjamorn_advisor_desc: "§YGeboren:§! §L1892, im Königreich Siam§!"
 
  ##Operatives
  SIA_jumkad_plangkoon: "Jumkad Plangkoon"
