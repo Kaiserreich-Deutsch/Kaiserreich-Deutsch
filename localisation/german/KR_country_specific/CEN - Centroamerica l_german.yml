@@ -2,6 +2,12 @@
 
 ## Übersetzt von Thylon ##
 
+### Factions ###
+democratic_alliance_of_the_caribbean: "Demokratische Allianz der Karibik" #created by CENdem_form_faction and COS_form_faction decisions and COS_Ferrer_takes_Control focus
+liberal_pact: "Liberaler Pakt" #created by CEN_found_liberal_pact decision
+peoples_vanguard: "Vorhut des Volkes" #created by CEN_found_military_pact decision
+revolutionary_front: "Revolutionäre Front" #created by CEN_found_revolutionary_pact decision
+
 ### Country Names ###
 CEN: "Zentralamerika"
 CEN_ADJ: "zentralamerikanische"
@@ -418,7 +424,7 @@ cendem.4.a: "Die Flamme des Liberalismus brennt in Zentralamerika weiter!"
 cendem.5.t: "Gründung der Partido del Trabajo"
 cendem.5.d: "Während Parteien mit großen Ambitionen wie die Liberalen oder die Unionistas ihren politischen Wahlkampf beginnen, hat sich in San Salvador die Partido del Trabajo gebildet, eine Gruppe von Mitte-Links-Politikern und Denkern, die zwar in vielen Aspekten mit den anderen Parteien übereinstimmen, sich aber mehr darauf konzentrieren, den kämpfenden Bauern in Mittelamerika zu helfen, als große Ambitionen auf Wohlstand zu verfolgen. Zu den vielen Veränderungen, die die Arbeiterpartei in der Konföderation herbeiführen will, gehören die Schaffung einer Art Wohlfahrtsstaat, eine Landreform und die Schaffung einer Mittelschicht, die es in unserem Land so gut wie nicht gibt. \n\nTrotz des Zusammenschlusses vieler Parteien aus verschiedenen Ländern ist jedoch unklar, wer die Partei bei den Wahlen anführen soll, da die orthodoxe Sozialdemokratie, vertreten durch die von Francisco Sequeira Moreno geführte Fraktion, mit vielen Anhängern des "Vitalismo" von Arturo Araujo kollidiert, einer vom salvadorianischen Politiker Alberto Masferrer geschaffenen Variante der Sozialdemokratie. Es wurden Wahlen für die Parteimitglieder angesetzt, und der Gewinner wird die Partei auf dem Konvent und bei den nächsten Wahlen vertreten."
 cendem.5.a: "Die Rose wird mit Araujos Idealen in Zentralamerika Fuß fassen."
-cendem.5.b: "Die Rose wird in Zentralamerika mit den Idealen von Moreno Wurzeln schlagen."
+cendem.5.b: "Die Rose wird in Zentralamerika mit den Idealen von Sequeira Wurzeln schlagen."
 
 cendem.6.t: "Gründung des Verfassungskonvents"
 cendem.6.d: "Ohne eine anerkannte zentrale Behörde war es schwierig, einen Verfassungskonvent mit Vertretern aller neu gegründeten Parteien zu organisieren. Es konnte kein Konsens darüber erzielt werden, in welcher Stadt der Konvent abgehalten werden sollte, und so wurde schließlich die Stadt San Salvador ausgewählt, da sie geografisch nahe dem Zentrum der Konföderation liegt, über die nötige Infrastruktur verfügt, um politische Großdemonstrationen abzuhalten, und außerdem der symbolische Ort für die zentralamerikanische Unabhängigkeit ist, da dort der Primer Grito de la Independencia stattfand. Als die Delegationen eintreffen, werden Vorschläge gemacht, wie die Konföderation in naher Zukunft aussehen soll, und die Konventsmitglieder haben die Aufgabe, über die Zukunft des Landes zu entscheiden."
@@ -498,7 +504,7 @@ cendem.19.f: "Die PNR-geführte PNR/PT-Koalition feiert ihr Comeback!"
 cendem.20.t: "Die zentralamerikaische Wahl von [GetYear]"
 
 cendem.30.t: "Interne Wahlen der Partei der Arbeit (Partido del Trabajo)"
-cendem.30.d: "Nach vielen Jahren der Beinahe-Hegemonie in der Regierungspartei wurden sowohl Moreno als auch Morales in eine untergeordnete Rolle in der Partei gedrängt, während die Popularität der beiden Guatemalteken Arevalo und Arbenz innerhalb der Partei in die Höhe schießt. Beide bieten einen einzigartigen Blick auf die Politik der Partei und scheinen sich nicht auf eine gemeinsame Basis für die Zukunft einigen zu können. Aus diesem Grund wurde eine Wahl angesetzt, um zu entscheiden, wer die Partido del Trabajo in den kommenden Jahren führen soll."
+cendem.30.d: "Nach vielen Jahren der Beinahe-Hegemonie in der Regierungspartei wurden sowohl Sequeira als auch Morales in eine untergeordnete Rolle in der Partei gedrängt, während die Popularität der beiden Guatemalteken Arevalo und Arbenz innerhalb der Partei in die Höhe schießt. Beide bieten einen einzigartigen Blick auf die Politik der Partei und scheinen sich nicht auf eine gemeinsame Basis für die Zukunft einigen zu können. Aus diesem Grund wurde eine Wahl angesetzt, um zu entscheiden, wer die Partido del Trabajo in den kommenden Jahren führen soll."
 cendem.30.a: "Jacobo Arbenz."
 cendem.30.b: "Juan Jose Arévalo."
 
@@ -1385,7 +1391,7 @@ centro.001.d: "Sozialisten aus dem ganzen Land kommen zusammen, um die Zukunft u
 centro.001.a: "Auf eine neue Zukunft!"
 
 centro.002.t: "Partido Nacional Revolucionario"
-centro.002.d: "Die Partido Nacional Revolucionario wurde von Sandino gegründet, der eine kleine Gruppe von Guatemalteken um sich schart und seinen früheren Partner Moreno weitgehend allein lässt. Sie streben eine einheitliche zentralamerikanische Identität an und wollen diese Identität und die Revolution auf weitere Teile Lateinamerikas ausdehnen. Viele bezeichnen Sandino als Ungeheuer, weil er Moreno, der für seine Revolution in Nicaragua von zentraler Bedeutung war, im Stich gelassen hat, doch seine Popularität steigt stetig."
+centro.002.d: "Die Partido Nacional Revolucionario wurde von Sandino gegründet, der eine kleine Gruppe von Guatemalteken um sich schart und seinen früheren Partner Sequeira weitgehend allein lässt. Sie streben eine einheitliche zentralamerikanische Identität an und wollen diese Identität und die Revolution auf weitere Teile Lateinamerikas ausdehnen. Viele bezeichnen Sandino als Ungeheuer, weil er Moreno, der für seine Revolution in Nicaragua von zentraler Bedeutung war, im Stich gelassen hat, doch seine Popularität steigt stetig."
 centro.002.a: "Die Risse werden sichtbar."
 
 centro.003.t: "Partido Maximista"
@@ -1402,8 +1408,8 @@ centro.005.a: "Ein Mann des Volkes!"
 
 centro.006.d: "Die von Rafael Calderón geführte Partido Popular will sein Volk vor dem Überfluss retten und ein besseres Gesundheitssystem einführen. Den Neinsagern, die ihm vorwerfen, den Liberalen entgegenzukommen, sagt er, dass seine einzigartige Form des gemäßigten Sozialismus das Land intakt, am Laufen und am Leben halten wird!"
 
-centro.007.t: "Moreno, Lost and Found"
-centro.007.d: "Nachdem Moreno von Sandino im Stich gelassen wurde, hat er nach einer neuen Heimat im politischen Spektrum gesucht. Viele prophezeien ihm, dass er sich Sandino unterordnen wird, aber andere meinen, er könnte ihm für seinen Verrat in den Rücken fallen und sich den Guatemalteken in der Partido Popular anschließen. Alles ist möglich, aber er beschließt, sich auf die Seite der..."
+centro.007.t: "Sequeira, Lost and Found"
+centro.007.d: "Da Sequeira von Sandino im Stich gelassen wurde, suchte er nach einer neuen Heimat im politischen Spektrum. Viele prophezeien ihm, dass er sich Sandino unterordnen wird, aber andere meinen, er könnte ihm für seinen Verrat in den Rücken fallen und sich den Guatemalteken in der Partido Popular anschließen. Alles ist möglich, aber er beschließt, sich auf die Seite der..."
 centro.007.a: "Er schwenkt sie zur Partido Nacional Revolucionario!"
 centro.007.b: "Bei ihm klingt die Partido Popular recht sympathisch!"
 
@@ -1585,8 +1591,8 @@ centro.103.t: "Ortiz feiert unseren Sieg"
 centro.103.d: "Silverio Ortiz, der frühere Parteivorsitzende, hat eine Botschaft aus Guatemala geschickt, in der er uns zum Sieg gratuliert und das Beste für unsere Regierung hofft, da er sich auf seine Heimatprovinz konzentrieren wird."
 centro.103.a: "Von Norden bis Süden werden wir Wohlstand für alle bringen."
 
-centro.104.t: "Moreno zeigt Unterstützung für unsere Bildungsreformen"
-centro.104.d: "Heute wurde in den Straßen von Managua eine große Gruppe von Menschen mit Moreno an der Spitze gesehen. Nachdem er von den neuen Bildungsreformen der Regierung gehört hatte, beschloss er, seine Popularität zu nutzen, um alle dazu zu ermutigen, ihre Kinder in eine der vielen neu errichteten Schulen zu schicken. Er beendete seine Botschaft mit den Worten, dass er in jedes nicaraguanische Dorf gehen werde, um die Nachricht zu verbreiten und der künftigen Generation zu Chancen zu verhelfen, von denen wir nur träumen konnten."
+centro.104.t: "Sequeira zeigt Unterstützung für unsere Bildungsreformen"
+centro.104.d: "Heute wurde in den Straßen von Managua eine große Gruppe von Menschen mit Sequeira an der Spitze gesehen. Nachdem er von den neuen Bildungsreformen der Regierung gehört hatte, beschloss er, seine Popularität zu nutzen, um alle dazu zu ermutigen, ihre Kinder in eine der vielen neu errichteten Schulen zu schicken. Er beendete seine Botschaft mit den Worten, dass er in jedes nicaraguanische Dorf gehen werde, um die Nachricht zu verbreiten und der künftigen Generation zu Chancen zu verhelfen, von denen wir nur träumen konnten."
 centro.104.a: "Immer noch ein Mann des Volkes."
 
 centro.200.t: "Sandinos Gefolgsleute"

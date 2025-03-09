@@ -28,9 +28,13 @@ NMB_national_populist_party_long: "Liga der Kapteins"
 
 ### Namibia ###
 NMB_Eliaser_Tuhadeleni: "Eliaser Tuhadeleni"
+NMB_eliaser_tuhadeleni_leader_desc: "§YGeboren:§! §L1. Januar 1918, in Omatangela, Deutsch-Südwestafrika§!"
 NMB_Theophilus_Hamutumbangela: "Theophilus Hamutumbangela"
+NMB_theophilus_hamutumbangela_leader_desc: "§YGeboren:§! §L6. Februar 1917, in Onghala, Deutsch-Südwestafrika§!"
 NMB_Eino_Johannes_Kambonde_Yanamene: "Eino Johannes Kambonde Yanamene"
+NMB_eino_johannes_kambonde_yanamene_leader_desc: "§YGeboren:§! §Lin Deutsch-Südwestafrika§!"
 NMB_Hosea_Kutako: "Hosea Kutako"
+NMB_hosea_kutako_leader_desc: "§YGeboren:§! §L1870, in Okahurimehi, Ovaherero-Territorium§!"
 
 ### Cosmetic Tags ###
 NMB: "Namibia"
@@ -182,13 +186,13 @@ nmb.36.b: "Der Südwestafrikanische Nationalverein"
 nmb.36.c: "Die Otavi Minen und Eisenbahn-Gesellschaft Verwaltung"
 nmb.36.e: "Die Republikanische Partei"
 
-nmb.37.t: "[From.GetName] bittet um Waffen"
-nmb.37.d: "[From.GetName] versucht eine Armee zur Selbstverteidigung aufzubauen. Sie erbitten 2000 Gewehre um diese aufzubauen und versprechen uns danach nicht mehr zu belästigen."
+nmb.37.t: "[From.GetNameDef] bittet um Waffen"
+nmb.37.d: "[From.GetNameDef] versucht eine Armee zur Selbstverteidigung aufzubauen. Sie erbitten 2000 Gewehre um diese aufzubauen und versprechen uns danach nicht mehr zu belästigen."
 nmb.37.a: "Gebt ihnen was sie brauchen"
 nmb.37.b: "Wir haben unsere eigene Sorgen"
 
-nmb.38.t: "[From.GetName] Die Verstärkung kommt an!"
-nmb.38.sent: "[From.GetName] war sehr großzügig und hat uns das Gewünschte geschickt. Wir haben eine Lieferung von 2000 Gewehren erhalten, was für den Aufbau der Armee mehr als ausreicht."
-nmb.38.nosend: "[From.GetName] hat realisiert, dass ihre eigene Verteidigung wichtiger ist. Wir müssen uns auf uns selbst verlassen."
-nmb.38.a: "Wir müssen  [From.GetName] danken"
+nmb.38.t: "[From.GetAdjective] Die Verstärkung kommt an!"
+nmb.38.sent: "[From.GetNameDef] war sehr großzügig und hat uns das Gewünschte geschickt. Wir haben eine Lieferung von 2000 Gewehren erhalten, was für den Aufbau der Armee mehr als ausreicht."
+nmb.38.nosend: "[From.GetNameDef] hat realisiert, dass ihre eigene Verteidigung wichtiger ist. Wir müssen uns auf uns selbst verlassen."
+nmb.38.a: "Wir müssen [From.GetNameDef] danken!"
 nmb.38.b: "Das ist eine Schande..."

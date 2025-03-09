@@ -313,19 +313,19 @@ ETS_foreign_support_send_delgations_OTT: "Unterstützung durch das Osmanische Re
 ETS_foreign_support_send_delgations_OTT_desc: "Das Osmanische Reich ist sehr weit von uns entfernt, aber das schmälert nicht ihre leidenschaftliche Unterstützung für unsere Unabhängigkeit. Wir werden nach Bagdad fliegen und um ihre Unterstützung bitten."
 ETS_foreign_support_send_delgations_AFG: "Unterstützung durch den Khan in Kabul suchen"
 ETS_foreign_support_send_delgations_AFG_desc: "Der Khan in Kabul ist unserem Anliegen gegenüber sehr aufgeschlossen. Wir werden einen Kamelzug zusammenstellen und uns nach Kabul begeben, um ihn um Unterstützung zu bitten."
-ETS_foreign_support_send_delgations_central_asia: "Unterstützung durch [From.GetName] suchen"
-ETS_foreign_support_send_delgations_central_asia_desc: "Wir werden einen Kamelzug zusammenstellen und uns auf den Weg nach [From.GetName] machen, um sie um Unterstützung zu bitten."
-ETS_foreign_support_more_equipment_partial_support: "Ausrüstung von [From.GetName] anfordern"
-ETS_foreign_support_more_equipment_full_support: "Mehr Ausrüstung von [From.GetName]"
+ETS_foreign_support_send_delgations_central_asia: "Unterstützung durch [From.GetNameDef] suchen"
+ETS_foreign_support_send_delgations_central_asia_desc: "Wir werden einen Kamelzug zusammenstellen und uns auf den Weg nach [From.GetNameDef] machen, um sie um Unterstützung zu bitten."
+ETS_foreign_support_more_equipment_partial_support: "Ausrüstung von [From.GetNameDef] anfordern"
+ETS_foreign_support_more_equipment_full_support: "Mehr Ausrüstung von [From.GetNameDef]"
 ETS_economics_of_war_decisions: "Wirtschaft des Krieges"
 ETS_economics_of_war_decisions_desc: "Wenn wir jemals überleben wollen, müssen wir unsere Kriegswirtschaft in Ordnung bringen. Wir müssen damit beginnen, Fabriken umzubauen, und wir müssen eine gute Menge Gold für unsere Kassen bekommen.[get_ETS_hotan_conversion][get_ETS_hotan_firearm_expert][get_ETS_hotan_learn_gunpowder][get_ETS_hotan_learn_mineral_processing]\n\nMenge an Gold:  [?ETS_gold_amount|+]"
 ETS_convert_gold_to_currency: "Eine einheitliche Währung schaffen"
 ETS_complete_hotan_conversion: "Beendet den Fabrikumbau"
-ETS_hire_firearm_expert_foreign: "Engagiert einen Schusswaffenexperten von [From.GetName]"
+ETS_hire_firearm_expert_foreign: "Engagiert einen Schusswaffenexperten von [From.GetNameDef]"
 ETS_hire_firearm_expert_local: "Sucht nach einem Schusswaffenexperten im Tarim-Becken"
-ETS_learn_gunpowder_foreign: "Erhaltet Schießpulver von [From.GetName]"
+ETS_learn_gunpowder_foreign: "Erhaltet Schießpulver von [From.GetNameDef]"
 ETS_learn_gunpowder_local: "Entdecket, wie man vor Ort Schießpulver herstellt"
-ETS_learn_mineral_processing_foreign: "Stellt Metallurgen aus [From.GetName] ein"
+ETS_learn_mineral_processing_foreign: "Stellt Metallurgen aus [From.GetNameDef] ein"
 ETS_learn_mineral_processing_local: "Lokale Schmiede zur Metallgewinnung beschäftigen"
 ETS_military_operation: "Kriegsministerium für Ostturkestan"
 ETS_military_operation_desc: "Unser Militär besteht aus schwachen Milizen und unorganisierten Rebellen. Wenn wir den Krieg gewinnen und aus eigener Kraft überleben wollen, müssen wir unsere Armee reformieren und eine echte Streitmacht aufbauen."
@@ -359,6 +359,7 @@ ETS_mineral_processing_learning: "Entdeckt die Schießpulver-Formel"
 ETS_firearm_expert_hiring: "Stellt einen Schusswaffenexperten ein"
 
 # Intro Screen
+ETS_country_intro_background: "GFX_ETS_intro"
 ETS_country_intro_header: "Die Situation in Kashgar und Hotan"
 ETS_country_intro_content: "Der erste Aufstand war ein Erfolg! Unseren Brüdern in Kashgar und Hotan ist es gelungen, die örtliche Garnison zu überwältigen und die Kontrolle über beide Städte zu übernehmen. Mit dem Volk auf unserer Seite ist die Revolution stark!\n\nUnsere Revolution ist jedoch noch lange nicht sicher. Aufgrund der mittelalterlichen Industriepolitik von Yang Zengxin sind unsere unausgebildeten Freischärler nicht in der Lage, angemessene Ausrüstung zu produzieren, und haben ohne entschlossenes politisches Handeln kaum eine Chance gegen die Armeen von Ma Shaowu und Jin Shuren. Unsere Streitkräfte müssen reformiert werden, wenn wir Aussicht auf Erfolg haben wollen, und wir sollten versuchen, bei der Schaffung von Militärfabriken mitzuwirken.\n\nPolitisch ist unsere neue Nation in mancher Hinsicht geeint und in anderer völlig gespalten. Der exzentrische Timur Beg, ein altgedienter Handelsführer und Mitglied des lokalen Adels in der Nähe von Kashgar, hat die Führung der Jungen Kashgar-Partei übernommen und seine Heimatstadt Kashgar zu ihrer Machtbasis gemacht. In der Zwischenzeit führen die drei Geschwister der Amire von Hotan, die brutalen Bughras, die durch den Besitz mehrerer profitabler Bergbauunternehmen zu Reichtum gekommen sind, ihre Streitkräfte von Hotan aus. Sabit Damulla Abdulbaki, ein gemäßigter, im Westen ausgebildeter General, wurde zum Interimspräsidenten ernannt. Obwohl er keiner Partei oder Gruppierung angehört, erhält er die meiste Unterstützung von den in Hotan ansässigen Bughras. Viele sehen Sabit Damulla jedoch als einigende Figur der Rebellion, die dazu beiträgt, die Spannungen zwischen dem Kaufmann von Kashgar und den Bughra-Brüdern abzubauen."
 
@@ -399,15 +400,15 @@ ets.6.a: "Volle Unterstützung leisten!"
 ets.6.b: "Teilweise Unterstützung leisten."
 ets.6.c: "Machen wir uns gar nicht erst die Mühe, sie zu treffen."
 
-ets.8.t: "Volle Unterstützung gewährt von [From.GetName]"
+ets.8.t: "Volle Unterstützung gewährt von [From.GetNameDef]"
 ets.8.d: "Die Delegation, die wir nach [From.GetName] geschickt haben, hat großartige Neuigkeiten gebracht. Die Regierung von [From.GetAdjective] steht unserer Sache sehr wohlwollend gegenüber und hat beschlossen, uns bei der Erlangung der Unabhängigkeit voll zu unterstützen. Sie hat eine anständige Menge an Gewehren und Munition sowie etwas Gold bereitgestellt."
 ets.8.a: "Großartig!"
 
-ets.9.t: "Teilweise Unterstützung gewährt von [From.GetName]"
-ets.9.d: "Die Delegation, die wir nach [From.GetName] geschickt haben, hat gute Nachrichten gebracht. Die Regierung von [From.GetAdjective] ist zwar immer noch etwas zögerlich, uns zu helfen, aber sie ist dennoch bereit, uns anzuhören. Dank des überzeugenden diplomatischen Geschicks unserer Delegation beschließt [From.GetName], uns einige Gewehre und Munition zur Unterstützung unserer Sache zur Verfügung zu stellen."
+ets.9.t: "Teilweise Unterstützung gewährt von [From.GetNameDef]"
+ets.9.d: "Die Delegation, die wir nach [From.GetNameDef] geschickt haben, hat gute Nachrichten gebracht. Die Regierung von [From.GetAdjective] ist zwar immer noch etwas zögerlich, uns zu helfen, aber sie ist dennoch bereit, uns anzuhören. Dank des überzeugenden diplomatischen Geschicks unserer Delegation beschließt [From.GetName], uns einige Gewehre und Munition zur Unterstützung unserer Sache zur Verfügung zu stellen."
 ets.9.a: "Ein guter Start."
 
-ets.10.t: "Keine Unterstützung durch [From.GetName]"
+ets.10.t: "Keine Unterstützung durch [From.GetNameDef]"
 ets.10.d: "Schlechte Nachrichten. Die [From.GetAdjective]-Regierung hat unsere Delegation gemieden, weil sie der Meinung ist, dass wir den Aufwand nicht wert sind. Damit sind alle Hoffnungen auf ihre Unterstützung zunichte gemacht."
 ets.10.a: "Für diese Unverschämtheit werden sie später bezahlen!"
 
@@ -429,8 +430,8 @@ ets.14.t: "Neue Ausrüstungshilfe für Ostturkestan"
 ets.14.d: "Die ostturkestanische Delegation ist hier, um mehr Ausrüstung für ihren Krieg zu erhalten..."
 ets.14.a: "In Ordnung."
 
-ets.15.t: "Neue Runde der Ausrüstungsunterstützung durch [From.GetName]"
-ets.15.d: "Wir haben weitere Ausrüstung von [From.GetName] erhalten, der sich freundlicherweise bereit erklärt hat, uns in unserem Krieg weiter zu unterstützen."
+ets.15.t: "Neue Runde der Ausrüstungsunterstützung durch [From.GetNameDef]"
+ets.15.d: "Wir haben weitere Ausrüstung von [From.GetNameDef] erhalten, der sich freundlicherweise bereit erklärt hat, uns in unserem Krieg weiter zu unterstützen."
 ets.15.a: "Dankeschön, [From.GetName]!"
 
 ets.16.t: "Unabhängigkeitserklärung von Ostturkestan"
@@ -609,11 +610,15 @@ ETS_radical_socialist_DEF: "die Volksrepublik Ostturkestan"
 
 ### Characters ###
 ETS_ishaq_beg_munonov: "Ishaq Beg Munonov"
+ETS_ishaq_beg_munonov_leader_desc: "§YGeboren:§! §L1902, in Jigin, Provinz Xinjiang, Qing-Reich§!"
 ETS_isa_alptekin: "Isa Alptekin"
+ETS_isa_alptekin_leader_desc: "§YGeboren:§! §L1901, im Kreis Yengisar, Provinz Xinjiang, Qing-Reich§!"
 ETS_masud_sabri: "Masud Sabri"
+ETS_masud_sabri_leader_desc: "§YGeboren:§! §L1886, in Ili, Provinz Xinjiang, Qing-Reich§!"
 
 ETS_timur_beg: "Timur Beg"
 ETS_timur_beg_shah: "Timur Shah"
+ETS_timur_beg_leader_desc: "§YGeboren:§! §L1886, in Kucha, Provinz Xinjiang, Qing-Reich§!"
 
 ETS_sabit_damulla_abdulbaki: "Sabit Damulla Abdulbaki"
 ETS_sabit_damulla_abdulbaki_leader_desc: "§YGeboren:§! §L1883, in Artush, Provinz Xinjiang, Qing-Reich§!\n§YHintergrund:§! §LSabit Damulla Abdulbaki hätte nie damit gerechnet, dass er das Gesicht der türkischen nationalistischen Bewegung in Xinjiang werden würde. Als hochgebildeter Akademiker und Journalist korrespondierte Abdulbaki mit mehreren der bekanntesten lebenden jadidischen Gelehrten der Welt. Über jadidische Kreise lernte er prominente Mitglieder der nationalistischen Bewegung in Ostturkestan kennen, darunter den wohlhabenden Aristokraten Muhammad Amin Bughra, und über Bughra auch die breitere nationalistische Bewegung. Aufgrund seines angenehmen Auftretens, seiner pragmatischen Sichtweise und seiner fließenden Beherrschung mehrerer Sprachen einigten sich die oft zerstrittenen nationalistischen Gruppierungen auf Damulla als ersten Staats- und Regierungschef Ostturkestans. Sollte Ostturkestan seine Unabhängigkeit erlangen, ist es jedoch wahrscheinlich, dass Damulla von derjenigen Fraktion abgelöst wird, die sich am Ende durchsetzt.§!"
@@ -622,10 +627,21 @@ ETS_muhammad_amin_bughra: "Muhammad Amin Bughra"
 ETS_muhammad_amin_bughra_leader_desc: "§YGeboren:§! §L1901, in Hotan, Provinz Xinjiang, Qing-Reich§!\n§YHintergrund:§! §LDas frühe Leben von Muhammad Amin Bughra ist geheimnisumwittert, und nur wenige Hinweise deuten darauf hin, dass er vor seinem Militärdienst an einer Madrassa unterrichtete. Bughras Hintergrund als Dschadidist und Türke erlaubte ihm nur wenige Annehmlichkeiten, selbst unter Ma Shaowus Herrschaft in Hotan. Bughra war fest entschlossen, sich für die Einigung Xinjiangs einzusetzen, und verachtete die schwache Haltung, mit der Gouverneur Yang seine Garnisonen hielt. Gleichzeitig wandte sich Bughra gegen die von General Sheng Shicai vorgeschlagenen Han-zentrierten Armeereformen, die die Schuld für die Misswirtschaft der Armee eher dem Islam als der Opiumepidemie zuschoben.§!"
 
 ETS_abdullah_bughra: "Abdullah Bughra"
+ETS_abdullah_bughra_high_command_desc: "§YGeboren:§! §Lin Hotan, Provinz Xinjiang, Qing-Reich§!"
 ETS_nur_ahmadjan_bughra: "Nur Ahmadjan Bughra"
+ETS_nur_ahmadjan_bughra_commander_desc: "§YGeboren:§! §Lin Hotan, Provinz Xinjiang, Qing-Reich§!"
 ETS_saifuddin_azizi: "Saifuddin Azizi"
+ETS_saifuddin_azizi_advisor_desc: "§YGeboren:§! §L12. März 1915, in Artush, Provinz Xinjiang, Qing-Reich§!"
 ETS_ehmetjan_qasim: "Ehmetjan Qasim"
+ETS_ehmetjan_qasim_advisor_desc: "§YGeboren:§! §L15. April 1914, in Ghulja, Provinz Xinjiang, Qing-Reich§!"
 ETS_id_mirab: "Id Mirab"
+ETS_id_mirab_army_chief_desc: "§YGeboren:§! §Lin der Provinz Xinjiang, Qing-Reich§!" # No further details
+
+#黎焕章
 ETS_li_huanzhang: "Li Huanzhang"
+ETS_li_huanzhang_air_chief_desc: "§YGeboren:§! §L1910, in Hotan, Provinz Xinjiang, Qing-Reich§!"
+
 ETS_gheni_batur: "Gheni Batur"
+ETS_gheni_batur_army_chief_desc: "§YGeboren:§! §L1902, in der Provinz Xinjiang, Qing-Reich§!"
 ETS_abdul_niyaz_sijiang: "Abdul Niyaz Sijiang"
+ETS_abdul_niyaz_sijiang_high_command_desc: "§YGeboren:§! §Lin der Provinz Xinjiang, Qing-Reich§!" # No further details
