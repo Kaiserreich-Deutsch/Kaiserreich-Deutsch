@@ -1,6 +1,9 @@
 ﻿l_german:
 ### Übersetzt von DerEherneRächer -> Ab 1.1.4 Proho  ###
-#### Political Parties ###
+### Factions ###
+ cairo_pact: "Kairoer Pakt" #erstellt von palcon.17 Event und OTT_Union_Party_State Schwerpunkt
+
+### Political Parties ###
  EGY_totalist_party: "Ägyptische Marxistenorganisation"
  EGY_totalist_party_long: "Ägyptische Marxistenorganisation"
  EGY_radical_socialist_party: "Arbeiterkomitee der Nationalen Befreiung"
@@ -42,9 +45,6 @@
  heliopolis_chemical: "Chemische Industrie Heliopolis"
  egyptian_telephone_telegraph: "Ägyptisches Telefon- und Telegraphenunternehmen"
  maadi_engineering: "Maadi Maschinenbauindustrie"
- deutsche_ost_afrika_linie_egypt: "Deutsche Ost-Afrika Linie"
- suez_canal_company: "Sueskanalunternehmen"
- red_sea_ports_authority: "Hafenbehörden des Roten Meeres"
  alexandria_shipyard: "Schiffswerft von Alexandria"
  sudan_airways: "Sudanesische Fluggesellschaft"
  egypt_air: "Ägyptische Fluggesellschaft"
@@ -132,7 +132,7 @@
  TRP_promote_the_HIMT: "Ägypten finanziert die HIMT"
  
  EGY_pan_arabist_propaganda: "Panarabische Propaganda"
- EGY_pan_arabist_propaganda_desc: "Das Freie Radio Kairo und unser Netzwerk arabischer Propagandisten wurden bereits vor dem Wüstenkrieg mit großer Effizienz eingesetzt und arbeiten auch jetzt noch hart daran, ihre Botschaft weit und breit zu verbreiten. Selbst in den kleinsten Dörfern müssen die Libyer gespannt an ihren Radios sitzen und den Geschichten der großen Taten des ägyptischen Volkes und seiner immensen militärischen Macht lauschen."
+ EGY_pan_arabist_propaganda_desc: "Das Freie Radio Kairo und unser Netzwerk arabischer Propagandisten wurden bereits vor der Levante-Krise mit großer Effizienz eingesetzt und arbeiten auch jetzt noch hart daran, ihre Botschaft weit und breit zu verbreiten. Selbst in den kleinsten Dörfern müssen die Libyer gespannt an ihren Radios sitzen und den Geschichten der großen Taten des ägyptischen Volkes und seiner immensen militärischen Macht lauschen."
  TRP_pan_arabist_propaganda: "Ägypten fördert den Panarabismus"
  
  EGY_decry_tripolitanian_nationalism: "Den tripolitanischen Nationalismus bekämpfen"
@@ -266,7 +266,7 @@
  EGY_Support_Maghrebi_Rebels: "Unterstützt Maghrebische Rebellen"
  EGY_Support_Maghrebi_Rebels_desc: "Die Bevölkerung des Maghrebs leidet durch die letzten Versuche der Franzosen, ihren Ruhm zurückzuerlangen, und wird in Form von Zwangsarbeit, Sklaverei und ähnlichen Praktiken unterdrückt. Dadurch haben die Franzosen jedoch die Schaffung eines Netzwerks von Widerstandsbewegungen bezweckt, von denen viele auf ägyptische Unterstützung und Inspiration hoffen."
  EGY_Expand_Alexandria: "Modernisiert die Reperatureinrichtungen"
- EGY_Expand_Alexandria_desc: "Die ägyptische Flotte befindet sich in einem schrecklichen Zustand und besitzt weder die Schiffe noch die Infrastruktur, um sich mit der osmanischen Flotte zu messen. Durch britische und französische Unterstützung könnten wir die Bedingungen allerdings etwas ausgleichen und sicherstellen, dass unsere Flotte, die wahrscheinlich keine offenen Schlachten gewinnen kann, zumindest dazu in der Lage sein wird, osmanische Nachschublinien zu unterbrechen und die Küstenstädte Anatoliens zu schikanieren."
+ EGY_Expand_Alexandria_desc: "Die Ägyptische Flotte befindet sich in einem erbärmlichen Zustand, da ihr sowohl die Schiffe als auch die Infrastruktur fehlen, um es mit den Osmanen aufzunehmen. Wenn wir eine Chance haben wollen, uns von den Schäden zu erholen, die wir bei der Sicherung des Handels oder der Unterbrechung der feindlichen Schifffahrt erleiden könnten - ganz zu schweigen von direkten Seegefechten oder der Konfrontation mit Küstenbatterien -, müssen wir unsere Werften auf die Anforderungen der bevorstehenden Konflikte vorbereiten."
  EGY_Coordinate_Peninsula: "Koordination mit der Halbinsel"
  EGY_Coordinate_Peninsula_desc: "[292.Owner.GetLeader] ist zwar unzuverlässig, doch derzeit verfolgen wir dieselben Interessen. Es wäre töricht, alte Streitigkeiten die Erreichung unseres höchsten Ziels beeinträchtigen zu lassen. Da es ihnen an Industrie und moderner Ausrüstung fehlt, benötigen die [292.Owner.GetAdjective]en Truppen wahrscheinlich unsere Hilfe bei ihrer Versorgung mit militärischen Gütern."
  EGY_Bureau_Military_Engineering: "Königliche Behörde für militärische Ingenieurskunst"
@@ -312,8 +312,8 @@
  EGY_Libyan_Egyptian_Unification_desc: "In den letzten Jahren sind sich unsere beiden Völker immer näher gekommen. Wir sprechen dieselbe Sprache und pflegen dieselben Traditionen. Es ist an der Zeit, dass sich die Araber beider Nationen unter einem Banner vereinen!"
  EGY_Joint_Defence_Council: "Gründung des Vereinten Verteidigungsrates"
  EGY_Joint_Defence_Council_desc: "Durch die Gründung eines vereinten Verteidigungsrates für die kürzlich befreiten Regionen Nordafrikas werden wir unsere internationalen und nationalen Verteidigungsbemühungen besser koordinieren können."
- EGY_Phalanstere: "Mitgliedschaft in der Phalanstère"
- EGY_Phalanstere_desc: "Die Internationale war uns in der Vergangenheit mehr als nur wohlgesinnt. Ohne ihre Unterstützung bei der Operation Abu'l-A'war wäre unser Sieg im kürzlichen Befreiungskrieg nicht sicher gewesen. Es ist an der Zeit, uns zu revanchieren und der Internationale bei ihren wissenschaftlichen und industriellen Bemühungen zur Seite zu stehen."
+ EGY_Arab_Maghreb_Development_Scheme: "Entwicklungsplan für den arabischen Maghreb"
+ EGY_Arab_Maghreb_Development_Scheme_desc: "Die neu befreiten Nationen des Maghreb mögen nun frei von französischer Unterdrückung sein, aber ihre Wirtschaft wird sich ohne einen starken Partner nur schwer entwickeln können. Indem wir ihnen die Mittel für den Wiederaufbau ihrer vom Krieg zerstörten Länder zur Verfügung stellen, können wir den Grundstein für eine dauerhafte Zusammenarbeit legen."
  EGY_Support_Iraq: "Unterstützt den irakischen Staat"
  EGY_Support_Iraq_desc: "Die irakischen Araber gehören zu den tapfersten und ehrbarsten Menschen des Nahen Ostens. Ihr Kampf gleichte dem Kampf, den die Araber der Levante führten. Es ist nur natürlich, dass sie sich uns anschließen und wir gemeinsam auf eine vereinte arabische Zukunft hinarbeiten."
  EGY_Liberate_Arabistan: "Befreit Arabistan"
@@ -387,7 +387,7 @@
  EGY_expand_air_ports: "Ausbau von Flugplätzen"
  EGY_expand_air_ports_desc: "Der Bau weiterer Start- und Landebahnen für unsere Flugzeuge ist von großer Bedeutung, wenn wir Luftstreitkräfte einsetzen wollen, deren Größe für einen modernen Krieg angemessen ist. Durch Nutzung unseres Flachlands können wir entlang des gesamten Nils von unseren Luftstreitkräften Gebrauch machen."
  EGY_aviation_industry: "Luftfahrtindustrie"
- EGY_aviation_industry_desc: "Nachdem Großbritannien an den Syndikalismus fiel, wurden viele Luftfahrtsexperten ins Exil getrieben. Einige von ihnen strandeten auch in Ägypten, da sie nicht wussten, wo sie sonst hätten hingehen sollen. Wir sollten sie als technische Berater der Ägyptischen Luftstreitkräfte und der neuen staatlichen Flugzeughersteller rekrutieren, um ihr reiches Wissen effizient zu nutzen."
+ EGY_aviation_industry_desc: "Während des Ersten Weltkriegs flogen sowohl deutsche als auch britische Flugzeuge über der Levante, kundschafteten feindliche Bewegungen aus, griffen Bodenziele an und lieferten sich gelegentlich sogar erbitterte Luftduelle. Jetzt, da wir auf uns selbst gestellt sind, müssen wir unseren eigenen Weg zu einer solchen Macht finden. Mit gezielten Investitionen in staatliche Fabriken werden sich bald die ersten im Inland gebauten Flugzeuge in die Lüfte erheben."
  EGY_dominate_the_sky: "Dominiert den Himmel"
  EGY_dominate_the_sky_desc: "Die Zukunft unserer Luftdoktrin liegt darin, unsere Luftstreitkräfte zu nutzen, um die Fähigkeit unseres Feindes, den Krieg zu fortzuführen, zu beeinträchtigen. Durch den Einsatz von Jäger-Geschwadern, mit denen wir die Luftstreitkräfte des Feindes ausschalten können, ist es uns möglich, die Luftüberlegenheit zu erlangen und unseren Feind von Nachschub und Verstärkungen abzuschneiden."
  EGY_fighters: "Jägerforschung"
@@ -409,12 +409,13 @@
  EGY_KR_gathering_storm_desc: "Als Kolonie des Britischen Empire war Ägypten gezwungen, sich im Ersten Weltkrieg auf dessen Seite zu stellen. Doch mit der Unterzeichnung des Versailler Vertrags kochte der Zorn der Ägypter bis zu dem Tag, an dem die britische Revolution 1925 ausbrach. In diesem Chaos startete das ägyptische Volk seine eigene Revolution, um die Briten zu vertreiben, angeführt vom König von Ägypten. Zu Beginn des Jahres 1936 richten sich die Augen Ägyptens zunehmend auf den jungen Farouk, der auf den Thron vorbereitet wird. Und mit dem Niedergang des Osmanischen Reiches beginnen Mitglieder aller politischen Parteien, Pläne zur Wiederherstellung der Macht Ägyptens zu schmieden und von einem Nahen Osten ohne Osmanen zu träumen..."
 
 ### Intro Screen ###
+ EGY_country_intro_background: "GFX_EGY_intro"
  EGY_country_intro_header: "Das Königreich Ägypten"
  EGY_country_intro_content: "Die Geschichte des modernen Ägyptens beginnt konventionell im Jahr 1882, als Ägypten dem britischen Einflussbereich beitrat, eine Situation, die im Widerspruch zu Ägyptens de jure Position als Teil des Osmanischen Reiches stand. Im Jahr 1914 wurde das Protektorat offiziell anerkannt und der Titel des Staatsoberhaupts, der 1867 von Pascha zu Khedive geändert worden war, wurde wieder in König geändert. Damit wurde die noch bestehende Oberhoheit des osmanischen Sultans in Konstantinopel, der die Mittelmächte im Weltkrieg unterstützte, formell aufgehoben. Abbas II. wurde von den Briten abgesetzt und als König durch seinen Onkel Husayn Kamil ersetzt. Nach seinem Tod im Jahr 1917 verzichtete sein einziger Sohn, Prinz Kamal al-Din Husayn, auf die Nachfolge, und Husayn Kamils Bruder Ahmed Fuad bestieg den Thron als Fuad I.\n\nNach der Ratifizierung des Vertrags von Versailles blieb Ägypten ein Teil der nun geschwächten britischen Sphäre. Dies erzürnte die ägyptische Bevölkerung jedoch, die ihren Zorn 1925, während des Zusammenbruchs des Britischen Imperiums, in Form von Gewalt äußerte. Dieses Ereignis wurde bald darauf als Ägyptische Revolution bekannt, in der Fuad I seine Legitimität bewies, indem er sein Volk auf den Weg der Revolution führte. Die Revolution war nationalistischer Natur und vereinte Ägypter aller sozialen Klassen, Glaubensrichtungen und Berufe, um die Briten ein für alle Mal aus Ägypten zu vertreiben. Inmitten des durch die Revolution verursachten Chaos übernahm eine internationale Koalition (angeführt von Großbritannien und Deutschland) den Sueskanal, was Ägypten hinnehmen musste, um einem offenen Konflikt mit den Zentralmächten aus dem Weg zu gehen.\n\nSeit der Revolution gibt es Konflikte zwischen den Liberalen, die eine wahrhaft konstitutionelle Monarchie anstreben, und den Konservativen, die den Status Quo aufrechterhalten wollen. Derzeit richten sich die Augen des Ägyptens jedoch auf den jungen Farouk, dem rechtmäßigen Nachfolger auf den Thron, der bereits auf seine Zeit als Herrscher vorbereitet wird. Aufgrund des Niedergangs des Osmanischen Reiches haben Mitglieder aller politischen Parteien damit begonnen, Pläne für die Wiederherstellung eines mächtigen Ägyptens zu schmieden und von einem Nahen Osten zu träumen, der von den Osmanen befreit wurde..."
 
  EGY_guide: "§MKonstitutionelle Monarchie§!\n£white_dot Wählen Sie im Rahmen der Farouk-Reformveranstaltungen fünf liberale Reformen aus, die Sie unterstützen möchten.\n\n§MStatus Quo-Monarchie§!\n£white_dot Entscheiden Sie sich bei den Farouk-Reformveranstaltungen für fünf konservative Reformen.\n\n§MAbsolute Monarchie§! (§PPaternal Autocrat§!)\n£white_dot Entscheiden Sie sich bei den Farouk-Reformveranstaltungen für fünf absolutistische Reformen.\n£white_dot Wenn der Schwerpunkt \"$EGY_finish_reforms$\" abgeschlossen ist, wird die §Pal-Usra al-'Alawiyya§! die Macht übernehmen und es werden keine Wahlen mehr stattfinden.\n\n§MÄgyptische Wahlen§!\n£white_dot In den Wahlen von 1936, 1941 und 1948 kann jeweils die §lLiberal-Konstitutionelle Partei§!, die §mWafd-Partei§!, die §cWatani-Partei§! oder die §gIttihad-Partei§! an die Macht kommen.\n£white_dot In den Wahlen von 1951 und allen darauffolgenden Wahlen, welche im Abstand von fünf Jahren stattfinden werden, kann außerdem die §SSozialdemokratische Partei§! an die Macht kommen."
 
- EGY_guide_1: "Sieg in der Levante\n\n£white_dot Gewinnen Sie den Krieg in der Wüste gegen das Osmanische Reich, indem Sie dafür sorgen, dass das Osmanische Reich nicht alle syrischen, irakischen, kurdischen und hejasischen Kernstaaten und Adana kontrolliert, oder zwingen Sie es zur 60%igen Kapitulation.\n£white_dot Wenn der Vertrag von Antalya in Kraft tritt, werden wir die Möglichkeit haben, Syrien zu annektieren oder, falls wir uns dafür entscheiden, das Regime zu unterstützen, es entweder zu unserer Marionette zu machen oder es in Ruhe zu lassen.\n£white_dot Einige Tage später, wenn Persien das Gebiet nicht beansprucht hat, wird ein weiteres Ereignis erscheinen, das uns den Wechsel zum Irak ermöglicht. Wenn Persien das Gebiet beansprucht hat, können wir sie auffordern, es zu verlassen, und wenn wir eine größere Armee als sie haben, werden sie immer zustimmen.\n£white_dot Wir können auch als Libanon spielen, wenn wir als Syrien spielen wollen.\n----------------------------------\nDie Wiege der Zivilisation — £KR_game_rule_flag_IRQ  §MIrak§!\n\n$IRQ_guide$\n----------------------------------\nDas Herz der Levante — £KR_game_rule_flag_SYR  §MSyrien§!\n\n$SYR_guide$"
+ EGY_guide_1: "Sieg in der Levante\n\n£white_dot Gewinnen Sie die Levante-Krise gegen das Osmanische Reich, indem Sie dafür sorgen, dass das Osmanische Reich nicht alle syrischen, irakischen, kurdischen und hejasischen Kernstaaten und Adana kontrolliert, oder zwingen Sie es zur 60%igen Kapitulation.\n£white_dot Wenn der Vertrag von Antalya in Kraft tritt, werden wir die Möglichkeit haben, Syrien zu annektieren oder, falls wir uns dafür entscheiden, das Regime zu unterstützen, es entweder zu unserer Marionette zu machen oder es in Ruhe zu lassen.\n£white_dot Einige Tage später, wenn Persien das Gebiet nicht beansprucht hat, wird ein weiteres Ereignis erscheinen, das uns den Wechsel zum Irak ermöglicht. Wenn Persien das Gebiet beansprucht hat, können wir sie auffordern, es zu verlassen, und wenn wir eine größere Armee als sie haben, werden sie immer zustimmen.\n£white_dot Wir können auch als Libanon spielen, wenn wir als Syrien spielen wollen.\n----------------------------------\nDie Wiege der Zivilisation — £KR_game_rule_flag_IRQ  §MIrak§!\n\n$IRQ_guide$\n----------------------------------\nDas Herz der Levante — £KR_game_rule_flag_SYR  §MSyrien§!\n\n$SYR_guide$"
 
 ### Events ###
  egy.2.t: "Der Tod von  König Fuad I"
@@ -653,7 +654,7 @@
  egy.102.b: "Kairo!"
 
  egy.103.t: "Ein neuer Leuchtturm für Ägypten"
- egy.103.d: "Der Leuchtturm von Port Said dient schon seit 1869 als Leuchtfeuer des Sueskanals. Er wurde von Khedive Ismail errichtet, nach der Eröffnung des Kanals jedoch von ausländischen Mächten beschlagnahmt. Nun, da sich der Sues wieder unter ägyptischer Kontrolle befindet, sollten wir darüber nachdenken, dem alten Leuchtturm einen neuen Anstrich zu verpassen. Einige Künstler hatten sogar die großartige Idee, den Leuchtturm "Pharos von Ägypten" zu nennen, nach dem Pharos von Alexandria. Die Traditionalisten wiederum, die für die Schatzkammer verantwortlich sind, weigern sich, weitere Arbeiten am Leuchtturm zu finanzieren."
+ egy.103.d: "Der Leuchtturm von Port Said dient schon seit 1869 als Leuchtfeuer des Sueskanals. Er wurde von Khedive Ismail errichtet, nach der Eröffnung des Kanals jedoch von ausländischen Mächten beschlagnahmt. Nun, da sich der Sues wieder unter ägyptischer Kontrolle befindet, sollten wir darüber nachdenken, dem alten Leuchtturm einen neuen Anstrich zu verpassen. Einige Künstler hatten sogar die großartige Idee, den Leuchtturm \"Pharos von Ägypte\" zu nennen, nach dem Pharos von Alexandria. Die Traditionalisten wiederum, die für die Schatzkammer verantwortlich sind, weigern sich, weitere Arbeiten am Leuchtturm zu finanzieren."
  egy.103.a: "Pharos von Ägypten - ein guter Name!"
  egy.103.b: "Wir benötigen das Geld anderswo."
 
@@ -927,7 +928,7 @@
  egy.188.a: "Äußerst verdächtig..."
 
  egy.189.t: "Panarabische Propaganda flutet die Nation"
- egy.189.d: "Inspiriert vom Sieg der arabischen Allianz im Wüstenkrieg stellen sich nun tausende junge Libyer hinter panarabische Bewegungen, während Organisationen wie der Unionssportsclub für junge Libyer und der al-Mukhtar Club die Massen vom Traum eines vereinten Arabiens, das sich von Marokko bis zum Iran erstreckt, begeistern."
+ egy.189.d: "Inspiriert vom Sieg der arabischen Allianz in der Levante-Krise stellen sich nun tausende junge Libyer hinter panarabische Bewegungen, während Organisationen wie der Unionssportsclub für junge Libyer und der al-Mukhtar Club die Massen vom Traum eines vereinten Arabiens, das sich von Marokko bis zum Iran erstreckt, begeistern."
  egy.189.a: "Verdammt!"
 
  egy.190.t: "Unterstützung für die Regierung geht zurück"
@@ -1016,50 +1017,86 @@
 
 ### Characters ###
  EGY_abdel_moneim_i: "Abdel Moneim I"
+ EGY_abdel_moneim_i_leader_desc: "§YGeboren:§! §L20. Februar 1899, im Montaza-Palast, Alexandria, Khedive von Ägypten§!"
  EGY_abbas_ii: "Abbas II"
+ EGY_abbas_ii_leader_desc: "§YGeboren:§! §L17. Juli 1874, in Alexandria, Gouvernement Alexandria, Khediven von Ägypten§!"
  EGY_farouk_i: "Farouk I"
+ EGY_farouk_i_leader_desc: "§YGeboren:§! §L20. Februar 1920, im Abdeen-Palast, Kairo, Gouvernement des Cpitals, Königreich Ägypten§!"
 
  EGY_fuad_i: "Fuad I"
- EGY_fuad_i_leader_desc: "§YGeboren:§! §L26. März 1868, im Gizeh-Palast, Kairo, Khedivat von Ägypten, Osmanisches Reich§!\n§YHintergrund:§! §LFuad bestieg den ägyptischen Thron während des Weltkriegs, in dem die Briten in Europa stetig Niederlagen erlitten, was einen Wachstum des ägyptischen Nationalismus zur Folge hatte. Als die Britische Revolution begann, starte auch Ägypten eine Revolte. Fuad nutzte die Revolution aus, um sich als begeisterter Nationalist zu präsentieren und ein Regierungssystem einzuführen, welches auf dem Deutschlands basiert.\nFuads soziale und wirtschaftliche Reformen haben in der ägyptischen Gesellschaft die Fragen aufkommen lassen, wer die Ägypter denn wirklich sind und wo ihr Platz in einer Region ist, die noch immer von den verhassten Türken dominiert wird. Vielleicht wird der Fortschritt, den Fuads Herrschaft mit sich brachte, das Volk der Ägypter ja zu neuem Ruhm führen. Vielleicht werden seine Nachfolger dort triumphieren, wo andere Herrscher scheiterten, und Ägypten seinen rechtmäßigen Platz als Schild und Schwert eines befreiten arabischen Volkes sichern.§!"
+ EGY_fuad_i_leader_desc: "§YGeboren:§! §L26. März 1868, im Gizeh-Palast, Kairo, Gouvernement der Hauptstadt, Khediven von Ägypteniederlagen erlitten, was einen Wachstum des ägyptischen Nationalismus zur Folge hatte. Als die Britische Revolution begann, starte auch Ägypten eine Revolte. Fuad nutzte die Revolution aus, um sich als begeisterter Nationalist zu präsentieren und ein Regierungssystem einzuführen, welches auf dem Deutschlands basiert.\nFuads soziale und wirtschaftliche Reformen haben in der ägyptischen Gesellschaft die Fragen aufkommen lassen, wer die Ägypter denn wirklich sind und wo ihr Platz in einer Region ist, die noch immer von den verhassten Türken dominiert wird. Vielleicht wird der Fortschritt, den Fuads Herrschaft mit sich brachte, das Volk der Ägypter ja zu neuem Ruhm führen. Vielleicht werden seine Nachfolger dort triumphieren, wo andere Herrscher scheiterten, und Ägypten seinen rechtmäßigen Platz als Schild und Schwert eines befreiten arabischen Volkes sichern.§!"
  
  EGY_shuhdi_atiya_shafi: "Shuhdi Atiya ash-Shafi"
+ EGY_shuhdi_atiya_shafi_leader_desc: "§YGeboren:§! §L11. November 1911, in Alexandria, Gouvernement Alexandria, Khediven von Ägypten§!"
  EGY_yusuf_mudarrik: "Mohammed Yusuf al-Mudarrik"
+ EGY_yusuf_mudarrik_leader_desc: "§YGeboren:§! §Lim Khedivat von Ägypten§!"
  EGY_salama_moussa: "Salama Moussa"
+ EGY_salama_moussa_leader_desc: "§YGeboren:§! §L4. Februar 1887, in Zagazig, Mudiriyah von Sharqia, Khedivate von Ägypten§!"
  EGY_mohammed_mahmoud_pasha: "Mohamed Mahmoud Pasha"
- EGY_mostafa_nahhas: "Mostafa el-Nahhas"
+ EGY_mohammed_mahmoud_pasha_leader_desc: "§YGeboren:§! §L4. April 1877, in El-Badari, Mudiriyah von Girga, Khedivate von Ägypten§!"
+ EGY_mostafa_el_nahas: "Mostafa el-Nahhas"
+ EGY_mostafa_el_nahas_leader_desc: "§YGeboren:§! §L15. Juni 1879, in Gharbiyya, Mudiriyah von Gharbiyya, Khedivate von Ägypten§!"
  EGY_hassan_banna: "Hassan al-Banna"
+ EGY_hassan_banna_leader_desc: "§YGeboren:§! §L14. Oktober 1906, in Mahmoudiyah, Mudiriyah von Beheira, Khedivat von Ägypten§!"
  EGY_mohammed_naguib: "Mohammed Naguib"
+ EGY_mohammed_naguib_leader_desc: "§YGeboren:§! §L19. Februar 1901, in Khartum, Kondominium des Englisch-Ägyptischen Sudan§!"
  EGY_aziz_ali_al_misri: "Aziz Ali al-Misri"
+ EGY_aziz_ali_al_misri_leader_desc: "§YGeboren:§! §L1879, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
 
  EGY_gamel_abdel_nasser: "Gamel Abdel Nasser"
+ EGY_gamel_abdel_nasser_commander_desc: "§YGeboren:§! §L15. Januar 1918, in Alexandria, Gouvernement Alexandria, Sultanat von Ägypten§!"
  EGY_hussein_el_shafei: "Hussein el-Shafei"
+ EGY_hussein_el_shafei_commander_desc: "§YGeboren:§! §L18. Februar 1818, in Tanta, Mudiriyah von Monoufiya, Sultanat von Ägypten§!"
  EGY_abdel_hakim_amer: "Abdel Hakim Amer"
+ EGY_abdel_hakim_amer_commander_desc: "§YGeboren:§! §L11. Dezember 1919, in Samalut, Mudiriyah von Minya, Sultanat von Ägypten§!"
  EGY_hussein_refki: "Hussein Refki"
+ EGY_hussein_refki_army_chief_desc: "§YGeboren:§! §L1876, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
  EGY_aziz_ezzat: "Aziz Ezzat"
+ EGY_aziz_ezzat_commander_desc: "§YGeboren:§! §L24. Juni 1869, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
  EGY_hassan_sabry: "Hassan Sabry"
+ EGY_hassan_sabry_commander_desc: "§YGeboren:§! §L1890, in der Khedivat von Ägypten§!"
  EGY_mohamed_haidar: "Mohamed Haidar"
+ EGY_mohamed_haidar_commander_desc: "§YGeboren:§! §L11. Februar 1887, in El-Minya, Mudiriyah von Minya, Khedivat von Ägypten§!"
  EGY_mahmoud_shokry: "Mahmoud Shokry"
- EGY_ahmed_abdullah_almwawi: "Ahmed Abdullah Al-Mwawi"
+ EGY_mahmoud_shokry_commander_desc: "§YGeboren:§! §Lin der Khedivat von Ägypten§!"
+ EGY_ahmed_abdullah_al_mwawi: "Ahmed Abdullah Al-Mwawi"
+ EGY_ahmed_abdullah_al_mwawi_army_chief_desc: "§YGeboren:§! §L1897, in Sohag, Mudiriyah von Girga, Khedivat von Ägypten§!"
  EGY_ahmed_abdel_aziz: "Ahmed Abdel Aziz"
+ EGY_ahmed_abdel_aziz_army_chief_desc: "§YGeboren:§! §L29. Juli 1907, in Khartum, Khediwat von Ägypten§!"
  EGY_mohammed_ibrahim_salim: "Mohammed Ibrahim Salim"
+ EGY_mohammed_ibrahim_salim_commander_desc: "§YGeboren:§! §L1916, in Kairo, Gouvernement der Hauptstadt, Sultanat von Ägypten§!"
  EGY_suleiman_ezzat: "Suleiman Ezzat"
+ EGY_suleiman_ezzat_navy_chief_desc: "§YGeboren:§! §L16. April 1910, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
  EGY_ahmed_bek_badr: "Ahmed Bek Badr"
+ EGY_ahmed_bek_badr_navy_chief_desc: "§YGeboren:§! §Lim Sultanat von Ägypten§!"
  EGY_mohamed_nashid: "Mohamed Nashid"
+ EGY_mohamed_nashid_admiral_desc: "§YGeboren:§! §Lim Sultanat von Ägypten§!"
  EGY_mahmoud_hamza: "Mahmoud Hamza"
+ EGY_mahmoud_hamza_pasha_navy_chief_desc: "§YGeboren:§! §Lim Sultanat von Ägypten§!"
  EGY_abdul_rahman_hassan_azzam: "Abdul Rahman Hassan Azzam"
- EGY_mostafa_el_nahas: "Mostafa El-Nahas"
+ EGY_abdul_rahman_hassan_azzam_advisor_desc: "§YGeboren:§! §L8. März 1893, in Shubak al-Gharbi, Gouvernement Gizeh, Khedivat von Ägypten§!"
  EGY_makram_ebeid: "Makram Ebeid"
+ EGY_makram_ebeid_advisor_desc: "§YGeboren:§! §L25. Oktober 1889, in Qena, Mudiriyah von Qena, Khedivat von Ägypten§!"
  EGY_muhammad_ahmad_abbud: "Muhammad Ahmad Abbud"
+ EGY_muhammad_ahmad_abbud_advisor_desc: "§YGeboren:§! §L2. Mai 1889, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
  EGY_hassan_allam: "Hassan Allam"
+ EGY_hassan_allam_advisor_desc: "§YGeboren:§! §L1903, in Port Said, Gouvernement Port Said, Khedivat von Ägypten§!"
  EGY_ali_moustafa_mosharafa: "Ali Moustafa Mosharafa"
+ EGY_ali_moustafa_mosharafa_advisor_desc: "§YGeboren:§! §L11. Juli 1898, in Damietta, Gouvernement Damietta, Khedivat von Ägypten§!"
  EGY_ahmed_naguib_el_hilaly: "Ahmed Naguib el-Hilaly"
+ EGY_ahmed_naguib_el_hilaly_advisor_desc: "§YGeboren:§! §L1. Oktober 1891, in Asyut, Mudiriyah von Asyut, Khedivat von Ägypten§!"
  EGY_ahmad_maher: "Ahmad Maher"
+ EGY_ahmad_maher_advisor_desc: "§YGeboren:§! §L1888, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
  EGY_hassan_al_banna: "Hassan al Banna"
+ EGY_hassan_al_banna_advisor_desc: "§YGeboren:§! §L14. Oktober 1906, in Mahmoudiyah, Mudiriyah von Beheira, Khedivat von Ägypten§!"
  EGY_saba_habachy: "Saba Habachy"
+ EGY_saba_habachy_advisor_desc: "§YGeboren:§! §L2. Februar 1897, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
  EGY_youssef_seddik: "Youssef Seddik"
+ EGY_youssef_seddik_high_command_desc: "§YGeboren:§! §L3. Januar 1910, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
  EGY_rashad_mehanna: "Rashad Mehanna"
- EGY_ahmed_ali_al_mwawi: "Ahmed Ali al-Mwawi"
+ EGY_rashad_mehanna_army_chief_desc: "§YGeboren:§! §L2. Oktober 1909, in Kom Hamada, Mudiriyah von Beheira, Khedivat von Ägypten§!"
  EGY_ahmed_abdel_raziq: "Ahmed Abdel-Raziq"
+ EGY_ahmed_abdel_raziq_air_chief_desc: "§YGeboren:§! §Lin der Khedivat von Ägypten§!"
  EGY_fuad_abdel_hamid: "Fuad Abdel-Hamid"
- 
- 
+ EGY_fuad_abdel_hamid_air_chief_desc: "§YGeboren:§! §Lin der Khedivat von Ägypten§!"
+
