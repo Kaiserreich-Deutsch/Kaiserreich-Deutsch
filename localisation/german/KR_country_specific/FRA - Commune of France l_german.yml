@@ -1,5 +1,8 @@
 ﻿l_german:
 ### Übersetzt von Proho ###
+### Factions ###
+ third_internationale: "Dritte Internationale" #erstellt von history\countries\FRA - Communard France.txt History-Datei und umbenannt von on_capitulation_immediate Effekt
+
 ### Tooltips ###
 FRA_ongoing_phalanstere_development: "§YHilft bei der Entwicklung eines anderen Landes.§!"
 CSA_redeagles_tt: "Neue freiwillige Piloten und Flugzeuge werden eintreffen."
@@ -243,6 +246,9 @@ FRA_socialist_education: "Sozialistische Bildung"
  FRA_develop_the_rhone_valley: "Das Rhônetal entwickeln"
  FRA_develop_the_rhone_valley_desc: "Die Rhône, die Lebensader des Südostens, eingezwängt zwischen dem Zentralmassiv und den Alpen, ist seit jeher launisch. Als Handelsader zwischen Nord und Süd ist sie auch berüchtigt für Überschwemmungen, die die Entwicklung entlang ihrer Ufer stark behindern. Das war natürlich, bevor der Mensch die Natur durch Arbeit und Technologie zähmte, und wir heute das Temperament des Flusses zum Nutzen unserer industriellen Entwicklung kanalisieren können."
 
+ FRA_exploit_the_massif_central: "Das Zentralmassiv nutzen"
+ FRA_exploit_the_massif_central_desc: "Die wirtschaftliche und infrastrukturelle Entwicklung der Regionen der Alpen und des Zentralmassivs ermöglicht eine stärkere Ausbeutung der dort vorhandenen Bodenschätze. Unsere Schürfer haben neue Mineralienvorkommen entdeckt, und wir sind nun bereit, diese in industriellem Maßstab zu nutzen!"
+
  FRA_voice_of_the_people: "Stimme des Volkes"
  FRA_voice_of_the_people_desc: "Frankreich, das pulsierende Herz der Revolution, muss in der Lage sein, die Arbeiter überall zu erreichen, insbesondere diejenigen, die noch unter den Ketten des Kapitals leiden. Von Paris bis zur ganzen Welt werden wir Radioprogramme in allen wichtigen Sprachen ausstrahlen und unsere Genossen wissen lassen, dass sie nicht allein sind. Dies kann jedoch nicht einfach eine Propagandasendung sein: Wir werden dafür sorgen, dass neben Nachrichten und sozialistischen Botschaften auch Bildung, Unterhaltung und gute Musik verbreitet werden."
 
@@ -296,9 +302,6 @@ FRA_socialist_education: "Sozialistische Bildung"
 
  FRA_expand_the_textile_industry: "Die Textilindustrie ausbauen"
  FRA_expand_the_textile_industry_desc: "Seit den Anfängen der industriellen Revolution stand die Textilindustrie stets an der Spitze des wirtschaftlichen Fortschritts. Synthetische Fasern, neue Maschinen und Techniken haben die Massenproduktion von Textilien und Kleidung auf weniger arbeitsintensive Weise möglich gemacht. Paris ist bereits die Hauptstadt der Mode, bald werden wir auch die Heimat erschwinglicher, langlebiger Textilien sein: Unsere Arbeiter werden besser gekleidet sein als alle Damen in Berlin."
-
- FRA_exploit_the_massif_central: "Das Zentralmassiv nutzen"
- FRA_exploit_the_massif_central_desc: "Die wirtschaftliche und infrastrukturelle Entwicklung der Regionen der Alpen und des Zentralmassivs ermöglicht eine stärkere Ausbeutung der dort vorhandenen Bodenschätze. Unsere Schürfer haben neue Mineralienvorkommen entdeckt, und wir sind nun bereit, diese in industriellem Maßstab zu nutzen!"
 
 FRA_road_to_war: "Der Weg zum Krieg"
 FRA_road_to_war_desc: "Der Krieg mit Deutschland ist unvermeidlich, denn es hält nicht nur unsere Brüder im Elsass und in Lothringen als Geiseln fest, sondern ist mit seinen vielen Reichspaktmarionetten die wichtigste konterrevolutionäre Macht in Europa, wenn nicht sogar in der Welt, ein Tyrann, der über Hunderte von Millionen herrscht. Das wird aufhören, wir werden sie alle rächen und unsere Kameraden befreien. Der Weltkrieg sollte nicht der letzte sein, der Revolutionskrieg wird folgen müssen."
@@ -574,6 +577,7 @@ FRA_found_the_phalanstere_international_desc: "Eine engere militärische, wirtsc
  FRA_KR_gathering_storm_desc: "Die Dritte Republik fiel so, wie sie gekommen war: besiegt von deutschen Waffen und mit der Revolution im eigenen Land konfrontiert. 1919 rief die CGT einen Generalstreik aus, der den Sturz der bürgerlichen Regierung zur Folge hatte. 15 Jahre lang stand die neue "Kommune Frankreichs" hinter einer gemeinsamen Plattform des syndikal-sozialistischen Konsenses, an deren Spitze das Comité de Salut Public stand. Doch 1936 halten viele Kritiker die Notwendigkeit des Wiederaufbaus des Landes und der Verteidigung der Revolution für überholt, und der Ruf nach einer radikaleren Politik wird lauter. Frankreich ist von seiner Mission überzeugt, aber es ist unklar, welche revolutionären Strömungen sich in den kommenden Jahren durchsetzen werden..."
 
 ### Intro Screen ###
+ FRA_country_intro_background: "GFX_FRA_intro"
  FRA_country_intro_header: "Die Kommune Frankreichs"
  FRA_country_intro_content: "Die Dritte Republik endete so, wie sie begann: besiegt von deutschen Waffen und konfrontiert mit der kommunistischen Revolution im eigenen Land. Im November 1919 rief die CGT einen revolutionären Generalstreik aus, der das Land lahmlegte und den Sturz der bürgerlichen Regierung verursachte. Die Partei der Ordnung" war nicht stark genug, um den Unruhen ein Ende zu setzen, und in den folgenden Monaten wurde das französische Establishment von einer Koalition linker Kräfte in einem kurzen, aber brutalen Bürgerkrieg aus Frankreich vertrieben.\n\n In den letzten fünfzehn Jahren hat sich die selbsternannte Kommune Frankreichs" hinter einer gemeinsamen Plattform des syndikalistisch-sozialistischen Konsenses vereinigt, an deren Spitze der regierende Ausschuss für öffentliche Sicherheit stand. Doch 1936 wird der Konsens, der erreicht wurde, um das zerrüttete Land wieder aufzubauen und die Früchte der Revolution gegen die Bedrohung von außen zu verteidigen, von vielen Kritikern als zunehmend überholt angesehen, und der Ruf nach einer radikaleren Politik wird lauter. Frankreich ist zunehmend zuversichtlich in Bezug auf seine Sicherheit und seine Mission, aber die französische revolutionäre Tradition ist disparat, und es ist unklar, welche ideologischen Stränge in den kommenden Jahren dominant werden sollen..."
 
@@ -1216,35 +1220,44 @@ FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel 
 
 ### Characters ###
  FRA_marcel_deat: "Marcel Déat"
- FRA_marcel_deat_leader_desc: "§YGeboren:§! §L7. März 1894, Guérigny, Nièvre, Französische Republik§!\n§YHintergrund:§! §LMarcel Déat hat das politische System der Kommunarden auf den Kopf gestellt. Als Revisionist, der häufig seine Verachtung für den Syndikalismus öffentlich gemacht hat, steht Déat in Opposition zu einem Großteil des politischen Establishments Frankreichs. Seine vielen Feinde innerhalb und außerhalb Frankreichs könnten zu seinem, und vielleicht auch zum Untergang der Kommune führen.§!"
+ FRA_marcel_deat_leader_desc: "§YGeboren:§! §L7. März 1894, in Guérigny, Nièvre, Französische Republik§!\n§YHintergrund:§! §LMarcel Déat hat das politische System der Kommunarden auf den Kopf gestellt. Als Revisionist, der häufig seine Verachtung für den Syndikalismus öffentlich gemacht hat, steht Déat in Opposition zu einem Großteil des politischen Establishments Frankreichs. Seine vielen Feinde innerhalb und außerhalb Frankreichs könnten zu seinem, und vielleicht auch zum Untergang der Kommune führen.§!"
+ FRA_marcel_deat_sic_desc: "§YGeboren:§! §L7. März 1894, in Guérigny, Nièvre, Französische Republik§!"
  
  FRA_adrien_marquet: "Adrien Marquet"
- FRA_adrien_marquet_leader_desc: "§YGeboren:§! §L6. Oktober 1884, Bordeaux, Gironde, Französische Republik§!\n§YHintergrund:§! §LDer Jakobiner der ersten Stunde, Adrien Marquet, hat die \"konstruktive Revolution\" von Déat durch seine Führung der Kommune Bordeaux unermüdlich gefördert und zur Schau gestellt. Nachdem die Jakobiner die Mehrheit im BGT errungen haben, wird Marquet beauftragt, seine Führungserfahrung zu nutzen, um dem anarchischen Chaos ein Ende zu setzen.§!"
+ FRA_adrien_marquet_leader_desc: "§YGeboren:§! §L6. Oktober 1884, in Bordeaux, Gironde, Französische Republik§!\n§YHintergrund:§! §LDer Jakobiner der ersten Stunde, Adrien Marquet, hat die \"konstruktive Revolution\" von Déat durch seine Führung der Kommune Bordeaux unermüdlich gefördert und zur Schau gestellt. Nachdem die Jakobiner die Mehrheit im BGT errungen haben, wird Marquet beauftragt, seine Führungserfahrung zu nutzen, um dem anarchischen Chaos ein Ende zu setzen.§!"
+ FRA_adrien_marquet_sic_desc: "§YGeboren:§! §L6. Oktober 1884, in Bordeaux, Gironde, Französische Republik§!"
 
  FRA_georges_valois: "Georges Valois"
- FRA_georges_valois_leader_desc: "§YGeboren:§! §L7. Oktober 1878, Paris, Seine, Französische Republik§!\n§YHintergrund:§! §LGeorges Valois, ein Anhänger der nationalsyndikalistischen Lehren von Georges Sorel, ist Vorsitzender der Bourse Générale du Travail geworden. Valois befürwortet die Zusammenlegung der Vorsitze der Bourse Générale du Travail und des Comité de Salut Public, was in den Augen vieler Kommunarden einer Tyrannei gleichkommt.§!"
+ FRA_georges_valois_leader_desc: "§YGeboren:§! §L7. Oktober 1878, in Paris, Seine, Französische Republik§!\n§YHintergrund:§! §LGeorges Valois, ein Anhänger der nationalsyndikalistischen Lehren von Georges Sorel, ist Vorsitzender der Bourse Générale du Travail geworden. Valois befürwortet die Zusammenlegung der Vorsitze der Bourse Générale du Travail und des Comité de Salut Public, was in den Augen vieler Kommunarden einer Tyrannei gleichkommt.§!"
  
  FRA_marcel_cachin: "Marcel Cachin"
- FRA_marcel_cachin_leader_desc: "§YGeboren:§! §L20. September 1869, Paimpol, Côtes-du-Nord, Französisches Kaiserreich§!\n§YHintergrund:§! §LMarcel Cachin, ehemaliger Diplomat und Büroleiter der staatlichen Zeitung Humanité, ist Vorsitzender der Kommune Frankreichs geworden. Obwohl er ein Leninist ist, erlauben ihm seine diplomatische Haltung und sein allgemeines Charisma, ein gewisses Maß an Herzlichkeit mit Syndikalisten und Anarchisten zu bewahren.§!"
+ FRA_marcel_cachin_leader_desc: "§YGeboren:§! §L20. September 1869, in Paimpol, Côtes-du-Nord, Französisches Kaiserreich§!\n§YHintergrund:§! §LMarcel Cachin, ehemaliger Diplomat und Büroleiter der staatlichen Zeitung Humanité, ist Vorsitzender der Kommune Frankreichs geworden. Obwohl er ein Leninist ist, erlauben ihm seine diplomatische Haltung und sein allgemeines Charisma, ein gewisses Maß an Herzlichkeit mit Syndikalisten und Anarchisten zu bewahren.§!"
+ FRA_marcel_cachin_advisor_desc: "§YGeboren:§! §L20. September 1869, in Paimpol, Côtes-du-Nord, Französisches Kaiserreich§!"
 
  FRA_leon_jouhaux: "Léon Jouhaux"
  FRA_leon_jouhaux_leader_desc: "§YGeboren:§! §L1. Juli 1879, in Paris, Seine, Französische Republik§!\n§YHintergrund:§! §LLéon Jouhaux wurde zum Vorsitzenden der Allgemeinen Arbeitsvermittlung gewählt. Jouhaux nahm als revolutionärer Gewerkschafter am Generalstreik von 1919 teil, der die Gründung der Kommune herbeiführte. Er ist ein Anhänger des orthodoxen französischen Syndikalismus, ein echter Zentrist unter den Fraktionen der Kommune.§!"
 
   FRA_vincent_auriol: "Vincent Auriol"
- FRA_vincent_auriol_leader_desc: "§YGeboren:§! §L27. August 1884, Revel, Haute-Garonne, Französische Republik§!\n§YHintergrund:§! §LVincent Auriol, dem die Hardliner unter den Syndikalisten lange Zeit Sympathien für die Bourgeoisie vorwarfen, ist Vorsitzender der Allgemeinen Arbeitsvermittlung geworden. Er befürwortet den schrittweisen Übergang zu einem demokratischeren Regierungssystem in der Kommune.§!"
+ FRA_vincent_auriol_leader_desc: "§YGeboren:§! §L27. August 1884, in Revel, Haute-Garonne, Französische Republik§!\n§YHintergrund:§! §LVincent Auriol, dem die Hardliner unter den Syndikalisten lange Zeit Sympathien für die Bourgeoisie vorwarfen, ist Vorsitzender der Allgemeinen Arbeitsvermittlung geworden. Er befürwortet den schrittweisen Übergang zu einem demokratischeren Regierungssystem in der Kommune.§!"
+ FRA_vincent_auriol_advisor_desc: "§YGeboren:§! §L27. August 1884, in Revel, Haute-Garonne, Französische Republik§!"
 
  FRA_jacques_doriot: "Jacques Doriot"
- FRA_jacques_doriot_leader_desc: "§YGeboren:§! §L26. September 1898, Bresles, Oise, Französische Republik§!\n§YHintergrund:§! §LJacques Doriot, Veteran des Ersten Weltkriegs, kehrt aus deutscher Gefangenschaft zurück und findet ein für immer verändertes Frankreich vor. Sein persönlicher Wandel vom gemäßigten Sozialisten zum Leninisten und nun zum Nationalsyndikalisten hat ihm eine ausgeprägte Neigung zum Kompromiss eingeimpft.§!"
+ FRA_jacques_doriot_leader_desc: "§YGeboren:§! §L26. September 1898, in Bresles, Oise, Französische Republik§!\n§YHintergrund:§! §LJacques Doriot, Veteran des Ersten Weltkriegs, kehrt aus deutscher Gefangenschaft zurück und findet ein für immer verändertes Frankreich vor. Sein persönlicher Wandel vom gemäßigten Sozialisten zum Leninisten und nun zum Nationalsyndikalisten hat ihm eine ausgeprägte Neigung zum Kompromiss eingeimpft.§!"
+ FRA_jacques_doriot_advisor_desc: "§YGeboren:§! §L26. September 1898, in Bresles, Oise, Französische Republik§!"
 
  FRA_benoit_frachon: "Benoît Frachon"
  FRA_benoit_frachon_leader_desc: "§YGeboren:§! §L13. Mai 1893, in Le Chambon-Feugerolles, Loire, Französische Republik§!\n§YHintergrund:§! §LBenoît Frachon, ein Veteran des französischen Bürgerkriegs, ist Vorsitzender der Allgemeinen Arbeitsvermittlung geworden. Obwohl er Syndikalist ist, sympathisiert er mit der gegnerischen anarchistischen Fraktion; zu diesem Zweck hat er die Überwindung des Fraktionszwangs in der Kommune zum Hauptziel seines Vorsitzes erklärt.§!"
+ FRA_benoit_frachon_advisor_desc: "§YGeboren:§! §L13. Mai 1893, in Le Chambon-Feugerolles, Loire, Französische Republik§!"
 
  FRA_pierre_monatte: "Pierre Monatte"
  FRA_pierre_monatte_leader_desc: "§YGeboren:§! §L15. Januar 1881, in Monlet, Haute-Loire, Französische Republik§!\n§YHintergrund:§! §LArbeiter. Kämpfer. Revolutionär. Pierre Monatte hat einen immensen Einfluss auf unsere Nation ausgeübt und führt uns nun schon seit über einem Jahrzehnt mit Zuversicht. Er wurde am 15. Januar 1881 geboren und war vor dem Ersten Weltkrieg ein bekannter Gewerkschafter, der mehrmals zu Unrecht wegen verschiedener syndikalistischer 'Verbrechen' gegen das Kapital verhaftet wurde, wie z. B. wegen seiner Teilnahme an den rechtschaffenen Protesten nach dem Grubenunglück von Courrières. Nachdem er in den Reihen des Allgemeinen Gewerkschaftsbundes schnell aufgestiegen war, wurde er durch die Unterdrückung der Bewegung durch die Republik sogar kurzzeitig ins Exil gezwungen. Als der Krieg ausbricht, gehört er zu den wenigen, die es wagen, kurz vor ihrer Einberufung an die Front ein klares Nein zur Kollaboration mit der bürgerlichen Regierung zu sagen. Diese Voraussicht und sein Ruf als standhafter, unermüdlicher Revolutionär führten dazu, dass Monatte, als die Zeit gekommen war, eine entscheidende Rolle beim Sturz der alten Ordnung spielte und in einer hervorragenden Position war, um den neuen proletarischen Kurs unserer Nation zu lenken.\n\nAls einer der Hauptorganisatoren der 'Orthodoxen' und mit Sicherheit ihr einflussreichstes Mitglied führte er den Zusammenschluss der bis dahin verfeindeten 'Zentristen' und 'Ultras' bei den Wahlen 1926 zum Sieg und zur Übernahme der Präsidentschaft. Als meisterhafter Politiker hat Monatte es geschafft, sich in einer brüchigen Koalition mit den Anarchisten über Wasser zu halten, wobei er stets mit deren Forderungen und denen der anderen Fraktionen, die im Parlament so wichtig sind, jonglierte. Doch der Mann an der Spitze wird immer ein Ziel sein, und zu sagen, dass seine Position begehrt ist, wäre eine Untertreibung. Wie lange kann das Licht sie in Schach halten, während in jeder dunklen Ecke die Messer gewetzt werden?§!"
+ FRA_pierre_monatte_advisor_desc: "§YGeboren:§! §L15. Januar 1881, in Monlet, Haute-Loire, Französische Republik§!"
 
  FRA_conseil_de_defense_federal: "Föderaler Verteidigungsrat"
-
- FRA_pierre_jules_cot: "Pierre Jules Cot"
+ FRA_conseil_de_defense_federal_leader_desc: "§YGegründet:§! §LFebruar 1936, im Palast des Volkes, Paris, Pariser Kommune, Föderation der Kommunen Frankreichs§!"
+ FRA_conseil_de_defense_federal_41_leader_desc: "§YGegründet:§! §LFebruar 1941, im Palast des Volkes, Paris, Pariser Kommune, Föderation der Kommunen Frankreichs§!"
+ FRA_conseil_de_defense_federal_46_leader_desc: "§YGegründet:§! §LFebruary 1946, in the Palace of the People, Paris, Paris Commune, Föderation der Kommunen Frankreichs§!"
+ FRA_conseil_de_defense_federal_51_leader_desc: "§YGegründet:§! §LFebruar 1951, im Palast des Volkes, Paris, Pariser Kommune, Föderation der Kommunen Frankreichs§!"
 
  FRA_maurice_gamelin: "Maurice Gamelin"
  FRA_maurice_gamelin_leader_desc: "§YGeboren:§! §L20. September 1872, in Paris, Seine, Französische Republik§!\n§YHintergrund:§! §LGeneral Maurice Gamelin hat das jakobinische Regime von Marcel Déat gestürzt. Während sein Putsch ein offensichtlicher Affront gegen den ohnehin fragwürdigen demokratischen Prozess der Kommunarden ist, betrachten viele Gamelin nun als Retter der Kommune und sogar des Syndikalismus selbst.§!"
@@ -1260,6 +1273,7 @@ FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel 
  FRA_charles_delestraint_army_chief_desc: "§YGeboren:§! §L12. März 1879, in Biache-Saint-Vaast, Pas-de-Calais, Französische Republik§!"
 
  FRA_marie_pierre_koenig: "Marie-Pierre Koenig"
+ FRA_marie_pierre_koenig_leader_desc: "§YGeboren:§! §L10. Oktober 1898, in Caen, Calvados, Französische Republik§!"
  FRA_marie_pierre_koenig_army_chief_desc: "§YGeboren:§! §L10. Oktober 1898, in Caen, Calvados, Französische Republik§!"
 
  FRA_ernest_petit: "Ernest Petit"
@@ -1272,7 +1286,7 @@ FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel 
  FRA_rene_olry_high_command_desc: "§YGeboren:§! §L28. Juni 1880, in Lille, Nord, Französische Republik§!"
 
  FRA_diego_brosset: "Diego Brosset"
- FRA_diego_brosset_commander_desc: "§YGeboren:§! §L3. Oktober 1898, in Buenos Aires, Argentinische Republik§!"
+ FRA_diego_brosset_commander_desc: "§YGeboren:§! §L3. Oktober 1898, in Buenos Aires, Provinz Buenos Aires, Argentinische Republik§!"
 
  FRA_jean_edouard_verneau: "Jean-Édouard Verneau"
  FRA_jean_edouard_verneau_commander_desc: "§YGeboren:§! §L29. August 1890, in Vignot, Maas, Französische Republik§!"
@@ -1293,7 +1307,7 @@ FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel 
  FRA_aime_doumenc_commander_desc: "§YGeboren:§! §L16. November 1880, in Grenoble, Isère, Französische Republik§!"
 
  FRA_raoul_magrin_vernerey: "Raoul Magrin Vernerey"
- FRA_raoul_magrin_vernerey_high_command_desc: "§YGeboren:§! §L7. Februar 1892, in Budapest, Königreich Ungarn, Österreich-Ungarn§!"
+ FRA_raoul_magrin_vernerey_high_command_desc: "§YGeboren:§! §L7. Februar 1892, in Budapest, Komitat Pest-Pilis-Solt-Kiskun, Königreich Ungarn, Österreich-Ungarn§!"
 
  FRA_joseph_putz: "Joseph Putz"
  FRA_joseph_putz_high_command_desc: "§YGeboren:§! §L24. April 1895, in Brussels, Brabant, Königreich Belgien§!"
@@ -1335,7 +1349,7 @@ FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel 
  FRA_gabriel_auphan_admiral_desc: "§YGeboren:§! §L4. November 1894, in Alès, Gard, Französische Republik§!"
 
  FRA_philippe_auboyneau: "Philippe Auboyneau"
- FRA_philippe_auboyneau_high_command_desc: "§YGeboren:§! §L9. November 1899, in Constantinople, Osmanisches Reich§!"
+ FRA_philippe_auboyneau_high_command_desc: "§YGeboren:§! §L9. November 1899, in Konstantinopel, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  FRA_marcel_gensoul: "Marcel Gensoul"
  FRA_marcel_gensoul_high_command_desc: "§YGeboren:§! §L12. Oktober 1880, in Montpellier, Hérault, Französische Republik§!"
@@ -1347,29 +1361,53 @@ FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel 
  FRA_edouard_peisson_theorist_desc: "§YGeboren:§! §L7. März 1896, in Marseille, Bouches-du-Rhône, Französische Republik§!"
 
  FRA_irene_and_frederic_joliot_curie: "Irène & Frédéric Joliot-Curie"
+ FRA_irene_and_frederic_joliot_curie_theorist_desc: "§YGeboren:§! §L12. September 1897, in Paris, Seine, Französische Republik§!\n§YGeboren:§! §L19. März 1900, in Paris, Seine, Französische Republik§!"
  FRA_robert_esnault_pelterie: "Robert Esnault-Pelterie"
+ FRA_robert_esnault_pelterie_theorist_desc: "§YGeboren:§! §L8. November 1881, in Paris, Seine, Französische Republik§!"
 
  FRA_joseph_vuillemin: "Joseph Vuillemin"
+ FRA_joseph_vuillemin_air_chief_desc: "§YGeboren:§! §L14. März 1883, in Bordeaux, Gironde, Französische Republik§!"
  FRA_martial_henri_valin: "Martial Henri Valin"
+ FRA_martial_henri_valin_air_chief_desc: "§YGeboren:§! §L14. Mai 1898, in Limoges, Haute-Vienne, Französische Republik§!"
  FRA_maryse_bastie: "Maryse Bastié"
+ FRA_maryse_bastie_high_command_desc: "§YGeboren:§! §L27. Februar 1898, in Limoges, Haute-Vienne, Französische Republik§!"
  FRA_victor_leon_ernest_denain: "Victor Léon Ernest Denain"
+ FRA_victor_leon_ernest_denain_high_command_desc: "§YGeboren:§! §L6. November 1880, in Dax, Landes, Französische Republik§!"
  FRA_jean_francois_jannekeyn: "Jean-François Jannekeyn"
+ FRA_jean_francois_jannekeyn_high_command_desc: "§YGeboren:§! §L16. November 1892, in Cambrai, Nord, Französische Republik§!"
  FRA_alfred_heurtaux: "Alfred Heurtaux"
+ FRA_alfred_heurtaux_high_command_desc: "§YGeboren:§! §L20. Mai 1893, in Nantes, Loire-Inférieure, Französische Republik§!"
  FRA_georges_guynemer: "Georges Guynemer"
+ FRA_georges_guynemer_high_command_desc: "§YGeboren:§! §L24. Dezember 1894, in Paris, Seine, Französische Republik§!"
 
+ FRA_pierre_jules_cot: "Pierre Jules Cot"
+ FRA_pierre_jules_cot_advisor_desc: "§YGeboren:§! §L20. November 1895, in Grenoble, Isère, Französische Republik§!"
  FRA_leon_blum: "Léon Blum"
+ FRA_leon_blum_advisor_desc: "§YGeboren:§! §L9. April 1872, in Paris, Seine, Französische Republik§!"
  FRA_daniel_guerin: "Daniel Guérin"
+ FRA_daniel_guerin_advisor_desc: "§YGeboren:§! §L19. Mai 1904, in Paris, Seine, Französische Republik§!"
  FRA_maurice_thorez: "Maurice Thorez"
+ FRA_maurice_thorez_advisor_desc: "§YGeboren:§! §L28. April 1900, in Noyelles-Godault, Pas-de-Calais, Französische Republik§!"
  FRA_charles_rappoport: "Charles Rappoport"
+ FRA_charles_rappoport_advisor_desc: "§YGeboren:§! §L14. Juni 1865, in Dūkštas, Gouvernement Kovno, Russisches Reich§!"
  FRA_henri_barbe: "Henri Barbé"
+ FRA_henri_barbe_advisor_desc: "§YGeboren:§! §L14. März 1902, in Paris, Seine, Französische Republik§!"
  FRA_gabriel_lafaye: "Gabriel Lafaye"
- FRA_joseph_paul_boncour: "Joseph Paul Boncour"
+ FRA_gabriel_lafaye_advisor_desc: "§YGeboren:§! §L4. Oktober 1888, in Eauze, Gers, Französische Republik§!"
+ FRA_joseph_paul_boncour: "Joseph Paul-Boncour"
+ FRA_joseph_paul_boncour_advisor_desc: "§YGeboren:§! §L4. August 1873, in Saint-Aignan, Loir-et-Cher, Französische Republik§!"
  FRA_jacques_duclos: "Jacques Duclos"
+ FRA_jacques_duclos_advisor_desc: "§YGeboren:§! §L2. Oktober 1896, in Louey, Hautes-Pyrénées, Französische Republik§!"
  FRA_jean_zyromski: "Jean Zyromski"
+ FRA_jean_zyromski_advisor_desc: "§YGeboren:§! §L20. April 1890, in Nevers, Nièvre, Französische Republik§!"
+
  FRA_jacques_sadoul: "Jacques Sadoul"
+ FRA_jacques_sadoul_advisor_desc: "§YGeboren:§! §L22. Mai 1881, in Paris, Seine, Französische Republik§!"
  FRA_suzanne_girault: "Suzanne Girault"
- 
+ FRA_suzanne_girault_advisor_desc: "§YGeboren:§! §L28. Juli 1882, in La Chaux-de-Fonds, Neuchâtel, Schweizerische Eidgenossenschaft§!"
+
  FRA_confederation_general_du_travail: "Confédération Générale du Travail (Allgemeiner Gewerkschaftsbund)"
+ FRA_confederation_general_du_travail_sic_desc: "§YGegründet:§! §L23. September 1895, in Limoges, Haute-Vienne, Französische Republik§!"
 
  FRA_odette_sansom: "Odette Sansom"
  FRA_richard_sorge: "Richard Sorge"
