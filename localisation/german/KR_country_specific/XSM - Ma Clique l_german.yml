@@ -155,6 +155,7 @@
  XSM_KR_gathering_storm_desc: "Die drei Ma-Familien haben ihre Herrschaft im Nordwesten dreißig Jahre lang ununterbrochen gefestigt. Sie haben sich auf die eine oder andere Weise mit fast jedem in China verbündet, wobei einige Ma-Familien sogar gegeneinander kämpften, um auf der Seite aller zu stehen, und gelten heute als einer der größten Verbündeten der neuen, von Zhili geführten Qing-Dynastie. Ma Fuxiangs Herzinfarkt vor drei Jahren hat die Clique erschüttert, und seitdem hat sich langsam ein Gefühl der Angst und Unruhe breit gemacht. Im Moment ist der Nordwesten friedlich, aber seine Zukunft ist weniger sicher, als viele glauben mögen..."
 
 ### Intro Screen ###
+ XSM_country_intro_background: "GFX_XSM_intro"
  XSM_country_intro_header: "Einführung: Die §PMa-Clique§!"
  XSM_country_intro_content: "Die §PMa-Clique§! besteht aus einer Vielzahl von §lchinesischen§! Regierungen, die seit den 1880er Jahren im Dienste der §cQing-Dynastie§! stehen. Die §PMa-Familie§! selbst ist nicht eine riesige Familie, sondern drei, die sich die Macht im Herrschaftsgebiet geteilt haben. Die §PFamilie Eins§! ist nach dem Tod des Familienoberhaupts §PMa Anliang§! im Jahr 1918 in den Schatten gestellt worden. Die §PClique§! wird nun hauptsächlich von den Familien §PZwei§! und §PDrei§! geführt und hat seitdem eine blühende Herrschaft über ihr Gebiet.\n\nDie §lXinhai-Revolution§! führte dazu, dass sich die §PMas§! unter §PAnliang§! zunächst auf die Seite der §cQing§! stellten, aber als die Niederlage unvermeidlich war, zur §lRepublik§! überliefen. Nachdem sie sowohl die §PMongolen§! im Norden als auch §PTibet§! im Süden gezwungen hatten, die §lRepublik§! als rechtmäßige Regierung anzuerkennen, bewahrten die §PMas§! im Nordwesten Chinas einen Hauch von Stabilität. Der §PMa Anliang§! starb bald darauf im Jahr 1918, und die §Pclique§! war hauptsächlich zweigeteilt. Die §PMa-Clique§! unter §PMa Fuxiang§!, die §PGansu§! und §PNingxia§! innehatte, und die §csüdliche Clique§! unter §cMa Qi§! mit Sitz im baldigen §cQinghai§!.\n\nDie §PClique§! war sich jedoch immer noch einig, auf wessen Seite sie stand, denn die §gGuominjun§! besetzten bald §PSüd-Gansu§! und zwangen die §PMas§! auf die Seite von §gFeng Yuxiang§! Nachdem die Realität der §gGuominjun§! klarer wurde, liefen alle §PKriegsherren§! bis auf einige wenige von ihrer Seite zu den §PZhili§! über.\n\nDie §PMas§!, die den §PZhili§! während der §cQing-Restauration§! und darüber hinaus treu geblieben sind, werden von den meisten, wenn nicht sogar von allen Cliquen als zuverlässige Beschützer des Nordwestens angesehen, um das Land §lChina§! zu erhalten. Die §PClique§! regiert nun auch über §gSuiyuan§!, das von den §PMongolen§! auch §gUlanqab§! genannt wird, und gedeiht als wichtige Mitglieder der §cQing-Dynastie§!, die bereit sind, für das zu kämpfen, woran sie glauben."
 
@@ -682,6 +683,7 @@
 
  #劉志丹
  XSM_liu_zhidan: "Liu Zhidan"
+ XSM_liu_zhidan_leader_desc: "§YGeboren:§! §L4. Oktober 1903, im Kreis Bao'an, Provinz Shaanxi, Qing-Dynastie§!"
 
  #馬麟
  XSM_ma_lin: "Ma Lin"
@@ -733,27 +735,35 @@ XSM_ma_hongbin_leader_desc: "§YGeboren:§! §14. September 1884 in Hezhou, Prov
 
  #馬步康
  XSM_ma_bukang: "Ma Bukang"
+ XSM_ma_bukang_high_command_desc: "§YGeboren:§! §Lin der Provinz Gansu, Qing-Reich§!"
 
  #楊作榮
  XSM_yang_zuorong: "Yang Zuorong"
+ XSM_yang_zuorong_advisor_desc: "§YGeboren:§! §L1901, im Kreis Lintao, Provinz Gansu, Qing-Reich§!"
 
  #馬良
  XSM_ma_liang: "Ma Liang"
+ XSM_ma_liang_advisor_desc: " §YGeboren:§! §Lim Kreis Linxia, Provinz Gansu, Qing-Reich§!"
 
  #虎嵩山
  XSM_hu_songshan: "Hu Songshan"
+ XSM_hu_songshan_advisor_desc: "§YGeboren:§! §L1880, im Kreis Pingyuan, Provinz Gansu, Qing-Reich§!"
 
  #馬步榮
  XSM_ma_burong: "Ma Burong"
+ XSM_ma_burong_advisor_desc: "§YGeboren:§! §L1912, im Kreis Linxia, Provinz Gansu, Republik China§!"
 
  #馬顯圖
  XSM_ma_xiantu: "Ma Xiantu"
+ XSM_ma_xiantu_advisor_desc: "§YGeboren:§! §Lin Hezhou, Provinz Gansu, Qing-Reich§!"
 
  #田炯錦
  XSM_tien_chung_chin: "Tian Jiongjin"
+ XSM_tien_chung_chin_advisor_desc: "§YGeboren:§! §L1899, im Kreis Qingcheng, Provinz Gansu, Qing-Reich§!"
 
  #周志開
  XSM_zhou_zhikai: "Zhou Zhikai"
+ XSM_zhou_zhikai_air_chief_desc: "§YGeboren:§! §L10. Dezember 1919, im Kreis Luan, Provinz Zhili, Republik China§!"
 
 ### Traits ###
  XSM_hero_of_the_northwest: "Held des Nordwestens"
