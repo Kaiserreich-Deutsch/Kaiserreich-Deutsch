@@ -5,6 +5,13 @@
 ########################################################################################
 l_german:
 ### Übersetzt von Proho ###
+ ################
+ ### Factions ###
+ ################
+
+ intermarium: "Intermarium" #created by POL_found_intermarium decision
+ legion_of_the_slavic_nations: "Legion der slawischen Nationen" #created by POL_found_slavic_union decision
+
  ###############
  ### Parties ###
  ###############
@@ -155,7 +162,7 @@ l_german:
  POL_mieczyslaw_michalowicz_leader_desc: "§YGeboren:§! §LSeptember 10th, 1876, in Saint-Petersburg, Saint-Petersburg Governorate, Russian Empire§!"
 
  POL_stanislaw_mikolajczyk: "Stanisław Mikołajczyk"
- POL_stanislaw_mikolajczyk_leader_desc: "§YGeboren:§! §L18. Juli 1901, in Dorsten-Holsterhausen, Provinz Westfalen, Königreich Preußen, Deutsches Reich§!\n§YHintergrrund:§! §LStanisław Mikołajczyk wurde in einer Bergarbeiterfamilie auf dem preußischen Land geboren. Eine höhere Schulbildung war ihm nicht vergönnt, was Mikołajczyk jedoch nicht davon abhielt, der preußischen Sektion der Volkspartei beizutreten und in der Provinz Posen eine Landjugendbewegung gegen die Germanisierungspolitik zu organisieren. Die Organisation bäuerlicher Streiks und Proteste brachte ihm zwar keine Unterstützung durch die deutschen Behörden ein, aber er konnte einer Gefängnisstrafe entgehen. In Zusammenarbeit mit den Posener Nationaldemokraten gelang es Mikołajczyk, vielen Polen zu helfen, Land zu kaufen und ihr Eigentumsrecht gegenüber der deutschen Ansiedlungskommission zu verteidigen. Nach der Angliederung der Provinz Posen an Polen wurde Mikołajczyk mit starker Unterstützung aus seiner Heimatregion in den nationalen Sejm gewählt. Seine Erfahrungen aus den Kämpfen in der Provinz Posen haben ihn von der Notwendigkeit breiter Koalitionen in der polnischen Politik überzeugt, da er in den Deutschen eine größere Bedrohung sieht als in den Nationaldemokraten.§!"
+ POL_stanislaw_mikolajczyk_leader_desc: "§YGeboren:§! §L18. Juli 1901, in Dorsten-Holsterhausen, Provinz Westfalen, Königreich Preußen, Deutsches Reich§!\n§YHintergrrund:§! §LStanisław Mikołajczyk wurde in einer Bergarbeiterfamilie auf dem preußischen Land geboren. Ein Hochschulstudium absolvierte er nie, was Mikołajczyk jedoch nicht daran hinderte, sich der preußischen Sektion der Volkspartei anzuschließen und in der Provinz Posen Landjugendbewegungen gegen die Germanisierungspolitik zu organisieren. Die Organisation bäuerlicher Streiks und Proteste brachte ihm zwar keine Unterstützung durch die deutschen Behörden ein, aber er konnte einer Gefängnisstrafe entgehen. In Zusammenarbeit mit den Posener Nationaldemokraten gelang es Mikołajczyk, vielen Polen zu helfen, Land zu kaufen und ihr Eigentumsrecht gegenüber der deutschen Ansiedlungskommission zu verteidigen. Nach der Angliederung der Provinz Posen an Polen wurde Mikołajczyk mit starker Unterstützung aus seiner Heimatregion in den nationalen Sejm gewählt. Seine Erfahrungen aus den Kämpfen in der Provinz Posen haben ihn von der Notwendigkeit breiter Koalitionen in der polnischen Politik überzeugt, da er in den Deutschen eine größere Bedrohung sieht als in den Nationaldemokraten.§!"
 
  POL_jozef_chacinski: "Józef Chaciński"
  POL_jozef_chacinski_leader_desc: "§YGeboren:§! §L13. März 1889, in Warschau, Gouvernement Warschau, Königreich Polen, Russisches Reich§!\n§YHintergrrund:§! §LJózef Chaciński engagierte sich bereits in jungen Jahren während seines Jurastudiums in Warschau in den nationaldemokratischen Jugendorganisationen. Nach einer kurzen Inhaftierung durch die zaristischen Behörden verließ er 1909 das Land und studierte in der Schweiz. Dort knüpfte er Kontakte zur nationaldemokratischen Bewegung und schloss sich nach seiner Rückkehr nach Polen der Christlich-Nationalen Partei - Teil des ChZJN-Blocks - an und wurde zu einem sehr sichtbaren Politiker innerhalb des Blocks, der versuchte, die radikalsten Ideen der polnischen Rechten zu mäßigen. Chaciński ist solidarisch und ist der Meinung, dass sowohl der exzessive Liberalismus als auch der Sozialismus es nicht geschafft haben, das Glück der einfachen Leute zu steigern, aber auch, dass die Nationaldemokraten die einfachen Bauern nicht vergessen sollten.§!"
@@ -350,7 +357,7 @@ l_german:
  POL_juliusz_rommel_commander_desc: "§YGeboren:§! §L3. Juni 1881, in Grodno, Gouvernement Grodno, Russisches Reich§!\n§YHintergrrund:§! §LJuliusz Rómmel entstammt der alten, polonisierten baltisch-deutschen Familie von Rummel. Er folgte der militärischen Tradition seiner Familie und trat in die russische Armee ein, wo er während des Russisch-Japanischen Krieges und an der österreichischen Front im Ersten Weltkrieg schnell aufstieg. Er führte 1917 das 3. polnische Korps in Kiew an, als er mit seinen Männern vor der österreichischen Armee kapitulierte, und wurde rasch in die neue polnische Armee integriert. Im letzten Krieg erwies er sich als besonders geschickt im Manöverkrieg in den weiten Ebenen der Ukraine und setzte Kavallerie und leichte Artillerie effektiv ein - auch wenn er von seinen Gegnern oft als Beispiel für einen Anachronismus dargestellt wird, der bei der Führung seiner Kriege immer noch an die Strategien von 1917 glaubt.§!"
 
  POL_waclaw_stachiewicz: "Wacław Stachiewicz"
- POL_waclaw_stachiewicz_commander_desc: "§YGeboren:§! §L19. November 1894, in Lemberg, Königreich Galizien und Lodomerien, Österreich-Ungarn§!\n§YHintergrrund:§! §LWacław Stachiewicz war Edward Rydz-Śmigły stets treuer als Józef Piłsudski, da er bereits in den polnischen Legionen als enger Mitarbeiter von Rydz fungierte. Stachiewicz ist ein intelligenter und gut ausgebildeter Soldat mit großem Interesse an militärischer Topologie und Kartografie. Als fähiger Offizier wurde er in die neu gegründete polnische Armee aufgenommen, wo er in erster Linie organisatorische Aufgaben wahrnahm, obwohl sein beruflicher Aufstieg durch seine enge Verbindung zu nationalistischen Kreisen behindert wurde.§!\n\n§YAnmerkungen: Mitarbeiter von Edward Rydz-Śmigły.§!"
+ POL_waclaw_stachiewicz_commander_desc: "§YGeboren:§! §L19. November 1894, in Lwów, Königreich Galizien und Lodomerien, Österreich-Ungarn§!\n§YHintergrrund:§! §LWacław Stachiewicz war Edward Rydz-Śmigły stets treuer als Józef Piłsudski, da er bereits in den polnischen Legionen als enger Mitarbeiter von Rydz fungierte. Stachiewicz ist ein intelligenter und gut ausgebildeter Soldat mit großem Interesse an militärischer Topologie und Kartografie. Als fähiger Offizier wurde er in die neu gegründete polnische Armee aufgenommen, wo er in erster Linie organisatorische Aufgaben wahrnahm, obwohl sein beruflicher Aufstieg durch seine enge Verbindung zu nationalistischen Kreisen behindert wurde.§!\n\n§YAnmerkungen: Mitarbeiter von Edward Rydz-Śmigły.§!"
 
  POL_stanislaw_magnuszewski: "Stanisław Magnuszewski"
  POL_stanislaw_magnuszewski_desc: "§YGeboren:§! §L17. September 1888, in Dünaburg, Gouvernement Vitebsk, Russisches Reich§!\n§YHintergrrund:§! §LStanisław Magnuszewski wurde in Lettland geboren und strebte schon in jungen Jahren eine militärische Laufbahn an, die er an der Alexejew-Militärschule in Moskau als Mitglied des Militäringenieurkorps abschloss. Magnuszewski war in erster Linie ein Organisator und Ingenieur und kein besonders mutiger Soldat. Er stieg stetig auf und diente schließlich unter dem Korps von General Józef Dowbor Muśnicki und war an der dramatischen Einnahme der Festung Bobruisk durch das polnische Korps beteiligt. Wie die gesamte Einheit wurde auch er demobilisiert und in die polnische Wehrmacht eingegliedert. In Friedenszeiten war er als Militärlehrer tätig.§!"
@@ -424,8 +431,6 @@ l_german:
 
  INT_polish_exile_trait: "Polnisches Exil"
  INT_polish_exile_trait_desc: "§LEin Mitglied des polnischen sozialistischen Untergrunds, das gezwungen war, aus Polen zu fliehen, um sich in Sicherheit zu bringen, und das jetzt der Internationalen dient, in der Hoffnung, dass ein sozialistisches Polen entsteht.§!"
-
- infantry_equipment_producer_offense_mass: "Hersteller von Infanterieausrüstung"
 
  ###############
  ### Focuses ###
@@ -1399,7 +1404,7 @@ l_german:
  POL_stall_for_time: "Zeit schinden"
  POL_stall_for_time_tt: "Fügt §Y40§! Tage zum Timer §CAlt-Endecja-Revolte§! hinzu."
  POL_add_to_union: "Polnisch-[FROM.GetAdjective] Union"
- POL_invite_ally: "Bündnis mit [FROM.GetName]"
+ POL_invite_ally: "Bündnis mit [FROM.GetNameDef]"
  POL_found_slavic_union: "Erklärung der Slawischen Union"
  POL_add_to_union_tt: "Ermöglichung von Entscheidungen zur Integration von @LIT @CZE @SLO @UKR @BLR in die größere Westslawische Union."
  POL_war_warning_tt: "§RDies könnte einen Krieg mit Russland oder sogar der Internationale provozieren!§!"
@@ -1459,7 +1464,7 @@ l_german:
 # Expansion category
  POL_expansion: "Territoriale Expansion und Integration"
 
- POL_ultimatum_to_czechia: "Ultimatum an [FROM.GetName]"
+ POL_ultimatum_to_czechia: "Ultimatum an [FROM.GetNameDef]"
  POL_establish_claim: "Anspruch von [From.GetName]"
  POL_claim_cost_tt: "Erhöht die Kosten weiterer Ansprüche um §R8§!"
  POL_PLC_decisions_tt: "Schaltet Entscheidungen zur §YEtablierung von Ansprüchen§! in besetzten russischen Gebieten frei. Sie erhalten einen nationalen Geist, der auf dem Umfang Ihrer Ansprüche basiert."
@@ -1510,6 +1515,7 @@ l_german:
  POL_KR_gathering_storm_desc: "Die Akte vom 5. November mag zum ersten Mal seit mehr als hundert Jahren einen polnischen Staat auf die Landkarte gebracht haben, aber nicht alles ist gut. Obwohl er in den ersten Jahren von einer stabilen und wachsenden Wirtschaft profitierte, machte der Tod von Piłsudski im Jahr 1935 die Unbeliebtheit von August IV. deutlich, und republikanische, nationalistische und sozialistische Kräfte agitierten gegen seine Regierung.\n\n Während sich die Wolken in Europa verdichten und die deutsche Hegemonie scheinbar zu verblassen beginnt, wissen nur wenige, was auf das Reich von August IV. zukommt..."
 
 ### Intro Screen ###
+ POL_country_intro_background: "GFX_POL_intro"
  POL_country_intro_header: "Das Königreich Polen"
  POL_country_intro_content: "Vor zwei Jahrzehnten kämpften und starben Tausende von Polen für die Mittelmächte. Diese stürmische Zusammenarbeit mit zwei der drei ehemaligen Teilungsmächte führte zur Gründung des Königreichs Polen, einer Nation, die von Anfang an ein Kompromiss war und aus dem ehemaligen russischen Gebiet herausgeschnitten wurde. Die erhoffte Vereinigung mit dem österreichischen Polen wurde früh verweigert, da Deutschland versuchte, Polen den Österreichern zu entreißen und sich die freie Herrschaft über die so genannte \"Grenzmark\" zu sichern. Die Deutschen annektierten sogar den so genannten \"Grenzstreifen\" mit dem Ziel einer weiteren Kolonisierung, der jedoch nach dem Sturz der Ludendorff-Diktatur zurückgegeben wurde und die Polen für immer an den deutschen Absichten zweifeln ließ. Von den ursprünglichen deutschen Ambitionen ist nur wenig geblieben - die wackelige Herrschaft von König August IV. und die professionelle, preußisch gedrillte \"Polnische Wehrmacht.\"\n\nAllen Widrigkeiten zum Trotz hat das Königreich überlebt und es geschafft, relativen Wohlstand zu finden. Polen, das früher die am stärksten industrialisierte Region des Russischen Reiches war, hat von seiner Mitgliedschaft in Mitteleuropa und der wirtschaftlichen Zusammenarbeit mit seinen Nachbarn stark profitiert, da sowohl deutsche als auch österreichisch-ungarische Investitionen den polnischen Städten Arbeit und Wachstum brachten. Die gemäßigt liberale Politik von König August IV. und seine Bereitschaft, die polnische Verfassung zu respektieren, haben ihm im Laufe der Jahre eine gewisse Unterstützung eingebracht, doch unter der Oberfläche werden die Probleme immer gravierender.\n\nPolen ist, wie die meisten osteuropäischen Länder, immer noch ein Agrarland. Die Kluft zwischen den wachsenden Städten und dem Land, das sich größtenteils im Besitz des deutschen und polnischen Adels befindet, ist im Laufe der Jahre immer größer geworden und hat zu einer Masse landloser, arbeitsloser Armer geführt, die sich nach Veränderungen sehnen. Diese sozialen Probleme tragen zur politischen Radikalisierung bei, die auf beiden Seiten des politischen Spektrums stattfindet. Die traditionell starke polnische Linke ist gut organisiert und hat sich mit den liberal-agrarischen Parteien verbündet, die eine Demokratisierung, eine Landreform und sogar eine Republik fordern. Sozialistische Organisationen geraten immer wieder mit rechtsextremen Gruppen aneinander, die ihre Unterstützung aus antideutschen und antisemitischen Gefühlen beziehen. Alle drei antimonarchistischen Gruppierungen sind sich nur in einem Punkt einig: die Zerstörung des Königreichs und die Absetzung des Hohenzollern-Monarchen... auch wenn dafür viel Blut vergossen werden muss."
 
@@ -2178,7 +2184,7 @@ l_german:
  poland.237.a: "Gratulieren Sie [POL.GetLeader] zu seinen Erfolgen!"
 
  poland.239.t: "Chaos im Zentrum"
- poland.239.d: "Die Politiker und Organisationen, die dem Interparteilichen Politischen Kreis und seinen verbündeten Parteien angehören, befanden sich nach dem Sturz des Königs im freien Fall. Viele ältere Politiker haben sich aus der Politik zurückgezogen, und noch mehr versuchen, ihre frühere Unterstützung für die Monarchie zu erklären.\n\nIn dieser radikalen Neuausrichtung tun die überlebenden Parteien ihr Bestes, um die Lücke zu füllen. Viele sind zur PSL übergelaufen, und noch mehr zu konservativen Parteien oder sogar zur OZN. Eine kleine liberale Zentrumspartei, das Polnische Zentrum, wurde auf den schwelenden Trümmern des Kreises gegründet. "
+ poland.239.d: "Die Politiker und Organisationen, die dem Interparteilichen Politischen Kreis und seinen verbündeten Parteien angehören, befanden sich nach dem Sturz des Königs im freien Fall. Viele ältere Politiker haben sich aus der Politik zurückgezogen, und noch mehr versuchen, ihre frühere Unterstützung für die Monarchie zu erklären.\n\nIn dieser radikalen Neuausrichtung tun die überlebenden Parteien ihr Bestes, um die Lücke zu füllen. Viele sind zur PSL übergelaufen, und noch mehr zu konservativen Parteien oder sogar zur OZN. Eine kleine liberale Zentrumspartei, das Polnische Zentrum, wurde auf den schwelenden Trümmern des Kreises gegründet."
  poland.239.a: "Bei der Volkspartei ist jeder willkommen!"
  poland.239.b: "Das ChZJN heißt sie willkommen."
  poland.239.c: "Wir brauchen diese preußischen Stiefellecker nicht."
@@ -2281,6 +2287,10 @@ l_german:
  poland.258.t: "Die Übertragung von Transkarpatien"
  poland.258.d: "Im Rahmen der Teilung des ehemaligen Königreichs Galizien-Lodomerien wurde beschlossen, dass die Region Transkarpatien in die [ROOT.GetAdjective]-Länder integriert wird."
  poland.258.a: "Exzellent!"
+
+ poland.259.t: "Ein fast rechtmäßiger Coup"
+ poland.259.d: "Der Tag ist gekommen. Der Plan ist in Aktion. Wie vereinbart nutzten der Sejm und der Ministerrat ihre Macht, um den normalen parlamentarischen Prozess zu umgehen, und erteilten General Edward Rydz-Śmigły die oberste Vollmacht, 'Maßnahmen zur Gewährleistung der Unverletzlichkeit des polnischen Territoriums und der Verfassung zu ergreifen'. In seiner Funktion als Staatschef wurde dem General vom Sejm im Wesentlichen die Exekutivgewalt übertragen. Fast sofort wurde über Warschau das Kriegsrecht verhängt, um eine reibungslose Machtübergabe zu gewährleisten. In einer gemeinsamen Aktion von Militär und Polizei wurden potenzielle Dissidenten oder deutsche Spione massenhaft verhaftet. Ein neues Gremium, der Staatsrat, wurde hauptsächlich aus konservativen Politikern und Militärs gebildet, um Rydz zu beraten."
+ poland.259.a: "Endlich frei."
 
  #for POL:
  poland.260.t: "Die Sezession Großpolens"
@@ -2741,12 +2751,12 @@ l_german:
 
  # Ukraine:
  poland.455.t: "Neue Eisenbahn Warschau-[202.GetName]"
- poland.455.d: "Bisher mussten Züge, die von Deutschland aus in [202.GetName] enden wollten, wegen des schlechten Zustands der polnischen Eisenbahn lange Umwege über andere Länder Mitteleuropas nehmen, was zu Verspätungen auf der Strecke führte, da Schnellzüge, die durch Polen fahren, ihre Höchstgeschwindigkeit begrenzen und sogar auf veralteten Gleisanschlüssen ausweichen müssen.\n\nDie neu eröffnete Warschau-[202.GetName]-Eisenbahn soll die beiden Länder näher zusammenbringen, indem sie die Hauptstädte mit einer Schnellbahn verbindet und die Fahrzeit des Berlin-[202.GetName]-Expresses von über achtundvierzig Stunden durch vier Länder auf nur achtzehn Stunden mit einem einzigen Halt verkürzt. Die Gleise sind für Züge mit einem Gewicht von bis zu zehntausend Tonnen und einer Höchstgeschwindigkeit von zweihundertvierzig Stundenkilometern ausgelegt und entsprechen einem hohen Standard.\n\nEs wird zwar nicht erwartet, dass die Züge das Potenzial der Strecke sofort voll ausschöpfen können, aber das hohe Potenzial der Gleise ist für leistungsstärkere Lokomotiven gedacht, die im Laufe des Jahrzehnts entwickelt werden sollen, sowie für die schwereren Güterzüge, die von und nach der Ukraine und dem Kaukasus fahren. Die Eisenbahnverwaltung geht davon aus, dass zu jedem Zeitpunkt des Tages zehn Züge in jede Richtung verkehren werden, darunter sowohl Personen- als auch Güterzüge. "
+ poland.455.d: "Bisher mussten Züge, die von Deutschland aus in [202.GetName] enden wollten, wegen des schlechten Zustands der polnischen Eisenbahn lange Umwege über andere Länder Mitteleuropas nehmen, was zu Verspätungen auf der Strecke führte, da Schnellzüge, die durch Polen fahren, ihre Höchstgeschwindigkeit begrenzen und sogar auf veralteten Gleisanschlüssen ausweichen müssen.\n\nDie neu eröffnete Warschau-[202.GetName]-Eisenbahn soll die beiden Länder näher zusammenbringen, indem sie die Hauptstädte mit einer Schnellbahn verbindet und die Fahrzeit des Berlin-[202.GetName]-Expresses von über achtundvierzig Stunden durch vier Länder auf nur achtzehn Stunden mit einem einzigen Halt verkürzt. Die Gleise sind für Züge mit einem Gewicht von bis zu zehntausend Tonnen und einer Höchstgeschwindigkeit von zweihundertvierzig Stundenkilometern ausgelegt und entsprechen einem hohen Standard.\n\nEs wird zwar nicht erwartet, dass die Züge das Potenzial der Strecke sofort voll ausschöpfen können, aber das hohe Potenzial der Gleise ist für leistungsstärkere Lokomotiven gedacht, die im Laufe des Jahrzehnts entwickelt werden sollen, sowie für die schwereren Güterzüge, die von und nach der Ukraine und dem Kaukasus fahren. Die Eisenbahnverwaltung geht davon aus, dass zu jedem Zeitpunkt des Tages zehn Züge in jede Richtung verkehren werden, darunter sowohl Personen- als auch Güterzüge."
  poland.455.a: "Ein Symbol der polnisch-ukrainischen Zusammenarbeit."
 
  # White Ruthenia:
  poland.456.t: "Strecke Warschau-Minsk eröffnet"
- poland.456.d: "In einem gemeinsamen polnisch-weißrussischen Projekt wurden die Eisenbahnverbindungen zwischen unseren beiden Nationen drastisch verbessert. Die verbesserte Infrastruktur soll den Handel Weißrusslands mit dem Rest Mitteleuropas erleichtern - und im Ernstfall unseren Verbündeten helfen, gemeinsam gegen Russland zu bestehen."
+ poland.456.d: "In einem gemeinsamen polnisch-weißrussischen Projekt wurden die Eisenbahnverbindungen zwischen unseren beiden Nationen drastisch verbessert. Die Region ist von Feuchtgebieten und Wäldern durchzogen und hat lange Zeit zur Armut in Belarus beigetragen. Durch frühere russische und deutsche Eisenbahnprojekte wurde zwar die Basisinfrastruktur geschaffen, aber es gab noch viel zu tun, insbesondere im Hinblick auf kommerzielle, zivile Eisenbahnen. Auf diese haben wir uns konzentriert, um das Binnenland Belarus enger an den europäischen Handel anzubinden."
  poland.456.a: "Gut."
 
  poland.466.t: "Verbesserung der Alphabetisierung im ländlichen Raum"

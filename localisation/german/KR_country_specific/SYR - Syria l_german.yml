@@ -1,5 +1,8 @@
 ﻿l_german:
 ### Übersetzt von DerEherneRächer -> Ab 1.1.4 Proho  ###
+### Factions ###
+ league_of_arab_states: "Liga der Arabischen Staaten" #created by LOA_arab_parliament_effect effect
+
 ### Parties ###
  SYR_totalist_party: "HIA"
  #Party of al-Hawrani -> could be used as a precursor for the Ba'ath maybe?:
@@ -426,7 +429,7 @@
  SYR_Jerusalem_Joins_Revolt: "Sammelt Unterstützung in §YJerusalem§!"
 
  SYR_lebanon_independence_war: "Der Libanesische Unabhängigkeitskrieg"
- SYR_lebanon_independence_war_desc: "Die gesamte großsyrische Region leidet noch immer unter den Folgen des Syrischen Unabhängigkeitskrieges und der dadurch entstandenen Hungersnot, weshalb sich dieser Konflikt nicht in die Länge ziehen darf. Sollte der Libanon weiter ausharren, wird Syrien wohl dazu gezwungen sein, seine Unabhängigkeit anzuerkennen."
+ SYR_lebanon_independence_war_desc: "Die gesamte syrische Region ist nach der Levante Krise und der Hungersnot immer noch am Boden zerstört, und dieser Konflikt kann sich nicht allzu lange hinziehen. Wenn der Libanon hält, wird Syrien gezwungen sein, einen Frieden zu schließen."
 
  ### Introduction ###
  SYR_guide: "§MVolkspartei§! - §MDamaskanischer Flügel§! (§lSozialliberale§!) / §MAleppischer Flügel§! (§mMarktliberale§!)\n£white_dot In den ersten Syrischen Wahlen müssen der Nationale Aktionsbund, die Libanesische Reformpartei und die Volkspartei eine Koalition bilden.\n£white_dot Um den §lDamaskanischen Flügel§! der Volkspartei an die Macht zu bringen, muss daraufhin al-Jazairi zum Präsidenten gewählt werden, für den §mAleppischen Flügel§! Rushdi al-Kikhiya.\n£white_dot Nach Abschluss des Schwerpunktes \"Wiedereröffnung der Militärschulen\" darf al-Za'im nicht entlassen werden.\n\n§MDer Nationale Block§! (§cSozialkonservative§!)\n£white_dot Der Nationale Block muss die ersten Syrischen Wahlen gewinnen.\n£white_dot Nach Abschluss des Schwerpunktes \"Wiedereröffnung der Militärschulen\" darf al-Za'im nicht entlassen werden.\n£white_dot Der Nationalgeist \"Konflikt auf dem Libanonberg\" wird bei Abschluss des Schwerpunktes \"$SYR_abolish_mt_lebanon$\" eine libanesische Revolte herbeiführen und es erlauben, als Libanon weiterzuspielen.\n\n§MMilitärregierung§! (§PPaternale Autokraten§!) / §MSyrische Sozial-Nationalistische Partei§! (§nNationale Populisten§!)\n£white_dot Entlasse al-Za'im nach Abschluss des Schwerpunktes \"Wiedereröffnung der Militärschulen\".\n£white_dot Um die §PMilitärregierung§! an die Macht zu bringen, schließe den Schwerpunkt \"Das Militärmandat\" ab.\n£white_dot Für die §nSyrische Sozial-Nationalistische Partei§!, schließe den Schwerpunkt \"Den Grundprinzipien nacheifern\" ab. Der Nationalgeist \"Konflikt auf dem Libanonberg\" wird bei Abschluss des Schwerpunktes \"$SYR_syrian_assimilation$\" eine libanesische Revolte herbeiführen und es erlauben, als Libanon weiterzuspielen.\n\n§MArabisches Königreich Syrien§! (§gAutoritäre Demokraten§!)\n£white_dot Wähle im Ereignis \"Der Status Syriens\" die Option, Syrien in eine ägyptische Marionette zu verwandeln. Dadurch können keine außenpolitischen Schwerpunkte mehr abgeschlossen werden und die libanesische Revolte wird garantiert ausbrechen.\n§CAnmerkung: Dieser Pfad ist nur für die KI spielbar.§!"
@@ -475,7 +478,7 @@
  syrrep.3.a: "\"Syrien darf auf eine neue Zukunft hoffen!\""
 
  syrrep.4.t: "Said al-Jazairi verkündet Wahlen"
- syrrep.4.d: "Der Kongress aus Intellektuellen, Händlern und anderen bedeutenden Persönlichkeiten berät nun schon geraume Zeit über das weitere Vorgehen, doch nun wandte sich endlich ein Sprecher der Versammlung, Said al-Jazairi, an das Volk und verkündete, dass Wahlen die Zukunft Syriens bestimmen sollten. Said ist ein Nachfahre des legendären algerischen Emirs Abdelkader al-Jazairi, der für seine Rolle im Libanesischen Bürgerkrieg weltweit als "Heiliger unter den Prinzen und Prinz unter den Heiligen" gepriesen wird. Zwar ist sein Enkel nicht annähernd so bekannt wie er, doch seine Taten während des Weltkrieges und des Levantinischen Krieges, mit denen er die Stabilität Damaskus' sicherte, haben ihn zu einer der einflussreichsten Personen der Hauptstadt gemacht, eine Position, die durch seine lange Amtszeit in der osmanischen Abgeordnetenkammer gestärkt wird.\n\nAlle Parteien, Gruppierungen und sonstige Organisationen, die am Kongress teilnahmen, haben versprochen, sich für freie und gerechte Wahlen einzusetzen und in ihre Wahlkreise zurückzukehren, um dort ihre Kampagnen zu organisieren. Obwohl diese Ideale sich auf dem Papier nach einem Schritt in die richtige Richtung anhören mögen, wird das tief in der syrischen Gesellschaft verwurzelte Klientelismus wohl der alten Elite den Sieg sichern, anstatt eine wahre Repräsentation des syrischen Volkes zu bewirken."
+ syrrep.4.d: "Der Kongress aus Intellektuellen, Händlern und anderen bedeutenden Persönlichkeiten berät nun schon geraume Zeit über das weitere Vorgehen, doch nun wandte sich endlich ein Sprecher der Versammlung, Said al-Jazairi, an das Volk und verkündete, dass Wahlen die Zukunft Syriens bestimmen sollten. Said ist ein Nachfahre des legendären algerischen Emirs Abdelkader al-Jazairi, der für seine Rolle im Libanesischen Bürgerkrieg weltweit als \"Heiliger unter den Prinzen und Prinz unter den Heiligen\" gepriesen wird. Zwar ist sein Enkel nicht annähernd so bekannt wie er, doch seine Taten während des Weltkrieges und des Levantinischen Krieges, mit denen er die Stabilität Damaskus' sicherte, haben ihn zu einer der einflussreichsten Personen der Hauptstadt gemacht, eine Position, die durch seine lange Amtszeit in der osmanischen Abgeordnetenkammer gestärkt wird.\n\nAlle Parteien, Gruppierungen und sonstige Organisationen, die am Kongress teilnahmen, haben versprochen, sich für freie und gerechte Wahlen einzusetzen und in ihre Wahlkreise zurückzukehren, um dort ihre Kampagnen zu organisieren. Obwohl diese Ideale sich auf dem Papier nach einem Schritt in die richtige Richtung anhören mögen, wird das tief in der syrischen Gesellschaft verwurzelte Klientelismus wohl der alten Elite den Sieg sichern, anstatt eine wahre Repräsentation des syrischen Volkes zu bewirken."
  syrrep.4.a: "Mögen sie uns Stabilität bringen!"
 
  syrrep.5.t: "Chaos an den Wahlkabinen"
@@ -491,8 +494,8 @@
  syrrep.7.d: "Der Nationale Block, der derzeit vom ältlichen Hashim al-Atassi angeführt wird, sucht nun schon seit dem Ende des Levantinischen Krieges nach einer neuen Führungsperson. Zwar wird Hashim al-Atassi von vielen als einer der bedeutendsten syrischen Nationalisten betrachtet, doch er selbst hat entschieden, dass es nun, da die Unabhängigkeit Syriens durchgesetzt wurde, an der Zeit ist, der nächsten Generation das Ruder zu überlassen.\n\nGerüchte besagen, dass Shukri al-Quwatli, ein weiterer syrischer Nationalist, schon seit langer Zeit auf den Rücktritt seines Mentors gewartet und nun seine Chance ergriffen hat, selbst im Rampenlicht zu stehen. Al-Quwatli ist schon seit den Tagen des Weltkrieges ein Widerstandskämpfer und gewann an enormer Beliebtheit, nachdem er von Djemal Pashas Regime gefangen genommen und gefoltert wurde. Nach seiner Freilassung kämpfte er gegen die Allenby-Verwaltung, bis diese sich 1920 aus Nordsyrien zurückzog, woraufhin er seinen Kampf gegen die türkischen Besatzer fortsetzte. Nachdem er der osmanischen Gendarmerie einige Male nur knapp entkam, wurde er ins Exil nach Kairo verbannt, wo er jedoch weiterhin als Aktivist aktiv war und Unterstützung für die Befreiung seiner Heimat suchte.\n\nEs ist daher nicht verwunderlich, dass sein Name im Kreise der syrischen Nationalisten hoch geachtet wird, doch nicht alle Parteimitglieder sind gänzlich mit Quwatli zufrieden, vor allem aufgrund seines fortgeschrittenen Alters. Zwar ist er jünger als al-Atassi, doch viele hatten darauf gehofft, dass die mit seinem Rücktritt eine neue syrische Generation die Fackel weitertragen und Syrien in ein neues Zeitalter führen würde."
  syrrep.7.a: "Viel Glück al-Quwatli!"
 
- syrrep.8.t: "Bechara El Khoury verbündet sich mit al-Quwatli"
- syrrep.8.d: "Da der Nationale Block zurzeit vor allem die Interessen der damaskanischen Elite vertritt, hat sich al-Quwatli auf die Suche nach Verbündeten in den anderen Interessengruppen Großsyriens begeben. Obwohl sich der libanesische Nationalismus des Hinterlandes von Beirut als Problem bei der Formierung einer stabilen Regierung herausgestellt hat, hat der Konstitutionelle Block unter der Führung von Bechara El Khoury letztlich dem Koalitionsangebot des Nationalen Blocks zugestimmt, wenngleich der Libanesischen Reformpartei dafür enorme Zugeständnisse gewährt wurden.\n\nDiese umfassen, dass die Libanesen den Sprecher des Hauses und den Marineminister stellen dürfen und dass Beirut zusätzliches Kapital zur Beseitigung der Kriegsschäden erhält. Diese Zugeständnisse wurden jedoch von Teilen des Nationalen Blocks mit Widerspruch beantwortet, da einige Mitglieder der Partei sie als Beleidigung der Einheit Großsyriens und indirekte Akzeptanz einer libanesischen Identität ansehen."
+ syrrep.8.t: "Bechara el-Khoury verbündet sich mit al-Quwatli"
+ syrrep.8.d: "Da der Nationale Block zurzeit vor allem die Interessen der damaskanischen Elite vertritt, hat sich al-Quwatli auf die Suche nach Verbündeten in den anderen Interessengruppen Großsyriens begeben. Obwohl sich der libanesische Nationalismus des Hinterlandes von Beirut als Problem bei der Formierung einer stabilen Regierung herausgestellt hat, hat der Konstitutionelle Block unter der Führung von Bechara el-Khoury letztlich dem Koalitionsangebot des Nationalen Blocks zugestimmt, wenngleich der Libanesischen Reformpartei dafür enorme Zugeständnisse gewährt wurden.\n\nDiese umfassen, dass die Libanesen den Sprecher des Hauses und den Marineminister stellen dürfen und dass Beirut zusätzliches Kapital zur Beseitigung der Kriegsschäden erhält. Diese Zugeständnisse wurden jedoch von Teilen des Nationalen Blocks mit Widerspruch beantwortet, da einige Mitglieder der Partei sie als Beleidigung der Einheit Großsyriens und indirekte Akzeptanz einer libanesischen Identität ansehen."
  syrrep.8.a: "Alle Syrer müssen zusammenhalten, wenn wir unsere Ziele erreichen wollen!"
 
  syrrep.9.t: "Ahmad Sharabati zum Bildungsminister ernannt"
@@ -676,48 +679,82 @@
 
 ### Characters ###
  SYR_akram_al_hourani: "Akram al-Hourani"
+ SYR_akram_al_hourani_leader_desc: "§YGeboren:§! §L1911, in Hama, Vilayet von Syrien, Osmanisches Reich§!"
  SYR_khalid_bakdash: "Khalid Bakdash"
+ SYR_khalid_bakdash_leader_desc: "§YGeboren:§! §L1912, in Damaskus, Vilayet von Syrien, Osmanisches Reich§!"
  SYR_said_al_jazairi: "Said al-Jazairi"
+ SYR_said_al_jazairi_leader_desc: "§YGeboren:§! §L1885, in Damaskus, Vilayet von Syrien, Osmanisches Reich§!"
  SYR_rushdi_al_kikhiya: "Rushdi al-Kikhiya"
+ SYR_rushdi_al_kikhiya_leader_desc: "§YGeboren:§! §L1899, in Aleppo, Vilayet von Syrien, Osmanisches Reich§!"
 
  SYR_hashim_al_atassi: "Hashim al-Atassi"
+ SYR_hashim_al_atassi_leader_desc: "§YGeboren:§! §L1. Januar 1875, in Homs, Vilayet von Syrien, Osmanisches Reich§!"
 
  SYR_shukri_al_quwatli: "Shukri al-Quwatli"
  SYR_shukri_al_quwatli_leader_desc: "§YGeboren:§! §L6. Mai 1891, in Damaskus, Vilayet Syrien, Osmanisches Reich§!\n§YHintergrund:§! §LVon den vielen Zweigen der al-Fatat, die in der ganzen arabischen Welt agiert, ist keiner so erfolgreich wie der Syriens. Dieser Erfolg lässt sich größtenteils auf die bedachte Vorgehensweise ihres Anführers, Shukri al-Quwatli, zurückführen. Obwohl er bereits zwei Mal ins Exil gezwungen wurde, ist er nun erneut nach Syrien zurückgekehrt und hat damit begonnen, Verbündete für eine neue republikanische Regierung zu sammeln. Shukri dient Syrien zudem als Vermittler zwischen den liberalen Bürgern und den konservativen Grundbesitzern, die über einen Großteil der juristischen Macht Syriens verfügen.§!"
 
  SYR_sultan_al_atrash: "Sultan al-Atrash"
+ SYR_sultan_al_atrash_leader_desc: "§YGeboren:§! §L5. März 1891, in Al-Qurayya, Vilayet von Syrien, Osmanisches Reich§!"
+
  SYR_husni_al_zaim: "Husni al-Za'im"
+ SYR_husni_al_zaim_leader_desc: "§YGeboren:§! §L11. Mai 1897, in Aleppo, Vilayet von Syrien, Osmanisches Reich§!"
 
  SYR_antun_saadeh: "Antun Saadeh"
  SYR_antun_saadeh_leader_desc: "§YGeboren:§! §L1. März 1904, in Dhour El Choueir, Vilayet Beirut, Osmanisches Reich§!\n§YHintergrund:§! §LAntun Saadeh ist ein Mann vieler Talente und mit nur wenig Geduld. Nachdem er die Hälfte seines Lebens im Ausland verbrachte, kehrte er 1930 in seine Heimat zurück. Dort gründete Saadeh die Syrische Sozial-Nationalistische Partei, die eine Ausweitung der Programmatik des Nationalen Sozialismus befürwortete, einer Strömung, die einen Synkretismus aus sozialistischen und nationalistischen Ideen bildet, die von Saadeh während seiner Zeit im Ausland entwickelt wurde. 1935 wurde er von den osmanischen Behörden verhaftet, nachdem er die Gründung der Partei öffentlich verkündete, doch sein Glaube an einen syrischen Staat, der frei von den westlichen und osmanischen Imperialisten besteht und durch die Ideen des Nationalen Sozialismus geeint wird, lässt sich nicht brechen.§!"
 
  SYR_sami_al_hinawi: "Sami Al-Hinawi"
- SYR_adib_al_shishakli: "Adib ibn Hassan al-Shishakli"
-
+ SYR_sami_al_hinawi_high_command_desc: "§YGeboren:§! §L1898, in Aleppo, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_adib_idb_hassan_al_shishakli: "Adib ibn Hassan al-Shishakli"
+ SYR_adib_idb_hassan_al_shishakli_sic_desc: "§YGeboren:§! §L1909, in Hama, Vilayet von Syrien, Osmanisches Reich§!"
  SYR_yusuf_al_azma: "Yusuf al-Azma"
- 
- SYR_abd_al_rahman_shahbandar: "‘Abd al-Rahman Shahbandar"
- SYR_jamil_mardam_bey: "Jamil Mardam Bey"
- SYR_muhsen_barazi: "Musen al-Barazi"
- SYR_maarouf_al_dawalibi: "Maarouf al-Dawalibi"
- SYR_nazim_kudsi: "Nazim al-Kudsi"
- SYR_rashad_barmada: "Rashad Barmada"
- SYR_raghib_nashashibi: "Raghib al-Nashashibi"
- SYR_fakhri_nashashibi: "Fakhri al-Nashashibi"
- SYR_edmond_homsi: "Edmond al-Homsi"
- SYR_saadallah_jabiri: "Saadallah al-Jabiri"
- SYR_fares_khoury: "Fares al-Khoury"
- SYR_abdulrahman_kayali: "Abd al-Rahman al-Kayyali"
- SYR_lutfi_haffar: "Lutfi al-Haffar"
+ SYR_yusuf_al_azma_commander_desc: "§YGeboren:§! §L9. April 1884, in Damaskus, Vilayet von Syrien, Osmanisches Reich§!"
  SYR_abdullah_atfeh: "Abdullah Atfeh"
+ SYR_abdullah_atfeh_high_command_desc: "§YGeboren:§! §L1897, in Khirbet Ghazaleh, Vilayet von Syrien, Osmanisches Reich§!"
  SYR_fawzi_selu: "Fawzi Selu"
- SYR_sati_husri: "Sati al-Husri"
- SYR_ahmad_sharbati: "Ahmad al-Sharabati"
- SYR_george_abd_messih: "George Abd Messih"
- SYR_said_taqiyaddin: "Said Taqiyaddin"
- SYR_salah_al_shishakli: "Salah al-Shishakli"
+ SYR_fawzi_selu_army_chief_desc: "§YGeboren:§! §L1905, in Damaskus, Vilayet von Syrien, Osmanisches Reich§!"
  SYR_fawzi_al_qawuqji: "Fawzi al-Qawuqji"
+ SYR_fawzi_al_qawuqji_army_chief_desc: "§YGeboren:§! §L1890, in Tripolis, Vilayet von Beirut, Osmanisches Reich§!"
+ SYR_abd_al_rahman_shahbandar: "‘Abd al-Rahman Shahbandar"
+ SYR_abd_al_rahman_shahbandar_sic_desc: "§YGeboren:§! §L6. November 1879, in Damaskus, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_jamil_mardam_bey: "Jamil Mardam Bey"
+ SYR_jamil_mardam_bey_sic_desc: "§YGeboren:§! §L1895, in Damaskus, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_muhsen_al_barazi: "Musen al-Barazi"
+ SYR_muhsen_al_barazi_sic_desc: "§YGeboren:§! §L1904, in Hama, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_maarouf_al_dawalibi: "Maarouf al-Dawalibi"
+ SYR_maarouf_al_dawalibi_advisor_desc: "§YGeboren:§! §L29. März 1909, in Aleppo, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_nazim_al_kudsi: "Nazim al-Kudsi"
+ SYR_nazim_al_kudsi_advisor_desc: "§YGeboren:§! §L14. Februar 1906, in Aleppo, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_rashad_barmada: "Rashad Barmada"
+ SYR_rashad_barmada_advisor_desc: "§YGeboren:§! §L1913, in Aleppo, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_raghib_al_nashashibi: "Raghib al-Nashashibi"
+ SYR_rashad_barmada_leader_desc: "§YGeboren:§! §L1881, in Jerusalem, Mutasarrifat von Jerusalem, Osmanisches Reich§!"
+ SYR_fakhri_al_nashashibi: "Fakhri al-Nashashibi"
+ SYR_fakhri_al_nashashibi_advisor_desc: "§YGeboren:§! §L1899, in Bagdad, Vilayet von Bagdad, Osmanisches Reich§!"
+ SYR_edmond_al_homsi: "Edmond al-Homsi"
+ SYR_edmond_al_homsi_advisor_desc: "§YGeboren:§! §L6. Januar 1901, in Aleppo, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_saadallah_al_jabiri: "Saadallah al-Jabiri"
+ SYR_saadallah_al_jabiri_advisor_desc: "§YGeboren:§! §L1893, in Aleppo, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_fares_al_khoury: "Fares al-Khoury"
+ SYR_fares_al_khoury_advisor_desc: "§YGeboren:§! §L1877, in Kfeir, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_abd_al_rahman_al_kayali: "Abd al-Rahman al-Kayyali"
+ SYR_abd_al_rahman_al_kayali_advisor_desc: "§YGeboren:§! §L1887, in Aleppo, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_lutfi_al_haffar: "Lutfi al-Haffar"
+ SYR_lutfi_al_haffar_advisor_desc: "§YGeboren:§! §L1885, in Damaskus, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_sati_al_husri: "Sati al-Husri"
+ SYR_sati_al_husri_advisor_desc: "§YGeboren:§! §L1882, in Sana, Vilayet von Jemen, Osmanisches Reich§!"
+ SYR_ahmad_al_sharbati: "Ahmad al-Sharabati"
+ SYR_ahmad_al_sharbati_advisor_desc: "§YGeboren:§! §L1909, in Damaskus, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_george_abd_messih: "George Abd Messih"
+ SYR_george_abd_messih_advisor_desc: "§YGeboren:§! §L1908, im Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_said_taqiyaddin: "Said Taqiyaddin"
+ SYR_said_taqiyaddin_advisor_desc: "§YGeboren:§! §L15. Mai 1904, in Baakleen, Berg Libanon Mutasarrifat, Osmanisches Reich§!"
+ SYR_salah_al_shishakli: "Salah al-Shishakli"
+ SYR_salah_al_shishakli_advisor_desc: "§YGeboren:§! §Lin Hama, Vilayet von Syrien, Osmanisches Reich§!"
  SYR_anwar_bannud: "Anwar Bannud"
- SYR_army_subservient_air_command: "Luftkommando der Armee"
- SYR_army_naval_arm: "Marinekommado der Armee"
- SYR_interbranch_cooperation: "Bereichsübergreifende Kooperation"
+ SYR_anwar_bannud_army_chief_desc: "§YGeboren:§! §L1908, in Aleppo, Vilayet von Syrien, Osmanisches Reich§!"
+ SYR_army_subservient_air_command: "Armee-Luftkommando"
+ SYR_army_subservient_air_command_air_chief_desc: "§YGegründet:§! §Lin Damaskus, Syrische Republik§!"
+ SYR_army_naval_arm: "Armee Marine-Arm"
+ SYR_army_naval_arm_navy_chief_desc: "§YGegründet:§! §Lin Damaskus, Syrische Republik§!"
+ SYR_interbranch_cooperation: "Branchenübergreifende Zusammenarbeit"
+ SYR_interbranch_cooperation_theorist_desc: "§YGegründet:§! §Lin Damaskus, Syrische Republik§!"

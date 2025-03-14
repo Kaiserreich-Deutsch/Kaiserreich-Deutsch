@@ -1,5 +1,11 @@
 ﻿l_german:
 ### Übersetzt von DerEherneRächer -> Ab 1.1.4 Proho  ###
+############
+# Factions #
+############
+ istanbul_pact: "Istanbuler Pakt" #created by OTT_United_Against_Imperialism focuses
+ sarajevo_accords: "Sarajewo Abkommen"
+
 ###########
 # Parties #
 ###########
@@ -495,7 +501,7 @@
  OTT_ARA_Crack_Down_Gulf_Smuggling: "Die Küstenwache von al-Hasa gründen"
  OTT_ARA_Crack_Down_Gulf_Smuggling_desc: "Piraterie und Schmuggel gehören schon seit Langem zu den größten Problemen des Golfs. Britische Marineoperationen konnten diese kriminellen Machenschaften zwar einschränken, durch die Kriege in der Levante und in Indien nimmt der Schmuggel jedoch erneut zu - und der Scheich von Dubai hat sich entschlossen, dies auszunutzen, indem er Dubai zur Hauptstadt der Schmuggler des Golfs und des Indischen Ozeans machte.\n\nDas kann so nicht weitergehen! Zwar schadet die Piraterie unseren Feinden, allerdings auch der Sicherheit unserer Schiffsfahrten im Golf, was wir aufgrund der wachsenden Wichtigkeit der dortigen Öl-Industrie nicht länger tolerieren können. Wir dürfen nicht einfach nur Däumchen drehen und zusehen, wie Piraten unsere Konvois überfallen und deren wertvolle Fracht stehlen!"
 
- OTT_ARA_Military_Mission_to_ARA: "Entsendet eine Militärmission nach [FROM.GetName]"
+ OTT_ARA_Military_Mission_to_ARA: "Entsendet eine Militärmission nach [FROM.GetNameDef]"
  OTT_ARA_Military_Mission_to_ARA_desc: "Die militärischen Reformen unseres Reiches werden von vielen unserer Nachbarn, deren Armeen noch immer aus Stammesmilizen mit begrenztem Training bestehen, beneidet. Diese Staaten bitten nun um Experten aus Kostantiniyye, die ihnen bei der Modernisierung ihrer Streitkräfte helfen können, wobei sie uns im Gegenzug große Kompensationen versprechen. Ein solches Unterfangen ist allerdings äußerst riskant, da es die Stärke des Heeres dieser Nationen erhöht - und wir ihnen eines Tages womöglich auf dem Feld der Ehre begegnen könnten."
 
 ### Greek Integration
@@ -1122,7 +1128,7 @@
  OTT_Association_Muslim_Nations: "Gründung der Assoziation muslimischer Nationen"
  OTT_Association_Muslim_Nations_desc: "Die Assoziation muslimischer Nationen, eine neue Wirtschaftsallianz, wurde erschaffen, um in all ihren Mitgliedsstaaten für Wohlstand zu sorgen, unsere Abhängigkeit von europäischen und amerikanischen Waren zu reduzieren und die Industrialisierung in der gesamten muslimischen Welt voranzutreiben. Wenn wir alle zusammenstehen, garantieren wir nicht nur unsere Souveränität, sondern können sogar auf die derzeitigen Großmächte einen gewissen Druck ausüben."
  OTT_Council_Economic_Unity: "Gründung des Rats der wirtschaftlichen Einigkeit"
- OTT_Council_Economic_Unity_desc: "Wie bereits in Kapitel 1 der wirtschaftlichen Einigkeits-Vereinbarung festgehalten, lauten die Ziele des Rates wie folgt: 'Die wirtschaftlichen Beziehungen zwischen den Staaten der arabischen Liga auf Basis ihrer natürlichen und historischen Verbindung organisieren und konsolidieren; die Bedingungen für florierende Wirtschaften in allen Mitgliedsstaaten schaffen; die Förderung natürlicher Ressourcen erhöhen und den Wohlstand aller beteiligter Nationen sicherstellen.'"
+ OTT_Council_Economic_Unity_desc: "Wie bereits in Kapitel 1 der wirtschaftlichen Einigkeits-Vereinbarung festgehalten, lauten die Ziele des Rates wie folgt: \"Die wirtschaftlichen Beziehungen zwischen den Staaten der arabischen Liga auf Basis ihrer natürlichen und historischen Verbindung organisieren und konsolidieren; die Bedingungen für florierende Wirtschaften in allen Mitgliedsstaaten schaffen; die Förderung natürlicher Ressourcen erhöhen und den Wohlstand aller beteiligter Nationen sicherstellen.\""
  OTT_Railway_Connection: "Verbindung der Eisenbahnen"
  OTT_Railway_Connection_desc: "Da Autos und Eisenbahnen heutzutage eine immer größere Rolle spielen, scheint ein verbundenes Schienensystem immer nützlicher zu werden. Es wird zwar einige Mühen kosten, da jeder koloniale Besetzer eine andere Art von Schiene errichten ließ, aber die Pläne zur Vereinigung der Bahnschienen von Ägypten, dem Maschrek und Westpersien wurden bereits ausgearbeitet und mit ihrer Umsetzung kann jederzeit begonnen werden."
  OTT_Joint_Military_Planning: "Gemeinsame Militärübungen"
@@ -1264,7 +1270,7 @@
  ott_privy_purse_nationalised: "Royale Besitztümer konfisziert"
  ott_privy_purse_nationalised_desc: "Die osmanische Regierung hat einen Großteil des Kapitals des Sultans im Namen des Staates konfisziert, damit dieser es für seine Interessen nutzen kann. Diese Geldzufuhr sollte zumindest kurzfristig dabei helfen, die finanziellen Probleme unserer Nation zu bekämpfen."
 
- ott_fevzi_cult_of_personality: "'Mareşal biz buradayız!'"
+ ott_fevzi_cult_of_personality: "\"Mareşal biz buradayız!\""
  ott_fevzi_cult_of_personality_desc: "Es hat sich ein Persönlichkeitskult um den Mareşal entwickelt, der diesen als Held des Weltkriegs, Retter des türkischen Volkes und Zukunft des osmanischen Staates ansieht."
 
  ott_widespread_illiteracy_fevzi: "Weit verbreitetes Analphabetentum"
@@ -1404,7 +1410,7 @@
  ott_greco_turkish_accord: "Das Griechisch-Türkische Abkommen"
 
  ott_armed_neutrality_2: "Bewaffnete Neutralität"
- ott_armed_neutrality_2_desc: "Die tapferen Männer, die während des Weltkrieges gegen den Imperialismus kämpften, ruhen nun in im ganzen Reich verteilten Massengräbern. Unsere gesamten Verluste betragen über 25% unserer ehemaligen Bevölkerung. Wir können weder vergessen noch vergeben, was die Imperialisten uns angetan haben. Über Europa ziehen dunkle Wolken auf und viele fürchten, dass erneut ein Krieg bevorsteht - an dem wir nicht teilhaben werden!""
+ ott_armed_neutrality_2_desc: "Die tapferen Männer, die während des Weltkrieges gegen den Imperialismus kämpften, ruhen nun in im ganzen Reich verteilten Massengräbern. Unsere gesamten Verluste betragen über 25% unserer ehemaligen Bevölkerung. Wir können weder vergessen noch vergeben, was die Imperialisten uns angetan haben. Über Europa ziehen dunkle Wolken auf und viele fürchten, dass erneut ein Krieg bevorsteht - an dem wir nicht teilhaben werden!"
 
  ott_syrian_uprising: "Arabischer Unabhängigkeitskrieg"
  ott_syrian_uprising_desc: "Die Araber des Osmanischen Reiches befinden sich in einem Kampf, mit dem sie sich erhoffen, ihrem Volk die Unabhängigkeit bringen zu können. Viele glauben, dass hier und jetzt der beste Zeitpunkt wäre, um sich den Sieg zu sichern - und diese Gelegenheit werden sie sich nicht entgehen lassen."
@@ -1431,6 +1437,7 @@
 # Intro Screen #
 ################
 
+ TUR_country_intro_background: "GFX_TUR_intro"
  TUR_country_intro_header: "Das Osmanische Reich vor dem Weltkrieg"
  TUR_country_intro_content: "Das Osmanische Reich, einst eines der größten Imperien in der Geschichte der Menschheit, erfährt nun seit dem späten 19. Jahrhundert seinen Niedergang, wodurch es im frühen 20. Jahrhundert gar als "kranker Mann Europas" bekannt wurde. Die Unfähigkeit, effektiv zu industrialisieren, konstante Einmischungen anderer Nationen und ein nur unsicher Halt über viele seiner Provinzen führten dazu, dass das Osmanische Reich 1876 weit hinter den anderen europäischen Nationen lag. Dennoch führten die Osmanen Reformen durch, und trotz der Herausforderungen, welche sie auf lokaler Ebene aufgrund korrupter Bürokraten und Probleme mit den Stämmen boten, brachten sie den Menschen Hoffnung. Daraufhin fanden radikale Veränderungen statt, welche von Mahmud II gefordert und von den Jungosmanen weitergeführt wurden. Diese beinhalteten die Restrukturierung des Grundbesitzes, die Auflösung der Janitscharen, die Reetablierung der zentralen Kontrolle in Regionen wie Mosul und Al-Hasa und die Verkündung einer Verfassung. Der Fokus der Reformer lag auf der Idee des Osmanismus; sie wollten alle Bürger des Reiches durch eine gemeinsame Identität verbinden. Die Reformen genügten jedoch nicht. Als Abdulhamid II an die Macht kam, folgten erneut große Veränderungen.\n\nUnter dem Vorwand des russisch-osmanischen Krieges wurde die Verfassung abgeschafft und das Parlament aufgelöst. Infolgedessen fand eine radikale Zentralisierung statt, wodurch dem Sultan-Kalifen große Macht zugesprochen wurde. Aufgrund konstanter Bedrohungen durch christliche Nationen wandte sich der Sultan dem Panislamismus, basierend auf dem Prestige des Kalifats, zu. Bei der muslimischen Bevölkerung des Reiches zeigte diese Politik große Erfolge, in nicht-muslimischen Regionen beschleunigte sie jedoch das Wachstum des Wunsches, sich vom Reich abzuspalten. Außerdem sorgte die absolutistische Herrschaft des Kalifen für eine große Unzufriedenheit der Bevölkerung, welche von den westlichen Idealen und Ideen immer mehr angetan war.\n\nDieser Widerstand konsolidierte sich in Form des 'Komitees für Einheit und Fortschritt (CUP)'. Der kurz darauf stattgefundene Staatsstreich von 1908 beendete die lange Unterdrückung der Politik durch den Sultan. Daraufhin versuchten dutzende Parteien, einen Sitz im wiederhergestellten Parlament zu ergattern - und wie es schien, war der Niedergang des Osmanischen Reiches endlich vorbei. Doch die Demokraten blieben nicht lange vereint und teilten sich schon bald in zwei Lager: die Zentralisten und die Dezentralisten. In den folgenden, von Tumult geptägten 5 Jahren versuchten beide Seiten, die Kontrolle zu erlangen. 1913 war das Spiel durch den Überfall der Hohen Pforte vorbei. Die Zentralisten, unterstützt durch das jungtürkische Triumvirat, nahmen den Dezentralisten jegliche Macht und formten die Nation fortan nach ihrer Vorstellung. Aufgrund der Bedrohung durch die Imperialisten entschlossen sie sich schließlich, die Beziehungen mit Deutschland zu stärken."
 
@@ -2427,8 +2434,7 @@
 
  ottsep.15.t: "Idris kehrt auf seinen Thron zurück"
  ottsep.15.d: "Idris I, Prinz des Senussi-Ordens, ist aus seinem selbst-auferlegten Exil in Kairo zurückgekehrt. Sein Neffe Ibrahim ibn Ahmad as-Sharif wurde zur Abdankung gezwungen, woraufhin alle noch verbliebenen osmanischen Beobachter aus Kyrenaika vertrieben wurden. Außerdem hat Idris entschieden, die Hauptstadt Kyrenaikas näher an die ägyptische Grenze zu verlegen - ein deutliches Zeichen für seine anti-osmanischen Ambitionen. Die Stadt Giarabub, welche Kyrenaika nach dem Ende des Weltkrieges übergeben wurde, wurde nun zur offiziellen Hauptstadt des Staates erklärt. Dieses spirituelle Zentrum des Ordens ist die Heimat seiner wichtigsten Bildungseinrichtungen, liegt mitten in der Wüste und ist allen Nicht-Muslimen verboten, was eine osmanische Intervention äußerst schwierig gestaltet."
- ottsep.15.a: "Vernichtet den Orden!"
- ottsep.15.b: "Wir sollten abwarten."
+ ottsep.15.a: "Wir sollten abwarten."
 
  ottsep.16.t: "Unruhen in Bengasi"
  ottsep.16.d: "Bengasi, der einzige osmanische Stützpunkt in Kyrenaika, wurde von einer Welle der Unruhe getroffen, nachdem die Senussi ihren Hauptsitz von Ajdabiya nach Giarabub verlegten. Ohne Zweifel wurden diese Unruhen von Agenten der Sekte inszeniert, dies allerdings mit großem Erfolg: Sie konnten einen Großteil der lokalen Bevölkerung gegen die osmanische Regierung aufhetzen.\n\nViele der nicht-muslimischen Stadtbewohner fordern einen größeren Einsatz der örtlichen Garnison, da sie fürchten, das Ende der osmanischen Herrschaft über die Stadt könnte extreme Konsequenzen für ihre wirtschaftlichen Interessen und selbst ihre Leben haben, sollte es zwischen beiden Seiten zu Konflikten kommen. Vor allem die Juden sind in Gefahr, da selbst in Bengasi die Auswirkungen des palästinensischen Problems zu spüren sind."
@@ -3163,24 +3169,6 @@
  ottfor.95.d: "Da die ausländischen Invasoren besiegt wurden, werden die Dienste der zuvor gegründeten nationalen Verteidigungsorganisationen nicht mehr benötigt. Diese haben sich nun aufgelöst und ihre Mitglieder begeben sich auf den Weg in Richtung Heimat."
  ottfor.95.a: "Die Verteidiger des Kalifats kehren in ihre Heimat zurück."
 
-### Alliance with Azerbaijan
- ottfor.96.t: "[From.Owner.GetName] erbittet unsere Unterstützung!"
- ottfor.96.d: "Da sie eventuell eine Niederlage gegen den Iran erleiden könnten, hat [From.Owner.GetName] unsere Regierung darum gebeten, dass wir uns ihrem Krieg gegen den Iran anschließen, wobei sie noch einmal die kulturellen Verbindungen unserer beiden Nationen und die Bedrohung, die ein siegreicher Iran für unsere Unabhängigkeit darstellen könnte, betont haben. Sie sind der Meinung, die Iraner würden sicherlich versuchen, uns zu annektieren, sollten die Osmanen den Wüstenkrieg verlieren. \n\nViele Mitglieder unserer Regierung und Offiziere unserer Armee fordern nun, dass wir dem osmanischen Ruf zu den Waffen folgen und unsere Brüder, die derzeit vom Iran unterjocht werden, befreien. Wir sollten allerdings Vorsicht walten lassen, da ein Kriegsbeitritt katastrophale Folgen haben könnte, wenn unsere Armee nicht dafür bereit ist, sich dem Iran entgegenzustellen."
- ottfor.96.a: "Die perfekte Möglichkeit, um unsere südlichen Territorien zurückzugewinnen!"
- ottfor.96.b: "Das wäre zu riskant..."
-
- ottfor.97.t: "[From.Owner.GetName] tritt dem Krieg bei"
- ottfor.97.d: "Ein diplomatischer Sieg der Osmanen - Aserbaidschan hat unserer Bitte um Unterstützung entsprochen und dem Iran offiziell den Krieg erklärt. Als Austausch für seinen Beistand hat die aserbaidschanische Regierung eine Vereinigung der aserbaidschanischen Territorien des Irans mit Aserbaidschan selbst gefordert. Diese Forderung ist vernünftig und wird ihnen nach dem Krieg sicherlich erfüllt werden. Mit der Hilft unserer türkischen Brüden werden wir über das iranische Biest triumphieren!"
- ottfor.97.a: "Ausgezeichnet."
-
- ottfor.98.t: "[From.Owner.GetName] greift Persien nicht an"
- ottfor.98.d: "Aserbaidschan hat sich törichterweise dazu entschieden, unsere bitte um Unterstützung gegen den Iran zu ignorieren, mit der Begründung, dass ein Kriegsbeitritt zu große Gefahren mit sich bringe. Dieser Verrat wird, nach allem was wir für Aserbaidschan getan haben, nicht vergessen werden. Nun müssen wir uns dem iranischen Biest wohl oder übel allein entgegenstellen..."
- ottfor.98.a: "Wird uns denn niemand beistehen?!"
- 
- ottfor.100.t: "[From.Owner.GetName] plant einen Angriff!"
- ottfor.100.d: "Die Osmanen, welche sich stetig weiter zurückgedrängt sehen, haben laut Geheimdienstberichten Gespräche mit dem Aserbaidschan aufgenommen und versuchen nun, diesen dazu bewegen, eine zweite Front in unserem Norden zu eröffnen, wobei sie den Aseris die iranischen Teile Aserbaidschans als Entschädigung versprechen. Wir müssen sofort damit beginnen, uns auf diese potenzielle Invasion vorzubereiten!"
- ottfor.100.a: "Diese Schweinehunde!"
-
 ####################
 ### GUI Elements ###
 ####################
@@ -3254,8 +3242,6 @@
 
  OTT_Centralise_tt: "§YZentralisiert die Staatsautorität§!"
  OTT_Centralise_tt_desc: "Indem wir den Vilayets einen Teil ihrer lokalen Macht wegnehmen, können wir diese dem osmanischen Parlament in Kostantiniyye verleihen. In den Büros der Hauptstadt wurden bereits Pläne ausgearbeitet, die Siedlungspolitiken, die Verstärkung lokaler Garnisonen, die Entwaffnung der Beduinen und den Ausbau der Infrastruktur der Provinzen beinhalten, von denen wir hoffen, dass sie ebenso einfach umsetzbar wie ausgedacht sind...\n\n[THIS. OTT_CENTRALISE_complete_check] Alle folgenden Bedingungen müssen erfüllt sein:\n   [THIS. OTT_CENTRALISE_pp_check] Mehr Politische Macht als §Y10§!\n   [THIS. OTT_CENTRALISE_party_check] Eine der folgenden Bedingungen muss erfüllt sein:\n           Derzeitig regierende Partei ist §YPaternale Autokraten§!\n           Derzeitig regierende Partei ist §YAutoritäre Demokratie§!\n           Derzeitig regierende Partei ist zentralistische §YMarktliberale§!\n   [THIS. OTT_CENTRALISE_integration_factor_total_check] Eine der folgenden Bedingungen muss erfüllt sein:\n      [THIS. OTT_CENTRALISE_integration_factor1_check] Alle folgenden Bedingungen müssen erfüllt sein:\n              Ist §CAutonome Region§!\n              [THIS. OTT_CENTRALISE_vilayet_category] > §G50%§!\n      [THIS. OTT_CENTRALISE_integration_factor2_check] Alle folgenden Bedingungen müssen erfüllt sein:\n              Ist §CVilayet§!\n              [THIS. OTT_CENTRALISE_vilayet_category] = §G100%§!\n\n§YEffekt§!:\nPolitische Macht: §R-10§!\n§Y[THIS.GetName]§!: £resistance_texticon §YRevoltenrisiko§! wird §Rsteigen§!\n§Y[THIS.GetName]§!: £national_unity_texticon §YOsmanische Staatsautorität§! wird §Gsteigen§!"
- OTT_Decentralise_tt: "§YDezentralisiert die Staatsautorität§!"
- OTT_Decentralise_tt_desc: "Um den Bedürfnissen der lokalen Bevölkerung besser nachzukommen und den einzigartigen kulturellen Charakter unseres Reiches zu bewahren, muss einige Macht von der zentralen Regierung in Kostantiniyye an die örtlichen Behörden übertragen werden. Dies wird es zwar schwieriger gestalten, unsere Politik im gesamten Reich durchzusetzen und auf lokale Bedrohungen für unseren Staat zu reagieren, würde jedoch auch die Bevölkerung dieser Provinz glücklich stimmen und einigen Druck von unseren instabileren Regionen nehmen.\n\n§YEffekt§!:\n§Y[THIS.GetName]§!: £resistance_texticon §YRevoltenrisiko§! wird §Gsinken§!\n§Y[THIS.GetName]§! £national_unity_texticon §YOsmanische Staatsautorität§! wird §Rsinken§!"
 
  OTT_Centralisation: "Die Staatsautorität, welche die zentrale Regierung über das Reich hat, unterscheidet sich von Provinz zu Provinz aufgrund der Macht der lokalen Regierung oder der Entfernung zur Hauptstadt.\n\nDiese Staatsautorität wird von der £national_unity_texticon §YZentralisierungsleiste§! repräsentiert, welche in 3 Kategorien aufgeteilt ist: §CAutonome Regionen§!, §CVilayets§! und §COsmanische Provinzen§!.\n\nUm die £national_unity_texticon §YOsmanische Staatsautorität§! zu erhöhen, hat jede Unterregion des Reiches einige £decision_icon_small §YEntscheidungen§!, die zu einem gemeinsamen §YZentralisierungs§!-Wert beitragen. Sobald die §YZentralisierung§! §G50%§! erreicht, können alle Provinzen in dieser Region in den §CVilayet§!-Status erhoben werden. Sobald die §YZentralisierung§! §G100%§! erreicht, können alle Provinzen in dieser Region in den Status einer §COsmanischen Provinz§! erhoben werden."
 
@@ -3523,7 +3509,7 @@
  #Alexandria
  OTT_Population_447: ""
  OTT_Population_447_desc: ""
- #Mersa Matruh
+ #Libyan Plateau
  OTT_Population_452: ""
  OTT_Population_452_desc: ""
  #Aswan
@@ -3532,10 +3518,10 @@
  #Eastern Desert
  OTT_Population_457: ""
  OTT_Population_457_desc: ""
- #Southern Sudan
+ #Upper Nile
  OTT_Population_549: ""
  OTT_Population_549_desc: ""
- #Kassala-Sennar
+ #Khartoum
  OTT_Population_551: ""
  OTT_Population_551_desc: ""
  #Western Desert
@@ -3547,13 +3533,13 @@
  #Darfur Desert
  OTT_Population_862: ""
  OTT_Population_862_desc: ""
- #Highland Karabagh
+ #Karabagh
  OTT_Population_998: ""
  OTT_Population_998_desc: ""
  #Nubia
  OTT_Population_1007: ""
  OTT_Population_1007_desc: ""
- #Girga
+ #Asyut
  OTT_Population_1008: ""
  OTT_Population_1008_desc: ""
  #Darfur
@@ -3570,209 +3556,274 @@
  OTT_Population_752: "Hauptkultur: §YArabisch (Hadhramisch)§!\nHauptreligion: §YSunnitischer Islam§!"
  OTT_Population_752_desc: "§LHadhramaut ist eine nur spärlich bevölkerte und größtenteils isolierte Region, die sowohl von der Geschichte als auch von den meisten Eroberern vergessen wurde. Diese Isolation führte dazu, dass die hadhramische Sprache noch immer stark vom Süd-Semitischen beeinflusst wird, was im 19. Jahrhundert das Interesse britischer Entdecker weckte.\nGetrennt durch die Gebirge der Region leben die Hadhrami der Küste von der Landwirtschaft und die Hadhrami des Nordens von der Viehzucht, wobei sie ihre knappen Wasservorräte mit Bedacht nutzen. Außerdem lebt in der Region eine vergleichbar große Anzahl hadhramischer Juden, die sich aufgrund ihrer langen Isolation stark von den anderen jüdischen Gemeinden der Welt unterscheiden.§!"
 
- TUR_abdulmecid_osmanoglu_leader_desc: "§YGeboren:§! §L29. Mai 1868, im Dolmabahçe-Palst, Beşiktaş, Kostantiniyye, Osmanisches Reich§!\n§YHintergrund:§! §L Abdülmecid II ist der dritte Sohn des damaligen Sultans Abdulaziz geboren. In seiner Kindheit und Jugend genoss Abdülmecid Privatunterricht innerhalb der Mauern des Palastes und entwickelte ein Interesse an der Welt der Musik und der Kunst. Aufgrund alter osmanischer Traditionen durfte er den Palast jedoch nicht verlassen, bis er das 40. Lebensjahr erreichte. Dennoch war er glücklich und wurde über die Zeit immer zufriedener mit der Tatsache, dass er wohl nie ein Sultan sein wird.\n\nIm Jahre 1908, in dem auch die Jungtürkenrevolution stattfand, war Abdülmecid endlich alt genug, um den Palast zu verlassen. Er nutzte seine neuen Freiheiten, um seine Liebe für Kunst und Musik mit der Welt zu teilen. Er wurde zum Vorsitzenden der Osmanischen Künstlergesellschaft, stellte seine Gemälde in ganz Europa aus, traf einige der bekanntesten Musiker des Kontinents und lernte neue Instrumente.\n\nObwohl Abdülmecid den Künsten und der Musik wahrscheinlich gern sein ganzes Leben geopfert hätte, hatte die Welt größere Pläne für ihn. Am 4. Juli 1918 wurde sein Cousin Mehmed VI zum Sultan gekrönt, was Abdülmecid erneut zum Thronerben des Reiches machte. Als Mehmed 8 Jahre später starb, trat Abdülmecid in dessen Fußstapfen und wurde zum Sultan des Osmanischen Reiches und zum Kalifen des Islams gekrönt. Für viele Menschen wäre dies wohl ein wahrgewordener Traum gewesen, doch für Abdülmecid war es etwas, was er nie wirklich wollte. Seine Apathie war einer von vielen Gründen dafür, dass es den Großwesiren, die während seiner Regierungszeit ernannt wurden, gelang, den bereits stark zurückgegangenen Einfluss des Sultans noch weiter zu reduzieren und ihn in eine Zeremonialfigur zu verwandeln, die sich größtenteils aus der Politik zurückhält und deren größte Aufgabe es ist, das Reich im Ausland zu repräsentieren. Mittlerweile hat die politische Macht des Sultans ihr Allzeittief erreicht - und es scheint unwahrscheinlich, wenn nicht gar unmöglich, dass sich dies in nächster Zeit ändern wird.§!"
- TUR_osman_fuad_osmanoglu_leader_desc: "§YGeboren:§! §L25. Februar 1895, im Çırağan-Palast, Beşiktaş, Kostantiniyye, Osmanisches Reich§!\n§YHintergrund:§! §L Wie die anderen Enkelkinder von Sultan Murad V wurde auch Osman Fuad Efendi dazu gezwungen, seine Kindheit im Çırağan-Palast zu verbringen. Diese Einschränkung wurde jedoch aufgehoben, als sein Großvater 1904 verstarb. Deshalb war es Osman möglich, sich 1911 während der italienischen Invasion Tripolitaniens dem Freiwilligenkorps anzuschließen. Obwohl er damals nur 16 Jahre alt war, gelang es Osman bereits, seine Fähigkeiten als Offizier und als Soldat unter Beweis zu stellen. Während seiner Zeit in Libyen traf er auch Mustafa Kemal, der damals noch nur ein Captain war und bald zu einem guten Freund Osmans werden würde.\n\nNachdem er einige Erfahrung auf dem Schlachtfeld gesammelt hatte, besuchte Osman die osmanische Militärakademie. Als er diese abgeschlossen hatte, wurde er zusammen mit einigen seiner Cousins zur deutschen Militärakademie in Potsdam entsandt. Daraufhin trat er dem 13. Kürassierregiment bei, in welchen er den Rang eines Hauptmanns hielt. Zu Beginn des Weltkrieges wurde er ins Reich zurückbeordert, um bei dessen Verteidigung helfen zu können. Im Verlauf des Krieges kämpfte er an vielen verschiedenen Fronten, wobei sich seine bedeutendsten Schlachten in Gallipoli und Bengasi zutrugen. Für seinen Mut, seine Courage und seine Kompetenz in der Schlacht verlieh man ihm mehrere Orden, darunter auch der Gallipoli-Stern und die Liakat-Medaille. Außerdem ernannte man ihn zum Major-General - eine wahrhaftig außergewöhnliche Beförderung für einen 23-Jährigen.\n\nNach dem Ende des Krieges blieb Osman in Kostantiniyye und fokussierte sich auf seine Militärkarriere. Dabei wurde er im ganzen Reich für seine Fähigkeiten als Offizier und vor allem seine Fertigkeiten als Kavalleriekommandant bekannt. Diese erwiesen sich nach dem Überfall auf die Hohe Pforte als äußerst nützlich und ermöglichten Osman die Vernichtung der Rebellen und die Rückeroberung der Hauptstadt. Aufgrund seiner schnellen Reaktion sehen die Menschen in ihm nun einen effizienten und vertrauenswürdigen Anführer, der, falls nötig, auch zur Tat schreiten kann. Einige fürchten jedoch, dass es sich bei Osman lediglich um eine weitere Marionette der OHF handelt und dass er zu stark von seinem lieben Freund Kemal beeinflusst wird. Der Sultan wird der Nation zeigen müssen, ob er alleine herrschen kann, oder ob er lediglich ein Bauer in einem viel größeren Spiel ist.§!"
- TUR_ahmed_osmanoglu_leader_desc: "§YGeboren:§! §L5. Juli 1883, in Çırağan-Palast, Beşiktaş, Kostantiniyye, Osmanisches Reich§!\n§YHintergrund:§! §L Ahmed IV, ein frommer und pflichtbewusster Mann, hat den Thron des Osmanischen Reiches bestiegen, ein Reich, welches nun schon seit über 600 Jahren existiert. Ahmed Nihad ist der Enkel des Sultans Murad V und verbrachte seine gesamte Kindheit und sein frühes Erwachsenenalter in den Schatten des Çırağan-Palasts. Er ist ein brillanter Architekt und Tischler (er hat sogar seine eigene Villa entworfen) und außerdem ein Oberst der Infanterie der osmanischen Armee. Wie sein Vorgänger ist auch Ahmed Nihad ein Mann der Kultur; er ist ein talentierter Komponist und ein anerkannter Musiker und Maler. Nun wurde Ahmed Nihad jedoch zu Sultan Ahmed IV gekrönt. Die gesamte Nation befindet sich in einer kritischen Situation und Feinde lauern an jeder Ecke, sowohl innerhalb als auch außerhalb des Reiches, weshalb es einige Mühen kosten wird, dem erhabenen Staat seine Ordnung zurückzubringen.§!"
-
 ### Characters ###
  TUR_resad_fuad_baraner: "Reşad Fuat Bey"
  TUR_resad_fuad_baraner_surname: "Reşad Fuat Baraner"
+ TUR_resad_fuad_baraner_leader_desc: "§YGeboren:§! §L1902, in Selânik, Vilayet von Selânik, Osmanisches Reich§!"
 
  TUR_sefik_husnu_deymer: "Şefik Hüsnü Bey"
  TUR_sefik_husnu_deymer_surname: "Şefik Hüsnü Deymer"
+ TUR_sefik_husnu_deymer_leader_desc: "§YGeboren:§! §L18. April 1890, in Selânik, Vilayet von Selânik, Osmanisches Reich§!"
 
  TUR_hikmet_kivilcimli: "Hikmet Âli Bey"
  TUR_hikmet_kivilcimli_surname: "Hikmet Âli Kıvılcımlı"
+ TUR_hikmet_kivilcimli_leader_desc: "§YGeboren:§! §L1902, in Priştine, Vilayet des Kosovo, Osmanisches Reich§!"
 
  TUR_hasan_ali_yucel: "Hasan Âli Bey"
  TUR_hasan_ali_yucel_surname: "Hasan Âli Yücel"
+ TUR_hasan_ali_yucel_leader_desc: "§YGeboren:§! §L17. Dezember 1897, in Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_ali_fethi_okyar: "Ali Fethi Paşa"
  TUR_ali_fethi_okyar_surname: "Ali Fethi Okyar"
+ TUR_ali_fethi_okyar_leader_desc: "§YGeboren:§! §L29. April 1880, in Prilep, Vilayet von Manastir, Osmanisches Reich§!"
 
  TUR_adnan_menderes: "Adnan Bey"
  TUR_adnan_menderes_surname: "Adnan Menderes"
+ TUR_adnan_menderes_leader_desc: "§YGeboren:§! §L1899, in Çakırbeyli, Koçarlı, Vilayet von Aidin, Osmanisches Reich§!"
 
  TUR_yusuf_hikmet_bayur: "Yusuf Hikmet Bey"
  TUR_yusuf_hikmet_bayur_surname: "Yusuf Hikmet Bayur"
+ TUR_yusuf_hikmet_bayur_leader_desc: "§YGeboren:§! §L21. Januar 1891, in Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_ismet_resit: "İsmet Paşa"
  TUR_ismet_resit_surname: "İsmet Reşit"
+ TUR_ismet_resit_leader_desc: "§YGeboren:§! §L24. September 1884, in Smyrna, Vilayet von Aidin, Osmanisches Reich§!"
 
  TUR_fevzi_cakmak: "Mustafa Fevzi Paşa"
  TUR_fevzi_cakmak_surname: "Mustafa Fevzi Çakmak"
+ TUR_fevzi_cakmak_leader_desc: "§YGeboren:§! §L12. Januar 1876, in Cihangir, Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_mehmet_kazim_orbay: "Mehmet Kâzım Paşa"
  TUR_mehmet_kazim_orbay_surname: "Mehmet Kâzım Orbay"
+ TUR_mehmet_kazim_orbay_leader_desc: "§YGeboren:§! §L11. März 1886, in Smyrna, Vilayet von Aidin, Osmanisches Reich§!"
 
  TUR_mehmet_recep_peker: "Mehmet Recep Paşa"
  TUR_mehmet_recep_peker_surname: "Mehmet Recep Peker"
 
  TUR_abdulmecid_osmanoglu: "Abdülmecid II"
+ TUR_abdulmecid_osmanoglu_leader_desc: "§YGeboren:§! §L29. Mai 1868, im Dolmabahçe-Palast, Beşiktaş, Constantiniyye, Vilayet von Constantiniyye, Osmanisches Reich§!\n§YHintergrund:§! §LAbdülmecid II. wurde als dritter Sohn des damaligen Sultans Abdulaziz geboren. In seinen jungen Jahren genoss Abdülmecid eine private Ausbildung innerhalb der Palastmauern, wo er seine Interessen für Musik und Kunst entwickelte. Gemäß den osmanischen Traditionen durfte er den Palast jedoch erst im Alter von 40 Jahren verlassen. Dennoch war er glücklich und fand sich im Laufe der Zeit immer mehr mit der Tatsache ab, dass er wahrscheinlich nie Sultan werden würde.\n\n1908, dem Jahr, in dem die jungtürkische Revolution stattfand, war Abdülmecid endlich alt genug, um den Palast zu verlassen. Er nutzte seine neu gewonnenen Freiheiten, um seine Liebe zur Kunst und Musik mit der Welt zu teilen. Er wurde Vorsitzender der Osmanischen Künstlergesellschaft, stellte seine Gemälde in ganz Europa aus, traf sich mit einigen der prominentesten Musiker des Kontinents und lernte neue Instrumente zu spielen.\n\nAuch wenn Abdülmecid wahrscheinlich sein ganzes Leben der Musik und der Kunst hätte widmen wollen, hatte die Welt größere Pläne mit ihm. Am 4. Juli 1918 wurde sein Cousin Mehmed VI. zum Sultan gekrönt, wodurch Abdülmecid erneut zum Thronanwärter wurde. Nachdem Mehmed 8 Jahre später gestorben war, folgte Abdülmecid auf den Thron und wurde zum Sultan des Osmanischen Reiches und zum Kalifen des gesamten Islam gekrönt. Für die meisten Menschen wäre damit ein Traum in Erfüllung gegangen - aber für Abdülmecid war es etwas, das er nie wirklich gewollt hatte. Seine Apathie war einer der vielen Gründe dafür, dass es den während seiner Regierungszeit ernannten Großwesiren gelang, den ohnehin schon geringen Einfluss des Sultans noch weiter zu schmälern und ihn zu einer beliebten Figur zu machen, die sich weitgehend aus der Politik heraushält und deren Hauptaufgabe es ist, das Reich im Ausland zu vertreten. Mittlerweile ist die politische Macht des Sultans auf einem historischen Tiefpunkt angelangt, und es scheint unwahrscheinlich, wenn nicht gar unmöglich, dass sich dies in naher Zukunft ändern wird.§!"
+
  TUR_ahmed_osmanoglu: "Ahmed IV"
+ TUR_ahmed_osmanoglu_leader_desc: "§YGeboren:§! §L5. Juli 1883, im Çırağan-Palast, Beşiktaş, Constantiniyye, Vilayet von Constantiniyye, Osmanisches Reich§!\n§YHintergrund:§! §LAhmed IV., ein frommer und pflichtbewusster Mann, hat den Thron des Osmanischen Reiches bestiegen, eines Reiches, das seit mehr als sechshundert Jahren besteht. Der Enkel von Sultan Murad V., Ahmed Nihad, verbrachte seine gesamte Kindheit und sein frühes Erwachsensein im Schatten des Çırağan-Palastes. Ahmed Nihad ist ein brillanter Architekt und Zimmermann, der sogar sein eigenes Haus entworfen hat, und er ist auch Oberst der Infanterie in der osmanischen Armee. Wie sein Vorgänger ist auch Ahmed Nihad ein Mann der Kultur: Er ist ein begabter Komponist, Musiker und Maler. Allerdings ist Ahmed Nihad jetzt als Sultan Ahmed IV. gekrönt worden. Das Land befindet sich in einer kritischen Lage, da es an allen Ecken und Enden Feinde von außen und innen gibt, und es wird viel Mühe kosten, die Ordnung in dem glorreichen Reich wiederherzustellen.§!"
 
  TUR_osman_fuad_osmanoglu: "Osman Fuad Efendi"
  TUR_osman_fuad_osmanoglu_regnal: "Osman IV"
+ TUR_osman_fuad_osmanoglu_leader_desc: "§YGeboren:§! §L25. Februar 1895, im Çırağan-Palast, Beşiktaş, Konstantinopel, Vilayet von Konstantinopel, Osmanisches Reich§!\n§YHintergrund:§! §LWie die anderen Enkel von Sultan Murad V. war auch Osman Fuad Efendi gezwungen, sein frühes Leben im Çırağan-Palast zu verbringen. Diese Einschränkung wurde jedoch nach dem Tod seines Großvaters im Jahr 1904 aufgehoben. Daher konnte Osman während der italienischen Invasion Tripolitaniens im Jahr 1911 der Freiwilligenoffizierstruppe beitreten. Obwohl er zu diesem Zeitpunkt erst 16 Jahre alt war, konnte Osman bereits seine Qualitäten als Offizier und Soldat unter Beweis stellen. Während seiner Zeit in Libyen lernte er Mustafa Kemal kennen, der damals noch Hauptmann war und bald ein guter Freund von Osman werden sollte.\n\nNachdem er seine ersten Erfahrungen auf dem Schlachtfeld gesammelt hatte, besuchte Osman die Osmanische Militärakademie. Nach seinem Abschluss wurden er und einige seiner Cousins auf die deutsche Militärakademie in Potsdam geschickt. Anschließend trat er in die deutsche kaiserliche Husarengarde ein, wo er den Rang eines Hauptmanns bekleidete. Bei Ausbruch des Weltkriegs wurde er ins Reich zurückgerufen, um bei der Verteidigung des Reichs zu helfen. Im Laufe des Krieges kämpfte er an vielen verschiedenen Fronten, aber seine bedeutendsten Schlachten fanden in Gallipoli und Benghazi statt. Für seine Tapferkeit, seinen Mut und sein Können im Kampf wurde er mit zahlreichen militärischen Auszeichnungen geehrt, darunter der Gallipoli-Stern und die Liakat-Kriegsmedaille. Außerdem wurde er zum Generalmajor befördert, was für einen 23-Jährigen wirklich erstaunlich ist.\n\nNach dem Ende des Krieges blieb Osman in Kostantiniyye und konzentrierte sich auf seine militärische Karriere. Er wurde im ganzen Reich für seine Fähigkeiten als Offizier und insbesondere für seine Fähigkeiten als Kavalleriekommandeur bekannt. Diese Fähigkeiten kamen ihm nach dem Palastüberfall zugute, bei dem es ihm gelang, die Rebellen niederzuschlagen und die Kontrolle über die Hauptstadt wiederzuerlangen. Aufgrund seiner schnellen Reaktion gilt er in der Bevölkerung als effizienter und vertrauenswürdiger Anführer, der im Bedarfsfall handeln kann. Einige befürchten jedoch, dass Osman nur eine weitere Marionette der OHF ist und stark von seinem guten Freund Kemal beeinflusst wird. Der Sultan wird seinem Volk zeigen müssen, ob er allein regieren kann oder ob er nur ein weiterer Spielball in einem viel größeren Spiel ist.§!"
+ TUR_osman_fuad_osmanoglu_high_command_desc: "§YGeboren:§! §L25. Februar 1895, im Çırağan-Palast, Beşiktaş, Konstantinopel, Vilayet von Konstantinopel, Osmanisches Reich§!"
 
  TUR_omer_faruk_osmanoglu: "Ömer Faruk Efendi"
  TUR_omer_faruk_osmanoglu_regnal: "Ömer I"
+ TUR_omer_faruk_osmanoglu_commander_desc: "§YGeboren:§! §L27. Januar 1898, im Ortaköy-Palast, Beşiktaş, Constantiniyye, Vilayet von Constantiniyye, Osmanisches Reich§!"
 
  TUR_mustafa_kemal: "Mustafa Kemal Paşa"
  TUR_mustafa_kemal_surname: "Mustafa Kemal Öncü"
+ TUR_mustafa_kemal_sic_desc: "§YGeboren:§! §L1881, in Saloniki, Vilayet von Saloniki, Osmanisches Reich§!"
 
  TUR_sultanzade_mehmed_sabahaddin: "Sabahattin Efendi"
  TUR_sultanzade_mehmed_sabahaddin_surname: "Mehmed Sabâhaddin"
+ TUR_sultanzade_mehmed_sabahaddin_sic_desc: "§YGeboren:§! §L13. Februar 1879, in Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_musa_kazim_karabekir: "Kâzım Karabekir Paşa"
  TUR_musa_kazim_karabekir_surname: "Musa Kâzım Karabekir"
+ TUR_musa_kazim_karabekir_sic_desc: "§YGeboren:§! §L23. Juli 1882, in Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_mahmud_celaleddin_bayar: "Mahmud Celâleddin Paşa"
  TUR_mahmud_celaleddin_bayar_surname: "Mahmud Celâleddin Bayar"
+ TUR_mahmud_celaleddin_bayar_sic_desc: "§YGeboren:§! §L16. Mai 1883, in Umurbey, Gemlik, Vilayet von Hüdavendigâr, Osmanisches Reich§!"
 
  TUR_shakib_arslan: "Shakib Arslan"
+ TUR_shakib_arslan_sic_desc: "§YGeboren:§! §L25. Dezember 1869, in Choueifat, Berg-Libanon-Mutasarrifat, Osmanisches Reich§!"
 
  TUR_no_grand_vizier: "Kein Großwesir"
+ TUR_no_grand_vizier_sic_desc: "§YHintergrund:§! §LDer Großwesir wurde vom Sultan formell entlassen, und das Amt bleibt bis zur Ernennung eines Nachfolgers unbesetzt.§!"
 
  TUR_mehmet_nuri_conker: "Mehmet Nuri Paşa"
  TUR_mehmet_nuri_conker_surname: "Mehmet Nuri Conker"
+ TUR_mehmet_nuri_conker_advisor_desc: "§YGeboren:§! §L20. September 1882, in Selânik, Vilayet von Selânik, Osmanisches Reich§!"
 
  TUR_falih_rifki_atay: "Falih Rıfkı Bey"
  TUR_falih_rifki_atay_surname: "Falih Rıfkı Atay"
+ TUR_falih_rifki_atay_advisor_desc: "§YGeboren:§! §Lin Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_mahmut_esat_bozkurt: "Mahmut Esat Bey"
  TUR_mahmut_esat_bozkurt_surname: "Mahmut Esat Bozkurt"
+ TUR_mahmut_esat_bozkurt_advisor_desc: "§YGeboren:§! §L1892, in Kusadasi, Vilayet von Aidin, Osmanisches Reich§!"
 
  TUR_ali_kemal_kuneralp: "Ali Kemal Bey"
  TUR_ali_kemal_kuneralp_surname: "Ali Kemal Kuneralp"
+ TUR_ali_kemal_kuneralp_advisor_desc: "§YGeboren:§! §L7. September 1869, in Süleymaniye, Konstantinopel, Vilayet von Konstantinopel, Osmanisches Reich§!"
 
  TUR_mehmet_cavit_yalcin: "Mehmet Cavit Bey"
  TUR_mehmet_cavit_yalcin_surname: "Mehmet Cavit Yalçın"
+ TUR_mehmet_cavit_yalcin_advisor_desc: "§YGeboren:§! §L7. Dezember 1875, in Selânik, Vilayet von Selânik, Osmanisches Reich§!"
 
  TUR_mustafa_vasif_karakol: "Kara Vâsıf Bey"
  TUR_mustafa_vasif_karakol_surname: "Mustafa Vasıf Karakol"
+ TUR_mustafa_vasif_karakol_advisor_desc: "§YGeboren:§! §L1880, in Asir, Vilayet von Jemen, Osmanisches Reich§!"
 
  TUR_yusuf_kemal_tengirsenk: "Yusuf Kemal Bey"
  TUR_yusuf_kemal_tengirsenk_surname: "Yusuf Kemal Tengirşenk"
+ TUR_yusuf_kemal_tengirsenk_advisor_desc: "§YGeboren:§! §L17. Juli 1880, in Boyabat, Vilayet von Kastamonu, Osmanisches Reich§!"
 
  TUR_yakup_kadri_karaosmanoglu: "Yakup Kadri Bey"
  TUR_yakup_kadri_karaosmanoglu_surname: "Yakup Kadri Karaosmanoğlu"
+ TUR_yakup_kadri_karaosmanoglu_advisor_desc: "§YGeboren:§! §L27. März 1889, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
 
  TUR_ismail_hakki_canbulat: "İsmail Hakkı Bey"
  TUR_ismail_hakki_canbulat_surname: "İsmail Hakkı Canbulat"
+ TUR_ismail_hakki_canbulat_advisor_desc: "§YGeboren:§! §L10. November 1880, in Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_ahmet_naci_tinaz: "Ahmet Naci Paşa"
  TUR_ahmet_naci_tinaz_surname: "Ahmet Naci Tınaz"
+ TUR_ahmet_naci_tinaz_advisor_desc: "§YGeboren:§! §L1882, in Serfiçe, Vilayet von Manastir, Osmanisches Reich§!"
 
  TUR_halide_edip_adivar: "Halide Edib"
  TUR_halide_edip_adivar_surname: "Halide Edib Adıvar"
+ TUR_halide_edip_adivar_advisor_desc: "§YGeboren:§! §L11. Juni 1884, in Beşiktaş, Konstantinopel, Vilayet von Konstantinopel, Osmanisches Reich§!"
 
  TUR_riza_nur: "Rıza Nur Paşa"
  TUR_riza_nur_surname: "Rıza Nur"
+ TUR_riza_nur_advisor_desc: "§YGeboren:§! §L30. August 1879, in Sinop, Vilayet von Kastamonu, Osmanisches Reich§!"
 
  TUR_mehmed_sukru_saracoglu: "Mehmet Şükrü Paşa"
  TUR_mehmed_sukru_saracoglu_surname: "Mehmet Şükrü Saracoğlu"
+ TUR_mehmed_sukru_saracoglu_advisor_desc: "§YGeboren:§! §L17. Juni 1887, in Ödemiş, Vilayet von Aidin, Osmanisches Reich§!"
 
  TUR_resat_muhlis_erkmen: "Reşat Muhlis Bey"
  TUR_resat_muhlis_erkmen_surname: "Reşat Muhlis Erkmen"
+ TUR_resat_muhlis_erkmen_advisor_desc: "§YGeboren:§! §L1891, in Bursa, Vilayet von Hüdavendigâr, Osmanisches Reich§!"
 
  TUR_suleiman_sirri_aral: "Süleyman Sırrı Bey"
  TUR_suleiman_sirri_aral_surname: "Suleiman Sirri Aral"
+ TUR_suleiman_sirri_aral_advisor_desc: "§YGeboren:§! §L1874, in Saloniki, Vilayet von Saloniki, Osmanisches Reich§!"
 
  TUR_yunus_nadi_abalioglu: "Yunus Nadi Bey"
  TUR_yunus_nadi_abalioglu_surname: "Yunus Nadi Abalıoğlu"
+ TUR_yunus_nadi_abalioglu_advisor_desc: "§YGeboren:§! §L1. Juli 1879, in Seydiler, Vilayet von Aidin, Osmanisches Reich§!"
 
  TUR_husnu_bingol: "Hüsnü Paşa"
  TUR_husnu_bingol_surname: "Hüsnü Bingöl"
+ TUR_husnu_bingol_advisor_desc: "§YGeboren:§! §Lim Osmanischen Reich§!"
 
  TUR_cemal_mersinli: "Küçük Cemal Paşa"
  TUR_cemal_mersinli_surname: "Küçük Cemal Mersinli"
+ TUR_cemal_mersinli_theorist_desc: "§YGeboren:§! §L1875, in Mersin, Vilayet von Adana, Osmanisches Reich§!"
 
  TUR_izzetin_calislar: "İzzettin Paşa"
  TUR_izzetin_calislar_surname: "İzzettin Çalışlar"
+ TUR_izzetin_calislar_theorist_desc: "§YGeboren:§! §L1882, in Yanya, Vilayet von Yanya, Osmanisches Reich§!"
 
  TUR_vecihi_hurkus: "Vecihi Paşa"
  TUR_vecihi_hurkus_surname: "Vecihi Hürkuş"
+ TUR_vecihi_hurkus_theorist_desc: "§YGeboren:§! §L6. Januar 1896, in Arnavutköy, Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_omer_fahrettin_turkkan: "Ömer Fahrettin Paşa"
  TUR_omer_fahrettin_turkkan_surname: "Ömer Fahrettin Türkkan"
+ TUR_omer_fahrettin_turkkan_high_command_desc: "§YGeboren:§! §L4. Februar 1868, in Rusçuk, Donau Vilayet, Osmanisches Reich§!"
 
  TUR_nuri_yamut: "Mehmet Nuri Paşa"
  TUR_nuri_yamut_surname: "Mehmet Nuri Yamut"
+ TUR_nuri_yamut_commander_desc: "§YGeboren:§! §L1890, in Saloniki, Vilayet von Saloniki, Osmanisches Reich§!"
 
  TUR_hayrullah_fisek: "Hayrullah Paşa"
  TUR_hayrullah_fisek_surname: "Hayrullah Fişek"
+ TUR_hayrullah_fisek_commander_desc: "§YGeboren:§! §L3. Juni 1885, in Kalkandelen, Vilayet des Kosovo, Osmanisches Reich§!"
 
  TUR_abdurrahman_nafiz_gurman: "Abdurrahman Nafiz Paşa"
  TUR_abdurrahman_nafiz_gurman_surname: "Abdurrahman Nafiz Gürman"
+ TUR_abdurrahman_nafiz_gurman_commander_desc: "§YGeboren:§! §L1882, in Bodrum, Vilayet von Aidin, Osmanisches Reich§!"
 
  TUR_mustafa_muglali: "Mustafa Muğlalı Paşa"
- TUR_mustafa_muglali_surname: "Mustafa Muğlalı"
+ TUR_mustafa_muglali_surname: "Mustafa Muğlal"
+ TUR_mustafa_muglali_commander_desc: "§YGeboren:§! §L1882, in Muğla, Vilayet von Aidin, Osmanisches Reich§!"
 
  TUR_cemil_cahit_toydemir: "Cemil Cahit Paşa"
  TUR_cemil_cahit_toydemir_surname: "Cemil Cahit Toydemir"
+ TUR_cemil_cahit_toydemir_commander_desc: "§YGeboren:§! §L1883, in Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_asim_gunduz: "Asım Paşa"
  TUR_asim_gunduz_surname: "Asım Gündüz"
+ TUR_asim_gunduz_high_command_desc: "§YGeboren:§! §L1880, in Kütahya, Vilayet von Hüdavendigâr, Osmanisches Reich§!"
 
  TUR_mehmet_hayri_tarhan: "Mehmet Hayri Paşa"
  TUR_mehmet_hayri_tarhan_surname: "Mehmet Hayri Tarhan"
+ TUR_mehmet_hayri_tarhan_commander_desc: "§YGeboren:§! §L29. Februar 1880, in Tırnovacık, Vilayet von Edirne, Osmanisches Reich§!"
 
  TUR_nihat_anilmis: "Nihat Paşa"
  TUR_nihat_anilmis_surname: "Nihat Anılmış"
+ TUR_nihat_anilmis_commander_desc: "§YGeboren:§! §L1876, in Filibe, Donau Vilayet, Osmanisches Reich§!"
 
  TUR_fahrettin_altay: "Fahrettin Paşa"
  TUR_fahrettin_altay_surname: "Fahrettin Mutlu"
+ TUR_fahrettin_altay_sic_desc: "§YGeboren:§! §L12. Januar 1880, in İşkodra, Skutari Vilayet, Osmanisches Reich§!"
 
  TUR_tahsin_yazici: "Tahsin Paşa"
  TUR_tahsin_yazici_surname: "Tahsin Yazıcı"
-
- TUR_mehmet_ali_ulgen: "Mehmet Ali Paşa"
- TUR_mehmet_ali_ulgen_surname: "Mehmet Ali Ülgen"
-
- TUR_sukru_okan: "Şükrü Paşa"
- TUR_sukru_okan_surname: "Şükrü Okan"
-
- TUR_huseyin_rauf_orbay: "Hüseyin Rauf Paşa"
- TUR_huseyin_rauf_orbay_surname: "Hüseyin Rauf Orbay"
-
+ TUR_tahsin_yazici_commander_desc: "§YGeboren:§! §L1892, in Manastir, Vilayet von Manastir, Osmanisches Reich§!"
+ 
  TUR_huseyin_husnu_erkilet: "Hüseyin Hüsnü Paşa"
  TUR_huseyin_husnu_erkilet_surname: "Hüseyin Hüsnü Erkilet"
+ TUR_huseyin_husnu_erkilet_army_chief_desc: "§YGeboren:§! §L12. März 1883, in Gazze, Mutasarrifat von Jerusalem, Osmanisches Reich§!"
 
  TUR_sefik_aker: "Mehmet Şefik Paşa"
  TUR_sefik_aker_surname: "Mehmet Şefik Aker"
+ TUR_sefik_aker_commander_desc: "§YGeboren:§! §L1. August 1878, in Kesriye, Vilayet von Manastir, Osmanisches Reich§!"
 
  TUR_selahattin_adil: "Selâhattin Paşa"
  TUR_selahattin_adil_surname: "Selâhattin Âdil"
+ TUR_selahattin_adil_high_command_desc: "§YGeboren:§! §L19. Januar 1882, in Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
+
+ TUR_mehmet_ali_ulgen: "Mehmet Ali Paşa"
+ TUR_mehmet_ali_ulgen_surname: "Mehmet Ali Ülgen"
+ TUR_mehmet_ali_ulgen_navy_chief_desc: "§YGeboren:§! §L1887, in Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
+
+ TUR_sukru_okan: "Şükrü Paşa"
+ TUR_sukru_okan_surname: "Şükrü Okan"
+ TUR_sukru_okan_admiral_desc: "§YGeboren:§! §L1880, in Tirebolu, Vilayet von Trebizond, Osmanisches Reich§!"
+
+ TUR_huseyin_rauf_orbay: "Hüseyin Rauf Paşa"
+ TUR_huseyin_rauf_orbay_surname: "Hüseyin Rauf Orbay"
+ TUR_huseyin_rauf_orbay_theorist_desc: "§YGeboren:§! §L27. Juli 1881, in Cibali, Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_mahmud_muhtar_katircioglu: "Mahmud Muhtar Paşa"
  TUR_mahmud_muhtar_katircioglu_surname: "Mahmud Muhtar Katırcıoğlu"
+ TUR_mahmud_muhtar_katircioglu_navy_chief_desc: "§YGeboren:§! §L1867, in Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_refet_bele: "Refet Paşa"
  TUR_refet_bele_surname: "Refet Bele"
+ TUR_refet_bele_army_chief_desc: "§YGeboren:§! §L1881, in Saloniki, Vilayet von Saloniki, Osmanisches Reich§!"
 
  TUR_mehmet_rustu_sakarya: "Mehmet Rüştü Paşa"
  TUR_mehmet_rustu_sakarya_surname: "Mehmet Rüştü Sakarya"
+ TUR_mehmet_rustu_sakarya_army_chief_desc: "§YGeboren:§! §L1877, in Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_mehmet_sadik_altincan: "Mehmet Sadık Paşa"
  TUR_mehmet_sadik_altincan_surname: "Mehmet Sadık Altıncan"
+ TUR_mehmet_sadik_altincan_navy_chief_desc: "§YGeboren:§! §L1898, in Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_muzaffer_goksenin: "Muzaffer Paşa"
  TUR_muzaffer_goksenin_surname: "Muzaffer Göksenin"
+ TUR_muzaffer_goksenin_air_chief_desc: "§YGeboren:§! §L1899, in Manastir, Vilayet von Manastir, Osmanisches Reich§!"
 
  TUR_fevzi_ucaner: "Fevzi Uçaner Paşa"
  TUR_fevzi_ucaner_surname: "Fevzi Uçaner"
+ TUR_fevzi_ucaner_air_chief_desc: "§YGeboren:§! §L1900, in Erzincan, Vilayet von Erzurum, Osmanisches Reich§!"
 
  TUR_cemil_conk: "Cemil Paşa"
  TUR_cemil_conk_surname: "Cemil Conk"
+ TUR_cemil_conk_high_command_desc: "§YGeboren:§! §L1873, in Üsküdar, Konstantinopel, Vilayet von Konstantinopel, Osmanisches Reich§!"
 
  TUR_ali_fuat_cebesoy: "Ali Fuat Paşa"
  TUR_ali_fuat_cebesoy_surname: "Ali Fuat Cebesoy"
+ TUR_ali_fuat_cebesoy_high_command_desc: "§YGeboren:§! §L23. September 1882, in Üsküdar, Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_mehmet_fahri_engin: "Mehmet Fahri Paşa"
  TUR_mehmet_fahri_engin_surname: "Mehmet Fahri Engin"
+ TUR_mehmet_fahri_engin_high_command_desc: "§YGeboren:§! §L1888, in Konstantiniyye, Vilayet von Konstantiniyye, Osmanisches Reich§!"
 
  TUR_zeki_baraz_kolac_kilicoglu: "Mehmet Zeki Paşa"
  TUR_zeki_baraz_kolac_kilicoglu_surname: "Zeki Baraz Kolaç Kılıçoğlu"
+ TUR_zeki_baraz_kolac_kilicoglu_high_command_desc: "§YGeboren:§! §L1862, in Aleppo, Aleppo Eyalet, Osmanisches Reich§!"
 
  TUR_elyesa_bazna: "Elyesa Bazna"
 

@@ -11,19 +11,6 @@
  PAP_rome_ADJ: "Römisch"
  PAP_rome_DEF: "Rom"
 
-### Companies ###
- accademia_militare_roma: "Accademia Militare di Lazio"
- scrm: "Società Romana Costruzioni Meccaniche"
- maserati: "Maserati"
- giannini: "Giannini"
- ducati: "Ducati"
- saiman: "SAIMAN"
- accademia_navale_vecchia: "Accademia Navale di Civittavecchia"
- accademia_aeronautica_guidonia: "Accademia Aeronautica di Guidonia"
- bombrini_parodi_delfino: "Bombrini Parodi Delfino"
- universita_la_sapienza: "Università La Sapienza"
- acraf_roma: "A.C.R.A.F"
-
 ### Ideas ###
  PAP_holy_see: "Der Heilige Stuhl"
  PAP_holy_see_desc: "[PAP.GetNameDefCap] ist der Sitz der Macht der katholischen Kirche und des Papstes, des Bischofs von Rom und von Amts wegen Oberhaupt der Kirche. Mit mehr als 300 Millionen Gläubigen in der ganzen Welt haben die Handlungen und Worte des Papstes ein einzigartiges Gewicht, das nirgendwo sonst auf der Welt zu finden ist."
@@ -60,13 +47,9 @@
  PAP_resistance: "Syndikalistische Guerillakampagne"
 
 ### Tooltips ###
- PAP_conclave_choice: "Dieser Schwerpunktpfad wird freigeschaltet, sobald das päpstliche Konklave einen neuen Papst gewählt hat.\n"
- PAP_relinquished_temporal_power: "Der Papst hat seine weltliche Macht aufgegeben\n"
- PAP_reinforced_temporal_power: "Der Papst hat seine weltliche Macht gestärkt\n"
- PAP_syndicalist_resistance: "Der Kampf gegen den syndikalistischen Widerstand"
+ PAP_conclave_choice: "§GDieser Schwerpunktpfad wird freigeschaltet, sobald das päpstliche Konklave einen neuen Papst gewählt hat.§!"
  PAP_warning_puppet: "§RWarnung!§! Wenn [SIC.GetNameDef] zustimmt, werden wir zu ihrer Marionette!"
  PAP_warning_annex: "§RWarnung!§! Wenn [SIC.GetNameDef] zustimmt, werden wir annektiert und spielen stattdessen als sie!"
- PAP_permission_denied: "Die Genehmigung zur Finanzierung der NeoSanfedisti wurde verweigert"
 
 ### Decisions ###
  PAP_attack_sri: "Kreuzzug gegen Syndikalismus ausrufen"
@@ -87,7 +70,7 @@
 ### Focuses ###
  PAP_conclave: "Päpstliches Konklave einberufen"
  PAP_conclave_desc: "Nach dem Tod von Pius XI. müssen die Kardinäle ein Konklave einberufen, um einen Nachfolger zu wählen - einen Papst, der unseren Weg für die kommenden Jahre bestimmen wird."
-  PAP_stephen_x_focus: "Papst Stephan X."
+ PAP_stephen_x_focus: "Papst Stephan X."
  PAP_stephen_x_focus_desc: "Elia dalla Costa ist ein Mann, der beim Volk wegen seiner wohltätigen Gesinnung sehr beliebt ist. Er ist jedoch kein Mann, der sich übermäßig für Politik interessiert, und seine Wahl wird höchstwahrscheinlich dazu führen, dass das Papsttum der Herrschaft des Volkes Platz macht."
  PAP_help_poor: "Hilfe für Bedürftige"
  PAP_help_poor_desc: "Die Armen in unserem Land müssen ernährt werden, so wie unser Herr es uns befiehlt. Das neue System der Wohltätigkeit wird die Spenden der Bevölkerung nutzen und es der Regierung ermöglichen, ihre Mittel anderweitig zu investieren."
@@ -300,6 +283,7 @@
  PAP_KR_gathering_storm_desc: "Mit der Bildung des vereinigten Italiens schien die Zeit der weltlichen Macht des Kirchenstaates der Vergangenheit anzugehören. Dann kam der Zusammenbruch des Königreichs und der darauf folgende Bürgerkrieg, und die Mittelitaliener wandten sich erneut an das Papsttum und seine sizilianischen Verbündeten, um die Stabilität zu erhalten. Jetzt ist Papst Pius XI. krank und beklagt auf seinem Sterbebett ein Italien, das gespalten bleibt, während die Syndikalisten im Norden immer stärker werden. Wer auch immer sein Nachfolger sein wird, er wird Gott an seiner Seite brauchen, um sich durchzusetzen."
 
 ### Intro Screen ###
+ PAP_country_intro_background: "GFX_PAP_intro"
  PAP_country_intro_header: "Der Zustand des Kirchenstaates"
  PAP_country_intro_content: "Nach dem Zusammenbruch Italiens nach dem Weltkrieg drohte Rom von den republikanischen Rebellen gegen das alte Königreich eingenommen zu werden. Die verschwommenen Kampflinien des Bürgerkriegs verschonten Rom größtenteils durch den Schutz der südlichen royalistischen Kräfte, die zusammen mit lokalen rechten Milizen Aufstände in Rom niederschlugen. Der Papst verließ bald den Vatikan, um die Verwaltung seines gottgewollten Reiches wieder aufzunehmen, doch der geschwächte Staat verfügte über keine ihm treu ergebenen Streitkräfte und hatte kaum eine Chance, einer Offensive der Syndikalisten zu widerstehen. Die weißen Generäle im Süden wollten jedoch nicht tatenlos zusehen, wie das Zentrum des Katholizismus dem Syndikalismus zum Opfer fiel, und führten eine Gegenoffensive an, um Rom zu sichern. Sie stellten den Kirchenstaat unter den Schutz der Royalisten, später der Sizilianer, und erhielten Unterstützung von ausländischen Freiwilligen in Rom, dem wiedergeborenen Zouave-Korps.\n\nNach dem Ende des Krieges trat der Kirchenstaat zusammen mit seinen Schutzherren in Neapel der Italienischen Föderation bei, kontrollierte aber nur einen kleinen Teil des nominellen Territoriums und war und ist in den meisten Belangen ein Rumpfstaat, eine Marionette der Sizilianer. Nachdem er 1926 zusammen mit Sardinien und den Beiden Sizilien seine Unabhängigkeit erklärt hatte, wurde er von den meisten Staaten der Welt als unabhängiger Staat anerkannt, auch wenn er in seinen diplomatischen Möglichkeiten stark eingeschränkt ist.\n\nIn der Kurienpolitik ist die schwindende Gesundheit von Pius in aller Munde, und es bleibt abzuwarten, wer seine Nachfolge antreten wird, sollte er in den kommenden Jahren sterben."
 
@@ -330,8 +314,6 @@
  papalstate.6.t: "Die Pontinischen Sümpfe werden gerodet"
  papalstate.6.d: "Die Gebiete, die früher als Pontinische Sümpfe bekannt waren, sind nun gerodet, und überall entstehen Fabriken und Farmen, die unsere Nation wirtschaftlich weiter stärken."
  papalstate.6.a: "Eine monumentale Leistung!"
-
- papalstate.7.t: "Pius XI. stirbt"
 
  papalstate.8.t: "Der Nachfolger von St. Peter"
  papalstate.8.d: "Der Heilige Stuhl ist endlich zusammengekommen, um über die Wahl eines neuen Papstes nach dem Tod von Pius XI. zu beraten. Am Ende entscheiden sie sich für..."
@@ -484,31 +466,19 @@
  papalstate.58.d: "Ohne Versprechungen oder Forderungen zu stellen, hat [From.GetNameDef] uns aus ihrem Schutz entlassen. Es war, so erinnert uns König [From.GetLeader], immer ein freiwilliger Zusammenschluss zum gegenseitigen Schutz gegen die Syndikalisten."
  papalstate.58.a: "Gut"
 
- papalstate.60.t: "Das päpstliche Ersuchen"
- papalstate.60.d: "Papst [PAP.GetLeader] hat heute [Root.GetNameDef] besucht und eine dringende Bitte an die Regierung von [Root.GetAdjective] gerichtet: Angesichts der Unterdrückung der Katholiken in [SRI.GetNameDef] hat er beschlossen, eine Widerstandsbewegung zu finanzieren. Dies würde dazu dienen, die Syndikalisten zu schwächen, und dem Kirchenstaat die Möglichkeit geben, Partisanenkräfte hinter seinen Linien aufzustellen, sobald der unvermeidliche Krieg beginnt. Wenn die [SRI.GetAdjective]-Regierung jedoch die Beteiligung von [PAP.GetNameDef] entdeckt, könnte dies eine Invasion bedeuten... und da [Root.GetNameDef] als Beschützer des Papstes auftritt, hat er beschlossen, um Erlaubnis zu bitten. Es ist klar, dass der Papst trotz der Bitte glaubt, dass eine Einigung das ist, was jede gute katholische Nation tun würde."
- papalstate.60.a: "Tun Sie es, mit unserem Segen"
- papalstate.60.b: "Tun Sie es, mit unserem Segen"
-
- papalstate.61.t: "From.GetNameDefCap] hat zugestimmt"
- papalstate.61.d: "Als der gute katholische König, der er ist, hat König [From.GetLeader] unserem Plan zugestimmt, den Widerstand der NeoSanfedisti zu finanzieren."
- papalstate.61.a: "Exzellent"
-
- papalstate.62.t: "[From.GetNameDefCap] hat abgelehnt"
- papalstate.62.d: "Obwohl König [From.GetLeader] genau weiß, wie die Katholiken des Nordens durch das syndikalistische Regime, unter dem sie leben, unterdrückt werden, hat er die Bitte des Papstes mit der Begründung abgelehnt, dass [From.GetNameDef] es sich nicht leisten kann, einen Krieg mit [SRI.GetNameDef] zu provozieren."
- papalstate.62.a: "Wie enttäuschend"
-
  papalstate.64.t: "Papst ruft die katholischen Gläubigen zusammen"
  papalstate.64.d: "Papst [PAP.GetLeader] hat einen Aufruf an die katholischen Gläubigen in [SRI.GetNameDef] gerichtet und sie aufgefordert, sich gegen die "gottlosen Syndikalisten" zu erheben ... und sie hilfreich mit Ausrüstung und Ausbildung versorgt. Die Partisanen sind zwar zahlenmäßig nicht überwältigend, aber sie könnten sich als lästig erweisen, wenn sie hinter unseren Linien auftauchen."
- papalstate.64.a: "Das ändert nichts."
+ papalstate.64.a: "Das ändert nichts!"
 
 ### Characters ###
  PAP_pius_xi: "Pius XI"
  PAP_pius_xi_leader_desc: "§YGeboren:§! §L31. Mai 1857, in Desio, Königreich Lombardei-Venetien, Österreichisches Kaiserreich§!\n§YHintergrund:§! §L Papst Pius XI., vormals Kardinal Achille Ratti, wurde 1922 auf den Heiligen Stuhl gewählt, nachdem er die meisten Jahre zuvor als päpstlicher Vertreter im neu gegründeten Staat Polen verbracht hatte, und wurde 1921 zum Kardinal ernannt. Auf diese Weise entging er den meisten Wirren des Bürgerkriegs und den Gefahren, denen das Papsttum in seinen späteren Phasen ausgesetzt war. Er war der erste Papst seit der Einigung Italiens, der eine Himmelfahrtsrede auf dem Petersplatz hielt, da diese Praxis während der "Geiseljahre" unter der savoyardischen Monarchie aufgegeben worden war. Sein Pontifikat war auch durch zunehmende Spannungen zwischen den Fraktionen in der Kurie und die schwierige Wiederherstellung der weltlichen Autorität gekennzeichnet.§!"
  
  PAP_college_of_cardinals: "Kardinalskollegium"
- PAP_college_of_cardinals_leader_desc: "§YHintergrund:§! §LWährend das Konklave tagt, hat Carmelengo Eugenio Pacelli de facto die Verwaltungsaufgaben inne. Der Heilige Stuhl ist jedoch offiziell leer, und der Kirchenstaat hat somit kein offizielles Staatsoberhaupt. Das Konklave ist in der Regel ein zeitaufwändiger Prozess, der den Staat und die Kirche selbst auf Jahrzehnte hinaus auf einen völlig neuen Weg bringen kann.§!"
+ PAP_college_of_cardinals_leader_desc: "§YGegründet:§! §L1150, in Rom, Kirchenstaat§!\n§YHintergrund:§! §LWährend das Konklave tagt, hat Carmelengo Eugenio Pacelli de facto die Verwaltungsaufgaben inne. Der Heilige Stuhl ist jedoch offiziell leer, und der Kirchenstaat hat somit kein offizielles Staatsoberhaupt. Das Konklave ist in der Regel ein zeitaufwändiger Prozess, der den Staat und die Kirche selbst auf Jahrzehnte hinaus auf einen völlig neuen Weg bringen kann.§!"
  
  PAP_eugenio_pacelli: "Eugenio Pacelli"
+ PAP_eugenio_pacelli_sic_desc: "§YGeboren:§! §L2. März 1876, in Rom, Königreich Italien§!"
  PAP_pius_xii: "Pius XII"
  PAP_pius_xii_leader_desc: "§YGeboren:§! §L2. März 1876, in Rom, Königreich Italien§!\n§YHintergrund:§! §L Papst Pius XII., ehemals Kardinal Eugenio Pacelli, ist ein Mann von großer geistlicher Inbrunst. Er ist für seine Frömmigkeit bekannt, hat aber auch eine starke autoritäre Ader, die nur durch seinen Wunsch, das Volk zu schützen, übertroffen wird.§!"
  
@@ -525,26 +495,48 @@
  PAP_julius_iv_leader_desc: "§YGeboren:§! §L18. Januar 1880, in Ospedale Santissimo Salvatore, Rom, Königreich Italien§!\n§YHintergrund:§! §L Papst Julius IV., ehemals Kardinal Alfredo Schuster, ist ein Mann, der für seine Leidenschaft bekannt ist. Als ehemaliger Erzbischof von Mailand hat er den Syndikalismus zu einem Übel erklärt, das er bekämpfen wird, bis es von der Erde getilgt ist.§!"
 
  PAP_giuseppe_pizzardo: "Giuseppe Pizzardo"
+ PAP_giuseppe_pizzardo_sic_desc: "§YGeboren:§! §L13. Juli 1877, in Savona, Genua, Königreich Italien§!"
  PAP_eugene_tisserant: "Eugène Tisserant"
+ PAP_eugene_tisserant_sic_desc: "§YGeboren:§! §L24. März 1884, in Nancy, Meurthe-et-Moselle, Französische Republik§!"
 
  PAP_luigi_maglione: "Luigi Maglione"
+ PAP_luigi_maglione_advisor_desc: "§YGeboren:§! §L2. März 1877, in Casoria, Neapel, Königreich Italien§!"
  PAP_giovanni_battista_montini: "Giovanni Battista Montini"
+ PAP_giovanni_battista_montini_advisor_desc: "§YGeboren:§! §L26. September 1897, in Concesio, Brescia, Königreich Italien§!"
  PAP_filippo_cremonesi: "Filippo Cremonesi"
+ PAP_filippo_cremonesi_advisor_desc: "§YGeboren:§! §L22. August 1872, in Rom, Königreich Italien§!"
  PAP_pietro_campilli: "Pietro Campilli"
+ PAP_pietro_campilli_advisor_desc: "§YGeboren:§! §L30. November 1891, in Frascati, Rom, Königreich Italien§!"
  PAP_filippo_andrea_doria_pamphili: "Filippo Andrea Doria Pamphili"
+ PAP_filippo_andrea_doria_pamphili_advisor_desc: "§YGeboren:§! §L1. März 1886, in Rom, Königreich Italien§!"
  PAP_sergio_fenoaltea: "Sergio Fenoaltea"
+ PAP_sergio_fenoaltea_advisor_desc: "§YGeboren:§! §L9. Juni 1908, in Rom, Königreich Italien§!"
  PAP_leone_cattani: "Leone Cattani"
+ PAP_leone_cattani_advisor_desc: "§YGeboren:§! §L5. Januar 1906, in Rieti, Umbrien, Königreich Italien§!"
  PAP_alberto_cianca: "Alberto Cianca"
+ PAP_alberto_cianca_advisor_desc: "§YGeboren:§! §L1. Januar 1884, in Rom, Königreich Italien§!"
  PAP_ludovico_chigi_albani_dalla_rovere: "Ludovico Chigi Albani dalla Rovere"
+ PAP_ludovico_chigi_albani_dalla_rovere_advisor_desc: "§YGeboren:§! §L10. Juli 1866, in Ariccia, Comarca di Rom, Kirchenstaat§!"
  PAP_heinrich_pfyffer_von_altishofen: "Heinrich Pfyffer von Altishofen"
+ PAP_heinrich_pfyffer_von_altishofen_advisor_desc: "§YGeboren:§! §Lim Königreich Italien§!"
  PAP_felix_morlion: "Felix Morlion"
+ PAP_felix_morlion_advisor_desc: "§YGeboren:§! §L16. Mai 1904, in Diksmuide, Westflandern, Königreich Belgien§!"
+
  PAP_alois_hirschbuhl: "Luigi Alois Hirschbühl"
+ PAP_alois_hirschbuhl_high_command_desc: "§YGeboren:§! §L11. Oktober 1883, in Chur, Graubünden, Schweizerische Eidgenossenschaft§!"
  PAP_pier_ruggero_piccio: "Pier Ruggero Piccio"
+ PAP_pier_ruggero_piccio_air_chief_desc: "§YGeboren:§! §L27. September 1880, in Rom, Königreich Italien§!"
 
  PAP_angelo_cerica: "Angelo Cerica"
+ PAP_angelo_cerica_army_chief_desc: "§YGeboren:§! §L30. September 1885, in Alatri, Rom, Königreich Italien§!"
  PAP_reginaldo_giuliani: "Reginaldo Giuliani"
- PAP_georg_von_sury_d_aspremont: "Georg von Sury d'Aspremont"
+ PAP_reginaldo_giuliani_high_command_desc: "§YGeboren:§! §L28. August 1887, in Turin, Königreich Italien§!"
+ PAP_georg_von_sury_daspremont: "Georg von Sury d'Aspremont"
+ PAP_georg_von_sury_daspremont_high_command_desc: "§YGeboren:§! §L17. September 1887, in Solothurn, Schweizerische Eidgenossenschaft§!"
 
  PAP_luigi_sansonetti: "Luigi Sansonetti"
+ PAP_luigi_sansonetti_navy_chief_desc: "§YGeboren:§! §L22. Februar 1888, in Rom, Königreich Italien§!"
  PAP_junio_valerio_borghese: "Junio Valerio Borghese"
- PAP_palatine_guard_command: "Palatine Honour Guard Command"
+ PAP_junio_valerio_borghese_high_command_desc: "§YGeboren:§! §L6. Juni 1906, in Artena, Rom, Königreich Italien§!"
+ PAP_palatine_guard_command: "Pfälzisches Ehrengardekommando"
+ PAP_palatine_guard_command_theorist_desc: "§YGegründet:§! §L14. Dezember 1850, in Rom, Comarca di Rome, Kirchenstaat§!"

@@ -1,16 +1,19 @@
 ﻿l_german:
 ###  Übersetzt von Proho  ###
-### Country Names ###
- ROM: "Rumänien"
- ROM_ADJ: "Rumänisch"
- ROM_DEF: "Rumänien"
+### Factions ###
+blood_pact: "Pakt des Blutes" #created by romania.246 event
 
- ROM_totalist: "Rumänische Sozialistische Republik"
- ROM_totalist_DEF: "die Rumänische Sozialistische Republik"
- ROM_syndicalist: "Rumänische Sozialistische Republik"
- ROM_syndicalist_DEF: "die Rumänische Sozialistische Republik"
- ROM_radical_socialist: "Rumänische Sozialistische Republik"
- ROM_radical_socialist_DEF: "die Rumänische Sozialistische Republik"
+### Country Names ###
+ROM: "Rumänien"
+ROM_ADJ: "Rumänisch"
+ROM_DEF: "Rumänien"
+
+ROM_totalist: "Rumänische Sozialistische Republik"
+ROM_totalist_DEF: "die Rumänische Sozialistische Republik"
+ROM_syndicalist: "Rumänische Sozialistische Republik"
+ROM_syndicalist_DEF: "die Rumänische Sozialistische Republik"
+ROM_radical_socialist: "Rumänische Sozialistische Republik"
+ROM_radical_socialist_DEF: "die Rumänische Sozialistische Republik"
 
 ### Parties ###
 ROM_totalist_party: "PSR-FA"
@@ -51,7 +54,7 @@ malaxa: "Malaxa"
 universitatea_bucuresti: "Universität von Bukarest"
 rafinaria_steaua_romana: "Raffinerie Steaua Română"
 fabrica_de_arme_cugir: "Fabrica de Arme Cugir"
- societatea_concordia: "Societatea Concordia"
+societatea_concordia: "Societatea Concordia"
 udr: "UDR"
 caile_ferate_romane: "Căile Ferate Române"
 leonida: "Leonida"
@@ -61,39 +64,39 @@ fabrica_avioane_set: "Fabrica de Avioane SET"
 santierul_naval_constanta: "Şantierul Naval Constanţa"
 
 ### MIO Traits ###
- ROM_mio_trait_coastal_defense_production: "Küstenschutz Herstellung"
- ROM_mio_trait_mobile_tank_destroyers: "Mobile Panzerjäger"
+ROM_mio_trait_coastal_defense_production: "Küstenschutz Herstellung"
+ROM_mio_trait_mobile_tank_destroyers: "Mobile Panzerjäger"
 
 ### Name Lists ###
 NAME_THEME_LITERARY_FIGURES: "Literarische Figuren"
 
- ## Gleichgewicht der Kräfte ###
- ROM_power_balance: "Großes Spiel"
- ROM_balance_of_power_category: "Das Großes Spiel"
- ROM_balance_of_power_category_desc: "[ROM_great_game_bop_desc]"
+## Gleichgewicht der Kräfte ###
+ROM_power_balance: "Großes Spiel"
+ROM_balance_of_power_category: "Das Großes Spiel"
+ROM_balance_of_power_category_desc: "[ROM_great_game_bop_desc]"
 
- ROM_great_game_carol_category_desc: "Die Legionärsbewegung mag alle wichtigen Regierungsfunktionen innehaben, aber Carol II. ist immer noch der König - und es gibt viele, die einen starken Monarchen dem populistischen Kult um Codreanu vorziehen würden. Noch können wir keinen offenen Konflikt mit den Legionären riskieren, aber nachdem unsere ausländischen Feinde besiegt sind, §Rsind alle Wetten offen.§!"
- ROM_great_game_czc_category_desc: "Die Legionäre haben eine starke Position in der Regierung erlangt, aber der König schwebt über ihren Köpfen, verschwört sich und wartet auf ein Zeichen der Schwäche. Wir dürfen nicht zulassen, dass er unseren Staat bedroht. Noch können wir keinen offenen Konflikt mit dem König riskieren, aber nachdem unsere äußeren Feinde besiegt sind, §Rist alles möglich.§!\n\n"
+ROM_great_game_carol_category_desc: "Die Legionärsbewegung mag alle wichtigen Regierungsfunktionen innehaben, aber Carol II. ist immer noch der König - und es gibt viele, die einen starken Monarchen dem populistischen Kult um Codreanu vorziehen würden. Noch können wir keinen offenen Konflikt mit den Legionären riskieren, aber nachdem unsere ausländischen Feinde besiegt sind, §Rsind alle Wetten offen.§!"
+ROM_great_game_czc_category_desc: "Die Legionäre haben eine starke Position in der Regierung erlangt, aber der König schwebt über ihren Köpfen, verschwört sich und wartet auf ein Zeichen der Schwäche. Wir dürfen nicht zulassen, dass er unseren Staat bedroht. Noch können wir keinen offenen Konflikt mit dem König riskieren, aber nachdem unsere äußeren Feinde besiegt sind, §Rist alles möglich.§!\n\n"
 
- ROM_power_balance_carol_winning: "König Carol II."
- ROM_power_balance_carol_losing: "Conducător Codreanu"
+ROM_power_balance_carol_winning: "König Carol II."
+ROM_power_balance_carol_losing: "Conducător Codreanu"
 
- ROM_power_balance_legion_losing: "$ROM_power_balance_carol_winning$"
- ROM_power_balance_legion_winning: "$ROM_power_balance_carol_losing$"
+ROM_power_balance_legion_losing: "$ROM_power_balance_carol_winning$"
+ROM_power_balance_legion_winning: "$ROM_power_balance_carol_losing$"
 
- ROM_bop_stage_0_legion: "Legion - Hörbare Opposition"
- ROM_bop_stage_1_legion: "Legion - Drängend"
- ROM_bop_stage_2_legion: "Legion - Schwindender Griff"
- ROM_bop_stage_4_legion: "Legion - Starker Halt"
- ROM_bop_stage_5_legion: "Legion - Kontrolle der Gesetzgebung"
- ROM_bop_stage_6_legion: "Legion - Totale Kontrolle"
- ROM_bop_stage_3: "Equilibrium of Power"
- ROM_bop_stage_0_carol: "König - Total Autokrat"
- ROM_bop_stage_1_carol: "König - Starker Autokrat"
- ROM_bop_stage_2_carol: "König - Autokratisch"
- ROM_bop_stage_4_carol: "König -Schwächung des Griffs"
- ROM_bop_stage_5_carol: "König - Schwindende Kraft"
- ROM_bop_stage_6_carol: "König - Schwache Kontrolle"
+ROM_bop_stage_0_legion: "Legion - Hörbare Opposition"
+ROM_bop_stage_1_legion: "Legion - Drängend"
+ROM_bop_stage_2_legion: "Legion - Schwindender Griff"
+ROM_bop_stage_4_legion: "Legion - Starker Halt"
+ROM_bop_stage_5_legion: "Legion - Kontrolle der Gesetzgebung"
+ROM_bop_stage_6_legion: "Legion - Totale Kontrolle"
+ROM_bop_stage_3: "Equilibrium of Power"
+ROM_bop_stage_0_carol: "König - Total Autokrat"
+ROM_bop_stage_1_carol: "König - Starker Autokrat"
+ROM_bop_stage_2_carol: "König - Autokratisch"
+ROM_bop_stage_4_carol: "König -Schwächung des Griffs"
+ROM_bop_stage_5_carol: "König - Schwindende Kraft"
+ROM_bop_stage_6_carol: "König - Schwache Kontrolle"
 
 ### Ideas ###
 ROM_great_game: "Das große Spiel"
@@ -220,9 +223,9 @@ ROM_warrior_cult: "Krieger Kult"
 
 ROM_strikes: "Streiks"
 
- ROM_bratianu_connections: "Brătianu Familienbande"
+ROM_bratianu_connections: "Brătianu Familienbande"
 
- ROM_treaty_of_suceava: "Vertrag von Suceava"
+ROM_treaty_of_suceava: "Vertrag von Suceava"
 
 ### Benutzerdefinierte Tooltipps ###
 ROM_king_influence_6: "§GTotale Kontrolle§!" # 75% to 100%
@@ -241,10 +244,10 @@ ROM_captain_influence_2: "§YGeschwächte Einfluss§!"
 ROM_captain_influence_1: "§RHart bedrängt§!"
 ROM_captain_influence_0: "§RLautstarke Opposition§!"
 
- ROM_embargo_tt: "Handelsbeziehungen mit Nationen im Reichspakt werden §Rkollapieren§!"
+ROM_embargo_tt: "Handelsbeziehungen mit Nationen im Reichspakt werden §Rkollapieren§!"
 
- ROM_selectcarol: "Hat sich im Großen Spiel auf die Seite des Königs geschlagen."
- ROM_selectczc: "Hat sich im Großen Spiel auf die Seite des Kapitäns geschlagen."
+ROM_selectcarol: "Hat sich im Großen Spiel auf die Seite des Königs geschlagen."
+ROM_selectczc: "Hat sich im Großen Spiel auf die Seite des Kapitäns geschlagen."
 
 ROM_1cap: "Erfordert mindestens §RHart bedrängt§! für die Legionäre."
 ROM_1king: "Erfordert mindestens §RAbnehmende Kontrolle§! für den König."
@@ -300,13 +303,15 @@ ROM_loose_ends_tt1: "Schaltet £decision_icon_small §HEntscheidung§! zu §HBea
 ROM_loose_ends_tt2: "Schaltet £decision_icon_small §HEntscheidung§! zu §HBeanspruchung West Banats§! frei."
 ROM_renew_pride_tt: "Schaltet £decision_icon_small §HEntscheidung§! für Kern-Siebenbürgen frei."
 
+ROM_defeated_by_bulgaria: "Rumänien wurde im Vierten Balkankrieg von Bulgarien besiegt"
+
 ROM_legionary_national_populist: "Legionär Rumänien"
 ROM_legionary_national_populist_DEF: "Legionär Rumänien"
 ROM_legionary_national_populist_ADJ: "Legionär"
 
-ROM_PNT_madgearu_tt: "§HVirgil Madgearu§! und die §Linke§! werden die §HNationale Bauernpartei§! führen.\n"
-ROM_PNT_maniu_tt: "§HIuliu Maniu§! und das §HZentrum§! werden die §HNationale Bauernpartei§! führen.\n"
-ROM_PNT_vaida_tt: "§HAlexandru Vaida-Voevod§! und der §Rechte Flügel§! werden die §HNationale Bauernpartei§! führen.\n"
+ROM_PNT_madgearu_tt: "§HVirgil Madgearu§! und der §Slinke Flügel§! werden die §HNationale Bauernpartei§! führen.\n"
+ROM_PNT_maniu_tt: "§HIuliu Maniu§! und das §lZentrum§! werden die §HNationale Bauernpartei§! führen.\n"
+ROM_PNT_vaida_tt: "§HAlexandru Vaida-Voevod§! und der §crechte Flügel§! werden die §HNationale Bauernpartei§! führen.\n"
 
 ROM_PNT_soccon_constitution_tt: "Ersetze §H$ROM_peasant_state_idea$§! und §H$ROM_dirigism$§! mit §H$ROM_peasant_constitution_soccon$§!\nEffektive Änderung:\n$MODIFIER_STABILITY_FACTOR$: §G+20.00%§!"
 ROM_PNT_soclib_constitution_tt: "Ersetze §H$ROM_peasant_state_idea$§! und §H$ROM_dirigism$§! mit §H$ROM_peasant_constitution_soclib$§!\nEffektive Änderung:\n$MODIFIER_STABILITY_FACTOR$: §G+20.00%§!"
@@ -401,9 +406,9 @@ ROM_IG_CML_support: "Bevorzugen Sie das Legionärsarbeiterkorps."
 ROM_IG_radicals: "Unterstützung der Radikalen suchen"
 ROM_assassins_punished: "Die Attentäter wurden wegen Königsmordes bestraft."
 ROM_assassins_punished_tt: "§RDer radikalen Fraktion wird das nicht gefallen.§!"
- ROM_og_supported: "Zusammenarbeit mit der alten Garde"
- ROM_cml_supported: "Zusammenarbeit mit dem Arbeiterlegionärskorps"
- ROM_radicals_supported: "Zusammenarbeit mit den Radikalen"
+ROM_og_supported: "Zusammenarbeit mit der alten Garde"
+ROM_cml_supported: "Zusammenarbeit mit dem Arbeiterlegionärskorps"
+ROM_radicals_supported: "Zusammenarbeit mit den Radikalen"
 
 ROM_secure_tt: "§GCodreanu§! hat den größten Einfluss."
 ROM_appoint_OG_tt: "§GAlte Garde§! hat den größten Einfluss."
@@ -826,8 +831,8 @@ ROM_reshaping_the_country: "Das Land umgestalten"
 ROM_reshaping_the_country_desc: "Da Rumänien in ein goldenes Zeitalter eintritt, wird das Land unweigerlich auf dem Weg zu einer modernen Nation umgestaltet werden. Die Rumänen werden besser vernetzt sein als je zuvor, da Eisenbahnen und Autobahnen Menschen und Waren in jeden Winkel des Landes bringen und von dort abholen. Sie werden den Aufstieg des Königreichs zum Wohlstand symbolisieren."
 ROM_long_live_the_king: "König der Wiedergeburt"
 ROM_long_live_the_king_desc: "Seine Majestät Carol II. hat viele Titel. Vom Kodukator bis zum König der Kultur, vielleicht ist sein Lieblingstitel "König der Wiedergeburt", da Rumänien in ein noch nie dagewesenes goldenes Zeitalter eintritt. Unter seiner Führung wird Rumänien als Leuchtturm des Wohlstandes in einer rauen, unruhigen Region Europas neue Höhen erklimmen."
- ROM_railroad_effort: "Neue nationale Verbindungen"
- ROM_railroad_effort_desc: "Während sich unsere Nation von den jahrelangen internen politischen Reibereien erholt, bauen wir nun neue Verbindungen zwischen unseren Menschen auf, sowohl ideologisch als auch physisch, um die Kluft zu überbrücken und unser Volk wirklich zu vereinen."
+ROM_railroad_effort: "Neue nationale Verbindungen"
+ROM_railroad_effort_desc: "Während sich unsere Nation von den jahrelangen internen politischen Reibereien erholt, bauen wir nun neue Verbindungen zwischen unseren Menschen auf, sowohl ideologisch als auch physisch, um die Kluft zu überbrücken und unser Volk wirklich zu vereinen."
 
 ROM_michael: "Mihai's Regierung"
 ROM_michael_desc: "Der königlich-legionäre Konflikt hat die Nation in den völligen Ruin geführt, als die beiden Anführer ihren Streit in sinnlosen Mord ausarten ließen. Nach dem Tod des Autokraten und des Hauptmanns ist es nun an dem jungen König und der Armee, die Scherben aufzusammeln und Rumänien wieder aufzubauen. Sobald die Generäle die Situation stabilisiert haben, werden die alten Politiker zurückkehren, und freie Wahlen werden wieder über die Zukunft der Nation entscheiden."
@@ -877,16 +882,17 @@ ROM_PNT_constitution: "Entwurf einer Bauernverfassung"
 ROM_PNT_constitution_desc: "Nachdem sich die PNT die Unterstützung des rumänischen Volkes gesichert hat, soll eine neue Verfassung verkündet werden. Die demokratischen Institutionen sollen wieder geschützt werden, während den rumänischen Bauern, der großen Mehrheit der Bevölkerung, ihre zentrale Stellung in der rumänischen Gesellschaft garantiert werden soll. Rumänien wird in der Tat ein Bauernstaat werden, der wirklich das Beste für sein Volk anstrebt."
 
 ### Bookmark ###
- ROM_KR_gathering_storm_desc: "Der Vertrag von Bukarest beendete den Krieg Rumäniens mit den Mittelmächten. Obwohl er als milde angesehen wurde, reichten seine Einschränkungen aus, um einen Dolchstoßmythos zu schüren, der nach mehreren Krisen in den 1920er Jahren das politische Establishment des Landes umstürzte. Der Tod von König Ferdinand und des führenden liberalen Politikers des Landes ebnete den Weg für zwei sehr ehrgeizige Männer: König Carol II. und Corneliu Zelea Codreanu. Die beiden schlossen sich zusammen, um die rumänische Demokratie zu stürzen und einen Kreuzzug zur Wiedervereinigung Rumäniens zu starten. Doch wie lange können diese beiden starken Persönlichkeiten zusammenarbeiten, bevor ihre Ambitionen auf offener Straße aufeinander prallen?"
+ROM_KR_gathering_storm_desc: "Der Vertrag von Bukarest beendete den Krieg Rumäniens mit den Mittelmächten. Obwohl er als milde angesehen wurde, reichten seine Einschränkungen aus, um einen Dolchstoßmythos zu schüren, der nach mehreren Krisen in den 1920er Jahren das politische Establishment des Landes umstürzte. Der Tod von König Ferdinand und des führenden liberalen Politikers des Landes ebnete den Weg für zwei sehr ehrgeizige Männer: König Carol II. und Corneliu Zelea Codreanu. Die beiden schlossen sich zusammen, um die rumänische Demokratie zu stürzen und einen Kreuzzug zur Wiedervereinigung Rumäniens zu starten. Doch wie lange können diese beiden starken Persönlichkeiten zusammenarbeiten, bevor ihre Ambitionen auf offener Straße aufeinander prallen?"
 
 ### Intro Screen ###
- ROM_country_intro_header: "Königreich Rumänien, 1936"
- ROM_country_intro_content: "Das Königreich Rumänien war noch ein relativ junges Land, als es 1916 mit großen Ambitionen, Siebenbürgen von den Ungarn zu erobern, in den Weltkrieg eintrat - ein Traum, der bis heute unerfüllt geblieben ist. Trotz einiger anfänglicher Erfolge im Jahr 1916 wurde das kleine Land schnell von deutschen, österreichischen und bulgarischen Truppen überwältigt. Trotz aller Widrigkeiten brach die rumänische Armee nicht zusammen und errichtete stattdessen neue Stellungen um Iasi. Mit Hilfe der Russen und Franzosen bauten sie ihre Kräfte wieder auf und schlugen die Mittelmächte immer wieder zurück. Das Ende kam erst, als die russische Revolution und der Zusammenbruch der Ostfront die Position Rumäniens unhaltbar machten.\n\nViele junge Männer waren für ein Ideal gestorben, das sich letztlich als unerreichbar erwies, und die Situation im Land selbst hatte sich umsonst verbessert. Der Vertrag von Bukarest war bitter, umso mehr, weil die rumänische Armee gut gekämpft hatte. Damit entstand das Dolchstoß-Narrativ - Rumänien wurde von den Russen verraten, sie wurden von der westlichen Entente allein gelassen, sie wurden von innen durch verräterische Minderheiten wie den Juden sabotiert. Bald darauf entstanden radikale Bewegungen, die sich aus Verbitterung, Revanchismus und sozialen Problemen wie der ungleichen Landnutzung speisten. Die stärkste dieser Bewegungen war 1936 die Legion des Erzengels Michael, im Volksmund als Legionärsbewegung bekannt, angeführt von dem jungen und charismatischen Corneliu Codreanu, dem Hauptmann der Eisernen Garde.\n\nIm Jahr 1927 starb König Ferdinand und wurde von seinem Sohn Carol II. abgelöst. Obwohl Carol den Ruf hatte, ein Frauenheld zu sein, hatte der Krieg seine Spuren hinterlassen. Sein Traum ist klar: Er will da anknüpfen, wo sein Vater versagt hat.  In seinem Streben fand der König einen ebenso getriebenen Verbündeten und schloss einen Pakt mit Codreanu. Zwei Männer, die in ihrem revanchistischen Eifer vereint waren, rissen das demokratische System bei den Wahlen 1933 auseinander. Nach der Ermordung des Premierministers I. G. Duca durch die Eiserne Garde, bildete Codreanu die erste Legionärsregierung: der erste Schritt in Richtung Großrumänien.\n\nWährend der König und der Hauptmann in ihrem revanchistischen Projekt Verbündete sein mögen, ist es klar, dass sie die Macht letztlich nicht teilen wollen. Das sogenannte 'Große Spiel' zwischen diesen beiden Männern begann schnell nach den Wahlen, nachdem Codreanu seine ehrgeizige Landreform begonnen hatte, ein Thema, das bei seiner Basis sehr beliebt war. Einflussreiche Grundbesitzer wandten sich an den König, der wiederum Codreanu zwang, seine Reformen zu stoppen. Mit der wachsenden Feindschaft zwischen den beiden Männern kann der Machtkampf nur noch härter werden, da keiner von beiden bereit ist, die Macht abzugeben. Solange sie das gemeinsame Ziel von Großrumänien haben, werden sie zusammenarbeiten, aber danach...das weiß nur Gott."
+ROM_country_intro_background: "GFX_ROM_intro"
+ROM_country_intro_header: "Königreich Rumänien, 1936"
+ROM_country_intro_content: "Das Königreich Rumänien war noch ein relativ junges Land, als es 1916 mit großen Ambitionen, Siebenbürgen von den Ungarn zu erobern, in den Weltkrieg eintrat - ein Traum, der bis heute unerfüllt geblieben ist. Trotz einiger anfänglicher Erfolge im Jahr 1916 wurde das kleine Land schnell von deutschen, österreichischen und bulgarischen Truppen überwältigt. Trotz aller Widrigkeiten brach die rumänische Armee nicht zusammen und errichtete stattdessen neue Stellungen um Iasi. Mit Hilfe der Russen und Franzosen bauten sie ihre Kräfte wieder auf und schlugen die Mittelmächte immer wieder zurück. Das Ende kam erst, als die russische Revolution und der Zusammenbruch der Ostfront die Position Rumäniens unhaltbar machten.\n\nViele junge Männer waren für ein Ideal gestorben, das sich letztlich als unerreichbar erwies, und die Situation im Land selbst hatte sich umsonst verbessert. Der Vertrag von Bukarest war bitter, umso mehr, weil die rumänische Armee gut gekämpft hatte. Damit entstand das Dolchstoß-Narrativ - Rumänien wurde von den Russen verraten, sie wurden von der westlichen Entente allein gelassen, sie wurden von innen durch verräterische Minderheiten wie den Juden sabotiert. Bald darauf entstanden radikale Bewegungen, die sich aus Verbitterung, Revanchismus und sozialen Problemen wie der ungleichen Landnutzung speisten. Die stärkste dieser Bewegungen war 1936 die Legion des Erzengels Michael, im Volksmund als Legionärsbewegung bekannt, angeführt von dem jungen und charismatischen Corneliu Codreanu, dem Hauptmann der Eisernen Garde.\n\nIm Jahr 1927 starb König Ferdinand und wurde von seinem Sohn Carol II. abgelöst. Obwohl Carol den Ruf hatte, ein Frauenheld zu sein, hatte der Krieg seine Spuren hinterlassen. Sein Traum ist klar: Er will da anknüpfen, wo sein Vater versagt hat.  In seinem Streben fand der König einen ebenso getriebenen Verbündeten und schloss einen Pakt mit Codreanu. Zwei Männer, die in ihrem revanchistischen Eifer vereint waren, rissen das demokratische System bei den Wahlen 1933 auseinander. Nach der Ermordung des Premierministers I. G. Duca durch die Eiserne Garde, bildete Codreanu die erste Legionärsregierung: der erste Schritt in Richtung Großrumänien.\n\nWährend der König und der Hauptmann in ihrem revanchistischen Projekt Verbündete sein mögen, ist es klar, dass sie die Macht letztlich nicht teilen wollen. Das sogenannte 'Große Spiel' zwischen diesen beiden Männern begann schnell nach den Wahlen, nachdem Codreanu seine ehrgeizige Landreform begonnen hatte, ein Thema, das bei seiner Basis sehr beliebt war. Einflussreiche Grundbesitzer wandten sich an den König, der wiederum Codreanu zwang, seine Reformen zu stoppen. Mit der wachsenden Feindschaft zwischen den beiden Männern kann der Machtkampf nur noch härter werden, da keiner von beiden bereit ist, die Macht abzugeben. Solange sie das gemeinsame Ziel von Großrumänien haben, werden sie zusammenarbeiten, aber danach...das weiß nur Gott."
 
- ROM_country_intro_header_1: "Mechanik des großen Spiels"
- ROM_country_intro_content_1: "Es gibt eine zusätzliche Ressource, die sowohl von Codreanu als auch vom König genutzt wird: Einfluss. Neue Gesetze und Richtlinien erfordern die Zustimmung sowohl der von den Legionären kontrollierten Versammlung als auch des Königs. Dies zwingt beide Parteien dazu, Zugeständnisse zu machen, um ihre eigene Agenda voranzutreiben.\n\nNachdem du dich für Carol oder Codreanu entschieden hast, schaltest du eine Reihe von Entscheidungen frei, mit denen du das System entweder aus der Sicht von Codreanu oder aus der Sicht von Carol beeinflussen kannst. Wenn Sie es schaffen, die gewählte Seite nach der Vereinigung an der Macht zu halten, wird Ihre Nation stärker sein als wenn sie die Kontrolle wechselt.\n\nZusätzlich zu den Entscheidungen erhält man §BEinfluss§! aus dem politischen Zweig des Schwerpunktbaums und gibt ihn vor allem für den Landreformzweig aus, der Einfluss benötigt, um voranzukommen. Aber Vorsicht, Ihr Gegner hat auch seinen eigenen Einfluss, der ihm mehr Macht verleiht und viele Ereignisse ermöglicht, die nicht unbedingt zu Ihrem Vorteil sind."
+ROM_country_intro_header_1: "Mechanik des großen Spiels"
+ROM_country_intro_content_1: "Es gibt eine zusätzliche Ressource, die sowohl von Codreanu als auch vom König genutzt wird: Einfluss. Neue Gesetze und Richtlinien erfordern die Zustimmung sowohl der von den Legionären kontrollierten Versammlung als auch des Königs. Dies zwingt beide Parteien dazu, Zugeständnisse zu machen, um ihre eigene Agenda voranzutreiben.\n\nNachdem du dich für Carol oder Codreanu entschieden hast, schaltest du eine Reihe von Entscheidungen frei, mit denen du das System entweder aus der Sicht von Codreanu oder aus der Sicht von Carol beeinflussen kannst. Wenn Sie es schaffen, die gewählte Seite nach der Vereinigung an der Macht zu halten, wird Ihre Nation stärker sein als wenn sie die Kontrolle wechselt.\n\nZusätzlich zu den Entscheidungen erhält man §BEinfluss§! aus dem politischen Zweig des Schwerpunktbaums und gibt ihn vor allem für den Landreformzweig aus, der Einfluss benötigt, um voranzukommen. Aber Vorsicht, Ihr Gegner hat auch seinen eigenen Einfluss, der ihm mehr Macht verleiht und viele Ereignisse ermöglicht, die nicht unbedingt zu Ihrem Vorteil sind."
 
- ROM_guide: "§MCodreanu in Verantwortung§! (§nNationaler Populist§!)\n£white_dot Exekutiert Stelescu im Fall \"Aufstand der Weißen Adler\".\n£white_dot Zwingt Carol zur Abdankung.\n\n§MCarol II ist König§! (§PPaternal Autokraten§!)\n£white_dot Richten Sie Stelescu im Ereignis \"Aufstieg der Weißen Adler\" nicht hin.\n£white_dot Entlassen Sie das Legionärskabinett.\n£white_dot Erschießen Sie Codreanu nicht.\n\n§MMichael ist König - PNT-S/C/D / PNL / LAM§! ( §Sozialdemokratisch§! / §lSozialliberal§! / §cSozialkonservativ§! / §mMarktliberal§! / §nNational populistisch§!)\n£white_dot Stellen Sie sich zu Beginn des Großen Spiels entweder auf die Seite von Codreanu oder Carol II. Lassen Sie Carol erschießen oder zur Abdankung zwingen.\n£white_dot Lassen Sie Codreanu erschießen.\n£white_dot Lassen Sie Michael die Regierung entlassen und das Militärkabinett ernennen; kurz darauf werden Wahlen stattfinden.\n\n§MDer Grüne Prinz§! (§nNationaler Populist§!)\n£white_dot Sich zu Beginn des Großen Spiels auf die Seite von Codreanu stellen.\n£white_dot Den radikalen Einfluss innerhalb der Legionäre verstärken.\n£white_dot Codreanu erschießen lassen und dann Carol zur Vergeltung erschießen.\n£white_dot Alexandru Cantacuzino wird die Macht übernehmen."
+ROM_guide: "§MCodreanu in Verantwortung§! (§nNationaler Populist§!)\n£white_dot Exekutiert Stelescu im Fall \"Aufstand der Weißen Adler\".\n£white_dot Zwingt Carol zur Abdankung.\n\n§MCarol II ist König§! (§PPaternal Autokraten§!)\n£white_dot Richten Sie Stelescu im Ereignis \"Aufstieg der Weißen Adler\" nicht hin.\n£white_dot Entlassen Sie das Legionärskabinett.\n£white_dot Erschießen Sie Codreanu nicht.\n\n§MMichael ist König - PNT-S/C/D / PNL / LAM§! ( §Sozialdemokratisch§! / §lSozialliberal§! / §cSozialkonservativ§! / §mMarktliberal§! / §nNational populistisch§!)\n£white_dot Stellen Sie sich zu Beginn des Großen Spiels entweder auf die Seite von Codreanu oder Carol II. Lassen Sie Carol erschießen oder zur Abdankung zwingen.\n£white_dot Lassen Sie Codreanu erschießen.\n£white_dot Lassen Sie Michael die Regierung entlassen und das Militärkabinett ernennen; kurz darauf werden Wahlen stattfinden.\n\n§MDer Grüne Prinz§! (§nNationaler Populist§!)\n£white_dot Sich zu Beginn des Großen Spiels auf die Seite von Codreanu stellen.\n£white_dot Den radikalen Einfluss innerhalb der Legionäre verstärken.\n£white_dot Codreanu erschießen lassen und dann Carol zur Vergeltung erschießen.\n£white_dot Alexandru Cantacuzino wird die Macht übernehmen."
 
 ##Events
 #Union Day
@@ -1164,7 +1170,7 @@ romania.51.t: "Bildung des Mota-Marin-Legionärskorps"
 romania.51.d: "Während Spanien sich in einem blutigen Bürgerkrieg zerfleischt, bietet sich eine Gelegenheit. Die karlistische Bewegung in Spanien wird als ideologischer Verbündeter der Legion des Erzengels Michael gesehen und eine Reihe von Legionären haben sich freiwillig gemeldet, um für ihre ähnliche Sache zu kämpfen. Ion Mota und Vasile Marin sind hochrangige Mitglieder der Legion und haben bereits mit den Vorbereitungen für das Korps begonnen, das unter der Führung von Alexandru Cantacuzino, dem \"Grünen Prinzen\", eingesetzt werden soll. Dies könnte nicht nur zu einem freundlichen Regime in Spanien führen, sondern würde auch wertvolle militärische Erfahrung für junge Legionäre bieten, die sich beweisen wollen. Natürlich könnte es angesichts der hohen Spannungen in der Heimat klug sein, sie hier zu behalten, falls sich die Dinge bald aufheizen."
 romania.51.a: "Schicken Sie Cantacuzino und sein Korps nach Spanien"
 romania.51.b: "Als ob wir nicht schon genug Feinde zu Hause hätten."
- ROM_cantacuzino_volunteer_tt: "Sobald er zurückkehrt, können wir seine Veteranen in unsere Armee integrieren."
+ROM_cantacuzino_volunteer_tt: "Sobald er zurückkehrt, können wir seine Veteranen in unsere Armee integrieren."
 
 #Volunteers to ANI
 romania.52.t: "Bildung des Mota-Marin-Legionärskorps"
@@ -1508,7 +1514,7 @@ romania.114.c: "Das Letzte, was wir jetzt brauchen, sind billige ausländische I
 
 ROM_demand_better_terms_option_RUS: "Wir sind eine Großmacht und wir verlangen bessere Bedingungen."
 ROM_demand_better_terms_option_NFA: "Als größerer Partner sollten wir günstigere Konditionen bekommen." 
- #GRE, SER
+#GRE, SER
 ROM_demand_better_terms_option_other: "Offensichtlich können sie ein besseres Angebot als das machen."
 
 #FROM agrees
@@ -1609,7 +1615,7 @@ romania.139.b: "Geben Sie es her, es lohnt sich nicht, deswegen einen Krieg zu f
 
 #Bucovina ceded
 romania.140.t: "[From.GetName] liefert!"
-romania.140.d: "[From.GetName]] hat sich bereit erklärt, das westliche Banat abzutreten, um die Einheit der Region zu bewahren und die Erfüllung einer weiteren Bestimmung der Versprechen der Entente mit minimalem Blutvergießen sicherzustellen! "
+romania.140.d: "[From.GetName]] hat sich bereit erklärt, das westliche Banat abzutreten, um die Einheit der Region zu bewahren und die Erfüllung einer weiteren Bestimmung der Versprechen der Entente mit minimalem Blutvergießen sicherzustellen!"
 romania.140.a: "Freut euch!"
 
 #War for Bucovina
@@ -1856,7 +1862,7 @@ romania.195.t: "Das Fest der Heiligen Erzengel"
 romania.195.d: "In der ostorthodoxen Liturgie ist der 8. November das Fest der heiligen Erzengel Michael und Gabriel sowie der anderen körperlosen Kräfte des Himmels. Im ganzen Land und darüber hinaus feiern viele Menschen ihren Namenstag, viele andere sogar ihren Geburtstag.\n\nKeiner feiert jedoch so stolz wie die Legion des Erzengels Michael, deren Hingabe an den Befehlshaber der himmlischen Heerscharen Hauptmann Codreanu dazu veranlasst hat, den Festtag ihres Schutzpatrons zu einem bewegungsweiten Fest zu erklären. Nestversammlungen an diesem Tag waren dem Gedenken an ihren himmlischen Schutzpatron gewidmet, in vielen Gegenden fanden an diesem Tag Demonstrationen und Paraden statt, bevor sie mit dem Besuch der Göttlichen Liturgie gipfelten. Viele Kirchen berichten von einem sprunghaften Anstieg der Besucherzahlen, der von den frommeren Mitgliedern der Bewegung verursacht wurde.\n\n[GetSecondInCommand] selbst schloss sich den Feierlichkeiten an und schickte Festbotschaften und Grüße an Mitglieder und lokale Organisationen im ganzen Land, bevor er an der Liturgie in Bukarest in seiner Lieblingskirche, St. Ilie Gorgani, teilnahm."
 romania.195.a: "Der Erzengel schaut zu"
 
- #pnt
+#pnt
 romania.196.t: "Umdenken in der Verwaltung"
 romania.196.d: "Ein bedeutender Teil der Nationalen Bauernpartei stammt aus Siebenbürgen, eine Herkunft, die sich auf die Ansichten vieler ihrer Mitglieder auswirkt, insbesondere auf die lokale Verwaltung. Das prominente PNT-Mitglied Iuliu Maniu ist ein bekannter Befürworter von Verwaltungsreformen und betrachtet die Autonomie der lokalen Verwaltung, sei es auf dem Land oder in der Stadt, als Grundlage für eine gerechte und moderne Verwaltung.\n\nJetzt, wo die PNT an der Macht ist, sind Manius Vorschläge weit mehr als nur Wahlkampfgetöse; die Partei hat die Chance, mit der Umsetzung von Reformen zu beginnen, angefangen mit der Schaffung von sieben Direktorien, die einige der Aufgaben der Regierung im Umgang mit der lokalen Verwaltung übernehmen werden. Auch wenn es noch ein weiter Weg ist, das Beste aus der Verwaltung des Alten Reiches mit der Siebenbürgens zu verschmelzen, wird es als guter Anfang gesehen, und es bleibt abzuwarten, wie die Partei die versprochenen Reformen umsetzen wird."
 romania.196.a: "Einige der Reformen umsetzen."
@@ -1871,9 +1877,9 @@ romania.197.b: "Das ist nicht genug - wir werden das System komplett umgestalten
 romania.198.t: "Der verlorene Bruder."
 romania.198.d: "Der jüngere Bruder des Königs, Prinz Nicolae, hat sich normalerweise nicht so sehr in die Politik eingemischt wie sein bombastischerer Bruder, aber in letzter Zeit haben Gerüchte begonnen, um ihn herum zu wirbeln. Während dies normalerweise kein Grund zur Besorgnis für Carol wäre, gibt es einige dieser Gerüchte, die besagen, dass er die Legionärsbewegung umwirbt, sei es durch einfache Spenden oder indem er ihnen Zugang zu verschiedenen Besitztümern verschafft, die er erwirbt.\n\nDie Fehde zwischen den beiden Brüdern begann wegen Nicolaes romantischen Vorlieben; nachdem er Lady Ioana Doletti kennengelernt und sich in sie verliebt hatte, wollte er sie heiraten; ein Wunsch, den sein königlicher Bruder ablehnte, was Nicolae als heuchlerisch empfand, da Carol selbst eine Geliebte hatte, während Carol sich damit verteidigte, dass er Lupescu nicht heiraten und die Ehre des Königshauses in der Weise beflecken würde, wie Nicolae es tun würde, indem er Doletti heiratete; eine Tat, die er angeblich bereits im Geheimen getan hat. Es wird gesagt, dass Lupescus Abneigung gegen Doletti sowie Nicolaes Abneigung gegen die Atmosphäre im Kreis der Mitarbeiter des Königs die Angelegenheit zusätzlich verkomplizieren."
 
- #Carlist
+#Carlist
 romania.198.a: "Ein Maulwurf im eigenen Haushalt des Königs? Wir müssen ein Auge auf ihn haben."
- #Legionary
+#Legionary
 romania.198.b: "Ein Verbündeter im Palast? Höchst willkommen."
 
 romania.199.t: "Ehe oder Pflicht?"
@@ -1961,7 +1967,9 @@ romania.215.b: "Die Bucovina soll nie wieder verloren gehen."
 romania.215.c: "Die Brüder sollen nicht mehr getrennt werden."
 
 romania.216.t: "Die Verfolgungskommandos"
-romania.216.d: "Obwohl der Tod des sogenannten Hauptmanns die Legionäre für einige Zeit in Unordnung brachte, scheint es, dass sie widerstandsfähiger waren als erwartet, da sich viele von ihnen in sogenannten \"Verfolgungskommandos\" unter verschiedenen Anführern neu gruppierten.\n\nWas diese Entwicklungen besonders besorgniserregend macht, ist, dass ohne das Kommando ihres Anführers die Beschränkungen, die er ihrem Verhalten auferlegt hat, locker geworden sind; die Gewalt aus ihren Reihen nimmt zu, und der Sonderinformationsdienst berichtet, dass es Geflüster über ein Attentatsplan gibt. Eines, das größer ist als die meisten. Natürlich haben wir Gründe zu vermuten, dass es auf den König abzielt.\n\nEine Dringlichkeitssitzung des Kronrates wurde einberufen, und es wurden verschiedene Lösungen vorgeschlagen. Eine Idee ist, die königlichen Auftritte außerhalb des Palastes zu reduzieren und die königliche Garde zu verstärken, wenn sie sich außerhalb des Palastes aufhält, obwohl dies von einigen Teilen des Volkes als ein Zeichen von Feigheit angesehen werden könnte. Eine andere Möglichkeit, die mit der vorherigen zusammenhängt, wäre, die Pflichten des Königs vorübergehend an den Ministerrat zu delegieren, wobei die Minister einen Teil der Besuche und protokollarischen Reisen des Königs übernehmen würden, obwohl das Risiko bei dieser Idee darin besteht, dass die verärgerten Legionäre versuchen würden, einen von ihnen zu erschießen. Schließlich schlägt der königliche Vertraute und Bukarester Polizeipräfekt Gabriel Marinescu, ein bekannter Kritiker der Legionäre, vor, das Vertrauen in die Polizei zu setzen, ihre Präsenz zu erhöhen, wenn der König unterwegs ist, und ihre Kompetenzen enorm zu steigern. Kritiker dieses Plans weisen darauf hin, dass die Polizei nicht unbedingt darauf vorbereitet ist und die Legionäre ohnehin schon Erfahrung im Umgang mit der Polizei haben. Wie sollten wir vorgehen?"
+romania.216.d1: "Auch wenn der Tod des so genannten Hauptmanns $romania.216.d.base$"
+romania.216.d2: "Seit den Ereignissen in Bukarest hat sich der so genannte Hauptmann der Legionäre vor unserer Geheimpolizei versteckt. Obwohl seine Abwesenheit $romania.216.d.base$"
+romania.216.d.base: "die Legionäre für einige Zeit in Unordnung brachte, scheint es, dass sie widerstandsfähiger waren als erwartet, da sich viele von ihnen in sogenannten \"Verfolgungskommandos\" unter verschiedenen Anführern neu gruppierten.\n\nWas diese Entwicklungen besonders besorgniserregend macht, ist, dass ohne das Kommando ihres Anführers die Beschränkungen, die er ihrem Verhalten auferlegt hat, locker geworden sind; die Gewalt aus ihren Reihen nimmt zu, und der Sonderinformationsdienst berichtet, dass es Geflüster über ein Attentatsplan gibt. Eines, das größer ist als die meisten. Natürlich haben wir Gründe zu vermuten, dass es auf den König abzielt.\n\nEine Dringlichkeitssitzung des Kronrates wurde einberufen, und es wurden verschiedene Lösungen vorgeschlagen. Eine Idee ist, die königlichen Auftritte außerhalb des Palastes zu reduzieren und die königliche Garde zu verstärken, wenn sie sich außerhalb des Palastes aufhält, obwohl dies von einigen Teilen des Volkes als ein Zeichen von Feigheit angesehen werden könnte. Eine andere Möglichkeit, die mit der vorherigen zusammenhängt, wäre, die Pflichten des Königs vorübergehend an den Ministerrat zu delegieren, wobei die Minister einen Teil der Besuche und protokollarischen Reisen des Königs übernehmen würden, obwohl das Risiko bei dieser Idee darin besteht, dass die verärgerten Legionäre versuchen würden, einen von ihnen zu erschießen. Schließlich schlägt der königliche Vertraute und Bukarester Polizeipräfekt Gabriel Marinescu, ein bekannter Kritiker der Legionäre, vor, das Vertrauen in die Polizei zu setzen, ihre Präsenz zu erhöhen, wenn der König unterwegs ist, und ihre Kompetenzen enorm zu steigern. Kritiker dieses Plans weisen darauf hin, dass die Polizei nicht unbedingt darauf vorbereitet ist und die Legionäre ohnehin schon Erfahrung im Umgang mit der Polizei haben. Wie sollten wir vorgehen?"
 romania.216.a: "Verstärken Sie den Wachdienst und reduzieren Sie den Verkehr außerhalb des Palastes."
 romania.216.b: "Delegieren Sie Aufgaben an die Minister. Besser, sie werden erschossen als der König."
 romania.216.c: "Marinescus Männer werden damit fertig. Feuer mit Feuer bekämpfen - was kann da schon schiefgehen?"
@@ -1994,12 +2002,12 @@ romania.223.t: "Dämmerung"
 romania.223.d: "Mihai wachte auf und dachte, dass heute ein weiterer trister Tag werden würde. Ein weiterer trostloser Tag, an dem seine grün gekleideten Handlanger ihm sagen würden, was er wo zu unterschreiben hatte, während sie ihn nicht darüber informierten, was in seinem Königreich vor sich ging. Er fühlte sich machtlos; in seiner Hand lag große Macht, aber er wusste, dass es riskant war, sie auszuüben: Während er die königliche Garde und Teile der Armee versammeln konnte, um die Macht zurückzuerobern, konnten die Legionäre ihn einfach erschießen oder stattdessen auf ihre eigenen Kontakte zurückgreifen. Und nur Gott wusste, was passieren würde, wenn er nicht mehr auf dem Schirm war.\n\n Vielleicht würde er heute zu den Flugzeugen gehen. Vielleicht konnte er einige von ihnen überreden, ihm zu erlauben, seine Flugstunden zu nehmen. Wer weiß, eines Tages könnte er lernen, selbst zu fliegen. Sich ein geeignetes Ventil für seine Wut über seine Situation verschaffen und vielleicht eine Idee bekommen, wie er sich verhalten sollte. Ein eingesperrter Vogel, der die Freiheit schmeckt und seine Gedanken auffrischt.\n\nDann sah er plötzlich, wie sich die Tür seines Arbeitszimmers öffnete und eine Schar grün gekleideter Männer den Raum füllte, angeführt von diesem verfluchten Mann, Alexandru Cantacuzino. Er spürte, wie sich sein Magen zusammenzog, aber er behielt ein ruhiges Gesicht. Das musste er.\n\n \"Eure Lordschaft. Was führt Sie heute hierher?\"\n\n \"Sprechen Sie mich nicht so an, Eure Majestät\", sagte Cantacuzino und grinste, als er seinen Monarchen ansprach. \"Wir haben heute sehr wichtige Staatsgeschäfte zu erledigen.\"\n\n\"Wie immer.\"\n\n \"Also. Zum ersten Punkt der Tagesordnung... Eure Majestät hat etwas zu unterschreiben.\" Und mit diesen Worten schob Cantacuzino dem König ein Papier auf den Schreibtisch. Mihai spürte, wie sein Blut zu Eis wurde, als er die entscheidenden Worte am unteren Rand sah."
 romania.223.a: "Ein Akt der Abdankung? Was ist die Bedeutung davon?"
 
- romania.224.a.t: "Nadir"
- romania.224.b.t: "Der letzte Schritt"
- romania.224.a.d: ""Es ist so, wie es ist. Die Monarchie hat zwar viel zur Bereicherung der rumänischen Nation beigetragen, aber ihre Fremdbestimmung hat sie zu lange unterdrückt. Und als das rumänische Volk endlich seinen Willen sprechen ließ und uns an die Macht brachte, antwortete Ihr geschätzter Vorgänger, indem er uns verfolgte. Doch wie die Märtyrer im alten Rom haben wir gesiegt. Und jetzt fordern wir unsere Rechte ein.\"\n\n\"Ich bitte um etwas Bedenkzeit, Eure Lordschaft.\"\n\n\"Sie können sich so viel Zeit nehmen, wie Sie brauchen, aber Sie werden dieses Plenum nicht unterbrechen können. Dafür haben wir gesorgt.\"\n\nDie Emotionen strömten durch den Körper des jungen Mannes, als er seine missliche Lage betrachtete. Hier war er, umgeben von den grüngekleideten Fanatikern, die nun verlangten, dass er wie ein Feigling seinen Thron verließ! Doch er wusste nicht, was er tun sollte; er konnte nicht um Hilfe rufen und er war sicherlich nicht in einem rationalen Zustand. Wenn nur sein Vater noch da wäre...\n\n\"Die Rumänen haben gesprochen, Eure Majestät. Wir sind es, die ihren Willen wahrhaftig umsetzen, und der Versuch, uns zu widerstehen, zeigt nur, wie unbedarft Ihr seid. Widerstand wäre zwecklos und würde nur zu noch mehr Unfrieden führen. Wofür entscheiden Sie sich?”\n\nWieder stand Mihai an einem furchtbaren Scheideweg. Seine einst vertrauensvolle, stoische Fassade drohte zu zerbröckeln. Er versuchte, Zeit zu gewinnen, er versuchte, nach Wegen zu suchen, um Hilfe zu signalisieren, alles, was er konnte, aber ohne Erfolg. Wenn er hier lebend herauskommen wollte, musste er dieses verdammte Papier unterschreiben. Es tat weh, aber er hatte keine Wahl.\n\n\"Ich hoffe, Sie wissen, was Sie getan haben, Eure Lordschaft", sagte Mihai mit brüchiger Stimme.\n\n\"Oh, das tue ich. Ich gebe der Nation nur, was sie braucht.\"\n\nAls sich alle zum Gehen wandten, blieb Cantacuzino zurück.\n\n\"Ich werde dir genug Zeit geben, deine Angelegenheiten zu regeln. Ich überlasse Ihnen die Villa, die Ihnen in der Nähe von Săvârşin gefallen hat. Was alles andere angeht, werden wir sehen.\"\n\nDie Tür schloss sich, und Mihai weinte. Er fühlte sich in diesem Moment so schwach, so anders als sein Vater und seine Vorgänger. Die Zukunft seines Landes war ungewiss, und er fühlte sich schwach, weil er sie so aufgab. Sicher, er hatte keine andere Wahl, aber in seinem Kopf wurden Szenarien erstellt und in einem Wimpernschlag wieder verworfen, bis zu einem Moment, in dem sein Gedankengang bei einer Idee stehen blieb.\n\nDass er jetzt wirklich frei sein würde, um zu fliegen."
- romania.224.b.d: "Als König Nicolae aufgefordert wurde, abzudanken, protestierte er. Er hatte immer nur das getan, was die Legion wollte - er betrachtete sich sogar als ihr Verbündeter und Wohltäter. Aber das half alles nichts. Während der Hauptmann sich damit begnügte, die deutsche Dynastie über das rumänische Volk herrschen zu lassen, wollten Alexandru Cantacuzino und seine Anhänger das nicht hinnehmen. Schließlich waren sie stark genug, den König zu vertreiben und die demütigende Herrschaft einer fremden Dynastie über ihr Land zu beenden."
- romania.224.a: "Fürst Cantacuzino wird die Leitung des Staates übernehmen."
- romania.224.b: "Rumänien verdient einen wahren König."
+romania.224.a.t: "Nadir"
+romania.224.b.t: "Der letzte Schritt"
+romania.224.a.d: ""Es ist so, wie es ist. Die Monarchie hat zwar viel zur Bereicherung der rumänischen Nation beigetragen, aber ihre Fremdbestimmung hat sie zu lange unterdrückt. Und als das rumänische Volk endlich seinen Willen sprechen ließ und uns an die Macht brachte, antwortete Ihr geschätzter Vorgänger, indem er uns verfolgte. Doch wie die Märtyrer im alten Rom haben wir gesiegt. Und jetzt fordern wir unsere Rechte ein.\"\n\n\"Ich bitte um etwas Bedenkzeit, Eure Lordschaft.\"\n\n\"Sie können sich so viel Zeit nehmen, wie Sie brauchen, aber Sie werden dieses Plenum nicht unterbrechen können. Dafür haben wir gesorgt.\"\n\nDie Emotionen strömten durch den Körper des jungen Mannes, als er seine missliche Lage betrachtete. Hier war er, umgeben von den grüngekleideten Fanatikern, die nun verlangten, dass er wie ein Feigling seinen Thron verließ! Doch er wusste nicht, was er tun sollte; er konnte nicht um Hilfe rufen und er war sicherlich nicht in einem rationalen Zustand. Wenn nur sein Vater noch da wäre...\n\n\"Die Rumänen haben gesprochen, Eure Majestät. Wir sind es, die ihren Willen wahrhaftig umsetzen, und der Versuch, uns zu widerstehen, zeigt nur, wie unbedarft Ihr seid. Widerstand wäre zwecklos und würde nur zu noch mehr Unfrieden führen. Wofür entscheiden Sie sich?”\n\nWieder stand Mihai an einem furchtbaren Scheideweg. Seine einst vertrauensvolle, stoische Fassade drohte zu zerbröckeln. Er versuchte, Zeit zu gewinnen, er versuchte, nach Wegen zu suchen, um Hilfe zu signalisieren, alles, was er konnte, aber ohne Erfolg. Wenn er hier lebend herauskommen wollte, musste er dieses verdammte Papier unterschreiben. Es tat weh, aber er hatte keine Wahl.\n\n\"Ich hoffe, Sie wissen, was Sie getan haben, Eure Lordschaft", sagte Mihai mit brüchiger Stimme.\n\n\"Oh, das tue ich. Ich gebe der Nation nur, was sie braucht.\"\n\nAls sich alle zum Gehen wandten, blieb Cantacuzino zurück.\n\n\"Ich werde dir genug Zeit geben, deine Angelegenheiten zu regeln. Ich überlasse Ihnen die Villa, die Ihnen in der Nähe von Săvârşin gefallen hat. Was alles andere angeht, werden wir sehen.\"\n\nDie Tür schloss sich, und Mihai weinte. Er fühlte sich in diesem Moment so schwach, so anders als sein Vater und seine Vorgänger. Die Zukunft seines Landes war ungewiss, und er fühlte sich schwach, weil er sie so aufgab. Sicher, er hatte keine andere Wahl, aber in seinem Kopf wurden Szenarien erstellt und in einem Wimpernschlag wieder verworfen, bis zu einem Moment, in dem sein Gedankengang bei einer Idee stehen blieb.\n\nDass er jetzt wirklich frei sein würde, um zu fliegen."
+romania.224.b.d: "Als König Nicolae aufgefordert wurde, abzudanken, protestierte er. Er hatte immer nur das getan, was die Legion wollte - er betrachtete sich sogar als ihr Verbündeter und Wohltäter. Aber das half alles nichts. Während der Hauptmann sich damit begnügte, die deutsche Dynastie über das rumänische Volk herrschen zu lassen, wollten Alexandru Cantacuzino und seine Anhänger das nicht hinnehmen. Schließlich waren sie stark genug, den König zu vertreiben und die demütigende Herrschaft einer fremden Dynastie über ihr Land zu beenden."
+romania.224.a: "Fürst Cantacuzino wird die Leitung des Staates übernehmen."
+romania.224.b: "Rumänien verdient einen wahren König."
 
 romania.225.t: "Gestutzte Flügel"
 romania.225.d: "\"Eine Frechheit, die Legionäre zu entlassen!\"\n\n\"In der Tat, Genosse. Leider ist sogar der König den Machenschaften dieser Freimaurer zum Opfer gefallen.\"\n\n\"Er soll den Willen der Nation verkörpern, hm? Ist ihm nicht klar, dass wir den Willen des Volkes am besten repräsentiert haben, Victor? Mehr als die liberalen und bäuerlichen Räuber?\"\n\n\"Geduld, Gabi. Wir haben vielleicht einen großen Rückschlag erlitten, aber unsere Übernahme ist unausweichlich. Wenn nicht jetzt, dann wird das rumänische Volk eines Tages aufwachen. Und sehen, was man ihnen genommen hat.\"\n\n\"Stimmt, Genosse. Eines Tages werden wir es ihnen allen heimzahlen.\"\n\nDer Untergang der Legionärsbewegung mag eine gewisse Anzahl von Menschen begeistert haben, aber es gab auch einige, die ihn nicht auf die leichte Schulter genommen haben. Obwohl die Männer des Erzengels einen bedeutenden Schlag gegen ihre Organisation einstecken mussten, hält sich die Bewegung selbst immer noch in den Schatten auf, verfolgt jeden Schritt der historischen Parteien und plant Handlungsoptionen. Obwohl sie nicht mehr in der Lage ist, so viele Menschen zu begeistern, wie sie es in ihrer Blütezeit konnte, hat sie immer noch ein paar Nostalgiker und die Fähigkeit, sich selbst zu verewigen. Die rumänische Politik mag sich langsam in eine neue, demokratischere Norm hineinbewegen, aber der stille Blick der Männer des Erzengels wird immer noch im Schatten allgegenwärtig sein, immer noch an den Lehren ihres Hauptmanns und seiner Kommandanten der Verkündigung festhaltend."
@@ -2030,51 +2038,51 @@ romania.231.d: "Trotz unserer besten Bemühungen bleibt das westliche Grenzgebie
 romania.231.a: "Schickt mehr Truppen!"
 romania.231.b: "Mit der Zeit werden sie lernen, die Peitsche zu lieben."
 
- romania.232.t: "Widerstand in Alföld"
- romania.232.d: "Trotz unserer Bemühungen, in den letzten Wochen eine Ausgangssperre zu verhängen und die Widerstandsaktivitäten in Alföld einzuschränken, wachten viele heute Morgen auf und sahen die ungarische Flagge trotzig über mehreren staatlichen Gebäuden in Debrecen wehen. Es ist nicht bekannt, wie es den Tätern gelungen ist, einen solchen Akt der Täuschung zu koordinieren, aber es ist wahrscheinlich, dass sie von sympathisierenden Beamten der örtlichen Regierung unterstützt wurden. Obwohl sie in aller Eile abgerissen wurden, war der Schaden bereits angerichtet. Mehrere Zeitungen hatten Fotos von den Gebäuden gemacht, und die Nachricht verbreitete sich wie ein Lauffeuer in den ungarischen Zeitungen jenseits der Grenze. Zwar wurde niemand verletzt, doch dürfte diese Tat die hiesigen Widerstandszellen nur ermutigen."
- romania.232.a: "Holt die verdammten Flaggen runter, sofort!"
+romania.232.t: "Widerstand in Alföld"
+romania.232.d: "Trotz unserer Bemühungen, in den letzten Wochen eine Ausgangssperre zu verhängen und die Widerstandsaktivitäten in Alföld einzuschränken, wachten viele heute Morgen auf und sahen die ungarische Flagge trotzig über mehreren staatlichen Gebäuden in Debrecen wehen. Es ist nicht bekannt, wie es den Tätern gelungen ist, einen solchen Akt der Täuschung zu koordinieren, aber es ist wahrscheinlich, dass sie von sympathisierenden Beamten der örtlichen Regierung unterstützt wurden. Obwohl sie in aller Eile abgerissen wurden, war der Schaden bereits angerichtet. Mehrere Zeitungen hatten Fotos von den Gebäuden gemacht, und die Nachricht verbreitete sich wie ein Lauffeuer in den ungarischen Zeitungen jenseits der Grenze. Zwar wurde niemand verletzt, doch dürfte diese Tat die hiesigen Widerstandszellen nur ermutigen."
+romania.232.a: "Holt die verdammten Flaggen runter, sofort!"
 
- romania.233.t: "Polizist in Alföld erschossen"
- romania.233.d: "Die Einwohner von Békéscsaba wurden heute Mittag durch mehrere Schüsse aufgeschreckt. Ein maskierter Angreifer hatte einen unserer Beamten, der in einer Kneipe im Stadtzentrum getrunken hatte, erschossen. Die Versuche der Militärpolizei in der Gegend, ihn zu verfolgen, wurden von einer wenig kooperativen Menge vereitelt, und er konnte schließlich entkommen. Auch die Nachforschungen von Zeugen erwiesen sich als erfolglos, da sich viele Ungarn schlichtweg weigerten, gegenüber der Gendarmerie auszusagen. Es ist wahrscheinlich, dass wir den Täter nie finden werden, da er sich höchstwahrscheinlich über die ungarische Grenze geschmuggelt hat und für uns nicht mehr greifbar ist."
- romania.233.a: "Verdoppeln Sie die Größe der Stadtgarnison. Sorge dafür, dass so etwas nie wieder passiert!"
+romania.233.t: "Polizist in Alföld erschossen"
+romania.233.d: "Die Einwohner von Békéscsaba wurden heute Mittag durch mehrere Schüsse aufgeschreckt. Ein maskierter Angreifer hatte einen unserer Beamten, der in einer Kneipe im Stadtzentrum getrunken hatte, erschossen. Die Versuche der Militärpolizei in der Gegend, ihn zu verfolgen, wurden von einer wenig kooperativen Menge vereitelt, und er konnte schließlich entkommen. Auch die Nachforschungen von Zeugen erwiesen sich als erfolglos, da sich viele Ungarn schlichtweg weigerten, gegenüber der Gendarmerie auszusagen. Es ist wahrscheinlich, dass wir den Täter nie finden werden, da er sich höchstwahrscheinlich über die ungarische Grenze geschmuggelt hat und für uns nicht mehr greifbar ist."
+romania.233.a: "Verdoppeln Sie die Größe der Stadtgarnison. Sorge dafür, dass so etwas nie wieder passiert!"
 
- romania.234.t: "Kaserne geplündert!"
- romania.234.d: "Es liegen Berichte vor, dass eine unserer Kasernen in Orosháza gestern Abend geplündert wurde. Einer Gruppe von Rebellen gelang es, den Stützpunkt anzugreifen und die dort stationierten Wachen zu überwältigen, bevor sie die Kaserne plünderten. Insgesamt haben wir 17 Männer verloren, nachdem sich die Kämpfer in die Nacht zurückgezogen hatten und eine Leichenzählung durchgeführt wurde. Tausende von Gewehren, Hunderte von Maschinengewehren und zwei Dutzend Kisten mit Granaten sind nun unauffindbar, da sie wahrscheinlich bereits zwischen mehreren Untergrundzellen in der Provinz verteilt wurden. Wenn wir zulassen, dass diese Ausrüstung dort draußen verbleibt, wird das in Zukunft nur noch mehr Probleme für uns im Umgang mit den Rebellen mit sich bringen. Was sollten wir tun?"
- romania.234.a: "Durchsuche alle Grundstücke in der Umgebung. Finden Sie diese Waffen!"
+romania.234.t: "Kaserne geplündert!"
+romania.234.d: "Es liegen Berichte vor, dass eine unserer Kasernen in Orosháza gestern Abend geplündert wurde. Einer Gruppe von Rebellen gelang es, den Stützpunkt anzugreifen und die dort stationierten Wachen zu überwältigen, bevor sie die Kaserne plünderten. Insgesamt haben wir 17 Männer verloren, nachdem sich die Kämpfer in die Nacht zurückgezogen hatten und eine Leichenzählung durchgeführt wurde. Tausende von Gewehren, Hunderte von Maschinengewehren und zwei Dutzend Kisten mit Granaten sind nun unauffindbar, da sie wahrscheinlich bereits zwischen mehreren Untergrundzellen in der Provinz verteilt wurden. Wenn wir zulassen, dass diese Ausrüstung dort draußen verbleibt, wird das in Zukunft nur noch mehr Probleme für uns im Umgang mit den Rebellen mit sich bringen. Was sollten wir tun?"
+romania.234.a: "Durchsuche alle Grundstücke in der Umgebung. Finden Sie diese Waffen!"
 
- romania.240.t: "Großes Spiel abgekürzt"
- romania.240.d: "Codreanus revanchistischer Schachzug ist gescheitert und hat zu einer nationalen Katastrophe geführt. Die Bulgaren haben ein weiteres Mal über uns triumphiert und einen demütigenden Friedensvertrag erzwungen. Keine noch so verprügelten \"Verräter\" konnten die Situation für den Hauptmann retten, und die Rufe nach seiner Absetzung werden immer lauter. Nicht einmal seine eigene Schar steht hinter ihm, denn viele seiner Rivalen wittern bereits Blut.\n\nDer König würde sich freuen, wenn er nicht in denselben Vorwürfen stecken würde wie seine Regierung. Immerhin war der Krieg mit Bulgarien eines der wenigen Dinge, in denen er mit Codreanu einig war. Die liberale Opposition, die durch das totale Scheitern der beiden Möchtegern-Diktatoren gestärkt wurde, fordert die zweite Abdankung von Carol II - diesmal für immer. Nachdem er den Willen verloren hat, sich diesen Aufrufen zu widersetzen, dankt Carol II. wenige Tage später offiziell ab.\n\nIn der überraschenden neuen Chance für die rumänische Demokratie haben Constantin Brătianu und seine Nationalliberalen erneut eine Regierung in Zusammenarbeit mit dem jungen König Mihai I. gebildet. Gemeinsam schwören sie, die angeschlagene rumänische Demokratie wieder aufzubauen - und wenn Gott es will, eine Gesellschaft ohne Codreanus und Carol II."
- romania.240.a: "Viel Glück, König Mihai."
+romania.240.t: "Großes Spiel abgekürzt"
+romania.240.d: "Codreanus revanchistischer Schachzug ist gescheitert und hat zu einer nationalen Katastrophe geführt. Die Bulgaren haben ein weiteres Mal über uns triumphiert und einen demütigenden Friedensvertrag erzwungen. Keine noch so verprügelten \"Verräter\" konnten die Situation für den Hauptmann retten, und die Rufe nach seiner Absetzung werden immer lauter. Nicht einmal seine eigene Schar steht hinter ihm, denn viele seiner Rivalen wittern bereits Blut.\n\nDer König würde sich freuen, wenn er nicht in denselben Vorwürfen stecken würde wie seine Regierung. Immerhin war der Krieg mit Bulgarien eines der wenigen Dinge, in denen er mit Codreanu einig war. Die liberale Opposition, die durch das totale Scheitern der beiden Möchtegern-Diktatoren gestärkt wurde, fordert die zweite Abdankung von Carol II - diesmal für immer. Nachdem er den Willen verloren hat, sich diesen Aufrufen zu widersetzen, dankt Carol II. wenige Tage später offiziell ab.\n\nIn der überraschenden neuen Chance für die rumänische Demokratie haben Constantin Brătianu und seine Nationalliberalen erneut eine Regierung in Zusammenarbeit mit dem jungen König Mihai I. gebildet. Gemeinsam schwören sie, die angeschlagene rumänische Demokratie wieder aufzubauen - und wenn Gott es will, eine Gesellschaft ohne Codreanus und Carol II."
+romania.240.a: "Viel Glück, König Mihai."
 
- romania.245.t: "Bündnis mit [FROM.GetName]?"
- romania.245.d: "Der [FROM.GetAdjective] hat ein mutiges Bündnis zwischen dem italienischen und dem rumänischen Staat vorgeschlagen. Der Zweck dieses Bündnisses - das durch unseren gemeinsamen, unerschütterlichen Glauben an die Ehre der Nation über allem zementiert wird - besteht darin, der wachsenden jugoslawischen Aggression entgegenzutreten und uns gegenseitig bei unseren Plänen für die Balkanregion zu unterstützen. Dieses Bündnis wäre kein bloßer politischer Vertrag, der leicht gebrochen werden könnte, sondern ein von unseren beiden Nationen geschworener Eid der Brüderlichkeit, der bis zum Ende der Zeit Bestand haben soll."
- romania.245.a: "Wir werden Waffenbrüder in der Ewigkeit sein."
- romania.245.b: "Äh, was?"
+romania.245.t: "Bündnis mit [FROM.GetName]?"
+romania.245.d: "Der [FROM.GetAdjective] hat ein mutiges Bündnis zwischen dem italienischen und dem rumänischen Staat vorgeschlagen. Der Zweck dieses Bündnisses - das durch unseren gemeinsamen, unerschütterlichen Glauben an die Ehre der Nation über allem zementiert wird - besteht darin, der wachsenden jugoslawischen Aggression entgegenzutreten und uns gegenseitig bei unseren Plänen für die Balkanregion zu unterstützen. Dieses Bündnis wäre kein bloßer politischer Vertrag, der leicht gebrochen werden könnte, sondern ein von unseren beiden Nationen geschworener Eid der Brüderlichkeit, der bis zum Ende der Zeit Bestand haben soll."
+romania.245.a: "Wir werden Waffenbrüder in der Ewigkeit sein."
+romania.245.b: "Äh, was?"
 
- romania.246.t: "Blutpakt"
- romania.246.d: "Das Protokoll von Venedig wurde von den Regierungen Italiens und Rumäniens unterzeichnet, in dem sie sich gegenseitig Beistand gegen die \"Bedrohung durch Jugoslawien oder andere mit Jugoslawien verbündete Nationen\" zusagten. Il Duce [ITA_GetNatPopLeader] und Conducător [ROM.GetLeader] trafen sich persönlich, um die Einzelheiten dieses so genannten \"Blutpakts\" zu besprechen, der zwei gleichgesinnte lateinamerikanische Nationen zur Verteidigung ihrer Kultur und Traditionen vereinte. Der offiziell als \"Freundschafts- und Bündnispakt zwischen Italien und Rumänien\" bezeichnete Vertrag stieß in Belgrad auf großes Misstrauen und wurde als reine Show bezeichnet, um die aggressiven Absichten der beiden Nationen zu verbergen."
- romania.246.a: "Auf die Brüderlichkeit!"
+romania.246.t: "Blutpakt"
+romania.246.d: "Das Protokoll von Venedig wurde von den Regierungen Italiens und Rumäniens unterzeichnet, in dem sie sich gegenseitig Beistand gegen die \"Bedrohung durch Jugoslawien oder andere mit Jugoslawien verbündete Nationen\" zusagten. Il Duce [ITA_GetNatPopLeader] und Conducător [ROM.GetLeader] trafen sich persönlich, um die Einzelheiten dieses so genannten \"Blutpakts\" zu besprechen, der zwei gleichgesinnte lateinamerikanische Nationen zur Verteidigung ihrer Kultur und Traditionen vereinte. Der offiziell als \"Freundschafts- und Bündnispakt zwischen Italien und Rumänien\" bezeichnete Vertrag stieß in Belgrad auf großes Misstrauen und wurde als reine Show bezeichnet, um die aggressiven Absichten der beiden Nationen zu verbergen."
+romania.246.a: "Auf die Brüderlichkeit!"
 
- romania.250.t: "Überarbeitung der [713.owner.GetAdjective]-Rumänien Grenze"
- romania.250.d: "Nach der Teilung von Galizien und Lodomerien erhielt [713.owner.GetName] das Gebiet des ehemaligen Herzogtums Bukowina. Dieses Gebiet wurde traditionell von der moldawischen Elite regiert, obwohl sich die demografischen Verhältnisse im letzten Jahrhundert stark verschoben haben. Die südlichen Teile sind immer noch stark rumänisch geprägt und würden sich uns wahrscheinlich anschließen, wenn eine Volksabstimmung durchgeführt wird. Wir könnten die [713.owner.GetAdjective]-Regierung bitten, ein regionales Referendum im Gegenzug für einige für sie vorteilhafte Handelsabkommen zuzulassen."
- romania.250.a: "Tut es."
- romania.250.b: "Ignoriert es."
+romania.250.t: "Überarbeitung der [713.owner.GetAdjective]-Rumänien Grenze"
+romania.250.d: "Nach der Teilung von Galizien und Lodomerien erhielt [713.owner.GetName] das Gebiet des ehemaligen Herzogtums Bukowina. Dieses Gebiet wurde traditionell von der moldawischen Elite regiert, obwohl sich die demografischen Verhältnisse im letzten Jahrhundert stark verschoben haben. Die südlichen Teile sind immer noch stark rumänisch geprägt und würden sich uns wahrscheinlich anschließen, wenn eine Volksabstimmung durchgeführt wird. Wir könnten die [713.owner.GetAdjective]-Regierung bitten, ein regionales Referendum im Gegenzug für einige für sie vorteilhafte Handelsabkommen zuzulassen."
+romania.250.a: "Tut es."
+romania.250.b: "Ignoriert es."
 
- romania.251.t: "Überarbeitung der [713.owner.GetAdjective]-Rumänien Grenze"
- romania.251.d: "Nach der Annexion von Galizien und Lodomerien haben wir die Kontrolle über das ehemalige Herzogtum Bukowina übernommen. Dieses Gebiet wurde traditionell von der moldawischen Elite regiert, obwohl sich die demografischen Verhältnisse im letzten Jahrhundert stark verschoben haben. Die südlichen Teile sind immer noch stark rumänisch geprägt und würden sich im Falle einer Volksabstimmung wahrscheinlich Rumänien anschließen. Bukarest hat uns gebeten, ein regionales Referendum im Gegenzug für einige für uns vorteilhafte Handelsabkommen zuzulassen."
- romania.251.a: "Klingt fair."
- romania.251.b: "Wir behalten die ganze Bukowina!"
+romania.251.t: "Überarbeitung der [713.owner.GetAdjective]-Rumänien Grenze"
+romania.251.d: "Nach der Annexion von Galizien und Lodomerien haben wir die Kontrolle über das ehemalige Herzogtum Bukowina übernommen. Dieses Gebiet wurde traditionell von der moldawischen Elite regiert, obwohl sich die demografischen Verhältnisse im letzten Jahrhundert stark verschoben haben. Die südlichen Teile sind immer noch stark rumänisch geprägt und würden sich im Falle einer Volksabstimmung wahrscheinlich Rumänien anschließen. Bukarest hat uns gebeten, ein regionales Referendum im Gegenzug für einige für uns vorteilhafte Handelsabkommen zuzulassen."
+romania.251.a: "Klingt fair."
+romania.251.b: "Wir behalten die ganze Bukowina!"
 
- romania.252.t: "Vereinigung mit Bukowina"
- romania.252.d: "Der [89.owner.GetAdjective] hat den Menschen in Bukowina die Möglichkeit gegeben, darüber abzustimmen, welcher Nation sie angehören wollen, und viele haben sich für uns entschieden. Im Einvernehmen haben wir einen Vertrag ausgearbeitet, der die Wünsche der Einheimischen respektiert - und [89.owner.GetName] ein recht vorteilhaftes Handelsabkommen beschert, auch wenn dieser Teil etwas verschwiegen wird."
- romania.252.a: "Willkommen, Brüder!"
+romania.252.t: "Vereinigung mit Bukowina"
+romania.252.d: "Der [89.owner.GetAdjective] hat den Menschen in Bukowina die Möglichkeit gegeben, darüber abzustimmen, welcher Nation sie angehören wollen, und viele haben sich für uns entschieden. Im Einvernehmen haben wir einen Vertrag ausgearbeitet, der die Wünsche der Einheimischen respektiert - und [89.owner.GetName] ein recht vorteilhaftes Handelsabkommen beschert, auch wenn dieser Teil etwas verschwiegen wird."
+romania.252.a: "Willkommen, Brüder!"
 
- romania.253.t: "[713.owner.GetAdjective] verweigert Revision der Grenze"
- romania.253.d: "Die [713.owner.GetAdjective] Regierung hat sich geweigert, die Bukowina an uns zu verkaufen. Wir werden etwas anderes versuchen müssen."
- romania.253.a: "Eines Tages werden wir sie mit Gewalt einfordern!"
+romania.253.t: "[713.owner.GetAdjective] verweigert Revision der Grenze"
+romania.253.d: "Die [713.owner.GetAdjective] Regierung hat sich geweigert, die Bukowina an uns zu verkaufen. Wir werden etwas anderes versuchen müssen."
+romania.253.a: "Eines Tages werden wir sie mit Gewalt einfordern!"
 
- ROM_blood_pact: "Allianz gegen Jugoslawien"
- ROM_blood_pact_desc: "Jugoslawien ist zu großen Höhen aufgestiegen und hat sich auf dem westlichen Balkan ein eigenes Reich geschaffen. Ihr Versuch, die Hegemonie auf dem Balkan zu erlangen, muss zu Fall gebracht werden."
+ROM_blood_pact: "Allianz gegen Jugoslawien"
+ROM_blood_pact_desc: "Jugoslawien ist zu großen Höhen aufgestiegen und hat sich auf dem westlichen Balkan ein eigenes Reich geschaffen. Ihr Versuch, die Hegemonie auf dem Balkan zu erlangen, muss zu Fall gebracht werden."
 
 ### Leader Traits ###
 ROM_autocrat: "Entschlossener Autokrat"
@@ -2086,7 +2094,7 @@ ROM_protector_of_democracy: "Beschützer der Demokratie"
 ROM_protector_of_democracy2: "Beschützer der Demokratie"
 ROM_friend_of_the_legion: "Freund der Legion"
 ROM_green_prince: "Grüner Prinz"
- ROM_legionary_king: "Legionärskönig"
+ROM_legionary_king: "Legionärskönig"
 
 ### Tooltips ###
 ROM_monetary_union_completed: "$has_completed_decision$$ROM_monetary_union$§!"
@@ -2094,163 +2102,166 @@ ROM_undo_foreign_influence_completed: "$has_completed_decision$$ROM_undo_foreign
 ROM_UDR: "$has_completed_decision$$ROM_reorganise_UDR$§!"
 
 ### Characters ###
- ROM_cristian_racovski: "Cristian Racovski"
- ROM_cristian_racovski_leader_desc: "§YGeboren:§! §L13. August 1873, in Gradets, Vilayet von Edirne, Osmanisches Reich§!"
+ROM_cristian_racovski: "Cristian Racovski"
+ROM_cristian_racovski_leader_desc: "§YGeboren:§! §L13. August 1873, in Gradets, Vilayet von Edirne, Osmanisches Reich§!"
 
- ROM_gheorghe_gheorghiu: "Gheorghe Gheorghiu"
- ROM_gheorghe_gheorghiu_leader_desc: "§YGeboren:§! §L8. November 1901, in Bârlad, Kreis Tutova, Königreich Rumänien§!"
+ROM_gheorghe_gheorghiu: "Gheorghe Gheorghiu"
+ROM_gheorghe_gheorghiu_leader_desc: "§YGeboren:§! §L8. November 1901, in Bârlad, Kreis Tutova, Königreich Rumänien§!"
 
- ROM_lucretiu_patrascanu: "Lucreţiu Pătrăşcanu"
- ROM_lucretiu_patrascanu_leader_desc: "§YGeboren:§! §L4. November 1900, in Bacău, Kreis Bacău, Königreich Rumänien§!"
+ROM_lucretiu_patrascanu: "Lucreţiu Pătrăşcanu"
+ROM_lucretiu_patrascanu_leader_desc: "§YGeboren:§! §L4. November 1900, in Bacău, Kreis Bacău, Königreich Rumänien§!"
 
- ROM_barbu_lazareanu: "Barbu Lăzăreanu"
- ROM_barbu_lazareanu_leader_desc: "§YGeboren:§! §L5. Oktober 1881, in Botosani, Kreis Botosani, Königreich Rumänien§!"
+ROM_barbu_lazareanu: "Barbu Lăzăreanu"
+ROM_barbu_lazareanu_leader_desc: "§YGeboren:§! §L5. Oktober 1881, in Botosani, Kreis Botosani, Königreich Rumänien§!"
 
- ROM_ion_mihalache: "Ion Mihalache"
- ROM_ion_mihalache_leader_desc: "§YGeboren:§! §L3. März 1882, in Topoloveni, Kreis Arges, Königreich Rumänien§!"
+ROM_ion_mihalache: "Ion Mihalache"
+ROM_ion_mihalache_leader_desc: "§YGeboren:§! §L3. März 1882, in Topoloveni, Kreis Arges, Königreich Rumänien§!"
 
- ROM_dinu_bratianu: "Dinu Brătianu"
- ROM_dinu_bratianu_leader_desc: "§YGeboren:§! §L13. Januar 1866, in Florica, Kreis Arges, Königreich Rumänien§!"
+ROM_dinu_bratianu: "Dinu Brătianu"
+ROM_dinu_bratianu_leader_desc: "§YGeboren:§! §L13. Januar 1866, in Florica, Kreis Arges, Königreich Rumänien§!"
 
- ROM_alexandru_cantacuzino: "Alexandru Cantacuzino"
- ROM_alexandru_cantacuzino_leader_desc: "§YGeboren:§! §L1901, in Ciocănesti, Kreis Ilfov, Königreich Rumänien§!\n§YHintergrund:§! §L Als Spross der alten fürstlichen Cantacuzino-Familie, die ihre Abstammung von der byzantinischen Kantakouzenos-Dynastie behauptet, ist Prinz Alexandru Cantacuzino ein sehr untypischer Adliger. Als überzeugter Anhänger der Legion des Erzengels Michael machte Cantacuzino auf zahlreichen nationalistischen Studentenkongressen auf sich aufmerksam und hielt feurige Reden, in denen er anprangerte, was er als Schande für sein Land ansah. Schnell stieg er in den Reihen der Legionärsbewegung auf, wurde Mitglied des inneren Kreises des Hauptmanns und machte sich als Theoretiker und effizienter Organisator einen Namen. Nach der Machtübernahme wurde Cantacuzino Minister im Kabinett des Hauptmanns. Der Prinz, der sich im Spanischen Bürgerkrieg noch mehr verausgabte, kehrte nach Hause zurück, nur um in den eskalierenden Konflikt zwischen dem Hauptmann und dem König verwickelt zu werden.\n\nSchockiert von der Ermordung Codreanus, schloss sich Cantacuzino dem Kampf an, sammelte viele Legionäre für die Sache und half, die Bewegung für den Kampf zu reorganisieren, wobei er als Spitzenkandidat für die Nachfolge des Hauptmanns hervortrat. Bald schon siegte der Eifer der Männer des Erzengels, und nun fliegt das vergitterte Kreuz wieder wahrhaftig über ganz Rumänien. Nachdem er sich als würdig erwiesen hat, hat ihn der Senat der Legion als Nachfolger des Hauptmanns bestätigt, und nun ist er bereit, seine Vision über ganz Rumänien zu verwirklichen, als dessen Conducător und Regent.§!"
- ROM_alexandru_cantacuzino_sic_desc: "§YGeboren:§! §L1901, in Ciocănesti, Kreis Ilfov, Königreich Rumänien§!"
+ROM_alexandru_cantacuzino: "Alexandru Cantacuzino"
+ROM_alexandru_cantacuzino_leader_desc: "§YGeboren:§! §L1901, in Ciocănesti, Kreis Ilfov, Königreich Rumänien§!\n§YHintergrund:§! §L Als Spross der alten fürstlichen Cantacuzino-Familie, die ihre Abstammung von der byzantinischen Kantakouzenos-Dynastie behauptet, ist Prinz Alexandru Cantacuzino ein sehr untypischer Adliger. Als überzeugter Anhänger der Legion des Erzengels Michael machte Cantacuzino auf zahlreichen nationalistischen Studentenkongressen auf sich aufmerksam und hielt feurige Reden, in denen er anprangerte, was er als Schande für sein Land ansah. Schnell stieg er in den Reihen der Legionärsbewegung auf, wurde Mitglied des inneren Kreises des Hauptmanns und machte sich als Theoretiker und effizienter Organisator einen Namen. Nach der Machtübernahme wurde Cantacuzino Minister im Kabinett des Hauptmanns. Der Prinz, der sich im Spanischen Bürgerkrieg noch mehr verausgabte, kehrte nach Hause zurück, nur um in den eskalierenden Konflikt zwischen dem Hauptmann und dem König verwickelt zu werden.\n\nSchockiert von der Ermordung Codreanus, schloss sich Cantacuzino dem Kampf an, sammelte viele Legionäre für die Sache und half, die Bewegung für den Kampf zu reorganisieren, wobei er als Spitzenkandidat für die Nachfolge des Hauptmanns hervortrat. Bald schon siegte der Eifer der Männer des Erzengels, und nun fliegt das vergitterte Kreuz wieder wahrhaftig über ganz Rumänien. Nachdem er sich als würdig erwiesen hat, hat ihn der Senat der Legion als Nachfolger des Hauptmanns bestätigt, und nun ist er bereit, seine Vision über ganz Rumänien zu verwirklichen, als dessen Conducător und Regent.§!"
+ROM_alexandru_cantacuzino_sic_desc: "§YGeboren:§! §L1901, in Ciocănesti, Kreis Ilfov, Königreich Rumänien§!"
 
- ROM_carol_hohenzollern_sigmaringen: "Carol II"
- ROM_carol_hohenzollern_sigmaringen_desc_body: " Damals, als er noch der Kronprinz war, schien Carol II. von Rumänien eine höchst ungeeignete Person zu sein, um den rumänischen Thron zu besteigen, wie der Zizi Lambrino-Zwischenfall in den letzten Tagen des Weltkriegs zeigte. Der Verlust seines Landes traf ihn jedoch hart, und als er die Unzufriedenheit sah, in die sein zukünftiges Königreich geraten war, schwor er sich, das Land wieder zu dem zu machen, was es eigentlich sein sollte. Als autokratischer Charmeur par excellence nutzte er die kleine, aber aufstrebende Legionärsbewegung als Vorschlaghammer, um die untergehende PNL und die alten Rivalen der Legionäre, die National-Christliche Verteidigungsliga, weiter zu schwächen"
- ROM_carol_hohenzollern_sigmaringen_leader_desc: "§YGeboren:§! §L15. Oktober 1893, im Schloss Peleş, Sinaia, Kreis Prahova, Königreich Rumänien§!\n§YHintergrund:§! §L$ROM_carol_ii_desc_body$.\n\nJetzt steht der intrigante König jedoch vor einer letzten Hürde auf dem Weg zur Erlösung seines Landes: der Legionärsbewegung, die er einst unterstützte, und ihrem zwielichtigen Hauptmann, Corneliu Zelea Codreanu. Während sich die Wolken am Horizont der Nach-Weltkriegsordnung zusammenziehen, sehen sowohl der König als auch der Hauptmann Möglichkeiten, ihr Ziel der nationalen Einigung zu erreichen und die Macht des anderen zu brechen, und der König, obwohl ein unvollkommener Mann, wird jede Gelegenheit nutzen, die sich ihm bietet, um sich als unangefochtene Sonne seines Landes zu etablieren.§!"
- ROM_carol_hohenzollern_sigmaringen_restoration_leader_desc: "§YGeboren:§! §L15. Oktober 1893, im Schloss Peleş, Sinaia, Kreis Prahova, Königreich Rumänien§!\n§YHintergrund:§! §L$ROM_carol_ii_desc_body$, und jetzt hat er sie im Zuge des Stelescu-Vorfalls ebenfalls verworfen.\n\nJetzt regiert er unangefochten über Rumänien und plant, seine nun unangreifbare Position zu nutzen, um Rumänien zu einem wahren regionalen Machtzentrum aufzubauen, das auf einer starken Industrie, einer üppigen Landwirtschaft und einer blühenden Kultur basiert und unter der festen Hand und dem unerschütterlichen Blick des Königs vereint ist. Komme, was wolle, das vereinte rumänische Volk wird in eine strahlende Zukunft geführt werden, und es wird für immer der Führung seines visionären Monarchen zu Dank verpflichtet sein.§!"
+ROM_carol_hohenzollern_sigmaringen: "Carol II"
+ROM_carol_hohenzollern_sigmaringen_desc_body: " Damals, als er noch der Kronprinz war, schien Carol II. von Rumänien eine höchst ungeeignete Person zu sein, um den rumänischen Thron zu besteigen, wie der Zizi Lambrino-Zwischenfall in den letzten Tagen des Weltkriegs zeigte. Der Verlust seines Landes traf ihn jedoch hart, und als er die Unzufriedenheit sah, in die sein zukünftiges Königreich geraten war, schwor er sich, das Land wieder zu dem zu machen, was es eigentlich sein sollte. Als autokratischer Charmeur par excellence nutzte er die kleine, aber aufstrebende Legionärsbewegung als Vorschlaghammer, um die untergehende PNL und die alten Rivalen der Legionäre, die National-Christliche Verteidigungsliga, weiter zu schwächen"
+ROM_carol_hohenzollern_sigmaringen_leader_desc: "§YGeboren:§! §L15. Oktober 1893, im Schloss Peleş, Sinaia, Kreis Prahova, Königreich Rumänien§!\n§YHintergrund:§! §L$ROM_carol_ii_desc_body$.\n\nJetzt steht der intrigante König jedoch vor einer letzten Hürde auf dem Weg zur Erlösung seines Landes: der Legionärsbewegung, die er einst unterstützte, und ihrem zwielichtigen Hauptmann, Corneliu Zelea Codreanu. Während sich die Wolken am Horizont der Nach-Weltkriegsordnung zusammenziehen, sehen sowohl der König als auch der Hauptmann Möglichkeiten, ihr Ziel der nationalen Einigung zu erreichen und die Macht des anderen zu brechen, und der König, obwohl ein unvollkommener Mann, wird jede Gelegenheit nutzen, die sich ihm bietet, um sich als unangefochtene Sonne seines Landes zu etablieren.§!"
+ROM_carol_hohenzollern_sigmaringen_restoration_leader_desc: "§YGeboren:§! §L15. Oktober 1893, im Schloss Peleş, Sinaia, Kreis Prahova, Königreich Rumänien§!\n§YHintergrund:§! §L$ROM_carol_ii_desc_body$, und jetzt hat er sie im Zuge des Stelescu-Vorfalls ebenfalls verworfen.\n\nJetzt regiert er unangefochten über Rumänien und plant, seine nun unangreifbare Position zu nutzen, um Rumänien zu einem wahren regionalen Machtzentrum aufzubauen, das auf einer starken Industrie, einer üppigen Landwirtschaft und einer blühenden Kultur basiert und unter der festen Hand und dem unerschütterlichen Blick des Königs vereint ist. Komme, was wolle, das vereinte rumänische Volk wird in eine strahlende Zukunft geführt werden, und es wird für immer der Führung seines visionären Monarchen zu Dank verpflichtet sein.§!"
 
- ROM_nicolae_hohenzollern_sigmaringen: "Nicolae I"
- ROM_nicolae_hohenzollern_sigmaringen_leader_desc: "§YGeboren:§! §L5. August 1903, im Schloss Peleş, Sinaia, Kreis Prahova, Königreich Rumänien§!\n§YHintergrund:§! §L 1903 als viertes Kind von König Ferdinand und Königin Maria von Rumänien geboren, schien Prinz Nicolae ein einfaches Leben zu führen. Frei von der Verantwortung, die mit dem ältesten Sohn verbunden war - obwohl einige Schrecknisse wie der Lambrino-Skandal zu Diskussionen darüber führten, ob Nicolae für die Herrschaft vorbereitet werden sollte -, entwickelte der jüngere Prinz eine Leidenschaft für Sport, Autos und das Leben der High-Society. Trotz der Proteste seiner Mutter verliebte er sich in eine Frau, Ioana Dumitrescu-Doletti, Schwiegertochter des liberalen Politikers Nicolae N. Saveanu, die sich von ihrem damaligen Ehemann scheiden ließ, um an der Seite ihres neuen Liebhabers zu sein. Im Gegensatz zu seinem Bruder heiratete Nicolae seine Geliebte jedoch direkt, was gegen das Statut des Königshauses verstieß und zu einem Bruch zwischen ihm und seinem Bruder führte; ein Bruch, der ihn dazu brachte, sich der Legionärsbewegung anzunähern.\n\nNach der Abdankung seines Bruders stimmte Nicolae einem Deal zwischen ihm und den aufstrebenden Legionären zu, bei dem er den Thron übernehmen würde, wenn das Statut des Königshauses entsprechend geändert würde, um seine Ehe mit Ioana zu legitimieren. Jetzt, als König, zeigt er weiterhin kein großes Interesse an politischen Angelegenheiten und zieht es vor, sich stattdessen auf seine eigenen Unternehmungen und Hobbys zu konzentrieren.§!"
+ROM_nicolae_hohenzollern_sigmaringen: "Nicolae I"
+ROM_nicolae_hohenzollern_sigmaringen_leader_desc: "§YGeboren:§! §L5. August 1903, im Schloss Peleş, Sinaia, Kreis Prahova, Königreich Rumänien§!\n§YHintergrund:§! §L 1903 als viertes Kind von König Ferdinand und Königin Maria von Rumänien geboren, schien Prinz Nicolae ein einfaches Leben zu führen. Frei von der Verantwortung, die mit dem ältesten Sohn verbunden war - obwohl einige Schrecknisse wie der Lambrino-Skandal zu Diskussionen darüber führten, ob Nicolae für die Herrschaft vorbereitet werden sollte -, entwickelte der jüngere Prinz eine Leidenschaft für Sport, Autos und das Leben der High-Society. Trotz der Proteste seiner Mutter verliebte er sich in eine Frau, Ioana Dumitrescu-Doletti, Schwiegertochter des liberalen Politikers Nicolae N. Saveanu, die sich von ihrem damaligen Ehemann scheiden ließ, um an der Seite ihres neuen Liebhabers zu sein. Im Gegensatz zu seinem Bruder heiratete Nicolae seine Geliebte jedoch direkt, was gegen das Statut des Königshauses verstieß und zu einem Bruch zwischen ihm und seinem Bruder führte; ein Bruch, der ihn dazu brachte, sich der Legionärsbewegung anzunähern.\n\nNach der Abdankung seines Bruders stimmte Nicolae einem Deal zwischen ihm und den aufstrebenden Legionären zu, bei dem er den Thron übernehmen würde, wenn das Statut des Königshauses entsprechend geändert würde, um seine Ehe mit Ioana zu legitimieren. Jetzt, als König, zeigt er weiterhin kein großes Interesse an politischen Angelegenheiten und zieht es vor, sich stattdessen auf seine eigenen Unternehmungen und Hobbys zu konzentrieren.§!"
 
- ROM_mihai_hohenzollern_sigmaringen: "Mihai I"
- ROM_mihai_hohenzollern_sigmaringen_desc_body: "Born to Crown Prince Carol and Princess Helen of Greece in 1921, the young Prince Mihai was marked by his family's tumultuous life and his country's malaise after the loss in the Weltkrieg. He has seen much over his relatively short life, and now he finally takes the throne after the fierce power struggle between his father the King and the then-Prime Minister, Corneliu Zelea Codreanu."
- ROM_mihai_hohenzollern_sigmaringen_leader_desc: "§YGeboren:§! §L25. Oktober 1921, im Schloss Peleş, Sinaia, Kreis Prahova, Königreich Rumänien§!\n§YHintergrund:§! §L$ROM_mihai_hohenzollern_sigmaringen_desc_body$\n\nEin weitaus zurückhaltenderes Individuum als sein bombastischer Vater. Mihais tiefe Anglophilie und seine Wertschätzung für die britische Monarchie trieben ihn dazu, mit der Erneuerung des dramatisch geschwächten demokratischen Prozesses in seinem Land zu beginnen, da er darin den Weg sieht, die schmerzhaften Wunden, die nach der Niederlage im Großen Krieg aufgerissen wurden, wirklich zu heilen und die nationale Einigung zu flicken. Es mag eine schwere Last für seine jungen Schultern sein, aber der König ist der Meinung, dass mit der richtigen Führung sowohl er als auch sein Land alle Widrigkeiten überwinden und als Einheit voranschreiten werden.§!"
- ROM_mihai_hohenzollern_sigmaringen_legion_leader_desc: "§YGeboren:§! §L25. Oktober 1921, im Schloss Peleş, Sinaia, Kreis Prahova, Königreich Rumänien§!\n§YHintergrund:§! §L$ROM_mihai_hohenzollern_sigmaringen_desc_body$\n\nObwohl er die Demokratie mehr schätzt als sein ehrgeiziger Vater, zwingt ihn die Legionärsdominanz seiner Regierung zur Zurückhaltung. Obwohl er gerne irgendwann die Herrschaft der Demokratie in seinem Heimatland wiederherstellen und den Traum seines Großvaters Ferdinand erfüllen würde, ist der Würgegriff der Grünen Hydra über sein Land zum jetzigen Zeitpunkt zu gewaltig, um sich davon zu lösen. Zwar sind sie nicht gegen ihn vorgegangen, aber die Grünhemden haben aus ihren Fehlern mit König Carol gelernt, und nun halten die Männer des Erzengels ein wachsames Auge über Mihais eigene Unternehmungen. Obwohl er in seinem Interesse an Autos und Flugzeugen Erleichterung findet, hat der junge König eine gewisse Angst, dass er sich den Zorn der Grünhemden zuzieht, wenn er etwas falsch macht, was ihn zwingt, ihre Projekte zumindest vorerst stillschweigend zu dulden. Dennoch hofft der junge König, dass er eines Tages die Chance haben wird, die Legion endlich von ihrem Thron zu stoßen, die Demokratie wiederherzustellen und die Wunden seiner Nation zu heilen.§!"
- ROM_mihai_hohenzollern_sigmaringen_advisor_desc: "§YGeboren:§! §LOctober 25th, 1921, in Peleş Castle, Sinaia, Prahova County, Kingdom of Romania§!"
+ROM_mihai_hohenzollern_sigmaringen: "Mihai I"
+ROM_mihai_hohenzollern_sigmaringen_desc_body: "Born to Crown Prince Carol and Princess Helen of Greece in 1921, the young Prince Mihai was marked by his family's tumultuous life and his country's malaise after the loss in the Weltkrieg. He has seen much over his relatively short life, and now he finally takes the throne after the fierce power struggle between his father the King and the then-Prime Minister, Corneliu Zelea Codreanu."
+ROM_mihai_hohenzollern_sigmaringen_leader_desc: "§YGeboren:§! §L25. Oktober 1921, im Schloss Peleş, Sinaia, Kreis Prahova, Königreich Rumänien§!\n§YHintergrund:§! §L$ROM_mihai_hohenzollern_sigmaringen_desc_body$\n\nEin weitaus zurückhaltenderes Individuum als sein bombastischer Vater. Mihais tiefe Anglophilie und seine Wertschätzung für die britische Monarchie trieben ihn dazu, mit der Erneuerung des dramatisch geschwächten demokratischen Prozesses in seinem Land zu beginnen, da er darin den Weg sieht, die schmerzhaften Wunden, die nach der Niederlage im Großen Krieg aufgerissen wurden, wirklich zu heilen und die nationale Einigung zu flicken. Es mag eine schwere Last für seine jungen Schultern sein, aber der König ist der Meinung, dass mit der richtigen Führung sowohl er als auch sein Land alle Widrigkeiten überwinden und als Einheit voranschreiten werden.§!"
+ROM_mihai_hohenzollern_sigmaringen_legion_leader_desc: "§YGeboren:§! §L25. Oktober 1921, im Schloss Peleş, Sinaia, Kreis Prahova, Königreich Rumänien§!\n§YHintergrund:§! §L$ROM_mihai_hohenzollern_sigmaringen_desc_body$\n\nObwohl er die Demokratie mehr schätzt als sein ehrgeiziger Vater, zwingt ihn die Legionärsdominanz seiner Regierung zur Zurückhaltung. Obwohl er gerne irgendwann die Herrschaft der Demokratie in seinem Heimatland wiederherstellen und den Traum seines Großvaters Ferdinand erfüllen würde, ist der Würgegriff der Grünen Hydra über sein Land zum jetzigen Zeitpunkt zu gewaltig, um sich davon zu lösen. Zwar sind sie nicht gegen ihn vorgegangen, aber die Grünhemden haben aus ihren Fehlern mit König Carol gelernt, und nun halten die Männer des Erzengels ein wachsames Auge über Mihais eigene Unternehmungen. Obwohl er in seinem Interesse an Autos und Flugzeugen Erleichterung findet, hat der junge König eine gewisse Angst, dass er sich den Zorn der Grünhemden zuzieht, wenn er etwas falsch macht, was ihn zwingt, ihre Projekte zumindest vorerst stillschweigend zu dulden. Dennoch hofft der junge König, dass er eines Tages die Chance haben wird, die Legion endlich von ihrem Thron zu stoßen, die Demokratie wiederherzustellen und die Wunden seiner Nation zu heilen.§!"
+ROM_mihai_hohenzollern_sigmaringen_advisor_desc: "§YGeboren:§! §L25. Oktober 1921, im Schloss Peleş, Sinaia, Kreis Prahova, Königreich Rumänien§!"
 
- ROM_mihail_sturdza: "Mihail Sturdza"
- ROM_mihail_sturdza_regnal: "Mihai I."
- ROM_mihail_sturdza_leader_desc: "§YGeboren:§! §L28. August 1886, in Târgu Ocna, Kreis Bacău, Königreich Rumänien§!\n§YHintergrund:§! §L Der 1886 als Fürst Mihail Sturdza in eine angesehene Fürstenfamilie geborene, neu gekrönte $ROM_mihail_sturdza_regnal$ ist alles, was Carol II. nicht war: erfahren, hart, ein überzeugter Anhänger der Legionärsbewegung und aus einer jahrhundertealten rumänischen Familie stammend, im Gegensatz zu den Hohenzollern-Sigmaringens. Er kämpfte im Ersten Weltkrieg und fühlte sich danach immer mehr zur Legionärsbewegung hingezogen, deren Sprecher er in hohen diplomatischen Kreisen war. Seine persönliche Philosophie des Regierens ist, dass Rumänien wie eine Kaserne geführt werden sollte - gut organisiert, militarisiert, zielgerichtet. Die Feinde Rumäniens - die Kommunisten und die Korrupten - müssen unermüdlich bekämpft werden. Sein Hauptinteresse gilt jedoch der Außenpolitik. Als Berufsdiplomat verfügt König $ROM_mihail_sturdza_regnal$ über ein weites Netz von Kontakten in ganz Europa und hat sogar die Hoffnung geäußert, ein Bündnis gleichgesinnter Staaten in der süd- und osteuropäischen Region aufzubauen.§!"
- ROM_mihail_sturdza_advisor_desc: "§YGeboren:§! §LAugust 28th, 1886, in Târgu Ocna, Bacău County, Kingdom of Romania§!"
+ROM_mihail_sturdza: "Mihail Sturdza"
+ROM_mihail_sturdza_regnal: "Mihai I."
+ROM_mihail_sturdza_leader_desc: "§YGeboren:§! §L28. August 1886, in Târgu Ocna, Kreis Bacău, Königreich Rumänien§!\n§YHintergrund:§! §L Der 1886 als Fürst Mihail Sturdza in eine angesehene Fürstenfamilie geborene, neu gekrönte $ROM_mihail_sturdza_regnal$ ist alles, was Carol II. nicht war: erfahren, hart, ein überzeugter Anhänger der Legionärsbewegung und aus einer jahrhundertealten rumänischen Familie stammend, im Gegensatz zu den Hohenzollern-Sigmaringens. Er kämpfte im Ersten Weltkrieg und fühlte sich danach immer mehr zur Legionärsbewegung hingezogen, deren Sprecher er in hohen diplomatischen Kreisen war. Seine persönliche Philosophie des Regierens ist, dass Rumänien wie eine Kaserne geführt werden sollte - gut organisiert, militarisiert, zielgerichtet. Die Feinde Rumäniens - die Kommunisten und die Korrupten - müssen unermüdlich bekämpft werden. Sein Hauptinteresse gilt jedoch der Außenpolitik. Als Berufsdiplomat verfügt König $ROM_mihail_sturdza_regnal$ über ein weites Netz von Kontakten in ganz Europa und hat sogar die Hoffnung geäußert, ein Bündnis gleichgesinnter Staaten in der süd- und osteuropäischen Region aufzubauen.§!"
+ROM_mihail_sturdza_advisor_desc: "§YGeboren:§! §L28. August 1886, in Târgu Ocna, Kreis Bacău, Königreich Rumänien§!"
 
- ROM_petre_dumitrescu: "Petre Dumitrescu"
- ROM_petre_dumitrescu_leader_desc: "§YGeboren:§! §L18. Februar 1882, in Dobridor, Kreis Dolj, Königreich Rumänien§!"
+ROM_petre_dumitrescu: "Petre Dumitrescu"
+ROM_petre_dumitrescu_leader_desc: "§YGeboren:§! §L18. Februar 1882, in Dobridor, Kreis Dolj, Königreich Rumänien§!"
 
- ROM_ion_antonescu: "Ion Antonescu"
- ROM_ion_antonescu_army_chief_desc: "§YGeboren:§! §L2. Juni 1882, in Pitesti, Kreis Arges, Königreich Rumänien§!"
+ROM_ion_antonescu: "Ion Antonescu"
+ROM_ion_antonescu_army_chief_desc: "§YGeboren:§! §L2. Juni 1882, in Pitesti, Kreis Arges, Königreich Rumänien§!"
 
- ROM_gheorghe_argeseanu: "Gheorghe Argeşanu"
- ROM_gheorghe_argeseanu_army_chief_desc: "§YGeboren:§! §L28. Februar 1883, in Caracal, Kreis Romanati, Königreich Rumänien§!"
+ROM_gheorghe_argeseanu: "Gheorghe Argeşanu"
+ROM_gheorghe_argeseanu_army_chief_desc: "§YGeboren:§! §L28. Februar 1883, in Caracal, Kreis Romanati, Königreich Rumänien§!"
 
- ROM_gheorghe_avramescu: "Gheorghe Avramescu"
- ROM_gheorghe_avramescu_high_command_desc: "§YGeboren:§! §L26. Januar 1884, in Botosani, Kreis Botosani, Königreich Rumänien§!"
+ROM_gheorghe_avramescu: "Gheorghe Avramescu"
+ROM_gheorghe_avramescu_high_command_desc: "§YGeboren:§! §L26. Januar 1884, in Botosani, Kreis Botosani, Königreich Rumänien§!"
 
- ROM_ioan_racovita: "Ioan Racovita"
- ROM_ioan_racovita_high_command_desc: "§YGeboren:§! §L7. März 1889, in Bukarest, Kreis Ilfov, Königreich Rumänien§!"
+ROM_ioan_racovita: "Ioan Racovita"
+ROM_ioan_racovita_high_command_desc: "§YGeboren:§! §L7. März 1889, in Bukarest, Kreis Ilfov, Königreich Rumänien§!"
 
- ROM_constantin_constantinescu_claps: "Constantin Constantinescu-Claps"
- ROM_constantin_constantinescu_claps_army_chief_desc: "§YGeboren:§! §L20. Februar 1884, in Beceni, Kreis Buzău, Königreich Rumänien§!"
+ROM_constantin_constantinescu_claps: "Constantin Constantinescu-Claps"
+ROM_constantin_constantinescu_claps_army_chief_desc: "§YGeboren:§! §L20. Februar 1884, in Beceni, Kreis Buzău, Königreich Rumänien§!"
 
- ROM_nicolae_macici: "Nicolae Macici"
- ROM_nicolae_macici_commander_desc: "§YGeboren:§! §L7. November 1886, in Craiova, Kreis Dolj, Königreich Rumänien§!"
+ROM_nicolae_macici: "Nicolae Macici"
+ROM_nicolae_macici_commander_desc: "§YGeboren:§! §L7. November 1886, in Craiova, Kreis Dolj, Königreich Rumänien§!"
 
- ROM_constantin_pantazi: "Constantin Pantazi"
- ROM_constantin_pantazi_commander_desc: "§YGeboren:§! §L26. August 1888, in Călărasi, Kreis Ialomita, Königreich Rumänien§!"
+ROM_constantin_pantazi: "Constantin Pantazi"
+ROM_constantin_pantazi_commander_desc: "§YGeboren:§! §L26. August 1888, in Călărasi, Kreis Ialomita, Königreich Rumänien§!"
 
- ROM_nicolae_ciuperca: "Ciupercă"
- ROM_nicolae_ciuperca_theorist_desc: "§YGeboren:§! §L20. April 1882, in Râmnicu Sărat, Kreis Râmnicu Sărat, Königreich Rumänien§!"
+ROM_nicolae_ciuperca: "Ciupercă"
+ROM_nicolae_ciuperca_theorist_desc: "§YGeboren:§! §L20. April 1882, in Râmnicu Sărat, Kreis Râmnicu Sărat, Königreich Rumänien§!"
 
- ROM_ion_glogojanu: "Ion Glogojanu"
- ROM_ion_glogojanu_commander_desc: "§YGeboren:§! §L1. Juli 1888, in Râmnicu Sărat, Kreis Râmnicu Sărat, Königreich Rumänien§!"
+ROM_ion_glogojanu: "Ion Glogojanu"
+ROM_ion_glogojanu_commander_desc: "§YGeboren:§! §L1. Juli 1888, in Râmnicu Sărat, Kreis Râmnicu Sărat, Königreich Rumänien§!"
 
- ROM_leonard_mociulschi: "Leonard Mociulschi"
- ROM_leonard_mociulschi_commander_desc: "§YGeboren:§! §L25. März 1889, in Simincea, Kreis Suceava, Königreich Rumänien§!"
+ROM_leonard_mociulschi: "Leonard Mociulschi"
+ROM_leonard_mociulschi_commander_desc: "§YGeboren:§! §L25. März 1889, in Siminicea, Kreis Suceava, Königreich Rumänien§!"
 
- ROM_dumitru_popescu: "Dumitru Popescu"
- ROM_dumitru_popescu_commander_desc: "§YGeboren:§! §L12. Juli 1883, in Vădeni, Kreis Brăila, Königreich Rumänien§!"
+ROM_dumitru_popescu: "Dumitru Popescu"
+ROM_dumitru_popescu_commander_desc: "§YGeboren:§! §L12. Juli 1883, in Vădeni, Kreis Brăila, Königreich Rumänien§!"
 
- ROM_corneliu_dragalina: "Corneliu Dragalina"
- ROM_corneliu_dragalina_high_command_desc: "§YGeboren:§! §L5. Februar 1887, in Karansebesch, Komitat Krassó-Szörény, Königreich Ungarn, Österreich-Ungarn§!"
+ROM_corneliu_dragalina: "Corneliu Dragalina"
+ROM_corneliu_dragalina_high_command_desc: "§YGeboren:§! §L5. Februar 1887, in Karansebesch, Komitat Krassó-Szörény, Königreich Ungarn, Österreich-Ungarn§!"
 
- ROM_florea_tenescu: "Florea Tenescu"
- ROM_florea_tenescu_high_command_desc: "§YGeboren:§! §L1. April 1884, in Turnu Măgurele, Kreis Teleorman, Königreich Rumänien§!"
+ROM_florea_tenescu: "Florea Tenescu"
+ROM_florea_tenescu_high_command_desc: "§YGeboren:§! §L1. April 1884, in Turnu Măgurele, Kreis Teleorman, Königreich Rumänien§!"
 
- ROM_nicolae_radescu: "Nicolae Radescu"
- ROM_nicolae_radescu_commander_desc: "§YGeboren:§! §L30. März 1874, in Păusesti-Otăsău, Kreis Vâlcea, Königreich Rumänien§!"
+ROM_nicolae_radescu: "Nicolae Radescu"
+ROM_nicolae_radescu_commander_desc: "§YGeboren:§! §L30. März 1874, in Păusesti-Otăsău, Kreis Vâlcea, Königreich Rumänien§!"
 
- ROM_constantin_tobescu: "Constantin Tobescu"
- ROM_constantin_tobescu_commander_desc: "§YGeboren:§! §L28. Januar 1893, in Comani, Kreis Olt, Königreich Rumänien§!"
+ROM_constantin_tobescu: "Constantin Tobescu"
+ROM_constantin_tobescu_commander_desc: "§YGeboren:§! §L28. Januar 1893, in Comani, Kreis Olt, Königreich Rumänien§!"
 
- ROM_horia_macellariu: "Horia Macellariu"
- ROM_horia_macellariu_navy_chief_desc: "§YGeboren:§! §L28. April 1894, in Craiova, Kreis Dolj, Königreich Rumänien§!"
+ROM_horia_macellariu: "Horia Macellariu"
+ROM_horia_macellariu_navy_chief_desc: "§YGeboren:§! §L28. April 1894, in Craiova, Kreis Dolj, Königreich Rumänien§!"
 
- ROM_gheorge_apostol: "Gheorghe Apostol"
- ROM_gheorge_apostol_sic_desc: "§YGeboren:§! §L16. Mai 1913, in Tudor Vladimirescu, Kreis Covurlui, Königreich Rumänien§!"
+ROM_gheorge_apostol: "Gheorghe Apostol"
+ROM_gheorge_apostol_sic_desc: "§YGeboren:§! §L16. Mai 1913, in Tudor Vladimirescu, Kreis Covurlui, Königreich Rumänien§!"
 
- ROM_virgil_madgearu: "Virgil Madgearu"
- ROM_virgil_madgearu_sic_desc: "§YGeboren:§! §L14. Dezember 1887, in Galati, Kreis Covurlui, Königreich Rumänien§!"
+ROM_virgil_madgearu: "Virgil Madgearu"
+ROM_virgil_madgearu_sic_desc: "§YGeboren:§! §L14. Dezember 1887, in Galati, Kreis Covurlui, Königreich Rumänien§!"
 
- ROM_iuliu_maniu: "Iuliu Maniu"
- ROM_iuliu_maniu_sic_desc: "§YGeboren:§! §L8. Januar 1873, in Simleu Silvaniei, Komitat Szilágy, Königreich Ungarn, Österreich-Ungarn§!"
+ROM_iuliu_maniu: "Iuliu Maniu"
+ROM_iuliu_maniu_sic_desc: "§YGeboren:§! §L8. Januar 1873, in Simleu Silvaniei, Komitat Szilágy, Königreich Ungarn, Österreich-Ungarn§!"
 
- ROM_constantin_bratianu: "Constantin Brătianu"
- ROM_constantin_bratianu_sic_desc: "§YGeboren:§! §L20. Mai 1887, in Bukarest, Kreis Ilfov, Königreich Rumänien§!"
+ROM_constantin_bratianu: "Constantin Brătianu"
+ROM_constantin_bratianu_sic_desc: "§YGeboren:§! §L20. Mai 1887, in Bukarest, Kreis Ilfov, Königreich Rumänien§!"
 
- ROM_constantin_angelescu: "Constantin Angelescu"
- ROM_constantin_angelescu_sic_desc: "§YGeboren:§! §L12. Juni 1869, in Craiova, Kreis Dolj, Königreich Rumänien§!"
+ROM_constantin_angelescu: "Constantin Angelescu"
+ROM_constantin_angelescu_sic_desc: "§YGeboren:§! §L12. Juni 1869, in Craiova, Kreis Dolj, Königreich Rumänien§!"
 
- ROM_alexandru_vaida_voevod: "Alexandru Vaida-Voevod"
- ROM_alexandru_vaida_voevod_sic_desc: "§YGeboren:§! §L27. Februar 1872, in Olpret, Komitat Belső-Szolnok, Königreich Ungarn, Österreich-Ungarn§!"
+ROM_alexandru_vaida_voevod: "Alexandru Vaida-Voevod"
+ROM_alexandru_vaida_voevod_sic_desc: "§YGeboren:§! §L27. Februar 1872, in Olpret, Komitat Belső-Szolnok, Königreich Ungarn, Österreich-Ungarn§!"
 
- ROM_armand_calinescu: "Armand Călinescu"
- ROM_armand_calinescu_sic_desc: "§YGeboren:§! §L4. Juni 1893, in Pitesti, Kreis Arges, Königreich Rumänien§!"
+ROM_armand_calinescu: "Armand Călinescu"
+ROM_armand_calinescu_sic_desc: "§YGeboren:§! §L4. Juni 1893, in Pitesti, Kreis Arges, Königreich Rumänien§!"
 
- ROM_corneliu_codreanu: "Corneliu Codreanu"
- ROM_corneliu_codreanu_sic_desc: "§YGeboren:§! §L13. September 1899, in Husi, Kreis Fălciu, Königreich Rumänien§!"
+ROM_corneliu_codreanu: "Corneliu Codreanu"
+ROM_corneliu_codreanu_sic_desc: "§YGeboren:§! §L13. September 1899, in Husi, Kreis Fălciu, Königreich Rumänien§!"
 
- ROM_horia_sima: "Horia Sima"
- ROM_horia_sima_sic_desc: "§YGeboren:§! §L3. Juli 1906, in Mândra, Komitat Fogaras, Königreich Ungarn, Österreich-Ungarn§!"
+ROM_horia_sima: "Horia Sima"
+ROM_horia_sima_sic_desc: "§YGeboren:§! §L3. Juli 1906, in Mândra, Komitat Fogaras, Königreich Ungarn, Österreich-Ungarn§!"
 
- ROM_ion_mota: "Ion Mota"
- ROM_ion_mota_sic_desc: "§YGeboren:§! §L5 July 1902, in Orăstie, Hunyad County, Kingdom of Romania§!"
+ROM_ion_mota: "Ion Mota"
+ROM_ion_mota_sic_desc: "§YGeboren:§! §L5. Juli 1902, in Orăstie, Komitat Hunyad, Königreich Ungarn, Österreich-Ungarn§!"
 
- ROM_ernest_urdrianu: "Ernest Urdărianu"
- ROM_ernest_urdrianu_advisor_desc: "§YGeboren:§! §L1897, im Königreich Rumänien§!"
+ROM_ernest_urdrianu: "Ernest Urdărianu"
+ROM_ernest_urdrianu_advisor_desc: "§YGeboren:§! §L1897, im Königreich Rumänien§!"
 
- ROM_gheorge_clime: "Gheorge Clime"
- ROM_gheorge_clime_advisor_desc: "§YGeboren:§! §L1889, in Oancea, Kreis Covurlui, Königreich Rumänien§!"
+ROM_gheorge_clime: "Gheorge Clime"
+ROM_gheorge_clime_advisor_desc: "§YGeboren:§! §L1889, in Oancea, Kreis Covurlui, Königreich Rumänien§!"
 
- ROM_constantin_papanace: "Constantin Papanace"
- ROM_constantin_papanace_advisor_desc: "§YGeboren:§! §L15. September 1904, in Selia, Provinz Imathia, Königreich Griechenland§!"
+ROM_constantin_papanace: "Constantin Papanace"
+ROM_constantin_papanace_advisor_desc: "§YGeboren:§! §L15. September 1904, in Selia, Provinz Imathia, Königreich Griechenland§!"
 
- ROM_grigore_gafencu: "Grigore Gafencu"
- ROM_grigore_gafencu_advisor_desc: "§YGeboren:§! §L30. Januar 1892, in Bârlad, Kreis Tutova, Königreich Rumänien§!"
+ROM_grigore_gafencu: "Grigore Gafencu"
+ROM_grigore_gafencu_advisor_desc: "§YGeboren:§! §L30. Januar 1892, in Bârlad, Kreis Tutova, Königreich Rumänien§!"
 
- ROM_gheorge_tatarescu: "Gheorghe Tătărescu"
- ROM_gheorge_tatarescu_advisor_desc: "§YGeboren:§! §L2. November 1886, in Târgu Jiu, Kreis Gorj, Königreich Rumänien§!"
+ROM_gheorge_tatarescu: "Gheorghe Tătărescu"
+ROM_gheorge_tatarescu_advisor_desc: "§YGeboren:§! §L2. November 1886, in Târgu Jiu, Kreis Gorj, Königreich Rumänien§!"
 
- ROM_victor_slavescu: "Victor Slăvescu"
- ROM_victor_slavescu_advisor_desc: "§YGeboren:§! §L5. Juni 1891, in Rucăr, Kreis Arges, Königreich Rumänien§!"
+ROM_victor_slavescu: "Victor Slăvescu"
+ROM_victor_slavescu_advisor_desc: "§YGeboren:§! §L5. Juni 1891, in Rucăr, Kreis Arges, Königreich Rumänien§!"
 
- ROM_max_auschnitt: "Max Auschnitt"
- ROM_max_auschnitt_advisor_desc: "§YGeboren:§! §L14. Februar 1888, in Galati, Kreis Covurlui, Königreich Rumänien§!"
+ROM_max_auschnitt: "Max Auschnitt"
+ROM_max_auschnitt_advisor_desc: "§YGeboren:§! §L14. Februar 1888, in Galati, Kreis Covurlui, Königreich Rumänien§!"
 
- ROM_nicolae_malaxa: "Nicolae Malaxa"
- ROM_nicolae_malaxa_advisor_desc: "§YGeboren:§! §L22. Dezember 1884, in Husi, Kreis Fălciu, Königreich Rumänien§!"
+ROM_nicolae_malaxa: "Nicolae Malaxa"
+ROM_nicolae_malaxa_advisor_desc: "§YGeboren:§! §L22. Dezember 1884, in Husi, Kreis Fălciu, Königreich Rumänien§!"
 
- ROM_mikhail_moruzov: "Mihail Moruzov"
- ROM_mikhail_moruzov_advisor_desc: "§YGeboren:§! §L8. November 1887, in Zebil, Kreis Tulcea, Königreich Rumänien§!"
+ROM_mikhail_moruzov: "Mihail Moruzov"
+ROM_mikhail_moruzov_advisor_desc: "§YGeboren:§! §L8. November 1887, in Zebil, Kreis Tulcea, Königreich Rumänien§!"
 
- ROM_dimitrie_gusti: "Dimitrie Gusti"
- ROM_dimitrie_gusti_advisor_desc: "§YGeboren:§! §L13. Februar 1880, in Iasi, Kreis Iasi, Königreich Rumänien§!"
+ROM_dimitrie_gusti: "Dimitrie Gusti"
+ROM_dimitrie_gusti_advisor_desc: "§YGeboren:§! §L13. Februar 1880, in Iasi, Kreis Iasi, Königreich Rumänien§!"
 
- ROM_emanoil_ionescu: "Emanoil Ionescu"
- ROM_emanoil_ionescu_theorist_desc: "§YGeboren:§! §L17. März 1893, in Movileni, Kreis Olt, Königreich Rumänien§!"
+ROM_emanoil_ionescu: "Emanoil Ionescu"
+ROM_emanoil_ionescu_theorist_desc: "§YGeboren:§! §L17. März 1893, in Movileni, Kreis Olt, Königreich Rumänien§!"
 
- ROM_ermil_gheorghiu: "Ermil Gheorghiu"
- ROM_ermil_gheorghiu_air_chief_desc: "§YGeboren:§! §L13. Februar 1896, in Botosani, Kreis Botosani, Königreich Rumänien§!"
+ROM_ermil_gheorghiu: "Ermil Gheorghiu"
+ROM_ermil_gheorghiu_air_chief_desc: "§YGeboren:§! §L13. Februar 1896, in Botosani, Kreis Botosani, Königreich Rumänien§!"
 
- ROM_gheorghe_jienescu: "Gheorghe Jienescu"
- ROM_gheorghe_jienescu_air_chief_desc: "§YGeboren:§! §L16. September 1894, in Rast, Kreis Dolj, Königreich Rumänien§!"
+ROM_gheorghe_jienescu: "Gheorghe Jienescu"
+ROM_gheorghe_jienescu_air_chief_desc: "§YGeboren:§! §L16. September 1894, in Rast, Kreis Dolj, Königreich Rumänien§!"
+
+ROM_alexandrina_cantacuzino: "Alexandrina Cantacuzino"
+ROM_alexandrina_cantacuzino_advisor_desc: "§YGeboren:§! §L20. September 1876, in Ciocănesti, Kreis Dâmbovita, Königreich Rumänien§!"

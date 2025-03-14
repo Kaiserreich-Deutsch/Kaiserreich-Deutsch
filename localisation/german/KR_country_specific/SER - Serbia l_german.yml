@@ -1,6 +1,11 @@
 ﻿l_german:
 ### übersetzt von Proho ###
-serbia_focus: "Schwerpunktbaum von Serbien"
+ serbia_focus: "Schwerpunktbaum von Serbien"
+
+### Factions ###
+ balkan_socialist_federation: "Sozialistische Föderation des Balkans" #created by SER_YUG_balkan_socialist_federation focus and renamed by SER_YUG_balkan_socialist_federation focus
+ belgrade_pact: "Belgrader Pakt" #created by pact.1 event
+ non_aligned_movement: "Blockfreie Bewegung" #created by SER_YUG_anti_imperialist_vanguard focus and renamed by SER_YUG_anti_imperialist_vanguard focus
 
 ### Traits ###
  SER_vodja: "Die Vođa"
@@ -13,11 +18,11 @@ serbia_focus: "Schwerpunktbaum von Serbien"
  SER_totalist_party: "SRP (Pelagićevci)"
  SER_totalist_party_long: "Srpski komunistički revolucionarni savez "Pelagić" (Serbische kommunistische Revolutionäre Allianz "Pelagić")"
  SER_syndicalist_party: "SRP (CRSV)"
-SER_syndicalist_party_long: "Centralno radničko sindikalno veće (Zentrale Arbeiter-Gewerkschaft)"
-SER_radical_socialist_party: "SRP"
-SER_radical_socialist_party_long: "Socijalistička radnička partija (Sozialistische Arbeiter Partei)"
-SER_social_democrat_party: "SPS"
-SER_social_democrat_party_long: "Socijalistička partija Srbije (Sozialistische Partei Serbiens)"
+ SER_syndicalist_party_long: "Centralno radničko sindikalno veće (Zentrale Arbeiter-Gewerkschaft)"
+ SER_radical_socialist_party: "SRP"
+ SER_radical_socialist_party_long: "Socijalistička radnička partija (Sozialistische Arbeiter Partei)"
+ SER_social_democrat_party: "SPS"
+ SER_social_democrat_party_long: "Socijalistička partija Srbije (Sozialistische Partei Serbiens)"
  SER_social_liberal_party: "Republikanska stranka"
  SER_social_liberal_party_long: "Srpska republikanska stranka (Serbische Republikanische Partei)"
  SER_market_liberal_party: "NRS"
@@ -26,8 +31,8 @@ SER_social_democrat_party_long: "Socijalistička partija Srbije (Sozialistische 
  SER_social_conservative_party_long: "Zemljoradnička stranka (Bauernpartei)"
  SER_authoritarian_democrat_party: "DSDS"
  SER_authoritarian_democrat_party_long: "Državnotvorna stranka demokrata Srba (Staatliche Partei der serbischen Demokraten)"
-SER_paternal_autocrat_party: "Bela ruka"
-SER_paternal_autocrat_party_long: "Bela ruka (Weiße Hand)"
+ SER_paternal_autocrat_party: "Bela ruka"
+ SER_paternal_autocrat_party_long: "Bela ruka (Weiße Hand)"
  SER_national_populist_party: "Konspiracija"
  SER_national_populist_party_long: "Konspiracija (Verschwörung) / Srpski kulturni klub (Serbischer Kulturclub)"
 
@@ -148,16 +153,16 @@ SER_paternal_autocrat_party_long: "Bela ruka (Weiße Hand)"
  SER_farming_subsidies: "Agrarsubventionen"
  SER_farming_subsidies_desc: "Um sicherzustellen, dass die serbische Wirtschaft flott bleibt, muss der Staat eine direktere Rolle in der Landwirtschaft übernehmen und eingreifen, um eine stabile Produktion, stabile Preise und stabile Exporte zu gewährleisten."
 
-SER_state_railways_directorate: "Staatliche Eisenbahndirektion"
-SER_state_railways_directorate_desc: "Die neu zentralisierte Direktion der serbischen Staatsbahnen bringt das Eigentum an allen Eisenbahnen des Landes unter eine einzige Organisation. Da der interne Wettbewerb ausgeschaltet ist, kann die Direktion nun daran arbeiten, die bestehenden Eisenbahnen in jeden Winkel Serbiens zu erweitern."
+ SER_state_railways_directorate: "Staatliche Eisenbahndirektion"
+ SER_state_railways_directorate_desc: "Die neu zentralisierte Direktion der serbischen Staatsbahnen bringt das Eigentum an allen Eisenbahnen des Landes unter eine einzige Organisation. Da der interne Wettbewerb ausgeschaltet ist, kann die Direktion nun daran arbeiten, die bestehenden Eisenbahnen in jeden Winkel Serbiens zu erweitern."
 
-SER_military_reform_council: "Militärischer Reformrat"
-SER_military_reform_council_desc: "Unter der Leitung von General Milan Nedić wurde der Militärreformrat mit dem Ziel gegründet, die klägliche serbische Armee durch eine Reihe von rigorosen Reformen zu modernisieren."
+ SER_military_reform_council: "Militärischer Reformrat"
+ SER_military_reform_council_desc: "Unter der Leitung von General Milan Nedić wurde der Militärreformrat mit dem Ziel gegründet, die klägliche serbische Armee durch eine Reihe von rigorosen Reformen zu modernisieren."
 
-SER_local_designs_idea: "Lokale Entwürfe"
-SER_local_designs_idea_desc: "Der Zugang zu ausländischen Designs hat es serbischen Talenten ermöglicht, ihre eigenen lokalen Produkte zu entwerfen."
+ SER_local_designs_idea: "Lokale Entwürfe"
+ SER_local_designs_idea_desc: "Der Zugang zu ausländischen Designs hat es serbischen Talenten ermöglicht, ihre eigenen lokalen Produkte zu entwerfen."
 
-SER_airforce_idea: "Serbische Luftwaffen Doktrin"
+ SER_airforce_idea: "Serbische Luftwaffen Doktrin"
  SER_airforce_idea_desc: "Serbien hat mit Hilfe ausländischer Berater und einheimischer Talente eine moderne Luftwaffendoktrin eingeführt."
 
  SER_russian_aerial_expertise: "Russische Luftfahrtexpertise"
@@ -166,8 +171,8 @@ SER_airforce_idea: "Serbische Luftwaffen Doktrin"
  SER_french_aerial_expertise: "Französische Luftfahrtexpertise"
  SER_french_aerial_expertise_desc: "Serbien hat sich an französische Berater gewandt, die bei der Ausbildung seiner neuen Piloten helfen sollen."
 
-SER_naval_investments: "Marine-Investitionen"
-SER_naval_investments_desc: "Die Regierung investiert erhebliche Mittel in den Schiffbau, was einen spürbaren Teil des Budgets in Anspruch nimmt und gleichzeitig die Schiffbauer anspornt."
+ SER_naval_investments: "Marine-Investitionen"
+ SER_naval_investments_desc: "Die Regierung investiert erhebliche Mittel in den Schiffbau, was einen spürbaren Teil des Budgets in Anspruch nimmt und gleichzeitig die Schiffbauer anspornt."
 
  SER_republican_guard: "Die Republikanische Garde"
  SER_republican_guard_desc: "Um uns vor der Gefahr eines Militärputsches zu schützen, müssen wir immer ein bewaffnetes Rückgrat haben - und eine militarisierte öffentliche Organisation, die sich der Verteidigung der republikanischen Ideen verschrieben hat, ist die Lösung, die wir gefunden haben."
@@ -532,7 +537,7 @@ SER_naval_investments_desc: "Die Regierung investiert erhebliche Mittel in den S
  SER_IMRO_spawned_resistance: "Gestörtes Kommunikationsnetz"
  SER_IMRO_mountain_warfare: "Kartierte Gebirgspässe"
  SER_imro_decisions: "Interne Mazedonische Revolutionäre Organisation"
- SER_imro_decisions_desc: "\nDie serbische Armee hat die Kontrolle über weite Teile Mazedoniens an die IMRO verloren, und uns steht ein schwieriger Guerillakrieg bevor.\n\nWährend des IMRO-Aufstandes kann der Staat Mazedonien zwei Phasen durchlaufen: §YRuhe§! und §YAktion§!.\n\n - In der §YRuhephase§! können weder Serbien noch die IMRO die jeweils andere Seite angreifen, und Serbien kann keine Divisionen in Mazedonien stationieren. Stattdessen findet der Konflikt in Form von rundenbasierten Entscheidungen statt, einem Spiel zwischen Serbien und der KI-gesteuerten IMRO, bei dem beide Seiten den Angriffspunkt der anderen erraten müssen. Wenn Serbien dieselbe Region §Yverstärkt§! die IMRO §Yangreift§!, gewinnen sie eine Runde - wenn IMRO eine Region §Yangreift§!, die nicht §Yverteidigt§! ist, gewinnt es eine Runde.\n   Der Beste von drei gewinnt die Ruhe-Runde - und der Gewinner erhöht oder verringert den Widerstand im Staat.\n\n - Während der §YAktionsphase§! wird das Verbot, Truppen nach Mazedonien zu verlegen, aufgehoben, aber beide Seiten bleiben durch massive Schwächungen von §YDivisionsgeschwindigkeit§!, §YAngriff§! und §YAbnutzung§! gelähmt, und für den ersten Monat der Phase hat IMRO eine Gnadenfrist mit stark reduziertem §YOrg-Schaden§! und §YStärkeschaden§! Wenn der Widerstand niedrig genug ist, kann Serbien eine §YOffensive§! starten, die Mazedoniens Schwächungen für den Rest der Phase aufhebt und dem serbischen Spieler erlaubt, so viele Provinzen wie möglich in diesem Zeitrahmen einzunehmen. Wenn alle IMRO-Provinzen eingenommen sind, ist die Organisation zerschlagen und der Aufstand beendet. Gelingt es Serbien jedoch nicht, alle Provinzen innerhalb des Zeitrahmens einzunehmen, scheitert die Offensive und die Situation beginnt von vorn.\n\nWährend der Rebellion haben sowohl Serbien als auch IMRO Zugang zu Schwerpunktbäumen, mit denen sie den Fortschritt ihres Gegners behindern können.\n\nVorsicht - wenn der Widerstand 100 Prozent erreicht oder Skopje fällt, ist §RMazedonien verloren!§!\n"
+ SER_imro_decisions_desc: "\nDie serbische Armee hat die Kontrolle über weite Teile Mazedoniens an die IMRO verloren, und uns steht ein schwieriger Guerillakrieg bevor.\n\nWährend des IMRO-Aufstandes kann der Staat Mazedonien zwei Phasen durchlaufen: §YRuhe§! und §YAktion§!.\n\n- In der §YRuhephase§! können weder Serbien noch die IMRO die jeweils andere Seite angreifen, und Serbien kann keine Divisionen in Mazedonien stationieren. Stattdessen findet der Konflikt in Form von rundenbasierten Entscheidungen statt, einem Spiel zwischen Serbien und der KI-gesteuerten IMRO, bei dem beide Seiten den Angriffspunkt der anderen erraten müssen. Wenn Serbien dieselbe Region §Yverstärkt§! die IMRO §Yangreift§!, gewinnen sie eine Runde - wenn IMRO eine Region §Yangreift§!, die nicht §Yverteidigt§! ist, gewinnt es eine Runde.\n   Der Beste von drei gewinnt die Ruhe-Runde - und der Gewinner erhöht oder verringert den Widerstand im Staat.\n\n- Während der §YAktionsphase§! wird das Verbot, Truppen nach Mazedonien zu verlegen, aufgehoben, aber beide Seiten bleiben durch massive Schwächungen von §YDivisionsgeschwindigkeit§!, §YAngriff§! und §YAbnutzung§! gelähmt, und für den ersten Monat der Phase hat IMRO eine Gnadenfrist mit stark reduziertem §YOrg-Schaden§! und §YStärkeschaden§! Wenn der Widerstand niedrig genug ist, kann Serbien eine §YOffensive§! starten, die Mazedoniens Schwächungen für den Rest der Phase aufhebt und dem serbischen Spieler erlaubt, so viele Provinzen wie möglich in diesem Zeitrahmen einzunehmen. Wenn alle IMRO-Provinzen eingenommen sind, ist die Organisation zerschlagen und der Aufstand beendet. Gelingt es Serbien jedoch nicht, alle Provinzen innerhalb des Zeitrahmens einzunehmen, scheitert die Offensive und die Situation beginnt von vorn.\n\nWährend der Rebellion haben sowohl Serbien als auch IMRO Zugang zu Schwerpunktbäumen, mit denen sie den Fortschritt ihres Gegners behindern können.\n\nVorsicht - wenn der Widerstand 100 Prozent erreicht oder Skopje fällt, ist §RMazedonien verloren!§!\n"
  SER_IMRO_reb_lull_phase: "Current phase: §YRuhe§!"
  SER_IMRO_reb_action_phase: "Current phase: §YAktion§!"
  IMRO_attacks_north_tt: "Wenn die IMRO den §YNorden§! angreift, gewinnst du diese Runde. Wenn die IMRO den §YSüden§! angreift, gewinnen sie diese Runde"
@@ -762,8 +767,8 @@ SER_naval_investments_desc: "Die Regierung investiert erhebliche Mittel in den S
  SER_Economic_Development_decisions: "Ländliche Wirtschaftsentwicklung"
  SER_Rural_Credit_Grants: "Kreditvergabe im ländlichen Raum in [FROM.GetName]"
 
-SER_Purchase_HMS_Lion: "Die HMS Lion kaufen"
-SER_Join_Faction: "Beitritt [FROM.GetFactionName]"
+ SER_Purchase_HMS_Lion: "Die HMS Lion kaufen"
+ SER_Join_Faction: "Beitritt [FROM.GetFactionName]"
  SER_YUG_Topple_Tyrants: "Stürzen Sie das Regime in [FROM.GetNameWithFlag]"
  SER_YUG_Spread_Socialism: "Verbreitung des Sozialismus in [FROM.GetNameWithFlag]"
  SER_YUG_Southern_Expansion: "In Südmazedonien einmarschieren"
@@ -771,10 +776,10 @@ SER_Join_Faction: "Beitritt [FROM.GetFactionName]"
  SER_YUG_Invade_Bulgaria: "Unterwerfung Bulgariens"
  SER_YUG_Western_Expansion: "Einmarsch in die Anrainerstaaten"
 
-SER_ready_for_war: "Kriegsbereitschaft erklären"
-SER_ready_for_war_tooltip: "§RSerbien wird sich darauf vorbereiten, Österreich anzugreifen. Wir müssen für den Krieg bereit sein.§!"
+ SER_ready_for_war: "Kriegsbereitschaft erklären"
+ SER_ready_for_war_tooltip: "§RSerbien wird sich darauf vorbereiten, Österreich anzugreifen. Wir müssen für den Krieg bereit sein.§!"
 
-SER_The_Road_To_Unification_decisions: "Der Weg zur Einheit"
+ SER_The_Road_To_Unification_decisions: "Der Weg zur Einheit"
  SER_The_Road_To_Unification_decisions_desc: "Vergeblich droht der Abgrund der Hölle! Vergebens das Feuer des Donners!\nLasst den Stein krachen, die Eiche brechen, lasst die Erde beben!\nDort lebt der slawische Geist, und er wird ewig leben!\n\n§Y Diese Entscheidungskategorie wird mit Invasions- und Entkernungsentscheidungen aktualisiert, wenn sich der Weg zur Vereinigung weiterentwickelt.§!"
  SER_Ultimatum_To_Bulgaria: "Ultimatum an [BUL.GetNameDef]"
  SER_Attack_Austria: "Angriff [AUS.GetNameDef]"
@@ -782,43 +787,43 @@ SER_The_Road_To_Unification_decisions: "Der Weg zur Einheit"
  SER_Form_Yugoslavia: "Jugoslawien bilden"
  SER_Dusan_Proclamation: "Die Dušan Proklamation"
 
-SER_Balkan_Research_Initiative_decisions: "Balkan-Forschungsinitiative"
-SER_Invite_Country: "Einladung [From.GetNameDef]"
+ SER_Balkan_Research_Initiative_decisions: "Balkan-Forschungsinitiative"
 
  SER_economic_council_decision: "Den Organisationspakt bilden"
-SER_economic_council_decision_desc: "Als Teil unseres Wunsches, die Beziehungen zu unseren Verbündeten zu vertiefen und die wirtschaftliche Situation der gesamten Balkanregion zu verbessern, können wir die Bildung einer Wirtschaftsunion vorschlagen. Zu ihrer Leitung wird ein Wirtschaftsrat gebildet, der sich aus Handels- und Finanzexperten der Mitgliedsstaaten zusammensetzt und die Führung des Belgrader Paktes berät. Je mehr Mitglieder zustimmen, desto stärker werden die Vorteile sein."
-SER_economic_council_expansion: "Wirtschaftliche Bindungen vertiefen"
-SER_economic_council_expansion_desc: "Bisher erweist sich die Wirtschaftsunion als sehr vorteilhaft für alle ihre Mitglieder, und wir sind in der Lage, sie weiter zu verbessern, indem wir die vom Wirtschaftsrat vorgeschlagenen neuen Maßnahmen umsetzen."
-SER_economic_council_application: "Anwenden auf den Pakt der Organisation"
-SER_economic_council_application_desc: "Wir haben die ursprüngliche Gründung des Paktes der Organisation wegen des Krieges verpasst, aber jetzt, wo wieder Frieden herrscht, können wir uns erneut bei der Organisation bewerben."
+ SER_economic_council_decision_desc: "Als Teil unseres Wunsches, die Beziehungen zu unseren Verbündeten zu vertiefen und die wirtschaftliche Situation der gesamten Balkanregion zu verbessern, können wir die Bildung einer Wirtschaftsunion vorschlagen. Zu ihrer Leitung wird ein Wirtschaftsrat gebildet, der sich aus Handels- und Finanzexperten der Mitgliedsstaaten zusammensetzt und die Führung des Belgrader Paktes berät. Je mehr Mitglieder zustimmen, desto stärker werden die Vorteile sein."
+ SER_economic_council_expansion: "Wirtschaftliche Bindungen vertiefen"
+ SER_economic_council_expansion_desc: "Bisher erweist sich die Wirtschaftsunion als sehr vorteilhaft für alle ihre Mitglieder, und wir sind in der Lage, sie weiter zu verbessern, indem wir die vom Wirtschaftsrat vorgeschlagenen neuen Maßnahmen umsetzen."
+ SER_economic_council_application: "Anwenden auf den Pakt der Organisation"
+ SER_economic_council_application_desc: "Wir haben die ursprüngliche Gründung des Paktes der Organisation wegen des Krieges verpasst, aber jetzt, wo wieder Frieden herrscht, können wir uns erneut bei der Organisation bewerben."
+ SER_give_BUL_research_slot: "Helft [BUL.GetName] die Lücke zu schließen"
+ SER_give_BUL_research_slot_desc: "Der Traum der Südslawen ist mit der Gründung Jugoslawiens in Erfüllung gegangen. Dennoch dürfen wir unsere Freunde nicht vergessen, insbesondere [BUL.GetName]. Obwohl sie noch vor wenigen Jahren unsere Gegner im Vierten Balkankrieg waren, haben sie inzwischen das Blatt gewendet, das Kriegsbeil begraben und sich dem Belgrader Pakt angeschlossen. Als Führer des Paktes ist es unsere Pflicht, ihre Stabilität und ihren Wohlstand zu sichern und den Weg für einen dauerhaften Frieden auf dem Balkan zu ebnen."
 
 ### Flags ###
-SER_diplomatic_action: "Bereits in Kontakt mit einer Fraktion"
+ SER_diplomatic_action: "Bereits in Kontakt mit einer Fraktion"
  SER_has_completed_1936_elc: "Die Wahl von 1936 ist abgeschlossen"
  SER_curbed_konspiracija_control_flag: "Die Kühnheit der Konspiracija wurde gebremst"
 
 ### Tooltips ###
-SER_founded_belgradepact: "Gründung des Belgrader Paktes"
-joined_belgradepact: "Beitritt zum Belgrader Pakt"
-balkan_war_started: "Der vierte Balkankrieg hat begonnen"
+ SER_founded_belgradepact: "Gründung des Belgrader Paktes"
+ joined_belgradepact: "Beitritt zum Belgrader Pakt"
+ balkan_war_started: "Der vierte Balkankrieg hat begonnen"
 
-SER_will_declare_war_tooltip: "§RAlle Mitglieder des Belgrader Paktes werden uns innerhalb eines Monats den Krieg erklären!§!"
-SER_will_declare_war_allies_tooltip: "§RSerbien wird Österreich innerhalb von zwei Wochen den Krieg erklären, und wir werden aufgefordert werden, das Gleiche zu tun.§!"
+ SER_will_declare_war_tooltip: "§RAlle Mitglieder des Belgrader Paktes werden uns innerhalb eines Monats den Krieg erklären!§!"
+ SER_will_declare_war_allies_tooltip: "§RSerbien wird Österreich innerhalb von zwei Wochen den Krieg erklären, und wir werden aufgefordert werden, das Gleiche zu tun.§!"
 
  SER_Encourage_Yugoslavism_tooltip: "Verringert die Kosten von §HIntegration§!-Entscheidungen."
  SER_Serbian_Mountain_Corps_tooltip: "£nato_unit_mountaineers_icon_small Aufstellen von vier §YGebirgsabteilungen§! mit 5 Bataillonen §YGebirgsinfanterie§!."
  SER_reserve_divisions_tooltip: "£nato_unit_infantry_icon_small Aufstellen von drei §YReserve-Infanteriedivisionen§! mit 8 Bataillonen §YInfanterie§!"
  SER_Local_Designs_tooltip: "Schaltet die Flugzeugkonstrukteure frei: §HAeroput§!, §HRogozarski§! und §HIkarus§!."
-SER_The_Serbian_Airforce_tooltip_RUS: "Ersetzen §H$SER_russian_aerial_expertise$§! und §H$SER_local_designs_idea$§! mit §H$SER_airforce_idea$§!\nEffektive Änderung:\n$MODIFIER_INTERCEPTION_ATTACK_FACTOR$: [?0.1|+=%]\n$MODIFIER_INTERCEPTION_DEFENCE_FACTOR$: [?0.1|+=%]\n$MODIFIER_INTERCEPTION_AGILITY_FACTOR$: [?0.1|+=%]"
-SER_The_Serbian_Airforce_tooltip_NFA: "Ersetzen §H$SER_french_aerial_expertise$§! und §H$SER_local_designs_idea$§! mit §H$SER_airforce_idea$§!\nEffektive Änderung:\n$MODIFIER_INTERCEPTION_ATTACK_FACTOR$: [?0.1|+=%]\n$MODIFIER_INTERCEPTION_DEFENCE_FACTOR$: [?0.1|+=%]\n$MODIFIER_INTERCEPTION_AGILITY_FACTOR$: [?0.1|+=%]"
+ SER_The_Serbian_Airforce_tooltip_RUS: "Ersetzen §H$SER_russian_aerial_expertise$§! und §H$SER_local_designs_idea$§! mit §H$SER_airforce_idea$§!\nEffektive Änderung:\n$MODIFIER_INTERCEPTION_ATTACK_FACTOR$: [?0.1|+=%]\n$MODIFIER_INTERCEPTION_DEFENCE_FACTOR$: [?0.1|+=%]\n$MODIFIER_INTERCEPTION_AGILITY_FACTOR$: [?0.1|+=%]"
+ SER_The_Serbian_Airforce_tooltip_NFA: "Ersetzen §H$SER_french_aerial_expertise$§! und §H$SER_local_designs_idea$§! mit §H$SER_airforce_idea$§!\nEffektive Änderung:\n$MODIFIER_INTERCEPTION_ATTACK_FACTOR$: [?0.1|+=%]\n$MODIFIER_INTERCEPTION_DEFENCE_FACTOR$: [?0.1|+=%]\n$MODIFIER_INTERCEPTION_AGILITY_FACTOR$: [?0.1|+=%]"
 
  SER_the_dream_of_yugoslavia_tooltip: "Gewinnts National Geist §H$SER_the_dream_of_yugoslavia$§, welche gewährt\nDivision Limit: [?8|+=0]\n§H[AUS.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n§H[CRO.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n§H[HUN.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]"
  SER_the_dream_of_yugoslavia_tooltip_no_AUS: "Gewinnts National Geist §H$SER_the_dream_of_yugoslavia$§!, welche gewährt\nDivision Limit: [?8|+=0]\n§H[CRO.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n§H[HUN.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]"
- SER_The_Dream_Fulfilled_tooltip: "Ändern §H$SER_the_dream_of_yugoslavia$§! durch\n$MODIFIER_ARMY_MORALE_FACTOR$: [?0.05|+=%1]\n$MODIFIER_STABILITY_FACTOR$: [?0.05|+=%]"
 
  SER_has_reduced_black_monday: "Hat die Auswirkungen des nationalen Geistes §H$SER_black_monday$§ verringert!"
 
-SER_accepted_bulgaria_union: "Wir akzeptierten den bulgarischen Vorschlag zur jugoslawischen Union"
+ SER_accepted_bulgaria_union: "Wir akzeptierten den bulgarischen Vorschlag zur jugoslawischen Union"
 
  SER_check_decision_tooltip: "Informieren Sie sich auf der Registerkarte §YEntscheidung§! über die Wahlmechanismen und die aktuelle Situation."
 
@@ -838,6 +843,8 @@ SER_accepted_bulgaria_union: "Wir akzeptierten den bulgarischen Vorschlag zur ju
  SER_bulgaria_integration_tooltip: "Nicht integrierte bulgarische Staaten"
 
  SER_in_faction: "ist ein unabhängiges Mitglied einer Fraktion"
+
+ SER_loses_stambo_ally: "§RDie Wiedereinführung der Monarchie wird von unseren republikanischen, jugoslawischen Verbündeten in Bulgarien nicht gern gesehen werden§!"
 
 ### Focuses ###
 
@@ -1201,17 +1208,17 @@ SER_accepted_bulgaria_union: "Wir akzeptierten den bulgarischen Vorschlag zur ju
  SER_Emergency_Economic_Relief: "Stabilisierung des serbischen Dinars"
  SER_Emergency_Economic_Relief_desc: "Die Stabilität des serbischen Dinars, für die Ministerpräsident Vojislav Veljković gesorgt hat, war stets das wichtigste wirtschaftliche Kapital Serbiens. Jetzt, da Europa von einer neuen Wirtschaftskrise heimgesucht wird, müssen wir mit allen Mitteln dafür sorgen, dass dieser Vorteil erhalten bleibt."
 
-SER_Modernise_Belgrade: "Belgrad modernisieren"
-SER_Modernise_Belgrade_desc: "Obwohl sich die Hauptstadt von den Zerstörungen des Weltkriegs erholt hat, bleibt Belgrad im Vergleich zu anderen europäischen Hauptstädten relativ unterentwickelt. Es sind mehr Anstrengungen und Investitionen erforderlich, um die große Stadt in die moderne Welt zu bringen."
+ SER_Modernise_Belgrade: "Belgrad modernisieren"
+ SER_Modernise_Belgrade_desc: "Obwohl sich die Hauptstadt von den Zerstörungen des Weltkriegs erholt hat, bleibt Belgrad im Vergleich zu anderen europäischen Hauptstädten relativ unterentwickelt. Es sind mehr Anstrengungen und Investitionen erforderlich, um die große Stadt in die moderne Welt zu bringen."
 
-SER_Resume_Cash_Crop_Exportation: "Wiederaufnahme des Verkaufs von Feldfrüchten"
-SER_Resume_Cash_Crop_Exportation_desc: "Serbien hat nach wie vor eine sehr agrarische Wirtschaft, aber seine Isolation und die jüngsten wirtschaftlichen Schwierigkeiten haben seinen wichtigsten Importen schweren Schaden zugefügt. Da sich die Marktpreise in der Wirtschaft weitgehend stabilisiert haben, können wir die Agrarexporte wieder aufnehmen und diese Gewinne investieren."
+ SER_Resume_Cash_Crop_Exportation: "Wiederaufnahme des Verkaufs von Feldfrüchten"
+ SER_Resume_Cash_Crop_Exportation_desc: "Serbien hat nach wie vor eine sehr agrarische Wirtschaft, aber seine Isolation und die jüngsten wirtschaftlichen Schwierigkeiten haben seinen wichtigsten Importen schweren Schaden zugefügt. Da sich die Marktpreise in der Wirtschaft weitgehend stabilisiert haben, können wir die Agrarexporte wieder aufnehmen und diese Gewinne investieren."
 
-SER_Form_The_State_Railway_Directorate: "Bilden Sie die staatliche Eisenbahndirektion"
+ SER_Form_The_State_Railway_Directorate: "Bilden Sie die staatliche Eisenbahndirektion"
  SER_Form_The_State_Railway_Directorate_desc: "Currently, our various railways are controlled by three different, competing organisations, which makes investment and expansion an arduous process. To streamline this, we will centralise the directorates into the Serbian State Railway Directorate."
 
-SER_Overhaul_Narrow_Gauge_Railways: "Überholung von Schmalspurbahnen und Straßen"
-SER_Overhaul_Narrow_Gauge_Railways_desc: "Aufgrund der geografischen Lage Serbiens gibt es in dem Land viele Linien, die eine Schmalspur verwenden, um die Kosten zu begrenzen und unwegsames Gelände leichter zu durchqueren. Allerdings haben diese Strecken schon bessere Tage gesehen und wurden oft unter niedrigeren Standards gebaut und könnten eine Generalüberholung gebrauchen, um ihre Kapazität und Qualität zu verbessern. Außerdem müssen die Straßen, die weite Teile unseres ländlichen Raums miteinander verbinden, dringend instand gehalten und ausgebaut werden, um sowohl den Bedürfnissen der einfachen Menschen als auch unseren eigenen strategischen Interessen gerecht zu werden."
+ SER_Overhaul_Narrow_Gauge_Railways: "Überholung von Schmalspurbahnen und Straßen"
+ SER_Overhaul_Narrow_Gauge_Railways_desc: "Aufgrund der geografischen Lage Serbiens gibt es in dem Land viele Linien, die eine Schmalspur verwenden, um die Kosten zu begrenzen und unwegsames Gelände leichter zu durchqueren. Allerdings haben diese Strecken schon bessere Tage gesehen und wurden oft unter niedrigeren Standards gebaut und könnten eine Generalüberholung gebrauchen, um ihre Kapazität und Qualität zu verbessern. Außerdem müssen die Straßen, die weite Teile unseres ländlichen Raums miteinander verbinden, dringend instand gehalten und ausgebaut werden, um sowohl den Bedürfnissen der einfachen Menschen als auch unseren eigenen strategischen Interessen gerecht zu werden."
 
  SER_Hydroelectricity: "Öffnen Sie das Wasserkraftwerk Turica"
  SER_Hydroelectricity_desc: "Der Fluss Đetinja bei Užice wird seit der Jahrhundertwende zur Stromerzeugung genutzt, und mit der fortschreitenden Industrialisierung brauchen wir mehr Strom denn je. Lassen Sie uns ein neues, größeres Wasserkraftwerk an dem Fluss in Betrieb nehmen - mit dem Namen "Turica"."
@@ -1240,8 +1247,8 @@ SER_Overhaul_Narrow_Gauge_Railways_desc: "Aufgrund der geografischen Lage Serbie
  SER_Restore_Paracin_Textile: "Wiederherstellung der Textilindustrie in Paraćin"
  SER_Restore_Paracin_Textile_desc: "Die Stadt Paraćin war eines der wichtigsten Industriezentren im Serbien der Vorkriegszeit, da sie strategisch günstig an einem Verkehrsknotenpunkt der Region lag und eine starke Woll- und Textilindustrie entwickelte. Unter der bulgarischen Herrschaft wurde sie zu einem Rückzugsgebiet und ihre Industrie verfiel - doch nach der Rückkehr in den serbischen Schoß kann sie nun endlich wieder aufgebaut werden."
 
-SER_Found_FOMU: "FOMU gründen"
-SER_Found_FOMU_desc: "Die Waffen- und Munitionsfabrik in Uzice, kurz FOMU, ist einer der wichtigsten serbischen Produzenten von militärischer Ausrüstung und natürlich von Munition. Alles wird in Zukunft gebraucht werden, denn über der Balkanregion braut sich ein Sturm zusammen."
+ SER_Found_FOMU: "FOMU gründen"
+ SER_Found_FOMU_desc: "Die Waffen- und Munitionsfabrik in Uzice, kurz FOMU, ist einer der wichtigsten serbischen Produzenten von militärischer Ausrüstung und natürlich von Munition. Alles wird in Zukunft gebraucht werden, denn über der Balkanregion braut sich ein Sturm zusammen."
 
  SER_Vidovdan_Speech: "Die Rede von Vidovdan"
  SER_Vidovdan_Speech_desc: "Der Vidovdan von 1936 wird anders sein. Während die Welt in einer Wirtschaftskrise versinkt und der Blick des österreichischen Hegemons sich von uns abwendet, bietet sich eine einmalige Chance, den Traum von einem größeren Serbien wieder aufleben zu lassen."
@@ -1249,10 +1256,10 @@ SER_Found_FOMU_desc: "Die Waffen- und Munitionsfabrik in Uzice, kurz FOMU, ist e
  SER_Form_The_Military_Council: "Bildung des Militärrats"
  SER_Form_The_Military_Council_desc: "Der von General Milan Nedić in den vergangenen Jahren vorgeschlagene Reformrat würde einen großen Beitrag zum Ausbau und zur Modernisierung unserer noch jungen Armee leisten. Jetzt, wo wir die Österreicher los sind, ist es an der Zeit, den Vorschlag von Nedić aufzugreifen und seine Reformen in Angriff zu nehmen."
 
-SER_Organise_The_Chetniks: "Organisieren Sie die Tschetniks"
-SER_Organise_The_Chetniks_desc: "Seit dem Ende des Weltkriegs sind die serbischen Tschetniks, die sich so tapfer durch einen letztlich zum Scheitern verurteilten Krieg gekämpft haben, gespalten und ziellos. Indem wir ihre Kommandeure zusammenbringen, können wir eine einheitliche 'Vereinigung der Tschetniks' fördern, die effektiv für serbische Interessen kämpfen kann."
+ SER_Organise_The_Chetniks: "Organisieren Sie die Tschetniks"
+ SER_Organise_The_Chetniks_desc: "Seit dem Ende des Weltkriegs sind die serbischen Tschetniks, die sich so tapfer durch einen letztlich zum Scheitern verurteilten Krieg gekämpft haben, gespalten und ziellos. Indem wir ihre Kommandeure zusammenbringen, können wir eine einheitliche 'Vereinigung der Tschetniks' fördern, die effektiv für serbische Interessen kämpfen kann."
 
-SER_Modernise_The_Engineering_Battalions: "Modernisieren Sie die Ingenieurbataillone"
+ SER_Modernise_The_Engineering_Battalions: "Modernisieren Sie die Ingenieurbataillone"
  SER_Modernise_The_Engineering_Battalions_desc: "Ein unerwartetes Ergebnis unserer raschen Wiederaufrüstung. Unsere Fronttruppen sind zwar schlagkräftig, aber unsere Unterstützungseinheiten sind im übertragenen Sinne ins Hintertreffen geraten. Der Reformrat hat Pläne für ihre Modernisierung, und so wurden sie in die Tat umgesetzt."
 
  SER_Support_Zastava: "Zastava unterstützen"
@@ -1261,14 +1268,14 @@ SER_Modernise_The_Engineering_Battalions: "Modernisieren Sie die Ingenieurbatail
  SER_Training_The_New_Guard: "Ausbildung der neuen Garde"
  SER_Training_The_New_Guard_desc: "Der Weltkrieg endete vor vielen Jahren, und ein Großteil der alten Garde ist entweder gestorben oder weitergezogen. Es ist höchste Zeit, eine neue Klasse von Offizieren auszubilden, die unsere Truppen anführen, bewaffnet mit dem wichtigen Wissen ihrer Vorgänger."
 
-SER_Modern_Howitzers: "Moderne Haubitzen"
-SER_Modern_Howitzers_desc: "General Nedić hat schon immer die Doktrin der "Überwältigenden Feuerkraft" unterstützt, und die mächtige Artillerie bildet ein starkes Rückgrat für seine Pläne. Serbiens Howtizer waren einst gefürchtet, und sie werden wieder gefürchtet sein!"
+ SER_Modern_Howitzers: "Moderne Haubitzen"
+ SER_Modern_Howitzers_desc: "General Nedić hat schon immer die Doktrin der "Überwältigenden Feuerkraft" unterstützt, und die mächtige Artillerie bildet ein starkes Rückgrat für seine Pläne. Serbiens Howtizer waren einst gefürchtet, und sie werden wieder gefürchtet sein!"
 
-SER_New_Army_Tactics: "Neue Armee-Taktiken"
-SER_New_Army_Tactics_desc: "Der Krieg hat sich verändert. Was vor zwei Jahrzehnten funktionierte, wird heute nicht mehr funktionieren, besonders mit dem Aufkommen der Luftwaffe und des Panzers. Der Reformrat hat beschlossen, unsere Soldaten und Offiziere gleichermaßen in der Kunst der modernen Kriegsführung zu schulen."
+ SER_New_Army_Tactics: "Neue Armee-Taktiken"
+ SER_New_Army_Tactics_desc: "Der Krieg hat sich verändert. Was vor zwei Jahrzehnten funktionierte, wird heute nicht mehr funktionieren, besonders mit dem Aufkommen der Luftwaffe und des Panzers. Der Reformrat hat beschlossen, unsere Soldaten und Offiziere gleichermaßen in der Kunst der modernen Kriegsführung zu schulen."
 
-SER_Begin_Mechanisation: "Mechanisierung starten"
-SER_Begin_Mechanisation_desc: "Bis heute ist die serbische Armee auf die Stärke des Soldaten aufgebaut. Doch mit dem unaufhaltsamen Vormarsch der Technologie sind Kraftfahrzeuge zu einem wichtigen Mittel geworden, um die Effektivität der Soldaten zu erhöhen. Von nun an werden wir unsere Streitkräfte motorisieren, was sie sowohl schneller als auch ausgeruhter macht."
+ SER_Begin_Mechanisation: "Mechanisierung starten"
+ SER_Begin_Mechanisation_desc: "Bis heute ist die serbische Armee auf die Stärke des Soldaten aufgebaut. Doch mit dem unaufhaltsamen Vormarsch der Technologie sind Kraftfahrzeuge zu einem wichtigen Mittel geworden, um die Effektivität der Soldaten zu erhöhen. Von nun an werden wir unsere Streitkräfte motorisieren, was sie sowohl schneller als auch ausgeruhter macht."
 
  SER_Import_Russian_Armor: "Russische Panzer importieren"
  SER_Import_Russian_Armor_desc: "In den weiten Ebenen Osteuropas ist der schnelle und wendige russische Panzer hervorragend, und wir haben die Möglichkeit, seine Panzer zu importieren, um sie in den serbischen Streitkräften zu verwenden."
@@ -1401,7 +1408,6 @@ SER_Begin_Mechanisation_desc: "Bis heute ist die serbische Armee auf die Stärke
 
  SER_radio_free_belgrade: "Kontakt zu den Landmilizen"
  SER_radio_free_belgrade_desc: "Ähnlich wie die serbischen Dörfer sind auch die illyrischen Dörfer kommunal organisiert, und auf dem Land gibt es immer noch viele bewaffnete Bürger, von einfachen Bauern bis hin zu Nachahmern der Hajduci. Indem wir heimlich mit ihnen Kontakt aufnehmen, können wir Unterstützer gewinnen, Informationen sammeln und uns auf einen unvermeidlichen Aufstand vorbereiten."
- SER_radio_free_belgrade_tt: "Ändern §HSerbische Kriegsplanung§! durch\nLokale Informationen zu Feinden: §R15%§!"
 
  SER_precani_pivot: "Verlass auf die Prečani"
  SER_precani_pivot_desc: "Die serbische Minderheit in den österreichischen Gebieten, die Prečani, waren historisch gesehen die enthusiastischsten Befürworter einer Union mit Serbien und der Gründung Jugoslawiens - eine Tatsache, die wir uns zunutze machen können, um während des Krieges gegen Österreich eine Basis der Unterstützung in der Bevölkerung zu gewinnen."
@@ -1414,7 +1420,6 @@ SER_Begin_Mechanisation_desc: "Bis heute ist die serbische Armee auf die Stärke
 
  SER_piedmontianism: "Piemontianismus"
  SER_piedmontianism_desc: "Deutschland wurde durch preußische Militärmacht und Italien durch piemontesische Macht gebildet. Jugoslawien muss also durch serbische Militärmacht geformt werden, und so sollten die Belange der serbischen Armee im Krieg gegen Österreich unsere erste Priorität sein."
- SER_piedmontianism_tt: "Ändern §HSerbische Kriegsplanung§! durch\n$MODIFIER_ARMY_SPEED_FACTOR_FOR_CONTROLLER$: §R-25%§!\n$MODIFIER_LOCAL_ORG_REGAIN$: §R-10%§!"
 
  SER_popular_mobilization: "Mobilisierung des Volkes"
  SER_popular_mobilization_desc: "Eine so kleine Nation wie Serbien wird niemals in der Lage sein, das Habsburger Reich zu besiegen, auch nicht mit den anderen Staaten des Balkans an seiner Seite. Unsere einzige Lösung besteht darin, die Südslawen des Reiches gegen sie aufzubringen und hinter ihren Linien Massenaufstände auszulösen, die uns zum Sieg verhelfen werden."
@@ -1728,13 +1733,14 @@ SER_Begin_Mechanisation_desc: "Bis heute ist die serbische Armee auf die Stärke
  SER_KR_gathering_storm_desc: "In der anderen berühmten Revolution von 1925 stürzte das serbische Volk schließlich seine Monarchie und gründete die Serbische Republik, ein helles Licht der Freiheit und Demokratie auf dem Balkan. In den letzten zehn Jahren litt die Republik unter den Beschränkungen des Wartholzer Vertrags, doch beim ersten Anzeichen österreichischer Schwäche werden diese Fesseln sicherlich fallen. Können die Serben zurückgewinnen, was sie im Weltkrieg verloren haben, und die Fackel des Jugoslawismus wieder entzünden - und dabei die Freiheit bewahren, die sie schließlich errungen haben?"
 
 ### Intro Screen ###
+ SER_country_intro_background: "GFX_SER_intro"
  SER_country_intro_header: "Die serbische Republik"
  SER_country_intro_content: "Die Ermordung des Erzherzogs Franz Ferdinand durch Gavrilo Princip, einen bosnisch-serbischen Nationalisten, war der Auslöser für den Beginn des Weltkriegs. Obwohl die serbischen Streitkräfte tapfer kämpften und sich den Respekt der Weltöffentlichkeit verdienten, indem sie den Vormarsch der Mittelmächte monatelang aufhielten, war Ende 1915 das gesamte Land besetzt. Aufgeteilt in die österreichisch-ungarische und die bulgarische Besatzungszone, wurde Serbien ausgebeutet und verbrannt, und seine Gegner wollten sich an dem rächen, was sie als barbarisches Regime ansahen. Dies ermutigte jedoch den Widerstand in dem Gebiet, und bis 1918 änderte sich die Lage auf beiden Seiten der Front. Österreich-Ungarn nahm auf Druck seiner deutschen Verbündeten schließlich Friedensverhandlungen auf, während der serbische Widerstand in Korfu angesichts des erbärmlichen Staates der Entente zu dem Schluss kam, dass selbst ein bitterer Frieden besser sei als eine Annexion. König Petar dankte ab, und sein Sohn bestieg als Aleksandar II. den Thron, der 1919 den Strafvertrag von Wartholz unterzeichnete - er stellte ein Rumpfserbien in der österreichisch-ungarischen Besatzungszone wieder her, das für immer an den österreichischen Einflussbereich gebunden war.\n\nEine erstarkte sozialistische Bewegung in Belgrad, inspiriert durch die russische und französische Revolution, und die Opposition der Radikalen Volkspartei veranlassten Aleksandar II. zu einer scharfen Reaktion. Das politische Leben wurde ausgesetzt, die sozialistische Bewegung verboten und eine königliche Diktatur eingesetzt, um die Ordnung im besiegten Land aufrechtzuerhalten. Diese Maßnahme verschärfte jedoch nur die Spannungen im Land, die 1925 in eine Revolution mündeten. Die im Geheimbund Konspiracija organisierten Militärs widersetzten sich ihrem König und inszenierten am 3. Dezember ein Attentat auf Aleksandar II, das die königliche Diktatur zu Fall brachte. Premierminister Vojislav Veljković kapitulierte vor der Opposition, die eine serbische Republik ausrief.\n\nNach einem kurzen diplomatischen Patt erkannte die provisorische Regierung von Ljubomir Stojanović den Vertrag von Wartholz an, und Wien erkannte im Gegenzug die republikanische Regierung an. Heute steht Serbien als brennendes Symbol für die Demokratie auf dem Balkan - zumindest auf den ersten Blick. In Wahrheit aber mag die Regierung zwar herzerwärmende Ziele wie Frieden, Wohlstand und Wohlergehen verkünden, doch nichts in der serbischen Regierung geschieht ohne die Zustimmung der Konspiracija. Dieser militärische Geheimbund, der absichtlich nach dem Vorbild der Schwarzen Hand gestaltet ist, verfolgt nur ein Ziel - die Befreiung aller Serben außerhalb der Grenzen der Republik. Wiederum im Verborgenen lauert eine weitere Verschwörung - die Weiße Hand, angeführt von Petar Živković, die auf eine Gelegenheit wartet, das republikanische Interregnum zu stürzen und den minderjährigen Sohn Aleksandars II. wieder einzusetzen.\n\nZu Beginn des Jahres 1936 ist Serbien nominell immer noch ein Klientelstaat der österreichisch-ungarischen Monarchie, aber dieser Griff wird von Sekunde zu Sekunde lockerer, und wenn er schließlich fällt, werden alle Feinde Serbiens zittern."
 
  SER_guide: "§MRepublikaner bleiben§! (§lSozialliberale§!)\n£white_dot Gewinnen Sie die Wahlen von 1936 mit einer von den Republikanern geführten Regierung.\nWenn die Radikalen Sozialisten in der Koalition sind, bekämpfen Sie den Staatsstreich, indem Sie die Gruppe anrufen, mit der sich die Verschwörer bei den \"Unruhen unter den Tschetniks\" nicht verbündet haben.\n\n§MRadikale - Demokratie bewahren / Nationale Konsolidierung§! (§mMarktliberal§! / §cSozialkonservativ§! / §gAutoritär Demokratisch§! / §PPaternal Autokraten§!)\n£white_dot Gewinnen Sie die Wahlen von 1936 mit einer von den Radikalen geführten Regierung.\n£white_dot Wenn Sie sich auf den Sarez konzentrieren, werden Sie zum Sozialkonservativen.\n£white_dot Wenn Sie sich auf den Staat der nationalen Konsolidierung konzentrieren, werden Sie zum autoritären Demokraten. \n£white_dot Wenn Sie den politischen Schwerpunktbaum abschließen, nachdem Sie den Schwerpunkt Staatliche Konsolidierung eingenommen haben, werden Sie zum Paternal Autokraten mit der Option, Petar II. zur Wiederherstellung der Monarchie aufzufordern oder die Herrschaft von Stojadinovic fortzusetzen.\n\n§MSieg für das Volk§! (§RRadikale Sozialisten§!)\n£white_dot Gewinnen Sie die Wahlen von 1936 mit einer beliebigen Regierung, die von den Sozialistischen Arbeitern angeführt wird.\n£white_dot Bekämpfen Sie den Putsch, indem Sie die Gruppe anrufen, mit der sich die Verschwörer im Fall \"Unruhen unter den Tschetniks\" nicht verbündet haben.\n£white_dot Beenden Sie alle drei zeitlich begrenzten Missionen, bevor sie ablaufen.\n\n§MRoyalistischer Putsch - Živković überlebt / Nationale Regeneration§! (§PPaternal Autokraten§! / §nNational Populistisch§!)\n£white_dot Gewinnen Sie die Wahlen von 1936 mit einer Regierung, die die Sozialistischen Arbeiter einschließt.\n£white_dot Fallen Sie auf den Putsch herein, indem Sie die Gruppe anrufen, mit der sich die Verschwörer im Fall \"Unruhen unter den Tschetniks\" verbündet haben. \n£white_dot Die Bevorzugung eines Zweigs des politischen Stammbaums wird dazu führen, dass die Fraktion dieses Zweigs dominant wird, nachdem Petar im August 1941 volljährig wird:\n£white_dot Verankerung der militärischen Dominanz > paternaler Autokrat\n£white_dot Nationale Regeneration > national-populistisch"
 
 ### Events ###
-serbia.1.t: "Schwarzer Montag trifft Serbien!"
+ serbia.1.t: "Schwarzer Montag trifft Serbien!"
  serbia.1.d: "Serbien wurde durch den Weltkrieg mehr als jede andere Nation verwüstet. Es verlor ein Viertel seiner Bevölkerung und das gesamte Land wurde ausgeplündert, die Hälfte wurde von Bulgarien annektiert, während der Rest massive Zugeständnisse an das österreichische Kaiserreich machen musste. Doch trotz alledem überlebte Serbien und baute langsam eine stabile, wenn auch geschwächte Wirtschaft auf, die auf landwirtschaftlicher Produktion und freiem Handel basierte. Die Reformen des Premierministers von König Aleksandar II., Vojislav Veljković, wurden von der republikanischen Regierung nicht rückgängig gemacht, und so blieb der stabile serbische Dinar, für den er gekämpft hatte, in den 1930er Jahren bestehen.\n\nDer Zusammenbruch des Berliner Aktienmarktes hat den größten Teil dieser Arbeit zunichte gemacht. Obwohl Serbien nicht so stark an die deutsche Wirtschaft gebunden ist wie andere Länder der Region, hat der Zusammenbruch des Welthandels unsere Agrarexporte in den Keller gedrückt und damit einen Großteil der Wirtschaft ins Leere laufen lassen. Ein Paket von Gegenmaßnahmen und Reformen ist bereits in Vorbereitung, aber die Bevölkerung, die direkt in die Tasche getroffen wurde, hat nicht mehr so viel Vertrauen in die Republikanische Partei. Schließlich hätten sie das verhindern müssen..."
  serbia.1.a: "Das ist ein Desaster!"
 
@@ -1753,8 +1759,8 @@ serbia.1.t: "Schwarzer Montag trifft Serbien!"
 
  serbia.5.t: "Angebot der Konspiracija"
  serbia.5.d: "Die Konspiracija hat die Wahlen von 1936 aus dem Verborgenen beobachtet, und das Wachstum der sozialistischen Bewegung in Serbien hat sie beunruhigt. Es droht zwar keine Revolution, zumindest noch nicht, und die gemäßigte Fraktion der SRP ist fest unter der Kontrolle des Geheimbundes, aber sie stellt dennoch einen unerwarteten Faktor in der serbischen Politik dar. Und wenn es um die Wiederherstellung Großserbiens geht, will die Konspiracija vor allem keine unliebsamen Überraschungen erleben. So bietet das Militär der Republikanischen Partei seine Unterstützung an und startet eine geheime Einschüchterungskampagne in den Reihen der Sozialisten. Indem man einige ihrer lautstärksten Vertreter unter Druck setzt, damit sie den Mund halten und sich anpassen, wird die Partei sicherlich schnell an Einfluss verlieren."
-serbia.5.a: "Tun Sie es."
-serbia.5.b: "Es ist zu riskant..."
+ serbia.5.a: "Tun Sie es."
+ serbia.5.b: "Es ist zu riskant..."
 
  serbia.6.t: "Grünhemden"
  serbia.6.d: "Die Radikale Volkspartei, die hofft, mehr Unterstützung für ihre Wahlkampagne zu mobilisieren, hat damit begonnen, uniformierte paramilitärische Organisationen zu bilden, die als Arm der Partei auf dem Lande dienen sollen. Diese Organisationen, die nach ihren Uniformen "Grünhemden" genannt werden, sind eine Idee von Milan Stojadinović, dem Parteivorsitzenden, und wurden eindeutig durch den Erfolg der Eisernen Garde nebenan inspiriert. Es mag zwar seltsam erscheinen, dass eine liberale, demokratische Partei die Politik einer radikalen nationalpopulistischen Bewegung kopiert, aber es ist auch nicht illegal. Dragomir Vasić und die Republikanische Partei Serbiens müssen nun eine Entscheidung treffen, wie sie auf die Militarisierung der Radikalen reagieren wollen."
@@ -1898,56 +1904,56 @@ serbia.5.b: "Es ist zu riskant..."
  serbia.3100.d: "Ein siegreicher Feldzug hat dem Terror der Inneren Mazedonischen Revolutionären Organisation in Südserbien ein Ende gesetzt. Ihre bewaffneten Banden und Abteilungen wurden nacheinander von den überlegenen serbischen Waffen zerschlagen, und die Ordnung wurde vollständig wiederhergestellt. Hunderte, wenn nicht Tausende sind während des Konflikts ums Leben gekommen, und die Zivilbevölkerung hat sowohl unter den Repressalien als auch unter den Terrorakten sehr gelitten. Jetzt, da die Flammen des Bürgerkriegs gelöscht sind, ist jedoch ein gewisser Frieden in die Region zurückgekehrt. Vorerst wird Südserbien unter militärischer Besatzung bleiben, und der Wiederaufbau wird stattfinden müssen, bevor es wieder in die größere serbische Nation integriert werden kann."
  serbia.3100.a: "Ein Hoch auf das Serbentum!"
 
-serbia.32.t: "Krieg droht!"
-serbia.32.d: "Während die Armeen unserer Verbündeten mobilisieren und zu den Grenzen unserer Feinde marschieren, gibt es eine gewisse Wahrheit. Innerhalb weniger Wochen wird sich [SER.GetNameDef] im Krieg befinden und versuchen, ihr verlorenes Land zurückzuerobern. Für uns ist es an der Zeit, das Gleiche zu tun, also sind wir bereit, einzumarschieren, sobald die Kriegserklärung abgeschickt wurde."
-serbia.32.a: "Wir werden bereit sein."
+ serbia.32.t: "Krieg droht!"
+ serbia.32.d: "Während die Armeen unserer Verbündeten mobilisieren und zu den Grenzen unserer Feinde marschieren, gibt es eine gewisse Wahrheit. Innerhalb weniger Wochen wird sich [SER.GetNameDef] im Krieg befinden und versuchen, ihr verlorenes Land zurückzuerobern. Für uns ist es an der Zeit, das Gleiche zu tun, also sind wir bereit, einzumarschieren, sobald die Kriegserklärung abgeschickt wurde."
+ serbia.32.a: "Wir werden bereit sein."
 
-serbia.33.t: "Serbien mobilisiert für den Krieg"
-serbia.33.d: "Wir haben beunruhigende Nachrichten aus Belgrad erhalten. Es scheint, dass Serbien, zusammen mit seinen Verbündeten, für einen Krieg gegen uns mobilisiert. Trotz ihrer Versuche, ihre Absichten zu vertuschen, wurden Armeen gesehen, die sich entlang der Grenzen des Reiches vorbereiten. Wir haben noch keine Erklärung von der serbischen Botschaft in Wien erhalten, aber viele Beamte glauben, dass es nur eine Frage der Zeit ist, bis eine formelle Kriegserklärung an den Kaiser übergeben wird."
-serbia.33.a: "Wir werden sie wie beim letzten Mal besiegen."
+ serbia.33.t: "Serbien mobilisiert für den Krieg"
+ serbia.33.d: "Wir haben beunruhigende Nachrichten aus Belgrad erhalten. Es scheint, dass Serbien, zusammen mit seinen Verbündeten, für einen Krieg gegen uns mobilisiert. Trotz ihrer Versuche, ihre Absichten zu vertuschen, wurden Armeen gesehen, die sich entlang der Grenzen des Reiches vorbereiten. Wir haben noch keine Erklärung von der serbischen Botschaft in Wien erhalten, aber viele Beamte glauben, dass es nur eine Frage der Zeit ist, bis eine formelle Kriegserklärung an den Kaiser übergeben wird."
+ serbia.33.a: "Wir werden sie wie beim letzten Mal besiegen."
 
-serbia.34.t: "Krieg gegen Österreich"
-serbia.34.d.normal: "Die Armee ist bereit, die Flugzeuge sind aufgetankt und eine formelle Kriegserklärung im Namen unserer Verbündeten innerhalb der [Root.GetFactionName] wurde verfasst. Der Krieg gegen Wien steht kurz bevor, ist fast sicher, aber nicht alle sind mit an Bord. In letzter Minute traf sich [Root.GetLeader] mit einer Gruppe von Ministern der [Root.GetRulingParty] unter vier Augen. Die Kader der Beamten teilen alle ähnliche Sorgen über unsere Chancen. [AUS.GetNameDefCap] ist eine gewaltige Militärmacht, Tausende unserer Männer werden sterben, und ein Sieg ist keineswegs sicher. Revanchismus ist eine Sache, aber ist es das wert, das Schicksal der [Root.GetAdjective] Nation aufs Spiel zu setzen?\n\nNach einem längeren Treffen und einem Briefwechsel mit dem Außenminister verließen die Beamten das Treffen mit klaren Absichten."
-serbia.34.d.already_at_war: "Mitten in unserem Krieg gegen [AUS.GetNameDef] haben wir Informationen erhalten, dass unsere Verbündeten endlich nachziehen. Für sie steht der Krieg gegen Wien unmittelbar bevor, auch wenn nicht alle mit an Bord sind, aber wir führen den Konflikt nun schon eine Weile und können daher nur darauf warten, dass ihre Unterstützung endlich kommt."
-serbia.34.a: "In den Krieg, Österreich muss zerstört werden!"
-serbia.34.b: "Wir werden heute nicht in den Krieg ziehen."
-serbia.34.c: "Vorwärts, zum Sieg!"
+ serbia.34.t: "Krieg gegen Österreich"
+ serbia.34.d.normal: "Die Armee ist bereit, die Flugzeuge sind aufgetankt und eine formelle Kriegserklärung im Namen unserer Verbündeten innerhalb der [Root.GetFactionName] wurde verfasst. Der Krieg gegen Wien steht kurz bevor, ist fast sicher, aber nicht alle sind mit an Bord. In letzter Minute traf sich [Root.GetLeader] mit einer Gruppe von Ministern der [Root.GetRulingParty] unter vier Augen. Die Kader der Beamten teilen alle ähnliche Sorgen über unsere Chancen. [AUS.GetNameDefCap] ist eine gewaltige Militärmacht, Tausende unserer Männer werden sterben, und ein Sieg ist keineswegs sicher. Revanchismus ist eine Sache, aber ist es das wert, das Schicksal der [Root.GetAdjective] Nation aufs Spiel zu setzen?\n\nNach einem längeren Treffen und einem Briefwechsel mit dem Außenminister verließen die Beamten das Treffen mit klaren Absichten."
+ serbia.34.d.already_at_war: "Mitten in unserem Krieg gegen [AUS.GetNameDef] haben wir Informationen erhalten, dass unsere Verbündeten endlich nachziehen. Für sie steht der Krieg gegen Wien unmittelbar bevor, auch wenn nicht alle mit an Bord sind, aber wir führen den Konflikt nun schon eine Weile und können daher nur darauf warten, dass ihre Unterstützung endlich kommt."
+ serbia.34.a: "In den Krieg, Österreich muss zerstört werden!"
+ serbia.34.b: "Wir werden heute nicht in den Krieg ziehen."
+ serbia.34.c: "Vorwärts, zum Sieg!"
 
-serbia.35.t: "Die Balkan-Forschungsinitiative"
-serbia.35.d: "Kürzlich hat [From.GetNameDef] die "Balkan Forschungsinitiative" ins Leben gerufen, einen internationalen Zusammenschluss wissenschaftlicher und investigativer Köpfe, um die Region zu stärken. Obwohl nicht erklärt, ist es klar, dass das primäre Ziel der Initiative ist es, unsere militärischen Kapazitäten in Vorbereitung auf den Krieg gegen diejenigen, die uns bedrohen zu stärken.\n\nDie [From.GetAdjective]-Diplomaten haben uns eine formelle Einladung in die Gruppe gewährt, die von uns verlangen würde, militärische und industrielle Geheimnisse im Austausch gegen serbische Pläne und Informationen preiszugeben. Es könnte ein lukratives Unterfangen sein, allerdings könnte es auch dazu führen, dass sich die [From.GetAdjectiveCap]s einfach an unserer harten Arbeit bereichern. Wie sollten wir auf die Einladung reagieren?"
-serbia.35.a: "Natürlich werden wir mitmachen!"
-serbia.35.b: "Wir vertrauen ihnen nicht."
+ serbia.35.t: "Die Balkan-Forschungsinitiative"
+ serbia.35.d: "Kürzlich hat [From.GetNameDef] die "Balkan Forschungsinitiative" ins Leben gerufen, einen internationalen Zusammenschluss wissenschaftlicher und investigativer Köpfe, um die Region zu stärken. Obwohl nicht erklärt, ist es klar, dass das primäre Ziel der Initiative ist es, unsere militärischen Kapazitäten in Vorbereitung auf den Krieg gegen diejenigen, die uns bedrohen zu stärken.\n\nDie [From.GetAdjective]-Diplomaten haben uns eine formelle Einladung in die Gruppe gewährt, die von uns verlangen würde, militärische und industrielle Geheimnisse im Austausch gegen serbische Pläne und Informationen preiszugeben. Es könnte ein lukratives Unterfangen sein, allerdings könnte es auch dazu führen, dass sich die [From.GetAdjectiveCap]s einfach an unserer harten Arbeit bereichern. Wie sollten wir auf die Einladung reagieren?"
+ serbia.35.a: "Natürlich werden wir mitmachen!"
+ serbia.35.b: "Wir vertrauen ihnen nicht."
 
-serbia.36.t: "[From.GetNameDefCap] Weigert sich, der Forschungsinitiative beizutreten"
-serbia.36.d: "Heute erhielten wir eine Rückmeldung von [From.GetNameCap], die unsere Einladung zur Balkan Forschungs Initiative abgelehnt haben. In ihrer höflichen, aber entschiedenen Erklärung führten die Diplomaten von [From.GetAdjectiveDef] an, dass sie unseren Absichten hinter der Organisation nicht trauen können und sich daher nicht wohl dabei fühlen, ihre Staatsgeheimnisse mit Belgrad zu teilen."
-serbia.36.a: "Ihr Verlust."
+ serbia.36.t: "[From.GetNameDefCap] Weigert sich, der Forschungsinitiative beizutreten"
+ serbia.36.d: "Heute erhielten wir eine Rückmeldung von [From.GetNameCap], die unsere Einladung zur Balkan Forschungs Initiative abgelehnt haben. In ihrer höflichen, aber entschiedenen Erklärung führten die Diplomaten von [From.GetAdjectiveDef] an, dass sie unseren Absichten hinter der Organisation nicht trauen können und sich daher nicht wohl dabei fühlen, ihre Staatsgeheimnisse mit Belgrad zu teilen."
+ serbia.36.a: "Ihr Verlust."
 
-serbia.37.t: "Ende der Balkan-Forschungsinitiative"
-serbia.37.d.war: "Heute hat uns die Botschaft von [From.GetAdjectiveCap] ein eher erwartetes Telegramm zukommen lassen. Nach unserer Kriegserklärung an ein Mitglied der Balkan Forschungs Initiative hat [From.GetNameDef] die exekutive Entscheidung getroffen, uns mit sofortiger Wirkung aus der Initiative zu entfernen, während er auch die militärischen und industriellen Pläne einbehält, die wir in der Vergangenheit mit ihnen geteilt hatten. Im Wesentlichen haben wir unsere ziemlich privilegierte Position eingebüßt."
-serbia.37.d.joined_other_faction: "Heute hat uns die Botschaft von [From.GetAdjectiveCap] ein eher erwartetes Telegramm zukommen lassen. Nach unserem Austritt aus der [From.GetFactionName] hat [From.GetNameDef] die exekutive Entscheidung getroffen, uns mit sofortiger Wirkung aus der Initiative zu entfernen, während sie auch die militärischen und industriellen Pläne einbehalten, die wir in der Vergangenheit mit ihnen geteilt hatten. Im Wesentlichen haben wir unsere ziemlich privilegierte Position eingebüßt."
-serbia.37.a: "Verdammt."
+ serbia.37.t: "Ende der Balkan-Forschungsinitiative"
+ serbia.37.d.war: "Heute hat uns die Botschaft von [From.GetAdjectiveCap] ein eher erwartetes Telegramm zukommen lassen. Nach unserer Kriegserklärung an ein Mitglied der Balkan Forschungs Initiative hat [From.GetNameDef] die exekutive Entscheidung getroffen, uns mit sofortiger Wirkung aus der Initiative zu entfernen, während er auch die militärischen und industriellen Pläne einbehält, die wir in der Vergangenheit mit ihnen geteilt hatten. Im Wesentlichen haben wir unsere ziemlich privilegierte Position eingebüßt."
+ serbia.37.d.joined_other_faction: "Heute hat uns die Botschaft von [From.GetAdjectiveCap] ein eher erwartetes Telegramm zukommen lassen. Nach unserem Austritt aus der [From.GetFactionName] hat [From.GetNameDef] die exekutive Entscheidung getroffen, uns mit sofortiger Wirkung aus der Initiative zu entfernen, während sie auch die militärischen und industriellen Pläne einbehalten, die wir in der Vergangenheit mit ihnen geteilt hatten. Im Wesentlichen haben wir unsere ziemlich privilegierte Position eingebüßt."
+ serbia.37.a: "Verdammt."
 
-serbia.38.t: "[From.GetNameDefCap] Möchte dem [Root.GetFactionName] beitreten"
-serbia.38.d: "Wir haben eine Nachricht von [FROM.GetNameDef] erhalten, in der sie darum gebeten haben, der [ROOT.GetFactionName] beizutreten. In ihrer Nachricht zitieren sie die langjährigen Verbindungen zwischen [FROM.GetAdjectiveCap] und unseren Regierungen, während sie auch ihr Militär und ihre Luftwaffe für alle zukünftigen Konflikte zusagen, in denen sich [ROOT.GetFactionName] befindet. Wie sollten wir darauf reagieren?"
-serbia.38.a: "Weitere Verbündete sind immer willkommen."
-serbia.38.b: "Sie machen mehr Ärger als sie wert wären."
+ serbia.38.t: "[From.GetNameDefCap] Möchte dem [Root.GetFactionName] beitreten"
+ serbia.38.d: "Wir haben eine Nachricht von [FROM.GetNameDef] erhalten, in der sie darum gebeten haben, der [ROOT.GetFactionName] beizutreten. In ihrer Nachricht zitieren sie die langjährigen Verbindungen zwischen [FROM.GetAdjectiveCap] und unseren Regierungen, während sie auch ihr Militär und ihre Luftwaffe für alle zukünftigen Konflikte zusagen, in denen sich [ROOT.GetFactionName] befindet. Wie sollten wir darauf reagieren?"
+ serbia.38.a: "Weitere Verbündete sind immer willkommen."
+ serbia.38.b: "Sie machen mehr Ärger als sie wert wären."
 
-serbia.39.t: "[From.GetNameDefCap] Akzeptiert Allianz"
+ serbia.39.t: "[From.GetNameDefCap] Akzeptiert Allianz"
  serbia.39.d.INT: "Es scheint, dass unsere Versuche, sich der [From.GetFactionName] anzuschließen, Früchte getragen haben. Heute trafen sich Diplomaten der [From.GetNameDef] mit unseren Beamten und akzeptierten formell unsere Bitte, sich unseren ehemaligen Waffenbrüdern in ihren zukünftigen Konflikten gegen die Kapitalisten anzuschließen. In den kommenden Tagen wird ein formeller Vertrag zwischen [Root.GetNameDef] und Mitgliedern der [From.GetFactionName] unterzeichnet werden, der unsere wiederhergestellten diplomatischen Bande festigt."
-serbia.39.d.ENT: "Es scheint, dass unsere Versuche, sich der [From.GetFactionName] anzuschließen, Früchte getragen haben. Heute trafen sich Diplomaten der [From.GetNameDef] mit dem Premierminister und akzeptierten formell unsere Bitte, sich unseren ehemaligen Waffenbrüdern in ihren zukünftigen Konflikten gegen die Syndikalisten anzuschließen. In den kommenden Tagen wird ein formeller Vertrag zwischen [Root.GetNameDef] und Mitgliedern der [From.GetFactionName] unterzeichnet werden, der unsere neu geschmiedeten diplomatischen Bande festigt."
+ serbia.39.d.ENT: "Es scheint, dass unsere Versuche, sich der [From.GetFactionName] anzuschließen, Früchte getragen haben. Heute trafen sich Diplomaten der [From.GetNameDef] mit dem Premierminister und akzeptierten formell unsere Bitte, sich unseren ehemaligen Waffenbrüdern in ihren zukünftigen Konflikten gegen die Syndikalisten anzuschließen. In den kommenden Tagen wird ein formeller Vertrag zwischen [Root.GetNameDef] und Mitgliedern der [From.GetFactionName] unterzeichnet werden, der unsere neu geschmiedeten diplomatischen Bande festigt."
  serbia.39.d.RUS: "Es scheint, dass unsere Versuche, sich der [From.GetFactionName] anzuschließen, Früchte getragen haben.Heute trafen sich Diplomaten von [From.GetNameDef] mit unseren Beamten und akzeptierten formell unser Ersuchen, unseren kulturellen Brüdern in ihren zukünftigen Konflikten gegen den Hegemon von Europa beizustehen. In den kommenden Tagen wird ein formeller Vertrag zwischen [Root.GetNameDef] und [From.GetNameDef] unterzeichnet werden, der unsere neu geschmiedeten diplomatischen Bande festigt."
  serbia.39.d.GER: "Es scheint, dass unsere Versuche, sich der [From.GetFactionName] anzuschließen, Früchte getragen haben. Heute trafen sich Diplomaten von [From.GetNameDef] mit dem Premierminister, der unser Ersuchen, unsere ehemaligen Feinde in ihren zukünftigen Konflikten gegen die Syndikalisten zu unterstützen, formell akzeptierte. In den kommenden Tagen wird ein formeller Vertrag zwischen [Root.GetNameDef] und Mitgliedern der [From.GetFactionName] unterzeichnet werden, der unsere wiederhergestellten diplomatischen Bande festigt."
  serbia.39.a: "Wieder einmal Verbündete!"
  serbia.39.b: "Hoffen wir, dass die andere Seite der Schützengräben einladender ist..."
 
-serbia.40.t: "[former_pact_leader.GetNameDefCap] löst den Belgrader Pakt auf"
-serbia.40.d.default: "Wir haben heute eine dringende Nachricht von [former_pact_leader.GetNameDef] erhalten. Nach den jüngsten diplomatischen Verhandlungen haben [former_pact_leader.GetNameDefCap]-Beamte beschlossen, den Belgrader Pakt aufzulösen, mit der Begründung, dass sich die Situation in Europa unermesslich verändert hat und ein kleines regionales Bündnis den Balkan nicht mehr vor äußeren Bedrohungen schützen kann. Sie haben uns angefleht, ihrem Beispiel zu folgen und Schutz bei größeren Mächten zu suchen, und haben sich für die Situation entschuldigt."
+ serbia.40.t: "[former_pact_leader.GetNameDefCap] löst den Belgrader Pakt auf"
+ serbia.40.d.default: "Wir haben heute eine dringende Nachricht von [former_pact_leader.GetNameDef] erhalten. Nach den jüngsten diplomatischen Verhandlungen haben [former_pact_leader.GetNameDefCap]-Beamte beschlossen, den Belgrader Pakt aufzulösen, mit der Begründung, dass sich die Situation in Europa unermesslich verändert hat und ein kleines regionales Bündnis den Balkan nicht mehr vor äußeren Bedrohungen schützen kann. Sie haben uns angefleht, ihrem Beispiel zu folgen und Schutz bei größeren Mächten zu suchen, und haben sich für die Situation entschuldigt."
  serbia.40.d.alliance: "Eine wichtige Nachricht hat uns heute erreicht - [former_pact_leader.GetNameDef] hat den Belgrader Pakt offiziell aufgelöst und ein Bündnis mit [future_serbian_ally.GetNameDef] angekündigt. Es scheint, dass der Belgrader Pakt zwar nützlich war, um regionale Bedrohungen auf dem Balkan einzudämmen, dass er aber letztlich nicht in der Lage sein würde, sich allein gegen die Großmächte in Westeuropa zu behaupten, weshalb [former_pact_leader.GetNameDef] beschlossen hat, sich der [future_serbian_ally.GetFactionName] anzuschließen. Die Frage, die sich nun stellt, ist, ob wir ihnen folgen oder stattdessen unseren eigenen Weg gehen."
  serbia.40.a: "Es ist Zeit, unseren eigenen Weg zu gehen."
  serbia.40.b: "Kontaktieren Sie [future_serbian_ally.Capital.GetCapitalVictoryPointName] und bitten Sie um ein Bündnis."
 
-serbia.41.t: "[From.GetNameDefCap] Verweigert Allianz"
-serbia.41.d: "Es scheint, dass unsere Versuche, der [From.GetFactionName] beizutreten, gescheitert sind. Heute haben Diplomaten von [From.GetNameDef] eine formelle Antwort an den Premierminister gegeben, in der sie unsere Versuche, der [From.GetFactionName] beizutreten, rundweg ablehnen. Es scheint, dass wir vorerst wohl oder übel diplomatisch von den europäischen Großmächten isoliert bleiben werden."
+ serbia.41.t: "[From.GetNameDefCap] Verweigert Allianz"
+ serbia.41.d: "Es scheint, dass unsere Versuche, der [From.GetFactionName] beizutreten, gescheitert sind. Heute haben Diplomaten von [From.GetNameDef] eine formelle Antwort an den Premierminister gegeben, in der sie unsere Versuche, der [From.GetFactionName] beizutreten, rundweg ablehnen. Es scheint, dass wir vorerst wohl oder übel diplomatisch von den europäischen Großmächten isoliert bleiben werden."
  serbia.41.a: "So viel zu "alten Freundschaften"."
 
  serbia.42.t: "[From.GetNameDefCap] Bittet um Beitritt zu unserer Allianz"
@@ -2015,24 +2021,24 @@ serbia.41.d: "Es scheint, dass unsere Versuche, der [From.GetFactionName] beizut
 
  serbia.53.t: "Vidovdan"
  serbia.53.d: "Vidovdan ist der Tag des Gedenkens an den heiligen Prinzen Lazar und die heiligen serbischen Märtyrer, die am 28. Juni 1389 in der epischen Schlacht im Kosovo gegen das Osmanische Reich ihr Leben für die Verteidigung des wahren Glaubens gaben. Er gilt in Serbien als Nationalfeiertag."
-serbia.53.a: "Serbien wird seine Helden nie vergessen!"
+ serbia.53.a: "Serbien wird seine Helden nie vergessen!"
 
-serbia.54.t: "Bau der Eisenbahnstrecke Belgrad-Saloniki"
+ serbia.54.t: "Bau der Eisenbahnstrecke Belgrad-Saloniki"
  serbia.54.d: "Seit dem Ende des 4. Balkankrieges und der Rückgewinnung Mazedoniens haben serbische und griechische Bauunternehmer die Eisenbahnlinien von Belgrad nach Saloniki ausgebaut und miteinander verbunden, um eine durchgehende Verbindung zwischen den Kerngebieten der beiden Nationen zu ermöglichen. Heute fand die erste Zugfahrt von Belgrad nach Salonica statt, die in Serbien begann und sich südlich nach Griechenland schlängelte. Den Abschluss der Reise bildete ein Treffen des serbischen und des griechischen Ministerpräsidenten, ein Zeichen der politischen Einheit zwischen den Balkanstaaten."
-serbia.54.a: "Serbien wird seine Verbündeten nie vergessen!"
+ serbia.54.a: "Serbien wird seine Verbündeten nie vergessen!"
 
-serbia.55.t: "[From.GetName] Möchte die HMS Lion kaufen"
-serbia.55.d: "[From.GetName], die sich in einem Prozess der Industrialisierung und Aufrüstung befindet, hat angeboten, den veralteten Schlachtkreuzer HMS Lion zu kaufen, der das Flaggschiff ihrer Marine werden soll. Dies wird sicherlich zu besseren Beziehungen mit der [From.GetAdjective] Regierung führen und kann ihnen dabei helfen, es mit den Marinen ihrer Nachbarn aufzunehmen."
-serbia.55.a: "Wir könnten vom Verkauf dieses alten Schrotts profitieren."
-serbia.55.b: "Nein, jedes Schiff wird gebraucht!"
+ serbia.55.t: "[From.GetName] Möchte die HMS Lion kaufen"
+ serbia.55.d: "[From.GetName], die sich in einem Prozess der Industrialisierung und Aufrüstung befindet, hat angeboten, den veralteten Schlachtkreuzer HMS Lion zu kaufen, der das Flaggschiff ihrer Marine werden soll. Dies wird sicherlich zu besseren Beziehungen mit der [From.GetAdjective] Regierung führen und kann ihnen dabei helfen, es mit den Marinen ihrer Nachbarn aufzunehmen."
+ serbia.55.a: "Wir könnten vom Verkauf dieses alten Schrotts profitieren."
+ serbia.55.b: "Nein, jedes Schiff wird gebraucht!"
 
-serbia.56.t: "[From.GetName] Stimmt zu, uns die HMS Lion zu verkaufen"
+ serbia.56.t: "[From.GetName] Stimmt zu, uns die HMS Lion zu verkaufen"
  serbia.56.d: "Die [From.GetAdjective]-Regierung hat zugestimmt, uns die HMS Lion zu verkaufen. Das Schiff ist jetzt auf dem Weg zu unseren Häfen. Mit dieser Ergänzung kann unsere Marine die Adria beherrschen."
-serbia.56.a: "Ein Tag zum Feiern!"
+ serbia.56.a: "Ein Tag zum Feiern!"
 
-serbia.57.t: "[From.GetName] Weigert sich, uns die HMS Lion zu verkaufen"
-serbia.57.d: "Die [From.GetAdjective]-Regierung hat sich geweigert, uns einen alten Schlachtkreuzer zu verkaufen, der als Flaggschiff unserer Flotte dienen soll. Wir müssen nach einer anderen Lösung suchen."
-serbia.57.a: "Das werden wir uns merken."
+ serbia.57.t: "[From.GetName] Weigert sich, uns die HMS Lion zu verkaufen"
+ serbia.57.d: "Die [From.GetAdjective]-Regierung hat sich geweigert, uns einen alten Schlachtkreuzer zu verkaufen, der als Flaggschiff unserer Flotte dienen soll. Wir müssen nach einer anderen Lösung suchen."
+ serbia.57.a: "Das werden wir uns merken."
 
  serbia.58.t: "Der letzte Schritt?"
  serbia.58.d: "In den letzten Jahren wurde die Demokratie in Serbien immer weiter ausgehöhlt, und heute ist das Land nicht mehr von der kämpferischen Republik zu unterscheiden, die es noch vor wenigen Jahren war. Der Rat der Nationalen Einheit besteht technisch gesehen immer noch, aber die Parteien, die sich nicht bereits aus seiner Mitgliedschaft zurückgezogen haben, sind längst zu einer kontrollierten Opposition geworden, zu bloßen Marionetten, die so tun, als sei Serbien heute alles andere als eine Ein-Mann-Diktatur. Politische Razzien sind inzwischen an der Tagesordnung, und Wahlen sind dauerhaft ausgesetzt. Die Konspiracija, die von einigen als Garant für die Republik angesehen wurde, steht nun voll und ganz hinter dem Präsidenten - sein Regime hat Serbien stärker gemacht, als irgendjemand hätte erwarten können, und es ist kein Geheimnis, dass einige Offiziere des Militärs seinen Regierungsstil mögen...\n\nHeute bleibt nur noch eine Frage zu beantworten: Wohin soll Stojadinović Serbien als nächstes führen? Sowohl die Masse der uniformierten Paramilitärs auf den Straßen als auch die korporatistische Clique an der Spitze werden dem Präsidenten folgen, wohin er auch gehen wird. Soll er lediglich eine neue, autoritäre Verfassung ausarbeiten, um sein Regime über Jahrzehnte aufrechtzuerhalten? Oder sollte er eine kleine, lange unterdrückte, aber dennoch vorhandene monarchistische Strömung tief in der Radikalen Partei anzapfen? Pašić und seine Partei haben ihr Gelübde gegenüber dem Haus Karađorđević nie wirklich gebrochen, und jetzt, da der Republikanismus vollständig zerstört ist, könnte irgendjemand Stojadinović davon abhalten, den Thronfolger einzuladen, als seine Marionette zu dienen?"
@@ -2119,6 +2125,11 @@ serbia.57.a: "Das werden wir uns merken."
  serbia.75.t: "Die ASOS"
  serbia.75.d: "Die Abgeordneten der Skupština, die sich dem Putsch vehement widersetzten und dem Hausarrest entkommen konnten, haben sich in den Süden des Landes abgesetzt, wo sie sich in Montenegro zu einem Hüllenparlament formierten. Die meisten der Abgeordneten waren sozialistische Arbeiter, Sozialisten und linke Republikaner, die am meisten Grund hatten, das neue Regime der Konspiracija zu fürchten und sich ihm zu widersetzen.\n\nObwohl einige Bataillone und Reservisten auf ihre Seite wechselten, schien die Skupština im Exil zunächst zahnlos zu sein, bis sie begann, Allianzen mit der militanten jugoslawischen Linken zu schmieden. Ehemalige Pelagićevci-Guerilleros unter der Führung von Vukašin Marković erhoben sich nacheinander, und ihnen folgten montenegrinische, mazedonische und albanische Separatisten, so dass diese Bewegung den Süden des Landes halbwegs fest im Griff hatte. In Cetinje erklärte sie die Bildung der Antireaktionären Versammlung zur Befreiung Serbiens und verwandelte sich faktisch in eine revolutionäre Organisation, die der Dritten Internationale nahestand."
  serbia.75.a: "Diese Verräter sollen vernichtet werden!"
+
+ serbia.76.t: "Der große Verrat"
+ serbia.76.d: "Die Handlungen von Präsident Stamboliyski, der das Undenkbare tat und ein formelles Bündnis mit den Serben einging, waren allen Bulgaren noch frisch im Gedächtnis. Es wäre eine Untertreibung zu sagen, dass diese Entscheidung umstritten war und kaum diskutiert wurde, aber größtenteils schien sie in der Fülle anderer Veränderungen, die in den letzten Jahren in Bulgarien stattgefunden hatten, unterzugehen.\n\nHeute hat diese Entscheidung noch mehr Anlass zur Kontroverse gegeben, da der serbische Ministerpräsident Milan Stojadinović gegen alle Versprechen der angeblichen jugoslawischen republikanischen Brüderlichkeit verstoßen und erklärt hat, dass die serbische Monarchie wieder eingeführt werden soll.\n\nDie Reaktion war fast einhellig, und die Regierung hört, dass Bulgarien sofort alle Beziehungen zu Serbien abbrechen soll. Es bleibt die Frage, wohin Bulgarien in der Welt noch blicken kann und ob der Traum von einem echten Jugoslawien für immer ausgeträumt ist."
+ serbia.76.a: "Das können wir niemals dulden!"
+ serbia.76.b: "Die meinen das doch nicht ernst? Das muss ein Scherz sein."
 
  serpuppet.1.t: "Serbien unter bulgarischer Besatzung"
  serpuppet.1.d: "Nach dem Krieg zwischen dem Belgrader Pakt und Bulgarien mit dem Ziel, die bulgarische Hegemonie auf dem Balkan zu zerstören, und trotz der zahlenmäßigen Überlegenheit unserer Armeen wurde Serbien besiegt. Seitdem sind die bulgarischen Truppen in Belgrad eingedrungen und haben die letzten Widerstandsnester gesichert. Die Vorgängerregierung wurde teilweise verhaftet, die andere Partei konnte fliehen.\n\nDie bulgarische Behörde hat Živojin Perić, den Führer der Staatspartei der serbischen Demokraten, an die Macht gebracht. Die Partei war bereits zwischen 1920 und 1925 an der Macht, wurde aber durch die Republikanische Revolution gestürzt. Nun ist es an ihnen, das Land wieder aufzubauen und ihre Politik wieder aufzunehmen."
@@ -2555,10 +2566,10 @@ serbia.57.a: "Das werden wir uns merken."
  SER_radical_socialist: "Serbische Sozialistische Republik"
  SER_radical_socialist_DEF: "die Serbische Sozialistische Republik"
 
-SER_republic_totalist: "Serbische Sozialistische Republik"
-SER_republic_totalist_DEF: "die Serbische Sozialistische Republik"
-SER_republic_syndicalist: "Serbische Sozialistische Republik"
-SER_republic_syndicalist_DEF: "die Serbische Sozialistische Republik"
+ SER_republic_totalist: "Serbische Sozialistische Republik"
+ SER_republic_totalist_DEF: "die Serbische Sozialistische Republik"
+ SER_republic_syndicalist: "Serbische Sozialistische Republik"
+ SER_republic_syndicalist_DEF: "die Serbische Sozialistische Republik"
  SER_republic_radical_socialist: "Serbien"
  SER_republic_radical_socialist_DEF: "Die serbische Republik"
  SER_republic_social_democrat: "Serbien"
@@ -2653,15 +2664,16 @@ SER_republic_syndicalist_DEF: "die Serbische Sozialistische Republik"
  
 ### Characters ###
  SER_petar_ii: "Petar II"
- SER_petar_ii_leader_desc: "§YGeboren:§! §L6. September 1923, im Alten Königlichen Palast, Belgrad, Königreich Serbien§!\n§YHintergrund:§! §L Als erstes und einziges Kind von Aleksandar II. Karađorđević, dem letzten König von Serbien vor dem "republikanischen" Interregnum, war Petar II. erst zwei Jahre alt, als er aus dem überrannten Königspalast entführt und in die Hände von Petar Živković übergeben wurde. Der junge Thronfolger wurde außer Landes gebracht und landete in Kanada, wo ihn die Loyalisten der Karađorđević-Dynastie dem Prinzen Pavle übergaben, einem Cousin ersten Grades von Aleksandar II. und Freund des britischen Königshauses. Während die Weiße Hand den Kampf im gefallenen Königreich fortsetzte, wurde der Prinz mit der Aufgabe betraut, seinen Neffen aufzuziehen.\n\nSo wuchs Petar in einem relativ liberalen Umfeld in Kanada auf. Er verbrachte seine Kindheit damit, Bälle zu besuchen, Englisch zu sprechen und sich wenig um den verarmten Staat auf dem Balkan zu kümmern, dessen Thron er immer noch beanspruchte. Obwohl sein Vormund ihm nur wenig über Staatskunst beibrachte, prägte sich das Westminster-System, das er miterlebte, tief ein. Als die Zeit für den jungen König gekommen war, nach Hause zurückzukehren, brachte er dieses britische Denken mit.\n\nVon seiner Persönlichkeit her ist Petar impulsiv, naiv und ein hoffnungsloser Idealist. Seine Vorstellungen von der politischen Situation stimmen selten mit der Realität überein. Auch wenn sein Reich im Vergleich zur Heimat seiner Kindheit verblasst, sieht er das Wohlergehen seiner Untertanen als seine Pflicht an, selbst auf Kosten des politischen Kapitals. Das macht den jungen König für diejenigen, die über politischen Scharfsinn verfügen, leicht zu einem Spielball. Auch wenn Petar gute Ideen hat, war er immer ein Werkzeug für diejenigen, die die wirkliche Macht innehaben, und wird es wahrscheinlich immer bleiben.§!"
+ SER_petar_ii_leader_desc: "§YGeboren:§! §L6. September 1923, im Alten Königlichen Palast, Belgrad, Königreich Serbien§!\n§YHintergrund:§! §LAls erstes und einziges Kind von Aleksandar II. Karađorđević, dem letzten König von Serbien vor dem \"republikanischen\" Interregnum, war Petar II. erst zwei Jahre alt, als er aus dem überrannten Königspalast entführt und in die Hände von Petar Živković übergeben wurde. Der junge Thronfolger wurde außer Landes gebracht und landete in Kanada, wo ihn die Loyalisten der Karađorđević-Dynastie dem Prinzen Pavle übergaben, einem Cousin ersten Grades von Aleksandar II. und Freund des britischen Königshauses. Während die Weiße Hand den Kampf im gefallenen Königreich fortsetzte, wurde der Prinz mit der Aufgabe betraut, seinen Neffen aufzuziehen.\n\nSo wuchs Petar in einem relativ liberalen Umfeld in Kanada auf. Er verbrachte seine Kindheit damit, Bälle zu besuchen, Englisch zu sprechen und sich wenig um den verarmten Staat auf dem Balkan zu kümmern, dessen Thron er immer noch beanspruchte. Obwohl sein Vormund ihm nur wenig über Staatskunst beibrachte, prägte sich das Westminster-System, das er miterlebte, tief ein. Als die Zeit für den jungen König gekommen war, nach Hause zurückzukehren, brachte er dieses britische Denken mit.\n\nVon seiner Persönlichkeit her ist Petar impulsiv, naiv und ein hoffnungsloser Idealist. Seine Vorstellungen von der politischen Situation stimmen selten mit der Realität überein. Auch wenn sein Reich im Vergleich zur Heimat seiner Kindheit verblasst, sieht er das Wohlergehen seiner Untertanen als seine Pflicht an, selbst auf Kosten des politischen Kapitals. Das macht den jungen König für diejenigen, die über politischen Scharfsinn verfügen, leicht zu einem Spielball. Auch wenn Petar gute Ideen hat, war er immer ein Werkzeug für diejenigen, die die wirkliche Macht innehaben, und wird es wahrscheinlich immer bleiben.§!"
  
  SER_temporary_national_representation: "Vorübergehende nationale Vertretung"
- 
+ SER_temporary_national_representation_leader_desc: "§YHintergrund:§! §LVor den ersten Wahlen im nunmehr vereinigten Jugoslawien wird der neue Staat vorübergehend von Vertretern aus den einzelnen Ländern regiert.§!"
+
  SER_milan_grol: "Milan Grol"
  SER_milan_grol_leader_desc: "§YGeboren:§! §L12. September 1876, in Belgrad, Fürstentum Serbien§!\n§YHintergrund:§! §L Milan Grol erhielt eine multidisziplinäre Ausbildung in den Bereichen Philosophie, Literatur, Theater und Kunst. Nach einem Aufenthalt in Paris kehrte er 1902 nach Serbien zurück, wo er als Lehrer und Schriftsteller tätig war und in der Presse häufig König Alexander I. und die Obrenovic-Dynastie anprangerte. Zu dieser Zeit begann er, sich der Linken anzuschließen und trat der Unabhängigen Radikalen Partei bei. Seine Theaterkarriere endete mit dem Ausbruch des Weltkriegs. Während des Konflikts zog er nach Genf und widmete sein Leben wieder seinen politischen Schriften und seinem Aktivismus.\n\nAm Ende des Krieges war Serbien besetzt und gedemütigt. Grol kehrte in sein Heimatland zurück, wo er ein verwüstetes Land vorfand, und half bald bei der Gründung der Serbischen Republikanischen Partei. Nach dem Sieg bei den Wahlen von 1931 übernahm Grol das Amt des Premierministers unter Dragisa Vasic. Infolgedessen wurde er als natürlicher Nachfolger von Vasic angesehen und gewann auch das Präsidentenamt. Mit dem Erbe von Ljubomir Stojanovic auf den Schultern sind Milan Grol und seine Partei nun in der Lage, die Reformen zu verwirklichen, von denen sie im ganzen Land geträumt haben.§!"
 
  SER_dimitrije_ljotic: "Dimitrije Ljotić"
- SER_dimitrije_ljotic_leader_desc: "§YGeboren:§! §L12. August 1891, in Belgrad, Königreich Serbien§!"
+ SER_dimitrije_ljotic_sic_desc: "§YGeboren:§! §L12. August 1891, in Belgrad, Königreich Serbien§!"
  SER_mirko_korolija: "Mirko Korolija"
  SER_mirko_korolija_leader_desc: "§YGeboren:§! §L9. September 1886, in Kistanje, Königreich Dalmatien, Österreich-Ungarn§!"
  SER_nikola_uzunovic: "Nikola Uzunović"
@@ -2669,23 +2681,23 @@ SER_republic_syndicalist_DEF: "die Serbische Sozialistische Republik"
  SER_mosa_pijade: "Moša Pijade"
  SER_mosa_pijade_leader_desc: "§YGeboren:§! §L3. Januar 1890, in Belgrad, Königreich Serbien§!"
  SER_milan_gorkic: "Milan Gorkić"
- SER_milan_gorkic_leader_desc: "§YGeboren:§! §L19. Februar 1904, Bosanski Brod, Bosnien und Herzegowina, Österreich-Ungarn§!"
+ SER_milan_gorkic_leader_desc: "§YGeboren:§! §L19. Februar 1904, in Bosanski Brod, Bezirk Banja Luka, Kondominium von Bosnien und Herzegowina, Österreich-Ungarn§!"
  SER_josip_broz: "Josip Broz"
- SER_josip_broz_leader_desc: "§YGeboren:§! §L7. Mai 1892, in Kumrovec, Königreich Kroatien-Slawonien, Österreich-Ungarn§!"
+ SER_josip_broz_leader_desc: "§YGeboren:§! §L7. Mai 1892, in Kumrovec, Kreis Varaždin, Königreich Kroatien-Slawonien, Österreich-Ungarn§!"
  SER_vukasin_markovic: "Vukašin Marković"
- SER_vukasin_markovic_leader_desc: "§YGeboren:§! §L12. August 1874, Stijena, Bezirk Zetska, Fürstentum Montenegro§!"
+ SER_vukasin_markovic_leader_desc: "§YGeboren:§! §L12. August 1874, in Stijena, Fürstentum Montenegro§!"
  
  SER_trifun_kaclerovic: "Trifun Kaclerović"
- SER_trifun_kaclerovic_leader_desc: "§YGeboren:§! §L14. Februar 1879, in Boka, Torontál, Königreich Ungarn, Österreich-Ungarn§!\n§YHintergrund:§! §L Der "alte Mann der Sozialisten", Trifun "Triša" Kaclerović, engagierte sich bereits während seiner Studienzeit in der sozialistischen Bewegung. Im Vorfeld des Maiputsches von 1903 organisierten er und seine Kommilitonen einen Protest gegen den immer absoluteren Aleksandar I. Obrenović.  Auch nach der Ermordung des Königs und dem Aufstieg der Karađorđevićs blieb er in der Opposition. Als führendes Mitglied der Sozialdemokratischen Partei kämpfte Kaclerović in den Jahren vor dem Ersten Weltkrieg für die Rechte der Arbeiter, vertrat die Arbeiter in der Skupština und forderte Rechte für Sozialisten.\n\nNach dem Ende des Weltkriegs spaltete sich die sozialistische Bewegung. Einige, die durch die Russische und die Französische Revolution radikalisiert worden waren, wandten sich der Gewalt zu. Andere wandten sich ganz von der Ideologie ab oder hielten selbst in der angespannten Atmosphäre des Nachkriegsserbiens am Reformismus fest. Kaclerović führte seine Fraktion der Sozialdemokraten in die im Entstehen begriffene Sozialistische Arbeiterpartei und leitete sie in den folgenden Jahrzehnten. Als großer Hegemon der Linken vereint die SRP alle, von Sozialdemokraten bis zu offenen Syndikalisten. Kaclerović steht an der Spitze von allen - alle können diesen älteren, versammelten Gründer des modernen serbischen Sozialismus respektieren.§!"
+ SER_trifun_kaclerovic_leader_desc: "§YGeboren:§! §L14. Februar 1879, in Boka, Torontál, Königreich Ungarn, Österreich-Ungarn§!\n§YHintergrund:§! §L Der \"alte Mann der Sozialisten\", Trifun \"Triša\" Kaclerović, engagierte sich bereits während seiner Studienzeit in der sozialistischen Bewegung. Im Vorfeld des Maiputsches von 1903 organisierten er und seine Kommilitonen einen Protest gegen den immer absoluteren Aleksandar I. Obrenović.  Auch nach der Ermordung des Königs und dem Aufstieg der Karađorđevićs blieb er in der Opposition. Als führendes Mitglied der Sozialdemokratischen Partei kämpfte Kaclerović in den Jahren vor dem Ersten Weltkrieg für die Rechte der Arbeiter, vertrat die Arbeiter in der Skupština und forderte Rechte für Sozialisten.\n\nNach dem Ende des Weltkriegs spaltete sich die sozialistische Bewegung. Einige, die durch die Russische und die Französische Revolution radikalisiert worden waren, wandten sich der Gewalt zu. Andere wandten sich ganz von der Ideologie ab oder hielten selbst in der angespannten Atmosphäre des Nachkriegsserbiens am Reformismus fest. Kaclerović führte seine Fraktion der Sozialdemokraten in die im Entstehen begriffene Sozialistische Arbeiterpartei und leitete sie in den folgenden Jahrzehnten. Als großer Hegemon der Linken vereint die SRP alle, von Sozialdemokraten bis zu offenen Syndikalisten. Kaclerović steht an der Spitze von allen - alle können diesen älteren, versammelten Gründer des modernen serbischen Sozialismus respektieren.§!"
  
  SER_zivko_topalovic: "Živko Topalović"
  SER_zivko_topalovic_leader_desc: "§YGeboren:§! §21. März 1886, in Užice, Königreich Serbien§!"
  
  SER_dragomir_vasic: "Dragomir Vasić"
- SER_dragomir_vasic_leader_desc: "§YGeboren:§! §L2. Oktober 1885, in Gornji Milanovac, Bezirk Morava, Königreich Serbien§!\n§YHintergrund:§! §L Dragomir "Dragiša" Vasić ist der zweite Präsident der Serbischen Republik, der 1931 auf Initiative der Republikanischen Partei gewählt wurde. Vasić gehörte unglücklicherweise zu der Generation serbischer Männer und Frauen, die zum Sterben in die Schützengräben der Balkankriege und des Weltkriegs geschickt wurden. Dort, während des Zweiten Balkankrieges, begann sich der Revolutionär Vasić zu entwickeln - und Vasić der Schriftsteller. Sein erster richtiger Versuch, eine Kurzgeschichte mit dem Titel "Pačko", schildert einen serbischen Soldaten in der Schlacht von Bregalnica. Aus Mitleid mit einem gefallenen bulgarischen Offizier versucht er, ihm im Niemandsland ein angemessenes Begräbnis zu geben, und wird dabei vom Feind erschossen, während er ein Holzkreuz aufstellt. Dieser revolutionäre Eifer führte allmählich zur Desillusionierung der Karađorđević-Dynastie - vor allem nach dem Prozess von Saloniki, als einer der hingerichteten Mitglieder der Schwarzen Hand sein Cousin Ljubomir Vulović war.\n\nNach dem Krieg kehrte Vasić zusammen mit den übrigen Exilanten nach Serbien zurück, schlug eine juristische Laufbahn ein und gründete die Zeitung "Progress". Sie wurde jedoch bald geschlossen und seine Anwaltslizenz von der königlichen Diktatur wegen der Verteidigung von Kommunisten entzogen. Daraufhin trat er in die Republikanische Partei ein und wurde Mitglied ihres Hauptvorstandes, ein wichtiges Mitglied der Untergrundorganisation - nicht nur dank seiner literarischen Fähigkeiten, sondern auch dank seiner zahlreichen Kontakte innerhalb der serbischen Armee. Als die Revolution kam, schloss sich Vasić ihr an, wurde in die Skupština gewählt und akzeptierte seine Rolle als Botschafter in der französischen Kommune. Der Besuch in Paris und die dortigen Errungenschaften bekehrten ihn zwar nicht zum Syndikalisten, aber sie faszinierten ihn dennoch.\n\nDie Konspiracija, die der antimilitaristischen Haltung von Präsident Jaša Prodanović misstraute, drängte ihn 1931 aus der Macht. Sie luden Vasić diskret ein, bei der nächsten Wahl sein Nachfolger zu werden, da sie davon ausgingen, dass er aufgrund seiner Vergangenheit bei der Schwarzen Hand leichter zu kontrollieren sei. Vasić willigte widerwillig ein und ist heute ein Führer, der zwischen seiner fortschrittlichen Einstellung und seiner Schuld gegenüber den Verschwörern hin- und hergerissen ist. Für ihn ist der Kampf gegen Bulgarien nicht nur eine Frage des Irredentismus - er ist eine Frage der Freiheit. Immer wieder haben sich die Serben als deren Leuchtturm auf dem Balkan erwiesen, während sich die Bulgaren in einem dumpfen Absolutismus ergehen. Aber kann Serbien wirklich behaupten, in diesem Staat ein Vorbote der Freiheit zu sein?§!"
+ SER_dragomir_vasic_leader_desc: "§YGeboren:§! §L2. Oktober 1885, in Gornji Milanovac, Bezirk Morava, Königreich Serbien§!\n§YHintergrund:§! §L Dragomir \"Dragiša\" Vasić ist der zweite Präsident der Serbischen Republik, der 1931 auf Initiative der Republikanischen Partei gewählt wurde. Vasić gehörte unglücklicherweise zu der Generation serbischer Männer und Frauen, die zum Sterben in die Schützengräben der Balkankriege und des Weltkriegs geschickt wurden. Dort, während des Zweiten Balkankrieges, begann sich der Revolutionär Vasić zu entwickeln - und Vasić der Schriftsteller. Sein erster richtiger Versuch, eine Kurzgeschichte mit dem Titel \"Pačko\", schildert einen serbischen Soldaten in der Schlacht von Bregalnica. Aus Mitleid mit einem gefallenen bulgarischen Offizier versucht er, ihm im Niemandsland ein angemessenes Begräbnis zu geben, und wird dabei vom Feind erschossen, während er ein Holzkreuz aufstellt. Dieser revolutionäre Eifer führte allmählich zur Desillusionierung der Karađorđević-Dynastie - vor allem nach dem Prozess von Saloniki, als einer der hingerichteten Mitglieder der Schwarzen Hand sein Cousin Ljubomir Vulović war.\n\nNach dem Krieg kehrte Vasić zusammen mit den übrigen Exilanten nach Serbien zurück, schlug eine juristische Laufbahn ein und gründete die Zeitung \"Progress\". Sie wurde jedoch bald geschlossen und seine Anwaltslizenz von der königlichen Diktatur wegen der Verteidigung von Kommunisten entzogen. Daraufhin trat er in die Republikanische Partei ein und wurde Mitglied ihres Hauptvorstandes, ein wichtiges Mitglied der Untergrundorganisation - nicht nur dank seiner literarischen Fähigkeiten, sondern auch dank seiner zahlreichen Kontakte innerhalb der serbischen Armee. Als die Revolution kam, schloss sich Vasić ihr an, wurde in die Skupština gewählt und akzeptierte seine Rolle als Botschafter in der französischen Kommune. Der Besuch in Paris und die dortigen Errungenschaften bekehrten ihn zwar nicht zum Syndikalisten, aber sie faszinierten ihn dennoch.\n\nDie Konspiracija, die der antimilitaristischen Haltung von Präsident Jaša Prodanović misstraute, drängte ihn 1931 aus der Macht. Sie luden Vasić diskret ein, bei der nächsten Wahl sein Nachfolger zu werden, da sie davon ausgingen, dass er aufgrund seiner Vergangenheit bei der Schwarzen Hand leichter zu kontrollieren sei. Vasić willigte widerwillig ein und ist heute ein Führer, der zwischen seiner fortschrittlichen Einstellung und seiner Schuld gegenüber den Verschwörern hin- und hergerissen ist. Für ihn ist der Kampf gegen Bulgarien nicht nur eine Frage des Irredentismus - er ist eine Frage der Freiheit. Immer wieder haben sich die Serben als deren Leuchtturm auf dem Balkan erwiesen, während sich die Bulgaren in einem dumpfen Absolutismus ergehen. Aber kann Serbien wirklich behaupten, in diesem Staat ein Vorbote der Freiheit zu sein?§!"
  
  SER_milan_stojadinovic: "Milan Stojadinović"
- SER_milan_stojadinovic_leader_desc: "§YGeboren:§! §L4. August 1888, in Čačak, Bezirk Rudnik, Königreich Serbien§!\n§YHintergrund:§! §L Milan Stojadinović, benannt nach König Milan von Serbien, wurde als Sohn eines Landrichters geboren und schlug denselben Weg ein wie viele andere aus der serbischen Intellektuellenschicht. Als Kind war er mit Živko Topalović befreundet und sympathisierte in seiner Jugend mit dem Sozialismus, bevor er die nationale Befreiung dem Klassenkampf vorzog.  Stattdessen schloss er sich der Radikalen Volkspartei an. Stojadinović verbrachte die Zeit vor dem Weltkrieg außerhalb Serbiens, studierte an westlichen Universitäten und vertrat das Finanzministerium im Ausland, und kehrte gerade rechtzeitig in seine Heimat zurück, um in den Balkankriegen zu dienen.\n\nDie serbischen Exilanten in Korfu, darunter auch Stojadinović, brauchten Bürokraten - Männer, die dafür sorgten, dass möglichst wenige ihrer ausgedünnten Reihen verhungerten und verdorrten. Als Beamter im Finanzministerium zeichnete sich Stojadinović als fähiger Wirtschaftsexperte und Verhandlungsführer aus, der dazu beitrug, den serbischen Dinar zu stabilisieren, Finanzmittel für die Reste der Armee zu beschaffen und die Verteilung der knappen Mittel sicherzustellen. Der Premierminister und Führer der Radikalen, Nikola Pašić, erkannte seine Bemühungen an, und Stojadinović wurde sein Protegé. Als Pašić nach dem Ende des Krieges auf Befehl von Alexander II. entlassen wurde, trat auch Stojadinović zurück. Er kehrte zu einem bescheidenen und ruhigen Leben als Bankier und Universitätsprofessor zurück.\n\nDie Flut der republikanischen Revolution erfasste auch Stojadinović, viele hielten ihn für einen Sympathisanten der Republikaner. Als Aca Stanojević ihn in die wiedergegründete Radikale Partei einlud, nahm er an. Die Jahre vergehen, die alte Generation der Radikalen stirbt, und der ruhige, besonnene und intelligente Wirtschaftswissenschaftler Stojadinović ist die natürliche Besetzung für die Führung der Partei. Das Dilemma der Einigung der Südslawen beschäftigt ihn, aber auch die Lehren, die ihm sein Mentor vermittelt hat: "Wenn es um den großen Plan geht, den Gott für die serbische Nation hat, darf es keine Kompromisse oder Halbheiten geben". Freiheit ist stark, aber kollektive, absolute Macht kann noch stärker sein.§!"
+ SER_milan_stojadinovic_leader_desc: "§YGeboren:§! §L4. August 1888, in Čačak, Bezirk Rudnik, Königreich Serbien§!\n§YHintergrund:§! §L Milan Stojadinović, benannt nach König Milan von Serbien, wurde als Sohn eines Landrichters geboren und schlug denselben Weg ein wie viele andere aus der serbischen Intellektuellenschicht. Als Kind war er mit Živko Topalović befreundet und sympathisierte in seiner Jugend mit dem Sozialismus, bevor er die nationale Befreiung dem Klassenkampf vorzog.  Stattdessen schloss er sich der Radikalen Volkspartei an. Stojadinović verbrachte die Zeit vor dem Weltkrieg außerhalb Serbiens, studierte an westlichen Universitäten und vertrat das Finanzministerium im Ausland, und kehrte gerade rechtzeitig in seine Heimat zurück, um in den Balkankriegen zu dienen.\n\nDie serbischen Exilanten in Korfu, darunter auch Stojadinović, brauchten Bürokraten - Männer, die dafür sorgten, dass möglichst wenige ihrer ausgedünnten Reihen verhungerten und verdorrten. Als Beamter im Finanzministerium zeichnete sich Stojadinović als fähiger Wirtschaftsexperte und Verhandlungsführer aus, der dazu beitrug, den serbischen Dinar zu stabilisieren, Finanzmittel für die Reste der Armee zu beschaffen und die Verteilung der knappen Mittel sicherzustellen. Der Premierminister und Führer der Radikalen, Nikola Pašić, erkannte seine Bemühungen an, und Stojadinović wurde sein Protegé. Als Pašić nach dem Ende des Krieges auf Befehl von Alexander II. entlassen wurde, trat auch Stojadinović zurück. Er kehrte zu einem bescheidenen und ruhigen Leben als Bankier und Universitätsprofessor zurück.\n\nDie Flut der republikanischen Revolution erfasste auch Stojadinović, viele hielten ihn für einen Sympathisanten der Republikaner. Als Aca Stanojević ihn in die wiedergegründete Radikale Partei einlud, nahm er an. Die Jahre vergehen, die alte Generation der Radikalen stirbt, und der ruhige, besonnene und intelligente Wirtschaftswissenschaftler Stojadinović ist die natürliche Besetzung für die Führung der Partei. Das Dilemma der Einigung der Südslawen beschäftigt ihn, aber auch die Lehren, die ihm sein Mentor vermittelt hat: \"Wenn es um den großen Plan geht, den Gott für die serbische Nation hat, darf es keine Kompromisse oder Halbheiten geben\". Freiheit ist stark, aber kollektive, absolute Macht kann noch stärker sein.§!"
  
  SER_milan_gavrilovic: "Milan Gavrilović"
  SER_milan_gavrilovic_leader_desc: "§YGeboren:§! §23. November 1882, in Belgrad, Königreich Serbien§!"
@@ -2701,12 +2713,12 @@ SER_republic_syndicalist_DEF: "die Serbische Sozialistische Republik"
  SER_petar_bojovic_commander_desc: "§YGeboren:§! §L16. Juni 1858, in Miševići, Bosnien Vilayet, Osmanisches Reich§!"
  SER_konstantin_popovic: "Konstantin Popović"
  SER_konstantin_popovic_commander_desc: "§YGeboren:§! §L4. März 1908, in Belgrad, Königreich Serbien§!"
- SER_arso_jovanovic: "Arsenije Jovanović"
- SER_arso_jovanovic_commander_desc: "§YGeboren:§! §L24. März 1907, in Podgorica, Bezirk Zetska, Fürstentum Montenegroa§!"
+ SER_arsenije_jovanovic: "Arsenije Jovanović"
+ SER_arsenije_jovanovic_commander_desc: "§YGeboren:§! §L24. März 1907, in Zavala, Fürstentum Montenegro§!"
  SER_milan_nedic: "Milan Nedić"
  SER_milan_nedic_commander_desc: "§YGeboren:§! §L2. September 1878, in Grocka, Belgrad, Fürstentum Serbien§!"
  SER_milorad_petrovic: "Milorad Petrović"
- SER_milorad_petrovic_army_chief_desc: "§YGeboren:§! §L18. April 1882, Sumrakovac, Bezirk Timok, Königreich Serbien§!"
+ SER_milorad_petrovic_army_chief_desc: "§YGeboren:§! §L18. April 1882, in Sumrakovac, Bezirk Timok, Königreich Serbien§!"
  SER_dragoljub_mihailovic: "Dragoljub Mihailović"
  SER_dragoljub_mihailovic_high_command_desc: "§YGeboren:§! §L27. April 1893, in Ivanjica, Bezirk Čačak, Königreich Serbien§!"
  SER_ljubomir_maric: "Ljubomir Marić"
@@ -2740,7 +2752,7 @@ SER_republic_syndicalist_DEF: "die Serbische Sozialistische Republik"
  SER_slobodan_jovanovic: "Slobodan Jovanović"
  SER_slobodan_jovanovic_advisor_desc: "§YGeboren:§! §L3. Dezember 1869, in Újvidék, Komitat Bács-Bodrog, Königreich Ungarn, Österreich-Ungarn§!"
  SER_filip_filipovic: "Filip Filipović"
- SER_filip_filipovic_advisor_desc: "§YGeboren:§! §L21. Juni 1878, im Čačak, Bezirk Rudnik, Fürstentum Serbien§!"
+ SER_filip_filipovic_advisor_desc: "§YGeboren:§! §L21. Juni 1878, in Čačak, Bezirk Rudnik, Fürstentum Serbien§!"
  SER_milan_srskic: "Milan Srškić"
  SER_milan_srskic_advisor_desc: "§YGeboren:§! §L3. März 1880, in Belgrad, Fürstentum Serbien§!"
  SER_ninko_peric: "Ninko Perić"
@@ -2764,6 +2776,7 @@ SER_republic_syndicalist_DEF: "die Serbische Sozialistische Republik"
  SER_dragomir_stojanovic: "Dragomir Stojanović"
  SER_dragomir_stojanovic_high_command_desc: "§YGeboren:§! §L17. August 1878, in Knjaževac, Bezirk Timok, Fürstentum Serbien§!"
  SER_navy_army_command: "Unter dem Kommando der Armee"
+ SER_navy_army_command_navy_chief_desc: "§YHintergrund:§! §LDas Kommando über die Marine wurde der Armee übertragen, um eine bessere Zusammenarbeit zwischen den Streitkräften zu ermöglichen.§!"
  SER_zdenko_ulepic: "Zdenko Ulepić"
  SER_zdenko_ulepic_air_chief_desc: "§YGeboren:§! §L5. Juni 1906, in Ljubljana, Herzogtum Krain, Österreich-Ungarn§!"
 
@@ -2773,6 +2786,7 @@ SER_republic_syndicalist_DEF: "die Serbische Sozialistische Republik"
 
 ### Characters ###
  MAC_ivan_mihajlov: "Ivan Mihajlov"
- MAC_ivan_mihajlov_leader_desc: "§YGeboren:§! §L26. August 1896, in Novo Selo, Vilayet des Kosovo, Osmanisches Reich§!\n§YHintergrund:§! §L Ivan Mihajlov wurde in einer Bulgarisch sprechenden Familie in den Bergen von Mazedonien geboren. Eine Region, die bald durch ethnische Spannungen und Krieg zerrissen wurde. Schon sein Leben ist ein guter Einblick in die rasanten Veränderungen, die die Region zu ertragen hatte. Mihajlov begann seine Ausbildung an einem bulgarischen Männergymnasium in Thessaloniki, bevor es während des Ersten Balkankrieges von der griechischen Verwaltung geschlossen wurde.  Daraufhin wechselte er kurzzeitig an ein serbisches Gymnasium in Skopje, bevor er seine Ausbildung im bulgarisch besetzten Mazedonien abschloss. Schließlich studierte er Jura in Sofia. Während des Weltkriegs meldete sich Mihajlov zur bulgarischen Armee und kam in persönlichen Kontakt mit dem IMRO-Führer Todor Aleksandrov.\n\nNach dem Krieg wurde Mihajlov der persönliche Sekretär von Alexandrow. Die IMRO, die ihre Ziele endlich erreicht hatte, löste sich auf. Um ihre Errungenschaften zu konsolidieren, führte Alexandrow Mihajlov und die rechte Fraktion der Organisation in die "Vereinigung gegen serbische Banditen". Diese paramilitärische Organisation hatte die Aufgabe, den serbischen Widerstand zu vernichten und den Weg für die Bulgarisierung der Westprovinzen zu ebnen. Mit der Zeit verwandelte sich die Vereinigung in die Ohrana, eine einschüchternde mazedonische paramilitärische Organisation und ein rechtsextremes Zentrum.\n\n1930 wurde Alexandrow bei einem Hinterhalt der serbischen Tschetniks verletzt und zog sich von seiner aktiven Rolle in der Organisation zurück. Sein Schützling Mihajlov trat an seine Stelle. Er schloss sich dem Bündnis von Ohrana mit den Nationalen Legionen an und meldete sich zusammen mit Hunderten von Gleichgesinnten als Freiwilliger für den Vierten Balkankrieg.  Als der Krieg endete und seine Heimat erneut von den Serben eingenommen wurde, beschloss er, in die Fußstapfen seines Mentors zu treten. Zusammen mit anderen mazedonischen Veteranen und Flüchtlingen infiltrierte Mihajlov die serbisch-bulgarische Grenze und rief die Wiederherstellung der IMRO aus.  Er ist entschlossen, Mazedonien von den Unterdrückern in Belgrad zu befreien, egal wie viel Blut auf dem Weg dorthin vergossen wird.§!"
+ MAC_ivan_mihajlov_leader_desc: "§YGeboren:§! §L26. August 1896, in Novo Selo, Vilayet des Kosovo, Osmanisches Reich§!\n§YHintergrund:§! §L Ivan Mihajlov wurde in einer Bulgarisch sprechenden Familie in den Bergen von Mazedonien geboren. Eine Region, die bald durch ethnische Spannungen und Krieg zerrissen wurde. Schon sein Leben ist ein guter Einblick in die rasanten Veränderungen, die die Region zu ertragen hatte. Mihajlov begann seine Ausbildung an einem bulgarischen Männergymnasium in Thessaloniki, bevor es während des Ersten Balkankrieges von der griechischen Verwaltung geschlossen wurde.  Daraufhin wechselte er kurzzeitig an ein serbisches Gymnasium in Skopje, bevor er seine Ausbildung im bulgarisch besetzten Mazedonien abschloss. Schließlich studierte er Jura in Sofia. Während des Weltkriegs meldete sich Mihajlov zur bulgarischen Armee und kam in persönlichen Kontakt mit dem IMRO-Führer Todor Aleksandrov.\n\nNach dem Krieg wurde Mihajlov der persönliche Sekretär von Alexandrow. Die IMRO, die ihre Ziele endlich erreicht hatte, löste sich auf. Um ihre Errungenschaften zu konsolidieren, führte Alexandrow Mihajlov und die rechte Fraktion der Organisation in die \"Vereinigung gegen serbische Banditen\". Diese paramilitärische Organisation hatte die Aufgabe, den serbischen Widerstand zu vernichten und den Weg für die Bulgarisierung der Westprovinzen zu ebnen. Mit der Zeit verwandelte sich die Vereinigung in die Ohrana, eine einschüchternde mazedonische paramilitärische Organisation und ein rechtsextremes Zentrum.\n\n1930 wurde Alexandrow bei einem Hinterhalt der serbischen Tschetniks verletzt und zog sich von seiner aktiven Rolle in der Organisation zurück. Sein Schützling Mihajlov trat an seine Stelle. Er schloss sich dem Bündnis von Ohrana mit den Nationalen Legionen an und meldete sich zusammen mit Hunderten von Gleichgesinnten als Freiwilliger für den Vierten Balkankrieg. Als der Krieg endete und seine Heimat erneut von den Serben eingenommen wurde, beschloss er, in die Fußstapfen seines Mentors zu treten. Zusammen mit anderen mazedonischen Veteranen und Flüchtlingen infiltrierte Mihajlov die serbisch-bulgarische Grenze und rief die Wiederherstellung der IMRO aus. Er ist entschlossen, Mazedonien von den Unterdrückern in Belgrad zu befreien, egal wie viel Blut auf dem Weg dorthin vergossen wird.§!"
 
  MAC_imro_joint_command: "IMRO Joint Command"
+ MAC_imro_joint_command_commander_desc: "§YGeboren:§! §Lin Skopje, Mazedonien§!"
