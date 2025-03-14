@@ -2,6 +2,9 @@
 ### Übersetzt von Proho ###
 chile_focus: "Schwerpunktbaum von Chile"
 
+### Factions ###
+ southern_syndicalist_alliance: "Südliche Syndikalistische Allianz" #erstellt von history\countries\CHL - Chile.txt history Datei und par.80 Event
+
 ### Country Names ###
  CHL: "Chile"
  CHL_ADJ: "Chilenisch"
@@ -347,6 +350,7 @@ CHL_land_of_santiago: "Land von Santiago"
 CHL_land_of_santiago_desc: "Um wahren Hispanismus zu erreichen, müssen wir dem Titel des heiligen Anführers der spanisch sprechenden Welt gerecht werden und unsere Entschlossenheit, unsere Ziele, falls nötig, mit Gewalt zu erreichen, offen tragen"
 
 ### Intro Screen ###
+ CHL_country_intro_background: "GFX_CHL_intro"
  CHL_country_intro_header: "Chile im Jahr 1936"
  CHL_country_intro_content: "Nach dem Salpeterkrieg 1879–1883, in dem Chile neben der bolivianischen Küstenregion Antofagasta auch die peruanischen Salpeterprovinzen Tarapacá und Arica erhielt, verfügte das Land über riesige Kupfervorkommen und monopolisierte den Welthandel mit Salpeter. Eine Phase des wirtschaftlichen Wohlstands wurde eingeleitet, die von der hohen Nachfrage nach Salpeter zu Beginn des Weltkriegs gestützt wurde. Die chemischen Prozesse, die während dieses Krieges entwickelt wurden, um künstlich Salpeter zu produzieren, machten die Lagerstätten in Chile jedoch wertlos.\n\nDie sich verschlechternden wirtschaftlichen Verhältnisse sowie das Bevölkerungswachstum verschärften die soziale Krise. Arbeiter und Gewerkschaften gewannen politischen Einfluss, insbesondere unter der katastrophalen Herrschaft von Carlos Ibañez Del Campo, während dessen Chile 1931 bankrott ging. Kurz danach. Ibañez wurde abgesetzt, und die Marine und der größte Teil der Armee meuterten, und mit der Unterstützung des Volkes und der Ankunft von Verstärkungen aus dem lang verbannten Marmaduke Grove, der aus der Union von Großbritannien kam, wurde die Syndikalistische Republik Chile ausgerufen.\n\nNach 5 Jahren Wiederaufbau unter der Führung von Arturo Puga erholte sich die republikanische Wirtschaft erheblich und der militärische Aufbau hat begonnen. Jetzt, da Argentiniens Rhetorik immer aggressiver wird, ist der angesehene Marmaduke Grove, Militärveteran von zwei Revolutionen, das Ruder beim Wiederaufbau Ihrer Republik. Allerdings sind nicht alle Chilenen so hoffnungsvoll für die Zukunft wie die syndikalistischen Führer..."
 
@@ -616,47 +620,121 @@ CHL_join_internationale_desc: "Viele unserer Männer, einschließlich Marmaduke 
 
 ### Characters ###
  CHL_carlos_contrera_labarca: "Carlos Contrera Labarca"
+ CHL_carlos_contrera_labarca_leader_desc: "§YGeboren:§! §L25. Februar 1899, in Bulnes, Provinz Ñuble, Republik Chile§!"
+
  CHL_pablo_de_rokha: "Pablo de Rokha"
+ CHL_pablo_de_rokha_leader_desc: "§YGeboren:§! §L17. Oktober 1894, in Licantén, Provinz Colchagua, Republik Chile§!"
  
  CHL_marmaduke_grove_vallejo: "Marmaduke Grove Vallejo"
- CHL_marmaduke_grove_vallejo_leader_desc: "§YGeboren:§! §L6. Juli 1878, in Copiapó, Region Atacama, Republik Chile§!\n§YHintergrund:§! §LGrove stammt aus einer Familie, die mit der Radikalen Partei Chiles sympathisierte, und ist der Sohn von José Marmaduke Grove Abalos, einem Rechtsanwalt, und Ana Vallejo Burgoa. Sein Vater wurde 1891 ins Exil geschickt, weil er sich dem Präsidenten José Manuel Balmaceda widersetzte. Trotz seiner frühen Opposition gegen die herrschenden Behörden, trat er 1892 in die chilenische Marineakademie ein. Wegen seiner sozialistischen Tendenzen ins Exil geschickt, wurde er als Verbindungsmann in Großbritannien eingesetzt, eigentlich nur, um ihn aus Chile herauszuhalten. Dort nahm er jedoch an der Revolution teil, und während seines Exils, während der Herrschaft von Präsident Ibañez Del Campo, verschlechterte sich die Wirtschaft Chiles und 1931 ging das Land bankrott. Kurz darauf wurde Ibañez abgesetzt, als der Großteil der Armee und der Marine meuterte, was die Rückkehr Groves nach Chile und die Ausrufung der Sozialistischen Republik ermöglichte. Sein kürzlicher Aufstieg zum Vorsitzenden ist ein deutliches Zeichen dafür, dass sowohl die militärischen als auch die zivilen Behörden in Chile nach jahrelanger Unterstützung der patagonischen Rebellen einen Konflikt mit Argentinien für nahezu unvermeidlich halten.§!"
+ CHL_marmaduke_grove_vallejo_leader_desc: "§YGeboren:§! §L6. Juli 1878, in Copiapó, Provinz Atacama, Republik Chile§!\n§YHintergrund:§! §LGrove stammt aus einer Familie, die mit der Radikalen Partei Chiles sympathisierte, und ist der Sohn von José Marmaduke Grove Abalos, einem Rechtsanwalt, und Ana Vallejo Burgoa. Sein Vater wurde 1891 ins Exil geschickt, weil er sich dem Präsidenten José Manuel Balmaceda widersetzte. Trotz seiner frühen Opposition gegen die herrschenden Behörden, trat er 1892 in die chilenische Marineakademie ein. Wegen seiner sozialistischen Tendenzen ins Exil geschickt, wurde er als Verbindungsmann in Großbritannien eingesetzt, eigentlich nur, um ihn aus Chile herauszuhalten. Dort nahm er jedoch an der Revolution teil, und während seines Exils, während der Herrschaft von Präsident Ibañez Del Campo, verschlechterte sich die Wirtschaft Chiles und 1931 ging das Land bankrott. Kurz darauf wurde Ibañez abgesetzt, als der Großteil der Armee und der Marine meuterte, was die Rückkehr Groves nach Chile und die Ausrufung der Sozialistischen Republik ermöglichte. Sein kürzlicher Aufstieg zum Vorsitzenden ist ein deutliches Zeichen dafür, dass sowohl die militärischen als auch die zivilen Behörden in Chile nach jahrelanger Unterstützung der patagonischen Rebellen einen Konflikt mit Argentinien für nahezu unvermeidlich halten.§!"
 
  CHL_clotario_leopoldo_blest_riffo: "Clotario Leopoldo Blest Riffo"
+ CHL_clotario_leopoldo_blest_riffo_leader_desc: "§YGeboren:§! §L17. November 1899, in Santiago, Provinz Santiago, Republik Chile§!"
+
  CHL_ricardo_eliecer_neftali_reyes_basoalto: "Ricardo Eliécer Neftalí Reyes Basoalto"
+ CHL_ricardo_eliecer_neftali_reyes_basoalto_leader_desc: "§YGeboren:§! §L12. Juli 1904, in Parral, Provinz Linares, Republik Chile§!"
+
  CHL_salvador_guillermo_allende_gossens: "Salvador Guillermo Allende Gossens"
+ CHL_salvador_guillermo_allende_gossens_leader_desc: "§YGeboren:§! §L26. Juni 1908, in Santiago, Provinz Santiago, Republik Chile§!"
+
  CHL_lucila_godoy_alcayaga: "Lucila Godoy Alcayaga"
+ CHL_lucila_godoy_alcayaga_leader_desc: "§YGeboren:§! §L7. April 1899, in Vicuña, Provinz Coquimbo, Republik Chile§!"
+
  CHL_aurelio_celedon_palma: "Aurelio Celedón Palma"
+ CHL_aurelio_celedon_palma_leader_desc: "§YGeboren:§! §L1902, in Tomé, Provinz Concepción, Republik Chile§!"
+
  CHL_pedro_aguirre_cerda: "Pedro Aguirre Cerda"
+ CHL_pedro_aguirre_cerda_leader_desc: "§YGeboren:§! §L6. Februar 1879, in Pocuro, Provinz Valparaíso, Republik Chile§!"
+
  CHL_juan_esteban_montero: "Juan Esteban Montero"
+ CHL_juan_esteban_montero_leader_desc: "§YGeboren:§! §L12. Februar 1879, in Santiago, Provinz Santiago, Republik Chile§!"
+
  CHL_gabriel_gonzales_videla: "Gabriel González Videla"
+ CHL_gabriel_gonzales_videla_leader_desc: "§YGeboren:§! §L22. November 1898, in La Serena, Provinz Coquimbo, Republik Chile§!"
+
  CHL_arturo_alessandri_palma: "Arturo Alessandri Palma"
+ CHL_arturo_alessandri_palma_leader_desc: "§YGeboren:§! §L20. Dezember 1868, in Longaví, Provinz Maule, Republik Chile§!"
+
  CHL_eduardo_alessandri_rodriguez: "Eduardo Alessandri Rodríguez"
+ CHL_eduardo_alessandri_rodriguez_leader_desc: "§YGeboren:§! §L23. Januar 1903, in San Bernardo, Provinz Santiago, Republik Chile§!"
+
  CHL_carlos_ibanez_del_campo: "Carlos Ibáñez del Campo"
+ CHL_carlos_ibanez_del_campo_leader_desc: "§YGeboren:§! §L3. November 1877, in Linares, Provinz Maule, Republik Chile§!"
+
  CHL_juan_pablo_bennett_argandona: "Juan Pablo Bennett Argandoña"
+ CHL_juan_pablo_bennett_argandona_leader_desc: "§YGeboren:§! §L25. Januar 1871, in La Serena, Provinz Coquimbo, Republik Chile§!"
+
  CHL_bartolome_guillermo_blanche_espejo: "Bartolomé Guillermo Blanche Espejo"
+ CHL_bartolome_guillermo_blanche_espejo_leader_desc: "§YGeboren:§! §L6. Juni 1879, in La Serena, Provinz Coquimbo, Republik Chile§!"
+
  CHL_francisco_javier_diaz_valderrama: "Francisco Javier Díaz Valderrama"
+ CHL_francisco_javier_diaz_valderrama_leader_desc: "§YGeboren:§! §L5. April 1877, in Santa Cruz, Provinz Colchagua, Republik Chile§!"
+
  CHL_arturo_puga_osorio: "Arturo Puga Osorio"
+ CHL_arturo_puga_osorio_high_command_desc: "§YGeboren:§! §L1879, in Santiago, Provinz Santiago, Republik Chile§!"
+
  CHL_carlos_fuentes_rabe: "Carlos Fuentes Rabe"
+ CHL_carlos_fuentes_rabe_army_chief_desc: "§YGeboren:§! §L2. Juli 1887, in Santiago, Provinz Santiago, Republik Chile§!"
+
  CHL_oscar_izurieta_molina: "Óscar Izurieta Molina"
+ CHL_oscar_izurieta_molina_commander_desc: "§YGeboren:§! §L24. Oktober 1909, in Santiago, Provinz Santiago, Republik Chile§!"
+
  CHL_carlos_arturo_espinoza_mujica: "Carlos Arturo Espinoza Mujica"
+ CHL_arturo_espinoza_mujica_army_chief_desc: "§YGeboren:§! §L16. Dezember 1890, in Temuco, Provinz Cautín, Republik Chile§!"
+
  CHL_oscar_escudero_otarola: "Oscar Escudero Otárola"
+ CHL_oscar_escudero_otarola_commander_desc: "§YGeboren:§! §L22. März 1891, in San Felipe, Provinz Aconcagua, Republik Chile§!"
+
  CHL_alfredo_portales_mourgues: "Alfredo Portales Mourgues"
+ CHL_alfredo_portales_mourgues_commander_desc: "§YGeboren:§! §L20. Januar 1892, in Santiago, Provinz Santiago, Republik Chile§!"
+
  CHL_guillermo_barrios_tirado: "Guillermo Barrios Tirado"
- 
+ CHL_guillermo_barrios_tirado_commander_desc: "§YGeboren:§! §L2. April 1893, in Ovalle, Provinz Coquimbo, Republik Chile§!"
+
  CHL_julio_allard_pinto: "Julio Allard Pinto"
+ CHL_julio_allard_pinto_navy_chief_desc: "§YGeboren:§! §L11. Juni 1885, in La Serena, Provinz Coquimbo, Republik Chile§!"
+
  CHL_luis_villarroel_de_la_rosa: "Luis Villarroel de la Rosa"
+ CHL_luis_villarroel_de_la_rosa_admiral_desc: "§YGeboren:§! §L1890, in der Republik Chile§!"
+
  CHL_carlos_jouanne_de_la_motte_du_portail: "Carlos Jouanne de la Motte du Portail"
+ CHL_carlos_jouanne_de_la_motte_du_portail_navy_chief_desc: "§YGeboren:§! §L9. April 1879, in Valparaíso, Provinz Valparaíso, Republik Chile§!"
+
  CHL_olegario_reyes_del_rio: "Olegario Reyes Del Río"
+ CHL_olegario_reyes_del_rio_admiral_desc: "§YGeboren:§! §L1. Oktober 1879, in Valparaíso, Provinz Valparaíso, Republik Chile§!"
+
  CHL_vicente_merino_bielich: "Vicente Merino Bielich"
+ CHL_vicente_merino_bielich_navy_chief_desc: "§YGeboren:§! §L1. Januar 1889, in Santiago, Provinz Santiago, Republik Chile§!"
 
  CHL_oscar_schnake: "Óscar Alex Enrique Schnake Vergara"
+ CHL_oscar_schnake_advisor_desc: "§YGeboren:§! §L11. Juni 1899, in Galvarino, Provinz Cautín, Republik Chile§!"
+
  CHL_carlos_davila: "Carlos Gregorio Dávila Espinoza"
+ CHL_carlos_davila_advisor_desc: "§YGeboren:§! §L15. September 1887, in Los Ángeles, Provinz Arauco, Republik Chile§!"
+
  CHL_carlos_alberto_martinez: "Carlos Alberto Martínez"
+ CHL_carlos_alberto_martinez_advisor_desc: "§YGeboren:§! §L18. Juli 1885, in Santiago, Provinz Santiago, Republik Chile§!"
+
  CHL_hernan_barros_bianchi: "Hernán Barros Bianchi"
+ CHL_hernan_barros_bianchi_advisor_desc: "§YGeboren:§! §L24. Juli 1911, in Santiago, Provinz Santiago, Republik Chile§!"
+
  CHL_gaston_kulczewski_garcia: "Gastón Kulczewski García"
+ CHL_gaston_kulczewski_garcia_theorist_desc: "§YGeboren:§! §L27. Mai 1890, in Ovalle, Provinz Coquimbo, Republik Chile§!"
+
  CHL_arturo_merino_benitez: "Arturo Merino Benítez"
+ CHL_arturo_merino_benitez_theorist_desc: "§YGeboren:§! §L17. Mai 1888, in Chillán, Region Ñuble, Republik Chile§!"
+
  CHL_oscar_novoa_fuentes: "Oscar Novoa Fuentes"
+ CHL_oscar_novoa_fuentes_army_chief_desc: "§YGeboren:§! §L8. März 1886, in Tacna, Region Tacna, Republik Chile§!"
+
  CHL_manuel_tovarias: "Manuel Tovarías Arroyo"
+ CHL_manuel_tovarias_air_chief_desc: "§YGeboren:§! §L1894, in der Republik Chile§!"
+
  CHL_raul_gonzalez_nolle: "Raúl González Nolle"
+ CHL_raul_gonzalez_nolle_air_chief_desc: "§YGeboren:§! §Lin der Republik Chile§!"
+
  CHL_luis_otero_mujica: "Luis Otero Mujica"
+ CHL_luis_otero_mujica_high_command_desc: "§YGeboren:§! §L14. März 1879, in Putaendo, Region Valparaíso, Republik Chile§!"
+
  CHL_diego_aracena: "Diego Aracena"
+ CHL_diego_aracena_air_chief_desc: "§YGeboren:§! §L12. November 1891, in Santiago, Provinz Santiago, Republik Chile§!"
