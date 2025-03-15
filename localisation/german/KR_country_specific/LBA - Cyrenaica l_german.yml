@@ -126,7 +126,7 @@
  LBA_Timbuktu_Oasis: "Stadt Timbuktu"
  LBA_Timbuktu_Oasis_desc: "Die Goldene Stadt Timbuktu ist eine Schatzkammer des Wissens und der religiösen Bildung. Die Mausoleen der heiligen Männer ziehen Pilger aus der gesamten Sahara und darüber hinaus an."
  LBA_Bilma_Oasis: "Oase Bilma [910.trading_post_level_indicator]"
- LBA_Bilma_Oasis_desc: ""So funktioniert der Karawanen Manager 1936." - Idris I"
+ LBA_Bilma_Oasis_desc: "\"So funktioniert der Karawanen Manager 1936.\" - Idris I"
  LBA_Wadai: "Stadt Abéché, Wadai [515.trading_post_level_indicator]"
  LBA_Wadai_desc: "Eine Festung bewacht die ehemalige Hauptstadt der Wadai, das Tor der Karawanen in den Süden. Auf den Märkten wimmelt es von Händlern und Waren."
  LBA_Congo: "[1025.owner.GetAdjective] Kongobecken"
@@ -507,6 +507,7 @@
  LBA_KR_gathering_storm_desc: "Als Muhammad ibn Ali al-Sanusi den Orden 1837 gründete, waren die Armeen des Christentums dabei, die letzten muslimischen Staaten Afrikas, Zentralasiens und des Nahen Ostens anzugreifen. In einem verzweifelten Versuch, das Blatt zu wenden, unternahm unser Orden Feldzüge durch die Sahara in den französischen Sudan und den Tschad, um die Unabhängigkeit dieser Staaten zu bewahren und die Botschaft unseres Großmeisters zu verbreiten. Zurückgedrängt, sahen wir unser Territorium schrumpfen, bis es 1911 zu einem direkten Angriff auf das Heimatland kam. Obwohl Italien nach fast einem Jahrzehnt des Guerillakriegs ins Meer zurückgedrängt wurde, steht das französische Kolonialreich noch immer, wacht noch immer, ist noch immer hungrig..."
 
 ### Intro Screen ###
+ LBA_country_intro_background: "GFX_LBA_intro"
  LBA_country_intro_header: "Das Emirat Kyrenaika"
  LBA_country_intro_content: "Der Senussi-Orden wurde 1843 von dem großen Muhammad ibn Ali as-Senussi gegründet und ist zu einem Synonym für die Region Kyrenaika geworden, in der er herrscht. Obwohl wir technisch gesehen ein Teil des Osmanischen Reiches sind und die städtische Elite von Benghazi immer stärker in den Grünen Berg vordringt, konnten wir unsere Unabhängigkeit seit nunmehr fast 100 Jahren bewahren.\n\nDie früheren Großmeister haben die verachtenswerten Imperialisten auf Schritt und Tritt bekämpft und den Kampf gegen die Europäer von den Wüsten von Wadai bis zur Oase Siwa angeführt. Als die italienische Armee 1911 in Tripolitanien einmarschierte, kämpften wir Seite an Seite mit unserem Kalifen, um ihre gewaltige Streitmacht zurückzuschlagen, und taten dies auch noch, als die Türken Libyen nur wenige Monate später übergaben. Unser Verhältnis zu den Türken war schon immer... gelinde gesagt, kompliziert, denn während wir 1911 und 1915 unsere Kräfte bündelten, ist es mehr als klar, dass die Pforte nicht besonders scharf auf eine unabhängige Verwaltungseinheit in ihrem Herrschaftsbereich ist.\n\nAls der Weltkrieg jedoch mit einem osmanischen Sieg endete, musste das überforderte und bankrotte Reich zugeben, dass es nicht über die Mittel verfügte, unseren gestärkten Nachkriegsstatus anzufechten, und begnügte sich mit der Rückkehr der nominellen Kontrolle, die von seinen Bürokraten in Bengasi ausgeübt wurde.\n\nSeit dem Ende des Krieges hat sich in der Kyrenaika wenig getan, da sowohl die Mittel als auch der Wille fehlen, den Status quo zu ändern, was wesentliche Veränderungen verhindert. Dies änderte sich 1933, als unser oberster Führer, Ahmed Sharif as-Senussi, an Altersschwäche starb und seinen Sohn mit der Übernahme der Führung beauftragte. Der Tod dieser Schlüsselfigur unserer Geschichte hat jedoch die Spannungen zwischen den panislamischen Anhängern des verstorbenen Großmeisters und den Senussi-Prinzen, die sich auf den rechtmäßigen Erben Idris berufen, der nach dem Sieg der Osmanen ins Exil ging, neu entfacht."
 
@@ -703,7 +704,7 @@
  trp.2.a: "Einigkeit macht stark!"
 
  trp.3.t: "Zusammenarbeit mit dem Tripolitanischen Freien Nationalen Block"
- trp.3.d: "Auf der Weltbühne ein völliges Rätsel, hat der Freie Nationale Block in letzter Zeit in Tripolis für Aufsehen gesorgt, da seine offen pro-internationale Rhetorik und seine Bewunderung für den Syndikalismus die politischen Entscheidungsträger dazu veranlasst hat, einen Blick auf einen ansonsten irrelevanten Punkt auf der Landkarte zu werfen. Ohne nennenswerte Industrie, Analphabeten bis auf den letzten Mann und mit sehr geringen Ressourcen könnte sich seine geografische Lage dennoch als entscheidend erweisen, um eine Bedrohung durch die Rattenfänger abzuwehren.\n\nZu diesem Zweck sind Beobachter aus der ganzen Welt nach Tripolis geströmt, in der Hoffnung, die Nation entscheidend in unser Bündnis zu ziehen. Trotz der Prahlerei ihres Anführers, Faqih Hasan, bezweifeln viele in unseren eigenen Nationen, dass Tripolis sich nicht eher als Belastung denn als Vorteil erweisen würde, und weisen darauf hin, dass die "sozialistischen" Ideale, die die FNB vertritt, kaum als sozialistisch bezeichnet werden können."
+ trp.3.d: "Auf der Weltbühne ein völliges Rätsel, hat der Freie Nationale Block in letzter Zeit in Tripolis für Aufsehen gesorgt, da seine offen pro-internationale Rhetorik und seine Bewunderung für den Syndikalismus die politischen Entscheidungsträger dazu veranlasst hat, einen Blick auf einen ansonsten irrelevanten Punkt auf der Landkarte zu werfen. Ohne nennenswerte Industrie, Analphabeten bis auf den letzten Mann und mit sehr geringen Ressourcen könnte sich seine geografische Lage dennoch als entscheidend erweisen, um eine Bedrohung durch die Rattenfänger abzuwehren.\n\nZu diesem Zweck sind Beobachter aus der ganzen Welt nach Tripolis geströmt, in der Hoffnung, die Nation entscheidend in unser Bündnis zu ziehen. Trotz der Prahlerei ihres Anführers, Faqih Hasan, bezweifeln viele in unseren eigenen Nationen, dass Tripolis sich nicht eher als Belastung denn als Vorteil erweisen würde, und weisen darauf hin, dass die \"sozialistischen\" Ideale, die die FNB vertritt, kaum als sozialistisch bezeichnet werden können."
  trp.3.a: "Wir sind dennoch dankbar für ihr Lob"
 
  trp.4.t: "Tripolitanien bewirbt sich um das Phalanstere"
@@ -735,20 +736,28 @@
  trp.9.b: "Wir sollten nichts überstürzen"
 
  trp.10.t: "Die Zukunft der Tripolitanischen Republik"
- trp.10.d: "Mit der Ausrufung der Ersten Tripolitanischen Republik stellt sich nun die Frage, welchen Weg wir einschlagen werden.\n\nDer Freie Nationale Block von Faqih Hasan hat sowohl vor als auch nach dem Levantekrieg Schockwellen ausgelöst, da seine Botschaft eines modernen, starken arabischen Staates bei der jungen Generation, die von den alten Systemen der Pforte desillusioniert ist und mit revolutionärem Eifer den Sendungen von Radio Freies Kairo und der Arabischen Befreiungsfront in Paris lauscht, großen Anklang gefunden hat.\n\nDennoch haben ihre revolutionäre Botschaft und ihr fragwürdiges Festhalten am Glauben viele der älteren Garden nicht überzeugen können. Die Vereinte Nationale Front, die sich auf die Stammesbündnisse von einst stützt, verspricht eine starke Regierung, die dem Glauben größten Respekt zollt und sich gleichzeitig unerschütterlich für die arabische Sache einsetzt.\n\nDrittens ist da die Stadt Misrata, die größte Stadt Tripolitaniens, deren unerschütterliche Loyalität zum ehemaligen osmanischen Kommandanten Ramadan al-Suwayhli eine erhebliche Bedrohung für die demokratischen Vorstellungen der anderen Parteien darstellt. Da sein Einfluss auf die Reste der ehemaligen osmanischen Armee nach wie vor groß ist und sein Ansehen aus dem Weltkrieg von allen Tripolitanern nicht in Frage gestellt wird, befürchten viele, dass er sich und seine Verbündeten "zum Wohle Tripolitaniens" einsetzen könnte."
+ trp.10.d: "Mit der Ausrufung der Ersten Tripolitanischen Republik stellt sich nun die Frage, welchen Weg wir einschlagen werden.\n\nDer Freie Nationale Block von Faqih Hasan hat sowohl vor als auch nach dem Levantekrieg Schockwellen ausgelöst, da seine Botschaft eines modernen, starken arabischen Staates bei der jungen Generation, die von den alten Systemen der Pforte desillusioniert ist und mit revolutionärem Eifer den Sendungen von Radio Freies Kairo und der Arabischen Befreiungsfront in Paris lauscht, großen Anklang gefunden hat.\n\nDennoch haben ihre revolutionäre Botschaft und ihr fragwürdiges Festhalten am Glauben viele der älteren Garden nicht überzeugen können. Die Vereinte Nationale Front, die sich auf die Stammesbündnisse von einst stützt, verspricht eine starke Regierung, die dem Glauben größten Respekt zollt und sich gleichzeitig unerschütterlich für die arabische Sache einsetzt.\n\nDrittens ist da die Stadt Misrata, die größte Stadt Tripolitaniens, deren unerschütterliche Loyalität zum ehemaligen osmanischen Kommandanten Ramadan al-Suwayhli eine erhebliche Bedrohung für die demokratischen Vorstellungen der anderen Parteien darstellt. Da sein Einfluss auf die Reste der ehemaligen osmanischen Armee nach wie vor groß ist und sein Ansehen aus dem Weltkrieg von allen Tripolitanern nicht in Frage gestellt wird, befürchten viele, dass er sich und seine Verbündeten \"zum Wohle Tripolitaniens\" einsetzen könnte."
  trp.10.a: "Der Freie Nationale Block übernimmt die Kontrolle"
  trp.10.b: "Die Vereinte Nationale Front übernimmt die Kontrolle"
  trp.10.c: "al-Suwayhili übernimmt die Macht"
 
 ### Characters ###
- LBA_az_ibrahim_bin_ahmad_as_sharif: "Ibrahim ibn Ahmad as-Sharif"
- LBA_senussi_regency_council: "Senussi Regency Council"
+ LBA_ibrahim_bin_ahmad_as_sharif: "Ibrahim ibn Ahmad as-Sharif"
+ LBA_ibrahim_bin_ahmad_as_sharif_leader_desc: "§YGeboren:§! §L1903, im Bezirk Kufra, Vilayet von Tripolitanien, Osmanisches Reich§!"
+ LBA_senussi_regency_council: "Senussi Regentschaftsrat"
+ LBA_senussi_regency_council_leader_desc: "§YHintergrund:§! §LDer Großmeister des Senussi-Ordens ist nicht mehr in der Lage zu regieren, und es wurde ein Regentschaftsrat einberufen, bis ein potenzieller Nachfolger feststeht§!"
  LBA_idris: "Idris I"
+ LBA_idris_leader_desc: "§YGeboren:§! §L13. März 1890, in Jaghbub, Vilayet von Tripolitanien, Osmanisches Reich§!"
  LBA_umar_al_mukhtar: "Umar al-Mukhtār"
+ LBA_umar_al_mukhtar_leader_desc: "§YGeboren:§! §L20. August 1858, in Benghazi, Eyalet von Tripolitanien, Osmanisches Reich§!"
  LBA_yousaf_borahil_al_msmare: "Yousaf Borahil Al-Msmare"
+ LBA_yousaf_borahil_al_msmare_leader_desc: "§YGeboren:§! §L1886, im Vilayet von Tripolitanien, Osmanisches Reich§!"
  LBA_omar_shegewi: "Omar Shegewi"
- LBA_safi_al_din_bin_muhammad_as_sharif: "Safi al-bin bin Muhammad as-Sharif"
+ LBA_omar_shegewi_high_command_desc: "§YGeboren:§! §Lim Vilayet von Tripolitanien, Osmanisches Reich§!"
+ LBA_safi_al_din_bin_muhammad_as_sharif: "Safi al-Din bin Muhammad as-Sharif"
+ LBA_safi_al_din_bin_muhammad_as_sharif_commander_desc: "§YGeboren:§! §L10. August 1895, in Jaghbub, Vilayet von Tripolitanien, Osmanisches Reich§!"
  LBA_omar_faiek_shennib: "Omar Faiek Shennib"
+ LBA_omar_faiek_shennib_navy_chief_desc: "§YGeboren:§! §L1883, in Derna, Vilayet von Tripolitanien, Osmanisches Reich§!"
 
  LBA_senussi_cartographers: "Senussi Cartographers"
  LBA_senussi_spy_ring: "Senussi Spy Ring"
@@ -756,22 +765,38 @@
  LBA_pliant_authorities: "Pliant Authorities"
 
  LBA_as_siddig_al_mutassir: "As-Siddig al-Mutassir"
+ LBA_as_siddig_al_mutassir_army_chief_desc: "§YGeboren:§! §L1912, im Vilayet von Tripolitanien, Osmanisches Reich§!"
  LBA_yousef_borheil_al_massari: "Yousef Borheil al-Massari"
+ LBA_yousef_borheil_al_massari_high_command_desc: "§YGeboren:§! §Lim Vilayet von Tripolitanien, Osmanisches Reich§!"
+ LBA_senussi_military_council: "Senussi Military Council"
+ LBA_senussi_military_council_theorist_desc: "§YGegründet:§! §Lim Vilayet von Tripolitanien, Osmanisches Reich§!"
 
 ### Characters ###
- TRP_bashir_bin_hamza: "Bashir ibn Hamza"
+ TRP_bashir_bin_hamza: "Bashir ibn Hamza"   # Fictional?
+ TRP_bashir_bin_hamza_leader_desc: "§YGeboren:§! §Lim Vilayet von Tripolitanien, Osmanisches Reich§!"
  TRP_ahmad_faqih_hasan: "Ahmad Faqih Hasan"
+ TRP_ahmad_faqih_hasan_leader_desc: "§YGeboren:§! §L1895, im Vilayet von Tripolitanien, Osmanisches Reich§!"
  TRP_bashir_saadawi: "Bashir Saadawi"
- TRP_sadiq_bin_zarra: "Sadiq ibn Zarra"
- TRP_salim_bey_al_muntasir: "Salim Bey al-Muntasir"
+ TRP_bashir_saadawi_leader_desc: "§YGeboren:§! §L1884, in al-Khums, Vilayet von Tripolitanien, Osmanisches Reich§!"
+ TRP_sadiq_bin_zarra: "Sadiq ibn Zarra"   # Fictional?
+ TRP_sadiq_bin_zarra_leader_desc: "§YGeboren:§! §Lim Vilayet von Tripolitanien, Osmanisches Reich§!"
+ TRP_salim_bey_al_muntasir: "Salim Bey al-Muntasir"   # Fictional?
+ TRP_salim_bey_al_muntasir_leader_desc: "§YGeboren:§! §Lim Vilayet von Tripolitanien, Osmanisches Reich§!"
  TRP_ramadan_al_suwayhili: "Ramadan al-Suwayhili"
+ TRP_ramadan_al_suwayhili_leader_desc: "§YGeboren:§! §L1879, in Misrata, Vilayet von Tripolitanien, Osmanisches Reich§!"
  TRP_ali_rajab: "'Ali Rajab"
+ TRP_ali_rajab_leader_desc: "§YGeboren:§! §Lim Vilayet von Tripolitanien, Osmanisches Reich§!"
 
  TRP_mahmud_al_muntasir: "Mahmud al-Muntasir"
+ TRP_mahmud_al_muntasir_advisor_desc: "§YGeboren:§! §L8. August 1903, in Misrata, Vilayet von Tripolitanien, Osmanisches Reich§!"
  TRP_abdul_majid_kubar: "Abdul Majid Kubar"
+ TRP_abdul_majid_kubar_advisor_desc: "§YGeboren:§! §L9. Mai 1909, im Vilayet von Tripolitanien, Osmanisches Reich§!"
  TRP_abdul_salam_al_buseiri: "Abdul Salam al-Buseiri"
+ TRP_abdul_salam_al_buseiri_advisor_desc: "§YGeboren:§! §L1898, in Tripoli-of-the-West, Vilayet von Tripolitanien, Osmanisches Reich§!"
  TRP_muhammad_sakizli: "Muhammad Sakizli"
+ TRP_muhammad_sakizli_advisor_desc: "§YGeboren:§! §L1892, im Vilayet von Tripolitanien, Osmanisches Reich§!"
  TRP_ali_aneizi: "Ali Aneizi"
+ TRP_ali_aneizi_advisor_desc: "§YGeboren:§! §L1904, im Vilayet von Tripolitanien, Osmanisches Reich§!"
 
  TRP_salim_b_abd_al_nabi: "Salim B. Abd al-Nabi"
- LBA_senussi_military_council: "Senussi Militärrat"
+ TRP_salim_b_abd_al_nabi_commander_desc: "§YGeboren:§! §L1880, im Vilayet von Tripolitanien, Osmanisches Reich§!"
