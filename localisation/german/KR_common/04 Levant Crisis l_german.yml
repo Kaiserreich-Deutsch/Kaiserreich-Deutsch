@@ -13,6 +13,9 @@ EGY_levant_crisis_initiative_base: "Levante-Krise: In der Initiative"
 EGY_levant_crisis_initiative_lost: "Levante-Krise: Initiative verloren"
 OTT_levant_crisis_initiative: "Levante-Krise: Gegenoffensive"
 
+### Dynamic Modifiers ###
+OTT_railway_transport_disrupted: "Eisenbahnverkehr gestört"
+
 ### Operation Abu'l-A'war events
 palabu.1.t: "Operation Abu'l-A'war"
 palabu.1.d: "Angesichts der unüberwindbaren Dominanz der osmanischen Flotte haben Militärtheoretiker in Zusammenarbeit mit den Attachés der Kommunarden einen Vorschlag entwickelt, um das Spielfeld auszugleichen. Da ein kompletter Angriff auf die osmanische Marinestation unmöglich wäre, wurde ein radikalerer Plan ausgearbeitet.\n\nIn den ersten Stunden des Krieges sollte eine Abteilung von Marinebombern die osmanische Flotte in der Nähe ihrer Basis in Beirut angreifen, um die Osmanen zu überrumpeln. Anschließend würde ein schneller Vorstoß durch den Sinai und Palästina (mit Unterstützung syrischer Zellen) erfolgen. Es ist ein kühner Plan, aber sollte er funktionieren, könnte er sogar die griechische Regierung dazu bringen, sich auf eine Seite zu schlagen und die Türken in der Ägäis zu beschäftigen."
@@ -47,7 +50,7 @@ palcon.3.d: "Als Bewohner des einzigen anderen unabhängigen arabischen Staates 
 palcon.3.a: "Willkommen!"
 
 palcon.4.t: "Jemen entsendet Vertreter"
-palcon.4.d: "Obwohl sie de jure Teil der Pforte sind und sich weigerten, während des arabischen Aufstandes von 1916 Hilfe zu leisten, ist es kein Geheimnis, dass die Jemeniten wenig warme Gefühle für ihre Regierung in Kostantiniyye hegen. Imam [YEM.GetLeader] hat daher trotz einer Warnung der Pforte, dies nicht zu tun, seinen eigenen Vertreter nach Kairo geschickt.\n\nIm Gegensatz zu einigen unserer anderen arabischen Verbündeten teilt der Jemen jedoch nicht unsere Ambitionen und bleibt nach innen gerichtet. Sollte die osmanische Regierung ihnen ein besseres Angebot machen als wir, würde es niemanden überraschen, wenn der Imam von unseren Plänen abrücken würde."
+palcon.4.d: "Obwohl sie de jure Teil der Pforte sind und sich weigerten, während des arabischen Aufstandes von 1916 Hilfe zu leisten, ist es kein Geheimnis, dass die Jemeniten wenig warme Gefühle für ihre Regierung in Kostantiniye hegen. Imam [YEM.GetLeader] hat daher trotz einer Warnung der Pforte, dies nicht zu tun, seinen eigenen Vertreter nach Kairo geschickt.\n\nIm Gegensatz zu einigen unserer anderen arabischen Verbündeten teilt der Jemen jedoch nicht unsere Ambitionen und bleibt nach innen gerichtet. Sollte die osmanische Regierung ihnen ein besseres Angebot machen als wir, würde es niemanden überraschen, wenn der Imam von unseren Plänen abrücken würde."
 palcon.4.a: "Immerhin sind sie gekommen..."
 
 palcon.5.t: "Iran entsendet eine Delegation"

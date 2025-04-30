@@ -38,6 +38,8 @@ country_intro_content_3: "$KR_scenario_desc$"
 country_intro_content_4: "$KR_scenario_desc$"
 country_intro_content_5: "$KR_scenario_desc$"
 
+country_intro_page_indicator: "[GetCurrPageCountryIntro]/[GetPageCountCountryIntro]"
+
 guide: ""
 guide_1: ""
 guide_2: ""
@@ -48,12 +50,14 @@ KR_welcome_splash_tab_2_reveal_spoilers_button: "Spoiler anzeigen?"
 KR_welcome_splash_tab_2_header: "[ROOT.GetNameDefCap]"
 KR_welcome_splash_tab_2_content: "[GetCountryGuide]"
 
+country_guide_page_indicator: "[GetCurrPageCountryGuide]/[GetPageCountCountryGuide]"
+
 ## TAB 3 ##
 KR_welcome_splash_tab_3_content: "§YBitte beachten Sie Folgendes:§!\n£white_dot \n\n£white_dot \n\n£white_dot \n\n£white_dot \n\n£white_dot \n\n£white_dot \n\n\n\n§YProbleme melden:§!\nDieser Mod befindet sich noch in der Entwicklung, daher sind Bugs und Abstürze möglich. Wenn du auf Probleme stößt, melde sie bitte in unserem §YGitHub Problemtracker§!, damit wir sie schnell beheben können. Ein Link dazu ist im Pausenmenü zu finden."
 KR_welcome_splash_tab_3_content_0: "Kaiserreich legt Beschränkungen für diplomatische Aktionen wie §Rfrühe Kriege§!, §RFraktionen§! und §RAutonomiestufen§! fest.\nKaiserreich enthält §CDivisionsgrenzen§! und eine §CDemobilisierung§! Mechanik, um die Spielbarkeit im späteren Spiel zu verbessern.\nBei §YFriedenskonferenzen§! sollten Sie darauf achten, dass Sie alle Staaten annektieren. Sie können später Länder aus den annektierten Gebieten durch §CEntscheidungen§! entlassen.\nIm Menü §YIndividuelle Spielregeln§! können Sie viele Optionen einstellen, darunter §CLänderpfade§!, §CVorrang für Spieler bei Friedenskonferenzen§!, und das §CStaat und Land Transfer Tool§!.\nDas £kr_options_icon  §YOptionsmenu im Spiel§! wird durch einen Klick auf das Symbol in der rechten oberen Ecke geöffnet. Hier können Sie die §CHäufigkeit der Nachrichtenereignisse§! einstellen und die §CDynamische Umbenennung§! von Staaten und Siegpunkten aktivieren.\n§YDieses Fenster§! kann jederzeit wieder geöffnet werden, indem Sie auf das Symbol £help_button  oben rechts klicken."
 
 ## TAB 4 ##
-KR_CURRENT_VERSION: "1.4.4"
+KR_CURRENT_VERSION: "1.4.5"
 KR_CURRENT_VERSION_NAME: "All the Russias"
 KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ \"$KR_CURRENT_VERSION_NAME$\""
 KR_welcome_splash_tab_4_upper_header: "§YWillkommen bei $KR_CURRENT_VERSION_COMBINED$§!"
@@ -67,8 +71,8 @@ KR_welcome_splash_tab_4_content_3: "Chiron29  ·  Cody  ·  Deliberus  ·  DerEh
 KR_welcome_splash_tab_4_content_4: "Fedex  ·  Flamefang  ·  Frill Shark  ·  Gaboemi  ·  Georgy  ·  Gre  ·  Hamfast  ·  Hazo  ·  Ido"
 KR_welcome_splash_tab_4_content_5: "Igor050301  ·  JazzyHugh  ·  Jeankedezeehond  ·  jerv  ·  Jonny BL  ·  Kano  ·  katieluka  ·  kergely"
 KR_welcome_splash_tab_4_content_6: "KFateweaver  ·  Klyntar King  ·  Krčo  ·  lehmannmo  ·  Luwofe  ·  Matoro  ·  McOmghall  ·  MrMano"
-KR_welcome_splash_tab_4_content_7: "~mw~ // miwaco.  ·  Noot  ·  Pelmen  ·  PPsyrius  ·  Purple Jinjo  ·  Rnk  ·  Rune  ·  Sasha"
-KR_welcome_splash_tab_4_content_8: "Shiroe  ·  Sonny O'Cad  ·  SuperGreenBeans  ·  suzuha  ·  The Alpha Dog  ·  The Irredentista"
+KR_welcome_splash_tab_4_content_7: "~mw~ // miwaco.  ·  Noot  ·  Pelmen  ·  PPsyrius  ·  Purple Jinjo  ·  Rnk ·  Sasha  ·  Shiroe"
+KR_welcome_splash_tab_4_content_8: "Sonny O'Cad  ·  SuperGreenBeans  ·  suzuha  ·  The Alpha Dog  ·  The Irredentista"
 KR_welcome_splash_tab_4_content_9: "The Italian Jojo  ·  Toaster  ·  Vidyaország  ·  VladimirLemon  ·  Zimbabwe Salt Co."
 # Deutsches Übersetzungsteam:
 KR_welcome_splash_tab_4_content_10: "\n§YDeutsches Übersetzungs-Team:§!"
@@ -114,7 +118,7 @@ social_democrat_plurality: "§S[?token:social_democrat.GetTokenLocalizedKey]§! 
 social_liberal_plurality: "§l[?token:social_liberal.GetTokenLocalizedKey]§! haben die höchste Popularität"
 market_liberal_plurality: "§m[?token:market_liberal.GetTokenLocalizedKey]§! haben die höchste Popularität"
 social_conservative_plurality: "§c[?token:social_conservative.GetTokenLocalizedKey]§! haben die höchste Popularität"
-authoritarian_democrat_plurality: "§g[?token:authoritarian_democrat.GetTokenLocalizedKey]§! haben die höchste Popularität"
+authoritarian_democrat_plurality: "§a[?token:authoritarian_democrat.GetTokenLocalizedKey]§! haben die höchste Popularität"
 paternal_autocrat_plurality: "§P[?token:paternal_autocrat.GetTokenLocalizedKey]§! haben die höchste Popularität"
 national_populist_plurality: "§n[?token:national_populist.GetTokenLocalizedKey]§! haben die höchste Popularität"
 
@@ -171,6 +175,7 @@ is_indian_tag: "Ist ein indisches Land"
 is_farsi_speaking_tag: "Ist ein Farsi-sprachiges Land"
 is_malay_speaking_tag: "Ist ein malaiischsprachiges Land"
 is_danubian_tag: "Ist ein danubisches Land"
+is_federal_austria: "Ist ein föderales Österreich"
 is_balkan_tag: "Ist ein Balkanland"
 is_belgian_tag: "Ist ein belgisches Land"
 is_uighur_tag: "Ist ein uigurisches Land"
@@ -667,7 +672,6 @@ cat_light_armor_research: "Leichte Panzerung Forschungsgeschwindigkeit"
 
 ### Hidden Techs ###
 tech_camel_corps: "Kamel-Korps"
-tech_camel_corps_terrain_effect: "  §Y$desert$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.03|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.15|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
 
 tech_ski_infantry: "Ski-Infanterie"
 tech_ski_infantry_terrain_effect: "  §Y$hills$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]\n  §Y$mountain$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
@@ -777,12 +781,13 @@ tank_makeshift_armor_desc: "Hergestellt aus Eisenblech statt aus Stahl, um Geld 
 tank_improvised_turret: "Improvisierter Turm"
 tank_improvised_turret_desc: "Er beherbergt die Kanone und kann sich drehen. Wenn es will."
 
-### Debug Tag ###
-XXA: "Integrierbare Territorien"
-XXA_ADJ: "Integrierbar"
-XXA_DEF: "die Integrierbare Territorien"
+### System Tag ###
+AAA: "Integrierbare Territorien"
+AAA_ADJ: "Integrierbar"
+AAA_DEF: "die Integrierbare Territorien"
 
-XXA_on_annex_workaround: " "
-XXA_on_annex_workaround_ADJ: " "
-XXA_on_annex_workaround_DEF: " "
-XXA_placeholder: "Platzhalter"
+on_annex_workaround: " "
+on_annex_workaround_ADJ: " "
+on_annex_workaround_DEF: " "
+
+system_placeholder_leader: "Platzhalter"
