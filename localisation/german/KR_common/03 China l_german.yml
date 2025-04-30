@@ -65,7 +65,7 @@ china_declare_government_desc: "[ROOT.china_declare_government_text_desc]"
 china_declare_government_SHX: "Ruft die Zhongyuan-Regierung aus"
 china_declare_government_SHX_desc: "Nachdem unsere Position in der nordchinesischen Tiefebene gesichert ist, können wir nun kühn das Erbe der Xinhai-Revolution für uns beanspruchen. Unsere neue Regierung wird sich nun um die nationale Einigung bemühen und alle Rivalen, die sich uns in den Weg stellen, auslöschen. Niemand, außer vielleicht [SHX.GetLeader] in all seiner Weisheit, hätte erwartet, dass die Provinz Shanxi eine solche Macht erlangen würde. Aber durch unseren Mut und unsere Tapferkeit bei der Befreiung der Zentralebene haben wir uns als würdig erwiesen, die nationale Einigung anzuführen!"
 
-china_declare_government_SHD_national_populist: "Das neue Qing-Reich ausrufen"
+china_declare_government_SHD_national_populist: "Wiederherstellung des Qing-Reiches"
 china_declare_government_SHD_national_populist_desc: "Der erbitterte Kampf um die Verbotene Stadt wurde auf Befehl von Zhang Tianran geführt. Die Tore des Palastes wurden zu einem Gefängnis für die feige Familie Aisin-Gioro. Mehrere Familienmitglieder versuchten zu fliehen, wurden aber zurückgeschickt, und die Mauern wurden an allen Ecken mit roten Speeren bewacht. Schließlich kapitulierte der Kaiser vor den Shangqing. Statt des Todes wurde Puyi gezwungen, in seiner kaiserlichen gelben Jacke vor Zhang Tianran zu kapitulieren und dem Volk sein Kaisertum zu bestätigen. Puyi bleibt Kaiser, und die Nebenkaiser, Verwalter und Priester der Shangqing Tianguo sind die offiziellen Magistrate des Qing-Reiches.\n\nZhang Tianran sprach den gefangenen Kaiser von jeglicher Schuld an diesem Krieg frei und erklärte, dass dieser Sieg der Höhepunkt einer spirituellen Genealogie sei, die mit den Boxern und Sun Yat-sen begann."
 
 china_declare_government_SHD_manchu_restoration: "Wiederherstellung des Qing-Reiches"
@@ -77,6 +77,9 @@ china_declare_government_other_desc: "Nachdem wir uns unseren Platz als stärkst
 china_declare_unification: "Die Wiedervereinigung Chinas ausrufen"
 china_declare_unification_desc: "Unsere Feinde wurden besiegt, und jeder, der es wagte, den Mantel der nationalen Führung zu Unrecht zu beanspruchen, wurde in seine Schranken verwiesen. Wir stehen nun als Herrscher eines weitgehend geeinten Chinas da, und alles, was noch zu tun ist, ist, unser Recht auf die nationale Führung offiziell einzufordern. Wir sind auf Gedeih und Verderb die Sieger der Warlord-Ära, und es liegt an uns, China in seine wohlwollende Zukunft zu führen."
 china_united: "§YChina ist nun vollständig unter einem Banner vereint.§!"
+
+china_declare_legitimacy_decision: "Unsere Legitimität festigen"
+china_declare_legitimacy_decision_desc: "Nach der chaotischen Erneuerung der Warlord-Ära hat es den Anschein, dass die Nachfolge der Zhili-Zentralregierung in dem Konflikt verloren gegangen ist. Nachdem wir unseren Teil zur Wiedervereinigung des Landes beigetragen haben, ist es nun an der Zeit, den nächsten Schritt zu tun, um China wieder zusammenzufügen."
 
 china_no_rival_governments_left_tt: "Wir haben alle rivalisierenden chinesischen Regierungen besiegt"
 
@@ -171,12 +174,20 @@ china_request_return_of_concessions_desc: "Bei den Konzessionen handelte es sich
 china_seize_concessions: "Beschlagnahmt die [FROM.GetAdjective] Konzessionen"
 china_seize_concessions_desc: "Da die Verhandlungen gescheitert sind, bleibt uns keine andere Wahl als das Schwert, wenn wir unsere Küstenbewohner von der Fremdherrschaft befreien wollen. Unsere Streitkräfte haben sich bereits in den Außenbezirken versammelt und sind bereit, die Rückgabe der Städte an ihre rechtmäßigen Besitzer zu gewährleisten."
 
-china_expand_mongolian_autonomy: "Erweiterung der Autonomen Region Mongolei"
-china_expand_mongolian_autonomy_desc: "Nachdem wir kürzlich Tuwa von den Russen zurückerobert haben, sollten wir die mongolische autonome Zone um dieses neue Gebiet erweitern."
-china_expand_tibetan_autonomy: "Erweiterung der Autonomen Region Tibet"
-china_expand_tibetan_autonomy_desc: "Nachdem die Frage der McMahon-Linie endgültig geklärt ist, sollten wir dieses neue Gebiet in unsere tibetische autonome Region integrieren."
-china_expand_xinjiang_autonomy: "Erweiterung der Autonomen Region Xinjiang"
-china_expand_xinjiang_autonomy_desc: "Nachdem wir kürzlich Aksai Chin zurückerobert haben, sollten wir dieses neue Gebiet in die Xinjianger Autonomieregion integrieren."
+china_expand_autonomous_region: "[CHN_expand_autonomous_region_scripted_loc]"
+china_expand_autonomous_region_desc: "[CHN_expand_autonomous_region_desc_scripted_loc]"
+
+CHN_expand_mongolian_autonomous_region_scripted_loc_key: "Erweitert die MAR auf [FROM.GetName]"
+CHN_expand_mongolian_autonomous_region_desc_scripted_loc_key: "Als unsere Streitkräfte zum ersten Mal in der Mongolei eintrafen, wurde beschlossen, den örtlichen mongolischen Bannern Autonomie zu gewähren, was zur Bildung der Äußeren Mongolischen Autonomen Zone führte. Eine Autonome Zone der Inneren Mongolei wurde ebenfalls in Erwägung gezogen. Da in letzter Zeit weitere Gebiete mit einer bedeutenden mongolischen Bevölkerung erworben wurden, wäre es sinnvoll, diesen Gebieten die gleiche Behandlung zukommen zu lassen."
+
+CHN_expand_xinjiang_autonomous_region_scripted_loc_key: "Erweitert die XAR auf [FROM.GetName]"
+CHN_expand_xinjiang_autonomous_region_desc_scripted_loc_key: "Als unsere Streitkräfte zum ersten Mal in Xinjiang eintrafen, wurde beschlossen, der vielfältigen Provinz Autonomie zu gewähren, was zur Bildung der Autonomen Zone Xinjiang Uygur führte. Nachdem wir vor kurzem weitere Gebiete mit bedeutenden Minderheitenbevölkerungen erworben haben, wäre es sinnvoll, diesen Gebieten die gleiche Behandlung zukommen zu lassen."
+
+CHN_expand_tibetan_autonomous_region_scripted_loc_key: "Erweitert die TAR auf [FROM.GetName]"
+CHN_expand_tibetan_autonomous_region_desc_scripted_loc_key: "Als unsere Streitkräfte zum ersten Mal in Tibet eintrafen, wurde beschlossen, den örtlichen Tibetern Autonomie zu gewähren, was zur Bildung der Autonomen Zone Äußeres Tibet führte. Auch eine Autonome Zone Innertibet wurde in Erwägung gezogen. Da wir vor kurzem weitere Gebiete in Gebieten mit einer bedeutenden tibetischen Bevölkerung erworben haben, wäre es sinnvoll, diesen Gebieten die gleiche Behandlung zukommen zu lassen."
+
+china_orchestrate_sinophile_coup: "Inszeniert einen sinophilen Coup in [FROM.Capital.GetCapitalVictoryPointName]"
+china_orchestrate_sinophile_coup_desc: "Obwohl wir die Unterwerfung von [FROM.GetNameDef] im Austausch für eine teilweise Unabhängigkeit erreicht haben, war die Beibehaltung ihrer derzeitigen Führung immer nur eine Notlösung. Solange sie an der Macht sind, wird die langfristige Aufrechterhaltung unserer Oberhoheit immer in Frage gestellt sein. Da ihre potenziellen Gönner entweder abgelenkt sind oder nachgeben, haben sie kaum eine andere Wahl, als eine geeignetere Führungsriege zu akzeptieren."
 
 #Reusable loc
 #CHI_alignment_integration_category: "Chinesische autonome Regionen - Integration"
@@ -207,19 +218,19 @@ china_alignment_gui_button_text: "Chinesische Ausrichtungen"
 ### China Alignment GUI Tab ###
 china_alignment_title_text: "Ausrichtung der chinesischen Fraktionen"
 china_alignment_faction_info_tenets: "Grundsätze"
-china_faction_alignment_name_default: "[?global.china_alignment_tokens^alignment_i.GetTokenLocalizedKey] §YAusrichtung§!"
+china_faction_alignment_name_default: "[?country_leader:china_alignment.GetName] §YAusrichtung§!"
 china_faction_aligment_name_npa: "§LNational Protection Alliance§! §YAusrichtung§!"
 china_faction_alignment_name_independent: "§YUnabhängige Cliquen§!"
 china_faction_alignment_desc: "Anführer: §Y[?global.china_alignment_leaders^alignment_i.GetName]§!\nCliquen im Einklang mit §Y[?global.china_alignment_leaders^alignment_i.GetName]§!:"
 china_no_faction_desc: "Die folgenden Cliquen sind unabhängig. Bewegen Sie den Mauszeiger über die Flaggen, um zu sehen, inwieweit sie mit unserer Clique ausgerichtet sind."
 china_alignment_faction_member_name: "§Y[THIS.GetName]§!\n[ChinaGetMemberAlignment] §YAusgerichtet§!\n[ChinaGetMemberAlignmentCompatibilityStatus]"
-china_alignment_faction_alignment: "[?country_leader:china_alignment.GetTokenLocalizedKey]"
+china_alignment_faction_alignment: "[?country_leader:china_alignment.GetName]"
 china_alignment_no_alignment: "§YNicht§!"
 china_alignment_non_aligned_alignment: "Diese Clique ist §Ynicht ausgerichtet§! auf irgendeine Führung."
 china_alignment_compatible_alignment: "Diese Clique hat eine §Ykompatible Ausrichtung§! mit unserer Führung."
 china_alignment_incompatible_alignment: "Diese Clique hat eine §Yinkompatible Ausrichtung§! mit unserer Führung."
 china_faction_tenets_title: "[ChinaGetAlignmentTenetsTitle]"
-china_faction_tenets_title_default: "[?global.china_alignment_tokens^alignment_i.GetTokenLocalizedKey] §YGrundsätze§!"
+china_faction_tenets_title_default: "[?country_leader:china_alignment.GetName] §YGrundsätze§!"
 china_faction_tenets_title_npa: "§YGrundsätze der§! §LNationalen Schutzallianz§!"
 china_faction_tenets_title_independent: "§YIndependent Cliques§!"
 china_faction_tenets_desc: "[ChinaGetAlignmentTenetsDesc]"
@@ -236,9 +247,9 @@ china_faction_tenets_independent_desc: "§LIm Chaos der Warlord-Ära agierten vi
 
 ### Alignment Tokens ###
 northern_zhili: "§zNördliche Zhili§!"
-southern_zhili: "§mSüdliche Zhili§!"
+southern_zhili: "§YSüdliche Zhili§!"
 manchu_qing: "§qRestauratoren§!"
-fengtian: "§aAnguojun§!"
+fengtian: "§eAnguojun§!"
 beiyang: "§NBeiyang§!"
 federalists: "§fFöderalisten§!"
 left_kuomintang: "§kLinke Kuomintang§!"
@@ -250,8 +261,8 @@ geacps: "§jGEACPS§!"
 china_is_aligned_with_northern_zhili: "Wird von einem §zNördlichen Zhili-freundlichen§! Regime regiert"
 china_is_aligned_with_northern_zhili_NOT: "Wird §Rnicht§! von einem §zNördlichen Zhili-freundlichen§! regime"
 
-china_is_aligned_with_southern_zhili: "Wird von einem §mSüdlichen Zhili-freundlich§! Regime regiert"
-china_is_aligned_with_southern_zhili_NOT: "Wird §Rnicht§! von einem §mSüdlichen Zhili-freundlich§! Regime regiert"
+china_is_aligned_with_southern_zhili: "Wird von einem §YSüdlichen Zhili-freundlich§! Regime regiert"
+china_is_aligned_with_southern_zhili_NOT: "Wird §Rnicht§! von einem §YSüdlichen Zhili-freundlich§! Regime regiert"
 
 china_is_aligned_with_zhili: "Wird von einem §LZhili-freundlichen§! Regime regiert"
 china_is_aligned_with_zhili_NOT: "Wird §Rnicht§! von einem §LZhili-freundlichen§! Regime regiert"
@@ -259,8 +270,8 @@ china_is_aligned_with_zhili_NOT: "Wird §Rnicht§! von einem §LZhili-freundlich
 china_is_aligned_with_manchu: "Wird von einem §qManchu-freundlichen§! Regime regiert"
 china_is_aligned_with_manchu_NOT: "Wird §Rnicht§! von einem a §qManchu-friendly§! regime"
 
-china_is_aligned_with_fengtian: "Wird von einem §aFengtian-freundlichen§! Regime regiert"
-china_is_aligned_with_fengtian_NOT: "Wird §Rnicht§! von einem a §aFengtian-freundlichen§! Regime regiert"
+china_is_aligned_with_fengtian: "Wird von einem §eFengtian-freundlichen§! Regime regiert"
+china_is_aligned_with_fengtian_NOT: "Wird §Rnicht§! von einem a §eFengtian-freundlichen§! Regime regiert"
 
 china_is_aligned_with_beiyang: "Wird von einem §NBeiyang-freundlichen§! Regime regiert"
 china_is_aligned_with_beiyang_NOT: "Wird §Rnicht§! von einem §NBeiyang-freundlichen§! Regime regiert"
@@ -319,29 +330,30 @@ china_cannot_declare_war_while_in_united_front: "Mitglieder der Einheitsfront k�
 china_becomes_CHN_tt: "§YWir sind als die legitimste Regierung in China anerkannt.§!"
 china_is_CHN_tt: "§YWir sind die legitimste Regierung in China.§!"
 china_is_the_chinese_unifier_tt: "§YHat China vereinigt.§!"
+china_has_war_with_CUF_tt: "Befindet sich im Krieg mit der Chinesischen Einheitsfront"
 
 CHN_has_chosen_a_capital_flag: "§YWir haben eine dauerhafte Hauptstadt für China gewählt.§!"
 
-AGJ_set_leader_tt: "§aWir werden die nationale Führung von Anguojun übernehmen.§!"
+AGJ_set_leader_tt: "§eWir werden die nationale Führung von Anguojun übernehmen.§!"
 RGC_set_leader_tt: "§jWir werden die nationale Führung von der GEACPS-Ausrichtung übernehmen.§!"
 UPC_set_leader_tt: "§fWir werden die nationale Führung von den Föderalisten übernehmen.§!"
 LKT_set_leader_tt: "§kWir werden die nationale Führung von der Linken Kuomintang übernehmen.§!"
 NZH_set_leader_tt: "§zWir werden die nationale Führung von der Nördlichen Zhili-Clique übernehmen.§!"
 MCU_set_leader_tt: "§qWir werden die nationale Führung von den Restauratoren übernehmen.§!"
 RKT_set_leader_tt: "§cWir werden die nationale Führung von der Rechten Kuomintang übernehmen.§!"
-SZH_set_leader_tt: "§mzWir werden die nationale Führung von der Südlichen Zhili-Clique übernehmen.§!"
+SZH_set_leader_tt: "§YWir werden die nationale Führung von der Südlichen Zhili-Clique übernehmen.§!"
 
-CHN_No_Other_AGJ_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel von §aAnguojun§! erhoben.§!"
+CHN_No_Other_AGJ_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel von §eAnguojun§! erhoben.§!"
 CHN_No_Other_RGC_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §jGEACPS§! erhoben.§!"
 CHN_No_Other_UPC_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §fFöderalisten§! erhoben.§!"
 CHN_No_Other_LKT_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §kLinken Kuomintang§! erhoben.§!"
 CHN_No_Other_NZH_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §zNördlichen Zhili-Clique§! erhoben.§!"
 CHN_No_Other_MCU_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §qRestauratoren§! erhoben.§!"
 CHN_No_Other_RKT_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §cRechten Kuomintang§! erhoben.§!"
-CHN_No_Other_SZH_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §mSüdlichen Zhili-Clique§! erhoben.§!"
+CHN_No_Other_SZH_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §YSüdlichen Zhili-Clique§! erhoben.§!"
 
 ### Alignment Traits
-CHN_anguojun_aligned: "§OAnguojun§! ausgerichtet"
+CHN_anguojun_aligned: "§eAnguojun§! ausgerichtet"
 CHN_beiyang_aligned: "§NBeiyang-Regierung§! ausgerichtet"
 CHN_geacps_aligned: "§jGEACPS§! ausgerichtet"
 CHN_federalist_aligned: "§0Föderalisten§! ausgerichtet"
@@ -351,7 +363,7 @@ CHN_northern_zhili_aligned: "§zNördliche Zhili§! ausgerichtet"
 CHN_restorationist_aligned: "§qRestauratoren§! ausgerichtet"
 CHN_right_kuomintang_aligned: "§cRechte Kuomintang§! ausgerichtet"
 CHN_southern_republican_aligned: "§GSüdliche Republikaner§! ausgerichtet"
-CHN_southern_zhili_aligned: "§mSüdliche Zhili§! ausgerichtet"
+CHN_southern_zhili_aligned: "§YSüdliche Zhili§! ausgerichtet"
 
 ### Army Reform
 china_army_decisions: "Armeereform"
@@ -486,7 +498,7 @@ GetLeagueWarMorale90: "§4Unzerbrechlich§!"
 GetLeagueWarMorale80: "§GSehr hoch§!"
 GetLeagueWarMorale70: "§nHoch§!"
 GetLeagueWarMorale60: "§7Steigend§!"
-GetLeagueWarMorale50: "§mMittel§!"
+GetLeagueWarMorale50: "§YMittel§!"
 GetLeagueWarMorale40: "§8Mittelmäßiges§!"
 GetLeagueWarMorale30: "§9Fallend§!"
 GetLeagueWarMorale20: "§RNiedrig§!"
@@ -1183,10 +1195,23 @@ china_events.151.a: "Genehmigt die Schaffung einer autonomen Region Xinjiang."
 china_events.151.b: "Xinjiang soll eine Provinz bleiben."
 
 china_events.152.t: "Aufbau einer tibetischen Verwaltung"
-china_events.152.d: "Die Geschichte der chinesischen Herrschaft über Tibet ist eine lange und komplizierte Geschichte. Die Qing-Dynastie übte zum ersten Mal direkte Kontrolle über die Region aus, als ihre Soldaten dem 7. Dalai Lama bei der Vertreibung des Dzungar-Khanats halfen und ihre eigenen Verwalter, die sogenannten Ambans, in der Region einsetzten. Tibet wurde zu einem \"Fanbu\" der Qing, was frei übersetzt soviel wie Vasallenstaat bedeutet. Als die Macht der Qing schwand, wurde ihre Fähigkeit, Tibet direkt zu kontrollieren, sowohl von tibetischen Führern als auch von den aus Indien operierenden Briten in Frage gestellt. Nach der britischen Invasion in Tibet bemühten sich die Qing, ihre Souveränität über die Region wiederherzustellen, indem sie eine Armee schickten, um Tibet gewaltsam einzugliedern und gleichzeitig die britische Anerkennung der chinesischen Oberhoheit zu sichern.\n\n1911 brach die Qing-Herrschaft in der Xinhai-Revolution zusammen, und die Tibeter rächten sich an der chinesischen Garnison, indem sie ihren Kommandanten töteten und die Überlebenden zum Rückzug zwangen. Die neue Republik hielt ihre Ansprüche auf Tibet aufrecht und versuchte, die Unterwerfung des Dalai Lama zu erreichen. Der 13. Dalai Lama argumentierte jedoch, dass die frühere chinesische Herrschaft keine Unterwerfung gewesen sei, sondern eher eine Beziehung zwischen Patron und Priester. Die Regierung in Lhasa erklärte ihre Unabhängigkeit, ebenso wie die neu befreite Mongolei. Die Briten versuchten, ein Abkommen ähnlich dem zwischen der inneren und der äußeren Mongolei auszuhandeln, bei dem das innere Tibet Autonomie unter chinesischer Oberhoheit erhielt, während das äußere Tibet durch die chinesische Verwaltung und die tibetische religiöse Autorität geteilt werden sollte. Diese Vereinbarung scheiterte an Grenzstreitigkeiten, die durch den Status des Tawang-Wettbewerbs und die indische Revolution noch verkompliziert wurden.\n\nUnsere Streitkräfte sind erfolgreich in Tibet einmarschiert und haben die chinesische Kontrolle über Lhasa wiederhergestellt. Der Tod des 13. Dalai Lama im Jahr 1933 hat die tibetische politische Arena auf den Kopf gestellt und mehrere konkurrierende Fraktionen hinterlassen, die von Traditionalisten in den Klöstern und der Aristokratie über Khamba-Revolutionäre bis hin zu Hofreformern reichen. Innerhalb unserer eigenen Regierung gab es Forderungen, Tibet direkt als Provinz zu regieren, um den Separatismus auszurotten, während andere dazu rieten, Autonomie zu gewähren, um die Loyalität der lokalen Verbündeten zu sichern."
+china_events.152.d: "Die Geschichte der chinesischen Herrschaft über Tibet ist eine lange und komplizierte Geschichte. Die Qing-Dynastie übte zum ersten Mal direkte Kontrolle über die Region aus, als ihre Soldaten dem 7. Dalai Lama bei der Vertreibung des Dzungar-Khanats halfen und ihre eigenen Verwalter, die sogenannten Ambans, in der Region einsetzten. Tibet wurde zu einem \"Fanbu\" der Qing, was frei übersetzt soviel wie Vasallenstaat bedeutet. Als die Macht der Qing schwand, wurde ihre Fähigkeit, Tibet direkt zu kontrollieren, sowohl von tibetischen Führern als auch von den aus Indien operierenden Briten in Frage gestellt. Nach der britischen Invasion in Tibet bemühten sich die Qing, ihre Souveränität über die Region wiederherzustellen, indem sie eine Armee schickten, um Tibet gewaltsam einzugliedern und gleichzeitig die britische Anerkennung der chinesischen Oberhoheit zu sichern.\n\n1911 brach die Qing-Herrschaft in der Xinhai-Revolution zusammen, und die Tibeter rächten sich an der chinesischen Garnison, indem sie ihren Kommandanten töteten und die Überlebenden zum Rückzug zwangen. Die neue Republik hielt ihre Ansprüche auf Tibet aufrecht und versuchte, die Unterwerfung des Dalai Lama zu erreichen. Der 13. Dalai Lama argumentierte jedoch, dass die frühere chinesische Herrschaft keine Unterwerfung gewesen sei, sondern eher eine Beziehung zwischen Patron und Priester. Die Regierung in Lhasa erklärte ihre Unabhängigkeit, ebenso wie die neu befreite Mongolei. Die Briten versuchten, ein Abkommen ähnlich dem zwischen der inneren und der äußeren Mongolei auszuhandeln, bei dem das äußere Tibet Autonomie unter chinesischer Oberhoheit erhielt, während das innere Tibet durch die chinesische Verwaltung und die tibetische religiöse Autorität geteilt werden sollte. Diese Vereinbarung scheiterte an Grenzstreitigkeiten, die durch den Status des Tawang-Wettbewerbs und die indische Revolution noch verkompliziert wurden.\n\nUnsere Streitkräfte sind erfolgreich in Tibet einmarschiert und haben die chinesische Kontrolle über Lhasa wiederhergestellt. Der Tod des 13. Dalai Lama im Jahr 1933 hat die tibetische politische Arena auf den Kopf gestellt und mehrere konkurrierende Fraktionen hinterlassen, die von Traditionalisten in den Klöstern und der Aristokratie über Khamba-Revolutionäre bis hin zu Hofreformern reichen. Innerhalb unserer eigenen Regierung gab es Forderungen, Tibet direkt als Provinz zu regieren, um den Separatismus auszurotten, während andere dazu rieten, Autonomie zu gewähren, um die Loyalität der lokalen Verbündeten zu sichern."
 china_events.152.a: "Genehmigt nur die Schaffung einer autonomen Region \"Äußeres\" Tibet."
 china_events.152.b: "Die Autonome Region Tibet sollte um das \"Inneres Tibet\" erweitert werden."
 china_events.152.c: "Tibet wird wie eine Provinz verwaltet."
+
+china_events.153.t: "[FROM.Capital.GetCapitalVictoryPointName] plant einen sinophilen Putsch"
+china_events.153.d: "Nach einigen schwierigen Verhandlungen mit der [FROM.GetAdjective]-Regierung waren die Menschen hocherfreut, dass wir uns mit den Chinesen friedlich einigen konnten. Die Bedingungen des Abkommens waren, dass wir unsere innere Autonomie und nominelle Unabhängigkeit auf der internationalen Bühne als chinesisches Protektorat behalten würden, auch wenn unsere Außenangelegenheiten in [FROM.Capital.GetCapitalVictoryPointName] geregelt werden sollten. Diese Vereinbarung, ein modernes Äquivalent des alten chinesischen Systems der Oberherrschaft, beinhaltete implizit die Beibehaltung unserer derzeitigen Führung in der [ROOT.GetRulingParty].\n\nDie Chinesen haben jedoch ihr Vertrauen in die Regierung von [ROOT.GetLeader] verloren, oder vielleicht wollten sie ihm (oder zumindest seinen derzeitigen Beratern) nie wirklich erlauben zu regieren. Die chinesische Presse hat bereits einen düsteren Ton gegenüber der amtierenden Regierung angeschlagen, und der chinesische \"Botschafter\" wurde bei Treffen mit verschiedenen Oppositionsmitgliedern gesehen. Noch besorgniserregender ist, dass wichtige Minister und Generäle unserer Regierung bereits um Positionen in der kommenden Regierung buhlen, was darauf hindeutet, dass unsere Tage gezählt sein könnten.\n\nDa unser Druckmittel praktisch weg ist, nachdem wir der Welt bereits öffentlich unsere Unterwerfung angekündigt haben, und unsere Gönner entweder nicht willens oder nicht in der Lage sind, uns zu helfen, haben wir kaum noch eine Chance. Es ist nur eine Frage der Zeit, bis die Chinesen ihre Forderungen nach einem Führungswechsel formell vorbringen, und wenn wir es nicht mit der wiederhergestellten Hegemonie aufnehmen können, bleibt uns nur zu hoffen, dass die Geschichte sich an dieses Ereignis erinnert."
+china_events.153.a: "Wir können nichts anderes tun, als das Unvermeidliche zu akzeptieren."
+china_events.153.b: "Wir kämpfen bis zum letzten Atemzug!"
+
+china_events.154.t: "Unblutiger Coup in [FROM.Capital.GetCapitalVictoryPointName]"
+china_events.154.d: "Nach schwierigen Verhandlungen mit der [FROM.GetAdjective]-Regierung waren die Menschen hocherfreut, dass wir eine friedliche Einigung zur Wiedervereinigung unseres Landes erzielen konnten. Die Bedingungen der Vereinbarung sahen vor, dass das Land eine gewisse innere Autonomie und nominelle Unabhängigkeit auf der internationalen Bühne als chinesisches Protektorat behalten würde, obwohl seine Außenpolitik in [FROM.Capital.GetCapitalVictoryPointName] geregelt werden sollte. Dieses Arrangement, ein modernes Äquivalent des alten chinesischen Systems der Oberherrschaft, ermöglichte es, die Führung der [ROOT.GetRulingParty] zunächst zu behalten.\n\nIhre anhaltenden aufrührerischen Handlungen und die Erlaubnis, abtrünnige Minister in ihrer Regierung zu belassen, haben die Beziehungen verschlechtert, und es wurde klar, dass [ROOT.GetLeader], oder zumindest seine derzeitigen Berater, nicht in unsere gemeinsame Zukunft passen. Daher haben wir von unserem Recht als Oberherr Gebrauch gemacht und eine Machtübergabe eingeleitet.\n\nNach einem Treffen mit lokalen Politikern, Militäroffizieren und anderen Beteiligten hat unser Botschafter eine Regierung ausgearbeitet, die unseren Interessen besser entspricht. Obwohl einige von ihnen in der Vergangenheit an separatistischen Aktivitäten teilgenommen haben, ist das neue Regime entweder pragmatisch genug oder ideologisch kompatibel genug, um unseren Einfluss auf [FROM.Getname] zu festigen.\n\nNatürlich haben [ROOT.GetLeader] und seine Kumpane Verrat geklagt und über gebrochene Versprechen gejammert, aber da ihre Verbündeten nicht in der Lage oder nicht willens waren, uns zu helfen, hatten sie kein wirkliches Druckmittel gegen uns. Am Ende haben sie sich friedlich gefügt, und das ist das Wichtigste. Wir alle können uns jetzt auf die strahlende Zukunft und die \"besondere Beziehung\" freuen. die die chinesische Hegemonie mit sich bringt."
+china_events.154.a: "Damit ist die Angelegenheit erledigt."
+
+china_events.155.t: "Sinophiler Coup in [FROM.Capital.GetCapitalVictoryPointName] gescheitert"
+china_events.155.d: "Nach schwierigen Verhandlungen mit der [FROM.GetAdjective]-Regierung waren die Menschen hocherfreut, dass wir eine friedliche Einigung zur Wiedervereinigung unseres Landes erzielen konnten. Die Bedingungen der Vereinbarung sahen vor, dass das Land eine gewisse innere Autonomie und nominelle Unabhängigkeit auf der internationalen Bühne als chinesisches Protektorat behalten würde, obwohl seine Außenpolitik in [FROM.Capital.GetCapitalVictoryPointName] geregelt werden sollte. Diese Vereinbarung, ein modernes Äquivalent des alten chinesischen Systems der Oberherrschaft, ermöglichte es, die Führung der [ROOT.GetRulingParty] zunächst zu behalten.\n\nIhre fortgesetzten aufrührerischen Aktionen und die Erlaubnis, abtrünnige Minister in ihrer Regierung zu belassen, haben die Beziehungen verschlechtert, und es wurde klar, dass [ROOT.GetLeader] oder zumindest seine derzeitigen Berater nicht in unsere gemeinsame Zukunft passen. Daher haben wir unsere gerechte Autorität als Oberherr ausgeübt, um eine Machtübergabe einzuleiten.\n\nUnser Botschafter hat versucht, das Problem anzugehen, indem er sich mit lokalen Politikern, Militäroffizieren und anderen Akteuren getroffen hat, um eine Regierung zu bilden, die unseren Interessen mehr entgegenkommt. Da sich die Separatisten jedoch stark in den Machtpositionen verschanzt haben, blieben diese Bemühungen erfolglos. [ROOT.GetLeader] und seine Kumpane weinten über den Verrat und haben sich in einem letzten Versuch, ihre Unabhängigkeit zu bewahren, zum Aufstand erhoben, aber da ihre Verbündeten nicht in der Lage oder nicht willens sind, ihnen zu helfen, wird dies ironischerweise wahrscheinlich das Ende ihrer ausgehandelten Autonomie bedeuten."
+china_events.155.a: "Es scheint, als würden sie es vorziehen, doch eine Provinz zu sein...."
 
 ### Concessions and Legation Cities interactions Events ###
 china_events.200.t: "[china.GetNameDefCap] fordert die Rückgabe unserer Konzessionen"
@@ -1362,7 +1387,7 @@ china_events.300.d: "Für außenstehende Beobachter bedeutete die Xinhai-Revolut
 china_events.300.a: "Was für eine Wendung der Ereignisse!"
 
 china_events.301.t: "Sieg der Zhili-Clique"
-china_events.301.d: "Obwohl ihre Herrschaft und Kontrolle über China in der Nordexpedition angemessen in Frage gestellt wurde, stellte die anschließende Xuantong-Restauration das Qing-Reich wieder her, und die Kontrolle über den Norden wurde von Wu Peifu, Cao Kun und der Zhili-Clique gefestigt. Während andere Kriegsherren versuchten, sich von der Kontrolle der Zhili abzuspalten, haben die Zhili dennoch alle konkurrierenden Regierungen besiegt und damit China wieder geeint. In einer glorreichen Rede in [FROM.Capital.GetCapitalVictoryPointName] hat Wu Peifu erklärt, dass die Zhili versuchen werden, China zu modernisieren und ihren Einfluss in der Welt wieder geltend zu machen."
+china_events.301.d: "Obwohl ihre Herrschaft und Kontrolle über China in der Nordexpedition angemessen in Frage gestellt wurde, stellte die anschließende Xuantong-Restauration das Qing-Reich wieder her, und die Kontrolle über den Norden wurde von Wu Peifu, Cao Kun und der Zhili-Clique gefestigt. Während andere Kriegsherren versuchten, sich von der Kontrolle der Zhili abzuspalten, haben die Zhili dennoch alle konkurrierenden Regierungen besiegt und damit China wieder geeint. In einer glorreichen Rede in [FROM.Capital.GetCapitalVictoryPointName] hat Cao Kun erklärt, dass die Zhili versuchen werden, China zu modernisieren und ihren Einfluss in der Welt wieder geltend zu machen."
 china_events.301.a: "Der Norden hat einmal die Oberhand more."
 
 china_events.302.t: "Die Zhili vereinigen die chinesische Republik"
@@ -1424,6 +1449,10 @@ china_events.314.a: "Das chinesische Volk hat sich endlich erhoben!"
 china_events.315.t: "Vereinigung durch den Liga-Marschall"
 china_events.315.d: "Wer hätte gedacht, dass das kleptokratische Miasma der Liga der Acht Provinzen den Sturm überstehen würde? Nachdem die Liga 1936 zusammengebrochen war und ihre verrottete Struktur auf einen Schlag niedergerissen hatte, glaubten nur wenige, dass sie jemals wieder den Zenit ihrer Macht erreichen würde, den sie 1929 hatte. Und doch hat sie die alte Liga weit überholt und alle Erwartungen übertroffen.\n\nNicht Sun Chuanfang sollte die Nation unter der Südlichen Zhili-Clique vereinen, sondern Qi Xieyuan. Als verhasster Untergebener des Lächelnden Tigers übernahm er nach dessen Entmündigung umstritten die Führung. Mit einer Politik der offenen Tür scheinen die Deutschen einen einstigen Verbündeten im Osten gewonnen zu haben. Allerdings befürchten viele einen weiteren Zusammenbruch der Liga in der Zukunft."
 china_events.315.a: "Die Herrschaft eines Bastards, exportiert auf nationaler Ebene."
+
+china_events.316.t: "Sieg der Zhili-Clique"
+china_events.316.d: "Obwohl ihre Herrschaft und Kontrolle über China in der Nordexpedition angemessen in Frage gestellt wurde, stellte die anschließende Xuantong-Restauration das Qing-Reich wieder her, und die Kontrolle über den Norden wurde von Wu Peifu, Cao Kun und der Zhili-Clique gefestigt.\n\nTrotz der Unruhen der letzten Jahre mit dem wirtschaftlichen Zusammenbruch des Schwarzen Montags und dem Liga-Krieg haben die Zhili den Sturm überstanden. Während andere Kriegsherren versuchten, sich von der Kontrolle der Zhili abzuspalten, haben sie dennoch alle konkurrierenden Regierungen besiegt und das Land wieder geeint. In einer glorreichen Rede in [FROM.Capital.GetCapitalVictoryPointName] hat Wu Peifu erklärt, dass die Zhili versuchen werden, China zu modernisieren und ihren Einfluss in der Welt zu behaupten, frei von fremder Herrschaft."
+china_events.316.a: "Wu Peifu hat sich selbst übertroffen!"
 
 china_events.340.t: "Vorsitzender Wang hält durch"
 china_events.340.d: "Obwohl der Vorsitzende [CHI.GetLeader] die Kuomintang aus dem Exil und der Beinahe-Zerstörung zu durchschlagenden nationalen Erfolgen mit dem Abschluss der Zweiten Nördlichen Expedition geführt hat, schien die Herrschaft des Vorsitzenden [CHI.GetLeader] durch die wachsende fraktionelle Opposition des Provisorischen Aktionskomitees der Kuomintang zu zerfallen. Trotz der Angriffe von allen Seiten scheint es jedoch, dass der Vorsitzende seine Kontrolle und seine Herrschaft über die Partei tatsächlich gefestigt und die Opposition effektiv zerschlagen hat.\n\nNun ist zum ersten Mal seit Jahrzehnten endlich wieder Frieden in China eingekehrt, und der Vorsitzende Wang wird versuchen, das chinesische Land zu modernisieren und wiederzubeleben, um die von seinem Mentor, dem verstorbenen Dr. Sun Yat-sen, formulierten Grundsätze in den kommenden Jahren zu erfüllen."
@@ -2443,3 +2472,58 @@ CHN_integrate_major_dockyard_fallback_desc_key: "[FROM.GetName] hat sich zu eine
 
 ### Characters ###
 CHN_zheng_pingru: "Zheng Pingru"
+
+### Traits ###
+CHN_new_guard_officer_trait: "Shaoshuai Clique-Offizier"
+CHN_new_guard_officer_trait_desc: "§LDieser Offizier ist ein Anhänger von Zhang Xueliang.§!"
+CHN_shikan_officer_trait: "Shikan Clique-Offizier"
+CHN_shikan_officer_trait_desc: "§LDieser Offizier ist mit der Shikan-Clique von Yang Yuting verbündet.§!"
+CHN_zhang_officer_trait: "Zhang Clique-Offizier"
+CHN_zhang_officer_trait_desc: "§LDieser Offizier ist ein langjähriger Mitarbeiter von Zhang Zuolin.§!"
+CHN_japanese_aligned_officer_trait: "Pro-Japanischer Sympathisant"
+CHN_japanese_aligned_officer_trait_desc: "§LDieser Offizier gehört zwar offiziell keiner Clique an, hegt aber gewisse projapanische Sympathien.§!"
+
+CHN_gmj_officer_trait: "Guominjun General"
+CHN_gmj_officer_trait_desc: "§LDieser General gehört zu Feng Yuxiangs Guominjun.§!"
+
+CHN_jin_officer_trait: "Jin Armee General"
+CHN_jin_officer_trait_desc: "§LDieser General ist Mitglied der Jin-Armee von Yan Xishan.§!"
+
+CHN_monarchist_officer_trait: "Monarchistischer Offizier"
+CHN_monarchist_officer_trait_desc: "§LDieser Beamte ist direkt mit der Monarchie oder der royalistischen Partei verbunden, und sein Schicksal ist daher eng mit ihnen verknüpft.§!"
+
+CHN_yue_clique_officer_trait: "Guangdong Clique-Offizier"
+CHN_yue_clique_officer_trait_desc: "§LDieser Beamte ist Mitglied der alten Guangdong-Clique und in deren Interessen eingeweiht.§!"
+
+CHN_gui_clique_officer_trait: "Guangxi Clique-Offizier"
+CHN_gui_clique_officer_trait_desc: "§LDieser Beamte ist Mitglied der alten Guangxi-Clique und in deren Interessen eingeweiht.§!"
+
+CHN_RKT_officer_trait: "Rechter Kuomintang-Offizier"
+CHN_RKT_officer_trait_desc: "§LDie Sympathien dieses Offiziers gelten in erster Linie dem rechten Flügel der Kuomintang.§!"
+
+CHN_LKT_officer_trait: "Linker Kuomintang-Offizier"
+CHN_LKT_officer_trait_desc: "§LDie Sympathien dieses Offiziers gelten in erster Linie dem linken Flügel der Kuomintang.§!"
+
+CHN_YUN_officer: "Yunnan Clique-Offizier"
+CHN_YUN_officer_desc: "§LDieser Offizier stammt entweder aus der Provinz Yunnan oder ist mit deren Führern verbündet.§!"
+
+CHN_GZH_officer: "Guizhou Clique-Offizier"
+CHN_GZH_officer_desc: "§LDieser Offizier stammt entweder aus der Provinz Guizhou oder ist mit der dortigen Führung verbündet.§!"
+
+CHN_XSM_officer: "Ma Clique-Offizier"
+CHN_XSM_officer_desc: "§LDieser Offizier stammt entweder aus den drei Nordwestprovinzen oder ist mit deren Führern verbündet.§!"
+
+CHN_HNN_officer: "Hunan Clique-Offizier"
+CHN_HNN_officer_desc: "§LDieser Offizier stammt entweder aus der Provinz Hunan oder ist mit deren Führern verbündet.§!"
+
+CHN_SZC_officer: "Sichuan Clique-Offizier"
+CHN_SZC_officer_desc: "§LDieser Offizier stammt entweder aus der Provinz Sichuan oder gehört den verschiedenen Cliquen in Sichuan an.§!"
+
+CHN_SIK_officer: "Xinjiang Clique-Offizier"
+CHN_SIK_officer_desc: "§LDieser Offizier stammt entweder aus der Provinz Xinjiang oder ist mit deren Führern verbündet.§!"
+
+CHN_NZH_officer: "Nördlicher Zhili-Offizier"
+CHN_NZH_officer_desc: "§LDieser Offizier ist Mitglied der Nördlichen Zhili-Clique und als solcher im Allgemeinen loyal gegenüber Wu Peifu und Cao Kun.§!"
+
+CHN_SZH_officer: "Südlicher Zhili-Offizier"
+CHN_SZH_officer_desc: "§LDieser Offizier ist ein Mitglied der Südlichen Zhili-Clique und als solches im Allgemeinen loyal gegenüber Sun Chuanfang.§!"
