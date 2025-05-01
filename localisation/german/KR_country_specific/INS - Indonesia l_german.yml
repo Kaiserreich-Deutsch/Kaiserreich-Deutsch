@@ -67,7 +67,7 @@ INS_pobsi_long: "Sentral Organisasi Buruh Seluruh Indonesien"
 
 ### Introduction ###
 
-INS_guide: "§MDemokratie§! (§gAutoritär Demokratisch§! / §cSozialkonservative§! / §RRadikale Sozialisten§!)\n£white_dot Kommt es zu einem Putschversuch, drängen Sie die Kämpfer zurück und jagen Sie sie in den Dschungel zurück.\n£white_dot Nachdem Sie den Schwerpunkt \"Indonesische Wahlen\" abgeschlossen haben, wählen Sie \"Murba sichert sich die Stimmen der Arbeiter!\", um §RMurba§! zu wählen, \"Nahdlatul Ulama gewinnt mit ihrem Mandat für eine religiöse Demokratie! \" um §cNahdlatul Ulama§! zu wählen, \"Sukarnos Hoffnungen werden erfüllt und die PNI gewinnt den Dewan\" oder \"Der Dewan wird abgesetzt und die PNI wird zu einer Koalition mit der NU gezwungen\" um die §gPNI§ zu wählen!.\n£white_dot Nach dieser Wahl werden alle 4 Jahre Wahlen abgehalten, bei denen dieselben Parteien zur Wahl stehen.\n\n§MHaus des Islam§! / §MSultanat§! (§PPaternal Autokratisch§!)\n£white_dot Die Einheit der Indonesien-Rebellion muss auf einem mittleren Niveau sein, damit der Putschversuch stattfinden kann, und auf einem niedrigen Niveau, damit der Gegenputsch der Royalisten ebenfalls stattfinden kann.\n£white_dot Bei dem Putschversuch sollen die Kämpfer die Kontrolle übernehmen.\n£white_dot Um das Sultanat zu werden, muss Jakarta von den Rebellen im royalistischen Gegenputsch gesichert werden."
+INS_guide: "§MDemokratie§! (§aAutoritär Demokratisch§! / §cSozialkonservative§! / §RRadikale Sozialisten§!)\n£white_dot Kommt es zu einem Putschversuch, drängen Sie die Kämpfer zurück und jagen Sie sie in den Dschungel zurück.\n£white_dot Nachdem Sie den Schwerpunkt \"Indonesische Wahlen\" abgeschlossen haben, wählen Sie \"Murba sichert sich die Stimmen der Arbeiter!\", um §RMurba§! zu wählen, \"Nahdlatul Ulama gewinnt mit ihrem Mandat für eine religiöse Demokratie! \" um §cNahdlatul Ulama§! zu wählen, \"Sukarnos Hoffnungen werden erfüllt und die PNI gewinnt den Dewan\" oder \"Der Dewan wird abgesetzt und die PNI wird zu einer Koalition mit der NU gezwungen\" um die §aPNI§ zu wählen!.\n£white_dot Nach dieser Wahl werden alle 4 Jahre Wahlen abgehalten, bei denen dieselben Parteien zur Wahl stehen.\n\n§MHaus des Islam§! / §MSultanat§! (§PPaternal Autokratisch§!)\n£white_dot Die Einheit der Indonesien-Rebellion muss auf einem mittleren Niveau sein, damit der Putschversuch stattfinden kann, und auf einem niedrigen Niveau, damit der Gegenputsch der Royalisten ebenfalls stattfinden kann.\n£white_dot Bei dem Putschversuch sollen die Kämpfer die Kontrolle übernehmen.\n£white_dot Um das Sultanat zu werden, muss Jakarta von den Rebellen im royalistischen Gegenputsch gesichert werden."
 
 ### Events ###
 ins.1.t: "Attentat auf Sukarno"
@@ -813,9 +813,13 @@ ins.peace_irian_jaya: "Der Krieg mit den Niederlanden wird beendet, und die Molu
 ins.invade_irian_timur: "Der Krieg mit [AST.GetName] wird beendet, und Westneuguinea wird vollständig unter unsere Kontrolle kommen."
 ins.invade_irian_timur_lose: "Der Krieg mit [AST.GetName] wird beendet, und Ost-Neuguinea wird abgetreten."
 
-INS_convert_carrier_loc: "Add two carriers to our navy!\n"
+INS_convert_carrier_loc: "Fügt zwei Flugzeugträger unserer Marine hinzu!\n"
 
-local_resources_factor_research: "Local Resources Factor: "
+local_resources_factor_research: "Lokale Ressourcen Faktor: "
+
+INS_germany_pauses_indonesian_expansionism_tt: "Deutschland wird keine Expansionspläne zulassen, bevor es sich nicht mit seinen Feinden in Europa auseinandergesetzt hat."
+INS_the_entente_pauses_indonesian_expansionism_tt: "Die Entente wird keine Expansionspläne zulassen, bevor sie nicht nach Europa zurückgekehrt ist."
+INS_the_internationale_pauses_indonesian_expansionism_tt: "Die Internationale wird keine Expansionspläne zulassen, bis sie in Europa besiegt oder Deutschland gefallen ist."
 
 ### Flags ###
 ins.darul_islam_took_over: "Die Darul Islam haben übernommen"
@@ -827,10 +831,10 @@ INS_ADJ: "Indonesisch"
 INS_DEF: "Indonesien"
 
 INS_totalist: "Nusantara-Kommunen"
-INS_totalist_ADJ: "Nustantaran"
+INS_totalist_ADJ: "Nusantaran"
 INS_totalist_DEF: "die Nusantara-Kommunen"
 INS_syndicalist: "Nusantara-Kommunen"
-INS_syndicalist_ADJ: "Nustantaran"
+INS_syndicalist_ADJ: "Nusantaran"
 INS_syndicalist_DEF: "die Nusantara-Kommunen"
 INS_paternal_autocrat: "Islamischer Staat Indonesien"
 INS_paternal_autocrat_DEF: "der Islamischer Staat Indonesien"
