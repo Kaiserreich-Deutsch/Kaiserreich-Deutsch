@@ -680,7 +680,10 @@ AUS_potb_greece_desc: "Es bleibt noch eine offene Frage bezüglich der Position 
 AUS_potb_invite_bulgaria: "Alte Freunde in Bulgarien"
 AUS_potb_invite_bulgaria_desc: "Bulgarien war während des Weltkriegs ein wesentlicher Verbündeter, der uns half, die serbischen Überambitionen in Schach zu halten - so dachten wir zumindest. Die Auflösung der Mittelmächte nach dem Krieg ermöglichte es den perfiden Serben, sich unserem Zugriff zu entziehen. Einmal mehr ist Bulgarien der Schlüssel zur Wiederherstellung von Frieden und Stabilität auf dem Balkan, ein für alle Mal."
 
-### Parties ###
+ AUS_potb_montenegro: "Annäherung an Montenegro"
+ AUS_potb_montenegro_desc: "Nach der Niederlage des Belgrader Paktes gegen Bulgarien befindet sich das gerade unabhängig gewordene Montenegro in einer ziemlich prekären Lage. Wir sollten ihm die Hand reichen und ihm unseren Schutz vor allen anbieten, die seine Souveränität bedrohen könnten."
+
+### Parteien ###
 AUS_totalist_party: "SAR"
 AUS_totalist_party_long: "Sozialistischer Arbeiterrat"
 AUS_syndicalist_party: "SAR"
@@ -1129,14 +1132,14 @@ ausgleich.new.901.b: "Österreich ist zu stark..."
  ausgleich.new.9011.a: "Das ist unsere Chance! Auf in den Krieg!"
  ausgleich.new.9011.b: "Wenn ich es mir recht überlege..."
 
-ausgleich.new.902.t: "Serbien akzeptiert ein Bündnis"
-ausgleich.new.902.d.CZE: "Die Serben haben unseren Ruf zu den Waffen angenommen und werden sich uns im Krieg gegen Wien anschließen! Vielleicht wird dieser Aufstand nicht so aussichtslos sein."
-ausgleich.new.902.d.other: "Die Serben haben unseren Ruf zu den Waffen angenommen und werden sich uns im Krieg gegen Wien anschließen! Vielleicht wird dieser Aufstand nicht so aussichtslos sein."
+ausgleich.new.902.t: "[BPL.GetName] akzeptiert ein Bündnis"
+ausgleich.new.902.d.CZE: "[BPL.GetName] hat unseren Ruf zu den Waffen angenommen und werden sich uns im Krieg gegen Wien anschließen! Vielleicht wird dieser Aufstand nicht so aussichtslos sein."
+ausgleich.new.902.d.other: "[BPL.GetName] hat unseren Ruf zu den Waffen angenommen und werden sich uns im Krieg gegen Wien anschließen! Vielleicht wird dieser Aufstand nicht so aussichtslos sein."
 ausgleich.new.902.a: "Wir müssen unsere slowakischen Geschwister retten!"
 ausgleich.new.902.b: "Vorwärts, zum Sieg!"
 
-ausgleich.new.903.t: "Serbien lehnt ein Bündnis ab"
-ausgleich.new.903.d: "Obwohl wir erwartet hatten, dass die Serben durch die Chance, ihre Gebietsansprüche zu ergreifen, während sie auf unserer Seite kämpfen, angelockt werden würden, haben sie unseren Aufruf zu den Waffen abgelehnt, mit der Begründung, dass sie für einen Krieg gegen Österreich vorerst nicht bereit sind. Wir stehen allein auf der Welt..."
+ausgleich.new.903.t: "[BPL.GetName] lehnt ein Bündnis ab"
+ausgleich.new.903.d: "Obwohl wir erwartet hatten, dass [BPL.GetName] durch die Chance, ihre Gebietsansprüche zu ergreifen, während sie auf unserer Seite kämpfen, angelockt werden würden, haben sie unseren Aufruf zu den Waffen abgelehnt, mit der Begründung, dass sie für einen Krieg gegen Österreich vorerst nicht bereit sind. Wir stehen allein auf der Welt..."
 ausgleich.new.903.a: "Oh nein..."
 
 ausgleich.new.904.t: "Galiziens Misere"
@@ -1532,7 +1535,7 @@ AUS_danubia_radical_socialist_DEF: "die Donau-Republik der Räte"
  AUS_alfred_von_hubicki: "Alfred von Hubicki"
  AUS_alfred_von_hubicki_high_command_desc: "§YGeboren:§! §L5. Februar 1887, in Friedrichsdorf, Komitat Bereg, Königreich Ungarn, Österreich-Ungarn§!"
  AUS_alexander_loehr: "Alexander Löhr"
- AUS_alexander_loehr_high_command_desc: "§YGeboren:§! §L20. Mai 1885, in Turnu Severin, Kreis Mehedinți, Königreich Rumänien§!"
+ AUS_alexander_loehr_high_command_desc: "§YGeboren:§! §L20. Mai 1885, in Turnu Severin, Kreis Mehedinţi, Königreich Rumänien§!"
  AUS_emil_hickmann: "Emil Hickmann"
  AUS_emil_hickmann_high_command_desc: "§YGeboren:§! §L12. Juli 1884, in Pressburg, Komitat Pozsony, Königreich Ungarn, Österreich-Ungarn§!"
  AUS_viktor_pohl: "Viktor Pohl"
