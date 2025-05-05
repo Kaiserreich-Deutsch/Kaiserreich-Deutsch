@@ -7,7 +7,7 @@
  yasin_concedes_NOT: "Rashid al-Gaylani ist nicht Teil des Kabinetts"
  taha_concedes: "Taha al-Hashimi formt eine Allianz mit den Stämmen."
 
- irq_iran_help_effect_tt: "§gErhöht die Chance, dass die Muntafiq ihr Ziel erreichen, stark.§!"
+ irq_iran_help_effect_tt: "§aErhöht die Chance, dass die Muntafiq ihr Ziel erreichen, stark.§!"
  irq_remove_old_reforms_tt: "§RDie neue Regierung hebt viele der zuvor durchgesetzten Reformen auf, wodurch der Fortschritt der vorherigen Regierung rückgängig gemacht wird.§!"
 
 ### Cosmetic Tags ###
@@ -76,7 +76,7 @@
 ### Dynamic Modifiers ###
  IRQ_Rampant_Corruption_dynamic_modifier: "£pol_idea Zügellose Korruption"
  IRQ_Rampant_Corruption: "Zügellose Korruption"
- IRQ_Rampant_Corruption_desc: "Die Korruption, die mittlerweile jeden Aspekt des Lebens im Irak beeinflusst, ist nicht nur eine Anmerkung auf irgendeinem Blatt Papier, sondern eine regelrechte Plage. Die fehlende Kontrolle durch Kostantiniyye hat die Schwere des Problems stark erhöht, da viele fähige Bürokraten und militärische Aufseher dazu gezwungen waren, in die Türkei zu fliehen, woraufhin sie von einer weniger gebildeten und weniger disziplinierten Generation ersetzt wurden.\n§W--------------\n[IRQ_corruption_pp][IRQ_corruption_consumer_goods][IRQ_corruption_stability][IRQ_corruption_construction_speed]§!"
+ IRQ_Rampant_Corruption_desc: "Die Korruption, die mittlerweile jeden Aspekt des Lebens im Irak beeinflusst, ist nicht nur eine Anmerkung auf irgendeinem Blatt Papier, sondern eine regelrechte Plage. Die fehlende Kontrolle durch Kostantiniye hat die Schwere des Problems stark erhöht, da viele fähige Bürokraten und militärische Aufseher dazu gezwungen waren, in die Türkei zu fliehen, woraufhin sie von einer weniger gebildeten und weniger disziplinierten Generation ersetzt wurden.\n§W--------------\n[IRQ_corruption_pp][IRQ_corruption_consumer_goods][IRQ_corruption_stability][IRQ_corruption_construction_speed]§!"
 
  IRQ_corruption_pp_text: "$MODIFIER_POLITICAL_POWER_GAIN$: [?irq_pp_gain|+=2]\n"
  IRQ_corruption_pp_text_last: "$MODIFIER_POLITICAL_POWER_GAIN$: [?irq_pp_gain|+=2]"
@@ -293,7 +293,7 @@
  IRQ_Cooperate_Oman_desc: "Der Sultan von Muscat und Oman ist sicherlich daran interessiert, uns bei der Verwirklichung des panarabischen Traums zu unterstützen."
 
 ### Introduction ###
- IRQ_guide: "§MDer Kommandant der Nation§! (§gAutoritäre Demokraten§!)\n£white_dot Taha al-Hashimi muss Truppen zur Niederschlagung der Unruhen in Mesopotamien entsenden und die irregulären Rebellen müssen eine Niederlage erleiden und zerfallen.\n£white_dot Wenn al-Gaylani mit al-Hashimi bricht, muss ihm ein Ölzweig gereicht werden.\n£white_dot Entscheide während des Schwerpunktes \"Einführung eines Gestuften Steuersystems\", dass die Ideale al-Sha'biyas nicht sterben dürfen.\n\n§MAl-Gaylanis Staatsstreich§! (§nNationale Populisten§!) / §MTahas Vergeltung§! (§gAutoritäre Demokraten§!) / §MDas al-Ahali-Kabinett§! (§SSozialdemokraten§!)\n£white_dot Folge den Schritten des obigen Pfades, aber reiche al-Gaylani keinen Ölzweig.\n£white_dot Schließe die Schwerpunkte \"Gesellschaft zur Bekämpfung des Analphabetentums\" und \"Umverteilung des Miri-Landes\" ab.\n£white_dot Für eine §nNnationalpopulistische Regierung§!, lasse al-Hashimi eine Niederlage erleiden wenn dieser Baghdad angreift.\n£white_dot Für eine §gautoritärdemokratische§! / §Ssozialdemokratische§! Regierung, lasse Taha al-Hashimi Kamil Shabib besiegen.\n£white_dot Arbeite nach al-Hashimis Sieg mit al-Ahali zusammen für eine §Ssozialdemokratische§! Regierung oder nimm eine anti-sozialistische Haltung ein für eine §gautoritärdemokratische§! Regierung.\n\n§MDas Kabinett des Königs§! (§PPaternale Autokraten§! / §mMarktliberale§! / §SSozialdemokraten§!)\n£white_dot Lasse das al-Hashimi-Kabinett zerfallen, wenn die Stammesunruhen in Mesopotamien beginnen.\n£white_dot Ernenne Rashid al-Gaylani der HIW zum neuen Premierminister und verbiete Yasin al-Hashimi die Rückkehr für eine Regierung der §PPaternalen Autokraten§!.\n£white_dot Ernenne Kamil al-Chadirchi der al-Ahali zum neuen Premierminister für eine §Ssozialdemokratische§! Regierung. Lasse al-Chadirchi durch den Schwerpunkt \"Einführung eines Gestuften Steuersystems\" zurücktreten, um zu einer §mmarktliberalen§! Regierung zu wechseln."
+ IRQ_guide: "§MDer Kommandant der Nation§! (§aAutoritäre Demokraten§!)\n£white_dot Taha al-Hashimi muss Truppen zur Niederschlagung der Unruhen in Mesopotamien entsenden und die irregulären Rebellen müssen eine Niederlage erleiden und zerfallen.\n£white_dot Wenn al-Gaylani mit al-Hashimi bricht, muss ihm ein Ölzweig gereicht werden.\n£white_dot Entscheide während des Schwerpunktes \"Einführung eines Gestuften Steuersystems\", dass die Ideale al-Sha'biyas nicht sterben dürfen.\n\n§MAl-Gaylanis Staatsstreich§! (§nNationale Populisten§!) / §MTahas Vergeltung§! (§aAutoritäre Demokraten§!) / §MDas al-Ahali-Kabinett§! (§SSozialdemokraten§!)\n£white_dot Folge den Schritten des obigen Pfades, aber reiche al-Gaylani keinen Ölzweig.\n£white_dot Schließe die Schwerpunkte \"Gesellschaft zur Bekämpfung des Analphabetentums\" und \"Umverteilung des Miri-Landes\" ab.\n£white_dot Für eine §nNnationalpopulistische Regierung§!, lasse al-Hashimi eine Niederlage erleiden wenn dieser Baghdad angreift.\n£white_dot Für eine §aautoritärdemokratische§! / §Ssozialdemokratische§! Regierung, lasse Taha al-Hashimi Kamil Shabib besiegen.\n£white_dot Arbeite nach al-Hashimis Sieg mit al-Ahali zusammen für eine §Ssozialdemokratische§! Regierung oder nimm eine anti-sozialistische Haltung ein für eine §aautoritärdemokratische§! Regierung.\n\n§MDas Kabinett des Königs§! (§PPaternale Autokraten§! / §mMarktliberale§! / §SSozialdemokraten§!)\n£white_dot Lasse das al-Hashimi-Kabinett zerfallen, wenn die Stammesunruhen in Mesopotamien beginnen.\n£white_dot Ernenne Rashid al-Gaylani der HIW zum neuen Premierminister und verbiete Yasin al-Hashimi die Rückkehr für eine Regierung der §PPaternalen Autokraten§!.\n£white_dot Ernenne Kamil al-Chadirchi der al-Ahali zum neuen Premierminister für eine §Ssozialdemokratische§! Regierung. Lasse al-Chadirchi durch den Schwerpunkt \"Einführung eines Gestuften Steuersystems\" zurücktreten, um zu einer §mmarktliberalen§! Regierung zu wechseln."
 
 ### Events ###
  irqrev.1.t: "Staatsstreich in Baghdad"
@@ -480,7 +480,6 @@
  irqfor.11.d: "Gute Neuigkeiten aus [FROM.GetNameDef]! Obwohl sich [FROM.FROM.GetNameDef] ihrer Regierung angenähert hat, wurde uns insgeheim versichert, dass man nicht auf der [FROM.FROM.GetAdjective] Seite stehe und weiterhin ein Teil des Kairo-Paktes bleiben möchte. Zum Glück haben sie die Täuschungen der [FROM.FROM.GetAdjective] Regierung durchschaut!"
  irqfor.11.a: "Exzellent."
 
- 
  ### Characters ###
  IRQ_yasin_al_hashimi: "Yasin al-Hashimi"
  IRQ_yasin_al_hashimi_leader_desc: "§YGeboren:§! §L1884, in Bagdad, Vilayet von Bagdad, Osmanisches Reich§!"
@@ -528,7 +527,7 @@
  IRQ_jafar_abu_al_timman: "Ja'far Abu al-Timman"
  IRQ_jafar_abu_al_timman_advisor_desc: "§YGeboren:§! §L1881, in Bagdad, Vilayet von Bagdad, Osmanisches Reich§!"
  IRQ_muhammad_hadid: "Muhammad Hadid"
- IRQ_muhammad_hadid_advisor_desc: "§YGeboren:§! §L1. Januar 1997, in Mosul, Vilayet von Mosul, Osmanisches Reich§!"
+ IRQ_muhammad_hadid_advisor_desc: "§YGeboren:§! §L1. Januar 1907, in Mosul, Vilayet von Mosul, Osmanisches Reich§!"
  IRQ_ibrahim_al_rawi: "Ibrahim al-Rawi"
  IRQ_ibrahim_al_rawi_high_command_desc: "§YGeboren:§! §Lim Osmanischen Reich§!"
  IRQ_fahmi_said: "Fahmi Said"
@@ -543,3 +542,4 @@
  IRQ_sami_fattah_air_chief_desc: "§YGeboren:§! §Lim Osmanischen Reich§!"
  IRQ_coastal_defense_force: "Küstenverteidigungskräfte"
  IRQ_coastal_defense_force_navy_chief_desc: "§YGegründet:§! §Lin Bagdad, Republik Irak§!"
+

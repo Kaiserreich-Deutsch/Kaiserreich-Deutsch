@@ -118,10 +118,10 @@
  JAP_national_unity_gov_long: "Nationale Einheitsregierung"
 
  JAP_nippon_kokuminto: "Nippon Kokumintō"
- JAP_nippon_kokuminto_long: "Nippon Kokumintō\n§gNach dem plötzlichen Zusammenbruch der kaiserlichen Autorität infolge des chinesischen Sieges im Chinesisch-Japanischen Krieg hat die revolutionäre chinesische Regierung eine provisorische Regierung und Partei unter der Führung von Nosaka Sanzō eingesetzt, um die japanischen Heimatinseln zu verwalten und den Japanern die Ideale der Drei Prinzipien des Volkes nahezubringen. Die neu gegründete Nippon Kokumintō (Japanische Nationalistische Partei) will die engen Beziehungen zu den Chinesen aufrechterhalten, aber auch ihre eigenen Ideale von Minsheng, Minzu und Minquan fördern, um Dr. Suns Prinzipien einer panasiatischen Weltrevolution zu erfüllen.§!\n"
+ JAP_nippon_kokuminto_long: "Nippon Kokumintō\n§LNach dem plötzlichen Zusammenbruch der kaiserlichen Autorität infolge des chinesischen Sieges im Chinesisch-Japanischen Krieg hat die revolutionäre chinesische Regierung eine provisorische Regierung und Partei unter der Führung von Nosaka Sanzō eingesetzt, um die japanischen Heimatinseln zu verwalten und den Japanern die Ideale der Drei Prinzipien des Volkes nahezubringen. Die neu gegründete Nippon Kokumintō (Japanische Nationalistische Partei) will die engen Beziehungen zu den Chinesen aufrechterhalten, aber auch ihre eigenen Ideale von Minsheng, Minzu und Minquan fördern, um Dr. Suns Prinzipien einer panasiatischen Weltrevolution zu erfüllen.§!\n"
 
  JAP_zantei_gunseifu: "Zantei Gunseifu"
- JAP_zantei_gunseifu_long: "Zantei Gunseifu\n§gNichts hätte das stolze japanische Volk besser vorbereiten können als der plötzliche Zusammenbruch der kaiserlichen und militärischen Autorität nach der Kriegsniederlage und der anschließenden vollständigen Besetzung und Kapitulation. Nun hat das besetzende Ausland eine militärische Übergangsregierung eingesetzt, um die japanischen Heimatinseln zu verwalten und einen gesunden und stetigen Übergang von einer ehemaligen Monarchie zu einer hoffentlich neuen lebendigen Demokratie in Asien zu gewährleisten.§!\n"
+ JAP_zantei_gunseifu_long: "Zantei Gunseifu\n§LNichts hätte das stolze japanische Volk besser vorbereiten können als der plötzliche Zusammenbruch der kaiserlichen und militärischen Autorität nach der Kriegsniederlage und der anschließenden vollständigen Besetzung und Kapitulation. Nun hat das besetzende Ausland eine militärische Übergangsregierung eingesetzt, um die japanischen Heimatinseln zu verwalten und einen gesunden und stetigen Übergang von einer ehemaligen Monarchie zu einer hoffentlich neuen lebendigen Demokratie in Asien zu gewährleisten.§!\n"
 
  JAP_nihon_minshuto: "Minshutō"
  JAP_nihon_minshuto_long: "Nihon Minshutō (Demokratische Partei Japans)"
@@ -280,6 +280,8 @@
  # Liberal & Autoritär
  JAP_depolicization_of_the_throne_idea: "Depolarisierung des Throns"
  JAP_forced_abdication_idea: "Erzwungene Abdankung des Kaisers"
+ JAP_unpopular_republic_idea: "Unpopuläre Republik"
+ JAP_unpopular_republic_idea_desc: "Gemäß den Forderungen von [JAP.overlord.GetNameDef] wurde eine Republik über Japan verhängt, ein Schritt, der in der Heimat populär sein soll, in Japan selbst jedoch auf große Wut und Empörung stößt. Die neue Regierung steht vor der wenig beneidenswerten Aufgabe, die japanische Bevölkerung für sich zu gewinnen, damit es ihr nicht so ergeht wie vielen ähnlichen Regimen nach dem Ersten Weltkrieg."
  JAP_emergency_relief_idea: "Nothilfe der Regierung"
  JAP_dem_puppet_pro_zaibatsu_idea1: "Unterstützung für die Zaibatsu"
  JAP_traditionalist_state_idea: "Ein Traditionalistischer Japanischer Staat"
@@ -456,12 +458,12 @@
  # Demokratie Tooltips
  JAP_elected_marlib: "Die §mMinseitō§! siegen bei den vorgezogenen Wahlen"
  JAP_elected_soccon: "Die §cSeiyūkai§! stehen weiterhin an der Spitze der Regierung"
- JAP_elected_autdem: "Die §gRegierung der Nationalen Einheit§! wurde von den großen Parteien gebildet."
+ JAP_elected_autdem: "Die §aRegierung der Nationalen Einheit§! wurde von den großen Parteien gebildet."
  JAP_1940_election: "Die Wahlen von 1940 wurden abgehalten"
  
  JAP_autdem_reforms_tt: "Die Bildung der Regierung der Nationalen Einheit wird die Verabschiedung von insgesamt 4 Reformschwerpunkten ermöglichen, die von der §cSeiyūkai§! oder §mMinseitō§! unterstützt werden, wählen Sie mit Bedacht."
  JAP_autdem_limit_tt: "Hat weniger als §Y4§! Reformschwerpunkte verabschiedet. §CZur Zeit§! §Y[?JAP_autdem_focus_variable]§!"
- JAP_final_focus_autdem_tt: "§gJe nachdem, welche Reformen die Regierung der nationalen Einheit durchsetzt, werden wir nach Abschluss dieses Schwerpunkts einen anderen Nationalgeist erhalten.§!"
+ JAP_final_focus_autdem_tt: "§aJe nachdem, welche Reformen die Regierung der nationalen Einheit durchsetzt, werden wir nach Abschluss dieses Schwerpunkts einen anderen Nationalgeist erhalten.§!"
  JAP_final_focus_autdem_minseito_tt: "Die Verabschiedung von §Y3§! oder mehr §mMinseitō§! Reformschwerpunkte wird uns gewähren:"
  JAP_final_focus_autdem_seiyukai_tt: "Die Verabschiedung von §Y3§! oder mehr §cSeiyūkai§! Reformschwerpunkte wird uns gewähren:"
  JAP_more_minseito_focus_taken: "§Y3§! oder mehr Schwerpunkte von der §mMinseitō§! Seite sind abgeschlossen."
@@ -519,7 +521,9 @@
  JAP_question_of_the_imperial_family_default_tt: "§LNach der Niederlage Japans im Krieg mehren sich die Stimmen, die die Absetzung Hirohitos fordern oder sogar die Funktion des Kaisers in Frage stellen. Außerdem wird die Frage nach den Plänen unseres Oberherrn für unser Land erschwert.§!"
  JAP_question_of_the_imperial_family_hirohito_stayed_tt: "§LObwohl unser Oberherr das politische Potenzial und die Bedeutung des Verbleibs Hirohitos auf dem Thron erkannt hat, ist diese Frage noch lange nicht gelöst. Über das Schicksal des Kaisers und der kaiserlichen Familie wird in der nächsten Sondersitzung des Parlaments entschieden werden.§!"
  JAP_question_of_the_imperial_family_hirohito_abdicated_tt: "§LNach der erzwungenen Abdankung Hirohitos scheint die Position der kaiserlichen Familie und des neuen Kaisers so schwach wie nie zuvor. Über ihr Schicksal wird in der nächsten Sondersitzung des Landtages entschieden werden.§!"
+ JAP_question_of_the_imperial_family_abolished_tt: "§LThe decision of our overlord to enforce a republic over the nation is not a popular one, yet we must persevere. It is time to begin winning over the public, and hope in time they start to accept Japan's new future.§!"
  JAP_hirohito_abdicate_tt: "§YHirohito§! wird abdanken, und sein Sohn, §YKronprinz Akihito§! wird den Thron besteigen, wobei §YPrinz Takamatsu Nobuhito§! zum Regenten ernannt wird.\n"
+ JAP_republic_effect_tt: "Die §YKaiserliche Institution§! wird vollständig abgeschafft, und Japan wird zur §YRepublik Japan§!.\n"
  JAP_elections_in_four_months_tt: "Die ersten Nachkriegswahlen werden in vier Monaten abgehalten.\n"
  JAP_imperial_to_national_diet_tt: "Die §Y$JAP_imperial_diet$§! wird umbenannt in §Y$JAP_national_diet$§!\n"
  JAP_appoint_naruhiko_sic: "Berater §YHigashikuni Naruhiko§ ernennen!"
@@ -620,8 +624,6 @@
  JAP_fading_sun_timer_enemy: "Die verblassende Sonne"
  JAP_fading_sun_timer_enemy_desc: "Der Verlust der koreanischen Halbinsel und von Port Arthur an ausländische Streitkräfte ist ein schwerer Schlag für Japans laufende Kriegsanstrengungen. Wenn es ihnen nicht gelingt, auf dem Festland wieder Fuß zu fassen, werden die innenpolitischen Unruhen, die durch die zahlreichen Niederlagen ausgelöst wurden, die wir ihnen zugefügt haben, das Reich der aufgehenden Sonne bald an den Verhandlungstisch zwingen."
 
- JAP_fading_sun_available_tt: "§Y[JAP.GetNameDefCap]§! hat die Kontrolle über Korea vollständig wiedererlangt"
-
  JAP_offer_peace_to_china: "China Frieden anbieten"
  JAP_offer_peace_to_china_desc: "Die Chinesen haben unsere Armeen besiegt und kontrollieren nun die Mandschurei und Korea. Sie sind zwar nicht in der Lage, auf die Heimatinseln vorzudringen, aber die Schande und die Demütigung dieser Niederlage haben massive innere Unruhen ausgelöst. Die beste Vorgehensweise ist nun, einen Frieden auszuhandeln, ungeachtet der Schande, und sich der Bekämpfung unserer neuen internen Probleme zuzuwenden."
  JAP_offer_peace_to_russia: "Angebot Frieden an [From.GetNameDef]"
@@ -629,7 +631,6 @@
 
  JAP_offer_peace_available_tt: "§Y[JAP.GetNameDefCap]§! oder seine Verbündeten kontrollieren nichts von Koreas"
 
- JAP_will_surrender_if_forced_out_of_china: "Auswirkungen, wenn Japan keine Staaten auf dem chinesischen Festland kontrolliert:"
  JAP_all_chinese_allies_capitulated: "Alle chinesischen Verbündeten auf dem asiatischen Festland haben kapituliert"
  JAP_all_owned_chinese_states_occupied: "Alle eigenen Staaten auf dem chinesischen Festland sind besetzt"
 
@@ -1243,7 +1244,7 @@
  JAP_country_intro_header: "Das verlorene Jahrzehnt hinter sich lassen"
  JAP_country_intro_content: "Die 1920er Jahre waren in Japan von wirtschaftlicher Depression und politischer Instabilität geprägt und werden als das "verlorene Jahrzehnt" bezeichnet. Die Notlage war in der Landwirtschaft besonders groß und führte zu einem massiven demografischen Wandel, da die Landwirte aus den ländlichen Gebieten in die Städte flohen, was den Arbeitsmarkt überschwemmte und die Löhne weiter drückte.\n\nNachdem Inukai die von der Kenseikai geführte "Konstitutionelle Koalition" verlassen und die Regierung übernommen hatte, dehnten er und sein Kabinett den japanischen Einflussbereich erfolgreich auf die Mandschurei und die Randgebiete Sibiriens aus und erwarben damit einen wichtigen Exportmarkt für die japanische Wirtschaft, doch die Lage in der Landwirtschaft verschlechterte sich weiter, da billige Agrarimporte aus der Mandschurei auf das Land übergriffen. Zu Beginn des Jahres 1936 haben die fortgesetzte Wiederaufrüstung und die Investitionen des Staates die industrielle Wirtschaft vollständig wieder aufgebaut, doch das Problem der ländlichen Armut bleibt chronisch und ungelöst."
  
- JAP_guide: "§MWahlrechtsreform§! (§mMarktliberale§!/ §cSozialkonservative§!/ §SSozialdemokraten§!/ §gAutoritär Demokratisch§!)\n£white_dot Setzen Sie das Gesetz über die nationale Sicherheit durch.\n£white_dot Wenn die §cSeiyūkai§! bei der Wahl 1936 ihre Mehrheit behalten hat, wird der Kaiser sie immer unterstützen, andernfalls muss man \"Er ist aus der Reihe getanzt!\" wählen, wenn er sich weigert, die Regierung zu unterstützen. \n£white_dot Wenn die §cSeiyūkai§! ihre Mehrheit im Parlament verloren hat, können sich die Parteien vorübergehend bis zur nächsten Wahl unter der §gRegierung der Nationalen Einheit§! zusammenschließen, andernfalls kommt es zu vorgezogenen Neuwahlen, bei denen die §cSeiyūkai§! oder die §mMinseitō§! gewinnen können.\n£white_dot Bei zukünftigen Wahlen können Sie auch zwischen der Wahl von §gKokumin Dōmei§! oder §SShakai Taishūtō§! wählen.\n\n§MZentralistische Machtübernahme§! (§PPaternal Autokraten§!)\n£white_dot Wenn die §cSeiyūkai§! bei den Wahlen von 1936 ihre Mehrheit verlieren und das Nationale Sicherheitsgesetz durchgesetzt wird, kann das Militär einen Putschversuch unternehmen.\n£white_dot Wenn sich der Kaiser zum Nationalen Sicherheitsgesetz äußert, entscheiden Sie sich gegen die Regierung, was einen Militärputsch auslöst, der dazu führt, dass die §PIJA - Zentralisten§! die Macht ergreifen.\n\n§MRestaurationistischer Putsch - Hirohito§! (§nNationale Populisten§!)\n£white_dot Wenn das Nationale Sicherheitsgesetz abgelehnt wird, wird das Militär die Regierung putschen und als §PIJA - Zentralisten§! vorübergehend die Macht übernehmen.\n£white_dot Bald darauf werden die radikaleren Elemente der Armee einen Gegenputsch starten, was dazu führt, dass stattdessen die §nIJA - Restaurationisten§! die Macht übernehmen.\n\n"
+ JAP_guide: "§MWahlrechtsreform§! (§mMarktliberale§!/ §cSozialkonservative§!/ §SSozialdemokraten§!/ §aAutoritär Demokratisch§!)\n£white_dot Setzen Sie das Gesetz über die nationale Sicherheit durch.\n£white_dot Wenn die §cSeiyūkai§! bei der Wahl 1936 ihre Mehrheit behalten hat, wird der Kaiser sie immer unterstützen, andernfalls muss man \"Er ist aus der Reihe getanzt!\" wählen, wenn er sich weigert, die Regierung zu unterstützen. \n£white_dot Wenn die §cSeiyūkai§! ihre Mehrheit im Parlament verloren hat, können sich die Parteien vorübergehend bis zur nächsten Wahl unter der §aRegierung der Nationalen Einheit§! zusammenschließen, andernfalls kommt es zu vorgezogenen Neuwahlen, bei denen die §cSeiyūkai§! oder die §mMinseitō§! gewinnen können.\n£white_dot Bei zukünftigen Wahlen können Sie auch zwischen der Wahl von §aKokumin Dōmei§! oder §SShakai Taishūtō§! wählen.\n\n§MZentralistische Machtübernahme§! (§PPaternal Autokraten§!)\n£white_dot Wenn die §cSeiyūkai§! bei den Wahlen von 1936 ihre Mehrheit verlieren und das Nationale Sicherheitsgesetz durchgesetzt wird, kann das Militär einen Putschversuch unternehmen.\n£white_dot Wenn sich der Kaiser zum Nationalen Sicherheitsgesetz äußert, entscheiden Sie sich gegen die Regierung, was einen Militärputsch auslöst, der dazu führt, dass die §PIJA - Zentralisten§! die Macht ergreifen.\n\n§MRestaurationistischer Putsch - Hirohito§! (§nNationale Populisten§!)\n£white_dot Wenn das Nationale Sicherheitsgesetz abgelehnt wird, wird das Militär die Regierung putschen und als §PIJA - Zentralisten§! vorübergehend die Macht übernehmen.\n£white_dot Bald darauf werden die radikaleren Elemente der Armee einen Gegenputsch starten, was dazu führt, dass stattdessen die §nIJA - Restaurationisten§! die Macht übernehmen.\n\n"
 
 ### Events ###
  japdom.2.t: "Auflösung des Reichstags"
@@ -1502,9 +1503,10 @@
  japdom.239.c: "Shakaitō (Sozialisten)"
 
  japdom.240.t: "Schicksal des Kaisers"
- japdom.240.d: "Mit der Fertigstellung der letzten Zweige des neuen Regierungssystems muss die Zukunft des japanischen Throns diskutiert werden. Zwar trägt Hirohito zweifellos die Verantwortung für die Verfolgung des Krieges gegen uns, doch würde die wahre Gerechtigkeit ihn wahrscheinlich tot oder lebenslänglich inhaftiert zurücklassen, und wir stünden vor einem unlösbaren Problem der öffentlichen Ordnung. Unsere Diplomaten und sogar die meisten Generäle bestehen darauf, dass wir stattdessen eine mildere Hand anwenden müssen. Wir können die theoretisch unbegrenzten Befugnisse des Kaisers nicht so belassen, wie sie jetzt sind, aber es gibt vielleicht noch einige Möglichkeiten."
+ japdom.240.d: "Mit der Fertigstellung der letzten Zweige des neuen Regierungssystems muss die Zukunft des japanischen Throns diskutiert werden. Zwar trägt Hirohito zweifellos die Verantwortung für die Verfolgung des Krieges gegen uns, doch würde die wahre Gerechtigkeit ihn wahrscheinlich tot oder lebenslänglich inhaftiert zurücklassen, und wir stünden vor einem unlösbaren Problem der öffentlichen Ordnung. Viele unserer Bürger fordern jedoch nach wie vor die völlige Abschaffung der kaiserlichen Institution, da sie ihnen die Schuld für den Verlust von Menschenleben bei der kostspieligen Invasion ihrer Heimatinseln geben, und dies würde ihre Rachegelüste befriedigen. Unsere Diplomaten und sogar die meisten Generäle haben dagegen davon abgeraten und stattdessen vorgeschlagen, dass wir entweder den Königen erlauben, weiterhin eine symbolische Stellung einzunehmen, oder zumindest nur die Abdankung Hirohitos erzwingen, um nicht einen möglicherweise dauerhaften Aufstand gegen unsere Kollaborateure zu riskieren."
  japdom.240.a: "Lassen Sie ihn auf dem Thron, aber übertragen Sie die Souveränität an das Volk."
  japdom.240.b: "Zwingt ihn zur Abdankung."
+ japdom.240.c: "Die gesamte kaiserliche Institution muss abgeschafft werden."
 
  japdom.241.t: "Das Schicksal der kaiserlichen Familie"
  japdom.241.d: "Mit der Fertigstellung der letzten Zweige des neuen Regierungssystems muss die Zukunft der japanischen Kaiserfamilie diskutiert werden. Während viele Mitglieder der kaiserlichen Familie zweifellos die Verantwortung für die Verfolgung des Krieges gegen uns tragen, würde die wahre Gerechtigkeit wahrscheinlich mehrere Tote oder lebenslängliche Haftstrafen nach sich ziehen, und wir hätten ein unlösbares Problem mit der öffentlichen Ordnung am Hals. Unsere Diplomaten und sogar die meisten Generäle bestehen darauf, dass wir stattdessen eine mildere Hand anwenden müssen. Wir können die Monarchie nicht unangetastet lassen, aber vielleicht gibt es noch einige Möglichkeiten."
@@ -2186,7 +2188,7 @@
  JAP_ishibashi_tanzan: "Ishibashi Tanzan"
  JAP_ishibashi_tanzan_leader_desc: "§YGeboren:§! §L25. September 1884, in der Präfektur Tōkyō, Kaiserreich Japan§!"
  JAP_yoshida_shigeru: "Yoshida Shigeru"
- JAP_yoshida_shigeru_leader_desc: "§YGeboren:§! §L22. September 1878, in Chiyoda, Präfektur Tōkyō, Kaiserreich Japan§!"
+ JAP_yoshida_shigeru_leader_desc: "§YGeboren:§! §L22. September 1878, in Kanda, Präfektur Tōkyō, Kaiserreich Japan§!"
  JAP_kishi_nobusuke: "Kishi Nobusuke"
  JAP_kishi_nobusuke_leader_desc: "§YGeboren:§! §L13. November 1896, in Yamaguchi, Präfektur Yamaguchi, Kaiserreich Japan§!"
 
@@ -2205,7 +2207,7 @@
  JAP_hata_shunroku: "Hata Shunroku"
  JAP_hata_shunroku_high_command_desc: "§YGeboren:§! §L26. Juli 1879, in der Präfektur Fukushima, Kaiserreich Japan§!"
  JAP_ishiwara_kanji: "Ishiwara Kanji"
- JAP_ishiwara_kanji_commander_desc: "§YGeboren:§! §L18. Januar 1889, in Shōnai, Präfektur Yamagata, Kaiserreich Japan§!"
+ JAP_ishiwara_kanji_commander_desc: "§YGeboren:§! §L18. Januar 1889, in Amarume, Präfektur Yamagata, Kaiserreich Japan§!"
  JAP_higashikuni_naruhiko: "Higashikuni Naruhiko"
  JAP_higashikuni_naruhiko_sic_desc: "§YGeboren:§! §L3. Dezember 1887, in Kyōto, Präfektur Kyōto, Kaiserreich Japan§!"
  JAP_itagaki_seishiro: "Itagaki Seishirō"
@@ -2247,7 +2249,7 @@
  JAP_fujie_keisuke: "Fujie Keisuke"
  JAP_fujie_keisuke_commander_desc: "§YGeboren:§! §L8. November 1885, in der Präfektur Hyōgo, Kaiserreich Japan§!"
  JAP_higuchi_kiichiro: "Higuchi Kiichirō"
- JAP_higuchi_kiichiro_commander_desc: "§YGeboren:§! §L20. August 1888, in Minamiawaji, Insel Awaji, Präfektur Hyōgo, Kaiserreich Japan§!"
+ JAP_higuchi_kiichiro_commander_desc: "§YGeboren:§! §L20. August 1888, in Yura, Insel Awaji, Präfektur Hyōgo, Kaiserreich Japan§!"
  JAP_homma_masaharu: "Homma Masaharu"
  JAP_homma_masaharu_commander_desc: "§YGeboren:§! §L27. November 1887, auf der Insel Sado, Präfektur Niigata, Kaiserreich Japan§!"
  JAP_hyakutake_harukichi: "Hyakutake Harukichi"
@@ -2275,7 +2277,7 @@
  JAP_yoshida_zengo: "Yoshida Zengo"
  JAP_yoshida_zengo_admiral_desc: "§YGeboren:§! §L14. Februar 1885, in der Präfektur Saga, Kaiserreich Japan§!"
  JAP_daigo_tadashige: "Daigo Tadashige"
- JAP_daigo_tadashige_navy_chief_desc: "§YGeboren:§! §L15. Oktober 1891, in Chiyoda, Präfektur Tōkyō, Kaiserreich Japan§!"
+ JAP_daigo_tadashige_navy_chief_desc: "§YGeboren:§! §L15. Oktober 1891, in Kōjimachi, Präfektur Tōkyō, Kaiserreich Japan§!"
  JAP_hyakutake_gengo: "Hyakutake Gengo"
  JAP_hyakutake_gengo_admiral_desc: "§YGeboren:§! §L28. Januar 1882, in der Präfektur Saga, Kaiserreich Japan§!"
 
@@ -2292,11 +2294,11 @@
  JAP_minobe_tatsukichi: "Minobe Tatsukichi"
  JAP_minobe_tatsukichi_advisor_desc: "§YGeboren:§! §L7. Mai 1873, in Takasago, Präfektur Hyōgo, Kaiserreich Japan§!"
  JAP_kijuro_shidehara: "Kijūrō Shidehara"
- JAP_kijuro_shidehara_advisor_desc: "§YGeboren:§! §L13. September 1872, in Sakai, Präfektur Nara, Kaiserreich Japan§!"
+ JAP_kijuro_shidehara_advisor_desc: "§YGeboren:§! §L13. September 1872, in Sakai, Präfektur Sakai, Kaiserreich Japan§!"
  JAP_ozaki_yukio: "Ozaki Yukio"
  JAP_ozaki_yukio_advisor_desc: "§YGeboren:§! §L24. Dezember 1858, in Matano, Provinz Sagami, Kaiserreich Japan§!"
  JAP_matsuoka_yosuke: "Matsuoka Yōsuke"
- JAP_matsuoka_yosuke_advisor_desc: "§YGeboren:§! §L4. März 1880, in Hikari, Präfektur Yamaguchi, Kaiserreich Japan§!"
+ JAP_matsuoka_yosuke_advisor_desc: "§YGeboren:§! §L4. März 1880, in Kumage, Präfektur Yamaguchi, Kaiserreich Japan§!"
  JAP_fujiwara_ginjiro: "Fujiwara Ginjirō"
  JAP_fujiwara_ginjiro_advisor_desc: "§YGeboren:§! §L25. Juli 1869, in der Provinz Shinano, Kaiserreich Japan§!"
  JAP_godo_takuo: "Godō Takuo"
@@ -2318,7 +2320,7 @@
  JAP_mizuno_rentaro: "Mizuno Rentarō"
  JAP_mizuno_rentaro_sic_desc: "§YGeboren:§! §L3. Februar 1868, in Edo, Kaiserreich Japan§!"
  JAP_hamaguchi_osachi: "Hamaguchi Osachi"
- JAP_hamaguchi_osachi_sic_desc: "§YGeboren:§! §L1. April 1870, in Kōchi, Präfektur Kōchi, Kaiserreich Japan§!"
+ JAP_hamaguchi_osachi_sic_desc: "§YGeboren:§! §L1. April 1870, im Bezirk Nagaoka, Provinz Tosa, Kaiserreich Japan§!"
  JAP_ugaki_kazushige: "Ugaki Kazushige"
  JAP_ugaki_kazushige_sic_desc: "§YGeboren:§! §L9. August 1868, in Seto, Provinz Bizen, Kaiserreich Japan§!"
  JAP_machida_chuji: "Machida Chūji"
@@ -2395,7 +2397,9 @@
  JAP_samurai_lineage: "Samurai Abstammung"
  JAP_samurai_lineage_desc: "§LDieser Mann entstammt dem stolzen Geschlecht der Samurai und bleibt den alten Traditionen und Loyalitäten treu.§!"
 
- JAP_hirohito_defeat_trait: "Geschlagener Kaiser\n§g\"Möge die gesamte Nation von Generation zu Generation als eine Familie fortbestehen, stets fest im Glauben an die Unvergänglichkeit ihres heiligen Landes und eingedenk der schweren Last ihrer Verantwortung und des langen Weges, der vor ihr liegt.\"§!"
- JAP_hirohito_symbol_trait: "Symbol für Japan\n§g\"Möge die gesamte Nation von Generation zu Generation als eine Familie fortbestehen, stets fest im Glauben an die Unvergänglichkeit ihres heiligen Landes und eingedenk der schweren Last ihrer Verantwortung und des langen Weges, der vor ihr liegt.\"§!"
+ JAP_hirohito_defeat_trait: "Geschlagener Kaiser"
+ JAP_hirohito_symbol_trait: "Symbol für Japan"
+ JAP_hirohito_symbol_trait_desc: "§L\"Möge die gesamte Nation von Generation zu Generation als eine Familie fortbestehen, stets fest im Glauben an die Unvergänglichkeit ihres heiligen Landes und eingedenk der schweren Last ihrer Verantwortung und des langen Weges, der vor ihr liegt.\"§!"
 
- JAP_regent_trait: "Sesshō\n§LNach der erzwungenen Abdankung Hirohitos wurde Prinz Takamatasu zum Stellvertreter von Kronprinz Akihito ernannt, bis dieser volljährig wird.§!"
+ JAP_regent_trait: "Sesshō"
+ JAP_regent_trait_desc: "§LNach der erzwungenen Abdankung Hirohitos wurde Prinz Takamatasu zum Stellvertreter von Kronprinz Akihito ernannt, bis dieser volljährig wird.§!"
