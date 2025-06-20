@@ -1174,7 +1174,7 @@ VOL_infantry_equipment_0_short: "Lebel Mle M93"
 VOL_support_weapons: "Darne M1919 & Stokes mortar"
 
 ###
-### Bharatiya Commune ###
+### Bharatiya People's Republic ###
 ###
 
 ### Land ###
@@ -1593,106 +1593,115 @@ WIF_train_equipment_2: "British Guiana Government Railway Sharp Stewart 2-4-2"
 #WIF_railway_gun_equipment_1: "" #feel free to add if you find more stuff
 
 ###
-### Pacific States ###
+### American Constitutional Coalition ###
 ###
 
 ### Land ###
 
-PSA_EQUIPMENT_VERSION_1: "A1"
-PSA_EQUIPMENT_VERSION_2: "A2"
-PSA_EQUIPMENT_VERSION_3: "A3"
-PSA_EQUIPMENT_VERSION_4: "A4"
-PSA_EQUIPMENT_VERSION_5: "A5"
-PSA_EQUIPMENT_VERSION_6: "A6"
-PSA_EQUIPMENT_VERSION_7: "A7"
-PSA_EQUIPMENT_VERSION_8: "A8"
-PSA_EQUIPMENT_VERSION_9: "A9"
-PSA_EQUIPMENT_VERSION_10: "A9A1"
-PSA_EQUIPMENT_VERSION_11: "A9A2"
-PSA_EQUIPMENT_VERSION_12: "A9A3"
-PSA_EQUIPMENT_VERSION_13: "A9A4"
+ACC_EQUIPMENT_VERSION_1: "A1"
+ACC_EQUIPMENT_VERSION_2: "A2"
+ACC_EQUIPMENT_VERSION_3: "A3"
+ACC_EQUIPMENT_VERSION_4: "A4"
+ACC_EQUIPMENT_VERSION_5: "A5"
+ACC_EQUIPMENT_VERSION_6: "A6"
+ACC_EQUIPMENT_VERSION_7: "A7"
+ACC_EQUIPMENT_VERSION_8: "A8"
+ACC_EQUIPMENT_VERSION_9: "A9"
+ACC_EQUIPMENT_VERSION_10: "A9A1"
+ACC_EQUIPMENT_VERSION_11: "A9A2"
+ACC_EQUIPMENT_VERSION_12: "A9A3"
+ACC_EQUIPMENT_VERSION_13: "A9A4"
 
 #Infantry Equip
 
-PSA_infantry_equipment_0: "Springfield Model 1903"
-PSA_infantry_equipment_0_short: "M1903 Springfield"
-PSA_infantry_equipment_0_desc: "Das Modell 1903 wurde im Springfield Arsenal entwickelt, als die Vereinigten Staaten nach dem Spanisch-Amerikanischen Krieg das Krag-Jørgensen-Gewehr aufgrund seines schwachen Systems für unzureichend hielten; im Kern war das 1903 ein Versuch, die vorteilhaften Eigenschaften des Krag-Gewehrs und der erbeuteten spanischen Mauser zu kombinieren. Das Gewehr wurde nach und nach zusammen mit der .30-06-Patrone eingeführt, bevor und während der Rest der Welt den Weltkrieg führte."
-PSA_infantry_equipment_1: "Springfield Model 1903A1"
-PSA_infantry_equipment_1_short: "M1903A1 Springfield"
-PSA_infantry_equipment_2: "Garand Model 1"
-PSA_infantry_equipment_2_short: "M1 Garand"
-#PSA_infantry_equipment_2_desc: "Als der Zweite Amerikanische Bürgerkrieg ausbrach, bereitete die US-Armee das halbautomatische Gewehr von John Garand zur Einführung vor. Garand selbst floh zu Beginn des Krieges und wurde schließlich Leiter des Sacramento Army Arsenal, wo sein Gewehr perfektioniert, vereinfacht und schließlich in Dienst gestellt werden sollte."
-PSA_infantry_equipment_3: "Garand Model 2"
-PSA_infantry_equipment_3_short: "M2 Garand"
-PSA_support_weapons: "M1917 Browning MG & Stokes mortar"
-PSA_support_weapons2: "M1919 Browning MG & SBML two-inch mortar"
-PSA_support_weapons3: "M1919A6 Browning MG & M1 mortar"
-PSA_night_vision: "T-120 Sniperscope"
-PSA_night_vision2: "M2 Sniperscope"
+ACC_infantry_equipment_0: "Springfield Model 1903"
+ACC_infantry_equipment_0_short: "M1903 Springfield"
+ACC_infantry_equipment_0_desc: "Das Modell 1903 wurde im Springfield Arsenal entwickelt, als die Vereinigten Staaten nach dem Spanisch-Amerikanischen Krieg das Krag-Jørgensen-Gewehr aufgrund seines schwachen Systems für unzureichend hielten; im Kern war das 1903 ein Versuch, die vorteilhaften Eigenschaften des Krag-Gewehrs und der erbeuteten spanischen Mauser zu kombinieren. Das Gewehr wurde nach und nach zusammen mit der .30-06-Patrone eingeführt, bevor und während der Rest der Welt den Weltkrieg führte."
+ACC_infantry_equipment_1: "Springfield Model 1903A1"
+ACC_infantry_equipment_1_short: "M1903A1 Springfield"
+ACC_infantry_equipment_2: "Garand Model 1"
+ACC_infantry_equipment_2_short: "M1 Garand"
+#ACC_infantry_equipment_2_desc: "Als der Zweite Amerikanische Bürgerkrieg ausbrach, bereitete die US-Armee das halbautomatische Gewehr von John Garand zur Einführung vor. Garand selbst floh zu Beginn des Krieges und wurde schließlich Leiter des Sacramento Army Arsenal, wo sein Gewehr perfektioniert, vereinfacht und schließlich in Dienst gestellt werden sollte."
+ACC_infantry_equipment_3: "Garand Model 2"
+ACC_infantry_equipment_3_short: "M2 Garand"
+ACC_support_weapons: "M1917 Browning MG & Stokes mortar"
+ACC_support_weapons2: "M1919 Browning MG & SBML two-inch mortar"
+ACC_support_weapons3: "M1919A6 Browning MG & M1 mortar"
+ACC_night_vision: "T-120 Sniperscope"
+ACC_night_vision2: "M2 Sniperscope"
 
 #Motorised
 
-PSA_motorized_equipment_1: "GMC 1936 Conventional Cab All-Wheel Drive Dual Rear Axles"
-PSA_motorized_equipment_1_short: "ACKW"
+ACC_motorbike_equipment_1: "$USA_motorbike_equipment_1$"
+ACC_motorbike_equipment_1_short: "$USA_motorbike_equipment_1_short$"
+ACC_motorized_equipment_0: "$USA_motorized_equipment_0$"
+ACC_motorized_equipment_0_short: "$USA_motorized_equipment_0_short$"
+ACC_super_heavy_artillery_equipment_1: "$USA_super_heavy_artillery_equipment_1$"
+ACC_super_heavy_artillery_equipment_1_short: "$USA_super_heavy_artillery_equipment_1_short$"
+ACC_railway_gun_equipment_1: "$USA_railway_gun_equipment_1$"
+ACC_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+ACC_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+ACC_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
+ACC_motorized_equipment_1: "GMC 1936 Conventional Cab Allradantrieb Doppelhinterachsen"
+ACC_motorized_equipment_1_short: "ACKW"
 #Canadian Trucked Jeep Willys increased to carrier:
-PSA_mechanized_equipment_1: "M2 American Carrier"
-PSA_mechanized_equipment_1_short: "M2 Carrier"
+ACC_mechanized_equipment_1: "M2 American Carrier"
+ACC_mechanized_equipment_1_short: "M2 Carrier"
 #M29 Weasel increased to carrier:
-PSA_mechanized_equipment_2: "M4 Carrier"
-PSA_mechanized_equipment_2_short: "M4 Carrier"
+ACC_mechanized_equipment_2: "M4 Carrier"
+ACC_mechanized_equipment_2_short: "M4 Carrier"
 #M30 Cargo Carrier:
-PSA_mechanized_equipment_3: "M12 Carrier"
-PSA_mechanized_equipment_3_short: "M12 Carrier"
-PSA_motorized_rocket_equipment: "GMC 353 'Xylophone'"
-PSA_motorized_rocket_equipment_1: "GMC 353 'Xylophone'"
-PSA_motorized_rocket_equipment_1_short: "'Xylophone'"
+ACC_mechanized_equipment_3: "M12 Carrier"
+ACC_mechanized_equipment_3_short: "M12 Carrier"
+ACC_motorized_rocket_equipment: "GMC 353 'Xylophone'"
+ACC_motorized_rocket_equipment_1: "GMC 353 'Xylophone'"
+ACC_motorized_rocket_equipment_1_short: "'Xylophone'"
 
 #Amphibious
 
-PSA_amphibious_mechanized_equipment_1: "Landing Vehicle Tracked 2"
-PSA_amphibious_mechanized_equipment_1_short: "LVT-2"
-PSA_amphibious_mechanized_equipment_2: "Landing Vehicle Tracked 4 Water Buffalo"
-PSA_amphibious_mechanized_equipment_2_short: "LVT-4"
+ACC_amphibious_mechanized_equipment_1: "Landing Vehicle Tracked 2"
+ACC_amphibious_mechanized_equipment_1_short: "LVT-2"
+ACC_amphibious_mechanized_equipment_2: "Landing Vehicle Tracked 4 Water Buffalo"
+ACC_amphibious_mechanized_equipment_2_short: "LVT-4"
 
 #Armoured Car
-PSA_gw_armored_car_equipment: "M2 Scout Car"
-PSA_gw_armored_car_equipment_short: "M2"
-PSA_armored_car_equipment_1: "M3 Scout Car"
-PSA_armored_car_equipment_1_short: "M3"
+ACC_gw_armored_car_equipment: "M2 Scout Car"
+ACC_gw_armored_car_equipment_short: "M2"
+ACC_armored_car_equipment_1: "M3 Scout Car"
+ACC_armored_car_equipment_1_short: "M3"
 #Staghound:
-PSA_armored_car_equipment_2: "M6 Armoured Car"
-PSA_armored_car_equipment_2_short: "M6"
+ACC_armored_car_equipment_2: "M6 Armoured Car"
+ACC_armored_car_equipment_2_short: "M6"
 #Boarhound :
-PSA_armored_car_at_equipment: "M9 Armoured Car"
-PSA_armored_car_at_equipment_short: "M9"
+ACC_armored_car_at_equipment: "M9 Armoured Car"
+ACC_armored_car_at_equipment_short: "M9"
 
 #Artillery
 
-PSA_artillery_equipment_1: "75 mm Gun M1897"
-PSA_artillery_equipment_1_short: "75 mm Gun M1897"
-PSA_artillery_equipment_2: "105 mm M101A1"
-PSA_artillery_equipment_3: "155 mm M114"
+ACC_artillery_equipment_1: "75 mm Gun M1897"
+ACC_artillery_equipment_1_short: "75 mm Gun M1897"
+ACC_artillery_equipment_2: "105 mm M101A1"
+ACC_artillery_equipment_3: "155 mm M114"
 
-PSA_anti_tank_equipment_1: "37 mm Gun M3"
-PSA_anti_tank_equipment_1_short: "37 mm Gun M3"
-PSA_anti_tank_equipment_2: "57 mm Gun M1"
-PSA_anti_tank_equipment_3: "3-inch Gun M5"
+ACC_anti_tank_equipment_1: "37 mm Gun M3"
+ACC_anti_tank_equipment_1_short: "37 mm Gun M3"
+ACC_anti_tank_equipment_2: "57 mm Gun M1"
+ACC_anti_tank_equipment_3: "3-inch Gun M5"
 
-PSA_anti_air_equipment_1: "37 mm Gun M1"
-PSA_anti_air_equipment_1_short: "37 mm Gun M1"
-PSA_anti_air_equipment_2: "40 mm M1"
-PSA_anti_air_equipment_3: "90 mm Gun M3"
+ACC_anti_air_equipment_1: "37 mm Gun M1"
+ACC_anti_air_equipment_1_short: "37 mm Gun M1"
+ACC_anti_air_equipment_2: "40 mm M1"
+ACC_anti_air_equipment_3: "90 mm Gun M3"
 
-PSA_rocket_artillery_equipment_1: "M8 Rocket"
-PSA_rocket_artillery_equipment_1_short: "M8"
-PSA_rocket_artillery_equipment_2: "M16 Rocket"
-PSA_rocket_artillery_equipment_2_short: "M16"
+ACC_rocket_artillery_equipment_1: "M8 Rocket"
+ACC_rocket_artillery_equipment_1_short: "M8"
+ACC_rocket_artillery_equipment_2: "M16 Rocket"
+ACC_rocket_artillery_equipment_2_short: "M16"
 
 ### Railroad ###
-PSA_train_equipment_1: "Pennsylvania I1s Class"
-PSA_train_equipment_2: "USATC S160 Class"
-PSA_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
-PSA_railway_gun_equipment_1: "8-inch Mk. VI"
+ACC_train_equipment_1: "Pennsylvania I1s Class"
+ACC_train_equipment_2: "USATC S160 Class"
+ACC_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
 
 ###
 ### Cambodia ###
@@ -2021,7 +2030,7 @@ CHI_infantry_equipment_2_short: "MAS-38"
 CHI_infantry_equipment_2_desc: "Nach dem Ende des Weltkriegs wurde im Service Technique de l'Armement ein Programm zur Entwicklung von Kleinwaffen durchgeführt. Mit Hilfe von MAS (der Waffenindustrie) sollte die MAS 38 die erste französische Maschinenpistole werden. Die MAS 38 ist eine äußerst hochwertige Waffe mit einer Feuerrate von 650 Schuss pro Minute, auch wenn ihr Aussehen angesichts ihres unorthodoxen Aufbaus etwas seltsam anmutet.\n\nMit der Unterstützung der Internationalen für die Revolution in China gelangten Tausende von Exemplaren an die nationalistische Regierung, wo sie schnell zu einem Favoriten für Kämpfe in dicht besiedelten Gebieten wurde."
 CHI_infantry_equipment_3: "Zhongshan Xinhai Type 30"
 CHI_infantry_equipment_3_short: "Zhongshan Type 30"
-CHI_infantry_equipment_3_desc: "Das Typ 30 ist ein halbautomatisches Gewehr, das auf dem General-Liu-Gewehr von 1914 basiert. Es wird zu Ehren des 30. Jahres der Republik China als Gewehr Typ 30 bezeichnet. Obwohl es ähnlich aussieht, ist das Typ 33 kürzer, die Rückseite des Gehäuses ist abgedeckt und das Gasfängersystem wurde durch eine einfache Gasöffnung ersetzt. Das neue Gewehr kann auch nicht mehr auf Handbetrieb umgestellt werden und verwendet die Magazine des böhmischen Gewehrs ZH-29 und des leichten Maschinengewehrs ZB-26."
+CHI_infantry_equipment_3_desc: "Das Typ 30 ist ein halbautomatisches Gewehr, das auf dem General-Liu-Gewehr von 1914 basiert. Es wird zu Ehren des 30. Jahres der Republik China als Gewehr Typ 30 bezeichnet. Obwohl es ähnlich aussieht, ist das Typ 30 kürzer, die Rückseite des Gehäuses ist abgedeckt und das Gasfängersystem wurde durch eine einfache Gasöffnung ersetzt. Das neue Gewehr kann auch nicht mehr auf Handbetrieb umgestellt werden und verwendet die Magazine des böhmischen Gewehrs ZH-29 und des leichten Maschinengewehrs ZB-26."
 
 CHI_infantry_weapons2: "RSC 1938 Karabiner"
 CHI_infantry_weapons2_desc: "Das RSC (Fusil Automatique Modele) ist ein halbautomatisches Gewehr. Während frühere Varianten lang waren und die Beweglichkeit einschränkten, ermöglicht die Karabinerversion eine größere Beweglichkeit auf dem Schlachtfeld. Diese Version aus dem Jahr 1938 weist zahlreiche Änderungen gegenüber ihren Vorgängern auf, wie z. B. eine einfachere Herstellung, Zerlegung und Reinigung des Gewehrs.\n\nDieses aus Frankreich importierte halbautomatische Gewehr hat sich bei den Infanteristen der NRA als sehr beliebt erwiesen."
@@ -2332,160 +2341,168 @@ CRO_anti_air_equipment_3_short: "Škoda M.39"
 #CRO_anti_air_equipment_1_desc: ""
 
 ###
-### Combined Syndicates ###
+### Workers' Congress of America ###
 ###
 
 ### Land ###
 
-CSA_EQUIPMENT_VERSION_1: "A1"
-CSA_EQUIPMENT_VERSION_2: "A2"
-CSA_EQUIPMENT_VERSION_3: "A3"
-CSA_EQUIPMENT_VERSION_4: "A4"
-CSA_EQUIPMENT_VERSION_5: "A5"
-CSA_EQUIPMENT_VERSION_6: "A6"
-CSA_EQUIPMENT_VERSION_7: "A7"
-CSA_EQUIPMENT_VERSION_8: "A8"
-CSA_EQUIPMENT_VERSION_9: "A9"
-CSA_EQUIPMENT_VERSION_10: "A9A1"
-CSA_EQUIPMENT_VERSION_11: "A9A2"
-CSA_EQUIPMENT_VERSION_12: "A9A3"
-CSA_EQUIPMENT_VERSION_13: "A9A4"
+WCA_EQUIPMENT_VERSION_1: "A1"
+WCA_EQUIPMENT_VERSION_2: "A2"
+WCA_EQUIPMENT_VERSION_3: "A3"
+WCA_EQUIPMENT_VERSION_4: "A4"
+WCA_EQUIPMENT_VERSION_5: "A5"
+WCA_EQUIPMENT_VERSION_6: "A6"
+WCA_EQUIPMENT_VERSION_7: "A7"
+WCA_EQUIPMENT_VERSION_8: "A8"
+WCA_EQUIPMENT_VERSION_9: "A9"
+WCA_EQUIPMENT_VERSION_10: "A9A1"
+WCA_EQUIPMENT_VERSION_11: "A9A2"
+WCA_EQUIPMENT_VERSION_12: "A9A3"
+WCA_EQUIPMENT_VERSION_13: "A9A4"
 
 #Infantry Equip
 
-CSA_infantry_equipment_0: "Springfield Arsenal, Calibre .30-06, Model 1903"
-CSA_infantry_equipment_0_short: "SA-1903 Rifle"
-CSA_infantry_equipment_0_desc: "Das Modell 1903 wurde im Springfield Arsenal entwickelt, als die Vereinigten Staaten nach dem Spanisch-Amerikanischen Krieg das Krag-Jørgensen-Gewehr aufgrund seines schwachen Systems für unzureichend hielten; im Kern war das 1903 ein Versuch, die vorteilhaften Eigenschaften des Krag-Gewehrs und der erbeuteten spanischen Mauser zu kombinieren. Kurz vor dem Weltkrieg wurde das Gewehr nach und nach zusammen mit der Patrone .30-06 eingeführt, ein Prozess, der mehrere Jahre dauern sollte."
-CSA_infantry_equipment_1: "Springfield Arsenal, Rifle, Calibre .30-06, Model 1903A1"
-CSA_infantry_equipment_1_short: "SA-1903A1 Rifle"
-CSA_infantry_equipment_1_desc: "Das M1903A1 Springfield wurde 1929 von der US Army als 'U.S. Rifle, Calibre .30-06, M1903A1' eingeführt. Sie enthielt einen Pistolengriff, eine geriffelte Schaftkappe, einen gezackten Abzug und mehrere kleinere Verbesserungen des ursprünglichen Designs von 1903."
+WCA_infantry_equipment_0: "Springfield Arsenal, Calibre .30-06, Model 1903"
+WCA_infantry_equipment_0_short: "SA-1903 Rifle"
+WCA_infantry_equipment_0_desc: "Das Modell 1903 wurde im Springfield Arsenal entwickelt, als die Vereinigten Staaten nach dem Spanisch-Amerikanischen Krieg das Krag-Jørgensen-Gewehr aufgrund seines schwachen Systems für unzureichend hielten; im Kern war das 1903 ein Versuch, die vorteilhaften Eigenschaften des Krag-Gewehrs und der erbeuteten spanischen Mauser zu kombinieren. Kurz vor dem Weltkrieg wurde das Gewehr nach und nach zusammen mit der Patrone .30-06 eingeführt, ein Prozess, der mehrere Jahre dauern sollte."
+WCA_infantry_equipment_1: "Springfield Arsenal, Rifle, Calibre .30-06, Model 1903A1"
+WCA_infantry_equipment_1_short: "SA-1903A1 Rifle"
+WCA_infantry_equipment_1_desc: "Das M1903A1 Springfield wurde 1929 von der US Army als 'U.S. Rifle, Calibre .30-06, M1903A1' eingeführt. Sie enthielt einen Pistolengriff, eine geriffelte Schaftkappe, einen gezackten Abzug und mehrere kleinere Verbesserungen des ursprünglichen Designs von 1903."
 #Thompson T3:
-CSA_infantry_equipment_2: "Auto-Ordnance, Rifle, Calibre .30-06, Model 2"
-CSA_infantry_equipment_2_short: "AO-2 Rifle"
-CSA_infantry_equipment_2_desc: "Das AO-2 wurde ursprünglich als Thompson Auto-Rifle entwickelt und verwendete den so genannten 'Blish Lock'. Nachdem das Gewehr bei den Selbstladeversuchen der US-Armee im Jahr 1929 kläglich gescheitert war, wurde der Entwurf nach Ausbruch des amerikanischen Bürgerkriegs wieder aufgegriffen. Da die CSA das Gewehr so schnell wie möglich entwickeln musste, waren die Austauschbarkeit der Teile und die einfache Konstruktion wichtig für den Entwurfsprozess. Obwohl einige behaupten, dass das AO-2 ein weniger effektives Gewehr ist als das von den Bundesstreitkräften übernommene Johnson, konnte es problemlos in Serie produziert werden."
+WCA_infantry_equipment_2: "Auto-Ordnance, Rifle, Calibre .30-06, Model 2"
+WCA_infantry_equipment_2_short: "AO-2 Rifle"
+WCA_infantry_equipment_2_desc: "Das AO-2 wurde ursprünglich als Thompson Auto-Rifle entwickelt und verwendete den so genannten 'Blish Lock'. Nachdem das Gewehr bei den Selbstladeversuchen der US-Armee im Jahr 1929 kläglich gescheitert war, wurde der Entwurf nach Ausbruch des amerikanischen Bürgerkriegs wieder aufgegriffen. Da die WCA das Gewehr so schnell wie möglich entwickeln musste, waren die Austauschbarkeit der Teile und die einfache Konstruktion wichtig für den Entwurfsprozess. Obwohl einige behaupten, dass das AO-2 ein weniger effektives Gewehr ist als das von den Bundesstreitkräften übernommene Johnson, konnte es problemlos in Serie produziert werden."
 #Thompson T3 carbine:
-CSA_infantry_equipment_3: "Auto-Ordnance, Carbine, Calibre .30, Model 3"
-CSA_infantry_equipment_3_short: "AO-3 Carbine"
-CSA_infantry_equipment_3_desc: "Die Entwicklung des AO-3 Karabiners begann kurz nach dem Ende des Bürgerkriegs. Der AO-3 ist kaum mehr als eine Karabinerversion des frühen AO-2-Gewehrs, das zusätzlich mit einem dreistufigen Feuerwahlschalter ausgestattet ist."
-CSA_infantry_weapons2: "Auto-Ordnance, Submachine Gun, Calibre .45, Model 1928A1"
-CSA_infantry_weapons2_short: "AO-1928A1 Submachine Gun"
+WCA_infantry_equipment_3: "Auto-Ordnance, Carbine, Calibre .30, Model 3"
+WCA_infantry_equipment_3_short: "AO-3 Carbine"
+WCA_infantry_equipment_3_desc: "Die Entwicklung des AO-3 Karabiners begann kurz nach dem Ende des Bürgerkriegs. Der AO-3 ist kaum mehr als eine Karabinerversion des frühen AO-2-Gewehrs, das zusätzlich mit einem dreistufigen Feuerwahlschalter ausgestattet ist."
+WCA_infantry_weapons2: "Auto-Ordnance, Submachine Gun, Calibre .45, Model 1928A1"
+WCA_infantry_weapons2_short: "AO-1928A1 Submachine Gun"
 #M1 Thompson:
-CSA_improved_infantry_weapons_2: "Auto-Ordnance, Submachine Gun, Calibre .45, Model 7"
-CSA_improved_infantry_weapons_2_short: "AO-7 Submachine Gun"
+WCA_improved_infantry_weapons_2: "Auto-Ordnance, Submachine Gun, Calibre .45, Model 7"
+WCA_improved_infantry_weapons_2_short: "AO-7 Submachine Gun"
 #Thompson Light Rifle:
-CSA_advanced_infantry_weapons2: "Auto-Ordnance, Automatic Carbine, Calibre .30, Model 4A1"
-CSA_advanced_infantry_weapons2_short: "AO-4A1 Auto-Carbine"
-CSA_infantry_at: "Uhl, Rocket Launcher, 2.36 inch, Model 2"
-CSA_infantry_at_short: "U-2 'Stovepipe'"
-CSA_infantry_at_desc: "Die U-2 ist ein tragbarer, rückstoßfreier Panzerabwehrraketenwerfer, der vom Hauptmann der Continental Army Edward Uhl entwickelt wurde. Die Waffe verwendet 2,36-Zoll-Raketen mit Eigenantrieb und hat eine effektive Reichweite von 140 Metern."
-CSA_infantry_at2: "Uhl, Rocket Launcher, 2.36 inch, Model 5"
-CSA_infantry_at2_short: "U-5 'Bazooka'"
-CSA_infantry_at2_desc: "Die U-5 ist eine verbesserte Version der U-2. Das Batteriezündsystem der U-2 wurde durch einen abzugsgesteuerten Magnetzünder ersetzt und eine Sicherung wurde hinzugefügt. Das Rohr konnte zum leichteren Transport zerlegt werden, was für die Infanterie wichtig war. Es wurden auch neue, zuverlässigere Raketen eingeführt."
-CSA_support_weapons: "MG, Cal. .30-06, M1919, Browning & Mortar, 3-inch, Stokes"
-CSA_support_weapons_short: "M1919 Browning MG & Stokes mortar"
+WCA_advanced_infantry_weapons2: "Auto-Ordnance, Automatic Carbine, Calibre .30, Model 4A1"
+WCA_advanced_infantry_weapons2_short: "AO-4A1 Auto-Carbine"
+WCA_infantry_at: "Uhl, Rocket Launcher, 2.36 inch, Model 2"
+WCA_infantry_at_short: "U-2 'Stovepipe'"
+WCA_infantry_at_desc: "Die U-2 ist ein tragbarer, rückstoßfreier Panzerabwehrraketenwerfer, der vom Hauptmann der Continental Army Edward Uhl entwickelt wurde. Die Waffe verwendet 2,36-Zoll-Raketen mit Eigenantrieb und hat eine effektive Reichweite von 140 Metern."
+WCA_infantry_at2: "Uhl, Rocket Launcher, 2.36 inch, Model 5"
+WCA_infantry_at2_short: "U-5 'Bazooka'"
+WCA_infantry_at2_desc: "Die U-5 ist eine verbesserte Version der U-2. Das Batteriezündsystem der U-2 wurde durch einen abzugsgesteuerten Magnetzünder ersetzt und eine Sicherung wurde hinzugefügt. Das Rohr konnte zum leichteren Transport zerlegt werden, was für die Infanterie wichtig war. Es wurden auch neue, zuverlässigere Raketen eingeführt."
+WCA_support_weapons: "MG, Cal. .30-06, M1919, Browning & Mortar, 3-inch, Stokes"
+WCA_support_weapons_short: "M1919 Browning MG & Stokes mortar"
 #M2 Browning:
-CSA_support_weapons2: "Browning, MG, Cal. .50, M2, Browning & Mortar, 2-inch, SMBL"
-CSA_support_weapons2_short: "B-2 MG & SBML two-inch mortar"
+WCA_support_weapons2: "Browning, MG, Cal. .50, M2, Browning & Mortar, 2-inch, SMBL"
+WCA_support_weapons2_short: "B-2 MG & SBML two-inch mortar"
 #Browning M1919A6 and M1 Mortar (developed by Continental Army):
-CSA_support_weapons3: "Marble-Browning, MG, Cal. .30-06, M3 & CA, Mortar, 3.2-inch, M27"
-CSA_support_weapons3_short: "MB-3 M1919 MG & CA-27 mortar"
+WCA_support_weapons3: "Marble-Browning, MG, Cal. .30-06, M3 & CA, Mortar, 3.2-inch, M27"
+WCA_support_weapons3_short: "MB-3 M1919 MG & CA-27 mortar"
 #Browning M1918A2 (produced by Alton Worker Defence with improvements) and M2 Mortar:
-CSA_support_weapons4: "AWD-Browning, AR, Cal. .30-06, M6 & CA, Mortar, 4.2-inch, M29"
-CSA_support_weapons4_short: "AWDB-6 1918 AR & CA-29 mortar"
-CSA_night_vision: "Continental Army, Infrared Sniperscope, Model 120"
-CSA_night_vision_short: "CA-120 Sniperscope"
-CSA_night_vision_desc: "Das CA-120 wurde speziell für den AO-4-Karabiner entwickelt, der über spezielle Halterungen für verschiedene Modelle von Infrarot-Nachtsichtgeräten verfügte, und ist das erste Infrarot-Scharfschützenfernrohr, das von der Kontinentalarmee für den allgemeinen Gebrauch übernommen wurde. Das CA-120 hat zwar seine Schwächen, wie z. B. eine geringe Reichweite und einen leicht zu beschädigenden Infrarotstrahler, aber bei richtiger Anwendung ist es dennoch von großem Wert."
-CSA_night_vision2: "Continental Army, Infrared Sniperscope, Model 123"
-CSA_night_vision2_short: "CA-123 Sniperscope"
-CSA_night_vision2_desc: "Als Reaktion auf die schlechte Resonanz auf das CA-120 Sniperscope wurde das Sniperscope CA-123 eingeführt. Mit einer fast doppelt so großen effektiven Reichweite wie das CA-120, einer robusteren Infrarot-Lichtquelle und dem T23 Flash Hider ist das CA-123 eine enorme Verbesserung gegenüber seinem Vorgänger, obwohl sich einige Soldaten darüber beschweren, dass die Lichtquelle in das sichtbare Spektrum übergeht und so ihre Position verrät."
+WCA_support_weapons4: "AWD-Browning, AR, Cal. .30-06, M6 & CA, Mortar, 4.2-inch, M29"
+WCA_support_weapons4_short: "AWDB-6 1918 AR & CA-29 mortar"
+WCA_night_vision: "Continental Army, Infrared Sniperscope, Model 120"
+WCA_night_vision_short: "CA-120 Sniperscope"
+WCA_night_vision_desc: "Das CA-120 wurde speziell für den AO-4-Karabiner entwickelt, der über spezielle Halterungen für verschiedene Modelle von Infrarot-Nachtsichtgeräten verfügte, und ist das erste Infrarot-Scharfschützenfernrohr, das von der Kontinentalarmee für den allgemeinen Gebrauch übernommen wurde. Das CA-120 hat zwar seine Schwächen, wie z. B. eine geringe Reichweite und einen leicht zu beschädigenden Infrarotstrahler, aber bei richtiger Anwendung ist es dennoch von großem Wert."
+WCA_night_vision2: "Continental Army, Infrared Sniperscope, Model 123"
+WCA_night_vision2_short: "CA-123 Sniperscope"
+WCA_night_vision2_desc: "Als Reaktion auf die schlechte Resonanz auf das CA-120 Sniperscope wurde das Sniperscope CA-123 eingeführt. Mit einer fast doppelt so großen effektiven Reichweite wie das CA-120, einer robusteren Infrarot-Lichtquelle und dem T23 Flash Hider ist das CA-123 eine enorme Verbesserung gegenüber seinem Vorgänger, obwohl sich einige Soldaten darüber beschweren, dass die Lichtquelle in das sichtbare Spektrum übergeht und so ihre Position verrät."
 
 ### Railroad ###
-CSA_train_equipment_1: "Pennsylvania I1s Class"
-CSA_train_equipment_2: "CSATC S160 Class"
-CSA_train_equipment_3: "American Locomotive Union FEF-3 'Working Man' Class"
-CSA_railway_gun_equipment_1: "8-inch Mk. VI"
-
+WCA_train_equipment_1: "Pennsylvania I1s Class"
+WCA_train_equipment_2: "CSATC S160 Class"
+WCA_train_equipment_3: "American Locomotive Union FEF-3 'Working Man' Class"
+WCA_railway_gun_equipment_1: "$USA_railway_gun_equipment_1$"
+WCA_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+WCA_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+WCA_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
 #Motorised
 
+WCA_motorbike_equipment_1: "$USA_motorbike_equipment_1$"
+WCA_motorbike_equipment_1_short: "$USA_motorbike_equipment_1_short$"
+WCA_motorized_equipment_0: "$USA_motorized_equipment_0$"
+WCA_motorized_equipment_0_short: "$USA_motorized_equipment_0_short$"
+WCA_super_heavy_artillery_equipment_1: "$USA_super_heavy_artillery_equipment_1$"
+WCA_super_heavy_artillery_equipment_1_short: "$USA_super_heavy_artillery_equipment_1_short$"
 #Dodge 1/2-ton 4x4 improved to GCKW 353 standard:
-CSA_motorized_equipment_1: "Dodge, 1937, 2 1/2 tons"
-CSA_motorized_equipment_1_short: "DMJ"
-CSA_motorized_equipment_1_desc: "Der DMJ ist ein klassischer 6x6 2 1/2-Tonner nach Armeestandard mit hoher Geländetauglichkeit. Er wurde 1937 auf Wunsch der US-Armee entwickelt. Mit Beginn des amerikanischen Bürgerkriegs wurden die Dodge-Einrichtungen von der CSA beschlagnahmt und die Produktion des Lkw für die Kontinentalarmee begann."
+WCA_motorized_equipment_1: "Dodge, 1937, 2 1/2 tons"
+WCA_motorized_equipment_1_short: "DMJ"
+WCA_motorized_equipment_1_desc: "Der DMJ ist ein klassischer 6x6 2 1/2-Tonner nach Armeestandard mit hoher Geländetauglichkeit. Er wurde 1937 auf Wunsch der US-Armee entwickelt. Mit Beginn des amerikanischen Bürgerkriegs wurden die Dodge-Einrichtungen von der WCA beschlagnahmt und die Produktion des Lkw für die Kontinentalarmee begann."
 #M2 Half-track:
-CSA_mechanized_equipment_1: "White Motor, Half-Track Car, Carrier, Model 6"
-CSA_mechanized_equipment_1_short: "WM-6 Half-Track Car"
-CSA_mechanized_equipment_1_desc: "Der WM-6 ist ein gepanzertes Halbkettenfahrzeug, das von französischen Halbkettenfahrzeugen inspiriert wurde. Der WM-6 wurde von der neu beschlagnahmten White Motors entwickelt und ist ein Mehrzweck-LKW, der als Truppentransporter, Artillerieschlepper oder Aufklärungsfahrzeug dienen kann."
+WCA_mechanized_equipment_1: "White Motor, Half-Track Car, Carrier, Model 6"
+WCA_mechanized_equipment_1_short: "WM-6 Half-Track Car"
+WCA_mechanized_equipment_1_desc: "Der WM-6 ist ein gepanzertes Halbkettenfahrzeug, das von französischen Halbkettenfahrzeugen inspiriert wurde. Der WM-6 wurde von der neu beschlagnahmten White Motors entwickelt und ist ein Mehrzweck-LKW, der als Truppentransporter, Artillerieschlepper oder Aufklärungsfahrzeug dienen kann."
 #M3 Half-track:
-CSA_mechanized_equipment_2: "Continental Army, Half-Track, Carrier, Model 9"
-CSA_mechanized_equipment_2_short: "CA-9 Half-Track"
-CSA_mechanized_equipment_2_desc: "Der CA-9 ist eine Weiterentwicklung des WM-6, der von der Kontinentalarmee intern entwickelt wurde. Das neue Halbkettenfahrzeug ist eine größere Version des WM-6, ausgestattet mit zwei M-3 M1919-Maschinengewehren und einem B2-Maschinengewehr, sowie einer Hecktür und fünf zusätzlichen Sitzen im Heck."
+WCA_mechanized_equipment_2: "Continental Army, Half-Track, Carrier, Model 9"
+WCA_mechanized_equipment_2_short: "CA-9 Half-Track"
+WCA_mechanized_equipment_2_desc: "Der CA-9 ist eine Weiterentwicklung des WM-6, der von der Kontinentalarmee intern entwickelt wurde. Das neue Halbkettenfahrzeug ist eine größere Version des WM-6, ausgestattet mit zwei M-3 M1919-Maschinengewehren und einem B2-Maschinengewehr, sowie einer Hecktür und fünf zusätzlichen Sitzen im Heck."
 #M5 Half-track:
-CSA_mechanized_equipment_3: "Continental Army, Half-Track, Carrier, Model 11"
-CSA_mechanized_equipment_3_short: "CA-11 Half-Track"
-CSA_mechanized_equipment_3_desc: "Der CA-10 wurde zeitgleich mit dem CA-9 als schwerere Alternative zu diesem Fahrzeug entwickelt. Das nach dem Einsatz des CA-9 verbesserte und als CA-11 bezeichnete Fahrzeug ist sowohl einfacher zu produzieren als auch stärker gepanzert, verfügt aber nicht über die nötige Schnelligkeit, sehr zum Leidwesen der ehemaligen US-Offiziere der Kontinentalarmee."
+WCA_mechanized_equipment_3: "Continental Army, Half-Track, Carrier, Model 11"
+WCA_mechanized_equipment_3_short: "CA-11 Half-Track"
+WCA_mechanized_equipment_3_desc: "Der CA-10 wurde zeitgleich mit dem CA-9 als schwerere Alternative zu diesem Fahrzeug entwickelt. Das nach dem Einsatz des CA-9 verbesserte und als CA-11 bezeichnete Fahrzeug ist sowohl einfacher zu produzieren als auch stärker gepanzert, verfügt aber nicht über die nötige Schnelligkeit, sehr zum Leidwesen der ehemaligen US-Offiziere der Kontinentalarmee."
 #Dodge 1/2-ton 4x4 improved to GCKW 353 standard:
-CSA_motorized_rocket_equipment: "Dodge, 1937, 2 1/2 tons, CA-28"
-CSA_motorized_rocket_equipment_short: "DMJ 'Xylophone'"
-CSA_motorized_rocket_equipment_desc: "Das Fahrzeug ist ein DMJ-Truck mit einem montierten CA-28-Raketenwerfer und wird allgemein als 'Xylophon' bezeichnet. Einzelne Raketenwerfer sind bekanntermaßen etwas ungenau, aber die Feuerkraft, die diese Konstruktion entfalten kann, ist beeindruckend."
-CSA_motorized_rocket_equipment_1: "Dodge, 1937, 2 1/2 tons, CA-28"
-CSA_motorized_rocket_equipment_1_short: "DMJ 'Xylophone'"
-CSA_motorized_rocket_equipment_1_desc: "Das Fahrzeug ist ein DMJ-Truck mit einem montierten CA-28-Raketenwerfer und wird allgemein als 'Xylophon' bezeichnet. Einzelne Raketenwerfer sind bekanntermaßen etwas ungenau, aber die Feuerkraft, die diese Konstruktion entfalten kann, ist beeindruckend."
+WCA_motorized_rocket_equipment: "Dodge, 1937, 2 1/2 tons, CA-28"
+WCA_motorized_rocket_equipment_short: "DMJ 'Xylophone'"
+WCA_motorized_rocket_equipment_desc: "Das Fahrzeug ist ein DMJ-Truck mit einem montierten CA-28-Raketenwerfer und wird allgemein als 'Xylophon' bezeichnet. Einzelne Raketenwerfer sind bekanntermaßen etwas ungenau, aber die Feuerkraft, die diese Konstruktion entfalten kann, ist beeindruckend."
+WCA_motorized_rocket_equipment_1: "Dodge, 1937, 2 1/2 tons, CA-28"
+WCA_motorized_rocket_equipment_1_short: "DMJ 'Xylophone'"
+WCA_motorized_rocket_equipment_1_desc: "Das Fahrzeug ist ein DMJ-Truck mit einem montierten CA-28-Raketenwerfer und wird allgemein als 'Xylophon' bezeichnet. Einzelne Raketenwerfer sind bekanntermaßen etwas ungenau, aber die Feuerkraft, die diese Konstruktion entfalten kann, ist beeindruckend."
 
 #Amphibious
 
-CSA_amphibious_mechanized_equipment_1: "Roebling-Dodge, Landing Vehicle, Tracked, Model 2"
-CSA_amphibious_mechanized_equipment_1_short: "RD-2 LVT"
-CSA_amphibious_mechanized_equipment_1_desc: "Die amphibischen Kampffahrzeuge der Landing-Vehicle-Serie sollten ursprünglich nur als Frachtträger für Operationen von Schiff zu Land dienen. Sie entwickelten sich natürlich zu hochleistungsfähigen Angriffstruppen- und Feuerunterstützungsfahrzeugen. Das 1935 von Donald Roebling entwickelte zivile Rettungsfahrzeug "Alligator" wurde später zum RD-1 weiterentwickelt, dem es an Panzerschutz fehlte und das im harten Gelände unzuverlässig war. Der RD-2 baute auf dem RD-1 auf, wobei die eklatantesten Probleme dieses Fahrzeugs behoben wurden."
-CSA_amphibious_mechanized_equipment_2: "Roebling-Dodge, Landing Vehicle, Tracked, Model 4"
-CSA_amphibious_mechanized_equipment_2_short: "RD-4 LVT"
-CSA_amphibious_mechanized_equipment_2_desc: "Der RD-4 verbesserte den RD-2 durch eine deutlich höhere Ladekapazität, die allerdings trotz verbesserter Motoren auf Kosten der Geschwindigkeit ging. Im Gegensatz zu seinem Vorgänger war er außerdem mit einem schweren Maschinengewehr oder einem Flammenwerfer ausgestattet."
+WCA_amphibious_mechanized_equipment_1: "Roebling-Dodge, Landing Vehicle, Tracked, Model 2"
+WCA_amphibious_mechanized_equipment_1_short: "RD-2 LVT"
+WCA_amphibious_mechanized_equipment_1_desc: "Die amphibischen Kampffahrzeuge der Landing-Vehicle-Serie sollten ursprünglich nur als Frachtträger für Operationen von Schiff zu Land dienen. Sie entwickelten sich natürlich zu hochleistungsfähigen Angriffstruppen- und Feuerunterstützungsfahrzeugen. Das 1935 von Donald Roebling entwickelte zivile Rettungsfahrzeug "Alligator" wurde später zum RD-1 weiterentwickelt, dem es an Panzerschutz fehlte und das im harten Gelände unzuverlässig war. Der RD-2 baute auf dem RD-1 auf, wobei die eklatantesten Probleme dieses Fahrzeugs behoben wurden."
+WCA_amphibious_mechanized_equipment_2: "Roebling-Dodge, Landing Vehicle, Tracked, Model 4"
+WCA_amphibious_mechanized_equipment_2_short: "RD-4 LVT"
+WCA_amphibious_mechanized_equipment_2_desc: "Der RD-4 verbesserte den RD-2 durch eine deutlich höhere Ladekapazität, die allerdings trotz verbesserter Motoren auf Kosten der Geschwindigkeit ging. Im Gegensatz zu seinem Vorgänger war er außerdem mit einem schweren Maschinengewehr oder einem Flammenwerfer ausgestattet."
 
 #Armoured Car
-CSA_gw_armored_car_equipment: "White Motor, Scout Car, Model 2"
-CSA_gw_armored_car_equipment_short: "WM-2 Scout Car"
-CSA_gw_armored_car_equipment_desc: "Der WM-2 Scout Car ist ein leicht gepanzertes, offenes und mit Maschinengewehren bewaffnetes Fahrzeug mit Allradantrieb, das für Aufklärungszwecke entwickelt wurde. Der M2 Scout Car, eine Weiterentwicklung des Scout Car-Konzepts, das die Kavallerie bei der Aufklärung ersetzen sollte, beendete Ende 1935 seine Erprobung und wurde inmitten zunehmender Spannungen in den USA trotz seiner Mängel in den Dienst der Armee aufgenommen. Im Dienst der CSA war das Fahrzeug als WM-2 bekannt."
-CSA_armored_car_equipment_1: "White Motor, Scout Car, Model 4"
-CSA_armored_car_equipment_1_short: "WM-4 Scout Car"
-CSA_armored_car_equipment_1_desc: "Der WM-4 Scout Car ist eine Weiterentwicklung des WM-2, in den die Erfahrungen aus dem Bürgerkrieg eingeflossen sind. Der WM-4 verfügt über mehrere kleine Verbesserungen, die aus den Erfahrungen des Krieges resultieren, wie z. B. gepanzerte Kotflügel und Frontrollen sowie einen zuverlässigeren Motor. Obwohl das Scout Car-Konzept selbst kritisiert wurde, weil der Schwerpunkt auf der Mobilität und nicht auf der Überlebensfähigkeit lag, wurde der WM-4 dennoch in den Dienst gestellt."
+WCA_gw_armored_car_equipment: "White Motor, Scout Car, Model 2"
+WCA_gw_armored_car_equipment_short: "WM-2 Scout Car"
+WCA_gw_armored_car_equipment_desc: "Der WM-2 Scout Car ist ein leicht gepanzertes, offenes und mit Maschinengewehren bewaffnetes Fahrzeug mit Allradantrieb, das für Aufklärungszwecke entwickelt wurde. Der M2 Scout Car, eine Weiterentwicklung des Scout Car-Konzepts, das die Kavallerie bei der Aufklärung ersetzen sollte, beendete Ende 1935 seine Erprobung und wurde inmitten zunehmender Spannungen in den USA trotz seiner Mängel in den Dienst der Armee aufgenommen. Im Dienst der WCA war das Fahrzeug als WM-2 bekannt."
+WCA_armored_car_equipment_1: "White Motor, Scout Car, Model 4"
+WCA_armored_car_equipment_1_short: "WM-4 Scout Car"
+WCA_armored_car_equipment_1_desc: "Der WM-4 Scout Car ist eine Weiterentwicklung des WM-2, in den die Erfahrungen aus dem Bürgerkrieg eingeflossen sind. Der WM-4 verfügt über mehrere kleine Verbesserungen, die aus den Erfahrungen des Krieges resultieren, wie z. B. gepanzerte Kotflügel und Frontrollen sowie einen zuverlässigeren Motor. Obwohl das Scout Car-Konzept selbst kritisiert wurde, weil der Schwerpunkt auf der Mobilität und nicht auf der Überlebensfähigkeit lag, wurde der WM-4 dennoch in den Dienst gestellt."
 #DHT-5 Marmon-Herrington:
-CSA_armored_car_equipment_2: "Marmon-Herrington, Armoured Car, Model 6"
-CSA_armored_car_equipment_2_short: "MH-6 Armoured Car"
-CSA_armored_car_equipment_2_desc: "Der MH-6 Armoured Car wurde am Ende des amerikanischen Bürgerkriegs entwickelt. Das zunächst als DHT-5 bekannte Fahrzeug erwies sich als äußerst unpopulär und wurde stark umgestaltet, um den Anforderungen der Armee gerecht zu werden. Das neue Fahrzeug, das 1942 als DHT-6 wieder eingeführt wurde, konnte mit seiner 37-mm-Kanone keine stark gepanzerten Fahrzeuge durchdringen. Unter dem Namen MH-6 wurde er jedoch erfolgreich zur Aufklärung und Unterstützung der Infanterie eingesetzt."
+WCA_armored_car_equipment_2: "Marmon-Herrington, Armoured Car, Model 6"
+WCA_armored_car_equipment_2_short: "MH-6 Armoured Car"
+WCA_armored_car_equipment_2_desc: "Der MH-6 Armoured Car wurde am Ende des amerikanischen Bürgerkriegs entwickelt. Das zunächst als DHT-5 bekannte Fahrzeug erwies sich als äußerst unpopulär und wurde stark umgestaltet, um den Anforderungen der Armee gerecht zu werden. Das neue Fahrzeug, das 1942 als DHT-6 wieder eingeführt wurde, konnte mit seiner 37-mm-Kanone keine stark gepanzerten Fahrzeuge durchdringen. Unter dem Namen MH-6 wurde er jedoch erfolgreich zur Aufklärung und Unterstützung der Infanterie eingesetzt."
 #DHT-5 Marmon-Herrington:
-CSA_armored_car_at_equipment: "Continental Army, Armoured Car, Model 10"
-CSA_armored_car_at_equipment_short: "CA-10 Armoured Car"
-CSA_armored_car_at_equipment_desc: "Der CA-10 Armoured Car ist eine MH-6-Variante mit einer 57-mm-Kanone, um eine angemessene Panzerabwehr zu gewährleisten. Am MH-6 wurden nur geringfügige Änderungen vorgenommen, um die neue Kanone unterzubringen."
+WCA_armored_car_at_equipment: "Continental Army, Armoured Car, Model 10"
+WCA_armored_car_at_equipment_short: "CA-10 Armoured Car"
+WCA_armored_car_at_equipment_desc: "Der CA-10 Armoured Car ist eine MH-6-Variante mit einer 57-mm-Kanone, um eine angemessene Panzerabwehr zu gewährleisten. Am MH-6 wurden nur geringfügige Änderungen vorgenommen, um die neue Kanone unterzubringen."
 
 #Artillery - techs are the same as in USA, except AT and AA 2
 
-CSA_artillery_equipment_1: "Rock Island Arsenal, Field Gun, 75-mm, Model 4"
-CSA_artillery_equipment_1_short: "RIA-4 75-mm Gun"
-CSA_artillery_equipment_2: "Rock Island Arsenal, Howitzer, Towed, 105-mm, Model 6"
-CSA_artillery_equipment_2_short: "RIA-6 105-mm Howitzer"
-CSA_artillery_equipment_3: "Rock Island Arsenal, Howitzer, Towed, 155-mm, Model 14"
-CSA_artillery_equipment_3_short: "RIA-14 155-mm Howitzer"
+WCA_artillery_equipment_1: "Rock Island Arsenal, Field Gun, 75-mm, Model 4"
+WCA_artillery_equipment_1_short: "RIA-4 75-mm Gun"
+WCA_artillery_equipment_2: "Rock Island Arsenal, Howitzer, Towed, 105-mm, Model 6"
+WCA_artillery_equipment_2_short: "RIA-6 105-mm Howitzer"
+WCA_artillery_equipment_3: "Rock Island Arsenal, Howitzer, Towed, 155-mm, Model 14"
+WCA_artillery_equipment_3_short: "RIA-14 155-mm Howitzer"
 
-CSA_anti_tank_equipment_1: "Rock Island Arsenal, Anti-Tank Gun, 37-mm, Model 3"
-CSA_anti_tank_equipment_1_short: "RIA-3 37-mm Gun"
+WCA_anti_tank_equipment_1: "Rock Island Arsenal, Anti-Tank Gun, 37-mm, Model 3"
+WCA_anti_tank_equipment_1_short: "RIA-3 37-mm Gun"
 #French 47 mm APX anti-tank gun:
-CSA_anti_tank_equipment_2: "CA, Anti-Tank Gun, 47-mm, Model 57"
-CSA_anti_tank_equipment_2_short: "CA-57 47-mm Gun"
-CSA_anti_tank_equipment_3: "CA, Anti-Tank Gun, 3-inch, Model 90"
-CSA_anti_tank_equipment_3_short: "CA-90 3-inch Gun"
+WCA_anti_tank_equipment_2: "CA, Anti-Tank Gun, 47-mm, Model 57"
+WCA_anti_tank_equipment_2_short: "CA-57 47-mm Gun"
+WCA_anti_tank_equipment_3: "CA, Anti-Tank Gun, 3-inch, Model 90"
+WCA_anti_tank_equipment_3_short: "CA-90 3-inch Gun"
 
-CSA_anti_air_equipment_1: "Rock Island Arsenal, AA Gun, Automatic, 37-mm, Model 5"
-CSA_anti_air_equipment_1_short: "RIA-5 37-mm Gun"
+WCA_anti_air_equipment_1: "Rock Island Arsenal, AA Gun, Automatic, 37-mm, Model 5"
+WCA_anti_air_equipment_1_short: "RIA-5 37-mm Gun"
 #French Canon de 37 mm Schneider:
-CSA_anti_air_equipment_2: "CA, AA Gun, Automatic, 40-mm, Model 53"
-CSA_anti_air_equipment_2_short: "CA-53 40-mm Gun"
-CSA_anti_air_equipment_3: "CA, AA Gun, 90-mm, Model 93"
-CSA_anti_air_equipment_3_short: "CA-93 90-mm Gun"
+WCA_anti_air_equipment_2: "CA, AA Gun, Automatic, 40-mm, Model 53"
+WCA_anti_air_equipment_2_short: "CA-53 40-mm Gun"
+WCA_anti_air_equipment_3: "CA, AA Gun, 90-mm, Model 93"
+WCA_anti_air_equipment_3_short: "CA-93 90-mm Gun"
 
-CSA_rocket_artillery_equipment_1: "CA, Rocket Launcher, Single, 4.5-inch, Model 22"
-CSA_rocket_artillery_equipment_1_short: "CA-22 Rocket Launcher"
+WCA_rocket_artillery_equipment_1: "CA, Rocket Launcher, Single, 4.5-inch, Model 22"
+WCA_rocket_artillery_equipment_1_short: "CA-22 Rocket Launcher"
 #T66:
-CSA_rocket_artillery_equipment_2: "CA, Rocket Launcher, Multiple, 4.5-inch, Model 66"
-CSA_rocket_artillery_equipment_2_short: "CA-66 Rocket Launcher"
+WCA_rocket_artillery_equipment_2: "CA, Rocket Launcher, Multiple, 4.5-inch, Model 66"
+WCA_rocket_artillery_equipment_2_short: "CA-66 Rocket Launcher"
 
 ###
 ### Cuba ###
@@ -3845,16 +3862,6 @@ FER_EQUIPMENT_VERSION_3: "-U"
 FER_EQUIPMENT_VERSION_4: "M"
 #Special :
 FER_EQUIPMENT_VERSION_5: "-S"
-#Model of an year:
-FER_EQUIPMENT_VERSION_6: "obr.[GetYear]"
-#Model of an year:
-FER_EQUIPMENT_VERSION_7: "obr.[GetYear]"
-#Model of an year:
-FER_EQUIPMENT_VERSION_8: "obr.[GetYear]"
-#Model of an year:
-FER_EQUIPMENT_VERSION_9: "obr.[GetYear]"
-#Model of an year:
-FER_EQUIPMENT_VERSION_10: "obr.[GetYear]"
 
 ### Land ###
 
@@ -3932,7 +3939,7 @@ FER_mechanized_equipment_2_short: "B-42"
 FER_mechanized_equipment_3: "Bronetransporter B-3"
 FER_mechanized_equipment_3_short: "B-3"
 
-#Modified Shitikov's armored prime mover:
+#Modified Shitikov's armoured prime mover:
 FER_amphibious_mechanized_equipment_1: "Plavayushchy traktor PBT-37"
 FER_amphibious_mechanized_equipment_1_short: "PBT-37"
 #R-40
@@ -3940,7 +3947,7 @@ FER_amphibious_mechanized_equipment_2: "Bronetransporter PTR-20"
 FER_amphibious_mechanized_equipment_2_short: "PTR-20"
 
 #Armoured Car
-#The classification of armored cars changes in the middle-late 1930s: the classification by weight is removed.
+#The classification of armoured cars changes in the middle-late 1930s: the classification by weight is removed.
 
 # represent FAI, BA-20 and BA-20M :
 FER_gw_armored_car_equipment: "Legky broneavtomobil BA-20"
@@ -5895,8 +5902,9 @@ IRE_motorized_equipment_1: "Scania-Vabis 335"
 IRE_mechanized_equipment_1: "Sonderkraftfahrzeug 11"
 IRE_mechanized_equipment_1_short: "Sd.Kfz. 11"
 IRE_mechanized_equipment_1_desc: "Das Sonderkraftfahrzeug 11 wurde von 1934 bis 1938 entwickelt, wobei die Borgward AG und ab 1937 die Hannoversche Maschinenbau AG an der Entwicklung beteiligt waren. Ursprünglich als Zugmaschine gedacht, wurde das Sd.Kfz. 11 schon bald zum Transporter umfunktioniert, als sich der Bedarf an einem geländegängigen Fahrzeug abzeichnete. Der Lastwagen, der acht Soldaten befördern und zusätzlich ein Geschütz oder einen Anhänger ziehen konnte, wurde zum Hauptfahrzeug der Panzergrenadiere."
-IRE_mechanized_equipment_2: "Schwerer Wehrmachtschlepper"
-IRE_mechanized_equipment_2_short: "sWS"
+IRE_mechanized_equipment_2: "Sonderkraftfahrzeug 251"
+IRE_mechanized_equipment_2_short: "Sd.Kfz. 251"
+IRE_mechanized_equipment_2_desc: "Entwickelt auf dem Fahrgestell des Sd.Kfz. der Schützenpanzerwagen Sonderkraftfahrzeug 251 Halbkettenfahrzeuge (gemeinhin als „SWP“ bezeichnet) werden von der Hannoverschen Maschinenbau AG speziell für den schnellen Transport einer Gruppe von Infanteristen an die Front mit angemessenem Panzerschutz vor Handfeuerwaffen gebaut. Die Lkw-Exemplare werden in der Regel den Panzereinheiten zugewiesen, um den Truppen zu helfen, direkt hinter den schnell fahrenden Panzern zu bleiben."
 IRE_mechanized_equipment_3: "Sonderkraftfahrzeug 254" # OT-810
 IRE_mechanized_equipment_3_short: "Sd.Kfz. 254"
 IRE_amphibious_mechanized_equipment_1: "Land-Wasser-Schlepper"
@@ -7311,13 +7319,13 @@ MON_mechanized_equipment_2: "B-42"
 # B-3 :
 MON_mechanized_equipment_3: "B-3"
 
-#Modified Shitikov's armored prime mover:
+#Modified Shitikov's armoured prime mover:
 MON_amphibious_mechanized_equipment_1: "PBT-37"
 #R-40
 MON_amphibious_mechanized_equipment_2: "PTR-20"
 
 #Armoured Car
-#The classification of armored cars changes in the middle-late 1930s: the classification by weight is removed.
+#The classification of armoured cars changes in the middle-late 1930s: the classification by weight is removed.
 
 # D-12 :
 MON_gw_armored_car_equipment: "D-12"
@@ -7525,6 +7533,13 @@ NEE_mechanized_equipment_2_short: "Ram Kangaroo"
 NEE_mechanized_equipment_3: "King Kangaroo"
 NEE_mechanized_equipment_3_short: "King Kangaroo"
 
+NEE_motorbike_equipment_1: "$USA_motorbike_equipment_1$"
+NEE_motorbike_equipment_1_short: "$USA_motorbike_equipment_1_short$"
+NEE_motorized_equipment_0: "$USA_motorized_equipment_0$"
+NEE_motorized_equipment_0_short: "$USA_motorized_equipment_0_short$"
+NEE_super_heavy_artillery_equipment_1: "$USA_super_heavy_artillery_equipment_1$"
+NEE_super_heavy_artillery_equipment_1_short: "$USA_super_heavy_artillery_equipment_1_short$"
+
 #Amphibious
 
 NEE_amphibious_mechanized_equipment_1: "Landing Vehicle Tracked 2"
@@ -7567,7 +7582,10 @@ NEE_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
 NEE_train_equipment_1: "Pennsylvania I1s Class"
 NEE_train_equipment_2: "USATC S160 Class"
 NEE_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
-NEE_railway_gun_equipment_1: "8-inch Mk. VI"
+NEE_railway_gun_equipment_1: "$USA_railway_gun_equipment_1$"
+NEE_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+NEE_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+NEE_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
 
 ###
 ### Nepal ###
@@ -8982,16 +9000,6 @@ RUS_EQUIPMENT_VERSION_3: "-U"
 RUS_EQUIPMENT_VERSION_4: "M"
 #Special :
 RUS_EQUIPMENT_VERSION_5: "-S"
-#Model of an year:
-RUS_EQUIPMENT_VERSION_6: "obr.[GetYear]"
-#Model of an year:
-RUS_EQUIPMENT_VERSION_7: "obr.[GetYear]"
-#Model of an year:
-RUS_EQUIPMENT_VERSION_8: "obr.[GetYear]"
-#Model of an year:
-RUS_EQUIPMENT_VERSION_9: "obr.[GetYear]"
-#Model of an year:
-RUS_EQUIPMENT_VERSION_10: "obr.[GetYear]"
 
 ### Land ###
 
@@ -9032,7 +9040,7 @@ RUS_infantry_at_desc: "Das PTRS und das weniger komplexe PTRD sind die wichtigst
 # PTR-82 :
 RUS_infantry_at2: "Protivotankovoye reaktivnoye ruzhye obr.1944"
 RUS_infantry_at2_short: "PTRO"
-RUS_infantry_at2_desc: "Das von dem Team unter der Leitung von Anatoly Ostrovsky entwickelte PTRO ist ein reaktives Panzerabwehrgewehr, das gegen modernere gepanzerte Fahrzeuge eingesetzt werden kann. Das PTRO ist sperrig, unhandlich und erfordert zwei Männer, um es zu bedienen - aber es ist zweifellos leistungsstark, stärker als vergleichbare Waffen im Westen."
+RUS_infantry_at2_desc: "Das PTRO, das von dem Team unter der Leitung von Anatoli Ostrovsky entwickelt wurde, ist ein reaktives Panzerabwehrgewehr, das gegen modernere gepanzerte Fahrzeuge eingesetzt werden kann. Das PTRO ist sperrig, unhandlich und erfordert zwei Männer, um es zu bedienen - aber es ist zweifellos leistungsstark, stärker als vergleichbare Waffen im Westen."
 
 # Maxim M1930 and 82-BM-37 :
 RUS_support_weapons: "Stankovy pulemyot obr.1910 & 82-mm minomyot obr.1937"
@@ -9093,7 +9101,7 @@ RUS_mechanized_equipment_3: "Bronetransporter B-3"
 RUS_mechanized_equipment_3_short: "B-3"
 RUS_mechanized_equipment_3_desc: "Der B-3 wurde aus dem gescheiterten Artillerietraktor AT-3 entwickelt, wobei die Lehren aus dem B-42 gezogen wurden. Der B-3 ist ein leistungsstarker und zuverlässiger Kriegsmotor, der bei der Armee beliebt ist, aber seine mangelnde Geschwindigkeit und sein hohes Gewicht lassen zu wünschen übrig."
 
-#Modified Shitikov's armored prime mover mixed with Pioneer B1:
+#Modified Shitikov's armoured prime mover mixed with Pioneer B1:
 RUS_amphibious_mechanized_equipment_1: "Plavayushchy traktor PBT-37"
 RUS_amphibious_mechanized_equipment_1_short: "PBT-37"
 RUS_amphibious_mechanized_equipment_1_desc: "In Vorbereitung auf die Invasion Osteuropas wurden die russischen Ingenieure mit der Entwicklung eines flussüberquerenden Transporters beauftragt. Der PBT-37 basiert auf dem Fahrgestell des T-37, verfügt über einen amphibischen Antrieb, Platz für Passagiere, die vom gescheiterten OKMO-STB1 übernommen wurden, und eine stärkere Panzerung, natürlich auf Kosten der Feuerkraft. Dieser gepanzerte Traktor ist für einen einzigen Zweck konzipiert - die Überquerung des Dnjepr, der Dwina und aller anderen Flüsse, die zwischen Russland und Berlin liegen."
@@ -9339,16 +9347,6 @@ RSA_EQUIPMENT_VERSION_3: "-U"
 RSA_EQUIPMENT_VERSION_4: "M"
 #Special :
 RSA_EQUIPMENT_VERSION_5: "-S"
-#Model of an year:
-RSA_EQUIPMENT_VERSION_6: "obr.[GetYear]"
-#Model of an year:
-RSA_EQUIPMENT_VERSION_7: "obr.[GetYear]"
-#Model of an year:
-RSA_EQUIPMENT_VERSION_8: "obr.[GetYear]"
-#Model of an year:
-RSA_EQUIPMENT_VERSION_9: "obr.[GetYear]"
-#Model of an year:
-RSA_EQUIPMENT_VERSION_10: "obr.[GetYear]"
 
 ### Land ###
 
@@ -9434,7 +9432,7 @@ RSA_amphibious_mechanized_equipment_2: "Bronetransporter PTR-20"
 RSA_amphibious_mechanized_equipment_2_short: "PTR-20"
 
 #Armoured Car
-#The classification of armored cars changes in the middle-late 1930s: the classification by weight is removed.
+#The classification of armoured cars changes in the middle-late 1930s: the classification by weight is removed.
 
 # Sd.Kfz. 222 :
 RSA_gw_armored_car_equipment: "Broneavtomobil Khorkh-2"
@@ -11244,165 +11242,175 @@ KUM_infantry_equipment_3_short: "Hanyang Type 35"
 KUM_infantry_equipment_3_desc: "Das Typ 35 ist ein halbautomatisches Gewehr, das auf dem General-Liu-Gewehr von 1914 basiert. Obwohl es ähnlich aussieht, ist das Typ 35 kürzer, die Rückseite des Gehäuses ist abgedeckt und das Gasfängersystem wurde durch eine einfache Gasöffnung ersetzt. Das neue Gewehr kann auch nicht mehr auf Handbetrieb umgestellt werden und verwendet die Magazine des böhmischen Gewehrs ZH-29 und des leichten Maschinengewehrs ZB-26."
 
 ###
-### Union State ###
+### American People's Government ###
 ###
 
 ### Land ###
 
-TEX_EQUIPMENT_VERSION_1: "A1"
-TEX_EQUIPMENT_VERSION_2: "A2"
-TEX_EQUIPMENT_VERSION_3: "A3"
-TEX_EQUIPMENT_VERSION_4: "A4"
-TEX_EQUIPMENT_VERSION_5: "A5"
-TEX_EQUIPMENT_VERSION_6: "A6"
-TEX_EQUIPMENT_VERSION_7: "A7"
-TEX_EQUIPMENT_VERSION_8: "A8"
-TEX_EQUIPMENT_VERSION_9: "A9"
-TEX_EQUIPMENT_VERSION_10: "A9A1"
-TEX_EQUIPMENT_VERSION_11: "A9A2"
-TEX_EQUIPMENT_VERSION_12: "A9A3"
-TEX_EQUIPMENT_VERSION_13: "A9A4"
+APG_EQUIPMENT_VERSION_1: "A1"
+APG_EQUIPMENT_VERSION_2: "A2"
+APG_EQUIPMENT_VERSION_3: "A3"
+APG_EQUIPMENT_VERSION_4: "A4"
+APG_EQUIPMENT_VERSION_5: "A5"
+APG_EQUIPMENT_VERSION_6: "A6"
+APG_EQUIPMENT_VERSION_7: "A7"
+APG_EQUIPMENT_VERSION_8: "A8"
+APG_EQUIPMENT_VERSION_9: "A9"
+APG_EQUIPMENT_VERSION_10: "A9A1"
+APG_EQUIPMENT_VERSION_11: "A9A2"
+APG_EQUIPMENT_VERSION_12: "A9A3"
+APG_EQUIPMENT_VERSION_13: "A9A4"
 
 #Infantry Equip
 
-TEX_infantry_equipment_0: "Rifle, Calibre .30-06, Model 1903"
-TEX_infantry_equipment_0_short: "M1903 Springfield"
-TEX_infantry_equipment_0_desc: "Das Modell 1903 wurde im Springfield Arsenal entwickelt, als die Vereinigten Staaten nach dem Spanisch-Amerikanischen Krieg das Krag-Jørgensen-Gewehr aufgrund seines schwachen Systems für unzureichend hielten; im Kern war das 1903 ein Versuch, die vorteilhaften Eigenschaften des Krag-Gewehrs und der erbeuteten spanischen Mauser zu kombinieren. Kurz vor dem Weltkrieg wurde das Gewehr nach und nach zusammen mit der Patrone .30-06 eingeführt, ein Prozess, der mehrere Jahre dauern sollte."
-TEX_infantry_equipment_1: "Rifle, Calibre .30-06, Model 1903A1, Special Target"
-TEX_infantry_equipment_1_short: "M1903A1 Springfield"
-TEX_infantry_equipment_1_desc: "Das M1903A1 Springfield wurde 1929 von der US Army als 'U.S. Rifle, Calibre .30-06, M1903A1' eingeführt. Sie enthielt einen Pistolengriff, eine geriffelte Schaftkappe, einen gezackten Abzug und mehrere kleinere Verbesserungen des ursprünglichen Designs von 1903."
+APG_infantry_equipment_0: "Rifle, Calibre .30-06, Model 1903"
+APG_infantry_equipment_0_short: "M1903 Springfield"
+APG_infantry_equipment_0_desc: "Das Modell 1903 wurde im Springfield Arsenal entwickelt, als die Vereinigten Staaten nach dem Spanisch-Amerikanischen Krieg das Krag-Jørgensen-Gewehr aufgrund seines schwachen Systems für unzureichend hielten; im Kern war das 1903 ein Versuch, die vorteilhaften Eigenschaften des Krag-Gewehrs und der erbeuteten spanischen Mauser zu kombinieren. Kurz vor dem Weltkrieg wurde das Gewehr nach und nach zusammen mit der Patrone .30-06 eingeführt, ein Prozess, der mehrere Jahre dauern sollte."
+APG_infantry_equipment_1: "Rifle, Calibre .30-06, Model 1903A1, Special Target"
+APG_infantry_equipment_1_short: "M1903A1 Springfield"
+APG_infantry_equipment_1_desc: "Das M1903A1 Springfield wurde 1929 von der US Army als 'U.S. Rifle, Calibre .30-06, M1903A1' eingeführt. Sie enthielt einen Pistolengriff, eine geriffelte Schaftkappe, einen gezackten Abzug und mehrere kleinere Verbesserungen des ursprünglichen Designs von 1903."
 #Colt M1929:
-TEX_infantry_equipment_2: "Rifle, Calibre .30-06, Model 1937"
-TEX_infantry_equipment_2_short: "M1937 Colt"
-TEX_infantry_equipment_2_desc: "Mit Beginn des Bürgerkriegs veröffentlichte das neue Army Department der USA eine Ausschreibung für halbautomatische Gewehre. Die Firma Colt bewarb sich 1938 mit einem Gewehr des Kalibers .276 für die darauf folgenden Versuche. Das Colt M1937, das jüngste in einer Reihe von Gewehren, die auf einen Entwurf von J. E. Browning (Halbbruder von John Moses Browning) zurückgehen, ist ein gasbetriebenes Gewehr mit 108 Teilen. Die M1937 wurde Ende 1938 in Dienst gestellt, nachdem sie auf Wunsch des Ordnance Department vom Kaliber .276 auf .30-06 umgerüstet worden war."
+APG_infantry_equipment_2: "Rifle, Calibre .30-06, Model 1937"
+APG_infantry_equipment_2_short: "M1937 Colt"
+APG_infantry_equipment_2_desc: "Mit Beginn des Bürgerkriegs veröffentlichte das neue Army Department der USA eine Ausschreibung für halbautomatische Gewehre. Die Firma Colt bewarb sich 1938 mit einem Gewehr des Kalibers .276 für die darauf folgenden Versuche. Das Colt M1937, das jüngste in einer Reihe von Gewehren, die auf einen Entwurf von J. E. Browning (Halbbruder von John Moses Browning) zurückgehen, ist ein gasbetriebenes Gewehr mit 108 Teilen. Die M1937 wurde Ende 1938 in Dienst gestellt, nachdem sie auf Wunsch des Ordnance Department vom Kaliber .276 auf .30-06 umgerüstet worden war."
 #M1 carbine, basically:
-TEX_infantry_equipment_3: "Carbine, Calibre .30, Model 1942"
-TEX_infantry_equipment_3_short: "M1942 Carbine"
-TEX_infantry_equipment_3_desc: "1940 forderte das Ordnance Department ein neues 'leichtes Gewehr' oder einen Karabiner an, obwohl die genauen Anforderungen an die Waffe erst 1941 festgelegt wurden. Colt reichte keinen echten Karabinerentwurf ein, da das Unternehmen anderweitig beschäftigt war, aber nach dem Tod von J. E. Browning beauftragte es den Auftragnehmer David Marshall Williams, der mit der Arbeit an einem Kurzhub-Gaskolbenentwurf begonnen hatte, mit dem Projekt. Williams baute seinen Kurzhubkolben in einen bestehenden Colt-Prototyp ein und verkürzte ihn entsprechend den Anforderungen des Ordnungsamtes. Das neue Gewehr wurde schließlich in Dienst gestellt."
-TEX_infantry_weapons2: "Submachine Gun, Calibre .45, Model 1928A1, Thompson"
-TEX_infantry_weapons2_short: "M1928A Thompson"
+APG_infantry_equipment_3: "Carbine, Calibre .30, Model 1942"
+APG_infantry_equipment_3_short: "M1942 Carbine"
+APG_infantry_equipment_3_desc: "1940 forderte das Ordnance Department ein neues 'leichtes Gewehr' oder einen Karabiner an, obwohl die genauen Anforderungen an die Waffe erst 1941 festgelegt wurden. Colt reichte keinen echten Karabinerentwurf ein, da das Unternehmen anderweitig beschäftigt war, aber nach dem Tod von J. E. Browning beauftragte es den Auftragnehmer David Marshall Williams, der mit der Arbeit an einem Kurzhub-Gaskolbenentwurf begonnen hatte, mit dem Projekt. Williams baute seinen Kurzhubkolben in einen bestehenden Colt-Prototyp ein und verkürzte ihn entsprechend den Anforderungen des Ordnungsamtes. Das neue Gewehr wurde schließlich in Dienst gestellt."
+APG_infantry_weapons2: "Submachine Gun, Calibre .45, Model 1928A1, Thompson"
+APG_infantry_weapons2_short: "M1928A Thompson"
 #M2 Hyde:
-TEX_improved_infantry_weapons_2: "Submachine gun, Calibre .45, Model 1935A2, Hyde"
-TEX_improved_infantry_weapons_2_short: "M1935A2 Hyde"
+APG_improved_infantry_weapons_2: "Submachine gun, Calibre .45, Model 1935A2, Hyde"
+APG_improved_infantry_weapons_2_short: "M1935A2 Hyde"
 #1946 but with funding+ACW probably possible earlier:
-TEX_advanced_infantry_weapons2: "Automatic Rifle, Calibre .30-06, Model 1944, Sieg"
-TEX_advanced_infantry_weapons2_short: "M1944 Sieg"
+APG_advanced_infantry_weapons2: "Automatic Rifle, Calibre .30-06, Model 1944, Sieg"
+APG_advanced_infantry_weapons2_short: "M1944 Sieg"
 #Williams Anti-tank rifle:
-TEX_infantry_at: "Anti-Tank Rifle, Calibre .50, Model 1942"
-TEX_infantry_at_short: "M1942 Anti-Tank Rifle"
-TEX_infantry_at_desc: "Das Panzerabwehrgewehr M1942 wurde von David Marshall Williams im Auftrag der Armee des Unionsstaates entwickelt. Obwohl der Entwicklungsprozess schon bald nach Kriegsausbruch begann, dauerte die Entwicklung mehrere Jahre und war mit Verzögerungen verbunden. Das Williams-Panzerabwehrgewehr wurde schließlich 1942 von der Armee übernommen."
+APG_infantry_at: "Anti-Tank Rifle, Calibre .50, Model 1942"
+APG_infantry_at_short: "M1942 Anti-Tank Rifle"
+APG_infantry_at_desc: "Das Panzerabwehrgewehr M1942 wurde von David Marshall Williams im Auftrag der Armee der Vereinigten Staaten. Obwohl der Entwicklungsprozess schon bald nach Kriegsausbruch begann, dauerte die Entwicklung mehrere Jahre und war mit Verzögerungen verbunden. Das Williams-Panzerabwehrgewehr wurde schließlich 1942 von der Armee übernommen."
 #M18 Recoilless Rifle:
-TEX_infantry_at2: "Recoilless Rifle, 2.2 inch, Model 1942"
-TEX_infantry_at2_short: "M1942 Recoilless Rifle"
-TEX_infantry_at2_desc: "Das M1942 Recoilless Rifle ist eine von der Schulter abzufeuernde Panzerabwehrwaffe, die von den beiden Ingenieuren Kroger und Musser im Rahmen eines freiberuflichen Projekts der U.S. Army Infantry Section entwickelt wurde. Das M1942 wurde als Reaktion auf die raschen Verbesserungen der Panzerung entwickelt, die die Wirksamkeit von Panzerabwehrgewehren, die klein genug waren, um von einem Mann getragen werden zu können, stark beeinträchtigten. Das M1942 Recoilless Rifle hat eine effektive Reichweite von 400 Yards, eine maximale Reichweite von fast 5.000 Yards und ist im Vergleich zum alten M1942 Panzerabwehrgewehr präziser. Es wurde von den Soldaten, die es verwendeten, schnell als 'Taschenartillerie' bezeichnet."
-TEX_support_weapons: "MG, Cal. .30-06, M1919, Browning & Mortar, 3-inch, Stokes"
-TEX_support_weapons_short: "M1919 Browning MG & Stokes mortar"
+APG_infantry_at2: "Recoilless Rifle, 2.2 inch, Model 1942"
+APG_infantry_at2_short: "M1942 Recoilless Rifle"
+APG_infantry_at2_desc: "Das M1942 Recoilless Rifle ist eine von der Schulter abzufeuernde Panzerabwehrwaffe, die von den beiden Ingenieuren Kroger und Musser im Rahmen eines freiberuflichen Projekts der U.S. Army Infantry Section entwickelt wurde. Das M1942 wurde als Reaktion auf die raschen Verbesserungen der Panzerung entwickelt, die die Wirksamkeit von Panzerabwehrgewehren, die klein genug waren, um von einem Mann getragen werden zu können, stark beeinträchtigten. Das M1942 Recoilless Rifle hat eine effektive Reichweite von 400 Yards, eine maximale Reichweite von fast 5.000 Yards und ist im Vergleich zum alten M1942 Panzerabwehrgewehr präziser. Es wurde von den Soldaten, die es verwendeten, schnell als 'Taschenartillerie' bezeichnet."
+APG_support_weapons: "MG, Cal. .30-06, M1919, Browning & Mortar, 3-inch, Stokes"
+APG_support_weapons_short: "M1919 Browning MG & Stokes mortar"
 #8 cm Granatwerfer 34:
-TEX_support_weapons2: "MG, Cal. .50, M1933, Browning & Mortar, 3.2-inch, M34, GrW"
-TEX_support_weapons2_short: "M1933 Browning MG & M34 GrW Mortar"
+APG_support_weapons2: "MG, Cal. .50, M1933, Browning & Mortar, 3.2-inch, M34, GrW"
+APG_support_weapons2_short: "M1933 Browning MG & M34 GrW Mortar"
 #Colt MG40 and M1 mortar:
-TEX_support_weapons3: "MG, Cal. .30-06, M1940, Colt & Mortar, 3.2-inch, M1935"
-TEX_support_weapons3_short: "M1940 Colt MG & M1935 mortar"
+APG_support_weapons3: "MG, Cal. .30-06, M1940, Colt & Mortar, 3.2-inch, M1935"
+APG_support_weapons3_short: "M1940 Colt MG & M1935 mortar"
 #Colt Monitor R75A and M2 mortar:
-TEX_support_weapons4: "AR, Cal. .30-06, M1925A3, Colt & Mortar, 4.2-inch, M1940"
-TEX_support_weapons4_short: "M1925A3 CAR & M1940 mortar"
+APG_support_weapons4: "AR, Cal. .30-06, M1925A3, Colt & Mortar, 4.2-inch, M1940"
+APG_support_weapons4_short: "M1925A3 CAR & M1940 mortar"
 #M1 sniperscope:
-TEX_night_vision: "Infrared Sniperscope, Model 1943"
-TEX_night_vision_short: "M1943 Sniperscope"
-TEX_night_vision_desc: "Das M1943 Sniperscope wurde speziell für die M1942A2 Auto-Carbine entwickelt, die über spezielle Halterungen am Empfänger für verschiedene Modelle von Infrarot-Nachtsichtgeräten verfügte, und ist das erste Infrarot-Scharfschützenzielfernrohr, das von der US-Armee für den allgemeinen Gebrauch übernommen wurde. Das M1943 hat zwar seine Schwächen, wie z. B. die geringe Reichweite und den leicht zu beschädigenden Infrarotsender, aber bei richtigem Einsatz ist das M1 immer noch von großem Wert."
+APG_night_vision: "Infrared Sniperscope, Model 1943"
+APG_night_vision_short: "M1943 Sniperscope"
+APG_night_vision_desc: "Das M1943 Sniperscope wurde speziell für die M1942A2 Auto-Carbine entwickelt, die über spezielle Halterungen am Empfänger für verschiedene Modelle von Infrarot-Nachtsichtgeräten verfügte, und ist das erste Infrarot-Scharfschützenzielfernrohr, das von der US-Armee für den allgemeinen Gebrauch übernommen wurde. Das M1943 hat zwar seine Schwächen, wie z. B. die geringe Reichweite und den leicht zu beschädigenden Infrarotsender, aber bei richtigem Einsatz ist das M1 immer noch von großem Wert."
 #M3 sniperscope:
-TEX_night_vision2: "Infrared Sniperscope, Model 1946"
-TEX_night_vision2_short: "M1946 Sniperscope"
-TEX_night_vision2_desc: "Als Reaktion auf die schlechte Resonanz auf das M1943 Sniperscope wurde das Sniperscope M1946 eingeführt. Mit einer fast doppelt so großen effektiven Reichweite wie das M1943, einer robusteren Infrarot-Lichtquelle und dem T23 Flash Hider ist das M1946 eine enorme Verbesserung gegenüber seinem Vorgänger, obwohl sich einige Soldaten darüber beschweren, dass die Lichtquelle in das sichtbare Spektrum übergeht und so ihre Position verrät."
+APG_night_vision2: "Infrared Sniperscope, Model 1946"
+APG_night_vision2_short: "M1946 Sniperscope"
+APG_night_vision2_desc: "Als Reaktion auf die schlechte Resonanz auf das M1943 Sniperscope wurde das Sniperscope M1946 eingeführt. Mit einer fast doppelt so großen effektiven Reichweite wie das M1943, einer robusteren Infrarot-Lichtquelle und dem T23 Flash Hider ist das M1946 eine enorme Verbesserung gegenüber seinem Vorgänger, obwohl sich einige Soldaten darüber beschweren, dass die Lichtquelle in das sichtbare Spektrum übergeht und so ihre Position verrät."
 
 #Motorised
 
+APG_motorbike_equipment_1: "$USA_motorbike_equipment_1$"
+APG_motorbike_equipment_1_short: "$USA_motorbike_equipment_1_short$"
+APG_motorized_equipment_0: "$USA_motorized_equipment_0$"
+APG_motorized_equipment_0_short: "$USA_motorized_equipment_0_short$"
+APG_super_heavy_artillery_equipment_1: "$USA_super_heavy_artillery_equipment_1$"
+APG_super_heavy_artillery_equipment_1_short: "$USA_super_heavy_artillery_equipment_1_short$"
+
 #fwd h-6 2 tons improved:
-TEX_motorized_equipment_1: "Ford Government, Large, Passenger, FWD"
-TEX_motorized_equipment_1_short: "GLPFWD"
-TEX_motorized_equipment_1_desc: "Der GLPFWD, auch bekannt als 'Jeelp', ist eine Ford-Modifikation des H-6-Lkw, der 1930 von der Firma FWD entwickelt wurde. Die Entwicklung des Fahrzeugs selbst begann vor dem amerikanischen Bürgerkrieg und wurde unter der Aufsicht der Regierung des Unionsstaates fortgesetzt. Der H-6 wurde auf einer 6x6-Basis umgebaut und seine Kapazität wurde auf 2 1/2 Tonnen erhöht, indem die Erfahrungen aus der Entwicklung des ACKW-Lastwagens von General Motors und der U.S. Army übernommen wurden."
+APG_motorized_equipment_1: "Ford Government, Large, Passenger, FWD"
+APG_motorized_equipment_1_short: "GLPFWD"
+APG_motorized_equipment_1_desc: "Der GLPFWD, auch bekannt als 'Jeelp', ist eine Ford-Modifikation des H-6-Lkw, der 1930 von der Firma FWD entwickelt wurde. Die Entwicklung des Fahrzeugs selbst begann vor dem amerikanischen Bürgerkrieg und wurde unter der Aufsicht der Rebellenregierung des Unionsstaates fortgesetzt. Der H-6 wurde auf einer 6x6-Basis umgebaut und seine Kapazität wurde auf 2 1/2 Tonnen erhöht, indem die Erfahrungen aus der Entwicklung des ACKW-Lastwagens von General Motors und der U.S. Army übernommen wurden."
 #M5 tractor combined with M4:
-TEX_mechanized_equipment_1: "Tractor, High Speed, 13-ton, Model 1939A2, Carrier, Personnel"
-TEX_mechanized_equipment_1_short: "M1939A2 Tractor"
-TEX_mechanized_equipment_1_desc: "Der M1939 Tractor wurde auf der Grundlage des Fahrgestells des M3 'Lee' Panzers entwickelt. Er wurde 1939 von der Armee als Artillerietransporter angefordert und 1940 als Mannschaftstransporter umgestaltet. Der M1939A2 kann 10 Soldaten befördern und ist mit zwei Browning-Kanonen bestückt. Mit seiner beeindruckenden Geländegängigkeit und soliden Zuverlässigkeit gilt der M1939A2 als fähiger Hochgeschwindigkeitstraktor."
+APG_mechanized_equipment_1: "Tractor, High Speed, 13-ton, Model 1939A2, Carrier, Personnel"
+APG_mechanized_equipment_1_short: "M1939A2 Tractor"
+APG_mechanized_equipment_1_desc: "Der M1939 Tractor wurde auf der Grundlage des Fahrgestells des M3 'Lee' Panzers entwickelt. Er wurde 1939 von der Armee als Artillerietransporter angefordert und 1940 als Mannschaftstransporter umgestaltet. Der M1939A2 kann 10 Soldaten befördern und ist mit zwei Browning-Kanonen bestückt. Mit seiner beeindruckenden Geländegängigkeit und soliden Zuverlässigkeit gilt der M1939A2 als fähiger Hochgeschwindigkeitstraktor."
 #Experimental 6X6 Ford Artillery Tractor :
-TEX_mechanized_equipment_2: "Armoured Car, Carrier, Personnel, Model 1942"
-TEX_mechanized_equipment_2_short: "M1942 Carrier Car"
-TEX_mechanized_equipment_2_desc: "Anfang 1942 konzipierte die Armee einen Ford 6x4-LKW für den Einsatz als Mannschaftstransporter um. Das daraus resultierende Fahrzeug, der M1942, ist ein leicht gepanzertes 6×6-Fahrzeug mit niedriger Silhouette und hoher Mobilität, das in einer Vielzahl von Funktionen eingesetzt werden kann. Der M1942 Car ist schneller als sein Vorgänger, der M1939 Tractor, und stellt einen großen Schritt nach vorn in der Entwicklung amerikanischer Transportfahrzeuge dar."
+APG_mechanized_equipment_2: "Armoured Car, Carrier, Personnel, Model 1942"
+APG_mechanized_equipment_2_short: "M1942 Carrier Car"
+APG_mechanized_equipment_2_desc: "Anfang 1942 konzipierte die Armee einen Ford 6x4-LKW für den Einsatz als Mannschaftstransporter um. Das daraus resultierende Fahrzeug, der M1942, ist ein leicht gepanzertes 6×6-Fahrzeug mit niedriger Silhouette und hoher Mobilität, das in einer Vielzahl von Funktionen eingesetzt werden kann. Der M1942 Car ist schneller als sein Vorgänger, der M1939 Tractor, und stellt einen großen Schritt nach vorn in der Entwicklung amerikanischer Transportfahrzeuge dar."
 #T16 Diamond T half-track:
-TEX_mechanized_equipment_3: "Half-Track, Carrier, Personnel, Model 1943"
-TEX_mechanized_equipment_3_short: "M1943 Half-Track"
-TEX_mechanized_equipment_3_desc: "Der M1943 Half-Track wurde von der Firma Diamond T auf der Grundlage des M1939 und eines deutschen Entwurfs entwickelt, wobei der Schwerpunkt auf der Austauschbarkeit von Teilen mit Nutzfahrzeugen lag. Obwohl er nur leicht gepanzert ist, ist das daraus resultierende Fahrzeug, der M1943, besonders wendig in unwegsamem Gelände."
+APG_mechanized_equipment_3: "Half-Track, Carrier, Personnel, Model 1943"
+APG_mechanized_equipment_3_short: "M1943 Half-Track"
+APG_mechanized_equipment_3_desc: "Der M1943 Half-Track wurde von der Firma Diamond T auf der Grundlage des M1939 und eines deutschen Entwurfs entwickelt, wobei der Schwerpunkt auf der Austauschbarkeit von Teilen mit Nutzfahrzeugen lag. Obwohl er nur leicht gepanzert ist, ist das daraus resultierende Fahrzeug, der M1943, besonders wendig in unwegsamem Gelände."
 #fwd h-6 2 tons improved to GCKW 353 standard:
-TEX_motorized_rocket_equipment: "Ford Government, Rocket Launcher, FWD"
-TEX_motorized_rocket_equipment_short: "GRLFWD"
-TEX_motorized_rocket_equipment_desc: "Der GRLFWD ist ein LKW mit Frontantrieb und einem montierten M1941A6-Raketenwerfer, der allgemein als 'Girl' bekannt ist. Einzelne Raketenwerfer sind bekanntermaßen etwas ungenau, aber die Feuerkraft, die diese Konstruktion erzeugen kann, ist beeindruckend."
-TEX_motorized_rocket_equipment_1: "Ford Government, Rocket Launcher, FWD"
-TEX_motorized_rocket_equipment_1_short: "GRLFWD"
-TEX_motorized_rocket_equipment_1_desc: "Der GRLFWD ist ein LKW mit Frontantrieb und einem montierten M1941A6-Raketenwerfer, der allgemein als 'Girl' bekannt ist. Einzelne Raketenwerfer sind bekanntermaßen etwas ungenau, aber die Feuerkraft, die diese Konstruktion erzeugen kann, ist beeindruckend."
+APG_motorized_rocket_equipment: "Ford Government, Rocket Launcher, FWD"
+APG_motorized_rocket_equipment_short: "GRLFWD"
+APG_motorized_rocket_equipment_desc: "Der GRLFWD ist ein LKW mit Frontantrieb und einem montierten M1941A6-Raketenwerfer, der allgemein als 'Girl' bekannt ist. Einzelne Raketenwerfer sind bekanntermaßen etwas ungenau, aber die Feuerkraft, die diese Konstruktion erzeugen kann, ist beeindruckend."
+APG_motorized_rocket_equipment_1: "Ford Government, Rocket Launcher, FWD"
+APG_motorized_rocket_equipment_1_short: "GRLFWD"
+APG_motorized_rocket_equipment_1_desc: "Der GRLFWD ist ein LKW mit Frontantrieb und einem montierten M1941A6-Raketenwerfer, der allgemein als 'Girl' bekannt ist. Einzelne Raketenwerfer sind bekanntermaßen etwas ungenau, aber die Feuerkraft, die diese Konstruktion erzeugen kann, ist beeindruckend."
 
 #Amphibious
 
-TEX_amphibious_mechanized_equipment_1: "Landing Vehicle, Tracked, Model M1940A1"
-TEX_amphibious_mechanized_equipment_1_short: "M1940A1 Landing Vehicle"
-TEX_amphibious_mechanized_equipment_1_desc: "Die amphibischen Kampffahrzeuge der Landing-Vehicle-Serie sollten ursprünglich nur als Frachtträger für Operationen von Schiff zu Land dienen. Sie entwickelten sich natürlich zu hochleistungsfähigen Angriffstruppen- und Feuerunterstützungsfahrzeugen. Das 1935 von Donald Roebling entwickelte zivile Rettungsfahrzeug "Alligator" wurde später zum M1940 weiterentwickelt, dem es an Panzerschutz fehlte und das beim Einsatz in unwegsamem Gelände unzuverlässig war. Der M1940A1 baute auf dem M1940 auf, wobei die eklatantesten Probleme dieses Fahrzeugs behoben wurden."
-TEX_amphibious_mechanized_equipment_2: "Landing Vehicle, Tracked, Model 1943"
-TEX_amphibious_mechanized_equipment_2_short: "M1943 Landing Vehicle"
-TEX_amphibious_mechanized_equipment_2_desc: "Der M1943 verbesserte den M1940A1 durch eine stark erhöhte Tragfähigkeit, die allerdings trotz verbesserter Motorisierung auf Kosten der Geschwindigkeit ging. Im Gegensatz zu seinem Vorgänger war er außerdem mit einem schweren Maschinengewehr oder einem Flammenwerfer ausgerüstet."
+APG_amphibious_mechanized_equipment_1: "Landing Vehicle, Tracked, Model M1940A1"
+APG_amphibious_mechanized_equipment_1_short: "M1940A1 Landing Vehicle"
+APG_amphibious_mechanized_equipment_1_desc: "Die amphibischen Kampffahrzeuge der Landing-Vehicle-Serie sollten ursprünglich nur als Frachtträger für Operationen von Schiff zu Land dienen. Sie entwickelten sich natürlich zu hochleistungsfähigen Angriffstruppen- und Feuerunterstützungsfahrzeugen. Das 1935 von Donald Roebling entwickelte zivile Rettungsfahrzeug "Alligator" wurde später zum M1940 weiterentwickelt, dem es an Panzerschutz fehlte und das beim Einsatz in unwegsamem Gelände unzuverlässig war. Der M1940A1 baute auf dem M1940 auf, wobei die eklatantesten Probleme dieses Fahrzeugs behoben wurden."
+APG_amphibious_mechanized_equipment_2: "Landing Vehicle, Tracked, Model 1943"
+APG_amphibious_mechanized_equipment_2_short: "M1943 Landing Vehicle"
+APG_amphibious_mechanized_equipment_2_desc: "Der M1943 verbesserte den M1940A1 durch eine stark erhöhte Tragfähigkeit, die allerdings trotz verbesserter Motorisierung auf Kosten der Geschwindigkeit ging. Im Gegensatz zu seinem Vorgänger war er außerdem mit einem schweren Maschinengewehr oder einem Flammenwerfer ausgerüstet."
 
 #Armoured Car
-TEX_gw_armored_car_equipment: "Scout Car, Model 1935"
-TEX_gw_armored_car_equipment_short: "M1935 Scout Car"
-TEX_gw_armored_car_equipment_desc: "Der M2 Scout Car ist ein leicht gepanzertes, offenes und mit Maschinengewehren bewaffnetes Fahrzeug mit Allradantrieb, das für Aufklärungszwecke entwickelt wurde. Der M2 Scout Car, eine Weiterentwicklung des Scout Car-Konzepts, das die Kavallerie bei der Aufklärung ersetzen sollte, wurde Ende 1935 erprobt und inmitten zunehmender Spannungen in den USA trotz seiner Mängel in den Dienst der Armee aufgenommen. Im Dienst des Unionsstaates war das Fahrzeug als M1935 bekannt."
-TEX_armored_car_equipment_1: "Scout Car, Model 1939"
-TEX_armored_car_equipment_1_short: "M1939 Scout Car"
-TEX_armored_car_equipment_1_desc: "Der M1939 Scout Car ist eine Weiterentwicklung des M1935, in den die Erfahrungen aus dem Bürgerkrieg eingeflossen sind. Der M1939 verfügt über mehrere kleine Verbesserungen, die aus den Erfahrungen des Krieges resultieren, wie z. B. gepanzerte Kotflügel und Frontrollen sowie einen zuverlässigeren Motor. Obwohl das Konzept des Scout Car selbst kritisiert wurde, weil der Schwerpunkt auf der Mobilität und nicht auf der Überlebensfähigkeit lag, wurde der M1939 dennoch in den Dienst gestellt."
+APG_gw_armored_car_equipment: "Scout Car, Model 1935"
+APG_gw_armored_car_equipment_short: "M1935 Scout Car"
+APG_gw_armored_car_equipment_desc: "Der M2 Scout Car ist ein leicht gepanzertes, offenes und mit Maschinengewehren bewaffnetes Fahrzeug mit Allradantrieb, das für Aufklärungszwecke entwickelt wurde. Der M2 Scout Car, eine Weiterentwicklung des Scout Car-Konzepts, das die Kavallerie bei der Aufklärung ersetzen sollte, wurde Ende 1935 erprobt und inmitten zunehmender Spannungen in den USA trotz seiner Mängel in den Dienst der Armee aufgenommen. Im Dienst des neuen Regimes war das Fahrzeug als M1935 bekannt."
+APG_armored_car_equipment_1: "Scout Car, Model 1939"
+APG_armored_car_equipment_1_short: "M1939 Scout Car"
+APG_armored_car_equipment_1_desc: "Der M1939 Scout Car ist eine Weiterentwicklung des M1935, in den die Erfahrungen aus dem Bürgerkrieg eingeflossen sind. Der M1939 verfügt über mehrere kleine Verbesserungen, die aus den Erfahrungen des Krieges resultieren, wie z. B. gepanzerte Kotflügel und Frontrollen sowie einen zuverlässigeren Motor. Obwohl das Konzept des Scout Car selbst kritisiert wurde, weil der Schwerpunkt auf der Mobilität und nicht auf der Überlebensfähigkeit lag, wurde der M1939 dennoch in den Dienst gestellt."
 #Greyhound:
-TEX_armored_car_equipment_2: "Armoured Car, Light, Model 1942"
-TEX_armored_car_equipment_2_short: "M1942 Armoured Car"
-TEX_armored_car_equipment_2_desc: "Der M1942 ist ein 6x6 Panzerwagen, der von der Ford Motor Company hergestellt wurde. Er wurde als Aufklärungspanzerwagen eingeführt, aber seine schnell feuernde, aber kleine 37-mm-Kanone wurde als besser geeignet für eine Anti-Infanterie-Rolle befunden. Die Panzerung des M1942 ist dünn, aber ausreichend für seine Rolle."
+APG_armored_car_equipment_2: "Armoured Car, Light, Model 1942"
+APG_armored_car_equipment_2_short: "M1942 Armoured Car"
+APG_armored_car_equipment_2_desc: "Der M1942 ist ein 6x6 Panzerwagen, der von der Ford Motor Company hergestellt wurde. Er wurde als Aufklärungspanzerwagen eingeführt, aber seine schnell feuernde, aber kleine 37-mm-Kanone wurde als besser geeignet für eine Anti-Infanterie-Rolle befunden. Die Panzerung des M1942 ist dünn, aber ausreichend für seine Rolle."
 #Deerhound:
-TEX_armored_car_at_equipment: "Armoured Car, Model 1941A1"
-TEX_armored_car_at_equipment_short: "M1941A1 Armoured Car"
-TEX_armored_car_at_equipment_desc: "Der Panzerwagen M1941 wurde von der Ford Motor Company entwickelt. Er war einer von zwei Entwürfen, die 1941 vom Ordnance Department für einen mittleren Panzerwagen gefordert wurden. Schwerer als der M1942 und mit einer 57-mm-Kanone ausgestattet, wurde er als erster echter Panzerabwehrwagen der Armee eingesetzt."
+APG_armored_car_at_equipment: "Armoured Car, Model 1941A1"
+APG_armored_car_at_equipment_short: "M1941A1 Armoured Car"
+APG_armored_car_at_equipment_desc: "Der Panzerwagen M1941 wurde von der Ford Motor Company entwickelt. Er war einer von zwei Entwürfen, die 1941 vom Ordnance Department für einen mittleren Panzerwagen gefordert wurden. Schwerer als der M1942 und mit einer 57-mm-Kanone ausgestattet, wurde er als erster echter Panzerabwehrwagen der Armee eingesetzt."
 
 #Artillery
 
 #Actually A4, but A2 and A3 were produced in France in OTL:
-TEX_artillery_equipment_1: "Field Gun, 75-mm, Model 1897A2"
-TEX_artillery_equipment_1_short: "75-mm M1897A2 Gun"
-TEX_artillery_equipment_2: "Howitzer, Towed, 105-mm, Model 1939A1"
-TEX_artillery_equipment_2_short: "105-mm M1939A1 Howitzer"
-TEX_artillery_equipment_3: "Howitzer, Towed, 155-mm, Model 1941"
-TEX_artillery_equipment_3_short: "155-mm M1941 Howitzer"
+APG_artillery_equipment_1: "Field Gun, 75-mm, Model 1897A2"
+APG_artillery_equipment_1_short: "75-mm M1897A2 Gun"
+APG_artillery_equipment_2: "Howitzer, Towed, 105-mm, Model 1939A1"
+APG_artillery_equipment_2_short: "105-mm M1939A1 Howitzer"
+APG_artillery_equipment_3: "Howitzer, Towed, 155-mm, Model 1941"
+APG_artillery_equipment_3_short: "155-mm M1941 Howitzer"
 
-TEX_anti_tank_equipment_1: "Anti-Tank Gun, 37-mm, Model 1936"
-TEX_anti_tank_equipment_1_short: "37-mm M1936 Gun"
+APG_anti_tank_equipment_1: "Anti-Tank Gun, 37-mm, Model 1936"
+APG_anti_tank_equipment_1_short: "37-mm M1936 Gun"
 #German 7,5-cm Panzerabwehrkanone Modell 40:
-TEX_anti_tank_equipment_2: "Anti-Tank Gun, 75-mm, Model 1940A1"
-TEX_anti_tank_equipment_2_short: "75-mm M1940A1 Gun"
-TEX_anti_tank_equipment_3: "Anti-Tank Gun, 76-mm, Model 1941"
-TEX_anti_tank_equipment_3_short: "76-mm M1941 Gun"
+APG_anti_tank_equipment_2: "Anti-Tank Gun, 75-mm, Model 1940A1"
+APG_anti_tank_equipment_2_short: "75-mm M1940A1 Gun"
+APG_anti_tank_equipment_3: "Anti-Tank Gun, 76-mm, Model 1941"
+APG_anti_tank_equipment_3_short: "76-mm M1941 Gun"
 
-TEX_anti_air_equipment_1: "Anti-Aircraft Gun, Automatic, 37-mm, Model 1936"
-TEX_anti_air_equipment_1_short: "37-mm M1936 Gun"
+APG_anti_air_equipment_1: "Anti-Aircraft Gun, Automatic, 37-mm, Model 1936"
+APG_anti_air_equipment_1_short: "37-mm M1936 Gun"
 #German 2-cm Flakvierling 38:
-TEX_anti_air_equipment_2: "Anti-Aircraft Gun, Automatic, 40-mm, Model 1935A3"
-TEX_anti_air_equipment_2_short: "40-mm M1935A3 Gun"
-TEX_anti_air_equipment_3: "Anti-Aircraft Gun, 90-mm, Model 1938A2"
-TEX_anti_air_equipment_3_short: "90-mm 1938A2 Gun"
+APG_anti_air_equipment_2: "Anti-Aircraft Gun, Automatic, 40-mm, Model 1935A3"
+APG_anti_air_equipment_2_short: "40-mm M1935A3 Gun"
+APG_anti_air_equipment_3: "Anti-Aircraft Gun, 90-mm, Model 1938A2"
+APG_anti_air_equipment_3_short: "90-mm 1938A2 Gun"
 
-TEX_rocket_artillery_equipment_1: "Rocket Launcher, Single, 4.5-inch, Model 1941A1"
-TEX_rocket_artillery_equipment_1_short: "M1941A1 Rocket Launcher"
+APG_rocket_artillery_equipment_1: "Rocket Launcher, Single, 4.5-inch, Model 1941A1"
+APG_rocket_artillery_equipment_1_short: "M1941A1 Rocket Launcher"
 #T66:
-TEX_rocket_artillery_equipment_2: "Rocket Launcher, Multiple, 4.5-inch, Model 1943"
-TEX_rocket_artillery_equipment_2_short: "M1943 Rocket Launcher"
+APG_rocket_artillery_equipment_2: "Rocket Launcher, Multiple, 4.5-inch, Model 1943"
+APG_rocket_artillery_equipment_2_short: "M1943 Rocket Launcher"
 
 ### Railroad ###
-TEX_train_equipment_1: "Pennsylvania I1s Class"
-TEX_train_equipment_2: "USATC S160 Class"
-TEX_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
-TEX_railway_gun_equipment_1: "8-inch Mk. VI"
+APG_train_equipment_1: "Pennsylvania I1s Class"
+APG_train_equipment_2: "USATC S160 Class"
+APG_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
+APG_railway_gun_equipment_1: "$USA_railway_gun_equipment_1$"
+APG_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+APG_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+APG_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
 
 ###
 ### Tibet ###
@@ -11682,6 +11690,23 @@ UGA_support_weapons2_short: "$GER_support_weapons2_short$"
 ### Ukraine ###
 ###
 
+UKR_EQUIPMENT_VERSION_1: "A"
+UKR_EQUIPMENT_VERSION_2: "B"
+UKR_EQUIPMENT_VERSION_3: "C"
+UKR_EQUIPMENT_VERSION_4: "D"
+UKR_EQUIPMENT_VERSION_5: "E"
+UKR_EQUIPMENT_VERSION_6: "F"
+UKR_EQUIPMENT_VERSION_7: "G"
+UKR_EQUIPMENT_VERSION_8: "H"
+UKR_EQUIPMENT_VERSION_9: "I"
+UKR_EQUIPMENT_VERSION_10: "J"
+UKR_EQUIPMENT_VERSION_11: "K"
+UKR_EQUIPMENT_VERSION_12: "L"
+UKR_EQUIPMENT_VERSION_13: "M"
+UKR_EQUIPMENT_VERSION_14: "N"
+UKR_EQUIPMENT_VERSION_15: "O"
+UKR_EQUIPMENT_VERSION_16: "P"
+
 #Land
 #1891 Mosin
 UKR_infantry_equipment_0: "Hvyntivka Mosina-Nagana zr.91"
@@ -11852,8 +11877,6 @@ USA_EQUIPMENT_VERSION_13: "A9A4"
 USA_train_equipment_1: "Pennsylvania I1s Class"
 USA_train_equipment_2: "USATC S160 Class"
 USA_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
-USA_railway_gun_equipment_1: "8-inch Mk. VI"
-
 #Infantry Equip
 
 USA_infantry_equipment_0: "Rifle, Calibre .30-06, Model 1903"
@@ -11903,6 +11926,10 @@ USA_night_vision2_desc: "Als Reaktion auf die schlechte Resonanz auf das M1 Snip
 
 #Motorised
 
+USA_motorbike_equipment_1: "Harley-Davidson WLA"
+USA_motorbike_equipment_1_short: "WLA"
+USA_motorized_equipment_0: "Klasse B Standardisierter Militär-Lkw"
+USA_motorized_equipment_0_short: "Klasse B Lkw"
 #Just CCKW:
 USA_motorized_equipment_1: "GMC 1936, Conventional cab, All-wheel drive, Dual rear axles"
 USA_motorized_equipment_1_short: "ACKW"
@@ -11984,6 +12011,13 @@ USA_rocket_artillery_equipment_1_short: "M12 Rocket Launcher"
 #T66:
 USA_rocket_artillery_equipment_2: "Rocket Launcher, Multiple, 4.5-inch, Model 20"
 USA_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
+
+USA_super_heavy_artillery_equipment_1: "Howitzer, 203-mm, Model 1"
+USA_super_heavy_artillery_equipment_1_short: "203-mm M1 Howitzer"
+USA_railway_gun_equipment_1: "Eisenbahngeschütz, 8-inch, Model 6"
+USA_railway_gun_equipment_1_short: "8-inch M6 Eisenbahngeschütz"
+USA_super_heavy_railway_gun_equipment_1: "Eisenbahngeschütz, 406-mm, Model 1936"
+USA_super_heavy_railway_gun_equipment_1_short: "406-mm M1936 Eisenbahngeschütz"
 
 ###
 ### Vietnam ###
@@ -12233,6 +12267,23 @@ RHI_rocket_artillery_equipment_2_desc: "Der 21-cm-Raketenwerfer 42 ist ein fünf
 ###
 ### BLR - White Ruthenia ###
 ###
+
+BLR_EQUIPMENT_VERSION_1: "A"
+BLR_EQUIPMENT_VERSION_2: "B"
+BLR_EQUIPMENT_VERSION_3: "C"
+BLR_EQUIPMENT_VERSION_4: "D"
+BLR_EQUIPMENT_VERSION_5: "E"
+BLR_EQUIPMENT_VERSION_6: "F"
+BLR_EQUIPMENT_VERSION_7: "G"
+BLR_EQUIPMENT_VERSION_8: "H"
+BLR_EQUIPMENT_VERSION_9: "I"
+BLR_EQUIPMENT_VERSION_10: "J"
+BLR_EQUIPMENT_VERSION_11: "K"
+BLR_EQUIPMENT_VERSION_12: "L"
+BLR_EQUIPMENT_VERSION_13: "M"
+BLR_EQUIPMENT_VERSION_14: "N"
+BLR_EQUIPMENT_VERSION_15: "O"
+BLR_EQUIPMENT_VERSION_16: "P"
 
 ### Land ###
 # Mosin-Nagant:

@@ -94,13 +94,6 @@ UPC_will_join_faction_after_war_FROM: "§G[FROM.GetNameWithFlag] wird der §H[FR
 
 ### Flags ###
 UPC_reconstruction_plan_unlocked: "Hat den Wiederaufbauplan freigeschaltet"
-UPC_built_to_nanning: "$has_completed_decision$$UPC_guangzhou_nanning$§!"
-UPC_built_to_guiyang: "$has_completed_decision$$UPC_nanning_guiyang$§!"
-UPC_built_to_changsha: "$has_completed_decision$$UPC_guangzhou_changsha$§!"
-UPC_built_to_fujian: "$has_completed_decision$$UPC_guangzhou_fujian$§!"
-UPC_connected_the_coast: "$has_completed_decision$$UPC_connect_coast$§!"
-UPC_built_to_nanjing: "$has_completed_decision$$UPC_changsha_nanjing$§!"
-UPC_connected_northwest: "$has_completed_decision$$UPC_connect_northwest$§!"
 
 ### Decisions ###
 UPC_mopping_up: "Mit Seperatisten abrechnen"
@@ -125,8 +118,8 @@ UPC_reconstruction_plan_desc: "Der Wiederaufbauplan ist das Geistesprodukt Chen 
 
 UPC_guangzhou_nanning: "Guangzhou-Nanning Eisenbahnstrecke"
 UPC_guangzhou_nanning_desc: "Guangxi ist zum Teil aufgrund seines unwegsamen Geländes und zum Teil aufgrund seiner relativen Isolation schlecht mit dem Rest des Landes verbunden. Um die Schwesterprovinz von Guangdong besser zu integrieren und die Rückkehr von Banditen und Korruption zu verhindern, wird eine Eisenbahnlinie zwischen Guangzhou und Nanning gebaut."
-UPC_improve_Qiongya: "Qiongya Bergbau-Erweiterung"
-UPC_improve_Qiongya_desc: "Das wirtschaftliche Potenzial der Insel Qiongya wurde lange Zeit vernachlässigt. Mit neuen Bergbautechnologien und einer stabilen, investitionsfreudigen Regierung können wir dies ändern und den Eisenabbau ausweiten."
+UPC_improve_qiongya: "Qiongya Bergbau-Erweiterung"
+UPC_improve_qiongya_desc: "Das wirtschaftliche Potenzial der Insel Qiongya wurde lange Zeit vernachlässigt. Mit neuen Bergbautechnologien und einer stabilen, investitionsfreudigen Regierung können wir dies ändern und den Eisenabbau ausweiten."
 UPC_nanning_guiyang: "Eisenbahnstrecke nach Guizhou"
 UPC_nanning_guiyang_desc: "Guizhou ist eine der ärmeren Provinzen im Süden des Landes, hat aber mit entsprechenden Investitionen durchaus Potenzial. Der Anschluss der Provinz an das wachsende Eisenbahnnetz ist der erste Schritt auf dem Weg zu dem Ziel, Wohlstand in die entlegensten Winkel des Landes zu bringen."
 UPC_guiyang_kunming: "Strecken nach Kunming erweitern"
@@ -439,9 +432,11 @@ lngupc.4.d: "Als Teil unserer Abmachung in [GetConferenceCity], hat Chen Jiongmi
 lngupc.4.a: "Lang lebe die Republik!"
 lngupc.4.b: "Hey, was ist mit unserer Autonomie?"
 
-lngupc.5.ta: "[From.GetLeader] verweigert sich"
-lngupc.5.da: "[From.GetNameDef] hat sich verweigert sich der föderalen Regierung zu beugen. Damit verletzt er die in  [GetConferenceCity] vereinbarten Bedingungen! Dieser Verrat muss bestraft werden!"
+lngupc.5.ta: "[From.GetLeader] weigert sich"
+lngupc.5.ta_tooltip: "[ROOT.GetLeader] weigert sich, die Bedingungen zu erfüllen"
+lngupc.5.da: "[From.GetNameDef] weigert sich, sich der föderalen Regierung zu beugen. Damit verletzt er die in [GetConferenceCity] vereinbarten Bedingungen! Dieser Verrat muss bestraft werden!"
 lngupc.5.tb: "[From.GetLeader] akzeptiert"
+lngupc.5.tb_tooltip: "[ROOT.GetLeader] befolgt die Bedingungen"
 lngupc.5.db: "Ohne Anzeichen von Problemen wurden die Truppen von [From.GetNameDef] nun der föderalen Regierung untergeordnet, genauso wie es in [GetConferenceCity] vereinbart wurde."
 lngupc.5.a: "Alles nach Protokoll."
 
@@ -587,3 +582,12 @@ fedchi.203.b: "Niemals!"
 fedchi.204.t: "[FROM.GetName] lehnt unser Angebot ab"
 fedchi.204.d: "Die [From.GetAdjective] Imperialisten haben unser Handelsabkommen abgelehnt und berufen sich weiter auf ihre alten kolonialistischen Sichtweisen. Sie werden die Folgen des Verlusts des Chinesischen Markt schon bald spüren, während wir weiter modernisieren."
 fedchi.204.a: "Das werden sie noch bereuen."
+
+fednews.1.t: "[From.GetName] ausgerufen"
+fednews.1.d: "Die föderalistische Bewegung in China hat ihre Machtbasis um die wohlhabende Stadt [From.Capital.GetCapitalVictoryPointName] gesichert und ihre eigene rivalisierende Regierung ausgerufen. Chen Jiongming, Generalgouverneur von [From.GetNonIdeologyNameDef] und Befehlshaber der Nationalen Verteidigungsarmee, erklärte seine Absicht, die ungleichen Provinzregierungen im ganzen Land zusammenzubringen, das Warlord-Problem frontal anzugehen und die lokale Demokratie dort wiederherzustellen, wo \"Banditen und Parteidiktatoren\" sich weigerten zu verhandeln und zu reformieren.\nAuch wenn er der international anerkannten Regierung Chinas nicht den Krieg erklärt hat, so ist doch klar, dass der vorsichtige Führer, wenn seine Machtbasis im Süden gesichert ist, zum richtigen Zeitpunkt in den Norden ziehen würde, falls die rivalisierenden Führer seine Forderungen nach politischen und wirtschaftlichen Reformen ablehnen."
+fednews.1.a: "Noch eine? Das wird langsam lächerlich!"
+fednews.1.b: "Lang lebe die Föderale Republik!"
+
+fednews.2.t: "Ende der ungleichen Verträge"
+fednews.2.d: "Das Außenministerium der Vereinigten Provinzen Chinas kündigte die Aufhebung aller ungleichen Verträge mit China an. Chen Jiongming und die Partei des öffentlichen Interesses hatten seit den 1920er Jahren die einseitige Beendigung dieser Verträge gefordert, und es scheint, dass die UPC dieses Versprechen eingelöst hat. Dies ist ein ernsthafter Wandel in der internationalen Diplomatie, der wahrscheinlich zu einem ernsten Bruch zwischen China und den europäischen Kolonialmächten führen wird.\nDa sich die Macht des Westens im Fernen Osten auf einem historischen Tiefstand befindet, hat die neue chinesische Regierung die Chance ergriffen, sich auf der Weltbühne wieder durchzusetzen, indem sie ein Ende des so genannten \"Jahrhunderts der Erniedrigung\" anstrebt und hofft, neue \"gleichberechtigte\" Verträge mit den europäischen Großmächten auszuhandeln, während China mit neuem Selbstvertrauen in die moderne Welt marschiert."
+fednews.2.a: "China behauptet sich wieder."
