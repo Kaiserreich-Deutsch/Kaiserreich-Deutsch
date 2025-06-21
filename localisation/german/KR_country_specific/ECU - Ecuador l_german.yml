@@ -7,7 +7,6 @@ ecuador_focus: "Schwerpunktbaum von Ecuador"
 ### Ideas ###
 ECU_blackmonday: "Auswirkungen der März-Krise"
 ECU_blackmonday_desc: "Die Finte der Konservativen, die vorgaben, die Wirtschaft sei gesund, hat unsere Währung und unsere Wirtschaft zerstört. Wir müssen Schritte zur Heilung unternehmen."
-ECU_blackmonday2: "Auswirkungen der März-Krise"
 ECUestadodeex: "Ausnahmezustand"
 ECUestadodeex_desc: "Außergewöhnliche Probleme erfordern außergewöhnliche Lösungen."
 ECU_consumption: "Lokaler Verbrauch"
@@ -30,8 +29,6 @@ ECU_bipartisan_idea: "Überparteiliche Organisation"
 ECU_technocrat_idea: "Technokratenherrschaft"
 ECU_new_grounds: "Neue Gründe für Ecuador"
 ECU_demo_eco_1: "Wirtschaftlicher Fortschritt"
-ECU_demo_eco_2: "Wirtschaftlicher Fortschritt"
-ECU_demo_eco_3: "Wirtschaftlicher Fortschritt"
 ECU_rally_army_idea: "Wächter der Demokratie"
 
 mauser_ecuador: "Mauser Ecuador"
@@ -70,6 +67,9 @@ ECU_totalist_party_long: "Movimento Maximista Ecuatoriano"
 
 ### Flags ###
 ECU_had_1936_elections: "Die Wahlen von 1936 fanden statt."
+
+### Tooltips ###
+ECU_PRU_potential_war_tt: "§RDies könnte zu einem Krieg zwischen [PRU.GetName] und [ECU.GetName] führen...§!"
 
 ### Focuses ###
 ## Political ##
@@ -433,6 +433,10 @@ ecu.42.a: "Armes Ecuador."
 ecu.43.t: "Peru lehnt den Frieden ab"
 ecu.43.d: "Die peruanischen Behörden haben sich heute mit einer überraschenden und beängstigenden Nachricht bei uns gemeldet: Peru weigerte sich, der Region Frieden zu bringen, indem es Pastaza behielt und sich zurückzog, und die Regierung versicherte, sie wolle bis nach Quito vorstoßen. Nur Gott weiß, welche Zukunft es jetzt in Ecuador gibt."
 ecu.43.a: "Dann ist es ein Kampf ums Überleben."
+
+ecu.44.t: "Gallo übernimmt die Kontrolle über Ecuador"
+ecu.44.d: "Alberto Enríquez Gallo, der offenbar nicht tatenlos zusehen wollte, wie die relativ liberale Regierung unter Ayoras PLRE die jüngsten Wahlen gewann und damit Ecuador zu schwächen drohte, hat in Quito einen erfolgreichen Putsch inszeniert. Nachdem er bereits die Regierung aufgelöst und einen neuen Rat aus Militärberatern gebildet hat, hat der neue Militärmachthaber schnell damit begonnen, Ecuador von angeblichen Bedrohungen und Gegnern zu säubern.\n\nObwohl das Land in letzter Zeit als freundliches Geschäftsumfeld für ausländische Investoren angesehen wurde, ist unklar, ob dieser Zustand unter dem neuen Regime erhalten bleiben wird."
+ecu.44.a: "Es scheint, als hätte der Liberalismus in Quito einfach\nkeine Zukunft gehabt."
 
 ### Country Names
 ECU: "Ecuador"

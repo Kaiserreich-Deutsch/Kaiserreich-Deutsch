@@ -32,7 +32,7 @@ Shanxi_Feng_Yuxiang: "Schwerpunktbaum von Guominjun"
 #Industrial Concerns
 #Material Concerns
 #Aircraft Designers
-#Armor Concerns
+#Armour Concerns
 
 ##- BOP -##
 
@@ -680,7 +680,7 @@ SHX_shanxi_automobile_company_concern_desc: "Die Nordwestliche Automobil Transpo
 SHX_aircraft_design_board: "Taiyuan Amt für Luftfahrzeugbau"
 SHX_aircraft_design_board_desc: "Die Initiative des Gouverneurs zum Aufbau einer einheimischen Luftstreitkraft in Shanxi, die in Zusammenarbeit mit dem Waffenkomitee des Taiyuan-Arsenals, der Forschungsabteilung der Militärtechnischen Schule und ausländischen Beratern entstanden ist, hat mit der Absicht der Provinz, einheimische Flugzeuge zu produzieren, eine neue Richtung eingeschlagen. Dieses neue Design-Board, das durch die kürzlich erfolgte Gründung einer Flugzeugfabrik unterstützt wurde, spiegelt die ehrgeizigen Ziele der Provinz Shanxi wider, die hofft, neue Höhen zu erreichen."
 
-#Armor Concerns
+#Armour Concerns
 SHX_arsenal_arms_committee: "Taiyuan Arsenal Waffenausschuss"
 SHX_arsenal_arms_committee_desc: "Das Taiyuan Arsenal baut nicht nur Feuerwaffen und Artillerie nach im Ausland gestohlenen oder gekauften Entwürfen. Es verfügt auch über ein innovatives, kluges Team von Konstrukteuren und Ingenieuren, die ständig an den verschiedenen Plänen feilen. Die deutschen und in Deutschland ausgebildeten Techniker des Taiyuan-Arsenals haben das Komitee davon überzeugt, erhebliche Mittel für die Entwicklung gepanzerter Fahrzeuge zur Verfügung zu stellen. Dieses ehrgeizige Vorhaben der Ingenieure von Shanxi hat hohe Erwartungen geweckt, doch ob die industrielle Basis von Shanxi tatsächlich in der Lage ist, die Entwürfe in nennenswerten Stückzahlen zu produzieren, bleibt fraglich."
 
@@ -981,12 +981,15 @@ SHX_upgrade_xiang_jun_model_spirit_effect_tt: "§PUnsere Armee wird sich weiter 
 SHX_rigorious_training_tt: "§LNach Abschluss der Ausbildung unserer Armee werden wir erhalten:§!"
 SHX_prepare_for_the_storm_effect_tt: "Baut 2 £GFX_land_fort_texticon §Y$bunker_plural$§! in jeder Provinz in §YWest-Shanxi§!"
 SHX_commissars_tt: "§LWenn wir diesen Schwerpunkt setzen, können wir entweder den Einfluss von Yan oder den von Feng stärken.§!"
-SHX_imitiate_foreign_air_designs_tt: "§YMit diesem Schwerpunkt erhalten wir ausländische Entwürfe von dem Geldgeber, den wir im vorherigen Schwerpunkt ausgewählt haben: "§CAusländische Berater einladen§!"§!"
+SHX_imitiate_foreign_air_designs_tt: "§YMit diesem Schwerpunkt erhalten wir ausländische Entwürfe von dem Geldgeber, den wir im vorherigen Schwerpunkt ausgewählt haben: \"§CAusländische Berater einladen§!\"§!"
 SHX_will_make_central_army_easier_tt: "§YWenn Sie diese Option wählen, wird es in Zukunft einfacher sein, einen §GZentralisierte Armee-Plan§! zu verfolgen.§!"
 SHX_will_make_regional_army_easier_tt: "§YWenn Sie diese Option wählen, wird es in Zukunft einfacher sein, einen §GRegionale Armee-Plan§! zu verfolgen.§!"
 SHX_harder_to_switch_tracks_tt: "§RUnsere frühere Entscheidung im Zusammenhang mit der Zentralisierung der Streitkräfte erschwert den Richtungswechsel.§!"
 SHX_roc_air_force_long_range_tt: "Hätten wir uns dafür entschieden, uns auf die Erweiterung unserer Reichweite zu konzentrieren, würden wir erhalten:"
 SHX_roc_air_force_cas_tt: "Hätten wir uns für die Verbesserung der Luft-Land-Integration entschieden, würden wir erhalten:"
+SHX_russian_aviation_instructors_tt: "§nWenn wir uns zu Beginn des Spiels für russische Berater entscheiden, erhalten wir:§!"
+SHX_japanese_aviation_instructors_tt: "§RWenn wir uns zu Beginn des Spiels für japanische Berater entscheiden, erhalten wir:§!"
+SHX_german_aviation_instructors_tt: "§gWenn wir uns zu Beginn des Spiels für deutsche Berater entscheiden, erhalten wir:§!"
 
 #Politics Tooltips
 SHX_wealth_and_power_tooltip: "§CSchaltet Entscheidungen zur Verwaltung von Einflussebenen frei§!"
@@ -2009,7 +2012,7 @@ SHX_feng_sic_shang_status_impotent_key: ""
 SHX.advisor.41.t: "Ein neuer Premierminister"
 SHX.advisor.41.intro: "Nachdem sich [Root.GetLeader] in seine neue Rolle als Präsident eingelebt hat, besteht seine erste Priorität darin, seine Kontrolle über die Exekutive zu bekräftigen. Als Präsident und Befehlshaber einer De-facto-Mehrheit ist es sein Recht, den Regierungschef zu ernennen, und natürlich wird es sich dabei um ein Mitglied aus seinem inneren Kreis handeln. Die Möglichkeit einer Kabinettsumbildung hat das bestehende Kabinett in Aufruhr versetzt und viele von ihnen dazu veranlasst, sich um einen höheren Posten zu bewerben oder zumindest ihren bestehenden zu schützen. Das Ziel vieler Spekulationen ist [Root.GetSecondInCommand], der de facto oberste Stellvertreter von [Root.Getleader], von dem viele annehmen würden, dass er der natürliche Spitzenkandidat wäre."
 SHX.advisor.41.closer: "Auch wenn die Macht letztlich in den Händen von [ROOT.GetLeader] liegt, ist es von größter Bedeutung, einen vertrauenswürdigen Stellvertreter zu haben, der seinen Willen ausführt. Und es wird sicherlich dabei helfen, die Beziehung des Präsidenten zu den anderen zu pflegen, die sich in den Hallen der Legislative drängen."
-#Oof this is awful. Basically to avoid potentially doubling up on the \n\n, each scripted loc needs to independently hold it.
+#Oof this is awful. Basically to avoid potentially doubling up on the\n\n, each scripted loc needs to independently hold it.
 SHX.advisor.41.d.1: "$SHX.advisor.41.intro$[SHX_yan_prime_minister_zhao_status_scripted_loc][SHX_yan_prime_minister_wang_status_scripted_loc]\n\nVertreter der jungen Garde ist Yans Neffe Liang Huazhi, der von einer schnellen Industrialisierung und der Militarisierung der Massen spricht. Er hat leicht Freundschaften mit gleichgesinnten Radikalen in den Regierungen geschlossen.[SHX_yan_prime_minister_su_status_scripted_loc]\n\n$SHX.advisor.41.closer$"
 SHX.advisor.41.d.2: "$SHX.advisor.41.intro$\n\nSun Yue war ein wichtiges Mitglied des alten Guominjun-Dreigestirns, ein mächtiger Militäroffizier mit festen Verbindungen innerhalb der Armee und des zivilen Apparats. Gerüchte über eine zunehmende Krankheit haben seine Bedeutung nicht geschmälert.\n\nHu Jingyi soll sich ebenfalls in einem schlechteren Gesundheitszustand befinden, aber das Triumvirat ist durch die Wiederbelebung der Nation wieder gestärkt worden. Er hat enge Verbindungen zu den Revolutionären des Südens, darunter auch zu Familienmitgliedern in prominenten Positionen der Kuomintang in Shaanxi, und setzt sich für weitreichende Reformen in der wiedervereinigten Nation ein.\n\nAuf der zivilen Seite der Guominjun-Bewegung ist Xue Dubi, ein Rechtsanwalt, der sich seit seiner Zeit bei der 16. gemischten Brigade unermüdlich für Feng einsetzt, ein weiterer erwägenswerter Mann. Mit seiner Erfahrung in zivilen Angelegenheiten und seinem Interesse an Justizreformen, Wasserschutz und Konstitutionalismus spricht er viele Reformer im Norden an.\n\nYu Xingqin ist ein in Kolumbien ausgebildeter Geistlicher für viele Christen innerhalb der alten Guominjun und wurde einst zu Fengs Generalsekretär ernannt. Er wird als \"Roter Priester\" gefeiert und hat seine Sympathie für die Chinesische Demokratische Liga und ihre Aktivisten bewiesen.[SHX_yan_prime_minister_shang_status_scripted_loc]\n\n$SHX.advisor.41.closer$"
 SHX.advisor.41.a: "Jia Jingde, voon der stillen alten Garde."
@@ -2168,10 +2171,10 @@ shx_zhifeng.21.c: "Wir sind Beijing gegenüber loyal, nicht [SHX.Capital.GetCapi
 shx_zhifeng.22.t: "[XSM.GetName] unterwirft sich der Zentralregierung"
 shx_zhifeng.22.d.1: "Als wir zum ersten Mal eine Vereinbarung mit [SHX.GetNameDef] unterzeichneten, dachten viele, es handele sich lediglich um eine Hinhaltetaktik, die kaum Früchte tragen würde. Umso mehr, als wir sie sanft dazu drängten, nach Westen zu gehen (und uns im Osten allein zu lassen). Es hat jedoch den Anschein, als hätte uns dieses Arrangement einen ersten Erfolg beschert, da ihre jüngste Einschüchterung der Hui-Clans [XSM.GetNameDef] dazu zwang, sich vor uns niederzuwerfen.\n\nDiese verringerte Autonomie der Ma-Clans hat unseren Einfluss im Nordwesten stark erweitert und dient als Triumph für [SHX.GetLeader], der sich als nützlicher Helfer für die Zentralregierung erwiesen hat. Ob die Abenteuer von [SHX.GetNameDef] im Nordwesten weitergehen werden, bleibt abzuwarten, aber es scheint, dass die Ambitionen des gerissenen Gouverneurs nicht nur auf das Hui-Land beschränkt sind."
 shx_zhifeng.22.d.2: "Es scheint, dass wir [XSM.GetLeader] und sein politisches Geschick unterschätzt haben. Anstatt sich unseren Forderungen zu unterwerfen, sich in unseren geplanten \"Nordwestchinesischen Politischen Rat\" zu integrieren, haben sie uns stattdessen umgangen und sind direkt zur Zentralregierung gegangen, um mit ihr über Autonomie im Austausch für Loyalität zu verhandeln. Zu diesem Zeitpunkt können wir nicht viel tun, außer zu schmollen, aber es scheint, dass die Zentralregierung unsere Geste zu schätzen weiß.\n\nDa Xibei zumindest nominell mit uns verbündet ist, ist der Rest des Westens nun offen für weitere Abenteuer. Ob wir den Ehrgeiz und den Mut haben, die chinesische Souveränität in die zerklüfteten Hügel und flachen Steppen zu jagen, ist eine ganz andere Frage."
-shx_zhifeng.22.a: "[SHX.GetNameDef] sendet uns herzliche Grüße."
+shx_zhifeng.22.a: "[SHX.GetNameDefCap] sendet uns herzliche Grüße."
 shx_zhifeng.22.b: "Wir haben der Nation einen wertvollen Dienst erwiesen."
 
-shx_zhifeng.23.t: "[XSM.GetNameDef] lehnt unser Angebot ab"
+shx_zhifeng.23.t: "[XSM.GetNameDefCap] lehnt unser Angebot ab"
 shx_zhifeng.23.d: "Die unbeugsamen Hui-Clans des Nordwestens sind zusammengekommen, um unser Angebot zu prüfen, und haben uns prompt zurückgewiesen. Mit der Behauptung, dass wir nicht legitimiert seien, unsere Forderungen zu stellen, und darüber hinaus unsere eigenen Ansprüche auf die Region Xibei in Frage stellen, haben die Ma-Führer stattdessen Kräfte mobilisiert, um eine mögliche Invasion abzuwehren. In ihrem Bestreben, die Hui-Autonomie zu schützen und sich selbst vor der Verantwortung zu bewahren, haben sie jedoch den Blick für das große Ganze verloren: China ist nur eine Nation und wird keine Abtrünnigen dulden, egal ob Hui, Mongolen oder Tibeter. In unseren Händen liegt nun der Casus Belli, den wir brauchen, um in das riesige Gebiet der Ma-Clique einzumarschieren. Ob dies eine lohnende Expedition ist, ist eine ganz andere Frage."
 shx_zhifeng.23.a: "Entsendet die Armee!"
 
@@ -2927,6 +2930,12 @@ SHX_rapid_naval_modernisation_idea_desc: "Die ursprünglich im Binnenland Shanxi
 
 SHX_rapid_air_development_idea: "Modernisierungsprogramm für die Luftstreitkraft"
 SHX_rapid_air_development_idea_desc: "Sowohl Yan Xishan als auch Feng Yuxiang engagierten sich früher in kleinen Projekten für den Aufbau einer Luftstreitkraft, da sie von den erfolgreichen Flügen westlicher Piloten und deren Einsatz während des Weltkriegs beeindruckt waren. Ihren unabhängigen Schulen gelang es, einige Dutzend Piloten auszubilden, allerdings nie in einem Umfang, der einen nationalen Konflikt hätte entscheiden können. Nachdem sie endlich die industrielle Basis gesichert haben, um sich eine nennenswerte Luftstreitkräfte leisten zu können, haben [SHX.GetLeader] und seine Kommandeure den massiven Ausbau der nationalen Luftstreitkräfte angeordnet. Wenn sie erfolgreich ist, könnte sie gegen die verbleibenden Kriegsherren und möglicherweise sogar in einem gleichwertigen Konflikt mit einer anderen Großmacht eine entscheidende Rolle spielen."
+SHX_rapid_air_development_russian_idea: "Russisches Luftstreitkraft-Modernisierungsprogramm"
+SHX_rapid_air_development_russian_idea_desc: "$SHX_rapid_air_development_idea_desc$/n/nUm dies zu erreichen, haben wir die Hilfe von Angehörigen der russischen Luftstreitkräfte in Anspruch genommen."
+SHX_rapid_air_development_japanese_idea: "Japanisches Luftstreitkraft-Modernisierungsprogramm"
+SHX_rapid_air_development_japanese_idea_desc: "$SHX_rapid_air_development_idea_desc$/n/nUm dies zu erreichen, haben wir die Hilfe von Angehörigen der japanischen Luftstreitkräfte in Anspruch genommen."
+SHX_rapid_air_development_german_idea: "Deutsches Luftstreitkraft-Modernisierungsprogramm"
+SHX_rapid_air_development_german_idea_desc: "$SHX_rapid_air_development_idea_desc$/n/nUm dies zu erreichen, haben wir die Hilfe von Angehörigen der deutschen Luftwaffe in Anspruch genommen."
 
 SHX_national_academies: "Nationale Akademien"
 SHX_national_academies_desc: "China war einst ein blühendes Land, ein Leuchtturm der Aufklärung und des Fortschritts für die ganze Welt. Das letzte Jahrhundert hat es seiner Größe beraubt und China gezwungen, am Rande zu stehen. In diesem neuen Zeitalter der Stabilität können sich weise Männer und andere Intellektuelle wieder in unseren neu renovierten und erstatteten Einrichtungen versammeln. Gelehrte, die zuvor gezwungen waren, im Ausland zu studieren, um eine moderne Ausbildung zu erhalten, können endlich wieder kommen und eine neue Generation unterrichten, die keine Angst mehr davor hat, eingezogen oder von ignoranten Kriegsherren verfolgt zu werden. Mit einer Reihe von Finanzmitteln für die Universitäten und Hochschulen von [SHX.GetName] arbeitet [SHX.GetLeader] daran, ein neues goldenes Zeitalter für die chinesische akademische Welt zu schaffen."
@@ -3633,8 +3642,12 @@ SHX_encourage_moral_soldiers_desc: "Die Armee ist in ganz China kein ehrenwerter
 SHX_prepare_for_the_storm: "Auf den Sturm vorbereiten"
 SHX_prepare_for_the_storm_desc: "Unsere Feinde werden uns von oben angreifen und versuchen, in unsere gebirgige Provinz einzudringen. Wir müssen Schutz vor ihren Bomben suchen und unsere Kräfte auf den Sturm vorbereiten. Wir werden ein großes Netz von Höhlen und Tunneln in ganz Shanxi und Taiyuan anlegen, mit Militär- und Provinzapparaten, die in der Lage sind, die Arbeit der Regierung aus den Tiefen der Erde heraus fortzusetzen."
 
-SHX_renovate_the_taiyuan_arsenal: "Renovierung des Arsenals von Taiyuan"
-SHX_renovate_the_taiyuan_arsenal_desc: "Als Yan Xishan die Provinz Shanxi übernahm, zeigte sein Motto \"Waffengewalt ist der Rückhalt der Gerechtigkeit\", dass er davon überzeugt war, dass die Provinz einen zuverlässigen Strom moderner Waffenproduktion vor Ort brauchte. Mit dem Bau des Arsenals wurde 1912 begonnen. Seitdem ist das Arsenal in ganz China für die Herstellung hochwertiger Maschinengewehre, Feldgeschütze und Mörser bekannt. Wir sollten Maßnahmen ergreifen, um die Fähigkeiten des Arsenals in Vorbereitung auf künftige Konflikte zu erweitern."
+SHX_renovate_the_taiyuan_arsenal: "[SHX_taiyuan_arsenal_loc]"
+SHX_renovate_the_taiyuan_arsenal_desc: "[SHX_taiyuan_arsenal_desc]"
+SHX_taiyuan_arsenal_default_desc: "Als Yan Xishan die Provinz Shanxi übernahm, zeigte sein Motto \"Waffengewalt ist der Rückhalt der Gerechtigkeit\", dass er davon überzeugt war, dass die Provinz einen zuverlässigen Strom moderner Waffenproduktion vor Ort brauchte. Mit dem Bau des Arsenals wurde 1912 begonnen. Seitdem ist das Arsenal in ganz China für die Herstellung hochwertiger Maschinengewehre, Feldgeschütze und Mörser bekannt. Wir sollten Maßnahmen ergreifen, um die Fähigkeiten des Arsenals in Vorbereitung auf künftige Konflikte zu erweitern."
+SHX_move_arsenal_desc: "Das Taiyuan-Arsenal ist seit 1912 die wichtigste Quelle für die lokale Produktion moderner Waffen in Shanxi. Bekannt für die Herstellung hochwertiger Maschinengewehre, Feldgeschütze und Mörser, ging das Arsenal durch den Verlust der Provinz Taiyuan verloren. [SHX.GetLeader] hat daraufhin angeordnet, dass in der Provinz Yulin mit dem Bau einer neuen Anlage begonnen werden soll, um die militärische Produktion trotz des Verlusts aufrechtzuerhalten."
+SHX_taiyuan_arsenal_default: "Renovierung des Arsenals von Taiyuan"
+SHX_move_arsenal: "Taiyuan-Arsenal nach Yulin verlegen"
 
 SHX_invite_foreign_advisors: "Ausländische Berater einladen"
 SHX_invite_foreign_advisors_desc: "Es ist kein Geheimnis, dass die Armeen des modernen Chinas trotz ihrer glanzvollen Militärgeschichte weitgehend hinter westlichen Standards zurückgeblieben sind. Um unsere militärische Entwicklung und Ausbildung zu beschleunigen, sollten wir den Rat und die Unterstützung von Militäroffizieren aus [RUS.GetNameDef], [GER.GetNameDef] oder [JAP.GetNameDef] suchen."

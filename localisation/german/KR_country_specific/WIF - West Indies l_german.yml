@@ -65,9 +65,6 @@ WIF_increased_artillery_production: "Erhöhte Artillerieproduktion"
 
 WIF_land_air_cooperation: "Land-Luft-Zusammenarbeit"
 
-WIF_air_force_support: "Unterstützung durch die Luftstreitkräfte"
-WIF_air_force_support_desc: "Die Zusammenarbeit zwischen der Luftstreitkraft und der Armee der Westindischen Inseln hat beide miteinander verflochten und die Art und Weise, wie wir kämpfen, verändert."
-
 WIF_new_command: "Neues Kommando"
 WIF_new_command_desc: "Mit der Wahl von Cliffords Plan als offizielle Doktrin für die Westindischen Inseln wurde großer Wert auf einen angemessenen Plan und kompetente Generäle zu dessen Umsetzung gelegt."
 
@@ -250,7 +247,6 @@ wifpol.3100_tt: "§GDem Empire treu ergebene Offiziere werden sich auf unsere Se
 wifpol.3101_tt: "§GAlle Offiziere, die ursprünglich in Westindien eingesetzt waren, sind auf ihren früheren Posten zurückgekehrt.§!"
 
 ## Army Branch ##
-WIF_radio_setup_tooltip: "Radarstationen werden an verschiedenen Orten im ganzen Land eingerichtet.\n"
 WIF_cunningham_doctrine_tooltip: "Wir werden uns auf die Aufstellung einer Marine konzentrieren, die weit von unseren eigenen Küsten entfernt ihre Kräfte einsetzen kann."
 WIF_leatham_doctrine_tooltip: "Wir werden uns auf die Aufstellung einer Marine konzentrieren, die unser Eigentum in der Karibik angemessen schützen kann."
 WIF_forced_smol_navy: "Wir werden gezwungen sein, zu Leatham' Plan überzugehen."
@@ -336,8 +332,6 @@ WIF_gained_puerto_rico: "Gewährte uns Souveränität über Puerto Rico"
 
 ### Decisions ###
 WIF_moyne_report_timer: "Der Moyne-Bericht wird veröffentlicht"
-WIF_cement_surinamese_administration: "Zement Surinamische Verwaltung"
-WIF_cement_surinamese_administration_desc: "Die Verwaltung der Westindischen Inseln vereint die britischen und französischen Kolonialverwaltungen und Rechtssysteme. Mit ausreichenden Investitionen und im Laufe der Zeit kann dies auch im neu erworbenen Surinam erreicht werden."
 
 WIF_airway_project_category: "Projekt Luftstraße"
 WIF_airway_project_category_desc: "Zurzeit erstrecken sich die Westindischen Inseln über viele Orte, von den Bermudas bis hinunter nach Cayenne. Die Marine leistet uns zwar gute Dienste, um diese Gewässer zu transportieren, aber wer weiß, wann sie uns im Stich lässt und uns vom Großteil unseres Landes isoliert zurücklässt? Aus diesem Grund hat die Regierung mit dem Bau von Flughäfen und Stützpunkten im ganzen Land begonnen, um für den Fall, dass wir unsere Gewässer nicht mehr befahren können, abgesichert zu sein."
@@ -408,9 +402,6 @@ WIF_NCP_final_voting_gain_votes: "Überzeugt einige Abgeordnete zur Stimmabgabe"
 
 WIF_NCP_final_voting: "Endabstimmung über die Verfassung"
 WIF_NCP_final_voting_desc: "Wenn wir mehr Ja- als Nein-Stimmen haben, wird die neue Verfassung verabschiedet. Die Auswirkungen der neuen Verfassung auf die Rechtsordnung werden von ihrer Qualität abhängen. Verlieren wir hingegen die Abstimmung, wird dies ein politisches Fiasko für die NCP und einen Verlust an Stabilität bedeuten."
-
-WIF_parliament_category: "Parlament der Westindischen Föderation"
-WIF_parliament_category_desc: "£social_democrat_small    PA:   §R[?WIF_pas_parl]§!\n\n£social_liberal_small    PA:   §H[?WIF_paf_parl]§!\n\n£market_liberal_small    UP:   §Y[?WIF_up_parl]§!\n\n£social_conservative_small    NCP:   §C[?WIF_ncp_parl]§!\n\n§GRegierungspartei: §![Root.GetRulingParty] ([Root.GetRulingIdeologyNoun])"
 
 WIF_2nd_cayenne_meeting_category: "2. Cayenne-Treffen"
 WIF_2nd_cayenne_meeting_category_desc: "Unentschlossener Pool: §Y[?WIF_2nd_cayenne_meeting_undecided]§!\nBeauftragte für die Vereinbarung: §G[?WIF_2nd_cayenne_meeting_for]§!\nRepräsentanten gegen die Vereinbarung: §R[?WIF_2nd_cayenne_meeting_against]§!\n\nWir müssen so viele Unterstützer wie möglich gewinnen, aber 51 werden es uns ermöglichen, das neue Abkommen zu verabschieden."
@@ -676,14 +667,6 @@ wifpol.102.t: "Die westindischen Plantagen"
 wifpol.102.d: "Die Gesetze, die die Plantagen betreffen, sind alt, einige stammen sogar noch aus der Zeit der Sklaverei. Dies wird deutlich, wenn man die Lebensqualität und die Rechte unserer Plantagenarbeiter betrachtet, die erschreckend sind. Diese Arbeiter sind eine der Hauptquellen der sozialistischen Unruhen, und sie streiken immer häufiger, während sie immer weniger arbeiten. Jede Reform, die diesen Menschen zu einem höheren Lebensstandard verhilft, würde jedoch auf den Widerstand der Plantagenbesitzer stoßen, da sie ihre Gewinne schmälern würde. Sie würde auch eine der Haupteinnahmequellen für die Besteuerung der Föderation selbst verringern und uns in den Augen Kanadas schwächen."
 wifpol.102.a: "Verabschiedung von Gesetzen, die höhere Lebensstandards festschreiben."
 wifpol.102.b: "Stellt sichern, dass sie weiterarbeiten. Plantagenarbeiter brauchen keine zusätzlichen Privilegien."
-
-wifarmy.4.t: "Die Lage der Doktrin"
-wifarmy.4.d: "Die Armee der Westindischen Inseln war aufgrund ihrer Unerfahrenheit und der ständigen Versetzung britischer Generäle in den 20er Jahren lange Zeit ohne Doktrin. Mit einem konsolidierten und kohärenteren Generalstab könnten die Dinge jedoch endlich in Bewegung kommen. Der Generalstab wird jedoch unsere im Vergleich zu anderen Entente-Ländern begrenzte Bevölkerung im Auge behalten müssen.\n\nEs gibt zwei Vorschläge, einen vom neuen Gouverneur Reginald Hildyard und den anderen vom langjährigen Bede Clifford. Reginald schlägt vor, den Mangel an Arbeitskräften durch den Einsatz schwerer Waffen auszugleichen, um unsere Feinde zu überwältigen, bevor wir viele Verluste erleiden. Bede hält dem entgegen, dass ein erfahrener Generalstab allen helfen wird, in Zeiten der Gefahr die richtigen Entscheidungen zu treffen und sowohl Vorräte als auch Arbeitskräfte zu sparen. Es kann wirklich nur ein Vorschlag ausgewählt werden, und es liegt an uns, einen zu wählen."
-wifarmy.4.a: "Reginald hat die Erfahrung, die wir brauchen!"
-wifarmy.4.b: "Bede wird immer vertrauenswürdig sein!"
-
-WIF_internationale_event_army_4: "Großbritannien"
-WIF_entente_event_army_4: "Kanada"
 
 wifarmy.5.t: "Der Rücktritt von Thomas Cubbit"
 wifarmy.5.d: "Obwohl einige mit diesem Schritt gerechnet hatten, überraschte Thomas Cubbit viele mit seinem Rücktritt als Gouverneur von Bermuda heute um 9:00 Uhr morgens. Er hat sich sowohl mit der westindischen als auch mit der kanadischen Regierung getroffen und sich offiziell aus der Politik und auch aus der Armee zurückgezogen, um sich in den letzten Jahren seines Lebens zur Ruhe zu setzen, wie er sagt. Seine Position wurde von einem anderen bekannten General aus dem Weltkrieg, Reginald Hildyard, übernommen. Reginald hat versprochen, das fortzusetzen, was Cubbit auf den Bermudas begonnen hat, indem er die Entwicklung dort unterstützt und der Westindischen Föderation hilft, ihre Armee zu verbessern."
@@ -1203,7 +1186,7 @@ WIF_declare_confederation: "Erklärung der Konföderation"
 WIF_declare_confederation_desc: "Jetzt, da unsere Macht gefestigt ist und wir mehr Unterstützer haben als je zuvor, ist es an der Zeit, eines unserer riskantesten Versprechen umzusetzen: Die Westindische Föderation soll in eine Konföderation gleichberechtigter, aber autonomer Staaten umgewandelt werden."
 
 WIF_pa_lp_coalition: "PA-LP-Koalition"
-WIF_pa_lp_coalition_desc: "In dem Bemühen, die radikalsten sozialistischen Gruppen an den Rand zu drängen, hat sich die PA mit der Liberalen Partei zusammengeschlossen, und beide Parteien werden nun eng zusammenarbeiten, um die Ideale des Liberalismus in unserem Land zu verwirklichen."
+WIF_pa_lp_coalition_desc: "In dem Bemühen, die radikalsten sozialistischen Gruppen an den Rand zu drängen, hat sich die PA mit der Labour Partei zusammengeschlossen, und beide Parteien werden nun eng zusammenarbeiten, um die Ideale des Liberalismus in unserem Land zu verwirklichen."
 WIF_forging_new_agreement: "Vorschlag für ein neues Abkommen"
 WIF_forging_new_agreement_desc: "Das derzeitige Abkommen scheint zu kompromissbereit zu sein. Es ist an der Zeit, ein neues Abkommen zu verabschieden, das den Bürgern der Föderation mehr Freiheit garantiert. Gleichzeitig sollte sich der Staat aus dieser intensiven Einmischung in das Leben der Menschen zurückziehen. Wir müssen einen Entwurf für ein neues Abkommen ausarbeiten und ihn an die wichtigsten politischen Parteien schicken. Dann werden wir in der Lage sein, die 2. Konferenz in Cayenne zu organisieren."
 WIF_reconcile_socialists: "Versöhnung mit den Sozialisten"
@@ -1284,8 +1267,6 @@ WIF_integration_process4: "Die Entente hat Unterstützung im Integrationsprozess
 WIF_integration_process5: "Gerichtsverhandlungen in Guyana haben begonnen"
 WIF_integration_process6: "Französische Wehrpflicht wurde eingeführt"
 WIF_integration_process7: "Es wurden universelle Rechte eingeführt"
-WIF_integration_flyer2: "Flugblatt auf Französisch ist verboten"
-WIF_integration_flyer1: "Flyer auf Französisch ist erfüllt"
 WIF_new_constitution_decisions_enabled: "§CNeue Verfassung§! Entscheidungen werden ermöglicht"
 WIF_integration_process_eff: "§CIntegrations§! Entscheidungen werden nach einigen Ereignissen aktiviert"
 WIF_integration_process_eff2: "§CMehr Integrations§! Entscheidungen werden ermöglicht.\n§REin erfolgreicher Abschluss wird leichter zu erreichen sein.§!"
@@ -1395,8 +1376,6 @@ WIF_jamaican_dockyard_project: "Jamaikanisches Werftprojekt"
 WIF_jamaican_dockyard_project_desc: "Jamaika ist eines der glänzenden Juwelen der Föderation, und als solches wäre es mehr als geeignet, Werften zu unterhalten, um unsere Marine zu modernisieren und zu erweitern."
 WIF_defender_central_america: "Verteidigung des Karibischen Meeres"
 WIF_defender_central_america_desc: "Das Karibische Meer ist sowohl unser Gefängnis als auch unsere Barriere gegen Eindringlinge. Deshalb sollten wir nicht nur versuchen, durch seine kristallklaren Gewässer zu reisen, sondern vor allem versuchen, uns von allen zu befreien, die den Frieden in den Gewässern der Föderation stören könnten."
-WIF_central_intervention: "Intervention"
-WIF_central_intervention_desc: "Intervention"
 
 ## Army Tree ##
 WIF_upgrading_standards: "Verbesserung unserer Standards"

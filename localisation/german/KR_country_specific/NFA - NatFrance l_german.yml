@@ -75,14 +75,12 @@ NFA_Focus_On_Algeria: "Konzentriert die Bemühungen auf Algerien"
 NFA_Integrate_Algeria: "Integriert Algerien in die Französische Union"
 NFA_Focus_On_Tunisia: "Konzentriert die Bemühungen auf Tunesien"
 NFA_Integrate_Tunisia: "Integriert Tunesien in die Französische Union"
-NFA_coring_tunis_tt: "§Y[458.GetName]§!:\n   Der Staat ist jetzt eine Kernprovinz der §YFranzösischen Republik§!.\n   Fügt Folgendes hinzu:\n     $MODIFIER_RECRUITABLE_POPULATION_FACTOR$: §R-35.00%§!\n§Y[665.GetName]§!:\n   Der Staat ist jetzt eine Kernprovinz der §YFranzösichen Republik§!.\n   Fügt Folgendes hinzu:\n     $MODIFIER_RECRUITABLE_POPULATION_FACTOR$: §R-35.00%§!"
 NFA_Focus_On_Guinea: "Konzentriert die Bemühungen auf Französisch-Guinea"
 NFA_Integrate_Guinea: "Integriert Guinea in die Französische Union"
 NFA_Focus_On_Mauritania: "Konzentriert die Bemühungen auf Mauretanien"
 NFA_Integrate_Mauritania: "Integriert Mauretanien in die Französische Union"
 NFA_Focus_On_French_Sudan: "Konzentriert die Bemühungen auf Französich-Sudan"
 NFA_Integrate_French_Sudan: "Integriert Französich-Sudan in die Französische Union"
-NFA_coring_french_sudan_tt: "§Y[556.GetName]§!:\n   Der Staat ist jetzt eine Kernprovinz der §YFranzösischen Republik§!.\n   Fügt Folgendes hinzu:\n     $MODIFIER_RECRUITABLE_POPULATION_FACTOR$: §R-35.00%§!\n§Y[1095.GetName]§!:\n   Der Staat ist jetzt eine Kernprovinz der §YFranzösichen Republik§!.\n   Fügt Folgendes hinzu:\n     $MODIFIER_RECRUITABLE_POPULATION_FACTOR$: §R-35.00%§!"
 NFA_Focus_On_Ivory_Coast: "Konzentriert die Bemühungen auf die Elfenbeinküste"
 NFA_Integrate_Ivory_Coast: "Integriert die Elfenbeinküste in die Französische Union"
 NFA_Focus_On_Upper_Volta: "Konzentriert die Bemühungen auf Obervolta"
@@ -176,8 +174,6 @@ NFA_rebelled_TUN: "Tunisia hat rebelliert"
 NFA_rebelled_SEN: "Senegal hat rebelliert"
 #only if occupied by another revolter:
 NFA_rebelled_SIE: "Sierra Leone hat rebelliert"
-NFA_white_peace_isolated_tooltip: "Der Rebellenaufstand muss von anderen Ländern, die mit uns im Krieg sind, isoliert werden"
-NFA_released_by_revolter_trigger_tooltip: "Die Kolonie wird nicht von einem anderen revoltierenden Land kontrolliert"
 
 #Resistance Modifier
 
@@ -226,13 +222,9 @@ NFA_Small_Propaganda_desc: "Unsere erste Priorität muss Hilfe sein: Frankreich 
 NFA_Large_Scale_Effort: "Desyndikalisierungsbemühung"
 NFA_Large_Scale_Effort_desc: "Die unmittelbaren Sorgen unseres Volkes haben begonnen gelöst zu werden, und es ist nun an der Zeit, einen langen und beschwerlichen Weg einzuschlagen: die Desyndikalisierung. In weniger als zwanzig Jahren haben die Roten immensen Schaden angerichtet: Ihre Ideologie hat jeden Aspekt der französischen Gesellschaft zutiefst befleckt, von den sozialen Strukturen und der Wirtschaft bis hin zur Bildung und den Streitkräften. Natürlich ist es unmöglich, die Vergangenheit auszulöschen, und einige Dinge werden nie ungeschehen gemacht werden, und als solche werden wir das Gute bewahren, das Schlechte niederreißen, Gerechtigkeit für diejenigen bringen, die sie verdienen, und sicherstellen, dass unser Volk nie wieder vom Syndikalismus in Versuchung geführt wird. An erster Stelle steht die Sicherstellung, dass unser Volk die volle Wahrheit über die Ideologie erfährt, die ihm aufgezwungen wurde."
 NFA_Focus_Paris: "Ressourcen für die Integration von Paris bereitstellen"
-NFA_Core_Paris: "Gliedert Paris ein"
 NFA_Focus_Provence: "Ressourcen für die Integration der Provence bereitstellen"
-NFA_Core_Provence: "Gliedert Provence ein"
 NFA_Focus_Lyonnais: "Ressourcen für die Integration von Lyonnais"
-NFA_Core_Lyonnais: "Gliedert Lyonnais ein"
 NFA_Focus_Bordeaux: "Ressourcen für die Integration von Bordeaux"
-NFA_Core_Bordeaux: "Gliedert Bordeaux ein"
 NFA_Focus_Lille: "Zuweisung von Ressourcen für die Integration von Lille"
 
 # Generic Coring #
@@ -410,30 +402,19 @@ NATFRA_Extended_Powers_idea: "Erweiterte Befugnisse"
 #Union Sacrée Ideas
 
 NATFRA_republican_school_idea: "Republikanisches Schulsystem"
-NATFRA_republican_school_idea_2: "Republikanisches Schulsystem"
-NATFRA_restored_parliament_1_idea: "Wiederhergestellter Parlamentarismus"
-NATFRA_restored_parliament_2_idea: "Wiederhergestellter Parlamentarismus"
-NATFRA_parliament_supremacy_idea: "Parlamentarische Oberhoheit"
 NATFRA_monetary_reforms_idea: "Währungsreformen"
 NATFRA_strong_civilian_sector_1_idea: "Gestärkter ziviler Sektor"
-NATFRA_strong_civilian_sector_2_idea: "Gestärkter ziviler Sektor"
 NATFRA_early_welfare_state_idea: "Aufkeimender Wohlfahrtsstaat"
 NATFRA_nationalize_weapons_idea: "Verstaatlichte Arsenale"
 NATFRA_CFF_Cooperation_idea: "Zusammenarbeit der CFF"
 NATFRA_Cemented_Coalition_idea: "Cemented Coalition"
 NATFRA_Corporatist_Policies_1_idea: "Korporatistische Politik"
-NATFRA_Corporatist_Policies_2_idea: "Korporatistische Politik"
-NATFRA_Corporatist_Policies_3_idea: "Korporatistische Politik"
 NATFRA_Labor_Control_idea: "Arbeitssteuerung"
-NATFRA_Transport_Sahara_idea: "Nationale Gesellschaft für Saharatransporte"
 NATFRA_militarized_youths_idea: "Soziale und patriotische Jugend"
 NATFRA_Republican_Caesar_idea: "Republikanischer Cäsar"
-NATFRA_Cement_Coalition_idea: "Zementierte Koalition"
 
 #AF Ideas
 
-NATFRA_Royal_Dictatorship_idea: "Königliche Diktatur"
-NATFRA_End_Parliamentarism_idea: "Ende des Parlamentarismus"
 NATFRA_Le_Pays_Reel_idea: "Le Pays Réel"
 NATFRA_Crush_the_Anti_France_idea: "Zerquetscht das 'Anti-Frankreich'"
 NATFRA_Crush_the_Anti_France_idea_desc: "Die vier konföderierten Stände, die Anti-Franzosen, jeder gute Franzose weiß, wer mit diesen Bezeichnungen gemeint ist, zumindest behauptet das die Action Française... Überall in [NFA.GetNameDef] sind Fanatiker auf die Straße gegangen, um Freimaurern, Protestanten, Juden und Metikern Gewalt anzutun. Taten, bei denen die Polizei aufgrund des Drucks von Camelot ein Auge zudrückt. Nur eines ist sicher: Die Straßen werden nicht sicher sein, bis dieser Eifer nachlässt."
@@ -500,8 +481,6 @@ NATFRA_New_Air_Tactics_idea: "Taktik aus der Luft"
 NATFRA_Bataille_d_Escadres_idea: "Kampf der Flügel"
 NATFRA_Young_Officers_0: "Zentrum für taktische Studien"
 NATFRA_Young_Officers_1: "Innovationen der jungen Garde"
-NFA_Full_Airbase_tt: "In Algier und Korsika können keine Luftstützpunkte mehr gebaut werden"
-NFA_Full_AA_tt: "In Algier und Korsika können keine Flugabwehrgeschütze mehr gebaut werden"
 NATFRA_Air_Effort_1: "Totale Luftbemühungen"
 NATFRA_naval_training_idea: "Marineinvasionsplanung"
 NATFRA_Ministry_of_Combined_Arms_idea: "Ministerium für kombinierte Streitkräfte"
@@ -520,6 +499,13 @@ NFA_focused_resistance_efforts: "Gezielte Anti-Widerstands-Bemühungen"
 NFA_small_propaganda_effort: "Kleine Propagandaaktion"
 NFA_large_propaganda_effort: "Große Propagandaaktion"
 
+NFA_railway_strike_modifier: "Eisenbahnstreik"
+NFA_tunisian_unrest_modifier: "Unruhen in Tunesien"
+NFA_reorganised_administration_modifier: "Reorganisierte Verwaltung"
+
+#Reclamation Ideas
+NFA_sabotage_modifier: "Sabotage"
+
 #Spy Ideas
 
 NFA_expanded_spy_network: "Erweitertes Spionagenetzwerk"
@@ -530,9 +516,7 @@ NFA_communard_influence: "Verbleibender kommunistischer Einfluss"
 NFA_Communard_Resistance: "Verbleibender kommunistischer Widerstand"
 
 NFA_GER_eco_reparations_idea: "Kriegsreparationen"
-GER_NFA_eco_reparations_idea: "Kriegsreparationen"
 NFA_Arms_Treaty_idea: "Kongress von Lyon - Waffenhandelsvertrag"
-NFA_Arms_Treaty_Harsh_idea: "Kongress von Lyon - Waffenhandelsvertrag"
 
 FRP_Arms_Treaty_idea: "Deutsche Überwachung"
 FRP_Arms_Treaty_idea_desc: "Zum dritten Mal in siebzig Jahren haben wir eine Niederlage gegen die deutschen Waffen erlebt. Siegreich über uns, haben sie große Einschränkungen über unsere Industrialisierung und die Größe des Militärs, das wir Feld haben gesetzt."
@@ -540,7 +524,6 @@ FRP_Arms_Treaty_idea_desc: "Zum dritten Mal in siebzig Jahren haben wir eine Nie
 NATFRA_Reconstruction_Commission: "Generalkommission für Wiederaufbau"
 NATFRA_Expanded_Resource_Extraction: "Erweiterte Ressourcenextraktion"
 NATFRA_Rebirth_From_Ruin_idea: "Wiedergeburt aus der Asche"
-NATFRA_Reimplemented_Conscription_idea: "Wiedereinführung der Wehrpflicht"
 NATFRA_War_GER_idea: "Rache für Versailles"
 NATFRA_Never_Fall_idea: "Niemals sollen wir wieder fallen"
 
@@ -557,12 +540,8 @@ NATFRA_Return_Monarch_1_idea: "Ein zurückkehrender Monarch"
 NATFRA_Return_Monarch_1_idea_desc: "Das Frankreich, in das wir zurückgekehrt sind, ist nicht das, das wir vor Jahrzehnten hinter uns gelassen haben. Die kommunistische Regierung hat jahrelang Propaganda in die Köpfe der Menschen gebohrt und sie blind dafür gemacht, wer Frankreich zu dem Land gemacht hat, das sie heute ist! Die Monarchie hat Frankreich in der Vergangenheit aufgebaut, und jetzt wird die Monarchie Frankreich wieder aufbauen!"
 NATFRA_Cercle_Proudhon_1_idea: "Cercle Proudhon"
 NATFRA_Cercle_Proudhon_1_idea_desc: "Der Cercle Proudhon, eine Denkfabrik, die aus nationalsyndikalistischen Führern der Vorkriegszeit besteht, arbeitet jetzt mit der Krone zusammen, um unserem Volk zu helfen, zu verstehen, dass der nationale Integralismus und der König der wahre Weg sind, um das Schicksal Frankreichs zu erfüllen."
-NATFRA_Province_Parliament_idea: "Wiederhergestellte Provinzparlamente"
-NATFRA_Province_Parliament_idea_desc: "Die Revolution von 1789 hatte den französischen Provinzen ihre Autonomie genommen und ihnen ihre Rechte, Privilegien und lokalen Identitäten verweigert. Die neu wiederhergestellten Parlamente werden dafür sorgen, dass jede Provinz so regiert wird, wie es sein sollte, mit angemessener Autonomie und Rücksicht auf ihre Besonderheiten."
 NATFRA_Expand_Camelots_idea: "Erweitertes Camelots"
 NATFRA_Expand_Camelots_idea_desc: "Die Camelots haben sich erfolgreich in eine Massenjugendorganisation verwandelt, die sicherstellt, dass eine neue Generation frei von sozialistischer Korruption erzogen wird, die bereit ist, Gott, Krone und Land zu dienen."
-NATFRA_Social_Doctrine_idea: "Erzwungene Sozialdoktrin"
-NATFRA_Social_Doctrine_idea_desc: "Die Soziallehre der katholischen Kirche verlangt, dass der Staat und die Gläubigen die Menschenwürde sichern. Indem er sie durchsetzt, zeigt der König nicht nur seine persönliche Frömmigkeit und führt unser leidgeprüftes Volk zu einem heiligeren Leben, sondern sorgt auch dafür, dass es nie wieder in Versuchung gerät, dem gottlosen Sozialismus zu verfallen."
 NATFRA_Integral_Monarch_idea: "Ein integraler Monarch"
 NATFRA_Integral_Monarch_idea_desc: "Es bleibt noch viel zu tun, es wird Jahre dauern, die Schäden der Revolutionen zu beseitigen, aber wir sind endlich auf dem richtigen Weg. Frankreich wird wieder von einem frommen Monarchen geführt, der das Pays Réel wiederhergestellt hat und bereit ist, uns zu weiterem Ruhm zu führen. Frankreich wird nicht mehr von der Gueuse oder den Roten niedergehalten: das rechtmäßige sakramentale Königreich ist wiedergeboren."
 
@@ -595,11 +574,7 @@ NATFRA_strong_public_sector_idea: "Starker öffentlicher Sektor"
 NATFRA_strong_public_sector_idea_desc: "Der Staat soll eine aktive Rolle in der Wirtschaft übernehmen, um den Wohlstand Frankreichs und seines Volkes zu sichern."
 NATFRA_reformed_unions_1_idea: "Legitimierte Gewerkschaften"
 NATFRA_reformed_unions_1_idea_desc: "Die Gewerkschaften werden benötigt, um eine gesunde Dynamik zwischen Staat, Kapital und Arbeit zu schaffen. Sie werden die Rechte der Arbeiter verteidigen und sicherstellen, dass sie mit legitimen Mitteln für menschenwürdige Arbeitsbedingungen kämpfen."
-NATFRA_reformed_unions_2_idea: "Legitimierte Gewerkschaften"
-NATFRA_reformed_unions_2_idea_desc: "Die Gewerkschaften werden benötigt, um eine gesunde Dynamik zwischen Staat, Kapital und Arbeit zu schaffen. Sie werden die Rechte der Arbeiter verteidigen und sicherstellen, dass sie mit legitimen Mitteln für menschenwürdige Arbeitsbedingungen kämpfen."
 
-NATFRA_republican_politics_idea: "Republikanische Politik"
-NATFRA_republican_politics_idea_desc: "Der Radikalismus von links und rechts hat die Republik zerrissen, aber dank unserer Politik verlieren diese Feinde des Anstands in der Politik langsam ihren Einfluss auf das französische Volk."
 NATFRA_capital_growth_idea: "Kapitalwachstum"
 NATFRA_capital_growth_idea_desc: "Wohlstand ist der sicherste Weg, um sicherzustellen, dass Frankreich und sein Volk die Narben heilen, die Trennung und Krieg hinterlassen haben. Eine neue mäzenatische Elite, die sich ihrer Pflicht gegenüber Frankreich bewusster ist, wird dafür sorgen, dass dieser Wohlstand allen zugute kommt."
 NATFRA_expanded_gendarmerie_idea: "Erweitert die Gendarmerie"
@@ -609,8 +584,6 @@ NATFRA_catholic_welfare_state_idea: "Katholische Sozialfürsorge"
 NATFRA_catholic_welfare_state_idea_desc: "Die Republik ist eine liebende Mutter, die dafür sorgt, dass die Bedürfnisse ihrer Kinder erfüllt werden, und die ihre Würde schützt, so die Soziallehre der Kirche."
 NATFRA_christian_unions_idea: "Christliche Gewerkschaften"
 NATFRA_christian_unions_idea_desc: "Glaubenszentrierte Gewerkschaften werden dafür sorgen, dass die Rechte der Arbeiter verteidigt werden, während sie gleichzeitig sicherstellen, dass die spirituellen Bedürfnisse der Arbeiter gut versorgt werden und ihre Pflichten gegenüber dem Kapital respektiert werden."
-NATFRA_catholic_renewal_idea: "Katholische Erneuerung"
-NATFRA_catholic_renewal_idea_desc: "Trotz jahrzehntelanger antikatholischer Herrschaft über die Republik, sowohl von antiklerikalen Liberalen als auch von Sozialisten, hielten die Gläubigen durch. Jetzt sind viele ihrer verlorenen Brüder und Schwestern freudig wieder zu Hause, in den liebenden Armen unserer heiligen Mutter, der Kirche, willkommen."
 
 NATFRA_loyal_capitalists_idea: "Loyale Kapitalisten"
 NATFRA_loyal_capitalists_idea_desc: "Wurzellose klientelistische Eliten, die vom Profit besessen sind und nicht von ihrer Pflicht gegenüber der Nation, haben uns in die Katastrophe geführt. Zum Glück ist eine neue Elite geboren, patriotisch und sich der wichtigen Rolle bewusst, die sie im Leben der Republik spielen."
@@ -655,7 +628,6 @@ NFA_Bull: "Der Stier"
 NFA_Economist: "Der Wirtschaftswissenschaftler"
 NFA_Sublime_Radical: "Das erhabene Radikal"
 NFA_Pilot: "Der Pilot"
-NFA_Mirobolant: "Der Mirobolant"
 NFA_Lion_of_Verdun: "Der Löwe von Verdun"
 NFA_Redressement: "Entlastungsunterstützung"
 NFA_Rooster: "Der Hahn"
@@ -710,8 +682,6 @@ NATFRA_Devoir_Idea_tt: "Kombiniert und verbesstert die Nationalgeister §Y$NATFR
 NATFRA_National_Narrative: "Nationale Narrative"
 NATFRA_National_Narrative_desc: "Die Republik hatte ihr eigenes Volk durch Bildung erobert: Von unseren Vorfahren, den Galliern, über die Könige des Mittelalters bis zur Revolution war das Schicksal Frankreichs klar: die Schaffung einer aufgeklärten Republik, ein strahlendes Leuchtfeuer der Freiheit, Gleichheit und Brüderlichkeit. Nun muss ein weiteres Kapitel dieser Erzählung geschrieben werden, gemeinsam, dank unserer Bemühungen: die Rückeroberung der Métropole."
 
-NFA_Full_Infra_tt: "In Algerien, Korsika und Oran kann keine Infrastruktur mehr gebaut werden"
-
 # Redressement #
 
 NATFRA_Revolution_Nationale: "Révolution Nationale"
@@ -763,7 +733,6 @@ NATFRA_Politique_Dabord_desc: "Nach Monaten der politischen Instabilität steht 
 NATFRA_Restauration: "Restauration"
 NATFRA_Restauration_desc: "Vive le Roi ! Das Königreich ist wiedergeboren, und obwohl noch viel Arbeit zu tun ist, sind wir fast bereit, den ersten Schritt zur Rettung Frankreichs zu tun: die Krönung von Jean d'Orléans zum rechtmäßigen König von Frankreich. Eine prächtige Zeremonie und landesweite öffentliche Feierlichkeiten werden eilig geplant, die so genau wie möglich den Traditionen der französischen Krone folgen."
 NFA_restauration_focus_tt: "Der Schwerpunkt wird automatisch abgeschlossen, nachdem die Krönungszeremonie organisiert wurde.\n"
-NATFRA_Bring_back_Aristocracy: "Bringt die Aristokratie zurück"
 NATFRA_Royal_Dictatorship: "Königliche Diktatur"
 NATFRA_Royal_Dictatorship_desc: "In dieser kritischen Stunde muss eine Diktatur errichtet werden, die den schwierigen Übergang weg von der dekadenten Republik führt. Keine Diktatur der Parteien, der gewählten Beamten, die schnell in Despotismus und dieselbe Korruption abgleiten würde, unter der die Republik litt, sondern eine königliche Diktatur, über kleinlichen Parteistreitigkeiten stehend, gemäßigt durch ein Jahrtausend an Traditionen und väterlicher Fürsorge für die öffentlichen Interessen."
 NATFRA_Decentralisation: "Dezentralisierung"
@@ -868,8 +837,6 @@ NATFRA_neutralize_the_psf_desc: "Die alte Garde der Dritten Republik hat es gesc
 NATFRA_constitutional_referendum: "Versprechen eines Referendums"
 NATFRA_constitutional_referendum_desc: "Oberst de la Rocque und die PSF dominieren nun die Regierung der nationalen Einheit, ihre Art von Politik lässt die traditionellen republikanischen Eliten zurück und missfällt ihnen. De la Rocque kann dies nun nutzen, um den nächsten Schritt zu enthüllen: das Versprechen eines Verfassungsreferendums, um die Rolle eines in allgemeiner Wahl gewählten Präsidenten zu stärken."
 
-NATFRA_Parliament_Supreme_cf: "Das Parlament hat die Oberhand!"
-NATFRA_Colonel_Supreme_cf: "Der Oberst regiert"
 NATFRA_PSF_Neutralized_cf: "Die PSF wurde neutralisiert"
 
 # Mordacq/Democracy Military Tree #
@@ -920,7 +887,6 @@ NATFRA_Enemy_Destruction_desc: "Zerstörung, Zerstörung, Zerstörung, das ist e
 NATFRA_Trade_Warfare: "Handelskrieg"
 NATFRA_Trade_Warfare_desc: "Die Internationale mag sich noch auf dem Festland halten, aber ihre Kriegsmaschinerie kann nicht ohne die Ressourcen laufen, die ihr von syndikalistischen Verbündeten oder skrupellosen neutralen Nationen aus der ganzen Welt geschickt werden: Indem wir Schiffe ins Visier nehmen, die lebenswichtige Kriegsressourcen für die Kommune transportieren, werden wir leicht in der Lage sein, ihre rote Horde aufzuhalten."
 NATFRA_Trade_Warfare_idea: "Handelskrieg"
-NATFRA_Trade_Warfare_tt: "Ersetzt §YEine günstige Marine§! durch §YHandelskrieg§!\nEffektive Änderung: \n$MODIFIER_CONVOY_RAIDING_EFFICIENCY_FACTOR$: §G+20.00%§!"
 NATFRA_Total_War: "Totaler Krieg"
 NATFRA_Total_War_desc: "Ähnlich wie die Revolutionäre von 1792 stehen wir gegen überwältigende Chancen. Und doch haben sie gesiegt. Genau wie damals wird die gesamte Nation für die kommenden Kriegsanstrengungen mobilisiert, damit wir Frankreich eines Tages von seinen roten Fesseln befreien können: Millionen Franzosen sind bereit, alles zu geben, um diesen Traum zu verwirklichen, oder bei dem Versuch zu sterben."
 NATFRA_War_of_Production: "Krieg der Produktion"
@@ -962,7 +928,6 @@ NATFRA_Char_Forteresse: "Char Forteresse"
 NATFRA_Char_Forteresse_desc: "Wir müssen unsere Anstrengungen auf die Entwicklung von superschweren Panzern mit furchterregender Feuerkraft und dicker Panzerung konzentrieren, auf echte Landkampfschiffe, auf eine mobilere Artillerie, die die feindlichen Kräfte in den Boden stampft und jede Befestigung, die sich ihr in den Weg stellt, in Staub verwandelt."
 NATFRA_Primacy_of_the_Manoeuver: "Vorrang des Manövers"
 NATFRA_Primacy_of_the_Manoeuver_desc: "Der kommende Krieg wird ein Krieg der Bewegung sein, da sind sich unsere Strategen, allen voran de Gaulle, sicher. Mit Panzern, die unsere Angriffe anführen, und hochmobilen Truppen werden wir in der Lage sein, große Entfernungen zurückzulegen und gleichzeitig eine starke Feuerkraft zu haben, die einen schnellen Sieg gegen jeden garantiert, der sich der Libération in den Weg stellt."
-NATFRA_Primacy_of_the_Manoeuver_tt: "Ersetzt die vorherige Idee durch §Y$NATFRA_Primacy_of_the_Manoeuver$§!\nEffektive Änderung:\n§Y$EQUIPMENT_ARMOR$§!:\n    $MODIFIER_BREAKTHROUGH$: §G+10%§!\n"
 NATFRA_Queen_of_the_Battlefield: "Königin des Schlachtfelds"
 NATFRA_Queen_of_the_Battlefield_desc: "Die Infanterie ist die Königin des Schlachtfelds, ohne sie könnte nichts erreicht werden: Zum Glück ist der französische Infanterist der beste der Welt, motiviert durch seinen \"élan\", den brennenden Wunsch, für die Patrie zu kämpfen. Um die Métropole zurückzuerobern, müssen unsere Truppen also perfekt gedrillt, tadellos ausgerüstet und von der heiligen Sache, für die sie kämpfen, überzeugt sein."
 NATFRA_Investments_in_Hotchkiss: "Investitionen in Hotchkiss"
@@ -1164,16 +1129,9 @@ NATFRA_No_More_Incursion: "Kein Eindringen in den Luftraum mehr"
 NATFRA_No_More_Incursion_desc: "Der Luftraum des Vaterlandes muss eine uneinnehmbare Festung sein, damit unser Volk nie wieder Bombardierungen ertragen muss."
 
 NATFRA_Reorg_Forces_idea_1: "Reorganisierte französische Streitkräfte"
-NATFRA_Reorg_Forces_idea_2_oa: "Reorganisierte französische Streitkräfte"
-NATFRA_Reorg_Forces_idea_2_rra: "Reorganisierte französische Streitkräfte"
-NATFRA_Reorg_Forces_idea_3: "Reorganisierte französische Streitkräfte"
-NATFRA_Reorg_Forces_idea_4: "Reorganisierte französische Streitkräfte"
-NATFRA_Reorg_Forces_idea_5: "Reorganisierte französische Streitkräfte"
 NATFRA_remodel_tank_idea: "Umgestaltete Panzerproduktion"
-NATFRA_Expanded_Special_Force_idea: "Erweitertes Sondereinsatzkommando"
 NATFRA_Project_Further_idea: "Plus Oultre"
 NATFRA_Expanded_Bureau_LaR_idea: "Deuxième Bureau"
-NATFRA_Expanded_Bureau_non_LaR_idea: "Deuxième Bureau"
 
 #France back as a global player:
 NATFRA_Renewed_Diplomacy: "Erneuerte Diplomatie"
@@ -1196,14 +1154,10 @@ NATFRA_Congress_of_Verdun_desc: "Deutschland und Frankreich sind seit langem Riv
 #Strong bond with the Brits:
 NATFRA_Indestructible_Bonds: "Unzerstörbare Bindungen"
 NATFRA_Indestructible_Bonds_desc: "Während des gesamten Exils blieben die Briten immer an unserer Seite. Gemeinsam kämpften wir durch die Rückeroberung unserer Heimatgebiete für die Rückkehr zu unserem Geburtsrecht. Unsere Rivalität von vor Hunderten von Jahren ist durch die Feuer der letzten Jahrzehnte der Freundschaft zwischen unseren beiden Nationen zu Grabe getragen worden! Lang lebe die Entente Cordiale!"
-#Colony Trade:
-NATFRA_French_New_World: "Französisch Neue Welt"
-NATFRA_French_New_World_desc: "Mit der gesicherten Rückkehr in die Métropole können wir wieder den Blick nach außen in Richtung Neue Welt richten. Während des Exils fielen unsere Kolonien im Ausland weitgehend unter den Schutz der Briten. Jetzt ist es an der Zeit, sie zurückzufordern!"
 #Move to free trade law:
 NATFRA_Anglo_French_Free_Trade: "Anglo-französischer Freihandel"
 NATFRA_Anglo_French_Free_Trade_desc: "Obwohl unsere Nationen nicht mehr die weltumspannenden Giganten sind, die sie vor dem  Weltkrieg waren, ist unser gemeinsamer Einfluss immer noch enorm. Wir müssen zu einer Politik des freien Handels zwischen unseren gemeinsamen anglo-französischen Sphären übergehen."
 
-ENT_france_agree_mittel_tt: "[NFA.GetNameDefCap] hat dem Beitritt zu Mitteleuropa nicht zugestimmt"
 NFA_Breaking_Lyon_Agreement_tt: "§RDer Bruch unserer Vereinbarung mit den Deutschen wird uns teuer zu stehen kommen!§!"
 
 #Add radars:
@@ -1415,7 +1369,6 @@ NFA_Transahara_Phase_Two_Done_cf: "Phase Zwei der Trans-Sahara-Eisenbahn ist abg
 NFA_Transahara_Phase_Three_Done_cf: "Phase Drei der Trans-Sahara-Eisenbahn ist abgeschlossen"
 nfa_transahara_railway_on_cf: "Die Arbeiten an der Trans-Sahara-Eisenbahn haben begonnen"
 nfa_transahara_railway_finished_cf: "Die Trans-Sahara-Eisenbahn ist fertiggestellt"
-NFA_Sahara_Understaff_cf: "Wir geben dem Projekt nicht die notwendigen Ressourcen, um erfolgreich zu sein"
 nfa_transahara_almost_cf: "Die Trans-Sahara-Eisenbahn ist fast fertig"
 
 NFA_has_collapsed_natives: "Das Französische Reich brach zusammen"
@@ -1424,20 +1377,7 @@ NFA_has_collapsed_natives: "Das Französische Reich brach zusammen"
 ### Some Tooltips ###
 #####################
 
-fraspawnoob_tooltip: "Neue Kolonialabteilungen werden geschaffen"
-fraspawnoob_2_tooltip: "Neue Divisionen werden erstellt"
-NFA_navyexp_tt: "Eine neue Flotte von Zerstörern wird geschaffen."
-NFA_navyexp2_tt: "Eine neue Flotte von Kreuzern wird geschaffen."
-NFA_tuarise_tt: "Es werden zwei neue Kavalleriedivisionen gebildet."
-NFA_militiarise_tt: "Es werden zwei antisyndikalistische Milizabteilungen gebildet."
-NFA_armyrise_tt: "Es werden mehrere Divisionen von Infanterie und Kavallerie gebildet und eine neue Flotte von Zerstörern und Kreuzern geschaffen."
-NFA_maquisarddiv_tt: "Es werden drei Maquisard-Kavalleriedivisionen gebildet."
-NFA_homeland_reconquest_morocco: "§RDadurch werden Entscheidungen zur Beschlagnahmung marokkanischer Ländereien möglich, sollten diese gefährdet sein.§!\n"
-NFA_tuacal_tt: "Zwei feindliche Tuareg-Kavalleriedivisionen werden aufgestellt."
-NFA_Military_Police: "Nationale französische Militärpolizei §G-10%§!"
 nfa_rebuild_legitimacy_tt: "Dies ermöglicht uns §Gunsere Legitimität wiederherstellen§! in den Augen der Bewohner der §CMétropole§!"
-nfa_frp_resist_border_tt: "Dadurch werden Widerstandsnetzwerke in den Gebieten organisiert, die von §R[16.Owner.GetNameWithFlag]§! kontrolliert werden"
-nfa_prop_war_tt: "Dies wird uns erlauben, einen Krieg der Worte zu organisieren gegen §R[16.Owner.GetNameWithFlag]§!"
 NFA_tt_bypass_AF_in_power: "§GDieser Schwerpunkt wird umgangen, wenn die Action Française an die Macht gekommen ist.§!"
 NFA_tt_bypass_RF_in_power: "§GDieser Schwerpunkt wird umgangen, wenn der Maréchal an die Macht gekommen ist.§!"
 NFA_tt_bypass_CSN_in_power: "§GDieser Schwerpunkt wird umgangen, wenn das Comité du Salut National an die Macht gekommen ist.§!"
@@ -1458,7 +1398,6 @@ NFA_Colonial_Exploitation: "Koloniale Ausbeutung"
 NFA_Colonial_Exploitation_tt: "Ersetzt §HKolonialer Widerstand§! mit §HKoloniale Ausbeutung§!\nEffektive Veränderung:\n$MODIFIER_LOCAL_RESOURCES$: §G+25%§!\n$MODIFIER_LOCAL_FACTORIES$: §G+25%§!\n$MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: §G+50%§!\n$MODIFIER_RESISTANCE_TARGET$: §R+15%§!\n$MODIFIER_RESISTANCE_ACTIVITY_FACTOR$: §R+20%§!"
 NFA_Monaco: "Principality of Monaco"
 NFA_Monaco_desc: "Seit 1297 herrschen die Grimaldi-Fürsten über den Felsen von Monaco. Die kurze Unterbrechung, während der Monaco in die französische Gemeinschaft eingegliedert wurde, ist nun vorbei und Fürst Louis II Grimaldi ist zurück im Fürstenpalast. Es ist nun an der Zeit, dass er die Kasinos wieder eröffnet und Monaco wieder zu einem beliebten Reiseziel macht."
-NFA_restore_monaco_tooltip: "\nDer Staat §Y[762.GetName]§! erhält die folgenden Modifikatoren :\n$MODIFIER_LOCAL_FACTORIES$: §G+10%§!\n$MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: §G+10%§!"
 
 NFA_Foreign_Legion: "Erweitert die Fremdenlegion"
 NFA_Foreign_Legion_tt: "Zusätzliche rekrutierbare Bevölkerung: [?0.05|+%2=]"
@@ -1478,13 +1417,9 @@ NFA_Military_Police_tt: "Nationale französische Militärpräsenz: $VALUE|=-%0$"
 NFA_mobilize_2_units_tt: "Dadurch werden §G2§! loyalistische Einheiten in der Métropole aufgestellt."
 NFA_mobilize_3_units_tt: "Dadurch werden §G3§! loyalistische Einheiten in der Métropole aufgestellt."
 NFA_loyalist_unit_limit_bonus: "Erhöht unsere maximale Teilungszahl um $RIGHT|=+0$ bis zum Abschluss von §H$NATFRA_France_indivisible$§!."
-NFA_start_unrest_tt: "Ruft loyale französische Bürger zum Widerstand gegen die Kommunarden auf!"
 NFA_Poitou_Limo_Sabotage_tt: "Wir werden die §REisenbahnlinien§! zwischen §CAquitaine§! und §CZentralfrankreich§! sprengen, dies sollte jegliche Verstärkung der Kommunarden aufhalten, während wir in §CAquitaine§! vorrücken.\n"
 NFA_Dijon_Lyon_Sabotage_tt: "Wir werden die §Eisenbahnlinien§! zwischen §CBurgund§! und §Südfrankreich§! sprengen, dies sollte jede kommunardische Verstärkung, die von der §gFranzösisch-Deutschen Grenze§! kommt, aufhalten.\n"
-refused_referendum: "Weigerte sich, das Volk an einem Referendum zur nationalen Vereinigung teilnehmen zu lassen"
 NFA_Metropole_Cored_tt: "Alle Staaten im Besitz von der §CMetropolregion Frankreich§!: \n   Ist eine Kernprovinz von §Y[NFA.GetNameWithFlag]§!"
-nfa_rebuild_north_tt: "Dies wird §Yeine Entscheidung freischalten§! zum Wiederaufbau von §CNordfrankreich§!"
-nfa_rebuild_south_tt: "Dies wird §Yeine Entscheidung freischalten§! zum Wiederaufbau von §CSüdfrankreich§!"
 NFA_if_owned: "Wenn §H[?target.GetName]§! im Besitz und unter Kontrolle ist:"
 
 # CP PP Custom Costs #
@@ -1517,6 +1452,8 @@ NFA_country_intro_header_2: "Die Lage der Französischen Republik - Wachsende Be
 NFA_country_intro_content_2: "Als ob dieser Mangel an ziviler Unterstützung nicht genug wäre, beginnt das Vertrauen in den Marschall innerhalb der Armee, dem Rückgrat des Regimes, zu erodieren. Pétains Bevorzugung seiner Schützlinge hat viele von ihnen in Schlüsselpositionen gebracht, und obwohl sie sicherlich kompetent sind, bleiben viele Offiziere auf der Strecke, während andere befürchten, dass dies die doktrinäre Fäulnis fördern könnte, dass Pétain sich mit Jasagern umgibt. Einige in der Entourage des Marschalls haben sich jedoch offen kritisch über diesen Zustand geäußert, wie z.B. General Mordacq, und für den Moment beschränkt sich diese Unzufriedenheit innerhalb der Armee auf Debatten, da viele hoffen, dass Pétain schließlich auf seine reformfreudigeren Schützlinge hören wird. Eines ist jedoch klar, eine Eskalation dieser Spaltungen würde sich als katastrophal für das Regime erweisen.\n\n Das wichtigste Problem, dem sich die Nation gegenübersieht, ist jedoch ganz einfach ihre Lage im Exil. Obwohl in Algerien, das im letzten Jahrhundert offiziell als Überseedepartement von Frankreich annektiert wurde, Exilanten und Pieds-noirs-Siedler einen bedeutenden Teil der Bevölkerung ausmachen, in einigen Großstädten sogar die Mehrheit, sind die Europäer insgesamt immer noch eine kleine Minderheit, die über Millionen von Eingeborenen herrscht, die, obwohl sie als Franzosen gelten, im Wesentlichen Bürger zweiter Klasse sind, die hohen Steuern und Zwangsarbeit unterworfen sind und deren Herrschaft von Algier aus von einheimischen Eliten und der Armee durchgesetzt wird.\n\nSeit der Niederlage im Weltkrieg ist die koloniale Situation prekär: Unruhen werden rücksichtslos niedergeschlagen, die jüngsten Hungersnöte wurden schlecht bewältigt, syndikalistische und panarabische Agenten verbreiten Propaganda gegen die Kolonialbehörden. Die meisten traditionellen einheimischen Eliten sind jedoch immer noch loyal zu Frankreich, und es gibt eine wachsende Klasse von französisch ausgebildeten Einheimischen und einheimischen Kriegsveteranen, die trotz ihres Wunsches nach Reformen loyal bleiben. Aber eines ist klar: Wenn die Regierung unvorsichtig ist, sind weitere Unruhen und vielleicht sogar Revolten vorprogrammiert.\n\n§Vorsicht! Wenn es nicht gelingt, den Widerstand in den afrikanischen Nicht-Kernstaaten unter 80 zu halten, wird es zu Revolten kommen.§!"
 
 NFA_guide: "§MRedressement Français§! (§PPaternal Autokratisch§!)\n£white_dot Ernennen Sie de Gaulle zum Nachfolger von Franchet d'Espèrey, sobald dieser in den Ruhestand geht.\n£white_dot Während \"die Paraden weitergehen\" wählen Sie \"wir müssen schnell handeln, aber wir brauchen Hilfe\".\n£white_dot Lehnen Sie die Hilfe der Action Française bei der Auflösung der Paraden ab.\n£white_dot Lesen Sie den Brief während Pétains Abwesenheit.\n£white_dot Pétain wird nun seine Macht gesichert haben.\n\n§MAction Française§! (§nNationalpopulisten§!)\n£white_dot Ernennen Sie de Gaulle zum Nachfolger von Franchet d'Espèrey, sobald dieser in den Ruhestand geht.\n£white_dot Während \"die Paraden weitergehen\" wählen Sie \"wir müssen schnell handeln, aber wir brauchen Hilfe\".\n£white_dot Akzeptieren Sie die Hilfe der Action Française bei der Auflösung der Paraden.\n£white_dot Die Organisation der Vierhundert Schläge soll ihre Säuberungsaktionen fortsetzen.\n£white_dot Frankreich wird wieder im Glanz des Königtums erstrahlen.\n\n§MComité du Salut National§! (§aAutoritär Demokratisch§!)\n£white_dot Ernennen Sie Mordacq zum Nachfolger von Franchet d'Espèrey, sobald dieser in den Ruhestand geht.\n£white_dot Wenden Sie sich nicht an das Parlament/die Demokraten.\n£white_dot Bitten Sie Pétain um einen letzten Gefallen, anstatt dem Deuxième Bureau zu vertrauen.\n£white_dot Mordacq wird nun seine Herrschaft gefestigt haben und bereit sein, Frankreich zurückzuerobern.\n\n§MZweite Union Sacrée§! (§cSozialkonservative§! / §mMarktliberale§!)\n£white_dot Ernennen Sie Mordacq zum Nachfolger von Franchet d'Espèrey, sobald dieser in den Ruhestand geht.\n£white_dot Bitten Sie sofort Pétain um Hilfe.\n£white_dot Setzen Sie sich mit dem Parlament/Demokraten in Verbindung und nehmen Sie deren Hilfe an.\n£white_dot Die Partei der Masse und die der 3. Republik werden bereit sein, Frankreich zu befreien.\n\n§MANMERKUNG§!: Im Falle von AF/Pétain/Mordacq sind dies nur einige von vielen möglichen Szenarien, wie sie entstehen könnten.\n\n§MFranzösisches Kaiserreich§! (§cSozialkonservative§!)\n£white_dot Ernennen Sie keinen Nachfolger für Franchet d'Espèrey.\n£white_dot Lasst Mordacq die Schlacht des Einflusses gewinnen §rohne§ das Petain wegen hoher Korruption fällt!\n£white_dot Aufhebung des Exilgesetzes.\n£white_dot Etwa 3 bis 4 Jahre später wird Louis Bonaparte als General der Stufe 1 erscheinen. Lassen Sie ihn Stufe 5 oder höher erreichen, bevor Sie auf das Festland zurückkehren.\n£white_dot Wählen Sie den §cBlock National§! als Gewinner der Wahlen und tun Sie dasselbe in allen folgenden Wahlen.\n£white_dot Wähle Bonaparte zum Präsidenten, nachdem du den Schwerpunkt §YStärkung der präsidialen Befugnisse§! gewählt hast. Wenn Bonaparte bei den Wahlen nicht Stufe 5 ist, kann er bei den folgenden Wahlen trotzdem Präsident werden.\n£white_dot Nimm den Schwerpunkt §YAusrufung der Vierten Republik§! mit Bonaparte als Präsident. Nach 500 Tagen, wenn Elsass-Lothringen in unserem Besitz ist, kann Bonaparte eine Volksabstimmung zur Gründung des französischen Kaiserreichs ausrufen und den königlichen Namen Napoléon VI. annehmen. Wenn nicht, wiederholt sich das Ereignis alle 100 Tage."
+
+NFA_guide_1: "§MLe Rêve de Paris§!\nDie folgenden Pfade werden freigeschaltet, sobald Sie zum Festland zurückgekehrt sind und den Schwerpunkt §YFrankreich Unteilbar§! abgeschlossen haben und wenn Sie entweder dem Pfad §MComité du Salut National§ oder §MZweite Heilige Vereinigung§ gefolgt sind.\n\n§MRückkehr zur Normalität§! — §MBloc National§! (§cSozialkonservative§!) / §MParti Radical§! (§lSozialliberale§!)\n£white_dot Wenn Sie dem Pfad §MComité du Salut National§! gefolgt sind, können Sie nach der Hälfte der Fertigstellung des Schwerpunkts §YNeuwahlen vorbereiten§! die §lParti Radical§! oder den §cBloc National§! wählen.\n\n£white_dot Wenn Sie dem Pfad §MZweite Heilige Vereinigung§! gefolgt sind, schließen Sie den Schwerpunkt §YVersprechen eines Referendums§! nicht ab und lassen Sie die Armee den Putsch von de La Rocque nicht unterstützen.\n£white_dot In der Mitte der Fertigstellung des Schwerpunkts §YNeuwahlen vorbereiten§! treten Risse in der Konzentration auf. Wählen Sie 'Beenden Sie die Koalition, eine echte Demokratie kann nicht ohne Debatten regiert werden'. Acht Tage später können Sie die §lParti Radical§! oder den §cBloc National§! wählen.\n\n§MConcentration Républicaine§! (§mMarktliberale§!)\n£white_dot Folgen Sie dem Pfad §MZweite Heilige Vereinigung§! und schließen Sie den Schwerpunkt §YVersprechen eines Referendums§! nicht ab.\n£white_dot Die Armee soll den Putsch von La Rocque nicht unterstützen.\n£white_dot In der Mitte der Fertigstellung des Schwerpunkts §YNeuwahlen vorbereiten§! werden Risse in der Konzentration sichtbar. Wählen Sie 'die Konzentration Républicaine aufrechterhalten! Einheit ist zu wichtig'.\n£white_dot Etwa dreieinhalb Jahre nach jeder Wahl erscheint ein Ereignis, das die Fortsetzung der Konzentration betrifft. Wählen Sie 'Gemeinsam sind wir stärker!', um die Einheitsregierung fortzusetzen.\n\n§MDas Gambit des Obersts§! — §MParti Social Français§! (§aAutoritär Demokratisch§!) / §MPräsidialdiktatur§! (§Paternal Autokratisch§!)\n£white_dot Folgen Sie dem Pfad §MZweite Heilige Vereinigung§! und schließen Sie den Schwerpunkt §YNeutralisiert die PSF§! nicht ab.\n£white_dot Die Armee soll den Putsch von La Rocque unterstützen.\n£white_dot Sie haben die Möglichkeit, unter dem '§aDirigist§!' Flügel der PSF eine Fassade der Demokratie aufrechtzuerhalten, indem Sie die Parlamentswahlen auf alle sieben Jahre ausdehnen, oder unter dem '§PTechnokratischen§!' Flügel der PSF eine Präsidialdiktatur zu errichten.\n\n§MPräsidentschaftswahlen§!\nKurz nach den ersten Wahlen wird Mordacq sein Amt als Präsident niederlegen, und je nach Ausgang der Wahlen wird ein neuer Präsident gewählt werden:\n£white_dot Wenn der §cBloc National§! die Wahlen gewonnen hat und der Schwerpunkt §YStärkung der präsidialen Befugnisse§! zur Hälfte abgeschlossen ist, können Sie Louis Marin, François de La Rocque oder Louis Bonaparte nur unter bestimmten Umständen nominieren, und Ihre Wahl wird Präsident, sobald der Schwerpunkt abgeschlossen ist.\n£white_dot Wenn die §lParti Radical§! die Wahlen gewinnt, wird Édouard Daladier einige Tage nach Ende des Schwerpunkts §YNeuwahlen vorbereiten§! Präsident werden.\n£white_dot Wenn die §mConcentration Républicaine§! die Wahlen gewinnt, wird Pierre-Etienne Flandin einige Tage nach Abschluss des Schwerpunkts §YNeuwahlen vorbereiten§! Präsident werden.\n\nNach der Wahl des ersten Präsidenten finden alle sieben Jahre Präsidentschaftswahlen statt.\nWenn Sie entweder dem Pfad §MComité du Salut National§! gefolgt sind oder die Konzentration nicht aufrechterhalten haben, wenn Sie dem Pfad §MZweite Heilige Vereinigung§! gefolgt sind, beginnen 6 Monate vor der folgenden Wahl die Nominierungen für den nächsten Präsidenten:\n£white_dot Aus dem §cNational Bloc§! können Sie nur unter bestimmten Umständen zwischen Louis Marin, François de La Rocque oder Louis Bonaparte wählen.\n£white_dot Bei der §lParti Radical§! können Sie zwischen Édouard Daladier und Camille Chautemps wählen.\n\nWenn Sie dem Pfad §MZweite Heilige Vereinigung§! gefolgt sind und die Konzentration aufrechterhalten haben:\n£white_dot Bei der Wahl können Sie zwischen Pierre-Etienne Flandin und Paul Reynaud wählen.\n\n§CAnmerkung§!: Wenn Sie den Schwerpunkt §YAusrufung der Vierten Republik§! mit dem §cBloc National§! an der Macht abschließen, werden die Präsidentschaftswahlen eingestellt, und wenn Sie nicht de La Rocque als aktuellen Präsidenten haben, können Sie wählen, ob Sie ihn zum Präsidenten machen oder Ihren aktuellen Präsidenten behalten möchten."
 
 ##############
 ### Events ###
@@ -1576,7 +1513,7 @@ nfa.14.d: "Henri Mordacq ließ seine 'Lehren von 1914 und der nächste Krieg' pr
 nfa.14.a: "Eine interessante Lektüre, schade, dass der Bär das eigentliche Problem nicht sieht."
 
 nfa.16.t: "Maréchal, Danke!"
-nfa.16.d: "Heute früh unterzeichnete Marschall Philippe Pétain eine kurze, lakonische Erklärung, in der er seinen sofortigen Rücktritt als Staatsoberhaupt der Französischen Republik ankündigte. Obwohl dieser Rücktritt vom Löwen sorgfältig vorbereitet wurde und niemand in der Regierung oder der Verwaltung von dieser Entscheidung überrascht ist, ist dies für viele das plötzliche Ende einer Ära. Obwohl einige offen jubeln, sind die meisten einfach nur fassungslos: Schließlich haben die Jüngeren unter ihnen nie eine andere politische Situation erlebt, und für diejenigen, die alt genug sind, um sich an das Festland zu erinnern, war der Marschall mehr als ein Jahrzehnt lang der Mittelpunkt des politischen Lebens.\n\nUm jede Art von Panik zu vermeiden und Zukunftsängste zu lindern, beschloss der Held von Verdun dann, vor dem versammelten Senat und der Nationalversammlung eine Rede zu halten, die über das Radio übertragen wurde: Unter Berufung auf sein hohes Alter als Hauptgrund für seinen Rücktritt dankte der überraschend gut gelaunte Pétain dann all jenen, die ihn in den unruhigen Zeiten seit dem Weltkriegs unterstützt hatten, insbesondere den Veteranen, und machte dabei nicht gerade subtile Anspielungen auf den Bären von Arras, Henri Mordacq, ohne ihn jedoch beim Namen zu nennen. \n\nIn seiner Schlusserklärung, in der er zu einem friedlichen Machtwechsel aufrief und sein volles Vertrauen in das Volk bekräftigte, den Kampf zur Rückeroberung der Métropole fortzusetzen, beendete Marschall Pétain seine Rede mit diesem einfachen Satz, zitiert aus seinem ikonischen Befehl vor so vielen Jahren in Verdun: 'Courage, on les aura !', 'Seid stark, wir kriegen sie !', woraufhin sofort ein tosender Applaus und lang anhaltende Ovationen folgten.\n\nAls der Beifall abebbte, rief eine Stimme: 'Maréchal, merci !', 'Marschall, ich danke Ihnen!', ein Protokollbruch, den alle im Raum sofort freudig nachmachten. Draußen vor dem Gebäude hatte sich die Bevölkerung spontan versammelt, um sich vom Retter Frankreichs zu verabschieden, unabhängig von Klasse und Status, Exilanten, pied-noirs und Algerier, und alle wiederholten diesen Ausruf und dankten Philippe Pétain, als er zu Fuß abreiste, als all die Frustrationen, all der Ärger der letzten Wochen und Jahre zumindest kurzzeitig verschwanden."
+nfa.16.d: "Heute früh unterzeichnete Marschall Philippe Pétain eine kurze, lakonische Erklärung, in der er seinen sofortigen Rücktritt als Staatsoberhaupt der Französischen Republik ankündigte. Obwohl dieser Rücktritt vom Löwen sorgfältig vorbereitet wurde und niemand in der Regierung oder der Verwaltung von dieser Entscheidung überrascht ist, ist dies für viele das plötzliche Ende einer Ära. Obwohl einige offen jubeln, sind die meisten einfach nur fassungslos: Schließlich haben die Jüngeren unter ihnen nie eine andere politische Situation erlebt, und für diejenigen, die alt genug sind, um sich an das Festland zu erinnern, war der Marschall mehr als ein Jahrzehnt lang der Mittelpunkt des politischen Lebens.\n\nUm jede Art von Panik zu vermeiden und Zukunftsängste zu lindern, beschloss der Held von Verdun dann, vor dem versammelten Senat und der Nationalversammlung eine Rede zu halten, die über das Radio übertragen wurde: Unter Berufung auf sein hohes Alter als Hauptgrund für seinen Rücktritt dankte der überraschend gut gelaunte Pétain dann all jenen, die ihn in den unruhigen Zeiten seit dem Weltkriegs unterstützt hatten, insbesondere den Veteranen, und machte dabei nicht gerade subtile Anspielungen auf den Bären von Arras, Henri Mordacq, ohne ihn jedoch beim Namen zu nennen. \n\nIn seiner Schlusserklärung, in der er zu einem friedlichen Machtwechsel aufrief und sein volles Vertrauen in das Volk bekräftigte, den Kampf zur Rückeroberung der Métropole fortzusetzen, beendete Marschall Pétain seine Rede mit diesem einfachen Satz, zitiert aus seinem ikonischen Befehl vor so vielen Jahren in Verdun: 'Courage, on les aura !'\", 'Seid stark, wir kriegen sie!'\", woraufhin sofort ein tosender Applaus und lang anhaltende Ovationen folgten.\n\nAls der Beifall abebbte, rief eine Stimme: 'Maréchal, merci !', 'Marschall, ich danke Ihnen!', ein Protokollbruch, den alle im Raum sofort freudig nachmachten. Draußen vor dem Gebäude hatte sich die Bevölkerung spontan versammelt, um sich vom Retter Frankreichs zu verabschieden, unabhängig von Klasse und Status, Exilanten, pied-noirs und Algerier, und alle wiederholten diesen Ausruf und dankten Philippe Pétain, als er zu Fuß abreiste, als all die Frustrationen, all der Ärger der letzten Wochen und Jahre zumindest kurzzeitig verschwanden."
 nfa.16.a: "Maréchal, auf Wiedersehen!"
 
 passed_the_torch_tt: "Der Marschall wird seine Anhänger dazu ermutigen, das neue Regime zu unterstützen\n"
@@ -1593,7 +1530,6 @@ nfa.19.a: "Der Marschall hielt in Verdun stand, er wird auch gegen ein paar aufg
 # Influence Tooltips
 Mordacq_gains_influence_tt: "§RMordacq wird politischen Einfluss gewinnen!§!\n"
 Petain_gains_influence_tt: "§GPétain wird politischen Einfluss gewinnen!§!\n"
-Petain_gains_corruption_tt: "§RDiese Aktion kann als korrupt angesehen werden!§!\n"
 
 nfa.20.t: "Umgang mit politischer Opposition"
 nfa.20.d: "Das demokratische Lager hat die Unterstützung vieler prominenter Journalisten und Intellektueller, und als solches ist Henri Mordacq nahe daran, den öffentlichen Diskurs zu dominieren, indem er jeden Tag auf den Titelseiten der einen oder anderen Zeitung erscheint und seine Rede im Radio vor Hunderttausenden von Zuhörern ausgestrahlt wird, während die Regierung und Pétain sich abmühen, Schritt zu halten, da sie es gewohnt sind, mit einer gewöhnlich viel willfährigeren Massenpresse zu tun zu haben, die glücklich ist, einfach zu veröffentlichen, was die Regierung ihnen vorsetzt. Einige in der Entourage des Marschalls argumentieren, man solle den Mann einfach sprechen lassen, die Debatte ihren Lauf nehmen lassen, es handele sich allenfalls um eine kleine Aufregung, die bald verpuffen werde. Andere argumentieren, dass, im Gegenteil, jede Sekunde, in der der Bär frei ist, das Regime ein wenig mehr in Gefahr ist, da sie ihn für einen gefährlichen, sicherlich von den Kommunisten unterstützten Revolutionär halten. Der Marschall selbst würde stattdessen lieber in die mediale Gegenoffensive gehen: Schließlich war er dafür bekannt, während des Großen Krieges mit feurigen Reden die Moral zu stärken.\n\nWas sollte man tun?"
@@ -1923,10 +1859,6 @@ nfa.87.t: "Widerstand gegen unsere Heimkehr"
 nfa.87.d: "Im Gegensatz zur Unterstützung der Bevölkerung, die die Milizen spontan entstehen ließ, scheint es der kommunistischen Regierung gelungen zu sein, einen Teil der armen Bevölkerung Frankreichs zu überzeugen. Einige Anhänger der Kommunarden sind entschlossen, unsere Bemühungen um die Rückeroberung der Métropole zu behindern, um das syndikalistische Regime zu retten. Sie sind bereits fleißig dabei, unsere Infrastruktur zu sabotieren, Dissens zu schüren und den Widerstand zu organisieren."
 nfa.87.a: "Wir müssen sie für uns gewinnen."
 
-nfa.88.t: "Verstecktes Event"
-nfa.88.d: "Bitte melden Sie sich bei The Alpha Dog auf GitHub, wenn Sie etwas finden. Dies ist das Ereignis nfa.88"
-nfa.88.a: "Verstecktes Event"
-
 nfa.110.t: "Die Entente bereitet sich darauf vor, uns anzugreifen"
 nfa.110.d: "Unsere Spione in Korsika und Algier haben von Truppenaufstellungen berichtet, die einen Angriff auf unser Land vorbereiten. Der wahrscheinlichste Angriffsweg wird aus dem Süden in der Provence kommen, aber wir müssen unsere Männer flexibel halten. Wer weiß, welche teuflischen Pläne die Reaktionäre in ihrem Exil ausgeheckt haben. Die revolutionäre Flamme darf niemals von diesen Verrätern ausgelöscht werden!"
 nfa.110.a: "Sie werden es nicht bis zum Strand schaffen!"
@@ -1992,11 +1924,6 @@ nfa.123.d.2.nobel: "Angesichts der Realität akzeptierte die französische Deleg
 nfa.123.d.1: "Angesichts der Realität akzeptierte die französische Delegation klugerweise die Bedingungen unserer Forderungen. Da wir das besetzte Gebiet unter unserer Kontrolle hatten, konnten wir mit den Franzosen ein gutes Geschäft machen. Wir konnten die Franzosen unter Druck setzen, sich unserem Bündnis Mitteleuropa anzuschließen, den militärischen Zugang zu den Französichen Gebieten erzwingen, die Annexion der Bretagne und von Pas-de-Calais durchsetzen, die Annahme eines begrenzten Rüstungsabkommens, den Abbau ihrer Grenzanlagen, wirtschaftliche Reparationen und das Versprechen der französischen Regierung, im Gegenzug für die Übergabe der in unserem Besitz befindlichen Gebiete auf Feindseligkeit zu verzichten."
 nfa.123.d.1.nobel: "Angesichts der Realität akzeptierte die französische Delegation klugerweise die Bedingungen unserer Forderungen. Da wir das besetzte Gebiet unter unserer Kontrolle hatten, konnten wir mit den Franzosen ein gutes Geschäft machen. Wir konnten die Franzosen dazu bewegen, sich Mitteleuropa anzuschließen, den militärischen Zugang zu den Franzosen zu erzwingen, die Annexion der Bretagne zu sichern, die Annahme eines begrenzten Rüstungsvertrags zu erzwingen, ihre Grenzanlagen abzubauen, wirtschaftliche Reparationen zu leisten und der französischen Regierung im Gegenzug für die Übergabe der in unserem Besitz befindlichen Ländereien zu versprechen, keine Feindseligkeit zu üben."
 nfa.123.a: "Auf einen dauerhaften Frieden!"
-
-### FUTURE WORLD NEWS EVENT ###
-nfa.124.t: "Der Kongress von Lyon ist ein Erfolg!"
-nfa.124.d: "Kameras blitzten bei der Unterzeichnung des Vertrags von Lyon durch den Raum. Seit Jahrzehnten, wenn nicht Jahrhunderten, sind das deutsche und das französische Volk miteinander verfeindet. Das Ende des Zweiten Weltkriegs markierte das Ende des dritten deutsch-französischen Krieges in den letzten 80 Jahren. Viele sahen in der Konferenz in Lyon nur ein weiteres Zündholz, um den Hass zwischen den beiden Nationen weiter zu schüren, doch sie wurden eines Besseren belehrt. Mit der Unterzeichnung des Vertrags wird die neue französische Regierung als wahrer Nachfolger der Regierung anerkannt, die während des französischen Bürgerkriegs nach dem Weltkrieg gestürzt worden war. Die Deutschen haben zugestimmt, sich aus einem Großteil des besetzten Frankreichs zurückzuziehen und das Land an die rechtmäßige Regierung Frankreichs zurückzugeben."
-nfa.124.a: "Ein Hoch auf die Diplomatie!"
 
 #Peace Deal 5:
 nfa.125.t: "Kongress von Lyon"
@@ -2104,9 +2031,6 @@ nfa.161.t: "Umverteilung der Ressourcen nach Paris"
 nfa.161.d: "Als größte Stadt Frankreichs und als offizielle Hauptstadt der französischen Kommune wird Paris besondere Anstrengungen unternehmen müssen, um wieder in das neue Regime integriert zu werden. Die Entfernung des syndikalistischen Einflusses muss eine tiefgreifende und gründliche Arbeit sein. Wohin sollten wir im Rahmen dieser Bemühungen unsere Ressourcen lenken? Wir können uns entweder darauf konzentrieren, die Unruhen in der Hauptstadt zu verringern, oder wir können längerfristig arbeiten, um die Herzen der Menschen zu gewinnen."
 nfa.161.a: "Konzentration auf die Verringerung des Widerstands."
 nfa.161.b: "Konzentration auf die Verbesserung des langfristigen Gehorsams."
-
-integration_resistance_allocation: "§YFügt Folgendes hinzu:\nWiderstand Abklinggeschwindigkeit: §G+15%§!"
-integration_compliance_allocation: "§YFügt Folgendes hinzu:\nTäglicher Gehorsam-Gewinn: §G+0.15%§!"
 
 nfa.162.t: "Umverteilung der Ressourcen nach Provence"
 nfa.162.d: "Als eine der bevölkerungsreichsten Regionen Frankreichs müssen wir für Provence besondere Anstrengungen unternehmen, um sie wieder in das neue Regime zu integrieren. Der syndikalistische Einfluss muss tiefgreifend und gründlich abgewaschen werden. Wohin sollten wir im Rahmen dieser Bemühungen unsere Ressourcen lenken? Wir können uns entweder darauf konzentrieren, die Unruhen in der Region zu verringern, oder wir können längerfristige Anstrengungen unternehmen, um die Herzen der Menschen zu gewinnen."
@@ -2969,7 +2893,7 @@ nfa.545.d: "'Tu Parles d'une Ingénue', 'Nennst du das eine Ingenue?', der erste
 nfa.545.a: "Ist ein Film das nächste?"
 
 nfa.546.t: "Das Anti-Frankreich"
-nfa.546.d: "\"Die vier konföderierten Stände, das Anti-Frankreich, jeder gute Franzose weiß, wer mit diesen Bezeichnungen gemeint ist: Freimaurer, Protestanten, Juden und Metiker. Sie stehen hinter jedem revolutionären Umsturz, arbeiten gegen uns, bereichern sich an unserer Arbeit, zerstören jeden einzelnen Teil des wahren Frankreichs. Wir werden nicht sicher sein, bis etwas gegen diese Parasiten unternommen wird\". Seit dem Staatsstreich ist diese Rhetorik in der 'Action Française', der heutigen offiziellen Zeitung des Regimes, an der Tagesordnung, und sie wird jeden Tag virulenter. Die Republik sei schließlich gestürzt, argumentiert die Zeitung; es sei nun an der Zeit, ihre Herren direkt anzugreifen.\n\nUnsere Leute, die nach immer mehr Schuldigen für Frankreichs Untergang suchen, werden durch eine scheinbar endlose Liste von Skandalen gesättigt, in die alle auf die eine oder andere Weise Juden oder Freimaurer verwickelt zu sein scheinen. Während die königliche Justiz diese Verräter bestraft, nehmen unsere Landsleute die Sache selbst in die Hand. Freimaurerlogen werden von Kameloten geplündert, die den Geheimnissen dieser Okkultisten auf die Spur kommen wollen. Die Besitztümer der Antifranzosen werden beschlagnahmt und umverteilt, ihr Handel wird geplündert. In einigen Großstädten kommt es zu Ausschreitungen, da die jahrhundertealten Spannungen zwischen jüdischen und muslimischen Einwohnern wegen jedes Vorwandes zum Siedepunkt kommen. Häufig beteiligten sich auch Franzosen an den Ausschreitungen, die von der \"Action Algérienne\" angefacht wurden. Der Wahn, durch die Verfolgung unserer Feinde gerettet zu werden, hat unser Land erfasst, und viele der Stände sind bereits geflohen, oft direkt über die Grenze nach Marokko."
+nfa.546.d: "\"Die vier konföderierten Stände, das Anti-Frankreich, jeder gute Franzose weiß, wer mit diesen Bezeichnungen gemeint ist: Freimaurer, Protestanten, Juden und Metiker. Sie stehen hinter jedem revolutionären Umsturz, arbeiten gegen uns, bereichern sich an unserer Arbeit, zerstören jeden einzelnen Teil des wahren Frankreichs. Wir werden nicht sicher sein, bis etwas gegen diese Parasiten unternommen wird.\" Seit dem Staatsstreich ist diese Rhetorik in der 'Action Française', der heutigen offiziellen Zeitung des Regimes, an der Tagesordnung, und sie wird jeden Tag virulenter. Die Republik sei schließlich gestürzt, argumentiert die Zeitung; es sei nun an der Zeit, ihre Herren direkt anzugreifen.\n\nUnsere Leute, die nach immer mehr Schuldigen für Frankreichs Untergang suchen, werden durch eine scheinbar endlose Liste von Skandalen gesättigt, in die alle auf die eine oder andere Weise Juden oder Freimaurer verwickelt zu sein scheinen. Während die königliche Justiz diese Verräter bestraft, nehmen unsere Landsleute die Sache selbst in die Hand. Freimaurerlogen werden von Kameloten geplündert, die den Geheimnissen dieser Okkultisten auf die Spur kommen wollen. Die Besitztümer der Antifranzosen werden beschlagnahmt und umverteilt, ihr Handel wird geplündert. In einigen Großstädten kommt es zu Ausschreitungen, da die jahrhundertealten Spannungen zwischen jüdischen und muslimischen Einwohnern wegen jedes Vorwandes zum Siedepunkt kommen. Häufig beteiligten sich auch Franzosen an den Ausschreitungen, die von der \"Action Algérienne\" angefacht wurden. Der Wahn, durch die Verfolgung unserer Feinde gerettet zu werden, hat unser Land erfasst, und viele der Stände sind bereits geflohen, oft direkt über die Grenze nach Marokko."
 nfa.546.a: "..."
 
 nfa.547.t: "547"
@@ -2999,9 +2923,6 @@ nfa.448.t: "Streik der Eisenbahn zwischen Dakar und Niger"
 nfa.448.d: "Die einheimischen Arbeiter an der Eisenbahnstrecke Dakar-Niger streiken seit einiger Zeit. Sie fordern bessere Bedingungen und sogar die gleiche Bezahlung wie ihre weißen französischen Kollegen in Algerien. Dieser Streik ist ein harter Schlag für Französisch-Westafrika, denn diese Eisenbahn ist eine der wichtigsten Verbindungen vom Senegal ins Innere des Kontinents. Wir können uns ihre Gunst verdienen, indem wir ihren Forderungen nach Gleichberechtigung zustimmen, oder wir können abwarten und sehen, wie lange sie durchhalten, bevor sie zur Arbeit zurückkehren."
 nfa.448.a: "Verbessert ihre Bedingungen."
 nfa.448.b: "Irgendwann müssen sie wieder zur Arbeit kommen."
-
-nfa_damaged_rails_dakar_niger_tt: "§YFranzösisch Sudan§!:\nFügt Folgendes hinzu:\nStrategische Verlegung deaktiviert: §RJa§!\n§YSenegal§!:\nFügt Folgendes hinzu:\nStrategische Verlegung deaktiviert: §RJa§!"
-nfa_fixed_rails_dakar_niger_tt: "§YFranzösisch Sudan§!:\nFügt Folgendes hinzu:\nStrategische Verlegung deaktiviert: §GNein§!\n§YSenegal§!:\nFügt Folgendes hinzu:\nStrategische Verlegung deaktiviert: §GNein§!"
 
 nfa.449.t: "Explosion entlang der Eisenbahnlinie Dakar-Niger"
 nfa.449.d: "Gestern Abend gegen 5 Uhr morgens wurden die Anwohner in der Nähe der Bahnstrecke durch eine Explosion geweckt. Es wurden dringende Nachrichten nach oben geschickt, um vorsichtshalber weitere Züge auf den Gleisen zu stoppen. Als die Sonne gerade über den Horizont lugte, traf die nahe gelegene Garnison am Ort des Geschehens ein, um herauszufinden, was passiert war. Das Licht fiel auf die Überreste mehrerer Gazellen und einiger Teile eines Stolperdrahtes, der ausgelöst werden sollte, sobald ein Zug vorbeifuhr. Offenbar war der Täter auf der Jagd nach größerer Beute."
@@ -3095,16 +3016,10 @@ nfa.479.t: "Angriff auf eine Patrouille in Niger"
 nfa.479.d: "Wir schicken häufig Patrouillen in den Norden des Niger, um unsere Vormachtstellung in diesem Gebiet zu sichern. Da wir dort nicht viele ständige Stützpunkte haben, von denen aus wir unsere Kontrolle ausüben können, müssen wir auf solche regelmäßigen Patrouillen zurückgreifen. Normalerweise verlaufen diese Patrouillen ereignislos, aber diesmal war das nicht der Fall. Unsere Soldaten wurden plötzlich von einer ganzen Truppe bewaffneter und entschlossener Tuareg angegriffen, die sich hinter einem Relief versteckten und darauf warteten, dass sich die Patrouille näherte, bevor sie mit der Kavallerie auf sie losgingen. Die ersten panischen Schüsse der Patrouille brachten zwar einige Pferde zu Fall, doch schon bald waren es die französischen Pferde, die zu fallen begannen, als eine andere Gruppe von Tuaregs, die sich in den Dünen versteckt hatte, aus einem anderen Winkel zu schießen begann. Völlig hilflos und überrascht fielen die Soldaten links und rechts unter den Kugeln und Klingen der Tuaregs, bevor sich die Überlebenden ungeordnet zurückzogen. Einem der Überlebenden gelang es, zum nächstgelegenen kolonialen Außenposten zurückzukehren und diese Geschichte zu erzählen.\n\nDer Angriff ist ein Skandal, aber wir sind ziemlich machtlos, sie zu bestrafen, es sei denn, wir schicken eine ganze Armee in die Wüste. Wir werden die Leute bestrafen müssen, die näher an uns dran sind und wahrscheinlich sowieso mit den Tuareg kollaborieren..."
 nfa.479.a: "Ein Skandal!"
 
-nfa.600.t: "Unterstützte Rebellion in [revolter.GetNameDef]"
-nfa.600.d: "Die Eingeborenen in [revolter.GetNameDef] wurden von den Besatzern der Kolonie seit Wochen bewaffnet und organisiert, nachdem unsere Truppen aus der Region zurückgedrängt worden waren. Sie haben nun eine ausreichend starke Truppe zusammengestellt, um selbst die Unabhängigkeit zu erklären und haben außerdem eine offene Revolte gegen unsere Herrschaft ausgerufen."
-nfa.600.a: "Noch eine? Wir müssen das unter Kontrolle bekommen!"
-
 nfa.601.t: "[revolter.GetNameDefCap] erklärt ihre Unabhängigkeit."
 nfa.601.d: "Nachdem sie unsere Truppen vertrieben haben, hat [revolter.GetNameDef] die Unabhängigkeit erklärt. Sollten wir sie mit unseren überlegenen Kräften vernichten oder sollten wir unsere Verluste begrenzen und uns auf andere Bereiche konzentrieren?"
 nfa.601.a: "Sie müssen ein Teil des Reiches bleiben!"
 nfa.601.b: "Wir haben Wichtigeres zu tun, als einheimische Rebellionen niederzuschlagen."
-
-NFA_gets_event_revolt: "Bekommt das Event '§H[?revolter_var.GetNameDefCap] erklärt ihre Unabhängigkeit§!'."
 
 nfa.614.t: "Sieg gegen die französischen Kolonisten!"
 nfa.614.d: "Als wir unseren Aufstand begannen, wusste niemand, wohin er führen würde, einige waren pessimistisch, andere optimistischer, aber alle waren entschlossen, für unsere Unabhängigkeit zu kämpfen. Diese Entschlossenheit hat nun ihre Früchte getragen, und nach diesem langen Krieg hatten die französischen Kolonisten keine andere Wahl, als uns Frieden anzubieten und anzuerkennen, dass ihre Herrschaft über unser Land beendet ist. Dieser Tag wird für immer als der glorreiche Tag unserer Unabhängigkeit in Erinnerung bleiben."
@@ -3159,11 +3074,66 @@ nfa.631.a: "Huzzah!"
 nfa.631.b: "Die Grenzen von 1919 müssen ausreichen."
 nfa.631.c: "Verflucht!"
 
-nfa.632.t: "Der Zusammenbruch des französischen Kaiserreichs"
-nfa.632.d: "[NFA.GetNameDefCap] hat die Kontrolle verloren. Das Reich von Tausenden von Quadratkilometern, das sich über mehrere alte Königreiche und Tausende von Ökosystemen, Seen, Savannen und Wäldern erstreckt, die sie für sich in Afrika errichtet haben, ist nicht mehr unter ihrer Kontrolle. Ihre Armee wurde durch Aufstände der Eingeborenen zurückgedrängt, die sich als weitaus organisierter und effizienter erwiesen, als zunächst vermutet.\nDie erste Niederlage in der Sahara war ein furchtbarer Schlag, aber sie verblasste im Vergleich zu dem völligen Desaster weiter westlich, bis schließlich sogar ihr Kernland Algerien in Gefahr war. Die Lage ist für die Franzosen wirklich hoffnungslos. Ihre einzige Chance, mehr als ein paar Wochen zu überleben, besteht nun darin, die Unabhängigkeit aller Eingeborenenstaaten anzuerkennen und sich nach Algerien zurückzuziehen, wo sie hoffen können, sich neu zu organisieren und die Reste ihrer Nation zu verteidigen."
-nfa.632.a: "Und so verschwinden\ndie Überreste des französischen Kaiserreichs!"
-nfa.632.b: "Es scheint, dass die Dritte Republik zum Sterben\nin der Wüste verurteilt war."
-nfa.632.c: "Es scheint, dass ihr Griff nicht fest genug war."
+#News Events
+nfa_news.1.t: "Der Zusammenbruch des französischen Kaiserreichs"
+nfa_news.1.d: "[NFA.GetNameDefCap] hat die Kontrolle verloren. Das Reich von Tausenden von Quadratkilometern, das sich über mehrere alte Königreiche und Tausende von Ökosystemen, Seen, Savannen und Wäldern erstreckt, die sie für sich in Afrika errichtet haben, ist nicht mehr unter ihrer Kontrolle. Ihre Armee wurde durch Aufstände der Eingeborenen zurückgedrängt, die sich als weitaus organisierter und effizienter erwiesen, als zunächst vermutet.\nDie erste Niederlage in der Sahara war ein furchtbarer Schlag, aber sie verblasste im Vergleich zu dem völligen Desaster weiter westlich, bis schließlich sogar ihr Kernland Algerien in Gefahr war. Die Lage ist für die Franzosen wirklich hoffnungslos. Ihre einzige Chance, mehr als ein paar Wochen zu überleben, besteht nun darin, die Unabhängigkeit aller Eingeborenenstaaten anzuerkennen und sich nach Algerien zurückzuziehen, wo sie hoffen können, sich neu zu organisieren und die Reste ihrer Nation zu verteidigen."
+nfa_news.1.a: "Der Zusammenbruch des französischen Kaiserreichs"
+nfa_news.1.b: "Es scheint, dass die Dritte Republik zum Sterben\nin der Wüste verurteilt war."
+nfa_news.1.c: "Es scheint, dass ihr Griff nicht fest genug war."
+
+nfa_news.2.t: "Französische Integralisten stellen die Monarchie wieder her"
+nfa_news.2.d: "\"... Als Untertan bitte ich daher im Interesse Frankreichs und seines Volkes Monseigneur, den Herzog von Guise, Erben von vierzig Königen, die über ein Jahrtausend lang Frankreich geprägt haben, demütig, die Krone zu übernehmen und uns zur Wiederauferstehung, zur Erneuerung Frankreichs zu führen.\" Mit einer einfachen Ansprache vor dem Parlament hat Charles de Gaulle die Wiederherstellung der Monarchie gefordert. Nach Monaten politischer Instabilität scheinen die französischen Integralisten der Action Française endlich ihren Wunsch erfüllt zu bekommen. Aber in Wahrheit war niemand in Frankreich von dieser Entwicklung überrascht: Die royalistischen Sympathien de Gaulles waren ein offenes Geheimnis, und sein scheinbar unaufhaltsamer Aufstieg zur Macht musste zwangsläufig so enden. Nur die Zeit wird zeigen, ob das neue Regime sich behaupten kann, geschweige denn die französische Metropole zurückerobern kann."
+nfa_news.2.a: "Reaktionäre, die sich zu noch mehr Reaktion hin entwickeln, typisch."
+nfa_news.2.b: "Frankreich und politische Instabilität – was gibt es sonst noch Neues?"
+nfa_news.2.c: "Diese Republik stand immer kurz vor dem Zusammenbruch."
+
+nfa_news.3.t: "Demokratische Koalition in Algier"
+nfa_news.3.d: "Nach dem überraschenden Rücktritt von Marschall Philippe Pétain, der in den letzten zehn Jahren an der Spitze einer kaum verhüllten Militärjunta stand, und der Wahl von General Henri Mordacq zum Staatschef hat der neue Präsident einen Großteil der unter Pétain ausgesetzten bürgerlichen Freiheiten wiederhergestellt und sich dafür entschieden, den bisher eher marginalisierten demokratischen Kräften der im Exil lebenden Republik zu vertrauen, um eine Einheitsregierung, eine neue \"Heilige Union\", zu bilden, wobei er selbst eine eher zeremonielle Rolle einnehmen will. \nDiese Koalition unter der Führung der konservativen Parti Social Français und ihres Vorsitzenden Oberst François de La Rocque hat sich geschworen, alles in ihrer Macht Stehende zu tun, um die Bemühungen zur Rückeroberung des französischen Festlandes fortzusetzen und \"die Revolution niederzuschlagen\", obwohl Skeptiker bezweifeln, dass diese breite Koalition, die sehr unterschiedliche Kräfte vereint, lange genug Bestand haben wird, um dieses Versprechen zu erfüllen."
+nfa_news.3.a: "Reaktionäre mit einem Lächeln."
+nfa_news.3.b: "Die Republik besteht fort!"
+nfa_news.3.c: "Ich gebe ihnen noch ein paar Monate, bevor sie auseinanderfallen."
+
+nfa_news.4.t: "Coup d'État in Algiers"
+nfa_news.4.d: "Die kaum verhüllte Militärjunta von Marschall Philippe Pétain ist durch einen Staatsstreich gestürzt worden, der von einem seiner ehemaligen Verbündeten, General Henri Mordacq, angeführt wurde. Die Legitimität des Marschalls, zu regieren, war durch Vorwürfe der Vetternwirtschaft und Korruption zunehmend untergraben worden. Der Versuch, die Macht in seinen Händen zu zentralisieren, fügte der langen Liste der Vorwürfe gegen ihn noch den Vorwurf der Tyrannei hinzu, was den Staatsstreich beschleunigte. Pétain befindet sich nun in Haft, und General Mordacq wurde zum Staatsoberhaupt gewählt.\nObwohl er angekündigt hat, dass die unter dem vorherigen Regime ausgesetzten bürgerlichen Freiheiten wiederhergestellt werden und eine Rückkehr zur vollständigen Demokratie versprochen hat, hat der General bekannt gegeben, dass vorerst ein \"Komitee der nationalen Rettung\" aus Militärs, Experten und Parlamentariern gebildet werden soll, um die Reformen, die er für notwendig hält, um das französische Festland zurückzuerobern, bestmöglich umzusetzen."
+nfa_news.4.a: "Reaktionäre, die sich gegenseitig verschlingen."
+nfa_news.4.b: "Ein erster Schritt in Richtung Demokratie."
+nfa_news.4.c: "Er hätte es kommen sehen müssen."
+
+nfa_news.5.t: "Der Marschall hält durch"
+nfa_news.5.d: "Entgegen aller Widrigkeiten scheint nach Monaten der Unruhen, intensiver Debatten und Proteste in der französischen Exilregierung wieder alles in Ordnung zu sein. Die Legitimität der kaum verhüllten Militärjunta von Marschall Philippe Pétain war durch Vorwürfe der Vetternwirtschaft und Korruption untergraben worden, und der Versuch, die Macht in seinen Händen zu zentralisieren, fügte der langen Liste der Vorwürfe gegen ihn noch den Vorwurf der Tyrannei hinzu. Und doch hielt der \"Löwe von Verdun\" durch; er sicherte sich die Unterstützung der Oberschicht, weckte erneut die Bewunderung seines Volkes und beruhigte die Unruhen, die die Republik plagten – alles dank der umfangreichen Unterstützung durch die geheimnisvolle Gruppe Redressement Français. Nachdem die Heimatfront gesichert war, kündigte Pétain an, dass eine Reihe von Reformen durchgeführt werden würden, um Frankreich bestmöglich auf den Kampf um die Rückeroberung des französischen Festlands vorzubereiten."
+nfa_news.5.a: "Die Maske fällt."
+nfa_news.5.b: "War die Junta nicht nur als vorübergehende Maßnahme gedacht?"
+nfa_news.5.c: "Frankreich brauchte schon immer eine starke Hand."
+
+nfa_news.6.t: "Triumph der französischen Exilanten"
+nfa_news.6.d: "Nach zwei Jahrzehnten sind die Flammen der Revolution ein für alle Mal gelöscht. Trotz überwältigender Widrigkeiten ist es den französischen Exilanten gelungen, die Métropole zurückzuerobern. Dank der Zusammenarbeit ihrer Verbündeten und einer unglaublichen nationalen Mobilisierungsleistung haben sie diejenigen ausmanövriert, die ihnen im Weg standen. Es sind große Feierlichkeiten geplant, insbesondere in Paris, wo auf den Champs-Élysées eine Parade für die Truppen der gesamten Entente stattfinden wird.\n\nDas französische Volk bleibt jedoch tief gespalten: Einige begrüßen die Exilanten als Befreier, andere beklagen den Untergang der Kommune, und die meisten stehen einfach unter Schock, erschöpft vom Krieg, deren Leben zum zweiten Mal innerhalb einer Generation auf den Kopf gestellt wurde: Dieser Bürgerkrieg ist nur nominell vorbei, die Wunden, die er geschlagen hat, werden viele Jahre brauchen, um zu heilen."
+nfa_news.6.a: "Eine Tragödie."
+nfa_news.6.b: "Endlich ist es vorbei."
+nfa_news.6.c: "Alle Revolutionäre teilen das gleiche Schicksal."
+
+nfa_news.7.t: "Rückkehr der französischen Exilanten"
+nfa_news.7.d: "Nach zwei Jahrzehnten sind die Flammen der Revolution ein für alle Mal gelöscht. Trotz überwältigender Widrigkeiten ist es den französischen Exilanten dank der Zusammenarbeit ihrer Verbündeten und einer unglaublichen nationalen Mobilisierungsanstrengung gelungen, einen Teil der Métropole zurückzuerobern. Es sind große Feierlichkeiten geplant, insbesondere in Marseille, wo eine Parade für die Truppen der gesamten Entente stattfinden wird.\nDas französische Volk bleibt jedoch tief gespalten: Einige begrüßen die Exilanten als Befreier, andere beklagen den Untergang der Kommune, und die meisten stehen einfach unter Schock, erschöpft vom Krieg, deren Leben zum zweiten Mal innerhalb einer Generation auf den Kopf gestellt wurde: Dieser Bürgerkrieg ist nur nominell vorbei, die Wunden, die er geschlagen hat, werden viele Jahre brauchen, um zu heilen. Darüber hinaus bleibt das Staatsgebiet Frankreichs uneinig: Bereits jetzt werden die Samen für zukünftige Konflikte gesät."
+nfa_news.7.a: "Eine Tragödie."
+nfa_news.7.b: "Endlich ist es vorbei."
+nfa_news.7.c: "Alle Revolutionäre teilen das gleiche Schicksal."
+
+nfa_news.8.t: "Die Démocratie bombardiert Algier"
+nfa_news.8.d: "Massaker. Blutbad. Diese Worte scheinen unzureichend, um die Ereignisse in Algier zu beschreiben, bei denen das Schlachtschiff Démocratie in die Menge feuerte. Der Tag hatte mit friedlichen Protesten der Reformkräfte begonnen. Aber irgendwo fiel ein Schuss, eine Stimme schrie auf, ein Mann lag tot da: Die Demonstranten gerieten in Panik, die Regierungstruppen verloren jede Zurückhaltung, und innerhalb weniger Minuten brach in der Exilhauptstadt ein Guerillakrieg aus. Als die Nacht hereinbrach, sah sich das Regime mit der Möglichkeit eines allgemeinen Aufstands konfrontiert, sobald sich die Nachricht verbreiten würde: Eine solche Aussicht wäre unerträglich gewesen, und so wurde der grausame Befehl erteilt. Berichte über verstümmelte Leichen, summarische Hinrichtungen und verschwommene Fotos der Folgen sind aus der Republik durchgesickert, aber eine französische Zeitung titelte: \"ROTER PUTSCH TAPFER ZURÜCKGESCHLAGEN\". Nur eines ist sicher: Die Herrschaft des Marschalls ist nun unangefochten."
+nfa_news.8.a: "Die Reaktionäre zerfleischen sich jetzt gegenseitig!"
+nfa_news.8.b: "Und damit endet die Französische Republik."
+nfa_news.8.c: "Möge die Republik hinweggefegt werden."
+
+nfa_news.9.t: "Frankreich ruft die Vierte Republik aus"
+nfa_news.9.d.start: "Nach über einem Jahrzehnt des Niedergangs in Afrika fand die Regierung von Algier nach einer scheinbar aussichtslosen Kampagne endlich ihren Weg zurück nach Paris. Während sich das Land allmählich erholt, hat die französische Regierung unter [NFA.GetLeader] die Fertigstellung einer neuen Verfassung bekannt gegeben und damit offiziell die Vierte Französische Republik ausgerufen."
+nfa_news.9.d.end: "Diplomaten haben bereits begonnen, der Regierung der [NFA.GetRulingParty] ihre Glückwünsche zu übermitteln, und ausländische Investoren haben wieder Vertrauen in den französischen Markt gefasst."
+nfa_news.9.d.libs: "$nfa_news.9.d.start$\nZeitgleich mit einem liberalen Aufschwung in der Regierung der neuen Republik hat [NFA.GetLeader] versprochen, dass die neue Struktur des französischen Rechts die Rechte der Arbeitnehmer schützen, die nationalen Werte Frankreichs wahren und vor allem die bürgerlichen Freiheiten aufrechterhalten wird. $nfa_news.9.d.end$"
+nfa_news.9.d.cons: "$nfa_news.9.d.start$\nZeitgleich mit einer konservativen Initiative der neuen Regierung der Republik hat [NFA.GetLeader] versprochen, dass die neue Struktur des französischen Rechts die Rechte der Arbeitnehmer schützen, die nationalen Werte Frankreichs wahren und vor allem die nationale Sicherheit gewährleisten wird. $nfa_news.9.d.end$"
+nfa_news.9.d.gamer: "$nfa_news.9.d.start$\nZeitgleich mit einer autoritären Wende in der Regierung der neuen Republik hat [NFA.GetLeader] versprochen, dass die neue Struktur des französischen Rechts die Rechte der Arbeitnehmer schützen, die nationalen Werte Frankreichs wahren und vor allem die nationale Sicherheit aufrechterhalten wird. $nfa_news.9.d.end$"
+nfa_news.9.a: "Für eine erfolgreiche Zukunft!"
+nfa_news.9.b: "Eine erfreuliche Entwicklung!"
+nfa_news.9.c: "Ein vertrauter Nachbar kehrt zurück."
+nfa_news.9.e: "Europa ist verloren..."
+nfa_news.9.f: "Interessant."
 
 #########################
 ### Opinion Modifiers ###
@@ -3440,9 +3410,6 @@ NFA_jean_de_laborde_admiral_desc: "§YGeboren:§! §L29. November 1878 in Chanti
 NFA_jean_pierre_esteva: "Jean-Pierre Esteva"
 NFA_jean_pierre_esteva_navy_chief_desc: "§YGeboren:§! §L14. September 1880 in Reims, Marne, Französische Republik§!\n§YHintergrund:§! §LJean-Pierre Esteva trat 1898 in die Marine ein und diente auf einer Vielzahl von Schiffen in Asien und im Mittelmeer. Im Jahr 1910 wurde er zum Lieutenant de vaisseau befördert und diente weiterhin auf mehreren Schiffen. Während des Weltkriegs nahm er an der Dardanellen-Kampagne an Bord des Kreuzers Jeanne D'Arc teil und wurde dabei von einer großen Granate verwundet. Für diese Verwundung erhielt er das Croix de guerre und wurde nach seiner Genesung als Stellvertreter des Leiters des Dienstes für Häfen und Seekommunikation eingesetzt. Später kommandierte er die Jeanne-et-Genevieve, wo er sich am 6. August 1917 mit einem deutschen U-Boot duellierte und für seinen Sieg eine Auszeichnung erhielt. Mit der Revolution und seinem anschließenden Exil in Algier wurde er durch seine vielfältigen Erfahrungen in eine Führungsrolle bei der Ausbildung des Offiziersnachwuchses versetzt.§!"
 
-NFA_emile_muselier: "Emile Muselier"
-NFA_emile_muselier_admiral_desc: "§YGeboren:§! §L17. April, 1882, in Marseille, Bouches-du-Rhône, Französische Republik§!\n§YHintergrund:§! §LAls einer der allerersten Offiziere, die sich um die Regierung in Algier scharten, verbrachte Emile Muselier seine Karriere vor dem Weltkrieg hauptsächlich im Fernen Osten und im Mittelmeer. Im Jahr 1915 befehligte er eine Einheit von Marinefüsilieren an der Yser in Belgien und wurde später Präsident der Marineabteilung des Ministeriums für Erfindungen. Sein erstes richtiges Kommando erhielt er im April 1918 über die Aviso Scarpe. In den Wirren der Revolution war die Scarpe das einzige Schiff des ihr zugewiesenen Geschwaders, das dank der Führung von Emile Muselier nicht die rote Flagge hisste. Dafür, dass er die Kontrolle über das Schiff behielt und es erfolgreich nach Algier brachte, sollte er mit mehreren Beförderungen innerhalb der reorganisierten französischen Marine belohnt werden.§!"
-
 NFA_jean_marie_charles_abrial: "Jean-Marie Charles Abrial"
 NFA_jean_marie_charles_abrial_navy_chief_desc: "§YGeboren:§! §L17. Dezember 1879, in Réalmont, Tarn, Französische Republik§!\n§YHintergrund:§! §LJean-Marie Charles Abrial begann seine Karriere 1896 an der École Navale und wurde 1898 Fähnrich. Bis 1917 kommandierte er ein Hochsee-Patrouillenboot, dann trat er in die U-Boot-Abteilung des Marineministeriums ein. In den Wirren der Revolution und der Reorganisation in Algier wird er zum Capitaine de frégate befördert und verbringt viel Zeit damit, sich um die Küstenverteidigung der französischen Republik zu kümmern.§!"
 
@@ -3451,6 +3418,12 @@ NFA_thierry_dargenlieu_navy_chief_desc: "§YGeboren:§! §L7. August 1889, in Br
 
 NFA_jean_decoux: "Jean Decoux"
 NFA_jean_decoux_theorist_desc: "§YGeboren:§! §L5. Mai 1884, in Bordeaux, Gironde, Französische Republik§!\n§YHintergrund:§! §LJean Decoux wurde als eines von drei Kindern einer ursprünglich aus Obersavoyen stammenden Familie geboren und trat im Alter von 16 Jahren in die École Navale ein. Bis 1913 hatte er den Rang eines Korvettenkapitäns erreicht. Nach einem unauffälligen Dienst im Weltkrieg gehörte er zu den Marineoffizieren, die ins Exil nach Algier gingen. Im Jahr 1935 wurde er schließlich zum Konteradmiral befördert.§!"
+
+NFA_rene_emile_godfroy: "René-Émile Godfroy"
+NFA_rene_emile_godfroy_high_command_desc: "§YGeboren:§! §L10. Januar 1885, in Paris, Seine, Französische Republik§!\n§YHintergrund:§! §LRené Godfroy trat 1901 in die École navale ein und schloss seine Ausbildung drei Jahre später ab. Als Fähnrich nahm er an der zweiten Charcot-Expedition in die Antarktis teil. Anschließend diente Godfroy auf den Panzerkreuzern Léon Gambetta und Pothuau, bevor er seine Ausbildung zum Artillerieoffizier abschloss. Während des Krieges wurde er dem Schlachtschiff République zugeteilt und erhielt 1916 das Kommando über das Kanonenboot Capriea. Zur Zeit der Revolution war Godfroy auf dem Marinestützpunkt in Toulon stationiert, von wo aus er nach Algier evakuiert wurde. Dort etablierte er sich als erfahrener Marinefliegeroffizier und wurde 1931 zum Schiffskapitän befördert.§!"
+
+NFA_gabriel_auphan: "Gabriel Auphan"
+NFA_gabriel_auphan_admiral_desc: "§YGeboren:§! §L4. November 1894 in Alès, Gard, Französische Republik§!\n§YHintergrund:§! §LGabriel Auphan, Absolvent der École navale des Jahrgangs 1911, diente während der ersten beiden Jahre des Weltkriegs an Bord der Jeanne d'Arc. Während der Dardanellen-Kampagne wurde er mit Geheimdienstoperationen im Nahen Osten betraut und organisierte Agenten in der gesamten Region. Für den Rest des Krieges diente er als U-Boot-Offizier in der Adria, blieb aber weiterhin in der Geheimdienstarbeit tätig. Als gläubiger Katholik zog sich Auphan zusammen mit der Dritten Republik nach Nordafrika zurück. In den frühen 20er Jahren schrieb er aktiv über Torpedoboote und den taktischen Einsatz von U-Booten, was ihm den Ruf eines aufstrebenden Marine-Theoretikers einbrachte. Mit dem Ausscheiden älterer Admirale hatte Auphan endlich die Chance, den Rang eines Flaggoffiziers zu erreichen.§!"
 
 NFA_francois_coty: "Francois Coty"
 NFA_francois_coty_advisor_desc: "§YGeboren:§! §L3. Mai 1874, in Ajaccio, Korsika, Französische Republik§!"
@@ -3508,4 +3481,6 @@ NFA_victor_arrighi: "Victor Arrighi"
 NFA_victor_arrighi_advisor_desc: "§YGeboren:§! §L25. Dezember 1900, in Sant'Andréa-di-Cotone, Korsika, Französische Republik§!"
 NFA_joseph_de_la_porte_du_theil: "Joseph de La Porte du Theil"
 NFA_joseph_de_la_porte_du_theil_advisor_desc: "§YGeboren:§! §L29. Mai 1884, in Mende, Lozère, Französische Republik§!"
+NFA_emile_rimailho: "Émile Rimailho"
+NFA_emile_rimailho_advisor_desc: "§YGeboren:§! §L2. März 1864, in Paris, Seine, Französisches Kaiserreich§!"
 NFA_gilbert_renault: "Gilbert Renault"

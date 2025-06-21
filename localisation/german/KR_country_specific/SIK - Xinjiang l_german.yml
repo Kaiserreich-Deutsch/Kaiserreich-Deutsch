@@ -87,8 +87,6 @@ SIK_improve_seven_points: "§RDie Sieben Punkte von Sheng Shicai werden umgesetz
 SIK_uyghur_militas: "§REine Freiwilligen-Brigade der uigurischen Kavallerie wird aufgestellt§!"
 SIK_secret_police: "§REine Brigade der Geheimpolizei von Menhuan wird aufgestellt§!"
 SIK_purge_tooltip: "§RWir werden daran arbeiten, uns um die südliche Bürokratie zu kümmern§!"
-SIK_mongol_fight: "§RWir können jetzt direkt gegen die mongolische Aggression vorgehen§!"
-SIK_unlock_foreign: "§RWir können jetzt Waffen von Russland anfordern§!"
 SIK_jahriyya_growth: "§RDer Einfluss des Jahriyya-Ordens wächst.§!"
 
 ### Country Flags ###
@@ -97,8 +95,6 @@ SIK_jin_rule: "Jin Shuren hat seine Macht in Xinjiang gesichert."
 SIK_shaowu_rule: "Ma Shaowu Jin Shuren hat seine Macht in Xinjiang gesichert."
 SIK_sheng_rule: "Sheng Shicai Jin Shuren hat seine Macht in Xinjiang gesichert."
 SIK_camp_destroyed: "Die mongolischen Seperatisten wurden besiegt."
-#KUM_annexation_flag: "Jin Shuren has schemed his way into Kumul."
-SIK_aksu_army_demobilised: "Die Aksu Garnison wurde demobilisiert."
 SIK_turfan_troubles: "Turfans Loyalität ist ungewiss."
 #SIK_turfan_defection: "Turfans' loyalties have changed."
 SIK_turfan_deployment: "Turfans Garnison wurde mobilisiert."
@@ -185,13 +181,8 @@ SIK_mobilize_shuren_division_desc: "Das Regiment, das Jin Shuren vorbereitet hat
 SIK_march_dzungaria: "Jin Shurens Regiment mobilisieren"
 SIK_march_dzungaria_desc: "Wenn das Regiment richtig versorgt ist, sollten wir bereit sein, die mongolischen Lager zu überfallen, die all diese Probleme verursachen. Wir können nur hoffen, dass die Operation gut verläuft."
 
-SIK_setup_policing_dzungaria: "Polizeikontrollen"
-SIK_setup_policing_dzungaria_desc: "Obwohl die Beseitigung von Lagern die Häufigkeit von Überfällen in der Region verlangsamen wird, wird es immer Ausreißerbanditen geben, die durch die Landschaft streifen und Ärger verursachen. Die Einrichtung einiger kleinerer Polizeikräfte in abgelegeneren Regionen sollte dazu beitragen, dieses Problem zu beenden."
-
 SIK_remove_mongol_mission: "Nördliche Gaunerei ausrotten"
 SIK_remove_mongol_mission_desc: "Mit der Eskalation des mongolischen Problems wächst auch unser Bedürfnis, endlich etwas zu unternehmen. Wenn wir das Problem ignorieren, könnte es dazu kommen, dass die Region in Zukunft völlig außerhalb unserer Kontrolle liegt wird."
-
-SIK_attack_mongolia: "Grenzkonflikte mit der Mongolei"
 
 SIK_xinjiang_war_category: "Der Xinjiang-Krieg"
 SIK_xinjiang_war_category_desc: "Xinjiang ist aufgrund von Jins Politik in eine Krise geraten, mit den uigurischen Rebellen im Süden und den Kumulik-Verrätern im Osten. Obwohl Sheng Shicai, Ma Shaowu und Jin Shuren vorerst eine vereinte Kraft sind, unternehmen sie alle ihre eigenen Schritte, um das Problem zu lösen, das ihre eigenen Interessen befeuert. Ohne sorgfältiges Manövrieren könnte das Gouvernement Xinjiang noch schneller fallen als gedacht."
@@ -462,11 +453,6 @@ xinfd.3.a: "Sind die Truppen zu irgendwas fähig?"
 xinfd.4.t: "Ein teurer Sieg"
 xinfd.4.desc: "Der Rauch hat sich endlich gelegt, als die Truppen nach Hause zurückkehren ... aber zu welchem Preis? Obwohl es ihnen tatsächlich gelang, das mongolische Lager zu zerstreuen und zu zerstören, waren sie mit vielen Verlusten und weniger Waffen konfrontiert. Dies sollte zwar die Häufigkeit von Überfällen und die Organisation dieser Banditen erheblich verringern, aber es war auf eigene Kosten, für die wir den Preis zahlen müssen. Hoffentlich wird so schnell keine weitere Operation nötig sein."
 xinfd.4.a: "Das war es wert."
-
-xinfd.5.t: "Ein General aus Xinjiang ersucht Asyl"
-xinfd.5.d: "Obwohl unser Militär nicht den Loyalitätsstandard der westlichen Mächte erreicht, sind wir stolz auf unsere Leistungsgesellschaft. Die Kommandanten und Feldmarschälle, die wir auf dem Schlachtfeld sehen, haben ihre Loyalität gegenüber dem Anführer und dem Volk bewiesen. Auf der anderen Seite könnte der Sieg von dem tödlichen Willen abhängen, den einige der eher söldnerischen Kommandeure zeigen, die bereit sind zu handeln oder zu sterben. Dieser Mann kommt von den turbulenten Qing zu uns, dessen Cliquen in der Vergangenheit stark auf Söldnerkommandanten angewiesen waren. Dieser General kommt mit einer schluchzenden Geschichte, wie sich das Blatt gegen ihn wendete, und er kam zerlumpt zu uns, bereit, noch einmal den guten Kampf zu führen. Ob er die Wahrheit sagt, ist schwer zu bestimmen, aber wir müssen entscheiden, ob es sich lohnt, ihn in diesen ohnehin schon verräterischen Zeiten zu rekrutieren."
-xinfd.5.a: "Wir nehmen jede Hilfe, die wir kriegen."
-xinfd.5.b: "Er wäre nur eine Last."
 
 xinfd.15.t: "Den Anführer von Kashgar beseitigen"
 xinfd.15.d: "Die losen Rebellen Ostturkestans werden durch eine Figur vereint: Sabit Damulla. Die Bughra-Brüder von Hotan und der Handelsadlige Timur Beg werden nur durch Sabit Damulla vereint. Wenn Sie Sabit entfernen, entfernen Sie ihre Einheit und ihre Koalition wird wahrscheinlich zusammenbrechen. Nachdem wir den Aufenthaltsort von Sabit Damulla durch ein Verhör herausgefunden haben, hat unser Militärstab entschieden, dass es jetzt an der Zeit ist zu handeln. Die Person, die am besten bereit ist, diese Mission zu leiten, ist unser General Burhan Shahidi. Er hasst die Uigher-Rebellen mehr als die meisten anderen und hat in der Vergangenheit bei Missionen wie dieser anständige Erfolge gezeigt. Wir könnten ihn mit einer kleinen Gruppe professioneller Truppen ins Rebellenland schicken und Damullas Haus angreifen, während er schläft. Hoffentlich wird Shahidi Erfolg haben."

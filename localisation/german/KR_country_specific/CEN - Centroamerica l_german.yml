@@ -286,16 +286,12 @@ CEN_middle_option_army: "§YEine gemischte Truppe wurde von der Versammlung ausg
 CEN_federal_army: "§YEine Bundesarmee wurde von der Versammlung gewählt.§!"
 CEN_the_conflict_begins: "Vorbereitung eines Einigungskrieges für Zentralamerika"
 CENdem_succesful_negotiation: "Wir haben erfolgreich mit Westindien verhandelt."
-CENdem_1_rail_completed: "$has_completed_decision$$CENdem_guatamala_san_salvador_railway$§!"
-CENdem_2_rail_completed: "$has_completed_decision$$CENdem_san_salvador_tegucigalpa_railway$§!"
 
 ### Parties ###
 CEN_social_democrat_liberal: "PT"
 CEN_social_democrat_liberal_long: "Partido del Trabajo (Arbeiterpartei)"
 
 ### Ideas ###
-CENdem_luxury_goods_economy: "Luxusgüterwirtschaft"
-CENdem_Disorganised_Economy: "Desorganisierte Wirtschaft"
 CENdem_an_unstable_union: "Eine instabile Union"
 CENdem_a_new_central_american_identity: "Eine neue zentralamerikanische Identität"
 CENdem_UFC_influence_rooted_out: "UFC-Einfluss ausgerottet"
@@ -332,7 +328,6 @@ CENdem_weakend_general_influence: "Geschwächter allgemeiner Einfluss"
 CENdem_decentralised_economy: "Dezentralisierte Wirtschaft"
 CENdem_democratic_socialism: "Demokratischer Sozialismus"
 CENdem_racial_equality: "Rassengleichheit"
-CENdem_splendid_isolation: "Prächtige Isolation"
 CENdem_land_reform_0: "Anstehende Landreform"
 CENdem_moderate_land_reform_1: "Moderate Landreform"
 CENdem_radical_land_reform_1: "Radikale Landreform"
@@ -518,11 +513,6 @@ cendem.32.d: "Unter Verweis auf sein hohes Alter und seine allgemeine Erschöpfu
 cendem.32.a: "Ramon Villeda Morales takes a surprise victory and succeeds Araujo in the party."
 cendem.32.b: "Francisco Sequeira Moreno is rewarded for his patience and succeeds Araujo in the party."
 
-cendem.33.t: "Der Tod von Sacassa und die Folgen für die Partido Liberal"
-cendem.33.d: "Die liberale Partei wurde von einer Tragödie heimgesucht, denn Juan Bautista Sacasa ist in Managua verstorben. Der Tod von Juan Bautista Sacasa stürzt die Liberale Partei in ein Chaos, da es keinen bestimmten Führer gibt, der nach Sacasas Tod die Nachfolge antreten könnte. Die Partei hat zu internen Neuwahlen aufgerufen, bei denen das neue Gesicht der liberalen Partei für die kommenden Jahre gewählt werden soll, das das Erbe Sacasas und der vielen liberalen Denker vor ihm würdigen soll."
-cendem.33.a: "Abelardo Cuadra holt einen Überraschungssieg."
-cendem.33.b: "Molina wird neuer Parteivorsitzender."
-
 cendem.34.t: "Jacobo Arbenz wird Führer der Partido Nacional Revolucionario"
 cendem.34.d: "Nach seiner Wahlniederlage für die PT lernte Jacobo Arbenz José Manuel Fortuny kennen, einen jungen Sozialisten, der von den Vorschlägen von Arbenz in der Partido del Trabajo beeindruckt war. Da die beiden enge Freunde wurden, bot "Che Manuel" Arbenz an, der Partido Nacional Revolucionario beizutreten, wo er, obwohl er die allgemeinen sozialistischen Ideale der meisten PNR-Mitglieder nicht teilte, aufgrund seiner kompromissbereiten Art und seiner Sorge um das Wohlergehen der Bürger in ganz Mittelamerika immense Popularität und Respekt erlangte. Bei den Wahlen der PNR hat Jacobo Arbenz die Volksabstimmung mit großer Mehrheit gewonnen und wird bei den nächsten Wahlen der neue Parteivorsitzende sein."
 cendem.34.a: "Wurde die PNR weiter nach rechts verschoben? oder Arbenz weiter nach links?"
@@ -552,7 +542,7 @@ cendem.42.a: "Magnifico!"
 
 # Panamanian events mostly reuse Costa Rican loc
 cendem.43.a: "$cendem.39.a$"
-cendem.43.b: "Das ist inakzeptabel."
+cendem.43.b: "$cendem.39.b$"
 
 cendem.44.a: "Ausgezeichnet!"
 
@@ -661,10 +651,6 @@ cendem.222.a: "Wenn sie sich dafür entscheiden."
 cendem.223.t: "Die Föderation hat ihren Anspruch aufgegeben!"
 cendem.223.d: "Die Westindische Föderation hat sich endlich bereit erklärt, ihre Ansprüche auf Belize aufzugeben, was den Weg für eine vollständige Integration ebnen wird, aber wir müssen unseren Teil der Abmachung erfüllen und uns früher oder später der Entente anschließen."
 cendem.223.a: "Großartig!"
-
-cendem.225.t: "Proteste gegen die Sozialisten"
-cendem.225.d: "Nach der Auszählung aller Stimmen wurde die sozialistische PNR als Wahlsiegerin ermittelt. Dies löste sofort Proteste der Unionista-Partei aus, die behauptete, die Wahlen seien gefälscht und die Sozialisten würden die Republik in die Katastrophe führen. Auch wenn ihre Proteste uns öffentlich schmerzen, haben wir mit Hilfe der PT immer noch eine schwache Kontrolle über die Abgeordnetenkammer, aber wir müssen vorsichtig sein, um zu vermeiden, dass sich die Unionista und die Liberalen gegen uns verbünden, denn das würde dazu führen, dass unsere Gesetze sowohl im Senat als auch in der Abgeordnetenkammer blockiert werden."
-cendem.225.a: "Wir haben die Volksabstimmung fair und ehrlich gewonnen, und sie sollten dies respektieren."
 
 cendem.226.t: "[FROM.GetNonIdeologyName] bittet um den Beitritt zur [ROOT.GetFactionName]"
 cendem.226.d_start: "Eine zentralamerikanische Delegation ist heute in unserer Hauptstadt eingetroffen und hat formell um den Beitritt zur [ROOT.GetFactionName] gebeten. Die mittelamerikanische Nation verfügt zwar nur über eine recht kleine Streitmacht und sehr wenig Ressourcen, aber ein weiterer Verbündeter in Zentralamerika könnte sich für unsere Sache als vorteilhaft erweisen, da wir mit ihrer Hilfe den Panamakanal umgehen könnten. Was sollen wir ihnen sagen?"
@@ -1060,9 +1046,6 @@ CEN_elections_people: "Entschied sich dafür, das Volk wählen zu lassen"
 CEN_elections_council: "Entschied sich dafür, den Kongress wählen zu lassen"
 CEN_no_more_centralisation: "Wir haben uns entschieden, unseren Plan der Zentralisierung und Konsolidierung der Macht nicht fortzusetzen."
 
-CEN_continue_land_improvement_in_nicaragua: "$has_completed_decision$$CEN_land_reform_in_nicaragua$§!"
-CEN_expanded_road_south: "$has_completed_decision$$CEN_extent_road_south$§!"
-CEN_extented_road_peninsula: "$has_completed_decision$$CEN_extent_road_peninsula$§!"
 CEN_talks_begin: "Wir konzentrieren uns nicht bereits auf einen anderen Staat."
 
 ### Tooltips
@@ -1076,7 +1059,7 @@ CEN_other_focus_not_completed: "Wenn wir den Schwerpunkt, der uns einen dieser �
 CEN_stop_consolidation: "§rWir werden unsere Machtkonsolidierung stoppen.§!"
 CEN_stop_consolidation2: "§rWir werden nur versuchen, gemeinsam mit der Confederación Obrera zu regieren und uns so daran hindern, die Macht über Centroamerica vollständig zu konsolidieren§!"
 CEN_land_reform_tooltip: "Wir werden Entscheidungen zur Aufwertung unserer Staaten erhalten, wodurch jeder zwei zusätzliche Bauslots erhält."
-CEN_infra_projects_tooltip: "Wenn wir das maximale Infrastrukturniveau im Staat erreicht haben, werden wir stattdessen erhalten: \nLokale Baugeschwindigkeit: §G+10%§! \n"
+CEN_infra_projects_tooltip: "Wenn wir das maximale Infrastrukturniveau im Staat erreicht haben, werden wir stattdessen erhalten:\nLokale Baugeschwindigkeit: §G+10%§!\n"
 CEN_our_own_fuel_tooltip: "Sollten wir §YSynthetische Ölexperimente§! nicht erforscht haben, werden stattdessen die folgenden Boni angewendet:"
 CEN_readjusting_budget_tooltip: "Das Ereignis §Y'Ausrichtung unseres Industriehaushalts'§!, lässt uns zwischen der Verbesserung unserer §YForschung§!, §YBauvorhaben§! oder §YProduktion§! wählen."
 CEN_air_fighters_tooltip: "Sollten wir bereits §YZwischenkriegsjäger§! erforscht haben, werden stattdessen die folgenden Boni angewendet:"
@@ -1944,8 +1927,6 @@ CENmil_central_american_highway_2_desc: "Die Zentralamerikanische Fernstraße ha
 
 CENmil_foreign_policy_decisions: "Außenpolitik"
 CENmil_foreign_policy_decisions_desc: "In den Zeiten der Unruhen, in denen wir uns befinden, können wir nicht ewig unverbündet bleiben. Während die Welt brennt und der Syndikalismus immer mehr Nationen zerstört, müssen wir wachsam bleiben und die Unterstützung der antisyndikalistischen Weltmächte gewinnen. Unsere Gewerkschaft darf nicht länger irrelevant sein!"
-CENmil_civil_war_volunteers: "Freiwillige in den Amerikanischen Bürgerkrieg entsenden"
-CENmil_civil_war_volunteers_desc: "Der amerikanische Bürgerkrieg ist in vollem Gange, und es ist unsere Pflicht, unseren Verbündeten, die uns in den letzten Jahrzehnten geholfen haben, zu helfen. Allerdings müssen wir uns mit Bedacht für eine Seite entscheiden."
 CENmil_protection_US: "Antrag auf amerikanischen Schutz"
 CENmil_protection_US_desc: "Die Vereinigten Staaten waren in den letzten Jahrzehnten unser natürlicher Verbündeter, der uns mit amerikanischen Finanzmitteln und amerikanischem Know-how bei unserer Entwicklung geholfen hat. Da sich der Syndikalismus in ganz Amerika ausbreitet, werden wir ihren Schutz brauchen."
 CENmil_join_faction_US: "Schließt euch den Amerikanern an"
@@ -2079,7 +2060,6 @@ cenmil.12.c: "Lang lebe Präsident Maximiliano Hernandez!"
 cenmil.12.a.draw: "Es wird eine Koalition unter Somoza Garcia gebildet"
 cenmil.12.b.draw: "Es wird eine Koalition unter Jorge Ubico gebildet"
 cenmil.12.c.draw: "Es wird eine Koalition unter Maximiliano Hernandez gebildet"
-cenmil.12.liegnitz: "Wir haben aufgehört, ein Militärregime zu sein."
 
 cenmil.13.t: "Umgang mit den anderen Militärfraktionen"
 cenmil.13.d: "Ein Ein-Parteien-Staat muss, wie der Name schon sagt, von einer einzigen Partei beherrscht und kontrolliert werden. Es wird ein Leichtes sein, die demokratische und syndikalistische Opposition loszuwerden, aber die anderen militärischen Fraktionen werden nicht aufgeben. Jetzt, da wir den Kongress gewonnen haben, müssen wir uns unserer Gegner entledigen..."
@@ -2142,11 +2122,6 @@ cenmil.42.a: "Willkommen zurück!"
 cenmil.43.t: "Die Statue von Jorge Ubico ist fertiggestellt"
 cenmil.43.d: "Präsident Jorge Ubico, der Held des guatemaltekischen Bürgerkriegs, der Retter Zentralamerikas vor den syndikalistischen Verrätern, wird nun für immer den Präsidentenpalast bewachen. \n\nDer Bau seiner Statue, die den Platz vor dem Palast beherrscht, wurde in Angriff genommen, als die guatemaltekische Flagge noch auf dem Fahnenmast des Palastes wehte, als Mittelamerika noch durch die syndikalistischen Verräter gespalten war. Jetzt jedoch bewacht die schöne Flagge der vereinigten Republik den Eingang des Palastes, alles dank unseres Helden Jorge Ubico. Die Einweihung an diesem schönen Junitag wurde zum Feiertag erklärt, damit alle Arbeiter, Studenten und Intellektuellen Mittelamerikas die Möglichkeit haben, unseren großen Führer zu ehren. Die Menschenmenge, die sich versammelt hat, um die Statue zu sehen, wird auf mehr als zwanzigtausend tapfere Bürger geschätzt, und die republikanische Flagge weht an diesem gesegneten Tag in allen Straßen von Guatemala-Stadt."
 cenmil.43.a: "Eine beeindruckende Statue für einen beeindruckenden Führer."
-
-cenmil.200.t: "Unterstützung einer Seite im Bürgerkrieg"
-cenmil.200.d: "Die Vereinigten Staaten von Amerika sind in einen zweiten Bürgerkrieg geraten, der noch zerstörerischer ist als der erste. Zentralamerika war aufgrund der United Fruit Company und ähnlicher Unternehmen schon immer eng mit den Vereinigten Staaten verbunden, doch das Militär ist sich uneins, wem es helfen soll. Einige plädieren dafür, der offiziellen Regierung der Vereinigten Staaten zu helfen, während andere lieber den neuen amerikanischen Unionsstaat unterstützen würden. Je nachdem, für welche Seite wir uns entscheiden, könnte der Sieg oder die Niederlage der genannten Fraktion schwerwiegende Folgen haben."
-cenmil.200.a: "Helft dem offiziellen Regime!"
-cenmil.200.b: "Unterstützt die Unionsstaaten!"
 
 cenmil.201.t: "Die Zentralamerikanische Republik bittet um Schutz"
 cenmil.201.d: "Die Zentralamerikanische Republik hat unsere Nation gebeten, sie vor ihren Feinden zu schützen, die die Integrität und das Überleben der Republik bedrohen. Die Annahme ihres Ersuchens würde letztlich dazu führen, dass sie sich unserer Fraktion anschließen, aber unsere Verpflichtung zu ihrer Verteidigung könnte das bereits fragile Gleichgewicht der Kräfte in der Region stören."
@@ -2252,7 +2227,6 @@ cenmil.229.d.panama.no.exists: "Da San José nun an das übrige Mittelamerika an
 cenmil.229.a: "Nächstes Jahr am Kanal."
 cenmil.229.b: "Nächstes Jahr am Kanal, mit Genehmigung."
 cenmil.229.c: "Nächstes Jahr am Kanal, sobald er Teil der Union ist."
-cenmil.229.e: "Wir haben unser Ziel erreicht: San José."
 
 cenmil.230.d: "Die zentralamerikanische Regierung hat uns um die Erlaubnis gebeten, den letzten Abschnitt der Transzentralamerikanischen Eisenbahn zu bauen, die San José mit dem westlichen Ufer des Panamakanals verbinden soll. Dies würde zwar die Infrastruktur im Westen Panamas verbessern, aber große Teile der Regierung befürchten, dass die Eisenbahn für militärische Zwecke genutzt wird, um uns in die Zentralamerikanische Republik zu integrieren."
 
@@ -2547,12 +2521,10 @@ CENmil_dual_sea_protecc_desc: "Unsere Nation ist eine der wenigen in der Welt, d
 
 ### Foreign Economic Control, get this shit away from me thx, Code = p;plus m;minus x;number
 CENmil_united_fruit: "Außländische Wirtschaftskontrolle"
-CENmil_united_fruit_desc: "Ausländische Unternehmen kontrollieren derzeit §Y[?UFC_power]%§! unserer Wirtschaft.\n§WDies hat folgende Auswirkungen:\n$MODIFIER_POLITICAL_POWER_GAIN$: [?UFC_effect11|+=]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?UFC_effect12|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?UFC_effect13|H=%1]\n$MODIFIER_WAR_SUPPORT_FACTOR$: [?UFC_effect14|+=%]"
-
-CENmil_united_fruit_land: "Außländische Wirtschaftskontrolle"
+CENmil_united_fruit_desc: "Ausländische Unternehmen kontrollieren einen Teil unserer Wirtschaft."
+CENmil_united_fruit_modifier_tooltip: "§CAusländische Kontrolle:§! [?UFC_power|Y0%%]"
 
 cenmil_foreign_influence_grows_tt: "Ausländische Unternehmen werden $RIGHT|Y0%%$ Einfluss gewinnen!\n"
-
 cenmil_foreign_influence_decreases_tt: "Ausländische Unternehmen werden $RIGHT|Y0%%$ Einfluss verlieren!\n"
 
 ### Central American Flavour by Drozdovite
@@ -2630,3 +2602,12 @@ cafla.18.a: "¡Feliz Día de la Independencia!"
 cafla.20.t: "Veröffentlichung des Buches 'Archaeology of the North Coast of Honduras'"
 cafla.20.d: "Die amerikanische Archäologin und Ethnografin Doris Zemurray Stone hat ihr Buch veröffentlicht, in dem sie die Erkenntnisse verschiedener Archäologen über mehrere mittelamerikanische Ausgrabungsstätten in Honduras zusammenfasst. Als eines der besten Werke der archäologischen Forschung in diesem Bereich konzentriert sich ihr Buch vor allem auf die Aufzeichnungen von George Clapp Vaillant und Dorothy Popenoe über die Playa de los Muertos und wie diese das neue Bild der mesoamerikanischen Kulturen prägen. Das Buch ist schnell zur Pflichtlektüre für jeden Liebhaber präkolumbischer mesoamerikanischer Geschichte geworden und hat das Ansehen der jungen Direktorin des Nationalmuseums von Costa Rica in neue Höhen getrieben."
 cafla.20.a: "Ihre Arbeit macht uns alle stolz."
+
+cafla.21.t: "Formation of [CEN.GetNameDef]"
+cafla.21.d.syndie: "Zentralamerika war lange Zeit geteilt, und die verschiedenen Nationen standen unter starkem amerikanischem Einfluss, seit die Föderative Republik Zentralamerika vor fast einem Jahrhundert aufgelöst wurde. Mit dem Beginn des Zweiten Amerikanischen Bürgerkriegs wurde die Region jedoch von Konflikten und Unruhen heimgesucht, und verschiedene Ideologien kämpften darum, sich in diesem Sturm zu behaupten.\n\nNachdem sich die Wogen geglättet haben, scheint es, als sei das Land unter einer sozialistischen Regierung vereint worden, die bereits nach Paris blickt, um sich dort inspirieren zu lassen. Welche Richtung des sozialistischen Gedankenguts die junge Nation einschlagen wird, ist noch unklar, aber eines ist sicher: Für die Region hat ein radikaler Bruch mit der Vergangenheit stattgefunden."
+cafla.21.d.liberal: "Zentralamerika war lange Zeit geteilt, und die verschiedenen Nationen standen unter starkem amerikanischem Einfluss, seit die Föderative Republik Zentralamerika vor fast einem Jahrhundert aufgelöst wurde. Mit dem Beginn des Zweiten Amerikanischen Bürgerkriegs wurde die Region jedoch von Konflikten und Unruhen heimgesucht, und verschiedene Ideologien kämpften darum, sich in diesem Sturm zu behaupten.\n\nNachdem sich die Wogen geglättet haben, scheint es, als sei das Land unter der liberalen und demokratischen Zentralamerikanischen Konföderation vereint worden. Über die Zukunft des Landes ist noch vieles ungewiss – die Ausgestaltung der Verfassung, der Standort der Hauptstadt und die politischen Parteien, die das Land regieren werden, sind noch nicht entschieden –, aber fest steht, dass dies einen Neuanfang für die Region bedeutet."
+cafla.21.d.military: "Zentralamerika war lange Zeit geteilt, und die verschiedenen Nationen standen unter starkem amerikanischem Einfluss, seit die Föderative Republik Zentralamerika vor fast einem Jahrhundert aufgelöst wurde. Mit dem Beginn des Zweiten Amerikanischen Bürgerkriegs wurde die Region jedoch von Konflikten und Unruhen heimgesucht, und verschiedene Ideologien kämpften darum, sich in diesem Sturm zu behaupten.\nNachdem sich die Wogen geglättet haben, scheint das Land unter der Aufsicht der zentralamerikanischen Streitkräfte vereint zu sein. Die Armee, die proamerikanisch ist und sich entschieden gegen den ihrer Meinung nach subversiven Einfluss der Gewerkschaften wendet, sieht sich nun als die führende Kraft der neuen Nation, die diese vor inneren und äußeren Feinden schützt. Wohin sich das neue Land von hier aus entwickeln wird, ist ungewiss, aber es scheint, dass trotz allem eine Bastion der alten Ordnung bestehen bleibt."
+cafla.21.a: "Das wird nicht gut ausgehen."
+cafla.21.b: "Die Internationale soll die menschliche Ethnie sein!"
+cafla.21.c: "Eine wunderbare Entwicklung!"
+cafla.21.e: "Die Stabilität muss gewährleistet sein."

@@ -54,11 +54,9 @@ ETS_openelectimur: "Die Siegesparade verlief ohne Zwischenfälle"
 ETS_timurshah_flag: "Die Siegesparade wurde nach einer kurzen Unterbrechung wieder aufgenommen"
 ETS_islamiccountry: "Wir haben uns entschieden, uns nach innen zu wenden"
 ETS_turkiccountry: "Wir haben uns entschieden, den Blick nach außen zu richten"
-ETS_army_created: "Die Armee wurde in vollem Umfang aufgebaut"
 ETS_demoflag: "Verfolgt freie Wahlen"
 ETS_sabriflag: "Nationale Wahlen verschoben"
 ETS_otto_reach_out_flag: "Kontaktaufnahme mit dem Osmanischen Reich"
-ETS_gold_to_currency_converted: "$has_completed_decision$§H$ETS_convert_gold_to_currency$§!"
 
 #Opinion Modifiers
 ETS_violent_night: "Botschafter einem Blutbad unterzogen"
@@ -84,7 +82,6 @@ ETS_convert_hotan_tt: "§YHotan§!:\nErsetzt §Y1 Zivilfabrik§! durch §Y1 Mili
 ETS_army_training_tt: "Schaltet §HAusbildungsentscheidungen für Armeeformationen und Kampftechniken§! frei.\n"
 ETS_bughra_raise_militia_tt: "§G1§! Milizeinheit wird in Hotan gebildet"
 ETS_timur_raise_militia_tt: "§G1§! Milizeinheit wird in Kashgar gebildet"
-ETS_create_an_army_tt: "Sieg der Rebellion\n§Y$ETS_fledgling_military$§! hat keine §Rnegative Auswirkungen§! mehr"
 ETS_change_popularities: "Veränderung der Popularität des Nationalpopulismus: [?ETS_change_tooltip1|+%]\nVeränderung der Popularität der Autoritären Dem.: [?ETS_change_tooltip2|+%]"
 ETS_authelect_tt: "Regelmäßige, aber streng kontrollierte nationale Wahlen werden alle vier Jahre abgehalten."
 ETS_demelect_tt: "Freie nationale Wahlen werden alle vier Jahre abgehalten."
@@ -303,8 +300,6 @@ ETS_working_the_land_desc: "Mit dem Aufstieg der Türken in den Adelsstand gibt 
 #Decisions
 ETS_foreign_diplomacy: "Ausländische Unterstützung für die Revolution"
 ETS_foreign_diplomacy_desc: "Als junge unabhängige Nation, die gegen die chinesischen Unterdrücker und die Kumul-Rebellen kämpft, müssen wir die Unterstützung anderer Nationen suchen, wenn wir überleben wollen.\n\nWichtige Länder:\n§Y[RUS.GetNameWithFlag]§![RUS.get_ETS_foreign_supporters]\n§Y[RAJ.GetNameWithFlag]§![RAJ.get_ETS_foreign_supporters]\n§Y[OTT.GetNameWithFlag]§![OTT.get_ETS_foreign_supporters]\n\nAndere Länder:\n§Y[AFG.GetNameWithFlag]§![AFG.get_ETS_foreign_supporters]\n§Y[TRK.GetNameWithFlag]§![TRK.get_ETS_foreign_supporters]\n§Y[BUK.GetNameWithFlag]§![BUK.get_ETS_foreign_supporters]\n§Y[KAZ.GetNameWithFlag]§![KAZ.get_ETS_foreign_supporters]\n\nAnzahl der Gewehre:  [get_ETS_infantry_equipment_amount]\nMenge an Gold:  [?ETS_gold_amount|+]\n"
-ETS_gain_international_recognition: "Anerkennung durch Nachbarn"
-ETS_gain_international_recognition_desc: "Wir haben die Revolution gewonnen! Unsere Nachbarn haben keine andere Wahl, als unsere Existenz zu akzeptieren."
 ETS_foreign_support_send_delgations_RUS: "Unterstützung von den Russen suchen"
 ETS_foreign_support_send_delgations_RUS_desc: "Russland, das in der Nähe liegt, aber nicht an uns grenzt, befindet sich in seinen eigenen politischen Turbulenzen. Es wird zwar einige Zeit brauchen, um sich zu erholen, aber sein Verlangen nach Zentralasien ist kaum zu verbergen, und es braucht Verbündete, um seine Herrschaft zu sichern. Wir werden nach Russland fliegen und dafür werben, uns zu unterstützen, damit wir im Gegenzug ihr Verbündeter werden."
 ETS_foreign_support_send_delgations_RAJ: "Unterstützung durch die Briten suchen"
@@ -329,7 +324,6 @@ ETS_learn_mineral_processing_foreign: "Stellt Metallurgen aus [From.GetNameDef] 
 ETS_learn_mineral_processing_local: "Lokale Schmiede zur Metallgewinnung beschäftigen"
 ETS_military_operation: "Kriegsministerium für Ostturkestan"
 ETS_military_operation_desc: "Unser Militär besteht aus schwachen Milizen und unorganisierten Rebellen. Wenn wir den Krieg gewinnen und aus eigener Kraft überleben wollen, müssen wir unsere Armee reformieren und eine echte Streitmacht aufbauen."
-ETS_create_an_army: "Schaffung der Armee der Republik Ostturkestan"
 ETS_army_training_adopt_formation_foreign: "Übernehmt die [From.GetAdjective] Formation"
 ETS_army_training_adopt_formation_local: "Entwicklt Armeeformationen"
 ETS_army_training_combat_techniques_foreign: "Lernrt [From.GetAdjective] Kampftechniken"
@@ -416,7 +410,6 @@ ets.11.t: "Ostturkestan bittet um mehr Ausrüstung"
 ets.11.d: "Heute ist eine weitere Delegation aus Ostturkestan eingetroffen, die uns mitteilte, dass sie mehr Waffen benötigen, um gegen ihre Feinde in Xinjiang zu kämpfen. Wir sollten uns davor hüten, zu viel in sie zu investieren."
 ets.11.a: "In Ordnung."
 ets.11.b: "Diesmal nicht."
-ets.11.c: "Nie wieder!"
 
 ets.12.t: "[From.GetName] hat unserer Bitte zugestimmt"
 ets.12.d: "Die Karawanen kamen mit guten Nachrichten zurück. [From.GetName] hat unserer Bitte entsprochen und uns mehr Ausrüstung für den Kampf gegen unsere Feinde gegeben."
@@ -496,7 +489,7 @@ ets.26.d: "Sowohl Masud Sabri als auch Isa Alptekin verfügen über Verbindungen
 ets.26.a: "Und wir werden der Sonne folgen!"
 
 ets.27.t: "Populäre Forderungen"
-ets.27.d: "Seit über zwei Wochen gibt es in den großen Städten des Landes massive Proteste, die sich auf die Hauptstadt Kashgar konzentrieren. Die im Allgemeinen uninformierte Bevölkerung Ostturkestans ist verärgert über Sabris Plan, engere Beziehungen zu den Chinesen anzustreben, die von den meisten Turkvölkern immer noch als ihre früheren Unterdrücker angesehen werden. Alptekin, Sabris Koalitionspartner, ist aus der Koalition ausgetreten und hat erklärt, dass es jetzt an der Zeit sei, dass Sabri zurücktritt, natürlich um durch Alptekin ersetzt zu werden, und dass ordentliche Wahlen darüber abgehalten werden können, wen das Volk will. Darüber hinaus ist der sozialistische Führer der Jungturkestan-Partei, Ishaq Bey, aus der Versenkung aufgetaucht und hat begonnen, in den Städten um Unterstützung zu werben. Wenn Sabri nicht zurücktritt, ist klar, dass seine Herrschaft von nun an genauso diktatorisch sein wird, wie es die von Timur Beg jemals hätte sein können."
+ets.27.d: "Seit über zwei Wochen gibt es in den großen Städten des Landes massive Proteste, die sich auf die Hauptstadt Kashgar konzentrieren. Die im Allgemeinen uninformierte Bevölkerung Ostturkestans ist verärgert über Sabris Plan, engere Beziehungen zu den Chinesen anzustreben, die von den meisten Turkvölkern immer noch als ihre früheren Unterdrücker angesehen werden. Alptekin, Sabris Koalitionspartner, ist aus der Koalition ausgetreten und hat erklärt, dass es jetzt an der Zeit sei, dass Sabri zurücktritt, natürlich um durch Alptekin ersetzt zu werden, und dass ordentliche Wahlen darüber abgehalten werden können, wen das Volk will. Darüber hinaus ist der sozialistische Führer der Jungturkestan-Partei, Ishaq Beg, aus der Versenkung aufgetaucht und hat begonnen, in den Städten um Unterstützung zu werben. Wenn Sabri nicht zurücktritt, ist klar, dass seine Herrschaft von nun an genauso diktatorisch sein wird, wie es die von Timur Beg jemals hätte sein können."
 ets.27.a: "Sabri tritt zurück."
 ets.27.b: "Sabri bleibt."
 

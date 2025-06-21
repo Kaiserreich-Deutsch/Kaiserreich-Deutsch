@@ -37,11 +37,6 @@ GAL_national_populist_party: "SND"
 GAL_national_populist_party_long: "Stronnictwo Narodowo-Demokratyczne (Nationaldemokratische Partei)"
 
 ### Events ###
-gal.1.t: "Galizien und Lodomerien werden unabhängig"
-gal.1.d: "Nach Jahrhunderten unter habsburgischer Herrschaft, die mit der ersten Teilung des polnisch-litauischen Commonwealth im Jahr 1772 begann, sieht sich Galizien und Lodomerien als unabhängig. Aber wir sind ein schwacher Staat, der von beeindruckenden Nachbarn umgeben ist - und vielleicht täten wir gut daran, Schutz bei Polen zu suchen, der Nation, der unser Territorium vor all den Jahren genommen wurde."
-gal.1.a: "Bitten Sie darum, Polen formell beizutreten. (Game Over)"
-gal.1.b: "Galizien soll unabhängig bleiben."
-
 gal.2.t: "Galizien sucht den Anschluss an unsere Nation"
 gal.2.d: "Nach Jahrhunderten unter habsburgischer Herrschaft, die mit der ersten Teilung des polnisch-litauischen Commonwealth im Jahr 1772 begann, sieht sich Galizien und Lodomerien unabhängig. Doch als schwacher Staat, umgeben von beeindruckenden Nachbarn, fühlt sich die neue unabhängige Nation in ihrer Existenz bedroht. Heute ist ein diplomatischer Gesandter eingetroffen, um über eine Eingliederung Galiziens in das polnische und rumänische Staatsgebiet zu beraten."
 gal.2.a: "Willkommen zuhause, Brüder."
@@ -111,6 +106,9 @@ GAL_bucovina_ADJ: "Bukowinisch"
 GAL_bucovina_DEF: "Bukowina"
 
 ### Characters ###
+GAL_gabriel_narutowicz: "Gabriel Narutowicz"
+GAL_gabriel_narutowicz_leader_desc: "§YGeboren:§! §L29. März 1865 in Telsze, Gouvernement Kowno, Russisches Reich§!\n§YHintergrund:§! §LGabriel Narutowicz wurde in einem samogitischen Dorf in Litauen geboren. Sein Vater war ein fortschrittlicher Landbesitzer, der die Leibeigenschaft auf seinen Ländereien abgeschafft hatte, und seine Mutter war eine Gelehrte der Aufklärung gewesen. Diese Erziehung prägte Gabriel und seinen Bruder Stanisław mit einer starken national-progressiven Weltanschauung. Während sein Bruder in Litauen blieb, musste Gabriel vor den zaristischen Behörden fliehen und schloss sein Ingenieurstudium in der Schweiz ab. Als erfahrener Bauingenieur wurde er 1920 nach Galizien-Lodomerien eingeladen, um den Wiederaufbau nach dem Krieg zu organisieren und Infrastrukturreformen zu beaufsichtigen. Er war von 1924 bis 1928 Außenminister, von 1928 bis 1934 Minister für öffentliche Arbeiten und schließlich von 1934 bis 1939 Ministerpräsident seiner eigenen Regierung. Nach der Wiedervereinigung Polens wurde Narutowicz zu einer Brücke zwischen den Volksbewegungen auf beiden Seiten der Grenze und ist als relativ gemäßigter liberaler Politiker besonders bei den Minderheiten beliebt.§!"
+
 GAL_stanislaw_szeptycki: "Stanisław Szeptycki"
 GAL_stanislaw_szeptycki_commander_desc: "§YGeboren:§! §L3. November 1867, in Przyłbice, Königreich Galizien und Lodomerien, Österreich-Ungarn§!"
 GAL_franciszek_kleeberg: "Franciszek Kleeberg"
@@ -155,6 +153,9 @@ GAL_juliusz_kleeberg: "Juliusz Kleeberg"
 GAL_juliusz_kleeberg_high_command_desc: "§YGeboren:§! §L30. März 1890, in Trembowla, Königreich Galizien und Lodomerien, Österreich-Ungarn§!"
 GAL_stanislaw_ujejski: "Stanisław Ujejski"
 GAL_stanislaw_ujejski_high_command_desc: "§YGeboren:§! §L14. November 1891, in Ropczyce, Königreich Galizien und Lodomerien, Österreich-Ungarn§!"
+GAL_wincenty_witos: "Wincenty Witos"
+GAL_wincenty_witos_sic_desc: "§YGeboren:§! §L21. Januar 1874 in Wierzchosławice, Königreich Galizien und Lodomeria, Österreich-Ungarn§!"
+GAL_wincenty_witos_leader_desc: "$GAL_wincenty_witos_sic_desc$\n§YHintergrund:§! §LWincenty Witos wurde in einer armen und analphabetischen Bauernfamilie in Galizien geboren und widmete sein Leben dem Kampf der Bauern. Im Alter von 19 Jahren veröffentlichte er seinen ersten politischen Artikel in der in Lemberg erscheinenden Zeitung \"Przyjaciel Ludu\" und trat 1895 der galizischen PSL bei, wo er zunächst Bürgermeister seiner Heimatgemeinde Wierzchosławice und 1914 Abgeordneter des galizischen Landtags wurde.\n\nMit der Spaltung der PSL Ende 1913 blieb Witos bei der konservativen Fraktion \"Piast\", deren Vorsitzender er 1916 wurde. In den folgenden 20 Jahren war er ein angesehenes Mitglied des Landtags und bekleidete mehrmals das Amt des Marschalls von Galizien. Nachdem Polen nun wieder vereint ist, hat Witos seine eher konservative Fraktion der PSL erfolgreich zu einer Form umgestaltet, die für die breitere polnische Wählerschaft akzeptabler ist, und bleibt ein starker Verfechter der Bauerninteressen in Polen.§!"
 GAL_ignacy_moscicki: "Ignacy Mościcki"
 GAL_ignacy_moscicki_advisor_desc: "§YGeboren:§! §L1. Dezember 1867, in Mierzanowo, Gouvernement Płock, Königreich Polen, Russisches Reich§!"
 GAL_adam_romer: "Adam Romer"

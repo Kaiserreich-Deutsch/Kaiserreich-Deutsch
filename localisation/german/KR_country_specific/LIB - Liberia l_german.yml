@@ -121,11 +121,6 @@ lib.7.d: "Geheimgesellschaften gibt es sowohl in der amerikanischen als auch in 
 lib.7.a: "Die Geheimgesellschaften müssen aus der Dunkelheit herauskommen."
 lib.7.b: "Poros und Freimaurer sind abscheulich und gotteslästerlich, verbietet sie."
 
-lib.8.t: "Die Hut Steuer Situation"
-lib.8.d: "Das System der Hut-Steuer wurde in den britischen Kolonien eingesetzt, um die Wirtschaft zu simulieren und die afrikanischen Ureinwohner zur Teilnahme an der lokalen Wirtschaft zu bewegen. Mit dem Staatsbürgerschaftsgesetz von 1932 wurde für jeden Haushalt der Eingeborenen eine Hutsteuer in Höhe von 1 $ eingeführt, die als Gegenleistung für das Wahlrecht erhoben wurde. Es gibt Bestrebungen, diese Steuer abzuschaffen, da sie der verhassten amerikanischen Kopfsteuer für Afroamerikaner ähnelt. Gleichzeitig brauchen wir aber alles Geld, das wir bekommen können."
-lib.8.a: "Eine geringfügige Erhöhung, von deren Ergebnissen wir alle profitieren werden."
-lib.8.b: "Schafft die Steuer ab, damit die Dorfoberhäupter endlich Ruhe geben."
-
 lib.9.t: "Der Liberalismus schwappt nach Afrika"
 lib.9.d: "In den letzten Tagen hat die alib.ral-Bewegung an Fahrt gewonnen und ist über den Atlantik geschwappt. Am stärksten kommt sie aus den USA, wo die afroamerikanische Kultur eine bessere Zukunft verspricht als die Rassentrennung, die in Liberia immer noch legal ist. Sie stößt nicht nur auf die Kolonialpolitik, sondern auch auf die Gewohnheiten unserer Vorfahren. Könnte das Frauenwahlrecht in weiter Ferne liegen, oder wird dies unser Fundament der Regierung schwächen?"
 lib.9.a: "Woher kommt das??"
@@ -154,22 +149,6 @@ lib.14.t: "Das Ende der Republikaner"
 lib.14.d: "Zu lange hat die True Whig Party unsere Ideen für eine freie Marktwirtschaft unterdrückt. Es bedurfte einer wirtschaftlichen Katastrophe, um unseren Einparteienstaat zu korrigieren. Sollten wir in der liberianischen Verfassung verankern, dass man Mitglied einer Prince Hall Freemason Lodge sein muss, um der Öffentlichkeit zu dienen? Sollen wir die Sicherheit unserer Partei auf Dauer gewährleisten, oder ist ein Zweiparteiensystem das bessere Ergebnis?"
 lib.14.a: "Die Loge besitzt die Republik Liberia."
 lib.14.b: "Ein Zweiparteiensystem ist Tradition."
-
-lib.20.t: "Der Beginn des afrikanischen Commonwealth!"
-lib.20.d: "Mit unserer totalen Kontrolle über Westafrika können wir nun ein Commonwealth freier Nationen bilden, nicht unähnlich dem, das von den Herrschaftsgebieten des ehemaligen britischen Reiches gebildet wurde. In dieser Welt der ideologischen Kriege und der wirtschaftlichen Ausbeutung müssen wir freien Menschen Westafrikas zusammenstehen. So können wir die Vielfalt Westafrikas am besten auf demokratische Weise repräsentieren."
-lib.20.a: "Ausgezeichnet."
-
-lib.21.t: "Freigabe von Guinea."
-lib.21.d: "Guinea soll in unser neues afrikanisches Commonwealth aufgenommen werden."
-lib.21.a: "Our Commonwealth grows."
-
-lib.22.t: "Freigabe der Goldküste."
-lib.22.d: "Die Goldküste soll in unser neues afrikanisches Commonwealth aufgenommen werden."
-lib.22.a: "Our Commonwealth Grows."
-
-lib.23.t: "Freigabe der Elfenbeinküste."
-lib.23.d: "Die Elfenbeinküste soll in unser neues afrikanisches Commonwealth aufgenommen werden."
-lib.23.a: "Our Commonwealth Grows."
 
 lib.51.t: "Liberia fordert Sierra Leone"
 lib.51.d: "Liberia hat den Staat Sierra Leone lange Zeit begehrt, da es ihn als eine Art Bruderland betrachtet, das von Sklaven gegründet wurde, die aus Kanada nach Afrika zurückgeschickt wurden. Jetzt haben sie uns ein Ultimatum gestellt. Entweder wir übergeben es ihnen, oder es wird Krieg geben."
@@ -241,90 +220,10 @@ lib.90.d.faction: "Während Liberia bis jetzt ein Protektorat von [ROOT.GetNameD
 lib.90.a: "Wir haben kaum eine andere Wahl, als sie sein zu lassen."
 lib.90.b: "Sie können nicht so einfach entkommen."
 
-lib.91.t: "Liberia will der Internationalen Gemeinschaft beitreten"
-lib.91.d: "Die Liberianer, die kürzlich über die Vorteile einer sozialistischen Regierung aufgeklärt wurden, sind mit einer Bitte an uns herangetreten. Sie möchten offiziell der Internationalen beitreten. Wäre ein Verbündeter in Afrika sinnvoll??"
-lib.91.a: "Ja, natürlich! Wir begrüßen sie."
-lib.91.b: "Wir brauchen keine Verbündeten wie sie."
-
-lib.92.t: "[From.GetNameDefCap] lehnt ab"
-lib.92.d: "Die [From.GetAdjective] Regierung hat unseren Antrag auf Beitritt zu ihrem Bündnis abgelehnt. Vielleicht sind wir für ihre Verhältnisse nicht syndikalistisch genug oder als Verbündete nicht würdig. Wie auch immer, die Antwort war eindeutig nein."
-lib.92.a: "Die Zeitschrift "The Negro Worker" hat gelogen?"
-
 lib.93.t: "Amerika ist gefallen"
 lib.93.d: "Es scheint, dass die amerikanische Regierung angesichts ihres Bürgerkriegs zusammengebrochen ist. Wohl oder übel kann sie uns nicht mehr helfen."
 lib.93.a: "Wir werden aus eigener Kraft überleben!"
 lib.93.b: "Vielleicht sind die Deutschen langlebiger..."
-lib.93.c: "Es scheint, dass Firestone unsere einzige Hoffnung ist."
-
-lib.94.t: "Bitte um Hilfe von [from.GetNameDefCap]"
-lib.94.desc: "Bevor wir einen Antrag auf Hilfe stellen, müssen wir entscheiden, um welche Art von Hilfe es sich handelt - Ausrüstung für unsere Armee, Flugzeuge für die Luftstreitkräfte, Werften zum Bau neuer Schiffe für die Marine oder industrielle Investitionen."
-lib.94.a: "Bittet um Gewehre für unsere Armee."
-lib.94.b: "Bittet um eine Gruppe von Flugzeugen."
-lib.94.c: "Bittet um Pachtverträge für Werften."
-lib.94.d: "Fordert industrielle Investitionen."
-
-lib.941.t: "Verstecktes Ereignis (Sie sollen dieses Ereignis nicht sehen)"
-lib.941.desc: "Dies ist ein Ereignis, das versteckt sein sollte. Wenn Sie dieses Ereignis unter normalen Umständen sehen (d.h. Sie haben es nicht selbst über die Konsole ausgelöst), melden Sie es bitte."
-lib.941.a: "§RBitte melden Sie dieses Ereignis, wenn Sie es sehen.§!"
-
-lib.95.t: "Liberia möchte Infanterieausrüstung erhalten"
-lib.95.desc: "Die kleine westafrikanische Nation Liberia ist keineswegs eine Großmacht, aber sie ist vor kurzem in unseren Einflussbereich gefallen, und ihre geografische Lage könnte sich als nützlich erweisen.\n Die liberianische Regierung, die ihre Streitkräfte aufbauen möchte und der es an der einheimischen Industrie zur Bewaffnung fehlt, hat sich an uns gewandt, in der Hoffnung, Gewehre und modernere Ausrüstung wie Artillerie zu erhalten.\nAls Gegenleistung für diese Hilfe verspricht uns die liberianische Regierung Zugeständnisse in Form einer gewissen Kontrolle über die Kautschukplantagen in ihrem Land."
-lib.95.descUSA: "Seit seiner Gründung unterhält Liberia enge Beziehungen zu Amerika, und aufgrund seiner geografischen Lage an der westafrikanischen Küste könnte es sich als nützlich erweisen, wenn Amerika einen Stützpunkt in der Region benötigt.\nDie liberianische Regierung, die ihre Streitkräfte aufrüsten möchte, aber nicht über die nötige lokale Industrie verfügt, um sich selbst zu bewaffnen, hat sich an uns gewandt, in der Hoffnung, Gewehre und fortschrittlichere Ausrüstung, wie z.B. Artillerie, zu erhalten.\nIm Gegenzug für diese Hilfe verspricht uns die liberianische Regierung Zugeständnisse in Form einer gewissen Kontrolle über die Kautschukplantagen in ihrem Land."
-lib.95.a: "Gebt ihnen Gewehre."
-lib.95.b: "Gebt ihnen Gewehre, Zusatzausrüstung und Artillerie."
-lib.95.c: "Wir würden das, was wir haben, lieber für uns behalten."
-
-lib.951.t: "[from.GetNameDefCap] schenkt uns Gewehre"
-lib.951.desc: "Es scheint, dass unsere Bitte nicht auf taube Ohren gestoßen ist, und eine Lieferung von Gewehren zur Bewaffnung unserer Infanterie wurde von [von.GetNameDef] an uns übergeben."
-lib.951.a: "Gut."
-
-lib.952.t: "[from.GetNameDefCap] gibt uns Gewehre, Artillerie und andere Ausrüstung"
-lib.952.desc: "Es scheint, dass unsere Bitte nicht auf taube Ohren gestoßen ist, sondern dass die Regierung [from.GetAdjective] beschlossen hat, uns mit mehr auszustatten, als wir erbeten hatten, und uns sowohl Gewehre als auch Artillerie und andere Ausrüstungsgegenstände zu schicken, die sowohl auf dem Schlachtfeld als auch außerhalb davon von großem Nutzen sein könnten."
-lib.952.a: "Sehr gut."
-
-lib.953.t: "Unsere Anfrage kommt mit leeren Händen zurück"
-lib.953.desc: "Es hat den Anschein, dass unsere bescheidene Bitte um Hilfe unsere geschätzten Verbündeten nicht überzeugen konnte, weil sie entweder nicht über das geeignete Material verfügen, um uns zu beliefern, oder weil sie der Ansicht sind, dass die Erhaltung dieses Materials an ihrer Heimatfront die größere Priorität hat."
-lib.953.a: "Unglücklich."
-lib.953.b: "Vielleicht könnten sie ein anderes Anliegen erfüllen?"
-
-lib.96.t: "Liberia will Flugzeuge"
-lib.96.desc: "The small west african nation of Liberia is by no means an major power, however, it has recently fallen into our sphere of influence, and its geographical location might prove to be of good use.\nThe Liberian government, wishing to build their airforces, and without much in the way of local air industry (or much industry of note, being an agrarian nation), they have contacted us with the request of sending them airplanes and the crew to fly them as "volunteers".\nIn return for this aid, the Liberian government is promising us concessions in the form of a measure of control over the rubber plantations in their country."
-lib.96.descUSA: "Ever since its founding, Liberia has had close relationship with America, and with their geographical location on the coast of west africa, they might prove of use, should America need a base in the area.\nThe Liberian government, wishing to build their airforces, and without much in the way of local air industry (or much industry of note, being an agrarian nation), they have contacted us with the request of sending them airplanes and the crew to fly them as "volunteers".\nIn return for this aid, the Liberian government is promising us concessions in the form of a measure of control over the rubber plantations in their country."
-lib.96.a: "Veranlasst, dass eine Flugzeugstaffel nach Monrovia geflogen wird."
-lib.96.b: "Alle unsere Flugzeuge sind für unsere eigene Verteidigung unerlässlich."
-
-lib.961.t: "[from.GetNameDefCap] schickt Flugzeuge"
-lib.961.desc: "Unsere Bitten um Luftunterstützung wurden erhört, denn ein Geschwader von [FROM.GetAdjective] Kampfflugzeugen wurde soeben von [FROM.GetNameDef] zu uns entsandt, um als "Freiwillige" in unserer Luftstreitkräfte zu dienen."
-lib.961.descUSA: "Es scheint, dass unser Ersuchen um Hilfe in Form von Flugzeugen nicht übersehen wurde, da ein Geschwader von Kampfflugzeugen und freiwilligen Besatzungen, viele von ihnen Afroamerikaner, die so genannten "Tuskegee Airmen", die sich zum Dienst gemeldet haben, in der Hoffnung, dem harten Leben in ihrer Heimat zu entkommen, in Monrovia eingetroffen sind, um unsere Luftstreitkräfte zu unterstützen."
-lib.961.a: "Wunderbar."
-
-lib.97.t: "Liberia will unsere Werften nutzen"
-lib.97.desc: "Die kleine westafrikanische Nation Liberia ist zwar keine Großmacht, aber sie ist kürzlich in unseren Einflussbereich geraten, und ihre geografische Lage könnte sich als nützlich erweisen. \nDie liberianische Regierung, die ihre Seestreitkräfte ausbauen möchte, hat uns gebeten, ihr ein Geschäft mit lokalen Werften zu vermitteln, die andernfalls vielleicht nicht daran interessiert wären, ihre Ressourcen für eine kleine und relativ arme Nation wie Liberia einzusetzen.\nAls Gegenleistung für diese Hilfe verspricht uns die liberianische Regierung Zugeständnisse in Form einer gewissen Kontrolle über die Kautschukplantagen in ihrem Land."
-lib.97.descUSA: "Seit seiner Gründung unterhält Liberia enge Beziehungen zu Amerika, und aufgrund seiner geografischen Lage an der westafrikanischen Küste könnte es sich als nützlich erweisen, wenn Amerika einen Stützpunkt in diesem Gebiet benötigt. \nDie liberianische Regierung, die ihre Marinestreitkräfte ausbauen möchte, hat uns gebeten, ihr ein Geschäft mit lokalen Werften zu vermitteln, die andernfalls vielleicht nicht daran interessiert wären, ihre Ressourcen für eine kleine und relativ arme Nation wie Liberia einzusetzen.\nAls Gegenleistung für diese Hilfe verspricht uns die liberianische Regierung Zugeständnisse in Form einer gewissen Kontrolle über die Kautschukplantagen in ihrem Land."
-lib.97.a: "Wir arrangieren gerne ein solches Geschäft."
-lib.97.b: "Wir brauchen alle Schiffbaukapazitäten, die wir bekommen können."
-
-lib.971.t: "[from.GetNameDefCap] gibt uns Werften"
-lib.971.desc: "Es scheint, dass das Geschäft, das wir der Regierung [FROM.GetAdjective] angeboten haben, erfolgreich war und uns Zugang zu mehr Schiffbaukapazitäten verschafft hat, allerdings nur für eine begrenzte Zeit, bevor sich diese Werften wieder auf den Bau lukrativerer Aufträge konzentrieren werden."
-lib.971.a: "Wir sollten diese Zeit gut nutzen."
-
-lib.972.t: "Werften schließen die liberianischen Verträgen ab"
-lib.972.desc: "Nachdem unsere Werften eine Zeit lang Schiffe für die liberianischen Seestreitkräfte gebaut haben, sind sie nach dem mit Liberia abgeschlossenen Abkommen wieder dazu übergegangen, Schiffe für uns zu bauen."
-lib.972.a: "Sehr schön."
-
-lib.98.t: "Liberia will Investitionen in seine Infrastruktur"
-lib.98.desc: "Das kleine westafrikanische Land Liberia ist zwar keine Großmacht, aber es ist kürzlich in unseren Einflussbereich geraten, und seine geografische Lage könnte sich als nützlich erweisen.\nDie liberianische Regierung, die ihre heimische Infrastruktur aufbauen möchte, hat sich an uns gewandt, in der Hoffnung, ein Geschäft mit einheimischen Unternehmen zu vermitteln, die nach Liberia gehen und im Baugewerbe arbeiten könnten.\nAls Gegenleistung für diese Hilfe verspricht uns die liberianische Regierung Zugeständnisse in Form einer gewissen Kontrolle über die Kautschukplantagen in ihrem Land."
-lib.98.descUSA: "Seit seiner Gründung unterhält Liberia enge Beziehungen zu Amerika, und aufgrund seiner geografischen Lage an der westafrikanischen Küste könnte es sich als nützlich erweisen, wenn Amerika einen Stützpunkt in der Region benötigt.\nDie liberianische Regierung, die ihre heimische Infrastruktur aufbauen möchte, hat sich an uns gewandt, in der Hoffnung, ein Geschäft mit einheimischen Unternehmen zu vermitteln, die nach Liberia gehen und im Baugewerbe arbeiten könnten.\nAls Gegenleistung für diese Hilfe verspricht uns die liberianische Regierung Zugeständnisse in Form einer gewissen Kontrolle über die Kautschukplantagen in ihrem Land."
-lib.98.a: "Klingt nach einem guten Geschäft."
-lib.98.b: "Wir haben kein Interesse daran."
-
-lib.981.t: "Infrastrukturinvestitionen von [from.GetNameDef]"
-lib.981.desc: "Es scheint, dass der Deal, den wir der Regierung [FROM.GetAdjective] angeboten haben, erfolgreich war und uns Zugang zu modernen Baumaschinen und geschulten Arbeitskräften verschafft hat, allerdings nur für eine begrenzte Zeit, bevor ihre Verträge auslaufen und sie in ihre Heimat zurückkehren werden."
-lib.981.a: "Wir sollten diese Zeit gut nutzen."
-
-lib.982.t: "Unsere Bautrupps kehren aus Liberia zurück"
-lib.982.desc: "Die Bautrupps, die nach Liberia entsandt wurden, um die Infrastruktur zu verbessern, sind in ihre Heimat zurückgekehrt, um alles zu tun, was wir brauchen."
-lib.982.a: "Trautes Heim, Glück allein."
 
 ### Focuses ###
 LIB_assess_economy: "Beurteilung der Wirtschaft"
@@ -375,9 +274,6 @@ LIB_german_tech_desc: "Ein zweiter Konvoi trifft mit Wissenschaftlern und Pläne
 LIB_economy_direction: "Richtung der Wirtschaft"
 LIB_economy_direction_desc: "Endlich haben wir uns von dem Einbruch erholt, der mit der US-Depression begann. Wir müssen unser Land jetzt auf alles vorbereiten, was die Zukunft bringen wird."
 
-LIB_civ_ind_1: "Zivile Industrie"
-LIB_civ_ind_1_desc: "Der Krieg ist weit weg, und wir haben immer noch viele Arbeitslose. Wenn wir eine autarke Wirtschaft werden wollen, müssen wir langfristige Investitionen tätigen."
-
 LIB_civ_ind_2: "Neue Industriestädte"
 LIB_civ_ind_2_desc: "Wir sollten mit dem Bau einer Reihe von Städten entlang der Küste beginnen, um die Bevölkerung aus dem Dschungel zu vertreiben und unsere industriellen Kapazitäten zu erhöhen."
 
@@ -392,9 +288,6 @@ LIB_mobilisation_2_desc: "Im Hinterland lebt immer noch die große Mehrheit unse
 
 LIB_mil_ind_1: "Kriegsindustrie"
 LIB_mil_ind_1_desc: "Die Liebe zur Freiheit hat uns nach Liberia gebracht. Wir zeigen unsere Wertschätzung, indem wir uns bewaffnen. Wie es unsere Vorfahren taten."
-
-LIB_mil_ind_2: "Festung Maryland"
-LIB_mil_ind_2_desc: "Obwohl Monrovia uns fast ein Jahrhundert lang geschützt hat, müssen wir unsere Kontrollzone nach Süden ausweiten. Maryland an der ivorischen Grenze verschafft uns Zugang zu französischen Waren."
 
 LIB_university: "Ausbau des Universitätssystems"
 LIB_university_desc: "Unser Bildungssystem hat unserer Tradition der Freiheit nie entsprochen. Wir können eine neue Universität im Bezirk Montserrado errichten und sie nach dem ehrenwerten D.B. King benennen."
@@ -428,9 +321,6 @@ LIB_fighting_tooth_nail_desc: "Wir können nicht leugnen, dass unsere Grenztrupp
 
 LIB_train_militias: "Ausbildung der Milizen"
 LIB_train_militias_desc: "Wir müssen dafür sorgen, dass unser Militär das Terrain kennt. Milizen können größere Feinde ausmanövrieren und schnell Land erobern."
-
-LIB_grand_battleplan: "Grundsätze der Schlacht"
-LIB_grand_battleplan_desc: "Als Deutschland in den Busch vorrückte, um Mittelafrika zu erobern, stellte es fest, dass die Kriegsgeräte die einzigen waren, die das raue Klima überlebten. Das Gewehr, die Pontonbrücke, das kleine Artilleriegeschütz. Das ist unser Brot und Butter."
 
 LIB_defense_force: "Die liberianischen Verteidigungskräfte"
 LIB_defense_force_desc: "Jetzt, da wir die Grundlagen des Militärs gefestigt haben, können wir damit beginnen, uns auf Elitetruppen zu spezialisieren. Die liberianische Task Force wird unsere letzte Verteidigungslinie sein, die bereit ist, für ihr Heimatland zu sterben, ohne Rücksicht auf Loyalität."
@@ -576,9 +466,6 @@ LIB_liberation_of_west_africa_desc: "Es ist an der Zeit, Westafrika zu befreien 
 LIB_demand_ivory_coast: "Marsch in die Elfenbeinküste"
 LIB_demand_ivory_coast_desc: "Die Elfenbeinküste wird schon viel zu lange von anderen Nationen mit eiserner Faust regiert. Jetzt ist unsere Chance, in dieses Land zu marschieren, das rechtmäßig uns gehört, und es zurückzufordern!"
 
-LIB_ivory_coast_liberated: "Besetzte Elfenbeinküste"
-LIB_ivory_coast_liberated_desc: "Bis wir entscheiden können, wie wir unsere größere Nation besser organisieren können, haben die Bürger von Côte d'Ivoire einen Sitz in unserem Parlament erhalten, und wir werden sie als gleichberechtigte Liberianer behandeln."
-
 LIB_keep_our_promise: "Haltet unser Versprechen"
 LIB_keep_our_promise_desc: "Groß-Liberia ist kein nationales Konzept; es ist vielmehr die Summe der zahlreichen Bemühungen. Wir alle sind hierher gekommen, um Liberia zu lieben, um uns mit unserem Mutterland zu vereinen oder um unser Glück zu finden. Wir werden diesen Traum für ganz Westafrika Wirklichkeit werden lassen."
 
@@ -635,8 +522,6 @@ LIB_nete_sie_brownell: "Nete Sie Brownell"
 LIB_nete_sie_brownell_advisor_desc: "§YGeboren:§! §L1894, in der Republik Liberia§!"
 LIB_jayah_massaquoi: "Jayah Massaquoi"
 LIB_jayah_massaquoi_advisor_desc: "§YGeboren:§! §Lin der Republik Liberia§!"
-LIB_gabriel_johnson: "Gabriel Johnson"
-LIB_gabriel_johnson_advisor_desc: "§YGeboren:§! §L1871, in Monrovia, Montserrado County, Republik Liberia§!"
 LIB_didwho_welleh_twe: "Didwho Welleh Twe"
 LIB_didwho_welleh_twe_advisor_desc: "§YGeboren:§! §L14. April 1879, in Monrovia, Montserrado County, Republik Liberia§!"
 
