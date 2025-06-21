@@ -45,26 +45,14 @@ AUS_new_administration: "Unsere Verwaltung überdenken"
 
 ### Flags and Tooltips ###
 AUS_economy_ready_tooltip: "Unsere Wirtschaft muss auf solche Unternehmungen vorbereitet sein.\n\n Das bedeutet natürlich, dass wir alle anhaltenden Wirtschaftskrisen überwinden müssen."
-AUS_potb_albania_tooltip: "Albanien grenzt an unsere Einflusssphäre."
-AUS_potb_greece_tooltip: "Griechenland grenzt an unsere Einflusssphäre."
-AUS_potb_bulgaria_tooltip: "Bulgarien grenzt an unsere Einflusssphäre."
 AUS_no_greek_economic_sanctions: "Hat keine wirtschaftlichen Sanktionen gegen Griechenland verhängt"
-
-AUS_slovakia_occupied: "Die Slowakei ist militärisch besetzt"
-AUS_hungary_occupied: "Ungarn ist militärisch besetzt"
-AUS_transylvania_occupied: "Transsylvanien ist militärisch besetzt"
-
-AUS_syndicalist_menace_tooltip: "Die Feuer des Krieges brennen erneut, und unsere Interessen in Italien sind durch eine ermutigende Internationale bedroht."
 
 AUS_request_forces_puppets: "Wir können jetzt Armeedivisionen aus unseren cisleithinischen Teilstaaten (österreichische Länder) anfordern."
 AUS_request_forces_hungary: "Wir können jetzt Armeedivisionen aus Ungarn anfordern."
 
 AUS_military_occupation_tooltip_allies: "§RIhre Allianz wird damit nicht zufrieden sein!§!"
  AUS_military_occupation_tooltip_puppets: "§RIhre Untertanen werden damit nicht zufrieden sein!§!"
-AUS_danubian_federation_tooltip: "Führt zur Bildung der \"Föderation der Donau, Alpen und Adria\""
-AUS_united_states_tooltip: "Führt zur Bildung der \"Vereinigte Staaten von Groß-Österreich\""
 
-ITA_bruh_why: "Die Republik hat unsere diplomatischen Anträge abgelehnt"
 ITA_bruh_yay: "Die Republik hat unsere diplomatischen Bitten angenommen"
 sicilian_reengage: "Wir haben die Beiden Sizilien in Italien unterstützt"
  sicilian_disengage: "Die Beiden Sizilien haben unsere Unterstützung abgelehnt"
@@ -73,24 +61,6 @@ sicilian_reengage: "Wir haben die Beiden Sizilien in Italien unterstützt"
 
 AUS_treaty_of_budapest: "Österreich ist durch den Belgrader Pakt geschlagen worden"
 
-AUS_HUN_Civil_war: "§YUngarn§W wird einen Bürgerkrieg gegen uns beginnen.\n\n"
-greater_austrian_empire: "Hat beschlossen, die Doppelmonarchie während des Ausgleichs unter österreichischer Herrschaft zu vereinigen, und Ungarn wurde unterworfen.\n\nFERNER\n\nÖsterreich hat Ungarn besiegt (und Budapest annektiert) und eine Zentralisierung in den vergangenen Kriegsverhandlungen beschlossen."
-AUS_racial_revolts_fired: "Die ethnischen Spannungen sind nicht eskaliert."
-AUS_racial_tensions_solved: "Die ethnischen Spannungen haben sich beruhigt."
-AUS_racial_tensions_evolve: "§Y Ethnische Spannungen§W werden überall in unserem Land ausbrechen."
-AUS_horthy_apeared: "In den ethnischen Konflikten hat sich ein neues Gesicht gezeigt. §YMiklós Horthy§W taucht auf, um die ungarische Befreiungsbewegung anzuführen.\n\n"
-AUS_prowlers_apeared: "§YHerumtreiber§W versammeln sich in den Siebenbürgischen Wäldern."
-AUS_tensions_calm_down: "Die§Y Ethnische Spannungen§W haben sich beruhigt. Das Imperium ist wieder sicher."
-AUS_tensions_nothing: "Nichts wird passieren."
-AUS_unlock_daimler: "Schaltet die Firma §YAustro Daimler§W frei.\n"
-AUS_unlock_skoda: "Schaltet die Firma §YŠkoda§W frei.\n"
-AUS_italy_friend: "Hat beschlossen, sich mit Italien anzufreunden, und Italien hat den Vorschlag angenommen."
-AUS_italy_force: "Italien hat unsere Anleihen nicht akzeptiert."
-AUS_not_fully_implemented: "§RDieser Pfad ist noch nicht vollständig umgesetzt. Mit Vorsicht zu verwenden.§!\n\n"
-AUS_unlock_phoenix: "Wird die §YPhönix§! Fluggesellschaft freischalten.\n"
-AUS_unlock_bayer: "Wird die Firma §YBayer§W Synthetic freischalten.\n"
-AUS_italy_friend_planned: "Hat beschlossen, Italien nicht zu erobern."
-AUS_stops_italian_revolts: "Wird verhindern, dass §YItalienische Revolten§W in Zukunft zu viel Ärger verursacht."
 AUS_ausgleich_kingdoms: "Alle Königreiche zum Ausgleich eingeladen."
 AUS_ausgleich_peoples: "Alle Nationalitäten zum Ausgleich eingeladen."
 
@@ -249,12 +219,6 @@ AUS_russian_threat: "Die russische Bedrohung"
 AUS_russian_threat_desc: "Der Große Russische Bär hat sich im Osten wieder erhoben und droht nicht nur mit der Rückeroberung des im Weltkrieg verlorenen Landes, sondern auch mit dem Einmarsch in Deutschland selbst. Es besteht wenig Zweifel daran, dass Russland, sollte es mit seinen Zielen Erfolg haben, seine Aufmerksamkeit schließlich auch uns zuwenden wird. Es scheint, dass wir wieder an die Ostfront einmarschieren müssen, ob es uns gefällt oder nicht."
 AUS_reform_faction: "Reform des Donau-Adriabunds"
 AUS_reform_faction_desc: "Nun, da der Krieg vorbei ist, ist es an der Zeit, die Führung zu unseren eigenen Bedingungen wieder zu übernehmen: als Oberhaupt des Donau-Adriabund-Bündnisses."
-AUS_germany_on_the_ropes: "§Y[FRA.GetName]§!: ist zu weit nach Süddeutschland vorgedrungen"
-AUS_syndicalism_winning_Italy: "Französische Verbündete haben die Kontrolle über einen Großteil Italiens gewonnen"
-AUS_russia_penetrated_germany: "§Y[RUS.GetNameDefCap]§! oder ihre Verbündeten haben die Kontrolle über §Y[5.GetName]§!"
-AUS_poland_fallen_to_russia: "§Y[POL.GetNameDefCap]§! befindet sich im Reichspakt und ist an §Y[RUS.GetNameDef]§! gefallen"
-
-AUS_integration_of_germany: "Deutsche Länder integrieren"
 
 AUS_elections_decisions: "Wahlentscheidungen"
 AUS_endorse_CS: "Unterstützen Sie die Christlichsozialen"
@@ -341,7 +305,7 @@ AUS_sdap_6: "Am Engpass vorbei"
 AUS_sdap_6_desc: "Nach einer anfänglichen Erholung ist der Zustand unserer Wirtschaft für eine Weile ins Stocken geraten. Es scheint jedoch endlich eine Wende zum Besseren zu nehmen, die Privatwirtschaft beginnt, dem öffentlichen Beispiel zu folgen und die Produktion auszuweiten, um mit ihren staatlich geförderten Kollegen Schritt zu halten."
 
 AUS_sdap_7: "Eine Industrie im Aufschwung"
-AUS_sdap_7_desc: "Die Krise schwindet, und im Gegensatz dazu scheint die Politik des Roten Wiens zu einem Zeitalter des Wohlstands geführt zu haben. Mögen die Franzosen und Briten sagen, was sie wollen, der Sozialdemokratismus arbeitet für uns."
+AUS_sdap_7_desc: "Die Krise schwindet, und im Gegensatz dazu scheint die Politik des Roten Wiens zu einem Zeitalter des Wohlstands geführt zu haben. Mögen die Franzosen und Briten sagen, was sie wollen, die Sozialdemokratie arbeitet für uns."
 
 AUS_cs_national_austerity_council: "Nationaler Rat für Sparpolitik"
 AUS_cs_national_austerity_council_desc: "Das Wichtigste, woran wir bei der Bewältigung der anhaltenden Wirtschaftskrise denken müssen, ist, dass wir sie nicht auf bereits bestehende Staatsschulden anwachsen lassen dürfen. Österreichs Kassen müssen in den kommenden Jahren voll und nicht leer sein, und es gibt nur einen Weg, dies zu erreichen: Die Ausgaben drastisch zu kürzen."
@@ -486,9 +450,6 @@ AUS_military_occupation_desc: "Die rebellischen Kronländer wurden unterworfen, 
 AUS_status_quo: "Status Quo"
 AUS_status_quo_desc: "Genau wie ein Jahrzehnt zuvor sind unsere Verhandlungen über ein administrativ geeintes Imperium ins Stocken geraten. Wir können nicht mehr tun, als abwarten und versuchen, Transleithanien durch Reformen enger an uns zu binden."
 
-AUS_pintsch: "Pintsch AG"
-AUS_bayer: "Bayer Österreich"
-
 AUS_all_austrian_development_scheme: "Das Gesamtösterreichische Entwicklungsprogramm"
 AUS_all_austrian_development_scheme_desc: "Obwohl das Reich nominell unter einer Zentralregierung wiedervereinigt wurde, sieht die Realität ganz anders aus. Die alten Reiche brauchen Zeit und Mühe, um in die imperiale Verwaltung integriert zu werden und damit die unzähligen Völker des Reiches unsere Herrschaft akzeptieren."
 
@@ -568,12 +529,6 @@ AUS_morava_industrial_park_desc: "Beton und Stahl, wo auch immer Sie Ihre Augen 
 
 AUS_kk_Ministeria: "Das k.k. Ministerium"
 AUS_kk_Ministeria_desc: "Die k.k. Ministerien sollen, ähnlich wie die einst gemeinsamen Ministerien mit Ungarn, die administrativen Anstrengungen mit den neuen Untertanen koordinieren."
-
-AUS_kk_Military_Reform: "Die k.k. Militärreform"
-AUS_kk_Military_Reform_desc: "Dank des Fachwissens und der Ideen von Militärtheoretikern aus allen Teilen des Reiches sind wir in der Lage, die Modernisierung unseres Militärs zu beschleunigen."
-
-AUS_the_kk_Army: "Die k.k. Armee"
-AUS_the_kk_Army_desc: "Durch das Jonglieren mit ein paar Zahlen, die Aufstellung neuer Regimenter, die in verschiedenen Minderheitensprachen geführt werden, und eine nette Prise Rekrutierungspropaganda sollte es uns gelingen, die Personalstärke unseres stehenden Heeres deutlich zu erhöhen."
 
 AUS_kk_Administrative_Reform: "Die k.k. Verwaltungsreform"
 AUS_kk_Administrative_Reform_desc: "Was in Wien reformiert wird, sollte auch in Prag, Krakau und Zagreb reformiert werden. Darauf aufbauend entwickeln wir aber derzeit ein neues lokales Verwaltungssystem."
@@ -738,6 +693,11 @@ austria.3.a: "Lang lebe Kaiser Otto!"
  austria.5.d: "Die Slowenen sind eine der weniger bekannten Minderheiten unseres Reiches, obwohl sie auch nach Hunderten von Jahren der Zugehörigkeit zu diesem Reich an ihrer eigenen Sprache und Kultur festhalten. Der neueste Bestseller im slowenischen Sprachraum, geschrieben von Bartol, ist eine Geschichte über den Kampf der Türken und Perser um die Kontrolle der Festung Alamut. Die Handlung spielt im 11. Jahrhundert, als die seldschukischen Türken begannen, nach Kleinasien zu expandieren. Es wird vermutet, dass das Buch bald ins Deutsche und in verschiedene andere Sprachen übersetzt werden wird."
  austria.5.a: "Großartig!"
 
+ austria.6.t: "Föderalisierung Österreich-Ungarns"
+ austria.6.d: "In den letzten Jahrzehnten hat Österreich-Ungarn seine Autorität von Wien und Budapest aus dezentralisiert, vor allem durch die Gründung von Illyrien im Jahr 1927. Nun hat dieser Prozess mit der Schaffung von [AUS.GetNameDef] einen weiteren großen Sprung nach vorne gemacht.\n\nDie Monarchie hat ihre internen Strukturen umstrukturiert, um repräsentativer zu sein, und gleichzeitig ihre Länder institutionell näher zusammengebracht. Mit der Ablösung eines dezentralisierten, zerstrittenen Reiches durch einen Einheitsstaat hat sich das Kräfteverhältnis in Europa gegen alle Feinde des Status quo und der Habsburger verschoben."
+ austria.6.a: "Wird sich dadurch wirklich etwas ändern?"
+ austria.6.b: "Ihre konservative \"Reform\" kann die Revolution nicht aufhalten!"
+
 aus.elections.1.t: "Österreichische Wahlen von 1936"
 aus.elections.1.d: "Seit Beginn der Föderalisierung, und die 'österreichischen Wahlen' waren zumeist auf den deutschsprachigen Teil des Reiches beschränkt, haben zwei große Parteien die österreichische Politik dominiert: die CS und die SDAP.\n\nAuch die diesjährigen Wahlen sind hart umkämpft; die SDAP und die CS haben sehr unterschiedliche Vorstellungen vom Umgang mit der anhaltenden Wirtschaftskrise. Das Programm der SDAP konzentriert sich auf die Linderung der Not der Arbeitnehmer, wobei der Schwerpunkt auf Arbeitslosengeld und Regierungsinterventionen liegt. Die CS hingegen verfolgen ein Programm mit strengen Sparmaßnahmen."
 aus.elections.1.a: "Es ist Sache des Volkes, darüber zu entscheiden."
@@ -763,14 +723,6 @@ aus.elections.5.a: "Ist es das, wonach sie gejagt haben?"
 aus.elections.6.t: "Jagdunfall: Ist Prinz Otto verletzt?"
 aus.elections.6.d: "Während eines von allen Umstehenden als Unfall bestätigten Vorfalls ging das Jagdgewehr des Sohnes eines prominenten CS-Politikers fehl und streifte dabei das rechte Bein von Prinz Otto. Während der Thronfolger bei dem Vorfall keine schweren Verletzungen erlitt, spinnen die Medien bereits ihre Verschwörungstheorien."
 aus.elections.6.a: "Versuchen sie, meinen Erben umzubringen?"
-
-aus.elections.10.t: "CS gewinnt die Wahlen"
-aus.elections.10.d: "Die endgültigen Auszählungen für die Wahlen sind abgeschlossen. Es war zwar knapp, aber die überwältigende Mehrheit der Stimmen auf dem Land hat die CS an die erste Stelle gesetzt."
-aus.elections.10.a: "Österreich ist Christlich-Sozial."
-
-aus.elections.11.t: "SDAP gewinnt die Wahlen"
-aus.elections.11.d: "Die endgültigen Auszählungen für die Wahlen sind abgeschlossen. Obwohl es eine knappe Entscheidung war, haben die Stimmen der Stadt Wien die SDAP zum klaren Sieger gemacht."
-aus.elections.11.a: "Österreich ist Sozialdemokratisch."
 
 aus.elections.100.t: "Die Wahlen"
 aus.elections.100.d: "Das Endergebnis ist erreicht. Nach diesem hart umkämpften Wahlkampf werden wir nun den Sieger herausfinden."
@@ -989,11 +941,6 @@ ausgleich.new.328.b: "Überlassen Sie es ihnen."
 ausgleich.new.328.c: "Es geht los."
 
 #WIP
-ausgleich.new.329.t: "Österreich erklärt Illyrien den Krieg"
-ausgleich.new.329.d: "Der verräterische Kaiser hat sich entschieden, die Minderheitenrechte nicht zu respektieren."
-ausgleich.new.329.a: "Wie können sie es wagen!"
-
-#WIP
 ausgleich.new.330.t: "Österreichisch-ungarische Teilung des ehemaligen Illyrien"
 ausgleich.new.330.d: "Wir müssen entscheiden, was wir mit dem besetzten illyrischen Land machen."
 ausgleich.new.330.a: "Wiederherstellung der Grenzen von 1921."
@@ -1004,7 +951,6 @@ ausgleich.new.330.c: "Beschäftigen Sie sich erst einmal mit der ganzen Sache."
 ausgleich.new.331.t: "Österreich besetzt ganz Illyrien"
 ausgleich.new.331.d: "Österreich hat sich dafür entschieden, ihr Versprechen nicht einzuhalten. Wie sollen wir reagieren?"
 ausgleich.new.331.a: "Sie werden dafür bezahlen."
-ausgleich.new.331.b: "Wir können nichts tun."
 
 #WIP
 ausgleich.new.332.t: "Delegation kehrt aus dem Ausgleich zurück"
@@ -1059,22 +1005,6 @@ ausgleich.new.344.b: "Nun gut."
  ausgleich.new.346.a: "Wir sind mit ihren Bedingungen einverstanden."
  ausgleich.new.346.b: "Nein, wir werden den Habsburgern ein für alle Mal ein Ende bereiten!"
 
-ausgleich.new.350.t: "Österreichische Tyrannei"
-ausgleich.new.350.d: "Österreich hat bewiesen, dass es beabsichtigt, seine Kontrolle über den Rest des Reiches militärisch zu erzwingen."
-ausgleich.new.350.a: "Wir müssen etwas dagegen tun."
-
-ausgleich.new.351.t: "Österreichische Tyrannei"
-ausgleich.new.351.d: "Österreich hat bewiesen, dass es beabsichtigt, seine Kontrolle über den Rest des Reiches militärisch zu erzwingen. Böhmen hat uns gebeten, einer behelfsmäßigen Allianz beizutreten, um den Unglücksraben in Wien zu stürzen."
-ausgleich.new.351.a: "Wir müssen etwas dagegen tun."
-
-ausgleich.new.352.t: "[FROM.GetNameDefCap] Tritt der Koalition bei"
-ausgleich.new.352.d: "Der schändliche Verrat Österreichs hat uns keine andere Wahl gelassen, als uns mit anderen Gegnern des Ausgleichs zusammenzuschließen. Wir kämpfen jetzt gemeinsam gegen Österreich."
-ausgleich.new.352.a: "Alle Völker des Imperiums sollen frei sein."
-
-ausgleich.new.353.t: "Krieg gegen Böhmen"
-ausgleich.new.353.d: "Verärgert über den jüngsten Politikwechsel von Wien, ist eine Koalition von Separatisten, angeführt von Böhmen, zunehmend unruhig geworden. Nun, so scheint es, sollen die Spannungen, die unser Reich schon lange plagen, durch Blutvergießen gelöst werden."
-ausgleich.new.353.a: "Wir werden diese Verräter vernichten!"
-
 ausgleich.new.700.t: "Österreich fordert Re-Integration"
 ausgleich.new.700.d: "Sie sagen, wir sollten wieder direkt von Wien aus regiert werden."
 ausgleich.new.700.a: "Was können wir gegen Wien tun?"
@@ -1112,11 +1042,6 @@ ausgleich.new.9000.d.CRO: "Mit Ungarn unter Besatzung und den anderen Slawen des
 ausgleich.new.9000.a: "Sie werden zerschlagen werden, so wie Ungarn zerschlagen wurde."
 ausgleich.new.9000.b: "Sie werden zerquetscht."
 
- ausgleich.new.90000.t: "Verrücktes Wien"
- ausgleich.new.90000.d: "Nach einem verheerenden ultranationalistischen Putsch gegen Kaiser Karl hat sich in Wien ein höchst autoritäres und deutsch-chauvinistisches Regime an die Macht geputscht. Dies hat zu großen Unruhen in den Ländern der Doppelmonarchie geführt, vor allem in den slawischen Kronländern, in denen sich nun eine rebellische Stimmung breit macht. Unter diesen Umständen können wir unser Bündnis mit Wien nicht mit gutem Gewissen aufrechterhalten."
- ausgleich.new.90000.a: "Informieren Sie Wien über unsere Entscheidung."
- ausgleich.new.90000.b: "Fragen Sie, ob die Galizier sich uns anschließen möchten."
-
 ausgleich.new.901.t: "[FROM.GetNameDefCap] Unterstützung anfordern"
 ausgleich.new.901.d: "Die Rebellion im Habsburgerreich hat wieder einmal begonnen. Österreich hat vorhersehbar versucht, den drei überwiegend slawischen Teilen seines Reiches die Kontrolle zu entreißen und dabei ignoriert, welch klägliche \"Autonomie\" es Böhmen, Illyrien und Galizien & Lodomerien gewährt hatte, die sich nun im Krieg mit ihrem ehemaligen Herrn befinden.\n\nDie Ambitionen des Belgrader Paktes, ihre rechtmäßigen Ländereien auf Österreichs Kosten wiederzuerlangen, sind kein Geheimnis, und uns wurde ein Angebot unterbreitet. In einem Schreiben des tschechischen Ministerpräsidenten [FROM.GetLeader] verspricht er, dass die tschechische Regierung dem Pakt beitreten wird, wenn wir sie in diesem Krieg gegen unseren gemeinsamen Feind unterstützen. Dies mag die Österreicher früher herausfordern, als wir es sonst geplant hatten, aber wenn wir glauben, dass wir eine Chance haben, ist jetzt der Zeitpunkt, an dem wir zuschlagen müssen.\n\nDas Fehlen jeglicher Erwähnung Illyriens in diesen Verhandlungen ist bemerkenswert. Unsere südslawischen Landsleute werden sicher erkennen, dass ihre beste Hoffnung gegen die Österreicher die sofortige Vereinigung unserer Länder und Kräfte ist. Wenn nicht, werden sie bald zur Einsicht gebracht werden."
 ausgleich.new.901.a: "Das ist unsere Chance! Auf in den Krieg!"
@@ -1141,17 +1066,6 @@ ausgleich.new.902.b: "Vorwärts, zum Sieg!"
 ausgleich.new.903.t: "[BPL.GetName] lehnt ein Bündnis ab"
 ausgleich.new.903.d: "Obwohl wir erwartet hatten, dass [BPL.GetName] durch die Chance, ihre Gebietsansprüche zu ergreifen, während sie auf unserer Seite kämpfen, angelockt werden würden, haben sie unseren Aufruf zu den Waffen abgelehnt, mit der Begründung, dass sie für einen Krieg gegen Österreich vorerst nicht bereit sind. Wir stehen allein auf der Welt..."
 ausgleich.new.903.a: "Oh nein..."
-
-ausgleich.new.904.t: "Galiziens Misere"
-ausgleich.new.904.d: "Das österreichische Kaiserreich ist wieder einmal einer Rebellion zum Opfer gefallen, und dieses Mal sind unsere Landsleute in Galizien unter den Aufständischen. [GAL.GetLeader] wird sicherlich für unsere Unterstützung empfänglich sein, und vielleicht für ein Wiedersehen, um 1772 noch einmal zu rächen. Auf der anderen Seite sind die Österreicher immer noch eine Großmacht... Was soll unsere Wahl sein?"
-ausgleich.new.904.a: "Wir werden unseren Landsleuten helfen!"
-ausgleich.new.904.b: "Wir sollten die Österreicher nicht verärgern."
-ausgleich.new.904.c: "Deutschland würde dies nicht zulassen."
-
-ausgleich.new.905.t: "Polen lässt uns im Stich"
-ausgleich.new.905.d: "Aus welchem Grund auch immer, die Polen haben die einmalige Chance abgelehnt, sich mit uns zu vereinen und die österreichische Hegemonie zu zerstören! Ohne ihre Unterstützung werden wir sicher nicht lange gegen die österreichischen Kräfte bestehen können - es sei denn, wir finden einen anderen Verbündeten..."
-ausgleich.new.905.a: "Rufen Sie den Belgrader Pakt zur Hilfe!"
-ausgleich.new.905.b: "Verräter!"
 
 ausgleich.new.906.t: "[FROM.GetAdjective] bittet um Mitgliedschaft im Belgrader Pakt"
 ausgleich.new.906.d.bucovina: "Tolle Nachrichten aus [FROM.Capital.GetCapitalVictoryPointName]! [FROM.GetNonIdeologyName] wird sich unseren Kriegsanstrengungen gegen Österreich anschließen, aber es gibt ein Problem: Was machen wir mit der Bukowina? Unsere rumänischen Verbündeten beanspruchen dieses Gebiet für sich. Wir müssen also entscheiden, ob wir es Polen überlassen, oder ob wir Warschau unter Druck setzen sollten, es unseren Verbündeten in Bukarest zu überlassen."
@@ -1227,6 +1141,11 @@ ausgleich.new.919.c: "Noch mehr Unruhen auf dem Balkan?"
  ausgleich.new.920.c: "Das spielt keine Rolle."
  
  AUS_may_lead_to_war_with_austria: "§RKann zu Krieg mit [AUS.GetNameDef] führen§!"
+
+ ausgleich.new.1000.t: "Verrücktes Wien"
+ ausgleich.new.1000.d: "Nach einem verheerenden ultranationalistischen Putsch gegen Kaiser Karl hat sich in Wien ein höchst autoritäres und deutsch-chauvinistisches Regime an die Macht geputscht. Dies hat zu großen Unruhen in den Ländern der Doppelmonarchie geführt, vor allem in den slawischen Kronländern, in denen sich nun eine rebellische Stimmung breit macht. Unter diesen Umständen können wir unser Bündnis mit Wien nicht mit gutem Gewissen aufrechterhalten."
+ ausgleich.new.1000.a: "Informieren Sie Wien über unsere Entscheidung."
+ ausgleich.new.1000.b: "Fragen Sie, ob die Galicier sich uns anschließen möchten."
 
 #########################################################################################################################
 ### TREE EVENTS
@@ -1546,5 +1465,9 @@ AUS_danubia_radical_socialist_DEF: "die Donau-Republik der Räte"
  AUS_zdenko_hudecek_high_command_desc: "§YGeboren:§! §L22. Juni 1887, in Theresienstadt, Königreich Böhmen, Österreich-Ungarn§!"
  AUS_eugen_saenger: "Eugen Sänger"
  AUS_eugen_saenger_theorist_desc: "§YGeboren:§! §L22. September 1905, in Preßnitz, Königreich Böhmen, Österreich-Ungarn§!"
+ AUS_ferdinand_porsche: "Ferdinand Porsche"
+ AUS_herbert_wagner: "Herbert Wagner"
+ AUS_igo_etrich: "Igo Etrich"
+ AUS_max_valier: "Max Valier"
  AUS_otto_robert_frisch: "Otto Robert Frisch"
  AUS_otto_robert_frisch_theorist_desc: "§YGeboren:§! §L1. Oktober 1904, in Wien, Erzherzogtum Österreich unterhalb der Enns, Österreich-Ungarn§!"
