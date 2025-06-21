@@ -640,6 +640,12 @@
  KRBAT.125.d: "Der erste regierende Herzog von Kurland seit fast eineinhalb Jahrhunderten ist im Alter von 81 Jahren verstorben. Nachdem er die meiste Zeit seines Lebens auf seinem schlesischen Gut in Groß Wartenberg verbracht hatte, ohne die Möglichkeit oder Pläne, in das Herzogtum zurückzukehren, wurde er erst vor kurzem von der Regierung Freytagh-Loringhoven wieder auf den rechtmäßigen Thron gesetzt.\nGustav wird in Schloss Mitau, der Stammburg der Herzöge von Kurland, beigesetzt. Sein ältester Sohn Karl trat sein Amt als zweiter Herzog von Kurland und Semigallien in diesem Jahrhundert an."
  KRBAT.125.a: "Der Herzog ist tot, es lebe der Herzog!"
 
+ KRBAT.126.t: "Zusammenbruch des Vereinigten Baltischen Herzogtums"
+ KRBAT.126.d: "Das Vereinigte Baltische Herzogtum, ein baltisch-deutscher Teilstaat des Deutschen Reiches, ist nach monatelangen inneren Auseinandersetzungen und dem Widerstand der Waldbrüderbewegung endgültig zerfallen. Im gesamten Herzogtum ist jeglicher Anschein von Ordnung verloren gegangen, und die Baltendeutschen fliehen massenhaft aus ihren Ländern.\n\nEinige sind in Deutschland gelandet, andere haben sich in der freien Stadt Riga versammelt, dem letzten Überbleibsel der baltischen deutschen Herrschaft. Der Konflikt in den baltischen Staaten ist eingefroren und wird in Zukunft sicherlich wieder aufflammen, aber vorerst haben Lettland und Estland ihre Unabhängigkeit behauptet."
+ KRBAT.126.a: "Wir werden niemals aufgeben!"
+ KRBAT.126.b: "Hurra!"
+ KRBAT.126.c: "Das ist ein Stapel veralteter Karten..."
+
 ### Focuses ###
 
  BAT_eliminate_honorifics: "Unnötige Ehrentitel abschaffen"
@@ -664,8 +670,6 @@
  BAT_anti_monopoly_laws_desc: "Stackelbergs Politik zielt darauf ab, die Grundsätze der freien Marktwirtschaft zu wahren und gleichzeitig dafür zu sorgen, dass der freie Markt wirklich frei und fair ist - vor allem durch die Einführung von Gesetzen gegen Monopole und Konzerne, um die Wettbewerbsfähigkeit zu erhöhen."
  BAT_progressive_taxation: "Progressive Körperschaftssteuer"
  BAT_progressive_taxation_desc: "Unter von Stackelbergs Leitung werden wir ein progressives System für die Unternehmensbesteuerung einführen, um kleine Unternehmen und aufstrebende Firmen zu unterstützen, uns mehr Steuereinnahmen zur Verteilung an die Gesellschaft zu gewähren und die Inflation zu kontrollieren."
- BAT_mathematical_management: "Konfigurationsmanagement"
- BAT_mathematical_management_desc: "Die baltische Industrie muss auf Qualität und nicht auf Quantität setzen. Durch die Einführung von Verwaltungsverfahren, die darauf ausgerichtet sind, die Qualität eines Produkts und den Umfang der Arbeit zu erhalten, können wir die industrielle Produktion drastisch verbessern."
  BAT_social_security: "Programme der sozialen Sicherheit"
  BAT_social_security_desc: "Unsere Nation muss den Menschen mit weitreichenden Sozialprogrammen etwas zurückgeben, anstatt das Geld der Steuerzahler in Tresoren und Tresoren zu lagern. Die Zuführung von Kapital in die Wirtschaft durch die soziale Sicherheit wird die Wirtschaft wesentlich dynamischer machen."
  BAT_independent_monetary_policy: "Unabhängige Geldpolitik"
@@ -1128,13 +1132,10 @@
  BAT_export_agriculture_idea_desc: "Unsere Reformen haben unsere Landwirte dazu veranlasst, Marktfrüchte und landwirtschaftliche Massenproduktion zu bevorzugen, was mehr Geld in die Taschen der Landwirte spült, mehr Geld auf den lokalen Markt bringt und es vielen ermöglicht, vom Hof in die Städte zu ziehen."
 
  BAT_reformed_education: "Reform des Bildungssystems"
- BAT_reformed_education_system: "Ein gestrafftes und modernisiertes Bildungssystem hat es uns ermöglicht, die Effizienz der Bildung erheblich zu verbessern und mehr kluge Köpfe als je zuvor unter unsere Fittiche zu nehmen."
+ BAT_reformed_education_desc: "Ein gestrafftes und modernisiertes Bildungssystem hat es uns ermöglicht, die Effizienz der Bildung erheblich zu verbessern und mehr kluge Köpfe als je zuvor unter unsere Fittiche zu nehmen."
 
  BAT_mass_mobilization_1: "Massenmobilisierung"
  BAT_mass_mobilization_1_desc: "Die Kriege der heutigen Zeit können nur mit einer massiven, mobilisierten und gut ausgerüsteten Armee gewonnen werden, und wir müssen unsere Wirtschaft auf dieses Ziel ausrichten."
-
- BAT_mass_mobilization_2: "Massenmobilisierung"
- BAT_mass_mobilization_2_desc: "Die Kriege der heutigen Zeit können nur mit einer massiven, mobilisierten und gut ausgerüsteten Armee gewonnen werden, und wir müssen unsere Wirtschaft auf dieses Ziel ausrichten."
 
  BAT_air_designers: "Wettbewerbsfähige Flugzeugkonstrukteure"
  BAT_air_designers_desc: "Indem wir den Wettbewerb zwischen den Flugzeugkonstrukteuren in unserem Land fördern, können wir sicherstellen, dass alle Entwürfe, die uns in die Hände fallen, von erstklassiger Qualität und zu einem vernünftigen Preis sind."
@@ -1250,22 +1251,8 @@
  BAT_new_christianity_desc: "Ganz Deutschland folgt nun einer neuen, wahrhaft germanischen Lesart des Christentums, die sicherlich die geistige Kraft Europas wiederbeleben und es in eine neue Zukunft mit Deutschland an der Spitze führen wird."
 
 ### Constitution Mechanic ###
-
- BAT_constitution_dynamic_modifier: "£pol_idea Verfassung der Baltischen Föderation"
- BAT_constitution_idea: "Verfassung der Baltischen Föderation"
- BAT_constitution_idea_desc: "Die Verfassung der Baltischen Föderation legt den politischen Rahmen der Nation fest. Sie definiert den Staat als eine [BAT.BAT_constitution_provinces_definition], [BAT.BAT_constitution_government_definition]. Die Verfassung sichert die grundlegenden Rechte und Pflichten der Bürger, [BAT.BAT_constitutional_culture_definition]. Die Legislative, der Landtag, [BAT.BAT_constitution_legislature_definition], und der Regierungschef, der Kanzler, [BAT.BAT_constitution_executive_definition].\n§W--------------\n[BAT_constitution_political_power][BAT_constitution_recruitable_population][BAT_constitution_consumer_goods][BAT_constitution_stability][BAT_constitution_production_efficiency_cap]§!"
-
- BAT_constitution_idea_tooltip: "Gewinnt nationalen Geist §H$BAT_constitution_idea$§!\n[BAT_constitution_political_power][BAT_constitution_recruitable_population][BAT_constitution_consumer_goods][BAT_constitution_stability][BAT_constitution_production_efficiency_cap]"
-
- BAT_constitution_political_power_text: "$MODIFIER_POLITICAL_POWER_FACTOR$: [?BAT.BAT_constitution_dynamic_modifier_political_power_factor|=%+0]\n"
- BAT_constitution_political_power_text_last: "$MODIFIER_POLITICAL_POWER_FACTOR$: [?BAT.BAT_constitution_dynamic_modifier_political_power_factor|=%+0]"
- BAT_constitution_recruitable_population_text: "$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: [?BAT.BAT_constitution_dynamic_modifier_conscription_factor|=%+0]\n"
- BAT_constitution_recruitable_population_text_last: "$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: [?BAT.BAT_constitution_dynamic_modifier_conscription_factor|=%+0]"
- BAT_constitution_consumer_goods_text: "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?BAT.BAT_constitution_dynamic_modifier_consumer_goods_factor|%H1]\n"
- BAT_constitution_consumer_goods_text_last: "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?BAT.BAT_constitution_dynamic_modifier_consumer_goods_factor|%H1]"
- BAT_constitution_stability_text: "$MODIFIER_STABILITY_FACTOR$: [?BAT.BAT_constitution_dynamic_modifier_stability_factor|=%+]\n"
- BAT_constitution_stability_text_last: "$MODIFIER_STABILITY_FACTOR$: [?BAT.BAT_constitution_dynamic_modifier_stability_factor|=%+]"
- BAT_constitution_production_efficiency_cap_text: "$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?BAT.BAT_constitution_dynamic_modifier_production_efficiency|=%+]"
+ BAT_constitution_dynamic_modifier: "Verfassung der Baltischen Föderation"
+ BAT_constitution_dynamic_modifier_desc: "Die Verfassung der Baltischen Föderation legt den politischen Rahmen der Nation fest. Sie definiert den Staat als eine [BAT.BAT_constitution_provinces_definition], [BAT.BAT_constitution_government_definition]. Die Verfassung sichert die grundlegenden Rechte und Pflichten der Bürger, [BAT.BAT_constitutional_culture_definition]. Die Legislative, der Landtag, [BAT.BAT_constitution_legislature_definition], und der Regierungschef, der Kanzler, [BAT.BAT_constitution_executive_definition]."
 
  BAT_constitution_government_definition_semiconstitutional: "semi-konstitutionelle Monarchie"
  BAT_constitution_government_definition_meritocratic: "leistungsorientierte Monarchie"
@@ -1311,15 +1298,7 @@
  BAT_already_seeking_allies: "Bereits Unterstützung durch eine Gruppe gesucht"
  BAT_Knighthoods_constitution: "Verankerung der Rolle der Ritterschaften"
  BAT_Knight_academies_safeguard: "Ritterakademien gesichert"
- BAT_eastern_vanguard_flag: "Die Landeswehr wurde vollständig modernisiert"
  BAT_flight_to_riga: "Ist auf den Rigaer Überfall reduziert"
-
- BAT_ostwall_kurland_completed: "$has_completed_decision$$BAT_ostwall_kurland$§!"
- BAT_ostwall_livland_completed: "$has_completed_decision$$BAT_ostwall_livland$§!"
- BAT_ostwall_estland_completed: "$has_completed_decision$$BAT_ostwall_estland$§!"
- BAT_ostwall_second_level_completed: "$has_completed_decision$$BAT_ostwall_second_level$§!"
- BAT_ostwall_repair_stations_completed: "$has_completed_decision$$BAT_ostwall_repair_stations$§!"
- BAT_ostwall_aa_stations_completed: "$has_completed_decision$$BAT_ostwall_aa_stations$§!"
 
 ### Ostwall Costs ###
 
@@ -1355,7 +1334,6 @@
 
  sef_bonus: "S.E.F. Forschung"
  vairogs_bonus: "Vairogs Forschung"
- zander_bonus: "Zander's Forschung"
 
 ### Tooltips ###
  BAT_landowners_decision: "Die Lobby der Landbesitzer wird uns die Zugeständnisse machen, die sie braucht, um ihre Unterstützung zu gewähren."
@@ -1370,7 +1348,6 @@
  BAT_forest_brothers_tooltip: "Der Aufstand der £pol_violence §YWaldbrüder§! beginnt.\n"
  BAT_estcour_brothers_tooltip: "Gewinn von 25% £pol_violence §YWiderstand§! in Estland und Kurland.\n"
  BAT_low_resistance_tooltip: "Hat mehr als [?1|Y0] überparteiliche £decision_icon_small §YEntscheidungen§! abgeschlossen"
- BAT_ongoing_partisan_action: "Derzeit läuft eine Anti-Partisanen-Aktion"
  BAT_flight_to_riga_tooltip: "Spielen Sie weiter als die Überreste des Vereinigten Baltischen Herzogtums - §YStadt Riga§!."
  BAT_play_latvia_tooltip: "Wechseln Sie zur Republik Lettland - §YLettland§!."
  BAT_play_estonia_tooltip: "Wechseln Sie zur Zweiten Republik Estland - §YEstland§!."
@@ -1382,45 +1359,43 @@
 
  BAT_starting_devolution_tooltip: "Schaltet §YDevolution§! frei und fügt §YPolitisches Macht§! hinzu, das auf der aktuellen §YStabilität§! basiert."
  BAT_starting_devolution_pp: "Gewinnt §G1§! §YPolitisches Macht§!.\n"
- BAT_devolved_education_tooltip: "Schaltet §YBildungs§! Devolution frei."
- BAT_devolved_culture_tooltip: "Schaltet §YKultur§! Devolution frei."
- BAT_devolved_economics_tooltip: "Schaltet §YÖkonomie§! Devolution frei."
 
  BAT_constitutional_convention_tooltip: "Wir werden die §YVerfassung der Baltischen Föderation§! entwerfen.\n"
  BAT_monarchist_constitution_tooltip: "Dies wird unsere Verfassung in Richtung einer semi-konstitutionellen Monarchie treiben."
  BAT_liberal_constitution_tooltip: "Dies wird unsere Verfassung in Richtung einer \"gekrönten Republik\" treiben."
  BAT_republican_constitution_tooltip: "Der Verfassungskonvent wird eine Republik gründen."
+ BAT_modify_constitution_by_tt: "wird die §YVerfassung§! ändern durch:"
 
- BAT_unitary_constitution_tooltip: "Ein einheitliches System wird der Regierung eine größere staatliche Kontrolle und Zugang zu mehr §Y$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$§! gewähren."
- BAT_federal_constitution_tooltip: "Ein föderales System wird ein für die meisten akzeptabler Kompromiss sein und §YPolitische Macht§! gewähren."
- BAT_confederal_constitution_tooltip: "Ein konföderales System wird §YStabilität§! garantieren."
+ BAT_unitary_constitution_tooltip: "Ein einheitliches System wird der Regierung eine größere staatliche Kontrolle und $BAT_modify_constitution_by_tt$"
+ BAT_federal_constitution_tooltip: "Ein föderales System wird ein für die meisten akzeptabler Kompromiss sein und $BAT_modify_constitution_by_tt$"
+ BAT_confederal_constitution_tooltip: "Ein konföderales System $BAT_modify_constitution_by_tt$"
 
- BAT_german_culture_constitution_tooltip: "Das Festhalten an der deutschen Überlegenheit im Baltikum wird den Politikern gefallen, ist aber nicht gut für die §YStabilität§!."
- BAT_liberal_culture_constitution_tooltip: "Dies ist ein für die meisten akzeptabler Kompromiss, der den §YBedarf an Konsumgütern§! verringern wird."
- BAT_equal_culture_constitution_tooltip: "Die nationale persönliche Autonomie wird §YStabilität§! garantieren."
- BAT_devolved_culture_constitution_tooltip: "Territoriale ethnische Autonomie wird die meisten zufriedenstellen und §YStabilität§! sowie §YPolitische Macht§! garantieren, aber die §YProduktionseffizienz§! verringern."
+ BAT_german_culture_constitution_tooltip: "Das Festhalten an der deutschen Überlegenheit im Baltikum wird den Politikern gefallen, ist aber $BAT_modify_constitution_by_tt$"
+ BAT_liberal_culture_constitution_tooltip: "Dies ist ein für die meisten akzeptabler Kompromiss, der $BAT_modify_constitution_by_tt$"
+ BAT_equal_culture_constitution_tooltip: "Die nationale persönliche Autonomie $BAT_modify_constitution_by_tt$"
+ BAT_devolved_culture_constitution_tooltip: "Territoriale ethnische Autonomie $BAT_modify_constitution_by_tt$"
 
- BAT_bicameral_aristocratic_landtag_tooltip: "Ein Oberhaus von Aristokraten wird den §YBedarf an Konsumgütern§! verringern, aber auch die §YStabilität§! reduzieren."
- BAT_bicameral_appointed_landtag_tooltip: "Ein ernanntes Oberhaus wird die Macht des Herzogs stärken und somit §YPolitische Macht§! gewähren."
- BAT_bicameral_elective_landtag_tooltip: "Ein gewähltes Oberhaus ist ein Kompromiss, der die meisten zufriedenstellen und somit die §YStabilität§! fördern wird."
- BAT_province_elected_landtag_tooltip: "Ein Bundesrat, der die Bundesländer vertritt, wird §YStabilität§! gewährleisten, aber die Zentralregierung schwächen und damit §YPolitische Macht§! reduzieren."
- BAT_bicameral_meritocratic_landtag_tooltip: "Ein unternehmerisches, leistungsorientiertes Oberhaus wird die §YProduktionseffizienz§! verbessern."
- BAT_full_meritocratic_landtag_tooltip: "Ein meritokratischer Landtag wird die §YProduktionseffizienz§! verbessern und die Regierung stärken und damit §YPolitische Macht§! verleihen, aber sein undemokratischer Charakter wird die §YStabilität§! beeinträchtigen.\nDiese Lösung wird von Paul Schiemann unterstützt."
- BAT_unicameral_landtag_tooltip: "Eine Einkammer-Legislative wird die Zentralregierung stärken und somit §YPolitische Macht§! gewähren."
+ BAT_bicameral_aristocratic_landtag_tooltip: "Ein Oberhaus von Aristokraten $BAT_modify_constitution_by_tt$"
+ BAT_bicameral_appointed_landtag_tooltip: "Ein ernanntes Oberhaus wird die Macht des Herzogs stärken und $BAT_modify_constitution_by_tt$"
+ BAT_bicameral_elective_landtag_tooltip: "Ein gewähltes Oberhaus ist ein Kompromiss, der die meisten zufriedenstellen und $BAT_modify_constitution_by_tt$"
+ BAT_province_elected_landtag_tooltip: "Ein Oberhaus, das die Bundesländer vertritt, wird die Stabilität verbessern, aber die Zentralregierung schwächen und $BAT_modify_constitution_by_tt$"
+ BAT_bicameral_meritocratic_landtag_tooltip: "Ein unternehmerisches, leistungsorientiertes Oberhaus $BAT_modify_constitution_by_tt$"
+ BAT_full_meritocratic_landtag_tooltip: "Ein meritokratischer Landtag wird die Regierung stärken, aber sein undemokratischer Charakter wird die Stabilität beeinträchtigen.\nDiese Lösung wird von Paul Schiemann unterstützt.\nDies $BAT_modify_constitution_by_tt$"
+ BAT_unicameral_landtag_tooltip: "Eine Einkammer-Legislative wird die Zentralregierung stärken und $BAT_modify_constitution_by_tt$"
 
- BAT_monarch_appointed_government_tooltip: "Dies wird die Macht in den Händen des Herzogs konsolidieren und §YPolitische Macht§! und §YProduktionseffizienz§! gewähren, aber §YStabilität§! verringern."
- BAT_president_appointed_government_tooltip: "Dies wird die Macht in den Händen des Präsidenten konsolidieren und §YPolitische Macht§! und §YProduktionseffizienz§! gewährleisten, aber §YStabilität§! verringern."
- BAT_joint_appointed_government_tooltip: "Damit soll ein annähernd gleiches Gleichgewicht der Gewalten hergestellt werden, das §YPolitische Macht§! gewährt."
- BAT_joint_republican_appointed_government_tooltip: "Damit soll ein annähernd gleiches Gleichgewicht der Gewalten hergestellt werden, das §YPolitische Macht§! gewährt."
- BAT_landtag_appointed_government_tooltip: "Dies soll die Macht in den Händen des Landtags festigen und §YStabilität§! gewähren."
+ BAT_monarch_appointed_government_tooltip: "Dies soll die Macht in den Händen des Herzogs festigen und $BAT_modify_constitution_by_tt$"
+ BAT_president_appointed_government_tooltip: "Dies soll die Macht in den Händen des Herzogs festigen und $BAT_modify_constitution_by_tt$"
+ BAT_joint_appointed_government_tooltip: "Damit soll ein annähernd ausgeglichenes Kräfteverhältnis hergestellt werden und $BAT_modify_constitution_by_tt$"
+ BAT_joint_republican_appointed_government_tooltip: "Damit soll ein annähernd ausgeglichenes Kräfteverhältnis hergestellt werden und $BAT_modify_constitution_by_tt$"
+ BAT_landtag_appointed_government_tooltip: "Dies soll die Macht in den Händen des Landtags festigen und $BAT_modify_constitution_by_tt$"
 
- BAT_noble_rights_tooltip: "Eine Abschaffung der Adelsprivilegien wird §YProduktionseffizienz§! gewähren."
+ BAT_noble_rights_tooltip: "Eine Abschaffung der Adelsprivilegien $BAT_modify_constitution_by_tt$"
 
- BAT_emergency_powers_granted_tooltip: "Verankerte Notstandsbefugnisse für die Regierung ermöglichen den Zugriff auf mehr §Y$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$§!."
- BAT_emergency_powers_denied_tooltip: "Die Aufhebung der Notstandsbefugnisse der Regierung wird den §YBedarf an Konsumgütern§! verringern."
+ BAT_emergency_powers_granted_tooltip: "Verankerung von Notstandsbefugnissen für die Regierung $BAT_modify_constitution_by_tt$"
+ BAT_emergency_powers_denied_tooltip: "Die Aufhebung der Notstandsbefugnisse der Regierung $BAT_modify_constitution_by_tt$"
 
- BAT_entrenchment_granted_tooltip: "Das Einfrieren wichtiger Artikel der Verfassung auf unbestimmte Zeit wird §YStabilität§! gewährleisten."
- BAT_entrenchment_denied_tooltip: "Wenn die Regierung die Befugnis erhält, die Verfassung frei zu ändern, wird ihr §YPolitische Macht§! gewährt."
+ BAT_entrenchment_granted_tooltip: "Das Einfrieren wichtiger Artikel der Verfassung auf unbestimmte Zeit $BAT_modify_constitution_by_tt$"
+ BAT_entrenchment_denied_tooltip: "Wenn die Regierung die Befugnis erhält, die Verfassung frei zu ändern, $BAT_modify_constitution_by_tt$"
 
  new_armor_model_tooltip: "§HVerbesserungen:§!\n      Hauptwaffe: §G2§!\n      Panzerung: §G2§!\n      Zuverlässigkeit: §G2§!\n      Motor: §G2§!"
  BAT_new_armor_model_tooltip_nsb: "§HVerbesserungen:§!\n      Panzerung: §G4§!\n      Motor: §G4§!"
@@ -1453,14 +1428,10 @@
  BAT_forest_brothers_decision_category_desc: "Im Vereinigten Baltischen Herzogtum ist ein Massenaufstand ausgebrochen. Hunderte von Letten und Esten verlassen ihr Leben, um sich den Waldbrüdern anzuschließen, einer Partisanenorganisation im Untergrund, deren Ziel es ist, die deutsch-baltische Herrschaft ein für alle Mal aus der Region zu vertreiben. Der Fortbestand des Herzogtums hängt nun davon ab, ob es der Regierung und der Baltischen Landeswehr gelingt, den Aufstand rechtzeitig einzudämmen.\n\nDie Stärke und das Wachstum der Waldbrüder-Bewegung wird durch £pol_violence §YWiderstand§! in lettischen und estnischen Staaten repräsentiert. Sie kann durch normale Widerstandsmechanismen oder durch den Einsatz von £pol_power §YPolitische Macht§! bekämpft werden, um Antipartisanenmaßnahmen zu ergreifen. Der Widerstand muss unter 25 Prozent sinken, damit der Aufstand der Waldbrüder endgültig nachlässt - sollte der Widerstand hingegen 70 Prozent erreichen, wird die Situation eine kritische Masse erreichen und zum Zusammenbruch des Herzogtums führen. Darüber hinaus wird der Widerstand schneller zunehmen, wenn er über 50 steigt.\n\nDer aktuelle durchschnittliche £pol_violence §YWiderstand§! ist §R[?BAT_total_resistance|0]%§!, der jede Woche durch die Entscheidung §YDie tickende Uhr§! aktualisiert wird."
  BAT_livland_timer: "Ausweitung von der Vidzeme Basis Regierung"
  BAT_brothers_timer: "Die tickende Uhr"
- BAT_Latvian_concessions: "Zugeständnisse an lettische Intellektuelle machen"
- BAT_Estonian_concessions: "Zugeständnisse an estnische Intellektuelle"
- BAT_Latvian_compliance: "Ausgangssperren und Einschüchterung in Lettland"
- BAT_Estonian_compliance: "Ausgangssperren und Einschüchterung in Estland"
- BAT_Latvian_hunting: "Kopfgeldjagd in Lettland"
- BAT_Latvian_hunting_desc: "Ich möchte, dass bis Ende des Monats in jeder Gemeinde fünfzig Banditen beseitigt werden, verstanden?"
- BAT_Estonian_hunting: "Kopfgeldjagd in Estland"
- BAT_Estonian_hunting_desc: "Ich möchte, dass bis Ende des Monats in jeder Gemeinde fünfzig Banditen beseitigt werden, verstanden?"
+ BAT_increase_compliance_decision: "[ROOT.BAT_increase_compliance_decision_name]"
+ BAT_increase_compliance_decision_natpop: "Ausgangssperren und Einschüchterung in [FROM.GetNonIdeologyName]"
+ BAT_increase_compliance_decision_default: "Zugeständnisse an [FROM.GetNonIdeologyAdjective] Intellektuelle machen"
+ BAT_decrease_resistance_decision: "Hartes Durchgreifen gegen [FROM.GetNonIdeologyAdjective] Rebellen"
  BAT_Zersetzung_decision: "Zersetzung"
  BAT_Zersetzung_decision_desc: "'Zersetzung' ist eine von der Baltischen Landeswehr entwickelte Technik der psychologischen Kriegsführung, die darauf abzielt, gefangene lettische und estnische Partisanen durch missbräuchliche Kontrolle und psychologische Manipulation zu brechen."
  BAT_Banderbekampfung_decision: "Bandenbekämpfungstaktiken anwenden"
@@ -1496,17 +1467,12 @@
  BAT_riga_erlaa_modohn_railroad: "Riga-Reval Eisenbahn"
  BAT_reval_petseri_railroad: "Reval-Dorpat Eisenbahn"
  BAT_tuckum_airport: "Bau des Flughafens Tuckum"
- BAT_kohtla_jarve_oil_shale: "Kochtel-Jeraius-Ölschieferfelder"
- BAT_estlandiche_steinoil: "Gründung Estländische Steinöl"
- BAT_heat_generation_power_plants: "Bau von Wärmekraftwerken"
 
  BAT_riga_decision_category: "Die Übriggebliebenen"
  BAT_riga_decision_category_desc: "Die §YStadt Riga§! ist das letzte Überbleibsel des Vereinigten Baltischen Herzogtums, eines republikanischen Regimes, das vom Rigaer Stadtrat verwaltet und von deutschen Waffen unterstützt wird. Sie wird von Fraktionen mit ihren eigenen Vorstellungen von der Zukunft der Stadt zerrissen - diejenigen, die sie als unabhängigen deutsch-baltischen Stadtstaat fördern wollen, diejenigen, die die Stadt mit der sie umgebenden Republik wiedervereinigen wollen, und diejenigen, die eine Gelegenheit sehen, sich endlich dem Deutschen Reich anzuschließen, wie es die Deutschbalten 1918 kurz erwogen haben."
  BAT_restore_baltic_hegemony: "Unser Geburtsrecht zurückfordern!"
  BAT_restore_baltic_hegemony_desc: "Lettland und Estland stehen wieder unter unserer Kontrolle. Es ist also an der Zeit, unsere Identität als freie Stadt aufzugeben und die Herrschaft der Deutschbalten über die drei Regierungsbezirke wiederherzustellen."
  BAT_eastern_crusade_decision: "Der Ostkreuzzug"
- BAT_integrate_latgale: "Zwangsrekrutierung in Lettgallen"
- BAT_integrate_latgale_desc: "Mit massiver Repression, der Niederschlagung des lettischen Widerstands und der Zwangsrekrutierung in die Baltische Landeswehr können wir sicherstellen, dass Lettgallen genauso viele Arbeitskräfte und Ressourcen aufbringt wie jede andere Provinz im Baltikum."
  BAT_black_market_small_arms: "Schwarzmarkt Kleinwaffen"
  BAT_conscript_refugees: "Deutsche Flüchtlinge einberufen"
  BAT_black_market_artillery: "Schwarzmarkt Artillerie"
@@ -1531,20 +1497,15 @@
  BAT_eastern_vanguard_decision_category_desc: "Unsere Lage und die Professionalität der Baltischen Landeswehr geben uns eine einzigartige Rolle bei der Verteidigung des Reichspaktes von Osten her. Wir haben nur wenige Truppen und wenig Industrie, aber die Erfahrung in moderner Kriegsführung, die unsere Offiziere mitbringen, ermöglicht es uns, unsere zahlreicheren und besser bewaffneten Verbündeten zu unterstützen.\n\nDer Abschluss des §YBaltische Landeswehr§! Zweigs unseres Schwerpunktbaums schaltet die Fähigkeit frei, £decision_icon_small §YMilitärische Missionen§! an Ihre Verbündeten in Osteuropa zu senden, was beiden Parteien Vorteile bringt. Jedes Reichspaktmitglied, an das eine Militärmission geschickt wird, gibt dir einzigartige Boni - und sie erhalten im Gegenzug Boni auf den §Y$MODIFIER_ARMY_ORG_FACTOR$§!, den §Y$MODIFIER_PLANNING_SPEED$§! und den §Y$MODIFIER_RESEARCH_SPEED_FACTOR$§! skaliert entsprechend ihrer Ungleichheit in der §YLanddoktrin§! Außerdem wird einer deiner Generäle auf sie übertragen.\n\nEs kann immer nur eine Militärmission entsandt werden."
 
  BAT_military_mission: "Mission zu [FROM.GetNameDef]"
- BAT_military_mission_desc: "[FROM.BAT_military_mission_desc_text]"
+ BAT_military_mission_desc: "General [?ROOT.BAT_mission_general_@FROM.GetName] wird nach [FROM.GetNonIdeologyName] entsandt, um unser Fachwissen weiterzugeben und [FROM.GetNonIdeologyAdjective] [FROM.BAT_military_mission_desc_text] zu untersuchen."
+ BAT_military_mission_desc_LIT: "Praxis in der Infanteriekriegsführung."
+ BAT_military_mission_desc_POL: "Experimente mit massiver Panzerung."
+ BAT_military_mission_desc_BLR: "Verteidigungsstrategien gegen Russland."
+ BAT_military_mission_desc_UKR: "Erfahrung in der Massenmobilisierung."
+ BAT_military_mission_desc_FIN: "Erfahrung im Winterkrieg."
+ BAT_military_mission_desc_fallback: "Militärtaktiken"
 
- BAT_military_mission_desc_LIT: "General Harry Lutz wird nach Litauen entsandt, um unser Fachwissen weiterzugeben und die litauische Praxis der Infanteriekriegsführung zu studieren."
- BAT_military_mission_desc_POL: "General Heinrich von Behr wird nach Polen entsandt, um unser Fachwissen weiterzugeben und die polnischen Experimente mit der geballten Panzerwaffe zu studieren."
- BAT_military_mission_desc_BLR: "General Ernst von Nolcken wird nach Weißrussland entsandt, um unser Fachwissen weiterzugeben und die weißrussischen Verteidigungsstrategien gegen Russland zu untersuchen."
- BAT_military_mission_desc_UKR: "General Hans von Manteuffel wird in die Ukraine entsandt, um unser Fachwissen weiterzugeben und die ukrainischen Erfahrungen mit der Massenmobilisierung zu studieren."
- BAT_military_mission_desc_FIN: "General Otto Goldfeld wird nach Finnland entsandt, um unser Fachwissen weiterzugeben und die finnischen Erfahrungen im Winterkrieg zu studieren."
-
- BAT_military_mission_return: "[FROM.BAT_military_mission_return_text]"
- BAT_military_mission_return_LIT: "Rückruf General Lutz"
- BAT_military_mission_return_POL: "Rückruf General von Behr"
- BAT_military_mission_return_BLR: "Rückruf General von Nolcken"
- BAT_military_mission_return_UKR: "Rückruf General von Manteuffel"
- BAT_military_mission_return_FIN: "Rückruf General Goldfeld"
+ BAT_military_mission_return: "Rueckkehr General [?ROOT.BAT_mission_general_@FROM.GetName]"
 
  BAT_mission_dynamic_modifier: "Baltische Landeswehr Mission vorführen"
 
@@ -1585,14 +1546,11 @@
  BAT_devolution_culture_tooltip: "modifiziert §H$BAT_devolution_1$§! durch\n   $MODIFIER_LOCAL_MANPOWER$: [?0.2|+=0%]\n"
  BAT_devolution_economics_tooltip: "modifiziert §H$BAT_devolution_1$§! durch\n   $MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: [?0.2|+=0%]\n"
 
- BAT_integrate_latgale_dem: "Integration der Region Lettgale"
- BAT_integrate_latgale_dem_desc: "Die Region Lettgale wurde nach dem Ersten Weltkrieg vom Rest Lettlands abgetrennt. Jetzt, da wir sie wieder zurückerobert haben, können wir dort eine zivile Regierung einrichten und sie in unsere gemeinsame Baltische Föderation integrieren."
-
 ### Leader Traits ###
 
  BAT_absent: "Auf Reisen"
  BAT_presumed_dead: "Totgeglaubt"
- BAT_afrika_herzog: ""Der Afrika-Herzog""
+ BAT_afrika_herzog: "\"Der Afrika-Herzog\""
  BAT_puppet_fuhrer: "Marionettenführer"
  BAT_secret_council: "Geheimrat"
  BAT_jurist: "Prominenter Jurist"
@@ -1763,3 +1721,5 @@
  BAT_wolf_kirstein_air_chief_desc: "§YGeboren:§! §L21. Oktober 1887, in Sagnitz, Gouvernement Livland, Russisches Reich§!"
  BAT_gerhard_buschmann: "Gerhard Buschmann"
  BAT_gerhard_buschmann_air_chief_desc: "§YGeboren:§! §L17. Juni 1910, in Poltaava, Gouvernement Poltava, Russisches Reich§!"
+ BAT_walter_zapp: "Walter Zapp"
+ BAT_walter_zapp_scientist_desc: "§YGeboren:§! §L4. September 1905, in Riga, Gouvernement Livland, Russisches Reich§!"
