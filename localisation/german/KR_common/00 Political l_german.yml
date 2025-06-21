@@ -155,6 +155,8 @@ generic_events.76.a: "Großartig!"
 
  coalition_stability_tooltip: "Koalitionspartner bieten nun $RIGHT|G%0$ ihrer Popularität als zusätzlichen §HPolitischen Machtgewinn§!."
 
+ coalition_stability_pp_change: "§$COLOUR$[?global.ideology_groups^$INDEX$.GetTokenLocalizedKey]§! Koalitionspartner tragen nun [?coalition_stability_var|Y0%] ihrer Parteipopularität zu unserem $MODIFIER_POLITICAL_POWER_GAIN$ bei."
+
 ### At War Notice ###
 has_scripted_peace: "Wir führen Krieg"
 has_scripted_peace_desc: "Das Land befindet sich im Krieg und ist entschlossen, den Sieg zu erringen - obwohl unser Widerstand wahrscheinlich etwas brüchiger ist, als es scheint. (Note: Dies gilt für Kriege, in denen ein geskriptetes Friedensereignis existiert, und es besteht die Möglichkeit, dass das Ereignis ausgelöst wird, lange bevor diese erhöhte Übergabegrenze erreicht wird, nur damit Sie sich dessen bewusst sind.)"
