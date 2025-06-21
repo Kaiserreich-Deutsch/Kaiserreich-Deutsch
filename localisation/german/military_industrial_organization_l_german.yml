@@ -110,6 +110,7 @@
  INDUSTRIAL_ORG_TOOLTIP_NO_UPGRADE_ALREADY_ASSIGNED_MIO: "Es gibt keine neuen Merkmale, die auf diese Ausrüstung zutreffen. Es besteht keine Notwendigkeit für eine Aufrüstung."
  INDUSTRIAL_ORG_TOOLTIP_UPGRADE_ALREADY_ASSIGNED_MIO_DELAYED: "Ausrüstung, einer älteren Version die mit einer §YMilitärisch Industriellen Organisation§! hergestellt wurde, muss aufgerüstet werden, um die neuesten Eigenschaften des §YGestaltungsteam§! anwenden zu können."
  INDUSTRIAL_ORG_TOOLTIP_NO_RELEVANT_ORGANISATION: "Sie §Rmüssen nichts§! diesem Ausrüstungstyp zuordnen."
+ INDUSTRIAL_ORG_TOOLTIP_IS_LICENSED: "§RLizensierte Geräte sind nicht zulässig§!"
  INDUSTRIAL_ORG_TRAIT_TOOLTIP_NAME: "$NAME|H$"
  INDUSTRIAL_ORG_TRAIT_TOOLTIP_LIMIT_TYPE: "Only for $TYPE|H$:"
  INDUSTRIAL_ORG_TRAIT_TOOLTIP_ALL_TYPES: "$TYPES|H$:"
@@ -214,7 +215,7 @@
  INDUSTRIAL_ORG_AVAILABLE_TOOLTIP_ITEM: " - $NAME|H$"
  INDUSTRIAL_ORG_AVAILABLE_TOOLTIP_ITEM_WITH_CAPACITY: "$INDUSTRIAL_ORG_AVAILABLE_TOOLTIP_ITEM$: (Aufgaben Kapazität: $TASKS|Y$/$CAPACITY|Y$)"
  INDUSTRIAL_ORG_AVAILABLE_TOOLTIP_ITEM_WITH_CAPACITY_FULL: "$INDUSTRIAL_ORG_AVAILABLE_TOOLTIP_ITEM$: (Aufgaben Kapazität: $TASKS|R$/$CAPACITY|R$)"
- INDUSTRIAL_ORG_AVAILABLE_MIOS: "$AVAILABLE|H$ / $TOTAL|H$"
+ INDUSTRIAL_ORG_AVAILABLE_MIOS: "$TOTAL|H$"
 
  INDUSTRIAL_ORG_TOOLTIP_PRODUCTION_TASK_INFO: "Wenn Sie einer §YMilitärisch Industriellen Organisation§! eine Aufgabe für eine Produktionslinie geben, werden Produktionsboni auf diese Linie angewendet."
  INDUSTRIAL_ORG_TOOLTIP_RESEARCH_TASK_INFO: "Wenn Sie einer §YMilitärisch Industriellen Organisation§! eine Forschungsaufgabe geben, erhöht sich die Forschungsgeschwindigkeit und es können ausrüstungsspezifische Boni gewährt werden."
