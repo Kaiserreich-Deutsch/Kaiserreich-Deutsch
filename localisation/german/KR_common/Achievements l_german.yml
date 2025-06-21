@@ -160,9 +160,6 @@
  USA_rally_once_again_achievement_NAME: "Erneut eine Kundgebung"
  USA_rally_once_again_achievement_DESC: "Als liberale Bundesregierung den zweiten amerikanischen Bürgerkrieg gewinnen."
 
- USA_high_stakes_union_negotiations_achievement_NAME: "Gewerkschaftsverhandlungen mit hohem Einsatz"
- USA_high_stakes_union_negotiations_achievement_DESC: "Gewinnen Sie als Bundesregierung den Zweiten Amerikanischen Bürgerkrieg, nachdem Sie einen Kompromiss mit Reed erzielt haben."
-
  USA_kings_ransom_achievement_NAME: "Lösegeld für einen König"
  USA_kings_ransom_achievement_DESC: "Gewinnen Sie als Bundesregierung den Zweiten Amerikanischen Bürgerkrieg, nachdem Sie einen Kompromiss mit Long geschlossen haben."
 
@@ -173,13 +170,13 @@
  USA_crossing_the_potomac_achievement_DESC: "Gewinnen Sie als Douglas MacArthur den Zweiten Amerikanischen Bürgerkrieg."
 
  USA_permanent_american_revolution_achievement_NAME: "Permanente Amerikanische Revolution"
- USA_permanent_american_revolution_achievement_DESC: "Gewinnen Sie als die Kombinierten Syndikate den Zweiten Amerikanischen Bürgerkrieg."
+ USA_permanent_american_revolution_achievement_DESC: "Gewinnen Sie als den Arbeiterkongress den Zweiten Amerikanischen Bürgerkrieg."
 
  USA_crowned_republic_achievement_NAME: "Die Gekrönte Republik"
- USA_crowned_republic_achievement_DESC: "Gewinnen Sie als Unionsstaat den Zweiten Amerikanischen Bürgerkrieg."
+ USA_crowned_republic_achievement_DESC: "Gewinnen Sie als Volksregierung den Zweiten Amerikanischen Bürgerkrieg."
 
  USA_from_sea_to_shining_sea_achievement_NAME: "Vom Meer zum strahlenden Meer"
- USA_from_sea_to_shining_sea_achievement_DESC: "Gewinnen Sie als Pazifikstaat den Zweiten Amerikanischen Bürgerkrieg."
+ USA_from_sea_to_shining_sea_achievement_DESC: "Gewinnen Sie als Konstitutionelle Koalition den Zweiten Amerikanischen Bürgerkrieg."
 
  USA_sons_of_liberty_achievement_NAME: "Die Söhne der Freiheit"
  USA_sons_of_liberty_achievement_DESC: "Gewinnen Sie als Neuengland den Zweiten Amerikanischen Bürgerkrieg."
@@ -284,7 +281,7 @@
  BUL_circular_reasoning_achievement_DESC: "Jugoslawien bilden... als Bulgarien."
 
  USA_barracks_socialism_achievement_NAME: "Kasernen-Sozialismus"
- USA_barracks_socialism_achievement_DESC: "Als die Vereinigten Syndikate von Amerika erleben Sie einen Militärputsch."
+ USA_barracks_socialism_achievement_DESC: "Als Amerikanischer Arbeiterkongress erleben Sie einen Militärputsch."
 
  LBA_1001_libyan_nights_achievement_NAME: "1001 Libysche Nächte"
  LBA_1001_libyan_nights_achievement_DESC: "Als Kyrenaika, Ifriqya bilden."
@@ -373,7 +370,21 @@
  CA_dont_steppe_achievement_NAME: "Steppe mir nicht auf die Füße"
  CA_dont_steppe_achievement_DESC: "Wie jedes Zentralasiatische Land einen vereinigten Zentralasiatischen Staat gründen."
 
+ INDIA_truth_alone_endures_achievement_NAME: "Nur die Wahrheit hat Bestand"
+ INDIA_truth_alone_endures_achievement_DESC: "Als Indische Regierung kontrollieren Sie das gesamte indische Kerngebiet oder lassen es von einem Verbündeten kontrollieren."
+
+ PHI_mabuhay_achievement_NAME: "Mabuhay! (Sei gegrüßt!)"
+ PHI_mabuhay_achievement_DESC: "Vervollständigen Sie als Philippinen das Hauptziel einer politischen Gruppierung."
+
+ USA_we_have_returned_achievement_NAME: "Wir sind zurückgekehrt!"
+ USA_we_have_returned_achievement_DESC: "Gewinnen Sie als eine beliebige amerikanische Fraktion den Kampf um die Philippinen."
+
+ TUR_hand_that_rocks_achievement_NAME: "Die Hand, die die Wiege schaukelt"
+ TUR_hand_that_rocks_achievement_DESC: "Sammeln Sie als Osmanisches Reich alle zivilen Fabriken Ihrer ägyptischen Marionette ein, während die Unruhen am geringsten sind."
+
 ### Tooltips (geordnet nach der Reihenfolge, in der sie in der Leistungsdatei erscheinen)
+
+ legacy_achievement_tt: "§RDiese Errungenschaft wurde von einer früheren Version der Mod übernommen und kann nicht mehr auf normalem Wege erreicht werden.§!"
 
  achievements_disabled: "§RBenutzerdefinierte Errungenschaften sind derzeit deaktiviert.§!\n§YUm dies rückgängig zu machen, klicken Sie auf die Umschaltfunktion im Optionsmenü.§!"
 
@@ -439,8 +450,6 @@
 
  xinjiang_rebellion_has_begun: "In Xinjiang ist eine Rebellion ausgebrochen."
 
- ottomans_destroyed_tooltip: "Das Osmanische Reich wurde zerschlagen."
-
  the_peoples_flag_achievement_tooltip: "Die Entente existiert nicht."
 
  in_the_hall_of_the_mountain_achievement_tooltip: "Hat Andesia gegründet."
@@ -454,8 +463,6 @@
  deutsch_west_indies_achievement_tooltip: "Alle karibischen Inseln sind im Besitz der deutschen Fraktion."
 
  only_mostly_dead_achievement_tooltip: "Gewann den Zweiten Weltkrieg nach einem Staatsstreich in letzter Minute."
-
- overlook_exports_tt: "$has_completed_focus$$IRE_overlook_exports_main$§!"
 
  fighting_irish_achievement_SCW_tooltip: "Entsendung von Freiwilligen in den §YSpanischen Bürgerkrieg§!, nur auf der Seite der Sieger."
  fighting_irish_achievement_4BW_tooltip: "Entsendung von Freiwilligen in den §YVierten Balkan-Krieg§!, nur auf der Seite der Sieger."
@@ -523,10 +530,12 @@
 
  high_stakes_union_negotiations_achievement_tooltip: "Mit Reed und der SPA wurde ein Kompromiss erzielt."
 
- kings_ransom_achievement_tooltip: "Erzielt einen Kompromiss mit Long und der AFP."
+ kings_ransom_achievement_tooltip: "Er erzielt einen Kompromiss mit Long und seinen südlichen Verbündeten."
 
- worlds_least_radical_country_achievement_tooltip: "Auf der Landon-Konferenz gelang es ihm, sowohl die SPA als auch die AFP zu schwächen und einen Putsch von MacArthur zu verhindern."
+ worlds_least_radical_country_achievement_tooltip: "Auf der Landon-Konferenz gelang es ihm, sowohl die SPA als auch Long zu schwächen und einen Putsch von MacArthur zu verhindern."
 
  guns_of_the_patriots_achievement_tooltip: "Alle Unterschlüpfe auf der Underground Railroad sind geöffnet, und alle Entscheidungen über die Verschärfung der Sicherheitsvorkehrungen oder die Ausweichroute der Pfadfinder wurden getroffen."
 
  sons_of_liberty_achievement_tooltip: "Hat die Vereinigten Staaten von Amerika neu gegründet."
+
+ india_truth_alone_endures_achievement_tooltip: "Alle indischen Kernterritorien werden direkt oder von einem Verbündeten kontrolliert."
