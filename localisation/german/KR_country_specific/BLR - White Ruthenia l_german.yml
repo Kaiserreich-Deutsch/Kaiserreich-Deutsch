@@ -425,10 +425,6 @@
  BLR_integrate_state_easy_desc: "Die Mehrheit der Bevölkerung von [FROM.GetName] gibt sich als Weißrussen zu erkennen oder ist eindeutig Weißrusse und wird sich dieser Tatsache schnell bewusst. Es wird relativ einfach sein, die Region in [ROOT.GetNameDef] zu integrieren."
  BLR_integrate_state_medium_desc: "Ein Großteil der Bevölkerung von [FROM.GetName] erkennt sich selbst als Weißrussen an, aber ein großer Teil der Bevölkerung wurde in den letzten Jahren entweißrussifiziert. Es wird einige Zeit dauern, die Region in [ROOT.GetNameDef] zu integrieren."
  BLR_integrate_state_hard_desc: "Die weißrussische Identität in [FROM.GetName] ist entweder schwach oder wurde in den letzten Jahren gründlich unterdrückt. Es wird große Anstrengungen erfordern, die Region in [ROOT.GetNameDef] zu integrieren."
- BLR_rebuild_local_administration: "Wiederherstellung der lokalen Verwaltung in [FROM.GetName]"
- BLR_rebuild_local_administration_desc: "Mit einer gefestigten weißrussischen Identität haben wir unsere Fähigkeit, die lokale Bevölkerung von ihrem Weißrussischsein zu überzeugen, erheblich verbessert. Durch die Entsendung von Beamten und Lehrern nach [FROM.GetName] und die Zusammenarbeit mit den Einheimischen werden wir ihr Vertrauen und ihre Anerkennung gewinnen können. Wir dürfen die Fehler von 1918 nicht wiederholen, als wir ohne deutsche Unterstützung kaum in der Lage waren, unsere Einflussgebiete außerhalb von [206.GetName] zu erweitern."
- BLR_strengthen_military_administration: "Verstärkung der Militärpräsenz in [FROM.GetName]"
- BLR_strengthen_military_administration_desc: "Die Armee hat die Zuständigkeit für die neu erworbenen Regionen. Wenn wir ihre Präsenz verstärken, können wir die Sicherheit und den Schutz der lokalen Bevölkerung gewährleisten und langsam ihr Vertrauen gewinnen. Oder sie zwingen, sich zu fügen, wenn es dazu kommt."
 
  BLR_expansion_decisions: "Groß-Weißrussland"
  BLR_expansion_decisions_desc: "Hier im Osten werden die Grenzen mit dem Schwert und nicht mit der Feder gezogen. Wer kühn ist, bekommt die Beute!"
@@ -818,7 +814,7 @@
  RUS_will_puppet_belarus: "Russia made a secret deal with [BLR.GetName]"
 
  whrpol.52.t: "[BLR.GetNameDefCap] lehnt ab"
- whrpol.52.d: "[BLR.GetNameDef] hat uns unmissverständlich mitgeteilt, dass sie, selbst wenn sie glauben würden, dass wir unsere Vereinbarung einhalten würden, keine allzu großen Hoffnungen in den Erfolg unserer möglichen militärischen Kampagne gegen die Macht des Ostwalls setzen.\n\nEs sieht so aus, als müssten wir unseren eigensinnigen Brüdern den Sozialismus auf die altmodische Weise nahebringen."
+ whrpol.52.d: "[BLR.GetNameDefCap] hat uns unmissverständlich mitgeteilt, dass sie, selbst wenn sie glauben würden, dass wir unsere Vereinbarung einhalten würden, keine allzu großen Hoffnungen in den Erfolg unserer möglichen militärischen Kampagne gegen die Macht des Ostwalls setzen.\n\nEs sieht so aus, als müssten wir unseren eigensinnigen Brüdern den Sozialismus auf die altmodische Weise nahebringen."
  whrpol.52.a: "Das war zu erwarten."
 
  whrpol.53.t: "Zeit zu wählen"
@@ -870,6 +866,21 @@
  whrpol.63.t: "Aufstand der Nationalregierung"
  whrpol.63.d: "Kurz nach der Gründung der Weißrussischen Autonomie kam es zu einer Katastrophe. Gerade als sich loyale Armeeeinheiten und unsere russischen Verbündeten die Hände reichen wollten, flohen Radasłaŭ Astroŭski und sein Weißrussischer Nationalrat nach Süden und organisierten eine neue Regierung. Er bezeichnete die Weißrussische Autonomie als bolschewistische Verräter und versprach, mit Deutschland zusammenzuarbeiten, um die Souveränität der Nation wiederherzustellen. Wir müssen seine Rebellion sofort beenden!"
  whrpol.63.a: "Zeit, nach Süden zu marschieren!"
+
+ whrpol.64.t: "Zentrale Rada ergreift die Macht in Weißrussland"
+ whrpol.64.d: "Als die deutsche Wirtschaft von einer schweren Wirtschaftskrise erschüttert wurde, waren die Auswirkungen auf die östlichen Satelliten des europäischen Hegemons schnell zu spüren. Weißruthenien, ein kleiner und junger Staat an der russischen Grenze, wurde bald von Instabilität erschüttert. Nach zunehmender Agitation linksradikaler Elemente im Lande griff die Armee ein und setzte die gewählte sozialdemokratische Regierung ab. Radasłaŭ Astroŭski, ein Abgeordneter der weißruthenischen Legislative, wurde zum Interimspräsidenten ernannt.\nNachdem die Reste der alten Regierung weggefegt worden waren, konsolidierte Astroŭski die Macht um eine neue Institution, die Zentrale Rada (Rat), deren Vorsitzender er ist. Weißrussland ist mit stillschweigender deutscher Unterstützung zu einem autoritären Regime geworden, dessen aufkeimende Demokratie im Keim erstickt wurde."
+ whrpol.64.a: "Sie sollten mehr Loyalität zeigen."
+ whrpol.64.b: "Ein weiterer Beweis dafür, dass der Reformismus zum Scheitern verurteilt ist."
+ whrpol.64.c: "Sie sind jetzt vor einer Revolution sicher."
+ whrpol.64.e: "Eine weitere Demokratie fällt dem Radikalismus zum Opfer."
+
+ whrpol.65.t: "Der Kryvich-Putsch"
+ whrpol.65.d: "Als die deutsche Wirtschaft von einer schweren Wirtschaftskrise erschüttert wurde, waren die Auswirkungen in den östlichen Satellitenländern des europäischen Hegemons schnell zu spüren. Weißrussland, ein kleiner und junger Staat, wurde bald von Instabilität erschüttert. Nach der zunehmenden Agitation linksradikaler Elemente im Lande griff die Armee ein und setzte die gewählte sozialdemokratische Regierung ab. Nach einem kurzen Machtkampf wurde das Vakuum von keinem Geringeren als Vacłaŭ Łastoŭski, dem Führer der nationalpopulistischen Bauernpartei \"Grüne Eiche\", gefüllt. Der Historiker und Schriftsteller Łastoŭski war maßgeblich am Kampf Weißrusslands um seine Unabhängigkeit von Russland beteiligt. Er ist zutiefst russophob und hofft, das Land vollständig von russischen Einflüssen zu befreien und die nationale Identität der Weißrussen auf der Grundlage des mittelalterlichen Stammes der Kryvich neu zu gestalten. Angesichts des wiedererstarkten Russlands scheint ein Überlebenskrieg unvermeidlich."
+ whrpol.65.a: "Perfekte Verbündete gegen die russische Bedrohung."
+ whrpol.65.b: "'Reine Slawen'? Hah!"
+ whrpol.65.c: "Ein weiterer Beweis dafür, dass der Reformismus zum Scheitern verurteilt ist."
+ whrpol.65.e: "Sie sind jetzt vor einer Revolution sicher."
+ whrpol.65.f: "Der Untergang der Demokratie bringt eine schreckliche Tyrannei hervor."
 
  whreco.1.t: "Schwarzer Montag trifft Weißrussland"
  whreco.1.d: "Die Schockwellen des Zusammenbruchs der Berliner Börse und der darauf folgenden wirtschaftlichen Turbulenzen haben alle Ecken Mitteleuropas erreicht. Die Auswirkungen auf uns waren jedoch viel geringer als auf andere Mitglieder Mitteleuropas, da unser Land industriell viel weniger entwickelt ist; wir haben den Schwarzen Montag relativ unbeschadet überstanden, obwohl wir den Schaden noch minimieren müssen, bevor die Situation eskaliert."
