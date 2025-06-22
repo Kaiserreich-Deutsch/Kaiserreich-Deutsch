@@ -133,6 +133,9 @@
  INC_closer_ties: "Engere Beziehungen"
  INC_Liberation: "Unterstützte Unseren Revolutionären Kampf"
 
+### Intro Screen ###
+ INC_guide: "§MTan Viet§! (§oTotalisten§!)\n£white_dot Schließen Sie den Schwerpunkt §YDie Nationalversammlung§! ab.\n£white_dot Haben Sie über eine Parteipopularität von über 30 % für die §oTan Viet§!, bevor der Schwerpunkt abgeschlossen ist.\n\n§MRevolutionäre Liga§! (§rSyndikalisten§!)\n£white_dot Schließen Sie den Schwerpunkt §YDie Nationalversammlung§! ab.\n£white_dot Haben Sie eine Parteipopularität von über 30 % für die §rRevolutionäre Liga§!, bevor der Schwerpunkt abgeschlossen ist.\n\n§MAspirationsgesellschaft§! (§RRadikale Sozialisten§!)\n£white_dot Schließen Sie den Schwerpunkt §YDie Nationalversammlung§! ab.\n£white_dot Die §RAspirationsgesellschaft§! wird immer zur Wahl stehen.\n\n§MVNQDD§! (§RRadikale Sozialisten§!)\n£white_dot In dem Ereignis \"Eine Indochinesische Unabhängigkeitserklärung\", wählen Sie 'Eine Gemäßigte Erklärung!' und nachdem Sie den Schwerpunkt §YAnti-Infiltrations-Kampagne§! abgeschlossen haben, wählen Sie 'Wir müssen unseren Nachrichtendienst stärken.'\n §CAnmerkung§!: Die Auswahl einer dieser Optionen hindert Sie nicht daran, diesen Weg weiter zu verfolgen, könnte jedoch dazu führen, wenn bestimmte andere Ereignisoptionen ausgewählt werden.\n£white_dot Schließen Sie den Schwerpunkt §YDie Nationalversammlung§! ab.\n£white_dot Haben Sie eine Parteipopularität von über 30 % für die §SVNQDD§! bevor der Schwerpunkt abgeschlossen ist. Wenn sie gewählt werden, wird die VNQDD zu §RRadikale Sozialisten§! und die Aspirationsgesellschaft zu §SSozialdemokraten§!, wobei sich auch ihre Parteipopularität umkehrt.\n£white_dot Wenn das Ereignis \"Sozialistische Opposition\" auftaucht, wählen Sie 'Vielleicht haben wir etwas falsch gemacht...' um einen sozialistischen Aufstand zu vermeiden.\n\n§MNationalist Martial Law§! (§aAutoritär Demokratisch§! / §PPaternal Autokratisch§!)\n£white_dot Befolgen Sie die gleichen Schritte, um die §SVNQDD§! zu wählen.\n£white_dot Schließe entweder den Schwerpunkt §YPolitische Vormundschaft§! oder §YUnternehmertum fördern§! ab, führe keinen Krieg und sorge dafür, dass entweder die §oTan Viet§!, die §rRevolutionäre Liga§! oder die §SAspirationsgesellschaft§! über 20 % Parteipopularität haben. In einem Zeitraum von 5 Monaten wird das Ereignis \"Sozialistische Opposition\" auftreten. Ignorieren Sie sie einfach.\n£white_dot Etwa zwei Monate später wird es zu einem sozialistischen Aufstand kommen. Mit einer Parteipopularität von über 40 % kann General Nguyen Binh das Kriegsrecht ausrufen.\n£white_dot Etwa einen Monat später erscheint das Ereignis \"Das Kriegsrecht beenden?\". Entscheiden Sie sich dafür, das Kriegsrecht fortzusetzen.\n£white_dot Nach einigen Tagen wird ein Ereignis eintreten, und wir können wählen, ob wir eine §azivile§! oder eine §Pmilitärische§! Regierung haben wollen."
+
 ### Events ###
  viet.0.t: "Neues Indochina!"
  viet.0.d: "Unser allgemeiner Aufstand hat einen großen Sieg errungen. Auf den Überresten des deutschen Kolonialregimes steht stolz unsere unabhängige Nation, regiert von der Vietnamesischen Nationalen Unabhängigkeitskoalition, oder Viet Minh, die Anfang dieses Jahres gegründet wurde und die Aufstände koordinierte.\n\nNguyen An Ninh wurde zum Vorsitzenden der Viet Minh gewählt. Der Verlust von tausenden Leben hat bereits bewiesen, dass das deutsche Kolonialregime nicht nachgeben wird bis zum bitteren Ende. Die Viet Minh ist entschlossen, diesen nationalen Widerstandskrieg gegen die deutschen Banditen zu führen, und das erfordert den Willen aller indochinesischen Völker - Vietnamesen, Laoten, Kambodschaner, Muong, Tay... Sich selbst zu opfern im Dienste unserer gerechten Sache.\n\n(Da Sie eine Koalitionsregierung haben, wird die Popularität Ihrer Regierung nicht von der Popularität Ihrer regierenden Partei beeinflusst)"
@@ -662,7 +665,8 @@
  viet.167.a: "Wie bedauerlich."
 
  viet.168.t: "Grüße aus [INC.GetNameDef]"
- viet.168.d: "Eine bunt zusammengewürfelte diplomatische Mission ist gerade an der Küste Fujians gelandet und in unserer Hauptstadt eingetroffen. Diese Leute kommen aus [INC.GetNameDef], einer neu entstehenden Nation, die sich gegen das Deutsche Reich auflehnt. Die indochinesische Mission bekräftigte ihre Verpflichtung zu unserer historischen Freundschaft und der gemeinsamen Aufgabe, unser Volk vom Joch des Imperialismus zu befreien. Es gelang ihnen auch, dringend benötigte Feldmedizin für uns zu schmuggeln."
+ viet.168.d.war: "Eine bunt zusammengewürfelte diplomatische Delegation ist gerade in unserer Hauptstadt eingetroffen. Diese Leute kommen aus [INC.GetNameDef], einer neu entstehenden Nation, die gegen das Deutsche Reich revoltiert. Die indochinesische Delegation bekräftigte ihr Bekenntnis zu unserer historischen Freundschaft und unserer gemeinsamen Aufgabe, unser Volk vom Joch des Imperialismus zu befreien. Außerdem gelang es ihnen, dringend benötigte Kriegsmedizin für uns zu schmuggeln."
+ viet.168.d.victory: "Ein Diplomat der neu siegreichen Indochinesischen Union ist in unserer Hauptstadt eingetroffen. Diese Leute kommen aus [INC.GetNameDef] und haben gerade eine Revolution gegen das Deutsche Reich erfolgreich durchgeführt. Die indochinesische Mission bekräftigte ihre Verpflichtung zu unserer historischen Freundschaft und der gemeinsamen Aufgabe, unser Volk vom Joch des Imperialismus zu befreien. Es gelang ihnen auch, dringend benötigte Feldmedizin für uns zu schmuggeln."
  viet.168.a: "Zusammen werden wir kämpfen."
 
  viet.169.t: "[INC.GetAdjective] Militärmission"
@@ -676,6 +680,31 @@
  viet.171.t: "Nguyen Son kehrt zurück"
  viet.171.d: "Die von General Nguyen Son geführte Militärmission hat ihren Dienst gerade beendet und ist nach Indochina zurückgekehrt. Sie haben ihre Beobachtungen über den jüngsten chinesischen Bürgerkrieg und die Reform des chinesischen Militärs mitgebracht."
  viet.171.a: "Ausgezeichnet."
+
+ viet.172.t: "Indochina erklärt seine Unabhängigkeit"
+ viet.172.d.a: "Nach dem Weltkrieg besetzte Deutschland Französisch-Indochina, doch erst als Deutschland 1926 die Revolutionäre in Südchina niederschlug, kehrte wieder Stabilität ein.\nNun haben sich indochinesische Nationalisten und Linke unter einer Koalitionsregierung namens Viet Minh gegen das Kolonialregime erhoben. Nguyen An Ninh, der Anführer der Viet Minh, erklärte die Unabhängigkeit Indochinas. Nach einer Hommage an die Internationale und die Weltrevolution verurteilte er die brutale Unterdrückung der Arbeiterklasse durch Deutschland und bekräftigte das Engagement der indochinesischen Arbeiter für den Antiimperialismus und die Befreiung der kolonialisierten Völker. Beobachter stimmen mit den deutschen Medien überein, dass es sich nur um einige schwache Bauern handelt, die von der deutschen Garnison oder sogar der Polizei leicht unterdrückt werden könnten."
+ viet.172.d.b: "Nach dem Weltkrieg besetzte Deutschland Französisch-Indochina, doch erst als Deutschland 1926 die Revolutionäre in Südchina niederschlug, kehrte wieder Stabilität ein.\nNun haben sich indochinesische Nationalisten und Linke unter einer Koalitionsregierung namens Viet Minh gegen das Kolonialregime erhoben. Nguyen An Ninh, der Anführer der Viet Minh, erklärte die Unabhängigkeit Indochinas in Saigon. Nachdem er den Widerstand der asiatischen Völker gewürdigt hatte, verurteilte er die brutale Unterdrückung der asiatischen Völker durch Deutschland und bekräftigte das Engagement der indochinesischen Völker für die Einheit Asiens.\nBeobachter stimmen mit den deutschen Medien überein, dass es sich lediglich um einige schwache Bauern handelt. Die deutschen Garnisonstruppen oder sogar die Polizei im Fernen Osten können die Viet Minh leicht unterdrücken."
+ viet.172.d.c: "Nach dem Weltkrieg besetzte Deutschland Französisch-Indochina, doch erst als Deutschland 1926 die Revolutionäre in Südchina niederschlug, kehrte wieder Stabilität ein.\nNun haben sich indochinesische Nationalisten und Linke unter einer Koalitionsregierung namens Viet Minh gegen das Kolonialregime erhoben. Nachdem er die französische Erklärung der Menschenrechte und die amerikanische Unabhängigkeitserklärung zitiert hatte, verurteilte Nguyen An Ninh, der Anführer der Viet Minh, die brutale Unterdrückung freier Menschen durch Deutschland und bekräftigte das Recht der indochinesischen Nation auf Unabhängigkeit.\nBeobachter stimmen mit den deutschen Medien überein, dass es sich nur um einige schwache Bauern handelt. Die deutschen Garnisonstruppen oder sogar die Polizei im Fernen Osten können die Viet Minh leicht unterdrücken."
+ viet.172.a: "Oh, wie sind die Mächtigen gefallen."
+ viet.172.b: "Sie sind sicherlich keine vorbildlichen Kolonialuntertanen."
+ viet.172.c: "Wo haben sie etwas über die Unabhängigkeitserklärung gelernt?"
+ viet.172.g: "Ungehorsam wird nicht toleriert."
+ viet.172.i: "Unabhängigkeit oder Tod!"
+ viet.172.j: "Wir werden das im Auge behalten."
+
+ viet.173.t: "Der Aufstand in Indochina ist erfolgreich"
+ viet.173.d: "Mit der Hartnäckigkeit und Wut der Viet Minh-Truppen, die die deutschen Truppen aus fast allen strategischen Punkten auf der indochinesischen Halbinsel vertrieben, willigte das deutsche Außenministerium schließlich ein, sich mit den Anführern der Rebellion zu treffen und bot ihnen die vollständige Unabhängigkeit für das gesamte von ihnen beanspruchte Gebiet an.\n\nSo wurde heute die Gründung von [INC.GetNameDef] von der Viet Minh bestätigt, unter dem Jubel des vietnamesischen Volkes, das gekommen war, um dieses historische Ereignis mitzuerleben. Die Zukunft des Landes ist noch ungewiss, aber Gerüchte über eine Annäherung an Bharatiya verbreiten sich allmählich über diplomatische Kanäle, während die Welt versucht, die Auswirkungen dieses Ereignisses auf Asien einzuschätzen."
+ viet.173.a: "Ein vernichtender Schlag für den Kolonialismus!"
+ viet.173.b: "Endlich unabhängig!"
+ viet.173.c: "Wir werden uns davon nie erholen."
+ viet.173.j: "Der deutsche Einfluss in Asien schwindet."
+
+ viet.174.t: "Die indochinesische Revolution wurde niedergeschlagen"
+ viet.174.d: "Trotz heftiger Guerillakämpfe der Viet Minh-Truppen ist es der deutschen Armee gelungen, den Aufstand der Viet Minh in Indochina niederzuschlagen. Die Anführer von [INC.GetNameDef], die sich nach der Evakuierung der Zentralregierung aus Saigon in der Reed-Ebene versteckt hatten, gelten nach einer gründlichen Säuberungsaktion der deutschen Truppen als tot.\n\nEs gibt jedoch auch Gerüchte, dass Anführer der Viet Minh die Grenze überquert haben und in andere Länder geflohen sind. Wie dem auch sei, der Krieg hat unauslöschliche Spuren in diesem Land hinterlassen: Tausende Dörfer wurden zerstört und Millionen Menschen haben in den erbitterten Kämpfen zwischen deutschen Truppen und Viet Minh-Guerillas ihr Zuhause verloren."
+ viet.174.a: "Wie erwartet."
+ viet.174.b: "Unsere Interessen in Asien sind gesichert. Vorerst."
+ viet.174.c: "Eine weitere Nation, die dem Imperialismus zum Opfer gefallen ist."
+ viet.174.j: "Glück. Das ist alles, was es ist!"
 
  viet.1955.t: "Neues Marionettenregime im Norden!"
  viet.1955.d: "Trotz aller Hoffnungen scheint der Krieg mit der Niederlage der Reaktionäre in Hanoi nicht beendet zu sein - entgegen jeder Logik und Erwartung haben die [From.GetAdjective] eine Kontrollzone errichtet, die nun einen großen Teil Indochinas besetzt. [From.Capital.GetCapitalVictoryPointName] hat dreist erklärt, dass die von ihnen gezogene Linie notwendig sei, um eine Sicherheitszone gegen die 'offenkundig feindliche' indochinesische Regierung zu etablieren, sehr zu unserer Verzweiflung - die einzige Erklärung ist die Vorbereitung zur Zerschlagung unserer revolutionären Bewegung.\n\nWie zu erwarten, fordern nun viele den Krieg zur Befreiung der besetzten Gebiete. Obwohl [From.GetNameDef] gerade erst die deutschen Streitkräfte in Asien besiegt hat, ist es schwer vorstellbar, dass sie gegen unsere Streitkräfte standhalten könnten, während sie an anderen Fronten beschäftigt sind, und so argumentieren die Kriegsbefürworter, dass ein Angriff so schnell wie möglich durchgeführt werden sollte. Wir müssen nur das Wort geben."
@@ -693,9 +722,6 @@
  spend_10_guerilla_blocked: "§R10§! Guerilla-Stärke"
  spend_10_guerilla_tooltip: "Es kostet $spend_10_guerilla_blocked$ um die Entscheidung zu treffen"
  INC_increase_guerilla_strength_tt: "§YGuerilla-Aktivitäten§! werden um $RIGHT|G0$ verstärkt."
- spend_5000_manpower: "£manpower_texticon §Y5000§!"
- spend_5000_manpower_blocked: "£manpower_texticon §R5000§!"
- spend_5000_manpower_tooltip: "Es kostet $spend_5000_manpower_blocked$ diese Entscheidung zu treffen"
  INC_sabotage_tonkin_decision: "Sabotage in Nordvietnam"
  INC_sabotage_annam_decision: "Sabotage in Zentralvietnam"
  INC_urban_terrorism_decision: "Städtischen Terroranschlag starten"
@@ -825,24 +851,20 @@
  INC_build_junk_fleet_tooltip: "§YDies wird uns Zugang zu Waffenhändlern im Südchinesischen Meer verschaffen§!"
  INC_smuggling_in_Siam_decision: "Waffen vom siamesischen Schwarzmarkt kaufen"
  INC_smuggling_in_Siam_decision_desc: "Die Waffenkontrolle in Siam ist schwach. Es ist für uns möglich, Waffen direkt vom siamesischen Schwarzmarkt zu kaufen. Dies könnte jedoch unerwünschte Aufmerksamkeit der siamesischen Behörden erregen..."
- INC_to_Bharatiya: "§YDies könnte helfen, eine Kommunikationslinie zu unserem treuen Freund, der Bharatiya Kommune, aufzubauen§!"
+ INC_to_Bharatiya: "§YDies könnte helfen, eine Kommunikationslinie zu unserem treuen Freund, der Bharatiya Volksrepublik, aufzubauen§!"
  INC_receive_aid_from_Bharatiya: "Hilfe von Bharatiya erhalten"
- INC_receive_aid_from_Bharatiya_desc: "Die Bharatiya Kommune hat großzügig ihre Hilfe angeboten. Wir müssen sie nur nach Indochina bringen."
+ INC_receive_aid_from_Bharatiya_desc: "Die Bharatiya Volksrepublik hat großzügig ihre Hilfe angeboten. Wir müssen sie nur nach Indochina bringen."
  INC_smuggling_in_Hongkong_decision: "Entente-Waffenüberschuss"
  INC_smuggling_in_Hongkong_decision_desc: "Große Mengen an Entente-Weltkriegswaffenüberschuss sind in Hongkong verfügbar. Es ist nicht schwer, unter Tarnung einige Waffen zu erwerben."
  INC_purchase_support_in_Hongkong_decision: "Kriegsmaterial aus Hongkong kaufen"
  INC_purchase_support_in_Hongkong_decision_desc: "Kriegsmaterial einschließlich Medizin, Funkgeräte und Fahrräder aus Hongkong erwerben."
  INC_set_up_network_in_Burma_decision: "In Burma infiltrieren"
- INC_set_up_network_in_Burma_decision_desc: "Ein Weg, um sicheren Zugang zu unserem Bruderstaat Bharatiya Kommune zu erhalten, führt durch Burma. Allerdings müssen wir uns mit verschiedenen lokalen Fraktionen auseinandersetzen..."
+ INC_set_up_network_in_Burma_decision_desc: "Ein Weg, um sicheren Zugang zu unserem Bruderstaat der Bharatiya Volksrepublik zu erhalten, führt durch Burma. Allerdings müssen wir uns mit verschiedenen lokalen Fraktionen auseinandersetzen..."
  INC_deal_with_Chinese_warlord_decision: "Mit Yunnan verhandeln"
- INC_deal_with_Chinese_warlord_decision_desc: "Ein Weg, um sicheren Zugang zu unserem Bruderstaat Bharatiya Kommune zu erhalten, führt durch Yunnan. Allerdings müssen wir uns mit dem chinesischen Kriegsherrn auseinandersetzen..."
+ INC_deal_with_Chinese_warlord_decision_desc: "Ein Weg, um sicheren Zugang zu unserem Bruderstaat der Bharatiya Volksrepublik zu erhalten, führt durch Yunnan. Allerdings müssen wir uns mit dem chinesischen Kriegsherrn auseinandersetzen..."
  INC_expand_arm_workshop_decision: "Waffenwerkstatt erweitern"
  INC_expand_arm_workshop_decision_desc: "Durch den Import notwendiger Materialien können wir die Waffenproduktionsanlagen in Saigon erweitern."
  INC_lower_trafficking_cost: "Dies wird die §YKosten§! des §YWaffenschmuggels§! senken"
-
- spend_1000_manpower: "£manpower_texticon §Y1000§!"
- spend_1000_manpower_blocked: "£manpower_texticon §R1000§!"
- spend_1000_manpower_tooltip: "Es kostet $spend_1000_manpower_blocked$ diese Entscheidung zu treffen"
 
 #Relationship with China
  #the Chinese People have always been Friends of the Indochinese People Throughout History
@@ -904,8 +926,8 @@
  #Send military advisors to Burma
  #The newly established socialist regime in Burma is reforming its army. The battle-hardened Indochinese army might be able to send some advisors to help them.
 
- #Send Volunteers to Bharatiya Commune
- #The Bharatiya Commune is in its sacred war against Indian reactionaries. We should send volunteers to help them.
+ #Send Volunteers to the Bharatiya People's Republic
+ #The Bharatiya People's Republic is in its sacred war against Indian reactionaries. We should send volunteers to help them.
 
  INC_expropriate_traitors_land_decision: "Verräterische Ländereien enteignen"
  INC_declare_dai_viet_decision: "Die Republik Dai Viet ausrufen"
@@ -1152,7 +1174,7 @@
  INC_Ask_For_Membership: "Um Phalanstère-Mitgliedschaft bitten"
  INC_Ask_For_Membership_desc: "Die Kommune von Frankreich hat das Internationale Phalanstère-Projekt gestartet. Wir sollten beitreten, um unser rückständiges Mutterland zu entwickeln und die Revolution zu fördern."
  INC_Join_East_Syndicalist_Faction: "Ostsyndikatischer Fraktion beitreten"
- INC_Join_East_Syndicalist_Faction_desc: "Unsere Beziehung zur Bharatiya Kommune ist zu einer freundschaftsähnlichen Verbindung erblüht. Lasst uns formell mit unseren Brüdern in Kalkutta vereinen und gemeinsam wie ein strahlender Lotus erblühen."
+ INC_Join_East_Syndicalist_Faction_desc: "Unsere Beziehung zur Bharatiya Volksrepublik ist zu einer freundschaftsähnlichen Verbindung erblüht. Lasst uns formell mit unseren Brüdern in Kalkutta vereinen und gemeinsam wie ein strahlender Lotus erblühen."
  INC_Join_Co_Prosperity_Sphere: "Der Co-Prosperity Sphere beitreten"
  INC_Join_Co_Prosperity_Sphere_desc: "Unsere Landsleute in Tokyo haben eine neue Organisation asiatischer Staaten gegründet, die sich der gemeinsamen Verteidigung und der Verringerung des westlichen Einflusses in der Region widmet. Während einige argumentieren mögen, dass die Organisation wenig mehr als ein Verbund japanischer Marionettenstaaten ist, können wir durch einen Beitritt die westlichen Imperialisten ein für alle Mal zurückweisen."
  INC_Seek_Support_From_Japan: "Unterstützung von Japan suchen"
@@ -1164,7 +1186,7 @@
  INC_Special_Relationship_With_France: "Besondere Beziehung mit Frankreich"
  INC_Special_Relationship_With_France_desc: "Die Kommune Frankreich, das Leuchtfeuer des Sozialismus der Welt, brachte Revolution und Befreiung nach Indochina. Die meisten indochinesischen Revolutionäre schlossen sich der Revolution in Frankreich an, und unsere gerechte Sache wurde stets von französischen Genossen unterstützt. Es ist nur vernünftig für uns, eine besondere Beziehung zur Kommune Frankreich aufzubauen."
  INC_Strengthen_Our_Tie_with_Calcutta: "Beziehungen mit Kalkutta stärken"
- INC_Strengthen_Our_Tie_with_Calcutta_desc: "Kalkutta ist das Zentrum der asiatischen Revolution, wir sollten unsere Freundschaft mit der Bharatiya Kommune festigen."
+ INC_Strengthen_Our_Tie_with_Calcutta_desc: "Kalkutta ist das Zentrum der asiatischen Revolution, wir sollten unsere Freundschaft mit der Bharatiya Volksrepublik festigen."
 
 ### Cosmetic Tags ###
  INC: "Indochina"

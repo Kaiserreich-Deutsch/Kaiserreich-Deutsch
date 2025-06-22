@@ -59,17 +59,14 @@
  HAW_plantation_support_idea: "Unterstützung der Plantagen"
  HAW_small_business_idea: "Unterstützung kleinerer Geschäfte"
  HAW_thriving_economy_idea: "Florierende Wirtschaft"
- HAW_merchant_marine_idea: "Hawaiianische Handelsflotte"
 
  HAW_the_defense_of_hawaii: "Die Verteidigung Hawaiis"
  HAW_naval_industry_idea: "Marine-Industrie"
  HAW_waves_idea: "WACs und WAVEs"
 
- HAW_entente_advisors: "Entente Berater"
- HAW_japanese_advisors: "Japanische Berater"
- HAW_german_advisors: "Deutsche Berater"
- HAW_american_advisors: "Amerikanische Berater"
- HAW_international_advisors_idea: "Syndikalistische Berater"
+ HAW_foreign_advisors: "[ROOT.HAW_GetAdvisorIdeaName]"
+ HAW_foreign_advisors_default: "[ROOT.GetFactionName] Berater"
+ HAW_foreign_advisors_fallback: "Ausländische Berater"
 
 ### Tooltips ###
  HAW_foreign_economic_advisors_tooltip: "Schaltet Entscheidung frei: £decision_icon_small §YWirtschaftliche Berater einladen§!"
@@ -85,34 +82,10 @@
 
  HAW_economic_decisions: "Wirtschaftliche Entscheidungen"
  HAW_economic_decisions_desc: "Wir sind eine kleine Inselgruppe ohne große Industrie. Wenn wir unsere Wirtschaft verbessern wollen, sollten wir in Betracht ziehen, ausländische Fachmänner nach Hawaii einzuladen, die unsere Regierung beraten und in unsere Inseln investieren könnten."
- HAW_invite_international_economic_advisors: "Internationale Wirtschaftsberater einladen"
- HAW_french_investment: "Französische Investoren einladen"
- HAW_syndie_indian_investment: "Indische Investoren einladen"
- HAW_syndie_american_investment: "Amerikanische Investoren einladen"
-
- HAW_invite_american_economic_advisors: "Amerikanische Wirtschaftsberater einladen"
- HAW_american_industrial_investment: "Amerikanische Industrieinvestoren einladen"
- HAW_american_military_investment: "Amerikanische Militärinvestoren einladen"
- HAW_american_comerical_investment: "Amerikanische Kommerzinvestoren einladen"
- HAW_american_naval_investment: "Amerikanische Marineinvestoren einladen"
-
- HAW_invite_german_economic_advisors: "Deutsche Wirtschaftsberater einladen"
- HAW_german_industrial_investment: "Deutsche Industrieinvestoren einladen"
- HAW_german_military_investment: "Deutsche Militärinvestoren einladen"
- HAW_aog_investment: "Deutsche Kommerzinvestoren einladen"
- HAW_gea_investment: "Deutsche Marineinvestoren einladen"
-
- HAW_invite_japanese_economic_advisors: "Japanische Wirtschaftsberater einladen"
- HAW_japanese_industrial_investment: "Japanische Industrieinvestoren einladen"
- HAW_japanese_military_investment: "Japanische Militärinvestoren einladen"
- HAW_japanese_comericial_investment: "Japanische Kommerzinvestoren einladen"
- HAW_japanese_naval_investment: "Japanische Marineinvestoren einladen"
-
- HAW_invite_entente_economic_advisors: "Wirtschaftsberater der Entente einladen"
- HAW_canadian_industrial_investment: "Kanadische Industrieinvestoren einladen"
- HAW_indian_investment: "Indische Investoren einladen"
- HAW_canadian_investment: "Kanadische Kommerzinvestoren einladen"
- HAW_australasian_investment: "Australasische Investoren einladen"
+ HAW_attract_industrial_investment: "[HAW_GetAdvisorDecisionAdjective]Industrielle Investitionen anziehen"
+ HAW_attract_military_investment: "[HAW_GetAdvisorDecisionAdjective]Militärische Investitionen anziehen"
+ HAW_attract_commercial_investment: "[HAW_GetAdvisorDecisionAdjective]Gewerbliche Investition anziehen"
+ HAW_attract_naval_investment: "[HAW_GetAdvisorDecisionAdjective]Marine Investition anziehen"
 
  HAW_buying_ships_decisions: "Schiffskauf"
  HAW_buying_ships_decisions_desc: "Hawaii fehlen die Produktionsmöglichkeiten für den Bau einer eigenen Flotte, welche jedoch der Schlüssel zum Schutz der Inseln ist. Deshalb sollten wir in Betracht ziehen, Schiffe von anderen Nationen zu kaufen, um eine ernstzunehmende Flotte aufzubauen und die Sicherheit unserer Heimat zu garantieren."
@@ -256,16 +229,8 @@
 ### Naval Focuses ###
  HAW_navy: "Die Flotte bewerten"
  HAW_navy_desc: "Die hawaiianische Flotte war schon immer stark von der Unterstützung der USA abhängig. Einige Loyalisten sind auf Honolulu geblieben, da ihnen der Schutz des Pazifiks wichtiger als ihre Anordnung, sich aufs Festland zurückziehen. Allerdings müssen wir die Kapazitäten unserer Flotte verbessern, wenn wir Hawaii verteidigen wollen."
- HAW_grand_navy: "Große hawaiianische Flotte"
- HAW_grand_navy_desc: "Die Große Weiße Flotte war die Spitze der amerikanischen Flottenmacht, wurde aber leider nur für imperialistische Expansion genutzt. Als souveräne Nation werden wir eine größere und bessere Flotte errichten, die auf den Schutz der Inseln und nicht den Übergriff auf andere Territorien ausgelegt ist."
  HAW_battleships: "Schlachtkreuzer-Bemühungen"
  HAW_battleships_desc: "Schlachtkreuzer sind gewissermaßen ein Mix aus schweren Schlachtschiffen und schnellen Kreuzern, weshalb es von großem Vorteil wäre, wenn in unserer Flotte einige Exemplare vorhanden wären."
- HAW_protect_our_trade: "Unseren Handel beschützen"
- HAW_protect_our_trade_desc: "Der Handel ist das Herzblut von ganz Hawaii. Wir sollten unsere Marinedoktrin darauf auslegen, diesen vor allen potenziellen Gefahren zu beschützen."
- HAW_carrier_expermints: "Flugzeugträger-Experimente"
- HAW_carrier_expermints_desc: "Flugzeugträger sind die Schiffe der Zukunft. Wenn wir in ihre Erforschung und Konstruktion investieren, könnte dies unsere Flotte immens verstärken."
- HAW_buy_cruisers: "Kreuzer kaufen"
- HAW_buy_cruisers_desc: "Leichte Kreuzer sich in Flugabwehroperation von extremer Wichtigkeit und eine effiziente Waffe gegen feindliche Zerstörer und U-Boote. Einige von ihnen in unserer Flotte zu haben würde die Verteidigung der Inseln ein wenig leichter gestalten. Da es uns jedoch an Produktionsmöglichkeiten mangelt, sollten wir uns umhören, welche Nationen bereit wären, uns ein paar ihrer Kreuzer zu verkaufen."
  HAW_destroyer_support: "Die Küstenwache ausbauen"
  HAW_destroyer_support_desc: "Die Küstenwache wiederherzustellen würde nicht nur dafür sorgen, dass der Handel effizienter vonstatten geht, sondern auch Kriminellen die Flucht über die See verweigern und dafür sorgen, dass Menschen auf dem Meer, die Hilfe benötigen, diese auch erhalten."
  HAW_naval_avaiation: "Seeflugwesen"
@@ -330,7 +295,7 @@
  HAW_rule_the_skies_desc: "Wir haben über jegliche Feinde triumphiert und kontrollieren nun die Himmel des Zentralpazifiks! Fliegt, kämpft und gewinnt!"
 
 ### Introduction ###
- HAW_guide: "§MWiederherstellung des Königreiches§! (§cSozialkonservative§! / §mMarktliberale§! / §lSozialliberale§! / §SSozialdemokraten§!)\n£white_dot Entsende die Nationalgarde oder höre die Protestierenden an, um den Generalstreik zu überstehen.\n£white_dot Entscheide dich in der Notfallsitzung dazu, das Königreich auszurufen.\n£white_dot In den Wahlen von 1940 und allen darauffolgenden werden die §SProgressive Partei§!, die §lNationalliberale Partei§!, die §mRepublikanische Partei§! und §cHui Aloha Aina§! zur Wahl stehen.\n\n§Ausrufung der Republik §! (§cSozialkonservative§! / §mMarktliberale§! / §lSozialliberale§!)\n£white_dot Entsende die Nationalgarde oder höre die Protestierenden an, um den Generalstreik zu überstehen.\n£white_dot  Entscheide dich in der Notfallsitzung dazu, eine Republik zu etablieren.\n£white_dot In den Wahlen von 1940 und allen darauffolgenden werden die §lNationalliberale Partei§!, die §mRepublikanische Partei§! und §cHui Aloha Aina§! zur Wahl stehen.\n\n§MAnnexion durch die Vereinigten Staaten / die Pazifik-Staaten§!\n£white_dot Entsende die Nationalgarde oder höre die Protestierenden an, um den Generalstreik zu überstehen.\n£white_dot Entscheide dich in der Notfallsitzung dazu, wieder ein Teil Amerikas zu werden. Sollten die Pazifik-Staaten existieren, so wird Hawaii von ihnen annektiert, ansonsten von den Vereinigten Staaten.\n\n§MEine erfolgreiche Revolution§! (§RRadikale Sozialisten§! / §rSyndikalisten§! / §oTotalisten§!)\n£white_dot Ignoriere den Generalstreik, entsende die Polizei nach Honolulu und lasse die Protestierenden die daraus resultierenden Ausschreitungen gewinnen.\n£white_dot In den Wahlen von 1940 und allen darauffolgenden werden die §oRevolutionäre Partei Hawaiis§!, der §rHawaiianische Arbeiterverband§! und die §RSozialistische Partei Hawaiis§! zur Wahl stehen.\n\n§MAußenpolitik§!\n§MOstasiatische Wohlstandssphäre§! / §MReichspakt§! / §MEntente§!\n£white_dot Durch die Wiederherstellung des Königreiches oder die Etablierung einer Republik werden Entscheidungen zum Beitritt der genannten Bündnisse verfügbar.\n\n§MDie Dritte Internationale§!\n£white_dot Nach erfolgreicher Revolution wird eine Entscheidung erscheinen, welche es Hawaii ermöglicht, der Internationale beizutreten."
+ HAW_guide: "§MWiederherstellung des Königreiches§! (§cSozialkonservative§! / §mMarktliberale§! / §lSozialliberale§! / §SSozialdemokraten§!)\n£white_dot Entsende die Nationalgarde oder höre die Protestierenden an, um den Generalstreik zu überstehen.\n£white_dot Entscheide dich in der Notfallsitzung dazu, das Königreich auszurufen.\n£white_dot In den Wahlen von 1940 und allen darauffolgenden werden die §SProgressive Partei§!, die §lNationalliberale Partei§!, die §mRepublikanische Partei§! und §cHui Aloha Aina§! zur Wahl stehen.\n\n§Ausrufung der Republik §! (§cSozialkonservative§! / §mMarktliberale§! / §lSozialliberale§!)\n£white_dot Entsende die Nationalgarde oder höre die Protestierenden an, um den Generalstreik zu überstehen.\n£white_dot  Entscheide dich in der Notfallsitzung dazu, eine Republik zu etablieren.\n£white_dot In den Wahlen von 1940 und allen darauffolgenden werden die §lNationalliberale Partei§!, die §mRepublikanische Partei§! und §cHui Aloha Aina§! zur Wahl stehen.\n\n§MAnnexion durch die Vereinigten Staaten / die Konstitutionelle Koalition§!\n£white_dot Entsende die Nationalgarde oder höre die Protestierenden an, um den Generalstreik zu überstehen.\n£white_dot Entscheide dich in der Notfallsitzung dazu, wieder ein Teil Amerikas zu werden. Sollte die Konstitutionelle Koalition existieren, so wird Hawaii von ihnen annektiert, ansonsten von den Vereinigten Staaten.\n\n§MEine erfolgreiche Revolution§! (§RRadikale Sozialisten§! / §rSyndikalisten§! / §oTotalisten§!)\n£white_dot Ignoriere den Generalstreik, entsende die Polizei nach Honolulu und lasse die Protestierenden die daraus resultierenden Ausschreitungen gewinnen.\n£white_dot In den Wahlen von 1940 und allen darauffolgenden werden die §oRevolutionäre Partei Hawaiis§!, der §rHawaiianische Arbeiterverband§! und die §RSozialistische Partei Hawaiis§! zur Wahl stehen.\n\n§MAußenpolitik§!\n§MOstasiatische Wohlstandssphäre§! / §MReichspakt§! / §MEntente§!\n£white_dot Durch die Wiederherstellung des Königreiches oder die Etablierung einer Republik werden Entscheidungen zum Beitritt der genannten Bündnisse verfügbar.\n\n§MDie Dritte Internationale§!\n£white_dot Nach erfolgreicher Revolution wird eine Entscheidung erscheinen, welche es Hawaii ermöglicht, der Internationale beizutreten."
 
 ### Events ###
  hawaii.1.t: "Hawaii startet eine Revolte"
@@ -473,7 +438,7 @@
  hawaii.62.b: "Traditionell-Hawaiianische Kunst."
 
  hawaii.63.t: "Amerikanische Kommunarden integrieren"
- hawaii.63.d: "Die Ursprünge der hawaiianischem Kommune liegen in den Planungshallen Kaliforniens, von wo aus Hafenarbeiter und Gewerkschaftler von 'Dole Fruit' auf unsere Inseln kamen. Diese wichtige Bindung zum Festland der Vereinigten Staaten hat es uns erlaubt, Bürokraten und Arbeitsoganisatoren nach Hawaii zu bringen, um besser wahren Sozialismus erreichen zu können. In den letzten Monaten gab es allerdings immer wieder Uneinigkeiten zwischen den Neuankömmlingen und den langjährigen Bewohnern Hawaiis. Die neuen Minister wissen weniger über Schiffsbau und Landwirtschaft und benutzen ihr Gehalt, um teure Gegenstände vom Festland zu importieren. Dies könnte man normalerweise zwar ignorieren, unsere fanatisch-egalitäre Gesellschaft beginnt jedoch damit, einen Groll gegen sie zu hegen. Viele Männer und Frauen bitten nun um 'entspannte Schreibtisch-Jobs', als Belohnung für ihre monatelange Geduld in der neuen Kommune. Wie werden wir antworten?"
+ hawaii.63.d: "Die Ursprünge der hawaiianischem Kommune liegen in den Planungshallen Kaliforniens, von wo aus Hafenarbeiter und Gewerkschaftler von 'Dole Fruit' auf unsere Inseln kamen. Diese wichtige Bindung zum Festland der Vereinigten Staaten hat es uns erlaubt, Bürokraten und Arbeitsoganisatoren nach Hawaii zu bringen, um besser wahren Sozialismus erreichen zu können. In den letzten Monaten gab es allerdings immer wieder Uneinigkeiten zwischen den Neuankömmlingen und den langjährigen Bewohnern Hawaiis. Die neuen Minister wissen weniger über Schiffsbau und Landwirtschaft und benutzen ihr Gehalt, um teure Gegenstände vom Festland zu importieren. Dies könnte man normalerweise zwar ignorieren, unsere fanatisch-egalitäre Gesellschaft beginnt jedoch damit, einen Groll gegen sie zu hegen. Viele Männer und Frauen bitten nun um \"entspannte Schreibtisch-Jobs\", als Belohnung für ihre monatelange Geduld in der neuen Kommune. Wie werden wir antworten?"
  hawaii.63.a: "Nein! Ihr wusstet, worauf ihr euch einlassen würdet!"
  hawaii.63.b: "In Ordnung, ihr könnt die Jobs haben."
 
@@ -482,7 +447,6 @@
  hawaii.64.a: "Revolutionäre Partei Hawaiis."
  hawaii.64.b: "Hawaiianischer Arbeiterverband."
  hawaii.64.c: "Sozialistische Partei Hawaiis."
- hawaii.64.e: "Progressive Partei."
 
 ### Foreign Events ###
 
@@ -694,6 +658,3 @@
  HAW_andrew_moses_theorist_desc: "§YGeboren:§! §L6. Juni 1874, in Burnet, Texas, Vereinigte Staaten von Amerika§!"
  HAW_millard_fillmore_harmon_jr: "Millard Fillmore Harmon Jr."
  HAW_millard_fillmore_harmon_jr_theorist_desc: "§YGeboren:§! §L19. Januar 1888, in Fort Mason, Kalifornien, Vereinigte Staaten von Amerika§!"
-
- HAW_barney_hajiro: "Barney Fushimi Hajiro"
- HAW_barney_hajiro_commander_desc: "§YGeboren:§! §L16. September 1916 im Territorium von Hawaii, Vereinigte Staaten von Amerika§!\n§YHintergrund:§! §LBarney Fushimi Hajiro wurde in eine Familie japanischer Immigranten auf Hawaii geboren und trat 1934 der Armee bei. Seitdem schnitt er in den meisten Offiziers-kursen überdurchschnittlich ab. Durch den Amerikanischen Bürgerkrieg entstand auf Hawaii gewissermaßen ein Notstand an fähigen Offizieren, weshalb Hajiro zum General ernannt wurde. Obwohl er ein durchaus fähiger Offizier ist, trägt er zu viel verantwortung und besitzt zu viel Macht für einen Mann mit solch geringer Erfahrung und es ist unsicher, ob er mit den anderen Generälen ewig Schritt halten kann...§!\n\n§YWichtige Anmerkungen: Hegt einen Groll gegen Emmons, da dieser der japanisch-amerikanischen Bevölkerung Hawaiis feindlich gesinnt ist.§!"

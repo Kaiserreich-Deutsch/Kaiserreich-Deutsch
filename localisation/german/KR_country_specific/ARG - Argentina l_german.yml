@@ -43,7 +43,6 @@
  ARG_deisions_grant_steel_tooltip: "§6Schaltet Entscheidungen frei, um unsere £GFX_steel_texticon §GStahl§! und £GFX_tungsten_texticon §GWolfram§! Produktion zu erhöhen§!"
  ARG_deisions_grant_oil_tooltip: "§6Schaltet Entscheidungen frei, um unsere £GFX_fuel_texticon §GÖl§! Produktion zu erhöhen§!"
  ARG_decisions_grant_factories_tooltip: "§GSchaltet Entscheidungen frei, um neue zivile Fabriken zu errichten§!"
- ARG_decisions_grant_infrastructure_tooltip: "§OSchaltet Entscheidungen frei, um Infrastruktur auszubauen§!"
  ARG_decisions_grant_state_slots_tooltip: "§gSchaltet Entscheidungen frei, um die Staatskategorie zu erhöhen, wodurch die Anzahl verfügbarer Bauplätze steigt§!"
  ARG_attract_foreign_arms_manufacturers_tt: "§gSchaltet ausländische Militärausrüstungshersteller frei:\n - §Y$argentina_mauser$§!;\n - §Y$argentina_fokker$§!;\n - §Y$argentina_focke_wulf$§!;\n - §Y$argentina_krupp$§!.§!"
  ARG_rosario_is_taken: "§YRosario ist gefallen§!"
@@ -109,13 +108,10 @@
  argentina_manufacture_saint_etienne: "MAS Argentina"
 
 ### Ideas ###
- ARG_Pacification_Campaign: "Kreuzzug gegen den Syndikalismus"
  ARG_Military_Apparatus_idea: "Nachwehen des Weihnachtsputsches"
  ARG_Black_Monday_idea: "Auswirkungen des Schwarzen Montags"
  ARG_Black_Monday4: "Abschwung gestoppt"
  ARG_Engines_of_War: "Kriegsmaschinen"
- ARG_Engines_of_War2: "Kriegsmaschinen"
- ARG_Engines_of_War3: "Kriegsmaschinen"
  ARG_budget_cuts_idea: "Harte Budgetkürzungen"
  ARG_Black_Monday_AUT: "Wiederbelebte Wirtschaft"
  ARG_Black_Monday_GER1: "Exportorientierte Erholung"
@@ -149,7 +145,6 @@
  ARG_shared_war_plans: "Kriegsvorbereitungen"
  ARG_Reparations: "Schwere Kriegsreparationen"
  ARG_economic_dominance_in_south_america_idea: "Argentinische Wirtschaftsdominanz"
- ARG_Merchant_Marine: "Handelsmarine"
  ARG_Argentine_Tiger: "Der Argentinische Tiger Brüllt!"
  ARG_Autarky: "Streben nach Autarkie"
 
@@ -158,7 +153,6 @@
  ARG_Modern_Infantry_Tactics_Idea: "Moderne Infanterietaktiken"
  ARG_Doctrinal_Innovation_Idea: "Mobile Taktiken"
  ARG_Pilots_training_idea: "Pilotenausbildung"
- ARG_Foreign_Tech: "Ausländische Technologiestudien"
  ARG_Military_Cliques: "Militärische Cliquen"
 
  ARG_interservice_rivalry_army_dominant: "Rivalität zwischen den Teilstreitkräften - Heer dominant"
@@ -181,7 +175,6 @@
  ARG_Safeguarding_Democracy: "Demokratie schützen"
  argentina_krupp: "Krupp Argentina"
 
- ARG_cheaper_guns_against_fop: "Notfall-Gewehrproduktion"
  ARG_upgrade_current_army_idea: "Aktuelle Armeevorstellung verbessern:"
  ARG_border_fortifications_tooltip: "§7Errichte 1 £GFX_land_fort_texticon §Y$bunker$§! in jeder Provinz auf unserer Seite des Río Negro§!"
  ARG_coastal_fortifications_tooltip: "§6Errichte 2 £GFX_coastal_fort_texticon §Y$coastal_bunker_plural$§! und 2 £GFX_land_fort_texticon §Y$bunker_plural$§! in jeder Kernprovinz mit Marinebasis§!"
@@ -278,8 +271,6 @@
  ARG_Reduce_Textile_Reliance_desc: "Wir haben uns jahrzehntelang auf unsere Agrar- und Textilprodukte verlassen, aber der Wettbewerb mit anderen Nationen ist härter geworden, was uns zwingt, die Industrie zu modernisieren und die Wirtschaft zu diversifizieren."
  ARG_Renegotiate_with_Mitteleuropa: "Neuverhandlungen mit unseren Handelspartnern"
  ARG_Renegotiate_with_Mitteleuropa_desc: "Harte Bedingungen wurden von unseren Handelspartnern vorgelegt, aber wir haben keine andere Wahl als zu akzeptieren, wenn wir unsere Wirtschaft am Leben erhalten wollen."
- ARG_TAMET_Steel: "TAMET Stahl"
- ARG_TAMET_Steel_desc: "Der Mangel an europäischem Stahl schadet unserer Wirtschaft erheblich und benötigt schnelles Eingreifen, wenn wir unsere Kriegsmaschinerie aufrechterhalten wollen. Vor diesem Hintergrund haben wir beschlossen, in 'Talleres Metalurgicos' zu investieren, die uns bessere Möglichkeiten der Stahlnutzung und einige lokale Stahlwerke zur Verfügung stellen werden."
  ARG_Budget_Cuts: "Haushaltskürzungen"
  ARG_Budget_Cuts_desc: "Der Schwarze Montag lähmt unsere Wirtschaft schwer, und leider können wir ihn ohne Haushaltskürzungen nicht überwinden. Sozialleistungen und Armeeförderung müssen reduziert werden, bis die Wirtschaft stabil genug ist, um sie zu tragen."
  ARG_Parana_Infrastructure_Plan: "Eisenbahn-Ausbauprogramm"
@@ -345,16 +336,12 @@
  ARG_Cooperate_with_Peru_desc: "Um einen für beide Seiten vorteilhaften Pakt zwischen unseren beiden Nationen zu gewährleisten, sollten wir ein Verteidigungsbündnis schließen, in dem wir uns gegenseitig schützen, falls der Krieg unsere Küsten erreicht."
  ARG_Bolivian_Negotiations: "Bolivianische Verhandlungen"
  ARG_Bolivian_Negotiations_desc: "Nach ihrer demütigenden Niederlage im Chacokrieg ist Bolivien mehr als begierig darauf, ihre Gebiete von Paraguay zurückzuerobern, was uns nützlich sein könnte, sollten diese Verbrecher uns angreifen, während wir anderweitig beschäftigt sind."
- ARG_Fleet_Exercises: "Flottenmanöver"
- ARG_Fleet_Exercises_desc: "Sorgfältige Positionierung und Sicherung unserer Nachschublinien werden sich als entscheidend erweisen, wenn wir mit der chilenischen Marine aneinandergeraten."
  ARG_Strike_Now: "Jetzt zuschlagen!"
  ARG_Strike_Now_desc: "Alle Diplomatie ist gescheitert, der Moment zum Zuschlagen ist gekommen!"
  ARG_Reintegrate_Patagonia: "Patagonien wiedereingliedern"
  ARG_Reintegrate_Patagonia_desc: "Die patagonische Rebellion ist endlich niedergeschlagen und die Wiedereingliederung ihrer Gebiete wird sich als heikle Aufgabe für unsere Regierung erweisen. Während die patagonische Bevölkerung völlig erschöpft ist, wird sie uns weiterhin ein Dorn im Auge sein, wenn wir keine drastischen Maßnahmen ergreifen."
  ARG_Infrastructural_Expansion: "Infrastrukturelle Expansion"
  ARG_Infrastructural_Expansion_desc: "Um die Beziehungen zu den südlichen Provinzen zu verbessern und sie an unser Schienennetz anzubinden, haben wir Pläne für eine umfassende Modernisierung der Infrastruktur dieser unterentwickelten Region."
- ARG_Drill_for_Oil: "Ölbohrungen durchführen"
- ARG_Drill_for_Oil_desc: "Unter der Führung der YPF sollen in der Region große Bohroperationen begonnen werden, um einen stetigen Fluss des schwarzen Goldes zur Versorgung unserer Kriegsmaschinerie sicherzustellen."
  ARG_From_Shore_to_Shining_Shore: "Von Küste zu glänzender Küste"
  ARG_From_Shore_to_Shining_Shore_desc: "Vom Atlantik bis zum Pazifik stehen unsere Armeen überlegen. Wie San Martin vor unserer Zeit haben wir die Anden überquert und unserem Feind den Todesstoß versetzt. Dies ist wahrhaftig ein großer Tag für Argentinien und damit für die Welt!"
  ARG_Eradicate_Syndicalist_Insurgents: "Syndikalistische Aufständische ausrotten"
@@ -428,11 +415,6 @@
  ARG_Refuge_for_Italian_Scientists: "Zuflucht für italienische Wissenschaftler"
  ARG_Refuge_for_Italian_Scientists_desc: "Überall in Italien verlassen Flüchtlinge der Kriege ihre Heimat auf der Suche nach einer besseren Zukunft. Unter ihnen befinden sich einige der besten Intellektuellen und Wissenschaftler Italiens, die überzeugt werden könnten, sich in unserem Land niederzulassen."
 
- ARG_America_Plan: "Amerika-Plan"
- ARG_America_Plan_desc: "Allein werden wir nicht überleben können und da Deutschland und die Entente sich immer näher an einen globalen Krieg herantasten, müssen wir bessere Beziehungen zu den amerikanischen Mächten aufbauen. Einigkeit macht stark!"
- ARG_Purge_in_the_name_of_the_Lord: "Säuberung im Namen des Herrn"
- ARG_Purge_in_the_name_of_the_Lord_desc: "Wir müssen alle Elemente ausmerzen, die sich bei unserer Kontrolle über die neuen Gebiete als problematisch erweisen könnten, angefangen bei den gottlosen Sozialisten."
-
  ARG_Rapid_Militarisation: "Schnelle Militarisierung"
  ARG_Rapid_Militarisation_desc: "Nach Carlés' Putsch war das Militär im Chaos. Jetzt, da wir das Land wieder unter Kontrolle haben, müssen wir schnell unsere militärischen Fähigkeiten wieder aufbauen. Wenn wir es nicht schaffen, unsere einst ruhmreiche Armee wieder aufzubauen, könnten unsere Nachbarn annehmen, dass sie rechtmäßiges argentinisches Territorium übernehmen können."
  ARG_Eradicate_Military_Cliques: "Militärcliquen ausmerzen"
@@ -475,16 +457,10 @@
  ARG_Special_Forces_Jungles: "Dschungelkampfausbildung"
  ARG_Special_Forces_Jungles_desc: "Da Dschungel einen großen Teil Südamerikas bedecken, sollte unsere Infanterie für den Dschungelkampf ausgebildet werden, um für den Ernstfall gerüstet zu sein."
 
- ARG_Centralised_Infrastructure_Committee: "Zentralkomitee für Infrastruktur"
- ARG_Centralised_Infrastructure_Committee_desc: "Durch die Schaffung eines zentralisierten Komitees für Infrastruktur werden wir in der Lage sein, unsere Luftfahrtinfrastruktur effizienter aufzubauen."
- ARG_Land_Based_AA: "Landgestützte Flugabwehr"
- ARG_Land_Based_AA_desc: "Wenn feindliche Bomber in den argentinischen Luftraum eindringen wollen, werden wir sie mit großkalibrigen landgestützten Flugabwehrwaffen begrüßen."
  ARG_Republican_Airforce: "Republikanische Luftstreitkräfte"
  ARG_Republican_Airforce_desc: "Früher flogen nur Vögel über Argentinien. Mit dem Weltkrieg hat sich das Flugzeug als wichtiges militärisches Instrument erwiesen. Um die Kontrolle über den Himmel über Argentinien zu erlangen, müssen wir die FAA, die 'Fuerzas Aerea Argentina', fördern. Obwohl sie dem Heer zunächst untergeordnet bleibt, hoffen wir, sie genauso stark zu machen wie unsere derzeitige Armee und Marine."
  ARG_Rain_Down_Hellfire: "Hölle vom Himmel"
  ARG_Rain_Down_Hellfire_desc: "Das Flugzeug ermöglicht nicht nur Freizeitflüge über die Anden, sondern auch das tiefe Eindringen in feindliches Gebiet. Durch den Bau großer Bomber, die eine große Bombenlast tragen können, können wir wichtige feindliche Infrastruktur aus der Luft beschädigen und zerstören."
- ARG_Strategic_Destruction: "Flächenbombardements"
- ARG_Strategic_Destruction_desc: "Ein einzelner Bomber kann eine Eisenbahnlinie beschädigen, aber eine konzentrierte Bomberwelle wird den gesamten Eisenbahnknotenpunkt zerstören. Durch das Bombardieren einer großen Fläche mit einer Bomberformation können wir dem Feind entscheidenden Schaden zufügen."
  ARG_Figther_Focus: "Jägerfokus"
  ARG_Figther_Focus_desc: "Unsere Bomber können feindliche Infrastruktur bombardieren, aber der Feind kann auch unsere bombardieren. Wir müssen fortschrittlichere Jäger entwickeln, um feindliche Luftformationen abzufangen und zu zerstören."
  ARG_CAS_Focus: "Luftnahunterstützung"
@@ -518,14 +494,8 @@
  ARG_Carriers_desc: "Flugzeuge haben in den letzten Jahrzehnten an Bedeutung gewonnen, das können wir nicht leugnen. Während wir uns schwer tun werden, mit den führenden Seemächten der Welt mitzuhalten, könnten wir unseren Mangel an Stärke durch Flugzeuge ausgleichen, die die Chancen einer Seeschlacht zu unseren Gunsten wenden könnten."
  ARG_Tandanor_Shipyards: "Ausbau der Talleres Navales de la Marina"
  ARG_Tandanor_Shipyards_desc: "Die zunehmenden Spannungen mit den anderen Seemächten Südamerikas und die Notwendigkeit, wettbewerbsfähig zu bleiben, haben uns gezwungen, eine Erweiterung unserer Werften in Betracht zu ziehen, und wer wäre dafür besser geeignet als die Talleres Navales de la Marina?"
- ARG_Cruiser_Program: "Kreuzerprogramm"
- ARG_Cruiser_Program_desc: "Unsere Schlachtschiffe mögen zwar mächtig sein, aber sie brauchen auch starke Begleitschiffe. Zu diesem Zweck haben wir beschlossen, in ein Kreuzerprogramm zu investieren, um unsere derzeitigen zu verbessern."
  ARG_Fleet_Movements: "Flottenbewegungen"
  ARG_Fleet_Movements_desc: "Es reicht nicht aus, dass wir eine schnelle, robuste und starke Marine haben, wenn unsere Offiziere nicht wissen, wie sie die Fähigkeiten ihrer Schiffe nutzen können. Wir werden unsere Offiziere mit diesen Schiffen auf See schicken und Marinemanöver durchführen."
- ARG_Expand_the_Docks: "Ausbau der Häfen"
- ARG_Expand_the_Docks_desc: "Unsere Häfen, obwohl für ein südamerikanisches Land beeindruckend, reichen für unsere Ambitionen nicht mehr aus! Wenn wir die anderen Mächte der Welt übertreffen wollen, ist ein Ausbau unserer Häfen notwendig."
- #ARG_Merchant_Marine: "Merchant Marine" already defined above as an idea
- ARG_Merchant_Marine_desc: "Während Argentinier stolz auf ihre Kriegsmarine sind, ist der wichtigste Zweig nicht die militärische Marine, sondern die Handelsmarine. Ohne sie wären wir von der Welt isoliert, die unsere Produkte mit offenen Armen erwartet und die dieses Land groß gemacht hat. Eine Investition in die Handelsmarine ist erforderlich."
  ARG_Land_Fortifications: "Schutz der Küste"
  ARG_Land_Fortifications_desc: "Unsere drei wichtigsten Hafenstädte, Buenos Aires, Mar del Plata und Bahia Blanca sind derzeit ungeschützt gegen eine Seeinvasion, falls unsere Feinde unsere Flotte binden oder zerstören sollten. Um uns gegen diese Möglichkeit zu schützen, haben wir beschlossen, uns auf starke Befestigungen in den Städten und einige leichte Befestigungen entlang der Küste zu konzentrieren."
  ARG_Comando_de_Infanteria_de_Marina: "Comando de Infanteria de Marina"
@@ -538,8 +508,6 @@
  ARG_Naval_Academy_desc: "Erweiterte Kurse für Marineoffiziere sollten unserer Flotte Vorteile verschaffen, besonders bei Operationen in heimischen Gewässern."
  ARG_Navy_Technologies_Breakthrough: "Neue Schiffsausrüstung"
  ARG_Navy_Technologies_Breakthrough_desc: "Neue Schiffe werden ohne neue Geschütze, Torpedos, Minen und andere wichtige Module nicht effektiv genug sein. Unsere Ingenieure konzentrieren sich darauf, bestehende Ausrüstung zu verbessern und neue zu entwickeln."
- ARG_Rule_Britannia_Britannia_Rules_the_Waves: "Irse a Pique Antes que Rendir el Pabellón!"
- ARG_Rule_Britannia_Britannia_Rules_the_Waves_desc: "'Wir gehen lieber unter, als unsere Flagge zu streichen!' war der Schlachtruf von Admiral Guillermo Brown vor dem Kampf in der Schlacht von Quilmes 1826 gegen die brasilianische Marine. Unsere Marine soll seinen patriotischen Geist widerspiegeln, und jede Besatzung wird alles geben, bevor sie unser Land dem Feind übergibt!"
 
 #Decisions
  ARG_infrastructure_decisions: "Fünfjahresplan"
@@ -581,9 +549,6 @@
  ARG_buy_support_equipment: "Unterstützungsausrüstung aus Deutschland kaufen"
  ARG_buy_artillery: "Zwischenkriegsartillerie aus Deutschland kaufen"
 
- ARG_raise_emergency_divisions: "Die Reserven mobilisieren"
- ARG_get_guns: "Notfallgewehrproduktion"
-
  ARG_integrate_state_decision: "[ARG_integrate_state_decision_scripted_loc]"
  ARG_integrate_state_decision_desc: "[ARG_integrate_state_decision_scripted_loc_desc]"
 
@@ -609,16 +574,10 @@
  ARG_YPF_expansion_dec_ARG: "Erweitere YPF-Betriebe in [FROM.GetName]"
  ARG_YPF_expansion_dec_FOP: "Erweitere Ölförderung in [FROM.GetName]"
  ARG_expand_local_infrastructure_tier1: "Erweitere lokale Straßen in [FROM.GetName]"
- ARG_expand_local_infrastructure_tier2: "Weitere Infrastrukturerweiterung in [FROM.GetName]"
- ARG_Santiago_del_Estero_preliminary_excavation_studies: "Wolfram-Abbauuntersuchungen in Santiago del Estero"
  ARG_local_tungsten_extraction_in_Santiago_del_Estero: "Erweitere Wolframabbau in [FROM.GetName]"
- ARG_PRU_preliminary_excavation_studies_1: "Wolfram-Abbauuntersuchungen in Potosi"
- ARG_PRU_preliminary_excavation_studies_2: "Wolframabbau-Studien in La Paz"
  ARG_PRU_local_tungsten_extraction: "Wolframabbau in [FROM.GetName] erweitern"
- ARG_Ancidar_preliminary_excavation_studies: "Vorläufige Abbau-Studien in Cordoba"
  ARG_Coal_Mining: "Kohlebergbau erweitern"
  ARG_Found_Acindar: "Acindar gründen"
- ARG_Patagonia_preliminary_excavation_studies: "Vorläufige Abbau-Studien in Patagonien"
  ARG_iron_mining_in_Patagonia: "Eisenerzabbau in Patagonien erweitern"
 
 # Buenos Aires - Lima Axis
@@ -673,12 +632,6 @@
  ARG_FOP_our_defection_tooltip: "§OEin kleiner Prozentsatz der §Y[FROM.GetAdjective]§! Einheiten läuft zum Feind über!§!"
  ARG_FOP_enemy_defection_tooltip: "§7Einige Einheiten von §Y[FROM.GetNameWithFlag]§! laufen zu §Y[ROOT.GetNameWithFlag]§! über!§!"
 
- arg_chl_war.121.t: "Zusammenbruch der Armee"
- arg_chl_war.121.d: "Die katastrophale Niederlage im Südkegel-Krieg verursacht enorme Probleme innerhalb des Militärs - Männer desertieren und die Moral unter den verbliebenen Streitkräften ist äußerst schlecht."
- arg_chl_war.121.a: "Wir sind dem Untergang geweiht..."
-
- ARG_losing_war: "Zusammenbruch der Armee"
-
 #Events
 ## Military ##
  argmil.10.t: "Mangelnde Finanzierung der Marine"
@@ -718,33 +671,6 @@
  argmil.24.a: "Hoffen wir, dass dies nicht zur Gewohnheit wird."
 
 ## War in the Southern Cone ##
- southern.4.t: "Intervention im Argentinisch-Chilenischen Krieg?"
- southern.4.d: "Argentinien hat den Argentinisch-Chilenischen Krieg durch die Invasion der FOP-Rebellen in Patagonien ausgelöst. Da sie im Süden mit den Aufständischen beschäftigt sind, bietet sich uns die perfekte Gelegenheit, den Chaco Austral zurückzuerobern!"
- southern.4.a: "Angriff!"
- southern.4.b: "Wir sollten Argentinien lieber nicht verärgern."
-
- southern.5.t: "Paraguay greift an!"
- southern.5.d: "Die dreckigen paraguayischen Hunde haben ihre Chance gewittert und beschlossen, uns hinterrücks anzugreifen, um den Chaco Austral zurückzuerobern!"
- southern.5.a: "Schakale!"
-
- southern.6.t: "Intervention im Argentinisch-Paraguayischen Krieg?"
- southern.6.d: "Argentinien hat den Argentinisch-Chilenischen Krieg durch die Invasion der FOP-Rebellen in Patagonien ausgelöst, worauf umgehend eine Kriegserklärung der Paraguayer folgte. Da sie wissen, dass wir Ansprüche auf verschiedene Gebiete Paraguays und Chiles erheben, haben sie uns gebeten, sie im Kampf zu unterstützen und uns im Falle eines Sieges unserer Allianz mit unseren beanspruchten Gebieten zu belohnen."
- southern.6.a: "Paraguay angreifen!"
- southern.6.b: "Wir werden Paraguay UND Chile angreifen!"
- southern.6.c: "Wir suchen keinen Konflikt."
-
- southern.7.t: "Bolivien tritt auf unserer Seite bei!"
- southern.7.d: "Um uns im Kampf gegen die verabscheuungswürdigen Syndikalisten und ihre roten Handlanger in Chile zu unterstützen, hat Bolivien einigen unserer Feinde ebenfalls den Krieg erklärt und ihre volle Unterstützung für unsere Sache zugesagt."
- southern.7.a: "Hurra!"
-
- BOL_enemies_text_both: "$BOL_enemies_text_CHL$ und $BOL_enemies_text_PAR$"
- BOL_enemies_text_CHL: "[CHL.GetNonIdeologyName] und [PAR.GetNonIdeologyName]"
- BOL_enemies_text_PAR: "[CHL.GetNonIdeologyName] und [PAR.GetNonIdeologyName]"
-
- southern.8.t: "Bolivien bleibt neutral"
- southern.8.d: "Aus Angst, nach ihrer demütigenden Niederlage einen weiteren Krieg gegen die kleine Nation Paraguay zu verlieren, hat Bolivien seine Neutralität in dem Konflikt erklärt und sich verpflichtet, keine der beiden Seiten zu unterstützen."
- southern.8.a: "Höchst bedauerlich!"
-
  #for ARG:
  southern.10.t: "Frieden mit Paraguay?"
  southern.10.d: "Gestern haben unsere Truppen endlich Asunción eingenommen und die paraguayischen Verteidiger zum Rückzug gezwungen, demoralisiert und gebrochen. Während sie schwören, den Kampf bis zum bitteren Ende fortzusetzen, wenn sie müssen, würden sie einen nachsichtigen Friedensvertrag nicht ablehnen. So schmerzlich es auch sein mag, wir könnten jetzt einen Waffenstillstand mit ihnen schließen ohne Grenzänderungen - auch wenn diese Vereinbarung nur dazu dient, uns mit der syndikalistischen Bedrohung im Süden zu befassen. Täuschen wir uns nicht, es verschafft ihnen nur Zeit, nichts weiter."
@@ -808,19 +734,6 @@
  argfor.3.t: "Peru Verweigert die Hilfe"
  argfor.3.d: "Die peruanische Regierung hat angekündigt, dass sie unseren Vorschlag nicht unterstützen wird und weitere Gespräche abgelehnt hat."
  argfor.3.a: "Dann machen wir es eben ohne sie!"
-
- argfor.4.t: "Argentinien Ersucht um Unterstützung"
- argfor.4.d: "In einer unvermeidlichen Konfrontation mit der FOP in Patagonien verstrickt, ist Argentinien entschlossen, die rote Bedrohung so schnell wie möglich vom Kontinent zu vertreiben. Um dies zu erreichen, bitten sie uns um Unterstützung im Kampf, da Chile sich auf die Seite der FOP stellen wird. Dies gibt uns die Gelegenheit, die Küste zurückzuerobern, die wir so begehren, und das chilenische Volk in die Schranken zu weisen. Die Spannungen mit Argentinien sind jedoch noch nicht vollständig gelöst, und die Region Yacuiba könnte als Argument genutzt werden, sollten wir für die argentinische Expansion nicht mehr von Nutzen sein."
- argfor.4.a: "Der Unterstützung zustimmen."
- argfor.4.b: "Das Angebot ablehnen."
-
- argfor.5.t: "Bolivien Greift Ein!"
- argfor.5.d: "Die bolivianische Regierung hat ihre Unterstützung für unsere Offensive gegen das chilenische Volk angekündigt und versprochen, unsere paraguayische Flanke zu verteidigen, während wir uns auf den Süden konzentrieren."
- argfor.5.a: "Sehr gut."
-
- argfor.6.t: "Bolivien Verweigert die Hilfe"
- argfor.6.d: "Die bolivianische Regierung hat angekündigt, dass sie unsere Offensive gegen das chilenische Volk nicht unterstützen wird und weitere Gespräche abgelehnt hat."
- argfor.6.a: "Dann machen wir es eben ohne sie!"
 
  argfor.7.t: "Freiwillige nach Rom"
  argfor.7.d: "Der Heilige Stuhl wird von den verkommensten Menschen des Planeten belagert, den gottlosen Sozialisten der Internationale. Alles was jetzt noch gegen die rote Flut steht, ist die tapfere päpstliche Garnison und ihre italienischen Verbündeten. Tausende junger argentinischer Männer haben jedoch ihre Unterstützung für den Papst erklärt und verlassen unsere Küsten, um das Böse im Ausland zu bekämpfen. Die Regierung hat noch keine klare Stellungnahme zur Situation abgegeben, sieht sich aber gezwungen zu handeln, wenn sie die aufgebrachten Massen unter Kontrolle halten will."
@@ -1340,6 +1253,16 @@
  argdem.17.a: "Marcelo Torcuato de Alvear."
  argdem.17.b: "José Pascual Tamborini."
  argdem.17.c: "Robustiano Patrón Costas."
+
+### News Events ###
+ argnews.1.t: "Manuél Carlés übernimmt die vollständige Kontrolle über Argentinien"
+ argnews.1.d: "Als Manuél Carlés an Weihnachten 1935 einen Staatsstreich gegen den argentinischen Staat verübte, wurde die Nation in einen erbitterten Kampf um die Kontrolle über die Präsidentschaft hineingezogen. Die LP und Streitkräfte der argentinischen Marine übernahmen schnell die Kontrolle über die Hauptstadt, wurden jedoch von Streitkräften der Armee gestoppt, die rasch ihre Vorherrschaft über das gesamte Land ausbauten, was zu einem blutigen und langwierigen Kampf führte.\n\nMit dem Fall von Rosario, einem wichtigen Eisenbahnknotenpunkt für die Binnenregionen, hat Carlés seinen Staatsstreich für erfolgreich erklärt und heute Nachmittag nach einer mitreißenden Rede vor seinen Anhängern in Buenos Aires das Präsidentenamt übernommen. Mit dem Versprechen einer umfassenden territorialen Expansion und einem Ende des Roten Terrors, der Patagonien heimsucht, stieß er bei der notleidenden Bevölkerung seines Landes auf große Begeisterung."
+ argnews.1.a: "Wird dies Argentinien stabilisieren?"
+ argnews.1.b: "Sehr beunruhigend!"
+
+ argnews.2.t: "Pedro Pablo Ramírez stellt die Ordnung in Argentinien wieder her"
+ argnews.2.d: "Als Manuél Carlés an Weihnachten 1935 einen Staatsstreich gegen den argentinischen Staat verübte, wurde die Nation in einen erbitterten Kampf um die Kontrolle über die Präsidentschaft hineingezogen. Die LP und Streitkräfte der argentinischen Marine übernahmen schnell die Kontrolle über die Hauptstadt, wurden jedoch von Streitkräften der Armee gestoppt, die rasch ihre Vorherrschaft über das gesamte Land ausbauten, was zu einem blutigen und langwierigen Kampf führte.\n\nDer erbitterte Widerstand der Armee erwies sich jedoch als zu stark für die Truppen von Carlés, und nach einer demütigenden Niederlage in Rosario wurden sie schnell in die Hauptstadt zurückgedrängt. Manuél Carlés selbst soll heute Morgen Selbstmord begangen haben, aber andere behaupten, dass er und seine engsten Anhänger auf einem Flusskahn gesehen wurden, der nach Uruguay fuhr, während feindliche Panzer auf die Präsidentenresidenz vorrückten."
+ argnews.2.a: "Ist das ein Sieg für die Demokratie?"
 
 ### Characters ###
  ARG_manuel_carles: "Manuel Carlés"

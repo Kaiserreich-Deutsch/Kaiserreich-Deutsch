@@ -67,8 +67,6 @@
  BRA_liberal_reforms_tooltip: "Erhält den nationalen Geist §HLiberale Politische Reformen§!. Wir können seine §GBoni§! durch andere §CSchwerpunkte in unseren politischen Bäumen§! verstärken."
  BRA_libdem_reforms_tooltip: "Erhält den nationalen Geist §HLiberaldemokratische Politische Reformen§!. Wir können seine §GBoni§! durch andere §CSchwerpunkte in unseren politischen Bäumen§! verstärken."
 
- BRA_rethinking_government_tt: "Nachdem die Idee §Habgelaufen§! ist:"
-
  BRA_no_inflation: "Sobald wir die §HInflation§! bewältigt haben, werden alle Schwerpunkte im §CHarte-Hand-Entwicklungsbaum§! §Rnicht mehr verfügbar sein!§!"
 
  BRA_cannot_change_laws_tt: "§RKann weder Wehrpflicht einführen noch die Wirtschaft mobilisieren.§!"
@@ -1016,8 +1014,8 @@
  BRA_join_entente_desc: "Es liegt in unserem besten Interesse, uns der globalen Allianz des Britischen Empire anzuschließen und an ihrer Seite im Kampf um die Wiederherstellung der Weltordnung zu kämpfen."
  BRA_ally_with_america: "Verbünde dich mit Amerika"
  BRA_ally_with_america_desc: "[USA.GetNameDefCap] entwickelt sich schnell zu einer der mächtigsten Nationen der Welt - wenn wir uns schützen wollen, sollten wir darum bitten, Teil ihrer Allianz zu werden."
- BRA_establish_relations_with_CSA: "Beziehungen mit den VSA aufnehmen"
- BRA_establish_relations_with_CSA_desc: "Als andere große syndikalistische Macht in der Neuen Welt ist es wichtig, dass wir so schnell wie möglich Beziehungen mit [CSA.GetNameDef] aufnehmen."
+ BRA_establish_relations_with_WCA: "Beziehungen mit [FROM.GetNameDef] aufnehmen"
+ BRA_establish_relations_with_WCA_desc: "Als andere große syndikalistische Macht in der Neuen Welt ist es wichtig, dass wir so schnell wie möglich Beziehungen mit [FROM.GetNameDef] aufnehmen."
  BRA_aid_socialist_peru: "Unseren peruanischen Genossen helfen"
  BRA_aid_socialist_peru_desc: "Der Syndikalismus hat in [PRU.GetNameDef] Fuß gefasst, aber er wird unsere Unterstützung brauchen, um zu gedeihen."
  BRA_become_brazil: "Werde zu Brasilien"
@@ -1079,7 +1077,7 @@
 
  BRA_guide: "§MDemokratie siegt§! (§lSozialliberal §!/ §cSozialkonservativ §!/ §SSozialdemokratisch §!/ §mWirtschaftsliberal§!)\n£white_dot Wähle in der Wahl von 1936 eine beliebige Partei außer der §NAção Integralista Brasileira§!.\n£white_dot Wenn die §cPartido Republicano§! gewählt wird, konsolidiere nicht die Macht unter Vargas.\n£white_dot Wenn die §SEsquerda Democrática§! gewählt wird, verhaftete den chilenischen Botschafter oder widerstehe dem Putsch der Armee nach Abschluss des Schwerpunkts der Linken Front.\n£white_dot In der Wahl von 1940 und den darauffolgenden Wahlen wird es auch möglich sein, die §mPartido Liberal Democráta§! zu wählen, wenn die Demokratie überlebt.\n\n§MVargas übernimmt die Direktherrschaft§! (§PPaternalist§!)\n£white_dot Wähle in der Wahl von 1936 die §cPartido Republicano§! und beginne Gesetze zu verabschieden, um Vargas' Macht zu konsolidieren.\n£white_dot Um Vargas' Position zu stärken, muss die Bundesregierung ermächtigt, der Föderationspakt überarbeitet und Vargas' Macht erweitert werden.\n£white_dot Vargas wird dann einen Selbstputsch durchführen, sich selbst als Diktator ermächtigen und die regierende Partei zur §PPartido Popular Brasileiro§! ändern.\n£white_dot Bald werden demokratische Aufstände gegen die Regierung ausbrechen, schlage diese Aufstände nieder, um Vargas an der Macht zu halten.\n\n§MSozialistischer Putsch§! (§RRadikaler Sozialist §!/ §rSyndikalist §!/ §oTotalist§!)\n£white_dot Wähle in der Wahl von 1936 die §SEsquerda Democrática§! und schließe den Schwerpunkt der Linken Front ab.\n£white_dot Du wirst bald ein Ereignis über eine Krise mit dem chilenischen Botschafter erhalten, verhaftete ihn in diesem Ereignis nicht.\n£white_dot Bald wird die Armee einen Putsch gegen die Regierung durchführen, wähle, dass dieser erfolgreich ist, und ein syndikalistischer Gegenputsch wird gestartet.\n£white_dot Schlage die Aufstände nieder, die nach der syndikalistischen Übernahme der Regierung ausbrechen werden, um deine Herrschaft zu festigen.\n£white_dot Während des Ersten Kongresses der Gewerkschaften wirst du zwischen der Wahl der §RAutonomistas§!, der §rOrtodoxos§! oder der §oMaximalistas§! wählen können.\n\n§MDas Organische Kaiserreich§! (§NNationalpopulist§!)\n£white_dot Wähle in der Wahl von 1936 die §NAção Integralista Brasileira§!.\n£white_dot Schlage alle möglichen Aufstände nieder, die versuchen, die Wiederherstellung der Monarchie zu verhindern.\n£white_dot Brasilien wird dann Pedro III. einladen können, den Thron als Kaiser von Brasilien zu besteigen.\n"
 
- ### Events ###
+### Events ###
 
  bra.2.t: "Pater Cicero verstirbt"
  bra.2.d: "Heute Morgen verstarb Pater Cícero Romão Batista friedlich im Schlaf im hohen Alter von 92 Jahren. Der lokale Anführer, der von der Bauernschaft der nordöstlichen Bundesstaaten als Heiliger verehrt wurde, galt der politischen Klasse in Ceará als graue Eminenz und fungierte als neutraler Vermittler bei Streitigkeiten zwischen den Coronéis, den Großgrundbesitzern des Nordostens."
@@ -1739,15 +1737,15 @@
  bra.510.t: "Italiener stehen sich gegenüber"
  bra.510.d: "Die Italiener kamen im 19. Jahrhundert nach Brasilien, als Landbesitzer nach der Abschaffung der Sklaverei nach billigen Arbeitskräften für ihre Plantagen suchten. Sie kamen weiterhin in großer Zahl, und sie sind zweifellos neben den Deutschen und Japanern die größte Einwanderergemeinschaft. Der italienische Bürgerkrieg hinterließ jedoch Narben bei den Menschen, die ihre Heimat durch den Krieg verloren, und ideologische Verbindungen zur Italienischen Sozialrepublik wurden bis zur Ausrufung der Union von Brasilien verborgen gehalten. Aus dem Verstecken wurde Schadenfreude, und dann konfrontieren sich aufgebrachte Menschenmengen mit denen, die sie einst als Brüder sahen, weil sie vom selben Ort kamen."
  bra.510.a: "Bedauerlich."
- bra.511.t: "Mission aus [BRA.GetNameDef]"
- bra.511.d: "Eine diplomatische Mission aus [BRA.GetNameDef] ist eingetroffen, in der Hoffnung, eine neue und fruchtbare Beziehung zwischen der [BRA.GetAdjective]n Regierung und der unseren aufzubauen."
+ bra.511.t: "Mission aus [FROM.GetNameDef]"
+ bra.511.d: "Eine diplomatische Mission aus [FROM.GetNameDef] ist eingetroffen, in der Hoffnung, eine neue und fruchtbare Beziehung zwischen der [FROM.GetAdjective]n Regierung und der unseren aufzubauen."
  bra.511.a: "Verbündete sind immer willkommen."
  bra.511.b: "Wir haben daran kein Interesse."
- bra.512.t: "Beziehungen mit den CSA aufgenommen"
- bra.512.d: "Wie erwartet ist die [From.GetAdjective] Regierung begierig darauf, mehr Verbündete in der Neuen Welt zu finden."
+ bra.512.t: "Beziehungen mit [FROM.GetNameDef] aufgenommen"
+ bra.512.d: "Wie erwartet ist die [FROM.GetAdjective] Regierung begierig darauf, mehr Verbündete in der Neuen Welt zu finden."
  bra.512.a: "Ausgezeichnet."
- bra.513.t: "Keine Beziehungen mit den CSA"
- bra.513.d: "Unser Gesandter berichtet, dass die [From.GetAdjective] Regierung kein wirkliches Interesse an engeren Beziehungen mit uns hat."
+ bra.513.t: "Keine Beziehungen mit [FROM.GetNameDef]"
+ bra.513.d: "Unser Gesandter berichtet, dass die [FROM.GetAdjective] Regierung kein wirkliches Interesse an engeren Beziehungen mit uns hat."
  bra.513.a: "Jede Nation eine Insel, hm?"
  bra.514.t: "Ergreift die Produktionsmittel"
  bra.514.d: "Da wir jetzt ein syndikalistischer Staat sind, werden wir nicht länger vom Kapitalismus und seiner Produktionsweise gefesselt sein. Die Arbeiter besitzen jetzt alles!"
@@ -2007,6 +2005,77 @@
  bra.762.t: "[URG.GetNameDefCap] Hat Abgelehnt"
  bra.762.d: "Die cisplatinischen Hunde haben unser großzügiges Autonomieangebot abgelehnt... Sie werden bestraft werden"
  bra.762.a: "Dann ist es eben Krieg!"
+
+### News Events ###
+ branews.1.t.soccon: "Sieg der Republikaner in Brasilien"
+ branews.1.t.soclib: "Liberaler Sieg in Brasilien"
+ branews.1.t.socdem: "Demokratische Linke siegt in Brasilien"
+ branews.1.t.natpop: "Integralisten siegen in Brasilien"
+ branews.1.d.soccon: "Es ist zwar kein unerwartetes Ergebnis, aber nun steht fest, dass die Republikanische Partei in Brasilien an der Macht bleiben wird, wie sie es seit Beginn der Neuen Republik im Jahr 1927 getan hat. Der neue Präsident der Republik, Getulio Vargas, wird im Januar vereidigt, hat jedoch bereits versprochen, mit fester Hand gegen die wirtschaftlichen Probleme des Landes vorzugehen, und in seiner Siegesrede auch versprochen, sich stärker für den einfachen Mann in Brasilien einzusetzen.\n\nDer Sieg der Republikaner wird jedoch kein sofortiges Ende der Probleme Brasiliens bedeuten, und die Zeit wird zeigen, ob diese anhaltende Vorherrschaft positive Folgen haben wird."
+ branews.1.d.soclib: "Als Bündnis aus der alten Garde, Oppositionsmitgliedern und verschiedenen liberalen Strömungen galt die Liberale Partei als Außenseiter im Präsidentschaftswahlkampf, doch nun steht sie an der Spitze, nachdem sich der Staub gelegt hat und sie die Republikaner knapp geschlagen hat. Mit einem Parteiprogramm, das auf den idealistischen Prinzipien basiert, die von der ersten Republik nicht eingehalten wurden, und dem Willen, die Wirtschaft zu diversifizieren und zu modernisieren und das Wachstum des Landes wieder anzukurbeln, wird die PL-Führung im Januar ihre Arbeit aufnehmen, während die Vorbereitungen für einen friedlichen Machtwechsel laufen.\n\nDie Zeit wird zeigen, ob eine solche idealistische und etwas instabile Regierung das Land in diesen schwierigen Zeiten auf einem guten Kurs halten kann."
+ branews.1.d.socdem: "Die Demokratie in Brasilien wurde durch die Ergebnisse der Parlamentswahlen erschüttert: Die Demokratische Linke, ein äußerst breites Bündnis aus Mitte-Links- und Linksparteien, vereint durch ein gemeinsames Programm für eine umfassende Reform der Arbeitnehmerrechte, hat die Parlamentswahlen in Brasilien gewonnen. Für viele Beobachter ein überraschendes Ergebnis, andere behaupten, dass die breite Anziehungskraft und die klaren Ziele der Koalition ihr eine breitere Basis verschafft hätten als ihren Gegnern.\n\nNun wird João Mangabeira, interessanterweise der Bruder des derzeitigen Präsidenten Otávio Mangabeira, im Januar sein Amt antreten. Er steht vor der vielleicht unmöglichen Aufgabe, eine Koalition, die von Sozialliberalen bis zu Maximalisten alles umfasst, vor dem Auseinanderbrechen zu bewahren, da er diese Zweckgemeinschaft managen und gleichzeitig die Reformen, die ihm die Wahl eingebracht haben, in die Tat umsetzen muss."
+ branews.1.d.natpop: "In einer unerwarteten Wendung endeten die Wahlen in Brasilien mit einem überraschenden Sieg der brasilianischen Integralistischen Aktion. Die mitreißende Bewegung eroberte Brasilien im Sturm, und ihre gegen das politische Establishment gerichtete Botschaft von Glauben, Nationalstolz und Monarchismus fand viele wohlwollende Zuhörer, von den ärmsten Vierteln bis hin zu den mächtigsten Adelshäusern.\n\nNun muss sich die relativ politisch unerfahrene Partei mit den Lasten der Macht auseinandersetzen, und viele befürchten, dass das fragile Bündnis zwischen verschiedenen Fraktionen innerhalb der Aktion die Partei schwächen könnte. Dennoch hat ihr Einfluss inzwischen erheblich zugenommen, und Beobachter halten eine Wiederherstellung der Monarchie zum jetzigen Zeitpunkt für nahezu sicher."
+ branews.1.a.soccon: "Wie erwartet."
+ branews.1.a.soclib: "Eine Überraschung, ganz sicher."
+ branews.1.a.socdem: "Mit Syndikalisten zu tanzen ist ein gefährliches Unterfangen."
+ branews.1.a.natpop: "Wird das Imperium zurückkehren?"
+ branews.1.b.generic: "Dieses Gezänk der Kapitalisten geht uns\nnichts an."
+ branews.1.b.socdem: "Letztendlich kann der Kapitalismus nicht verändert werden.\nEine sinnlose Aufgabe."
+
+ branews.2.t: "Getúlio Vargas verkündet die Gründung des neuen Bundesstaates"
+ branews.2.d: "Getúlio Vargas hat in den letzten Jahren seinen Einfluss auf den Staatsapparat immens ausgebaut, da die Instabilität in Brasilien nachgelassen hat und er sich dafür alle Verdienste zuschreibt. Nun hat er in einem mutigen Schritt zur Sicherung von Frieden und Stabilität die vollständige Kontrolle über die Gesetzgebung übernommen und sich zahlreiche Notstandsbefugnisse eingeräumt, \"bis diese Zeit der Unruhen in der Welt vorbei ist\".\n\nZwar sind seit dem Schwarzen Montag an der Berliner Börse weltweit Kriege ausgebrochen, doch macht dies diesen Schritt nicht weniger zu einer dreisten Machtübernahme. Er genießt jedoch große Unterstützung in verschiedenen Bundesstaaten und wird von den Führungskräften vieler Bundesstaaten unterstützt. Die Zeit wird zeigen, ob diese Entwicklung wirklich für ein friedliches Brasilien sorgen wird."
+ branews.2.a: "Vargas hat tatsächlich die direkte Kontrolle übernommen."
+ branews.2.b: "Zumindest keine demokratischen Vorwände mehr, aber eine besorgniserregende Entwicklung."
+
+ branews.3.t: "Konstitutionelle Revolte in Brasilien"
+ branews.3.d: "Der Bundesstaat São Paulo, der vielleicht mächtigste in Brasilien, hat die Waffen gegen Getúlio Vargas und seinen Neuen Staat erhoben und behauptet, seine Herrschaft sei eine völlig verfassungswidrige Diktatur, nachdem der einflussreiche Präsident mehrfach versucht hatte, sich in die Angelegenheiten des Bundesstaates einzumischen, unter anderem indem er versuchte, einen ihm vertrauten Staatspräsidenten anstelle eines gewählten Präsidenten einzusetzen.\n\nNun sind die Spannungen völlig eskaliert, und zwischen São Paulo und anderen Bundesstaaten, die zuvor aufgefordert wurden, sich ihrem Kampf anzuschließen, kann es nur noch zum Krieg kommen. Die Zeit wird zeigen, ob dieser Aufruf Gehör findet oder ob die Revolte niedergeschlagen wird."
+ branews.3.a: "Zentralisierung ist nie einfach."
+ branews.3.b: "Eine Chance für das Volk?"
+
+ branews.4.t: "Konstitutionelle Revolte in Brasilien ist erfolgreich!"
+ branews.4.d: "Als Getúlio verhaftet und in Untersuchungshaft genommen wird, feiern die konstitutionellen Revolutionäre, die so hart für diesen Moment gekämpft haben, in Rio und ganz Brasilien.\n\nNun wird das frühere System der Republik wieder eingeführt und sich eng an die politischen Gepflogenheiten der Zweiten Republik anlehnen, jedoch mit zusätzlichen Schutzmaßnahmen gegen ambitionierte Diktatoren und noch größerer Autonomie für die Mitgliedstaaten der Union."
+ branews.4.a: "Die Demokratie Brasiliens bekommt eine zweite Chance."
+ branews.4.b: "Arbeiter sterben, ohne dass sich etwas ändert, leider."
+
+ branews.5.t: "Konstitutionalistische Revolte in Brasilien scheitert!"
+ branews.5.d: "São Paulo mag mächtig gewesen sein, aber es konnte sich nicht gegen die Macht Brasiliens behaupten. Als ihre Kapitulation akzeptiert wurde, kam es im ganzen Land zu Kundgebungen zugunsten von Getúlio, und kaum jemand kann bezweifeln, dass sein Machtgriff tatsächlich stärker ist als je zuvor.\n\nDa die meisten seiner relevanten Gegner im Exil sind oder verhaftet wurden, kann sich Getúlio nun anderen Angelegenheiten widmen, denn er hat das gefährliche Spiel der brasilianischen Politik zweifellos gewonnen und verfügt über ein Maß an Kontrolle, das selbst in Zeiten der Monarchie in diesem Land noch nie zuvor in den Händen eines einzelnen Mannes lag."
+ branews.5.a: "Der neue Staat demonstrierte seine Macht."
+ branews.5.b: "Arbeiter sterben, ohne dass sich etwas ändert, leider."
+
+ branews.6.t: "Wiederherstellung der Monarchie in Brasilien"
+ branews.6.d: "Als das Kaiserreich Brasilien 1889 unterging, fand sich Pedro II. mit diesem Schicksal ab und weigerte sich, Widerstand zu leisten. Seitdem wurde die republikanische Vereinigte Staaten von Brasilien von wirtschaftlichen Problemen, Korruption und sogar Bürgerkriegen heimgesucht. Nach einem Wahlsieg der Integralisten und einer öffentlichen Konsultation zu diesem Thema wurde heute in der Kathedrale von Candelária in Rio der brasilianische Kaiser Pedro III. in einer selbst für monarchistische Verhältnisse ungewöhnlich prunkvollen Zeremonie gekrönt.\nNun wollen die Integralisten und der neue Kaiser den früheren Glanz Brasiliens wiederherstellen und werden zweifellos das Land auf vielleicht irreversible Weise verändern. Während der Zeremonie kam es zu republikanischen Demonstrationen, die jedoch schnell von der Armee aufgelöst wurden. Die Nation fragt sich nun, ob dieses Kaiserreich endlich Frieden in das unruhige südamerikanische Land bringen wird."
+ branews.6.a: "Eine neue Macht erhebt sich!"
+ branews.6.b: "Arbeiter sterben, ohne dass sich etwas ändert, leider."
+
+ branews.7.t: "Rondons Aufstand"
+ branews.7.d: "Cândido Rondon, ein renommierter und angesehener Marschall Brasiliens, ist von einer seiner mittlerweile üblichen Expeditionen tief in die nördlichen Dschungel zurückgekehrt. Als gläubiger Republikaner äußerte er offen seine Unzufriedenheit über die Bemühungen der Integralisten, die Monarchie wiederherzustellen. Die besorgte Regierung in Rio de Janeiro ordnete seine Verhaftung an, doch seine loyalen Soldaten weigerten sich, den Befehl auszuführen, und er erhob sich im Westen des Landes zu einer offenen Revolte.\nObwohl die Revolte tief in der republikanischen Tradition verwurzelt ist, wird spekuliert, dass seine Unterstützung durch lokale Machthaber auch von traditionell mächtigen Politikern kommt, die unter der neuen integralistischen Ordnung an Einfluss verloren haben. Es scheint, als stünde Brasilien vor seinem zweiten Bürgerkrieg in diesem Jahrhundert, und die Nation hält den Atem an, da ein offener Krieg nun unvermeidlich ist."
+ branews.7.a: "Wie kann ein alter Mann so stur sein?"
+ branews.7.b: "Eine Chance für das Volk?"
+
+ branews.8.t: "Rondons Aufstand niedergeschlagen"
+ branews.8.d: "Die Revolte von Cândido Rondon wurde niedergeschlagen, und seine Truppen wurden vollständig besiegt. Obwohl der Anführer der Revolte nicht gefunden werden konnte, da er mit seinen treuesten Soldaten in den Wald geflohen war, wurde die republikanische Bewegung zerschlagen, denn die von ihm inspirierten Aufstände offenbarten die wahre Loyalität vieler potenzieller Verräter in der Nation.\n\nNun können die Integralisten ihre Pläne völlig ungehindert weiterverfolgen."
+ branews.8.a: "Das Imperium schlägt zurück!"
+ branews.8.b: "Arbeiter sterben, ohne dass sich etwas ändert, leider."
+
+ branews.9.t: "Rondons Aufstand triumphiert"
+ branews.9.d: "Die Republik steht in Brasilien stark und siegreich da, da Cândido Rondons gewagter Aufstand gegen die integralistische Regierung zu einem groß angelegten Konflikt und zur Niederlage dieser Regierung führte, als sich verschiedene Bundesstaaten dem republikanischen Aufstand anschlossen und das ohnehin schon überlastete Militär spalteten. Rondon, unter dem Jubel seiner republikanischen Mitstreiter, wird nun in das Amt des provisorischen Präsidenten gedrängt, eine Rolle, die er sicherlich nie wollte, aber er hat geschworen, die Wahlen wie geplant abzuhalten und keine radikalen Maßnahmen zu ergreifen.\n\nViele spekulieren, dass der alte Mann endlich in den Ruhestand gehen wird, da die große Revolution, die in ganz Brasilien gekämpft wurde, sein letztes Abenteuer war."
+ branews.9.a: "Die Demokratie Brasiliens bekommt eine zweite Chance."
+ branews.9.b: "Arbeiter sterben, ohne dass sich etwas ändert, leider."
+
+ branews.10.t: "Die Union von Brasilien wird ausgerufen!"
+ branews.10.d: "Die Aufregung um diplomatische Annäherungsversuche an das syndikalistische Chile führte zu einer tiefen Verfassungskrise und endete mit einem Putsch durch Mitglieder des Militärs, die der Meinung waren, dass die ED in den Sozialismus abgleite. Der Putsch war jedoch nur von kurzer Dauer, und die loyalen Armeeangehörigen haben die meisten ihrer Anführer verhaftet oder ins Exil geschickt. Darüber hinaus haben diese Offiziere die Union von Brasilien, eine syndikalistische Regierung, ausgerufen, da viele weitere Offiziere nach den rasanten Fortschritten, die Chile seit der Revolution in seinem Militär gemacht hatte, zur Linken tendierten.\nNun wird die Union ihren ersten Gewerkschaftskongress abhalten und sich versammeln, um zu entscheiden, welchen Weg der brasilianische Sozialismus einschlagen soll. Nach Bekanntwerden der Proklamation der sogenannten Union von Brasilien haben sich mehrere Gouverneure offen rebelliert und werden versuchen, die Vereinigten Staaten von Brasilien wieder zu einem demokratischen Staat zu machen."
+ branews.10.a: "Die syndikalistische Bedrohung breitet sich aus!"
+ branews.10.b: "Eine Überraschung, zweifellos, aber eine willkommene."
+
+ branews.11.t: "Reaktionärer Aufstand in Brasilien siegreich"
+ branews.11.d: "Der Wille des Volkes wurde erhört, verkündete Getúlio Vargas, der starke Mann von Rio Grande do Sul, als er nach einem siegreichen Marsch auf Rio sprach, nachdem er sein Pferd symbolisch an den Obelisken in der Rio Branco Avenue gebunden hatte. Die revoltierenden Kasernen wurden eingenommen und der sogenannte Gewerkschaftskongress aufgelöst. Das frühere Gefüge der Republik wird zu gegebener Zeit wiederhergestellt werden, und die für dieses Chaos Verantwortlichen, insbesondere die Mitglieder der demokratischen Linken, die den \"Syndikalismus ermöglicht\" haben, werden vor Gericht gestellt werden.\n\nNach dem Scheitern dieses kurzen Experiments hofft die Nation, endlich etwas Frieden zu finden, da die sichtbaren Schäden an vielen der wichtigsten Gebäude der Hauptstadt eine düstere Erinnerung an die nun als \"Kommune von Rio\" bezeichnete Bewegung und das Schicksal derjenigen sind, die gegen die Republik rebellieren würden."
+ branews.11.a: "Die Katastrophe wurde abgewendet."
+ branews.11.b: "Ein bedauerlicher Rückschritt."
+
+ branews.12.t: "Reaktionärer Aufstand in Brasilien niedergeschlagen"
+ branews.12.d: "Mit dem Ende der Revolte und der Kapitulation oder dem Exil der beteiligten Staatspräsidenten festigte die Union von Brasilien ihre Machtposition. Der Konflikt hat jedoch seine Spuren hinterlassen, und bereits jetzt hallen Forderungen nach Amnestie und Hochverratsprozessen durch das Land, da die intensive Ablehnung gegenüber der Zentralregierung mit dem Ende des bewaffneten Konflikts nicht nachlässt.\n\nDies ist wahrlich nur der erste Schritt in einer Ära, die für ganz Brasilien sicherlich von immensen Veränderungen geprägt sein wird."
+ branews.12.a: "Die Katastrophe wurde abgewendet."
+ branews.12.b: "Man kann nicht gegen die Geschichte marschieren!"
 
 ### Country Names ###
  BRA: "Brasilien"

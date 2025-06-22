@@ -235,7 +235,6 @@
  SIA_phibun_coup_tt: "§RVielleicht sind unsere kleinen demokratischen Experimente gescheitert...§!\n"
  SIA_will_receive_reparation_tt: "Nach unserem Rückzug aus dem Krieg:"
  SIA_war_reparation_betrayal_warning_tt: "§RDies anzunehmen wird uns in Konflikt mit unserem Fraktionsführer bringen!§!\n"
- SIA_gets_event_surrender_accepted: "$gets_event_start$$siam.70.t.peace$$gets_event_end$"
  Luang_Phibunsongkhram_dead: "Luang Phibunsongkhram ist nicht verfügbar.\n"
  Luang_Seriroengrit_dead: "Luang Seriroengrit ist nicht verfügbar.\n"
  Phraya_Phaholpholphayuhasena_dead: "Phraya Phahonphonphayuhasena ist nicht verfügbar.\n"
@@ -882,6 +881,67 @@
  siam.80.a.peace.reichpakt: "Hurra 3" #temp
  siam.80.a.peace.socialist: "Yay 4" #temp
 
+### News Events ###
+ siam.200.t: "Coup d'Etat in Siam"
+ siam.200.d: "Heute wurde aus Bangkok bekannt, dass eine Gruppe von Offizieren und Intellektuellen, die sich selbst als $SIA_authoritarian_democrat_party_khana_ratsadon_long$ bezeichnet, erfolgreich die Kontrolle über die Regierung übernommen hat. Wichtige Regierungsbeamte wurden festgenommen, und der König und sein Thronfolger sollen sich in Sicherheit befinden und von der neuen Regierung gut versorgt werden.\n\nDer neue Premierminister gab eine Erklärung ab, in der er bekannt gab, dass es sich nicht um einen Militärputsch handele, sondern um eine friedliche Machtübergabe, während eine Verfassung ausgearbeitet werde."
+ siam.200.a: "Besorgniserregned."
+
+ siam.201.t: "Siams neue Verfassung"
+ siam.201.d: "König Prajadhipok von Siam hat offiziell die erste Verfassung des jahrhundertealten Königreichs in Südostasien veröffentlicht. Inspiriert von der japanischen Verfassung der Meiji-Ära und der deutschen Regierung, stärkt sie die Macht des Königs und des Volkes gegenüber der mächtigen Königsfamilie, die bisher einen großen Einfluss auf Seine Majestät ausgeübt hat.\n\nIn einer Erklärung bestätigte Premierminister Phraya Manopakorn Nitithada heute, dass er gebeten worden sei, eine Übergangsregierung zu bilden, um die bevorstehenden Wahlen zu verwalten, während das alte Kabinett langsam aber sicher aus dem Amt entfernt wird."
+ siam.201.a: "Mit der Zeit gehen, wie es scheint."
+
+ siam.202.t: "Der Boworadet-Aufstand"
+ siam.202.d: "Die jüngste Siamesische Revolution war zwar äußerlich erfolgreich, hat jedoch einen starken Rückgang ihrer Popularität erlebt. Unter Ausnutzung des umstrittenen \"Yellow Cover Dossier\" – dem Spitznamen für einen vorgeschlagenen Plan zur Überarbeitung der Wirtschaftssysteme des Landes und zur Verstaatlichung vieler Industriezweige – wurde eine \"rote Angst\" geschürt.\n\nWährend der Chef der Armee, Luang Phibunsongkhram, dem Parlament seine Loyalität erklärte, organisierte Prinz Boworadet eine bewaffnete Meuterei im Norden des Landes. Er erklärte sich und seine Untergebenen zur $SIA_paternal_autocrat_party_CW_long$ und marschierte in Richtung Bangkok. Die rasche Mobilisierung der Regierungstruppen führte zu einer zweitägigen Pattsituation, die schnell zu einem offenen Krieg zwischen beiden Seiten eskalierte."
+ siam.202.a: "Der siamesische Bürgerkrieg beginnt..."
+ siam.202.b: "Die letzten Atemzüge der Reaktionäre."
+ siam.202.c: "Vielleicht ein paar Waffenlieferungen an die royalistische Seite?"
+ siam.202.e: "Die letzten Atemzüge der pro-deutschen Clique?"
+ siam.202.f_gov: "Wir werden diese Rebellen vernichten!"
+ siam.202.f_reb: "Für König und Vaterland!"
+
+ siam.203.t: "Die Thamrongnawasawat-Rebellion"
+ siam.203.d: "Die jüngste siamesische Revolution war zwar äußerlich erfolgreich, hat jedoch einen starken Rückgang ihrer Popularität erlebt. Unter Ausnutzung des umstrittenen \"Yellow Cover Dossier\" – dem Spitznamen für einen vorgeschlagenen Plan zur Überarbeitung der Wirtschaftssysteme des Landes und zur Verstaatlichung vieler Industriezweige – wurde eine \"rote Angst\" geschürt.\n\nLuang Thamrongnawasawat und einige unzufriedene Marineoffiziere organisierten hingegen eine bewaffnete Meuterei im Süden des Landes. Nachdem sie sich zur $SIA_radical_socialist_party_CW_long$ erklärt hatten, marschierten sie auf Bangkok. Der Zusammenbruch des Militärs markiert den Beginn eines umfassenden Bürgerkriegs in Siam."
+ siam.203.a: "Es war nicht zu ändern."
+ siam.203.b: "Sozialistische Genossen haben unsere Unterstützung!"
+ siam.203.c: "Informiert Singapur, dass es seine Grenze zu Siam verschärfen soll."
+ siam.203.e: "Sozialistische Rebellen haben in Asien keinen Platz."
+ siam.203.f_gov: "Die Syndikalisten haben ihr wahres Gesicht gezeigt!"
+ siam.203.f_reb: "Wir werden die alte Ordnung ein für alle Mal zu Fall bringen!"
+
+ siam.204.t: "Phibunsongkhrams Coup d'état"
+ siam.204.d: "Die jüngste siamesische Revolution war zwar äußerlich erfolgreich, hat jedoch einen starken Rückgang ihrer Popularität erlebt. Unter Ausnutzung des umstrittenen \"Yellow Cover Dossier\" – dem Spitznamen für einen vorgeschlagenen Plan zur Überarbeitung der Wirtschaftssysteme des Landes und zur Verstaatlichung vieler Industriezweige – wurde eine \"rote Angst\" geschürt.\n\nDer Chef der Armee, Luang Phibunsongkhram, griff gerade noch rechtzeitig ein und verhängte landesweit das Kriegsrecht, was nach allgemeiner Auffassung das Land vor einem Bürgerkrieg bewahrte. Der \"Eiserne Marschall\" plant offenbar, selbst als Diktator zu regieren, bis er glaubt, dass das Land bereit ist für die Verantwortung der Demokratie."
+ siam.204.a: "Und wann wird das sein?"
+
+ siam.205.t: "Der 37. Siamesisch-Burmesische Krieg"
+ siam.205.d: "Das neue nationalpopulistische Regime von Plaek Phibunsongkhram in Siam hat heute in Yangon der burmesischen Regierung den Krieg erklärt und dabei die Unruhen in Moulmein als Kriegshandlung bezeichnet.\n\nDie Siamesen sind hier eindeutig die Aggressoren, da sie zuvor Gebiete bis zum Salween-Fluss besetzt hatten und damit gegen den Stresemann-Vertrag von 1929 verstießen, der die Grenze zwischen ihnen und Burma festlegte. Für die Burmesen sieht die Lage ziemlich düster aus. Sollte Siam siegreich sein, dürfte dies den Aufstieg einer neuen thailändischen Hegemonie in Südostasien bedeuten, vor der die europäischen Mächte sich in Acht nehmen müssen."
+ siam.205.a: "Ein Krieg, der mehr aus Hass als aus echtem Vorteil geführt wird."
+
+ siam.206.t: "Parlamentarischer Sieg in Siam"
+ siam.206.d: "Die sporadischen Kämpfe auf den Straßen von Bangkok haben heute nachgelassen, nachdem die Parlamentarier endlich die Kontrolle über die Stadt übernommen haben. König Rama VII. wurde vor wenigen Stunden nach Singapur evakuiert, und der Aufenthaltsort anderer wichtiger Regierungsvertreter ist weiterhin unbekannt.\n\nZurück in der Stadt erklärte sich ein triumphierender Pridi Phanomyong (ehemals Luang Praditmanutham) nach einer einstimmigen Abstimmung im Parlament zum neuen Premierminister. In einer Rede kündigte der neue Premierminister den Beginn eines Programms zum \"nationalen Wiederaufbau\" an, was eine mögliche Hinwendung Siams nach innen signalisiert. Der Aufstieg einer neuen syndikalistischen Macht markiert eine Abkehr von den deutsch-japanischen Machtspielen, die die Region bisher dominiert haben."
+ siam.206.a: "Eine neue Republik entsteht aus der Asche."
+ siam.206.b: "Unsere neuen Kameraden in Asien."
+ siam.206.c: "Ein weiteres syndikalistisches Regime, das sich hinter einer demokratischen Fassade versteckt."
+ siam.206.e: "Vielleicht hätten wir die royalistische Seite stärker unterstützen können..."
+ siam.206.f: "Ein neuer Morgen erwartet uns!"
+
+ siam.207.t: "Royalistischer Sieg in Siam"
+ siam.207.d: "Die sporadischen Kämpfe auf den Straßen von Bangkok ebbten heute ab, als die Royalisten schließlich die Kontrolle über die Stadt übernahmen und Luang Praditmanutham und andere Republikaner dazu zwangen, hastig ein Schiff nach Saigon zu besteigen.\n\nObwohl prominente Mitglieder der Königsfamilie, die zuvor die Regierung dominierten, diesmal offiziell abgelehnt haben, ihr Amt anzutreten, verfügen sie weiterhin über immense Macht. Es ist wahrscheinlich, dass sie ihre Kontrolle über König Prajadhipok nach dem Scheitern seiner demokratischen Reformen weiter ausbauen werden. Prajadhipok und zukünftige siamesische Monarchen werden mit ziemlicher Sicherheit in Zukunft von der Demokratie \"weggeführt\" werden."
+ siam.207.a: "Ein Rückschritt in Richtung absolute Monarchie?"
+ siam.207.b: "Unsere geretteten siamesischen Kameraden werden weiterkämpfen!"
+ siam.207.c: "Ein weiteres Bollwerk in Asien gesichert."
+ siam.207.e: "Ein weiterer deutscher Bauer in Asien, wir werden sie mit der Zeit zu Fall bringen."
+ siam.207.f: "Die alte Ordnung triumphiert!"
+
+ siam.208.t: "Ordnung in Siam wiederhergestellt"
+ siam.208.d: "Die Truppen unter Luang Phibunsongkhram, genannt \"der eiserne Marschall\", haben heute die letzten Rebellenhochburgen in Siam vollständig zerstört. Nachdem sie die Rebellen aus Bangkok vertrieben hatten, marschierten die Regierungstruppen rasch zu deren Festungen und nahmen alle gefangen, die sie finden konnten.\n\nViele dieser Gefangenen werden ihren Weg ins Tarutao-Gefängnis finden, eine Insel, die von haiverseuchten Gewässern umgeben ist und weit vom Festland entfernt liegt. Unterdessen ist die provisorische Regierung Khana Ratsadon zurückgetreten und hat erklärt, dass die Zeit reif sei, damit das Geschäftsleben im Land wieder zur Normalität zurückkehren könne."
+ siam.208.a: "Der Status quo wurde wiederhergestellt."
+ siam.208.b_gov: "Ein pro-deutsches Vorhaben wurde gestoppt."
+ siam.208.b_reb: "Unsere geretteten siamesischen Kameraden werden weiterkämpfen!"
+ siam.208.c_gov: "Eine syndikalistische Bedrohung wurde neutralisiert."
+ siam.208.c_reb: "Wir hätten unsere royalistischen Verbündeten stärker unterstützen können..."
+ siam.208.e: "Die Bedrohungen für unseren potenziellen Verbündeten sind beseitigt."
+ siam.208.f: "Es ist Zeit, wieder aufzubauen und um unsere Verluste zu trauern."
+
 ###################################
 ##
 ## NEW BLACK MONDAY (ID 1000-1199)
@@ -1450,7 +1510,7 @@
  SIA_pridi_phanomyong: "Pridi Phanomyong"
  SIA_pridi_phanomyong_royal: "Luang Praditmanutham"
  SIA_pridi_phanomyong_leader_desc: "§YGeboren:§! §L11. Mai 1900, in Mueang Krungkao, Monthon Ayutthaya, Königreich Siam§!\n§YHintergrund:§! §LPridi Phanomyong, auch bekannt unter seinem ministeriellen Titel 'Luang Praditmanutham', begann unmittelbar nach seiner Ernennung zum Minister damit, das Leben des siamesischen Volkes zu verbessern. Sein umstrittenes 'Gelbes Dossier' umriss seine politische und wirtschaftliche Reformagenda und spaltete die siamesische Regierung, aber die Kontroverse diente nur dazu, Pridis politische Karriere weiter voranzutreiben.§!"
- SIA_pridi_phanomyong_victorious_leader_desc: "§YGeboren:§! §L11. Mai 1900, in Mueang Krungkao, Monthon Ayutthaya, Königreich Siam§!\n§YHintergrund:§! §LPridi Phanmoyong, zuvor bekannt unter seinem ministeriellen Titel 'Luang Praditmanutham', ist nach einem kurzen aber blutigen siamesischen Bürgerkrieg zum Vorsitzenden des Khanagummakarn Sapha Patiwat geworden. Phanomyongs Politik der wirtschaftlichen Verstaatlichung und radikalen parlamentarischen Reform kann nun fortgesetzt werden, jedoch sind die Herausforderungen durch radikalere Elemente unter Pridis alten Sahachip-Parteimitgliedern deutlich gewachsen. Trotz seiner Popularität kämpft Phanomyong darum, seine Autorität selbst mit seinen Verbündeten in der Marine aufrechtzuerhalten.§!"
+ SIA_pridi_phanomyong_victorious_leader_desc: "§YGeboren:§! §L11. Mai 1900, in Mueang Krungkao, Monthon Ayutthaya, Königreich Siam§!\n§YHintergrund:§! §LPridi Phanomyong, zuvor bekannt unter seinem ministeriellen Titel 'Luang Praditmanutham', ist nach einem kurzen aber blutigen siamesischen Bürgerkrieg zum Vorsitzenden des Khanagummakarn Sapha Patiwat geworden. Phanomyongs Politik der wirtschaftlichen Verstaatlichung und radikalen parlamentarischen Reform kann nun fortgesetzt werden, jedoch sind die Herausforderungen durch radikalere Elemente unter Pridis alten Sahachip-Parteimitgliedern deutlich gewachsen. Trotz seiner Popularität kämpft Phanomyong darum, seine Autorität selbst mit seinen Verbündeten in der Marine aufrechtzuerhalten.§!"
  SIA_pridi_phanomyong_sic_desc: "§YGeboren:§! §L11. Mai 1900, in Mueang Krungkao, Monthon Ayutthaya, Königreich Siam§!"
 
  SIA_thawan_thamrongnawasawat: "Thawan Thamrongnawasawat"
@@ -1469,7 +1529,7 @@
 
  SIA_plaek_phibunsongkhram: "Plaek Phibunsongkhram"
  SIA_plaek_phibunsongkhram_royal: "Luang Phibunsongkhram"
- SIA_plaek_phibunsongkhram_leader_desc: "§YGeboren:§! §L14. Juli 1897, in Mueang Nonthaburi, Königreich Siam§!\n§YHintergrund:§! §LFeldmarschall Plaek Phibunsongkhram, bei den Einheimischen besser bekannt als 'Chormpon Por' und im Westen als 'Phibun', der ehemalige Verbündete von Pridi Phanmoyong und der Volkspartei hat nach der Gelbe-Akten-Affäre die Macht ergriffen. Zusammen mit Luang Wichitwathakarn und seinen Verbündeten im Militär hat er seinen eigenen Personenkult aufgebaut, um die Monarchie ins Abseits zu drängen. Er betrachtet den gegenwärtigen Zustand Siams als 'überholtes Relikt einer vergangenen Ära' und beabsichtigt, seine Macht zu nutzen, um Militarismus und Nationalismus zu fördern, die er beide als zusätzliche essenzielle Prinzipien der modernen Nation proklamiert.§!"
+ SIA_plaek_phibunsongkhram_leader_desc: "§YGeboren:§! §L14. Juli 1897, in Mueang Nonthaburi, Königreich Siam§!\n§YHintergrund:§! §LFeldmarschall Plaek Phibunsongkhram, bei den Einheimischen besser bekannt als 'Chormpon Por' und im Westen als 'Phibun', der ehemalige Verbündete von Pridi Phanomyong und der Volkspartei hat nach der Gelbe-Akten-Affäre die Macht ergriffen. Zusammen mit Luang Wichitwathakarn und seinen Verbündeten im Militär hat er seinen eigenen Personenkult aufgebaut, um die Monarchie ins Abseits zu drängen. Er betrachtet den gegenwärtigen Zustand Siams als 'überholtes Relikt einer vergangenen Ära' und beabsichtigt, seine Macht zu nutzen, um Militarismus und Nationalismus zu fördern, die er beide als zusätzliche essenzielle Prinzipien der modernen Nation proklamiert.§!"
  SIA_plaek_phibunsongkhram_sic_desc: "§YGeboren:§! §L14. Juli 1897, in Mueang Nonthaburi, Königreich Siam§!\n§YHintergrund:§! §LGeboren als Plaek Kittasangkha in einer thailändischen Obstgärtnerfamilie, begannen Phibun und sein älterer Bruder Prakit 1909 ihre Ausbildung an der Royal Siamese Army Cadet School. Nach dem Abschluss diente er kurz im 7. Artillerieregiment (Phitsanulok), wo er seine Frau kennenlernte, und im 1. Royal Guards Artillery Regiment, bevor er ein königliches Stipendium erhielt, um sein Studium an der k.u.k. Artillerie-Schießschule in Hajmáskér, Ungarn und dann an der Theresianische Militärakademie in Wiener Neustadt, Österreich fortzusetzen. Kurz nach seiner Rückkehr nach Siam wurde Phibun für seine Taten während der Siamesischen Intervention in Burma 1928-1929 bei der Befreiung von Moulmein und Dawei in Tenasserim bekannt - wofür er seinen Titel 'Luang Phibunsongkhram' erhielt. Durch pure Ausstrahlung und persönliche Verbindungen sowohl zu den jüngeren Offizieren als auch zum Oberkommando über Prinz Pridi Debyabongs Devakula, seinen ehemaligen Vorgesetzten, ist es keine Überraschung, dass er seine jetzige Position in relativ jungem Alter erreichte.§!\n\n§YAnmerkungen: Sein Vorname bedeutet auf Thai 'Seltsam', da seine Eltern die Position seiner Ohren bei der Geburt als merkwürdig empfanden, weshalb er es vorzog, stattdessen mit seinem Anfangsbuchstaben P (Por) angesprochen zu werden.§!"
 
  SIA_phao_sriyanond: "Phao Sriyanond"

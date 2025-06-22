@@ -29,26 +29,14 @@
  FOP_central_construction_agency: "Zentrale Bauagentur"
  FOP_central_construction_agency_desc: "Wir werden die Ausbeutung und Launen des freien Marktes aufgeben und ein zentrales Planungskomitee in Puerto Madryn einrichten, das die künftige Entwicklung der Region überwacht. Durch klare Zielsetzungen für uns und unsere Arbeiter können wir die grundlegende Industrie und Infrastruktur, die Patagonien benötigt, effizienter schaffen."
 
- FOP_divert_funds_to_chubut: "Mittel nach Chubut umleiten"
- FOP_divert_funds_to_chubut_desc: "Die Nordregion Patagoniens, Chubut, ist zum Herzen der Revolution geworden, ist aber weit davon entfernt, die Muskelkraft für unsere Revolution zu sein. Durch die Umleitung von Mitteln in die Region hofft die Zentrale Bauagentur, Entwicklungsgebiete für zukünftige Industrie einrichten zu können."
-
- FOP_divert_funds_to_santa_cruz: "Mittel nach Santa Cruz umleiten"
- FOP_divert_funds_to_santa_cruz_desc: "Die Südregion Patagoniens, Santa Cruz, war weitgehend eine rückständige Region Argentiniens mit nur wenigen erwähnenswerten Fischerdörfern und Minen. Durch die Umleitung von Mitteln hofft die Zentrale Bauagentur, die Region auf das Entwicklungsniveau von Chubut zu bringen, damit sie weniger eine Last und mehr eine unterstützende Provinz für unsere Bemühungen wird."
-
  FOP_patagonias_industrial_revolution: "Britische Industriehilfe"
  FOP_patagonias_industrial_revolution_desc: "Durch die großen Anstrengungen unserer Arbeiter ist das Ziel, Patagonien in einen vollständig modernen Industriestaat zu verwandeln, endlich in Reichweite. Mit industrieller Unterstützung aus Britain sollte dieses Ziel erreichbar sein."
 
  FOP_military_autarky: "Kommunarden-Waffenproduktionsunterstützung"
  FOP_military_autarky_desc: "Um Argentinien von den Reaktionären zu befreien, sollten wir unsere Militärproduktion steigern. Durch die Anforderung von Werkzeugen und Maschinen in France können wir einen stetigen Strom von Waffen sicherstellen, die von patagonischen Händen für unsere Kriegsanstrengungen hergestellt werden."
 
- FOP_expand_the_fishing_fleet: "Ausbau der Fischereiflotte"
- FOP_expand_the_fishing_fleet_desc: "Unsere Flotte kann derzeit nur die grundlegendsten Bedürfnisse unseres Volkes decken. Das ist ein Anfang, aber wenn wir mehr unserer Ressourcen für die Erweiterung unserer Flotte einsetzen, können wir die Reichtümer, die uns die Ozeane bieten können, wirklich genießen."
-
  FOP_chilean_naval_assistance: "Chilenische Marineunterstützung"
  FOP_chilean_naval_assistance_desc: "Unsere Kameraden in Santiago haben uns seit Beginn unserer Revolution mit Soldaten, Waffen und Ressourcen unterstützt. Sie sind bereit, uns beim Schiffbau industrielle Unterstützung zu leisten."
-
- FOP_request_naval_assistance: "Marine-Unterstützung Anfordern"
- FOP_request_naval_assistance_desc: "Mit einer Küstenwache zum Schutz unserer Küste müssen wir nun nach Möglichkeiten suchen, die Lebensader unserer Feinde zu treffen. Wenn unsere Verbündeten bereit sind, uns einige ihrer älteren U-Boot-Modelle zur Verfügung zu stellen, sollten wir in der Lage sein, einen Guerillakrieg unter den Meeren zu führen, falls uns jemand angreift!"
 
  FOP_request_new_submarines: "U-Boot-Entwürfe Anfordern"
  FOP_request_new_submarines_desc: "Festungen und Landkriegsführung können uns nur bis zu einem gewissen Punkt bringen. Wenn wir gegen unsere Feinde zuschlagen wollen, müssen wir alte U-Boot-Entwürfe von unseren Verbündeten in Britannien anfordern. Selbst wenn sie nur einige Relikte aus dem Weltkrieg entbehren können, würde dies einen großen Beitrag zum Schutz unserer Küste vor feindlichen Kräften leisten."
@@ -537,7 +525,6 @@
  FOP_natpop_diplomatic_connections_desc: "Unser König verbrachte während seines lebenslangen Exils viel Zeit damit, Freundschaften in hohen und niedrigen Kreisen an den Höfen und Palästen auf beiden Seiten des Atlantiks zu schließen. Noch wichtiger ist, dass die Nachricht von der Not unseres Volkes, die unter der Herrschaft der Banditen der Arbeiterfront nur noch größer wurde, bei Ausländern großes Wohlwollen hervorgerufen hat, und so wird unser Kampf um den Wiederaufbau der Nation viele bereite Verbündete in der ganzen Welt finden"
 
 ### Tooltips ###
- FOP_has_won_war_against_ARG: "§OHat den Krieg gegen [ARG.GetNameWithFlag] noch nicht beendet§!"
  FOP_starting_ideas_will_be_removed_tt: "§RAlle nationalen Geister und externe Fabriken, die durch Schwerpunkte in diesem Baum hinzugefügt werden, werden nach dem Sieg im Konflikt mit Argentinien entfernt.§!"
  FOP_volunteers_returning_home: "§gAusländische Freiwillige kehren nach Hause zurück:§!"
 
@@ -558,8 +545,6 @@
  FOP_suspended_constitution_tooltip: "§CWir werden die ausgesetzte Verfassung wiederherstellen und uns zur Republik Argentinien erklären.§!"
 
  FOP_revolutionary_democracy_tooltip: "§RDie Revolution wird fortgesetzt und die alte Ordnung wird zu einer Fußnote der argentinischen Geschichte werden.§!"
-
- FOP_expand_northern_government_tooltip: "§CWir werden beginnen, sozialistische Verwaltungen in den nördlichen Gebieten auszubauen, um unseren nördlichen Kameraden besser bei der Integration zu helfen.§!"
 
  FOP_integrate_old_bureaucracy_tooltip: "§CDie alte Bürokratie kann umfunktioniert werden, um bei der Integration Argentiniens zu helfen. Was einst ein ungerechtes System zur Unterdrückung der Bauern und Arbeiter Argentiniens war, kann nun genutzt werden, um sie zu stärken!§!"
 
@@ -582,8 +567,6 @@
  FOP_infiltrator_cells_tooltip: "$unlocks_decisions$ um Widerstandszellen in infiltrierten Staaten vorzubereiten."
  FOP_infiltrator_cells_effect_tooltip: "§7Zu Beginn des Konflikts mit Argentinien werden wir in der Lage sein, eine Terrorkampagne in dieser Region zu starten, Fabriken zu sprengen und Truppen in dem Gebiet abzulenken.§!"
 
- FOP_naval_revival_tooltip: "§7Wir werden Marine-Varianten von [ARG.GetNameWithFlag] erhalten und §Y5 'Mitre-Klasse' Zerstörer§! einsetzen§!"
-
  FOP_encourage_worker_cooperatives_tooltip: "Modifiziere §H$FOP_hogar_obrero_expansion$§! oder §H$FOP_introduction_of_worker_selfmanagement_idea$§! um\n$MODIFIER_GLOBAL_BUILDING_SLOTS_FACTOR$: [?0.1|=%0+]"
 
  FOP_no_guns: "Wir haben nichts für [FOP.GetNameDef] übrig."
@@ -592,18 +575,8 @@
  FOP_anti_syndie_rebellion_cost_blocked: "£manpower_texticon §R10000§! £war_support_texticon §R5%§!"
  FOP_anti_syndie_rebellion_cost_tooltip: "Es kostet $FOP_anti_syndie_rebellion_cost_blocked$ diese Entscheidung zu treffen"
 
- FOP_developed_rails_buenos_aires: "$has_completed_decision$Infrastruktur in [278.GetName] ausbauen§!"
- FOP_developed_rails_la_pampa: "$has_completed_decision$Züge nach [449.GetName]§!"
- FOP_developed_rails_cordoba: "$has_completed_decision$Züge nach [902.GetName]§!"
- FOP_developed_rails_santiago_del_estero: "$has_completed_decision$Züge nach [509.GetName]§!"
- FOP_developed_rails_entre_rios: "$has_completed_decision$Züge nach [510.GetName]§!"
- FOP_developed_rails_chubut: "$has_completed_decision$Züge nach [512.GetName]§!"
-
  FOP_sabotage_success_tooltip: "Ein [ARG.GetAdjective] Staat wurde §Herfolgreich sabotiert§!."
  FOP_resistance_success_tooltip: "Ein [ARG.GetAdjective] Staat hat §Haktive Widerstandszellen§!."
-
- FOP_defensive_measures_general_focus_tooltip: "§GFortschritte im Festungsbau werden die aktuelle Militäridee verbessern§!"
- FOP_knowledge_transfer_general_focus_tooltip: "§GDas Sammeln und Weitergeben von Kampferfahrung unserer Veteranen an eine neue Offiziersgeneration wird die Effektivität unserer Armee steigern und die aktuelle Militäridee verbessern§!"
 
 ### Flags ###
  FOP_steel_extraction_2_completed: "Die Stahlveredelung wurde fortgesetzt"
@@ -614,7 +587,6 @@
  FOP_resistance_ongoing: "Laufende Widerstandsmission"
 
 ### Ideas ###
- FOP_air_construction_idea: "Luftstützpunktbau"
  FOP_coast_guard_expansion_idea: "Küstenwachenerweiterung"
  FOP_coast_guard_expansion_idea2: "U-Boot-Erweiterung"
  FOP_coast_guard_expansion_idea3: "Dreadnought-Erweiterung"
@@ -659,7 +631,6 @@
  FOP_new_hierarchy: "Neue Sozialistische Hierarchie"
  FOP_breadbasket: "Revolutionäre Kornkammer"
  FOP_militarized_labour: "Militarisierte Arbeit"
- FOP_CGT_cooperation: "Zusammenarbeit mit der CGT"
  FOP_introduction_of_worker_selfmanagement_idea: "Wirtschaftsdemokratie"
  FOP_hogar_obrero_expansion: "Hogar Obrero Erweitert"
  FOP_revolutionary_laws_idea: "Revolutionäre Gesetze"
@@ -668,11 +639,9 @@
  FOP_new_society: "Eine Neue Gesellschaft"
  FOP_foreign_owned_factories: "Ausländische Fabriken"
  FOP_expropriate_foreign_owned_factories: "Enteignung der Ausländischen Fabriken"
- FOP_expropriate_foreign_owned_factories_completed: "Enteignete Ausländische Fabriken"
  FOP_primitive_collectivization: "Primitive Kollektivierung"
  FOP_nationalised_foreign_rails: "Verstaatlichte Ausländische Eisenbahnen"
  FOP_infrastructure_decisions: "Infrastrukturausbau"
- FOP_integration_time: "Integration der Gesellschaft"
  FOP_native_support: "Einheimische Unterstützung"
  FOP_code_talkers: "Mapuche Codesprecher"
  FOP_natpop_agrarian_reforms_idea: "Verbesserte Landwirtschaft"
@@ -800,64 +769,13 @@
  fop.24.d: "Was als kleine Aufstandsbewegung im Süden begann und nach Jahren der Planung und des Wartens, haben wir erfolgreich die reaktionäre Regierung in Buenos Aires besiegt und ins Exil getrieben. Während unsere Führer die Macht der Arbeiter in der Hauptstadt festigen, haben sie beschlossen, die Argentinische Republik offiziell aufzulösen und stattdessen die neue Argentinische Kommune auszurufen. Mit diesem Sieg des Proletariats an einem der unwahrscheinlichsten Orte können wir als Inspiration für Sozialisten weltweit dienen und der Internationale helfen, ihre Weltrevolution bald zu verwirklichen..."
  fop.24.a: "Großartig! Was steht als nächstes auf der revolutionären Agenda..."
 
- fop.25.t: "[FOP.GetNameDefCap] fordert Unterwerfung!"
- fop.25.d: "[FOP.GetNameDefCap] hat unserer Regierung ein Ultimatum gestellt: Entweder erlauben wir einer revolutionären Regierung, das kapitalistische System zu beseitigen, oder wir tragen die Konsequenzen für die Unterdrückung des uruguayischen Proletariats. Dies ist eine offene Drohung, und das Überleben unserer Nation hängt von unserer Entscheidung ab..."
- fop.25.a: "Lasst den Syndikalismus herrschen!"
- fop.25.b: "Wir können uns verteidigen!"
-
- fop.26.t: "Uruguay lehnt ab"
- fop.26.d: "Das reaktionäre Regime in Uruguay hat unser großzügiges Angebot, sich der Revolution anzuschließen, abgelehnt und mobilisiert nun Truppen an seinen Grenzen in Vorbereitung auf einen Krieg."
- fop.26.a: "Wir werden ihnen geben, was sie wollen..."
- fop.26.b: "Wir können uns keinen Krieg leisten, ziehen wir uns zurück."
-
- fop.27.t: "[FOP.GetNameDefCap] fordert ihre Ansprüche"
- fop.27.d: "Während Argentinien im Krieg mit den Syndikalisten in Patagonien war, nutzten wir die Gelegenheit, um einige unserer beanspruchten Gebiete zu besetzen, die die Argentinier hielten. Nun, da die Syndikalisten gewonnen und sich vollständig konsolidiert haben, fordert [FOP.GetNameDef], dass wir die kürzlich erworbenen Gebiete an sie zurückgeben."
- fop.27.a: "Wir können nicht gegen Argentinien kämpfen."
- fop.27.b: "Das ist rechtmäßig paraguayisches Land!"
-
- fop.28.t: "[FOP.GetNameDefCap] fordert ihre Ansprüche"
- fop.28.d: "Während Argentinien im Krieg mit den Syndikalisten in Patagonien war, nutzten wir die Gelegenheit, einige unserer beanspruchten Gebiete zu besetzen, die die Argentinier hielten. Nachdem die Syndikalisten jedoch gesiegt und sich vollständig konsolidiert haben, fordert [FOP.GetNameDef] nun, dass wir unsere kürzlich erworbenen Gebiete an sie zurückgeben."
- fop.28.a: "Wir können nicht gegen Argentinien kämpfen."
- fop.28.b: "Das ist rechtmäßig bolivianisches Land!"
-
  fop.29.t: "Antisozialistische Offiziere greifen Buenos Aires an!"
  fop.29.d: "Die Niederlage des alten Regimes in Buenos Aires hinterließ viele Offiziere verbittert und voller Groll gegenüber unserer glorreichen Revolution. Als Reaktion darauf hat sich eine Gruppe dieser ehemaligen Offiziere, die wir nach unserem Sieg nicht fassen konnten, mit ihren noch loyalen Männern und einem Vorrat an alten Waffen und Artillerie gegen uns mobilisiert und Buenos Aires angegriffen. Wir konnten diese reaktionäre Rebellion zerschlagen, jedoch nicht ohne beträchtliche Verluste an militärischen und zivilen Ressourcen sowie Schäden an einer nahegelegenen Industriefabrik."
  fop.29.a: "Wann wird das Kämpfen enden?"
 
- fop.30.t: "Unruhen in den Großstädten"
- fop.30.d: "Obwohl wir das Volk Argentiniens befreit haben, sehen uns viele noch immer als gewalttätige Besatzer anstatt als Befreier. In Städten wie Salta oder Mendoza, wo unsere Kontrolle bestenfalls schwach ist, sind große Unruhen ausgebrochen. Während wir Verstärkung entsenden, ist abzusehen, dass diese Unruhen nur weitere Proteste in nun ungeschützten Gebieten des Landes inspirieren werden und die mangelnde Unterstützung unseres Regimes in der Gesamtbevölkerung deutlich zeigen."
- fop.30.a: "Verdammt."
-
- fop.31.t: "[FOP.GetName] bittet um Aufnahme in die Dritte Internationale"
- fop.31.d: "Die sozialistische Revolution in Argentinien ist nun vollendet und bringt damit einen neuen Verbündeten auf die Bühne. Mit ihrem Sieg entsteht ein weiterer revolutionärer Außenposten, von dem aus die Kräfte des internationalen Kapitalismus niedergeschlagen werden sollen. Die Bauern und Arbeiter Argentiniens erwarten begierig die Chance, die Revolution weiter zu verbreiten!"
- fop.31.a: "Willkommen in der Internationale!"
- fop.31.b: "Wir brauchen die Argentinier nicht."
-
- fop.32.t: "Frankreich stimmt zu!"
- fop.32.d: "Frankreich hat unserem Antrag auf Beitritt zur Dritten Internationale zugestimmt und wir stehen nun gemeinsam für die Weltrevolution ein"
- fop.32.a: "Ein weiterer Sieg für den Sozialismus."
-
- fop.33.t: "Frankreich lehnt ab"
- fop.33.d: "Frankreich hat unseren Antrag auf Beitritt zur Dritten Internationale abgelehnt. Mit der Begründung, dass Argentinien nach einem tödlichen Bürgerkrieg unnötig in die Schusslinie gezogen würde, bleibt uns keine andere Wahl, als uns wieder aufzubauen und uns selbst zu schützen, während Frankreich die Revolution alleine anführt."
- fop.33.a: "Verdammt."
-
- fop.34.t: "Paraguay lehnt ab"
- fop.34.d: "Paraguay hat sich geweigert, uns ihr Land friedlich zu überlassen, und hat begonnen, Truppen an der Grenze für unseren Angriff zu mobilisieren. Wie sollen wir darauf reagieren?"
- fop.34.a: "Reaktionäre machen uns keine Angst!"
- fop.34.b: "Wir können uns jetzt keinen Krieg leisten."
-
- fop.35.t: "Bolivien lehnt ab"
- fop.35.d: "Bolivien hat sich geweigert, uns ihr Land friedlich zu überlassen, und hat begonnen, Truppen an der Grenze für unseren Angriff zu mobilisieren. Wie sollen wir darauf reagieren?"
- fop.35.a: "Zum Krieg!"
- fop.35.b: "Wir können uns jetzt keinen Krieg leisten."
-
  fop.41.t: "Einwanderungsbericht, [GetYear]"
  fop.41.d: "Angesichts der zunehmenden Spannungen in Europa und der Tatsache, dass viele Sozialisten unsere Nation als den perfekten Ort für die Fortsetzung der Revolution sehen, haben sich große Gruppen von Einwanderern entschieden, den Ozean zu überqueren und frei unter dem Sozialismus zu leben."
  fop.41.a: "Willkommen in Argentinien!"
-
- fop.58.t: "Chile gewährt uns Unabhängigkeit"
- fop.58.d: "In Anbetracht unserer starken Beiträge zum Krieg gegen Argentinien und unserer guten gegenseitigen Beziehungen hat Chile unserem Antrag auf gegenseitige Unabhängigkeit stattgegeben und uns erlaubt, eine vollständig unabhängige Nation außerhalb ihrer Herrschaft zu werden. Wir werden die Großzügigkeit, die sie uns heute gezeigt haben, nicht vergessen."
- fop.58.a: "Wunderbar!"
 
  fop.59.t: "[From.GetNameDefCap] sendet Männer und Ausrüstung"
  fop.59.d: "Angesichts unserer verzweifelten Überlebenslage haben unsere Waffenbrüder in [From.GetNameDef] es für richtig befunden, uns nicht nur eine große Anzahl von Männern, sondern auch eine bedeutende Lieferung von Waffen zu schicken, um uns in unserem Kampf für die Revolution zu unterstützen."
@@ -878,14 +796,6 @@
  fop.63.t: "[From.GetNameDefCap] lehnt ein Bündnis ab"
  fop.63.d: "Wir haben eine kurze diplomatische Mitteilung erhalten, dass [From.GetNameDef] unser Angebot eines Militärbündnisses geprüft hat und zu dem Schluss gekommen ist, dass es derzeit nicht in ihrem Interesse liegt. Trotz unserer Bemühungen scheinen sie kein Interesse an einem Zusammenschluss mit uns zu haben."
  fop.63.a: "Bedauerlich."
-
- fop.64.t: "Uruguay stimmt zu"
- fop.64.d: "Die uruguayische Regierung ist unseren Forderungen nachgekommen und eine revolutionäre Regierung tritt nun an ihre Stelle. Diese Nachrichten wurden von anderen Mitgliedern der Internationale sehr positiv aufgenommen und als diplomatischer Sieg für den Sozialismus gewertet."
- fop.64.a: "Glücklicherweise wurde kein proletarisches Blut vergossen."
-
- fop.65.t: "[From.GetNameDefCap] Gibt Unser Territorium Zurück"
- fop.65.d: "[From.GetNameDefCap] hat sich entschieden, unser rechtmäßiges Territorium zurückzugeben, anstatt sich unseren mächtigen Armeen im Feld zu stellen. Unsere Streitkräfte sind eingerückt, um das abgetretene Gebiet zu besetzen, und die Gebietsübertragung verlief bisher friedlich."
- fop.65.a: "Ein weiterer Sieg für die Revolution!"
 
  fop.100.t: "Unterstützung von den Einheimischen Bevölkerungen Erbitten"
  fop.100.d: "Bei unserer verzweifelten Suche nach Arbeitskräften haben wir eine große Quelle weitgehend ignoriert: die Ureinwohner Patagoniens. Während viele einheimische Gruppen sich der Arbeiterbewegung entfremdet fühlen, da sie generell von der argentinischen Gesellschaft entfremdet sind, könnten wir vielleicht dennoch eine gemeinsame Basis gegen eine Regierung finden, die sie seit einem halben Jahrhundert benachteiligt, und wir könnten ihre Hilfe gewinnen, solange wir versprechen, ihnen nach unserem Sieg die dringend benötigte Autonomie zu gewähren."
@@ -1066,7 +976,6 @@
  fop.223.b: "Die Argentinier haben Recht!"
 
  FOP_INT_refused_help: "Die Internationale unterstützt Andesien"
- FOP_INT_can_back_the_target_tt: "Erhält Ereignis '§YArgentinien fordert die Integration von [?andesia_crisis_tag.GetName]§!'."
 
  fop.224.t: "[INT.GetName] unterstützt das [andesia_crisis_tag.GetAdjective] Regime"
  fop.224.d: "[INT.GetNameDefCap] hat unsere Argumentation nicht nachvollzogen und sich auf die Seite der [andesia_crisis_tag.GetAdjective]n gestellt. Wir müssen uns der Internationale stellen und siegen, wenn wir uns durchsetzen wollen."
@@ -1237,15 +1146,6 @@
  fop.355.t: "Patagonischer Terror!"
  fop.355.d: "Mit der erneuten Verschärfung unseres Konflikts mit den heimtückischen Patagoniern häufen sich die Berichte über Terrorakte in unserem Gebiet. Mehrere patagonische Rebellen haben sich eingeschleust und führen Terrorkampagnen gegen unsere Streitkräfte durch, wobei sie lokale Aufstände gegen unsere Regierung anstiften. Aufgrund dieser feigen Tat waren wir gezwungen, bewaffnete Polizei und Soldaten einzusetzen, um Sicherungsoperationen gegen diese Banditen durchzuführen. Auch wenn dies kaum ein kritischer Schlag gegen unsere Kriegsanstrengungen ist, wird es einige Zeit dauern, bis wir sie endgültig ausrotten können."
  fop.355.a: "Waren wir blind?! Schickt die Armee!"
-
- fop.356.t: "Patagonien sucht U-Boot-Unterstützung"
- fop.356.d: "Die Patagonier haben uns kontaktiert, um unsere Unterstützung beim Aufbau einer kleinen Marine zu erhalten. Sie bitten um technische Berater, Ingenieure und U-Boot-Baupläne, damit sie ihre Gewässer mit ihren begrenzten Ressourcen besser verteidigen können."
- fop.356.a: "Schickt die Ressourcen."
-
- fop.357.t: "Patagonien erbittet weitere U-Boot-Unterstützung"
- fop.357.d: "Mit den Ressourcen, die wir den Patagoniern zuvor geschickt haben, glauben sie nun, ihre ersten U-Boote zu Wasser lassen und mit Feldversuchen beginnen zu können. Sie bitten uns jetzt, einige Berater zu entsenden, um die Schiffe besser zu führen und ihre Offiziere in den richtigen Verfahren zu unterweisen."
- fop.357.a: "Natürlich, alles für unsere Freunde."
- fop.357.b: "Wir können nichts entbehren."
 
  fop.400.t: "Die Internationale unterstützen"
  fop.400.d: "Mit einem vereinten Argentinien und unserem stabilisierten Regime ist es Zeit, unsere Schulden bei unseren europäischen Kameraden zu begleichen. Ein neuer Weltkrieg entscheidet über das Schicksal der Europäischen Revolution, und unsere Verbündeten brauchen dringend Nahrung, Ressourcen und Industrie, um erfolgreich zu sein. [ENG.GetAdjective] und [FRA.GetAdjective] Botschafter bitten weiterhin um wirtschaftliche Unterstützung - was können wir entbehren?"
@@ -1509,6 +1409,35 @@
  fopking.02.b: "Der Katholizismus wird bleiben."
  fopking.02.c: "Wir sollten nach Toleranz in unserer Gesellschaft streben - jeder Glaube soll seinen Platz haben."
 
+### News Events ###
+ fopnews.1.t: "Ausrufung der [FROM.GetName]"
+ fopnews.1.d: "Die Kräfte der Frente Obrero Patagónico haben einen entscheidenden Sieg über Carlés' Argentinien errungen und die Hauptstadt Buenos Aires eingenommen. Mit diesem Sieg haben die Sozialisten offen die Schaffung einer \"wahren\" [FROM.GetName] und den Beginn einer neuen Ära für den Sozialismus in Südamerika verkündet. Eine Reihe von führenden Persönlichkeiten der vorherigen Regierung sowie andere Prominente wurden dabei beobachtet, wie sie mit dem Schiff aus dem Land flohen.\n\nObwohl die Mehrheit der Bevölkerung des Landes nach wie vor ablehnend gegenüber sozialistischen Politikmaßnahmen eingestellt ist, könnte der Aufstieg eines syndikalistischen Argentiniens das empfindliche Gleichgewicht der regionalen Politik für die kommenden Jahre durcheinanderbringen."
+ fopnews.1.a: "Ein bedeutender Sieg für den Sozialismus."
+
+ fopnews.2.t: "Gemäßigte Sozialisten stellen [FROM.GetName] wieder her"
+ fopnews.2.d: "Als der Krieg zwischen Carlés' Argentinien und dem von Chile unterstützten Patagonien tobte, hätte niemand gedacht, dass [FROM.GetName] diesen Tag überleben würde. In einer erstaunlichen Wendung der Ereignisse hat die von Palacios angeführte Koalition der USA die Wiedergeburt von [FROM.GetName] und die Rückkehr der ausgesetzten Verfassung erklärt.\n\nUnter Einbeziehung vieler Mitglieder der anderen Fraktionen haben sie begonnen, ein liberaleres demokratisches System einzuführen als ihre Genossen oder das Carlés-Regime. Es ist ungewiss, ob Patagonien die Turbulenzen eines solchen Regimewechsels überstehen wird, aber viele setzen Hoffnungen in das neue Regime und seine isolationistische Politik."
+ fopnews.2.a: "Viel Glück für sie."
+
+ fopnews.3.t: "Kommunisten ergreifen die Macht in Argentinien"
+ fopnews.3.d: "Nach dem Sieg der Sozialisten im Argentinisch-Chilenischen Krieg schien sich die Lage für die argentinische Nation langsam zu beruhigen. Die Ergebnisse des jüngsten argentinischen Gewerkschaftskongresses schienen jedoch für das Comite de Unidad Sindical Clasista (CUSC) unter der Führung seines derzeitigen Vorsitzenden Liborio Justo nicht zufriedenstellend zu sein, weshalb es einen Staatsstreich anführte.\n\nObwohl sie auf einigen Widerstand stießen, konnten die Streitkräfte der noch jungen Regierung die Kommunisten nicht aufhalten, und der Kongress hat nun die vollständige Kontrolle über den CUSC übernommen. Ob dies den gewalttätigen politischen Auseinandersetzungen in Argentinien ein Ende setzen oder die Spannungen in der kriegsmüden Bevölkerung weiter verschärfen wird, bleibt abzuwarten..."
+ fopnews.3.a: "Sozialistische Aufrufe zur Einheit scheinen nur bis zu einem gewissen Punkt zu wirken..."
+ fopnews.3.b: "Genosse gegen Genosse, ist das wirklich der richtige Weg?"
+
+ fopnews.4.t: "Radikale Anarchisten ergreifen die Macht in Argentinien"
+ fopnews.4.d: "Nach dem Sieg der Sozialisten im Argentinisch-Chilenischen Krieg schien sich die Regierung langsam für die argentinische Nation zu etablieren. Die Ergebnisse des jüngsten argentinischen Gewerkschaftskongresses schienen jedoch für die Unión Sindical Argentina (USA) nicht zufriedenstellend zu sein. Während die Gemäßigten das Ergebnis akzeptierten, inszenierten die Radikalen unter der Führung von Severino di Giovanni schnell ihre eigene Machtübernahme.\nNachdem sie zum Präsidentenpalast marschiert waren, übernahmen sie den Kongress, wo Severino nun als Vorsitzender vereidigt wurde und die rivalisierenden Gewerkschaften der USA aus dem Kongress entfernt wurden. Ob dies den gewalttätigen politischen Auseinandersetzungen in Argentinien ein Ende setzen oder die Spannungen mit der kriegsmüden Bevölkerung weiter verschärfen wird, bleibt abzuwarten..."
+ fopnews.4.a: "Sozialistische Aufrufe zur Einheit scheinen nur bis zu einem gewissen Punkt zu wirken..."
+ fopnews.4.b: "Genosse gegen Genosse, ist das wirklich der richtige Weg?"
+
+ fopnews.5.t: "[FOP.GetAdjective] Vorsitzender tot aufgefunden"
+ fopnews.5.d: "Nach dem Sieg der Sozialisten im argentinisch-chilenischen Krieg schien sich die Lage für die argentinische Nation langsam zu beruhigen. Angesichts der Ergebnisse, die auf eine klare Mehrheit der Unión Sindical Argentina (USA) hindeuteten, erwarteten viele, dass die neue Regierung endlich für Stabilität sorgen würde. Doch es sollte anders kommen, denn der Vorsitzende Antonio Soto und sein wichtigster politischer Verbündeter, Emilio Lopez Arango, wurden tot aufgefunden.\nDie nun führerlosen Gemäßigten in der USA verloren schnell ihren Einfluss auf die Gewerkschaft an den Anführer der Radikalen, Severino di Giovanni, der rasch eine Verschwörung der anderen Kongressfraktionen aufdeckte und eine Machtübernahme durchführte. Während viele die Aufdeckung dieser Verschwörung als Wendepunkt für die politische Stabilität Argentiniens betrachten, fragen sich andere, ob die Herrschaft von Severino den Erwartungen seiner Vorgänger gerecht werden wird."
+ fopnews.5.a: "Wie barbarisch!"
+ fopnews.5.b: "Hoffen wir, dass der neue Vorsitzende mit der Situation fertig wird."
+
+ fopnews.6.t: "Vorsitzender Baldomero von seinem Amt entfernt"
+ fopnews.6.d: "Nach dem Sieg der Sozialisten im Argentinisch-Chilenischen Krieg schien sich die Lage für Argentinien zu beruhigen. Angesichts der Ergebnisse, die auf eine klare Mehrheit der Federación Obrera Regional Argentina (FORA) hindeuteten, erwarteten viele, dass die neue Regierung ihre Aufgaben übernehmen und die Lage endlich stabilisieren würde. Leider kam es jedoch nie dazu, da anarchistische und kommunistische Kräfte in der Hauptstadt aufeinanderprallten und die siegreiche Seite aus der Auseinandersetzung schnell gegen die Truppen von Präsident Baldomero vorging. Nachdem sie Baldomeros Rücktritt erzwungen hatten, übernahmen die Kräfte von [FOP.GetLeader] schnell den Kongress, vertrieben die Opposition und vereidigten [FOP.GetLeader] als neuen Vorsitzenden. Ob dies den gewalttätigen politischen Auseinandersetzungen in Argentinien ein Ende setzen oder die Spannungen mit der kriegsmüden Bevölkerung weiter verschärfen wird, bleibt abzuwarten..."
+ fopnews.6.a: "Sozialistische Aufrufe zur Einheit scheinen nur bis zu einem gewissen Punkt zu wirken..."
+ fopnews.6.b: "Genosse gegen Genosse, ist das wirklich der richtige Weg?"
+
 ### Decisions ###
  FOP_industrial_planning_scheme_decisions: "Große Fortschrittsarbeiten"
  FOP_industrial_planning_scheme_decisions_desc: "Ein neuer Krieg steht am Horizont, und die Reaktionäre in Buenos Aires können ihn jederzeit beginnen, daher müssen wir vorbereitet sein. Neue Straßen, Versorgungszentren, erweiterte Nahrungsmittelproduktion und das Eisenbahnnetz haben das Potenzial, unsere Versorgungskette erheblich zu stärken und uns die Stationierung zusätzlicher Truppen zu ermöglichen."
@@ -1531,12 +1460,10 @@
  ARG_immigration_dynamic_modifier_add_tt: "Fügt Modifikator hinzu: §YEinwanderung nach Argentina§!"
  ARG_immigration_dynamic_modifier_tt: "§LNach der Stabilisierung unserer Nation können wir nun die zunehmende Einwanderung in unser Land nutzen. Menschen aus der Alten Welt, die vor Kriegen und Instabilität fliehen, sind begierig darauf, sich in Argentina niederzulassen. Die Einwanderung beschleunigt die laufende Industrialisierung, erhöht aber die Spannungen in der Gesellschaft.\n\nDieser Modifikator wird mit der Ankunft weiterer Einwanderer in unserem Land erhöht.§!\n\n"
 
- FOP_resource_exploitation_decisions: "Patagonische Ressourcenausbeutung"
  FOP_steel_extraction_1: "Stahlveredelung beginnt"
  FOP_steel_extraction_2: "Stahlveredelung erweitert sich"
  FOP_oil_extraction_1: "Ölförderung beginnt"
  FOP_oil_extraction_2: "Ölförderung expandiert"
- FOP_Found_Acindar: "Gründung von Acindar"
  FOP_combined_resource_exploitation: "Patagonische Ressourcenausbeutung abgeschlossen"
 
  FOP_core_Argentina_decisions: "Integration Nordargentiniens"

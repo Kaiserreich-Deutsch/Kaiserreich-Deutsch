@@ -28,23 +28,23 @@
  CUB_national_populist_party_long: "Legión Revolucionaria Nacional\n§LDie Nationale Revolutionäre Legion ist die bedeutendste der gewalttätigen paramilitärischen 'Grünhemden'-Organisationen, die der Authentischen Bewegung angehören.\n\nWährend die führenden Mitglieder der Legion verschiedenste politische Hintergründe haben, einschließlich einiger ehemaliger Verbündeter von Geraldo Machado, entstand die Legion selbst aus militanten Anti-Machado-Gruppen. Die politische Neuausrichtung nach Machados Fall führte dazu, dass viele dieser Gruppen sich auflösten oder zusammenschlossen - der Diktator, gegen den sie gegründet wurden, war geflohen - aber das aufkommende militärische Hybridregime erwies sich als ein ebenso verlockender und mächtiger Feind wie Machado selbst. Schließlich wurde die Legion, wie auch andere Gruppen, vollständig in die Authentische Bewegung aufgenommen und ihre Mitglieder gingen größtenteils zusammen mit der Autentico-Führung in den Untergrund.§!\n"
 
  CUB_totalist_party_socrev: "Comunistas"
- CUB_totalist_party_long_socrev: "Comunistas"
+ CUB_totalist_party_socrev_long: "Comunistas"
  CUB_syndicalist_party_socrev: "Trabajadores"
- CUB_syndicalist_party_long_socrev: "Trabajadores"
+ CUB_syndicalist_party_socrev_long: "Trabajadores"
  CUB_radical_socialist_party_socrev: "Revolucionarios"
- CUB_radical_socialist_party_long_socrev: "Revolucionarios"
+ CUB_radical_socialist_party_socrev_long: "Revolucionarios"
 
  CUB_totalist_party_totemb: "Totalistas"
- CUB_totalist_party_long_totemb: "Partido Totalistas"
+ CUB_totalist_party_totemb_long: "Partido Totalistas"
 
  CUB_authoritarian_democrat_party_nat: "Auténtico"
- CUB_paternal_autocrat_party_long_nat: "Partido Revolucionario Cubano - Auténtico"
+ CUB_authoritarian_democrat_party_nat_long: "Partido Revolucionario Cubano - Auténtico"
 
  CUB_paternal_autocrat_party_diazgov: "Progresista"
- CUB_paternal_autocrat_party_long_diazgov: "Partido Progesista"
+ CUB_paternal_autocrat_party_diazgov_long: "Partido Progesista"
 
  CUB_radical_socialist_party_radsocdem: "Liberación Nacional"
- CUB_radical_socialist_party_long_radsocdem: "Partido de Liberación Nacional"
+ CUB_radical_socialist_party_radsocdem_long: "Partido de Liberación Nacional"
 
 ### Focus Trees ###
  CUB_focus: "Schwerpunktbaum von Kuba"
@@ -543,7 +543,6 @@
  CUB_strike_success: "Der Generalstreik von Havanna hat die Regierung gestürzt"
  CUB_socialists_consolidate: "Sozialisten festigen Macht"
  CUB_natpop_march: "Autentico Paramilitärs organisieren sich"
- CUB_pol_tree_finished: "$has_completed_focus$$CUB_new_cuba$§!"
  CUB_chose_navy: "Marine gewählt"
  CUB_chose_airforce: "Luftstreitkräfte gewählt"
  syndiecongvic: "Syndikalisten siegreich"
@@ -594,9 +593,9 @@
  CUBelectionsallowed: "§GNormale Wahlen werden ermöglicht§!\n"
  CUB_milint_tooltip: "Unsere Fraktionsmitglieder erhalten einen kleinen Bonus auf militärische Erfahrung und ihre Meinung von uns wird sich leicht verbessern."
  CUB_amjoinlater_tt: "Sollten unsere amerikanischen Verbündeten einer Fraktion beitreten oder eine gründen, erhalten wir sofort eine Entscheidung, derselben Allianz beizutreten."
- CUB_csawon_tt: "Die CSA hat den amerikanischen Bürgerkrieg gewonnen"
+ CUB_wcawon_tt: "Die WCA hat den amerikanischen Bürgerkrieg gewonnen"
  blasmelmil_tt: "Unsere Sozialistische Miliz-Idee wird basierend auf unserer Wahl zwischen Blas oder Mella verbessert."
- CUB_hailcol_idea_tt: "(§Y[USA.GetFlag][CSA.GetFlag][TEX.GetFlag][PSA.GetFlag][NEE.GetFlag] Jede amerikanische Fraktion§!) Angriffsbonus gegen Land: §G+20%§!, Verteidigungsbonus gegen Land: §G+20%§!"
+ CUB_hailcol_idea_tt: "(§Y[USA.GetFlag][WCA.GetFlag][APG.GetFlag][ACC.GetFlag][NEE.GetFlag] Jede amerikanische Fraktion§!) Angriffsbonus gegen Land: §G+20%§!, Verteidigungsbonus gegen Land: §G+20%§!"
 
 ### Scripted Loc ###
  CUB_hasherreraornot_yes: "Außerdem wurde General Alberto Herrera Franchi, seit langem ein Kritiker von General Díaz, entlassen, nachdem er seinen einst beträchtlichen politischen Einfluss endgültig verloren hat."
@@ -618,7 +617,6 @@
  CUB_summitbad: "Karibikgipfel verweigert"
  CUB_summitdenounce: "Formelle Verurteilung"
  CUB_totdiplo: "Totalistische Diplomatie"
- CUB_amerlobby: "Amerikanische Lobbyarbeit"
  CUB_milint_opinion: "Militärische Zusammenarbeit"
  CUB_wifecon: "Wirtschaftliche Zusammenarbeit"
  CUB_sabotage: "Kubanische Sabotage"
@@ -866,17 +864,17 @@
  CUB_indag_support_idea: "Kubanische Fertigungsunterstützung"
  CUB_indag_support_idea_desc: "Auch wenn der Beitrag im Vergleich zum Umfang des Amerikanischen Bürgerkriegs klein ist, hat die kubanische Industrieunterstützung einen spürbaren Einfluss auf seinen amerikanischen Verbündeten."
 
- CUB_acwvolcsa_idea: "Sozialistische Intervention"
- CUB_acwvolcsa_idea_desc: "Kuba hat den Vereinigten Syndikaten im Amerikanischen Bürgerkrieg militärische Unterstützung geleistet."
- CUB_acwvolcsa_idea_tt: "(§Y[CSA.GetNameWithFlag]§!) $volunteer_limit_plus_three_tt$"
+ CUB_acwvolwca_idea: "Sozialistische Intervention"
+ CUB_acwvolwca_idea_desc: "Kuba hat [WCA.GetNameDef] im Amerikanischen Bürgerkrieg militärische Unterstützung geleistet."
+ CUB_acwvolwca_idea_tt: "(§Y[WCA.GetNameWithFlag]§!) $volunteer_limit_plus_three_tt$"
 
  CUB_acwvolusa_idea: "Föderale Intervention"
  CUB_acwvolusa_idea_desc: "Kuba hat der Föderalen Regierung im Amerikanischen Bürgerkrieg militärische Unterstützung geleistet."
  CUB_acwvolusa_idea_tt: "(§Y[USA.GetNameWithFlag]§!) $volunteer_limit_plus_three_tt$"
 
- CUB_acwvoltex_idea: "Longistische Intervention"
- CUB_acwvoltex_idea_desc: "Kuba hat dem Unionsstaat militärische Unterstützung im Amerikanischen Bürgerkrieg gewährt."
- CUB_acwvoltex_idea_tt: "(§Y[TEX.GetNameWithFlag]§!) $volunteer_limit_plus_three_tt$"
+ CUB_acwvolapg_idea: "Longistische Intervention"
+ CUB_acwvolapg_idea_desc: "Kuba hat [APG.GetNameDef] militärische Unterstützung im Amerikanischen Bürgerkrieg gewährt."
+ CUB_acwvolapg_idea_tt: "(§Y[APG.GetNameWithFlag]§!) $volunteer_limit_plus_three_tt$"
 
  CUB_permaudit_idea: "Aufsichtswiderstand"
  CUB_permaudit_idea_desc: "Auch nachdem die problematischsten Elemente in der Armee beseitigt wurden, hat die Einrichtung eines Regierungsausschusses zur Überwachung und Prüfung militärischer Aktivitäten und Entscheidungen zu Unmut in den Streitkräften geführt."
@@ -904,8 +902,8 @@
  CUB_american_loyal_idea_4_desc: "Obwohl Kuba ernsthafte politische Reformen durchlaufen hat, bleibt sein Regime im Grunde dasselbe wie das, welches wir nach seiner kurzlebigen sozialistischen Revolution eingesetzt haben."
  CUB_demecon_idea: "Wirtschaftliche Annäherungsinitiative"
  CUB_demecon_idea_desc: "Kuba hat stark in die Reparatur der Schäden investiert, die der zivilen Integrität der Nation durch Jahre der Diktatur und militärischer Unterwanderung zugefügt wurden."
- CUB_cananticsasupport: "Herstellung kanadischer Waffen"
- CUB_cananticsasupport_desc: "Kuba stellt kanadische Handfeuerwaffen zur Unterstützung des Krieges gegen die Vereinigten Syndikate von Amerika her."
+ CUB_canantiwcasupport: "Herstellung kanadischer Waffen"
+ CUB_canantiwcasupport_desc: "Kuba stellt kanadische Handfeuerwaffen zur Unterstützung des Krieges gegen [WCA.GetNameDef] her."
  CUB_longjustblas: "Tiefe Wurzeln"
  CUB_longjustblas_desc: "Um die Oberhand zu gewinnen, haben die konkurrierenden Revolucionario- und Comunista-Fraktionen parallele Systeme politischer Organisation etabliert. Während diese Systeme sich ausschließlich durch Plünderung der Staatskassen finanzieren, sind diese ansonsten räuberischen Institutionen ein Albtraum für potenzielle Invasoren."
  CUB_socliscences: "Eine eigenartige Diplomatie"
@@ -954,16 +952,16 @@
 
  CUB_USAcivilwar_decisions: "Entscheidungen zum Amerikanischen Bürgerkrieg"
  CUB_USAcivilwar_decisions_desc: "Entscheidungen in Bezug auf den Amerikanischen Bürgerkrieg."
- CUB_waited_promotesoc_CSAdecision: "Material an die VSA senden"
- CUB_waited_promotesoc_CSAdecision_desc: "Wir können Kriegsmaterial für die Kriegsanstrengungen der VSA produzieren. Auch wenn der Schmuggel der Versorgungsgüter in ihr Gebiet schwierig sein könnte, halten wir es für machbar."
- CUB_waited_promotenonsoc_USAdecision: "Material an die USA senden"
+ CUB_waited_promotesoc_WCAdecision: "Material an [WCA.GetNameDef] senden"
+ CUB_waited_promotesoc_WCAdecision_desc: "Wir können Kriegsmaterial für die Kriegsanstrengungen [WCA.GetNameDef] produzieren. Auch wenn der Schmuggel der Versorgungsgüter in ihr Gebiet schwierig sein könnte, halten wir es für machbar."
+ CUB_waited_promotenonsoc_USAdecision: "Material an die Bundesregierung senden"
  CUB_waited_promotenonsoc_USAdecision_desc: "Wir können Kriegsmaterial für die Kriegsanstrengungen der Bundesregierung produzieren. Auch wenn der Schmuggel der Versorgungsgüter in ihr Gebiet schwierig sein könnte, halten wir es für machbar."
- CUB_waited_promotenonsoc_PSAdecision: "Material an die PSA senden"
- CUB_waited_promotenonsoc_PSAdecision_desc: "Wir können Kriegsmaterial für die Kriegsanstrengungen der Pazifischen Staaten produzieren. Auch wenn der Schmuggel der Versorgungsgüter in ihr Gebiet schwierig sein könnte, halten wir es für machbar."
- CUB_waited_promotenonsoc_TEXdecision: "Material an den AUS senden"
- CUB_waited_promotenonsoc_TEXdecision_desc: "Wir können Kriegsmaterial für die Kriegsanstrengungen des Unionsstaates produzieren. Auch wenn der Schmuggel der Versorgungsgüter in ihr Gebiet schwierig sein könnte, halten wir es für machbar."
- CUB_waited_promotesoc_noCSAdecision: "Verdeckte Operationen"
- CUB_waited_promotesoc_noCSAdecision_desc: "Da die Vereinigten Syndikate von den Reaktionären zerschlagen wurden, können wir zumindest die wenigen verbliebenen Sozialisten in den Vereinigten Staaten unterstützen, die sich der kapitalistischen Vorherrschaft widersetzen. Dies sollte zumindest die Stabilität der verbleibenden Kriegsparteien untergraben."
+ CUB_waited_promotenonsoc_ACCdecision: "Material an [ACC.GetNameDef] senden"
+ CUB_waited_promotenonsoc_ACCdecision_desc: "Wir können Kriegsmaterial für die Kriegsanstrengungen [ACC.GetNameDef] produzieren. Auch wenn der Schmuggel der Versorgungsgüter in ihr Gebiet schwierig sein könnte, halten wir es für machbar."
+ CUB_waited_promotenonsoc_APGdecision: "Material an [APG.GetNameDef] senden"
+ CUB_waited_promotenonsoc_APGdecision_desc: "Wir können Kriegsmaterial für die Kriegsanstrengungen [APG.GetNameDef] produzieren. Auch wenn der Schmuggel der Versorgungsgüter in ihr Gebiet schwierig sein könnte, halten wir es für machbar."
+ CUB_waited_promotesoc_noWCAdecision: "Verdeckte Operationen"
+ CUB_waited_promotesoc_noWCAdecision_desc: "Da [WCA.GetNameDef] von den Reaktionären zerschlagen wurden, können wir zumindest die wenigen verbliebenen Sozialisten in den Vereinigten Staaten unterstützen, die sich der kapitalistischen Vorherrschaft widersetzen. Dies sollte zumindest die Stabilität der verbleibenden Kriegsparteien untergraben."
 
  CUB_geraesthetic_decisions: "Deutsche Entscheidungen"
  CUB_geraesthetic_decisions_desc: "Entscheidungen in dieser Kategorie beinhalten die Nachahmung der Ästhetik des Deutschen Reiches."
@@ -1536,19 +1534,19 @@
 
  cuba.124.t: "Amerikanische Diplomatie"
  cuba.124.d_1: "Während wir unser Schicksal bereits vollständig mit dem der Amerikaner verbunden haben, können wir noch mehr tun, um engere Beziehungen zu fördern. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, gibt es einige abweichende Stimmen, die behaupten, wir hätten bereits genug getan, um die gegenseitige Freundschaft zu fördern."
- cuba.124.d_2: "Die Vereinigten Syndikate haben den amerikanischen Bürgerkrieg gewonnen. Nachdem wir uns verpflichtet haben, unsere Beziehungen zu Amerika zu verbessern, wären wir sicherlich Narren, keine ständige Delegation zum neuen leuchtenden Leuchtturm der Freiheit im Norden zu entsenden."
- cuba.124.d_3: "Die Bundesregierung hat den amerikanischen Bürgerkrieg gewonnen. Während wir seit langem eine enge Beziehung zu den Vereinigten Staaten pflegen, ist vielleicht die Zeit gekommen, dass unsere beiden großen Nationen noch näher zusammenrücken. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, gibt es einige abweichende Stimmen, die behaupten, wir hätten bereits genug getan, um die gegenseitige Freundschaft zu fördern."
- cuba.124.d_4: "Die Bundesregierung hat den amerikanischen Bürgerkrieg gewonnen. Während wir seit langem eine enge Beziehung zu den Vereinigten Staaten pflegen, haben unsere gegenwärtigen politischen Meinungsverschiedenheiten einen Keil in unsere gegenseitigen Beziehungen getrieben. Vielleicht ist die Zeit gekommen, dass unsere beiden großen Nationen ihren Streit beenden. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, sind viele dagegen und finden die Aussicht auf eine Annäherung an die Vereinigten Staaten entsetzlich."
- cuba.124.d_5: "Die Pazifische Regierung hat den amerikanischen Bürgerkrieg gewonnen. Während wir seit langem eine enge Beziehung zu den Vereinigten Staaten pflegen, deren ununterbrochene Fortsetzung die neue Regierung Amerikas zu sein beansprucht, ist vielleicht die Zeit gekommen, dass unsere beiden großen Nationen noch näher zusammenrücken. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, gibt es einige abweichende Stimmen, die behaupten, wir hätten bereits genug getan, um die gegenseitige Freundschaft zu fördern."
- cuba.124.d_6: "Die Pazifische Regierung hat den amerikanischen Bürgerkrieg gewonnen. Während wir seit langem eine enge Beziehung zu den Vereinigten Staaten pflegen, deren ununterbrochene Fortsetzung die neue Regierung Amerikas zu sein beansprucht, haben unsere gegenwärtigen politischen Meinungsverschiedenheiten einen Keil in unsere gegenseitigen Beziehungen getrieben. Vielleicht ist die Zeit gekommen, dass unsere beiden großen Nationen ihren Streit beenden. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, sind viele dagegen und finden die Aussicht auf eine Annäherung an die neuen Vereinigten Staaten entsetzlich."
- cuba.124.d_7: "Der Unionsstaat hat den amerikanischen Bürgerkrieg gewonnen. Da unsere Nationen keine bedeutenden politischen Meinungsverschiedenheiten haben, ist vielleicht die Zeit gekommen, dass unsere beiden großen Nationen näher zusammenrücken. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, gibt es einige abweichende Stimmen, die die Vorstellung einer Annäherung an den Unionsstaat entsetzlich finden."
- cuba.124.d_8: "Die Neuengland-Regierung hat den amerikanischen Bürgerkrieg gewonnen. Während wir seit langem eine enge Beziehung zu den Vereinigten Staaten pflegen, deren ununterbrochene Fortsetzung die neue Regierung Amerikas zu sein beansprucht, ist vielleicht die Zeit gekommen, dass unsere beiden großen Nationen noch näher zusammenrücken. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, gibt es einige abweichende Stimmen, die behaupten, wir hätten bereits genug getan, um die gegenseitige Freundschaft zu fördern."
- cuba.124.d_9: "Die Regierung Neuenglands hat den amerikanischen Bürgerkrieg gewonnen. Während wir lange Zeit eine enge Beziehung zu den Vereinigten Staaten pflegten, deren ungebrochene Fortsetzung die neue amerikanische Regierung zu sein behauptet, haben unsere gegenwärtigen politischen Meinungsverschiedenheiten unsere gegenseitigen Beziehungen belastet. Vielleicht ist die Zeit gekommen, dass unsere beiden großen Nationen ihren Streit beenden. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu leisten und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, widersprechen viele und finden die Aussicht auf eine Annäherung an die neuen Vereinigten Staaten erschreckend, besonders angesichts der Verbindung zwischen dem Neuengland-Regime und Kanada."
- cuba.124.a: "Die Vereinigten Syndikate ansprechen."
- cuba.124.b: "Die Föderalen ansprechen."
- cuba.124.c: "Den Unionsstaat ansprechen."
- cuba.124.d: "Die Pazifische Regierung ansprechen."
- cuba.124.e: "Die Neuengland-Regierung ansprechen."
+ cuba.124.d_2: "[WCA.GetNameDefCap] haben den amerikanischen Bürgerkrieg gewonnen. Nachdem wir uns verpflichtet haben, unsere Beziehungen zu Amerika zu verbessern, wären wir sicherlich Narren, keine ständige Delegation zum neuen leuchtenden Leuchtturm der Freiheit im Norden zu entsenden."
+ cuba.124.d_3: "[USA.GetNameDefCap] hat den amerikanischen Bürgerkrieg gewonnen. Während wir seit langem eine enge Beziehung zu den Vereinigten Staaten pflegen, ist vielleicht die Zeit gekommen, dass unsere beiden großen Nationen noch näher zusammenrücken. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, gibt es einige abweichende Stimmen, die behaupten, wir hätten bereits genug getan, um die gegenseitige Freundschaft zu fördern."
+ cuba.124.d_4: "[USA.GetNameDefCap] hat den amerikanischen Bürgerkrieg gewonnen. Während wir seit langem eine enge Beziehung zu den Vereinigten Staaten pflegen, haben unsere gegenwärtigen politischen Meinungsverschiedenheiten einen Keil in unsere gegenseitigen Beziehungen getrieben. Vielleicht ist die Zeit gekommen, dass unsere beiden großen Nationen ihren Streit beenden. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, sind viele dagegen und finden die Aussicht auf eine Annäherung an die Vereinigten Staaten entsetzlich."
+ cuba.124.d_5: "[ACC.GetNameDefCap] hat den amerikanischen Bürgerkrieg gewonnen. Während wir seit langem eine enge Beziehung zu den Vereinigten Staaten pflegen, deren ununterbrochene Fortsetzung die neue Regierung Amerikas zu sein beansprucht, ist vielleicht die Zeit gekommen, dass unsere beiden großen Nationen noch näher zusammenrücken. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, gibt es einige abweichende Stimmen, die behaupten, wir hätten bereits genug getan, um die gegenseitige Freundschaft zu fördern."
+ cuba.124.d_6: "[ACC.GetNameDefCap] hat den amerikanischen Bürgerkrieg gewonnen. Während wir seit langem eine enge Beziehung zu den Vereinigten Staaten pflegen, deren ununterbrochene Fortsetzung die neue Regierung Amerikas zu sein beansprucht, haben unsere gegenwärtigen politischen Meinungsverschiedenheiten einen Keil in unsere gegenseitigen Beziehungen getrieben. Vielleicht ist die Zeit gekommen, dass unsere beiden großen Nationen ihren Streit beenden. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, sind viele dagegen und finden die Aussicht auf eine Annäherung an die neuen Vereinigten Staaten entsetzlich."
+ cuba.124.d_7: "[APG.GetNameDefCap] hat den amerikanischen Bürgerkrieg gewonnen. Da unsere Nationen keine bedeutenden politischen Meinungsverschiedenheiten haben, ist vielleicht die Zeit gekommen, dass unsere beiden großen Nationen näher zusammenrücken. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, gibt es einige abweichende Stimmen, die die Vorstellung einer Annäherung an die neuen Vereinigten Staaten entsetzlich finden."
+ cuba.124.d_8: "[ACC.GetNameDefCap] hat den amerikanischen Bürgerkrieg gewonnen. Während wir seit langem eine enge Beziehung zu den Vereinigten Staaten pflegen, deren ununterbrochene Fortsetzung die neue Regierung Amerikas zu sein beansprucht, ist vielleicht die Zeit gekommen, dass unsere beiden großen Nationen noch näher zusammenrücken. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu betreiben und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, gibt es einige abweichende Stimmen, die behaupten, wir hätten bereits genug getan, um die gegenseitige Freundschaft zu fördern."
+ cuba.124.d_9: "[NEE.GetNameDefCap] hat den amerikanischen Bürgerkrieg gewonnen. Während wir lange Zeit eine enge Beziehung zu den Vereinigten Staaten pflegten, deren ungebrochene Fortsetzung die neue amerikanische Regierung zu sein behauptet, haben unsere gegenwärtigen politischen Meinungsverschiedenheiten unsere gegenseitigen Beziehungen belastet. Vielleicht ist die Zeit gekommen, dass unsere beiden großen Nationen ihren Streit beenden. Zu diesem Zweck wurde vorgeschlagen, eine ständige Delegation zu unserem nördlichen Nachbarn zu entsenden, um Lobbyarbeit zu leisten und unsere anderen diplomatischen Initiativen dort zu vertreten. Während diese Idee überwältigende Unterstützung zu finden scheint, widersprechen viele und finden die Aussicht auf eine Annäherung an die neuen Vereinigten Staaten erschreckend, besonders angesichts der Verbindung zwischen dem Neuengland-Regime und Kanada."
+ cuba.124.a: "[WCA.GetNameDef] ansprechen."
+ cuba.124.b: "Die Bundesregierung ansprechen."
+ cuba.124.c: "[APG.GetNameDef] ansprechen."
+ cuba.124.d: "[ACC.GetNameDef] ansprechen."
+ cuba.124.e: "[NEE.GetNameDef] ansprechen."
  cuba.124.f: "Wir werden uns nicht in die amerikanische Politik einmischen."
 
  cuba.1240.t: "Kuba reicht die Hand"
@@ -1589,10 +1587,10 @@
 
  cuba.127.t: "Unsere Verbündeten auf dem Kontinent"
  cuba.127.d: "Da auf dem amerikanischen Kontinent wieder Stabilität eingekehrt ist, sollten wir engere Beziehungen zur nun dominierenden Macht suchen und die Möglichkeiten eines weitreichenden Kooperationspakts, sowohl wirtschaftlich als auch militärisch, erörtern."
- cuba.127.a: "[TEX.GetNameDefCap]"
- cuba.127.b: "[CSA.GetNameDefCap]"
+ cuba.127.a: "[APG.GetNameDefCap]"
+ cuba.127.b: "[WCA.GetNameDefCap]"
  cuba.127.c: "[USA.GetNameDefCap]"
- cuba.127.e: "[PSA.GetNameDefCap]"
+ cuba.127.e: "[ACC.GetNameDefCap]"
  cuba.127.f: "[NEE.GetNameDefCap]"
 
  cuba.128.t: "Änderung der Außenpolitik"
@@ -1602,7 +1600,7 @@
  cuba.128.c: "[CAN.GetNameDefCap]"
  cuba.128.e: "[COS.GetNameDefCap]"
  cuba.128.f: "[AUS.GetNameDefCap]"
- cuba.128.g: "Kanada wird uns vor den VSA retten"
+ cuba.128.g: "Kanada wird uns vor [WCA.GetNameDef] retten"
 
  cuba.1280.t: "Kuba möchte unserem Bündnis beitreten"
  cuba.1280.d: "In der Befürchtung, dass der Zusammenbruch der alten Weltordnung sie auf die falsche Seite der Geschichte bringen könnte, ist die Nation Kuba heute mit einem Angebot militärischer Unterstützung im Falle eines globalen Konflikts an uns herangetreten.\n\nWährend ihr Beitrag zur Kriegsanstrengung wahrscheinlich vernachlässigbar wäre, könnte ihr Einfluss in der Karibik von Vorteil sein, sollten die Kriegsschauplätze jemals die westliche Hemisphäre erreichen."
@@ -1676,7 +1674,6 @@
  cuba.135.t: "Karibischer Gipfel"
  cuba.135.d: "Der Karibische Gipfel war ein durchschlagender Erfolg. Die teilnehmenden Nationen konnten einige kleine wirtschaftliche Streitigkeiten beilegen und eine Grundlage für zukünftige Gespräche schaffen. Alles, was jetzt noch benötigt wird, ist unsere Unterschrift als Partei und primärer Beobachter eines auf der Konferenz ausgehandelten Vertrags, der die Schaffung eines unabhängigen internationalen Handelsberatungsgremiums zur Vermittlung von Handelsstreitigkeiten zwischen den Unterzeichnern vorsieht."
  cuba.135.a: "Das Abkommen unterzeichnen."
- cuba.135.b: "Verdammt!"
 
  cuba.136.t: "Nachrichten aus Kuba"
  cuba.136.d: "Die Konferenz in Havanna war ein Erfolg, unsere Beziehungen zu Kuba und den anderen teilnehmenden Parteien haben sich verbessert."
@@ -1698,12 +1695,12 @@
  cuba.139.a: "¡Gracias!"
 
  cuba.140.t: "Unsere Rolle im Krieg"
- cuba.140.d_1: "Die Vereinigten Syndikate von Amerika sind unsere natürlichen Waffenbrüder, es ist von höchster Wichtigkeit, dass wir ihnen Unterstützung leisten."
- cuba.140.d_2: "Mit dem Zusammenbruch der Vereinigten Syndikate von Amerika ist die Zukunft des Sozialismus in den Vereinigten Staaten in Gefahr. Während viele in unserer Regierung vorgeschlagen haben, sozialistische Elemente aus der kriegszerrütteten Nation an unsere Küsten zu evakuieren, könnte vielleicht ein folgenreicherer Ansatz gewählt werden."
- cuba.140.a: "Die CSA unterstützen."
- cuba.140.b: "Die CSA ist gefallen; den Unionsstaat invasion."
- cuba.140.c: "Die Föderalisten sind progressiv, unterstützt sie."
- cuba.140.d: "Die Pazifischen Staaten sind progressiv, unterstützt sie"
+ cuba.140.d_1: "[WCA.GetNameDefCap] sind unsere natürlichen Waffenbrüder, es ist von höchster Wichtigkeit, dass wir ihnen Unterstützung leisten."
+ cuba.140.d_2: "Mit dem Zusammenbruch [WCA.GetNameDefCap] ist die Zukunft des Sozialismus in den Vereinigten Staaten in Gefahr. Während viele in unserer Regierung vorgeschlagen haben, sozialistische Elemente aus der kriegszerrütteten Nation an unsere Küsten zu evakuieren, könnte vielleicht ein folgenreicherer Ansatz gewählt werden."
+ cuba.140.a: "Untersützt [WCA.GetNameDefCap]."
+ cuba.140.b: "Maschiert in [APG.GetNameDef] ein."
+ cuba.140.c: "Die Bundesregierung sind progressiv, unterstützt sie."
+ cuba.140.d: "[ACC.GetNameDefCap] sind progressiv, unterstützt sie."
  cuba.140.e: "Sozialistische Überreste an unsere Küsten schmuggeln."
 
  cuba.141.t: "Unsere Rolle im Krieg"
@@ -1711,8 +1708,8 @@
  cuba.141.d_2: "Der Amerikanische Bürgerkrieg wird sicherlich massive Auswirkungen auf Kuba haben, egal wie er ausgeht. Daher müssen wir mit allen notwendigen Mitteln sicherstellen, dass unserer Nation kein Schaden zugefügt wird. Die einzige Frage ist: Wie?"
  cuba.141.a: "Die Föderalen unterstützen."
  cuba.141.b: "Für unsere Freunde kämpfen."
- cuba.141.c: "Die CSA muss aufgehalten werden!"
- cuba.141.d: "Den Unionsstaat unterstützen"
+ cuba.141.c: "Die WCA muss aufgehalten werden!"
+ cuba.141.d: "Unterstützt die Volksregierung."
 
  cuba.143.t: "Kuba lehnt verstärkte Unterstützung ab"
  cuba.143.d: "Trotz unseres Einflusses auf die kubanische Politik hat die kubanische Regierung angedeutet, dass sie ihr derzeitiges marginales Maß an Unterstützung für unsere Kriegsanstrengungen beibehalten will. Während Kuba eine kleine Nation ist und ihre volle Unterstützung angesichts des Ausmaßes unseres Bürgerkriegs nur ein Tropfen auf den heißen Stein gewesen wäre, ist es dennoch eine besorgniserregende Entwicklung."
@@ -1743,16 +1740,16 @@
  cuba.148.a: "Enttäuschend."
 
  cuba.149.t: "Kuba unterstützt Dissidenten"
- cuba.149.d: "Während das sozialistische Kuba zunächst seine Absicht signalisierte, sich aus unserem Bürgerkrieg vollständig herauszuhalten, änderte sich diese Position mit dem Zusammenbruch der Vereinigten Syndikate. Die Kubaner leiten nun finanzielle Unterstützung und Waffen an sozialistische Dissidenten aller verbliebenen Kriegsparteien, einschließlich unseres eigenen Landes."
+ cuba.149.d: "Während das sozialistische Kuba zunächst seine Absicht signalisierte, sich aus unserem Bürgerkrieg vollständig herauszuhalten, änderte sich diese Position mit dem Zusammenbruch [WCA.GetNameDef]. Die Kubaner leiten nun finanzielle Unterstützung und Waffen an sozialistische Dissidenten aller verbliebenen Kriegsparteien, einschließlich unseres eigenen Landes."
  cuba.149.a: "Verdammt seien sie!"
 
- cuba.151.t: "Kriegsplanung gegen den Unionsstaat"
- cuba.151.d: "Ein möglicher Sieg des Unionsstaats im Bürgerkrieg stellt eine existenzielle Bedrohung für unsere Nation dar, die wir nun endlich zu lösen versuchen werden. Allerdings wurden von unseren zivilen und militärischen Beratern zwei verschiedene Pläne vorgeschlagen. Wir könnten natürlich eine großangelegte Invasion organisieren und Truppen im vom Unionsstaat kontrollierten Florida landen. Alternativ könnten wir eine Sabotagekampagne in den vom Unionsstaat kontrollierten Gebieten beginnen, um möglicherweise ihre Kriegsanstrengungen bis zur Niederlage zu schwächen."
+ cuba.151.t: "Kriegsplanung gegen [APG.GetNameDef]"
+ cuba.151.d: "Ein möglicher Sieg [APG.GetAdjective] im Bürgerkrieg stellt eine existenzielle Bedrohung für unsere Nation dar, die wir nun endlich zu lösen versuchen werden. Allerdings wurden von unseren zivilen und militärischen Beratern zwei verschiedene Pläne vorgeschlagen. Wir könnten natürlich eine großangelegte Invasion organisieren und Truppen im vom [APG.GetAdjective] kontrollierten Florida landen. Alternativ könnten wir eine Sabotagekampagne in den vom [APG.GetAdjective] kontrollierten Gebieten beginnen, um möglicherweise ihre Kriegsanstrengungen bis zur Niederlage zu schwächen."
  cuba.151.a: "Bereitet den totalen Krieg vor."
  cuba.151.b: "Schickt die Saboteure."
 
  cuba.152.t: "Kuba zieht Dissidenten an"
- cuba.152.d: "Das sozialistische Kuba hat, bestürzt über den Zusammenbruch der VSA, seine Absicht erklärt, alle Amerikaner aufzunehmen, die auf seiner Küste Asyl suchen. Gerüchten zufolge sind auch kubanische Agenten in unser Gebiet eingedrungen, um die Evakuierung von Sozialisten und anderen Dissidenten zu ermöglichen. Während dies bisher noch keine großen Auswirkungen hatte, haben einige bekannte Oppositionsgruppen begonnen sich zu regen, möglicherweise in Vorbereitung auf eine Flucht nach Kuba."
+ cuba.152.d: "Das sozialistische Kuba hat, bestürzt über den Zusammenbruch [WCA.GetNameDef], seine Absicht erklärt, alle Amerikaner aufzunehmen, die auf seiner Küste Asyl suchen. Gerüchten zufolge sind auch kubanische Agenten in unser Gebiet eingedrungen, um die Evakuierung von Sozialisten und anderen Dissidenten zu ermöglichen. Während dies bisher noch keine großen Auswirkungen hatte, haben einige bekannte Oppositionsgruppen begonnen sich zu regen, möglicherweise in Vorbereitung auf eine Flucht nach Kuba."
  cuba.152.a: "Beunruhigend."
 
  cuba.153.t: "Strom von Dissidenten nach Kuba"
@@ -1771,8 +1768,8 @@
  cuba.1540.d: "In den letzten zwei Monaten sind mehrere tausend weitere Amerikaner im wehrfähigen Alter an unseren Küsten eingetroffen. Während der große Zustrom nach Beginn dieser Politik nachzulassen scheint, wird es mit der Zeit weiterhin einen stetigen Zulauf geben."
  cuba.1540.a: "Willkommen!"
 
- cuba.155.t: "Krieg mit dem Unionsstaat"
- cuba.155.d: "Die Kriegsvorbereitungen sind abgeschlossen und in Gang gesetzt. Auch wenn die Chancen auf einen Sieg in diesem Krieg gewiss gegen uns stehen, werden wir wie David gegen Goliath den Unionsstaat zu Fall bringen. Oder ihn zumindest ausreichend schwächen, um seine Niederlage im Bürgerkrieg herbeizuführen."
+ cuba.155.t: "Krieg mit der Volksregierung"
+ cuba.155.d: "Die Kriegsvorbereitungen sind abgeschlossen und in Gang gesetzt. Auch wenn die Chancen auf einen Sieg in diesem Krieg gewiss gegen uns stehen, werden wir wie David gegen Goliath deie Volksregierung zu Fall bringen. Oder ihn zumindest ausreichend schwächen, um seine Niederlage im Bürgerkrieg herbeizuführen."
  cuba.155.a: "Wie David und Goliath."
 
  cuba.156.t: "Saboteure bereit"
@@ -1787,31 +1784,31 @@
  cuba.158.d: "Überraschenderweise hat Kuba, militärisch nahezu bedeutungslos, Florida angegriffen und Truppen im südlichen Teil des Bundesstaates angelandet. Obwohl wir keine formellen diplomatischen Beziehungen zu dieser schrecklichen sozialistischen Nation unterhalten, hat Kuba unserer Regierung formal eine Kriegserklärung überreicht. Natürlich sollte der Kampf gegen die Kubaner wie das Erschlagen einer Fliege sein, aber die Ablenkung könnte unsere Position im Bürgerkrieg beeinflussen, was wir vermuten, ohnehin Kubas Ziel ist."
  cuba.158.a: "Wir werden diese Narren vernichten!"
 
- cuba.159.t: "Die CSA untergraben"
- cuba.159.d: "Die Vereinigten Syndikate von Amerika stellen eine existenzielle Bedrohung für unsere Nation dar. Daher müssen wir einen Weg finden, ihre Kriegsanstrengungen zu untergraben."
+ cuba.159.t: "[WCA.GetNameDef] untergraben"
+ cuba.159.d: "[WCA.GetNameDefCap] stellen eine existenzielle Bedrohung für unsere Nation dar. Daher müssen wir einen Weg finden, ihre Kriegsanstrengungen zu untergraben."
  cuba.159.a: "Sich Kanada anschließen."
  cuba.159.b: "Die Saboteure einschleusen."
 
  cuba.160.t: "Kubanische Unterstützung?"
- cuba.160.d: "Kuba hat angeboten, sich unserem Krieg gegen die Vereinigten Syndikate von Amerika anzuschließen. Während sie direkt zu den Waffen greifen möchten, könnte die kleine Nation stattdessen indirekte Unterstützung leisten, unsere Waffenproduktion unterstützen und unsere Truppen versorgen."
+ cuba.160.d: "Kuba hat angeboten, sich unserem Krieg gegen [WCA.GetNameDef] anzuschließen. Während sie direkt zu den Waffen greifen möchten, könnte die kleine Nation stattdessen indirekte Unterstützung leisten, unsere Waffenproduktion unterstützen und unsere Truppen versorgen."
  cuba.160.a: "Waffenbrüder."
  cuba.160.b: "Eine unterstützende Rolle."
 
  cuba.161.t: "Der Große Weiße Norden"
- cuba.161.d: "Während unsere Nation und die Vereinigten Syndikate derzeit nicht im Krieg sind, könnte ein solcher jederzeit ausbrechen. Auch Kuba fürchtet die Dominanz der VSA und hat angeboten, uns im Kriegsfall zu Hilfe zu kommen, was auch immer das bringen mag."
+ cuba.161.d: "Während unsere Nation und [WCA.GetNameDef] derzeit nicht im Krieg sind, könnte ein solcher jederzeit ausbrechen. Auch Kuba fürchtet die Dominanz der Sozialisten und hat angeboten, uns im Kriegsfall zu Hilfe zu kommen, was auch immer das bringen mag."
  cuba.161.a: "Wir stehen vereint."
  cuba.161.b: "Wir brauchen sie nicht."
 
  cuba.162.t: "Unsere Rolle im Krieg"
- cuba.162.d: "Kanada hat unseren Vorschlag angenommen, sich ihrem Krieg gegen die Vereinigten Syndikate von Amerika anzuschließen. Auch wenn wir uns der Entente noch nicht vollständig angeschlossen haben, stellt dies einen wichtigen Schritt in Richtung eines formellen Militärbündnisses mit Kanada dar."
+ cuba.162.d: "Kanada hat unseren Vorschlag angenommen, sich ihrem Krieg gegen [WCA.GetNameDef] anzuschließen. Auch wenn wir uns der [ENT.GetFactionName] noch nicht vollständig angeschlossen haben, stellt dies einen wichtigen Schritt in Richtung eines formellen Militärbündnisses mit Kanada dar."
  cuba.162.a: "Zu den Waffen!"
 
  cuba.1620.t: "Kuba tritt dem Kampf bei"
- cuba.1620.d: "Kuba hat in unserem Namen den Vereinigten Syndikaten von Amerika den Krieg erklärt. Auch wenn sie keineswegs eine militärische Großmacht sind, wird ihre Unterstützung geschätzt."
+ cuba.1620.d: "Kuba hat in unserem Namen [WCA.GetNameDef] den Krieg erklärt. Auch wenn sie keineswegs eine militärische Großmacht sind, wird ihre Unterstützung geschätzt."
  cuba.1620.a: "Wunderbar!"
 
  cuba.163.t: "Kanada bittet um Unterstützung"
- cuba.163.d: "Kanada hat unser Angebot zur direkten militärischen Unterstützung in ihrem Krieg gegen die Vereinigten Syndikate abgelehnt. Stattdessen hat die Nation vorgeschlagen, dass wir im Austausch für Entschädigung Waffen für Kanada produzieren. Während einige in unserem auswärtigen Dienst dieses Angebot als eine Art Geringschätzung sehen, könnte es dennoch zur Niederlage der verwerflichen VSA beitragen."
+ cuba.163.d: "Kanada hat unser Angebot zur direkten militärischen Unterstützung in ihrem Krieg gegen [WCA.GetNameDef] abgelehnt. Stattdessen hat die Nation vorgeschlagen, dass wir im Austausch für Entschädigung Waffen für Kanada produzieren. Während einige in unserem auswärtigen Dienst dieses Angebot als eine Art Geringschätzung sehen, könnte es dennoch zur Niederlage der verwerflichen [WCA.GetName] beitragen."
  cuba.163.a: "Wir stimmen zu."
  cuba.163.b: "Solch eine Respektlosigkeit!"
 
@@ -1824,11 +1821,11 @@
  cuba.1631.a: "Eine Überreaktion."
 
  cuba.164.t: "Kanada stimmt zu"
- cuba.164.d: "Kanada hat unser Angebot angenommen. Unser Versprechen der Unterstützung gegen die VSA war ein großer Vorteil für die gegenseitigen Beziehungen."
+ cuba.164.d: "Kanada hat unser Angebot angenommen. Unser Versprechen der Unterstützung gegen [WCA.GetNameDef] war ein großer Vorteil für die gegenseitigen Beziehungen."
  cuba.164.a: "Wunderbar!"
 
  cuba.1640.t: "Kanada zieht in den Krieg"
- cuba.1640.d: "Zwischen den VSA und Kanada ist ein Krieg ausgebrochen. Gemäß unserem früheren Versprechen sollten wir nun auch den Vereinigten Syndikaten den Krieg erklären."
+ cuba.1640.d: "Zwischen [WCA.GetNameDef] und Kanada ist ein Krieg ausgebrochen. Gemäß unserem früheren Versprechen sollten wir nun auch [WCA.GetNameDef] den Krieg erklären."
  cuba.1640.a: "Wir müssen kämpfen!"
 
  cuba.165.t: "Identität der Saboteure aufgedeckt"
@@ -1837,7 +1834,7 @@
  cuba.165.b: "Sobald der Krieg vorbei ist..."
 
  cuba.166.t: "Kanada missachtet uns"
- cuba.166.d: "Kanada hat unser wohlwollendes Unterstützungsangebot gegen die Vereinigten Syndikate von Amerika abgelehnt."
+ cuba.166.d: "Kanada hat unser wohlwollendes Unterstützungsangebot gegen [WCA.GetNameDef] abgelehnt."
  cuba.166.a: "Zur Hölle mit ihnen!"
 
  cuba.199.t: "Das Ende Amerikas"
@@ -2162,8 +2159,8 @@
  cuba.406.a: "Dann eben auf uns allein gestellt."
 
  cuba.407.t: "Reaktion auf den Amerikanischen Bürgerkrieg"
- cuba.407.d_1: "In Amerika ist ein Aufstand ausgebrochen und unsere Regierung hat schnell reagiert, indem sie eine scharfe Verurteilung der Sozialisten der Vereinigten Syndikate von Amerika herausgab. Unsere genaue Position wurde jedoch vorerst absichtlich vage gehalten."
- cuba.407.d_2: "In Amerika ist ein Aufstand ausgebrochen und unsere Regierung hat schnell reagiert, indem sie die moralische Rechtschaffenheit der sozialistischen Sache anerkannte, ohne die Vereinigten Syndikate vorerst formell anzuerkennen. Wir haben auch den aggressiven reaktionären Unionsstaat von Huey Long verurteilt."
+ cuba.407.d_1: "In Amerika ist ein Aufstand ausgebrochen und unsere Regierung hat schnell reagiert, indem sie eine scharfe Verurteilung der Sozialisten [WCA.GetNameDef] herausgab. Unsere genaue Position wurde jedoch vorerst absichtlich vage gehalten."
+ cuba.407.d_2: "In Amerika ist ein Aufstand ausgebrochen und unsere Regierung hat schnell reagiert, indem sie die moralische Rechtschaffenheit der sozialistischen Sache anerkannte, ohne [WCA.GetNameDef] vorerst formell anzuerkennen. Wir haben auch den aggressiven reaktionären [APG.GetNameDef] von Huey Long verurteilt."
  cuba.407.a: "Ein geteiltes Haus..."
 
 ### Characters ###

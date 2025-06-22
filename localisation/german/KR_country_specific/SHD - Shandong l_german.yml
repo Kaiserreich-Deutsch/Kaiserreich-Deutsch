@@ -189,15 +189,6 @@
  SHD_violently_suppressed_drug_trade: "Gewaltsam unterdrückter Drogenhandel"
  SHD_violently_suppressed_drug_trade_desc: "Zhang Tianran hat die Moral- und Wohltätigkeitsorganisation angewiesen, verdächtige Drogenabhängige gewaltsam zu entwurzeln und sie einem Urteil zu unterziehen. Mit Hilfe der Gesellschaft der Großen Schwerter wurde der Drogenhandel gewaltsam beendet, Opiumplantagen niedergebrannt und korrupte Bürokraten gewaltsam entfernt."
 
- SHD_Japanese_military_assistance: "Japanische Offiziersausbildung"
- SHD_Japanese_military_assistance_desc: "Das japanische Offizierskorps, eingeladen von Junnosuke Date, hat einen starken Einfluss auf unsere militärischen Formationen ausgeübt. Einige Divisionen müssen nun Befehle auf Japanisch lernen, und Experten der Schwarzen-Drachen-Gesellschaft werden nun häufig zur Motivation der Soldaten herangezogen."
-
- SHD_German_military_assistance: "Deutsche Offiziersausbildung"
- SHD_German_military_assistance_desc: "Die Berater von Deutsch-Ostasien haben einen starken Einfluss auf das Offizierskorps in Shandong ausgeübt. Zusätzlich zum standardmäßigen preußischen Militärdrill haben die Unternehmensberater Unterricht im Kauf und der Werterhaltung von militärischer Ausrüstung für den Wiederverkauf nach dem Sieg über China gegeben."
-
- SHD_Legation_military_assistance: "Gesandschafts-Offiziersausbildung"
- SHD_Legation_military_assistance_desc: "Die amerikanischen, britischen und französischen Söldnerberater, die von den Gesandschaftsstädten angeheuert wurden, sind ihrer Aufgabe hervorragend nachgekommen. Offiziere kennen nun eine Vielzahl neuer Beleidigungen in neuen Sprachen und haben mehrere bisher unentdeckte Geschlechtskrankheiten erworben. Alles in allem ein positiver Gewinn."
-
  SHD_big_swords: "Große Schwerter"
  SHD_big_swords_desc: "Die Großen Schwerter Nordchinas haben sich endlich vollständig dem Yiguandao angeschlossen und sind entschlossen, an unserer Seite zu kämpfen. Ihre Anführer glauben an die spirituelle Natur des Kampfes für China gegen ausländische Teufel."
 
@@ -250,7 +241,7 @@
  SHD_tianran_can_reclaim_tooltip: "§GDer Ehrenwerte Lehrer Zhang Tianran kann beginnen, die Herzen und Köpfe der Liga-Provinzen zurückzugewinnen\n§!"
  SHD_two_zhangs_tooltip: "§CDieser Schwerpunkt wird das Schicksal Shandongs und seine Rolle in China bestimmen§!"
 
- SHD_League_War_Attack_tt: "§R[ANQ.GetNameDef] könnte in naher Zukunft angreifen..."
+ SHD_League_War_Attack_tt: "§R[ANQ.GetNameDefCap] könnte in naher Zukunft angreifen..."
  SHD_mobilize_2_units_tt: "Nimmt £manpower_texticon §Y2 Miliz-Brigaden§! Überläufer aus der lokalen Garnison auf."
 
  SHD_xuzhou_garrison: "Aus der Xuzhou-Garnison rekrutieren"
@@ -1093,6 +1084,12 @@
  shandong.504.d: "In einer schockierenden Wendung der Ereignisse scheint sich die Unterwelt der Pekinger Politik auf die nationale Bühne verlagert zu haben. Wie sich herausstellt, war der eiserne Griff des Jade-Marschalls und des Königs von Baoding, Wu Peifu und Cao Kun, weniger fest als international angenommen. Nach ihrer Untätigkeit beim Zusammenbruch der Liga wurde die Zhili-Clique in ein Chaos gestürzt. Die mandschurischen Royalisten witterten sowohl Gelegenheit als auch Schwäche ihrer Feinde und kooperierten mit Gouverneur Yan Xishan von Shanxi, um die Zhili aus den Zentralprovinzen zu vertreiben.\n\nJedoch hat sich die Geschichte wiederholt, und Wu Peifu hat erneut allen Erwartungen getrotzt und das Blatt zu seinen Gunsten gewendet. Berichten zufolge scheiterte der Putschversuch dramatisch und erfüllte den neuen "Nationalen Beschützer" mit Rachsucht und Tatendrang. Die Zhili-Clique scheint entschlossen, gegen Yan Xishans Jin-Clique und Feng Yuxiangs Guominjun wegen des Attentatsversuchs in den Krieg zu ziehen.\n\nDoch für [SHD.GetLeader] bietet sich hier eine Gelegenheit. Mit monarchistischen Sympathien und der geklärten politischen Situation in Shandong könnte dies der nötige Anlass sein, um von der bloßen Provinzebene auf die nationale Ebene aufzusteigen. Dies setzt natürlich voraus, dass seine Armeen denen des Jade-Marschalls ebenbürtig sind - eine selten erreichte Leistung."
  shandong.504.a: "Ergreift die Initiative! Für den Kaiser!"
  shandong.504.b: "Wir wären Narren, uns gegen den Jade-Marschall zu stellen."
+
+ shandong.505.t: "Putsch in Jinan"
+ shandong.505.d: "Seit 12 Jahren wird die Provinz Shandong von Zhang Zongchang regiert, einem Mann, der wegen seiner selbst für chinesische Verhältnisse ungewöhnlich hohen Korruption und Verschwendungssucht einst als Chinas \"niederträchtigster\" Kriegsherr bezeichnet wurde. Nun hat diese Situation jedoch ein unerwartet plötzliches Ende gefunden. In den frühen Morgenstunden marschierte ein Kontingent der Qing-Infanterie, offenbar auf Wunsch von [SHD.GetLeader], in Jinan ein, stürmte Zhangs Haus und brachte ihn in Handschellen nach Beijing, wo er sich wegen seiner Verbrechen vor Gericht verantworten muss.\n\nAls gläubiger Monarchist und fähiger General markiert dies den Eintritt der Provinz in den Einflussbereich der Qing."
+ shandong.505.a: "Nicht gut, nicht gut."
+ shandong.505.b: "Das ist eine Bedrohung weniger."
+ shandong.505.c: "Faszinierend."
 
 ### Beijing loc - organise later ###
  SHD_imprisoned_emperor: "Kaiser, Gefangen"

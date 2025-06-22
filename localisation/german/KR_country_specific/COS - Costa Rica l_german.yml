@@ -33,9 +33,7 @@
  COS_ferrer_social_democrat: "PLN"
 
 ### Tooltips ###
- COS_USA_bail_ZKG: "Die §YUSA§! haben sich bereit erklärt, für die §YZKG§! zu bürgen"
  COS_USA_denied_help: "Die §YUSA§! haben unsere Anfrage abgelehnt"
- COS_GER_bail_ZKG: "§YDeutschland§! hat sich bereit erklärt, für die §YZKG§! zu bürgen"
  COS_GER_denied_help: "§YDeutschland§! hat unsere Anfrage abgelehnt"
  UFC_Labour_Accord: "Die §YUFC§! hat das §YArbeitsabkommen§! unterzeichnet"
  ZKG_Labour_Accord: "Die §YZKG§! hat das §YArbeitsabkommen§! unterzeichnet"
@@ -278,11 +276,13 @@
 
  COS_influence_of_the_UFC_dynamic_modifier: "£pol_idea Einfluss der UFC"
  COS_influence_of_the_UFC_idea: "Einfluss der UFC"
- COS_influence_of_the_UFC_idea_desc: "Die United Fruit Company oder die UFC hat Eisenbahnen, Infrastrukturen und Wohnungen gebaut, um ihre Geschäfte in unserem Land auszuweiten, aber die schrecklichen Praktiken, die ihre Angestellten ertragen müssen, haben ihnen einen schrecklichen Ruf eingebracht.\nAktueller Einfluss der UFC: §Y[?COS.COS_UFC_influence]§!\n§W-----------------\nDaraus ergeben sich folgende Effekte:\n$MODIFIER_POLITICAL_POWER_GAIN$: [?COS.COS_UFC_influence_modifier|+=]\n$MODIFIER_STABILITY_POPULARITY_FACTOR$: [?COS.COS_UFC_influence_modifier|+=%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?COS.COS_UFC_influence_construction_speed|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$:§! §Y[?COS.COS_UFC_influence_consumer_goods|=%]§!"
+ COS_influence_of_the_UFC_idea_desc: "Die United Fruit Company oder die UFC hat Eisenbahnen, Infrastrukturen und Wohnungen gebaut, um ihre Geschäfte in unserem Land auszuweiten, aber die schrecklichen Praktiken, die ihre Angestellten ertragen müssen, haben ihnen einen schrecklichen Ruf eingebracht."
+ COS_influence_of_the_UFC_idea_modifier_tooltip: "§CAktueller Einfluss der UFC:§! §Y[?COS.COS_UFC_influence]§!\n$MODIFIER_POLITICAL_POWER_GAIN$: [?COS.COS_UFC_influence_modifier|+=]\n$MODIFIER_STABILITY_POPULARITY_FACTOR$: [?COS.COS_UFC_influence_modifier|=%+]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?COS.COS_UFC_influence_construction_speed|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?COS.COS_UFC_influence_consumer_goods|Y=%1]"
 
  COS_influence_of_the_ZKG_dynamic_modifier: "£pol_idea Einfluss der ZKG"
  COS_influence_of_the_ZKG_idea: "Einfluss der ZKG"
- COS_influence_of_the_ZKG_idea_desc: "Die Zentralamerikanische Kaffee-Gesellschaft (ZKG) wurde von deutschstämmigen Kaffeebaronen gegründet, um ihren Einfluss auf die costaricanische Regierung zu schützen und auszuweiten und ihre Plantagen im Zentraltal zu vergrößern.\nAktueller Einfluss der ZKG: §Y[?COS.COS_ZKG_influence]§!\n§W-----------------\nDaraus ergeben sich folgende Effekte:\n$MODIFIER_POLITICAL_POWER_GAIN$: [?COS.COS_ZKG_influence_pol_power_gain|+=]\n$research_speed_factor_tooltip$: [?COS.COS_ZKG_influence_research_speed|+=%]\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?COS.COS_ZKG_influence_production_cap|+=%]§!"
+ COS_influence_of_the_ZKG_idea_desc: "Die Zentralamerikanische Kaffee-Gesellschaft (ZKG) wurde von deutschstämmigen Kaffeebaronen gegründet, um ihren Einfluss auf die costaricanische Regierung zu schützen und auszuweiten und ihre Plantagen im Zentraltal zu vergrößern."
+ COS_influence_of_the_ZKG_modifier_tooltip: "§CAktueller Einfluss der ZKG:§! §Y[?COS.COS_ZKG_influence]§!\n$MODIFIER_POLITICAL_POWER_GAIN$: [?COS.COS_ZKG_influence_pol_power_gain|+=]\n$MODIFIER_RESEARCH_SPEED_FACTOR$: [?COS.COS_ZKG_influence_research_speed|%=+]\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?COS.COS_ZKG_influence_production_cap|=%+]"
 
  COS_black_monday: "ZKG Bankrott" 
  COS_black_monday_desc: "Auch wenn die lukrative Kaffeegesellschaft einst kein Ende ihres Reichtums kannte und sogar in die ehemaligen Vermögenswerte der UFC investierte, hat die Krise, die Deutschland erschüttert hat, ihre Spuren bei der ZKG hinterlassen. Mit einbrechenden Aktienkursen und rapide sinkender Kaffeenachfrage ist es dem überdehnten Unternehmen nicht gelungen, einen Käufer für seine scheiternden Vermögenswerte zu finden und geht in einem Flammenmeer unter."
@@ -346,8 +346,10 @@
 
  COS_car_economic_bloc_dynamic_modifier: "£pol_idea Karibischer Wirtschaftsblock"
  COS_car_economic_bloc_idea: "Karibischer Wirtschaftsblock"
- COS_car_economic_bloc_idea_desc: "§W$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?COS.COS_car_eco_bloc_modifier|+=%]\n$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: [?COS.COS_car_eco_bloc_modifier|+=%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?COS.COS_car_eco_bloc_modifier|+=%]\n$MODIFIER_RESEARCH_SPEED_FACTOR$: [?COS.COS_car_eco_bloc_research|+=%]§!"
- COS_cos_alliance_member_tooltip: "§LFür jede Nation, die dem Wirtschaftsblock beitritt, wird dieser Modifikator erhöht.§!"
+ COS_car_economic_bloc_idea_desc: ""
+ COS_cos_alliance_member_tooltip: "§LFür jede Nation, die dem Wirtschaftsblock beitritt, wird dieser Modifikator erhöht.§!\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?COS.COS_car_eco_bloc_modifier|+=%]\n$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: [?COS.COS_car_eco_bloc_modifier|+=%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?COS.COS_car_eco_bloc_modifier|+=%]\n$MODIFIER_RESEARCH_SPEED_FACTOR$: [?COS.COS_car_eco_bloc_research|+=%]"
+ COS_car_economic_bloc_add_tooltip: "§LFür jede Nation, die dem Wirtschaftsblock beitritt, wird dieser Modifikator erhöht.§!"
+ COS_car_economic_bloc_modify_tooltip: "$industrial_capacity_factory_tooltip$\n$industrial_capacity_dockyard_tooltip$\n$production_speed_buildings_factor_tooltip$"
 
  COS_CEN_ties: "Zentralamerikanische Verbindungen"
 
@@ -363,7 +365,8 @@
 
  COS_UFC_profit_dynamic_modifier: "£pol_idea Gewinne der UFC"
  COS_UFC_Profit_idea: "Gewinne der UFC"
- COS_UFC_Profit_idea_desc: "Steigende Gewinne aus der Aktivität der United Fruit Company in der Nation unterstützen unsere wirtschaftliche Leistung. Ihre aktuellen Gewinne sind §Y[?COS.cos_profit_factor]§!.\n§W-----------------§!\n§WDies gibt uns folgende Effekte:\n$MODIFIER_CONSUMER_GOODS_FACTOR$:§! §Y[?COS.COS_UFC_consumer_goods|=%]§!\n§W$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?COS.COS_UFC_output|+=%]\n$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: [?COS.COS_UFC_output|+=%]§!"
+ COS_UFC_Profit_idea_desc: "Steigende Gewinne aus der Aktivität der United Fruit Company in der Nation unterstützen unsere wirtschaftliche Leistung."
+ COS_UFC_Profit_modifier_tooltip: "§CUFC Gewinne:§! [?COS.cos_profit_factor|Y0]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?COS.COS_UFC_consumer_goods|Y=%1]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?COS.COS_UFC_output|+=%]\n$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: [?COS.COS_UFC_output|+=%]"
 
  COS_investing: "Investitionen"
  COS_investing_desc: "Da der Einfluss der großen Unternehmen, die zur Entwicklung unseres Landes beitragen, weggefallen ist, war die Regierung gezwungen, aus ihrem begrenzten Budget zu schöpfen, um dies zu kompensieren."
@@ -572,7 +575,7 @@
  cos.6.a: "Wir werden die USA um Unterstützung bitten."
  cos.6.b: "Wir werden die Deutschen um Unterstützung bitten."
 
- cos.7.t: "[FROM.GetNameDef] ersucht um unsere Unterstützung"
+ cos.7.t: "[FROM.GetNameDefCap] ersucht um unsere Unterstützung"
  cos.7.d: "Eine Katastrophe hat die ansonsten ruhige kleine Nation [COS.GetName] getroffen, als die ZKG (Zentralamerikanische Kaffee-Gesellschaft) vor wenigen Wochen an der Berliner Börse schwer abstürzte und die Nation in ein Loch riss, aus dem sie sich alleine nicht mehr erholen kann. Um sie vor dem völligen Zusammenbruch zu bewahren, hat die kleine Nation uns um einen Kredit zur Rettung der ZKG gebeten."
  cos.7.a: "Bietet ihnen Unterstützung an!"
  cos.7.b: "Wir haben Wichtigeres zu tun."
@@ -762,7 +765,7 @@
  cos.62.b: "Die Zeitungen mit Gewalt zur Unterwerfung zwingen und die Unruhestifter verhaften."
 
  cos.63.t: "Jüdische Flüchtlinge ersuchen um Siedlungserlaubnis"
- cos.63.d: "Da der Antisemitismus im abtrünnigen AUS weiter zunimmt und aufgrund der wachsenden Spannungen im Nahen Osten zwischen dem Osmanischen Reich und der ägyptischen Nation, hat eine amerikanische Hilfsorganisation namens Refugee Economic Management unsere Regierung gebeten, uns für 1500 jüdische Familien zu öffnen, die aus ihrer Heimat vertrieben wurden. Sie garantieren [COS.GetLeader], dass das Umsiedlungsverfahren den Staat keinen Pfennig kosten würde, und drängen die Regierung, ein kleines Stück Land für den Aufbau einer jüdischen Gemeinde zur Verfügung zu stellen."
+ cos.63.d: "Da der Antisemitismus im gefallenen Amerika weiter zunimmt und aufgrund der wachsenden Spannungen im Nahen Osten zwischen dem Osmanischen Reich und der ägyptischen Nation, hat eine amerikanische Hilfsorganisation namens Refugee Economic Management unsere Regierung gebeten, uns für 1500 jüdische Familien zu öffnen, die aus ihrer Heimat vertrieben wurden. Sie garantieren [COS.GetLeader], dass das Umsiedlungsverfahren den Staat keinen Pfennig kosten würde, und drängen die Regierung, ein kleines Stück Land für den Aufbau einer jüdischen Gemeinde zur Verfügung zu stellen."
  cos.63.a: "Juden sind Verbreiter des Sozialismus! Fort mit ihnen!"
  cos.63.b: "Die Tenorio-Farm als mögliche Kolonie anbieten."
 
@@ -780,11 +783,6 @@
  cos.68.d: "Das Ende des 19. Jahrhunderts mit den Gewinnen aus dem Kaffeeboom erbaute Teatro Nacional, als San Joses Bevölkerung nur etwa 19.000 Menschen zählte, diente lange als eine der wichtigsten Institutionen für hochwertige Musik- und Theateraufführungen in Zentralamerika. Nachlassendes Interesse der Bevölkerung und ein Mangel an einheimischen Stücken, die dem Prestige des Gebäudes gerecht werden, haben es jedoch in einen vernachlässigten Zustand versetzt.\n\nDas änderte sich, als eine Gruppe flämisch-wallonischer Investoren während einer von Mitteleuropa entsandten Handelsmission auf das Gebäude stieß und sich sofort in die Institution verliebte. Mit dem Versprechen, Unterstützung und Künstler aus ihrer Heimat zu schicken, erhielt das Teatro einen beträchtlichen Zuschuss für seinen weiteren Betrieb. Als daraufhin eine Reportage in der flämisch-wallonischen Zeitung De Standaard erschien, wurde landesweit eine öffentliche Crowdfunding-Kampagne zur Unterstützung des Theaters mit großem Erfolg gestartet.\n\nHeute wurde in einer kleinen Zeremonie vor dem Gebäude, präsentiert vom Botschafter Mitteleuropas, der Zuschuss symbolisch gegen einen Beutel costa-ricanischer Kaffeebohnen getauscht."
  cos.68.a: "Äußerst großzügig von ihnen."
 
-### Not Yet Coded ##
- cos.69.t: "Gründung von 'El Centro'"
- cos.69.d: "Eine progressive Gruppe kürzlich graduierter Jurastudenten hat heute die Gründung einer Organisation namens The Centre for the Study of National Problems, kurz El Centro, bekannt gegeben. Beeinflusst vom peruanischen politischen Denker Victor Raúl Haya de la Torre, glauben die jungen Intellektuellen, dass der Staat ein Instrument zur Durchführung radikaler Sozialreformen sein sollte. Sie sind frustriert über das Versagen der Cortes-Verwaltungen bei der Bewältigung sozialer Probleme und begrüßen den Atlantic Workers Congress für seinen Widerstand gegen die UFC. In Furcht vor dem Syndikalismus glauben die El Centro-Mitglieder, dass Sozialreformen durch den gesetzlichen Rahmen erreicht werden könnten."
- cos.69.a: "Eine radikale Idee!"
-
  cos.70.t: "Jimenez kündigt seine Präsidentschaftskandidatur an"
  cos.70.d: "Unzufrieden mit der strengen und autoritären Herrschaft von Cortes, hat Ex-Präsident Ricardo Jimenez erneut seine Kandidatur für die Präsidentschaft angekündigt, in der Hoffnung, auf der großen Unterstützerbasis aufzubauen, die seine vorherige Amtszeit genährt hat. Die Reaktionen von links waren bisher sehr warm, da sie hoffen, dass interne Streitigkeiten innerhalb der PRN ihnen die Kontrolle bei den kommenden Wahlen ermöglichen werden. Cortes selbst ist alles andere als erfreut und wurde dabei beobachtet, wie er heimlich mit seinen Parteimitgliedern plant, die Jimenez-Kampagne zu sabotieren."
  cos.70.a: "Der Wahlkampf hat begonnen!"
@@ -793,7 +791,6 @@
  cos.71.d: "Obwohl schlechtes Wetter viele vom Gang zu den Wahllokalen abgehalten zu haben scheint, gaben überraschenderweise 72% der Wahlberechtigten ihre Stimme ab, bevor die Wahllokale heute Abend um 21 Uhr schlossen. Die Spannung ist groß, da alle beteiligten Parteien stark auf den Ausgang dieser Wahlen setzen und überraschende Wendungen plötzlich eintreten könnten."
  cos.71.a: "Guardia Calderón wird Präsident."
  cos.71.b: "Cortes Castro beginnt eine zweite Amtszeit!"
- cos.71.c: "Ricardo Jimenez wird wiedergewählt."
 
  cos.72.t: "Figueres Ferrer geht auf Sendung"
  cos.72.d: "\"Liebe Costa Ricaner und andere Menschen, die in unserer großartigen Nation leben. Ich spreche mit schwerem Herzen zu Ihnen, da ich sehe, wie die Werte, für die unsere Republik so tapfer gekämpft hat, an allen Ecken beschmutzt werden. Die Verfassung, einst das heilige Fundament unserer Gesellschaft, wurde von unserem erleuchteten Präsidenten mit Füßen getreten. Die Redefreiheit, auf die wir einst stolz waren, wird durch die Zensur des Castro-Regimes in Stücke gerissen, und der Mann auf der Straße wird belogen und unterdrückt. Wo es einst als tugendhaft und richtig galt, die Regierung offen anzusprechen und ihre gescheiterte Politik zu kritisieren, führt dies nun direkt ins Gefängnis. Wie lange, Costa Ricaner, wollt ihr den Diktator noch ertragen? Wie viele unserer Bürgerrechte müssen noch beseitigt werden, bevor wir erkennen, dass der Mann im Präsidentenpalast nicht für uns spricht?\"\n\nNachdem er über eine halbe Stunde lang gepredigt hatte, wurde der angesehene Geschäftsmann schließlich von Polizeikräften aus der Sendung entfernt und wegen Hochverrats verhaftet. Der Schaden ist jedoch angerichtet, und die Polizeikräfte in ganz San Jose fragen sich, wie mit der Situation umgegangen werden soll. Eine harte Bestrafung Ferrers würde ihn nur zum Märtyrer machen, während andere befürchten, dass seine Freilassung ihm ermöglichen würde, weitere Unterstützung gegen die Regierung zu sammeln."
@@ -912,11 +909,6 @@
  cos.96.d: "Obwohl Calderón seine Karriere damit verbracht hat, Syndikalisten öffentlich zu verurteilen, war er nach dem vereitelten Putsch Mora für die Bewahrung seiner Existenz dankbar und erkannte, dass er seine politische Basis irgendwie erweitern und beleben musste, um zu überleben. Trotz seiner bisherigen christlich-sozialistischen Rhetorik, trotz seiner wiederholten Verurteilung des Syndikalismus und trotz seiner engen Verbindungen zur Kirche hat Calderón begonnen, ein Bündnis mit Mora und den Syndikalisten zu diskutieren.\n\nDie PVP, die bei den letzten Regionalwahlen mit 16% der Stimmen gut abgeschnitten hat, hat ihre Unterstützung für das vorgeschlagene Bündnis angekündigt, obwohl sie der PRN jahrelang offen vorgeworfen hat, ihre Mitglieder einzusperren und ihre Meinungen zu zensieren."
  cos.96.a: "Die Linke steht vereint."
 
- cos.97.t: "Der Bankrott droht Costa Rica"
- cos.97.d: "Während frühere konservative Präsidenten sich immer mit ihrem ausgeglichenen Haushalt und ihrer strengen Wirtschaftsführung gebrüstet haben, hat Präsident Calderón die costa-ricanische Wirtschaft an den Rand des Zusammenbruchs getrieben. Wo vor 3 Jahren der Haushalt in ausgezeichneter Verfassung war und nur begrenzte Schulden bestanden, hat Calderón die Staatsausgaben um über 60% erhöht, was zu massiven Störungen in der Staatskasse und rapide steigenden Schulden führte. Verzweifelte Telefonanrufe an unsere ausländischen Verbündeten, in denen um finanzielle Unterstützung gebeten wurde, sind auf taube Ohren gestoßen, und ein finanzieller Zusammenbruch wird immer wahrscheinlicher. Sollte der Staat bis zum 1. Mai keine Mittel finden, wird er seinen Angestellten die Löhne verweigern müssen und hoffen, dass sie sich ruhig verhalten.\n\nErmutigt durch die jüngsten Erfolge in der Region hat jedoch eine kleine Gruppe radikaler Denker Präsident Calderón eine Alternative vorgeschlagen. Sie schlagen vor, dass er sich den Verhandlungen für einen Vereinigten Zentralamerikanischen Staat anschließt und so die anderen Staaten der Region mit seinen steigenden Schulden belastet. Während dies das Ende der costa-ricanischen Souveränität bedeuten würde, würde es Calderón ermöglichen, an der Macht zu bleiben."
- cos.97.a: "Die Föderation ist vielleicht keine so schlechte Idee..."
- cos.97.b: "Die Steuern drastisch erhöhen."
-
  cos.98.t: "Kaffee-Elite spricht sich gegen Calderón aus"
  cos.98.d: "Ausufernde Korruption, unverhohlene Bestechung und die mittlerweile massive Steuererhöhung haben die Kaffeebarone an den Rand ihrer Geduld gebracht. In einer kürzlichen Versammlung des Club Unión de San José, dem wichtigsten sozialen Forum der Kaffee-Elite, trafen sie sich, um die Politik ihres Präsidenten zu diskutieren und wie lange sie ihn noch unterstützen könnten. Am Ende der Sitzung wurden alle gebeten, anonym eine Vertrauensabstimmung über ihren Anführer abzugeben. Von allen Mitgliedern behielt nur einer das Vertrauen in Calderóns Fähigkeiten."
  cos.98.a: "Bedauerlich."
@@ -934,7 +926,6 @@
  cos.101.t: "Unruhen auf dem Land"
  cos.101.d: "Überall im Land haben Bauern und Plantagenarbeiter begonnen, sich gegen ihre lokalen Bürokraten aufzulehnen und fordern den sofortigen Rücktritt Calderóns sowie die Entfernung seiner Günstlinge aus dem Amt. Höchstwahrscheinlich angestachelt durch die kürzlichen Unruhen, die von Figueres Ferrer verursacht wurden, scheinen die Proteste und regierungsfeindlichen Aktionen kein Ende zu nehmen."
  cos.101.a: "Was können schon ein paar Bauern ausrichten?"
- cos.101.b: "Cortes kündigt seinen Rücktritt an."
 
  cos.102.t: "Ferrer entkommt!"
  cos.102.d: "Obwohl er in einem nicht gekennzeichneten Lastwagen nach Puerto Limon transportiert wurde, stoppte eine bewaffnete Gruppe seiner Fanatiker den Konvoi in Siquirres und befreite erfolgreich ihren Anführer. Wieder frei und brennend vor Leidenschaft unser Regime zu stürzen, stellt er eine enorme Gefahr für die nationale Sicherheit dar."
@@ -1033,7 +1024,7 @@
  cos.132.a: "Für eine hellere Zukunft für Zentralamerika!"
 
  cos.133.t: "Einladung zum Wirtschaftsblock"
- cos.133.d: "Unsere [FROM.GetAdjetive] Verbündeten haben einen Wirtschaftsblock vorgeschlagen, um die Wirtschaft der Allianz-Mitglieder zu stärken."
+ cos.133.d: "Unsere [FROM.GetAdjective] Verbündeten haben einen Wirtschaftsblock vorgeschlagen, um die Wirtschaft der Allianz-Mitglieder zu stärken."
  cos.133.a: "Wir schätzen die Solidarität."
 
  cos.134.t: "[FROM.GetName] bietet uns eine Einladung zur Demokratischen Allianz der Karibik an"
