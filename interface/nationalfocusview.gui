@@ -17,7 +17,7 @@ guiTypes = {
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "NATIONAL_FOCUS_TITLE"
-			maxWidth = 1000 ## Dt. Übersetzung: maxWidth geändert damit der gesamte Ländername sichtbar ist
+			maxWidth = 1000 #KRD Default: maxWidth = 500
 			maxHeight = 20
 			format = left
 		}
@@ -210,7 +210,7 @@ guiTypes = {
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 0}
 						text = "CONTINUOUS_FOCUS_TREE_HEADER"
-						maxWidth = 400 #maxWidth=350 da dt. Übersetzung länger
+						maxWidth = 400 #KRD Default: maxWidth=350
 						maxHeight = 20
 						format = left
 					}
@@ -222,7 +222,7 @@ guiTypes = {
 						font = "hoi_16mbs"
 						borderSize = {x = 0 y = 0}
 						text = "CONTINUOUS_FOCUS_TREE_DESC"
-						maxWidth = 320 #maxWidth=300 da dt. Übersetzung länger
+						maxWidth = 320 #KRD Default: maxWidth=300
 						maxHeight = 100
 					}
 
@@ -354,36 +354,36 @@ guiTypes = {
 			size = { width = 220 height = 400 }
 			Orientation = UPPER_RIGHT
 			clipping = yes
-			
+
 			containerWindowType = {
 				name = "filter_grid_bg_container"
-				
+
 				position = { x=0 y=-200 }
 				show_position = { x=0 y = 0 }
 				size = { width = 100 height = 400 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
 				animation_time = 300
-				
+
 				background = {
 					name = "Background"
 					spriteType ="GFX_tiled_window_transparent"
 					alwaystransparent = yes
 				}
-			
+
 				containerWindowType = {
 					name = "filter_grid_container"
 					position = { x= 0 y = 10 }
 					size = { width = 105 height = 380 }
-					
+
 					verticalScrollbar = "right_vertical_slider"
-					
+
 					background = {
 						name = "Background"
 						spriteType ="GFX_tiled_window_transparent"
 						alwaystransparent = yes
 					}
-					
+
 					gridboxtype = {
 						name = "grid"
 						position = { x = 20 y = 0 }
@@ -394,7 +394,7 @@ guiTypes = {
 				}
 			}
 		}
-		
+
 		buttonType = {
 			name = "close_button"
 			position = { x = -45 y = 13 }
@@ -405,7 +405,7 @@ guiTypes = {
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 		}
-		
+
 		containerWindowType = {
 			name = "shortcut_grid_container"
 			position = { x=4 y=-56 }
@@ -444,19 +444,19 @@ guiTypes = {
 			position = { x = 17 y = -40 }
 			quadTextureSprite = "GFX_ongoing_focus_goal"
 		}
-		
+
 		buttonType = {
 			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
 			position = { x= 5 y = 40 }
 		}
-		
+
 		buttonType = {
 			name = "symbol"
 			position = { x = 40 y = -18 }
 			quadTextureSprite = "GFX_goal_unknown"
 		}
-		
+
 		instantTextboxType = {
 			name = "name"
 			position = { x = 15 y = 58 }
@@ -468,13 +468,13 @@ guiTypes = {
 			vertical_alignment = center
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "pol_power_icon"
 			position = { x = 120 y = 20 }
 			quadTextureSprite = "GFX_pol_power_icon"
 		}
-		
+
 		instantTextboxType = {
 			name = "focus_cost"
 			position = { x = 147 y = 27 }
@@ -486,32 +486,32 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "national_focus_item"
 		position = { x=0 y=0 }
 		size = { width = 165 height = 128 }
 		clipping = no
 
-		
+
 		iconType = {
 			name = "continuous_glow"
 			position = { x = 17 y = -40 }
 			quadTextureSprite = "GFX_ongoing_focus_goal"
 		}
-		
+
 		iconType = {
 			name = "highlight_glow"
 			position = { x = 17 y = -40 }
 			quadTextureSprite = "GFX_highlight_focus_goal"
 		}
-		
+
 		buttonType = {
 			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
 			position = { x= 5 y = 40 }
 		}
-		
+
 		buttonType = {
 			name = "symbol"
 			position = { x = 5 y = -44 }
@@ -519,14 +519,14 @@ guiTypes = {
 			centerposition = yes
 			Orientation = CENTER
 		}
-		
+
 		iconType = {
 			name = "historical"
 			position = { x = 140 y = 71 }
 			spriteType = "GFX_own_chat"
 			pdx_tooltip = "HISTORICAL_FOCUS"
 		}
-		
+
 		instantTextboxType = {
 			name = "name"
 			position = { x = 15 y = 58 }
@@ -538,7 +538,7 @@ guiTypes = {
 			vertical_alignment = center
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "viewing_flag"
 			quadTextureSprite ="GFX_flag_small2"
@@ -553,7 +553,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "progress_focus_item"
 		position = { x= 0 y= 0 }
@@ -566,7 +566,7 @@ guiTypes = {
 #			frame = 1
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "national_focus_link"
 		position = { x=-2 y=0 }
@@ -759,8 +759,8 @@ guiTypes = {
 			borderSize = {x = 5 y = 0}
 			text = "Description"
 			maxWidth = 485
-			maxHeight = 115 ## Dt. Übersetzung: Default 115; Nötig damit der Text nicht "überläuft"
-			scrollbarType = standardtext_slider ## Dt. Übersetzung: Hinzugefügt damit ganzer Text lesbar ist
+			maxHeight = 115 #KRD Default: maxHeight = 70
+			scrollbarType = standardtext_slider #KRD
 			format = center
 		}
 
@@ -769,7 +769,7 @@ guiTypes = {
 			position = { x = 84 y = 363 }
 			spriteType = "GFX_unit_list_header"
 		}
-		
+
 		instantTextboxType = {
 			name = "reward_label"
 			position = { x = 34 y = 370 }
@@ -781,7 +781,7 @@ guiTypes = {
 			maxHeight = 70
 			format = center
 		}
-		
+
 		instantTextboxType = {
 			name = "reward"
 			position = { x = 50 y = 397 }
@@ -794,7 +794,7 @@ guiTypes = {
 			scrollbarType = standardtext_slider
 #			format = center
 		}
-		
+
 		buttonType = {
 			name = "start"
 			quadTextureSprite = "GFX_button_123x34"
@@ -804,7 +804,7 @@ guiTypes = {
 			clicksound = select_focus
 			shortcut = "RETURN"
 		}
-		
+
 		iconType = {
 			name = "research_progressbar"
 			spriteType = "GFX_prod_progress_bar3"
@@ -816,7 +816,7 @@ guiTypes = {
 			spriteType = "GFX_production_progressbar_frame2"
 			position = { x=205 y=57 }
 		}
-		
+
 		instantTextboxType = {
 			name = "status"
 			position = { x = 208 y = 60 }
@@ -828,7 +828,7 @@ guiTypes = {
 			format = center
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "coninuous_focus_detail_view"
 		position = { x=500 y=100 }
@@ -838,7 +838,7 @@ guiTypes = {
 		clipping = no
 		fade_time = 500
 		fade_type = linear
-		
+
 		show_sound = pop_up
 
 		background = {
@@ -846,7 +846,7 @@ guiTypes = {
 			#SpriteType ="GFX_technology_info_bg"
 			SpriteType = "GFX_tiled_window_thin_border2"
 		}
-		
+
 		iconType ={
 			name ="info_top_win"
 			spriteType = "GFX_tech_info_top_win"
@@ -911,7 +911,7 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 4 left = 13 bottom = 0 right = 5}
 			clipping = yes
-			
+
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_paper_bg2"
@@ -934,7 +934,7 @@ guiTypes = {
 			position = { x = 84 y = 363 }
 			spriteType = "GFX_unit_list_header"
 		}
-		
+
 		instantTextboxType = {
 			name = "reward_label"
 			position = { x = 34 y = 370 }
@@ -946,7 +946,7 @@ guiTypes = {
 			maxHeight = 70
 			format = center
 		}
-		
+
 		instantTextboxType = {
 			name = "reward"
 			position = { x = 50 y = 397 }
@@ -959,7 +959,7 @@ guiTypes = {
 			scrollbarType = standardtext_slider
 #			format = center
 		}
-		
+
 
 		buttonType = {
 			name = "start"
@@ -979,7 +979,7 @@ guiTypes = {
 			position = { x=390 y=53 }
 			clicksound = click_default
 		}
-		
+
 		instantTextboxType = {
 			name = "status"
 			position = { x = 208 y = 60 }
@@ -991,7 +991,7 @@ guiTypes = {
 			format = center
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "focus_tree_filter_icon_container"
 		position = { x=0 y=0 }
@@ -1005,7 +1005,7 @@ guiTypes = {
 			clicksound = click_checkbox
 			frame = 1
 		}
-		
+
 		iconType = {
 			name = "icon"
 			position = { x = 8 y = 7 }
@@ -1014,7 +1014,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "focus_tree_alternate_icon_button_container"
 		position = { x=-20 y=0 }
@@ -1071,7 +1071,7 @@ guiTypes = {
 			scale = 0.6
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "focus_tree_filter_show_rest"
 		position = { x=0 y=5 }
