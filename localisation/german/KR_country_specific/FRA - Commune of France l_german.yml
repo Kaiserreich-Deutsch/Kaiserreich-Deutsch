@@ -5,7 +5,6 @@
 
 ### Tooltips ###
 FRA_ongoing_phalanstere_development: "§YHilft bei der Entwicklung eines anderen Landes.§!"
-CSA_redeagles_tt: "Neue freiwillige Piloten und Flugzeuge werden eintreffen."
 
  FRA_will_build_in_savoy_if_owned: "§Y[735.GetName]§! wird auch §Y1 $dam$§! erhalten, wenn im Besitz von §Y[ROOT.GetNameWithFlag]§!."
  FRA_will_build_in_upper_savoy_if_owned: "§Y[943.GetName]§! wird auch §Y1 $dam$§! erhalten, wenn im Besitz von §Y[ROOT.GetNameWithFlag]§!."
@@ -30,13 +29,9 @@ FRA_all_but_chad_niger: "§HFranzösisch Sudan§!, §HGuinea§!, §HMauretanien�
 
 FRA_wave_of_dissent: "Welle der Unzufriedenheit"
 
- is_controlled_by_INT_or_ally_tt: "wird von einem Mitglied der §YInternationale§! kontrolliert"
-
- FRA_blocks_operation_eulen: "§G§Y[GER.GetNameWithFlag]§! behindert das Fortschreiten des Schwerpunktes§! §Y$GER_operation_eulen$§!.\n\n§RWenn §Y$GER_operation_eulen$§! gestartet wird, gehen die Boni verloren!§!"
  FRA_failed_operation_eulen: "§LAufgrund des Erfolges der deutschen §Y$GER_operation_eulen$§! werden erhebliche Anstrengungen unternommen, um die katholischen Unruhen zu beruhigen, wodurch die potenzielle Wirkung dieser Initiative stark verringert wird.§!"
 
  FRA_af_custom_modifier_tooltip: "[FRA_ArmeeFederale_MobileWarfareProductionBonus][FRA_ArmeeFederale_FirstLineBreak][FRA_ArmeeFederale_ArtilleryProductionBonus][FRA_ArmeeFederale_SecondLineBreak][FRA_ArmeeFederale_ArmourBonus]"
- FRA_af_line_break: "\n"
 
  FRA_motor_production_bonus: "$FRA_motor_production_bonus_no_lar$\n§Y$armored_car_equipment$§!:\n    $production_cost_tt$[?-0.1|-=%2]\n    $STAT_COMMON_RELIABILITY$[?0.05|+=%0]"
  FRA_motor_production_bonus_no_lar: "§Y$motorized_equipment$§!: $production_cost_tt$[?-0.1|-=%2]\n§Y$mechanized_equipment$§!: $production_cost_tt$[?-0.1|-=%2]"
@@ -69,7 +64,6 @@ FRA_wave_of_dissent: "Welle der Unzufriedenheit"
 
 ### World Tension ###
  FRA_rearmament_threat: "Französische Wiederaufrüstung"
- FRA_attacks_germany_threat: "Frankreich greift Deutschland an"
 
 ### Traits ###
  FRA_atomic_pair: "Atomares Paar"
@@ -201,8 +195,7 @@ FRA2_FOR_ANAR: "1941 Wahlen: Anarchistische Außenpolitik"
 FRA2_FOR_JACO: "1941 Wahlen: Jakobinische Außenpolitik"
 FRA2_FOR_SORE: "1941 Wahlen: Sorelianische Außenpolitik"
  damocles_project_active: "Das Damokles-Projekt wurde angenommen"
-FRA_support_bharatiya: "Hat einem Militäreinsatz in der Bharatiya-Kommune zugestimmt."
- FRA_created_phalanstere: "§Y[FRA.GetNameDef]§!: $has_completed_focus$$FRA_found_the_phalanstere_international$§!"
+FRA_support_bharatiya: "Hat einem Militäreinsatz in der Bharatiya Volksrepublik zugestimmt."
 
 ### Techs ###
 phalanstere_research_name: "Phalansteriesche Internationale"
@@ -705,10 +698,6 @@ comfrance.42.t: "Eröffnung des Kongresses"
 comfrance.42.d: "Die Eröffnungssitzung des Neunten Kongresses der Dritten Internationale fand im Schloss von Versailles statt, das zu diesem Anlass mit karmesinroten Bannern mit sozialistischen Symbolen und Slogans geschmückt war. George Lansbury, der Vater der britischen Revolution, der die Ehre hatte, die Eröffnungsrede zu halten, wies auf die Ironie hin, dass die proletarischen Kräfte im ehemaligen Zentrum der autokratischen Monarchie zusammenkamen - ein Beweis für den unaufhaltsamen Vormarsch der Revolution, wenn es denn eines Beweises bedurfte. Es folgte eine große Rede, in der er den Delegierten dankte, an die revolutionären Erfolge der letzten Jahre erinnerte und Mut für den kommenden Kampf machte. In seinen Schlussworten forderte Lansbury die Delegierten auf, sich ihm in einer Gebetsminute anzuschließen, woraufhin eine französische Stimme prompt antwortete: "Den Teufel werden wir tun", was zu einigen Momenten der Erregung im Publikum führte. Dennoch erhielt der alte Mann reichlich Beifall, und die Vertreter teilten sich in verschiedene Diskussionsgruppen und Ausschüsse auf."
 comfrance.42.a: "Der neunte Kongress der Dritten Internationale ist hiermit eröffnet!"
 
-comfrance.421.t: "Die Internationale zeigt ihr wahres Gesicht"
-comfrance.421.d: "Die Roten sind eindeutig bereit, ihr Gift zu verteilen, wie sie in der letzten Sitzung der Internationale deutlich gezeigt haben! Wir müssen auf alles vorbereitet sein...!"
-comfrance.421.a: "Wir müssen bereit sein..."
-
 comfrance.43.t: "Syndikalismus in Spanien"
 comfrance.43.d: "Joaquín Ascaso Budriá hat die Bühne betreten und die Position der CNT-FAI in Spanien für den Kongress ausgearbeitet. Die CNT-FAI ist die größte syndikalistische Partei in Spanien, die sich aus Anarcho-Syndikalisten, gemäßigten Syndikalisten und Gewerkschaftern zusammensetzt. Die spanischen Revolutionäre haben den Weißen Terror, gewalttätige konterrevolutionäre Aktionen gegen die Arbeiter, aus erster Hand erlebt. Sie sind gekommen und bitten um Unterstützung für ihre Sache, wenn der Moment gekommen ist. Einstimmig wurde eine Resolution zur Unterstützung der spanischen proletarischen Kräfte verabschiedet, und die Rufe “¡Viva la Revolución!” hallten durch die Säle von Versailles."
 comfrance.43.a: "Unsere iberischen Kameraden können auf uns zählen!"
@@ -718,7 +707,7 @@ comfrance.45.d: "Wir hörten Joaquín Ascaso Budriá über die Horrorgeschichten
 comfrance.45.a: "Ein weiterer Grund, warum wir das kapitalistische System des Mordes und Raubes beenden müssen."
 
 comfrance.47.t: "Auch im Herzen des Kapitals"
- comfrance.47.d: "Der amerikanische Delegierte John 'Jack' Reed hält eine leidenschaftliche Rede: Er ist von Beruf Journalist, einer der ersten Amerikaner, die über die russische und französische Revolution berichten, und wird später selbst politisch aktiv. Heute ist er eine angesehene Stimme in der Bewegung und hat seine Kandidatur für die Präsidentschaftswahlen 1936 für die SPA angekündigt. Trotz der Kritik im In- und Ausland, dass ihn dies in Richtung Reformismus ziehen würde, ist die Aussicht, einen überzeugten Sozialisten an der Spitze der Vereinigten Staaten zu sehen, zu verlockend für die Delegierten, um große Bedenken zu äußern, und Reed wurde vom Kongress herzlich empfangen. In seiner Rede ging er auf die derzeitige Lage in den Vereinigten Staaten ein: Die Große Depression, die sich nun schon seit Jahren hinzieht, hat die amerikanischen Arbeiter und Farmer in eine schreckliche Lage gebracht, die zu einem raschen Anstieg der radikalen Politik geführt hat, der durch den deutschen Crash noch verstärkt wurde. Die Arbeiterbewegung wird immer mächtiger, die SPA gewinnt rasch an Boden in den politischen Institutionen, und die proletarischen Kräfte halten der polizeilichen Repression und den reaktionären Milizen der Longisten stand: eine Gelegenheit scheint sich zu bieten."
+ comfrance.47.d: "Der amerikanische Delegierte John Reed hält eine leidenschaftliche Rede: Er ist von Beruf Journalist, einer der ersten Amerikaner, die über die russische und französische Revolution berichten, und wird später selbst politisch aktiv. Heute ist er eine angesehene Stimme in der Bewegung und hat seine Kandidatur für die Präsidentschaftswahlen 1936 für die SPA angekündigt. Trotz der Kritik im In- und Ausland, dass ihn dies in Richtung Reformismus ziehen würde, ist die Aussicht, einen überzeugten Sozialisten an der Spitze der Vereinigten Staaten zu sehen, zu verlockend für die Delegierten, um große Bedenken zu äußern, und Reed wurde vom Kongress herzlich empfangen. In seiner Rede ging er auf die derzeitige Lage in den Vereinigten Staaten ein: Die Große Depression, die sich nun schon seit Jahren hinzieht, hat die amerikanischen Arbeiter und Farmer in eine schreckliche Lage gebracht, die zu einem raschen Anstieg der radikalen Politik geführt hat, der durch den deutschen Crash noch verstärkt wurde. Die Arbeiterbewegung wird immer mächtiger, die SPA gewinnt rasch an Boden in den politischen Institutionen, und die proletarischen Kräfte halten der polizeilichen Repression und den reaktionären Milizen der Longisten stand: eine Gelegenheit scheint sich zu bieten."
  comfrance.47.a: "Die rote Flagge wird an der Wall Street wehen!"
 comfrance.47.b: "Bieten Sie Unterstützung für Reed und seine Kameraden an."
 comfrance.47.c: "Wir können noch keine Feindschaft mit Amerika riskieren."
@@ -726,7 +715,6 @@ comfrance.47.c: "Wir können noch keine Feindschaft mit Amerika riskieren."
  comfrance.50.t: "Hoffnungen in Lateinamerika"
  comfrance.50.d: "Anschließend fand eine gemeinsame Veranstaltung der lateinamerikanischen Genossen statt. Süd- und Mittelamerika haben sich in den letzten Jahren an die Spitze des sozialistischen Kampfes gestellt. Als Hauptopfer amerikanischer Interessen, die unaufhörlich vom internationalen Kapital ausgebeutet und von kleinen Diktatoren, die Marionetten dieser oder jener 'Yanqui'-Lobby sind, haben die Massen Amerikas die Nase voll. Jeden Tag schließen sich mehr Arbeiter dem Kampf an dieser Frontlinie des Imperialismus an, und wenn wir unseren Genossen glauben, ist der gesamte Kontinent nur noch einen Schritt von der Befreiung entfernt. Ein dicht gedrängtes Publikum lauschte gespannt den Heldengeschichten der patagonischen Revolutionäre, den neuesten Informationen über die noch junge nicaraguanische Revolution oder den Erzählungen von Veteranen der mexikanischen Revolution, die ganz Lateinamerika inspiriert hat. Delegierte aus anderen Ländern wie Brasilien oder Kuba berichteten ausführlich über den Stand des proletarischen Kampfes in ihren Ländern, und viele von ihnen zeigten sich sehr optimistisch, was die Aussichten für die kommenden Jahre angeht."
 comfrance.50.a: "Beginnen Sie, den Syndikalismus in Lateinamerika zu fördern."
-comfrance.50.b: "Wir sollten den Syndikalismus anderswo aufbauen, wir müssen unsere Prioritäten ordnen."
 
 comfrance.51.t: "Die Rolle der Frauen in der weltweiten Revolution"
 comfrance.51.d.FRA: "Heute betrat die britische Feministin Helen Crawfurd die Bühne mit einer flammenden Rede über die Rolle der Frauen in der Weltrevolution. Ihren Argumenten zufolge könnte es ohne die Beteiligung von Frauen in der Industrie und den Streitkräften unmöglich sein, die vielen Feinde des Proletariats zu besiegen. Die Beherzigung dieses Aufrufs wird jedoch wahrscheinlich einige Unruhen unter den eher "konservativen" Elementen der Gesellschaft hervorrufen."
@@ -741,7 +729,6 @@ comfrance.52.a: "So soll es sein."
 comfrance.53.t: "Unterstützung des Risorgimento"
 comfrance.53.d: "Der heutige Tag ist eine Gelegenheit für unsere Vertreter auf dem Kongress der Dritten Internationale, ihre Argumente vorzubringen, um internationale Unterstützung für unsere Bemühungen um die Wiedervereinigung zu erbitten. Der Außenminister glaubt, dass die französische Unterstützung für das Risorgimento aufgrund der möglichen österreichischen Beteiligung entscheidend für dessen Erfolg sein könnte."
 comfrance.53.a: "Bittet um Unterstützung für das Risorgimento!"
-comfrance.53.b: "Es gibt wichtigere Themen als diese."
 
 comfrance.54.t: "Politik auf der italienischen Halbinsel"
 comfrance.54.d: "Delegierte der Sozialistischen Republik Italien traten vor dem Kongress auf und plädierten dafür, die Republik in ihren Bemühungen um die Wiedervereinigung der italienischen Halbinsel gegenüber den Verrätern jenseits des Po, dem Königreich Sizilien und ihrem theokratischen Vasallen in Rom, zu unterstützen. Ein Engagement in Italien könnte sich als vorteilhaft für die Ausbreitung der Revolution erweisen, könnte aber zu einem Konflikt mit dem reaktionären Österreichischen Kaiserreich führen, das für den Schutz des Regimes in Mailand verantwortlich war."
@@ -753,11 +740,10 @@ comfrance.55.a: "Eine entscheidende Gelegenheit!"
 
 comfrance.56.t: "Der Stand des indischen Sozialismus"
 comfrance.56.d: "Als sich der Kongress seinem Ende nähert, ergreift der junge Jawaharlal Nehru das Wort, um den prekären Zustand unserer revolutionären Regierung zu erklären. In seiner Rede ruft er nachdrücklich zur internationalen Unterstützung beim Aufbau einer Volksarmee auf, die es mit unseren Feinden in Lahore und Hyderabad aufnehmen kann."
-comfrance.56.a: "Wir brauchen internationale Unterstützung bei der Organisation unserer Armee!"
 comfrance.56.b: "Nein, uns geht es gut, so wie wir sind."
 
-comfrance.57.t: "Die Bharatiya-Kommune bittet um Unterstützung"
-comfrance.57.d: "Die Bharatiya-Kommune bat um Unterstützung in ihrem Kampf gegen ihre Nachbarn - das Dominion von Indien und die Fürstliche Föderation. Sie möchten, dass wir Militärberater schicken, um ihre Anführer und ihre Truppen auszubilden."
+comfrance.57.t: "Die Bharatiya Volksrepublik bittet um Unterstützung"
+comfrance.57.d: "Die Bharatiya Volksrepublik bat um Unterstützung in ihrem Kampf gegen ihre Nachbarn - das Dominion von Indien und die Fürstliche Föderation. Sie möchten, dass wir Militärberater schicken, um ihre Anführer und ihre Truppen auszubilden."
 comfrance.57.a: "Schickt Militärberater, um ihre Armee auszubilden!"
 comfrance.57.b: "Wir können unsere Ressourcen nicht verschwenden."
 
@@ -768,10 +754,6 @@ comfrance.58.a: "Wir werden die Einrichtung des Ausschusses gerne unterstützen.
 comfrance.59.t: "Das Ende des neunten Kongresses"
  comfrance.59.d: "Der Neunte Kongress der Dritten Internationale ist endlich zu Ende gegangen. Er war reich an Ereignissen und Emotionen, hat einmal mehr den Zusammenhalt der internationalen sozialistischen Bewegung gestärkt und ihren Kurs für die unmittelbare Zukunft festgelegt und kann nur als Erfolg bezeichnet werden. Die letzte Abstimmung der Delegierten betraf den Ort des nächsten Kongresses, und obwohl viele Städte vorgeschlagen wurden, wurde schließlich beschlossen, dass er in London, der anderen großen sozialistischen Hauptstadt, stattfinden sollte. Viele Delegierte traten vor, um ihre abschließenden Bemerkungen zu machen und ihren Genossen zu danken.\n\nWenn sie nach Hause kommen, werden sich die Delegierten mit den Folgen eines der größten Ereignisse seit den Revolutionen auseinandersetzen müssen, das sicherlich eine Gelegenheit zum entschlossenen Handeln bietet. Doch zuvor wurden sie mit einer Zeremonie gebührend verabschiedet. Auf dem Montmartre-Hügel, dem Geburtsort der Pariser Kommune von 1871, fand eine große, der Öffentlichkeit zugängliche Aufführung statt, bei der die besten französischen Künstler, regionale Kostüme und Traditionen sowie sportliche Leistungen und technische Innovationen gezeigt wurden. Es folgte ein großes Bankett mit Gerichten aus allen Teilen der Kommune für die zahlreichen Delegierten, das bis tief in die Nacht dauerte. Natürlich beendeten die Gäste dieses Erlebnis der freudigen sozialistischen Einheit auf die einzige Art und Weise, wie es möglich war: mit dem stolzen Gesang der 'Internationale'."
  comfrance.59.a: "Und morgen wird die Internationale die Menschheit sein!"
-
-comfrance.61.t: "Der erste Schritt der Syndikalisten"
-comfrance.61.d: "Die Roten treffen sich, um ihre Aktivitäten zu koordinieren, die definitiv gegen die Ordnung gerichtet sind, die wir nach unserem Sieg im Weltkrieg in Europa errichtet haben. Wir müssen dieses Treffen beobachten und seine Ergebnisse genau analysieren!"
-comfrance.61.a: "Passen Sie auf!"
 
 comfrance.62.t: "Rote Französisch Militärische Unterstützung"
 comfrance.62.d: "Nachdem unsere Delegierten auf dem neunten Kongress der Dritten Internationale um militärische Unterstützung für die Organisation der indischen Revolutionsarmee gebeten hatten, beschlossen die Union Britanniens und die Kommune Frankreichs, hochrangige Militärs und Experten zu entsenden, um unsere vordersten Offiziere auszubilden. Hoffentlich wird diese Zusammenarbeit auf dem Schlachtfeld nützliche Ergebnisse bringen!"
@@ -824,7 +806,7 @@ comfrance.86.d: "Mit allen Delegierten in London begann der zehnte Kongress der 
 comfrance.86.a: "Bravo, Genosse Blair!"
 
 comfrance.87.t: "Tag 2 - Die amerikanische Frage"
-comfrance.87.d: "Am zweiten Tag besprachen die Delegierten die dringendste Angelegenheit - die Entwicklung des Bürgerkriegs in Amerika. Da Long und die Bundesregierung die CSA in die Defensive drängten, wurde beschlossen, zusätzliche Hilfe für Reed und seine Anhänger zu schicken."
+comfrance.87.d: "Am zweiten Tag besprachen die Delegierten die dringendste Angelegenheit - die Entwicklung des Bürgerkriegs in Amerika. Da Long und die Bundesregierung die WCA in die Defensive drängten, wurde beschlossen, zusätzliche Hilfe für Reed und seine Anhänger zu schicken."
 comfrance.87.a: "Stellen Sie Ressourcen, Industriemaschinen und Waffen bereit."
 comfrance.87.b: "Schicken Sie ein erstklassiges Jagdgeschwader."
 comfrance.87.c: "Organisieren Sie eine Division von Freiwilligen."
@@ -843,13 +825,13 @@ comfrance.94.d: "Unsere mexikanischen Kameraden haben zugestimmt, uns zusätzlic
 comfrance.94.a: "Danke, Genossen!"
 
 comfrance.97.t: "Tag 3 - Hemingways Rede"
-comfrance.97.d: "Nachdem die amerikanische Frage geklärt war, betrat Ernest Hemingway, der Delegierte der Syndikate auf dem Kongress, die Bühne. Er dankte allen, die die Sache der CSA unterstützt hatten, und rief die sozialistische Welt zum ständigen Kampf gegen die Reaktionäre auf. Die Rede wurde mit großem Beifall aufgenommen, besonders von der französischen Delegation."
+comfrance.97.d: "Nachdem die amerikanische Frage geklärt war, betrat Ernest Hemingway, der Delegierte [WCA.GetNameDef] auf dem Kongress, die Bühne. Er dankte allen, die die Sache der Amerikaner unterstützt hatten, und rief die sozialistische Welt zum ständigen Kampf gegen die Reaktionäre auf. Die Rede wurde mit großem Beifall aufgenommen, besonders von der französischen Delegation."
 comfrance.97.a: "Ja, wir können!"
 comfrance.97.b: "Oui, nous pouvons!(Ja, wir können!)"
 comfrance.97.c: "Eine große Rede."
 
 comfrance.98.t: "Day 3 - Hemingways Rede"
-comfrance.98.d: "Der sozialistische Delegierte bei des zweiten internationalen Kongresses, Ernest Hemingway, hat heute eine Rede gehalten, in der er unser Vorgehen gegen die CSA verurteilt und zu verstärkter Unterstützung der Roten in diesem Krieg aufruft. Wir müssen unsere Anstrengungen verdoppeln und Reed zerschlagen, bevor er weitere Hilfe erhält."
+comfrance.98.d: "Der sozialistische Delegierte bei des zweiten internationalen Kongresses, Ernest Hemingway, hat heute eine Rede gehalten, in der er unser Vorgehen gegen die WCA verurteilt und zu verstärkter Unterstützung der Roten in diesem Krieg aufruft. Wir müssen unsere Anstrengungen verdoppeln und Reed zerschlagen, bevor er weitere Hilfe erhält."
 comfrance.98.a: "Vorwärts!"
 
 comfrance.99.t: "Die Cambridge Konferenz"
@@ -889,14 +871,6 @@ FRA_workers_of_the_world_unite_POR: "Proletários de todos os países, uni-vos!"
 FRA_workers_of_the_world_unite_RUS: "Proletarii vsekh stran, sojedinjajtes!"
 FRA_workers_of_the_world_unite_IRE: "A lucht oibre an domhain, aontaígí!"
 
- #comfrance.116.t: "Der Tod von Tom Mann"
- #comfrance.116.d: "Tom Mann ist im Alter von 84 Jahren in seinem Haus in Grassington, Nord-Yorkshire, verstorben. Als Zweiter Vorsitzender der Union of Britain und 'volanischer' Erbe des Revolutionsführers A.J. Cook waren seine Autorität und sein Einfluss in der Gewerkschaft beispiellos. Bei seiner Beerdigung erklärte der TUC-Vorsitzende: "Genosse Mann hat uns verlassen - aber seine Ideen werden weiterleben, für immer.' Die Zeremonie hat sich als eine der größten öffentlichen Manifestationen von Patriotismus seit der Revolution von 1925 erwiesen."
- #comfrance.116.a: "Sic transit gloria mundi...(So vergeht der Ruhm der Welt)"
-
-comfrance.117.t: "Der Tod von Tom Mann"
-comfrance.117.d: "Tom Mann ist im Alter von 84 Jahren in seinem Haus in Grassington, Nord-Yorkshire, verstorben. Der Verräter und Zweite Vorsitzende der Union of Britain, Mann, ist bei den Royalisten als Synonym für Verrat in Erinnerung geblieben. Obwohl die Sozialisten in Großbritannien seinen Tod betrauern, ist sein Begräbnis in Kanada zu einem einzigen hellen Tag in dieser dunklen Periode der Geschichte geworden."
-comfrance.117.a: "Der Teufel ist tot."
-
 comfrance.124.t: "Französische Hilfe kommt an!"
 comfrance.124.d: "Unsere französischen Genossen haben die Notlage der spanischen Arbeiter gesehen und haben uns beträchtliche Sendungen von Vorräten geschickt! Es sind auch viele Freiwillige eingetroffen, die bereit sind, für die Sache der internationalen proletarischen Solidarität zu kämpfen!"
 comfrance.124.a: "Großartig!"
@@ -905,7 +879,6 @@ comfrance.125.t: "Französische Hilfe kommt an!"
 comfrance.125.d: "Die von unseren französischen Kameraden versprochene Hilfe ist heute endlich auf dem Flughafen von Santiago eingetroffen, und tonnenweise Geräte, Maschinen und Baumaterialien warten auf unsere Entscheidung, was wir damit machen sollen."
 comfrance.125.a: "Verwenden Sie es, um unsere Armee zu verbessern."
 comfrance.125.b: "Nutzen Sie es, um unsere Industrie zu verbessern."
-comfrance.125.c: "Verwenden Sie es, um unsere Grenze zu Argentinien zu befestigen."
 
 comfrance.127.t: "Die Phalansteriesche Internationale Forschungsorganisation"
 comfrance.127.d: "Im Laufe der Zeit hat sich schnell gezeigt, dass die globale Revolution weit mehr als nur Hingabe an die Sache erfordert. Da Frankreich und Großbritannien die einzigen hochentwickelten sozialistischen Länder der Welt sind, hat es sich durchgesetzt, dass sie ein langfristiges Forschungshilfeprogramm für andere Länder auflegen. Und so wurde die sogenannte "Phalansteriesche Internationale Forschungsorganisation" ins Leben gerufen, ein Zweig des Programms "Phalansteriesche Internationale", der darauf abzielt, den sozialistischen Ländern in der ganzen Welt technologische Unterstützung zu geben. Die Frage ist nun, ob wir uns diesem Bestreben anschließen sollen."
@@ -953,8 +926,7 @@ comfrance.136.a: "Vernichte sie!"
 
 comfrance.137.t: "Gamelins Marsch auf Paris"
 comfrance.137.d: "Bei den Allgemeinen Informationen gehen Meldungen ein, dass Einheiten des Bürgerkriegsgenerals Maurice Gamelin gemeutert und sich zur Volksfront bekannt haben. Gamelin marschiert auf Paris!"
-comfrance.137.a: "Wir werden uns diesen Rebellen widersetzen!"
-comfrance.137.b: "Die Rebellen nehmen die Hauptstadt ein!"
+comfrance.137.a: "Die Rebellen nehmen die Hauptstadt ein!"
 
 comfrance.138.t: "Die Volksfront stellt den Syndikalismus wieder her"
 comfrance.138.d: "Die Volksfront hat Paris eingenommen und säubert die Jakobiner aus der Stadt. Die Gemeinden in ganz Frankreich haben diese Gelegenheit genutzt, um ihre eigenen Zweige der \"Parti Unique\" (Einheitspartei) zu liquidieren. Gamelin und Blum haben die zuvor abgeschafften syndikalistischen Institutionen, die CGT und BGT, wiederhergestellt, und in Notwahlen wurde Gamelin zum Vorsitzenden der Allgemeinen Arbeitsvermittlung und Blum zum Vorsitzenden des Ausschusses für öffentliche Sicherheit gewählt."
@@ -1155,7 +1127,6 @@ comfrance.1000.a: "Überraschend, um es vorsichtig auszudrücken."
 FRA_liberate_europe_category: "Die Befreiung Europas"
 FRA_liberate_europe_category_desc: "Der Sieg in Europa ist unser! Die verbliebenen Staaten der Bourgeoisie sind uns ausgeliefert und reif für die Zerstörung. Nutzen wir diese Chance, um die Revolution voranzutreiben und den großen europäischen Kontinent in unsere Festung des Sozialismus zu verwandeln."
 
-FRA_invade_liberation_target: "Angriff [FROM.GetNameDef]"
 FRA_invade_liberation_target_desc: "[FROM.GetNameDefCap] ist ein schwaches und marodes Regime, das zerstört werden muss, vorwärts!"
 
 FRA_internationale_category: "Angelegenheiten der Internationale"
@@ -1192,8 +1163,6 @@ FRA_mobilise_the_reserves_desc: "Trotz unserer Bemühungen scheitern wir. Wir m�
 FRA_help_CHL: "Helfen Sie unseren [FROM.GetAdjective] Brüdern"
 FRA_help_CHL_desc: "Auf dem Zehnte Kongress haben wir versprochen, unseren [FROM.GetAdjective] Genossen zu helfen, ihr Land zu entwickeln und den reaktionären Staat Argentinien zu besiegen. Wir werden keine Kosten scheuen, um ihren Sieg und die Freiheit des gesamten Amerikas zu sichern. Nichts ist zu gut für unsere Genossen!"
  
- FRA_invite_serbia: "Biete [From.GetNameDef] eine Allianz an"
-
 FRA_Sabotage: "Antikoloniale Aktion in [From.GetNameDef] einleiten"
 FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel zu lange die einheimische Bevölkerung für ihre Kriegsmaschinerie und ihr Prestige ausgebeutet. Wir werden nicht zulassen, dass sie weitermachen. Mit Hilfe des Sozialistischen Antikolonialkomitees sind wir in der Lage, Operationen der Rebellion oder Sabotage in den französischen Kolonialgebieten einzuleiten."
 
@@ -1206,17 +1175,13 @@ FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel 
  FRA_DEF: "Frankreich"
 
  FRA_totalist: "Kommune Frankreich"
- FRA_totalist_ADJ: "Communard"
  FRA_totalist_DEF: "die Kommune Frankreich"
  FRA_syndicalist: "Kommune Frankreich"
- FRA_syndicalist_ADJ: "Communard"
  FRA_syndicalist_DEF: "die Kommune Frankreich"
  FRA_radical_socialist: "Kommune Frankreich"
- FRA_radical_socialist_ADJ: "Communard"
  FRA_radical_socialist_DEF: "die Kommune Frankreich"
  FRA_neosocialist: "Französische Sozialrepublik"
  FRA_neosocialist_DEF: "die Französische Sozialrepublik"
- FRA_neosocialist_ADJ: "Neosozialistisch"
 
 ### Characters ###
  FRA_marcel_deat: "Marcel Déat"
@@ -1342,29 +1307,29 @@ FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel 
  FRA_raoul_castex: "Raoul Castex"
  FRA_raoul_castex_navy_chief_desc: "§YGeboren:§! §L27. Oktober 1878, in Saint-Omer, Pas-de-Calais, Französische Republik§!"
 
- FRA_andre_georges_lemmonier: "André-Georges Lemonnier"
- FRA_andre_georges_lemmonier_high_command_desc: "§YGeboren:§! §L24. Februar 1896, in Guingamp, Côtes-du-Nord, Französische Republik§!"
-
- FRA_gabriel_auphan: "Gabriel Auphan"
- FRA_gabriel_auphan_admiral_desc: "§YGeboren:§! §L4. November 1894, in Alès, Gard, Französische Republik§!"
-
- FRA_philippe_auboyneau: "Philippe Auboyneau"
- FRA_philippe_auboyneau_high_command_desc: "§YGeboren:§! §L9. November 1899, in Konstantinopel, Vilayet von Kostantiniye, Osmanisches Reich§!"
-
  FRA_marcel_gensoul: "Marcel Gensoul"
  FRA_marcel_gensoul_high_command_desc: "§YGeboren:§! §L12. Oktober 1880, in Montpellier, Hérault, Französische Republik§!"
 
- FRA_louis_lazare_kahn: "Louis-Lazare Kahn"
- FRA_louis_lazare_kahn_high_command_desc: "§YGeboren:§! §L13. Oktober 1895, in Versailles, Seine-et-Oise, Französische Republik§!"
+ FRA_emile_muselier: "Émile Muselier"
+ FRA_emile_muselier_navy_chief_desc: "§YGeboren:§! §L17. April 1882, in Marseille, Bouches-du-Rhône, Französische Republik§!\n§YHintergrund;§! §LAls einer der ersten hohen Offiziere, die sich der Revolutionsregierung anschlossen, verbrachte Emile Muselier seine Karriere vor dem Ersten Weltkrieg hauptsächlich im Fernen Osten und im Mittelmeer. Im Jahr 1915 befehligt er eine Einheit von Marinefüsilieren an der Yser in Belgien und wird später Präsident der Marineabteilung des Ministeriums für Erfindungen. Sein erstes richtiges Kommando erhielt er im April 1918 auf der Aviso Scarpe. Als die Matrosen der Scarpe meuterten, ging Muselier zur neuen Bundesmarine über. Seine Karriere verlief erfolgreich, und er stieg schließlich zum Vizeadmiral auf."
 
- FRA_edouard_peisson: "Édouard Peisson"
- FRA_edouard_peisson_theorist_desc: "§YGeboren:§! §L7. März 1896, in Marseille, Bouches-du-Rhône, Französische Republik§!"
+ FRA_charles_platon: "Charles Platon"
+ FRA_charles_platon_high_command_desc: "§YGeboren:§! §L19. September 1886, in Pujols, Gironde, Französische Republik§!"
 
- FRA_irene_and_frederic_joliot_curie: "Irène & Frédéric Joliot-Curie"
+ FRA_robert_jaujard: "Robert Jaujard"
+ FRA_robert_jaujard_high_command_desc: "§YGeboren:§! §L6. März 1896, in Saint-Martin-de-Saint-Maixent, Deux-Sèvres, Französische Republik§!"
+
+ FRA_paul_ortoli: "Paul Ortoli"
+ FRA_paul_ortoli_high_command_desc: "§YGeboren:§! §L19. September 1900, in Bastia, Korsika, Französische Republik§!"
+
+ FRA_louis_de_villefosse: "Louis de Villefosse"
+ FRA_louis_de_villefosse_high_command_desc: "§YGeboren:§! §L14. April 1900, in Paris, Seine, Französische Republik§!"
+
+ FRA_raymond_moullec: "Raymond Moullec"
+ FRA_raymond_moullec_high_command_desc: "§YGeboren:§! §L21. März 1901, in Brest, Finistère, Französische Republik§!"
+
  FRA_irene_and_frederic_joliot_curie_theorist_desc: "§YGeboren:§! §L12. September 1897, in Paris, Seine, Französische Republik§!\n§YGeboren:§! §L19. März 1900, in Paris, Seine, Französische Republik§!"
- FRA_robert_esnault_pelterie: "Robert Esnault-Pelterie"
  FRA_robert_esnault_pelterie_theorist_desc: "§YGeboren:§! §L8. November 1881, in Paris, Seine, Französische Republik§!"
-
  FRA_joseph_vuillemin: "Joseph Vuillemin"
  FRA_joseph_vuillemin_air_chief_desc: "§YGeboren:§! §L14. März 1883, in Bordeaux, Gironde, Französische Republik§!"
  FRA_martial_henri_valin: "Martial Henri Valin"
@@ -1411,3 +1376,12 @@ FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel 
 
  FRA_odette_sansom: "Odette Sansom"
  FRA_richard_sorge: "Richard Sorge"
+
+ FRA_irene_joliot_curie: "Irène Joliot-Curie"
+ FRA_frederic_joliot_curie: "Frédéric Joliot-Curie"
+ FRA_robert_esnault_pelterie: "Robert Esnault-Pelterie"
+ FRA_marcel_bloch: "Marcel Bloch"
+ FRA_francois_hussenot: "François Hussenot"
+ FRA_pierre_david: "Pierre David"
+ FRA_maurice_lavirotte: "Maurice Lavirotte"
+ FRA_louis_lazare_kahn: "Louis-Lazare Kahn"

@@ -70,23 +70,13 @@
  GBR_national_populist_party_long: "Vereinigte Empire-Liga"
 
 ### Tooltips ###
- UK_loyaloob_tt: "Neunzehn Divisionen werden landesweit gebildet."
- GBR_improve_devastation_small: "die Auswirkungen der §YNachkriegszerstörung§! wird um einen §Ggeringen Betrag§!gesenkt\n"
- GBR_improve_devastation_med: "die Auswirkungen der §YNachkriegszerstörung§! wird um einen §Gmittleren Betrag§!gesenkt\n"
- GBR_improve_devastation_large: "die Auswirkungen der §YNachkriegszerstörung§! wird um einen §Ggroßen Betrag§!gesenkt\n"
- GBR_improve_legacy_effect: "die Auswirkungen des §YVermächtnis der Revolution§! wird verringert\n"
- GBR_improve_resistance_effect: "die Auswirkungen des §YSyndikalistischen Widerstand§! auf die §YStabilität§! wird gesenkt um $RIGHT|G0%%%$.\n"
- GBR_worsen_resistance_effect: "Die Auswirkungen des §YSyndikalistischen Widerstandes§! auf die §YStabilität§! werden um $RIGHT|R0%%%$ erhöht.\n"
- GBR_resistance_effect_removed: "der §YSyndikalistischee Widerstands§! Modifikator wird entfernt!"
- GBR_resist_15_or_higher: "§YSyndikalistischen Widerstand§! verringert §YStabilität§! um §R15%§! oder mehr\n"
- GBR_resist_20_or_lower: "§YSyndikalistischen Widerstand§! verringert §YStabilität§! um §R20%§! oder weniger\n"
- GBR_resist_10_or_lower: "Der §YSyndikalistische Widerstand§! verringert die §YStabilität§! um §R10%§! oder weniger\n"
- GBR_resist_5_or_lower: "Der §YSyndikalistische Widerstand§! verringert die §YStabilität§! um §R5%§! oder weniger\n"
+ GBR_syndicalist_resistance_higher: "Der §Y$MODIFIER_STABILITY_FACTOR$§! von §Y$GBR_syndikalist_resistance$§! ist $RIGHT|R%0$ oder mehr"
+ GBR_syndicalist_resistance_lower: "Der §Y$MODIFIER_STABILITY_FACTOR$§! von §Y$GBR_syndikalist_resistance$§! ist $RIGHT|R%0$ oder weniger"
  ENT_britain_agree_northire: "die Briten stimmten zu, Nordirland aufzugeben"
  GBR_loyalist_tension_rises: "Unionistische Spannungen werden zunehmen\n"
  GBR_Ireland_leave_Entente: "§RWir werden die Entente mit Abscheu verlassen§!"
  GBR_Ireland_leave_faction: "§RWir werden unsere Fraktion in Abscheu verlassen§!"
- GBR_may_ask_control_carib: "§Y[GBR.GetNameDef]§! kann die Übergabe von karibischen Marionetten unter der Kontrolle der Entente verlangen\n"
+ GBR_may_ask_control_carib: "§Y[GBR.GetNameDefCap]§! kann die Übergabe von karibischen Marionetten unter der Kontrolle der Entente verlangen\n"
  GBR_regain_colonies_no_ger: "Erlangung von Beschlüssen zur Rückgewinnung seiner alten, nicht von Deutschland gehaltenen Kolonien\n"
  GBR_regain_colonies: "Gewinnt Entscheidungen zur Rückgewinnung seiner alten Kolonien\n"
  GBR_controls_all_britain: "Die Gesamtheit der Insel Großbritannien ist im Besitz von §Y[Root.GetNameDef]§!"
@@ -169,14 +159,8 @@
  GBR_victoria_idea_desc: "Die Briten haben eine Statue errichtet, die an den Sieg Kanadas bei der Wiedereinführung der Monarchie in Großbritannien erinnert und uns als Retter von Tradition und Demokratie preist!"
 
 ### Decisions ###
- GBR_invite_five_eyes: "Einladen von [From.GetNameDef] in das Fünf-Augen-Programm"
- GBR_invite_imperial_preference: "Biete Imperiale Präferenz für [From.GetNameDef]"
  GBR_support_britain: "Unterstützung der Briten"
  GBR_support_britain_desc: "[GBR.GetNameDefCap] hat mit enormen Verwüstungen zu kämpfen, die der Krieg hinterlassen hat. Wir sollten ihnen so viel Hilfe schicken, wie wir uns leisten können!"
- NIR_alliance_with_entente: "Beitritt zur Entente"
- NIR_alliance_with_entente_desc: "Wenn wir wieder Teil des Vereinigten Königreichs werden wollen, müssen wir zunächst zur Entente beitreten - dorthin, wo wir hingehören."
- NIR_rejoin_the_uk: "Wiedereintritt in das Vereinigte Königreich"
- NIR_rejoin_the_uk_desc: "Es ist an der Zeit, dass wir dem Vereinigten Königreich von Großbritannien und Nordirland wieder beitreten."
  GBR_rebuilding_empire: "Das Imperium wieder aufbauen"
  GBR_rebuilding_empire_desc: "Der Wiederaufbau der britischen Wirtschaft und der britischen Regierung hat für uns oberste Priorität - aber der Wiederaufbau des britischen Empire muss folgen. Es gibt überall auf der Welt Orte, an denen Briten leben oder die das Empire als ihre führende Kraft angesehen haben, und wenn wir nicht bereit sind, die Sonne über diesem glorreichen Reich für immer untergehen zu lassen, müssen wir uns bemühen, sie alle wieder in den Schoß zu holen."
  GBR_demand_england: "Fordern Sie Britische Länder"
@@ -250,6 +234,8 @@
  GBR_national_health_service_desc: "Eine weitere Empfehlung des Beveridge-Berichts lautet, in Großbritannien ein System der kostenlosen allgemeinen Gesundheitsversorgung unter der Leitung des NHS einzuführen. Das wird viel dazu beitragen, die Bedingungen im Land zu verbessern und auch diejenigen zu beruhigen, die immer noch behaupten, dass das Leben unter der syndikalistischen Herrschaft besser war."
  GBR_privatisation_act: "Verabschiedung des Privatisierungsgesetzes"
  GBR_privatisation_act_desc: "Nachdem der Prozess der Entsyndikalisierung abgeschlossen ist, muss die Regierung nun den Prozess der Rückübertragung des Eigentums an großen Unternehmen von den Gewerkschaften zurück in private Hände in Angriff nehmen. Dank des Pigou-Berichts verfügen wir über ein System, das einen fairen Prozess sicherstellt, und über ein Feld neuer Unternehmer, die bereit sind, ihren Platz einzunehmen, und durch Kredite finanziert werden."
+ GBR_legacy_revolution_generic: "[GBR_GetReduceLegacyRevolutionFlavourName]"
+ GBR_legacy_revolution_generic_desc: "[GBR_GetReduceLegacyRevolutionFlavourDesc]"
  GBR_rent_control_act: "Verabschiedung des Mietkontrollgesetzes"
  GBR_rent_control_act_desc: "Solange es einen ernsthaften Wohnungsmangel gibt, muss es eine Mietpreiskontrolle geben. Die Einrichtung von Gerichten im ganzen Land zur Festsetzung fairer Mieten zwischen Vermieter und Mieter (wie vom Ridley-Ausschuss empfohlen) scheint die beste Lösung für ein seit langem bestehendes Problem zu sein."
  GBR_progressive_reconciliation: "Die Linke versöhnen"
@@ -394,11 +380,6 @@
  uk.5.d: "In ganz [Root.GetNameDef] sind die Geschäfte und Fabriken geschlossen, da sich die Briten an diesem nationalen Gedenktag zu Ehren derer versammeln, die im Kampf gegen den Syndikalismus ihr Leben verloren haben. Die zentralen Aktivitäten des Tages finden in der Hauptstadt statt, wo die königliche Garde in Anwesenheit von [CAN_king_first_name], der königlichen Familie und führenden Persönlichkeiten aus Politik und Militär durch die Stadt paradiert. In einer Ansprache an die auf der Mall versammelten Massen versprach [CAN_king_first_name], dass der Syndikalismus nie wieder die seit Jahrhunderten überlieferte britische Freiheit bedrohen werde. Wir ehren heute die Opfer", sagte er, "und halten die Erinnerung an das, was so fast verloren war und so teuer wiedergewonnen wurde, wach"."
  uk.5.a: "Für König und Vaterland!"
 
- uk.6.t: "Die Neue Britische Armee"
- uk.6.d.canada: "Mit der Wiederherstellung des Vereinigten Königreichs ist eine große Anzahl britischer Exilanten, die in die kanadische Armee eingezogen worden waren, die ersten, die nach Hause zurückkehren - sie wurden zu einer Reihe von Einheiten der Home Guard zusammengestellt, die zur Aufrechterhaltung der Ordnung dringend benötigt werden. Ihnen folgen bald die ranghohen Generäle und Admirale, die bisher in Kanada gedient haben und die sich alle sehr freuen, die Heimatinseln wiederzusehen."
- uk.6.d.other: "Mit der Wiederherstellung des Vereinigten Königreichs ist eine große Anzahl britischer Exilanten die ersten, die nach Hause zurückkehren - sie wurden zu einer Reihe von Einheiten der Home Guard zusammengestellt, die dringend benötigt werden, um die Ordnung aufrechtzuerhalten. Der Umgang mit der Unordnung im Rest der Britischen Armee wird bis zu einem späteren Zeitpunkt warten müssen."
- uk.6.a: "Wir werden diese Männer dringend brauchen."
-
  uk.7.t: "Hilfe für die Briten"
  uk.7.d: "[GBR.GetNameDefCap] hat mit enormen Verwüstungen zu kämpfen und kann jede Hilfe gebrauchen, die [Root.GetNameDef] anbieten kann!"
  uk.7.a: "Wir können mehr leisten!"
@@ -458,7 +439,6 @@
  uk.21.b: "Gründung von staatlich kontrollierten Gewerkschaften, Verbot der übrigen."
  uk.21.c: "Wir werden keine Gewerkschaften in Großbritannien haben - verbietet sie alle!"
  GBR_protests_will_fade: "Ein Teil des Protestes wird verblassen.\n"
- GBR_protests_will_increase: "Die Proteste werden wahrscheinlich stärker werden.\n"
 
  uk.22.t: "Einwände gegen die Gewerkschaftspolitik"
  uk.22.d: "Während die Entscheidung der Regierung, die Gewerkschaften weiterhin zuzulassen, in der britischen Bevölkerung auf allgemeine Zustimmung stieß, ist ein Teil der Bevölkerung - vor allem die Wohlhabenden und die erst kürzlich aus dem Ausland Zurückgekehrten - ganz und gar nicht damit einverstanden. Sie sind nicht so weit gegangen, auf der Straße zu protestieren, aber es gab Unmut über die Angelegenheit und die allgemeine Überzeugung, dass die Regierung vorsichtig sein muss, damit sie die Dinge nicht so arrangiert, dass sich die Revolte von 1925 wiederholen kann."
@@ -585,10 +565,6 @@
  uk.62.d: "[From.GetNameDefCap] haben eine Initiative gestartet, die sie das Fünf-Augen-Programm nennen, eine Initiative, bei der die Entente zusammenarbeiten würde, um ihre Spionagebemühungen zu bündeln. Wenn die Mitglieder der Allianz sich zum Beispiel darauf einigen, sich gegenseitig nicht auszuspionieren und alle relevanten Daten mit den Büros der anderen auszutauschen, würde das unsere Bemühungen sehr viel effizienter machen."
  uk.62.a: "Strengen wir uns an."
  uk.62.b: "Es lohnt sich nicht."
-
- uk.63.t: "Das Imperiale Präferenz Programm"
- uk.63.d: "Das Programm "Imperiale Präferenz", an dem schon seit Jahren vor der Revolution gearbeitet wurde, soll die Länder des Commonwealth enger zusammenschweißen. Da die Entwicklungsländer mit ihren Handelspraktiken immer aggressiver werden, müssen wir ein System des freien Handels innerhalb des Commonwealth einführen - sowohl, damit wir freundliche Handelspartner bleiben, als auch, damit unsere Märkte für andere Länder leicht zu erschließen sind."
- uk.63.a: "Eine bewundernswerte Initiative!"
 
  uk.64.t: "Das Imperiale Präferenz Programm"
  uk.64.d: "Die britische Regierung ist an uns mit einer neuen Initiative herangetreten, die sie "Imperiale Präferenz" nennt. Diese Initiative war schon vor der Revolution jahrelang in Arbeit und soll die Länder des Commonwealth enger zusammenhalten. Da die Entwicklungsländer mit ihren Handelspraktiken immer aggressiver werden, soll mit dem Programm ein System des freien Handels innerhalb des Commonwealth eingeführt werden - sowohl damit wir freundliche Handelspartner bleiben, als auch damit unsere Märkte für andere Länder leicht zu erschließen sind."
@@ -817,9 +793,7 @@
  uk.137.a: "Verdammt sollen sie sein!"
  uk.137.b: "Dann lassen sie uns kaum eine Wahl!"
 
- uk.140.t.ally: "Die [GBR.GetAdjective] Anfrage"
  uk.140.t: "Die [GBR.GetAdjective]-Forderung"
- uk.140.d.ally: "[From.GetNameDefCap] wurde von unseren Verbündeten in der [GBR.GetAdjective]-Regierung kontaktiert, die sagen, dass sie - jetzt, da [GBR.GetNameDef] wieder auf den Beinen ist - alle kolonialen Ländereien, die derzeit unter der Kontrolle von [From.GetAdjective] stehen, zurückerobern möchten. Ihre Bitte ist höflich und keine Forderung, obwohl sie ganz klar keinen Grund sehen, sie abzulehnen."
  uk.140.d: "[From.GetNameDefCap] wurde von der [GBR.GetAdjective]-Regierung kontaktiert, die mitteilt, dass sie – jetzt, da [GBR.GetNameDef] wieder auf den Beinen ist – das Eigentum an jeglichem Kolonialland zurückerlangen möchte, das derzeit unter [From.GetAdjective ] Kontrolle. Ihre Bitte ist nicht höflich, und sie scheinen bereit zu sein, ihre Forderung mit Nachdruck zu untermauern, wenn wir sie so weit treiben."
  uk.140.a: "Sagen Sie [From.GetNameDef], dass er zustimmen soll."
  uk.140.b: "Sagen Sie [From.GetNameDef], dass er ablehnen soll."
@@ -835,6 +809,10 @@
  uk.143.t: "Nordirland kehrt zur Krone zurück"
  uk.143.d: "Nachdem sie die Tyrannei des radikalen Regimes in Dublin abgeschüttelt haben, haben die sechs Grafschaften von Ulster, die Nordirland bilden, ihre Absicht deutlich gemacht, die Fehler der Vergangenheit rückgängig zu machen und sofort zur britischen Krone zurückzukehren.\n\nWährend sich die Provinz während der Revolution aus Gründen der Selbsterhaltung nur widerwillig an den Staat im Rest der Insel gebunden hatte, hat [NIR.GetLeader] unmissverständlich erklärt, dass der einzige Weg für Nordirland die sofortige Rückkehr in das Reich des Königs ist, und so wurden bereits Verwaltungsbeamte nach Belfast entsandt, um die provisorische Regierung bei ihren Bemühungen zu unterstützen."
  uk.143.a: "Willkommen zu Hause, tapfere Ulstermen!"
+
+ uk.144.t: "Wiederherstellung des Vereinigten Königreichs"
+ uk.144.d: "In einer ausgesprochen dramatischen Wendung der Ereignisse ist das republikanische Regime in der Union von Britannien gestürzt, und die royalistische Regierung unter dem Haus Windsor ist nun endgültig nach London zurückgekehrt. Der [CAN_king_full_name] wurde in der Westminster Abbey offiziell gekrönt und erfüllte sich damit seinen Lebenstraum, das Exil seines Vaters während der Britischen Revolution zu rächen, und die Bemühungen, die Nation von ihren syndikalistischen Bindungen zu befreien, sind bereits im Gange.\nDie Heimatinseln haben sich in nur kurzer Zeit bis zur Unkenntlichkeit verändert, und die Wurzeln des linken Einflusses haben sich tief in die Institutionen der Nation und die Psyche der Menschen eingeprägt. Viele in der ganzen Welt warten nun mit angehaltenem Atem darauf, wie sich das wiederhergestellte Vereinigte Königreich auf der Weltbühne verhalten wird."
+ uk.144.a: "Eine neue Ordnung oder eine Rückkehr der alten?"
 
 ### Characters ###
  GBR_george_frederick_windsor: "Georg V."
@@ -1002,8 +980,6 @@
  GBR_little_hugh: "Kleiner Hugh"
  GBR_little_englander: "Kleiner Engländer"
 
- GBR_cannot_replace_british_pm: "§YDer britische Premierminister kann nur durch ein Ereignis gewechselt werden.§!"
-
  GBR_diligent_judge: "Fleißiger Richter"
  GBR_germanophobic_businessman: "Deutschfeindlicher Geschäftsmann"
 
@@ -1020,4 +996,3 @@
 
  GBR_british_exile_trait: "Britische Exilanten"
  GBR_british_exile_trait_desc: "§LEiner der militärischen Führer, der der britischen Exilregierung gegenüber loyal ist und in das Vereinigte Königreich zurückkehren wird, wenn es wiederhergestellt ist.§!"
-
