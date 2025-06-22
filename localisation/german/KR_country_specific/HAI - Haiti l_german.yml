@@ -33,14 +33,13 @@
 
  HAI_foreign_control_dynamic_modifier: "£pol_idea $HAI_foreign_control$"
  HAI_foreign_control: "Ausländische politische und wirtschaftliche Kontrolle"
- HAI_foreign_control_desc: "Trotz des Rückzugs der Amerikaner von der Besetzung unserer Insel befindet sich Haiti weiterhin fest in der amerikanischen Wirtschaftssphäre. Aufgespalten zwischen deutschen und amerikanischen Wirtschaftsinteressen wird unser Volk ständig ausgebeutet, und wenn keiner der beiden Mächte etwas Entscheidendes passiert, werden wir weiterhin unter ihrem Einfluss stehen.\n§W-----------------§!\n§WAmerikanischer Wirtschaftseinfluss:§! [GetAmericanInfluence]\n§WDeutscher Wirtschaftseinfluss:§! [GetGermanInfluence]\n§WWirtschaftlicher Einfluss der französischen Kommune:§! [GetFrenchInfluence]§![GetENTInfluence]\n\n§W[GetRestrictions]§W$MODIFIER_INDUSTRIAL_FACTORY_DONATIONS$:§! [?HAIeconomicinfluncecivs|=+0]\n§W$MODIFIER_POLITICAL_POWER_FACTOR$:§! [?HAIeconomicinfluncepp|%+0]"
+ HAI_foreign_control_desc: "Trotz des Rückzugs der Amerikaner von der Besetzung unserer Insel befindet sich Haiti weiterhin fest in der amerikanischen Wirtschaftssphäre. Aufgespalten zwischen deutschen und amerikanischen Wirtschaftsinteressen wird unser Volk ständig ausgebeutet, und wenn keiner der beiden Mächte etwas Entscheidendes passiert, werden wir weiterhin unter ihrem Einfluss stehen."
+ HAI_foreign_control_modifier_tooltip: "Amerikanischer Wirtschaftseinfluss: [GetAmericanInfluence]\nDeutscher Wirtschaftseinfluss: [GetGermanInfluence]\nWirtschaftlicher Einfluss der französischen Kommune: [GetFrenchInfluence][GetENTInfluence]\n\n[GetRestrictions]$MODIFIER_INDUSTRIAL_FACTORY_DONATIONS$: [?HAIeconomicinfluncecivs|=+0]\n$MODIFIER_POLITICAL_POWER_FACTOR$: [?HAIeconomicinfluncepp|%+0]"
  
- HAI_foreign_control_dummy: "$HAI_foreign_control$"
- HAI_foreign_control_dummy_desc: "Trotz des Rückzugs der Amerikaner von der Besetzung unserer Insel befindet sich Haiti weiterhin fest in der amerikanischen Wirtschaftssphäre. Aufgespalten zwischen deutschen und amerikanischen Wirtschaftsinteressen wird unser Volk ständig ausgebeutet, und wenn keiner der beiden Mächte etwas Entscheidendes passiert, werden wir weiterhin unter ihrem Einfluss stehen.\n§W-----------------§!\n§WAmerikanischer Wirtschaftseinfluss:§! §RHoch§!\n§WDeutscher Wirtschaftseinfluss:§! §GNiedrig§!\n§WWirtschaftlicher Einfluss der französischen Kommune:§! §GNiedrig§!\n\n§WAmerikanisch verordnete Einschränkungen:§! §RStaatsausgaben§!\n\n§WKann keine Minister oder Gesetze zuweisen:§! §RJa§!\n§W$MODIFIER_INDUSTRIAL_FACTORY_DONATIONS$:§! [?1|=+0]\n§W$MODIFIER_POLITICAL_POWER_FACTOR$:§! [?-0.1|%+0]"
-
  HAI_border_clashes_dynamic_modifier: "£pol_idea $HAI_border_clashes_idea$"
  HAI_border_clashes_idea: "Dominikanische Grenzkonflikte"
- HAI_border_clashes_idea_desc: "Seit dem Abzug der US-Truppen haben die Dominikaner damit begonnen, ihre Streitkräfte an unserer Grenze aufzustocken und noch aggressiver zu agieren. Trotz unseres Wunsches, zurückzuschlagen, haben die dominikanischen Bestechungsgelder unsere Armee kastriert. Wir müssen mit der Korruption aufräumen und unsere Armee zumindest ein wenig modernisieren, um unsere Grenzen verteidigen zu können.\n§W-----------------\n$MODIFIER_ARMY_ORG_FACTOR$: [?HAIborderclashesORG|+=%1]\n$MODIFIER_STABILITY_FACTOR$: [?HAIborderclashesST|+=%]\n$MODIFIER_WAR_SUPPORT_FACTOR$: [?HAIborderclashesWS|+=%]§!"
+ HAI_border_clashes_idea_desc: "Seit dem Abzug der US-Truppen haben die Dominikaner damit begonnen, ihre Streitkräfte an unserer Grenze aufzustocken und noch aggressiver zu agieren. Trotz unseres Wunsches, zurückzuschlagen, haben die dominikanischen Bestechungsgelder unsere Armee kastriert. Wir müssen mit der Korruption aufräumen und unsere Armee zumindest ein wenig modernisieren, um unsere Grenzen verteidigen zu können."
+ HAI_border_clashes_modifier_tooltip: "$MODIFIER_ARMY_ORG_FACTOR$: [?HAIborderclashesORG|+=%1]\n$MODIFIER_STABILITY_FACTOR$: [?HAIborderclashesST|+=%]\n$MODIFIER_WAR_SUPPORT_FACTOR$: [?HAIborderclashesWS|+=%]"
 
  HAI_black_monday: "Schwarzer Montag"
  HAI_black_monday_desc: "Unsere aufstrebende Wirtschaft erlitt einen schweren Rückschlag, als die deutsche Wirtschaft am Schwarzen Montag zusammenbrach. Die Armutsquote steigt weiter an, da immer mehr Menschen in unserem Land arbeitslos werden. Mit seinen weit über den Atlantik reichenden Schwingungen, die unsere ohnehin schon angeschlagene Wirtschaft lähmen, wird sich erst mit der Zeit zeigen, ob Haitis Wirtschaft jemals wieder zu ihrem früheren Zustand zurückfindet oder nicht."
@@ -320,8 +319,6 @@
  HAI_army_desc: "Die Garde d'Haiti, ursprünglich eine reine Gendarmerie, hat sich zu einer vollwertigen Armee entwickelt. Sie und unsere wachsende Grenztruppe müssen mit den feindlichen Kräften völlig gleichgestellt werden."
  HAI_dealing_with_dominicans: "Umgang mit den Dominikanern"
  HAI_dealing_with_dominicans_desc: "Wenn sich die politische Lage stabilisiert hat, können wir das tun, was unser Volk fordert, nämlich den dominikanischen Aggressoren an der Grenze mit größerer Härte entgegentreten."
- HAI_help_from_abroad: "Hilfe vom Ausland"
- HAI_help_from_abroad_desc: "Das Verhalten der Dominikanischen Republik hat die Aufmerksamkeit einiger internationaler Beobachter auf sich gezogen. Wir können dies nutzen, um militärische Hilfe von mehreren wichtigen Nationen zu erhalten."
  HAI_expand_defenses: "Verteidigungen ausbauen"
  HAI_expand_defenses_desc: "Trotz des anhaltenden Konflikts mit den Dominikanern hat keine haitianische Regierung irgendeinen Abschnitt der Grenze richtig befestigt. Um unsere Grenzeinheiten zu verstärken und die Sicherheit im Falle eines offenen Konflikts zu gewährleisten, sollten wir den Weg von Santo Domingo nach Port-Au-Prince befestigen."
  HAI_elite_army: "Eine Elite-Armee"
@@ -344,8 +341,6 @@
  HAI_citizen_soldiers_desc: "Irreguläre Formationen waren für die Aufrechterhaltung der Ordnung in Haiti unerlässlich. Anstatt zu versuchen, mit dieser Praxis zu brechen, sollte die Garde formale Systeme für irreguläre Truppen schaffen, wie z.B. Standardrichtlinien für die Wahl irregulärer Unteroffiziere und eine separate Reihe von Dienstgraden und Gehaltsstufen."
  HAI_modern_army: "Eine moderne Armee"
  HAI_modern_army_desc: "Um die operative Integrität zu gewährleisten, müssen wir das zentrale Arsenal in Port-au-Prince auf den weltweiten Standard bringen."
- HAI_border_exercises: "Beginn der Grenzübungen"
- HAI_border_exercises_desc: "Wir können die strategische Initiative nicht länger an die Dominikaner abtreten. Um unsere Bereitschaft zur Eskalation der Grenzkonflikte zu signalisieren, sollten wir eine Militärübung entlang der Grenze abhalten."
  HAI_prepare_total_war: "Vorbereiten auf den totalen Krieg"
  HAI_prepare_total_war_desc: "Santo Domingo verhält sich zwar auf den offiziellen diplomatischen Kanälen freundlich, doch seine innenpolitische Rhetorik und seine häufigen Provokationen an der Grenze verraten seine wahren Absichten. Zum jetzigen Zeitpunkt scheint ein Krieg unvermeidlich. Wir müssen uns darauf vorbereiten, den Dominikanern ein für alle Mal die Stirn zu bieten."
  HAI_air_force: "Gründung der Luftwaffe"
@@ -441,7 +436,7 @@
 
  HAI_is_on_campaign: "Ist im Wahlkampf"
 
- HAI_American_restrictions: "Amerikanisch verordnete Einschränkungen:§! §RStaatsausgaben§!\n\n§WKann keine Minister oder Gesetze zuweisen:§! §RJa§!\n"
+ HAI_American_restrictions: "Amerikanisch verordnete Einschränkungen: §RStaatsausgaben§!\n\n§WKann keine Minister oder Gesetze zuweisen:§! §RJa§!\n"
  HAI_no_restrictions: "Keine staatlichen Beschränkungen\n\n"
  HAI_american_collapse: "Ändern §YAusländische und politische Kontrolle§! durch\nKann keine Minister oder Gesetze zuweisen: §GJa§!\nAmerikanisch verordnete Regierungsbeschränkungen: §GKeine§!"
 
@@ -455,8 +450,6 @@
  HAI_curruption_greatly_lowered: "§RHaitianische Korruption wird stark zurückgehen...§!"
  HAI_curruption_raised: "§GDie haitianische Korruption wird erhöht werden...§!"
  HAI_curruption_raised_focus: "§RDie haitianische Korruption wird erhöht...§!"
-
- HAI_university_of_Haiti: "$has_completed_decision$$university_of_haiti$§!"
 
  HAI_leaving_3i: "§RWir werden zwar vorerst aus der 3. Internationale verdrängt, aber wir können zurückkehren, wenn die Sozialisten wieder an die Macht kommen...§!"
 
@@ -753,9 +746,8 @@
  hai_cal.5.t: "Auswahl eines neuen Wohltäters"
  hai_cal.5.d: "Da die Vereinigten Staaten in Aufruhr sind und ihre Präsenz in den letzten Monaten immer chaotischer geworden ist, haben viele in unserer Regierung vorgeschlagen, dass wir uns an eine neue Großmacht wenden sollten, die uns hilft, unsere Schulden zu sichern und uns vor anderen Mächten zu schützen."
  hai_cal.5.a: "Deutschland hat uns in unserem Kampf unterstützt, das ist keine Frage!"
- hai_cal.5.a_spd: "Mit der SPD an der Macht ist es die einzige Option, sich dem deutschen Einfluss zu beugen."
  hai_cal.5.b: "Wir sind Sozialisten, wir müssen uns der Internationale anschließen!"
- hai_cal.5.c: "Wir sind Sozialisten, wir müssen uns der Internationale anschließen!"
+ hai_cal.5.c: "$hai_cal.5.b$"
 
  hai_cal.50.t: "Haiti schließt sich uns an"
  hai_cal.50.d: "Nach so vielen Umwälzungen scheint die haitianische Nation bereit zu sein, sich auf der internationalen Bühne voll auf unsere Seite zu stellen. Die Regierung in Port-au-Prince hat im Schnelldurchlauf eine Reihe von Erklärungen zu einer Reihe von internationalen Themen veröffentlicht, die mit unseren eigenen Positionen übereinstimmen. Haitianische Diplomaten haben auch Fühler ausgestreckt, um unsere Bereitschaft zu einem Militärbündnis mit dem Land auszuloten. Es sieht so aus, als ob das Land irgendwann in der Zukunft, vielleicht schon morgen oder vielleicht erst in einigen Jahren, aber auf jeden Fall irgendwann, das Thema eines Bündnisses offiziell ansprechen wird."
