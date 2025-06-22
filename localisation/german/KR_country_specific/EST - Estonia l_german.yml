@@ -323,9 +323,6 @@ EST_national_populist_party_long: "Eesti Rahvuslik Direktoorium (Estnischer Nati
 LAT_EST_roads_to_riga: "Alle Straßen führen nach Riga"
  LAT_EST_roads_to_riga_desc: "Die baltischen Gouvernements wurden mit Blick auf Riga entwickelt. Riga ist das wichtigste Industrie- und Infrastrukturzentrum der Region und die größte Stadt in den baltischen Staaten, und die Industrie in Livland, Kurland und Estland ist auf eine stabile Verbindung mit ihren Dienstleistungen angewiesen. Zwischen Riga und den übrigen baltischen Staaten verläuft eine Grenze, die es der Regierung ermöglicht, die beiden anderen Staaten bei der Stange zu halten."
 
- EST_newborn_military_idea: "Neugeborenes Militär"
- EST_newborn_military_idea_desc: "Nach der Rückkehr und der Stabilisierung der estnischen Exilregierung müssen wir nun die Frage des Aufbaus unserer Streitkräfte in Angriff nehmen."
-
  EST_etatism: "Staatswesen"
  EST_social_welfare: "Soziale Wohlfahrt"
  EST_nationalist_state: "Der Vapsidische Staat"
@@ -358,7 +355,11 @@ LAT_EST_roads_to_riga: "Alle Straßen führen nach Riga"
  EST_urbanisation_initiative: "Initiative zur Urbanisierung"
  EST_rural_infrastructure: "Ländliche Infrastruktur in [FROM.GetName]"
  EST_expand_mechanisation: "Erweitern Sie die Mechanisierung in [FROM.GetName]"
- EST_develop_communal_farming_in_livonia: "Entwicklung der kommunalen Landwirtschaft in [191.getname]"
+ EST_develop_communal_farming_in_livonia: "Entwicklung der kommunalen Landwirtschaft in [191.GetName]"
+
+ EST_oil_extraction_tier_1: "Kochtel-Jeraius-Ölschieferfelder"
+ EST_oil_extraction_tier_2: "Estländische Steinöl gründen"
+ EST_heat_generation_power_plants: "Bau von Wärmekraftwerken"
 
  EST_join_nordic_council: "Beitritt zu [FROM.GetFactionName]"
  EST_join_nordic_council_desc: "Die [FROM.GetFactionName] wurde von den Demokratien Dänemark, Norwegen und Schweden gegründet, um fremde Mächte von einer Invasion in der Region abzuhalten. Unsere Brüder in Finnland haben es bereits für angebracht gehalten, sich ihnen in diesem Bestreben anzuschließen, also wäre es vielleicht klug, dass wir dasselbe tun?"
