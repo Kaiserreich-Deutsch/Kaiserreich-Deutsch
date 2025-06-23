@@ -74,37 +74,14 @@
  IRQ_saadun_party_long: "al-Sa'adun"
 
 ### Dynamic Modifiers ###
- IRQ_Rampant_Corruption_dynamic_modifier: "£pol_idea Zügellose Korruption"
  IRQ_Rampant_Corruption: "Zügellose Korruption"
- IRQ_Rampant_Corruption_desc: "Die Korruption, die mittlerweile jeden Aspekt des Lebens im Irak beeinflusst, ist nicht nur eine Anmerkung auf irgendeinem Blatt Papier, sondern eine regelrechte Plage. Die fehlende Kontrolle durch Kostantiniye hat die Schwere des Problems stark erhöht, da viele fähige Bürokraten und militärische Aufseher dazu gezwungen waren, in die Türkei zu fliehen, woraufhin sie von einer weniger gebildeten und weniger disziplinierten Generation ersetzt wurden.\n§W--------------\n[IRQ_corruption_pp][IRQ_corruption_consumer_goods][IRQ_corruption_stability][IRQ_corruption_construction_speed]§!"
+ IRQ_Rampant_Corruption_desc: "Die Korruption, die mittlerweile jeden Aspekt des Lebens im Irak beeinflusst, ist nicht nur eine Anmerkung auf irgendeinem Blatt Papier, sondern eine regelrechte Plage. Die fehlende Kontrolle durch Kostantiniye hat die Schwere des Problems stark erhöht, da viele fähige Bürokraten und militärische Aufseher dazu gezwungen waren, in die Türkei zu fliehen, woraufhin sie von einer weniger gebildeten und weniger disziplinierten Generation ersetzt wurden."
 
- IRQ_corruption_pp_text: "$MODIFIER_POLITICAL_POWER_GAIN$: [?irq_pp_gain|+=2]\n"
- IRQ_corruption_pp_text_last: "$MODIFIER_POLITICAL_POWER_GAIN$: [?irq_pp_gain|+=2]"
- IRQ_corruption_consumer_goods_text: "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?irq_consum|=%H0]\n"
- IRQ_corruption_consumer_goods_text_last: "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?irq_consum|=%H0]"
- IRQ_corruption_stability_text: "$MODIFIER_STABILITY_FACTOR$: [?irq_stab_cor|+=%]\n"
- IRQ_corruption_stability_text_last: "$MODIFIER_STABILITY_FACTOR$: [?irq_stab_cor|+=%]"
- IRQ_corruption_construction_speed_text: "$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?irq_constr|+=%]"
-
- IRQ_Crippling_Poverty_dynamic_modifier: "£pol_idea Schwere Armut"
  IRQ_Crippling_Poverty: "Schwere Armut"
- IRQ_Crippling_Poverty_desc: "Obwohl die osmanische Regierung im 19. und 20. Jahrhundert versucht hat, den Lebensstandard im Irak anzuheben, befindet sich die Gesellschaft der Heimat aller Zivilisationen noch immer in einer äußerst schlechten Verfassung. 10% der Bewohner des Iraks leben in relativem Reichtum, während der Rest der Menschen in Armut lebt oder kurz davor steht, bettelarm zu werden.\n§W--------------\n[IRQ_poverty_stability][IRQ_poverty_construction_speed][IRQ_poverty_research_speed][IRQ_poverty_factory_output]§!"
+ IRQ_Crippling_Poverty_desc: "Obwohl die osmanische Regierung im 19. und 20. Jahrhundert versucht hat, den Lebensstandard im Irak anzuheben, befindet sich die Gesellschaft der Heimat aller Zivilisationen noch immer in einer äußerst schlechten Verfassung. 10% der Bewohner des Iraks leben in relativem Reichtum, während der Rest der Menschen in Armut lebt oder kurz davor steht, bettelarm zu werden."
 
- IRQ_poverty_stability_text: "$MODIFIER_STABILITY_FACTOR$: [?irq_stab_pov|+=%]\n"
- IRQ_poverty_stability_text_last: "$MODIFIER_STABILITY_FACTOR$: [?irq_stab_pov|+=%]"
- IRQ_poverty_construction_speed_text: "$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?irq_constr_pov|+=%]\n"
- IRQ_poverty_construction_speed_text_last: "$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?irq_constr_pov|+=%]"
- IRQ_poverty_research_speed_text: "$MODIFIER_RESEARCH_SPEED_FACTOR$: [?irq_researc|+=%]\n"
- IRQ_poverty_research_speed_text_last: "$MODIFIER_RESEARCH_SPEED_FACTOR$: [?irq_researc|+=%]"
- IRQ_poverty_factory_output_text: "$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?irq_factory|+=%]"
-
- IRQ_Sectarian_Divide_dynamic_modifier: "£pol_idea Konfessionelle Spaltungen"
  IRQ_Sectarian_Divide: "Konfessionelle Spaltungen"
- IRQ_Sectarian_Divide_desc: "Obwohl die sunnitischen Muslime den Großteil der politischen Macht halten, leben im Irak auch viele Schiiten, Juden, Christen und Mitglieder anderer muslimischer Glaubensrichtungen. Die richtige Machtbalance für all diese Gruppen zu finden ist geradezu unmöglich und das fehlende Streben nach Zusammenarbeit hat dazu geführt, dass die Regierung nahezu lahmgelegt wurde.\n§W--------------\n[IRQ_sectarian_conscription][IRQ_sectarian_stability]§!"
-
- IRQ_sectarian_conscription_text: "$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: [?irq_recruit_pop|+=%0]\n"
- IRQ_sectarian_conscription_text_last: "$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: [?irq_recruit_pop|+=%0]"
- IRQ_sectarian_stability_text: "$MODIFIER_STABILITY_FACTOR$: [?irq_stab_sect|+=%]"
+ IRQ_Sectarian_Divide_desc: "Obwohl die sunnitischen Muslime den Großteil der politischen Macht halten, leben im Irak auch viele Schiiten, Juden, Christen und Mitglieder anderer muslimischer Glaubensrichtungen. Die richtige Machtbalance für all diese Gruppen zu finden ist geradezu unmöglich und das fehlende Streben nach Zusammenarbeit hat dazu geführt, dass die Regierung nahezu lahmgelegt wurde."
 
 ### Traits ###
  IRQ_bismarck_of_arabia: "Der Bismarck Arabiens"
