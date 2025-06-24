@@ -137,23 +137,6 @@
  LIT_legitimacy_tooltip: "Legitimität: $RIGHT|+=%%0$."
  LIT_legitimacy_check_tooltip: "Mindestens $RIGHT|Y%%0$ Legitimität"
 
- LIT_add_long_road_to_pluralism: "Gewinnt Nationalgeist §H$LIT_long_road_to_pluralism_idea$§!, welche gewährt ($MODIFIER_POLITICAL_POWER_GAIN$: [?LIT_pp_temp|+=], $MODIFIER_STABILITY_WEEKLY$: [?LIT_stability_temp|+=%], $MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?LIT_construction_speed_temp|+=%], $MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?LIT_factory_output_temp|+=%])."
- LIT_radicalism_pp_gain: "$MODIFIER_POLITICAL_POWER_GAIN$: $RIGHT|+=$"
- LIT_radicalism_stability_weekly: "$MODIFIER_STABILITY_WEEKLY$: $RIGHT|+=%$"
- LIT_radicalism_construction_speed: "$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: $RIGHT|+=%$"
- LIT_radicalism_factory_output: "$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: $RIGHT|+=%$"
-
- LIT_radicalism_pp_gain_text: "$MODIFIER_POLITICAL_POWER_GAIN$: [?LIT_radicalism_pp_gain|+=]"
- LIT_radicalism_pp_gain_text_line_break: "$LIT_radicalism_pp_gain_text$\n"
-
- LIT_radicalism_stability_weekly_text: "$MODIFIER_STABILITY_WEEKLY$: [?LIT_radicalism_stability_weekly|+=%]"
- LIT_radicalism_stability_weekly_text_line_break: "$LIT_radicalism_stability_weekly_text$\n"
-
- LIT_radicalism_construction_speed_text: "$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?LIT_radicalism_construction_speed|+=%]"
- LIT_radicalism_construction_speed_text_line_break: "$LIT_radicalism_construction_speed_text$\n"
-
- LIT_radicalism_factory_output_text: "$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?LIT_radicalism_factory_output|+=%]"
-
  LIT_radicalism_above_60_percent: "Mehr als §H60%§! Radikalismus"
 
  LIT_federalisation_tooltip: "Federalisation: $RIGHT|+=%%0$."
@@ -187,13 +170,7 @@
 
  ### Flags ###
  LIT_ongoing_project: "Ein weiteres Projekt ist in Arbeit."
- LIT_plumbing_and_electrification_completed: "$has_completed_decision$$LIT_plumbing_and_electrification$§!"
- LIT_living_quarters_completed: "$has_completed_decision$$LIT_living_quarters$§!"
- LIT_embassy_quarters_completed: "$has_completed_decision$$LIT_living_quarters$§!"
- LIT_cathedral_completed: "$has_completed_decision$$LIT_vilnius_cathedral$§!"
 
- LIT_maceina_captured: "$has_completed_decision$$LIT_secure_maceinas_cooperation$§!"
- LIT_alantas_captured: "$has_completed_decision$$LIT_capture_alantas$§!"
  LIT_Plech_laf_gone: "Die LAF ist vom Militär besiegt worden!"
  LIT_Naruto_laf_gone: "Das LAF ist von der Polizei besiegt worden!"
 
@@ -297,7 +274,7 @@
  LIT_Naruto_arm_polish_desc: "Die LAF hat es ausdrücklich auf Minderheiten abgesehen, die sich derzeit nicht selbst verteidigen können. Die Bewaffnung der polnischen Milizen würde den Druck auf die Regierungstruppen verringern."
 
  LIT_tears_among_the_left_decisions: "Risse bei den Linken"
- LIT_tears_among_the_left_decisions_desc: "Während sich die LKDP an den föderal-korporatistischen Grundsätzen von Šalkauskis orientiert und die LTS weiß, dass sie einen Einheitsstaat mit Smetona an der Spitze errichten will, zeichnet sich die Linkskoalition von Steponas Kairys dadurch aus, dass sie unentschieden ist, was sie erreichen will. Soll der König bleiben oder zur Abdankung gezwungen werden? Ist ihr Ziel ein sozialdemokratischer Wohlfahrtsstaat oder ein Weg zum Syndikalismus? Wollen sie Litauen von Deutschland befreien oder akzeptieren sie zähneknirschend, dass dies unmöglich ist? Diese und viele andere Fragen plagen die von Steponas Kairys gebildete lose Koalition von Anfang an, und sie werden in den kommenden Jahren beantwortet werden müssen. Für viele werden die Sozialdemokraten mit ihrer brutalen Opposition gegen die Monarchie und ihren Kontakten zum litauischen Syndikalismus in Verbindung gebracht. Im Laufe der Zeit wird sich diese Wahrnehmung des Radikalismus entweder bestätigen oder widerlegen lassen.\n\nDer aktuelle §RWahrgenommener Radikalismus§! der Regierung ist [?LIT_radicalism|1+]%"
+ LIT_tears_among_the_left_decisions_desc: "Während sich die LKDP an den föderal-korporatistischen Grundsätzen von Šalkauskis orientiert und die LTS weiß, dass sie einen Einheitsstaat mit Smetona an der Spitze errichten will, zeichnet sich die Linkskoalition von Steponas Kairys dadurch aus, dass sie unentschieden ist, was sie erreichen will. Soll der König bleiben oder zur Abdankung gezwungen werden? Ist ihr Ziel ein sozialdemokratischer Wohlfahrtsstaat oder ein Weg zum Syndikalismus? Wollen sie Litauen von Deutschland befreien oder akzeptieren sie zähneknirschend, dass dies unmöglich ist? Diese und viele andere Fragen plagen die von Steponas Kairys gebildete lose Koalition von Anfang an, und sie werden in den kommenden Jahren beantwortet werden müssen. Für viele werden die Sozialdemokraten mit ihrer brutalen Opposition gegen die Monarchie und ihren Kontakten zum litauischen Syndikalismus in Verbindung gebracht. Im Laufe der Zeit wird sich diese Wahrnehmung des Radikalismus entweder bestätigen oder widerlegen lassen.\n\nDer aktuelle §RWahrgenommener Radikalismus§! der Regierung ist [?LIT_radicalism|1+%%]"
 
  LIT_start_the_revolution: "Beginn der Revolution"
  LIT_start_the_revolution_desc: "Die Zeit ist reif! Werfen wir unsere Fesseln beiseite und schließen wir uns den Reihen der syndikalistischen Nationen als ihr neuestes Mitglied an!"
@@ -481,9 +458,8 @@
  LIT_social_economy_idea: "Sozialökonomie"
  LIT_social_economy_idea_desc: "Der Erfolg unserer umfassenden Reformen hat es dem sozialen, wirtschaftlichen und kulturellen Leben des Landes ermöglicht, sich zu erholen und zu einem goldenen Zeitalter zu entwickeln."
 
- LIT_long_road_to_pluralism_idea: "Langer Weg zum Pluralismus"
- LIT_long_road_to_pluralism_idea_desc: "§W[LIT_long_road_to_pluralism_pp_gain][LIT_long_road_to_pluralism_stability_weekly][LIT_long_road_to_pluralism_construction_speed][LIT_long_road_to_pluralism_factory_output]§!"
- LIT_long_road_to_pluralism_modifier: "£pol_idea $LIT_long_road_to_pluralism_idea$"
+ LIT_long_road_to_pluralism_modifier: "Langer Weg zum Pluralismus"
+ LIT_long_road_to_pluralism_tooltip: "§RRadikalismus:§! [?LIT_radicalism|1+%%]"
 
  LIT_military_funding_cuts: "Kürzungen der Militärausgaben"
  LIT_military_funding_cuts_desc: "Die sozialdemokratische Regierung hat beschlossen, den Haushalt der Königlichen Litauischen Verteidigungsstreitkräfte zu kürzen, um groß angelegte Programme zu finanzieren, was die Kampfkraft der Armee beeinträchtigt."
@@ -1715,7 +1691,6 @@
  LIT.168.d: "Die Geschichte, die im Königreich gelehrt wird, sollte die Auswirkungen widerspiegeln, die unsere litauischen Vorfahren mit den Polen und anderen als treue Verbündete erzielt haben. Andere wollen einen vollständigen Revisionismus, bei dem die Ära des Großherzogtums als "Goldenes Zeitalter" der litauischen Kultur angesehen wird und alle polnischen und weißrussischen Wurzeln völlig ignoriert werden. Es wurde eine gemäßigte Option angeboten, bei der in den Geschichtsbüchern litauische Namen und Orte verwendet werden sollen, um die Sprache zu fördern."
  LIT.168.a: "Völliger Revisionismus."
  LIT.168.b: "Leichter Revisionismus."
- LIT.168.c: "Keine Revision, die Wahrheit ist die Wahrheit."
 
  LIT.169.t: "Das Litauische Modell"
  LIT.169.d: "Unter seiner neuen Führung haben das Smetona-Regime und die LTS mit der Umsetzung von Programmen zur "Litauisierung" der Bürger Litauens begonnen. Mit der offiziellen Bezeichnung "Modelllitauer" ermutigen die neuen Programme die Litauer zur Teilnahme an Liederfestivals und kulturellen Veranstaltungen, bei denen die Geschichten des alten Litauens verherrlicht werden. Wenn man durch die Straßen der Altstadt von Vilnius geht, wird man mit Litauisch begrüßt, einer Sprache, die man früher nur in den Häusern hörte. Die Stadtschilder wurden auf Litauisch umgeschrieben, und in Litauen verfasste Zeitungen werden immer beliebter. In den Schulen muss Litauisch gelehrt werden, und der Unterricht in den Schulen findet ausschließlich auf Litauisch statt. Nach Ansicht von Smetona und seiner LTS-Gruppe waren die Programme sehr erfolgreich; die Wiedergeburt eines neuen Litauens hat begonnen."
@@ -2235,6 +2210,10 @@
  LITFLA.21.t: "Basketball-Europameisterschaft 1937"
  LITFLA.21.d: "Die Basketball-Europameisterschaft 1937 in Berlin, Deutschland, ist beendet. Überraschend wurde der amtierende Europameister, die deutsche Mannschaft, in einem knappen Spiel von der litauischen Mannschaft besiegt, die von dem litauisch-amerikanischen Spieler Feliksas Kriauciunas trainiert wurde. Die deutschen Basketballfans reagierten schockiert und überrascht, während die Litauer auf die Straße gingen, um ihren Sieg in diesem David-gegen-Goliath-Spiel zu feiern."
  LITFLA.21.a: "Wir sind die Gewinner - der Basketball-Europameisterschaft!"
+
+ LITFLA.22.t: "Der Vilniuser Aufstand"
+ LITFLA.22.d: "Seit Jahren durchstreift die LAF die litauischen Wälder und führt einen brutalen Partisanenkrieg gegen die litauische Regierung. Die LAF ist sehr nationalistisch und predigt eine antideutsche Rhetorik sowie die Forderung nach einem wirklich ethnischen litauischen Staat, was Radikale von der extremen Rechten anzieht.\nEs scheint jedoch, dass das Versagen der litauischen Regierung, die LAF zu unterdrücken, zu einem regelrechten Aufstand in Litauen geführt hat. Angeführt von ihrem Anführer Augustinas Voldemaras marschieren die LAF-Truppen stolz durch die Straßen von Vilnius - und brechen damit offiziell die Verbindung zwischen Litauen und der deutschen Nation. Während Litauen seine neu gewonnene vollständige Unabhängigkeit genießen mag, ist es unwahrscheinlich, dass das Deutsche Reich eine solche Bedrohung an seinen östlichen Grenzen dulden wird. Beobachter stellen fest, dass ein Konflikt unmittelbar bevorsteht und Litauens Freiheit möglicherweise nur von kurzer Dauer ist..."
+ LITFLA.22.a: "Mal sehen, wie lange sie sich halten."
 
 ### Characters ###
  LIT_juozas_butkus: "Juozas Butkus"

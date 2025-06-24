@@ -61,8 +61,7 @@
  KRLAT.60.t: "Die Ostfront der Internationale"
  KRLAT.60.d: "Auch wenn es uns gelungen ist, die Revolution im eigenen Land zu schützen, so sind wir doch weit von unseren Verbündeten im Westen entfernt, während die Welt in eine Krise nach der anderen gerät. Das bedeutet jedoch nicht, dass wir im Osten allein sind. Jetzt hat sich [RUS.GetNameDef] die revolutionäre Sache zu eigen gemacht und ist die größte sozialistische Nation der Welt. Es könnte klug sein, sich der nahe gelegenen [RUS.Capital.GetCapitalVictoryPointName] anzunähern, damit sich [INT.GetNameDef] nicht als zu weit entfernt erweist, um uns zu unterstützen."
  KRLAT.60.a: "Wir schließen uns ihnen an."
- KRLAT.60.b: "Nur wenn sie unsere Kernländer zurückgeben."
- KRLAT.60.c: "Wir würden uns lieber [INT.GetNameDef] anschließen."
+ KRLAT.60.b: "Wir würden uns lieber [INT.GetNameDef] anschließen."
 
  KRLAT.7.t: "Wir werden akzeptiert"
  KRLAT.7.d: "Die Internationale hat unsere noch junge Republik in ihr Bündnis aufgenommen."
@@ -291,28 +290,6 @@
  ISKO.25.d: "Die vor fast drei Monaten begonnene Aufstockung der ausländischen Ausrüstung hat dazu geführt, dass einige Waffen zu den Lett-Kameraden im Ausland, insbesondere im nahe gelegenen Latgale und in der Stadt Daugavpils, gelangt sind. Aufgrund früherer Konflikte versucht Boris Sawinkow seit langem, Peterss zu übertrumpfen, und der Zustrom von Waffen bot die Gelegenheit dazu. Die Details sind ziemlich düster, aber es erübrigt sich zu sagen, dass die Pro-Iskolat-Zellen in der Region Latgale gründlich infiltriert und ihre Anführer identifiziert wurden. Die Fotos eines Genossen, der gezwungen wurde, eine grausame Botschaft von Sawinkow für Peterss zu überbringen, signalisierten das grausame Ende einer bestimmten Zelle und verdeutlichten eine persönliche Feindschaft."
  ISKO.25.a: "Er wird schon noch seinen Anteil bekommen."
 
- LATFOR.1.t: "Ultimatum für Dünaburg?"
- LATFOR.1.d: "Da Russland in einen Konflikt verwickelt ist, scheint jetzt der richtige Zeitpunkt gekommen zu sein, um die Letten von Dünaburg in den Schoß zu holen. Wir könnten den Sozialisten, die Dünaburg kontrollieren, ein Ultimatum stellen und die weiße Regierung völlig umgehen. Schließlich könnte selbst das Eingreifen einer kleinen Macht wie der unseren den Ausgang des Bürgerkriegs beeinflussen."
- LATFOR.1.a: "Tun Sie es."
- LATFOR.1.b: "Zurück."
-
- LATFOR.2.t: "Lettische Provokationen"
- LATFOR.2.d: "Offenbar plant die aufstrebende lettische Republik, eine in jeder Hinsicht winzige Nation, in naher Zukunft einen Vorstoß in die von Letten bewohnte Region Dünaburg."
- LATFOR.2.a: "Geben Sie eine Warnung heraus."
-
- LATFOR.3.t: "Lettisches Ultimatum"
- LATFOR.3.d: "Wie erwartet, hat Lettland offiziell den Vorstoß nach Dünaburg unternommen. Lettische Truppen wurden an die Grenze verlegt und ein offizielles Ultimatum gestellt - Dünaburg oder Krieg."
- LATFOR.3.a: "Selbst Lettland könnte sich als Herausforderung erweisen."
- LATFOR.3.b: "Lächerlich. Nein."
-
- LATFOR.4.t: "Die [FROM.GetName] akzeptiert"
- LATFOR.4.d: "Der Krieg wurde zwar erwartet, aber unsere Forderungen wurden erfüllt. Dünaburg ist unser."
- LATFOR.4.a: "Eine angenehme Überraschung."
-
- LATFOR.5.t: "[FROM.GetNameDefCap] lehnt ab"
- LATFOR.5.d: "Es überrascht nicht, dass unser Ultimatum abgelehnt worden ist. Die Truppen bereiten sich auf den Einsatz im Kampf um die Vereinigung Lettlands vor."
- LATFOR.5.a: "Es ist also Krieg."
-
  LATFOR.6.t: "Lettischer Staatsbesuch"
  LATFOR.6.d: "Aus Lettland ist eine Delegation unter Leitung von Präsident Kurelis eingetroffen. Es wurde ein Staatsdinner veranstaltet, bei dem die Staatsoberhäupter versprachen, die gegenseitige Zusammenarbeit zu vertiefen."
  LATFOR.6.a: "Willkommen!"
@@ -320,8 +297,6 @@
  LATFOR.7.t: "Delegation in [FROM.GetAdjective] willkommen geheißen"
  LATFOR.7.d: "Unsere [FROM.GetNameDef]-Freunde haben unsere Delegation sehr freundlich empfangen. Präsident Kurelis selbst nahm an einem formellen Staatsdinner teil und knüpfte neue persönliche Beziehungen."
  LATFOR.7.a: "Ich danke Ihnen."
-
-#LATFOR 8-9 removed
 
  LATFOR.10.t: "Ein Vorschlag von Lettland"
  LATFOR.10.d: "Lettland hat einen interessanten Vorschlag unterbreitet. In dem Bestreben, Investitionen von benachbarten Regierungen zu erhalten und die wirtschaftliche Verflechtung zu vertiefen, haben die Letten einen Plan für die Gründung einer gemeinsamen Industrieholding ausgearbeitet."
@@ -743,8 +718,6 @@
 
  LAT_attack_riga: "Den Kampf beenden"
  LAT_attack_riga_desc: "Herr Präsident, darf ich Sie fragen, was Sie an diesem Panzer machen?\n\n'Sir. Ich beende diesen Kampf.'"
- LAT_join_internationale: "Beitritt zur Dritten Internationale"
- LAT_join_internationale_desc: "Es ist an der Zeit, dem syndikalistischen Block formell beizutreten."
  LAT_join_russia: "Beitritt zum Moskauer Abkommen"
  LAT_join_russia_desc: "Es ist an der Zeit, ein formelles Militärbündnis mit dem russischen Block zu schließen."
  LAT_attack_country: "Schlag gegen [FROM.GetNameDef]"
@@ -763,10 +736,6 @@
  LAT_LIT_Last_Stand: "Unsere Kameraden im Süden"
  LAT_LIT_Last_Stand_desc: "Unsere baltischen Landsleute, die Litauer, haben sich uns endlich angeschlossen, um sich aus dem Griff der Deutschen zu befreien. Wenn wir zusammenstehen, werden wir stärker sein!"
 
- LAT_build_a_dam: "Bau des Kegum-Wasserkraftdamms"
- LAT_build_a_dam_desc: "Um unsere Bemühungen um den Bau von Staudämmen zu krönen, muss die große Düna vollständig nutzbar gemacht werden. Bei der Stadt Kegum, gleich hinter den Grenzen Rigas, wurde ein Standort gefunden, und der Bau soll so bald wie möglich beginnen."
- LAT_more_financement_for_construction: "Budget für laufende Projekte bereitstellen"
- LAT_more_financement_for_construction_desc: "Beim Bau des Staudamms haben wir viele Maschinen und Menschen mobilisiert, um ihn zu bauen. Gleichzeitig könnten wir auch den restlichen Staatshaushalt für das ganze Land zur Verfügung stellen."
  LAT_extract_steel: "Minen und Mühlen"
  LAT_extract_steel_desc: "Viele gerade erst vom Torf befreite Gebiete sind reich an Eisen. Der Staat muss die Ausbeutung dieser Vorkommen und die Besiedlung dieser Gebiete sofort vorantreiben. Zu diesem Zweck sollen moderne Stahlwerke möglichst nahe an diesen Gebieten errichtet werden, ohne dass die Effizienz darunter leidet."
  LAT_extract_oil_from_peat: "Strom aus Torf"
@@ -849,6 +818,7 @@
  LAT_gustavs_celmins_leader_desc: "§YGeboren:§! §L1. April 1899, in Riga, Gouvernement Livland, Russisches Reich§!\n§YHintergrund:§! §L$LAT_gustavs_celmins_desc_body$ Now as the leader of Latvia, his dream of a Latvian nation united and purified of any possible foreign elements may become a reality.§!"
  LAT_gustavs_celmins_advisor_desc: "§YGeboren:§! §L1. April 1899, in Riga, Gouvernement Livland, Russisches Reich§!\n§YHintergrund:§! §L$LAT_gustavs_celmins_desc_body$§!"
 
+ LAT_vilis_lacis: "Vilis Lācis"
  LAT_vilis_lacis_advisor_desc: "§YGeboren:§! §L12. Mai 1904, in Rīnuži, Gouvernement Livland, Russisches Reich§!"
 
  LAT_alfreds_bilmanis: "Alfrēds Bīlmanis"
@@ -910,6 +880,8 @@
 
  LAT_army_reform_council: "Rat für Armeereform"
  LAT_army_reform_council_theorist_desc: "§YGegründet:§! §L1936, in Liepāja, Kanton Kurzeme, Republik Lettland§!"
+
+ LAT_karlis_irbitis: "Kārlis Irbītis"
 
  ### Easter egg stuff ###
 
