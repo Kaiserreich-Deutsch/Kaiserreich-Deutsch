@@ -176,11 +176,13 @@
 ### World Tension ###
  JAP_rising_sun_threat: "Die aufgehende Sonne"
  JAP_sino_japanese_war_threat: "Zweiter Chinesisch-Japanischer Krieg"
+ JAP_claim_pacific_threat: "Japanische Ansprüche im Pazifik"
  JAP_claim_colonies_threat: "Japans Ansprüche auf Deutsch-Ostasien"
 
 ### Global Flags ###
  JAP_defeated_by_china: "Japan hat sich aus China zurückgezogen"
  JAP_Fading_Sun: "§rDas japanische Kolonialreich wurde aufgelöst§!"
+ JAP_will_surrender: "Hat die Mission §Y$JAP_fading_sun_timer$§! nicht bestanden"
 
 ### Ideen ###
  JAP_narrow_rail: "Schmalspur-Eisenbahnen"
@@ -301,6 +303,7 @@
  JAP_overlord_military_excercise_idea: "Übungen im Pazifik"
  JAP_overlord_military_excercise_idea_desc: "Nach gemeinsamen Übungen mit [JAP.GetName] hat unser Militär umfangreiche Kenntnisse über amphibische Invasionen und deren Planung erworben."
  JAP_subversive_activities_prevention_law_idea: "Gesetz zur Verhinderung subversiver Aktivitäten"
+ JAP_south_seas_invasion_preparations: "Vorbereitungen für die Invasion der Südsee"
 
 ###################
 ### Army Reform ###
@@ -383,9 +386,6 @@
  JAP_research_slot_warning: "Dieser Forschungsslot bleibt für §H365§! Tage erhalten."
  JAP_deploy_tanks: "Eine Einheit £GFX_nato_unit_light_armor_icon_small §YDokuritsu Konsei Ryodan II§! wird erstellt:\n   x §Y5§! £GFX_nato_unit_light_armor_icon_small Leichtes Panzerbataillon\n   x §Y5§! £GFX_nato_unit_motorized_icon_small  Motorisiertes Bataillon\n      - £GFX_nato_unit_artillery_icon_small  Artillerie Kompanie\n      - £GFX_nato_unit_recon_icon_small  Motorisierte Aufklärungseinheit"
  JAP_unlock_new_triangular: "Schalte die neue £GFX_nato_unit_infantry_icon_small §YSantanisei Shidan§! Vorlage frei:\n   x §Y9§! £GFX_nato_unit_infantry_icon_small  Infanterie Bataillon\n   x §Y3§! £GFX_nato_unit_artillery_icon_small  Artillerie Bataillon\n      - £GFX_nato_unit_engineer_icon_small  Pionier Kompanie\n      - £GFX_nato_unit_artillery_icon_small  Artillerie Kompanie\n      - £GFX_nato_unit_recon_icon_small  Kavallerie-Aufklärungseinheit"
- JAP_war_ready_industries_3_complete: "$has_completed_decision$$JAP_war_ready_industries_3$§!"
- JAP_war_ready_soldiers_3_complete: "$has_completed_decision$$JAP_war_ready_soldiers_3$§!"
- JAP_war_ready_equipment_3_complete: "$has_completed_decision$$JAP_war_ready_equipment_3$§!"
  JAP_merge_into_modern_army: "Verschmelzen von §H$JAP_equipment_modernisation$§!, §H$JAP_research_modernisation_lw$§!, und §H$JAP_staff_modernisation_lw$§! zu §H$JAP_long_war_army_lw$§!\nEffektive Veränderung:\n$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: §G10%§!\n$MODIFIER_STABILITY_WAR_FACTOR$: [?0.10|+=%]"
 
 ### Tooltips ###
@@ -482,6 +482,8 @@
 
  is_working_with_JAP: "Diese Nation ist zur Zusammenarbeit mit Japan verpflichtet"
 
+ JAP_PHI_elections_over: "Die philippinischen Wahlen vom September 1939 sind abgeschlossen."
+
  JAP_ultimatum_1_tt: "Deutschland wird uns um Frieden bitten, nachdem wir alle seine Verbündeten in Asien und Ozeanien kapituliert haben, und in Deutsch-Ostasien darf es keine Staaten mit mehr als §Y200.000§! Einwohnern mehr haben."
  JAP_ultimatum_2_tt: "Deutschland wird uns um Frieden bitten, nachdem wir alle seine Verbündeten in Asien und Ozeanien kapituliert haben."
 
@@ -567,8 +569,6 @@
  JAP_invest_timer: "War im letzten Jahr Ziel von Investitionen"
 
 ### Entscheidungen ###
- JAP_part_one_land_reform: "$has_completed_decision$$JAP_land_reform_1$§!"
- JAP_part_two_land_reform: "$has_completed_decision$$JAP_land_reform_2$§!"
 
  JAP_land_reform: "Landreform"
  JAP_land_reform_desc: "Die Landreform ist seit fast 70 Jahren ein Dauerthema in der japanischen Politik. Wir sind nicht die ersten, die versuchen, dieses Problem zu lösen, und wenn wir nicht aufpassen, werden wir auch nicht die letzten sein. Je mehr Mühe und Zeit wir investieren, desto wahrscheinlicher ist es, dass unsere Bemühungen Früchte tragen, auch wenn es uns freisteht, unser Programm jederzeit für beendet zu erklären...\n\nCurrently our land reform progress is: [?JAP.JAP_land_reform_variable|H0]."
@@ -635,21 +635,13 @@
  JAP_all_owned_chinese_states_occupied: "Alle eigenen Staaten auf dem chinesischen Festland sind besetzt"
 
 ### Kriegsentscheidungen ###
- JAP_threaten_philippines: "Bedrohung der Philippinen"
- JAP_threaten_philippines_desc: "Jetzt, wo die Amerikaner weg sind, können wir unsere Kanonenboote schicken, um den Archipel für die Ko-Wohlstandssphäre zu sichern und den Inseln Stabilität zu bringen. Natürlich sehen die Filipinos das vielleicht nicht so."
- JAP_attack_indochina: "Angriff [From.GetNameDef]"
  JAP_attack_indochina_desc: "Ein unabhängiges [From.GetNameDef] kann nicht zugelassen werden, nicht in unserem Einflussbereich. Wir müssen sofort Maßnahmen ergreifen!"
- JAP_attack_siam: "Angriff [From.GetNameDef]"
- JAP_attack_siam_desc: "[From.GetNameDefCap] genießt eine strategische Lage in der Mitte der indochinesischen Halbinsel. Wir können nicht dulden, dass ein solches Gebilde einfach neutral bleibt oder, schlimmer noch, auf der Seite des Feindes steht."
- JAP_attack_india: "Angriff [From.GetNameDef]"
  JAP_attack_india_desc: "Wenn wir das Kommando über den indischen Subkontinent übernehmen wollen, sollte [From.GetNameDef] unser nächstes Ziel sein."
- JAP_attack_australia: "Angriff [From.GetNameDef]"
  JAP_attack_australia_desc: "[From.GetNameDefCap] liegt in unserem pazifischen Interessenbereich, und es ist an der Zeit, unseren Willen durchzusetzen."
  JAP_demand_hawaii: "Hawaii von [From.GetNameDef] fordern"
  JAP_demand_hawaii_desc: "Der Zweite Amerikanische Bürgerkrieg hat gezeigt, dass die amerikanische Regierung nicht in der Lage ist, sich angemessen um die Menschen auf Hawaii zu kümmern. Als neue unangefochtene Macht im Pazifik ist es nur fair, dass wir die Übergabe der hawaiianischen Inseln an uns fordern, um einen für beide Seiten vorteilhaften Schutz unter unserer Führung zu gewährleisten. Sollten sie sich weigern, dann wird es Krieg geben."
  JAP_take_over_sakhalin: "Nord-Sachalin übernehmen"
  JAP_take_over_sakhalin_desc: "In der nördlichen Hälfte befindet sich das gesamte Öl der Insel Karafuto. Mit einer schwachen Regierung, die den Fernen Osten kontrolliert, und Russland im Rücken hatten wir noch nie eine so gute Chance, sie zu erobern!"
- JAP_attack_russia: "Angriff [From.GetNameDefCap]"
  JAP_attack_russia_desc: "Während wir den Traum vom gemeinsamen Wohlstand in einem von europäischer Ausbeutung freien Asien verwirklicht haben, ist uns [From.GetNameDef] immer noch ein Dorn im Auge, verbittert über ihre Niederlage im Jahr 1905. Wir können nicht zulassen, dass sie unser großes Projekt gefährden, und es müssen vorbeugende Maßnahmen ergriffen werden, um sie endgültig zu neutralisieren."
 
 ### Einfluss in China ###
@@ -885,7 +877,7 @@
  JAP_backbone_of_the_army: "Rückgrat der Armee"
  JAP_backbone_of_the_army_desc: "Die Infanterie ist das Fundament jeder modernen Armee. Wenn unsere Infanterie gegenüber unseren Gegnern schwächeln würde, gäbe es keine Hoffnung mehr für unsere geplante Eroberung Asiens. Stattdessen müssen wir unsere Streitkräfte verstärken, jeden Mann nicht nur mit der besten Ausrüstung ausstatten, die wir zu bieten haben, sondern ihm auch den Mut einflößen, Japans Feinde zu vernichten. Wer sind wir, dass wir uns Hegemon Ostasiens nennen, wenn wir nicht über eine Elite-Bodentruppe verfügen, die unsere Ansprüche untermauert?"
  JAP_armoured_experiments: "Panzer-Experimente"
- JAP_armoured_experiments_desc: "Inspiriert durch den Einsatz von einfachen gepanzerten Fahrzeugen am Ende des Ersten Weltkriegs durch mehrere europäische Mächte, gab es Bestrebungen, einen einheimischen Panzer zu entwickeln. Das Technische Büro des Heeres hat einen kleinen, billigen und leicht zu bauenden Panzer entworfen, der hohe Geschwindigkeiten erreichen und auch kleine Feuerwaffen abwehren kann. Diese Panzerdivisionen werden sich im bevorstehenden Krieg mit China als ein Segen erweisen!"
+ JAP_armoured_experiments_desc: "Inspiriert durch den Einsatz von einfachen gepanzerten Fahrzeugen am Ende des Ersten Weltkriegs durch mehrere europäische Mächte, gab es Bestrebungen, einen einheimischen Panzer zu entwickeln. Das Technische Büro des Heeres hat Panzer entwickelt, die sich mit hoher Geschwindigkeit fortbewegen können und in der Lage sind, kleine Schusswaffen zu entschärfen. Diese Panzerdivisionen werden sich im bevorstehenden Krieg mit China als ein Segen erweisen!"
  JAP_retention_of_mobility: "Aufrechterhaltung der Mobilität"
  JAP_retention_of_mobility_desc: "Auch wenn unsere Streitkräfte im Vergleich zu Asien in puncto Feuerkraft und technologischer Überlegenheit keine Defizite aufweisen, sind es nicht diese Faktoren allein, die uns Kriege gewinnen lassen. Eine mobile Armee ist ebenso wichtig, und in den weiten chinesischen Ebenen werden wir damit entscheidende Schlachten gewinnen."
  JAP_coordinate_intelligence_services: "Nachrichtendienste koordinieren"
@@ -1005,12 +997,12 @@
  JAP_nanshin_ron_desc: "Bei all seinen Stärken hat Japan einen entscheidenden strategischen Nachteil, nämlich seine Abhängigkeit von ausländischem Öl. Im Streben nach Eigenständigkeit und Sicherheit gegenüber dem immer weiter vordringenden westlichen Imperialismus wäre es sicher klug und gerecht, diese Ressourcen für sich selbst zu erwerben und damit unseren Sicherheitsbereich zu erweitern."
  JAP_extend_pacific_security_zone: "Ausweitung der pazifischen Sicherheitszone"
  JAP_extend_pacific_security_zone_desc: "Angesichts der chaotischen Lage in Amerika können wir es uns nicht leisten, die sich bietende Gelegenheit zu ignorieren. Vorschläge zur Schaffung einer pazifischen Sicherheitszone, die unsere Reichweite und unseren Schutz auf die weit verstreuten pazifischen Besitzungen der USA ausdehnen würde, sind aufgetaucht und werden ernsthaft geprüft."
- JAP_hawaii: "Druck auf Hawaii"
- JAP_hawaii_desc: "Jetzt, da die amerikanische Position im Pazifik geschwächt ist, können wir die nicht anerkannte Nation "Hawaii" annektieren und einen undurchdringlichen Kordon um unser Imperium im Pazifischen Ozean errichten."
+ JAP_hawaii: "Den Amerikanischen Pazifik erobern"
+ JAP_hawaii_desc: "Jetzt, da ihre Position im Pazifik geschwächt ist, können wir Hawaii und die amerikanischen Pazifikinseln annektieren und so einen undurchdringlichen Kordon um unser Reich im Pazifischen Ozean ziehen."
  JAP_target_east_indies: "Ziel: Ostindien"
  JAP_target_east_indies_desc: "ahrhundertelang haben die ostindischen Inseln für ihre niederländischen Kolonialherren geschuftet und mit ihren enormen Ressourcen die europäischen Taschen gefüllt. Diese Praxis muss ein Ende haben. Wir werden diese Ressourcen für die Ko-Wohlstandssphäre befreien, wo sie rechtmäßig hingehören!"
  JAP_philippines: "Holen Sie die Philippinen ins Boot!"
- JAP_philippines_desc: "Jetzt, wo die Amerikaner weg sind, können wir unsere Kanonenboote schicken, um den Archipel für die Ko-Wohlstandssphäre zu sichern und den Inseln Stabilität zu bringen. Natürlich sehen die Filipinos das vielleicht nicht so."
+ JAP_philippines_desc: "Der Ausbruch des Amerikanischen Bürgerkriegs lähmte die amerikanische Machtprojektion im Pazifik und machte die Philippinen (ihre ehemalige Kolonie) äußerst verwundbar. Obwohl wir es sicherlich vorgezogen hätten, dass sich die neue Republik friedlich mit uns verbündet, hat die philippinische Regierung unsere Angebote törichterweise zurückgewiesen. Zu ihrem Pech sind ihre strategische Lage und ihre Stützpunkte einfach zu wertvoll, um ignoriert zu werden, und so sollen sie mit Gewalt in die Sphäre geholt werden."
  JAP_claim_colonies: "Das Südseeterritorium gründen"
  JAP_claim_colonies_desc: "Jede einzelne Insel im Pazifik, die nicht von uns gehalten wird, könnte als Ausgangspunkt für eine Invasion unserer Heimatinseln dienen. Das Deutsche Reich hat auf keine dieser Inseln ein Anrecht, und so gehören sie uns, um sie rechtmäßig zu erobern. Zunächst werden wir unsere Ansprüche auf dieses Gebiet mit dem Südsee-Territorium formalisieren. Dann können wir diese Ansprüche nutzen, um sie unserem Reich einzuverleiben, sei es durch Diplomatie oder durch die Macht der Kaiserlichen Japanischen Marine."
  JAP_ultimatum: "Koloniales Ultimatum stellen"
@@ -1106,7 +1098,7 @@
  JAP_encourage_local_controlled_elections: "Förderung von lokal kontrollierten Wahlen"
  JAP_strive_towards_social_equity: "Streben nach sozialer Gerechtigkeit"
  JAP_panasian_sisterhood: "Pan-asiatische Schwesternschaft"
- JAP_national_reconstruction_comission: "Nationale Wiederaufbaukommission"
+ JAP_national_reconstruction_commission: "Nationale Wiederaufbaukommission"
  JAP_create_the_welfare_state: "Schaffung des Wohlfahrtsstaates"
  JAP_revive_the_yen: "Den Yen wiederbeleben"
  JAP_adopt_national_capitalism: "Nationalen Kapitalismus einführen"
@@ -1233,7 +1225,7 @@
  JAP_nerf_copro_bonuses_tt: "Unsere wirtschaftlichen Boni aus der Ko-Wohlstandssphäre werden um §H10%§! reduziert, und die unserer Mitglieder werden um den gleichen Betrag erhöht."
  JAP_harder_eco_int_tt: "Die Entscheidungen £decision_icon_small §HInvestition fördern§! und £decision_icon_small §HÜbernehmen§! werden die Kosten um £GFX_pol_power 75 bzw. £GFX_pol_power 125 erhöhen."
 
- JAP_AST_joins_sphere: "§Y[AST.GetNameDef]§! wird dem japanischen Wirtschaftsraum beitreten"
+ JAP_AST_joins_sphere: "§Y[AST.GetNameDefCap]§! wird dem japanischen Wirtschaftsraum beitreten"
  AST_has_ties_with_japan: "unterhält Beziehungen zu Japan"
 
 ### Bookmark ###
@@ -1257,7 +1249,7 @@
  japdom.3.b: "Die Seiyūkai haben ihre absolute Mehrheit verloren!"
 
  japdom.4.t: "Die Ermordung von Katayama Sen"
- japdom.4.d: "Der 1859 geborene Katayama Sen war einer der ranghöchsten Syndikalistenführer in Japan und als "Vater des japanischen Syndikalismus" bekannt. Nachdem er sich an der frühen sozialdemokratischen Bewegung beteiligt hatte, ging er in die US ins Exil, wo er Jack Reeds syndikalistische Aktivitäten und die Entwicklung der IWW zur CSA miterlebte und davon beeinflusst wurde. Katayama kehrte nach der verfassungsmäßigen Wiederherstellung von 1926 nach Japan zurück und gründete die erste legale syndikalistische Partei in Japan, die Rōdō-Nōmintō (Arbeiter-Bauern-Partei), und nachdem diese 1932 für illegal erklärt worden war, half er bei der Gründung der heutigen Shakai Taishūtō.\n\nAls er gestern in Kyōto war, um dem Shakai Taishūtō-Mitglied Yamamoto Senji zu seiner Wahl zu gratulieren, stürmte eine Bande von drei Rechten sein Büro und schlug die beiden Männer mit Knüppeln. Yamamoto überlebte, aber der 76-jährige Katayama kam nicht mehr zu sich und starb heute früh."
+ japdom.4.d: "Der 1859 geborene Katayama Sen war einer der ranghöchsten Syndikalistenführer in Japan und als "Vater des japanischen Syndikalismus" bekannt. Nachdem er sich an der frühen sozialdemokratischen Bewegung beteiligt hatte, ging er in die US ins Exil, wo er John Reeds syndikalistische Aktivitäten und die Entwicklung der IWW miterlebte und davon beeinflusst wurde. Katayama kehrte nach der verfassungsmäßigen Wiederherstellung von 1926 nach Japan zurück und gründete die erste legale syndikalistische Partei in Japan, die Rōdō-Nōmintō (Arbeiter-Bauern-Partei), und nachdem diese 1932 für illegal erklärt worden war, half er bei der Gründung der heutigen Shakai Taishūtō.\n\nAls er gestern in Kyōto war, um dem Shakai Taishūtō-Mitglied Yamamoto Senji zu seiner Wahl zu gratulieren, stürmte eine Bande von drei Rechten sein Büro und schlug die beiden Männer mit Knüppeln. Yamamoto überlebte, aber der 76-jährige Katayama kam nicht mehr zu sich und starb heute früh."
  japdom.4.a: "Das wird schlimm..."
 
  japdom.5.t: "Reibung innerhalb der japanischen Linken"
@@ -1828,8 +1820,8 @@
  japfor.225.c: "Ich denke, es ist das Beste, es zu lassen."
 
  japfor.226.t: "Japan erobert Guam"
- japfor.226.d: "Während Amerika in Aufruhr ist, ist Japan auf die Insel Guam vorgedrungen. Die US-Regierung kann derzeit nur sehr wenig tun, um Japan aufzuhalten."
- japfor.226.a: "Zu schade."
+ japfor.226.d: "Während Amerika in Aufruhr ist, hat Japan einen kühnen Schachzug unternommen und ein Marine-Einsatzkommando auf die Insel Guam geschickt, um die Insel zu besetzen. Guam ist Teil der Marianen, die im Spanisch-Amerikanischen Krieg von den Vereinigten Staaten erobert wurden. Der Rest der Inseln wurde an die Deutschen verkauft und während des Ersten Weltkriegs von den Japanern beschlagnahmt, aber schließlich nach Beendigung des Konflikts zurückgegeben.\n\nDie Vereinigten Staaten errichteten in den frühen 1900er Jahren eine Tankstelle, Marinekasernen und einige Küstengeschütze auf Guam. Die politischen Planer in Washington bezweifelten jedoch, dass sie in der Lage wären, die Inseln im Falle einer Invasion zu verteidigen, und versäumten es, neben den Bemühungen um Verhandlungen mit anderen Mächten in der Region, nennenswerte Verteidigungsanlagen aufzubauen. Guam wurde für die Verstärkung der Philippinen als unnötig erachtet, und angesichts der sich verschlechternden innenpolitischen Lage in Amerika hoffte man, dass die deutsche Präsenz in der Nähe jegliche Aggression der japanischen Streitkräfte eindämmen würde, bis sich die Lage entspannt hatte.\n\nAls japanische Aufklärungsflugzeuge begannen, über Guam zu kreisen, schwand die Hoffnung auf deutschen Schutz. Da die deutsche Flotte zu weit entfernt war und die örtliche Verwaltung nicht bereit war, ohne weitere Befehle aus Berlin einen Krieg im Pazifik zu provozieren, konnten die Japaner den Bluff der Amerikaner durchschauen. Dennoch wehrte sich die zahlenmäßig unterlegene amerikanische Garnison mit leichten Waffen in einer Reihe von Gefechten, die sich über drei Tage erstreckten, bevor sie kapitulierte. Die japanischen Behörden haben eine Garnison und verschiedene Lehrer aus Japan eingesetzt, um mit der Japanisierung der einheimischen Chamorro-Bevölkerung zu beginnen, doch wird mit Widerstand gegen ihre Herrschaft gerechnet."
+ japfor.226.a: "Dies werden wir nicht vergessen."
 
  japfor.227.t: "Japan beschlagnahmt Autofirmen"
  japfor.227.d: "Während das Land in Aufruhr ist, hat Japan die Kontrolle über mehrere dort tätige amerikanische Autofirmen übernommen. Der Bürgerkrieg hat dazu geführt, dass viele der Unternehmen den Kontakt zu ihren Muttergesellschaften verloren haben, und sie hatten Mühe, Teile für ihre Fließbänder zu bekommen. Dies hat es den Japanern leicht gemacht, unter dem Vorwand der "Unterstützung" die Kontrolle über die Unternehmen zu übernehmen. Obwohl dies eindeutig ein illegaler Akt ist, können wir nichts weiter tun, als ihnen ein scharf formuliertes Schreiben zu schicken."
@@ -1883,10 +1875,6 @@
  japfor.251.d: "Vor nicht allzu langer Zeit schien das japanische Kaiserreich unbesiegbar zu sein, eine starke Nation mit grenzenlosem Ehrgeiz, die dazu bestimmt war, dem westlichen Imperialismus in Asien das Handwerk zu legen. Das ist nun vorbei. Mit der Kapitulation des japanischen Oberkommandos und trotz einiger Einheiten, die verzweifelt in ganz Asien weiterkämpfen, ist das [JAP.GetFactionName] schließlich um uns herum zusammengebrochen. Jetzt müssen wir allein weiterkämpfen; unser Schicksal liegt in unserer Hand."
  japfor.251.a: "Ich dachte, sie wären stärker als das..."
 
- japfor.252.t: "Zusammenbruch des japanischen Kaiserreichs"
- japfor.252.d: "Das Kaiserreich Japan, eine aufstrebende asiatische Macht ohnegleichen, gab bekannt, dass es alle seine Streitkräfte auf den Heimatinseln im Zusammenhang mit seiner jüngsten Kapitulation formell aufgegeben hat. Das starrköpfige und kriegerische Volk Japans ist es nicht gewohnt, sich zu ergeben, doch im Angesicht der Vernichtung haben sie zweifellos beschlossen, ihr Land vor weiterer Zerstörung zu bewahren. Einst als führende Industrienation im Pazifik angesehen und mit einer der modernsten Flotten und Armeen der Welt ausgestattet, führte die japanische Niederlage zum endgültigen Zerfall ihrer Sphäre. Angesichts einer solch überwältigenden Niederlage sind die verschiedenen Mitglieder der Ko-Wohlstandsgemeinschaft in alle Winde zerstreut - und vielleicht anfällig für ausländische Aggressionen. Eines ist jedoch sicher: Die aufgehende Sonne ist endgültig verblasst, und mit ihr könnten bald neue Mächte in Asien an ihre Stelle treten."
- japfor.252.a: "Die Sonne ist verblasst."
- 
 # Einbeziehung von Anqing #
  japfor.257.t: "Anqing und Fengtian bitten uns um Hilfe"
  japfor.257.d: "Die Anqing-Clique, die vor kurzem dank unserer Hilfe einen Sieg gegen die Liga errungen hat, hat uns um Hilfe gebeten. Die Regierung von Fengtian hat sich verpflichtet, Anqing beim Wiederaufbau zu unterstützen, in der Hoffnung, dass sie dadurch überzeugt werden kann, sich am Rückeroberungskrieg zu beteiligen, um Peking zurückzuerobern. Wenn wir uns ebenfalls engagieren, wird dies sicherlich ihre Chancen verbessern."
@@ -2132,22 +2120,6 @@
  japfor.606.t: "Japanische Propaganda-Kampagne"
  japfor.606.d: "Seit der japanischen Eroberung von Peking und Nanjing haben die Japaner ihre Propaganda-Operationen ausgeweitet, in denen sie zum Frieden aufriefen und die Kriegsherren aufforderten, sich zurückzuziehen, damit in China wieder Einheit herrschen könne. Obwohl wir wissen, dass sie Lügen verbreiten, scheint es, dass ihre Rhetorik unsere Bevölkerung und auch einige in unserer Armee infiziert hat."
 
- japfor.470.t: "Der Große Pazifikkrieg"
- japfor.470.d: "Seit dem Zweiten Amerikanischen Bürgerkrieg stand das Kaiserreich Japan im Pazifik praktisch unangefochten da, und viele sagten voraus, dass es die führende Macht in der Region werden und seine amerikanischen und deutschen Rivalen an Einfluss in den Schatten stellen würde. Als die amerikanische Regierung nach dem Bürgerkrieg ihre militärische und industrielle Macht wieder aufbaute, richtete sie ihr Augenmerk erneut auf den Pazifik und forderte Japans Vorherrschaft offen heraus - mit Berichten über Seegefechte zwischen den beiden Großmächten.\n\nTrotz der durchschlagenden Erfolge Japans im Pazifik steht es nun vor seiner bisher größten Herausforderung, da der industrielle Moloch Amerika die Trümmer des Bürgerkriegs abschüttelt und seine Kriegsmaschinerie wieder zum Leben erwacht."
- worldnews_japan_vs_america_JAP: "Die Sonne soll nicht untergehen!"
- worldnews_japan_vs_america_JAP_allies: "Mögen wir siegen, und zwar schnell!"
- worldnews_japan_vs_america_USA: "In einem Moment der Schwäche sind wir gestolpert, aber wir werden nicht wanken!"
- worldnews_japan_vs_america_USA_allies: "Wir stehen mit dem Adler!"
- worldnews_japan_vs_america_GER: "Es scheint, dass Japan zum letzten Mal seine Grenzen überschritten hat."
- worldnews_japan_vs_america_INT: "Die Imperialisten raufen sich untereinander!"
- worldnews_japan_vs_america_neutralasia: "Das Gleichgewicht der Kräfte wird so oder so geregelt."
- worldnews_japan_vs_america_generic: "Kann der Moloch der japanischen Dominanz die Stirn bieten?"
-
- japfor.471.t: "Die Aufgehende Sonne"
- japfor.471.d.default: "Seit dem Tsingtao-Abkommen ist die Lage in Japan immer kritischer geworden, durch zahlreiche Wirtschaftskrisen und Unruhen getrübt. Die unwirksame Reaktion auf die deutschen Interventionen in China führte zum Zusammenbruch des autokratischen Tanaka-Regimes. Dennoch gelang es dem Reich der aufgehenden Sonne, sich als Regionalmacht, die auf die ostasiatischen Gebiete beschränkt ist, zu behaupten.\n\nHeute hat die japanische Führung einen neuen Plan angekündigt, um sich ihren Platz unter den Großmächten zu sichern, notfalls mit Gewalt. Diese Nachricht hat bereits Berlin erreicht, wobei der Kaiser und das Kanzleramt noch nicht auf diese unverhohlene Drohung mit ihren Kolonialbesitzungen reagiert haben."
- japfor.471.d.defeated_in_china: "Das mächtige japanische Reich hatte erst nach dem Zusammenbruch der Berliner Börse und der Vorherrschaft der Qing über China begonnen, seine Macht auszubreiten. In einer schockierenden Wendung der Ereignisse ist es China jedoch gelungen, die japanischen Streitkräfte in Korea zu überwältigen und sie vollständig vom Festland zu vertreiben. Viele Beobachter waren sich bis zu diesem Zeitpunkt einig, dass Japan die dominierende Macht in Ostasien werden würde, doch nach der katastrophalen Niederlage bleibt dies unklar.\n\nIn einer kürzlich gehaltenen öffentlichen Ansprache der japanischen Führung wurde deutlich, dass sie sich durch diese ‘kleinen Unannehmlichkeiten‘ nicht beunruhigen lässt und ihre Pläne, wieder eine Großmacht zu werden, bekannt gegeben hat. Es bleibt abzuwarten, ob Japan seine Ambitionen wirklich durchsetzen kann."
- japfor.471.a: "Beunruhigend."
-
 ### Fengtian Events ###
  japfeng.4.t: "Japan startet die Operation Ichi-gō"
  japfeng.4.d: "Heute morgen verkündete der Leiter der japanischen Militärmission in unserem Land, dass sich die nominelle chinesische Regierung im Kriegszustand befindet, was bedeutet, dass Japan im Begriff ist, eine aktive Rolle in der instabilen politischen Sphäre Chinas zu spielen. Da die Kwantung-Armee in der Mandschurei operiert und japanische Interessen verteidigt, wurde unsere Regierung angewiesen, sofortige Maßnahmen zu ergreifen, um sicherzustellen, dass der japanische Bedarf an Nachschub und militärischen Mitteln gedeckt wird.\n\nAußerdem sollen wir uns an Japans Krieg gegen China beteiligen. Die japanische Regierung hat sich über ihre Auswirkungen auf die japanischen Pläne in Bezug auf China nur vage geäußert, aber sie hat uns eingeladen, sich an ihrer Großasiatischen Allianz zu beteiligen. Um den Frieden und die Sicherheit in Asien zu fördern und zu verhindern, dass die westlichen Imperialisten China weiter ausnutzen, hat Japan uns aufgefordert, uns dem Kampf gegen die chinesische Regierung anzuschließen. Das bedeutet zwar, dass wir gemeinsam mit den Japanern gegen unsere chinesischen Landsleute kämpfen werden, aber angesichts der Präsenz und der Bedrohung durch Japan in unserer Nähe haben wir wohl keine andere Wahl."
@@ -2178,6 +2150,49 @@
  japfeng.10.d: "Offenbar haben sich die Befürchtungen vieler in der Regierung bewahrheitet, denn auf Prinz Kan'in Kotohito wurde während seiner Reise durch die Gebiete der Fengtian-Regierung ein Attentat verübt. Obwohl dies natürlich eine katastrophale Nachricht ist, gibt es zumindest einen Silberstreif am Horizont, denn der Prinz hat diese brutale Tat relativ unbeschadet überstanden. Nach einer schnellen Behandlung durch das japanische medizinische Personal, das ihn für den Fall eines solchen Ereignisses begleitet hat, scheint der Prinz auf dem Weg zu einer bemerkenswert schnellen Genesung zu sein.\n\nDie Nachricht von diesem fehlgeschlagenen Attentat erreichte [JAP.Capital.GetCapitalVictoryPointName] bemerkenswert schnell, was dazu führte, dass die ganze Nacht über wütende Forderungen nach dem Kopf von [FNG.GetLeader] laut wurden, vorzugsweise auf einem Silbertablett. Als die Morgendämmerung einsetzte, gingen diese Forderungen zu einem vernünftigeren Drängen auf den vorübergehenden Entzug der japanischen Hilfe für Fengtian als Bestrafung für ihre Unverschämtheit über. Diese Forderungen sind jedoch nicht allgemeingültig, und einige haben stattdessen argumentiert, dass eine so harte Bestrafung eines Verbündeten auf lange Sicht nur den japanischen Interessen schaden würde, und befürworten lediglich eine symbolische Verurteilung. Es scheint, dass eine Entscheidung der Exekutive getroffen werden muss, wie zu reagieren ist."
  japfeng.10.a: "Sie müssen für diese Unverschämtheit bestraft werden!"
  japfeng.10.b: "Sie haben einfach ihr Bestes gegeben."
+
+### News Events ###
+ japnews.1.t: "Zusammenbruch des Japanischen Kaiserreichs"
+ japnews.1.d: "Das Kaiserreich Japan, eine aufstrebende asiatische Macht ohnegleichen, gab bekannt, dass es alle seine Streitkräfte auf den Heimatinseln im Zusammenhang mit seiner jüngsten Kapitulation formell aufgegeben hat. Das starrköpfige und kriegerische Volk Japans ist es nicht gewohnt, sich zu ergeben, doch im Angesicht der Vernichtung haben sie zweifellos beschlossen, ihr Land vor weiterer Zerstörung zu bewahren. Einst als führende Industrienation im Pazifik angesehen und mit einer der modernsten Flotten und Armeen der Welt ausgestattet, führte die japanische Niederlage zum endgültigen Zerfall ihrer Sphäre. Angesichts einer solch überwältigenden Niederlage sind die verschiedenen Mitglieder der Ko-Wohlstandsgemeinschaft in alle Winde zerstreut - und vielleicht anfällig für ausländische Aggressionen. Eines ist jedoch sicher: Die aufgehende Sonne ist endgültig verblasst, und mit ihr könnten bald neue Mächte in Asien an ihre Stelle treten.."
+ japnews.1.a: "Die Sonne ist verblasst."
+
+ japnews.2.t: "Der Große Pazifikkrieg"
+ japnews.2.d: "Seit dem Zweiten Amerikanischen Bürgerkrieg stand das Kaiserreich Japan im Pazifik praktisch unangefochten an der Spitze. Viele sagten voraus, dass es die führende Macht in der Region werden und seine amerikanischen und deutschen Rivalen an Einfluss in den Schatten stellen würde. Als die amerikanische Regierung nach dem Bürgerkrieg ihre militärische und industrielle Macht wieder aufbaute, richtete sie ihr Augenmerk erneut auf den Pazifik und forderte Japans Vorherrschaft offen heraus - mit Berichten über Seegefechte zwischen den beiden Großmächten.\n\nTrotz der durchschlagenden Erfolge Japans im Pazifik steht es nun vor seiner bisher größten Herausforderung, da der industrielle Moloch Amerika die Trümmer des Bürgerkriegs abschüttelt und seine Kriegsmaschinerie wieder zum Leben erweckt."
+ japnews.2.a.JAP: "Die Sonne darf nicht untergehen!"
+ japnews.2.a.JAP_allies: "Mögen wir siegen, und zwar schnell!"
+ japnews.2.a.USA: "In einem Moment der Schwäche sind wir gestolpert, aber wir werden nicht wanken!"
+ japnews.2.a.USA_allies: "Wir stehen auf der Seite des Adlers!"
+ japnews.2.a.GER: "Es scheint, dass Japan zum letzten Mal seine Grenzen überschritten hat."
+ japnews.2.a.INT: "Die Imperialisten rangeln untereinander!"
+ japnews.2.a.neutralasia: "Das Gleichgewicht der Kräfte wird so oder so geregelt."
+ japnews.2.a.generic: "Kann der Moloch der japanischen Dominanz die Stirn bieten?"
+
+ japnews.3.t: "Die Aufgehende Sonne"
+ japnews.3.d.default: "Seit dem Tsingtao-Abkommen ist die Lage in Japan immer kritischer geworden, durch zahlreiche Wirtschaftskrisen und Unruhen getrübt. Die unwirksame Reaktion auf die deutschen Interventionen in China führte zum Zusammenbruch des autokratischen Tanaka-Regimes. Dennoch gelang es dem Reich der aufgehenden Sonne, sich als Regionalmacht, die auf die ostasiatischen Gebiete beschränkt ist, zu behaupten.\n\nHeute hat die japanische Führung einen neuen Plan angekündigt, um sich ihren Platz unter den Großmächten zu sichern, notfalls mit Gewalt. Diese Nachricht hat bereits Berlin erreicht, wobei der Kaiser und das Kanzleramt noch nicht auf diese unverhohlene Drohung mit ihren Kolonialbesitzungen reagiert haben"
+ japnews.3.d.defeated_in_china: "Das mächtige Japanische Reich hatte erst nach dem Zusammenbruch der Berliner Börse und der Vorherrschaft der Qing über China begonnen, seine Macht auszubreiten. In einer schockierenden Wendung der Ereignisse ist es China jedoch gelungen, die japanischen Streitkräfte in Korea zu überwältigen und vom Festland zu vertreiben. Viele Beobachter waren sich bis zu diesem Zeitpunkt einig, dass Japan die dominierende Macht in Ostasien werden würde, doch nach der katastrophalen Niederlage bleibt dies unklar.\n\nIn einer kürzlich gehaltenen öffentlichen Ansprache der japanischen Führung wurde deutlich, dass sie sich durch diese ‘kleinen Unannehmlichkeiten‘ nicht beunruhigen lässt und ihre Pläne, wieder eine Großmacht zu werden, bekannt gegeben hat. Es bleibt abzuwarten, ob Japan seine Ambitionen wirklich durchsetzen kann."
+ japnews.3.a: "Beunruhigend."
+
+ japnews.4.t: "Gescheiterter Militärputsch in Tokio"
+ japnews.4.d: "Schockierende Nachrichten aus Japan. Heute haben radikale Teile des kaiserlichen Militärs unter der Führung von Ultramonarchisten und Nationalisten einen Putschversuch gegen die angeschlagene demokratische Regierung in Tokio unternommen. Obwohl der Kaiser die Kontrolle über wichtige Regierungseinrichtungen und Gebäude in der Hauptstadt übernommen hat, weigerte er sich ausdrücklich, die Fraktion zu unterstützen, was zum fast unvermeidlichen Zusammenbruch des Putsches innerhalb weniger Stunden führte.\n\nMehrere hochrangige Armeeoffiziere und ihre Anhänger haben aus Scham rituellen Selbstmord begangen. Ein wichtiger Dreh- und Angelpunkt der Demokratie ist in Ostasien erhalten geblieben, zumindest vorläufig."
+ japnews.4.a: "Die japanische Demokratie überlebt."
+
+ japnews.5.t: "Schicksal der japanischen Kaiserfamilie"
+ japnews.5.d.exile: "Nach dem Regimewechsel im ehemaligen Kaiserreich Japan wurde das Schicksal der kaiserlichen Familie Yamato ungewiss - bis gestern. Mit dem Abschluss des ersten Kongresses der Volksrepublik Japan wurde beschlossen, dass die Familie Yamato nicht in Japan bleiben darf. Heute verließ die Familie Yamato Tokio mit einem Ozeandampfer in Richtung Amerika, um ein Leben im Exil zu führen.\n\nDiese Maßnahme hat einen Streik im Hafen von Tokio sowie Proteste in den meisten größeren Städten ausgelöst, aber es wird erwartet, dass sich die Situation in einigen Monaten normalisiert."
+ japnews.5.d.abolishsocialist: "Nach dem Regimewechsel im ehemaligen Kaiserreich Japan war das Schicksal der kaiserlichen Familie Yamato ungewiss - bis gestern. Mit dem Abschluss des ersten Kongresses der Volksrepublik Japan wurde beschlossen, dass die kaiserliche Familie ihre Titel und ihren Status abschaffen sollte - ab heute hat die Familie Yamato den Status eines Bürgers und unterscheidet sich nicht von ihren früheren Untertanen.\n\nDiese Maßnahme hat einen Streik im Zentrum von Tokio sowie kleinere Proteste in Osaka und Nagasaki ausgelöst, aber es wird erwartet, dass sich die Situation in einem Monat normalisiert."
+ japnews.5.d.abolishdem: "Nach dem Regimewechsel im ehemaligen Kaiserreich Japan war das Schicksal der Kaiserfamilie Yamato ungewiss - bis gestern. Gemäß den Forderungen von [JAP.overlord.GetNameDef] wurde die kaiserliche Institution abgeschafft und die kaiserliche Familie aller Titel und ihres Status beraubt - ab heute hat die Familie Yamato den Status eines Bürgers und unterscheidet sich damit nicht von ihren früheren Untertanen.\n\nDieser Schritt hat einen Streik im Zentrum von Tokio sowie kleinere Proteste in Osaka und Nagasaki ausgelöst, wobei der weit verbreitete öffentliche Widerstand wahrscheinlich zu einem festen Bestandteil der Amtszeit der neuen Regierung werden wird, egal wie lange diese letztlich dauern wird."
+ japnews.5.d.symbol: "Nach dem Regimewechsel im ehemaligen Kaiserreich Japan war das Schicksal der Kaiserfamilie Yamato ungewiss - bis gestern. Mit dem Abschluss der Sondersitzung des Landtages [JAP.GetName] wurde beschlossen, dass der Kaiser als Symbol des Staates und des japanischen Volkes und im weiteren Sinne auch die kaiserliche Familie zwar öffentliche und offizielle Aufgaben wahrnehmen, aber keine Rolle in der neuen Regierung spielen darf.\n\nUm dies zu unterstreichen, hat der Kaiser [JAP.GetLeader] in einer außergewöhnlichen Rundfunkansprache öffentlich auf seine eigene Göttlichkeit verzichtet und betont, dass die Beziehungen zwischen dem Thron und dem Volk immer auf gegenseitigem Vertrauen und gegenseitiger Zuneigung und nicht auf bloßen Mythen oder Legenden beruhten."
+ japnews.5.d.abdicate: "Nach dem Regimewechsel im ehemaligen Kaiserreich Japan war das Schicksal der Kaiserfamilie Yamato ungewiss - bis gestern. Mit dem Abschluss der Sondersitzung des Landtages [JAP.GetName] wurde beschlossen, dass der Kaiser als Symbol des Staates und des japanischen Volkes und im weiteren Sinne auch die kaiserliche Familie zwar öffentliche und offizielle Aufgaben wahrnehmen, aber keine Rolle in der neuen Regierung spielen darf.\n\nIn einem Interview mit der internationalen Presse betonte Prinzregent Takamatsu, dass die Abdankung des verstorbenen Kaisers trotz der landesweiten Fassungslosigkeit ein notwendiger Schritt sei, um eine lang anhaltende Friedensperiode zu gewährleisten und die Beziehungen zwischen Japan und seinen Kollaborateuren zu erneuern."
+ japnews.5.a: "Eine Ära endet, eine neue beginnt."
+
+ japnews.6.t: "Die Shōwa Restauration"
+ japnews.6.d: "In den letzten Wochen gab es nur wenige Berichte aus Tokio, aber jetzt kann kaum jemand daran zweifeln, dass die japanische Demokratie tot ist. Nachdem es der Regierung nicht gelungen war, gegen die aufkeimende syndikalistische Bewegung des Landes vorzugehen, putschten konservative Offiziere, stürzten den Premierminister und errichteten eine Militärdiktatur. Doch auch diese hat sich als vorübergehend erwiesen - Offiziere, die der rivalisierenden restaurativen Fraktion angehören, haben einen Gegenputsch gestartet.\n\nIn den blutroten Straßen der größten Stadt Asiens wurde die Shōwa-Restauration verkündet - die Wiederherstellung der ultimativen Macht für den Kaiser und die Wiedergeburt Japans, frei von den korrumpierenden Einflüssen des Syndikalismus, der Demokratie und des westlichen Einflusses."
+ japnews.6.a: "Sonnō tōkan!"
+ japnews.6.b: "Oh nein..."
+
+ japnews.7.t: "Militärputsch in Japan"
+ japnews.7.d: "In den letzten Wochen gab es nur wenige Berichte aus Tokio, aber es scheint, dass die japanische Demokratie tot ist. Nach jahrelangen Machtkämpfen, Skandalen und Korruption zwischen den politischen Parteien starteten radikale restaurationistische Offiziere einen Staatsstreich mit dem Ziel, das Land in ein ultranationalistisches Regime zu verwandeln. Letztendlich scheinen ihre Bemühungen umsonst gewesen zu sein - regierungstreue Truppen konnten einen Gegenputsch starten und die Aufständischen erfolgreich niederschlagen.\n\nDoch diese Episode hat zweifellos die Schwäche der Parteien gezeigt. Japan hat sich faktisch in eine Militärdiktatur verwandelt, mit Nationalismus, Korporatismus und Militarismus als Leitprinzipien."
+ japnews.7.a: "Banzai!"
+ japnews.7.b: "Oh nein..."
 
 ### Characters ###
  JAP_arahata_kanson: "Arahata Kanson"
@@ -2371,13 +2386,20 @@
  JAP_nagumo_chuichi: "Nagumo Chūichi"
  JAP_nagumo_chuichi_admiral_desc: "§YGeboren:§! §L25. März 1887, in Yonezawa, Präfektur Yamagata, Kaiserreich Japan§!"
 
- JAP_nishina_yoshio: "Nishina Yoshio"
  JAP_nishina_yoshio_theorist_desc: "§YGeboren:§! §L6. Dezember 1890, in Satoshō, Präfektur Okayama, Kaiserreich Japan§!"
  JAP_obata_toshiro: "Obata Toshirō"
  JAP_obata_toshiro_theorist_desc: "§YGeboren:§! §L19. Februar 1885, in der Präfektur Kōchi, Kaiserreich Japan§!"
  JAP_tokugawa_yoshitoshi: "Tokugawa Yoshitoshi"
  JAP_tokugawa_yoshitoshi_theorist_desc: "§YGeboren:§! §L24. Juli 1884, in der Präfektur Tōkyō, Kaiserreich Japan§!"
 
+ JAP_tomio_hara: "Tomio Hara"
+ JAP_hideo_itokawa: "Hideo Itokawa"
+ JAP_jiro_horikoshi: "Jirō Horikoshi"
+ JAP_keiji_fukuda: "Keiji Fukuda"
+ JAP_shinichiro_tomonaga: "Shin'ichirō Tomonaga"
+ JAP_taneki_hisamura: "Taneki Hisamura"
+ JAP_yoji_ito: "Yōji Itō"
+ JAP_yoshio_nishina: "Yoshio Nishina"
  ### Socialist Advisors ###
  JAP_nosaka_sanzo: "Nosaka Sanzō"
  JAP_nosaka_sanzo_desc_body: "Als Sohn eines wohlhabenden japanischen Kaufmanns wuchs Nosaka in einem bürgerlichen Umfeld auf und besuchte die Keio-Universität. Während seiner Zeit an der Keio-Universität begann sich Nosaka für die internationale Arbeiterbewegung zu interessieren, ein Interesse, das von einem seiner Professoren, Kiichi Horie, unterstützt wurde. Er schloss dann eine Studie über eine gemäßigte Arbeiterorganisation namens \"Yuaikai\" ab und wurde nach seinem Abschluss Redakteur für die Zeitschrift der Organisation.\n\nNach der bolschewistischen Revolution von 1917 und der anschließenden französischen Revolution von 1919 wurde Nosaka überzeugter Marxist und kam 1919 nach Frankreich, wo er mit britischen und französischen Sozialisten Bekanntschaft machte. Durch die Dritte Internationale als einer der faktischen Führer der aufkeimenden sozialistischen Bewegung Japans beeinflusst, gelang es ihm, sich der linken Führung der Kuomintang anzunähern, nachdem diese nach dem Scheitern der Ersten Nordexpedition aus China vertrieben worden war. Er war an den Vorbereitungen für den Schanghaier Aufstand von 1932 beteiligt, der sowohl von der Kuomintang als auch von der Liga der chinesischen Syndikalisten inszeniert wurde, doch das Scheitern des Aufstands veranlasste ihn, als Freiwilliger am Mingan-Aufstand teilzunehmen.\n\nNachdem er die Kuomintang eine Zeit lang begleitet und den Erfolg der Zweiten Expedition miterlebt hatte, verpflichtete sich Nosaka, der chinesischen Armee zu dienen"
