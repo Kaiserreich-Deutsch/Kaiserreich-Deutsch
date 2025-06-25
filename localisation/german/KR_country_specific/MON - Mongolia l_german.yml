@@ -251,8 +251,6 @@
  MON_dealing_with_the_leftover_bandits_decisions_desc: "Während die Rebellion im Westen von der Zentralregierung erfolgreich niedergeschlagen wurde, gibt es in der Region nach wie vor verschiedene unabhängige, umherstreifende Banden kleinerer Kriegsherren und Banditen. Sie sind zwar bei weitem nicht mehr so stark wie früher, belästigen aber dennoch ständig Verwalter, Bürger und Soldaten gleichermaßen. Es ist von entscheidender Bedeutung, dass wir unverzüglich mit dem Wiederaufbau beginnen, und die erste Aufgabe besteht darin, die im Westen herrschende Fäulnis zu beseitigen."
  MON_pacify_western_bandits_decision: "Die westlichen Banditen befrieden"
  MON_pacify_western_bandits_decision_desc: "Die Aufrechterhaltung der Autorität und die wirksame Unterdrückung der lokalen Banditen in der Region erfordern eine starke militärische Kraft. Wir sollten die Streitkräfte der Regierung dazu bringen, in die Region vorzudringen."
- MON_maintain_western_control_mission: "Kontrolle im Westen aufrechterhalten"
- MON_maintain_western_control_mission_desc: "Es ist zwar schön und gut, kurzzeitig ein großes Aufgebot an Truppen in die westliche Region zu bringen, aber die Banditen und Rebellen lassen sich nicht so leicht einschüchtern. Die Aufrechterhaltung der Gewalt und eine fortgesetzte, konsequente Ausrottungskampagne werden die gründliche Wiederherstellung der Kontrolle der Regentschaft gewährleisten."
 
  MON_declare_pan_mongol_state_decision: "Den Pan-Mongolischen Staat ausrufen"
  MON_declare_pan_mongol_state_decision_desc: "Der Geist des ursprünglichen Unabhängigkeitskrieges ist nicht verloren gegangen! Die Freiheit für alle Mongolen ist endlich errungen worden! Mit Herz, Stahl, Blut, Schweiß und Tränen wurde der großmongolische Staat, die seit Jahrzehnten ersehnte Einigung, endlich verwirklicht. Wir können nur hoffen, dass die auf diesem Weg erbrachten Opfer und die darin enthaltenen Zusicherungen das Khanat durch die zweifellos schwierigen Zeiten der Zukunft bringen werden. Die neu eroberten Gebiete sind nur mehrheitlich mongolisch, und es werden Zugeständnisse an unsere neu gewonnene Bevölkerung gemacht werden müssen, die dem Konzept des Panmongolismus vielleicht nicht aufgeschlossen gegenübersteht. Nichtsdestotrotz können wir uns über diesen historischen Moment in der mongolischen Geschichte freuen!"
@@ -798,19 +796,12 @@
  MON_hoisting_the_white_sun_desc: "Wir müssen uns mit der chinesischen Kuomintang in Gedanken und Tatkraft voll und ganz vereinen. Indem wir die Gemeinsamkeit unseres Kampfes und unseres Platzes in der Welt fördern, werden das mongolische Volk und die Han langsam aber sicher Hand in Hand zu einem gemeinsamen Datong voranschreiten. Denn auch wenn unsere Bürger in der Nationalen Revolution nicht gekämpft haben, hält sie nichts davon ab, es jetzt zu tun."
 
 ### Country flags ###
- MON_bandits_occupy_tuva: "Rebellen besetzen Tuva"
  MON_bandits_occupy_uliastai: "Rebellen besetzen Uliastai"
  MON_bandits_occupy_ulaangom: "Rebellen besetzen Ulaangom"
 
 ### Tooltips ###
-
- MON_pacify_bandits_mission_explanation: "Halte Divisionen für 180 Tage in diesem Staat, um Banditen in der Region zu befrieden.\n"
- MON_western_rebellion_unlock_decisions_tooltip: "§RSchaltet Entscheidungen frei, um mit dem Westlichen Aufstand umzugehen.§!\n"
- MON_capital_chaos_unlock_decisions_tooltip: "§RSchaltet Entscheidungen frei, um mit dem Chaos in der Hauptstadt umzugehen.§!\n"
  MON_elections_tooltip: "§GWahlen werden zur Diskussion gestellt.§!\n"
  MON_chinese_puppet_first_trigger_tooltip: "Die Mongolei ist eine Marionette eines chinesischen Tags."
- MON_chinese_puppet_trigger_tooltip: "Die Mongolei ist eine Marionette eines nicht-Kuomintang-geführten chinesischen Tags."
- MON_chinese_puppet_KMT_trigger_tooltip: "Die Mongolei ist eine Marionette eines Kuomintang-geführten chinesischen Tags."
  MON_pan_mongol_claim_decisions: "§CWir werden die Möglichkeit verlieren, die Kriegszielentscheidungen zu treffen, wenn wir einer Fraktion beitreten!§!"
 
 ### Intro Screen ###
@@ -1030,16 +1021,16 @@
  mon.55.d: "Während er mit seinem Pferd in einer Parade durch Urga ritt, versetzte ein plötzliches Geräusch die Menge in Panik. Ein Schuss, der in der ganzen Stadt widerhallte, verfehlte Baron Ungern um zwei Zentimeter. Der Attentäter, ein dreiundzwanzigjähriger Mann, wurde fast sofort erschossen. Die Menge zerstreute sich in Panik, und die Zivilisten wurden aus dem Stadtzentrum vertrieben. Nachdem sich das Gemetzel beruhigt hatte, wurde der Attentäter als Mitglied der mongolischen Ardīn Nam identifiziert, doch viele Bauern in Urga behaupten, dies sei eine Erfindung der Regierung. Obwohl der Baron überlebte, zeigte dieser Versuch Schwäche, und das Chaos, das dadurch entstand, kann nicht gut für unsere Popularität sein."
  mon.55.a: "Zumindest hat der Baron überlebt."
 
- mon.56.t: "[FROM.GetNameDef] wünscht die Wiederaufnahme der Beziehungen"
+ mon.56.t: "[FROM.GetNameDefCap] wünscht die Wiederaufnahme der Beziehungen"
  mon.56.d: "Russland und die Mongolei standen in letzter Zeit nicht auf bestem Fuß. Dennoch haben die Mongolen eine diplomatische Mission entsandt, um bessere Beziehungen neu zu verhandeln. Dies könnte eine Gelegenheit sein, unseren Einfluss in China zu bewahren, auch wenn die neue Regierung wahrscheinlich nicht so fügsam gegenüber unseren Interessen sein wird."
  mon.56.a: "Verbündete sind immer gut."
  mon.56.b: "Wer weiß, ob sie sich nicht wieder gegen uns wenden?"
 
- mon.57.t: "[FROM.GetNameDef] stimmt zu"
+ mon.57.t: "[FROM.GetNameDefCap] stimmt zu"
  mon.57.d: "Die russische Regierung hat positiv auf unser Angebot reagiert und erklärt, dass sie uns wirtschaftliche Unterstützung und Schutz gewähren wird."
  mon.57.a: "Ausgezeichnet."
 
- mon.58.t: "[FROM.GetNameDef] lehnt ab"
+ mon.58.t: "[FROM.GetNameDefCap] lehnt ab"
  mon.58.d: "Die russische Regierung hat unsere Annäherung abgelehnt und verweist dabei auf nicht näher genannte Bedenken bezüglich unserer Aufrichtigkeit. Wir werden uns anderswo nach Verbündeten umsehen müssen."
  mon.58.a: "Bedauerlich."
 
@@ -1652,7 +1643,7 @@
 
  #Торновский Михаил Георгиевич
  MON_mikhail_tornovsky: "Mikhail Tornovsky"
- MON_mikhail_tornovsky_high_command_desc: "§YGeboren:§! §L1882, in Pokrowsk, Gouvernement Samara, Russisches Reich§!\n§YHintergrund:§! §LMikhail Georgievich Tornovsky schloss 1904 die Irkutsker Militärschule ab und wurde im Großen Krieg Bataillonskommandeur. Nach der Oktoberrevolution floh er aus Russland, schloss sich dem Komitee für die Verteidigung des Vaterlandes und der Konstituierenden Versammlung in Harbin an und kehrte bald darauf nach Russland zurück, um sich Koltschaks Truppen anzuschließen. Durch eine Laune des Schicksals schloss er sich den Truppen von Semjonow an, die ihn schließlich in die Asiatische Kavalleriedivision von Roman Ungern-Sternberg brachten. \n\nTornovsky wurde zu Ungern-Sternbergs Stabschef und in dieser Funktion eine Art politischer Organisator von Ungerns Clique und Kontaktperson zu deren mongolischen Verbündeten. Tornovsky ist auch ein versierter Historiker und wurde sogar als eine Art Regimeideologe bezeichnet, nachdem seine Biografie über Ungern eindeutig dazu beigetragen hatte, den Personenkult um Ungern sowohl in der Mongolei als auch beim russischen Publikum zu fördern.§!"
+ MON_mikhail_tornovsky_high_command_desc: "§YGeboren:§! §L1882, in Pokrowsk, Gouvernement Samara, Russisches Reich§!\n§YHintergrund:§! §LMikhail Georgievich Tornovsky schloss 1904 die Irkutsker Militärschule ab und wurde im Großen Krieg Bataillonskommandeur. Nach der Oktoberrevolution floh er aus Russland, schloss sich dem Komitee für die Verteidigung des Vaterlandes und der Konstituierenden Versammlung in Harbin an und kehrte bald darauf nach Russland zurück, um sich Koltschaks Truppen anzuschließen. Durch eine Laune des Schicksals schloss er sich den Truppen von Semjonow an, die ihn schließlich in die Asiatische Kavalleriedivision von Roman Ungern-Sternberg brachten.\n\nTornovsky wurde zu Ungern-Sternbergs Stabschef und in dieser Funktion eine Art politischer Organisator von Ungerns Clique und Kontaktperson zu deren mongolischen Verbündeten. Tornovsky ist auch ein versierter Historiker und wurde sogar als eine Art Regimeideologe bezeichnet, nachdem seine Biografie über Ungern eindeutig dazu beigetragen hatte, den Personenkult um Ungern sowohl in der Mongolei als auch beim russischen Publikum zu fördern.§!"
 
  #Казагранди Николай Николаевич
  MON_nikolay_kazagrandi: "Nikolay Kazagrandi"
