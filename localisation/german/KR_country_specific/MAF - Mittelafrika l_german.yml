@@ -145,12 +145,8 @@
  MAF_Imminent_Collapse: "Bevorstehender Kollaps"
  MAF_Imminent_Collapse_desc: "Wir haben es geschafft, den ganzen Kontinent in einen Krieg zu verwickeln! Wenn wir sie nicht alle schnell vernichten, wird unser gesamter Staatsapparat implodieren und Mittelafrika wird aufhören zu existieren."
 
- MAF_Cash_Crops_idea: "Pflanzen für den Export"
  MAF_Honorary_Officers_idea: "Ehrenamtliche Beamte"
  MAF_Anglo_Volunteers1: "Britische Freiwillige"
- MAF_Anglo_Volunteers2: "Britische Freiwillige"
- MAF_Opium_Profit: "Profit durch Opium"
- MAF_Opium_Epidemic: "Opium Pandemie"
  MAF_Landtag: "Mittelafrika Bundesrat"
 
  MAF_Vorbeck_idea: "Geist von Lettow-Vorbeck"
@@ -167,29 +163,10 @@
 
  MAF_belgian_investment: "Belgische Investitionen"
 
- MAF_selling_out_1: "Ausverkauf"
- MAF_selling_out_2: "Ausverkauf"
- MAF_buying_back: "Rückkauf"
- MAF_belgians_are_gone: "Chaos im Kongo"
-
- MAF_sellout_katanga_1: "Verkauf von Rohstoffrechten in Katanga"
- MAF_sellout_katanga_2: "Mehr Rohstoffrechte in Katanga verkaufen"
- MAF_sellout_rhodesia: "Verkauf von Rohstoffrechten in Rhodesien"
- MAF_sellout_equatoria: "Verkauf von Rohstoffrechten in Äquatorialkongo"
- MAF_sellout_ubangi: "Ressourcenrechte in Ubangi verkaufen"
-
- MAF_buildup_katanga_railway_south: "Die Katanga-Bahn (Süd)"
- MAF_buildup_katanga_railway_north: "Die Katanga-Bahn (Nord)"
- MAF_buildup_katanga: "Ausbeutung Katangas"
- MAF_buildup_rhodesia: "Ausbeutung Rhodesiens"
- MAF_buildup_equatoria: "Ausbeutung des Äquatorialkongo"
- MAF_buildup_ubangi: "Ausbeutung Ubangis"
-
  MAF_African_Investments: "Afrikanische Investitionen"
 
  MAF_white_phosphorus_idea: "Weiße Phosphor Bomben"
  MAF_white_phosphorus_idea_desc: "Weißer Phosphor hat viele Verwendungszwecke, aber keiner davon ist so tödlich oder effektiv, wie der direkt gegen feindliche Einheiten im dichten Dschungel, obwohl seine Nachwirkungen weniger als 'angenehm' sind."
- MAF_Jungle: "Dschungel Kriegsführungs Training"
  MAF_Nat_Buff: "Eingeborenen Revolte"
 
  MAF_British_Settlers: "Die Mandatsfrage"
@@ -249,20 +226,8 @@
  MAF_collapse_tooltip: "§RMittelafrika wird kollabieren und in Dutzende neue Länder zerfallen.§!\n"
  MAF_collapse: "Mittelafrika ist kollabiert"
 
- MAF_leader_resigns: "§Y[THIS.GetLeader] tritt aus Protest zurück.§!\n\n"
  maybe_dont_ignore_germany_MAF: "§RDie Worte des Kaisers zu ignorieren, ist ein gefährliches Spiel...§!\n"
  MAF_revolt_tooltip: "§RFast der gesamte Kontinent steht kurz vor dem Ausbruch einer offenen Revolte; dies ist sicherlich das Ende...§!\n"
- MAF_BM_Improvement_Tooltip: "§GWir werden zu Beginn des Haushaltsjahres über unseren Haushalt entscheiden können.§!\n"
- MAF_CAN_Vol_tooltip: "§GDrei Divisionen der kanadischen Truppen werden sich uns anschließen.§!"
- african_divisions_1: "§GDrei Divisionen der Eliteinfanterie werden aus Mittelafrika zu uns stoßen.§!\n"
- african_divisions_2: "§GZwei Elite Kavallerie Divisionen werden aus Mittelafrika zu uns stoßen.§!\n"
- african_divisions_3: "§GAus Mittelafrika kommen zwei motorisierte Elite-Divisionen zu uns.§!\n"
-
- MAF_BM_has_hit: "§RDeutschland befindet sich in einer Wirtschaftskrise!§!"
- MAF_BM_optional: "Bis zum Haushalt 1937 dürfte sich die Lage bessern, aber §Zusätzliche Maßnahmen§! könnten unsere Wirtschaft kurzfristig verbessern.\n"
-
- dividing_mozambique: "Wir haben vereinbart, Mosambik mit der Mittelafrika zu teilen"
- situation_out_of_hand: "Die Situation mit Portugal gerät außer Kontrolle"
 
  MAF_lk_take_north_MZB: "§B[POR.GetNameDefCap] tritt Nord-Mosambik an Mittelafrika ab.§!\n"
  MAF_lk_take_all_MZB: "§B[POR.GetNameDefCap] tritt Mosambik als Ganzes ab, das in Mittelafrika eingegliedert wird.§!\n"
@@ -274,15 +239,13 @@
 
  MAF_TT_supply_germany: "Unsere Kolonie wird damit beginnen, Deutschland mit einheimischen Produkten zu versorgen §Um jeden Preis.§!\n\n"
 
- MAF_Mau_Mau_Revolt: "§H[Root.GetNameDef]§! erklärt den Krieg gegen §H$KEN_KIK$§!."
+ MAF_Mau_Mau_Revolt: "§H[Root.GetNameDefCap]§! erklärt den Krieg gegen §H$KEN_KIK$§!."
 
  MAF_Bush_War_start_tt: "§RDer Bush-Krieg wird beginnen.§!\n§H[MAF.GetNameDef]§! erklärt Krieg gegen §H$POR_$§!."
 
  MAF_Bush_War_POR_advantage_tt: "§Chat derzeit einen Vorteil."
  MAF_Bush_War_MAF_advantage_tt: "§PMittelafrika§! hat derzeit einen Vorteil."
  MAF_Bush_War_NO_advantage_tt: "§LNiemand§! hat einen Vorteil."
-
- MAF_no_more_belgians_tooltip: "§YDie Ausweisung belgischer Staatsangehöriger wird nicht folgenlos bleiben. Ihre Ausweisung wird unsere Möglichkeiten in der Zukunft einschränken.§!"
 
  MAF_can_send_volunteers_to_target_tt: "[ROOT.GetName] kann nur Freiwillige in Länder in Afrika schicken."
 
@@ -385,15 +348,6 @@
  MAF_Four_Year_Plan: "Vier Jahresplan"
  MAF_Four_Year_Plan_desc: "In Europa und Asien braut sich Ungemach zusammen: Deutschlands Feinde werden jeden Tag mutiger, während unser eigenes Militär selbstgefällig geworden ist. Wir müssen einen Zeitplan für unsere wirtschaftliche und militärische Aufrüstung aufstellen, um sicherzustellen, dass wir bereit sind, das Vaterland in jeder Weise zu unterstützen."
 
- MAF_Army_Reforms: "Reformierung der Armee"
- MAF_Army_Reforms_desc: "Der afrikanische Askari von 1914 entsprach dem Standard des zeitgenössischen europäischen Soldaten. Heute entspricht er immer noch dem Standard von 1914. Er ist nicht bereit für die Art von mechanisierten, artillerieintensiven Schlachten, wie wir sie in Europa gegen Ende des Krieges erlebt haben. Das müssen wir ändern."
-
- MAF_Heavy_Equipment: "Schwere Ausrüstung"
- MAF_Heavy_Equipment_desc: "Wenn unser Militär den Standards Deutschlands entsprechen soll, brauchen wir Ausrüstung: Panzer, Flugzeuge, Artilleriegeschütze - das sind die Waffen des modernen Krieges!"
-
- MAF_Africa_Army: "Die Afrika-Divisionen"
- MAF_Africa_Army_desc: "Jetzt, wo wir auf dem Weg zur Parität in der modernen Kriegsführung sind, genügt es nicht mehr, dass unsere Askari als Kolonialpolizei dienen. Wie die Gurkhas für die Briten und die Senegalesen für die Franzosen werden die Besten der einheimischen Bevölkerung als Stoßtruppen für die deutsche Armee dienen."
-
  MAF_Long_Range_Airforce: "Eine Langstrecken Luftwaffe"
  MAF_Long_Range_Airforce_desc: "Afrika ist weit entfernt von den großen Kriegsschauplätzen. Um unsere Feinde anzugreifen, müssen wir eine Flotte von Langstreckenbombern bauen, die sogar transozeanische Reisen durchführen können. Selbst wenn wir sie nie nutzen, wird unsere Fähigkeit, Luftkraft über den Indischen und Atlantischen Ozean zu projizieren, unser Prestige erheblich verbessern."
 
@@ -463,9 +417,6 @@
 
  MAF_African_Landtag: "Ein mittelafrikanischer Bundesrat"
  MAF_African_Landtag_desc: "Schon jetzt gibt es in jeder Gliedkolonie unseres Kolonialbundes einen Landesrat, der den deutschen Bürgern die Möglichkeit gibt, an der Regierung mitzuwirken. Wir werden ein Analogon auf Bundesebene schaffen, einen mittelafrikanischen 'Bundesrat'. Die Hälfte seiner Sitze wird von den einzelnen Kolonien gewählt, während die andere Hälfte direkt vom Gouverneur ernannt wird."
-
- MAF_Autonomous_Kingdoms: "Autonome Königreiche"
- MAF_Autonomous_Kingdoms_desc: "Einige Gebiete Afrikas sind nicht für weiße Siedlungen geeignet, und unsere Herrschaft hängt insbesondere vom guten Willen der lokalen Herrscher ab. Anstatt zu versuchen, sich zu koordinieren, sollten wir ihnen mehr Unabhängigkeit und Autonomie gewähren, wenn auch natürlich mit uns selbst als Lehnsherr."
 
  MAF_African_Studies: "Förderung von afrikanischen Studien in Deutschland"
  MAF_African_Studies_desc: "Die offizielle Sprache unserer Verwaltung ist Suaheli, aber es gibt nur wenige Möglichkeiten, es anderswo zu lernen, ganz zu schweigen von den Hunderten anderer Sprachen, die in Afrika verwendet werden. Um eine stetige Versorgung mit kompetenten Beamten zu gewährleisten, sollten wir die deutschen Universitäten ermutigen, Fachkräfte für afrikanische Sprachen und Kulturen auszubilden."
@@ -584,9 +535,6 @@
 
  MAF_Konigsburg_Gunners: "Die Kanoniere von der SMS Königsberg"
  MAF_Konigsburg_Gunners_desc: "Abgesehen von einigen Schlachten in Flüssen und auf Seen, mit improvisierten Dampfern erlebte der Weltkrieg in Afrika nicht viel Seekrieg. Die Schlüsselschlacht war die Schlacht im Rufiji-Delta, in der die SMS Königsberg schwer beschädigt wurde. Die Besatzung rettete jedoch die Waffen, bevor sie das Schiff versenkte, und diente anschließend als Artillerie- und Infanterieoffiziere. Seine Besatzung kämpfte jedoch auf dem Landweg, und so ist es nicht verwunderlich, dass einige unserer Marineoffiziere über Kenntnisse in der Taktik der Marine-Infanterie verfügen."
-
- MAF_Spirit_Vorbeck: "Der Geist von Lettow-Vorbeck"
- MAF_Spirit_Vorbeck_desc: "Die wichtigste Lehre aus dem Weltkrieg findet sich in keinem technischen Handbuch. Dies zeigt sich in der bloßen Entschlossenheit von General von Lettow-Vorbeck, weiter zu kämpfen, egal wie schlimm die Situation gewesen sein mag. 1916 erklärte die Entente die Lage in Afrika für vorbei. 1919 standen wir immer noch und kämpften immer noch. Wir haben nie aufgegeben und werden es auch nie tun!"
 
  ## Sea
  MAF_Port_Renovation: "Hafensanierung"
@@ -879,6 +827,41 @@
  mittel.003.d: "Ernst Jünger, einer unserer verdienten Generäle, ist auch ein erfolgreicher Autor. Heute ist sein neuestes Buch im Heimatland erschienen: Auf den Marmorklippen. Es ist ein Roman voller manchmal obskurer Symbolik, Magie und den inneren, verborgenen Abläufen des Lebens selbst. In einer Fantasiewelt lebt die reiche, kunstliebende Zivilisation von Marina in Frieden neben den kriegerischen Nomaden der Steppe. Zwei Brüder sind die Protagonisten der Geschichte, die versuchen, den Oberförster davon abzuhalten, die schöne Stadt Marina langsam zu überrennen. Immer mehr Nomaden hören auf den Oberförster, der zunächst jovial wirkt, sich aber bald als kalter, machthungriger Mörder entpuppt. Die Menschen in Marina hören auf, ihren Dichtern zuzuhören, ihre Werte und ihr Geist verfallen. Als die beiden Brüder im Wald eine Hütte finden, in der die Schergen des Oberförsters ihre Opfer ermorden, versuchen sie, sich gegen den Bösewicht aufzulehnen, aber vergeblich. Nur ihre Magie ermöglicht ihnen die Flucht. Sie müssen ihr Haus auf den Marmorklippen und ihr Lebenswerk in Brand setzen, während sie die Stadt Marina am Horizont brennen sehen und in einen Zustand des Fatalismus zurückkehren. Das Buch hat gemischte Kritiken erhalten. Während einige es für seine ausgefeilte Ästhetik und den Einblick in die Funktionsweise der Welt loben, fragen sich einige Leser, die sich mehr für die politischen Implikationen der Marmorklippen interessieren, ob es Ernst Jüngers Kommentar zur harten Realität der mittelafrikanischen Politik sein soll. Jünger selbst hat sich dazu nicht geäußert, aber sein Bruder Friedrich Georg, ein Dichter, sagte \"Es ist ein Schuh, der zu verschiedenen Füßen passt\"."
  mittel.003.a: "Dieses werde ich kaufen."
 
+ mittel.004.t.MAF: "Der Zusammenbruch von Mittelafrika"
+ mittel.004.t.GEX: "Das Ende der Deutschen Exilregierung"
+ mittel.004.d: "Aus den verschiedenen Teilen Afrikas, die unter deutscher Herrschaft stehen, kommen beunruhigende Berichte; es scheint, dass die deutsche Verwaltung völlig zusammengebrochen ist! Es ist unklar, warum oder wie, aber die Verwaltung, die im Ausland gewöhnlich als effizient gilt und für ihre verschwenderischen Ausgaben bekannt ist, gibt es nicht mehr. Da die Zentralregierung nicht mehr handlungsfähig ist, kommt es auf dem gesamten Kontinent zu Konflikten, da die verschiedenen Königreiche, Stämme und Protektorate, aus denen er sich zusammensetzte, nun untereinander um neue Ansprüche und alten Groll kämpfen und Cliquen von Askari und deutschen Kolonialbeamten versuchen, den Anschein von Normalität zu wahren.\nOb dieser Zustand vorübergeht oder wirklich ein dunkles Zeitalter der Gewalt in Afrika beginnt, ist ungewiss. Sicher ist jedoch, dass das deutsche Kolonialreich zerbröckelt ist."
+ mittel.004.a: "Es scheint, dass die deutsche Herrschaft über Afrika viel brüchiger war, als wir dachten..."
+ mittel.004.b: "Ein komplettes Desaster!"
+ mittel.004.c: "Die Hunnen haben es verdient."
+ mittel.004.e: "Die Menschen in Afrika sehnen sich nach Freiheit vom Imperialismus!"
+
+ mittel.005.t: "Der Mosambik-Buschkrieg"
+ mittel.005.d: "Es gibt zwar einige, die glauben, dass die altmodischen Kolonialkriege ein Relikt aus der Zeit vor dem Weltkrieg sind, doch die jüngsten Ereignisse in Afrika haben gezeigt, dass der Kampfesdrang des Menschen auf dem dunklen Kontinent nicht unmittelbar abzunehmen droht.\n\nDie zunehmenden Spannungen zwischen Deutsch-Mittelafrika und den portugiesischen Kolonien haben sich in den letzten Monaten von eher absurden Streitigkeiten, bei denen es lediglich um Viehdiebstähle ging, zu offenen Konflikten in Mosambik und Angola ausgeweitet, wobei die Kolonialtruppen und ihre weißen Offiziere auf beiden Seiten einen fruchtlosen Guerillakrieg führen, der sicherlich viele Menschenleben kosten wird."
+ mittel.005.a: "Wenn sie denken, dass es das wert ist..."
+
+ mittel.006.t: "Souveränisten dominieren Mittelafrika"
+ mittel.006.d: "Die Presse in Berlin hat mit Berichten über weitreichende politische Veränderungen innerhalb der traditionell geheimnisvollen Mittelafrikanischen Kolonialverwaltung aufgewartet. Obwohl sich der Gouverneur der Kolonie [MAF.GetLeader] vor deutschen Gerichten einen erbitterten Rechtsstreit geliefert hat, scheint sein politisches Überleben die so genannte \"Selbstverwalter\"-Fraktion in Dar-es-Salaam erheblich gestärkt zu haben.\n\nUnter Berufung auf den in der Rechtssache Kenyatta gegen Solf aufgestellten Rechtsgrundsatz, dass die Souveränität des Gouverneurs innerhalb Mittelafrikas nicht angetastet werden darf, hat die härtere Fraktion von [MAF.GetLeader] innenpolitisch die Oberhand gewonnen. Der dunkle Kontinent wird unter dem Einfluss dieser Persönlichkeiten, von denen viele Mittelafrika seit langem nur als persönliches Lehen betrachten, mit Sicherheit noch dunkler werden."
+ mittel.006.a: "Ein seltsamer Zustand."
+
+ mittel.007.t: "Mittelafrika wiederhergestellt"
+ mittel.007.d: "Als die deutsche Kolonie Mittelafrika zusammenbrach, dachte die Welt, dass die deutsche Herrschaft über den dunklen Kontinent für immer vorbei sei. Was von der ehemaligen Kolonialverwaltung übrig geblieben war, hatte sich nach Namibia zurückgezogen, schockiert, entehrt und desorganisiert. Doch das sollte offenbar nicht sein. Unter der Führung von [NMB.GetLeader] starteten die Deutschen von Windhoek aus eine Reihe von Feldzügen, fest entschlossen, die kaiserliche Fahne wieder von Sansibar bis zur Goldküste wehen zu lassen. Diese Pläne sind nun endlich in Erfüllung gegangen, denn die deutschen Streitkräfte kontrollieren nun das gesamte ehemalige Mittelafrika und haben erklärt, dass die Verwaltung wiederhergestellt werden soll. Allen Widrigkeiten zum Trotz hat der Kolonialismus gesiegt."
+ mittel.007.a: "Wie wundervoll!"
+ mittel.007.b: "Afrika einmal mehr in Ketten..."
+ mittel.007.c: "Der Kaiser ist zurück."
+
+ mittel.008.t: "Der Mau Mau Krieg"
+ mittel.008.d: "Nachrichten aus der deutschen Kolonie [MAF.GetNameDef] werden in der Regel als ereignislos und positiv beschrieben, und die Kolonialverwalter zeichnen ein Bild von dem Projekt als einem starken Ausdruck deutscher Macht. Die Existenz dieser Kolonie scheint nun jedoch in Gefahr zu sein, da das, was die deutschen Behörden zuvor als einen kleinen, aussterbenden Konflikt beschrieben hatten, gewaltsam in einen Krieg ausgeartet ist.\n\nIn Kenia hat sich eine Koalition verschiedener Ethnien zu einem Aufstand zusammengeschlossen, um die europäischen Siedler aus dem Land zu vertreiben. Als Reaktion darauf hat [MAF.GetLeader], das Oberhaupt der Kolonie, geschworen, \"die Ordnung wiederherzustellen\", während [MAF.GetAdjective]-Einheiten zum Krieg aufbrechen.."
+ mittel.008.a: "Wir werden diese Wilden mit Leichtigkeit vernichten."
+ mittel.008.b: "Wir hätten Ritter gar nicht erst die Verantwortung für Mittelafrika übertragen dürfen."
+ mittel.008.c: "Es war nur eine Frage der Zeit, bis die Menschen in Afrika ihre Ketten sprengen würden."
+ mittel.008.e: "Dies beweist, dass die Boches nie in der Lage waren, ihre Kolonien richtig zu verwalten."
+ mittel.008.f: "Blödsinn, eine weitere Eingeborenenrevolte in Afrika?"
+
+ mittel.009.t: "Der Flug von [MAF.GetLeader]"
+ mittel.009.d: "DARESSALAM. Im frühen Morgengrauen hat ein einzelnes Flugzeug einen außerplanmäßigen Start durchgeführt. Die Verwaltungshauptstadt von Deutsch-Afrika hat sich zwar zu einem Hotspot der Luftfahrt entwickelt, aber das Fehlen einer ordnungsgemäßen Genehmigung für diesen Flug und der Zeitpunkt des Ereignisses sorgten für eine gewisse Beunruhigung.\n\nDie wahre Bedeutung des Vorfalls wurde jedoch erst deutlich, als der Arbeitstag am Sitz der deutschen Verwaltung begann. Weder der Gouverneur noch die Geldreserven der Regierung waren zu finden. Die vorherrschende Theorie ist, dass der Gouverneur selbst die Gelder veruntreut hat, bevor er seinen Posten verließ. Es bleibt abzuwarten, was dies für die deutsche Kolonialverwaltung in der Region bedeutet."
+ mittel.009.a: "Wer hätte gedacht, dass Schweine doch fliegen können?"
+ mittel.009.b: "Er hat WAS getan?"
+
 ## Internal Events ##
  mittel.40.t: "Die Kenyatta Affäre"
  mittel.40.d: "Ein ziemlich einzigartiger Fall zieht sich seit Jahren schleppend durch unser Rechtssystem. Nun hat er das höchste Gericht des deutschen Staates erreicht. Der antikoloniale Aktivist Jomo Kenyatta hat eine Sammelklage gegen die ehemalige mittelafrikanische Regierung wegen ihres Verhaltens während der Befriedung Kenias im Jahr 1925 eingereicht. Der Fall ist zu einer Art politischer Peinlichkeit geworden: Da einige der Kläger britische Siedler sind, kann er nicht einfach abgewiesen werden. Sie behaupten, die Schutztruppe habe ihnen durch illegale Landnahmen und sogar Entführungen und Folter Schaden zugefügt, und dies alles mit Wissen der mittelafrikanischen Verwaltung und ohne rechtliche Grundlage.\n\nDie Hauptbeteiligten sind zwar nicht mehr Teil unserer Verwaltung, aber Kommentatoren haben darauf hingewiesen, dass ein Urteil des Gerichts möglicherweise einen Präzedenzfall für das zulässige Ausmaß der... Regelbeugung' unserer Kolonialverwaltungen ist."
@@ -961,10 +944,6 @@
  mittel.56.desc.autdem: "Das jüngste administrative Versagen von Statthalter Karl Ritter könnte der Tropfen sein, der das Fass zum Überlaufen bringt, denn die ständigen Fehler und Fehlkalkulationen haben ihn mehr denn je in die Isolation getrieben. Viele wünschten sich seinen Sturz, und ein wütendes Telegramm aus Berlin, in dem Ritters Absetzung angeordnet wurde, stieß bei vielen DKA-Funktionären, die sich über Ritters rücksichtslose Methoden ärgerten, auf Widerhall.\n\nObwohl er sich heftig wehrte, hatte Ritter zu viele seiner Anhänger verprellt, als dass ihm irgendjemand eine Rettungsleine hätte zuwerfen können, und wurde prompt wegen Hochverrats verhaftet.\n\nUnverzüglich übernahm [MAF.GetLeader] den Statthalterposten. Er war für die gesamte Verwaltung eine wesentlich angenehmere Wahl und versprach, die Ordnung rasch wiederherzustellen."
  mittel.56.desc.pataut: "Das jüngste administrative Versagen von Statthalter Karl Ritter ist der Tropfen, der das Fass zum Überlaufen bringt, denn die ständigen Fehler und Fehlkalkulationen haben ihn mehr denn je in die Isolation getrieben. Vor diesem Hintergrund putschten verärgerte Offiziere der Schutztruppe gegen den Statthalter und verhafteten ihn kurzerhand wegen Hochverrats.\n\nAls Hauptorganisator des Putsches versicherte General [MAF.GetLeader] dem deutschen Kabinett, dass er als neuer amtierender Statthalter die Ordnung im DKAB wiederherstellen und die Ritter-Loyalisten ausrotten würde, was Berlin widerwillig akzeptiert hat."
 
- mittel.67.t: "Stellt die Selbstverwaltung der Briten wieder her"
- mittel.67.d: "Als wir während der britischen Revolution die britischen Gebiete in Afrika beschlagnahmten, taten wir dies unter dem rechtlichen Vorwand, die rechtmäßige Regierung in diesen Gebieten wiederherzustellen. Jetzt, über ein Jahrzehnt später, können wir endlich unser Versprechen erfüllen und den weißen britischen Siedlern in diesen Gebieten Selbstverwaltung gewähren. Dies wird den Vorteil haben, dass wir mit der Royal Veterans Association umgehen, die uns seit langem ein Dorn im unserer Verwaltung ist. Dies wird unsere Verwaltung immer stabiler machen."
- mittel.67.a: "Die rechtsmäßige Regierung wurde wieder hergestellt."
-
  mittel.68.t: "Vergeltung für das Dossier Schwarz"
  mittel.68.d: "Unsere Regierung hat ihre nun souveräne Herrschaft nur mit der Härte ihrer Zähne aufrechterhalten. Bei der Korruptionsuntersuchung hätte [MAF.GetLeader] und viele unserer hohen Beamten den Rest ihres Lebens im Gefängnis verbringen können. Wir haben jetzt die Gelegenheit, uns zu revanchieren. Eine offizielle Vergeltung wäre zwar schwierig, aber wir können unser wachsendes kriminelles Netzwerk, die 'Löwen Gesellschaft', nutzen, um Vergeltung gegen diese Verschwörer zu üben und unsere Herrschaft der Mittelafrika zu stärken."
  mittel.68.a: "Die Rache gehört mir!"
@@ -1001,10 +980,6 @@
  mittel.89.t: "Widerstand in den Fabriken"
  mittel.89.d: "Die Arbeiter in unseren neuen Fabriken sind unzufrieden und beschweren sich über lange Arbeitszeiten, schlechte Sicherheitsstandards, gestohlene Löhne und Gewalt gegen Arbeiter, die sich zu Wort melden. Es wird zu einem Problem in den städtischen Zentren, und einige befürchten, dass es zur Ausbreitung des Syndikalismus führen könnte. Zum Glück bleiben die Arbeiter vorerst unorganisiert."
  mittel.89.a: "Und Gewalt wird sie so halten."
-
- mittel.90.t: "Widerstand gegen die Kriegsindustrie"
- mittel.90.d: "Der Übergang zu einer Kriegswirtschaft hat unsere Kolonialbevölkerung und unsere Armeen an ihre Grenzen gebracht. Sie sind bereit, aber sie sind nicht zufrieden mit den Kriegsbeschränkungen in einer Zeit des Friedens!"
- mittel.90.a: "Komm schon, wo ist euer Patriotismus?"
 
  mittel.95.t: "Mutara III. besucht die Universität Göttingen"
  mittel.95.d: "Prinz Karl Mutara III. von Rudahigwa ist von einem Rundgang durch die Universität Göttingen in Niedersachsen zurückgekehrt. Ihm wurden unsere neuesten Entdeckungen in der Physik gezeigt, er sprach mit den Professoren für afrikanische Sprachen und ihm wurde die Staats- und Universitätsbibliothek Göttingen gezeigt. Das alles machte einen starken Eindruck auf ihn und er hat sein Volk aufgefordert, die Naturwissenschaften Europas zu übernehmen, und die Schaffung einer Bibliothek in Kigali vorgesehen."
@@ -1071,10 +1046,6 @@
  mittel.136.t: "Ein souveräner Staat"
  mittel.136.d: "Nachdem sich [MAF.GetLeader] aus dem Netz der Intrigen befreit hat, die seine Regierung zerstören wollten, steht das Kolonialamt nun geschlossen hinter dem Gouverneur. Zumindest glaubt er das. Unter Berufung auf Carl Schmitt argumentiert er, dass Mittelafrika ein souveräner Staat sein sollte, der von seinem Gouverneur an der Spitze regiert wird."
  mittel.136.a: "Eine interessante Entwicklung."
-
- mittel.166.t: "Mosambik ist gefallen"
- mittel.166.d: "Es scheint, dass sich unsere Bemühungen in Afrika am Ende als wenig mehr als Torheit erwiesen haben, da an allen Fronten Kräfte aus Südafrika und Mittelafrika unsere Kolonien überrannt haben. Mosambik selbst ist in die Hände unserer Feinde gefallen, und jetzt erscheint unsere Position auf dem Kontinent schwächer als je zuvor."
- mittel.166.a: "Eine komplette Katastrophe"
 
  mittel.170.t: "Frieden mit [TZN.GetNameDef]?"
  mittel.170.d: "Wir wurden vom Festland geworfen! Obwohl wir hier sicher sein mögen, sind unsere Chancen, das Land zurückzuerobern, das uns zu Recht gehört, gering. Vielleicht wäre ein Friedensangebot eine kluge Idee ..."
@@ -1245,7 +1216,6 @@
  mittel.20001.t: "Nigeria trennt sich von Mittelafrika"
  mittel.20001.d: "Unter Berufung auf unsere Unfähigkeit, Kamerun zu kontrollieren, behaupten sie, wir könnten sie nicht mehr schützen, und suchen nach ausländischen Mächten, mit denen sie sich verbünden können."
  mittel.20001.a: "Sie haben nicht ganz unrecht."
- mittel.20001.b: "Verfluchte Schurken."
 
  mittel.20002.t: "Die Goldküste schließt sich Nigeria an"
  mittel.20002.d: "Wie ihre Nachbarn hat auch die Goldküstenkolonie unseren Schutz für unzureichend erklärt. Sie schließen sich Nigeria an, um sich eine bessere Zukunft zu sichern."
