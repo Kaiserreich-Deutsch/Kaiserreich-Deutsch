@@ -99,22 +99,14 @@ SRD_gain_cavalry_template: "Gewinnen Sie eine §Y$cavalry$§! Vorlage mit sechs 
 SRD_the_constituent_assembly_tt: "Dieser Schwerpunkt wird mit den §Yersten Wahlen§! nach der §Wiedervereinigung Italiens§! freigegeben werden.\n\nDie Arbeiten der verfassungsgebenden Versammlung werden etwa ein Jahr dauern, danach wird §YRatifizierung der Verfassung§! freigeschaltet werden."
 
 ### Flags ###
-SRD_italian_customs_union_opinion: "Italienische Zollunion"
 SRD_badoglio_government: "§PMarschall Badoglio§! wurde an die Spitze einer Regierung berufen"
 SRD_marras_government: "§aGeneral Marras§! wurde an die Spitze einer Regierung berufen"
 SRD_action_soclib_split: "Die §YSozialistische Arbeiterpartei§! hat sich gebildet"
 SRD_national_centre_exists: "Das §YNationale Zentrum§! hat sich gebilde"
 SRD_constituent_assembly_concluded: "Die §YVerfassungsgebende Versammlung§! hat ihre Arbeit abgeschlossen"
-sardinia_coal_mines_developed: "Jedes italienische Land:\n$has_completed_decision$$SRD_develop_cagliari_coal_mines$§!"
+sardinia_coal_mines_developed: "Jedes italienische Land:\n$has_completed_decision$"
 
 ### Decisions ###
-SRD_political_decisions: "Politische Entscheidungen"
-SRD_political_decisions_desc: "Es gibt viele verschiedene politische Entscheidungen, die wir treffen können, um die Natur des Königreichs zu gestalten."
-SRD_unite_italy: "Vereinigtes Italien"
-SRD_unite_italy_desc: "Italien war während des italienischen Bürgerkriegs geteilt. Doch endlich hat das Haus Savoyen triumphiert und nun haben wir das Land wieder geeint."
-SRD_reclaim_piedmont: "Ordnung im Piemont wiederherstellen"
-SRD_reclaim_piedmont_desc: "Wir müssen Piemont zurückerobern und die gottlosen Syndikalisten innerhalb der Sozialistischen Republik Italien vernichten. Es wird Zeit brauchen, den Syndikalismus zu demontieren, aber zurück auf dem italienischen Festland zu sein, wird für uns mehr als genug sein. Lang lebe der König!"
-SRD_attack_italy: "Angriff [From.GetNameDef]"
 SRD_attack_italy_desc: "Jetzt, da die Sozialistische Republik endgültig zerstört ist, ist es an der Zeit, das Land unter einer einzigen Fahne zu vereinen - der Unseren."
 SRD_invite_into_kingdom: "Laden Sie [From.GetNameDef] in das Königreich ein"
 SRD_invite_into_kingdom_desc: "Es ist inzwischen ziemlich klar, dass wir die stärkste Position auf der italienischen Halbinsel haben. Nachdem die sozialistische Republik nun erledigt ist, ist vielleicht ein friedlicher Weg zur Wiedervereinigung von [Root.GetNameDef] und [From.GetNameDef] möglich."
@@ -594,9 +586,9 @@ srd.45.t: "Aufruf zu einer verfassungsgebenden Versammlung"
 srd.45.d: "Nach der erfolgreichen Wiedervereinigung Italiens ist das alte sardische Parlament plötzlich nicht mehr in der Lage, das gesamte Land zu vertreten. Angesichts der Neueinteilung der Wahlkreise und der vielen neuen Sitze wird der Ruf nach Neuwahlen laut, um über die Zukunft der Nation zu entscheiden. Angesichts der vielen verschiedenen politischen Realitäten, die sich in den letzten zwanzig Jahren herausgebildet haben, ist es klar, dass die gewählten Abgeordneten die Aufgabe haben werden, das alte Statuto Albertino zu überarbeiten und zu ersetzen, eine Aufgabe, die viele eifrige neue Männer bereit sind zu übernehmen."
 srd.45.a: "Il Sol dell'Avvenire...(Die Sonne der Zukunft)"
 
-### Reconstruction ###
-
-SRD_bolstered_military_presence: "Verstärkte Militärpräsenz"
+ srd.46.t: "Wiederherstellung des Königreichs Italien"
+ srd.46.d: "Heute hat König [SRD.GetLeader] verkündet, dass das Königreich Italien wiederhergestellt und vollständig geworden ist. \"Dieses zweite Risorgimento ist unter großen Kosten zustande gekommen\", sagte er vor einer jubelnden Menge in Rom. \"Wir dürfen nie die Opfer vergessen, die uns hierher gebracht haben, und auch nicht die Anstrengungen unserer Verbündeten, die dies möglich gemacht haben... aber wir müssen auch stolz auf das sein, was wir erreicht haben. Wir haben die Schande unserer Niederlage im Ersten Weltkrieg überwunden und sind zurückgekehrt, um unseren rechtmäßigen Platz an der Spitze einer wiederhergestellten Nation einzunehmen. Dies ist ein Sieg für alle Italiener!\"\n\nNatürlich teilen nicht alle Italiener den Enthusiasmus des Königs, aber im Moment scheinen die meisten erleichtert zu sein, dass die Spaltung ihrer Nation der Vergangenheit angehört."
+ srd.46.a: "Die alte Ordnung kehrt zurück, so scheint es."
 
 ### Characters ###
 SRD_amedeo_aosta: "Amedeo I."

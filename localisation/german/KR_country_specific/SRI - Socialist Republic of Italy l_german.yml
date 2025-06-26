@@ -74,17 +74,9 @@
  SRI_chetnik_operations: "Tschetnik Operationen"
  SRI_chetniks_on_the_move: "Tschetniks in Bewegung"
  SRI_leave_an_opening_dec: "Eine Lücke lassen"
- SRI_international_decisions: "Italien in der Internationale"
- SRI_international_decisions_desc: "Die Sozialistische Republik Italien war eines der Gründungsmitglieder der Internationale. Als solches sollten wir die verschiedenen Projekte und Initiativen der anderen Mitglieder der Internationale unterstützen und dazu beitragen."
  SRI_join_the_intl: "Beitritt zur Dritten Internationale"
  SRI_join_the_intl_desc: "Sowohl Deutschland als auch Österreich sind misstrauisch gegenüber einem formellen Bündnis zwischen der Dritten Internationale und [Root.GetNameDef], bei dem französische und britische Streitkräfte zur Unterstützung der Wiedervereinigung Italiens unter syndikalistischer Herrschaft herangezogen werden würden. Sollte sich jedoch eine Großmacht in Italien engagieren oder sollte es erneut zu einem Krieg zwischen [FRA.GetNameDef] und [GER.GetNameDef] kommen, dann ist alles möglich."
- SRI_political_decisions: "Politische Entscheidungen"
- SRI_political_decisions_desc: "Es gibt viele verschiedene Politische Entscheidungen, die wir treffen können, um das Wesen der Republik zu gestalten."
- SRI_begin_the_cultural_revolution: "Beginn der Kulturrevolution"
- SRI_begin_the_cultural_revolution_desc: "Reaktionäre Elemente plagen immer noch unsere Gesellschaft, und wie Ratten, wenn man eine beseitigt hat, scheinen ein Dutzend weitere aus dem Unterholz zu kriechen. Wir müssen versuchen, sie mit einem Schlag vollständig zu beseitigen."
- SRI_unite_italia: "Italien vereinen"
  SRI_unite_italia_desc: "Italien war während des italienischen Bürgerkriegs geteilt. Doch endlich hat die Sozialistische Republik Italien gesiegt, und jetzt haben wir das Land wieder geeint."
- SRI_attack_italy: "Angriff [From.GetNameDef]"
  SRI_attack_italy_desc: "Die Zeit ist gekommen, das Risorgimento zu vollenden - wir müssen die Arbeiter von [From.GetNameDef] befreien und sie in die Sozialistische Republik eingliedern."
  SRI_rally_supporters: "Kundgebungs-Unterstützung innerhalb [ITA.GetNameDef]"
  SRI_rally_supporters_desc: "Es gibt ein Netzwerk von Syndikalisten innerhalb von [ITA.GetNameDef], die sich erheben würden, wenn man sie ruft. Sie arbeiten seit dem Bürgerkrieg daran, und auch wenn ihre Kräfte letztlich nicht den Ausschlag zu unseren Gunsten geben werden, können wir jede Hilfe gebrauchen, die uns zur Verfügung steht."
@@ -110,14 +102,10 @@
 ### Flags ###
  SRI_1936_elections_held: "Abhaltung der §Y1936-Wahlen§!"
  SRI_italy_unified_flag: "Italien ist geeint"
- SRI_pisa_pile_1: "Enrico Fermi hat mit seinen Atomexperimenten begonnen"
- SRI_cannot_call_italy: "Kann Verbündete nicht in einen Krieg für Italien rufen, solange der Zweite Weltkrieg nicht begonnen hat"
- SRI_cannot_join_italy: "[SRI.GetNameDefCap] kann einer Fraktion erst beitreten, wenn der Zweite Weltkrieg begonnen hat oder das Gleichgewicht in Italien gestört ist"
  SRI_balance_broken: "§YJedes Italien§!: Hat nicht den Nationalgeist §Y$italy_balance_idea$§!"
  SRI_balance_broken_NOT: "§YJedes Italien§!: Hat Nationalgeist §Y$italy_balance_idea$§!"
  SRI_balance_explanation: "§Y[SRI.GetNameDefCap]§! wird nicht in der Lage sein, der Dritten Internationale beizutreten, obwohl sie Freiwillige und andere begrenzte Unterstützung von ihnen erhalten kann, vorausgesetzt, das Gleichgewicht wird nicht durch eine andere Großmacht gestört, die in der Region interveniert.\n\n"
  SRI_balance_will_be_broken: "Diese Aktion wird das Gleichgewicht in Italien zerstören - §Y[SRI.GetNameDef]§! wird in der Lage sein, ohne Angst vor Intervention der Dritten Internationale beizutreten!\n\n"
- AUS_balance_will_be_broken: "Diese Aktion wird das Gleichgewicht in Italien zerstören - andere italienische Staaten werden sich Fraktionen anschließen und ihre Verbündeten gegen uns aufbieten können, ohne ein Eingreifen befürchten zu müssen!\n\n"
  SRI_germany_may_intervene: "§Y[GER.GetNameDefCap]§! wird durch diese Aktion alarmiert und könnte sich entscheiden, in den Krieg gegen uns einzugreifen!"
 
 ### MIO ###
@@ -170,7 +158,6 @@
  SRI_constitutional_restoration_elections_tt: "In einem Monat finden die neuen §GWahlen§! statt."
  SRI_focus_effects_depend_on_pope: "Die §YAuswirkungen dieses Schwerpunkts§! ändern sich je nach dem §caktuellen Papst§!"
  socitaly.4.a.tt: "Die §Samtierende Partei§! zum Zeitpunkt der §Yersten Nachkriegswahlen§! bestimmt den §Ypolitischen Weg nach dem Krieg§!.\n\n"
- SRI_owned_or_puppet: "ist entweder Eigentum von §Y[Root.GetName]§! oder einer Marionette\n"
  SRI_expand_police_operations_tt: "§Erhöht§! die Wahrscheinlichkeit, dass der §Ynächste FMC-Anschlag verhindert§! und seine Organisatoren verhaftet werden."
  SRI_expand_police_operations_opposite_tt: "§Reduziert§! die Wahrscheinlichkeit, dass der §Ynächste FMC-Angriff verhindert wird§!."
  SRI_fmc_idea_still_here_tt: "§RWährend ihre Operationen scheinbar eingestellt wurden, streifen die FMC-Einheiten immer noch durch die Lande und warten auf Anweisungen der royalistischen Regierung.§!"
@@ -652,6 +639,7 @@ SRI_seven_points_manifesto_desc: "Wir werden den Prozess der Umsetzung des Siebe
 
  socitaly.4.t: "Der neue Kompromiss"
  socitaly.4.d: "Am Ende trat Giulietti trotz seiner bis 1938 andauernden Amtszeit von der Präsidentschaft zurück. Dies trug wesentlich zur Wiederaufnahme der Verhandlungen bei; Mussolini stellte sich als ein Mann dar, der einfach nur seine patriotische Pflicht erfüllte, indem er 1934 das \"Kabinett des Präsidenten\" anführte; obwohl dies bei den parlamentarischen Aktionisten keine Sympathien weckte, reichte es aus, um die Gewerkschaften dazu zu bringen, seine Bewerbung um das Präsidentenamt zu unterstützen - vor allem, als er versprach, im Falle seiner Wahl den gewerkschaftsnahen Angelo Tasca zum Premierminister zu ernennen. Und er wurde gewählt: Seine erste Amtshandlung als Präsident war natürlich die Ernennung einer neuen Tasca-Regierung.\n\n Das bedeutet nicht, dass die Stabilität zurückgekehrt ist; weit gefehlt. Die Verliebtheit der Gewerkschaften in Mussolini als Mann der Stunde war schnell verflogen, als klar wurde, dass Mussolini die Präsidentschaft noch aggressiver durchsetzte. Es scheint nun eine Art Tauziehen zwischen Mussolini und der Gewerkschaftsführung zu geben, die versuchen, die Macht des jeweils anderen zu brechen; in der Mitte stehen die Aktionisten, die nun hoffen, zwischen die beiden Seiten zu schlüpfen und die parlamentarischen Befugnisse wiederherzustellen, während sich die beiden Giganten der italienischen Politik gegenseitig verstümmeln.\n\nSolange die Revolution noch nicht vollendet ist, wird eine Fassade der Einheit aufrechterhalten; aber sobald die Halbinsel ihre Revolution hinter sich hat, wird sich der Rauch lichten und jemand wird aus der Asche aufsteigen, um ein neues Italien aufzubauen."
+ socitaly.4.a: "Die Zukunft Italiens wird von hier aus aufgebaut."
 
  socitaly.5.t: "Die neue parlamentarische Regierung"
  socitaly.5.d: "Der Konflikt zwischen den Gewerkschaften und der Präsidentschaft forderte auf beiden Seiten einen hohen Tribut, und es scheint, dass keine der beiden Parteien mehr stark genug ist, um eine Regierung zu tragen. Die einzige Option für eine funktionsfähige Exekutive waren die Aktionisten, und trotz des großen gegenseitigen Misstrauens zwischen Rosselli und Mussolini, der ständigen Angriffe der Faschisten und der Kritik der Gewerkschaften war der Präsident schließlich gezwungen, Rosselli zum Ministerpräsidenten zu ernennen. Es bleibt abzuwarten, wie lange eine solche Exekutive, die sich eher aus dem Fehlen einer geeinten Opposition als aus einer tatsächlichen Mehrheit ergibt, Bestand haben kann."
@@ -790,14 +778,6 @@ SRI_seven_points_manifesto_desc: "Wir werden den Prozess der Umsetzung des Siebe
  socitaly.50.d: "Seine Heiligkeit hat sich im Vatikan eingeschlossen, wie es frühere Päpste zu Zeiten des Königreichs Italien getan haben. Er weigert sich, anzuerkennen, dass [SRI.GetNameDef] Italien regiert. Solange er jedoch im Vatikan eingeschlossen ist, kann er nichts anderes tun, als Lärm zu machen."
  socitaly.50.a: "Der Papst! Wie viele Divisionen hat er?"
 
- socitaly.51.t: "Beginn des päpstlichen Konklaves"
- socitaly.51.d: "Das päpstliche Konklave hat begonnen! Der Heilige Stuhl wird zusammenkommen und einen neuen Papst wählen, der den Sozialismus unterstützen wird. Es mag einige Zeit dauern, aber sie werden schließlich einen neuen Papst wählen, der seinen Teil dazu beitragen wird, die Gläubigen von ihren Ketten zu befreien."
- socitaly.51.a: "Sie sollen richtig wählen!"
-
- socitaly.52.t: "Ein neuer Papst"
- socitaly.52.d: "Nach tagelangen Debatten hat das Konklave Achille Liènart als Johannes XXIII. gewählt."
- socitaly.52.a: "Evviva!"
-
  socitaly.53.t: "Den Papst ins Exil schicken"
  socitaly.53.d: "Wir haben beschlossen, dass der Papst keinen Platz in unserer Gesellschaft hat und ins Exil geschickt werden soll. Wohin er geht, ist uns egal, aber er soll nicht länger in Italien bleiben!"
  socitaly.53.a: "Raus mit euch!"
@@ -931,11 +911,6 @@ SRI_seven_points_manifesto_desc: "Wir werden den Prozess der Umsetzung des Siebe
  socitaly.109.d: "Cinecittà hat den epischen Film Spartacus veröffentlicht. Der Film, der die Geschichte des antiken römischen Sklavenanführers Spartacus erzählt, ist in jeder Hinsicht ein Epos mit tausenden von Darstellern. Mit Gino Cervi in der Hauptrolle des Spartacus und unter der Regie von Carmine Gallone ist der Film bereits ein Erfolg, sowohl bei den Kritikern als auch beim breiten Publikum."
  socitaly.109.a: "Ich bin Spartacus!"
 
- socitaly.110.t: "Genossin Ines Donati"
- socitaly.110.d.ines_elected: "Ines Donati, eine starke Befürworterin der Politik von Mussolini und Bianchi, wurde soeben in den Rang eines Generals der Roten Garde gewählt. Sie hat bewiesen, dass sie bei den Soldaten, sowohl bei den Männern als auch bei den Frauen, sehr beliebt ist, und sie wird ein Leuchtfeuer für alle unsere Soldatinnen sein, die ihr folgen werden."
- socitaly.110.d.ines_promoted: "Ines Donati, eine entschiedene Befürworterin der Politik von Mussolini und Bianchi, wurde soeben in der Roten Armee befördert. Sie hat bewiesen, dass sie bei den Soldaten, sowohl bei den Männern als auch bei den Frauen, sehr beliebt ist, und sie wird ein Leuchtfeuer für alle unsere Soldatinnen sein, die ihr folgen werden."
- socitaly.110.a: "Gratulation, Genosse Donati!"
-
  socitaly.126.t: "Syndikalistische Partisanen erheben sich"
  socitaly.126.d: "Wir hatten schon immer den Verdacht, dass es ein Untergrundnetzwerk von Syndikalisten gibt, das sich auf den Tag vorbereitet, an dem wir und [SRI.GetNameDef] in den Krieg ziehen. Ihre Zahl ist nicht überwältigend, aber ihr Auftauchen hinter unseren Linien ist unerwartet, und sie haben im ganzen Land ziemlich viel Unruhe verursacht."
  socitaly.126.a: "Es wird nichts ändern"
@@ -953,8 +928,6 @@ SRI_seven_points_manifesto_desc: "Wir werden den Prozess der Umsetzung des Siebe
 
  socitaly.129.t: "Der [From.GetAdjective]-Antrag"
  socitaly.129.d: "Jetzt, da das so genannte 'Gleichgewicht' in Italien nicht mehr gewährleistet ist, hat [From.GetNameDef] einen formellen Antrag auf Beitritt zur Dritten Internationale gestellt."
- socitaly.129.a: "Endlich!"
- socitaly.129.b: "Wenn ich es mir recht überlege, nein..."
 
  ### REVAMP FLAVOUR ###
  
@@ -1022,6 +995,17 @@ SRI_seven_points_manifesto_desc: "Wir werden den Prozess der Umsetzung des Siebe
  socitaly.200.t: "Die Beförderung von Leonilde Iotti"
  socitaly.200.d: "Es scheint, dass sich unsere Politik der Gleichberechtigung der Frau schnell auszahlt, denn neue, junge Rekruten dringen in die höchsten Ränge der Roten Armee vor.\n\nDie jüngste Beförderung ist die der blutjungen Leonilde oder Nilde Iotti. Die ehemalige Lehrerin und Tochter eines Gewerkschafters schloss sich im Alter von knapp 20 Jahren dem revolutionären Kampf an. Schnell wurde sie von einer unterstützenden Rolle zur Teilnahme an aktiven Kampfeinsätzen befähigt und stieg in den Rängen der GDI auf.\n\nMit dem heutigen Tag ist Iotti trotz ihres noch sehr jungen Alters faktisch zur Anführerin der Organisation geworden, ein Beweis für ihren revolutionären Mut. Der Präsident [SRI.GetLeader] hat daher beschlossen, ihre Position formell anzuerkennen und ihr einen Auftrag zu erteilen, was sie zum am schnellsten aufsteigenden Offizier in der Geschichte Italiens macht."
  socitaly.200.a: "Ein dreifaches Hurra für die Frauen Italiens!"
+
+ socitaly.201.t: "Zweites Risorgimento vollendet"
+ socitaly.201.d: "Heute verkündete der Vorsitzende von [SRI.GetNameDef], [SRI.GetLeader], dass das zweite Risorgimento Italiens endlich vollendet sei. \"Seit dem Bürgerkrieg haben wir von einem Italien geträumt, das nicht nur ganz, sondern wirklich frei ist\", sagte er zu einer jubelnden Menge in Rom. \"Jetzt ist dieser Traum Wirklichkeit geworden. Italien ist von seinen ausländischen Herren, seinen kapitalistischen Herren, seinen Königen und Aristokraten befreit worden... jetzt gehört es zum ersten Mal wirklich dem italienischen Volk!\"\n\nDie syndikalistischen Kräfte haben sich in den Teilen des Landes ausgebreitet, die einst dem Widerstand gegen die syndikalistische Kontrolle gewidmet waren, und es ist ungewiss, ob [SRI.GetNameDef] jemals wirklich die von der Regierung versprochene Stabilität erlangen wird."
+ socitaly.201.a: "Gut gemacht!"
+ socitaly.201.b: "Ein vereintes, syndikalistisches Italien? Gnade!"
+
+ socitaly.202.t: "Wiederaufnahme des Italienischen Bürgerkriegs"
+ socitaly.202.d.srioffensive: "Seit dem Waffenstillstand, der den Italienischen Bürgerkrieg vor zwanzig Jahren beendete, herrschte in Italien ein unruhiger Frieden. Doch nach dem Schwarzen Montag und dem Abzug der österreichischen Truppen von der italienischen Halbinsel glaubten nur wenige, dass der Frieden noch lange anhalten würde.\n\nNach dem Anstieg der Spannungen in der ganzen Welt hat die Sozialistische Republik Italien die Initiative ergriffen und dem gegnerischen italienischen Regime den Krieg erklärt, es als \"künstlichen Staat, der von imperialistischen Mächten gestützt wird\", bezeichnet und geschworen, die Vereinigung Italiens zu vollenden. Freiwillige und Nachschub aus den großen Machtblöcken der Welt strömen herbei, in der Hoffnung, die italienische Halbinsel in ihrer Einflusssphäre zu sichern, da der schlafende Bürgerkrieg des Landes wieder aufgeflammt ist."
+ socitaly.202.d.sridefensive: "Seit dem Waffenstillstand, der den italienischen Bürgerkrieg vor zwanzig Jahren beendete, herrscht in Italien ein unruhiger Frieden. Doch nach dem Schwarzen Montag und dem Abzug der österreichischen Truppen von der italienischen Halbinsel glaubten nur wenige, dass der Frieden noch lange anhalten würde.\n\nZur Überraschung internationaler Beobachter haben die antisyndikalistischen Regime in Italien die Initiative ergriffen und [SRI.GetNameDef] den Krieg erklärt, sie als von Paris aus gesteuerten Marionettenstaat bezeichnet und geschworen, die Einigung Italiens zu vollenden. Freiwillige und Nachschub aus den großen Machtblöcken der Welt strömen herbei, in der Hoffnung, die italienische Halbinsel in ihrem Einflussbereich zu sichern, da der schlafende Bürgerkrieg des Landes wieder aufgeflammt ist."
+ socitaly.202.a: "Wird Italien jemals Frieden finden?"
+ socitaly.202.b: "Wir werden siegen!"
 
 ### Characters ###
  SRI_benito_mussolini: "Benito Mussolini"
@@ -1110,6 +1094,7 @@ SRI_seven_points_manifesto_desc: "Wir werden den Prozess der Umsetzung des Siebe
  SRI_filippo_marinetti_advisor_desc: "§YGeboren:§! §L22. Dezember 1876, in Alexandria, Gouvernement Alexandria, Khedivat von Ägypten§!"
  SRI_ettore_muti: "Ettore Muti"
  SRI_ettore_muti_advisor_desc: "§YGeboren:§! §L22. Mai 1902, in Ravenna, Königreich Italien§!"
+ SRI_ragazzi_di_via_panisperna: "Ragazzi di Via Panisperna (Jungen der Via Panisperna)"
 
  SRI_ilio_baroni: "Ilio Baroni"
  SRI_ilio_baroni_advisor_desc: "§YGeboren:§! §L25. Mai 1902, in Massa Marittima, Grosseto, Königreich Italien§!"
@@ -1187,6 +1172,7 @@ SRI_seven_points_manifesto_desc: "Wir werden den Prozess der Umsetzung des Siebe
  SRI_enrico_fermi_theorist_desc: "§YGeboren:§! §L29. September 1901, in Rom, Königreich Italien§!"
  SRI_gaetano_crocco: "Gaetano Crocco"
  SRI_gaetano_crocco_theorist_desc: "§YGeboren:§! §L26. Oktober 1877, in Neapel, Königreich Italien§!"
+ SRI_nello_carrara: "Nello Carrara"
 
  # Traits
  SRI_il_duce: "Il Duce (Der Duce)"

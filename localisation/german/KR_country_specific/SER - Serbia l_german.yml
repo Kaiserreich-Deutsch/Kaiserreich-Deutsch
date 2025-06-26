@@ -43,7 +43,7 @@
  SER_sarez_breakaway_party: "NRS-P"
  SER_sarez_breakaway_party_long: "Narodna radikalna stranka-pravaši (Radikale Partei des Wahren Volkes)\n§LMit der Konsolidierung der Macht von Stojadinović haben einige gemäßigte Mitglieder der ursprünglichen Radikalen Partei beschlossen, sich von der Sarez abzuspalten. Indem sie die Gründung einer "wahren" Radikalen Partei verkündeten, können sie nichts anderes tun, als ihre Rolle beim Ende der serbischen Demokratie zu bedauern und auf bessere Zeiten zu warten.§!\n"
  SER_national_consolidation_party: "SONU"
- SER_national_consolidation_party_long: "Srpski odbor za narodno ujedinjenje (Serbisches Komitee für nationale Einigung)\n§Mit der überwältigenden Mehrheit des Sarez im Rücken und dem Ausbruch des Krieges mit den Feinden Serbiens ist es Präsident Stojadinović gelungen, die meisten Fraktionen in der Skupština dazu zu bringen, einer Regierung der nationalen Einheit zuzustimmen, wobei die Wahlen ausgesetzt werden, "bis die Südslawen vereint sind". Die serbische Demokratie steht auf Messers Schneide, und ihre Zukunft liegt ganz in den Händen des Präsidenten.§!\n"
+ SER_national_consolidation_party_long: "Srpski odbor za narodno ujedinjenje (Serbisches Komitee für nationale Einigung)\n§LMit der überwältigenden Mehrheit des Sarez im Rücken und dem Ausbruch des Krieges mit den Feinden Serbiens ist es Präsident Stojadinović gelungen, die meisten Fraktionen in der Skupština dazu zu bringen, einer Regierung der nationalen Einheit zuzustimmen, wobei die Wahlen ausgesetzt werden, "bis die Südslawen vereint sind". Die serbische Demokratie steht auf Messers Schneide, und ihre Zukunft liegt ganz in den Händen des Präsidenten.§!\n"
  SER_royal_paternal_autocrat_party: "SRSD"
  SER_royal_paternal_autocrat_party_long: "Srpska radikalna seljačka demokratija (Serbische radikale Bauerndemokratie)\n§LNach dem erfolgreichen royalistischen Staatsstreich von 1936 hat Premierminister Petar Živković das Verbot aller politischen Parteien und die Gründung der SRSD veranlasst, die als unterstützende und legitimierende Kraft für die Institution der Monarchie fungieren soll, ähnlich wie die DSDS während der Diktatur von Aleksandar II agierte. Die SRSD ist stark nationalistisch, zentralistisch und säkularistisch ausgerichtet und vertritt auch eine ausgeprägte jugoslawistische Rhetorik.§!\n"
  SER_national_populist_party_puppet: "Militärjunta"
@@ -138,7 +138,9 @@
 
  SER_konspiracija_dynamic_modifier: "£pol_idea Die Konspiracija(Verschwörungstheorie)"
  SER_konspiracija_idea: "Die Konspiracija(Verschwörungstheorie)"
- SER_konspiracija_idea_desc: "Die Konspiracija hat die republikanische Revolution von 1925 inszeniert und hält sich daher für berechtigt, die Außenpolitik des Landes zu diktieren - sie will den serbischen Irredentismus und die Zerstörung Bulgariens betreiben. Dieser "Geheimgesellschaft" Boden zu überlassen, kann uns mächtige Vorteile verschaffen, aber es ist ein faustischer Handel... \n§W--------------\n$MODIFIER_POLITICAL_POWER_FACTOR$: [?var_KONS_influence|=%+0]"
+ SER_konspiracija_idea_desc: "Die Konspiracija hat die republikanische Revolution von 1925 inszeniert und hält sich daher für berechtigt, die Außenpolitik des Landes zu diktieren - sie will den serbischen Irredentismus und die Zerstörung Bulgariens betreiben. Dieser "Geheimgesellschaft" Boden zu überlassen, kann uns mächtige Vorteile verschaffen, aber es ist ein faustischer Handel..."
+ SER_konspiracija_modifier_tooltip: "$MODIFIER_POLITICAL_POWER_FACTOR$: [?var_KONS_influence|=%+0]"
+ SER_konspiracija_modifier_dummy_tooltip: "$MODIFIER_POLITICAL_POWER_FACTOR$: [?-0.11|=%+0]"
 
  SER_puppet_show: "Tanz des Marionettentheaters"
 
@@ -404,7 +406,6 @@
  SER_acquire_firearms: "Vertragshersteller für Gewehre"
  SER_reduce_war_scars: "Service Propaganda"
  SER_acquire_artillery: "Geheime Artilleriekäufe"
- SER_acquire_convoys: "Zivile Schiffe rekrutierten"
  SER_acquire_support_eq: "Unterstützungsausrüstung ausheben"
  SER_acquire_tanks: "Geheimer Kauf Leichter Panzer"
  SER_acquire_aircraft: "Geheime Jäger-Umbauten"
@@ -558,11 +559,11 @@
  SER_IMRO_spend_double_agent: "Einen Doppelagenten einsetzen"
  SER_IMRO_has_spent_less_than_three_double_agents_tt: "Wir haben noch Doppelagenten in der IMRO"
  SER_IMRO_spend_double_agent_tt: "Einer unserer tapferen Infiltratoren innerhalb der IMRO wird sich für das Land opfern und ihre Bemühungen sabotieren, was uns §Yeinen automatischen Sieg in dieser Runde beschert§!.\n\nDiese Entscheidung kann nur §Ydreimal§! getroffen werden. Sie wurde bereits §Y[?SER_spent_double_agents]§! mal getroffen"
+ SER_IMRO_action_time: "§YSerbischen§! Kräften wird erlaubt, nach §YMazedonien§! vorzustoßen.\n§RIMRO§!-Kräfte werden ihren Vormarsch in Richtung §YSkopje§! beginnen."
 
  SER_macedonian_peace: "Integration von Mazedonien"
  SER_macedonian_peace_desc: "Südserbien war unsere Beute aus dem Krieg mit Bulgarien - und die Tausende von Serben, die im Süden leben, werden, auch wenn sie sich weigern, ihren neuen Namen anzunehmen, in ihr Heimatland integriert werden. Dies soll das Sprungbrett für die Schaffung einer größeren serbischen Nation oder sogar einer Union der Südslawen sein - natürlich nur, wenn wir nicht auf unerwarteten Widerstand stoßen..."
  SER_macedonian_peace_available_tt: "Die Zeit ist reif."
- SER_macedonian_peace_tt: "Solange in Südserbien keine §YUnerwünschten Ereignisse§! stattfinden, wird es in unsere Nation integriert.\nNeue Schwerpunkte werden freigeschaltet."
  SER_macedonian_rebellion: "Mazedonien in Flammen"
  SER_macedonian_rebellion_desc: "Die Bevölkerung Südserbiens will ihre Befreier nicht bereitwillig akzeptieren. Die IMRO ist wieder auferstanden und wird nicht ruhen, bis wir aus dem Vardar-Tal vertrieben sind. Um ihre Vernichtung zu gewährleisten, müssen uns alle möglichen Mittel zur Verfügung gestellt werden."
  SER_lure_strategy: "Ihre Truppen anlocken"
@@ -783,7 +784,6 @@
 
  SER_The_Road_To_Unification_decisions: "Der Weg zur Einheit"
  SER_The_Road_To_Unification_decisions_desc: "Vergeblich droht der Abgrund der Hölle! Vergebens das Feuer des Donners!\nLasst den Stein krachen, die Eiche brechen, lasst die Erde beben!\nDort lebt der slawische Geist, und er wird ewig leben!\n\n§Y Diese Entscheidungskategorie wird mit Invasions- und Entkernungsentscheidungen aktualisiert, wenn sich der Weg zur Vereinigung weiterentwickelt.§!"
- SER_Ultimatum_To_Bulgaria: "Ultimatum an [BUL.GetNameDef]"
  SER_Attack_Austria: "Angriff [AUS.GetNameDef]"
  SER_has_stabilized_macedonia_tt: "Unsere Kontrolle über Mazedonien wurde konsolidiert"
  SER_Form_Yugoslavia: "Jugoslawien bilden"
@@ -807,25 +807,17 @@
 
 ### Tooltips ###
  SER_founded_belgradepact: "Gründung des Belgrader Paktes"
- joined_belgradepact: "Beitritt zum Belgrader Pakt"
  balkan_war_started: "Der vierte Balkankrieg hat begonnen"
 
  SER_will_declare_war_tooltip: "§RAlle Mitglieder des Belgrader Paktes werden uns innerhalb eines Monats den Krieg erklären!§!"
  SER_will_declare_war_allies_tooltip: "§RSerbien wird Österreich innerhalb von zwei Wochen den Krieg erklären, und wir werden aufgefordert werden, das Gleiche zu tun.§!"
 
- SER_Encourage_Yugoslavism_tooltip: "Verringert die Kosten von §HIntegration§!-Entscheidungen."
  SER_Serbian_Mountain_Corps_tooltip: "£nato_unit_mountaineers_icon_small Aufstellen von vier §YGebirgsabteilungen§! mit 5 Bataillonen §YGebirgsinfanterie§!."
  SER_reserve_divisions_tooltip: "£nato_unit_infantry_icon_small Aufstellen von drei §YReserve-Infanteriedivisionen§! mit 8 Bataillonen §YInfanterie§!"
- SER_Local_Designs_tooltip: "Schaltet die Flugzeugkonstrukteure frei: §HAeroput§!, §HRogozarski§! und §HIkarus§!."
  SER_The_Serbian_Airforce_tooltip_RUS: "Ersetzen §H$SER_russian_aerial_expertise$§! und §H$SER_local_designs_idea$§! mit §H$SER_airforce_idea$§!\nEffektive Änderung:\n$MODIFIER_INTERCEPTION_ATTACK_FACTOR$: [?0.1|+=%]\n$MODIFIER_INTERCEPTION_DEFENCE_FACTOR$: [?0.1|+=%]\n$MODIFIER_INTERCEPTION_AGILITY_FACTOR$: [?0.1|+=%]"
  SER_The_Serbian_Airforce_tooltip_NFA: "Ersetzen §H$SER_french_aerial_expertise$§! und §H$SER_local_designs_idea$§! mit §H$SER_airforce_idea$§!\nEffektive Änderung:\n$MODIFIER_INTERCEPTION_ATTACK_FACTOR$: [?0.1|+=%]\n$MODIFIER_INTERCEPTION_DEFENCE_FACTOR$: [?0.1|+=%]\n$MODIFIER_INTERCEPTION_AGILITY_FACTOR$: [?0.1|+=%]"
 
- SER_the_dream_of_yugoslavia_tooltip: "Gewinnts National Geist §H$SER_the_dream_of_yugoslavia$§, welche gewährt\nDivision Limit: [?8|+=0]\n§H[AUS.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n§H[CRO.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n§H[HUN.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]"
- SER_the_dream_of_yugoslavia_tooltip_no_AUS: "Gewinnts National Geist §H$SER_the_dream_of_yugoslavia$§!, welche gewährt\nDivision Limit: [?8|+=0]\n§H[CRO.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n§H[HUN.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]"
-
  SER_has_reduced_black_monday: "Hat die Auswirkungen des nationalen Geistes §H$SER_black_monday$§ verringert!"
-
- SER_accepted_bulgaria_union: "Wir akzeptierten den bulgarischen Vorschlag zur jugoslawischen Union"
 
  SER_check_decision_tooltip: "Informieren Sie sich auf der Registerkarte §YEntscheidung§! über die Wahlmechanismen und die aktuelle Situation."
 
@@ -839,12 +831,6 @@
 
  SER_petar_new_trait_tt: "§YPetar II§! erhält eine Eigenschaft, sollte dieser Schwerpunkt abgeschlossen werden, bevor er das Erwachsenenalter erreicht."
  SER_The_Belgrade_Salonica_Railway_can_complete_tt: "Erfüllt die Anforderungen für den Nationalen Schwerpunkt §Die Eisenbahn Belgrad-Saloniki§!"
-
- SER_has_republic_tt: "Serbia is a non-socialist Republic"
-
- SER_bulgaria_integration_tooltip: "Nicht integrierte bulgarische Staaten"
-
- SER_in_faction: "ist ein unabhängiges Mitglied einer Fraktion"
 
  SER_loses_stambo_ally: "§RDie Wiedereinführung der Monarchie wird von unseren republikanischen, jugoslawischen Verbündeten in Bulgarien nicht gern gesehen werden§!"
 
@@ -1574,8 +1560,6 @@
  SER_YUG_balkans_guiding_light: "Leuchtfeuer des Balkans"
  SER_YUG_balkans_guiding_light_desc: "Gemeinsam haben wir in Jugoslawien eine Flamme der Demokratie entzündet, die die Jahrhunderte nicht auslöschen werden! Und das gibt uns die Pflicht, den Rest des Balkans mit dieser Flamme zu erleuchten. Alle Kodreaner, Totalisten oder Absolutisten müssen beim Anblick unserer Befreiungsarmeen erzittern!"
  SER_YUG_balkans_guiding_light_tt: "Schaltet £decision_icon_small §YEntscheidung§! frei, um §YSozialistische§!, §YNationale Populisten§! oder §YVäterliche Autokraten§! Staaten auf dem Balkan zu stürzen."
- reichspakt_won_wk2: "Der Reichspakt hat den Zweiten Weltkrieg gewonnen."
- internationale_won_wk2: "Die Internationale hat den Zweiten Weltkrieg gewonnen."
 
  SER_YUG_invite_foreign_experts: "Ausländische Experten einladen"
  SER_YUG_invite_foreign_experts_desc: "Indem wir uns mit den großen Machtblöcken der Welt verbünden, können wir viel leichter Experten und Fachleute importieren, die die jugoslawische Industrie und Armeedoktrin auf den Weltstandard bringen. Mit dieser Unterstützung können wir zu einer eigenständigen Regionalmacht werden."
@@ -2062,7 +2046,6 @@
  serbia.62.t: "Die Revolution"
  serbia.62.d: "Mit der Unterstützung tausender Bürger auf der Straße und der absoluten Loyalität der Partei, der Nation und der Armee diktiert Präsident Trifun Kaclerović der schweigenden und gelähmten Skupština langsam den letzten Schritt der Revolution. Bedrängt von den Reaktionären, die die Demokratie auslöschen und die Monarchie wiederherstellen wollen, bleibt ihm nichts anderes übrig, als den Ausnahmezustand auszurufen und den Staat von Grund auf umzugestalten, damit die Interessen des Volkes für immer gewahrt bleiben. In Belgrad, Niš, Podgorica und anderen Städten haben die Volksmilizen die Macht von den lokalen Behörden übernommen und richten alle, die sie als Feinde des Volkes betrachten. Die Armee, die durch Säuberungen gelähmt war und an Einfluss verlor, hatte kaum die Möglichkeit, den Aufstand zu stoppen, und eine nach der anderen wurde ihre Führung wegen realer oder imaginärer Anschuldigungen verhaftet.\n\nInmitten der brennenden revolutionären Flamme wurde die Sozialistische Republik Serbien ausgerufen - und die Sozialistische Arbeiterpartei als deren einzige legale Partei."
  serbia.62.a: "Tod den Kodreanern und der Bourgeoisie!"
- SER_several_generals_shot_tt: "Die blutrünstigen Verschwörergeneräle werden §RHingerichtet§!!"
 
  serbia.63.t: "Zusammenbruch der Sozialistischen Arbeiterpartei"
  serbia.63.d: "Die Sozialistische Arbeiterpartei wurde mit dem Versprechen wahrhaft umwälzender Reformen gewählt - ein Weg des revolutionären Sozialismus, der zumindest eine Zeit lang einen großen Teil der Bevölkerung überzeugte. Seitdem ist jedoch ein Jahr vergangen, und es wurde bisher nur wenig erreicht. Zwar wurden einige Errungenschaften in die Tat umgesetzt, doch das mangelnde Vorgehen gegen die Feinde der Arbeiter hat einen großen radikalen Flügel der Partei verprellt.\n\nIn der Überzeugung, dass die SRP die Sache des Sozialismus verraten hat und zu einer Partei der Klassenkollaboration geworden ist, anstatt für eine Arbeiterrevolution zu kämpfen, hat sich dieser Flügel abgespalten und den Zerfall der Partei in mehrere Bewegungen eingeleitet. Präsident Trifun Kaclerović befehligt nur noch die Gemäßigten der Partei in der Skupština, und obwohl sie sich jetzt mit den gemäßigten Sozialisten zusammengeschlossen haben, verfügen sie nicht mehr über eine Mehrheit in der Legislative und werden kaum noch in der Lage sein, eine Mehrheit für ihre Pläne zu finden. Die Chancen stehen gut, dass die Wähler den Sozialisten auch bei der nächsten Wahl nicht wohlgesonnen sein werden..."
@@ -2439,6 +2422,15 @@
  serflavor.40.f: "Er soll Albert heißen, nach seinem Taufpaten."
  serflavor.40.g: "Er soll Dušan heißen, zu Ehren unserer Nemanjischen Vorfahren."
 
+ serflavor.41.t: "Königlicher Putsch in Serbien"
+ serflavor.41.d: "Die 1926 ausgerufene serbische Republik erwies sich als kurzlebig, da Unruhen und sozialistische Agitation nach den Wahlen von 1936 Elemente der Armee, die dem Haus Karađorđević treu ergeben waren, dazu brachten, einen Putsch zu organisieren.\n\nUnter der Führung des als Weiße Hand bekannten militärischen Geheimbundes, der von Petar Živković befehligt wird, hat die Armee die Sozialistische Arbeiterpartei gestürzt und die Wiederherstellung des Königreichs Serbien ausgerufen. Es bleibt abzuwarten, welche Regierungsform unter der folgenden Regentschaft gebildet werden wird, aber die Republik scheint endgültig ausgelöscht zu sein."
+ serflavor.41.a: "Das war unvermeidlich."
+ serflavor.41.b: "Wir sehen uns wieder, Erben von Karađorđe..."
+
+ serflavor.42.t: "Serbien gründet Jugoslawien"
+ serflavor.42.d: "Der wiedererstarkte Serbische Staat hat überwältigende Siege gegen das bulgarische und das österreichische Kaiserreich errungen. Heute wurde in Belgrad ein neuer Staat der Südslawen ausgerufen, in dem Serben, Kroaten und Slowenen formell zu einem einzigen Staat vereint sind. Das Konzept für diesen Staat ist seit geraumer Zeit als \"Jugoslawien\" bekannt, und es wird erwartet, dass dieser Name de facto zum Namen des neuen Staates wird.\n\nDie Nation Illyrien war ein früherer Versuch, eine solche Nation zu schaffen, allerdings unter kroatischer Führung. Es bleibt abzuwarten, wie lebensfähig Jugoslawien als Staat ist."
+ serflavor.42.a: "Hoffen wir, dass dies den Frieden auf dem Balkan bringen wird."
+
  yugmechanics.1.t: "Kroatien rebelliert!"
  yugmechanics.1.d: "Unsere Beziehungen zur kroatischen Bevölkerung haben sich so weit verschlechtert, dass sie zu den Waffen gegriffen hat! Im Untergrund hat sich Widerstand formiert, der von großen Teilen der Bevölkerung und Veteranen des Krieges gegen Österreich unterstützt wird. Die Zerschlagung dieser Rebellion wird zwar die gewalttätigsten Separatisten ausschalten, aber sie wird auch viele Menschenleben kosten, und wir müssen sicherstellen, dass sich so etwas nicht wiederholt."
  yugmechanics.1.a: "Verfluchte Separatisten!"
@@ -2799,9 +2791,14 @@
  SER_zdenko_ulepic: "Zdenko Ulepić"
  SER_zdenko_ulepic_air_chief_desc: "§YGeboren:§! §L5. Juni 1906, in Ljubljana, Herzogtum Krain, Österreich-Ungarn§!"
 
- SER_dusko_popov: "Duško Popov"
+ SER_ljubomir_ilic: "Ljubomir Ilić"
+ SER_ljubomir_ilic_scientist_desc: "§YGeboren:§! §L14. Februar 1902, in Belgrad, Königreich Serbien§!"
+ SER_pavle_savic: "Pavle Savić"
+ SER_pavle_savic_scientist_desc: "§YGeboren:§! §L10. Januar 1909, in Thessaloniki, Vilayet von Thessaloniki, Osmanisches Reich§!"
+ SER_svetozar_k_popovic: "Svetozar K. Popović"
+ SER_svetozar_k_popovic_scientist_desc: "§YGeboren:§! §L2. November 1901, in Belgrad, Königreich Serbien§!"
 
- SER_event_only: "Kann nur durch ein Ereignis hinzugefügt werden."
+ SER_dusko_popov: "Duško Popov"
 
 ### Characters ###
  MAC_ivan_mihajlov: "Ivan Mihajlov"
