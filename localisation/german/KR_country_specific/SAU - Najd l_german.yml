@@ -23,18 +23,8 @@
  SAU_national_populist_party_long: "Al-Saud"
 
  ### Tooltips ###
- SAU_ikhwan_provoking: "§RDieser Schwerpunkt trägt zum Ausbruch der Ikhwan-Revolte bei.§!"
  SAU_sole_caliphate_is_a_bad_idea: "§RDen Titel des Kalifen zu beanspruchen wird wahrscheinlich einige unserer Nachbarn erzürnen, weshalb wir in dieser Sache vorsichtig handeln sollten...§!\n"
  SAU_ongoing_ikhwan_raid: "Die Ikhwan befinden sich bereits auf einem Raubzug!"
- SAU_arabian_tribes_mobilized_tooltip: "£nato_unit_cavalry_icon_small Erhaltet 2 §YKavallerie-Divisionen§! mit dem Erfahrungslevel Rekrut und Ausrüstung aus dem Jahre 1918 in §YRiad§!"
-
- sau_ruwala_tt: "£nato_unit_cavalry_icon_small Erhaltet 1 §YKavallerie-Division§! mit dem Erfahrungslevel Rekrut und Ausrüstung aus dem Jahre 1918 in §YAnizzah§!, sobald der §REinigungskrieg§! gegen §G[JBS.GetNameWithFlag]§! beginnt.\n"
- sau_anizzah_tt: "£nato_unit_cavalry_icon_small Erhaltet 2 §YKavallerie-Divisionen§! mit dem Erfahrungslevel Rekrut und Ausrüstung aus dem Jahre 1918 in §YAnizzah§!, sobald der §REinigungskrieg§! gegen §G[JBS.GetNameWithFlag]§! beginnt.\n\n£nato_unit_militia_icon_small Erhaltet 1 §YMiliz-Division§! mit dem Erfahrungslevel Rekrut und Ausrüstung aus dem Jahre 1918 in §YAnizzah§!, sobald der §REinigungskrieg§! gegen §G[JBS.GetNameWithFlag]§! beginnt.\n"
- sau_dhafir_tt: "£nato_unit_cavalry_icon_small Erhaltet 1 §YKavallerie-Division§! mit dem Erfahrungslevel Rekrut und Ausrüstung aus dem Jahre 1918 in §YAnizzah§!, sobald der §REinigungskrieg§! gegen §G[JBS.GetNameWithFlag]§! beginnt.\n"
- sau_mutair_busayis_tt: "£nato_unit_cavalry_icon_small Erhaltet 1 §YKavallerie-Division§! mit dem Erfahrungslevel Rekrut und Ausrüstung aus dem Jahre 1918 in §YQasim§!, sobald der §REinigungskrieg§! gegen §G[JBS.GetNameWithFlag]§! beginnt.\n"
- sau_utaibah_sultan_tt: "£nato_unit_cavalry_icon_small Erhaltet 2 §YKavallerie-Divisionen§! mit dem Erfahrungslevel Rekrut und Ausrüstung aus dem Jahre 1918 in §YQasim§!, sobald der §REinigungskrieg§! gegen §G[JBS.GetNameWithFlag]§! beginnt.\n"
- sau_utaibah_rubayin_tt: "£nato_unit_cavalry_icon_small Erhaltet 1 §YKavallerie-Division§! mit dem Erfahrungslevel Rekrut und Ausrüstung aus dem Jahre 1918 in §YQasim§!, sobald der §REinigungskrieg§! gegen §G[JBS.GetNameWithFlag]§! beginnt.\n\n£nato_unit_militia_icon_small Erhaltet 1 §YMiliz-Division§! mit dem Erfahrungslevel Rekrut und Ausrüstung aus dem Jahre 1918 in §YQasim§!, sobald der §REinigungskrieg§! gegen §G[JBS.GetNameWithFlag]§! beginnt.\n"
- sau_duwasir_tt: "£nato_unit_militia_icon_small Erhaltet 2 §YMiliz-Divisionen§! mit dem Erfahrungslevel Rekrut und Ausrüstung aus dem Jahre 1918 in §YNadschd§!, sobald der §REinigungskrieg§! gegen §G[JBS.GetNameWithFlag]§! beginnt.\n"
 
  ### Decisions ###
  SAU_JBS_Power_Struggle: "Vorbereitungen für den Einigungskrieg"
@@ -327,6 +317,10 @@
  saud.155.t: "[FROM.GetNameDefCap] lehnt unser Angebot ab!"
  saud.155.d: "Trotz unseres gütigen Angebots haben die Araber es abgelehnt, Frieden mit ihren 'ungläubigen Feinden' zu schließen."
  saud.155.a: "Was?!"
+
+ saud.156.t: "Der Saudi-Omanische Krieg"
+ saud.156.d: "Lange Zeit war das Land in zwei unterschiedliche politische Einheiten geteilt: das Imamat von Oman in Nizwa und das Sultanat von Muscat in Muscat. Die zunehmende Schwäche der ehemaligen Thalassokratie blieb dem Emir von Nadschd nicht verborgen, der das isolierte Imamat wegen eines höchst fragwürdigen Grenzstreits überfiel und zu teilen und zu erobern plante.\n\nObwohl das Sultanat von Muscat, das von ausländischen Verbündeten unterstützt wird, einer direkten Bedrohung seiner Unabhängigkeit entgehen konnte, hat es dennoch beschlossen, sich in den Konflikt einzumischen, indem es sich mit dem Imam gegen die gemeinsame saudische Bedrohung verbündet."
+ saud.156.a: "Kann Muscat wirklich noch einen weiteren Schlag einstecken?"
 
  ### Cosmetic Tags ###
  SAU: "Nadschd und Hasa"

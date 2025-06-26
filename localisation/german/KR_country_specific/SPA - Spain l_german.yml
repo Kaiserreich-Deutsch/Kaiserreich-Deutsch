@@ -108,16 +108,6 @@
  SPA_carlist_proclaimation: "Javiers Proklamation"
  SPA_carlist_proclaimation_desc: "Javier de Borbón-Parma, der seinen Anhängern als König Javier I. bekannt ist, hat eine Proklamation herausgegeben, in der er das Ende der Herrschaft Alfonsos XIII. verkündet und die Anhänger Alfonsos auffordert, friedlich bei der \"Restauration\" Javiers mitzuhelfen. Während die meisten Alfonso-Treuen von dieser Ankündigung unbeeindruckt sind, scheinen einige der Soldaten mit viel weniger Elan zu kämpfen."
 
- ### Army Ideas ###
- SPA_new_command: "Ein neues Kommando"
- SPA_new_command_desc: "Spaniens militärische Kommandostruktur wurde nach dem Vorbild der deutschen "Obersten Heeresleitung" aufgebaut, aber die Effizienz des deutschen Generalstabs wurde nie erreicht. Spanien hat vor kurzem seine Kommandostruktur weiter umstrukturiert, diesmal unter Berücksichtigung der besonderen Umstände in Spanien."
- SPA_propaganda_focus: "Radio Madrid"
- SPA_propaganda_focus_desc: "Aufgrund jahrelanger politischer Unruhen blieben die spanischen Rundfunknetze im Vergleich zu denen seiner Nachbarländer unterentwickelt. Spanien hat in letzter Zeit ein Netz von Funktürmen und neuen staatlichen Sendern aufgebaut. Dies hat zu einer deutlichen Zunahme der militärischen Organisation geführt."
- SPA_army_production: "Spanische Waffen Produktion"
- SPA_army_production_desc: "Spanien hat seine Anlagen für die militärische Aufarbeitung und die Produktion von Kleinwaffen stark ausgebaut. Waffen verlassen die spanischen Produktionslinien in einem noch nie dagewesenen Tempo."
- SPA_army_production_2: "Spanische Waffen Produktion"
- SPA_army_production_2_desc: "Spanien hat seine Anlagen für die militärische Aufarbeitung und die Produktion von Kleinwaffen stark ausgebaut. Waffen verlassen die spanischen Produktionslinien in einem noch nie dagewesenen Tempo."
-
  SPA_preservation_of_order_idea: "Loyale Soldaten"
  SPA_preservation_of_order_idea_desc: "Die spanische Armee hat Maßnahmen ergriffen, um die Loyalität ihrer Truppen sicherzustellen, um Überläufer oder interne Sabotage zu verhindern, und in der Hoffnung, dass loyale Soldaten bessere Ergebnisse auf dem Schlachtfeld erzielen."
  SPA_guardia_civil_idea: "Guardia Civil"
@@ -148,7 +138,6 @@
  SPA_rule_the_skies_cas_desc: "Der Himmel ist für Spanien nur ein weiterer Kriegsschauplatz, den es erobern muss, und das hat es getan. Die Bombardierung des Schlachtfelds durch unsere Luftnahunterstützungsflugzeuge durchbricht selbst die am stärksten verschanzten Frontlinien und ermöglicht unserer Armee den entscheidenden Schlag."
 
  ### Navy Ideas ###
-
  SPA_coastal_defence: "Wächter der spanischen Küste"
  SPA_coastal_defence_desc: "Die spanische Marine wurde angewiesen, sich auf die wirksame Verteidigung der Küsten des Landes zu konzentrieren, um die Küste vor amphibischen Angriffen zu schützen und Konvois vor Angriffen durch feindliche U-Boote zu bewahren."
  SPA_grand_navy_idea: "Die neue Armada"
@@ -159,7 +148,6 @@
  SPA_navy_focus_idea_grand_desc: "Um die Macht des Landes auf den Meeren zu demonstrieren, hat sich die spanische Marine stark auf den Aufbau einer großen Armada konzentriert. Durch umfangreiche Investitionen in die Modernisierung der bestehenden Werften, die Verbesserung der Qualität der Marinestreitkräfte und den Bau neuer Produktionsanlagen ist es der spanischen Marine gelungen, sich effektiv neu zu erfinden."
 
  ### Foreign Policy Ideas ###
-
  SPA_regent_killed: "Regent ermordet!"
  SPA_regent_killed_desc: "Der Regent Spaniens wurde ermordet, was im Königreich für Unruhe sorgt und die spanische Erbfolge weiter erschwert."
  SPA_advisors_natfrance: "Französische Unterstützung"
@@ -188,8 +176,6 @@
  SPA_economic_ruin_desc: "Spanien hat sich nach einem so schrecklichen Bürgerkrieg in ein Ödland verwandelt. Es ist an der Zeit, es wieder aufzubauen."
  SPA_recovering_economy: "Erholung der Wirtschaft"
  SPA_recovering_economy_desc: "Nach den jüngsten politischen Turbulenzen ist es an der Zeit, die wirtschaftlichen Schocks, die unsere Probleme verursacht haben, ein für alle Mal zu überwinden!"
- SPA_recovering_economy_2_desc: "$SPA_recovering_economy_desc$"
- SPA_recovering_economy_3_desc: "$SPA_recovering_economy_desc$"
  SPA_spanish_economic_miracle: "Spanisches Wirtschaftswunder"
  SPA_spanish_economic_miracle_desc: "Spanien ist bereit für eine neue Ära des Wirtschaftswachstums und des Wohlstandes. Wir brauchen uns nicht mehr an unsere vergangenen Probleme zu erinnern. Ruhm für Spanien!"
  SPA_heal_old_wounds: "Heilung alter Wunden"
@@ -231,7 +217,6 @@
  SPA_against_us_civil_war_1: "Widersetzt sich unserer Seite"
 
 ### Flags ###
- SPA_civil_war_happened: "Der Spanische Bürgerkrieg hat begonnen\n"
  SWF_colonial_resistance: "Anarchistischer Widerstand: $VALUE|=-%0$"
  SPA_GER_gibraltar_lease: "Spanien hat Gibraltar an Deutschland verpachtet"
  SPA_aftermath_of_the_civil_war: "Der Spanische Bürgerkrieg ist zu Ende\n"
@@ -240,7 +225,6 @@
 ### Tooltips ###
  SPA_ban_carlists: "Karlisten werden verbannt von §Y[SPA.GetNameDef]§!\n"
  SPA_arrest_javier: "Es wird versucht werden, §YDuke Javier§! und seine unmittelbaren Anhänger zu verhaften.\n"
- SPA_encourage_javier: "§YDuke Javier§! wird gelobt und ermutigt werden\n"
  SPA_ban_cntfai: "§YCNT-FAI§! wird verbannt von [SPA.GetNameDef]\n"
  SPA_arrest_cntfai: "Es wird versucht, die Führer der §YCNT-FAI§! zu verhaften\n"
  SPA_force_cntfai: "Gewaltanwendung, um §YCNT-FAI§!-Anhänger zu zerstreuen und sie daran zu hindern, sich zu organisieren\n"
@@ -299,8 +283,6 @@
  SPA_army_of_africa_desc: "Das Ejército de África, das Heer Afrikas, war von grundlegender Bedeutung für unseren Erfolg bei der Niederschlagung des Eingeborenenaufstandes im Rif. Da es unwahrscheinlich ist, dass es in der Region kurzfristig zu weiteren Aufständen kommen wird, bietet sich die Gelegenheit, die Truppen von General Franco nach Cádiz zurückzurufen, um sich auf einen eventuellen Aufstand auf dem Festland vorzubereiten."
  SPA_german_assistance: "Deutsche Materielle Unterstützung"
  SPA_german_assistance_desc: "Während es der spanischen Armee an Panzerdivisionen fehlen mag, sind unsere Freunde in Berlin weltweit führend in der Panzerproduktion und -entwicklung. Wenn wir die Deutschen um direkte materielle Unterstützung in Form von Panzerwagen bitten, haben wir einen erheblichen technologischen Vorsprung vor den Rebellen, der uns bei der Wiederherstellung der Ordnung im Reich sicherlich helfen wird."
- SPA_rally_kingdom: "Das Königreich versammeln"
- SPA_rally_kingdom_desc: "Trotz unserer Bemühungen, den Frieden zu bewahren, ist in Spanien ein Bürgerkrieg ausgebrochen. Jetzt ist es an der Zeit, die Königstreuen zu versammeln, die verbleibenden Spaltungen zu beseitigen und dafür zu sorgen, dass unser Land nicht den Radikalen zum Opfer fällt."
 
  SPA_destabilise_kingdom: "Destabilisierung des Königreichs"
  SPA_destabilise_kingdom_desc: "Es ist klar, dass wir bald das Ende des Regimes von Gil-Robles und die Absetzung seines Marionettenkönigs Alfonso erleben werden. Anstatt zu versuchen, die Regierung weiter zu stützen, sollte versucht werden, diejenigen zu stärken, die der alten Ordnung ein Ende setzen und ein neues Zeitalter des spanischen Wohlstands einleiten wollen."
@@ -484,13 +466,8 @@
  SPA_rule_the_skies_desc: "Die Luftwaffe ist nicht länger ein zusammengewürfelter Haufen von Freiwilligen, sondern ein voll funktionsfähiges Organ unseres Militärs. Lasst uns den Himmel über Spanien und darüber hinaus beherrschen!"
 
 ### Foreign Policy Focuses ###
-
  SPA_place_in_the_world: "Unser Platz in der Welt"
  SPA_place_in_the_world_desc: "Durch all die Probleme, die das Königreich heimgesucht haben, sind wir in Europa zu einem Land zweiter Klasse geworden - eine Nation, die man ignorieren oder sogar als leichtes Ziel betrachten kann. Nun, da wir unsere Position wieder gefestigt haben, ist es an der Zeit, den Kontakt zum Rest der Welt wiederherzustellen und sie wissen zu lassen, dass wir wieder stark sind."
- SPA_join_germany: "Beitritt zum Reichspakt"
- SPA_join_germany_desc: "Unser Platz ist an der Seite Deutschlands - lasst uns den Reichspakt beitreten, damit die Syndikalisten sich umzingelt fühlen."
- SPA_join_entente: "Beitritt zur Entente"
- SPA_join_entente_desc: "Unser Platz ist bei unseren traditionellen Verbündeten, den Briten. Wir müssen ihnen helfen, ihr Land zurückzuerobern, und unsere Kraft mit der ihren vereinen, um den Syndikalismus vom Antlitz der Welt zu tilgen."
  SPA_guard_border: "Die Grenzen schützen"
  SPA_guard_border_desc: "Die vielen Wege über die Pyrenäen sind unsere einzige Schwäche. Wir müssen die Grenze befestigen, damit niemand in spanisches Gebiet vordringt, solange wir es noch verteidigen können."
  SPA_iberian_trade: "Iberische Freundschaft"
@@ -846,6 +823,12 @@
  sprc.400.d: "Seit der Niederlage Napoleons ist Spanien von Gewalt, Uneinigkeit und Unruhen geplagt. Alle Beschwichtigungen, Absprachen und Beschwichtigungsversuche konnten die Risse nur überdecken, während die Spannungen hochkochten. Schließlich kochten sie über und das spanische Königreich wurde von einem dreiseitigen Bürgerkrieg zwischen zahlreichen Fraktionen zerrissen - den Loyalisten der Madrider Regierung, den Anhängern des Prätendenten Javier und schließlich der anarchosyndikalistischen CNT-FAI. Es gibt bereits zahlreiche Berichte über Freiwillige und Ausrüstung, die aus der ganzen Welt nach Spanien geschickt werden, um die eine oder andere Fraktion zu unterstützen.\n\nSpanien wird als Schlachtfeld für die ideologischen Kräfte der übrigen Welt zerfetzt werden..."
  sprc.400.a: "Es war unvermeidlich."
 
+ sprc.401.t: "Spanischer Bürgerkrieg vorbei"
+ sprc.401.SPK: "Der Spanische Bürgerkrieg ist endlich vorbei, und es scheint, dass [SPA.GetNameDef] als Sieger hervorgegangen ist. Ein großer Teil des Landes liegt in Trümmern, und die Ordnung ist noch nicht vollständig wiederhergestellt, aber die [SPA.GetAdjective]-Regierung verkündete, dass die anarchistischen und syndikalistischen Bedrohungen endlich beseitigt worden seien und es unwahrscheinlich sei, dass sie sich in nächster Zeit wieder erheben würden.\n\nDies ist ein Triumph für König Alfonso XIII., auch wenn der König nichts davon weiß, da er kurz vor Ausbruch des Bürgerkriegs ins Koma gefallen ist."
+ sprc.401.SWF: "Der Spanische Bürgerkrieg ist endlich vorbei, und es scheint, dass [SWF.GetNameDef] als Sieger hervorgegangen ist. Ein großer Teil des Landes liegt in Trümmern, und die Ordnung ist noch nicht vollständig wiederhergestellt, aber die [SWF.GetAdjective]-Regierung verkündete, dass die alte feudale Ordnung endlich beendet sei und die Menschen in Spanien nun von einem geordneten Übergang zu einem syndikalistischen Regime profitieren würden.\n\nIn Barcelona versammelte sich eine große Menschenmenge, um die zurückkehrenden Milizen zu begrüßen und dafür zu beten, dass der neue Frieden zu einem dauerhaften Frieden wird."
+ sprc.401.SPR: "Der Spanische Bürgerkrieg ist endlich vorbei, und es scheint, dass die Carlisten triumphiert haben. Ein Großteil des Landes liegt in Trümmern, und die Ordnung ist noch nicht vollständig wiederhergestellt, aber heute versammelten sich große Menschenmengen in Burgos, um ihren neuen König Javier I. de Borbón-Parma zu begrüßen.\n\nDer König erklärte den Tag zum Feiertag und erklärte, dass den spanischen Prätendenten endlich Gerechtigkeit widerfahren sei und dass die karlistische Königslinie genau dort sei, wo sie sein sollte. Er versprach eine nationale Wiederherstellung und eine Rückkehr zu den katholischen Wurzeln der Nation. Sein Versprechen wurde vom Papst begrüßt, der dafür betete, dass der neue Frieden in Spanien von Dauer sein möge."
+ sprc.401.a: "Interessant."
+
 ### Zusammenbruch des spanischen Afrika ###
 
  sprc.500.t: "Spanisch Afrika unterstützt unser Regime"
@@ -868,9 +851,6 @@
  sprc.503.a: "Mauretanien ist endlich völlig frei."
  sprc.503.b: "Die Rote Bedrohung muss eingedämmt werden!"
  sprc.503.c: "Wir können die Ressourcen nicht entbehren."
-
- sprc.504.t: "Revolution in der Spanisch Sahara"
- sprc.504.a: "Mauretanien ist endlich völlig frei."
 
  sprc.505.t: "Konflikt in der Sahara"
  sprc.505.d: "Die Nationalistische Französische Regierung ist in unsere Gebiete in der Sahara einmarschiert! Wie sollten wir auf diese Aktion reagieren?"
@@ -986,8 +966,6 @@
  SPA_jaime_de_borbon: "Jaime de Borbón"
  SPA_jaime_de_borbon_regnal: "Jaime I"
  SPA_jaime_de_borbon_leader_desc: "§YGeboren:§! §L23. Juni 1908, im Palast von San Ildefonso, Segovia, Provinz Segovia, Königreich Spanien§!\n§YHintergrund:§! §LJaime von Borbón, der zweite Sohn von König Alfonso XIII., der taub ist und dem man einst zutraute, auf den Thron zu verzichten, wurde zum König von Spanien gekrönt. Obwohl es ihm nicht an geistigen Fähigkeiten mangelt, eilt ihm der Ruf voraus, ein Invalide zu sein. Dieser unwahrscheinliche König muss Spanien in seine ungewisse Zukunft führen.§!"
- SPA_jaime_de_borbon_francospain: "Henri VI"
- SPA_jaime_de_borbon_francospain_leader_desc: "§YGeboren:§! §L23. Juni 1908, im Palast von San Ildefonso, Segovia, Provinz Segovia, Königreich Spanien§!\n§YHintergrund:§! §LJaime von Borbón, der zweite Sohn von König Alfons XIII., der taub ist und dem man einst zutraute, auf den Thron zu verzichten, hat mit seiner Krönung zum König von Spanien und Frankreich das Unmögliche geschafft. Als König von Spanien regiert er als Jaime I., während er in Frankreich unter dem königlichen Namen Henri VI. bekannt ist, aber in der Alltagssprache nennen ihn viele einfach König Jacques Henri.§!"
 
  SPA_jose_sanjurjo_y_sacanell: "José Sanjurjo y Sacanell"
  SPA_jose_sanjurjo_y_sacanell_commander_desc: "§YGeboren:§! §L28. März 1872, in Pamplona, Provinz Navarra, Königreich Spanien§!"
@@ -1040,5 +1018,10 @@
  SPA_jose_millan_astray_y_terreros_commander_desc: "§YGeboren:§! §L5. Juli 1879, in La Coruña, Provinz La Coruña, Königreich Spanien§!"
  SPA_mohamed_naser_ben_mizzian: "Mohammed Naser ben Mizzian"
  SPA_mohamed_naser_ben_mizzian_high_command_desc: "§YGeboren:§! §L1. September 1897, in Beni Ansar, Wilaya'at von Kert, Sultanat Marokko§!"
+
+ SPA_juan_de_la_cierva_y_codorniu: "Juan de la Cierva y Codorníu"
+ SPA_blas_cabrera_y_felipe: "Blas Cabrera y Felipe"
+ SPA_juan_antonio_suanzes_fernandez: "Juan Antonio Suanzes Fernández"
+ SPA_felix_verdeja_bardales: "Félix Verdeja Bardales"
 
  KR_kingmaker: "Königsmacher Spaniens"

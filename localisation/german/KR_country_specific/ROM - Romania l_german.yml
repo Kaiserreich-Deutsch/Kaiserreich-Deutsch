@@ -360,9 +360,6 @@ ROM_transylvanian_resistance: "Siebenbürgischer Widerstand"
 ROM_transylvanian_collaboration: "Siebenbürgische Zusammenarbeit"
 ROM_transylvanian_resistance_tooltip: "Wir werden beginnen, einen offenen Aufstand in Siebenbürgen zu organisieren, um unsere Invasion zu unterstützen."
 ROM_transylvanian_resistance_effect_tooltip: "§HSiebenbürgen§!:"
-ROM_transylvanian_resistance_target_tooltip: "$MODIFIER_RESISTANCE_TARGET$: $RIGHT|-=%0$"
-ROM_transylvanian_resistance_activity_tooltip: "$MODIFIER_RESISTANCE_ACTIVITY_FACTOR$: $RIGHT|-=%1$"
-ROM_transylvanian_resistance_garrison_tooltip: "$MODIFIER_RESISTANCE_GARRISON_PENETRATION_CHANCE$: $RIGHT|-=%$"
 
 ROM_will_lead_to_war_with_austria: "§RÖsterreich darf uns den Krieg erklären, um die territoriale Integrität des Reiches zu schützen!§!"
 ROM_alfold_unrest: "Aktiver Aufstand: $VALUE|=-%0$"
@@ -476,12 +473,7 @@ ROM_wreck_airfields: "Die Flugplätze angreifen"
 ROM_organise_the_revolt: "Den Aufstand organisieren"
 ROM_start_the_uprising: "Siebenbürgen sichern"
 
-ROM_TRS_separatism_tt: "Weitverbreiteter pro-rumänischer Separatismus."
-ROM_funded_separatist: "Hat Entscheidung abgeschlossen £decision_icon_small §H$ROM_fund_separatist$§!"
 ROM_TRS_arms: "Has started or completed decision £decision_icon_small §H$ROM_smuggle_arms$§!"
-ROM_TRS_prepared: "$has_completed_decision$$ROM_organise_the_revolt$§!"
-
-ROM_start_revolt: "Siebenbürgen hat revoltiert."
 
 ROM_integrate_state_decision: "Eingliederung von [From.GetName]"
 ROM_integrate_state_decision_desc: "Die rumänischen Gebiete jenseits der Karpaten sind schon so lange vom Mutterland getrennt, dass ihre Integration eine ernsthafte Herausforderung für unsere Bürokratie und Verwaltung darstellte. Schließlich ist [Von.GetName] bereit, vollständig in den großrumänischen Staat integriert zu werden, wobei neue Landkreise und Wahlbezirke geschaffen werden sollen."
@@ -546,14 +538,11 @@ ROM_regulation_of_industrial_syndicates: "Regulierung der Industriesyndikate"
 ROM_promotion_of_indigenous_capital: "Einheimisches Kapital fördern"
 
 ### Focuses ###
-
 ROM_focus_tree: "Schwerpunktbaum von Rumänien"
 
 ROM_manoeuvres_in_the_carpathians: "Manöver in den Karpaten"
 ROM_manoeuvres_in_the_carpathians_desc: "Die Karpaten spalteten das rumänische Volk in zwei Hälften; die eine Hälfte lebte innerhalb unserer Nation, die andere unter dem drückenden Stiefel der ungarischen Herrschaft. Artikel XI des Vertrages von Bukarest trat die Pässe und das umliegende strategische Gebiet an Österreich-Ungarn ab, aber wir wissen, dass dieses Land eines Tages zurückerobert werden wird. Groß angelegte Manöver an der Grenze werden unser Engagement für unsere Volksgenossen demonstrieren."
 
-ROM_entrench_party_control: "Partei verwurzeln"
-ROM_entrench_party_control_desc: "Trotz des Sieges der Legionärsbewegung im Jahre 1933 ist ihr Halt noch nicht gesichert. Schwierigkeiten bei der Umsetzung der Gesetzesreform und die Pflicht des Hauptmanns, sich sowohl um Partei- als auch um Staatsangelegenheiten zu kümmern, sowie ein wachsendes Gefühl der Unzufriedenheit seitens des Königlichen Hofes haben zu einem Gefühl der Schwäche in unseren Reihen beigetragen. Das wird nicht reichen."
 ROM_the_code_of_honor: "Der Ehrenkodex"
 ROM_the_code_of_honor_desc: "Weniger eine Partei als vielmehr eine ritterliche Organisation, handeln wir nach einem Ehrenkodex, den uns unser Hauptmann Corneliu Zelea Codreanu gegeben hat. In diesen schwierigen Zeiten muss die Einhaltung dieses Kodex strenger denn je sein, wenn man bedenkt, dass unsere Feinde nicht verschwunden sind, sondern sich nur in den Schatten versteckt haben."
 ROM_limit_party_membership: "Cuiburi Sektionen"
@@ -597,8 +586,6 @@ ROM_tisa_border_desc: "Die Entente hat uns schon 1916 Land bis zur Theiß verspr
 
 ROM_entente: "Alte Entente Bande"
 ROM_entente_desc: "Im Jahr 1916 schloss sich Rumänien auf dem Höhepunkt der russischen Siege gegen die Mittelmächte den Entente-Mächten an. Während wir besiegt wurden, haben die Überreste der Entente durch Kapitulationen und Revolutionen überdauert. Jetzt, da Rumänien wieder frei und unabhängig ist, fühlen wir uns natürlich zu unseren ehemaligen Verbündeten hingezogen, und wir sollten formell darum ersuchen, uns ihnen in ihrem edlen Bestreben wieder anzuschließen."
-ROM_finish_reunion: "Unerledigte Dinge"
-ROM_finish_reunion_desc: "Wir haben uns zwar mit Siebenbürgen wiedervereint, aber es stehen noch weitere Themen an, denn Rumänien muss noch größer werden. Schließlich muss Großrumänien jetzt geschützt werden, damit es die Zeit überdauern kann."
 ROM_balkan: "Die zukünftige Richtung"
 ROM_balkan_desc: "Unser Bestreben ist ein zweifaches: den Traum von Großrumänien zu vollenden und eine sichere, blühende Nachbarschaft für uns zu gewährleisten. Wir sollten sicherstellen, dass unsere Freunde in der Region so bleiben, um eine stabile Ordnung zu schaffen, in der Rumänien gedeihen kann."
 
@@ -1400,7 +1387,6 @@ romania.96.t: "Die Ermordung von König Carol II."
 romania.96.d1: "Als ihr Gründer getötet wurde, schwor die Legion, ihn zu rächen, und das ist ihr auch gelungen. Als König Carol in einem Luxusauto durch Bukarest fuhr, wurde er von einer Todesschwadron der Legion in einen Hinterhalt gelockt und mehrmals niedergeschossen, wobei er und die anderen Insassen starben. Die Attentäter, die sich selbst die "Rächer" nannten, flohen schnell vom Tatort.\n\nMit dem Tod des Königs wird die Krone an seinen Sohn Mihai weitergereicht. Das Land tritt in eine neue Phase des Chaos ein und die Zukunft der Nation bleibt ungewiss."
 romania.96.d2: "Nachdem die Legion von der Macht verdrängt wurde, schwor sie Rache, und sie hatte Erfolg. Als König Carol in einem Luxusauto durch Bukarest fuhr, wurde er von einer Todesschwadron der Legion in einen Hinterhalt gelockt und mehrmals niedergeschossen, wobei er und die anderen Insassen starben. Die Attentäter, die sich selbst die "Rächer" nannten, flohen schnell vom Tatort.\n\nMit dem Tod des Königs wird die Krone an seinen Sohn Mihai weitergereicht. Das Land tritt in eine neue Phase des Chaos ein und die Zukunft der Nation bleibt ungewiss."
 romania.96.a: "Möge er lange herrschen."
-romania.96.b: "Vielleicht sollten wir jemanden finden, der leichter beeinflussbar ist?"
 
 #Avenger's coup
 romania.97.t: "Putsch der Rächer"
@@ -1765,10 +1751,6 @@ romania.173.t: "Constantin Tobescu kehrt aus dem Exil zurück"
 romania.173.d: "General Constantin Tobescu floh nach Codreanus Aufstieg aus dem Land, da er es nicht akzeptieren konnte, unter der Eisernen Garde zu dienen, die er ablehnte, auch wenn seine Überzeugungen nicht völlig gegen sie gerichtet waren. Tobescu ist ein Veteran des Weltkriegs, aber er ist am besten bekannt durch seine lange Karriere in der rumänischen Gendarmerie, wo er in den frühen 1930er Jahren die Gendarmerie-Inspektion von Bukarest befehligte. Nun, da die Legionäre von der Macht verdrängt wurden, hat Tobescu seinem Vaterland erneut seine Dienste angeboten."
 romania.173.a: "Willkommen zurück, Generalinspektor"
 
-romania.174.t: "Kontrolle über rumänisches Öl"
-romania.174.d: "Die Felder von Ploesti gehören zu den reichsten Ölvorkommen Europas. Nach dem Weltkrieg wurde die Kontrolle über sie an deutsche und österreichische Großkonzerne übergeben, die aber nach dem Schwarzen Montag die Kontrolle über das Land verloren. Jetzt ist Rumänien wieder auf den Knien, und wir können die Kontrolle über ihre wertvollen Ölquellen und Raffinerien wiederherstellen."
-romania.174.a: "Ihr schwarzes Gold gehört uns allen."
-
 romania.175.t: "Das Transalpina-Projekt"
 romania.175.d: "Um unser Land besser miteinander zu verbinden und das Ansehen des Zeitalters, in dem wir leben, weiter zu steigern, hat der König offiziell den Start des Transalpina-Projekts angekündigt; eine spektakuläre Bergstraße, die das Alte Königreich und Siebenbürgen noch besser verbinden wird.\n\nSie wird die Südkarpaten durch die Parang-Gruppe durchqueren und sich von Novaci, nordöstlich von Targu Jiu, dem Zentrum des Kreises Gorj, bis nach Sebes, im Kreis Alba, erstrecken. Mit einer spektakulären Route und der Eröffnung von Möglichkeiten für den Bergtourismus in der Region, ganz zu schweigen von den Vorteilen einer zusätzlichen Strecke, ist die Spannung entsprechend groß."
 romania.175.a: "Unsere alten Grenzen sollen weichen vor Einheit und Fortschritt!"
@@ -2100,15 +2082,11 @@ ROM_carlist_cult: "Zentrum des Karlistenkultes"
 ROM_carlist_cult2: "Zentrum des Karlistenkultes"
 ROM_puppet_king: "König unter Beobachtung"
 ROM_protector_of_democracy: "Beschützer der Demokratie"
-ROM_protector_of_democracy2: "Beschützer der Demokratie"
 ROM_friend_of_the_legion: "Freund der Legion"
 ROM_green_prince: "Grüner Prinz"
 ROM_legionary_king: "Legionärskönig"
 
 ### Tooltips ###
-ROM_monetary_union_completed: "$has_completed_decision$$ROM_monetary_union$§!"
-ROM_undo_foreign_influence_completed: "$has_completed_decision$$ROM_undo_foreign_influence$§!"
-ROM_UDR: "$has_completed_decision$$ROM_reorganise_UDR$§!"
 
 ### Characters ###
 ROM_cristian_racovski: "Cristian Racovski"
