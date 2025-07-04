@@ -395,8 +395,8 @@ CENdem_taxation_idea: "§YDadurch werden andere Nationalgeister im Zusammenhang 
 CEN_foreign_relations_tooltip: "$unlocks_decisions$ mit denen wir der Entente beitreten oder die Demokratische Allianz der Karibik gründen können."
 CEN_foreign_expansion_tooltip: "$unlocks_decisions$ für opportunistische Expansionen frei."
 CENdem_no_belize_entente: "Schaltet die £decision_icon_small §HTretet der Entente bei§! Entscheidung frei"
-CENdem_moderate_land_reform_scaling: "Jede abgeschlossene Landreform-Entscheidung wird den Nationalgeist §YAnstehende Landreform§! verändern:\n\nKonsumgüterfabriken Faktor: §Y-2.0%§!\nMax Fabriken in einem Staat: §G+4%§!"
-CENdem_radical_land_reform_scaling: "Jede abgeschlossene Landreform-Entscheidung wird den Nationalgeist §YAnstehende Landreform§! verändern:\n\nMonthly Population: §G+10.0%§!\nKonsumgüterfabriken Faktor: §Y-4.0%§!\nMax Fabriken in einem Staat: §G+4%§!"
+CENdem_moderate_land_reform_scaling: "Jede abgeschlossene Landreform-Entscheidung wird den Nationalgeist §YAnstehende Landreform§! verändern:\n\n$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y-2.0%§!\n$MODIFIER_GLOBAL_BUILDING_SLOTS_FACTOR$: §G+4%§!"
+CENdem_radical_land_reform_scaling: "Jede abgeschlossene Landreform-Entscheidung wird den Nationalgeist §YAnstehende Landreform§! verändern:\n\n$MODIFIER_GLOBAL_MONTHLY_POPULATION$: §G+10.0%§!\n$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y-4.0%§!\n$MODIFIER_GLOBAL_BUILDING_SLOTS_FACTOR$: §G+4%§!"
 
 ### Events ###
 cendem.1.t: "Die Konföderation ist geboren!"
@@ -1059,7 +1059,7 @@ CEN_other_focus_not_completed: "Wenn wir den Schwerpunkt, der uns einen dieser �
 CEN_stop_consolidation: "§rWir werden unsere Machtkonsolidierung stoppen.§!"
 CEN_stop_consolidation2: "§rWir werden nur versuchen, gemeinsam mit der Confederación Obrera zu regieren und uns so daran hindern, die Macht über Centroamerica vollständig zu konsolidieren§!"
 CEN_land_reform_tooltip: "Wir werden Entscheidungen zur Aufwertung unserer Staaten erhalten, wodurch jeder zwei zusätzliche Bauslots erhält."
-CEN_infra_projects_tooltip: "Wenn wir das maximale Infrastrukturniveau im Staat erreicht haben, werden wir stattdessen erhalten:\nLokale Baugeschwindigkeit: §G+10%§!\n"
+CEN_infra_projects_tooltip: "Wenn wir das maximale Infrastrukturniveau im Staat erreicht haben, werden wir stattdessen erhalten:\n$MODIFIER_STATE_PRODUCTION_SPEED_BUILDINGS_FACTOR$: §G+10%§!\n"
 CEN_our_own_fuel_tooltip: "Sollten wir §YSynthetische Ölexperimente§! nicht erforscht haben, werden stattdessen die folgenden Boni angewendet:"
 CEN_readjusting_budget_tooltip: "Das Ereignis §Y'Ausrichtung unseres Industriehaushalts'§!, lässt uns zwischen der Verbesserung unserer §YForschung§!, §YBauvorhaben§! oder §YProduktion§! wählen."
 CEN_air_fighters_tooltip: "Sollten wir bereits §YZwischenkriegsjäger§! erforscht haben, werden stattdessen die folgenden Boni angewendet:"
