@@ -35,22 +35,22 @@
     # Forpol
     # Pol
   # Events
-    # Intro                               (ireland.0 -> ireland.6)
+    # Intro                                    (ireland.0 -> ireland.6)
     # Schwarzer Montag / Ulster kommt zuerst   (ireland.7 -> ireland.12)
-    # Vor den Wahlen                       (ireland.13 -> ireland.20)
-    # Elections / Schwarzer Montag outcome    (ireland.21 -> ireland.47)
-    # Influence Mechanic / Civil Rights   (ireland.1000 -> ireland.1499)
-    # Foci                                (ireland.1500 -> ireland.1999)
-    # Forpol                              (ireland.2000 -> ireland.2499)
-    # Democratic Events                   (ireland.2500 -> ireland.2999)
-    # Reaktionäre Ereignisse                  (ireland.3000 -> ireland.3499)
-    # Sozialistische Ereignisse                    (ireland.3500 -> ireland.3999)
-    # News Events                         (ireland.4000 -> ireland.4499)
-    # 1941 Wahl                       (ireland.4500 -> ireland.4999)
-    # MIOs                                (ireland.5000 -> ireland.5499)
-    # AI-Pfadfindung                          (ireland.5500 -> ireland.5999)
-    # Hidden Trigger Events               (ireland.6000 -> ireland.6499)
-    # Flavour Events                      (irelandflavour)
+    # Vor den Wahlen                           (ireland.13 -> ireland.20)
+    # Elections / Schwarzer Montag outcome     (ireland.21 -> ireland.47)
+    # Tor zum Atlantik / Civil Rights          (ireland.1000 -> ireland.1499)
+    # Foci                                     (ireland.1500 -> ireland.1999)
+    # Forpol                                   (ireland.2000 -> ireland.2499)
+    # Democratic Events                        (ireland.2500 -> ireland.2999)
+    # Reaktionäre Ereignisse                   (ireland.3000 -> ireland.3499)
+    # Sozialistische Ereignisse                (ireland.3500 -> ireland.3999)
+    # News Events                              (ireland.4000 -> ireland.4499)
+    # 1941 Wahl                                (ireland.4500 -> ireland.4999)
+    # MIOs                                     (ireland.5000 -> ireland.5499)
+    # AI-Pfadfindung                           (ireland.5500 -> ireland.5999)
+    # Hidden Trigger Events                    (ireland.6000 -> ireland.6499)
+    # Flavour Events                           (irelandflavour)
   # Gleichgewicht der Kräfte
   # National Foci
     # BM
@@ -395,7 +395,7 @@ l_german:
  IRE_eamon_de_valera_desc_body: "Es gab eine Zeit, in der Éamon de Valera die führende Figur in der irischen Politik zu sein schien. Der ehemalige Mathematiklehrer war einer der wenigen überlebenden Befehlshaber des Osteraufstands, denn aufgrund seiner Geburt in New York als Sohn eines spanischen Vaters und einer irischen Mutter bewahrte seine amerikanische Staatsbürgerschaft den Henker vor der Hinrichtung, zu einer Zeit, als das Vereinigte Königreich einen potenziellen Verbündeten während des Weltkriegs nicht verärgern wollte.\n\nAm Vorabend des Unabhängigkeitskrieges war er der Führer der Sinn Féin und bereit, sie und Irland in den Freiheitskampf zu führen. Leider wurde de Valera im Mai 1918 von den Briten gefangen genommen und inhaftiert, und trotz zahlreicher Versuche, ihn zu befreien, blieb er noch einige Jahre in deren Händen. In dieser Zeit beherrschte der Mann, der ihn in den Schatten stellen sollte, die politische Szene Irlands: Michael Collins.\n\nAls de Valera schließlich nach dem Krieg freigelassen wurde, kehrte er nach Irland zurück und musste feststellen, dass sich die Machtverhältnisse stark verändert hatten und sein Einfluss nun viel geringer war, da er im Krieg keine große Rolle gespielt hatte, während Collins' Anteil stark zugenommen hatte. Viele Jahre lang spielte er in der Sinn Féin eine untergeordnete Rolle, doch seine Eifersucht auf Collins wurde immer deutlicher.\n\nSchließlich verließ er Sinn Féin zusammen mit Cathal Brugha, nachdem klar wurde, dass Collins' Vision einer säkularen progressiven Republik, ganz zu schweigen von seinem wachsenden Einfluss innerhalb der Partei, im Widerspruch zu seiner eigenen Vision für Irland stand."
  IRE_eamon_de_valera_leader_desc: "§YGeboren:§! §L14. Oktober 1882, in New York City, New York, Vereinigte Staaten von Amerika§!\n§YHintergrund:§! §L$IRE_eamon_de_valera_desc_body$ Jetzt, da er sowohl seine eigene Partei als auch Irland selbst führt, wird von de Valera erwartet, dass er ein konservativer und vorsichtiger Führer ist.§!"
  IRE_eamon_de_valera_parlrep_sic_desc: "§YGeboren:§! §L14. Oktober 1882, in New York City, New York, Vereinigte Staaten von Amerika§!\n§YHintergrund:§! §L$IRE_eamon_de_valera_desc_body$ Als Taoiseach, der jetzt sowohl seine eigene Partei als auch Irland selbst führt, wird von de Valera erwartet, dass er ein konservativer und vorsichtiger Führer ist.§!"
- IRE_eamon_de_valera_ger_aligned_leader_desc: "$IRE_eamon_de_valera_desc_body$ Nach dem Zusammenbruch der vorherigen Regierung ist de Valera nun endlich mit Hilfe Berlins im Amt und es wird erwartet, dass er ein konservativer und vorsichtiger Führer sein wird.§!"
+ IRE_eamon_de_valera_ger_aligned_leader_desc: "§YGeboren:§! §L14. Oktober 1882, in New York City, New York, Vereinigte Staaten von Amerika§!\n§YHintergrund:§! $IRE_eamon_de_valera_desc_body$ Nach dem Zusammenbruch der vorherigen Regierung ist de Valera nun endlich mit Hilfe Berlins im Amt und es wird erwartet, dass er ein konservativer und vorsichtiger Führer sein wird.§!"
  IRE_eamon_de_valera_puppet_leader_desc: "§YGeboren:§! §L14. Oktober 1882, in New York City, New York, Vereinigte Staaten von Amerika§!\n§YHintergrund:§! §L$IRE_eamon_de_valera_desc_body$ Da de Valera nun nominell sowohl seine eigene Partei als auch Irland selbst führt, wird von ihm erwartet, dass er versuchen wird, die irischen Traditionen zu bewahren, selbst angesichts der derzeit begrenzten Autonomie des Landes."
  # IRE_eamon_de_valera_sic_desc: "[IRE_loc_dev_desc]"    ### IRE TEMP - Warten auf skriptgesteuerte Ortsbestimmung - normale und fehlerhafte Versionen
  IRE_eamon_de_valera_sic_desc: "§YGeboren:§! §L14. Oktober 1882, in New York City, New York, Vereinigte Staaten von Amerika§!\n§YHintergrund:§! §LDer einstige Sinn-Féin-Führer Éamon de Valera, der von dem Gespenst verfolgt wird, als \"Fast ein Mann\" der irischen Geschichte abgeschrieben zu werden, besitzt ein Machtbedürfnis und einen Drang zur Macht, der selten, wenn überhaupt, von anderen übertroffen wird. Er ist entschlossen, sein persönliches Vermächtnis über die revolutionäre Ära hinaus im Staat zu verankern, manchmal zum Nachteil seiner Entscheidungsfindung.§!"
@@ -847,7 +847,7 @@ l_german:
 
  IRE_james_fitzmaurice: "James Fitzmaurice"
  IRE_james_fitzmaurice_alt: "Séamus Mac Giolla Mhuiris"
- IRE_james_fitzmaurice_air_chief_desc: "§YGeboren:§! §L6. Januar 1898, in Dublin, Co. Dublin, Irland§!\n§YAuch bekannt als:§! §L$IRE_james_fitzmaurice_alt$§!\n§YHintergrund:§! §LJames Fitzmaurice ist der Mann, der am häufigsten als \"Irlands größter Flieger\" gepriesen wird. Er wurde als Sohn eines in Limerick geborenen und in Dublin arbeitenden Gefängniswärters geboren und schloss sich im Alter von 16 Jahren den Irish Volunteers an, bevor er dem Ruf Redmonds folgte und sich wie viele seiner Mitstreiter bei der britischen Armee meldete. Zu Beginn des Krieges kämpfte er als Rekrut an der Somme, erhielt ein Offizierspatent und trat dann zusammen mit anderen Unteroffizieren in das Royal Flying Corps ein, um sich zum Jagdflieger ausbilden zu lassen.\nTrotz seiner begrenzten Kampferfahrung wurde er in der Nachkriegszeit zu einem Pionier der Nachtfliegerei, bevor er die Royal Air Force verließ und als einer der ersten Piloten dem Irish Air Corps beitrat. Seinen größten Erfolg feierte er 1928, als er als Kopilot am ersten Nonstop-Transatlantikflug von Ost nach West teilnahm, den der deutsche Flieger Günther Freiherr von Hünefeld organisiert hatte. Nach ihrem Erfolg wurden sie von über zwei Millionen Menschen in New York City empfangen, mit dem Distinguished Flying Cross ausgezeichnet und erhielten Audienzen bei Präsident McAdoo und später bei Kaiser Wilhelm.\n\"Fitz\" ist dafür bekannt, dass er die Grundlagen des Luftkampfes hervorhebt, d.h. die Beherrschung des Luftraums, wie er sagt. Er genießt noch immer seinen früheren Ruf, hofft aber, ihn in den kommenden Jahren noch ausbauen zu können.§!"
+ IRE_james_fitzmaurice_air_chief_desc: "§YGeboren:§! §L6. Januar 1898, in Dublin, Co. Dublin, Irland§!\n§YAuch bekannt als:§! §L$IRE_james_fitzmaurice_alt$§!\n§YHintergrund:§! §LJames Fitzmaurice ist der Mann, der am häufigsten als \"Irlands größter Flieger\" gepriesen wird. Er wurde als Sohn eines in Limerick geborenen und in Dublin arbeitenden Gefängniswärters geboren und schloss sich im Alter von 16 Jahren den Irish Volunteers an, bevor er dem Ruf Redmonds folgte und sich wie viele seiner Mitstreiter bei der britischen Armee meldete. Zu Beginn des Krieges kämpfte er als Rekrut an der Somme, erhielt ein Offizierspatent und trat dann zusammen mit anderen Unteroffizieren in das Royal Flying Corps ein, um sich zum Jagdflieger ausbilden zu lassen.\nTrotz seiner begrenzten Kampferfahrung wurde er in der Nachkriegszeit zu einem Pionier der Nachtfliegerei, bevor er die Royal Air Force verließ und als einer der ersten Piloten dem Irish Air Corps beitrat. Seinen größten Erfolg feierte er 1928, als er als Kopilot am ersten Nonstop-Transatlantikflug von Ost nach West teilnahm, den der deutsche Flieger Günther Freiherr von Hünefeld organisiert hatte. Nach ihrem Erfolg wurden sie von über zwei Millionen Menschen in New York City empfangen, mit dem Distinguished Flying Cross ausgezeichnet und erhielten Audienzen bei Präsident Lowden und später bei Kaiser Wilhelm.\n\"Fitz\" ist dafür bekannt, dass er die Grundlagen des Luftkampfes hervorhebt, d.h. die Beherrschung des Luftraums, wie er sagt. Er genießt noch immer seinen früheren Ruf, hofft aber, ihn in den kommenden Jahren noch ausbauen zu können.§!"
 
  IRE_herbert_c_irwin: "Herbert C. Irwin"
  IRE_herbert_c_irwin_alt: "Hoireabard M. Ó hEireamhóin"
@@ -1089,7 +1089,7 @@ l_german:
  IRE_agenda_score: "Erhöhe §Y$agenda_score_title$§! um §G25§!"
  agenda_score_tooltip_IRE_bonus: "§Y$IRE_host_germans$§!: §G25§!"
 
- IRE_join_ENT_tt: "§YDie Entente wird den derzeitigen verfassungsrechtlichen Status [GetStateName_119] förmlich anerkennen.§!"
+ IRE_join_entente_tt: "§YDie Entente wird den derzeitigen verfassungsrechtlichen Status [GetStateName_119] förmlich anerkennen.§!"
 
  IRE_mitteleuropa_member: "§Y[IRE.GetNameWithFlag]§! ist ein Mitglied von §YMitteleuropa§!"
  IRE_IEDC_member: "§Y[IRE.GetNameWithFlag]§! ist ein Mitglied der Gruppe §YIEDC§!"
@@ -1438,7 +1438,7 @@ l_german:
  ENG_pressure_ireland_xp_desc: "Die ICA besteht aus vielen neuen Rekruten, die aufgrund des Verbots öffentlicher Versammlungen ihrer Ränge kaum ausgebildet sind. Wir müssen sie auf jede erdenkliche Weise ausbilden, um sicherzustellen, dass sich diese Männer zu gegebener Zeit als Soldaten erweisen und ihr Land zum Besseren verändern werden."
 
  IRE_toggle_gateway_repeat_decisions: "[IRE_loc_repeat_decisions] Automatische Abschluß des Drucks auf [IRE.GetNameDef]"
- IRE_toggle_gateway_repeat_decisions_GER_desc: "Mit dieser Entscheidung kann die Entscheidung $IRE_gateway_repeat_decisions_name$ so umgeschaltet werden, dass sie nach Abschluss automatisch wiederholt wird. Der Einfluss von [Root.GetAdjective] erhöht sich alle 10 Tage um 5 Punkte, und die Faktor-Kosten für Konsumgüterfabriken werden kontinuierlich angewendet."
+ IRE_toggle_gateway_repeat_decisions_GER_desc: "Mit dieser Entscheidung kann die Entscheidung $IRE_gateway_repeat_decisions_name$ so umgeschaltet werden, dass sie nach Abschluss automatisch wiederholt wird. Der Einfluss von [Root.GetAdjective] erhöht sich alle 10 Tage um 5 Punkte, und die $MODIFIER_CONSUMER_GOODS_FACTOR$ werden kontinuierlich angewendet."
  IRE_toggle_gateway_repeat_decisions_ENG_desc: "$IRE_toggle_gateway_repeat_decisions_GER_desc$"
  IRE_gateway_repeat_decisions_name: "Druck auf [IRE.GetNameDef]"
  IRE_gateway_repeat_decisions_tt: "§YSolange diese Mission aktiv ist:§!\n§W$MODIFIER_CONSUMER_GOODS_FACTOR$:§! §Y15.0%§!"
@@ -1659,7 +1659,7 @@ l_german:
  IRE_improve_loyalist_anger_scndp: "Loyalisten ausgrenzen"
  IRE_improve_loyalist_anger_scan: "Opposition im Norden zum Schweigen bringen"
  IRE_improve_loyalist_anger_labndpcnat: "Appell an Loyalisten"
- IRE_improve_loyalist_anger_labcnatplp: "Loyalisten beruhigen"
+ IRE_improve_loyalist_anger_labcnatplp: "Nördliche Aufwiegler bändigen"
  IRE_improve_loyalist_anger_goc: "Nördliche Aufwiegler befrieden"
  IRE_improve_loyalist_anger_plp: "Ängste der Loyalisten zerstreuen"
  IRE_improve_loyalist_anger_isp: "Mit Loyalisten verhandeln"
@@ -1762,8 +1762,6 @@ l_german:
  IRE_an_improve_loyalist_anger_2_desc: "Auch wenn es dem Loyalismus gelungen ist, ein Klassenbündnis zwischen reichen und armen Loyalisten aufrechtzuerhalten, bietet die Armut vieler weniger wohlhabender protestantischer Gemeinschaften der Regierung eine Möglichkeit, dies auszunutzen. Indem sie ihnen wirtschaftliche Hilfe gewährt, wird dieser finanzielle Anreiz, Irland treu zu bleiben, die Protestanten spalten, indem er ihre traditionelle Einheit mit ihren Vorgesetzten in Frage stellt und die loyalistische Bewegung schwächt."
  IRE_arm_gardai_decision: "Verstärkung der Gardaí (Polizei)"
  IRE_arm_gardai_decision_desc: "Die Ulster-Privilegien erlaubten es ehemaligen Mitgliedern der RUC, ihre Karriere in der Gardaí fortzusetzen, und nun sind die Hühner aufgescheucht, denn ein großer Teil dieses Personals ist übergelaufen. Wenn Recht und Ordnung aufrechterhalten werden sollen, dann müssen die Garda-Ränge im Norden mit treuen irischen Bürgern und der neuesten Ausrüstung verstärkt werden, damit die sechs Grafschaften die ordentliche und geordnete Polizeiarbeit erhalten, die sie verdienen."
- IRE_arm_gardai_tt: "$IRE_reluctant_countrymen_modified$ $MODIFIER_RESISTANCE_TARGET$: §G-5%§!"
- IRE_upgraded_arm_gardai_tt: "$IRE_reluctant_countrymen_modified$ $MODIFIER_RESISTANCE_TARGET$: §G-10%§!"
  IRE_goc_improve_loyalist_anger: "Monarchistische Stimmung ausnutzen"
  IRE_goc_improve_loyalist_anger_desc: "Nachdem die irischen Nationalisten den Republikanismus aufgegeben haben, haben der Pflanzer und der Gael nun etwas Neues gemeinsam: ihren Glauben an die Monarchie und ihre Loyalität zu ihr. Auch wenn ihre Herzen verschiedenen Kronen und Königen treu sind, soll diese gegenseitige Verehrung als Olivenzweig dienen, um die beiden Gruppen gegen den Syndikalismus zu vereinen, auch wenn die Nationalisten, die weiterhin an eine Republik glauben, dies mit Unmut betrachten werden."
  IRE_an_use_blueshirts: "Mobilisierung der Blauhemden"
@@ -2187,7 +2185,7 @@ l_german:
  ireland.47.d: "Der Wahlkampf war hart umkämpft, und sowohl de Valera als auch Lemass wollen sich den Wählern so bald wie möglich beweisen. Ihrer Ansicht nach war es ein Fehler, dass die Vorgängerregierungen den Schwerpunkt auf die Großindustrie gelegt haben. Der Weg aus dem dadurch verursachten Schlamassel führt über eine enge Zusammenarbeit mit den irischen Kleinunternehmen.\n\nNur wenn man einheimischen Initiativen Vorrang einräumt, so sind sich beide Parteivorsitzenden einig, kann das wahre Potenzial Irlands zum Vorschein kommen. Auch wenn sie unterschiedliche Schwerpunkte setzen, sind beide der Meinung, dass es wichtig ist, so schnell wie möglich an der Überwindung des Schwarzen Montags zu arbeiten. Wie ein altes Sprichwort sagt, \tús maith, leath na hoibre\" (Ein guter Start ist die halbe Arbeit)."
  ireland.47.a: "Ein guter Start ist die halbe Arbeit"
 
- # Influence Mechanic / Civil Rights Events #
+ # Tor zum Atlantik / Bürgerrechts Ereignisse #
  ireland.1000.t.IRE: "Der LÉ Macha-Vorfall"
  ireland.1000.t.other: "Konfrontation in der Irischen See"
  ireland.1000.d.IRE: "Obwohl der Schwarze Montag viele Unruhen mit sich brachte, hoffte die Regierung vorsichtig, dass die Krise das einzige große Problem bleiben würde, das sie zu bewältigen hatte, während sich das Land erholte. Doch das Schicksal ist selten so gnädig. Gestern um ca. 1127 Uhr kollidierte das irische Marineschiff LÉ Macha plötzlich von unten, achtundfünfzig Meilen vor der Küste von Waterford. Wie sich herausstellte, kollidierte sie zufällig mit der RNS Thetis, die der Union of Britain gehört und sich außerhalb der britischen Hoheitsgewässer befindet. Das U-Boot tauchte unter und wurde von der LÉ Macha nicht gesehen, bis das U-Boot aufgrund der schlechten Entscheidungen des Kapitäns auftauchte und die Macha rammte.\n\nGlücklicherweise wurde keines der beiden Schiffe ernsthaft beschädigt. Beide Schiffe und ihre Besatzungen wurden durch eine gemeinsame Rettungsaktion des irischen Marinedienstes und der britischen Marine gerettet. Diese kühne Zusammenarbeit wurde von den Befürwortern einer Entspannung als Beginn einer möglichen Erwärmung der anglo-irischen Beziehungen angekündigt, auch wenn solche Gefühle nach wie vor in der Minderheit sind, da die Öffentlichkeit und die Regierung gleichermaßen besorgt fragen, zu welchem Zweck ein britisches U-Boot überhaupt in irische Hoheitsgewässer eingedrungen ist, und hysterische Geschichten über ruchlose syndikalistische Verschwörungen bereits durch die Gerüchteküche geistern.\n\nDer Reichskanzler hat heute im Reichstag eine Rede gehalten, in der er die Aggression der Syndikalisten anprangerte, und der deutsche Minister in Dublin hat uns die weitere Unterstützung des Reiches zugesagt, sollte die Union of Britain versuchen, ihren Einfluss auszuweiten. Hochrangige Diplomaten sind zwar dankbar für die deutsche Unterstützung, raten jedoch zur Vorsicht und warnen vor der Gefahr, schlafwandlerisch in ein deutsches Vasallentum zu geraten. Ihrer Ansicht nach liegt das nationale Interesse Irlands darin, einen Mittelweg zwischen den beiden Mächten zu finden, die Vorteile der Freundschaft mit beiden zu nutzen und gleichzeitig sicherzustellen, dass das Beste für Irland nicht den Bedürfnissen der Großmächte untergeordnet wird."
@@ -3690,7 +3688,6 @@ l_german:
  ireland.4550.d.FRPNFA: "Nach dem Sturz der Kommunarden in Paris haben viele Unternehmen versucht, die wiedergewonnene wirtschaftliche Freiheit zu nutzen und ihren Aktionsradius zu erweitern.\n\nDie nach Frankreich entsandte Handelsdelegation hat die Zusage eines solchen Unternehmens, \"Renault\", erhalten, das geduldig auf eine Gelegenheit wie diese gewartet hat. Der große Automobil- und Panzerhersteller war schon immer bestrebt, seinen bereits großen Marktanteil auszubauen, und seine neue Niederlassung in Dublin wird eine perfekte Gelegenheit sein, einen neuen Markt zu erschließen. Diese Niederlassung wird neue Beschäftigungsmöglichkeiten bieten, da die Automobilinfrastruktur in Irland weiter ausgebaut wird, und sie wird auch Dublin als neues Finanzzentrum sichern."
  ireland.4550.d.gen: "Die nach [[From.GetNameDef]] entsandte Handelsdelegation ist mit fantastischen Neuigkeiten zurückgekehrt. Nach einer Gesprächsrunde ist es ihnen gelungen, die Zusage eines örtlichen Unternehmens zu erhalten, eine Niederlassung in Dublin zu eröffnen, und sie hoffen, dass dies zu einer für beide Seiten vorteilhaften Vereinbarung führen wird. Für Irland wird dieses neue Büro hoffentlich im Laufe der Zeit Arbeitsplätze für die Bevölkerung des Landes und Steuereinnahmen für die Regierung bringen und dazu beitragen, das Image Dublins als internationale Finanzhauptstadt zu verbessern."
  ireland.4550.a: "Ein Toast auf unsere [From.GetAdjective] Freunde."
- ireland.4550.a.tt: "Änderung des §Y$IRE_dublin_international_hub$§! durch\n$MODIFIER_LOCAL_FACTORIES$: §G+2%§!\n$MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: §G+1%§!"
 
  ireland.4600.t: "Zum Gedenken an Griffith"
  ireland.4600.d.mc: "$ireland.4600.d.start$\"Als ich einfach nur ein junger Mann war, der seinen Platz in der Welt suchte, stand ein Mann über allen anderen und inspirierte mich und unzählige andere. In Arthur Griffith fand ich eine mächtige Kraft in Irland. Er hatte nichts von der Wildheit anderer, die ich nennen könnte. Stattdessen gab es eine Fülle von Weisheit und ein Bewusstsein für die Dinge, die Irland ausmachen. Als ich alt genug war, um in den Dienst unseres Volkes zu treten, wurde Griffith ein wichtiger Mentor und Freund, ein Mann, dessen Partei ich bis heute mit Stolz anführe. Ohne Griffiths Führung und Vision wäre die gesamte Existenz unserer großen Nation in Frage gestellt, und so werden wir uns bemühen, das Vermächtnis, das uns der Vater unserer Republik hinterlassen hat, niemals zu vergessen.\""
@@ -3722,7 +3719,7 @@ l_german:
  ireland.5600.c: "Stimmenthaltung AN"
 
  ireland.5650.t: "Wahlergebnis 1941"
- ireland.5650.d: "Dies bestimmt, wer die Wahl '41 gewinnen soll (und beeinflusst, welche Schwerpunkte die KI in der ersten Amtszeit setzen wird). Diese Flagge wird am Ende der Einflussmechanik entfernt, wenn Aontas Náisiúnta oder die Sozialisten an der Macht sind, oder bei den Wahlen."
+ ireland.5650.d: "Dies bestimmt, wer die Wahl '41 gewinnen soll (und beeinflusst, welche Schwerpunkte die KI in der ersten Amtszeit setzen wird). Dieser Marker wird am Ende des Tores zum Atlantik entfernt, wenn Aontas Náisiúnta oder die Sozialisten an der Macht sind, oder bei den Wahlen."
  ireland.5650.a: "Sinn Féin"
  ireland.5650.b: "Aontas Náisiúnta"
  ireland.5650.c: "Nationale Entwicklungspartei"
@@ -3779,7 +3776,7 @@ l_german:
  irelandflavour.361.a: "Unsere Jungs haben uns stolz gemacht!"
 
  irelandflavour.362.t: "Der Tod der französischen Freiheit"
- irelandflavour.362.d: "Heute Morgen wurden wir in Irland von einer schwerwiegenden Nachricht aus Algier, der Hauptstadt der Überreste dessen, was viele hier als die rechtmäßige Regierung Frankreichs betrachten, geweckt, die viele in unserer jungen Republik erschüttert hat. General Charles de Gaulle, der nach einem kurzen Bürgerkrieg die Kontrolle über den Staat übernommen hat, hat gestern vor dem französischen Parlament offiziell seine Absicht verkündet, das Haus Orléans wieder auf den französischen Thron zu setzen und die Dritte Republik ein für alle Mal abzuschaffen. Prinz Jean, der Anwärter auf die Krone des Hauses Orléans, hat die Einladung von de Gaulle rasch angenommen, und obwohl seine Krönung noch aussteht, ist allen klar, dass der französische Republikanismus endgültig tot ist.\n\nEs ist kein Geheimnis, dass die meisten republikanischen Bewegungen in Europa stark von Frankreich inspiriert wurden, und in Irland trifft dies besonders zu. Wolfe Tone, der Vater des irischen Republikanismus, wurde von französischen Republikanern bei seinen Aufständen gegen die britische Krone sowohl stark inspiriert als auch direkt unterstützt. Selbst das grundlegendste Symbol unseres Staates, die irische Trikolore, wurde von französischen republikanischen Frauen geschaffen, die den Sturz von Louis Philippe I., dem Urgroßvater des neuen Königs, als Symbol unseres gemeinsamen Kampfes für Freiheit und Unabhängigkeit feierten.\n\nDiese Nachricht hat die Extremisten sowohl auf der linken als auch auf der rechten Seite in Irland sehr ermutigt, die bereits mit ihren Untergangsvorhersagen über die Zukunft der irischen Demokratie begonnen haben. Die extreme Rechte hat dies zum endgültigen Beweis dafür erklärt, dass der Liberalismus und die Demokratie zu fehlerhaft sind, um die Bedrohung durch die syndikalistischen Kräfte zu bekämpfen, und plädiert für die Schaffung einer modernen irischen Monarchie zum Schutz unserer Nation. Auch die extreme Linke hat diese Nachricht als Zeichen dafür interpretiert, dass die bürgerliche Demokratie den Aufstieg des reaktionären Autoritarismus nicht aufhalten kann, und sieht im Sozialismus die einzige Möglichkeit, die irische Freiheit zu garantieren. Wir können nur hoffen, dass beide gleichermaßen verblendet sind."
+ irelandflavour.362.d: "Heute Morgen wurde Irland von einer schwerwiegenden Nachricht aus Algier, der Hauptstadt der Überreste dessen, was viele hier als die rechtmäßige Regierung Frankreichs betrachten, aufgeschreckt, die viele in der jungen Republik erschüttert hat. General Charles de Gaulle, der nach einem kurzen Bürgerkrieg die Kontrolle über den Staat übernommen hatte, sprach gestern offiziell vor dem französischen Parlament und verkündete seine Absicht, das Haus Orléans wieder auf den französischen Thron zu setzen und die Dritte Republik ein für alle Mal abzuschaffen. Prinz Jean, der Anwärter auf die Krone des Hauses Orléans, hat die Einladung von de Gaulle rasch angenommen, und obwohl seine Krönung noch aussteht, ist allen klar, dass der französische Republikanismus endgültig tot ist.\n\nEs ist kein Geheimnis, dass die meisten republikanischen Bewegungen in Europa stark von Frankreich inspiriert wurden, und in Irland trifft dies besonders zu. Wolfe Tone, der Vater des irischen Republikanismus, wurde von französischen Republikanern bei seinen Aufständen gegen die britische Krone sowohl stark inspiriert als auch direkt unterstützt. Selbst das grundlegendste Symbol des Staates, die irische Trikolore, wurde von französischen Republikanerinnen geschaffen, die den Sturz von Louis Philippe I., dem Urgroßvater des künftigen Königs, als Symbol für den gemeinsamen Kampf beider Länder für Freiheit und Unabhängigkeit feierten.\n\nDiese Nachricht hat die Extremisten sowohl auf der linken als auch auf der rechten Seite in Irland sehr ermutigt, die bereits mit ihren Untergangsvorhersagen über die Zukunft der irischen Demokratie begonnen haben. Die extreme Rechte hat dies zum endgültigen Beweis dafür erklärt, dass der Liberalismus und die Demokratie zu fehlerhaft sind, um die Bedrohung durch die syndikalistischen Kräfte zu bekämpfen, und plädiert für die Schaffung einer modernen irischen Monarchie zum Schutz unserer Nation. Auch die extreme Linke hat diese Nachricht als Zeichen dafür interpretiert, dass die bürgerliche Demokratie den Aufstieg des reaktionären Autoritarismus nicht aufhalten kann, und sieht im Sozialismus die einzige Möglichkeit, die irische Freiheit zu garantieren. Wir können nur hoffen, dass beide gleichermaßen verblendet sind."
  irelandflavour.362.a: "Irland wird sein Schicksal selbst in die Hand nehmen, die Franzosen sollen\nverdammt sein!"
 
  irelandflavour.371.t: "Mary Lavelle"
@@ -5350,8 +5347,6 @@ l_german:
  IRE_ulster_devolution_tt: "$MODIFIER_POLITICAL_POWER_GAIN$: §G+0.10§!\n$MODIFIER_STABILITY_FACTOR$: §R-10.0%§!\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: §R-7.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §G+15%§!"
  IRE_ulster_unitary_tt: "$MODIFIER_POLITICAL_POWER_GAIN$: §R-0.15§!\n$MODIFIER_STABILITY_FACTOR$: §G+2.5%§!\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: §G+3.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §G+15%§!"
  IRE_ulster_federalism_tt: "$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y+10.0%§!\n$MODIFIER_STABILITY_FACTOR$: §G+5.0%§!\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: §G+3.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §G+15%§!"
-
- IRE_reluctant_countrymen_modified: "Änderung von §Y$IRE_reluctant_countrymen$§! durch"
 
  IRE_parlrep_tt: "Ein $IRE_parlrep_tt_base$"
  IRE_parlrep_postwar_tt: "Nach der Niederlage der Internationalen wird eine $IRE_parlrep_tt_base$"

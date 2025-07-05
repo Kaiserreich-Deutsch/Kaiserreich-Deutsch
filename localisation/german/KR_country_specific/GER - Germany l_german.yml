@@ -1521,7 +1521,7 @@
  GER_11000_mp_2000_eq: "£manpower_icon  §H11000§! £rifle_texticon §H2000§!"
  GER_11000_mp_2000_eq_blocked: "£manpower_icon  §R1000§! £rifle_texticon §R2000§!"
  GER_11000_mp_2000_eq_tooltip: "Es kostet $GER_11000_mp_2000_eq_blocked$, diese Entscheidung zu treffen"
- GER_will_send_volunteers: "Wenn [GER.GetNameWithFlag] von der KI gesteuert wird, schickt sie Freiwillige zu euren aktuellen Kriegen!"
+ GER_will_send_volunteers: "Wenn [GER.GetNameWithFlag] von der KI gesteuert wird, schickt sie Freiwillige zu euren aktuellen Kriegen!\n\nWarnung: Die Aufnahme der deutschen Freiwilligen in unseren Krieg gegen Russland erhöht den Timer der Mission §YHaltet aus gegen Russland§!"
 
  GER_AZR_align_azerbaijan: "Aserbaidschan ausrichten"
  GER_AZR_align_azerbaijan_desc: "Es ist an der Zeit, dass wir den größten Preis im Nahen Osten, das aserbaidschanische Öl, erwerben. Wenn wir ein Treffen mit hochrangigen aserbaidschanischen Diplomaten in Baku arrangieren, können wir vielleicht zu einer Einigung mit ihnen kommen. Wenn wir ihnen ihre Unabhängigkeit garantieren, sind sie vielleicht bereit, sich kampflos unter unsere Oberhoheit zu begeben."
@@ -1866,9 +1866,9 @@
  GER_SWR_invite_natlibs: "Nationale Liberale in die Schwarz-Weiß-Rot-Koalition einladen"
  GER_SWR_invite_hanoverians: "Hannoveraner Partei in die Schwarz-Weiß-Rot-Koalition einladen"
 
- GER_abolish_universal_suffrage_tt: "$modifies_sic$\nErsetzt die Eigenschaft §YRitter von Ostelbien§! durch §YVorbote der Reaktion§!, eine §Ydynamische§! Eigenschaft, deren Auswirkungen von Ihrer aktuellen §nNational Populistischen§! Popularität abhängen. Aktuelle Effekte:\n - Faktor für die rekrutierbare Bevölkerung: [?GER.party_popularity@national_populist|=%+]\n - Kriegsunterstützung: [?GER.party_popularity@national_populist|=%+]\n\nNach dem Zweiten Weltkrieg, wenn wir unsere Pläne in Verfassungsrecht umwandeln können, soll dieser Schwerpunkt garantieren, dass unsere Regierung §PPaternal Autokratisch.§ wird!"
+ GER_abolish_universal_suffrage_tt: "$modifies_sic$\nErsetzt die Eigenschaft §YRitter von Ostelbien§! durch §YVorbote der Reaktion§!, eine §Ydynamische§! Eigenschaft, deren Auswirkungen von Ihrer aktuellen §nNational Populistischen§! Popularität abhängen. Aktuelle Effekte:\n - Faktor für die rekrutierbare Bevölkerung: [?GER.party_popularity@national_populist|=%+]\n - $MODIFIER_WAR_SUPPORT_FACTOR$: [?GER.party_popularity@national_populist|=%+]\n\nNach dem Zweiten Weltkrieg, wenn wir unsere Pläne in Verfassungsrecht umwandeln können, soll dieser Schwerpunkt garantieren, dass unsere Regierung §PPaternal Autokratisch.§ wird!"
  KR_east_elbia_knight_sic_dvlp_tt: "Die Auswirkungen dieses Merkmals werden mit dem Modifikator §YVorbote der Reaktion§! in der Registerkarte Nationalgeiste dargestellt."
- GER_people_conservatism_tt: "$modifies_sic$\nErsetzt die Eigenschaft §YRitter von Ostelbien§! durch §YVorbote der Normalität§!, eine §Ydynamische§! Eigenschaft, deren Auswirkungen von deiner aktuellen §LAutoritär Demokratischen§! Popularität abhängen. Aktuelle Auswirkungen:\n - §YZivile Fabrik§! Baugeschwindigkeit: [?GER.party_popularity@authoritarian_democrat|=%+]\n - Stabilität: [?GER.party_popularity@authoritarian_democrat|=%+]\n\nNach dem Zweiten Weltkrieg, wenn wir unsere Pläne in Verfassungsrecht umwandeln können, soll diese Ausrichtung garantieren, dass unsere Regierung §LAutoritär Demokratisch.§ wird!"
+ GER_people_conservatism_tt: "$modifies_sic$\nErsetzt die Eigenschaft §YRitter von Ostelbien§! durch §YVorbote der Normalität§!, eine §Ydynamische§! Eigenschaft, deren Auswirkungen von deiner aktuellen §LAutoritär Demokratischen§! Popularität abhängen. Aktuelle Auswirkungen:\n - $modifier_production_speed_industrial_complex_factor$: [?GER.party_popularity@authoritarian_democrat|=%+]\n - $MODIFIER_STABILITY_FACTOR$: [?GER.party_popularity@authoritarian_democrat|=%+]\n\nNach dem Zweiten Weltkrieg, wenn wir unsere Pläne in Verfassungsrecht umwandeln können, soll diese Ausrichtung garantieren, dass unsere Regierung §LAutoritär Demokratisch.§ wird!"
  KR_east_elbia_knight_sic_dkp_tt: "Die Auswirkungen dieses Merkmals werden mit dem Modifikator §YVorbote der Normalität§! auf der Registerkarte Nationalgeiste dargestellt."
 
  GER_schlange_agricultural_settlement: "Gesetz zur Förderung der landwirtschaftlichen Ansiedlung"
@@ -2812,10 +2812,13 @@
  # Kriegszeit
 
  GER_france_invaded: "Der Syndikalistische Schlag"
- GER_france_invaded_desc: "Die Kommunarden haben zugeschlagen! Millionen französischer Truppen mobilisieren jenseits unserer Grenze und werden vor nichts anderem Halt machen als vor der völligen Vernichtung der deutschen Nation und unserer Lebensweise! Die Briten und die Russen werden nicht weit dahinter sein. Dies ist der letzte Kampf um das Schicksal Europas, und wir müssen um jeden Preis den Sieg erringen!"
+ GER_france_invaded_desc: "Die Kommunarden haben zugeschlagen! Millionen französischer Truppen, unterstützt von ihren russischen und britischen Kollaborateuren, mobilisieren jenseits unserer Grenze und werden vor nichts anderem Halt machen als vor der vollständigen Zerstörung der Deutschen Nation und unserer Lebensweise! Dies ist der letzte Kampf um das Schicksal Europas, und wir müssen um jeden Preis den Sieg erringen!"
 
  GER_invade_france: "Operation: Scharnhorst"
  GER_invade_france_desc: "Nachdem sich unsere innenpolitische Lage stabilisiert hat, können wir uns nun unserer Westgrenze zuwenden. Die Machenschaften der französischen Kommunarden zum Sturz des Friedens in Europa sind bekannt - wenn wir sie präventiv treffen, können wir sicherstellen, dass dieser Konflikt nicht zu einem zweiten Weltkrieg eskaliert."
+
+ GER_cross_the_ostwall: "Cross the Ostwall"
+ GER_cross_the_ostwall_desc: "In Windeseile wurde ein Sieg gegen den Westen errungen, und die einzige Macht, die sich der deutschen Vorherrschaft in Europa noch entgegenstellen kann, ist Russland. Wir haben jeden einzelnen Vorteil auf unserer Seite, und es ist an der Zeit, jede größere Bedrohung der deutschen Macht zu verhindern. Auf Moskau!"
 
  GER_combat_defeatism: "Kampf gegen Defeatismus"
  GER_combat_defeatism_desc: "Der Krieg hat das deutsche Volk unvorbereitet getroffen, und viele, die durch jahrelangen wirtschaftlichen Niedergang und politischen Streit erschöpft sind, sind unsicher, ob wir einem gemeinsamen Angriff der Syndikalisten und Russen standhalten können. Diesem Defätismus muss sofort ein Riegel vorgeschoben und der patriotische Geist aller Deutschen geweckt werden. Gemeinsam zum Sieg!"
@@ -3524,7 +3527,7 @@
 
  GER_bauer_putsch_claims: "Siegfrieden"
  GER_bauer_putsch_claims_desc: "Wir werden nicht ruhen, bis wir unsere Feinde in Ost und West vollständig vernichtet haben. Es war die Schwäche der Parlamentarier, Frankreich und Russland ungeschoren davonkommen zu lassen, die dafür gesorgt hat, dass es einen Zweiten Weltkrieg geben wird. Wenn wir gewinnen, werden wir denselben Fehler nicht noch einmal machen."
- GER_bauer_putsch_claims_tt: "Wir werden eine breite Palette von §YAnsprüchen§! aufstellen, die wir bei unserem hoffentlich siegreichen Gegenangriff aufgreifen werden."
+ GER_bauer_putsch_claims_tt: "Wir werden eine breite Palette von §YAnsprüchen§! aufstellen, die wir bei unserem hoffentlich siegreichen Gegenangriff aufgreifen werden.\nJedes Mitglied unserer Fraktion, auf das wir einen Anspruch haben, wird es verlassen, wenn es §rkapituliert§! hat."
 
  GER_complete_mobilisation: "Vollständige Mobilisierung"
  GER_complete_mobilisation_desc: "Sie sagen, dass alle Ressourcen Deutschlands für den Krieg mobilisiert worden sind - sie könnten nicht falscher liegen. Es gibt immer mehr Kräfte zu mobilisieren, mehr Ressourcen zu ergreifen und mehr Männer zu bewaffnen und an die Front zu schicken - auch wenn sie jünger oder älter sein müssen als sonst."
@@ -6479,8 +6482,7 @@
 
  GER_economic_health_label: "Wirtsch. Lage: [?GER_economic_health|0+]"
  GER_economic_health_label_tt: "Die aktuellen Auswirkungen unserer wirtschaftlichen Gesundheit sind:\n[GERGetCurrentEconomicHealthEffects]"
- GER_bm_consumer_goods_loss: "Konsumgüter Fabriken: [?GER_consumer_goods_loss|%H1]"
- GER_bm_all_effects_loss: "Konsumgüter Fabriken: [?GER_consumer_goods_loss|%H1]\nConstruction Speed: [?GER_building_production_loss|=%+]\n£prod_eff_cap  Produktionseffizienz Obergrenze: [?GER_max_efficiency_loss|=%+]\nFactory Output: [?GER_factory_output_loss|=%+]"
+ GER_bm_consumer_goods_loss: "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?GER_consumer_goods_loss|%H1]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?GER_building_production_loss|=%+]\n£prod_eff_cap  $MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?GER_max_efficiency_loss|=%+]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?GER_factory_output_loss|=%+]"
 
  GER_debt_label: "Aktuelle Schulden: [?GER_debt|0-]% of GDP"
  GER_debt_label_tt: "Wenn unser Schuldenstand 200% des BIP erreicht, werden wir in einen §RSchuldenausfall§! geraten! Wir werden das Kartenspiel Schwarzer Montag verlieren und unsere Wirtschaft wird zusammenbrechen!"
