@@ -245,6 +245,7 @@
 ### Tooltips ###
  india_will_seize_ceylon_if_germany_at_war: "Falls dieser Fokus abgeschlossen wird, während Deutschland in einen größeren Krieg verwickelt ist, werden wir Ceylon übernehmen."
  india_activate_integration_decisions_tooltip: "§YWeitere Entscheidungen werden die Integration der zurückgewonnenen Staaten beschleunigen.§!"
+ india_demobilisation_tt: "Unsere Nation wird mit der Demobilisierung beginnen und zu §YZivilwirtschaft§! und §YNur-Freiwilligen§! zurückkehren."
 
 ### Shared Decisions ###
 
@@ -297,7 +298,7 @@
  india.53.a: "Dann ist Krieg!"
  india.53.b: "Vielleicht ein anderes Mal..."
 
- india.60.t: "[From.GetName] Beschlagnahmt Indische Territorien!"
+ india.60.t: "[From.GetNameDefCap] Beschlagnahmt Indische Territorien!"
  india.60.d: "Während wir mit unserem Krieg beschäftigt sind, sind [From.GetAdjective]-Soldaten in unsere Gebiete im Indischen Ozean eingedrungen und haben die Kontrolle über unsere örtlichen Streitkräfte übernommen, fast bevor diese einen Finger rühren konnten. [From.GetNameDefCap] behauptet, dass diese Gebiete rechtmäßig ihnen gehören, und im Moment scheint es wenig zu geben, was wir dagegen tun können ... außer einer direkten Kriegserklärung."
  india.60.a: "Diese Entscheidung wird nicht unbeantwortet bleiben!"
  india.60.b: "Das bedeutet Krieg!"
@@ -312,11 +313,11 @@
  india.62.a: "Schließen Sie die Inseln unserer Nation an!"
  india.62.b: "Gewährung einer weitgehenden inneren Autonomie Ceylons und Eingliederung der Atolle."
 
- india.63.t: "[From.GetName] hat abgelehnt"
+ india.63.t: "[From.GetNameDefCap] hat abgelehnt"
  india.63.d: "Vertreter der [From.GetAdjective]-Regierung haben uns mitgeteilt, dass die Rückgabe der Gebiete im Indischen Ozean schlichtweg unmöglich ist, da sie für die Kaiserliche Marine lebenswichtig sind."
  india.63.a: "Ich verstehe..."
 
- india.65.t: "[From.GetName] Beschlagnahmt [seized_state.GetName]!"
+ india.65.t: "[From.GetNameDefCap] Beschlagnahmt [seized_state.GetName]!"
  india.65.d: "[From.GetAdjective]-Soldaten sind heute Morgen in [[seized_state.GetName]] eingedrungen und haben die Kontrolle über unsere örtlichen Streitkräfte übernommen, fast bevor diese einen Finger rühren konnten. [From.GetNameDefCap] behauptet, dass [[seized_state.GetName]] rechtmäßig indisches Territorium ist, und im Moment scheint es wenig zu geben, was wir dagegen tun können."
  india.65.a: "Diese Geier!"
  india.65.b: "Diese Entscheidung wird nicht unbeantwortet bleiben!"
@@ -356,7 +357,7 @@
  india.80.c: "Versammeln Sie unsere Verbündeten zu unserer Verteidigung!"
  india.80.e: "Versammelt unseren Oberherrn zu unserer Verteidigung!"
 
- india.81.t: "[From.GetName] Überträgt"
+ india.81.t: "[From.GetNameDefCap] Überträgt"
  india.81.d: "Die [From.GetAdjective] Regierung hat klugerweise unseren Forderungen nachgegeben und alle besetzten burmesischen Gebiete zurückgegeben."
  india.81.a: "Ein weiser Schritt."
 
@@ -365,12 +366,12 @@
  india.82.a: "Dann werden wir die malaiische Halbinsel mit Gewalt befreien!"
  india.82.b: "Wir müssen unseren Stolz überwinden und auf unsere Forderungen verzichten."
 
- india.83.t: "[demand_country.GetName] bedroht [[From.GetNameDef]]"
+ india.83.t: "[demand_country.GetNameDefCap] bedroht [[From.GetNameDef]]"
  india.83.d: "Eine wiedererstarkte [demand_country.GetAdjective]-Regierung drängt auf eine Revision der Grenze zwischen ihren birmanischen Provinzen und denen unserer [From.GetAdjective]-Verbündeten. Dies ist eine schwierige Situation angesichts der Tatsache, dass die von [From.GetNameDef] besetzten Gebiete gewaltsam eingenommen wurden, aber es wäre kein Verbrechen, unsere Verbündeten in Indochina im Stich zu lassen..."
  india.83.a: "Erklären Sie unsere Solidarität mit unseren Verbündeten in Bangkok!"
  india.83.b: "Druck auf die Siamesen, die umstrittenen Gebiete abzutreten."
 
- india.84.t: "[From.GetName] Verteidigt [SIA.GetNameDef]"
+ india.84.t: "[From.GetNameDefCap] Verteidigt [SIA.GetNameDef]"
  india.84.d: "Verflucht! Die feigen Siamesen haben sich unter dem Rockzipfel ihrer [From.GetAdjective] Verbündeten versteckt. Was wir für eine einfache Revision einer illegalen Besetzung hielten, hat sich zu einem internationalen Konflikt entwickelt! Das ist vielleicht ein bisschen mehr, als wir verlangt haben, aber die Folgen eines Verzichts auf unsere Ansprüche wären ebenfalls katastrophal."
  india.84.a: "Dann werden wir die malaiische Halbinsel mit Gewalt befreien!"
  india.84.b: "Ein solcher Krieg würde nur Chaos über ganz Asien bringen..."
