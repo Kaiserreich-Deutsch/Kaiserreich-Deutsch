@@ -22,10 +22,11 @@
  CA_revitalise_the_cities_tt: "\n§CWenn wir sowohl §Y[GetStateName_407]§! als auch §Y[GetStateName_732]§! besitzen, wenn dieser Schwerpunkt abgeschlossen ist, dann wird dieser Schwerpunkt zivile Fabriken in beiden Staaten hinzufügen!§!"
 
  CA_prep_intro_tooltip: "§RWir müssen Entscheidungen treffen und Schwerpunkte setzen, um unsere Vorbereitung zu verbessern, bevor ein Konflikt ausbricht!§!"
- CA_prep_tooltip: "£GFX_supply_texticon $RIGHT|0=+]$ Vorbereitung"
- CA_prep_5_tooltip: "£GFX_supply_texticon [?5|H0]"
- CA_prep_5_tooltip_blocked: "£GFX_supply_texticon [?5|R0]"
- CA_prep_5_tooltip_tooltip: "Diese Entscheidung kostet $CA_prep_5_tooltip$"
+ CA_prep_tooltip: "£GFX_supply_texticon $RIGHT|0=+$ Vorbereitung"
+
+ CA_5_prep_cost: "£GFX_supply_texticon [?5|H0]"
+ CA_5_prep_cost_blocked: "£GFX_supply_texticon [?5|R0]"
+ CA_5_prep_cost_tooltip: "Diese Entscheidung kostet $CA_5_prep_cost$"
 
  CA_german_aid_threat: "Deutschland interveniert in Zentralasien"
 
@@ -34,10 +35,6 @@
  CA_internal_struggles_concluded: "§CWir haben unsere internen Konflikte beigelegt.§!"
 
  CA_ongoing_project_decision_flag: "Wir haben derzeit ein spezielles Entwicklungsprojekt laufen"
- CA_subtract_3_prep: "£GFX_supply_texticon §R-3§! Vorbereitung."
- CA_subtract_5_prep: "£GFX_supply_texticon §R-5§! Vorbereitung."
- CA_subtract_7_prep: "£GFX_supply_texticon §R-7§! Vorbereitung."
- CA_subtract_10_prep: "£GFX_supply_texticon §R-10§! Vorbereitung."
 
 ### Entscheidungen ###
  CA_unite_central_asia: "Zentralasien vereinigen"
@@ -92,6 +89,7 @@
  CA_crush_opportunists: "Opportunisten unterdrücken"
 
  CA_hold_out_vs_russia: "Ausharren gegen Russland"
+ CA_defend_kazakhs_tt: "Die Kasachen werden §Rannektiert§! wenn sie bis zum Ende des Krieges kapitulieren. Verteidige deine nördlichen Brüder!"
  CA_hold_out_vs_socialist_russia: "Durchhalten gegen die Sozialisten"
  CA_attack_socialist_bukhara_timer: "Angriff auf Rotes Buchara"
  CA_socialist_russian_intervention_timer: "Erwartete russische Intervention"
@@ -714,8 +712,8 @@
  cacrisis.509.a: "Weisen Sie die Turkestaner zurück und versuchen Sie, die Gemäßigten auf ihre Seite zu ziehen."
  cacrisis.509.b: "Schmeißt jeden raus, der ernsthaft darüber nachgedacht hat!"
 
- cacrisis.510.t: "Ankunft der Bucharischen Sozialisten in Moskau"
- cacrisis.510.d: "Eine kleine Abordnung von Revolutionären aus der neuen sozialistischen Republik in Zentralasien, der Republik Zeravshan, ist in Moskau eingetroffen und bittet uns um Unterstützung bei der Entwicklung ihrer Republik und der Schaffung eines neuen Anstoßes zur Untergrabung der reaktionären Nationen Chiwa und Turkestan. Sie glauben, dass die Zeit für linke Revolutionen in der gesamten Region gekommen ist, und verweisen auf die Aktivitäten der Partei der Nationalen Union in Turkestan und der Jungen Khivaner. Die sozialistischen Fraktionen dieser Parteien und Organisationen sind zwar relativ klein, aber sie haben enge Verbindungen zu den neuen Machthabern in Buchara und sind durch deren Sieg erheblich gestärkt worden.\n\nUnsere Mittel sind zwar relativ begrenzt, aber selbst begrenzte Investitionen in zentralasiatische Konflikte können sich auszahlen, denn selbst Gewehre aus dem Russisch-Japanischen Krieg sind den meisten Waffen, die derzeit von revolutionären Bewegungen in der Region eingesetzt werden, weit überlegen."
+ cacrisis.510.t: "[BUK.GetAdjective] Ankunft der Sozialisten in Moskau"
+ cacrisis.510.d: "Eine kleine Abordnung von Revolutionären aus der neuen sozialistischen Republik in Zentralasien, [BUK.GetNameDef], ist in Moskau eingetroffen und bittet uns um Unterstützung bei der Entwicklung ihrer Republik und der Schaffung eines neuen Anstoßes zur Untergrabung der reaktionären Nationen Chiwa und Turkestan. Sie glauben, dass die Zeit für linke Revolutionen in der gesamten Region gekommen ist, und verweisen auf die Aktivitäten der Partei der Nationalen Union in Turkestan und der Jungen Khivaner. Die sozialistischen Fraktionen dieser Parteien und Organisationen sind zwar relativ klein, aber sie haben enge Verbindungen zu den neuen Machthabern in Buchara und sind durch deren Sieg erheblich gestärkt worden.\n\nUnsere Mittel sind zwar relativ begrenzt, aber selbst begrenzte Investitionen in zentralasiatische Konflikte können sich auszahlen, denn selbst Gewehre aus dem Russisch-Japanischen Krieg sind den meisten Waffen, die derzeit von revolutionären Bewegungen in der Region eingesetzt werden, weit überlegen."
  cacrisis.510.a: "Sie bieten vage Zusicherungen und begrenzte Hilfe an."
  cacrisis.510.b: "Gebt ihnen, was sie brauchen!"
 
