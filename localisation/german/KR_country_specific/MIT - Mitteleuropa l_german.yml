@@ -53,24 +53,24 @@
 
  member_entry_desc: "[THIS.GetMitteleuropaVotingStatus]"
 
- member_entry_proposing_agenda: "§Y[THIS.GetNameDefCap]§! leitet derzeit eine Lobbyarbeit zugunsten von §Y[?MIT_supported_agenda:agenda_idea.GetTokenLocalizedKey]§!."
- member_entry_supporting_agenda: "§Y[THIS.GetNameDefCap]§! unterstützt derzeit die Lobbyarbeit von §Y[?MIT_supported_agenda:agenda_supporters^0.GetAdjective]§! zugunsten von §Y[?MIT_supported_agenda:agenda_idea.GetTokenLocalizedKey]§!."
+ member_entry_proposing_agenda: "§Y[THIS.GetNameDefCap]§! leitet derzeit eine Lobbyarbeit zugunsten von §Y[?MIT_supported_agenda:agenda_idea.GetName]§!."
+ member_entry_supporting_agenda: "§Y[THIS.GetNameDefCap]§! unterstützt derzeit die Lobbyarbeit von §Y[?MIT_supported_agenda:agenda_supporters^0.GetAdjective]§! zugunsten von §Y[?MIT_supported_agenda:agenda_idea.GetName]§!."
  member_entry_neutral: "§Y[THIS.GetNameDefCap]§! unterstützt derzeit keine Agendas."
 
  main_agenda_supporter_title: "§Y[?top_agenda:agenda_supporters^0.GetName]§!"
 
- top_agenda_icon_title: "§Y[?top_agenda:agenda_idea.GetTokenLocalizedKey]§!"
+ top_agenda_icon_title: "§Y[?top_agenda:agenda_idea.GetName]§!"
  top_agenda_icon_desc: "[!top_agenda_reward_loc_button_click]"
 
  agenda_list_title: "Mögliche Agendas"
 
- agenda_button_title: "[?agenda:agenda_idea.GetTokenLocalizedKey]"
+ agenda_button_title: "[?agenda:agenda_idea.GetName]"
  agenda_button_score: "([?agenda:agenda_score|Y0])"
- agenda_button_tooltip: "[?agenda:agenda_idea.GetTokenLocalizedKey]\nUnterstützung insgesamt: [?agenda:agenda_score|Y0]"
+ agenda_button_tooltip: "[?agenda:agenda_idea.GetName]\nUnterstützung insgesamt: [?agenda:agenda_score|Y0]"
  agenda_button_tooltip_delayed: "[!agenda_button_click_enabled]\n§YAuswirkungen bei Inkrafttreten:§!\n[!agenda_reward_loc_button_click]"
 
  top_agendas_title: "Meist unterstützte Agendas"
- top_agenda_name: "[?top_agenda:agenda_idea.GetTokenLocalizedKey]"
+ top_agenda_name: "[?top_agenda:agenda_idea.GetName]"
  top_agenda_score: "Unterstützung: [?top_agenda:agenda_score|Y1]"
 
  MIT_recent_agenda_change: "§Y[ROOT.GetNameDefCap]§! hat sich bereits kürzlich für eine Agenda entschieden und muss [?MIT_recent_agenda_change:days_left|Y0] Tage warten, um erneut abzustimmen."
