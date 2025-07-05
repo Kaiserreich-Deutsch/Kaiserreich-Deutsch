@@ -487,16 +487,19 @@
  JAP_ultimatum_1_tt: "Deutschland wird uns um Frieden bitten, nachdem wir alle seine Verbündeten in Asien und Ozeanien kapituliert haben, und in Deutsch-Ostasien darf es keine Staaten mit mehr als §Y200.000§! Einwohnern mehr haben."
  JAP_ultimatum_2_tt: "Deutschland wird uns um Frieden bitten, nachdem wir alle seine Verbündeten in Asien und Ozeanien kapituliert haben."
 
+ JAP_CHN_may_attack_FNG_tt: "§RDie Chinesen könnten diese Gelegenheit nutzen, um sich zusammenzuschließen und [FNG.GetNameDef] anzugreifen und uns in einen Konflikt auf dem Kontinent zu verwickeln!§!"
+
  # China tooltips
  FNG_relations_JAP_broke: "Fengtian hat mit Japan gebrochen"
  JAP_mantetsu_projects_tt: "Diese Entscheidungen werden es uns ermöglichen, Kollaborateure in China industriell und militärisch und §mMarktliberalität§! Beliebtheit im §Y[FNG.GetName]§! zu erhöhen."
  JAP_influence_china_tt: "Diese Entscheidungen werden der Bewaffnung von verbündeten Warlords Vorrang einräumen, die als unsere Stellvertreter in China dienen sollen, und sie werden es uns ermöglichen, die Popularität von §Marktliberalität§! im §Y[FNG.GetName]§! zu erhöhen."
  JAP_no_training_help: "hat Japans Hilfe abgelehnt"
  JAP_sow_chaos_tt_1: "Diese Entscheidungen werden es uns ermöglichen, nicht-han-chinesische Staaten in ihren Kriegen gegen China zu unterstützen."
- JAP_sow_chaos_tt_2: "Dieser Fokus verbessert den §YNationalgeist§!, der im Fokus §YKontinentale Kriegsführung§! gegeben wird, indem er §G10%§! Angriff gegen §Yalle chinesischen Länder§! gewährt und ihn doppelt so lange dauern lässt."
+ JAP_sow_chaos_tt_2: "Dieser Fokus verbessert den §YNationalgeist§!, der im Fokus §YKontinentale Kriegsführung§! gegeben wird, indem er §G15%§! mehr Angriff gegen §Yalle chinesischen Länder§! gewährt und ihn doppelt so lange dauern lässt."
  JAP_victory_with_vision_tt: "Die durch den Nationalgeist von §YMantetsu Gewinne§! erzielten Effekte werden §Gverdoppelt§! werden."
  JAP_returns_land: "§Japan wird jedes Land zurückgeben, auf das wir Anspruch erheben und das sie nicht besitzen!\n"
- JAP_ichigo_tooltip: "Angriffsbonus gegen §H$all_chinese_countries_tt$§!: [?0.1|+=%1]"
+ JAP_no_ichigo_tooltip: "Angriffsbonus gegen §H$all_chinese_countries_tt$§!: [?0.15|+=%1]"
+ JAP_ichigo_tooltip: "Angriffsbonus gegen §H$all_chinese_countries_tt$§!: [?0.25|+=%1]"
  
  japanese_economic_influence_Kosten: "£pol_power [?From.japanese_economic_influence|H0]"
  japanese_economic_influence_cost_blocked: "£pol_power [?From.japanese_economic_influence|R0]"
