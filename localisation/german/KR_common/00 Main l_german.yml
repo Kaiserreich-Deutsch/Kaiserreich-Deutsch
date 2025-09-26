@@ -57,7 +57,7 @@ KR_welcome_splash_tab_3_content: "§YBitte beachten Sie Folgendes:§!\n£white_d
 KR_welcome_splash_tab_3_content_0: "Kaiserreich legt Beschränkungen für diplomatische Aktionen wie §Rfrühe Kriege§!, §RFraktionen§! und §RAutonomiestufen§! fest.\nKaiserreich enthält §CDivisionsgrenzen§! und eine §CDemobilisierung§! Mechanik, um die Spielbarkeit im späteren Spiel zu verbessern.\nBei §YFriedenskonferenzen§! sollten Sie darauf achten, dass Sie alle Staaten annektieren. Sie können später Länder aus den annektierten Gebieten durch §CEntscheidungen§! entlassen.\nIm Menü §YIndividuelle Spielregeln§! können Sie viele Optionen einstellen, darunter §CLänderpfade§!, §CVorrang für Spieler bei Friedenskonferenzen§!, und das §CStaat und Land Transfer Tool§!.\nDas £kr_options_icon  §YOptionsmenu im Spiel§! wird durch einen Klick auf das Symbol in der rechten oberen Ecke geöffnet. Hier können Sie die §CHäufigkeit der Nachrichtenereignisse§! einstellen und die §CDynamische Umbenennung§! von Staaten und Siegpunkten aktivieren.\n§YDieses Fenster§! kann jederzeit wieder geöffnet werden, indem Sie auf das Symbol £help_button  oben rechts klicken."
 
 ## TAB 4 ##
-KR_CURRENT_VERSION: "1.5.1"
+KR_CURRENT_VERSION: "1.5.2"
 KR_CURRENT_VERSION_NAME: "Brave New World"
 KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ \"$KR_CURRENT_VERSION_NAME$\""
 KR_welcome_splash_tab_4_upper_header: "§YWillkommen bei $KR_CURRENT_VERSION_COMBINED$§!"
@@ -71,9 +71,9 @@ KR_welcome_splash_tab_4_content_3: "Cody  ·  Deliberus  ·  DerEherneRächer  �
 KR_welcome_splash_tab_4_content_4: "Fedex  ·  Flamefang  ·  Frill Shark  ·  Gaboemi  ·  Georgy  ·  Gre  ·  Hamfast  ·  Hazo  ·  Hexcron"
 KR_welcome_splash_tab_4_content_5: "Ido  ·  Igor050301  ·  JazzyHugh  ·  Jeankedezeehond  ·  jerv  ·  Jonny BL  ·  Kano  ·  katieluka"
 KR_welcome_splash_tab_4_content_6: "kergely  ·  KFateweaver  ·  Klyntar King  ·  Krčo  ·  lehmannmo  ·  Matoro  ·  McOmghall  ·  MrMano"
-KR_welcome_splash_tab_4_content_7: "~mw~ // miwaco.  ·  Noot  ·  Pelmen  ·  PPsyrius  ·  Purple Jinjo  ·  Rnk ·  Sasha  ·  Shiroe"
-KR_welcome_splash_tab_4_content_8: "Sonny O'Cad  ·  SuperGreenBeans  ·  suzuha  ·  tan_mi.ya  ·  The Alpha Dog  ·  The Don Golian"
-KR_welcome_splash_tab_4_content_9: "The Irredentista  ·  The Italian Jojo  ·  Toaster  ·  Vidyaország  ·  VladimirLemon  ·  Zimbabwe Salt Co."
+KR_welcome_splash_tab_4_content_7: "~mw~ // miwaco.  ·  Noot  ·  Pelmen  ·  PPsyrius  ·  Purple Jinjo  ·  Rnk ·  Sasha  ·  Shiroe  ·  Sonny O'Cad"
+KR_welcome_splash_tab_4_content_8: "SuperGreenBeans  ·  tan_mi.ya  ·  The Alpha Dog  ·  The Don Golian  ·  The Irredentista"
+KR_welcome_splash_tab_4_content_9: "The Italian Jojo  ·  Toaster  ·  Vidyaország  ·  VladimirLemon  ·  Zimbabwe Salt Co."
 # Deutsches Übersetzungsteam:
 KR_welcome_splash_tab_4_content_10: "\n§YDeutsches Übersetzungs-Team:§!"
 KR_welcome_splash_tab_4_content_11: "Proho  ·  SimonStaysNuclear  ·  Thylon"
@@ -312,10 +312,15 @@ trade_partners_home_area_neighbours: "Heimatgebiet Nachbarn"
 
 ### Static Modifiers ###
 volunteer_limit_plus_three: "Erhöhtes Limit für Freiwillige"
+volunteer_limit_plus_three_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?3|0+=]"
 volunteer_limit_plus_two: "$volunteer_limit_plus_three$"
+volunteer_limit_plus_two_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?2|0+=]"
 volunteer_limit_plus_one: "$volunteer_limit_plus_three$"
+volunteer_limit_plus_one_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?1|0+=]"
 volunteer_limit_plus_fifty_percent: "$volunteer_limit_plus_three$"
+volunteer_limit_plus_fifty_percent_tt: "$MODIFIER_SEND_VOLUNTEER_FACTOR$: [?0.5|+=%]"
 volunteer_limit_plus_hundred_percent: "$volunteer_limit_plus_three$"
+volunteer_limit_plus_hundred_percent_tt: "$MODIFIER_SEND_VOLUNTEER_FACTOR$: [?1|+=%]"
 
 ### Continents ###
 is_actually_an_island: "ist ein Inselstaat"
@@ -705,23 +710,16 @@ tech_arctic_commando_terrain_effect: "  §Y$hills$§!:\n    $STAT_ADJUSTER_MOVEM
 
 tech_better_paratroopers: "Elite Fallschirmjäger"
 
-tech_irregulars: "Irreguläre Infanterie"
-tech_irregulars_effect: "Ermöglicht §Y$irregular_infantry$§! Bataillone."
+tech_irregulars: "$irregular_infantry$"
 
-tech_militias: "Miliz"
-tech_militias_effect: "Ermöglicht §Y$militia$§! Bataillone."
+tech_militias: "$militia$"
 
 tech_anti_partisan: "Aufstandsbekämpfungstaktiken"
 
 tech_improved_logistics: "Verbesserte Logistikkompanien"
 
-long_range_patrol_support_tech: "$long_range_patrol_support$"
-long_range_patrol_support_tech_effect: "Schaltet §Y$long_range_patrol_support$§! Unterstützungskompanien frei."
 modifier_army_sub_unit_long_range_patrol_support_attack_factor_tooltip: "$modifier_army_sub_unit_long_range_patrol_support_attack_factor$: $RIGHT|+=%2$"
 modifier_army_sub_unit_long_range_patrol_support_defence_factor_tooltip: "$modifier_army_sub_unit_long_range_patrol_support_defence_factor$: $RIGHT|+=%2$"
-
-winter_logistics_support_tech: "$winter_logistics_support$"
-winter_logistics_support_tech_effect: "Schaltet §Y$winter_logistics_support$§! Unterstützungskompanien frei."
 
 tech_extensive_reconnaissance: "Umfassende Aufklärung"
 tech_extensive_reconnaissance_terrain_effect: "  §Y$snow$§!: $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n  §Y$forest$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$hills$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$mountain$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$marsh$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$plains$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$river$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]"
@@ -729,9 +727,6 @@ tech_extensive_reconnaissance_terrain_effect: "  §Y$snow$§!: $STAT_ADJUSTER_MO
 tech_strengthened_support_companies: "Gestärkte Unterstützungskompanien"
 
 tech_anti_armour_tactics: "Anti-Panzer-Taktiken"
-
-jungle_pioneers_support_tech: "Dschungel Pioniere"
-jungle_pioneers_support_tech_effect: "Schaltet §Y$jungle_pioneers_support$§! Unterstützungskompanien frei."
 
 tech_river_boats: "Flussboote"
 tech_river_boats_terrain_effect: "  §Y$river$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.1|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
@@ -746,6 +741,20 @@ tech_improved_decryption: "Verbesserte Entschlüsselung"
 
 tech_elephant_sappers: "Elefanten-Sappeure"
 tech_elephant_sappers_terrain_effect: "  §Y$jungle$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]\n  §Y$mountain$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
+
+tech_bicycle_battalion: "$bicycle_battalion$"
+
+tech_camelry: "$camelry$"
+
+tech_penal_battalion: "$penal_battalion$"
+
+tech_winter_logistics_support: "$winter_logistics_support$"
+
+tech_long_range_patrol_support: "$long_range_patrol_support$"
+
+tech_jungle_pioneers_support: "$jungle_pioneers_support$"
+
+tech_sturmtruppe_battalion: "$sturmtruppe_battalion$"
 
 ### Units ###
 assault_battalion: "$blackshirt_assault_battalion$"

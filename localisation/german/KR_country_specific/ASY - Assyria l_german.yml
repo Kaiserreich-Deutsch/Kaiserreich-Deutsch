@@ -46,7 +46,7 @@ ASY_national_populist_party_long: "Khubba w Khuyada Athōraya (Assyrische Liebe 
 
 ### Intro Screen ###
 ASY_country_intro_header: "Assyrien"
-ASY_guide: "§MEin Assyrien für Assyrer§! (§nNationalpopulisten§!)\n£white_dot Schließen Sie den Schwerpunkt \"$ASY_Maintain_State_of_Emergency$\" ab.\n\n§MEin multinationaler Staat§! (§cSozialkonservative§!)\n£white_dot Schließen Sie den Schwerpunkt \"$ASY_Relinquish_Temporal_Power$\" ab.\n\n§MDie Front des Imperialismus§! (§mMarket Liberal§!)\n£white_dot Schließen Sie den Schwerpunkt \"$ASY_Frontline_Imperialism$\" und \"$ASY_Protectorate_Assyria$\" ab."
+ASY_guide: "§MAssyrien für Assyrer§! ($national_populist_coloured$)\n£white_dot Schließen Sie den Schwerpunkt \"$ASY_Maintain_State_of_Emergency$\" ab.\n\n§MMultinationaler Staat§! ($social_conservative_coloured$)\n£white_dot Schließen Sie den Schwerpunkt \"$ASY_Relinquish_Temporal_Power$\" ab.\n\n§MDie Front des Imperialismus§! ($market_liberal_coloured$)\n£white_dot Schließen Sie den Schwerpunkt \"$ASY_Frontline_Imperialism$\" und \"$ASY_Protectorate_Assyria$\" ab."
 
 # Ideas
 ASY_Technical_Illiteracy: "Technischer Analphabetismus"
@@ -106,9 +106,7 @@ ASY_Assyrian_Army_Idea: "Assyrische Armee"
 ASY_Assyrian_Army_Idea_desc: "Milizen und eilig organisierte Einheiten haben uns die Freiheit gebracht. Um die Freiheit vor ausländischer Aggression zu schützen, müssen wir unsere Armee, unsere Ausbildung und unsere Ausrüstung standardisieren. Nicht weniger wird nötig sein, um Assyrien auf der Landkarte zu halten."
 
 ### Tooltips ###
-ASY_expanded_levies_tt: "£nato_unit_cavalry_icon_small erhaltet 1 §YCavalry Division§! Einheit mit Rekrutenausbildung und 1918-Jahre-Infanterieausrüstung in §YBasra§!\n£nato_unit_infantry_icon_small erhaltet 1 §YInfantry Division§! Einheit mit Rekrutenausbildung und 1918-Jahre-Infanterieausrüstung in §YBasra§!\n\nErhaltet einen £GFX_army_experience §GLevel 1 General§! mit dem Namen §YOdisho Moshe§!."
 ASY_madan_resistance_tt: "Auswirkungen von §YMa'dān Resistance§! wird angepasst um:\n$MODIFIER_RECRUITABLE_POPULATION_FACTOR$: §G+5%§!\n$MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: §G+15%§!\n$MODIFIER_STATE_RESOURCES_FACTOR$: §G+15%§!\n$MODIFIER_STATE_PRODUCTION_SPEED_BUILDINGS_FACTOR$: §G+5%§!"
-
 ASY_controls_gulf_tt: "Das Protektorat Assyrien hat es geschafft, alle Protektorate des Persischen Golfs wiederherzustellen!"
 
 ASY_anti_patriarchal_faction_removed_tt: "§gProminente Mitglieder der antipatriarchalischen Fraktion werden ausgegrenzt:§!"
@@ -340,31 +338,31 @@ assyria_events.7.a: "Überzeugt die Osmanen, den Assyrern Autonomie zu gewähren
 assyria_events.7.b: "Nehmt Verhandlungen mit den Osmanen über die Unabhängigkeit Assyriens auf."
 assyria_events.7.c: "Wir können unsere Beziehungen zu den Osmanen nicht riskieren."
 
-assyria_events.8.t: "[CAN.GetName] interveniert für die Assyrer"
+assyria_events.8.t: "[CAN.GetNameDefCap] interveniert für die Assyrer"
 assyria_events.8.d: "In einer schockierenden Wendung der Ereignisse hat es die kanadische Regierung gewagt, sich direkt in unsere inneren Angelegenheiten einzumischen. Sie fordern die sofortige Einstellung der Feindseligkeiten mit Basra Vilayet und die sofortige Gewährung der assyrischen Autonomie. Sie wollen, dass die Assyrer von einem eigenen Parlament regiert werden, ihre eigenen Sicherheitskräfte ausbilden und betreiben und die Politik in Basra bestimmen, während sie in allen anderen Angelegenheiten eine Provinz des Osmanischen Reiches bleiben.\n\nDie Niederschlagung dieser Aufständischen würde jedoch nicht nur dem Ansehen der Pforte immensen Schaden zufügen, sondern wahrscheinlich auch zu einem verstärkten Separatismus in anderen Teilen des Reiches führen, vor allem bei den Griechen und Arabern."
 assyria_events.8.a: "Wir werden nicht nachgeben!"
 assyria_events.8.b: "Wir haben keine andere Wahl als nachzugeben..."
 
-assyria_events.9.t: "[OTT.GetName] weist die Forderungen zurück"
+assyria_events.9.t: "[OTT.GetNameDefCap] weist die Forderungen zurück"
 assyria_events.9.d: "Es überrascht nicht, dass die Erhabene Pforte unser Ultimatum abgelehnt und ihre Operationen in Basra verstärkt hat, um dem assyrischen Aufstand ein schnelles und entscheidendes Ende zu bereiten. Von Ottawa bis [RAJ.Capital.GetCapitalVictoryPointName] mobilisieren sich inoffiziell die Truppen der Entente, um noch einmal an der Seite der assyrischen Leviten zu kämpfen und sowohl ihre Unabhängigkeit als auch, was noch wichtiger ist, die lebenswichtigen Ölvorkommen des Irak zu sichern."
 assyria_events.9.a: "Hoffentlich kann unser Unterstützung helfen, bevor es zu spät ist..." 
 assyria_events.9.b: "Wir müssen dafür sorgen, dass Assyrien nicht fällt! (Spielt als Assyrien)"
 
-assyria_events.10.t: "[OTT.GetName] gibt unseren Forderungen nach"
+assyria_events.10.t: "[OTT.GetNameDefCap] gibt unseren Forderungen nach"
 assyria_events.10.d: "Aus Angst vor einer weiteren ausgedehnten Militärkampagne in Mesopotamien hat die osmanische Regierung heute früh zurück telegrafiert, dass sie von einer weiteren Einmischung in die assyrische Angelegenheit absehen und den Assyrern ganz offiziell ihre Unabhängigkeit zugestehen wird. Auch wenn sie sich weigern, die Assyrer anzuerkennen, und behaupten, dass Basra Vilayet in seiner Gesamdieit Teil des Osmanischen Reiches bleibt, werden sich die Türken in der Praxis nicht mehr in Basra einmischen."
 assyria_events.10.a: "Ein freudiger Tag für alle!"
 assyria_events.10.b: "Ruhm für Assyrien! (Spielt als Assyrien)"
 
-assyria_events.11.t: "[CAN.GetName] fordert ein Ende der Feindseligkeiten in Basra"
+assyria_events.11.t: "[CAN.GetNameDefCap] fordert ein Ende der Feindseligkeiten in Basra"
 assyria_events.11.d: "In Fortsetzung ihrer jahrhundertealten Politik der Einmischung in die Angelegenheiten anderer Nationen hat der britische Botschafter die osmanische Regierung aufgefordert, eine friedliche Lösung des assyrischen Debakels zu erörtern.\n\nSie fordern einen sofortigen Rückzug aller osmanischen Streitkräfte aus Basra Vilayet und verlangen ein Ende der Feindseligkeiten mit dem neu ausgerufenen assyrischen Staat. Eine solch lächerliche Forderung kann nicht hingenommen werden, sie würde dem Ansehen der Pforte immensen Schaden zufügen und wahrscheinlich auch zu verstärktem Separatismus in anderen Teilen des Reiches führen, vor allem bei den Griechen und Arabern."
 assyria_events.11.a: "Absurd! Wir lehnen ihre Bedingungen ab."
 assyria_events.11.b: "Wir werden dieses Angebot annehmen."
 
-assyria_events.12.t: "[OTT.GetName] akzeptiert unser Angebot"
+assyria_events.12.t: "[OTT.GetNameDefCap] akzeptiert unser Angebot"
 assyria_events.12.d: "Indem sie unserem Vorschlag zustimmte, hat die osmanische Armee die Feindseligkeiten mit den assyrischen Rebellen beendet. Die Pforte räumt ihnen das Recht ein, ein eigenes Parlament zu gründen und eigene Sicherheitskräfte zu unterhalten, und gibt den meisten ihrer Forderungen nach, außer der vollständigen Unabhängigkeit."
 assyria_events.12.a: "Eine weitere friedliche Lösung!"
 
-assyria_events.13.t: "[OTT.GetName] lehnt unseren Vorschlag ab"
+assyria_events.13.t: "[OTT.GetNameDefCap] lehnt unseren Vorschlag ab"
 assyria_events.13.d: "Es überrascht nicht, dass die Erhabene Pforte unseren Vorschlag abgelehnt und ihre Operationen in Basra verstärkt hat, um dem assyrischen Aufstand ein schnelles und entscheidendes Ende zu bereiten. Da sich die Situation für die assyrischen Leviten weiter verschlechtert, haben einige eine direkte militärische Intervention gefordert, um sowohl den Schutz des assyrischen Volkes zu gewährleisten als auch die riesigen Ölvorkommen des Irak zu sichern.\n\nEin Auslandsfeldzug im Nahen Osten dürfte derzeit nicht in unserem Interesse liegen, aber vielleicht könnten wir materielle Unterstützung organisieren und Freiwillige zur Hilfe schicken, ohne gleich den Krieg zu erklären."
 assyria_events.13.a: "Wir sollten es unterlassen, uns einzumischen."
 assyria_events.13.b: "Wir werden senden, was wir können."
@@ -373,9 +371,17 @@ assyria_events.13.e: "Irgendetwas sagt mir, dass sie das ganz alleine schaffen k
 assyria_events.13.f: "Helft ihnen und sorgt für ihren Erfolg! (Spielt als Assyrien)"
 assyria_events.13.g: "Wir dürfen nichts unversucht lassen, um Assyrien zu retten! Alle Mann an Deck! (Spielt als Assyrien)"
 
-assyria_events.14.t: "[CAN.GetName] weigert sich, in unserem Namen einzugreifen"
+assyria_events.14.t: "[CAN.GetNameDefCap] weigert sich, in unserem Namen einzugreifen"
 assyria_events.14.d: "Ungeachtet der Bitten des Patriarchen selbst hat die Regierung in Ottawa Basra mitgeteilt, "dass ein Konflikt mit der türkischen Regierung nicht erwünscht ist" und dass sie sich daher in keiner Weise in den Konflikt einmischen wird."
 assyria_events.14.a: "Wir sind dem Untergang geweiht..."
+
+assyria_events.28.t: "[CAN.GetNameDefCap] schickt Ausrüstung"
+assyria_events.28.d: "[CAN.GetNameDefCap] hat [OTT.GetNameDefCap] gebeten, uns Autonomie zu gewähren, aber dies wurde von den heimtückischen Türken abgelehnt. Während unsere Freunde in der Entente keine Truppen für unseren Kampf bereitstellen können, sind einige Waffen und Männer bereits an unseren Küsten angekommen."
+assyria_events.28.a: "Wir müssen für alles dankbar sein, was wir bekommen."
+
+assyria_events.29.t: "[CAN.GetNameDefCap] schickt Hilfe"
+assyria_events.29.d: "[CAN.GetNameDefCap] hat [OTT.GetNameDefCap] gebeten, uns die Unabhängigkeit zu gewähren, aber das wurde von den heimtückischen Türken abgelehnt. Unsere Freunde von der Entente haben bereits damit begonnen, Ausrüstung und Arbeitskräfte in das Land zu bringen, und eine begrenzte Anzahl von professionellen Truppen wird ebenfalls entsandt."
+assyria_events.29.a: "Wir wissen ihre Hilfe zu schätzen."
 
 # Peace Events
 assyria_events.15.t: "Assyrien verkündet den Sieg im Irak"
@@ -390,14 +396,6 @@ assyria_events.16.a: "Basra wird das neue Assyrien sein!"
 assyria_events.17.t: "Sieg in der Levante!"
 assyria_events.17.d: "Die osmanischen Streitkräfte sind auf dem Rückzug, als die tapferen Söhne Assyriens die Mauern von Bagdad durchbrechen. Der Sieg ist unser und seine Beute auch!"
 assyria_events.17.a: "Assyrien hat seine Stärke bewiesen!"
-
-assyria_events.28.t: "[CAN.GetName] schickt Ausrüstung"
-assyria_events.28.d: "[CAN.GetName] hat [OTT.GetName] gebeten, uns Autonomie zu gewähren, aber dies wurde von den heimtückischen Türken abgelehnt. Während unsere Freunde in der Entente keine Truppen für unseren Kampf bereitstellen können, sind einige Waffen und Männer bereits an unseren Küsten angekommen."
-assyria_events.28.a: "Wir müssen für alles dankbar sein, was wir bekommen."
-
-assyria_events.29.t: "[CAN.GetName] schickt Hilfe"
-assyria_events.29.d: "[CAN.GetName] hat [OTT.GetName] gebeten, uns die Unabhängigkeit zu gewähren, aber das wurde von den heimtückischen Türken abgelehnt. Unsere Freunde von der Entente haben bereits damit begonnen, Ausrüstung und Arbeitskräfte in das Land zu bringen, und eine begrenzte Anzahl von professionellen Truppen wird ebenfalls entsandt."
-assyria_events.29.a: "Wir wissen ihre Hilfe zu schätzen."
 
 # Flavour Events
 assyria_events.18.t: "Die Rede des Patriarchen"

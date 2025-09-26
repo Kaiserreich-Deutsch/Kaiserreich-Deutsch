@@ -9,613 +9,608 @@ DEI_country_intro_background: "GFX_DEI_intro"
 DEI_country_intro_header: "Niederländisch-Indien im Jahr 1936"
 DEI_country_intro_content: "Abgesehen von der syndikalistischen Revolte im Jahr 1925 war das Kronjuwel des niederländischen Reiches ein Leuchtturm der Stabilität, der den Aufstieg der Niederlande in Mitteleuropa nutzte, um seine Waren (Zucker, Kaffee, Öl) auf den neu erschlossenen Märkten zu verkaufen. Trotz der Konkurrenz durch die nun gut aufgestellte und wieder aufgebaute deutsche Konkurrenz konnte dieses Wirtschaftswachstum mithalten, und die Stabilität ging damit einher.\n\nTrotz dessen unterdrücken die niederländischen Behörden jeden Ruf nach Unabhängigkeit, da die niederländische Regierung glaubt, dass sie ohne 'de oost' nicht überleben kann, aber trotzdem wachsen die Bewegungen. Viele in der Kolonialverwaltung befürchten, dass sich Ereignisse wie 1925 wiederholen könnten, wenn es erneut zu wirtschaftlicher Not käme, oder noch schlimmer..."
 
-DEI_guide: "§MPalar wird neuer Generalgouverneur§! (§aAutoritär Demokratisch§!)\n£white_dot Die Niederlande sollten eine linke Regierung haben oder die Spielregel \"Zersetzung der Säulen\" sollte auf PvdV/VVD-Wilhelmina, SDAP-VDB oder auf einen anderen republikanischen Weg gesetzt sein.\n\n§MStarkenborgh-Stachouwer wird neuer Generalgouverneur§! (§aAutoritär Demokratisch§!)\n£white_dot Die Niederlande haben eine konservative Regierung oder die Spielregel \"Zersetzung der Säulen\" sollte auf CNA-LSP-Koalition/LSP-Wilhelmina oder CNA-Mehrheit gesetzt sein.\n\n§MFurnster wird neuer Generalgouverneur§! (§aAutoritär Demokratisch§!)\n£white_dot Die Niederlande sollte eine autoritäre Regierung haben oder die Spielregel \"Zersetzung der Säulen\" sollte auf CNA-VHN-Koalition, Militärjunta oder einer der VNH Diktaturen gesetzt sein.\n\n§CAnmerkung: Halten Sie die Einheit der Indonesien-Rebellion auf einem mittleren Niveau, damit der islamistische Staatsstreich stattfinden kann, oder auf einem niedrigen Niveau, damit auch der royalistische Gegenputsch stattfinden kann, wenn Sie als Indonesien spielen.§!"
+DEI_guide: "§MPalar wird neuer Generalgouverneur§! ($authoritarian_democrat_coloured$)\n£white_dot Die Niederlande sollten eine linke Regierung haben oder die Spielregel \"Zersetzung der Säulen\" sollte auf PvdV/VVD-Wilhelmina, SDAP-VDB oder auf einen anderen republikanischen Weg gesetzt sein.\n\n§MStarkenborgh-Stachouwer wird neuer Generalgouverneur§! ($authoritarian_democrat_coloured$)\n£white_dot Die Niederlande haben eine konservative Regierung oder die Spielregel \"Zersetzung der Säulen\" sollte auf CNA-LSP-Koalition/LSP-Wilhelmina oder CNA-Mehrheit gesetzt sein.\n\n§MFurnster wird neuer Generalgouverneur§! ($authoritarian_democrat_coloured$)\n£white_dot Die Niederlande sollte eine autoritäre Regierung haben oder die Spielregel \"Zersetzung der Säulen\" sollte auf CNA-VHN-Koalition, Militärjunta oder einer der VNH Diktaturen gesetzt sein.\n\n§CAnmerkung: Halten Sie die Einheit der Indonesien-Rebellion auf einem mittleren Niveau, damit der islamistische Staatsstreich stattfinden kann, oder auf einem niedrigen Niveau, damit auch der royalistische Gegenputsch stattfinden kann, wenn Sie als Indonesien spielen.§!"
 
 ### Events ###
-dei.2.t: "Der Schwarze Montag trifft die Indies"
-dei.2.d: "Die Folgen der wirtschaftlichen Not, die Europa nach dem Schwarzen Montag traf, waren bald auch in Niederländisch-Indien zu spüren, das seine Waren seit dem Ende des Weltkriegs auf dem mitteleuropäischen Markt verkaufte. Da sich der einfache Mann in Europa den Kauf von Waren wie Zucker und Kaffee nicht mehr leisten konnte, brachen die Preise für diese Waren ein, was für die hiesigen Bauern schwerwiegende Folgen hatte."
-dei.2.a: "Oh nein!"
-
-dei.3.t: "Wachsende Einheit in den Unabhängigkeitsbewegungen"
-dei.3.d: "Die PID berichtet, dass die Einigkeit unter den Unabhängigkeitsbewegungen in letzter Zeit zugenommen hat. Es wäre ratsam, ein wachsames Auge auf sie zu werfen und sie daran zu hindern, stärker zu werden (und vorzugsweise ihre Einheit zu schwächen), damit ihre Zusammenarbeit nicht zu einer stärkeren Gesamtbewegung führt."
-dei.3.a: "Wir werden wachsam sein!"
-
-dei.4.t: "Sinkende Einigkeit in den Unabhängigkeitsbewegungen"
-dei.4.d: "Die PID berichtet, dass die Einigkeit zwischen den Unabhängigkeitsbewegungen ins Wanken gerät und nun sogar schwindet. Auch wenn es unklug wäre, sich jetzt zurückzulehnen und zu entspannen, werden wir weniger Probleme haben, sie zu kontrollieren, sobald sich Risse in ihrer Zusammenarbeit abzeichnen."
-dei.4.a: "Das ist großartig!"
-
-dei.5.t: "Die Stärke der Unabhängigkeitsbewegungen nimmt zu"
-dei.5.d: "Die PID berichtet, dass die Bewegungen, die die Unabhängigkeit von Indonesien propagieren, an Stärke gewinnen. Vielleicht sollten wir uns überlegen, in heiklen Situationen vorsichtiger zu sein und gegen sie vorzugehen, wo wir können, um sie nicht unkontrollierbar zu machen."
-dei.5.a: "Besorgniserregend..."
-
-dei.6.t: "Die Stärke der Unabhängigkeitsbewegungen lässt nach"
-dei.6.d: "Die PID berichtet, dass die Bewegungen, die die Unabhängigkeit von Indonesien propagieren, an Durchschlagskraft verlieren. Wir sollten zwar wachsam bleiben, da sie nicht tot sind, aber wir können in naher Zukunft etwas entspannter regieren, da es kurzfristig leichter sein wird, sie zu kontrollieren."
-dei.6.a: "Großartig!"
-
-dei.7.t: "Generalgouverneur De Jonge tritt zurück"
-dei.7.d: "Unser Generalgouverneur Bonifacius de Jonge hatte mehrfach seine Absicht bekundet, von seinem Amt als Generalgouverneur der Indies zurückzutreten, dies aber angesichts der niederländischen Wahlen, die sich immer mehr zu einem Wahlfest für seine Gönnerpartei VNH in den Niederlanden entwickelten, aufgeschoben. Die Wahlen sind nun wohl oder übel vorbei, und es bleibt abzuwarten, wen der neue Kolonialminister als seinen Nachfolger ernennen wird."
-dei.7.a: "Wir erwarten die Entscheidung mit Freude!"
-
-dei.8.t: "Ein Ersatz für den Generalgouverneur"
-dei.8.d: "Der Generalgouverneur von Niederländisch-Indien, Bonifacius Cornelis de Jonge, hat seinen Rücktritt angekündigt. Er hat die Wahl abgewartet, damit die neue Regierung den neuen Generalgouverneur ernennen kann, ohne dass er innerhalb eines halben Jahres ersetzt werden muss, was in den Augen von de Jonge für die Stabilität der Indischen Inseln schädlich wäre..."
-dei.8.a: "Nico Palar, der mit weicher Hand regieren wird."
-dei.8.b: "A. Tjarda van Starkenborgh-Stachouwer, die ausgewogene Kandidatin."
-dei.8.c: "Johan Furstner, der die Insulaner mit Gewalt unter Kontrolle halten wird!"
-
-dei.9.t: "Generalgouverneur Nico Palar"
-dei.9.d: "Das Kolonialministerium hat beschlossen, den Sozialdemokraten Nicodemus Palar zum neuen Generalgouverneur zu ernennen, der auch der erste Generalgouverneur der Kolonie für Inländer ist. Es wird erwartet, dass der neue Generalgouverneur die Indiens durch Kompromisse regiert und auf einen gleichberechtigten Status innerhalb des Königreichs oder sogar auf die nationale Unabhängigkeit hinarbeitet.\n\nNatürlich sind die weiße herrschende Klasse und die indisch-niederländische Gemeinschaft durch diese Entwicklung etwas beunruhigt, da sie das Ende der Ostindien, wie sie es kennen, fürchten. Auf der anderen Seite sind die Inländer sehr glücklich über diese Veränderung."
-dei.9.a: "Willkommen, Eure Exzellenz!"
-
-dei.10.t: "Generalgouverneur A. Tjarda van Starkenborgh-Stachouwer"
-dei.10.d: "Das Kolonialministerium hat beschlossen, Alidius Tjarda van Starkenborgh-Stachouwer zum neuen Generalgouverneur zu ernennen, wie die meisten angesichts seines Werdegangs erwartet hatten. Es wird erwartet, dass der neue Generalgouverneur versuchen wird, ein Gleichgewicht zwischen Unterdrückung und Kompromiss zu finden, in der Hoffnung, den Indios eines Tages einen gleichberechtigten Status innerhalb des Königreichs zu geben.\n\nDie weiße herrschende Klasse und die indisch-niederländische Gemeinschaft befürworten diese Wahl, während die Inländer gleichgültig sind."
-dei.10.a: "Willkommen, Eure Exzellenz!"
-
-dei.11.t: "Generalgouverneur Johan Furstner"
-dei.11.d: "Das Kolonialministerium hat beschlossen, den VNH-Mann Johan Furstner zum neuen Generalgouverneur zu ernennen, die bevorzugte Wahl als Nachfolger des ehemaligen Generalgouverneurs De Jonge. Es wird erwartet, dass der neue Generalgouverneur hart durchgreift, den Nationalismus mit Gewalt niederschlägt und den Status quo der niederländischen Herrschaft festigt. Gleichberechtigung steht nicht auf der Tagesordnung. Die weiße herrschende Klasse und die indisch-niederländische Gemeinschaft sind mit der Wahl eines Hardliners sehr zufrieden, aber es ist unwahrscheinlich, dass die Inselbewohner damit zufrieden sein werden."
-dei.11.a: "Willkommen, Eure Exzellenz!"
-
-dei.12.t: "Sie haben einen Fehler gefunden!"
-dei.12.d: "Du hast einen Fehler im Zusammenhang mit Niederländisch-Indien gefunden. Bitte melden Sie dies auf GitHub und taggen Sie Thomahawk2k. Vielen Dank für Ihre Zeit."
-dei.12.a: "Natürlich werde ich das melden!"
-
-dei.13.t: "Proklamation der indonesischen Unabhängigkeit"
-dei.13.d: "Angesichts des jüngsten Wachstums der indonesischen Unabhängigkeitsbewegung ist dies wahrscheinlich keine Überraschung: Sukarno hat eine proklamasi, eine Proklamation, herausgegeben, in der er alle Indonesier zum Widerstand gegen die holländischen Besatzer und zum Beitritt zur Tentara Keselamatan Rakyat, der Sicherheitsarmee des Volkes, aufruft. Es scheint, als sei eine regelrechte Revolte zur Beseitigung der niederländischen Herrschaft auf dem indonesischen Archipel ausgebrochen."
-dei.13.a: "Bersiap! (Spielt als Indonesien)"
-dei.13.b: "Bereid de Politionele Acties Voor! (Spielt als Niederländisch-Indien)"
-
-dei.14.t: "Niederländische Zeughäuser überrannt"
-dei.14.d: "In der Anfangsphase der indonesischen Nationalrevolution haben unsere tapferen Truppen die holländischen Waffenlager auf Java und Sumatra geplündert, um die dort gelagerten Geschütze zu erbeuten. Wir werden sie gut gebrauchen können, um die koloniale Bedrohung aus unserem Heimatland zu vertreiben!"
-dei.14.a: "Lang lebe die Republik!"
-
-dei.15.t: "TKR überfällt Zeughäuser"
-dei.15.d: "Die republikanischen Streitkräfte Indonesiens haben überall in den Ländern Waffenlager geplündert und sie aufgrund ihrer zahlenmäßigen Überlegenheit schnell überrannt. Die Zahl der Opfer ist zwar gering, aber wir haben mehrere Waffen an die Republikanische Armee von Indonesien verloren, was später zu einem Problem werden könnte."
-dei.15.a: "Oh nein!"
-
-dei.16.t: "Volksraad beschließt die Sutardjo-Petition"
-dei.16.d: "Der Volksraad, das weitgehend machtlose "Parlament" unserer Kolonie, hat eine Petition von Soetardjo Kartohadikoesoemo angenommen, in der eine Konferenz gefordert wird, um über die Zukunft Niederländisch-Indiens zu sprechen, insbesondere im Hinblick auf die Förderung des Landes zu einem gleichberechtigten Status innerhalb des Königreichs. Nach seiner Verabschiedung ist es nun die Aufgabe des Generalgouverneurs, ihn nach Hause zu schicken. Der Volksraad hat jedoch nur eine beratende Funktion, und die niederländische und indische Bevölkerung ist über die Auswirkungen der Petition besorgt, so dass wir auch einfach ein Veto einlegen könnten."
-dei.16.a: "Veto, natürlich!"
-dei.16.b: "Schicken wir es in die Niederlande."
-
-dei.17.t: "Die Sutardjo-Petition"
-dei.17.d: "Auf dem Schreibtisch von Premierminister Colijn ist eine vom Volksraad verabschiedete Petition eingetroffen, die uns vom Generalgouverneur [DEI.GetLeader] zugesandt wurde. Offenbar wird in der Petition ein Kongress gefordert, um über die Zukunft des Status von Niederländisch-Indien innerhalb des Königreichs zu sprechen. Der Volksraad hat bereits alle Fristen, die der ursprüngliche Vorschlag enthielt, gestrichen, so dass der Premierminister bereits seine Entscheidung getroffen hat, wann er die Petition im Abgeordnetenhaus behandeln will."
-dei.17.a: "... irgendwann nächstes Jahr klingt gut!"
-
-dei.18.t: "Sutardjo-Petition im Abgeordnetenhaus"
-dei.18.d: "Wie von Hendrik Colijn vor etwa einem Jahr beschlossen, wurde die Sutardjo-Petition im Abgeordnetenhaus eingebracht, die einen Kongress über die Revision des Status von Niederländisch-Indien fordert, insbesondere zur Förderung eines gleichberechtigten Status innerhalb des Königreichs. Bei der Abstimmung wird die Petition..."
-dei.18.a: "... akzeptiert: die Kolonialregierung soll einen Kongress einberufen, wenn sie dazu bereit ist!"
-dei.18.b: "... abgelehnt: ein solcher Vorschlag sollte von den Niederlanden geregelt werden."
-
-dei.19.t: "Sutardjo-Petition abgelehnt"
-dei.19.d: "Das Mutterland hat die Sutardjo-Petition abgelehnt, die wir vor etwa einem Jahr an sie geschickt haben. Die meisten, die dagegen gestimmt haben, begründeten dies damit, dass Niederländisch-Indien ein überseeisches Gebiet ist und keine Kolonie, die zu einem gleichberechtigten Status erhoben werden kann. Der wahre Grund ist natürlich, dass sie glauben, die Indonesier seien noch nicht reif für die Selbstverwaltung, und es ist offensichtlich, dass die Indonesier damit nicht zufrieden sein werden."
-dei.19.a: "Ende gut, alles gut!"
-
-dei.20.t: "Sutardjo-Petition angenommen"
-dei.20.d: "Das Heimatland hat die Sutardjo-Petition akzeptiert, die wir vor etwa einem Jahr an sie gerichtet haben, obwohl sie alle Fristen gestrichen haben. Sie wissen sehr wohl um die Folgen einer solchen Konferenz, daher wird versichert, dass wir sie mit Vorsicht behandeln und erst dann, wenn wir bereit sind. Die Tür steht jedoch offen für die Förderung der Indischen Inseln zu einem gleichberechtigten Status."
-dei.20.a: "Die Insulaner werden sich freuen."
-
-dei.21.t: "Gründung der GAPI"
-dei.21.d: "Infolge der Ablehnung ihres Plans für eine Konferenz haben sich alle Parteien der Insulaner (mit Ausnahme der PNI) zu einer einzigen politischen Föderation der Indonesier zusammengeschlossen, die die vollständige Einrichtung eines indonesischen Parlaments und damit die Wiederherstellung des gleichberechtigten Status der Indonesier fordert. Da die niederländische Regierung offensichtlich nicht gewillt ist, diesen Wunsch zu erfüllen, insbesondere angesichts der zunehmenden internationalen Spannungen, wird dies nur dazu beitragen, die Insulaner in der Unabhängigkeitsbewegung zu vereinen."
-dei.21.a: "Warum muss mir das immer passieren?!"
-
-dei.22.t: "Die Rundtisch-Konferenz"
-dei.22.d: "Die Niederländer haben gezeigt, dass sie nicht in der Lage sind, unsere Rebellion zu unterdrücken, und da die internationale Gemeinschaft auf unsere Notlage aufmerksam geworden ist, wird ihre Position immer instabiler. Wir werden wahrscheinlich in der Lage sein, ein günstiges Abkommen auszuhandeln, das die Souveränität über den gesamten indonesischen Archipel begründet."
-dei.22.a: "Der Tag ist gekommen!"
-
-dei.23.t: "Die Rundtisch-Konferenz"
-dei.23.d: "Da es uns nicht gelungen ist, den Aufstand niederzuschlagen und die republikanischen Kräfte praktisch ganz Java und Sumatra beherrschen, scheint es unmöglich, unsere Position in unserer Kolonie zu halten. Die Republikaner haben ihre Forderungen gestellt: volle Souveränität über die gesamten Indischen Inseln, aber vielleicht können wir wenigstens Teile unserer Kolonie retten?"
-dei.23.a: "Unterzeichnet den Vertrag."
-dei.23.b: "Wir werden Neuguinea nicht aufgeben!"
-dei.23.c: "Wir werden weder Neuguinea noch die Molukken aufgeben!"
-dei.23.e: "Wir werden auf keinen Fall aufgeben!"
-
-dei.24.t: "Die Niederländer unterzeichnen den Vertrag!"
-dei.24.d: "Die Niederländer haben zugestimmt, die gesamte Souveränität über die Indischen Inseln an die Republik Indonesien zu übertragen. Dies ist ein großer Tag für unser Land, an den sich auch die Generationen nach uns erinnern werden, denn heute wurde Indonesien offiziell ein unabhängiges Land, frei vom Imperialismus!"
-dei.24.a: "Merdeka ist erreicht!"
-
-dei.25.t: "Die Niederländer stellen Gegenforderungen!"
-dei.25.d: "Da es nicht möglich ist, die erforderliche Unterstützung für die Verfassungsänderung zu erhalten, die die Übertragung der Souveränität ermöglichen würde, erklären die Niederländer, dass sie die Souveränität über Westirian (Neuguinea) behalten müssen. Dies ist zwar ein Rückschlag, doch scheint es derzeit unwahrscheinlich, dass wir die Insel mit Gewalt einnehmen können, da wir nicht gegen die niederländische Marine ankommen. Vielleicht sind wir besser dran, wenn wir diesem Abkommen zustimmen, als die Feindseligkeiten fortzusetzen: Sie werden uns schließlich den viel wertvolleren Rest des Archipels überlassen..."
-dei.25.a: "Wir unterschreiben, Westirian holen wir später!"
-dei.25.b: "Dies ist inakzeptabel."
-
-dei.26.t: "Die Indonesier weigern sich!"
-dei.26.d: "Die republikanische Delegation war empört über unsere mangelnde Bereitschaft, ihnen das gesamte ehemalige Ostindien zu überlassen. Es scheint, dass die Verhandlungen gescheitert sind und der Krieg weitergehen wird."
-dei.26.a: "Das Land war nicht einmal viel wert!"
-
-dei.27.t: "Die Niederländer stellen Gegenforderungen!"
-dei.27.d: "Die Niederländer begründen dies damit, dass sie nicht die nötige Unterstützung für die Änderung der Verfassung erhalten können, um die Übertragung der Souveränität zu ermöglichen, und dass sie die Souveränität über Westirian (Neuguinea) und die christlichen Molukken behalten müssen, die sie während der Revolution kontinuierlich unterstützt haben. Dies ist zwar ein Rückschlag, doch scheint es derzeit unwahrscheinlich, dass wir in der Lage sein werden, die Inseln mit Gewalt einzunehmen, da wir nicht gegen die niederländische Flotte ankommen. Vielleicht ist es besser, wenn wir uns auf dieses Abkommen einlassen, als die Feindseligkeiten fortzusetzen: Sie werden uns den viel wertvolleren Rest des Archipels schließlich überlassen..."
-dei.27.a: "Wir werden das schaffen..."
-dei.27.b: "Indonesien ohne seinen Osten ist nicht Indonesien!"
-
-dei.28.t: "Die Niederländer lehnen ab!"
-dei.28.d: "Obwohl sie den republikanischen Streitkräften eindeutig unterlegen sind, weigern sich die sturen Niederländer immer noch, einen Vertrag mit 'Geächteten und Verbrechern' zu unterzeichnen. Es sieht so aus, als müssten wir unseren Kampf fortsetzen, bis sie endlich ihren Mut verlieren."
-dei.28.a: "Ein echter Rückschlag!"
-
-dei.35.t: "The Netherlands Abandons the Indies"
-dei.35.d: "Aus Indien sind beunruhigende Nachrichten eingetroffen: Die Sozialisten, die in der Heimat an die Macht gekommen sind, haben durch ihre parlamentarische Stellung die alte Ordnung gestürzt und uns nun angewiesen, alle niederländischen Bürger in Indonesien zu schützen und ihnen bei der Übersiedlung in die Niederlande zu helfen, wenn sie dies wünschen, sowie einen geordneten Rückzug aus dem Gebiet zu gewährleisten. Es überrascht nicht, dass das Chaos ausbrach und der gerade aus dem Gefängnis entlassene Sukarno die Situation nutzte, um die Unabhängigkeit Indonesiens auszurufen. Inzwischen ist der Generalgouverneur verschwunden, und Söldner haben die Kontrolle über einen Teil der Insel Borneo übernommen. Die indischen Inseln brechen gerade wegen dieser Erklärung zusammen."
-dei.35.a: "Spielt als Batavianischen Kommune."
-dei.35.b: "Spielt als Indonesien."
-
-dei.36.t: "Anarchie in Niederländisch-Indien"
-dei.36.d: "Die sozialistische Regierung der Niederlande hat ihre Kolonie plötzlich aufgegeben, ihre eigene Anwesenheit für illegal erklärt und ihre Militärpräsenz angewiesen, niederländische Zivilisten zu schützen, die jetzt zurückkehren wollen. Die ersten Berichte deuten darauf hin, dass Sukarno und seine Nationale Partei die Kontrolle über die Indies übernehmen werden, die unserer Herrschaft bestenfalls gleichgültig und schlimmstenfalls feindlich gegenüberstehen werden. Während eine Militärexpedition zur Befriedung Indiens Ärger verspricht, könnten wir beschließen, so viel wie möglich vom ehemals niederländischen Neuguinea einzunehmen und die ehemals niederländische Seite der Straße von Malakka zu sichern."
-dei.36.a: "Bereitet die Schiffe vor!"
-dei.36.b: "Ich habe darauf keine Lust..."
-
-dei.37.t: "Die Deutschen verletzen unsere Souveränität"
-dei.37.d: "Aus Sorge um unsere Haltung gegenüber ihrer Herrschaft und das Machtgleichgewicht in der Region haben die Deutschen Schiffe entsandt, um die sumatranische Seite der Straße von Malakka zu sichern, und sind von Kaiser-Wilhelmsland aus nach Neuguinea vorgedrungen. Leider können wir angesichts des derzeitigen Chaos, das durch den plötzlichen Rückzug der Niederländer entstanden ist, nur wenig dagegen unternehmen."
-dei.37.a: "Oh nein!"
-
-dei.38.t: "Deutsche Präsenz in Neuguinea"
-dei.38.d: "Die sozialistische Regierung in den Niederlanden zog sich plötzlich aus Niederländisch-Indien zurück. Die lokale Bevölkerung, angeführt von dem prominenten Nationalisten Sukarno, erklärte ihren eigenen souveränen Staat: Indonesien. Es überrascht nicht, dass die Deutschen beschlossen, dass dies der ideale Zeitpunkt war, um Westneuguinea zu übernehmen. Wenn wir verhindern wollen, dass die Deutschen das ganze Land einnehmen, müssen wir schnell handeln!"
-dei.38.a: "Wir können sie das nicht tun lassen!"
-dei.38.b: "Wir haben nicht die Mittel."
-
-dei.39.t: "Südwestneuguinea ist bereit für die Übernahme"
-dei.39.d: "Wir hatten erwartet, dass die Australier eindringen und uns bei der Einnahme des südlichen Teils von Niederländisch-Neuguinea blockieren würden, aber das scheint nicht der Fall gewesen zu sein. Das Land ist offen, und unsere Streitkräfte rücken in die ehemals niederländischen Forts in diesem Gebiet ein."
-dei.39.a: "Unerwartet, aber willkommen."
-
-dei.40.t: "[From.GetNameDefCap] erobert den Südwesten Irians"
-dei.40.d: "[From.GetAdjective] Truppen drangen ein und besetzten den Südwesten Irians. Das ist beleidigend und faktisch inakzeptabel, aber aufgrund des chaotischen Rückzugs der Niederländer können wir wenig dagegen tun..."
-dei.40.a: "Inakzeptabel!"
-
-dei.41.t: "Kongress von Batavia - Beginn"
-dei.41.d: "Der Kongress von Batavia hat begonnen, Vertreter aus ganz Indien sind angereist, um über die Zukunft Niederländisch-Indiens und seine Gleichstellung mit den Niederlanden zu verhandeln.\n\nDie erste strittige Frage ist, wie diese neuen Länder innerhalb des Königreichs aussehen sollen. Die meisten Nationalisten scheinen eine Lösung zu bevorzugen, bei der Java und Sumatra vereinigt werden, Borneo und Celebes eigene Länder sind und ein weiterer Staat namens 'Ost-Indonesien' die Molukken und insgesamt den christlichen Teil des Landes umfasst. Viele (Niederländer und Ostindonesier) befürchten jedoch, dass ein solcher Java-Sumatra-Staat das neue Königreich der Niederlande dominieren würde, und würden es lieber sehen, wenn die beiden Inseln in mehrere Länder aufgeteilt würden. Dann gibt es noch den Mittelweg, bei dem sowohl Java als auch Sumatra eigene Länder innerhalb des Königreichs sind."
-dei.41.a: "Es ist besser, die Länder klein und kontrollierbar zu halten."
-dei.41.b: "Der Mittelweg: Sie geben etwas, wir geben etwas."
-dei.41.c: "Die Vereinigung von Java und Sumatra erscheint am sinnvollsten."
-
-dei.42.t: "Kongress von Batavia"
-dei.42.d: "Die nächste strittige Frage ist die Art und Weise, wie das Königreich insgesamt regiert werden soll. Die Länder innerhalb des Königreichs haben volle interne Autonomie, aber es sollte eine gewisse Aufsicht geben, vor allem wenn Änderungen an der Verfassung vorgenommen werden müssen, darin sind sich alle Vertreter einig. Die Niederländer sind der Meinung, dass die Niederlande diese Gruppe anführen sollten, während alle anderen Länder ihren Vertreter in den Ministerrat des Königreichs entsenden. Die Vertreter der Indonesier lehnen dies entschieden ab, da dies undemokratisch wäre und jedes Land entsprechend seiner Bevölkerungszahl in diesem Rat vertreten sein sollte."
-dei.42.a: "Nein, das sind immer noch die Niederlande..."
-dei.42.b: "Repräsentation nach Bevölkerungszahl ist nur gerecht!"
-
-dei.43.t: "Kongress von Batavia"
-dei.43.d: "Es gab mehrere Themen, bei denen man sich problemlos einigen konnte, als gegen Ende der Konferenz ein weiteres sehr strittiges Thema auftauchte: die Außenpolitik. Natürlich stehen die Länder unter dem Dach des Königreichs zusammen, aber die Niederländer wollen die Außenpolitik kontrollieren, wenn sie keines der anderen Länder direkt betrifft, während die Indonesier viel lieber ein einheitliches Außenministerium sehen würden, das von den autonomen Ländern gemeinsam eingerichtet wird. Sobald diese Frage geklärt ist, werden die Generalstaaten darüber abstimmen."
-dei.43.a: "Wir haben natürlich Recht..."
-dei.43.b: "Die Indonesier haben Recht."
-
-dei.44.t: "Das Ergebnis der Batavia-Konferenz"
-dei.44.d.dutch: "Die Delegierten der Konferenz in Batavia sind zu einem Ergebnis gekommen. Es ist klar, dass die Konferenz deutlich auf die pro-niederländische Seite gedrängt wurde, und es sieht nicht so aus, als ob die Indonesier damit sehr glücklich wären. Es ist wahrscheinlich genug, um eine begrenzte Zusammenarbeit zu erreichen, aber keine Begeisterung, außer vielleicht auf den Molukken."
-dei.44.d.balanced: "Die Delegierten der Konferenz in Batavia sind zu einem Ergebnis gekommen. Es ist klar, dass die Konferenz eine gute Mischung aus pro-niederländischer und pro-Einwohner Politik war, und obwohl vielleicht insgeheim sowohl die Niederländer als auch die Indonesier auf mehr gehofft hatten, ist keiner von beiden unzufrieden damit. Wahrscheinlich reicht sie aus, um im westlichen Teil Niederländisch-Indiens nur eine begrenzte Zusammenarbeit zu erreichen, aber zumindest auf den Molukken, den Kleinen Sunda-Inseln und West-Neuguinea ist die Begeisterung über diese Lösung groß."
-dei.44.d.indonesia: "Die Delegierten der Konferenz in Batavia sind zu einem Schluss gekommen. Es ist klar, dass die Konferenz zugunsten der indonesischen Seite ausfiel, was vielen Niederländern Unbehagen bereitet, da sie das Gefühl haben, dass ihr Land nie mehr dasselbe sein wird. Die Indonesier hingegen sind damit zufrieden, vor allem außerhalb von Java, Sumatra und Borneo."
-dei.44.a: "Der Vorschlag wird angenommen!"
-dei.44.b: "Der Vorschlag wird abgelehnt!"
-
-dei.47.t: "Die Generalstaaten lehnen den Vorschlag ab"
-dei.47.d: "Die Generalstaaten haben unseren Vorschlag für den neuen Indonesien-Status in naher Zukunft unerwartet abgelehnt. Natürlich sind die Indonesier über diese plötzliche Ablehnung ihrer Rechte nicht erfreut!"
-dei.47.a: "Dies könnte problematisch werden."
-
-dei.48.t: "Charta für das Königreich der Niederlande"
-dei.48.d: "Nach langwierigen Verhandlungen ist es nun an der Zeit, das Koninkrijksstatuut, die königliche Charta, zu unterzeichnen. Darin werden unsere kolonialen Besitzungen zu autonomen Ländern innerhalb des Königreichs, die sich selbst regieren, aber immer noch Teil des Königreichs der Niederlande sind, und die Untertanen aus jedem Land erhalten die niederländische Staatsbürgerschaft. Es sollte auch erwähnt werden, dass die Unabhängigkeit versprochen wurde, obwohl Klauseln eingebaut wurden, die sicherstellen, dass dies in Jahrzehnten und nicht in Jahren geschieht..."
-dei.48.a: "Es lebe das niederländische Königreich!"
-
-dei.49.t: "Gleichberechtigung gewährt!"
-dei.49.d: "Wie auf der Konferenz von Batavia vereinbart, wird Niederländisch-Indien nun aufhören zu existieren: Es wird in mehrere autonome Staaten innerhalb des niederländischen Königreichs aufgeteilt. Diese Staaten erhalten volle innere Autonomie, und alle niederländisch-ostindischen Untertanen erhalten die niederländische Staatsbürgerschaft."
-dei.49.a: "Es lebe das niederländische Königreich!"
-dei.49.b: "Lang lebe das niederländische Königreich und das Volk von Indonesien!"
-
-dei.51.t: "Verstärkung trifft ein"
-dei.51.d: "Gemäß unseren Vorbereitungen sind Verstärkungen eingetroffen, die helfen sollen, Aufstände der Eingeborenen und/oder ausländische Invasionen auf den Indischen Inseln abzuwehren."
-dei.51.a: "Ich freue mich über ihre Ankunft!"
-
-dei.52.t: "[DEI.GetLeader] Löst den Volksraad auf"
-dei.52.d: "Am frühen Morgen erließ der Generalgouverneur [DEI.GetLeader] ein Dekret, mit dem er den Volksraad ein für alle Mal aufhob und verkündete, die Institution diene nur dazu, die niederländische Herrschaft zu schwächen und helfe nur Geächteten wie Sukarno. Von nun an soll in Niederländisch-Indien die Loyalität gegenüber der Krone an erster Stelle stehen und nicht mehr die kleinlichen Beschwerden der kleinen Inländer-Mehrheit im Volksraad, die zuvor zu Rate gezogen werden musste. Einige Kritiker sagen, dass dies eher dazu dient, die persönliche Macht von [DEI.GetLeader] zu erweitern, aber das ist eindeutig unsinnig."
-dei.52.a: "Es war das Richtige zu tun!"
-
-dei.53.t: "[DEI.GetLeader] Löst den Volksraad auf"
-dei.53.d: "Aus Niederländisch-Indien erreichen uns Nachrichten, wonach der Generalgouverneur den Volksraad, das ohnehin nicht sehr mächtige gesetzgebende Organ, für eine noch unbekannte Zeit - möglicherweise für immer - aufgelöst hat. Er argumentiert, dass das Gremium von den Inselbewohnern benutzt wurde, um die niederländische Herrschaft zu untergraben."
-dei.53.a: "Wenn es dem Wohl unserer Herrschaft dient, ist es gerechtfertigt!"
-
-dei.54.t: "Die Niederländer erheben höhere Steuern"
-dei.54.d: "Angesichts der Krise des Schwarzen Montags in den Niederlanden beschloss die niederländische Regierung, uns zusätzliche Produktionsverpflichtungen aufzuerlegen, ohne dabei zu berücksichtigen, dass die Krise auch unsere Industrien hier getroffen hat. Es überrascht nicht, dass diese Maßnahme zwar den Niederlanden hilft, aber unsere Arbeit erschwert, da die Unabhängigkeitsaktivisten mit dem Argument, dass wir nur hier sind, um sie auszubeuten, mehr Druck machen."
-dei.54.a: "Dies ist ein Fehler!"
-
-dei.59.t: "Anarchie in Niederländisch-Westindien"
-dei.59.d: "Eine beunruhigende Wendung ist eingetreten: Die einheimische Bevölkerung in Indonesien, der Basis der niederländischen Exilanten, hat ihren ehemaligen Kolonialherrn gestürzt. Mit dem abgeschlagenen Kopf der Schlange ist das niederländische Imperium nicht mehr existent: Als die Nachricht die Westindischen Inseln erreichte, brach in den Kolonien Anarchie aus. Jetzt haben wir keine andere Wahl, als sie zu besetzen."
-dei.59.a: "Es ist unsere humanitäre Pflicht."
-
-dei.60.t: "Ausländische Piloten anlocken"
-dei.60.d: "Die Luftstreitkräfte der KNIL fehlt es an allem, angefangen von einem geeigneten Flugplatz bis hin zum Personal am Boden, um die Flugzeuge zu warten, über die sie derzeit verfügt. Diese Probleme werden von der neu gegründeten Niederländischen Beschaffungskommission angegangen, doch das Hauptproblem sind die Piloten. Eine Lösung für dieses Problem ist die Einstellung ausländischer Piloten, um die Lücke zu füllen, bis eine angemessene Lösung gefunden ist. Doch wie bei jedem Einstellungsprozess stellt sich die Frage, was wir diesen ausländischen Piloten bieten können, was sie in Deutsch-Ostasien oder Mittelafrika nicht bekommen."
-dei.60.a: "Eine schwierige Entscheidung: Was haben die Belgier im Kongo wieder gemacht?"
-
-dei.61.t: "[GetYear] Überprüfung der KNIL"
-dei.61.d: "Seit Mitte des 19. Jahrhunderts haben die Niederlande eine neutrale Position zwischen den Weltmächten eingenommen. Nachdem der Weltkrieg gezeigt hat, dass die Neutralität einer Nation keine Garantie dafür ist, einen Krieg zu vermeiden, und die Spannungen in Europa zwischen den syndikalistischen Nationen Großbritannien und Frankreich und dem imperialistischen Deutschen Reich langsam wieder zunehmen, spielt sich in ihrer weit entfernten Kolonie eine andere Geschichte ab.\n\nDa sich das Japanische Kaiserreich und Deutsch-Ostasien auf eine Schlacht um Asien vorbereiten und die Syndikalisten in Australasien aktiv sind, ist die KNIL (Koninklijk Nederlands Indisch Leger) bei weitem nicht in der Lage, die Kolonie angemessen zu verteidigen, da sie derzeit nur die Insel Java verteidigen kann.\n\nDer KNIL fehlt es an modernen Waffen, einer Kommando- und Kontrollstruktur und anderen Grundbedürfnissen, die derzeit mit der Aufstellung eines neuen Haushalts und der langsamen Zusammenlegung mehrerer Kommissionen zur Modernisierung der KNIL angegangen werden."
-dei.61.a: "Ons kostbaarste sieraad (Unser wertvollstes Juwel)"
-
-dei.62.t: "Überprüfung über die Niederländisch-Ostindische Flotte"
-dei.62.d: "Nach Abschluss der Überprüfung der Flotte von Niederländisch-Ostindien ist klar, dass die derzeitigen Marinestreitkräfte keinen angemessenen Schutz der Archipele bieten können. Der Silberstreif an der Bewertung war, dass die niederländisch-ostindische Flotte in der Lage war, die Piraterie in diesem Gebiet zu bekämpfen. Admiral Helfrich hat die Befugnis erhalten, dies durch seinen \"Vlootplan\" zu korrigieren.\n\nIn den Niederlanden selbst ist sein Vlootplan vielen ein Dorn im Auge, weil er U-Boote im Gegensatz zu Pantserschips fördert. Er sieht die Förderung der Taktik der \"Guerilla-Kriegsführung\" durch die Flotte vor, die Helfrich als \"Guerilla-Plan\" bezeichnet hat. Abgesehen davon ist dieser Vlootplan ein Segen für die junge niederländisch-ostindische Flotte, deren Matrosen sich unbedingt beweisen wollen."
-dei.62.a: "De Guerrilla's van de zee (Die Guerillas des Meeres)"
-
-dei.63.t: "Cultuurstelsel-Apartheid System durchgesetzt"
-dei.63.d: "[DEI.GetLeader] Endziel für Niederländisch-Indien war die Rückkehr zum Anbausystem des 19. Jahrhunderts, wobei Niederländisch-Indien für die Niederländer nichts anderes als eine Melkkuh war. Es scheint aber auch, dass mit der Trennung zwischen der europäischen Bevölkerung und den Einheimischen eine zusätzliche Schicht hinzugefügt wurde, wobei diejenigen, die in die Mitte fallen, von der Regierung als \"angemessen\" oder nicht angesehen werden. Die lokalen Unabhängigkeitsbewegungen sind gewachsen, und die Verwendung von \"polizeilichen Maßnahmen\" wird immer mehr zur Norm, wobei sich die Frage stellt, wie lange das noch so weitergeht?"
-dei.63.a: "Gekoloniseerd"
-
-dei.64.t: "Ein Neubeginn"
-dei.64.d: "Mit der Unterzeichnung des Koninkrijksstatuuts wurde eine gewisse Gleichberechtigung innerhalb der Inselgruppen erreicht. Obwohl diese neuen Nationen/Staaten mit sozialen und/oder wirtschaftlichen Problemen konfrontiert sind, scheinen sie alle eifrig zu zeigen, dass sie diese Herausforderungen selbst bewältigen können.\n\nObwohl es den Anschein hat, dass die javanischen und malaiischen Nationen/Staaten den Unabhängigkeitsprozess beschleunigen wollen, wünschen sich viele von ihnen eher einen \"Einheitsstaat\" als eine zerbrochene Föderation..."
-dei.64.a: "Interessant"
-dei.64.b: "Fein fein fein"
-
-dei.65.t: "Ein neuer Volksraad"
-dei.65.d: "Obwohl Niederländisch-Indien im Wesentlichen in kleinere Staaten aufgeteilt wurde, die von autonomen Regionen unter den Niederlanden bis hin zu großen Staaten reichen, die fast schon eigene Nationen sind, streben sie alle immer noch nach Repräsentation und Veränderung in den Hallen des sogenannten "alten Volksraads".\n\nSelbst mit den neuen Reformen und dem unterzeichneten Koninkrijksstatuut haben sich die javanisch-malaiischen Vertreter einigermaßen geeinigt, um den Fortschritt hin zu einer vollständigen Loslösung von der niederländischen Herrschaft zu \"beschleunigen\". Nicht alle Staaten haben die gleiche Vision eines vereinten \"Indonesien\", wobei die Vertreter von Timor, den Molukken und Papua mit dem derzeitigen Stand der Dinge zufrieden sind und eine "javanische" Übernahme befürchten. So oder so haben die Javanesen-Malaien eine Mehrheit in diesem "Neuen Volksraad" gebildet und fordern, dass über sie debattiert wird."
-dei.65.a: "Es geht wieder los"
-
-dei.66.t: "Woche 1 - Neue Volksraad-Debatten"
-dei.66.dt: "Die West-Papua-Lager waren schon immer ein Streitpunkt, und der Wendepunkt war die Erweiterung der Lager durch Starkenborgh Stachouwer. Seit der Unterzeichnung des Koninkrijksstatuuts sind die meisten dieser Lager geschlossen worden, obwohl diejenigen, die als \"zu radikal\" gelten, immer noch in den Lagern bleiben. Die javanisch-malaiischen Vertreter haben gefordert, dass alle in diesen Lagern befindlichen Personen freigelassen werden und die Lager vollständig geschlossen werden. Obwohl die Lager nun technisch gesehen dem Staat Neuguinea unterstehen, erhalten sie ihre Anweisungen von ihren niederländischen Vertretern."
-dei.66.dp: "\"Das Aufzwingen der niederländischen Kultur auf die indonesischen Völker\" durch die Werkverschaffing scheint das Hauptthema im Volksraad zu sein. Die javanisch-malaiischen Vertreter erklären, dass die Werkverschaffing der Arbeiterklasse zwar Wohlstand und Stabilität gebracht hat, ihre Programme und die allgemeine Strukturierung jedoch \"niederländischer\" Natur sind. Sie befürworten ferner, dass die Programme der Werkverschaffing die javanisch-malaiische Kultur langsam auslaugen, wobei die lautstärkeren Vertreter erklären, dass Palar ein Paradebeispiel dafür ist und er lediglich ein Schoßhündchen seiner niederländischen Oberherren ist.\n\nObwohl diese Vertreter eindeutig eine Agenda haben, möchten sie die Werkverschaffing so ändern, dass jeder Staat sie nach eigenem Gutdünken einführen oder ändern kann. Dies scheint zwar kein Grund zur Beunruhigung zu sein, aber in den Hallen des Volksraad wurde geflüstert, dass bestimmte Staaten ihre Vorstellung von der Werkverschaffing durchsetzen wollen, was dem gesamten Programm zuwiderläuft."
-dei.66.a: "Nein, es sind Radikale, sie werden bleiben."
-dei.66.b: "Ich meine, einige können gehen... schätze Ich."
-dei.66.c: "Fein fein fein."
-dei.66.d: "Jeder Staat kann das Programm nach eigenem Ermessen durchführen."
-dei.66.e: "Dies wird noch zu Lasten unserer niederländischen Vertreter gehen."
-
-dei.67.t: "Woche 2 - Neue Volksraad-Debatten"
-dei.67.d: "Gegenwärtig wird Niederländisch als Lingua Franca in den Indies durchgesetzt, da in den Insulands mehrere Sprachen gesprochen werden, und gilt daher als offizielle Sprache. Diese Maßnahme ist jedoch bei den Einheimischen nicht sehr beliebt, weshalb der Volksraad darüber debattiert, ob Niederländisch als Lingua Franca durchgesetzt werden soll oder ob wir jedem Staat die Entscheidung überlassen, ob er es beibehalten will oder nicht."
-dei.67.a: "Jeder Staat kann selbst entscheiden, ob er sie beibehalten möchte."
-dei.67.b: "Sie ist nach wie vor die Lingua Franca der Länder."
-
-dei.68.t: "Woche 3 - Neue Volksraad-Debatten"
-dei.68.d: "In der dritten Woche der Debatte im Volksraad haben die Gliedstaaten der Indischen Inseln den Wunsch geäußert, sich zusammenzuschließen. Dies würde wahrscheinlich zu mehr Autonomie für die Indies führen, aber gleichzeitig würde es die Eingeborenen bei Laune halten und das Risiko einer Revolte verringern. Was sollten wir tun?"
-dei.68.a: "Haltet sie bei Laune und erlaubt es."
-dei.68.b: "Nein, wir halten uns an das, worauf wir uns geeinigt haben."
-
-dei.69.t: "Woche 4 - Neue Volksraad-Debatten"
-dei.69.d: "Die vierte Woche der Debatte im Volksraad hat zu einer Diskussion über die Privilegien der niederländischen Bürger in den Indischen Inseln geführt. Während einige radikale Elemente eine vollständige Abschaffung gefordert haben, könnten wir sie vielleicht etwas reduzieren, um sie bei Laune zu halten."
-dei.69.a: "Haltet sie bei Laune und erlaubt es."
-dei.69.b: "Nein, wir halten uns an das, worauf wir uns geeinigt haben."
-
-dei.70.t: "Woche 5 - Neue Volksraad-Debatten"
-dei.70.d: "Die Königin der Niederlande, Wilhelmina Helena Pauline Maria von Oranien-Nassau, ist in gewisser Weise auch die Königin der Indischen Inseln. Sie wird jedoch als imperialistisches Symbol angesehen, obwohl ihre Rolle hauptsächlich zeremoniell ist, und die Einheimischen fordern, dass ihre Rolle noch mehr eingeschränkt wird. Diese Forderungen gegen die Figur Ihrer Majestät der Königin sind ungeheuerlich, aber wir könnten zu einem Kompromiss gezwungen sein, um die Eingeborenen zufrieden zu stellen..."
-dei.70.a: "Reduziert ihre Rolle in den Staaten."
-dei.70.b: "Nein, sie ist unser aller Königin."
-
-dei.71.t: "Letzter Countdown"
-dei.71.d.coop: "Nach wochenlangen Debatten scheint es uns endlich gelungen zu sein, die Einheimischen zu besänftigen. Das bedeutet zwar, dass wir den Insulanern auf lange Sicht wahrscheinlich die Unabhängigkeit gewähren müssen, aber zumindest können wir uns jetzt auf unsere Bemühungen konzentrieren, die Wirtschaft zu verbessern und den Nationalismus derjenigen zu fördern, die uns gegenüber loyal sind..."
-dei.71.d.coup: "Nach wochenlangen Debatten waren wir offenbar nicht in der Lage, eine Einigung mit den Einheimischen zu erzielen. In der Folge kam es in den Inselländern zu zunehmenden Unruhen, mit großen Protesten auf Java und Sumatra, und unsere Polizeikräfte reichen kaum aus, um die Situation zu bewältigen. Ohne Verstärkung aus den Niederlanden könnte das Ganze böse enden..."
-dei.71.a: "Endlich"
-dei.71.b: "BAH!"
-
-dei.72.t: "Gegenvorschlag"
-dei.72.d: "Die wahren Pläne dieser \"Debatten\" wurden der derzeitigen Regierung vorgelegt. Die javanesisch-malaiisch Vertreter, die mit dem derzeitigen Kurs eines föderalen Indonesiens nicht zufrieden sind, haben eine weitere Zentralisierung der autonomen Staaten gefordert. Dies könnte die junge Nation in eine Einheitsregierung verwandeln, was dem Diktat aus Amsterdam völlig zuwiderläuft."
-dei.72.a: "Welche Wahl haben wir?"
-dei.72.b: "Sie würden es nicht wagen!"
-
-dei.73.t: "Proklamation der indonesischen Unabhängigkeit"
-dei.73.d: "Der letzte Nagel in den Sarg ist eingeschlagen, da die javanesisch-malaiisch Vertreter in der \"Neuen Volksraad\" nicht in der Lage sind, einen Kompromiss mit der neuen Regierung zu schließen, und einen Aufstand für den richtigen Weg halten. Er ruft alle Indonesier auf, sich den niederländischen Besatzern zu widersetzen und sich der Tentara Keselamatan Rakyat, der Sicherheitsarmee des Volkes, anzuschließen. Es scheint, dass ein regelrechter Aufstand zur Beseitigung der niederländischen Herrschaft auf dem indonesischen Archipel ausgebrochen ist."
-dei.73.a: "Bersiap! (Spielt als Indonesien)"
-dei.73.b: "Bereid de Politionele Acties Voor! (Spielt als Niederländisch-Indien)"
-
-dei.74.t: "Zerschlagung der Allianz"
-dei.74.d: "Kurzer Überblick über die Partei der Sozialisten-Islamisten. Wer will was tun."
-dei.74.a: "Bevorzugt die besonneneren Sozialisten"
-dei.74.b: "Bevorzugt die konservativeren Islamisten"
-
-dei.80.t: "Friedensabkommen"
-dei.80.d: "Indonesien kontrolliert das meiste, was es ohne ausländische Hilfe und eine Marine bekommen kann. Wir sollten den Niederländern ein Friedensangebot machen. Wir können sie an einem anderen Tag immer noch kriegen..."
-dei.80.a: "Ja, an einem anderen Tag..."
-dei.80.b: "Nein, wir müssen JETZT zuschlagen!"
-
-dei.81.t: "Friedensabkommen angeboten"
-dei.81.d: "Unsere Kolonialverwaltung auf den Inseln steht am Rande des Zusammenbruchs, nachdem sie sowohl auf Sumatra als auch auf Java militärisch besiegt wurde. Mit unseren begrenzten Ressourcen können wir in dieser Situation nicht viel tun, außer die Rebellen mit unserer Marine zu blockieren, und das scheinen sie zu wissen. Sie sind mit einem Friedensangebot an uns herangetreten, und einige Mitglieder unseres Kabinetts meinen, wir sollten dieses Friedensangebot annehmen, bevor der Krieg zu einem Blutbad wird. Sollten wir dieses Friedensangebot annehmen?"
-dei.81.a: "Wenigstens haben wir ihnen etwas Zivilisation beigebracht."
-dei.81.b: "Sie werden uns niemals das Futter wegnehmen."
-
-dei.82.t: "Sie lehnen ab"
-dei.82.d: "Die imperialistischen Niederländer haben unser großzügiges Angebot für einen Friedensvertrag abgelehnt. Das bedeutet, dass wir es einfach beenden müssen, indem wir diese Imperialisten ein für alle Mal aus unserem heiligen Land vertreiben, ohne irgendeinen Deal!"
-dei.82.a: "Diese imperialistischen Bastarde..."
-
-dei.83.t: "Friedensabkommen unterzeichnet"
-dei.83.d: "Kemenangan! Die Niederländer haben ihre Niederlage eingestanden und sind bereit, über den Frieden zu verhandeln! Nach jahrhundertelanger Unterdrückung konnten wir das imperialistische Joch abschütteln, und nun wird das indonesische Volk selbst über seine Zukunft entscheiden können! Hurra!"
-dei.83.a: "Bhinneka Tunggal Ika"
-
-dei.84.t: "Gescheitertes Projekt"
-dei.84.d: "Der Volksrat von Batavia wurde 1918 als Versuch gegründet, die Insulaner zu demokratisieren, aber das Scheitern des letzten Kongresses hat gezeigt, dass es immer eine Verschwendung von Zeit und Ressourcen war. Wir können nur hoffen, dass die Einheimischen beim nächsten Mal vernünftiger sind."
-dei.84.a: "Wenigstens haben wir nicht den Halt verloren"
-
-dei.85.t: "Die ersten Änderungsanträge"
-dei.85.d: "Der Volksraad von Batavia wurde 1918 als Versuch gegründet, die Insulaner zu demokratisieren, und anscheinend zeigt er einige Ergebnisse: nach diesen fünf Wochen der Debatte wurde die erste wirksame Änderung des Volksraads von Batavia als erstes Dekret erlassen, und viele weitere werden folgen. Es scheint, als würden die Insulaner zu einem demokratischen Volk werden."
-dei.85.a: "Wenigstens gibt es Frieden"
-dei.85.b: "Eine weitere Krise vermieden"
-
-dei.86.t: "Die Zukunft"
-dei.86.d: "Die Insulaner sind noch eine sehr junge Nation in einer Welt voller Giganten. Ein Land mit einem unglaublichen Potenzial und vielen natürlichen Ressourcen, das jedoch unerschlossen und extrem arm ist.\n\nNun, wie soll seine Zukunft aussehen? Eine Nation, die sich den Niederlanden verschließt, oder ein Herr über sein eigenes Schicksal? Die Zukunft ist wolkig, aber die stolzen Gliedstaaten, die unsere große Nation bilden, haben in ihrer Geschichte schon viel durchgemacht und sind bereit, gemeinsam allem zu trotzen, was auf sie zukommt. Ganz gleich, wie stark unsere Feinde sein werden oder wie oft sie versuchen werden, uns zu besiegen, wir werden immer siegen! Vorwärts, in eine bessere Zukunft!"
-dei.86.a: "Die Zukunft ist noch nicht geschrieben."
-
-dei_random.2.t: "Nationalist hält mitreißende Rede!"
-dei_random.2.d: "Ein örtlich bekannter Nationalist hat eine mitreißende Rede zugunsten der indonesischen Unabhängigkeit gehalten, und sein Aufruf wird befolgt: Viele scheinen sich von den Worten dieses Mannes angezogen zu fühlen, und als Folge davon wachsen die Reihen der Untergrundbewegung. Die örtliche Verwaltung schlägt vor, ihn auszuschalten. Eine solche Maßnahme würde zwar kurzfristig die Stärke der Bewegung verringern, könnte aber langfristig zu einer größeren Einheit der Bewegung führen."
-dei_random.2.a: "Verhaftet ihn wegen Volksverhetzung!"
-dei_random.2.b: "Lasst ihn reden..."
-
-dei_random.3.t: "Unterwanderung einer nationalistischen Gruppe"
-dei_random.3.d: "Einem Agenten unseres kolonialen Sicherheitsdienstes, der PID, ist es gelungen, eine Gruppe zu infiltrieren, die für die indonesische Unabhängigkeit eintritt. Wir können diesen Agenten nutzen, um entweder ihre Bemühungen zu sabotieren oder um zu versuchen, Zwietracht in ihren Reihen zu säen, was sich auf die Zusammenarbeit mit anderen Gruppen im Land auswirken könnte. Was sollen wir unseren Agenten anweisen zu tun?"
-dei_random.3.a: "Zwietracht säen!"
-dei_random.3.b: "Sabotiert ihre Waffen!"
-
-dei_random.4.t: "Nationalisten bekämpfen sich gegenseitig!"
-dei_random.4.d: "Dass sich die Nationalisten und die Syndikalisten nicht wirklich mochten, war schon vorher klar, aber jetzt haben die Guerillas beider Seiten begonnen, sich auf dem Land zu bekämpfen. Die KNIL ist bereit zu intervenieren, aber manche sagen, es wäre vielleicht besser, sie sich gegenseitig schwächen zu lassen, während wir uns zurücklehnen und entspannen, denn das würde ihre Zahl verringern und die Wahrscheinlichkeit einer Versöhnung verringern."
-dei_random.4.a: "Greift sofort ein."
-dei_random.4.b: "Die Wetten werden angenommen! Wer wird gewinnen?"
-
-dei_random.5.t: "Regent ermordet"
-dei_random.5.d: "Einer unserer örtlichen Verwaltungsbeamten, der so genannte 'Regent', ist ermordet worden. Die Polizei vermutet, dass es sich um eine Bande von pro-nationalistischen Schlägern handelt, die durch die jüngsten Äußerungen des Regenten verärgert waren und für ihren Terror bekannt sind. Sie haben jedoch noch nicht die Mittel, dies zu beweisen. Werden wir ihnen erlauben, sie einfach festzunehmen, da es höchst unwahrscheinlich ist, dass sie es nicht sind? Oder ziehen wir es vor, Zeit und Geld zu investieren, um den Fall im Detail zu untersuchen?"
-dei_random.5.a: "Nehmt sie einfach fest..."
-dei_random.5.b: "Eine Untersuchung ist vorzuziehen."
-
-dei_random.6.t: "Nationalistenführer verhaftet"
-dei_random.6.d: "Der Polizei ist es gelungen, in einer groß angelegten Operation eine prominente Persönlichkeit aus nationalistischen Kreisen festzunehmen, und diese aufsehenerregende Verhaftung wird die Stärke der Unabhängigkeitsbewegung in naher Zukunft sicherlich einschränken. Obwohl die gegen ihn zu erhebenden Anschuldigungen klar sind, warnen einige Leute in der Kolonialregierung davor, ihn vor Gericht zu stellen, da er dadurch einen Lautsprecher bekommen könnte, der seine gefährlichen Ideen verbreitet, wenn die Zeitungen darüber berichten."
-dei_random.6.a: "Er würde sowieso verurteilt werden, warum also die Mühe?!"
-dei_random.6.b: "Jeder Mensch verdient einen Prozess!"
-
-dei_random.7.t: "RSAP-Vertreter ruft zur Unabhängigkeit auf"
-dei_random.7.d: "Ein sozialistisches Mitglied des (metropolitanen) niederländischen Abgeordnetenhauses hat offen das Ende der niederländischen Herrschaft in Indonesien gefordert, und es überrascht nicht, dass die Nachricht innerhalb weniger Stunden in den Indies ankam. Viele Nationalisten fühlen sich durch dieses Zeichen wachsender Unterstützung für die indonesische Sache in den Festlandniederlanden ermutigt, und sie werden dadurch wahrscheinlich auch neue Mitglieder gewinnen. In Batavia kursiert bereits ein Dankesschreiben an den 'guten Belanda'."
-dei_random.7.a: "Ich würde kaum einen Syndikalisten als Niederländer bezeichnen."
-
-dei_random.8.t: "Indo spricht sich gegen Unabhängigkeit aus"
-dei_random.8.d: "Ein hochrangiges Mitglied unserer Indo-Niederländer (gemischte Rasse europäischer und indonesischer Abstammung) hat sich gegen die Unabhängigkeit ausgesprochen, da sie das indische Volk einer ungerechten Tyrannei einer einheimischen Mehrheit aussetzen würde. Sein Aufruf hat sogar die niederländischen Metropolen erreicht, wo er die öffentliche Meinung gegen die Unabhängigkeit zu beeinflussen scheint (obwohl dies wohl schon vorher der Fall war). Dennoch könnte das Kolonialministerium eher bereit sein, Unterstützung zu schicken."
-dei_random.8.a: "Gebt mir den Minister, wir brauchen Unterstützung!"
-
-dei_random.9.t: "Nationalistischer Aufstand"
-dei_random.9.d: "Die Nationalisten sind auf die Straße gegangen, aber was als friedliche Demonstration gedacht war, wurde schnell gewalttätig, als unsere Polizei sie auseinander treiben wollte. Wir wissen nicht, ob sich die Gewalt ausweiten wird, und der Polizeichef fragt sich, wie wir ihn auf dieses Ereignis reagieren lassen wollen..."
-dei_random.9.a: "Greift hart gegen diese Verbrecher durch!"
-dei_random.9.b: "Zerstreut sie, aber beschränkt die Gewalt auf ein Minimum."
-dei_random.9.c: "Was auch immer passiert, nicht schießen!"
-
-dei_random.10.t: "Niederländisches Ehepaar auf Bali gelyncht"
-dei_random.10.d: "Ein niederländisches Ehepaar, das sich zu Geschäftszwecken auf Bali aufhielt, wurde von einer wütenden Menschenmenge gelyncht. Das Paar ging zu einem Tempel, in dem Affen lebten, die von der örtlichen Bevölkerung als heilig angesehen werden. Dort angekommen, setzte sich einer der Affen auf das Fräulein, zog an ihren Haaren und forderte den Ehemann auf, ihn mit einem großen Stock zu verscheuchen, was die Einheimischen sehr erzürnte. Die beiden konnten nicht entkommen und wurden öffentlich gelyncht... Das Heimatland ist wütend über diesen Vorfall und fordert Gerechtigkeit!"
-dei_random.10.a: "Verhaftet jede einzelne Person dieser Bande!"
-dei_random.10.b: "Lass es einfach laufen."
-
-dei_random.11.t: "Hinterhalt auf ein KNIL-Kommando"
-dei_random.11.d: "Ein KNIL-Kommando wurde von einer Pro-Unabhängigkeits-Guerilla in einen Hinterhalt gelockt, der nur wenige Überlebende hinterließ. Unsere Militärberater drängen uns, eine Strafexpedition auszurüsten, während die loyalistischen Zeitungen darauf hinweisen, wie stark die Pro-Unabhängigkeits-Gruppen in letzter Zeit geworden sind, so dass sie in der Lage sind, einen solchen Angriff erfolgreich durchzuführen.\n\nVorsicht ist jedoch geboten, denn wenn die Strafexpedition ebenfalls ausgetrickst wird, verschlimmert das die Situation nur."
-dei_random.11.a: "In der Tat ein sehr trauriger Vorfall."
-dei_random.11.b: "Stattet eine Strafexpedition aus!"
-
-dei_random_followup.1.t: "Regent ermordet - Gruppe involviert"
-dei_random_followup.1.d: "Nach einer eingehenden Untersuchung kam die Polizei zu dem Schluss, dass sie genügend Beweise hat, um die Gruppe festzunehmen. Es handelte sich tatsächlich um diese nationalistische Gruppe, und jetzt machen sich die Leute, die das von Anfang an gesagt haben, über uns lustig, weil wir diese Ermittlungen eingeleitet haben."
-dei_random_followup.1.a: "Aber zumindest ist es jetzt bewiesen!"
-
-dei_random_followup.2.t: "Regent ermordet - Serienmörder verhaftet"
-dei_random_followup.2.d: "Nach eingehenden Ermittlungen kam die Polizei zu dem Schluss, dass es sich in Wirklichkeit nicht um diese nationalistische Gruppe handelte, sondern um einen Serienmörder, der offenbar auch andere Menschen von geringerer Bedeutung getötet hat. Es ist wahrscheinlich besser, dass wir in diesem Fall richtig ermittelt haben, sonst hätten wir vielleicht Unschuldige verhaftet."
-dei_random_followup.2.a: "Gut!"
-
-dei_random_followup.3.t: "Regent ermordet - Sackgasse erreicht"
-dei_random_followup.3.d: "Nach eingehenden Ermittlungen ist die Polizei zu dem Schluss gekommen, dass es keine ausreichenden Beweise gibt, um Anklage zu erheben. Die Anzahl der Hinweise scheint zu gering zu sein, um das Rätsel zu lösen."
-dei_random_followup.3.a: "Verhaftet die Leute, von von denen ihr sagtet, dass sie es gewesen sein müssen!"
-dei_random_followup.3.b: "Das bedeutet, dass wir niemanden verhaften können."
-
-dei_random_followup.4.t: "Nationalistenführer verhaftet - Aufrüttelnde Rede"
-dei_random_followup.4.d: "Der Nationalist übernahm seine eigene Verteidigung und nutzte sie, um eine mitreißende Rede für die Sache der indonesischen Unabhängigkeit zu halten. Unsere Zensurgesetze konnten zwar verhindern, dass die reguläre Presse diese schamlose Propaganda für das Chaos veröffentlichte, aber sie schlüpfte bereits durch die Maschen, und Abschriften davon werden bereits in der ganzen Stadt verbreitet."
-dei_random_followup.4.a: "Ich habe dir gesagt, dass es eine schlechte Idee war, ihn vor Gericht zu bringen?!"
-
-dei_random_followup.5.t: "Nationalistenführer verhaftet - Verteidigung gescheitert"
-dei_random_followup.5.d: "Der Nationalist hat sich selbst verteidigt, aber sein Auftritt war so erbärmlich, dass selbst seine treuesten Verbündeten zugeben müssen, dass er allein wegen dieser Rede wahrscheinlich schon seine Verbannung verdient hat. Natürlich haben die Zeitungen ausführlich darüber berichtet, und die Nationalisten haben gerade eine große Propagandaschlacht verloren."
-dei_random_followup.5.a: "Hehe..."
-
-dei_random_followup.6.t: "Strafexpedition erfolgreich!"
-dei_random_followup.6.d: "Die Strafexpedition, die wir als Vergeltung für den Guerillaangriff auf unsere Streitkräfte vor einigen Wochen ausgerüstet haben, ist zurückgekehrt und hat ihren Auftrag erfüllt. Sie haben das Lager der Guerillakräfte entdeckt und überfallen, wodurch deren Bemühungen erheblich zurückgeworfen wurden und sie die von uns gestohlenen Waffen zurückerhalten haben. Es war die richtige Entscheidung, dies zu tun."
-dei_random_followup.6.a: "Großartig."
-
-dei_random_followup.7.t: "Strafexpedition abgeschlachtet!"
-dei_random_followup.7.d: "Die Strafexpedition, die wir als Vergeltung für den Guerillaangriff ausgerüstet haben, wurde ihrerseits abgeschlachtet."
-dei_random_followup.7.a: "Oh Gott..."
-
-dei_flavor.1.t: "Antara gegründet"
-dei_flavor.1.d: "Vor 20 Jahren, im Jahr 1917, wurde die Aneta, die Allgemeine Nachrichten- und Telegrafenagentur, von Dominique Berretty gegründet. Sie war die erste Nachrichtenagentur in Indien und entwickelte sich zur wichtigsten Nachrichtenagentur in Indien. Heute hat eine Gruppe indonesischer Nationalisten, die mit der mangelnden Berichterstattung über lokale Nachrichten unzufrieden sind, ihre eigene Nachrichtenagentur mit dem Namen Antara gegründet. Viele in der Kolonialregierung befürchten, dass diese Organisation die Unabhängigkeitsbewegung in ihrem Kampf unterstützen wird."
-dei_flavor.1.a: "Es ist einfach ein gesunder Wettbewerb."
-dei_flavor.1.b: "Schaltet diese Propaganda-Plattform ab!"
-
-dei_flavor.2.t: "Renovierung des Gebäudes der Concordia-Gesellschaft?"
-dei_flavor.2.d: "Das Gebäude der 'Sociëteit Concordia' in Bandoeng wurde ursprünglich 1895 im neoklassizistischen Stil als Versammlungsort für die Einwohner von Bandoeng errichtet. Zwar wurde das Gebäude bereits 1926 im Art-Deco-Stil wieder aufgebaut, aber wir stellen derzeit fest, dass es erneut seine Anmut verliert. Die Gemeindeverwaltung von Bandoeng bittet uns um die Erlaubnis, den Architekten Albert Aalbers mit der Renovierung zu beauftragen."
-dei_flavor.2.a: "Natürlich!"
-dei_flavor.2.b: "Zu teuer!"
-
-dei_flavor.3.t: "Gründung der NIVU"
-dei_flavor.3.d: "Die NIVU (Nederlands-Indische Voetbal Unie - Niederländisch-Ostindische Fußball-Union) wurde heute als offizielle Organisation für den organisierten Fußball in Niederländisch-Indien gegründet. Zuvor arbeitete die Regierung Niederländisch-Indiens direkt mit der einheimischen PSSI zusammen. Da der Sport jedoch immer beliebter wird, ist es wichtig, dass eine angemessene Anzahl von Totoks und Chinesen in der Kolonialmannschaft mitspielt, wofür die neue NIVU sorgen und ein sichereres Umfeld schaffen wird."
-dei_flavor.3.a: "Freut euch!"
-
-dei_flavor.4.t: "Premiere von Terang Boelan"
-dei_flavor.4.d: "Der indonesisch-malaiische Film Terang Boelan (Vollmond) wurde letzte Woche zum ersten Mal öffentlich gezeigt und scheint bereits ein kommerzieller Erfolg zu werden.\n\nDer Film handelt von zwei Liebenden, Kasim und Rohaya, die sich trennen müssen, weil der Vater der Braut einen anderen Mann, Musa, gewählt hat. Die beiden beschließen, nach Malakka durchzubrennen, wo sie einen alten Freund namens Dullah finden. Kasim und Rohaya leben dort, bis Musa, der sich als Opiumhändler entpuppt, ihren Aufenthaltsort entdeckt und Rohaya zurück in ihr Heimatdorf bringen lässt. Kasim folgt ihnen und beginnt einen Kampf gegen Musa, woraufhin er von Dullah gerettet wird, so dass die beiden heiraten können.\n\nDer Film scheint der Filmindustrie, die durch den Eintritt der Babelsberger Filme in den ostindischen Markt einige Jahre lang im Niedergang begriffen war, neues Leben eingehaucht zu haben, wobei seine Popularität sogar die Straße von Malakka nach Deutsch-Malaya überquerte."
-dei_flavor.4.a: "Interessant!"
-
-dei_flavor.5.t: "Einführung von Cultureel Indië"
-dei_flavor.5.d: "Die erste Ausgabe des Wochenmagazins 'Cultureel Indië' ist diese Woche erschienen. Die Zeitung, die von der Redaktion der ethnologischen Abteilung des Ostindischen Instituts in Amsterdam erstellt wurde, enthält Artikel über die Kultur und das tägliche Leben in Niederländisch-Indien. Die erste Ausgabe ist ein durchschlagender Erfolg und wird uns dabei helfen, den Menschen in der Heimat das Juwel des Reiches näher zu bringen."
-dei_flavor.5.a: "Auf jeden Fall eine lobenswerte Initiative!"
-
-dei_flavor.6.t: "Die Carstensz-Expedition"
-dei_flavor.6.d: "Drei mutige Forscher, Anton Colijn, Jean Jacques Dozy und Frits Wissel, sind heute von der Stadt Aika aus zu einer Expedition aufgebrochen, um den Gipfel des höchsten Berges des Carstensz-Gebirges in Niederländisch-Neuguinea zu erreichen, den viele andere Forscher um die Jahrhundertwende vergeblich zu erreichen versuchten. Es bleibt abzuwarten, ob das Kunststück diesmal gelingt."
-dei_flavor.6.a: "Viel Glück!"
-
-dei_flavor.7.t: "Die Carstensz-Expedition kehrt zurück!"
-dei_flavor.7.d: "Die Carstensz-Expedition, die den höchsten Berg des Carstensz-Gebirges, den Ngga Pulu, erklimmen wollte, ist erfolgreich in die Zivilisation zurückgekehrt und hat ihr Ziel erreicht.\n\n Darüber hinaus hat Jean Jacques Dozy, einer der drei Forscher, in der Wildnis ein großes Goldvorkommen entdeckt, das von großem Vorteil wäre, wenn wir es abbauen könnten. Leider ist das Gebiet so unwirtlich, dass es Jahre, wenn nicht Jahrzehnte dauern wird, bis wir daraus einen Vorteil ziehen können."
-dei_flavor.7.a: "Ein Trinkspruch auf unsere Helden!"
-
-dei_flavor.8.t: "Die Carstensz-Expedition kehrt zurück!"
-dei_flavor.8.d: "Die Carstensz-Expedition ist zurückgekehrt, konnte aber ihr Ziel, den höchsten Gipfel der Gebirgskette, den Ngga Pulu, zu erklimmen, nicht erreichen. Sie berichten jedoch, dass der Geologe Jean Jacques Dozy, einen Erzberg mit einem großen Goldvorkommen gefunden hat. Der Zustand des Landes ist jedoch so unwirtlich, dass es Jahre, wenn nicht Jahrzehnte dauern wird, bis wir es für die Ausbeutung freiräumen können."
-dei_flavor.8.a: "Willkommen zurück in der Zivilisation!"
-
-dei_flavor.9.t: "Wo ist die Carstensz-Expedition?"
-dei_flavor.9.d: "Seit dem Verlassen der Stadt Aika hat man nichts mehr von der Carstensz-Expedition in Neuguinea gehört, die den Gipfel des Ngga Pulu erklimmen wollte.\n\nAngesichts der Zeit, die seitdem vergangen ist, kann man nur vermuten, dass sie der Wildnis erlegen sind, feindlichen Stämmen oder Tieren oder der Natur selbst zum Opfer gefallen sind."
-dei_flavor.9.a: "Requiescat in Pace!"
-
-dei_flavor.10.t: "Derby Niederländisch-Indien vs Ungarn"
-dei_flavor.10.d: "Die Niederländisch-Ostindische Kolonialmannschaft hat es geschafft, sich für die Weltmeisterschaft 1938 in Brasilien zu qualifizieren (es war das erste Mal, dass dies gelang), und ist vor kurzem dort angekommen. Nun ist es an der Zeit, das erste Spiel gegen die ungarische Mannschaft zu bestreiten. Leider wurden wir von der ungarischen Mannschaft völlig abgeschlachtet, die mit 6 zu 0 Toren siegte und uns damit sofort aus dem Wettbewerb warf."
-dei_flavor.10.a: "... nun, es war zumindest eine Ehre, dabei zu sein!"
-
-dei_flavor.11.t: "Rückkehr der Mimika-Expedition"
-dei_flavor.11.d: "Nachdem die Mimika-Expedition am 15. Oktober letzten Jahres aufgebrochen war, ist sie nun endlich in die zivilisierte Welt zurückgekehrt. Ziel der Expedition war es, weitere Kontakte mit dem Volk der Tapiro im Regenwald von Neuguinea zu knüpfen, das 1910 von der britischen ornithologischen Expedition entdeckt worden war. Obwohl keine neuen Stämme entdeckt wurden, besuchte die Expedition eine Tapiro-Siedlung, die zuvor noch nicht besucht worden war, und konnte so diese Menschen mit lediglich steinzeitlicher Technologie studieren. Später besuchten sie auch die Bewohner des Pania-Gebirges und entdeckten nach einem steilen Aufstieg mehrere Siedlungen in einem der Flusstäler des Gebirges, was zu der verblüffenden Erkenntnis führte, dass diese "Bergpapuas" trotz ihrer geringen Länge nicht als Pygmäenvolk angesehen werden konnten. Die Expedition war ein durchschlagender Erfolg; dies ist ein großer Tag für die Anthropologie!"
-dei_flavor.11.a: "Faszinierende Entdeckungen in der Tat!"
-
-holex.1.t: "Die Bildung der Exilregierung"
-holex.1.d: "Als die Sozialisten ihre Residenz stürmten, war Ihre Majestät nirgends zu sehen. Jetzt wird klar, wo sie war: auf einem Kriegsschiff vor der Küste, vor allem auf Drängen ihrer engen Vertrauten, die dafür plädierten, den Kampf gegen die syndikalistische Bedrohung vom Ausland aus fortzusetzen; sie rief alle treuen niederländischen Loyalisten auf, sich ihr anzuschließen und, wo dies nicht möglich ist, der syndikalistischen Bedrohung mit aller Kraft zu widerstehen: die niederländische Exilregierung ist auferstanden, ein Phönix der konservativen Hoffnung!"
-holex.1.a: "Side with the Batavian Commune."
-holex.1.b: "Side with the Homeland."
-
-holex.2.t: "Der Sitz unserer Exilregierung"
-holex.2.d: "Es liegt auf der Hand, dass die niederländische Exilregierung ein leichtes Ziel für das immer aggressiver werdende japanische Kaiserreich in Asien sowie für seine Nachbarn in den westlichen Besitzungen wäre. Wie sollen wir außerdem die Kontrolle über das Heimatland wiederherstellen, wenn wir keine Verbündeten haben, die das tun? Es war klar, dass die Exilregierung mit einer befreundeten Regierung gebildet werden musste. Für die Königin gibt es zwei Möglichkeiten: Sie kann sich an Kanada wenden und sich den anderen Exilanten Europas anschließen, die ebenfalls keinen festen Stand in Europa haben, aber in der Lage sind, sich selbst zu schützen, oder sie kann sich dem Deutschen Reich anschließen, das die Batavianische Kommune wahrscheinlich leicht zerstören kann (in einigen Jahren oder vielleicht sogar sofort), uns aber wahrscheinlich so weit beherrschen wird, dass wir nur noch eine Marionette sind, wenn es uns hilft, die rechtmäßige Ordnung im Heimatland wiederherzustellen."
-holex.2.a: "Unsere Exilregierung gehört nach Ottawa!"
-holex.2.b: "Nach Berlin!"
-holex.2.c: "Für Batavia brauchen wir keine Verbündeten!"
-
-holex.3.t: "[DEI.GetNameDefCap] Möchte ihre Regierung hier ansiedeln"
-holex.3.d: "Eine weitere Monarchie ist dem Schandfleck des Syndikalismus zum Opfer gefallen, aber ihre Königin und ihre Vertrauten entkamen dem Chaos, um einen Widerstand aus den Kolonien zu gründen, die ihr treu geblieben sind. Sie bittet darum, ein Bündnis mit uns einzugehen und eine Exilregierung in unserer Hauptstadt zu errichten."
-holex.3.a: "Natürlich!"
-holex.3.b: "Das glaube ich nicht..."
-
-holex.4.t: "Akzeptanz von [From.GetNameDef]"
-holex.4.d: "Ein Brief von [From.GetNameDef] akzeptierte unser Ersuchen und erlaubte uns, unsere Exilregierung in ihrer Hauptstadt einzurichten, und erklärte sich bereit, ein Bündnis gegen die syndikalistische Bedrohung einzugehen, die unser Land in ihrem Bann hält."
-holex.4.a: "Gut zu hören!"
-
-holex.5.t: "Ablehnung von [From.GetNameDef]"
-holex.5.d: "In einem Schreiben von [From.GetNameDef] wird behauptet, dass unser 'Bürgerkrieg' eine rein interne niederländische Angelegenheit ist und dass [From.GetNameDef] uns in unserem Kampf nicht unterstützen kann."
-holex.5.a: "Dann bleibt nur noch eine Möglichkeit..."
-holex.5.b: "Dann müssen wir es selbst mit den Syndikalisten aufnehmen..."
-
-holex.6.t: "Berichte über die [WIF.GetNameDef] Besetzung unserer amerikanischen Besitztümer"
-holex.6.d: "[WIF.GetAdjective] Streitkräfte haben unsere Souveränität verletzt und sind ohne unsere Erlaubnis in Surinam und unseren anderen Besitzungen in der westlichen Hemisphäre eingezogen, angeblich um 'kontinuierliche Stabilität' zu sichern, die unsere Regierung ihrer Meinung nach nicht gewährleisten konnte. Dies ist eine ungeheuerliche Beleidigung unserer Integrität!"
-holex.6.a: "Wir werden dies nicht vergessen!"
-
-holex.7.t: "Die Niederländer sind im Chaos!"
-holex.7.d: "Die niederländische Regierung ist aufgrund einer sozialistischen Revolution in ihrer Metropole ins Chaos gestürzt, und aus unserer Sicht scheint dies der ideale Zeitpunkt zu sein, um ihre Kolonien vor der [VEN.GetAdjective]-Küste zu beschlagnahmen, Gebiete, die von Anfang an zu [VEN.GetAdjective] gehören sollten, da die Niederländer nicht in der Lage sind, zurückzuschlagen!"
-holex.7.a: "Entsendet die Kriegsschiffe!"
-holex.7.b: "Wir können es nicht riskieren..."
-
-holex.8.t: "Venezuela erobert Curaçao"
-holex.8.d: "Die venezolanische Regierung hat unseren Moment der Schwäche erkannt und beschlossen, Curaçao, das Venezuela schon lange für sich beansprucht, anzugreifen und zu besetzen, da wir uns nicht dagegen wehren können. Während einige Militärexperten im Gefolge der Königin eine sofortige Aktion gegen diesen illegalen Akt zur Befreiung von Curaçao durchführen wollen, ist es klar, dass wir im Moment dazu nicht in der Lage sind."
-holex.8.a: "Die traurige Wahrheit..."
-
-holex.9.t: "Das Kabinett im Exil"
-holex.9.d: "Da das Heimatland gefallen ist, konnten die üblichen verfassungsmäßigen Kontrollen der Macht der Königin nicht ausgeübt werden, da es kein Parlament gab. Das bedeutet, dass königliche Dekrete die einzigen legalen Gesetze der Regierung sind, die aber auch nicht ohne ein Parlament blockiert werden können. Alle Macht, egal wie die politische Situation zu Hause aussieht, liegt nun bei der Königin, die nun das erste niederländische Exilkabinett ernennen wird. Wird sie ihre Herrschaft durch die Bildung eines loyalen Kabinetts festigen oder wird sie stattdessen ein ARP-Kabinett bilden, ihr Lieblingskabinett?"
-holex.9.a: "Die Königin errichtet eine direkte Herrschaft."
-holex.9.b: "Der erfahrene Staatsmann Colijn wird zum Premierminister ernannt."
-holex.9.c: "Der militante Politiker Gerbrandy wird zum Premierminister ernannt."
-
-holex.10.t: "Rede von Batavia"
-holex.10.d: "Nachdem die ersten Exilanten in Batavia eingetroffen sind, ist klar geworden, dass die Situation bald unbeherrschbar wird, wenn wir den Ostindiern nicht ein bedeutendes Zugeständnis machen. Sie wollen die Unabhängigkeit, und obwohl sie offensichtlich noch nicht bereit dafür sind, brauchen wir sie, um das Vaterland zurückzuerobern. Einige meinen, dass sie vielleicht durch das Versprechen eines gleichberechtigten Status innerhalb des Königreichs umgestimmt werden könnten. Die Königin wird heute eine Rede halten, und viele Indonesier warten gespannt darauf, was sie zu sagen hat, in der Hoffnung, dass sie eine deutliche Verbesserung verspricht."
-holex.10.a: "Wenn die Niederlande ihre Freiheit wiedererlangen, wird auch Indonesien..."
-holex.10.b: "Gleichstellung der ostindischen Länder ist in den Charts zu finden..."
-holex.10.c: "Wir geben den Inländern nicht nach!"
-
-holex.11.t: "Widerstand überfällt Fabrik"
-holex.11.d: "Eine reaktionäre Widerstandszelle hat einen Überfall auf eine unserer Produktionsstätten verübt. Leider ist es ihnen gelungen, unsere Produktionskapazitäten erheblich zu beeinträchtigen und sie erfolgreich zu evakuieren, so dass wir sie nicht aufspüren konnten."
-holex.11.a: "Verblendete Reaktionäre!"
-
-holex.12.t: "Operation erfolgreich!"
-holex.12.d: "Unsere Leute vor Ort berichten, dass die Operation zur Sabotage des von uns anvisierten Produktionsziels reibungslos verlaufen ist: Alle 25 Widerstandsmitglieder konnten nach der erfolgreichen Zerstörung der Anlage sicher evakuiert werden."
-holex.12.a: "Ein Hoch auf unsere Männer vor Ort!"
-
-holex.13.t: "Widerstand überfällt Fabrik"
-holex.13.d: "Eine reaktionäre Widerstandszelle hat einen Überfall auf eine unserer Produktionsstätten verübt. Obwohl sie recht gute Arbeit geleistet und unsere Produktionskapazität erheblich beeinträchtigt haben, ist es uns gelungen, vier von ihnen zu töten und zwei weitere in Gewahrsam zu nehmen. Sie werden in diesem Moment verhört."
-holex.13.a: "Verblendete Reaktionäre!"
-
-holex.14.t: "Operation Semi-Erfolgreich!"
-holex.14.d: "Unsere Einsatzkräfte vor Ort berichten, dass die Operation zur Sabotage des von uns anvisierten Produktionsziels erfolgreich verlaufen ist. Allerdings ist es sechs Widerstandsmitgliedern nicht gelungen, sich nach der erfolgreichen Sabotage der Anlage in Sicherheit zu bringen; wir gehen davon aus, dass vier von ihnen bei dem anschließenden Feuergefecht mit den Behörden getötet und zwei lebendig verhaftet wurden. Da wir davon ausgehen, dass niemand unter Folter überleben wird, sind wir gezwungen, den Rest des Teams zu verstecken, da sie sich untereinander kannten."
-holex.14.a: "Gut, aber schlecht..."
-
-holex.15.t: "Widerstand überfällt Fabrik"
-holex.15.d: "Eine reaktionäre Widerstandszelle versuchte, einen Überfall auf eine unserer Produktionsstätten zu starten. Bevor sie diese jedoch erreichten, stießen sie auf eine Patrouille, woraufhin ein Feuergefecht ausbrach. Nachdem die Patrouille Verstärkung angefordert hatte, zogen sich die Reaktionäre zurück, wobei unsere Seite 7 dieser Schurken tötete. Wir nahmen auch einen von ihnen, der verwundet und damit handlungsunfähig war, in Gewahrsam, aber er starb auf dem Weg ins Krankenhaus, bevor wir ihn verhören konnten."
-holex.15.a: "Verblendete Reaktionäre!"
-
-holex.16.t: "Operation fehlgeschlagen!"
-holex.16.d: "Die Widerstandsgruppe ist auf dem Weg zur Sabotage der Anlage auf eine Patrouille gestoßen. Sieben unserer Männer wurden bei dem anschließenden Feuergefecht getötet, und einer wurde als vermisst gemeldet, als er verwundet am Boden zusammenbrach; wir können nur annehmen, dass er von den Behörden festgenommen wurde. Da wir davon ausgehen, dass niemand unter Folter überleben wird, sind wir gezwungen, den Rest des Teams zu verstecken, da er die anderen kannte."
-holex.16.a: "Das ist ein Desaster!"
-
-holex.17.t: "Widerstand fällt auf die Falle herein"
-holex.17.d: "Eine reaktionäre Widerstandszelle hat versucht, einen Überfall auf eine unserer Produktionsstätten zu verüben, genau wie es unser Informant wollte. Sie gingen uns direkt in die Falle und verursachten ein Feuergefecht, bei dem wir mehrere von ihnen töteten und den Rest verhafteten, einschließlich des Anführers, der durchaus Leute kennen könnte, die über seine kleine Gruppe hinausgehen."
-holex.17.a: "Erzähl uns mehr, oder wir schießen dir den Zeh ab!"
-
-holex.18.t: "Operation fehlgeschlagen!"
-holex.18.d: "Unsere Mitarbeiter vor Ort berichten, dass keiner der Agenten, die vor Ort eingesetzt wurden, um die Produktionsanlage zu sabotieren, zurückgekehrt ist. Als wir einen Späher losschickten, meldete dieser bald zurück, dass die Fabrik noch intakt sei, die Polizei aber nicht mehr da sei. Offensichtlich war es eine Falle gewesen. Was noch schlimmer ist: Soweit wir wissen, könnte der Anführer der Gruppe ebenfalls verhaftet worden sein, so dass alle dreißig Agenten, mit denen er im Widerstand Kontakt hatte, zur Sicherheit untertauchen müssen."
-holex.18.a: "Das ist mehr als nur eine Katastrophe!"
-
-holex.19.t: "Operation fehlgeschlagen!"
-holex.19.d: "Unsere Einsatzkräfte vor Ort berichten, dass die Operation abgebrochen wurde, bevor sie überhaupt begonnen hatte, nachdem einer der Männer gesehen hatte, dass einer der Arbeiter, der zu spät kam, eine Waffe trug. Der Anführer entschied daraufhin, dass die Sicherheit der Gruppe wichtiger sei als die Mission und befahl der Gruppe, umzukehren..."
-holex.19.a: "Es war wahrscheinlich die beste Wahl."
-
-holex.20.t: "Widerstand überfällt Fabrik"
-holex.20.d: "Eine reaktionäre Widerstandszelle hat einen Überfall auf eine unserer Waffenfabriken verübt. Leider ist es ihnen gelungen, unsere Produktionskapazitäten erheblich zu beeinträchtigen und eine erfolgreiche Evakuierung durchzuführen, so dass wir sie nicht aufspüren konnten."
-holex.20.a: "Verblendete Reaktionäre!"
-
-holex.21.t: "Operation erfolgreich!"
-holex.21.d: "Unsere Leute vor Ort berichten, dass die Operation zur Sabotage der von uns ausgewählten Waffenfabrik reibungslos verlaufen ist: Alle 25 Mitglieder des Widerstands konnten nach der erfolgreichen Zerstörung der Anlage sicher evakuiert werden."
-holex.21.a: "Ein Hoch auf unsere Männer vor Ort!"
-
-holex.22.t: "Widerstand überfällt Fabrik"
-holex.22.d: "Eine reaktionäre Widerstandszelle hat einen Überfall auf eine unserer Waffenfabriken verübt. Obwohl sie recht gute Arbeit geleistet und unsere Produktionskapazitäten dort erheblich geschädigt haben, konnten wir zwei von ihnen töten und vier weitere in Gewahrsam nehmen. Sie werden in diesem Moment verhört."
-holex.22.a: "Verblendete Reaktionäre!"
-
-holex.23.t: "Operation Semi-Erfolgreich!"
-holex.23.d: "Unsere Einsatzkräfte vor Ort berichten, dass die Operation zur Sabotage der Waffenfabrik erfolgreich verlaufen ist. Allerdings haben es sechs Widerstandsmitglieder nicht geschafft, sich nach der erfolgreichen Sabotage der Anlage in Sicherheit zu bringen; wir vermuten, dass zwei von ihnen bei dem anschließenden Feuergefecht mit den Behörden ums Leben gekommen sind und vier lebend festgenommen wurden. Da wir davon ausgehen, dass niemand unter Folter überleben wird, sind wir gezwungen, den Rest des Teams zu verstecken, da sie sich untereinander kannten."
-holex.23.a: "Gut, aber schlecht..."
-
-holex.24.t: "Widerstand überfällt Fabrik"
-holex.24.d: "Eine reaktionäre Widerstandszelle versuchte, einen Überfall auf eine unserer Waffenfabriken zu verüben. Bevor sie diese jedoch erreichten, stießen sie auf eine Patrouille, woraufhin ein Feuergefecht ausbrach. Nachdem die Patrouille Verstärkung angefordert hatte, zogen sich die Reaktionäre zurück, wobei unsere Seite 12 dieser Schurken tötete. Wir haben auch einen von ihnen, der verwundet und damit handlungsunfähig war, in Gewahrsam genommen; er wird gerade im Krankenhaus verhört."
-holex.24.a: "Verblendete Reaktionäre!"
-
-holex.25.t: "Operation fehlgeschlagen!"
-holex.25.d: "Die Widerstandsgruppe ist auf dem Weg zur Sabotage der Anlage auf eine Patrouille getroffen. Zwölf unserer Männer wurden bei dem anschließenden Feuergefecht getötet und zwei wurden vermisst, als sie verwundet wurden und während der Evakuierung zusammenbrachen; wir können nur annehmen, dass sie von den Behörden aufgegriffen wurden. Da wir davon ausgehen, dass niemand unter Folter überleben wird, sind wir gezwungen, den Rest des Teams zu verstecken, da sie die anderen kannten."
-holex.25.a: "Das ist ein Desaster!"
-
-holex.26.t: "Widerstand fällt auf die Falle herein"
-holex.26.d: "Eine reaktionäre Widerstandszelle hat versucht, eine unserer Waffenfabriken zu überfallen, genau wie es unser Informant wollte. Sie gingen uns direkt in die Falle und verursachten ein Feuergefecht, bei dem wir mehrere von ihnen töteten und den Rest verhafteten, einschließlich des Anführers, der durchaus Leute kennen könnte, die über seine kleine Gruppe hinausgehen."
-holex.26.a: "Erzähl uns mehr, oder wir schießen dir den Zeh ab!"
-
-holex.27.t: "Operation fehlgeschlagen!"
-holex.27.d: "Unsere Mitarbeiter vor Ort berichten, dass keiner der Agenten, die vor Ort eingesetzt wurden, um die Waffenfabrik zu sabotieren, zurückgekehrt ist. Als wir einen Späher schickten, meldete dieser bald zurück, dass die Fabrik noch intakt sei, die Polizei aber nicht mehr da sei. Offensichtlich war es eine Falle gewesen. Was noch schlimmer ist: Soweit wir wissen, wurde der Anführer der Gruppe ebenfalls verhaftet, so dass wir alle dreißig Agenten, mit denen er Kontakt innerhalb des Widerstands hatte, zur Sicherheit untertauchen müssen."
-holex.27.a: "Das ist mehr als nur eine Katastrophe!"
-
-holex.28.t: "Operation fehlgeschlagen!"
-holex.28.d: "Unsere Einsatzkräfte vor Ort berichten, dass die Operation abgebrochen wurde, bevor sie überhaupt begonnen hatte, nachdem einer der Männer gesehen hatte, dass einer der Arbeiter, der zu spät kam, eine Waffe trug. Der Anführer entschied daraufhin, dass die Sicherheit der Gruppe wichtiger sei als die Mission und befahl der Gruppe, umzukehren..."
-holex.28.a: "Es war wahrscheinlich die beste Wahl."
-
-holex.29.t: "Widerstand sprengt eine Eisenbahnlinie!"
-holex.29.d: "Eine kleine Gruppe reaktionärer Terroristen hat mitten in der Nacht eine Eisenbahnlinie in die Luft gesprengt. Leider ist keine Spur von ihnen zu finden und es gibt wenig, was wir tun können, außer den Schaden zu reparieren."
-holex.29.a: "Kleinliche Terroristen!"
-
-holex.30.t: "Erfolgreiche Operation!"
-holex.30.d: "Unsere Agenten melden einen Erfolg bei der Bombardierung der vorgesehenen Bahnlinie. Die [HolexSyndicalistOrGerman] werden nicht wissen, was sie getroffen hat, und die gesamte Gruppe ist sicher zurückgekehrt!"
-holex.30.a: "Gut, gut!"
-
-holex.31.t: "Widerstandskämpfer verhaftet!"
-holex.31.d: "Eine kleine Gruppe reaktionärer Terroristen hat in der Nacht versucht, einen Bombenanschlag auf eine Bahnstrecke zu verüben, wurde aber von einem Einheimischen entdeckt und schnell festgenommen. Die Straßen sind jetzt wieder ein bisschen sicherer."
-holex.31.a: "Gut, dass wir sie los sind!"
-
-holex.32.t: "Fehlgeschlagene Operation!"
-holex.32.d: "Offensichtlich wurden unsere Agenten auf dem Weg zu ihrem Ziel entdeckt, denn die Polizei tauchte plötzlich auf und nahm alle fünf fest, wie ein mit uns sympathisierender Einheimischer berichtete. Wir müssen schnell handeln, um ihre Kontaktpersonen unterzutauchen."
-holex.32.a: "Schnell, informiert sie!"
-
-holex.33.t: "Polizeirazzia trifft Widerstandsnetzwerk"
-holex.33.d: "Das reaktionäre Widerstandsnetzwerk, das von [DEI.GetNameDef] betrieben wird, wurde von einer Polizeirazzia getroffen, die ein grandioser Erfolg war: Acht Reaktionäre wurden festgenommen und wir konnten ihnen Informationen über den Aufenthaltsort anderer Mitglieder entlocken, obwohl der Widerstand sie wahrscheinlich inzwischen aufgefordert hat, unterzutauchen. Das ist ein großer Sieg für unsere Herrschaft!"
-holex.33.a: "Gut, dass wir sie los sind!"
-
-holex.34.t: "Polizeirazzia trifft Widerstandsnetzwerk"
-holex.34.d: "Unser Netzwerk wurde von einer Polizeirazzia getroffen, die offensichtlich von jemandem geleitet wurde, der viel über die Art unseres Netzwerks wusste. Alle acht Zielpersonen wurden von der Polizei abgeführt, und da sie Kontaktpersonen haben, die sie kennen, müssen wir sie zur Sicherheit untertauchen lassen."
-holex.34.a: "Oh nein!"
-
-holex.35.t: "Polizeirazzia trifft Widerstandsnetzwerk"
-holex.35.d: "Das reaktionäre Widerstandsnetzwerk, das von [DEI.GetNameDef] betrieben wird, wurde von einer Polizeirazzia getroffen, die mäßig erfolgreich war: Wir haben 4 Reaktionäre verhaftet, was bedeutet, dass 4 andere entkommen konnten, aber zumindest ist es uns gelungen, Informationen über einige andere Mitglieder zu erhalten, so dass wir eine ganze Reihe von Widerstandsmitgliedern dazu zwingen, sich zu verstecken.“"
-holex.35.a: "Wenigstens das ist etwas..."
-
-holex.36.t: "Polizeirazzia trifft Widerstandsnetzwerk"
-holex.36.d: "Unser Netzwerk wurde von einer Polizeirazzia getroffen, die offensichtlich von jemandem geleitet wurde, der viel über die Art unseres Netzwerks wusste. Sie hatten es auf 8 Mitglieder abgesehen, von denen es 4 gelang, zu fliehen. Die 4, die tatsächlich verhaftet wurden, hatten andere Kontakte, und offenbar wissen sie, wer die anderen 4 sind, so dass wir wohl keine andere Wahl haben, als diese beiden Gruppen unterzutauchen."
-holex.36.a: "Oh nein!"
-
-holex.37.t: "Polizeirazzia trifft Widerstandsnetzwerk"
-holex.37.d: "Das von [DEI.GetNameDef] betriebene reaktionäre Widerstandsnetzwerk wurde von einer Polizeirazzia getroffen, die eine absolute Schande für unseren Polizeiapparat war: alle 8 Zielpersonen konnten entkommen. Der einzige Lichtblick ist, dass der Widerstand, da er weiß, dass wir seine Agenten identifiziert haben, gezwungen ist, sie unterzutauchen, so dass sie für eine Weile keine Missionen ausführen können."
-holex.37.a: "Verdammt!"
-
-holex.38.t: "Polizeirazzia trifft Widerstandsnetzwerk"
-holex.38.d: "Die Polizei hat heute versucht, eine Razzia in unserem Netz durchzuführen, um 8 Personen festzunehmen, die offensichtlich von jemandem verraten wurden. Glücklicherweise gelang es allen 8, zu entkommen, obwohl die Behörden offensichtlich ihre Identität kennen und sie daher gezwungen sein werden, sich zu verstecken."
-holex.38.a: "Netter Versuch..."
-
-holex.39.t: "Revolution in den Niederlanden"
-holex.39.d: "Beunruhigende Nachrichten aus den Niederlanden: Offenbar haben syndikalistische Elemente die rechtmäßige demokratische Regierung gestürzt und eine Tyrannei über das niederländische Mutterland verhängt. Die Königin und mehrere Getreue haben sich erfolgreich abgesetzt und beabsichtigen offenbar, hier eine Exilregierung zu gründen."
-holex.39.a: "Natürlich, willkommen!"
-
-holex.40.t: "Geburtsrecht wiederhergestellt!"
-holex.40.d: "Wir haben die Niederlande erfolgreich befreit und ihre rechtmäßige Ordnung wiederhergestellt. Natürlich muss dort eine starke Regierung eingesetzt werden, bevor wir wieder Wahlen abhalten können, damit der Syndikalismus nicht zurückkehrt, aber das Schlimmste ist überstanden. Die Frage ist, wie es weitergehen soll, auch im Hinblick auf das Schicksal der Kolonien, insbesondere Niederländisch-Indiens, das so hart für die Befreiung des Vaterlandes gekämpft hat."
-holex.40.a: "Die Unabhängigkeit wird, wie versprochen, gewährt (Spielt als die Niederlande)"
-holex.40.b: "Die Unabhängigkeit wird, wie versprochen, gewährt (Spielt als Indonesien)"
-holex.40.c: "Die Indies erhalten wie versprochen den gleichen Status."
-holex.40.e: "Die alte Ordnung wird wiederhergestellt (Spielt als die Kolonialregierung)"
-holex.40.f: "Die alte Ordnung wird wiederhergestellt (Spielt als die Niederlande)"
+dutch_east_indies_events.2.t: "Der Schwarze Montag trifft die Indies"
+dutch_east_indies_events.2.d: "Die Folgen der wirtschaftlichen Not, die Europa nach dem Schwarzen Montag traf, waren bald auch in Niederländisch-Indien zu spüren, das seine Waren seit dem Ende des Weltkriegs auf dem mitteleuropäischen Markt verkaufte. Da sich der einfache Mann in Europa den Kauf von Waren wie Zucker und Kaffee nicht mehr leisten konnte, brachen die Preise für diese Waren ein, was für die hiesigen Bauern schwerwiegende Folgen hatte."
+dutch_east_indies_events.2.a: "Oh nein!"
+
+dutch_east_indies_events.3.t: "Wachsende Einheit in den Unabhängigkeitsbewegungen"
+dutch_east_indies_events.3.d: "Die PID berichtet, dass die Einigkeit unter den Unabhängigkeitsbewegungen in letzter Zeit zugenommen hat. Es wäre ratsam, ein wachsames Auge auf sie zu werfen und sie daran zu hindern, stärker zu werden (und vorzugsweise ihre Einheit zu schwächen), damit ihre Zusammenarbeit nicht zu einer stärkeren Gesamtbewegung führt."
+dutch_east_indies_events.3.a: "Wir werden wachsam sein!"
+
+dutch_east_indies_events.4.t: "Sinkende Einigkeit in den Unabhängigkeitsbewegungen"
+dutch_east_indies_events.4.d: "Die PID berichtet, dass die Einigkeit zwischen den Unabhängigkeitsbewegungen ins Wanken gerät und nun sogar schwindet. Auch wenn es unklug wäre, sich jetzt zurückzulehnen und zu entspannen, werden wir weniger Probleme haben, sie zu kontrollieren, sobald sich Risse in ihrer Zusammenarbeit abzeichnen."
+dutch_east_indies_events.4.a: "Das ist großartig!"
+
+dutch_east_indies_events.5.t: "Die Stärke der Unabhängigkeitsbewegungen nimmt zu"
+dutch_east_indies_events.5.d: "Die PID berichtet, dass die Bewegungen, die die Unabhängigkeit von Indonesien propagieren, an Stärke gewinnen. Vielleicht sollten wir uns überlegen, in heiklen Situationen vorsichtiger zu sein und gegen sie vorzugehen, wo wir können, um sie nicht unkontrollierbar zu machen."
+dutch_east_indies_events.5.a: "Besorgniserregend..."
+
+dutch_east_indies_events.6.t: "Die Stärke der Unabhängigkeitsbewegungen lässt nach"
+dutch_east_indies_events.6.d: "Die PID berichtet, dass die Bewegungen, die die Unabhängigkeit von Indonesien propagieren, an Durchschlagskraft verlieren. Wir sollten zwar wachsam bleiben, da sie nicht tot sind, aber wir können in naher Zukunft etwas entspannter regieren, da es kurzfristig leichter sein wird, sie zu kontrollieren."
+dutch_east_indies_events.6.a: "Großartig!"
+
+dutch_east_indies_events.7.t: "Generalgouverneur De Jonge tritt zurück"
+dutch_east_indies_events.7.d: "Unser Generalgouverneur Bonifacius de Jonge hatte mehrfach seine Absicht bekundet, von seinem Amt als Generalgouverneur der Indies zurückzutreten, dies aber angesichts der niederländischen Wahlen, die sich immer mehr zu einem Wahlfest für seine Gönnerpartei VNH in den Niederlanden entwickelten, aufgeschoben. Die Wahlen sind nun wohl oder übel vorbei, und es bleibt abzuwarten, wen der neue Kolonialminister als seinen Nachfolger ernennen wird."
+dutch_east_indies_events.7.a: "Wir erwarten die Entscheidung mit Freude!"
+
+dutch_east_indies_events.8.t: "Ein Ersatz für den Generalgouverneur"
+dutch_east_indies_events.8.d: "Der Generalgouverneur von Niederländisch-Indien, Bonifacius Cornelis de Jonge, hat seinen Rücktritt angekündigt. Er hat die Wahl abgewartet, damit die neue Regierung den neuen Generalgouverneur ernennen kann, ohne dass er innerhalb eines halben Jahres ersetzt werden muss, was in den Augen von de Jonge für die Stabilität der Indischen Inseln schädlich wäre..."
+dutch_east_indies_events.8.a: "Nico Palar, der mit weicher Hand regieren wird."
+dutch_east_indies_events.8.b: "A. Tjarda van Starkenborgh-Stachouwer, die ausgewogene Kandidatin."
+dutch_east_indies_events.8.c: "Johan Furstner, der die Insulaner mit Gewalt unter Kontrolle halten wird!"
+
+dutch_east_indies_events.9.t: "Generalgouverneur Nico Palar"
+dutch_east_indies_events.9.d: "Das Kolonialministerium hat beschlossen, den Sozialdemokraten Nicodemus Palar zum neuen Generalgouverneur zu ernennen, der auch der erste Generalgouverneur der Kolonie für Inländer ist. Es wird erwartet, dass der neue Generalgouverneur die Indiens durch Kompromisse regiert und auf einen gleichberechtigten Status innerhalb des Königreichs oder sogar auf die nationale Unabhängigkeit hinarbeitet.\n\nNatürlich sind die weiße herrschende Klasse und die indisch-niederländische Gemeinschaft durch diese Entwicklung etwas beunruhigt, da sie das Ende der Ostindien, wie sie es kennen, fürchten. Auf der anderen Seite sind die Inländer sehr glücklich über diese Veränderung."
+dutch_east_indies_events.9.a: "Willkommen, Eure Exzellenz!"
+
+dutch_east_indies_events.10.t: "Generalgouverneur A. Tjarda van Starkenborgh-Stachouwer"
+dutch_east_indies_events.10.d: "Das Kolonialministerium hat beschlossen, Alidius Tjarda van Starkenborgh-Stachouwer zum neuen Generalgouverneur zu ernennen, wie die meisten angesichts seines Werdegangs erwartet hatten. Es wird erwartet, dass der neue Generalgouverneur versuchen wird, ein Gleichgewicht zwischen Unterdrückung und Kompromiss zu finden, in der Hoffnung, den Indios eines Tages einen gleichberechtigten Status innerhalb des Königreichs zu geben.\n\nDie weiße herrschende Klasse und die indisch-niederländische Gemeinschaft befürworten diese Wahl, während die Inländer gleichgültig sind."
+dutch_east_indies_events.10.a: "Willkommen, Eure Exzellenz!"
+
+dutch_east_indies_events.11.t: "Generalgouverneur Johan Furstner"
+dutch_east_indies_events.11.d: "Das Kolonialministerium hat beschlossen, den VNH-Mann Johan Furstner zum neuen Generalgouverneur zu ernennen, die bevorzugte Wahl als Nachfolger des ehemaligen Generalgouverneurs De Jonge. Es wird erwartet, dass der neue Generalgouverneur hart durchgreift, den Nationalismus mit Gewalt niederschlägt und den Status quo der niederländischen Herrschaft festigt. Gleichberechtigung steht nicht auf der Tagesordnung. Die weiße herrschende Klasse und die indisch-niederländische Gemeinschaft sind mit der Wahl eines Hardliners sehr zufrieden, aber es ist unwahrscheinlich, dass die Inselbewohner damit zufrieden sein werden."
+dutch_east_indies_events.11.a: "Willkommen, Eure Exzellenz!"
+
+dutch_east_indies_events.13.t: "Proklamation der indonesischen Unabhängigkeit"
+dutch_east_indies_events.13.d: "Angesichts des jüngsten Wachstums der indonesischen Unabhängigkeitsbewegung ist dies wahrscheinlich keine Überraschung: Sukarno hat eine proklamasi, eine Proklamation, herausgegeben, in der er alle Indonesier zum Widerstand gegen die holländischen Besatzer und zum Beitritt zur Tentara Keselamatan Rakyat, der Sicherheitsarmee des Volkes, aufruft. Es scheint, als sei eine regelrechte Revolte zur Beseitigung der niederländischen Herrschaft auf dem indonesischen Archipel ausgebrochen."
+dutch_east_indies_events.13.a: "Bersiap! (Spielt als Indonesien)"
+dutch_east_indies_events.13.b: "Bereid de Politionele Acties Voor! (Spielt als Niederländisch-Indien)"
+
+dutch_east_indies_events.14.t: "Niederländische Zeughäuser überrannt"
+dutch_east_indies_events.14.d: "In der Anfangsphase der indonesischen Nationalrevolution haben unsere tapferen Truppen die holländischen Waffenlager auf Java und Sumatra geplündert, um die dort gelagerten Geschütze zu erbeuten. Wir werden sie gut gebrauchen können, um die koloniale Bedrohung aus unserem Heimatland zu vertreiben!"
+dutch_east_indies_events.14.a: "Lang lebe die Republik!"
+
+dutch_east_indies_events.15.t: "TKR überfällt Zeughäuser"
+dutch_east_indies_events.15.d: "Die republikanischen Streitkräfte Indonesiens haben überall in den Ländern Waffenlager geplündert und sie aufgrund ihrer zahlenmäßigen Überlegenheit schnell überrannt. Die Zahl der Opfer ist zwar gering, aber wir haben mehrere Waffen an die Republikanische Armee von Indonesien verloren, was später zu einem Problem werden könnte."
+dutch_east_indies_events.15.a: "Oh nein!"
+
+dutch_east_indies_events.16.t: "Volksraad beschließt die Sutardjo-Petition"
+dutch_east_indies_events.16.d: "Der Volksraad, das weitgehend machtlose "Parlament" unserer Kolonie, hat eine Petition von Soetardjo Kartohadikoesoemo angenommen, in der eine Konferenz gefordert wird, um über die Zukunft Niederländisch-Indiens zu sprechen, insbesondere im Hinblick auf die Förderung des Landes zu einem gleichberechtigten Status innerhalb des Königreichs. Nach seiner Verabschiedung ist es nun die Aufgabe des Generalgouverneurs, ihn nach Hause zu schicken. Der Volksraad hat jedoch nur eine beratende Funktion, und die niederländische und indische Bevölkerung ist über die Auswirkungen der Petition besorgt, so dass wir auch einfach ein Veto einlegen könnten."
+dutch_east_indies_events.16.a: "Veto, natürlich!"
+dutch_east_indies_events.16.b: "Schicken wir es in die Niederlande."
+
+dutch_east_indies_events.17.t: "Die Sutardjo-Petition"
+dutch_east_indies_events.17.d: "Auf dem Schreibtisch von Premierminister Colijn ist eine vom Volksraad verabschiedete Petition eingetroffen, die uns vom Generalgouverneur [DEI.GetLeader] zugesandt wurde. Offenbar wird in der Petition ein Kongress gefordert, um über die Zukunft des Status von Niederländisch-Indien innerhalb des Königreichs zu sprechen. Der Volksraad hat bereits alle Fristen, die der ursprüngliche Vorschlag enthielt, gestrichen, so dass der Premierminister bereits seine Entscheidung getroffen hat, wann er die Petition im Abgeordnetenhaus behandeln will."
+dutch_east_indies_events.17.a: "... irgendwann nächstes Jahr klingt gut!"
+
+dutch_east_indies_events.18.t: "Sutardjo-Petition im Abgeordnetenhaus"
+dutch_east_indies_events.18.d: "Wie von Hendrik Colijn vor etwa einem Jahr beschlossen, wurde die Sutardjo-Petition im Abgeordnetenhaus eingebracht, die einen Kongress über die Revision des Status von Niederländisch-Indien fordert, insbesondere zur Förderung eines gleichberechtigten Status innerhalb des Königreichs. Bei der Abstimmung wird die Petition..."
+dutch_east_indies_events.18.a: "... akzeptiert: die Kolonialregierung soll einen Kongress einberufen, wenn sie dazu bereit ist!"
+dutch_east_indies_events.18.b: "... abgelehnt: ein solcher Vorschlag sollte von den Niederlanden geregelt werden."
+
+dutch_east_indies_events.19.t: "Sutardjo-Petition abgelehnt"
+dutch_east_indies_events.19.d: "Das Mutterland hat die Sutardjo-Petition abgelehnt, die wir vor etwa einem Jahr an sie geschickt haben. Die meisten, die dagegen gestimmt haben, begründeten dies damit, dass Niederländisch-Indien ein überseeisches Gebiet ist und keine Kolonie, die zu einem gleichberechtigten Status erhoben werden kann. Der wahre Grund ist natürlich, dass sie glauben, die Indonesier seien noch nicht reif für die Selbstverwaltung, und es ist offensichtlich, dass die Indonesier damit nicht zufrieden sein werden."
+dutch_east_indies_events.19.a: "Ende gut, alles gut!"
+
+dutch_east_indies_events.20.t: "Sutardjo-Petition angenommen"
+dutch_east_indies_events.20.d: "Das Heimatland hat die Sutardjo-Petition akzeptiert, die wir vor etwa einem Jahr an sie gerichtet haben, obwohl sie alle Fristen gestrichen haben. Sie wissen sehr wohl um die Folgen einer solchen Konferenz, daher wird versichert, dass wir sie mit Vorsicht behandeln und erst dann, wenn wir bereit sind. Die Tür steht jedoch offen für die Förderung der Indischen Inseln zu einem gleichberechtigten Status."
+dutch_east_indies_events.20.a: "Die Insulaner werden sich freuen."
+
+dutch_east_indies_events.21.t: "Gründung der GAPI"
+dutch_east_indies_events.21.d: "Infolge der Ablehnung ihres Plans für eine Konferenz haben sich alle Parteien der Insulaner (mit Ausnahme der PNI) zu einer einzigen politischen Föderation der Indonesier zusammengeschlossen, die die vollständige Einrichtung eines indonesischen Parlaments und damit die Wiederherstellung des gleichberechtigten Status der Indonesier fordert. Da die niederländische Regierung offensichtlich nicht gewillt ist, diesen Wunsch zu erfüllen, insbesondere angesichts der zunehmenden internationalen Spannungen, wird dies nur dazu beitragen, die Insulaner in der Unabhängigkeitsbewegung zu vereinen."
+dutch_east_indies_events.21.a: "Warum muss mir das immer passieren?!"
+
+dutch_east_indies_events.22.t: "Die Rundtisch-Konferenz"
+dutch_east_indies_events.22.d: "Die Niederländer haben gezeigt, dass sie nicht in der Lage sind, unsere Rebellion zu unterdrücken, und da die internationale Gemeinschaft auf unsere Notlage aufmerksam geworden ist, wird ihre Position immer instabiler. Wir werden wahrscheinlich in der Lage sein, ein günstiges Abkommen auszuhandeln, das die Souveränität über den gesamten indonesischen Archipel begründet."
+dutch_east_indies_events.22.a: "Der Tag ist gekommen!"
+
+dutch_east_indies_events.23.t: "Die Rundtisch-Konferenz"
+dutch_east_indies_events.23.d: "Da es uns nicht gelungen ist, den Aufstand niederzuschlagen und die republikanischen Kräfte praktisch ganz Java und Sumatra beherrschen, scheint es unmöglich, unsere Position in unserer Kolonie zu halten. Die Republikaner haben ihre Forderungen gestellt: volle Souveränität über die gesamten Indischen Inseln, aber vielleicht können wir wenigstens Teile unserer Kolonie retten?"
+dutch_east_indies_events.23.a: "Unterzeichnet den Vertrag."
+dutch_east_indies_events.23.b: "Wir werden Neuguinea nicht aufgeben!"
+dutch_east_indies_events.23.c: "Wir werden weder Neuguinea noch die Molukken aufgeben!"
+dutch_east_indies_events.23.e: "Wir werden auf keinen Fall aufgeben!"
+
+dutch_east_indies_events.24.t: "Die Niederländer unterzeichnen den Vertrag!"
+dutch_east_indies_events.24.d: "Die Niederländer haben zugestimmt, die gesamte Souveränität über die Indischen Inseln an die Republik Indonesien zu übertragen. Dies ist ein großer Tag für unser Land, an den sich auch die Generationen nach uns erinnern werden, denn heute wurde Indonesien offiziell ein unabhängiges Land, frei vom Imperialismus!"
+dutch_east_indies_events.24.a: "Merdeka ist erreicht!"
+
+dutch_east_indies_events.25.t: "Die Niederländer stellen Gegenforderungen!"
+dutch_east_indies_events.25.d: "Da es nicht möglich ist, die erforderliche Unterstützung für die Verfassungsänderung zu erhalten, die die Übertragung der Souveränität ermöglichen würde, erklären die Niederländer, dass sie die Souveränität über Westirian (Neuguinea) behalten müssen. Dies ist zwar ein Rückschlag, doch scheint es derzeit unwahrscheinlich, dass wir die Insel mit Gewalt einnehmen können, da wir nicht gegen die niederländische Marine ankommen. Vielleicht sind wir besser dran, wenn wir diesem Abkommen zustimmen, als die Feindseligkeiten fortzusetzen: Sie werden uns schließlich den viel wertvolleren Rest des Archipels überlassen..."
+dutch_east_indies_events.25.a: "Wir unterschreiben, Westirian holen wir später!"
+dutch_east_indies_events.25.b: "Dies ist inakzeptabel."
+
+dutch_east_indies_events.26.t: "Die Indonesier weigern sich!"
+dutch_east_indies_events.26.d: "Die republikanische Delegation war empört über unsere mangelnde Bereitschaft, ihnen das gesamte ehemalige Ostindien zu überlassen. Es scheint, dass die Verhandlungen gescheitert sind und der Krieg weitergehen wird."
+dutch_east_indies_events.26.a: "Das Land war nicht einmal viel wert!"
+
+dutch_east_indies_events.27.t: "Die Niederländer stellen Gegenforderungen!"
+dutch_east_indies_events.27.d: "Die Niederländer begründen dies damit, dass sie nicht die nötige Unterstützung für die Änderung der Verfassung erhalten können, um die Übertragung der Souveränität zu ermöglichen, und dass sie die Souveränität über Westirian (Neuguinea) und die christlichen Molukken behalten müssen, die sie während der Revolution kontinuierlich unterstützt haben. Dies ist zwar ein Rückschlag, doch scheint es derzeit unwahrscheinlich, dass wir in der Lage sein werden, die Inseln mit Gewalt einzunehmen, da wir nicht gegen die niederländische Flotte ankommen. Vielleicht ist es besser, wenn wir uns auf dieses Abkommen einlassen, als die Feindseligkeiten fortzusetzen: Sie werden uns den viel wertvolleren Rest des Archipels schließlich überlassen..."
+dutch_east_indies_events.27.a: "Wir werden das schaffen..."
+dutch_east_indies_events.27.b: "Indonesien ohne seinen Osten ist nicht Indonesien!"
+
+dutch_east_indies_events.28.t: "Die Niederländer lehnen ab!"
+dutch_east_indies_events.28.d: "Obwohl sie den republikanischen Streitkräften eindeutig unterlegen sind, weigern sich die sturen Niederländer immer noch, einen Vertrag mit 'Geächteten und Verbrechern' zu unterzeichnen. Es sieht so aus, als müssten wir unseren Kampf fortsetzen, bis sie endlich ihren Mut verlieren."
+dutch_east_indies_events.28.a: "Ein echter Rückschlag!"
+
+dutch_east_indies_events.35.t: "The Netherlands Abandons the Indies"
+dutch_east_indies_events.35.d: "Aus Indien sind beunruhigende Nachrichten eingetroffen: Die Sozialisten, die in der Heimat an die Macht gekommen sind, haben durch ihre parlamentarische Stellung die alte Ordnung gestürzt und uns nun angewiesen, alle niederländischen Bürger in Indonesien zu schützen und ihnen bei der Übersiedlung in die Niederlande zu helfen, wenn sie dies wünschen, sowie einen geordneten Rückzug aus dem Gebiet zu gewährleisten. Es überrascht nicht, dass das Chaos ausbrach und der gerade aus dem Gefängnis entlassene Sukarno die Situation nutzte, um die Unabhängigkeit Indonesiens auszurufen. Inzwischen ist der Generalgouverneur verschwunden, und Söldner haben die Kontrolle über einen Teil der Insel Borneo übernommen. Die indischen Inseln brechen gerade wegen dieser Erklärung zusammen."
+dutch_east_indies_events.35.a: "Spielt als Batavianischen Kommune."
+dutch_east_indies_events.35.b: "Spielt als Indonesien."
+
+dutch_east_indies_events.36.t: "Anarchie in Niederländisch-Indien"
+dutch_east_indies_events.36.d: "Die sozialistische Regierung der Niederlande hat ihre Kolonie plötzlich aufgegeben, ihre eigene Anwesenheit für illegal erklärt und ihre Militärpräsenz angewiesen, niederländische Zivilisten zu schützen, die jetzt zurückkehren wollen. Die ersten Berichte deuten darauf hin, dass Sukarno und seine Nationale Partei die Kontrolle über die Indies übernehmen werden, die unserer Herrschaft bestenfalls gleichgültig und schlimmstenfalls feindlich gegenüberstehen werden. Während eine Militärexpedition zur Befriedung Indiens Ärger verspricht, könnten wir beschließen, so viel wie möglich vom ehemals niederländischen Neuguinea einzunehmen und die ehemals niederländische Seite der Straße von Malakka zu sichern."
+dutch_east_indies_events.36.a: "Bereitet die Schiffe vor!"
+dutch_east_indies_events.36.b: "Ich habe darauf keine Lust..."
+
+dutch_east_indies_events.37.t: "Die Deutschen verletzen unsere Souveränität"
+dutch_east_indies_events.37.d: "Aus Sorge um unsere Haltung gegenüber ihrer Herrschaft und das Machtgleichgewicht in der Region haben die Deutschen Schiffe entsandt, um die sumatranische Seite der Straße von Malakka zu sichern, und sind von Kaiser-Wilhelmsland aus nach Neuguinea vorgedrungen. Leider können wir angesichts des derzeitigen Chaos, das durch den plötzlichen Rückzug der Niederländer entstanden ist, nur wenig dagegen unternehmen."
+dutch_east_indies_events.37.a: "Oh nein!"
+
+dutch_east_indies_events.38.t: "Deutsche Präsenz in Neuguinea"
+dutch_east_indies_events.38.d: "Die sozialistische Regierung in den Niederlanden zog sich plötzlich aus Niederländisch-Indien zurück. Die lokale Bevölkerung, angeführt von dem prominenten Nationalisten Sukarno, erklärte ihren eigenen souveränen Staat: Indonesien. Es überrascht nicht, dass die Deutschen beschlossen, dass dies der ideale Zeitpunkt war, um Westneuguinea zu übernehmen. Wenn wir verhindern wollen, dass die Deutschen das ganze Land einnehmen, müssen wir schnell handeln!"
+dutch_east_indies_events.38.a: "Wir können sie das nicht tun lassen!"
+dutch_east_indies_events.38.b: "Wir haben nicht die Mittel."
+
+dutch_east_indies_events.39.t: "Südwestneuguinea ist bereit für die Übernahme"
+dutch_east_indies_events.39.d: "Wir hatten erwartet, dass die Australier eindringen und uns bei der Einnahme des südlichen Teils von Niederländisch-Neuguinea blockieren würden, aber das scheint nicht der Fall gewesen zu sein. Das Land ist offen, und unsere Streitkräfte rücken in die ehemals niederländischen Forts in diesem Gebiet ein."
+dutch_east_indies_events.39.a: "Unerwartet, aber willkommen."
+
+dutch_east_indies_events.40.t: "[From.GetNameDefCap] erobert den Südwesten Irians"
+dutch_east_indies_events.40.d: "[From.GetAdjective] Truppen drangen ein und besetzten den Südwesten Irians. Das ist beleidigend und faktisch inakzeptabel, aber aufgrund des chaotischen Rückzugs der Niederländer können wir wenig dagegen tun..."
+dutch_east_indies_events.40.a: "Inakzeptabel!"
+
+dutch_east_indies_events.41.t: "Kongress von Batavia - Beginn"
+dutch_east_indies_events.41.d: "Der Kongress von Batavia hat begonnen, Vertreter aus ganz Indien sind angereist, um über die Zukunft Niederländisch-Indiens und seine Gleichstellung mit den Niederlanden zu verhandeln.\n\nDie erste strittige Frage ist, wie diese neuen Länder innerhalb des Königreichs aussehen sollen. Die meisten Nationalisten scheinen eine Lösung zu bevorzugen, bei der Java und Sumatra vereinigt werden, Borneo und Celebes eigene Länder sind und ein weiterer Staat namens 'Ost-Indonesien' die Molukken und insgesamt den christlichen Teil des Landes umfasst. Viele (Niederländer und Ostindonesier) befürchten jedoch, dass ein solcher Java-Sumatra-Staat das neue Königreich der Niederlande dominieren würde, und würden es lieber sehen, wenn die beiden Inseln in mehrere Länder aufgeteilt würden. Dann gibt es noch den Mittelweg, bei dem sowohl Java als auch Sumatra eigene Länder innerhalb des Königreichs sind."
+dutch_east_indies_events.41.a: "Es ist besser, die Länder klein und kontrollierbar zu halten."
+dutch_east_indies_events.41.b: "Der Mittelweg: Sie geben etwas, wir geben etwas."
+dutch_east_indies_events.41.c: "Die Vereinigung von Java und Sumatra erscheint am sinnvollsten."
+
+dutch_east_indies_events.42.t: "Kongress von Batavia"
+dutch_east_indies_events.42.d: "Die nächste strittige Frage ist die Art und Weise, wie das Königreich insgesamt regiert werden soll. Die Länder innerhalb des Königreichs haben volle interne Autonomie, aber es sollte eine gewisse Aufsicht geben, vor allem wenn Änderungen an der Verfassung vorgenommen werden müssen, darin sind sich alle Vertreter einig. Die Niederländer sind der Meinung, dass die Niederlande diese Gruppe anführen sollten, während alle anderen Länder ihren Vertreter in den Ministerrat des Königreichs entsenden. Die Vertreter der Indonesier lehnen dies entschieden ab, da dies undemokratisch wäre und jedes Land entsprechend seiner Bevölkerungszahl in diesem Rat vertreten sein sollte."
+dutch_east_indies_events.42.a: "Nein, das sind immer noch die Niederlande..."
+dutch_east_indies_events.42.b: "Repräsentation nach Bevölkerungszahl ist nur gerecht!"
+
+dutch_east_indies_events.43.t: "Kongress von Batavia"
+dutch_east_indies_events.43.d: "Es gab mehrere Themen, bei denen man sich problemlos einigen konnte, als gegen Ende der Konferenz ein weiteres sehr strittiges Thema auftauchte: die Außenpolitik. Natürlich stehen die Länder unter dem Dach des Königreichs zusammen, aber die Niederländer wollen die Außenpolitik kontrollieren, wenn sie keines der anderen Länder direkt betrifft, während die Indonesier viel lieber ein einheitliches Außenministerium sehen würden, das von den autonomen Ländern gemeinsam eingerichtet wird. Sobald diese Frage geklärt ist, werden die Generalstaaten darüber abstimmen."
+dutch_east_indies_events.43.a: "Wir haben natürlich Recht..."
+dutch_east_indies_events.43.b: "Die Indonesier haben Recht."
+
+dutch_east_indies_events.44.t: "Das Ergebnis der Batavia-Konferenz"
+dutch_east_indies_events.44.d.dutch: "Die Delegierten der Konferenz in Batavia sind zu einem Ergebnis gekommen. Es ist klar, dass die Konferenz deutlich auf die pro-niederländische Seite gedrängt wurde, und es sieht nicht so aus, als ob die Indonesier damit sehr glücklich wären. Es ist wahrscheinlich genug, um eine begrenzte Zusammenarbeit zu erreichen, aber keine Begeisterung, außer vielleicht auf den Molukken."
+dutch_east_indies_events.44.d.balanced: "Die Delegierten der Konferenz in Batavia sind zu einem Ergebnis gekommen. Es ist klar, dass die Konferenz eine gute Mischung aus pro-niederländischer und pro-Einwohner Politik war, und obwohl vielleicht insgeheim sowohl die Niederländer als auch die Indonesier auf mehr gehofft hatten, ist keiner von beiden unzufrieden damit. Wahrscheinlich reicht sie aus, um im westlichen Teil Niederländisch-Indiens nur eine begrenzte Zusammenarbeit zu erreichen, aber zumindest auf den Molukken, den Kleinen Sunda-Inseln und West-Neuguinea ist die Begeisterung über diese Lösung groß."
+dutch_east_indies_events.44.d.indonesia: "Die Delegierten der Konferenz in Batavia sind zu einem Schluss gekommen. Es ist klar, dass die Konferenz zugunsten der indonesischen Seite ausfiel, was vielen Niederländern Unbehagen bereitet, da sie das Gefühl haben, dass ihr Land nie mehr dasselbe sein wird. Die Indonesier hingegen sind damit zufrieden, vor allem außerhalb von Java, Sumatra und Borneo."
+dutch_east_indies_events.44.a: "Der Vorschlag wird angenommen!"
+dutch_east_indies_events.44.b: "Der Vorschlag wird abgelehnt!"
+
+dutch_east_indies_events.47.t: "Die Generalstaaten lehnen den Vorschlag ab"
+dutch_east_indies_events.47.d: "Die Generalstaaten haben unseren Vorschlag für den neuen Indonesien-Status in naher Zukunft unerwartet abgelehnt. Natürlich sind die Indonesier über diese plötzliche Ablehnung ihrer Rechte nicht erfreut!"
+dutch_east_indies_events.47.a: "Dies könnte problematisch werden."
+
+dutch_east_indies_events.48.t: "Charta für das Königreich der Niederlande"
+dutch_east_indies_events.48.d: "Nach langwierigen Verhandlungen ist es nun an der Zeit, das Koninkrijksstatuut, die königliche Charta, zu unterzeichnen. Darin werden unsere kolonialen Besitzungen zu autonomen Ländern innerhalb des Königreichs, die sich selbst regieren, aber immer noch Teil des Königreichs der Niederlande sind, und die Untertanen aus jedem Land erhalten die niederländische Staatsbürgerschaft. Es sollte auch erwähnt werden, dass die Unabhängigkeit versprochen wurde, obwohl Klauseln eingebaut wurden, die sicherstellen, dass dies in Jahrzehnten und nicht in Jahren geschieht..."
+dutch_east_indies_events.48.a: "Es lebe das niederländische Königreich!"
+
+dutch_east_indies_events.49.t: "Gleichberechtigung gewährt!"
+dutch_east_indies_events.49.d: "Wie auf der Konferenz von Batavia vereinbart, wird Niederländisch-Indien nun aufhören zu existieren: Es wird in mehrere autonome Staaten innerhalb des niederländischen Königreichs aufgeteilt. Diese Staaten erhalten volle innere Autonomie, und alle niederländisch-ostindischen Untertanen erhalten die niederländische Staatsbürgerschaft."
+dutch_east_indies_events.49.a: "Es lebe das niederländische Königreich!"
+
+dutch_east_indies_events.51.t: "Verstärkung trifft ein"
+dutch_east_indies_events.51.d: "Gemäß unseren Vorbereitungen sind Verstärkungen eingetroffen, die helfen sollen, Aufstände der Eingeborenen und/oder ausländische Invasionen auf den Indischen Inseln abzuwehren."
+dutch_east_indies_events.51.a: "Ich freue mich über ihre Ankunft!"
+
+dutch_east_indies_events.52.t: "[DEI.GetLeader] Löst den Volksraad auf"
+dutch_east_indies_events.52.d: "Am frühen Morgen erließ der Generalgouverneur [DEI.GetLeader] ein Dekret, mit dem er den Volksraad ein für alle Mal aufhob und verkündete, die Institution diene nur dazu, die niederländische Herrschaft zu schwächen und helfe nur Geächteten wie Sukarno. Von nun an soll in Niederländisch-Indien die Loyalität gegenüber der Krone an erster Stelle stehen und nicht mehr die kleinlichen Beschwerden der kleinen Inländer-Mehrheit im Volksraad, die zuvor zu Rate gezogen werden musste. Einige Kritiker sagen, dass dies eher dazu dient, die persönliche Macht von [DEI.GetLeader] zu erweitern, aber das ist eindeutig unsinnig."
+dutch_east_indies_events.52.a: "Es war das Richtige zu tun!"
+
+dutch_east_indies_events.53.t: "[DEI.GetLeader] Löst den Volksraad auf"
+dutch_east_indies_events.53.d: "Aus Niederländisch-Indien erreichen uns Nachrichten, wonach der Generalgouverneur den Volksraad, das ohnehin nicht sehr mächtige gesetzgebende Organ, für eine noch unbekannte Zeit - möglicherweise für immer - aufgelöst hat. Er argumentiert, dass das Gremium von den Inselbewohnern benutzt wurde, um die niederländische Herrschaft zu untergraben."
+dutch_east_indies_events.53.a: "Wenn es dem Wohl unserer Herrschaft dient, ist es gerechtfertigt!"
+
+dutch_east_indies_events.54.t: "Die Niederländer erheben höhere Steuern"
+dutch_east_indies_events.54.d: "Angesichts der Krise des Schwarzen Montags in den Niederlanden beschloss die niederländische Regierung, uns zusätzliche Produktionsverpflichtungen aufzuerlegen, ohne dabei zu berücksichtigen, dass die Krise auch unsere Industrien hier getroffen hat. Es überrascht nicht, dass diese Maßnahme zwar den Niederlanden hilft, aber unsere Arbeit erschwert, da die Unabhängigkeitsaktivisten mit dem Argument, dass wir nur hier sind, um sie auszubeuten, mehr Druck machen."
+dutch_east_indies_events.54.a: "Dies ist ein Fehler!"
+
+dutch_east_indies_events.59.t: "Anarchie in Niederländisch-Westindien"
+dutch_east_indies_events.59.d: "Eine beunruhigende Wendung ist eingetreten: Die einheimische Bevölkerung in Indonesien, der Basis der niederländischen Exilanten, hat ihren ehemaligen Kolonialherrn gestürzt. Mit dem abgeschlagenen Kopf der Schlange ist das niederländische Imperium nicht mehr existent: Als die Nachricht die Westindischen Inseln erreichte, brach in den Kolonien Anarchie aus. Jetzt haben wir keine andere Wahl, als sie zu besetzen."
+dutch_east_indies_events.59.a: "Es ist unsere humanitäre Pflicht."
+
+dutch_east_indies_events.60.t: "Ausländische Piloten anlocken"
+dutch_east_indies_events.60.d: "Die Luftstreitkräfte der KNIL fehlt es an allem, angefangen von einem geeigneten Flugplatz bis hin zum Personal am Boden, um die Flugzeuge zu warten, über die sie derzeit verfügt. Diese Probleme werden von der neu gegründeten Niederländischen Beschaffungskommission angegangen, doch das Hauptproblem sind die Piloten. Eine Lösung für dieses Problem ist die Einstellung ausländischer Piloten, um die Lücke zu füllen, bis eine angemessene Lösung gefunden ist. Doch wie bei jedem Einstellungsprozess stellt sich die Frage, was wir diesen ausländischen Piloten bieten können, was sie in Deutsch-Ostasien oder Mittelafrika nicht bekommen."
+dutch_east_indies_events.60.a: "Eine schwierige Entscheidung: Was haben die Belgier im Kongo wieder gemacht?"
+
+dutch_east_indies_events.61.t: "[GetYear] Überprüfung der KNIL"
+dutch_east_indies_events.61.d: "Seit Mitte des 19. Jahrhunderts haben die Niederlande eine neutrale Position zwischen den Weltmächten eingenommen. Nachdem der Weltkrieg gezeigt hat, dass die Neutralität einer Nation keine Garantie dafür ist, einen Krieg zu vermeiden, und die Spannungen in Europa zwischen den syndikalistischen Nationen Großbritannien und Frankreich und dem imperialistischen Deutschen Reich langsam wieder zunehmen, spielt sich in ihrer weit entfernten Kolonie eine andere Geschichte ab.\n\nDa sich das Japanische Kaiserreich und Deutsch-Ostasien auf eine Schlacht um Asien vorbereiten und die Syndikalisten in Australasien aktiv sind, ist die KNIL (Koninklijk Nederlands Indisch Leger) bei weitem nicht in der Lage, die Kolonie angemessen zu verteidigen, da sie derzeit nur die Insel Java verteidigen kann.\n\nDer KNIL fehlt es an modernen Waffen, einer Kommando- und Kontrollstruktur und anderen Grundbedürfnissen, die derzeit mit der Aufstellung eines neuen Haushalts und der langsamen Zusammenlegung mehrerer Kommissionen zur Modernisierung der KNIL angegangen werden."
+dutch_east_indies_events.61.a: "Ons kostbaarste sieraad (Unser wertvollstes Juwel)"
+
+dutch_east_indies_events.62.t: "Überprüfung über die Niederländisch-Ostindische Flotte"
+dutch_east_indies_events.62.d: "Nach Abschluss der Überprüfung der Flotte von Niederländisch-Ostindien ist klar, dass die derzeitigen Marinestreitkräfte keinen angemessenen Schutz der Archipele bieten können. Der Silberstreif an der Bewertung war, dass die niederländisch-ostindische Flotte in der Lage war, die Piraterie in diesem Gebiet zu bekämpfen. Admiral Helfrich hat die Befugnis erhalten, dies durch seinen \"Vlootplan\" zu korrigieren.\n\nIn den Niederlanden selbst ist sein Vlootplan vielen ein Dorn im Auge, weil er U-Boote im Gegensatz zu Pantserschips fördert. Er sieht die Förderung der Taktik der \"Guerilla-Kriegsführung\" durch die Flotte vor, die Helfrich als \"Guerilla-Plan\" bezeichnet hat. Abgesehen davon ist dieser Vlootplan ein Segen für die junge niederländisch-ostindische Flotte, deren Matrosen sich unbedingt beweisen wollen."
+dutch_east_indies_events.62.a: "De Guerrilla's van de zee (Die Guerillas des Meeres)"
+
+dutch_east_indies_events.63.t: "Cultuurstelsel-Apartheid System durchgesetzt"
+dutch_east_indies_events.63.d: "[DEI.GetLeader] Endziel für Niederländisch-Indien war die Rückkehr zum Anbausystem des 19. Jahrhunderts, wobei Niederländisch-Indien für die Niederländer nichts anderes als eine Melkkuh war. Es scheint aber auch, dass mit der Trennung zwischen der europäischen Bevölkerung und den Einheimischen eine zusätzliche Schicht hinzugefügt wurde, wobei diejenigen, die in die Mitte fallen, von der Regierung als \"angemessen\" oder nicht angesehen werden. Die lokalen Unabhängigkeitsbewegungen sind gewachsen, und die Verwendung von \"polizeilichen Maßnahmen\" wird immer mehr zur Norm, wobei sich die Frage stellt, wie lange das noch so weitergeht?"
+dutch_east_indies_events.63.a: "Gekoloniseerd"
+
+dutch_east_indies_events.64.t: "Ein Neubeginn"
+dutch_east_indies_events.64.d: "Mit der Unterzeichnung des Koninkrijksstatuuts wurde eine gewisse Gleichberechtigung innerhalb der Inselgruppen erreicht. Obwohl diese neuen Nationen/Staaten mit sozialen und/oder wirtschaftlichen Problemen konfrontiert sind, scheinen sie alle eifrig zu zeigen, dass sie diese Herausforderungen selbst bewältigen können.\n\nObwohl es den Anschein hat, dass die javanischen und malaiischen Nationen/Staaten den Unabhängigkeitsprozess beschleunigen wollen, wünschen sich viele von ihnen eher einen \"Einheitsstaat\" als eine zerbrochene Föderation..."
+dutch_east_indies_events.64.a: "Interessant"
+dutch_east_indies_events.64.b: "Fein fein fein"
+
+dutch_east_indies_events.65.t: "Ein neuer Volksraad"
+dutch_east_indies_events.65.d: "Obwohl Niederländisch-Indien im Wesentlichen in kleinere Staaten aufgeteilt wurde, die von autonomen Regionen unter den Niederlanden bis hin zu großen Staaten reichen, die fast schon eigene Nationen sind, streben sie alle immer noch nach Repräsentation und Veränderung in den Hallen des sogenannten "alten Volksraads".\n\nSelbst mit den neuen Reformen und dem unterzeichneten Koninkrijksstatuut haben sich die javanisch-malaiischen Vertreter einigermaßen geeinigt, um den Fortschritt hin zu einer vollständigen Loslösung von der niederländischen Herrschaft zu \"beschleunigen\". Nicht alle Staaten haben die gleiche Vision eines vereinten \"Indonesien\", wobei die Vertreter von Timor, den Molukken und Papua mit dem derzeitigen Stand der Dinge zufrieden sind und eine "javanische" Übernahme befürchten. So oder so haben die Javanesen-Malaien eine Mehrheit in diesem "Neuen Volksraad" gebildet und fordern, dass über sie debattiert wird."
+dutch_east_indies_events.65.a: "Es geht wieder los"
+
+dutch_east_indies_events.66.t: "Woche 1 - Neue Volksraad-Debatten"
+dutch_east_indies_events.66.dt: "Die West-Papua-Lager waren schon immer ein Streitpunkt, und der Wendepunkt war die Erweiterung der Lager durch Starkenborgh Stachouwer. Seit der Unterzeichnung des Koninkrijksstatuuts sind die meisten dieser Lager geschlossen worden, obwohl diejenigen, die als \"zu radikal\" gelten, immer noch in den Lagern bleiben. Die javanisch-malaiischen Vertreter haben gefordert, dass alle in diesen Lagern befindlichen Personen freigelassen werden und die Lager vollständig geschlossen werden. Obwohl die Lager nun technisch gesehen dem Staat Neuguinea unterstehen, erhalten sie ihre Anweisungen von ihren niederländischen Vertretern."
+dutch_east_indies_events.66.dp: "\"Das Aufzwingen der niederländischen Kultur auf die indonesischen Völker\" durch die Werkverschaffing scheint das Hauptthema im Volksraad zu sein. Die javanisch-malaiischen Vertreter erklären, dass die Werkverschaffing der Arbeiterklasse zwar Wohlstand und Stabilität gebracht hat, ihre Programme und die allgemeine Strukturierung jedoch \"niederländischer\" Natur sind. Sie befürworten ferner, dass die Programme der Werkverschaffing die javanisch-malaiische Kultur langsam auslaugen, wobei die lautstärkeren Vertreter erklären, dass Palar ein Paradebeispiel dafür ist und er lediglich ein Schoßhündchen seiner niederländischen Oberherren ist.\n\nObwohl diese Vertreter eindeutig eine Agenda haben, möchten sie die Werkverschaffing so ändern, dass jeder Staat sie nach eigenem Gutdünken einführen oder ändern kann. Dies scheint zwar kein Grund zur Beunruhigung zu sein, aber in den Hallen des Volksraad wurde geflüstert, dass bestimmte Staaten ihre Vorstellung von der Werkverschaffing durchsetzen wollen, was dem gesamten Programm zuwiderläuft."
+dutch_east_indies_events.66.a: "Nein, es sind Radikale, sie werden bleiben."
+dutch_east_indies_events.66.b: "Ich meine, einige können gehen... schätze Ich."
+dutch_east_indies_events.66.c: "Fein fein fein."
+dutch_east_indies_events.66.d: "Jeder Staat kann das Programm nach eigenem Ermessen durchführen."
+dutch_east_indies_events.66.e: "Dies wird noch zu Lasten unserer niederländischen Vertreter gehen."
+
+dutch_east_indies_events.67.t: "Woche 2 - Neue Volksraad-Debatten"
+dutch_east_indies_events.67.d: "Gegenwärtig wird Niederländisch als Lingua Franca in den Indies durchgesetzt, da in den Insulands mehrere Sprachen gesprochen werden, und gilt daher als offizielle Sprache. Diese Maßnahme ist jedoch bei den Einheimischen nicht sehr beliebt, weshalb der Volksraad darüber debattiert, ob Niederländisch als Lingua Franca durchgesetzt werden soll oder ob wir jedem Staat die Entscheidung überlassen, ob er es beibehalten will oder nicht."
+dutch_east_indies_events.67.a: "Jeder Staat kann selbst entscheiden, ob er sie beibehalten möchte."
+dutch_east_indies_events.67.b: "Sie ist nach wie vor die Lingua Franca der Länder."
+
+dutch_east_indies_events.68.t: "Woche 3 - Neue Volksraad-Debatten"
+dutch_east_indies_events.68.d: "In der dritten Woche der Debatte im Volksraad haben die Gliedstaaten der Indischen Inseln den Wunsch geäußert, sich zusammenzuschließen. Dies würde wahrscheinlich zu mehr Autonomie für die Indies führen, aber gleichzeitig würde es die Eingeborenen bei Laune halten und das Risiko einer Revolte verringern. Was sollten wir tun?"
+dutch_east_indies_events.68.a: "Haltet sie bei Laune und erlaubt es."
+dutch_east_indies_events.68.b: "Nein, wir halten uns an das, worauf wir uns geeinigt haben."
+
+dutch_east_indies_events.69.t: "Woche 4 - Neue Volksraad-Debatten"
+dutch_east_indies_events.69.d: "Die vierte Woche der Debatte im Volksraad hat zu einer Diskussion über die Privilegien der niederländischen Bürger in den Indischen Inseln geführt. Während einige radikale Elemente eine vollständige Abschaffung gefordert haben, könnten wir sie vielleicht etwas reduzieren, um sie bei Laune zu halten."
+dutch_east_indies_events.69.a: "Haltet sie bei Laune und erlaubt es."
+dutch_east_indies_events.69.b: "Nein, wir halten uns an das, worauf wir uns geeinigt haben."
+
+dutch_east_indies_events.70.t: "Woche 5 - Neue Volksraad-Debatten"
+dutch_east_indies_events.70.d: "Die Königin der Niederlande, Wilhelmina Helena Pauline Maria von Oranien-Nassau, ist in gewisser Weise auch die Königin der Indischen Inseln. Sie wird jedoch als imperialistisches Symbol angesehen, obwohl ihre Rolle hauptsächlich zeremoniell ist, und die Einheimischen fordern, dass ihre Rolle noch mehr eingeschränkt wird. Diese Forderungen gegen die Figur Ihrer Majestät der Königin sind ungeheuerlich, aber wir könnten zu einem Kompromiss gezwungen sein, um die Eingeborenen zufrieden zu stellen..."
+dutch_east_indies_events.70.a: "Reduziert ihre Rolle in den Staaten."
+dutch_east_indies_events.70.b: "Nein, sie ist unser aller Königin."
+
+dutch_east_indies_events.71.t: "Letzter Countdown"
+dutch_east_indies_events.71.d.coop: "Nach wochenlangen Debatten scheint es uns endlich gelungen zu sein, die Einheimischen zu besänftigen. Das bedeutet zwar, dass wir den Insulanern auf lange Sicht wahrscheinlich die Unabhängigkeit gewähren müssen, aber zumindest können wir uns jetzt auf unsere Bemühungen konzentrieren, die Wirtschaft zu verbessern und den Nationalismus derjenigen zu fördern, die uns gegenüber loyal sind..."
+dutch_east_indies_events.71.d.coup: "Nach wochenlangen Debatten waren wir offenbar nicht in der Lage, eine Einigung mit den Einheimischen zu erzielen. In der Folge kam es in den Inselländern zu zunehmenden Unruhen, mit großen Protesten auf Java und Sumatra, und unsere Polizeikräfte reichen kaum aus, um die Situation zu bewältigen. Ohne Verstärkung aus den Niederlanden könnte das Ganze böse enden..."
+dutch_east_indies_events.71.a: "Endlich"
+dutch_east_indies_events.71.b: "BAH!"
+
+dutch_east_indies_events.72.t: "Gegenvorschlag"
+dutch_east_indies_events.72.d: "Die wahren Pläne dieser \"Debatten\" wurden der derzeitigen Regierung vorgelegt. Die javanesisch-malaiisch Vertreter, die mit dem derzeitigen Kurs eines föderalen Indonesiens nicht zufrieden sind, haben eine weitere Zentralisierung der autonomen Staaten gefordert. Dies könnte die junge Nation in eine Einheitsregierung verwandeln, was dem Diktat aus Amsterdam völlig zuwiderläuft."
+dutch_east_indies_events.72.a: "Welche Wahl haben wir?"
+dutch_east_indies_events.72.b: "Sie würden es nicht wagen!"
+
+dutch_east_indies_events.73.t: "Proklamation der indonesischen Unabhängigkeit"
+dutch_east_indies_events.73.d: "Der letzte Nagel in den Sarg ist eingeschlagen, da die javanesisch-malaiisch Vertreter in der \"Neuen Volksraad\" nicht in der Lage sind, einen Kompromiss mit der neuen Regierung zu schließen, und einen Aufstand für den richtigen Weg halten. Er ruft alle Indonesier auf, sich den niederländischen Besatzern zu widersetzen und sich der Tentara Keselamatan Rakyat, der Sicherheitsarmee des Volkes, anzuschließen. Es scheint, dass ein regelrechter Aufstand zur Beseitigung der niederländischen Herrschaft auf dem indonesischen Archipel ausgebrochen ist."
+dutch_east_indies_events.73.a: "Bersiap! (Spielt als Indonesien)"
+dutch_east_indies_events.73.b: "Bereid de Politionele Acties Voor! (Spielt als Niederländisch-Indien)"
+
+dutch_east_indies_events.74.t: "Zerschlagung der Allianz"
+dutch_east_indies_events.74.d: "Kurzer Überblick über die Partei der Sozialisten-Islamisten. Wer will was tun."
+dutch_east_indies_events.74.a: "Bevorzugt die besonneneren Sozialisten"
+dutch_east_indies_events.74.b: "Bevorzugt die konservativeren Islamisten"
+
+dutch_east_indies_events.80.t: "Friedensabkommen"
+dutch_east_indies_events.80.d: "Indonesien kontrolliert das meiste, was es ohne ausländische Hilfe und eine Marine bekommen kann. Wir sollten den Niederländern ein Friedensangebot machen. Wir können sie an einem anderen Tag immer noch kriegen..."
+dutch_east_indies_events.80.a: "Ja, an einem anderen Tag..."
+dutch_east_indies_events.80.b: "Nein, wir müssen JETZT zuschlagen!"
+
+dutch_east_indies_events.81.t: "Friedensabkommen angeboten"
+dutch_east_indies_events.81.d: "Unsere Kolonialverwaltung auf den Inseln steht am Rande des Zusammenbruchs, nachdem sie sowohl auf Sumatra als auch auf Java militärisch besiegt wurde. Mit unseren begrenzten Ressourcen können wir in dieser Situation nicht viel tun, außer die Rebellen mit unserer Marine zu blockieren, und das scheinen sie zu wissen. Sie sind mit einem Friedensangebot an uns herangetreten, und einige Mitglieder unseres Kabinetts meinen, wir sollten dieses Friedensangebot annehmen, bevor der Krieg zu einem Blutbad wird. Sollten wir dieses Friedensangebot annehmen?"
+dutch_east_indies_events.81.a: "Wenigstens haben wir ihnen etwas Zivilisation beigebracht."
+dutch_east_indies_events.81.b: "Sie werden uns niemals das Futter wegnehmen."
+
+dutch_east_indies_events.82.t: "Sie lehnen ab"
+dutch_east_indies_events.82.d: "Die imperialistischen Niederländer haben unser großzügiges Angebot für einen Friedensvertrag abgelehnt. Das bedeutet, dass wir es einfach beenden müssen, indem wir diese Imperialisten ein für alle Mal aus unserem heiligen Land vertreiben, ohne irgendeinen Deal!"
+dutch_east_indies_events.82.a: "Diese imperialistischen Bastarde..."
+
+dutch_east_indies_events.83.t: "Friedensabkommen unterzeichnet"
+dutch_east_indies_events.83.d: "Kemenangan! Die Niederländer haben ihre Niederlage eingestanden und sind bereit, über den Frieden zu verhandeln! Nach jahrhundertelanger Unterdrückung konnten wir das imperialistische Joch abschütteln, und nun wird das indonesische Volk selbst über seine Zukunft entscheiden können! Hurra!"
+dutch_east_indies_events.83.a: "Bhinneka Tunggal Ika"
+
+dutch_east_indies_events.84.t: "Gescheitertes Projekt"
+dutch_east_indies_events.84.d: "Der Volksrat von Batavia wurde 1918 als Versuch gegründet, die Insulaner zu demokratisieren, aber das Scheitern des letzten Kongresses hat gezeigt, dass es immer eine Verschwendung von Zeit und Ressourcen war. Wir können nur hoffen, dass die Einheimischen beim nächsten Mal vernünftiger sind."
+dutch_east_indies_events.84.a: "Wenigstens haben wir nicht den Halt verloren"
+
+dutch_east_indies_events.85.t: "Die ersten Änderungsanträge"
+dutch_east_indies_events.85.d: "Der Volksraad von Batavia wurde 1918 als Versuch gegründet, die Insulaner zu demokratisieren, und anscheinend zeigt er einige Ergebnisse: nach diesen fünf Wochen der Debatte wurde die erste wirksame Änderung des Volksraads von Batavia als erstes Dekret erlassen, und viele weitere werden folgen. Es scheint, als würden die Insulaner zu einem demokratischen Volk werden."
+dutch_east_indies_events.85.a: "Wenigstens gibt es Frieden"
+dutch_east_indies_events.85.b: "Eine weitere Krise vermieden"
+
+dutch_east_indies_events.86.t: "Die Zukunft"
+dutch_east_indies_events.86.d: "Die Insulaner sind noch eine sehr junge Nation in einer Welt voller Giganten. Ein Land mit einem unglaublichen Potenzial und vielen natürlichen Ressourcen, das jedoch unerschlossen und extrem arm ist.\n\nNun, wie soll seine Zukunft aussehen? Eine Nation, die sich den Niederlanden verschließt, oder ein Herr über sein eigenes Schicksal? Die Zukunft ist wolkig, aber die stolzen Gliedstaaten, die unsere große Nation bilden, haben in ihrer Geschichte schon viel durchgemacht und sind bereit, gemeinsam allem zu trotzen, was auf sie zukommt. Ganz gleich, wie stark unsere Feinde sein werden oder wie oft sie versuchen werden, uns zu besiegen, wir werden immer siegen! Vorwärts, in eine bessere Zukunft!"
+dutch_east_indies_events.86.a: "Die Zukunft ist noch nicht geschrieben."
+
+dutch_east_indies_random_events.2.t: "Nationalist hält mitreißende Rede!"
+dutch_east_indies_random_events.2.d: "Ein örtlich bekannter Nationalist hat eine mitreißende Rede zugunsten der indonesischen Unabhängigkeit gehalten, und sein Aufruf wird befolgt: Viele scheinen sich von den Worten dieses Mannes angezogen zu fühlen, und als Folge davon wachsen die Reihen der Untergrundbewegung. Die örtliche Verwaltung schlägt vor, ihn auszuschalten. Eine solche Maßnahme würde zwar kurzfristig die Stärke der Bewegung verringern, könnte aber langfristig zu einer größeren Einheit der Bewegung führen."
+dutch_east_indies_random_events.2.a: "Verhaftet ihn wegen Volksverhetzung!"
+dutch_east_indies_random_events.2.b: "Lasst ihn reden..."
+
+dutch_east_indies_random_events.3.t: "Unterwanderung einer nationalistischen Gruppe"
+dutch_east_indies_random_events.3.d: "Einem Agenten unseres kolonialen Sicherheitsdienstes, der PID, ist es gelungen, eine Gruppe zu infiltrieren, die für die indonesische Unabhängigkeit eintritt. Wir können diesen Agenten nutzen, um entweder ihre Bemühungen zu sabotieren oder um zu versuchen, Zwietracht in ihren Reihen zu säen, was sich auf die Zusammenarbeit mit anderen Gruppen im Land auswirken könnte. Was sollen wir unseren Agenten anweisen zu tun?"
+dutch_east_indies_random_events.3.a: "Zwietracht säen!"
+dutch_east_indies_random_events.3.b: "Sabotiert ihre Waffen!"
+
+dutch_east_indies_random_events.4.t: "Nationalisten bekämpfen sich gegenseitig!"
+dutch_east_indies_random_events.4.d: "Dass sich die Nationalisten und die Syndikalisten nicht wirklich mochten, war schon vorher klar, aber jetzt haben die Guerillas beider Seiten begonnen, sich auf dem Land zu bekämpfen. Die KNIL ist bereit zu intervenieren, aber manche sagen, es wäre vielleicht besser, sie sich gegenseitig schwächen zu lassen, während wir uns zurücklehnen und entspannen, denn das würde ihre Zahl verringern und die Wahrscheinlichkeit einer Versöhnung verringern."
+dutch_east_indies_random_events.4.a: "Greift sofort ein."
+dutch_east_indies_random_events.4.b: "Die Wetten werden angenommen! Wer wird gewinnen?"
+
+dutch_east_indies_random_events.5.t: "Regent ermordet"
+dutch_east_indies_random_events.5.d: "Einer unserer örtlichen Verwaltungsbeamten, der so genannte 'Regent', ist ermordet worden. Die Polizei vermutet, dass es sich um eine Bande von pro-nationalistischen Schlägern handelt, die durch die jüngsten Äußerungen des Regenten verärgert waren und für ihren Terror bekannt sind. Sie haben jedoch noch nicht die Mittel, dies zu beweisen. Werden wir ihnen erlauben, sie einfach festzunehmen, da es höchst unwahrscheinlich ist, dass sie es nicht sind? Oder ziehen wir es vor, Zeit und Geld zu investieren, um den Fall im Detail zu untersuchen?"
+dutch_east_indies_random_events.5.a: "Nehmt sie einfach fest..."
+dutch_east_indies_random_events.5.b: "Eine Untersuchung ist vorzuziehen."
+
+dutch_east_indies_random_events.6.t: "Nationalistenführer verhaftet"
+dutch_east_indies_random_events.6.d: "Der Polizei ist es gelungen, in einer groß angelegten Operation eine prominente Persönlichkeit aus nationalistischen Kreisen festzunehmen, und diese aufsehenerregende Verhaftung wird die Stärke der Unabhängigkeitsbewegung in naher Zukunft sicherlich einschränken. Obwohl die gegen ihn zu erhebenden Anschuldigungen klar sind, warnen einige Leute in der Kolonialregierung davor, ihn vor Gericht zu stellen, da er dadurch einen Lautsprecher bekommen könnte, der seine gefährlichen Ideen verbreitet, wenn die Zeitungen darüber berichten."
+dutch_east_indies_random_events.6.a: "Er würde sowieso verurteilt werden, warum also die Mühe?!"
+dutch_east_indies_random_events.6.b: "Jeder Mensch verdient einen Prozess!"
+
+dutch_east_indies_random_events.7.t: "RSAP-Vertreter ruft zur Unabhängigkeit auf"
+dutch_east_indies_random_events.7.d: "Ein sozialistisches Mitglied des (metropolitanen) niederländischen Abgeordnetenhauses hat offen das Ende der niederländischen Herrschaft in Indonesien gefordert, und es überrascht nicht, dass die Nachricht innerhalb weniger Stunden in den Indies ankam. Viele Nationalisten fühlen sich durch dieses Zeichen wachsender Unterstützung für die indonesische Sache in den Festlandniederlanden ermutigt, und sie werden dadurch wahrscheinlich auch neue Mitglieder gewinnen. In Batavia kursiert bereits ein Dankesschreiben an den 'guten Belanda'."
+dutch_east_indies_random_events.7.a: "Ich würde kaum einen Syndikalisten als Niederländer bezeichnen."
+
+dutch_east_indies_random_events.8.t: "Indo spricht sich gegen Unabhängigkeit aus"
+dutch_east_indies_random_events.8.d: "Ein hochrangiges Mitglied unserer Indo-Niederländer (gemischte Rasse europäischer und indonesischer Abstammung) hat sich gegen die Unabhängigkeit ausgesprochen, da sie das indische Volk einer ungerechten Tyrannei einer einheimischen Mehrheit aussetzen würde. Sein Aufruf hat sogar die niederländischen Metropolen erreicht, wo er die öffentliche Meinung gegen die Unabhängigkeit zu beeinflussen scheint (obwohl dies wohl schon vorher der Fall war). Dennoch könnte das Kolonialministerium eher bereit sein, Unterstützung zu schicken."
+dutch_east_indies_random_events.8.a: "Gebt mir den Minister, wir brauchen Unterstützung!"
+
+dutch_east_indies_random_events.9.t: "Nationalistischer Aufstand"
+dutch_east_indies_random_events.9.d: "Die Nationalisten sind auf die Straße gegangen, aber was als friedliche Demonstration gedacht war, wurde schnell gewalttätig, als unsere Polizei sie auseinander treiben wollte. Wir wissen nicht, ob sich die Gewalt ausweiten wird, und der Polizeichef fragt sich, wie wir ihn auf dieses Ereignis reagieren lassen wollen..."
+dutch_east_indies_random_events.9.a: "Greift hart gegen diese Verbrecher durch!"
+dutch_east_indies_random_events.9.b: "Zerstreut sie, aber beschränkt die Gewalt auf ein Minimum."
+dutch_east_indies_random_events.9.c: "Was auch immer passiert, nicht schießen!"
+
+dutch_east_indies_random_events.10.t: "Niederländisches Ehepaar auf Bali gelyncht"
+dutch_east_indies_random_events.10.d: "Ein niederländisches Ehepaar, das sich zu Geschäftszwecken auf Bali aufhielt, wurde von einer wütenden Menschenmenge gelyncht. Das Paar ging zu einem Tempel, in dem Affen lebten, die von der örtlichen Bevölkerung als heilig angesehen werden. Dort angekommen, setzte sich einer der Affen auf das Fräulein, zog an ihren Haaren und forderte den Ehemann auf, ihn mit einem großen Stock zu verscheuchen, was die Einheimischen sehr erzürnte. Die beiden konnten nicht entkommen und wurden öffentlich gelyncht... Das Heimatland ist wütend über diesen Vorfall und fordert Gerechtigkeit!"
+dutch_east_indies_random_events.10.a: "Verhaftet jede einzelne Person dieser Bande!"
+dutch_east_indies_random_events.10.b: "Lass es einfach laufen."
+
+dutch_east_indies_random_events.11.t: "Hinterhalt auf ein KNIL-Kommando"
+dutch_east_indies_random_events.11.d: "Ein KNIL-Kommando wurde von einer Pro-Unabhängigkeits-Guerilla in einen Hinterhalt gelockt, der nur wenige Überlebende hinterließ. Unsere Militärberater drängen uns, eine Strafexpedition auszurüsten, während die loyalistischen Zeitungen darauf hinweisen, wie stark die Pro-Unabhängigkeits-Gruppen in letzter Zeit geworden sind, so dass sie in der Lage sind, einen solchen Angriff erfolgreich durchzuführen.\n\nVorsicht ist jedoch geboten, denn wenn die Strafexpedition ebenfalls ausgetrickst wird, verschlimmert das die Situation nur."
+dutch_east_indies_random_events.11.a: "In der Tat ein sehr trauriger Vorfall."
+dutch_east_indies_random_events.11.b: "Stattet eine Strafexpedition aus!"
+
+dutch_east_indies_followup_events.1.t: "Regent ermordet - Gruppe involviert"
+dutch_east_indies_followup_events.1.d: "Nach einer eingehenden Untersuchung kam die Polizei zu dem Schluss, dass sie genügend Beweise hat, um die Gruppe festzunehmen. Es handelte sich tatsächlich um diese nationalistische Gruppe, und jetzt machen sich die Leute, die das von Anfang an gesagt haben, über uns lustig, weil wir diese Ermittlungen eingeleitet haben."
+dutch_east_indies_followup_events.1.a: "Aber zumindest ist es jetzt bewiesen!"
+
+dutch_east_indies_followup_events.2.t: "Regent ermordet - Serienmörder verhaftet"
+dutch_east_indies_followup_events.2.d: "Nach eingehenden Ermittlungen kam die Polizei zu dem Schluss, dass es sich in Wirklichkeit nicht um diese nationalistische Gruppe handelte, sondern um einen Serienmörder, der offenbar auch andere Menschen von geringerer Bedeutung getötet hat. Es ist wahrscheinlich besser, dass wir in diesem Fall richtig ermittelt haben, sonst hätten wir vielleicht Unschuldige verhaftet."
+dutch_east_indies_followup_events.2.a: "Gut!"
+
+dutch_east_indies_followup_events.3.t: "Regent ermordet - Sackgasse erreicht"
+dutch_east_indies_followup_events.3.d: "Nach eingehenden Ermittlungen ist die Polizei zu dem Schluss gekommen, dass es keine ausreichenden Beweise gibt, um Anklage zu erheben. Die Anzahl der Hinweise scheint zu gering zu sein, um das Rätsel zu lösen."
+dutch_east_indies_followup_events.3.a: "Verhaftet die Leute, von von denen ihr sagtet, dass sie es gewesen sein müssen!"
+dutch_east_indies_followup_events.3.b: "Das bedeutet, dass wir niemanden verhaften können."
+
+dutch_east_indies_followup_events.4.t: "Nationalistenführer verhaftet - Aufrüttelnde Rede"
+dutch_east_indies_followup_events.4.d: "Der Nationalist übernahm seine eigene Verteidigung und nutzte sie, um eine mitreißende Rede für die Sache der indonesischen Unabhängigkeit zu halten. Unsere Zensurgesetze konnten zwar verhindern, dass die reguläre Presse diese schamlose Propaganda für das Chaos veröffentlichte, aber sie schlüpfte bereits durch die Maschen, und Abschriften davon werden bereits in der ganzen Stadt verbreitet."
+dutch_east_indies_followup_events.4.a: "Ich habe dir gesagt, dass es eine schlechte Idee war, ihn vor Gericht zu bringen?!"
+
+dutch_east_indies_followup_events.5.t: "Nationalistenführer verhaftet - Verteidigung gescheitert"
+dutch_east_indies_followup_events.5.d: "Der Nationalist hat sich selbst verteidigt, aber sein Auftritt war so erbärmlich, dass selbst seine treuesten Verbündeten zugeben müssen, dass er allein wegen dieser Rede wahrscheinlich schon seine Verbannung verdient hat. Natürlich haben die Zeitungen ausführlich darüber berichtet, und die Nationalisten haben gerade eine große Propagandaschlacht verloren."
+dutch_east_indies_followup_events.5.a: "Hehe..."
+
+dutch_east_indies_followup_events.6.t: "Strafexpedition erfolgreich!"
+dutch_east_indies_followup_events.6.d: "Die Strafexpedition, die wir als Vergeltung für den Guerillaangriff auf unsere Streitkräfte vor einigen Wochen ausgerüstet haben, ist zurückgekehrt und hat ihren Auftrag erfüllt. Sie haben das Lager der Guerillakräfte entdeckt und überfallen, wodurch deren Bemühungen erheblich zurückgeworfen wurden und sie die von uns gestohlenen Waffen zurückerhalten haben. Es war die richtige Entscheidung, dies zu tun."
+dutch_east_indies_followup_events.6.a: "Großartig."
+
+dutch_east_indies_followup_events.7.t: "Strafexpedition abgeschlachtet!"
+dutch_east_indies_followup_events.7.d: "Die Strafexpedition, die wir als Vergeltung für den Guerillaangriff ausgerüstet haben, wurde ihrerseits abgeschlachtet."
+dutch_east_indies_followup_events.7.a: "Oh Gott..."
+
+dutch_east_indies_flavour_events.1.t: "Antara gegründet"
+dutch_east_indies_flavour_events.1.d: "Vor 20 Jahren, im Jahr 1917, wurde die Aneta, die Allgemeine Nachrichten- und Telegrafenagentur, von Dominique Berretty gegründet. Sie war die erste Nachrichtenagentur in Indien und entwickelte sich zur wichtigsten Nachrichtenagentur in Indien. Heute hat eine Gruppe indonesischer Nationalisten, die mit der mangelnden Berichterstattung über lokale Nachrichten unzufrieden sind, ihre eigene Nachrichtenagentur mit dem Namen Antara gegründet. Viele in der Kolonialregierung befürchten, dass diese Organisation die Unabhängigkeitsbewegung in ihrem Kampf unterstützen wird."
+dutch_east_indies_flavour_events.1.a: "Es ist einfach ein gesunder Wettbewerb."
+dutch_east_indies_flavour_events.1.b: "Schaltet diese Propaganda-Plattform ab!"
+
+dutch_east_indies_flavour_events.2.t: "Renovierung des Gebäudes der Concordia-Gesellschaft?"
+dutch_east_indies_flavour_events.2.d: "Das Gebäude der 'Sociëteit Concordia' in Bandoeng wurde ursprünglich 1895 im neoklassizistischen Stil als Versammlungsort für die Einwohner von Bandoeng errichtet. Zwar wurde das Gebäude bereits 1926 im Art-Deco-Stil wieder aufgebaut, aber wir stellen derzeit fest, dass es erneut seine Anmut verliert. Die Gemeindeverwaltung von Bandoeng bittet uns um die Erlaubnis, den Architekten Albert Aalbers mit der Renovierung zu beauftragen."
+dutch_east_indies_flavour_events.2.a: "Natürlich!"
+dutch_east_indies_flavour_events.2.b: "Zu teuer!"
+
+dutch_east_indies_flavour_events.3.t: "Gründung der NIVU"
+dutch_east_indies_flavour_events.3.d: "Die NIVU (Nederlands-Indische Voetbal Unie - Niederländisch-Ostindische Fußball-Union) wurde heute als offizielle Organisation für den organisierten Fußball in Niederländisch-Indien gegründet. Zuvor arbeitete die Regierung Niederländisch-Indiens direkt mit der einheimischen PSSI zusammen. Da der Sport jedoch immer beliebter wird, ist es wichtig, dass eine angemessene Anzahl von Totoks und Chinesen in der Kolonialmannschaft mitspielt, wofür die neue NIVU sorgen und ein sichereres Umfeld schaffen wird."
+dutch_east_indies_flavour_events.3.a: "Freut euch!"
+
+dutch_east_indies_flavour_events.4.t: "Premiere von Terang Boelan"
+dutch_east_indies_flavour_events.4.d: "Der indonesisch-malaiische Film Terang Boelan (Vollmond) wurde letzte Woche zum ersten Mal öffentlich gezeigt und scheint bereits ein kommerzieller Erfolg zu werden.\n\nDer Film handelt von zwei Liebenden, Kasim und Rohaya, die sich trennen müssen, weil der Vater der Braut einen anderen Mann, Musa, gewählt hat. Die beiden beschließen, nach Malakka durchzubrennen, wo sie einen alten Freund namens Dullah finden. Kasim und Rohaya leben dort, bis Musa, der sich als Opiumhändler entpuppt, ihren Aufenthaltsort entdeckt und Rohaya zurück in ihr Heimatdorf bringen lässt. Kasim folgt ihnen und beginnt einen Kampf gegen Musa, woraufhin er von Dullah gerettet wird, so dass die beiden heiraten können.\n\nDer Film scheint der Filmindustrie, die durch den Eintritt der Babelsberger Filme in den ostindischen Markt einige Jahre lang im Niedergang begriffen war, neues Leben eingehaucht zu haben, wobei seine Popularität sogar die Straße von Malakka nach Deutsch-Malaya überquerte."
+dutch_east_indies_flavour_events.4.a: "Interessant!"
+
+dutch_east_indies_flavour_events.5.t: "Einführung von Cultureel Indië"
+dutch_east_indies_flavour_events.5.d: "Die erste Ausgabe des Wochenmagazins 'Cultureel Indië' ist diese Woche erschienen. Die Zeitung, die von der Redaktion der ethnologischen Abteilung des Ostindischen Instituts in Amsterdam erstellt wurde, enthält Artikel über die Kultur und das tägliche Leben in Niederländisch-Indien. Die erste Ausgabe ist ein durchschlagender Erfolg und wird uns dabei helfen, den Menschen in der Heimat das Juwel des Reiches näher zu bringen."
+dutch_east_indies_flavour_events.5.a: "Auf jeden Fall eine lobenswerte Initiative!"
+
+dutch_east_indies_flavour_events.6.t: "Die Carstensz-Expedition"
+dutch_east_indies_flavour_events.6.d: "Drei mutige Forscher, Anton Colijn, Jean Jacques Dozy und Frits Wissel, sind heute von der Stadt Aika aus zu einer Expedition aufgebrochen, um den Gipfel des höchsten Berges des Carstensz-Gebirges in Niederländisch-Neuguinea zu erreichen, den viele andere Forscher um die Jahrhundertwende vergeblich zu erreichen versuchten. Es bleibt abzuwarten, ob das Kunststück diesmal gelingt."
+dutch_east_indies_flavour_events.6.a: "Viel Glück!"
+
+dutch_east_indies_flavour_events.7.t: "Die Carstensz-Expedition kehrt zurück!"
+dutch_east_indies_flavour_events.7.d: "Die Carstensz-Expedition, die den höchsten Berg des Carstensz-Gebirges, den Ngga Pulu, erklimmen wollte, ist erfolgreich in die Zivilisation zurückgekehrt und hat ihr Ziel erreicht.\n\n Darüber hinaus hat Jean Jacques Dozy, einer der drei Forscher, in der Wildnis ein großes Goldvorkommen entdeckt, das von großem Vorteil wäre, wenn wir es abbauen könnten. Leider ist das Gebiet so unwirtlich, dass es Jahre, wenn nicht Jahrzehnte dauern wird, bis wir daraus einen Vorteil ziehen können."
+dutch_east_indies_flavour_events.7.a: "Ein Trinkspruch auf unsere Helden!"
+
+dutch_east_indies_flavour_events.8.t: "Die Carstensz-Expedition kehrt zurück!"
+dutch_east_indies_flavour_events.8.d: "Die Carstensz-Expedition ist zurückgekehrt, konnte aber ihr Ziel, den höchsten Gipfel der Gebirgskette, den Ngga Pulu, zu erklimmen, nicht erreichen. Sie berichten jedoch, dass der Geologe Jean Jacques Dozy, einen Erzberg mit einem großen Goldvorkommen gefunden hat. Der Zustand des Landes ist jedoch so unwirtlich, dass es Jahre, wenn nicht Jahrzehnte dauern wird, bis wir es für die Ausbeutung freiräumen können."
+dutch_east_indies_flavour_events.8.a: "Willkommen zurück in der Zivilisation!"
+
+dutch_east_indies_flavour_events.9.t: "Wo ist die Carstensz-Expedition?"
+dutch_east_indies_flavour_events.9.d: "Seit dem Verlassen der Stadt Aika hat man nichts mehr von der Carstensz-Expedition in Neuguinea gehört, die den Gipfel des Ngga Pulu erklimmen wollte.\n\nAngesichts der Zeit, die seitdem vergangen ist, kann man nur vermuten, dass sie der Wildnis erlegen sind, feindlichen Stämmen oder Tieren oder der Natur selbst zum Opfer gefallen sind."
+dutch_east_indies_flavour_events.9.a: "Requiescat in Pace!"
+
+dutch_east_indies_flavour_events.10.t: "Derby Niederländisch-Indien vs Ungarn"
+dutch_east_indies_flavour_events.10.d: "Die Niederländisch-Ostindische Kolonialmannschaft hat es geschafft, sich für die Weltmeisterschaft 1938 in Brasilien zu qualifizieren (es war das erste Mal, dass dies gelang), und ist vor kurzem dort angekommen. Nun ist es an der Zeit, das erste Spiel gegen die ungarische Mannschaft zu bestreiten. Leider wurden wir von der ungarischen Mannschaft völlig abgeschlachtet, die mit 6 zu 0 Toren siegte und uns damit sofort aus dem Wettbewerb warf."
+dutch_east_indies_flavour_events.10.a: "... nun, es war zumindest eine Ehre, dabei zu sein!"
+
+dutch_east_indies_flavour_events.11.t: "Rückkehr der Mimika-Expedition"
+dutch_east_indies_flavour_events.11.d: "Nachdem die Mimika-Expedition am 15. Oktober letzten Jahres aufgebrochen war, ist sie nun endlich in die zivilisierte Welt zurückgekehrt. Ziel der Expedition war es, weitere Kontakte mit dem Volk der Tapiro im Regenwald von Neuguinea zu knüpfen, das 1910 von der britischen ornithologischen Expedition entdeckt worden war. Obwohl keine neuen Stämme entdeckt wurden, besuchte die Expedition eine Tapiro-Siedlung, die zuvor noch nicht besucht worden war, und konnte so diese Menschen mit lediglich steinzeitlicher Technologie studieren. Später besuchten sie auch die Bewohner des Pania-Gebirges und entdeckten nach einem steilen Aufstieg mehrere Siedlungen in einem der Flusstäler des Gebirges, was zu der verblüffenden Erkenntnis führte, dass diese "Bergpapuas" trotz ihrer geringen Länge nicht als Pygmäenvolk angesehen werden konnten. Die Expedition war ein durchschlagender Erfolg; dies ist ein großer Tag für die Anthropologie!"
+dutch_east_indies_flavour_events.11.a: "Faszinierende Entdeckungen in der Tat!"
+
+dutch_exile_events.1.t: "Die Bildung der Exilregierung"
+dutch_exile_events.1.d: "Als die Sozialisten ihre Residenz stürmten, war Ihre Majestät nirgends zu sehen. Jetzt wird klar, wo sie war: auf einem Kriegsschiff vor der Küste, vor allem auf Drängen ihrer engen Vertrauten, die dafür plädierten, den Kampf gegen die syndikalistische Bedrohung vom Ausland aus fortzusetzen; sie rief alle treuen niederländischen Loyalisten auf, sich ihr anzuschließen und, wo dies nicht möglich ist, der syndikalistischen Bedrohung mit aller Kraft zu widerstehen: die niederländische Exilregierung ist auferstanden, ein Phönix der konservativen Hoffnung!"
+dutch_exile_events.1.a: "Side with the Batavian Commune."
+dutch_exile_events.1.b: "Side with the Homeland."
+
+dutch_exile_events.2.t: "Der Sitz unserer Exilregierung"
+dutch_exile_events.2.d: "Es liegt auf der Hand, dass die niederländische Exilregierung ein leichtes Ziel für das immer aggressiver werdende japanische Kaiserreich in Asien sowie für seine Nachbarn in den westlichen Besitzungen wäre. Wie sollen wir außerdem die Kontrolle über das Heimatland wiederherstellen, wenn wir keine Verbündeten haben, die das tun? Es war klar, dass die Exilregierung mit einer befreundeten Regierung gebildet werden musste. Für die Königin gibt es zwei Möglichkeiten: Sie kann sich an Kanada wenden und sich den anderen Exilanten Europas anschließen, die ebenfalls keinen festen Stand in Europa haben, aber in der Lage sind, sich selbst zu schützen, oder sie kann sich dem Deutschen Reich anschließen, das die Batavianische Kommune wahrscheinlich leicht zerstören kann (in einigen Jahren oder vielleicht sogar sofort), uns aber wahrscheinlich so weit beherrschen wird, dass wir nur noch eine Marionette sind, wenn es uns hilft, die rechtmäßige Ordnung im Heimatland wiederherzustellen."
+dutch_exile_events.2.a: "Unsere Exilregierung gehört nach Ottawa!"
+dutch_exile_events.2.b: "Nach Berlin!"
+dutch_exile_events.2.c: "Für Batavia brauchen wir keine Verbündeten!"
+
+dutch_exile_events.3.t: "[DEI.GetNameDefCap] Möchte ihre Regierung hier ansiedeln"
+dutch_exile_events.3.d: "Eine weitere Monarchie ist dem Schandfleck des Syndikalismus zum Opfer gefallen, aber ihre Königin und ihre Vertrauten entkamen dem Chaos, um einen Widerstand aus den Kolonien zu gründen, die ihr treu geblieben sind. Sie bittet darum, ein Bündnis mit uns einzugehen und eine Exilregierung in unserer Hauptstadt zu errichten."
+dutch_exile_events.3.a: "Natürlich!"
+dutch_exile_events.3.b: "Das glaube ich nicht..."
+
+dutch_exile_events.4.t: "Akzeptanz von [From.GetNameDef]"
+dutch_exile_events.4.d: "Ein Brief von [From.GetNameDef] akzeptierte unser Ersuchen und erlaubte uns, unsere Exilregierung in ihrer Hauptstadt einzurichten, und erklärte sich bereit, ein Bündnis gegen die syndikalistische Bedrohung einzugehen, die unser Land in ihrem Bann hält."
+dutch_exile_events.4.a: "Gut zu hören!"
+
+dutch_exile_events.5.t: "Ablehnung von [From.GetNameDef]"
+dutch_exile_events.5.d: "In einem Schreiben von [From.GetNameDef] wird behauptet, dass unser 'Bürgerkrieg' eine rein interne niederländische Angelegenheit ist und dass [From.GetNameDef] uns in unserem Kampf nicht unterstützen kann."
+dutch_exile_events.5.a: "Dann bleibt nur noch eine Möglichkeit..."
+dutch_exile_events.5.b: "Dann müssen wir es selbst mit den Syndikalisten aufnehmen..."
+
+dutch_exile_events.6.t: "Berichte über die [WIF.GetNameDef] Besetzung unserer amerikanischen Besitztümer"
+dutch_exile_events.6.d: "[WIF.GetAdjective] Streitkräfte haben unsere Souveränität verletzt und sind ohne unsere Erlaubnis in Surinam und unseren anderen Besitzungen in der westlichen Hemisphäre eingezogen, angeblich um 'kontinuierliche Stabilität' zu sichern, die unsere Regierung ihrer Meinung nach nicht gewährleisten konnte. Dies ist eine ungeheuerliche Beleidigung unserer Integrität!"
+dutch_exile_events.6.a: "Wir werden dies nicht vergessen!"
+
+dutch_exile_events.7.t: "Die Niederländer sind im Chaos!"
+dutch_exile_events.7.d: "Die niederländische Regierung ist aufgrund einer sozialistischen Revolution in ihrer Metropole ins Chaos gestürzt, und aus unserer Sicht scheint dies der ideale Zeitpunkt zu sein, um ihre Kolonien vor der [VEN.GetAdjective]-Küste zu beschlagnahmen, Gebiete, die von Anfang an zu [VEN.GetAdjective] gehören sollten, da die Niederländer nicht in der Lage sind, zurückzuschlagen!"
+dutch_exile_events.7.a: "Entsendet die Kriegsschiffe!"
+dutch_exile_events.7.b: "Wir können es nicht riskieren..."
+
+dutch_exile_events.8.t: "Venezuela erobert Curaçao"
+dutch_exile_events.8.d: "Die venezolanische Regierung hat unseren Moment der Schwäche erkannt und beschlossen, Curaçao, das Venezuela schon lange für sich beansprucht, anzugreifen und zu besetzen, da wir uns nicht dagegen wehren können. Während einige Militärexperten im Gefolge der Königin eine sofortige Aktion gegen diesen illegalen Akt zur Befreiung von Curaçao durchführen wollen, ist es klar, dass wir im Moment dazu nicht in der Lage sind."
+dutch_exile_events.8.a: "Die traurige Wahrheit..."
+
+dutch_exile_events.9.t: "Das Kabinett im Exil"
+dutch_exile_events.9.d: "Da das Heimatland gefallen ist, konnten die üblichen verfassungsmäßigen Kontrollen der Macht der Königin nicht ausgeübt werden, da es kein Parlament gab. Das bedeutet, dass königliche Dekrete die einzigen legalen Gesetze der Regierung sind, die aber auch nicht ohne ein Parlament blockiert werden können. Alle Macht, egal wie die politische Situation zu Hause aussieht, liegt nun bei der Königin, die nun das erste niederländische Exilkabinett ernennen wird. Wird sie ihre Herrschaft durch die Bildung eines loyalen Kabinetts festigen oder wird sie stattdessen ein ARP-Kabinett bilden, ihr Lieblingskabinett?"
+dutch_exile_events.9.a: "Die Königin errichtet eine direkte Herrschaft."
+dutch_exile_events.9.b: "Der erfahrene Staatsmann Colijn wird zum Premierminister ernannt."
+dutch_exile_events.9.c: "Der militante Politiker Gerbrandy wird zum Premierminister ernannt."
+
+dutch_exile_events.10.t: "Rede von Batavia"
+dutch_exile_events.10.d: "Nachdem die ersten Exilanten in Batavia eingetroffen sind, ist klar geworden, dass die Situation bald unbeherrschbar wird, wenn wir den Ostindiern nicht ein bedeutendes Zugeständnis machen. Sie wollen die Unabhängigkeit, und obwohl sie offensichtlich noch nicht bereit dafür sind, brauchen wir sie, um das Vaterland zurückzuerobern. Einige meinen, dass sie vielleicht durch das Versprechen eines gleichberechtigten Status innerhalb des Königreichs umgestimmt werden könnten. Die Königin wird heute eine Rede halten, und viele Indonesier warten gespannt darauf, was sie zu sagen hat, in der Hoffnung, dass sie eine deutliche Verbesserung verspricht."
+dutch_exile_events.10.a: "Wenn die Niederlande ihre Freiheit wiedererlangen, wird auch Indonesien..."
+dutch_exile_events.10.b: "Gleichstellung der ostindischen Länder ist in den Charts zu finden..."
+dutch_exile_events.10.c: "Wir geben den Inländern nicht nach!"
+
+dutch_exile_events.11.t: "Widerstand überfällt Fabrik"
+dutch_exile_events.11.d: "Eine reaktionäre Widerstandszelle hat einen Überfall auf eine unserer Produktionsstätten verübt. Leider ist es ihnen gelungen, unsere Produktionskapazitäten erheblich zu beeinträchtigen und sie erfolgreich zu evakuieren, so dass wir sie nicht aufspüren konnten."
+dutch_exile_events.11.a: "Verblendete Reaktionäre!"
+
+dutch_exile_events.12.t: "Operation erfolgreich!"
+dutch_exile_events.12.d: "Unsere Leute vor Ort berichten, dass die Operation zur Sabotage des von uns anvisierten Produktionsziels reibungslos verlaufen ist: Alle 25 Widerstandsmitglieder konnten nach der erfolgreichen Zerstörung der Anlage sicher evakuiert werden."
+dutch_exile_events.12.a: "Ein Hoch auf unsere Männer vor Ort!"
+
+dutch_exile_events.13.t: "Widerstand überfällt Fabrik"
+dutch_exile_events.13.d: "Eine reaktionäre Widerstandszelle hat einen Überfall auf eine unserer Produktionsstätten verübt. Obwohl sie recht gute Arbeit geleistet und unsere Produktionskapazität erheblich beeinträchtigt haben, ist es uns gelungen, vier von ihnen zu töten und zwei weitere in Gewahrsam zu nehmen. Sie werden in diesem Moment verhört."
+dutch_exile_events.13.a: "Verblendete Reaktionäre!"
+
+dutch_exile_events.14.t: "Operation Semi-Erfolgreich!"
+dutch_exile_events.14.d: "Unsere Einsatzkräfte vor Ort berichten, dass die Operation zur Sabotage des von uns anvisierten Produktionsziels erfolgreich verlaufen ist. Allerdings ist es sechs Widerstandsmitgliedern nicht gelungen, sich nach der erfolgreichen Sabotage der Anlage in Sicherheit zu bringen; wir gehen davon aus, dass vier von ihnen bei dem anschließenden Feuergefecht mit den Behörden getötet und zwei lebendig verhaftet wurden. Da wir davon ausgehen, dass niemand unter Folter überleben wird, sind wir gezwungen, den Rest des Teams zu verstecken, da sie sich untereinander kannten."
+dutch_exile_events.14.a: "Gut, aber schlecht..."
+
+dutch_exile_events.15.t: "Widerstand überfällt Fabrik"
+dutch_exile_events.15.d: "Eine reaktionäre Widerstandszelle versuchte, einen Überfall auf eine unserer Produktionsstätten zu starten. Bevor sie diese jedoch erreichten, stießen sie auf eine Patrouille, woraufhin ein Feuergefecht ausbrach. Nachdem die Patrouille Verstärkung angefordert hatte, zogen sich die Reaktionäre zurück, wobei unsere Seite 7 dieser Schurken tötete. Wir nahmen auch einen von ihnen, der verwundet und damit handlungsunfähig war, in Gewahrsam, aber er starb auf dem Weg ins Krankenhaus, bevor wir ihn verhören konnten."
+dutch_exile_events.15.a: "Verblendete Reaktionäre!"
+
+dutch_exile_events.16.t: "Operation fehlgeschlagen!"
+dutch_exile_events.16.d: "Die Widerstandsgruppe ist auf dem Weg zur Sabotage der Anlage auf eine Patrouille gestoßen. Sieben unserer Männer wurden bei dem anschließenden Feuergefecht getötet, und einer wurde als vermisst gemeldet, als er verwundet am Boden zusammenbrach; wir können nur annehmen, dass er von den Behörden festgenommen wurde. Da wir davon ausgehen, dass niemand unter Folter überleben wird, sind wir gezwungen, den Rest des Teams zu verstecken, da er die anderen kannte."
+dutch_exile_events.16.a: "Das ist ein Desaster!"
+
+dutch_exile_events.17.t: "Widerstand fällt auf die Falle herein"
+dutch_exile_events.17.d: "Eine reaktionäre Widerstandszelle hat versucht, einen Überfall auf eine unserer Produktionsstätten zu verüben, genau wie es unser Informant wollte. Sie gingen uns direkt in die Falle und verursachten ein Feuergefecht, bei dem wir mehrere von ihnen töteten und den Rest verhafteten, einschließlich des Anführers, der durchaus Leute kennen könnte, die über seine kleine Gruppe hinausgehen."
+dutch_exile_events.17.a: "Erzähl uns mehr, oder wir schießen dir den Zeh ab!"
+
+dutch_exile_events.18.t: "Operation fehlgeschlagen!"
+dutch_exile_events.18.d: "Unsere Mitarbeiter vor Ort berichten, dass keiner der Agenten, die vor Ort eingesetzt wurden, um die Produktionsanlage zu sabotieren, zurückgekehrt ist. Als wir einen Späher losschickten, meldete dieser bald zurück, dass die Fabrik noch intakt sei, die Polizei aber nicht mehr da sei. Offensichtlich war es eine Falle gewesen. Was noch schlimmer ist: Soweit wir wissen, könnte der Anführer der Gruppe ebenfalls verhaftet worden sein, so dass alle dreißig Agenten, mit denen er im Widerstand Kontakt hatte, zur Sicherheit untertauchen müssen."
+dutch_exile_events.18.a: "Das ist mehr als nur eine Katastrophe!"
+
+dutch_exile_events.19.t: "Operation fehlgeschlagen!"
+dutch_exile_events.19.d: "Unsere Einsatzkräfte vor Ort berichten, dass die Operation abgebrochen wurde, bevor sie überhaupt begonnen hatte, nachdem einer der Männer gesehen hatte, dass einer der Arbeiter, der zu spät kam, eine Waffe trug. Der Anführer entschied daraufhin, dass die Sicherheit der Gruppe wichtiger sei als die Mission und befahl der Gruppe, umzukehren..."
+dutch_exile_events.19.a: "Es war wahrscheinlich die beste Wahl."
+
+dutch_exile_events.20.t: "Widerstand überfällt Fabrik"
+dutch_exile_events.20.d: "Eine reaktionäre Widerstandszelle hat einen Überfall auf eine unserer Waffenfabriken verübt. Leider ist es ihnen gelungen, unsere Produktionskapazitäten erheblich zu beeinträchtigen und eine erfolgreiche Evakuierung durchzuführen, so dass wir sie nicht aufspüren konnten."
+dutch_exile_events.20.a: "Verblendete Reaktionäre!"
+
+dutch_exile_events.21.t: "Operation erfolgreich!"
+dutch_exile_events.21.d: "Unsere Leute vor Ort berichten, dass die Operation zur Sabotage der von uns ausgewählten Waffenfabrik reibungslos verlaufen ist: Alle 25 Mitglieder des Widerstands konnten nach der erfolgreichen Zerstörung der Anlage sicher evakuiert werden."
+dutch_exile_events.21.a: "Ein Hoch auf unsere Männer vor Ort!"
+
+dutch_exile_events.22.t: "Widerstand überfällt Fabrik"
+dutch_exile_events.22.d: "Eine reaktionäre Widerstandszelle hat einen Überfall auf eine unserer Waffenfabriken verübt. Obwohl sie recht gute Arbeit geleistet und unsere Produktionskapazitäten dort erheblich geschädigt haben, konnten wir zwei von ihnen töten und vier weitere in Gewahrsam nehmen. Sie werden in diesem Moment verhört."
+dutch_exile_events.22.a: "Verblendete Reaktionäre!"
+
+dutch_exile_events.23.t: "Operation Semi-Erfolgreich!"
+dutch_exile_events.23.d: "Unsere Einsatzkräfte vor Ort berichten, dass die Operation zur Sabotage der Waffenfabrik erfolgreich verlaufen ist. Allerdings haben es sechs Widerstandsmitglieder nicht geschafft, sich nach der erfolgreichen Sabotage der Anlage in Sicherheit zu bringen; wir vermuten, dass zwei von ihnen bei dem anschließenden Feuergefecht mit den Behörden ums Leben gekommen sind und vier lebend festgenommen wurden. Da wir davon ausgehen, dass niemand unter Folter überleben wird, sind wir gezwungen, den Rest des Teams zu verstecken, da sie sich untereinander kannten."
+dutch_exile_events.23.a: "Gut, aber schlecht..."
+
+dutch_exile_events.24.t: "Widerstand überfällt Fabrik"
+dutch_exile_events.24.d: "Eine reaktionäre Widerstandszelle versuchte, einen Überfall auf eine unserer Waffenfabriken zu verüben. Bevor sie diese jedoch erreichten, stießen sie auf eine Patrouille, woraufhin ein Feuergefecht ausbrach. Nachdem die Patrouille Verstärkung angefordert hatte, zogen sich die Reaktionäre zurück, wobei unsere Seite 12 dieser Schurken tötete. Wir haben auch einen von ihnen, der verwundet und damit handlungsunfähig war, in Gewahrsam genommen; er wird gerade im Krankenhaus verhört."
+dutch_exile_events.24.a: "Verblendete Reaktionäre!"
+
+dutch_exile_events.25.t: "Operation fehlgeschlagen!"
+dutch_exile_events.25.d: "Die Widerstandsgruppe ist auf dem Weg zur Sabotage der Anlage auf eine Patrouille getroffen. Zwölf unserer Männer wurden bei dem anschließenden Feuergefecht getötet und zwei wurden vermisst, als sie verwundet wurden und während der Evakuierung zusammenbrachen; wir können nur annehmen, dass sie von den Behörden aufgegriffen wurden. Da wir davon ausgehen, dass niemand unter Folter überleben wird, sind wir gezwungen, den Rest des Teams zu verstecken, da sie die anderen kannten."
+dutch_exile_events.25.a: "Das ist ein Desaster!"
+
+dutch_exile_events.26.t: "Widerstand fällt auf die Falle herein"
+dutch_exile_events.26.d: "Eine reaktionäre Widerstandszelle hat versucht, eine unserer Waffenfabriken zu überfallen, genau wie es unser Informant wollte. Sie gingen uns direkt in die Falle und verursachten ein Feuergefecht, bei dem wir mehrere von ihnen töteten und den Rest verhafteten, einschließlich des Anführers, der durchaus Leute kennen könnte, die über seine kleine Gruppe hinausgehen."
+dutch_exile_events.26.a: "Erzähl uns mehr, oder wir schießen dir den Zeh ab!"
+
+dutch_exile_events.27.t: "Operation fehlgeschlagen!"
+dutch_exile_events.27.d: "Unsere Mitarbeiter vor Ort berichten, dass keiner der Agenten, die vor Ort eingesetzt wurden, um die Waffenfabrik zu sabotieren, zurückgekehrt ist. Als wir einen Späher schickten, meldete dieser bald zurück, dass die Fabrik noch intakt sei, die Polizei aber nicht mehr da sei. Offensichtlich war es eine Falle gewesen. Was noch schlimmer ist: Soweit wir wissen, wurde der Anführer der Gruppe ebenfalls verhaftet, so dass wir alle dreißig Agenten, mit denen er Kontakt innerhalb des Widerstands hatte, zur Sicherheit untertauchen müssen."
+dutch_exile_events.27.a: "Das ist mehr als nur eine Katastrophe!"
+
+dutch_exile_events.28.t: "Operation fehlgeschlagen!"
+dutch_exile_events.28.d: "Unsere Einsatzkräfte vor Ort berichten, dass die Operation abgebrochen wurde, bevor sie überhaupt begonnen hatte, nachdem einer der Männer gesehen hatte, dass einer der Arbeiter, der zu spät kam, eine Waffe trug. Der Anführer entschied daraufhin, dass die Sicherheit der Gruppe wichtiger sei als die Mission und befahl der Gruppe, umzukehren..."
+dutch_exile_events.28.a: "Es war wahrscheinlich die beste Wahl."
+
+dutch_exile_events.29.t: "Widerstand sprengt eine Eisenbahnlinie!"
+dutch_exile_events.29.d: "Eine kleine Gruppe reaktionärer Terroristen hat mitten in der Nacht eine Eisenbahnlinie in die Luft gesprengt. Leider ist keine Spur von ihnen zu finden und es gibt wenig, was wir tun können, außer den Schaden zu reparieren."
+dutch_exile_events.29.a: "Kleinliche Terroristen!"
+
+dutch_exile_events.30.t: "Erfolgreiche Operation!"
+dutch_exile_events.30.d: "Unsere Agenten melden einen Erfolg bei der Bombardierung der vorgesehenen Bahnlinie. Die [HolexSyndicalistOrGerman] werden nicht wissen, was sie getroffen hat, und die gesamte Gruppe ist sicher zurückgekehrt!"
+dutch_exile_events.30.a: "Gut, gut!"
+
+dutch_exile_events.31.t: "Widerstandskämpfer verhaftet!"
+dutch_exile_events.31.d: "Eine kleine Gruppe reaktionärer Terroristen hat in der Nacht versucht, einen Bombenanschlag auf eine Bahnstrecke zu verüben, wurde aber von einem Einheimischen entdeckt und schnell festgenommen. Die Straßen sind jetzt wieder ein bisschen sicherer."
+dutch_exile_events.31.a: "Gut, dass wir sie los sind!"
+
+dutch_exile_events.32.t: "Fehlgeschlagene Operation!"
+dutch_exile_events.32.d: "Offensichtlich wurden unsere Agenten auf dem Weg zu ihrem Ziel entdeckt, denn die Polizei tauchte plötzlich auf und nahm alle fünf fest, wie ein mit uns sympathisierender Einheimischer berichtete. Wir müssen schnell handeln, um ihre Kontaktpersonen unterzutauchen."
+dutch_exile_events.32.a: "Schnell, informiert sie!"
+
+dutch_exile_events.33.t: "Polizeirazzia trifft Widerstandsnetzwerk"
+dutch_exile_events.33.d: "Das reaktionäre Widerstandsnetzwerk, das von [DEI.GetNameDef] betrieben wird, wurde von einer Polizeirazzia getroffen, die ein grandioser Erfolg war: Acht Reaktionäre wurden festgenommen und wir konnten ihnen Informationen über den Aufenthaltsort anderer Mitglieder entlocken, obwohl der Widerstand sie wahrscheinlich inzwischen aufgefordert hat, unterzutauchen. Das ist ein großer Sieg für unsere Herrschaft!"
+dutch_exile_events.33.a: "Gut, dass wir sie los sind!"
+
+dutch_exile_events.34.t: "Polizeirazzia trifft Widerstandsnetzwerk"
+dutch_exile_events.34.d: "Unser Netzwerk wurde von einer Polizeirazzia getroffen, die offensichtlich von jemandem geleitet wurde, der viel über die Art unseres Netzwerks wusste. Alle acht Zielpersonen wurden von der Polizei abgeführt, und da sie Kontaktpersonen haben, die sie kennen, müssen wir sie zur Sicherheit untertauchen lassen."
+dutch_exile_events.34.a: "Oh nein!"
+
+dutch_exile_events.35.t: "Polizeirazzia trifft Widerstandsnetzwerk"
+dutch_exile_events.35.d: "Das reaktionäre Widerstandsnetzwerk, das von [DEI.GetNameDef] betrieben wird, wurde von einer Polizeirazzia getroffen, die mäßig erfolgreich war: Wir haben 4 Reaktionäre verhaftet, was bedeutet, dass 4 andere entkommen konnten, aber zumindest ist es uns gelungen, Informationen über einige andere Mitglieder zu erhalten, so dass wir eine ganze Reihe von Widerstandsmitgliedern dazu zwingen, sich zu verstecken.“"
+dutch_exile_events.35.a: "Wenigstens das ist etwas..."
+
+dutch_exile_events.36.t: "Polizeirazzia trifft Widerstandsnetzwerk"
+dutch_exile_events.36.d: "Unser Netzwerk wurde von einer Polizeirazzia getroffen, die offensichtlich von jemandem geleitet wurde, der viel über die Art unseres Netzwerks wusste. Sie hatten es auf 8 Mitglieder abgesehen, von denen es 4 gelang, zu fliehen. Die 4, die tatsächlich verhaftet wurden, hatten andere Kontakte, und offenbar wissen sie, wer die anderen 4 sind, so dass wir wohl keine andere Wahl haben, als diese beiden Gruppen unterzutauchen."
+dutch_exile_events.36.a: "Oh nein!"
+
+dutch_exile_events.37.t: "Polizeirazzia trifft Widerstandsnetzwerk"
+dutch_exile_events.37.d: "Das von [DEI.GetNameDef] betriebene reaktionäre Widerstandsnetzwerk wurde von einer Polizeirazzia getroffen, die eine absolute Schande für unseren Polizeiapparat war: alle 8 Zielpersonen konnten entkommen. Der einzige Lichtblick ist, dass der Widerstand, da er weiß, dass wir seine Agenten identifiziert haben, gezwungen ist, sie unterzutauchen, so dass sie für eine Weile keine Missionen ausführen können."
+dutch_exile_events.37.a: "Verdammt!"
+
+dutch_exile_events.38.t: "Polizeirazzia trifft Widerstandsnetzwerk"
+dutch_exile_events.38.d: "Die Polizei hat heute versucht, eine Razzia in unserem Netz durchzuführen, um 8 Personen festzunehmen, die offensichtlich von jemandem verraten wurden. Glücklicherweise gelang es allen 8, zu entkommen, obwohl die Behörden offensichtlich ihre Identität kennen und sie daher gezwungen sein werden, sich zu verstecken."
+dutch_exile_events.38.a: "Netter Versuch..."
+
+dutch_exile_events.39.t: "Revolution in den Niederlanden"
+dutch_exile_events.39.d: "Beunruhigende Nachrichten aus den Niederlanden: Offenbar haben syndikalistische Elemente die rechtmäßige demokratische Regierung gestürzt und eine Tyrannei über das niederländische Mutterland verhängt. Die Königin und mehrere Getreue haben sich erfolgreich abgesetzt und beabsichtigen offenbar, hier eine Exilregierung zu gründen."
+dutch_exile_events.39.a: "Natürlich, willkommen!"
+
+dutch_exile_events.40.t: "Geburtsrecht wiederhergestellt!"
+dutch_exile_events.40.d: "Wir haben die Niederlande erfolgreich befreit und ihre rechtmäßige Ordnung wiederhergestellt. Natürlich muss dort eine starke Regierung eingesetzt werden, bevor wir wieder Wahlen abhalten können, damit der Syndikalismus nicht zurückkehrt, aber das Schlimmste ist überstanden. Die Frage ist, wie es weitergehen soll, auch im Hinblick auf das Schicksal der Kolonien, insbesondere Niederländisch-Indiens, das so hart für die Befreiung des Vaterlandes gekämpft hat."
+dutch_exile_events.40.a: "Die Unabhängigkeit wird, wie versprochen, gewährt (Spielt als die Niederlande)"
+dutch_exile_events.40.b: "Die Unabhängigkeit wird, wie versprochen, gewährt (Spielt als Indonesien)"
+dutch_exile_events.40.c: "Die Indies erhalten wie versprochen den gleichen Status."
+dutch_exile_events.40.e: "Die alte Ordnung wird wiederhergestellt (Spielt als die Kolonialregierung)"
+dutch_exile_events.40.f: "Die alte Ordnung wird wiederhergestellt (Spielt als die Niederlande)"
 
 ## Parties ###
 DEI_social_democrat_party: "SDAP"
@@ -705,7 +700,7 @@ DEI_Overvalwagen_desc: "Die Overvalwagens sind leicht gepanzerte Chevrolet-Lkw, 
 DEI_aa: "Beschaffung von Flugabwehrkanonen"
 DEI_aa_desc: "Rollende Panzerschlachten sind in Niederländisch-Indien nicht zu erwarten, obwohl der Einsatz von leichteren Fahrzeugen und Flugzeugen die Beschaffung von Autokanonen kleineren Kalibers für die KNIL erforderlich machte."
 DEI_car: "Beschaffung von CTMS-1TB1-Lizenzen"
-DEI_car_desc: "Abgesehen von den Problemen in Amerika sind die Lizenzen für das CTMS-1TB1 von Marmon-Herrington endlich eingetroffen, obwohl von den 100 bestellten nur 35 eingetroffen sind."
+DEI_car_desc: "Abgesehen von den Problemen in Amerika sind die Lizenzen für das CTMS-1TB1 von Marmon-Herrington endlich eingetroffen, obwohl von den 100 bestellten nur 50 eingetroffen sind."
 DEI_new_direction: "Eine neue Richtung"
 DEI_new_direction_desc: "Der neue Generalgouverneur [DEI.GetLeader] ist derzeit entsetzt über die aktuellen KNIL-Reformen, da sie die niederländische Kultur mit der der Inländer entwerten. Er wird die aktuellen Reformen in eine andere Richtung lenken, um sicherzustellen, dass die niederländische Kultur in Niederländisch-Indien erhalten bleibt."
 DEI_vnh_instructors: "VNH-anerkannte Ausbilder"
@@ -771,30 +766,16 @@ DEI_white_phosphorus_desc: "Weiße Phosphor-Brandbomben scheinen auf unbekanntem
 DEI_night_figthing: "Nachtkampf"
 DEI_night_figthing_desc: "Das KNIL Fliegerkorps wird nie über die besten Kampfflugzeuge oder die beste Ausrüstung verfügen, aber der Einsatz unkonventioneller Taktiken im Schutz der Dunkelheit wird uns den nötigen Vorteil verschaffen."
 
-DEI_army_of_all_east_indians: "Armee aller Ostindier"
-DEI_army_of_all_east_indians_desc: "Bislang haben wir keine Inländer in nennenswerter Zahl in unsere Reihen aufgenommen, aber der Archipel ist groß, die Bedrohungen sind vielfältig und unsere 'weiße' KNIL ist überlastet. Vielleicht sollten wir darüber nachdenken, diese Politik zu ändern."
-DEI_selfsufficient_defense: "Autarke Verteidigungskräfte"
-DEI_selfsufficient_defense_desc: "Durch die Aufnahme von Einheimischen, die bereit sind, mit uns zusammenzuarbeiten, kann unsere Verteidigung autark werden, ohne dass wir Gefahr laufen, in dem unglücklichen Fall, dass beispielsweise das niederländische Festland von einer fremden Macht besetzt wird, verwundbar zu werden."
-DEI_small_but_trained: "Armee von Totoks"
-DEI_small_but_trained_desc: "Die Aufnahme von Inländern in unsere Reihen würde nur unsere überlegene Moral und unsere stolze Tradition herabsetzen. Die KNIL hat sich lange genug behauptet, und mit einer umfassenden Wehrpflicht unter den Europäern in der Kolonie können wir die Kolonie sicher halten, bis Verstärkung eintrifft."
-DEI_planning_for_emergency: "Planung für einen Notfall"
-DEI_planning_for_emergency_desc: "Im Ernstfall können wir die Situation vielleicht nicht für immer unter Kontrolle halten, aber wir können eine Invasion sicher lange genug aufhalten, bis einberufene Verstärkung aus dem Heimatland eintrifft."
 DEI_doctrine_for_the_army: "Doktrinelle Bemühungen"
 DEI_doctrine_for_the_army_desc: "Wir sollten eine Doktrin wählen, der wir folgen, damit wir nicht hinter denen zurückbleiben, die uns in Lehrfragen schaden wollen."
-DEI_jungle_training: "Dschungel Training"
-DEI_jungle_training_desc: "Ein großer Teil Niederländisch-Indiens besteht aus Dschungel. Wir sollten uns auf das Training unter diesen rauen Bedingungen konzentrieren, damit wir unter diesen Bedingungen effizienter kämpfen können."
 DEI_royal_dei_marines: "Königlich Niederländisch-Ostindische Marines"
 DEI_royal_dei_marines_desc: "Durch die Aufstellung eines eigenen Marinekorps für Niederländisch-Indien, das sich aus lokalen Streitkräften zusammensetzt, die auf Landungen spezialisiert sind, einem nicht unwichtigen Teil der Kriegsführung in dieser Inselregion."
-DEI_modern_guns: "Moderne Waffen"
-DEI_modern_guns_desc: "Wir sollten in bessere Ausrüstung für unsere Soldaten investieren, nicht zuletzt in bessere Waffen zur Verteidigung unseres Landes."
 DEI_defending_the_indies: "Verteidigung der Indischen Inseln"
 DEI_defending_the_indies_desc: "Die Indischen Inseln sind das Juwel des niederländischen Reiches. Wir werden sie mit allem, was wir haben, verteidigen. Niemand soll sie erobern!"
 DEI_fortifying_java: "Java befestigen"
 DEI_fortifying_java_desc: "Java ist das politische Herz Indiens. Indem wir es befestigen, können wir jede ausländische Invasion zumindest in Bezug auf Männer und Ausrüstung für den Feind sehr kostspielig machen."
 DEI_military_aviation_of_the_KNIL: "Militärische Luftfahrt der KNIL"
 DEI_military_aviation_of_the_KNIL_desc: "Die militärische Luftfahrt der KNIL fungiert als die Luftstreitkraft der Kolonie. Wir haben zwar schon einige Flugzeuge, aber es scheint, dass der Krieg der Zukunft in der Luft ausgetragen wird, und wir können unseren Feinden nicht erlauben, dort die Oberhand zu gewinnen."
-DEI_purchase_old_fokker_fighters: "Antrag auf zusätzliche Investitionen"
-DEI_purchase_old_fokker_fighters_desc: "Indem wir die Regierung auffordern, zusätzliche Investitionen in unsere lokale Luftwaffe zu tätigen, können wir diesen militärischen Zweig sowohl erhalten als auch ausbauen, um mit dem Rest der Welt wettbewerbsfähig zu werden."
 DEI_east_indian_bombers: "Ostindische Bomber"
 DEI_east_indian_bombers_desc: "Bomber können sowohl die gegnerische Industrie lahmlegen als auch unsere landgestützten Operationen unterstützen. Wenn wir stark in sie investieren, werden wir unsere Luftstreitkräfte vervollständigen."
 DEI_east_indian_fighters: "Ostindische Jäger"
@@ -1005,16 +986,8 @@ HOLEX_war_economy: "Kriegswirtschaft"
 HOLEX_war_economy_desc: "Es ist an der Zeit, unsere Wirtschaft auf den Krieg vorzubereiten. Zweifellos werden die Syndikalisten dasselbe tun, aber mit ihrem fehlerhaften System. Wir können es besser machen!"
 
 ### Companies ###
-shell_dei: "Shell"
-nimef: "NIMEF"
 machinefabriek_braat: "Machine Fabriek Braat"
 billiton: "Billiton Maatschappij"
-artillerie_constructie_winkel: "Artillerie Constructie Winkel"
-daf_dei: "DAF Oost-Indië"
-spyker_dei: "Spyker-Trompenburg Singapur"
-fokker_dei: "Fokker Insulinde"
-koolhoven_dei: "Koolhoven Soerabaja"
-kn_rotterdamsche_lloyd: "Koninklijke Rotterdamsche Lloyd"
 
 ### Ideas ###
 DEI_idea_black_monday: "Schwarzer Montag"
@@ -1031,11 +1004,8 @@ DEI_idea_industrialisation_cen: "Zentralisierung der indonesischen Industrie"
 DEI_idea_modern_eco: "Moderne Wirtschaft für Ostindien"
 DEI_idea_colonial_nation: "Kolonialregierung"
 DEI_idea_colonial_nation_desc: "Nederlandsch-Indië ist das Ergebnis der weltweiten Bedeutung, die die Niederlande seit dem 19. Jahrhundert in Südostasien mit Gewürzen und Nutzpflanzen erlangt haben. Jahrhundert. Der Reichtum des Landes trägt dazu bei, die Wirtschaft der Niederlande anzukurbeln, was bei den Einheimischen auf Unmut stößt."
-DEI_idea_colonial_nation_exiles: "Kolonialregierung"
-DEI_idea_colonial_nation_1: "Kolonialregierung - Status Quo"
 DEI_idea_colonial_nation_2: "Kolonialregierung - Cultuurstelsel-Apartheid"
 DEI_idea_colonial_nation_2_desc: "[DEI.getleader] hat Niederländisch-Indien zu den Wurzeln des Anbausystems aus dem 19. Jahrhundert zurückgeführt, obwohl er als moderner Mensch mit einem formelleren Segregationssystem dem 20."
-DEI_idea_colonial_nation_3: "Unabhängige Regierung"
 DEI_idea_defense_strategy: "Entschlossene Verteidigung"
 DEI_idea_naval_guerilla: "Helfrichs Guerilla-Plan für die Marine"
 DEI_idea_naval_guerilla_desc: "Durch den Einsatz von U-Booten, die angreifen und sich dann zurückziehen, möchte Admiral Helfrich seinen Feind ähnlich wie in einem Guerillakrieg an Land bekämpfen."
@@ -1060,8 +1030,6 @@ HOLEX_cid_reestablished_bbo_pid: "Erneuerte Geheimdienstaktivitäten"
 HOLEX_expanded_decryption: "Erweiterte Entschlüsselungsfähigkeiten"
 HOLEX_natural_resistance: "Natürliche Resistenz"
 HOLEX_natural_resistance_desc: "Das niederländische Volk ist von Natur aus gegen Tyrannei, und die traurige Tatsache ist, dass diejenigen, die unser Heimatland regieren, in jeder Hinsicht unholländisch sind. Widerstand wird natürlich gemacht!"
-HOLEX_army_in_exile: "Krijgsmacht in Ballingschap"
-HOLEX_army_in_exile_desc: "Die niederländische Exilarmee wird aufgestellt, um die bevorstehende Befreiung des Heimatlandes und die Wiederherstellung der rechtmäßigen Ordnung vorzubereiten."
 HOLEX_idea_ruling_the_land: "Herrschaft über das Land"
 HOLEX_idea_ruling_the_skies: "Herrschaft über den Himmel"
 HOLEX_idea_ruling_the_seas: "Herrschaft über die Meere"
@@ -1099,7 +1067,7 @@ DEI_idea_reform_army_vnh_2_desc: "Die KNIL hat sich nun als Beschützer der nied
 DEI_labour_bat: "Inlandsarbeitsbataillone"
 DEI_labour_bat_desc: "Einsatz der Inselbewohner durch die Bildung von Arbeitsbataillonen, die beim Bau von Infrastrukturen und anderen militärischen Einrichtungen helfen sollen."
 DEI_idea_reform_army_vnh_ref_aux: "Reform der Hilfstruppen"
-DEI_idea_reform_army_vnh_ref_aux_des: "Aufgrund der derzeitigen Reformen wollen nicht alle Inselbewohner in der KNIL dienen. Wir müssen sie \"zwingen\", ihre Meinung zu ändern."
+DEI_idea_reform_army_vnh_ref_aux_desc: "Aufgrund der derzeitigen Reformen wollen nicht alle Inselbewohner in der KNIL dienen. Wir müssen sie \"zwingen\", ihre Meinung zu ändern."
 DEI_better_dutch: "Strengere Rekrutierungsstandards"
 DEI_better_dutch_desc: "Strengere Rekrutierungsstandards werden durchgesetzt, um sicherzustellen, dass die Männer der KNIL der Inbegriff niederländischer Kriegskunst sind."
 DEI_idea_reform_vnh_officers: "Konforme europäische Beamte"
@@ -1152,9 +1120,6 @@ DEI_idea_indonesian_strength_very_high: "Stärke der Unabhängigkeitsbewegung: S
 ### Flag Conditions ###
 sutardjo_petition_rejected: "Die Petition von Sutardjo wurde abgelehnt."
 indonesian_revolution_fired: "Die Indonesische Nationale Revolution hat stattgefunden."
-indonesian_revolution_crushed: "Die Indonesische Nationale Revolution wurde niedergeschlagen."
-DEI_merc_more_pay: "Lockt sie mit höheren Gehältern."
-DEI_merc_longer_c: "Lockt sie mit längeren Verträgen."
 DEI_striking_at_unity: "Verringert derzeit nicht die Stärke der Unabhängigkeitsbewegung."
 DEI_striking_at_strength: "Verringert nicht gerade die Unabhängigkeitsbewegung Unity."
 DEI_Koninkrijksstatuut_signed: "Das Statut des Königreichs ist unterzeichnet worden."
@@ -1209,7 +1174,6 @@ holex_tt_four_dead_two_arrested_nineteen_hiding: "§Y4§! Widerstandskämpfer st
 holex_tt_seven_dead_one_arrested_seventeen_hiding: "§Y7§! Widerstandskämpfer starben, §Y1§! sind verhaftet worden, §Y17§! sind gezwungen, sich zu verstecken."
 holex_tt_all_fourteen_dead_eleven_arrested_another_thirty_possibly_contaminated: "§YEine unbekannte Anzahl§! von Widerstandskämpfer starben, §YDer Rest§! wurde verhaftet, §Y30§! nicht miteinander verbundene Mitglieder werden gezwungen, sich zu verstecken."
 holex_tt_eleven_dead_two_arrested_twelve_hiding: "§Y12§! Widerstandskämpfer starben, §Y2§! sind verhaftet worden, §Y11§! sind gezwungen, sich zu verstecken."
-holex_tt_two_dead_four_arrested_nineteen_hiding: "§Y2§! Widerstandskämpfer starben, §Y4§! sind verhaftet worden, §Y19§! sind gezwungen, sich zu verstecken."
 holex_tt_all_two_arrested_three_possibly_contaminated: "§Y5§! sind verhaftet worden, §Y3§! ihrer Kontaktpersonen untertauchen müssen."
 holex_rw_will_be_damaged: "Wenn die Operation erfolgreich ist, wird eine Eisenbahn in den Niederlanden beschädigt."
 holex_arms_will_be_damaged: "Wenn die Operation erfolgreich ist, wird eine Militärfabrik in den Niederlanden beschädigt."
@@ -1223,13 +1187,8 @@ dei_from_cant_take_batavia_conference: "Wenn wir die Batavia-Konferenz abhalten,
 dei_batavia_conference_core_great_east_new_guinea: "Nach Inkrafttreten des Koninkrijksstatuuts wird das gesamte Große Ostgebiet, Batavia und Niederländisch-Neuguinea zu §YKernprovizen§! und Niederländisch-Indien wird integriert."
 dei_batavia_conference_core_great_east_no_celebes_plus_new_guinea: "Nach Inkrafttreten des Koninkrijksstatuuts werden die Molukken, die westlichsten Kleinen Sundainseln und Niederländisch-Neuguinea zu §YKernprovizen§! und Niederländisch-Indien wird integriert."
 dei_batavia_conference_core_moluccas: "Nach Inkrafttreten des Koninkrijksstatuuts werden die Molukken zu §YKernprovizen§! und Niederländisch-Indien wird integriert."
-dei_tt_reinforcements: "Im Notfall, z. B. bei einem Aufstand der Eingeborenen oder einer ausländischen Invasion, werden §Y2 gut ausgebildete Infanteriedivisionen§! etwa einen Monat später in Batavia eintreffen, sofern die Niederlande in der Lage sind, sie zu versorgen."
-dei_bannelingenlegioen_spawns: "Drei gut ausgebildete §YBannelingenlegioen-Divisionen§! werden in Batavia auftauchen."
 holex_tt_staybehind: "§Y750§! Mitglieder des Widerstands werden aktiv werden."
-dei_indonesia_ready_for_koninkrijksstatuut: "§YNiederländisch-Indien§! habt die Batavia-Konferenz organisiert und eine Vereinbarung mit den Eingeborenen getroffen."
-INS_gets_volunteers: "Freiwillige werden kommen, um uns zu unterstützen.\n"
 DEI_reinfoob_tt: "Zwei Divisionen mit unterstützender Artillerie werden in Batavia aufgestellt."
-DEI_reform_cav_effect_tt: "§YBewilligt eine Vorlage für ein motorisiertes Regiment.§!"
 DEI_con_merge_ideas: "§CWird die aktuellen KNIL-Ideen zusammenführen§!"
 DEI_con_merge_ideas_final: "§CWird die aktuellen KNIL-Ideen zusammenführen und die vollständige Reformidee liefern§!"
 DEI_Apartheid: "Nederlandsch-Indië Apartheid-Cultuurstelsel\n§WUnter der Leitung des VNH-Statthalters Johannes Furstner wurde ein Apartheidsystem mit strengen Gesetzen und anderen Vorschriften eingeführt, um die Durchsetzung der \"niederländischen\" Herrschaft zu gewährleisten.§!"
@@ -1250,7 +1209,6 @@ DEI_tech_improved_field_hospitals: "Niederländisch-Indien M.A.Z"
 ### Variables ###
 holex_active_resistance_members: "Verfügbare Mitglieder des Widerstands"
 holex_free_hiding_spots: "Freie Verstecke"
-holex_inactive_resistance_members: "Versteckte Mitglieder des Widerstands"
 holex_informants: "Informanten"
 
 ### Decision categories ###
@@ -1288,9 +1246,6 @@ holex_tt_informants_1_or_greater_tooltip: "1 Informant wird durch diese Operatio
 holex_tt_informants_5_or_greater: "§H5§! Informanten"
 holex_tt_informants_5_or_greater_blocked: "§R5§! Informanten"
 holex_tt_informants_5_or_greater_tooltip: "5 Informanten werden durch diese Operation aufgedeckt."
-holex_tt_resistance_strength_5_or_greater: "§H5§! Widerstandskämpfer"
-holex_tt_resistance_strength_5_or_greater_blocked: "§R5§! Widerstandskämpfer"
-holex_tt_resistance_strength_5_or_greater_tooltip: "5 Widerstandskämpfer können während dieser Operation verhaftet, getötet oder zum Untertauchen gezwungen werden."
 holex_tt_resistance_strength_25_or_greater: "§H25§! Widerstandskämpfer"
 holex_tt_resistance_strength_25_or_greater_blocked: "§R25§! Widerstandskämpfer"
 holex_tt_resistance_strength_25_or_greater_tooltip: "25 Widerstandskämpfer können während dieser Operation verhaftet, getötet oder zum Untertauchen gezwungen werden."
@@ -1305,7 +1260,6 @@ holex_new_sh_75: "§Y75§! Unterschlüpfe werden gefunden."
 holex_new_sh_150: "§Y150§! Unterschlüpfe werden gefunden."
 holex_new_sh_200: "§Y200§! Unterschlüpfe werden gefunden."
 holex_new_sh_300: "§Y300§! Unterschlüpfe werden gefunden."
-holex_new_sh_500: "§Y500§! Unterschlüpfe werden gefunden."
 holex_25_resistancers_saved: "§Y25§! Versteckte Mitglieder des Widerstands werden wieder aktiv werden."
 holex_new_rf_10: "§Y10§! Unterschlüpfe werden gefunden."
 holex_new_rf_25: "§Y25§! Unterschlüpfe werden gefunden."
@@ -1314,16 +1268,12 @@ holex_new_rf_75: "§Y75§! Unterschlüpfe werden gefunden."
 holex_new_rf_150: "§Y150§! Unterschlüpfe werden gefunden."
 holex_new_rf_200: "§Y200§! Unterschlüpfe werden gefunden."
 holex_new_rf_300: "§Y300§! Unterschlüpfe werden gefunden."
-holex_new_rf_500: "§Y500§! Unterschlüpfe werden gefunden."
 DEI_fightholex_tt: "Es werden drei Divisionen von Widerstandskämpfern aufgestellt."
 
 ### Dynamic Loc ###
 HolexSyndicalistOrGerman_syndicalist: " syndikalistische Bedrohung"
 HolexSyndicalistOrGerman_german: " Deutsche Bedrohung"
 HolexSyndicalistOrGerman_else: " Feind"
-
-### Extra Stuff ###
-DEI_parachute_bonus: "Fallschirmspringer-Bonus"
 
 ### Country Names ###
 DEI: "Niederländisch-Indien"

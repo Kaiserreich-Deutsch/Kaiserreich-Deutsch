@@ -15,6 +15,8 @@ GAB_radical_socialist: "Kommune Gabun"
 GAB_radical_socialist_DEF: "die Kommune Gabun"
 
 ### Characters ###
+GAB_jean_baptiste_ndende_dibantsa: "Jean-Baptiste Ndende Dibantsa"
+GAB_jean_baptiste_ndende_dibantsa_leader_desc: "§YGeboren:§! §L1875, im Tsogho-Land, Französisch-Gabun§!"
 GAB_Charles_NTchorere: "Charles N'Tchoréré"
 GAB_charles_ntchorere_leader_desc: "§YGeboren:§! §L16. November 1896, in Libreville, Französisch-Gabun§!"
 GAB_Gabriel_Leon_Mba: "Gabriel Léon M'ba"
@@ -58,38 +60,38 @@ GAB_Apply_Constitution_desc: "Die Ratifizierung einer Verfassung wird der Souver
 
 # Introduction
 
-GAB_guide: "§MDie Demokratie überlebt§! (§cSozialkonservative§! / §mMarktliberale§! / §lSozialliberale§!)\n£white_dot Schließen Sie den Schwerpunkt \"Die Unabhängigkeitserklärung\" ab und lassen Sie den syndikalistischen Putsch scheitern.\n£white_dot Schließen Sie den Schwerpunkt \"Entwerft eine Verfassung\" ab, um die §cSozialkonservativen§!, §mMarktliberalen§! oder §lSozialliberalen§! zu wählen.\n\n§MSyndikalistischer Putsch§! (§RRadikale Sozialisten§! / §rSyndikalisten§! / §oTotalisten§!)\n£white_dot Schließen Sie den Schwerpunkt \"Die Unabhängigkeitserklärung\" ab und lassen Sie den syndikalistischen Putsch gelingen.\n£white_dot Sie den Schwerpunkt \"Entwerft eine Verfassung\" ab, um die §RRadikalen Sozialisten§!, §rAnarcho-Syndikalisten§! oder die §oTotalisten§! zu wählen."
+GAB_guide: "§MDie Demokratie überlebt§! ($social_conservative_coloured$ / $market_liberal_coloured$ / $social_liberal_coloured$)\n£white_dot Schließen Sie den Schwerpunkt \"Die Unabhängigkeitserklärung\" ab und lassen Sie den syndikalistischen Putsch scheitern.\n£white_dot Schließen Sie den Schwerpunkt \"Entwerft eine Verfassung\" ab, um die $social_conservative_coloured$, $market_liberal_coloured$ oder $social_liberal_coloured$ zu wählen.\n\n§MSyndikalistischer Putsch§! ($radical_socialist_coloured$ / $syndicalist_coloured$ / $totalist_coloured$)\n£white_dot Schließen Sie den Schwerpunkt \"Die Unabhängigkeitserklärung\" ab und lassen Sie den syndikalistischen Putsch gelingen.\n£white_dot Sie den Schwerpunkt \"Entwerft eine Verfassung\" ab, um die $radical_socialist_coloured$, §rAnarcho-Syndikalisten§! oder die $totalist_coloured$ zu wählen."
 
 ### Events ###
-gab.1.t: "Syndikalisten versuchen einen Coup!"
-gab.1.d: "Nach der Destabilisierung, die mit dem Sturz von Mittelafrika einherging, versucht die syndikalistische Partei Gabuns unter der Führung von Charles N'Tchoréré, ein für alle Mal die Kontrolle über die Regierung zu übernehmen!"
-gab.1.a: "Der Coup ist gelungen!"
-gab.1.b: "Unsere jungen demokratischen Institutionen überstehen ihre erste Hürde."
+gabon_events.1.t: "Dibantsa fordert die Regierung heraus!"
+gabon_events.1.d: "Nach der Destabilisierung, die mit dem Fall von Mittelafrika einherging, hat Jean-Baptiste Ndende Dibantsa, Vorsitzender der gabunischen Sektion der Liga für Menschen- und Bürgerrechte, die Unterstützung der Bevölkerung mobilisiert, um die Kontrolle über die Regierung zu übernehmen."
+gabon_events.1.a: "Die Volksrevolution ist ein Erfolg!"
+gabon_events.1.b: "Unsere jungen demokratischen Institutionen überstehen ihre erste Hürde."
 
-gab.6.t: "[FROM.GetNameDefCap] braucht Gewehre!"
-gab.6.d: "Der afrikanische Staat [FROM.GetNameDef] hat uns um Hilfe bei der Versorgung seiner Truppen gebeten, dies wäre eine gute Gelegenheit, im ehemaligen mittelafrikanischen Gebiet besser Fuß zu fassen."
-gab.6.a: "Gebt ihnen, was sie wollen."
-gab.6.b: "Lehnt ab."
+gabon_events.6.t: "[FROM.GetNameDefCap] braucht Gewehre!"
+gabon_events.6.d: "Der afrikanische Staat [FROM.GetNameDef] hat uns um Hilfe bei der Versorgung seiner Truppen gebeten, dies wäre eine gute Gelegenheit, im ehemaligen mittelafrikanischen Gebiet besser Fuß zu fassen."
+gabon_events.6.a: "Gebt ihnen, was sie wollen."
+gabon_events.6.b: "Lehnt ab."
 
-gab.7.t: "[FROM.GetNameDefCap] sagt Ja!"
-gab.7.d: "[FROM.GetNameDefCap] hat unseren Hilferuf erhört und uns mit den Waffen versorgt, die wir dringend benötigten!"
-gab.7.a: "Großartig!"
+gabon_events.7.t: "[FROM.GetNameDefCap] sagt Ja!"
+gabon_events.7.d: "[FROM.GetNameDefCap] hat unseren Hilferuf erhört und uns mit den Waffen versorgt, die wir dringend benötigten!"
+gabon_events.7.a: "Großartig!"
 
-gab.8.t: "[FROM.GetNameDefCap] sagt nein!"
-gab.8.d: "[FROM.GetNameDefCap] hat sich geweigert, auf unseren Hilferuf zu hören, und uns uns selbst überlassen!"
-gab.8.a: "Wer braucht sie?"
+gabon_events.8.t: "[FROM.GetNameDefCap] sagt nein!"
+gabon_events.8.d: "[FROM.GetNameDefCap] hat sich geweigert, auf unseren Hilferuf zu hören, und uns uns selbst überlassen!"
+gabon_events.8.a: "Wer braucht sie?"
 
-gab.15.t: "Die erste Wahl in Gabun!"
-gab.15.d: "Unsere neu entworfene Verfassung fordert eine demokratische Wahl unseres ersten gewählten Führers! Mehrere Parteien haben ähnlich starke Unterstützung, sodass die Wahl heute Abend in jede Richtung ausschlagen könnte!"
-gab.15.a: "Die Sozialkonservativen gewinnen!"
-gab.15.b: "Die Marktliberalen gewinnen!"
-gab.15.c: "Die Sozialliberalen gewinnen!"
+gabon_events.15.t: "Die erste Wahl in Gabun!"
+gabon_events.15.d: "Unsere neu entworfene Verfassung fordert eine demokratische Wahl unseres ersten gewählten Führers! Mehrere Parteien haben ähnlich starke Unterstützung, sodass die Wahl heute Abend in jede Richtung ausschlagen könnte!"
+gabon_events.15.a: "Die Sozialkonservativen gewinnen!"
+gabon_events.15.b: "Die Marktliberalen gewinnen!"
+gabon_events.15.c: "Die Sozialliberalen gewinnen!"
 
-gab.16.t: "Der erste gabunische Syndikalistenkongress!"
-gab.16.d: "Nach der Ausarbeitung der Verfassung von Gabun bricht auf dem Parteitag ein Streit aus, die drei großen syndikalistischen Fraktionen müssen sich einigen, welche die Regierungspartei von Gabun werden soll! Eine große Debatte beginnt..."
-gab.16.a: "Die radikalen Sozialisten regieren!"
-gab.16.b: "Die Anarcho-Syndikalisten haben die Mehrheit!"
-gab.16.c: "Die Totalisten sollen die Herrschaft haben!"
+gabon_events.16.t: "Der erste gabunische Syndikalistenkongress!"
+gabon_events.16.d: "Nach der Ausarbeitung der Verfassung von Gabun bricht auf dem Parteitag ein Streit aus, die drei großen syndikalistischen Fraktionen müssen sich einigen, welche die Regierungspartei von Gabun werden soll! Eine große Debatte beginnt..."
+gabon_events.16.a: "Die radikalen Sozialisten regieren!"
+gabon_events.16.b: "Die Anarcho-Syndikalisten haben die Mehrheit!"
+gabon_events.16.c: "Die Totalisten sollen die Herrschaft haben!"
 
 ### Ideas ###
 GAB_push_independence_idea: "Unabhängigkeitsschub"
@@ -105,4 +107,3 @@ GAB_The_Gabonese_Constitution: "Die gabunische Verfassung"
 GAB_The_Gabonese_Constitution_desc: "Die Ratifizierung einer Verfassung hat der Souveränität Gabuns die dringend benötigte Legitimität verliehen und viele Fraktionen innerhalb unserer Nation näher zusammengebracht."
 
 ### Tooltips ###
-GAB_recruit_tt: "Zwei Milizdivisionen werden rekrutiert."
