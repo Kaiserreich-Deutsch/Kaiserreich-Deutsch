@@ -35,571 +35,542 @@ INS_powerful_nobles: "Mächtige Prinzen und Rajas"
 INS_idea_international_contacts: "Internationale Kontakte"
 INS_idea_converting_convoys_to_aircraft_carriers: "Umrüstung von Handelsflugzeugträgern"
 INS_idea_converting_convoys_to_aircraft_carriers_desc: "Dieses Land baut zwei Handelsschiffe in semifunktionale Flugzeugträger um."
-INS_plane_payments: "Flugzeug-Deal"
-INS_plane_payments_desc: "Dieses Land hat alte Flugzeuge von Japan gekauft und erfüllt seine Zahlungsverpflichtungen."
 INS_idea_milisi_murba: "Milisi Murba"
 INS_idea_milisi_murba_desc: "Die proletarische Miliz der Murba-Partei ist nun ein offizieller Teil der Regierung, neben Armee, Marine, Luftwaffe und Polizei."
 INS_idea_buying_warships_abroad: "Kriegsschiffe aus dem Ausland"
 
 ### Parties ###
 INS_totalist_party: "PTI"
-INS_totalist_party_long: "Partai Totalis Indonesien"
+INS_totalist_party_long: "Partai Totalis Indonesia (Indonesische Totalistische Partei)"
 INS_syndicalist_party: "PVI"
-INS_syndicalist_party_long: "Persuatan Vakbonded Indonesien"
+INS_syndicalist_party_long: "Persatuan Vakbonded Indonesia (Verband indonesischer Gewerkschaften)"
 INS_radical_socialist_party: "Murba"
-INS_radical_socialist_party_long: "Partai Murba"
+INS_radical_socialist_party_long: "Partai Murba (Proletarische Partei)"
 INS_social_democrat_party: "PSI"
-INS_social_democrat_party_long: "Partai Sosialis Indonesien"
+INS_social_democrat_party_long: "Partai Sosialis Indonesia (Indonesische Sozialistische Partei)"
 INS_social_liberal_party: "PSI"
-INS_social_liberal_party_long: "Partai Sosialis Indonesien"
+INS_social_liberal_party_long: "Partai Sosialis Indonesia (Indonesische Sozialistische Partei)"
 INS_market_liberal_party: "Golkar"
-INS_market_liberal_party_long: "Partai Golongan Karya"
+INS_market_liberal_party_long: "Partai Golongan Karya (Partei der Funktionsgruppen)"
 INS_social_conservative_party: "Nahdlatul Ulama"
-INS_social_conservative_party_long: "Nahdlatul Ulama"
+INS_social_conservative_party_long: "Nahdlatul Ulama (Wiedererwachen der Ulama)"
 INS_authoritarian_democrat_party: "PNI"
-INS_authoritarian_democrat_party_long: "Partai Nasional Indonesien"
-INS_paternal_autocrat_party: "Ngi-Sultan Monarchisten/DI"
-INS_paternal_autocrat_party_long: "Ngi-Sultan Monarchisten/Darul Islam"
+INS_authoritarian_democrat_party_long: "Partai Nasional Indonesia (Indonesische Nationale Partei)"
+INS_paternal_autocrat_party: "Ngi-Sultan Monarchists/DI"
+INS_paternal_autocrat_party_long: "Ngi-Sultan Monarchists/Darul Islam (Sultan-Monarchisten/Haus des Islam)"
 INS_national_populist_party: "Parindra"
-INS_national_populist_party_long: "Partai Indonesien Raya"
+INS_national_populist_party_long: "Partai Indonesia Raya (Groß Indonesien-Partei)"
 INS_pobsi_short: "SOBSI"
-INS_pobsi_long: "Sentral Organisasi Buruh Seluruh Indonesien"
+INS_pobsi_long: "Sentral Organisasi Buruh Seluruh Indonesia (Zentrale All-Indonesische Arbeitnehmerorganisation)"
 
 ### Introduction ###
 
-INS_guide: "§MDemokratie§! (§aAutoritär Demokratisch§! / §cSozialkonservative§! / §RRadikale Sozialisten§!)\n£white_dot Kommt es zu einem Putschversuch, drängen Sie die Kämpfer zurück und jagen Sie sie in den Dschungel zurück.\n£white_dot Nachdem Sie den Schwerpunkt \"Indonesische Wahlen\" abgeschlossen haben, wählen Sie \"Murba sichert sich die Stimmen der Arbeiter!\", um §RMurba§! zu wählen, \"Nahdlatul Ulama gewinnt mit ihrem Mandat für eine religiöse Demokratie! \" um §cNahdlatul Ulama§! zu wählen, \"Sukarnos Hoffnungen werden erfüllt und die PNI gewinnt den Dewan\" oder \"Der Dewan wird abgesetzt und die PNI wird zu einer Koalition mit der NU gezwungen\" um die §aPNI§ zu wählen!.\n£white_dot Nach dieser Wahl werden alle 4 Jahre Wahlen abgehalten, bei denen dieselben Parteien zur Wahl stehen.\n\n§MHaus des Islam§! / §MSultanat§! (§PPaternal Autokratisch§!)\n£white_dot Die Einheit der Indonesien-Rebellion muss auf einem mittleren Niveau sein, damit der Putschversuch stattfinden kann, und auf einem niedrigen Niveau, damit der Gegenputsch der Royalisten ebenfalls stattfinden kann.\n£white_dot Bei dem Putschversuch sollen die Kämpfer die Kontrolle übernehmen.\n£white_dot Um das Sultanat zu werden, muss Jakarta von den Rebellen im royalistischen Gegenputsch gesichert werden."
+INS_guide: "§MNationale Partei§! / §MWiedererwachen der Ulama§! / §MProletarische Partei§! ($authoritarian_democrat_coloured$ / $social_conservative_coloured$ / $radical_socialist_coloured$)\n£white_dot Kommt es zu einem Putschversuch, drängen Sie die Kämpfer zurück und jagen Sie sie in den Dschungel zurück.\n£white_dot Nachdem Sie den Schwerpunkt \"Indonesische Wahlen\" abgeschlossen haben, wählen Sie \"Murba sichert sich die Stimmen der Arbeiter!\", um §RMurba§! zu wählen, \"Nahdlatul Ulama gewinnt mit ihrem Mandat für eine religiöse Demokratie! \" um §cNahdlatul Ulama§! zu wählen, \"Sukarnos Hoffnungen werden erfüllt und die PNI gewinnt den Dewan\" oder \"Der Dewan wird abgesetzt und die PNI wird zu einer Koalition mit der NU gezwungen\" um die §aPNI§ zu wählen!.\n£white_dot Nach dieser Wahl werden alle 4 Jahre Wahlen abgehalten, bei denen dieselben Parteien zur Wahl stehen.\n\n§MHaus des Islam§! / §MSultan-Monarchisten§! ($paternal_autocrat_coloured$)\n£white_dot Die Einheit der Indonesien-Rebellion muss auf einem mittleren Niveau sein, damit der Putschversuch stattfinden kann, und auf einem niedrigen Niveau, damit der Gegenputsch der Royalisten ebenfalls stattfinden kann.\n£white_dot Bei dem Putschversuch sollen die Kämpfer die Kontrolle übernehmen.\n£white_dot Um das Sultanat zu werden, muss Jakarta von den Rebellen im royalistischen Gegenputsch gesichert werden."
 
 ### Events ###
-ins.1.t: "Attentat auf Sukarno"
-ins.1.d: "Unser Präsident Sukarno war heute zu Besuch in Sumatra, als jemand eine Granate auf ihn warf. Der Verdächtige wurde schnell festgenommen und als militanter Darul-Islam-Anhänger entlarvt, aber der Status unseres Präsidenten bleibt im Moment unklar. Ist die Bombe nicht explodiert und hat er überlebt, oder ist dem Darul-Islam-Abschaum sein böser Plan gelungen, unsere Regierung zu destabilisieren?"
-ins.1.a: "Die Granate ist nicht explodiert: dem Präsidenten geht es gut!"
-ins.1.b: "Der Präsident ist gestorben: der Vizepräsident wird amtierender Präsident..."
-
-ins.2.t: "Putschversuch"
-ins.2.d: "Kurz nach dem Attentat auf unseren Präsidenten griffen militante Darul-Islam-Kämpfer wichtige strategische Punkte auf Java, Sumatra und Sulawesi an, wobei ihre Truppen die Kontrolle über einen Radiosender übernahmen und die Gründung einer Negara Islam Indonesien - eines islamischen Staates Indonesien - als Antwort auf die heidnische Säkularisierung von Präsident Sukarno verkündeten."
-ins.2.a: "Die Kämpfer werden in Jakarta zurückgedrängt und kurz darauf wieder in den Dschungel gejagt!"
-ins.2.b: "Die Militanten sichern die strategischen Punkte und übernehmen nach einer Massenflucht die Kontrolle!"
-
-ins.3.t: "Royalistischer Gegenputsch!"
-ins.3.d: "Angesichts der Machtübernahme durch den traditionalistischen Darul Islam beschlossen die eher westlich orientierten Sultane der vielen Sultane des Archipels, zu handeln. Sie scharten ihre Anhänger und Armeen um sich und marschierten auf Jakarta, um Indonesien vor der zum Scheitern verurteilten islamistischen Herrschaft zu retten, in der Hoffnung, die Unterstützung der nicht-muslimischen Gemeinschaft Indonesiens und der Gemäßigten zu gewinnen."
-ins.3.a: "... woraufhin die Militanten sie zurückschlugen!"
-ins.3.b: "... woraufhin Jakarta von den Rebellen gesichert wird!"
-
-ins.4.t: "Die Wahlen von [GetYear]"
-ins.4.d: "Der Präsident hat beschlossen, die Parlamentswahlen abzuhalten, in der Hoffnung, eine große Mehrheit für seine PNI-Partei und ein Mandat des indonesischen Volkes zu erhalten. Die anderen Parteien wie Tan Malakas Partai Murba und Nahdlatul Ulama sowie in geringerem Maße die PSI (die allerdings unter dem Verlust von Wählern an die Murba leidet) führen eifrig Wahlkampf und argumentieren, dass sie die beste Wahl für eine glänzende Zukunft Indonesiens sind."
-ins.4.a: "Murba sichert sich die Stimmen der Arbeiter!"
-ins.4.b: "Nahdlatul Ulama gewinnt mit ihrem Mandat für eine religiöse Demokratie!"
-ins.4.c: "Sukarnos Hoffnungen werden erfüllt und die PNI gewinnt den Dewan!"
-ins.4.e: "Der Dewan wird abgesetzt und die PNI wird zu einer Koalition mit der NU gezwungen."
-
-ins.5.t: "Amtsantritt von Präsident Sukarno"
-ins.5.d: "Nachdem unser Land seine Unabhängigkeit erlangt hat, ist es an der Zeit, Präsident Sukarno offiziell in sein Amt als Präsident unserer Nation einzuführen. Die Zeremonie findet in Yogyakarta, im Kraton-Palast statt. Sukarno erschien bald in seinem weißen Festanzug und legte den Amtseid ab, nachdem ein islamischer Priester ein Gebet für die Zukunft unseres Landes gesprochen hatte. Unser Land ist heute ein wenig realer geworden!"
-ins.5.a: "Lang lebe der Präsident!"
-
-ins.6.t: "Treffen mit dem Präsidenten"
-ins.6.d: "Tan Malaka erkannte, dass sein Wahlsieg zwar ein großer Schritt in Richtung Macht war, er aber vorsichtig vorgehen musste. Da sich sowohl die konservative Armeeführung als auch das indonesische Königshaus durch die Aussicht auf eine sozialistische Herrschaft bedroht fühlten, war jeder Versuch, den Staat zu stürzen, dazu verdammt, durch einen bewaffneten Putsch einer dieser Parteien zu enden. Die Führung von Murba erkannte jedoch den Verbündeten an, den der Präsident und seine PNI bildeten, die ebenfalls teilweise sozialistische Ideale vertraten. Ein Besuch später stimmte der Präsident zu, Malaka zum Premierminister von Indonesien zu ernennen, während Tan versprach, die Institutionen von Indonesien beizubehalten... Fürs Erste."
-ins.6.a: "Die Konservativen sind jedoch nicht völlig beruhigt..."
-
-ins.7.t: "Rebellion in Yogyakarta"
-ins.7.d: "In der Provinz Yogyakarta ist eine sozialistische Rebellion gegen den dortigen Gouverneur, Sultan Hamengkubuwono IX, ausgebrochen. Die Rebellen begannen auf dem Land und belagerten bald darauf die Stadt selbst. Die Rebellion wurde durch Versprechungen der nationalen Regierung schnell befriedet, doch ist dies ein deutliches Zeichen dafür, dass die örtliche Bevölkerung die frühere Regelung, bei der der Sultan einen großen Teil seiner Macht als Gouverneur behält, nicht gutheißt. Der Präsident erwägt bereits, den Sonderstatus Yogyakartas aufzuheben: Wenn die Bevölkerung nicht will, dass der Sultan diese Position innehat, wer sind wir dann, ihn zu schützen?"
-ins.7.a: "Hebt den Sonderstatus von Yogyakarta auf!"
-
-ins.8.t: "Die neue Verfassung"
-ins.8.d: "Indonesien hatte bisher zwei Verfassungen: eine, die von Sukarno geschrieben wurde und die nicht die grundlegenden Anforderungen erfüllt, um die indonesische Demokratie zu schützen, und eine, die wir von unseren ehemaligen niederländischen Oberherren gezwungen wurden, durch eine zu ersetzen, zu der allein schon deshalb kein Indonesier stehen möchte. Es ist an der Zeit, dass der neu gewählte Dewan unter der Führung der Nahdlatul Ulama, der größten Partei im Dewan, eine neue Verfassung schreibt, auf die sowohl der durchschnittliche Indonesier schwören kann als auch unsere Demokratie ausreichend gesichert ist."
-ins.8.a: "Artikel 1..."
-
-ins.9.t: "Stellung des Präsidenten"
-ins.9.d: "Bislang hatte der Präsident recht weitreichende Befugnisse. Der Präsident steht an der Spitze der PNI und ist daher unserer demokratischen Herrschaft nicht allzu freundlich gesinnt, und wer weiß, wer nach ihm kommen könnte? Die Kehrseite der Medaille ist jedoch, dass wir, wenn wir die Position des Präsidenten einschränken, Gefahr laufen, die Unterstützung der PNI zu verlieren, die wir für die 2/3-Mehrheit benötigen, um die neue Verfassung zu verabschieden."
-ins.9.a: "Reduziert die Präsidentschaft auf einen rein zeremoniellen Status."
-ins.9.b: "Macht den Präsidenten zur führenden Hand bei der Bildung von Koalitionen."
-ins.9.c: "Erlaubt dem Präsidenten, Dekrete zu verfassen und ein Veto gegen Gesetzesvorlagen einzulegen."
-
-ins.10.t: "Wahl des Präsidenten"
-ins.10.d: "Früher wurde der Präsident vom Dewan gewählt. Dies führt jedoch zu erheblichen Komplikationen, z.B. wenn keine Mehrheit erreicht wird. Um dem entgegenzuwirken, könnte in die neue Verfassung aufgenommen werden, dass die Partei, die bei der Wahl den größten Stimmenanteil erhält, den Anspruch auf das Präsidentenamt hat, was wiederum die PNI verärgern könnte."
-ins.10.a: "Die Dewan wählt weiterhin den Präsidenten."
-ins.10.b: "Der Präsident wird direkt vom Volk gewählt."
-
-ins.11.t: "Mandat des Dewan"
-ins.11.d: "In der derzeitigen Verfassung ist die Dauer der Amtszeit des Dewan auf 5 Jahre festgelegt. Wir könnten sie auf 4 Jahre verkürzen, um die Beteiligung der Indonesier an der Demokratie zu erhöhen und die Wahl etwas direkter zu gestalten."
-ins.11.a: "4 Jahre."
-ins.11.b: "5 Jahre."
-
-ins.12.t: "Stellung der Religion"
-ins.12.d: "In den ursprünglichen Verfassungen war das Land säkular und nicht an eine bestimmte Religion gebunden. Viele in der Nahdlatul Ulama sind damit nicht einverstanden und wollen den Islam zur offiziellen Staatsreligion Indonesiens machen. Dies wird Murba und die PSI wahrscheinlich davon abhalten, für die neue Verfassung zu stimmen, und auch die PNI ist von der Idee nicht sonderlich begeistert, so dass wir der PNI besser schon vorher genug gegeben haben, sonst wird es sehr unwahrscheinlich sein, dass wir die Stimmen für die erforderliche Zweidrittelmehrheit aufbringen."
-ins.12.a: "Bleibt Säkular."
-ins.12.b: "Führt den Islam als unsere Staatsreligion ein."
-ins.12.c: "Verankert die Scharia in der Verfassung."
-
-ins.13.t: "Verfassung verabschiedet"
-ins.13.d: "Es ist uns gelungen, die erforderlichen Stimmen zur Überschreibung der alten Verfassung zu erreichen, und unsere neue ständige Verfassung ist in Kraft getreten. Dies ist ein großer Tag für den indonesischen Staat, seine Demokratie und sein Volk."
-ins.13.a: "Ein Hoch auf die neue Verfassung!"
-
-ins.14.t: "Verfassung gescheitert"
-ins.14.d: "Es scheint, dass wir nicht in der Lage waren, die erforderliche Zweidrittelmehrheit zu erreichen, um die vorherige Verfassung zu überschreiben; der Gesetzentwurf wurde leider verworfen, und die Zukunft der Nahdlatul Ulama-Regierung ist höchst ungewiss, da wir mehrere wichtige Personen mit dieser versuchten Änderung verärgert haben."
-ins.14.a: "Ich hatte mehr davon erwartet..."
-
-ins.15.t: "Ein Präsidialdekret"
-ins.15.d: "Nachdem es unserer Regierung nicht gelungen ist, die uns von den Niederländern aufgezwungene Verfassung zu ersetzen, hat der Präsident ein Dekret erlassen, in dem er erklärt, dass wir zur alten Verfassung zurückkehren. Dies bedeutet eindeutig, dass der größte Teil der Macht an den Präsidenten übertragen wurde und dass die PNI auf unsere Kosten die Macht übernommen hat."
-ins.15.a: "Das war zu erwarten..."
-
-ins.16.t: "Autocoup: Erfolgreiche Verhaftung des Präsidenten"
-ins.16.d: "Heute ist die so genannte stille Revolution nicht mehr still: Präsident [Root.GetLeader] war zwar eine Zeit lang kooperativ, ist aber letztlich ein Feind der indonesischen Arbeiter und Bauern. In den frühen Morgenstunden ist es der Milisi Murba gelungen, über ihre offizielle Position in der Regierung in den Präsidentenpalast einzudringen und ihn in Gewahrsam zu nehmen. Der Autocoup wird dank ihm nicht scheitern, aber es bleibt die Frage, ob unsere Kräfte anderswo in der Lage sein werden, die Kontrolle zu behalten."
-ins.16.a: "Ein guter Start!"
-
-ins.17.t: "Autocoup: Verhaftung des Präsidenten scheitert"
-ins.17.d: "Die Milisi Murba-Einheit, die wir zur Verhaftung des Präsidenten [Root.GetLeader] entsandt hatten, scheiterte an der Präsidentengarde, die ihnen den Zutritt verweigerte, was zu einer Schlägerei führte. Das Ergebnis war die Mobilisierung des Militärs von Djakarta, das sich sofort auf die Seite des PNI-Regimes stellte. Kurz darauf konnte man im ganzen Land hören, wie der Präsident unser Vorgehen anprangerte, und unsere Männer wurden bereits vor dem Palast zurückgedrängt. Es scheint, dass unser Autocoup gescheitert ist, bevor er überhaupt richtig begonnen hat."
-ins.17.a: "Und so geht Tan Malaka wieder ins Exil..."
-
-ins.18.t: "Autocoup: Opposition bezwungen"
-ins.18.d: "Da das Überraschungsmoment zu unseren Gunsten ausfiel und der Präsident, der Anführer der Streitkräfte, im Abseits stand, herrschte im Militär Chaos. Es dauerte nicht lange, bis bereits mehrere Divisionen auf die Seite der Gerechten überliefen, während der Rest größtenteils entweder in der Falle saß oder zu unorganisiert war, um zu den Waffen zu greifen. Einige reaktionäre Kräfte versuchten, sich in Yogyakarta hinter Sultan Hamengkubuwono IX. zu versammeln, aber da er zuvor alle seine Privilegien verloren hatte, war die Allianz bald in der Unterzahl. Abgesehen von einigen kleinen Scharmützeln dort haben unsere sozialistischen Kräfte eindeutig die Oberhand gewonnen!"
-ins.18.a: "Hurra!"
-
-ins.19.t: "Autocoup: Opposition überrollt uns"
-ins.19.d: "Zwar ist es uns gelungen, den Präsidenten aus dem Spiel zu nehmen, aber leider mussten wir feststellen, dass der Sultan von Yogyakarta seine Rolle übernommen hat, indem er seine Privilegien als Gouverneur von Yogyakarta und seine Verbindungen zu den anderen Königen von Indonesien nutzte, die sich ebenfalls von der Aussicht auf eine proletarische Herrschaft bedroht fühlen. Ein großer Teil des Militärs hat sich dem schnell angeschlossen und sich daraufhin neu organisiert: Zwar ist es unseren Anhängern in einigen Fällen gelungen, sie zu überrennen, aber insgesamt werden sie schnell zurückgedrängt. Unser Autocoup ist eindeutig gescheitert, und die Reaktionäre haben unter ihrer Sultansmarionette die Macht übernommen."
-ins.19.a: "Und so geht Tan Malaka wieder ins Exil..."
-
-ins.20.t: "Ausrufung der Nusantara-Kommunen"
-ins.20.d: "Nachdem es uns gelungen ist, das korrupte alte Regime von Indonesien hinwegzufegen, ist es an der Zeit, einen echten Arbeiterstaat zu errichten: Die Föderation der Kommunen des Nusantara-Archipels, kurz Nusantara-Kommunen. Tan Malaka wird die Rolle des Vorsitzenden dieses neuen Staates ausfüllen, während das alte Kabinett in vielerlei Hinsicht bleibt, wo es war, wenn auch unter neuen Namen für seine Abteilungen. Da Tan Malaka nun jedoch der Vorsitzende ist, muss ein neuer Generalsekretär (ein Posten, der früher als Premierminister bekannt war) ernannt werden. Mit dieser Wahl könnte ein ständiger Verbündeter für Murba gefunden werden."
-ins.20.a: "Semaun, Verfechter des Syndikalismus westlicher Prägung."
-ins.20.b: "Amir Sjarifuddin, die radikale Kraft in der PSI."
-ins.20.c: "Tan Malaka kann problemlos sowohl Vorsitzender als auch Generalsekretär sein."
-
-ins.21.t: "Korruption nimmt zu"
-ins.21.d: "Leider ist ein Aufwärtstrend bei der Korruption zu beobachten: Viele Tätigkeiten, die früher entweder sehr eng koordiniert waren oder nur von den Niederländern ausgeübt wurden, wie z. B. die Zollabfertigung, sind jetzt für die allgemeine indonesische Bevölkerung zugänglich. Viele von ihnen sind arm und ungebildet und nehmen die zusätzlichen Rupien gerne an, wenn sie dafür ein Auge zudrücken oder einen kleinen Gefallen erwidern können. Dies hat negative Auswirkungen auf unsere Wirtschaft und damit auch auf unser Land."
-ins.21.a: "Schrecklich!"
-
-ins.22.t: "Operation Kemenangan"
-ins.22.d: "Die dreckigen portugiesischen Imperialisten halten immer noch den Osten der Insel Timor besetzt, die rechtmäßig zu Indonesien gehört. Die Portugiesen sind viel schwächer als wir, und eine Überwältigung der portugiesischen Streitkräfte auf der Insel sollte machbar sein, wenn auch riskant, da es zu einem ausgewachsenen Krieg mit der Entente eskalieren könnte."
-ins.22.a: "Entsendet die Truppen!"
-
-ins.23.t: "Indonesische Truppen verletzen unsere Souveränität"
-ins.23.d: "Die indonesischen Streitkräfte sind in unsere Kolonie in Timor-Leste eingedrungen. Es hat bereits mehrere Scharmützel gegeben, und ihre Absicht scheint klar zu sein: die Insel zu besetzen und sie unserer Kontrolle zu entreißen. Leider sind unsere Hoffnungen, die Insel verteidigen zu können, angesichts der Größe und der Garnison sehr begrenzt, aber vielleicht können wir sie mit der Unterstützung unserer Verbündeten aufhalten?"
-ins.23.a: "Es gibt nichts, was wir tun können."
-ins.23.b: "Stellt ein Ultimatum: Sie müssen unser Gebiet verlassen!"
-
-ins.24.t: "Portugal gibt nach"
-ins.24.d: "Portugal hat die Ausweglosigkeit der Situation erkannt und nur Proteste gegen unser 'illegales' Vorgehen gegen die 'rechtmäßige Kolonie' ausgesprochen. Es ist klar, dass sie die Wahrheit akzeptiert haben, und Timor-Leste gehört uns."
-ins.24.a: "Lang lebe Indonesien!"
-
-ins.25.t: "Portugiesisches Ultimatum"
-ins.25.d: "Die Portugiesen haben uns ein Ultimatum gestellt: Wir haben 6 Stunden Zeit, um ihr Hoheitsgebiet zu verlassen, oder sie werden es als Kriegserklärung betrachten. Da die Entente Portugal unterstützt, könnte dies ein Krieg sein, den wir nicht gewinnen können..."
-ins.25.a: "Dann ist es Krieg!"
-ins.25.b: "Sofortiger Rückzug nach West-Timor!"
-
-ins.26.t: "Niederlage in Timor"
-ins.26.d: "Trotz unseres erbitterten Widerstands waren wir offenbar nicht in der Lage, Osttimor vor den Indonesier zu verteidigen. Die Fortsetzung des Krieges um die Insel, die ohnehin nicht sehr wertvoll ist, scheint eine unrealistische Option zu sein."
-ins.26.a: "Wir haben keine Wahl."
-ins.26.b: "Wir werden das portugiesische Volk von Timor niemals im Stich lassen!"
-
-ins.27.t: "Portugal kapituliert"
-ins.27.d: "Nach unserer erfolgreichen Übernahme der Insel haben die Portugiesen nachgegeben und uns die Kolonie überlassen. Dies ist ein großer Sieg für Indonesien und für das arme, unterdrückte Volk von Osttimor!"
-ins.27.a: "Der Sieg gehört uns!"
-ins.27.b: "Wenn wir mit der Entente Frieden schließen, gehört Ostirian natürlich auch uns!"
-ins.27.c: "Kein Frieden, bis die Indonesier in Lissabon marschieren!"
-
-ins.28.t: "Indonesien fordert Papua"
-ins.28.d: "Wir befinden uns seit einiger Zeit im Krieg mit Indonesien, und dieser Krieg ist nicht unbedingt zu unseren Gunsten ausgegangen. Da Indonesien Papua kontrolliert, haben sie beschlossen, nicht nur die Annexion von Timor zu akzeptieren, sondern auch die Kontrolle über Papua, oder 'Ost-Irian', wie sie es nennen, zu fordern."
-ins.28.a: "Wir haben kaum eine Wahl."
-ins.28.b: "Nein, Kumpel, so funktioniert das hier nicht!"
-
-ins.29.t: "Endlich Frieden"
-ins.29.d: "Nachdem unsere Forderungen endlich erfüllt sind, kann ein Frieden mit den Entente-Mächten geschlossen werden. Es war ein harter Krieg, aber er hat sich gelohnt, denn wir haben sowohl in Neuguinea als auch in Timor gewonnen!"
-ins.29.a: "Der Sieg ist in der Tat unser!"
-
-ins.30.t: "Australasien weigert sich"
-ins.30.d: "Die starrköpfigen Australier weigern sich, das uns zustehende Land in Ost-Irian abzutreten. Es scheint, dass die Friedensgespräche gescheitert sind."
-ins.30.a: "Und so geht der Krieg weiter."
-
-ins.31.t: "Australasien ließ die Friedensverhandlungen scheitern"
-ins.31.d: "Obwohl wir bereit sind, uns mit den Indonesiern an einen Tisch zu setzen, weigern sich die Australier, ihnen ihre von den Indonesiern besetzten Gebiete in Neuguinea zu überlassen. Der Krieg geht also weiter..."
-ins.31.a: "Oof!"
-
-ins.32.t: "Der Untergang Australasiens"
-ins.32.d: "Unser Krieg mit Indonesien ist eindeutig zu weit gegangen: Nachdem Indonesien die Kontrolle über Australasien übernommen hat, scheinen alle unsere Hoffnungen, diesen Krieg im Fernen Osten zu einem guten Ende zu bringen, verloren zu sein."
-ins.32.a: "Kapituliert vor den Indonesiern."
-ins.32.b: "Wir werden niemals kapitulieren!"
-
-ins.33.t: "Die Entente kapituliert"
-ins.33.d: "Da die Entente durch unsere Besetzung Australasiens praktisch handlungsunfähig geworden ist, hat die [From.GetAdjective]-Regierung aufgegeben, uns zu bekämpfen. Australasien ist unserer Gnade ausgeliefert und ihre Kolonien werden mit Sicherheit an unser Land übergehen."
-ins.33.a: "Hurra!"
-
-ins.34.t: "Niederlage in Timor"
-ins.34.d: "Unser Plan, Timor zu erobern, ist gründlich schiefgegangen: Die portugiesischen Imperialisten haben uns von unserer Seite der Insel vertrieben. Es bleibt uns nichts anderes übrig, als den Portugiesen eine demütigende Übergabe des Rests der Insel anzubieten, denn sie wissen, dass wir zurückkommen werden, wenn wir wieder zu Kräften gekommen sind, und werden sich nicht mit weniger zufrieden geben..."
-ins.34.a: "Wir wussten, dass dies das Risiko war!"
-ins.34.b: "Wir werden das Volk von Timor niemals im Stich lassen!"
-
-ins.35.t: "Die Indonesier kapitulieren"
-ins.35.d: "Nachdem es ihnen nicht gelungen ist, die Insel Timor zu halten, sind die Indonesier mit gebrochenem Stolz zu uns zurückgekehrt. Sie bieten uns an, uns Westtimor im Gegenzug für den Frieden zu überlassen..."
-ins.35.a: "Klingt nach einem Deal!"
-ins.35.b: "Wir werden uns nicht mit weniger zufrieden geben als mit der totalen Zerstörung des indonesischen Regimes!"
-
-ins.36.t: "Die Portugiesen akzeptieren"
-ins.36.d: "Es überrascht nicht, dass die Portugiesen das demütigende Friedensangebot, das wir machen mussten, angenommen haben. Es war leider der einzige Weg..."
-ins.36.a: "Eines Tages werden wir zurückkommen!"
-
-ins.37.t: "Indonesien bietet an, Papua zu kaufen"
-ins.37.d: "Die Indonesier haben uns angeboten, 20 % ihres jährlichen Wertes als Gegenleistung für unsere Besitztümer in Papua zu zahlen. Obwohl das Land relativ wenig wert ist, sind einige mit der Idee nicht einverstanden, da die örtliche Bevölkerung jeden Gedanken an einen Beitritt zu Indonesien mit überwältigender Mehrheit ablehnt."
-ins.37.a: "Das klingt nach einem guten Angebot."
-ins.37.b: "Wir wollen den doppelten Betrag!"
-ins.37.c: "Nein, danke..."
-
-ins.38.t: "Australasien akzeptiert"
-ins.38.d: "Australasien hat unser Angebot zum Kauf seiner Besitztümer auf Papua angenommen. Dies ist ein großer Tag für die indonesische Bevölkerung und für Indonesien gleichermaßen!"
-ins.38.a: "Hurra!"
-
-ins.39.t: "Australasien will eine höhere Summe."
-ins.39.d: "Die Indonesier haben uns wissen lassen, dass sie der Idee offen gegenüberstehen, dass sie aber das Doppelte des ursprünglich angebotenen Betrags von uns verlangen; so mancher Skeptiker, der weiß, dass der realistische Wert des Grundstücks ziemlich begrenzt ist."
-ins.39.a: "Wir nehmen es!"
-ins.39.b: "Kein Deal!"
-
-ins.40.t: "Indonesien akzeptiert"
-ins.40.d: "Die indonesischen Behörden reagierten positiv auf unsere Bitte um ein besseres Angebot. Es sieht so aus, als hätten wir eine Einigung erzielt, und die Übertragung der Souveränität wird gerade vorbereitet."
-ins.40.a: "Ein gutes Geschäft!"
-
-ins.41.t: "Indonesien lehnt ab"
-ins.41.d: "Die indonesischen Behörden haben entschieden, dass unser Land in Papua nicht annähernd den Preis wert ist, den wir von ihnen verlangen. Sie sind ausgestiegen; Papua wird unser Land bleiben..."
-ins.41.a: "Ende gut, alles gut."
-
-ins.42.t: "Australasia lehnt unseren Vorschlag ab"
-ins.42.d: "Die Australier haben unseren Vorschlag, Papua zu kaufen, mit der Begründung abgelehnt, dass dies gegen den Willen der einheimischen Bevölkerung geschehe und daher nicht arrangiert werden könne."
-ins.42.a: "Das sind Lügen..."
-
-ins.43.t: "Indonesien fordert den Rest der Indies"
-ins.43.d: "Während unserer Verhandlungen mit der indonesischen Bedrohung haben wir die weitere Kontrolle über Teile des Westens von Indonesien ausgehandelt. Jetzt sind sie zurückgekommen und argumentieren, dass dies laut Vertrag zu gegebener Zeit neu verhandelt werden sollte. Wir sind nicht sonderlich geneigt, ihnen das Gebiet tatsächlich zu überlassen, vor allem in Anbetracht der Tatsache, dass die Einheimischen nicht wirklich ein Teil von Indonesien werden wollen, aber unsere militärische Präsenz in dem Gebiet könnte ausreichend sein, um die Indonesier in Schach zu halten."
-ins.43.a: "Wir haben kaum eine Wahl!"
-ins.43.b: "Sie können kommen und es sich holen!"
-
-ins.44.t: "Die Niederländer sind einverstanden!"
-ins.44.d: "Die Niederländer haben unseren Standpunkt eingesehen und erkannt, dass ihre begrenzte militärische Präsenz in dem Gebiet wahrscheinlich nicht ausreicht, um die Insel vor unseren Streitkräften zu schützen, und haben sich bereit erklärt, uns die Souveränität über ihre Besitztümer zu übertragen."
-ins.44.a: "Eine weise Entscheidung!"
-
-ins.45.t: "Die Niederländer weigern sich!"
-ins.45.d: "Die törichten niederländischen Imperialisten haben den Menschen im Westen die Vereinigung mit ihren Brüdern im Osten mit dem Argument verweigert, dass sie sich uns nicht anschließen wollen. Wir haben keine andere Wahl, als sie mit Gewalt zu retten!"
-ins.45.a: "Wir kommen, um dich zu retten!"
-
-ins.46.t: "Wir sind besiegt!"
-ins.46.d: "Es hat sich gezeigt, dass wir in der Tat nicht in der Lage waren, unsere Besitztümer in Indonesien nach der Offensive der genannten Nation zu halten. Es scheint, dass wir kaum eine andere Wahl haben, als diese Tatsache zu akzeptieren."
-ins.46.a: "Ein trauriger Stand der Dinge..."
-ins.46.b: "Wir werden niemals aufgeben!"
-
-ins.47.t: "Wir sind besiegt!"
-ins.47.d: "Die niederländische Verteidigung war wesentlich stärker, als wir es vorher erwartet hatten. Es scheint, dass wir nicht in der Lage sind, eine wirksame Offensive gegen sie zu starten, und es ist sogar ein Gegenangriff zu befürchten. Ein demütigender Frieden scheint unser Schicksal zu sein."
-ins.47.a: "Wir haben kaum eine Wahl..."
-ins.47.b: "Wir werden niemals aufgeben!"
-
-ins.48.t: "Die Niederländer kapitulieren!"
-ins.48.d: "Die schwachen niederländischen Imperialisten wurden von der viel stärkeren indonesischen Armee leicht besiegt. Der Jubel über ihre Befreiung blieb jedoch etwas blass, aber das liegt wahrscheinlich daran, dass sie die Niederländer überschätzten und dachten, sie könnten einen Gegenangriff starten."
-ins.48.a: "Lang lebe Indonesien!"
-
-ins.49.t: "Die Indonesier geben auf!"
-ins.49.d: "Die Indonesier haben ihre Hoffnung aufgegeben, Westneuguinea mit Gewalt zu erobern. Sie bieten nun an, Reparationen zu zahlen; es scheint, als hätten wir gewonnen..."
-ins.49.a: "Das ist gut!"
-ins.49.b: "Wir haben die moralische Verpflichtung, dieses korrupte Regime zu beseitigen!"
-
-ins.50.t: "Die Niederländer wollen unsere Regierung zerstören!"
-ins.50.d: "Die Niederländer haben beschlossen, unsere 'korrupte' Regierung zu zerstören, anstatt nur unsere Reparationen zu akzeptieren. Sie fühlen sich offenbar 'verantwortlich dafür, dass ein so aggressives Regime in unserer ehemaligen Kolonie die Macht übernehmen konnte'."
-ins.50.a: "Ist das so?"
-
-ins.51.t: "Niederlage in Neuguinea"
-ins.51.d: "Trotz unseres erbitterten Widerstands waren wir offenbar nicht in der Lage, unsere Besitztümer auf der Insel Neuguinea vor den Indonesiern zu verteidigen. Die Fortsetzung des Krieges um die Insel, die ohnehin nicht sehr wertvoll ist, scheint eine unrealistische Option zu sein."
-ins.51.a: "Wir haben keine Wahl."
-ins.51.b: "Wir werden die Papuas niemals der javanischen Unterdrückung überlassen!"
-
-ins.52.t: "[AST.GetNameDefCap] kapituliert"
-ins.52.d: "Nach unserer erfolgreichen Übernahme der Insel hat die [AST.GetAdjective]-Regierung nachgegeben und die Kolonie an uns übergeben. Dies ist ein großer Sieg für Indonesien und für das arme unterdrückte Volk von Neuguinea!"
-ins.52.a: "Der Sieg ist unser!"
-ins.52.b: "Wenn wir mit der Entente Frieden schließen, wird Osttimor natürlich auch uns gehören!"
-ins.52.c: "Kein Frieden, bis das indonesische Militär in Canberra einmarschiert!"
-
-ins.53.t: "Indonesien fordert Timor"
-ins.53.d: "Wir befinden uns nun schon seit einiger Zeit im Krieg mit Indonesien, und dieser Krieg ist nicht unbedingt zu unseren Gunsten ausgegangen. Da Indonesien auch Timor kontrolliert, haben sie beschlossen, nicht nur die Annexion Ost-Papuas zu akzeptieren, sondern auch die Kontrolle über Timor zu verlangen."
-ins.53.a: "Wir haben kaum eine Wahl."
-ins.53.b: "Wir werden unsere Kolonie niemals aufgeben!"
-
-ins.54.t: "Endlich Frieden"
-ins.54.d: "Nachdem unsere Forderungen endlich erfüllt sind, kann ein Frieden mit den Entente-Mächten geschlossen werden. Es war ein harter Krieg, aber er hat sich gelohnt, denn wir haben sowohl in Neuguinea als auch in Timor gewonnen!"
-ins.54.a: "Der Sieg ist in der Tat unser!"
-
-ins.55.t: "Portugal weigert sich"
-ins.55.d: "Die starrköpfigen Portugiesen weigern sich, das uns zustehende Land in Osttimor abzutreten. Es scheint, dass die Friedensgespräche gescheitert sind."
-ins.55.a: "Und so geht der Krieg weiter."
-
-ins.56.t: "Portugal hat die Friedensverhandlungen abgebrochen"
-ins.56.d: "Obwohl wir bereit sind, uns mit den Indonesien an einen Tisch zu setzen, weigern sich die Portugiesen, ihnen ihre von den Indonesien besetzten Gebiete in Neuguinea zu überlassen. Der Krieg geht also weiter..."
-ins.56.a: "Hartnäckige Kerle, was!"
-
-ins.57.t: "Der Sieg in Neuguinea"
-ins.57.d: "Die Indonesier haben offenbar geglaubt, dass es ihnen leicht fallen würde, uns aus unserer Kolonie in Neuguinea zu vertreiben, aber da haben sie sich gewaltig getäuscht! Wir haben uns die Insel gesichert, und es scheint ein logischer Schritt zu sein, die Kontrolle über West-Neuguinea zu verlangen, damit sie nie wieder in der Lage sind, unsere Besitztümer zu bedrohen!"
-ins.57.a: "Sendet das Angebot!"
-ins.57.b: "Es ist sicherer, dieses Regime ein für alle Mal zu beenden!"
-
-ins.58.t: "[AST.GetNameDefCap] fordert unsere Kapitulation"
-ins.58.d: "Unser Plan, die [AST.GetAdjective]-Betriebe in Irian schnell zu übernehmen, ist gründlich nach hinten losgegangen: Ihre Streitkräfte haben unsere Betriebe auf der Insel fest im Griff und verlangen nun, die Kontrolle über Irian Jaya zu übernehmen, um sicherzustellen, dass wir nie wieder versuchen, sie zu bedrohen."
-ins.58.a: "Ich fürchte, wir haben kaum eine andere Wahl..."
-ins.58.b: "Niemals!"
-
-ins.59.t: "Die Indonesier weigern sich"
-ins.59.d: "Die indonesischen Behörden lehnten unser großzügiges Angebot ab, da sie behaupteten, dass sie immer noch in der Lage sein werden, unsere Offensive zu kontern."
-ins.59.a: "Das werden wir sehen, wenn wir in Jakarta marschieren."
-
-ins.60.t: "Die Deutschen sind besiegt"
-ins.60.d: "Wir haben die deutsche Bedrohung gründlich besiegt. Jetzt, da wir weite Teile ihrer kolonialen Besitzungen in Asien kontrollieren, scheint die Befreiung der verbliebenen Malaysier näher denn je!"
-ins.60.a: "Sendet ein Telegramm nach Berlin!"
-
-ins.61.t: "Niederlage im Osten"
-ins.61.d: "Völlig unerwartet ist es den Indonesiern gelungen, unsere Kolonialtruppen in Deutsch-Ostasien zu überwältigen. Sie bieten nun an, einen Frieden zu unterzeichnen, im Gegenzug für die Annexion unseres Gebietes, das sie beanspruchen: alles, was auch nur im Entferntesten als malaiisch bezeichnet werden kann."
-ins.61.a: "Wir haben kaum eine Wahl!"
-ins.61.b: "Niemals!"
-
-ins.62.t: "Deutschland nimmt unser Friedensangebot an!"
-ins.62.d: "Berlin hat uns wissen lassen, dass es unser gnädiges Friedensangebot akzeptiert. Es scheint, dass unser Vorhaben ein Erfolg war!"
-ins.62.a: "Lang lebe Indonesien Raya!"
-
-ins.63.t: "[From.GetName] weigert sich"
-ins.63.d: "Die starrköpfigen Hunnen weigern sich, uns ihre malaysischen Besitztümer zu überlassen. Es scheint, der Krieg wird weitergehen."
-ins.63.a: "Verfluchte Hunnen!"
-
-ins.64.t: "Niederlage in Sarawak"
-ins.64.d: "Unsere Invasion in Sarawak verlief nicht ganz wie geplant: Wir wurden von der Armee von Sarawak zurückgedrängt und müssen nun ein demütigendes Friedensabkommen mit diesen Krypto-Imperialisten unterzeichnen, das wahrscheinlich die Abtretung von Lanfang und eine beträchtliche finanzielle Entschädigung beinhaltet."
-ins.64.a: "Wir haben keine Wahl!"
-ins.64.b: "Niemals!"
-
-ins.65.t: "Sieg gegen Indonesien"
-ins.65.d: "Wir haben die indonesische Invasion in Sarawak erfolgreich zurückgeschlagen und werden nun von den Indonesiern um Frieden gebeten. Wir können nun eine finanzielle Entschädigung sowie die Annexion von Lanfang fordern."
-ins.65.a: "Hurra!"
-ins.65.b: "Wir werden nicht aufhören, bis wir durch Djakarta marschiert sind!"
-
-ins.66.t: "Sarawak akzeptiert!"
-ins.66.d: "Sarawak hat unser Friedensangebot angenommen. Der Frieden kehrt in die Region zurück, auch wenn er uns teuer zu stehen gekommen ist."
-ins.66.a: "Gut."
-
-ins.67.t: "Sarawak lehnt unser Friedensangebot ab"
-ins.67.d: "Die Regierung von Sarawak hat unser gnädiges Friedensangebot abgelehnt, sie glaubt offenbar, uns eine bedingungslose Kapitulation aufzwingen zu können!"
-ins.67.a: "Die Narren!"
-
-ins.68.t: "Das Gesetz Azasy"
-ins.68.d: "Der Kanun Azasy erfüllt die Rolle unserer Nation; er ist die Grundlage unserer Gesetze: Er verankert den Platz des islamischen Rechts, der Syari'ah, in unserem Rechtssystem und unserem Regierungssystem, einer Djumhuryah, einer Republik, die vom Imam geleitet wird. Er wird das Wohlergehen unserer Nation in der Zukunft sicherstellen."
-ins.68.a: "Indonesien ist eine Moschee..."
-ins.68.b: "... und Kartosuwiryo sein Imam."
-
-ins.69.t: "Indonesische Wahlen von [GetYear]"
-ins.69.d: "Wieder einmal ist es an der Zeit, dass die Indonesier für ihre Lieblingspartei stimmen, um die Regierung zu übernehmen; jeder wartet gespannt auf die Umfragen, um zu sehen, wer gewinnen wird:"
-ins.69.a: "Partai Murba."
-ins.69.b: "Nahdlatul Ulama."
-ins.69.c: "Partai Nasional Indonesien."
-ins.69.e: "Ein Dewan!"
-
-ins.70.t: "Bildung einer Koalition?"
-ins.70.d: "Keine der Parteien, die in den Dewan gewählt wurden, hat eine tragfähige Mehrheit erreicht, und eine Regierung wird durch Kompromisse gebildet werden müssen. Während es klar ist, dass [INS.GetLeader] dafür sorgen wird, dass diese Regierung von der PNI geführt wird, stellt sich die Frage, ob sie mit den pro-religiösen Gruppen Nahdlatul Ulama und Sarekat Islam oder eher mit der pro-sozialistischen Partai Sosialis Indonesien und Murba zusammenarbeiten wird..."
-ins.70.a: "Eine Koalition mit der PSII und der NU."
-ins.70.b: "Eine Koalition mit Murba und der PSI."
-
-ins.71.t: "Krise in der Koalition"
-ins.71.d: "Weder in der PNI noch in der Nahdlatul Ulama oder der PSII war jemand besonders begeistert davon, gemeinsam eine Regierung zu bilden, aber das Volk hatte gesprochen, und es gab kaum noch eine andere Wahl. In letzter Zeit sind jedoch die Spannungen zwischen der Partai Nasional Indonesien und den islamischen Parteien gewachsen, da die erstere ihre Macht durch den Präsidenten als Führer dieses säkularen Staates zu festigen sucht und die letztere vor allem daran interessiert zu sein scheint, die Stellung des Islam als Staatsreligion von Indonesien zu sichern. Der Präsident [Root.GetLeader] erwägt ein Dekret, das die derzeitige Verfassung für ungültig erklärt und zur vorherigen Verfassung zurückkehrt, in der der Präsident nahezu absolute Macht hat, und die konservativen Minister nach Hause zu schicken, während die PNI ihre absolute Herrschaft über die Republik festigt."
-ins.71.a: "[INS.GetLeader] ordnet an, dass wir zur vorherigen Verfassung zurückkehren."
-ins.71.b: "Tut alles, was in Ihrer Macht steht, um die Koalition zu retten!"
-
-ins.72.t: "Koalition erfolgreich gerettet!"
-ins.72.d: "Unser Tauschhandel mit Zugeständnissen in weniger wichtigen Punkten hat zur erfolgreichen Rettung unserer Koalition geführt, und es scheint, dass diese Koalition ihre Amtszeit erfüllen wird."
-ins.72.a: "Gut!"
-
-ins.73.t: "Rettung der Koalition gescheitert!"
-ins.73.d: "Trotz unserer Bemühungen haben sich die Beziehungen zwischen den drei Parteien weiter verschlechtert, und heute sind die Minister der Nahdlatul Ulama und der Sarekat Islam von ihren Ämtern zurückgetreten. Angesichts dieser politischen Lage hat der Präsident keine andere Wahl, als dieses Dekret zu erlassen..."
-ins.73.a: "So sei es..."
-
-ins.74.t: "Die [GetDateText] Affäre"
-ins.74.d: "Am [GetDateText] zogen mehrere bewaffnete Soldaten zum Palast, um die Auflösung des Rates der Volksvertreter zu fordern. Dies zeigt, wie gering die Legitimität des Gremiums in der Bevölkerung ist, und immer mehr Gruppen fordern die Regierung auf, landesweite Wahlen abzuhalten, damit das Gremium ein tatsächliches Mandat anstelle seiner Ernennung erhält."
-ins.74.a: "Wir werden es berücksichtigen..."
-
-ins.75.t: "1938 Erdbeben in der Banda-See"
-ins.75.d: "Am 1. Februar 1938 um 19:04 Uhr Ortszeit wurde die Banda-See von einem Erdbeben der Stärke 8,4 auf der Momenten-Magnituden-Skala mit hoher Intensität erschüttert. Obwohl in der Folge zerstörerische Tsunamis mit einer Höhe von bis zu 1,5 Metern entstanden, hat die Katastrophe aufgrund ihrer Lage keine Menschenleben gekostet."
-ins.75.a: "Gott sei Dank!"
-
-ins.76.t: "1943 Alahan Panjang Doppel-Erdbeben"
-ins.76.d: "Die Regentschaft Solok wurde von zwei Erdbeben erschüttert: Das erste Hauptbeben der Stärke 7,1 ereignete sich am 8. Juni um 20:42 Uhr Ortszeit, das zweite der Stärke 7,5 acht Stunden später. Es scheint zwar keine Opfer zu geben, aber das Gebiet wurde schwer beschädigt."
-ins.76.a: "Wir werden helfen, wo wir können!"
-
-ins.77.t: "1943 Erdbeben in Zentraljava"
-ins.77.d: "Ein Erdbeben der Stärke 7,0 auf der Momenten-Magnituden-Skala hat Zentraljava erschüttert, 213 Menschen getötet, weitere 3900 verletzt und mehr als 12600 Häuser zum Einsturz gebracht. Diese Katastrophe hat große Schäden verursacht, die auf die eine oder andere Weise behoben werden müssen."
-ins.77.a: "Oh nein!"
-
-ins.78.t: "Umgang mit Borobudur"
-ins.78.d: "In der Nähe von Yogyakarta in Java befindet sich der Borobudur-Tempelkomplex, der von buddhistischen Ungläubigen genutzt und vor zwei Jahrzehnten von den Niederländern restauriert wurde. Natürlich ist dies ein Schandfleck für unsere Nation, und wir können nicht zulassen, dass er noch mehr Ungläubige anlockt, also muss er abgerissen werden. Die Frage ist nur, wie?"
-ins.78.a: "Dynamit!"
-ins.78.b: "Vorschlaghämmer!"
-
-ins.79.t: "Hauptstadtfrage"
-ins.79.d: "Mit der Machtübernahme durch die Royalisten sind Stimmen laut geworden, die dafür plädieren, die Hauptstadt unserer großen Nation offiziell in die Stadt Yogyakarta zu verlegen, die Hauptstadt des Sultanats des Sultans, wo sich sein Machtsitz befindet. Andere argumentieren, dass ein solcher Schritt eine Dominanz Yogyakartas innerhalb der Nation implizieren würde und dass es besser wäre, Jakarta als Hauptstadt unserer Nation zu belassen, um unsere Unparteilichkeit zu zeigen."
-ins.79.a: "Ich mache mir nichts aus Unparteilichkeit."
-ins.79.b: "Jakarta scheint die bessere Wahl zu sein."
-
-ins.80.t: "Zentralisierung oder Dezentralisierung?"
-ins.80.d: "Die Macht des Adels wurde durch den Staatsstreich gesichert, doch nun fangen sie an, sich untereinander zu streiten: Der Sultan von Yogyakarta und damit von ganz [INS.GetNameDef] möchte alle Macht in der nationalen Regierung zentralisieren, doch seine Verbündeten, die kleineren Adligen und anderen Sultane, würden die Macht lieber dezentralisiert halten, mit ihnen an der Spitze ihres eigenen Königreichs. Nun versucht der Sultan, seinen Wunsch nach einem zentralisierten Indonesien durchzusetzen - werden die anderen Adligen in der Lage sein, den Mächtigsten unter ihnen aufzuhalten?"
-ins.80.a: "Sultan Hamengkubuwono sichert sich seinen Wunsch!"
-ins.80.b: "Die Adligen blockieren erfolgreich den Schritt!"
-
-ins.81.t: "Die königliche Verfassung - Erbfolge"
-ins.81.d: "Als wir mit der Ausarbeitung einer endgültigen Verfassung für unsere glorreiche Nation beginnen, stellt sich als erstes das Problem der Thronfolge: Was passiert, wenn unser Sultan stirbt? Der Sultan selbst würde es vorziehen, dass sein Sohn das Erbe antritt, aber viele der anderen Adligen sind damit überhaupt nicht einverstanden und argumentieren, dass die beste Lösung darin bestünde, sie darüber abstimmen zu lassen, wer den Thron besteigen soll, damit der Fähigste von ihnen allen regieren kann."
-ins.81.a: "Es ist eine Wahlmonarchie..."
-ins.81.b: "Der würde bedeuten, dass der Erbe von Yogyakarta nicht der fähigste ist..."
-
-ins.82.t: "Die Königliche Verfassung - Exekutivgewalt"
-ins.82.d: "Nach mehreren Fragen, über die man sich relativ leicht einigen konnte, wie z. B. den Status der Religion (frei) und des Syndikalismus (verboten), ist wieder einmal eine strittige Frage aufgetaucht: Wo soll die Verantwortung für die Exekutivgewalt liegen? Nach Ansicht von Sultan Hamengkubuwono sollte diese beim Sultan der Nation liegen: Gerade diese Debatte beweise dies, andernfalls würde sich jede Entscheidung auf das derzeitige Gezänk reduzieren, während die absolute Herrschaft des Sultans eine schnelle Entscheidungsfindung gewährleisten würde. Mehrere Fürsten sind jedoch anderer Meinung und argumentieren, dass dies dem Sultan zu viel Macht auf Kosten der anderen Adligen gibt."
-ins.82.a: "Der Fürstenrat sollte das letzte Wort haben."
-ins.82.b: "Der Sultan sollte das letzte Wort haben."
-
-ins.83.t: "Die Königliche Verfassung - Entzug von Titeln"
-ins.83.d: "Gegen Ende der Verfassung erwähnte der Sultan, dass es die Möglichkeit geben sollte, die Titel im Falle außergewöhnlicher Ereignisse zu widerrufen. Dies lässt den Großteil des Adels um seine Position bangen und niemand glaubt wirklich, dass der Sultan dies durchsetzen kann. Dann macht er jedoch Zugeständnisse: es bedarf einer 2/3 Mehrheit im Fürstenrat."
-ins.83.a: "Ein Widerruf ist nicht akzeptabel..."
-ins.83.b: "... es sei denn, eine 2/3-Mehrheit der anderen Adligen stimmt zu!"
-
-ins.84.t: "Unterzeichnung der Verfassung"
-ins.84.d: "Nach langen Wochen der Verhandlungen haben wir endlich die Verfassung fertiggestellt. Der Sultan ist gerade dabei, sie zu unterzeichnen, es ist jedoch klar, dass wir dem nationalen Sultan vielleicht zu viel Macht gegeben haben. Die Fürsten und Rajas scheinen mit der neuen Verfassung nicht besonders glücklich zu sein. Pessimisten könnten sagen, dass sie dieser Regierung, der sie sich nicht ganz zugehörig fühlen, nicht besonders loyal sein werden."
-ins.84.a: "Hurra! Ach... kommt schon Leute, jubelt mit!"
-
-ins.85.t: "Unterzeichnung der Verfassung"
-ins.85.d: "Nach langen Wochen der Verhandlungen haben wir die Verfassung endlich fertiggestellt. Der Sultan ist gerade dabei, sie zu unterzeichnen, auch wenn er zögert. Es ist klar, dass wir den Forderungen der niederen Adligen viel nachgeben mussten, so dass sie durch diese Verfassung im Vergleich zu früher unverhältnismäßig mächtig geworden sind. Es wird schwieriger sein, unseren Willen in diesem Umfeld durchzusetzen."
-ins.85.a: "H... Hurra?"
-
-ins.86.t: "Unterzeichnung der Verfassung"
-ins.86.d: "Nach langen Wochen der Verhandlungen haben wir endlich die Verfassung fertiggestellt. Der Sultan unterschreibt sie in diesem Moment, und danach beginnt ein Fest. Zwar musste jede Seite in einigen Dingen nachgeben, aber es ist klar, dass das Ergebnis für beide Seiten recht zufriedenstellend ist."
-ins.86.a: "Hurra!"
-
-ins.87.t: "[FROM.GetNameDefCap] möchte sich uns anschließen"
-ins.87.d: "[From.GetAdjective] Diplomaten sind an uns herangetreten, um die Möglichkeiten für einen Beitritt zu [Root.GetNameDef] in einem formellen Bündnis zu erkunden. Heute haben sie einen offiziellen Antrag gestellt."
-ins.87.a: "[FROM.GetNameDefCap] ist immer willkommen!"
-ins.87.b: "[FROM.GetNameDefCap]? Warum sollten wir sie schützen wollen?"
-
-ins.88.t: "[FROM.GetNameDefCap] nimmt unsere Anfrage an"
-ins.88.d: "Wir wurden von [From.GetFactionName] formell in [From.GetNameDef] aufgenommen. Gemeinsam werden wir stark sein!"
-ins.88.a: "Gut zu hören!"
-
-ins.89.t: "[FROM.GetNameDefCap] lehnt unser Ersuchen ab"
-ins.89.d: "[FROM.GetNameDefCap] hat uns wissen lassen, dass es nicht in ihrem Interesse liegt, eine Allianz mit uns einzugehen."
-ins.89.a: "Wie kann die Zusammenarbeit nicht im gegenseitigen Interesse liegen?"
-
-ins.93.t: "Beginn der Umwandlung in einen Flugzeugträger"
-ins.93.d: "Wir haben zwei ideale Konvoi-Handelsschiffe gefunden, die wir in die ersten Handelsflugzeugträger von [INS.GetNameDef] umbauen können, die in der Lage sind, Flugzeuge von See aus einzusetzen. Es wird eine nicht unbedeutende Operation sein, um sie auf den Standard anderer Flugzeugträger zu bringen..."
-ins.93.a: "Fangen wir an, daran zu arbeiten!"
-
-ins.94.t: "Handelsflugzeugträger fertiggestellt!"
-ins.94.d: "Die Handelsschiffe, die wir in Flugzeugträger umgewandelt haben, scheinen zu funktionieren. Wir haben bereits mehrere Tests durchgeführt, und sie scheinen sich zu bewähren. Die Erfahrung, die wir bei der Konstruktion gewonnen haben, wird die [INS.GetAdjective]-Marine sicherlich zu etwas Besonderem machen!"
-ins.94.a: "Hurra!"
-
-ins.95.t: "[FROM.GetNameDefCap] will alte Kampfflugzeuge kaufen"
-ins.95.d: "[FROM.GetNameDefCap] ist mit einem Angebot an uns herangetreten, einhundert unserer älteren Kampfflugzeuge für eine anständige Summe zu kaufen. Was sagen wir dazu?"
-ins.95.a: "Natürlich!"
-ins.95.b: "Eher nicht!"
-
-ins.96.t: "[FROM.GetNameDefCap] akzeptiert"
-ins.96.d: "[FROM.GetNameDefCap] hat unser Angebot angenommen und uns einige ihrer älteren Kampfflugzeuge verkauft. Dies wird die [INS.GetAdjective]-Luftstreitkräfte erheblich verbessern!"
-ins.96.a: "Ausgezeichnet."
-
-ins.97.t: "[FROM.GetNameDefCap] sagt nein"
-ins.97.d: "The [JAP.GetAdjective] haben unser Ersuchen, einige ihrer älteren Flugzeuge zu kaufen, mit der Begründung abgelehnt, dies läge nicht in ihrem Interesse."
-ins.97.a: "Enttäuschend..."
-
-ins.98.t: "Indonesische Wahlen von [GetYear]"
-ins.98.d: "Wieder einmal ist es an der Zeit, dass die Indonesier für ihre Lieblingspartei stimmen, um die Regierung zu übernehmen; jeder wartet gespannt auf die Umfragen, um zu sehen, wer gewinnen wird:"
-ins.98.a: "Partai Sosialis Indonesien."
-ins.98.b: "Nahdlatul Ulama."
-ins.98.c: "Partai Nasional Indonesien."
-
-ins.99.t: "Indonesische Wahlen von [GetYear]"
-ins.99.d: "Nach der neuen Verfassung muss der Präsident direkt vom Volk gewählt und nicht mehr vom Dewan ernannt werden. Die Wahlen sind also eröffnet, und das indonesische Volk kann seine Wahl treffen. Wer soll gewinnen?"
-ins.99.a: "Sutan Sjahrir von der PSI."
-ins.99.b: "Hashim Asyari der NU."
-ins.99.c: "Sukarno von der PNI."
-ins.99.e: "Mohammed Hatta von der PNI."
-
-ins.100.t: "Indonesische Wahlen von [GetYear]"
-ins.100.d: "Wie die Verfassung vorschreibt, muss der Präsident vom indonesischen Volk in sein Amt gewählt werden. Wird [Root.GetLeader] im Amt bleiben? Oder wird er von einem seiner Konkurrenten aus den anderen Parteien aus dem Präsidentenpalast gedrängt werden? Wer wird der nächste Präsident von Indonesien?"
-ins.100.a: "Sutan Sjahrir von der PSI."
-ins.100.b: "Hashim As'yari von der NU."
-ins.100.c: "Sukarno von der PNI."
-ins.100.e: "Mohammed Hatta von der PNI."
-
-ins.101.t: "Adisucipto's Flug"
-ins.101.d: "Wir brauchen dringend Medikamente für unsere Verwundeten, sowohl zivile als auch militärische, aber wir können sie nicht bekommen, da die Niederländer alles zu tun scheinen, um uns von der Außenwelt fernzuhalten. [HND.GetNameDef] sympathisiert mit unserer Sache. Wenn wir ein Flugzeug nach Kalkutta schicken, werden sie uns die Medikamente sicher liefern, so dass unser Kampf etwas mehr Aussicht auf Erfolg hat? Es ist jedoch eine gefährliche Reise nach Indien, da die Niederländer diese Route benutzen."
-ins.101.a: "Schickt das Flugzeug, sie werden es schaffen."
-ins.101.b: "Wir können die Männer nicht entbehren!"
-
-ins.102.t: "Adisucipto trifft in Kalkutta ein"
-ins.102.d: "Der [INS.GetAdjective]-Pilot Agustinus Adisucipto ist heute mit einer Gruppe von [INS.GetAdjective]-Männern in Kalkutta eingetroffen und bittet um Medikamente und andere Hilfsgüter für ihren Kampf - aus humanitären Gründen. Können wir die Hilfsgüter entbehren?"
-ins.102.a: "Natürlich!"
-ins.102.b: "Tut uns leid, wir haben leider keine für Sie..."
-
-ins.103.t: "Adisucipto kehrt zurück"
-ins.103.d: "Das Flugzeug, das wir zuvor nach Indien geschickt hatten, ist mit einer Fülle von Vorräten zurückgekehrt: Lebensmittel, Medikamente, Werkzeuge - genug, um unseren Kampf zumindest für eine Weile aufrechtzuerhalten."
-ins.103.a: "Vielen Dank, Bharat."
-
-ins.104.t: "Adisucipto kehrt zurück"
-ins.104.d: "Das Flugzeug, das wir vorhin nach Indien geschickt haben, ist zurückgekehrt - leider konnte [HND.GetNameDef] keine Vorräte für uns entbehren, so dass diese Operation weitgehend nutzlos war. Adisucipto ist mit leeren Händen zurückgekehrt."
-ins.104.a: "Danke, Bharat, für gar nichts!"
-
-ins.105.t: "Unruhen auf den Molukken"
-ins.105.d: "Nach dem Segen des Größten und der Übernahme unserer großen Nation haben die Unruhen auf den Molukken stetig zugenommen. Die Mehrheit der Molukken sind Christen und lehnen unsere Herrschaft ab, und es überrascht nicht, dass es in der gesamten Region zu Demonstrationen und Widerstandshandlungen gekommen ist."
-ins.105.a: "Verfluchte Ungläubige!"
-
-ins.106.t: "Unruhen auf den Molukken nehmen zu"
-ins.106.d: "Trotz der harten Arbeit unserer Missionare und Sicherheitskräfte haben die Unruhen in der Region Maluku weiter zugenommen. Wir müssen härter zurückschlagen, aber unsere Regierung ist uneins darüber, wie wir vorgehen sollen: Einige wollen, dass wir ihre Führer stürzen und enthaupten, wie Allah es verlangt. Andere sind der Meinung, dass eine sanftere Herangehensweise mit Zwangskonvertierungen ausreichen würde."
-ins.106.a: "Die Enthauptung der Ungläubigen ist der einzige Weg."
-ins.106.b: "Den Ungläubigen zu bekehren ist ehrenvoller als sie zu töten!"
-
-ins.107.t: "Hilfeersuchen der Molukken"
-ins.107.d: "Die Inselgruppe der Molukken in Indonesien wird hauptsächlich von Christen bewohnt, im Gegensatz zu einem Großteil des übrigen Landes, das inzwischen von der Darul-Islam-Bewegung übernommen wurde, die eine sehr orthodoxe Version vertritt, zu der auch ein Hass auf die 'Ungläubigen' gehört. Die Molukker wollten uns zunächst nicht um Hilfe bitten, da sie ihren eigenen Staat zu sichern suchten, aber nachdem die alte Führung ihrer Widerstandsbewegung hingerichtet wurde, hat die neue (untergetauchte) Führung beschlossen, dass unsere Kolonialherrschaft der derzeitigen muslimischen Vorherrschaft vorzuziehen ist, und bittet uns um Hilfe, in der Hoffnung, dass wir die Inselgruppe annektieren werden."
-ins.107.a: "Sie sollen es bekommen."
-ins.107.b: "Wir können uns nicht in diese Angelegenheit einmischen!"
-
-ins.108.t: "Unruhen in Maluku lassen nach"
-ins.108.d: "Nach unserem harten Durchgreifen gegen die Ungläubigen in Maluku wurde eine bedeutende Minderheit bekehrt und die Kraft ihres Widerstands geschwächt. Es scheint, dass wir die Kontrolle über die Region zurückgewonnen haben."
-ins.108.a: "Gut..."
-
-ins.109.t: "[GEA.GetAdjective] Schiffe in Maluku gesichtet"
-ins.109.d: "Deutsche Schiffe sind in Maluku eingetroffen und unterstützen ungläubige Rebellen, die unsere Garnison auf der Insel schnell in die Enge getrieben haben. Es überrascht nicht, dass die malukuische Exilregierung daraufhin ankündigte, ein deutsches Protektorat zu werden, was in unserem Land weithin als inakzeptabel gilt!"
-ins.109.a: "Es gibt nichts, was wir tun können!"
-ins.109.b: "Krieg ist es dann!"
-
-ins.110.t: "Korruption geht zurück"
-ins.110.d: "Da der Lebensstandard dank unserer erfolgreichen Politik immer weiter ansteigt, wird die Korruption immer seltener, da die Indonesier mehr Erfahrung in ihren neuen Jobs sammeln, bereits einen (wenn auch derzeit noch begrenzten) Anstieg ihres Lebensstandards genießen und die Maßnahmen gegen Korruption immer besser durchgesetzt werden. Es liegt Positivität in der Luft!"
-ins.110.a: "Ein Hoch auf Indonesien!"
-
-ins.111.t: "Hari Merdeka Tag"
-ins.111.d: "An diesem Tag erklärten Sukarno, Hatta und die anderen Führer der Unabhängigkeitsbewegung [INS.GetAdjective] die Unabhängigkeit unserer Nation. Heute feiern wir diesen freudigen Anlass, der uns nach einem langen Kampf schließlich die Unabhängigkeit sicherte, mit Spielen und Festlichkeiten im ganzen Land."
-ins.111.a: "Indonesien vereinigt!"
-
-ins.113.t: "Der Aufstieg von Bahasa Indonesia"
-ins.113.d: "Mit dem Aufstieg unserer Nation brauchen wir eine vereinheitlichende Sprache, die das indonesische Malaiisch übernimmt und in Bahasa Indonesia umbenennt. Obwohl einige Menschen aus Java diese Entscheidung weiterhin kritisieren und argumentieren, dass ein viel größerer Teil der Bevölkerung Javanisch spricht, wurde diese Entscheidung offiziell bereits 1928 mit dem Jugendversprechen getroffen. indonesische Malaiisch ist seit Jahrhunderten als regionale Verkehrssprache in Gebrauch und scheint daher eine natürliche Wahl zu sein, auch wenn nur 5 % der Bevölkerung es als Muttersprache sprechen."
-ins.113.a: "Die indonesische Sprache wird zur Einigung unserer Nation beitragen!"
-
-ins.114.t: "Der Große Rat der Ulama"
-ins.114.d: "Nachdem die Nahdlatul Ulama nun für eine Weile an der Macht sind, wenden sie sich ihrem größten politischen Projekt zu: der Bildung des Großen Rates der Ulema. Durch die Einladung weiser hochrangiger Gelehrter gründen wir diesen Rat, der die Regierung nicht nur in religiösen Fragen berät, sondern auch die Befugnis hat, die islamischen Werte bei Bedarf locker durchzusetzen. Natürlich nur bis zu einem gewissen Grad, denn sonst können wir es nicht durch das Parlament bringen."
-ins.114.a: "Eine lobenswerte Initiative!"
-
-ins.115.t: "Indonesische Exilanten wollen sich der Rebellion anschließen"
-ins.115.d: "Inspiriert von unserem Aufstand gegen die hunnische Bedrohung hat eine Gruppe von mehreren indonesischen sozialistischen Exilanten unter der Führung des berühmten indonesischen Sozialisten Tan Malaka ihre Dienste als Teil unseres Kampfes angeboten.\n\nViele glauben, dass wir jede Hilfe gebrauchen können, die wir bekommen können. Sollen wir diese Indonesier für den Ruhm der indochinesischen Revolution jetzt und der indonesischen Revolution morgen hereinlassen?"
-ins.115.a: "Natürlich!"
-ins.115.b: "Eher nicht!"
-
-ins.116.t: "Indonesische Exilanten wollen sich der Rebellion anschließen"
-ins.116.d: "Inspiriert von unserem Aufstand gegen die hunnische Bedrohung hat eine Gruppe von mehreren indonesischen sozialistischen Exilanten unter der Führung des berühmten indonesischen Sozialisten Tan Malaka ihre Dienste als Teil unseres Kampfes angeboten.\n\nViele glauben, dass wir jede Hilfe gebrauchen können, die wir bekommen können. Sollen wir diese Indonesier für den Ruhm der indochinesischen Revolution jetzt und der indonesischen Revolution morgen hereinlassen?"
-ins.116.a: "Natürlich!"
-ins.116.b: "Eher nicht!"
-
-#ins.116.t: "Indonesian Exiles from Indochina" already defined above
-#ins.116.d: "Several Indonesian exiles have been fighting in Indochina against German imperialism. Now that Indonesia itself has risen, they seek to return to join our struggle, or in a slightly less altruistic sense, to influence our politics towards their desires." already defined above
-#ins.116.a: "Welcome home, heroes!" already defined above
-
-ins.117.t: "Tan Malaka kehrt nach Indonesien zurück"
-ins.117.d: "Die koloniale Ordnung ist auch in Indonesien zusammengebrochen, und es überrascht nicht, dass Tan Malaka und seine Exilanten in ihr Heimatland zurückgekehrt sind, um es vor Bedrohungen zu schützen und es zur sozialistischen Revolution zu führen."
-ins.117.a: "Wir wünschen ihnen viel Glück!"
-
-ins.118.t: "Die indonesische nationale Revolution"
-ins.118.d: "Indonesien war eine der ältesten europäischen Kolonien und stand seit 1800 unter der Herrschaft der niederländischen Regierung, noch viel früher unter der Herrschaft der Niederländischen Ostindien-Kompanie. Dieser Zustand dürfte jedoch nicht mehr lange andauern, da vor dem Hintergrund wachsender Instabilität und Wut gegen die niederländischen Kolonialherren [INS.GetLeader], eine der einflussreichsten Persönlichkeiten der indonesischen Unabhängigkeitsbewegung, einen bewaffneten Aufstand anführte, um die Kolonialmächte zu vertreiben, und den Beginn der indonesischen Nationalrevolution ausrief.\nObwohl die Rebellen im Vergleich zu den Niederländern mit Mängeln in der Ausrüstung und Ausbildung zu kämpfen haben, haben sie den Vorteil, auf heimischem Terrain gegen einen Feind zu kämpfen, der seine Truppen aus Tausenden von Kilometern Entfernung versorgen muss.\nWer auch immer gewinnt, Indonesien ist für immer verändert."
-ins.118.a: "Merdeka!"
-ins.118.b: "Ein weiterer Schlag für die europäische Macht..."
-ins.118.c: "Banditen und Kriminelle!"
-ins.118.e: "Man kann Menschen nicht über Jahrhunderte hinweg unterdrücken."
+indonesia_events.1.t: "Attentat auf Sukarno"
+indonesia_events.1.d: "Unser Präsident Sukarno war heute zu Besuch in Sumatra, als jemand eine Granate auf ihn warf. Der Verdächtige wurde schnell festgenommen und als militanter Darul-Islam-Anhänger entlarvt, aber der Status unseres Präsidenten bleibt im Moment unklar. Ist die Bombe nicht explodiert und hat er überlebt, oder ist dem Darul-Islam-Abschaum sein böser Plan gelungen, unsere Regierung zu destabilisieren?"
+indonesia_events.1.a: "Die Granate ist nicht explodiert: dem Präsidenten geht es gut!"
+indonesia_events.1.b: "Der Präsident ist gestorben: der Vizepräsident wird amtierender Präsident..."
+
+indonesia_events.2.t: "Putschversuch"
+indonesia_events.2.d: "Kurz nach dem Attentat auf unseren Präsidenten griffen militante Darul-Islam-Kämpfer wichtige strategische Punkte auf Java, Sumatra und Sulawesi an, wobei ihre Truppen die Kontrolle über einen Radiosender übernahmen und die Gründung einer Negara Islam Indonesien - eines islamischen Staates Indonesien - als Antwort auf die heidnische Säkularisierung von Präsident Sukarno verkündeten."
+indonesia_events.2.a: "Die Kämpfer werden in Jakarta zurückgedrängt und kurz darauf wieder in den Dschungel gejagt!"
+indonesia_events.2.b: "Die Militanten sichern die strategischen Punkte und übernehmen nach einer Massenflucht die Kontrolle!"
+
+indonesia_events.3.t: "Royalistischer Gegenputsch!"
+indonesia_events.3.d: "Angesichts der Machtübernahme durch den traditionalistischen Darul Islam beschlossen die eher westlich orientierten Sultane der vielen Sultane des Archipels, zu handeln. Sie scharten ihre Anhänger und Armeen um sich und marschierten auf Jakarta, um Indonesien vor der zum Scheitern verurteilten islamistischen Herrschaft zu retten, in der Hoffnung, die Unterstützung der nicht-muslimischen Gemeinschaft Indonesiens und der Gemäßigten zu gewinnen."
+indonesia_events.3.a: "... woraufhin die Militanten sie zurückschlugen!"
+indonesia_events.3.b: "... woraufhin Jakarta von den Rebellen gesichert wird!"
+
+indonesia_events.4.t: "Die Wahlen von [GetYear]"
+indonesia_events.4.d: "Der Präsident hat beschlossen, die Parlamentswahlen abzuhalten, in der Hoffnung, eine große Mehrheit für seine PNI-Partei und ein Mandat des indonesischen Volkes zu erhalten. Die anderen Parteien wie Tan Malakas Partai Murba und Nahdlatul Ulama sowie in geringerem Maße die PSI (die allerdings unter dem Verlust von Wählern an die Murba leidet) führen eifrig Wahlkampf und argumentieren, dass sie die beste Wahl für eine glänzende Zukunft Indonesiens sind."
+indonesia_events.4.a: "Murba sichert sich die Stimmen der Arbeiter!"
+indonesia_events.4.b: "Nahdlatul Ulama gewinnt mit ihrem Mandat für eine religiöse Demokratie!"
+indonesia_events.4.c: "Sukarnos Hoffnungen werden erfüllt und die PNI gewinnt den Dewan!"
+indonesia_events.4.e: "Der Dewan wird abgesetzt und die PNI wird zu einer Koalition mit der NU gezwungen."
+
+indonesia_events.5.t: "Amtsantritt von Präsident Sukarno"
+indonesia_events.5.d: "Nachdem unser Land seine Unabhängigkeit erlangt hat, ist es an der Zeit, Präsident Sukarno offiziell in sein Amt als Präsident unserer Nation einzuführen. Die Zeremonie findet in Yogyakarta, im Kraton-Palast statt. Sukarno erschien bald in seinem weißen Festanzug und legte den Amtseid ab, nachdem ein islamischer Priester ein Gebet für die Zukunft unseres Landes gesprochen hatte. Unser Land ist heute ein wenig realer geworden!"
+indonesia_events.5.a: "Lang lebe der Präsident!"
+
+indonesia_events.6.t: "Treffen mit dem Präsidenten"
+indonesia_events.6.d: "Tan Malaka erkannte, dass sein Wahlsieg zwar ein großer Schritt in Richtung Macht war, er aber vorsichtig vorgehen musste. Da sich sowohl die konservative Armeeführung als auch das indonesische Königshaus durch die Aussicht auf eine sozialistische Herrschaft bedroht fühlten, war jeder Versuch, den Staat zu stürzen, dazu verdammt, durch einen bewaffneten Putsch einer dieser Parteien zu enden. Die Führung von Murba erkannte jedoch den Verbündeten an, den der Präsident und seine PNI bildeten, die ebenfalls teilweise sozialistische Ideale vertraten. Ein Besuch später stimmte der Präsident zu, Malaka zum Premierminister von Indonesien zu ernennen, während Tan versprach, die Institutionen von Indonesien beizubehalten... Fürs Erste."
+indonesia_events.6.a: "Die Konservativen sind jedoch nicht völlig beruhigt..."
+
+indonesia_events.7.t: "Rebellion in Yogyakarta"
+indonesia_events.7.d: "In der Provinz Yogyakarta ist eine sozialistische Rebellion gegen den dortigen Gouverneur, Sultan Hamengkubuwono IX, ausgebrochen. Die Rebellen begannen auf dem Land und belagerten bald darauf die Stadt selbst. Die Rebellion wurde durch Versprechungen der nationalen Regierung schnell befriedet, doch ist dies ein deutliches Zeichen dafür, dass die örtliche Bevölkerung die frühere Regelung, bei der der Sultan einen großen Teil seiner Macht als Gouverneur behält, nicht gutheißt. Der Präsident erwägt bereits, den Sonderstatus Yogyakartas aufzuheben: Wenn die Bevölkerung nicht will, dass der Sultan diese Position innehat, wer sind wir dann, ihn zu schützen?"
+indonesia_events.7.a: "Hebt den Sonderstatus von Yogyakarta auf!"
+
+indonesia_events.8.t: "Die neue Verfassung"
+indonesia_events.8.d: "Indonesien hatte bisher zwei Verfassungen: eine, die von Sukarno geschrieben wurde und die nicht die grundlegenden Anforderungen erfüllt, um die indonesische Demokratie zu schützen, und eine, die wir von unseren ehemaligen niederländischen Oberherren gezwungen wurden, durch eine zu ersetzen, zu der allein schon deshalb kein Indonesier stehen möchte. Es ist an der Zeit, dass der neu gewählte Dewan unter der Führung der Nahdlatul Ulama, der größten Partei im Dewan, eine neue Verfassung schreibt, auf die sowohl der durchschnittliche Indonesier schwören kann als auch unsere Demokratie ausreichend gesichert ist."
+indonesia_events.8.a: "Artikel 1..."
+
+indonesia_events.9.t: "Stellung des Präsidenten"
+indonesia_events.9.d: "Bislang hatte der Präsident recht weitreichende Befugnisse. Der Präsident steht an der Spitze der PNI und ist daher unserer demokratischen Herrschaft nicht allzu freundlich gesinnt, und wer weiß, wer nach ihm kommen könnte? Die Kehrseite der Medaille ist jedoch, dass wir, wenn wir die Position des Präsidenten einschränken, Gefahr laufen, die Unterstützung der PNI zu verlieren, die wir für die 2/3-Mehrheit benötigen, um die neue Verfassung zu verabschieden."
+indonesia_events.9.a: "Reduziert die Präsidentschaft auf einen rein zeremoniellen Status."
+indonesia_events.9.b: "Macht den Präsidenten zur führenden Hand bei der Bildung von Koalitionen."
+indonesia_events.9.c: "Erlaubt dem Präsidenten, Dekrete zu verfassen und ein Veto gegen Gesetzesvorlagen einzulegen."
+
+indonesia_events.10.t: "Wahl des Präsidenten"
+indonesia_events.10.d: "Früher wurde der Präsident vom Dewan gewählt. Dies führt jedoch zu erheblichen Komplikationen, z.B. wenn keine Mehrheit erreicht wird. Um dem entgegenzuwirken, könnte in die neue Verfassung aufgenommen werden, dass die Partei, die bei der Wahl den größten Stimmenanteil erhält, den Anspruch auf das Präsidentenamt hat, was wiederum die PNI verärgern könnte."
+indonesia_events.10.a: "Die Dewan wählt weiterhin den Präsidenten."
+indonesia_events.10.b: "Der Präsident wird direkt vom Volk gewählt."
+
+indonesia_events.11.t: "Mandat des Dewan"
+indonesia_events.11.d: "In der derzeitigen Verfassung ist die Dauer der Amtszeit des Dewan auf 5 Jahre festgelegt. Wir könnten sie auf 4 Jahre verkürzen, um die Beteiligung der Indonesier an der Demokratie zu erhöhen und die Wahl etwas direkter zu gestalten."
+indonesia_events.11.a: "4 Jahre."
+indonesia_events.11.b: "5 Jahre."
+
+indonesia_events.12.t: "Stellung der Religion"
+indonesia_events.12.d: "In den ursprünglichen Verfassungen war das Land säkular und nicht an eine bestimmte Religion gebunden. Viele in der Nahdlatul Ulama sind damit nicht einverstanden und wollen den Islam zur offiziellen Staatsreligion Indonesiens machen. Dies wird Murba und die PSI wahrscheinlich davon abhalten, für die neue Verfassung zu stimmen, und auch die PNI ist von der Idee nicht sonderlich begeistert, so dass wir der PNI besser schon vorher genug gegeben haben, sonst wird es sehr unwahrscheinlich sein, dass wir die Stimmen für die erforderliche Zweidrittelmehrheit aufbringen."
+indonesia_events.12.a: "Bleibt Säkular."
+indonesia_events.12.b: "Führt den Islam als unsere Staatsreligion ein."
+indonesia_events.12.c: "Verankert die Scharia in der Verfassung."
+
+indonesia_events.13.t: "Verfassung verabschiedet"
+indonesia_events.13.d: "Es ist uns gelungen, die erforderlichen Stimmen zur Überschreibung der alten Verfassung zu erreichen, und unsere neue ständige Verfassung ist in Kraft getreten. Dies ist ein großer Tag für den indonesischen Staat, seine Demokratie und sein Volk."
+indonesia_events.13.a: "Ein Hoch auf die neue Verfassung!"
+
+indonesia_events.14.t: "Verfassung gescheitert"
+indonesia_events.14.d: "Es scheint, dass wir nicht in der Lage waren, die erforderliche Zweidrittelmehrheit zu erreichen, um die vorherige Verfassung zu überschreiben; der Gesetzentwurf wurde leider verworfen, und die Zukunft der Nahdlatul Ulama-Regierung ist höchst ungewiss, da wir mehrere wichtige Personen mit dieser versuchten Änderung verärgert haben."
+indonesia_events.14.a: "Ich hatte mehr davon erwartet..."
+
+indonesia_events.15.t: "Ein Präsidialdekret"
+indonesia_events.15.d: "Nachdem es unserer Regierung nicht gelungen ist, die uns von den Niederländern aufgezwungene Verfassung zu ersetzen, hat der Präsident ein Dekret erlassen, in dem er erklärt, dass wir zur alten Verfassung zurückkehren. Dies bedeutet eindeutig, dass der größte Teil der Macht an den Präsidenten übertragen wurde und dass die PNI auf unsere Kosten die Macht übernommen hat."
+indonesia_events.15.a: "Das war zu erwarten..."
+
+indonesia_events.16.t: "Autocoup: Erfolgreiche Verhaftung des Präsidenten"
+indonesia_events.16.d: "Heute ist die so genannte stille Revolution nicht mehr still: Präsident [Root.GetLeader] war zwar eine Zeit lang kooperativ, ist aber letztlich ein Feind der indonesischen Arbeiter und Bauern. In den frühen Morgenstunden ist es der Milisi Murba gelungen, über ihre offizielle Position in der Regierung in den Präsidentenpalast einzudringen und ihn in Gewahrsam zu nehmen. Der Autocoup wird dank ihm nicht scheitern, aber es bleibt die Frage, ob unsere Kräfte anderswo in der Lage sein werden, die Kontrolle zu behalten."
+indonesia_events.16.a: "Ein guter Start!"
+
+indonesia_events.17.t: "Autocoup: Verhaftung des Präsidenten scheitert"
+indonesia_events.17.d: "Die Milisi Murba-Einheit, die wir zur Verhaftung des Präsidenten [Root.GetLeader] entsandt hatten, scheiterte an der Präsidentengarde, die ihnen den Zutritt verweigerte, was zu einer Schlägerei führte. Das Ergebnis war die Mobilisierung des Militärs von Djakarta, das sich sofort auf die Seite des PNI-Regimes stellte. Kurz darauf konnte man im ganzen Land hören, wie der Präsident unser Vorgehen anprangerte, und unsere Männer wurden bereits vor dem Palast zurückgedrängt. Es scheint, dass unser Autocoup gescheitert ist, bevor er überhaupt richtig begonnen hat."
+indonesia_events.17.a: "Und so geht Tan Malaka wieder ins Exil..."
+
+indonesia_events.18.t: "Autocoup: Opposition bezwungen"
+indonesia_events.18.d: "Da das Überraschungsmoment zu unseren Gunsten ausfiel und der Präsident, der Anführer der Streitkräfte, im Abseits stand, herrschte im Militär Chaos. Es dauerte nicht lange, bis bereits mehrere Divisionen auf die Seite der Gerechten überliefen, während der Rest größtenteils entweder in der Falle saß oder zu unorganisiert war, um zu den Waffen zu greifen. Einige reaktionäre Kräfte versuchten, sich in Yogyakarta hinter Sultan Hamengkubuwono IX. zu versammeln, aber da er zuvor alle seine Privilegien verloren hatte, war die Allianz bald in der Unterzahl. Abgesehen von einigen kleinen Scharmützeln dort haben unsere sozialistischen Kräfte eindeutig die Oberhand gewonnen!"
+indonesia_events.18.a: "Hurra!"
+
+indonesia_events.19.t: "Autocoup: Opposition überrollt uns"
+indonesia_events.19.d: "Zwar ist es uns gelungen, den Präsidenten aus dem Spiel zu nehmen, aber leider mussten wir feststellen, dass der Sultan von Yogyakarta seine Rolle übernommen hat, indem er seine Privilegien als Gouverneur von Yogyakarta und seine Verbindungen zu den anderen Königen von Indonesien nutzte, die sich ebenfalls von der Aussicht auf eine proletarische Herrschaft bedroht fühlen. Ein großer Teil des Militärs hat sich dem schnell angeschlossen und sich daraufhin neu organisiert: Zwar ist es unseren Anhängern in einigen Fällen gelungen, sie zu überrennen, aber insgesamt werden sie schnell zurückgedrängt. Unser Autocoup ist eindeutig gescheitert, und die Reaktionäre haben unter ihrer Sultansmarionette die Macht übernommen."
+indonesia_events.19.a: "Und so geht Tan Malaka wieder ins Exil..."
+
+indonesia_events.21.t: "Korruption nimmt zu"
+indonesia_events.21.d: "Leider ist ein Aufwärtstrend bei der Korruption zu beobachten: Viele Tätigkeiten, die früher entweder sehr eng koordiniert waren oder nur von den Niederländern ausgeübt wurden, wie z. B. die Zollabfertigung, sind jetzt für die allgemeine indonesische Bevölkerung zugänglich. Viele von ihnen sind arm und ungebildet und nehmen die zusätzlichen Rupien gerne an, wenn sie dafür ein Auge zudrücken oder einen kleinen Gefallen erwidern können. Dies hat negative Auswirkungen auf unsere Wirtschaft und damit auch auf unser Land."
+indonesia_events.21.a: "Schrecklich!"
+
+indonesia_events.22.t: "Operation Kemenangan"
+indonesia_events.22.d: "Die dreckigen portugiesischen Imperialisten halten immer noch den Osten der Insel Timor besetzt, die rechtmäßig zu Indonesien gehört. Die Portugiesen sind viel schwächer als wir, und eine Überwältigung der portugiesischen Streitkräfte auf der Insel sollte machbar sein, wenn auch riskant, da es zu einem ausgewachsenen Krieg mit der Entente eskalieren könnte."
+indonesia_events.22.a: "Entsendet die Truppen!"
+
+indonesia_events.23.t: "Indonesische Truppen verletzen unsere Souveränität"
+indonesia_events.23.d: "Die indonesischen Streitkräfte sind in unsere Kolonie in Timor-Leste eingedrungen. Es hat bereits mehrere Scharmützel gegeben, und ihre Absicht scheint klar zu sein: die Insel zu besetzen und sie unserer Kontrolle zu entreißen. Leider sind unsere Hoffnungen, die Insel verteidigen zu können, angesichts der Größe und der Garnison sehr begrenzt, aber vielleicht können wir sie mit der Unterstützung unserer Verbündeten aufhalten?"
+indonesia_events.23.a: "Es gibt nichts, was wir tun können."
+indonesia_events.23.b: "Stellt ein Ultimatum: Sie müssen unser Gebiet verlassen!"
+
+indonesia_events.24.t: "Portugal gibt nach"
+indonesia_events.24.d: "Portugal hat die Ausweglosigkeit der Situation erkannt und nur Proteste gegen unser 'illegales' Vorgehen gegen die 'rechtmäßige Kolonie' ausgesprochen. Es ist klar, dass sie die Wahrheit akzeptiert haben, und Timor-Leste gehört uns."
+indonesia_events.24.a: "Lang lebe Indonesien!"
+
+indonesia_events.25.t: "Portugiesisches Ultimatum"
+indonesia_events.25.d: "Die Portugiesen haben uns ein Ultimatum gestellt: Wir haben 6 Stunden Zeit, um ihr Hoheitsgebiet zu verlassen, oder sie werden es als Kriegserklärung betrachten. Da die Entente Portugal unterstützt, könnte dies ein Krieg sein, den wir nicht gewinnen können..."
+indonesia_events.25.a: "Dann ist es Krieg!"
+indonesia_events.25.b: "Sofortiger Rückzug nach West-Timor!"
+
+indonesia_events.26.t: "Niederlage in Timor"
+indonesia_events.26.d: "Trotz unseres erbitterten Widerstands waren wir offenbar nicht in der Lage, Osttimor vor den Indonesier zu verteidigen. Die Fortsetzung des Krieges um die Insel, die ohnehin nicht sehr wertvoll ist, scheint eine unrealistische Option zu sein."
+indonesia_events.26.a: "Wir haben keine Wahl."
+indonesia_events.26.b: "Wir werden das portugiesische Volk von Timor niemals im Stich lassen!"
+
+indonesia_events.27.t: "Portugal kapituliert"
+indonesia_events.27.d: "Nach unserer erfolgreichen Übernahme der Insel haben die Portugiesen nachgegeben und uns die Kolonie überlassen. Dies ist ein großer Sieg für Indonesien und für das arme, unterdrückte Volk von Osttimor!"
+indonesia_events.27.a: "Der Sieg gehört uns!"
+indonesia_events.27.b: "Wenn wir mit der Entente Frieden schließen, gehört Ostirian natürlich auch uns!"
+indonesia_events.27.c: "Kein Frieden, bis die Indonesier in Lissabon marschieren!"
+
+indonesia_events.28.t: "Indonesien fordert Papua"
+indonesia_events.28.d: "Wir befinden uns seit einiger Zeit im Krieg mit Indonesien, und dieser Krieg ist nicht unbedingt zu unseren Gunsten ausgegangen. Da Indonesien Papua kontrolliert, haben sie beschlossen, nicht nur die Annexion von Timor zu akzeptieren, sondern auch die Kontrolle über Papua, oder 'Ost-Irian', wie sie es nennen, zu fordern."
+indonesia_events.28.a: "Wir haben kaum eine Wahl."
+indonesia_events.28.b: "Nein, Kumpel, so funktioniert das hier nicht!"
+
+indonesia_events.29.t: "Endlich Frieden"
+indonesia_events.29.d: "Nachdem unsere Forderungen endlich erfüllt sind, kann ein Frieden mit den Entente-Mächten geschlossen werden. Es war ein harter Krieg, aber er hat sich gelohnt, denn wir haben sowohl in Neuguinea als auch in Timor gewonnen!"
+indonesia_events.29.a: "Der Sieg ist in der Tat unser!"
+
+indonesia_events.30.t: "Australasien weigert sich"
+indonesia_events.30.d: "Die starrköpfigen Australier weigern sich, das uns zustehende Land in Ost-Irian abzutreten. Es scheint, dass die Friedensgespräche gescheitert sind."
+indonesia_events.30.a: "Und so geht der Krieg weiter."
+
+indonesia_events.31.t: "Australasien ließ die Friedensverhandlungen scheitern"
+indonesia_events.31.d: "Obwohl wir bereit sind, uns mit den Indonesiern an einen Tisch zu setzen, weigern sich die Australier, ihnen ihre von den Indonesiern besetzten Gebiete in Neuguinea zu überlassen. Der Krieg geht also weiter..."
+indonesia_events.31.a: "Oof!"
+
+indonesia_events.32.t: "Der Untergang Australasiens"
+indonesia_events.32.d: "Unser Krieg mit Indonesien ist eindeutig zu weit gegangen: Nachdem Indonesien die Kontrolle über Australasien übernommen hat, scheinen alle unsere Hoffnungen, diesen Krieg im Fernen Osten zu einem guten Ende zu bringen, verloren zu sein."
+indonesia_events.32.a: "Kapituliert vor den Indonesiern."
+indonesia_events.32.b: "Wir werden niemals kapitulieren!"
+
+indonesia_events.33.t: "Die Entente kapituliert"
+indonesia_events.33.d: "Da die Entente durch unsere Besetzung Australasiens praktisch handlungsunfähig geworden ist, hat die [From.GetAdjective]-Regierung aufgegeben, uns zu bekämpfen. Australasien ist unserer Gnade ausgeliefert und ihre Kolonien werden mit Sicherheit an unser Land übergehen."
+indonesia_events.33.a: "Hurra!"
+
+indonesia_events.34.t: "Niederlage in Timor"
+indonesia_events.34.d: "Unser Plan, Timor zu erobern, ist gründlich schiefgegangen: Die portugiesischen Imperialisten haben uns von unserer Seite der Insel vertrieben. Es bleibt uns nichts anderes übrig, als den Portugiesen eine demütigende Übergabe des Rests der Insel anzubieten, denn sie wissen, dass wir zurückkommen werden, wenn wir wieder zu Kräften gekommen sind, und werden sich nicht mit weniger zufrieden geben..."
+indonesia_events.34.a: "Wir wussten, dass dies das Risiko war!"
+indonesia_events.34.b: "Wir werden das Volk von Timor niemals im Stich lassen!"
+
+indonesia_events.35.t: "Die Indonesier kapitulieren"
+indonesia_events.35.d: "Nachdem es ihnen nicht gelungen ist, die Insel Timor zu halten, sind die Indonesier mit gebrochenem Stolz zu uns zurückgekehrt. Sie bieten uns an, uns Westtimor im Gegenzug für den Frieden zu überlassen..."
+indonesia_events.35.a: "Klingt nach einem Deal!"
+indonesia_events.35.b: "Wir werden uns nicht mit weniger zufrieden geben als mit der totalen Zerstörung des indonesischen Regimes!"
+
+indonesia_events.36.t: "Die Portugiesen akzeptieren"
+indonesia_events.36.d: "Es überrascht nicht, dass die Portugiesen das demütigende Friedensangebot, das wir machen mussten, angenommen haben. Es war leider der einzige Weg..."
+indonesia_events.36.a: "Eines Tages werden wir zurückkommen!"
+
+indonesia_events.37.t: "Indonesien bietet an, Papua zu kaufen"
+indonesia_events.37.d: "Die Indonesier haben uns angeboten, 20 % ihres jährlichen Wertes als Gegenleistung für unsere Besitztümer in Papua zu zahlen. Obwohl das Land relativ wenig wert ist, sind einige mit der Idee nicht einverstanden, da die örtliche Bevölkerung jeden Gedanken an einen Beitritt zu Indonesien mit überwältigender Mehrheit ablehnt."
+indonesia_events.37.a: "Das klingt nach einem guten Angebot."
+indonesia_events.37.b: "Wir wollen den doppelten Betrag!"
+indonesia_events.37.c: "Nein, danke..."
+
+indonesia_events.38.t: "Australasien akzeptiert"
+indonesia_events.38.d: "Australasien hat unser Angebot zum Kauf seiner Besitztümer auf Papua angenommen. Dies ist ein großer Tag für die indonesische Bevölkerung und für Indonesien gleichermaßen!"
+indonesia_events.38.a: "Hurra!"
+
+indonesia_events.39.t: "Australasien will eine höhere Summe."
+indonesia_events.39.d: "Die Indonesier haben uns wissen lassen, dass sie der Idee offen gegenüberstehen, dass sie aber das Doppelte des ursprünglich angebotenen Betrags von uns verlangen; so mancher Skeptiker, der weiß, dass der realistische Wert des Grundstücks ziemlich begrenzt ist."
+indonesia_events.39.a: "Wir nehmen es!"
+indonesia_events.39.b: "Kein Deal!"
+
+indonesia_events.40.t: "Indonesien akzeptiert"
+indonesia_events.40.d: "Die indonesischen Behörden reagierten positiv auf unsere Bitte um ein besseres Angebot. Es sieht so aus, als hätten wir eine Einigung erzielt, und die Übertragung der Souveränität wird gerade vorbereitet."
+indonesia_events.40.a: "Ein gutes Geschäft!"
+
+indonesia_events.41.t: "Indonesien lehnt ab"
+indonesia_events.41.d: "Die indonesischen Behörden haben entschieden, dass unser Land in Papua nicht annähernd den Preis wert ist, den wir von ihnen verlangen. Sie sind ausgestiegen; Papua wird unser Land bleiben..."
+indonesia_events.41.a: "Ende gut, alles gut."
+
+indonesia_events.42.t: "Australasia lehnt unseren Vorschlag ab"
+indonesia_events.42.d: "Die Australier haben unseren Vorschlag, Papua zu kaufen, mit der Begründung abgelehnt, dass dies gegen den Willen der einheimischen Bevölkerung geschehe und daher nicht arrangiert werden könne."
+indonesia_events.42.a: "Das sind Lügen..."
+
+indonesia_events.43.t: "Indonesien fordert den Rest der Indies"
+indonesia_events.43.d: "Während unserer Verhandlungen mit der indonesischen Bedrohung haben wir die weitere Kontrolle über Teile des Westens von Indonesien ausgehandelt. Jetzt sind sie zurückgekommen und argumentieren, dass dies laut Vertrag zu gegebener Zeit neu verhandelt werden sollte. Wir sind nicht sonderlich geneigt, ihnen das Gebiet tatsächlich zu überlassen, vor allem in Anbetracht der Tatsache, dass die Einheimischen nicht wirklich ein Teil von Indonesien werden wollen, aber unsere militärische Präsenz in dem Gebiet könnte ausreichend sein, um die Indonesier in Schach zu halten."
+indonesia_events.43.a: "Wir haben kaum eine Wahl!"
+indonesia_events.43.b: "Sie können kommen und es sich holen!"
+
+indonesia_events.44.t: "Die Niederländer sind einverstanden!"
+indonesia_events.44.d: "Die Niederländer haben unseren Standpunkt eingesehen und erkannt, dass ihre begrenzte militärische Präsenz in dem Gebiet wahrscheinlich nicht ausreicht, um die Insel vor unseren Streitkräften zu schützen, und haben sich bereit erklärt, uns die Souveränität über ihre Besitztümer zu übertragen."
+indonesia_events.44.a: "Eine weise Entscheidung!"
+
+indonesia_events.45.t: "Die Niederländer weigern sich!"
+indonesia_events.45.d: "Die törichten niederländischen Imperialisten haben den Menschen im Westen die Vereinigung mit ihren Brüdern im Osten mit dem Argument verweigert, dass sie sich uns nicht anschließen wollen. Wir haben keine andere Wahl, als sie mit Gewalt zu retten!"
+indonesia_events.45.a: "Wir kommen, um dich zu retten!"
+
+indonesia_events.46.t: "Wir sind besiegt!"
+indonesia_events.46.d: "Es hat sich gezeigt, dass wir in der Tat nicht in der Lage waren, unsere Besitztümer in Indonesien nach der Offensive der genannten Nation zu halten. Es scheint, dass wir kaum eine andere Wahl haben, als diese Tatsache zu akzeptieren."
+indonesia_events.46.a: "Ein trauriger Stand der Dinge..."
+indonesia_events.46.b: "Wir werden niemals aufgeben!"
+
+indonesia_events.47.t: "Wir sind besiegt!"
+indonesia_events.47.d: "Die niederländische Verteidigung war wesentlich stärker, als wir es vorher erwartet hatten. Es scheint, dass wir nicht in der Lage sind, eine wirksame Offensive gegen sie zu starten, und es ist sogar ein Gegenangriff zu befürchten. Ein demütigender Frieden scheint unser Schicksal zu sein."
+indonesia_events.47.a: "Wir haben kaum eine Wahl..."
+indonesia_events.47.b: "Wir werden niemals aufgeben!"
+
+indonesia_events.48.t: "Die Niederländer kapitulieren!"
+indonesia_events.48.d: "Die schwachen niederländischen Imperialisten wurden von der viel stärkeren indonesischen Armee leicht besiegt. Der Jubel über ihre Befreiung blieb jedoch etwas blass, aber das liegt wahrscheinlich daran, dass sie die Niederländer überschätzten und dachten, sie könnten einen Gegenangriff starten."
+indonesia_events.48.a: "Lang lebe Indonesien!"
+
+indonesia_events.49.t: "Die Indonesier geben auf!"
+indonesia_events.49.d: "Die Indonesier haben ihre Hoffnung aufgegeben, Westneuguinea mit Gewalt zu erobern. Sie bieten nun an, Reparationen zu zahlen; es scheint, als hätten wir gewonnen..."
+indonesia_events.49.a: "Das ist gut!"
+indonesia_events.49.b: "Wir haben die moralische Verpflichtung, dieses korrupte Regime zu beseitigen!"
+
+indonesia_events.50.t: "Die Niederländer wollen unsere Regierung zerstören!"
+indonesia_events.50.d: "Die Niederländer haben beschlossen, unsere 'korrupte' Regierung zu zerstören, anstatt nur unsere Reparationen zu akzeptieren. Sie fühlen sich offenbar 'verantwortlich dafür, dass ein so aggressives Regime in unserer ehemaligen Kolonie die Macht übernehmen konnte'."
+indonesia_events.50.a: "Ist das so?"
+
+indonesia_events.51.t: "Niederlage in Neuguinea"
+indonesia_events.51.d: "Trotz unseres erbitterten Widerstands waren wir offenbar nicht in der Lage, unsere Besitztümer auf der Insel Neuguinea vor den Indonesiern zu verteidigen. Die Fortsetzung des Krieges um die Insel, die ohnehin nicht sehr wertvoll ist, scheint eine unrealistische Option zu sein."
+indonesia_events.51.a: "Wir haben keine Wahl."
+indonesia_events.51.b: "Wir werden die Papuas niemals der javanischen Unterdrückung überlassen!"
+
+indonesia_events.52.t: "[AST.GetNameDefCap] kapituliert"
+indonesia_events.52.d: "Nach unserer erfolgreichen Übernahme der Insel hat die [AST.GetAdjective]-Regierung nachgegeben und die Kolonie an uns übergeben. Dies ist ein großer Sieg für Indonesien und für das arme unterdrückte Volk von Neuguinea!"
+indonesia_events.52.a: "Der Sieg ist unser!"
+indonesia_events.52.b: "Wenn wir mit der Entente Frieden schließen, wird Osttimor natürlich auch uns gehören!"
+
+indonesia_events.53.t: "Indonesien fordert Timor"
+indonesia_events.53.d: "Wir befinden uns nun schon seit einiger Zeit im Krieg mit Indonesien, und dieser Krieg ist nicht unbedingt zu unseren Gunsten ausgegangen. Da Indonesien auch Timor kontrolliert, haben sie beschlossen, nicht nur die Annexion Ost-Papuas zu akzeptieren, sondern auch die Kontrolle über Timor zu verlangen."
+indonesia_events.53.a: "Wir haben kaum eine Wahl."
+indonesia_events.53.b: "Wir werden unsere Kolonie niemals aufgeben!"
+
+indonesia_events.54.t: "Endlich Frieden"
+indonesia_events.54.d: "Nachdem unsere Forderungen endlich erfüllt sind, kann ein Frieden mit den Entente-Mächten geschlossen werden. Es war ein harter Krieg, aber er hat sich gelohnt, denn wir haben sowohl in Neuguinea als auch in Timor gewonnen!"
+indonesia_events.54.a: "Der Sieg ist in der Tat unser!"
+
+indonesia_events.55.t: "Portugal weigert sich"
+indonesia_events.55.d: "Die starrköpfigen Portugiesen weigern sich, das uns zustehende Land in Osttimor abzutreten. Es scheint, dass die Friedensgespräche gescheitert sind."
+indonesia_events.55.a: "Und so geht der Krieg weiter."
+
+indonesia_events.56.t: "Portugal hat die Friedensverhandlungen abgebrochen"
+indonesia_events.56.d: "Obwohl wir bereit sind, uns mit den Indonesien an einen Tisch zu setzen, weigern sich die Portugiesen, ihnen ihre von den Indonesien besetzten Gebiete in Neuguinea zu überlassen. Der Krieg geht also weiter..."
+indonesia_events.56.a: "Hartnäckige Kerle, was!"
+
+indonesia_events.57.t: "Der Sieg in Neuguinea"
+indonesia_events.57.d: "Die Indonesier haben offenbar geglaubt, dass es ihnen leicht fallen würde, uns aus unserer Kolonie in Neuguinea zu vertreiben, aber da haben sie sich gewaltig getäuscht! Wir haben uns die Insel gesichert, und es scheint ein logischer Schritt zu sein, die Kontrolle über West-Neuguinea zu verlangen, damit sie nie wieder in der Lage sind, unsere Besitztümer zu bedrohen!"
+indonesia_events.57.a: "Sendet das Angebot!"
+indonesia_events.57.b: "Es ist sicherer, dieses Regime ein für alle Mal zu beenden!"
+
+indonesia_events.58.t: "[AST.GetNameDefCap] fordert unsere Kapitulation"
+indonesia_events.58.d: "Unser Plan, die [AST.GetAdjective]-Betriebe in Irian schnell zu übernehmen, ist gründlich nach hinten losgegangen: Ihre Streitkräfte haben unsere Betriebe auf der Insel fest im Griff und verlangen nun, die Kontrolle über Irian Jaya zu übernehmen, um sicherzustellen, dass wir nie wieder versuchen, sie zu bedrohen."
+indonesia_events.58.a: "Ich fürchte, wir haben kaum eine andere Wahl..."
+indonesia_events.58.b: "Niemals!"
+
+indonesia_events.59.t: "Die Indonesier weigern sich"
+indonesia_events.59.d: "Die indonesischen Behörden lehnten unser großzügiges Angebot ab, da sie behaupteten, dass sie immer noch in der Lage sein werden, unsere Offensive zu kontern."
+indonesia_events.59.a: "Das werden wir sehen, wenn wir in Jakarta marschieren."
+
+indonesia_events.60.t: "Die Deutschen sind besiegt"
+indonesia_events.60.d: "Wir haben die deutsche Bedrohung gründlich besiegt. Jetzt, da wir weite Teile ihrer kolonialen Besitzungen in Asien kontrollieren, scheint die Befreiung der verbliebenen Malaysier näher denn je!"
+indonesia_events.60.a: "Sendet ein Telegramm nach Berlin!"
+
+indonesia_events.61.t: "Niederlage im Osten"
+indonesia_events.61.d: "Völlig unerwartet ist es den Indonesiern gelungen, unsere Kolonialtruppen in Deutsch-Ostasien zu überwältigen. Sie bieten nun an, einen Frieden zu unterzeichnen, im Gegenzug für die Annexion unseres Gebietes, das sie beanspruchen: alles, was auch nur im Entferntesten als malaiisch bezeichnet werden kann."
+indonesia_events.61.a: "Wir haben kaum eine Wahl!"
+indonesia_events.61.b: "Niemals!"
+
+indonesia_events.62.t: "Deutschland nimmt unser Friedensangebot an!"
+indonesia_events.62.d: "Berlin hat uns wissen lassen, dass es unser gnädiges Friedensangebot akzeptiert. Es scheint, dass unser Vorhaben ein Erfolg war!"
+indonesia_events.62.a: "Lang lebe Indonesien Raya!"
+
+indonesia_events.63.t: "[From.GetName] weigert sich"
+indonesia_events.63.d: "Die starrköpfigen Hunnen weigern sich, uns ihre malaysischen Besitztümer zu überlassen. Es scheint, der Krieg wird weitergehen."
+indonesia_events.63.a: "Verfluchte Hunnen!"
+
+indonesia_events.64.t: "Niederlage in Sarawak"
+indonesia_events.64.d: "Unsere Invasion in Sarawak verlief nicht ganz wie geplant: Wir wurden von der Armee von Sarawak zurückgedrängt und müssen nun ein demütigendes Friedensabkommen mit diesen Krypto-Imperialisten unterzeichnen, das wahrscheinlich die Abtretung von Lanfang und eine beträchtliche finanzielle Entschädigung beinhaltet."
+indonesia_events.64.a: "Wir haben keine Wahl!"
+indonesia_events.64.b: "Niemals!"
+
+indonesia_events.65.t: "Sieg gegen Indonesien"
+indonesia_events.65.d: "Wir haben die indonesische Invasion in Sarawak erfolgreich zurückgeschlagen und werden nun von den Indonesiern um Frieden gebeten. Wir können nun eine finanzielle Entschädigung sowie die Annexion von Lanfang fordern."
+indonesia_events.65.a: "Hurra!"
+indonesia_events.65.b: "Wir werden nicht aufhören, bis wir durch Djakarta marschiert sind!"
+
+indonesia_events.66.t: "Sarawak akzeptiert!"
+indonesia_events.66.d: "Sarawak hat unser Friedensangebot angenommen. Der Frieden kehrt in die Region zurück, auch wenn er uns teuer zu stehen gekommen ist."
+indonesia_events.66.a: "Gut."
+
+indonesia_events.67.t: "Sarawak lehnt unser Friedensangebot ab"
+indonesia_events.67.d: "Die Regierung von Sarawak hat unser gnädiges Friedensangebot abgelehnt, sie glaubt offenbar, uns eine bedingungslose Kapitulation aufzwingen zu können!"
+indonesia_events.67.a: "Die Narren!"
+
+indonesia_events.68.t: "Das Gesetz Azasy"
+indonesia_events.68.d: "Der Kanun Azasy erfüllt die Rolle unserer Nation; er ist die Grundlage unserer Gesetze: Er verankert den Platz des islamischen Rechts, der Syari'ah, in unserem Rechtssystem und unserem Regierungssystem, einer Djumhuryah, einer Republik, die vom Imam geleitet wird. Er wird das Wohlergehen unserer Nation in der Zukunft sicherstellen."
+indonesia_events.68.a: "Indonesien ist eine Moschee..."
+indonesia_events.68.b: "... und Kartosuwiryo sein Imam."
+
+indonesia_events.69.t: "Indonesische Wahlen von [GetYear]"
+indonesia_events.69.d: "Wieder einmal ist es an der Zeit, dass die Indonesier für ihre Lieblingspartei stimmen, um die Regierung zu übernehmen; jeder wartet gespannt auf die Umfragen, um zu sehen, wer gewinnen wird:"
+indonesia_events.69.a: "Partai Murba."
+indonesia_events.69.b: "Nahdlatul Ulama."
+indonesia_events.69.c: "Partai Nasional Indonesien."
+indonesia_events.69.e: "Ein Dewan!"
+
+indonesia_events.70.t: "Bildung einer Koalition?"
+indonesia_events.70.d: "Keine der Parteien, die in den Dewan gewählt wurden, hat eine tragfähige Mehrheit erreicht, und eine Regierung wird durch Kompromisse gebildet werden müssen. Während es klar ist, dass [INS.GetLeader] dafür sorgen wird, dass diese Regierung von der PNI geführt wird, stellt sich die Frage, ob sie mit den pro-religiösen Gruppen Nahdlatul Ulama und Sarekat Islam oder eher mit der pro-sozialistischen Partai Sosialis Indonesien und Murba zusammenarbeiten wird..."
+indonesia_events.70.a: "Eine Koalition mit der PSII und der NU."
+indonesia_events.70.b: "Eine Koalition mit Murba und der PSI."
+
+indonesia_events.71.t: "Krise in der Koalition"
+indonesia_events.71.d: "Weder in der PNI noch in der Nahdlatul Ulama oder der PSII war jemand besonders begeistert davon, gemeinsam eine Regierung zu bilden, aber das Volk hatte gesprochen, und es gab kaum noch eine andere Wahl. In letzter Zeit sind jedoch die Spannungen zwischen der Partai Nasional Indonesien und den islamischen Parteien gewachsen, da die erstere ihre Macht durch den Präsidenten als Führer dieses säkularen Staates zu festigen sucht und die letztere vor allem daran interessiert zu sein scheint, die Stellung des Islam als Staatsreligion von Indonesien zu sichern. Der Präsident [Root.GetLeader] erwägt ein Dekret, das die derzeitige Verfassung für ungültig erklärt und zur vorherigen Verfassung zurückkehrt, in der der Präsident nahezu absolute Macht hat, und die konservativen Minister nach Hause zu schicken, während die PNI ihre absolute Herrschaft über die Republik festigt."
+indonesia_events.71.a: "[INS.GetLeader] ordnet an, dass wir zur vorherigen Verfassung zurückkehren."
+indonesia_events.71.b: "Tut alles, was in Ihrer Macht steht, um die Koalition zu retten!"
+
+indonesia_events.72.t: "Koalition erfolgreich gerettet!"
+indonesia_events.72.d: "Unser Tauschhandel mit Zugeständnissen in weniger wichtigen Punkten hat zur erfolgreichen Rettung unserer Koalition geführt, und es scheint, dass diese Koalition ihre Amtszeit erfüllen wird."
+indonesia_events.72.a: "Gut!"
+
+indonesia_events.73.t: "Rettung der Koalition gescheitert!"
+indonesia_events.73.d: "Trotz unserer Bemühungen haben sich die Beziehungen zwischen den drei Parteien weiter verschlechtert, und heute sind die Minister der Nahdlatul Ulama und der Sarekat Islam von ihren Ämtern zurückgetreten. Angesichts dieser politischen Lage hat der Präsident keine andere Wahl, als dieses Dekret zu erlassen..."
+indonesia_events.73.a: "So sei es..."
+
+indonesia_events.74.t: "Die [GetDateText] Affäre"
+indonesia_events.74.d: "Am [GetDateText] zogen mehrere bewaffnete Soldaten zum Palast, um die Auflösung des Rates der Volksvertreter zu fordern. Dies zeigt, wie gering die Legitimität des Gremiums in der Bevölkerung ist, und immer mehr Gruppen fordern die Regierung auf, landesweite Wahlen abzuhalten, damit das Gremium ein tatsächliches Mandat anstelle seiner Ernennung erhält."
+indonesia_events.74.a: "Wir werden es berücksichtigen..."
+
+indonesia_events.75.t: "1938 Erdbeben in der Banda-See"
+indonesia_events.75.d: "Am 1. Februar 1938 um 19:04 Uhr Ortszeit wurde die Banda-See von einem Erdbeben der Stärke 8,4 auf der Momenten-Magnituden-Skala mit hoher Intensität erschüttert. Obwohl in der Folge zerstörerische Tsunamis mit einer Höhe von bis zu 1,5 Metern entstanden, hat die Katastrophe aufgrund ihrer Lage keine Menschenleben gekostet."
+indonesia_events.75.a: "Gott sei Dank!"
+
+indonesia_events.76.t: "1943 Alahan Panjang Doppel-Erdbeben"
+indonesia_events.76.d: "Die Regentschaft Solok wurde von zwei Erdbeben erschüttert: Das erste Hauptbeben der Stärke 7,1 ereignete sich am 8. Juni um 20:42 Uhr Ortszeit, das zweite der Stärke 7,5 acht Stunden später. Es scheint zwar keine Opfer zu geben, aber das Gebiet wurde schwer beschädigt."
+indonesia_events.76.a: "Wir werden helfen, wo wir können!"
+
+indonesia_events.77.t: "1943 Erdbeben in Zentraljava"
+indonesia_events.77.d: "Ein Erdbeben der Stärke 7,0 auf der Momenten-Magnituden-Skala hat Zentraljava erschüttert, 213 Menschen getötet, weitere 3900 verletzt und mehr als 12600 Häuser zum Einsturz gebracht. Diese Katastrophe hat große Schäden verursacht, die auf die eine oder andere Weise behoben werden müssen."
+indonesia_events.77.a: "Oh nein!"
+
+indonesia_events.78.t: "Umgang mit Borobudur"
+indonesia_events.78.d: "In der Nähe von Yogyakarta in Java befindet sich der Borobudur-Tempelkomplex, der von buddhistischen Ungläubigen genutzt und vor zwei Jahrzehnten von den Niederländern restauriert wurde. Natürlich ist dies ein Schandfleck für unsere Nation, und wir können nicht zulassen, dass er noch mehr Ungläubige anlockt, also muss er abgerissen werden. Die Frage ist nur, wie?"
+indonesia_events.78.a: "Dynamit!"
+indonesia_events.78.b: "Vorschlaghämmer!"
+
+indonesia_events.79.t: "Hauptstadtfrage"
+indonesia_events.79.d: "Mit der Machtübernahme durch die Royalisten sind Stimmen laut geworden, die dafür plädieren, die Hauptstadt unserer großen Nation offiziell in die Stadt Yogyakarta zu verlegen, die Hauptstadt des Sultanats des Sultans, wo sich sein Machtsitz befindet. Andere argumentieren, dass ein solcher Schritt eine Dominanz Yogyakartas innerhalb der Nation implizieren würde und dass es besser wäre, Jakarta als Hauptstadt unserer Nation zu belassen, um unsere Unparteilichkeit zu zeigen."
+indonesia_events.79.a: "Ich mache mir nichts aus Unparteilichkeit."
+indonesia_events.79.b: "Jakarta scheint die bessere Wahl zu sein."
+
+indonesia_events.80.t: "Zentralisierung oder Dezentralisierung?"
+indonesia_events.80.d: "Die Macht des Adels wurde durch den Staatsstreich gesichert, doch nun fangen sie an, sich untereinander zu streiten: Der Sultan von Yogyakarta und damit von ganz [INS.GetNameDef] möchte alle Macht in der nationalen Regierung zentralisieren, doch seine Verbündeten, die kleineren Adligen und anderen Sultane, würden die Macht lieber dezentralisiert halten, mit ihnen an der Spitze ihres eigenen Königreichs. Nun versucht der Sultan, seinen Wunsch nach einem zentralisierten Indonesien durchzusetzen - werden die anderen Adligen in der Lage sein, den Mächtigsten unter ihnen aufzuhalten?"
+indonesia_events.80.a: "Sultan Hamengkubuwono sichert sich seinen Wunsch!"
+indonesia_events.80.b: "Die Adligen blockieren erfolgreich den Schritt!"
+
+indonesia_events.81.t: "Die königliche Verfassung - Erbfolge"
+indonesia_events.81.d: "Als wir mit der Ausarbeitung einer endgültigen Verfassung für unsere glorreiche Nation beginnen, stellt sich als erstes das Problem der Thronfolge: Was passiert, wenn unser Sultan stirbt? Der Sultan selbst würde es vorziehen, dass sein Sohn das Erbe antritt, aber viele der anderen Adligen sind damit überhaupt nicht einverstanden und argumentieren, dass die beste Lösung darin bestünde, sie darüber abstimmen zu lassen, wer den Thron besteigen soll, damit der Fähigste von ihnen allen regieren kann."
+indonesia_events.81.a: "Es ist eine Wahlmonarchie..."
+indonesia_events.81.b: "Der würde bedeuten, dass der Erbe von Yogyakarta nicht der fähigste ist..."
+
+indonesia_events.82.t: "Die Königliche Verfassung - Exekutivgewalt"
+indonesia_events.82.d: "Nach mehreren Fragen, über die man sich relativ leicht einigen konnte, wie z. B. den Status der Religion (frei) und des Syndikalismus (verboten), ist wieder einmal eine strittige Frage aufgetaucht: Wo soll die Verantwortung für die Exekutivgewalt liegen? Nach Ansicht von Sultan Hamengkubuwono sollte diese beim Sultan der Nation liegen: Gerade diese Debatte beweise dies, andernfalls würde sich jede Entscheidung auf das derzeitige Gezänk reduzieren, während die absolute Herrschaft des Sultans eine schnelle Entscheidungsfindung gewährleisten würde. Mehrere Fürsten sind jedoch anderer Meinung und argumentieren, dass dies dem Sultan zu viel Macht auf Kosten der anderen Adligen gibt."
+indonesia_events.82.a: "Der Fürstenrat sollte das letzte Wort haben."
+indonesia_events.82.b: "Der Sultan sollte das letzte Wort haben."
+
+indonesia_events.83.t: "Die Königliche Verfassung - Entzug von Titeln"
+indonesia_events.83.d: "Gegen Ende der Verfassung erwähnte der Sultan, dass es die Möglichkeit geben sollte, die Titel im Falle außergewöhnlicher Ereignisse zu widerrufen. Dies lässt den Großteil des Adels um seine Position bangen und niemand glaubt wirklich, dass der Sultan dies durchsetzen kann. Dann macht er jedoch Zugeständnisse: es bedarf einer 2/3 Mehrheit im Fürstenrat."
+indonesia_events.83.a: "Ein Widerruf ist nicht akzeptabel..."
+
+indonesia_events.84.t: "Unterzeichnung der Verfassung"
+indonesia_events.84.d: "Nach langen Wochen der Verhandlungen haben wir endlich die Verfassung fertiggestellt. Der Sultan ist gerade dabei, sie zu unterzeichnen, es ist jedoch klar, dass wir dem nationalen Sultan vielleicht zu viel Macht gegeben haben. Die Fürsten und Rajas scheinen mit der neuen Verfassung nicht besonders glücklich zu sein. Pessimisten könnten sagen, dass sie dieser Regierung, der sie sich nicht ganz zugehörig fühlen, nicht besonders loyal sein werden."
+indonesia_events.84.a: "Hurra! Ach... kommt schon Leute, jubelt mit!"
+
+indonesia_events.85.t: "Unterzeichnung der Verfassung"
+indonesia_events.85.d: "Nach langen Wochen der Verhandlungen haben wir die Verfassung endlich fertiggestellt. Der Sultan ist gerade dabei, sie zu unterzeichnen, auch wenn er zögert. Es ist klar, dass wir den Forderungen der niederen Adligen viel nachgeben mussten, so dass sie durch diese Verfassung im Vergleich zu früher unverhältnismäßig mächtig geworden sind. Es wird schwieriger sein, unseren Willen in diesem Umfeld durchzusetzen."
+indonesia_events.85.a: "H... Hurra?"
+
+indonesia_events.86.t: "Unterzeichnung der Verfassung"
+indonesia_events.86.d: "Nach langen Wochen der Verhandlungen haben wir endlich die Verfassung fertiggestellt. Der Sultan unterschreibt sie in diesem Moment, und danach beginnt ein Fest. Zwar musste jede Seite in einigen Dingen nachgeben, aber es ist klar, dass das Ergebnis für beide Seiten recht zufriedenstellend ist."
+indonesia_events.86.a: "Hurra!"
+
+indonesia_events.87.t: "[FROM.GetNameDefCap] möchte sich uns anschließen"
+indonesia_events.87.d: "[From.GetAdjective] Diplomaten sind an uns herangetreten, um die Möglichkeiten für einen Beitritt zu [Root.GetNameDef] in einem formellen Bündnis zu erkunden. Heute haben sie einen offiziellen Antrag gestellt."
+indonesia_events.87.a: "[FROM.GetNameDefCap] ist immer willkommen!"
+indonesia_events.87.b: "[FROM.GetNameDefCap]? Warum sollten wir sie schützen wollen?"
+
+indonesia_events.88.t: "[FROM.GetNameDefCap] nimmt unsere Anfrage an"
+indonesia_events.88.d: "Wir wurden von [From.GetFactionName] formell in [From.GetNameDef] aufgenommen. Gemeinsam werden wir stark sein!"
+indonesia_events.88.a: "Gut zu hören!"
+
+indonesia_events.89.t: "[FROM.GetNameDefCap] lehnt unser Ersuchen ab"
+indonesia_events.89.d: "[FROM.GetNameDefCap] hat uns wissen lassen, dass es nicht in ihrem Interesse liegt, eine Allianz mit uns einzugehen."
+indonesia_events.89.a: "Wie kann die Zusammenarbeit nicht im gegenseitigen Interesse liegen?"
+
+indonesia_events.93.t: "Beginn der Umwandlung in einen Flugzeugträger"
+indonesia_events.93.d: "Wir haben zwei ideale Konvoi-Handelsschiffe gefunden, die wir in die ersten Handelsflugzeugträger von [INS.GetNameDef] umbauen können, die in der Lage sind, Flugzeuge von See aus einzusetzen. Es wird eine nicht unbedeutende Operation sein, um sie auf den Standard anderer Flugzeugträger zu bringen..."
+indonesia_events.93.a: "Fangen wir an, daran zu arbeiten!"
+
+indonesia_events.94.t: "Handelsflugzeugträger fertiggestellt!"
+indonesia_events.94.d: "Die Handelsschiffe, die wir in Flugzeugträger umgewandelt haben, scheinen zu funktionieren. Wir haben bereits mehrere Tests durchgeführt, und sie scheinen sich zu bewähren. Die Erfahrung, die wir bei der Konstruktion gewonnen haben, wird die [INS.GetAdjective]-Marine sicherlich zu etwas Besonderem machen!"
+indonesia_events.94.a: "Hurra!"
+
+indonesia_events.95.t: "[FROM.GetNameDefCap] will alte Kampfflugzeuge kaufen"
+indonesia_events.95.d: "[FROM.GetNameDefCap] ist mit einem Angebot an uns herangetreten, einhundert unserer älteren Kampfflugzeuge für eine anständige Summe zu kaufen. Was sagen wir dazu?"
+indonesia_events.95.a: "Natürlich!"
+indonesia_events.95.b: "Eher nicht!"
+
+indonesia_events.96.t: "[FROM.GetNameDefCap] akzeptiert"
+indonesia_events.96.d: "[FROM.GetNameDefCap] hat unser Angebot angenommen und uns einige ihrer älteren Kampfflugzeuge verkauft. Dies wird die [INS.GetAdjective]-Luftstreitkräfte erheblich verbessern!"
+indonesia_events.96.a: "Ausgezeichnet."
+
+indonesia_events.97.t: "[FROM.GetNameDefCap] sagt nein"
+indonesia_events.97.d: "The [JAP.GetAdjective] haben unser Ersuchen, einige ihrer älteren Flugzeuge zu kaufen, mit der Begründung abgelehnt, dies läge nicht in ihrem Interesse."
+indonesia_events.97.a: "Enttäuschend..."
+
+indonesia_events.98.t: "Indonesische Wahlen von [GetYear]"
+indonesia_events.98.d: "Wieder einmal ist es an der Zeit, dass die Indonesier für ihre Lieblingspartei stimmen, um die Regierung zu übernehmen; jeder wartet gespannt auf die Umfragen, um zu sehen, wer gewinnen wird:"
+indonesia_events.98.a: "Partai Sosialis Indonesien."
+indonesia_events.98.b: "Nahdlatul Ulama."
+indonesia_events.98.c: "Partai Nasional Indonesien."
+
+indonesia_events.101.t: "Adisucipto's Flug"
+indonesia_events.101.d: "Wir brauchen dringend Medikamente für unsere Verwundeten, sowohl zivile als auch militärische, aber wir können sie nicht bekommen, da die Niederländer alles zu tun scheinen, um uns von der Außenwelt fernzuhalten. [HND.GetNameDef] sympathisiert mit unserer Sache. Wenn wir ein Flugzeug nach Kalkutta schicken, werden sie uns die Medikamente sicher liefern, so dass unser Kampf etwas mehr Aussicht auf Erfolg hat? Es ist jedoch eine gefährliche Reise nach Indien, da die Niederländer diese Route benutzen."
+indonesia_events.101.a: "Schickt das Flugzeug, sie werden es schaffen."
+indonesia_events.101.b: "Wir können die Männer nicht entbehren!"
+
+indonesia_events.102.t: "Adisucipto trifft in Kalkutta ein"
+indonesia_events.102.d: "Der [INS.GetAdjective]-Pilot Agustinus Adisucipto ist heute mit einer Gruppe von [INS.GetAdjective]-Männern in Kalkutta eingetroffen und bittet um Medikamente und andere Hilfsgüter für ihren Kampf - aus humanitären Gründen. Können wir die Hilfsgüter entbehren?"
+indonesia_events.102.a: "Natürlich!"
+indonesia_events.102.b: "Tut uns leid, wir haben leider keine für Sie..."
+
+indonesia_events.103.t: "Adisucipto kehrt zurück"
+indonesia_events.103.d: "Das Flugzeug, das wir zuvor nach Indien geschickt hatten, ist mit einer Fülle von Vorräten zurückgekehrt: Lebensmittel, Medikamente, Werkzeuge - genug, um unseren Kampf zumindest für eine Weile aufrechtzuerhalten."
+indonesia_events.103.a: "Vielen Dank, Bharat."
+
+indonesia_events.104.t: "Adisucipto kehrt zurück"
+indonesia_events.104.d: "Das Flugzeug, das wir vorhin nach Indien geschickt haben, ist zurückgekehrt - leider konnte [HND.GetNameDef] keine Vorräte für uns entbehren, so dass diese Operation weitgehend nutzlos war. Adisucipto ist mit leeren Händen zurückgekehrt."
+indonesia_events.104.a: "Danke, Bharat, für gar nichts!"
+
+indonesia_events.105.t: "Unruhen auf den Molukken"
+indonesia_events.105.d: "Nach dem Segen des Größten und der Übernahme unserer großen Nation haben die Unruhen auf den Molukken stetig zugenommen. Die Mehrheit der Molukken sind Christen und lehnen unsere Herrschaft ab, und es überrascht nicht, dass es in der gesamten Region zu Demonstrationen und Widerstandshandlungen gekommen ist."
+indonesia_events.105.a: "Verfluchte Ungläubige!"
+
+indonesia_events.106.t: "Unruhen auf den Molukken nehmen zu"
+indonesia_events.106.d: "Trotz der harten Arbeit unserer Missionare und Sicherheitskräfte haben die Unruhen in der Region Maluku weiter zugenommen. Wir müssen härter zurückschlagen, aber unsere Regierung ist uneins darüber, wie wir vorgehen sollen: Einige wollen, dass wir ihre Führer stürzen und enthaupten, wie Allah es verlangt. Andere sind der Meinung, dass eine sanftere Herangehensweise mit Zwangskonvertierungen ausreichen würde."
+indonesia_events.106.a: "Die Enthauptung der Ungläubigen ist der einzige Weg."
+indonesia_events.106.b: "Den Ungläubigen zu bekehren ist ehrenvoller als sie zu töten!"
+
+indonesia_events.107.t: "Hilfeersuchen der Molukken"
+indonesia_events.107.d: "Die Inselgruppe der Molukken in Indonesien wird hauptsächlich von Christen bewohnt, im Gegensatz zu einem Großteil des übrigen Landes, das inzwischen von der Darul-Islam-Bewegung übernommen wurde, die eine sehr orthodoxe Version vertritt, zu der auch ein Hass auf die 'Ungläubigen' gehört. Die Molukker wollten uns zunächst nicht um Hilfe bitten, da sie ihren eigenen Staat zu sichern suchten, aber nachdem die alte Führung ihrer Widerstandsbewegung hingerichtet wurde, hat die neue (untergetauchte) Führung beschlossen, dass unsere Kolonialherrschaft der derzeitigen muslimischen Vorherrschaft vorzuziehen ist, und bittet uns um Hilfe, in der Hoffnung, dass wir die Inselgruppe annektieren werden."
+indonesia_events.107.a: "Sie sollen es bekommen."
+indonesia_events.107.b: "Wir können uns nicht in diese Angelegenheit einmischen!"
+
+indonesia_events.108.t: "Unruhen in Maluku lassen nach"
+indonesia_events.108.d: "Nach unserem harten Durchgreifen gegen die Ungläubigen in Maluku wurde eine bedeutende Minderheit bekehrt und die Kraft ihres Widerstands geschwächt. Es scheint, dass wir die Kontrolle über die Region zurückgewonnen haben."
+indonesia_events.108.a: "Gut..."
+
+indonesia_events.109.t: "[GEA.GetAdjective] Schiffe in Maluku gesichtet"
+indonesia_events.109.d: "Deutsche Schiffe sind in Maluku eingetroffen und unterstützen ungläubige Rebellen, die unsere Garnison auf der Insel schnell in die Enge getrieben haben. Es überrascht nicht, dass die malukuische Exilregierung daraufhin ankündigte, ein deutsches Protektorat zu werden, was in unserem Land weithin als inakzeptabel gilt!"
+indonesia_events.109.a: "Es gibt nichts, was wir tun können!"
+indonesia_events.109.b: "Krieg ist es dann!"
+
+indonesia_events.110.t: "Korruption geht zurück"
+indonesia_events.110.d: "Da der Lebensstandard dank unserer erfolgreichen Politik immer weiter ansteigt, wird die Korruption immer seltener, da die Indonesier mehr Erfahrung in ihren neuen Jobs sammeln, bereits einen (wenn auch derzeit noch begrenzten) Anstieg ihres Lebensstandards genießen und die Maßnahmen gegen Korruption immer besser durchgesetzt werden. Es liegt Positivität in der Luft!"
+indonesia_events.110.a: "Ein Hoch auf Indonesien!"
+
+indonesia_events.111.t: "Hari Merdeka Tag"
+indonesia_events.111.d: "An diesem Tag erklärten Sukarno, Hatta und die anderen Führer der Unabhängigkeitsbewegung [INS.GetAdjective] die Unabhängigkeit unserer Nation. Heute feiern wir diesen freudigen Anlass, der uns nach einem langen Kampf schließlich die Unabhängigkeit sicherte, mit Spielen und Festlichkeiten im ganzen Land."
+indonesia_events.111.a: "Indonesien vereinigt!"
+
+indonesia_events.113.t: "Der Aufstieg von Bahasa Indonesia"
+indonesia_events.113.d: "Mit dem Aufstieg unserer Nation brauchen wir eine vereinheitlichende Sprache, die das indonesische Malaiisch übernimmt und in Bahasa Indonesia umbenennt. Obwohl einige Menschen aus Java diese Entscheidung weiterhin kritisieren und argumentieren, dass ein viel größerer Teil der Bevölkerung Javanisch spricht, wurde diese Entscheidung offiziell bereits 1928 mit dem Jugendversprechen getroffen. indonesische Malaiisch ist seit Jahrhunderten als regionale Verkehrssprache in Gebrauch und scheint daher eine natürliche Wahl zu sein, auch wenn nur 5 % der Bevölkerung es als Muttersprache sprechen."
+indonesia_events.113.a: "Die indonesische Sprache wird zur Einigung unserer Nation beitragen!"
+
+indonesia_events.114.t: "Der Große Rat der Ulama"
+indonesia_events.114.d: "Nachdem die Nahdlatul Ulama nun für eine Weile an der Macht sind, wenden sie sich ihrem größten politischen Projekt zu: der Bildung des Großen Rates der Ulema. Durch die Einladung weiser hochrangiger Gelehrter gründen wir diesen Rat, der die Regierung nicht nur in religiösen Fragen berät, sondern auch die Befugnis hat, die islamischen Werte bei Bedarf locker durchzusetzen. Natürlich nur bis zu einem gewissen Grad, denn sonst können wir es nicht durch das Parlament bringen."
+indonesia_events.114.a: "Eine lobenswerte Initiative!"
+
+indonesia_events.115.t: "Indonesische Exilanten wollen sich der Rebellion anschließen"
+indonesia_events.115.d: "Inspiriert von unserem Aufstand gegen die hunnische Bedrohung hat eine Gruppe von mehreren indonesischen sozialistischen Exilanten unter der Führung des berühmten indonesischen Sozialisten Tan Malaka ihre Dienste als Teil unseres Kampfes angeboten.\n\nViele glauben, dass wir jede Hilfe gebrauchen können, die wir bekommen können. Sollen wir diese Indonesier für den Ruhm der indochinesischen Revolution jetzt und der indonesischen Revolution morgen hereinlassen?"
+indonesia_events.115.a: "Natürlich!"
+indonesia_events.115.b: "Eher nicht!"
+
+indonesia_events.116.t: "Indonesische Exilanten wollen sich der Rebellion anschließen"
+indonesia_events.116.d: "Inspiriert von unserem Aufstand gegen die hunnische Bedrohung hat eine Gruppe von mehreren indonesischen sozialistischen Exilanten unter der Führung des berühmten indonesischen Sozialisten Tan Malaka ihre Dienste als Teil unseres Kampfes angeboten.\n\nViele glauben, dass wir jede Hilfe gebrauchen können, die wir bekommen können. Sollen wir diese Indonesier für den Ruhm der indochinesischen Revolution jetzt und der indonesischen Revolution morgen hereinlassen?"
+indonesia_events.116.a: "Natürlich!"
+
+indonesia_events.117.t: "Tan Malaka kehrt nach Indonesien zurück"
+indonesia_events.117.d: "Die koloniale Ordnung ist auch in Indonesien zusammengebrochen, und es überrascht nicht, dass Tan Malaka und seine Exilanten in ihr Heimatland zurückgekehrt sind, um es vor Bedrohungen zu schützen und es zur sozialistischen Revolution zu führen."
+indonesia_events.117.a: "Wir wünschen ihnen viel Glück!"
+
+indonesia_events.118.t: "Die indonesische nationale Revolution"
+indonesia_events.118.d: "Indonesien war eine der ältesten europäischen Kolonien und stand seit 1800 unter der Herrschaft der niederländischen Regierung, noch viel früher unter der Herrschaft der Niederländischen Ostindien-Kompanie. Dieser Zustand dürfte jedoch nicht mehr lange andauern, da vor dem Hintergrund wachsender Instabilität und Wut gegen die niederländischen Kolonialherren [INS.GetLeader], eine der einflussreichsten Persönlichkeiten der indonesischen Unabhängigkeitsbewegung, einen bewaffneten Aufstand anführte, um die Kolonialmächte zu vertreiben, und den Beginn der indonesischen Nationalrevolution ausrief.\nObwohl die Rebellen im Vergleich zu den Niederländern mit Mängeln in der Ausrüstung und Ausbildung zu kämpfen haben, haben sie den Vorteil, auf heimischem Terrain gegen einen Feind zu kämpfen, der seine Truppen aus Tausenden von Kilometern Entfernung versorgen muss.\nWer auch immer gewinnt, Indonesien ist für immer verändert."
+indonesia_events.118.a: "Merdeka!"
+indonesia_events.118.b: "Ein weiterer Schlag für die europäische Macht..."
+indonesia_events.118.c: "Banditen und Kriminelle!"
+indonesia_events.118.e: "Man kann Menschen nicht über Jahrhunderte hinweg unterdrücken."
 
 #Focus Tree
 INS_merdeka: "Merdeka!"
@@ -774,23 +745,23 @@ INS_japanese_carrier_designs_desc: "Der Bau von Flugzeugträgern ist lächerlich
 ### Decisions ###
 INS_silent_revolution_category: "Stille Revolution"
 INS_silent_revolution_category_desc: "Tan Malaka und die Partai Murba sind mit der derzeitigen Regierungsform von Indonesien nicht einverstanden, wissen aber auch, dass sie vorsichtig vorgehen müssen. Nachdem wir bei den Wahlen die Mehrheit errungen haben, sind wir in einer perfekten Position, um unsere Kontrolle über das Land langsam zu festigen, bis wir einen Selbstputsch begehen können, ohne das Land so weit zu schwächen, dass wir von der Macht verdrängt werden oder eine ausländische Macht zum Eingreifen provozieren."
-ins.secure_the_milisi_murba: "Ernennung der Milisi Murba zu einem offiziellen Teil der Regierung"
-ins.secure_the_milisi_murba_desc: "Die Milisi Murba ist eine kleine Verteidigungsorganisation, die wir kurz nach unserem Sieg gegründet haben, um zu verhindern, dass die Reaktionäre den Auftrag des Volkes ignorieren und die Macht übernehmen. Sie ist jedoch relativ schwach: Wir sollten sie neben Polizei, Armee, Luftstreitkräfte und Marine offiziell in die Regierung einbinden, um sicherzustellen, dass sie in der Lage ist, ihr Ziel zu erreichen."
-ins.socialist_rebellion_yogya: "Zettelt eine sozialistische Rebellion im Sultanat Yogyakarta an"
-ins.socialist_rebellion_yogya_desc: "Dem Sultanat von Yogyakarta ist es gelungen, die indonesische Regierung mit Unterstützung zu erpressen, um einen Sonderstatus innerhalb der Republik zu erlangen und seinen eigenen Staat wie eine Monarchie zu regieren. Wir können diesen Status jedoch nicht einfach ohne öffentliche Gegenreaktion aufheben, also sollten wir einen sozialistischen Aufstand 'fabrizieren', um einen Grund für die Aufhebung zu schaffen - offensichtlich regieren sie ihre Provinz nicht uneigennützig."
+ins_secure_the_milisi_murba: "Ernennung der Milisi Murba zu einem offiziellen Teil der Regierung"
+ins_secure_the_milisi_murba_desc: "Die Milisi Murba ist eine kleine Verteidigungsorganisation, die wir kurz nach unserem Sieg gegründet haben, um zu verhindern, dass die Reaktionäre den Auftrag des Volkes ignorieren und die Macht übernehmen. Sie ist jedoch relativ schwach: Wir sollten sie neben Polizei, Armee, Luftstreitkräfte und Marine offiziell in die Regierung einbinden, um sicherzustellen, dass sie in der Lage ist, ihr Ziel zu erreichen."
+ins_socialist_rebellion_yogya: "Zettelt eine sozialistische Rebellion im Sultanat Yogyakarta an"
+ins_socialist_rebellion_yogya_desc: "Dem Sultanat von Yogyakarta ist es gelungen, die indonesische Regierung mit Unterstützung zu erpressen, um einen Sonderstatus innerhalb der Republik zu erlangen und seinen eigenen Staat wie eine Monarchie zu regieren. Wir können diesen Status jedoch nicht einfach ohne öffentliche Gegenreaktion aufheben, also sollten wir einen sozialistischen Aufstand 'fabrizieren', um einen Grund für die Aufhebung zu schaffen - offensichtlich regieren sie ihre Provinz nicht uneigennützig."
 INS_expansion_category: "Indonesische Expansion"
 INS_expansion_category_desc: "Die derzeitigen Grenzen von [Root.GetNameDef] sind ein imperialistisches Konstrukt: Auf praktisch allen Seiten unseres Landes gibt es Länder, die aus ethnischer, religiöser oder geografischer Sicht ganz sicher zur vereinigten [Root.GetAdjective]-Nation gehören sollten."
-ins.occupy_east_timor: "Besetzt Timor-Leste"
-ins.occupy_east_timor_desc: "Die portugiesischen Imperialisten haben Timor schon viel zu lange unter ihrer imperialistischen Herrschaft gehalten. Wir sollten in diesen Fleck auf der Landkarte einmarschieren und die indonesische Bevölkerung von ihrer portugiesischen Tyrannei befreien."
-ins.try_to_buy_southeast_irian: "Versucht, Australasia-Neuguinea zu kaufen"
-ins.try_to_buy_southeast_irian_desc: "Australasien ist kein Feind, den man sich wünschen sollte, aber seine Besitztümer auf der Insel Neuguinea sind eine ungerechte Besetzung. Um einen umfassenden bewaffneten Konflikt zu vermeiden, könnten wir versuchen, sie zu einem Verkauf zu bewegen."
-ins.invade_australian_irian: "Angriff auf Südostirian"
-ins.invade_australian_irian_desc: "Die Australier unterdrücken schamlos die Papua-Bevölkerung von Ost-Irian. Lasst uns sie mit Gewalt befreien!"
-ins.demand_west_irian: "Verlangt die Überbleibsel der niederländischen Herrschaft"
-ins.confront_the_german_menace: "Tretet der deutschen Bedrohung entgegen"
-ins.confront_the_german_menace_desc: "Die Deutschen halten die ehemals britischen Gebiete in Malaya und Nord-Borneo. Die Abtrennung dieses Gebietes von Indonesien, das kulturell sehr ähnlich ist, ist nichts weiter als ein schamloses imperialistisches Konstrukt, das korrigiert werden sollte!"
-ins.invade_sarawak: "Eroberung von Sarawak"
-ins.invade_sarawak_desc: "Die winzige Nation Sarawak wird von unsachgemäßer Herrschaft geplagt. Wir sollten so gnädig sein, zu intervenieren und sie in unsere Nation einzugliedern, wobei die örtliche malaiische Bevölkerung uns sicherlich als Befreier sehen wird, richtig??"
+ins_occupy_east_timor: "Besetzt Timor-Leste"
+ins_occupy_east_timor_desc: "Die portugiesischen Imperialisten haben Timor schon viel zu lange unter ihrer imperialistischen Herrschaft gehalten. Wir sollten in diesen Fleck auf der Landkarte einmarschieren und die indonesische Bevölkerung von ihrer portugiesischen Tyrannei befreien."
+ins_try_to_buy_southeast_irian: "Versucht, Australasia-Neuguinea zu kaufen"
+ins_try_to_buy_southeast_irian_desc: "Australasien ist kein Feind, den man sich wünschen sollte, aber seine Besitztümer auf der Insel Neuguinea sind eine ungerechte Besetzung. Um einen umfassenden bewaffneten Konflikt zu vermeiden, könnten wir versuchen, sie zu einem Verkauf zu bewegen."
+ins_invade_australian_irian: "Angriff auf Südostirian"
+ins_invade_australian_irian_desc: "Die Australier unterdrücken schamlos die Papua-Bevölkerung von Ost-Irian. Lasst uns sie mit Gewalt befreien!"
+ins_demand_west_irian: "Verlangt die Überbleibsel der niederländischen Herrschaft"
+ins_confront_the_german_menace: "Tretet der deutschen Bedrohung entgegen"
+ins_confront_the_german_menace_desc: "Die Deutschen halten die ehemals britischen Gebiete in Malaya und Nord-Borneo. Die Abtrennung dieses Gebietes von Indonesien, das kulturell sehr ähnlich ist, ist nichts weiter als ein schamloses imperialistisches Konstrukt, das korrigiert werden sollte!"
+ins_invade_sarawak: "Eroberung von Sarawak"
+ins_invade_sarawak_desc: "Die winzige Nation Sarawak wird von unsachgemäßer Herrschaft geplagt. Wir sollten so gnädig sein, zu intervenieren und sie in unsere Nation einzugliedern, wobei die örtliche malaiische Bevölkerung uns sicherlich als Befreier sehen wird, richtig??"
 
 ### Companies ###
 permina: "Permina"
@@ -801,32 +772,28 @@ pelni: "Pelni"
 biro_rencana_dan_konstruksi: "Biro Rencana dan Konstruksi"
 
 ### Custom Tooltips ###
-ins.murbas_autocoup: "§RDie Murba-Regierung wird versuchen, ihren Einfluss auf die Regierung zu festigen, aber die Reaktionäre könnten sie daran hindern, wenn sie die Möglichkeit dazu hätten.§!"
-ins.tt_new_constitution: "Eine neue Verfassung wird im Dewan zur Abstimmung gestellt."
-ins.tt_elective_monarchy: "Nach dem Tod des Sultans wird der Adel von Indonesien zusammenkommen, um einen neuen indonesischen Sultan zu wählen."
-ins.tt_primogeniture: "Nach dem Tod des Sultans wird immer der Erbe des Sultanats von Yogyakarta den Thron besteigen."
-ins.tt_exec_cop: "Die Exekutivgewalt wird in erster Linie beim königlichen Rat liegen, in dem alle Adligen vertreten sind."
-ins.tt_exec_sul: "Die Exekutivgewalt wird in erster Linie beim Sultan liegen, der dafür sorgen wird, dass Streitigkeiten die Regierung nicht aufhalten."
-ins.tt_sultan_cant_revoke: "Der Sultan darf unter keinen Umständen vererbbare Titel widerrufen."
-ins.tt_sultan_can_revoke: "Wenn der Sultan 2/3 der Stimmen im Rat auf sich vereinigt, kann ein Titel widerrufen werden."
-ins.tt_adisucipto_disappears: "Adisucipto's Flugzeug verschwindet auf dem Weg nach Kalkutta, vermutlich weil es von den Holländern abgeschossen wurde."
-ins.tt_adisucipto_disappears_wayback: "Adisucipto's Flugzeug verschwindet auf dem Weg nach Kalkutta, vermutlich weil es von den Niederländern abgeschossen wurde."
-ins.tt_rebellion_in_yogyakarta: "§YIm Sultanat Yogyakarta wird ein Aufstand beginnen.§!"
-ins.peace_irian_jaya: "Der Krieg mit den Niederlanden wird beendet, und die Molukken und Ostneuguinea werden vollständig unter unsere Kontrolle kommen."
-ins.invade_irian_timur: "Der Krieg mit [AST.GetName] wird beendet, und Westneuguinea wird vollständig unter unsere Kontrolle kommen."
-ins.invade_irian_timur_lose: "Der Krieg mit [AST.GetName] wird beendet, und Ost-Neuguinea wird abgetreten."
+ins_tt_new_constitution: "Eine neue Verfassung wird im Dewan zur Abstimmung gestellt."
+ins_tt_elective_monarchy: "Nach dem Tod des Sultans wird der Adel von Indonesien zusammenkommen, um einen neuen indonesischen Sultan zu wählen."
+ins_tt_primogeniture: "Nach dem Tod des Sultans wird immer der Erbe des Sultanats von Yogyakarta den Thron besteigen."
+ins_tt_exec_cop: "Die Exekutivgewalt wird in erster Linie beim königlichen Rat liegen, in dem alle Adligen vertreten sind."
+ins_tt_exec_sul: "Die Exekutivgewalt wird in erster Linie beim Sultan liegen, der dafür sorgen wird, dass Streitigkeiten die Regierung nicht aufhalten."
+ins_tt_sultan_cant_revoke: "Der Sultan darf unter keinen Umständen vererbbare Titel widerrufen."
+ins_tt_adisucipto_disappears: "Adisucipto's Flugzeug verschwindet auf dem Weg nach Kalkutta, vermutlich weil es von den Holländern abgeschossen wurde."
+ins_tt_adisucipto_disappears_wayback: "Adisucipto's Flugzeug verschwindet auf dem Weg nach Kalkutta, vermutlich weil es von den Niederländern abgeschossen wurde."
+ins_tt_rebellion_in_yogyakarta: "§YIm Sultanat Yogyakarta wird ein Aufstand beginnen.§!"
+ins_peace_irian_jaya: "Der Krieg mit den Niederlanden wird beendet, und die Molukken und Ostneuguinea werden vollständig unter unsere Kontrolle kommen."
+ins_invade_irian_timur: "Der Krieg mit [AST.GetName] wird beendet, und Westneuguinea wird vollständig unter unsere Kontrolle kommen."
+ins_invade_irian_timur_lose: "Der Krieg mit [AST.GetName] wird beendet, und Ost-Neuguinea wird abgetreten."
 
 INS_convert_carrier_loc: "Fügt zwei Flugzeugträger unserer Marine hinzu!\n"
-
-local_resources_factor_research: "Lokale Ressourcen Faktor: "
 
 INS_germany_pauses_indonesian_expansionism_tt: "Deutschland wird keine Expansionspläne zulassen, bevor es sich nicht mit seinen Feinden in Europa auseinandergesetzt hat."
 INS_the_entente_pauses_indonesian_expansionism_tt: "Die Entente wird keine Expansionspläne zulassen, bevor sie nicht nach Europa zurückgekehrt ist."
 INS_the_internationale_pauses_indonesian_expansionism_tt: "Die Internationale wird keine Expansionspläne zulassen, bis sie in Europa besiegt oder Deutschland gefallen ist."
 
 ### Flags ###
-ins.darul_islam_took_over: "Die Darul Islam haben übernommen"
-ins.sultans_countercoup: "Der Sultan-Gegenputsch war erfolgreich"
+ins_darul_islam_took_over: "Die Darul Islam haben übernommen"
+ins_sultans_countercoup: "Der Sultan-Gegenputsch war erfolgreich"
 
 ### Cosmetic Tags ###
 INS: "Indonesien"

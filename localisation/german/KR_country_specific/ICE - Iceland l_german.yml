@@ -379,14 +379,12 @@ ICE_trade_ENG: "Wir werden uns um den Handel mit der §CUnion von Großbritannie
 ICE_loyal_DEN: "Dies wird §YSchwerpunkte§! zur Verbesserung von §CIsland§! freischalten."
 ICE_PWP_tooltip: "Dies wird §Gin großem Maße Arbeitsplätze§! für diejenigen schaffen, die §Rarbeitslos§! in unserem Land sind!"
 ICE_Can_Engineer_Dec_Cat: "$unlocks_decisions$ die sich mit Bauprojekten auf der ganzen Insel befassen."
-ICE_CAN_Garrison_tt: "Dies wird eine Garnison der kanadischen Streitkräfte zum Schutz Islands hervorbringen."
 ICE_CAN_Civ_tt: "$unlocks_decisions$ über zivile §GBauprojekte§! auf der ganzen Insel."
 ICE_Mil_Proj_tt: "$unlocks_decisions$ über militärische §GBauprojekte§! auf der ganzen Insel."
 ICE_Shepard_tt: "$unlocks_decisions$ um unserer §CLandbevölkerung§! zu helfen!"
 ICE_Synd_Ind_tt: "$unlocks_decisions$ um unserer §CStadtbevölkerung§! zu helfen!"
 ICE_ENGineers_tt: "$unlocks_decisions$ über verschiedene §GBauprojekte§! auf der ganzen Insel."
 ICE_ENGfuel_tt: "$unlocks_decisions$ zur Zusammenarbeit mit der Union von Großbritannien beim Bau einer §RCaffinerie§! auf Island."
-ICE_ENG_Garrison_tt: "Dies wird eine Garnison britischer Streitkräfte zum Schutz Islands hervorbringen."
 cod_trade_backdown_can_tt: "Rückzug aus dem Kabeljauhandel."
 cod_trade_newdeal_can_tt: "Gebt den Isländern ein besseres Angebot."
 ICE_CWCS_Dec_tt: "$unlocks_decisions$ zum Umgang mit dem §CZivilen Arbeitsbeschaffungsprogramm§!."
@@ -435,560 +433,560 @@ ICE_country_intro_content_2: "Um der massiven Arbeitslosigkeit, die im Land zu s
 ICE_country_intro_header_3: "Island in 1936"
 ICE_country_intro_content_3: "Obwohl das vergangene Jahrzehnt für die Menschen in Island eine Katastrophe war, gibt es immer noch Hoffnung auf eine bessere Zukunft am Horizont. Angehende Regierungsbeamte haben mit der Ausarbeitung von Plänen für groß angelegte öffentliche Bauprojekte begonnen, um Arbeitsplätze zu schaffen, die Tourismusindustrie anzukurbeln oder sogar die geothermischen und hydroelektrischen Ressourcen anzuzapfen, die unsere Insel uns bietet. Vielleicht können wir diese Träume mit ein wenig Unterstützung aus Dänemark wahr werden lassen!"
 
-ICE_guide: "§MPlebiszit im Nordatlantik§!\n §MVerbleib bei Dänemark§! (§SSozialdemokraten§!)\n £white_dot Bei der Volksabstimmung von 1937 entschieden sie sich für den Verbleib in Dänemark.\n\n§MUnabhängigkeit§! (§cSozialkonservative§!)\n £white_dot Entscheiden Sie sich in der Volksabstimmung von 1937 für die Unabhängigkeit.\n\n\n§MErgebnis des Kabeljaukriegs§!\nFür die folgenden Pfade müssen wir unabhängig sein und die passende Spielregel ausgewäjlt haben!\n£white_dot Wir müssen die Entscheidung \"$ICE_North_Atlantic_Region$\" abschließen, damit die Ereigniskette des Kabeljaukriegs beginnt.\n\n§MEine treibende Insel§! (§cSozialkonservative§!)\n £white_dot Nachdem wir unsere Fischereizonen erweitert haben, werden uns sowohl die Royalisten als auch die Syndikalisten ablehnen, so dass wir ganz allein, aber unabhängig sind.\n\n§MDas Nordsee-Gambit§! (§PPaternal Autokratisch§!)\n £white_dot Trennt die britischen Netzte im Ereignis \"$ice.17.t$\".\n £white_dot Wählen Sie irgendeine der Optionen in dem Ereignis \"$ice.20.t$\".\n\n§MEine weitere rote Insel im Atlantik§! (§RRadikale Sozialisten§! / §rSyndikalisten§!)\n £white_dot Lehnen Sie das kanadische Abkommen in dem Ereignis \"$ice.13.t$\" ab.\n £white_dot Nachdem wir den Schwerpunkt \"$ICE_Synd_Gov_Form$\" abgeschlossen haben, können wir zwischen der §rVolkseinheitspartei§! oder der §RBauernpartei§! wählen."
+ICE_guide: "§MPlebiszit im Nordatlantik§!\n §MSozialdemokraten§! ($social_democrat_coloured$)\n £white_dot Bei der Volksabstimmung von 1937 entschieden sie sich für den Verbleib in Dänemark.\n\n§MUnabhängigkeitspartei§! ($social_conservative_coloured$)\n £white_dot Entscheiden Sie sich in der Volksabstimmung von 1937 für die Unabhängigkeit.\n\n\n§MErgebnis des Kabeljaukriegs§!\nFür die folgenden Pfade müssen wir unabhängig sein und die passende Spielregel ausgewäjlt haben!\n£white_dot Wir müssen die Entscheidung \"$ICE_North_Atlantic_Region$\" abschließen, damit die Ereigniskette des Kabeljaukriegs beginnt.\n\n§MUnabhängigkeitspartei - Neutralität§! ($social_conservative_coloured$)\n £white_dot Nachdem wir unsere Fischereizonen erweitert haben, werden uns sowohl die Royalisten als auch die Syndikalisten ablehnen, so dass wir ganz allein, aber unabhängig sind.\n\n§MHeimatpartei§! ($paternal_autocrat_coloured$)\n £white_dot Trennt die britischen Netzte im Ereignis \"$iceland_events.17.t$\".\n £white_dot Wählen Sie irgendeine der Optionen in dem Ereignis \"$iceland_events.20.t$\".\n\n§MVolksvereinigungspartei§! / §MBauernpartei§! ($radical_socialist_coloured$ / $syndicalist_coloured$))\n £white_dot Lehnen Sie das kanadische Abkommen in dem Ereignis \"$iceland_events.13.t$\" ab.\n £white_dot Nachdem wir den Schwerpunkt \"$ICE_Synd_Gov_Form$\" abgeschlossen haben, können wir zwischen der §rVolkseinheitspartei§! oder der §RBauernpartei§! wählen."
 
 ### Events ###
 #Cod War Events#
-ice.1.t: "Island weitet seine Fischereizonen aus"
-ice.1.d: "Durch die jüngste Änderung unserer Politik steht unseren Fischern nun ein viel größeres Gebiet zur Verfügung, in dem sie mit Schleppnetzen fischen können. Es wird erwartet, dass sich unsere Fangmenge dadurch erheblich erhöht. Zu diesem Zweck haben unsere Händler bereits damit begonnen, sich bei unseren alten Handelspartnern im Britischen Empire umzusehen, um zu sehen, ob wir möglicherweise ein wirtschaftliches Abkommen schließen können."
-ice.1.a: "Was für ein prächtiger Fang!"
-
-ice.2.t: "Island weitet seine Fischereizone aus"
-ice.2.d: "Island hat kürzlich große Teile des Nordatlantiks als seine rechtmäßigen Fischereigründe beansprucht. Dies wird zwangsläufig den Zorn der Syndikalisten in Großbritannien auf sich ziehen, aber vielleicht können wir diese Gelegenheit nutzen, um in Island Unterstützung zu gewinnen, die wir schließlich als Sprungbrett für die Rückeroberung der Heimatinseln nutzen können."
-ice.2.a: "Macht Island ein Angebot."
-ice.2.b: "Wir können es nicht riskieren."
-
-ice.3.t: "Island dringt in britische Gewässer vor!"
-ice.3.d: "The Icelanders have expanded into our waters in the North Atlantic. They claim that they are only trying to get over the lingering effects of Black Monday but they nevertheless have created unrest from the Scottish fishermen in the north. They are a small nation and whatever fish they pull in won't affect us too badly but we have a chance to attempt to rekindle the trade agreement that our two Atlantic isles shared before the Revolution."
-ice.3.a: "Versuchet eine Vereinbarung zu treffen."
-ice.3.b: "Es gibt viel Fisch im Meer."
-
-ice.4.t: "Kanada bietet ein Abkommen an"
-ice.4.d: "Die Kaufleute Kanadas haben sich an uns gewandt, um ihr Interesse an einem Wirtschaftsabkommen zwischen unseren beiden Ländern zu bekunden. Als größter Nachfolgestaat des Britischen Empire hoffen sie, den Handel wieder aufzunehmen, den unsere Inseln einst gemeinsam betrieben."
-ice.4.a: "An unsere Freunde in Ottawa!"
-
-ice.5.t: "Die Union von Großbritannien bietet einen Deal an"
-ice.5.d: "Die Handelsunion in der Union von Großbritannien ist zu uns gekommen, um die Bedingungen für ein mögliches Wirtschaftsabkommen zu besprechen. Unsere beiden Inseln hatten in der Vergangenheit ein großzügiges Handelsabkommen, aber die jüngsten Ereignisse des letzten Jahrzehnts haben dazu geführt, dass dieses Abkommen aufgelöst wurde. Sie behaupten, dass jetzt der perfekte Zeitpunkt für eine Wiederaufnahme des Handels ist."
-ice.5.a: "Noch einmal sollen die Inseln handeln!"
-
-ice.6.t: "Island erhält mehrere Handelsangebote"
-ice.6.d: "Angesichts unserer jüngsten Expansion wetteifern die Mächte auf beiden Seiten des Atlantiks darum, ihr Stück vom Kuchen abzubekommen. Sowohl die Kanadier als auch die Syndikalisten haben Angebote gemacht, um neue Abkommen für unser wachsendes Angebot an Kabeljau zu schließen. Mit welcher Seite sollten wir ein Handelsabkommen abschließen?"
-ice.6.a: "Schließt ein Abkommen mit Kanada!"
-ice.6.b: "Schließt ein Abkommen mit der Union von Großbritannien!"
-
-ice.7.t: "Kabeljauhandelsabkommen mit Island geschlossen"
-ice.7.d: "Unsere Kaufleute haben erfolgreich ein Abkommen mit Island geschlossen. Dieses Geschäft wird dem Land helfen, seine wirtschaftliche Flaute zu überwinden, und uns einen wertvollen Verbündeten im Nordatlantik bescheren."
-ice.7.a: "Der Handel mit Kabeljau über den Atlantik beginnt!"
-
-ice.78.t: "Kein Abkommen über Kabeljau im Nordatlantik unterzeichnet"
-ice.78.d: "Es scheint, dass trotz unserer großzügigen Angebote sowohl an die Royalisten als auch an die Syndikalisten keine der beiden Seiten an einem Handelsabkommen mit uns für unsere Fänge interessiert ist. Aufgrund dieser unglücklichen Ereignisse müssen wir uns ostwärts zu unseren nordischen Mitstreitern wenden und versuchen, uns ihnen anzunähern."
-ice.78.a: "Jetzt müssen wir uns nach innen wenden..."
-
-ice.8.t: "Kanadische Kabeljauvereinbarung unterzeichnet"
-ice.8.d: "Die Kanadier haben einem Abkommen über unsere Kabeljauverkäufe zugestimmt. Das wird unsere Gewinne erheblich steigern."
-ice.8.a: "Ein süßer Fang!"
-
-ice.9.t: "Isländisch-Kanadisches Abkommen unterzeichnet"
-ice.9.d: "Die Royalisten haben ein Abkommen mit den Einheimischen Islands unterzeichnet, um sie zu ermutigen, in unseren Gewässern zu fischen und den Fisch zu nehmen, der rechtmäßig uns gehört. Wir müssen Vergeltung üben oder uns von einer so kleinen Nation erniedrigen lassen."
-ice.9.a: "Macht die Gewässer unsicher!"
-
-ice.10.t: "Kabeljauabkommen mit Island unterzeichnet"
-ice.10.d: "Die isländischen Kaufleute haben sich dafür entschieden, den Handel wieder aufzunehmen, den unsere beiden Nationen in der Vergangenheit gemeinsam betrieben haben. Lassen wir die Zukunft unserer Inseln gemeinsam gedeihen."
-ice.10.a: "Atlantischer Kabeljauhandel beginnt!"
-
-ice.11.t: "Kabeljaudeal unterzeichnet!"
-ice.11.d: "Mit der Unterzeichnung dieses Abkommens haben sich die Unionisten bereit erklärt, über unser Eindringen in ihre Gewässer hinwegzusehen und ihnen im Gegenzug einen erheblichen Anteil unserer neuen Fänge zu überlassen. Dies wird ein sichereres Umfeld für unsere Fischer schaffen."
-ice.11.a: "Auf unsere atlantischen Verbündeten!"
-
-ice.12.t: "Die Briten haben eine Vereinbarung mit den Isländern getroffen"
-ice.12.d: "Die heimtückischen Unionisten in Großbritannien haben mit Island ein Abkommen über ein fast vollständiges Monopol auf den Verkauf von Kabeljau aus dem Nordatlantik geschlossen. Das können wir nicht zulassen! Sollen wir Island ein neues Abkommen anbieten oder stillschweigend zurücktreten?"
-ice.12.a: "Ein süßeres Geschäft für Island."
-ice.12.b: "Ein ruhiger Ausstieg aus dem Kabeljauhandel."
-
-ice.13.t: "Kanada kommt mit einem neuen Abkommen auf uns zu"
-ice.13.d: "Da die Kanadier nicht gewillt sind, sich wegen eines Geschäftsabschlusses aus Island vertreiben zu lassen, sind sie mit einem neuen Angebot für unsere Kabeljauverkäufe an uns herangetreten. Sie sind bereit, einen viel höheren Preis für den Kabeljau zu zahlen als unser Angebot an die Briten. Sollten wir die Seite wechseln und uns auf das kanadische Angebot einlassen oder an unserem britischen Angebot festhalten?"
-ice.13.a: "Auf eine bessere Zukunft mit Kanada!"
-ice.13.b: "Unsere Loyalität liegt bei Großbritannien."
-
-ice.14.t: "Beanspruchung der Gewässer!"
-ice.14.d: "Isländische Fischtrawler beanspruchen unsere Gewässer und stehlen Fänge, die rechtmäßig uns gehören! Wie sollten wir darauf reagieren?"
-ice.14.a: "Zeigt ihnen ihren Platz!"
-
-ice.15.t: "Abwehr der Trawler"
-ice.15.d: "Nach dieser unverschämten Aneignung von Fischereirechten durch Island haben wir eine kleine Abteilung von Zerstörern ausgesandt, um diese Bedrohung unserer Fischer zu stoppen. Die Zerstörer RNS Seawolf und Sparrowhawk haben erfolgreich alle isländischen Fischer abgewehrt, die törichterweise versuchen, unsere Gewässer zu beanspruchen."
-ice.15.a: "Britannia regiert die Wellen!"
-
-ice.16.t: "Fischer angegriffen"
-ice.16.d: "In den letzten Tagen wurden unsere Fischer von einem kleinen Geschwader von Zerstörern angegriffen, die von der britischen Union entsandt wurden, um die Gewässer zu kontrollieren. Nach diesen Angriffen sind weniger unserer Fischer bereit, in den reichen Gewässern zu fischen, die wir gerade von den Briten für uns beansprucht haben. Infolgedessen können wir nicht mehr so viele Fische für den Verkauf an Land ziehen."
-ice.16.a: "Wir werden nicht wegen ein paar Zerstörern aufgeben!"
-
-ice.17.t: "Vergeltungsmaßnahmen gegen ihre Trawler?"
-ice.17.d: "Ein Teil unserer Bevölkerung ruft nach Rache an den Briten für die Angriffe auf unsere Fischer. Sie fordern, dass wir einige Schiffe unserer Küstenwache ausrüsten, um britische Trawler abzufangen, die in unseren Gewässern operieren."
-ice.17.a: "Trennt ihre Netze!"
-ice.17.b: "Kein Grund, sich auf ihr Niveau herabzulassen!"
-
-ice.178.t: "Fischer weiterhin in Gefahr"
-ice.178.d: "Trotz unseres stillen Rückzugs aus den umstrittenen Gewässern belästigen die Briten weiterhin unsere Fischer. Sie achten darauf, innerhalb unserer bisherigen Hoheitsgewässer zu bleiben, aber die Briten machen immer noch brutal Jagd auf unsere Boote. Erneut fordern die Fischer, dass wir einige bewaffnete Schiffe unserer Küstenwache mobilisieren, um sie zu schützen. Wer wären wir, wenn wir unsere Leute auf hoher See einfach im Stich lassen würden?"
-ice.178.a: "Mobilisiert die Küstenwache!"
-ice.178.b: "Wir können nicht riskieren, dass die Briten reagieren."
-
-ice.179.t: "Fischer marschieren auf dem Althing"
-ice.179.d: "Angesichts der anhaltenden mangelnden Unterstützung durch die Regierung haben sich große Gruppen von Fischern in der Hauptstadt versammelt, um zum Althing zu marschieren und Maßnahmen zu fordern. Diese Situation erinnert viele an die Zeit, als 1932 eine Gruppe von Arbeitern einen Aufstand wegen des städtischen Arbeitsbeschaffungsprogramms anzettelte. Wir stehen nun vor zwei Möglichkeiten: Entweder wir geben den Fischern nach und mobilisieren die Küstenwache, oder wir können versuchen, die Briten um Gnade zu bitten. Wie wird sich die Regierung entscheiden?"
-ice.179.a: "Die Fischer müssen geschützt werden!"
-ice.179.b: "Mögen die Briten Gnade finden."
-
-ice.18.t: "Britische Fischer angegriffen"
-ice.18.d: "Wir haben Berichte erhalten, dass isländische Patrouillenboote der Küstenwache mit Netzschneidern ausgerüstet und hinter unseren Fischerbooten hergeschickt wurden. Wenn das isländische Schiff hinter unseren Trawlern herfährt, zerschneidet der hintere Haken unsere Netze und gefährdet unsere Fähigkeit, Fisch zu fangen. Unsere Streitkräfte im Nordatlantik sind zu dünn gesät, um alle unsere Fischer zu schützen. Wir müssen ihnen Verstärkung schicken!"
-ice.18.a: "Verstärkt das Geschwader!"
-
-ice.19.t: "Ein Held kehrt nach Hause zurück"
-ice.19.d: "Bei einem waghalsigen Überfall auf den britischen Fischtrawler Carlisle sah sich die Besatzung der Ægir dem Angriff eines neuen britischen Geschwaders ausgesetzt, das gerade in die Region entsandt worden war. Der Kommandant der RNS Dunedin befahl seinem Schiff, die Ægir zu rammen, um ihr Fischereifahrzeug zu schützen. Nach zwei Rammversuchen blieb die Ægir gerade noch aufrecht an einer einzigen Schraube hängen. In einem Akt der Verzweiflung gab der Kommandant der Ægir den Befehl, die Geschütze zu bemannen, obwohl die Dunedin über eine überwältigende Feuerkraft verfügte. Der Soldat Guðmundur Kjærnested bemannte den 6-Pfünder, um die Dunedin davon abzuhalten, das fliehende Patrouillenschiff zu erledigen. Die Nachricht vom Heldentum der Besatzung hat das ganze Land erreicht, und es wird gefordert, Guðmundur Kjærnested zum Ritter zu schlagen."
-ice.19.a: "Erinnert euch an die Ægir!"
-
-ice.20.t: "Appell an die Kanadier um Hilfe"
-ice.20.d: "Obwohl die Ægir die Briten erfolgreich zurückgeschlagen hat, haben wir nicht genug Schiffe, um einen Zermürbungskampf gegen die Briten zu führen. Wir brauchen umfangreichere Hilfe, um unsere Gewässer zu schützen. Etwas, das die Kanadier in der Lage sein sollten zu leisten. Wie viel sollten wir von ihnen verlangen?"
-ice.20.a: "Fordert Truppen und eine Seestreitkraft an"
-ice.20.b: "Fordert nur Seestreitkräfte an"
-
-ice.21.t: "Island bittet uns um Hilfe"
-ice.21.d_start: "Die isländische Regierung hat sich mit der Bitte um militärische Unterstützung an uns gewandt. Die Gewässer vor ihrer Küste werden von Woche zu Woche mehr zu einem Kriegsgebiet, da die Küstenwache und die republikanische Marine gegen die Fischereischiffe der jeweils anderen Seite antreten. Ohne unseren Schutz könnte das Kabeljauabkommen, das wir mit ihnen geschlossen haben, scheitern, da die republikanische Marine Island abschneiden könnte."
-ice.21.d: "$ice.21.d_start$ Sie haben um ein Truppenkontingent zum Schutz der Insel selbst und um mehrere Schiffe zur Abwehr der republikanischen Kräfte gebeten. Wie sollen wir darauf reagieren?"
-ice.21.a: "Schickt ihnen, was sie verlangen!"
-ice.21.b: "Wir können nur die Seestreitkräfte entbehren."
-ice.21.c: "Wir können nichts entbehren."
-
-ice.22.d: "$ice.21.d_start$ Sie haben um mehrere Schiffe gebeten, um die republikanischen Streitkräfte abzuwehren. Wie sollen wir darauf reagieren?"
-
-ice.23.t: "Schickt die Marine los"
-ice.23.d: "Heute bricht das neu gebildete Nordwestatlantik-Geschwader in die isländischen Gewässer auf. Die Flotte besteht aus den Zerstörern HMCS Sterling und Tactician, die von dem leichten Kreuzer HMCS Dauntless angeführt werden. Das Kommando wird von der HMCS Cumberland erteilt, die als Flaggschiff dienen wird. Gemeinsam stechen unsere stolzen Männer in See, um unseren Handel vor diesen gottlosen Syndikalisten auf den Heimatinseln zu schützen."
-ice.23.a: "Viel Glück und Gottes Segen!"
-
-ice.24.t: "Kanadische Flotte trifft ein"
-ice.24.d: "In unserem Hafen herrschte heute reger Betrieb, da die von uns angeforderten kanadischen Schiffe gerade eingetroffen sind. Der britische Zerstörer RNS Seawolf hatte einige unserer Fischtrawler verfolgt und auf einen günstigen Moment gewartet, um unsere Ausbeute für den Tag zu stören, aber die Ankunft des Northwest Atlantic Squadron ließ den Zerstörer mit eingezogenem Schwanz fliehen. Die kanadischen Seeleute wurden von unseren Fischern auf den Docks freudig begrüßt, als sie in den Hafen einliefen."
-ice.24.a: "Willkommen Kanadier!"
-
-ice.25.t: "Ankunft der kanadischen Streitkräfte"
-ice.25.d: "Etwas ruhiger geht es zu, denn gestern Abend sind kanadische Streitkräfte in Akureyri gelandet. Sie haben sich für eine indirektere Route durch die arktischen Gewässer entschieden, um nicht von britischen Schiffen entdeckt zu werden. Für den Fall, dass wir angegriffen werden, sind wir besser darauf vorbereitet, den Feind aufzuhalten."
-ice.25.a: "Beruhigend."
-
-ice.26.t: "Keine Beihilfe aus Kanada"
-ice.26.d: "Heute erreichte uns eine enttäuschende Nachricht: Unser Gesandter in Kanada hat uns berichtet, dass die Kanadier nicht bereit sind, uns und den Kabeljauhandel zwischen unseren beiden Ländern mit Mitteln zu schützen. Von der republikanischen Marine können wir keine Hilfe aus Kanada erwarten."
-ice.26.a: "Wir stehen allein..."
-
-ice.27.t: "Mehr verlorene Fischtrawler"
-ice.27.d: "Seitdem die Kanadier es versäumt haben, uns Unterstützung zu schicken, haben wir in dieser Woche massive Probleme mit der republikanischen Marine. Ihre verstärkten Streitkräfte sind in der Lage, unsere Schiffe zu terrorisieren und fast den gesamten Fischfang vor unserer Südküste zu unterbinden. Wir haben uns mit Kanada in Verbindung gesetzt, um ihnen mitzuteilen, dass unser Handelsabkommen gekündigt wird, weil wir nicht in der Lage sind, unsere Fischer zu schützen."
-ice.27.a: "Wir müssen uns geschlagen geben..."
-
-ice.28.t: "Fischereiabkommen mit Island wird beendet"
-ice.28.d: "Die isländischen Fischer werden ohne unsere Hilfe rücksichtslos angegriffen, was die Menge des gefangenen Fisches stark verringert hat, da immer weniger Fischer bereit sind, auf die Meere hinauszufahren. Zu diesem Zweck haben uns die isländischen Kaufleute mitgeteilt, dass das Handelsabkommen zwischen unseren Ländern beendet ist."
-ice.28.a: "Unglücklich."
-
-ice.29.t: "Ein Ultimatum an Island stellen?"
-ice.29.d: "Da wir die Situation in Island fest im Griff haben, stehen wir nun an einem Scheideweg. Wir könnten einige Vertreter nach Island schicken, um 'vorzuschlagen', dass sie eine neue syndikalistische Regierung unter unserer Führung bilden. Oder wir könnten sie auf ihrer Insel allein lassen, ohne andere wichtige Verbündete."
-ice.29.a: "Schickt einige Vertreter."
-ice.29.b: "Sie sollen isoliert bleiben."
-
-ice.291.t: "Ultimatum aus Großbritannien"
-ice.291.d: "Da die kanadischen Streitkräfte nicht bereit sind, sich weiter zu engagieren, ist Island immer weiter in die britische Sphäre gefallen. Jetzt hat Großbritannien Vertreter entsandt, die uns 'nachdrücklich empfehlen', eine syndikalistische Regierung zu bilden und der Dritten Internationale beizutreten. Was natürlich nicht gesagt wird, ist die implizite Androhung von Gewalt, um dies durchzusetzen - sie werden eine Ablehnung nicht akzeptieren. Da wir keine Verbündeten mehr haben, haben wir kaum eine andere Wahl, als uns zu fügen."
-ice.291.a: "Wir müssen uns beugen..."
-
-ice.30.t: "Alleine im Atlantik"
-ice.30.d: "Während sich der Kabeljaukrieg dem Ende zuneigt, steht die britische Union über uns. Sie hat sich jedoch damit begnügt, uns allein und ohne Verbündete im Atlantik treiben zu lassen. Jetzt müssen wir herausfinden, was wir mit unserem trauernden Land tun sollen."
-ice.30.a: "Schaut nach Osten!"
-
-ice.31.t: "Ankunft der kanadischen Flotte"
-ice.31.d: "Die Royalisten sind vor kurzem in Island eingetroffen, um ihnen dabei zu helfen, unsere Gewässer als ihre eigenen zu beanspruchen! Die Anwesenheit ihres Geschwaders hat unsere republikanische Marine in die Enge getrieben. Wir brauchen eine neue Strategie für unsere Vorstöße in den Atlantik."
-ice.31.a: "Werdet aggressiver!"
-ice.31.b: "Bleibt zusammen!"
-
-ice.32.t: "Aggressivere Angriffe der Briten"
-ice.32.d: "Das kanadische Geschwader hat zwar einige Angriffe auf unsere Trawler erfolgreich abgewehrt, aber häufig wurden unsere Fischer angegriffen, bevor sie rechtzeitig über Funk Hilfe anfordern konnten. Mit einer Flotte von Aufklärungsflugzeugen können wir uns den nötigen Vorsprung gegenüber der republikanischen Flotte verschaffen."
-ice.32.a: "Fordert Flugzeuge für die Luftaufklärung an."
-
-ice.33.t: "Alles ruhig im Nordatlantik"
-ice.33.d: "Die Scharmützel im Atlantik sind vorerst zu einem Ende gekommen. Die Kanadier und die Briten haben sich gegenseitig beäugt, während die Flotten die Bewegungen der jeweils anderen beschattet haben. Keine der beiden Seiten war bereit, ein Gefecht zu erzwingen, da die Kanadier nicht als Aggressoren dastehen wollen, während die Briten nicht bereit sind, gegen die überwältigende Feuerkraft des modernen schweren Kreuzers, der das kanadische Geschwader anführt, vorzugehen."
-ice.33.a: "Endlich Frieden!"
-
-ice.34.t: "Island fordert Aufklärungsflugzeuge an"
-ice.34.d: "Die isländische Regierung hat um die Anmietung von Aufklärungsflugzeugen gebeten, damit unser Geschwader ihre Handelsschiffe besser schützen kann."
-ice.34.a: "Schickt ihnen die Flugzeuge."
-ice.34.b: "Wir können nichts entbehren."
-
-ice.35.t: "Kanada schickt Aufklärungsflugzeuge"
-ice.35.d: "Die kanadische Regierung hat die Entsendung eines Geschwaders von Aufklärungsflugzeugen genehmigt, um uns bei der Verteidigung unserer Händler zu unterstützen."
-ice.35.a: "Danke, Kanada!"
-
-ice.36.t: "Kanada schickt keine Aufklärungsflugzeuge"
-ice.36.d: "Die kanadische Regierung hat uns mitgeteilt, dass ihre Flugzeuge anderswo in der Welt dringender benötigt werden."
-ice.36.a: "Unglücklich."
-
-ice.37.t: "Ein kühner Plan für den Atlantik"
-ice.37.d: "Admiral Norman Holbrook hat sich mit einem Plan an uns gewandt, um die in Island stationierten Kanadier zu brechen. Kürzlich von einem Jagdausflug zurückgekehrt, wurde Holbrook von einer Eingebung übermannt. Irgendwann verfällt jeder in ein Routinemuster. Er glaubt, wenn wir die Kanadier lange genug verfolgen, werden sie irgendwann ein Muster offenbaren, wann sie sich in den Hafen zurückziehen. Sobald wir das Timing kennen, können wir ein U-Boot losschicken, um ihren Panzerkreuzer zu sprengen, bevor sie überhaupt wissen, was passiert, und uns damit einen Vorteil im Atlantik verschaffen!"
-ice.37.a: "Autorisiert die Aktion."
-
-ice.38.t: "Der Überfall auf die Cumberland"
-ice.38.d: "Heute Abend war die Nacht des Angriffs gekommen. Unsere tapfere U-Boot-Besatzung, die unterhalb von Holbrook operierte, stach in See und machte sich vorsichtig auf den Weg zum Hafen, wo die kanadische Flotte für die Nacht angedockt war. Aufgrund des laxen Charakters des jüngsten Atlantikkonflikts schien man nicht wirklich versucht zu haben, angemessene Wachen zu postieren, um gegen so etwas gewappnet zu sein. Als Holbrook auftauchte, feuerte er zwei Torpedosalven auf die HMCS Cumberland ab. Die erste Salve blieb wirkungslos, da sie am Rumpf abprallte, aber die zweite Salve riss ein gewaltiges Loch in den Steuerbordrumpf, so dass dieser sofort kippte und zu fluten begann. Nach diesem Spektakel tauchten Holbrook und seine Besatzung unter und begannen ihre Flucht zurück in die sicheren britischen Gewässer."
-ice.38.a: "Rein und raus unentdeckt."
-
-ice.39.t: "Glockentöne in der Nacht"
-ice.39.d: "Gestern Abend herrschte Chaos im Hafen. Die Ruhe des letzten Monats hat dazu geführt, dass unsere Wache entspannter war, als sie es hätte sein sollen. Denn heute Nacht ging unser schwerer Kreuzer, die HMCS Cumberland, verloren. An Bord haben wir etwa 300 Seeleute verloren, da das Schiff ziemlich schnell gesunken ist. Wir vermuten, dass ein Teil der Munition unsachgemäß unter Deck gelagert war oder dass ein Kessel über Nacht einen mechanischen Defekt hatte. Was auch immer der Grund sein mag, dieser Verlust wird von allen in Island und Kanada sehr bedauert."
-ice.39.a: "Chaos im Hafen!"
-
-ice.40.t: "Beunruhigende Nachrichten aus Island"
-ice.40.d: "Wir haben heute schwere Nachrichten aus Island erhalten. Über Nacht kam es auf dem schweren Kreuzer HMCS Cumberland zu einer plötzlichen Explosion, die das Schiff schnell sinken ließ. Die Ursache der Explosion ist noch nicht bekannt, aber die eingehenden Berichte sprechen von mindestens 300 Seeleuten, die bei diesem tragischen Vorfall ums Leben gekommen sind."
-ice.40.a: "Ein Tag der Trauer"
-
-ice.41.t: "Das Schicksal der HMCS Cumberland"
-ice.41.d: "Nach der Tragödie der Cumberland haben wir Taucher losgeschickt, um das Wrack nach weiteren Informationen abzusuchen, die wir in dem Chaos der Nacht übersehen haben. Am Nachmittag fanden unsere Taucher den rauchenden Colt. Und das im wahrsten Sinne des Wortes. Sie fanden einen intakten syndikalistischen Torpedo britischer Bauart, der auf dem Grund des Hafens lag. Diese Tragödie war kein mechanisches Versagen, sondern ein vorsätzlicher Angriff der Union von Großbritannien gegen uns! Das werden wir nicht hinnehmen!"
-ice.41.a: "Verlangt eine Entschuldigung!"
-
-ice.42.t: "U-Boot-Überfall auf die Cumberland entdeckt"
-ice.42.d: "Heute Morgen haben wir ein Telegramm von der isländischen Regierung erhalten, in dem sie Reparationen für den Untergang der HMCS Cumberland fordert. Sie behaupten, sie hätten unbestreitbare Beweise gegen uns, die belegen, dass wir für den Verlust ihres Schiffes verantwortlich sind. Unsere U-Boot-Besatzung behauptet, sie sei unentdeckt ein- und ausgestiegen. Wie sollen wir auf diese ungeheuerliche Anschuldigung reagieren?"
-ice.42.a: "Bestreitet unsere Beteiligung."
-ice.42.b: "Prahlt mit unserer Rolle beim Untergang."
-
-ice.43.t: "Die britische Antwort auf das Cumberland-Telegramm"
-ice.43.d: "The British are denying their role in the sinking of the HCMS Cumberland. However, the torpedo we found is definite proof of their dastardly deed. The international community must know of the heinous nature of those in the Union of Britain to attack a ship full of boys in the dead of night."
-ice.43.a: "They will be forced to admit the truth."
-
-ice.44.d: "Die Briten haben auf unser Telegramm mit Prahlerei geantwortet. Sie brüsten sich mit ihren waghalsigen Besatzungsmitgliedern, die bereit waren, in den Rachen unseres Hafens zu segeln, um uns Schaden zuzufügen. Sie behaupten, dass sie nur ihre Fischer mit einer Vorwärtsverteidigung schützen wollten. Die Kanadier müssen von der Grausamkeit ihrer britischen Brüder wissen."
-ice.44.a: "Diese Teufel!"
-
-ice.45.t: "Britische Torpedos in der Nähe des Wracks der Cumberland gefunden"
-ice.45.d: "Aus Island gibt es Neuigkeiten über die Ursache des Untergangs der HMCS Cumberland. Taucher fanden einen intakten britischen Torpedo, der nicht detonierte, als er gegen den Rumpf der Cumberland geschossen wurde. Bei der Explosion handelte es sich nicht um ein internes mechanisches Versagen, sondern um einen heimtückischen Versuch der Briten, uns in der Nacht feige anzugreifen. Unser Volk schreit nach Rache für den Verlust unserer jungen Männer an Bord der Cumberland, die es nicht bis an die Küste geschafft haben."
-ice.45.a: "Das Volk soll gehört werden!"
-
-ice.46.t: "Spione melden sich aus Kanada zurück"
-ice.46.d: "Unsere Spione in Kanada haben uns über die öffentliche Meinung in Kanada gegenüber Island seit der Versenkung der Cumberland berichtet. Anders als wir dachten, hat der Überraschungsangriff sie nicht entmutigt, sondern eher ermutigt. Sie bleiben in ihrem Engagement für Island entschlossen. Wie sollten wir vorgehen?"
-ice.46.a: "Blockade gegen Island!"
-ice.46.b: "Tretet zurück."
-
-ice.47.t: "Freie Herrschaft über die Gewässer!"
-ice.47.d: "In einer unerwarteten Wendung der Ereignisse haben sich die Briten dazu entschlossen, sich aus den Scharmützeln in den isländischen Gewässern zurückzuziehen. Damit sind wir nun die unbestrittenen Herren der Wellen um unsere Insel. Unsere Fischer können nun den Fischfang wieder aufnehmen, ohne Angriffe der republikanischen Flotte befürchten zu müssen. Ohne die Hilfe Kanadas hätten wir das nicht geschafft."
-ice.47.a: "Britannia beherrscht nicht mehr die Wellen"
-
-ice.48.t: "Schiffe überall am Horizont"
-ice.48.d: "Heute Morgen bot sich unseren Kaufleuten ein erschreckender Anblick: der Horizont war voll mit britischen Kriegsschiffen. In einer Machtdemonstration haben die Briten ihren Superträger Rebecca 5 Meilen vor der Küste von Reykjavik stationiert. Bomber sind über Reykjavik geflogen und haben Tausende von Flugblättern abgeworfen, in denen steht, dass unser Handel mit den Kanadiern nun beendet ist und dass wir dringend aufgefordert werden, allen Forderungen der Briten nachzukommen."
-ice.48.a: "Abgeschnitten von unseren Freunden im Westen..."
-
-ice.49.t: "Nordseegeschwader gefangen"
-ice.49.d: "Während die Briten auf Island eindringen, sitzt unser Schiffskommando in den isländischen Häfen in der Falle. Jeder Versuch, die Blockade zu durchbrechen, würde zu einem Blutbad führen. Sie sitzen effektiv in der Falle."
-ice.49.a: "Möge Gott ihnen helfen!"
-
-ice.50.t: "Die Blockade von Island"
-ice.50.d: "Unsere Blockade war in der letzten Woche ein großer Erfolg. Der gesamte Handel mit den Royalisten in Kanada ist auf Island zum Erliegen gekommen. Unser Nachrichtendienst berichtet, dass die Kanadier nichts unternommen haben, um ihr gefangenes Geschwader von Seeleuten in Island zu befreien. Wir haben Island genau da, wo wir sie haben wollen."
-ice.50.a: "Eine erfolgreiche Operation."
-
-ice.51.t: "Erfüllung der Anforderungen"
-ice.51.d: "Nach einer zweiwöchigen Blockade müssen ihre Kaufleute und Händler verzweifelt nach einer Möglichkeit zur Wiederaufnahme des Handels suchen. Wir haben ihnen einen Vertrag vorgeschlagen. Darin machen wir unsere Ansprüche auf die Gewässer geltend, die uns natürlich einen beträchtlichen Anteil an allen Gewinnen aus dem von isländischen Fischern gefangenen Fisch einbringen. Jede Abweichung von dieser Politik würde als Angriff auf unsere souveränen Gewässer gewertet und ein militärisches Eingreifen zur Folge haben."
-ice.51.a: "Zwingt ihre Hand!"
-
-ice.52.t: "Großbritannien bietet ein neues Abkommen an"
-ice.52.d: "Britische Kaufleute haben unseren Kaufleuten heute ein Ultimatum gestellt. Sie landeten in Reykjavik und verlangten ein Treffen mit den führenden isländischen Kaufleuten. Sie brachten ein Dokument mit, in dem sie ihre Ansprüche auf die Gewässer geltend machten, die ihnen einen beträchtlichen Anteil an allen Gewinnen aus dem von isländischen Fischern gefangenen Fisch zustehen. Jegliche Ablehnung ihrer Abmachung würde als Angriff auf ihre souveränen Gewässer gewertet werden, und sie werden nicht zögern, das Militär zu schicken, um sicherzustellen, dass wir die Abmachung einhalten."
-ice.52.a: "Weist ihre Erpressung zurück!"
-ice.52.b: "Wir haben keine andere Wahl als uns zu beugen..."
-
-ice.53.t: "Organisation der Verteidigung von Island"
-ice.53.d: "Nachdem wir ihre lächerlichen Forderungen zurückgewiesen hatten, zogen die britischen Kaufleute mit viel heißer Luft ab. Wir gehen nicht davon aus, dass sie nach ihrem Überfall auf die Cumberland leere Drohungen aussprechen werden. Deshalb müssen wir uns auf ihren nächsten Angriff vorbereiten. Wie sollen wir vorgehen?"
-ice.53.a: "Zu den Waffen!"
-ice.53.b: "Organisiert einen Widerstand im Untergrund."
-
-ice.54.t: "Island lehnt unsere Forderungen ab"
-ice.54.d: "Da sie unsere Bedingungen abgelehnt haben, haben wir nun einen berechtigten Vorwand, um Truppen auf ihrer Insel zu landen. Sie verfügen über keinerlei militärische Mittel und hätten keine Möglichkeit, sich uns zu widersetzen. Sollen wir eine große Streitmacht landen, um unsere Macht zu demonstrieren, oder unsere Ressourcen anderweitig nutzen und eine kleinere Streitmacht einsetzen?"
-ice.54.a: "Zeigt unsere Macht!"
-ice.54.b: "Eine kleine Truppe wird die Aufgabe erfüllen."
-
-ice.55.t: "Island liegt am Boden"
-ice.55.d: "Die Isländer versuchten, mit Hilfe ihrer kanadischen Verbündeten an den Stränden Widerstand zu leisten. Sie waren jedoch unseren republikanischen Marinesoldaten nicht gewachsen, die kurzen Prozess mit ihnen machten. Wir stehen nun auf unserer eroberten Insel."
-ice.55.a: "Triumph!"
-
-ice.56.t: "Unangefochtene Landung"
-ice.56.d: "Unsere Streitkräfte sind erfolgreich auf Island gelandet. Die Einheimischen leisteten keinen Widerstand, und wir konnten schnell Schlüsselpositionen in ganz Reykjavik sichern und die Kontrolle über die Insel übernehmen."
-ice.56.a: "Wer kann schon hoffen, gegen uns zu bestehen?"
-
-ice.57.t: "Operation Fork vereitelt!"
-ice.57.d: "Wir haben die Zähigkeit der Isländer unterschätzt. Sie waren in der Lage, mit Hilfe ihrer kanadischen Verbündeten eine solide Verteidigung aufzubauen und unsere kleinen Landungstruppen ins Meer zurückzuschlagen. Mit diesem Rückschlag stehen wir auf der internationalen Bühne wie Trottel da, weil wir es nicht geschafft haben, unsere Macht gegen ein so kleines Land wie Island einzusetzen."
-ice.57.a: "Wie konnte das passieren?"
-
-ice.58.t: "Niederlage in Island"
-ice.58.d: "Unsere Streitkräfte versuchten, in einer erbitterten Schlacht die Kontrolle über Island zu behalten. Leider kamen die Briten in zu großer Zahl und konnten uns besiegen."
-ice.58.a: "Katastrophe!"
-
-ice.59.t: "Ein Widerstandskommando organisieren?"
-ice.59.d: "Ohne Stiefel auf dem Boden ist unsere sichtbare Präsenz in Island beendet. Sollten wir versuchen, Kommandotruppen nach Island zu entsenden, um einen lokalen Widerstand gegen die britische Herrschaft zu organisieren?"
-ice.59.a: "Eine gute Idee!"
-ice.59.b: "Zu riskant..."
-
-ice.591.d: "Das isländische Volk ist nicht damit zufrieden, unter der Fuchtel der Union von Großbritannien zu stehen. Sie haben uns um die Entsendung einer kleinen Truppe gebeten, die ihnen helfen soll, die Briten zu vertreiben. Sollen wir sie entsenden?"
-ice.591.a: "Schickt die Männer!"
-ice.591.b: "Der Plan ist zu riskant..."
-
-ice.60.t: "Niederlage auf dem Feld"
-ice.60.d: "Wir setzten alles, was wir hatten, auf diesen einen Versuch, die Briten zurückzudrängen. Trotz unserer besten Bemühungen kamen die Briten einfach weiter und durchbrachen unsere begrenzten Verteidiger. Die Briten haben sich beeilt, das Kriegsrecht zu verhängen, und unserer Regierung bleibt nicht mehr viel Zeit, bis sie eine Forderung erhält, die sie nicht ablehnen kann."
-ice.60.a: "Einmal mehr unter dem Joch..."
-
-ice.61.t: "Islands neue Regierung"
-ice.61.d: "Nach der Eroberung der Insel waren unsere Delegationen mit der Ausarbeitung einer neuen Regierung beschäftigt, die wir auf Island einsetzen werden. Die zuvor an den Rand gedrängte syndikalistische Bevölkerung wird die Kontrolle über ein neues Althing erhalten, das letztlich uns untersteht."
-ice.61.a: "Eine neue Regierung für die Insel!"
-
-ice.62.t: "Britische Truppen in Reykjavik"
-ice.62.d: "Britische Truppen sind heute auf Island gelandet und haben schnell die Kontrolle über alle wichtigen Regierungsgebäude übernommen. Das Althing erwartet in den nächsten Tagen Forderungen von der Union of Britain."
-ice.62.a: "Wir hatten keine Chance."
-
-ice.63.t: "Britische Truppen zurückgeschlagen"
-ice.63.d: "Unsere Streitkräfte in Island haben einen britischen Angriff auf die Insel erfolgreich abgewehrt. Ihr Heldentum wird als Rache für die Cumberland noch lange in Erinnerung bleiben!"
-ice.63.a: "Denkt an das Cumberland!"
-
-ice.64.t: "Erfolgreiche Verteidigung von Island"
-ice.64.d: "Unsere kanadischen Verbündeten konnten die Briten ins Meer zurückdrängen, als sie mit einem kleinen Truppenkontingent eine Landung versuchten. Vorerst behält die Insel ihre Unabhängigkeit."
-ice.64.a: "Danke an Kanada!"
-
-ice.65.t: "Die isländische Frage"
-ice.65.d: "Nach dem Scheitern unserer Bodentruppen hat sich die Marine gemeldet und ihre Unterstützung für eine neue Operation angeboten. Dabei würde die Rebecca direkt vor dem Hafen von Reykjavik segeln und Bomber auf die Infrastruktur und Hafenanlagen schicken, um zu zeigen, wozu wir in der Lage sind. Dies würde wahrscheinlich den Zorn der internationalen Gemeinschaft auf sich ziehen. Die andere Option wäre, sich aus den Gewässern zurückzuziehen und zu hoffen, dass dieses Debakel in Vergessenheit gerät."
-ice.65.a: "Statuiert ein Exempel an Island!"
-ice.65.b: "Tretet zurück."
-
-ice.66.t: "Großbritannien zieht sich aus dem Atlantik zurück"
-ice.66.d: "Der Vertreter der Union von Großbritannien hat angekündigt, dass sich die Union von Großbritannien aus ihren derzeitigen Angelegenheiten im Nordatlantik zurückziehen wird. Das bedeutet, dass wir uns mit unseren kanadischen Handelspartnern und Beschützern zusammenschließen können."
-ice.66.a: "Frei von ihrer Tyrannei!"
-
-ice.67.t: "Reykjavik wurde bombardiert!"
-ice.67.d: "Über Nacht brach Panik aus, als die RNS Rebecca den Hafen von Reykjavik ansteuerte und eine Bomberwelle nach der anderen abfeuerte. Sie schlugen präzise zu und legten das Wenige, was wir an Infrastruktur haben, sowie die Hafenanlagen in Schutt und Asche. Andere Wellen warfen massenhaft Flugblätter ab, in denen Island aufgefordert wurde, eine Politik der Isolation im Atlantik zu verfolgen. Es wird einige Zeit dauern, diese Schäden wieder zu beheben!"
-ice.67.a: "Zum Glück sind die Menschen in Ordnung."
+iceland_events.1.t: "Island weitet seine Fischereizonen aus"
+iceland_events.1.d: "Durch die jüngste Änderung unserer Politik steht unseren Fischern nun ein viel größeres Gebiet zur Verfügung, in dem sie mit Schleppnetzen fischen können. Es wird erwartet, dass sich unsere Fangmenge dadurch erheblich erhöht. Zu diesem Zweck haben unsere Händler bereits damit begonnen, sich bei unseren alten Handelspartnern im Britischen Empire umzusehen, um zu sehen, ob wir möglicherweise ein wirtschaftliches Abkommen schließen können."
+iceland_events.1.a: "Was für ein prächtiger Fang!"
+
+iceland_events.2.t: "Island weitet seine Fischereizone aus"
+iceland_events.2.d: "Island hat kürzlich große Teile des Nordatlantiks als seine rechtmäßigen Fischereigründe beansprucht. Dies wird zwangsläufig den Zorn der Syndikalisten in Großbritannien auf sich ziehen, aber vielleicht können wir diese Gelegenheit nutzen, um in Island Unterstützung zu gewinnen, die wir schließlich als Sprungbrett für die Rückeroberung der Heimatinseln nutzen können."
+iceland_events.2.a: "Macht Island ein Angebot."
+iceland_events.2.b: "Wir können es nicht riskieren."
+
+iceland_events.3.t: "Island dringt in britische Gewässer vor!"
+iceland_events.3.d: "The Icelanders have expanded into our waters in the North Atlantic. They claim that they are only trying to get over the lingering effects of Black Monday but they nevertheless have created unrest from the Scottish fishermen in the north. They are a small nation and whatever fish they pull in won't affect us too badly but we have a chance to attempt to rekindle the trade agreement that our two Atlantic isles shared before the Revolution."
+iceland_events.3.a: "Versuchet eine Vereinbarung zu treffen."
+iceland_events.3.b: "Es gibt viel Fisch im Meer."
+
+iceland_events.4.t: "Kanada bietet ein Abkommen an"
+iceland_events.4.d: "Die Kaufleute Kanadas haben sich an uns gewandt, um ihr Interesse an einem Wirtschaftsabkommen zwischen unseren beiden Ländern zu bekunden. Als größter Nachfolgestaat des Britischen Empire hoffen sie, den Handel wieder aufzunehmen, den unsere Inseln einst gemeinsam betrieben."
+iceland_events.4.a: "An unsere Freunde in Ottawa!"
+
+iceland_events.5.t: "Die Union von Großbritannien bietet einen Deal an"
+iceland_events.5.d: "Die Handelsunion in der Union von Großbritannien ist zu uns gekommen, um die Bedingungen für ein mögliches Wirtschaftsabkommen zu besprechen. Unsere beiden Inseln hatten in der Vergangenheit ein großzügiges Handelsabkommen, aber die jüngsten Ereignisse des letzten Jahrzehnts haben dazu geführt, dass dieses Abkommen aufgelöst wurde. Sie behaupten, dass jetzt der perfekte Zeitpunkt für eine Wiederaufnahme des Handels ist."
+iceland_events.5.a: "Noch einmal sollen die Inseln handeln!"
+
+iceland_events.6.t: "Island erhält mehrere Handelsangebote"
+iceland_events.6.d: "Angesichts unserer jüngsten Expansion wetteifern die Mächte auf beiden Seiten des Atlantiks darum, ihr Stück vom Kuchen abzubekommen. Sowohl die Kanadier als auch die Syndikalisten haben Angebote gemacht, um neue Abkommen für unser wachsendes Angebot an Kabeljau zu schließen. Mit welcher Seite sollten wir ein Handelsabkommen abschließen?"
+iceland_events.6.a: "Schließt ein Abkommen mit Kanada!"
+iceland_events.6.b: "Schließt ein Abkommen mit der Union von Großbritannien!"
+
+iceland_events.7.t: "Kabeljauhandelsabkommen mit Island geschlossen"
+iceland_events.7.d: "Unsere Kaufleute haben erfolgreich ein Abkommen mit Island geschlossen. Dieses Geschäft wird dem Land helfen, seine wirtschaftliche Flaute zu überwinden, und uns einen wertvollen Verbündeten im Nordatlantik bescheren."
+iceland_events.7.a: "Der Handel mit Kabeljau über den Atlantik beginnt!"
+
+iceland_events.78.t: "Kein Abkommen über Kabeljau im Nordatlantik unterzeichnet"
+iceland_events.78.d: "Es scheint, dass trotz unserer großzügigen Angebote sowohl an die Royalisten als auch an die Syndikalisten keine der beiden Seiten an einem Handelsabkommen mit uns für unsere Fänge interessiert ist. Aufgrund dieser unglücklichen Ereignisse müssen wir uns ostwärts zu unseren nordischen Mitstreitern wenden und versuchen, uns ihnen anzunähern."
+iceland_events.78.a: "Jetzt müssen wir uns nach innen wenden..."
+
+iceland_events.8.t: "Kanadische Kabeljauvereinbarung unterzeichnet"
+iceland_events.8.d: "Die Kanadier haben einem Abkommen über unsere Kabeljauverkäufe zugestimmt. Das wird unsere Gewinne erheblich steigern."
+iceland_events.8.a: "Ein süßer Fang!"
+
+iceland_events.9.t: "Isländisch-Kanadisches Abkommen unterzeichnet"
+iceland_events.9.d: "Die Royalisten haben ein Abkommen mit den Einheimischen Islands unterzeichnet, um sie zu ermutigen, in unseren Gewässern zu fischen und den Fisch zu nehmen, der rechtmäßig uns gehört. Wir müssen Vergeltung üben oder uns von einer so kleinen Nation erniedrigen lassen."
+iceland_events.9.a: "Macht die Gewässer unsicher!"
+
+iceland_events.10.t: "Kabeljauabkommen mit Island unterzeichnet"
+iceland_events.10.d: "Die isländischen Kaufleute haben sich dafür entschieden, den Handel wieder aufzunehmen, den unsere beiden Nationen in der Vergangenheit gemeinsam betrieben haben. Lassen wir die Zukunft unserer Inseln gemeinsam gedeihen."
+iceland_events.10.a: "Atlantischer Kabeljauhandel beginnt!"
+
+iceland_events.11.t: "Kabeljaudeal unterzeichnet!"
+iceland_events.11.d: "Mit der Unterzeichnung dieses Abkommens haben sich die Unionisten bereit erklärt, über unser Eindringen in ihre Gewässer hinwegzusehen und ihnen im Gegenzug einen erheblichen Anteil unserer neuen Fänge zu überlassen. Dies wird ein sichereres Umfeld für unsere Fischer schaffen."
+iceland_events.11.a: "Auf unsere atlantischen Verbündeten!"
+
+iceland_events.12.t: "Die Briten haben eine Vereinbarung mit den Isländern getroffen"
+iceland_events.12.d: "Die heimtückischen Unionisten in Großbritannien haben mit Island ein Abkommen über ein fast vollständiges Monopol auf den Verkauf von Kabeljau aus dem Nordatlantik geschlossen. Das können wir nicht zulassen! Sollen wir Island ein neues Abkommen anbieten oder stillschweigend zurücktreten?"
+iceland_events.12.a: "Ein süßeres Geschäft für Island."
+iceland_events.12.b: "Ein ruhiger Ausstieg aus dem Kabeljauhandel."
+
+iceland_events.13.t: "Kanada kommt mit einem neuen Abkommen auf uns zu"
+iceland_events.13.d: "Da die Kanadier nicht gewillt sind, sich wegen eines Geschäftsabschlusses aus Island vertreiben zu lassen, sind sie mit einem neuen Angebot für unsere Kabeljauverkäufe an uns herangetreten. Sie sind bereit, einen viel höheren Preis für den Kabeljau zu zahlen als unser Angebot an die Briten. Sollten wir die Seite wechseln und uns auf das kanadische Angebot einlassen oder an unserem britischen Angebot festhalten?"
+iceland_events.13.a: "Auf eine bessere Zukunft mit Kanada!"
+iceland_events.13.b: "Unsere Loyalität liegt bei Großbritannien."
+
+iceland_events.14.t: "Beanspruchung der Gewässer!"
+iceland_events.14.d: "Isländische Fischtrawler beanspruchen unsere Gewässer und stehlen Fänge, die rechtmäßig uns gehören! Wie sollten wir darauf reagieren?"
+iceland_events.14.a: "Zeigt ihnen ihren Platz!"
+
+iceland_events.15.t: "Abwehr der Trawler"
+iceland_events.15.d: "Nach dieser unverschämten Aneignung von Fischereirechten durch Island haben wir eine kleine Abteilung von Zerstörern ausgesandt, um diese Bedrohung unserer Fischer zu stoppen. Die Zerstörer RNS Seawolf und Sparrowhawk haben erfolgreich alle isländischen Fischer abgewehrt, die törichterweise versuchen, unsere Gewässer zu beanspruchen."
+iceland_events.15.a: "Britannia regiert die Wellen!"
+
+iceland_events.16.t: "Fischer angegriffen"
+iceland_events.16.d: "In den letzten Tagen wurden unsere Fischer von einem kleinen Geschwader von Zerstörern angegriffen, die von der britischen Union entsandt wurden, um die Gewässer zu kontrollieren. Nach diesen Angriffen sind weniger unserer Fischer bereit, in den reichen Gewässern zu fischen, die wir gerade von den Briten für uns beansprucht haben. Infolgedessen können wir nicht mehr so viele Fische für den Verkauf an Land ziehen."
+iceland_events.16.a: "Wir werden nicht wegen ein paar Zerstörern aufgeben!"
+
+iceland_events.17.t: "Vergeltungsmaßnahmen gegen ihre Trawler?"
+iceland_events.17.d: "Ein Teil unserer Bevölkerung ruft nach Rache an den Briten für die Angriffe auf unsere Fischer. Sie fordern, dass wir einige Schiffe unserer Küstenwache ausrüsten, um britische Trawler abzufangen, die in unseren Gewässern operieren."
+iceland_events.17.a: "Trennt ihre Netze!"
+iceland_events.17.b: "Kein Grund, sich auf ihr Niveau herabzulassen!"
+
+iceland_events.178.t: "Fischer weiterhin in Gefahr"
+iceland_events.178.d: "Trotz unseres stillen Rückzugs aus den umstrittenen Gewässern belästigen die Briten weiterhin unsere Fischer. Sie achten darauf, innerhalb unserer bisherigen Hoheitsgewässer zu bleiben, aber die Briten machen immer noch brutal Jagd auf unsere Boote. Erneut fordern die Fischer, dass wir einige bewaffnete Schiffe unserer Küstenwache mobilisieren, um sie zu schützen. Wer wären wir, wenn wir unsere Leute auf hoher See einfach im Stich lassen würden?"
+iceland_events.178.a: "Mobilisiert die Küstenwache!"
+iceland_events.178.b: "Wir können nicht riskieren, dass die Briten reagieren."
+
+iceland_events.179.t: "Fischer marschieren auf dem Althing"
+iceland_events.179.d: "Angesichts der anhaltenden mangelnden Unterstützung durch die Regierung haben sich große Gruppen von Fischern in der Hauptstadt versammelt, um zum Althing zu marschieren und Maßnahmen zu fordern. Diese Situation erinnert viele an die Zeit, als 1932 eine Gruppe von Arbeitern einen Aufstand wegen des städtischen Arbeitsbeschaffungsprogramms anzettelte. Wir stehen nun vor zwei Möglichkeiten: Entweder wir geben den Fischern nach und mobilisieren die Küstenwache, oder wir können versuchen, die Briten um Gnade zu bitten. Wie wird sich die Regierung entscheiden?"
+iceland_events.179.a: "Die Fischer müssen geschützt werden!"
+iceland_events.179.b: "Mögen die Briten Gnade finden."
+
+iceland_events.18.t: "Britische Fischer angegriffen"
+iceland_events.18.d: "Wir haben Berichte erhalten, dass isländische Patrouillenboote der Küstenwache mit Netzschneidern ausgerüstet und hinter unseren Fischerbooten hergeschickt wurden. Wenn das isländische Schiff hinter unseren Trawlern herfährt, zerschneidet der hintere Haken unsere Netze und gefährdet unsere Fähigkeit, Fisch zu fangen. Unsere Streitkräfte im Nordatlantik sind zu dünn gesät, um alle unsere Fischer zu schützen. Wir müssen ihnen Verstärkung schicken!"
+iceland_events.18.a: "Verstärkt das Geschwader!"
+
+iceland_events.19.t: "Ein Held kehrt nach Hause zurück"
+iceland_events.19.d: "Bei einem waghalsigen Überfall auf den britischen Fischtrawler Carlisle sah sich die Besatzung der Ægir dem Angriff eines neuen britischen Geschwaders ausgesetzt, das gerade in die Region entsandt worden war. Der Kommandant der RNS Dunedin befahl seinem Schiff, die Ægir zu rammen, um ihr Fischereifahrzeug zu schützen. Nach zwei Rammversuchen blieb die Ægir gerade noch aufrecht an einer einzigen Schraube hängen. In einem Akt der Verzweiflung gab der Kommandant der Ægir den Befehl, die Geschütze zu bemannen, obwohl die Dunedin über eine überwältigende Feuerkraft verfügte. Der Soldat Guðmundur Kjærnested bemannte den 6-Pfünder, um die Dunedin davon abzuhalten, das fliehende Patrouillenschiff zu erledigen. Die Nachricht vom Heldentum der Besatzung hat das ganze Land erreicht, und es wird gefordert, Guðmundur Kjærnested zum Ritter zu schlagen."
+iceland_events.19.a: "Erinnert euch an die Ægir!"
+
+iceland_events.20.t: "Appell an die Kanadier um Hilfe"
+iceland_events.20.d: "Obwohl die Ægir die Briten erfolgreich zurückgeschlagen hat, haben wir nicht genug Schiffe, um einen Zermürbungskampf gegen die Briten zu führen. Wir brauchen umfangreichere Hilfe, um unsere Gewässer zu schützen. Etwas, das die Kanadier in der Lage sein sollten zu leisten. Wie viel sollten wir von ihnen verlangen?"
+iceland_events.20.a: "Fordert Truppen und eine Seestreitkraft an"
+iceland_events.20.b: "Fordert nur Seestreitkräfte an"
+
+iceland_events.21.t: "Island bittet uns um Hilfe"
+iceland_events.21.d_start: "Die isländische Regierung hat sich mit der Bitte um militärische Unterstützung an uns gewandt. Die Gewässer vor ihrer Küste werden von Woche zu Woche mehr zu einem Kriegsgebiet, da die Küstenwache und die republikanische Marine gegen die Fischereischiffe der jeweils anderen Seite antreten. Ohne unseren Schutz könnte das Kabeljauabkommen, das wir mit ihnen geschlossen haben, scheitern, da die republikanische Marine Island abschneiden könnte."
+iceland_events.21.d: "$iceland_events.21.d_start$ Sie haben um ein Truppenkontingent zum Schutz der Insel selbst und um mehrere Schiffe zur Abwehr der republikanischen Kräfte gebeten. Wie sollen wir darauf reagieren?"
+iceland_events.21.a: "Schickt ihnen, was sie verlangen!"
+iceland_events.21.b: "Wir können nur die Seestreitkräfte entbehren."
+iceland_events.21.c: "Wir können nichts entbehren."
+
+iceland_events.22.d: "$iceland_events.21.d_start$ Sie haben um mehrere Schiffe gebeten, um die republikanischen Streitkräfte abzuwehren. Wie sollen wir darauf reagieren?"
+
+iceland_events.23.t: "Schickt die Marine los"
+iceland_events.23.d: "Heute bricht das neu gebildete Nordwestatlantik-Geschwader in die isländischen Gewässer auf. Die Flotte besteht aus den Zerstörern HMCS Sterling und Tactician, die von dem leichten Kreuzer HMCS Dauntless angeführt werden. Das Kommando wird von der HMCS Cumberland erteilt, die als Flaggschiff dienen wird. Gemeinsam stechen unsere stolzen Männer in See, um unseren Handel vor diesen gottlosen Syndikalisten auf den Heimatinseln zu schützen."
+iceland_events.23.a: "Viel Glück und Gottes Segen!"
+
+iceland_events.24.t: "Kanadische Flotte trifft ein"
+iceland_events.24.d: "In unserem Hafen herrschte heute reger Betrieb, da die von uns angeforderten kanadischen Schiffe gerade eingetroffen sind. Der britische Zerstörer RNS Seawolf hatte einige unserer Fischtrawler verfolgt und auf einen günstigen Moment gewartet, um unsere Ausbeute für den Tag zu stören, aber die Ankunft des Northwest Atlantic Squadron ließ den Zerstörer mit eingezogenem Schwanz fliehen. Die kanadischen Seeleute wurden von unseren Fischern auf den Docks freudig begrüßt, als sie in den Hafen einliefen."
+iceland_events.24.a: "Willkommen Kanadier!"
+
+iceland_events.25.t: "Ankunft der kanadischen Streitkräfte"
+iceland_events.25.d: "Etwas ruhiger geht es zu, denn gestern Abend sind kanadische Streitkräfte in Akureyri gelandet. Sie haben sich für eine indirektere Route durch die arktischen Gewässer entschieden, um nicht von britischen Schiffen entdeckt zu werden. Für den Fall, dass wir angegriffen werden, sind wir besser darauf vorbereitet, den Feind aufzuhalten."
+iceland_events.25.a: "Beruhigend."
+
+iceland_events.26.t: "Keine Beihilfe aus Kanada"
+iceland_events.26.d: "Heute erreichte uns eine enttäuschende Nachricht: Unser Gesandter in Kanada hat uns berichtet, dass die Kanadier nicht bereit sind, uns und den Kabeljauhandel zwischen unseren beiden Ländern mit Mitteln zu schützen. Von der republikanischen Marine können wir keine Hilfe aus Kanada erwarten."
+iceland_events.26.a: "Wir stehen allein..."
+
+iceland_events.27.t: "Mehr verlorene Fischtrawler"
+iceland_events.27.d: "Seitdem die Kanadier es versäumt haben, uns Unterstützung zu schicken, haben wir in dieser Woche massive Probleme mit der republikanischen Marine. Ihre verstärkten Streitkräfte sind in der Lage, unsere Schiffe zu terrorisieren und fast den gesamten Fischfang vor unserer Südküste zu unterbinden. Wir haben uns mit Kanada in Verbindung gesetzt, um ihnen mitzuteilen, dass unser Handelsabkommen gekündigt wird, weil wir nicht in der Lage sind, unsere Fischer zu schützen."
+iceland_events.27.a: "Wir müssen uns geschlagen geben..."
+
+iceland_events.28.t: "Fischereiabkommen mit Island wird beendet"
+iceland_events.28.d: "Die isländischen Fischer werden ohne unsere Hilfe rücksichtslos angegriffen, was die Menge des gefangenen Fisches stark verringert hat, da immer weniger Fischer bereit sind, auf die Meere hinauszufahren. Zu diesem Zweck haben uns die isländischen Kaufleute mitgeteilt, dass das Handelsabkommen zwischen unseren Ländern beendet ist."
+iceland_events.28.a: "Unglücklich."
+
+iceland_events.29.t: "Ein Ultimatum an Island stellen?"
+iceland_events.29.d: "Da wir die Situation in Island fest im Griff haben, stehen wir nun an einem Scheideweg. Wir könnten einige Vertreter nach Island schicken, um 'vorzuschlagen', dass sie eine neue syndikalistische Regierung unter unserer Führung bilden. Oder wir könnten sie auf ihrer Insel allein lassen, ohne andere wichtige Verbündete."
+iceland_events.29.a: "Schickt einige Vertreter."
+iceland_events.29.b: "Sie sollen isoliert bleiben."
+
+iceland_events.291.t: "Ultimatum aus Großbritannien"
+iceland_events.291.d: "Da die kanadischen Streitkräfte nicht bereit sind, sich weiter zu engagieren, ist Island immer weiter in die britische Sphäre gefallen. Jetzt hat Großbritannien Vertreter entsandt, die uns 'nachdrücklich empfehlen', eine syndikalistische Regierung zu bilden und der Dritten Internationale beizutreten. Was natürlich nicht gesagt wird, ist die implizite Androhung von Gewalt, um dies durchzusetzen - sie werden eine Ablehnung nicht akzeptieren. Da wir keine Verbündeten mehr haben, haben wir kaum eine andere Wahl, als uns zu fügen."
+iceland_events.291.a: "Wir müssen uns beugen..."
+
+iceland_events.30.t: "Alleine im Atlantik"
+iceland_events.30.d: "Während sich der Kabeljaukrieg dem Ende zuneigt, steht die britische Union über uns. Sie hat sich jedoch damit begnügt, uns allein und ohne Verbündete im Atlantik treiben zu lassen. Jetzt müssen wir herausfinden, was wir mit unserem trauernden Land tun sollen."
+iceland_events.30.a: "Schaut nach Osten!"
+
+iceland_events.31.t: "Ankunft der kanadischen Flotte"
+iceland_events.31.d: "Die Royalisten sind vor kurzem in Island eingetroffen, um ihnen dabei zu helfen, unsere Gewässer als ihre eigenen zu beanspruchen! Die Anwesenheit ihres Geschwaders hat unsere republikanische Marine in die Enge getrieben. Wir brauchen eine neue Strategie für unsere Vorstöße in den Atlantik."
+iceland_events.31.a: "Werdet aggressiver!"
+iceland_events.31.b: "Bleibt zusammen!"
+
+iceland_events.32.t: "Aggressivere Angriffe der Briten"
+iceland_events.32.d: "Das kanadische Geschwader hat zwar einige Angriffe auf unsere Trawler erfolgreich abgewehrt, aber häufig wurden unsere Fischer angegriffen, bevor sie rechtzeitig über Funk Hilfe anfordern konnten. Mit einer Flotte von Aufklärungsflugzeugen können wir uns den nötigen Vorsprung gegenüber der republikanischen Flotte verschaffen."
+iceland_events.32.a: "Fordert Flugzeuge für die Luftaufklärung an."
+
+iceland_events.33.t: "Alles ruhig im Nordatlantik"
+iceland_events.33.d: "Die Scharmützel im Atlantik sind vorerst zu einem Ende gekommen. Die Kanadier und die Briten haben sich gegenseitig beäugt, während die Flotten die Bewegungen der jeweils anderen beschattet haben. Keine der beiden Seiten war bereit, ein Gefecht zu erzwingen, da die Kanadier nicht als Aggressoren dastehen wollen, während die Briten nicht bereit sind, gegen die überwältigende Feuerkraft des modernen schweren Kreuzers, der das kanadische Geschwader anführt, vorzugehen."
+iceland_events.33.a: "Endlich Frieden!"
+
+iceland_events.34.t: "Island fordert Aufklärungsflugzeuge an"
+iceland_events.34.d: "Die isländische Regierung hat um die Anmietung von Aufklärungsflugzeugen gebeten, damit unser Geschwader ihre Handelsschiffe besser schützen kann."
+iceland_events.34.a: "Schickt ihnen die Flugzeuge."
+iceland_events.34.b: "Wir können nichts entbehren."
+
+iceland_events.35.t: "Kanada schickt Aufklärungsflugzeuge"
+iceland_events.35.d: "Die kanadische Regierung hat die Entsendung eines Geschwaders von Aufklärungsflugzeugen genehmigt, um uns bei der Verteidigung unserer Händler zu unterstützen."
+iceland_events.35.a: "Danke, Kanada!"
+
+iceland_events.36.t: "Kanada schickt keine Aufklärungsflugzeuge"
+iceland_events.36.d: "Die kanadische Regierung hat uns mitgeteilt, dass ihre Flugzeuge anderswo in der Welt dringender benötigt werden."
+iceland_events.36.a: "Unglücklich."
+
+iceland_events.37.t: "Ein kühner Plan für den Atlantik"
+iceland_events.37.d: "Admiral Norman Holbrook hat sich mit einem Plan an uns gewandt, um die in Island stationierten Kanadier zu brechen. Kürzlich von einem Jagdausflug zurückgekehrt, wurde Holbrook von einer Eingebung übermannt. Irgendwann verfällt jeder in ein Routinemuster. Er glaubt, wenn wir die Kanadier lange genug verfolgen, werden sie irgendwann ein Muster offenbaren, wann sie sich in den Hafen zurückziehen. Sobald wir das Timing kennen, können wir ein U-Boot losschicken, um ihren Panzerkreuzer zu sprengen, bevor sie überhaupt wissen, was passiert, und uns damit einen Vorteil im Atlantik verschaffen!"
+iceland_events.37.a: "Autorisiert die Aktion."
+
+iceland_events.38.t: "Der Überfall auf die Cumberland"
+iceland_events.38.d: "Heute Abend war die Nacht des Angriffs gekommen. Unsere tapfere U-Boot-Besatzung, die unterhalb von Holbrook operierte, stach in See und machte sich vorsichtig auf den Weg zum Hafen, wo die kanadische Flotte für die Nacht angedockt war. Aufgrund des laxen Charakters des jüngsten Atlantikkonflikts schien man nicht wirklich versucht zu haben, angemessene Wachen zu postieren, um gegen so etwas gewappnet zu sein. Als Holbrook auftauchte, feuerte er zwei Torpedosalven auf die HMCS Cumberland ab. Die erste Salve blieb wirkungslos, da sie am Rumpf abprallte, aber die zweite Salve riss ein gewaltiges Loch in den Steuerbordrumpf, so dass dieser sofort kippte und zu fluten begann. Nach diesem Spektakel tauchten Holbrook und seine Besatzung unter und begannen ihre Flucht zurück in die sicheren britischen Gewässer."
+iceland_events.38.a: "Rein und raus unentdeckt."
+
+iceland_events.39.t: "Glockentöne in der Nacht"
+iceland_events.39.d: "Gestern Abend herrschte Chaos im Hafen. Die Ruhe des letzten Monats hat dazu geführt, dass unsere Wache entspannter war, als sie es hätte sein sollen. Denn heute Nacht ging unser schwerer Kreuzer, die HMCS Cumberland, verloren. An Bord haben wir etwa 300 Seeleute verloren, da das Schiff ziemlich schnell gesunken ist. Wir vermuten, dass ein Teil der Munition unsachgemäß unter Deck gelagert war oder dass ein Kessel über Nacht einen mechanischen Defekt hatte. Was auch immer der Grund sein mag, dieser Verlust wird von allen in Island und Kanada sehr bedauert."
+iceland_events.39.a: "Chaos im Hafen!"
+
+iceland_events.40.t: "Beunruhigende Nachrichten aus Island"
+iceland_events.40.d: "Wir haben heute schwere Nachrichten aus Island erhalten. Über Nacht kam es auf dem schweren Kreuzer HMCS Cumberland zu einer plötzlichen Explosion, die das Schiff schnell sinken ließ. Die Ursache der Explosion ist noch nicht bekannt, aber die eingehenden Berichte sprechen von mindestens 300 Seeleuten, die bei diesem tragischen Vorfall ums Leben gekommen sind."
+iceland_events.40.a: "Ein Tag der Trauer"
+
+iceland_events.41.t: "Das Schicksal der HMCS Cumberland"
+iceland_events.41.d: "Nach der Tragödie der Cumberland haben wir Taucher losgeschickt, um das Wrack nach weiteren Informationen abzusuchen, die wir in dem Chaos der Nacht übersehen haben. Am Nachmittag fanden unsere Taucher den rauchenden Colt. Und das im wahrsten Sinne des Wortes. Sie fanden einen intakten syndikalistischen Torpedo britischer Bauart, der auf dem Grund des Hafens lag. Diese Tragödie war kein mechanisches Versagen, sondern ein vorsätzlicher Angriff der Union von Großbritannien gegen uns! Das werden wir nicht hinnehmen!"
+iceland_events.41.a: "Verlangt eine Entschuldigung!"
+
+iceland_events.42.t: "U-Boot-Überfall auf die Cumberland entdeckt"
+iceland_events.42.d: "Heute Morgen haben wir ein Telegramm von der isländischen Regierung erhalten, in dem sie Reparationen für den Untergang der HMCS Cumberland fordert. Sie behaupten, sie hätten unbestreitbare Beweise gegen uns, die belegen, dass wir für den Verlust ihres Schiffes verantwortlich sind. Unsere U-Boot-Besatzung behauptet, sie sei unentdeckt ein- und ausgestiegen. Wie sollen wir auf diese ungeheuerliche Anschuldigung reagieren?"
+iceland_events.42.a: "Bestreitet unsere Beteiligung."
+iceland_events.42.b: "Prahlt mit unserer Rolle beim Untergang."
+
+iceland_events.43.t: "Die britische Antwort auf das Cumberland-Telegramm"
+iceland_events.43.d: "The British are denying their role in the sinking of the HCMS Cumberland. However, the torpedo we found is definite proof of their dastardly deed. The international community must know of the heinous nature of those in the Union of Britain to attack a ship full of boys in the dead of night."
+iceland_events.43.a: "They will be forced to admit the truth."
+
+iceland_events.44.d: "Die Briten haben auf unser Telegramm mit Prahlerei geantwortet. Sie brüsten sich mit ihren waghalsigen Besatzungsmitgliedern, die bereit waren, in den Rachen unseres Hafens zu segeln, um uns Schaden zuzufügen. Sie behaupten, dass sie nur ihre Fischer mit einer Vorwärtsverteidigung schützen wollten. Die Kanadier müssen von der Grausamkeit ihrer britischen Brüder wissen."
+iceland_events.44.a: "Diese Teufel!"
+
+iceland_events.45.t: "Britische Torpedos in der Nähe des Wracks der Cumberland gefunden"
+iceland_events.45.d: "Aus Island gibt es Neuigkeiten über die Ursache des Untergangs der HMCS Cumberland. Taucher fanden einen intakten britischen Torpedo, der nicht detonierte, als er gegen den Rumpf der Cumberland geschossen wurde. Bei der Explosion handelte es sich nicht um ein internes mechanisches Versagen, sondern um einen heimtückischen Versuch der Briten, uns in der Nacht feige anzugreifen. Unser Volk schreit nach Rache für den Verlust unserer jungen Männer an Bord der Cumberland, die es nicht bis an die Küste geschafft haben."
+iceland_events.45.a: "Das Volk soll gehört werden!"
+
+iceland_events.46.t: "Spione melden sich aus Kanada zurück"
+iceland_events.46.d: "Unsere Spione in Kanada haben uns über die öffentliche Meinung in Kanada gegenüber Island seit der Versenkung der Cumberland berichtet. Anders als wir dachten, hat der Überraschungsangriff sie nicht entmutigt, sondern eher ermutigt. Sie bleiben in ihrem Engagement für Island entschlossen. Wie sollten wir vorgehen?"
+iceland_events.46.a: "Blockade gegen Island!"
+iceland_events.46.b: "Tretet zurück."
+
+iceland_events.47.t: "Freie Herrschaft über die Gewässer!"
+iceland_events.47.d: "In einer unerwarteten Wendung der Ereignisse haben sich die Briten dazu entschlossen, sich aus den Scharmützeln in den isländischen Gewässern zurückzuziehen. Damit sind wir nun die unbestrittenen Herren der Wellen um unsere Insel. Unsere Fischer können nun den Fischfang wieder aufnehmen, ohne Angriffe der republikanischen Flotte befürchten zu müssen. Ohne die Hilfe Kanadas hätten wir das nicht geschafft."
+iceland_events.47.a: "Britannia beherrscht nicht mehr die Wellen"
+
+iceland_events.48.t: "Schiffe überall am Horizont"
+iceland_events.48.d: "Heute Morgen bot sich unseren Kaufleuten ein erschreckender Anblick: der Horizont war voll mit britischen Kriegsschiffen. In einer Machtdemonstration haben die Briten ihren Superträger Rebecca 5 Meilen vor der Küste von Reykjavik stationiert. Bomber sind über Reykjavik geflogen und haben Tausende von Flugblättern abgeworfen, in denen steht, dass unser Handel mit den Kanadiern nun beendet ist und dass wir dringend aufgefordert werden, allen Forderungen der Briten nachzukommen."
+iceland_events.48.a: "Abgeschnitten von unseren Freunden im Westen..."
+
+iceland_events.49.t: "Nordseegeschwader gefangen"
+iceland_events.49.d: "Während die Briten auf Island eindringen, sitzt unser Schiffskommando in den isländischen Häfen in der Falle. Jeder Versuch, die Blockade zu durchbrechen, würde zu einem Blutbad führen. Sie sitzen effektiv in der Falle."
+iceland_events.49.a: "Möge Gott ihnen helfen!"
+
+iceland_events.50.t: "Die Blockade von Island"
+iceland_events.50.d: "Unsere Blockade war in der letzten Woche ein großer Erfolg. Der gesamte Handel mit den Royalisten in Kanada ist auf Island zum Erliegen gekommen. Unser Nachrichtendienst berichtet, dass die Kanadier nichts unternommen haben, um ihr gefangenes Geschwader von Seeleuten in Island zu befreien. Wir haben Island genau da, wo wir sie haben wollen."
+iceland_events.50.a: "Eine erfolgreiche Operation."
+
+iceland_events.51.t: "Erfüllung der Anforderungen"
+iceland_events.51.d: "Nach einer zweiwöchigen Blockade müssen ihre Kaufleute und Händler verzweifelt nach einer Möglichkeit zur Wiederaufnahme des Handels suchen. Wir haben ihnen einen Vertrag vorgeschlagen. Darin machen wir unsere Ansprüche auf die Gewässer geltend, die uns natürlich einen beträchtlichen Anteil an allen Gewinnen aus dem von isländischen Fischern gefangenen Fisch einbringen. Jede Abweichung von dieser Politik würde als Angriff auf unsere souveränen Gewässer gewertet und ein militärisches Eingreifen zur Folge haben."
+iceland_events.51.a: "Zwingt ihre Hand!"
+
+iceland_events.52.t: "Großbritannien bietet ein neues Abkommen an"
+iceland_events.52.d: "Britische Kaufleute haben unseren Kaufleuten heute ein Ultimatum gestellt. Sie landeten in Reykjavik und verlangten ein Treffen mit den führenden isländischen Kaufleuten. Sie brachten ein Dokument mit, in dem sie ihre Ansprüche auf die Gewässer geltend machten, die ihnen einen beträchtlichen Anteil an allen Gewinnen aus dem von isländischen Fischern gefangenen Fisch zustehen. Jegliche Ablehnung ihrer Abmachung würde als Angriff auf ihre souveränen Gewässer gewertet werden, und sie werden nicht zögern, das Militär zu schicken, um sicherzustellen, dass wir die Abmachung einhalten."
+iceland_events.52.a: "Weist ihre Erpressung zurück!"
+iceland_events.52.b: "Wir haben keine andere Wahl als uns zu beugen..."
+
+iceland_events.53.t: "Organisation der Verteidigung von Island"
+iceland_events.53.d: "Nachdem wir ihre lächerlichen Forderungen zurückgewiesen hatten, zogen die britischen Kaufleute mit viel heißer Luft ab. Wir gehen nicht davon aus, dass sie nach ihrem Überfall auf die Cumberland leere Drohungen aussprechen werden. Deshalb müssen wir uns auf ihren nächsten Angriff vorbereiten. Wie sollen wir vorgehen?"
+iceland_events.53.a: "Zu den Waffen!"
+iceland_events.53.b: "Organisiert einen Widerstand im Untergrund."
+
+iceland_events.54.t: "Island lehnt unsere Forderungen ab"
+iceland_events.54.d: "Da sie unsere Bedingungen abgelehnt haben, haben wir nun einen berechtigten Vorwand, um Truppen auf ihrer Insel zu landen. Sie verfügen über keinerlei militärische Mittel und hätten keine Möglichkeit, sich uns zu widersetzen. Sollen wir eine große Streitmacht landen, um unsere Macht zu demonstrieren, oder unsere Ressourcen anderweitig nutzen und eine kleinere Streitmacht einsetzen?"
+iceland_events.54.a: "Zeigt unsere Macht!"
+iceland_events.54.b: "Eine kleine Truppe wird die Aufgabe erfüllen."
+
+iceland_events.55.t: "Island liegt am Boden"
+iceland_events.55.d: "Die Isländer versuchten, mit Hilfe ihrer kanadischen Verbündeten an den Stränden Widerstand zu leisten. Sie waren jedoch unseren republikanischen Marinesoldaten nicht gewachsen, die kurzen Prozess mit ihnen machten. Wir stehen nun auf unserer eroberten Insel."
+iceland_events.55.a: "Triumph!"
+
+iceland_events.56.t: "Unangefochtene Landung"
+iceland_events.56.d: "Unsere Streitkräfte sind erfolgreich auf Island gelandet. Die Einheimischen leisteten keinen Widerstand, und wir konnten schnell Schlüsselpositionen in ganz Reykjavik sichern und die Kontrolle über die Insel übernehmen."
+iceland_events.56.a: "Wer kann schon hoffen, gegen uns zu bestehen?"
+
+iceland_events.57.t: "Operation Fork vereitelt!"
+iceland_events.57.d: "Wir haben die Zähigkeit der Isländer unterschätzt. Sie waren in der Lage, mit Hilfe ihrer kanadischen Verbündeten eine solide Verteidigung aufzubauen und unsere kleinen Landungstruppen ins Meer zurückzuschlagen. Mit diesem Rückschlag stehen wir auf der internationalen Bühne wie Trottel da, weil wir es nicht geschafft haben, unsere Macht gegen ein so kleines Land wie Island einzusetzen."
+iceland_events.57.a: "Wie konnte das passieren?"
+
+iceland_events.58.t: "Niederlage in Island"
+iceland_events.58.d: "Unsere Streitkräfte versuchten, in einer erbitterten Schlacht die Kontrolle über Island zu behalten. Leider kamen die Briten in zu großer Zahl und konnten uns besiegen."
+iceland_events.58.a: "Katastrophe!"
+
+iceland_events.59.t: "Ein Widerstandskommando organisieren?"
+iceland_events.59.d: "Ohne Stiefel auf dem Boden ist unsere sichtbare Präsenz in Island beendet. Sollten wir versuchen, Kommandotruppen nach Island zu entsenden, um einen lokalen Widerstand gegen die britische Herrschaft zu organisieren?"
+iceland_events.59.a: "Eine gute Idee!"
+iceland_events.59.b: "Zu riskant..."
+
+iceland_events.591.d: "Das isländische Volk ist nicht damit zufrieden, unter der Fuchtel der Union von Großbritannien zu stehen. Sie haben uns um die Entsendung einer kleinen Truppe gebeten, die ihnen helfen soll, die Briten zu vertreiben. Sollen wir sie entsenden?"
+iceland_events.591.a: "Schickt die Männer!"
+iceland_events.591.b: "Der Plan ist zu riskant..."
+
+iceland_events.60.t: "Niederlage auf dem Feld"
+iceland_events.60.d: "Wir setzten alles, was wir hatten, auf diesen einen Versuch, die Briten zurückzudrängen. Trotz unserer besten Bemühungen kamen die Briten einfach weiter und durchbrachen unsere begrenzten Verteidiger. Die Briten haben sich beeilt, das Kriegsrecht zu verhängen, und unserer Regierung bleibt nicht mehr viel Zeit, bis sie eine Forderung erhält, die sie nicht ablehnen kann."
+iceland_events.60.a: "Einmal mehr unter dem Joch..."
+
+iceland_events.61.t: "Islands neue Regierung"
+iceland_events.61.d: "Nach der Eroberung der Insel waren unsere Delegationen mit der Ausarbeitung einer neuen Regierung beschäftigt, die wir auf Island einsetzen werden. Die zuvor an den Rand gedrängte syndikalistische Bevölkerung wird die Kontrolle über ein neues Althing erhalten, das letztlich uns untersteht."
+iceland_events.61.a: "Eine neue Regierung für die Insel!"
+
+iceland_events.62.t: "Britische Truppen in Reykjavik"
+iceland_events.62.d: "Britische Truppen sind heute auf Island gelandet und haben schnell die Kontrolle über alle wichtigen Regierungsgebäude übernommen. Das Althing erwartet in den nächsten Tagen Forderungen von der Union of Britain."
+iceland_events.62.a: "Wir hatten keine Chance."
+
+iceland_events.63.t: "Britische Truppen zurückgeschlagen"
+iceland_events.63.d: "Unsere Streitkräfte in Island haben einen britischen Angriff auf die Insel erfolgreich abgewehrt. Ihr Heldentum wird als Rache für die Cumberland noch lange in Erinnerung bleiben!"
+iceland_events.63.a: "Denkt an das Cumberland!"
+
+iceland_events.64.t: "Erfolgreiche Verteidigung von Island"
+iceland_events.64.d: "Unsere kanadischen Verbündeten konnten die Briten ins Meer zurückdrängen, als sie mit einem kleinen Truppenkontingent eine Landung versuchten. Vorerst behält die Insel ihre Unabhängigkeit."
+iceland_events.64.a: "Danke an Kanada!"
+
+iceland_events.65.t: "Die isländische Frage"
+iceland_events.65.d: "Nach dem Scheitern unserer Bodentruppen hat sich die Marine gemeldet und ihre Unterstützung für eine neue Operation angeboten. Dabei würde die Rebecca direkt vor dem Hafen von Reykjavik segeln und Bomber auf die Infrastruktur und Hafenanlagen schicken, um zu zeigen, wozu wir in der Lage sind. Dies würde wahrscheinlich den Zorn der internationalen Gemeinschaft auf sich ziehen. Die andere Option wäre, sich aus den Gewässern zurückzuziehen und zu hoffen, dass dieses Debakel in Vergessenheit gerät."
+iceland_events.65.a: "Statuiert ein Exempel an Island!"
+iceland_events.65.b: "Tretet zurück."
+
+iceland_events.66.t: "Großbritannien zieht sich aus dem Atlantik zurück"
+iceland_events.66.d: "Der Vertreter der Union von Großbritannien hat angekündigt, dass sich die Union von Großbritannien aus ihren derzeitigen Angelegenheiten im Nordatlantik zurückziehen wird. Das bedeutet, dass wir uns mit unseren kanadischen Handelspartnern und Beschützern zusammenschließen können."
+iceland_events.66.a: "Frei von ihrer Tyrannei!"
+
+iceland_events.67.t: "Reykjavik wurde bombardiert!"
+iceland_events.67.d: "Über Nacht brach Panik aus, als die RNS Rebecca den Hafen von Reykjavik ansteuerte und eine Bomberwelle nach der anderen abfeuerte. Sie schlugen präzise zu und legten das Wenige, was wir an Infrastruktur haben, sowie die Hafenanlagen in Schutt und Asche. Andere Wellen warfen massenhaft Flugblätter ab, in denen Island aufgefordert wurde, eine Politik der Isolation im Atlantik zu verfolgen. Es wird einige Zeit dauern, diese Schäden wieder zu beheben!"
+iceland_events.67.a: "Zum Glück sind die Menschen in Ordnung."
 
 #Recovery Events#
-ice.74.t: "Der Sparhaushalt"
-ice.74.d: "Da die Märkte beginnen, ihre Preise zu erhöhen, müssen wir uns nach innen wenden und versuchen, unsere Abhängigkeit von Importen aus anderen Ländern zu verringern."
-ice.74.a: "Mäßiges Festhalten an der Sparsamkeit!"
-ice.74.b: "Ein kleines Sparbudget!"
+iceland_events.74.t: "Der Sparhaushalt"
+iceland_events.74.d: "Da die Märkte beginnen, ihre Preise zu erhöhen, müssen wir uns nach innen wenden und versuchen, unsere Abhängigkeit von Importen aus anderen Ländern zu verringern."
+iceland_events.74.a: "Mäßiges Festhalten an der Sparsamkeit!"
+iceland_events.74.b: "Ein kleines Sparbudget!"
 
-ice.75.t: "Die Frage der Mittelzuweisung"
-ice.75.d: "Da unser Land in eine große Wirtschaftskrise geraten ist, hat das Volk um Hilfe gebeten. Unsere Kassen sind sehr leer, so dass wir nur in der Lage sein werden, einer Seite eine symbolische Geste zukommen zu lassen. Wem sollen wir helfen?"
-ice.75.a: "Unterstützung des ländlichen Raums."
-ice.75.b: "Unterstützung des städtischen Raums."
+iceland_events.75.t: "Die Frage der Mittelzuweisung"
+iceland_events.75.d: "Da unser Land in eine große Wirtschaftskrise geraten ist, hat das Volk um Hilfe gebeten. Unsere Kassen sind sehr leer, so dass wir nur in der Lage sein werden, einer Seite eine symbolische Geste zukommen zu lassen. Wem sollen wir helfen?"
+iceland_events.75.a: "Unterstützung des ländlichen Raums."
+iceland_events.75.b: "Unterstützung des städtischen Raums."
 
-ice.76.t: "Mitglieder des Rates von Reykjavik protestieren"
-ice.76.d: "In den letzten zwanzig Jahren hat sich die Einwohnerzahl der Stadt Reykjavik mehr als verdoppelt. Mit dem Einbruch der weltweiten Importe nach dem Schwarzen Montag stehen die Einwohner vor schweren Zeiten. Der Rat hat uns gebeten, ihnen zu helfen, wenn wir mehr Geld im Haushalt finden."
-ice.76.a: "Wenn wir das Geld finden..."
-ice.76.b: "Die ländliche Bevölkerung braucht unsere Hilfe mehr!"
+iceland_events.76.t: "Mitglieder des Rates von Reykjavik protestieren"
+iceland_events.76.d: "In den letzten zwanzig Jahren hat sich die Einwohnerzahl der Stadt Reykjavik mehr als verdoppelt. Mit dem Einbruch der weltweiten Importe nach dem Schwarzen Montag stehen die Einwohner vor schweren Zeiten. Der Rat hat uns gebeten, ihnen zu helfen, wenn wir mehr Geld im Haushalt finden."
+iceland_events.76.a: "Wenn wir das Geld finden..."
+iceland_events.76.b: "Die ländliche Bevölkerung braucht unsere Hilfe mehr!"
 
-ice.77.t: "Die Landbevölkerung protestiert"
-ice.77.d: "Seit wir uns entschieden haben, unsere Mittel zur Unterstützung der Stadtbevölkerung Islands einzusetzen, füllt sich die Post mit Briefen aus den abgelegenen Gemeinden, in denen sie sich beschweren. Sie argumentieren, dass ihre Waren den Menschen in der Stadt Arbeit geben und dass die städtische Gemeinschaft ohne die ländliche Gemeinschaft nicht überleben könnte."
-ice.77.b: "Eine starke Hauptstadt wird ihren Reichtum später teilen!"
+iceland_events.77.t: "Die Landbevölkerung protestiert"
+iceland_events.77.d: "Seit wir uns entschieden haben, unsere Mittel zur Unterstützung der Stadtbevölkerung Islands einzusetzen, füllt sich die Post mit Briefen aus den abgelegenen Gemeinden, in denen sie sich beschweren. Sie argumentieren, dass ihre Waren den Menschen in der Stadt Arbeit geben und dass die städtische Gemeinschaft ohne die ländliche Gemeinschaft nicht überleben könnte."
+iceland_events.77.b: "Eine starke Hauptstadt wird ihren Reichtum später teilen!"
 
 #Relief Events#
-ice.80.t: "Öffentliche Radiosendungen"
-ice.80.d: "Überall auf der Insel haben sich die Menschen versammelt, um die Rede des Premierministers im Radio zu hören. Fast alle Radios sind darauf eingestellt, ihn zu hören, wenn er den Menschen erzählt, wie das Althingi Maßnahmen ergreift, um die Instabilität in ihrem Land zu beheben."
-ice.80.a: "Wie beruhigend."
+iceland_events.80.t: "Öffentliche Radiosendungen"
+iceland_events.80.d: "Überall auf der Insel haben sich die Menschen versammelt, um die Rede des Premierministers im Radio zu hören. Fast alle Radios sind darauf eingestellt, ihn zu hören, wenn er den Menschen erzählt, wie das Althingi Maßnahmen ergreift, um die Instabilität in ihrem Land zu beheben."
+iceland_events.80.a: "Wie beruhigend."
 
-ice.81.t: "Fortsetzung der Radiosendungen?"
-ice.81.d: "Die Bevölkerung befürwortet die Radiosendungen, die im vergangenen Jahr zur Beruhigung der Bevölkerung ausgestrahlt wurden, sehr. Jetzt müssen wir uns fragen, ob wir die Sendungen für ein weiteres Jahr fortsetzen wollen."
-ice.81.a: "Die Menschen brauchen den Komfort!"
-ice.81.b: "Unsere Bemühungen sind anderswo besser aufgehoben."
+iceland_events.81.t: "Fortsetzung der Radiosendungen?"
+iceland_events.81.d: "Die Bevölkerung befürwortet die Radiosendungen, die im vergangenen Jahr zur Beruhigung der Bevölkerung ausgestrahlt wurden, sehr. Jetzt müssen wir uns fragen, ob wir die Sendungen für ein weiteres Jahr fortsetzen wollen."
+iceland_events.81.a: "Die Menschen brauchen den Komfort!"
+iceland_events.81.b: "Unsere Bemühungen sind anderswo besser aufgehoben."
 
-ice.82.t: "Island bittet um finanzielle Entlastung"
-ice.82.d: "Die isländische Regierung ist mit einem Ersuchen um finanzielle Unterstützung in dieser Krise, in der wir uns nach dem Schwarzen Montag befinden, an uns herangetreten. Sie behauptet, dass sie mit den dänischen Finanzspritzen für die isländische Wirtschaft in der Lage sein wird, ihre eigenen Konjunkturprogramme zu finanzieren. Der Betrag, um den sie bitten, ist aufgrund der unterschiedlichen Bevölkerungsdichte zwischen unseren beiden Ländern relativ gering. Sollten wir ihnen diese Bitte erfüllen?"
-ice.82.a: "Wir müssen unserem Volk helfen!"
-ice.82.b: "Sie müssen sich selbst helfen."
+iceland_events.82.t: "Island bittet um finanzielle Entlastung"
+iceland_events.82.d: "Die isländische Regierung ist mit einem Ersuchen um finanzielle Unterstützung in dieser Krise, in der wir uns nach dem Schwarzen Montag befinden, an uns herangetreten. Sie behauptet, dass sie mit den dänischen Finanzspritzen für die isländische Wirtschaft in der Lage sein wird, ihre eigenen Konjunkturprogramme zu finanzieren. Der Betrag, um den sie bitten, ist aufgrund der unterschiedlichen Bevölkerungsdichte zwischen unseren beiden Ländern relativ gering. Sollten wir ihnen diese Bitte erfüllen?"
+iceland_events.82.a: "Wir müssen unserem Volk helfen!"
+iceland_events.82.b: "Sie müssen sich selbst helfen."
 
-ice.83.t: "Dänemark schickt finanzielle Hilfe"
-ice.83.d: "Die dänische Regierung hat unsere Bitten erhört und gnädig geantwortet. Sie hat uns eine sehr großzügige Summe bewilligt, um Hilfsprogramme in Gang zu setzen, damit unser Land wieder auf die Beine kommt!"
-ice.83.a: "Vielen Dank, Dänemark!"
+iceland_events.83.t: "Dänemark schickt finanzielle Hilfe"
+iceland_events.83.d: "Die dänische Regierung hat unsere Bitten erhört und gnädig geantwortet. Sie hat uns eine sehr großzügige Summe bewilligt, um Hilfsprogramme in Gang zu setzen, damit unser Land wieder auf die Beine kommt!"
+iceland_events.83.a: "Vielen Dank, Dänemark!"
 
-ice.84.t: "Dänemark verweigert finanzielle Entlastung"
-ice.84.d: "Unsere Bitten stießen auf taube Ohren, als wir Dänemark um ein Rettungspaket baten. Sie behaupten, die Wirtschaftskrise treffe sie im eigenen Land zu hart, um uns zu helfen. Wir müssen mit dem auskommen, was wir zur Verfügung haben."
-ice.84.a: "Wir müssen das alleine durchstehen."
+iceland_events.84.t: "Dänemark verweigert finanzielle Entlastung"
+iceland_events.84.d: "Unsere Bitten stießen auf taube Ohren, als wir Dänemark um ein Rettungspaket baten. Sie behaupten, die Wirtschaftskrise treffe sie im eigenen Land zu hart, um uns zu helfen. Wir müssen mit dem auskommen, was wir zur Verfügung haben."
+iceland_events.84.a: "Wir müssen das alleine durchstehen."
 
-ice.85.t: "Ein wohltätiges Volk"
-ice.85.d: "Die Menschen in Island sind über sich hinausgewachsen, um ihren bedürftigen Nachbarn eine helfende Hand zu reichen. Überall auf der Insel haben die Kirchen Spendenaktionen gestartet und ihre Türen für alle geöffnet, die um Hilfe bitten. Wenn jeder seinen Nächsten so lieben könnte wie diese Männer und Frauen, dann wäre die Welt vielleicht ein besserer Ort."
-ice.85.a: "Möge der Herr über ihre Güte lächeln."
+iceland_events.85.t: "Ein wohltätiges Volk"
+iceland_events.85.d: "Die Menschen in Island sind über sich hinausgewachsen, um ihren bedürftigen Nachbarn eine helfende Hand zu reichen. Überall auf der Insel haben die Kirchen Spendenaktionen gestartet und ihre Türen für alle geöffnet, die um Hilfe bitten. Wenn jeder seinen Nächsten so lieben könnte wie diese Männer und Frauen, dann wäre die Welt vielleicht ein besserer Ort."
+iceland_events.85.a: "Möge der Herr über ihre Güte lächeln."
 
-ice.86.t: "Durchführung einer Volkszählung"
-ice.86.d: "Da wir uns verpflichtet haben, der Landbevölkerung zu helfen, brauchen wir genaue Angaben darüber, wo sie sich aufhält und wie viele es sind. Da es auf der gesamten Insel keine Kommunikationsinfrastruktur gibt, muss die Zählung durch Boten durchgeführt werden, die von Reykjavik aus ausgesandt werden. Viele großzügige Hirten in der Nähe von Reykjavik haben uns einige ihrer Pferde zur Verfügung gestellt, damit wir die Reiter losschicken können."
-ice.86.a: "Schickt die Reiter aus!"
+iceland_events.86.t: "Durchführung einer Volkszählung"
+iceland_events.86.d: "Da wir uns verpflichtet haben, der Landbevölkerung zu helfen, brauchen wir genaue Angaben darüber, wo sie sich aufhält und wie viele es sind. Da es auf der gesamten Insel keine Kommunikationsinfrastruktur gibt, muss die Zählung durch Boten durchgeführt werden, die von Reykjavik aus ausgesandt werden. Viele großzügige Hirten in der Nähe von Reykjavik haben uns einige ihrer Pferde zur Verfügung gestellt, damit wir die Reiter losschicken können."
+iceland_events.86.a: "Schickt die Reiter aus!"
 
-ice.87.t: "Entsendung von Hilfe"
-ice.87.d: "Nach dem Eintreffen der ersten Berichte hat die Verteilung der Hilfsgüter an die Landbevölkerung begonnen. Karren und Wagen werden beladen und dann in Teams aufs Land geschickt, um die entlegeneren Siedlungen der Insel zu erreichen."
-ice.87.a: "Sie werden dies sicherlich zu schätzen wissen."
+iceland_events.87.t: "Entsendung von Hilfe"
+iceland_events.87.d: "Nach dem Eintreffen der ersten Berichte hat die Verteilung der Hilfsgüter an die Landbevölkerung begonnen. Karren und Wagen werden beladen und dann in Teams aufs Land geschickt, um die entlegeneren Siedlungen der Insel zu erreichen."
+iceland_events.87.a: "Sie werden dies sicherlich zu schätzen wissen."
 
 #Status Quo Tree Events#
-ice.90.t: "Proteste der Mäßigungsbewegung"
-ice.90.d: "Nach der Aufhebung der Prohibition hat der Internationale Orden der Guttempler seine Unzufriedenheit mit unserer jüngsten Änderung der Politik zum Ausdruck gebracht. Sie behaupten, dass dies zu gesellschaftlicher Korruption führen wird, da der Baum des Lebens und des Wohlstands Wasser und nicht Alkohol braucht."
-ice.90.a: "Was ist schon ein Drink hier oder dort?"
+iceland_events.90.t: "Proteste der Mäßigungsbewegung"
+iceland_events.90.d: "Nach der Aufhebung der Prohibition hat der Internationale Orden der Guttempler seine Unzufriedenheit mit unserer jüngsten Änderung der Politik zum Ausdruck gebracht. Sie behaupten, dass dies zu gesellschaftlicher Korruption führen wird, da der Baum des Lebens und des Wohlstands Wasser und nicht Alkohol braucht."
+iceland_events.90.a: "Was ist schon ein Drink hier oder dort?"
 
-ice.91.t: "Steuerreform"
-ice.91.d: "Da die Regierung eine größere Rolle bei der Schaffung von Arbeitsmöglichkeiten für unsere Bürger übernommen hat, stoßen wir zunehmend auf Haushaltsbeschränkungen. Mit einem neuen Steuersystem können wir es uns leisten, diese Projekte fortzuführen und die Menschen in Arbeit zu halten."
-ice.91.a: "Diese Steuergelder werden für unsere Regierungsprojekte benötigt."
-ice.91.b: "Kein Bedarf."
+iceland_events.91.t: "Steuerreform"
+iceland_events.91.d: "Da die Regierung eine größere Rolle bei der Schaffung von Arbeitsmöglichkeiten für unsere Bürger übernommen hat, stoßen wir zunehmend auf Haushaltsbeschränkungen. Mit einem neuen Steuersystem können wir es uns leisten, diese Projekte fortzuführen und die Menschen in Arbeit zu halten."
+iceland_events.91.a: "Diese Steuergelder werden für unsere Regierungsprojekte benötigt."
+iceland_events.91.b: "Kein Bedarf."
 
 #Reducing Austerity#
-ice.100.t: "Kürzung unseres Sparhaushalts"
-ice.100.d: "Seit dem katastrophalen Absturz am Schwarzen Montag, der unsere angeschlagene Wirtschaft in den Ruin gestürzt hat, sind einige Jahre vergangen. Daher ist es an der Zeit, über eine Reduzierung der Sparmaßnahmen nachzudenken, die wir unserer Bevölkerung auferlegt haben. In letzter Zeit hat sich unsere Lage verbessert, so dass wir langsam damit beginnen können, die Strenge unseres Haushalts zu reduzieren. Die Bevölkerung würde diese Kürzungen sicherlich begrüßen. Was sollen wir tun?"
-ice.100.a: "Kürzt das Sparbudget."
-ice.100.b: "Beibehaltung des derzeitigen Budgets."
+iceland_events.100.t: "Kürzung unseres Sparhaushalts"
+iceland_events.100.d: "Seit dem katastrophalen Absturz am Schwarzen Montag, der unsere angeschlagene Wirtschaft in den Ruin gestürzt hat, sind einige Jahre vergangen. Daher ist es an der Zeit, über eine Reduzierung der Sparmaßnahmen nachzudenken, die wir unserer Bevölkerung auferlegt haben. In letzter Zeit hat sich unsere Lage verbessert, so dass wir langsam damit beginnen können, die Strenge unseres Haushalts zu reduzieren. Die Bevölkerung würde diese Kürzungen sicherlich begrüßen. Was sollen wir tun?"
+iceland_events.100.a: "Kürzt das Sparbudget."
+iceland_events.100.b: "Beibehaltung des derzeitigen Budgets."
 
-ice.101.t: "Sparhaushalt reduziert, wann sollten wir unsere Situation überdenken?"
-ice.101.d: "Mit der jüngsten Kürzung des Sparhaushalts haben wir einen Anstieg des Lebensstils der Menschen erlebt, da sie nun wieder eine höhere Lebensqualität genießen können. Unsere nächste Entscheidung sollte sein, wann wir das Thema wieder aufgreifen wollen."
-ice.101.a: "Schauen wir in sechs Monaten noch einmal."
-ice.101.b: "Schauen wir noch einmal in einem Jahr."
+iceland_events.101.t: "Sparhaushalt reduziert, wann sollten wir unsere Situation überdenken?"
+iceland_events.101.d: "Mit der jüngsten Kürzung des Sparhaushalts haben wir einen Anstieg des Lebensstils der Menschen erlebt, da sie nun wieder eine höhere Lebensqualität genießen können. Unsere nächste Entscheidung sollte sein, wann wir das Thema wieder aufgreifen wollen."
+iceland_events.101.a: "Schauen wir in sechs Monaten noch einmal."
+iceland_events.101.b: "Schauen wir noch einmal in einem Jahr."
 
-ice.102.t: "Sparhaushalt nicht angetastet, wann sollten wir unsere Situation überdenken?"
-ice.102.d: "Unsere derzeitige Politik besteht darin, unser derzeitiges Sparniveau beizubehalten. Das mag den Menschen zwar nicht gefallen, aber es wird dazu beitragen, die Wirtschaft am Laufen zu halten. Unsere nächste Entscheidung sollte jedoch sein, wann wir dieses Thema wieder aufgreifen wollen."
+iceland_events.102.t: "Sparhaushalt nicht angetastet, wann sollten wir unsere Situation überdenken?"
+iceland_events.102.d: "Unsere derzeitige Politik besteht darin, unser derzeitiges Sparniveau beizubehalten. Das mag den Menschen zwar nicht gefallen, aber es wird dazu beitragen, die Wirtschaft am Laufen zu halten. Unsere nächste Entscheidung sollte jedoch sein, wann wir dieses Thema wieder aufgreifen wollen."
 
-ice.103.d: "Es ist sechs Monate her, dass wir zuletzt beschlossen haben, unseren Sparhaushalt zu kürzen. Wollen wir unseren Sparhaushalt weiter zurückfahren oder sollten wir dort bleiben, wo wir derzeit sind?"
+iceland_events.103.d: "Es ist sechs Monate her, dass wir zuletzt beschlossen haben, unseren Sparhaushalt zu kürzen. Wollen wir unseren Sparhaushalt weiter zurückfahren oder sollten wir dort bleiben, wo wir derzeit sind?"
 
-ice.104.d: "Es ist ein Jahr her, dass wir zuletzt beschlossen haben, unseren Sparhaushalt zu reduzieren. Wollen wir unseren Sparhaushalt weiter zurückfahren oder sollten wir dort bleiben, wo wir derzeit sind?"
+iceland_events.104.d: "Es ist ein Jahr her, dass wir zuletzt beschlossen haben, unseren Sparhaushalt zu reduzieren. Wollen wir unseren Sparhaushalt weiter zurückfahren oder sollten wir dort bleiben, wo wir derzeit sind?"
 
-ice.105.d: "Es ist sechs Monate her, dass wir zuletzt beschlossen haben, unseren Sparhaushalt zu kürzen. Wollen wir unseren Sparhaushalt weiter zurückfahren oder sollten wir dort bleiben, wo wir derzeit sind?"
+iceland_events.105.d: "Es ist sechs Monate her, dass wir zuletzt beschlossen haben, unseren Sparhaushalt zu kürzen. Wollen wir unseren Sparhaushalt weiter zurückfahren oder sollten wir dort bleiben, wo wir derzeit sind?"
 
-ice.106.d: "Es ist ein Jahr her, dass wir zuletzt beschlossen haben, unseren Sparhaushalt zu reduzieren. Wollen wir unseren Sparhaushalt weiter zurückfahren oder sollten wir dort bleiben, wo wir derzeit sind?"
+iceland_events.106.d: "Es ist ein Jahr her, dass wir zuletzt beschlossen haben, unseren Sparhaushalt zu reduzieren. Wollen wir unseren Sparhaushalt weiter zurückfahren oder sollten wir dort bleiben, wo wir derzeit sind?"
 
-ice.107.t: "Schluss mit der Sparsamkeit!"
-ice.107.d: "Mit unserer letzten Haushaltsneubewertung sind wir endlich frei von dem Sparsystem, das wir in den letzten Jahren eingeführt haben. Das Volk jubelt, denn diese Stunde der Dunkelheit geht zu Ende!"
-ice.107.a: "Endlich!"
+iceland_events.107.t: "Schluss mit der Sparsamkeit!"
+iceland_events.107.d: "Mit unserer letzten Haushaltsneubewertung sind wir endlich frei von dem Sparsystem, das wir in den letzten Jahren eingeführt haben. Das Volk jubelt, denn diese Stunde der Dunkelheit geht zu Ende!"
+iceland_events.107.a: "Endlich!"
 
 #Canadian Tree Events#
-ice.110.t: "Einladung an die kanadischen Ingenieure"
-ice.110.d: "Durch unsere jüngste Ausrichtung auf die kanadische Sphäre liegen uns nun Aufträge für neue Projekte vor, die unser derzeitiges Limit übersteigen. Wir werden die Kanadier um Personal und Material bitten müssen, um diese Projekte zu verwirklichen."
-ice.110.a: "Wendet euch an die königlichen kanadischen Ingenieure."
+iceland_events.110.t: "Einladung an die kanadischen Ingenieure"
+iceland_events.110.d: "Durch unsere jüngste Ausrichtung auf die kanadische Sphäre liegen uns nun Aufträge für neue Projekte vor, die unser derzeitiges Limit übersteigen. Wir werden die Kanadier um Personal und Material bitten müssen, um diese Projekte zu verwirklichen."
+iceland_events.110.a: "Wendet euch an die königlichen kanadischen Ingenieure."
 
-ice.111.t: "Beantragung einer kanadischen Garnisonstruppe"
-ice.111.d: "Wir sind nur noch einen Katzensprung von der Union von Großbritannien entfernt. Wenn wir von einer britischen Invasion erfahren, wird es für die kanadischen Streitkräfte zu spät sein, von Halifax oder Neufundland aus einzugreifen. Stattdessen bitten wir Seine Majestät, eine Garnison zu entsenden, um die Insel gegen die Union of Britain zu verteidigen."
-ice.111.a: "Anforderung der Z Einheiten."
+iceland_events.111.t: "Beantragung einer kanadischen Garnisonstruppe"
+iceland_events.111.d: "Wir sind nur noch einen Katzensprung von der Union von Großbritannien entfernt. Wenn wir von einer britischen Invasion erfahren, wird es für die kanadischen Streitkräfte zu spät sein, von Halifax oder Neufundland aus einzugreifen. Stattdessen bitten wir Seine Majestät, eine Garnison zu entsenden, um die Insel gegen die Union of Britain zu verteidigen."
+iceland_events.111.a: "Anforderung der Z Einheiten."
 
-ice.113.t: "Anforderung von Verstärkung für die IRAF"
-ice.113.d: "Angesichts der Nähe zu Großbritannien wäre es ratsam, unsere Luftsteitkräfte zu verstärken, um besser auf die Abwehr von Feinden vorbereitet zu sein, die sich unserer Insel nähern."
-ice.113.a: "Wir brauchen mehr Jäger."
-ice.113.b: "Wir brauchen mehr Bomber."
+iceland_events.113.t: "Anforderung von Verstärkung für die IRAF"
+iceland_events.113.d: "Angesichts der Nähe zu Großbritannien wäre es ratsam, unsere Luftsteitkräfte zu verstärken, um besser auf die Abwehr von Feinden vorbereitet zu sein, die sich unserer Insel nähern."
+iceland_events.113.a: "Wir brauchen mehr Jäger."
+iceland_events.113.b: "Wir brauchen mehr Bomber."
 
-ice.114.t: "Island fordert Verstärkung für die IRAF an"
-ice.114.d: "Unsere Streitkräfte in Island haben Verstärkung für die IRAF angefordert. Sie haben uns gebeten, einige Kämpfer zu entbehren, um ihnen bei der Verteidigung unserer Basis auf Island zu helfen."
-ice.114.a: "Wir können einige Kämpfer entbehren."
-ice.114.b: "Wir brauchen unsere Kämpfer woanders."
+iceland_events.114.t: "Island fordert Verstärkung für die IRAF an"
+iceland_events.114.d: "Unsere Streitkräfte in Island haben Verstärkung für die IRAF angefordert. Sie haben uns gebeten, einige Kämpfer zu entbehren, um ihnen bei der Verteidigung unserer Basis auf Island zu helfen."
+iceland_events.114.a: "Wir können einige Kämpfer entbehren."
+iceland_events.114.b: "Wir brauchen unsere Kämpfer woanders."
 
-ice.115.t: "Kanada schickt Kampfflugzeuge zur Verstärkung"
-ice.115.d: "Die kanadische Regierung hat die Entsendung eines Geschwaders von Kampfflugzeugen genehmigt, das uns bei der Verteidigung Islands helfen soll."
+iceland_events.115.t: "Kanada schickt Kampfflugzeuge zur Verstärkung"
+iceland_events.115.d: "Die kanadische Regierung hat die Entsendung eines Geschwaders von Kampfflugzeugen genehmigt, das uns bei der Verteidigung Islands helfen soll."
 
-ice.116.t: "Kanada schickt keine Kampfflugzeuge zur Verstärkung"
-ice.116.d: "Die kanadische Regierung hat uns mitgeteilt, dass ihre Kämpfer anderswo in der Welt dringender gebraucht werden."
+iceland_events.116.t: "Kanada schickt keine Kampfflugzeuge zur Verstärkung"
+iceland_events.116.d: "Die kanadische Regierung hat uns mitgeteilt, dass ihre Kämpfer anderswo in der Welt dringender gebraucht werden."
 
-ice.117.d: "Unsere Streitkräfte in Island haben Verstärkung für die IRAF angefordert. Sie haben uns gebeten, einige Bomber zu entbehren, um sie bei der Verteidigung unserer Basis auf Island zu unterstützen."
-ice.117.a: "Wir können einige Bomber entbehren."
-ice.117.b: "Wir brauchen unsere Bomber woanders."
+iceland_events.117.d: "Unsere Streitkräfte in Island haben Verstärkung für die IRAF angefordert. Sie haben uns gebeten, einige Bomber zu entbehren, um sie bei der Verteidigung unserer Basis auf Island zu unterstützen."
+iceland_events.117.a: "Wir können einige Bomber entbehren."
+iceland_events.117.b: "Wir brauchen unsere Bomber woanders."
 
-ice.118.t: "Kanada schickt Bomber zur Verstärkung"
-ice.118.d: "Die kanadische Regierung hat die Entsendung einer Bomberstaffel genehmigt, die uns bei der Verteidigung Islands helfen soll."
+iceland_events.118.t: "Kanada schickt Bomber zur Verstärkung"
+iceland_events.118.d: "Die kanadische Regierung hat die Entsendung einer Bomberstaffel genehmigt, die uns bei der Verteidigung Islands helfen soll."
 
-ice.119.t: "Kanada schickt keine Bomber zur Verstärkung"
-ice.119.d: "Die kanadische Regierung hat uns mitgeteilt, dass ihre Bomber anderswo in der Welt dringender benötigt werden."
+iceland_events.119.t: "Kanada schickt keine Bomber zur Verstärkung"
+iceland_events.119.d: "Die kanadische Regierung hat uns mitgeteilt, dass ihre Bomber anderswo in der Welt dringender benötigt werden."
 
 #Union of Britain Tree Events#
-ice.130.t: "Die Bildung der neuen Regierung"
-ice.130.d: "Unsere Angleichung an die britische Sphäre bedeutet, dass wir eine neue Regierung für unsere Insel bilden müssen. Sollte diese neue Regierung von der Volkspartei oder der Bauernpartei geführt werden?"
-ice.130.a: "Bevorzugt die Syndikalistischen Partei."
-ice.130.b: "Bevorzugt die Bauernpartei."
+iceland_events.130.t: "Die Bildung der neuen Regierung"
+iceland_events.130.d: "Unsere Angleichung an die britische Sphäre bedeutet, dass wir eine neue Regierung für unsere Insel bilden müssen. Sollte diese neue Regierung von der Volkspartei oder der Bauernpartei geführt werden?"
+iceland_events.130.a: "Bevorzugt die Syndikalistischen Partei."
+iceland_events.130.b: "Bevorzugt die Bauernpartei."
 
 ###Other events###
 
 #CWCS#
 
-ice.150.t: "Der Zustand der Straßen"
-ice.150.d: "Die isländische Infrastruktur hatte nie oberste Priorität, da die meisten Aktivitäten an der Küste stattfanden, wo das Boot das bessere Transportmittel war. Während Island versucht, sich zu modernisieren, sieht man unserer rückständigen Infrastruktur ihr Alter wirklich an. Die wenigen Straßen, die es auf der Insel gibt, sind nur saisonal befahrbar und befinden sich in einem extrem schlechten Zustand."
-ice.150.a: "Wir müssen etwas dagegen tun!"
+iceland_events.150.t: "Der Zustand der Straßen"
+iceland_events.150.d: "Die isländische Infrastruktur hatte nie oberste Priorität, da die meisten Aktivitäten an der Küste stattfanden, wo das Boot das bessere Transportmittel war. Während Island versucht, sich zu modernisieren, sieht man unserer rückständigen Infrastruktur ihr Alter wirklich an. Die wenigen Straßen, die es auf der Insel gibt, sind nur saisonal befahrbar und befinden sich in einem extrem schlechten Zustand."
+iceland_events.150.a: "Wir müssen etwas dagegen tun!"
 
-ice.151.t: "Warmwasserleitungen"
-ice.151.d: "Eine neuere Entwicklung in Island ist die Installation von Warmwasserleitungen in bestimmten Teilen von Reykjavik. Als ein Landwirt vor einigen Jahren eine Dampfleitung in seinem Haus verlegte, setzte sich die Idee schnell durch. Viele Schulen und Krankenhäuser in der Stadt waren die ersten Gebäude, die mit Warmwasserleitungen ausgestattet wurden, aber das Rohrsystem hält nun auch Einzug in die Wohnungen der Menschen. Bald wird die ganze Stadt in der Lage sein, mit Leichtigkeit ein heißes Bad zu nehmen, da es unter unserer Insel reichlich Thermalquellen gibt."
-ice.151.a: "Möge ein warmes Bad unsere Geister erwärmen."
+iceland_events.151.t: "Warmwasserleitungen"
+iceland_events.151.d: "Eine neuere Entwicklung in Island ist die Installation von Warmwasserleitungen in bestimmten Teilen von Reykjavik. Als ein Landwirt vor einigen Jahren eine Dampfleitung in seinem Haus verlegte, setzte sich die Idee schnell durch. Viele Schulen und Krankenhäuser in der Stadt waren die ersten Gebäude, die mit Warmwasserleitungen ausgestattet wurden, aber das Rohrsystem hält nun auch Einzug in die Wohnungen der Menschen. Bald wird die ganze Stadt in der Lage sein, mit Leichtigkeit ein heißes Bad zu nehmen, da es unter unserer Insel reichlich Thermalquellen gibt."
+iceland_events.151.a: "Möge ein warmes Bad unsere Geister erwärmen."
 
 #Generic Events#
 
-ice.170.t: "Spende eines Geysir"
-ice.170.d: "In Island gibt es mehrere Heißwassergeysire, die aufgrund ihrer explosiven Natur immer wieder Menschenmassen anziehen. Früher war dieser Geysir versteckt und wurde als Geschäftsfeld genutzt, um Geld von denjenigen zu verdienen, die den Ausbruch des Geysirs beobachten wollten. Inspiriert von der Nächstenliebe der Nation hat der Eigentümer den Zaun entfernt und den Geysir dem isländischen Volk auf ewig geschenkt!"
-ice.170.a: "Eine äußerst großzügige Spende."
+iceland_events.170.t: "Spende eines Geysir"
+iceland_events.170.d: "In Island gibt es mehrere Heißwassergeysire, die aufgrund ihrer explosiven Natur immer wieder Menschenmassen anziehen. Früher war dieser Geysir versteckt und wurde als Geschäftsfeld genutzt, um Geld von denjenigen zu verdienen, die den Ausbruch des Geysirs beobachten wollten. Inspiriert von der Nächstenliebe der Nation hat der Eigentümer den Zaun entfernt und den Geysir dem isländischen Volk auf ewig geschenkt!"
+iceland_events.170.a: "Eine äußerst großzügige Spende."
 
-ice.171.t: "Feierliche Eröffnung des Wasserkraftwerks"
-ice.171.d: "Heute wird die Fertigstellung des Wasserkraftwerks Laxárstöð gefeiert. Dieses einzigartige Kraftwerk hat die Kapazität, unsere lokale Stromerzeugung auf der Insel zu vervierfachen. Möge diese neue Errungenschaft den Aufschwung unseres Volkes fördern und uns zu neuen und größeren Höhen treiben!"
-ice.171.a: "Auf eine bessere Zukunft!"
+iceland_events.171.t: "Feierliche Eröffnung des Wasserkraftwerks"
+iceland_events.171.d: "Heute wird die Fertigstellung des Wasserkraftwerks Laxárstöð gefeiert. Dieses einzigartige Kraftwerk hat die Kapazität, unsere lokale Stromerzeugung auf der Insel zu vervierfachen. Möge diese neue Errungenschaft den Aufschwung unseres Volkes fördern und uns zu neuen und größeren Höhen treiben!"
+iceland_events.171.a: "Auf eine bessere Zukunft!"
 
-ice.172.t: "Hummockstudien"
-ice.172.d: "Wissenschaftler untersuchen nach wie vor die Auswirkungen dieser grasbewachsenen 'Buckel' auf den Boden. Die meisten Experimente liefern keine aussagekräftigen Ergebnisse, aber die Menschen, die in der Nähe dieser Merkmale leben, beschreiben ein stärkeres Wohlbefinden und behaupten, dass sie seltener krank werden."
-ice.172.a: "Wenn es funktioniert, funktioniert es."
+iceland_events.172.t: "Hummockstudien"
+iceland_events.172.d: "Wissenschaftler untersuchen nach wie vor die Auswirkungen dieser grasbewachsenen 'Buckel' auf den Boden. Die meisten Experimente liefern keine aussagekräftigen Ergebnisse, aber die Menschen, die in der Nähe dieser Merkmale leben, beschreiben ein stärkeres Wohlbefinden und behaupten, dass sie seltener krank werden."
+iceland_events.172.a: "Wenn es funktioniert, funktioniert es."
 
-ice.173.t: "Landwirtschaftliche Gemeinschaften"
-ice.173.d: "Regierungsbeamte haben begonnen, kleine landwirtschaftliche Gemeinden zu untersuchen, um herauszufinden, wie sie in diesen schwierigen Zeiten besser geführt werden können. Gemeinden, die gut genug wirtschaften, werden eine kleine Steuerbefreiung erhalten, um andere zu ermutigen, ihrem Beispiel zu folgen und ihre Betriebe effizienter zu führen."
-ice.173.a: "Für Effizienz!"
+iceland_events.173.t: "Landwirtschaftliche Gemeinschaften"
+iceland_events.173.d: "Regierungsbeamte haben begonnen, kleine landwirtschaftliche Gemeinden zu untersuchen, um herauszufinden, wie sie in diesen schwierigen Zeiten besser geführt werden können. Gemeinden, die gut genug wirtschaften, werden eine kleine Steuerbefreiung erhalten, um andere zu ermutigen, ihrem Beispiel zu folgen und ihre Betriebe effizienter zu führen."
+iceland_events.173.a: "Für Effizienz!"
 
-ice.174.t: "Das Verpacken der Fässer"
-ice.174.d: "Ein wichtiger Teil des Exportgeschäfts ist das Verpacken von Fässern mit Fisch, die ins Ausland verschickt und verkauft werden sollen. Wir müssen in eine angemessene Infrastruktur investieren, um sicherzustellen, dass es nicht zu Engpässen aufgrund von Überfüllung der Docks kommt."
-ice.174.a: "Packt sie ein und rollt sie raus."
+iceland_events.174.t: "Das Verpacken der Fässer"
+iceland_events.174.d: "Ein wichtiger Teil des Exportgeschäfts ist das Verpacken von Fässern mit Fisch, die ins Ausland verschickt und verkauft werden sollen. Wir müssen in eine angemessene Infrastruktur investieren, um sicherzustellen, dass es nicht zu Engpässen aufgrund von Überfüllung der Docks kommt."
+iceland_events.174.a: "Packt sie ein und rollt sie raus."
 
-ice.175.t: "Eine neue Quelle der Macht"
-ice.175.d: "Ingenieure in Island haben Ideen entwickelt, um große Mengen an Strom auf die Insel zu bringen und damit die Industrialisierung zu unterstützen. Die reichlich vorhandenen Flüsse und Wasserfälle führen eine immense Menge an Energie mit sich, die an uns vorbeigeht. Wenn wir in einigen unserer Flüsse Dämme errichten könnten, wären wir vielleicht in der Lage, das Geschenk von Mutter Natur zu unserem Vorteil zu nutzen."
-ice.175.a: "Eine ungenutzte Quelle."
+iceland_events.175.t: "Eine neue Quelle der Macht"
+iceland_events.175.d: "Ingenieure in Island haben Ideen entwickelt, um große Mengen an Strom auf die Insel zu bringen und damit die Industrialisierung zu unterstützen. Die reichlich vorhandenen Flüsse und Wasserfälle führen eine immense Menge an Energie mit sich, die an uns vorbeigeht. Wenn wir in einigen unserer Flüsse Dämme errichten könnten, wären wir vielleicht in der Lage, das Geschenk von Mutter Natur zu unserem Vorteil zu nutzen."
+iceland_events.175.a: "Eine ungenutzte Quelle."
 
-ice.176.t: "Erweiterung des Vestmannaeyjar"
-ice.176.d: "In dem Maße, wie die Fischereiindustrie wächst, wachsen auch die Städte, die solche Unternehmen unterstützen. Der Hafen ist zwar zu flach für größere, moderne Schiffe, aber die Küstenstadt Heimaey ist nach wie vor ein wichtiger Bestandteil der Kabeljaufischerei, die vor der Südküste Islands betrieben wird. Es werden bereits Anstrengungen unternommen, um den Transfer der Fänge von neueren Schiffen auf kleinere Schiffe zu rationalisieren, die den Fang zur Verarbeitung in die Stadt bringen können."
-ice.176.a: "Das kann nur noch geschäftiger werden."
+iceland_events.176.t: "Erweiterung des Vestmannaeyjar"
+iceland_events.176.d: "In dem Maße, wie die Fischereiindustrie wächst, wachsen auch die Städte, die solche Unternehmen unterstützen. Der Hafen ist zwar zu flach für größere, moderne Schiffe, aber die Küstenstadt Heimaey ist nach wie vor ein wichtiger Bestandteil der Kabeljaufischerei, die vor der Südküste Islands betrieben wird. Es werden bereits Anstrengungen unternommen, um den Transfer der Fänge von neueren Schiffen auf kleinere Schiffe zu rationalisieren, die den Fang zur Verarbeitung in die Stadt bringen können."
+iceland_events.176.a: "Das kann nur noch geschäftiger werden."
 
-ice.177.t: "Eine moderne Flotte"
-ice.177.d: "Die kleineren Schiffe, die wir in der Vergangenheit eingesetzt haben, sind nicht in der Lage, die Menge an Fisch zu bewältigen, die Island benötigt, um sich vom Schwarzen Montag zu erholen. Wir müssen in größere Schiffe investieren, die besser geeignet sind, um mit den Anforderungen der modernen Zeit Schritt zu halten."
-ice.177.a: "Auf Wiedersehen, alter Freund."
+iceland_events.177.t: "Eine moderne Flotte"
+iceland_events.177.d: "Die kleineren Schiffe, die wir in der Vergangenheit eingesetzt haben, sind nicht in der Lage, die Menge an Fisch zu bewältigen, die Island benötigt, um sich vom Schwarzen Montag zu erholen. Wir müssen in größere Schiffe investieren, die besser geeignet sind, um mit den Anforderungen der modernen Zeit Schritt zu halten."
+iceland_events.177.a: "Auf Wiedersehen, alter Freund."
 
 #Black Monday#
-ice.200.t: "Der schwarze Montag schlägt auf der Insel zu!"
-ice.200.d: "Der wirtschaftliche Zusammenbruch, der in Deutschland seinen Anfang nahm, hat nun auch die Küsten Islands erreicht. Unser ohnehin schon schwacher Einfluss auf die Wirtschaft ist zerbrochen und wir sind ins Taumeln geraten. Um diese Krise zu bewältigen, ist eine völlige Neuordnung Islands erforderlich."
-ice.200.a: "Katastrophe!"
+iceland_events.200.t: "Der schwarze Montag schlägt auf der Insel zu!"
+iceland_events.200.d: "Der wirtschaftliche Zusammenbruch, der in Deutschland seinen Anfang nahm, hat nun auch die Küsten Islands erreicht. Unser ohnehin schon schwacher Einfluss auf die Wirtschaft ist zerbrochen und wir sind ins Taumeln geraten. Um diese Krise zu bewältigen, ist eine völlige Neuordnung Islands erforderlich."
+iceland_events.200.a: "Katastrophe!"
 
 #1937 Vote#
-ice.250.t: "Volksabstimmung von 1937"
-ice.250.d: "Es ist an der Zeit, über den Fortbestand der dänischen Herrschaft über Island abzustimmen. Die allgemein unwirksame Reaktion auf die Notlage der isländischen Bevölkerung während der jüngsten Wirtschaftskrise hat das Vertrauen der Menschen in die dänische Herrschaft erschüttert. Die Rufe nach Unabhängigkeit werden mit jeder Woche lauter. Kurz vor Ende der Wahlen deuten die Ergebnisse auf den Wunsch nach Unabhängigkeit hin."
-ice.250.a: "Für ein unabhängiges Island!"
-ice.250.b: "Bleibt in der dänischen Sphäre!"
+iceland_events.250.t: "Volksabstimmung von 1937"
+iceland_events.250.d: "Es ist an der Zeit, über den Fortbestand der dänischen Herrschaft über Island abzustimmen. Die allgemein unwirksame Reaktion auf die Notlage der isländischen Bevölkerung während der jüngsten Wirtschaftskrise hat das Vertrauen der Menschen in die dänische Herrschaft erschüttert. Die Rufe nach Unabhängigkeit werden mit jeder Woche lauter. Kurz vor Ende der Wahlen deuten die Ergebnisse auf den Wunsch nach Unabhängigkeit hin."
+iceland_events.250.a: "Für ein unabhängiges Island!"
+iceland_events.250.b: "Bleibt in der dänischen Sphäre!"
 
-ice.251.t: "Sieg über die Unabhängigkeit!"
-ice.251.d: "Nach dem jüngsten Sieg bei der Abstimmung über die Unabhängigkeit von Dänemark haben sich die Minister in aller Eile für die eine oder andere Partei entschieden. Die einzige Konstante ist ein Aufschwung bei den Mitgliedern der Koalition der Unabhängigkeitspartei."
-ice.251.a: "Auf wohlhabendere Zeiten!"
+iceland_events.251.t: "Sieg über die Unabhängigkeit!"
+iceland_events.251.d: "Nach dem jüngsten Sieg bei der Abstimmung über die Unabhängigkeit von Dänemark haben sich die Minister in aller Eile für die eine oder andere Partei entschieden. Die einzige Konstante ist ein Aufschwung bei den Mitgliedern der Koalition der Unabhängigkeitspartei."
+iceland_events.251.a: "Auf wohlhabendere Zeiten!"
 
-ice.252.t: "Loyalität gegenüber Dänemark"
-ice.252.d: "Ungeachtet der Wirtschaftskrise, die viele auf der Insel polarisiert hat, sind die Isländer kein rebellisches Volk. Wir werden als Teil des Königreichs Dänemark unseren Teil dazu beitragen, für unsere Ecke des Reiches zu sorgen, ohne die Verbindungen zum Rest zu kappen. Dies hat leider dazu geführt, dass sich ein Teil der Hardliner unter den Unabhängigkeitsbefürwortern radikalisiert hat."
-ice.252.a: "Wir müssen ein Leuchtturm der Ruhe bleiben."
+iceland_events.252.t: "Loyalität gegenüber Dänemark"
+iceland_events.252.d: "Ungeachtet der Wirtschaftskrise, die viele auf der Insel polarisiert hat, sind die Isländer kein rebellisches Volk. Wir werden als Teil des Königreichs Dänemark unseren Teil dazu beitragen, für unsere Ecke des Reiches zu sorgen, ohne die Verbindungen zum Rest zu kappen. Dies hat leider dazu geführt, dass sich ein Teil der Hardliner unter den Unabhängigkeitsbefürwortern radikalisiert hat."
+iceland_events.252.a: "Wir müssen ein Leuchtturm der Ruhe bleiben."
 
 #Leaving Mitteleuropa#
-ice.253.t: "Island verlässt Mitteleuropa"
-ice.253.d: "Mit der jüngsten Ausdehnung unserer Freiheit von Dänemark sind wir frei, unseren eigenen Weg zu gehen und uns vom kränkelnden mitteleuropäischen Wirtschaftsblock zu lösen. Einige Händler sind besorgt über unsere ungewisse Zukunft, hoffen aber auf lukrativere Geschäfte."
-ice.253.a: "Auf einen freieren Markt!"
+iceland_events.253.t: "Island verlässt Mitteleuropa"
+iceland_events.253.d: "Mit der jüngsten Ausdehnung unserer Freiheit von Dänemark sind wir frei, unseren eigenen Weg zu gehen und uns vom kränkelnden mitteleuropäischen Wirtschaftsblock zu lösen. Einige Händler sind besorgt über unsere ungewisse Zukunft, hoffen aber auf lukrativere Geschäfte."
+iceland_events.253.a: "Auf einen freieren Markt!"
 
-ice.254.d1: "Das isländische Volk hat sich entschieden, die mitteleuropäische Sphäre zu verlassen und ein neues, unabhängiges Handelsnetz zu knüpfen. Dies könnte eine Gelegenheit für uns sein, einen Verbündeten zu finden, der den Heimatinseln näher steht."
-ice.254.d2: "Das isländische Volk hat sich entschieden, die mitteleuropäische Sphäre zu verlassen und ein neues, unabhängiges Handelsnetz zu knüpfen. Dies könnte eine Gelegenheit für uns sein, einen Verbündeten zu finden, der den Royalisten im Exil näher steht."
-ice.254.a: "Interessant."
+iceland_events.254.d1: "Das isländische Volk hat sich entschieden, die mitteleuropäische Sphäre zu verlassen und ein neues, unabhängiges Handelsnetz zu knüpfen. Dies könnte eine Gelegenheit für uns sein, einen Verbündeten zu finden, der den Heimatinseln näher steht."
+iceland_events.254.d2: "Das isländische Volk hat sich entschieden, die mitteleuropäische Sphäre zu verlassen und ein neues, unabhängiges Handelsnetz zu knüpfen. Dies könnte eine Gelegenheit für uns sein, einen Verbündeten zu finden, der den Royalisten im Exil näher steht."
+iceland_events.254.a: "Interessant."
 
-ice.256.t: "Island beschließt, die Personalunion zu beenden"
-ice.256.d: "Nach dem Weltkrieg, im Jahr 1919, erhielt Island, das damals vollständig zu Dänemark gehörte, seine Unabhängigkeit, in Personalunion mit Dänemark, wobei Dänemark die Außenpolitik Islands bis zu einer möglichen Revision durch eine Volksabstimmung im Jahr 1944, 25 Jahre nach der Unabhängigkeit Islands, bestimmte. Als solche kamen sie nach Mitteleuropa und blieben im Allgemeinen auf einem Kurs mit uns. Allerdings ist die Zugehörigkeit Islands zu Mitteleuropa aufgrund seiner Lage nicht gerade ideal, so dass die Insel im Laufe der Jahre immer weiter zurückfiel. Unter dem Dissens, den dies verursachte, hatten die isländischen Politiker das Referendum beschleunigt, und das isländische Volk entschied sich für die Beendigung unserer Beziehungen. In Reykjavik wird eine Republik ausgerufen, und Island hat uns wissen lassen, dass es unser Außenministerium nicht mehr braucht, um die Isländer zu behandeln, als wären sie Dänen."
-ice.256.a: "So sei es."
+iceland_events.256.t: "Island beschließt, die Personalunion zu beenden"
+iceland_events.256.d: "Nach dem Weltkrieg, im Jahr 1919, erhielt Island, das damals vollständig zu Dänemark gehörte, seine Unabhängigkeit, in Personalunion mit Dänemark, wobei Dänemark die Außenpolitik Islands bis zu einer möglichen Revision durch eine Volksabstimmung im Jahr 1944, 25 Jahre nach der Unabhängigkeit Islands, bestimmte. Als solche kamen sie nach Mitteleuropa und blieben im Allgemeinen auf einem Kurs mit uns. Allerdings ist die Zugehörigkeit Islands zu Mitteleuropa aufgrund seiner Lage nicht gerade ideal, so dass die Insel im Laufe der Jahre immer weiter zurückfiel. Unter dem Dissens, den dies verursachte, hatten die isländischen Politiker das Referendum beschleunigt, und das isländische Volk entschied sich für die Beendigung unserer Beziehungen. In Reykjavik wird eine Republik ausgerufen, und Island hat uns wissen lassen, dass es unser Außenministerium nicht mehr braucht, um die Isländer zu behandeln, als wären sie Dänen."
+iceland_events.256.a: "So sei es."
 
-ice.257.t: "Island entscheidet sich für den Verbleib in seiner Personalunion"
-ice.257.d: "Nach dem Weltkrieg, im Jahr 1919, erhielt Island, das damals vollständig zu Dänemark gehörte, seine Unabhängigkeit, in Personalunion mit Dänemark, wobei Dänemark die Außenpolitik Islands bis zu einer möglichen Revision durch eine Volksabstimmung im Jahr 1944, 25 Jahre nach der Unabhängigkeit Islands, bestimmte. Als solche kamen sie nach Mitteleuropa und blieben im Allgemeinen auf einem Kurs mit uns. Allerdings ist die Zugehörigkeit Islands zu Mitteleuropa aufgrund seiner Lage nicht gerade ideal, so dass die Insel im Laufe der Jahre immer weiter zurückfiel. Unter dem Dissens, den dies verursachte, hatten die isländischen Politiker das Referendum beschleunigt, aber das isländische Volk entschied sich für die Beibehaltung unserer Beziehungen. Island wird also auch in den kommenden Jahren in unserem Einflussbereich bleiben."
-ice.257.a: "Ah, prächtig."
+iceland_events.257.t: "Island entscheidet sich für den Verbleib in seiner Personalunion"
+iceland_events.257.d: "Nach dem Weltkrieg, im Jahr 1919, erhielt Island, das damals vollständig zu Dänemark gehörte, seine Unabhängigkeit, in Personalunion mit Dänemark, wobei Dänemark die Außenpolitik Islands bis zu einer möglichen Revision durch eine Volksabstimmung im Jahr 1944, 25 Jahre nach der Unabhängigkeit Islands, bestimmte. Als solche kamen sie nach Mitteleuropa und blieben im Allgemeinen auf einem Kurs mit uns. Allerdings ist die Zugehörigkeit Islands zu Mitteleuropa aufgrund seiner Lage nicht gerade ideal, so dass die Insel im Laufe der Jahre immer weiter zurückfiel. Unter dem Dissens, den dies verursachte, hatten die isländischen Politiker das Referendum beschleunigt, aber das isländische Volk entschied sich für die Beibehaltung unserer Beziehungen. Island wird also auch in den kommenden Jahren in unserem Einflussbereich bleiben."
+iceland_events.257.a: "Ah, prächtig."
 
-ice.258.t: "Jon Baldvinsson scheidet aus dem Amt aus"
-ice.258.d: "Ein beliebtes Mitglied des Althingi und Vorsitzender der sozialdemokratischen Partei hat kürzlich angekündigt, dass er sein Amt niederlegen will. Unter Berufung auf seine angeschlagene Gesundheit hat er beschlossen, die Führung der sozialdemokratischen Partei an Stefan Stefansson weiterzugeben."
-ice.258.a: "Wir wünschen ihm alles Gute."
+iceland_events.258.t: "Jon Baldvinsson scheidet aus dem Amt aus"
+iceland_events.258.d: "Ein beliebtes Mitglied des Althingi und Vorsitzender der sozialdemokratischen Partei hat kürzlich angekündigt, dass er sein Amt niederlegen will. Unter Berufung auf seine angeschlagene Gesundheit hat er beschlossen, die Führung der sozialdemokratischen Partei an Stefan Stefansson weiterzugeben."
+iceland_events.258.a: "Wir wünschen ihm alles Gute."
 
-ice.300.t: "Restrukturierung der Banken"
-ice.300.d: "Die derzeitige Situation in Island ist für niemanden erfreulich, da das Bankensystem nach der Katastrophe des Schwarzen Montags völlig zusammengebrochen ist. Es haben sich zwei Lager gebildet, die zu unterschiedliche Ansichten darüber vertreten, wie die Banken wieder aufgebaut werden sollten. Die eine Gruppe ist der Meinung, dass der einzige Weg in die Zukunft eine starke, zentral geplante Bank ist, während die andere argumentiert, dass eine Reihe von separaten, spezialisierten Banken der beste Weg ist, um die isländische Bevölkerung aus der Krise zu führen. Welcher Gruppe sollten wir uns anschließen?"
-ice.300.a: "Eine Insel, eine Bank!"
-ice.300.b: "Delegierung an kleinere Banken."
+iceland_events.300.t: "Restrukturierung der Banken"
+iceland_events.300.d: "Die derzeitige Situation in Island ist für niemanden erfreulich, da das Bankensystem nach der Katastrophe des Schwarzen Montags völlig zusammengebrochen ist. Es haben sich zwei Lager gebildet, die zu unterschiedliche Ansichten darüber vertreten, wie die Banken wieder aufgebaut werden sollten. Die eine Gruppe ist der Meinung, dass der einzige Weg in die Zukunft eine starke, zentral geplante Bank ist, während die andere argumentiert, dass eine Reihe von separaten, spezialisierten Banken der beste Weg ist, um die isländische Bevölkerung aus der Krise zu führen. Welcher Gruppe sollten wir uns anschließen?"
+iceland_events.300.a: "Eine Insel, eine Bank!"
+iceland_events.300.b: "Delegierung an kleinere Banken."
 
-ice.301.t: "Kauf eines neuen Designs"
-ice.301.d: "Unsere derzeitigen Schiffe sind für den modernen Markt nicht geeignet. Um uns zu verbessern, müssen wir mit unseren nordischen Nachbarn Kontakt aufnehmen und sie um den Kauf einiger ihrer neuesten Konstruktionen bitten. Mit wem sollten wir Geschäfte machen?"
-ice.301.a: "Segeln mit Schweden!"
-ice.301.b: "Abkommen mit Dänemark!"
-ice.301.c: "Nachbarland Norwegen!"
+iceland_events.301.t: "Kauf eines neuen Designs"
+iceland_events.301.d: "Unsere derzeitigen Schiffe sind für den modernen Markt nicht geeignet. Um uns zu verbessern, müssen wir mit unseren nordischen Nachbarn Kontakt aufnehmen und sie um den Kauf einiger ihrer neuesten Konstruktionen bitten. Mit wem sollten wir Geschäfte machen?"
+iceland_events.301.a: "Segeln mit Schweden!"
+iceland_events.301.b: "Abkommen mit Dänemark!"
+iceland_events.301.c: "Nachbarland Norwegen!"
 
-ice.350.t: "Island wird rebellisch"
-ice.350.d: "Unsere Streitkräfte auf Island haben ein Funksignal abgefangen, das an die Einheimischen gesendet wurde, um ihre Meinung über uns zu ändern. Wir wissen, dass sie nicht die Mittel haben, uns von der Insel zu vertreiben. Sollen wir sie also reden lassen oder sollen wir unsere Streitkräfte etwas aufstocken?"
-ice.350.a: "Entsendet zusätzliche Truppen."
-ice.350.b: "Was könnten sie tun?"
+iceland_events.350.t: "Island wird rebellisch"
+iceland_events.350.d: "Unsere Streitkräfte auf Island haben ein Funksignal abgefangen, das an die Einheimischen gesendet wurde, um ihre Meinung über uns zu ändern. Wir wissen, dass sie nicht die Mittel haben, uns von der Insel zu vertreiben. Sollen wir sie also reden lassen oder sollen wir unsere Streitkräfte etwas aufstocken?"
+iceland_events.350.a: "Entsendet zusätzliche Truppen."
+iceland_events.350.b: "Was könnten sie tun?"
 
-ice.351.t: "Isländische Unabhängigkeit"
-ice.351.d: "Die kleine Atlantikinsel Island wurde lange Zeit von den Königen Dänemarks regiert, die vor über 400 Jahren die Kontrolle über das Land übernahmen. Doch die jüngsten Ereignisse gefährden diesen Status quo. Mit dem Schwarzen Montag und den Schwierigkeiten der dänischen Regierung, auf die Krise zu reagieren, wurden die Forderungen nach vollständiger Unabhängigkeit immer lauter, bis die Regierung gezwungen war, ein Unabhängigkeitsreferendum abzuhalten, um über die Zukunft der Insel zu entscheiden. Nun, da die Ergebnisse vorliegen, scheint die Unabhängigkeitspartei gewonnen zu haben, wodurch Island zur jüngsten Republik Europas wird.\nAuch wenn viele diesen Tag feiern mögen, befürchten andere, dass die neu gewonnene Unabhängigkeit des Landes von Großbritannien oder Kanada, die beide gierig darauf schielen, zunichte gemacht werden könnte. Wie dem auch sei, der Atlantik hat einen neuen Akteur."
-ice.351.a: "Ein Tag zum Feiern!"
-ice.351.b: "Wie interessant..."
-ice.351.c: "Wie könnte sich dies auf den Atlantik auswirken?"
+iceland_events.351.t: "Isländische Unabhängigkeit"
+iceland_events.351.d: "Die kleine Atlantikinsel Island wurde lange Zeit von den Königen Dänemarks regiert, die vor über 400 Jahren die Kontrolle über das Land übernahmen. Doch die jüngsten Ereignisse gefährden diesen Status quo. Mit dem Schwarzen Montag und den Schwierigkeiten der dänischen Regierung, auf die Krise zu reagieren, wurden die Forderungen nach vollständiger Unabhängigkeit immer lauter, bis die Regierung gezwungen war, ein Unabhängigkeitsreferendum abzuhalten, um über die Zukunft der Insel zu entscheiden. Nun, da die Ergebnisse vorliegen, scheint die Unabhängigkeitspartei gewonnen zu haben, wodurch Island zur jüngsten Republik Europas wird.\nAuch wenn viele diesen Tag feiern mögen, befürchten andere, dass die neu gewonnene Unabhängigkeit des Landes von Großbritannien oder Kanada, die beide gierig darauf schielen, zunichte gemacht werden könnte. Wie dem auch sei, der Atlantik hat einen neuen Akteur."
+iceland_events.351.a: "Ein Tag zum Feiern!"
+iceland_events.351.b: "Wie interessant..."
+iceland_events.351.c: "Wie könnte sich dies auf den Atlantik auswirken?"
 
-ice.600.t: "Durchschneiden des Bandes vor der neuen Fabrik"
-ice.600.d: "Trotz der Rückschläge in den letzten Jahren ist die isländische Wirtschaft weiter auf dem Vormarsch. Heute können wir die erste neue Fischerei auf der Insel nach der Katastrophe vom Schwarzen Montag eröffnen."
-ice.600.a: "Lasst die Fänge rein!"
+iceland_events.600.t: "Durchschneiden des Bandes vor der neuen Fabrik"
+iceland_events.600.d: "Trotz der Rückschläge in den letzten Jahren ist die isländische Wirtschaft weiter auf dem Vormarsch. Heute können wir die erste neue Fischerei auf der Insel nach der Katastrophe vom Schwarzen Montag eröffnen."
+iceland_events.600.a: "Lasst die Fänge rein!"
 
 ### Opinion Modifiers ###
 ICE_atlantic_trade_plus: "Atlantische Handelsabkommen"
