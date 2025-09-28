@@ -3,7 +3,6 @@
  persia_focus: "Schwerpunktbaum von Persien"
 
 ### Factions ###
- golestan_pact: "Golestan-Pakt" #created by pers.60 event and renamed by pers.60 event
  tabriz_accords: "Abkommen von Täbris" #created by arm.83 event
 
 ### Parties ###
@@ -32,6 +31,10 @@
 ### Tooltips ###
  PER_embargo_anti_socialists_tt: "Wir werden gegen alle Feinde der Internationale ein §HEmbargo§! verhängen und ihnen somit Zugang zu unseren Ölreserven verwehren - doch dafür werden sie auch gegen uns ein Embargo verhängen."
  PER_puppet_kurdistan_upon_war_tt: "§5Wenn Kurdistan existiert, wenn der Krieg gegen die Osmanen ausbricht, wird es unser Untertan werden.§!"
+ PER_join_moscow_accord_ashkhabad_tt: "Wir werden §Y[418.GetName]§! für ein Bündnis mit §Y[RUS.GetNameWithFlag]§! tauschen."
+ PER_RUS_refused_alliance_offer: "§Y[RUS.GetNameWithFlag]§! hat unser Bündnisangebot abgelehnt"
+ PER_dismantle_faction_tt: "§RDas §Y[ROOT.GetFactionName]§! wird aufgelöst!§!\nJe nach ihrer Regierung haben unsere Verbündeten die Wahl, sich uns anzuschließen oder unser Bündnis aufzugeben!"
+ PER_tabriz_accords_capitulation_tt: "§RMit der Kapitulation von §Y[FROM.GetNameDefCap]§!, existiert das §YAbkommen von Täbris§! nicht mehr!§!"
 
  PER_monarchy_tt: "Die Monarchie behält ihre Macht."
  PER_revolution_tt: "Eine Revolution hat stattgefunden."
@@ -81,30 +84,22 @@
  PER_new_consti_desc: "Die Nation hat einen neuen Kurs eingeschlagen und benötigt nun eine neue Verfassung, die ihre Zukunft sichern kann."
  PER_mideast_democracy: "Leuchtfeuer der Demokratie"
  PER_mideast_democracy_desc: "[PER.GetNameDefCap] ist eine der ersten Nationen des Nahen Ostens, die eine Demokratie eingeführt hat. Als freier Staat, der von seinem Volk angeführt wird, ist es [PER.GetNameDef]s Pflicht, die Ideale der Demokratie zu schützen."
+ PER_join_reichspakt: "Beitritt zum Reichspakt"
+ PER_join_reichspakt_desc: "Im vergangenen Jahrhundert war Persien sowohl den Russen als auch den Briten ausgeliefert. Es ist an der Zeit, dass wir uns einem Partner zuwenden, der [PER.GetNameDef] nicht so schlecht behandelt hat wie sie. Deutsches Kapital hat [PER.GetNameDef] Wohlstand gebracht, und deutsche Waffen werden es schützen."
+ PER_join_moscow_accord: "Dem Moskauer Abkommen beitreten"
+ PER_join_moscow_accord_desc: "[RUS.GetNameDefCap] ist seit seinem jüngsten Wiederaufleben der bevorzugte regionale Verbündete. Jetzt ist es an der Zeit, unsere Partnerschaft zu formalisieren und zu vertiefen."
  PER_mideast_communism: "Leuchtfeuer des Sozialismus"
  PER_mideast_communism_desc: "Wir sind die erste Nation des Nahen Ostens, die zum Sozialismus bekehrt ist. Deshalb ist es unsere Pflicht, unser neues Regierungssystem zu schützen und die Revolution in der Region zu verbreiten! Endlich ist für die Arbeiter und unterdrückten Minderheiten des Nahen Ostens die Zeit gekommen, sich gegen ihre tyrannischen Regierungen zu erheben!"
  PER_anti_imperialism: "Indien vom Imperialismus befreien"
  PER_anti_imperialism_desc: "Unsere Nation wurde endlich befreit - und nun ist es an der Zeit, die Revolution ins Ausland zu tragen. Das Dominion von Indien herrscht noch immer über Menschen unseres Volkes, die in Belutschistan leben, doch mit der Hilfe der Bharatiya Volksrepublik können wir die Arbeiter Indiens befreien."
  PER_join_internationale: "Der Dritten Internationale beitreten"
  PER_join_internationale_desc: "Während die Kräfte des Sozialismus im gesamten Nahen Osten auferstehen, kämpfen unsere europäischen Kameraden in Europa noch immer für die Befreieung der Arbeiter weltweit. Die Zeit ist gekommen, über die eigenen Grenzen hinauszublicken und uns dem internationalen Kampf für die Freiheit aller Arbeiter anzuschließen!"
- PER_tajik: "Die Befreiung Tadschikistans"
- PER_tajik_desc: "Die Bewohner Tadschikistans sind unsere Brüder. Unser Fleisch und Blut. Obwohl der Khan Turkestans durch uns beeinflusst wird, reicht dies noch nicht aus, um unsere tadschikischen Brüder vor allen Gefahren zu schützen. Wir müssen handeln."
- PER_afghanistan: "Die afghanische Frage"
- PER_afghanistan_desc: "Afghanistan war einst Teil des Iranischen Reiches, doch die Briten haben sich für die afghanische Unabhängigkeit eingesetzt und uns dazu gezwungen, den Afghanen die Freiheit zu gewähren. Nun ist es jedoch an der Zeit, dass wir zurückfordern, was rechtmäßig uns gehört. Die Hazara und Paschtunen sind ebenso sehr Iraner wie die Perser - und müssen erneut unter unsere Kontrolle gebracht werden."
  PER_baharain: "Bahrain, das Juwel des Golfes"
  PER_baharain_desc: "In Bahrain leben vor allem Schiiten, von denen viele sogar unsere Sprache, farsi, sprechen. Die Insel war für lange Zeit ein Tributstaat und Territorium [PER.GetNameDef]s, ging im 18. Jahrhundert jedoch verloren. Seitdem haben wir uns darum bemüht, enge Beziehungen zu den örtlichen Herrschern aufrechtzuerhalten und unseren Einfluss auszubauen, um unser verlorenes Stück Land eines Tages zurückzuerobern."
- PER_acerbaican: "Die Wiedervereinigung Aserbaidschans"
- PER_acerbaican_desc: "Das Volk von Aserbaidschan unterscheidet sich nicht von unserem eigenen aserbaidschanischen Volk. Ihr Land war schon immer ein Teil unserer Nation. Auch die Bürger Aserbaidschans haben [PER.GetAdjective]e Herzen und sollten deshalb erneut unter unsere Kontrolle gebracht werden. Es ist an der Zeit, sie von der Tyrannei zu befreien, die Russland ihnen aufgezwungen hat."
  PER_agha_khan_legacy: "Das Erbe von Agha Mohammad Khan"
  PER_agha_khan_legacy_desc: "Nun, da die Position des Schahs gesichert wurde, ist es an der Zeit, unseren ehemaligen Ruhm zurückzuverlangen. Genau wie Agha Mohammad Khan es einst tat, werden wir ein Reich schaffen, dass die Menschen heute und in der Zukunft beneiden werden. Lang lebe [PER.GetNameDef]! Lang leben die Kadscharen!"
  PER_iraq_i_arab: "Durchsetzung unserer Ansprüche auf den Irak"
  PER_iraq_i_arab_desc: "Es ist nun schon drei Jahrhunderte her, dass unsere Vorfahren, die Safawiden, den Irak kontrolliert haben. Dieser wurde ihnen nach einem harten Kampf von den Osmanen gestohlen. Nun ist es an uns, unsere schiitischen Brüder im Irak aus dem Griff des sunnitschen Kalifen zu befreien, wofür sich uns gerade eine perfekte Gelegenheit bietet, da das Osmanische Reich kurz vor dem Kollaps steht."
- PER_armenia: "Die armenische Frage"
- PER_armenia_desc: "Armenien ist eine Anomalie in der [PER.GetAdjective]en Außenpolitik. Die Erinnerungen an die [PER.GetAdjective]e Herrschaft über Armenien liegt nicht allzu weit zurück, weshalb viele die Nation erneut in unseren Staat eingliedern wollen. Wir müssen uns jedoch auch vor Augen halten, dass wir trotz unserer Gemeinsamkeiten und freundschaftlichen Beziehungen zu unterschiedlich sind, um friedlich in einer Nation zusammenzuleben. Vielleicht wäre ein Bündnis, durch das unsere Völker enger zusammenwachsen können, eine bessere Idee."
- PER_kartli_province: "Die Provinz Kartli"
- PER_kartli_province_desc: "Wir haben Georgien bereits 1813 an die Russen verloren. Da nun jedoch auch Russland seine Kontrolle über den Kaukasus verloren hat, ist es an der Zeit, dass wir zurückschlagen."
- PER_baluchistan: "Belutschistan zurückerobern"
- PER_baluchistan_desc: "Belutschistan ist ein rechtmäßiger Teil unseres Reiches, der uns von den Briten gestohlen wurde. Es ist an der Zeit, das wir das geschwächte Imperium angreifen und die Herrschaft über unser verlorenes Land erneut an uns reißen."
  PER_govt_reform: "Regierungsreform"
  PER_govt_reform_desc: "Damit wir die kommenden Herausforderungen überstehen können, müssen wir dazu in der Lage sein, uns anzupassen. Dies können wir nur durch eine grundlegende Reform der Regierung erreichen."
  PER_mandatory_edu: "Schulpflicht"
@@ -284,7 +279,6 @@
  PER_illiteracy_desc: "Viele Bürger unserer Nation haben bisher keinerlei Bildung erfahren, was sie ungebildet und ignorant macht."
 
 ### Opinion Modifiers ###
- PER_oil_trade: "Ölhandel mit dem Iran"
  PER_armenian_friendship: "Iranisch-Armenische Freundschaft"
  PER_military_cooperation: "Militärische Kooperation"
  PER_naval_cooperation: "Marinekooperation"
@@ -303,387 +297,342 @@
  PER_country_intro_header_2: "Öl-Nationalisierung"
  PER_country_intro_content_2: "Im Jahre 1925, nach dem Fall des Britischen Imperiums und dem Rückzug der Briten aus Chuzestan, feierten die Madschlis die Wiedervereinigung mit Chuzestan, indem sie die dortige Öl-Industrie nationalisierten. Nun wird dieses Ereignis jedes Jahr von unseren Bürgen gefeiert, da es unseren Willen zeigt, uns weder unser Land, noch unser Öl wegnehmen zu lassen."
  
- PER_guide: "§MZorn des kadscharischen Löwen§! (§PPaternale Autokraten§!)\n£white_dot Wenn Ahmad Schah Qajar stirbt, muss Hassan Mirza die Flucht ergreifen.\n£white_dot Entsendet im nachfolgenden Event Loyalisten in die Madschlis.\n\n§MVerstärkter Konstitutionalismus§! (§aAutoritäre Demokratie§! / §SSozialdemokraten§! / §lSozialliberale§! / §cSozialkonservative§!)\n£white_dot Wenn Ahmad Schah Qajar stirbt, muss Hassan Mirza im Land bleiben.\n£white_dot Tut im nachfolgenden Event nichts.\n£white_dot Für Schah Hamid Mirza: Anstatt nichts zu tun, entsendet Loyalisten in die Madschlis, ermordet den Schah und schließt dann Frieden.\n£white_dot Bei der Wahl von 1938 werden wir die Möglichkeit haben, zwischen der §SHD§!, einer rechten Koalition unter Führung der §cHET§! und einer liberalen Koalition unter Führung der §lHEe§! zu wählen.\n£white_dot Bei den folgenden Wahlen wird die Wahl zwischen der §SHD§!, der §cHET§! oder einer rechten Koalition unter Führung der §aKhandane Qajar§! sein.\n\n§MLang lebe die Revolution!§! (§RRadikale Sozialisten§! / §SSozialdemokraten§! / §lSozialliberale§! / §mMarktliberale§! / §cSozialkonservative§!)\n£white_dot Wenn Ahmad Schah Qajar stirbt, muss Hassan Mirza die Flucht ergreifen.\n£white_dot Tut im nachfolgenden Event nichts.\n£white_dot Für eine radikal-sozialistische Republik: Wählt eine sozialistische Republik.\n£white_dot Für eine demokratische Republik: Erlaubt den Demokraten, eine Republik zu gründen.\n£white_dot Wenn wir eine demokratische Republik gebildet haben:\n Bei der Wahl von 1938 werden wir zwischen der §SHD§! und der §mHT§! wählen können.\n Bei der Wahl von 1942 werden wir zwischen der §SHD§! und der §cHET§! wählen können.\n Und im Jahr 1946 werden wir zwischen der §SHD§!, der §lHEe§! und der §cHET§! wählen können."
+ PER_guide: "§MMonarciey - Qajars (Absolutisten)§! ($paternal_autocrat_coloured$)\n£white_dot Wenn Ahmad Schah Qajar stirbt, muss Hassan Mirza die Flucht ergreifen.\n£white_dot Entsendet im nachfolgenden Event Loyalisten in die Madschlis.\n\n§MMonarchie§! ($authoritarian_democrat_coloured$ / $social_democrat_coloured$ / $social_liberal_coloured$ / $social_conservative_coloured$)\n£white_dot Wenn Ahmad Schah Qajar stirbt, muss Hassan Mirza im Land bleiben.\n£white_dot Tut im nachfolgenden Event nichts.\n£white_dot Für Schah Hamid Mirza: Anstatt nichts zu tun, entsendet Loyalisten in die Madschlis, ermordet den Schah und schließt dann Frieden.\n£white_dot Bei der Wahl von 1938 werden wir die Möglichkeit haben, zwischen der §SHD§!, einer rechten Koalition unter Führung der §cHET§! und einer liberalen Koalition unter Führung der §lHEe§! zu wählen.\n£white_dot Bei den folgenden Wahlen wird die Wahl zwischen der §SHD§!, der §cHET§! oder einer rechten Koalition unter Führung der §aKhandane Qajar§! sein.\n\n§MRepublik§! ($radical_socialist_coloured$ / $social_democrat_coloured$ / $social_liberal_coloured$ / $market_liberal_coloured$ / $social_conservative_coloured$)\n£white_dot Wenn Ahmad Schah Qajar stirbt, muss Hassan Mirza die Flucht ergreifen.\n£white_dot Tut im nachfolgenden Event nichts.\n£white_dot Für eine radikal-sozialistische Republik: Wählt eine sozialistische Republik.\n£white_dot Für eine demokratische Republik: Erlaubt den Demokraten, eine Republik zu gründen.\n£white_dot Wenn wir eine demokratische Republik gebildet haben:\n Bei der Wahl von 1938 werden wir zwischen der §SHD§! und der §mHT§! wählen können.\n Bei der Wahl von 1942 werden wir zwischen der §SHD§! und der §cHET§! wählen können.\n Und im Jahr 1946 werden wir zwischen der §SHD§!, der §lHEe§! und der §cHET§! wählen können."
 
 ### Events ###
- pers.2.t: "Der Schah ist tot!"
- pers.2.d: "Heute Morgen wurde das Volk darüber informiert, dass Ahmad Schah Qajar verstorben ist. Seitdem er vor einigen Jahren von einem sozialistischen Attentäter angeschossen wurde, befand er sich in einem gesundheitlich schlechtem Zustand. Diese alte Verletzung und der Stress, der mit seiner Regierungsposition einhergeht, haben letztlich zu seinem Tode geführt. Hassan Mirza, Ahmads Bruder und Erbe des Sonnenthrons, hat daraufhin die Macht übernommen, doch schon jetzt hat ein Machtkampf zwischen den verschiedenen Fraktionen unserer Nation begonnen. Mirza selbst hat große Ambitionen für die Dynastie der Kadscharen, was die Politiker der Madschlis verunsichert. Die Sozialisten, eine politische Gruppierung, die vor einigen Jahren verboten wurde, könnten ebenfalls versuchen, nach der Macht zu greifen.\n\nDerzeit ist jedoch die einzige Frage, ob Hassan Mirza aus Sicherheitsgründen das Land verlassen oder doch in der Hauptstadt verweilen sollte."
- pers.2.a: "Mirza wird in [PER.GetName] bleiben!"
- pers.2.b: "Mirza flieht!"
-
- pers.3.t: "Loyalisten stürmen die Madschlis!"
- pers.3.d: "Einige Menschen, die den Kadscharen treu ergeben sind, haben unter der Führung von Hassan Mirza die Madschlis gestürmt und versucht, potenzielle Bedrohungen zu eliminieren. Innerhalb kürzester Zeit wurden mehrere Politiker festgenommen, um einen sicheren und reibungslosen Regierungswechsel garantieren zu können. Die Madschlis werden bis auf Weiteres geschlossen bleiben."
- pers.3.a: "Mehr Macht dem Schah!"
-
- pers.4.t: "Formierung einer absolutistischen Monarchie"
- pers.4.d: "Die Monarchie hat erneut die Macht in [PER.GetNameDef] übernommen. Nie wieder werden sich unsere Bürger um Werte wie Demokratie und Freiheit Gedanken machen müssen, denn diese werden nicht länger benötigt."
- pers.4.a: "Lang lebe der Schah!"
-
- pers.5.t: "Wie geht es weiter?"
- pers.5.d: "Mirza hat sich dazu entschieden, in unserem Land zu verweilen. Noch immer gibt es viele Menschen, die ihm treu ergeben sind und dazu bereit wären, für ihn zu kämpfen. Wir könnten diese Loyalisten dazu ermutigen, die Madschlis zu stürmen, um die Ordnung aufrechtzuerhalten und potenzielle Bedrohungen zu eliminieren. Wir könnten sie jedoch auch dazu bewegen, strategisch bedeutende Positionen in [266.GetCapitalVictoryPointName] zu übernehmen und zu versuchen, die Kontrolle über die Stadt zu erlangen. Hassan Mirza könnte seine Loyalisten jedoch auch nicht herumkommandieren und versuchen, den Frieden zu wahren."
- pers.5.a: "Sendet die Loyalisten in die Madschlis."
- pers.5.b: "Die Loyalisten sollen strategische Positionen in [266.GetCapitalVictoryPointName] übernehmen."
- pers.5.c: "Wir sollten keinen Ärger heraufbeschwören."
-
- pers.6.t: "Wie geht es weiter?"
- pers.6.d: "Obwohl Hassan Mirza sich dazu entschieden hat, das Land zu verlassen, gibt es noch immer viele Menschen, die ihm treu ergeben sind und dazu bereit wären, für ihn zu kämpfen. Wir könnten diese Loyalisten dazu ermutigen, die Madschlis zu stürmen, um die Ordnung aufrechtzuerhalten und potenzielle Bedrohungen zu eliminieren. Wir könnten sie jedoch auch dazu bewegen, strategisch bedeutende Positionen in [266.GetCapitalVictoryPointName] zu übernehmen und zu versuchen, die Kontrolle über die Stadt zu erlangen. Wir könnten diese Loyalisten allerdings auch nicht herumkommandieren und versuchen, den Frieden zu wahren."
- pers.6.a: "Sendet die Loyalisten in die Madschlis."
- pers.6.b: "Die Loyalisten sollen strategische Positionen in [266.GetCapitalVictoryPointName] übernehmen."
- pers.6.c: "Wir sollten keinen Ärger heraufbeschwören."
-
- pers.7.t: "Loyalisten übernehmen Schlüsselpositionen in der Stadt"
- pers.7.d: "Einige Bürger, die dem Schah noch immer treu ergeben sind, haben erfolgreich wichtige strategische Positionen in [266.GetCapitalVictoryPointName] eingenommen und die Polizei und die Armee haben verhindert, dass es zu einer großen Rebellion kommt. Es gibt allerdings noch immer Politiker, die sich weigern, die Herrschaft des Schahs zu akzeptieren. Diese Politiker sind den Madschlis loyal, nicht aber dem Schah. Sollten wir es diesen Politikern erlauben, ihre Freiheit zu bewahren, und ihnen damit die Chance geben, sich gegen unseren Schah zu vereinen? Oder sollten wir sie vorerst festnehmen, um einen Aufstand zu verhindern?"
- pers.7.a: "Nehmt sie vorerst fest, um unsere Macht zu sichern."
- pers.7.b: "Sollen sie doch tun, was sie wollen."
-
- pers.8.t: "Die konstitutionelle Monarchie überdauert!"
- pers.8.d: "Nun, da die Macht des Schahs gesichert wurde und die Madschlis ihm treu ergeben sind, wurde eine neue und stabile Regierung unter dem neuen Schah [PER.GetNameDef]s, Hassan Mirza, etabliert."
- pers.8.a: "Lang lebe der Schah!"
-
- pers.10.t: "Demokraten und Sozialisten schließen sich zusammen"
- pers.10.d: "Mitglieder mehrerer politischer Parteien, vor allem der demokratischen Partei und der verbotenen Edalat-Partei, haben sich gegen die Loyalisten vereint. Die Loyalisten des Schahs wiederum haben dabei versagt, die Kontrolle über [266.GetCapitalVictoryPointName] zu erlangen, und eine Revolution steht nun kurz bevor."
- pers.10.a: "Verdammt..."
-
- pers.11.t: "Politiker zeigen sich bereit, Mirza zu bekämpfen"
- pers.11.d: "Es sollte niemanden überraschen, dass Hassan Mirza versucht, den Kadscharen mehr Macht zu sichern. Der Tod Ahmads war dabei die Gelegenheit, auf die Mirza schon immer gewartet hat. Einige Politiker wussten jedoch schon, dass es hierzu kommen würde, und haben sich auf diesen Tag vorbereitet. Sie haben ihre Anhänger versammelt und sind bereit, gegen Mirza anzukämpfen -  was zum Bürgerkrieg führen könnte. Es gibt allerdings auch die Möglichkeit, Hassan Mirza zu ermorden, was zu einer friedlicheren Machtübergabe führen würde."
- pers.11.a: "Lasset den Kampf um [PER.GetNameDef] beginnen!"
- pers.11.b: "Meuchelt Mirza."
-
- pers.12.t: "Hassan Mirza bleibt friedlich"
- pers.12.d: "Hassan Mirza hat viele Menschen überrascht, indem er die Gelegenheit, welche sich ihm bot, nicht ausnutzte, sondern friedfertig blieb. Viele haben erwartet, dass Mirza aufgrund des Todes seines Bruders versuchen würde, eine absolute Monarchie unter der Herrschaft der Kadscharen zu errichten. Mirza jedoch hat seinen Truppen befohlen, nichts zu tun, mit der Begründung, dass er auf eine friedliche Machtübergabe aus ist. Es scheint als würde sich die Lage langsam wieder normalisieren - und die Menschen beginnen, sich auf die Krönung des neuen Schahs, Hassan Mirza, vorzubereiten."
- pers.12.a: "Was für ein weiser Mann Mirza doch ist."
-
- pers.14.t: "Mirza gibt keine Befehle und flieht"
- pers.14.d: "Hassan Mirza hat sich, anstatt seinen Männern neue Befehle zu geben, dazu entschieden zu fliehen und unterzutauchen. Dies bedeutet, dass die Loyalisten nun ohne zentralen Befehlshaber und ohne klar vorgegebene Handlungsanweisungen dastehen. Dadurch bietet sich den Rebellen die Chance, ihre Kräfte für einen neuen Schlag zu sammeln."
- pers.14.a: "Könnten die Kadscharen ihre Macht verlieren?"
-
- pers.15.t: "Politiker zeigen sich bereit, Mirza zu bekämpfen"
- pers.15.d: "Es sollte niemanden überraschen, dass Hassan Mirza versucht, den Kadscharen mehr Macht zu sichern. Der Tod Ahmads war dabei die Gelegenheit, auf die Mirza schon immer gewartet hat. Einige Politiker wussten jedoch schon, dass es hierzu kommen würde, und haben sich auf diesen Tag vorbereitet. Sie haben ihre Anhänger versammelt und sind bereit, gegen Mirza anzukämpfen -  was zum Bürgerkrieg führen könnte."
- pers.15.a: "Lasset den Kampf um [PER.GetNameDef] beginnen!"
-
- pers.16.t: "Hassan Mirza wurde ermordet!"
- pers.16.d: "Einer Gruppe sozialistischer Rebellen ist es gelungen, Hassan Mirza mittels einer Bombe, welche während eines Gespräches zwischen ihm und seinen Offizieren explodierte, zu ermorden. Dadurch haben sie sowohl der Dynastie der Kadscharen als auch ihren Loyalisten einen heftigen Schlag versetzt. Hassan Mirza hatte jedoch einen Sohn, Soltan Hamid Mirza, welcher nun die Führung übernehmen und versuchen wird, die Stabilität aufrechtzuerhalten. Derzeit gibt es zwei Optionen: Einige Politiker haben uns versichert, dass sie dazu bereit wären, mit uns über eine friedliche Machtübergabe zu verhandeln. Andererseits könnten wir diese Annäherungen auch ignorieren, würden damit wahrscheinlich jedoch einen Bürgerkrieg heraufbeschwören."
- pers.16.a: "Wir werden für unser Land kämpfen!"
- pers.16.b: "Wir werden für Frieden in [PER.GetNameDef] verhandeln!"
-
- pers.17.t: "Revolution!"
- pers.17.d: "Die Bürger unserer Nation haben entschieden, dass die Zeit der königlichen Dynastie vorüber ist! Die Mehrheit der Kadscharen und ihrer Loyalisten ist entweder untergetaucht oder wurde ins Exil getrieben und aus dem Land verbannt. Nun wurde eine Notfallsitzung der Madschlis einberufen, um über die zukünftige Regierung [PER.GetNameDef]s zu entscheiden. Wir könnten eine demokratische Republik unter der Führung der Demokraten, welche zuvor zusammen mit dem Schah regierten, errichten, wobei in dieser Republik alle 4 Jahre Wahlen stattfinden würden. Die zweite Option wäre die sozialistische Edalat-Partei. Diese wurde nach dem fehlgeschlagenen Attentat auf Ahmad Shah verboten, genießt allerdings noch immer eine große Beliebtheit in der Bevölkerung."
- pers.17.a: "Die Demokraten werden eine Republik formen."
- pers.17.b: "Die Edalat formen eine sozialistische Republik."
-
- pers.18.t: "Die Demokraten formen eine neue Regierung"
- pers.18.d: "Es wurde entschieden. Die Demokraten haben eine demokratische Regierung und ein demokratisches Parlament geformt. Sayyed Hasan Taqizadeh wurde zum ersten Präsidenten der neuen Iranischen Republik gewählt."
- pers.18.a: "Demokratie wird überdauern!"
-
- pers.19.t: "Die Sozialisten formen eine neue Regierung"
- pers.19.d: "Es wurde entschieden. Die Edalat-Partei hat eine sozialistische Regierung unter dem neuen Präsidenten Iraj Eskandari etabliert. Die Bauern unseres Staates jubelten, als Eskandari seine erste Rede hielt, in der er seine Pläne, welche eine Ausweitung des Einflusses der Arbeiter und der Gewerkschaften und eine Umverteilung des Wohlstandes beinhalten, darlegte."
- pers.19.a: "Ein Sieg der Arbeiter!"
-
- pers.20.t: "Bürgerkrieg in den Städten!"
- pers.20.d: "Jeder wusste, dass es in unserer gespaltenen Nation zu einem Bürgerkrieg kommen könnte - und nun sind in unseren größten Städten Kämpfe zwischen den Sozialisten, Republikanern und kadscharischen Loyalisten ausgebrochen. Allerdings scheint die Uneinigkeit unserer Nation in gewisser Weise auch ein Vorteil zu sein, da sich die Menschen außerhalb der Städte nicht wirklich für die Regierung interessieren und deshalb auch nicht für sie kämpfen. Dies bedeutet, dass sich die Gefechte gänzlich auf die Städte beschränken. Von nun an wird es ein blutiger Kampf werden, und wer als Sieger hervorgeht wird dazu in der Lage sein, ganz [PER.GetNameDef] unter seiner Regierung zu vereinen, während die Verlierer wohl ihres letzten Einflusses beraubt werden."
- pers.20.a: "Möge die beste Seite gewinnen!"
-
- pers.21.t: "Die Schlacht um Isfahan"
- pers.21.d: "Isfahan, einst die Hauptstadt des Safawiden-Reiches, zählt zu den schönsten Städten des Landes und beherbergt viele historische Sehenswürdigkeiten. Sie ist so populär, dass sie von einigen Menschen sogar als "Isfahan, die Hälfte der Welt" bezeichnet wird. Seit Schah Ahmads Tod ist es Loyalisten, die Mirzan treu ergeben sind, gelungen, strategisch wichtige Positionen, wie den Tschehel Sotun-Palast und Naqsch-e-Dschahan-Platz, einzunehmen, um so Widerstand von anti-monarchischen Gruppierungen zu stoppen. Währenddessen ist es einer kleinen Gruppe von Rebellen, die sich darauf vorbereitete, die Stadt anzugreifen, gelungen, die Brücken über den Fluss Zayandeh Rud einzunehmen und zu zerstören. Verschont blieben nur die bekannten Safawiden-Brücken Si o Se Pol und Khaju, doch die Royalisten wurden dennoch gänzlich vom südlichen Teil der Stadt abgeschnitten."
- pers.21.a: "Die Loyalisten müssen trotz aller Gefahren vorrücken!"
- pers.21.b: "Die Loyalisten rudern auf die andere Seite, um die Rebellen einzukesseln."
-
- pers.22.t: "Die Schlacht um Täbris"
- pers.22.d: "Täbris, eine historisch bedeutende Stadt unseres Landes, die zur Zeit der Sassaniden gegründet wurde, zur Zeit des Ilkhanats und der Safawiden als Hauptstadt diente und im Laufe unserer Geschichte stets ein wichtiges Wirtschaftszentrum darstellte, ist in den letzten Tagen verdächtig still geworden. Kurz nach dem Tode von Ahmad Schah haben die Revolutionäre der Stadt, ähnlich wie in der Konstitutionellen Revolution von 1908, damit begonnen, die Kontrolle über Täbris zu übernehmen. Sie zogen von einer bedeutenden Position zur nächsten, und nahmen dabei unter anderem das Verfassungshaus von Täbris, den Großen Basar und die Kabud-Moschee ein, wodurch nun nahezu die gesamte Stadt unter ihrer Kontrolle steht. Diejenigen, die Hassan Mirza noch immer loyal sind, waren von der Geschwindigkeit der Revolutionären zwar beeindruckt, konnten allerdings dennoch das Arg-e Alishah-Mausoleum einnehmen. Dieses stellte sich als perfekter Standpunkt heraus, von dem aus man sich gegen die Revolutionären wehren konnte, wie es auch schon die Russen taten, als sie Täbris 1911 übernahmen."
- pers.22.a: "Die Revolutionären stürmen die Arg-e Alishah, um die Royalisten zu besiegen."
- pers.22.b: "Die Rebellen verschieben den Angriff und beginnen stattdessen Friedensverhandlungen."
-
- pers.24.t: "Die Schlacht um Mashhad"
- pers.24.d: "Die für die Schiiten [PER.GetNameDef]s heiligste Stadt des Landes, in der die Ruhestädte des Imams ar-Rida liegt, befindet sich seit dem Tode des Schahs im Kriegszustand. Den Revolutionären ist es kaum gelungen, gegen die hohe Anzahl royalistischer Anhänger innerhalb der Stadt anzukommen, weshalb sie nun damit begonnen haben, auf Guerrilla-Kriegsführung zurückzugreifen. Dabei planen sie, Regierungsgebäude zu beschädigen, Patrouillen der Royalisten anzugreifen und Nachschublinien zu überfallen. Diese Vorhaben werden wahrscheinlich jedoch nicht von Erfolg gekrönt sein."
- pers.24.a: "Die Rebellen werden bald von den Bürgern der Stadt zerschlagen werden."
-
- pers.26.t: "Die Schlacht um Shiraz"
- pers.26.d: "Shiraz ist wohl eine der ältesten [PER.GetAdjective] Städte und besteht schon seit der Zeit des Achämenidenreiches. Im Laufe unserer Geschichte diente Shiraz unserer Nation als kulturelle Hauptstadt und auch heute noch spielt die Stadt eine wichtige Rolle in den internen Angelegenheiten und der Identitätsbildung unseres Landes. Nach dem Tode des Schahs haben die Revolutionären damit begonnen, wichtige Orte in der Stadt zu übernehmen, wobei einige bedeutende kulturelle und historische Sehenswürdigkeiten, wie der Ruheort der berühmten Poeten Hafez Shirazi und Sa'di's neben der Schah Cheragh-Moschee, das Tor von Shiraz und auch die Zitadelle Arg Karim Khan Zand jedoch leichte Schäden davongetragen haben. Während es den Revolutionären so gelungen ist, einen Großteil der Stadt zu übernehmen, bewegen sich nun jedoch Qaschqai-Stammesmitglieder, die dem Schah treu ergeben sind, auf Shiraz zu und könnten die Stadt eventuell erneut unter die Kontrolle der Loyalisten bringen. Was die Qaschqai allerdings nicht wissen: der revolutionäre Bakhtiari-Stamm, der die Konstitutionellen schon immer unterstützte und auch an der Konstitutionellen Revolution von 1907 beteiligt war, hat ebenfalls einige Männer entsandt, um die Revolutionären zu unterstützen. Sollten diese Männer rechtzeitig in der Stadt ankommen, könnten sie das Gleichgewicht der Kräfte zugunsten der Revolutionären in die Kippe bringen..."
- pers.26.a: "Die Bakhtiari eilen nach Shiraz, um die dortigen Rebellen zu unterstützen."
- pers.26.b: "Die Qaschqai starten eine Offensive, die die Stadt unter ihre Kontrolle bringen könnte."
-
- pers.27.t: "Die Schlacht um Bandar e'Abbas"
- pers.27.d: "Bandar e'Abbas gehört zu den wichtigsten [PER.GetAdjective] Handelsstädten. Aufgrund ihres Hafens und ihrer strategischen Position am Persischen Golf war die Stadt auch früher schon ein Handelszentrum für Händler aus aller Welt und der Ort, von dem aus die meisten [PER.GetAdjective] Exporte in die weite Welt geliefert wurden. Innerhalb der Hafenstadt Bandar e'Abbas wurden in den letzten Tagen schwere Kämpfe zwischen den Unterstützern Hassan Mirzas und den Revolutionären ausgetragen. Obwohl die Stadt anfangs aufgrund ihrer Bedeutung gut von den kadscharischen Loyalisten bewacht wurde, haben Mitglieder der Edalat-Partei insgeheim ausländische Sozialisten in die Stadt geholt, um so die kadscharischen Soldaten zur rechten Zeit bekämpfen zu können. Als sich die Neuigkeiten, dass Ahmad Schah verstorben ist, verbreitet hatten, begannen die Loyalisten damit, die wichtigsten Orte der Stadt zu befestigen. Vor allem der Hafen war dabei von Bedeutung und wurde zunächst zum Sperrgebiet erklärt. Währenddessen haben die Revolutionären, zusammen mit ihren Freunden aus dem Ausland, die schwächeren Stützpunkte der Kadscharen, an denen sie keine Offensiven erwartet hatten, angegriffen. Innerhalb weniger Stunden wurden die kleineren kadscharischen Stützpunkte gänzlich ausgemerzt - und als diese Neuigkeiten die verbliebenen Loyalisten erreichten, war es bereits zu spät. Sie waren lediglich dazu in der Lage, ihre letzten verbliebenen Stützpunkte zu befestigen, und dürfen aufgrund von Problemen mit der Infrastruktur in nächster Zeit nicht mit neuen Verstärkungen rechnen."
- pers.27.a: "Die Revolutionären greifen den letzten Außenposten an und übernehmen die Stadt."
-
- pers.28.t: "Das Ende der Kämpfe"
- pers.28.d: "Wie es scheint, kommen die letzten Kämpfe langsam zum Ende. Hunderte Menschen sind ums Leben gekommen, darunter sowohl Soldaten als auch unschuldige Zivilisten. Familien sind aufgrund divergierender politischer Einstellungen zerbrochen, aber immerhin wurde die Ordnung mehr oder weniger wiederhergestellt."
- pers.28.a: "Und der Sieger ist..."
-
- pers.29.t: "Die Loyalisten sind siegreich!"
- pers.29.d: "Die Lage hat sich langsam normalisiert und die Kadscharen scheinen siegreich aus den Gefechten hervorgegangen zu sein. Nun werden auch die letzten Rebellen, die sich weigern, die neue Regierung zu akzeptieren, hinter Schloss und Riegel gebracht."
- pers.29.a: "Alles ist so, wie es sein sollte."
-
- pers.30.t: "Die Rebellen sind siegreich!"
- pers.30.d: "Die Lage hat sich langsam normalisiert und die anti-kadscharischen Rebellen, eine Koalition aus Sozialisten und Demokraten, scheinen siegreich aus den Gefechten in den Städten hervorgegangen zu sein."
- pers.30.a: "Alles ist so, wie es sein sollte."
-
- pers.31.t: "Der Schwarze Montag trifft [PER.GetNameDef]"
- pers.31.d: "Seit dem deutschen Sieg im Weltkrieg ist die deutsche Wirtschaft gewachsen und auch unsere Nation genoss enge wirtschaftliche Beziehungen zu den Deutschen. Aufgrund der Größe ihrer Wirtschaft und unserer Ölreserven ist unsere Wirtschaft im Laufe der Zeit zunehmend abhängiger von Deutschland geworden. Seit dem Ende des Weltkriegs hatte sich unsere Wirtschaft rapide erholt und auch die Nachwirkungen der großen persischen Hungersnot begannen langsam zu verschwinden.\n\nNun wurde Deutschland allerdings von einer Krise in Form des Schwarzen Montags getroffen. Die gesamte deutsche Wirtschaft ist zusammengebrochen, was auch viele andere Nationen der Welt beeinflusst und ihre Wirtschaften mit in den Abgrund zieht. Mittlerweile machen sich die Auswirkungen des Schwarzen Montags auch in unserem Land bemerkbar. Tausende haben mit einem Mal all ihr Geld und ihren Beruf verloren - und schon bald werden Familien wieder hungern müssen. Unsere Regierung hat nun eine Notfallsitzung einberufen, um darüber zu beraten, wie man nun verfahren sollte."
- pers.31.a: "Es kann nur noch besser werden..."
-
- pers.32.t: "Der Wohlstand der Astan Quds Razavi"
- pers.32.d: "Die Astan Quds Razavi ist eine autonome Wohltätigkeitsorganisation unseres Landes und auch als Boyard bekannt. Diese Organisation verwaltet verschiedenste Besitztümer, repariert und renoviert alte Tempel und andere Gebäude und bietet sogar Waisenkindern eine Schule. Es ist eine sehr populäre und sehr wohlhabende Organisation, die außerdem auch einen gewissen Einfluss auf unsere Regierung ausübt. Worauf wir uns jedoch fokussieren sollten ist die Größe ihrer Reichtümer. Aufgrund der Auswirkungen des Schwarzen Montags auf unsere Bürger hat die Astan Quds Razavi sich bereits dazu bereit erklärt, unserem Staat ein wenig finanziell unter die Arme zu greifen, damit wir das Problem leichter lösen können. Wir könnten ihre Reichtümer allerdings auch gänzlich beanspruchen, wodurch uns mehr Geld zur Verfügung stünde, um gegen die Auswirkungen des Schwarzen Montags vorzugehen. Da die Astan Quds Razavi beim Volk jedoch sehr beliebt ist, würden wir so wohl die Unterstützung einiger Bürger verlieren."
- pers.32.a: "Das Abkommen ist gut genug."
- pers.32.b: "Beansprucht ihre Reichtümer."
-
- pers.33.t: "Der Reichtum des Scheichs Khaz'al"
- pers.33.d: "Khaz'al ibn Jabir ibn Merdaw al-Ka'bi gehört zu den reichsten Männern der Nation, wenn nicht gar zu den reichsten Männern des gesamten Nahen Ostens. Er war ein Aktionär, besaß Aktien des Englisch-[PER.GetAdjective]en Ölunternehmens und erhielt zusammen mit seinen Untertanen in Chuzestan jährlichen Tribut vom Britischen Imperium ausgezahlt. Dadurch wurde er unermesslich reich an Einfluss und Geld, wodurch Chuzestan zu seinem eigenen kleinen persönlichen Königreich wurde. Aufgrund der derzeit laufenden wirtschaftlichen Reformen benötigen wir erneut finanzielle Mittel - und die Reichtümer von Scheich Khaz'al könnten die Antwort sein. Wenn wir ihn dazu überreden könnten, einen Teil seines Wohlstandes mit uns zu teilen, könnten wir einen ungewollten Konflikt vermeiden. Andererseits könnten wir jedoch auch all seine Besitztümer beschlagnahmen, wodurch er in der Zukunft keine Bedrohung mehr für uns darstellen würde und uns mehr Ressourcen zur Verfügung stünden. Die Konsequenzen einer solchen Aktion sind jedoch nur schwer abschätzbar."
- pers.33.a: "Wir sollten ihn dazu überreden, uns einige Reichtümer zu überlassen."
- pers.33.b: "Es ist an der Zeit, Khaz'al loszuwerden. Er konnte seine Macht schon zu lange unkontrolliert ausüben."
-
- pers.34.t: "Die Opposition loswerden?"
- pers.34.d: "Seitdem die Sozialisten in einer Revolution die Regierung übernommen haben, steht eine zentrale Frage im Raum: Sollten sie mit den Politikern der ehemaligen Regierung zusammenarbeiten oder sollten sie diese Politiker loswerden, um eine vollständige Revolution zu erreichen. Obwohl die Kadscharen einen starken Einfluss auf die vorige Regierung ausübten, so war sie doch sozialdemokratisch, weshalb eine Zusammenarbeit mit ihren Politikern wohl möglich wäre. Es besteht allerdings auch die Chance, dass diese Reaktionären, falls sie ein Teil der Regierung bleiben sollten, die Revolution korrumpieren und letztlich ihren Untergang heraufbeschwören würden. Kurzzeitig könnte eine Säuberung der Regierung zwar unerwünschte Auswirkungen haben, langfristig könnte sie jedoch auch die Rettung der Revolution sein."
- pers.34.a: "Es ist an der Zeit, eine Entscheidung zu fällen."
-
- pers.35.t: "Geistliche rufen den Dschihad aus!"
- pers.35.d: "Da unserer Nation die totale Vernichtung droht, haben Geistliche aus allen Teilen des Landes, vor allem jedoch in Ghom und Maschhad, einen Dschihad ausgerufen. Dies wird unsere Männer dazu bringen, erpichter zu kämpfen, und wird uns sicherlich zum Sieg gegen die ausländischen Invasoren führen!"
- pers.35.a: "[PER.GetNameDefCap] kämpft weiter!"
-
- pers.36.t: "Das Ende des Dschihads"
- pers.36.d: "Nun, da sich unsere Nation erneut im Frieden befindet, haben die Geistlichen den Dschihad für beendet erklärt. Wir haben den Krieg endlich überstanden und einen Sieg davongetragen!"
- pers.36.a: "[PER.GetNameDefCap] lebt in Ruhm und Gloria!"
-
- pers.37.t: "Sozialistische Proteste"
- pers.37.d: "Hunderte haben sich heute auf den Straßen versammelt, um gegen unsere derzeitige Regierung zu protestieren. Diese Demonstranten gehören dabei der verbotenen Edalat-Partei an, der größten sozialistischen Organisation des Landes. Trotz der Tatsache, dass sie eigentlich illegal ist, hat die Partei jedoch noch immer einige Unterstützer in der Bevölkerung. Ihre Proteste enden dabei stets mit Gefechten gegen die Polizei - und mit jedem Tag, den diese Proteste andauern, verlieren die Menschen einen größeren Teil ihres Glaubens an die Regierung. Wenn wir wollen, dass diese Proteste endlich enden, müssen wir jedoch zuerst dem politischen Chaos in der Regierung selbst Einhalt gebieten und die Ordnung im Land wiederherstellen."
- pers.37.a: "Eines Tages wird diese Gewalt ein Ende finden."
-
- pers.38.t: "Präsidentschaftswahlen von 1938"
- pers.38.d: "Wie von uns versprochen als wir die Macht übernahmen, finden nun die ersten [PER.GetAdjective]en Präsidentschaftswahlen statt, wobei es viele verschiedene Kandidaten gibt, die unsere Bürger wählen können. Die Situation ist allerdings noch immer etwas instabil und die Menschen haben sich noch nicht gänzlich vom Chaos erholt, welches dem Tode Ahmads folgte. Die erste Option, für die unsere Bürger stimmen könnten, ist eine Koalition zwischen den Demokraten und der Edalat-Partei, die Taqizadeh als ihren Kandidaten für die Position des Präsidenten auserkoren hat. Die Koalition wurde geformt, da die Anführer beider Parteien gute Bekannte und Kollegen sind und in der Revolution zusammen gegen den Schah angekämpft haben. Außerdem haben sie ähnliche Weltanschauungen, können also fürs Erste gut zusammenarbeiten. Allerdings spalten sich ihre Ansichten in einigen Belangen, weshalb das Bündnis zwischen den Parteien wohl ein wackliges bleiben wird. Der wichtigste andere Kandidat ist Mohammad Ali Foroughi Zoka-ol-Molk, der eine Koalition der Tajadod und der Eslah Talaban anführt. Diese Parteien haben sich zusammengeschlossen, um den Einfluss der Koalition zwischen den Demokraten und der Edalat-Partei zu reduzieren, da sie viele Dinge gänzlich anders betrachten als die revolutionären Parteien. Aufgrund der Vereinbarung, dass die Eslah Talaban, welche an Popularität verloren haben, da sie sich vor Kurzem auf die Seite des Schahs stellten, ihre Sozialpolitik durchsetzen können, während die Tajadod-Partei ihre geplanten Wirtschaftsreformen durchführen kann, werden die beiden Parteien wohl gut miteinander zusammenarbeiten können."
- pers.38.b: "Sayyed Hasan Taqizadeh gewinnt die Wahl."
- pers.38.e: "Mohammad Ali Foroughi Zoka-ol-Molk gewinnt die Wahl."
-
- pers.39.t: "Präsidentschaftswahlen von 1942"
- pers.39.d: "Die Zeit der Wahlen ist erneut angebrochen und die Lage hat sich mittlerweile normalisiert. Der erste zur Wahl stehende Kandidat ist Sayyed Hasan Taqizadeh der Demokratischen Partei. Aufgrund der sinkenden politischen Spannungen gibt es bei dieser Wahl keine Koalition zwischen den Demokraten und der Edalat-Partei. Taqizadeh will Reformen im wirtschaftlichen System durchsetzen und so denjenigen helfen, die es am nötigsten haben, also zum Beispiel Menschen, die von der Hungersnot betroffen waren. Der zweite Kandidat ist Ahmad Qavam, ein Mitglied der Eslah Talaban-Partei. Er vertritt eine traditionellere Einstellung und ist der Meinung, dass weniger Reformen meist mehr bewirken. Schon seit der ersten Konstitutionellen Revolution exisitiert eine bittere Rivalität zwischen den beiden Parteien, und nun wünschen sich beide, im neuen demokratischen System unseres Staates an die Spitze zu kommen."
- pers.39.b: "Sayyed Hasan Taqizadeh gewinnt die Wahl."
- pers.39.f: "Ahmad Qavam gewinnt die Wahl."
-
- pers.40.t: "Präsidentschaftswahlen von 1946"
- pers.40.d: "Die Zeit der Wahlen ist erneut angebrochen. Auch diesmal stehen wieder viele verschiedene Kandidaten zur Auswahl. Der erste ist Taqizadeh, welcher eine Koalition zwischen den Demokraten und der Edalat-Partei vertritt. Die Edalat-Partei hat sich dabei zu einer Koalition mit den Demokraten entschieden, da sie seit der ersten Wahl einen Großteil ihrer Beliebtheit verloren hat und nun versucht, ihren Einfluss zurückzugewinnen. Der zweite Kandidat ist Mohammad Mosaddegh, welcher eine Koalition zwischen den Parteien Tajadod und Eetedaliun anführt. Auch wenn diese beiden Parteien nicht in allen Bereichen der Sozialpolitik auf einen gemeinsamen Nenner kommen, können sie zumindest in wirtschaftlichen Belangen effizient zusammenarbeiten. Da beide Parteien eher klein sind, mussten sie sich zusammentun, um eine Chance auf einen Wahlsieg zu haben. Die letzte große zur Wahl stehende Fraktion ist die Eslah Talaban-Partei. Diese hat seit der Revolution stark an Beliebtheit gewonnen, da viele Menschen der Meinung sind, dass es ohne die Revolution nicht zu so vielen Kriegen gekommen wäre, wie es in den letzten Jahren der Fall gewesen ist. Viele Menschen haben in diesen Konflikten ihr Leben gelassen - und nun wenden sich die Hinterbliebenen der Eslah Talaban-Partei zu, in der Hoffnung, dass sie ihre Probleme lösen kann."
- pers.40.b: "Sayyed Hasan Taqizadeh gewinnt die Wahl."
- pers.40.c: "Mohammad Mosaddegh gewinnt die Wahl."
- pers.40.f: "Ahmad Qavam gewinnt die Wahl."
-
- pers.41.t: "Madschliwahlen von 1938"
- pers.41.d: "Seitdem die konstitutionelle Monarchie etabliert wurde, sind die Madschlis ein wichtiger Teil des politischen Geschehens unseres Landes. Dabei dienen sie als [PER.GetAdjective]es Parlament und üben einen starken Einfluss auf das Alltagsleben unserer Bürger aus. Nun ist die Zeit gekommen, die Madschlis neu zu besetzen und neue Minister zu ernennen.\n\nDas erste mögliche Kabinett ist das der Demokratischen Partei. Diese war bereits an der Regierung des letzten Schahs beteiligt, bis dieser verstarb. Da sie ihre Fähigkeiten bereits unter Beweis gestellt haben, sind die Demokraten auch beim Volk sehr beliebt. Sie planen, politisch moderat zu bleiben, um unserer Nation so Stabilität und Einheit zu bringen. Das zweite Kabinett ist eine Koalition aus Mitgliedern der Eslah Talaban-Partei und einiger autoritärer Minister. Sie wollen dem Schah mehr Macht verleihen, da sie der Meinung sind, dass der sinkende Einfluss des Schahs der Grund für das Chaos, welches dem Tode Ahmads folgte, war. Sie wünschen sich zwar keine absolutistische Monarchie zurück, wollen allerdings, dass sich unser Herrscher direkter in die Politik einmischen kann. Auch im Generellen wollen sie die politische Szene unseres Staates strenger überwachen und kontrollieren, weshalb sie General Reza Khan als ihren Kandidaten für die Position des Sicherheitsministers auserkoren haben. Die letzte Koalition besteht aus Mitgliedern vieler Parteien, darunter Minister der Demokraten, der Eetedaliun und der Tajadod. Sie stehen zwar hinter der Idee einer konstitutionellen Monarchie, wollen die Macht des Schahs allerdings noch weiter einschränken. Was wirtschaftliche und soziale Politik angeht sind sie nicht immer einer Meinung, doch auf einige kleinere Reformen für ihr Wahlprogramm konnten sie sich einigen."
- pers.41.a: "Die demokratische Partei."
- pers.41.b: "Die rechte Koalition."
- pers.41.c: "Die liberale Koalition."
-
- pers.42.t: "Madschliwahlen von 1942"
- pers.42.d: "Es ist erneut an der Zeit, die Madschlis neu zu besetzen. Mittlerweile hat sich die Lage wieder normalisiert, weshalb Parteien eher dazu bereit sind, ihre eigenen Agendas zu vertreten. Die erste Koalition besteht aus Mitgliedern der Demokratischen und der Tajadod-Partei. Diese sind sich im Bereich der Sozialpolitik gänzlich einig, könnten soziale Reformen also mit Leichtigkeit erlassen. Wirtschaftlich gehen ihre Meinungen zwar auseinander, aber sie würden die Macht trotzdem lieber miteinander teilen, als sie in den Händen anderer Parteien zu sehen. Das zweite Kabinett ist das der Eslah Talaban-Partei, deren Mitglieder politisch eher moderat sind, an traditionelle Werte und eine Machtbalance zwischen dem Schah und den Madschlis glauben und eng mit dem Schah zusammenarbeiten. Die letzte mögliche Koalition besteht aus Mitgliedern der Tajadod-Partei und einigen autoritären Ministern. Diese wollen dem Schah weitreichendere Befugnisse verleihen und hoffen, dieses Ziel durch die Madschlis verwirklichen zu können. Auch die Tajadod haben ihre Strategie geändert und sind der Meinung, dass ein starker Schah ihnen dabei helfen könnte, ihre Reformen durchzusetzen."
- pers.42.a: "Die demokratische Koalition."
- pers.42.b: "Die Eslah Talaban-Partei."
- pers.42.c: "Die rechte Koalition."
-
- pers.43.t: "Madschliwahlen von 1946"
- pers.43.d: "Es ist erneut an der Zeit, die Madschlis neu zu besetzen. Das erste mögliche Kabinett ist das der Demokratischen Partei, welche nun ohne Koalition den Wahlkampf antritt. Sie vertritt eine liberale Agenda und setzt sich vor allem für Reformen im sozialen Bereich ein. Das zweite Kabinett ist das der Eslah Talaban-Partei, deren Mitglieder politisch eher moderat sind, an traditionelle Werte und eine Machtbalance zwischen dem Schah und den Madschlis glauben und eng mit dem Schah zusammenarbeiten. Die letzte mögliche Koalition besteht aus Mitgliedern der Tajadod-Partei und einigen autoritären Ministern. Diese wollen dem Schah weitreichendere Befugnisse verleihen und hoffen, dieses Ziel durch die Madschlis verwirklichen zu können. Auch die Tajadod haben ihre Strategie geändert und sind der Meinung, dass ein starker Schah ihnen dabei helfen könnte, ihre Reformen durchzusetzen."
- pers.43.a: "Die demokratische Partei."
- pers.43.b: "Die Eslah Talaban-Partei."
- pers.43.c: "Die rechte Koalition."
-
- pers.44.t: "Krieg gegen Aserbaidschan"
- pers.44.d1: "Die Bevölkerung der nördlichen Provinz Täbris besteht zu einem großen Teil aus aserbaidschanischen Türken, was als Vorwand genutzt werden könnte, um das aserische Volk unter unserer Flagge zu einen. Einer unserer Nachbarn, Armenien, hat mit Aserbaidschan allerdings auch noch ein Hühnchen zu rupfen. Wir könnten Armenien eventuell ein militärisches Bündnis vorschlagen, um Aserbaidschan zwischen unseren Nationen zu beiderseitigem Vorteil aufzuspalten."
- pers.44.d2: "Die Bevölkerung der nördlichen Provinz Täbris besteht zu einem großen Teil aus aserbaidschanischen Türken, was als Vorwand genutzt werden könnte, um das aserische Volk unter unserer Flagge zu einen.\n\nDie Armenier sind zwar seit unserem gemeinsamen Kampf gegen die Osmanen unsere Verbündeten, doch wer weiß, wie lang diese Vereinbarung Bestand haben wird? Wir könnten versuchen, unser temporäres Bündnis mit Armenien zu einem dauerhaften zu erweitern, indem wir den Armeniern anbieten, Aserbaidschan zwischen unseren beiden Staaten aufzuteilen."
- pers.44.a: "Wir brauchen Armeniens Hilfe nicht."
- pers.44.b: "Wir sollten die Armenier um Hilfe bitten."
-
- pers.45.t: "[PER.GetAdjective]e Aggression - wen bitten wir um Hilfe?"
- pers.45.d: "Berichte einer verstärkten [PER.GetAdjective] Aggression an unserer Grenze, die sich eventuell in einen regelrechten Krieg verwandeln könnte, haben vor Kurzem die Hauptstadt erreicht. Unsere Nachbarn behaupten, dass sie lediglich die aserischen Menschen unter einer Flagge vereinen wollen - doch wir durchschauen ihre Lügen und wissen, dass sie lediglich ihre Einflusssphäre ausweiten wollen. Da wir uns allerdings nicht allein gegen die Perser verteidigen können, sollten wir Deutschland um Hilfe beten."
- pers.45.a: "Die Deutschen werden uns beistehen!"
- pers.45.c: "Wir werden uns den Persern allein stellen."
-
- pers.46.t: "Aserbaidschan bittet um Schutz vor [PER.GetAdjective]er Aggression"
- pers.46.d: "Die aserbaidschanische Regierung hat darum gebeten, dass wir sie vor ihren [PER.GetAdjective]en Nachbarn beschützen, falls diese ihnen den Krieg erklären sollten. Das Öl der Ölfelder von Baku ist essentiell für unsere Kriegsmaschinerie, weshalb Aserbaidschan wohl ein wichtiger Verbündeter werden könnte. Sollten wir den Persern drohen, könnten diese uns eventuell auch die Erlaubnis geben, ihr Öl zu nutzen. In diesem Falle müssten wir uns nicht einmal in den Konflikt einmischen, um Vorteile aus ihm zu ziehen. Wir könnten diese ganze Sache jedoch auch einfach ignorieren."
- pers.46.a: "Wir werden Aserbaidschans Unabhängigkeit garantieren."
- pers.46.b: "Wen interessiert schon Aserbaidschan?"
-
- pers.47.t: "Deutschland garantiert Aserbaidschan"
- pers.47.d: "Die Deutschen haben soeben verkündet, dass sie Aserbaidschan im Falle eines Krieges verteidigen werden - und die Macht der deutschen Armee ist etwas, was wir wohl nicht am eigenen Leibe erfahren wollen. Öl stellt dabei den wichtigsten Grund für die deutsche Intervention dar. Da auch wir über große Ölreserven verfügen, die die Deutschen nutzen könnten, könnten wir den Deutschen also einen Vorschlag unterbreiten - unser Öl gegen Aserbaidschan."
- pers.47.a: "Sendet den Öl-Deal!"
- pers.47.b: "Wir fürchten die Deutschen nicht!"
- pers.47.c: "Wir sollten nachgeben."
-
- pers.48.t: "[PER.GetNameDefCap] offeriert Öl gegen Aserbaidschan"
- pers.48.d: "[PER.GetNameDefCap] hat uns ein Angebot unterbreitet: Öl aus ihren Reserven gegen eine Aufhebung unserer Garantie der aserbaidschanischen Unabhängigkeit. Wir sollten wahrscheinlich annehmen, da es nicht klug wäre, sich in einen Krieg im Nahen Osten einzumischen, während auch in der Heimat Instabilität herrscht."
- pers.48.a: "Wir haben was wir wollten. Hebt die Garantien auf!"
- pers.48.b: "Wir werden unsere Verbündeten nicht verraten!"
-
- pers.49.t: "[PER.GetNameDefCap] hat nachgegeben"
- pers.49.d: "[PER.GetNameDefCap] hat sich dazu entschieden, seine Aggression an unserer Grenze einzustellen. Sie haben ihre Truppen abgezogen und unsere Sicherheit ist so erneut garantiert. Nun ist es an der Zeit, dieses Ereignis zu feiern!"
- pers.49.a: "Großartig!"
-
- pers.50.t: "Deutschland hat den Öl-Deal angenommen"
- pers.50.d: "Die Deutschen haben entschieden, dass unser Öl mehr wert ist als das Aserbaidschans, und haben ihre Garantie der aserbaidschanischen Unabhängigkeit aufgehoben. Nun müssen wir uns keine Sorgen aufgrund einer möglichen deutschen Intervention mehr machen und können schon bald die Vorteile des gestiegenen Handelstreibens ernten."
- pers.50.a: "Aserbaidschan wird uns gehören!"
-
- pers.51.t: "Deutschland hält die Garantie aufrecht"
- pers.51.d: "Deutschland hat unser Angebot abgelehnt und verkündet, dass es Aserbaidschan auch weiterhin verteidigen wird. Vielleicht ist es an der Zeit, unsere Ansprüche aufzugeben..."
- pers.51.a: "Wir fürchten keine Europäer!"
- pers.51.b: "Wir können die Deutschen nicht bekämpfen..."
-
- pers.55.t: "Niemand will uns helfen"
- pers.55.d: "Wir haben um Hilfe gebeten, doch wurden zurückgewiesen. Nun ist niemand mehr übrig, den wir um Schutz ersuchen könnten - und wir müssen uns der [PER.GetAdjective]en Aggression wohl oder übel allein stellen. Es ist an der Zeit, so erbittert zu kämpfen wie wir nur können!"
- pers.55.a: "Das ist nicht gut..."
-
- pers.56.t: "Aserbaidschan steht allein"
- pers.56.d: "Die Gelegenheit, auf die wir schon so lange warten, ist endlich da. Aserbaidschan hat andere Nationen um Schutz ersucht, doch wurde zurückgewiesen. Nun ist es an der Zeit, das aserische Volk unter unserer Flagge zu einen!"
- pers.56.a: "In den Krieg!"
-
- pers.58.t: "[PER.GetNameDefCap] bietet Land gegen Unterstützung an"
- pers.58.d1: "[PER.GetNameDefCap] hat uns ein Angebot unterbreitet: Sie planen eine Invasion unseres Nachbarn Aserbaidschans, und sollten wir sie dabei unterstützen, werden sie uns mit neuen Territorien belohnen. Zusammen sollte es ein Leichtes sein, Aserbaidschan zu besiegen, und eine Expansion unserer Nation kann sicherlich ebenfalls nicht schaden."
- pers.58.d2: "[PER.GetNameDefCap] hat uns ein Angebot unterbreitet: Sie planen eine Invasion unseres Nachbarn Aserbaidschans, und sollten wir sie dabei unterstützen, werden sie uns mit neuen Territorien belohnen. Sollten wir diesem Vorschlag zustimmen, könnten wir aus unserer derzeitigen Allianz außerdem eine dauerhafte Vereinbarung formen."
- pers.58.a: "Wir werden sie unterstützen."
- pers.58.b: "So lasset uns Verbündete bleiben."
- pers.58.c: "Wir sollten uns nicht einmischen."
- pers.58.e: "Wir sind nicht auf den Erhalt einer dauerhaften Allianz aus."
-
- pers.59.t: "Armenien lehnt unser Angebot ab"
- pers.59.d: "Armenien hat unser Bündnisangebot abgelehnt, doch auch ohne diese Tore sollten wir Aserbaidschan besiegen können. Wir könnten allerdings auch noch immer unseren Plan aufgeben und Aserbaidschan in Frieden lassen."
- pers.59.a: "Wir werden ohne sie fortfahren."
- pers.59.b: "Wir sollten nachgeben."
-
- pers.60.t: "Armenien nimmt unser Angebot an"
- pers.60.d: "Armenien hat unserem Bündnisangebot zugestimmt und sich dazu bereit erklärt, uns bei unserer Invasion Aserbaidschans zu unterstützen. Diese neue Allianz wird sich im kommenden Krieg sicherlich als äußerst nützlich herausstellen."
- pers.60.a: "Gemeinsam sind wir stark!"
-
- pers.62.t: "Die Armenische Frage"
- pers.62.d: "Die Frage Armeniens beschäftigt unsere Bürger und Politiker schon seit geraumer Zeit. Einst war Armenien Teil des großen Persischen Reiches, weshalb einige der Meinung sind, wir sollten es erneut zu einer Provinz unseres Staates machen. Wir haben allerdings auch die Möglichkeit, ihnen auf diplomatische Weise näherzukommen und einen Weg der wirtschaftlichen Kooperation mit den Armeniern einzuschlagen, was zu unser beider Vorteil wäre."
- pers.62.a: "Sie werden erneut ein Teil des Reiches sein!"
- pers.62.b: "Wirtschaftliche Kooperation wäre von Vorteil."
-
- pers.67.t: "[PER.GetNameDefCap] fordert Bahrain"
- pers.67.d: "[PER.GetNameDefCap] hat uns ein Ultimatum gesandt, in welchem gefordert wurde, dass wir die Insel Bahrain sofort aufgeben und die Kontrolle an sie übertragen. Der [PER.GetAdjective]e Anspruch auf Bahrain ist nun schon Jahrhunderte alt, doch die [PER.GetAdjective]e Regierung spricht noch immer leidenschaftlich von der Rückeroberung "verlorenen Landes". Sollten wir ihnen die Insel nicht überlassen, werden sie wohl versuchen, unserer Herrschaft über Bahrain auf militärischem Wege ein Ende zu bereiten."
- pers.67.a: "Wir sollten Bahrain aufgeben."
- pers.67.b: "Wir fürchten die Perser nicht!"
-
- pers.68.t: "Bahrain wurde an uns abgetreten"
- pers.68.d: "Bahrain steht nun endlich wieder unter unserer rechtmäßigen Kontrolle, so, wie es schon immer sein sollte."
- pers.68.a: "Perfekt."
-
- pers.69.t: "Unser Ultimatum wurde abgelehnt"
- pers.69.d: "Unser Ultimatum bezüglich der Insel Bahrain wurde zurückgewiesen. Nun bleibt uns nur noch der Krieg, um unsere rechtmäßige Herrschaft über die Insel wiederherzustellen."
- pers.69.a: "In den Krieg!"
-
- pers.70.t: "Die Annexion von Sulaymaniyah"
- pers.70.d: "Nun, da sich der Staub gelegt hat und wir siegreich über die osmanischen Armeen hervorgegangen sind, scheint es, dass unser kurdischer Verbündeter seinen Nutzen überlebt hat. [KUR.GetLeader] konnte seine wackelige Herrschaft über die Region nur dank des andauernden Krieges gegen die Türken aufrechterhalten, und mit ihrem Zusammenbruch haben viele seiner ehemaligen Mitstreiter bereits begonnen, sich gegen ihn zu wenden, da er weit davon entfernt ist, die Region zu vereinen.\n\nUm die Ordnung in der Region wiederherzustellen, haben wir mehrere Divisionen sowohl in die Stadt Sulaimaniya als auch auf das Land geschickt und den verschiedenen Kriegsherren, die versuchen, das Chaos auszunutzen, das gleiche Ultimatum gestellt: Legt eure Waffen nieder oder sterbt.\n\nDa die desorganisierten Kräfte, aus denen sich die Armeen unserer ehemaligen Verbündeten zusammensetzten, von jeglicher ausländischer Unterstützung abgeschnitten sind und sich einer weitgehend apathischen Bevölkerung gegenübersehen, die sich eine Rückkehr zur Stabilität wünscht, war unsere Armee in der Lage, die gesamte Region effektiv zu besetzen, und auch wenn wir mit sporadischem Widerstand rechnen müssen, gehört Sulaymaniyah jetzt uns."
- pers.70.a: "Wirklich, wir hatten keine Wahl."
-
- pers.80.t: "Frieden mit Russland?"
- pers.80.d: "Wir haben Russland nun schon bis zum Schwarzen Meer zurückgedrängt. Dennoch sollten wir versuchen, unsere militärischen Kapazitäten nicht zu überschreiten, weshalb es klug wäre, Russland ein Friedensangebot zu unterbreiten."
- pers.80.a: "Bietet ihnen Frieden an."
- pers.80.b: "Wir werden bis nach Moskau vorrücken!"
-
- pers.81.t: "Frieden mit [PER.GetNameDef]?"
- pers.81.d: "Der Krieg gegen die Perser hat sich nicht gerade zu unserem Vorteil entwickelt. Nun haben sie uns ein Friedensangebot unterbreitet, welches vorsieht, dass wir einige Territorien an sie abtreten."
- pers.81.a: "Akzeptiert den Frieden."
- pers.81.b: "Wir werden sie zurückdrängen!"
-
- pers.82.t: "Frieden mit der Entente?"
- pers.82.d: "Wir haben die Indische Dominion erfolgreich bekämpft und sollten nun versuchen, einen Friedensvertrag mit der Entente auszuhandeln."
- pers.82.a: "Unterbreitet ihnen ein Friedensangebot."
- pers.82.b: "Wir kämpfen weiter!"
-
- pers.83.t: "Frieden mit [PER.GetNameDef]?"
- pers.83.d: "[PER.GetNameDefCap] ist es gelungen, die Indische Dominion zu besiegen. Nun haben sie uns ein Angebot unterbreitet: Frieden gegen Belutschistan. Wie sollten wir antworten?"
- pers.83.a: "Wir müssen akzeptieren..."
- pers.83.b: "Niemals!"
-
- pers.85.t: "Nouruz"
- pers.85.d: "Heute feiern Menschen in unserer gesamten Nation das Nouruz-Fest, eine antike Tradition, die auf die Ursprünge des zoroastrischen Glaubens und des antiken Persiens zurückgeht. Nouruz feiert das neue Jahr und den Beginn des Frühling und ist bekannt dafür, die Menschen einander näherzubringen."
- pers.85.a: "Fröhlichen Nouruz!"
-
- pers.86.t: "Nouruz"
- pers.86.d: "Heute feiern Menschen in unserer gesamten Nation das Nouruz-Fest, eine antike Tradition, die auf die Ursprünge des zoroastrischen Glaubens und des antiken Persiens zurückgeht. Nouruz feiert das neue Jahr und den Beginn des Frühling und ist bekannt dafür, die Menschen einander näherzubringen."
- pers.86.a: "Fröhlichen Nouruz!"
-
- pers.87.t: "Frieden mit den Deutschen?"
- pers.87.d: "Unser Krieg gegen die Deutschen hat sich nicht gerade zu ihrem Vorteil entwickelt. Wir sollten ihnen ein Friedensangebot unterbreiten, im Namen der Stabilität unserer Nation."
- pers.87.a: "Bietet ihnen Frieden an."
- pers.87.b: "Frieden ist für Schwächlinge!"
-
- pers.88.t: "Frieden mit [PER.GetNameDef]?"
- pers.88.d: "Wir befinden uns schon seit geraumer Zeit im Kriegszustand mit den Persern, da wir unseren Verbündeten, Aserbaidschan, verteidigen wollten. Dies hat allerdings anscheinend nicht funktioniert. Wir sollten wahrscheinlich einfach Frieden schließen."
- pers.88.a: "Akzeptiert den Frieden."
- pers.88.b: "Niemals!"
-
- pers.89.t: "Dehkhodas Wörterbuch"
- pers.89.d: "Aufgrund der wachsenden nationalistischen und separatistischen Bewegungen in aller Welt ist es nun nötiger denn je, dass unser Land vereint steht. Vor Kurzem wurde uns von Ali Akbar Dehkhoda berichtet, einem prominenten [PER.GetAdjective]en Linguisten, der derzeit daran arbeitet, das erste farsische Wörterbuch zu verfassen. Wir könnten diese Gelegenheit nutzen, um unsere Bürger zu bilden und gleichzeitig unsere Einigkeit zu stärken."
- pers.89.a: "Gratuliert Ali Akbar für sein kleines Projekt."
- pers.89.b: "Finanziert das Projekt und verteilt das Buch kostenlos im ganzen Land!"
-
- pers.90.t: "Die Ausgrabung von Persepolis"
- pers.90.d: "In letzter Zeit haben Historiker aus aller Welt damit begonnen, sich zunehmend für die Geschichte unserer Nation zu interessieren. Vor Kurzem hat Ernst Emil Herzfield, ein deutscher Archäologe und Historiker, eine Ausgrabung der Ruinen von Persepolis durchgeführt. Nun hat er um die Erlaubnis gebeten, eine zweite Ausgrabung beginnen zu dürfen. Es ist nun an uns zu entscheiden, wie diese Anfrage beantwortet werden sollte."
- pers.90.a: "Erlaubt die Ausgrabung, jedoch mit Einschränkungen zum Schutze vor Diebstahl."
- pers.90.b: "Erlaubt die Ausgrabung ohne Einschränkungen."
- pers.90.c: "Verbietet die Ausgrabung."
-
- pers.91.t: "Muharram"
- pers.91.d: "Heute ist der Beginn des Muharrams, des ersten Monats des islamischen Kalenders, welcer gleichzeitig einen Monat der Trauer für die Schiiten unserer Nation darstellt. In diesem Monat wurde Imam Husein, der dritte schiitische Imam, zum Märtyrer, und an die Ereignisse, welche dazu führten, erinnern sich unsere Bürger noch immer."
- pers.91.a: "Wir trauern dem Imam nach."
-
- pers.92.t: "Muharram"
- pers.92.d: "Heute ist der Beginn des Muharrams, des ersten Monats des islamischen Kalenders, welcer gleichzeitig einen Monat der Trauer für die Schiiten unserer Nation darstellt. In diesem Monat wurde Imam Husein, der dritte schiitische Imam, zum Märtyrer, und an die Ereignisse, welche dazu führten, erinnern sich unsere Bürger noch immer."
- pers.92.a: "Wir trauern dem Imam nach."
-
- pers.97.t: "Ramadan"
- pers.97.d: "Heute beginnt der neunte islamische Monat und damit auch Ramadan, ein Monat des Fastens und der Gebete für alle Muslime der Welt, welcher seine Wurzeln in den Ursprüngen des Islams hat. Durch die beginnenden Vorbereitungen auf diesen Monat wird nun auch die Harmonie ersichtlich, die Ramadan unserer Nation bringt."
- pers.97.a: "Fröhlichen Ramadan!"
-
- pers.98.t: "Ramadan"
- pers.98.d: "Heute beginnt der neunte islamische Monat und damit auch Ramadan, ein Monat des Fastens und der Gebete für alle Muslime der Welt, welcher seine Wurzeln in den Ursprüngen des Islams hat. Durch die beginnenden Vorbereitungen auf diesen Monat wird nun auch die Harmonie ersichtlich, die Ramadan unserer Nation bringt."
- pers.98.a: "Fröhlichen Ramadan!"
-
- pers.99.t: "Yalda-Nacht"
- pers.99.d: "Heute, zum 30. Asar, dem letzten Tag des neunten Monats des [PER.GetAdjective]en Kalenders, wird Yalda gefeiert. Die längste und dunkelste Nacht des Jahres, die Wintersonnenwende auf der nördlichen Halbkugel, ist eine Nacht, an der sich die Bürger unserer Nation mit ihren Familien treffen, um zu essen, zu trinken und zu lesen. Das Fest ist dabei so alt wie der zoroastrische Glaube selbst und für die Menschen genauso wichtig wie das Nouruz-Fest."
- pers.99.a: "Fröhliche Yalda-Nacht!"
-
- pers.100.t: "Yalda-Nacht"
- pers.100.d: "Heute, zum 30. Asar, dem letzten Tag des neunten Monats des [PER.GetAdjective]en Kalenders, wird Yalda gefeiert. Die längste und dunkelste Nacht des Jahres, die Wintersonnenwende auf der nördlichen Halbkugel, ist eine Nacht, an der sich die Bürger unserer Nation mit ihren Familien treffen, um zu essen, zu trinken und zu lesen. Das Fest ist dabei so alt wie der zoroastrische Glaube selbst und für die Menschen genauso wichtig wie das Nouruz-Fest."
- pers.100.a: "Fröhliche Yalda-Nacht!"
-
- pers.101.t: "Bär von Soldaten gefunden"
- pers.101.d: "Vor Kurzem wurde von einem unserer Offiziere ein Bärenjunges in der Nähe der Befestigungen von [266.GetCapitalVictoryPointName] gefunden. Obwohl ursprünglich geplant war, den Soldaten den Bären aufgrund von militärischen Richtlinien zu entziehen, wurden wir dazu bewegt, diese Entscheidung zu überdenken, da die Garnisonssoldaten darum gebeten haben, ihn behalten zu dürfen. Wir haben uns dazu entschieden, dem Bären fürs Erste zu erlauben, in der Festung zu bleiben, da dies die Moral unserer Männer sichtlich verbessert. Die Soldaten haben ihn mitterweile Rostam getauft."
- pers.101.a: "Ein sonderbarer Zwischenfall."
-
- pers.102.t: "Rostam der Bär"
- pers.102.d: "Rostam der Bär ist in unserer Armee anscheinend recht gut aufgewachsen. Da sein Besitzer in die 2. Artillerie-Unterstützungskompanie versetzt wurde, ist Rostam der Kompanie ebenfalls beigetreten und hat seitdem zahlreiche Freundschaften mit den Soldaten des Bataillons geschlossen. Mittlerweile hat die Kompanie den Bären zu ihrem Maskottchen gemacht und es ihm sogar beigebracht, dabei zu helfen, Munition und Kanonen zu transportieren."
- pers.102.a: "Eine wahrlich sonderbare Gesichte."
-
- pers.103.t: "Probleme mit Rostam"
- pers.103.d: "Traurigerweise sieht sich Rostams Besitzer aufgrund finanzieller Probleme dazu gezwungen, den Bären an den Höchstbietenden zu verkaufen. Dies wird die Moral der 2. Artillerie-Unterstützungskompanie sicherlich senken. Mehrere unserer Genräle haben bereits damit begonnen, über die Situation zu diskutieren, und es ist nun an uns zu entscheiden, wie wir mit diesem Problem umgehen sollten."
- pers.103.a: "Wir haben wichtigere Probleme als einen dummen Bären!"
- pers.103.b: "Wir müssen Rostam kaufen!"
-
- pers.104.t: "Rostam wurde verkauft"
- pers.104.d: "Rostam der Bär wurde an einen polnischen Händler verkauft, welcher gerade durch unsere Nation zog. Wie es scheint hat der Militärbär die polnische Handelskarawane regelrecht entzückt und als die Händler herausfanden, dass er zu Verkauf stand, haben sie nicht lange gezögert, sondern sofort zugeschlagen. Mittlerweile haben sie ihm auch einen neuen Namen gegeben: Wojtek."
- pers.104.a: "Wie es scheint treibt Wojteks Schicksal ihn nach Polen."
-
- pers.105.t: "[From.GetNameDefCap] will der [ROOT.GetFactionName] beitreten"
- pers.105.d: "Während die revolutionären Feuer Asien verschlingen, wächst das Verlangen nach Solidarität zwischen den befreiten Völkern stetig weiter an. Unsere Kameraden in [From.GetNameDef], die sich der Gefahren der Neutralität bewusst sind, haben daher darum gebeten, der [ROOT.GetFactionName] beitreten zu dürfen. Würden wir diesen Vorschlag annehmen, könnten wir unseren Einfluss im Nahen Osten ausbauen, uns jedoch auch in auswärtige Angelegenheiten verstricken, denen wir lieber fernbleiben wollten."
- pers.105.a: "Wir heißen unsere [From.GetAdjectiveCap]en Kameraden willkommen."
- pers.105.b: "Wir brauchen sie nicht."
-
- pers.106.t: "[From.GetNameDefCap] akzeptiert!"
- pers.106.d: "Wie erwartet hat [FROM.GetNameDef] unser Angebot der [From.GetFactionName] beizutreten, angenommen und ist somit den ersten Schritt zu einer Vertiefung der Beziehungen zwischen unseren Nationen gegangen. Was auch immer die Zukunft für uns bereit erhält, wir werden uns diesem Sturm vereint entgegenstellen."
- pers.106.a: "Wir stehen vereint."
-
- pers.107.t: "[From.GetNameDefCap] lehnt ab"
- pers.107.d: "In einer unerwarteten und äußerst enttäuschenden Wendung hat [FROM.GetNameDef] unser Angebot der [From.GetFactionName] beizutreten abgelehnt, wodurch wir uns nun in einer isolierten Position wiederfinden."
- pers.107.a: "Dann stehen wir eben allein."
-
- pers.110.t: "Republikanische Revolution im Iran"
- pers.110.d: "Vor einigen Tagen haben die Neuigkeiten, dass der Schah verstorben ist, Teheran erreicht - und die Menschen sind auf die Straße gegangen, um die Einrichtung einer Republik zu fordern. Letzte Nacht ist es diesen Demonstranten anscheinend gelungen, die Kontrolle über Teheran zu übernehmen und die Kadscharen aus dem Land zu vertreiben. Persien, oder auch der Iran, wie die Nation mittlerweile heißt, ist nun schon seit langer Zeit ein Ort der Instabilität gewesen, vor allem aber nach dem Ende der russisch-britischen Besatzung der Nation.\n\nDa auch der Nahe Osten immer instabiler wird, fragen sich nun viele, wie die neue republikanische Regierung wohl auf die Herausforderungen und Bedrohungen der Zukunft reagieren wird."
- pers.110.a: "Noch mehr Instabilität..."
-
- pers.111.t: "Sozialistische Revolution im Iran!"
- pers.111.d: "Vor einigen Tagen haben die Neuigkeiten, dass der Schah verstorben ist, Teheran erreicht - und die Menschen sind auf die Straße gegangen, um die Abschaffung der Monarchie zu fordern. Letzte Nacht ist es diesen Demonstranten anscheinend gelungen, die Kontrolle über Teheran zu übernehmen und die Kadscharen aus dem Land zu vertreiben, woraufhin sie die Gründung des ersten sozialistischen Staates des Nahen Ostens ausgerufen haben. Persien, oder auch der Iran, wie die Nation mittlerweile heißt, ist nun schon seit langer Zeit ein Ort der Instabilität gewesen, vor allem aber nach dem Ende der russisch-britischen Besatzung der Nation.\n\nDa auch der Nahe Osten immer instabiler wird, fragen sich nun viele, wie die neue sozialistische Regierung wohl auf die Herausforderungen und Bedrohungen der Zukunft reagieren wird."
- pers.111.a: "Sozialismus im Nahen Osten?"
- pers.111.b: "Arbeiter des Irans, brecht eure Ketten!"
+ persia_events.2.t: "Der Schah ist tot!"
+ persia_events.2.d: "Heute Morgen wurde das Volk darüber informiert, dass Ahmad Schah Qajar verstorben ist. Seitdem er vor einigen Jahren von einem sozialistischen Attentäter angeschossen wurde, befand er sich in einem gesundheitlich schlechtem Zustand. Diese alte Verletzung und der Stress, der mit seiner Regierungsposition einhergeht, haben letztlich zu seinem Tode geführt. Hassan Mirza, Ahmads Bruder und Erbe des Sonnenthrons, hat daraufhin die Macht übernommen, doch schon jetzt hat ein Machtkampf zwischen den verschiedenen Fraktionen unserer Nation begonnen. Mirza selbst hat große Ambitionen für die Dynastie der Kadscharen, was die Politiker der Madschlis verunsichert. Die Sozialisten, eine politische Gruppierung, die vor einigen Jahren verboten wurde, könnten ebenfalls versuchen, nach der Macht zu greifen.\n\nDerzeit ist jedoch die einzige Frage, ob Hassan Mirza aus Sicherheitsgründen das Land verlassen oder doch in der Hauptstadt verweilen sollte."
+ persia_events.2.a: "Mirza wird in [PER.GetName] bleiben!"
+ persia_events.2.b: "Mirza flieht!"
+
+ persia_events.3.t: "Loyalisten stürmen die Madschlis!"
+ persia_events.3.d: "Einige Menschen, die den Kadscharen treu ergeben sind, haben unter der Führung von Hassan Mirza die Madschlis gestürmt und versucht, potenzielle Bedrohungen zu eliminieren. Innerhalb kürzester Zeit wurden mehrere Politiker festgenommen, um einen sicheren und reibungslosen Regierungswechsel garantieren zu können. Die Madschlis werden bis auf Weiteres geschlossen bleiben."
+ persia_events.3.a: "Mehr Macht dem Schah!"
+
+ persia_events.4.t: "Formierung einer absolutistischen Monarchie"
+ persia_events.4.d: "Die Monarchie hat erneut die Macht in [PER.GetNameDef] übernommen. Nie wieder werden sich unsere Bürger um Werte wie Demokratie und Freiheit Gedanken machen müssen, denn diese werden nicht länger benötigt."
+ persia_events.4.a: "Lang lebe der Schah!"
+
+ persia_events.5.t: "Wie geht es weiter?"
+ persia_events.5.d: "Mirza hat sich dazu entschieden, in unserem Land zu verweilen. Noch immer gibt es viele Menschen, die ihm treu ergeben sind und dazu bereit wären, für ihn zu kämpfen. Wir könnten diese Loyalisten dazu ermutigen, die Madschlis zu stürmen, um die Ordnung aufrechtzuerhalten und potenzielle Bedrohungen zu eliminieren. Wir könnten sie jedoch auch dazu bewegen, strategisch bedeutende Positionen in [266.GetCapitalVictoryPointName] zu übernehmen und zu versuchen, die Kontrolle über die Stadt zu erlangen. Hassan Mirza könnte seine Loyalisten jedoch auch nicht herumkommandieren und versuchen, den Frieden zu wahren."
+ persia_events.5.a: "Sendet die Loyalisten in die Madschlis."
+ persia_events.5.b: "Die Loyalisten sollen strategische Positionen in [266.GetCapitalVictoryPointName] übernehmen."
+ persia_events.5.c: "Wir sollten keinen Ärger heraufbeschwören."
+
+ persia_events.6.t: "Wie geht es weiter?"
+ persia_events.6.d: "Obwohl Hassan Mirza sich dazu entschieden hat, das Land zu verlassen, gibt es noch immer viele Menschen, die ihm treu ergeben sind und dazu bereit wären, für ihn zu kämpfen. Wir könnten diese Loyalisten dazu ermutigen, die Madschlis zu stürmen, um die Ordnung aufrechtzuerhalten und potenzielle Bedrohungen zu eliminieren. Wir könnten sie jedoch auch dazu bewegen, strategisch bedeutende Positionen in [266.GetCapitalVictoryPointName] zu übernehmen und zu versuchen, die Kontrolle über die Stadt zu erlangen. Wir könnten diese Loyalisten allerdings auch nicht herumkommandieren und versuchen, den Frieden zu wahren."
+ persia_events.6.a: "Sendet die Loyalisten in die Madschlis."
+ persia_events.6.b: "Die Loyalisten sollen strategische Positionen in [266.GetCapitalVictoryPointName] übernehmen."
+ persia_events.6.c: "Wir sollten keinen Ärger heraufbeschwören."
+
+ persia_events.7.t: "Loyalisten übernehmen Schlüsselpositionen in der Stadt"
+ persia_events.7.d: "Einige Bürger, die dem Schah noch immer treu ergeben sind, haben erfolgreich wichtige strategische Positionen in [266.GetCapitalVictoryPointName] eingenommen und die Polizei und die Armee haben verhindert, dass es zu einer großen Rebellion kommt. Es gibt allerdings noch immer Politiker, die sich weigern, die Herrschaft des Schahs zu akzeptieren. Diese Politiker sind den Madschlis loyal, nicht aber dem Schah. Sollten wir es diesen Politikern erlauben, ihre Freiheit zu bewahren, und ihnen damit die Chance geben, sich gegen unseren Schah zu vereinen? Oder sollten wir sie vorerst festnehmen, um einen Aufstand zu verhindern?"
+ persia_events.7.a: "Nehmt sie vorerst fest, um unsere Macht zu sichern."
+ persia_events.7.b: "Sollen sie doch tun, was sie wollen."
+
+ persia_events.8.t: "Die konstitutionelle Monarchie überdauert!"
+ persia_events.8.d: "Nun, da die Macht des Schahs gesichert wurde und die Madschlis ihm treu ergeben sind, wurde eine neue und stabile Regierung unter dem neuen Schah [PER.GetNameDef]s, Hassan Mirza, etabliert."
+ persia_events.8.a: "Lang lebe der Schah!"
+
+ persia_events.10.t: "Demokraten und Sozialisten schließen sich zusammen"
+ persia_events.10.d: "Mitglieder mehrerer politischer Parteien, vor allem der demokratischen Partei und der verbotenen Edalat-Partei, haben sich gegen die Loyalisten vereint. Die Loyalisten des Schahs wiederum haben dabei versagt, die Kontrolle über [266.GetCapitalVictoryPointName] zu erlangen, und eine Revolution steht nun kurz bevor."
+ persia_events.10.a: "Verdammt..."
+
+ persia_events.11.t: "Politiker zeigen sich bereit, Mirza zu bekämpfen"
+ persia_events.11.d: "Es sollte niemanden überraschen, dass Hassan Mirza versucht, den Kadscharen mehr Macht zu sichern. Der Tod Ahmads war dabei die Gelegenheit, auf die Mirza schon immer gewartet hat. Einige Politiker wussten jedoch schon, dass es hierzu kommen würde, und haben sich auf diesen Tag vorbereitet. Sie haben ihre Anhänger versammelt und sind bereit, gegen Mirza anzukämpfen -  was zum Bürgerkrieg führen könnte. Es gibt allerdings auch die Möglichkeit, Hassan Mirza zu ermorden, was zu einer friedlicheren Machtübergabe führen würde."
+ persia_events.11.a: "Lasset den Kampf um [PER.GetNameDef] beginnen!"
+ persia_events.11.b: "Meuchelt Mirza."
+
+ persia_events.12.t: "Hassan Mirza bleibt friedlich"
+ persia_events.12.d: "Hassan Mirza hat viele Menschen überrascht, indem er die Gelegenheit, welche sich ihm bot, nicht ausnutzte, sondern friedfertig blieb. Viele haben erwartet, dass Mirza aufgrund des Todes seines Bruders versuchen würde, eine absolute Monarchie unter der Herrschaft der Kadscharen zu errichten. Mirza jedoch hat seinen Truppen befohlen, nichts zu tun, mit der Begründung, dass er auf eine friedliche Machtübergabe aus ist. Es scheint als würde sich die Lage langsam wieder normalisieren - und die Menschen beginnen, sich auf die Krönung des neuen Schahs, Hassan Mirza, vorzubereiten."
+ persia_events.12.a: "Was für ein weiser Mann Mirza doch ist."
+
+ persia_events.14.t: "Mirza gibt keine Befehle und flieht"
+ persia_events.14.d: "Hassan Mirza hat sich, anstatt seinen Männern neue Befehle zu geben, dazu entschieden zu fliehen und unterzutauchen. Dies bedeutet, dass die Loyalisten nun ohne zentralen Befehlshaber und ohne klar vorgegebene Handlungsanweisungen dastehen. Dadurch bietet sich den Rebellen die Chance, ihre Kräfte für einen neuen Schlag zu sammeln."
+ persia_events.14.a: "Könnten die Kadscharen ihre Macht verlieren?"
+
+ persia_events.15.t: "Politiker zeigen sich bereit, Mirza zu bekämpfen"
+ persia_events.15.d: "Es sollte niemanden überraschen, dass Hassan Mirza versucht, den Kadscharen mehr Macht zu sichern. Der Tod Ahmads war dabei die Gelegenheit, auf die Mirza schon immer gewartet hat. Einige Politiker wussten jedoch schon, dass es hierzu kommen würde, und haben sich auf diesen Tag vorbereitet. Sie haben ihre Anhänger versammelt und sind bereit, gegen Mirza anzukämpfen -  was zum Bürgerkrieg führen könnte."
+ persia_events.15.a: "Lasset den Kampf um [PER.GetNameDef] beginnen!"
+
+ persia_events.16.t: "Hassan Mirza wurde ermordet!"
+ persia_events.16.d: "Einer Gruppe sozialistischer Rebellen ist es gelungen, Hassan Mirza mittels einer Bombe, welche während eines Gespräches zwischen ihm und seinen Offizieren explodierte, zu ermorden. Dadurch haben sie sowohl der Dynastie der Kadscharen als auch ihren Loyalisten einen heftigen Schlag versetzt. Hassan Mirza hatte jedoch einen Sohn, Soltan Hamid Mirza, welcher nun die Führung übernehmen und versuchen wird, die Stabilität aufrechtzuerhalten. Derzeit gibt es zwei Optionen: Einige Politiker haben uns versichert, dass sie dazu bereit wären, mit uns über eine friedliche Machtübergabe zu verhandeln. Andererseits könnten wir diese Annäherungen auch ignorieren, würden damit wahrscheinlich jedoch einen Bürgerkrieg heraufbeschwören."
+ persia_events.16.a: "Wir werden für unser Land kämpfen!"
+ persia_events.16.b: "Wir werden für Frieden in [PER.GetNameDef] verhandeln!"
+
+ persia_events.17.t: "Revolution!"
+ persia_events.17.d: "Die Bürger unserer Nation haben entschieden, dass die Zeit der königlichen Dynastie vorüber ist! Die Mehrheit der Kadscharen und ihrer Loyalisten ist entweder untergetaucht oder wurde ins Exil getrieben und aus dem Land verbannt. Nun wurde eine Notfallsitzung der Madschlis einberufen, um über die zukünftige Regierung [PER.GetNameDef]s zu entscheiden. Wir könnten eine demokratische Republik unter der Führung der Demokraten, welche zuvor zusammen mit dem Schah regierten, errichten, wobei in dieser Republik alle 4 Jahre Wahlen stattfinden würden. Die zweite Option wäre die sozialistische Edalat-Partei. Diese wurde nach dem fehlgeschlagenen Attentat auf Ahmad Shah verboten, genießt allerdings noch immer eine große Beliebtheit in der Bevölkerung."
+ persia_events.17.a: "Die Demokraten werden eine Republik formen."
+ persia_events.17.b: "Die Edalat formen eine sozialistische Republik."
+
+ persia_events.18.t: "Die Demokraten formen eine neue Regierung"
+ persia_events.18.d: "Es wurde entschieden. Die Demokraten haben eine demokratische Regierung und ein demokratisches Parlament geformt. Sayyed Hasan Taqizadeh wurde zum ersten Präsidenten der neuen Iranischen Republik gewählt."
+ persia_events.18.a: "Demokratie wird überdauern!"
+
+ persia_events.19.t: "Die Sozialisten formen eine neue Regierung"
+ persia_events.19.d: "Es wurde entschieden. Die Edalat-Partei hat eine sozialistische Regierung unter dem neuen Präsidenten Iraj Eskandari etabliert. Die Bauern unseres Staates jubelten, als Eskandari seine erste Rede hielt, in der er seine Pläne, welche eine Ausweitung des Einflusses der Arbeiter und der Gewerkschaften und eine Umverteilung des Wohlstandes beinhalten, darlegte."
+ persia_events.19.a: "Ein Sieg der Arbeiter!"
+
+ persia_events.20.t: "Bürgerkrieg in den Städten!"
+ persia_events.20.d: "Jeder wusste, dass es in unserer gespaltenen Nation zu einem Bürgerkrieg kommen könnte - und nun sind in unseren größten Städten Kämpfe zwischen den Sozialisten, Republikanern und kadscharischen Loyalisten ausgebrochen. Allerdings scheint die Uneinigkeit unserer Nation in gewisser Weise auch ein Vorteil zu sein, da sich die Menschen außerhalb der Städte nicht wirklich für die Regierung interessieren und deshalb auch nicht für sie kämpfen. Dies bedeutet, dass sich die Gefechte gänzlich auf die Städte beschränken. Von nun an wird es ein blutiger Kampf werden, und wer als Sieger hervorgeht wird dazu in der Lage sein, ganz [PER.GetNameDef] unter seiner Regierung zu vereinen, während die Verlierer wohl ihres letzten Einflusses beraubt werden."
+ persia_events.20.a: "Möge die beste Seite gewinnen!"
+
+ persia_events.21.t: "Die Schlacht um Isfahan"
+ persia_events.21.d: "Isfahan, einst die Hauptstadt des Safawiden-Reiches, zählt zu den schönsten Städten des Landes und beherbergt viele historische Sehenswürdigkeiten. Sie ist so populär, dass sie von einigen Menschen sogar als \"Isfahan, die Hälfte der Welt\" bezeichnet wird. Seit Schah Ahmads Tod ist es Loyalisten, die Mirzan treu ergeben sind, gelungen, strategisch wichtige Positionen, wie den Tschehel Sotun-Palast und Naqsch-e-Dschahan-Platz, einzunehmen, um so Widerstand von anti-monarchischen Gruppierungen zu stoppen. Währenddessen ist es einer kleinen Gruppe von Rebellen, die sich darauf vorbereitete, die Stadt anzugreifen, gelungen, die Brücken über den Fluss Zayandeh Rud einzunehmen und zu zerstören. Verschont blieben nur die bekannten Safawiden-Brücken Si o Se Pol und Khaju, doch die Royalisten wurden dennoch gänzlich vom südlichen Teil der Stadt abgeschnitten."
+ persia_events.21.a: "Die Loyalisten müssen trotz aller Gefahren vorrücken!"
+ persia_events.21.b: "Die Loyalisten rudern auf die andere Seite, um die Rebellen einzukesseln."
+
+ persia_events.22.t: "Die Schlacht um Täbris"
+ persia_events.22.d: "Täbris, eine historisch bedeutende Stadt unseres Landes, die zur Zeit der Sassaniden gegründet wurde, zur Zeit des Ilkhanats und der Safawiden als Hauptstadt diente und im Laufe unserer Geschichte stets ein wichtiges Wirtschaftszentrum darstellte, ist in den letzten Tagen verdächtig still geworden. Kurz nach dem Tode von Ahmad Schah haben die Revolutionäre der Stadt, ähnlich wie in der Konstitutionellen Revolution von 1908, damit begonnen, die Kontrolle über Täbris zu übernehmen. Sie zogen von einer bedeutenden Position zur nächsten, und nahmen dabei unter anderem das Verfassungshaus von Täbris, den Großen Basar und die Kabud-Moschee ein, wodurch nun nahezu die gesamte Stadt unter ihrer Kontrolle steht. Diejenigen, die Hassan Mirza noch immer loyal sind, waren von der Geschwindigkeit der Revolutionären zwar beeindruckt, konnten allerdings dennoch das Arg-e Alishah-Mausoleum einnehmen. Dieses stellte sich als perfekter Standpunkt heraus, von dem aus man sich gegen die Revolutionären wehren konnte, wie es auch schon die Russen taten, als sie Täbris 1911 übernahmen."
+ persia_events.22.a: "Die Revolutionären stürmen die Arg-e Alishah, um die Royalisten zu besiegen."
+ persia_events.22.b: "Die Rebellen verschieben den Angriff und beginnen stattdessen Friedensverhandlungen."
+
+ persia_events.24.t: "Die Schlacht um Mashhad"
+ persia_events.24.d: "Die für die Schiiten [PER.GetNameDef]s heiligste Stadt des Landes, in der die Ruhestädte des Imams ar-Rida liegt, befindet sich seit dem Tode des Schahs im Kriegszustand. Den Revolutionären ist es kaum gelungen, gegen die hohe Anzahl royalistischer Anhänger innerhalb der Stadt anzukommen, weshalb sie nun damit begonnen haben, auf Guerrilla-Kriegsführung zurückzugreifen. Dabei planen sie, Regierungsgebäude zu beschädigen, Patrouillen der Royalisten anzugreifen und Nachschublinien zu überfallen. Diese Vorhaben werden wahrscheinlich jedoch nicht von Erfolg gekrönt sein."
+ persia_events.24.a: "Die Rebellen werden bald von den Bürgern der Stadt zerschlagen werden."
+
+ persia_events.26.t: "Die Schlacht um Shiraz"
+ persia_events.26.d: "Shiraz ist wohl eine der ältesten [PER.GetAdjective] Städte und besteht schon seit der Zeit des Achämenidenreiches. Im Laufe unserer Geschichte diente Shiraz unserer Nation als kulturelle Hauptstadt und auch heute noch spielt die Stadt eine wichtige Rolle in den internen Angelegenheiten und der Identitätsbildung unseres Landes. Nach dem Tode des Schahs haben die Revolutionären damit begonnen, wichtige Orte in der Stadt zu übernehmen, wobei einige bedeutende kulturelle und historische Sehenswürdigkeiten, wie der Ruheort der berühmten Poeten Hafez Shirazi und Sa'di's neben der Schah Cheragh-Moschee, das Tor von Shiraz und auch die Zitadelle Arg Karim Khan Zand jedoch leichte Schäden davongetragen haben. Während es den Revolutionären so gelungen ist, einen Großteil der Stadt zu übernehmen, bewegen sich nun jedoch Qaschqai-Stammesmitglieder, die dem Schah treu ergeben sind, auf Shiraz zu und könnten die Stadt eventuell erneut unter die Kontrolle der Loyalisten bringen. Was die Qaschqai allerdings nicht wissen: der revolutionäre Bakhtiari-Stamm, der die Konstitutionellen schon immer unterstützte und auch an der Konstitutionellen Revolution von 1907 beteiligt war, hat ebenfalls einige Männer entsandt, um die Revolutionären zu unterstützen. Sollten diese Männer rechtzeitig in der Stadt ankommen, könnten sie das Gleichgewicht der Kräfte zugunsten der Revolutionären in die Kippe bringen..."
+ persia_events.26.a: "Die Bakhtiari eilen nach Shiraz, um die dortigen Rebellen zu unterstützen."
+ persia_events.26.b: "Die Qaschqai starten eine Offensive, die die Stadt unter ihre Kontrolle bringen könnte."
+
+ persia_events.27.t: "Die Schlacht um Bandar e'Abbas"
+ persia_events.27.d: "Bandar e'Abbas gehört zu den wichtigsten [PER.GetAdjective] Handelsstädten. Aufgrund ihres Hafens und ihrer strategischen Position am Persischen Golf war die Stadt auch früher schon ein Handelszentrum für Händler aus aller Welt und der Ort, von dem aus die meisten [PER.GetAdjective] Exporte in die weite Welt geliefert wurden. Innerhalb der Hafenstadt Bandar e'Abbas wurden in den letzten Tagen schwere Kämpfe zwischen den Unterstützern Hassan Mirzas und den Revolutionären ausgetragen. Obwohl die Stadt anfangs aufgrund ihrer Bedeutung gut von den kadscharischen Loyalisten bewacht wurde, haben Mitglieder der Edalat-Partei insgeheim ausländische Sozialisten in die Stadt geholt, um so die kadscharischen Soldaten zur rechten Zeit bekämpfen zu können. Als sich die Neuigkeiten, dass Ahmad Schah verstorben ist, verbreitet hatten, begannen die Loyalisten damit, die wichtigsten Orte der Stadt zu befestigen. Vor allem der Hafen war dabei von Bedeutung und wurde zunächst zum Sperrgebiet erklärt. Währenddessen haben die Revolutionären, zusammen mit ihren Freunden aus dem Ausland, die schwächeren Stützpunkte der Kadscharen, an denen sie keine Offensiven erwartet hatten, angegriffen. Innerhalb weniger Stunden wurden die kleineren kadscharischen Stützpunkte gänzlich ausgemerzt - und als diese Neuigkeiten die verbliebenen Loyalisten erreichten, war es bereits zu spät. Sie waren lediglich dazu in der Lage, ihre letzten verbliebenen Stützpunkte zu befestigen, und dürfen aufgrund von Problemen mit der Infrastruktur in nächster Zeit nicht mit neuen Verstärkungen rechnen."
+ persia_events.27.a: "Die Revolutionären greifen den letzten Außenposten an und übernehmen die Stadt."
+
+ persia_events.28.t: "Das Ende der Kämpfe"
+ persia_events.28.d: "Wie es scheint, kommen die letzten Kämpfe langsam zum Ende. Hunderte Menschen sind ums Leben gekommen, darunter sowohl Soldaten als auch unschuldige Zivilisten. Familien sind aufgrund divergierender politischer Einstellungen zerbrochen, aber immerhin wurde die Ordnung mehr oder weniger wiederhergestellt."
+ persia_events.28.a: "Und der Sieger ist..."
+
+ persia_events.29.t: "Die Loyalisten sind siegreich!"
+ persia_events.29.d: "Die Lage hat sich langsam normalisiert und die Kadscharen scheinen siegreich aus den Gefechten hervorgegangen zu sein. Nun werden auch die letzten Rebellen, die sich weigern, die neue Regierung zu akzeptieren, hinter Schloss und Riegel gebracht."
+ persia_events.29.a: "Alles ist so, wie es sein sollte."
+
+ persia_events.30.t: "Die Rebellen sind siegreich!"
+ persia_events.30.d: "Die Lage hat sich langsam normalisiert und die anti-kadscharischen Rebellen, eine Koalition aus Sozialisten und Demokraten, scheinen siegreich aus den Gefechten in den Städten hervorgegangen zu sein."
+ persia_events.30.a: "Alles ist so, wie es sein sollte."
+
+ persia_events.31.t: "Der Schwarze Montag trifft [PER.GetNameDef]"
+ persia_events.31.d: "Seit dem deutschen Sieg im Weltkrieg ist die deutsche Wirtschaft gewachsen und auch unsere Nation genoss enge wirtschaftliche Beziehungen zu den Deutschen. Aufgrund der Größe ihrer Wirtschaft und unserer Ölreserven ist unsere Wirtschaft im Laufe der Zeit zunehmend abhängiger von Deutschland geworden. Seit dem Ende des Weltkriegs hatte sich unsere Wirtschaft rapide erholt und auch die Nachwirkungen der großen persischen Hungersnot begannen langsam zu verschwinden.\n\nNun wurde Deutschland allerdings von einer Krise in Form des Schwarzen Montags getroffen. Die gesamte deutsche Wirtschaft ist zusammengebrochen, was auch viele andere Nationen der Welt beeinflusst und ihre Wirtschaften mit in den Abgrund zieht. Mittlerweile machen sich die Auswirkungen des Schwarzen Montags auch in unserem Land bemerkbar. Tausende haben mit einem Mal all ihr Geld und ihren Beruf verloren - und schon bald werden Familien wieder hungern müssen. Unsere Regierung hat nun eine Notfallsitzung einberufen, um darüber zu beraten, wie man nun verfahren sollte."
+ persia_events.31.a: "Es kann nur noch besser werden..."
+
+ persia_events.32.t: "Der Wohlstand der Astan Quds Razavi"
+ persia_events.32.d: "Die Astan Quds Razavi ist eine autonome Wohltätigkeitsorganisation unseres Landes und auch als Boyard bekannt. Diese Organisation verwaltet verschiedenste Besitztümer, repariert und renoviert alte Tempel und andere Gebäude und bietet sogar Waisenkindern eine Schule. Es ist eine sehr populäre und sehr wohlhabende Organisation, die außerdem auch einen gewissen Einfluss auf unsere Regierung ausübt. Worauf wir uns jedoch fokussieren sollten ist die Größe ihrer Reichtümer. Aufgrund der Auswirkungen des Schwarzen Montags auf unsere Bürger hat die Astan Quds Razavi sich bereits dazu bereit erklärt, unserem Staat ein wenig finanziell unter die Arme zu greifen, damit wir das Problem leichter lösen können. Wir könnten ihre Reichtümer allerdings auch gänzlich beanspruchen, wodurch uns mehr Geld zur Verfügung stünde, um gegen die Auswirkungen des Schwarzen Montags vorzugehen. Da die Astan Quds Razavi beim Volk jedoch sehr beliebt ist, würden wir so wohl die Unterstützung einiger Bürger verlieren."
+ persia_events.32.a: "Das Abkommen ist gut genug."
+ persia_events.32.b: "Beansprucht ihre Reichtümer."
+
+ persia_events.33.t: "Der Reichtum des Scheichs Khaz'al"
+ persia_events.33.d: "Khaz'al ibn Jabir ibn Merdaw al-Ka'bi gehört zu den reichsten Männern der Nation, wenn nicht gar zu den reichsten Männern des gesamten Nahen Ostens. Er war ein Aktionär, besaß Aktien des Englisch-[PER.GetAdjective]en Ölunternehmens und erhielt zusammen mit seinen Untertanen in Chuzestan jährlichen Tribut vom Britischen Imperium ausgezahlt. Dadurch wurde er unermesslich reich an Einfluss und Geld, wodurch Chuzestan zu seinem eigenen kleinen persönlichen Königreich wurde. Aufgrund der derzeit laufenden wirtschaftlichen Reformen benötigen wir erneut finanzielle Mittel - und die Reichtümer von Scheich Khaz'al könnten die Antwort sein. Wenn wir ihn dazu überreden könnten, einen Teil seines Wohlstandes mit uns zu teilen, könnten wir einen ungewollten Konflikt vermeiden. Andererseits könnten wir jedoch auch all seine Besitztümer beschlagnahmen, wodurch er in der Zukunft keine Bedrohung mehr für uns darstellen würde und uns mehr Ressourcen zur Verfügung stünden. Die Konsequenzen einer solchen Aktion sind jedoch nur schwer abschätzbar."
+ persia_events.33.a: "Wir sollten ihn dazu überreden, uns einige Reichtümer zu überlassen."
+ persia_events.33.b: "Es ist an der Zeit, Khaz'al loszuwerden. Er konnte seine Macht schon zu lange unkontrolliert ausüben."
+
+ persia_events.34.t: "Die Opposition loswerden?"
+ persia_events.34.d: "Seitdem die Sozialisten in einer Revolution die Regierung übernommen haben, steht eine zentrale Frage im Raum: Sollten sie mit den Politikern der ehemaligen Regierung zusammenarbeiten oder sollten sie diese Politiker loswerden, um eine vollständige Revolution zu erreichen. Obwohl die Kadscharen einen starken Einfluss auf die vorige Regierung ausübten, so war sie doch sozialdemokratisch, weshalb eine Zusammenarbeit mit ihren Politikern wohl möglich wäre. Es besteht allerdings auch die Chance, dass diese Reaktionären, falls sie ein Teil der Regierung bleiben sollten, die Revolution korrumpieren und letztlich ihren Untergang heraufbeschwören würden. Kurzzeitig könnte eine Säuberung der Regierung zwar unerwünschte Auswirkungen haben, langfristig könnte sie jedoch auch die Rettung der Revolution sein."
+ persia_events.34.a: "Es ist an der Zeit, eine Entscheidung zu fällen."
+
+ persia_events.35.t: "Geistliche rufen den Dschihad aus!"
+ persia_events.35.d: "Da unserer Nation die totale Vernichtung droht, haben Geistliche aus allen Teilen des Landes, vor allem jedoch in Ghom und Maschhad, einen Dschihad ausgerufen. Dies wird unsere Männer dazu bringen, erpichter zu kämpfen, und wird uns sicherlich zum Sieg gegen die ausländischen Invasoren führen!"
+ persia_events.35.a: "[PER.GetNameDefCap] kämpft weiter!"
+
+ persia_events.36.t: "Das Ende des Dschihads"
+ persia_events.36.d: "Nun, da sich unsere Nation erneut im Frieden befindet, haben die Geistlichen den Dschihad für beendet erklärt. Wir haben den Krieg endlich überstanden und einen Sieg davongetragen!"
+ persia_events.36.a: "[PER.GetNameDefCap] lebt in Ruhm und Gloria!"
+
+ persia_events.37.t: "Sozialistische Proteste"
+ persia_events.37.d: "Hunderte haben sich heute auf den Straßen versammelt, um gegen unsere derzeitige Regierung zu protestieren. Diese Demonstranten gehören dabei der verbotenen Edalat-Partei an, der größten sozialistischen Organisation des Landes. Trotz der Tatsache, dass sie eigentlich illegal ist, hat die Partei jedoch noch immer einige Unterstützer in der Bevölkerung. Ihre Proteste enden dabei stets mit Gefechten gegen die Polizei - und mit jedem Tag, den diese Proteste andauern, verlieren die Menschen einen größeren Teil ihres Glaubens an die Regierung. Wenn wir wollen, dass diese Proteste endlich enden, müssen wir jedoch zuerst dem politischen Chaos in der Regierung selbst Einhalt gebieten und die Ordnung im Land wiederherstellen."
+ persia_events.37.a: "Eines Tages wird diese Gewalt ein Ende finden."
+
+ persia_events.38.t: "Präsidentschaftswahlen von 1938"
+ persia_events.38.d: "Wie von uns versprochen als wir die Macht übernahmen, finden nun die ersten [PER.GetAdjective]en Präsidentschaftswahlen statt, wobei es viele verschiedene Kandidaten gibt, die unsere Bürger wählen können. Die Situation ist allerdings noch immer etwas instabil und die Menschen haben sich noch nicht gänzlich vom Chaos erholt, welches dem Tode Ahmads folgte. Die erste Option, für die unsere Bürger stimmen könnten, ist eine Koalition zwischen den Demokraten und der Edalat-Partei, die Taqizadeh als ihren Kandidaten für die Position des Präsidenten auserkoren hat. Die Koalition wurde geformt, da die Anführer beider Parteien gute Bekannte und Kollegen sind und in der Revolution zusammen gegen den Schah angekämpft haben. Außerdem haben sie ähnliche Weltanschauungen, können also fürs Erste gut zusammenarbeiten. Allerdings spalten sich ihre Ansichten in einigen Belangen, weshalb das Bündnis zwischen den Parteien wohl ein wackliges bleiben wird. Der wichtigste andere Kandidat ist Mohammad Ali Foroughi Zoka-ol-Molk, der eine Koalition der Tajadod und der Eslah Talaban anführt. Diese Parteien haben sich zusammengeschlossen, um den Einfluss der Koalition zwischen den Demokraten und der Edalat-Partei zu reduzieren, da sie viele Dinge gänzlich anders betrachten als die revolutionären Parteien. Aufgrund der Vereinbarung, dass die Eslah Talaban, welche an Popularität verloren haben, da sie sich vor Kurzem auf die Seite des Schahs stellten, ihre Sozialpolitik durchsetzen können, während die Tajadod-Partei ihre geplanten Wirtschaftsreformen durchführen kann, werden die beiden Parteien wohl gut miteinander zusammenarbeiten können."
+ persia_events.38.a: "Sayyed Hasan Taqizadeh gewinnt die Wahl."
+ persia_events.38.b: "Mohammad Ali Foroughi Zoka-ol-Molk gewinnt die Wahl."
+
+ persia_events.39.t: "Präsidentschaftswahlen von 1942"
+ persia_events.39.d: "Die Zeit der Wahlen ist erneut angebrochen und die Lage hat sich mittlerweile normalisiert. Der erste zur Wahl stehende Kandidat ist Sayyed Hasan Taqizadeh der Demokratischen Partei. Aufgrund der sinkenden politischen Spannungen gibt es bei dieser Wahl keine Koalition zwischen den Demokraten und der Edalat-Partei. Taqizadeh will Reformen im wirtschaftlichen System durchsetzen und so denjenigen helfen, die es am nötigsten haben, also zum Beispiel Menschen, die von der Hungersnot betroffen waren. Der zweite Kandidat ist Ahmad Qavam, ein Mitglied der Eslah Talaban-Partei. Er vertritt eine traditionellere Einstellung und ist der Meinung, dass weniger Reformen meist mehr bewirken. Schon seit der ersten Konstitutionellen Revolution exisitiert eine bittere Rivalität zwischen den beiden Parteien, und nun wünschen sich beide, im neuen demokratischen System unseres Staates an die Spitze zu kommen."
+ persia_events.39.a: "Sayyed Hasan Taqizadeh gewinnt die Wahl."
+ persia_events.39.b: "Ahmad Qavam gewinnt die Wahl."
+
+ persia_events.40.t: "Präsidentschaftswahlen von 1946"
+ persia_events.40.d: "Die Zeit der Wahlen ist erneut angebrochen. Auch diesmal stehen wieder viele verschiedene Kandidaten zur Auswahl. Der erste ist Taqizadeh, welcher eine Koalition zwischen den Demokraten und der Edalat-Partei vertritt. Die Edalat-Partei hat sich dabei zu einer Koalition mit den Demokraten entschieden, da sie seit der ersten Wahl einen Großteil ihrer Beliebtheit verloren hat und nun versucht, ihren Einfluss zurückzugewinnen. Der zweite Kandidat ist Mohammad Mosaddegh, welcher eine Koalition zwischen den Parteien Tajadod und Eetedaliun anführt. Auch wenn diese beiden Parteien nicht in allen Bereichen der Sozialpolitik auf einen gemeinsamen Nenner kommen, können sie zumindest in wirtschaftlichen Belangen effizient zusammenarbeiten. Da beide Parteien eher klein sind, mussten sie sich zusammentun, um eine Chance auf einen Wahlsieg zu haben. Die letzte große zur Wahl stehende Fraktion ist die Eslah Talaban-Partei. Diese hat seit der Revolution stark an Beliebtheit gewonnen, da viele Menschen der Meinung sind, dass es ohne die Revolution nicht zu so vielen Kriegen gekommen wäre, wie es in den letzten Jahren der Fall gewesen ist. Viele Menschen haben in diesen Konflikten ihr Leben gelassen - und nun wenden sich die Hinterbliebenen der Eslah Talaban-Partei zu, in der Hoffnung, dass sie ihre Probleme lösen kann."
+ persia_events.40.a: "Sayyed Hasan Taqizadeh gewinnt die Wahl."
+ persia_events.40.b: "Mohammad Mosaddegh gewinnt die Wahl."
+ persia_events.40.c: "Ahmad Qavam gewinnt die Wahl."
+
+ persia_events.41.t: "Madschliwahlen von 1938"
+ persia_events.41.d: "Seitdem die konstitutionelle Monarchie etabliert wurde, sind die Madschlis ein wichtiger Teil des politischen Geschehens unseres Landes. Dabei dienen sie als [PER.GetAdjective]es Parlament und üben einen starken Einfluss auf das Alltagsleben unserer Bürger aus. Nun ist die Zeit gekommen, die Madschlis neu zu besetzen und neue Minister zu ernennen.\n\nDas erste mögliche Kabinett ist das der Demokratischen Partei. Diese war bereits an der Regierung des letzten Schahs beteiligt, bis dieser verstarb. Da sie ihre Fähigkeiten bereits unter Beweis gestellt haben, sind die Demokraten auch beim Volk sehr beliebt. Sie planen, politisch moderat zu bleiben, um unserer Nation so Stabilität und Einheit zu bringen. Das zweite Kabinett ist eine Koalition aus Mitgliedern der Eslah Talaban-Partei und einiger autoritärer Minister. Sie wollen dem Schah mehr Macht verleihen, da sie der Meinung sind, dass der sinkende Einfluss des Schahs der Grund für das Chaos, welches dem Tode Ahmads folgte, war. Sie wünschen sich zwar keine absolutistische Monarchie zurück, wollen allerdings, dass sich unser Herrscher direkter in die Politik einmischen kann. Auch im Generellen wollen sie die politische Szene unseres Staates strenger überwachen und kontrollieren, weshalb sie General Reza Khan als ihren Kandidaten für die Position des Sicherheitsministers auserkoren haben. Die letzte Koalition besteht aus Mitgliedern vieler Parteien, darunter Minister der Demokraten, der Eetedaliun und der Tajadod. Sie stehen zwar hinter der Idee einer konstitutionellen Monarchie, wollen die Macht des Schahs allerdings noch weiter einschränken. Was wirtschaftliche und soziale Politik angeht sind sie nicht immer einer Meinung, doch auf einige kleinere Reformen für ihr Wahlprogramm konnten sie sich einigen."
+ persia_events.41.a: "Die demokratische Partei."
+ persia_events.41.b: "Die rechte Koalition."
+ persia_events.41.c: "Die liberale Koalition."
+
+ persia_events.42.t: "Madschliwahlen von 1942"
+ persia_events.42.d: "Es ist erneut an der Zeit, die Madschlis neu zu besetzen. Mittlerweile hat sich die Lage wieder normalisiert, weshalb Parteien eher dazu bereit sind, ihre eigenen Agendas zu vertreten. Die erste Koalition besteht aus Mitgliedern der Demokratischen und der Tajadod-Partei. Diese sind sich im Bereich der Sozialpolitik gänzlich einig, könnten soziale Reformen also mit Leichtigkeit erlassen. Wirtschaftlich gehen ihre Meinungen zwar auseinander, aber sie würden die Macht trotzdem lieber miteinander teilen, als sie in den Händen anderer Parteien zu sehen. Das zweite Kabinett ist das der Eslah Talaban-Partei, deren Mitglieder politisch eher moderat sind, an traditionelle Werte und eine Machtbalance zwischen dem Schah und den Madschlis glauben und eng mit dem Schah zusammenarbeiten. Die letzte mögliche Koalition besteht aus Mitgliedern der Tajadod-Partei und einigen autoritären Ministern. Diese wollen dem Schah weitreichendere Befugnisse verleihen und hoffen, dieses Ziel durch die Madschlis verwirklichen zu können. Auch die Tajadod haben ihre Strategie geändert und sind der Meinung, dass ein starker Schah ihnen dabei helfen könnte, ihre Reformen durchzusetzen."
+ persia_events.42.a: "Die demokratische Koalition."
+ persia_events.42.b: "Die Eslah Talaban-Partei."
+ persia_events.42.c: "Die rechte Koalition."
+
+ persia_events.43.t: "Madschliwahlen von 1946"
+ persia_events.43.d: "Es ist erneut an der Zeit, die Madschlis neu zu besetzen. Das erste mögliche Kabinett ist das der Demokratischen Partei, welche nun ohne Koalition den Wahlkampf antritt. Sie vertritt eine liberale Agenda und setzt sich vor allem für Reformen im sozialen Bereich ein. Das zweite Kabinett ist das der Eslah Talaban-Partei, deren Mitglieder politisch eher moderat sind, an traditionelle Werte und eine Machtbalance zwischen dem Schah und den Madschlis glauben und eng mit dem Schah zusammenarbeiten. Die letzte mögliche Koalition besteht aus Mitgliedern der Tajadod-Partei und einigen autoritären Ministern. Diese wollen dem Schah weitreichendere Befugnisse verleihen und hoffen, dieses Ziel durch die Madschlis verwirklichen zu können. Auch die Tajadod haben ihre Strategie geändert und sind der Meinung, dass ein starker Schah ihnen dabei helfen könnte, ihre Reformen durchzusetzen."
+ persia_events.43.a: "Die demokratische Partei."
+ persia_events.43.b: "Die Eslah Talaban-Partei."
+ persia_events.43.c: "Die rechte Koalition."
+
+ persia_events.67.t: "[PER.GetNameDefCap] fordert Bahrain"
+ persia_events.67.d: "[PER.GetNameDefCap] hat uns ein Ultimatum gesandt, in welchem gefordert wurde, dass wir die Insel Bahrain sofort aufgeben und die Kontrolle an sie übertragen. Der [PER.GetAdjective]e Anspruch auf Bahrain ist nun schon Jahrhunderte alt, doch die [PER.GetAdjective]e Regierung spricht noch immer leidenschaftlich von der Rückeroberung "verlorenen Landes". Sollten wir ihnen die Insel nicht überlassen, werden sie wohl versuchen, unserer Herrschaft über Bahrain auf militärischem Wege ein Ende zu bereiten."
+ persia_events.67.a: "Wir sollten Bahrain aufgeben."
+ persia_events.67.b: "Wir fürchten die Perser nicht!"
+
+ persia_events.68.t: "[FROM.GetNameDefCap] übergibt Bahrain an uns"
+ persia_events.68.d: "Bahrain steht nun endlich wieder unter unserer rechtmäßigen Kontrolle, so, wie es schon immer sein sollte."
+ persia_events.68.a: "Perfekt."
+
+ persia_events.69.t: "[FROM.GetNameDefCap] lehnt unser Ultimatum ab"
+ persia_events.69.d: "Unser Ultimatum bezüglich der Insel Bahrain wurde zurückgewiesen. Nun bleibt uns nur noch der Krieg, um unsere rechtmäßige Herrschaft über die Insel wiederherzustellen."
+ persia_events.69.a: "In den Krieg!"
+
+ persia_events.70.t: "Die Annexion von Sulaymaniyah"
+ persia_events.70.d: "Nun, da sich der Staub gelegt hat und wir siegreich über die osmanischen Armeen hervorgegangen sind, scheint es, dass unser kurdischer Verbündeter seinen Nutzen überlebt hat. [KUR.GetLeader] konnte seine wackelige Herrschaft über die Region nur dank des andauernden Krieges gegen die Türken aufrechterhalten, und mit ihrem Zusammenbruch haben viele seiner ehemaligen Mitstreiter bereits begonnen, sich gegen ihn zu wenden, da er weit davon entfernt ist, die Region zu vereinen.\n\nUm die Ordnung in der Region wiederherzustellen, haben wir mehrere Divisionen sowohl in die Stadt Sulaimaniya als auch auf das Land geschickt und den verschiedenen Kriegsherren, die versuchen, das Chaos auszunutzen, das gleiche Ultimatum gestellt: Legt eure Waffen nieder oder sterbt.\n\nDa die desorganisierten Kräfte, aus denen sich die Armeen unserer ehemaligen Verbündeten zusammensetzten, von jeglicher ausländischer Unterstützung abgeschnitten sind und sich einer weitgehend apathischen Bevölkerung gegenübersehen, die sich eine Rückkehr zur Stabilität wünscht, war unsere Armee in der Lage, die gesamte Region effektiv zu besetzen, und auch wenn wir mit sporadischem Widerstand rechnen müssen, gehört Sulaymaniyah jetzt uns."
+ persia_events.70.a: "Wirklich, wir hatten keine Wahl."
+
+ persia_events.80.t: "Frieden mit Russland?"
+ persia_events.80.d: "Wir haben Russland nun schon bis zum Schwarzen Meer zurückgedrängt. Dennoch sollten wir versuchen, unsere militärischen Kapazitäten nicht zu überschreiten, weshalb es klug wäre, Russland ein Friedensangebot zu unterbreiten."
+ persia_events.80.a: "Bietet ihnen Frieden an."
+ persia_events.80.b: "Wir werden bis nach Moskau vorrücken!"
+
+ persia_events.81.t: "Frieden mit [PER.GetNameDef]?"
+ persia_events.81.d: "Der Krieg gegen die Perser hat sich nicht gerade zu unserem Vorteil entwickelt. Nun haben sie uns ein Friedensangebot unterbreitet, welches vorsieht, dass wir einige Territorien an sie abtreten."
+ persia_events.81.a: "Akzeptiert den Frieden."
+ persia_events.81.b: "Wir werden sie zurückdrängen!"
+
+ persia_events.82.t: "Frieden mit der Entente?"
+ persia_events.82.d: "Wir haben die Indische Dominion erfolgreich bekämpft und sollten nun versuchen, einen Friedensvertrag mit der Entente auszuhandeln."
+ persia_events.82.a: "Unterbreitet ihnen ein Friedensangebot."
+ persia_events.82.b: "Wir kämpfen weiter!"
+
+ persia_events.83.t: "Frieden mit [PER.GetNameDef]?"
+ persia_events.83.d: "[PER.GetNameDefCap] ist es gelungen, die Indische Dominion zu besiegen. Nun haben sie uns ein Angebot unterbreitet: Frieden gegen Belutschistan. Wie sollten wir antworten?"
+ persia_events.83.a: "Wir müssen akzeptieren..."
+ persia_events.83.b: "Niemals!"
+
+ persia_events.85.t: "Nouruz"
+ persia_events.85.d: "Heute feiern alle rund um [ROOT.GetNameDef] Nowruz, eine alte Tradition, die bis zu den Anfängen des zoroastrischen Glaubens und des alten Persiens zurückreicht. Nowruz feiert das [ROOT.GetAdjective] Neujahr und den Beginn des Frühlings und bringt die Menschen während der Festlichkeiten näher zusammen."
+ persia_events.85.a: "Fröhlichen Nouruz!"
+
+ persia_events.87.t: "Frieden mit den Deutschen?"
+ persia_events.87.d: "Unser Krieg gegen die Deutschen hat sich nicht gerade zu ihrem Vorteil entwickelt. Wir sollten ihnen ein Friedensangebot unterbreiten, im Namen der Stabilität unserer Nation."
+ persia_events.87.a: "Bietet ihnen Frieden an."
+ persia_events.87.b: "Frieden ist für Schwächlinge!"
+
+ persia_events.88.t: "Frieden mit [PER.GetNameDef]?"
+ persia_events.88.d: "Wir befinden uns schon seit geraumer Zeit im Kriegszustand mit den Persern, da wir unseren Verbündeten, Aserbaidschan, verteidigen wollten. Dies hat allerdings anscheinend nicht funktioniert. Wir sollten wahrscheinlich einfach Frieden schließen."
+ persia_events.88.a: "Akzeptiert den Frieden."
+ persia_events.88.b: "Niemals!"
+
+ persia_events.89.t: "Dehkhodas Wörterbuch"
+ persia_events.89.d: "Aufgrund der wachsenden nationalistischen und separatistischen Bewegungen in aller Welt ist es nun nötiger denn je, dass unser Land vereint steht. Vor Kurzem wurde uns von Ali Akbar Dehkhoda berichtet, einem prominenten [PER.GetAdjective]en Linguisten, der derzeit daran arbeitet, das erste farsische Wörterbuch zu verfassen. Wir könnten diese Gelegenheit nutzen, um unsere Bürger zu bilden und gleichzeitig unsere Einigkeit zu stärken."
+ persia_events.89.a: "Gratuliert Ali Akbar für sein kleines Projekt."
+ persia_events.89.b: "Finanziert das Projekt und verteilt das Buch kostenlos im ganzen Land!"
+
+ persia_events.90.t: "Die Ausgrabung von Persepolis"
+ persia_events.90.d: "In letzter Zeit haben Historiker aus aller Welt damit begonnen, sich zunehmend für die Geschichte unserer Nation zu interessieren. Vor Kurzem hat Ernst Emil Herzfield, ein deutscher Archäologe und Historiker, eine Ausgrabung der Ruinen von Persepolis durchgeführt. Nun hat er um die Erlaubnis gebeten, eine zweite Ausgrabung beginnen zu dürfen. Es ist nun an uns zu entscheiden, wie diese Anfrage beantwortet werden sollte."
+ persia_events.90.a: "Erlaubt die Ausgrabung, jedoch mit Einschränkungen zum Schutze vor Diebstahl."
+ persia_events.90.b: "Erlaubt die Ausgrabung ohne Einschränkungen."
+ persia_events.90.c: "Verbietet die Ausgrabung."
+
+ persia_events.91.t: "Muharram"
+ persia_events.91.d: "Heute beginnt der Muharram, der erste Monat des islamischen Kalenders, ein Monat der Trauer für die Schiiten in [ROOT.GetNameDef]. In diesem Monat wurde Imam Husein, der dritte schiitische Imam, ermordet, und die Ereignisse, die zu seinem Märtyrertod führten, sind den Schiiten in [ROOT.GetNameDef] noch immer in lebhafter Erinnerung."
+ persia_events.91.a: "Wir trauern dem Imam nach."
+
+ persia_events.97.t: "Ramadan"
+ persia_events.97.d: "Heute beginnt der neunte islamische Monat, der Ramadan. Ein Monat des Fastens und Betens für Muslime auf der ganzen Welt, der bis in die Anfänge des Islam zurückreicht. Während die [ROOT.GetAdjective]s mit den Vorbereitungen für das Fasten und Beten in diesem Monat beginnen, kann man die Harmonie spüren, die dadurch entsteht."
+ persia_events.97.a: "Fröhlichen Ramadan!"
+
+ persia_events.99.t: "Yalda-Nacht"
+ persia_events.99.d: "Heute, zum 30. Asar, dem letzten Tag des neunten Monats des [ROOT.GetAdjective]en Kalenders, wird Yalda gefeiert. Die längste und dunkelste Nacht des Jahres, die Wintersonnenwende auf der nördlichen Halbkugel, ist eine Nacht, an der sich die Bürger unserer Nation mit ihren Familien treffen, um zu essen, zu trinken und zu lesen. Das Fest ist dabei so alt wie der zoroastrische Glaube selbst und für die Menschen genauso wichtig wie das Nouruz-Fest."
+ persia_events.99.a: "Fröhliche Yalda-Nacht!"
+
+ persia_events.101.t: "Bär von Soldaten gefunden"
+ persia_events.101.d: "Vor Kurzem wurde von einem unserer Offiziere ein Bärenjunges in der Nähe der Befestigungen von [266.GetCapitalVictoryPointName] gefunden. Obwohl ursprünglich geplant war, den Soldaten den Bären aufgrund von militärischen Richtlinien zu entziehen, wurden wir dazu bewegt, diese Entscheidung zu überdenken, da die Garnisonssoldaten darum gebeten haben, ihn behalten zu dürfen. Wir haben uns dazu entschieden, dem Bären fürs Erste zu erlauben, in der Festung zu bleiben, da dies die Moral unserer Männer sichtlich verbessert. Die Soldaten haben ihn mitterweile Rostam getauft."
+ persia_events.101.a: "Ein sonderbarer Zwischenfall."
+
+ persia_events.102.t: "Rostam der Bär"
+ persia_events.102.d: "Rostam der Bär ist in unserer Armee anscheinend recht gut aufgewachsen. Da sein Besitzer in die 2. Artillerie-Unterstützungskompanie versetzt wurde, ist Rostam der Kompanie ebenfalls beigetreten und hat seitdem zahlreiche Freundschaften mit den Soldaten des Bataillons geschlossen. Mittlerweile hat die Kompanie den Bären zu ihrem Maskottchen gemacht und es ihm sogar beigebracht, dabei zu helfen, Munition und Kanonen zu transportieren."
+ persia_events.102.a: "Eine wahrlich sonderbare Gesichte."
+
+ persia_events.103.t: "Probleme mit Rostam"
+ persia_events.103.d: "Traurigerweise sieht sich Rostams Besitzer aufgrund finanzieller Probleme dazu gezwungen, den Bären an den Höchstbietenden zu verkaufen. Dies wird die Moral der 2. Artillerie-Unterstützungskompanie sicherlich senken. Mehrere unserer Genräle haben bereits damit begonnen, über die Situation zu diskutieren, und es ist nun an uns zu entscheiden, wie wir mit diesem Problem umgehen sollten."
+ persia_events.103.a: "Wir haben wichtigere Probleme als einen dummen Bären!"
+ persia_events.103.b: "Wir müssen Rostam kaufen!"
+
+ persia_events.104.t: "Rostam wurde verkauft"
+ persia_events.104.d: "Rostam der Bär wurde an einen polnischen Händler verkauft, welcher gerade durch unsere Nation zog. Wie es scheint hat der Militärbär die polnische Handelskarawane regelrecht entzückt und als die Händler herausfanden, dass er zu Verkauf stand, haben sie nicht lange gezögert, sondern sofort zugeschlagen. Mittlerweile haben sie ihm auch einen neuen Namen gegeben: Wojtek."
+ persia_events.104.a: "Wie es scheint treibt Wojteks Schicksal ihn nach Polen."
+
+ persia_events.105.t: "[From.GetNameDefCap] will der [ROOT.GetFactionName] beitreten"
+ persia_events.105.d: "Während die revolutionären Feuer Asien verschlingen, wächst das Verlangen nach Solidarität zwischen den befreiten Völkern stetig weiter an. Unsere Kameraden in [From.GetNameDef], die sich der Gefahren der Neutralität bewusst sind, haben daher darum gebeten, der [ROOT.GetFactionName] beitreten zu dürfen. Würden wir diesen Vorschlag annehmen, könnten wir unseren Einfluss im Nahen Osten ausbauen, uns jedoch auch in auswärtige Angelegenheiten verstricken, denen wir lieber fernbleiben wollten."
+ persia_events.105.a: "Wir heißen unsere [From.GetAdjectiveCap]en Kameraden willkommen."
+ persia_events.105.b: "Wir brauchen sie nicht."
+
+ persia_events.106.t: "[From.GetNameDefCap] akzeptiert!"
+ persia_events.106.d: "Wie erwartet hat [FROM.GetNameDef] unser Angebot der [From.GetFactionName] beizutreten, angenommen und ist somit den ersten Schritt zu einer Vertiefung der Beziehungen zwischen unseren Nationen gegangen. Was auch immer die Zukunft für uns bereit erhält, wir werden uns diesem Sturm vereint entgegenstellen."
+ persia_events.106.a: "Wir stehen vereint."
+
+ persia_events.107.t: "[From.GetNameDefCap] lehnt ab"
+ persia_events.107.d: "In einer unerwarteten und äußerst enttäuschenden Wendung hat [FROM.GetNameDef] unser Angebot der [From.GetFactionName] beizutreten abgelehnt, wodurch wir uns nun in einer isolierten Position wiederfinden."
+ persia_events.107.a: "Dann stehen wir eben allein."
+
+ persia_events.110.t: "Republikanische Revolution im Iran"
+ persia_events.110.d: "Vor einigen Tagen haben die Neuigkeiten, dass der Schah verstorben ist, Teheran erreicht - und die Menschen sind auf die Straße gegangen, um die Einrichtung einer Republik zu fordern. Letzte Nacht ist es diesen Demonstranten anscheinend gelungen, die Kontrolle über Teheran zu übernehmen und die Kadscharen aus dem Land zu vertreiben. Persien, oder auch der Iran, wie die Nation mittlerweile heißt, ist nun schon seit langer Zeit ein Ort der Instabilität gewesen, vor allem aber nach dem Ende der russisch-britischen Besatzung der Nation.\n\nDa auch der Nahe Osten immer instabiler wird, fragen sich nun viele, wie die neue republikanische Regierung wohl auf die Herausforderungen und Bedrohungen der Zukunft reagieren wird."
+ persia_events.110.a: "Noch mehr Instabilität..."
+
+ persia_events.111.t: "Sozialistische Revolution im Iran!"
+ persia_events.111.d: "Vor einigen Tagen haben die Neuigkeiten, dass der Schah verstorben ist, Teheran erreicht - und die Menschen sind auf die Straße gegangen, um die Abschaffung der Monarchie zu fordern. Letzte Nacht ist es diesen Demonstranten anscheinend gelungen, die Kontrolle über Teheran zu übernehmen und die Kadscharen aus dem Land zu vertreiben, woraufhin sie die Gründung des ersten sozialistischen Staates des Nahen Ostens ausgerufen haben. Persien, oder auch der Iran, wie die Nation mittlerweile heißt, ist nun schon seit langer Zeit ein Ort der Instabilität gewesen, vor allem aber nach dem Ende der russisch-britischen Besatzung der Nation.\n\nDa auch der Nahe Osten immer instabiler wird, fragen sich nun viele, wie die neue sozialistische Regierung wohl auf die Herausforderungen und Bedrohungen der Zukunft reagieren wird."
+ persia_events.111.a: "Sozialismus im Nahen Osten?"
+ persia_events.111.b: "Arbeiter des Irans, brecht eure Ketten!"
+
+ persia_events.120.t: "[PER.GetName] bittet um ein Bündnis"
+ persia_events.120.d.base: "Heute erklärte der iranische Botschafter in Russland seinem Amtskollegen, dass sein Land ein Militärbündnis zwischen unseren beiden Nationen anstrebt. Die russisch-iranischen Beziehungen haben sich in den letzten Jahren insbesondere aufgrund der gemeinsamen Abneigung gegenüber den Türken verbessert, und es scheint, als wollten sie uns für unsere Hilfe gegen sie danken."
+ persia_events.120.d.ashkhabad: "Heute erklärte der iranische Botschafter in Russland seinem Amtskollegen, dass sein Land ein Militärbündnis zwischen unseren beiden Nationen anstrebt. Die russisch-iranischen Beziehungen haben sich in den letzten Jahren insbesondere aufgrund des gemeinsamen Hasses gegen die Türken verbessert, und es scheint, dass sie uns für unsere Hilfe gegen sie entschädigen möchten.\n\nAls Zeichen des guten Willens haben sie außerdem versprochen, dass Aschgabat, das seit 1929 de facto unter iranischer Verwaltung steht, an uns zurückgegeben wird."
+ persia_events.120.a: "Das sind die Früchte guter Beziehungen."
+ persia_events.120.b: "Scheint unnötig."
+
+ persia_events.121.t: "Russland akzeptiert unser Bündnisangebot"
+ persia_events.121.d.base: "Unser Botschafter in Russland hat uns mitgeteilt, dass [RUS.Capital.GetCapitalVictoryPointName] bereit ist, ein Militärbündnis zwischen unseren beiden Nationen einzugehen."
+ persia_events.121.d.ashkhabad: "$persia_events.121.d.base$ Dementsprechend wird [418.GetName] wieder unter russische Kontrolle gestellt."
+ persia_events.121.a: "Möge es noch lange Bestand haben."
+
+ persia_events.122.t: "Russland lehnt unsere Anfrage ab"
+ persia_events.122.d: "Der russische Botschafter im Iran erklärte, sein Land sei nicht an einem Militärbündnis interessiert. Offensichtlich muss er den Verstand verloren haben oder strebt eher unsere Unterwerfung als eine Partnerschaft an – vielleicht sogar beides?"
+ persia_events.122.a: "Was auch immer."
+
+ persia_events.123.t: "[PER.GetNameDefCap] verlässt [PER.GetFactionName]"
+ persia_events.123.d: "Mit der Begründung, dass unsere Allianz ihren Zweck erfüllt habe, hat die [PER.GetAdjective]-Regierung heute das Ende ihrer Beteiligung an der [PER.GetFactionName] bekannt gegeben. Damit ist die Allianz faktisch aufgelöst, sodass wir nun ohne den Schutz der [PER.GetAdjective]-Armee sind."
+ persia_events.123.a: "Wir haben sie sowieso nicht gebraucht!"
+
+ persia_events.124.t: "Der [FROM.GetAdjective] Zusammenbruch"
+ persia_events.124.d: "Als wir in den Krieg gegen die Osmanen eintraten, schlossen wir uns den Iranern, Ägyptern, Arabern und vielen anderen in ihrem gerechten Kampf an. Scheinbar hatte der gesamte Nahe Osten die Waffen gegen Kostantiniye erhoben, und damals waren die Hoffnungen groß, dass dieser Krieg schnell vorbei sein würde, da die überwältigende Überzahl zu unseren Gunsten sprach und das dekadente Osmanische Reich einfach unter seinem eigenen Gewicht zusammenbrechen würde. Aber jetzt sieht die Lage düster aus.\n\nGerade erreichte [ROOT.Capital.GetCapitalVictoryPointName] die Nachricht, dass Teheran und andere wichtige [FROM.GetAdjective] Städte den vorrückenden osmanischen Truppen gefallen sind und [FROM.GetNameDef] sich offiziell der Hohen Pforte ergeben hat. Damit sind unsere engsten Verbündeten und damit auch das Abkommen von Täbris nicht mehr existent. Und nun stehen wir allein gegen einen übermächtigen Feind.\n\nDennoch ist Kapitulation keine Option. Die Osmanen würden nichts weniger als die vollständige Vernichtung unserer Nation akzeptieren – und das können wir einfach nicht zulassen. Wenn wir sterben müssen, dann werden wir sterben – aber wir werden im Namen unserer Vorfahren weiterkämpfen und unser Land bis zum letzten Atemzug gegen die türkischen Barbaren verteidigen!"
+ persia_events.124.a: "[ROOT.GetName] ist noch nicht verloren!"
+
+ persia_events.125.t: "[PER.GetNameDefCap] tritt der [future_persian_faction_leader.GetFactionName] bei"
+ persia_events.125.d: "In dem Bestreben, sich einer Großmacht anzuschließen, hat [PER.GetNameDef] uns kürzlich mitgeteilt, dass sie die Mitgliedschaft in der [future_persian_faction_leader.GetFactionName] beantragen möchten. Da sie ihre Verbündeten jedoch nicht einfach im Stich lassen wollen, haben sie uns angeboten, uns gemeinsam mit ihnen der [future_persian_faction_leader.GetNameDef] anzuschließen und die Zusammenarbeit zwischen [ROOT.GetAdjective] und [PER.GetAdjective] in einem größeren Bündnisrahmen als dem inzwischen aufgelösten Täbris-Abkommen fortzusetzen."
+ persia_events.125.a: "Lasst uns gemeinsam mit unseren [PER.GetAdjective] Brüdern kämpfen!"
+ persia_events.125.b: "Wir kommen alleine klar!"
+
+ persia_events.126.t: "[FROM.GetNameDefCap] ersucht Beitritt zur [ROOT.GetFactionName]"
+ persia_events.126.d: "Nachdem [PER.GetNameDefCap] beschlossen hat, das Abkommen von Täbris aufzukündigen und sich stattdessen mit [ROOT.GetFactionName] zu verbünden, stehen ihre ehemaligen Verbündeten vor der Wahl: entweder dem Beispiel von [PER.GetAdjective] zu folgen oder isoliert und ohne Schutz zu bleiben. [FROM.GetNameDef] hat sich klugerweise für die erste Option entschieden und nun offiziell beantragt, sich [ROOT.GetFactionName] anzuschließen und zu unserem Militärbündnis beizutragen. Die Frage ist nun, ob wir sie aufnehmen sollen."
+ persia_events.126.a: "Sie sind herzlich willkommen!"
+ persia_events.126.b: "Wir brauchen sie nicht!"
+
+ persia_events.127.t: "[FROM.GetNameDefCap] befürwortet unseren Beitritt"
+ persia_events.127.d: "Unser Botschafter in [FROM.Capital.GetCapitalVictoryPointName] hat uns soeben mitgeteilt, dass [FROM.GetNameDef] unserem Antrag stattgegeben hat und wir nun gemeinsam mit unseren [PER.GetAdjective]-Verbündeten der [FROM.GetFactionName] beitreten dürfen."
+ persia_events.127.a: "Großartig!"
+
+ persia_events.128.t: "[FROM.GetNameDefCap] verweigert uns den Beitritt"
+ persia_events.128.d: "Mit der Begründung, dass wir im Gegensatz zu unseren [PER.GetAdjective] Verbündeten nichts Wertvolles beitragen könnten, hat [FROM.GetNameDef] unser Angebot, der [FROM.GetFactionName] beizutreten, abgelehnt."
+ persia_events.128.a: "Verdammt!"
 
 ### Decisions ###
  PER_country_namechange_decision: "Ändert unseren Namen zu Iran"
- PER_country_namechange_decision_desc: "Die Modernisten üben stetigen Druck auf unsere Regierung aus, da diese die anderen Nationen der Welt dazu bringen soll, uns als "Iran" zu bezeichnen, genau wie wir uns selbst. Das veraltete Exonym "Persien" sei lange nicht mehr zeitgemäß. Warum genau ihnen diese Angelegenheit so wichtig ist, ist ungewiss."
+ PER_country_namechange_decision_desc: "Die Modernisten üben stetigen Druck auf unsere Regierung aus, da diese die anderen Nationen der Welt dazu bringen soll, uns als \"Iran\" zu bezeichnen, genau wie wir uns selbst. Das veraltete Exonym \"Persien\" sei lange nicht mehr zeitgemäß. Warum genau ihnen diese Angelegenheit so wichtig ist, ist ungewiss."
  PER_embargo_anti_socialists: "Ölembargo gegen die Feinde des Sozialismus"
  PER_embargo_anti_socialists_desc: "Wir sind zu weit vom europäischen Kriegsschauplatz entfernt, um der Dritten Internationale direkt beizustehen. Wir besitzen jedoch große Ölreserven, an denen die Großmächte unserer Zeit durchaus interessiert sind. Wir sollten es verbieten, Öl in den Reichspakt, die Entente oder das Moskauer Abkommen zu exportieren, damit die Feinde des Sozialismus ihre Kriegsmaschinerien nicht länger antreiben können!"
 

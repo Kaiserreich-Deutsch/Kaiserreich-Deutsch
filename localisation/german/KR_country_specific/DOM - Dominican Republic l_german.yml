@@ -365,7 +365,6 @@
  DOM_labourrelief_tooltip: "§GDieses Event wird helfen, die Depression zu beenden!§!\n"
  DOM_trujillogov_tooltip: "§GDiese Fokuse werden freigeschaltet, sobald alle vorherigen Events abgeschlossen wurden.§!\n"
  DOMHAI_volunteers: "Eine kleine Truppe an Freiwilligen kam in unserer Hauptstadt an!"
- DOMCOS_reb_tooltip: "Eine kleine Truppe an demokratischen Rebellen erhebt sich in der Dominikanischen Republik!"
 
 ### Bookmark ###
  DOM_KR_gathering_storm_desc: "Die amerikanische Besatzung der Dominikanischen Republik endete 1924, und bald darauf wurde die volle politische Kontrolle wiederhergestellt, doch schon wenige Jahre später sah sich die neue demokratische Verfassung des Landes inneren und äußeren Herausforderungen gegenüber. Während die Demokratie in der Nation bisher überlebt hat, hat die Spaltung der lange Zeit regierenden Roten Partei das Überleben der Verfassung erneut in Gefahr gebracht."
@@ -375,388 +374,392 @@
  DOM_country_intro_header: "Eine unruhige Zeit"
  DOM_country_intro_content: "Von 1916 bis 1924 war die Dominikanische Republik von den Vereinigten Staaten besetzt. Die Besetzung war zwar weniger streng als im benachbarten Haiti, aber das Land wurde dennoch umgestaltet. Das alte politische Establishment wurde auf den Kopf gestellt und die linke Mitte vollständig zerstört; die Besatzer übertrugen viel Macht an machthungrige Militärs, insbesondere an den ehrgeizigen Rafael Trujillo.\n\n1924 wurde eine neue demokratische Verfassung ausgearbeitet, und das Land erlangte bald darauf seine Unabhängigkeit zurück, wobei die Amerikaner einige Jahre später die volle finanzielle Kontrolle zurückgaben. Zunächst blühte der neue Staat auf und seine Institutionen wurden wieder aufgebaut, doch dies sollte nicht lange anhalten. Präsident Horacio Vásquez versuchte, die Verfassung zu seinem eigenen Vorteil zu ändern, und obwohl er von Vizepräsident Federico Velázquez knapp aus dem Amt gedrängt wurde, war die Demokratie des Landes für immer geschwächt. Nach mehreren glanzlosen Präsidentschaften aus den Reihen der Roten Partei besiegte der konservative Populist Virgilio Martínez Reyna den wirtschaftsfreundlichen Rafael Estrella Ureña in einem Wahlkampf, der die Rote Partei erschütterte und die Erholung der nationalen Stabilität weiter behinderte. Während Präsident Martínez bei den unteren Schichten beliebt ist, haben seine ständige Zentralisierung der Macht und seine Bereitschaft, die Verfassung zu ändern, die den Handlungen von Vásquez selbst unheimlich ähnlich sind, die Wohlhabenden verprellt. Angesichts der bevorstehenden Wahlen könnte die Verzweiflung einen Umsturz herbeiführen."
 
- DOM_guide: "§MRojo Sieg§! (§cSozialkonservative§!)\n£white_dot Estrella soll aus dem geheimen Treffen mit Trujillo stürmen.\n£white_dot Martínez soll sich bei den Präsidentschaftswahlen eine weitere Amtszeit sichern.\n\n§MRepublikanischer Sieg§! (§mMarktliberale§!)\n£white_dot Führen Sie die gleichen Schritte wie oben durch, aber lassen Sie Estrella die Wahlen gewinnen.\n\n§MTrujillos Putsch§! (§PPaternal Autokratisch§!)\n£white_dot Erzielen Sie bei dem geheimen Treffen eine Einigung und lassen Sie den Staatsstreich durch die Besetzung der Hauptstadt gelingen.\n£white_dot Estrella soll nachgeben und treu bleiben."
+ DOM_guide: "§MRojos§! ($social_conservative_coloured$)\n£white_dot Estrella soll aus dem geheimen Treffen mit Trujillo stürmen.\n£white_dot Martínez soll sich bei den Präsidentschaftswahlen eine weitere Amtszeit sichern.\n\n§MRepublicanos§! ($market_liberal_coloured$)\n£white_dot Führen Sie die gleichen Schritte wie oben durch, aber lassen Sie Estrella die Wahlen gewinnen.\n\n§MDominicanos - Trujillo§! ($paternal_autocrat_coloured$)\n£white_dot Erzielen Sie bei dem geheimen Treffen eine Einigung und lassen Sie den Staatsstreich durch die Besetzung der Hauptstadt gelingen.\n£white_dot Estrella soll nachgeben und treu bleiben."
 
 ### Events ###
- domrep.1.t: "Ein Geheimes Meeting"
- domrep.1.d: "In einem nichtbeschrifteten Gebäude am Rande von Santo Domingo, saßen 2 der mächtigsten Männer in der Dominikanischen Republik um einen Tisch herum. Rafael Estrella Ureña, Kandidat in den kommenden Präsidentschaftswahlen und Kopf der Republicano-Partei, und Rafael Trujillo Molina, Führer der Streitkräfte - Beide streben nach demselben, immer knapper werdenden Gut: Macht. Die beiden Männer haben jedoch völlig unterschiedliche Visionen für das Land, und in der kurzen Zeit seit dem Beginn des Treffens ist Estrella zunehmend misstrauisch gegenüber Trujillo und der Rolle geworden, die ihm abverlangt wird, sollten sie sich gemeinsam um die Macht bemühen."
- domrep.1.a: "Estrella Stürmt Raus."
- domrep.1.b: "Ein Deal Wurde Geschlossen."
-
- domrep.2.t: "Republicano Staatsstreich"
- domrep.2.d: "Heute wurde in Santo Domingo was viele befürchtet hatten zur Realität geworden. Fanatische bewaffnete Anhänger Estrellas betraten die Stadt und nahmen viele Regierungsgebäude ein. Währenddessen weigerte sich die Armee unter Rafael Trujillo ihre Barracken zu verlassen, wobei Trujillo verräterisch behauptete, in Bezug auf den versuchten Staatsstreich "neutral" zu sein. Ein Teil der Polizeikräfte der Stadt und viele Anhänger von Präsident Reyna sind allerdings auch in Scharen herbeigekommen um den Staatstreich zu bekämpfen."
- domrep.2.a: "Die Anstifter Sind Verstreut."
- domrep.2.b: "Die Hauptstadt Ist Besetzt."
-
- domrep.3.t: "Präsidentschaftswahlen"
- domrep.3.d_1: "Endlich ist die lang erwartete Präsidentschaftswahl angekommen, die Stimmzettel wurden in der ganzen Nation abgegeben und die Ergebnisse werden gezählt. Während einige befürchteten, dass Martínez vielleicht versucht die Integrität der Wahlen mit seiner Autorität zu unterdrücken, scheint der Prozess bislang ziemlich zulässig zu sein. Jetzt bleibt nur die Frage wer der Sieger sein wird."
- domrep.3.d_2: "Mit dem Fehlschlag des Staatsstreiches von Estrella und den Republicanos', kommandiert Martínez jetzt eine unüberwindliche Führung gegen den einzigen anderen Kandidat mit einer bedeutenden Anhängerschaft. Manuel Troncoso Concha, der weit als Marionette des Generals Rafael Trujillo Molina bekannt ist, ist selbst aus den Publikumslieblingen runtergerutscht und in politischer Bedeutung als Resultat seiner Verweigerung den versuchten Staatsstreich zu unterdrücken - eine Tat, für die viele fordern, dass Trujillo vor ein Gericht gestellt wird."
- domrep.3.a: "Martínez Sichert Sich Eine Weitere Amtszeit."
- domrep.3.b: "Estrella Übernimmt."
-
- domrep.4.t: "Estrellas Dilemma"
- domrep.4.d: "Obwohl als erstes versessen mit seiner neugefundenen Macht, fand Präsident Estrella schnell heraus, dass General Trujillo ein erschwerenderer Verbündeter ist als Martínez als Gegner. Darüber hinaus hat Trujillo alles andere außer bestätigt, dass er die Absicht hat die Vereinbarung teilweise zu kündigen, was den Staatsstreich verursachte. Er will nämlich nicht zulassen, dass Estrella bei den nächsten (völlig manipulierten) Präsidentschaftswahlen antritt. Auch wenn Trujillo jetzt viel politische Macht hat, sind die Anhänger von Estrella ebenfalls stärker geworden, und es ist denkbar, dass Estrella versucht, sich Trujillo zu widersetzen und selbst die Kontrolle über das Land zu übernehmen."
- domrep.4.a: "Estrella Widersteht."
- domrep.4.b: "Estrella Gibt Nach."
-
- domrep.5.t: "Estrellas Amtszeit Neigt Sich Dem Ende Zu"
- domrep.5.d: "Rafael Estrella Ureñas Zeit als provisioneller Präsident ist nun am Ende. Es wurde eine Schauwahl abgehalten, bei der Trujillos handverlesener Kandidat, Manuel Troncoso Concha, die einzige Option auf dem Stimmzettel war. Während Estrella ein gewisses Maß an Unabhängigkeit von Trujillo gehabt haben mag, gilt Troncoso als bloße Marionette, da die gesamte politische Macht nun entweder in den Händen von Trujillo selbst oder des Militärs im Allgemeinen liegt."
- domrep.5.a: "Trujillo ist jetzt nur noch dem Namen nach Präsident."
-
- domrep.6.t: "Estrella Ersetzt Trujillos Beauftragte"
- domrep.6.d: "Überzeugt, dass er tatsächlich Trujillo in einem Machtkampf besiegen kann, hat Präsident Estrella Personen in seinem Kabinett, die ursprünglich auf Trujillos Geheiß ernannt wurden, entlassen. Trujillo will sicherlich zu dieser Beleidigung antworten, aber es bleibt jedoch abzuwarten, inwieweit er Estrella rügen wird."
- domrep.6.a: "So beginnt es..."
-
- domrep.7.t: "Verbündete Nicht Mehr"
- domrep.7.d: "Während einer großen Versammlung von Republicano-Unterstützern, die meisten aus den höheren Klassen, befand sich das kleine Polizeitrupp, das dieses Event beaufsichtigte, überschwommen mit streitlustigen Soldaten die eindeutig loyal zu Trujillo waren. Es wurde bald darauf klar, dass diese Soldaten nur ein kleiner Anteil der vielen war, die die Stadt betraten um die zivile Regierung zu übernehmen. Genau wie damals, als Martínez kurzerhand aus der Regierung geworfen wurde, bleiben die städtischen Bediensteten, einschließlich der Polizei, der zivilen Verwaltung weitgehend treu, und die öffentliche Meinung ist entschieden gegen Trujillos neueste Machtergreifung."
- domrep.7.a: "Die Soldaten Zerstreuen Sich."
- domrep.7.b: "Trujillo Übernimmt die Regierung."
-
- domrep.8.t: "Schwarzer Montag in der Dominikanischen Republik"
- domrep.8.d: "Die zögerliche Erholung unsere Nation von der Amerikanischen Großen Depression ist zusammengefallen mit dem Zusammenbruch der deutschen Ökonomie mit dem Schwarzen Montag darauffolgend.Es scheint, dass unserem Land weitere wirtschaftliche Schwierigkeiten bevorstehen."
- domrep.8.a: "Sicherlich kann die Ökonomie nicht schlimmer werden?"
-
- domrep.9.t: "Der Verfassungskonvent Wird Einberufen"
- domrep.9.d: "Die Verfassungsversammlung wird von außenstehenden Beobachtern oft als Oberhaus der angeblich aus zwei Kammern bestehenden Legislative des Landes betrachtet, und in der Tat billigt die Versammlung die vom Unterhaus, dem "Kongress", verabschiedeten Gesetze oder lehnt sie ab. Ihre Rolle geht jedoch weit darüber hinaus. Auf Erlass des Präsidenten kann die Versammlung einberufen werden, um die Verfassung zu ändern oder sie sogar ganz zu ersetzen.\n\nNun, da der Erlass von Präsident Martínez und die Tagesordnung für diese Sondersitzung der Versammlung feststehen, ist die Versammlung zusammengetreten. Auf der Tagesordnung steht die Überarbeitung der dominikanischen Verfassung. Es bleibt abzuwarten, inwieweit das Dokument modifiziert oder gar vollständig ersetzt wird.\n\n Während bisher nur kleine Änderungen beschlossen wurden, hat ein bestimmtes Thema unter den Mitgliedern der Versammlung große Unstimmigkeiten verursacht. Und zwar die Frage, ob das Militär angesichts der politischen Manöver des Militärs in ein so genanntes Verfassungsministerium verlagert werden sollte oder nicht. Ein solcher Schritt würde die Handlungen des Militärs in Zukunft einer ständigen Überprüfung durch die Versammlung unterziehen, um sicherzustellen, dass alle seine Handlungen, wie geringfügig sie auch sein mögen, in vollem Einklang mit der Verfassung stehen. Natürlich würde dies das Militär einschränken, aber es würde auch eine neue Ebene der Bürokratie hinzufügen und möglicherweise ein entschlossenes Handeln in Krisenzeiten verhindern."
- domrep.9.a: "Die Streitkräfte Müssen Unabhängig Werden."
- domrep.9.b: "Das Militär Sollte Engeschränkt Werden."
-
- domrep.10.t: "Verfassungskonvent Thema Zwei"
- domrep.10.d: "Da der Druck immer größer wurde und sich kein klarer Nachfolger abzeichnete, wurde Präsident Martínez mit der wackeligen Zustimmung der Verfassungsversammlung nach der knappen Verabschiedung einer neuen Änderung für eine zweite Amtszeit zugelassen. Viele Abgeordnete und Bürger wünschen sich, dass diese Änderung rückgängig gemacht und eine neue Änderung verabschiedet wird, in der festgelegt wird, dass die Begrenzung auf eine Amtszeit unabänderlich ist. Andere sind der Meinung, dass die Möglichkeit der Wiederwahl bestehen bleiben und in der Verfassung selbst stärker verankert werden sollte. Diese Meinungsverschiedenheit hat den Verfassungskonvent erneut ins Stocken gebracht und könnte mit knapper Not in eine der beiden Richtungen gelöst werden."
- domrep.10.a: "Schaffe Die Wiederwahl Ein Für Alle Mal Ab."
- domrep.10.b: "Festige Die Zwei-Amtszeiten Begrenzung."
-
- domrep.11.t: "Verfassungskonvent Thema Drei"
- domrep.11.d: "Genau als der Konvent beendet zu sein scheinte, erhebte sich ein weiteres umstrittenes Problem. In anderen Ländern ist die Exekutive beinahe der alleinige Treuhänder des Staates, was große Macht der Nation finanziell bringt. In unserem eigenen Land allerdings, sind die finanziellen Dienste des Präsidenten einigermaßen begrenzt. Viele meinen, dass dies die Große Depression verschlimmerte und unsere Reaktion zu dem verheerenden Hurrikan 1930 verzögerte. Sollte die finanzielle Macht des Präsidenten erweitert werden?"
- domrep.11.a: "Lass Es So Wie Es Sein Soll."
- domrep.11.b: "Der Präsident Muss Größere Finanzielle Macht Haben."
-
- domrep.12.t: "Das Gerichtsverfahren"
- domrep.12.d_1: "Während die Vermutungen eines potenziellen Staatssteiches zwar unbegründet waren, sind Beweise der Untreue von General Trujillo reichlich vorhanden. Heute, nach einer Woche Inhaftierung von Truppen die nur dem Präsidenten loyal sind, wurde Trujillo vor einem Strafgerichtshof in Santo Domingo gebracht unter dem Vorwurf des Landesverrats. Während einige Trujillo im Gefängnis für den Rest seines Lebens verrotten sehen wollen, argumentieren andere dass diese ganze Affäre durchschaubarer Schwachsinn ist und er nur seines Kommandos enthoben werden sollte und nichts weiter."
- domrep.12.d_2: "Der Staatsstreich ist fehlgeschlagen, aber das Land ist immer noch reif an Unterstützern Trujillos sowie welche in der Elite, die Estrella unterstützen würden. Während die beiden Mönner vor einem Gerichtshof in Santo Domingo heute geschleppt wurden, scheinte der Präsident selbst, von Angst gefressen zu sein, ob er in dem Verfahren eingreifen soll. Während das Gericht sicherlich beide Männer hart verurteilen wird, werden ihre Anhänger in dem Fall nur gefährlich verzweifelt sein. Vielleicht könnte den Männern ein leichteres Urteil gegeben werden mit der Einmischung des Präsidenten um so ein Aufruhr zu verhindern."
- domrep.12.a: "Ein Hartes Urteil."
- domrep.12.b: "Zeige Nachsicht."
-
- domrep.13.t: "Korrigieren des Verrats"
- domrep.13.d_1: "Nachdem Fehlschlag seines versuchten Staatstreichs, fliehte General Trujillo zu den Grenzgebieten mit seinen loyalsten Unterstützern. Eine kleine Anzahl seiner Leutnanten wendete sich zu unserer Regierung kurz nach der Flucht und bot an, Trujillo im Gegenzug für seine unvermeidliche Hinrichtung an uns auszuliefern. Heute, trifft er sich seinem Schicksal entgegen."
- domrep.13.d_2: "Durch den Sieg der Präsidentschaftswahlen, muss Präsident Estrella den Mann konfrontieren, mit dem er einst ein Staatsstreich plante. Wenn Trujillo schon einen Putschversuch unternommen hat, wird er es trotz des Scheiterns des ersten sicherlich noch einmal tun, meint Estrella. Die Kugel eines Attentäters wird es schon richten."
- domrep.13.a: "Solch Eine Erbärmliche Ausrede Für Einen Mann."
-
- domrep.14.t: "Ein Siegeszug?"
- domrep.14.d: "President Estrellas Verbindungen zu den ökonomischen Elite der Nation erluabten es ihn, seine Rivalen in der Rojo Partei ernsthaft herauszufordern und diese ganz loszulösen. Seit sein Aufstieg zur Macht wurden seine früheren Unterstützer zunehmend, da sie keine Unterstützung durch die neue Verwaltung sehen. Unwollend, seine Versprechen zu tiefgreifenden wirtschaftlichen Zugeständnissen einzulösen, suchte Estrella nach einem Weg aus seiner Notlage. Wie ein Scahchspiel, hat er angefangen alle seine Figuren zu mobilisieren, und alle die sehr loyal ihm gegenüber sind, für einen entscheidenden Zug seine Gegner in die Ecke zu drängen."
- domrep.14.a: "Biete ein Unentschieden an."
- domrep.14.b: "Schachmatt."
-
- domrep.15.t: "Das Neue Regime"
- domrep.15.d: "Seit Estrellas Auszug der Präsidentschaft, wurde die politische Struktur unseres Landes zunehmend verwickelt. Verschiedene Aspekte der zivilen Regierung sind ausreichend aber nicht genug dem Militär unterlaufen. Hieraus entwickelte sich eine eigenartige Situation wo, trotz Trujillos dominanter Position, andere militärische Führer angefangen haben, sich wie Kriegsherren in den Militärbezirken in denen sie arbeiten zu verhalten, während Trujillo ähnlich zu einem Gangsterboss wird der locker über sie herrscht. General Trujillo hat erkannt, dass dieser Missstand ein Ende haben muss: Wo sich Zuständigkeiten überschneiden, müssen einige von ihren Posten entlassen werden, wo einige Kommandeure zu groß werden, müssen sie zwangsweise abgesetzt werden, und die Präsidentschaft kann nicht mehr nur provisorisch sein. Ob Troncoso weiter im Amt bleiben oder Trujillo das Amt einfach früher als bisher geplant übernehmen soll, ist allerdings noch umstritten."
- domrep.15.a: "Behalte Manuel Troncoso."
- domrep.15.b: "Ernenne Trujillo Früher."
-
- domrep.16.t: "Eine Diligente Bürokratie"
- domrep.16.d: "Untreue von denen in der Bürokratie wurde schon zu einer Belastung der Verwaltung und das Problem wird weiterhin wachsen wenn nichts unternommen wird. Während die in unserer Regierung zugestimmt haben, was zu tun ist um dieses Problem zu bekämpfen, und das wäre die Formierung einer neuen staatlichen Sicherheitsagentur um Unruhestifter aufzufinden, ist die Methode der Umsetzung viel umstrittener. Einerseits, argumentieren einige, vor allem Zivilisten, die sich auf die Seite des Militärs gestellt haben, dass die neue Agentur eine formelle bürokratische Abteilung sein sollte, während die im Militär sich teilten ob sie eine ähnliche Agentur allein unter der Schirmherrschaft von den Streitkräften bilden sollen oder Trujillos schon gebildete Abteilung 42 formalisieren sollen."
- domrep.16.a: "Eine Formelle Sicherheitsabteilung."
- domrep.16.b: "Ein Neuer Geheimer Sicherheitsdienst."
- domrep.16.c: "Erweitere 42."
-
- domrep.17.t: "Versicherung Von Militärischer Loyalität"
- domrep.17.d: "Enttäuschung im Inneren ist die unglückliche Realität der Politik. Natürlich werden solche Leute, die sehr gut sind aber vom Weg abgekommen sind, bemitleidet. Dann ist die Frage, wie werden sie wieder richtiggestellt? Es ist deutlich, dass die Lösung institutionell ist und mit unseren Reformen der Bürokratie kommen sollte. Das Heißt, wir könnten entweder versuchen, aggresiv die rechte Natur unserer Regierung fördern durch verpflichtende Umschulungen wann auch immer nötig, einfach auf verdoppelte Kampfdisziplin angewiesen sein, oder unserem neuen Sicherheitsdienst die Aufgabe zu geben, solche Leute an eine Linie zu bringen."
- domrep.17.a: "Schule Die Disillusionierten."
- domrep.17.b: "Verbessere Die Disziplin Zusätzlich."
- domrep.17.c: "Nutze Den Sicherheitsdienst."
-
- domrep.18.t: "Eine Militarisierte Ökonomie?"
- domrep.18.d: "Die Streitkräfte sind bemerkenswert gut in der Eliminierung von Abfall durch Disziplin. Ähnlicherweise behaupten viele in den Streitkräfte inklusive including General Trujillo, dass das ganze Land in einer ähnlichen Weise regiert werden soll. Das heißt, die Regulierung sollte sich nicht auf individuelle ökonomische Probleme fokussieren, noch sollte die Wirtschaftsbürokratie versuchen, Kleinigkeiten zu kontrollieren, denn sowas führt tatsächlich zu ökonomischem Schaden. Vielmehr muss das grundlegende wirtschaftliche Verhalten der Gesellschaft und des Einzelnen aggressiv gestaltet werden. Die gleiche allumfassende Hierarchie mit ihrer Ordnung und strengen Disziplin muss sich in der gesamten Nation widerspiegeln."
- domrep.18.a: "Dies Ist Eine Schlechte Idee."
- domrep.18.b: "Tut es!"
-
- domrep.19.t: "Reorganisieren des Außenministeriums"
- domrep.19.d: "Die Diplomaten im Ausland sind bislang größtenteils unbeeinflusst durch den Aufstieg unseres Regimes geblieben und viele sind zweifellos sympathisch gegenüber unserer Besatzung. Die Notwendigkeit, die meisten dieser Diplomaten zu ersetzen, liegt auf der Hand, doch wie dies geschehen soll, ist umstritten. Einige sind der Meinung, dass der Übergang schrittweise erfolgen sollte, wobei unseren Diplomaten die Sicherheit ihrer Positionen zugesichert und lediglich Loyalität und die treue Erfüllung ihrer Pflichten verlangt wird. Andere schlagen vor, den gesamten diplomatischen Kern neu zu organisieren, um diejenigen, deren Loyalität gesichert ist, aufzuwerten und diejenigen, die im Verdacht stehen, abweichende Ideen zu hegen, an den Rand zu drängen. Trujillo und seine Anhänger schlagen vor, dass nichts weniger als absolute Loyalität akzeptabel ist und dass alle Diplomaten mit zweifelhafter Loyalität entlassen und ihr Wohnsitzland um ihre Auslieferung ersucht werden sollte."
- domrep.19.a: "Schrittweiser Übergang."
- domrep.19.b: "Akzeptiere Die Reorganisierung."
- domrep.19.c: "Fordere Totale Loyalität."
-
- domrep.20.t: "Eine Lösung Finden"
- domrep.20.d: "Viele der prominentesten Familien und Einzelpersonen des Landes sind nach wie vor entschiedene Gegner unserer Regierung vor allem angesichts der Behandlung von Estrella, ein Mann tief in ihren Taschen. Tatsächlich sind Militärsmänner aus anderem Holz geschnitzt als die traditionelle Führungsschicht des Landes und sie werden es nicht dulden, dass sie kurzerhand ersetzt werden. Einige, allerdings, sind offen zu einer Kollaboration mit unserem Regime, und tatsächlich, schulden wir unserem Regime vielen porminenten Anwälten und Geschäftsmännern schon ihre Loyalität. Welcher Ansatz sollte bei der Klärung dieser Frage verfolgt werden??"
- domrep.20.a: "Versöhnung."
- domrep.20.b: "Degradierung."
- domrep.20.c: "Vernichtung."
-
- domrep.21.t: "Verankere Die Partei"
- domrep.21.d: "Um unsere nationale Stabilität und Einheitlichkeit zu halten, muss das Schicksal der Nation und der der Partei unzertrennlich sein. Der genaue Weg die Partei zu integrieren und die Mitgliedschaft anzuregen ist allerdings sehr debattiert. Was soll gemacht werden?"
- domrep.21.a: "Reine Beförderung Ist Vorzuziehen."
- domrep.21.b: "Benötige Offiziere Zum Beitreten."
- domrep.21.c: "Institutionalisiere Es."
-
- domrep.22.t: "Vom Licht Durchflutet"
- domrep.22.d: "Unsere Nation hinkt stark dem Rest der Welt in der Elektrifizierung zurück. Während aufkommende Technologien und Industrien sehr auf Elektrizität angewiesen sind, ist es relevant, dass die Lücke sofort geschlossen wird. Während Trujillo Während Trujillo für umfangreiche staatliche Investitionen in den Prozess plädiert, haben die schieren Kosten eines solchen Vorhabens viele andere auf den Plan gerufen. Als Reaktion darauf wurden alternative Vorschläge gemacht, die Kosten zu senken, indem man mit verschiedenen Industrieunternehmen im ganzen Land zusammenarbeitet, um ein privatisiertes Stromnetz zu schaffen, oder sich zunächst auf die Elektrifizierung von Militäreinrichtungen und staatseigenen Industrien zu konzentrieren."
- domrep.22.a: "Schließe Dich Den Unternehmensinteressen An."
- domrep.22.b: "Das Militär Steht An Erster Stelle."
- domrep.22.c: "Trujillo Hat Ein Gutes Argument."
-
- domrep.23.t: "Elektrifizierung Abgeschlossen"
- domrep.23.d_1: "Durch großzügige Anreizpakete, Hinterzimmermeetings, und zwielichtige unförmliche Geldüberweisungen, wurden die Industriekonzerne der Nation gerichtet um sofort ihr Fokus auf das neue Stromnetz zu fokussieren. Das neue privatisierte System kann obwohl es kostengünstig ist, nicht vom ganzen Staat genutzt werden. Dennoch ist das neue Stromnetz ein Segen sowohl für den Staat, das Volk, und den private Firmen."
- domrep.23.d_2: "Das Militär muss immer an erster Stelle stehen, und heute wurde das größte Monument dieser Dominanz fertiggestellt. Ein neues Stromnetz wurde schnell von Verbänden der Arbeitsbrigaden der Armee errichtet, dass verschiedene militärische Installationen und Regierungsgebäude im Ganzen Land verbindet. Viele ländliche Regionen bleiben allerdings ganz ohne Strom da die Kosten einfach zu hoch lagen."
- domrep.23.d_3: "Hauptsächlich wegen unseres großen finanziellen Engagements, war der Elektrifizierungsprozess ein totaler Erfolg, denn es wurde pünktlich fertiggestellt und alle Gesellschaftsstufen waren zufrieden. Die Kosten waren hoch aber es scheint, dass sich die Investition völlig ausgezahlt hat."
- domrep.23.a: "Gut."
-
- domrep.27.t: "Besondere Wahlen"
- domrep.27.d_1: "Ohne eine Art von Demokratie, wird das Volk sicherlich zunehmend unruhig. Um diese Umvermeidbarkeit zu verhindern, muss sogar das höchste Amt gewählt werden. Allerdings muss jeder Kandidat nicht nur akzeptable sein, sondern auch von den höchsten Ämtern der Partei gezogen werden. Zu diesem Zweck wurden zwei Kandidaten für die Wahl zugelassen: Carlos Manuel 'Pilindo' Bonetti Burgos, ein Anwalt und kulturelle Ikone, und General Ramon Vasquez Rivera, beide unter der Fahne der Dominikanischen Partei."
- domrep.27.d_2: "Einige schlugen vor, die oft lästige Legislative und vielleicht auch jeden Anschein von Demokratie ganz abzuschaffen, aber die Kosten eines solchen Schrittes waren einfach zu hoch. Um unserer Regierung Legitimität zu verleihen, wurden Wahlen für das Präsidentenamt organisiert. Ursprünglich sollte General Ramon Vasquez Rivera mit Trujillos Einverständnis ohne Gegenkandidaten antreten, doch beschloss Trujillo bald darauf, seine eigene Kandidatur bekannt zu geben, sehr zum Leidwesen anderer Offiziere, die seine immer noch etwas dominante Stellung sowohl in zivilen als auch in militärischen Angelegenheiten fürchteten."
- domrep.27.a: "Gehe mit Bonetti."
- domrep.27.b: "Rivera."
- domrep.27.c: "Trujillo Darf Kandidieren."
-
- domrep.28.t: "Abbau Des Legislativen Widerstands"
- domrep.28.d: "In den Hallen der Legislative, fing etwas wie ein Widerstand an zu eitern. Unzufrieden mit dem Fehlschlag unseres Regimes um eine Interessengruppe nach der anderen zu beschwichtigen, haben viele Kongressmänner ihre Dankbarkeit gegenüber des Regimes durch schurkische Intrigen und allgemeinen Unfug zeigen. Mit einer mehr oder weniger vollständig ausgegrenzten Legislatur, kann die Legislatur völlig wegfallen. Als Alternative können Abgeordnete, die die Zusammenarbeit verweigern, abgeschafft und ein gewisser Anschein von Demokratie aufrechterhalten werden."
- domrep.28.a: "Behalte Es De Jure."
- domrep.28.b: "Schaffe Die Legislatur Völlig Ab."
-
- domrep.30.t: "Ein Flaggschiff?"
- domrep.30.d: "Während die Nationen der Welt wieder konkurrieren um neuere und größere Designs zu produzieren, wie sie es auch während des Dreadnought-Rennens taten, werden kleinere Länder wie unsers unfähiger eine Invasion entgegenzuhalten. Um eine neue Besatzung zu verhindern, brauchen wir eine Marine, die in der Lage ist, sich mit anderen zu messen, für wenigstens eine kurze Zeit, sich mit den Großmächten zu konkurrieren und sich zu behaupten. Um dies zu schaffen, könnten wir, wie von vielen in unserer wachsenden Marine befürwortet, ein Flaggschiff aus den Resten eines veralteten Ungetüms zu bauen, das wir erwerben können, um es als Dreh- und Angelpunkt der neuen Flotte umzurüsten, einen eigenen Dreadnought. Diese Idee ist zwar verlockend, wäre aber zweifellos extrem kostspielig und würde eine Umstellung unseres gesamten Wirtschaftsapparats erfordern, was möglicherweise langfristige finanzielle Auswirkungen hätte."
- domrep.30.a: "Fokus Auf Kleinere Designs."
- domrep.30.b: "Kreuzer - Ein Kompromiss."
- domrep.30.c: "Baue Es."
-
- domrep.301.t: "Die Bauarbeiten Nehmen Fahrt Auf"
- domrep.301.d: "Nach monatelanger Störung der Ökonomie des Landes um die Bauarbeiten eines neuen Dreadnought-Flaggschiffes zu unterbringen, ist die Produktion voll im Gange."
- domrep.301.a: "No Pain No Gain."
-
- domrep.302.t: "Flaggschiff fertiggestellt"
- domrep.302.d: "Nach fast einem Jahr Bauzeit und einer Produktionskapazität des Landes, das sich stark auf dieses Projekt fokussierte, ist unsere neues monströse Schiff fertiggestellt"
- domrep.302.a: "Es Zahlte Sich Am Ende Aus."
-
- domrep.303.t: "Die Bauarbeiten Nehmen Fahrt Auf"
- domrep.303.d: "Nach monatelanger Störung der Ökonomie des Landes um die Bauarbeiten einer Flotte, moderner Kreuzer, zu unterbringen, ist die Produktion voll im Gange."
-
- domrep.304.t: "Kreuzer Fertiggestellt"
- domrep.304.d: "Nach fast einem Jahr Bauzeit und einer Produktionskapazität des Landes, das sich stark auf dieses Projekt fokussierte, ist unsere neue Flotte fertiggestellt."
-
- domrep.31.t: "In Die Lüfte Steigen"
- domrep.31.d: "Um anzufangen brauchen unsere Lufstreitkräfte sowohl Flugzeuge als auch Luftstützpunkte. Während das letztere eindeutig viel wichtiger den Kräften selbst ist, ist unser gewaltiger Mangel an Luftinfrastruktur ein Problem, dass viel leichter zu beheben ist."
- domrep.31.a: "Baue Die Stützpunkte."
- domrep.31.b: "Produziere Simple Flugzeuge."
-
- domrep.32.t: "Die Monte Cristi-Affäre"
- domrep.32.d_1: "In der Stadt von Monte Cristi hat eine große Anzahl an Migranten von Haiti ihren Wohnsitz in provisorischen Hütten gesetzt. Die Spannungen mit den einheimischen Sicherheitskräften sind seit langem gewachsen und haben sich verfestigt und sind nun übergekocht, als Dutzende von Migranten brutal zusammengeschlagen und unsägliche Demütigungen gegen die Tugendhaftigkeit ihrer Frauen begangen wurden. Haiti hat zwar noch nicht auf den Vorfall reagiert, aber die Informationen werden das Land sicherlich in wenigen Tagen erreichen, möglicherweise sogar noch früher, und die Art und Weise, wie wir die Männer behandeln, die diese Taten begangen haben, wird diplomatische Auswirkungen haben. Präsident Martínez, der wie jeder anständige Dominikaner Haiti und seinem Volk gegenüber misstrauisch ist, möchte die Männer disziplinieren und versuchen, ähnliche Vorfälle in Zukunft zu verhindern, aber der Nationalstolz und die gegenteiligen Ratschläge aus seiner Partei und seinem Kabinett haben ihn sehr unentschlossen gemacht."
- domrep.32.d_2: "In der Stadt von Monte Cristi hat eine große Anzahl an Migranten von Haiti ihren Wohnsitz in provisorischen Hütten gesetzt. Die Spannungen mit den einheimischen Sicherheitskräften sind seit langem gewachsen und haben sich verfestigt und sind nun übergekocht, als Dutzende von Migranten brutal zusammengeschlagen und unsägliche Demütigungen gegen die Tugendhaftigkeit ihrer Frauen begangen wurden. Haiti hat zwar noch nicht auf den Vorfall reagiert, aber die Informationen werden das Land sicherlich in wenigen Tagen erreichen, möglicherweise sogar noch früher. Präsident Estrella ist in dieser Angelegenheit unentschlossen und könnte dazu überredet werden, auf die eine oder andere Weise zu handeln oder sogar gar nichts zu tun, während er die Vorteile und diplomatischen Auswirkungen der Möglichkeiten abwägt."
- domrep.32.d_3: "In der Stadt von Monte Cristi hat eine große Anzahl an Migranten von Haiti ihren Wohnsitz in provisorischen Hütten gesetzt. Die Spannungen mit den einheimischen Sicherheitskräften sind seit langem gewachsen und haben sich verfestigt und sind nun übergekocht, als Dutzende von Migranten brutal zusammengeschlagen und unsägliche Demütigungen gegen die Tugendhaftigkeit ihrer Frauen begangen wurden. Haiti hat zwar noch nicht auf den Vorfall reagiert, aber die Informationen werden das Land sicherlich in wenigen Tagen erreichen, möglicherweise sogar noch früher, und die Art und Weise, wie wir die Männer behandeln, die diese Taten begangen haben, wird diplomatische Auswirkungen haben. Unsere Regierung unterstützt zwar die Handlungen der Soldaten, zögert aber, sie zu unterstützen, gerade weil es zu diplomatischen oder sogar bewaffneten Reaktionen kommen könnte."
- domrep.32.a: "Diszipliniere Die Männer."
- domrep.32.b: "Spreche Den Vorfall Nicht An."
- domrep.32.c: "Lobe Diese Helden."
-
- domrep.33.t: "Nachrichten von der Grenze"
- domrep.33.d_1: "Die Grenzgebiete waren schon immer ein Ort von Konflikten zwischen unserem Volk und der der Dominikaner. Heute, sind Nachrichten gekommen, dass diese reaktionären Bastarde entlang der Grenze, unaussprechliche Gewalttaten gegen eine Gruppe an Haitianischen Arbeitern, die in der Küstenstadt Monte Cristi residierten ausgeübt haben. Zwar hat ihre Regierung die Soldaten, die diese Taten begangen haben, letztlich gemaßregelt, aber sie hat nichts unternommen, um den Opfern ihrer Taten zu helfen. Natürlich kann ein solches Verbrechen an unserem Volk nicht einfach ignoriert werden, aber wie genau sollten wir darauf reagieren?"
- domrep.33.d_2: "Die Grenzgebiete waren schon immer ein Ort von Konflikten zwischen unserem Volk und der der Dominikaner. Heute, sind Nachrichten gekommen, dass diese reaktionären Bastarde entlang der Grenze, unaussprechliche Gewalttaten gegen eine Gruppe an Haitianischen Arbeitern, die in der Küstenstadt Monte Cristi residierten ausgeübt haben. Zwar hat ihre Regierung die Soldaten, die diese Taten begangen haben, letztlich gemaßregelt, aber sie hat nichts unternommen, um den Opfern ihrer Taten zu helfen. Präsident Lescot, der persöhnlich von diesen Nachrichten verärgert wurde, zögerte angesichts der Aussicht auf eine gewaltsame Reaktion über den Vorfall. So eine Aktion könnte potentiell die Insel in einen Krieg versetzen, eine Perspektive, die potentiell verheerend für beide Nationen sein könnte."
- domrep.33.a: "Zugeständnis Oder Krieg!"
- domrep.33.b: "Fordere Eine Wiedergutmachung."
- domrep.33.c: "Drücke Besorgnis Aus."
- domrep.33.d: "Erbitte die Amerikaner"
-
- domrep.34.t: "Auswahl eines Schlichters"
- domrep.34.d: "Während die Auswirkung der Monte Cristi-Affäre weiterhinn steigt, wird es eindeutig, dass wir die Dominikaner nicht ohne ausländische Hilfe herausfordern können."
- domrep.34.a: "[HAI.faction_leader.GetNameDefCap]"
- domrep.34.b: "Die Amerikaner waren immer ein fairer Schlichter."
-
- domrep.36.t: "Haiti Droht Den Krieg!"
- domrep.36.d_1: "Als Antwort zum Vorfall in Monte Cristi, hat Haiti uns mit Krieg gedroht außer wir verzichten komplett auf unsere Ansprüche auf die umstrittenen Gebiete im Artibonite-Tal zustimmen, eine beträchtliche Entschädigung zu zahlen. Diese Forderungen sind offensichtlich komplett unzumutbar und können nicht beachtet werden und als ein Resultat darauf, hat die Angst, dass Krieg nach Hispaniola kommen könnte, unsere Regierung ergriffen. Während einige immer noch denken, dass die Drohnung nur ein Bluff ist und ignoriert werden sollte, bestehen andere darauf, sofort Fortifikationen entlang der Grenze zu errichten und Truppen in defensive Positionen zu schieben. Außerdem könnten wir vielleicht, mit dem Ende der Unruhen in Amerika, unseren großen Nachbar im Norden um Hilfe bitten."
- domrep.36.d_2: "Als Antwort zum Vorfall in Monte Cristi, hat Haiti uns mit Krieg gedroht außer wir verzichten komplett auf unsere Ansprüche auf die umstrittenen Gebiete im Artibonite-Tal zustimmen, eine beträchtliche Entschädigung zu zahlen. Diese Forderungen sind offensichtlich komplett unzumutbar und können nicht beachtet werden und als ein Resultat darauf, hat die Angst, dass Krieg nach Hispaniola kommen könnte, unsere Regierung ergriffen. Während einige immer noch denken, dass die Drohnung nur ein Bluff ist und ignoriert werden sollte, bestehen andere darauf, sofort Fortifikationen entlang der Grenze zu errichten und Truppen in defensive Positionen zu schieben."
- domrep.36.a: "Die Grenze Sichern Und Auf Den Krieg Vorbereiten"
- domrep.36.b: "Lassen Sie Es Darauf Ankommen."
-
- domrep.37.t: "Haiti Fordert Eine Wiedergutmachung"
- domrep.37.d: "Als Antwort zum Vorfall in Monte Cristi, forderte Haiti eine offizielle Entschuldigung von unserer Regierung sowie eine finanzielle Wiedergutmachung für Haiti selbst und die betroffenen Individuellen; Als Gegenleistung, haben sie versprochen wenn wir akzeptieren, den Zustrom von Migranten über die Grenze vorübergehend zu kontrollieren und mit uns auf eine dauerhafte Lösung hinzuarbeiten. Ablehnung ihrer Forderungen, wird mit einer starken Antwort getroffen, versichern sie uns. Auch wenn diese Drohung nur ein Bluff sein könnte, wird die bloße Möglichkeit eines Krieges eine gewisse Befestigung der Grenze erforderlich machen, wenn wir ihre Bitte ablehnen."
- domrep.37.a: "Lehnet ab Und sichert die Grenze."
- domrep.37.b: "Akzeptiere die Forderungen."
-
- domrep.38.t: "Haiti Äußert Bedenken"
- domrep.38.d: "Die Antwort von Haiti über den Vorfall in Monte Cristi war ziemlich beunruhigend - ein simpler Ausdruck an Bedenken, keine Forderungen oder Verurteilungen, keine Kriegsdrohung wie es manche befürchteten. Berichte in den Grenzen sagen etwas ganz anderes, dann einige Soldaten berichten Bewegungen von Haitianischen Einheiten in den Artibonite-Tal, was eine Invasion auslösen könnte. Eventuell sind diese Meldungen falsch oder vielleicht ist die Haitianische Antwort nur eine List. Wenn diese stimmen, wird die Wahrscheinlichkeit einer diplomatischen Schlichtung zu der Grenzauseinandersetzung in Reichweite sein."
- domrep.38.a: "Es Könnte Eine List Sein... Sichert die Grenze."
- domrep.38.b: "Schiebt Zu Einer Permanenten Schlichtung."
-
- domrep.39.t: "Haiti Erbittet [FROM.GetNameDef]"
- domrep.39.d: "Haiti hat [FROM.GetAdjective] um Schlichtung der Monte Cristi-Affäre und die Auseinandersetzungen in der Artibonite Region im Allgemeinen erbitten. Wir können nur auf die Antwort von [FROM.GetAdjective] zu dieser Anfrage warten."
- domrep.39.a: "Wir Warten Und Schauen..."
-
- domrep.40.t: "Die Dominikaner Bereiten Sich Auf Den Krieg Vor"
- domrep.40.d: "Unsere Drohung wurde nicht über die leichte Schulter genommen. Sie lehnten unser Ultimatum ab und fingen an, schnell defensive Positionen entlang der Grenze zu errichten und halten ihre Reserven für den Fall bereit, dass die Insel tatsächlich von einem Krieg heimgesucht wird. Sollen wir es wie versprochen angehen und Hispaniola zerfetzen oder uns von diesem politischen Konflikt zurücktreten?"
- domrep.40.a: "Und Krieg können sie haben!"
- domrep.40.b: "Zurückziehen."
-
- domrep.41.t: "Die Dominikaner ignorieren unsere Drohung"
- domrep.41.d: "Unser Ultimatum wurde völlig ignoriert, und die einzige Antwort war fast nur Spott. Es scheint, dass die Dominikanische Republik so wenig über unser Wort als auch unser Volk denkt, Das Wort "Bluff" ist ihnen förmlich über die Lippen gekommen."
- domrep.41.a: "Gib Diesen Idioten Die Waffe."
- domrep.41.b: "Wir Richtig Sie Lagen - Zurückziehen!"
-
- domrep.43.t: "Die Dominikaner Ignorieren Unsere Forderungen"
- domrep.43.d: "Die Dominikanische Antwort auf unsere Forderungen der Wiedergutmachung war eine voll Spott. Sie haben es völlig ignoriert, und forderte uns geradezu heraus, zu antworten."
- domrep.43.a: "Sanktioniere Sie."
- domrep.43.b: "Ziehe Zurück."
- domrep.43.c: "Gib Diesen Idioten Die Waffe."
-
- domrep.44.t: "Die Dominikaner Akzeptieren Unsere Forderungen"
- domrep.44.d: "Die Dominikanische Republik hat sich geeinigt, die Opfer von Monte Cristi zu kompensieren und eine formelle Entschuldigung auszustellen sowie diese, die für Graueltaten verantwortlich waren, vor Gericht zu stellen. Während die Spannung hoch bleibt, treten sie rasch zurück, und die Möglichkeit einer Einigung scheint in Reichweite zu sein, da die Menschen auf beiden Seiten der Grenze die Notwendigkeit einer Einigung erkannt haben."
- domrep.44.a: "Exzellent!"
-
- domrep.45.t: "Die Dominikaner Militarisieren Die Grenze"
- domrep.45.d: "Die Dominikansiceh Republik antwortete überproportional zu unserer Ausdrucksweise von Sorge über den Monte Cristi Vorfall und wie ein Tier, dass Schwäche wahrnimmt, haben sie Truppen im Grenzgebiet eingesetzt und provisorische Befestigungen in wichtigen Positionen errichtet. Unsere Position in dem Grenzgebiet wurde geschwächt und es scheint, dass die Dominikaner ihr ganzen Anspruch auf das Artibone-Tal zwingen"
- domrep.45.a: "Zurückziehen."
- domrep.45.b: "Vermittlungsgesuch an eine ausländische Macht."
- domrep.45.c: "Gib diesen Idioten die Waffe."
-
- domrep.46.t: "Ein merkwürdiger Vorschlag"
- domrep.46.d: "Während unsere schwache Antwort zum Monte Cristi-Vorfall zuhause Ärger und Verachtung funkte, scheint die Dominikanische Republik so eine Antwort so ein informelles Angebot für Diplomatie verstanden zu haben. Sie haben vorgeschlagen, dass wir die Grenz- und Migrationsfragen ein für alle Mal lösen und uns in ihrer Hauptstadt treffen, um eine für beide Seiten annehmbare Einigung über diese beiden sehr spaltenden Themen zu erzielen."
- domrep.46.a: "Wir Müssen Da Sein!"
- domrep.46.b: "Wir umverschämt. Werden Wir Nicht!"
-
- domrep.47.t: "Haiti Erbittet Eine Schlichtung"
- domrep.47.d: "Jahre zuvor, besetzten amerikanische Marines das Ganze der Insel von Hispaniola, und die unaufhörliche Feindschaft zwischen Haiti und der Dominikanischen Republik wurde in Schach gehalten. Neulich, allerdings, hat ein weitbekannter Vorfall von Missbrauch zwischen Dominikanischen Truppen und Haitianischen Migranten Spannungen neu entfacht über die umstrittenen Gebiete im Artibonite-Tal und damit auch die alte Rivalität zwischen den Nationen von Hispaniola. Als Reaktion auf die zunehmend aggressiven Aktionen der Dominikaner und den allgemeinen Unwillen zu verhandeln, hat Haiti uns gebeten, als Vermittler in dem Streit aufzutreten und zumindest den Grenzkonflikt ein für alle Mal zu beenden."
- domrep.47.a: "Die Schlichtung der Streitigkeit zu Akzeptieren."
- domrep.47.b: "Ablehnen zu Schlichten."
- domrep.47.c: "In Die Hölle Mit Den Dominikanern!"
- domrep.47.e: "Wir Stimmen Den Dominikanern Zu, Eigentlich."
-
- domrep.48.t: "Haiti Erklärt Den Krieg"
- domrep.48.d_1: "Auch wenn es scheinte, ein zahnloser Bluff zu der Zeit zu sein, hat Haiti seine Kriegsdrohung wahr gemacht. Es scheint, dass Hispaniola zu einem Blutbad für sowohl den Haitianer als auch dem Dominikaner wird."
- domrep.48.d_2: "Wie es schon befürchtet wurde, erklärte Haiti uns den Krieg. Hoffentlich halten unsere Festungen entlang der Grenze und unser Land bleibt intakt. Trotzdem wird Hispaniola in Blut gebaden sowohl für den Haitianer als auch dem Dominikaner."
- domrep.48.a: "Hispaniola wird auseinandergerissen..."
-
- domrep.49.t: "Haiti Zieht sich Zurück"
- domrep.49.d: "Es scheint, dass Haiti das Problem von weiter behandeln will. Sie haben sich völlig zurückgezogen von dieser eher unglücklichen diplomatischen. Es bleibt zu hoffen, dass dieses Problem der Vergangenheit angehört und die haitianische Schwäche aufgedeckt wird, damit eine günstige Grenzregelung erreicht werden kann."
- domrep.49.a: "Sie sind so rückgratlos wie immer!"
-
- domrep.53.t: "Haiti erlässt Sanktionen"
- domrep.53.d: "Als Antwort auf unsere Ignorierung ihrer Forderungen, hat Haiti ökonomische Sanktionen erlassen, indem es macht was es kann, den Handel zwischen unseren beiden Nationen zu begrenzen. Während dies ihnen soviel wie uns weh tun wird, der Ziel dieses Zuges ist eindeutig: Druck auf eine De-Eskalation und einer Abrechnung."
- domrep.53.a: "Nichts Wurde Wirklich Verloren."
-
- domrep.54.t_1: "Ein Anderer Weg Nach Vorne"
- domrep.54.t_2: "Haiti schaffte es nicht sich an die Abmachung zu halten"
- domrep.54.d_1: "Während die Weigerung Haitis, auf eine dauerhafte diplomatische Lösung hinzuarbeiten, gelinde gesagt enttäuschend war, kam die völlige Weigerung, auch nur die offensichtlichen Lippenbekenntnisse gegenüber unserem Land zu erfüllen, völlig unerwartet. Die Situation im Grenzgebiet kehrte zurück zu dem, was es vor der Monte Cristi-Affäre war, ohne ein Ende in Sicht. Wir können so nicht weiter machen, wir müssen eingreifen."
- domrep.54.d_2: "Da wir die Forderungen Haitis nach Reparationen nur widerwillig akzeptierten, erklärten sie sich bereit, auf eine Lösung hinzuarbeiten und gleichzeitig die Migration vorübergehend einzudämmen. Kein Angebot an Diplomatie kam, noch irgendein Versuch Migration zu stoppen wurde gemacht. Sicherlich, wir müssen die Initiative ergreifen. Einige in unserer Regierung wünschen sich, sich auf ein Konflikt gegen Haiti heimlich vorzubereiten, während andere sich wünschen, auf eine teilweise diplomatische Lösung zu drängen."
- domrep.54.a: "Bereitet Euch Heimlich Auf Den Krieg Vor."
-
- domrep.55.t: "Haiti Stimmt Zu"
- domrep.55.d: "Haiti hat unseren Vorschlag für ein diplomatischen Gipfel um die gemeinsamen Grenzstreitigkeiten und Sorgen der Migration anzusprechen akzeptiert. Vorbereitungen werden in diesem Moment gemacht für das Treffen in Santo Domingo!"
- domrep.55.a: "Gut!"
-
- domrep.56.t: "Haiti Lehnt Ab"
- domrep.56.d: "Haiti hat unser Diplomatieangebot abgelehnt. Während Spannungen nach der ganzen Zeit gesunken sind, ohne einer permanenten Lösung in Sicht, könnten Spannungen bald wieder steigen."
- domrep.56.a: "Ihr Verlust."
-
- domrep.57.t: "Die [FROM.GetAdjective] Schlichtung"
- domrep.57.d: "Die [FROM.GetAdjective] hat zugestimmt, die Grenzstreitigkeiten zu schlichten. Alle Vorbehalte, die sowohl wir als auch unsere Feinde jenseits der Grenze gehabt haben mögen, müssen nun ausgeräumt werden, denn wir können den Zorn Amerikas nicht riskieren."
- domrep.57.a: "Wir Warten Und Schauen."
-
- domrep.58.t: "Die [FROM.GetAdjective] Verweigern zu Schlichten"
- domrep.58.d: "Die [FROM.GetAdjective]-Regierung hat die Schlichtung von den Streitigkeiten an der Grenze verweigert. Spannungen blieben hoch seit der Ankündigung von Amerika und eine unruhige Pattsituation siedelte sich um das Gebiet an."
- domrep.58.a: "Nun, das wird sicher interessant."
-
- domrep.59.t: "[FROM.GetNameDefCap] stellt sich an Haitis Seite"
- domrep.59.d: "Wie wir es erwarteten, die [FROM.GetAdjective] schlossen sich zur Seite ihrer haitianischen Landsleute an. Während wir zu dieser Entscheidung protestieren wollen, können wir nichts machen. Sonst würden wir natürlich idiotisch eine Konfrontation mit [FROM.GetNameDef] selbst riskieren."
- domrep.59.a: "Wir haben keine Wahl..."
-
- domrep.60.t: "[FROM.GetNameDefCap] schließen sich uns an"
- domrep.60.d: "[FROM.GetNameDefCap] haben sich unserer Seite völlig angeschlossen in den Streitigkeiten um die Grenzen mit der Dominikanischen Republik und beendete einen jahrzehntelangen Konflikt. Während die Dominikaner uns diese Entscheidung Übel nehmen, ist die [FROM.GetAdjective] Armee viel zu mächtig um sich effektiv gegen sie zu widerstehen."
- domrep.60.a: "Endlich, eine Ausländische Macht widerfährt uns Gerechtigkeit!"
-
- domrep.61.t: "Die Amerikaner schließen sich uns an"
- domrep.61.d: "Während dies ein Jahrhundert her war, rufte der amerikanische Süden nach der Annektierung unserer Nation, scheint es, dass die [FROM.GetAdjective] nichts anderes ist als unser Gegner; sie haben eindeutig die Haitianischen Forderungen um das umstrittene Land im Artibonite-Tal abgelehnt, dass alle Gebiete an uns vergeben werden"
- domrep.61.a: "Herzlichsten Dank."
-
- domrep.62.t: "[FROM.GetNameDefCap] schließen sich der dominikanischen Seite an"
- domrep.62.d: "[FROM.GetNameDefCap], wie es angesichts des derzeitigen Zustands der schwarzen Bevölkerung in diesem Land zu erwarten gewesen wäre, hat sich völlig der Seite der Dominikanischen Republik angeschlossen, mit der Warnung, dass wir alle Forderungen um die umstrittenen Gebieten fallen lassen sollen oder diese sonst ihren Zorn riskieren."
- domrep.62.a: "Die Amerikaner verarschen uns wieder einmal..."
-
- domrep.63.t: "Eine Neue Idee"
- domrep.63.d: "Die Sanktionen, die von der Haitianischen Regierung in Kraft gesetzt wurden, und das darauffolgende nicht zufriedenstellende Ergebnis des Monte Cristi-Vorfalls hatte eine schwere ökonomische Auswirkung über unsere geteilte Insel. Während Haiti nicht bereit ist zu Verhandeln, außer wenn ihre ursprünglichen Forderungen erfüllt sein werden, scheint es, dass wir die Fragen der umstrittenen Gebiete und der haitianischen Migration unabhängig voneinander lösen müssen, wenn wir sie lösen wollen.\n\nWährend dies eine radikaler Vorschlag ist wünschen sich viele in der Regierung und vor allem im Militär, auf ein entscheidendes Ende durch militärische Gewalt zu führen. Allerdings nicht mit Gewalt die gegen Haiti selbst gerichtet ist; diese Gewalt wird gegen Haitische Migranten gerichtet, die in den Bereichen des Grenzgebietes, die strategisch wichtig sind, leben.\n\nNicht nur würde so ein grauenvolles event die Haitianische Migration beenden sondern auch wichtige Städte und Dörfer von potentiellen Feiden befreien, aber es wird auch Haiti zwingen zu antworten. Sollten wir uns entscheiden diesen Plan durchzuführen, muss ein großer Aufwand an Vorbereitungen gemacht werden und wir müssten auch bereit sein, das Potenzial von einem internationalen Rückschlag zu akzeptieren."
- domrep.63.a: "Tu Es."
- domrep.63.b: "Dies Kann Nur Zu Einem Rückschlag Führen."
-
- domrep.64.t: "Hispaniola-Schlichtung"
- domrep.64.d: "Das Artibonite-Tal, der Kern von sowohl Westhaiti als auch dem Grenzegebiet, wurde zum Ort einer territorischen Auseinandersetzung zwischen den Nationen Hispaniola seit dem frühen Beginn der Dominikanischen Republik. Während das meiste der Grenze schon definiert wurde während der amerikanischen Besatzung von Haiti und auch der Dominikanischen Republik, innerhalb des Artibonite, existiert dort immernoch eine Anzahl an überlappenden Ansprüchen. Obwohl der Unterschied zwischen den Ansprüchen der einen und der anderen Nation nur ein paar Dutzend Quadratkilometer beträgt, scheint die Kluft des gegenseitigen Nationalstolzes unendlich groß zu sein. Wem sollten wir dieses umstrittene land überreichen?"
- domrep.64.a: "Schließe Dich An Die Seite Der Dominikaner."
- domrep.64.b: "Schließe Dich An Die Seite Haitis."
-
- domrep.65.t: "Perejil"
- domrep.65.d: "Im Grenzgebiet geht die Hölle los. In einem abschreckenden Akt der Gewalt, der selbst bei der Vorbereitung der Operation unvorstellbar war, haben unsere Soldaten in vielen haitianischen Gemeinden in strategisch wichtigen Gebieten auf unserer Seite der Grenze ein schnelles Ende gefunden. Sicherlich, wird Haiti der Sache mit Gewalt antworten; Nichts wie sowas kann sogar von Gott vergeben werden, geschweige denn von unseren satanischen Gegnern selbst, und wir müssen für alles mögliche bereit sein."
- domrep.65.a: "Ein Notwendiges Übel."
-
- domrep.66.t_1: "Ende Des Patts"
- domrep.66.t_2: "Versucht Aber Wahr"
- domrep.66.d_1: "Die Sanktionen, die von der Haitianischen Regierung in Kraft gesetzt wurden, und das darauffolgende nicht zufriedenstellende Ergebnis des Monte Cristi-Vorfalls hatte eine schwere ökonomische Auswirkung über unsere geteilte Insel. Während Haiti nicht bereit ist zu Verhandeln, außer wenn ihre ursprünglichen Forderungen erfüllt sein werden, scheint es, dass wir die Fragen der umstrittenen Gebiete und der haitianischen Migration unabhängig voneinander lösen müssen, wenn wir sie lösen wollen.\nWährend einige immer noch glauben, dass wir einfach kräftiger sein sollten in dem Schieben von einer diplomatischen Entschließung zu den anstehenden Problemen, rufen andere, dass wir geheime Vorbereitungen für einen Krieg gegen Haiti treffen sollten, mit der Sicht so weit, dass alle Versuche in der Diplomatie ineffektiv waren."
- domrep.66.d_2: "Da [FROM.GetAdjective] nicht bereit ist, in dem Konflikt zu vermitteln, müssen wir die Probleme der umstrittenen Gebiete und der haitianischen Migration wohl auf eigene Faust lösen.\nWährend einige immer noch der Meinung sind, dass wir einfach energischer auf eine diplomatische Lösung der anstehenden Probleme drängen sollten, rufen andere dazu auf, geheime Kriegsvorbereitungen gegen Haiti zu treffen, da bisher alle diplomatischen Versuche erfolglos geblieben sind."
- domrep.66.a: "Bereiten Wir Uns Heimlich Auf Den Krieg."
- domrep.66.b: "Suche Nach Einer Kleinen Beilegung."
-
- domrep.67.t: "Schlichtung auf Hispaniola abgeschlossen"
- domrep.67.d: "Egal wessen Territoriumsanspruch legitim ist, ist auch die Bevölkerung der Grenzgebiete einigermaßen vermischt. Vor allem wegen dem allgemein günstigeren ökonomischen Status der Dominikanischen Republik, haben große Mengen an Haitianern angefangen, die Grenze zu überqueren um nach Möglichkeiten zu suchen. Dies inspirierte den Unmut zwischen der Dominikanischen Bevölkerung, dessen nationalistisches Bewusstsein aufmerksam ist wegen der historischen haitianischen Versuche, ihr Land zu annektieren und zu unterdrücken; Eine solche Gruppe an Migranten, die zum Opfer einer Gruppe dominikanischer Soldaten während der Monte Cristi-Affäre wurde, zog dieses Problem zurück an die Öffentlichkeit. Während der von der Dominikanischen Republik vorgeschlagene Bevölkerungsaustausch ohne die uneingeschränkte Zusammenarbeit beider Nationen auf der Insel nicht durchführbar ist, können wir entweder die Migranten unterstützen, die sich bereits in der Dominikanischen Republik befinden, und die Dominikaner zwingen, Wiedergutmachung für die Monte-Cristi-Affäre zu leisten, oder Haiti dazu zwingen, den Migrantenstrom zu stoppen."
- domrep.67.a: "Zwinge Haiti Die Migration Einzuschränken."
- domrep.67.b: "Die Dominikaner Müssen Zahlen."
-
- domrep.68.t: "Schrecken"
- domrep.68.d: "Die Dominikanische Republik hat das Unglaubliche getan. In einer ekelhaften Darstellung von Barbarität, haben sie angefangen zu versuchen, Schrecken den Haitianern die in ihrer Seite der Grenze leben einzujagen. Sie zielen auf Zivilisten so bereitwillig wie bewaffnete Männer stürmen um ihre Ehefrauen und Kinder von diesem sinnlosen Gemetzel zu schützen. Sicherlich müssen wir zu diesem Vorfall antworten, aber wenn wir etwas anderes machen als den Krieg zu erklären, wird unsere Bevölkerung, die gerade den Blut der Dominikanern haben will, unerfreut sein. Für sie, und auch allen Dominikanern, wird die Verurteilung so gut sein wie ganz vom Konflikt zurückgetreten zu sein. Auf der Positiven Seite, allerdings, sollten wir uns entscheiden, den Krieg zu erklären, werden wir sicherlich eine große öffentliche Unterstützung kriegen und wahrscheinlich eine große Anzahl von Freiwilligen für den Kampf gewinnen können."
- domrep.68.a: "In Den Krieg!"
- domrep.68.b: "Das Können Wir Nicht."
-
- domrep.69.t: "[FROM.GetAdjective] Schlichtung Abgeschlossen"
- domrep.69.d_1: "Die [FROM.GetAdjective]-Regierung hat sich in den Auseinandersetzungen um das Artibonite-Tal und dem gesamte Grenzgebiet voll auf unsere Seite gestellt. Während unser zweifellos verzweilfelter Nachbar sich wünscht zu protestieren, Amerika ist einfach zu mächtig für sie zu widerstehen. Jetzt muss nur noch ein formeller Gebietsaustausch organisiert und ein umfassender Grenzvertrag unterzeichnet werden. Dies ist ein großer Tag für unsere Nation!"
- domrep.69.d_2: "Die [FROM.GetAdjective]-Regierung hat einen Kompromiss in den Auseinandersetzungen um das Artibone-Tal und dem gesamte Grenzgebiet zusammengestellt. Während dies nicht unserer Nation als auch unser Nachbar erfreut, ist so ein gemäßigtes Ergebnis nicht schmerzhaft für beide Parteien zu akzeptieren. Jetzt muss nur noch ein formeller Gebietsaustausch organisiert und ein umfassender Grenzvertrag unterzeichnet werden."
- domrep.69.d_3: "Die [FROM.GetAdjective]-Regierung hat sich in den Auseinandersetzungen um das Artibone-Tal und dem gesamte Grenzgebiet gegen uns gewendet. Während wir komplett verzweifelt über dieses Ergebnis sind und wir uns wünschen zu protestieren, ist Amerika einfach ein zu mächtiger Gegner um zu widerstehen. Jetzt muss nur noch ein formeller Gebietsaustausch organisiert und ein umfassender Grenzvertrag unterzeichnet werden. Dies ist ein schlechter Tag für unsere Nation."
- domrep.69.a: "Exzellent."
- domrep.69.b: "So Soll Es Sein."
- domrep.69.c: "Verdammt."
-
- domrep.70.t: "Haiti Erklärt Uns Den Krieg"
- domrep.70.d: "Als Antwort unseren Aktionen, erklärt uns Haiti den Krieg, mit einer Anzahl an Freiwilligen verärgert mit unseren Aktionen ihr Ansehen zu erweitern."
- domrep.70.a: "Krieg Ist Es Also."
-
- domrep.71.t: "Haiti Zieht Sich Zurück"
- domrep.71.d: "Schockierenderweise, hat Haiti lediglich eine Verurteilung unserer Aktionen ausgestellt und sich nicht dazu entschieden, einen Krieg zu starten. Unsere Position im Grenzgebiet ist sicherlich gestärkt worden und wir können jetzt zu einer begrenzten Siedlung auf hartem Boden fortfahren."
- domrep.71.a: "Gut!"
-
- domrep.80.t: "Dominikanischer Widerstand"
- domrep.80.d_1: "Der Dominikanische Widerstand zu unserer Kontrolle deren Regierung wächst mit der Zeit. Unsere Streitkräfte können gerade noch die Kontrolle über unser angebliches Marionettenregime geschweige denn die Zivilbevölkerung halten. Wenn die Situation weiter außer Kontrolle gerät, dann haben wir einen maßstäblichen Aufstand in unseren Händen."
- domrep.80.d_2: "Die Dominikaner werden unruhig. Selbst der von uns selbst eingesetzte Präsident [DOM.GetLeader] ist schwer zu kontrollieren. Außerdem sind unsere Streitkräfte im Lande ständigen Schikanen durch die dominikanische Zivilbevölkerung ausgesetzt. Insgesamt wird die Lage immer schwieriger. Vielleicht haben wir es sogar irgendwann mit einer Rebellion zu tun."
- domrep.80.a: "Das darf nicht außer Kontrolle geraten."
-
- domrep.82.t: "Dominikanische Rebellion"
- domrep.82.d: "Unser Regime in der Dominikanischen Republik ist heute zusammengebrochen, da Fraktionen, die über den Ausgang des Krieges verärgert sind, die Kontrolle über die Regierung übernommen haben. Da sie erkannt haben, dass ein Krieg unvermeidlich war, haben sie vorsorglich damit begonnen, ihre Milizen an die Grenze zu verlegen und eine offizielle Kriegserklärung gegen unsere Regierung abzugeben."
- domrep.82.a: "Ein weiterer Krieg also."
-
- domrep.84.t: "Haitianischer Widerstand"
- domrep.84.d: "Der Widerstand gegen unser Regime scheint zu wachsen, denn im ganzen Land herrscht ein Gefühl der Angst. Die Lage in Port-Au-Prince ist besonders angespannt, und die Luft scheint sogar eine gewisse Vorsicht walten zu lassen. Etwas, vielleicht sogar eine Rebellion, steht bevor, und wir müssen uns darauf vorbereiten."
+ dominican_republic_events.1.t: "Ein Geheimes Meeting"
+ dominican_republic_events.1.d: "In einem nichtbeschrifteten Gebäude am Rande von Santo Domingo, saßen 2 der mächtigsten Männer in der Dominikanischen Republik um einen Tisch herum. Rafael Estrella Ureña, Kandidat in den kommenden Präsidentschaftswahlen und Kopf der Republicano-Partei, und Rafael Trujillo Molina, Führer der Streitkräfte - Beide streben nach demselben, immer knapper werdenden Gut: Macht. Die beiden Männer haben jedoch völlig unterschiedliche Visionen für das Land, und in der kurzen Zeit seit dem Beginn des Treffens ist Estrella zunehmend misstrauisch gegenüber Trujillo und der Rolle geworden, die ihm abverlangt wird, sollten sie sich gemeinsam um die Macht bemühen."
+ dominican_republic_events.1.a: "Estrella Stürmt Raus."
+ dominican_republic_events.1.b: "Ein Deal Wurde Geschlossen."
+
+ dominican_republic_events.2.t: "Republicano Staatsstreich"
+ dominican_republic_events.2.d: "Heute wurde in Santo Domingo was viele befürchtet hatten zur Realität geworden. Fanatische bewaffnete Anhänger Estrellas betraten die Stadt und nahmen viele Regierungsgebäude ein. Währenddessen weigerte sich die Armee unter Rafael Trujillo ihre Barracken zu verlassen, wobei Trujillo verräterisch behauptete, in Bezug auf den versuchten Staatsstreich "neutral" zu sein. Ein Teil der Polizeikräfte der Stadt und viele Anhänger von Präsident Reyna sind allerdings auch in Scharen herbeigekommen um den Staatstreich zu bekämpfen."
+ dominican_republic_events.2.a: "Die Anstifter Sind Verstreut."
+ dominican_republic_events.2.b: "Die Hauptstadt Ist Besetzt."
+
+ dominican_republic_events.3.t: "Präsidentschaftswahlen"
+ dominican_republic_events.3.d_1: "Endlich ist die lang erwartete Präsidentschaftswahl angekommen, die Stimmzettel wurden in der ganzen Nation abgegeben und die Ergebnisse werden gezählt. Während einige befürchteten, dass Martínez vielleicht versucht die Integrität der Wahlen mit seiner Autorität zu unterdrücken, scheint der Prozess bislang ziemlich zulässig zu sein. Jetzt bleibt nur die Frage wer der Sieger sein wird."
+ dominican_republic_events.3.d_2: "Mit dem Fehlschlag des Staatsstreiches von Estrella und den Republicanos', kommandiert Martínez jetzt eine unüberwindliche Führung gegen den einzigen anderen Kandidat mit einer bedeutenden Anhängerschaft. Manuel Troncoso Concha, der weit als Marionette des Generals Rafael Trujillo Molina bekannt ist, ist selbst aus den Publikumslieblingen runtergerutscht und in politischer Bedeutung als Resultat seiner Verweigerung den versuchten Staatsstreich zu unterdrücken - eine Tat, für die viele fordern, dass Trujillo vor ein Gericht gestellt wird."
+ dominican_republic_events.3.a: "Martínez Sichert Sich Eine Weitere Amtszeit."
+ dominican_republic_events.3.b: "Estrella Übernimmt."
+
+ dominican_republic_events.4.t: "Estrellas Dilemma"
+ dominican_republic_events.4.d: "Obwohl als erstes versessen mit seiner neugefundenen Macht, fand Präsident Estrella schnell heraus, dass General Trujillo ein erschwerenderer Verbündeter ist als Martínez als Gegner. Darüber hinaus hat Trujillo alles andere außer bestätigt, dass er die Absicht hat die Vereinbarung teilweise zu kündigen, was den Staatsstreich verursachte. Er will nämlich nicht zulassen, dass Estrella bei den nächsten (völlig manipulierten) Präsidentschaftswahlen antritt. Auch wenn Trujillo jetzt viel politische Macht hat, sind die Anhänger von Estrella ebenfalls stärker geworden, und es ist denkbar, dass Estrella versucht, sich Trujillo zu widersetzen und selbst die Kontrolle über das Land zu übernehmen."
+ dominican_republic_events.4.a: "Estrella Widersteht."
+ dominican_republic_events.4.b: "Estrella Gibt Nach."
+
+ dominican_republic_events.5.t: "Estrellas Amtszeit Neigt Sich Dem Ende Zu"
+ dominican_republic_events.5.d: "Rafael Estrella Ureñas Zeit als provisioneller Präsident ist nun am Ende. Es wurde eine Schauwahl abgehalten, bei der Trujillos handverlesener Kandidat, Manuel Troncoso Concha, die einzige Option auf dem Stimmzettel war. Während Estrella ein gewisses Maß an Unabhängigkeit von Trujillo gehabt haben mag, gilt Troncoso als bloße Marionette, da die gesamte politische Macht nun entweder in den Händen von Trujillo selbst oder des Militärs im Allgemeinen liegt."
+ dominican_republic_events.5.a: "Trujillo ist jetzt nur noch dem Namen nach Präsident."
+
+ dominican_republic_events.6.t: "Estrella Ersetzt Trujillos Beauftragte"
+ dominican_republic_events.6.d: "Überzeugt, dass er tatsächlich Trujillo in einem Machtkampf besiegen kann, hat Präsident Estrella Personen in seinem Kabinett, die ursprünglich auf Trujillos Geheiß ernannt wurden, entlassen. Trujillo will sicherlich zu dieser Beleidigung antworten, aber es bleibt jedoch abzuwarten, inwieweit er Estrella rügen wird."
+ dominican_republic_events.6.a: "So beginnt es..."
+
+ dominican_republic_events.7.t: "Verbündete Nicht Mehr"
+ dominican_republic_events.7.d: "Während einer großen Versammlung von Republicano-Unterstützern, die meisten aus den höheren Klassen, befand sich das kleine Polizeitrupp, das dieses Event beaufsichtigte, überschwommen mit streitlustigen Soldaten die eindeutig loyal zu Trujillo waren. Es wurde bald darauf klar, dass diese Soldaten nur ein kleiner Anteil der vielen war, die die Stadt betraten um die zivile Regierung zu übernehmen. Genau wie damals, als Martínez kurzerhand aus der Regierung geworfen wurde, bleiben die städtischen Bediensteten, einschließlich der Polizei, der zivilen Verwaltung weitgehend treu, und die öffentliche Meinung ist entschieden gegen Trujillos neueste Machtergreifung."
+ dominican_republic_events.7.a: "Die Soldaten Zerstreuen Sich."
+ dominican_republic_events.7.b: "Trujillo Übernimmt die Regierung."
+
+ dominican_republic_events.8.t: "Schwarzer Montag in der Dominikanischen Republik"
+ dominican_republic_events.8.d: "Die zögerliche Erholung unsere Nation von der Amerikanischen Großen Depression ist zusammengefallen mit dem Zusammenbruch der deutschen Ökonomie mit dem Schwarzen Montag darauffolgend.Es scheint, dass unserem Land weitere wirtschaftliche Schwierigkeiten bevorstehen."
+ dominican_republic_events.8.a: "Sicherlich kann die Ökonomie nicht schlimmer werden?"
+
+ dominican_republic_events.9.t: "Der Verfassungskonvent Wird Einberufen"
+ dominican_republic_events.9.d: "Die Verfassungsversammlung wird von außenstehenden Beobachtern oft als Oberhaus der angeblich aus zwei Kammern bestehenden Legislative des Landes betrachtet, und in der Tat billigt die Versammlung die vom Unterhaus, dem "Kongress", verabschiedeten Gesetze oder lehnt sie ab. Ihre Rolle geht jedoch weit darüber hinaus. Auf Erlass des Präsidenten kann die Versammlung einberufen werden, um die Verfassung zu ändern oder sie sogar ganz zu ersetzen.\n\nNun, da der Erlass von Präsident Martínez und die Tagesordnung für diese Sondersitzung der Versammlung feststehen, ist die Versammlung zusammengetreten. Auf der Tagesordnung steht die Überarbeitung der dominikanischen Verfassung. Es bleibt abzuwarten, inwieweit das Dokument modifiziert oder gar vollständig ersetzt wird.\n\n Während bisher nur kleine Änderungen beschlossen wurden, hat ein bestimmtes Thema unter den Mitgliedern der Versammlung große Unstimmigkeiten verursacht. Und zwar die Frage, ob das Militär angesichts der politischen Manöver des Militärs in ein so genanntes Verfassungsministerium verlagert werden sollte oder nicht. Ein solcher Schritt würde die Handlungen des Militärs in Zukunft einer ständigen Überprüfung durch die Versammlung unterziehen, um sicherzustellen, dass alle seine Handlungen, wie geringfügig sie auch sein mögen, in vollem Einklang mit der Verfassung stehen. Natürlich würde dies das Militär einschränken, aber es würde auch eine neue Ebene der Bürokratie hinzufügen und möglicherweise ein entschlossenes Handeln in Krisenzeiten verhindern."
+ dominican_republic_events.9.a: "Die Streitkräfte Müssen Unabhängig Werden."
+ dominican_republic_events.9.b: "Das Militär Sollte Engeschränkt Werden."
+
+ dominican_republic_events.10.t: "Verfassungskonvent Thema Zwei"
+ dominican_republic_events.10.d: "Da der Druck immer größer wurde und sich kein klarer Nachfolger abzeichnete, wurde Präsident Martínez mit der wackeligen Zustimmung der Verfassungsversammlung nach der knappen Verabschiedung einer neuen Änderung für eine zweite Amtszeit zugelassen. Viele Abgeordnete und Bürger wünschen sich, dass diese Änderung rückgängig gemacht und eine neue Änderung verabschiedet wird, in der festgelegt wird, dass die Begrenzung auf eine Amtszeit unabänderlich ist. Andere sind der Meinung, dass die Möglichkeit der Wiederwahl bestehen bleiben und in der Verfassung selbst stärker verankert werden sollte. Diese Meinungsverschiedenheit hat den Verfassungskonvent erneut ins Stocken gebracht und könnte mit knapper Not in eine der beiden Richtungen gelöst werden."
+ dominican_republic_events.10.a: "Schaffe Die Wiederwahl Ein Für Alle Mal Ab."
+ dominican_republic_events.10.b: "Festige Die Zwei-Amtszeiten Begrenzung."
+
+ dominican_republic_events.11.t: "Verfassungskonvent Thema Drei"
+ dominican_republic_events.11.d: "Genau als der Konvent beendet zu sein scheinte, erhebte sich ein weiteres umstrittenes Problem. In anderen Ländern ist die Exekutive beinahe der alleinige Treuhänder des Staates, was große Macht der Nation finanziell bringt. In unserem eigenen Land allerdings, sind die finanziellen Dienste des Präsidenten einigermaßen begrenzt. Viele meinen, dass dies die Große Depression verschlimmerte und unsere Reaktion zu dem verheerenden Hurrikan 1930 verzögerte. Sollte die finanzielle Macht des Präsidenten erweitert werden?"
+ dominican_republic_events.11.a: "Lass Es So Wie Es Sein Soll."
+ dominican_republic_events.11.b: "Der Präsident Muss Größere Finanzielle Macht Haben."
+
+ dominican_republic_events.12.t: "Das Gerichtsverfahren"
+ dominican_republic_events.12.d_1: "Während die Vermutungen eines potenziellen Staatssteiches zwar unbegründet waren, sind Beweise der Untreue von General Trujillo reichlich vorhanden. Heute, nach einer Woche Inhaftierung von Truppen die nur dem Präsidenten loyal sind, wurde Trujillo vor einem Strafgerichtshof in Santo Domingo gebracht unter dem Vorwurf des Landesverrats. Während einige Trujillo im Gefängnis für den Rest seines Lebens verrotten sehen wollen, argumentieren andere dass diese ganze Affäre durchschaubarer Schwachsinn ist und er nur seines Kommandos enthoben werden sollte und nichts weiter."
+ dominican_republic_events.12.d_2: "Der Staatsstreich ist fehlgeschlagen, aber das Land ist immer noch reif an Unterstützern Trujillos sowie welche in der Elite, die Estrella unterstützen würden. Während die beiden Mönner vor einem Gerichtshof in Santo Domingo heute geschleppt wurden, scheinte der Präsident selbst, von Angst gefressen zu sein, ob er in dem Verfahren eingreifen soll. Während das Gericht sicherlich beide Männer hart verurteilen wird, werden ihre Anhänger in dem Fall nur gefährlich verzweifelt sein. Vielleicht könnte den Männern ein leichteres Urteil gegeben werden mit der Einmischung des Präsidenten um so ein Aufruhr zu verhindern."
+ dominican_republic_events.12.a: "Ein Hartes Urteil."
+ dominican_republic_events.12.b: "Zeige Nachsicht."
+
+ dominican_republic_events.13.t: "Korrigieren des Verrats"
+ dominican_republic_events.13.d_1: "Nachdem Fehlschlag seines versuchten Staatstreichs, fliehte General Trujillo zu den Grenzgebieten mit seinen loyalsten Unterstützern. Eine kleine Anzahl seiner Leutnanten wendete sich zu unserer Regierung kurz nach der Flucht und bot an, Trujillo im Gegenzug für seine unvermeidliche Hinrichtung an uns auszuliefern. Heute, trifft er sich seinem Schicksal entgegen."
+ dominican_republic_events.13.d_2: "Durch den Sieg der Präsidentschaftswahlen, muss Präsident Estrella den Mann konfrontieren, mit dem er einst ein Staatsstreich plante. Wenn Trujillo schon einen Putschversuch unternommen hat, wird er es trotz des Scheiterns des ersten sicherlich noch einmal tun, meint Estrella. Die Kugel eines Attentäters wird es schon richten."
+ dominican_republic_events.13.a: "Solch Eine Erbärmliche Ausrede Für Einen Mann."
+
+ dominican_republic_events.14.t: "Ein Siegeszug?"
+ dominican_republic_events.14.d: "President Estrellas Verbindungen zu den ökonomischen Elite der Nation erluabten es ihn, seine Rivalen in der Rojo Partei ernsthaft herauszufordern und diese ganz loszulösen. Seit sein Aufstieg zur Macht wurden seine früheren Unterstützer zunehmend, da sie keine Unterstützung durch die neue Verwaltung sehen. Unwollend, seine Versprechen zu tiefgreifenden wirtschaftlichen Zugeständnissen einzulösen, suchte Estrella nach einem Weg aus seiner Notlage. Wie ein Scahchspiel, hat er angefangen alle seine Figuren zu mobilisieren, und alle die sehr loyal ihm gegenüber sind, für einen entscheidenden Zug seine Gegner in die Ecke zu drängen."
+ dominican_republic_events.14.a: "Biete ein Unentschieden an."
+ dominican_republic_events.14.b: "Schachmatt."
+
+ dominican_republic_events.15.t: "Das Neue Regime"
+ dominican_republic_events.15.d: "Seit Estrellas Auszug der Präsidentschaft, wurde die politische Struktur unseres Landes zunehmend verwickelt. Verschiedene Aspekte der zivilen Regierung sind ausreichend aber nicht genug dem Militär unterlaufen. Hieraus entwickelte sich eine eigenartige Situation wo, trotz Trujillos dominanter Position, andere militärische Führer angefangen haben, sich wie Kriegsherren in den Militärbezirken in denen sie arbeiten zu verhalten, während Trujillo ähnlich zu einem Gangsterboss wird der locker über sie herrscht. General Trujillo hat erkannt, dass dieser Missstand ein Ende haben muss: Wo sich Zuständigkeiten überschneiden, müssen einige von ihren Posten entlassen werden, wo einige Kommandeure zu groß werden, müssen sie zwangsweise abgesetzt werden, und die Präsidentschaft kann nicht mehr nur provisorisch sein. Ob Troncoso weiter im Amt bleiben oder Trujillo das Amt einfach früher als bisher geplant übernehmen soll, ist allerdings noch umstritten."
+ dominican_republic_events.15.a: "Behalte Manuel Troncoso."
+ dominican_republic_events.15.b: "Ernenne Trujillo Früher."
+
+ dominican_republic_events.16.t: "Eine Diligente Bürokratie"
+ dominican_republic_events.16.d: "Untreue von denen in der Bürokratie wurde schon zu einer Belastung der Verwaltung und das Problem wird weiterhin wachsen wenn nichts unternommen wird. Während die in unserer Regierung zugestimmt haben, was zu tun ist um dieses Problem zu bekämpfen, und das wäre die Formierung einer neuen staatlichen Sicherheitsagentur um Unruhestifter aufzufinden, ist die Methode der Umsetzung viel umstrittener. Einerseits, argumentieren einige, vor allem Zivilisten, die sich auf die Seite des Militärs gestellt haben, dass die neue Agentur eine formelle bürokratische Abteilung sein sollte, während die im Militär sich teilten ob sie eine ähnliche Agentur allein unter der Schirmherrschaft von den Streitkräften bilden sollen oder Trujillos schon gebildete Abteilung 42 formalisieren sollen."
+ dominican_republic_events.16.a: "Eine Formelle Sicherheitsabteilung."
+ dominican_republic_events.16.b: "Ein Neuer Geheimer Sicherheitsdienst."
+ dominican_republic_events.16.c: "Erweitere 42."
+
+ dominican_republic_events.17.t: "Versicherung Von Militärischer Loyalität"
+ dominican_republic_events.17.d: "Enttäuschung im Inneren ist die unglückliche Realität der Politik. Natürlich werden solche Leute, die sehr gut sind aber vom Weg abgekommen sind, bemitleidet. Dann ist die Frage, wie werden sie wieder richtiggestellt? Es ist deutlich, dass die Lösung institutionell ist und mit unseren Reformen der Bürokratie kommen sollte. Das Heißt, wir könnten entweder versuchen, aggresiv die rechte Natur unserer Regierung fördern durch verpflichtende Umschulungen wann auch immer nötig, einfach auf verdoppelte Kampfdisziplin angewiesen sein, oder unserem neuen Sicherheitsdienst die Aufgabe zu geben, solche Leute an eine Linie zu bringen."
+ dominican_republic_events.17.a: "Schule Die Disillusionierten."
+ dominican_republic_events.17.b: "Verbessere Die Disziplin Zusätzlich."
+ dominican_republic_events.17.c: "Nutze Den Sicherheitsdienst."
+
+ dominican_republic_events.18.t: "Eine Militarisierte Ökonomie?"
+ dominican_republic_events.18.d: "Die Streitkräfte sind bemerkenswert gut in der Eliminierung von Abfall durch Disziplin. Ähnlicherweise behaupten viele in den Streitkräfte inklusive including General Trujillo, dass das ganze Land in einer ähnlichen Weise regiert werden soll. Das heißt, die Regulierung sollte sich nicht auf individuelle ökonomische Probleme fokussieren, noch sollte die Wirtschaftsbürokratie versuchen, Kleinigkeiten zu kontrollieren, denn sowas führt tatsächlich zu ökonomischem Schaden. Vielmehr muss das grundlegende wirtschaftliche Verhalten der Gesellschaft und des Einzelnen aggressiv gestaltet werden. Die gleiche allumfassende Hierarchie mit ihrer Ordnung und strengen Disziplin muss sich in der gesamten Nation widerspiegeln."
+ dominican_republic_events.18.a: "Dies Ist Eine Schlechte Idee."
+ dominican_republic_events.18.b: "Tut es!"
+
+ dominican_republic_events.19.t: "Reorganisieren des Außenministeriums"
+ dominican_republic_events.19.d: "Die Diplomaten im Ausland sind bislang größtenteils unbeeinflusst durch den Aufstieg unseres Regimes geblieben und viele sind zweifellos sympathisch gegenüber unserer Besatzung. Die Notwendigkeit, die meisten dieser Diplomaten zu ersetzen, liegt auf der Hand, doch wie dies geschehen soll, ist umstritten. Einige sind der Meinung, dass der Übergang schrittweise erfolgen sollte, wobei unseren Diplomaten die Sicherheit ihrer Positionen zugesichert und lediglich Loyalität und die treue Erfüllung ihrer Pflichten verlangt wird. Andere schlagen vor, den gesamten diplomatischen Kern neu zu organisieren, um diejenigen, deren Loyalität gesichert ist, aufzuwerten und diejenigen, die im Verdacht stehen, abweichende Ideen zu hegen, an den Rand zu drängen. Trujillo und seine Anhänger schlagen vor, dass nichts weniger als absolute Loyalität akzeptabel ist und dass alle Diplomaten mit zweifelhafter Loyalität entlassen und ihr Wohnsitzland um ihre Auslieferung ersucht werden sollte."
+ dominican_republic_events.19.a: "Schrittweiser Übergang."
+ dominican_republic_events.19.b: "Akzeptiere Die Reorganisierung."
+ dominican_republic_events.19.c: "Fordere Totale Loyalität."
+
+ dominican_republic_events.20.t: "Eine Lösung Finden"
+ dominican_republic_events.20.d: "Viele der prominentesten Familien und Einzelpersonen des Landes sind nach wie vor entschiedene Gegner unserer Regierung vor allem angesichts der Behandlung von Estrella, ein Mann tief in ihren Taschen. Tatsächlich sind Militärsmänner aus anderem Holz geschnitzt als die traditionelle Führungsschicht des Landes und sie werden es nicht dulden, dass sie kurzerhand ersetzt werden. Einige, allerdings, sind offen zu einer Kollaboration mit unserem Regime, und tatsächlich, schulden wir unserem Regime vielen porminenten Anwälten und Geschäftsmännern schon ihre Loyalität. Welcher Ansatz sollte bei der Klärung dieser Frage verfolgt werden??"
+ dominican_republic_events.20.a: "Versöhnung."
+ dominican_republic_events.20.b: "Degradierung."
+ dominican_republic_events.20.c: "Vernichtung."
+
+ dominican_republic_events.21.t: "Verankere Die Partei"
+ dominican_republic_events.21.d: "Um unsere nationale Stabilität und Einheitlichkeit zu halten, muss das Schicksal der Nation und der der Partei unzertrennlich sein. Der genaue Weg die Partei zu integrieren und die Mitgliedschaft anzuregen ist allerdings sehr debattiert. Was soll gemacht werden?"
+ dominican_republic_events.21.a: "Reine Beförderung Ist Vorzuziehen."
+ dominican_republic_events.21.b: "Benötige Offiziere Zum Beitreten."
+ dominican_republic_events.21.c: "Institutionalisiere Es."
+
+ dominican_republic_events.22.t: "Vom Licht Durchflutet"
+ dominican_republic_events.22.d: "Unsere Nation hinkt stark dem Rest der Welt in der Elektrifizierung zurück. Während aufkommende Technologien und Industrien sehr auf Elektrizität angewiesen sind, ist es relevant, dass die Lücke sofort geschlossen wird. Während Trujillo Während Trujillo für umfangreiche staatliche Investitionen in den Prozess plädiert, haben die schieren Kosten eines solchen Vorhabens viele andere auf den Plan gerufen. Als Reaktion darauf wurden alternative Vorschläge gemacht, die Kosten zu senken, indem man mit verschiedenen Industrieunternehmen im ganzen Land zusammenarbeitet, um ein privatisiertes Stromnetz zu schaffen, oder sich zunächst auf die Elektrifizierung von Militäreinrichtungen und staatseigenen Industrien zu konzentrieren."
+ dominican_republic_events.22.a: "Schließe Dich Den Unternehmensinteressen An."
+ dominican_republic_events.22.b: "Das Militär Steht An Erster Stelle."
+ dominican_republic_events.22.c: "Trujillo Hat Ein Gutes Argument."
+
+ dominican_republic_events.23.t: "Elektrifizierung Abgeschlossen"
+ dominican_republic_events.23.d_1: "Durch großzügige Anreizpakete, Hinterzimmermeetings, und zwielichtige unförmliche Geldüberweisungen, wurden die Industriekonzerne der Nation gerichtet um sofort ihr Fokus auf das neue Stromnetz zu fokussieren. Das neue privatisierte System kann obwohl es kostengünstig ist, nicht vom ganzen Staat genutzt werden. Dennoch ist das neue Stromnetz ein Segen sowohl für den Staat, das Volk, und den private Firmen."
+ dominican_republic_events.23.d_2: "Das Militär muss immer an erster Stelle stehen, und heute wurde das größte Monument dieser Dominanz fertiggestellt. Ein neues Stromnetz wurde schnell von Verbänden der Arbeitsbrigaden der Armee errichtet, dass verschiedene militärische Installationen und Regierungsgebäude im Ganzen Land verbindet. Viele ländliche Regionen bleiben allerdings ganz ohne Strom da die Kosten einfach zu hoch lagen."
+ dominican_republic_events.23.d_3: "Hauptsächlich wegen unseres großen finanziellen Engagements, war der Elektrifizierungsprozess ein totaler Erfolg, denn es wurde pünktlich fertiggestellt und alle Gesellschaftsstufen waren zufrieden. Die Kosten waren hoch aber es scheint, dass sich die Investition völlig ausgezahlt hat."
+ dominican_republic_events.23.a: "Gut."
+
+ dominican_republic_events.27.t: "Besondere Wahlen"
+ dominican_republic_events.27.d_1: "Ohne eine Art von Demokratie, wird das Volk sicherlich zunehmend unruhig. Um diese Umvermeidbarkeit zu verhindern, muss sogar das höchste Amt gewählt werden. Allerdings muss jeder Kandidat nicht nur akzeptable sein, sondern auch von den höchsten Ämtern der Partei gezogen werden. Zu diesem Zweck wurden zwei Kandidaten für die Wahl zugelassen: Carlos Manuel 'Pilindo' Bonetti Burgos, ein Anwalt und kulturelle Ikone, und General Ramon Vasquez Rivera, beide unter der Fahne der Dominikanischen Partei."
+ dominican_republic_events.27.d_2: "Einige schlugen vor, die oft lästige Legislative und vielleicht auch jeden Anschein von Demokratie ganz abzuschaffen, aber die Kosten eines solchen Schrittes waren einfach zu hoch. Um unserer Regierung Legitimität zu verleihen, wurden Wahlen für das Präsidentenamt organisiert. Ursprünglich sollte General Ramon Vasquez Rivera mit Trujillos Einverständnis ohne Gegenkandidaten antreten, doch beschloss Trujillo bald darauf, seine eigene Kandidatur bekannt zu geben, sehr zum Leidwesen anderer Offiziere, die seine immer noch etwas dominante Stellung sowohl in zivilen als auch in militärischen Angelegenheiten fürchteten."
+ dominican_republic_events.27.a: "Gehe mit Bonetti."
+ dominican_republic_events.27.b: "Rivera."
+ dominican_republic_events.27.c: "Trujillo Darf Kandidieren."
+
+ dominican_republic_events.28.t: "Abbau Des Legislativen Widerstands"
+ dominican_republic_events.28.d: "In den Hallen der Legislative, fing etwas wie ein Widerstand an zu eitern. Unzufrieden mit dem Fehlschlag unseres Regimes um eine Interessengruppe nach der anderen zu beschwichtigen, haben viele Kongressmänner ihre Dankbarkeit gegenüber des Regimes durch schurkische Intrigen und allgemeinen Unfug zeigen. Mit einer mehr oder weniger vollständig ausgegrenzten Legislatur, kann die Legislatur völlig wegfallen. Als Alternative können Abgeordnete, die die Zusammenarbeit verweigern, abgeschafft und ein gewisser Anschein von Demokratie aufrechterhalten werden."
+ dominican_republic_events.28.a: "Behalte Es De Jure."
+ dominican_republic_events.28.b: "Schaffe Die Legislatur Völlig Ab."
+
+ dominican_republic_events.30.t: "Ein Flaggschiff?"
+ dominican_republic_events.30.d: "Während die Nationen der Welt wieder konkurrieren um neuere und größere Designs zu produzieren, wie sie es auch während des Dreadnought-Rennens taten, werden kleinere Länder wie unsers unfähiger eine Invasion entgegenzuhalten. Um eine neue Besatzung zu verhindern, brauchen wir eine Marine, die in der Lage ist, sich mit anderen zu messen, für wenigstens eine kurze Zeit, sich mit den Großmächten zu konkurrieren und sich zu behaupten. Um dies zu schaffen, könnten wir, wie von vielen in unserer wachsenden Marine befürwortet, ein Flaggschiff aus den Resten eines veralteten Ungetüms zu bauen, das wir erwerben können, um es als Dreh- und Angelpunkt der neuen Flotte umzurüsten, einen eigenen Dreadnought. Diese Idee ist zwar verlockend, wäre aber zweifellos extrem kostspielig und würde eine Umstellung unseres gesamten Wirtschaftsapparats erfordern, was möglicherweise langfristige finanzielle Auswirkungen hätte."
+ dominican_republic_events.30.a: "Fokus Auf Kleinere Designs."
+ dominican_republic_events.30.b: "Kreuzer - Ein Kompromiss."
+ dominican_republic_events.30.c: "Baue Es."
+
+ dominican_republic_events.301.t: "Die Bauarbeiten Nehmen Fahrt Auf"
+ dominican_republic_events.301.d: "Nach monatelanger Störung der Ökonomie des Landes um die Bauarbeiten eines neuen Dreadnought-Flaggschiffes zu unterbringen, ist die Produktion voll im Gange."
+ dominican_republic_events.301.a: "No Pain No Gain."
+
+ dominican_republic_events.302.t: "Flaggschiff fertiggestellt"
+ dominican_republic_events.302.d: "Nach fast einem Jahr Bauzeit und einer Produktionskapazität des Landes, das sich stark auf dieses Projekt fokussierte, ist unsere neues monströse Schiff fertiggestellt"
+ dominican_republic_events.302.a: "Es Zahlte Sich Am Ende Aus."
+
+ dominican_republic_events.303.t: "Die Bauarbeiten Nehmen Fahrt Auf"
+ dominican_republic_events.303.d: "Nach monatelanger Störung der Ökonomie des Landes um die Bauarbeiten einer Flotte, moderner Kreuzer, zu unterbringen, ist die Produktion voll im Gange."
+
+ dominican_republic_events.304.t: "Kreuzer Fertiggestellt"
+ dominican_republic_events.304.d: "Nach fast einem Jahr Bauzeit und einer Produktionskapazität des Landes, das sich stark auf dieses Projekt fokussierte, ist unsere neue Flotte fertiggestellt."
+
+ dominican_republic_events.31.t: "In Die Lüfte Steigen"
+ dominican_republic_events.31.d: "Um anzufangen brauchen unsere Lufstreitkräfte sowohl Flugzeuge als auch Luftstützpunkte. Während das letztere eindeutig viel wichtiger den Kräften selbst ist, ist unser gewaltiger Mangel an Luftinfrastruktur ein Problem, dass viel leichter zu beheben ist."
+ dominican_republic_events.31.a: "Baue Die Stützpunkte."
+ dominican_republic_events.31.b: "Produziere Simple Flugzeuge."
+
+ dominican_republic_events.32.t: "Die Monte Cristi-Affäre"
+ dominican_republic_events.32.d_1: "In der Stadt von Monte Cristi hat eine große Anzahl an Migranten von Haiti ihren Wohnsitz in provisorischen Hütten gesetzt. Die Spannungen mit den einheimischen Sicherheitskräften sind seit langem gewachsen und haben sich verfestigt und sind nun übergekocht, als Dutzende von Migranten brutal zusammengeschlagen und unsägliche Demütigungen gegen die Tugendhaftigkeit ihrer Frauen begangen wurden. Haiti hat zwar noch nicht auf den Vorfall reagiert, aber die Informationen werden das Land sicherlich in wenigen Tagen erreichen, möglicherweise sogar noch früher, und die Art und Weise, wie wir die Männer behandeln, die diese Taten begangen haben, wird diplomatische Auswirkungen haben. Präsident Martínez, der wie jeder anständige Dominikaner Haiti und seinem Volk gegenüber misstrauisch ist, möchte die Männer disziplinieren und versuchen, ähnliche Vorfälle in Zukunft zu verhindern, aber der Nationalstolz und die gegenteiligen Ratschläge aus seiner Partei und seinem Kabinett haben ihn sehr unentschlossen gemacht."
+ dominican_republic_events.32.d_2: "In der Stadt von Monte Cristi hat eine große Anzahl an Migranten von Haiti ihren Wohnsitz in provisorischen Hütten gesetzt. Die Spannungen mit den einheimischen Sicherheitskräften sind seit langem gewachsen und haben sich verfestigt und sind nun übergekocht, als Dutzende von Migranten brutal zusammengeschlagen und unsägliche Demütigungen gegen die Tugendhaftigkeit ihrer Frauen begangen wurden. Haiti hat zwar noch nicht auf den Vorfall reagiert, aber die Informationen werden das Land sicherlich in wenigen Tagen erreichen, möglicherweise sogar noch früher. Präsident Estrella ist in dieser Angelegenheit unentschlossen und könnte dazu überredet werden, auf die eine oder andere Weise zu handeln oder sogar gar nichts zu tun, während er die Vorteile und diplomatischen Auswirkungen der Möglichkeiten abwägt."
+ dominican_republic_events.32.d_3: "In der Stadt von Monte Cristi hat eine große Anzahl an Migranten von Haiti ihren Wohnsitz in provisorischen Hütten gesetzt. Die Spannungen mit den einheimischen Sicherheitskräften sind seit langem gewachsen und haben sich verfestigt und sind nun übergekocht, als Dutzende von Migranten brutal zusammengeschlagen und unsägliche Demütigungen gegen die Tugendhaftigkeit ihrer Frauen begangen wurden. Haiti hat zwar noch nicht auf den Vorfall reagiert, aber die Informationen werden das Land sicherlich in wenigen Tagen erreichen, möglicherweise sogar noch früher, und die Art und Weise, wie wir die Männer behandeln, die diese Taten begangen haben, wird diplomatische Auswirkungen haben. Unsere Regierung unterstützt zwar die Handlungen der Soldaten, zögert aber, sie zu unterstützen, gerade weil es zu diplomatischen oder sogar bewaffneten Reaktionen kommen könnte."
+ dominican_republic_events.32.a: "Diszipliniere Die Männer."
+ dominican_republic_events.32.b: "Spreche Den Vorfall Nicht An."
+ dominican_republic_events.32.c: "Lobe Diese Helden."
+
+ dominican_republic_events.33.t: "Nachrichten von der Grenze"
+ dominican_republic_events.33.d_1: "Die Grenzgebiete waren schon immer ein Ort von Konflikten zwischen unserem Volk und der der Dominikaner. Heute, sind Nachrichten gekommen, dass diese reaktionären Bastarde entlang der Grenze, unaussprechliche Gewalttaten gegen eine Gruppe an Haitianischen Arbeitern, die in der Küstenstadt Monte Cristi residierten ausgeübt haben. Zwar hat ihre Regierung die Soldaten, die diese Taten begangen haben, letztlich gemaßregelt, aber sie hat nichts unternommen, um den Opfern ihrer Taten zu helfen. Natürlich kann ein solches Verbrechen an unserem Volk nicht einfach ignoriert werden, aber wie genau sollten wir darauf reagieren?"
+ dominican_republic_events.33.d_2: "Die Grenzgebiete waren schon immer ein Ort von Konflikten zwischen unserem Volk und der der Dominikaner. Heute, sind Nachrichten gekommen, dass diese reaktionären Bastarde entlang der Grenze, unaussprechliche Gewalttaten gegen eine Gruppe an Haitianischen Arbeitern, die in der Küstenstadt Monte Cristi residierten ausgeübt haben. Zwar hat ihre Regierung die Soldaten, die diese Taten begangen haben, letztlich gemaßregelt, aber sie hat nichts unternommen, um den Opfern ihrer Taten zu helfen. Präsident Lescot, der persöhnlich von diesen Nachrichten verärgert wurde, zögerte angesichts der Aussicht auf eine gewaltsame Reaktion über den Vorfall. So eine Aktion könnte potentiell die Insel in einen Krieg versetzen, eine Perspektive, die potentiell verheerend für beide Nationen sein könnte."
+ dominican_republic_events.33.a: "Zugeständnis Oder Krieg!"
+ dominican_republic_events.33.b: "Fordere Eine Wiedergutmachung."
+ dominican_republic_events.33.c: "Drücke Besorgnis Aus."
+ dominican_republic_events.33.d: "Erbitte die Amerikaner"
+
+ dominican_republic_events.34.t: "Auswahl eines Schlichters"
+ dominican_republic_events.34.d: "Während die Auswirkung der Monte Cristi-Affäre weiterhinn steigt, wird es eindeutig, dass wir die Dominikaner nicht ohne ausländische Hilfe herausfordern können."
+ dominican_republic_events.34.a: "[HAI.faction_leader.GetNameDefCap]"
+ dominican_republic_events.34.b: "Die Amerikaner waren immer ein fairer Schlichter."
+
+ dominican_republic_events.36.t: "Haiti Droht Den Krieg!"
+ dominican_republic_events.36.d_1: "Als Antwort zum Vorfall in Monte Cristi, hat Haiti uns mit Krieg gedroht außer wir verzichten komplett auf unsere Ansprüche auf die umstrittenen Gebiete im Artibonite-Tal zustimmen, eine beträchtliche Entschädigung zu zahlen. Diese Forderungen sind offensichtlich komplett unzumutbar und können nicht beachtet werden und als ein Resultat darauf, hat die Angst, dass Krieg nach Hispaniola kommen könnte, unsere Regierung ergriffen. Während einige immer noch denken, dass die Drohnung nur ein Bluff ist und ignoriert werden sollte, bestehen andere darauf, sofort Fortifikationen entlang der Grenze zu errichten und Truppen in defensive Positionen zu schieben. Außerdem könnten wir vielleicht, mit dem Ende der Unruhen in Amerika, unseren großen Nachbar im Norden um Hilfe bitten."
+ dominican_republic_events.36.d_2: "Als Antwort zum Vorfall in Monte Cristi, hat Haiti uns mit Krieg gedroht außer wir verzichten komplett auf unsere Ansprüche auf die umstrittenen Gebiete im Artibonite-Tal zustimmen, eine beträchtliche Entschädigung zu zahlen. Diese Forderungen sind offensichtlich komplett unzumutbar und können nicht beachtet werden und als ein Resultat darauf, hat die Angst, dass Krieg nach Hispaniola kommen könnte, unsere Regierung ergriffen. Während einige immer noch denken, dass die Drohnung nur ein Bluff ist und ignoriert werden sollte, bestehen andere darauf, sofort Fortifikationen entlang der Grenze zu errichten und Truppen in defensive Positionen zu schieben."
+ dominican_republic_events.36.a: "Die Grenze Sichern Und Auf Den Krieg Vorbereiten"
+ dominican_republic_events.36.b: "Lassen Sie Es Darauf Ankommen."
+
+ dominican_republic_events.37.t: "Haiti Fordert Eine Wiedergutmachung"
+ dominican_republic_events.37.d: "Als Antwort zum Vorfall in Monte Cristi, forderte Haiti eine offizielle Entschuldigung von unserer Regierung sowie eine finanzielle Wiedergutmachung für Haiti selbst und die betroffenen Individuellen; Als Gegenleistung, haben sie versprochen wenn wir akzeptieren, den Zustrom von Migranten über die Grenze vorübergehend zu kontrollieren und mit uns auf eine dauerhafte Lösung hinzuarbeiten. Ablehnung ihrer Forderungen, wird mit einer starken Antwort getroffen, versichern sie uns. Auch wenn diese Drohung nur ein Bluff sein könnte, wird die bloße Möglichkeit eines Krieges eine gewisse Befestigung der Grenze erforderlich machen, wenn wir ihre Bitte ablehnen."
+ dominican_republic_events.37.a: "Lehnet ab Und sichert die Grenze."
+ dominican_republic_events.37.b: "Akzeptiere die Forderungen."
+
+ dominican_republic_events.38.t: "Haiti Äußert Bedenken"
+ dominican_republic_events.38.d: "Die Antwort von Haiti über den Vorfall in Monte Cristi war ziemlich beunruhigend - ein simpler Ausdruck an Bedenken, keine Forderungen oder Verurteilungen, keine Kriegsdrohung wie es manche befürchteten. Berichte in den Grenzen sagen etwas ganz anderes, dann einige Soldaten berichten Bewegungen von Haitianischen Einheiten in den Artibonite-Tal, was eine Invasion auslösen könnte. Eventuell sind diese Meldungen falsch oder vielleicht ist die Haitianische Antwort nur eine List. Wenn diese stimmen, wird die Wahrscheinlichkeit einer diplomatischen Schlichtung zu der Grenzauseinandersetzung in Reichweite sein."
+ dominican_republic_events.38.a: "Es Könnte Eine List Sein... Sichert die Grenze."
+ dominican_republic_events.38.b: "Schiebt Zu Einer Permanenten Schlichtung."
+
+ dominican_republic_events.39.t: "Haiti Erbittet [FROM.GetNameDef]"
+ dominican_republic_events.39.d: "Haiti hat [FROM.GetAdjective] um Schlichtung der Monte Cristi-Affäre und die Auseinandersetzungen in der Artibonite Region im Allgemeinen erbitten. Wir können nur auf die Antwort von [FROM.GetAdjective] zu dieser Anfrage warten."
+ dominican_republic_events.39.a: "Wir Warten Und Schauen..."
+
+ dominican_republic_events.40.t: "Die Dominikaner Bereiten Sich Auf Den Krieg Vor"
+ dominican_republic_events.40.d: "Unsere Drohung wurde nicht über die leichte Schulter genommen. Sie lehnten unser Ultimatum ab und fingen an, schnell defensive Positionen entlang der Grenze zu errichten und halten ihre Reserven für den Fall bereit, dass die Insel tatsächlich von einem Krieg heimgesucht wird. Sollen wir es wie versprochen angehen und Hispaniola zerfetzen oder uns von diesem politischen Konflikt zurücktreten?"
+ dominican_republic_events.40.a: "Und Krieg können sie haben!"
+ dominican_republic_events.40.b: "Zurückziehen."
+
+ dominican_republic_events.41.t: "Die Dominikaner ignorieren unsere Drohung"
+ dominican_republic_events.41.d: "Unser Ultimatum wurde völlig ignoriert, und die einzige Antwort war fast nur Spott. Es scheint, dass die Dominikanische Republik so wenig über unser Wort als auch unser Volk denkt, Das Wort "Bluff" ist ihnen förmlich über die Lippen gekommen."
+ dominican_republic_events.41.a: "Gib Diesen Idioten Die Waffe."
+ dominican_republic_events.41.b: "Wir Richtig Sie Lagen - Zurückziehen!"
+
+ dominican_republic_events.43.t: "Die Dominikaner Ignorieren Unsere Forderungen"
+ dominican_republic_events.43.d: "Die Dominikanische Antwort auf unsere Forderungen der Wiedergutmachung war eine voll Spott. Sie haben es völlig ignoriert, und forderte uns geradezu heraus, zu antworten."
+ dominican_republic_events.43.a: "Sanktioniere Sie."
+ dominican_republic_events.43.b: "Ziehe Zurück."
+ dominican_republic_events.43.c: "Gib Diesen Idioten Die Waffe."
+
+ dominican_republic_events.44.t: "Die Dominikaner Akzeptieren Unsere Forderungen"
+ dominican_republic_events.44.d: "Die Dominikanische Republik hat sich geeinigt, die Opfer von Monte Cristi zu kompensieren und eine formelle Entschuldigung auszustellen sowie diese, die für Graueltaten verantwortlich waren, vor Gericht zu stellen. Während die Spannung hoch bleibt, treten sie rasch zurück, und die Möglichkeit einer Einigung scheint in Reichweite zu sein, da die Menschen auf beiden Seiten der Grenze die Notwendigkeit einer Einigung erkannt haben."
+ dominican_republic_events.44.a: "Exzellent!"
+
+ dominican_republic_events.45.t: "Die Dominikaner Militarisieren Die Grenze"
+ dominican_republic_events.45.d: "Die Dominikansiceh Republik antwortete überproportional zu unserer Ausdrucksweise von Sorge über den Monte Cristi Vorfall und wie ein Tier, dass Schwäche wahrnimmt, haben sie Truppen im Grenzgebiet eingesetzt und provisorische Befestigungen in wichtigen Positionen errichtet. Unsere Position in dem Grenzgebiet wurde geschwächt und es scheint, dass die Dominikaner ihr ganzen Anspruch auf das Artibone-Tal zwingen"
+ dominican_republic_events.45.a: "Zurückziehen."
+ dominican_republic_events.45.b: "Vermittlungsgesuch an eine ausländische Macht."
+ dominican_republic_events.45.c: "Gib diesen Idioten die Waffe."
+
+ dominican_republic_events.46.t: "Ein merkwürdiger Vorschlag"
+ dominican_republic_events.46.d: "Während unsere schwache Antwort zum Monte Cristi-Vorfall zuhause Ärger und Verachtung funkte, scheint die Dominikanische Republik so eine Antwort so ein informelles Angebot für Diplomatie verstanden zu haben. Sie haben vorgeschlagen, dass wir die Grenz- und Migrationsfragen ein für alle Mal lösen und uns in ihrer Hauptstadt treffen, um eine für beide Seiten annehmbare Einigung über diese beiden sehr spaltenden Themen zu erzielen."
+ dominican_republic_events.46.a: "Wir Müssen Da Sein!"
+ dominican_republic_events.46.b: "Wir umverschämt. Werden Wir Nicht!"
+
+ dominican_republic_events.47.t: "Haiti Erbittet Eine Schlichtung"
+ dominican_republic_events.47.d: "Jahre zuvor, besetzten amerikanische Marines das Ganze der Insel von Hispaniola, und die unaufhörliche Feindschaft zwischen Haiti und der Dominikanischen Republik wurde in Schach gehalten. Neulich, allerdings, hat ein weitbekannter Vorfall von Missbrauch zwischen Dominikanischen Truppen und Haitianischen Migranten Spannungen neu entfacht über die umstrittenen Gebiete im Artibonite-Tal und damit auch die alte Rivalität zwischen den Nationen von Hispaniola. Als Reaktion auf die zunehmend aggressiven Aktionen der Dominikaner und den allgemeinen Unwillen zu verhandeln, hat Haiti uns gebeten, als Vermittler in dem Streit aufzutreten und zumindest den Grenzkonflikt ein für alle Mal zu beenden."
+ dominican_republic_events.47.a: "Die Schlichtung der Streitigkeit zu Akzeptieren."
+ dominican_republic_events.47.b: "Ablehnen zu Schlichten."
+ dominican_republic_events.47.c: "In Die Hölle Mit Den Dominikanern!"
+ dominican_republic_events.47.e: "Wir Stimmen Den Dominikanern Zu, Eigentlich."
+
+ dominican_republic_events.48.t: "Haiti Erklärt Den Krieg"
+ dominican_republic_events.48.d_1: "Auch wenn es scheinte, ein zahnloser Bluff zu der Zeit zu sein, hat Haiti seine Kriegsdrohung wahr gemacht. Es scheint, dass Hispaniola zu einem Blutbad für sowohl den Haitianer als auch dem Dominikaner wird."
+ dominican_republic_events.48.d_2: "Wie es schon befürchtet wurde, erklärte Haiti uns den Krieg. Hoffentlich halten unsere Festungen entlang der Grenze und unser Land bleibt intakt. Trotzdem wird Hispaniola in Blut gebaden sowohl für den Haitianer als auch dem Dominikaner."
+ dominican_republic_events.48.a: "Hispaniola wird auseinandergerissen..."
+
+ dominican_republic_events.49.t: "Haiti Zieht sich Zurück"
+ dominican_republic_events.49.d: "Es scheint, dass Haiti das Problem von weiter behandeln will. Sie haben sich völlig zurückgezogen von dieser eher unglücklichen diplomatischen. Es bleibt zu hoffen, dass dieses Problem der Vergangenheit angehört und die haitianische Schwäche aufgedeckt wird, damit eine günstige Grenzregelung erreicht werden kann."
+ dominican_republic_events.49.a: "Sie sind so rückgratlos wie immer!"
+
+ dominican_republic_events.53.t: "Haiti erlässt Sanktionen"
+ dominican_republic_events.53.d: "Als Antwort auf unsere Ignorierung ihrer Forderungen, hat Haiti ökonomische Sanktionen erlassen, indem es macht was es kann, den Handel zwischen unseren beiden Nationen zu begrenzen. Während dies ihnen soviel wie uns weh tun wird, der Ziel dieses Zuges ist eindeutig: Druck auf eine De-Eskalation und einer Abrechnung."
+ dominican_republic_events.53.a: "Nichts Wurde Wirklich Verloren."
+
+ dominican_republic_events.54.t_1: "Ein Anderer Weg Nach Vorne"
+ dominican_republic_events.54.t_2: "Haiti schaffte es nicht sich an die Abmachung zu halten"
+ dominican_republic_events.54.d_1: "Während die Weigerung Haitis, auf eine dauerhafte diplomatische Lösung hinzuarbeiten, gelinde gesagt enttäuschend war, kam die völlige Weigerung, auch nur die offensichtlichen Lippenbekenntnisse gegenüber unserem Land zu erfüllen, völlig unerwartet. Die Situation im Grenzgebiet kehrte zurück zu dem, was es vor der Monte Cristi-Affäre war, ohne ein Ende in Sicht. Wir können so nicht weiter machen, wir müssen eingreifen."
+ dominican_republic_events.54.d_2: "Da wir die Forderungen Haitis nach Reparationen nur widerwillig akzeptierten, erklärten sie sich bereit, auf eine Lösung hinzuarbeiten und gleichzeitig die Migration vorübergehend einzudämmen. Kein Angebot an Diplomatie kam, noch irgendein Versuch Migration zu stoppen wurde gemacht. Sicherlich, wir müssen die Initiative ergreifen. Einige in unserer Regierung wünschen sich, sich auf ein Konflikt gegen Haiti heimlich vorzubereiten, während andere sich wünschen, auf eine teilweise diplomatische Lösung zu drängen."
+ dominican_republic_events.54.a: "Bereitet Euch Heimlich Auf Den Krieg Vor."
+
+ dominican_republic_events.55.t: "Haiti Stimmt Zu"
+ dominican_republic_events.55.d: "Haiti hat unseren Vorschlag für ein diplomatischen Gipfel um die gemeinsamen Grenzstreitigkeiten und Sorgen der Migration anzusprechen akzeptiert. Vorbereitungen werden in diesem Moment gemacht für das Treffen in Santo Domingo!"
+ dominican_republic_events.55.a: "Gut!"
+
+ dominican_republic_events.56.t: "Haiti Lehnt Ab"
+ dominican_republic_events.56.d: "Haiti hat unser Diplomatieangebot abgelehnt. Während Spannungen nach der ganzen Zeit gesunken sind, ohne einer permanenten Lösung in Sicht, könnten Spannungen bald wieder steigen."
+ dominican_republic_events.56.a: "Ihr Verlust."
+
+ dominican_republic_events.57.t: "Die [FROM.GetAdjective] Schlichtung"
+ dominican_republic_events.57.d: "Die [FROM.GetAdjective] hat zugestimmt, die Grenzstreitigkeiten zu schlichten. Alle Vorbehalte, die sowohl wir als auch unsere Feinde jenseits der Grenze gehabt haben mögen, müssen nun ausgeräumt werden, denn wir können den Zorn Amerikas nicht riskieren."
+ dominican_republic_events.57.a: "Wir Warten Und Schauen."
+
+ dominican_republic_events.58.t: "Die [FROM.GetAdjective] Verweigern zu Schlichten"
+ dominican_republic_events.58.d: "Die [FROM.GetAdjective]-Regierung hat die Schlichtung von den Streitigkeiten an der Grenze verweigert. Spannungen blieben hoch seit der Ankündigung von Amerika und eine unruhige Pattsituation siedelte sich um das Gebiet an."
+ dominican_republic_events.58.a: "Nun, das wird sicher interessant."
+
+ dominican_republic_events.59.t: "[FROM.GetNameDefCap] stellt sich an Haitis Seite"
+ dominican_republic_events.59.d: "Wie wir es erwarteten, die [FROM.GetAdjective] schlossen sich zur Seite ihrer haitianischen Landsleute an. Während wir zu dieser Entscheidung protestieren wollen, können wir nichts machen. Sonst würden wir natürlich idiotisch eine Konfrontation mit [FROM.GetNameDef] selbst riskieren."
+ dominican_republic_events.59.a: "Wir haben keine Wahl..."
+
+ dominican_republic_events.60.t: "[FROM.GetNameDefCap] schließen sich uns an"
+ dominican_republic_events.60.d: "[FROM.GetNameDefCap] haben sich unserer Seite völlig angeschlossen in den Streitigkeiten um die Grenzen mit der Dominikanischen Republik und beendete einen jahrzehntelangen Konflikt. Während die Dominikaner uns diese Entscheidung Übel nehmen, ist die [FROM.GetAdjective] Armee viel zu mächtig um sich effektiv gegen sie zu widerstehen."
+ dominican_republic_events.60.a: "Endlich, eine Ausländische Macht widerfährt uns Gerechtigkeit!"
+
+ dominican_republic_events.61.t: "Die Amerikaner schließen sich uns an"
+ dominican_republic_events.61.d: "Während dies ein Jahrhundert her war, rufte der amerikanische Süden nach der Annektierung unserer Nation, scheint es, dass die [FROM.GetAdjective] nichts anderes ist als unser Gegner; sie haben eindeutig die Haitianischen Forderungen um das umstrittene Land im Artibonite-Tal abgelehnt, dass alle Gebiete an uns vergeben werden"
+ dominican_republic_events.61.a: "Herzlichsten Dank."
+
+ dominican_republic_events.62.t: "[FROM.GetNameDefCap] schließen sich der dominikanischen Seite an"
+ dominican_republic_events.62.d: "[FROM.GetNameDefCap], wie es angesichts des derzeitigen Zustands der schwarzen Bevölkerung in diesem Land zu erwarten gewesen wäre, hat sich völlig der Seite der Dominikanischen Republik angeschlossen, mit der Warnung, dass wir alle Forderungen um die umstrittenen Gebieten fallen lassen sollen oder diese sonst ihren Zorn riskieren."
+ dominican_republic_events.62.a: "Die Amerikaner verarschen uns wieder einmal..."
+
+ dominican_republic_events.63.t: "Eine Neue Idee"
+ dominican_republic_events.63.d: "Die Sanktionen, die von der Haitianischen Regierung in Kraft gesetzt wurden, und das darauffolgende nicht zufriedenstellende Ergebnis des Monte Cristi-Vorfalls hatte eine schwere ökonomische Auswirkung über unsere geteilte Insel. Während Haiti nicht bereit ist zu Verhandeln, außer wenn ihre ursprünglichen Forderungen erfüllt sein werden, scheint es, dass wir die Fragen der umstrittenen Gebiete und der haitianischen Migration unabhängig voneinander lösen müssen, wenn wir sie lösen wollen.\n\nWährend dies eine radikaler Vorschlag ist wünschen sich viele in der Regierung und vor allem im Militär, auf ein entscheidendes Ende durch militärische Gewalt zu führen. Allerdings nicht mit Gewalt die gegen Haiti selbst gerichtet ist; diese Gewalt wird gegen Haitische Migranten gerichtet, die in den Bereichen des Grenzgebietes, die strategisch wichtig sind, leben.\n\nNicht nur würde so ein grauenvolles event die Haitianische Migration beenden sondern auch wichtige Städte und Dörfer von potentiellen Feiden befreien, aber es wird auch Haiti zwingen zu antworten. Sollten wir uns entscheiden diesen Plan durchzuführen, muss ein großer Aufwand an Vorbereitungen gemacht werden und wir müssten auch bereit sein, das Potenzial von einem internationalen Rückschlag zu akzeptieren."
+ dominican_republic_events.63.a: "Tu Es."
+ dominican_republic_events.63.b: "Dies Kann Nur Zu Einem Rückschlag Führen."
+
+ dominican_republic_events.64.t: "Hispaniola-Schlichtung"
+ dominican_republic_events.64.d: "Das Artibonite-Tal, der Kern von sowohl Westhaiti als auch dem Grenzegebiet, wurde zum Ort einer territorischen Auseinandersetzung zwischen den Nationen Hispaniola seit dem frühen Beginn der Dominikanischen Republik. Während das meiste der Grenze schon definiert wurde während der amerikanischen Besatzung von Haiti und auch der Dominikanischen Republik, innerhalb des Artibonite, existiert dort immernoch eine Anzahl an überlappenden Ansprüchen. Obwohl der Unterschied zwischen den Ansprüchen der einen und der anderen Nation nur ein paar Dutzend Quadratkilometer beträgt, scheint die Kluft des gegenseitigen Nationalstolzes unendlich groß zu sein. Wem sollten wir dieses umstrittene land überreichen?"
+ dominican_republic_events.64.a: "Schließe Dich An Die Seite Der Dominikaner."
+ dominican_republic_events.64.b: "Schließe Dich An Die Seite Haitis."
+
+ dominican_republic_events.65.t: "Perejil"
+ dominican_republic_events.65.d: "Im Grenzgebiet geht die Hölle los. In einem abschreckenden Akt der Gewalt, der selbst bei der Vorbereitung der Operation unvorstellbar war, haben unsere Soldaten in vielen haitianischen Gemeinden in strategisch wichtigen Gebieten auf unserer Seite der Grenze ein schnelles Ende gefunden. Sicherlich, wird Haiti der Sache mit Gewalt antworten; Nichts wie sowas kann sogar von Gott vergeben werden, geschweige denn von unseren satanischen Gegnern selbst, und wir müssen für alles mögliche bereit sein."
+ dominican_republic_events.65.a: "Ein Notwendiges Übel."
+
+ dominican_republic_events.66.t_1: "Ende Des Patts"
+ dominican_republic_events.66.t_2: "Versucht Aber Wahr"
+ dominican_republic_events.66.d_1: "Die Sanktionen, die von der Haitianischen Regierung in Kraft gesetzt wurden, und das darauffolgende nicht zufriedenstellende Ergebnis des Monte Cristi-Vorfalls hatte eine schwere ökonomische Auswirkung über unsere geteilte Insel. Während Haiti nicht bereit ist zu Verhandeln, außer wenn ihre ursprünglichen Forderungen erfüllt sein werden, scheint es, dass wir die Fragen der umstrittenen Gebiete und der haitianischen Migration unabhängig voneinander lösen müssen, wenn wir sie lösen wollen.\nWährend einige immer noch glauben, dass wir einfach kräftiger sein sollten in dem Schieben von einer diplomatischen Entschließung zu den anstehenden Problemen, rufen andere, dass wir geheime Vorbereitungen für einen Krieg gegen Haiti treffen sollten, mit der Sicht so weit, dass alle Versuche in der Diplomatie ineffektiv waren."
+ dominican_republic_events.66.d_2: "Da [FROM.GetAdjective] nicht bereit ist, in dem Konflikt zu vermitteln, müssen wir die Probleme der umstrittenen Gebiete und der haitianischen Migration wohl auf eigene Faust lösen.\nWährend einige immer noch der Meinung sind, dass wir einfach energischer auf eine diplomatische Lösung der anstehenden Probleme drängen sollten, rufen andere dazu auf, geheime Kriegsvorbereitungen gegen Haiti zu treffen, da bisher alle diplomatischen Versuche erfolglos geblieben sind."
+ dominican_republic_events.66.a: "Bereiten Wir Uns Heimlich Auf Den Krieg."
+ dominican_republic_events.66.b: "Suche Nach Einer Kleinen Beilegung."
+
+ dominican_republic_events.67.t: "Schlichtung auf Hispaniola abgeschlossen"
+ dominican_republic_events.67.d: "Egal wessen Territoriumsanspruch legitim ist, ist auch die Bevölkerung der Grenzgebiete einigermaßen vermischt. Vor allem wegen dem allgemein günstigeren ökonomischen Status der Dominikanischen Republik, haben große Mengen an Haitianern angefangen, die Grenze zu überqueren um nach Möglichkeiten zu suchen. Dies inspirierte den Unmut zwischen der Dominikanischen Bevölkerung, dessen nationalistisches Bewusstsein aufmerksam ist wegen der historischen haitianischen Versuche, ihr Land zu annektieren und zu unterdrücken; Eine solche Gruppe an Migranten, die zum Opfer einer Gruppe dominikanischer Soldaten während der Monte Cristi-Affäre wurde, zog dieses Problem zurück an die Öffentlichkeit. Während der von der Dominikanischen Republik vorgeschlagene Bevölkerungsaustausch ohne die uneingeschränkte Zusammenarbeit beider Nationen auf der Insel nicht durchführbar ist, können wir entweder die Migranten unterstützen, die sich bereits in der Dominikanischen Republik befinden, und die Dominikaner zwingen, Wiedergutmachung für die Monte-Cristi-Affäre zu leisten, oder Haiti dazu zwingen, den Migrantenstrom zu stoppen."
+ dominican_republic_events.67.a: "Zwinge Haiti Die Migration Einzuschränken."
+ dominican_republic_events.67.b: "Die Dominikaner Müssen Zahlen."
+
+ dominican_republic_events.68.t: "Schrecken"
+ dominican_republic_events.68.d: "Die Dominikanische Republik hat das Unglaubliche getan. In einer ekelhaften Darstellung von Barbarität, haben sie angefangen zu versuchen, Schrecken den Haitianern die in ihrer Seite der Grenze leben einzujagen. Sie zielen auf Zivilisten so bereitwillig wie bewaffnete Männer stürmen um ihre Ehefrauen und Kinder von diesem sinnlosen Gemetzel zu schützen. Sicherlich müssen wir zu diesem Vorfall antworten, aber wenn wir etwas anderes machen als den Krieg zu erklären, wird unsere Bevölkerung, die gerade den Blut der Dominikanern haben will, unerfreut sein. Für sie, und auch allen Dominikanern, wird die Verurteilung so gut sein wie ganz vom Konflikt zurückgetreten zu sein. Auf der Positiven Seite, allerdings, sollten wir uns entscheiden, den Krieg zu erklären, werden wir sicherlich eine große öffentliche Unterstützung kriegen und wahrscheinlich eine große Anzahl von Freiwilligen für den Kampf gewinnen können."
+ dominican_republic_events.68.a: "In Den Krieg!"
+ dominican_republic_events.68.b: "Das Können Wir Nicht."
+
+ dominican_republic_events.69.t: "[FROM.GetAdjective] Schlichtung Abgeschlossen"
+ dominican_republic_events.69.d_1: "Die [FROM.GetAdjective]-Regierung hat sich in den Auseinandersetzungen um das Artibonite-Tal und dem gesamte Grenzgebiet voll auf unsere Seite gestellt. Während unser zweifellos verzweilfelter Nachbar sich wünscht zu protestieren, Amerika ist einfach zu mächtig für sie zu widerstehen. Jetzt muss nur noch ein formeller Gebietsaustausch organisiert und ein umfassender Grenzvertrag unterzeichnet werden. Dies ist ein großer Tag für unsere Nation!"
+ dominican_republic_events.69.d_2: "Die [FROM.GetAdjective]-Regierung hat einen Kompromiss in den Auseinandersetzungen um das Artibone-Tal und dem gesamte Grenzgebiet zusammengestellt. Während dies nicht unserer Nation als auch unser Nachbar erfreut, ist so ein gemäßigtes Ergebnis nicht schmerzhaft für beide Parteien zu akzeptieren. Jetzt muss nur noch ein formeller Gebietsaustausch organisiert und ein umfassender Grenzvertrag unterzeichnet werden."
+ dominican_republic_events.69.d_3: "Die [FROM.GetAdjective]-Regierung hat sich in den Auseinandersetzungen um das Artibone-Tal und dem gesamte Grenzgebiet gegen uns gewendet. Während wir komplett verzweifelt über dieses Ergebnis sind und wir uns wünschen zu protestieren, ist Amerika einfach ein zu mächtiger Gegner um zu widerstehen. Jetzt muss nur noch ein formeller Gebietsaustausch organisiert und ein umfassender Grenzvertrag unterzeichnet werden. Dies ist ein schlechter Tag für unsere Nation."
+ dominican_republic_events.69.a: "Exzellent."
+ dominican_republic_events.69.b: "So Soll Es Sein."
+ dominican_republic_events.69.c: "Verdammt."
+
+ dominican_republic_events.70.t: "Haiti Erklärt Uns Den Krieg"
+ dominican_republic_events.70.d: "Als Antwort unseren Aktionen, erklärt uns Haiti den Krieg, mit einer Anzahl an Freiwilligen verärgert mit unseren Aktionen ihr Ansehen zu erweitern."
+ dominican_republic_events.70.a: "Krieg Ist Es Also."
+
+ dominican_republic_events.71.t: "Haiti Zieht Sich Zurück"
+ dominican_republic_events.71.d: "Schockierenderweise, hat Haiti lediglich eine Verurteilung unserer Aktionen ausgestellt und sich nicht dazu entschieden, einen Krieg zu starten. Unsere Position im Grenzgebiet ist sicherlich gestärkt worden und wir können jetzt zu einer begrenzten Siedlung auf hartem Boden fortfahren."
+ dominican_republic_events.71.a: "Gut!"
+
+ dominican_republic_events.80.t: "Dominikanischer Widerstand"
+ dominican_republic_events.80.d_1: "Der Dominikanische Widerstand zu unserer Kontrolle deren Regierung wächst mit der Zeit. Unsere Streitkräfte können gerade noch die Kontrolle über unser angebliches Marionettenregime geschweige denn die Zivilbevölkerung halten. Wenn die Situation weiter außer Kontrolle gerät, dann haben wir einen maßstäblichen Aufstand in unseren Händen."
+ dominican_republic_events.80.d_2: "Die Dominikaner werden unruhig. Selbst der von uns selbst eingesetzte Präsident [DOM.GetLeader] ist schwer zu kontrollieren. Außerdem sind unsere Streitkräfte im Lande ständigen Schikanen durch die dominikanische Zivilbevölkerung ausgesetzt. Insgesamt wird die Lage immer schwieriger. Vielleicht haben wir es sogar irgendwann mit einer Rebellion zu tun."
+ dominican_republic_events.80.a: "Das darf nicht außer Kontrolle geraten."
+
+ dominican_republic_events.82.t: "Dominikanische Rebellion"
+ dominican_republic_events.82.d: "Unser Regime in der Dominikanischen Republik ist heute zusammengebrochen, da Fraktionen, die über den Ausgang des Krieges verärgert sind, die Kontrolle über die Regierung übernommen haben. Da sie erkannt haben, dass ein Krieg unvermeidlich war, haben sie vorsorglich damit begonnen, ihre Milizen an die Grenze zu verlegen und eine offizielle Kriegserklärung gegen unsere Regierung abzugeben."
+ dominican_republic_events.82.a: "Ein weiterer Krieg also."
+
+ dominican_republic_events.84.t: "Haitianischer Widerstand"
+ dominican_republic_events.84.d: "Der Widerstand gegen unser Regime scheint zu wachsen, denn im ganzen Land herrscht ein Gefühl der Angst. Die Lage in Port-Au-Prince ist besonders angespannt, und die Luft scheint sogar eine gewisse Vorsicht walten zu lassen. Etwas, vielleicht sogar eine Rebellion, steht bevor, und wir müssen uns darauf vorbereiten."
  
- domrep.86.t: "Haitianischer Widerstand"
- domrep.86.d: "Unser Regime in Haiti ist heute zusammengebrochen, da Fraktionen, die über den Ausgang des Krieges verärgert sind, die Kontrolle über die Regierung übernommen haben. Da sie erkannt haben, dass ein Krieg unvermeidlich war, haben sie vorsorglich damit begonnen, ihre Milizen an die Grenze zu verlegen und eine offizielle Kriegserklärung gegen unsere Regierung abzugeben."
+ dominican_republic_events.86.t: "Haitianischer Widerstand"
+ dominican_republic_events.86.d: "Unser Regime in Haiti ist heute zusammengebrochen, da Fraktionen, die über den Ausgang des Krieges verärgert sind, die Kontrolle über die Regierung übernommen haben. Da sie erkannt haben, dass ein Krieg unvermeidlich war, haben sie vorsorglich damit begonnen, ihre Milizen an die Grenze zu verlegen und eine offizielle Kriegserklärung gegen unsere Regierung abzugeben."
  
- domrep.89.t: "Haiti In Die Schranken Gewiesen"
- domrep.89.d: "Endlich. Die Waffen ruhen, Haiti wurde besiegt. Unter dem aufmerksamen Auge unserer Soldaten, fangen die Haitianer an eine mehr zustimmende Regierung zu formieren und Vorbereitungen werden getroffen für den partiellen Abzug unserer Streitkräfte."
+ dominican_republic_events.88.t: "Das Schicksal der Dominikanischen Republik"
+ dominican_republic_events.88.d: "Endlich sind die Waffen verstummt, die Dominikanische Republik wurde besiegt. Unter den wachsamen Augen unserer Soldaten beginnen die Dominikaner, eine neue, akzeptablere Regierung zu bilden, und es werden Vorbereitungen für den teilweisen Abzug unserer Streitkräfte getroffen."
+ dominican_republic_events.88.a: "Problem gelöst!"
 
- domrep.94.t: "Beunruhigende Nachrichten von Costa Rica"
- domrep.94.d: "In einer großen Rede vor den Menschen in San José ein paar Tage zuvor, scheint der Costa Ricanische Präsident José Figueres Ferrer eine Überzeugung anzudeuten, aggresiv gegen Regimes, die nicht seiner Ideologie entsprechen, zu kämpfen. Er geht sogar so weit, unsere faire Nation als ein möglicher eifriger Gegner anzudeuten. Mit seiner Verkündung einer neue Allianz von Demokratischen Staaten in Zentralamerika und der Karibik heute, wurde unsere Regierung von der Angst eines Konfliktes verzehrt.\n\nWährend Costa Rioca keine Militärmacht ist, könnte es trotzdem eine Gefahr unserer nationalen Sicherheit stellen und falls es zu einem öffentlichen Krieg kommen sollte, werden wahrscheinlich aus unserer Bevölkerung die, die Ferrers Ideen unterstützen, die Waffen gegen uns aufnehmen. Glücklicherweise haben wir einen Plan: Ferrer ein für alle Mal ein Ende setzen. Es wird mindestens eine Woche dauern bis der Plan verwirklicht wird, und nur Gott weiß was dieser Verrückte davor machen wird."
- domrep.94.a: "Setze Den Plan In Bewegung."
- domrep.94.b: "Zu riskant, Sicherlich Wird Er Niemals eindringen."
+ dominican_republic_events.89.t: "Haiti In Die Schranken Gewiesen"
+ dominican_republic_events.89.d: "Endlich. Die Waffen ruhen, Haiti wurde besiegt. Unter dem aufmerksamen Auge unserer Soldaten, fangen die Haitianer an eine mehr zustimmende Regierung zu formieren und Vorbereitungen werden getroffen für den partiellen Abzug unserer Streitkräfte."
 
- domrep.95.t: "Attentatsversuch Fehlgeschlagen"
- domrep.95.d: "Was als jeder einzelne Tag für José Figueres Ferrer angefangen hat, wurde vormittags alles andere als das. Gerettet von der Kugel eines Attentäters nur durch den Eingriff eines Passanten. Es wurde herausgefunden dass sowohl der möchtegern Attentäter als auch der Passant ausländische Agenten waren. Der Attentäter der von der Regierung der Dominikanischen Republik geschickt wurde, war besorgt über unsere neulichen außenpolitischen Entscheidungen, und der Passant wurde von einer Dominikanischen unterirdischen Widerstandsgruppe geschickt um den Plan aufzudecken und die Dienste seiner Organisation in dem Kampf gegen die Dominikanische Republik anzubieten.\n\nAnscheinend ist der Dominikanische Widerstand gegen das tyrannische Regime des Landes schlißelich zu einer richtigen Bewegung verschmolzen; Eines, dass eine wesentliche Anzahl an Waffen und Munition erwirtschaftet hat. Sollten wir den Krieg dem zurzeitigen Dominikanischen Regime erklären, ob jetzt oder in der Zukunft, haben sie uns versprochen, als Unterstützung eine Rebellion veranzustalten."
- domrep.95.a: "Wir Werden Ihr Angebot Akzeptieren..."
- domrep.95.b: "Nur nicht jetzt."
+ dominican_republic_events.94.t: "Beunruhigende Nachrichten von Costa Rica"
+ dominican_republic_events.94.d: "In einer großen Rede vor den Menschen in San José ein paar Tage zuvor, scheint der Costa Ricanische Präsident José Figueres Ferrer eine Überzeugung anzudeuten, aggresiv gegen Regimes, die nicht seiner Ideologie entsprechen, zu kämpfen. Er geht sogar so weit, unsere faire Nation als ein möglicher eifriger Gegner anzudeuten. Mit seiner Verkündung einer neue Allianz von Demokratischen Staaten in Zentralamerika und der Karibik heute, wurde unsere Regierung von der Angst eines Konfliktes verzehrt.\n\nWährend Costa Rioca keine Militärmacht ist, könnte es trotzdem eine Gefahr unserer nationalen Sicherheit stellen und falls es zu einem öffentlichen Krieg kommen sollte, werden wahrscheinlich aus unserer Bevölkerung die, die Ferrers Ideen unterstützen, die Waffen gegen uns aufnehmen. Glücklicherweise haben wir einen Plan: Ferrer ein für alle Mal ein Ende setzen. Es wird mindestens eine Woche dauern bis der Plan verwirklicht wird, und nur Gott weiß was dieser Verrückte davor machen wird."
+ dominican_republic_events.94.a: "Setze Den Plan In Bewegung."
+ dominican_republic_events.94.b: "Zu riskant, Sicherlich Wird Er Niemals eindringen."
 
- domrep.96.t: "Unser Plan Wurde Aufgedeckt!"
- domrep.96.d: "Unser Versuch Präsident Ferrer zu töten hat spektakulär fehlgeschlagen. Den Berichten zufolge dass ein Passant eingegriffen ist und unseren Schützen stoppte. Wahrscheinlich wurde unsere Beteiligung auch aufgedeckt. Wir können nur auf eine Costa Ricanische Antwort warten."
- domrep.96.a: "Bereiten wir uns auf das Schlimmste vor."
+ dominican_republic_events.95.t: "Attentatsversuch Fehlgeschlagen"
+ dominican_republic_events.95.d: "Was als jeder einzelne Tag für José Figueres Ferrer angefangen hat, wurde vormittags alles andere als das. Gerettet von der Kugel eines Attentäters nur durch den Eingriff eines Passanten. Es wurde herausgefunden dass sowohl der möchtegern Attentäter als auch der Passant ausländische Agenten waren. Der Attentäter der von der Regierung der Dominikanischen Republik geschickt wurde, war besorgt über unsere neulichen außenpolitischen Entscheidungen, und der Passant wurde von einer Dominikanischen unterirdischen Widerstandsgruppe geschickt um den Plan aufzudecken und die Dienste seiner Organisation in dem Kampf gegen die Dominikanische Republik anzubieten.\n\nAnscheinend ist der Dominikanische Widerstand gegen das tyrannische Regime des Landes schlißelich zu einer richtigen Bewegung verschmolzen; Eines, dass eine wesentliche Anzahl an Waffen und Munition erwirtschaftet hat. Sollten wir den Krieg dem zurzeitigen Dominikanischen Regime erklären, ob jetzt oder in der Zukunft, haben sie uns versprochen, als Unterstützung eine Rebellion veranzustalten."
+ dominican_republic_events.95.a: "Wir Werden Ihr Angebot Akzeptieren..."
+ dominican_republic_events.95.b: "Nur nicht jetzt."
 
- domrep.97.t: "Vorbereitungen Abgeschlossen"
- domrep.97.d: "Mit der Absicht der dominikanischen Republik den Krieg zu erklären, begann unsere Nation heimlich mit den Vorbereitungen für eine groß angelegte Invasion auf die Dominikanische Republik. Diese Vorbereitungen sind abgeschlossen und die Rebellen in der Dominikanischen Republik wurden gesagt, auf eine offizielle Kriegserklärung zu warten um dann mit den Aufständen anzufangen. Heute, wurde diese Erklärung ausgestellt. Wir müssen schnell agieren, allerdings, da unser Überraschungselement fehlt und unsere vorsichtig vorbereitete Invasion schnell nutzlos werden kann während die Dominikanische Republik ihre Verteidigung verstärkt."
- domrep.97.a: "Zu den Waffen, Für die Freiheit!"
+ dominican_republic_events.96.t: "Unser Plan Wurde Aufgedeckt!"
+ dominican_republic_events.96.d: "Unser Versuch Präsident Ferrer zu töten hat spektakulär fehlgeschlagen. Den Berichten zufolge dass ein Passant eingegriffen ist und unseren Schützen stoppte. Wahrscheinlich wurde unsere Beteiligung auch aufgedeckt. Wir können nur auf eine Costa Ricanische Antwort warten."
+ dominican_republic_events.96.a: "Bereiten wir uns auf das Schlimmste vor."
 
- domrep.98.t: "Costa Rica Erklärt Uns den Krieg"
- domrep.98.d: "Der Mangel an Costa Ricanische Antwort wegen unseres Attentatsversuches auf Präsident Ferrer verwirrte viele in unserem Regime, aber die meisten hatten begonnen, es als reines Glück abzutun. Unglücklicherweise, hat Costa Rica jetzt geantwortet, und zwar mit einer Kriegserklärung. Wäre Costa Ricas Kriegserklärung die einzige schlechte Nachricht, die die Hauptsstadt heute erreichte, wäre das genug um unsere Regierung in Panik zu versetzen aber es ist noch schlimmer. Es scheint als wäre eine Gruppe an Rebellen mit in Verbindung mit der Ankündigung auferstanden, die Präsident Ferrer Loyalität schwören gegen unser angeblich 'tyrannisches' Regime."
- domrep.98.a: "Schrecklich!"
+ dominican_republic_events.97.t: "Vorbereitungen Abgeschlossen"
+ dominican_republic_events.97.d: "Mit der Absicht der dominikanischen Republik den Krieg zu erklären, begann unsere Nation heimlich mit den Vorbereitungen für eine groß angelegte Invasion auf die Dominikanische Republik. Diese Vorbereitungen sind abgeschlossen und die Rebellen in der Dominikanischen Republik wurden gesagt, auf eine offizielle Kriegserklärung zu warten um dann mit den Aufständen anzufangen. Heute, wurde diese Erklärung ausgestellt. Wir müssen schnell agieren, allerdings, da unser Überraschungselement fehlt und unsere vorsichtig vorbereitete Invasion schnell nutzlos werden kann während die Dominikanische Republik ihre Verteidigung verstärkt."
+ dominican_republic_events.97.a: "Zu den Waffen, Für die Freiheit!"
 
- domrep.99.t: "Costa Rica Erklärt Uns Den Krieg"
- domrep.99.d_1: "Als Teil des Kreuzzugs gegen angebliche 'diktatoren' durch Zentralamerika und der Karbik, wurde Costa Rica immer feindlicher zu unseren diplomatischen Bemühungen. Während die Nachricht, ihrer Absicht uns den Krieg zu erklären, Tage zuvor in Santo Domingo ankam, wurden die Berichte als unbegründete Gerüchte entlassen. Sicherlich wird dieser Narr Ferrer nicht so etwas versuchen? Leider, wurde eine Kriegserklärung heute angekündigt. Unsere Nation ist jetzt in einem offenen Konflikt mit Costa Rica."
- domrep.99.d_2: "Costa Rica reagierte zwar nicht mit Empörung auf das Attentat auf Präsident Ferrer, wie viele befürchtet hatten, es scheint so als wäre dies nicht vergeben worden. Costa Rica hat eine Kriegserklärung angekündigt und zitierten sowohl den Attentatsversuch als auch die despotische Natur unseres Regimes. Wäre Costa Ricas Kriegserklärung die einzige schlechte Nachricht, die die Hauptsstadt heute erreichte, wäre das genug um unsere Regierung in Panik zu versetzen aber es ist noch schlimmer. Es scheint als wäre eine Gruppe an Rebellen mit in Verbindung mit der Ankündigung auferstanden, die Präsident Ferrer Loyalität schwören gegen unser angeblich 'tyrannisches' Regime."
- domrep.99.a: "Eine Schlacht zwischen Titanen!"
+ dominican_republic_events.98.t: "Costa Rica Erklärt Uns den Krieg"
+ dominican_republic_events.98.d: "Der Mangel an Costa Ricanische Antwort wegen unseres Attentatsversuches auf Präsident Ferrer verwirrte viele in unserem Regime, aber die meisten hatten begonnen, es als reines Glück abzutun. Unglücklicherweise, hat Costa Rica jetzt geantwortet, und zwar mit einer Kriegserklärung. Wäre Costa Ricas Kriegserklärung die einzige schlechte Nachricht, die die Hauptsstadt heute erreichte, wäre das genug um unsere Regierung in Panik zu versetzen aber es ist noch schlimmer. Es scheint als wäre eine Gruppe an Rebellen mit in Verbindung mit der Ankündigung auferstanden, die Präsident Ferrer Loyalität schwören gegen unser angeblich 'tyrannisches' Regime."
+ dominican_republic_events.98.a: "Schrecklich!"
+
+ dominican_republic_events.99.t: "Costa Rica Erklärt Uns Den Krieg"
+ dominican_republic_events.99.d_1: "Als Teil des Kreuzzugs gegen angebliche 'diktatoren' durch Zentralamerika und der Karbik, wurde Costa Rica immer feindlicher zu unseren diplomatischen Bemühungen. Während die Nachricht, ihrer Absicht uns den Krieg zu erklären, Tage zuvor in Santo Domingo ankam, wurden die Berichte als unbegründete Gerüchte entlassen. Sicherlich wird dieser Narr Ferrer nicht so etwas versuchen? Leider, wurde eine Kriegserklärung heute angekündigt. Unsere Nation ist jetzt in einem offenen Konflikt mit Costa Rica."
+ dominican_republic_events.99.d_2: "Costa Rica reagierte zwar nicht mit Empörung auf das Attentat auf Präsident Ferrer, wie viele befürchtet hatten, es scheint so als wäre dies nicht vergeben worden. Costa Rica hat eine Kriegserklärung angekündigt und zitierten sowohl den Attentatsversuch als auch die despotische Natur unseres Regimes. Wäre Costa Ricas Kriegserklärung die einzige schlechte Nachricht, die die Hauptsstadt heute erreichte, wäre das genug um unsere Regierung in Panik zu versetzen aber es ist noch schlimmer. Es scheint als wäre eine Gruppe an Rebellen mit in Verbindung mit der Ankündigung auferstanden, die Präsident Ferrer Loyalität schwören gegen unser angeblich 'tyrannisches' Regime."
+ dominican_republic_events.99.a: "Eine Schlacht zwischen Titanen!"
 
 ### Country Names ###
  DOM: "Dominikanische Republik"

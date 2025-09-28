@@ -82,7 +82,7 @@
  SIA_reorganization_idea: "Waffenstandardisierungsprogramm"
  SIA_reorganization_idea_desc: "Durch die gesetzliche Standardisierung aller militärischen Schusswaffen auf die gleiche Munition können unsere kämpfenden Rüstungsfabriken Waffen in einer viel schnelleren Rate produzieren."
  SIA_new_construction_method_idea: "Vorfertigung-Methode"
- SIA_new_construction_method_idea_desc: "[SIA.GetSIAcementcorp] Forscher haben die Vorfertigung-Methode gemeistert, die es uns ermöglicht hat, unsere Baugeschwindigkeit erheblich zu steigern. Dies wird wiederum die [SIA.GetProperAdjective] Kriegsanstrengungen fördern."
+ SIA_new_construction_method_idea_desc: "$SIA_siam_cement$ Forscher haben die Vorfertigung-Methode gemeistert, die es uns ermöglicht hat, unsere Baugeschwindigkeit erheblich zu steigern. Dies wird wiederum die [SIA.GetProperAdjective] Kriegsanstrengungen fördern."
  SIA_Tiger_Economy_idea: "Tiger-Wirtschaft"
  SIA_Tiger_Economy_idea_desc: "Die schnell wachsende und aufstrebende Wirtschaft von [SIA.GetSIAshortname], die sich am Freihandel und an marktwirtschaftlichen Prinzipien orientiert, ist nun weltweit bekannt!"
  SIA_Communal_Farming_idea: "Kommunale Landwirtschaft"
@@ -135,10 +135,7 @@
  SIA_CONSTITUTION_GIVEN: "Die von König Prajadhipok entworfene Verfassung wurde vom Apiratthamontri Sapha verabschiedet"
  SIA_KHANA_RATSADON_COUP: "Der Staatsstreich der Khana Ratsadon ist erfolgt"
  SIA_CONSTITUTION_GIVEN_BORIPATR: "Hartgesottene Konservative haben nun die Kontrolle über das Land"
- SIA_police_integration_tt: "Durch die Unterstellung des [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective]n Polizeikommandos unter die Kontrolle der [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective]n Armee können sie als letzter Ausweg gegen ausländische Eindringlinge eingesetzt werden.\n\n"
  SIA_IRON_MARSHAL_PLAEK: "Feldmarschall Plaek Phibunsongkhram wird uns durch diese schweren Zeiten führen!"
- SIA_Chaiseri_upgrade_desc: "Wird Chaiseri aufrüsten.\n\n"
- SIA_SiamCement_upgrade_desc: "Wird [SIA.GetSIAcementcorp] aufrüsten.\n\n"
  SIA_no_civil_war: "Keine zivilen Unruhen innerhalb des [SIA.GetKingdomOrRepublicCap]"
  SIA_yes_civil_war: "Ein offener Aufstand hat in unserem Land stattgefunden"
  SIA_CONSTITUTION_GIVEN_SYNDIE: "Radikale Sozialisten übernehmen nun die Kontrolle über das Land"
@@ -150,7 +147,6 @@
  SIA_amnesty_tt: "Wir werden denjenigen Amnestie gewähren, die als rettbar eingestuft werden oder die während der Rebellion unfreiwillig gegen uns handeln mussten. Dies wird jedoch zu einiger ziviler Unruhe führen.\n\n"
  SIA_police_centralized_desc: "Dies wird das Risiko einer erfolgreichen Rebellion von Separatisten gegen [SIA.GetSIAshortname] verringern.\n\n"
  SIA_PRAJADHIPOK_REFORM: "Prajadipoks demokratische Reformen sind erfolgreich"
- SIA_yuwachon_integration_tt: "Dies wird uns ermöglichen, die militärischen Kadetteneinheiten im Notfall zu mobilisieren.\n"
  SIA_byebye_Bangkok: "Hat die Hauptstadt von Bangkok verlegt.\n"
  SIA_remove_title_tt: "§YKönigliche Titel§! werden nun abgeschafft."
  SIA_reinstall_title_tt: "§YKönigliche Titel§! werden nun wieder eingeführt."
@@ -161,7 +157,6 @@
  SIA_tractor_vic2_tt: "Jeder/Alle erhält '§YTraktoren§!' bis zum §Y31. Dezember 2035§!, mit folgenden Effekten\nLandwirtschaftliche Effizienz: §G+50%§!\n\n"
  SIA_Infra_decision_unlock_tt: "§GDies wird zusätzliche Infrastruktur-Bauentscheidungen freischalten, sobald das Verkehrsministerium eingerichtet ist§!\n"
  SIA_Civil_War_Ended: "Der Bürgerkrieg ist bereits beendet.\n"
- SIABRM_new_tt: "Sowohl wir als auch [SIA.GetSIAshortname] werden neue Divisionen erhalten.\n"
  SIA_still_bloated_bureaucracy: "Eine große bürokratische Reorganisation ist im Gange.\n"
  SIA_still_black_monday: "Spürt noch immer die wirtschaftlichen Auswirkungen des Schwarzen Montags.\n"
  SIA_only_current_gov_bonus_tt: "\n§RNur der Bonus der aktuellen Regierung wird aktiv sein, sollten andere Parteien diese Politik zuvor umgesetzt haben.§!\n"
@@ -272,7 +267,7 @@
  SIA_country_intro_header_2: "Die vielen anderen Probleme des Königreichs"
  SIA_country_intro_content_2: "Während [SIA.GetSIAshortname] für außenstehende Augen wirtschaftlich und industriell wohlhabend erscheint, ist es tatsächlich sehr abhängig von deutschen Investitionen und muss die wirtschaftlichen Beziehungen zu dieser Nation pflegen. Die Industrie ist ein sehr fragiler und kleiner Teil der Wirtschaft, die hauptsächlich auf Reis-, Zucker- und Holzexporte aufbaut. Der Nationalismus unter ethnischen Minderheiten ist gestiegen, was die Gefahr separatistischer Bewegungen in naher Zukunft erhöht. Darüber hinaus hat das aufgeblähte bürokratische System, das seit der Herrschaft von Rama VI. besteht, dringend benötigte Steuern abgezweigt und damit Banditen ermöglicht, weiterhin in den Randgebieten von [SIA.GetSIAshortname] ihr Unwesen zu treiben."
 
- SIA_guide: "§MPrajadhipoks Reformen§! (§lSozialliberalismus§! / §SSozialdemokratie§! / §cSozialkonservativismus§!)\n Wählen Sie während des Schwarzen Montags mindestens 3 der folgenden Optionen:\n£white_dot Kaufen Sie den größten Teil von Jasmins Reis.\n£white_dot Lassen Sie den Status quo der Bürokratie bestehen.\n£white_dot Kürzen Sie keine Militärausgaben.\n£white_dot Verdoppeln Sie die Erbschaftssteuer oder heben Sie das Glücksspielverbot auf.\nDies wird uns ermöglichen, den Sturm mit so wenig Dissens wie möglich zu überstehen.\n\n£white_dot Sie können wählen, welche der Parteien an die Macht kommen soll.\n£white_dot Alternativ: Reduzieren Sie die Spannungen während der Gelben-Dossier-Affäre genug oder lassen Sie Phibun das Kriegsrecht aufheben.\n\n§MUm einen der folgenden Pfade zu erhalten, beginnen Sie mit:§!\n£white_dot Wählen Sie während des Schwarzen Montags keine der oben aufgeführten Optionen, um den Dissens in der Bevölkerung zu verstärken.\n£white_dot Die Khana Ratsadon wird einen Putsch durchführen.\n£white_dot Wählen Sie während der \"Gelben-Dossier-Affäre\", die \"syndikalistischen Sympathisanten\" zu verhaften oder versuchen Sie, weitere Konflikte im Parlament anzustacheln.\n\n§MPutsch§! - §MPhibun§! / §MSarit§! / §MPhao§! (§NNationalpopulisten§! / §PPaternalist§!)\n£white_dot Wählen Sie während \"Phibunsongkhrams Dilemma\" \"Versuchen Sie, diesen Fraktionsstreit zu beenden.\"\n£white_dot Warten Sie 2 Monate, es sollte eine Option geben \"die Macht für uns selbst zu ergreifen\", wonach Phibun die Kontrolle übernehmen und Sie zu §NNationalpopulisten§! machen wird.\n£white_dot Um ihn am Leben zu erhalten, führen Sie die Ratthaniyom-Reformen durch, aber verabschieden Sie nicht das Neue Hymnen-Gesetz, führen Sie jedoch den \"Förderung der Verwendung des Bangkok-Dialekts in der Pflichtschulbildung\" Akt durch; Phibun wird so bis in die 50er Jahre leben.\n£white_dot Wenn Phibun ermordet wird (sei es durch Nichtumsetzung der Reformen oder zu hartes/weiches Vorgehen) können Sie entweder Phaos §NNationalpopulistische§! republikanische Route oder Sarits §PPaternalistische§! Wiederherstellung der königlichen Macht wählen.\n\n§MGeburt der Sozialistischen Republik§! (§RRadikaler Sozialismus§!)\n£white_dot Wählen Sie während \"Phibunsongkhrams Dilemma\" \"Die Würde Seiner Majestät muss gewahrt bleiben!\", und stellen Sie sich auf die Seite der Royalisten.\n£white_dot Wenn die Rebellion beginnt, wählen Sie die Option \"Für das Land!\" (die Rebellen) und versuchen Sie, den Bürgerkrieg durch die Eroberung Bangkoks zu gewinnen.\n\n§MMacht dem König§! (§PPaternalist§!)\n£white_dot Wählen Sie während \"Phibunsongkhrams Dilemma\" \"Dann ist es Verrat!\", und stellen Sie sich auf die Seite der Parlamentarier.\n£white_dot Wenn die Rebellion beginnt, wählen Sie die Option \"Für den König!\" (die Rebellen) und versuchen Sie, den Bürgerkrieg durch die Eroberung Bangkoks zu gewinnen.\n£white_dot (Bonus): Auf diesem Pfad kann Paribatra Sukhumbhand nach dem Tod von Rama VII. den Thron an sich reißen.\n"
+ SIA_guide: "§MPrajadhipoks Reformen§! ($social_liberal_coloured$ / $social_democrat_coloured$ / $social_conservative_coloured$)\n Wählen Sie während des Schwarzen Montags mindestens 3 der folgenden Optionen:\n£white_dot Kaufen Sie den größten Teil von Jasmins Reis.\n£white_dot Lassen Sie den Status quo der Bürokratie bestehen.\n£white_dot Kürzen Sie keine Militärausgaben.\n£white_dot Verdoppeln Sie die Erbschaftssteuer oder heben Sie das Glücksspielverbot auf.\nDies wird uns ermöglichen, den Sturm mit so wenig Dissens wie möglich zu überstehen.\n\n£white_dot Sie können wählen, welche der Parteien an die Macht kommen soll.\n£white_dot Alternativ: Reduzieren Sie die Spannungen während der Gelben-Dossier-Affäre genug oder lassen Sie Phibun das Kriegsrecht aufheben.\n\n§MUm einen der folgenden Pfade zu erhalten, beginnen Sie mit:§!\n£white_dot Wählen Sie während des Schwarzen Montags keine der oben aufgeführten Optionen, um den Dissens in der Bevölkerung zu verstärken.\n£white_dot Die Khana Ratsadon wird einen Putsch durchführen.\n£white_dot Wählen Sie während der \"Gelben-Dossier-Affäre\", die \"syndikalistischen Sympathisanten\" zu verhaften oder versuchen Sie, weitere Konflikte im Parlament anzustacheln.\n\n§MPutsch§! - §MPlaek Phibunsongkhram§! / §MSarit Thanarat§! / §MPhao Sriyanond§! ($national_populist_coloured$ / $paternal_autocrat_coloured$)\n£white_dot Wählen Sie während \"Phibunsongkhrams Dilemma\" \"Versuchen Sie, diesen Fraktionsstreit zu beenden.\"\n£white_dot Warten Sie 2 Monate, es sollte eine Option geben \"die Macht für uns selbst zu ergreifen\", wonach Phibun die Kontrolle übernehmen und Sie zu $national_populist_coloured$ machen wird.\n£white_dot Um ihn am Leben zu erhalten, führen Sie die Ratthaniyom-Reformen durch, aber verabschieden Sie nicht das Neue Hymnen-Gesetz, führen Sie jedoch den \"Förderung der Verwendung des Bangkok-Dialekts in der Pflichtschulbildung\" Akt durch; Phibun wird so bis in die 50er Jahre leben.\n£white_dot Wenn Phibun ermordet wird (sei es durch Nichtumsetzung der Reformen oder zu hartes/weiches Vorgehen) können Sie entweder Phaos $national_populist_coloured$ republikanische Route oder Sarits $paternal_autocrat_coloured$ Wiederherstellung der königlichen Macht wählen.\n\n§MGeburt der Sozialistischen Republik§! ($radical_socialist_coloured$)\n£white_dot Wählen Sie während \"Phibunsongkhrams Dilemma\" \"Die Würde Seiner Majestät muss gewahrt bleiben!\", und stellen Sie sich auf die Seite der Royalisten.\n£white_dot Wenn die Rebellion beginnt, wählen Sie die Option \"Für das Land!\" (die Rebellen) und versuchen Sie, den Bürgerkrieg durch die Eroberung Bangkoks zu gewinnen.\n\n§MMacht dem König§! ($paternal_autocrat_coloured$)\n£white_dot Wählen Sie während \"Phibunsongkhrams Dilemma\" \"Dann ist es Verrat!\", und stellen Sie sich auf die Seite der Parlamentarier.\n£white_dot Wenn die Rebellion beginnt, wählen Sie die Option \"Für den König!\" (die Rebellen) und versuchen Sie, den Bürgerkrieg durch die Eroberung Bangkoks zu gewinnen.\n£white_dot (Bonus): Auf diesem Pfad kann Paribatra Sukhumbhand nach dem Tod von Rama VII. den Thron an sich reißen.\n"
 
 ### Newly Reformed Siamese Events ###
 
@@ -283,616 +278,616 @@
 #################################
 
 ## Black Monday and Early political chaos # Max Reform 7 - Lowest 0: 0-2 = Khana Ratsadon coup, 3-4 = Civil War with Prajadhipok Bias (based on Boworadet Rebellion), 5-6 = success, 7 = Reactionary coup with Paribatra as HoS
- siam.4.t: "Schwarzer Montag trifft [SIA.GetSIAshortname]!"
- siam.4.d: "Aufgrund der starken Abhängigkeit von den Wirtschaftsbeziehungen mit Deutschland hat der Schwarze Montag [SIA.GetSIAshortname] schnell in einen wirtschaftlichen Abgrund gezogen, da die Nachfrage nach den wichtigsten landwirtschaftlichen Exportgütern stark gesunken ist und Lieferungen in den Lagerhäusern verrotten. Angestellte ausländischer Unternehmen werden kontinuierlich entlassen, während sich das Volk vor dem Großen Palast versammelt und auf Hoffnung wartet. Es ist offensichtlich, dass wir etwas gegen unsere wirtschaftliche Situation unternehmen müssen, bevor sie sich verschlimmert und uns weiter abstürzen lässt."
- siam.4.a: "Khun Prah!"
+ siam_events.4.t: "Schwarzer Montag trifft [SIA.GetSIAshortname]!"
+ siam_events.4.d: "Aufgrund der starken Abhängigkeit von den Wirtschaftsbeziehungen mit Deutschland hat der Schwarze Montag [SIA.GetSIAshortname] schnell in einen wirtschaftlichen Abgrund gezogen, da die Nachfrage nach den wichtigsten landwirtschaftlichen Exportgütern stark gesunken ist und Lieferungen in den Lagerhäusern verrotten. Angestellte ausländischer Unternehmen werden kontinuierlich entlassen, während sich das Volk vor dem Großen Palast versammelt und auf Hoffnung wartet. Es ist offensichtlich, dass wir etwas gegen unsere wirtschaftliche Situation unternehmen müssen, bevor sie sich verschlimmert und uns weiter abstürzen lässt."
+ siam_events.4.a: "Khun Prah!"
 
- siam.5.t: "Jasminreis-Probleme"
- siam.5.d: "Einer der größten Reisexporteure in [SIA.GetSIAshortname], die Bauern entlang des Chao Phraya, haben um staatliche Intervention gebeten, um das übermäßige Reisangebot zu bewältigen, das durch den allgemeinen Nachfragerückgang und weniger Exportmöglichkeiten nach dem Schwarzen Montag entstanden ist."
+ siam_events.5.t: "Jasminreis-Probleme"
+ siam_events.5.d: "Einer der größten Reisexporteure in [SIA.GetSIAshortname], die Bauern entlang des Chao Phraya, haben um staatliche Intervention gebeten, um das übermäßige Reisangebot zu bewältigen, das durch den allgemeinen Nachfragerückgang und weniger Exportmöglichkeiten nach dem Schwarzen Montag entstanden ist."
  #-200, +2 reform:
- siam.5.a: "Den Großteil des Reis aufkaufen, um den Preis zu stabilisieren."
+ siam_events.5.a: "Den Großteil des Reis aufkaufen, um den Preis zu stabilisieren."
  #-100, +1 reform:
- siam.5.b: "Einem teilweisen Aufkauf des überschüssigen Reis zustimmen."
+ siam_events.5.b: "Einem teilweisen Aufkauf des überschüssigen Reis zustimmen."
  #0, 0 reform:
- siam.5.c: "Der freie Markt wird das Problem lösen!"
+ siam_events.5.c: "Der freie Markt wird das Problem lösen!"
 
- siam.6.t: "Aufgeblähte Bürokratie"
- siam.6.d: "Das moderne Verwaltungssystem wurde während der Herrschaft von Rama V gebildet und wurde von Rama VI stark erweitert. Allerdings hat es sich als zu groß erwiesen, um dem Staat effektiv zu dienen. Weitere Entlassungen würden jedoch eine Erhöhung der Arbeitslosigkeit genau zu dem Zeitpunkt bedeuten, an dem wir sie senken wollen."
+ siam_events.6.t: "Aufgeblähte Bürokratie"
+ siam_events.6.d: "Das moderne Verwaltungssystem wurde während der Herrschaft von Rama V gebildet und wurde von Rama VI stark erweitert. Allerdings hat es sich als zu groß erwiesen, um dem Staat effektiv zu dienen. Weitere Entlassungen würden jedoch eine Erhöhung der Arbeitslosigkeit genau zu dem Zeitpunkt bedeuten, an dem wir sie senken wollen."
  # 0 reform:
- siam.6.a: "Einige unserer Verwaltungsangestellten entlassen."
+ siam_events.6.a: "Einige unserer Verwaltungsangestellten entlassen."
  #-100, +1 reform:
- siam.6.b: "Manager und Minister entlassen."
+ siam_events.6.b: "Manager und Minister entlassen."
  #-200, +2 reform:
- siam.6.c: "Den Status quo vorerst beibehalten."
+ siam_events.6.c: "Den Status quo vorerst beibehalten."
 
- siam.7.t: "Militärausgaben"
- siam.7.d: "[SIA.GetSIAshortname] gibt derzeit bis zu 25% ihrer jährlichen Einnahmen für die Erhaltung und Wartung des militärisch-industriellen Komplexes aus, da sie von historischen Feinden und imperialistischen Westmächten umgeben ist, die ihr Land begehren. Vielleicht würde uns eine leichte Kürzung unserer Militärausgaben jedoch nicht zu sehr schaden?"
+ siam_events.7.t: "Militärausgaben"
+ siam_events.7.d: "[SIA.GetSIAshortname] gibt derzeit bis zu 25% ihrer jährlichen Einnahmen für die Erhaltung und Wartung des militärisch-industriellen Komplexes aus, da sie von historischen Feinden und imperialistischen Westmächten umgeben ist, die ihr Land begehren. Vielleicht würde uns eine leichte Kürzung unserer Militärausgaben jedoch nicht zu sehr schaden?"
  #-10 for 3 years, 0 reform:
- siam.7.a: "Sämtliche Forschungsgelder streichen."
+ siam_events.7.a: "Sämtliche Forschungsgelder streichen."
  #-10 for 3 years, +1 reform:
- siam.7.b: "Alles streichen außer der Entwicklung neuer Gewehre."
+ siam_events.7.b: "Alles streichen außer der Entwicklung neuer Gewehre."
  #-200, +2 reform:
- siam.7.c: "Wir dürfen keine Schwäche zeigen!"
+ siam_events.7.c: "Wir dürfen keine Schwäche zeigen!"
 
- siam.8.t: "Notsteuer"
- siam.8.d: "Obwohl wir viele weitreichende Reformen durchgeführt haben, fehlt uns immer noch das Geld, um den diesjährigen Haushalt ausreichend auszugleichen. Eine Notsteuer sollte diese Situation beheben, wird aber mehr Leid für unsere loyalen Untertanen bedeuten."
+ siam_events.8.t: "Notsteuer"
+ siam_events.8.d: "Obwohl wir viele weitreichende Reformen durchgeführt haben, fehlt uns immer noch das Geld, um den diesjährigen Haushalt ausreichend auszugleichen. Eine Notsteuer sollte diese Situation beheben, wird aber mehr Leid für unsere loyalen Untertanen bedeuten."
  #+50, 0 reform:
- siam.8.a: "Erhöht den Einkommensteuersatz!"
+ siam_events.8.a: "Erhöht den Einkommensteuersatz!"
  #+10, +1 reform:
- siam.8.b: "Verdoppelt die Erbschaftssteuer!"
+ siam_events.8.b: "Verdoppelt die Erbschaftssteuer!"
  #+30, -5 NP, +1 reform:
- siam.8.c: "Hebt das Glücksspielverbot auf."
+ siam_events.8.c: "Hebt das Glücksspielverbot auf."
 
 ## New Governmnet Established for Siam ##
- siam.10.t: "Das Provisorische Kabinett der Khana Ratsadon"
- siam.10.d: "Nach der unblutigen Revolution müssen wir die Nation von Grund auf neu aufbauen. Luang Praditmanutham, Leiter der zivilen Fraktion der provisorischen Regierung und prominenter Linker, arbeitet nun an der Erstellung einer formellen Verfassung, während andere damit beginnen, die Massen über die Vorzüge und Funktionsweise der parlamentarischen Demokratie aufzuklären. Parallel dazu hat Phraya Phahonponpayuhasena seine Truppen in Bereitschaft versetzt, falls es zu einer opportunistischen Invasion durch ausländische Mächte kommen sollte."
- siam.10.a: "Dies ist ein großer Sprung nach vorn für [SIA.GetSIAshortname]!"
+ siam_events.10.t: "Das Provisorische Kabinett der Khana Ratsadon"
+ siam_events.10.d: "Nach der unblutigen Revolution müssen wir die Nation von Grund auf neu aufbauen. Luang Praditmanutham, Leiter der zivilen Fraktion der provisorischen Regierung und prominenter Linker, arbeitet nun an der Erstellung einer formellen Verfassung, während andere damit beginnen, die Massen über die Vorzüge und Funktionsweise der parlamentarischen Demokratie aufzuklären. Parallel dazu hat Phraya Phahonponpayuhasena seine Truppen in Bereitschaft versetzt, falls es zu einer opportunistischen Invasion durch ausländische Mächte kommen sollte."
+ siam_events.10.a: "Dies ist ein großer Sprung nach vorn für [SIA.GetSIAshortname]!"
 
- siam.11.t: "Das Provisorische Kabinett der Khanagummakarn Ratsadon"
- siam.11.d: "Nach der Ratifizierung der Verfassung hat das Volkskomitee, eine von Prajadhipok selbst ausgewählte Gruppe, mit der Aufklärung der Massen über die Grundsätze der parlamentarischen Demokratie begonnen.\n\nUnter der Führung des [SIA.GetProperAdjective]n Hofes ist das Komitee auch für Bildungs-, Gesundheits- und Industrialisierungsreformen verantwortlich. Der Weg für [SIA.GetSIAshortname] wird kaum ein Spaziergang werden, aber unserer großen Nation steht eine strahlende Zukunft bevor."
- siam.11.a: "Dies ist ein großer Sprung nach vorn für das [SIA.GetProperAdjective] Volk!"
+ siam_events.11.t: "Das Provisorische Kabinett der Khanagummakarn Ratsadon"
+ siam_events.11.d: "Nach der Ratifizierung der Verfassung hat das Volkskomitee, eine von Prajadhipok selbst ausgewählte Gruppe, mit der Aufklärung der Massen über die Grundsätze der parlamentarischen Demokratie begonnen.\n\nUnter der Führung des [SIA.GetProperAdjective]n Hofes ist das Komitee auch für Bildungs-, Gesundheits- und Industrialisierungsreformen verantwortlich. Der Weg für [SIA.GetSIAshortname] wird kaum ein Spaziergang werden, aber unserer großen Nation steht eine strahlende Zukunft bevor."
+ siam_events.11.a: "Dies ist ein großer Sprung nach vorn für das [SIA.GetProperAdjective] Volk!"
 
 ## Khana Ratsadon 1936 Election and subsequent Civil War ##
 
- siam.12.t: "Die Affäre der \"Gelben Akte\""
- siam.12.d: "Heute präsentierte Luang Praditmanutham, Staatsminister und Mitglied der Volkspartei, den Entwurf seines \"Nationalen Wirtschaftsentwicklungsplans\" der Nationalversammlung.\n\nDer als „Gelbe Akte" bekannte Plan beschreibt die Bildung eines Wohlfahrtsstaates, Landumverteilung, staatliche Eingriffe in den Privatsektor und ein Subventionssystem für Landwirte.\n\nEinige vergleichen den Vorschlag mit dem eines Syndikalisten, während andere zustimmen, dass die Reformen das Leben des [SIA.GetProperAdjective] Volkes stark verbessern werden.\n\nNun bleibt abzuwarten, was Seine Majestät dazu sagt..."
- siam.12.a: "Seine Majestät stimmt Praditmanutham zu."
- siam.12.b: "Seine Majestät unterstützt einen verwässerten Vorschlag."
- siam.12.c: "Seine Majestät fordert die Verhaftung des Syndikalisten-Sympathisanten!"
+ siam_events.12.t: "Die Affäre der \"Gelben Akte\""
+ siam_events.12.d: "Heute präsentierte Luang Praditmanutham, Staatsminister und Mitglied der Volkspartei, den Entwurf seines \"Nationalen Wirtschaftsentwicklungsplans\" der Nationalversammlung.\n\nDer als „Gelbe Akte" bekannte Plan beschreibt die Bildung eines Wohlfahrtsstaates, Landumverteilung, staatliche Eingriffe in den Privatsektor und ein Subventionssystem für Landwirte.\n\nEinige vergleichen den Vorschlag mit dem eines Syndikalisten, während andere zustimmen, dass die Reformen das Leben des [SIA.GetProperAdjective] Volkes stark verbessern werden.\n\nNun bleibt abzuwarten, was Seine Majestät dazu sagt..."
+ siam_events.12.a: "Seine Majestät stimmt Praditmanutham zu."
+ siam_events.12.b: "Seine Majestät unterstützt einen verwässerten Vorschlag."
+ siam_events.12.c: "Seine Majestät fordert die Verhaftung des Syndikalisten-Sympathisanten!"
 
- siam.13.t: "Prajadhipoks Antwort"
- siam.13.d: "König Prajadhipoks Antwort ist eingetroffen und übt scharfe Kritik an Luang Praditmanuthams Entwurf, er geht sogar so weit, Praditmanutham als Syndikalisten zu bezeichnen! Eine Dringlichkeitssitzung der führenden Mitglieder der Volkspartei hat dazu geführt, dass die Partei beschließt..."
- siam.13.a: "... vorerst nachzugeben."
- siam.13.b: "... Klage gegen den König einzureichen."
+ siam_events.13.t: "Prajadhipoks Antwort"
+ siam_events.13.d: "König Prajadhipoks Antwort ist eingetroffen und übt scharfe Kritik an Luang Praditmanuthams Entwurf, er geht sogar so weit, Praditmanutham als Syndikalisten zu bezeichnen! Eine Dringlichkeitssitzung der führenden Mitglieder der Volkspartei hat dazu geführt, dass die Partei beschließt..."
+ siam_events.13.a: "... vorerst nachzugeben."
+ siam_events.13.b: "... Klage gegen den König einzureichen."
 
- siam.14.t: "Innenpolitische Spannungen"
- siam.14.d: "Thawan Ritthidet, ein Privatbürger, hat kürzlich eine Klage gegen den König eingereicht; er beschuldigt ihn der Einmischung in politische, staatliche und wirtschaftliche Angelegenheiten. Die Folgen des Plans von Luang Praditmanutham haben das Kabinett weiter gespalten und die Royalisten und Parlamentarier gegeneinander aufgebracht."
- siam.14.a: "Versöhnung scheint angebracht."
- siam.14.b: "Verhaftet diese Syndikalisten!"
+ siam_events.14.t: "Innenpolitische Spannungen"
+ siam_events.14.d: "Thawan Ritthidet, ein Privatbürger, hat kürzlich eine Klage gegen den König eingereicht; er beschuldigt ihn der Einmischung in politische, staatliche und wirtschaftliche Angelegenheiten. Die Folgen des Plans von Luang Praditmanutham haben das Kabinett weiter gespalten und die Royalisten und Parlamentarier gegeneinander aufgebracht."
+ siam_events.14.a: "Versöhnung scheint angebracht."
+ siam_events.14.b: "Verhaftet diese Syndikalisten!"
 
- siam.15.t: "Plaek Phibunsongkhrams Dilemma"
- siam.15.d: "Eine politische Krise ist im Gange und hat fast den Siedepunkt erreicht! Die Spannungen sind hoch und wir müssen Schritte unternehmen, um die Situation zu beheben. Was sollen wir tun?"
- siam.15.a: "Das ist dann Hochverrat! (Auf der Seite der Parlamentarier)"
- siam.15.b: "Die Würde Seiner Majestät muss gewahrt werden! (Auf der Seite der Royalisten)"
- siam.15.c: "Versuchen Sie, diesen Faktionsstreit zu beenden."
+ siam_events.15.t: "Plaek Phibunsongkhrams Dilemma"
+ siam_events.15.d: "Eine politische Krise ist im Gange und hat fast den Siedepunkt erreicht! Die Spannungen sind hoch und wir müssen Schritte unternehmen, um die Situation zu beheben. Was sollen wir tun?"
+ siam_events.15.a: "Das ist dann Hochverrat! (Auf der Seite der Parlamentarier)"
+ siam_events.15.b: "Die Würde Seiner Majestät muss gewahrt werden! (Auf der Seite der Royalisten)"
+ siam_events.15.c: "Versuchen Sie, diesen Faktionsstreit zu beenden."
 
- siam.16.t: "Beginn des Siamesischen Bürgerkriegs"
- siam.16.prd: "Trotz der Loyalitätserklärung des Oberbefehlshabers der Streitkräfte gegenüber der Monarchie ist eine kleine Meuterei der Marine in Sattahip und Morlumlerng schnell außer Kontrolle geraten und hat nun die gesamte Nation ins Chaos gestürzt."
- siam.16.ppd: "Trotz der Loyalitätserklärung des Oberbefehlshabers der Streitkräfte gegenüber dem neuen Kabinett ist eine kleine Meuterei der Armee in Lopburi und Nakhon Ratchasima schnell außer Kontrolle geraten und hat nun die gesamte Nation ins Chaos gestürzt."
- siam.16.pra: "Für das Land! (Rebellenseite)"
- siam.16.prb: "Für den König! (Regierungsseite)"
- siam.16.ppa: "Für das Land! (Regierungsseite)"
- siam.16.ppb: "Für den König! (Rebellenseite)"
+ siam_events.16.t: "Beginn des Siamesischen Bürgerkriegs"
+ siam_events.16.prd: "Trotz der Loyalitätserklärung des Oberbefehlshabers der Streitkräfte gegenüber der Monarchie ist eine kleine Meuterei der Marine in Sattahip und Morlumlerng schnell außer Kontrolle geraten und hat nun die gesamte Nation ins Chaos gestürzt."
+ siam_events.16.ppd: "Trotz der Loyalitätserklärung des Oberbefehlshabers der Streitkräfte gegenüber dem neuen Kabinett ist eine kleine Meuterei der Armee in Lopburi und Nakhon Ratchasima schnell außer Kontrolle geraten und hat nun die gesamte Nation ins Chaos gestürzt."
+ siam_events.16.pra: "Für das Land! (Rebellenseite)"
+ siam_events.16.prb: "Für den König! (Regierungsseite)"
+ siam_events.16.ppa: "Für das Land! (Regierungsseite)"
+ siam_events.16.ppb: "Für den König! (Rebellenseite)"
 
- siam.17.t: "'Padauk-Blüten' Verwelkt"
- siam.17.d: "Die steigende Spannung betrifft jeden Aspekt der siamesischen Gesellschaft, wobei eines der prominentesten Beispiele die Königlich Siamesische Marine selbst ist. Da sich die royalistische Hochburg hauptsächlich in küstenfernen Gebieten befindet, haben sich die meisten Matrosen und Marineoffiziere entschieden, Ad-hoc-Einheiten zu bilden, um Sattahip und die umliegenden Gebiete als parlamentarische Hochburg zu befestigen und andere Bodentruppen zu unterstützen, die ihre Überzeugungen teilen. Die übrigen sind bereits früher desertiert oder versuchten, den Krieg als 'Neutrale' auszusitzen. Mit anderen Worten, dies bringt die Mehrheit der RSN-Schiffe außerhalb der Kontrolle beider Seiten."
- siam.17.a: "Segen in Verkleidung?"
+ siam_events.17.t: "'Padauk-Blüten' Verwelkt"
+ siam_events.17.d: "Die steigende Spannung betrifft jeden Aspekt der siamesischen Gesellschaft, wobei eines der prominentesten Beispiele die Königlich Siamesische Marine selbst ist. Da sich die royalistische Hochburg hauptsächlich in küstenfernen Gebieten befindet, haben sich die meisten Matrosen und Marineoffiziere entschieden, Ad-hoc-Einheiten zu bilden, um Sattahip und die umliegenden Gebiete als parlamentarische Hochburg zu befestigen und andere Bodentruppen zu unterstützen, die ihre Überzeugungen teilen. Die übrigen sind bereits früher desertiert oder versuchten, den Krieg als 'Neutrale' auszusitzen. Mit anderen Worten, dies bringt die Mehrheit der RSN-Schiffe außerhalb der Kontrolle beider Seiten."
+ siam_events.17.a: "Segen in Verkleidung?"
 
- siam.18.t: "Die Rückeroberung von Bangkok"
- siam.18.d: "Der Siamesische Bürgerkrieg hat kürzlich eine unerwartete Wendung zum Besseren genommen, da unsere Seite Bangkok zurückerobern konnte. Dies ist ein vernichtender Schlag für die Opposition, und während einige Minister der illegitimen Regierung ins Ausland geflohen sind, haben sich die meisten unseren Forderungen gefügt und umgehend ihre Waffen niedergelegt."
- siam.18.a: "Die Royalisten haben die Macht zurückerobert!"
- siam.18.b: "Der Syndikalismus wird unsere Nation führen!"
+ siam_events.18.t: "Die Rückeroberung von Bangkok"
+ siam_events.18.d: "Der Siamesische Bürgerkrieg hat kürzlich eine unerwartete Wendung zum Besseren genommen, da unsere Seite Bangkok zurückerobern konnte. Dies ist ein vernichtender Schlag für die Opposition, und während einige Minister der illegitimen Regierung ins Ausland geflohen sind, haben sich die meisten unseren Forderungen gefügt und umgehend ihre Waffen niedergelegt."
+ siam_events.18.a: "Die Royalisten haben die Macht zurückerobert!"
+ siam_events.18.b: "Der Syndikalismus wird unsere Nation führen!"
 
- siam.19.t: "'Padauk-Blüten' Blühen Erneut"
- siam.19.d: "Nach dem Ende des Bürgerkriegs wurden Maßnahmen ergriffen, um die Kontrolle über die stillgelegten RSN-Flotten wiederherzustellen, die aufgrund des Konflikts verlassen wurden. Wir haben nun genügend Matrosen zusammengebracht, die vorerst als Rumpfbesatzung dienen können, während weitere Verstärkungen aus den Ausbildungslagern auf dem Weg sind."
- siam.19.a: "Willkommene Nachrichten."
+ siam_events.19.t: "'Padauk-Blüten' Blühen Erneut"
+ siam_events.19.d: "Nach dem Ende des Bürgerkriegs wurden Maßnahmen ergriffen, um die Kontrolle über die stillgelegten RSN-Flotten wiederherzustellen, die aufgrund des Konflikts verlassen wurden. Wir haben nun genügend Matrosen zusammengebracht, die vorerst als Rumpfbesatzung dienen können, während weitere Verstärkungen aus den Ausbildungslagern auf dem Weg sind."
+ siam_events.19.a: "Willkommene Nachrichten."
 
- siam.20.t: "Ende des [SIA.GetNonIdeologyAdjective] Bürgerkriegs"
- siam.20.d.government_parliamentarian: "Nachdem wir die meisten Separatisten und Rebellen unterworfen haben, erhielten wir die Nachricht, dass die verbliebenen Rebellen nach Yunnan geflohen sind. Egal, denn wir werden den Rest des Rebellenabschaums später fangen. Zuerst müssen wir um die Verluste unserer loyalen Männer trauern, zu diesem Zweck wurde der königliche Verbrennungsplatz in einen öffentlichen Scheiterhaufen umgewandelt. Prajadhipok, der weitgehend unbeteiligt an der Rebellion war, wurde die Rückkehr in den Großen Palast gestattet."
- siam.20.d.government_royalist: "Nachdem unsere östlichen und südlichen Regionen von Regierungstruppen zurückerobert wurden, haben die verbliebenen Revolutionäre beschlossen, nach Saigon zu fliehen, wo wir uns mit Auslieferungsverfahren auseinandersetzen müssen. Wichtiger ist es zunächst, um die Verluste zu trauern, die unsere loyalen Untertanen während des Krieges erlitten haben. Ein landesweites öffentliches Begräbnis wurde abgehalten, wobei die Überreste unserer loyalen Untertanen über die [GetSIAprefixTH]damnoen-Straße nach Sanam Luang getragen wurden, wo König Prajadhipok uns die Erlaubnis gab, einen öffentlichen Scheiterhaufen auf dem heiligen königlichen Verbrennungsplatz zu errichten."
- siam.20.d.rebel_parliamentarian: "Nachdem wir die meisten Rebellen unterworfen haben, erhielten wir die Nachricht, dass die verbliebenen Royalisten mit dem König nach Yunnan geflohen sind. Egal, denn wir werden den Rest der loyalistischen Abschaum später fangen. Zuerst müssen wir um die Verluste unserer loyalen Männer trauern, zu diesem Zweck wurde der königliche Verbrennungsplatz in einen öffentlichen Scheiterhaufen umgewandelt."
- siam.20.d.rebel_royalist: "Nachdem unsere östlichen und südlichen Regionen von Regierungstruppen zurückerobert wurden, haben die verbliebenen Revolutionäre beschlossen, nach Saigon zu fliehen, wo wir uns mit Auslieferungsverfahren auseinandersetzen müssen. Wichtiger ist es zunächst, um die Verluste zu trauern, die unsere loyalen Untertanen während des Krieges erlitten haben. Ein landesweites öffentliches Begräbnis wurde abgehalten, wobei die Überreste unserer loyalen Untertanen über die [GetSIAprefixTH]damnoen-Straße nach Sanam Luang getragen wurden, wo König Prajadhipok uns die Erlaubnis gab, einen öffentlichen Scheiterhaufen auf dem heiligen königlichen Verbrennungsplatz zu errichten."
+ siam_events.20.t: "Ende des [SIA.GetNonIdeologyAdjective] Bürgerkriegs"
+ siam_events.20.d.government_parliamentarian: "Nachdem wir die meisten Separatisten und Rebellen unterworfen haben, erhielten wir die Nachricht, dass die verbliebenen Rebellen nach Yunnan geflohen sind. Egal, denn wir werden den Rest des Rebellenabschaums später fangen. Zuerst müssen wir um die Verluste unserer loyalen Männer trauern, zu diesem Zweck wurde der königliche Verbrennungsplatz in einen öffentlichen Scheiterhaufen umgewandelt. Prajadhipok, der weitgehend unbeteiligt an der Rebellion war, wurde die Rückkehr in den Großen Palast gestattet."
+ siam_events.20.d.government_royalist: "Nachdem unsere östlichen und südlichen Regionen von Regierungstruppen zurückerobert wurden, haben die verbliebenen Revolutionäre beschlossen, nach Saigon zu fliehen, wo wir uns mit Auslieferungsverfahren auseinandersetzen müssen. Wichtiger ist es zunächst, um die Verluste zu trauern, die unsere loyalen Untertanen während des Krieges erlitten haben. Ein landesweites öffentliches Begräbnis wurde abgehalten, wobei die Überreste unserer loyalen Untertanen über die [GetSIAprefixTH]damnoen-Straße nach Sanam Luang getragen wurden, wo König Prajadhipok uns die Erlaubnis gab, einen öffentlichen Scheiterhaufen auf dem heiligen königlichen Verbrennungsplatz zu errichten."
+ siam_events.20.d.rebel_parliamentarian: "Nachdem wir die meisten Rebellen unterworfen haben, erhielten wir die Nachricht, dass die verbliebenen Royalisten mit dem König nach Yunnan geflohen sind. Egal, denn wir werden den Rest der loyalistischen Abschaum später fangen. Zuerst müssen wir um die Verluste unserer loyalen Männer trauern, zu diesem Zweck wurde der königliche Verbrennungsplatz in einen öffentlichen Scheiterhaufen umgewandelt."
+ siam_events.20.d.rebel_royalist: "Nachdem unsere östlichen und südlichen Regionen von Regierungstruppen zurückerobert wurden, haben die verbliebenen Revolutionäre beschlossen, nach Saigon zu fliehen, wo wir uns mit Auslieferungsverfahren auseinandersetzen müssen. Wichtiger ist es zunächst, um die Verluste zu trauern, die unsere loyalen Untertanen während des Krieges erlitten haben. Ein landesweites öffentliches Begräbnis wurde abgehalten, wobei die Überreste unserer loyalen Untertanen über die [GetSIAprefixTH]damnoen-Straße nach Sanam Luang getragen wurden, wo König Prajadhipok uns die Erlaubnis gab, einen öffentlichen Scheiterhaufen auf dem heiligen königlichen Verbrennungsplatz zu errichten."
  # Plaek Parliamentarian, Government:
- siam.20.a: "Lang lebe unsere Demokratie!"
+ siam_events.20.a: "Lang lebe unsere Demokratie!"
  # Plaek Royalist, Government:
- siam.20.b: "Lang lebe der König!"
+ siam_events.20.b: "Lang lebe der König!"
  # Plaek Royalist, Rebel:
- siam.20.c: "Lang lebe der König!"
+ siam_events.20.c: "Lang lebe der König!"
  # Plaek Parliamentarians, Rebel; Chaiyo = Hurrah in Thai:
- siam.20.d: "Chaiyo für die Republik!"
+ siam_events.20.d: "Chaiyo für die Republik!"
 
- siam.22.t: "Plaek Phibunsongkhrams Staatsstreich"
- siam.22.d: "Mit der Zeit haben sich die Menschen an die Machtübernahme gewöhnt und die Situation in [SIA.GetSIAshortname] beginnt sich endlich zu stabilisieren. Es ist nun Zeit..."
- siam.22.a: "... das Kriegsrecht aufzuheben."
- siam.22.b: "... die Macht an uns zu nehmen."
+ siam_events.22.t: "Plaek Phibunsongkhrams Staatsstreich"
+ siam_events.22.d: "Mit der Zeit haben sich die Menschen an die Machtübernahme gewöhnt und die Situation in [SIA.GetSIAshortname] beginnt sich endlich zu stabilisieren. Es ist nun Zeit..."
+ siam_events.22.a: "... das Kriegsrecht aufzuheben."
+ siam_events.22.b: "... die Macht an uns zu nehmen."
 
  #1936:
- siam.23.t: "Parlamentswahl [GetYear]"
- siam.23.d.syn: "Nach der Säuberung der Konservativen aus allen Regierungskammern und der Zerschlagung der Macht des Adels ist das Wahlergebnis ziemlich eindeutig."
- siam.23.d.con: "Nach der Säuberung der Sozialisten aus allen Regierungskammern und dem Verbot ihrer Organisationen ist das Wahlergebnis ziemlich eindeutig."
- siam.23.d.norm: "Die Vorhersagen der Meinungsumfragen zu dieser Wahl waren sehr genau. Allerdings scheint eine Seite eine knappe Mehrheit im Parlament erreicht zu haben."
- siam.23.a: "Die Liberalen sind als Sieger hervorgegangen!"
- siam.23.b: "Die Sozialisten sind als Sieger hervorgegangen!"
- siam.23.c: "Die Konservativen sind als Sieger hervorgegangen!"
+ siam_events.23.t: "Parlamentswahl [GetYear]"
+ siam_events.23.d.syn: "Nach der Säuberung der Konservativen aus allen Regierungskammern und der Zerschlagung der Macht des Adels ist das Wahlergebnis ziemlich eindeutig."
+ siam_events.23.d.con: "Nach der Säuberung der Sozialisten aus allen Regierungskammern und dem Verbot ihrer Organisationen ist das Wahlergebnis ziemlich eindeutig."
+ siam_events.23.d.norm: "Die Vorhersagen der Meinungsumfragen zu dieser Wahl waren sehr genau. Allerdings scheint eine Seite eine knappe Mehrheit im Parlament erreicht zu haben."
+ siam_events.23.a: "Die Liberalen sind als Sieger hervorgegangen!"
+ siam_events.23.b: "Die Sozialisten sind als Sieger hervorgegangen!"
+ siam_events.23.c: "Die Konservativen sind als Sieger hervorgegangen!"
 
 ## Industrial Nationalizaion ##
 
- siam.26.t: "Die Frage der deutschen Fabriken"
- siam.26.d: "Bedeutende deutsche Unternehmen in [SIA.GetName] sind hauptsächlich mit der Schifffahrts-, Holz- und Eisenbahnindustrie verbunden. Ein großer Kredit zu günstigen Bedingungen von der Regierung könnte sie leicht davon überzeugen, ihre Betriebe wieder aufzunehmen, obwohl wir auch einfach ihre Fabriken beschlagnahmen könnten. Dies könnte jedoch wirtschaftlichen Selbstmord für [SIA.GetName] bedeuten. Wie sollten wir an die Situation herangehen?"
- siam.26.a: "Beschlagnahmt die Produktionsmittel!"
- siam.26.b: "Bietet finanzielle Entschädigung an."
- siam.26.c: "Lasst uns woanders suchen..."
+ siam_events.26.t: "Die Frage der deutschen Fabriken"
+ siam_events.26.d: "Bedeutende deutsche Unternehmen in [SIA.GetName] sind hauptsächlich mit der Schifffahrts-, Holz- und Eisenbahnindustrie verbunden. Ein großer Kredit zu günstigen Bedingungen von der Regierung könnte sie leicht davon überzeugen, ihre Betriebe wieder aufzunehmen, obwohl wir auch einfach ihre Fabriken beschlagnahmen könnten. Dies könnte jedoch wirtschaftlichen Selbstmord für [SIA.GetName] bedeuten. Wie sollten wir an die Situation herangehen?"
+ siam_events.26.a: "Beschlagnahmt die Produktionsmittel!"
+ siam_events.26.b: "Bietet finanzielle Entschädigung an."
+ siam_events.26.c: "Lasst uns woanders suchen..."
 
- siam.27.t: "[SIA.GetSIAshortname] beschlagnahmt unsere Fabriken!"
- siam.27.d.bast: "Die neue [SIA.GetProperAdjective] Regierung hat ihr 'Industrielles Nationalisierungs'-Programm begonnen, um ihre Wirtschaft zu stärken. Unsere Fabriken in [SIA.GetName] wurden von der Militärjunta unter Premier Plaek Phibunsongkhram widerrechtlich beschlagnahmt."
- siam.27.d.comp: "Die neue [SIA.GetProperAdjective] Regierung hat ihr Programm zur 'Industriellen Nationalisierung' begonnen, um ihre Wirtschaft zu stärken. Unsere Fabriken in [SIA.GetName] wurden unrechtmäßig von der Militärjunta unter Premier Plaek Phibunsongkhram beschlagnahmt. Er hat uns allerdings eine finanzielle Entschädigung für unsere Verluste angeboten."
- siam.27.a: "Diese Bastarde!"
- siam.27.b: "Immerhin haben sie uns entschädigt."
+ siam_events.27.t: "[SIA.GetSIAshortname] beschlagnahmt unsere Fabriken!"
+ siam_events.27.d.bast: "Die neue [SIA.GetProperAdjective] Regierung hat ihr 'Industrielles Nationalisierungs'-Programm begonnen, um ihre Wirtschaft zu stärken. Unsere Fabriken in [SIA.GetName] wurden von der Militärjunta unter Premier Plaek Phibunsongkhram widerrechtlich beschlagnahmt."
+ siam_events.27.d.comp: "Die neue [SIA.GetProperAdjective] Regierung hat ihr Programm zur 'Industriellen Nationalisierung' begonnen, um ihre Wirtschaft zu stärken. Unsere Fabriken in [SIA.GetName] wurden unrechtmäßig von der Militärjunta unter Premier Plaek Phibunsongkhram beschlagnahmt. Er hat uns allerdings eine finanzielle Entschädigung für unsere Verluste angeboten."
+ siam_events.27.a: "Diese Bastarde!"
+ siam_events.27.b: "Immerhin haben sie uns entschädigt."
 
- siam.28.t: "Die Frage der amerikanischen Fabriken"
- siam.28.d: "Das amerikanische Automobilunternehmen Ford betreibt seine südostasiatischen Geschäfte hier in Ayutthaya. Aufgrund der politischen und wirtschaftlichen Unruhen in den Staaten ist es unwahrscheinlich, dass die Vereinigten Staaten Vergeltung üben würden, wenn wir die Fabrik beschlagnahmen. Was sollen wir tun?"
+ siam_events.28.t: "Die Frage der amerikanischen Fabriken"
+ siam_events.28.d: "Das amerikanische Automobilunternehmen Ford betreibt seine südostasiatischen Geschäfte hier in Ayutthaya. Aufgrund der politischen und wirtschaftlichen Unruhen in den Staaten ist es unwahrscheinlich, dass die Vereinigten Staaten Vergeltung üben würden, wenn wir die Fabrik beschlagnahmen. Was sollen wir tun?"
 
- siam.29.t: "Die Frage der britischen Kautschukplantagen"
- siam.29.d: "Nachdem die Briten in Südostasien sich nach der Britischen Revolution nach Australasien zurückziehen mussten, wurden viele private Kautschukplantagen in Sirat Malai von ihren ehemaligen Besitzern seit einiger Zeit verlassen. Während wir die Plantagen einfach beschlagnahmen könnten, würde dies die Australasier verärgern, die eine bedeutende Seemacht in der Asien-Pazifik-Region und möglicherweise Verbündete sind. Was sollen wir tun?"
+ siam_events.29.t: "Die Frage der britischen Kautschukplantagen"
+ siam_events.29.d: "Nachdem die Briten in Südostasien sich nach der Britischen Revolution nach Australasien zurückziehen mussten, wurden viele private Kautschukplantagen in Sirat Malai von ihren ehemaligen Besitzern seit einiger Zeit verlassen. Während wir die Plantagen einfach beschlagnahmen könnten, würde dies die Australasier verärgern, die eine bedeutende Seemacht in der Asien-Pazifik-Region und möglicherweise Verbündete sind. Was sollen wir tun?"
 
- siam.30.t: "Die Frage der japanischen Eisenminen"
- siam.30.d: "Die Japaner besitzen einige Eisenminen in Yala und Nakhon Si Thammarat, die genutzt werden, um wichtige Rohstoffe zu ihren Heimatinseln zu transportieren. Während wir die Minen beschlagnahmen könnten, würde dies uns isolieren und die [SIA.GetProperAdjective]-japanischen Beziehungen dauerhaft beschädigen, wodurch wir einen mächtigen Verbündeten im Kampf gegen die deutsche Hegemonie in der Region verlieren würden. Was sollen wir tun?"
+ siam_events.30.t: "Die Frage der japanischen Eisenminen"
+ siam_events.30.d: "Die Japaner besitzen einige Eisenminen in Yala und Nakhon Si Thammarat, die genutzt werden, um wichtige Rohstoffe zu ihren Heimatinseln zu transportieren. Während wir die Minen beschlagnahmen könnten, würde dies uns isolieren und die [SIA.GetProperAdjective]-japanischen Beziehungen dauerhaft beschädigen, wodurch wir einen mächtigen Verbündeten im Kampf gegen die deutsche Hegemonie in der Region verlieren würden. Was sollen wir tun?"
 
- siam.31.t: "Phibunsongkhram für schwache Außenpolitik kritisiert"
- siam.31.d: "Da das Nationale Industrialisierungsvorhaben kaum oder gar keine wirtschaftlichen Veränderungen bewirkt hat, haben uns unsere Gegner in den Medien und der politischen Arena der schwachen und ineffektiven Führung beschuldigt."
- siam.31.a: "Verdammt!"
+ siam_events.31.t: "Phibunsongkhram für schwache Außenpolitik kritisiert"
+ siam_events.31.d: "Da das Nationale Industrialisierungsvorhaben kaum oder gar keine wirtschaftlichen Veränderungen bewirkt hat, haben uns unsere Gegner in den Medien und der politischen Arena der schwachen und ineffektiven Führung beschuldigt."
+ siam_events.31.a: "Verdammt!"
 
 ## Siamese- Burmese War (NatPop) ##
 
- siam.32.t: "Burmesische Agitatoren Gefasst"
- siam.32.d: "Elf burmesische Agitatoren in Morlumlerng, einer der Mon-Mehrheitsstädte nahe des Salween-Flussdeltas, wurden heute beim Verteilen von Flugblättern mit dem Slogan 'Befreiung vom [SIA.GetProperAdjective]n Joch' gefasst. Vielleicht können wir dieses Ereignis nutzen, um Unterstützung für unser Regime zu gewinnen und die burmesische Bedrohung ein für alle Mal zu beenden!"
- siam.32.a: "Wer hat behauptet, wir seien Feiglinge?"
- siam.32.b: "Eine Chance zu zeigen, wer hier das Sagen hat!"
- siam.32.c: "Dafür sind wir jetzt noch nicht bereit..."
+ siam_events.32.t: "Burmesische Agitatoren Gefasst"
+ siam_events.32.d: "Elf burmesische Agitatoren in Morlumlerng, einer der Mon-Mehrheitsstädte nahe des Salween-Flussdeltas, wurden heute beim Verteilen von Flugblättern mit dem Slogan 'Befreiung vom [SIA.GetProperAdjective]n Joch' gefasst. Vielleicht können wir dieses Ereignis nutzen, um Unterstützung für unser Regime zu gewinnen und die burmesische Bedrohung ein für alle Mal zu beenden!"
+ siam_events.32.a: "Wer hat behauptet, wir seien Feiglinge?"
+ siam_events.32.b: "Eine Chance zu zeigen, wer hier das Sagen hat!"
+ siam_events.32.c: "Dafür sind wir jetzt noch nicht bereit..."
 
- siam.33.t: "[SIA.GetNameDefCap] Hat den Krieg Erklärt!"
- siam.33.d: "Schlechte Nachrichten! Offenbar haben die [SIA.GetProperAdjective]n elf \"burmesische Spione\" gefasst, obwohl diese sich in unserem rechtmäßigen Territorium befanden. Ihre Armee rückt nun auf Yangon vor. Das ist empörend!"
- siam.33.a: "Zu den Waffen, Bürger!"
+ siam_events.33.t: "[SIA.GetNameDefCap] Hat den Krieg Erklärt!"
+ siam_events.33.d: "Schlechte Nachrichten! Offenbar haben die [SIA.GetProperAdjective]n elf \"burmesische Spione\" gefasst, obwohl diese sich in unserem rechtmäßigen Territorium befanden. Ihre Armee rückt nun auf Yangon vor. Das ist empörend!"
+ siam_events.33.a: "Zu den Waffen, Bürger!"
 
  # Siamese Wins:
- siam.34.t: "Vertrag von Thawai"
- siam.34.d: "Die dekadenten Burmesen in Yangon wurden in die Flucht geschlagen und unsere Streitkräfte haben sich in den rauchenden Überresten ihrer Hauptstadt verschanzt. Jetzt ist der beste Zeitpunkt, Zugeständnisse von der burmesischen Regierung zu fordern, der Sieg ist unser. Die Frage ist: Sollten wir Frieden suchen oder den Krieg fortsetzen, bis wir uns für immer der Burmesen entledigt haben?"
- siam.34.a: "Wir werden Ober-Shan fordern und die Thai wieder vereinen."
- siam.34.b: "Kein Frieden mit den Burmesen, vollständige Eroberung!"
+ siam_events.34.t: "Vertrag von Thawai"
+ siam_events.34.d: "Die dekadenten Burmesen in Yangon wurden in die Flucht geschlagen und unsere Streitkräfte haben sich in den rauchenden Überresten ihrer Hauptstadt verschanzt. Jetzt ist der beste Zeitpunkt, Zugeständnisse von der burmesischen Regierung zu fordern, der Sieg ist unser. Die Frage ist: Sollten wir Frieden suchen oder den Krieg fortsetzen, bis wir uns für immer der Burmesen entledigt haben?"
+ siam_events.34.a: "Wir werden Ober-Shan fordern und die Thai wieder vereinen."
+ siam_events.34.b: "Kein Frieden mit den Burmesen, vollständige Eroberung!"
 
- siam.35.t: "Forderungen der [SIA.GetProperAdjective]"
- siam.35.d: "Die [SIA.GetProperAdjective] Hunde haben uns völlig überwältigt und wir sind gedemütigt. Jetzt fordern sie die Übergabe der Ober-Shan-Staaten. Auch wenn diese Bedingungen hart sind, könnte es klug sein, einzuwilligen, damit unsere regionalen Rivalen unsere geschwächte Situation nicht ausnutzen."
- siam.35.a: "Wir haben keine andere Wahl..."
- siam.35.b: "Das muss ein Scherz sein, Kaba Ma Kyei!"
+ siam_events.35.t: "Forderungen der [SIA.GetProperAdjective]"
+ siam_events.35.d: "Die [SIA.GetProperAdjective] Hunde haben uns völlig überwältigt und wir sind gedemütigt. Jetzt fordern sie die Übergabe der Ober-Shan-Staaten. Auch wenn diese Bedingungen hart sind, könnte es klug sein, einzuwilligen, damit unsere regionalen Rivalen unsere geschwächte Situation nicht ausnutzen."
+ siam_events.35.a: "Wir haben keine andere Wahl..."
+ siam_events.35.b: "Das muss ein Scherz sein, Kaba Ma Kyei!"
 
- siam.36.t: "Die Burmesische Regierung lehnt ab!"
- siam.36.d: "Die törichten Burmesen haben unser großzügiges Angebot abgelehnt."
- siam.36.a: "Der Krieg muss wohl weitergehen..."
+ siam_events.36.t: "Die Burmesische Regierung lehnt ab!"
+ siam_events.36.d: "Die törichten Burmesen haben unser großzügiges Angebot abgelehnt."
+ siam_events.36.a: "Der Krieg muss wohl weitergehen..."
 
  # Burmese Wins:
- siam.37.t: "Vertrag von Thawai"
- siam.37.d: "Die dekadenten [SIA.GetProperAdjective] in Bangkok wurden in die Flucht geschlagen und unsere Streitkräfte haben sich in den rauchenden Überresten von Chiang Mai verschanzt. Jetzt ist der beste Zeitpunkt, Zugeständnisse von der [SIA.GetProperAdjective] Regierung zu fordern, der Sieg ist unser. Die Frage ist: Sollen wir Frieden schließen oder den Krieg fortsetzen, bis wir uns der [SIA.GetProperAdjective] entledigt haben?"
- siam.37.a: "Wir werden unser rechtmäßiges Territorium zurücknehmen."
- siam.37.b: "Kein Frieden mit den [SIA.GetProperAdjective], totale Eroberung!"
+ siam_events.37.t: "Vertrag von Thawai"
+ siam_events.37.d: "Die dekadenten [SIA.GetProperAdjective] in Bangkok wurden in die Flucht geschlagen und unsere Streitkräfte haben sich in den rauchenden Überresten von Chiang Mai verschanzt. Jetzt ist der beste Zeitpunkt, Zugeständnisse von der [SIA.GetProperAdjective] Regierung zu fordern, der Sieg ist unser. Die Frage ist: Sollen wir Frieden schließen oder den Krieg fortsetzen, bis wir uns der [SIA.GetProperAdjective] entledigt haben?"
+ siam_events.37.a: "Wir werden unser rechtmäßiges Territorium zurücknehmen."
+ siam_events.37.b: "Kein Frieden mit den [SIA.GetProperAdjective], totale Eroberung!"
 
- siam.38.t: "Forderungen der Burmesen"
- siam.38.d: "Die burmesischen Hunde haben uns vollständig überwältigt und wir sind gedemütigt. Jetzt fordern sie die Übergabe der Staaten Unter-Shan und Morlumlerng. Auch wenn diese Bedingungen hart sind, könnte es klug sein, ihnen nachzukommen, damit unsere Rivalen in der Region unsere geschwächte Situation nicht ausnutzen."
- siam.38.a: "Wir haben keine andere Wahl..."
- siam.38.b: "Die müssen scherzen, Rao Suu Mai Thoi!"
+ siam_events.38.t: "Forderungen der Burmesen"
+ siam_events.38.d: "Die burmesischen Hunde haben uns vollständig überwältigt und wir sind gedemütigt. Jetzt fordern sie die Übergabe der Staaten Unter-Shan und Morlumlerng. Auch wenn diese Bedingungen hart sind, könnte es klug sein, ihnen nachzukommen, damit unsere Rivalen in der Region unsere geschwächte Situation nicht ausnutzen."
+ siam_events.38.a: "Wir haben keine andere Wahl..."
+ siam_events.38.b: "Die müssen scherzen, Rao Suu Mai Thoi!"
 
- siam.39.t: "Die [SIA.GetProperAdjective] Regierung lehnt ab!"
- siam.39.d: "Die törichten [SIA.GetProperAdjective] haben unsere rechtmäßigen Ansprüche abgelehnt."
- siam.39.a: "Der Krieg muss wohl weitergehen..."
+ siam_events.39.t: "Die [SIA.GetProperAdjective] Regierung lehnt ab!"
+ siam_events.39.d: "Die törichten [SIA.GetProperAdjective] haben unsere rechtmäßigen Ansprüche abgelehnt."
+ siam_events.39.a: "Der Krieg muss wohl weitergehen..."
 
 ## Phibunsongkhram's Ratthaniyom Reform, Assassination attempt and its aftermath ##
- siam.40.t: "Umsetzung der Ratthaniyom-Reformen"
- siam.40.d: "Die Ratthaniyom- oder \"Volksstaat\"-Reformen wurden von den Nationalisten als Mittel vorgeschlagen, um das ultimative Ziel einer starken Nation zugunsten des Thai-Volkes zu erreichen. Dies könnte jedoch zu unerwünschten Spannungen mit den Malaien, Chinesen, Mon und Kambodschanern führen, die in unserem Land leben."
- siam.40.a: "Wen kümmert das? Führt die Reformen durch."
- siam.40.b: "Bei nochmaliger Überlegung ist das wohl keine gute Idee."
+ siam_events.40.t: "Umsetzung der Ratthaniyom-Reformen"
+ siam_events.40.d: "Die Ratthaniyom- oder \"Volksstaat\"-Reformen wurden von den Nationalisten als Mittel vorgeschlagen, um das ultimative Ziel einer starken Nation zugunsten des Thai-Volkes zu erreichen. Dies könnte jedoch zu unerwünschten Spannungen mit den Malaien, Chinesen, Mon und Kambodschanern führen, die in unserem Land leben."
+ siam_events.40.a: "Wen kümmert das? Führt die Reformen durch."
+ siam_events.40.b: "Bei nochmaliger Überlegung ist das wohl keine gute Idee."
 
- siam.41.t: "Siams Name ändern?"
- siam.41.d: "Während unser Land seit der späten Ayutthaya-Ära als Siam bekannt ist, haben Experten innerhalb der [SIA.GetProperAdjective] Gemeinschaft darauf hingewiesen, dass es angesichts der Tatsache, dass unsere Nation hauptsächlich aus Thai besteht, sinnvoll wäre, unseren Namen in Pratet Thai oder Thailand zu ändern. Dies könnte jedoch die Minderheiten in unserem Land verärgern. Was sollen wir tun?"
- siam.41.a: "Wir werden eine Nation des Thai-Volkes sein!"
- siam.41.b: "Wir bleiben Siam!"
+ siam_events.41.t: "Siams Name ändern?"
+ siam_events.41.d: "Während unser Land seit der späten Ayutthaya-Ära als Siam bekannt ist, haben Experten innerhalb der [SIA.GetProperAdjective] Gemeinschaft darauf hingewiesen, dass es angesichts der Tatsache, dass unsere Nation hauptsächlich aus Thai besteht, sinnvoll wäre, unseren Namen in Pratet Thai oder Thailand zu ändern. Dies könnte jedoch die Minderheiten in unserem Land verärgern. Was sollen wir tun?"
+ siam_events.41.a: "Wir werden eine Nation des Thai-Volkes sein!"
+ siam_events.41.b: "Wir bleiben Siam!"
 
- siam.42.t: "Das Tai-Zusammenschluss- und Neue-Nationalhymne-Gesetz"
- siam.42.d: "Nach der Verabschiedung des Gesetzes, das uns offiziell zu Thailand gemacht hat, werden die Bezeichnungen Tai Lao, Tai Dam, Tai Daeng, Tai Puan, Tai Yai, Tai Sayam, Tai Khuean, Tai Lue, Tai Yuan und andere der Tai-Kadai-Kulturgruppe nun einfach als Thai bezeichnet. Minderheiten behalten das Thai-Präfix bei, da sie laut Gesetz ebenfalls Thai sind. Die Nationalhymne wird ebenfalls geändert, um diese neue Realität widerzuspiegeln, wobei in dreißig Tagen ein Wettbewerb stattfinden wird, um die neue Hymne zu bestimmen."
- siam.42.a: "Verabschiedet es!"
- siam.42.b: "Lieber nicht."
+ siam_events.42.t: "Das Tai-Zusammenschluss- und Neue-Nationalhymne-Gesetz"
+ siam_events.42.d: "Nach der Verabschiedung des Gesetzes, das uns offiziell zu Thailand gemacht hat, werden die Bezeichnungen Tai Lao, Tai Dam, Tai Daeng, Tai Puan, Tai Yai, Tai Sayam, Tai Khuean, Tai Lue, Tai Yuan und andere der Tai-Kadai-Kulturgruppe nun einfach als Thai bezeichnet. Minderheiten behalten das Thai-Präfix bei, da sie laut Gesetz ebenfalls Thai sind. Die Nationalhymne wird ebenfalls geändert, um diese neue Realität widerzuspiegeln, wobei in dreißig Tagen ein Wettbewerb stattfinden wird, um die neue Hymne zu bestimmen."
+ siam_events.42.a: "Verabschiedet es!"
+ siam_events.42.b: "Lieber nicht."
 
- siam.43.t: "[GetYear] Nationalsprachen- und Schulpflichtgesetz"
- siam.43.d: "Zur Förderung unserer Politik der Thaifizierung bzw. der Integration der Minderheiten in Thailand wurde der zentrale Thai-Dialekt (der Bangkoker Dialekt) nun zur Hauptsprache erklärt, während nord-thailändische und laotische Dialekte verboten wurden. Das neue Gesetz macht den Unterricht des zentralen Thai-Dialekts verpflichtend und wird sich negativ auf ethnische und religiöse Schulen auswirken, wie chinesisch geführte Schulen, katholische Assumption Colleges und Pornor-Muslim-Schulen im Süden, sofern sie nicht dem neuen Gesetz zustimmen. Natürlich könnten wir bei der Umsetzung des Gesetzes auch weniger streng vorgehen oder es ganz aufheben."
- siam.43.a: "Thaifizierung ist der Weg in die Zukunft!"
- siam.43.b: "Lasst uns einfach den Gebrauch des Bangkoker Dialekts fördern."
- siam.43.c: "Streiche die Verabschiedung des Gesetzes..."
+ siam_events.43.t: "[GetYear] Nationalsprachen- und Schulpflichtgesetz"
+ siam_events.43.d: "Zur Förderung unserer Politik der Thaifizierung bzw. der Integration der Minderheiten in Thailand wurde der zentrale Thai-Dialekt (der Bangkoker Dialekt) nun zur Hauptsprache erklärt, während nord-thailändische und laotische Dialekte verboten wurden. Das neue Gesetz macht den Unterricht des zentralen Thai-Dialekts verpflichtend und wird sich negativ auf ethnische und religiöse Schulen auswirken, wie chinesisch geführte Schulen, katholische Assumption Colleges und Pornor-Muslim-Schulen im Süden, sofern sie nicht dem neuen Gesetz zustimmen. Natürlich könnten wir bei der Umsetzung des Gesetzes auch weniger streng vorgehen oder es ganz aufheben."
+ siam_events.43.a: "Thaifizierung ist der Weg in die Zukunft!"
+ siam_events.43.b: "Lasst uns einfach den Gebrauch des Bangkoker Dialekts fördern."
+ siam_events.43.c: "Streiche die Verabschiedung des Gesetzes..."
 
- siam.44.t: "Ausländische Arbeitskräfte-Ausschlussgesetz"
- siam.44.d: "Aufgrund des kürzlichen Zustroms chinesischer Einwanderer - die dem Gemetzel und der Zerstörung des Chinesischen Bürgerkriegs entkommen sind - nach [SIA.GetName], haben wir einen Anstieg der Arbeitslosenquote gesehen. Um dieses Problem anzugehen, hat die Regierung beschlossen, bestimmte Arbeitsplätze für unqualifizierte Einwanderer zu sperren und sie für unser eigenes Volk zu reservieren. Dies wird sich jedoch aufgrund unserer Abhängigkeit von chinesischen Arbeitskräften negativ auf unsere Wirtschaft auswirken."
- siam.44.a: "Wir müssen den [SIA.GetProperAdjective] Markt schützen!"
- siam.44.b: "Wir brauchen die ausländischen Arbeitskräfte; streicht das Gesetz!"
+ siam_events.44.t: "Ausländische Arbeitskräfte-Ausschlussgesetz"
+ siam_events.44.d: "Aufgrund des kürzlichen Zustroms chinesischer Einwanderer - die dem Gemetzel und der Zerstörung des Chinesischen Bürgerkriegs entkommen sind - nach [SIA.GetName], haben wir einen Anstieg der Arbeitslosenquote gesehen. Um dieses Problem anzugehen, hat die Regierung beschlossen, bestimmte Arbeitsplätze für unqualifizierte Einwanderer zu sperren und sie für unser eigenes Volk zu reservieren. Dies wird sich jedoch aufgrund unserer Abhängigkeit von chinesischen Arbeitskräften negativ auf unsere Wirtschaft auswirken."
+ siam_events.44.a: "Wir müssen den [SIA.GetProperAdjective] Markt schützen!"
+ siam_events.44.b: "Wir brauchen die ausländischen Arbeitskräfte; streicht das Gesetz!"
 
- siam.45.t: "Abschluss der Ratthaniyom-Reformen"
- siam.45.d: "Alle wichtigen Gesetze bezüglich Phibunsongkhrams Ratthaniyom-Reformen wurden nun auf die eine oder andere Weise erfolgreich umgesetzt. Wir warten nun gespannt auf die öffentliche Reaktion auf die neuen Reformen."
- siam.45.a: "Die [SIA.GetProperAdjective] Nation ist stark!"
- siam.45.b: "Die [SIA.GetProperAdjective] Nation ist stark."
- siam.45.c: "Immerhin haben die Reformen irgendeine Wirkung..."
- siam.45.e: "Kann man es eine Reform nennen, wenn nichts getan wurde?"
+ siam_events.45.t: "Abschluss der Ratthaniyom-Reformen"
+ siam_events.45.d: "Alle wichtigen Gesetze bezüglich Phibunsongkhrams Ratthaniyom-Reformen wurden nun auf die eine oder andere Weise erfolgreich umgesetzt. Wir warten nun gespannt auf die öffentliche Reaktion auf die neuen Reformen."
+ siam_events.45.a: "Die [SIA.GetProperAdjective] Nation ist stark!"
+ siam_events.45.b: "Die [SIA.GetProperAdjective] Nation ist stark."
+ siam_events.45.c: "Immerhin haben die Reformen irgendeine Wirkung..."
+ siam_events.45.e: "Kann man es eine Reform nennen, wenn nichts getan wurde?"
 
-# siam.46 is hidden
+# siam_events.46 is hidden
 
- siam.47.t: "Phibunsongkhram ermordet!"
- siam.47.d: "Premier Phibunsongkram wurde von einem [SIA.GetProperAdjective]-chinesischen Schützen am [GetDateText] während seiner Ankunft an der Ananda Samakhom Thronhalle ermordet. Während er in seiner Wagenkolonne fuhr, wurde er ins Herz getroffen und war sofort tot. Es folgte ein politisches Vakuum, in dem sowohl Phao Sriyanond, der Chef der Geheimpolizei, als auch Sarit Thanarat, Phibunsongkhrams militärischer Machthaber, versuchten, die Macht zu ergreifen und ihre eigenen Ambitionen zu verwirklichen.\n\nPhao sieht die Monarchie als archaisches Symbol und möchte formal eine Republik ausrufen, während Sarit die Zusammenarbeit mit der ehemaligen Chakri-Dynastie als das Beste für die Nation betrachtet."
- siam.47.a: "Phao Sriyanond ist als Sieger hervorgegangen!"
- siam.47.b: "Sarit Thanarat ist als Sieger hervorgegangen!"
+ siam_events.47.t: "Phibunsongkhram ermordet!"
+ siam_events.47.d: "Premier Phibunsongkram wurde von einem [SIA.GetProperAdjective]-chinesischen Schützen am [GetDateText] während seiner Ankunft an der Ananda Samakhom Thronhalle ermordet. Während er in seiner Wagenkolonne fuhr, wurde er ins Herz getroffen und war sofort tot. Es folgte ein politisches Vakuum, in dem sowohl Phao Sriyanond, der Chef der Geheimpolizei, als auch Sarit Thanarat, Phibunsongkhrams militärischer Machthaber, versuchten, die Macht zu ergreifen und ihre eigenen Ambitionen zu verwirklichen.\n\nPhao sieht die Monarchie als archaisches Symbol und möchte formal eine Republik ausrufen, während Sarit die Zusammenarbeit mit der ehemaligen Chakri-Dynastie als das Beste für die Nation betrachtet."
+ siam_events.47.a: "Phao Sriyanond ist als Sieger hervorgegangen!"
+ siam_events.47.b: "Sarit Thanarat ist als Sieger hervorgegangen!"
 
- siam.48.t: "Phibunsongkhram überlebt Attentatsversuch!"
- siam.48.d: "Premier Phibunsongkram wurde von einem seiner eigenen Diener in den Kiefer geschossen, während er sich für die Arbeit anzog! Der Täter wurde schnell vom Sicherheitsteam überwältigt und Phibunsongkram wurde eilig ins [SIA.GetProperAdjective] Militärkrankenhaus gebracht. Da er sich in den Händen eines äußerst professionellen medizinischen Teams befand, konnte er sich schnell erholen und plant heute eine Rede in der Ananta Samakhom Thronhalle."
- siam.48.a: "Er wird nicht umsonst der Eiserne Feldmarschall genannt!"
+ siam_events.48.t: "Phibunsongkhram überlebt Attentatsversuch!"
+ siam_events.48.d: "Premier Phibunsongkram wurde von einem seiner eigenen Diener in den Kiefer geschossen, während er sich für die Arbeit anzog! Der Täter wurde schnell vom Sicherheitsteam überwältigt und Phibunsongkram wurde eilig ins [SIA.GetProperAdjective] Militärkrankenhaus gebracht. Da er sich in den Händen eines äußerst professionellen medizinischen Teams befand, konnte er sich schnell erholen und plant heute eine Rede in der Ananta Samakhom Thronhalle."
+ siam_events.48.a: "Er wird nicht umsonst der Eiserne Feldmarschall genannt!"
 
-# siam.49 is hidden
+# siam_events.49 is hidden
 
- siam.50.t: "Phibunsongkhram ermordet!"
- siam.50.d: "Premier Phibunsongkram wurde von einem seiner eigenen Diener in den Kopf geschossen, während er sich für die Arbeit anzog! Er wurde am Tatort für tot erklärt. Es folgte ein politisches Vakuum, in dem sowohl Phao Sriyanond, der Chef der Geheimpolizei, als auch Sarit Thanarat, Phibunsongkhrams militärischer Machthaber, versuchten, die Macht zu ergreifen und ihre eigenen Ambitionen zu verwirklichen.\n\nPhao sieht die Monarchie als archaisches Symbol und möchte formal eine Republik ausrufen, während Sarit die Zusammenarbeit mit der ehemaligen Chakri-Dynastie als das Beste für die Nation betrachtet."
+ siam_events.50.t: "Phibunsongkhram ermordet!"
+ siam_events.50.d: "Premier Phibunsongkram wurde von einem seiner eigenen Diener in den Kopf geschossen, während er sich für die Arbeit anzog! Er wurde am Tatort für tot erklärt. Es folgte ein politisches Vakuum, in dem sowohl Phao Sriyanond, der Chef der Geheimpolizei, als auch Sarit Thanarat, Phibunsongkhrams militärischer Machthaber, versuchten, die Macht zu ergreifen und ihre eigenen Ambitionen zu verwirklichen.\n\nPhao sieht die Monarchie als archaisches Symbol und möchte formal eine Republik ausrufen, während Sarit die Zusammenarbeit mit der ehemaligen Chakri-Dynastie als das Beste für die Nation betrachtet."
 
- siam.51.t: "Siamesische Exilanten in Saigon"
- siam.51.d: "Nach dem katastrophalen Ausgang des Siamesischen Bürgerkriegs haben einige tausend siamesische Truppen nach ihrer Flucht aus Sattahip per Schiff unsere Küsten erreicht.\n\nNun müssen wir entscheiden, was wir mit diesen erfahrenen Truppen tun sollen - sie in unsere Reihen aufzunehmen könnte zu Spannungen mit unseren laotischen und kambodschanischen Brüdern führen, dies nicht zu tun könnte jedoch unsere Kriegsunterstützung beeinträchtigen, indem es die Fraktionsbildung in unseren revolutionären Reihen zeigt."
- siam.51.a: "Willkommen im Club!"
- siam.51.b: "Wir brauchen keine Pseudo-Imperialisten."
+ siam_events.51.t: "Siamesische Exilanten in Saigon"
+ siam_events.51.d: "Nach dem katastrophalen Ausgang des Siamesischen Bürgerkriegs haben einige tausend siamesische Truppen nach ihrer Flucht aus Sattahip per Schiff unsere Küsten erreicht.\n\nNun müssen wir entscheiden, was wir mit diesen erfahrenen Truppen tun sollen - sie in unsere Reihen aufzunehmen könnte zu Spannungen mit unseren laotischen und kambodschanischen Brüdern führen, dies nicht zu tun könnte jedoch unsere Kriegsunterstützung beeinträchtigen, indem es die Fraktionsbildung in unseren revolutionären Reihen zeigt."
+ siam_events.51.a: "Willkommen im Club!"
+ siam_events.51.b: "Wir brauchen keine Pseudo-Imperialisten."
 
- siam.52.t: "Der Tod von Feldmarschall Phibunsongkhram"
- siam.52.d.rep: "Premierminister Phibunsongkram verstarb heute friedlich in seinem Haus nach einem Herzinfarkt. Seiner Frau La-iade Phibunsongkhram zufolge waren seine letzten Worte einfach: 'Liebste, der Tod ist wahre Glückseligkeit'. Aufgrund des Fehlens eines politischen Nachfolgers entstand ein Machtvakuum, in dem sowohl Phao Sriyanond, der Chef der Geheimpolizei, als auch Sarit Thanarat, Phibunsongkhrams militärischer Machthaber, versuchten, die Macht zu ergreifen und ihre eigenen Ambitionen zu verwirklichen.\n\nPhao selbst sieht die Monarchie als archaisches Symbol und möchte formal eine Republik ausrufen, während Sarit die Zusammenarbeit mit der ehemaligen Chakri-Dynastie als das Beste für die Nation ansieht."
- siam.52.d.nor: "Premierminister Phibunsongkram verstarb heute friedlich in seinem Haus nach einem Herzinfarkt. Seiner Frau La-iade Phibunsongkhram zufolge waren seine letzten Worte einfach: 'Liebste, der Tod ist wahre Glückseligkeit'. Er starb im Kreise von Freunden und Familie.\n\nGeboren als 'Plaek Khittasangkha' im Jahr 1897, erhielt er den Titel 'Luang Phibunsongkhram' aufgrund seiner außerordentlichen Dienste während der [SIA.GetProperAdjective] Intervention in Burma. Als Modernisierer setzte er sich während seiner langen Dienstzeit für die Modernisierung der [SIA.GetProperAdjective] Armee ein. Zu seinen Ehren wurde in Bangkok eine große Veranstaltung von allen vier Teilstreitkräften der [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Streitkräfte abgehalten, wobei eine Straße in der Stadt in Phibunsongkhram Road umbenannt wurde."
- siam.52.c: "Möge er in Frieden ruhen..."
+ siam_events.52.t: "Der Tod von Feldmarschall Phibunsongkhram"
+ siam_events.52.d.rep: "Premierminister Phibunsongkram verstarb heute friedlich in seinem Haus nach einem Herzinfarkt. Seiner Frau La-iade Phibunsongkhram zufolge waren seine letzten Worte einfach: 'Liebste, der Tod ist wahre Glückseligkeit'. Aufgrund des Fehlens eines politischen Nachfolgers entstand ein Machtvakuum, in dem sowohl Phao Sriyanond, der Chef der Geheimpolizei, als auch Sarit Thanarat, Phibunsongkhrams militärischer Machthaber, versuchten, die Macht zu ergreifen und ihre eigenen Ambitionen zu verwirklichen.\n\nPhao selbst sieht die Monarchie als archaisches Symbol und möchte formal eine Republik ausrufen, während Sarit die Zusammenarbeit mit der ehemaligen Chakri-Dynastie als das Beste für die Nation ansieht."
+ siam_events.52.d.nor: "Premierminister Phibunsongkram verstarb heute friedlich in seinem Haus nach einem Herzinfarkt. Seiner Frau La-iade Phibunsongkhram zufolge waren seine letzten Worte einfach: 'Liebste, der Tod ist wahre Glückseligkeit'. Er starb im Kreise von Freunden und Familie.\n\nGeboren als 'Plaek Khittasangkha' im Jahr 1897, erhielt er den Titel 'Luang Phibunsongkhram' aufgrund seiner außerordentlichen Dienste während der [SIA.GetProperAdjective] Intervention in Burma. Als Modernisierer setzte er sich während seiner langen Dienstzeit für die Modernisierung der [SIA.GetProperAdjective] Armee ein. Zu seinen Ehren wurde in Bangkok eine große Veranstaltung von allen vier Teilstreitkräften der [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Streitkräfte abgehalten, wobei eine Straße in der Stadt in Phibunsongkhram Road umbenannt wurde."
+ siam_events.52.c: "Möge er in Frieden ruhen..."
 
- siam.53.t: "König Prajadhipoks Neues Orchesterstück"
- siam.53.d: "Heute wurde König Prajadhipoks 3. komponiertes Lied - \"Kluen Krathop Fang\" (Brandende Wellen), im Sala Chalermkrung Royal Theatre mit Phra Chenduriyang (Piti Wathayakon) als Dirigent als Teil des königlichen Dramas \"Wiwah Phra Samut\" (Neptuns Braut) uraufgeführt.\n\nPrajadhipok begann 1931 mit der Komposition dieses Liedes während einer Bootsfahrt vom Klaikangwon Palast, basierend auf der traditionellen thailändischen Melodie gleichen Namens. Aufgrund seiner königlichen Pflichten konnte er jedoch die Orchestrierung für westliche Instrumente erst kürzlich vollenden."
- siam.53.a: "Was für eine machtvolle Ouvertüre."
+ siam_events.53.t: "König Prajadhipoks Neues Orchesterstück"
+ siam_events.53.d: "Heute wurde König Prajadhipoks 3. komponiertes Lied - \"Kluen Krathop Fang\" (Brandende Wellen), im Sala Chalermkrung Royal Theatre mit Phra Chenduriyang (Piti Wathayakon) als Dirigent als Teil des königlichen Dramas \"Wiwah Phra Samut\" (Neptuns Braut) uraufgeführt.\n\nPrajadhipok begann 1931 mit der Komposition dieses Liedes während einer Bootsfahrt vom Klaikangwon Palast, basierend auf der traditionellen thailändischen Melodie gleichen Namens. Aufgrund seiner königlichen Pflichten konnte er jedoch die Orchestrierung für westliche Instrumente erst kürzlich vollenden."
+ siam_events.53.a: "Was für eine machtvolle Ouvertüre."
 
- siam.54.t: "Die ersten weiblichen Offiziere schließen ihre Ausbildung ab"
- siam.54.d: "Heute haben die ersten 28 weiblichen Offiziere der [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Armee ihre beschleunigte Ausbildung abgeschlossen. Als Teil ihrer progressiven Natur mussten alle weiblichen Kadetten den gleichen Ausbildungsplan wie ihre männlichen Kameraden durchlaufen und sollen wie die Männer an der Front dienen. Um konservative Empörung zu beschwichtigen, müssen sie jedoch bei ihrer Heirat aus dem aktiven Dienst ausscheiden.\n\nEine der herausragenden Rekrutinnen ist Leutnant Jirawat Phibunsongkhram, die älteste Tochter von Feldmarschall Phibunsongkhram, die in der Suranaree-Kompanie, Suriyothai-Regiment in Lopburi dienen wird, welche später zu Bataillonsgröße erweitert werden soll, sollte sich das Pilotprojekt als erfolgreich erweisen."
- siam.54.a: "Ein Hoch auf die Damen."
+ siam_events.54.t: "Die ersten weiblichen Offiziere schließen ihre Ausbildung ab"
+ siam_events.54.d: "Heute haben die ersten 28 weiblichen Offiziere der [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Armee ihre beschleunigte Ausbildung abgeschlossen. Als Teil ihrer progressiven Natur mussten alle weiblichen Kadetten den gleichen Ausbildungsplan wie ihre männlichen Kameraden durchlaufen und sollen wie die Männer an der Front dienen. Um konservative Empörung zu beschwichtigen, müssen sie jedoch bei ihrer Heirat aus dem aktiven Dienst ausscheiden.\n\nEine der herausragenden Rekrutinnen ist Leutnant Jirawat Phibunsongkhram, die älteste Tochter von Feldmarschall Phibunsongkhram, die in der Suranaree-Kompanie, Suriyothai-Regiment in Lopburi dienen wird, welche später zu Bataillonsgröße erweitert werden soll, sollte sich das Pilotprojekt als erfolgreich erweisen."
+ siam_events.54.a: "Ein Hoch auf die Damen."
 
- siam.55.t: "Gründung des Verkehrsministeriums"
- siam.55.d.specific: "Ursprünglich Teil des Innenministeriums - das Amt für Fernstraßen, das Eisenbahnamt, das Amt für Luftverkehr und die Hafenbehörde werden nun ein neues, eigenständiges Ministerium bilden, um den Bau neuer Fernstraßen und Eisenbahnen zur Verbindung der großen Städte des Landes zu erleichtern. Während ehrgeizig, fehlt dem Ministerium selbst die Arbeitskraft, den Plan allein umzusetzen. Einige schlagen vor, [SIA_engineers_target.GetAdjective] Ingenieure anzuheuern, bis diejenigen, die wir zum Studium ins Ausland geschickt haben, zurückkehren."
- siam.55.d.fallback: "Ursprünglich Teil des Innenministeriums - das Amt für Fernstraßen, das Eisenbahnamt, das Amt für Luftverkehr und die Hafenbehörde werden nun ein neues, eigenständiges Ministerium bilden, um den Bau neuer Fernstraßen und Eisenbahnen zur Verbindung der großen Städte des Landes zu erleichtern. Während ehrgeizig, fehlt dem Ministerium selbst die Arbeitskraft, den Plan allein umzusetzen. Einige schlagen vor, ausländische Ingenieure anzuheuern, bis diejenigen, die wir zum Studium ins Ausland geschickt haben, zurückkehren."
- siam.55.a: "Lasst uns wieder diese Ingenieure einstellen."
- siam.55.b: "Wir werden auf eigenen Füßen stehen."
+ siam_events.55.t: "Gründung des Verkehrsministeriums"
+ siam_events.55.d.specific: "Ursprünglich Teil des Innenministeriums - das Amt für Fernstraßen, das Eisenbahnamt, das Amt für Luftverkehr und die Hafenbehörde werden nun ein neues, eigenständiges Ministerium bilden, um den Bau neuer Fernstraßen und Eisenbahnen zur Verbindung der großen Städte des Landes zu erleichtern. Während ehrgeizig, fehlt dem Ministerium selbst die Arbeitskraft, den Plan allein umzusetzen. Einige schlagen vor, [SIA_engineers_target.GetAdjective] Ingenieure anzuheuern, bis diejenigen, die wir zum Studium ins Ausland geschickt haben, zurückkehren."
+ siam_events.55.d.fallback: "Ursprünglich Teil des Innenministeriums - das Amt für Fernstraßen, das Eisenbahnamt, das Amt für Luftverkehr und die Hafenbehörde werden nun ein neues, eigenständiges Ministerium bilden, um den Bau neuer Fernstraßen und Eisenbahnen zur Verbindung der großen Städte des Landes zu erleichtern. Während ehrgeizig, fehlt dem Ministerium selbst die Arbeitskraft, den Plan allein umzusetzen. Einige schlagen vor, ausländische Ingenieure anzuheuern, bis diejenigen, die wir zum Studium ins Ausland geschickt haben, zurückkehren."
+ siam_events.55.a: "Lasst uns wieder diese Ingenieure einstellen."
+ siam_events.55.b: "Wir werden auf eigenen Füßen stehen."
 
  SIA_ministry_of_transportation_tt: "§YWir werden in der Lage sein, ein umfassendes Infrastrukturverbesserungsprogramm zu starten, sobald die Personalfrage gelöst ist.§!\n"
 
- siam.56.t: "Chao Phraya Damm fertiggestellt"
- siam.56.d: "Erstmals erdacht während der Regentschaft von König Chulalongkorn im Jahre 1902 durch den niederländischen Wasserbauingenieur Jan Homan van der Heide, wurde die Biegung des Bang Kra Bian Flusses in der Provinz Chainat als Standort für einen gigantischen Bewässerungsdamm zur Kontrolle des Wasserstands im Chao Phraya flussabwärts ausgewählt, aber das Projekt wurde bald aufgrund von Geldmangel eingestellt. Der zweite Versuch im Jahr 1913, erneut aufgenommen aufgrund von drei aufeinanderfolgenden Dürrejahren, wurde ebenfalls kurz nach Beginn des Weltkriegs aufgegeben.\n\nErst 1932, während des 150. Jahrestages der Gründung von Rattanakosin (Bangkok), sicherte sich die Königliche Bewässerungsabteilung endlich das nötige Budget für dieses Unterfangen. Während das Projekt während des Schwarzen Montags kurz zum Stillstand kam, ist es nun zu seinem Abschluss gekommen und wartet auf die Eröffnungszeremonie durch [SIA.GetLeader]."
- siam.56.a: "Wird dies endlich die verheerenden Überschwemmungen des Chao Phraya bändigen?"
+ siam_events.56.t: "Chao Phraya Damm fertiggestellt"
+ siam_events.56.d: "Erstmals erdacht während der Regentschaft von König Chulalongkorn im Jahre 1902 durch den niederländischen Wasserbauingenieur Jan Homan van der Heide, wurde die Biegung des Bang Kra Bian Flusses in der Provinz Chainat als Standort für einen gigantischen Bewässerungsdamm zur Kontrolle des Wasserstands im Chao Phraya flussabwärts ausgewählt, aber das Projekt wurde bald aufgrund von Geldmangel eingestellt. Der zweite Versuch im Jahr 1913, erneut aufgenommen aufgrund von drei aufeinanderfolgenden Dürrejahren, wurde ebenfalls kurz nach Beginn des Weltkriegs aufgegeben.\n\nErst 1932, während des 150. Jahrestages der Gründung von Rattanakosin (Bangkok), sicherte sich die Königliche Bewässerungsabteilung endlich das nötige Budget für dieses Unterfangen. Während das Projekt während des Schwarzen Montags kurz zum Stillstand kam, ist es nun zu seinem Abschluss gekommen und wartet auf die Eröffnungszeremonie durch [SIA.GetLeader]."
+ siam_events.56.a: "Wird dies endlich die verheerenden Überschwemmungen des Chao Phraya bändigen?"
 
- siam.57.t: "Eröffnung des Demokratie-Monuments"
- siam.57.d: "Nach 2 Jahren Bauzeit wird das neue Demokratie-Monument pünktlich zum 5. Jahrestag der Verabschiedung unserer ersten Verfassung der Öffentlichkeit enthüllt. Nach den Worten von Silpa Bhirasi, dem Architekten des neuen Denkmals: \"Wir werden die Ratchadamnoen-Straße zum \"Champs-Élysées\" Bangkoks umgestalten, mit dem Demokratie-Monument als seinem \"Arc de Triomphe\".\n\nDas Monument ist bei den örtlichen Bewohnern und Ladenbesitzern sehr unbeliebt, von denen viele durch die Verbreiterung der Ratchadamnoen-Straße zur Schaffung eines Zeremonienboulevards aus ihren Häusern und Geschäften vertrieben wurden. Dennoch wird es anderswo mit großem Beifall aufgenommen und dient als Propagandainstrument für die neue [SIA.GetProperAdjective] Regierung."
- siam.57.a: "Ein Monument, das Bangkoks neuem Status gerecht wird."
+ siam_events.57.t: "Eröffnung des Demokratie-Monuments"
+ siam_events.57.d: "Nach 2 Jahren Bauzeit wird das neue Demokratie-Monument pünktlich zum 5. Jahrestag der Verabschiedung unserer ersten Verfassung der Öffentlichkeit enthüllt. Nach den Worten von Silpa Bhirasi, dem Architekten des neuen Denkmals: \"Wir werden die Ratchadamnoen-Straße zum \"Champs-Élysées\" Bangkoks umgestalten, mit dem Demokratie-Monument als seinem \"Arc de Triomphe\".\n\nDas Monument ist bei den örtlichen Bewohnern und Ladenbesitzern sehr unbeliebt, von denen viele durch die Verbreiterung der Ratchadamnoen-Straße zur Schaffung eines Zeremonienboulevards aus ihren Häusern und Geschäften vertrieben wurden. Dennoch wird es anderswo mit großem Beifall aufgenommen und dient als Propagandainstrument für die neue [SIA.GetProperAdjective] Regierung."
+ siam_events.57.a: "Ein Monument, das Bangkoks neuem Status gerecht wird."
 
- siam.58.t: "Enthüllung des neuen Verfassungsschutz-Monuments"
- siam.58.d.left: "\"Es sind nun 3 Jahre seit dem Ende des Siamesischen Bürgerkriegs vergangen, in dem unsere Streitkräfte unter der Führung von Admiral Thamrongnawasawat und der '$SIA_radical_socialist_party_CW_long$' nach Norden marschierten und Bangkok erreichten, halfen die königliche Tyrannei zu beenden - und endlich die Macht in die Hände des Volkes zu legen. Dieses neue Denkmal soll die Leistungen jener feiern, die lebten und kämpften, um das Ende des Krieges zu sehen und jene zu ehren, die es nicht erlebten - aber für unsere gerechte Sache kämpften.\"\n- Vorsitzender [SIA.GetLeader]"
- siam.58.d.gov: "\"Es sind nun 3 Jahre seit dem Ende des Siamesischen Bürgerkriegs vergangen, in dem unsere Streitkräfte unter der Führung von Feldmarschall Phibunsongkhram und der '$SIA_authoritarian_democrat_party_khana_ratsadon_long$' erneut jene besiegten, die das Land für ihre eigenen Zwecke radikalisieren wollten, und damit Frieden und Fortschritt für unser Volk sicherten. Dieses neue Denkmal soll die Leistungen jener feiern, die lebten und kämpften, um das Ende des Krieges zu sehen und jene zu ehren, die es nicht erlebten - aber für unsere gerechte Sache kämpften.\"\n- Premierminister [SIA.GetSecondInCommand]"
- siam.58.d.right: "\"Es sind nun 3 Jahre seit dem Ende des Siamesischen Bürgerkriegs vergangen, in dem unsere Streitkräfte unter der Führung von Prinz Boworadet und der '$SIA_paternal_autocrat_party_CW_long$' nach Süden marschierten und Bangkok erreichten, halfen die rote Bedrohung zu beenden, den Thron seiner Majestät und die Stabilität unserer Nation zu sichern. Dieses neue Denkmal soll die Leistungen jener feiern, die lebten und kämpften, um das Ende des Krieges zu sehen und jene zu ehren, die es nicht erlebten - aber für unsere gerechte Sache kämpften.\"\n- Präsident des Kronrats [SIA.GetSecondInCommand]"
- siam.58.a: "Sie werden für immer in Erinnerung bleiben."
+ siam_events.58.t: "Enthüllung des neuen Verfassungsschutz-Monuments"
+ siam_events.58.d.left: "\"Es sind nun 3 Jahre seit dem Ende des Siamesischen Bürgerkriegs vergangen, in dem unsere Streitkräfte unter der Führung von Admiral Thamrongnawasawat und der '$SIA_radical_socialist_party_CW_long$' nach Norden marschierten und Bangkok erreichten, halfen die königliche Tyrannei zu beenden - und endlich die Macht in die Hände des Volkes zu legen. Dieses neue Denkmal soll die Leistungen jener feiern, die lebten und kämpften, um das Ende des Krieges zu sehen und jene zu ehren, die es nicht erlebten - aber für unsere gerechte Sache kämpften.\"\n- Vorsitzender [SIA.GetLeader]"
+ siam_events.58.d.gov: "\"Es sind nun 3 Jahre seit dem Ende des Siamesischen Bürgerkriegs vergangen, in dem unsere Streitkräfte unter der Führung von Feldmarschall Phibunsongkhram und der '$SIA_authoritarian_democrat_party_khana_ratsadon_long$' erneut jene besiegten, die das Land für ihre eigenen Zwecke radikalisieren wollten, und damit Frieden und Fortschritt für unser Volk sicherten. Dieses neue Denkmal soll die Leistungen jener feiern, die lebten und kämpften, um das Ende des Krieges zu sehen und jene zu ehren, die es nicht erlebten - aber für unsere gerechte Sache kämpften.\"\n- Premierminister [SIA.GetSecondInCommand]"
+ siam_events.58.d.right: "\"Es sind nun 3 Jahre seit dem Ende des Siamesischen Bürgerkriegs vergangen, in dem unsere Streitkräfte unter der Führung von Prinz Boworadet und der '$SIA_paternal_autocrat_party_CW_long$' nach Süden marschierten und Bangkok erreichten, halfen die rote Bedrohung zu beenden, den Thron seiner Majestät und die Stabilität unserer Nation zu sichern. Dieses neue Denkmal soll die Leistungen jener feiern, die lebten und kämpften, um das Ende des Krieges zu sehen und jene zu ehren, die es nicht erlebten - aber für unsere gerechte Sache kämpften.\"\n- Präsident des Kronrats [SIA.GetSecondInCommand]"
+ siam_events.58.a: "Sie werden für immer in Erinnerung bleiben."
 
- siam.59.t: "Nationalfeiertag"
- siam.59.d.coup: "Heute feiert jeder in [SIA.GetNameDefCap] den Tag, an dem wir die Macht von den korrupten Wenigen an uns rissen und die erste Verfassung verabschiedeten, den ersten Schritt zu unserer Umwandlung in eine moderne Nation. Wir werden für immer die sechs Werte hochhalten, die im Manifest der Khana Ratsadon festgelegt sind: Unabhängigkeit, Öffentliche Sicherheit, Wirtschaftlicher Wohlstand, Gleichheit, Freiheit und Bildung."
- siam.59.d.granted: "Heute feiert jeder in [SIA.GetNameDefCap] den Tag, an dem uns König Prajadhipok die erste Verfassung gewährte, den ersten Schritt zu unserer Umwandlung in eine moderne Nation. Wir werden für immer die drei Grundüberzeugungen hochhalten, die unsere nationale Identität definieren: Nation, Religion und Monarchie."
- siam.59.a: "Und so soll es sein!"
+ siam_events.59.t: "Nationalfeiertag"
+ siam_events.59.d.coup: "Heute feiert jeder in [SIA.GetNameDefCap] den Tag, an dem wir die Macht von den korrupten Wenigen an uns rissen und die erste Verfassung verabschiedeten, den ersten Schritt zu unserer Umwandlung in eine moderne Nation. Wir werden für immer die sechs Werte hochhalten, die im Manifest der Khana Ratsadon festgelegt sind: Unabhängigkeit, Öffentliche Sicherheit, Wirtschaftlicher Wohlstand, Gleichheit, Freiheit und Bildung."
+ siam_events.59.d.granted: "Heute feiert jeder in [SIA.GetNameDefCap] den Tag, an dem uns König Prajadhipok die erste Verfassung gewährte, den ersten Schritt zu unserer Umwandlung in eine moderne Nation. Wir werden für immer die drei Grundüberzeugungen hochhalten, die unsere nationale Identität definieren: Nation, Religion und Monarchie."
+ siam_events.59.a: "Und so soll es sein!"
 
  # Ripping off VicII:
- siam.60.t: "Der erste Traktor in Ayutthaya"
- siam.60.d: "Mutter, Mutter! Onkel Daeng hat eine neue Maschine gekauft! Sie kann pflügen, ziehen, reißen, bewegen und man kann darauf fahren! Er sagt, sie heißt 'Rot-thai'!\n\nDie Einführung des Traktors oder, wie er jetzt von den Bauern genannt wird, der 'Stählerne Büffel' in Ayutthaya hat zu einer Revolution in der lokalen Landwirtschaft geführt, wobei die landwirtschaftliche Produktion in einem vor einer Generation noch unvorstellbaren Ausmaß gestiegen ist. Wahrlich, die Segnungen der Industrie sind gut für [SIA.GetSIAshortname]."
- siam.60.a: "Khun Phra Chuay!"
+ siam_events.60.t: "Der erste Traktor in Ayutthaya"
+ siam_events.60.d: "Mutter, Mutter! Onkel Daeng hat eine neue Maschine gekauft! Sie kann pflügen, ziehen, reißen, bewegen und man kann darauf fahren! Er sagt, sie heißt 'Rot-thai'!\n\nDie Einführung des Traktors oder, wie er jetzt von den Bauern genannt wird, der 'Stählerne Büffel' in Ayutthaya hat zu einer Revolution in der lokalen Landwirtschaft geführt, wobei die landwirtschaftliche Produktion in einem vor einer Generation noch unvorstellbaren Ausmaß gestiegen ist. Wahrlich, die Segnungen der Industrie sind gut für [SIA.GetSIAshortname]."
+ siam_events.60.a: "Khun Phra Chuay!"
 
- siam.61.t: "Hinter dem Gemälde"
- siam.61.d: "Hinter dem Gemälde ist ein [SIA.GetProperAdjective] romantischer Roman von Kulap Saipradit, geschrieben unter dem Pseudonym 'Sri Burapha'. Er erzählt die Geschichte von Nopphon, einem [SIA.GetProperAdjective] Studenten einfacher Herkunft, der in Japan studiert und dort eine Beziehung zur aristokratischen Dame Mom Rajawongse Kirati entwickelt, der frisch verheirateten Frau eines Familienbekannten. In der Zeit nach der Siamesischen Revolution angesiedelt, um den Kontrast zwischen beiden Charakteren hervorzuheben, entwickeln Nopphon und Kirati romantische Gefühle, die sie nicht eingestehen können; dies führt zu Spannungen, als die Charaktere den Konflikt zwischen ihren Gefühlen und familiären Pflichten erleben."
- siam.61.a: "Ein gut geschriebener Roman."
+ siam_events.61.t: "Hinter dem Gemälde"
+ siam_events.61.d: "Hinter dem Gemälde ist ein [SIA.GetProperAdjective] romantischer Roman von Kulap Saipradit, geschrieben unter dem Pseudonym 'Sri Burapha'. Er erzählt die Geschichte von Nopphon, einem [SIA.GetProperAdjective] Studenten einfacher Herkunft, der in Japan studiert und dort eine Beziehung zur aristokratischen Dame Mom Rajawongse Kirati entwickelt, der frisch verheirateten Frau eines Familienbekannten. In der Zeit nach der Siamesischen Revolution angesiedelt, um den Kontrast zwischen beiden Charakteren hervorzuheben, entwickeln Nopphon und Kirati romantische Gefühle, die sie nicht eingestehen können; dies führt zu Spannungen, als die Charaktere den Konflikt zwischen ihren Gefühlen und familiären Pflichten erleben."
+ siam_events.61.a: "Ein gut geschriebener Roman."
 
- siam.62.t: "Eröffnung des Tarutao Besserungszentrums"
- siam.62.d: "Nach 6 Monaten Bauzeit ist nun die erste Lieferung politischer Gefangener auf der Insel eingetroffen. Hoffen wir, dass wir sie nie wieder sehen werden."
- siam.62.a: "Ab nach Tarutao mit ihnen!"
+ siam_events.62.t: "Eröffnung des Tarutao Besserungszentrums"
+ siam_events.62.d: "Nach 6 Monaten Bauzeit ist nun die erste Lieferung politischer Gefangener auf der Insel eingetroffen. Hoffen wir, dass wir sie nie wieder sehen werden."
+ siam_events.62.a: "Ab nach Tarutao mit ihnen!"
 
- siam.63.t: "Tarutao Piraten"
- siam.63.d: "Vom Festland abgeschnitten und sich selbst überlassen, haben sich sowohl die Häftlinge als auch die Strafvollzugsbeamten im Tarutao Besserungszentrum der Seeräuberei in der Straße von Malakka zugewandt, um zu überleben. Nach einigen erfolgreichen Raubzügen konnte die nahegelegene Kaiserlichemarine-Garnison aus Penang die Insel befrieden und bietet an, diese Gefangenen an uns auszuliefern, mit der Erwartung, dass wir eine Entschädigung für den von unseren Leuten verursachten Schaden zahlen..."
- siam.63.a: "Senden wir unsere 'Komplimente' an die Deutschen."
- siam.63.b: "Wen interessieren die schon?"
+ siam_events.63.t: "Tarutao Piraten"
+ siam_events.63.d: "Vom Festland abgeschnitten und sich selbst überlassen, haben sich sowohl die Häftlinge als auch die Strafvollzugsbeamten im Tarutao Besserungszentrum der Seeräuberei in der Straße von Malakka zugewandt, um zu überleben. Nach einigen erfolgreichen Raubzügen konnte die nahegelegene Kaiserlichemarine-Garnison aus Penang die Insel befrieden und bietet an, diese Gefangenen an uns auszuliefern, mit der Erwartung, dass wir eine Entschädigung für den von unseren Leuten verursachten Schaden zahlen..."
+ siam_events.63.a: "Senden wir unsere 'Komplimente' an die Deutschen."
+ siam_events.63.b: "Wen interessieren die schon?"
 
- siam.64.t: "Sonnenuntergang am Chao Phraya"
- siam.64.d: "Ein weiterer Bestseller von 'Thomayanti'. Khu-gaam ist eine tragische Liebesgeschichte zwischen einem [SIA.GetProperAdjective] Mädchen Angsumalin, einem Pak Sahachip-Mitglied unter dem Pseudonym Pichit Na Sukothai, und einem deutschen Hauptmann namens Karl von Staffener, einem niederrangigen deutschen Adeligen im Dienst der Kaiserlichen Marine, Deutsches Ostasien Singapurflotte Kommando.\n\nDie Geschichte eskaliert während der Thamrongnawasawat-Rebellion und der Indochinesischen Rebellion, wo ihre schicksalhafte Begegnung und Trennung stattfindet, mit dem Höhepunkt während eines unerwarteten Staatsstreichs von Phin Choonhavan im Jahre 1942."
- siam.64.a: "Also daher kommt der 'Adalheida'-Wahn..."
+ siam_events.64.t: "Sonnenuntergang am Chao Phraya"
+ siam_events.64.d: "Ein weiterer Bestseller von 'Thomayanti'. Khu-gaam ist eine tragische Liebesgeschichte zwischen einem [SIA.GetProperAdjective] Mädchen Angsumalin, einem Pak Sahachip-Mitglied unter dem Pseudonym Pichit Na Sukothai, und einem deutschen Hauptmann namens Karl von Staffener, einem niederrangigen deutschen Adeligen im Dienst der Kaiserlichen Marine, Deutsches Ostasien Singapurflotte Kommando.\n\nDie Geschichte eskaliert während der Thamrongnawasawat-Rebellion und der Indochinesischen Rebellion, wo ihre schicksalhafte Begegnung und Trennung stattfindet, mit dem Höhepunkt während eines unerwarteten Staatsstreichs von Phin Choonhavan im Jahre 1942."
+ siam_events.64.a: "Also daher kommt der 'Adalheida'-Wahn..."
 
- siam.65.t.default: "Sor Setthabuts [SIA.GetProperAdjective]-Englisches Wörterbuch"
- siam.65.t.royalist: "Luang Mahasithivoharns [SIA.GetProperAdjective]-Englisches Wörterbuch"
- siam.65.d.tarutao: "Zusammengestellt von Sor Setthabut (früher Luang Mahasithivoharn), einem der politischen Häftlinge in Tarutao, wobei das Manuskript von seiner Mutter während eines Gefängnisbesuchs hinausgeschmuggelt wurde. Basierend auf seiner Zeit als königlicher Stipendiat in Großbritannien wird seine Version des 'Pathanukrom' unter Bildungsexperten als das umfassendste [SIA.GetProperAdjective]-Englische Wörterbuch aller Zeiten angesehen."
- siam.65.d.bangkhwang: "Zusammengestellt von Sor Setthabut (früher Luang Mahasithivoharn), einem der politischen Häftlinge in Bangkhwang, wobei das Manuskript von seinen Freunden während eines Gefängnisbesuchs hinausgeschmuggelt wurde. Basierend auf seiner Zeit als königlicher Stipendiat in Großbritannien wird seine Version des 'Pathanukrom' unter Bildungsexperten als das umfassendste [SIA.GetProperAdjective]-Englische Wörterbuch aller Zeiten angesehen."
- siam.65.d.default: "Zusammengestellt von Sor Setthabut (früher Luang Mahasithivoharn), der jetzt als Journalist bei der Bangkok Daily Mail arbeitet, debütierte sein neues Buch heute mit großer Resonanz und war sofort nach Erscheinen ausverkauft. Basierend auf seiner Zeit als königlicher Stipendiat in Großbritannien wird seine Version des 'Pathanukrom' unter Bildungsexperten als das umfassendste [SIA.GetProperAdjective]-Englische Wörterbuch aller Zeiten angesehen."
- siam.65.d.royalist: "Zusammengestellt von Luang Mahasithivoharn (Sor Setthabut), einem der aufstrebenden Sterne im neuen Kronrat, debütierte sein neues Buch heute mit großer Resonanz und war sofort nach Erscheinen ausverkauft. Basierend auf seiner Zeit als königlicher Stipendiat in Großbritannien wird seine Version des 'Pathanukrom' unter Bildungsexperten als das umfassendste [SIA.GetProperAdjective]-englische Wörterbuch aller Zeiten angesehen."
- siam.65.a: "Wie schade, dass er ein Dissident war."
- siam.65.b: "Ein hervorragendes literarisches Werk."
+ siam_events.65.t.default: "Sor Setthabuts [SIA.GetProperAdjective]-Englisches Wörterbuch"
+ siam_events.65.t.royalist: "Luang Mahasithivoharns [SIA.GetProperAdjective]-Englisches Wörterbuch"
+ siam_events.65.d.tarutao: "Zusammengestellt von Sor Setthabut (früher Luang Mahasithivoharn), einem der politischen Häftlinge in Tarutao, wobei das Manuskript von seiner Mutter während eines Gefängnisbesuchs hinausgeschmuggelt wurde. Basierend auf seiner Zeit als königlicher Stipendiat in Großbritannien wird seine Version des 'Pathanukrom' unter Bildungsexperten als das umfassendste [SIA.GetProperAdjective]-Englische Wörterbuch aller Zeiten angesehen."
+ siam_events.65.d.bangkhwang: "Zusammengestellt von Sor Setthabut (früher Luang Mahasithivoharn), einem der politischen Häftlinge in Bangkhwang, wobei das Manuskript von seinen Freunden während eines Gefängnisbesuchs hinausgeschmuggelt wurde. Basierend auf seiner Zeit als königlicher Stipendiat in Großbritannien wird seine Version des 'Pathanukrom' unter Bildungsexperten als das umfassendste [SIA.GetProperAdjective]-Englische Wörterbuch aller Zeiten angesehen."
+ siam_events.65.d.default: "Zusammengestellt von Sor Setthabut (früher Luang Mahasithivoharn), der jetzt als Journalist bei der Bangkok Daily Mail arbeitet, debütierte sein neues Buch heute mit großer Resonanz und war sofort nach Erscheinen ausverkauft. Basierend auf seiner Zeit als königlicher Stipendiat in Großbritannien wird seine Version des 'Pathanukrom' unter Bildungsexperten als das umfassendste [SIA.GetProperAdjective]-Englische Wörterbuch aller Zeiten angesehen."
+ siam_events.65.d.royalist: "Zusammengestellt von Luang Mahasithivoharn (Sor Setthabut), einem der aufstrebenden Sterne im neuen Kronrat, debütierte sein neues Buch heute mit großer Resonanz und war sofort nach Erscheinen ausverkauft. Basierend auf seiner Zeit als königlicher Stipendiat in Großbritannien wird seine Version des 'Pathanukrom' unter Bildungsexperten als das umfassendste [SIA.GetProperAdjective]-englische Wörterbuch aller Zeiten angesehen."
+ siam_events.65.a: "Wie schade, dass er ein Dissident war."
+ siam_events.65.b: "Ein hervorragendes literarisches Werk."
 
 # Siamn.66 is hidden
 
- siam.67.t: "[SIA.GetNameDefCap] bietet bedingte Kapitulation an"
+ siam_events.67.t: "[SIA.GetNameDefCap] bietet bedingte Kapitulation an"
  # Faction leader:
- siam.67.d.default: "Heute sandte uns [SIA.GetSIAshortname] einen diplomatischen Gesandten, um eine bedingte Kapitulation auszuhandeln. Ihre Truppen werden die Feindseligkeiten sofort einstellen, wichtige Gebiete abtreten und uns eine beträchtliche Summe an Kriegsreparationen zahlen - als Gegenleistung erbitten sie lediglich die Garantie ihrer Unabhängigkeit gegen zukünftige ausländische Aggressionen."
+ siam_events.67.d.default: "Heute sandte uns [SIA.GetSIAshortname] einen diplomatischen Gesandten, um eine bedingte Kapitulation auszuhandeln. Ihre Truppen werden die Feindseligkeiten sofort einstellen, wichtige Gebiete abtreten und uns eine beträchtliche Summe an Kriegsreparationen zahlen - als Gegenleistung erbitten sie lediglich die Garantie ihrer Unabhängigkeit gegen zukünftige ausländische Aggressionen."
  # Faction member, leader accepted peace:
- siam.67.d.faction_peace: "Vor einigen Tagen sandte [SIA.GetSIAshortname] unserer Fraktion einen diplomatischen Gesandten, um eine bedingte Kapitulation auszuhandeln. Während [ROOT.faction_leader.GetNameDef] das [SIA.GetProperAdjective] Friedensangebot, welches Kriegsreparationen und die sofortige Einstellung der Feindseligkeiten zwischen unseren Streitkräften und den [SIA.GetProperAdjective] beinhaltet, akzeptiert hat - es liegt nun an uns, ob wir den Krieg alleine weiterführen wollen oder nicht."
+ siam_events.67.d.faction_peace: "Vor einigen Tagen sandte [SIA.GetSIAshortname] unserer Fraktion einen diplomatischen Gesandten, um eine bedingte Kapitulation auszuhandeln. Während [ROOT.faction_leader.GetNameDef] das [SIA.GetProperAdjective] Friedensangebot, welches Kriegsreparationen und die sofortige Einstellung der Feindseligkeiten zwischen unseren Streitkräften und den [SIA.GetProperAdjective] beinhaltet, akzeptiert hat - es liegt nun an uns, ob wir den Krieg alleine weiterführen wollen oder nicht."
  # Faction member, leader refused peace:
- siam.67.d.faction_war: "Vor einigen Tagen sandte [SIA.GetSIAshortname] unserer Fraktion einen diplomatischen Gesandten, um eine bedingte Kapitulation auszuhandeln. Während [ROOT.faction_leader.GetNameDef] das [SIA.GetProperAdjective] Friedensangebot, welches Kriegsreparationen und die sofortige Einstellung der Feindseligkeiten zwischen unseren Streitkräften und den [SIA.GetProperAdjective] beinhaltet, ignoriert hat - es liegt nun an uns, ob wir den Krieg alleine weiterführen wollen oder nicht."
- siam.67.a: "Ja, lasst uns diesen Krieg beenden."
- siam.67.b: "Nein, sie werden zerschmettert."
+ siam_events.67.d.faction_war: "Vor einigen Tagen sandte [SIA.GetSIAshortname] unserer Fraktion einen diplomatischen Gesandten, um eine bedingte Kapitulation auszuhandeln. Während [ROOT.faction_leader.GetNameDef] das [SIA.GetProperAdjective] Friedensangebot, welches Kriegsreparationen und die sofortige Einstellung der Feindseligkeiten zwischen unseren Streitkräften und den [SIA.GetProperAdjective] beinhaltet, ignoriert hat - es liegt nun an uns, ob wir den Krieg alleine weiterführen wollen oder nicht."
+ siam_events.67.a: "Ja, lasst uns diesen Krieg beenden."
+ siam_events.67.b: "Nein, sie werden zerschmettert."
 
- siam.68.t: "[FROM.GetNameDefCap] Lehnt Frieden Ab"
- siam.68.d: "[FROM.GetNameDefCap] hat das Friedensangebot abgelehnt, das unser diplomatischer Gesandter ihnen überreicht hat."
- siam.68.a: "Oh nein..."
+ siam_events.68.t: "[FROM.GetNameDefCap] Lehnt Frieden Ab"
+ siam_events.68.d: "[FROM.GetNameDefCap] hat das Friedensangebot abgelehnt, das unser diplomatischer Gesandter ihnen überreicht hat."
+ siam_events.68.a: "Oh nein..."
 
- siam.69.t: "[FROM.GetNameDefCap] Widersetzt Sich Unserer Führung"
+ siam_events.69.t: "[FROM.GetNameDefCap] Widersetzt Sich Unserer Führung"
  # FROM won't accept the peace:
- siam.69.d.peace: "Entgegen unserer Erwartungen hat [FROM.GetNameDef] beschlossen, unsere Entscheidung bezüglich des Krieges gegen [SIA.GetSIAshortname] zu ignorieren und den Krieg eigenständig fortzusetzen."
+ siam_events.69.d.peace: "Entgegen unserer Erwartungen hat [FROM.GetNameDef] beschlossen, unsere Entscheidung bezüglich des Krieges gegen [SIA.GetSIAshortname] zu ignorieren und den Krieg eigenständig fortzusetzen."
  # FROM won't continue the war:
- siam.69.d.war: "Entgegen unserer Erwartungen hat [FROM.GetNameDef] beschlossen, unsere Entscheidung bezüglich des Krieges gegen [SIA.GetSIAshortname] zu ignorieren und das Friedensangebot selbst anzunehmen, da sie einen solch unnötigen Konflikt nicht fortsetzen wollen."
- siam.69.a: "Wir werden sie stattdessen unterstützen."
- siam.69.b: "Nun gut, lasst uns Frieden schließen."
- siam.69.c: "Dann sind sie auf sich allein gestellt."
+ siam_events.69.d.war: "Entgegen unserer Erwartungen hat [FROM.GetNameDef] beschlossen, unsere Entscheidung bezüglich des Krieges gegen [SIA.GetSIAshortname] zu ignorieren und das Friedensangebot selbst anzunehmen, da sie einen solch unnötigen Konflikt nicht fortsetzen wollen."
+ siam_events.69.a: "Wir werden sie stattdessen unterstützen."
+ siam_events.69.b: "Nun gut, lasst uns Frieden schließen."
+ siam_events.69.c: "Dann sind sie auf sich allein gestellt."
 
- siam.70.t.peace: "Bedingte Kapitulation tritt in Kraft"
- siam.70.t.no_peace: "Bedingte Kapitulation abgelehnt"
- siam.70.d.peace: "Unsere Feinde haben sich entschieden, unser Friedensangebot anzunehmen. Während wir die nächsten Jahre unter dem Schatten ihrer Stiefel stehen werden als Garantie dafür, dass wir die im Vertrag ausgehandelten Details einhalten, können wir nur hoffen, in Zukunft militärische Abenteuer zu vermeiden."
- siam.70.d.no_peace: "Unser Friedensspiel ist nun gescheitert, und wir können genauso gut bis zum letzten Mann kämpfen."
- siam.70.a: "Zumindest sind wir noch unabhängig..."
- siam.70.b: "Katastrophe!"
+ siam_events.70.t.peace: "Bedingte Kapitulation tritt in Kraft"
+ siam_events.70.t.no_peace: "Bedingte Kapitulation abgelehnt"
+ siam_events.70.d.peace: "Unsere Feinde haben sich entschieden, unser Friedensangebot anzunehmen. Während wir die nächsten Jahre unter dem Schatten ihrer Stiefel stehen werden als Garantie dafür, dass wir die im Vertrag ausgehandelten Details einhalten, können wir nur hoffen, in Zukunft militärische Abenteuer zu vermeiden."
+ siam_events.70.d.no_peace: "Unser Friedensspiel ist nun gescheitert, und wir können genauso gut bis zum letzten Mann kämpfen."
+ siam_events.70.a: "Zumindest sind wir noch unabhängig..."
+ siam_events.70.b: "Katastrophe!"
 
- siam.71.t: "[SIA.GetNameDefCap] hat kapituliert"
- siam.71.d.faction: "Kurz vor dem Zusammenbruch hat sich [SIA.GetNameDef] stattdessen für einen Separatfrieden mit unseren Feinden entschieden, anstatt eine Exilregierung zu bilden."
- siam.71.d.faction_leader: "Kurz vor dem Zusammenbruch hat sich [SIA.GetNameDef] stattdessen für einen Separatfrieden mit unseren Feinden entschieden, anstatt mit uns eine Exilregierung zu bilden. Dies wird schwerwiegende Folgen für unsere Kriegsanstrengungen haben und unsere Flanken im indochinesischen Kriegsschauplatz entblößen."
- siam.71.a: "Nun, das war unerwartet."
- siam.71.b: "Verräter!"
+ siam_events.71.t: "[SIA.GetNameDefCap] hat kapituliert"
+ siam_events.71.d.faction: "Kurz vor dem Zusammenbruch hat sich [SIA.GetNameDef] stattdessen für einen Separatfrieden mit unseren Feinden entschieden, anstatt eine Exilregierung zu bilden."
+ siam_events.71.d.faction_leader: "Kurz vor dem Zusammenbruch hat sich [SIA.GetNameDef] stattdessen für einen Separatfrieden mit unseren Feinden entschieden, anstatt mit uns eine Exilregierung zu bilden. Dies wird schwerwiegende Folgen für unsere Kriegsanstrengungen haben und unsere Flanken im indochinesischen Kriegsschauplatz entblößen."
+ siam_events.71.a: "Nun, das war unerwartet."
+ siam_events.71.b: "Verräter!"
 
- siam.72.t: "Frieden mit [FROM.GetNameDefCap]"
- siam.72.d.reparations: "Unser Abkommen mit [SIA.GetSIAshortname] ist nun in Kraft getreten, ihre erste Rate der Kriegsreparationen befindet sich bereits in unseren Kassen."
- siam.72.d.no_reparations: "Unser Abkommen mit [SIA.GetSIAshortname] ist nun in Kraft getreten."
- siam.72.a: "Ausgezeichnet."
+ siam_events.72.t: "Frieden mit [FROM.GetNameDefCap]"
+ siam_events.72.d.reparations: "Unser Abkommen mit [SIA.GetSIAshortname] ist nun in Kraft getreten, ihre erste Rate der Kriegsreparationen befindet sich bereits in unseren Kassen."
+ siam_events.72.d.no_reparations: "Unser Abkommen mit [SIA.GetSIAshortname] ist nun in Kraft getreten."
+ siam_events.72.a: "Ausgezeichnet."
 
- siam.74.t: "[From.GetNameDefCap] ersucht um Beitritt"
- siam.74.d: "Während die revolutionären Feuer durch Asien fegen, wird die Notwendigkeit der Solidarität und Zusammenarbeit zwischen den neu befreiten Völkern immer deutlicher. Im Bewusstsein der Gefahren, in der sich schnell verändernden Weltlage neutral zu bleiben, haben unsere Genossen aus [From.GetNameDef] um einen Beitritt ersucht. Die Annahme dieses Gesuchs würde unseren Einfluss in Südostasien erweitern, einer Region von vitaler strategischer Bedeutung. Allerdings warnen kritische Stimmen vor der Verstrickung in unnötige ausländische Unternehmungen."
- siam.74.a: "Wir heißen unsere [From.GetAdjectiveCap] Kameraden willkommen."
- siam.74.b: "Das ist unnötig, lasst uns ihr Gesuch ablehnen."
+ siam_events.74.t: "[From.GetNameDefCap] ersucht um Beitritt"
+ siam_events.74.d: "Während die revolutionären Feuer durch Asien fegen, wird die Notwendigkeit der Solidarität und Zusammenarbeit zwischen den neu befreiten Völkern immer deutlicher. Im Bewusstsein der Gefahren, in der sich schnell verändernden Weltlage neutral zu bleiben, haben unsere Genossen aus [From.GetNameDef] um einen Beitritt ersucht. Die Annahme dieses Gesuchs würde unseren Einfluss in Südostasien erweitern, einer Region von vitaler strategischer Bedeutung. Allerdings warnen kritische Stimmen vor der Verstrickung in unnötige ausländische Unternehmungen."
+ siam_events.74.a: "Wir heißen unsere [From.GetAdjectiveCap] Kameraden willkommen."
+ siam_events.74.b: "Das ist unnötig, lasst uns ihr Gesuch ablehnen."
 
- siam.75.t: "[From.GetNameDefCap] Stimmt zu!"
- siam.75.d: "Wie erwartet hat [FROM.GetNameDef] unserem Gesuch zum Beitritt in die [From.GetFactionName] zugestimmt und damit die wachsenden Verbindungen zwischen unseren Nationen gefestigt. Was auch immer die Zukunft bringen mag, wir werden den Sturm gemeinsam überstehen."
- siam.75.a: "Wir stehen vereint."
+ siam_events.75.t: "[From.GetNameDefCap] Stimmt zu!"
+ siam_events.75.d: "Wie erwartet hat [FROM.GetNameDef] unserem Gesuch zum Beitritt in die [From.GetFactionName] zugestimmt und damit die wachsenden Verbindungen zwischen unseren Nationen gefestigt. Was auch immer die Zukunft bringen mag, wir werden den Sturm gemeinsam überstehen."
+ siam_events.75.a: "Wir stehen vereint."
 
- siam.76.t: "[From.GetNameDefCap] Lehnt ab"
- siam.76.d: "In einem unerwarteten und enttäuschenden Schritt hat [FROM.GetNameDef] unser Beitrittsgesuch abgelehnt, und nun finden wir uns noch weiter isoliert von den globalen Angelegenheiten."
- siam.76.a: "Enttäuschend, aber vielleicht gibt es Alternativen."
+ siam_events.76.t: "[From.GetNameDefCap] Lehnt ab"
+ siam_events.76.d: "In einem unerwarteten und enttäuschenden Schritt hat [FROM.GetNameDef] unser Beitrittsgesuch abgelehnt, und nun finden wir uns noch weiter isoliert von den globalen Angelegenheiten."
+ siam_events.76.a: "Enttäuschend, aber vielleicht gibt es Alternativen."
 
 ## Songkran Flavour ##
- siam.77.t: "Songkran-Tag"
- siam.77.d: "[SIA_songkran_day_event_desc]"
- siam.77.a: "[SIA_songkran_day_event_option]"
+ siam_events.77.t: "Songkran-Tag"
+ siam_events.77.d: "[SIA_songkran_day_event_desc]"
+ siam_events.77.a: "[SIA_songkran_day_event_option]"
 
 ## Initial Black Monday ##
- siam.77.d.bm: "Inmitten der durch den Schwarzen Montag verursachten Unruhen umgab heute eine friedliche Atmosphäre [SIA.GetSIAshortname], als das Songkran-Festival begann. Familien versammelten sich in lokalen Tempeln, um den Mönchen Opfergaben zu präsentieren. Ältere führten das traditionelle Ritual des Wassergießens über Buddha-Statuen durch, als Symbol der Reinigung und Beseitigung von Unglück und Vergehen. Als die Feierlichkeiten in den Nachmittag übergingen, waren die Straßen voller Aufregung, als Menschen jeden Alters an fröhlichen Wasserschlachten teilnahmen, ein festlicher Höhepunkt, der bis in den Abend andauerte.\n\nInmitten dieser Feierlichkeiten wandte sich König [SIA.GetLeader] per Radio an die Nation und mahnte zur Einheit angesichts der Widrigkeiten. Er versicherte den Bürgern, dass sie gemeinsam die aktuelle Krise überwinden würden, wie sie jede Krise überwunden hätten, die sie heimgesucht hatte."
+ siam_events.77.d.bm: "Inmitten der durch den Schwarzen Montag verursachten Unruhen umgab heute eine friedliche Atmosphäre [SIA.GetSIAshortname], als das Songkran-Festival begann. Familien versammelten sich in lokalen Tempeln, um den Mönchen Opfergaben zu präsentieren. Ältere führten das traditionelle Ritual des Wassergießens über Buddha-Statuen durch, als Symbol der Reinigung und Beseitigung von Unglück und Vergehen. Als die Feierlichkeiten in den Nachmittag übergingen, waren die Straßen voller Aufregung, als Menschen jeden Alters an fröhlichen Wasserschlachten teilnahmen, ein festlicher Höhepunkt, der bis in den Abend andauerte.\n\nInmitten dieser Feierlichkeiten wandte sich König [SIA.GetLeader] per Radio an die Nation und mahnte zur Einheit angesichts der Widrigkeiten. Er versicherte den Bürgern, dass sie gemeinsam die aktuelle Krise überwinden würden, wie sie jede Krise überwunden hätten, die sie heimgesucht hatte."
 ## Khana Ratsadon Coup ##
- siam.77.d.krc.SocDem: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Pridi gewählt."
- siam.77.d.krc.SocLib: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Sawaet gewählt."
- siam.77.d.krc.SocCon: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Pramoj gewählt."
- siam.77.d.krc.bmr.SocDem: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Pridi gewählt. Außerdem erholt sich die Wirtschaft."
- siam.77.d.krc.bmr.SocLib: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Sawaet gewählt. Außerdem erholt sich die Wirtschaft."
- siam.77.d.krc.bmr.SocCon: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Pramoj gewählt. Außerdem erholt sich die Wirtschaft."
- siam.77.d.krc.bmo.SocDem: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Pridi gewählt. Außerdem hat sich die Wirtschaft erholt."
- siam.77.d.krc.bmo.SocLib: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Sawaet gewählt. Außerdem hat sich die Wirtschaft erholt."
- siam.77.d.krc.bmo.SocCon: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Pramoj gewählt. Außerdem hat sich die Wirtschaft erholt." #temp
+ siam_events.77.d.krc.SocDem: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Pridi gewählt."
+ siam_events.77.d.krc.SocLib: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Sawaet gewählt."
+ siam_events.77.d.krc.SocCon: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Pramoj gewählt."
+ siam_events.77.d.krc.bmr.SocDem: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Pridi gewählt. Außerdem erholt sich die Wirtschaft."
+ siam_events.77.d.krc.bmr.SocLib: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Sawaet gewählt. Außerdem erholt sich die Wirtschaft."
+ siam_events.77.d.krc.bmr.SocCon: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Pramoj gewählt. Außerdem erholt sich die Wirtschaft."
+ siam_events.77.d.krc.bmo.SocDem: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Pridi gewählt. Außerdem hat sich die Wirtschaft erholt."
+ siam_events.77.d.krc.bmo.SocLib: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Sawaet gewählt. Außerdem hat sich die Wirtschaft erholt."
+ siam_events.77.d.krc.bmo.SocCon: "Der Khana Ratsadon Putsch ist geschehen. Und sie haben Pramoj gewählt. Außerdem hat sich die Wirtschaft erholt." #temp
 ## Prajadhipok Constitution ##
- siam.77.d.constitution: "Der König hat uns eine Verfassung gegeben. Die Wahl soll noch in diesem Jahr stattfinden." #temp
- siam.77.d.constitution.bmr: "Der König hat uns eine Verfassung gegeben. Die Wahl soll noch in diesem Jahr stattfinden. Außerdem beginnt sich die Wirtschaft ein wenig zu erholen."
- siam.77.d.constitution.bmr.SocDem: "Pridi hat die Führung und wir erholen uns" #temp
- siam.77.d.constitution.bmr.SocLib: "Sawaet hat die Führung und wir erholen uns." #temp
- siam.77.d.constitution.bmr.SocCon: "Pramoj hat die Führung und wir erholen uns." #temp
- siam.77.d.constitution.bmr2.SocDem: "Pridi hat die Führung und wir erholen uns. Teil 2" #temp
- siam.77.d.constitution.bmr2.SocLib: "Sawaet hat die Führung und wir erholen uns. Teil 2" #temp
- siam.77.d.constitution.bmr2.SocCon: "Pramoj hat die Führung und wir erholen uns. Teil 2" #temp
- siam.77.d.constitution.bmo.SocDem: "Pridi hat die Führung und wir haben uns erholt." #temp
- siam.77.d.constitution.bmo.SocLib: "Sawaet hat die Führung und wir haben uns erholt." #temp
- siam.77.d.constitution.bmo.SocCon: "Pramoj hat die Führung und wir haben uns erholt." #temp
- siam.77.d.constitution.RamaVII.neutral: "König Prajadhipok hatte zur Ruhe gemahnt, während die Welt sich im Krieg befand, und er forderte uns auf, Songkran zu genießen, solange wir noch können." #temp
- siam.77.d.constitution.RamaVII.war.faction: "König Prajadhipok hatte während Songkran zur Einheit angesichts des Krieges aufgerufen. Außerdem sind wir in einer Fraktion." #temp
- siam.77.d.constitution.RamaVII.war: "König Prajadhipok hatte während Songkran zur Einheit angesichts des Krieges aufgerufen." #temp
- siam.77.d.constitution.RamaVII.peace: "Frieden herrscht in Siam, und König Prajadhipok könnte nicht glücklicher sein." #temp
- siam.77.d.constitution.RamaVII.peace.faction: "Frieden herrscht in Siam, und König Prajadhipok könnte nicht glücklicher sein. Wir sind auch in einer Fraktion." #temp
- siam.77.d.constitution.RamaVII.peace.neautral: "Frieden herrscht in Siam, und König Prajadhipok könnte nicht glücklicher sein. Wir sind auch durchgehend neutral geblieben."
- siam.77.d.constitution.RamaVIII.neutral: "König Prajadhipok war verstorben und Ananda Mahidol wurde zum neuen König gekrönt. Während der Krieg um die neutrale Nation tobt, mahnte der König zur Ruhe und rief zur Feier des Songkran auf, während die Welt um sie herum zerfällt." #temp
- siam.77.d.constitution.RamaVIII.war: "König Ananda Mahidol hatte während Songkran zur Einheit angesichts des Krieges aufgerufen." #temp
- siam.77.d.constitution.RamaVIII.peace: "Frieden ist über Siam gekommen, und König Ananda Mahidol könnte nicht glücklicher sein." #temp
- siam.77.d.constitution.RamaVIII.peace.faction: "Frieden ist über Siam gekommen, und König Ananda Mahidol könnte nicht glücklicher sein. Wir sind auch in einer Fraktion." #temp
- siam.77.d.constitution.RamaIX.neutral: "König Ananda Mahidol ist verstorben und Bhumibol wurde zum neuen König gekrönt. Während der Krieg um die neutrale Nation tobt, hat der König zu Ruhe aufgerufen und zur Feier des Songkran aufgefordert, während die Welt um sie herum in die Luft fliegt." #temp
- siam.77.d.constitution.RamaIX.war: "König Bhumibol hat angesichts des Krieges während Songkran zur Einheit aufgerufen." #temp
- siam.77.d.constitution.RamaIX.peace: "Frieden ist über Siam gekommen, und König Bhumibol könnte nicht glücklicher sein." #temp
- siam.77.d.constitution.RamaIX.peace.faction: "Frieden ist über Siam gekommen, und König Bhumibol könnte nicht glücklicher sein. Wir sind auch in einer Fraktion." #temp
+ siam_events.77.d.constitution: "Der König hat uns eine Verfassung gegeben. Die Wahl soll noch in diesem Jahr stattfinden." #temp
+ siam_events.77.d.constitution.bmr: "Der König hat uns eine Verfassung gegeben. Die Wahl soll noch in diesem Jahr stattfinden. Außerdem beginnt sich die Wirtschaft ein wenig zu erholen."
+ siam_events.77.d.constitution.bmr.SocDem: "Pridi hat die Führung und wir erholen uns" #temp
+ siam_events.77.d.constitution.bmr.SocLib: "Sawaet hat die Führung und wir erholen uns." #temp
+ siam_events.77.d.constitution.bmr.SocCon: "Pramoj hat die Führung und wir erholen uns." #temp
+ siam_events.77.d.constitution.bmr2.SocDem: "Pridi hat die Führung und wir erholen uns. Teil 2" #temp
+ siam_events.77.d.constitution.bmr2.SocLib: "Sawaet hat die Führung und wir erholen uns. Teil 2" #temp
+ siam_events.77.d.constitution.bmr2.SocCon: "Pramoj hat die Führung und wir erholen uns. Teil 2" #temp
+ siam_events.77.d.constitution.bmo.SocDem: "Pridi hat die Führung und wir haben uns erholt." #temp
+ siam_events.77.d.constitution.bmo.SocLib: "Sawaet hat die Führung und wir haben uns erholt." #temp
+ siam_events.77.d.constitution.bmo.SocCon: "Pramoj hat die Führung und wir haben uns erholt." #temp
+ siam_events.77.d.constitution.RamaVII.neutral: "König Prajadhipok hatte zur Ruhe gemahnt, während die Welt sich im Krieg befand, und er forderte uns auf, Songkran zu genießen, solange wir noch können." #temp
+ siam_events.77.d.constitution.RamaVII.war.faction: "König Prajadhipok hatte während Songkran zur Einheit angesichts des Krieges aufgerufen. Außerdem sind wir in einer Fraktion." #temp
+ siam_events.77.d.constitution.RamaVII.war: "König Prajadhipok hatte während Songkran zur Einheit angesichts des Krieges aufgerufen." #temp
+ siam_events.77.d.constitution.RamaVII.peace: "Frieden herrscht in Siam, und König Prajadhipok könnte nicht glücklicher sein." #temp
+ siam_events.77.d.constitution.RamaVII.peace.faction: "Frieden herrscht in Siam, und König Prajadhipok könnte nicht glücklicher sein. Wir sind auch in einer Fraktion." #temp
+ siam_events.77.d.constitution.RamaVII.peace.neautral: "Frieden herrscht in Siam, und König Prajadhipok könnte nicht glücklicher sein. Wir sind auch durchgehend neutral geblieben."
+ siam_events.77.d.constitution.RamaVIII.neutral: "König Prajadhipok war verstorben und Ananda Mahidol wurde zum neuen König gekrönt. Während der Krieg um die neutrale Nation tobt, mahnte der König zur Ruhe und rief zur Feier des Songkran auf, während die Welt um sie herum zerfällt." #temp
+ siam_events.77.d.constitution.RamaVIII.war: "König Ananda Mahidol hatte während Songkran zur Einheit angesichts des Krieges aufgerufen." #temp
+ siam_events.77.d.constitution.RamaVIII.peace: "Frieden ist über Siam gekommen, und König Ananda Mahidol könnte nicht glücklicher sein." #temp
+ siam_events.77.d.constitution.RamaVIII.peace.faction: "Frieden ist über Siam gekommen, und König Ananda Mahidol könnte nicht glücklicher sein. Wir sind auch in einer Fraktion." #temp
+ siam_events.77.d.constitution.RamaIX.neutral: "König Ananda Mahidol ist verstorben und Bhumibol wurde zum neuen König gekrönt. Während der Krieg um die neutrale Nation tobt, hat der König zu Ruhe aufgerufen und zur Feier des Songkran aufgefordert, während die Welt um sie herum in die Luft fliegt." #temp
+ siam_events.77.d.constitution.RamaIX.war: "König Bhumibol hat angesichts des Krieges während Songkran zur Einheit aufgerufen." #temp
+ siam_events.77.d.constitution.RamaIX.peace: "Frieden ist über Siam gekommen, und König Bhumibol könnte nicht glücklicher sein." #temp
+ siam_events.77.d.constitution.RamaIX.peace.faction: "Frieden ist über Siam gekommen, und König Bhumibol könnte nicht glücklicher sein. Wir sind auch in einer Fraktion." #temp
 ## Civil War Socialist Republic Victory in Thamrongnawasawat Rebellion ##
- siam.77.d.SocRep: "Dies ist siam.77.d.SocRep" #temp
- siam.77.d.SocRep.bmr: "Dies ist siam.77.d.SocRep.bmr" #temp
- siam.77.d.SocRep.bmo: "Dies ist siam.77.d.SocRep.bmo" #temp
+ siam_events.77.d.SocRep: "Dies ist siam_events.77.d.SocRep" #temp
+ siam_events.77.d.SocRep.bmr: "Dies ist siam_events.77.d.SocRep.bmr" #temp
+ siam_events.77.d.SocRep.bmo: "Dies ist siam_events.77.d.SocRep.bmo" #temp
 ## Civil War Royalist Victory in Thamrongnawasawat Rebellion ##
- siam.77.d.royalist: "Dies ist siam.77.d.royalist" #temp
- siam.77.d.royalist.bmr: "Dies ist siam.77.d.royalist.bmr" #temp
- siam.77.d.royalist.bmo: "Dies ist siam.77.d.royalist.bmo" #temp
+ siam_events.77.d.royalist: "Dies ist siam_events.77.d.royalist" #temp
+ siam_events.77.d.royalist.bmr: "Dies ist siam_events.77.d.royalist.bmr" #temp
+ siam_events.77.d.royalist.bmo: "Dies ist siam_events.77.d.royalist.bmo" #temp
 ## Civil War Boworadet Victory in Boworadet Rebellion ##
- siam.77.d.boworadet: "Dies ist siam.77.d.boworadet" #temp
- siam.77.d.boworadet.bmr: "Dies ist siam.77.d.boworadet.bmr" #temp
- siam.77.d.boworadet.bmo: "Dies ist siam.77.d.boworadet.bmo" #temp
+ siam_events.77.d.boworadet: "Dies ist siam_events.77.d.boworadet" #temp
+ siam_events.77.d.boworadet.bmr: "Dies ist siam_events.77.d.boworadet.bmr" #temp
+ siam_events.77.d.boworadet.bmo: "Dies ist siam_events.77.d.boworadet.bmo" #temp
 ## Civil War Parliamentarian Victory in Boworadet Rebellion ##
- siam.77.d.parliamentarian: "Dies ist siam.77.d.parliamentarian" #temp
- siam.77.d.parliamentarian.bmr: "Dies ist siam.77.d.parliamentarian.bmr" #temp
- siam.77.d.parliamentarian.bmo: "Dies ist siam.77.d.parliamentarian.bmo" #temp
+ siam_events.77.d.parliamentarian: "Dies ist siam_events.77.d.parliamentarian" #temp
+ siam_events.77.d.parliamentarian.bmr: "Dies ist siam_events.77.d.parliamentarian.bmr" #temp
+ siam_events.77.d.parliamentarian.bmo: "Dies ist siam_events.77.d.parliamentarian.bmo" #temp
 ## Phibun in control ##
- siam.77.d.phibun: "Dies ist siam.77.d.phibun" #temp
- siam.77.d.phibun.bmr: "Dies ist siam.77.d.phibun.bmr" #temp
- siam.77.d.phibun.bmo: "Dies ist siam.77.d.phibun.bmo" #temp
+ siam_events.77.d.phibun: "Dies ist siam_events.77.d.phibun" #temp
+ siam_events.77.d.phibun.bmr: "Dies ist siam_events.77.d.phibun.bmr" #temp
+ siam_events.77.d.phibun.bmo: "Dies ist siam_events.77.d.phibun.bmo" #temp
 ## Phibun gave up power ##
- siam.77.d.phibungaveup: "Dies ist siam.77.d.phibungaveup" #temp
- siam.77.d.phibungaveup.bmr: "Dies ist siam.77.d.phibungaveup.bmr" #temp
- siam.77.d.phibungaveup.bmo: "Dies ist siam.77.d.phibungaveup.bmo" #temp
+ siam_events.77.d.phibungaveup: "Dies ist siam_events.77.d.phibungaveup" #temp
+ siam_events.77.d.phibungaveup.bmr: "Dies ist siam_events.77.d.phibungaveup.bmr" #temp
+ siam_events.77.d.phibungaveup.bmo: "Dies ist siam_events.77.d.phibungaveup.bmo" #temp
 ## Phao in control ##
- siam.77.d.phao: "Dies ist siam.77.d.phao" #temp
- siam.77.d.phao.bmr: "Dies ist siam.77.d.phao.bmr" #temp
- siam.77.d.phao.bmo: "Dies ist siam.77.d.phao.bmo" #temp
+ siam_events.77.d.phao: "Dies ist siam_events.77.d.phao" #temp
+ siam_events.77.d.phao.bmr: "Dies ist siam_events.77.d.phao.bmr" #temp
+ siam_events.77.d.phao.bmo: "Dies ist siam_events.77.d.phao.bmo" #temp
 ## Sarit in control ##
- siam.77.d.sarit: "Dies ist siam.77.d.sarit" #temp
- siam.77.d.sarit.bmr: "Dies ist siam.77.d.sarit.bmr" #temp
- siam.77.d.sarit.bmo: "Dies ist siam.77.d.sarit.bmo" #temp
+ siam_events.77.d.sarit: "Dies ist siam_events.77.d.sarit" #temp
+ siam_events.77.d.sarit.bmr: "Dies ist siam_events.77.d.sarit.bmr" #temp
+ siam_events.77.d.sarit.bmo: "Dies ist siam_events.77.d.sarit.bmo" #temp
 ## Boriphat in control ## Is it Boriphat or Paribatr, also why are we communicating in English when we can just speak Thai?
- siam.77.d.boriphat: "Dies ist siam.77.d.boriphat" #temp
- siam.77.d.boriphat.bmr: "Dies ist siam.77.d.boriphat.bmr" #temp
- siam.77.d.boriphat.bmo: "Dies ist siam.77.d.boriphat.bmo" #temp
+ siam_events.77.d.boriphat: "Dies ist siam_events.77.d.boriphat" #temp
+ siam_events.77.d.boriphat.bmr: "Dies ist siam_events.77.d.boriphat.bmr" #temp
+ siam_events.77.d.boriphat.bmo: "Dies ist siam_events.77.d.boriphat.bmo" #temp
 ## Answer ##
 ## Initial BM ##
- siam.77.a.bm: "Wir haben weitaus Schlimmeres überstanden!"
+ siam_events.77.a.bm: "Wir haben weitaus Schlimmeres überstanden!"
 ## Khana Ratsadon Coup ##
- siam.77.a.krc: "Wir werden dieses Land wieder großartig machen!" #temp
- siam.77.a.krc.bmr: "Langsam und stetig führt zum Ziel!" #temp
- siam.77.a.krc.bmo: "Wir gedeihen hier!" #temp
+ siam_events.77.a.krc: "Wir werden dieses Land wieder großartig machen!" #temp
+ siam_events.77.a.krc.bmr: "Langsam und stetig führt zum Ziel!" #temp
+ siam_events.77.a.krc.bmo: "Wir gedeihen hier!" #temp
 ## Prajadhipok Constitution ##
- siam.77.a.constitution: "So beginnt der demokratische Prozess!" #temp
- siam.77.a.constitution.bmr: "So beginnt der demokratische Prozess und die Wirtschaft hat sich erholt!"
- siam.77.a.constitution.bmr.SocDem: "Juhu!" #temp
- siam.77.a.constitution.bmr.SocLib: "Fantastisch!" #temp
- siam.77.a.constitution.bmr.SocCon: "Großartig!" #temp
- siam.77.a.constitution.bmr2.SocDem: "Jawohl!" #temp
- siam.77.a.constitution.bmr2.SocLib: "Perfekt!" #temp
- siam.77.a.constitution.bmr2.SocCon: "Ein großartiger Anlass." #temp
- siam.77.a.constitution.bmo.SocDem: "Pridi hat die Führung und wir haben uns erholt." #temp
- siam.77.a.constitution.bmo.SocLib: "Sawaet hat die Führung und wir haben uns erholt." #temp
- siam.77.a.constitution.bmo.SocCon: "Pramoj hat die Führung und wir haben uns erholt." #temp
- siam.77.a.constitution.RamaVII.neutral: "König Prajadhipok wird uns durch die Neutralitätsperiode führen." #temp
- siam.77.a.constitution.RamaVII.war: "König Prajadhipok wird uns durch die Kriegszeit führen." #temp
- siam.77.a.constitution.RamaVII.peace: "König Prajadhipok hat uns durch den Krieg geführt. Lasst uns nun den Frieden genießen." #temp
- siam.77.a.constitution.RamaVIII.neutral: "König Ananda Mahidol wird uns durch die Neutralitätsperiode führen." #temp
- siam.77.a.constitution.RamaVIII.war: "König Ananda Mahidol wird uns durch die Kriegszeit führen." #temp
- siam.77.a.constitution.RamaVIII.peace: "König Ananda Mahidol hat uns durch den Krieg geführt. Lasst uns nun den Frieden genießen." #temp
- siam.77.a.constitution.RamaIX.neutral: "König Bhumibol wird uns durch die Neutralitätsperiode führen." #temp
- siam.77.a.constitution.RamaIX.war: "König Bhumibol wird uns durch die Kriegszeit führen." #temp
- siam.77.a.constitution.RamaIX.peace: "König Bhumibol hat uns durch den Krieg geführt. Lasst uns nun den Frieden genießen." #temp
+ siam_events.77.a.constitution: "So beginnt der demokratische Prozess!" #temp
+ siam_events.77.a.constitution.bmr: "So beginnt der demokratische Prozess und die Wirtschaft hat sich erholt!"
+ siam_events.77.a.constitution.bmr.SocDem: "Juhu!" #temp
+ siam_events.77.a.constitution.bmr.SocLib: "Fantastisch!" #temp
+ siam_events.77.a.constitution.bmr.SocCon: "Großartig!" #temp
+ siam_events.77.a.constitution.bmr2.SocDem: "Jawohl!" #temp
+ siam_events.77.a.constitution.bmr2.SocLib: "Perfekt!" #temp
+ siam_events.77.a.constitution.bmr2.SocCon: "Ein großartiger Anlass." #temp
+ siam_events.77.a.constitution.bmo.SocDem: "Pridi hat die Führung und wir haben uns erholt." #temp
+ siam_events.77.a.constitution.bmo.SocLib: "Sawaet hat die Führung und wir haben uns erholt." #temp
+ siam_events.77.a.constitution.bmo.SocCon: "Pramoj hat die Führung und wir haben uns erholt." #temp
+ siam_events.77.a.constitution.RamaVII.neutral: "König Prajadhipok wird uns durch die Neutralitätsperiode führen." #temp
+ siam_events.77.a.constitution.RamaVII.war: "König Prajadhipok wird uns durch die Kriegszeit führen." #temp
+ siam_events.77.a.constitution.RamaVII.peace: "König Prajadhipok hat uns durch den Krieg geführt. Lasst uns nun den Frieden genießen." #temp
+ siam_events.77.a.constitution.RamaVIII.neutral: "König Ananda Mahidol wird uns durch die Neutralitätsperiode führen." #temp
+ siam_events.77.a.constitution.RamaVIII.war: "König Ananda Mahidol wird uns durch die Kriegszeit führen." #temp
+ siam_events.77.a.constitution.RamaVIII.peace: "König Ananda Mahidol hat uns durch den Krieg geführt. Lasst uns nun den Frieden genießen." #temp
+ siam_events.77.a.constitution.RamaIX.neutral: "König Bhumibol wird uns durch die Neutralitätsperiode führen." #temp
+ siam_events.77.a.constitution.RamaIX.war: "König Bhumibol wird uns durch die Kriegszeit führen." #temp
+ siam_events.77.a.constitution.RamaIX.peace: "König Bhumibol hat uns durch den Krieg geführt. Lasst uns nun den Frieden genießen." #temp
 ## Civil War Socialist Republic Victory in Thamrongnawasawat Rebellion ##
- siam.77.a.SocRep: "Vertraut Pridi." #temp
- siam.77.a.SocRep.bmr: "Vertraut weiterhin Pridi." #temp
- siam.77.a.SocRep.bmo: "Auf Pridi vertrauen wir." #temp
+ siam_events.77.a.SocRep: "Vertraut Pridi." #temp
+ siam_events.77.a.SocRep.bmr: "Vertraut weiterhin Pridi." #temp
+ siam_events.77.a.SocRep.bmo: "Auf Pridi vertrauen wir." #temp
 ## Civil War Royalist Victory in Thamrongnawasawat Rebellion ##
- siam.77.a.royalist: "Die Royalisten werden die Nationen wiederherstellen!" #temp
- siam.77.a.royalist.bmr: "Die Royalisten stabilisieren die Wirtschaft!" #temp
- siam.77.a.royalist.bmo: "Die Royalisten haben die Nationen wiederhergestellt!" #temp
+ siam_events.77.a.royalist: "Die Royalisten werden die Nationen wiederherstellen!" #temp
+ siam_events.77.a.royalist.bmr: "Die Royalisten stabilisieren die Wirtschaft!" #temp
+ siam_events.77.a.royalist.bmo: "Die Royalisten haben die Nationen wiederhergestellt!" #temp
 ## Civil War Boworadet Victory in Boworadet Rebellion ##
- siam.77.a.boworadet: "Boworadet hat die Nation gerettet!" #temp
- siam.77.a.boworadet.bmr: "Boworadet stabilisiert die Wirtschaft!" #temp
- siam.77.a.boworadet.bmo: "Boworadet hat die Wirtschaft stabilisiert!" #temp
+ siam_events.77.a.boworadet: "Boworadet hat die Nation gerettet!" #temp
+ siam_events.77.a.boworadet.bmr: "Boworadet stabilisiert die Wirtschaft!" #temp
+ siam_events.77.a.boworadet.bmo: "Boworadet hat die Wirtschaft stabilisiert!" #temp
 ## Civil War Parliamentarian Victory in Boworadet Rebellion ##
- siam.77.a.parliamentarian: "Wir werden uns den Tyrannen niemals beugen!" #temp
- siam.77.a.parliamentarian.bmr: "Wir stabilisieren die Wirtschaft!" #temp
- siam.77.a.parliamentarian.bmo: "Wir haben die Wirtschaft stabilisiert!" #temp
+ siam_events.77.a.parliamentarian: "Wir werden uns den Tyrannen niemals beugen!" #temp
+ siam_events.77.a.parliamentarian.bmr: "Wir stabilisieren die Wirtschaft!" #temp
+ siam_events.77.a.parliamentarian.bmo: "Wir haben die Wirtschaft stabilisiert!" #temp
 ## Phibun in control ##
- siam.77.a.phibun: "Wir salutieren dem Eisernen Marschall" #temp
- siam.77.a.phibun.bmr: "Der Eiserne Marschall saniert die Wirtschaft" #temp
- siam.77.a.phibun.bmo: "Der Eiserne Marschall hat die Wirtschaft saniert" #temp
+ siam_events.77.a.phibun: "Wir salutieren dem Eisernen Marschall" #temp
+ siam_events.77.a.phibun.bmr: "Der Eiserne Marschall saniert die Wirtschaft" #temp
+ siam_events.77.a.phibun.bmo: "Der Eiserne Marschall hat die Wirtschaft saniert" #temp
 ## Phibun gave up power ##
- siam.77.a.phibungaveup: "Der Eiserne Marschall hat die Demokratie der Nation gerettet." #temp
- siam.77.a.phibungaveup.bmr: "Wir sanieren die Wirtschaft" #temp
- siam.77.a.phibungaveup.bmo: "Wir haben die Wirtschaft saniert" #temp
+ siam_events.77.a.phibungaveup: "Der Eiserne Marschall hat die Demokratie der Nation gerettet." #temp
+ siam_events.77.a.phibungaveup.bmr: "Wir sanieren die Wirtschaft" #temp
+ siam_events.77.a.phibungaveup.bmo: "Wir haben die Wirtschaft saniert" #temp
 ## Phao in control ##
- siam.77.a.phao: "Phao läutete eine neue Republik ein" #temp
- siam.77.a.phao.bmr: "Phao saniert die Wirtschaft" #temp
- siam.77.a.phao.bmo: "Phao hatte die Wirtschaft saniert" #temp
+ siam_events.77.a.phao: "Phao läutete eine neue Republik ein" #temp
+ siam_events.77.a.phao.bmr: "Phao saniert die Wirtschaft" #temp
+ siam_events.77.a.phao.bmo: "Phao hatte die Wirtschaft saniert" #temp
 ## Sarit in control ##
- siam.77.a.sarit: "Sarit hatte die Ordnung wiederhergestellt." #temp
- siam.77.a.sarit.bmr: "Sarit saniert die Wirtschaft." #temp
- siam.77.a.sarit.bmo: "Sarit hatte die Wirtschaft saniert." #temp
+ siam_events.77.a.sarit: "Sarit hatte die Ordnung wiederhergestellt." #temp
+ siam_events.77.a.sarit.bmr: "Sarit saniert die Wirtschaft." #temp
+ siam_events.77.a.sarit.bmo: "Sarit hatte die Wirtschaft saniert." #temp
 ## Boriphat in control ## Is it Boriphat or Paribatr, also why are we communicating in English when we can just speak Thai?
- siam.77.a.boriphat: "Boriphat hatte den Thron usurpiert." #temp
- siam.77.a.boriphat.bmr: "Boriphat saniert die Wirtschaft." #temp
- siam.77.a.boriphat.bmo: "Boriphat hatte die Wirtschaft saniert." #temp
+ siam_events.77.a.boriphat: "Boriphat hatte den Thron usurpiert." #temp
+ siam_events.77.a.boriphat.bmr: "Boriphat saniert die Wirtschaft." #temp
+ siam_events.77.a.boriphat.bmo: "Boriphat hatte die Wirtschaft saniert." #temp
 
 ## Second Weltkrieg Reaction ## Either Russia invades Germany, or the French, or the Germans goes on the attack. Idk pick a plot.
- siam.78.t: "Ein Krieg in Europa"
- siam.78.d.neutral: "Wir müssen unseren neutralen Status bewahren." #temp
- siam.78.d.sphere: "Zeit, Asien zu befreien." #temp
- siam.78.d.reichpakt: "Wir müssen die alte Ordnung bewahren." #temp
- siam.78.d.socialist: "Die Zeit ist gekommen." #temp
- siam.78.a.neutral: "Wenn wir absolut stillstehen, werden sie uns nicht sehen." #temp
- siam.78.a.sphere: "Die Zeit für uns Asiaten war gekommen." #temp
- siam.78.a.reichpakt: "Wir müssen die Japaner aufhalten." #temp
- siam.78.a.socialist: "Zeit für die Arbeiter aufzustehen!" #temp
+ siam_events.78.t: "Ein Krieg in Europa"
+ siam_events.78.d.neutral: "Wir müssen unseren neutralen Status bewahren." #temp
+ siam_events.78.d.sphere: "Zeit, Asien zu befreien." #temp
+ siam_events.78.d.reichpakt: "Wir müssen die alte Ordnung bewahren." #temp
+ siam_events.78.d.socialist: "Die Zeit ist gekommen." #temp
+ siam_events.78.a.neutral: "Wenn wir absolut stillstehen, werden sie uns nicht sehen." #temp
+ siam_events.78.a.sphere: "Die Zeit für uns Asiaten war gekommen." #temp
+ siam_events.78.a.reichpakt: "Wir müssen die Japaner aufhalten." #temp
+ siam_events.78.a.socialist: "Zeit für die Arbeiter aufzustehen!" #temp
 
 ## Nation at war ## Probaly when the Eastern Sea War kicks in, or when Siam find themselves at war.
- siam.79.t: "Der Krieg findet seinen Weg nach Siam"
- siam.79.d.war.neutral: "Wir sind im Krieg und wir sind neutral." #temp
- siam.79.d.war.sphere: "Wir sind im Krieg und wir stehen an Japans Seite." #temp
- siam.79.d.war.reichpakt: "Wir sind im Krieg und wir stehen an Deutschlands Seite." #temp
- siam.79.d.war.socialist: "Wir sind im Krieg und verkünden die Weltrevolution." #temp
- siam.79.a.war.neutral: "Also habt ihr den Elefanten im Raum geweckt." #temp
- siam.79.a.war.sphere: "Zeit die Deutschen anzugreifen!" #temp
- siam.79.a.war.reichpakt: "Wir müssen unser Territorium um jeden Preis gegen die Japaner verteidigen." #temp
- siam.79.a.war.socialist: "Zeit, die Arbeiterrevolution zu verbreiten!" #temp
+ siam_events.79.t: "Der Krieg findet seinen Weg nach Siam"
+ siam_events.79.d.war.neutral: "Wir sind im Krieg und wir sind neutral." #temp
+ siam_events.79.d.war.sphere: "Wir sind im Krieg und wir stehen an Japans Seite." #temp
+ siam_events.79.d.war.reichpakt: "Wir sind im Krieg und wir stehen an Deutschlands Seite." #temp
+ siam_events.79.d.war.socialist: "Wir sind im Krieg und verkünden die Weltrevolution." #temp
+ siam_events.79.a.war.neutral: "Also habt ihr den Elefanten im Raum geweckt." #temp
+ siam_events.79.a.war.sphere: "Zeit die Deutschen anzugreifen!" #temp
+ siam_events.79.a.war.reichpakt: "Wir müssen unser Territorium um jeden Preis gegen die Japaner verteidigen." #temp
+ siam_events.79.a.war.socialist: "Zeit, die Arbeiterrevolution zu verbreiten!" #temp
 
 ## Peace on Siam ## Probably when the Eastern Sea War Ended?, I have no idea how this last one will be implemented.
- siam.80.t: "Frieden für die Nation"
- siam.80.d.peace.neutral: "Wir haben endlich Frieden. Und wir sind neutral." #temp
- siam.80.d.peace.sphere: "Wir haben endlich Frieden. Und wir sind mit Japan." #temp
- siam.80.d.peace.reichpakt: "Wir haben endlich Frieden und wir sind mit Deutschland." #temp
- siam.80.d.peace.socialist: "Wir haben endlich Frieden und die Weltrevolution war erfolgreich." #temp
- siam.80.a.peace.neutral: "Hurra 1" #temp
- siam.80.a.peace.sphere: "Hurra 2" #temp
- siam.80.a.peace.reichpakt: "Hurra 3" #temp
- siam.80.a.peace.socialist: "Yay 4" #temp
+ siam_events.80.t: "Frieden für die Nation"
+ siam_events.80.d.peace.neutral: "Wir haben endlich Frieden. Und wir sind neutral." #temp
+ siam_events.80.d.peace.sphere: "Wir haben endlich Frieden. Und wir sind mit Japan." #temp
+ siam_events.80.d.peace.reichpakt: "Wir haben endlich Frieden und wir sind mit Deutschland." #temp
+ siam_events.80.d.peace.socialist: "Wir haben endlich Frieden und die Weltrevolution war erfolgreich." #temp
+ siam_events.80.a.peace.neutral: "Hurra 1" #temp
+ siam_events.80.a.peace.sphere: "Hurra 2" #temp
+ siam_events.80.a.peace.reichpakt: "Hurra 3" #temp
+ siam_events.80.a.peace.socialist: "Yay 4" #temp
 
 ### News Events ###
- siam.200.t: "Coup d'Etat in Siam"
- siam.200.d: "Heute wurde aus Bangkok bekannt, dass eine Gruppe von Offizieren und Intellektuellen, die sich selbst als $SIA_authoritarian_democrat_party_khana_ratsadon_long$ bezeichnet, erfolgreich die Kontrolle über die Regierung übernommen hat. Wichtige Regierungsbeamte wurden festgenommen, und der König und sein Thronfolger sollen sich in Sicherheit befinden und von der neuen Regierung gut versorgt werden.\n\nDer neue Premierminister gab eine Erklärung ab, in der er bekannt gab, dass es sich nicht um einen Militärputsch handele, sondern um eine friedliche Machtübergabe, während eine Verfassung ausgearbeitet werde."
- siam.200.a: "Besorgniserregned."
+ siam_events.200.t: "Coup d'Etat in Siam"
+ siam_events.200.d: "Heute wurde aus Bangkok bekannt, dass eine Gruppe von Offizieren und Intellektuellen, die sich selbst als $SIA_authoritarian_democrat_party_khana_ratsadon_long$ bezeichnet, erfolgreich die Kontrolle über die Regierung übernommen hat. Wichtige Regierungsbeamte wurden festgenommen, und der König und sein Thronfolger sollen sich in Sicherheit befinden und von der neuen Regierung gut versorgt werden.\n\nDer neue Premierminister gab eine Erklärung ab, in der er bekannt gab, dass es sich nicht um einen Militärputsch handele, sondern um eine friedliche Machtübergabe, während eine Verfassung ausgearbeitet werde."
+ siam_events.200.a: "Besorgniserregned."
 
- siam.201.t: "Siams neue Verfassung"
- siam.201.d: "König Prajadhipok von Siam hat offiziell die erste Verfassung des jahrhundertealten Königreichs in Südostasien veröffentlicht. Inspiriert von der japanischen Verfassung der Meiji-Ära und der deutschen Regierung, stärkt sie die Macht des Königs und des Volkes gegenüber der mächtigen Königsfamilie, die bisher einen großen Einfluss auf Seine Majestät ausgeübt hat.\n\nIn einer Erklärung bestätigte Premierminister Phraya Manopakorn Nitithada heute, dass er gebeten worden sei, eine Übergangsregierung zu bilden, um die bevorstehenden Wahlen zu verwalten, während das alte Kabinett langsam aber sicher aus dem Amt entfernt wird."
- siam.201.a: "Mit der Zeit gehen, wie es scheint."
+ siam_events.201.t: "Siams neue Verfassung"
+ siam_events.201.d: "König Prajadhipok von Siam hat offiziell die erste Verfassung des jahrhundertealten Königreichs in Südostasien veröffentlicht. Inspiriert von der japanischen Verfassung der Meiji-Ära und der deutschen Regierung, stärkt sie die Macht des Königs und des Volkes gegenüber der mächtigen Königsfamilie, die bisher einen großen Einfluss auf Seine Majestät ausgeübt hat.\n\nIn einer Erklärung bestätigte Premierminister Phraya Manopakorn Nitithada heute, dass er gebeten worden sei, eine Übergangsregierung zu bilden, um die bevorstehenden Wahlen zu verwalten, während das alte Kabinett langsam aber sicher aus dem Amt entfernt wird."
+ siam_events.201.a: "Mit der Zeit gehen, wie es scheint."
 
- siam.202.t: "Der Boworadet-Aufstand"
- siam.202.d: "Die jüngste Siamesische Revolution war zwar äußerlich erfolgreich, hat jedoch einen starken Rückgang ihrer Popularität erlebt. Unter Ausnutzung des umstrittenen \"Yellow Cover Dossier\" – dem Spitznamen für einen vorgeschlagenen Plan zur Überarbeitung der Wirtschaftssysteme des Landes und zur Verstaatlichung vieler Industriezweige – wurde eine \"rote Angst\" geschürt.\n\nWährend der Chef der Armee, Luang Phibunsongkhram, dem Parlament seine Loyalität erklärte, organisierte Prinz Boworadet eine bewaffnete Meuterei im Norden des Landes. Er erklärte sich und seine Untergebenen zur $SIA_paternal_autocrat_party_CW_long$ und marschierte in Richtung Bangkok. Die rasche Mobilisierung der Regierungstruppen führte zu einer zweitägigen Pattsituation, die schnell zu einem offenen Krieg zwischen beiden Seiten eskalierte."
- siam.202.a: "Der siamesische Bürgerkrieg beginnt..."
- siam.202.b: "Die letzten Atemzüge der Reaktionäre."
- siam.202.c: "Vielleicht ein paar Waffenlieferungen an die royalistische Seite?"
- siam.202.e: "Die letzten Atemzüge der pro-deutschen Clique?"
- siam.202.f_gov: "Wir werden diese Rebellen vernichten!"
- siam.202.f_reb: "Für König und Vaterland!"
+ siam_events.202.t: "Der Boworadet-Aufstand"
+ siam_events.202.d: "Die jüngste Siamesische Revolution war zwar äußerlich erfolgreich, hat jedoch einen starken Rückgang ihrer Popularität erlebt. Unter Ausnutzung des umstrittenen \"Yellow Cover Dossier\" – dem Spitznamen für einen vorgeschlagenen Plan zur Überarbeitung der Wirtschaftssysteme des Landes und zur Verstaatlichung vieler Industriezweige – wurde eine \"rote Angst\" geschürt.\n\nWährend der Chef der Armee, Luang Phibunsongkhram, dem Parlament seine Loyalität erklärte, organisierte Prinz Boworadet eine bewaffnete Meuterei im Norden des Landes. Er erklärte sich und seine Untergebenen zur $SIA_paternal_autocrat_party_CW_long$ und marschierte in Richtung Bangkok. Die rasche Mobilisierung der Regierungstruppen führte zu einer zweitägigen Pattsituation, die schnell zu einem offenen Krieg zwischen beiden Seiten eskalierte."
+ siam_events.202.a: "Der siamesische Bürgerkrieg beginnt..."
+ siam_events.202.b: "Die letzten Atemzüge der Reaktionäre."
+ siam_events.202.c: "Vielleicht ein paar Waffenlieferungen an die royalistische Seite?"
+ siam_events.202.e: "Die letzten Atemzüge der pro-deutschen Clique?"
+ siam_events.202.f_gov: "Wir werden diese Rebellen vernichten!"
+ siam_events.202.f_reb: "Für König und Vaterland!"
 
- siam.203.t: "Die Thamrongnawasawat-Rebellion"
- siam.203.d: "Die jüngste siamesische Revolution war zwar äußerlich erfolgreich, hat jedoch einen starken Rückgang ihrer Popularität erlebt. Unter Ausnutzung des umstrittenen \"Yellow Cover Dossier\" – dem Spitznamen für einen vorgeschlagenen Plan zur Überarbeitung der Wirtschaftssysteme des Landes und zur Verstaatlichung vieler Industriezweige – wurde eine \"rote Angst\" geschürt.\n\nLuang Thamrongnawasawat und einige unzufriedene Marineoffiziere organisierten hingegen eine bewaffnete Meuterei im Süden des Landes. Nachdem sie sich zur $SIA_radical_socialist_party_CW_long$ erklärt hatten, marschierten sie auf Bangkok. Der Zusammenbruch des Militärs markiert den Beginn eines umfassenden Bürgerkriegs in Siam."
- siam.203.a: "Es war nicht zu ändern."
- siam.203.b: "Sozialistische Genossen haben unsere Unterstützung!"
- siam.203.c: "Informiert Singapur, dass es seine Grenze zu Siam verschärfen soll."
- siam.203.e: "Sozialistische Rebellen haben in Asien keinen Platz."
- siam.203.f_gov: "Die Syndikalisten haben ihr wahres Gesicht gezeigt!"
- siam.203.f_reb: "Wir werden die alte Ordnung ein für alle Mal zu Fall bringen!"
+ siam_events.203.t: "Die Thamrongnawasawat-Rebellion"
+ siam_events.203.d: "Die jüngste siamesische Revolution war zwar äußerlich erfolgreich, hat jedoch einen starken Rückgang ihrer Popularität erlebt. Unter Ausnutzung des umstrittenen \"Yellow Cover Dossier\" – dem Spitznamen für einen vorgeschlagenen Plan zur Überarbeitung der Wirtschaftssysteme des Landes und zur Verstaatlichung vieler Industriezweige – wurde eine \"rote Angst\" geschürt.\n\nLuang Thamrongnawasawat und einige unzufriedene Marineoffiziere organisierten hingegen eine bewaffnete Meuterei im Süden des Landes. Nachdem sie sich zur $SIA_radical_socialist_party_CW_long$ erklärt hatten, marschierten sie auf Bangkok. Der Zusammenbruch des Militärs markiert den Beginn eines umfassenden Bürgerkriegs in Siam."
+ siam_events.203.a: "Es war nicht zu ändern."
+ siam_events.203.b: "Sozialistische Genossen haben unsere Unterstützung!"
+ siam_events.203.c: "Informiert Singapur, dass es seine Grenze zu Siam verschärfen soll."
+ siam_events.203.e: "Sozialistische Rebellen haben in Asien keinen Platz."
+ siam_events.203.f_gov: "Die Syndikalisten haben ihr wahres Gesicht gezeigt!"
+ siam_events.203.f_reb: "Wir werden die alte Ordnung ein für alle Mal zu Fall bringen!"
 
- siam.204.t: "Phibunsongkhrams Coup d'état"
- siam.204.d: "Die jüngste siamesische Revolution war zwar äußerlich erfolgreich, hat jedoch einen starken Rückgang ihrer Popularität erlebt. Unter Ausnutzung des umstrittenen \"Yellow Cover Dossier\" – dem Spitznamen für einen vorgeschlagenen Plan zur Überarbeitung der Wirtschaftssysteme des Landes und zur Verstaatlichung vieler Industriezweige – wurde eine \"rote Angst\" geschürt.\n\nDer Chef der Armee, Luang Phibunsongkhram, griff gerade noch rechtzeitig ein und verhängte landesweit das Kriegsrecht, was nach allgemeiner Auffassung das Land vor einem Bürgerkrieg bewahrte. Der \"Eiserne Marschall\" plant offenbar, selbst als Diktator zu regieren, bis er glaubt, dass das Land bereit ist für die Verantwortung der Demokratie."
- siam.204.a: "Und wann wird das sein?"
+ siam_events.204.t: "Phibunsongkhrams Coup d'état"
+ siam_events.204.d: "Die jüngste siamesische Revolution war zwar äußerlich erfolgreich, hat jedoch einen starken Rückgang ihrer Popularität erlebt. Unter Ausnutzung des umstrittenen \"Yellow Cover Dossier\" – dem Spitznamen für einen vorgeschlagenen Plan zur Überarbeitung der Wirtschaftssysteme des Landes und zur Verstaatlichung vieler Industriezweige – wurde eine \"rote Angst\" geschürt.\n\nDer Chef der Armee, Luang Phibunsongkhram, griff gerade noch rechtzeitig ein und verhängte landesweit das Kriegsrecht, was nach allgemeiner Auffassung das Land vor einem Bürgerkrieg bewahrte. Der \"Eiserne Marschall\" plant offenbar, selbst als Diktator zu regieren, bis er glaubt, dass das Land bereit ist für die Verantwortung der Demokratie."
+ siam_events.204.a: "Und wann wird das sein?"
 
- siam.205.t: "Der 37. Siamesisch-Burmesische Krieg"
- siam.205.d: "Das neue nationalpopulistische Regime von Plaek Phibunsongkhram in Siam hat heute in Yangon der burmesischen Regierung den Krieg erklärt und dabei die Unruhen in Moulmein als Kriegshandlung bezeichnet.\n\nDie Siamesen sind hier eindeutig die Aggressoren, da sie zuvor Gebiete bis zum Salween-Fluss besetzt hatten und damit gegen den Stresemann-Vertrag von 1929 verstießen, der die Grenze zwischen ihnen und Burma festlegte. Für die Burmesen sieht die Lage ziemlich düster aus. Sollte Siam siegreich sein, dürfte dies den Aufstieg einer neuen thailändischen Hegemonie in Südostasien bedeuten, vor der die europäischen Mächte sich in Acht nehmen müssen."
- siam.205.a: "Ein Krieg, der mehr aus Hass als aus echtem Vorteil geführt wird."
+ siam_events.205.t: "Der 37. Siamesisch-Burmesische Krieg"
+ siam_events.205.d: "Das neue nationalpopulistische Regime von Plaek Phibunsongkhram in Siam hat heute in Yangon der burmesischen Regierung den Krieg erklärt und dabei die Unruhen in Moulmein als Kriegshandlung bezeichnet.\n\nDie Siamesen sind hier eindeutig die Aggressoren, da sie zuvor Gebiete bis zum Salween-Fluss besetzt hatten und damit gegen den Stresemann-Vertrag von 1929 verstießen, der die Grenze zwischen ihnen und Burma festlegte. Für die Burmesen sieht die Lage ziemlich düster aus. Sollte Siam siegreich sein, dürfte dies den Aufstieg einer neuen thailändischen Hegemonie in Südostasien bedeuten, vor der die europäischen Mächte sich in Acht nehmen müssen."
+ siam_events.205.a: "Ein Krieg, der mehr aus Hass als aus echtem Vorteil geführt wird."
 
- siam.206.t: "Parlamentarischer Sieg in Siam"
- siam.206.d: "Die sporadischen Kämpfe auf den Straßen von Bangkok haben heute nachgelassen, nachdem die Parlamentarier endlich die Kontrolle über die Stadt übernommen haben. König Rama VII. wurde vor wenigen Stunden nach Singapur evakuiert, und der Aufenthaltsort anderer wichtiger Regierungsvertreter ist weiterhin unbekannt.\n\nZurück in der Stadt erklärte sich ein triumphierender Pridi Phanomyong (ehemals Luang Praditmanutham) nach einer einstimmigen Abstimmung im Parlament zum neuen Premierminister. In einer Rede kündigte der neue Premierminister den Beginn eines Programms zum \"nationalen Wiederaufbau\" an, was eine mögliche Hinwendung Siams nach innen signalisiert. Der Aufstieg einer neuen syndikalistischen Macht markiert eine Abkehr von den deutsch-japanischen Machtspielen, die die Region bisher dominiert haben."
- siam.206.a: "Eine neue Republik entsteht aus der Asche."
- siam.206.b: "Unsere neuen Kameraden in Asien."
- siam.206.c: "Ein weiteres syndikalistisches Regime, das sich hinter einer demokratischen Fassade versteckt."
- siam.206.e: "Vielleicht hätten wir die royalistische Seite stärker unterstützen können..."
- siam.206.f: "Ein neuer Morgen erwartet uns!"
+ siam_events.206.t: "Parlamentarischer Sieg in Siam"
+ siam_events.206.d: "Die sporadischen Kämpfe auf den Straßen von Bangkok haben heute nachgelassen, nachdem die Parlamentarier endlich die Kontrolle über die Stadt übernommen haben. König Rama VII. wurde vor wenigen Stunden nach Singapur evakuiert, und der Aufenthaltsort anderer wichtiger Regierungsvertreter ist weiterhin unbekannt.\n\nZurück in der Stadt erklärte sich ein triumphierender Pridi Phanomyong (ehemals Luang Praditmanutham) nach einer einstimmigen Abstimmung im Parlament zum neuen Premierminister. In einer Rede kündigte der neue Premierminister den Beginn eines Programms zum \"nationalen Wiederaufbau\" an, was eine mögliche Hinwendung Siams nach innen signalisiert. Der Aufstieg einer neuen syndikalistischen Macht markiert eine Abkehr von den deutsch-japanischen Machtspielen, die die Region bisher dominiert haben."
+ siam_events.206.a: "Eine neue Republik entsteht aus der Asche."
+ siam_events.206.b: "Unsere neuen Kameraden in Asien."
+ siam_events.206.c: "Ein weiteres syndikalistisches Regime, das sich hinter einer demokratischen Fassade versteckt."
+ siam_events.206.e: "Vielleicht hätten wir die royalistische Seite stärker unterstützen können..."
+ siam_events.206.f: "Ein neuer Morgen erwartet uns!"
 
- siam.207.t: "Royalistischer Sieg in Siam"
- siam.207.d: "Die sporadischen Kämpfe auf den Straßen von Bangkok ebbten heute ab, als die Royalisten schließlich die Kontrolle über die Stadt übernahmen und Luang Praditmanutham und andere Republikaner dazu zwangen, hastig ein Schiff nach Saigon zu besteigen.\n\nObwohl prominente Mitglieder der Königsfamilie, die zuvor die Regierung dominierten, diesmal offiziell abgelehnt haben, ihr Amt anzutreten, verfügen sie weiterhin über immense Macht. Es ist wahrscheinlich, dass sie ihre Kontrolle über König Prajadhipok nach dem Scheitern seiner demokratischen Reformen weiter ausbauen werden. Prajadhipok und zukünftige siamesische Monarchen werden mit ziemlicher Sicherheit in Zukunft von der Demokratie \"weggeführt\" werden."
- siam.207.a: "Ein Rückschritt in Richtung absolute Monarchie?"
- siam.207.b: "Unsere geretteten siamesischen Kameraden werden weiterkämpfen!"
- siam.207.c: "Ein weiteres Bollwerk in Asien gesichert."
- siam.207.e: "Ein weiterer deutscher Bauer in Asien, wir werden sie mit der Zeit zu Fall bringen."
- siam.207.f: "Die alte Ordnung triumphiert!"
+ siam_events.207.t: "Royalistischer Sieg in Siam"
+ siam_events.207.d: "Die sporadischen Kämpfe auf den Straßen von Bangkok ebbten heute ab, als die Royalisten schließlich die Kontrolle über die Stadt übernahmen und Luang Praditmanutham und andere Republikaner dazu zwangen, hastig ein Schiff nach Saigon zu besteigen.\n\nObwohl prominente Mitglieder der Königsfamilie, die zuvor die Regierung dominierten, diesmal offiziell abgelehnt haben, ihr Amt anzutreten, verfügen sie weiterhin über immense Macht. Es ist wahrscheinlich, dass sie ihre Kontrolle über König Prajadhipok nach dem Scheitern seiner demokratischen Reformen weiter ausbauen werden. Prajadhipok und zukünftige siamesische Monarchen werden mit ziemlicher Sicherheit in Zukunft von der Demokratie \"weggeführt\" werden."
+ siam_events.207.a: "Ein Rückschritt in Richtung absolute Monarchie?"
+ siam_events.207.b: "Unsere geretteten siamesischen Kameraden werden weiterkämpfen!"
+ siam_events.207.c: "Ein weiteres Bollwerk in Asien gesichert."
+ siam_events.207.e: "Ein weiterer deutscher Bauer in Asien, wir werden sie mit der Zeit zu Fall bringen."
+ siam_events.207.f: "Die alte Ordnung triumphiert!"
 
- siam.208.t: "Ordnung in Siam wiederhergestellt"
- siam.208.d: "Die Truppen unter Luang Phibunsongkhram, genannt \"der eiserne Marschall\", haben heute die letzten Rebellenhochburgen in Siam vollständig zerstört. Nachdem sie die Rebellen aus Bangkok vertrieben hatten, marschierten die Regierungstruppen rasch zu deren Festungen und nahmen alle gefangen, die sie finden konnten.\n\nViele dieser Gefangenen werden ihren Weg ins Tarutao-Gefängnis finden, eine Insel, die von haiverseuchten Gewässern umgeben ist und weit vom Festland entfernt liegt. Unterdessen ist die provisorische Regierung Khana Ratsadon zurückgetreten und hat erklärt, dass die Zeit reif sei, damit das Geschäftsleben im Land wieder zur Normalität zurückkehren könne."
- siam.208.a: "Der Status quo wurde wiederhergestellt."
- siam.208.b_gov: "Ein pro-deutsches Vorhaben wurde gestoppt."
- siam.208.b_reb: "Unsere geretteten siamesischen Kameraden werden weiterkämpfen!"
- siam.208.c_gov: "Eine syndikalistische Bedrohung wurde neutralisiert."
- siam.208.c_reb: "Wir hätten unsere royalistischen Verbündeten stärker unterstützen können..."
- siam.208.e: "Die Bedrohungen für unseren potenziellen Verbündeten sind beseitigt."
- siam.208.f: "Es ist Zeit, wieder aufzubauen und um unsere Verluste zu trauern."
+ siam_events.208.t: "Ordnung in Siam wiederhergestellt"
+ siam_events.208.d: "Die Truppen unter Luang Phibunsongkhram, genannt \"der eiserne Marschall\", haben heute die letzten Rebellenhochburgen in Siam vollständig zerstört. Nachdem sie die Rebellen aus Bangkok vertrieben hatten, marschierten die Regierungstruppen rasch zu deren Festungen und nahmen alle gefangen, die sie finden konnten.\n\nViele dieser Gefangenen werden ihren Weg ins Tarutao-Gefängnis finden, eine Insel, die von haiverseuchten Gewässern umgeben ist und weit vom Festland entfernt liegt. Unterdessen ist die provisorische Regierung Khana Ratsadon zurückgetreten und hat erklärt, dass die Zeit reif sei, damit das Geschäftsleben im Land wieder zur Normalität zurückkehren könne."
+ siam_events.208.a: "Der Status quo wurde wiederhergestellt."
+ siam_events.208.b_gov: "Ein pro-deutsches Vorhaben wurde gestoppt."
+ siam_events.208.b_reb: "Unsere geretteten siamesischen Kameraden werden weiterkämpfen!"
+ siam_events.208.c_gov: "Eine syndikalistische Bedrohung wurde neutralisiert."
+ siam_events.208.c_reb: "Wir hätten unsere royalistischen Verbündeten stärker unterstützen können..."
+ siam_events.208.e: "Die Bedrohungen für unseren potenziellen Verbündeten sind beseitigt."
+ siam_events.208.f: "Es ist Zeit, wieder aufzubauen und um unsere Verluste zu trauern."
 
 ###################################
 ##
@@ -906,10 +901,10 @@
 ##
 ###################################
 
- siam.2001.t: "Verschwörung innerhalb der Armee?"
- siam.2001.d: "Während die Konsolidierung unseres Regimes reibungslos verlaufen ist, wäre es schlecht, jene Kommandeure zu behalten, die ein Risiko für unser neues Regime darstellen könnten. Während die Ausschaltung von Phraya Songsuradet, dem direkten Rivalen für Phibuns Legitimität, die demokratischen Befürworter in der Armee vollständig zerschlagen würde, gilt dasselbe für Phraya Srisitthisongkhram und seine royalistischen Anhänger. Eine systematische Säuberung einer dieser Fraktionen sollte hoffentlich ausreichen, um die andere zum Schweigen zu bringen."
- siam.2001.a: "Songsuradet muss gehen..."
- siam.2001.b: "... und ebenso die royalistischen Bedrohungen."
+ siam_events.2001.t: "Verschwörung innerhalb der Armee?"
+ siam_events.2001.d: "Während die Konsolidierung unseres Regimes reibungslos verlaufen ist, wäre es schlecht, jene Kommandeure zu behalten, die ein Risiko für unser neues Regime darstellen könnten. Während die Ausschaltung von Phraya Songsuradet, dem direkten Rivalen für Phibuns Legitimität, die demokratischen Befürworter in der Armee vollständig zerschlagen würde, gilt dasselbe für Phraya Srisitthisongkhram und seine royalistischen Anhänger. Eine systematische Säuberung einer dieser Fraktionen sollte hoffentlich ausreichen, um die andere zum Schweigen zu bringen."
+ siam_events.2001.a: "Songsuradet muss gehen..."
+ siam_events.2001.b: "... und ebenso die royalistischen Bedrohungen."
 
 ##############################
 ##
@@ -919,33 +914,33 @@
 
 ## Sucession Line (Paribatra & Mahidol) ##
  # For Mahidol line - although Rama VII himself is of the Sakdidej line:
- siam.6013.t: "Der Tod von Rama VII"
- siam.6013.d: "König Prajadhipok von [SIA.GetName], auch bekannt als Rama VII - der 7. Monarch des Hauses Chakri - ist heute Morgen an Herzversagen gestorben. Dem kinderlosen Monarchen wird sein Neffe Ananda Mahidol nachfolgen, der den Herrschernamen Rama VIII angenommen hat."
- siam.6013.d.plaek: "König Prajadhipok von [SIA.GetName], auch bekannt als Rama VII - der 7. Monarch des Hauses Chakri - ist heute Morgen während seines Exils an einer Lungenentzündung gestorben. Dem kinderlosen Monarchen wird sein Neffe Ananda Mahidol nachfolgen, der den Herrschernamen Rama VIII angenommen hat."
- siam.6013.d.rep: "Prajadhipok Sakdidej na Ayutthaya, ehemals König Prajadhipok von [SIA.GetName], auch bekannt als Rama VII - der 7. Monarch des Hauses Chakri - ist heute Morgen während seines Exils an einer Lungenentzündung gestorben. Dem kinderlosen Monarchen wird sein Neffe Ananda Mahidol na Ayutthaya nachfolgen, der als Thronprätendent von [SIA.GetProperAdjective] den Herrschernamen Rama VIII angenommen hat."
- siam.6013.a: "Möge er in Frieden ruhen."
+ siam_events.6013.t: "Der Tod von Rama VII"
+ siam_events.6013.d: "König Prajadhipok von [SIA.GetName], auch bekannt als Rama VII - der 7. Monarch des Hauses Chakri - ist heute Morgen an Herzversagen gestorben. Dem kinderlosen Monarchen wird sein Neffe Ananda Mahidol nachfolgen, der den Herrschernamen Rama VIII angenommen hat."
+ siam_events.6013.d.plaek: "König Prajadhipok von [SIA.GetName], auch bekannt als Rama VII - der 7. Monarch des Hauses Chakri - ist heute Morgen während seines Exils an einer Lungenentzündung gestorben. Dem kinderlosen Monarchen wird sein Neffe Ananda Mahidol nachfolgen, der den Herrschernamen Rama VIII angenommen hat."
+ siam_events.6013.d.rep: "Prajadhipok Sakdidej na Ayutthaya, ehemals König Prajadhipok von [SIA.GetName], auch bekannt als Rama VII - der 7. Monarch des Hauses Chakri - ist heute Morgen während seines Exils an einer Lungenentzündung gestorben. Dem kinderlosen Monarchen wird sein Neffe Ananda Mahidol na Ayutthaya nachfolgen, der als Thronprätendent von [SIA.GetProperAdjective] den Herrschernamen Rama VIII angenommen hat."
+ siam_events.6013.a: "Möge er in Frieden ruhen."
 
  # Boripatr (?):
- siam.6014.t: "Paribatra Sukhumbhands Plan"
- siam.6014.d: "Der neue König ist noch jung und studiert derzeit in der Schweiz. Sollten wir die Initiative ergreifen und schnell den Thron und den Titel des Königs von [SIA.GetSIAshortname] für uns beanspruchen? Schließlich können wir nicht darauf zählen, dass er uns durch den Krieg führt."
- siam.6014.a: "Der Thron steht uns offen."
- siam.6014.b: "Wir sollten dem rechtmäßigen König treu bleiben."
+ siam_events.6014.t: "Paribatra Sukhumbhands Plan"
+ siam_events.6014.d: "Der neue König ist noch jung und studiert derzeit in der Schweiz. Sollten wir die Initiative ergreifen und schnell den Thron und den Titel des Königs von [SIA.GetSIAshortname] für uns beanspruchen? Schließlich können wir nicht darauf zählen, dass er uns durch den Krieg führt."
+ siam_events.6014.a: "Der Thron steht uns offen."
+ siam_events.6014.b: "Wir sollten dem rechtmäßigen König treu bleiben."
 
  # Mahidol:
- siam.6015.t: "Der Tod von Rama VIII."
- siam.6015.d: "König Ananda Mahidol von [SIA.GetName], auch bekannt als Rama VIII.—der 8. Monarch des Hauses Chakri—wurde erschossen in seinem Bett aufgefunden. Obwohl zunächst als Unfall eingestuft, wurde sein Tod von Gerichtsmedizinern als Mord eingestuft und drei königliche Pagen wurden nach irregulären und überstürzten Prozessen hingerichtet. Die mysteriösen Umstände seines Todes sind Gegenstand vieler Kontroversen. Dem kinderlosen Monarchen wird sein Bruder Bhumibol Adulyadej nachfolgen, der den Thronnamen Rama IX. angenommen hat."
- siam.6015.d.plaek: "König Ananda Mahidol von [SIA.GetName], auch bekannt als Rama VIII.—der 8. Monarch des Hauses Chakri—ist an schwerem Blutverlust durch eine durchtrennte Radialisarterie nach einem Autounfall gestorben. Dem kinderlosen König wird sein Bruder Bhumibol Adulyadej nachfolgen, der als neuer König von [SIA.GetName] den Thronnamen Rama IX. angenommen hat."
- siam.6015.d.paribatra: "Ananda Mahidol na Ayutthaya, auch bekannt als der ehemalige Rama VIII - der 8. Monarch des Hauses Chakri - ist nach einem Autounfall durch starken Blutverlust infolge einer durchtrennten Arteria radialis verstorben. Dem kinderlosen Prinzen wird sein Bruder Bhumibol Adulyadej nachfolgen, der den Sitz als neues Oberhaupt des Königlichen Hauses Mahidol eingenommen hat."
- siam.6015.d.rep: "Ananda Mahidol na Ayutthaya, ehemaliger Prinz von Sukothai, auch bekannt als Rama VIII - der der 8. Monarch des Hauses Chakri gewesen wäre - ist nach einem Autounfall durch starken Blutverlust infolge einer durchtrennten Arteria radialis verstorben. Dem kinderlosen Prinzen wird sein Bruder Bhumibol Adulyadej nachfolgen, der als Thronprätendent des [SIA.GetProperAdjective] Throns den Namen Rama IX angenommen hat."
- siam.6015.a: "Möge er in Frieden ruhen."
+ siam_events.6015.t: "Der Tod von Rama VIII."
+ siam_events.6015.d: "König Ananda Mahidol von [SIA.GetName], auch bekannt als Rama VIII.—der 8. Monarch des Hauses Chakri—wurde erschossen in seinem Bett aufgefunden. Obwohl zunächst als Unfall eingestuft, wurde sein Tod von Gerichtsmedizinern als Mord eingestuft und drei königliche Pagen wurden nach irregulären und überstürzten Prozessen hingerichtet. Die mysteriösen Umstände seines Todes sind Gegenstand vieler Kontroversen. Dem kinderlosen Monarchen wird sein Bruder Bhumibol Adulyadej nachfolgen, der den Thronnamen Rama IX. angenommen hat."
+ siam_events.6015.d.plaek: "König Ananda Mahidol von [SIA.GetName], auch bekannt als Rama VIII.—der 8. Monarch des Hauses Chakri—ist an schwerem Blutverlust durch eine durchtrennte Radialisarterie nach einem Autounfall gestorben. Dem kinderlosen König wird sein Bruder Bhumibol Adulyadej nachfolgen, der als neuer König von [SIA.GetName] den Thronnamen Rama IX. angenommen hat."
+ siam_events.6015.d.paribatra: "Ananda Mahidol na Ayutthaya, auch bekannt als der ehemalige Rama VIII - der 8. Monarch des Hauses Chakri - ist nach einem Autounfall durch starken Blutverlust infolge einer durchtrennten Arteria radialis verstorben. Dem kinderlosen Prinzen wird sein Bruder Bhumibol Adulyadej nachfolgen, der den Sitz als neues Oberhaupt des Königlichen Hauses Mahidol eingenommen hat."
+ siam_events.6015.d.rep: "Ananda Mahidol na Ayutthaya, ehemaliger Prinz von Sukothai, auch bekannt als Rama VIII - der der 8. Monarch des Hauses Chakri gewesen wäre - ist nach einem Autounfall durch starken Blutverlust infolge einer durchtrennten Arteria radialis verstorben. Dem kinderlosen Prinzen wird sein Bruder Bhumibol Adulyadej nachfolgen, der als Thronprätendent des [SIA.GetProperAdjective] Throns den Namen Rama IX angenommen hat."
+ siam_events.6015.a: "Möge er in Frieden ruhen."
 
  # Boripatr:
- siam.6033.t: "Der Tod von Rama IX"
- siam.6033.d: "König Paribatra Sukhumbhand von [SIA.GetName], auch bekannt als Rama IX - der 9. Monarch des Hauses Chakri - erlitt letzte Nacht einen Herzinfarkt, während er in seinem Schlafzimmer im Großen Palast umherging. Ein medizinisches Team traf viel zu spät ein und versuchte vergeblich, ihn wiederzubeleben. Die Position des Monarchen wird von seinem ältesten Sohn, Kronprinz Chumbhotbongs Paribatra, übernommen, der den Namen Rama X angenommen hat."
+ siam_events.6033.t: "Der Tod von Rama IX"
+ siam_events.6033.d: "König Paribatra Sukhumbhand von [SIA.GetName], auch bekannt als Rama IX - der 9. Monarch des Hauses Chakri - erlitt letzte Nacht einen Herzinfarkt, während er in seinem Schlafzimmer im Großen Palast umherging. Ein medizinisches Team traf viel zu spät ein und versuchte vergeblich, ihn wiederzubeleben. Die Position des Monarchen wird von seinem ältesten Sohn, Kronprinz Chumbhotbongs Paribatra, übernommen, der den Namen Rama X angenommen hat."
 
  # Boripatr:
- siam.6034.t: "Der Tod von Rama X"
- siam.6034.d: "König Chumbhotbongs Paribatra von [SIA.GetName], auch bekannt als Rama X - der 10. Monarch des Hauses Chakri - starb friedlich im Suan Pakkard Palast an Altersschwäche. Da er ohne männlichen Erben verstarb, wird die Monarchie von seinem Bruder aus Rama IX. zweiter Ehe, Kronprinz Sukhumabhinanda, nachgefolgt, der den Namen Rama XI angenommen hat."
+ siam_events.6034.t: "Der Tod von Rama X"
+ siam_events.6034.d: "König Chumbhotbongs Paribatra von [SIA.GetName], auch bekannt als Rama X - der 10. Monarch des Hauses Chakri - starb friedlich im Suan Pakkard Palast an Altersschwäche. Da er ohne männlichen Erben verstarb, wird die Monarchie von seinem Bruder aus Rama IX. zweiter Ehe, Kronprinz Sukhumabhinanda, nachgefolgt, der den Namen Rama XI angenommen hat."
 
 ### Focuses ###
 
@@ -1044,8 +1039,8 @@
  SIA_intialeconomictsabilisation_desc: "Nach den unmittelbaren Folgen der Wirtschaftskrise, die als Schwarzer Montag bekannt wurde, ist deutlich geworden, dass es viele Schwachstellen in unserer Wirtschaft gibt und wir Maßnahmen ergreifen müssen, um die Situation zu verbessern."
  SIA_kickstartlocalbusiness: "Lokale Unternehmen ankurbeln"
  SIA_kickstartlocalbusiness_desc: "Durch die Bereitstellung von staatlichen Krediten für lokale Unternehmen oder durch sonstige Unterstützung können wir sicherstellen, dass wirtschaftliche Aktivitäten in unserem Land nicht nur auf nationaler, sondern auch auf lokaler Ebene stattfinden."
- SIA_bailoutsiamcement: "[SIA.GetSIAcementcorp] retten"
- SIA_bailoutsiamcement_desc: "Durch die Rettung von [SIA.GetSIAcementcorp], dem größten Zement- und Baustoffunternehmen in [SIA.GetName], können wir sicherstellen, dass das Unternehmen überlebt und weitere negative Auswirkungen auf unsere Wirtschaft vermeiden."
+ SIA_bailoutsiamcement: "$SIA_siam_cement$ retten"
+ SIA_bailoutsiamcement_desc: "Durch die Rettung von $SIA_siam_cement$, dem größten Zement- und Baustoffunternehmen in [SIA.GetName], können wir sicherstellen, dass das Unternehmen überlebt und weitere negative Auswirkungen auf unsere Wirtschaft vermeiden."
  SIA_chiangmaioil: "Erdölfund in Chiang Mai"
  SIA_chiangmaioil_desc: "Rohöl wurde erstmals 1921 im Bezirk Fang, speziell in Chiang Mai, entdeckt, wurde aber nie richtig erschlossen. Die aktuelle Wirtschaftskrise hat den Preis auf Rekordhöhen getrieben und jede Instabilität in der Region könnte uns von unseren importierten Quellen in Palembang abschneiden. Eine größere Eigenständigkeit könnte auch unsere schwächelnde Industrialisierung verbessern."
  SIA_rayonrefineries: "Rayong Raffinerien"
@@ -1673,12 +1668,12 @@
 
  # Medals
  # Independence Medal
- SIA_military_medal_santimala: "Santi Mala Medaille"
- SIA_military_medal_santimala_desc: "Auch bekannt als \"Rian Santi Mala\" (Santi Mala Medaille), diese Medaille wird an jene verliehen, die für die Bewahrung der Unabhängigkeit der [SIA.GetProperAdjective] Nation gekämpft haben."
+ SIA_military_medal_santimala: "Santi Mala Medaille\n$SIA_military_medal_santimala_desc$\n"
+ SIA_military_medal_santimala_desc: "§LAuch bekannt als \"Rian Santi Mala\" (Santi Mala Medaille), diese Medaille wird an jene verliehen, die für die Bewahrung der Unabhängigkeit unserer Nation gekämpft haben.§!"
  # Bravery Medal
- SIA_military_medal_klaharn: "Klaharn Medaille"
- SIA_military_medal_klaharn_desc: "Auch bekannt als \"Rian Klaharn\" und früher verliehen als \"Rian Dushdi Mala Khem Klaharn\" (Dushdi Mala Medaille (Tapferkeit)) — diese Medaille wird an jene verliehen, die tapfer auf dem Schlachtfeld gekämpft haben. Sollte diese Person oder Einheit für 2 oder mehr Tapferkeitsmedaillen in Frage kommen, werden stattdessen goldene \"Chor Chaiyapruk\" (Siegeskranz) Anstecknadel(n) am Band der bestehenden Medaille befestigt."
- SIA_military_medal_rammala: "Orden von Rama (6. Klasse)"
- SIA_military_medal_rammala_desc: "Auch bekannt als \"Rian Ram Mala\" (Ram Mala Medaille), erstmals 1919 eingeführt, dient diese Medaille als zweithöchste Auszeichnung für Tapferkeit."
- SIA_military_medal_rammala_gallantry_in_action: "Orden von Rama (Tapferkeit im Gefecht)"
- SIA_military_medal_rammala_gallantry_in_action_desc: "Auch bekannt als \"Rian Ram Mala Khem Kla Klang Samorn\" (Ram Mala Medaille für Tapferkeit im Gefecht), erstmals 1919 eingeführt, ist dies die höchste Auszeichnung für Tapferkeit."
+ SIA_military_medal_klaharn: "Klaharn Medaille\n$SIA_military_medal_klaharn_desc$\n"
+ SIA_military_medal_klaharn_desc: "§LAuch bekannt als \"Rian Klaharn\" und früher verliehen als \"Rian Dushdi Mala Khem Klaharn\" (Dushdi Mala Medaille (Tapferkeit)) — diese Medaille wird an jene verliehen, die tapfer auf dem Schlachtfeld gekämpft haben. Sollte diese Person oder Einheit für 2 oder mehr Tapferkeitsmedaillen in Frage kommen, werden stattdessen goldene \"Chor Chaiyapruk\" (Siegeskranz) Anstecknadel(n) am Band der bestehenden Medaille befestigt.§!"
+ SIA_military_medal_rammala: "Orden von Rama (6. Klasse)\n$SIA_military_medal_rammala_desc$\n"
+ SIA_military_medal_rammala_desc: "§LAuch bekannt als \"Rian Ram Mala\" (Ram Mala Medaille), erstmals 1919 eingeführt, dient diese Medaille als zweithöchste Auszeichnung für Tapferkeit.§!"
+ SIA_military_medal_rammala_gallantry_in_action: "Orden von Rama (Tapferkeit im Gefecht)\n$SIA_military_medal_rammala_gallantry_in_action_desc$\n"
+ SIA_military_medal_rammala_gallantry_in_action_desc: "§LAuch bekannt als \"Rian Ram Mala Khem Kla Klang Samorn\" (Ram Mala Medaille für Tapferkeit im Gefecht), erstmals 1919 eingeführt, ist dies die höchste Auszeichnung für Tapferkeit.§!"
