@@ -7,84 +7,84 @@ l_german:
 
 ### Events ###
 
- portugal_exile.1.t: "Portugals letzter Kampf"
- portugal_exile.1.d: "Nachdem dem Feind der Durchbruch an unseren Grenzen gelang, fanden sich viele unserer Truppen eingekesselt wieder. Mit kaum Raum zum Rückzug und einer überwältigenden Streitmacht gegen uns, stehen unsere Chancen auf einen Sieg nicht gerade gut. Dennoch müssen wir weiter versuchen, unser Volk vor den Angreifern zu beschützen, koste es, was es wolle. Wir werden kämpfen bis Lissabon gefallen ist!"
- portugal_exile.1.a: "Audaces Fortuna Juvat!"
+ portugal_exile_events.1.t: "Portugals letzter Kampf"
+ portugal_exile_events.1.d: "Nachdem dem Feind der Durchbruch an unseren Grenzen gelang, fanden sich viele unserer Truppen eingekesselt wieder. Mit kaum Raum zum Rückzug und einer überwältigenden Streitmacht gegen uns, stehen unsere Chancen auf einen Sieg nicht gerade gut. Dennoch müssen wir weiter versuchen, unser Volk vor den Angreifern zu beschützen, koste es, was es wolle. Wir werden kämpfen bis Lissabon gefallen ist!"
+ portugal_exile_events.1.a: "Audaces Fortuna Juvat!"
 
- portugal_exile.2.t: "Der Fall Portugals"
- portugal_exile.2.d: "Trotz der Bemühungen unserer Soldaten müssen wir uns die traurige Wahrheit eingestehen: Wir können den Kontinent nicht länger halten, die feindlichen Streitkräfte überwältigen die unseren und nehmen immer größere Teile unserer Nation ein, ohne dass wir etwas dagegen tun könnten. Zum Glück ist unser Reich groß und für den Moment können wir uns in unsere Kolonien zurückziehen und die Befreiung unserer Heimat planen."
- portugal_exile.2.d.noretreat: "Trotz der Bemühungen unserer Soldaten müssen wir uns die traurige Wahrheit eingestehen: Wir können den Kontinent nicht länger halten, die feindlichen Streitkräfte überwältigen die unseren und nehmen immer größere Teile unserer Nation ein, ohne dass wir etwas dagegen tun könnten."
- portugal_exile.2.a: "Wir müssen uns weiter wehren!"
+ portugal_exile_events.2.t: "Der Fall Portugals"
+ portugal_exile_events.2.d: "Trotz der Bemühungen unserer Soldaten müssen wir uns die traurige Wahrheit eingestehen: Wir können den Kontinent nicht länger halten, die feindlichen Streitkräfte überwältigen die unseren und nehmen immer größere Teile unserer Nation ein, ohne dass wir etwas dagegen tun könnten. Zum Glück ist unser Reich groß und für den Moment können wir uns in unsere Kolonien zurückziehen und die Befreiung unserer Heimat planen."
+ portugal_exile_events.2.d.noretreat: "Trotz der Bemühungen unserer Soldaten müssen wir uns die traurige Wahrheit eingestehen: Wir können den Kontinent nicht länger halten, die feindlichen Streitkräfte überwältigen die unseren und nehmen immer größere Teile unserer Nation ein, ohne dass wir etwas dagegen tun könnten."
+ portugal_exile_events.2.a: "Wir müssen uns weiter wehren!"
 
- portugal_exile.3.t: "Der Entente erneut beitreten?"
- portugal_exile.3.d: "Mit dem Verlust unseres Festlandes scheint die Rückkehr unserer Regierung dorthin mehr als unwahrscheinlich, solange wir alleine kämpfen. Glücklicherweise haben wir noch immer diplomatische Beziehungen und könnten unsere ehemaligen Verbündeten kontaktieren, in der Hoffnung, dass sie uns dabei helfen können, unsere Heimat zu befreien."
- portugal_exile.3.a: "Kontaktiert die [ENT.GetAdjective] Regierung."
- portugal_exile.3.b: "Wir brauchen sie nicht."
+ portugal_exile_events.3.t: "Der Entente erneut beitreten?"
+ portugal_exile_events.3.d: "Mit dem Verlust unseres Festlandes scheint die Rückkehr unserer Regierung dorthin mehr als unwahrscheinlich, solange wir alleine kämpfen. Glücklicherweise haben wir noch immer diplomatische Beziehungen und könnten unsere ehemaligen Verbündeten kontaktieren, in der Hoffnung, dass sie uns dabei helfen können, unsere Heimat zu befreien."
+ portugal_exile_events.3.a: "Kontaktiert die [ENT.GetAdjective] Regierung."
+ portugal_exile_events.3.b: "Wir brauchen sie nicht."
 
 #ENT PoV:
- portugal_exile.4.t: "Portugal bittet um Wiederaufnahme in die Entente" #ENT PoV
- portugal_exile.4.d: "Nachdem die Portugiesen auf dem Festland besiegt worden und sich in die Kolonien zurückziehen mussten, haben Abgesandte aus Portugal uns darum gebeten, der Entente erneut beitreten zu dürfen. Obwohl die Niederlage im Weltkrieg für viele einen bitteren Nachgeschmack hinterlassen hat, haben die Portugiesen immer gute Beziehungen zu uns gepflegt, trotz dessen, dass wir nach und nach immer weiter auseinandergedriftet sind. Wie sollten wir auf ihre Bitte antworten?"
- portugal_exile.4.a: "Willkommen zurück!"
- portugal_exile.4.b: "Ohne ihr Festland sind sie nutzlos."
+ portugal_exile_events.4.t: "Portugal bittet um Wiederaufnahme in die Entente" #ENT PoV
+ portugal_exile_events.4.d: "Nachdem die Portugiesen auf dem Festland besiegt worden und sich in die Kolonien zurückziehen mussten, haben Abgesandte aus Portugal uns darum gebeten, der Entente erneut beitreten zu dürfen. Obwohl die Niederlage im Weltkrieg für viele einen bitteren Nachgeschmack hinterlassen hat, haben die Portugiesen immer gute Beziehungen zu uns gepflegt, trotz dessen, dass wir nach und nach immer weiter auseinandergedriftet sind. Wie sollten wir auf ihre Bitte antworten?"
+ portugal_exile_events.4.a: "Willkommen zurück!"
+ portugal_exile_events.4.b: "Ohne ihr Festland sind sie nutzlos."
 
- portugal_exile.5.t.accept: "[FROM.GetNameDefCap] akzeptiert"
- portugal_exile.5.t.refuse: "[FROM.GetNameDefCap] lehnt ab"
- portugal_exile.5.d.accept: "Trotz dessen, dass wir nur noch ein Schatten unserer früheren Selbst sind, haben unsere alten Verbündeten uns erneut in der Entente willkommen geheißen und unterstützen uns bei unserem Vorhaben, unser Heimatland zurückzuerobern."
- portugal_exile.5.d.refuse: "Da wir nur noch ein Schatten unserer früheren Selbst sind, haben unsere früheren Verbündeten uns lediglich als Ballast eingestuft und unsere Beitrittsanfrage dankend abgelehnt. Es besteht zwar noch immer die Möglichkeit, unser Heimatland zurückzuerobern, die Chancen dafür sind aber erneut gesunken..."
- portugal_exile.5.a: "Zusammen für den Sieg!"
- portugal_exile.5.b: "Sind die Briten verrückt geworden?"
+ portugal_exile_events.5.t.accept: "[FROM.GetNameDefCap] akzeptiert"
+ portugal_exile_events.5.t.refuse: "[FROM.GetNameDefCap] lehnt ab"
+ portugal_exile_events.5.d.accept: "Trotz dessen, dass wir nur noch ein Schatten unserer früheren Selbst sind, haben unsere alten Verbündeten uns erneut in der Entente willkommen geheißen und unterstützen uns bei unserem Vorhaben, unser Heimatland zurückzuerobern."
+ portugal_exile_events.5.d.refuse: "Da wir nur noch ein Schatten unserer früheren Selbst sind, haben unsere früheren Verbündeten uns lediglich als Ballast eingestuft und unsere Beitrittsanfrage dankend abgelehnt. Es besteht zwar noch immer die Möglichkeit, unser Heimatland zurückzuerobern, die Chancen dafür sind aber erneut gesunken..."
+ portugal_exile_events.5.a: "Zusammen für den Sieg!"
+ portugal_exile_events.5.b: "Sind die Briten verrückt geworden?"
 
 #MAF PoV:
- portugal_exile.6.t: "Der Kollaps Portugals"
- portugal_exile.6.d.peace: "Aufgrund des Zusammenbruchs der portugiesischen Armee auf dem Festland, wurden die portugiesischen Einheiten, die in Afrika stationiert waren, zurückbeordert. Ihre Finanzierung hat aufgehört, ebenso ihre Waffenlieferungen - und die Probleme an den Grenzregionen. Dies ist sowohl der finale Beweis dafür, dass sie für das Chaos hinter der Grenze verantwortlich waren, als auch eine große Erleichterung für unsere Truppen."
- portugal_exile.6.d.war: "Aufgrund des Zusammenbruchs der portugiesischen Armee auf dem Festland, wurden die portugiesischen Einheiten, die an der Front stationiert waren, zurückbeordert. In ihrer Verzweiflung haben die Portugiesen einen Friedensvertrag mit den Deutschen ausgehandelt, welcher unseren Sieg nun offiziell macht!"
- portugal_exile.6.a: "Ein Problem weniger."
- portugal_exile.6.b: "So endet also der Buschkrieg."
+ portugal_exile_events.6.t: "Der Kollaps Portugals"
+ portugal_exile_events.6.d.peace: "Aufgrund des Zusammenbruchs der portugiesischen Armee auf dem Festland, wurden die portugiesischen Einheiten, die in Afrika stationiert waren, zurückbeordert. Ihre Finanzierung hat aufgehört, ebenso ihre Waffenlieferungen - und die Probleme an den Grenzregionen. Dies ist sowohl der finale Beweis dafür, dass sie für das Chaos hinter der Grenze verantwortlich waren, als auch eine große Erleichterung für unsere Truppen."
+ portugal_exile_events.6.d.war: "Aufgrund des Zusammenbruchs der portugiesischen Armee auf dem Festland, wurden die portugiesischen Einheiten, die an der Front stationiert waren, zurückbeordert. In ihrer Verzweiflung haben die Portugiesen einen Friedensvertrag mit den Deutschen ausgehandelt, welcher unseren Sieg nun offiziell macht!"
+ portugal_exile_events.6.a: "Ein Problem weniger."
+ portugal_exile_events.6.b: "So endet also der Buschkrieg."
 
 #SWF/FRA PoV:
- portugal_exile.7.t: "Der Kollaps Portugals"
- portugal_exile.7.d: "Nachdem unsere Truppen die portugiesischen Linien mit Leichtigkeit durchbrachen, konnte Portugals Regierung den Druck nicht mehr aushalten und ist so schnell wie möglich in die Kolonien geflohen, um ihrer gerechten Strafe zu entkommen. Trotz dessen, dass wir das portugiesische Festland erobert haben, bleibt noch immer die Gefahr eines portugiesischen Rückeroberungsversuches, egal, wie unwahrscheinlich dies auch scheinen mag."
- portugal_exile.7.a: "Ihre Zeit wird noch kommen..."
+ portugal_exile_events.7.t: "Der Kollaps Portugals"
+ portugal_exile_events.7.d: "Nachdem unsere Truppen die portugiesischen Linien mit Leichtigkeit durchbrachen, konnte Portugals Regierung den Druck nicht mehr aushalten und ist so schnell wie möglich in die Kolonien geflohen, um ihrer gerechten Strafe zu entkommen. Trotz dessen, dass wir das portugiesische Festland erobert haben, bleibt noch immer die Gefahr eines portugiesischen Rückeroberungsversuches, egal, wie unwahrscheinlich dies auch scheinen mag."
+ portugal_exile_events.7.a: "Ihre Zeit wird noch kommen..."
 
- portugal_exile.9.t: "Macau übernehmen?"
- portugal_exile.9.d: "Durch den Kollaps des portugiesischen Kolonialreichs wird der Hafen Macau kaum noch verteidigt und es würde nur wenige Truppen benötigen, um ihn zu übernehmen und als unsere Basis in Südchina einzurichten..."
+ portugal_exile_events.9.t: "Macau übernehmen?"
+ portugal_exile_events.9.d: "Durch den Kollaps des portugiesischen Kolonialreichs wird der Hafen Macau kaum noch verteidigt und es würde nur wenige Truppen benötigen, um ihn zu übernehmen und als unsere Basis in Südchina einzurichten..."
 
- portugal_exile.10.t: "Goa übernehmen?"
- portugal_exile.10.d: "Durch den Kollaps des portugiesischen Kolonialreichs wird die kleine Enklave Goa kaum noch verteidigt und es würde nur wenige Truppen benötigen, um sie zu übernehmen und für uns zu beanspruchen..."
+ portugal_exile_events.10.t: "Goa übernehmen?"
+ portugal_exile_events.10.d: "Durch den Kollaps des portugiesischen Kolonialreichs wird die kleine Enklave Goa kaum noch verteidigt und es würde nur wenige Truppen benötigen, um sie zu übernehmen und für uns zu beanspruchen..."
 
- portugal_exile.11.t: "Timor übernehmen?"
- portugal_exile.11.d: "Durch den Kollaps des portugiesischen Kolonialreichs wird die Provinz Timor kaum noch verteidigt und es würde nur wenige Truppen benötigen, um sie zu übernehmen und für uns zu beanspruchen..."
+ portugal_exile_events.11.t: "Timor übernehmen?"
+ portugal_exile_events.11.d: "Durch den Kollaps des portugiesischen Kolonialreichs wird die Provinz Timor kaum noch verteidigt und es würde nur wenige Truppen benötigen, um sie zu übernehmen und für uns zu beanspruchen..."
 
- portugal_exile.seize: "Tut es!"
- portugal_exile.dont_seize: "Das ist es nicht wert..."
-
-#News event:
- portugal_exile.12.t: "Östliche Besitztümer besetzt!"
- portugal_exile.12.d: "Durch den Kollaps des Reiches und den Verlust des Festlands haben die Aasgeier eine Gelegenheit erspäht, unsere Besitztümer in Asien an sich zu reißen. Macau, Goa und Timor sind verloren, besetzt von [729.Owner.GetNameDef], [321.Owner.GetNameDef] und [721.Owner.GetNameDef]. Da unsere Streitkräfte in Iberien dezimiert wurden, gibt es nicht viel, was wir tun können, um sie aufzuhalten."
- portugal_exile.12.a: "Wir werden sie uns schon noch zurückholen."
+ portugal_exile_events.seize: "Tut es!"
+ portugal_exile_events.dont_seize: "Das ist es nicht wert..."
 
 #News event:
- portugal_exile.13.t: "Kollaps des portugiesischen Reiches"
- portugal_exile.13.d.noretreat: "Da feindliche Truppen Lissabon immer näher rücken, beginnt die portugiesische Regierung nach und nach zusammzubrechen. Sie können nirgendwohin fliehen, es gibt keine Kolonien mehr, wo ihre Anführer sicher wären. Kurz gesagt, sie wurden eingeengt und können ihrem Schicksal nun nicht mehr entkommen."
- portugal_exile.13.d.noangola: "Da feindliche Truppen Lissabon immer näher rücken und der Hafen Lissabons durch die portugiesische Flotte noch relativ gut geschützt ist, hat sich die portugiesische Regierung dazu entschlossen, über den Seeweg in die Kolonien zu fliehen und so viele Soldaten und Loyalisten wie nur möglich mit ins Exil zu nehmen. Der einzige Ort, der ihnen noch bleibt, sind ihre Besitztümer im Atlantik. Sie haben zwar einen Großteil ihrer Stärke verloren, dennoch planen sie noch immer ihre Rückkehr auf das Festland. Die Zukunft der portugiesischen Nation bleibt ungewiss."
- portugal_exile.13.d: "Da feindliche Truppen Lissabon immer näher rücken und der Hafen Lissabons durch die portugiesische Flotte noch relativ gut geschützt ist, hat sich die portugiesische Regierung dazu entschlossen, über den Seeweg in die Kolonien zu fliehen und so viele Soldaten und Loyalisten wie nur möglich mit ins Exil zu nehmen. Während sie sich in ihren weit entfernten Kolonien neu gruppieren, bleibt Portugals Zukunft ungewiss."
- portugal_exile.13.a: "Ist das das Ende des portugiesischen Reiches?"
+ portugal_exile_events.12.t: "Östliche Besitztümer besetzt!"
+ portugal_exile_events.12.d: "Durch den Kollaps des Reiches und den Verlust des Festlands haben die Aasgeier eine Gelegenheit erspäht, unsere Besitztümer in Asien an sich zu reißen. Macau, Goa und Timor sind verloren, besetzt von [729.Owner.GetNameDef], [321.Owner.GetNameDef] und [721.Owner.GetNameDef]. Da unsere Streitkräfte in Iberien dezimiert wurden, gibt es nicht viel, was wir tun können, um sie aufzuhalten."
+ portugal_exile_events.12.a: "Wir werden sie uns schon noch zurückholen."
 
- portugal_exile.14.t: "Der finale Kollaps"
- portugal_exile.14.d: "Trotz der tapferen Versuche unserer Armee, unsere Heimat zurückzuerobern, befindet sich diese noch immer in Feindeshand und Portugals Zukunft scheint immer trostloser. Die Moral ist im Keller und viele unserer Soldaten und Offiziere beginnen, zu desertieren und bitten darum, die Besatzung unserer Feinde anzuerkennen, damit sie endlich auf das portugiesische Festland zurückkehren können. Die Position unserer Regierung ist instabil geworden und die wenigen Minister, die noch loyal sind, schlagen vor, in einem neutralen Land ins Exil zu gehen, um der Gefangenschaft zu entgehen, nun, da wir uns nicht mehr von denen verteidigen können, die ungerecht über uns richten wollen."
- portugal_exile.14.a: "Vielleicht kehren wir eines Tages zurück..."
+#News event:
+ portugal_exile_events.13.t: "Kollaps des portugiesischen Reiches"
+ portugal_exile_events.13.d.noretreat: "Da feindliche Truppen Lissabon immer näher rücken, beginnt die portugiesische Regierung nach und nach zusammzubrechen. Sie können nirgendwohin fliehen, es gibt keine Kolonien mehr, wo ihre Anführer sicher wären. Kurz gesagt, sie wurden eingeengt und können ihrem Schicksal nun nicht mehr entkommen."
+ portugal_exile_events.13.d.noangola: "Da feindliche Truppen Lissabon immer näher rücken und der Hafen Lissabons durch die portugiesische Flotte noch relativ gut geschützt ist, hat sich die portugiesische Regierung dazu entschlossen, über den Seeweg in die Kolonien zu fliehen und so viele Soldaten und Loyalisten wie nur möglich mit ins Exil zu nehmen. Der einzige Ort, der ihnen noch bleibt, sind ihre Besitztümer im Atlantik. Sie haben zwar einen Großteil ihrer Stärke verloren, dennoch planen sie noch immer ihre Rückkehr auf das Festland. Die Zukunft der portugiesischen Nation bleibt ungewiss."
+ portugal_exile_events.13.d: "Da feindliche Truppen Lissabon immer näher rücken und der Hafen Lissabons durch die portugiesische Flotte noch relativ gut geschützt ist, hat sich die portugiesische Regierung dazu entschlossen, über den Seeweg in die Kolonien zu fliehen und so viele Soldaten und Loyalisten wie nur möglich mit ins Exil zu nehmen. Während sie sich in ihren weit entfernten Kolonien neu gruppieren, bleibt Portugals Zukunft ungewiss."
+ portugal_exile_events.13.a: "Ist das das Ende des portugiesischen Reiches?"
+
+ portugal_exile_events.14.t: "Der finale Kollaps"
+ portugal_exile_events.14.d: "Trotz der tapferen Versuche unserer Armee, unsere Heimat zurückzuerobern, befindet sich diese noch immer in Feindeshand und Portugals Zukunft scheint immer trostloser. Die Moral ist im Keller und viele unserer Soldaten und Offiziere beginnen, zu desertieren und bitten darum, die Besatzung unserer Feinde anzuerkennen, damit sie endlich auf das portugiesische Festland zurückkehren können. Die Position unserer Regierung ist instabil geworden und die wenigen Minister, die noch loyal sind, schlagen vor, in einem neutralen Land ins Exil zu gehen, um der Gefangenschaft zu entgehen, nun, da wir uns nicht mehr von denen verteidigen können, die ungerecht über uns richten wollen."
+ portugal_exile_events.14.a: "Vielleicht kehren wir eines Tages zurück..."
 
 #MAF:
- portugal_exile.15.t: "Die portugiesische Regierung bricht zusammen"
- portugal_exile.15.d: "Da sie endlich die Aussichtslosigkeit ihrer Situation nach dem Verlust des Festlands realisiert hat, hat die portugiesische Regierung offiziell verkündet, dass sie in eine neutrale Nation ins Exil gehen wird, während ihre Streitkräfte schwanken und damit beginnen, in die Heimat zurückzukehren. Da kaum noch Truppen in den Kolonien verbleiben und sie dadurch nicht verteidigt werden könnten, können wir sie jetzt übernehmen, wenn wir schnell handeln."
- portugal_exile.15.a: "Angola und Mosambik gehören uns!"
+ portugal_exile_events.15.t: "Die portugiesische Regierung bricht zusammen"
+ portugal_exile_events.15.d: "Da sie endlich die Aussichtslosigkeit ihrer Situation nach dem Verlust des Festlands realisiert hat, hat die portugiesische Regierung offiziell verkündet, dass sie in eine neutrale Nation ins Exil gehen wird, während ihre Streitkräfte schwanken und damit beginnen, in die Heimat zurückzukehren. Da kaum noch Truppen in den Kolonien verbleiben und sie dadurch nicht verteidigt werden könnten, können wir sie jetzt übernehmen, wenn wir schnell handeln."
+ portugal_exile_events.15.a: "Angola und Mosambik gehören uns!"
 
 #NFA:
- portugal_exile.16.t: "Die portugiesische Regierung bricht zusammen"
- portugal_exile.16.d: "Da sie endlich die Aussichtslosigkeit ihrer Situation nach dem Verlust des Festlands realisiert hat, hat die portugiesische Regierung offiziell verkündet, dass sie in eine neutrale Nation ins Exil gehen wird, während ihre Streitkräfte schwanken und damit beginnen, in die Heimat zurückzukehren. Da kaum noch Truppen in den Kolonien verbleiben und sie dadurch nicht verteidigt werden könnten, können wir sie jetzt übernehmen, wenn wir schnell handeln."
- portugal_exile.16.a: "Guinea und Kap Verde gehören uns!"
+ portugal_exile_events.16.t: "Die portugiesische Regierung bricht zusammen"
+ portugal_exile_events.16.d: "Da sie endlich die Aussichtslosigkeit ihrer Situation nach dem Verlust des Festlands realisiert hat, hat die portugiesische Regierung offiziell verkündet, dass sie in eine neutrale Nation ins Exil gehen wird, während ihre Streitkräfte schwanken und damit beginnen, in die Heimat zurückzukehren. Da kaum noch Truppen in den Kolonien verbleiben und sie dadurch nicht verteidigt werden könnten, können wir sie jetzt übernehmen, wenn wir schnell handeln."
+ portugal_exile_events.16.a: "Guinea und Kap Verde gehören uns!"
 
 #SWF:
- portugal_exile.17.t: "Die portugiesische Regierung bricht zusammen"
- portugal_exile.17.d: "Da sie endlich die Aussichtslosigkeit ihrer Situation nach dem Verlust des Festlands realisiert hat, hat die portugiesische Regierung offiziell verkündet, dass sie in eine neutrale Nation ins Exil gehen wird, während ihre Streitkräfte schwanken und damit beginnen, in die Heimat zurückzukehren und um Vergebung zu bitten. Einige portugiesische Partisanen treiben sich zwar noch immer in unseren neuen Territorien herum, die wachsende Stärke unserer Milizen und der Kollaps Portugals werden mögliche Aufstände jedoch stark schwächen und bald werden wir Portugal vollständig kontrollieren, ein für alle mal!"
- portugal_exile.17.a: "Das Proletariat gewinnt wo Könige verlieren!"
+ portugal_exile_events.17.t: "Die portugiesische Regierung bricht zusammen"
+ portugal_exile_events.17.d: "Da sie endlich die Aussichtslosigkeit ihrer Situation nach dem Verlust des Festlands realisiert hat, hat die portugiesische Regierung offiziell verkündet, dass sie in eine neutrale Nation ins Exil gehen wird, während ihre Streitkräfte schwanken und damit beginnen, in die Heimat zurückzukehren und um Vergebung zu bitten. Einige portugiesische Partisanen treiben sich zwar noch immer in unseren neuen Territorien herum, die wachsende Stärke unserer Milizen und der Kollaps Portugals werden mögliche Aufstände jedoch stark schwächen und bald werden wir Portugal vollständig kontrollieren, ein für alle mal!"
+ portugal_exile_events.17.a: "Das Proletariat gewinnt wo Könige verlieren!"
