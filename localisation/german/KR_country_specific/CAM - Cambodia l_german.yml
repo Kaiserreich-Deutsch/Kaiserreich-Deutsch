@@ -51,22 +51,17 @@ CAM_national_populist_party_long: "Kanakpak Khemara Ponnakar (Khmer-Erneuerung)"
 
 ### Events ###
 
-## Puppets, Monarch's Dead, Elections(?)
- # Noch keine Wahl der Republikaner bis zur Überarbeitung
-khmer_dom.1000.t: "Aufbau eines neuen kambodschanischen Regimes"
-khmer_dom.1000.d: "Nun, da wir einen kambodschanischen Staat wiederhergestellt haben, haben einige die Wiederherstellung einer kambodschanischen Monarchie vorgeschlagen. Der naheliegendste Kandidat wäre das Königshaus von Sisowath, Nachfahre des Dichterkönigs Ang Duong, das Kambodscha seit den 1840er Jahren sowohl unter den französischen als auch später unter den siamesischen Oberherren regiert hat. Ein weiterer Kandidat für eine solche Position wäre das Königshaus von Norodom, das zuletzt 1904 in Kambodscha regiert hat, sich aber als gute Wahl erweisen könnte, wenn wir eine völlig neue Ordnung in Kambodscha errichten wollen. Nach vielen Diskussionen sind wir zu dem Schluss gekommen, dass..."
-khmer_dom.1000.a: "... der Sisowath soll den Thron besteigen."
-khmer_dom.1000.b: "... der Norodom soll den Thron besteigen."
-
 # Sisowath Line
  # 1941.4.23
-khmer_dom.1011.t: "Der Tod von Sisowath Monivong"
-khmer_dom.1011.d: "König Sisowath Monivong vom [CAM.GetName], der 2. Monarch des Hauses Sisowath, ist heute Morgen an Altersschwäche gestorben. Der Monarch wird von seinem ersten Sohn, Sisowath Monireth, beerbt."
+ cambodia_events.1011.t: "Der Tod von Sisowath Monivong"
+ cambodia_events.1011.d: "König Sisowath Monivong vom [CAM.GetName], der 2. Monarch des Hauses Sisowath, ist heute Morgen an Altersschwäche gestorben. Der Monarch wird von seinem ersten Sohn, Sisowath Monireth, beerbt."
+ cambodia_events.1011.a: "$siam_events.15.a$"
 
 # Norodom Line
  # 1960.4.3
-khmer_dom.1012.t: "Der Tod von Norodom Suramarit"
-khmer_dom.1012.d: "König Norodom Suramarit der [CAM.GetName], der 2. Monarch des Hauses Norodom, ist in der vergangenen Nacht an Altersschwäche gestorben. Der Monarch wird von seinem ersten Sohn, Norodom Sihanouk, beerbt."
+ cambodia_events.1012.t: "Der Tod von Norodom Suramarit"
+ cambodia_events.1012.d: "König Norodom Suramarit der [CAM.GetName], der 2. Monarch des Hauses Norodom, ist in der vergangenen Nacht an Altersschwäche gestorben. Der Monarch wird von seinem ersten Sohn, Norodom Sihanouk, beerbt."
+ cambodia_events.1012.a: "$siam_events.15.a$"
 
 ### Characters ###
  CAM_tou_samouth: "Tou Samouth"
