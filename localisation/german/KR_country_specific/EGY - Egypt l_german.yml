@@ -1,7 +1,7 @@
 ﻿l_german:
 ### Übersetzt von DerEherneRächer -> Ab 1.1.4 Proho  ###
 ### Factions ###
- cairo_pact: "Kairoer Pakt" #erstellt von palcon.17 Event und OTT_Union_Party_State Schwerpunkt
+ cairo_pact: "Kairoer Pakt" #erstellt von third_arab_congress_events.17 Event und OTT_Union_Party_State Schwerpunkt
 
 ### Political Parties ###
  EGY_totalist_party: "Ägyptische Marxistenorganisation"
@@ -10,25 +10,22 @@
  EGY_radical_socialist_party_long: "Arbeiterkomitee der Nationalen Befreiung"
  EGY_syndicalist_party: "Ägyptische Sozialistische Partei"
  EGY_syndicalist_party_long: "Ägyptische Sozialistische Partei"
- EGY_social_democrat_party: "Hizb al-Masri al-Dimuqrati al-Ijtma'i"
+ EGY_social_democrat_party: "Hizb al Masrī ad Dīmuqrātī al Ijtimā'ī"
  EGY_social_democrat_party_long: "Ägyptische Sozialdemokratische Partei"
- EGY_social_liberal_party: "Hizb al-Ahrar al-Dusturiyyin"
+ EGY_social_liberal_party: "Hizb al Ahrār ad Dustūrīyyīn"
  EGY_social_liberal_party_long: "Liberal-Konstitutionelle Partei"
- EGY_market_liberal_party: "Hizb al-Wafd"
- EGY_market_liberal_party_long: "Wafd-Partei"
- EGY_social_conservative_party: "Hizb al-Watani"
- EGY_social_conservative_party_long: "Watani-Partei"
- EGY_authoritarian_democrat_party: "Hizb al-Ittihad"
- EGY_authoritarian_democrat_party_long: "Ittihad-Partei"
- EGY_paternal_autocrat_party: "al-Usra al-'Alawiyya"
+ EGY_market_liberal_party: "Hizb al Wafd"
+ EGY_market_liberal_party_long: "Wafd Partei"
+ EGY_social_conservative_party: "Hizb al Watanī"
+ EGY_social_conservative_party_long: "Watanī Partei"
+ EGY_authoritarian_democrat_party: "Hizb al Ittihād"
+ EGY_authoritarian_democrat_party_long: "Ittihād Partei"
+ EGY_paternal_autocrat_party: "Āl 'Alawīyah"
  EGY_paternal_autocrat_party_long: "Alawiyya-Dynastie"
  EGY_national_populist_party: "Nationalistisch-Islamische Partei"
  EGY_national_populist_party_long: "Nationalistisch-Islamische Partei"
 
 ### Tooltips ###
- EGY_ethloytribe_tt: "Hebt eine Stammesmiliz-Division aus."
- EGY_sudloytribe_tt: "Hebt zwei Stammesmiliz-Divisionen aus."
-
  egy_operation_abu_tt: "Bereitet einen §YBlitzangriff§! auf §Y[OTT.GetNameWithFlag]§!, um ihre §CFlottendominanz§! im Mittelmeer zu bekämpfen\n"
  egy_cyrenaica_tt: "\nFinanzielle Mittel aus Ägypten werden genutzt, um die §Ykyrenaikanische§! Regentschaftskrise zu beeinflussen und die §CLoyalisten von Idris§! zu unterstützen. Die Auswirkungen dieser Finanzierung werden §Rnicht§! sofort deutlich."
  egy_memberstates_buff: "Jedes Mitglied der §YArabischen Liga§! erhält:\n\n"
@@ -397,554 +394,555 @@
  EGY_country_intro_header: "Das Königreich Ägypten"
  EGY_country_intro_content: "Die Geschichte des modernen Ägyptens beginnt konventionell im Jahr 1882, als Ägypten dem britischen Einflussbereich beitrat, eine Situation, die im Widerspruch zu Ägyptens de jure Position als Teil des Osmanischen Reiches stand. Im Jahr 1914 wurde das Protektorat offiziell anerkannt und der Titel des Staatsoberhaupts, der 1867 von Pascha zu Khedive geändert worden war, wurde wieder in König geändert. Damit wurde die noch bestehende Oberhoheit des osmanischen Sultans in Konstantinopel, der die Mittelmächte im Weltkrieg unterstützte, formell aufgehoben. Abbas II. wurde von den Briten abgesetzt und als König durch seinen Onkel Husayn Kamil ersetzt. Nach seinem Tod im Jahr 1917 verzichtete sein einziger Sohn, Prinz Kamal al-Din Husayn, auf die Nachfolge, und Husayn Kamils Bruder Ahmed Fuad bestieg den Thron als Fuad I.\n\nNach der Ratifizierung des Vertrags von Versailles blieb Ägypten ein Teil der nun geschwächten britischen Sphäre. Dies erzürnte die ägyptische Bevölkerung jedoch, die ihren Zorn 1925, während des Zusammenbruchs des Britischen Imperiums, in Form von Gewalt äußerte. Dieses Ereignis wurde bald darauf als Ägyptische Revolution bekannt, in der Fuad I seine Legitimität bewies, indem er sein Volk auf den Weg der Revolution führte. Die Revolution war nationalistischer Natur und vereinte Ägypter aller sozialen Klassen, Glaubensrichtungen und Berufe, um die Briten ein für alle Mal aus Ägypten zu vertreiben. Inmitten des durch die Revolution verursachten Chaos übernahm eine internationale Koalition (angeführt von Großbritannien und Deutschland) den Sueskanal, was Ägypten hinnehmen musste, um einem offenen Konflikt mit den Zentralmächten aus dem Weg zu gehen.\n\nSeit der Revolution gibt es Konflikte zwischen den Liberalen, die eine wahrhaft konstitutionelle Monarchie anstreben, und den Konservativen, die den Status Quo aufrechterhalten wollen. Derzeit richten sich die Augen des Ägyptens jedoch auf den jungen Farouk, dem rechtmäßigen Nachfolger auf den Thron, der bereits auf seine Zeit als Herrscher vorbereitet wird. Aufgrund des Niedergangs des Osmanischen Reiches haben Mitglieder aller politischen Parteien damit begonnen, Pläne für die Wiederherstellung eines mächtigen Ägyptens zu schmieden und von einem Nahen Osten zu träumen, der von den Osmanen befreit wurde..."
 
- EGY_guide: "§MKonstitutionelle Monarchie§!\n£white_dot Wählen Sie im Rahmen der Farouk-Reformveranstaltungen fünf liberale Reformen aus, die Sie unterstützen möchten.\n\n§MStatus Quo-Monarchie§!\n£white_dot Entscheiden Sie sich bei den Farouk-Reformveranstaltungen für fünf konservative Reformen.\n\n§MAbsolute Monarchie§! (§PPaternal Autocrat§!)\n£white_dot Entscheiden Sie sich bei den Farouk-Reformveranstaltungen für fünf absolutistische Reformen.\n£white_dot Wenn der Schwerpunkt \"$EGY_finish_reforms$\" abgeschlossen ist, wird die §Pal-Usra al-'Alawiyya§! die Macht übernehmen und es werden keine Wahlen mehr stattfinden.\n\n§MÄgyptische Wahlen§!\n£white_dot In den Wahlen von 1936, 1941 und 1948 kann jeweils die §lLiberal-Konstitutionelle Partei§!, die §mWafd-Partei§!, die §cWatani-Partei§! oder die §aIttihad-Partei§! an die Macht kommen.\n£white_dot In den Wahlen von 1951 und allen darauffolgenden Wahlen, welche im Abstand von fünf Jahren stattfinden werden, kann außerdem die §SSozialdemokratische Partei§! an die Macht kommen."
+ EGY_guide: "§MKonstitutionelle Monarchie§!\n£white_dot Wählen Sie im Rahmen der Farouk-Reformveranstaltungen fünf liberale Reformen aus, die Sie unterstützen möchten.\n\n§MStatus Quo-Monarchie§!\n£white_dot Entscheiden Sie sich bei den Farouk-Reformveranstaltungen für fünf konservative Reformen.\n\n§MAbsolute Monarchie§! ($paternal_autocrat_coloured$)\n£white_dot Entscheiden Sie sich bei den Farouk-Reformveranstaltungen für fünf absolutistische Reformen.\n£white_dot Wenn der Schwerpunkt \"$EGY_finish_reforms$\" abgeschlossen ist, wird die §Pal-Usra al-'Alawiyya§! die Macht übernehmen und es werden keine Wahlen mehr stattfinden.\n\n§MÄgyptische Wahlen§!\n£white_dot In den Wahlen von 1936, 1941 und 1948 kann jeweils die §lLiberal-Konstitutionelle Partei§!, die §mWafd-Partei§!, die §cWatani-Partei§! oder die §aIttihad-Partei§! an die Macht kommen.\n£white_dot In den Wahlen von 1951 und allen darauffolgenden Wahlen, welche im Abstand von fünf Jahren stattfinden werden, kann außerdem die §SSozialdemokratische Partei§! an die Macht kommen."
 
  EGY_guide_1: "Sieg in der Levante\n\n£white_dot Gewinnen Sie die Levante-Krise gegen das Osmanische Reich, indem Sie dafür sorgen, dass das Osmanische Reich nicht alle syrischen, irakischen, kurdischen und hejasischen Kernstaaten und Adana kontrolliert, oder zwingen Sie es zur 60%igen Kapitulation.\n£white_dot Wenn der Vertrag von Antalya in Kraft tritt, werden wir die Möglichkeit haben, Syrien zu annektieren oder, falls wir uns dafür entscheiden, das Regime zu unterstützen, es entweder zu unserer Marionette zu machen oder es in Ruhe zu lassen.\n£white_dot Einige Tage später, wenn Persien das Gebiet nicht beansprucht hat, wird ein weiteres Ereignis erscheinen, das uns den Wechsel zum Irak ermöglicht. Wenn Persien das Gebiet beansprucht hat, können wir sie auffordern, es zu verlassen, und wenn wir eine größere Armee als sie haben, werden sie immer zustimmen.\n£white_dot Wir können auch als Libanon spielen, wenn wir als Syrien spielen wollen.\n----------------------------------\nDie Wiege der Zivilisation — £KR_game_rule_flag_IRQ  §MIrak§!\n\n$IRQ_guide$\n----------------------------------\nDas Herz der Levante — £KR_game_rule_flag_SYR  §MSyrien§!\n\n$SYR_guide$"
 
 ### Events ###
- egy.2.t: "Der Tod von  König Fuad I"
- egy.2.d: "Tragische Neuigkeiten haben Ägypten erschüttert -  König Fuad ist gestorben! Während die Nation trauert, besteigt nun der 16-jährige Farouk den Thron. Dieser wurde zwar ausreichend auf seine neuen Pflichten vorbereitet, doch noch ist sich niemand einig, wie genau er regieren wird."
- egy.2.a: "Der  König ist tot! Lang lebe der  König!"
-
- egy.3.t: "Der Schwarze Montag trifft Ägypten"
- egy.3.d: "Heute hat die Wirtschaftskrise, die das Deutsche Reich fest in ihrem Griff hält, ihre Ranken auch um unseren Nacken geschlagen. Seit unserem Austritt aus der britischen Sphäre kommt ein Großteil des ausländischen Kapitals innerhalb unserer Nation von Deutschland und anderen Mitgliedern seiner Wirtschaftssphäre. Da die Situation dieser ausländischen Investoren nun jedoch immer unklarer wird, beginnt unsere Exportwirtschaft unter dem Druck zusammenzubrechen. Der landwirtschaftliche Sektor, vor allem die Baumwollproduktion, wurde besonders hart getroffen. Die Menschen flehen ihre Repräsentanten im Reichstag und den König an, irgendetwas zu unternehmen, um die Krise zu stoppen."
- egy.3.a: "Möge Gott uns retten."
-
- egy.4.t: "Farouks große Reformen"
- egy.4.d: "Heute hat der junge König seine Ambitionen verkündet, Ägypten in eine moderne Nation zu verwandeln. Eine Reihe von Reformen soll nahezu alle Aspekte des ägyptischen Lebens, der ägyptischen Regierung und der ägyptischen Gesellschaft beeinflussen. Schon jetzt sind mehrere Minister und Höflinge darum bemüht, ihren jungen Herrscher zu beeinflussen oder gar zu manipulieren, um einen Vorteil aus dieser Situation schlagen zu können."
- egy.4.a: "Ägypten wird in das moderne Zeitalter katapultiert werden!"
-
- egy.5.t: "Allgemeine Wahlen von [GetYear]"
- egy.5.d: "Heute steht endlich die lang erwartete Wahl des Premierministers von Ägypten an. Die diesjährige Wahl ist besonders spannend, da sie so kurz nach der Krönung von Farouk zum König stattfindet. Die vier wichtigsten Parteien haben bereits ihre Kandidaten auserkoren - doch wen wird das Volk zum neuen Premierminister wählen?"
- egy.5.a: "Die Liberal-Konstitutionelle Partei."
- egy.5.b: "Die Wafd-Partei."
- egy.5.c: "Die Watani-Partei."
- egy.5.e: "Die Ittihad-Partei."
-
- egy.6.t: "Allgemeine Wahlen von [GetYear]"
- egy.6.d: "Heute ist es erneut an der Zeit, den ägyptischen Premierminister zu wählen. Doch für wen wird sich das Volk entscheiden? Eine der liberalen oder eine der konservativen Parteien?"
- egy.6.a: "Die Liberal-Konstitutionelle§! Partei."
- egy.6.b: "Die Wafd-Partei."
- egy.6.c: "Die Watani-Partei."
- egy.6.e: "Die Ittihad-Partei."
-
- egy.7.t: "Reform des Gouverneursamtes"
- egy.7.d: "Aufgrund von Farouks Reformen steht nun auch die Frage der Gouverneure im Raum. Die Liberalen sind der Meinung, dass die Gouverneure gewählt werden sollten, während die Konservativen glauben, dass Gouverneure aus dem Adel stammen sollten. Es wurde jedoch auch eine dritte Möglichkeit vorgeschlagen: Der König selbst sollte die Gouverneure auf Basis eines meritokratischen Systems ernennen."
- egy.7.a: "Gewählte Gouverneure."
- egy.7.b: "Adlige Gouverneure."
- egy.7.c: "Ernannte Gouverneure."
-
- egy.8.t: "Richterliche Reform"
- egy.8.d: "Aufgrund von Farouks Reformen steht nun auch die Frage des Gerichtswesens im Raum. Die Liberalen glauben, dass die Judikative unabhängig sein sollte, um sicherzustellen, dass die Gesetze ordnungsgemäß durchgesetzt werden. Die Konservativen sind jedoch der Meinung, dass die Regierung die Gerichte kontrollieren sollte."
- egy.8.a: "Richterliche Unabhängigkeit."
- egy.8.b: "Kontrolle der Regierung."
-
- egy.9.t: "Reform der Bürokratie"
- egy.9.d: "Aufgrund von Farouks Reformen steht nun auch die Frage der Bürokratie im Raum. Die Liberalen setzen sich für einen modernen öffentlichen Dienst auf meritokratischer Basis ein, während die Konservativen der Meinung sind, vor allem Adlige sollten vom Sultan zu Beamten ernannt werden."
- egy.9.a: "Öffentlicher Dienst."
- egy.9.b: "Ernannte Minister."
-
- egy.10.t: "Landreform"
- egy.10.d: "Aufgrund von Farouks Reformen steht nun auch die Frage einer Landreform im Raum. Das derzeitige Problem ist, dass ca. 6% der ägyptischen Bevölkerung über 65% des Landes unserer Nation besitzen und weniger als 0.5% der Ägypter mehr als ein Drittel des fruchtbaren Landes gehört. Die Liberalen möchten gegen diese Zustände vorgehen, indem sie das Land an das Volk umverteilen und es dem Adel abkaufen. Die Konservativen widert dieser Gedanke jedoch an, da sie glauben, eine derartige Aktion würde Ägyptens landwirtschaftliche Produktion behindern. Statt auf eine dieser beiden Seiten zu hören, könnte der König das Land jedoch auch nationalisieren und zu seinem persönlichen Besitz machen - zumindest auf dem Papier. Schon jetzt ist der König der größte Grundbesitzer Ägyptens, weshalb es nicht unmöglich wäre, diese Idee in die Tat umzusetzen."
- egy.10.a: "Verteilt das Land um."
- egy.10.b: "Formalisiert den Status Quo."
- egy.10.c: "Das gesamte Land soll dem König gehören!"
-
- egy.11.t: "Rechtsreform"
- egy.11.d: "Aufgrund von Farouks Reformen steht nun auch die Frage des ägyptischen Rechtssystems im Raum. Derzeit ist unser Rechtssystem ein heilloses Durcheinander, das aus den britischen, osmanischen, französischen und ägyptischen Gesetzesbüchern zusammengewürfelt wurde, weshalb es sich an einigen Stellen selbst widerspricht. Dies darf im neuen und modernen Ägypten nicht länger so weitergehen - unser Rechtssystem muss reformiert werden. Doch worauf unser reformiertes Gesetzbuch basieren soll, wurde noch nicht entschieden. Die Liberalen sind der Meinung, das britische System sei das beste, während die Konservativen das französische verteidigen. Einige greifen jedoch auch die Ideen auf, die Muhammad Ali in das ägyptische Recht einbrachte."
- egy.11.a: "Das britische Rechtssystem."
- egy.11.b: "Das französische Rechtssystem."
- egy.11.c: "Muhammad Alis Rechtssystem."
-
- egy.12.t: "Reform des Reichstages"
- egy.12.d: "Aufgrund von Farouks Reformen steht nun auch die Frage im Raum, ob der ägyptische Reichstag reformiert werden sollte. Die Liberalen sind der Meinung, die Macht der Monarchie sollte zugunsten des Reichstages eingeschränkt werden. Die Konservativen wiederum glauben, dass der derzeitige Status Quo die perfekte Balance zwischen dem Liberalismus und dem Absolutismus bildet. Die letzte Option wäre es, die Monarchie zu stärken und dafür die Macht des Reichstages einzuschränken."
- egy.12.a: "Stärkt den Reichstag."
- egy.12.b: "Haltet den Status Quo aufrecht."
- egy.12.c: "Stärkt die Monarchie."
-
- egy.13.t: "Religiöse Reformen"
- egy.13.d: "Aufgrund von Farouks Reformen steht nun auch die Frage der ägyptischen Staatsreligion im Raum. Die Liberalen wünschen sich, dass sich unsere Regierung auf den Säkularismus fokussiert, während die Konservativen der Meinung sind, der Islam sei die wahre Staatsreligion, wobei allerdings auch andere Glaubensrichtungen wie das Juden- und Christentum geschützt werden sollten."
- egy.13.a: "Ägypten ist eine säkularistische Nation."
- egy.13.b: "Ägypten ist eine islamische Nation."
-
- egy.14.t: "Bildungsreform"
- egy.14.d: "Aufgrund von Farouks Reformen steht nun auch die Frage der Bildung im Raum. Konkret die Frage, was genau in den Schulen unterrichtet werden sollte. Hierbei kam es zu Konflikten zwischen den Pharaonisten, die der Meinung sind, Ägyptens Identität basiert auf dem Mittelmeer und der vorislamischen Zeit, und den Islamisten, die glauben, die Wurzeln der ägyptischen Identität liegen im Islam und den antiken Dynastien der Fatimiden, Ayyubiden und Mameluken."
- egy.14.a: "Pharaonistische Identität."
- egy.14.b: "Islamische Identität."
-
- egy.15.t: "Steuerreform"
- egy.15.d: "Aufgrund von Farouks Reformen steht nun auch die Frage der Besteuerung im Raum, wobei sich uns mehrere Optionen bieten: Wir könnten auf unsere Bürger hören und eine Grundsteuer einführen, die vor allem die reichen Grundbesitzer treffen würde, unseren westlichen Beratern Gehör schenken und das progressive Steuersystem Europas übernehmen oder den Wünschen des Adels Folge leisten und eine Pauschalsteuer einführen."
- egy.15.a: "Grundsteuer."
- egy.15.b: "Pauschalsteuer."
- egy.15.c: "Progressive Besteuerung."
-
- egy.16.t: "Alphabetisierungsprogramm"
- egy.16.d: "Aufgrund von Farouks Reformen steht nun auch die Frage der Alphabetisierung im Raum. Nahezu 80% der Bevölkerung Ägyptens, vor allem in den ländlicheren Gebieten, sind Analphabeten. Deshalb sollten wir uns darum bemühen, unsere Bevölkerung zu bilden. Es bleibt jedoch die Frage, ob unser Fokus auf dem ägyptisch-arabischen oder der Wiederbelebung der koptischen Sprache liegen sollte."
- egy.16.a: "Der Fokus sollte auf dem ägyptisch-arabischen liegen."
- egy.16.b: "Der Fokus sollte auf der Wiederbelebung der koptischen Sprache liegen."
-
- egy.17.t: "Das Neue Ägypten"
- egy.17.d: "Nun, da die Reformen endlich abgeschlossen wurden, beginnt in Ägypten eine neue und moderne Ära. Es wurden zwar noch nicht alle Probleme unserer Nation gelöst, aber dennoch haben die Reformen dabei geholfen, Ägypten auf den Weg in eine strahlende Zukunft zu bringen."
- egy.17.a: "Lang lebe der König! Lang lebe Ägypten!"
-
- egy.18.t: "Ein Liberales Neues Ägypten"
- egy.18.d: "Die neuen Reformen haben die liberalen Träume, die während der Revolution von 1925 entstanden, endlich zur Wirklichkeit werden lassen. Sie haben aus Ägypten eine liberale konstitutionelle Monarchie geformt, in der der König nur noch eine zeremonielle Rolle innehat."
- egy.18.a: "Lang lebe der König! Lang lebe Ägypten!"
-
- egy.19.t: "Ein Konservatives Neues Ägypten"
- egy.19.d: "Die neuen Reformen haben nicht sonderlich viel an der Verfassung von 1925 geändert, die Position der Regierung allerdings dennoch gestärkt. Nun befinden sich die Macht der Regierung und die Macht der Monarchie in einer ausgeglichenen Balance."
- egy.19.a: "Lang lebe der König! Lang lebe Ägypten!"
-
- egy.20.t: "Ein Absolutistisches Neues Ägypten"
- egy.20.d: "Überraschenderweise hat Farouk I seine Minister und Höflinge überlistet und die Macht der ägyptischen Monarchie gestärkt. Zwar sind die Liberalen aufgrund ihres Verlusts von Freiheiten erzürnt, doch die Macht und der Ruhm der Königsfamilie waren noch nie größer und in ganz Ägypten feiern die Menschen unseren großen König."
- egy.20.a: "Lang lebe der König! Lang lebe Ägypten!"
-
- egy.23.t: "Deutsche Investitionen in Ägypten"
- egy.23.d: "Aufgrund unseres laufenden Modernisierungsprogramms haben sich einige deutsche Unternehmen dazu entschlossen, sich auch in Ägypten zu etablieren. Es haben sogar einige militärische Unternehmen wie Mauser eine Vereinbarung mit unserer Regierung unterschrieben und sich dazu bereit erklärt, uns bei der Produktion von Ausrüstung für unsere Streitkräfte zu unterstützen."
- egy.23.a: "Wir beide werden profitieren."
-
- egy.24.t: "Investitionen in Ägypten"
- egy.24.d: "Einige Unternehmen haben sich dazu entschlossen, in Ägypten zu investieren, da dort ein Programm zur Modernisierung der Nation in vollem Gange ist. Deshalb erzielen diese Unternehmen nun etwas bessere Gewinne, die sie zurück nach Deutschland bringen."
- egy.24.a: "Wir beide werden profitieren."
-
- egy.25.t: "Deutsche Investoren ziehen sich aus Ägypten zurück"
- egy.25.d: "Da sich Ägypten und das Deutsche Kaiserreich nun im Krieg befinden, haben sich die deutschen Unternehmen dazu entschlossen, sich aus Ägypten zurückzuziehen."
- egy.25.a: "Dumme Deutsche."
-
- egy.26.t: "Deutsche Investoren ziehen sich aus Ägypten zurück"
- egy.26.d: "Da sich Ägypten und das Deutsche Kaiserreich nun im Krieg befinden, haben sich die deutschen Unternehmen dazu entschlossen, sich aus Ägypten zurückzuziehen."
- egy.26.a: "Idiotische Ägypter."
-
- egy.27.t: "Neue Offiziere für Ägypten"
- egy.27.d: "Nun, da die ägyptische Heeresreform abgeschlossen ist, haben jüngere Offiziere damit begonnen, die Rangleiter emporzusteigen. Drei von ihnen haben die Aufmersamkeit des Königs erregt: Gamel Abdel Nasser, Hussein el-Shafei und Abdel Hakim Amer. Diese Männer repräsentieren die nächste Generation ägyptischer Generäle."
- egy.27.a: "Mal sehen, wozu diese Offiziere fähig sind."
-
- egy.28.t: "Das Institut für Koptische Studien"
- egy.28.d: "Aufgrund unserer Entscheidung, die koptische Sprache zu fördern, um das Problem der hohen Analphabetenrate zu lösen, wurde in Alexandria vor Kurzem das Insitut für Koptische Studien eröffnet, in welchem die koptische Sprache erforscht und gefördert wird. Ein solches Institut ist eine große Hilfe bei unseren Bemühungen, die koptische Sprache wiederaufleben zu lassen."
- egy.28.a: "Großartig."
-
- egy.29.t: "Frauenwahlrecht?"
- egy.29.d: "Seit der ägyptischen Revolution von 1925 existiert eine wachsende feministische Bewegung innerhalb unseres Reiches. Diese wurde von Organisationen wie der Ägyptischen Feministenunion und vielen Frauen der Mittel- und Oberschicht unterstützt. Aufgrund der andauernden Reformen haben viele Mitglieder der Ägyptischen Feministenunion damit begonnen, sich für die Einführung des Frauenwahlrechts auszusprechen. Die Konservativen sind natürlich gegen diese Bewegung, aus Angst, sie könnte die traditionellen Familien zerstören."
- egy.29.a: "Unterstützt die Bewegung."
- egy.29.b: "Es wird kein Frauenwahlrecht geben!"
-
- egy.63.t: "Die Aufteilung Äthiopiens"
- egy.63.d: "Im Äthiopischen Kaiserreich leben Menschen vieler verschiedener Kulturen, von denen nicht alle froh darüber sind, Teil des Reiches zu sein. Die Somalier, Omoro und Tigray sind die größten dieser Gruppen, doch es gibt noch viele weitere. Wir könnten Äthiopien vielleicht schwächen, indem wir die verschiedenen Kulturen gegeneinander ausspielen und die Nation so von innen heraus aufteilen."
- egy.63.a: "Sollen sie sich doch untereinander streiten."
-
- egy.64.t: "Spannungen im Reich"
- egy.64.d: "Wie es scheint, spitzen sich die Spannungen in den Teilen Äthiopiens, die von den Somaliern und Tigray kontrolliert werden, weiter zu. Aufgrund der ebenfalls bestehenden Spannungen mit Ägypten und Somalia sollten wir die Situation im Auge behalten - sonst könnte es zu einer Revolte kommen."
- egy.64.a: "Wir sollten die Situation im Auge behalten."
-
- egy.65.t: "Der ägyptische Plan schlägt fehl!"
- egy.65.d: "Die Ägypter haben versucht, unsere Bevölkerung dazu zu bewegen, sich gegen unseren Kaiser zu stellen. Heute haben jedoch viele von ihnen dem Haile Selassie die Treue geschworen und versprochen, für Äthiopien zu kämpfen, sollte es zu einem Krieg mit den Ägyptern kommen."
- egy.65.a: "Ganz Äthiopien ist dem Negus Negast treu ergeben."
-
- egy.71.t: "Sudanesische Stämme unterstützen uns"
- egy.71.d: "Nun, da ein Krieg zwischen uns und den Ägyptern ausgebrochen ist, haben sich einige der Stämme des Südsudans dazu entschlossen, unserem Ruf zu den Waffen Folge zu leisten. Es sind zwar nur Milizen, doch sie sind uns gegenüber loyal und bereit, sich den Ägyptern entgegenzustellen."
- egy.71.a: "Großartig!"
-
- egy.72.t: "Äthiopische Stämme unterstützen uns"
- egy.72.d: "Nun, da ein Krieg zwischen uns und den Äthiopiern ausgebrochen ist, haben sich einige der äthiopischen Stämme dazu entschlossen, unserem Ruf zu den Waffen gegen die Äthiopier Folge zu leisten. Obwohl sie uns gegenüber nicht gerade loyal sind, können sie die Äthiopier nicht ausstehen und sind bereit, gegen sie zu kämpfen."
- egy.72.a: "Großartig!"
-
- egy.73.t: "Stammesmilizen erheben sich gegen uns"
- egy.73.d: "Mehrere südsudanesische Stämme haben zu den Waffen gegriffen und sich dem Kampf der Äthiopier gegen uns angeschlossen."
- egy.73.a: "Sie werden für ihren Verrat bezahlen!"
-
- egy.74.t: "Stammesmilizen erheben sich gegen uns"
- egy.74.d: "Mehrere Stämme der Küste Eritreas haben zu den Waffen gegriffen und sich dem Kampf der Ägypter gegen uns angeschlossen."
- egy.74.a: "Sie werden für ihren Verrat bezahlen!"
-
- egy.75.t: "Abd al-Rahman al-Mahdi Rede"
- egy.75.d: "Der Sudanese Abd al-Rahman al-Mahdi hat in Khartum vor tausenden Menschen eine Rede darüber gehalten, dass der Sudan stark und mächtig werden muss. In seiner Rede erwähnte er oft seinen Vater Muhammad Ahmad, der den Mahdi-Aufstand begann, und betonte vor allem seine Rolle als Mahdi. Noch hat er zwar nicht die Unabhängigkeit des Sudans als notwendig erklärt, doch viele unterstützen seine Forderung eines starken Sudans. Einige unserer Höflinge befürchten, dass es sich nur um eine Frage der Zeit handle, bis er versucht, die sudanesische Unabhängigkeit zu erklären."
- egy.75.a: "Wir sollten ihn im Auge behalten!"
-
- egy.76.t: "Der Sudan erklärt die Unabhängigkeit"
- egy.76.d: "Der Sudanese Abd al-Rahman al-Mahdi hat seine Unterstützer in Khartum versammelt und verkündet, dass der Sudan niemals vor jemand anderem als Gott selbst niederknien und sich von Ägypten lossagen wird."
- egy.76.a: "Wir werden Ägypten verteidigen!"
- egy.76.b: "Der Sudan kniet nur vor Gott! (Als Sudan spielen)"
-
- egy.77.t: "Südsudanesische Stämme wollen sich der Revolte nicht anschließen!"
- egy.77.d: "Im Süden des Sudans sind viele Stämme nicht muslimisch, sondern animistisch oder christlich. Diese Stämme haben sich dazu entschieden, Abd al-Rahman al-Mahdi's Ruf zu den Waffen nicht zu folgen und stattdessen verkündet, dass sie sich dem Kampf des Königs anschließen und die Verräter vernichten werden."
- egy.77.a: "Zusammen werden wir die Verräter bezwingen!"
-
- egy.78.t: "Südsudanesische Stämme schließen sich der Revolte an"
- egy.78.d: "Obwohl die südsudanesischen Stämme im Gegensatz zum Norden nicht muslimisch sind, haben sie sich dazu entschieden, sich Abd al-Rahman al-Mahdi's Revolte gegen Ägypten anzuschließen."
- egy.78.a: "Wir werden die Verräter bezwingen!"
-
- egy.79.t: "Die Sudanesen unterstützen?"
- egy.79.d: "Abd al-Rahman al-Mahdi führt eine Revolte gegen die Ägypter. Einige der Höflinge unseres Kaisers haben vorgeschlagen, die Rebellen zu unterstützen und so Ägypten zu schwächen. Wir sollten allerdings Vorsicht walten lassen, da der neue Mahdi in die Fußstapfen seines Vaters treten und eine Invasion Äthiopiens starten könnte."
- egy.79.a: "Bewaffnet die sudanesischen Rebellen."
- egy.79.b: "Das wäre für uns nicht von Interesse."
-
- egy.80.t: "Äthiopische Unterstützung trifft ein"
- egy.80.d: "Die Äthiopier haben sich dazu entschlossen, uns einige Waffen zukommen zu lassen, die uns in unserem Krieg gegen die Ägypter helfen sollen."
- egy.80.a: "Großartig!"
-
- egy.81.t: "Ägyptischer Sieg!"
- egy.81.d: "Heute haben wir die Mahdisten ein zweites Mal besiegt. Der Sieg ist unser! Der Sudan wird nie wieder gegen unsere Herrschaft rebellieren!"
- egy.81.a: "Lang lebe Ägypten!"
-
- egy.82.t: "Umgang mit den Rebellen?"
- egy.82.d: "Nachdem wir die sudanesische Revolte niedergeschlagen haben, besteht nun noch die Frage, wie wir mit den Rebellen verfahren sollten. Einige der Höflinge des König haben sich für Gnade ausgesprochen, während andere der Meinung sind, man sollte sie streng bestrafen, um ihnen eine Lektion zu erteilen."
- egy.82.a: "Seid gnädig."
- egy.82.b: "Seid hart."
-
- egy.8200.t: "Der Feind vor unserer Tür"
- egy.8200.d: "Der Krieg hat sich nicht gerade zu unserem Vorteil entwickelt. Da die Mahdisten damit begonnen haben, unsere Städte zu überrennen, bleibt uns nichts anderes mehr übrig, als zu hoffen, dass sie dazu bereit sind, über unsere bedingte Kapitulation zu verhandeln."
- egy.8200.a: "Hoffentlich akzeptieren sie unser Angebot..."
- egy.8200.b: "Ägypten ist noch nicht verloren!"
-
- egy.8201.t: "Ägypten bittet um Frieden"
- egy.8201.d: "Die Stunde des Sieges ist gekommen! Selbst [EGY.GetLeader] und sein Hofstaat mussten diese Tatsache akzeptieren: Der Sudan hat triumphiert und Ägypten hat den Krieg verloren! Nun bieten uns die Ägypter einen Friedensvertrag an, der unserem Volk die Freiheit von der ägyptischen Tyrannei garantieren wird."
- egy.8201.a: "Freiheit!"
- egy.8201.b: "Warum sollten wir schon jetzt aufhören?"
-
- egy.83.t: "Sudanesischer Sieg"
- egy.83.d: "Nur Gott selbst hat den Triumph Abd al-Rahman al-Mahdi's kommen gesehen und ihn dazu gebracht, uns in den Sieg zu führen. Heute kann der gesamte Sudan feiern, denn es ist der erste Tag seiner vollständigen Unabhängigkeit!"
- egy.83.a: "Lang lebe der Sudan!"
-
- egy.84.t: "Die Ausrichtung des Sudans"
- egy.84.d: "Nach seinem Sieg über die Ägypter steht der Sudan nun vor einer schweren Entscheidung: Einige sind der Meinung, dass der Mahdi alle Bürger des Sudans, also auch die Nicht-Muslime, vertreten sollte, während andere glauben, es wäre das Beste, lediglich die Muslime zu repräsentieren und die anderen Bürger unserer jungen Nation zu vernachlässigen."
- egy.84.a: "Der Mahdi spricht für alle Sudanesen."
- egy.84.b: "Der Mahdi spricht nur für die Muslime."
-
- egy.85.t: "Nationalistischer Aufruhr"
- egy.85.d: "In einigen der weiter entfernten Teilen unserer Kolonie wurden mehrere Stämme durch den Sieg des Mahdis über die Ägypter inspiriert. Wir sollten sie im Auge behalten, sonst könnte es passieren, dass sie sich gegen uns erheben und versuchen, ihre Unabhängigkeit zu erzwingen."
- egy.85.a: "Wir werden sie im Auge behalten."
-
- egy.86.t: "Der Sudan blickt nach Äthiopien"
- egy.86.d: "Nachdem wir die Ägypter besiegt haben, bleibt noch die Frage, ob wir versuchen sollten, Muhammad Ahmad al-Mahdi's Traum zu erfüllen und Äthiopien zu zerschmettern oder einen friedlicheren Weg einschlagen sollten."
- egy.86.a: "Der Mahdi erklärt den Krieg!"
- egy.86.b: "Der Mahdi will nur Frieden!"
-
- egy.87.t: "Der Sudan erklärt den Krieg"
- egy.87.d: "Die Sudanesen haben dem Kaiserreich Äthiopien den Krieg erklärt. Wir hätten einen solchen Verrat vom sogenannten Mahdi erwarten sollen. Doch der Löwe wird erneut triumphieren, die Gazelle verschlingen und den Sudan besiegen!"
- egy.87.a: "Wir werden das Reich verteidigen!"
-
- egy.100.t: "Die Frage der ägyptischen Identität"
- egy.100.d: "Nach der Revolution von 1925 kam auch die Frage der ägyptischen Identität auf: Was bedeutet es, Ägypter zu sein? Wann war Ägypten wahrhaft großartig? Es war das erste Mal seit Jahrhunderten, dass die Ägypter frei und unabhängig waren, weshalb sie endlich nach einer Antwort auf diese Fragen suchen konnten. Seitdem wurden zwei Konzepte davon entwickelt, was es bedeutet, Ägypter zu sein. Beide romantisieren die Vergangenheit, fokussieren sich allerdings auf gänzlich unterschiedliche Perioden der ägyptischen Geschichte.\n\nDas erste Konzept ist als Pharaonismus bekannt. Die Pharaonisten blicken in die vorislamische Zeit, die Zeit der Pharaonen, in der Ägypten noch groß und mächtig war. Sie sind der Meinung, Ägypten sei eine mediterrane Zivilisation, und betonen die Rolle des Mittelmeers für die ägyptische Kultur, wenngleich sie auch den Nil nicht vernachlässigen. Diese Auffassung wird größtenteils von den Liberalen aufgegriffen - wenngleich sie strikt genommen nicht gänzlich liberal ist und auch einige der Watani sie unterstützen. Der Pharaonismus ist das bei Weitem einflussreichste Konzept der ägyptischen Identität im Jahre 1936.\n\nDie zweite kulturelle Bewegung ist die der Islamisten, die sich als Gegenbewegung zum Pharaonismus entwickelte. Sie glauben, dass Ägypten zur Zeit des Kalifats der Fatimiden und der Dynastie der Ayyubiden am größten und ruhmreichsten war. Im Gegensatz zu den Pharaonisten, die sie als Heiden und Tyrannen bezeichnen, blicken sie in die Zeit zurück, in der Ägypten das Zentrum der islamischen Welt und ein multiethnisches und tolerantes Ägypten die größte islamische Macht war. Diese kulturelle Bewegung ist vor allem eine Initiative der Konservativen, um gegen den Pharaonismus anzukämpfen, weshalb sie auch vor allem mit konservativen Bewegungen wie der Ittihad-Partei in Verbindung gebracht wird.\n\nEs sollte auch gesagt werden, dass beide Lager ein multiethnisches Ägypten befürworten, da sie beide glauben, dass Ägypten schon immer ein multiethnischer Staat war. Außerdem sind beide Konzepte äußerst nationalromantisch und haben einen großen Einfluss auf die Kultur und die Künste."
- egy.100.a: "Wir sind alle Ägypter."
-
- egy.101.t: "Bibliotheksdebatte"
- egy.101.d: "Aufgrund unseres Modernisierungsprogramms wurde vorgeschlagen, dass wir zur Feier des neuen Ägyptens eine große Bibliothek errichten sollten. Die Pharaonisten glauben, dass eine neue und moderne Bibliothek von Alexandria errichtet werden sollte, während die Islamisten meinen, man sollte stattdessen ein neues Haus der Weisheit in Kairo bauen. Für welche Seite werden wir uns entscheiden?"
- egy.101.a: "Eine neue Bibliothek von Alexandria."
- egy.101.b: "Ein neues Haus der Weisheit."
-
- egy.102.t: "Die Hauptstadt Ägyptens"
- egy.102.d: "Die Frage der Hauptstadt Ägyptens steht im Raum. Die Pharaonisten sind der Meinung, die Hauptstadt sollte als Symbol eines neuen Ägyptens nach Alexandria verlegt werden, während die Islamisten der Meinung sind, dass die derzeitige Hauptstadt Kairo die bessere Wahl sei, da sie schon seit ihrer Gründung die Hauptstadt Ägyptens ist."
- egy.102.a: "Alexandria!"
- egy.102.b: "Kairo!"
-
- egy.103.t: "Ein neuer Leuchtturm für Ägypten"
- egy.103.d: "Der Leuchtturm von Port Said dient schon seit 1869 als Leuchtfeuer des Sueskanals. Er wurde von Khedive Ismail errichtet, nach der Eröffnung des Kanals jedoch von ausländischen Mächten beschlagnahmt. Nun, da sich der Sues wieder unter ägyptischer Kontrolle befindet, sollten wir darüber nachdenken, dem alten Leuchtturm einen neuen Anstrich zu verpassen. Einige Künstler hatten sogar die großartige Idee, den Leuchtturm \"Pharos von Ägypte\" zu nennen, nach dem Pharos von Alexandria. Die Traditionalisten wiederum, die für die Schatzkammer verantwortlich sind, weigern sich, weitere Arbeiten am Leuchtturm zu finanzieren."
- egy.103.a: "Pharos von Ägypten - ein guter Name!"
- egy.103.b: "Wir benötigen das Geld anderswo."
-
- egy.104.t: "Ernennung eines Bildungsministers"
- egy.104.d: "Durch die Bildungsreform, die sich noch immer in vollem Gange befindet, ist die Frage aufgekommen, wer zum neuen Bildungsminister werden sollte. Sowohl die Pharaonisten als auch die Islamisten haben bereits einen Kandidaten gestellt. Taha Hussein, der Kandidat der Pharaonisten, ist ein bedeutender Autor pharaonistischer Literatur und ein Geschichtsprofessor an der Universität von Kairo. Sayyid Qutb, der islamistische Kandidat, ist wiederum ein junger Professor an der Al-Azhar und hat bereits viel über die islamische Philosophie geschrieben. Wen werden wir wählen?"
- egy.104.a: "Wählt den Pharaonisten."
- egy.104.b: "Wählt den Islamisten."
-
- egy.105.t: "Literaturwettbewerb"
- egy.105.d: "Vor Kurzem gab es in Alexandria einen Literaturwettbewerb, der die Aufmerksamkeit der gesamten Nation erregte, da die beiden Kandidaten, die am wahrscheinlichsten gewinnen werden, bedeutende Autoren sind, die jeweils mit der pharaonistischen und der islamistischen Bewegung in Verbindung gebracht werden. Wer auch immer diesen Wettbewerb gewinnt, wird seiner jeweiligen Bewegung zu weiterem Ruhm verhelfen. Wer sollte zum Sieger gekürt werden?"
- egy.105.a: "Das pharaonistische Buch."
- egy.105.b: "Das islamistische Buch."
-
- egy.106.t: "Der neue Scheich der Al-Azhar Universität"
- egy.106.d: "Die Position des Scheichs der Al-Azhar ist eine der prestigeträchtigsten und einflussreichsten in ganz Ägypten, wobei die Tatsache, dass die Al-Azhar zu den ruhmreichsten Universitäten Ägyptens gehört, der Position zu weiterem Einfluss verhilft. Heute muss ein neuer Scheich gewählt werden. Sowohl die Pharaonisten als auch die Islamisten haben bereits ihre Kandidaten gestellt. Der pharaonistische Kandidat ist Muhammad al-Zawahiri, der für seine Bemühungen, die Universität zu unterstützen, und seine reformistischen Ideen bekannt geworden ist. Der islamistische Kandidat wiederum ist Mustafa Hassan Abdul Razek, der eine Renaissance der islamischen Philosophie in der Universität verursachte und die islamische Bildung im Reich ausweiten will. Wer von den beiden sollte zum nächsten Scheich ernannt werden?"
- egy.106.a: "Wählt Muhammad al-Zawahiri."
- egy.106.b: "Wählt Mustafa Hassan Abdul Razek."
-
- egy.107.t: "Die Aufstauung des Nils"
- egy.107.d: "Der Untere Damm von Aswan war ein ehrgeiziges Projekt der Briten und ihr unfertiger Bauansatz eine stetige Erinnerung an die Zeit, in der die Briten über Ägypten herrschten. 1935 wurde König Fuad von dem Griechen Christian Adrian Daninos vorgeschlagen, einen zweiten Staudamm zu bauen, um die jährlichen Überschwemmungen des Nils zu kontrollieren. Dieser Damm wurde heute fertiggestellt und gewährt unserer Nation eine unglaubliche Kontrolle über den Nil. Die einzige Frage, die nun noch bleibt, ist, wer für dieses Wunder geehrt werden sollte. Sollten wir Ibn al-Haytham ehren, der schon zur Zeit des Kalifats damit begann, den Bau eines derartigen Damms in Betracht zu ziehen? Oder sollten wir den Damm nach unserem Gast Adrian Daninos benennen? Immerhin war er es, der den Traum zur Wirklichkeit werden ließ."
- egy.107.a: "Adrian Daninos sollte geehrt werden."
- egy.107.b: "Ibn al-Haytham sollte geehrt werden."
-
- egy.108.t: "Das Ministerium der Awqaf"
- egy.108.d: "Dem ägyptischen Reichstag wurde heute ein Antrag des Ministeriums der Awqaf vorgelegt, das religiöse Stiftungen überwacht und nun auch Imams ernennen und so bei der Verwaltung der Moschees helfen will. Die Pharaonisten sind der Meinung, dass dies gegen das Prinzip der Religionsfreiheit verstoßen würde, während die Islamisten, vor allem die Ittihad, glauben, das Ministerium könne dabei helfen, die Bildung von Zerrbildern unseres Glaubens zu verhindern."
- egy.108.a: "Die Moscheen sollten sich selbst verwalten."
- egy.108.b: "Die Regierung wird die Moscheen verwalten."
-
- egy.109.t: "Antara kommt in die Kinos"
- egy.109.d: "Nachdem der berühmte Poet Ahmed Shawqi 1932 verstarb, fand man in seinem Apartment in Kairo eine Sammlung von Gedichten, darunter auch eines über den Ritter Antara Ben Shaddad. Obwohl dieses Gedicht die Taten eines vorislamischen Ägypters glorifiziert, entschied sich der Schauspieler 'Abd al-Wahhab dazu, einen auf dem Gedicht basierenden Film zu Ehren Shawqis zu produzieren. Die Produktion des Films in den Hügeln von Kairo wurde zwar von Studenten der Al-Azhar gestört, der Film wurde aber dennoch unzensiert in den meisten wichtigen Städten Ägyptens veröffentlicht. Studenten und Lehrer vieler Moscheen in ganz Ägypten fordern nun, dass der Film verboten wird."
- egy.109.a: "Die Studenten sollten sich auf ihre Studien konzentrieren, ein Flim ist harmlos."
- egy.109.b: "Die Studenten haben recht, konfisziert diesen Film!"
-
- egy.110.t: "Farouks königliche Hochzeit"
- egy.110.d.egypt_bride_only: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Glücklicherweise scheint eine vielversprechende Braut für den  König gefunden worden zu sein: Safinaz Zulfica, eine junge Adlige aus Alexandria."
- egy.110.d.egypt_arab: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Derzeit stehen zwei Frauen zur Auswahl: Safinaz Zulfica, eine junge ägyptische Adlige, und Al Bandari, die Tochter von Abdulaziz Al Saud, dem Herrscher über das Emirat Nadschd. Wen sollte unser  König zur neuen Königin küren?"
- egy.110.d.egypt_iranian: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Derzeit stehen zwei Frauen zur Auswahl: Safinaz Zulfica, eine junge ägyptische Adlige, und Prinzessin Shams Aqdas Qajar, eine Tochter der [PER.GetAdjective]en Kadscharen. Wen sollte unser  König zur neuen Königin küren?"
- egy.110.d.all_brides: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Nun muss nur noch eine von drei Frauen ausgewählt werden. Die erste mögliche Braut ist Safinaz Zulfica, eine junge ägyptische Adlige aus Alexandria. Die zweite ist Al Bandari, die Tochter von Abdulaziz Al Saud, dem Herrscher über das Emirat Nadschd. Die dritte ist Shams Aqdas Qajar, eine Tochter der [PER.GetAdjective]en Kadscharen. Wen sollte unser  König zur neuen Königin küren?"
- egy.110.a: "Safinaz Zulfica."
- egy.110.b: "Al Bandari."
- egy.110.c: "Prinzessin Shams Aqdas Qajar."
-
- egy.111.t: "Die königliche Hochzeit"
- egy.111.d.egyptian_bride: "Heute ist ein besonderer Tag: Farouk und Safinaz Zulfica wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Farida angenommen, nachdem sie zur Königin Ägyptens ernannt wurde."
- egy.111.d.arab_bride: "Heute ist ein besonderer Tag: Farouk und Al Bandari wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Abdulaziz Al Saud und sein Gefolge waren ebenfalls anwesend, um seiner Tochter dabei zuzusehen, wie sie zur Königin Ägyptens aufsteigt. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Farah angenommen, nachdem sie zur Königin Ägyptens ernannt wurde."
- egy.111.d.persian_bride: "Heute ist ein besonderer Tag: Farouk und Prinzessin Shams Aqdas Qajar wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Der [PER.GetAdjective] Schah und sein Gefolge waren ebenfalls anwesend, um seiner Tochter dabei zuzusehen, wie sie zur Königin Ägyptens aufsteigt. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Fatimah angenommen, nachdem sie zur Königin Ägyptens ernannt wurde."
- egy.111.d.arab_bride_saudi: "Heute ist ein besonderer Tag: Farouk und Al Bandari wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Abdulaziz Al Saud und sein Gefolge waren ebenfalls anwesend, um seiner Tochter dabei zuzusehen, wie sie zur Königin Ägyptens aufsteigt. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Farah angenommen, nachdem sie zur Königin Ägyptens ernannt wurde - doch für uns wird sie immer Prinzessin Al Bandari bleiben."
- egy.111.d.persian_bride_iranian: "Heute ist ein besonderer Tag: Farouk und Prinzessin Shams Aqdas Qajar wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Der [PER.GetAdjective] Schah und sein Gefolge waren ebenfalls anwesend, um seiner Tochter dabei zuzusehen, wie sie zur Königin Ägyptens aufsteigt. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Fatimah angenommen, nachdem sie zur Königin Ägyptens ernannt wurde - doch für uns wird sie immer Prinzessin Shams bleiben."
- egy.111.a: "Sie geben ein süßes Pärchen ab."
-
- egy.112.t: "Ein Erbe wurde geboren"
- egy.112.d.egyptian_bride: "Heute ist ein besonders erfreulicher Tag, denn Königin Farida hat einen kleinen Jungen zur Welt gebracht, dem man den Namen Muhammad Ali gab, zu Ehren des Gründers unserer königlichen Dynastie. In jeder Stadt Ägyptens finden Feiern statt, da die Menschen die Geburt des neuen Erbens gebührend zelebrieren."
- egy.112.d.arab_bride: "Heute ist ein besonders erfreulicher Tag, denn Königin Farah hat einen kleinen Jungen zur Welt gebracht, dem man den Namen Muhammad Ali gab, zu Ehren des Gründers unserer königlichen Dynastie. In jeder Stadt Ägyptens finden Feiern statt, da die Menschen die Geburt des neuen Erbens gebührend zelebrieren."
- egy.112.d.persian_bride: "Heute ist ein besonders erfreulicher Tag, denn Königin Fatimah hat einen kleinen Jungen zur Welt gebracht, dem man den Namen Muhammad Ali gab, zu Ehren des Gründers unserer königlichen Dynastie. In jeder Stadt Ägyptens finden Feiern statt, da die Menschen die Geburt des neuen Erbens gebührend zelebrieren."
- egy.112.a: "Die Nachfolge ist gesichert!"
-
- egy.113.t: "Die Krönung von Farouk"
- egy.113.d: "Heute wurde Farouk in einer majestätischen Zeremonie im königlichen Palast in Kairo zum König Ägyptens und des Sudans und zum Herrscher über Nubien, Kurdufan und Darfur gekrönt. Nach seiner Krönung hielt Farouk eine Rede im Radio, in der er sich direkt an das ägyptische Volk richtete und sagte: "Wenn es Gottes Wille ist, die Verantwortung eines Sultans schon in einem so jungen Alter auf meine Schultern zu legen, dann weiss ich meine Pflichten zu schätzen und bin auf all die Opfer vorbereitet, die ich für deren Erfüllung erbringen muss. Mein liebes Volk, ich bin stolz auf euch und eure Loyalität. Ich glaube so sehr an unsere Zukunft, wie ich an Gott glaube. Lasset uns zusammenarbeiten! Wir werden glücklich, erfolgreich und wohlhabend sein! Lang lebe unser Vaterland! Lang lebe Ägypten!""
- egy.113.a: "Lang lebe der König!"
-
- egy.114.t: "Königin wird zur Ehrenleiterin der Pfadfinderinnen"
- egy.114.d.egyptian_bride: "Da König Farouk die ägyptischen Pfadfinder unterstützt und selbst Vorsitzender der Organisation ist, hat sich auch Königin Farida dazu entschieden, eine aktivere Rolle bei den ägyptischen Pfadfinderinnen einzunehmen und die Organisation zu unterstützen, indem sie sich in örtlichen Gemeinschaften für sie engagiert. Diese Aktion unserer Königin, mit der sie die Pfadfinderinnen fördert, ist bei ägyptischen Familien, vor allem der Mittel- und Unterschicht, sehr beliebt."
- egy.114.d.arab_bride: "Da König Farouk die ägyptischen Pfadfinder unterstützt und selbst Vorsitzender der Organisation ist, hat sich auch Königin Farah dazu entschieden, eine aktivere Rolle bei den ägyptischen Pfadfinderinnen einzunehmen und die Organisation zu unterstützen, indem sie sich in örtlichen Gemeinschaften für sie engagiert. Diese Aktion unserer Königin, mit der sie die Pfadfinderinnen fördert, ist bei ägyptischen Familien, vor allem der Mittel- und Unterschicht, sehr beliebt."
- egy.114.d.persian_bride: "Da König Farouk die ägyptischen Pfadfinder unterstützt und selbst Vorsitzender der Organisation ist, hat sich auch Königin Fatimah dazu entschieden, eine aktivere Rolle bei den ägyptischen Pfadfinderinnen einzunehmen und die Organisation zu unterstützen, indem sie sich in örtlichen Gemeinschaften für sie engagiert. Diese Aktion unserer Königin, mit der sie die Pfadfinderinnen fördert, ist bei ägyptischen Familien, vor allem der Mittel- und Unterschicht, sehr beliebt."
- egy.114.a: "Eine große Hilfe für die Mädchen Ägyptens."
-
- egy.115.t: "Ägyptische Neugotik"
- egy.115.d.capital_cairo: "Heute hat König Farouk die Ehre, das neue Parlamentsgebäude in Kairo zu eröffnen. Dieses Gebäude ist das erste in ganz Ägypten, das im Stile der ägyptischen Neugotik errichtet wurde, der wiederum größtenteils von der antiken Architektur Ägyptens inspiriert wurde. Nun dient das Parlament von Kairo als Inspiration für viele Architekten und Konstukteure, die diesen neuen Baustil wohl bald in ganz Ägypten verbreiten werden."
- egy.115.d.capital_alexandria: "Heute hat König Farouk die Ehre, das neue Parlamentsgebäude in Kairo zu eröffnen. Dieses Gebäude ist das erste in ganz Ägypten, das im Stile der ägyptischen Neugotik errichtet wurde, der wiederum größtenteils von der antiken Architektur Ägyptens inspiriert wurde. Nun dient das Parlament von Alexandria als Inspiration für viele Architekten und Konstukteure, die diesen neuen Baustil wohl bald in ganz Ägypten verbreiten werden."
- egy.115.a: "Ein neuer Stil für Ägypten."
-
- egy.116.t: "Frühlingsblumenschau"
- egy.116.d: "Farouks Schwestern, Prinzessin Fawzia Fuad von Ägypten und Prinzessin Faika Fouad, haben dabei geholfen, eine Frühlingsblumenschau in Kairo zu eröffnen. Sie begann im Juni und hat sich sofort als sehr beliebt beim Volk von Kairo herausgestellt, da dieses dort die Gärten bewundern und die Schönheit der Natur genießen konnte. Nun hoffen viele darauf, dass auch nächstes Jahr eine solche Schau stattfinden wird."
- egy.116.a: "Eine neue Tradition wurde geboren."
-
- egy.117.t: "Eine königliche Hochzeit?"
- egy.117.d: "Die Ägypter haben uns einen Heiratsantrag zukommen lassen. Sie wünschen sich, dass Sultan Hamid Mirza Qajar Prinzessin Fawzia Fuad, die Schwester von König Farouk, heiratet. Eine königliche Hochzeit könnte dabei helfen, das Reich zu stabilisieren, zumal Fawzia dafür bekannt ist, vornehm und wunderschön zu sein. Es gibt allerdings eine Kontroverse: Da der Schah ein Schiit und Fawzia ein Sunnit ist, haben viele Konservative ihre Bedenken bezüglich dieser potenziellen Ehe ausgesprochen. Sollten wir den Antrag dennoch annehmen?"
- egy.117.a: "Wen interessieren schon die Reaktionäre, die beiden gehören zusammen!"
- egy.117.b: "Wir sollten auf die Konservativen hören."
-
- egy.118.t: "Eine königliche Hochzeit"
- egy.118.d: "Heute fand in [266.GetCapitalVictoryPointName] endlich die königliche Hochzeit statt, auf die schon so lange gewartet wurde. Die gesamte Stadt hat sich herausgeputzt, um das Pärchen zu ehren. Als Teil der Feier hat der Schah im Amjadiyeh-Stadion, das mit 25.000 Mitgliedern der [PER.GetAdjective]en Oberschicht befüllt war, eine Aufführung organisiert, die aus synchronisierter Akrobatik, Bastani ([PER.GetAdjective]e Kalisthenie), Fechten und Fußball bestand. Tausende Menschen jubelten, als Sultan Hamid Mirza Qajar und Princess Fawzia Fuad an ihnen auf dem Weg zum Marmornen Palast vorbeizogen, in dem sie vermählt wurden. Nun wurden die [PER.GetAdjective]en Kadscharen und die Alawiyyas Ägyptens endlich vereint!"
- egy.118.a: "Eine Hochzeit muss man einfach mögen."
-
- egy.119.t: "Der Schah brüskiert Fawzia!"
- egy.119.d: "Wir hatten eine Staatsehe zwischen den Kadscharen und unserer eigenen Dynastie geplant. Der [PER.GetAdjective]e Schah hat sich jedoch dazu entschieden, Prinzessin Fawzia zu brüskieren und die Ehe abzulehnen. Letztlich ist es jedoch ihr Verlust - wir werden schließlich einen besseren Mann finden."
- egy.119.a: "Wir werden einen passenderen Mann finden."
-
- egy.120.t: "Wahl des koptischen Papstes"
- egy.120.d: "Durch den Tod von Past Yohannes XIX von Alexandria muss die koptisch-orthodoxe Kirche Alexandrias nun einen neuen Papst auswählen. Es gibt derzeit drei potenzielle Kandidaten für dieses heilige Amt: Theophilus, Yusab und Macarius. Theophilus ist der Bischof Jerusalems und der Diözese Sharqiyyahs. Er ist ein eher konservativer Kandidat, jedoch auch energetisch und vergleichsweise reich. Er wird von der heiligen Synode der Bischöfe unterstützt, die sich erhofft, die Rolle des Patriarchen stärken zu können, um so die Majis obsolet zu machen. Yusab ist der derzeitige Patriarch und Bischof Girgas und führt eine Kampagne zur Förderung einer spirituellen Nahda (Renaissance). Macarius wiederum ist der Bischof von Asyut und setzt sich für weitreichende Reformen ein. Doch wer von ihnen wird zum nächsten Papst der koptisch-orthodoxen Kirche Alexandrias gewählt werden?"
- egy.120.a: "Und der neue Papst ist...?"
-
- egy.121.t: "Der neue koptische Papst"
- egy.121.d.theophilus: "Heute wurde, wie es sich laut den Traditionen der koptisch-orthodoxen Kirche gehört, Theophilus, der Bischof Jerusalems, zum neuen Papst gewählt und zu Theophilus III ordiniert. Durch ihn wurde die Macht der heiligen Synode der Bischöfe verstärkt und ihr Einfluss ausgeweitet."
- egy.121.d.yusab: "Heute wurde, wie es sich laut den Traditionen der koptisch-orthodoxen Kirche gehört, Yusab zu Joseph II ordiniert. Durch ihn wird bald eine spirituelle Nahda für alle gläubigen Koptiker Ägyptens beginnen."
- egy.121.d.macarius: "Heute wurde, wie es sich laut den Traditionen der koptisch-orthodoxen Kirche gehört, Macarius zu Macarius III ordiniert. Durch ihn werden bald viele Reformen der koptischen Kirche durchgesetzt werden."
- egy.121.a: "Möge seine Heiligkeit den Koptikern Ägyptens helfen."
-
- egy.122.t: "Koptische Erneuerung"
- egy.122.d: "Die Bemühungen des koptischen Papstes für eine spirituelle Erneuerung und die der ägyptischen Regierung, den Staat zu säkularisieren, haben eine Wiedergeburt des koptischen Glaubens verursacht. Die Anzahl der gläubigen Koptiker hat sich stark erhöht, wenngleich der Großteil unserer Nation noch immer aus Muslimen besteht. Die neuen Klöster der koptischen Kirche waren größtenteils einst anderen christlichen Konfessionen gedacht, vor allem der protestantischen. Außerdem werden in ganz Ägypten neue Kirchen gebaut."
- egy.122.a: "Interessant."
-
- egy.123.t: "Koptische Waisen"
- egy.123.d: "Heute hat der Papst der koptisch-orthodoxen Kirche die Gründung einer Organisation verkündet, die den Armen und im Bereich der Bildung helfen soll. Geführt wird sie von örtlichen Pfarrern und Priestern. Die Organisation wird vielen Menschen eine große Hilfe sein."
- egy.123.a: "Eine noble Organisation."
-
- egy.124.t: "Entdeckung der Nag Hammadi-Bibliothek"
- egy.124.d: "Im nördlichen Teil Ägyptens, nicht weit entfernt von Luxor, hat ein Bauer aus der Stadt Nag Hammadi eine Sammlung frühchristlicher und gnosischer Schriften gefunden. Nachdem diese an einen koptischen Priester übergeben wurden, haben sie in literarischen und religiösen Kreisen großes Aufsehen erregt."
- egy.124.a: "Ein großartiger Fund!"
-
- egy.125.t: "Die französische Gesandtschaft verlässt Ägypten"
- egy.125.d: "Die Neuigkeiten aus Kairo verbreiten sich anscheinend schneller als Farouks Zusicherungen. Die französische Gesandtschaft in der Innenstadt von Kairo hat damit begonnen, sich aus der ägyptischen Regierung zurückzuziehen. Der Minister für Archäologie und sogar der Bildungsminister haben die Stadt bereits verlassen. Durch ihren Rückzug sind nun auch die jahrzehntelangen Bemühungen, den Westen mit der Mythenwelt und Geschichte Ägyptens zu verlocken, gescheitert. Wir werden bald einen Weg finden müssen, die Franzosen zu ersetzen."
- egy.125.a: "Ein bedauerlicher Verlust."
-
- egy.126.t: "Die französischen Minister ersetzen"
- egy.126.d: "Aufgrund des vor Kurzem entstandenen politischen Vakuums bietet sich König Farouk nun die Möglichkeit, Positionen neu zu besetzen, an die er zuvor nicht heran kam. Das ägyptische Parlament hat vorgeschlagen, dass Mitglieder der Wafd-Partei die französischen Minister ersetzen sollten, was es diesen Kandidaten ermöglichen würde, die Reichweite ihrer säkularistischen und pro-westlichen Einstellung auszuweiten. Mehrere Mitglieder der Ittihad-Partei haben wiederum vorgeschlagen, die frei gewordenen Positionen in einem einzigen Propagandaministerium zu vereinen, um die Nation zu einigen und dabei zu helfen, unser Volk über den Ruhm Ägyptens und der Dynastie von Muhammad Ali zu informieren."
- egy.126.a: "Lasst die Wafd ihre Minister ernennen."
- egy.126.b: "Ein vereinter Propagandaminister."
-
- egy.127.t: "Deutscher Tourismus in Ägypten"
- egy.127.d: "Schon seit Jahrhunderten kommen Touristen nach Ägypten, um unsere vielen Sehenswürdigkeiten zu betrachten. Schon seit den Tagen des Roms faszinieren die antiken Ruinen unserer Nation die Menschen. Aufgrund der kürzlichen deutschen Investitionen in Ägypten kommen mehr und mehr Touristen aus Deutschland in unser Land. Das Unternehmen Graf Zeppelin bietet sogar Zeppelin-Touren über Ägypten an, die sich bei ausländischen Touristen großer Beliebtheit erfreuen. All diese Touristen haben unserer Wirtschaft zu einem kleineren Aufschwung verholfen."
- egy.127.a: "Ausländisches Geld für Ägypten!"
-
- egy.128.t: ""Liebe und Rache" kommt in die Kinos"
- egy.128.d: "Der Film "Liebe und Rache" wurde vor Kurzem veröffentlicht und hat ausgezeichnete Rezensionen erhalten. Die Handlung des musikalischen Dramas lautet folgendermaßen: Sohair, eine bekannter Sängerin, entscheidet sich, ihre Karriere zu beenden, um ihre große Liebe Wahid heiraten zu können. Eine Nacht vor der geplanten Hochzeit wird Wahid jedoch ermordet. Daraufhin findet Sohair heraus, dass der Komponist Gamal Hamdy etwas mit dem Mord zu tun haben könnte. Statt die Gerichte einzuschalten, entscheidet sie sich aufgrund fehlender Beweise jedoch dazu, vorzutäuschen, ihn zu lieben, um an die Wahrheit zu gelangen.\n\nEiner der Gründe für den Erfolg des Films war der unerwartete Tod der Schauspielerin und Sängerin Asmashan, die im jungen Alter von 26 Jahren in einem Autounfall umkam. Studio Misr, die Produzenten des Films, nutzten ihren Tod daraufhin aus, damit der Film eine größere Aufmerksamkeit erregt."
- egy.128.a: "Ein großartiger Film, doch der Tod der Schauspielerin ist tragisch."
-
- egy.129.t: "Al-Azeema kommt in die Kinos"
- egy.129.d: "Der Film Al-Azeema ("Der Wille" bzw. "Entschlossenheit") wurde heute veröffentlicht und hat ausgezeichnete Rezensionen erhalten. Er erzählt die Geschichte eines jungen und glücklichen Pärchens, Muhammad und Fatima. Aufgrund des Schwarzen Montags verliert Muhammad jedoch seinen Beruf und ihr Glück ein schnelles Ende. Der Film endet damit, dass Muhammad erneut eingestellt wird und das Pärchen trotz der Schwierigkeiten glücklich weiterleben kann. Der Regisseur Kamal Selim hat für seine realistische Darstellung der ägyptischen Slums und des durchschnittlichen Ägypters großes Lob erhalten. Der Film war sogar derartig realistisch, dass er Farouk dazu gebracht hat, mehr zu unternehmen, um den Armen unserer Nation zu helfen."
- egy.129.a: "Ein großartiger und bewegender Film."
-
- egy.130.t: "Umm Kulthum Begins singt für Radio Kairo"
- egy.130.d: "Heute hat die berühmte Sängerin Umm Kulthum damit begonnen, für Radio Kairo zu singen. Dadurch wurden die Bewertungen des Senders verbessert, da viele Menschen nun täglich einschalten, um ihrem Gesang zu lauschen. Selbst unser junger König genießt den Klang ihrer Stimme - es gibt sogar Gerüchte, Umm Kulthum würde der königlichen Familie Privataufführungen geben."
- egy.130.a: "Gute Musik."
-
- egy.131.t: "Umm Kulthum erhält den Nishan al-Kamal"
- egy.131.d: "König Farouk hat der berühmten Sängerin Umm Kulthum heute den Nishan al-Kamal (Orden der Tugenden) verliehen. Dieser Verdienstorden wird nur Frauen verliehen und ist eine Ehre, die meistens adligen Mitgliedern königlicher Familien vorbehalten wird. Kulthum ist durch diese Ehrung in ganz Ägypten noch beliebter geworden."
- egy.131.a: "Sie hat sich diese Ehre verdient."
-
- egy.132.t: "Ägyptisches Pokalfinale von [GetYear]"
- egy.132.d: "Heute beginnt das finale Spiel des ägyptischen Pokals von [GetYear], das zwischen den Al-Masry und den Al Ahly ausgetragen wird. Das Spiel findet in Alexandria statt. Das ganze Stadion ist mit Fans gefüllt, die ihren Lieblingsteams beim Spielen zusehen wollen. Uns kann es jedoch egal sein, wer gewinnt, da das Spiel unsere Bürger bereits von ihren Beschwerden abgelenkt und, aus irgendeinem Grund, ihr Vertrauen in die Regierung gestärkt hat."
- egy.132.a: "Wer wird das Finale gewinnen?"
-
- egy.133.t: "Die Al Ahly gewinnen den Pokal von [GetYear]!"
- egy.133.d: "Die Al Ahly haben den Pokal mit einem Punktestand von 2-3 gewonnen. In ganz Kairo wird der Sieg des städtischen Teams gefeiert."
- egy.133.a: "Meinen Glückwunsch, Rote Riesen!"
-
- egy.134.t: "Die Al-Masry gewinnen den Pokal von [GetYear]!"
- egy.134.d: "Die Al-Masry haben den Pokal mit einem Punktestand von 2-3 gewonnen. In ganz Port Said wird der Sieg des städtischen Teams gefeiert."
- egy.134.a: "Meinen Glückwunsch, Grüne Adler!"
-
- egy.135.t: "Der Niedergang des Crickets"
- egy.135.d: "Seit der Revolution von 1925 hat die Beliebheit von Cricket stetig abgenommen, weshalb viele Cricket-Clubs in ganz Ägypten zur Schließung gezwungen waren. Stattdessen ist die Beliebtheit von Fußball in Ägypten stark angestiegen."
- egy.135.a: "Fußball ist sowieso der bessere Sport."
-
- egy.136.t: "Das Ägyptische Geschichts- und Kulturfest"
- egy.136.d: "Heute wurden in ganz Ägypten die ägyptische Geschichte und die ägyptische Kultur gefeiert. Vor 5100 Jahren hat Pharaoh Narmer Ägypten vereint und die erste unserer Dynastien gegründet, wodurch die Geschichte unserer Nation begann. Deshalb wird heute sowohl in kleinen Dörfern als auch in großen Städten die lange Geschichte Ägyptens gefeiert. Dabei hat auch geholfen, dass König Farouk die Verteilung von Almosen organisiert hat und vielen Menschen Geld geschenkt hat, um seine Großzügigkeit zu demonstrieren. Viele islamistische Intellektuelle haben diesen Feiertag als unheilig bezeichnet, doch ihre Missbilligung hindert die Menschen nicht daran, die Festlichkeiten zu genießen."
- egy.136.a: "Auf weitere 5100 Jahre!"
-
- egy.137.t: "Allgemeine Wahlen von [GetYear]"
- egy.137.d: "Heute ist es erneut an der Zeit, den ägyptischen Premierminister zu wählen. Doch für wen wird sich das Volk entscheiden? Eine der liberalen oder eine der konservativen Parteien?"
- egy.137.a: "Die Liberal-Konstitutionelle Partei."
- egy.137.b: "Die Wafd-Partei."
- egy.137.c: "Die Watani-Partei."
- egy.137.e: "Die Ittihad-Partei."
-
- egy.138.t: "Allgemeine Wahlen von [GetYear]"
- egy.138.d: "Heute ist es erneut an der Zeit, den ägyptischen Premierminister zu wählen. Obwohl die Liberalen und Konservativen wie immer recht stark sind, könnte es den Sozialdemokraten unter Nasser eventuell gelingen, die Position der traditionellen Parteien einzunehmen."
- egy.138.a: "Die §lLiberal-Konstitutionelle§! Partei."
- egy.138.b: "Die Wafd-Partei."
- egy.138.c: "Die Watani-Partei."
- egy.138.e: "Die Ittihad-Partei."
- egy.138.f: "Die Sozialdemokratische Partei."
-
- egy.139.t: "Die Sozialdemokratische Partei"
- egy.139.d: "Die Hizb al-Masri al-Dimuqrati al-Ijtma'i (die ägyptische sozialdemokratische Partei) hatte es in den letzten Jahren nicht besonders leicht. Dies scheint sich nun allerdings zu ändern, da die Sozialdemokraten sich dazu entschieden haben, einen Großteil ihrer wichtigsten Positionen mit jüngeren Parteimitgliedern zu besetzen. Besonders interessant ist der junge und charismatische Gamel Abdel Nasser, der zum neuen Parteivorsitzenden gewählt wurde."
- egy.139.a: "Mal sehen, wie sich das entwickelt."
-
- egy.140.t: "Der Sufitische Orden Jaririya wurde gegründet"
- egy.140.d: "Auf der Sinai-Halbinsel hat Scheich Eid Abu Jarir vor Kurzem einen neuen sufitischen Orden namens "Jaririya" gegründet. Schon jetzt sind viele Bewohner der Halbinsel dem Orden beigetreten und auch viele Moscheen haben sich dazu entschieden, sich dem Orden anzuschließen."
- egy.140.a: "Interessant."
-
- egy.141.t: "Die Ahmadiyya anerkennen?"
- egy.141.d: "Die Ahmadiyya Ägyptens haben einen Antrag eingereicht, in dem sie verlangen, dass ihr Glaube offiziell anerkannt wird. Grund hierfür ist wahrscheinlich, dass sie sich erhoffen, so in der Zukunft vor religiöser Verfolgung geschützt zu sein. Viele Muslime, vor allem die Konservativen, verachten diese Religionsgemeinschaft jedoch. Selbst ein Fatwa der Al-Azhar-Universität hat sich bereits gegen die Ahmadiyya ausgesprochen. Wie sollten wir auf ihren Antrag reagieren?"
- egy.141.a: "Wir respektieren ihre Religionsfreiheit."
- egy.141.b: "Sie sind Abtrünnige!"
-
- egy.142.t: "Anstieg der Konstruktion von Kinos"
- egy.142.d: "Aufgrund der Unterstützung der Regierung für die aufstrebende Filmwirtschaft unserer Nation sind in vielen der größeren Städte Ägyptens neue Kinos entstanden. Diese wurden größtenteils im Stile der Ägyptischen Neugotik oder im Stile Art déco konstruiert."
- egy.142.a: "Jeder mag einen guten Film."
-
- egy.143.t: "Ash-Shams gegründet"
- egy.143.d: "Heute hat der jüdische Journalist Saad Malki die Zeitung Ash-Shams gegründet, um die Idee des ägyptischen Nationalismus zu unterstützen. Bisher hat die Zeitung vor allem aufgrund ihrer Forderung, dass Ägypten die Kontrolle über Jerusalem und das heilige Land der Juden übernehmen sollte, Aufmerksamkeit erregt."
- egy.143.a: "Interessant."
-
- egy.144.t: "Joseph de Picciotto Bey ist verstorben"
- egy.144.d: "Heute ist Joseph de Picciotto Bey verstorben. Er war ein bekannter jüdischer Wirtschaftsminister, eine Position, die er kurz nach der Revolution von 1925 übernahm. Er spielte eine große Rolle bei der Stabilisierung der ägyptischen Wirtschaft, nachdem unsere Nation ihre Unabhängigkeit erhielt."
- egy.144.a: "Wir werden ihn vermissen."
-
- egy.145.t: "Der Tod von Howard Carter"
- egy.145.d: "1925 erholte sich die Welt noch immer vom Ersten Weltkrieg. Während Soziologen wie T.E. Lawrence die Geschichte mit Schwertern änderten, tat Howard Carter dasselbe mit Besen. Seine Entdeckung der Grabstätte des jungen Königs Tutankhamun im Tal der Könige faszinierte Archäologen aller Welt und hatte auch einen Einfluss auf die Popkultur. Da die britischen Festungen zu jener Zeit jedoch brannten, konnten die archäologischen Funde Ägypten nicht sicher verlassen. Howard Carter wurde heute tot in seinem Apartment in Luxor aufgefunden - der letzte in einer Reihe von Toden, die mit Tutankhamuns Grabstätte in Verbindung stehen. Doch die Frage bleibt: Waren das alles Zufälle? Oder hat der junge König seine Rache ausgeübt?"
- egy.145.a: "Das sind doch nur Geschichten...oder?"
-
- egy.146.t: "Jubiläum des Urabi-Aufstandes"
- egy.146.d: "Seit 1926 hat sich die Tradition einer jährlichen Parade durch Alexandria und Kafr El Dawwar zur Feier Ahmed 'Urabis verbreitet. Nun gibt es in jeder großen Stadt eine Parade zur Feier des Widerstands gegen den britischen Imperialismus. 'Urabi selbst konnte die Unabhängigkeit Ägyptens leider nicht mehr miterleben, doch sein Widerstand gegen die Tyrannei inspiriert auch heute noch Millionen."
- egy.146.a: "Ägypten feiert seine Unabhängigkeit."
-
- egy.147.t: "Lotfia Elnadi fliegt durch Ägypten"
- egy.147.d: "Heute hat die junge Pilotin Lotfia Elnadi für Aufmerksamkeit gesorgt, nachdem sie einen Flugwettbewerb gewann, in dem mehrere Piloten zwischen Alexandria und Kairo und über einige Pyramiden fliegen mussten. Ihr Sieg wird in ganz Ägypten als Sieg der Frauen gefeiert. Die berühmte Feministin Huda Sha'arawi sammelt nun Geld, um Elnadi ihr eigenes Flugzeug zu kaufen, damit sie nicht mehr von EgyptAir abhängig ist. Viele Frauen wurden durch Elnadi inspiriert und versuchen sich nun ebenfalls in der Kunst des Fliegens."
- egy.147.a: "Wir leben in einem neuen Zeitalter."
-
- egy.148.t: "Neue Synagogen"
- egy.148.d: "Vor Kurzem wurden in vielen der größeren Städte Ägyptens, vor allem in Kairo und Alexandria, neue Synagogen eröffnet. Außerdem wurden viele alte Synagogen restauriert. Diese Projekte zeigen die Vitalität der antiken Minderheit unseres Sultanats."
- egy.148.a: "Die jüdische Bevölkerung Ägyptens ist so lebhaft wie immer."
-
- egy.149.t: "Gesellschaft der muslimischen jungen Männer"
- egy.149.d: "Vor Kurzem wurde die Gesellschaft der muslimischen jungen Männer gegründet. Die G.M.J.M. ist dem Christlichen Verein Junger Menschen recht ähnlich und hilft dabei, Freizeitaktivitäten zu organisieren, darunter sportliche Aktivitäten wie Fußball und religiöse Studien des Korans. Außerdem hat die Organisation durch ihre Bemühungen, die Bildung in Ägypten zu verbessern, Aufmerksamkeit erregt."
- egy.149.a: "In der G.M.J.M. ist es immer lustig!"
-
- egy.150.t: "Die Farouk-Universität"
- egy.150.d: "In Alexandria wurde eine neue Universität eröffnet, welche unseren König ehren soll und deshalb seinen Namen trägt. Bei der Eröffnungszeremonie dieser neuen und modernen Universität war sogar der König selbst anwesend. Der bekannte Intellektuelle Taha Hussein wurde zum ersten Rektor der Universität ernannt."
- egy.150.a: "Eine neue Universität für ein neues Ägypten."
-
- egy.160.t: "Dem Kairo-Pakt beitreten?"
- egy.160.d.MOR: "Die Ägypter haben uns eine Mitgliedschaft im Kairo-Pakt angeboten. Während einige der Meinung sind, wir könnten dadurch unsere Position stärken, glauben andere, dieses Angebot sei lediglich ein Trick, um uns zu einem Untertan Ägyptens und seiner Ambitionen zu machen."
- egy.160.d.SOM: "Die Ägypter haben uns eine Mitgliedschaft im Kairo-Pakt angeboten, da auch sie einige Probleme mit den Äthiopiern haben. Während einige der Meinung sind, wir könnten dadurch unsere Position stärken, glauben andere, dieses Angebot sei lediglich ein Trick, um uns zu einem Untertan Ägyptens und seiner Ambitionen zu machen."
- egy.160.d.generic: "Die Ägypter haben uns eine Mitgliedschaft im Kairo-Pakt angeboten. Sie behaupten, ihr Bündnis wäre für alle muslimischen Staaten Afrikas von Vorteil, wenngleich einige Mitglieder unserer Regierung aufgrund der kürzlichen ägyptischen Aggression gegen die Osmanen und Libyen der Meinung sind, diese Behauptung sei eine reine Lüge. Sollten wir dem Pakt dennoch beitreten?"
- egy.160.a: "Wir werden uns den Ägyptern anschließen."
- egy.160.b: "Wir brauchen die Ägypter nicht."
-
- egy.161.t: "[From.GetNameDefCap] tritt dem Kairo-Pakt bei"
- egy.161.d.SOM: "[From.GetNameDefCap] hat sich dazu entschlossen, unser Angebot anzunehmen und dem Kairo-Pakt beizutreten. Dies sind großartige Neuigkeiten, die uns unserem Sieg über Äthiopien einen Schritt näher bringen."
- egy.161.d.generic: "[From.GetNameDefCap] hat sich dazu entschlossen, unser Angebot anzunehmen und dem Kairo-Pakt beizutreten."
- egy.161.a: "Großartig!"
-
- egy.162.t: "[From.GetNameDefCap] weigert sich, beizutreten"
- egy.162.d.SOM: "[From.GetNameDefCap] hat sich dazu entschlossen, unser Angebot abzulehnen und dem Kairo-Pakt nicht beizutreten. Nun müssen wir die Äthiopier wohl ohne sie besiegen."
- egy.162.d.generic: "[From.GetNameDefCap] hat sich dazu entschlossen, unser Angebot abzulehnen und dem Kairo-Pakt nicht beizutreten."
- egy.162.a: "Verdammt..."
-
- egy.182.t: "Ägypten lädt uns in die Arabische Liga ein"
- egy.182.d: "Die im Schatten des Kairo-Paktes gegründete Arabische Liga soll als Bestätigung der panarabischen Einigkeit dienen und hat das Ziel, die Beziehungen zwischen den arabischen Nationen zu verbessern, ihre Institutionen zu modernisieren und eine gemeinsame Außenpolitik gegen den imperialistischen Westen durchzusetzen.\n\nNeben diesen scheinbar ehrbaren Intentionen sehen viele in dieser Organisation jedoch einen Weg für die Ägypter, sich in unsere Innenpolitik einzumischen. Auch ihre Funktion als militärisches Bündnis zum Schutze der arabischen Welt betrachten einige als Werkzeug, mit dem die Kriegstreiber Ägyptens ihre eigenen imperialistischen Ziele in Afrika und dem Nahen Osten verfolgen wollen."
- egy.182.a: "Wir treten gerne bei!"
- egy.182.b: "Wir können den Ägyptern nicht trauen."
-
- egy.183.t: "[FROM.GetNameDefCap] akzeptiert unser Angebot"
- egy.183.d: "Unsere Freunde in [FROM.GetName] haben unser Angebot akzeptiert und ihren vollständigen Beitritt in die Arabische Liga organisiert. Wie unsere Anzahl wächst auch der Wohlstand der Levante mit jedem neuen Beitritt!"
- egy.183.a: "Willkommen!"
-
- egy.184.t: "[FROM.GetNameDefCap] lehnt unser Angebot ab"
- egy.184.d: "Die abscheulichen Hunde in [FROM.GetName] haben entschieden, dass ihnen ihre Wasserpfeifen und imperialistischen Schuhhändler mehr wert sind als die Einigkeit des arabischen Volkes. Wir werden ihre Meinung wohl kaum ändern können, doch einige Politiker unserer Nation haben sich dennoch gegen diesen widerlichen Verrat ausgesprochen."
- egy.184.a: "Möge Allah über sie richten!"
+ egypt_events.2.t: "Der Tod von  König Fuad I"
+ egypt_events.2.d: "Tragische Neuigkeiten haben Ägypten erschüttert -  König Fuad ist gestorben! Während die Nation trauert, besteigt nun der 16-jährige Farouk den Thron. Dieser wurde zwar ausreichend auf seine neuen Pflichten vorbereitet, doch noch ist sich niemand einig, wie genau er regieren wird."
+ egypt_events.2.a: "Der  König ist tot! Lang lebe der  König!"
+
+ egypt_events.3.t: "Der Schwarze Montag trifft Ägypten"
+ egypt_events.3.d: "Heute hat die Wirtschaftskrise, die das Deutsche Reich fest in ihrem Griff hält, ihre Ranken auch um unseren Nacken geschlagen. Seit unserem Austritt aus der britischen Sphäre kommt ein Großteil des ausländischen Kapitals innerhalb unserer Nation von Deutschland und anderen Mitgliedern seiner Wirtschaftssphäre. Da die Situation dieser ausländischen Investoren nun jedoch immer unklarer wird, beginnt unsere Exportwirtschaft unter dem Druck zusammenzubrechen. Der landwirtschaftliche Sektor, vor allem die Baumwollproduktion, wurde besonders hart getroffen. Die Menschen flehen ihre Repräsentanten im Reichstag und den König an, irgendetwas zu unternehmen, um die Krise zu stoppen."
+ egypt_events.3.a: "Möge Gott uns retten."
+
+ egypt_events.4.t: "Farouks große Reformen"
+ egypt_events.4.d: "Heute hat der junge König seine Ambitionen verkündet, Ägypten in eine moderne Nation zu verwandeln. Eine Reihe von Reformen soll nahezu alle Aspekte des ägyptischen Lebens, der ägyptischen Regierung und der ägyptischen Gesellschaft beeinflussen. Schon jetzt sind mehrere Minister und Höflinge darum bemüht, ihren jungen Herrscher zu beeinflussen oder gar zu manipulieren, um einen Vorteil aus dieser Situation schlagen zu können."
+ egypt_events.4.a: "Ägypten wird in das moderne Zeitalter katapultiert werden!"
+
+ egypt_events.5.t: "Allgemeine Wahlen von [GetYear]"
+ egypt_events.5.d: "Heute steht endlich die lang erwartete Wahl des Premierministers von Ägypten an. Die diesjährige Wahl ist besonders spannend, da sie so kurz nach der Krönung von Farouk zum König stattfindet. Die vier wichtigsten Parteien haben bereits ihre Kandidaten auserkoren - doch wen wird das Volk zum neuen Premierminister wählen?"
+ egypt_events.5.a: "Die Liberal-Konstitutionelle Partei."
+ egypt_events.5.b: "Die Wafd-Partei."
+ egypt_events.5.c: "Die Watani-Partei."
+ egypt_events.5.e: "Die Ittihad-Partei."
+
+ egypt_events.6.t: "Allgemeine Wahlen von [GetYear]"
+ egypt_events.6.d: "Heute ist es erneut an der Zeit, den ägyptischen Premierminister zu wählen. Doch für wen wird sich das Volk entscheiden? Eine der liberalen oder eine der konservativen Parteien?"
+ egypt_events.6.a: "Die Liberal-Konstitutionelle§! Partei."
+ egypt_events.6.b: "Die Wafd-Partei."
+ egypt_events.6.c: "Die Watani-Partei."
+ egypt_events.6.e: "Die Ittihad-Partei."
+
+ egypt_events.7.t: "Reform des Gouverneursamtes"
+ egypt_events.7.d: "Aufgrund von Farouks Reformen steht nun auch die Frage der Gouverneure im Raum. Die Liberalen sind der Meinung, dass die Gouverneure gewählt werden sollten, während die Konservativen glauben, dass Gouverneure aus dem Adel stammen sollten. Es wurde jedoch auch eine dritte Möglichkeit vorgeschlagen: Der König selbst sollte die Gouverneure auf Basis eines meritokratischen Systems ernennen."
+ egypt_events.7.a: "Gewählte Gouverneure."
+ egypt_events.7.b: "Adlige Gouverneure."
+ egypt_events.7.c: "Ernannte Gouverneure."
+
+ egypt_events.8.t: "Richterliche Reform"
+ egypt_events.8.d: "Aufgrund von Farouks Reformen steht nun auch die Frage des Gerichtswesens im Raum. Die Liberalen glauben, dass die Judikative unabhängig sein sollte, um sicherzustellen, dass die Gesetze ordnungsgemäß durchgesetzt werden. Die Konservativen sind jedoch der Meinung, dass die Regierung die Gerichte kontrollieren sollte."
+ egypt_events.8.a: "Richterliche Unabhängigkeit."
+ egypt_events.8.b: "Kontrolle der Regierung."
+
+ egypt_events.9.t: "Reform der Bürokratie"
+ egypt_events.9.d: "Aufgrund von Farouks Reformen steht nun auch die Frage der Bürokratie im Raum. Die Liberalen setzen sich für einen modernen öffentlichen Dienst auf meritokratischer Basis ein, während die Konservativen der Meinung sind, vor allem Adlige sollten vom Sultan zu Beamten ernannt werden."
+ egypt_events.9.a: "Öffentlicher Dienst."
+ egypt_events.9.b: "Ernannte Minister."
+
+ egypt_events.10.t: "Landreform"
+ egypt_events.10.d: "Aufgrund von Farouks Reformen steht nun auch die Frage einer Landreform im Raum. Das derzeitige Problem ist, dass ca. 6% der ägyptischen Bevölkerung über 65% des Landes unserer Nation besitzen und weniger als 0.5% der Ägypter mehr als ein Drittel des fruchtbaren Landes gehört. Die Liberalen möchten gegen diese Zustände vorgehen, indem sie das Land an das Volk umverteilen und es dem Adel abkaufen. Die Konservativen widert dieser Gedanke jedoch an, da sie glauben, eine derartige Aktion würde Ägyptens landwirtschaftliche Produktion behindern. Statt auf eine dieser beiden Seiten zu hören, könnte der König das Land jedoch auch nationalisieren und zu seinem persönlichen Besitz machen - zumindest auf dem Papier. Schon jetzt ist der König der größte Grundbesitzer Ägyptens, weshalb es nicht unmöglich wäre, diese Idee in die Tat umzusetzen."
+ egypt_events.10.a: "Verteilt das Land um."
+ egypt_events.10.b: "Formalisiert den Status Quo."
+ egypt_events.10.c: "Das gesamte Land soll dem König gehören!"
+
+ egypt_events.11.t: "Rechtsreform"
+ egypt_events.11.d: "Aufgrund von Farouks Reformen steht nun auch die Frage des ägyptischen Rechtssystems im Raum. Derzeit ist unser Rechtssystem ein heilloses Durcheinander, das aus den britischen, osmanischen, französischen und ägyptischen Gesetzesbüchern zusammengewürfelt wurde, weshalb es sich an einigen Stellen selbst widerspricht. Dies darf im neuen und modernen Ägypten nicht länger so weitergehen - unser Rechtssystem muss reformiert werden. Doch worauf unser reformiertes Gesetzbuch basieren soll, wurde noch nicht entschieden. Die Liberalen sind der Meinung, das britische System sei das beste, während die Konservativen das französische verteidigen. Einige greifen jedoch auch die Ideen auf, die Muhammad Ali in das ägyptische Recht einbrachte."
+ egypt_events.11.a: "Das britische Rechtssystem."
+ egypt_events.11.b: "Das französische Rechtssystem."
+ egypt_events.11.c: "Muhammad Alis Rechtssystem."
+
+ egypt_events.12.t: "Reform des Reichstages"
+ egypt_events.12.d: "Aufgrund von Farouks Reformen steht nun auch die Frage im Raum, ob der ägyptische Reichstag reformiert werden sollte. Die Liberalen sind der Meinung, die Macht der Monarchie sollte zugunsten des Reichstages eingeschränkt werden. Die Konservativen wiederum glauben, dass der derzeitige Status Quo die perfekte Balance zwischen dem Liberalismus und dem Absolutismus bildet. Die letzte Option wäre es, die Monarchie zu stärken und dafür die Macht des Reichstages einzuschränken."
+ egypt_events.12.a: "Stärkt den Reichstag."
+ egypt_events.12.b: "Haltet den Status Quo aufrecht."
+ egypt_events.12.c: "Stärkt die Monarchie."
+
+ egypt_events.13.t: "Religiöse Reformen"
+ egypt_events.13.d: "Aufgrund von Farouks Reformen steht nun auch die Frage der ägyptischen Staatsreligion im Raum. Die Liberalen wünschen sich, dass sich unsere Regierung auf den Säkularismus fokussiert, während die Konservativen der Meinung sind, der Islam sei die wahre Staatsreligion, wobei allerdings auch andere Glaubensrichtungen wie das Juden- und Christentum geschützt werden sollten."
+ egypt_events.13.a: "Ägypten ist eine säkularistische Nation."
+ egypt_events.13.b: "Ägypten ist eine islamische Nation."
+
+ egypt_events.14.t: "Bildungsreform"
+ egypt_events.14.d: "Aufgrund von Farouks Reformen steht nun auch die Frage der Bildung im Raum. Konkret die Frage, was genau in den Schulen unterrichtet werden sollte. Hierbei kam es zu Konflikten zwischen den Pharaonisten, die der Meinung sind, Ägyptens Identität basiert auf dem Mittelmeer und der vorislamischen Zeit, und den Islamisten, die glauben, die Wurzeln der ägyptischen Identität liegen im Islam und den antiken Dynastien der Fatimiden, Ayyubiden und Mameluken."
+ egypt_events.14.a: "Pharaonistische Identität."
+ egypt_events.14.b: "Islamische Identität."
+
+ egypt_events.15.t: "Steuerreform"
+ egypt_events.15.d: "Aufgrund von Farouks Reformen steht nun auch die Frage der Besteuerung im Raum, wobei sich uns mehrere Optionen bieten: Wir könnten auf unsere Bürger hören und eine Grundsteuer einführen, die vor allem die reichen Grundbesitzer treffen würde, unseren westlichen Beratern Gehör schenken und das progressive Steuersystem Europas übernehmen oder den Wünschen des Adels Folge leisten und eine Pauschalsteuer einführen."
+ egypt_events.15.a: "Grundsteuer."
+ egypt_events.15.b: "Pauschalsteuer."
+ egypt_events.15.c: "Progressive Besteuerung."
+
+ egypt_events.16.t: "Alphabetisierungsprogramm"
+ egypt_events.16.d: "Aufgrund von Farouks Reformen steht nun auch die Frage der Alphabetisierung im Raum. Nahezu 80% der Bevölkerung Ägyptens, vor allem in den ländlicheren Gebieten, sind Analphabeten. Deshalb sollten wir uns darum bemühen, unsere Bevölkerung zu bilden. Es bleibt jedoch die Frage, ob unser Fokus auf dem ägyptisch-arabischen oder der Wiederbelebung der koptischen Sprache liegen sollte."
+ egypt_events.16.a: "Der Fokus sollte auf dem ägyptisch-arabischen liegen."
+ egypt_events.16.b: "Der Fokus sollte auf der Wiederbelebung der koptischen Sprache liegen."
+
+ egypt_events.17.t: "Das Neue Ägypten"
+ egypt_events.17.d: "Nun, da die Reformen endlich abgeschlossen wurden, beginnt in Ägypten eine neue und moderne Ära. Es wurden zwar noch nicht alle Probleme unserer Nation gelöst, aber dennoch haben die Reformen dabei geholfen, Ägypten auf den Weg in eine strahlende Zukunft zu bringen."
+ egypt_events.17.a: "Lang lebe der König! Lang lebe Ägypten!"
+
+ egypt_events.18.t: "Ein Liberales Neues Ägypten"
+ egypt_events.18.d: "Die neuen Reformen haben die liberalen Träume, die während der Revolution von 1925 entstanden, endlich zur Wirklichkeit werden lassen. Sie haben aus Ägypten eine liberale konstitutionelle Monarchie geformt, in der der König nur noch eine zeremonielle Rolle innehat."
+ egypt_events.18.a: "Lang lebe der König! Lang lebe Ägypten!"
+
+ egypt_events.19.t: "Ein Konservatives Neues Ägypten"
+ egypt_events.19.d: "Die neuen Reformen haben nicht sonderlich viel an der Verfassung von 1925 geändert, die Position der Regierung allerdings dennoch gestärkt. Nun befinden sich die Macht der Regierung und die Macht der Monarchie in einer ausgeglichenen Balance."
+ egypt_events.19.a: "Lang lebe der König! Lang lebe Ägypten!"
+
+ egypt_events.20.t: "Ein Absolutistisches Neues Ägypten"
+ egypt_events.20.d: "Überraschenderweise hat Farouk I seine Minister und Höflinge überlistet und die Macht der ägyptischen Monarchie gestärkt. Zwar sind die Liberalen aufgrund ihres Verlusts von Freiheiten erzürnt, doch die Macht und der Ruhm der Königsfamilie waren noch nie größer und in ganz Ägypten feiern die Menschen unseren großen König."
+ egypt_events.20.a: "Lang lebe der König! Lang lebe Ägypten!"
+
+ egypt_events.23.t: "Deutsche Investitionen in Ägypten"
+ egypt_events.23.d: "Aufgrund unseres laufenden Modernisierungsprogramms haben sich einige deutsche Unternehmen dazu entschlossen, sich auch in Ägypten zu etablieren. Es haben sogar einige militärische Unternehmen wie Mauser eine Vereinbarung mit unserer Regierung unterschrieben und sich dazu bereit erklärt, uns bei der Produktion von Ausrüstung für unsere Streitkräfte zu unterstützen."
+ egypt_events.23.a: "Wir beide werden profitieren."
+
+ egypt_events.24.t: "Investitionen in Ägypten"
+ egypt_events.24.d: "Einige Unternehmen haben sich dazu entschlossen, in Ägypten zu investieren, da dort ein Programm zur Modernisierung der Nation in vollem Gange ist. Deshalb erzielen diese Unternehmen nun etwas bessere Gewinne, die sie zurück nach Deutschland bringen."
+ egypt_events.24.a: "Wir beide werden profitieren."
+
+ egypt_events.25.t: "Deutsche Investoren ziehen sich aus Ägypten zurück"
+ egypt_events.25.d: "Da sich Ägypten und das Deutsche Kaiserreich nun im Krieg befinden, haben sich die deutschen Unternehmen dazu entschlossen, sich aus Ägypten zurückzuziehen."
+ egypt_events.25.a: "Dumme Deutsche."
+
+ egypt_events.26.t: "Deutsche Investoren ziehen sich aus Ägypten zurück"
+ egypt_events.26.d: "Da sich Ägypten und das Deutsche Kaiserreich nun im Krieg befinden, haben sich die deutschen Unternehmen dazu entschlossen, sich aus Ägypten zurückzuziehen."
+ egypt_events.26.a: "Idiotische Ägypter."
+
+ egypt_events.27.t: "Neue Offiziere für Ägypten"
+ egypt_events.27.d: "Nun, da die ägyptische Heeresreform abgeschlossen ist, haben jüngere Offiziere damit begonnen, die Rangleiter emporzusteigen. Drei von ihnen haben die Aufmersamkeit des Königs erregt: Gamel Abdel Nasser, Hussein el-Shafei und Abdel Hakim Amer. Diese Männer repräsentieren die nächste Generation ägyptischer Generäle."
+ egypt_events.27.a: "Mal sehen, wozu diese Offiziere fähig sind."
+
+ egypt_events.28.t: "Das Institut für Koptische Studien"
+ egypt_events.28.d: "Aufgrund unserer Entscheidung, die koptische Sprache zu fördern, um das Problem der hohen Analphabetenrate zu lösen, wurde in Alexandria vor Kurzem das Insitut für Koptische Studien eröffnet, in welchem die koptische Sprache erforscht und gefördert wird. Ein solches Institut ist eine große Hilfe bei unseren Bemühungen, die koptische Sprache wiederaufleben zu lassen."
+ egypt_events.28.a: "Großartig."
+
+ egypt_events.29.t: "Frauenwahlrecht?"
+ egypt_events.29.d: "Seit der ägyptischen Revolution von 1925 existiert eine wachsende feministische Bewegung innerhalb unseres Reiches. Diese wurde von Organisationen wie der Ägyptischen Feministenunion und vielen Frauen der Mittel- und Oberschicht unterstützt. Aufgrund der andauernden Reformen haben viele Mitglieder der Ägyptischen Feministenunion damit begonnen, sich für die Einführung des Frauenwahlrechts auszusprechen. Die Konservativen sind natürlich gegen diese Bewegung, aus Angst, sie könnte die traditionellen Familien zerstören."
+ egypt_events.29.a: "Unterstützt die Bewegung."
+ egypt_events.29.b: "Es wird kein Frauenwahlrecht geben!"
+
+ egypt_events.63.t: "Die Aufteilung Äthiopiens"
+ egypt_events.63.d: "Im Äthiopischen Kaiserreich leben Menschen vieler verschiedener Kulturen, von denen nicht alle froh darüber sind, Teil des Reiches zu sein. Die Somalier, Omoro und Tigray sind die größten dieser Gruppen, doch es gibt noch viele weitere. Wir könnten Äthiopien vielleicht schwächen, indem wir die verschiedenen Kulturen gegeneinander ausspielen und die Nation so von innen heraus aufteilen."
+ egypt_events.63.a: "Sollen sie sich doch untereinander streiten."
+
+ egypt_events.64.t: "Spannungen im Reich"
+ egypt_events.64.d: "Wie es scheint, spitzen sich die Spannungen in den Teilen Äthiopiens, die von den Somaliern und Tigray kontrolliert werden, weiter zu. Aufgrund der ebenfalls bestehenden Spannungen mit Ägypten und Somalia sollten wir die Situation im Auge behalten - sonst könnte es zu einer Revolte kommen."
+ egypt_events.64.a: "Wir sollten die Situation im Auge behalten."
+
+ egypt_events.65.t: "Der ägyptische Plan schlägt fehl!"
+ egypt_events.65.d: "Die Ägypter haben versucht, unsere Bevölkerung dazu zu bewegen, sich gegen unseren Kaiser zu stellen. Heute haben jedoch viele von ihnen dem Haile Selassie die Treue geschworen und versprochen, für Äthiopien zu kämpfen, sollte es zu einem Krieg mit den Ägyptern kommen."
+ egypt_events.65.a: "Ganz Äthiopien ist dem Negus Negast treu ergeben."
+
+ egypt_events.71.t: "Sudanesische Stämme unterstützen uns"
+ egypt_events.71.d: "Nun, da ein Krieg zwischen uns und den Ägyptern ausgebrochen ist, haben sich einige der Stämme des Südsudans dazu entschlossen, unserem Ruf zu den Waffen Folge zu leisten. Es sind zwar nur Milizen, doch sie sind uns gegenüber loyal und bereit, sich den Ägyptern entgegenzustellen."
+ egypt_events.71.a: "Großartig!"
+
+ egypt_events.72.t: "Äthiopische Stämme unterstützen uns"
+ egypt_events.72.d: "Nun, da ein Krieg zwischen uns und den Äthiopiern ausgebrochen ist, haben sich einige der äthiopischen Stämme dazu entschlossen, unserem Ruf zu den Waffen gegen die Äthiopier Folge zu leisten. Obwohl sie uns gegenüber nicht gerade loyal sind, können sie die Äthiopier nicht ausstehen und sind bereit, gegen sie zu kämpfen."
+ egypt_events.72.a: "Großartig!"
+
+ egypt_events.73.t: "Stammesmilizen erheben sich gegen uns"
+ egypt_events.73.d: "Mehrere südsudanesische Stämme haben zu den Waffen gegriffen und sich dem Kampf der Äthiopier gegen uns angeschlossen."
+ egypt_events.73.a: "Sie werden für ihren Verrat bezahlen!"
+
+ egypt_events.74.t: "Stammesmilizen erheben sich gegen uns"
+ egypt_events.74.d: "Mehrere Stämme der Küste Eritreas haben zu den Waffen gegriffen und sich dem Kampf der Ägypter gegen uns angeschlossen."
+ egypt_events.74.a: "Sie werden für ihren Verrat bezahlen!"
+
+ egypt_events.75.t: "Abd al-Rahman al-Mahdi Rede"
+ egypt_events.75.d: "Der Sudanese Abd al-Rahman al-Mahdi hat in Khartum vor tausenden Menschen eine Rede darüber gehalten, dass der Sudan stark und mächtig werden muss. In seiner Rede erwähnte er oft seinen Vater Muhammad Ahmad, der den Mahdi-Aufstand begann, und betonte vor allem seine Rolle als Mahdi. Noch hat er zwar nicht die Unabhängigkeit des Sudans als notwendig erklärt, doch viele unterstützen seine Forderung eines starken Sudans. Einige unserer Höflinge befürchten, dass es sich nur um eine Frage der Zeit handle, bis er versucht, die sudanesische Unabhängigkeit zu erklären."
+ egypt_events.75.a: "Wir sollten ihn im Auge behalten!"
+
+ egypt_events.76.t: "Der Sudan erklärt die Unabhängigkeit"
+ egypt_events.76.d: "Der Sudanese Abd al-Rahman al-Mahdi hat seine Unterstützer in Khartum versammelt und verkündet, dass der Sudan niemals vor jemand anderem als Gott selbst niederknien und sich von Ägypten lossagen wird."
+ egypt_events.76.a: "Wir werden Ägypten verteidigen!"
+ egypt_events.76.b: "Der Sudan kniet nur vor Gott! (Als Sudan spielen)"
+
+ egypt_events.77.t: "Südsudanesische Stämme wollen sich der Revolte nicht anschließen!"
+ egypt_events.77.d: "Im Süden des Sudans sind viele Stämme nicht muslimisch, sondern animistisch oder christlich. Diese Stämme haben sich dazu entschieden, Abd al-Rahman al-Mahdi's Ruf zu den Waffen nicht zu folgen und stattdessen verkündet, dass sie sich dem Kampf des Königs anschließen und die Verräter vernichten werden."
+ egypt_events.77.a: "Zusammen werden wir die Verräter bezwingen!"
+
+ egypt_events.78.t: "Südsudanesische Stämme schließen sich der Revolte an"
+ egypt_events.78.d: "Obwohl die südsudanesischen Stämme im Gegensatz zum Norden nicht muslimisch sind, haben sie sich dazu entschieden, sich Abd al-Rahman al-Mahdi's Revolte gegen Ägypten anzuschließen."
+ egypt_events.78.a: "Wir werden die Verräter bezwingen!"
+
+ egypt_events.79.t: "Die Sudanesen unterstützen?"
+ egypt_events.79.d: "Abd al-Rahman al-Mahdi führt eine Revolte gegen die Ägypter. Einige der Höflinge unseres Kaisers haben vorgeschlagen, die Rebellen zu unterstützen und so Ägypten zu schwächen. Wir sollten allerdings Vorsicht walten lassen, da der neue Mahdi in die Fußstapfen seines Vaters treten und eine Invasion Äthiopiens starten könnte."
+ egypt_events.79.a: "Bewaffnet die sudanesischen Rebellen."
+ egypt_events.79.b: "Das wäre für uns nicht von Interesse."
+
+ egypt_events.80.t: "Äthiopische Unterstützung trifft ein"
+ egypt_events.80.d: "Die Äthiopier haben sich dazu entschlossen, uns einige Waffen zukommen zu lassen, die uns in unserem Krieg gegen die Ägypter helfen sollen."
+ egypt_events.80.a: "Großartig!"
+
+ egypt_events.81.t: "Ägyptischer Sieg!"
+ egypt_events.81.d: "Heute haben wir die Mahdisten ein zweites Mal besiegt. Der Sieg ist unser! Der Sudan wird nie wieder gegen unsere Herrschaft rebellieren!"
+ egypt_events.81.a: "Lang lebe Ägypten!"
+
+ egypt_events.82.t: "Umgang mit den Rebellen?"
+ egypt_events.82.d: "Nachdem wir die sudanesische Revolte niedergeschlagen haben, besteht nun noch die Frage, wie wir mit den Rebellen verfahren sollten. Einige der Höflinge des König haben sich für Gnade ausgesprochen, während andere der Meinung sind, man sollte sie streng bestrafen, um ihnen eine Lektion zu erteilen."
+ egypt_events.82.a: "Seid gnädig."
+ egypt_events.82.b: "Seid hart."
+
+ egypt_events.8200.t: "Der Feind vor unserer Tür"
+ egypt_events.8200.d: "Der Krieg hat sich nicht gerade zu unserem Vorteil entwickelt. Da die Mahdisten damit begonnen haben, unsere Städte zu überrennen, bleibt uns nichts anderes mehr übrig, als zu hoffen, dass sie dazu bereit sind, über unsere bedingte Kapitulation zu verhandeln."
+ egypt_events.8200.a: "Hoffentlich akzeptieren sie unser Angebot..."
+ egypt_events.8200.b: "Ägypten ist noch nicht verloren!"
+
+ egypt_events.8201.t: "Ägypten bittet um Frieden"
+ egypt_events.8201.d: "Die Stunde des Sieges ist gekommen! Selbst [EGY.GetLeader] und sein Hofstaat mussten diese Tatsache akzeptieren: Der Sudan hat triumphiert und Ägypten hat den Krieg verloren! Nun bieten uns die Ägypter einen Friedensvertrag an, der unserem Volk die Freiheit von der ägyptischen Tyrannei garantieren wird."
+ egypt_events.8201.a: "Freiheit!"
+ egypt_events.8201.b: "Warum sollten wir schon jetzt aufhören?"
+
+ egypt_events.83.t: "Sudanesischer Sieg"
+ egypt_events.83.d: "Nur Gott selbst hat den Triumph Abd al-Rahman al-Mahdi's kommen gesehen und ihn dazu gebracht, uns in den Sieg zu führen. Heute kann der gesamte Sudan feiern, denn es ist der erste Tag seiner vollständigen Unabhängigkeit!"
+ egypt_events.83.a: "Lang lebe der Sudan!"
+
+ egypt_events.84.t: "Die Ausrichtung des Sudans"
+ egypt_events.84.d: "Nach seinem Sieg über die Ägypter steht der Sudan nun vor einer schweren Entscheidung: Einige sind der Meinung, dass der Mahdi alle Bürger des Sudans, also auch die Nicht-Muslime, vertreten sollte, während andere glauben, es wäre das Beste, lediglich die Muslime zu repräsentieren und die anderen Bürger unserer jungen Nation zu vernachlässigen."
+ egypt_events.84.a: "Der Mahdi spricht für alle Sudanesen."
+ egypt_events.84.b: "Der Mahdi spricht nur für die Muslime."
+
+ egypt_events.85.t: "Nationalistischer Aufruhr"
+ egypt_events.85.d: "In einigen der weiter entfernten Teilen unserer Kolonie wurden mehrere Stämme durch den Sieg des Mahdis über die Ägypter inspiriert. Wir sollten sie im Auge behalten, sonst könnte es passieren, dass sie sich gegen uns erheben und versuchen, ihre Unabhängigkeit zu erzwingen."
+ egypt_events.85.a: "Wir werden sie im Auge behalten."
+
+ egypt_events.86.t: "Der Sudan blickt nach Äthiopien"
+ egypt_events.86.d: "Nachdem wir die Ägypter besiegt haben, bleibt noch die Frage, ob wir versuchen sollten, Muhammad Ahmad al-Mahdi's Traum zu erfüllen und Äthiopien zu zerschmettern oder einen friedlicheren Weg einschlagen sollten."
+ egypt_events.86.a: "Der Mahdi erklärt den Krieg!"
+ egypt_events.86.b: "Der Mahdi will nur Frieden!"
+
+ egypt_events.87.t: "Der Sudan erklärt den Krieg"
+ egypt_events.87.d: "Die Sudanesen haben dem Kaiserreich Äthiopien den Krieg erklärt. Wir hätten einen solchen Verrat vom sogenannten Mahdi erwarten sollen. Doch der Löwe wird erneut triumphieren, die Gazelle verschlingen und den Sudan besiegen!"
+ egypt_events.87.a: "Wir werden das Reich verteidigen!"
+
+ egypt_events.100.t: "Die Frage der ägyptischen Identität"
+ egypt_events.100.d: "Nach der Revolution von 1925 kam auch die Frage der ägyptischen Identität auf: Was bedeutet es, Ägypter zu sein? Wann war Ägypten wahrhaft großartig? Es war das erste Mal seit Jahrhunderten, dass die Ägypter frei und unabhängig waren, weshalb sie endlich nach einer Antwort auf diese Fragen suchen konnten. Seitdem wurden zwei Konzepte davon entwickelt, was es bedeutet, Ägypter zu sein. Beide romantisieren die Vergangenheit, fokussieren sich allerdings auf gänzlich unterschiedliche Perioden der ägyptischen Geschichte.\n\nDas erste Konzept ist als Pharaonismus bekannt. Die Pharaonisten blicken in die vorislamische Zeit, die Zeit der Pharaonen, in der Ägypten noch groß und mächtig war. Sie sind der Meinung, Ägypten sei eine mediterrane Zivilisation, und betonen die Rolle des Mittelmeers für die ägyptische Kultur, wenngleich sie auch den Nil nicht vernachlässigen. Diese Auffassung wird größtenteils von den Liberalen aufgegriffen - wenngleich sie strikt genommen nicht gänzlich liberal ist und auch einige der Watani sie unterstützen. Der Pharaonismus ist das bei Weitem einflussreichste Konzept der ägyptischen Identität im Jahre 1936.\n\nDie zweite kulturelle Bewegung ist die der Islamisten, die sich als Gegenbewegung zum Pharaonismus entwickelte. Sie glauben, dass Ägypten zur Zeit des Kalifats der Fatimiden und der Dynastie der Ayyubiden am größten und ruhmreichsten war. Im Gegensatz zu den Pharaonisten, die sie als Heiden und Tyrannen bezeichnen, blicken sie in die Zeit zurück, in der Ägypten das Zentrum der islamischen Welt und ein multiethnisches und tolerantes Ägypten die größte islamische Macht war. Diese kulturelle Bewegung ist vor allem eine Initiative der Konservativen, um gegen den Pharaonismus anzukämpfen, weshalb sie auch vor allem mit konservativen Bewegungen wie der Ittihad-Partei in Verbindung gebracht wird.\n\nEs sollte auch gesagt werden, dass beide Lager ein multiethnisches Ägypten befürworten, da sie beide glauben, dass Ägypten schon immer ein multiethnischer Staat war. Außerdem sind beide Konzepte äußerst nationalromantisch und haben einen großen Einfluss auf die Kultur und die Künste."
+ egypt_events.100.a: "Wir sind alle Ägypter."
+
+ egypt_events.101.t: "Bibliotheksdebatte"
+ egypt_events.101.d: "Aufgrund unseres Modernisierungsprogramms wurde vorgeschlagen, dass wir zur Feier des neuen Ägyptens eine große Bibliothek errichten sollten. Die Pharaonisten glauben, dass eine neue und moderne Bibliothek von Alexandria errichtet werden sollte, während die Islamisten meinen, man sollte stattdessen ein neues Haus der Weisheit in Kairo bauen. Für welche Seite werden wir uns entscheiden?"
+ egypt_events.101.a: "Eine neue Bibliothek von Alexandria."
+ egypt_events.101.b: "Ein neues Haus der Weisheit."
+
+ egypt_events.102.t: "Die Hauptstadt Ägyptens"
+ egypt_events.102.d: "Die Frage der Hauptstadt Ägyptens steht im Raum. Die Pharaonisten sind der Meinung, die Hauptstadt sollte als Symbol eines neuen Ägyptens nach Alexandria verlegt werden, während die Islamisten der Meinung sind, dass die derzeitige Hauptstadt Kairo die bessere Wahl sei, da sie schon seit ihrer Gründung die Hauptstadt Ägyptens ist."
+ egypt_events.102.a: "Alexandria!"
+ egypt_events.102.b: "Kairo!"
+
+ egypt_events.103.t: "Ein neuer Leuchtturm für Ägypten"
+ egypt_events.103.d: "Der Leuchtturm von Port Said dient schon seit 1869 als Leuchtfeuer des Sueskanals. Er wurde von Khedive Ismail errichtet, nach der Eröffnung des Kanals jedoch von ausländischen Mächten beschlagnahmt. Nun, da sich der Sues wieder unter ägyptischer Kontrolle befindet, sollten wir darüber nachdenken, dem alten Leuchtturm einen neuen Anstrich zu verpassen. Einige Künstler hatten sogar die großartige Idee, den Leuchtturm \"Pharos von Ägypte\" zu nennen, nach dem Pharos von Alexandria. Die Traditionalisten wiederum, die für die Schatzkammer verantwortlich sind, weigern sich, weitere Arbeiten am Leuchtturm zu finanzieren."
+ egypt_events.103.a: "Pharos von Ägypten - ein guter Name!"
+ egypt_events.103.b: "Wir benötigen das Geld anderswo."
+
+ egypt_events.104.t: "Ernennung eines Bildungsministers"
+ egypt_events.104.d: "Durch die Bildungsreform, die sich noch immer in vollem Gange befindet, ist die Frage aufgekommen, wer zum neuen Bildungsminister werden sollte. Sowohl die Pharaonisten als auch die Islamisten haben bereits einen Kandidaten gestellt. Taha Hussein, der Kandidat der Pharaonisten, ist ein bedeutender Autor pharaonistischer Literatur und ein Geschichtsprofessor an der Universität von Kairo. Sayyid Qutb, der islamistische Kandidat, ist wiederum ein junger Professor an der Al-Azhar und hat bereits viel über die islamische Philosophie geschrieben. Wen werden wir wählen?"
+ egypt_events.104.a: "Wählt den Pharaonisten."
+ egypt_events.104.b: "Wählt den Islamisten."
+
+ egypt_events.105.t: "Literaturwettbewerb"
+ egypt_events.105.d: "Vor Kurzem gab es in Alexandria einen Literaturwettbewerb, der die Aufmerksamkeit der gesamten Nation erregte, da die beiden Kandidaten, die am wahrscheinlichsten gewinnen werden, bedeutende Autoren sind, die jeweils mit der pharaonistischen und der islamistischen Bewegung in Verbindung gebracht werden. Wer auch immer diesen Wettbewerb gewinnt, wird seiner jeweiligen Bewegung zu weiterem Ruhm verhelfen. Wer sollte zum Sieger gekürt werden?"
+ egypt_events.105.a: "Das pharaonistische Buch."
+ egypt_events.105.b: "Das islamistische Buch."
+
+ egypt_events.106.t: "Der neue Scheich der Al-Azhar Universität"
+ egypt_events.106.d: "Die Position des Scheichs der Al-Azhar ist eine der prestigeträchtigsten und einflussreichsten in ganz Ägypten, wobei die Tatsache, dass die Al-Azhar zu den ruhmreichsten Universitäten Ägyptens gehört, der Position zu weiterem Einfluss verhilft. Heute muss ein neuer Scheich gewählt werden. Sowohl die Pharaonisten als auch die Islamisten haben bereits ihre Kandidaten gestellt. Der pharaonistische Kandidat ist Muhammad al-Zawahiri, der für seine Bemühungen, die Universität zu unterstützen, und seine reformistischen Ideen bekannt geworden ist. Der islamistische Kandidat wiederum ist Mustafa Hassan Abdul Razek, der eine Renaissance der islamischen Philosophie in der Universität verursachte und die islamische Bildung im Reich ausweiten will. Wer von den beiden sollte zum nächsten Scheich ernannt werden?"
+ egypt_events.106.a: "Wählt Muhammad al-Zawahiri."
+ egypt_events.106.b: "Wählt Mustafa Hassan Abdul Razek."
+
+ egypt_events.107.t: "Die Aufstauung des Nils"
+ egypt_events.107.d: "Der Untere Damm von Aswan war ein ehrgeiziges Projekt der Briten und ihr unfertiger Bauansatz eine stetige Erinnerung an die Zeit, in der die Briten über Ägypten herrschten. 1935 wurde König Fuad von dem Griechen Christian Adrian Daninos vorgeschlagen, einen zweiten Staudamm zu bauen, um die jährlichen Überschwemmungen des Nils zu kontrollieren. Dieser Damm wurde heute fertiggestellt und gewährt unserer Nation eine unglaubliche Kontrolle über den Nil. Die einzige Frage, die nun noch bleibt, ist, wer für dieses Wunder geehrt werden sollte. Sollten wir Ibn al-Haytham ehren, der schon zur Zeit des Kalifats damit begann, den Bau eines derartigen Damms in Betracht zu ziehen? Oder sollten wir den Damm nach unserem Gast Adrian Daninos benennen? Immerhin war er es, der den Traum zur Wirklichkeit werden ließ."
+ egypt_events.107.a: "Adrian Daninos sollte geehrt werden."
+ egypt_events.107.b: "Ibn al-Haytham sollte geehrt werden."
+
+ egypt_events.108.t: "Das Ministerium der Awqaf"
+ egypt_events.108.d: "Dem ägyptischen Reichstag wurde heute ein Antrag des Ministeriums der Awqaf vorgelegt, das religiöse Stiftungen überwacht und nun auch Imams ernennen und so bei der Verwaltung der Moschees helfen will. Die Pharaonisten sind der Meinung, dass dies gegen das Prinzip der Religionsfreiheit verstoßen würde, während die Islamisten, vor allem die Ittihad, glauben, das Ministerium könne dabei helfen, die Bildung von Zerrbildern unseres Glaubens zu verhindern."
+ egypt_events.108.a: "Die Moscheen sollten sich selbst verwalten."
+ egypt_events.108.b: "Die Regierung wird die Moscheen verwalten."
+
+ egypt_events.109.t: "Antara kommt in die Kinos"
+ egypt_events.109.d: "Nachdem der berühmte Poet Ahmed Shawqi 1932 verstarb, fand man in seinem Apartment in Kairo eine Sammlung von Gedichten, darunter auch eines über den Ritter Antara Ben Shaddad. Obwohl dieses Gedicht die Taten eines vorislamischen Ägypters glorifiziert, entschied sich der Schauspieler 'Abd al-Wahhab dazu, einen auf dem Gedicht basierenden Film zu Ehren Shawqis zu produzieren. Die Produktion des Films in den Hügeln von Kairo wurde zwar von Studenten der Al-Azhar gestört, der Film wurde aber dennoch unzensiert in den meisten wichtigen Städten Ägyptens veröffentlicht. Studenten und Lehrer vieler Moscheen in ganz Ägypten fordern nun, dass der Film verboten wird."
+ egypt_events.109.a: "Die Studenten sollten sich auf ihre Studien konzentrieren, ein Flim ist harmlos."
+ egypt_events.109.b: "Die Studenten haben recht, konfisziert diesen Film!"
+
+ egypt_events.110.t: "Farouks königliche Hochzeit"
+ egypt_events.110.d.egypt_bride_only: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Glücklicherweise scheint eine vielversprechende Braut für den  König gefunden worden zu sein: Safinaz Zulfica, eine junge Adlige aus Alexandria."
+ egypt_events.110.d.egypt_arab: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Derzeit stehen zwei Frauen zur Auswahl: Safinaz Zulfica, eine junge ägyptische Adlige, und Al Bandari, die Tochter von Abdulaziz Al Saud, dem Herrscher über das Emirat Nadschd. Wen sollte unser  König zur neuen Königin küren?"
+ egypt_events.110.d.egypt_iranian: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Derzeit stehen zwei Frauen zur Auswahl: Safinaz Zulfica, eine junge ägyptische Adlige, und Prinzessin Shams Aqdas Qajar, eine Tochter der [PER.GetAdjective]en Kadscharen. Wen sollte unser  König zur neuen Königin küren?"
+ egypt_events.110.d.all_brides: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Nun muss nur noch eine von drei Frauen ausgewählt werden. Die erste mögliche Braut ist Safinaz Zulfica, eine junge ägyptische Adlige aus Alexandria. Die zweite ist Al Bandari, die Tochter von Abdulaziz Al Saud, dem Herrscher über das Emirat Nadschd. Die dritte ist Shams Aqdas Qajar, eine Tochter der [PER.GetAdjective]en Kadscharen. Wen sollte unser  König zur neuen Königin küren?"
+ egypt_events.110.a: "Safinaz Zulfica."
+ egypt_events.110.b: "Al Bandari."
+ egypt_events.110.c: "Prinzessin Shams Aqdas Qajar."
+
+ egypt_events.111.t: "Die königliche Hochzeit"
+ egypt_events.111.d.egyptian_bride: "Heute ist ein besonderer Tag: Farouk und Safinaz Zulfica wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Farida angenommen, nachdem sie zur Königin Ägyptens ernannt wurde."
+ egypt_events.111.d.arab_bride: "Heute ist ein besonderer Tag: Farouk und Al Bandari wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Abdulaziz Al Saud und sein Gefolge waren ebenfalls anwesend, um seiner Tochter dabei zuzusehen, wie sie zur Königin Ägyptens aufsteigt. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Farah angenommen, nachdem sie zur Königin Ägyptens ernannt wurde."
+ egypt_events.111.d.persian_bride: "Heute ist ein besonderer Tag: Farouk und Prinzessin Shams Aqdas Qajar wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Der [PER.GetAdjective] Schah und sein Gefolge waren ebenfalls anwesend, um seiner Tochter dabei zuzusehen, wie sie zur Königin Ägyptens aufsteigt. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Fatimah angenommen, nachdem sie zur Königin Ägyptens ernannt wurde."
+ egypt_events.111.d.arab_bride_saudi: "Heute ist ein besonderer Tag: Farouk und Al Bandari wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Abdulaziz Al Saud und sein Gefolge waren ebenfalls anwesend, um seiner Tochter dabei zuzusehen, wie sie zur Königin Ägyptens aufsteigt. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Farah angenommen, nachdem sie zur Königin Ägyptens ernannt wurde - doch für uns wird sie immer Prinzessin Al Bandari bleiben."
+ egypt_events.111.d.persian_bride_iranian: "Heute ist ein besonderer Tag: Farouk und Prinzessin Shams Aqdas Qajar wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Der [PER.GetAdjective] Schah und sein Gefolge waren ebenfalls anwesend, um seiner Tochter dabei zuzusehen, wie sie zur Königin Ägyptens aufsteigt. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Fatimah angenommen, nachdem sie zur Königin Ägyptens ernannt wurde - doch für uns wird sie immer Prinzessin Shams bleiben."
+ egypt_events.111.a: "Sie geben ein süßes Pärchen ab."
+
+ egypt_events.112.t: "Ein Erbe wurde geboren"
+ egypt_events.112.d.egyptian_bride: "Heute ist ein besonders erfreulicher Tag, denn Königin Farida hat einen kleinen Jungen zur Welt gebracht, dem man den Namen Muhammad Ali gab, zu Ehren des Gründers unserer königlichen Dynastie. In jeder Stadt Ägyptens finden Feiern statt, da die Menschen die Geburt des neuen Erbens gebührend zelebrieren."
+ egypt_events.112.d.arab_bride: "Heute ist ein besonders erfreulicher Tag, denn Königin Farah hat einen kleinen Jungen zur Welt gebracht, dem man den Namen Muhammad Ali gab, zu Ehren des Gründers unserer königlichen Dynastie. In jeder Stadt Ägyptens finden Feiern statt, da die Menschen die Geburt des neuen Erbens gebührend zelebrieren."
+ egypt_events.112.d.persian_bride: "Heute ist ein besonders erfreulicher Tag, denn Königin Fatimah hat einen kleinen Jungen zur Welt gebracht, dem man den Namen Muhammad Ali gab, zu Ehren des Gründers unserer königlichen Dynastie. In jeder Stadt Ägyptens finden Feiern statt, da die Menschen die Geburt des neuen Erbens gebührend zelebrieren."
+ egypt_events.112.a: "Die Nachfolge ist gesichert!"
+
+ egypt_events.113.t: "Die Krönung von Farouk"
+ egypt_events.113.d: "Heute wurde Farouk in einer majestätischen Zeremonie im königlichen Palast in Kairo zum König Ägyptens und des Sudans und zum Herrscher über Nubien, Kurdufan und Darfur gekrönt. Nach seiner Krönung hielt Farouk eine Rede im Radio, in der er sich direkt an das ägyptische Volk richtete und sagte: "Wenn es Gottes Wille ist, die Verantwortung eines Sultans schon in einem so jungen Alter auf meine Schultern zu legen, dann weiss ich meine Pflichten zu schätzen und bin auf all die Opfer vorbereitet, die ich für deren Erfüllung erbringen muss. Mein liebes Volk, ich bin stolz auf euch und eure Loyalität. Ich glaube so sehr an unsere Zukunft, wie ich an Gott glaube. Lasset uns zusammenarbeiten! Wir werden glücklich, erfolgreich und wohlhabend sein! Lang lebe unser Vaterland! Lang lebe Ägypten!""
+ egypt_events.113.a: "Lang lebe der König!"
+
+ egypt_events.114.t: "Königin wird zur Ehrenleiterin der Pfadfinderinnen"
+ egypt_events.114.d.egyptian_bride: "Da König Farouk die ägyptischen Pfadfinder unterstützt und selbst Vorsitzender der Organisation ist, hat sich auch Königin Farida dazu entschieden, eine aktivere Rolle bei den ägyptischen Pfadfinderinnen einzunehmen und die Organisation zu unterstützen, indem sie sich in örtlichen Gemeinschaften für sie engagiert. Diese Aktion unserer Königin, mit der sie die Pfadfinderinnen fördert, ist bei ägyptischen Familien, vor allem der Mittel- und Unterschicht, sehr beliebt."
+ egypt_events.114.d.arab_bride: "Da König Farouk die ägyptischen Pfadfinder unterstützt und selbst Vorsitzender der Organisation ist, hat sich auch Königin Farah dazu entschieden, eine aktivere Rolle bei den ägyptischen Pfadfinderinnen einzunehmen und die Organisation zu unterstützen, indem sie sich in örtlichen Gemeinschaften für sie engagiert. Diese Aktion unserer Königin, mit der sie die Pfadfinderinnen fördert, ist bei ägyptischen Familien, vor allem der Mittel- und Unterschicht, sehr beliebt."
+ egypt_events.114.d.persian_bride: "Da König Farouk die ägyptischen Pfadfinder unterstützt und selbst Vorsitzender der Organisation ist, hat sich auch Königin Fatimah dazu entschieden, eine aktivere Rolle bei den ägyptischen Pfadfinderinnen einzunehmen und die Organisation zu unterstützen, indem sie sich in örtlichen Gemeinschaften für sie engagiert. Diese Aktion unserer Königin, mit der sie die Pfadfinderinnen fördert, ist bei ägyptischen Familien, vor allem der Mittel- und Unterschicht, sehr beliebt."
+ egypt_events.114.a: "Eine große Hilfe für die Mädchen Ägyptens."
+
+ egypt_events.115.t: "Ägyptische Neugotik"
+ egypt_events.115.d.capital_cairo: "Heute hat König Farouk die Ehre, das neue Parlamentsgebäude in Kairo zu eröffnen. Dieses Gebäude ist das erste in ganz Ägypten, das im Stile der ägyptischen Neugotik errichtet wurde, der wiederum größtenteils von der antiken Architektur Ägyptens inspiriert wurde. Nun dient das Parlament von Kairo als Inspiration für viele Architekten und Konstukteure, die diesen neuen Baustil wohl bald in ganz Ägypten verbreiten werden."
+ egypt_events.115.d.capital_alexandria: "Heute hat König Farouk die Ehre, das neue Parlamentsgebäude in Kairo zu eröffnen. Dieses Gebäude ist das erste in ganz Ägypten, das im Stile der ägyptischen Neugotik errichtet wurde, der wiederum größtenteils von der antiken Architektur Ägyptens inspiriert wurde. Nun dient das Parlament von Alexandria als Inspiration für viele Architekten und Konstukteure, die diesen neuen Baustil wohl bald in ganz Ägypten verbreiten werden."
+ egypt_events.115.a: "Ein neuer Stil für Ägypten."
+
+ egypt_events.116.t: "Frühlingsblumenschau"
+ egypt_events.116.d: "Farouks Schwestern, Prinzessin Fawzia Fuad von Ägypten und Prinzessin Faika Fouad, haben dabei geholfen, eine Frühlingsblumenschau in Kairo zu eröffnen. Sie begann im Juni und hat sich sofort als sehr beliebt beim Volk von Kairo herausgestellt, da dieses dort die Gärten bewundern und die Schönheit der Natur genießen konnte. Nun hoffen viele darauf, dass auch nächstes Jahr eine solche Schau stattfinden wird."
+ egypt_events.116.a: "Eine neue Tradition wurde geboren."
+
+ egypt_events.117.t: "Eine königliche Hochzeit?"
+ egypt_events.117.d: "Die Ägypter haben uns einen Heiratsantrag zukommen lassen. Sie wünschen sich, dass Sultan Hamid Mirza Qajar Prinzessin Fawzia Fuad, die Schwester von König Farouk, heiratet. Eine königliche Hochzeit könnte dabei helfen, das Reich zu stabilisieren, zumal Fawzia dafür bekannt ist, vornehm und wunderschön zu sein. Es gibt allerdings eine Kontroverse: Da der Schah ein Schiit und Fawzia ein Sunnit ist, haben viele Konservative ihre Bedenken bezüglich dieser potenziellen Ehe ausgesprochen. Sollten wir den Antrag dennoch annehmen?"
+ egypt_events.117.a: "Wen interessieren schon die Reaktionäre, die beiden gehören zusammen!"
+ egypt_events.117.b: "Wir sollten auf die Konservativen hören."
+
+ egypt_events.118.t: "Eine königliche Hochzeit"
+ egypt_events.118.d: "Heute fand in [266.GetCapitalVictoryPointName] endlich die königliche Hochzeit statt, auf die schon so lange gewartet wurde. Die gesamte Stadt hat sich herausgeputzt, um das Pärchen zu ehren. Als Teil der Feier hat der Schah im Amjadiyeh-Stadion, das mit 25.000 Mitgliedern der [PER.GetAdjective]en Oberschicht befüllt war, eine Aufführung organisiert, die aus synchronisierter Akrobatik, Bastani ([PER.GetAdjective]e Kalisthenie), Fechten und Fußball bestand. Tausende Menschen jubelten, als Sultan Hamid Mirza Qajar und Princess Fawzia Fuad an ihnen auf dem Weg zum Marmornen Palast vorbeizogen, in dem sie vermählt wurden. Nun wurden die [PER.GetAdjective]en Kadscharen und die Alawiyyas Ägyptens endlich vereint!"
+ egypt_events.118.a: "Eine Hochzeit muss man einfach mögen."
+
+ egypt_events.119.t: "Der Schah brüskiert Fawzia!"
+ egypt_events.119.d: "Wir hatten eine Staatsehe zwischen den Kadscharen und unserer eigenen Dynastie geplant. Der [PER.GetAdjective]e Schah hat sich jedoch dazu entschieden, Prinzessin Fawzia zu brüskieren und die Ehe abzulehnen. Letztlich ist es jedoch ihr Verlust - wir werden schließlich einen besseren Mann finden."
+ egypt_events.119.a: "Wir werden einen passenderen Mann finden."
+
+ egypt_events.120.t: "Wahl des koptischen Papstes"
+ egypt_events.120.d: "Durch den Tod von Past Yohannes XIX von Alexandria muss die koptisch-orthodoxe Kirche Alexandrias nun einen neuen Papst auswählen. Es gibt derzeit drei potenzielle Kandidaten für dieses heilige Amt: Theophilus, Yusab und Macarius. Theophilus ist der Bischof Jerusalems und der Diözese Sharqiyyahs. Er ist ein eher konservativer Kandidat, jedoch auch energetisch und vergleichsweise reich. Er wird von der heiligen Synode der Bischöfe unterstützt, die sich erhofft, die Rolle des Patriarchen stärken zu können, um so die Majis obsolet zu machen. Yusab ist der derzeitige Patriarch und Bischof Girgas und führt eine Kampagne zur Förderung einer spirituellen Nahda (Renaissance). Macarius wiederum ist der Bischof von Asyut und setzt sich für weitreichende Reformen ein. Doch wer von ihnen wird zum nächsten Papst der koptisch-orthodoxen Kirche Alexandrias gewählt werden?"
+ egypt_events.120.a: "Und der neue Papst ist...?"
+
+ egypt_events.121.t: "Der neue koptische Papst"
+ egypt_events.121.d.theophilus: "Heute wurde, wie es sich laut den Traditionen der koptisch-orthodoxen Kirche gehört, Theophilus, der Bischof Jerusalems, zum neuen Papst gewählt und zu Theophilus III ordiniert. Durch ihn wurde die Macht der heiligen Synode der Bischöfe verstärkt und ihr Einfluss ausgeweitet."
+ egypt_events.121.d.yusab: "Heute wurde, wie es sich laut den Traditionen der koptisch-orthodoxen Kirche gehört, Yusab zu Joseph II ordiniert. Durch ihn wird bald eine spirituelle Nahda für alle gläubigen Koptiker Ägyptens beginnen."
+ egypt_events.121.d.macarius: "Heute wurde, wie es sich laut den Traditionen der koptisch-orthodoxen Kirche gehört, Macarius zu Macarius III ordiniert. Durch ihn werden bald viele Reformen der koptischen Kirche durchgesetzt werden."
+ egypt_events.121.a: "Möge seine Heiligkeit den Koptikern Ägyptens helfen."
+
+ egypt_events.122.t: "Koptische Erneuerung"
+ egypt_events.122.d: "Die Bemühungen des koptischen Papstes für eine spirituelle Erneuerung und die der ägyptischen Regierung, den Staat zu säkularisieren, haben eine Wiedergeburt des koptischen Glaubens verursacht. Die Anzahl der gläubigen Koptiker hat sich stark erhöht, wenngleich der Großteil unserer Nation noch immer aus Muslimen besteht. Die neuen Klöster der koptischen Kirche waren größtenteils einst anderen christlichen Konfessionen gedacht, vor allem der protestantischen. Außerdem werden in ganz Ägypten neue Kirchen gebaut."
+ egypt_events.122.a: "Interessant."
+
+ egypt_events.123.t: "Koptische Waisen"
+ egypt_events.123.d: "Heute hat der Papst der koptisch-orthodoxen Kirche die Gründung einer Organisation verkündet, die den Armen und im Bereich der Bildung helfen soll. Geführt wird sie von örtlichen Pfarrern und Priestern. Die Organisation wird vielen Menschen eine große Hilfe sein."
+ egypt_events.123.a: "Eine noble Organisation."
+
+ egypt_events.124.t: "Entdeckung der Nag Hammadi-Bibliothek"
+ egypt_events.124.d: "Im nördlichen Teil Ägyptens, nicht weit entfernt von Luxor, hat ein Bauer aus der Stadt Nag Hammadi eine Sammlung frühchristlicher und gnosischer Schriften gefunden. Nachdem diese an einen koptischen Priester übergeben wurden, haben sie in literarischen und religiösen Kreisen großes Aufsehen erregt."
+ egypt_events.124.a: "Ein großartiger Fund!"
+
+ egypt_events.125.t: "Die französische Gesandtschaft verlässt Ägypten"
+ egypt_events.125.d: "Die Neuigkeiten aus Kairo verbreiten sich anscheinend schneller als Farouks Zusicherungen. Die französische Gesandtschaft in der Innenstadt von Kairo hat damit begonnen, sich aus der ägyptischen Regierung zurückzuziehen. Der Minister für Archäologie und sogar der Bildungsminister haben die Stadt bereits verlassen. Durch ihren Rückzug sind nun auch die jahrzehntelangen Bemühungen, den Westen mit der Mythenwelt und Geschichte Ägyptens zu verlocken, gescheitert. Wir werden bald einen Weg finden müssen, die Franzosen zu ersetzen."
+ egypt_events.125.a: "Ein bedauerlicher Verlust."
+
+ egypt_events.126.t: "Die französischen Minister ersetzen"
+ egypt_events.126.d: "Aufgrund des vor Kurzem entstandenen politischen Vakuums bietet sich König Farouk nun die Möglichkeit, Positionen neu zu besetzen, an die er zuvor nicht heran kam. Das ägyptische Parlament hat vorgeschlagen, dass Mitglieder der Wafd-Partei die französischen Minister ersetzen sollten, was es diesen Kandidaten ermöglichen würde, die Reichweite ihrer säkularistischen und pro-westlichen Einstellung auszuweiten. Mehrere Mitglieder der Ittihad-Partei haben wiederum vorgeschlagen, die frei gewordenen Positionen in einem einzigen Propagandaministerium zu vereinen, um die Nation zu einigen und dabei zu helfen, unser Volk über den Ruhm Ägyptens und der Dynastie von Muhammad Ali zu informieren."
+ egypt_events.126.a: "Lasst die Wafd ihre Minister ernennen."
+ egypt_events.126.b: "Ein vereinter Propagandaminister."
+
+ egypt_events.127.t: "Deutscher Tourismus in Ägypten"
+ egypt_events.127.d: "Schon seit Jahrhunderten kommen Touristen nach Ägypten, um unsere vielen Sehenswürdigkeiten zu betrachten. Schon seit den Tagen des Roms faszinieren die antiken Ruinen unserer Nation die Menschen. Aufgrund der kürzlichen deutschen Investitionen in Ägypten kommen mehr und mehr Touristen aus Deutschland in unser Land. Das Unternehmen Graf Zeppelin bietet sogar Zeppelin-Touren über Ägypten an, die sich bei ausländischen Touristen großer Beliebtheit erfreuen. All diese Touristen haben unserer Wirtschaft zu einem kleineren Aufschwung verholfen."
+ egypt_events.127.a: "Ausländisches Geld für Ägypten!"
+
+ egypt_events.128.t: ""Liebe und Rache" kommt in die Kinos"
+ egypt_events.128.d: "Der Film "Liebe und Rache" wurde vor Kurzem veröffentlicht und hat ausgezeichnete Rezensionen erhalten. Die Handlung des musikalischen Dramas lautet folgendermaßen: Sohair, eine bekannter Sängerin, entscheidet sich, ihre Karriere zu beenden, um ihre große Liebe Wahid heiraten zu können. Eine Nacht vor der geplanten Hochzeit wird Wahid jedoch ermordet. Daraufhin findet Sohair heraus, dass der Komponist Gamal Hamdy etwas mit dem Mord zu tun haben könnte. Statt die Gerichte einzuschalten, entscheidet sie sich aufgrund fehlender Beweise jedoch dazu, vorzutäuschen, ihn zu lieben, um an die Wahrheit zu gelangen.\n\nEiner der Gründe für den Erfolg des Films war der unerwartete Tod der Schauspielerin und Sängerin Asmashan, die im jungen Alter von 26 Jahren in einem Autounfall umkam. Studio Misr, die Produzenten des Films, nutzten ihren Tod daraufhin aus, damit der Film eine größere Aufmerksamkeit erregt."
+ egypt_events.128.a: "Ein großartiger Film, doch der Tod der Schauspielerin ist tragisch."
+
+ egypt_events.129.t: "Al-Azeema kommt in die Kinos"
+ egypt_events.129.d: "Der Film Al-Azeema ("Der Wille" bzw. "Entschlossenheit") wurde heute veröffentlicht und hat ausgezeichnete Rezensionen erhalten. Er erzählt die Geschichte eines jungen und glücklichen Pärchens, Muhammad und Fatima. Aufgrund des Schwarzen Montags verliert Muhammad jedoch seinen Beruf und ihr Glück ein schnelles Ende. Der Film endet damit, dass Muhammad erneut eingestellt wird und das Pärchen trotz der Schwierigkeiten glücklich weiterleben kann. Der Regisseur Kamal Selim hat für seine realistische Darstellung der ägyptischen Slums und des durchschnittlichen Ägypters großes Lob erhalten. Der Film war sogar derartig realistisch, dass er Farouk dazu gebracht hat, mehr zu unternehmen, um den Armen unserer Nation zu helfen."
+ egypt_events.129.a: "Ein großartiger und bewegender Film."
+
+ egypt_events.130.t: "Umm Kulthum Begins singt für Radio Kairo"
+ egypt_events.130.d: "Heute hat die berühmte Sängerin Umm Kulthum damit begonnen, für Radio Kairo zu singen. Dadurch wurden die Bewertungen des Senders verbessert, da viele Menschen nun täglich einschalten, um ihrem Gesang zu lauschen. Selbst unser junger König genießt den Klang ihrer Stimme - es gibt sogar Gerüchte, Umm Kulthum würde der königlichen Familie Privataufführungen geben."
+ egypt_events.130.a: "Gute Musik."
+
+ egypt_events.131.t: "Umm Kulthum erhält den Nishan al-Kamal"
+ egypt_events.131.d: "König Farouk hat der berühmten Sängerin Umm Kulthum heute den Nishan al-Kamal (Orden der Tugenden) verliehen. Dieser Verdienstorden wird nur Frauen verliehen und ist eine Ehre, die meistens adligen Mitgliedern königlicher Familien vorbehalten wird. Kulthum ist durch diese Ehrung in ganz Ägypten noch beliebter geworden."
+ egypt_events.131.a: "Sie hat sich diese Ehre verdient."
+
+ egypt_events.132.t: "Ägyptisches Pokalfinale von [GetYear]"
+ egypt_events.132.d: "Heute beginnt das finale Spiel des ägyptischen Pokals von [GetYear], das zwischen den Al-Masry und den Al Ahly ausgetragen wird. Das Spiel findet in Alexandria statt. Das ganze Stadion ist mit Fans gefüllt, die ihren Lieblingsteams beim Spielen zusehen wollen. Uns kann es jedoch egal sein, wer gewinnt, da das Spiel unsere Bürger bereits von ihren Beschwerden abgelenkt und, aus irgendeinem Grund, ihr Vertrauen in die Regierung gestärkt hat."
+ egypt_events.132.a: "Wer wird das Finale gewinnen?"
+
+ egypt_events.133.t: "Die Al Ahly gewinnen den Pokal von [GetYear]!"
+ egypt_events.133.d: "Die Al Ahly haben den Pokal mit einem Punktestand von 2-3 gewonnen. In ganz Kairo wird der Sieg des städtischen Teams gefeiert."
+ egypt_events.133.a: "Meinen Glückwunsch, Rote Riesen!"
+
+ egypt_events.134.t: "Die Al-Masry gewinnen den Pokal von [GetYear]!"
+ egypt_events.134.d: "Die Al-Masry haben den Pokal mit einem Punktestand von 2-3 gewonnen. In ganz Port Said wird der Sieg des städtischen Teams gefeiert."
+ egypt_events.134.a: "Meinen Glückwunsch, Grüne Adler!"
+
+ egypt_events.135.t: "Der Niedergang des Crickets"
+ egypt_events.135.d: "Seit der Revolution von 1925 hat die Beliebheit von Cricket stetig abgenommen, weshalb viele Cricket-Clubs in ganz Ägypten zur Schließung gezwungen waren. Stattdessen ist die Beliebtheit von Fußball in Ägypten stark angestiegen."
+ egypt_events.135.a: "Fußball ist sowieso der bessere Sport."
+
+ egypt_events.136.t: "Das Ägyptische Geschichts- und Kulturfest"
+ egypt_events.136.d: "Heute wurden in ganz Ägypten die ägyptische Geschichte und die ägyptische Kultur gefeiert. Vor 5100 Jahren hat Pharaoh Narmer Ägypten vereint und die erste unserer Dynastien gegründet, wodurch die Geschichte unserer Nation begann. Deshalb wird heute sowohl in kleinen Dörfern als auch in großen Städten die lange Geschichte Ägyptens gefeiert. Dabei hat auch geholfen, dass König Farouk die Verteilung von Almosen organisiert hat und vielen Menschen Geld geschenkt hat, um seine Großzügigkeit zu demonstrieren. Viele islamistische Intellektuelle haben diesen Feiertag als unheilig bezeichnet, doch ihre Missbilligung hindert die Menschen nicht daran, die Festlichkeiten zu genießen."
+ egypt_events.136.a: "Auf weitere 5100 Jahre!"
+
+ egypt_events.137.t: "Allgemeine Wahlen von [GetYear]"
+ egypt_events.137.d: "Heute ist es erneut an der Zeit, den ägyptischen Premierminister zu wählen. Doch für wen wird sich das Volk entscheiden? Eine der liberalen oder eine der konservativen Parteien?"
+ egypt_events.137.a: "Die Liberal-Konstitutionelle Partei."
+ egypt_events.137.b: "Die Wafd-Partei."
+ egypt_events.137.c: "Die Watani-Partei."
+ egypt_events.137.e: "Die Ittihad-Partei."
+
+ egypt_events.138.t: "Allgemeine Wahlen von [GetYear]"
+ egypt_events.138.d: "Heute ist es erneut an der Zeit, den ägyptischen Premierminister zu wählen. Obwohl die Liberalen und Konservativen wie immer recht stark sind, könnte es den Sozialdemokraten unter Nasser eventuell gelingen, die Position der traditionellen Parteien einzunehmen."
+ egypt_events.138.a: "Die §lLiberal-Konstitutionelle§! Partei."
+ egypt_events.138.b: "Die Wafd-Partei."
+ egypt_events.138.c: "Die Watani-Partei."
+ egypt_events.138.e: "Die Ittihad-Partei."
+ egypt_events.138.f: "Die Sozialdemokratische Partei."
+
+ egypt_events.139.t: "Die Sozialdemokratische Partei"
+ egypt_events.139.d: "Die Hizb al-Masri al-Dimuqrati al-Ijtma'i (die ägyptische sozialdemokratische Partei) hatte es in den letzten Jahren nicht besonders leicht. Dies scheint sich nun allerdings zu ändern, da die Sozialdemokraten sich dazu entschieden haben, einen Großteil ihrer wichtigsten Positionen mit jüngeren Parteimitgliedern zu besetzen. Besonders interessant ist der junge und charismatische Gamel Abdel Nasser, der zum neuen Parteivorsitzenden gewählt wurde."
+ egypt_events.139.a: "Mal sehen, wie sich das entwickelt."
+
+ egypt_events.140.t: "Der Sufitische Orden Jaririya wurde gegründet"
+ egypt_events.140.d: "Auf der Sinai-Halbinsel hat Scheich Eid Abu Jarir vor Kurzem einen neuen sufitischen Orden namens "Jaririya" gegründet. Schon jetzt sind viele Bewohner der Halbinsel dem Orden beigetreten und auch viele Moscheen haben sich dazu entschieden, sich dem Orden anzuschließen."
+ egypt_events.140.a: "Interessant."
+
+ egypt_events.141.t: "Die Ahmadiyya anerkennen?"
+ egypt_events.141.d: "Die Ahmadiyya Ägyptens haben einen Antrag eingereicht, in dem sie verlangen, dass ihr Glaube offiziell anerkannt wird. Grund hierfür ist wahrscheinlich, dass sie sich erhoffen, so in der Zukunft vor religiöser Verfolgung geschützt zu sein. Viele Muslime, vor allem die Konservativen, verachten diese Religionsgemeinschaft jedoch. Selbst ein Fatwa der Al-Azhar-Universität hat sich bereits gegen die Ahmadiyya ausgesprochen. Wie sollten wir auf ihren Antrag reagieren?"
+ egypt_events.141.a: "Wir respektieren ihre Religionsfreiheit."
+ egypt_events.141.b: "Sie sind Abtrünnige!"
+
+ egypt_events.142.t: "Anstieg der Konstruktion von Kinos"
+ egypt_events.142.d: "Aufgrund der Unterstützung der Regierung für die aufstrebende Filmwirtschaft unserer Nation sind in vielen der größeren Städte Ägyptens neue Kinos entstanden. Diese wurden größtenteils im Stile der Ägyptischen Neugotik oder im Stile Art déco konstruiert."
+ egypt_events.142.a: "Jeder mag einen guten Film."
+
+ egypt_events.143.t: "Ash-Shams gegründet"
+ egypt_events.143.d: "Heute hat der jüdische Journalist Saad Malki die Zeitung Ash-Shams gegründet, um die Idee des ägyptischen Nationalismus zu unterstützen. Bisher hat die Zeitung vor allem aufgrund ihrer Forderung, dass Ägypten die Kontrolle über Jerusalem und das heilige Land der Juden übernehmen sollte, Aufmerksamkeit erregt."
+ egypt_events.143.a: "Interessant."
+
+ egypt_events.144.t: "Joseph de Picciotto Bey ist verstorben"
+ egypt_events.144.d: "Heute ist Joseph de Picciotto Bey verstorben. Er war ein bekannter jüdischer Wirtschaftsminister, eine Position, die er kurz nach der Revolution von 1925 übernahm. Er spielte eine große Rolle bei der Stabilisierung der ägyptischen Wirtschaft, nachdem unsere Nation ihre Unabhängigkeit erhielt."
+ egypt_events.144.a: "Wir werden ihn vermissen."
+
+ egypt_events.145.t: "Der Tod von Howard Carter"
+ egypt_events.145.d: "1925 erholte sich die Welt noch immer vom Ersten Weltkrieg. Während Soziologen wie T.E. Lawrence die Geschichte mit Schwertern änderten, tat Howard Carter dasselbe mit Besen. Seine Entdeckung der Grabstätte des jungen Königs Tutankhamun im Tal der Könige faszinierte Archäologen aller Welt und hatte auch einen Einfluss auf die Popkultur. Da die britischen Festungen zu jener Zeit jedoch brannten, konnten die archäologischen Funde Ägypten nicht sicher verlassen. Howard Carter wurde heute tot in seinem Apartment in Luxor aufgefunden - der letzte in einer Reihe von Toden, die mit Tutankhamuns Grabstätte in Verbindung stehen. Doch die Frage bleibt: Waren das alles Zufälle? Oder hat der junge König seine Rache ausgeübt?"
+ egypt_events.145.a: "Das sind doch nur Geschichten...oder?"
+
+ egypt_events.146.t: "Jubiläum des Urabi-Aufstandes"
+ egypt_events.146.d: "Seit 1926 hat sich die Tradition einer jährlichen Parade durch Alexandria und Kafr El Dawwar zur Feier Ahmed 'Urabis verbreitet. Nun gibt es in jeder großen Stadt eine Parade zur Feier des Widerstands gegen den britischen Imperialismus. 'Urabi selbst konnte die Unabhängigkeit Ägyptens leider nicht mehr miterleben, doch sein Widerstand gegen die Tyrannei inspiriert auch heute noch Millionen."
+ egypt_events.146.a: "Ägypten feiert seine Unabhängigkeit."
+
+ egypt_events.147.t: "Lotfia Elnadi fliegt durch Ägypten"
+ egypt_events.147.d: "Heute hat die junge Pilotin Lotfia Elnadi für Aufmerksamkeit gesorgt, nachdem sie einen Flugwettbewerb gewann, in dem mehrere Piloten zwischen Alexandria und Kairo und über einige Pyramiden fliegen mussten. Ihr Sieg wird in ganz Ägypten als Sieg der Frauen gefeiert. Die berühmte Feministin Huda Sha'arawi sammelt nun Geld, um Elnadi ihr eigenes Flugzeug zu kaufen, damit sie nicht mehr von EgyptAir abhängig ist. Viele Frauen wurden durch Elnadi inspiriert und versuchen sich nun ebenfalls in der Kunst des Fliegens."
+ egypt_events.147.a: "Wir leben in einem neuen Zeitalter."
+
+ egypt_events.148.t: "Neue Synagogen"
+ egypt_events.148.d: "Vor Kurzem wurden in vielen der größeren Städte Ägyptens, vor allem in Kairo und Alexandria, neue Synagogen eröffnet. Außerdem wurden viele alte Synagogen restauriert. Diese Projekte zeigen die Vitalität der antiken Minderheit unseres Sultanats."
+ egypt_events.148.a: "Die jüdische Bevölkerung Ägyptens ist so lebhaft wie immer."
+
+ egypt_events.149.t: "Gesellschaft der muslimischen jungen Männer"
+ egypt_events.149.d: "Vor Kurzem wurde die Gesellschaft der muslimischen jungen Männer gegründet. Die G.M.J.M. ist dem Christlichen Verein Junger Menschen recht ähnlich und hilft dabei, Freizeitaktivitäten zu organisieren, darunter sportliche Aktivitäten wie Fußball und religiöse Studien des Korans. Außerdem hat die Organisation durch ihre Bemühungen, die Bildung in Ägypten zu verbessern, Aufmerksamkeit erregt."
+ egypt_events.149.a: "In der G.M.J.M. ist es immer lustig!"
+
+ egypt_events.150.t: "Die Farouk-Universität"
+ egypt_events.150.d: "In Alexandria wurde eine neue Universität eröffnet, welche unseren König ehren soll und deshalb seinen Namen trägt. Bei der Eröffnungszeremonie dieser neuen und modernen Universität war sogar der König selbst anwesend. Der bekannte Intellektuelle Taha Hussein wurde zum ersten Rektor der Universität ernannt."
+ egypt_events.150.a: "Eine neue Universität für ein neues Ägypten."
+
+ egypt_events.160.t: "Dem Kairo-Pakt beitreten?"
+ egypt_events.160.d.MOR: "Die Ägypter haben uns eine Mitgliedschaft im Kairo-Pakt angeboten. Während einige der Meinung sind, wir könnten dadurch unsere Position stärken, glauben andere, dieses Angebot sei lediglich ein Trick, um uns zu einem Untertan Ägyptens und seiner Ambitionen zu machen."
+ egypt_events.160.d.SOM: "Die Ägypter haben uns eine Mitgliedschaft im Kairo-Pakt angeboten, da auch sie einige Probleme mit den Äthiopiern haben. Während einige der Meinung sind, wir könnten dadurch unsere Position stärken, glauben andere, dieses Angebot sei lediglich ein Trick, um uns zu einem Untertan Ägyptens und seiner Ambitionen zu machen."
+ egypt_events.160.d.generic: "Die Ägypter haben uns eine Mitgliedschaft im Kairo-Pakt angeboten. Sie behaupten, ihr Bündnis wäre für alle muslimischen Staaten Afrikas von Vorteil, wenngleich einige Mitglieder unserer Regierung aufgrund der kürzlichen ägyptischen Aggression gegen die Osmanen und Libyen der Meinung sind, diese Behauptung sei eine reine Lüge. Sollten wir dem Pakt dennoch beitreten?"
+ egypt_events.160.a: "Wir werden uns den Ägyptern anschließen."
+ egypt_events.160.b: "Wir brauchen die Ägypter nicht."
+
+ egypt_events.161.t: "[From.GetNameDefCap] tritt dem Kairo-Pakt bei"
+ egypt_events.161.d.SOM: "[From.GetNameDefCap] hat sich dazu entschlossen, unser Angebot anzunehmen und dem Kairo-Pakt beizutreten. Dies sind großartige Neuigkeiten, die uns unserem Sieg über Äthiopien einen Schritt näher bringen."
+ egypt_events.161.d.generic: "[From.GetNameDefCap] hat sich dazu entschlossen, unser Angebot anzunehmen und dem Kairo-Pakt beizutreten."
+ egypt_events.161.a: "Großartig!"
+
+ egypt_events.162.t: "[From.GetNameDefCap] weigert sich, beizutreten"
+ egypt_events.162.d.SOM: "[From.GetNameDefCap] hat sich dazu entschlossen, unser Angebot abzulehnen und dem Kairo-Pakt nicht beizutreten. Nun müssen wir die Äthiopier wohl ohne sie besiegen."
+ egypt_events.162.d.generic: "[From.GetNameDefCap] hat sich dazu entschlossen, unser Angebot abzulehnen und dem Kairo-Pakt nicht beizutreten."
+ egypt_events.162.a: "Verdammt..."
+
+ egypt_events.182.t: "Ägypten lädt uns in die Arabische Liga ein"
+ egypt_events.182.d: "Die im Schatten des Kairo-Paktes gegründete Arabische Liga soll als Bestätigung der panarabischen Einigkeit dienen und hat das Ziel, die Beziehungen zwischen den arabischen Nationen zu verbessern, ihre Institutionen zu modernisieren und eine gemeinsame Außenpolitik gegen den imperialistischen Westen durchzusetzen.\n\nNeben diesen scheinbar ehrbaren Intentionen sehen viele in dieser Organisation jedoch einen Weg für die Ägypter, sich in unsere Innenpolitik einzumischen. Auch ihre Funktion als militärisches Bündnis zum Schutze der arabischen Welt betrachten einige als Werkzeug, mit dem die Kriegstreiber Ägyptens ihre eigenen imperialistischen Ziele in Afrika und dem Nahen Osten verfolgen wollen."
+ egypt_events.182.a: "Wir treten gerne bei!"
+ egypt_events.182.b: "Wir können den Ägyptern nicht trauen."
+
+ egypt_events.183.t: "[FROM.GetNameDefCap] akzeptiert unser Angebot"
+ egypt_events.183.d: "Unsere Freunde in [FROM.GetName] haben unser Angebot akzeptiert und ihren vollständigen Beitritt in die Arabische Liga organisiert. Wie unsere Anzahl wächst auch der Wohlstand der Levante mit jedem neuen Beitritt!"
+ egypt_events.183.a: "Willkommen!"
+
+ egypt_events.184.t: "[FROM.GetNameDefCap] lehnt unser Angebot ab"
+ egypt_events.184.d: "Die abscheulichen Hunde in [FROM.GetName] haben entschieden, dass ihnen ihre Wasserpfeifen und imperialistischen Schuhhändler mehr wert sind als die Einigkeit des arabischen Volkes. Wir werden ihre Meinung wohl kaum ändern können, doch einige Politiker unserer Nation haben sich dennoch gegen diesen widerlichen Verrat ausgesprochen."
+ egypt_events.184.a: "Möge Allah über sie richten!"
 
 #wip loc
- egy.185.t: "Einladung in den Kairo-Pakt"
- egy.185.d: "Die Ägypter haben uns eine Mitgliedschaft im Kairo-Pakt angeboten. Sie behaupten zwar, dass ihr Bündnis für die gesamte arabische Welt von Vorteil wäre, doch einige Mitglieder unserer Regierung zweifeln aufgrund ihrer imperialistischen Ideen an dem Wahrheitsgehalt dieser Behauptung. Sollten wir dem Pakt dennoch beitreten?"
- egy.185.a: "Wir werden uns den Ägyptern anschließen."
- egy.185.b: "Wir brauchen die Ägypter nicht!"
+ egypt_events.185.t: "Einladung in den Kairo-Pakt"
+ egypt_events.185.d: "Die Ägypter haben uns eine Mitgliedschaft im Kairo-Pakt angeboten. Sie behaupten zwar, dass ihr Bündnis für die gesamte arabische Welt von Vorteil wäre, doch einige Mitglieder unserer Regierung zweifeln aufgrund ihrer imperialistischen Ideen an dem Wahrheitsgehalt dieser Behauptung. Sollten wir dem Pakt dennoch beitreten?"
+ egypt_events.185.a: "Wir werden uns den Ägyptern anschließen."
+ egypt_events.185.b: "Wir brauchen die Ägypter nicht!"
 
- egy.186.t: "Der Irak tritt dem Kairo-Pakt bei"
- egy.186.d: "Die Iraker haben sich dazu entschlossen, unser Angebot anzunehmen und dem Kairo-Pakt beizutreten."
- egy.186.a: "Großartig!"
+ egypt_events.186.t: "Der Irak tritt dem Kairo-Pakt bei"
+ egypt_events.186.d: "Die Iraker haben sich dazu entschlossen, unser Angebot anzunehmen und dem Kairo-Pakt beizutreten."
+ egypt_events.186.a: "Großartig!"
 
- egy.187.t: "Der Irak lehnt unser Angebot ab"
- egy.187.d: "Die Iraker haben sich dazu entschlossen, unser Angebot abzulehnen und dem Kairo-Pakt nicht beizutreten."
- egy.187.a: "Verdammt sollen sie sein!"
+ egypt_events.187.t: "Der Irak lehnt unser Angebot ab"
+ egypt_events.187.d: "Die Iraker haben sich dazu entschlossen, unser Angebot abzulehnen und dem Kairo-Pakt nicht beizutreten."
+ egypt_events.187.a: "Verdammt sollen sie sein!"
 
- egy.188.t: "Aufstieg der HIMT"
- egy.188.d: "Obwohl kaum jemand glaubt, dass die HIMT eine gänzlich libysche Initiative ist, wurde die Partei (die eine Vereinigung Ägyptens und Libyens anstrebt) in letzter Zeit immer beliebter. Ihre Broschüren, Plakate und anderen Propagandamaßnahmen fluten Tripolitanien regelrecht. Obwohl die Regierung vermutet, dass das Geld für diese Maßnahmen direkt aus Kairo stammt, gibt es dafür noch keine Beweise, weshalb sie einem diplomatischen Zwischenfall fürs Erste aus dem Weg gehen will."
- egy.188.a: "Äußerst verdächtig..."
+ egypt_events.188.t: "Aufstieg der HIMT"
+ egypt_events.188.d: "Obwohl kaum jemand glaubt, dass die HIMT eine gänzlich libysche Initiative ist, wurde die Partei (die eine Vereinigung Ägyptens und Libyens anstrebt) in letzter Zeit immer beliebter. Ihre Broschüren, Plakate und anderen Propagandamaßnahmen fluten Tripolitanien regelrecht. Obwohl die Regierung vermutet, dass das Geld für diese Maßnahmen direkt aus Kairo stammt, gibt es dafür noch keine Beweise, weshalb sie einem diplomatischen Zwischenfall fürs Erste aus dem Weg gehen will."
+ egypt_events.188.a: "Äußerst verdächtig..."
 
- egy.189.t: "Panarabische Propaganda flutet die Nation"
- egy.189.d: "Inspiriert vom Sieg der arabischen Allianz in der Levante-Krise stellen sich nun tausende junge Libyer hinter panarabische Bewegungen, während Organisationen wie der Unionssportsclub für junge Libyer und der al-Mukhtar Club die Massen vom Traum eines vereinten Arabiens, das sich von Marokko bis zum Iran erstreckt, begeistern."
- egy.189.a: "Verdammt!"
+ egypt_events.189.t: "Panarabische Propaganda flutet die Nation"
+ egypt_events.189.d: "Inspiriert vom Sieg der arabischen Allianz in der Levante-Krise stellen sich nun tausende junge Libyer hinter panarabische Bewegungen, während Organisationen wie der Unionssportsclub für junge Libyer und der al-Mukhtar Club die Massen vom Traum eines vereinten Arabiens, das sich von Marokko bis zum Iran erstreckt, begeistern."
+ egypt_events.189.a: "Verdammt!"
 
- egy.190.t: "Unterstützung für die Regierung geht zurück"
- egy.190.d: "Da diejenigen, die eine Vereinigung aller Araber anstreben, unserem Volk ein großartiges und besseres Libyen versprechen, stoßen die Bemühungen der Regierung, den tripolitanischen Nationalismus zu fördern, auf taube Ohren. Selbst Schülern werden nun schon die Geschichten großer ägyptischer Helden wie Saladin und Mohammed Naguib beigebracht, während die echte libysche Geschichte gänzlich vernachlässigt wird."
- egy.190.a: "Verdammt!"
+ egypt_events.190.t: "Unterstützung für die Regierung geht zurück"
+ egypt_events.190.d: "Da diejenigen, die eine Vereinigung aller Araber anstreben, unserem Volk ein großartiges und besseres Libyen versprechen, stoßen die Bemühungen der Regierung, den tripolitanischen Nationalismus zu fördern, auf taube Ohren. Selbst Schülern werden nun schon die Geschichten großer ägyptischer Helden wie Saladin und Mohammed Naguib beigebracht, während die echte libysche Geschichte gänzlich vernachlässigt wird."
+ egypt_events.190.a: "Verdammt!"
 
- egy.192.t: "Staatsstreich der HIMT in Tripolis"
- egy.192.d: "Die HIMT hat die Leidenschaft ihrer panarabischen Unterstützer ausgenutzt und heute Morgen einen Staatsstreich inszeniert. Politiker, andere wichtige Persönlichkeiten und Feinde der Bewegung wurden geweckt und kurz darauf in die Randgebiete der Stadt gebracht - wo sie ihren verfrühten Tod fanden.\n\nWährend die Menschen Tripolis die Armeeparade zelebrieren, beobachten die Matronen der Stadt die Geschehnisse von ihrem Balkon aus. Ihnen bleibt nichts anderes übrig, als mit dem Kopf zu schütteln, an ihre Söhne und Ehemänner zu denken, die für die tripolitanische Unabhängigkeit bluteten, und sich zu fragen, ob ihre Heimat jemals Frieden finden wird."
- egy.192.a: "So endet der tripolitanische Staat..."
+ egypt_events.192.t: "Staatsstreich der HIMT in Tripolis"
+ egypt_events.192.d: "Die HIMT hat die Leidenschaft ihrer panarabischen Unterstützer ausgenutzt und heute Morgen einen Staatsstreich inszeniert. Politiker, andere wichtige Persönlichkeiten und Feinde der Bewegung wurden geweckt und kurz darauf in die Randgebiete der Stadt gebracht - wo sie ihren verfrühten Tod fanden.\n\nWährend die Menschen Tripolis die Armeeparade zelebrieren, beobachten die Matronen der Stadt die Geschehnisse von ihrem Balkon aus. Ihnen bleibt nichts anderes übrig, als mit dem Kopf zu schütteln, an ihre Söhne und Ehemänner zu denken, die für die tripolitanische Unabhängigkeit bluteten, und sich zu fragen, ob ihre Heimat jemals Frieden finden wird."
+ egypt_events.192.a: "So endet der tripolitanische Staat..."
 
- egy.193.t: "Staatsstreich in Tripolitanien"
- egy.193.d: "Die HIMT hat die Leidenschaft ihrer panarabischen Unterstützer ausgenutzt und heute Morgen einen Staatsstreich inszeniert. Politiker, andere wichtige Persönlichkeiten und Feinde der Bewegung wurden geweckt und kurz darauf in die Randgebiete der Stadt gebracht - wo sie ihren verfrühten Tod fanden.\n\nWährend die Menschen Tripolis die Armeeparade zelebrieren, beobachten die Matronen der Stadt die Geschehnisse von ihrem Balkon aus. Ihnen bleibt nichts anderes übrig, als mit dem Kopf zu schütteln, an ihre Söhne und Ehemänner zu denken, die für die tripolitanische Unabhängigkeit bluteten, und sich zu fragen, ob ihre Heimat jemals Frieden finden wird."
- egy.193.a: "Einfach fabelhaft!"
+ egypt_events.193.t: "Staatsstreich in Tripolitanien"
+ egypt_events.193.d: "Die HIMT hat die Leidenschaft ihrer panarabischen Unterstützer ausgenutzt und heute Morgen einen Staatsstreich inszeniert. Politiker, andere wichtige Persönlichkeiten und Feinde der Bewegung wurden geweckt und kurz darauf in die Randgebiete der Stadt gebracht - wo sie ihren verfrühten Tod fanden.\n\nWährend die Menschen Tripolis die Armeeparade zelebrieren, beobachten die Matronen der Stadt die Geschehnisse von ihrem Balkon aus. Ihnen bleibt nichts anderes übrig, als mit dem Kopf zu schütteln, an ihre Söhne und Ehemänner zu denken, die für die tripolitanische Unabhängigkeit bluteten, und sich zu fragen, ob ihre Heimat jemals Frieden finden wird."
+ egypt_events.193.a: "Einfach fabelhaft!"
 
- egy.194.t: "Ägypten schlägt die Vereinigung vor"
- egy.194.d: "Die ägyptische Regierung will die Beziehungen zwischen Tripolitanien und Ägypten noch weiter stärken und hat deshalb die vollständige Vereinigung unserer beiden Nationen vorgeschlagen, ein weiterer Schritt in Richtung eines arabischen Staates. Unsere Regierung, die erst vor Kurzem die Regierungsgewalt von ihren zivilen Vorgängern übernommen hat, hat hart daran gearbeitet, diese Union zu realisieren, und ist deshalb durchaus froh darüber, dass dieser Zeitpunkt nun endlich gekommen ist. Das Volk ist jedoch weniger enthusiastisch und fragt sich, ob Tripolitanien seine Unabhängigkeit so schnell wieder aufgeben sollte."
- egy.194.a: "Wir akzeptieren!"
- egy.194.b: "Niemals!"
+ egypt_events.194.t: "Ägypten schlägt die Vereinigung vor"
+ egypt_events.194.d: "Die ägyptische Regierung will die Beziehungen zwischen Tripolitanien und Ägypten noch weiter stärken und hat deshalb die vollständige Vereinigung unserer beiden Nationen vorgeschlagen, ein weiterer Schritt in Richtung eines arabischen Staates. Unsere Regierung, die erst vor Kurzem die Regierungsgewalt von ihren zivilen Vorgängern übernommen hat, hat hart daran gearbeitet, diese Union zu realisieren, und ist deshalb durchaus froh darüber, dass dieser Zeitpunkt nun endlich gekommen ist. Das Volk ist jedoch weniger enthusiastisch und fragt sich, ob Tripolitanien seine Unabhängigkeit so schnell wieder aufgeben sollte."
+ egypt_events.194.a: "Wir akzeptieren!"
+ egypt_events.194.b: "Niemals!"
 
- egy.196.t: "Tripolitanien verweigert die Vereinigung"
- egy.196.d: "Tripolitanien sagt nein."
- egy.196.a: "Verräter!"
+ egypt_events.196.t: "Tripolitanien verweigert die Vereinigung"
+ egypt_events.196.d: "Tripolitanien sagt nein."
+ egypt_events.196.a: "Verräter!"
 
- egy.197.t: "Tripolitanien bekämpft unseren Einfluss"
- egy.197.d: "Wie es scheint, hat die tripolitanische Regierung von unserem letzten Versuch, den panarabischen Traum auch in ihrer Nation zu verbreiten, Wind bekommen und tut nun alles in ihrer Macht stehende, um ihre Bürger vor dieser "ausländischen Täuschung zu schützen". Es ist zwar ein Rückschlag, doch unsere Behörde in Kairo ist sich sicher, dass dieser nur von kurzer Dauer sein wird, und arbeitet hart daran, sicherzustellen, dass die nächste Operation einen größeren Erfolg haben wird."
- egy.197.a: "Ein kleiner Rückschlag."
+ egypt_events.197.t: "Tripolitanien bekämpft unseren Einfluss"
+ egypt_events.197.d: "Wie es scheint, hat die tripolitanische Regierung von unserem letzten Versuch, den panarabischen Traum auch in ihrer Nation zu verbreiten, Wind bekommen und tut nun alles in ihrer Macht stehende, um ihre Bürger vor dieser "ausländischen Täuschung zu schützen". Es ist zwar ein Rückschlag, doch unsere Behörde in Kairo ist sich sicher, dass dieser nur von kurzer Dauer sein wird, und arbeitet hart daran, sicherzustellen, dass die nächste Operation einen größeren Erfolg haben wird."
+ egypt_events.197.a: "Ein kleiner Rückschlag."
 
- # Verwendet ottfla.0 Titel und Antwort
- egy.200.d: "Während der Herrschaft von Mohammad Ali verlangte er, dass ganz Ägypten weiß, wann der Ramadan endet. Zu diesem Zweck stellte er eine Kanone auf, die am ersten Tag des Zuckerfestes in der Morgendämmerung abgefeuert wurde. Heute sind in ganz Ägypten, von den Städten bis zum Land, Kanonen zu hören, wenn sich die Menschen darauf vorbereiten, das Ende des Ramadan zu feiern.
+ egypt_events.200.t: "$ottomans_flavour_events.0.t$"
+ egypt_events.200.d: "Während der Herrschaft von Mohammad Ali verlangte er, dass ganz Ägypten weiß, wann der Ramadan endet. Zu diesem Zweck stellte er eine Kanone auf, die am ersten Tag des Zuckerfestes in der Morgendämmerung abgefeuert wurde. Heute sind in ganz Ägypten, von den Städten bis zum Land, Kanonen zu hören, wenn sich die Menschen darauf vorbereiten, das Ende des Ramadan zu feiern.
+ egypt_events.200.a: "$ottomans_flavour_events.0.a$"
 
- egy.201.t: "Der Zweite Mahdistische Aufstand"
- egy.201.d: "Der Sudan ist seit langem als Land der religiösen Brandstifter und wilden Völker bekannt, eine Tatsache, die selbst das britische Empire in seiner Blütezeit Ende des letzten Jahrhunderts feststellen musste. Nun scheinen die Ägypter erneut mit einer ernsthaften Revolte in der südlichen Region konfrontiert zu sein, angeführt von Abd al-Rahman al-Mahdi, dem Sohn von Muhammad Ahmad, dem Mahdi der ursprünglichen Rebellion von 1881.\n\nAbd al-Rahman, der von einem Balkon in Khartum zum gottgewollten Widerstand gegen die ägyptischen Besatzer aufrief, hat mit seiner kraftvollen Rhetorik zum völligen Zusammenbruch der Herrschaft Kairos in der Region beigetragen. Auch wenn unklar ist, ob er die Unterstützung der meisten sudanesischen Stämme hat, ist klar, dass ein brutaler Krieg bevorsteht."
- egy.201.a: "Das sollte gut sein."
+ egypt_events.201.t: "Der Zweite Mahdistische Aufstand"
+ egypt_events.201.d: "Der Sudan ist seit langem als Land der religiösen Brandstifter und wilden Völker bekannt, eine Tatsache, die selbst das britische Empire in seiner Blütezeit Ende des letzten Jahrhunderts feststellen musste. Nun scheinen die Ägypter erneut mit einer ernsthaften Revolte in der südlichen Region konfrontiert zu sein, angeführt von Abd al-Rahman al-Mahdi, dem Sohn von Muhammad Ahmad, dem Mahdi der ursprünglichen Rebellion von 1881.\n\nAbd al-Rahman, der von einem Balkon in Khartum zum gottgewollten Widerstand gegen die ägyptischen Besatzer aufrief, hat mit seiner kraftvollen Rhetorik zum völligen Zusammenbruch der Herrschaft Kairos in der Region beigetragen. Auch wenn unklar ist, ob er die Unterstützung der meisten sudanesischen Stämme hat, ist klar, dass ein brutaler Krieg bevorsteht."
+ egypt_events.201.a: "Das sollte gut sein."
 
 ### Cosmetic Tags ###
  EGY: "Ägypten"
