@@ -139,8 +139,8 @@ GRE_referendum_close: "Der Ausgang des Referendums wird §Yzu knapp, um ihn vorh
 GRE_alexander_becomes_king: "Alexander wird König Aléxandros I. von Griechenland\n"
 GRE_george_becomes_king: "Georg wird König Geórgios II. von Griechenland\n"
 GRE_paul_becomes_king: "Paul wird König Pávlos I. von Griechenland\n"
- GRE_turks_own_limited_greece: "[TUR.GetName] besitzt keine anderen [GRE.GetAdjective] Kerne als §HZypern§! oder die §HÄgäischen Inseln§!"
- GRE_greeks_own_limited_turkey: "[GRE.GetName] besitzt keine anderen [TUR.GetAdjective] Kerne als §HKomotini§! oder §HKardzhali§!"
+GRE_turks_own_limited_greece: "[TUR.GetName] besitzt keine anderen [GRE.GetAdjective] Kerne als §HZypern§! oder die §HÄgäischen Inseln§!"
+GRE_greeks_own_limited_turkey: "[GRE.GetName] besitzt keine anderen [TUR.GetAdjective] Kerne als §HKomotini§! oder §HKardzhali§!"
 GRE_recent_mission: "Hat in den letzten 90 Tage eine diplomatische Mission entsandt"
 GRE_controls_claimed_states: "Alle beanspruchten Nicht-Insel-Staaten in §Y[From.GetNameDef]§! werden von [Root.GetName] oder einem Verbündeten kontrolliert"
 GRE_socialists_banned_elections: "Allen syndikalistischen und sozialistischen Parteien wird die Teilnahme an Wahlen untersagt.\n"
@@ -150,8 +150,8 @@ GRE_balkan_war_loss: "Griechenland hat am Balkankrieg teilgenommen und verloren"
 GRE_ships_done_1: "Wir haben mit dem Marineprogramm begonnen."
 GRE_ships_done_2: "Das Marineprogramm wird fortgesetzt."
 GRE_regained_OTT_lands: "§Y[GRE.GetName]§! hat sein gesamtes beanspruchtes Land von §Y[TUR.GetName]§!"
- ott_gre_will_join_sarajevo: "§C[GRE.GetName] wird das Abkommen von Sarajewo ratifizieren, ihm bei seiner Gründung beitreten und den größten Teil der Ägäis von [TUR.GetName] erhalten.§!"
- ott_gre_dealing_hurdle: "§R[GRE.GetName] wird sich bei künftigen Verhandlungen mit uns sehr zurückhalten.§!"
+ott_gre_will_join_sarajevo: "§C[GRE.GetName] wird das Abkommen von Sarajewo ratifizieren, ihm bei seiner Gründung beitreten und den größten Teil der Ägäis von [TUR.GetName] erhalten.§!"
+ott_gre_dealing_hurdle: "§R[GRE.GetName] wird sich bei künftigen Verhandlungen mit uns sehr zurückhalten.§!"
 
 ### Focuses ###
 GRE_black_monday_focus: "Schwarzer Montag"
@@ -482,439 +482,439 @@ GRE_country_intro_content: "In den Jahren seit der Niederlage Griechenlands im W
 GRE_country_intro_header_1: "Die Herausforderungen der Zukunft"
 GRE_country_intro_content_1: "Die neue Republik, die sich ihrer nächsten Wahl 1938 gegenübersieht, steht vor mehreren Herausforderungen: Am stärksten ist die brodelnde Verärgerung über den Verlust des griechischen Territoriums. Die meisten sind sicher, dass der Krieg bald wieder aufflammt und viele Gruppen wie etwa die syndikalistischen Rebellen und die drohende Figur des Ioannis Metaxas warten nur auf den ersten Moment, in dem die Regierung den geringsten Fehltritt macht. Auch der monarchistische Gedanke nimmt zu; viele fordern bereits, bald ein weiteres Referendum abzuhalten, um zu entscheiden, ob das Königreich wiederhergestellt werden soll... auch wenn die Republikaner befürchten, dass dies die Nation nur ein weiteres Mal in die Anarchie stürzen könnte."
 
-GRE_guide: "§MRepublik siegreich§! ( §SSozialdemokraten§! / §lSozial-Liberal§! / §mMarktliberal§! / §cSozialkonservativ§!)\n£white_dot Sammeln Sie Unterstützung für die republikanische Seite, die zum Referendum über die Monarchie führen soll.\n£white_dot Wenn Sie das Referendum zugunsten der Republikaner manipulieren, vermeiden Sie, dass dies auf Kosten der Stabilität und der PP abgedeckt wird.\n£white_dot Entweder verbieten Sie die Syndikalisten nicht von den Wahlen, oder Sie gewinnen den Bürgerkrieg gegen sie. \n£white_dot Im Jahr 1938 werden Sie die EEK, die NFE, die KF und die LK wählen können.\n£white_dot Im Jahr 1942 werden Sie die NFE, die KF, die LK und, falls nicht verboten, die syndikalistische KEKE wählen können.\n\n§MKönig Alexander / König Georg§! (§lSozialliberal§! / §mMarktliberal§! / §cSozialkonservativ§! / §aAutoritär Demokratisch§!)\n£white_dot Sammeln Sie Unterstützung für die monarchistische Seite, die zum Referendum über die Monarchie führt.\n£white_dot Wenn Sie das Referendum zugunsten der Monarchisten manipulieren, vermeiden Sie, dass dies auf Kosten von Stabilität und PP abgedeckt wird.\n£white_dot Entweder verbieten Sie die Radikalsozialisten nicht von den Wahlen, oder Sie gewinnen den Bürgerkrieg gegen sie. \n£white_dot Die Krönung von Geórgios wird zu einer autoritär-demokratischen Monarchie führen.\n£white_dot Die Krönung von König Aléxandros kann zu einer autoritär-demokratischen Monarchie führen, wenn man den Fokus Stärke den Thron wählt. Ansonsten werden die Wahlen beibehalten.\n£white_dot Wenn die Sozialisten verboten wurden, können Sie NFE, KF oder LK wählen.\n£white_dot Wenn die Sozialisten nicht verboten wurden, können Sie ARM, NFE oder LK wählen.\n\n§MMetaxas stürzt die Republik§! (§PPaternal Autokrat§!)\n£white_dot Fälschen Sie das Referendum zugunsten der Republikaner.\n£white_dot Lassen Sie die Fälschung auffliegen. Ioannis Metaxas wird die Republik stürzen.\n£white_dot Von da an kann Metaxas Diktator bleiben oder König Pávlos auf den Thron setzen, indem er den Schwerpunkt Wiederherstellung der Monarchie wählt.\n\n§MRevolution§! (§rSyndikalisten§! / §oTotalisten§!)\n£white_dot Fälschen Sie das Referendum zugunsten der Monarchisten.\n£white_dot Lassen Sie die Fälschung auffliegen. Die Syndikalisten werden die Macht übernehmen.\n£white_dot Gewinnen Sie den Bürgerkrieg gegen Metaxas.\nOder:\n£white_dot Lassen Sie die Republikaner das Referendum über die Monarchie gewinnen.\n£white_dot Verbieten Sie die Syndikalisten nicht von den Wahlen.\n£white_dot Wählen Sie 1942 die Syndikalisten.\n£white_dot Nach dem Ersten Griechischen Kongress können Sie zwischen Zachariadis' syndikalistischer KEKE und Klaras' totalistischer EAM für die Führung des Landes wählen.\n\n§MAgrotikó Dimokratikó Métopo§! (§RRadikale Sozialisten§!)\n£white_dot Lassen Sie die Monarchisten das Referendum über die Monarchie gewinnen.\n£white_dot Verbieten Sie der Radikalsozialistischen ARM nicht die Teilnahme an den Wahlen.\n£white_dot Krönen Sie König Aléxandros und halten Sie die Wahlen aufrecht.\n£white_dot Wählen Sie die ARM 1942, sie wird Griechenland in eine sozialistische Republik verwandeln."
+GRE_guide: "§MRepublik§! ($social_democrat_coloured$ / $social_liberal_coloured$ / $market_liberal_coloured$ / $social_conservative_coloured$)\n£white_dot Sammeln Sie Unterstützung für die republikanische Seite, die zum Referendum über die Monarchie führen soll.\n£white_dot Wenn Sie das Referendum zugunsten der Republikaner manipulieren, vermeiden Sie, dass dies auf Kosten der Stabilität und der PP abgedeckt wird.\n£white_dot Entweder verbieten Sie die Syndikalisten nicht von den Wahlen, oder Sie gewinnen den Bürgerkrieg gegen sie. \n£white_dot Im Jahr 1938 werden Sie die EEK, die NFE, die KF und die LK wählen können.\n£white_dot Im Jahr 1942 werden Sie die NFE, die KF, die LK und, falls nicht verboten, die syndikalistische KEKE wählen können.\n\n§MKönig Alexander / König Georg§! ($social_liberal_coloured$ / $market_liberal_coloured$ / $social_conservative_coloured$ / $authoritarian_democrat_coloured$)\n£white_dot Sammeln Sie Unterstützung für die monarchistische Seite, die zum Referendum über die Monarchie führt.\n£white_dot Wenn Sie das Referendum zugunsten der Monarchisten manipulieren, vermeiden Sie, dass dies auf Kosten von Stabilität und PP abgedeckt wird.\n£white_dot Entweder verbieten Sie die Radikalsozialisten nicht von den Wahlen, oder Sie gewinnen den Bürgerkrieg gegen sie. \n£white_dot Die Krönung von Geórgios wird zu einer autoritär-demokratischen Monarchie führen.\n£white_dot Die Krönung von König Aléxandros kann zu einer autoritär-demokratischen Monarchie führen, wenn man den Fokus Stärke den Thron wählt. Ansonsten werden die Wahlen beibehalten.\n£white_dot Wenn die Sozialisten verboten wurden, können Sie NFE, KF oder LK wählen.\n£white_dot Wenn die Sozialisten nicht verboten wurden, können Sie ARM, NFE oder LK wählen.\n\n§MMetaxas§! ($paternal_autocrat_coloured$)\n£white_dot Fälschen Sie das Referendum zugunsten der Republikaner.\n£white_dot Lassen Sie die Fälschung auffliegen. Ioannis Metaxas wird die Republik stürzen.\n£white_dot Von da an kann Metaxas Diktator bleiben oder König Pávlos auf den Thron setzen, indem er den Schwerpunkt Wiederherstellung der Monarchie wählt.\n\n§MRevolution§! ($syndicalist_coloured$ / $totalist_coloured$)\n£white_dot Fälschen Sie das Referendum zugunsten der Monarchisten.\n£white_dot Lassen Sie die Fälschung auffliegen. Die Syndikalisten werden die Macht übernehmen.\n£white_dot Gewinnen Sie den Bürgerkrieg gegen Metaxas.\nOder:\n£white_dot Lassen Sie die Republikaner das Referendum über die Monarchie gewinnen.\n£white_dot Verbieten Sie die Syndikalisten nicht von den Wahlen.\n£white_dot Wählen Sie 1942 die Syndikalisten.\n£white_dot Nach dem Ersten Griechischen Kongress können Sie zwischen Zachariadis' syndikalistischer KEKE und Klaras' totalistischer EAM für die Führung des Landes wählen.\n\n§MAgrotikó Dimokratikó Métopo§! ($radical_socialist_coloured$)\n£white_dot Lassen Sie die Monarchisten das Referendum über die Monarchie gewinnen.\n£white_dot Verbieten Sie der Radikalsozialistischen ARM nicht die Teilnahme an den Wahlen.\n£white_dot Krönen Sie König Aléxandros und halten Sie die Wahlen aufrecht.\n£white_dot Wählen Sie die ARM 1942, sie wird Griechenland in eine sozialistische Republik verwandeln."
 
 ### Events
-gre.3.t: "Unabhängigkeitstag"
-gre.3.d: "1821 erhoben sich die Griechen gegen das repressive Osmanische Reich, das Griechenland fast vierhundert Jahre lang besetzt hatte. Bischof Germanos von Patras hob mutig die griechische Flagge im Kloster Agia Lavras und leitete damit die griechische Revolution ein. Auch wenn das genaue Datum wahrscheinlich nicht der 25. März war, geschah es dennoch Ende März und wurde allmählich mit dem religiösen Fest der Verkündigung verbunden, das am selben Tag stattfindet. Am Tag des Festes der Verkündigung erschien der Erzengel Gabriel der Jungfrau Maria und verkündete die Nachricht, dass sie mit dem göttlichen Kind schwanger war. Bischof Germanos entschied sich an diesem Tag für eine andere, aber nicht bezuglose Botschaft, ein neuer Geist solle in Griechenland geboren werden."
-gre.3.a: "Ein neuer Geist soll erneut geboren werden!"
-
-gre.4.d: "[Root.GetNameDef] feiert einmal wieder seinen Unabhängigkeitstag. In Athen und anderen Städten säumen Menschenmassen die Straßen, die alle die griechische Flagge schwenken und \"Ýmnos is tin Eleftherían\" singen - die Hymne an die Freiheit und die Nationalhymne des Landes. Trotz aller Schwierigkeiten, denen das Land ausgesetzt ist, sind die Menschen immer noch bereit, ihr Gefühl der Unabhängigkeit von denen zu feiern, die sie einst unterdrückten."
-gre.4.a: "Heil dir, o Heil dir, Freiheit!"
-
-gre.5.t: "Der Schwarze Montag trifft Griechenland!"
-gre.5.d: "Der rapide deutsche Wirtschaftseinbruch hat unsere Nation erreicht! Unsere Abhängigkeit vom Handel mit Deutschland und der mitteleuropäischen Dominanz unserer Wirtschaft hat die Krise verschärft, sodass viele deutsche Fabriken angewiesen wurden, die Produktion einzustellen. Schlimmer noch, die Ausbreitung der Krise hat zu einem Mangel an Märkten für unsere Agrarexporte geführt, und bereits jetzt stehen die Landwirte vor einer Krise, in der fast keiner von ihnen ihre Ernten verkaufen kann. Wir müssen schnell daran arbeiten, diese Krise zu bewältigen, damit sie nicht außer Kontrolle gerät und Chaos in unserem Land auslöst."
-gre.5.a: "O Theós na mas voithísei!"
-
-gre.6.t: "Antwort auf die Krise"
-gre.6.d: "Angesichts der Zahl der Landwirte, die mit ihrer Ernte allein sind und diese nirgendwo verkauft können, bleibt uns eine Wahl: Entweder wir unterstützen sie für das laufende Jahr und ermutigen sie, von ihrer Exportabhängigkeit abzuweichen, oder wir greifen tief in unsere Taschen und unterstützen sie voll und ganz, bis die Wirtschaftskrise vorbei ist."
-gre.6.a: "Helft ihnen, so gut wir können."
-gre.6.b: "Greift tief - Sie sind das Rückgrat Griechenlands."
-
-gre.7.t: "Industrie in ausländischer Hand"
-gre.7.d: "Fast die Hälfte unserer Wirtschaft befindet sich im Besitz von Investoren in Deutschland und Österreich, doch nach dem Schwarzen Montag haben viele ihrer Minen und Fabriken geschlossen - einige, weil sie unrentabel geworden sind, andere, weil die Investoren versuchen, Geld zu sparen oder bankrott gegangen sind. In beiden Fällen wurden viele tausend Griechen arbeitslos gemacht. Der Vorschlag lautet, dass wir diese Besitztümer oder zumindest die schlimmsten Fälle beschlagnahmen sollten, ungeachtet des Vertrags von Salonika, der uns dies verbietet. Die einzige Möglichkeit, eine Gegenreaktion beider Länder zu verhindern, besteht jedoch darin, die Investoren aus eigener Tasche zu subventionieren... ein zutiefst unbeliebter Schritt, sollten wir es versuchen, das steht fest."
-gre.7.a: "Beschlagnahmt alles, ganz gleich, welche Auswirkungen es hat."
-gre.7.b: "Kümmert euch nur um die schlimmsten Fälle."
-gre.7.c: "Subventioniert die Investoren selbst - sie sollten besser dankbar sein."
-
-gre.8.t: "Griechenland beschlagnahmt [Root.GetAdjective]en Besitz"
-gre.8.d: "Dank der heftigen Auswirkungen des Schwarzen Montags haben [Root.GetAdjective]e Investoren, die Mehrheitsanteile an griechischen Fabriken und Minen hielten, diese Unternehmen geschlossen - in einigen Fällen, weil sie unrentabel sind, aber in anderen, weil die Investoren bankrott gegangen sind. Die griechische Regierung hat die Unternehmen daraufhin beschlagnahmt, obwohl der nach dem Krieg unterzeichnete Vertrag von Salonika vorsieht, dass unsere Investoren ungehinderten Zugang zu ihrer Wirtschaft haben sollten. Viele in der Regierung raten uns, hart zu reagieren und nicht nur Sanktionen zu verhängen, sondern [From.GetNameDef] ganz aus dem Spiel zu nehmen und alle Investitionen zurückzuziehen. Andere sagen jedoch, dass das Land lediglich versuche, sich über Wasser zu halten - der Schwarze Montag hat uns alle hart getroffen."
-gre.8.a: "Verhängt Sanktionen und zieht alle Geschäfte auf einmal heraus."
-gre.8.b: "Verhängt nur die Sanktionen und äußert unsere Empörung."
-gre.8.c: "Lasst sie in Ruhe - wir versuchen alle, damit fertig zu werden."
-
-gre.9.t: "[From.GetNameDefCap] verhängt harte Sanktionen"
-gre.9.d: "Die [From.GetAdjective]e Regierung hat als Reaktion auf unseren Verstoß gegen den Vertrag von Salonika eine Reihe von Wirtschaftssanktionen verhängt - einschließlich des Abzuges aller Vermögensmittel aus dem Land, auch derjenigen, die noch in Betrieb waren -, ist aber zum Glück nicht weiter gegangen. Dieser Schritt wird sicherlich einige Jahre stechen und hat die Beziehungen zwischen unseren Ländern ernsthaft beeinträchtigt."
-gre.9.a: "Es musste getan werden."
-
-gre.10.t: "[From.GetNameDefCap] verhängt Sanktionen"
-gre.10.d: "Die [From.GetAdjective]e Regierung hat als Reaktion auf unseren Verstoß gegen den Vertrag von Salonika eine Reihe von Wirtschaftssanktionen verhängt, ist aber zum Glück nicht weiter gegangen. Dieser Schritt wird sicherlich einige Jahre stechen und hat die Beziehungen zwischen unseren Ländern beeinträchtigt."
-
-gre.11.t: "Griechenland beschlagnahmt [Root.GetAdjective]en Besitz"
-gre.11.d: "Dank der heftigen Auswirkungen des Schwarzen Montags haben [Root.GetAdjective]e Investoren, die Mehrheitsanteile an griechischen Fabriken und Minen hielten, diese Unternehmen geschlossen - in einigen Fällen, weil sie unrentabel sind, aber in anderen, weil die Investoren bankrott gegangen sind. Die griechische Regierung hat daraufhin viele der schlimmsten Fälle beschlagnahmt, obwohl der nach dem Krieg unterzeichnete Vertrag von Salonika vorsieht, dass unsere Investoren ungehinderten Zugang zu ihrer Wirtschaft haben sollten. Viele in der Regierung schlagen vor, dass wir mit Sanktionen reagieren, während andere sagen, dass die Griechen lediglich täten, was sie tun müssen, um zu überleben - sie hätten schließlich auch allen Besitz beschlagnahmen können, wenn sie es gewollt hätten, und nicht nur einige."
-gre.11.a: "Verhängt Sanktionen - sie müssen eine Lektion lernen."
-
-gre.12.t: "Monarchisten verlangen Referendum"
-gre.12.d: "Mehrere prominente Aristokraten, angeführt von dem einflussreichen ehemaligen General Ioannis Metaxas, stürmten heute das Parlament und forderten die Regierung auf, ein Referendum über die Zukunft der Monarchie einzuleiten. Sie sagen, dass die Frage ein für allemal geklärt werden müsse, die Regierung habe sie zu lange vor sich hergeschoben. Ihre Position hat auch in der Bevölkerung große Unterstützung gefunden."
-gre.12.a: "Vielleicht sollten wir darüber nachdenken?"
-
-gre.14.t: "[From.GetNameDefCap] bittet um Beitritt zu [Root.GetFactionName]"
-gre.14.d: "Die [From.GetAdjective]e Regierung hat eine formelle Anfrage gestellt, um in [Root.GetFactionName] aufgenommen zu werden. Sind sie es wert, dass wir möglicherweise auch in ihre Konflikte auf dem Balkan hineingezogen werden?"
-gre.14.a: "Selbstverständlich!"
-gre.14.b: "Sie machen mehr Ärger, als sie wert sind."
-
-gre.15.t: "Wir sind Teil von [From.GetFactionName]"
-gre.15.d: "Die [From.GetAdjective]e Regierung hat zugestimmt, uns in ihr Bündnis aufzunehmen. Wir sind nun offiziell Teil von [From.GetFactionName]."
-gre.15.a: "Ausgezeichnet."
-
-gre.16.t: "[From.GetNameDefCap] hat abgelehnt"
-gre.16.d: "Möglicherweise weil sie entschieden hat, dass wir mehr Ärger machen, als wir wert sind, hat sich die [From.GetAdjective]e Regierung geweigert, uns in [From.GetFactionName] aufzunehmen."
-gre.16.a: "Nun gut."
-
-gre.17.t: "Massive Demonstrationen gegen die Regierung"
-gre.17.d: "Die Niederlage des Landes im Krieg hat [Root.GetNameDef] in umfangreiche Demonstrationen gestürzt, die alle den sofortigen Rücktritt der Regierung fordern. Tatsächlich ist es offensichtlich, dass sich allmählich Truppen aufstellen, um die Kontrolle des Landes mit Gewalt zu übernehmen, sollte die Regierung nicht zurücktreten. Es wird befürchtet, dass unser Land kurz vor einem Bürgerkrieg steht."
-gre.17.a: "Das ist eine Katastrophe!"
-
-gre.18.t: "Die Regierung nähert sich dem Zusammenbruch"
-gre.18.d: "Die Demonstrationen gegen die Regierung wurden fortgesetzt, doch inzwischen hat die Situation endgültig eine kritische Masse erreicht. Wenn die Regierung nicht sofort zurücktritt, könnten radikale Elemente die Kontrolle übernehmen oder das Land könnte gar vollständig in Chaos versinken."
-gre.18.a: "Ioannis Metaxas treue Truppen übernehmen um für Ordnung zu sorgen."
-gre.18.b: "Athanasios Klaras hat durch einen Putsch die Kontrolle an sich gerissen."
-gre.18.c: "Die Armee übernimmt die Kontrolle und verspricht freie, demokratische Wahlen."
-gre.18.e: "Der König verzichtet auf den Thron, die Republik wird wiederhergestellt."
-gre.18.f: "Die Regierung tritt zurück und verspricht sofortige Neuwahlen."
-gre.18.g: "Die Regierung kapituliert vor den Rebellen."
-
-gre.19.t: "Der Tod Ioannis Metaxas'"
-gre.19.d.ishos: "[Root.GetNameDef] hat seinen Präsidenten, Ioannis Metaxas, verloren. Er starb heute an einem Halsphlegmon. Er wurde von Alexandros Koryzis, dem von ihm gewählten Nachfolger, abgelöst, wenngleich viele befürchten, dass Koryzis nicht hoffen kann, Metaxas' persönliche Ausstrahlung und militärische Leistungen aufzubringen. Während Metaxas zwar bei vielen als umstritten galt, säumten die Menschen trotzdem die Straßen des Landes, um seinen Tod zu beklagen."
-gre.19.d.nothos: "Der ehemalige General Ioannis Metaxas, ein Kriegsheld und Politiker, der für seine starken Überzeugungen bekannt war, starb heute an einem Halsphlegmon. Während Metaxas zwar bei vielen als umstritten galt, säumten die Menschen trotzdem die Straßen des Landes, um seinen Tod zu beklagen."
-gre.19.a: "Man wird ihn in Erinnerung behalten."
-
-gre.20.t: "Der Tod Alexandros Papanastasious"
-gre.20.d.ishos: "Premierminister Alexandros Papanastasiou ist heute an einem plötzlichen Herzinfarkt gestorben. Während die Nation seinen Tod betrauert, hat der ehemalige General Nikolaos Plastiras seine Aufgaben und die Führung der Nationalen Unionistischen Partei übernommen."
-gre.20.d.nothos: "Alexandros Papanastasiou, Vorsitzender der Nationalen Unionistischen Partei, ist heute an einem plötzlichen Herzinfarkt gestorben. Der ehemalige General Nikolaos Plastiras hat die Führung der Partei übernommen und hielt heute in Athen eine Rede zu Ehren des Mannes, der mit seinen Worten \"bis zum letzten Atemzug [GRE.GetNameDef] bedient\" habe."
-gre.20.a: "Ein guter Mann."
-
-gre.21.t: "Kostas Gavriilides tritt zurück"
-gre.21.d.ishos: "Kostas Gavriilides, langjähriger Führer der radikalen Ländlich-Demokratischen Front und Präsident Griechenlands, ist heute von seiner Position zurückgetreten, um in den Ruhestand zu gehen. Nach einer Debatte innerhalb der Partei wurde die Führung an den von Gavriilides gewählten Nachfolger Nikos Ploumpidis übergeben."
-gre.21.d.nothos: "Kostas Gavriilides, langjähriger Führer der radikalen Ländlich-Demokratischen Front, ist heute von seiner Position zurückgetreten, um in den Ruhestand zu gehen. Nach einer Debatte innerhalb der Partei wurde die Führung an den von Gavriilides gewählten Nachfolger Nikos Ploumpidis übergeben."
-gre.21.a: "Gut."
-
-gre.22.t: "Der Papandreou-Skandal"
-gre.22.d: "Eine Reihe von Ministern der Regierung wurden in einen Korruptionsskandal verwickelt, der von der Presse aufgedeckt wurde, doch heute war die Nation schockiert, als sie erfuhr, dass auch Premierminister Georgios Papandreou angeklagt wird. Obwohl es offensichtlich keine ausreichenden Beweise für eine formelle Anklage gibt, genügte der Skandal, um die Neue Liberale Koalition darüber nachdenken zu lassen, ob Papandreou weiterhin der Parteivorsitzende sein sollte."
-gre.22.a: "Panagiotis Kanellopoulos übernimmt die Kontrolle der Partei."
-gre.22.b: "Papandreou hält nach einer knappen Abstimmung an der Führung fest."
-
-gre.23.t: "Der Tod Themistoklis Soufilis'"
-gre.23.d.ishos: "Premierminister Themistoklis Soufilis ist heute gestorben, nachdem seine Gesundheit bereits seit der Machtübernahme bei der letzten Wahl gelitten hatte. Obwohl die meisten Regierungsmitglieder nicht davon überrascht wurden, da sie dies monatelang erwartet hatten, war die Nation vor Schreck überwältigt und Trauernde säumen die Straßen Athens. Die Führung seines Flügels der Liberalen Partei ist seinem Stellvertreter Konstantinos Tsatsos übertragen worden."
-gre.23.d.nothos: "Themistoklis Soufilis ist heute gestorben, nachdem seine Gesundheit bereits seit der letzten Wahl gelitten hatte. Obwohl die meisten Mitglieder der Liberalen Partei nicht davon überrascht wurden, da sie dies monatelang erwartet hatten, reagierte die Nation mit Bestürzen und Trauernde säumen die Straßen Athens. Die Führung seines Flügels der Liberalen Partei ist seinem Stellvertreter Konstantinos Tsatsos übertragen worden."
-gre.23.a: "Man wird ihn vermissen."
-
-gre.24.t: "Der Tod Panagis Tsaldaris'"
-gre.24.d: "Panagis Tsaldaris, Vorsitzender der Volkspartei, ist heute an den Folgen seines degenerativen Gesundheitszustandes gestorben, der ihn seit der Übernahme der Parteispitze vor einigen Jahren geplagt hat. Während Trauernde seinen Tod verkündeten, fiel seine Führungsrolle inzwischen auf seinen Neffen Konstantinos Tsaldaris. Der neue Chef der Volkspartei erklärte in einer Rede, dass er beabsichtige, \"das Vermächtnis seines Onkels mit ganzem Herzen fortzusetzen\"."
-gre.24.a: "Nicht überraschend."
-
-gre.50.t: "Nationale Wahlen von [GetYear]"
-gre.50.d: "Es ist an der Zeit, dass die Griechen an die Urnen gehen, während die großen Parteien hart dafür kämpfen, die Kontrolle über die Regierung zu erlangen."
-gre.50.a: "Die Volkspartei ist siegreich."
-gre.50.b: "Die Neue Liberale Koalition hat die Oberhand."
-gre.50.c: "Der Liberalen Partei gelingt der Sieg"
-gre.50.e: "Die Nationale Unionistische Partei überrascht mit einem Sieg."
-
-gre.51.t: "Nationale Wahlen von [GetYear]"
-gre.51.d.noban: "Da die sozialistischen Agrarianer erhebliche Fortschritte gemacht haben und einen Großteil der verbleibenden antimonarchistischen Stimmung auffangen, könnten die traditionellen politischen Parteien bei den heutigen Wahlen schwer unter Druck stehen, zu gewinnen."
-gre.51.d.ban: "Das Wahlverbot für sozialistische Agrarier hat diese Wahl in gewisser Weise zu einer illegitimen gemacht, doch trotzdem hat sich das griechische Volk an den Urnen versammelt, um eine neue Regierung zu wählen."
-gre.51.a: "Die Volkspartei gewinnt."
-gre.51.b: "Die Ländlich-Demokratische Front ist siegreich."
-gre.51.c: "Eine Koalition aus Liberalen und gemäßigten Sozialisten hat die Oberhand."
-
-gre.52.t: "Nationale Wahlen von [GetYear]"
-gre.52.d.noban: "Die Syndikalisten haben von ihrer Koalition mit den gemäßigten Sozialisten profitiert und stellen nun eine echte Bedrohung dar, während das griechische Volk an die Urnen geht. Die Welt sieht nervös zu, während die Wahlergebnisse eintreffen..."
-gre.52.d.ban: "Das Wahlverbot für Syndikalisten und sozialistische Agrarier hat diese Wahl in gewisser Weise zu einer illegitimen gemacht, doch trotzdem hat sich das griechische Volk an den Urnen versammelt, um eine neue Regierung zu wählen."
-gre.52.a: "Die Volkspartei erlebt einen überraschenden Aufschwung"
-gre.52.b: "Die Neue Liberale Koalition hat die Oberhand."
-gre.52.c: "Die Liberale Partei ist siegreich."
-gre.52.e: "Die Soziale Arbeiterpartei Griechenlands holt sich die Wahl!"
-
-gre.53.t: "Die Wiederherstellung der Demokratie"
-gre.53.d: "Die Armee hat ihr Versprechen gehalten. Heute ziehen die Griechen zu den Urnen, um eine neue Regierung zu wählen."
-
-gre.54.t: "Die neue Regierung"
-gre.54.d: "Während die Wahlen an sich umstritten sind, steht ein Ergebnis fest: Die ehemalige griechische Regierung hat null Chancen auf einen Sieg. Bei diesem Wettbewerb geht es einzig und allein darum, wer diejenigen ersetzen wird, die in den Augen der Bürger den Krieg verloren haben."
-
-gre.100.t: "Das Referendum beginnt"
-gre.100.d: "Dem ehemaligen König Alexander, der sich derzeit zusammen mit dem Rest der königlichen Familie im Exil befindet, wurde mitgeteilt, dass das Referendum über die Zukunft der Monarchie begonnen hat. Es wurden bereits Grenzen gezogen, während die Pro-Republikaner und Pro-Monarchisten versuchen, alles und jeden davon zu überzeugen, wie sie abstimmen sollten. Es werden ein paar schwierige Monate vergehen, bis die Abstimmung tatsächlich stattfindet, und es wird erwartet, dass es für Griechenland keine friedliche Zeit sein wird."
-gre.100.a: "Hoffentlich gibt es keinen Ärger..."
-
-gre.101.t: "Monarchisten auf den Straße"
-gre.101.d: "Die pro-monarchistischen Kräfte führen eifrig Kampagnen in den Straßen Athens und anderer griechischer Städte. Sie verteilen Pamphlete, die suggerieren, die Regierung habe ihre Arbeit nicht getan und brauche einen König, um über uns zu wachen. Sie gewinnen beträchtlich an Zugkraft, einige schlagen bereits vor, wir sollten uns bemühen, dies zu unterbinden, bevor ihr Handeln außer Kontrolle gerät."
-gre.101.a: "Erlaubt ihnen, ihre Pamphlete zu verteilen."
-gre.101.b: "Wir müssen diesen Unsinn unterbinden."
-
-gre.102.t: "Die republikanische Kampagne"
-gre.102.d: "Es gibt eine Reihe von Beratern in der Regierung, die angesichts der Aussicht auf einen monarchistischen Sieg nervös werden. Sie schlagen vor, dass wir eine eigene Kampagne zugunsten der Republikaner finanzieren sollten - natürlich in aller Stille, um keinen unangemessenen Verdacht zu erwecken, wir üben zu viel Einfluss auf die Ergebnisse aus. Ein solcher Zug wäre jedoch genau das, was unsere Gegner von uns wollen."
-gre.102.a: "Ja, wir sollten diese Bemühungen finanzieren."
-gre.102.b: "Nein, wir sollten uns nicht einmischen."
-gre.102.c: "Verhindert solche Gespräche innerhalb unserer Regierung."
-
-gre.103.t: "Aristokratischer Lobbyismus"
-gre.103.d: "Berichten zufolge kauft sich eine große Zahl wohlhabender griechischer Aristokraten eifrig Einfluss innerhalb der Regierung. Sie nennen das \"Lobbyismus\"... und wie man sich erzählt, haben sie dabei die Unterstützung des einflussreichen Ioannis Metaxas, der sich selbst für die Wiederherstellung der Monarchie stark gemacht hat. Wenn wir zulassen, dass Einflussnahmen dieser Art weitergehen, werden die Monarchisten bei der bevorstehenden Volksabstimmung definitiv einen Vorteil haben."
-gre.103.a: "Wir werden es erlauben."
-gre.103.b: "Setzt einen Stopp für diesen \"Lobbyismus\" auf."
-
-gre.104.t: "Die Syndikalisten sammeln sich"
-gre.104.d: "Die Syndikalisten haben überall im Norden kleine Kundgebungen abgehalten und für morgen ist eine gewaltige Kundgebung in der Stadt Athen geplant. Der charismatische Nikos Zachariadis, Führer der Kinonikó Ergatikó Kómma, soll angeblich eine feurige Rede gegen die Monarchie und alles, wofür sie steht, vorbereitet haben. Es wird jedoch befürchtet, dass Zachariadis weiter gehen könnte, als lediglich republikanische Unterstützung zu schüren und auch Unterstützung für seine eigenen, revolutionären Ideen gewinnen könnte."
-gre.104.a: "Erlaubt die Kundgebung."
-gre.104.b: "Schickt die Polizei, um sie, wenn nötig, mit Gewalt aufzulösen."
-
-gre.105.t: "Monarchistischer Aufstand"
-gre.105.d: "In Athen sind Aufstände entbrannt, da die Befürchtungen monarchistischer Anhänger, sie könnten das bevorstehende Referendum verlieren, von Anschuldigungen gefolgt wurden, unsere Regierung habe versucht, es zu manipulieren. Es gab erhebliche Schäden und eine große Zahl von Angriffen auf republikanische Anhänger und deren Hauptquartiere. Wenn wir nicht bald etwas tun, wird der Schaden für die republikanische Sache erheblich sein."
-gre.105.a: "Dämmt sie ein, aber zeigt Nachsicht."
-gre.105.b: "Beendet sie mit äußerster Gründlichkeit"
-
-gre.106.t: "Republikanischer Aufstand"
-gre.106.d: "In Athen sind Aufstände entbrannt, da die Befürchtungen republikanischer Anhänger, sie könnten das bevorstehende Referendum verlieren, von Anschuldigungen gefolgt wurden, unsere Regierung habe versucht, es zu manipulieren. Es gab erhebliche Schäden und eine große Zahl von Angriffen auf mehrere Aristokraten, sowie republikanische Anhänger und deren Hauptquartiere. Wenn wir nicht bald etwas tun, wird der Schaden für die monarchistische Sache erheblich sein."
-
-gre.107.t: "Monarchisten sind im Vorteil"
-gre.107.d: "Die Stimmung in Griechenland vor der Abstimmung scheint die Monarchisten zu begünstigen. Einige schlagen vor, dass, falls die Regierung noch eingreifen wolle, jetzt die Zeit reif wäre, um das Referendum zu manipulieren. Je populärer die Monarchisten werden, desto unwahrscheinlicher ist es, dass die Manipulation erfolgreich geheim gehalten werden kann, doch Berater sagen, dass die Alternative darin besteht, dass die Monarchisten gewinnen könnten."
-gre.107.a: "Wir müssen das Ergebnis zugunsten der Republik manipulieren."
-gre.107.b: "Gewinnen könnten? Wir müssen das Referendum manipulieren, um es zu garantieren!"
-gre.107.c: "Tut nichts - wir werden die legitimen Ergebnisse akzeptieren."
-
-gre.108.t: "Republikaner sind im Vorteil"
-gre.108.d: "Die Stimmung in Griechenland vor der Abstimmung scheint die Republikaner zu begünstigen. Einige schlagen vor, dass, falls die Regierung noch eingreifen wolle, jetzt die Zeit reif wäre, um das Referendum zu manipulieren. Je populärer die Republikaner werden, desto unwahrscheinlicher ist es, dass die Manipulation erfolgreich geheim gehalten werden kann, doch Berater sagen, dass die Alternative darin besteht, dass die Republikaner gewinnen könnten."
-gre.108.a: "Wir müssen das Ergebnis zugunsten der Monarchie manipulieren."
-
-gre.109.t: "Die Abstimmung beginnt"
-gre.109.d: "Heute hat in ganz Griechenland die Abstimmung über das Referendum zur Entscheidung über die Zukunft der Vierten Republik begonnen. König Alexander ist in Athen vor Ort, nachdem er erstmals seit seinem Exil ins Land zurückgekehrt ist. Es wird jedoch noch einige Tage dauern, bis die Endergebnisse feststehen."
-gre.109.a: "Wir sitzen auf glühenden Kohlen."
-
-gre.111.t: "Republikanischer Sieg"
-gre.111.d: "Die Frage nach der Zukunft der Monarchie ist endgültig geklärt, und die Antwort lautet, dass die Vierte Republik weiterleben wird. Der König und der Rest der königlichen Familie werden ins Exil zurückkehren, und auch wenn es einige Zeit dauern wird, bis sich die Stärke der Republik gefestigt hat, scheint die Debatte nun endlich vorbei zu sein."
-gre.111.a: "Lang lebe die griechische Republik!"
-
-gre.112.t: "Monarchistischer Sieg"
-gre.112.d: "Die Frage nach der Zukunft der Republik ist endlich geklärt, und mit einem Fest im ganzen Land begrüßt das Volk die königliche Familie zurück. Es gibt jedoch bereits Meinungsverschiedenheiten darüber, wer den Thron übernehmen soll: Soll es König Alexander sein, der unbeliebte jüngere Bruder, der den Thron nur bestieg, nachdem sein Vater und sein Bruder ins Exil geschickt worden waren, oder Prinz Georg, der Bruder, der der eigentliche Erbe sein sollte und trotzdem nie König gewesen ist? Alexander gilt als die gemäßigtere und legitimere Wahl, wenn man Georgs autokratische Tendenzen bedenkt, doch Georg ist eindeutig der Liebling des Volkes."
-gre.112.a: "Wir werden in Kürze entscheiden müssen."
-
-gre.113.t: "Verdacht auf Manipulation"
-gre.113.d.monarchist: "Während sich die Monarchisten beim Referendum als Sieger erwiesen haben, gibt es viele Republikaner, die die Regierung verdächtigen, die Ergebnisse manipuliert zu haben... genug, dass ihre Anhänger massenhaft auf die Straßen der ganzen Nation strömten, um eine Ermittlung zu fordern. Der syndikalistische Anführer Nikos Zachariadis ist Vorreiter dieser Forderungen und viele befürchten, dass, wenn auch nur das geringste Beweisstück eines Betrugs aufgedeckt wird, dies ausreichen würde, um den Syndikalisten zu erlauben, die Regierung durch einen Massenputsch zu stürzen."
-gre.113.d.republican: "Während sich die Republikaner beim Referendum als Sieger erwiesen haben, gibt es viele Monarchisten, die die Regierung verdächtigen, die Ergebnisse manipuliert zu haben... genug, dass ihre Anhänger massenhaft auf die Straßen der ganzen Nation strömten, um eine Ermittlung zu fordern. Der ehemalige General Ioannis Metaxas ist Vorreiter dieser Forderungen und viele befürchten, dass, wenn auch nur das geringste Beweisstück eines Betrugs aufgedeckt wird, dies ausreichen würde, um Metaxas zu erlauben, die Regierung durch einen Massenputsch zu stürzen."
-gre.113.a: "Die Manipulation ist aufgeflogen!"
-gre.113.b: "Keine Beweise werden aufgedeckt und die Proteste verklingen."
-
-gre.114.t: "Der Metaxas-Putsch"
-gre.114.d: "Unsere schlimmsten Befürchtungen haben sich bestätigt: Der Versuch, die Wahl zugunsten der Republik zu manipulieren, wurde aufgedeckt, nachdem mehrere Regierungsbeamte mit Beweisen an die Öffentlichkeit gegangen sind. Im ganzen Land haben sich Unruhen ausgebreitet und der ehemalige General Ioannis Metaxas ist eingeschritten, um die Macht zu übernehmen. Er und zahlreiche Anhänger der Armee haben das Parlament gestürmt, Regierungsführer verhaftet und Metaxas zum Übergangspräsidenten und Diktator erklärt."
-gre.114.a: "So endet die Demokratie in Griechenland ein weiteres Mal..."
-
-gre.115.t: "Der Syndikalisten-Putsch"
-gre.115.d: "Unsere schlimmsten Befürchtungen haben sich bestätigt: Der Versuch, die Wahl zugunsten der Monarchie zu manipulieren, wurde aufgedeckt, nachdem mehrere Regierungsbeamte mit Beweisen an die Öffentlichkeit gegangen sind. Im ganzen Land haben sich Unruhen ausgebreitet und der Syndikalistenführer Athanasios Klaras ist eingeschritten, um die Macht zu übernehmen. Er und zahlreiche Anhänger der Armee haben das Parlament gestürmt, Regierungsführer verhaftet und Nikos Zachariadis zum Übergangspräsidenten und Diktator erklärt. Es gibt zwar einen gewissen Widerstand, doch der Zorn über die Aktionen der Regierung hat dazu geführt, dass die Syndikalisten mehr Unterstützung haben, als sie sonst genossen hätten."
-
-gre.116.t: "Putsch in Griechenland"
-gre.116.d.metaxas: "Nachdem das Vertrauen in die griechische Regierung auf einem neuen Tiefpunkt angelangt ist und sich Unruhen im ganzen Land ausgebreitet haben, ist der ehemalige General Ioannis Metaxas eingeschritten, um die Kontrolle zu übernehmen, hat das Parlament in Athen übernommen und sich selbst zum Diktator erklärt. Er erklärte Griechenland außerdem für frei von der [Root.GetAdjective]en Herrschaft und gelobte, jede Vergeltung zu bekämpfen, sollte sie auftreten."
-gre.116.d.syndicalist: "Nachdem das Vertrauen in die griechische Regierung auf einem neuen Tiefpunkt angelangt ist und sich Unruhen im ganzen Land ausgebreitet haben, ist der syndikalistische Kraftprotz Athanasios Klaras eingeschritten, um die Kontrolle zu übernehmen, hat das Parlament in Athen übernommen und Nikos Zachariadis zusammen mit den syndikalistischen Kommunen zu den Führern der neuen Republik erklärt. Er erklärte Griechenland außerdem für frei von der [Root.GetAdjective]en Herrschaft und gelobte, jede Vergeltung zu bekämpfen, sollte sie auftreten."
-gre.116.a: "Damit werden sie nicht so leicht davonkommen."
-gre.116.b: "Uns bleibt keine Wahl, als sie walten zu lassen."
-
-gre.117.t: "Die Monarchistenfrage"
-gre.117.d: "Es steht außer Frage, dass die Monarchisten das Referendum verloren haben. Es ist jedoch nicht das erste Mal - sie werden irgendwann zurückkommen, es sei denn, wir können sicherstellen, dass dies das letzte Mal war, dass sie daran denken, diese Frage zu stellen. Einige schlagen vor, dass wir mit der Säuberung aller verbleibenden oder verdächtigten Monarchisten aus Regierung und Armee beginnen sollten. Andere hingegen sagen, wir sollten einen sanfteren Ansatz wählen, damit unser Versuch, die Republik zu stärken, sie nicht stattdessen schwächt."
-gre.117.a: "Sie zu reinigen ist der einzige Weg."
-gre.117.b: "Lasst sie bleiben - die Frage ist geklärt."
-
-gre.118.t: "Die Republikanerfrage"
-gre.118.d: "Es steht außer Frage, dass die Republikaner das Referendum verloren haben. Es ist jedoch nicht das erste Mal - sie werden irgendwann zurückkommen, es sei denn, wir können sicherstellen, dass dies das letzte Mal war, dass sie daran denken, diese Frage zu stellen. Einige schlagen vor, dass wir mit der Säuberung aller verbleibenden oder verdächtigten Republikaner aus Regierung und Armee beginnen sollten. Andere hingegen sagen, dass wir einen sanfteren Ansatz wählen sollten, damit unser Versuch, die Monarchie zu stärken, sie nicht schwächt."
-gre.118.a: "Sie zu beseitigen ist der einzige Weg."
-gre.118.b: "Sie sollen bleiben - die Frage ist geklärt."
-
-gre.119.t: "Aufstieg der Agrarier"
-gre.119.d: "Da die Monarchisten die Nation nun fest unter ihrer Kontrolle haben, haben diejenigen, die den republikanischen Werten treu geblieben sind, begonnen, sich von liberalen Parteien abzuwenden und sich stattdessen bei den sozialistischen Agrarianer unter der Ländlich-Demokratischen Front zu sammeln. Ihr Glück wird besonders durch die Unterstützung der griechischen Syndikalisten gestützt, die die Vereinigung unter dem agrarischen Banner als einzige Möglichkeit sehen, die Monarchisten und Konservativen, die jetzt die Kontrolle über die Nation haben, zu besiegen. Führende Mitglieder der Ländlich-Demokratischen Front haben in den letzten Wochen die gemäßigte Linke umworben und sollten sie mit ihren Bemühungen Erfolg haben, werden die Agrarier bei den kommenden Wahlen eine machtvolle Kraft darstellen."
-gre.119.a: "Ziemlich beunruhigend..."
-gre.119.b: "Verbietet sie von den Wahlen."
-
-gre.120.t: "Eine liberale und sozialistische Koalition"
-gre.120.d: "Es gab zwar Befürchtungen, dass die gemäßigten Sozialisten sich mit den harten Agrariern verbünden würden, doch scheinen diese Befürchtungen unbegründet gewesen zu sein. Heute kündigte die Nationale Unionistische Partei eine Koalition mit der Liberalen Partei an, wobei Georgios Papandreou und Nikolaos Plastiras Berichten zufolge eine Vereinbarung zur Bildung eines gemeinsamen Kabinetts ausgehandelt haben. Dies wird die Bemühungen der Ländlich-Demokratischen Front zunichte machen und möglicherweise bei der nächsten Wahl eine Bedrohung für die Volkspartei darstellen."
-gre.120.a: "Interessant."
-
-gre.121.t: "Die Linke vereint sich"
-gre.121.d: "Als Reaktion auf die republikanische Kontrolle über [GRE.GetNameDef] haben sich Parteien auf der linken Seite des Spektrums unter dem syndikalistischen Führer Nikos Zachariadis zusammengeschlossen, der bei den bevorstehenden Wahlen kandidieren will. Er wird mit der Unterstützung der gemäßigten Sozialisten eine ernsthafte Bedrohung darstellen. In der Regierung wird bereits davon gesprochen, die Syndikalisten zu verbieten, obwohl ihre Popularität darauf hindeutet, dass ein Versuch, dies zu tun, die Nation sofort in einen Bürgerkrieg stürzen könnte."
-gre.121.a: "Sie können sowieso nicht gewinnen."
-gre.121.b: "Verbietet sie von den Wahlen."
-
-gre.122.t: "Die Syndikalisten erheben sich"
-gre.122.d: "Nachdem die Linke von den griechischen Wahlen ausgeschlossen wurde, hat sie ihre Anhänger im Norden versammelt und eine Kampagne gestartet, um [Root.GetNameDef] zu übernehmen. Der Bürgerkrieg hat begonnen!"
-gre.122.a: "Das werden sie bereuen."
-
-gre.150.t: "Der erste Hellenische Kongress"
-gre.150.d: "Syndikalisten und Gewerkschaftsführer aus dem ganzen Land trafen sich diese Woche in Athen, um über die Zukunft der Hellenischen Republik zu diskutieren. Wohin gehört sie in der internationalen sozialistischen Gemeinschaft? Wie soll ihre Wirtschaft umstrukturiert werden? Was geschieht mit den verbleibenden Republikanern und Monarchisten, die sich sicherlich gegen die neue Ordnung wehren werden? Am Ende wurde der Kongress zu einem Kampf zwischen zwei Männern: dem amtierenden Vorsitzenden Nikos Zachariadis und dem charismatischen General Athanasios Klaras. Klaras's Vision für Griechenland ist weit weniger nachsichtig und weitaus mehr darauf ausgerichtet, das Land in eine Militärmacht zu verwandeln, während Zachariadis argumentiert, dass dieser Weg Griechenland auf lange Sicht zerstören wird."
-gre.150.a: "Zachariadis behält die Kontrolle."
-gre.150.b: "Athanasios Klaras bestimmt letztendlich den Raum."
-
-gre.151.t: "Einrichtung der Kommunen"
-gre.151.d: "Während die Gewerkschaften durchaus gewillt sind, wird die Umstellung der gesamten [Root.GetAdjective]en Wirtschaft auf ein sozialistisches Modell eine Herausforderung sein. Einige schlagen vor, keine Gnade zu zeigen - schnelle Industrialisierung sei ein notwendiges Ziel der Kommunen und wer nicht schnell genug nachkomme, sollte bestraft werden. Andere sagen, dass eine diplomatischere Taktik notwendig sei: Wir sollten mit den Kapitalisten zusammenarbeiten und sie davon überzeugen, dass die Kommunen ihnen nützen können, und Anreize verwenden, um sie für uns zu gewinnen. Wieder andere sagen, dass es die Gewerkschaften seien, die den Weg weisen sollten - sie sollten direkter an der Regierung mitwirken und dem Land beweisen, dass die Kommunen eine Regierung durch den Arbeiter sind."
-gre.151.a: "Erweitert die industrielle Basis, ohne Rücksicht auf die Kosten."
-gre.151.b: "Führt das Land behutsam mit Anreizen."
-gre.151.c: "Die Gewerkschaften müssen diesen Wandel anstoßen - lasst sie die Führung übernehmen."
-
-gre.152.t: "Wiederaufbau der Nation"
-gre.152.d: "Nachdem die Kapitalisten Griechenlands unterjocht wurden, bleibt uns nur noch, die Wirtschaft des Landes von Grund auf wiederaufzubauen. Dazu wendet sich die Regierung an die Dioitikis - den Führer -, um eine Richtung vorzugeben, was die wichtigste Priorität für die Zukunft sein sollte."
-gre.152.a: "Wir müssen unserer Militärmacht ausbauen."
-gre.152.b: "Eine starke Zivilindustrie wird unser Grundstein sein."
-gre.152.c: "Einheit ist wichtiger als die Wirtschaft."
-
-gre.153.t: "Gewerkschaftsmarsch in Thessalien"
-gre.153.d: "Die Auswirkungen des Schwarzen Montags sind in ganz Griechenland zu spüren, doch die hart getroffenen Industriearbeiter marschieren nun aus Protest auf der Straße. In Thessalien sind die Menschenmassen besonders groß, angefeuert von Gewerkschaftsführern und dem charismatischen syndikalistischen Sprecher Nikos Zachariadis. Die Syndikalisten gewinnen ein breites Publikum und viele in der Regierung schlagen vor, hart gegen sie vorzugehen, bevor sie eine weitere Chance haben, mehr Aufruhr zu verbreiten."
-gre.153.a: "Greift gegen diese Demagogen durch."
-gre.153.b: "Halten Sie sie in Schach, aber wir wollen keine Gewalt."
-
-gre.154.t: "Die Landwirtschaftkrise"
-gre.154.d: "Ein Großteil der griechischen Wirtschaft hängt von Agrarexporten ab - und so bleibt mit dem Zusammenbruch der europäischen Märkte nach dem Beginn des Schwarzen Montags eine große Zahl griechischer Landwirte mit Ernten zurück, die sie nicht verkaufen können. Damit befinden sie sich nicht nur in einer unmittelbaren Krise, sondern auch Griechenland wird die Auswirkungen in den kommenden Jahren spüren, wenn jetzt zu viele der Gemeinden zusammenbrechen. Tausende von Bauern marschieren auf den Straßen, und die radikal agrarische Stimmung ist hoch."
-gre.154.a: "Das ist nicht gut..."
-
-gre.155.t: "Die Santos-Verschwörung"
-gre.155.d: "Der griechische Anführer Athanasios Klaras ist vieles, aber ein Anführer, der die Menschen vereint, ist er nicht. Es gab bereits zahlreiche Konflikte innerhalb der Regierung, der schwerwiegendste war eine wachsende Spaltung zwischen Klarass und dem Parteifunktionär Georgios Santos. Kürzlich wurde bekannt, dass Santos und ein Kreis von Gefährten einen Plan ausgearbeitet haben, Klaras als Anführer zu verdrängen, auch wenn Klaras wahrscheinlich nicht ohne weiteres gehen wird..."
-gre.155.a: "Georgios Santos übernimmt die Parteiführung."
-gre.155.b: "Santos wird hingerichtet - Athanasios Klaras herrscht."
-
-gre.156.t: "Der zweite Hellenische Kongress"
-gre.156.d: "Syndikalisten und Gewerkschaftsführer aus dem ganzen Land trafen sich diese Woche in Athen, um über den Parteivorsitz abzustimmen, wobei Nikos Zachariadis diesmal vom langjährigen Parteimitglied Konstantinos Speras herausgefordert wurde. Speras soll eine gemäßigtere Wahl sein und viele der weniger radikalen Syndikalisten anziehen, die der Meinung sind, dass [GRE.GetNameDef] nicht länger von einer harten Haltung profitieren würde."
-gre.156.a: "Zachariadis führt ein neues Kabinett ein und behält die Kontrolle."
-gre.156.b: "Konstantinos Speras gewinnt die meisten Stimmen und wird Vorsitzender."
-
-gre.157.t: "Der dritte Hellenische Kongress"
-gre.157.d.zach: "Als der dritte syndikalistische Kongress begann, kündigte Nikos Zachariadis an, nicht mehr für den Vorsitz kandidieren zu wollen - für viele eine Überraschung, wenn man bedenkt, wie beliebt dieser Mann nach wie vor ist. Während viele den Kongress für einen traurigen Abschied von ihrem Anführer halten, müssen die Delegierten nun seinen Nachfolger wählen: entweder den gemäßigten Konstantinos Speras, der erneut antritt, oder den neuen und charismatischen Aufsteiger Nikos Beloyannis."
-gre.157.d.notzach: "Syndikalisten und Gewerkschaftsführer aus dem ganzen Land trafen sich diese Woche in Athen, um über den Parteivorsitz abzustimmen, wobei Konstantinos Speras vom jungen, charismatischen Aufsteiger Nikos Beloyannis herausgefordert wurde, der trotz seines Alters bereits eine große Anzahl von Delegierten für sich gewonnen hat."
-gre.157.a: "Konstantinos Speras behält die Kontrolle."
-gre.157.b: "Konstantinos Speras gewinnt die Mehrheit der Stimmen."
-gre.157.c: "Aufsteiger Nikos Beloyannis gewinnt den Rat für sich."
-
-gre.158.t: "Metaxas macht seinen Zug"
-gre.158.d: "Ioannis Metaxas weigert sich, die Umwandlung Griechenlands in einen sozialistischen Staat zu akzeptieren und hat eine große Zahl treuer Soldaten und Generäle versammelt um im Norden eine Rebellion zu starten. Seine Absicht ist es, die Regierung gewaltsam zu stürzen und sie in ihren \"natürlichen\" Zustand zurückzuversetzen."
-gre.158.a: "Er muss aufgehalten werden!"
-
-gre.200.t: "Diplomatische Ouvertüren aus Griechenland"
-gre.200.d: "Während unsere Beziehungen zu den Griechen seit ihrer Rebellion gegen die türkische Herrschaft im 19. Jahrhundert bestenfalls als kühl bezeichnet werde können, hat [GRE.GetNameDef] uns heute mehrere Abgesandte zugesandt, die hoffnungsvoll sind, eine neue Ära des Friedens zwischen unseren Nationen einzuleiten - vielleicht sogar so weit, um einen Tausch von Land und Leuten auszuarbeiten, ohne dass wir zu einem weiteren Krieg greifen müssen. Für heute suchen sie jedoch lediglich einen Indikator dafür, dass wir in Zukunft offen für solche Gespräche sein könnten."
-gre.200.a: "Wir begrüßen bessere Beziehungen zu den Griechen."
-gre.200.b: "Nein, das ist nicht nötig."
-
- gre.201.t: "Verhandlungen mit [FROM.GetNameDefCap] stocken"
- gre.201.d: "Die [FROM.GetAdjective]-Regierung scheint mit [ROOT.GetNameDef] Spielchen zu treiben, indem sie im Kreis redet und die gleichen Argumente vorbringt, während sie ihre eigenen Forderungen erhöht und im Laufe der Gespräche keine weiteren Zugeständnisse macht. Unser Außenminister hat angedeutet, dass eine Fortsetzung der Verhandlungen nichts mehr bringt."
- gre.201.a: "Rufen Sie unser diplomatisches Korps zurück. Wir müssen uns auf alle Eventualitäten dieser Art vorbereiten."
-
- gre.202.t: "[TUR.GetNameDefCap] lädt zu weiteren Gesprächen ein"
- gre.202.d: "Die Regierung von [TUR.GetAdjective] hat sich unsere friedlichen Absichten zu eigen gemacht und scheint großes Interesse an weiteren Gesprächen mit [ROOT.GetNameDef] zu haben."
- gre.202.a: "Ein vielversprechender Start."
-
- gre.203.t: "Ein Griechisch-Türkisches Tauwetter?"
- gre.203.d: "Seit mehreren Wochen führen Beamte von [Root.GetAdjective] Gespräche mit Abgesandten der Regierung von [GRE.GetAdjective] über die Möglichkeit eines Kooperationsvertrags. Dies würde ein Ende der Feindseligkeiten mit den Griechen und eine diplomatische Entspannung bedeuten, da sich die Spannungen in der Welt weiter zu verschärfen scheinen.\n\nDie Griechen sind nicht zimperlich, wenn es um ihren Ausgangspunkt für die Verhandlungen geht. Sie fordern, dass wir einen großen Teil der Ägäis abtreten, den sie als integralen Bestandteil ihres Erbes betrachten. Darüber hinaus würden beide Seiten auf weitere Ansprüche verzichten und das Gebiet der jeweils anderen Seite als unantastbar anerkennen, was die Verbundenheit von [TUR.Capital.GetCapitalVictoryPointName] und [GRE.Capital.GetCapitalVictoryPointName] zementieren und den Druck von außen abwehren würde, die Grenzen zu korrigieren. Wir müssten auch eine durchlässige Grenze zwischen unseren Staaten zulassen, die den Weg für einen freiwilligen Bevölkerungsaustausch ebnet, wobei den Türken in [GRE.GetNameDef] ein Freibrief und die Freiheit gegeben wird, nach [Root.GetNameDef] zu migrieren, während wir im Gegenzug unserer viel größeren Zahl von Griechen erlauben, dasselbe zu tun und möglicherweise in ihr Land zu gehen. Im Gegenzug werden sie sich bereit erklären, einen gegenseitigen Nichtangriffspakt zu unterzeichnen. Der nationalistische Dissens, der durch einen solchen massiven Politikwechsel ausgelöst würde, wäre beträchtlich, aber vielleicht wäre die Nichtunterzeichnung dieser Abkommen das weitaus größere Risiko in diesen turbulenten Jahren.\n\nNach diesen ersten Wochen der Diskussion scheint klar zu sein, dass wahrscheinlich ein gewisses Maß an Gebietsabtretung erforderlich sein wird, damit die Friedensvereinbarungen zu einer gegenseitigen Einigung führen. Wenn die Forderungen auf dem Tisch liegen, sinkt die Trägheit der Verhandlungen auf das, was wir in unserem eigenen Parlament und Kabinett als erträgliches Zugeständnis ertragen können."
- gre.203.a: "Wir können uns bereit erklären, die Ägäis abzutreten, wenn sie ein vollständiges Militärbündnis mit uns eingehen."
- gre.203.b: "Wir können zustimmen, den Dodekanes für einen dauerhaften Frieden abzutreten."
- gre.203.c: "Wir können allem zustimmen, außer der Abtretung von Land."
- gre.203.e: "Blockieren Sie die Verhandlungen, diese Vereinbarung ist nicht zu unserem Vorteil"
-
- gre.204.t: "Das Dodekanes-Abkommen"
- gre.204.d: "Nach wochenlangen Diskussionen hat die [From.GetAdjective]-Regierung erklärt, dass sie einer Öffnung der Grenzen zwischen unseren Ländern zustimmen und auch ein Versprechen der Nicht-Aggression abgeben würde, aber in Bezug auf das Schicksal der Ägäis ist sie nur bereit, der Abtretung des periphereren Dodekanes für die Neutralität zuzustimmen. Obwohl es ein schwieriges Geschäft ist, wäre es ein bedeutsamer Seitenwechsel für unsere beiden Länder und würde uns immer noch ein großes wirtschaftliches Druckmittel garantieren, indem es den Rest der griechischsprachigen Welt mit den Griechen von [ROOT.GetNameDef] verbindet."
- gre.204.a: "Wir akzeptieren dieses Angebot."
- gre.204.b: "Sie müssen die Ägäis für unsere Neutralität und Zusammenarbeit abtreten."
- gre.204.c: "Wenn sie keine substanzielleren Zugeständnisse machen, wie können wir uns dann Frieden vorstellen?"
-
- gre.205.t: "Die Ägäische Allianz"
- gre.205.d: "Nach wochenlangen Diskussionen hat die [From.GetAdjective]-Regierung erklärt, dass sie einer Öffnung der Grenzen zwischen unseren Ländern zustimmen und auch ein Versprechen der Nicht-Aggression abgeben würde, aber im Hinblick auf das Schicksal der Ägäis ist sie der Meinung, dass die Pforte den Griechen nur dann die politische Kontrolle über die Inseln zugestehen würde, wenn osmanische Soldaten ihre Präsenz auf den Inseln aufrechterhalten könnten, um die Sicherheit der anatolischen Küste zu gewährleisten. Während diese widersprüchlichen Ziele zunächst das Scheitern der Verhandlungen zu bedeuten schienen, kam es zu einer überraschenden Wende, als der türkische Außenminister seinem Amtskollegen in aller Stille ein bis dahin undenkbares Arrangement anbot: Samos, Lesbos, Chios und die anderen Inseln der nördlichen Ägäis könnten an die [ROOT. GetAdjective]-Regierung unter der Bedingung abgetreten werden, dass sie ein vollständiges Militärbündnis eingeht, das es den osmanischen Truppen erlaubt, ihre Präsenz auf diesen Inseln als Garnisonen für die kollektive Sicherheit der Ägäis aufrechtzuerhalten, um nun beide Seiten des Meeres zu schützen."
- gre.205.a: "Endlich Frieden und Souveränität, auf dem Weg in eine neue Zukunft!"
- gre.205.b: "Dem ist entgegenzuhalten, dass Griechenland die gesamte Ägäis nur für die Neutralität benötigt."
- gre.205.c: "Ein Bündnis ist zu viel, aber wir können den Dodekanes als neutralen Partner akzeptieren."
- gre.205.e: "Diese Zugeständnisse sind nicht ernsthaft genug."
-
- gre.206.t: "Das Osmanische Reich bietet einen Wirtschaftsvertrag an"
- gre.206.d: "Nach wochenlangen Diskussionen hat die [From.GetAdjective]-Regierung erklärt, dass sie einer Öffnung der Grenzen zwischen unseren Ländern zustimmen und sich außerdem zu einem Verzicht auf Aggression verpflichten würde... aber sie wird unter keinen Umständen Land abtreten, das unserer Meinung nach rechtmäßig uns gehört. Lohnt es sich, dem Rest des Vertrages zuzustimmen, wenn man weiß, dass unsere gegenseitigen Ansprüche uns irgendwann ohnehin wieder in den Krieg führen könnten?"
- gre.206.a: "Unter den gegebenen Umständen müssen wir das Beste daraus machen."
- gre.206.b: "Das ist empörend, das ist ungerecht!"
-
- gre.207.t: "[From.GetNameDefCap] Fordert die gesamte Ägäis!"
- gre.207.d: "Die Griechen haben unsere vernünftig ausgehandelten Zugeständnisse mit der absurden Forderung gekontert, dass wir für ihre bloße Neutralität die gesamte Ägäis abtreten. Offensichtlich in der Hoffnung, diese Ära globaler Unruhen und unserer eigenen innenpolitischen Instabilität auszunutzen, um ihre unsinnigen Forderungen bis zum Punkt der Kaltblütigkeit voranzutreiben, scheint die [From.GetAdjective]-Regierung nicht an einer Vereinbarung interessiert zu sein, die uns mehr nützt als ihnen selbst."
- gre.207.a: "Das Brüllen des Bären ist über dem Horizont zu hören, er nimmt das Geschäft an."
- gre.207.b: "Auf keinen Fall."
-
- gre.208.t: "Vertrag von Smyrna"
- gre.208.d: "[TUR.GetNameDefCap] und [GRE.GetNameDef] haben endlich einen Vertrag zur Festigung ihrer Nationen aufgesetzt. Ein Versprechen über Nichtangriff und Anerkennung der territorialen Unverletzlichkeit wurde bereits unterzeichnet, während führende Wirtschaftsminister bereits eine Reihe gemeinsamer Wirtschaftsprojekte planen, die die Ägäis überbrücken sollen. Tausende scheinen die Gelegenheit zu ergreifen, um die neu geöffneten Grenzen zu nutzen und in ihr \"Mutterland\" zu ziehen, in der Gewissheit, dass ihre in ihrem Geburtsland verbliebenen Familien ein besseres Leben in einer weiter vernetzten Welt führen werden. Ausnahmsweise hat der Frieden gesiegt."
-gre.208.a: "Wir werden sie mit Freuden zu Hause empfangen."
-
-gre.213.t: "Mission aus Griechenland"
-gre.213.d: "Der [GRE.GetAdjective]e Botschafter hat sich im Laufe der letzten Wochen mit [Root.GetAdjective]en Beamten ausgetauscht und versucht, bessere Beziehungen und mehr gegenseitige Zusammenarbeit unserer Nationen zu fördern. Während einige in der Regierung seinen Motiven misstrauisch gegenüberstehen, scheint es, als ob seine Absichten nicht mehr sind, als den Frieden in der Region zu festigen."
-gre.213.a: "Ja, lasst uns enger mit den Griechen zusammenarbeiten."
-gre.213.b: "Nein, das ist nicht nötig."
-
-gre.214.t: "[From.GetNameDefCap] hat akzeptiert"
-gre.214.d: "Nach Gesprächen zwischen dem [Root.GetAdjective]en Botschafter und der [From.GetAdjective]en Regierung haben sie beschlossen, die Beziehungen zwischen unseren Nationen zu vertiefen."
-gre.214.a: "Gut gemacht!"
-
-gre.215.t: "[From.GetNameDefCap] hat abgelehnt"
-gre.215.d: "Es scheint, dass das Misstrauen zwischen den Balkanstaaten zu groß ist. Die [From.GetAdjective]e Regierung hat unserem Botschafter zugehört und unverbindliche Worte der Zustimmung geäußert... ohne dass etwas daraus geworden ist. Die Beziehungen zwischen unseren Ländern bleiben unverändert."
-gre.215.a: "Zu schade."
-
-gre.216.t: "Stärkere Zusammenarbeit auf dem Balkan"
-gre.216.d: "Unsere Bemühungen, bessere Beziehungen zu anderen Ländern auf dem Balkan zu fördern, haben sich ausgezahlt - vor allem mit größeren Investitionen in [Root.GetNameDef] und mehr Vertrauen unserer Bürger in die Wahrung des Friedens."
-gre.216.a: "Gut zu hören."
-
-gre.250.t: "[GRE.GetNameDefCap] belebt Megali-Idee wieder"
-gre.250.d: "Die Griechen sind in den letzten Monaten zunehmend revanchistisch geworden und machen Andeutungen, die "Megali-Idee" wieder aufleben zu lassen, die darauf abzielt, ethnisch griechisches Land zurückzufordern - obwohl wir feststellen, dass sie sich mit der Beanspruchung größerer Gebiete in Kleinasien zurückgehalten haben, ihre Ansprüche enden mehr oder weniger bei Konstantinopel. Wir können sie warnen, diese Ansprüche ganz aufzugeben oder sich ihnen anzuschließen, auch wenn das wahrscheinlich bedeutet, die [Root.GetFactionName] in ihren Krieg hineinzuziehen."
-gre.250.d.full: "Die Griechen sind in den letzten Monaten zunehmend revanchistisch geworden und haben Bewegungen zur Wiederbelebung der "Megali-Idee" gemacht, die darauf abzielt, ethnisch griechisches Land zurückzufordern - aber weit über ihr traditionelles Territorium hinausgeht, einschließlich [773.GetCapitalVictoryPointName] und der westlichen Küste Anatoliens, die hauptsächlich türkisch sind. Wir können sie warnen, diese vorschnellen Ansprüche ganz aufzugeben oder sich ihnen anzuschließen, auch wenn das wahrscheinlich bedeutet, die [Root.GetFactionName] in ihren Krieg hineinzuziehen."
-gre.250.a: "Wir unterstützen sie, komme was wolle."
-gre.250.b: "Das ist inakzeptabel - entweder sie lassen es sein, oder sie verschwinden."
-
-gre.251.t: "[From.GetNameDefCap] unterstützt uns"
-gre.251.d: "Während einige nervös waren, dass [From.GetNameDef] sich weigern würde, in einen irredentistischen Krieg mit uns hineingezogen zu werden, hat sich dies als falsch erwiesen. Die [From.GetAdjective]e Regierung hat ihre Unterstützung für uns erklärt und wird - als unser Verbündeter - für jeden Krieg zur Verfügung stehen, für den wir uns entscheiden."
-gre.251.a: "Ausgezeichent."
-
-gre.252.t: "[From.GetNameDef] warnt uns"
-gre.252.d: "Die [From.GetAdjective]e Regierung hat von unserer Absicht erfahren, die ethnisch griechischen Länder in Anatolien zurückzugewinnen, und hat uns unmissverständlich informiert, dass wir, wenn wir diesen Weg weitergehen, dies allein und außerhalb des [From.GetAdjective]en  Bündnis tun werden müssen."
-gre.252.a: "Dann stirbt Megali hier."
-gre.252.b: "Dann sind wir auf uns allein gestellt."
-
-gre.253.t: "[From.GetNameDefCap] verlässt [Root.GetFactionName]"
-gre.253.d.allies: "Die [From.GetAdjective]e Regierung hat beschlossen, [Root.GetFactionName] aufzugeben und ihre rücksichtslosen Ansprüche auf griechisches Territorium zu verfolgen... welche auch unsere eigenen Verbündeten einschließen. Ob dies einen Krieg mit den Griechen bedeutet, bleibt abzuwarten."
-gre.253.d.noallies: "Trotz unserer Warnung hat die [From.GetAdjective]e Regierung beschlossen, [Root.GetFactionName] aufzugeben und ihre rücksichtslosen Ansprüche auf griechisches Territorium zu verfolgen."
-gre.253.a: "Viel Glück dabei!"
-
-gre.254.t: "Die Griechen bieten Frieden an"
-gre.254.d: "Wir verlieren den Krieg gegen die Griechen - und zwar schwerwiegend. Sie haben sich mit der [Root.GetAdjective]en Regierung in Verbindung gesetzt und Frieden im Austausch für all ihre beanspruchten Gebiete angeboten. Es ist eine bittere Pille zu schlucken, doch die Alternative ist höchstwahrscheinlich, dass wir vollständig zerquetscht werden."
-gre.254.a: "Wir müssen Frieden schließen, solange wir können."
-gre.254.b: "Nein - sie werden bis zum letzten Mann gegen uns kämpfen müssen."
-
-gre.255.t: "[From.GetNameDefCap] lehnt Frieden ab"
-gre.255.d: "Es scheint, dass die Türken uns bis zum letzten Mann bekämpfen wollen. Sie haben unser Angebot abgelehnt."
-gre.255.a: "So sei es!"
-
-gre.256.t: "Eine neue Hauptstadt?"
-gre.256.d: "Konstantinoúpolis befindet sich wieder unter unserer Kontrolle und es stellt sich nun die Frage: Sollte die [Root.GetAdjective]e Hauptstadt verschoben werden? Im Interesse der Stabilität sagen einige, dass wir dies nicht tun sollten... doch es gibt auch andere, die sagen, dass Konstantinoúpolis die bedeutendste Stadt unserer Nation ist, vielleicht sogar die bedeutendste unserer Geschichte. Nachdem [Root.GetNameDef] so viel Ruhm erlangt hat, sollte sich das nicht in unserem Regierungssitz widerspiegeln?"
-gre.256.a: "Ja, dies ist die wahre Hauptstadt unserer Nation."
-gre.256.b: "Nein, wir verbleiben wie bisher in Athen."
-
-gre.261.t: "Das Ausmaß der griechischen Ansprüche"
-gre.261.d.faction: "[GRE.GetNameDefCap] ist bereit, unser verlorenes Territorium zurückzuerobern und unsere verlorenen Brüder zu retten. Die anstehende Frage ist folgende: Entweder schieben wir unsere Ansprüche nach Osten, halten sie aber innerhalb der \"traditionellen\" griechischen Gebiete - [184.GetName] und den Inseln im östlichen Mittelmeer, wie [183.GetName] - oder wir lassen die Megali-Idee wieder aufleben und beanspruchen alle östlichen Gebiete bis [773.GetName] und die Westküste Anatoliens, trotz der türkischen Bevölkerungsmehrheit in diesen Gebieten. Megali ist ein flüchtiger, aber gefährlicher Traum... wenn wir ihn weiterverfolgen, wird dies als ein aggressiver Schritt unsererseits angesehen werden. Wir könnten infolgedessen aus [Root.GetFactionName] ausgeschlossen werden."
-gre.261.d.nofaction: "[GRE.GetNameDefCap] ist bereit, unser verlorenes Territorium zurückzuerobern und unsere verlorenen Brüder zu retten. Die anstehende Frage ist folgende: Entweder schieben wir unsere Ansprüche nach Osten, halten sie aber innerhalb der \"traditionellen\" griechischen Gebiete - [184.GetName] und den Inseln im östlichen Mittelmeer, wie [183.GetName] - oder wir lassen die Megali-Idee wieder aufleben und beanspruchen alle östlichen Gebiete bis [773.GetCapitalVictoryPointName] und die Westküste Anatoliens, trotz der türkischen Bevölkerungsmehrheit in diesen Gebieten. Megali ist ein flüchtiger, aber gefährlicher Traum... wenn wir ihn weiterverfolgen, wird dies als ein aggressiver Schritt unsererseits angesehen werden. Ein Schritt, der [Root.GetNameDef] zu einem Außenseiter unter den Weltmächten machen könnte."
-gre.261.a: "Haltet unsere Ansprüche begrenzt"
-gre.261.b: "Wir werden Megali in vollem Umfang wieder auferstehen lassen!"
-
-gre.500.t: "Metaxas stürzt die griechische Regierung"
-gre.500.d: "Nachdem Griechenland nach der Niederlage im Balkankrieg gegen Bulgarien in ein massives Chaos gestürzt wurde und die demokratische Regierung sich weigerte, zurückzutreten, schritt der ehemalige General Ioannis Metaxas heute mit einer großen Gruppe von Armeeanhängern ein und stürzte die Regierung in einem geplanten Staatsstreich. Berichten zufolge kam es in Athen zu Kämpfen zwischen Metaxas' Soldaten und syndikalistischen Gruppen, die Nikos Zachariadis die Treue hielten. Metaxas behauptet, dass er selbst kurz davor stand, die Regierung zu stürzen, und dass "Maßnahmen zur Aufrechterhaltung der Ordnung erforderlich waren". Die Syndikalisten haben geschworen, sich gegen die Diktatur zu wehren, aber im Moment scheint Metaxas die Kontrolle zu haben."
-gre.500.a: "Interessant."
-
-gre.501.t: "Syndikalisten stürzen die griechische Regierung"
-gre.501.d: "Nachdem Griechenland nach der Niederlage im Balkankrieg gegen Bulgarien in ein massives Chaos gestürzt wurde und die demokratische Regierung sich weigerte, zurückzutreten, stürmten syndikalistische Anhänger unter Führung von Nikos Zachariadis heute das Parlament in Athen und übernahmen die Kontrolle. Die Popularität der Regierung ist so groß, dass das neue syndikalistische Regime weitaus mehr Unterstützung genießt, als dies sonst der Fall gewesen wäre, obwohl der ehemalige General Ioannis Metaxas geschworen hat, die "Ordnung" im Lande wiederherzustellen, indem er die "syndikalistische Bedrohung" beseitigt. Obwohl Zachariadis derzeit die Kontrolle hat, wird befürchtet, dass ein neuer Bürgerkrieg unvermeidlich ist."
-gre.501.a: "Interessant."
-
-gre.502.t: "Griechische Armee stürzt die Regierung"
-gre.502.d: "Nachdem Griechenland nach der Niederlage im Balkankrieg gegen Bulgarien in ein massives Chaos gestürzt wurde und die demokratische Regierung sich weigerte, zurückzutreten, griff die griechische Armee heute ein und stürzte die Regierung durch einen Staatsstreich. General Alexandros Papagos erklärte in einer Erklärung, dass es sich um eine vorübergehende Maßnahme handele und dass Neuwahlen abgehalten würden, sobald die Armee angesichts des zunehmenden syndikalistischen Aufruhrs die Ordnung wiederhergestellt habe. Ob Papagos die Macht abgeben wird, wie er behauptet, bleibt abzuwarten, und die Führer der Syndikalisten haben geschworen, diese "neue Diktatur" mit allen ihnen zur Verfügung stehenden Mitteln zu bekämpfen, was einen neuen Bürgerkrieg befürchten lässt."
-gre.502.a: "Interessant."
-
-gre.503.t: "Ländliche Demokratische Front siegt in Griechenland"
-gre.503.d: "Die Wiederherstellung der Monarchie in Griechenland veranlasste die linken Führer des Landes, sich unter dem Dach der Ländlichen Demokratischen Front zusammenzuschließen, einer Partei, die bei den jüngsten Wahlen des Landes unter [GRE.GetLeader] den Sieg davontrug.\n\nViele in der Regierung hatten ein Verbot der Partei gefordert, was abgelehnt wurde, und so steht Griechenland nun vor der Umwandlung in eine sozialistische Diktatur mit einem Mandat der wütenden griechischen Wählerschaft. Dennoch sammeln sich bereits Teile des Militärs in Opposition zur neuen Regierung, und es wird befürchtet, dass in Griechenland ein neuer Bürgerkrieg ausbrechen könnte."
-gre.503.a: "Interessant."
-
-gre.504.t: "Syndikalisten siegen bei griechischen Wahlen"
-gre.504.d: "Der Sieg der Republikaner in Griechenland veranlasste die linken Führer des Landes, sich unter dem Dach der Sozialen Arbeiterpartei Griechenlands zusammenzuschließen, einer Partei, die bei den jüngsten Wahlen des Landes unter [GRE.GetLeader] den Sieg davontrug. Viele in der Regierung hatten ein Verbot der Partei gefordert, was abgelehnt wurde, und so steht Griechenland nun vor der Umwandlung in eine syndikalistische Diktatur mit einem Mandat der wütenden griechischen Wählerschaft. Dennoch sammeln sich bereits Teile des Militärs in Opposition zur neuen Regierung, und es wird befürchtet, dass dadurch ein neuer Bürgerkrieg in Griechenland ausbricht."
-gre.504.a: "Interessant."
-
-gre.505.t: "Metaxas stürzt die griechische Regierung"
-gre.505.d: "Die jüngsten Enthüllungen in Griechenland, dass die Regierung das Referendum manipuliert hat, um ein positives Ergebnis für die Republikaner zu erzielen, haben die Nation so erschüttert, dass der ehemalige General Ioannis Metaxas die Kontrolle übernommen hat.\n\nMit der Unterstützung zahlreicher Generäle in der Armee erklärte Metaxas, dass die ehemaligen Regierungsführer verhaftet worden seien und dass er die Nation wieder auf den "richtigen Weg" bringen werde. Führende Syndikalisten haben das Metaxas-Regime bereits als opportunistischen Akt bezeichnet und geschworen, gegen ihn und seine neue Regierung vorzugehen."
-gre.505.a: "Interessant."
-
-gre.506.t: "Syndikalisten stürzen die griechische Regierung"
-gre.506.d: "Die jüngsten Enthüllungen in Griechenland, dass die Regierung das Referendum manipuliert hat, um ein positives Ergebnis für die Monarchisten zu erzielen, haben die Nation so erschüttert, dass der Syndikalistenführer Nikos Zachariadis die Kontrolle übernommen hat.\n\nMit der Unterstützung zahlreicher Milizenführer erklärte Zachariadis, dass die ehemaligen Regierungsführer verhaftet worden seien und dass er die Nation wieder auf den "richtigen Weg" bringen werde. Der ehemalige General Ioannis Metaxas hat das neue Regime bereits für ungültig erklärt und ist mit mehreren loyalen Generälen aufs Land gezogen, um Widerstand zu leisten, so dass ein neuer Bürgerkrieg fast sicher scheint."
-gre.506.a: "Interessant."
-
-gre.507.t: "Syndikalisten gewinnen griechischen Bürgerkrieg"
-gre.507.d: "Nach monatelangen Kämpfen haben die syndikalistischen Kräfte unter dem griechischen Führer Nikos Zachariadis heute die Kontrolle über Athen übernommen und den Sieg im Bürgerkrieg erklärt. Zachariadis kündigte an, dass eine Übergangsregierung eingesetzt werde, bis ein ordentlicher Kongress der griechischen Gewerkschaften und Arbeitnehmer einberufen werden könne, um über die Zukunft des Landes zu entscheiden. Obwohl die Kämpfe in vielen Teilen Griechenlands noch andauern, hat es den Anschein, als sei die Richtung für die Zukunft des Landes endlich festgelegt worden."
-gre.507.a: "Interessant."
-
-gre.508.t: "Metaxas gewinnt den griechischen Bürgerkrieg"
-gre.508.d: "Nach monatelangen Kämpfen haben die Truppen des ehemaligen Generals Ioannis Metaxas heute die Kontrolle über Athen übernommen und den Sieg im griechischen Bürgerkrieg erklärt. Metaxas kündigte an, dass eine Übergangsregierung unter seiner Kontrolle eingesetzt wird, bis ein Tribunal eingesetzt wird, das über die Zukunft des Landes entscheidet. Zwar wird in vielen Teilen Griechenlands noch gekämpft, doch scheint die Zukunft des Landes endlich geklärt zu sein."
-gre.508.a: "Interessant."
-
-gre.509.t: "Republikaner gewinnen griechisches Referendum"
-gre.509.d: "Das kürzlich durchgeführte Referendum über die Zukunft der griechischen Monarchie ist mit dem Sieg der Republikaner endgültig beendet. Der griechische Premierminister [GRE.GetLeader] verkündete, dass König Alexander nicht aus dem Exil zurückkehren wird und dass das Land gemäß dem Wunsch der Bevölkerung eine Republik bleiben wird.\n\nDas Referendum hat in Griechenland tiefe Gräben aufgerissen, und auch wenn die Frage der Monarchie geklärt sein mag, wird es für die Regierung in den kommenden Jahren ein harter Kampf sein, diese Gräben zu überwinden."
-gre.509.a: "Interessant."
-
-gre.510.t: "Wiederherstellung der Monarchie in Griechenland"
-gre.510.d: "Nach wochenlangen Überlegungen hat die griechische Regierung beschlossen, die Krone an König Alexandros I. zurückzugeben, der 1923 nach der Gründung der Dritten Republik ins Exil geschickt wurde. Obwohl viele Aléxandros aufgrund seiner Rolle bei der Auslieferung der Wirtschaft an Deutschland und Österreich nach dem Ersten Weltkrieg als unpopulär betrachten, war man der Ansicht, dass er immer noch der legitimste Herrscher war.\n\nDer König sprach zu einer großen, jubelnden Menschenmenge in Athen, nachdem er zum ersten Mal seit vielen Jahren zurückgekehrt war. Er sagte, Griechenland sei "endlich auf den Weg zurückgekehrt, auf dem es sein sollte", und versprach, mit der Führung des Landes zusammenzuarbeiten, um eine positive Zukunft zu gestalten."
-gre.510.a: "Interessant."
-
-gre.511.t: "Wiederherstellung der Monarchie in Griechenland"
-gre.511.d: "Nach wochenlangen Beratungen hat die griechische Regierung beschlossen, die Krone an König Geórgios II. zu vergeben - und nicht an Alexandros I., der zwar noch lebt, aber nach Ansicht vieler als älterer Bruder von Alexandros schon immer der rechtmäßige Erbe hätte sein sollen... und der die Krone aufgrund seines Exils nach dem Weltkrieg nie erhalten hat. Auch wenn es noch Zweifel an seiner Legitimität gibt, hat die Regierung dem Volk versichert, dass damit ein Fehler behoben wurde, der schon lange vorher gemacht wurde.\n\nDer König sprach vor einer jubelnden Menge in Athen, nachdem er zum ersten Mal seit vielen Jahren zurückgekehrt war. Er sagte, Griechenland sei "endlich auf den Weg zurückgekehrt, auf dem es sein sollte", und versprach, unermüdlich für den Wiederaufbau des Landes zu arbeiten."
-gre.511.a: "Interessant."
-
-gre.512.t: "Wiederherstellung der Monarchie in Griechenland"
-gre.512.d: "Die griechische Regierung hat heute angekündigt, dass sie die Monarchie wiederherstellen wird. Sie verzichtet damit auf das Referendum, mit dem das Königreich 1920 wiederhergestellt wurde, bevor es 1923 gestürzt wurde. Statt Aléxandros I. die Krone wiederzugeben, hat sie sie jedoch seinem jüngeren Bruder, Pávlos I., übertragen. Der neue König, so heißt es, habe viel radikalere und autoritärere Ideen, die er während seines Exils gelernt habe und die mehr mit der neuen griechischen Regierung übereinstimmten, obwohl der Rest der königlichen Familie mit ihm nach Griechenland zurückkehren werde.\n\nDer König sprach vor einer jubelnden Menge in Athen, nachdem er zum ersten Mal seit vielen Jahren zurückgekehrt war. Er sagte, Griechenland sei "endlich auf den Weg zurückgekehrt, auf dem es sein sollte", und versprach, unermüdlich für den Wiederaufbau des Landes zu arbeiten."
-gre.512.a: "Interessant."
+greece_events.3.t: "Unabhängigkeitstag"
+greece_events.3.d: "1821 erhoben sich die Griechen gegen das repressive Osmanische Reich, das Griechenland fast vierhundert Jahre lang besetzt hatte. Bischof Germanos von Patras hob mutig die griechische Flagge im Kloster Agia Lavras und leitete damit die griechische Revolution ein. Auch wenn das genaue Datum wahrscheinlich nicht der 25. März war, geschah es dennoch Ende März und wurde allmählich mit dem religiösen Fest der Verkündigung verbunden, das am selben Tag stattfindet. Am Tag des Festes der Verkündigung erschien der Erzengel Gabriel der Jungfrau Maria und verkündete die Nachricht, dass sie mit dem göttlichen Kind schwanger war. Bischof Germanos entschied sich an diesem Tag für eine andere, aber nicht bezuglose Botschaft, ein neuer Geist solle in Griechenland geboren werden."
+greece_events.3.a: "Ein neuer Geist soll erneut geboren werden!"
+
+greece_events.4.d: "[Root.GetNameDef] feiert einmal wieder seinen Unabhängigkeitstag. In Athen und anderen Städten säumen Menschenmassen die Straßen, die alle die griechische Flagge schwenken und \"Ýmnos is tin Eleftherían\" singen - die Hymne an die Freiheit und die Nationalhymne des Landes. Trotz aller Schwierigkeiten, denen das Land ausgesetzt ist, sind die Menschen immer noch bereit, ihr Gefühl der Unabhängigkeit von denen zu feiern, die sie einst unterdrückten."
+greece_events.4.a: "Heil dir, o Heil dir, Freiheit!"
+
+greece_events.5.t: "Der Schwarze Montag trifft Griechenland!"
+greece_events.5.d: "Der rapide deutsche Wirtschaftseinbruch hat unsere Nation erreicht! Unsere Abhängigkeit vom Handel mit Deutschland und der mitteleuropäischen Dominanz unserer Wirtschaft hat die Krise verschärft, sodass viele deutsche Fabriken angewiesen wurden, die Produktion einzustellen. Schlimmer noch, die Ausbreitung der Krise hat zu einem Mangel an Märkten für unsere Agrarexporte geführt, und bereits jetzt stehen die Landwirte vor einer Krise, in der fast keiner von ihnen ihre Ernten verkaufen kann. Wir müssen schnell daran arbeiten, diese Krise zu bewältigen, damit sie nicht außer Kontrolle gerät und Chaos in unserem Land auslöst."
+greece_events.5.a: "O Theós na mas voithísei!"
+
+greece_events.6.t: "Antwort auf die Krise"
+greece_events.6.d: "Angesichts der Zahl der Landwirte, die mit ihrer Ernte allein sind und diese nirgendwo verkauft können, bleibt uns eine Wahl: Entweder wir unterstützen sie für das laufende Jahr und ermutigen sie, von ihrer Exportabhängigkeit abzuweichen, oder wir greifen tief in unsere Taschen und unterstützen sie voll und ganz, bis die Wirtschaftskrise vorbei ist."
+greece_events.6.a: "Helft ihnen, so gut wir können."
+greece_events.6.b: "Greift tief - Sie sind das Rückgrat Griechenlands."
+
+greece_events.7.t: "Industrie in ausländischer Hand"
+greece_events.7.d: "Fast die Hälfte unserer Wirtschaft befindet sich im Besitz von Investoren in Deutschland und Österreich, doch nach dem Schwarzen Montag haben viele ihrer Minen und Fabriken geschlossen - einige, weil sie unrentabel geworden sind, andere, weil die Investoren versuchen, Geld zu sparen oder bankrott gegangen sind. In beiden Fällen wurden viele tausend Griechen arbeitslos gemacht. Der Vorschlag lautet, dass wir diese Besitztümer oder zumindest die schlimmsten Fälle beschlagnahmen sollten, ungeachtet des Vertrags von Salonika, der uns dies verbietet. Die einzige Möglichkeit, eine Gegenreaktion beider Länder zu verhindern, besteht jedoch darin, die Investoren aus eigener Tasche zu subventionieren... ein zutiefst unbeliebter Schritt, sollten wir es versuchen, das steht fest."
+greece_events.7.a: "Beschlagnahmt alles, ganz gleich, welche Auswirkungen es hat."
+greece_events.7.b: "Kümmert euch nur um die schlimmsten Fälle."
+greece_events.7.c: "Subventioniert die Investoren selbst - sie sollten besser dankbar sein."
+
+greece_events.8.t: "Griechenland beschlagnahmt [Root.GetAdjective]en Besitz"
+greece_events.8.d: "Dank der heftigen Auswirkungen des Schwarzen Montags haben [Root.GetAdjective]e Investoren, die Mehrheitsanteile an griechischen Fabriken und Minen hielten, diese Unternehmen geschlossen - in einigen Fällen, weil sie unrentabel sind, aber in anderen, weil die Investoren bankrott gegangen sind. Die griechische Regierung hat die Unternehmen daraufhin beschlagnahmt, obwohl der nach dem Krieg unterzeichnete Vertrag von Salonika vorsieht, dass unsere Investoren ungehinderten Zugang zu ihrer Wirtschaft haben sollten. Viele in der Regierung raten uns, hart zu reagieren und nicht nur Sanktionen zu verhängen, sondern [From.GetNameDef] ganz aus dem Spiel zu nehmen und alle Investitionen zurückzuziehen. Andere sagen jedoch, dass das Land lediglich versuche, sich über Wasser zu halten - der Schwarze Montag hat uns alle hart getroffen."
+greece_events.8.a: "Verhängt Sanktionen und zieht alle Geschäfte auf einmal heraus."
+greece_events.8.b: "Verhängt nur die Sanktionen und äußert unsere Empörung."
+greece_events.8.c: "Lasst sie in Ruhe - wir versuchen alle, damit fertig zu werden."
+
+greece_events.9.t: "[From.GetNameDefCap] verhängt harte Sanktionen"
+greece_events.9.d: "Die [From.GetAdjective]e Regierung hat als Reaktion auf unseren Verstoß gegen den Vertrag von Salonika eine Reihe von Wirtschaftssanktionen verhängt - einschließlich des Abzuges aller Vermögensmittel aus dem Land, auch derjenigen, die noch in Betrieb waren -, ist aber zum Glück nicht weiter gegangen. Dieser Schritt wird sicherlich einige Jahre stechen und hat die Beziehungen zwischen unseren Ländern ernsthaft beeinträchtigt."
+greece_events.9.a: "Es musste getan werden."
+
+greece_events.10.t: "[From.GetNameDefCap] verhängt Sanktionen"
+greece_events.10.d: "Die [From.GetAdjective]e Regierung hat als Reaktion auf unseren Verstoß gegen den Vertrag von Salonika eine Reihe von Wirtschaftssanktionen verhängt, ist aber zum Glück nicht weiter gegangen. Dieser Schritt wird sicherlich einige Jahre stechen und hat die Beziehungen zwischen unseren Ländern beeinträchtigt."
+
+greece_events.11.t: "Griechenland beschlagnahmt [Root.GetAdjective]en Besitz"
+greece_events.11.d: "Dank der heftigen Auswirkungen des Schwarzen Montags haben [Root.GetAdjective]e Investoren, die Mehrheitsanteile an griechischen Fabriken und Minen hielten, diese Unternehmen geschlossen - in einigen Fällen, weil sie unrentabel sind, aber in anderen, weil die Investoren bankrott gegangen sind. Die griechische Regierung hat daraufhin viele der schlimmsten Fälle beschlagnahmt, obwohl der nach dem Krieg unterzeichnete Vertrag von Salonika vorsieht, dass unsere Investoren ungehinderten Zugang zu ihrer Wirtschaft haben sollten. Viele in der Regierung schlagen vor, dass wir mit Sanktionen reagieren, während andere sagen, dass die Griechen lediglich täten, was sie tun müssen, um zu überleben - sie hätten schließlich auch allen Besitz beschlagnahmen können, wenn sie es gewollt hätten, und nicht nur einige."
+greece_events.11.a: "Verhängt Sanktionen - sie müssen eine Lektion lernen."
+
+greece_events.12.t: "Monarchisten verlangen Referendum"
+greece_events.12.d: "Mehrere prominente Aristokraten, angeführt von dem einflussreichen ehemaligen General Ioannis Metaxas, stürmten heute das Parlament und forderten die Regierung auf, ein Referendum über die Zukunft der Monarchie einzuleiten. Sie sagen, dass die Frage ein für allemal geklärt werden müsse, die Regierung habe sie zu lange vor sich hergeschoben. Ihre Position hat auch in der Bevölkerung große Unterstützung gefunden."
+greece_events.12.a: "Vielleicht sollten wir darüber nachdenken?"
+
+greece_events.14.t: "[From.GetNameDefCap] bittet um Beitritt zu [Root.GetFactionName]"
+greece_events.14.d: "Die [From.GetAdjective]e Regierung hat eine formelle Anfrage gestellt, um in [Root.GetFactionName] aufgenommen zu werden. Sind sie es wert, dass wir möglicherweise auch in ihre Konflikte auf dem Balkan hineingezogen werden?"
+greece_events.14.a: "Selbstverständlich!"
+greece_events.14.b: "Sie machen mehr Ärger, als sie wert sind."
+
+greece_events.15.t: "Wir sind Teil von [From.GetFactionName]"
+greece_events.15.d: "Die [From.GetAdjective]e Regierung hat zugestimmt, uns in ihr Bündnis aufzunehmen. Wir sind nun offiziell Teil von [From.GetFactionName]."
+greece_events.15.a: "Ausgezeichnet."
+
+greece_events.16.t: "[From.GetNameDefCap] hat abgelehnt"
+greece_events.16.d: "Möglicherweise weil sie entschieden hat, dass wir mehr Ärger machen, als wir wert sind, hat sich die [From.GetAdjective]e Regierung geweigert, uns in [From.GetFactionName] aufzunehmen."
+greece_events.16.a: "Nun gut."
+
+greece_events.17.t: "Massive Demonstrationen gegen die Regierung"
+greece_events.17.d: "Die Niederlage des Landes im Krieg hat [Root.GetNameDef] in umfangreiche Demonstrationen gestürzt, die alle den sofortigen Rücktritt der Regierung fordern. Tatsächlich ist es offensichtlich, dass sich allmählich Truppen aufstellen, um die Kontrolle des Landes mit Gewalt zu übernehmen, sollte die Regierung nicht zurücktreten. Es wird befürchtet, dass unser Land kurz vor einem Bürgerkrieg steht."
+greece_events.17.a: "Das ist eine Katastrophe!"
+
+greece_events.18.t: "Die Regierung nähert sich dem Zusammenbruch"
+greece_events.18.d: "Die Demonstrationen gegen die Regierung wurden fortgesetzt, doch inzwischen hat die Situation endgültig eine kritische Masse erreicht. Wenn die Regierung nicht sofort zurücktritt, könnten radikale Elemente die Kontrolle übernehmen oder das Land könnte gar vollständig in Chaos versinken."
+greece_events.18.a: "Ioannis Metaxas treue Truppen übernehmen um für Ordnung zu sorgen."
+greece_events.18.b: "Athanasios Klaras hat durch einen Putsch die Kontrolle an sich gerissen."
+greece_events.18.c: "Die Armee übernimmt die Kontrolle und verspricht freie, demokratische Wahlen."
+greece_events.18.e: "Der König verzichtet auf den Thron, die Republik wird wiederhergestellt."
+greece_events.18.f: "Die Regierung tritt zurück und verspricht sofortige Neuwahlen."
+greece_events.18.g: "Die Regierung kapituliert vor den Rebellen."
+
+greece_events.19.t: "Der Tod Ioannis Metaxas'"
+greece_events.19.d.ishos: "[Root.GetNameDef] hat seinen Präsidenten, Ioannis Metaxas, verloren. Er starb heute an einem Halsphlegmon. Er wurde von Alexandros Koryzis, dem von ihm gewählten Nachfolger, abgelöst, wenngleich viele befürchten, dass Koryzis nicht hoffen kann, Metaxas' persönliche Ausstrahlung und militärische Leistungen aufzubringen. Während Metaxas zwar bei vielen als umstritten galt, säumten die Menschen trotzdem die Straßen des Landes, um seinen Tod zu beklagen."
+greece_events.19.d.nothos: "Der ehemalige General Ioannis Metaxas, ein Kriegsheld und Politiker, der für seine starken Überzeugungen bekannt war, starb heute an einem Halsphlegmon. Während Metaxas zwar bei vielen als umstritten galt, säumten die Menschen trotzdem die Straßen des Landes, um seinen Tod zu beklagen."
+greece_events.19.a: "Man wird ihn in Erinnerung behalten."
+
+greece_events.20.t: "Der Tod Alexandros Papanastasious"
+greece_events.20.d.ishos: "Premierminister Alexandros Papanastasiou ist heute an einem plötzlichen Herzinfarkt gestorben. Während die Nation seinen Tod betrauert, hat der ehemalige General Nikolaos Plastiras seine Aufgaben und die Führung der Nationalen Unionistischen Partei übernommen."
+greece_events.20.d.nothos: "Alexandros Papanastasiou, Vorsitzender der Nationalen Unionistischen Partei, ist heute an einem plötzlichen Herzinfarkt gestorben. Der ehemalige General Nikolaos Plastiras hat die Führung der Partei übernommen und hielt heute in Athen eine Rede zu Ehren des Mannes, der mit seinen Worten \"bis zum letzten Atemzug [GRE.GetNameDef] bedient\" habe."
+greece_events.20.a: "Ein guter Mann."
+
+greece_events.21.t: "Kostas Gavriilides tritt zurück"
+greece_events.21.d.ishos: "Kostas Gavriilides, langjähriger Führer der radikalen Ländlich-Demokratischen Front und Präsident Griechenlands, ist heute von seiner Position zurückgetreten, um in den Ruhestand zu gehen. Nach einer Debatte innerhalb der Partei wurde die Führung an den von Gavriilides gewählten Nachfolger Nikos Ploumpidis übergeben."
+greece_events.21.d.nothos: "Kostas Gavriilides, langjähriger Führer der radikalen Ländlich-Demokratischen Front, ist heute von seiner Position zurückgetreten, um in den Ruhestand zu gehen. Nach einer Debatte innerhalb der Partei wurde die Führung an den von Gavriilides gewählten Nachfolger Nikos Ploumpidis übergeben."
+greece_events.21.a: "Gut."
+
+greece_events.22.t: "Der Papandreou-Skandal"
+greece_events.22.d: "Eine Reihe von Ministern der Regierung wurden in einen Korruptionsskandal verwickelt, der von der Presse aufgedeckt wurde, doch heute war die Nation schockiert, als sie erfuhr, dass auch Premierminister Georgios Papandreou angeklagt wird. Obwohl es offensichtlich keine ausreichenden Beweise für eine formelle Anklage gibt, genügte der Skandal, um die Neue Liberale Koalition darüber nachdenken zu lassen, ob Papandreou weiterhin der Parteivorsitzende sein sollte."
+greece_events.22.a: "Panagiotis Kanellopoulos übernimmt die Kontrolle der Partei."
+greece_events.22.b: "Papandreou hält nach einer knappen Abstimmung an der Führung fest."
+
+greece_events.23.t: "Der Tod Themistoklis Soufilis'"
+greece_events.23.d.ishos: "Premierminister Themistoklis Soufilis ist heute gestorben, nachdem seine Gesundheit bereits seit der Machtübernahme bei der letzten Wahl gelitten hatte. Obwohl die meisten Regierungsmitglieder nicht davon überrascht wurden, da sie dies monatelang erwartet hatten, war die Nation vor Schreck überwältigt und Trauernde säumen die Straßen Athens. Die Führung seines Flügels der Liberalen Partei ist seinem Stellvertreter Konstantinos Tsatsos übertragen worden."
+greece_events.23.d.nothos: "Themistoklis Soufilis ist heute gestorben, nachdem seine Gesundheit bereits seit der letzten Wahl gelitten hatte. Obwohl die meisten Mitglieder der Liberalen Partei nicht davon überrascht wurden, da sie dies monatelang erwartet hatten, reagierte die Nation mit Bestürzen und Trauernde säumen die Straßen Athens. Die Führung seines Flügels der Liberalen Partei ist seinem Stellvertreter Konstantinos Tsatsos übertragen worden."
+greece_events.23.a: "Man wird ihn vermissen."
+
+greece_events.24.t: "Der Tod Panagis Tsaldaris'"
+greece_events.24.d: "Panagis Tsaldaris, Vorsitzender der Volkspartei, ist heute an den Folgen seines degenerativen Gesundheitszustandes gestorben, der ihn seit der Übernahme der Parteispitze vor einigen Jahren geplagt hat. Während Trauernde seinen Tod verkündeten, fiel seine Führungsrolle inzwischen auf seinen Neffen Konstantinos Tsaldaris. Der neue Chef der Volkspartei erklärte in einer Rede, dass er beabsichtige, \"das Vermächtnis seines Onkels mit ganzem Herzen fortzusetzen\"."
+greece_events.24.a: "Nicht überraschend."
+
+greece_events.50.t: "Nationale Wahlen von [GetYear]"
+greece_events.50.d: "Es ist an der Zeit, dass die Griechen an die Urnen gehen, während die großen Parteien hart dafür kämpfen, die Kontrolle über die Regierung zu erlangen."
+greece_events.50.a: "Die Volkspartei ist siegreich."
+greece_events.50.b: "Die Neue Liberale Koalition hat die Oberhand."
+greece_events.50.c: "Der Liberalen Partei gelingt der Sieg"
+greece_events.50.e: "Die Nationale Unionistische Partei überrascht mit einem Sieg."
+
+greece_events.51.t: "Nationale Wahlen von [GetYear]"
+greece_events.51.d.noban: "Da die sozialistischen Agrarianer erhebliche Fortschritte gemacht haben und einen Großteil der verbleibenden antimonarchistischen Stimmung auffangen, könnten die traditionellen politischen Parteien bei den heutigen Wahlen schwer unter Druck stehen, zu gewinnen."
+greece_events.51.d.ban: "Das Wahlverbot für sozialistische Agrarier hat diese Wahl in gewisser Weise zu einer illegitimen gemacht, doch trotzdem hat sich das griechische Volk an den Urnen versammelt, um eine neue Regierung zu wählen."
+greece_events.51.a: "Die Volkspartei gewinnt."
+greece_events.51.b: "Die Ländlich-Demokratische Front ist siegreich."
+greece_events.51.c: "Eine Koalition aus Liberalen und gemäßigten Sozialisten hat die Oberhand."
+
+greece_events.52.t: "Nationale Wahlen von [GetYear]"
+greece_events.52.d.noban: "Die Syndikalisten haben von ihrer Koalition mit den gemäßigten Sozialisten profitiert und stellen nun eine echte Bedrohung dar, während das griechische Volk an die Urnen geht. Die Welt sieht nervös zu, während die Wahlergebnisse eintreffen..."
+greece_events.52.d.ban: "Das Wahlverbot für Syndikalisten und sozialistische Agrarier hat diese Wahl in gewisser Weise zu einer illegitimen gemacht, doch trotzdem hat sich das griechische Volk an den Urnen versammelt, um eine neue Regierung zu wählen."
+greece_events.52.a: "Die Volkspartei erlebt einen überraschenden Aufschwung"
+greece_events.52.b: "Die Neue Liberale Koalition hat die Oberhand."
+greece_events.52.c: "Die Liberale Partei ist siegreich."
+greece_events.52.e: "Die Soziale Arbeiterpartei Griechenlands holt sich die Wahl!"
+
+greece_events.53.t: "Die Wiederherstellung der Demokratie"
+greece_events.53.d: "Die Armee hat ihr Versprechen gehalten. Heute ziehen die Griechen zu den Urnen, um eine neue Regierung zu wählen."
+
+greece_events.54.t: "Die neue Regierung"
+greece_events.54.d: "Während die Wahlen an sich umstritten sind, steht ein Ergebnis fest: Die ehemalige griechische Regierung hat null Chancen auf einen Sieg. Bei diesem Wettbewerb geht es einzig und allein darum, wer diejenigen ersetzen wird, die in den Augen der Bürger den Krieg verloren haben."
+
+greece_events.100.t: "Das Referendum beginnt"
+greece_events.100.d: "Dem ehemaligen König Alexander, der sich derzeit zusammen mit dem Rest der königlichen Familie im Exil befindet, wurde mitgeteilt, dass das Referendum über die Zukunft der Monarchie begonnen hat. Es wurden bereits Grenzen gezogen, während die Pro-Republikaner und Pro-Monarchisten versuchen, alles und jeden davon zu überzeugen, wie sie abstimmen sollten. Es werden ein paar schwierige Monate vergehen, bis die Abstimmung tatsächlich stattfindet, und es wird erwartet, dass es für Griechenland keine friedliche Zeit sein wird."
+greece_events.100.a: "Hoffentlich gibt es keinen Ärger..."
+
+greece_events.101.t: "Monarchisten auf den Straße"
+greece_events.101.d: "Die pro-monarchistischen Kräfte führen eifrig Kampagnen in den Straßen Athens und anderer griechischer Städte. Sie verteilen Pamphlete, die suggerieren, die Regierung habe ihre Arbeit nicht getan und brauche einen König, um über uns zu wachen. Sie gewinnen beträchtlich an Zugkraft, einige schlagen bereits vor, wir sollten uns bemühen, dies zu unterbinden, bevor ihr Handeln außer Kontrolle gerät."
+greece_events.101.a: "Erlaubt ihnen, ihre Pamphlete zu verteilen."
+greece_events.101.b: "Wir müssen diesen Unsinn unterbinden."
+
+greece_events.102.t: "Die republikanische Kampagne"
+greece_events.102.d: "Es gibt eine Reihe von Beratern in der Regierung, die angesichts der Aussicht auf einen monarchistischen Sieg nervös werden. Sie schlagen vor, dass wir eine eigene Kampagne zugunsten der Republikaner finanzieren sollten - natürlich in aller Stille, um keinen unangemessenen Verdacht zu erwecken, wir üben zu viel Einfluss auf die Ergebnisse aus. Ein solcher Zug wäre jedoch genau das, was unsere Gegner von uns wollen."
+greece_events.102.a: "Ja, wir sollten diese Bemühungen finanzieren."
+greece_events.102.b: "Nein, wir sollten uns nicht einmischen."
+greece_events.102.c: "Verhindert solche Gespräche innerhalb unserer Regierung."
+
+greece_events.103.t: "Aristokratischer Lobbyismus"
+greece_events.103.d: "Berichten zufolge kauft sich eine große Zahl wohlhabender griechischer Aristokraten eifrig Einfluss innerhalb der Regierung. Sie nennen das \"Lobbyismus\"... und wie man sich erzählt, haben sie dabei die Unterstützung des einflussreichen Ioannis Metaxas, der sich selbst für die Wiederherstellung der Monarchie stark gemacht hat. Wenn wir zulassen, dass Einflussnahmen dieser Art weitergehen, werden die Monarchisten bei der bevorstehenden Volksabstimmung definitiv einen Vorteil haben."
+greece_events.103.a: "Wir werden es erlauben."
+greece_events.103.b: "Setzt einen Stopp für diesen \"Lobbyismus\" auf."
+
+greece_events.104.t: "Die Syndikalisten sammeln sich"
+greece_events.104.d: "Die Syndikalisten haben überall im Norden kleine Kundgebungen abgehalten und für morgen ist eine gewaltige Kundgebung in der Stadt Athen geplant. Der charismatische Nikos Zachariadis, Führer der Kinonikó Ergatikó Kómma, soll angeblich eine feurige Rede gegen die Monarchie und alles, wofür sie steht, vorbereitet haben. Es wird jedoch befürchtet, dass Zachariadis weiter gehen könnte, als lediglich republikanische Unterstützung zu schüren und auch Unterstützung für seine eigenen, revolutionären Ideen gewinnen könnte."
+greece_events.104.a: "Erlaubt die Kundgebung."
+greece_events.104.b: "Schickt die Polizei, um sie, wenn nötig, mit Gewalt aufzulösen."
+
+greece_events.105.t: "Monarchistischer Aufstand"
+greece_events.105.d: "In Athen sind Aufstände entbrannt, da die Befürchtungen monarchistischer Anhänger, sie könnten das bevorstehende Referendum verlieren, von Anschuldigungen gefolgt wurden, unsere Regierung habe versucht, es zu manipulieren. Es gab erhebliche Schäden und eine große Zahl von Angriffen auf republikanische Anhänger und deren Hauptquartiere. Wenn wir nicht bald etwas tun, wird der Schaden für die republikanische Sache erheblich sein."
+greece_events.105.a: "Dämmt sie ein, aber zeigt Nachsicht."
+greece_events.105.b: "Beendet sie mit äußerster Gründlichkeit"
+
+greece_events.106.t: "Republikanischer Aufstand"
+greece_events.106.d: "In Athen sind Aufstände entbrannt, da die Befürchtungen republikanischer Anhänger, sie könnten das bevorstehende Referendum verlieren, von Anschuldigungen gefolgt wurden, unsere Regierung habe versucht, es zu manipulieren. Es gab erhebliche Schäden und eine große Zahl von Angriffen auf mehrere Aristokraten, sowie republikanische Anhänger und deren Hauptquartiere. Wenn wir nicht bald etwas tun, wird der Schaden für die monarchistische Sache erheblich sein."
+
+greece_events.107.t: "Monarchisten sind im Vorteil"
+greece_events.107.d: "Die Stimmung in Griechenland vor der Abstimmung scheint die Monarchisten zu begünstigen. Einige schlagen vor, dass, falls die Regierung noch eingreifen wolle, jetzt die Zeit reif wäre, um das Referendum zu manipulieren. Je populärer die Monarchisten werden, desto unwahrscheinlicher ist es, dass die Manipulation erfolgreich geheim gehalten werden kann, doch Berater sagen, dass die Alternative darin besteht, dass die Monarchisten gewinnen könnten."
+greece_events.107.a: "Wir müssen das Ergebnis zugunsten der Republik manipulieren."
+greece_events.107.b: "Gewinnen könnten? Wir müssen das Referendum manipulieren, um es zu garantieren!"
+greece_events.107.c: "Tut nichts - wir werden die legitimen Ergebnisse akzeptieren."
+
+greece_events.108.t: "Republikaner sind im Vorteil"
+greece_events.108.d: "Die Stimmung in Griechenland vor der Abstimmung scheint die Republikaner zu begünstigen. Einige schlagen vor, dass, falls die Regierung noch eingreifen wolle, jetzt die Zeit reif wäre, um das Referendum zu manipulieren. Je populärer die Republikaner werden, desto unwahrscheinlicher ist es, dass die Manipulation erfolgreich geheim gehalten werden kann, doch Berater sagen, dass die Alternative darin besteht, dass die Republikaner gewinnen könnten."
+greece_events.108.a: "Wir müssen das Ergebnis zugunsten der Monarchie manipulieren."
+
+greece_events.109.t: "Die Abstimmung beginnt"
+greece_events.109.d: "Heute hat in ganz Griechenland die Abstimmung über das Referendum zur Entscheidung über die Zukunft der Vierten Republik begonnen. König Alexander ist in Athen vor Ort, nachdem er erstmals seit seinem Exil ins Land zurückgekehrt ist. Es wird jedoch noch einige Tage dauern, bis die Endergebnisse feststehen."
+greece_events.109.a: "Wir sitzen auf glühenden Kohlen."
+
+greece_events.111.t: "Republikanischer Sieg"
+greece_events.111.d: "Die Frage nach der Zukunft der Monarchie ist endgültig geklärt, und die Antwort lautet, dass die Vierte Republik weiterleben wird. Der König und der Rest der königlichen Familie werden ins Exil zurückkehren, und auch wenn es einige Zeit dauern wird, bis sich die Stärke der Republik gefestigt hat, scheint die Debatte nun endlich vorbei zu sein."
+greece_events.111.a: "Lang lebe die griechische Republik!"
+
+greece_events.112.t: "Monarchistischer Sieg"
+greece_events.112.d: "Die Frage nach der Zukunft der Republik ist endlich geklärt, und mit einem Fest im ganzen Land begrüßt das Volk die königliche Familie zurück. Es gibt jedoch bereits Meinungsverschiedenheiten darüber, wer den Thron übernehmen soll: Soll es König Alexander sein, der unbeliebte jüngere Bruder, der den Thron nur bestieg, nachdem sein Vater und sein Bruder ins Exil geschickt worden waren, oder Prinz Georg, der Bruder, der der eigentliche Erbe sein sollte und trotzdem nie König gewesen ist? Alexander gilt als die gemäßigtere und legitimere Wahl, wenn man Georgs autokratische Tendenzen bedenkt, doch Georg ist eindeutig der Liebling des Volkes."
+greece_events.112.a: "Wir werden in Kürze entscheiden müssen."
+
+greece_events.113.t: "Verdacht auf Manipulation"
+greece_events.113.d.monarchist: "Während sich die Monarchisten beim Referendum als Sieger erwiesen haben, gibt es viele Republikaner, die die Regierung verdächtigen, die Ergebnisse manipuliert zu haben... genug, dass ihre Anhänger massenhaft auf die Straßen der ganzen Nation strömten, um eine Ermittlung zu fordern. Der syndikalistische Anführer Nikos Zachariadis ist Vorreiter dieser Forderungen und viele befürchten, dass, wenn auch nur das geringste Beweisstück eines Betrugs aufgedeckt wird, dies ausreichen würde, um den Syndikalisten zu erlauben, die Regierung durch einen Massenputsch zu stürzen."
+greece_events.113.d.republican: "Während sich die Republikaner beim Referendum als Sieger erwiesen haben, gibt es viele Monarchisten, die die Regierung verdächtigen, die Ergebnisse manipuliert zu haben... genug, dass ihre Anhänger massenhaft auf die Straßen der ganzen Nation strömten, um eine Ermittlung zu fordern. Der ehemalige General Ioannis Metaxas ist Vorreiter dieser Forderungen und viele befürchten, dass, wenn auch nur das geringste Beweisstück eines Betrugs aufgedeckt wird, dies ausreichen würde, um Metaxas zu erlauben, die Regierung durch einen Massenputsch zu stürzen."
+greece_events.113.a: "Die Manipulation ist aufgeflogen!"
+greece_events.113.b: "Keine Beweise werden aufgedeckt und die Proteste verklingen."
+
+greece_events.114.t: "Der Metaxas-Putsch"
+greece_events.114.d: "Unsere schlimmsten Befürchtungen haben sich bestätigt: Der Versuch, die Wahl zugunsten der Republik zu manipulieren, wurde aufgedeckt, nachdem mehrere Regierungsbeamte mit Beweisen an die Öffentlichkeit gegangen sind. Im ganzen Land haben sich Unruhen ausgebreitet und der ehemalige General Ioannis Metaxas ist eingeschritten, um die Macht zu übernehmen. Er und zahlreiche Anhänger der Armee haben das Parlament gestürmt, Regierungsführer verhaftet und Metaxas zum Übergangspräsidenten und Diktator erklärt."
+greece_events.114.a: "So endet die Demokratie in Griechenland ein weiteres Mal..."
+
+greece_events.115.t: "Der Syndikalisten-Putsch"
+greece_events.115.d: "Unsere schlimmsten Befürchtungen haben sich bestätigt: Der Versuch, die Wahl zugunsten der Monarchie zu manipulieren, wurde aufgedeckt, nachdem mehrere Regierungsbeamte mit Beweisen an die Öffentlichkeit gegangen sind. Im ganzen Land haben sich Unruhen ausgebreitet und der Syndikalistenführer Athanasios Klaras ist eingeschritten, um die Macht zu übernehmen. Er und zahlreiche Anhänger der Armee haben das Parlament gestürmt, Regierungsführer verhaftet und Nikos Zachariadis zum Übergangspräsidenten und Diktator erklärt. Es gibt zwar einen gewissen Widerstand, doch der Zorn über die Aktionen der Regierung hat dazu geführt, dass die Syndikalisten mehr Unterstützung haben, als sie sonst genossen hätten."
+
+greece_events.116.t: "Putsch in Griechenland"
+greece_events.116.d.metaxas: "Nachdem das Vertrauen in die griechische Regierung auf einem neuen Tiefpunkt angelangt ist und sich Unruhen im ganzen Land ausgebreitet haben, ist der ehemalige General Ioannis Metaxas eingeschritten, um die Kontrolle zu übernehmen, hat das Parlament in Athen übernommen und sich selbst zum Diktator erklärt. Er erklärte Griechenland außerdem für frei von der [Root.GetAdjective]en Herrschaft und gelobte, jede Vergeltung zu bekämpfen, sollte sie auftreten."
+greece_events.116.d.syndicalist: "Nachdem das Vertrauen in die griechische Regierung auf einem neuen Tiefpunkt angelangt ist und sich Unruhen im ganzen Land ausgebreitet haben, ist der syndikalistische Kraftprotz Athanasios Klaras eingeschritten, um die Kontrolle zu übernehmen, hat das Parlament in Athen übernommen und Nikos Zachariadis zusammen mit den syndikalistischen Kommunen zu den Führern der neuen Republik erklärt. Er erklärte Griechenland außerdem für frei von der [Root.GetAdjective]en Herrschaft und gelobte, jede Vergeltung zu bekämpfen, sollte sie auftreten."
+greece_events.116.a: "Damit werden sie nicht so leicht davonkommen."
+greece_events.116.b: "Uns bleibt keine Wahl, als sie walten zu lassen."
+
+greece_events.117.t: "Die Monarchistenfrage"
+greece_events.117.d: "Es steht außer Frage, dass die Monarchisten das Referendum verloren haben. Es ist jedoch nicht das erste Mal - sie werden irgendwann zurückkommen, es sei denn, wir können sicherstellen, dass dies das letzte Mal war, dass sie daran denken, diese Frage zu stellen. Einige schlagen vor, dass wir mit der Säuberung aller verbleibenden oder verdächtigten Monarchisten aus Regierung und Armee beginnen sollten. Andere hingegen sagen, wir sollten einen sanfteren Ansatz wählen, damit unser Versuch, die Republik zu stärken, sie nicht stattdessen schwächt."
+greece_events.117.a: "Sie zu reinigen ist der einzige Weg."
+greece_events.117.b: "Lasst sie bleiben - die Frage ist geklärt."
+
+greece_events.118.t: "Die Republikanerfrage"
+greece_events.118.d: "Es steht außer Frage, dass die Republikaner das Referendum verloren haben. Es ist jedoch nicht das erste Mal - sie werden irgendwann zurückkommen, es sei denn, wir können sicherstellen, dass dies das letzte Mal war, dass sie daran denken, diese Frage zu stellen. Einige schlagen vor, dass wir mit der Säuberung aller verbleibenden oder verdächtigten Republikaner aus Regierung und Armee beginnen sollten. Andere hingegen sagen, dass wir einen sanfteren Ansatz wählen sollten, damit unser Versuch, die Monarchie zu stärken, sie nicht schwächt."
+greece_events.118.a: "Sie zu beseitigen ist der einzige Weg."
+greece_events.118.b: "Sie sollen bleiben - die Frage ist geklärt."
+
+greece_events.119.t: "Aufstieg der Agrarier"
+greece_events.119.d: "Da die Monarchisten die Nation nun fest unter ihrer Kontrolle haben, haben diejenigen, die den republikanischen Werten treu geblieben sind, begonnen, sich von liberalen Parteien abzuwenden und sich stattdessen bei den sozialistischen Agrarianer unter der Ländlich-Demokratischen Front zu sammeln. Ihr Glück wird besonders durch die Unterstützung der griechischen Syndikalisten gestützt, die die Vereinigung unter dem agrarischen Banner als einzige Möglichkeit sehen, die Monarchisten und Konservativen, die jetzt die Kontrolle über die Nation haben, zu besiegen. Führende Mitglieder der Ländlich-Demokratischen Front haben in den letzten Wochen die gemäßigte Linke umworben und sollten sie mit ihren Bemühungen Erfolg haben, werden die Agrarier bei den kommenden Wahlen eine machtvolle Kraft darstellen."
+greece_events.119.a: "Ziemlich beunruhigend..."
+greece_events.119.b: "Verbietet sie von den Wahlen."
+
+greece_events.120.t: "Eine liberale und sozialistische Koalition"
+greece_events.120.d: "Es gab zwar Befürchtungen, dass die gemäßigten Sozialisten sich mit den harten Agrariern verbünden würden, doch scheinen diese Befürchtungen unbegründet gewesen zu sein. Heute kündigte die Nationale Unionistische Partei eine Koalition mit der Liberalen Partei an, wobei Georgios Papandreou und Nikolaos Plastiras Berichten zufolge eine Vereinbarung zur Bildung eines gemeinsamen Kabinetts ausgehandelt haben. Dies wird die Bemühungen der Ländlich-Demokratischen Front zunichte machen und möglicherweise bei der nächsten Wahl eine Bedrohung für die Volkspartei darstellen."
+greece_events.120.a: "Interessant."
+
+greece_events.121.t: "Die Linke vereint sich"
+greece_events.121.d: "Als Reaktion auf die republikanische Kontrolle über [GRE.GetNameDef] haben sich Parteien auf der linken Seite des Spektrums unter dem syndikalistischen Führer Nikos Zachariadis zusammengeschlossen, der bei den bevorstehenden Wahlen kandidieren will. Er wird mit der Unterstützung der gemäßigten Sozialisten eine ernsthafte Bedrohung darstellen. In der Regierung wird bereits davon gesprochen, die Syndikalisten zu verbieten, obwohl ihre Popularität darauf hindeutet, dass ein Versuch, dies zu tun, die Nation sofort in einen Bürgerkrieg stürzen könnte."
+greece_events.121.a: "Sie können sowieso nicht gewinnen."
+greece_events.121.b: "Verbietet sie von den Wahlen."
+
+greece_events.122.t: "Die Syndikalisten erheben sich"
+greece_events.122.d: "Nachdem die Linke von den griechischen Wahlen ausgeschlossen wurde, hat sie ihre Anhänger im Norden versammelt und eine Kampagne gestartet, um [Root.GetNameDef] zu übernehmen. Der Bürgerkrieg hat begonnen!"
+greece_events.122.a: "Das werden sie bereuen."
+
+greece_events.150.t: "Der erste Hellenische Kongress"
+greece_events.150.d: "Syndikalisten und Gewerkschaftsführer aus dem ganzen Land trafen sich diese Woche in Athen, um über die Zukunft der Hellenischen Republik zu diskutieren. Wohin gehört sie in der internationalen sozialistischen Gemeinschaft? Wie soll ihre Wirtschaft umstrukturiert werden? Was geschieht mit den verbleibenden Republikanern und Monarchisten, die sich sicherlich gegen die neue Ordnung wehren werden? Am Ende wurde der Kongress zu einem Kampf zwischen zwei Männern: dem amtierenden Vorsitzenden Nikos Zachariadis und dem charismatischen General Athanasios Klaras. Klaras's Vision für Griechenland ist weit weniger nachsichtig und weitaus mehr darauf ausgerichtet, das Land in eine Militärmacht zu verwandeln, während Zachariadis argumentiert, dass dieser Weg Griechenland auf lange Sicht zerstören wird."
+greece_events.150.a: "Zachariadis behält die Kontrolle."
+greece_events.150.b: "Athanasios Klaras bestimmt letztendlich den Raum."
+
+greece_events.151.t: "Einrichtung der Kommunen"
+greece_events.151.d: "Während die Gewerkschaften durchaus gewillt sind, wird die Umstellung der gesamten [Root.GetAdjective]en Wirtschaft auf ein sozialistisches Modell eine Herausforderung sein. Einige schlagen vor, keine Gnade zu zeigen - schnelle Industrialisierung sei ein notwendiges Ziel der Kommunen und wer nicht schnell genug nachkomme, sollte bestraft werden. Andere sagen, dass eine diplomatischere Taktik notwendig sei: Wir sollten mit den Kapitalisten zusammenarbeiten und sie davon überzeugen, dass die Kommunen ihnen nützen können, und Anreize verwenden, um sie für uns zu gewinnen. Wieder andere sagen, dass es die Gewerkschaften seien, die den Weg weisen sollten - sie sollten direkter an der Regierung mitwirken und dem Land beweisen, dass die Kommunen eine Regierung durch den Arbeiter sind."
+greece_events.151.a: "Erweitert die industrielle Basis, ohne Rücksicht auf die Kosten."
+greece_events.151.b: "Führt das Land behutsam mit Anreizen."
+greece_events.151.c: "Die Gewerkschaften müssen diesen Wandel anstoßen - lasst sie die Führung übernehmen."
+
+greece_events.152.t: "Wiederaufbau der Nation"
+greece_events.152.d: "Nachdem die Kapitalisten Griechenlands unterjocht wurden, bleibt uns nur noch, die Wirtschaft des Landes von Grund auf wiederaufzubauen. Dazu wendet sich die Regierung an die Dioitikis - den Führer -, um eine Richtung vorzugeben, was die wichtigste Priorität für die Zukunft sein sollte."
+greece_events.152.a: "Wir müssen unserer Militärmacht ausbauen."
+greece_events.152.b: "Eine starke Zivilindustrie wird unser Grundstein sein."
+greece_events.152.c: "Einheit ist wichtiger als die Wirtschaft."
+
+greece_events.153.t: "Gewerkschaftsmarsch in Thessalien"
+greece_events.153.d: "Die Auswirkungen des Schwarzen Montags sind in ganz Griechenland zu spüren, doch die hart getroffenen Industriearbeiter marschieren nun aus Protest auf der Straße. In Thessalien sind die Menschenmassen besonders groß, angefeuert von Gewerkschaftsführern und dem charismatischen syndikalistischen Sprecher Nikos Zachariadis. Die Syndikalisten gewinnen ein breites Publikum und viele in der Regierung schlagen vor, hart gegen sie vorzugehen, bevor sie eine weitere Chance haben, mehr Aufruhr zu verbreiten."
+greece_events.153.a: "Greift gegen diese Demagogen durch."
+greece_events.153.b: "Halten Sie sie in Schach, aber wir wollen keine Gewalt."
+
+greece_events.154.t: "Die Landwirtschaftkrise"
+greece_events.154.d: "Ein Großteil der griechischen Wirtschaft hängt von Agrarexporten ab - und so bleibt mit dem Zusammenbruch der europäischen Märkte nach dem Beginn des Schwarzen Montags eine große Zahl griechischer Landwirte mit Ernten zurück, die sie nicht verkaufen können. Damit befinden sie sich nicht nur in einer unmittelbaren Krise, sondern auch Griechenland wird die Auswirkungen in den kommenden Jahren spüren, wenn jetzt zu viele der Gemeinden zusammenbrechen. Tausende von Bauern marschieren auf den Straßen, und die radikal agrarische Stimmung ist hoch."
+greece_events.154.a: "Das ist nicht gut..."
+
+greece_events.155.t: "Die Santos-Verschwörung"
+greece_events.155.d: "Der griechische Anführer Athanasios Klaras ist vieles, aber ein Anführer, der die Menschen vereint, ist er nicht. Es gab bereits zahlreiche Konflikte innerhalb der Regierung, der schwerwiegendste war eine wachsende Spaltung zwischen Klarass und dem Parteifunktionär Georgios Santos. Kürzlich wurde bekannt, dass Santos und ein Kreis von Gefährten einen Plan ausgearbeitet haben, Klaras als Anführer zu verdrängen, auch wenn Klaras wahrscheinlich nicht ohne weiteres gehen wird..."
+greece_events.155.a: "Georgios Santos übernimmt die Parteiführung."
+greece_events.155.b: "Santos wird hingerichtet - Athanasios Klaras herrscht."
+
+greece_events.156.t: "Der zweite Hellenische Kongress"
+greece_events.156.d: "Syndikalisten und Gewerkschaftsführer aus dem ganzen Land trafen sich diese Woche in Athen, um über den Parteivorsitz abzustimmen, wobei Nikos Zachariadis diesmal vom langjährigen Parteimitglied Konstantinos Speras herausgefordert wurde. Speras soll eine gemäßigtere Wahl sein und viele der weniger radikalen Syndikalisten anziehen, die der Meinung sind, dass [GRE.GetNameDef] nicht länger von einer harten Haltung profitieren würde."
+greece_events.156.a: "Zachariadis führt ein neues Kabinett ein und behält die Kontrolle."
+greece_events.156.b: "Konstantinos Speras gewinnt die meisten Stimmen und wird Vorsitzender."
+
+greece_events.157.t: "Der dritte Hellenische Kongress"
+greece_events.157.d.zach: "Als der dritte syndikalistische Kongress begann, kündigte Nikos Zachariadis an, nicht mehr für den Vorsitz kandidieren zu wollen - für viele eine Überraschung, wenn man bedenkt, wie beliebt dieser Mann nach wie vor ist. Während viele den Kongress für einen traurigen Abschied von ihrem Anführer halten, müssen die Delegierten nun seinen Nachfolger wählen: entweder den gemäßigten Konstantinos Speras, der erneut antritt, oder den neuen und charismatischen Aufsteiger Nikos Beloyannis."
+greece_events.157.d.notzach: "Syndikalisten und Gewerkschaftsführer aus dem ganzen Land trafen sich diese Woche in Athen, um über den Parteivorsitz abzustimmen, wobei Konstantinos Speras vom jungen, charismatischen Aufsteiger Nikos Beloyannis herausgefordert wurde, der trotz seines Alters bereits eine große Anzahl von Delegierten für sich gewonnen hat."
+greece_events.157.a: "Konstantinos Speras behält die Kontrolle."
+greece_events.157.b: "Konstantinos Speras gewinnt die Mehrheit der Stimmen."
+greece_events.157.c: "Aufsteiger Nikos Beloyannis gewinnt den Rat für sich."
+
+greece_events.158.t: "Metaxas macht seinen Zug"
+greece_events.158.d: "Ioannis Metaxas weigert sich, die Umwandlung Griechenlands in einen sozialistischen Staat zu akzeptieren und hat eine große Zahl treuer Soldaten und Generäle versammelt um im Norden eine Rebellion zu starten. Seine Absicht ist es, die Regierung gewaltsam zu stürzen und sie in ihren \"natürlichen\" Zustand zurückzuversetzen."
+greece_events.158.a: "Er muss aufgehalten werden!"
+
+greece_events.200.t: "Diplomatische Ouvertüren aus Griechenland"
+greece_events.200.d: "Während unsere Beziehungen zu den Griechen seit ihrer Rebellion gegen die türkische Herrschaft im 19. Jahrhundert bestenfalls als kühl bezeichnet werde können, hat [GRE.GetNameDef] uns heute mehrere Abgesandte zugesandt, die hoffnungsvoll sind, eine neue Ära des Friedens zwischen unseren Nationen einzuleiten - vielleicht sogar so weit, um einen Tausch von Land und Leuten auszuarbeiten, ohne dass wir zu einem weiteren Krieg greifen müssen. Für heute suchen sie jedoch lediglich einen Indikator dafür, dass wir in Zukunft offen für solche Gespräche sein könnten."
+greece_events.200.a: "Wir begrüßen bessere Beziehungen zu den Griechen."
+greece_events.200.b: "Nein, das ist nicht nötig."
+
+ greece_events.201.t: "Verhandlungen mit [FROM.GetNameDefCap] stocken"
+ greece_events.201.d: "Die [FROM.GetAdjective]-Regierung scheint mit [ROOT.GetNameDef] Spielchen zu treiben, indem sie im Kreis redet und die gleichen Argumente vorbringt, während sie ihre eigenen Forderungen erhöht und im Laufe der Gespräche keine weiteren Zugeständnisse macht. Unser Außenminister hat angedeutet, dass eine Fortsetzung der Verhandlungen nichts mehr bringt."
+ greece_events.201.a: "Rufen Sie unser diplomatisches Korps zurück. Wir müssen uns auf alle Eventualitäten dieser Art vorbereiten."
+
+ greece_events.202.t: "[TUR.GetNameDefCap] lädt zu weiteren Gesprächen ein"
+ greece_events.202.d: "Die Regierung von [TUR.GetAdjective] hat sich unsere friedlichen Absichten zu eigen gemacht und scheint großes Interesse an weiteren Gesprächen mit [ROOT.GetNameDef] zu haben."
+ greece_events.202.a: "Ein vielversprechender Start."
+
+ greece_events.203.t: "Ein Griechisch-Türkisches Tauwetter?"
+ greece_events.203.d: "Seit mehreren Wochen führen Beamte von [Root.GetAdjective] Gespräche mit Abgesandten der Regierung von [GRE.GetAdjective] über die Möglichkeit eines Kooperationsvertrags. Dies würde ein Ende der Feindseligkeiten mit den Griechen und eine diplomatische Entspannung bedeuten, da sich die Spannungen in der Welt weiter zu verschärfen scheinen.\n\nDie Griechen sind nicht zimperlich, wenn es um ihren Ausgangspunkt für die Verhandlungen geht. Sie fordern, dass wir einen großen Teil der Ägäis abtreten, den sie als integralen Bestandteil ihres Erbes betrachten. Darüber hinaus würden beide Seiten auf weitere Ansprüche verzichten und das Gebiet der jeweils anderen Seite als unantastbar anerkennen, was die Verbundenheit von [TUR.Capital.GetCapitalVictoryPointName] und [GRE.Capital.GetCapitalVictoryPointName] zementieren und den Druck von außen abwehren würde, die Grenzen zu korrigieren. Wir müssten auch eine durchlässige Grenze zwischen unseren Staaten zulassen, die den Weg für einen freiwilligen Bevölkerungsaustausch ebnet, wobei den Türken in [GRE.GetNameDef] ein Freibrief und die Freiheit gegeben wird, nach [Root.GetNameDef] zu migrieren, während wir im Gegenzug unserer viel größeren Zahl von Griechen erlauben, dasselbe zu tun und möglicherweise in ihr Land zu gehen. Im Gegenzug werden sie sich bereit erklären, einen gegenseitigen Nichtangriffspakt zu unterzeichnen. Der nationalistische Dissens, der durch einen solchen massiven Politikwechsel ausgelöst würde, wäre beträchtlich, aber vielleicht wäre die Nichtunterzeichnung dieser Abkommen das weitaus größere Risiko in diesen turbulenten Jahren.\n\nNach diesen ersten Wochen der Diskussion scheint klar zu sein, dass wahrscheinlich ein gewisses Maß an Gebietsabtretung erforderlich sein wird, damit die Friedensvereinbarungen zu einer gegenseitigen Einigung führen. Wenn die Forderungen auf dem Tisch liegen, sinkt die Trägheit der Verhandlungen auf das, was wir in unserem eigenen Parlament und Kabinett als erträgliches Zugeständnis ertragen können."
+ greece_events.203.a: "Wir können uns bereit erklären, die Ägäis abzutreten, wenn sie ein vollständiges Militärbündnis mit uns eingehen."
+ greece_events.203.b: "Wir können zustimmen, den Dodekanes für einen dauerhaften Frieden abzutreten."
+ greece_events.203.c: "Wir können allem zustimmen, außer der Abtretung von Land."
+ greece_events.203.e: "Blockieren Sie die Verhandlungen, diese Vereinbarung ist nicht zu unserem Vorteil"
+
+ greece_events.204.t: "Das Dodekanes-Abkommen"
+ greece_events.204.d: "Nach wochenlangen Diskussionen hat die [From.GetAdjective]-Regierung erklärt, dass sie einer Öffnung der Grenzen zwischen unseren Ländern zustimmen und auch ein Versprechen der Nicht-Aggression abgeben würde, aber in Bezug auf das Schicksal der Ägäis ist sie nur bereit, der Abtretung des periphereren Dodekanes für die Neutralität zuzustimmen. Obwohl es ein schwieriges Geschäft ist, wäre es ein bedeutsamer Seitenwechsel für unsere beiden Länder und würde uns immer noch ein großes wirtschaftliches Druckmittel garantieren, indem es den Rest der griechischsprachigen Welt mit den Griechen von [ROOT.GetNameDef] verbindet."
+ greece_events.204.a: "Wir akzeptieren dieses Angebot."
+ greece_events.204.b: "Sie müssen die Ägäis für unsere Neutralität und Zusammenarbeit abtreten."
+ greece_events.204.c: "Wenn sie keine substanzielleren Zugeständnisse machen, wie können wir uns dann Frieden vorstellen?"
+
+ greece_events.205.t: "Die Ägäische Allianz"
+ greece_events.205.d: "Nach wochenlangen Diskussionen hat die [From.GetAdjective]-Regierung erklärt, dass sie einer Öffnung der Grenzen zwischen unseren Ländern zustimmen und auch ein Versprechen der Nicht-Aggression abgeben würde, aber im Hinblick auf das Schicksal der Ägäis ist sie der Meinung, dass die Pforte den Griechen nur dann die politische Kontrolle über die Inseln zugestehen würde, wenn osmanische Soldaten ihre Präsenz auf den Inseln aufrechterhalten könnten, um die Sicherheit der anatolischen Küste zu gewährleisten. Während diese widersprüchlichen Ziele zunächst das Scheitern der Verhandlungen zu bedeuten schienen, kam es zu einer überraschenden Wende, als der türkische Außenminister seinem Amtskollegen in aller Stille ein bis dahin undenkbares Arrangement anbot: Samos, Lesbos, Chios und die anderen Inseln der nördlichen Ägäis könnten an die [ROOT. GetAdjective]-Regierung unter der Bedingung abgetreten werden, dass sie ein vollständiges Militärbündnis eingeht, das es den osmanischen Truppen erlaubt, ihre Präsenz auf diesen Inseln als Garnisonen für die kollektive Sicherheit der Ägäis aufrechtzuerhalten, um nun beide Seiten des Meeres zu schützen."
+ greece_events.205.a: "Endlich Frieden und Souveränität, auf dem Weg in eine neue Zukunft!"
+ greece_events.205.b: "Dem ist entgegenzuhalten, dass Griechenland die gesamte Ägäis nur für die Neutralität benötigt."
+ greece_events.205.c: "Ein Bündnis ist zu viel, aber wir können den Dodekanes als neutralen Partner akzeptieren."
+ greece_events.205.e: "Diese Zugeständnisse sind nicht ernsthaft genug."
+
+ greece_events.206.t: "Das Osmanische Reich bietet einen Wirtschaftsvertrag an"
+ greece_events.206.d: "Nach wochenlangen Diskussionen hat die [From.GetAdjective]-Regierung erklärt, dass sie einer Öffnung der Grenzen zwischen unseren Ländern zustimmen und sich außerdem zu einem Verzicht auf Aggression verpflichten würde... aber sie wird unter keinen Umständen Land abtreten, das unserer Meinung nach rechtmäßig uns gehört. Lohnt es sich, dem Rest des Vertrages zuzustimmen, wenn man weiß, dass unsere gegenseitigen Ansprüche uns irgendwann ohnehin wieder in den Krieg führen könnten?"
+ greece_events.206.a: "Unter den gegebenen Umständen müssen wir das Beste daraus machen."
+ greece_events.206.b: "Das ist empörend, das ist ungerecht!"
+
+ greece_events.207.t: "[From.GetNameDefCap] Fordert die gesamte Ägäis!"
+ greece_events.207.d: "Die Griechen haben unsere vernünftig ausgehandelten Zugeständnisse mit der absurden Forderung gekontert, dass wir für ihre bloße Neutralität die gesamte Ägäis abtreten. Offensichtlich in der Hoffnung, diese Ära globaler Unruhen und unserer eigenen innenpolitischen Instabilität auszunutzen, um ihre unsinnigen Forderungen bis zum Punkt der Kaltblütigkeit voranzutreiben, scheint die [From.GetAdjective]-Regierung nicht an einer Vereinbarung interessiert zu sein, die uns mehr nützt als ihnen selbst."
+ greece_events.207.a: "Das Brüllen des Bären ist über dem Horizont zu hören, er nimmt das Geschäft an."
+ greece_events.207.b: "Auf keinen Fall."
+
+ greece_events.208.t: "Vertrag von Smyrna"
+ greece_events.208.d: "[TUR.GetNameDefCap] und [GRE.GetNameDef] haben endlich einen Vertrag zur Festigung ihrer Nationen aufgesetzt. Ein Versprechen über Nichtangriff und Anerkennung der territorialen Unverletzlichkeit wurde bereits unterzeichnet, während führende Wirtschaftsminister bereits eine Reihe gemeinsamer Wirtschaftsprojekte planen, die die Ägäis überbrücken sollen. Tausende scheinen die Gelegenheit zu ergreifen, um die neu geöffneten Grenzen zu nutzen und in ihr \"Mutterland\" zu ziehen, in der Gewissheit, dass ihre in ihrem Geburtsland verbliebenen Familien ein besseres Leben in einer weiter vernetzten Welt führen werden. Ausnahmsweise hat der Frieden gesiegt."
+greece_events.208.a: "Wir werden sie mit Freuden zu Hause empfangen."
+
+greece_events.213.t: "Mission aus Griechenland"
+greece_events.213.d: "Der [GRE.GetAdjective]e Botschafter hat sich im Laufe der letzten Wochen mit [Root.GetAdjective]en Beamten ausgetauscht und versucht, bessere Beziehungen und mehr gegenseitige Zusammenarbeit unserer Nationen zu fördern. Während einige in der Regierung seinen Motiven misstrauisch gegenüberstehen, scheint es, als ob seine Absichten nicht mehr sind, als den Frieden in der Region zu festigen."
+greece_events.213.a: "Ja, lasst uns enger mit den Griechen zusammenarbeiten."
+greece_events.213.b: "Nein, das ist nicht nötig."
+
+greece_events.214.t: "[From.GetNameDefCap] hat akzeptiert"
+greece_events.214.d: "Nach Gesprächen zwischen dem [Root.GetAdjective]en Botschafter und der [From.GetAdjective]en Regierung haben sie beschlossen, die Beziehungen zwischen unseren Nationen zu vertiefen."
+greece_events.214.a: "Gut gemacht!"
+
+greece_events.215.t: "[From.GetNameDefCap] hat abgelehnt"
+greece_events.215.d: "Es scheint, dass das Misstrauen zwischen den Balkanstaaten zu groß ist. Die [From.GetAdjective]e Regierung hat unserem Botschafter zugehört und unverbindliche Worte der Zustimmung geäußert... ohne dass etwas daraus geworden ist. Die Beziehungen zwischen unseren Ländern bleiben unverändert."
+greece_events.215.a: "Zu schade."
+
+greece_events.216.t: "Stärkere Zusammenarbeit auf dem Balkan"
+greece_events.216.d: "Unsere Bemühungen, bessere Beziehungen zu anderen Ländern auf dem Balkan zu fördern, haben sich ausgezahlt - vor allem mit größeren Investitionen in [Root.GetNameDef] und mehr Vertrauen unserer Bürger in die Wahrung des Friedens."
+greece_events.216.a: "Gut zu hören."
+
+greece_events.250.t: "[GRE.GetNameDefCap] belebt Megali-Idee wieder"
+greece_events.250.d: "Die Griechen sind in den letzten Monaten zunehmend revanchistisch geworden und machen Andeutungen, die "Megali-Idee" wieder aufleben zu lassen, die darauf abzielt, ethnisch griechisches Land zurückzufordern - obwohl wir feststellen, dass sie sich mit der Beanspruchung größerer Gebiete in Kleinasien zurückgehalten haben, ihre Ansprüche enden mehr oder weniger bei Konstantinopel. Wir können sie warnen, diese Ansprüche ganz aufzugeben oder sich ihnen anzuschließen, auch wenn das wahrscheinlich bedeutet, die [Root.GetFactionName] in ihren Krieg hineinzuziehen."
+greece_events.250.d.full: "Die Griechen sind in den letzten Monaten zunehmend revanchistisch geworden und haben Bewegungen zur Wiederbelebung der "Megali-Idee" gemacht, die darauf abzielt, ethnisch griechisches Land zurückzufordern - aber weit über ihr traditionelles Territorium hinausgeht, einschließlich [773.GetCapitalVictoryPointName] und der westlichen Küste Anatoliens, die hauptsächlich türkisch sind. Wir können sie warnen, diese vorschnellen Ansprüche ganz aufzugeben oder sich ihnen anzuschließen, auch wenn das wahrscheinlich bedeutet, die [Root.GetFactionName] in ihren Krieg hineinzuziehen."
+greece_events.250.a: "Wir unterstützen sie, komme was wolle."
+greece_events.250.b: "Das ist inakzeptabel - entweder sie lassen es sein, oder sie verschwinden."
+
+greece_events.251.t: "[From.GetNameDefCap] unterstützt uns"
+greece_events.251.d: "Während einige nervös waren, dass [From.GetNameDef] sich weigern würde, in einen irredentistischen Krieg mit uns hineingezogen zu werden, hat sich dies als falsch erwiesen. Die [From.GetAdjective]e Regierung hat ihre Unterstützung für uns erklärt und wird - als unser Verbündeter - für jeden Krieg zur Verfügung stehen, für den wir uns entscheiden."
+greece_events.251.a: "Ausgezeichent."
+
+greece_events.252.t: "[From.GetNameDef] warnt uns"
+greece_events.252.d: "Die [From.GetAdjective]e Regierung hat von unserer Absicht erfahren, die ethnisch griechischen Länder in Anatolien zurückzugewinnen, und hat uns unmissverständlich informiert, dass wir, wenn wir diesen Weg weitergehen, dies allein und außerhalb des [From.GetAdjective]en  Bündnis tun werden müssen."
+greece_events.252.a: "Dann stirbt Megali hier."
+greece_events.252.b: "Dann sind wir auf uns allein gestellt."
+
+greece_events.253.t: "[From.GetNameDefCap] verlässt [Root.GetFactionName]"
+greece_events.253.d.allies: "Die [From.GetAdjective]e Regierung hat beschlossen, [Root.GetFactionName] aufzugeben und ihre rücksichtslosen Ansprüche auf griechisches Territorium zu verfolgen... welche auch unsere eigenen Verbündeten einschließen. Ob dies einen Krieg mit den Griechen bedeutet, bleibt abzuwarten."
+greece_events.253.d.noallies: "Trotz unserer Warnung hat die [From.GetAdjective]e Regierung beschlossen, [Root.GetFactionName] aufzugeben und ihre rücksichtslosen Ansprüche auf griechisches Territorium zu verfolgen."
+greece_events.253.a: "Viel Glück dabei!"
+
+greece_events.254.t: "Die Griechen bieten Frieden an"
+greece_events.254.d: "Wir verlieren den Krieg gegen die Griechen - und zwar schwerwiegend. Sie haben sich mit der [Root.GetAdjective]en Regierung in Verbindung gesetzt und Frieden im Austausch für all ihre beanspruchten Gebiete angeboten. Es ist eine bittere Pille zu schlucken, doch die Alternative ist höchstwahrscheinlich, dass wir vollständig zerquetscht werden."
+greece_events.254.a: "Wir müssen Frieden schließen, solange wir können."
+greece_events.254.b: "Nein - sie werden bis zum letzten Mann gegen uns kämpfen müssen."
+
+greece_events.255.t: "[From.GetNameDefCap] lehnt Frieden ab"
+greece_events.255.d: "Es scheint, dass die Türken uns bis zum letzten Mann bekämpfen wollen. Sie haben unser Angebot abgelehnt."
+greece_events.255.a: "So sei es!"
+
+greece_events.256.t: "Eine neue Hauptstadt?"
+greece_events.256.d: "Konstantinoúpolis befindet sich wieder unter unserer Kontrolle und es stellt sich nun die Frage: Sollte die [Root.GetAdjective]e Hauptstadt verschoben werden? Im Interesse der Stabilität sagen einige, dass wir dies nicht tun sollten... doch es gibt auch andere, die sagen, dass Konstantinoúpolis die bedeutendste Stadt unserer Nation ist, vielleicht sogar die bedeutendste unserer Geschichte. Nachdem [Root.GetNameDef] so viel Ruhm erlangt hat, sollte sich das nicht in unserem Regierungssitz widerspiegeln?"
+greece_events.256.a: "Ja, dies ist die wahre Hauptstadt unserer Nation."
+greece_events.256.b: "Nein, wir verbleiben wie bisher in Athen."
+
+greece_events.261.t: "Das Ausmaß der griechischen Ansprüche"
+greece_events.261.d.faction: "[GRE.GetNameDefCap] ist bereit, unser verlorenes Territorium zurückzuerobern und unsere verlorenen Brüder zu retten. Die anstehende Frage ist folgende: Entweder schieben wir unsere Ansprüche nach Osten, halten sie aber innerhalb der \"traditionellen\" griechischen Gebiete - [184.GetName] und den Inseln im östlichen Mittelmeer, wie [183.GetName] - oder wir lassen die Megali-Idee wieder aufleben und beanspruchen alle östlichen Gebiete bis [773.GetName] und die Westküste Anatoliens, trotz der türkischen Bevölkerungsmehrheit in diesen Gebieten. Megali ist ein flüchtiger, aber gefährlicher Traum... wenn wir ihn weiterverfolgen, wird dies als ein aggressiver Schritt unsererseits angesehen werden. Wir könnten infolgedessen aus [Root.GetFactionName] ausgeschlossen werden."
+greece_events.261.d.nofaction: "[GRE.GetNameDefCap] ist bereit, unser verlorenes Territorium zurückzuerobern und unsere verlorenen Brüder zu retten. Die anstehende Frage ist folgende: Entweder schieben wir unsere Ansprüche nach Osten, halten sie aber innerhalb der \"traditionellen\" griechischen Gebiete - [184.GetName] und den Inseln im östlichen Mittelmeer, wie [183.GetName] - oder wir lassen die Megali-Idee wieder aufleben und beanspruchen alle östlichen Gebiete bis [773.GetCapitalVictoryPointName] und die Westküste Anatoliens, trotz der türkischen Bevölkerungsmehrheit in diesen Gebieten. Megali ist ein flüchtiger, aber gefährlicher Traum... wenn wir ihn weiterverfolgen, wird dies als ein aggressiver Schritt unsererseits angesehen werden. Ein Schritt, der [Root.GetNameDef] zu einem Außenseiter unter den Weltmächten machen könnte."
+greece_events.261.a: "Haltet unsere Ansprüche begrenzt"
+greece_events.261.b: "Wir werden Megali in vollem Umfang wieder auferstehen lassen!"
+
+greece_events.500.t: "Metaxas stürzt die griechische Regierung"
+greece_events.500.d: "Nachdem Griechenland nach der Niederlage im Balkankrieg gegen Bulgarien in ein massives Chaos gestürzt wurde und die demokratische Regierung sich weigerte, zurückzutreten, schritt der ehemalige General Ioannis Metaxas heute mit einer großen Gruppe von Armeeanhängern ein und stürzte die Regierung in einem geplanten Staatsstreich. Berichten zufolge kam es in Athen zu Kämpfen zwischen Metaxas' Soldaten und syndikalistischen Gruppen, die Nikos Zachariadis die Treue hielten. Metaxas behauptet, dass er selbst kurz davor stand, die Regierung zu stürzen, und dass "Maßnahmen zur Aufrechterhaltung der Ordnung erforderlich waren". Die Syndikalisten haben geschworen, sich gegen die Diktatur zu wehren, aber im Moment scheint Metaxas die Kontrolle zu haben."
+greece_events.500.a: "Interessant."
+
+greece_events.501.t: "Syndikalisten stürzen die griechische Regierung"
+greece_events.501.d: "Nachdem Griechenland nach der Niederlage im Balkankrieg gegen Bulgarien in ein massives Chaos gestürzt wurde und die demokratische Regierung sich weigerte, zurückzutreten, stürmten syndikalistische Anhänger unter Führung von Nikos Zachariadis heute das Parlament in Athen und übernahmen die Kontrolle. Die Popularität der Regierung ist so groß, dass das neue syndikalistische Regime weitaus mehr Unterstützung genießt, als dies sonst der Fall gewesen wäre, obwohl der ehemalige General Ioannis Metaxas geschworen hat, die "Ordnung" im Lande wiederherzustellen, indem er die "syndikalistische Bedrohung" beseitigt. Obwohl Zachariadis derzeit die Kontrolle hat, wird befürchtet, dass ein neuer Bürgerkrieg unvermeidlich ist."
+greece_events.501.a: "Interessant."
+
+greece_events.502.t: "Griechische Armee stürzt die Regierung"
+greece_events.502.d: "Nachdem Griechenland nach der Niederlage im Balkankrieg gegen Bulgarien in ein massives Chaos gestürzt wurde und die demokratische Regierung sich weigerte, zurückzutreten, griff die griechische Armee heute ein und stürzte die Regierung durch einen Staatsstreich. General Alexandros Papagos erklärte in einer Erklärung, dass es sich um eine vorübergehende Maßnahme handele und dass Neuwahlen abgehalten würden, sobald die Armee angesichts des zunehmenden syndikalistischen Aufruhrs die Ordnung wiederhergestellt habe. Ob Papagos die Macht abgeben wird, wie er behauptet, bleibt abzuwarten, und die Führer der Syndikalisten haben geschworen, diese "neue Diktatur" mit allen ihnen zur Verfügung stehenden Mitteln zu bekämpfen, was einen neuen Bürgerkrieg befürchten lässt."
+greece_events.502.a: "Interessant."
+
+greece_events.503.t: "Ländliche Demokratische Front siegt in Griechenland"
+greece_events.503.d: "Die Wiederherstellung der Monarchie in Griechenland veranlasste die linken Führer des Landes, sich unter dem Dach der Ländlichen Demokratischen Front zusammenzuschließen, einer Partei, die bei den jüngsten Wahlen des Landes unter [GRE.GetLeader] den Sieg davontrug.\n\nViele in der Regierung hatten ein Verbot der Partei gefordert, was abgelehnt wurde, und so steht Griechenland nun vor der Umwandlung in eine sozialistische Diktatur mit einem Mandat der wütenden griechischen Wählerschaft. Dennoch sammeln sich bereits Teile des Militärs in Opposition zur neuen Regierung, und es wird befürchtet, dass in Griechenland ein neuer Bürgerkrieg ausbrechen könnte."
+greece_events.503.a: "Interessant."
+
+greece_events.504.t: "Syndikalisten siegen bei griechischen Wahlen"
+greece_events.504.d: "Der Sieg der Republikaner in Griechenland veranlasste die linken Führer des Landes, sich unter dem Dach der Sozialen Arbeiterpartei Griechenlands zusammenzuschließen, einer Partei, die bei den jüngsten Wahlen des Landes unter [GRE.GetLeader] den Sieg davontrug. Viele in der Regierung hatten ein Verbot der Partei gefordert, was abgelehnt wurde, und so steht Griechenland nun vor der Umwandlung in eine syndikalistische Diktatur mit einem Mandat der wütenden griechischen Wählerschaft. Dennoch sammeln sich bereits Teile des Militärs in Opposition zur neuen Regierung, und es wird befürchtet, dass dadurch ein neuer Bürgerkrieg in Griechenland ausbricht."
+greece_events.504.a: "Interessant."
+
+greece_events.505.t: "Metaxas stürzt die griechische Regierung"
+greece_events.505.d: "Die jüngsten Enthüllungen in Griechenland, dass die Regierung das Referendum manipuliert hat, um ein positives Ergebnis für die Republikaner zu erzielen, haben die Nation so erschüttert, dass der ehemalige General Ioannis Metaxas die Kontrolle übernommen hat.\n\nMit der Unterstützung zahlreicher Generäle in der Armee erklärte Metaxas, dass die ehemaligen Regierungsführer verhaftet worden seien und dass er die Nation wieder auf den "richtigen Weg" bringen werde. Führende Syndikalisten haben das Metaxas-Regime bereits als opportunistischen Akt bezeichnet und geschworen, gegen ihn und seine neue Regierung vorzugehen."
+greece_events.505.a: "Interessant."
+
+greece_events.506.t: "Syndikalisten stürzen die griechische Regierung"
+greece_events.506.d: "Die jüngsten Enthüllungen in Griechenland, dass die Regierung das Referendum manipuliert hat, um ein positives Ergebnis für die Monarchisten zu erzielen, haben die Nation so erschüttert, dass der Syndikalistenführer Nikos Zachariadis die Kontrolle übernommen hat.\n\nMit der Unterstützung zahlreicher Milizenführer erklärte Zachariadis, dass die ehemaligen Regierungsführer verhaftet worden seien und dass er die Nation wieder auf den "richtigen Weg" bringen werde. Der ehemalige General Ioannis Metaxas hat das neue Regime bereits für ungültig erklärt und ist mit mehreren loyalen Generälen aufs Land gezogen, um Widerstand zu leisten, so dass ein neuer Bürgerkrieg fast sicher scheint."
+greece_events.506.a: "Interessant."
+
+greece_events.507.t: "Syndikalisten gewinnen griechischen Bürgerkrieg"
+greece_events.507.d: "Nach monatelangen Kämpfen haben die syndikalistischen Kräfte unter dem griechischen Führer Nikos Zachariadis heute die Kontrolle über Athen übernommen und den Sieg im Bürgerkrieg erklärt. Zachariadis kündigte an, dass eine Übergangsregierung eingesetzt werde, bis ein ordentlicher Kongress der griechischen Gewerkschaften und Arbeitnehmer einberufen werden könne, um über die Zukunft des Landes zu entscheiden. Obwohl die Kämpfe in vielen Teilen Griechenlands noch andauern, hat es den Anschein, als sei die Richtung für die Zukunft des Landes endlich festgelegt worden."
+greece_events.507.a: "Interessant."
+
+greece_events.508.t: "Metaxas gewinnt den griechischen Bürgerkrieg"
+greece_events.508.d: "Nach monatelangen Kämpfen haben die Truppen des ehemaligen Generals Ioannis Metaxas heute die Kontrolle über Athen übernommen und den Sieg im griechischen Bürgerkrieg erklärt. Metaxas kündigte an, dass eine Übergangsregierung unter seiner Kontrolle eingesetzt wird, bis ein Tribunal eingesetzt wird, das über die Zukunft des Landes entscheidet. Zwar wird in vielen Teilen Griechenlands noch gekämpft, doch scheint die Zukunft des Landes endlich geklärt zu sein."
+greece_events.508.a: "Interessant."
+
+greece_events.509.t: "Republikaner gewinnen griechisches Referendum"
+greece_events.509.d: "Das kürzlich durchgeführte Referendum über die Zukunft der griechischen Monarchie ist mit dem Sieg der Republikaner endgültig beendet. Der griechische Premierminister [GRE.GetLeader] verkündete, dass König Alexander nicht aus dem Exil zurückkehren wird und dass das Land gemäß dem Wunsch der Bevölkerung eine Republik bleiben wird.\n\nDas Referendum hat in Griechenland tiefe Gräben aufgerissen, und auch wenn die Frage der Monarchie geklärt sein mag, wird es für die Regierung in den kommenden Jahren ein harter Kampf sein, diese Gräben zu überwinden."
+greece_events.509.a: "Interessant."
+
+greece_events.510.t: "Wiederherstellung der Monarchie in Griechenland"
+greece_events.510.d: "Nach wochenlangen Überlegungen hat die griechische Regierung beschlossen, die Krone an König Alexandros I. zurückzugeben, der 1923 nach der Gründung der Dritten Republik ins Exil geschickt wurde. Obwohl viele Aléxandros aufgrund seiner Rolle bei der Auslieferung der Wirtschaft an Deutschland und Österreich nach dem Ersten Weltkrieg als unpopulär betrachten, war man der Ansicht, dass er immer noch der legitimste Herrscher war.\n\nDer König sprach zu einer großen, jubelnden Menschenmenge in Athen, nachdem er zum ersten Mal seit vielen Jahren zurückgekehrt war. Er sagte, Griechenland sei "endlich auf den Weg zurückgekehrt, auf dem es sein sollte", und versprach, mit der Führung des Landes zusammenzuarbeiten, um eine positive Zukunft zu gestalten."
+greece_events.510.a: "Interessant."
+
+greece_events.511.t: "Wiederherstellung der Monarchie in Griechenland"
+greece_events.511.d: "Nach wochenlangen Beratungen hat die griechische Regierung beschlossen, die Krone an König Geórgios II. zu vergeben - und nicht an Alexandros I., der zwar noch lebt, aber nach Ansicht vieler als älterer Bruder von Alexandros schon immer der rechtmäßige Erbe hätte sein sollen... und der die Krone aufgrund seines Exils nach dem Weltkrieg nie erhalten hat. Auch wenn es noch Zweifel an seiner Legitimität gibt, hat die Regierung dem Volk versichert, dass damit ein Fehler behoben wurde, der schon lange vorher gemacht wurde.\n\nDer König sprach vor einer jubelnden Menge in Athen, nachdem er zum ersten Mal seit vielen Jahren zurückgekehrt war. Er sagte, Griechenland sei "endlich auf den Weg zurückgekehrt, auf dem es sein sollte", und versprach, unermüdlich für den Wiederaufbau des Landes zu arbeiten."
+greece_events.511.a: "Interessant."
+
+greece_events.512.t: "Wiederherstellung der Monarchie in Griechenland"
+greece_events.512.d: "Die griechische Regierung hat heute angekündigt, dass sie die Monarchie wiederherstellen wird. Sie verzichtet damit auf das Referendum, mit dem das Königreich 1920 wiederhergestellt wurde, bevor es 1923 gestürzt wurde. Statt Aléxandros I. die Krone wiederzugeben, hat sie sie jedoch seinem jüngeren Bruder, Pávlos I., übertragen. Der neue König, so heißt es, habe viel radikalere und autoritärere Ideen, die er während seines Exils gelernt habe und die mehr mit der neuen griechischen Regierung übereinstimmten, obwohl der Rest der königlichen Familie mit ihm nach Griechenland zurückkehren werde.\n\nDer König sprach vor einer jubelnden Menge in Athen, nachdem er zum ersten Mal seit vielen Jahren zurückgekehrt war. Er sagte, Griechenland sei "endlich auf den Weg zurückgekehrt, auf dem es sein sollte", und versprach, unermüdlich für den Wiederaufbau des Landes zu arbeiten."
+greece_events.512.a: "Interessant."
 
 ### Cosmetic Tags ###
 GRE: "Griechenland"
