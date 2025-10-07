@@ -1,254 +1,254 @@
 ﻿l_german:
-######################################################
-### Kaiserreich Game Rules                         ###
-######################################################
-### By El Daddy, Igor050301, Amber and many others ###
-######################################################
+### Übersetzt von Proho ### bis Zeile 251
+###   Kaiserreich Game Rules                   ###
+##################################################
+# By El Daddy, Igor050301, Amber and many others #
+##################################################
 
  ## Nation Buffs ###
- custom_diff_strong_rpt: "£KR_game_rule_flag_GER  £KR_game_rule_flag_GEA  £KR_game_rule_flag_MAF  £KR_game_rule_flag_BAT  Strengthen the Reichspakt"
- custom_diff_strong_int: "£KR_game_rule_flag_FRA  £KR_game_rule_flag_ENG  £KR_game_rule_flag_SRI  Strengthen the Internationale"
- custom_diff_strong_ent: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_NFA  £KR_game_rule_flag_SRD  £KR_game_rule_flag_RAJ  Strengthen the Entente"
- custom_diff_strong_gbr: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_GBR  Strengthen the United Kingdom"
- custom_diff_strong_nfa: "£KR_game_rule_flag_NFA  Strengthen the French Republic"
- custom_diff_strong_srd: "£KR_game_rule_flag_SRD  Strengthen Sardinia"
- custom_diff_strong_ire: "£KR_game_rule_flag_IRE  Strengthen Ireland"
- custom_diff_strong_aus: "£KR_game_rule_flag_AUS  Strengthen the Austrian Empire"
- custom_diff_strong_pol: "£KR_game_rule_flag_POL  Strengthen Poland"
- custom_diff_strong_ukr: "£KR_game_rule_flag_UKR  Strengthen Ukraine"
- custom_diff_strong_rus: "£KR_game_rule_flag_RUS  Strengthen the Russian Republic"
- custom_diff_strong_rsa: "£KR_game_rule_flag_RSA  Strengthen the Free Russian Army"
- custom_diff_strong_fer: "£KR_game_rule_flag_FER_army  Strengthen the Far Eastern Army"
- custom_diff_strong_buk: "£KR_game_rule_flag_BUK  Strengthen Bukhara"
- custom_diff_strong_trk: "£KR_game_rule_flag_TRK  Strengthen Turkestan"
- custom_diff_strong_khi: "£KR_game_rule_flag_KHI  Strengthen Khiva"
- custom_diff_strong_kaz: "£KR_game_rule_flag_KAZ  Strengthen Kazakhstan"
- custom_diff_strong_wca: "£KR_game_rule_flag_WCA  Strengthen the Workers' Congress"
- custom_diff_strong_apg: "£KR_game_rule_flag_APG  Strengthen the People's Government"
- custom_diff_strong_acc: "£KR_game_rule_flag_ACC  Strengthen the Constitutional Coalition"
- custom_diff_strong_nee: "£KR_game_rule_flag_NEE  Strengthen New England"
- custom_diff_strong_spa: "£KR_game_rule_flag_SPA_kingdom  £KR_game_rule_flag_SPA_carlists  £KR_game_rule_flag_CNT  Strengthen all Spanish Splinters"
- custom_diff_strong_sri: "£KR_game_rule_flag_SRI  Strengthen the Socialist Republic of Italy"
- custom_diff_strong_sic: "£KR_game_rule_flag_SIC  Strengthen the Two Sicilies"
- custom_diff_strong_bul: "£KR_game_rule_flag_BUL  Strengthen Bulgaria"
- custom_diff_strong_gre: "£KR_game_rule_flag_GRE  Strengthen Greece"
- custom_diff_strong_bpt: "£KR_game_rule_flag_SER_republic  £KR_game_rule_flag_ROM  Strengthen the Belgrade Pact"
- custom_diff_strong_ott: "£KR_game_rule_flag_TUR  Strengthen the Ottoman Empire"
- custom_diff_strong_cpt: "£KR_game_rule_flag_EGY  £KR_game_rule_flag_SAU  £KR_game_rule_flag_SYR  £KR_game_rule_flag_HEJ  £KR_game_rule_flag_IRQ  Strengthen the Cairo Pact"
- custom_diff_strong_per: "£KR_game_rule_flag_PER  Strengthen Persia"
- custom_diff_strong_arg: "£KR_game_rule_flag_ARG  Strengthen Argentina"
- custom_diff_strong_fop: "£KR_game_rule_flag_FOP_syndicalist  Strengthen Patagonia"
- custom_diff_strong_bra: "£KR_game_rule_flag_BRA  Strengthen Brazil"
- custom_diff_strong_bhc: "£KR_game_rule_flag_HND  Strengthen the Bharatiya People's Republic"
- custom_diff_strong_raj: "£KR_game_rule_flag_RAJ  Strengthen the Dominion of India"
- custom_diff_strong_prf: "£KR_game_rule_flag_PRF  Strengthen the Princely Federation"
- custom_diff_strong_qie: "£KR_game_rule_flag_QIE_monarchy  Strengthen the Qing Government"
- custom_diff_strong_lep: "£KR_game_rule_flag_LEP  Strengthen the League of Eight Provinces"
- custom_diff_strong_anq: "£KR_game_rule_flag_ANQ  Strengthen Anqing"
- custom_diff_strong_fng: "£KR_game_rule_flag_FNG  Strengthen the Fengtian Government"
- custom_diff_strong_shd: "£KR_game_rule_flag_SHD  Strengthen the Shandong Clique"
- custom_diff_strong_kmt: "£KR_game_rule_flag_CHI  Strengthen the Left Kuomintang"
- custom_diff_strong_shx: "£KR_game_rule_flag_SHX  Strengthen the Shanxi Clique"
- custom_diff_strong_xsm: "£KR_game_rule_flag_XSM  Strengthen the Ma Clique"
- custom_diff_strong_sik: "£KR_game_rule_flag_SIK  Strengthen the Xinjiang Clique"
- custom_diff_strong_kum: "£KR_game_rule_flag_KUM  Strengthen the Kumul Khanate"
- custom_diff_strong_ets: "£KR_game_rule_flag_ETS  Strengthen East Turkestan"
- custom_diff_strong_mon: "£KR_game_rule_flag_MON  Strengthen Mongolia"
- custom_diff_strong_tib: "£KR_game_rule_flag_TIB  Strengthen Tibet"
- custom_diff_strong_gxc: "£KR_game_rule_flag_GXC  Strengthen the Liangguang Clique"
- custom_diff_strong_szc: "£KR_game_rule_flag_SZC  Strengthen the Sichuan Clique"
- custom_diff_strong_hnn: "£KR_game_rule_flag_HNN  Strengthen the Hunan Clique"
- custom_diff_strong_yun: "£KR_game_rule_flag_YUN  Strengthen the Yunnan Clique"
- custom_diff_strong_inc: "£KR_game_rule_flag_INC  Strengthen Indochina"
- custom_diff_strong_vin: "£KR_game_rule_flag_VIN  Strengthen Vietnam"
- custom_diff_strong_hol: "£KR_game_rule_flag_HOL  £KR_game_rule_flag_DEI  Strengthen the Netherlands"
- custom_diff_strong_ins: "£KR_game_rule_flag_INS  Strengthen Indonesia"
- custom_diff_strong_phi: "£KR_game_rule_flag_PHI  Strengthen the Philippines"
+custom_diff_strong_rpt: "£KR_game_rule_flag_GER  £KR_game_rule_flag_GEA  £KR_game_rule_flag_MAF  £KR_game_rule_flag_BAT   Stärkung des Reichspakt"
+custom_diff_strong_int: "£KR_game_rule_flag_FRA   £KR_game_rule_flag_ENG  £KR_game_rule_flag_SRI   Stärkung der Internationale"
+custom_diff_strong_ent: "£KR_game_rule_flag_CAN   £KR_game_rule_flag_NFA   £KR_game_rule_flag_SRD  £KR_game_rule_flag_RAJ   Stärkung der Entente"
+custom_diff_strong_gbr: "£KR_game_rule_flag_CAN £KR_game_rule_flag_GBR   Stärkung des Vereinigten Königreichs"
+custom_diff_strong_nfa: "£KR_game_rule_flag_NFA   Stärkung der Französische Republik"
+custom_diff_strong_srd: "£KR_game_rule_flag_SRD   Stärkung Sardiniens"
+ custom_diff_strong_ire: "£KR_game_rule_flag_IRE  Stärkung Irlands"
+custom_diff_strong_aus: "£KR_game_rule_flag_AUS   Stärkung des Kaiserreichs Österreich"
+ custom_diff_strong_pol: "£KR_game_rule_flag_POL  Stärkung Polens"
+ custom_diff_strong_ukr: "£KR_game_rule_flag_UKR  Stärkung Ukraine"
+custom_diff_strong_rus: "£KR_game_rule_flag_RUS   Stärkung der Russischen Republik"
+ custom_diff_strong_rsa: "£KR_game_rule_flag_RSA  Stärkung der Freien Russischen Armee"
+ custom_diff_strong_fer: "£KR_game_rule_flag_FER_army  Stärkung der Fern-Ost-Armee"
+ custom_diff_strong_buk: "£KR_game_rule_flag_BUK  Stärkung Buchara"
+ custom_diff_strong_trk: "£KR_game_rule_flag_TRK  Stärkung Turkestan"
+ custom_diff_strong_khi: "£KR_game_rule_flag_KHI  Stärkung Khiva"
+ custom_diff_strong_kaz: "£KR_game_rule_flag_KAZ  Stärkung Kasachstan"
+custom_diff_strong_wca: "£KR_game_rule_flag_WCA   Stärkung des Arbeiter-Kongress"
+custom_diff_strong_apg: "£KR_game_rule_flag_APG   Stärkung der Volksregierung"
+custom_diff_strong_acc: "£KR_game_rule_flag_ACC   Stärkung der Konstitutionelle Koalition"
+custom_diff_strong_nee: "£KR_game_rule_flag_NEE   Stärkung von Neu England"
+ custom_diff_strong_spa: "£KR_game_rule_flag_SPA_kingdom  £KR_game_rule_flag_SPA_carlists  £KR_game_rule_flag_CNT  Stärkung aller Spanischen Splittergruppen"
+custom_diff_strong_sri: "£KR_game_rule_flag_SRI   Stärkung der Sozialistische Republik Italien"
+custom_diff_strong_sic: "£KR_game_rule_flag_SIC   Stärkung von Beider Sizilien"
+custom_diff_strong_bul: "£KR_game_rule_flag_BUL   Stärkung Bulgariens"
+custom_diff_strong_gre: "£KR_game_rule_flag_GRE   Stärkung Griechenlands"
+custom_diff_strong_bpt: "£KR_game_rule_flag_SER   £KR_game_rule_flag_SER_republic  £KR_game_rule_flag_ROM  Stärkung des Belgrader Paktes"
+custom_diff_strong_ott: "£KR_game_rule_flag_TUR   Stärkung des Osmanischen Reiches"
+custom_diff_strong_cpt: "£KR_game_rule_flag_EGY  £KR_game_rule_flag_SAU  £KR_game_rule_flag_SYR  £KR_game_rule_flag_HEJ  £KR_game_rule_flag_IRQ  Stärkung des Kairoer Paktes"
+custom_diff_strong_per: "£KR_game_rule_flag_PER   Stärkung Persiens"
+ custom_diff_strong_arg: "£KR_game_rule_flag_ARG  Stärkung Argentiniens"
+ custom_diff_strong_fop: "£KR_game_rule_flag_FOP_syndicalist  Stärkung Patagoniens"
+ custom_diff_strong_bra: "£KR_game_rule_flag_BRA  Stärkung Brasiliens"
+custom_diff_strong_bhc: "£KR_game_rule_flag_HND   Stärkung der Bharatiya Volksrepublik"
+custom_diff_strong_raj: "£KR_game_rule_flag_RAJ   Stärkung des Dominion von Indien"
+custom_diff_strong_prf: "£KR_game_rule_flag_PRF   Stärkung der Fürstlichen Föderation"
+custom_diff_strong_qie: "£KR_game_rule_flag_QIE_monarchy   Stärkung der Qing-Regierung"
+custom_diff_strong_lep: "£KR_game_rule_flag_LEP   Stärkung der Liga der acht Provinzen"
+custom_diff_strong_anq: "£KR_game_rule_flag_ANQ   Stärkung von Anqing"
+custom_diff_strong_fng: "£KR_game_rule_flag_FNG   Stärkung der Fengtian-Regierung"
+custom_diff_strong_shd: "£KR_game_rule_flag_SHD   Stärkung der Shandong-Clique"
+custom_diff_strong_kmt: "£KR_game_rule_flag_CHI   Stärkung der Linken Kuomintang"
+custom_diff_strong_shx: "£KR_game_rule_flag_SHX   Stärkung der Shanxi-Clique"
+custom_diff_strong_xsm: "£KR_game_rule_flag_XSM   Stärkung der Ma-Clique"
+custom_diff_strong_sik: "£KR_game_rule_flag_SIK   Stärkung der Xinjiang-Clique"
+custom_diff_strong_kum: "£KR_game_rule_flag_KUM   Stärkung des Kumul Khanats"
+custom_diff_strong_ets: "£KR_game_rule_flag_ETS   Stärkung von Ostturkestan"
+custom_diff_strong_mon: "£KR_game_rule_flag_MON   Stärkung der Mongolei"
+custom_diff_strong_tib: "£KR_game_rule_flag_TIB   Stärkung von Tibet"
+custom_diff_strong_gxc: "£KR_game_rule_flag_GXC   Stärkung der Liangguang-Clique"
+custom_diff_strong_szc: "£KR_game_rule_flag_SZC   Stärkung der Sichuan-Clique"
+custom_diff_strong_hnn: "£KR_game_rule_flag_HNN   Stärkung der Hunan-Clique"
+custom_diff_strong_yun: "£KR_game_rule_flag_YUN   Stärkung der Yunnan-Clique"
+ custom_diff_strong_inc: "£KR_game_rule_flag_INC  Stärkung Indochina"
+ custom_diff_strong_vin: "£KR_game_rule_flag_VIN  Stärkung Vietnam"
+ custom_diff_strong_hol: "£KR_game_rule_flag_HOL £KR_game_rule_flag_DEI  Stärkung der Niederlande"
+ custom_diff_strong_ins: "£KR_game_rule_flag_INS  Stärkung von Indonesien"
+ custom_diff_strong_phi: "£KR_game_rule_flag_PHI  Stärkung der Philippinen"
 
- ### Game Rules ###
- RULE_GROUP_KAISERREICH_RULES: "General"
+### Game Rules ###
+RULE_GROUP_KAISERREICH_RULES: "Allgemein"
 
- RULE_WK2_BEGIN_OPTIONS: "Early Second Weltkrieg"
- RULE_OPTION_RESTRICTED: "Restricted"
- RULE_WK2_BEGIN_OPTIONS_RESTRICTED_DESC: "Almost all paths which could lead to war breaking out between the Reichspakt and the Third Internationale before 1939 are blocked, even if this means early confrontations between the two always result in one party backing down."
- RULE_OPTION_RARE: "Rare"
- RULE_WK2_BEGIN_OPTIONS_RARE_DESC: "Paths which could lead to war breaking out between the Reichspakt and the Third Internationale before 1939 aren't blocked, but the chances that they'll lead to war are very small."
- RULE_OPTION_UNRESTRICTED: "Unrestricted"
- RULE_WK2_BEGIN_OPTIONS_UNRESTRICTED_DESC: "Any early confrontation between the Reichspakt and the Third Internationale could mean a breakout of the Second Weltkrieg, based on the chances involved in any event chain. This means early wars happen frequently."
+RULE_WK2_BEGIN_OPTIONS: "Anfang des Zweiten Weltkriegs"
+RULE_OPTION_RESTRICTED: "Eingeschränkt"
+RULE_WK2_BEGIN_OPTIONS_RESTRICTED_DESC: "Fast alle Wege, die vor 1939 zum Ausbruch eines Krieges zwischen dem Reichspakt und der Dritten Internationale führen könnten, sind blockiert, auch wenn dies bedeutet, dass frühe Konfrontationen zwischen den beiden immer zum Rückzug einer Partei führen."
+RULE_OPTION_RARE: "Selten"
+RULE_WK2_BEGIN_OPTIONS_RARE_DESC: "Wege, die vor 1939 zum Ausbruch eines Krieges zwischen dem Reichspakt und der Dritten Internationale führen könnten, sind nicht blockiert, aber die Chancen, dass sie zum Krieg führen, sind sehr gering."
+RULE_OPTION_UNRESTRICTED: "Uneingeschränkt"
+RULE_WK2_BEGIN_OPTIONS_UNRESTRICTED_DESC: "Jede frühe Konfrontation zwischen dem Reichspakt und der Dritten Internationale könnte einen Ausbruch des Zweiten Weltkriegs bedeuten, basierend auf den Chancen, die jede Ereigniskette mit sich bringt. Das bedeutet, dass frühe Kriege häufig vorkommen."
 
- RULE_UNIT_LIMIT_OPTIONS: "Division Limits"
- RULE_OPTION_STANDARD: "Applies to All"
- RULE_UNIT_LIMIT_OPTIONS_STANDARD_DESC: "Limits have been applied to how many divisions the AI can build, based on their factory counts and economy law level. Once the AI hits this limit, they simply stop building new divisions. This limit also applies to a player, though for them it's a soft cap and they receive a malus based on how far over the limit they build.\n\n§RNote that this is a system put in place to reduce the inevitable slowdown that happens as a game goes on, as the sheer number of divisions in action is the primary cause of system lag.§!"
- RULE_UNIT_LIMIT_OPTIONS_AI_ONLY: "Applies to AI Only"
- RULE_UNIT_LIMIT_OPTIONS_AI_ONLY_DESC: "Limits have been applied to how many divisions the AI can build, based on their factory counts and economy law level. Once the AI hits this limit, they simply stop building new divisions. At this setting, there is no limit to how many divisions a player may build other than their ability to supply manpower and equipment.\n\n§RNote that this puts the player at a considerable advantage against AI countries that would otherwise be of comparable strengths.§!"
- RULE_OPTION_TURN_OFF: "Turn Off"
- RULE_UNIT_LIMIT_OPTIONS_TURN_OFF_DESC: "This turns off the division limit system completely.\n\n§RIt is suggested you only do this if you either don't mind game speeds getting much slower as the game goes on, or you have a VERY hefty computer to run the game.§!"
+RULE_UNIT_LIMIT_OPTIONS: "Divisions-Limits"
+RULE_OPTION_STANDARD: "Gilt für alle"
+RULE_UNIT_LIMIT_OPTIONS_STANDARD_DESC: "Es wurden Beschränkungen hinsichtlich der Anzahl der Divisionen festgelegt, die die KI aufbauen kann, basierend auf ihrer Fabrikanzahl und ihrem Wirtschaftsgesetz-Level. Sobald die KI diese Grenze erreicht hat, stellt sie den Aufbau neuer Divisionen einfach ein. Dieses Limit gilt auch für einen Spieler, obwohl es für ihn ein Soft Cap ist und er einen Malus erhält, der davon abhängt, wie weit er das Limit überschreitet.\n\n§RBeachten Sie, dass dies ein System ist, das eingeführt wurde, um die unvermeidliche Verlangsamung zu reduzieren, die im Laufe eines Spiels auftritt, da die schiere Anzahl der Divisionen im Einsatz die Hauptursache für die Systemverzögerung ist.§!"
+ RULE_UNIT_LIMIT_OPTIONS_AI_ONLY: "Gilt nur für die KI"
+RULE_UNIT_LIMIT_OPTIONS_AI_ONLY_DESC: "Es wurden Grenzen dafür gesetzt, wie viele Divisionen die KI auf der Grundlage der Anzahl ihrer Fabriken und des Niveaus der Wirtschaftsgesetze aufbauen kann. Sobald die KI diese Grenze erreicht hat, hört sie einfach auf, neue Divisionen aufzubauen. Bei dieser Einstellung gibt es keine Begrenzung für die Anzahl der Divisionen, die ein Spieler aufbauen kann, außer seiner Fähigkeit, Personal und Ausrüstung bereitzustellen.\n\n§RBeachten Sie, dass dies dem Spieler einen erheblichen Vorteil gegenüber KI-Ländern verschafft, die ansonsten eine vergleichbare Stärke hätten.§!"
+RULE_OPTION_TURN_OFF: "Abschalten"
+RULE_UNIT_LIMIT_OPTIONS_TURN_OFF_DESC: "Dadurch wird das System der Divisionsbegrenzung vollständig abgeschaltet.\n\n§REs wird empfohlen, dies nur dann zu tun, wenn Sie entweder nichts dagegen haben, dass die Spielgeschwindigkeit im Laufe des Spiels viel langsamer wird, oder wenn Sie einen SEHR robusten Computer haben, auf dem das Spiel läuft.§!"
 
- RULE_DEMOB_OPTIONS: "Peacetime Demobilisation"
- RULE_OPTION_DEMOB_EXISTS: "Default"
- RULE_OPTION_DEMOB_EXISTS_DESC: "When at peace, the player is prompted to reduce their economy and/or conscription laws to levels allowed in peacetime and according to their $MODIFIER_WAR_SUPPORT_FACTOR$ within four months. The AI does the same, though they do so more quickly and tend to reduce their laws to lower levels than the player is required to. If unit limits apply to the AI, this also tends to prompt them to reduce the number of units they have active for performance reasons."
- RULE_OPTION_DEMOB_AI_ONLY: "Applies to AI Only"
- RULE_OPTION_DEMOB_AI_ONLY_DESC: "In peacetime, the AI reduces their economy and/or conscription laws. If unit limits apply to the AI, this also prompts them to reduce the number of units they have active for performance reasons. The player, however, is never be prompted to reduce their laws."
- RULE_OPTION_DEMOB_OFF: "Turn Off"
- RULE_OPTION_DEMOB_OFF_DESC: "Neither the player nor the AI are ever be prompted to reduce their economy and/or conscription laws in peacetime.\n\n§RIt is suggested you only do this if you either don't mind game speeds getting much slower as the game goes on, or you have a VERY hefty computer to run the game.§!"
+RULE_DEMOB_OPTIONS: "Demobilisierung in Friedenszeiten"
+RULE_OPTION_DEMOB_EXISTS: "Standard"
+RULE_OPTION_DEMOB_EXISTS_DESC: "In Friedenszeiten wird der Spieler aufgefordert, seine Wirtschafts- und/oder Wehrpflichtgesetze innerhalb von vier Monaten auf das in Friedenszeiten zulässige Niveau und entsprechend seinem $MODIFIER_WAR_SUPPORT_FACTOR$ zu reduzieren. Die KI tut dasselbe, allerdings schneller und tendenziell auf ein niedrigeres Niveau als vom Spieler verlangt. Wenn für die KI Einheitenbeschränkungen gelten, führt dies aus Leistungsgründen ebenfalls dazu, dass sie die Anzahl ihrer aktiven Einheiten reduziert."
+RULE_OPTION_DEMOB_AI_ONLY: "Gilt nur für die KI"
+RULE_OPTION_DEMOB_AI_ONLY_DESC: "In Friedenszeiten reduziert die KI ihre Wirtschaft und/oder Wehrpflichtgesetze. Wenn für die KI Einheitenbeschränkungen gelten, veranlasst dies sie aus Leistungsgründen ebenfalls dazu, die Anzahl ihrer aktiven Einheiten zu reduzieren. Der Spieler wird jedoch niemals aufgefordert, seine Gesetze zu reduzieren."
+RULE_OPTION_DEMOB_OFF: "Ausschalten"
+RULE_OPTION_DEMOB_OFF_DESC: "Weder der Spieler noch die KI werden jemals aufgefordert, ihre Wirtschaft und/oder Wehrpflichtgesetze in Friedenszeiten zu reduzieren.\n\n§REs wird empfohlen, dies nur dann zu tun, wenn Sie entweder nichts dagegen haben, dass die Spielgeschwindigkeit im Laufe des Spiels viel langsamer wird, oder wenn Sie einen SEHR robusten Computer haben, auf dem das Spiel läuft.§!"
 
- RULE_CONFERENCE_OPTIONS: "Peace Conferences"
- RULE_OPTION_CONFERENCE_STANDARD: "Default"
- RULE_OPTION_CONFERENCE_STANDARD_DESC: "The AI takes states in a peace conference based on its cores, claims, ambitions, and whether it can reach them."
- RULE_OPTION_CONFERENCE_PLAYER_PRIMACY: "Player Primacy"
- RULE_OPTION_CONFERENCE_PLAYER_PRIMACY_DESC: "The AI refuses to take any states in a peace conference if it involves a player on the winning side. Note that, once this Game Rule is active, a debug decision appears which allows the player the option of turning this effect off and back on throughout the game."
+ RULE_CONFERENCE_OPTIONS: "Friedens-Konferenzen"
+ RULE_OPTION_CONFERENCE_STANDARD: "Standard"
+ RULE_OPTION_CONFERENCE_STANDARD_DESC: "Die KI nimmt an einer Friedenskonferenz teil, basierend auf ihren Kerninteressen, Ansprüchen, Ambitionen und der Frage, ob sie diese erreichen kann."
+ RULE_OPTION_CONFERENCE_PLAYER_PRIMACY: "Spieler Vorrang"
+ RULE_OPTION_CONFERENCE_PLAYER_PRIMACY_DESC: "Die KI lehnt es ab, bei Friedensverhandlungen Stellung zu beziehen, wenn ein Spieler der siegreichen Seite beteiligt ist. Beachten Sie, dass nach Aktivierung dieser Spielregel eine Debug-Entscheidung angezeigt wird, mit der der Spieler diesen Effekt während des Spiels aus- und wieder einschalten kann."
 
- KR_STATE_TRANSFER_TOOL_OPTIONS: "State & Country Transfer Tool"
- RULE_OPTION_STATE_TRANSFER_TOOL_STANDARD: "Inactive"
- RULE_OPTION_STATE_TRANSFER_TOOL_STANDARD_DESC: "The State & Country Transfer Tool is deactivated, and no user interface for it is visible. Note that this has no effect if the debug option is set in the HoI4 launcher - if it is, then the State Transfer Tool can always be activated by the debug decision."
- RULE_OPTION_STATE_TRANSFER_TOOL_ACTIVE: "Active"
- RULE_OPTION_STATE_TRANSFER_TOOL_ACTIVE_DESC: "The single player version of the State & Country Transfer Tool is be active by default, and its custom GUI visible when any state is clicked (unless removed from view with Ctrl-S or deactivated by the debug decision). This allows states to be transferred between any existing countries, and all cores added or removed.\n\n§RUse at your own risk!§!"
+ KR_STATE_TRANSFER_TOOL_OPTIONS: "Staat & Land Transfer Tool"
+ RULE_OPTION_STATE_TRANSFER_TOOL_STANDARD: "Inaktiv"
+ RULE_OPTION_STATE_TRANSFER_TOOL_STANDARD_DESC: "Das State & Country Transfer Tool ist deaktiviert, und es ist keine Benutzeroberfläche dafür sichtbar. Beachten Sie, dass dies keine Auswirkung hat, wenn die Debug-Option im HoI4-Startprogramm eingestellt ist - wenn dies der Fall ist, kann das Staat-Transfer-Tool immer durch die Debug-Entscheidung aktiviert werden."
+ RULE_OPTION_STATE_TRANSFER_TOOL_ACTIVE: "Aktiv"
+ RULE_OPTION_STATE_TRANSFER_TOOL_ACTIVE_DESC: "Die Einzelspielerversion des State & Country Transfer Tools ist standardmäßig aktiv sein und seine benutzerdefinierte GUI sichtbar, wenn ein beliebiger Staat angeklickt wird (es sei denn, sie wird mit Ctrl-S aus der Ansicht entfernt oder durch die Debug-Entscheidung deaktiviert). Dadurch können Staaten zwischen allen bestehenden Ländern übertragen und alle Kerne hinzugefügt oder entfernt werden.\n\n§RBenutzung auf eigene Gefahr!§!"
  RULE_OPTION_STATE_TRANSFER_TOOL_MULTIPLAYER: "Multiplayer - Standard"
- RULE_OPTION_STATE_TRANSFER_TOOL_MULTIPLAYER_DESC: "This multiplayer version of the State & Country Transfer Tool is active by default. It works as the single player version, save that only states belonging to the player or one of their puppets (with some puppets ineligible, in situations where they could rebel against the player later in the game) may be marked and no cores can be added or removed.\n\n§RUse at your own risk!§!"
- RULE_OPTION_STATE_TRANSFER_TOOL_MP_NO_SUBJECT: "Multiplayer - No Subject Transfer"
- RULE_OPTION_STATE_TRANSFER_TOOL_MP_NO_SUBJECT_DESC: "Works the same as the multiplayer version, save that no subject states can be marked.\n\n§RUse at your own risk!§!"
+ RULE_OPTION_STATE_TRANSFER_TOOL_MULTIPLAYER_DESC: "Diese Mehrspieler-Version des Tools für die Übertragung von Staaten und Ländern ist standardmäßig aktiv. Sie funktioniert wie die Einzelspielerversion, mit der Ausnahme, dass nur Zustände markiert werden können, die dem Spieler oder einer seiner Marionetten gehören (wobei einige Marionetten in Situationen, in denen sie sich später im Spiel gegen den Spieler auflehnen könnten, nicht in Frage kommen), und keine Kerne hinzugefügt oder entfernt werden können.\n\n§RBenutzung auf eigene Gefahr!§!"
+ RULE_OPTION_STATE_TRANSFER_TOOL_MP_NO_SUBJECT: "Multiplayer - Keine Untertanen übertragung"
+ RULE_OPTION_STATE_TRANSFER_TOOL_MP_NO_SUBJECT_DESC: "Funktioniert genauso wie die Multiplayer-Version, nur dass keine Untertanenstaaten markiert werden können.\n\n§Benutzung auf eigene Gefahr!§!"
+ 
+ # El Daddys allgemeine Grundsätze für Spielregeln / Länderpfade
+ # Pfadregeln
+ # Jede Änderung der Ideologie sollte durch TAG_PATH-Regeln und Optionen zugänglich sein.
+ # Diese Regeln sollten immer _PATH heißen, wobei jede Option nach der jeweiligen Ideologie benannt ist.
+ # Wenn es mehr als einen Führer pro Ideologie gibt und diese einen eindeutigen Inhalt haben, rufen Sie die Option TAG_PATH_SURNAME_IDEOLOGY auf, wenn der Nachname unterschiedlich ist und es angemessen ist, ihn zu verwenden.
+ #        Die Namen der Pfadregeloptionen sollten eher informelle Namen der Partei sein als formelle Namen, sofern vorhanden, oder eher poetische/erzählerische Namen, solange diese nicht an anderer Stelle verwendet werden.
+ #        Vermeiden Sie es, Pfadregeloptionen "Liberale Partei gewinnt" oder ähnlich zu benennen, eine solche Option wäre "Liberale". Vermeiden Sie es auch, die Pfadregeloptionen nach Nationalgeistern, nationalen Schwerpunkten oder Ereignissen zu benennen.
+ # Versuchen Sie in der Optionsbeschreibung, die politische Partei mit ihrem vollständigen Namen in ihrer Landessprache als ideologisch gefärbten Teil des Textes zu bezeichnen.
+ # Im Text folgt dann die englische Übersetzung des vollständigen Namens in weißer Schrift.
+ #        Versuchen Sie, die Namen der politischen Parteien selbst für den farbigen Text zu priorisieren, sofern möglich.
+ #        Der Text für die Optionsbeschreibungen sollte immer im Präsens und immer in der dritten Person geschrieben werden.
+ #        Vermeiden Sie Formulierungen wie "Der Vorsitzende wird xyz tun", "versucht", "beschließt" oder "war", wenn dies möglich ist, da sie nur Platz verschwenden.
+ # Optionen für den Wechsel des Länderchefs, die keinen eindeutigen Inhalt und keine Änderung der Ideologie haben, sollten im Allgemeinen vermieden werden, mit Ausnahme einiger weniger Fälle.
+ # Forpol-Regeln
+ # Alle Fraktions-/Ausrichtungsoptionen sollten unter allen Umständen eine TAG_FORPOL-Regel haben, wobei die Regel im Code so heißen und im Text „Demonym Foreign Policy“ stehen sollte.
+ # Die Namen dieser Optionen sollten einfach nach der jeweiligen Fraktion benannt werden, z.B. „Reichspakt“, nicht „Align with Germany“. Dies sollten niemals narrative Namen sein.
+ # Entsprechend sollte der Code der Regel TAG_FORPOL_INT, TAG_FORPOL_GER, TAG_FORPOL_ENT, etc. lauten.
+ #        Der Text für die Optionsbeschreibungen sollte ebenfalls in der dritten Person und im Präsens verfasst sein.on and present tense.
+ # Regel-Einschränkungen
+ # Generell sollten die Regeln einem Land erlauben, den Zufall zu umgehen, so dass die Spieler bestimmen können, welche Option ein KI-geführtes Land wählen wird.
+ # Eine Spielregel-Option sollte jedoch nur dann existieren, wenn die KI in der Lage ist, diese bestimmte Option unter Standardbedingungen ohne aktivierte Regeln zu wählen.
+ # Wenn zum Beispiel ein bestimmter Pfad für ein Land niemals einer bestimmten Fraktion beitritt, dann sollte die Spielregel TAG_FORPOL dies nicht zulassen.
+ # Dies gilt für alle Variablen, die bereits berücksichtigt werden und ihre eigenen Regeln haben. Bei anderen Bedingungen, für die es keine Spielregeln gibt, kann es eine gewisse Nachsicht geben.
+ # Ohne Spielregeln kann ein Land zum Beispiel nicht einer anderen Fraktion beitreten, wenn der Anführer dieser Fraktion einen bestimmten Prozentsatz an Kapitulationsfortschritt hat. Durch die Spielregeln der Fraktionen kann dies umgangen werden, da es keine Regel für Kapitulationsanforderungen gibt.
+ # Einige Ausnahmen werden für die „Boosted“-Regeln gemacht, da die anderen Länder, die zu diesen Fraktionen eingeladen werden können, immer einer anderen Fraktion beigetreten sein können, wenn diese Regel gewählt wird.
+ # Da der Inhalt, um diese Länder in die Fraktion einzuladen, diese Länder berücksichtigt, aber der Inhalt der Länder selbst dies nicht berücksichtigt, kann das Verhalten der KI unter diesen Umständen anders geändert werden.
+ # Wenn nicht ausdrücklich anders angegeben, sollten Spielregeln nicht auf das Land wirken, als das man spielt, oder auf teilnehmende Länder in Mehr-Länder-Inhalten. Damit soll verhindert werden, dass Minispiele gecheest werden.
+ # Es sollte auch keine Spielregeln für interne Inhalte geben, die keinen Einfluss auf den Anführer, die Ideologie oder die Außenpolitik haben.
+ # Es besteht also kein Bedarf an Spielregeln für sich gegenseitig ausschließende Unterzweige von z.B. Wirtschafts- oder Militärbäumen.
+ # Regelanforderungen
+ # Im Abschnitt „Anforderungen“ sollten sie im Allgemeinen durch doppelte Zeilenumbrüche/Leerzeilen in drei Kategorien unterteilt werden, sofern zutreffend.
+ # Die erste Kategorie sind Anforderungen an die Erzählung/Ereignisse, die zweite die Anforderungen, dass andere Spielregeln aktiv sind, und die dritte die Anforderungen, dass andere Spielregeln nicht aktiv sind.
+ # In Fällen, in denen Ereignisse und Optionen einer bestimmten zeitlichen Abfolge folgen, gibt es hier einen gewissen Spielraum.
+ # Alle potenziellen Regeloptionen, die für das Funktionieren einer anderen Regeloption erforderlich sind, sollten einzeln aufgeführt werden, es sei denn, eine solche Regeloption wird bereits in den Anforderungen einer anderen erwähnten Regel erwähnt.
 
- # El Daddy's general principles for Game Rules / Country Paths
- #    Path Rules
- #        Any change in ideology should be accessible through TAG_PATH rules and options.
- #        These rules should always be called _PATH, with each option named after the ideology in question.
- #        If more than one leader per ideology and they have unique content, call the option TAG_PATH_SURNAME_IDEOLOGY, if the surname is different and appropriate to use.
- #        The names of the path rule options should be a more informal name of the party, rather than formal name, where appropriate, if one exists, or a more poetic / narriative name, so long as it is not used elsewhere.
- #        Avoid naming path rule options "Liberal Party Wins", or similar, such an option would be "Liberals". Also avoid calling the path rule options the names of national spirits, national foci, or events.
- #        In the option description, try to refer to the political party in their full name in their native language as the ideologically-coloured part of the text.
- #        This is then followed in the text by the English translation of their full name in white.
- #        Try to prioritise the names of political parties themselves for the coloured text, where possible.
- #        The text for the option descriptions should always be written in the present tense and always in the third person.
- #        Avoid "Leader will do xyz", or "attempts to", or "decides to", or "has been", if they can be avoided, as they just waste space.
- #        Options for country leader changes that have no unique content and no ideology change should generally be avoided, other than a few limited circumstances.
- #    Forpol Rules
- #        All faction/alignment choices should have a TAG_FORPOL rule, with the rule called that in the code and "Demonym Foreign Policy" in the text, in all circumstances.
- #        For the names of these options, they should be just named after the faction in question. i.e. "Reichspakt", not "Align with Germany". These should never be narrative names.
- #        Similarly, the code of the rule should be TAG_FORPOL_INT, TAG_FORPOL_GER, TAG_FORPOL_ENT, etc.
- #        The text for the option descriptions should all also be in the third person and present tense.
- #    Rule Restrictions
- #        Generally speaking, rules should allow a country bypass randomness, so that players can determine what option an AI-led country will take.
- #        However, a game rule option should only exist if the AI is capable of making that particular option in default circumstances with no rules enabled.
- #        For instance, if a particular path for a country doesn't ever join a particular faction, then the TAG_FORPOL game rule should not allow that particular path to do so.
- #        This is the case for all variables that are already accounted for and have their own rules. There can be some leniency in other conditions that have no game rules.
- #        For instance, without game rules, a country may not join another faction if the leader of that faction has a certain % surrender progress. Faction game rules can bypass this, as there is no rule for surrender requirements.
- #        Some exceptions are made for the "Boosted" rules, as the other countries that can be invited to these factions may always have joined another faction by the time this rule is chosen.
- #        Since the content to invite these countries to the faction takes these countries into account, but the content of the countries themselves don't take this into account, AI behaviour can be altered differently in these circumstances.
- #        Unless specifically otherwise stated, game rules should not work on the country you are playing as, or participating countries in multi-country content. This is to avoid minigames being cheesed.
- #        There should also not be game rules for tag internal content that does not effect their leader, ideology, or foreign policy.
- #        So there is no need for game rules for mutually exclusive sub-branches of economic or military trees, for instance.
- #    Rule Requirements
- #        In the "Requires" section, generally speaking, they should be seperated by double linebreaks / blank lines into three categories, where applicable.
- #        The first of these are narrative/event requirements, the second, requirements that other game rules are active, and then the third, requirements that other game rules are not active.
- #        There is some slight leeway here in cases where events and then options follow a particular sequence in time.
- #        All potential rules options that are required for another given rule option to work should all be individually listed, unless such a rule option is already mentioned within the requirements of another mentioned rule.
+### Länderpfade - Nordamerika ###
+RULE_GROUP_KAISERREICH_RULES_NORTH_AMERICA: "Länderpfade - Nordamerika"
 
- ### Country Paths - North America ###
- RULE_GROUP_KAISERREICH_RULES_NORTH_AMERICA: "Country Paths - North America"
+CAN_PATH: "£KR_game_rule_flag_CAN   Erste Tochter des Kaiserreichs"
+RULE_OPTION_CAN_PATH_RANDOM: "Standard"
+RULE_OPTION_CAN_PATH_RANDOM_DESC: "Bei den kommenden Wahlen hat Kanada die gleiche Chance, entweder die Liberalen oder die Konservativen zu wählen."
+RULE_OPTION_CAN_PATH_MARLIB: "£KR_game_rule_flag_CAN   Liberale"
+RULE_OPTION_CAN_PATH_MARLIB_DESC: "Die §mLiberale Partei von Kanada§!, angeführt von Mackenzie King, gewinnt die kanadischen Wahlen 1936 und behält ihre Machtposition."
+ RULE_OPTION_CAN_PATH_MARLIB_SOCDEM: "£KR_game_rule_flag_CAN  Liberale-CCF-Koalition"
+ RULE_OPTION_CAN_PATH_MARLIB_SOCDEM_DESC: "Die §mLiberale Partei von Kanada§! unter der Führung von Mackenzie King gewinnen die kanadischen Wahlen von 1936 und halten sich mit Hilfe der Kooperativen Commonwealth-Föderation an der Macht."
+RULE_OPTION_CAN_PATH_SOCCON: "£KR_game_rule_flag_CAN   Konservative"
+RULE_OPTION_CAN_PATH_SOCCON_DESC: "Die §cKonservative Partei von Kanada§! unter der Führung von R.B. Bennett gewinnt die kanadischen Wahlen von 1936 und lenkt das Land auf einen militaristischeren Kurs."
+RULE_OPTION_CAN_PATH_AUTDEM: "£KR_game_rule_flag_CAN   Konservative (Autoritär)"
+RULE_OPTION_CAN_PATH_AUTDEM_DESC: "Die Konservativen gewinnen die kanadischen Wahlen von 1936, aber nachdem sie die Wehrpflicht eingeführt haben, berufen sie sich auf das Kriegsmaßnahmengesetz, und die autoritäre Fraktion der §aKonservativen Partei von Kanada§! überträgt dem Britischen König mehr Macht."
 
- CAN_PATH: "£KR_game_rule_flag_CAN  First Daughter of the Empire"
- RULE_OPTION_CAN_PATH_RANDOM: "Default"
- RULE_OPTION_CAN_PATH_RANDOM_DESC: "In the coming election, Canada has an equal chance of electing either the Liberals or the Conservatives."
- RULE_OPTION_CAN_PATH_MARLIB: "£KR_game_rule_flag_CAN  Liberals"
- RULE_OPTION_CAN_PATH_MARLIB_DESC: "The §mLiberal Party of Canada§!, led by Mackenzie King, win the 1936 Canadian elections and maintain their hold on power."
- RULE_OPTION_CAN_PATH_MARLIB_SOCDEM: "£KR_game_rule_flag_CAN  Liberal-CCF Coalition"
- RULE_OPTION_CAN_PATH_MARLIB_SOCDEM_DESC: "The §mLiberal Party of Canada§!, led by Mackenzie King, win the 1936 Canadian elections, maintain their hold on power with assistance from the Co-Operative Commonwealth Federation."
- RULE_OPTION_CAN_PATH_SOCCON: "£KR_game_rule_flag_CAN  Conservatives"
- RULE_OPTION_CAN_PATH_SOCCON_DESC: "The §cConservative Party of Canada§!, led by R.B. Bennett, win the 1936 Canadian elections, turning the country towards a more militaristic path."
- RULE_OPTION_CAN_PATH_AUTDEM: "£KR_game_rule_flag_CAN  Conservatives (Authoritarian)"
- RULE_OPTION_CAN_PATH_AUTDEM_DESC: "The Conservatives win the 1936 Canadian elections, but after enacting conscription, invoke the War Measures Act, and the authoritarian faction of the §aConservative Party of Canada§! grants more power into the hands of the British king."
+CAN_KING: "£KR_game_rule_flag_CAN   Die Britische Monarchie"
+RULE_OPTION_CAN_KING_RANDOM: "Standard"
+RULE_OPTION_CAN_KING_RANDOM_DESC: "Die Britische Krone fällt wie immer an Prinz Edward, und ob sie bei ihm bleibt, hängt von seiner Beliebtheit und der Stärke seiner Anhänger ab."
+RULE_OPTION_CAN_KING_EDWARD: "£KR_game_rule_flag_CAN   König Edward VIII"
+RULE_OPTION_CAN_KING_EDWARD_DESC: "Die Britische Krone fällt an Prinz Edward und bleibt bei ihm. Er dankt nie vom Thron ab."
+RULE_OPTION_CAN_KING_ABDICATES: "£KR_game_rule_flag_CAN   König Edward VIII. dankt ab"
+RULE_OPTION_CAN_KING_ABDICATES_DESC: "Die Britische Krone fällt an Prinz Edward, aber er dankt schließlich ab (vorausgesetzt, es liegen Bedingungen vor, unter denen eine Abdankung möglich ist). An welchen seiner Brüder die Krone dann weitergegeben wird, hängt vom Schicksal ab."
+ RULE_OPTION_CAN_KING_NOT_EDWARD_START_DESC: "Sobald König Edward den Thron abdankt, vorausgesetzt, dass die Voraussetzungen für eine Abdankung gegeben sind, fällt die Krone an"
+RULE_OPTION_CAN_KING_ALBERT: "£KR_game_rule_flag_CAN   König Albert I"
+RULE_OPTION_CAN_KING_ALBERT_DESC: "$RULE_OPTION_CAN_KING_NOT_EDWARD_START_DESC$ Prinz Albert, seinen ältesten Bruder und den mutmaßlichen Erben."
+RULE_OPTION_CAN_KING_HENRY: "£KR_game_rule_flag_CAN   König Henry IX"
+RULE_OPTION_CAN_HENRY_DESC: "$RULE_OPTION_CAN_KING_NOT_EDWARD_START_DESC$ Prinz Henry, seinen zweitältesten Bruder und einen Mann mit beträchtlicher militärischer Erfahrung."
+RULE_OPTION_CAN_KING_GEORGE: "£KR_game_rule_flag_CAN   König Georg VI"
+RULE_OPTION_CAN_KING_GEORGE_DESC: "$RULE_OPTION_CAN_KING_NOT_EDWARD_START_DESC$ Prinz George, sein jüngster Bruder, der bereits selbst einen Sohn hat. Prinz George stirbt niemals bei einem Flugzeugabsturz."
 
- CAN_KING: "£KR_game_rule_flag_CAN  The British Monarchy"
- RULE_OPTION_CAN_KING_RANDOM: "Default"
- RULE_OPTION_CAN_KING_RANDOM_DESC: "The British crown falls to Prince Edward, as always, and whether it remains with him is dependent on his popularity and the strength of his supporters."
- RULE_OPTION_CAN_KING_EDWARD: "£KR_game_rule_flag_CAN  King Edward VIII"
- RULE_OPTION_CAN_KING_EDWARD_DESC: "The British crown falls to Prince Edward, and remain with him. He never abdicates the throne."
- RULE_OPTION_CAN_KING_ABDICATES: "£KR_game_rule_flag_CAN  King Edward VIII Abdicates"
- RULE_OPTION_CAN_KING_ABDICATES_DESC: "The British crown falls to Prince Edward, but he eventually abdicates the throne (assuming conditions exist in which abdication is possible). Which of his brothers the crown then passes to depends on fate."
- RULE_OPTION_CAN_KING_NOT_EDWARD_START_DESC: "Once King Edward abdicates the throne, assuming that conditions exist in which abdication is possible, the crown falls to"
- RULE_OPTION_CAN_KING_ALBERT: "£KR_game_rule_flag_CAN  King Albert I"
- RULE_OPTION_CAN_KING_ALBERT_DESC: "$RULE_OPTION_CAN_KING_NOT_EDWARD_START_DESC$ Prince Albert, his eldest brother and the heir presumptive."
- RULE_OPTION_CAN_KING_HENRY: "£KR_game_rule_flag_CAN  King Henry IX"
- RULE_OPTION_CAN_KING_HENRY_DESC: "$RULE_OPTION_CAN_KING_NOT_EDWARD_START_DESC$ Prince Henry, his second-eldest brother and a man with considerable military experience."
- RULE_OPTION_CAN_KING_GEORGE: "£KR_game_rule_flag_CAN  King George VI"
- RULE_OPTION_CAN_KING_GEORGE_DESC: "$RULE_OPTION_CAN_KING_NOT_EDWARD_START_DESC$ Prince George, his youngest brother who already has a son of his own. Prince George never dies in a plane crash."
+CAN_ACW_NEW_ENGLAND: "£KR_game_rule_flag_CAN   £KR_game_rule_flag_NEE   Die Neuengland-Frage"
+ CAN_ACW_NEW_ENGLAND_START_DESC: "Bei Ausbruch des Zweiten Amerikanischen Bürgerkriegs, wird Kanada"
+ RULE_OPTION_CAN_ACW_NEW_ENGLAND_RANDOM: "Standard"
+ RULE_OPTION_CAN_ACW_NEW_ENGLAND_RANDOM_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ entscheiden, ob es in Neuengland intervenieren und dort eine verbündete Regierung bilden will oder nicht."
+ RULE_OPTION_CAN_ACW_NEW_ENGLAND_FORM: "£KR_game_rule_flag_NEE   £KR_game_rule_flag_CAN   Bildung Neu England"
+ RULE_OPTION_CAN_ACW_NEW_ENGLAND_FORM_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ definitiv in Neuengland intervenieren und eine verbündete Regierung bilden."
+ RULE_OPTION_CAN_ACW_NEW_ENGLAND_NOT_FORM: "Neuengland besetzen"
+ RULE_OPTION_CAN_ACW_NEW_ENGLAND_NOT_FORM_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ definitiv in Neuengland intervenieren, aber es wird sich dafür entscheiden, das Gebiet zu besetzen, anstatt eine verbündete Regierung zu bilden."
+ RULE_OPTION_CAN_ACW_NEW_ENGLAND_NOT_TAKE: "£KR_game_rule_flag_CAN   Neuengland meiden"
+ RULE_OPTION_CAN_ACW_NEW_ENGLAND_NOT_TAKE_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ sich weigern, in Neuengland überhaupt zu intervenieren."
 
- CAN_ACW_NEW_ENGLAND: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_NEE  The New England Question"
- CAN_ACW_NEW_ENGLAND_START_DESC: "When the Second American Civil War begins, Canada"
- RULE_OPTION_CAN_ACW_NEW_ENGLAND_RANDOM: "Default"
- RULE_OPTION_CAN_ACW_NEW_ENGLAND_RANDOM_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ needs to decide whether or not to intervene in New England, and whether or not to form an allied government there."
- RULE_OPTION_CAN_ACW_NEW_ENGLAND_FORM: "£KR_game_rule_flag_NEE  £KR_game_rule_flag_CAN  Form New England"
- RULE_OPTION_CAN_ACW_NEW_ENGLAND_FORM_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ definitely intervenes in New England and form an allied government."
- RULE_OPTION_CAN_ACW_NEW_ENGLAND_NOT_FORM: "£KR_game_rule_flag_CAN  Occupy New England"
- RULE_OPTION_CAN_ACW_NEW_ENGLAND_NOT_FORM_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ definitely intervenes in New England, but opts to occupy the area rather than form an allied government."
- RULE_OPTION_CAN_ACW_NEW_ENGLAND_NOT_TAKE: "£KR_game_rule_flag_CAN  Avoid New England"
- RULE_OPTION_CAN_ACW_NEW_ENGLAND_NOT_TAKE_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ refuses to intervene in New England at all."
-
- CAN_ACW_ALASKA: "£KR_game_rule_flag_CAN  The Alaskan Question"
- RULE_OPTION_CAN_ACW_ALASKA_RANDOM: "Default"
- RULE_OPTION_CAN_ACW_ALASKA_RANDOM_DESC: "The last frontier of America, Alaska, represents the undisturbed beauty of a nation now deeply disturbed. Governor Troy, on behalf of his meagre population, now turns to Canada, a beacon of peace that could preserve his state, and stave off the war. At least for a time..."
+ CAN_ACW_ALASKA: "£KR_game_rule_flag_CAN  Die Alaska Frage"
+ RULE_OPTION_CAN_ACW_ALASKA_RANDOM: "Standard"
+ RULE_OPTION_CAN_ACW_ALASKA_RANDOM_DESC: "Alaska, die letzte Grenze Amerikas, repräsentiert die ungestörte Schönheit einer Nation, die jetzt tief gestört ist. Gouverneur Troy wendet sich im Namen seiner mageren Bevölkerung an Kanada, ein Leuchtfeuer des Friedens, das seinen Staat bewahren und den Krieg abwenden könnte. Zumindest für eine gewisse Zeit..."
  RULE_OPTION_CAN_ACW_ALASKA_INTERVENE: "£KR_game_rule_flag_CAN  Intervention"
- RULE_OPTION_CAN_ACW_ALASKA_INTERVENE_DESC: "Canada accepts the calls for protection by its neighbour, her destiny manifesting as the protector of North American lands from the chaos below.\n\n§RRequires:§!\n§RNot§! §CAvoid New England§! in §Y$CAN_ACW_NEW_ENGLAND$§!"
- RULE_OPTION_CAN_ACW_ALASKA_NO_INTERVENE: "£KR_game_rule_flag_USA  £KR_game_rule_flag_ACC  No Intervention"
- RULE_OPTION_CAN_ACW_ALASKA_NO_INTERVENE_DESC: "Though tempted to intervene, the risk of stirring anger from the United States is not worth more fruitless arctic forest. Alaska must protect herself."
+ RULE_OPTION_CAN_ACW_ALASKA_INTERVENE_DESC: "Kanada akzeptiert die Schutzgesuche seines Nachbarn und sieht sich als Beschützer der nordamerikanischen Länder vor dem Chaos auf der Erde.\n\n§RBenötigt:§!\n§RNicht§! §CNew England meiden§! in §Y$CAN_ACW_NEW_ENGLAND$§!"
+ RULE_OPTION_CAN_ACW_ALASKA_NO_INTERVENE: "£KR_game_rule_flag_USA  £KR_game_rule_flag_ACC  Keine Intervention"
+ RULE_OPTION_CAN_ACW_ALASKA_NO_INTERVENE_DESC: "Obwohl die Versuchung groß ist, einzugreifen, ist das Risiko, den Zorn der Vereinigten Staaten zu erregen, keinen weiteren fruchtlosen arktischen Wald wert. Alaska muss sich selbst schützen."
 
- CAN_ACW_SUPPORT: "£KR_game_rule_flag_CAN  The Intervention Debate"
- RULE_OPTION_CAN_ACW_SUPPORT_RANDOM: "Default"
- RULE_OPTION_CAN_ACW_SUPPORT_RANDOM_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ chooses which participant, if any, they are willing to support."
- RULE_OPTION_CAN_ACW_SUPPORT_USA: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_USA  Support the Federal Government"
- RULE_OPTION_CAN_ACW_SUPPORT_USA_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ always opts to support the Federal government."
- RULE_OPTION_CAN_ACW_SUPPORT_ACC: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_ACC  Support the Constitutional Coalition"
- RULE_OPTION_CAN_ACW_SUPPORT_ACC_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ always opts to support the American Constitutional Coalition, if it exists. If the Constitutionalist government does not exist, Canada opts to support no-one.$USA_MARCARTHUR_WAR_PLAN_REQUIREMENTS$"
- RULE_OPTION_CAN_ACW_SUPPORT_NEE: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_NEE  Support New England"
- RULE_OPTION_CAN_ACW_SUPPORT_NEE_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ always opts to support New England, if it exists. If New England does not exist, Canada opts to support no-one.\n\n§RRequires:§!\n§CForm New England§! in §Y$CAN_ACW_NEW_ENGLAND$§!"
- RULE_OPTION_CAN_ACW_SUPPORT_APG: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_APG  Support the Longist Government"
- RULE_OPTION_CAN_ACW_SUPPORT_APG_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ always opts to support the American People's Government, if it exists. If the Longist government does not exist, Canada opts to support no-one.\n\n§RRequires:§!\n§RNot§! §CCompromise Reached with Long§! in §Y$USA_CIVIL_WAR$§!"
- RULE_OPTION_CAN_ACW_SUPPORT_NONE: "£KR_game_rule_flag_CAN  Support No-One"
- RULE_OPTION_CAN_ACW_SUPPORT_NONE_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ opts to not support any participant."
+CAN_ACW_SUPPORT: "£KR_game_rule_flag_CAN   Die Interventionsdebatte"
+RULE_OPTION_CAN_ACW_SUPPORT_RANDOM: "Standard"
+RULE_OPTION_CAN_ACW_SUPPORT_RANDOM_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$, wird Kanada entscheiden, welchen Teilnehmer es, wenn überhaupt, zu unterstützen bereit ist."
+RULE_OPTION_CAN_ACW_SUPPORT_USA: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_USA   Unterstützung der Föderalregierung"
+RULE_OPTION_CAN_ACW_SUPPORT_USA_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ sich immer für die Unterstützung der Föderalregierung entscheiden."
+RULE_OPTION_CAN_ACW_SUPPORT_ACC: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_ACC   Unterstützen Sie die Konstitutionelle Koalition"
+RULE_OPTION_CAN_ACW_SUPPORT_ACC_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ entscheidet sich immer dafür, die Amerikanische Konstitutionelle Koalition zu unterstützen, sofern diese existiert. Wenn es keine Konstitutionelle Regierung gibt, entscheidet sich Kanada dafür, niemanden zu unterstützen.$USA_MARCARTHUR_WAR_PLAN_REQUIREMENTS$"
+ RULE_OPTION_CAN_ACW_SUPPORT_NEE: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_NEE  Unterstützen Sie Neu England"
+ RULE_OPTION_CAN_ACW_SUPPORT_NEE_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ entscheidet sich immer dafür, New England zu unterstützen, sofern es existiert. Wenn New England nicht existiert, entscheidet sich Kanada dafür, niemanden zu unterstützen.\n\n§RBenötigt:§!\n§CBildung Neu England§! in §Y$CAN_ACW_NEW_ENGLAND$§!"
+RULE_OPTION_CAN_ACW_SUPPORT_APG: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_APG   Unterstützen Sie die Longistische Regierung"
+RULE_OPTION_CAN_ACW_SUPPORT_APG_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ entscheidet sich immer dafür, die Amerikanische Volksregierung zu unterstützen, sofern diese existiert. Wenn es keine Longisten-Regierung gibt, entscheidet sich Kanada dafür, niemanden zu unterstützen.\n\n§RBenötigt:§!\n§RKeinen§! §CKompromiss mit Long erreicht§! in §Y$USA_CIVIL_WAR$§!"
+RULE_OPTION_CAN_ACW_SUPPORT_NONE: "£KR_game_rule_flag_CAN   Unterstütze niemanden"
+RULE_OPTION_CAN_ACW_SUPPORT_NONE_DESC: "$CAN_ACW_NEW_ENGLAND_START_DESC$ beschließen, keinen Teilnehmer zu unterstützen."
 
- CAN_ACW_INTERVENE: "£KR_game_rule_flag_CAN  Eyes to the South"
- RULE_OPTION_CAN_ACW_INTERVENE_RANDOM: "Default"
- RULE_OPTION_CAN_ACW_INTERVENE_RANDOM_DESC: "Canada may declare war on the Workers' Congress of America alone, or may intervene militarily on behalf of their chosen participant, should they support one."
- RULE_OPTION_CAN_ACW_INTERVENE_DIRECT: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_USA  £KR_game_rule_flag_ACC  £KR_game_rule_flag_NEE  £KR_game_rule_flag_APG  Direct Intervention"
- RULE_OPTION_CAN_ACW_INTERVENE_DIRECT_DESC: "Canada only ever attempts to intervene in the Second American Civil War in support of its chosen participant, if conditions are favourable for them do to so.\n\n§RRequires:§!\n§RNot§! §CSupport No-One§! in §Y$CAN_ACW_SUPPORT$§!"
- RULE_OPTION_CAN_ACW_INTERVENE_DECLARE_WCA: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_WCA  War with the Workers' Congress"
- RULE_OPTION_CAN_ACW_INTERVENE_DECLARE_WCA_DESC: "Canada only ever declares war on the Workers' Congress of America, should it exist and conditions are favourable for them do to so.\n\n§RRequires:§!\n§RNot§! §CForm New England§! in §Y$CAN_ACW_NEW_ENGLAND$§!"
- RULE_OPTION_CAN_ACW_INTERVENE_NO: "£KR_game_rule_flag_CAN  Do Not Intervene"
- RULE_OPTION_CAN_ACW_INTERVENE_NO_DESC: "Canada never declares war on any participant of the Second American Civil War."
+ CAN_ACW_INTERVENE: "£KR_game_rule_flag_CAN  Augen auf den Süden"
+ RULE_OPTION_CAN_ACW_INTERVENE_RANDOM: "Standard"
+ RULE_OPTION_CAN_ACW_INTERVENE_RANDOM_DESC: "Kanada kann allein dem Arbeiter-Kongress von Amerika den Krieg erklären oder militärisch zugunsten eines von ihm ausgewählten Teilnehmers intervenieren, falls es einen solchen unterstützt."
+ RULE_OPTION_CAN_ACW_INTERVENE_DIRECT: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_USA  £KR_game_rule_flag_ACC  £KR_game_rule_flag_NEE  £KR_game_rule_flag_APG  Direkte Intervention"
+ RULE_OPTION_CAN_ACW_INTERVENE_DIRECT_DESC: "Kanada versucht nur dann, in den Zweiten Amerikanischen Bürgerkrieg zugunsten seines bevorzugten Teilnehmers einzugreifen, wenn die Bedingungen dafür günstig sind.\n\n§RBenötigt:§!\n§RNicht§! §CUnterstütze niemanden§! in §Y$CAN_ACW_SUPPORT$§!"
+ RULE_OPTION_CAN_ACW_INTERVENE_DECLARE_WCA: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_WCA  Krieg mit dem Arbeiter-Kongress"
+ RULE_OPTION_CAN_ACW_INTERVENE_DECLARE_WCA_DESC: "Kanada erklärt nur dann dem Arbeiterkongress von Amerika den Krieg, wenn dieser existiert und die Bedingungen dafür günstig sind.\n\n§RBenötigt:§!\n§RNicht§! §CBildung Neu-England§! in §Y$CAN_ACW_NEW_ENGLAND$§!"
+ RULE_OPTION_CAN_ACW_INTERVENE_NO: "£KR_game_rule_flag_CAN  Nicht intervenieren"
+ RULE_OPTION_CAN_ACW_INTERVENE_NO_DESC: "Kanada erklärt keinem Teilnehmer des Zweiten Amerikanischen Bürgerkriegs jemals den Krieg."
 
- CAN_HALIFAX: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_GER  The Halifax Conference"
- RULE_OPTION_CAN_HALIFAX_START_DESC: "When both the Entente and the Reichspakt are at war with the Third Internationale, they meet and see if they can agree to work together - and the"
- RULE_OPTION_CAN_HALIFAX_RANDOM: "Default"
- RULE_OPTION_CAN_HALIFAX_RANDOM_DESC: "$RULE_OPTION_CAN_HALIFAX_START_DESC$ results are determined by chance and the various demands involved."
- RULE_OPTION_CAN_HALIFAX_ENT: "£KR_game_rule_flag_CAN  Favour the Entente"
- RULE_OPTION_CAN_HALIFAX_ENT_DESC: "$RULE_OPTION_CAN_HALIFAX_START_DESC$ Reichspakt always gives in to any resistance by the Entente, in order to reach agreement."
- RULE_OPTION_CAN_HALIFAX_GER: "£KR_game_rule_flag_GER  Favour the Reichspakt"
- RULE_OPTION_CAN_HALIFAX_GER_DESC: "$RULE_OPTION_CAN_HALIFAX_START_DESC$ Entente always gives in to any resistance by the Reichspakt, in order to reach agreement."
- RULE_OPTION_CAN_HALIFAX_FAIL: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_GER  The Conference Fails"
- RULE_OPTION_CAN_HALIFAX_FAIL_DESC: "When both the Entente and the Reichspakt are at war with the Third Internationale, Germany refuses the Entente's offer to meet and discuss terms."
+CAN_HALIFAX: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_GER   Die Konferenz von Halifax"
+ RULE_OPTION_CAN_HALIFAX_START_DESC: "Wenn sowohl die Entente als auch der Reichspakt mit der Dritten Internationale im Krieg stehen, treffen sie sich und prüfen, ob sie sich auf eine Zusammenarbeit einigen können – und die"
+RULE_OPTION_CAN_HALIFAX_RANDOM: "Standard"
+RULE_OPTION_CAN_HALIFAX_RANDOM_DESC: "$RULE_OPTION_CAN_HALIFAX_START_DESC$ Die Ergebnisse werden durch den Zufall und die verschiedenen Anforderungen bestimmt."
+RULE_OPTION_CAN_HALIFAX_ENT: "£KR_game_rule_flag_CAN   Die Entente begünstigen"
+RULE_OPTION_CAN_HALIFAX_ENT_DESC: "$RULE_OPTION_CAN_HALIFAX_START_DESC$ Der Reichspakt gibt jedem Widerstand der Entente nach, um eine Einigung zu erzielen."
+RULE_OPTION_CAN_HALIFAX_GER: "£KR_game_rule_flag_GER   Den Reichspakt begünstigen"
+RULE_OPTION_CAN_HALIFAX_GER_DESC: "$RULE_OPTION_CAN_HALIFAX_START_DESC$ Die Entente gibt jedem Widerstand des Reichspakts nach, um eine Einigung zu erzielen."
+ RULE_OPTION_CAN_HALIFAX_FAIL: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_GER  Die Konferenz scheitert"
+ RULE_OPTION_CAN_HALIFAX_FAIL_DESC: "Wenn sowohl die Entente als auch der Reichspakt sich im Krieg mit der Dritten Internationale befinden, lehnt Deutschland das Angebot der Entente ab, sich zu treffen und Bedingungen zu besprechen."
 
- CAN_REFERENDUM: "£KR_game_rule_flag_CAN  The Canadian Referendum"
- RULE_OPTION_CAN_REFERENDUM_RANDOM: "Default"
- RULE_OPTION_CAN_REFERENDUM_RANDOM_DESC: "The king may have returned to the Home Isles, but because of the hardships of the recent war, Canada's society is very fragmented. More and more people are talking about leaving the Empire, and for Canada to decide its own destiny."
- RULE_OPTION_CAN_REFERENDUM_EMPIRE: "£KR_game_rule_flag_CAN  Stay in the Empire"
+ CAN_REFERENDUM: "£KR_game_rule_flag_CAN   Das Kanadisches Referendum"
+ RULE_OPTION_CAN_REFERENDUM_RANDOM: "Standard"
+ RULE_OPTION_CAN_REFERENDUM_RANDOM_DESC: "Der König ist zwar auf die Heimatinseln zurückgekehrt, doch aufgrund der Strapazen des jüngsten Krieges ist die kanadische Gesellschaft stark gespalten. Immer mehr Menschen sprechen davon, das Empire zu verlassen und Kanada solle selbst über sein Schicksal entscheiden."
+ RULE_OPTION_CAN_REFERENDUM_EMPIRE: "£KR_game_rule_flag_CAN   Bleiben Sie im Empire"
  RULE_OPTION_CAN_REFERENDUM_EMPIRE_DESC: "Canada remains in the Empire, considering it to be its duty.$GBR_PATH_REQUIREMENTS$"
- RULE_OPTION_CAN_REFERENDUM_REP: "£KR_game_rule_flag_CAN_republic  Cut Ties with the Monarchy"
- RULE_OPTION_CAN_REFERENDUM_REP_DESC: "Canada breaks with Great Britain and declares a republic.$GBR_PATH_REQUIREMENTS$"
+ RULE_OPTION_CAN_REFERENDUM_REP: "£KR_game_rule_flag_CAN_republic   Beziehungen zur Monarchie abbrechen"
+ RULE_OPTION_CAN_REFERENDUM_REP_DESC: "Kanada bricht mit Großbritannien und erklärt sich zur Republik.$GBR_PATH_REQUIREMENTS$"
 
- USA_ELECTION: "£KR_game_rule_flag_USA  1936 United States Elections"
- RULE_OPTION_USA_ELECTION_RANDOM: "Default"
- RULE_OPTION_USA_ELECTION_RANDOM_DESC: "After eight years of troubled malaise under Al Smith, it seemed to many as if the economy of the United States might finally be recovering after the Wall Street Crash of 1925. Black Monday has put an end to such hopes, and has sounded the death-knell for an already ailing economy.\n\nAs the Democrats flounder, the Republicans candidates both pledge to put things right, but public confidence in the system is rapidly waning. Both Farmer-Labor and Long rail hard against the corrupt banking and political sectors, which they blame for the crash. Since no candidate can win the coming election outright, a contingent election in the House of Representatives elects the thirty-second president."
- RULE_OPTION_USA_ELECTION_BORAH: "£KR_game_rule_flag_USA  Republicans - William Borah"
- RULE_OPTION_USA_ELECTION_BORAH_DESC: "§mRepublican Party§! candidate William Borah wins the contingent election."
- RULE_OPTION_USA_ELECTION_LANDON: "£KR_game_rule_flag_USA  Republicans - Alf Landon"
- RULE_OPTION_USA_ELECTION_LANDON_DESC: "§mRepublican Party§! candidate Alf Landon wins the contingent election."
- RULE_OPTION_USA_ELECTION_OLSON: "£KR_game_rule_flag_USA  Farmer-Labor - Floyd Olson"
- RULE_OPTION_USA_ELECTION_OLSON_DESC: "§SFarmer-Labor Party§! candidate Floyd Olson wins the contingent election."
- RULE_OPTION_USA_ELECTION_LONG: "£KR_game_rule_flag_USA  Union Party - Huey Long"
- RULE_OPTION_USA_ELECTION_LONG_DESC: "§nUnion Party§! candidate Huey Long wins the contingent election."
- RULE_OPTION_USA_ELECTION_HULL: "£KR_game_rule_flag_USA  Democrats - Cordell Hull"
- RULE_OPTION_USA_ELECTION_HULL_DESC: "As no candidate can win the contingent election, Secretary of State Cordell Hull of the §lDemocratic Party§! becomes acting president."
-
+ USA_ELECTION: "£KR_game_rule_flag_USA  1936 Wahlen in den Vereinigten Staaten"
+ RULE_OPTION_USA_ELECTION_RANDOM: "Standard"
+ RULE_OPTION_USA_ELECTION_RANDOM: "Nach acht Jahren unruhiger Malaise unter Al Smith schien es für viele so, als würde sich die Wirtschaft der Vereinigten Staaten nach dem Wall Street Crash von 1925 endlich erholen. Der Schwarze Montag hat diesen Hoffnungen ein Ende gesetzt und die Totenglocke für eine bereits angeschlagene Wirtschaft geläutet.\n\nWährend die Demokraten ins Straucheln geraten, versprechen beide Republikanischen Kandidaten, die Lage wieder in Ordnung zu bringen, doch das Vertrauen der Öffentlichkeit in das System schwindet rapide. Sowohl Farm-Arbeiter als auch Long wettern heftig gegen die korrupten Bank- und Politikkreise, denen sie die Schuld für den Crash geben. Da kein Kandidat die bevorstehende Wahl direkt gewinnen kann, wird der zweiunddreißigste Präsident in einer Stichwahl im Repräsentantenhaus gewählt."
+ RULE_OPTION_USA_ELECTION_BORAH: "£KR_game_rule_flag_USA  Republikaner - William Borah"
+ RULE_OPTION_USA_ELECTION_BORAH_DESC: "§mRepublikanischer Kandidat §mWilliam Borah§! gewinnt die Kontingentwahl"
+ RULE_OPTION_USA_ELECTION_LANDON: "£KR_game_rule_flag_USA  Republikaner - Alf Landon"
+ RULE_OPTION_USA_ELECTION_LANDON_DESC: "Der Kandidat der §mRepublikanischen Partei§!, Alf Landon, gewinnt die Kontingentwahlen."
+ RULE_OPTION_USA_ELECTION_OLSON: "£KR_game_rule_flag_USA  Farm-Arbeiter - Floyd Olson"
+ RULE_OPTION_USA_ELECTION_OLSON_DESC: "Der Kandidat der §SFarm-Arbeiter Partei§, Floyd Olson, gewinnt die Wahl."
+ RULE_OPTION_USA_ELECTION_LONG: "£KR_game_rule_flag_USA  Unionspartei - Huey Long"
+ RULE_OPTION_USA_ELECTION_LONG_DESC: "Der Kandidat der §nUnionspartei§!, Huey Long, gewinnt die Kontingentwahlen."
+ RULE_OPTION_USA_ELECTION_HULL: "£KR_game_rule_flag_USA  Demokraten - Cordell Hull"
+ RULE_OPTION_USA_ELECTION_HULL_DESC: "Da kein Kandidat die Wahl gewinnen kann, wird Außenminister Cordell Hull von der §IDemokratischen Partei§! zum amtierenden Präsidenten ernannt."
+ 
  USA_CIVIL_WAR: "£KR_game_rule_flag_USA  Second American Civil War"
  RULE_OPTION_USA_CIVIL_WAR_RANDOM: "Default"
  RULE_OPTION_USA_CIVIL_WAR_RANDOM_DESC: "The Presidential Campaign is fraught with division, and only one thing is certain - war is again on the horizon for America."
