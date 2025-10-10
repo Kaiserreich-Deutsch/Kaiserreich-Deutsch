@@ -6,7 +6,7 @@
  intermarium_events.0.a: "Großartig!"
 
  MIE_decisions: "Osteuropäische Verteidigungskooperation"
- MIE_decisions_desc: "[?global.russia.GetNameDefCap] wurde wieder aufgebaut - und die Souveränität der osteuropäischen Staaten ist bedroht. Wenn der Zweite Weltkrieg beginnt, werden wir uns gegen den russischen Ansturm behaupten müssen-und wenn wir nicht zusammenarbeiten, werden wir einer nach dem anderen untergehen.\n\n Nachdem [[?global.russia.GetNameDef] seinen Außenpolitik-Fokusbaum freischaltet,erhalten alle östlichen Mitglieder des Reichspakts die Fähigkeit, §YRessourcen zusammenzulegen§! und sie unter den Mitgliedsstaaten zu verteilen, um Schwachstellen auszumerzen. Die Nation, die für die Verteilung der Ressourcen verantwortlich ist, kann in andere Mitgliedsstaaten investieren, um §YBefestigungen zu bauen§!, §YDivisionen auszuheben§! und vorteilhafte §YNationalgeister§! zu verteilen.\n\nDerzeit gesammelte Ressourcen:\n    £rifle_texticon  Infanterieausrüstung: §Y[?global.MIE_infantry_equipment]§!\n    £support_texticon  Zusatzausrüstung: §Y[?global.MIE_support_equipment]§!\n    £unit_artillery_icon_small  Artillerie: §Y[?global.MIE_artillery_equipment]§!\n\n[MIE_leader.GetNameWithFlag] ist derzeit dafür verantwortlich, die Ressourcen zu verteilen."
+ MIE_decisions_desc: "[?global.russia.GetNameDefCap] wurde wieder aufgebaut - und die Souveränität der osteuropäischen Staaten ist bedroht. Wenn der Zweite Weltkrieg beginnt, werden wir uns gegen den russischen Ansturm behaupten müssen-und wenn wir nicht zusammenarbeiten, werden wir einer nach dem anderen untergehen.\n\n Nachdem [[?global.russia.GetNameDef] seinen Außenpolitik-Fokusbaum freischaltet,erhalten alle östlichen Mitglieder des Reichspakts die Fähigkeit, §YRessourcen zusammenzulegen§! und sie unter den Mitgliedsstaaten zu verteilen, um Schwachstellen auszumerzen. Die Nation, die für die Verteilung der Ressourcen verantwortlich ist, kann in andere Mitgliedsstaaten investieren, um §YBefestigungen zu bauen§!, §YDivisionen auszuheben§! und vorteilhafte §YNationalgeister§! zu verteilen.\n\nDerzeit gesammelte Ressourcen:\n    £rifle_texticon  $infantry_equipment$: §Y[?global.MIE_infantry_equipment]§!\n    £support_texticon  $support_equipment$: §Y[?global.MIE_support_equipment]§!\n    £unit_artillery_icon_small  $artillery_equipment$: §Y[?global.MIE_artillery_equipment]§!\n\n[MIE_leader.GetNameWithFlag] ist derzeit dafür verantwortlich, die Ressourcen zu verteilen."
  MIE_intermarium_active: "Die §YOsteuropäische Verteidigungskooperation§! ist aktiv."
  MIE_intermarium_formed: "Das Osteuropäische Verteidigungskooperations-Programm wurde ins Leben gerufen."
  MIE_member: "Ist Mitglied der §YOsteuropäischen Verteidigungs-Kooperation§!."
@@ -56,17 +56,17 @@
  MIE_allow_equipment_shipments: "Nehmt Ausrüstungslieferungen an"
  MIE_allow_equipment_shipments_desc: "Wir haben unseren Verbündeten zwar mitgeteilt, dass wir derzeit keine Ausrüstung benötigen, können diese Entscheidung allerdings auch jederzeit rückgängig machen."
 
- MIE_spend_guns: "Sendet 1000 £rifle_texticon  Infanterieausrüstung"
- MIE_spend_support: "Sendet 250 £support_texticon  Zusatzausrüstung"
- MIE_spend_artillery: "Sendet 250 £unit_artillery_icon_small  Artillerie"
+ MIE_spend_guns: "Sendet 1000 £rifle_texticon  $infantry_equipment$"
+ MIE_spend_support: "Sendet 250 £support_texticon  $support_equipment$"
+ MIE_spend_artillery: "Sendet 250 £unit_artillery_icon_small  $artillery_equipment$"
  
- MIE_spend_guns_self: "Nehmt 1000 £rifle_texticon  Infanterieausrüstung"
- MIE_spend_support_self: "Nehmt 250 £support_texticon  Zusatzausrüstung"
- MIE_spend_artillery_self: "Nehmt 250 £unit_artillery_icon_small  Artillerie"
+ MIE_spend_guns_self: "Nehmt 1000 £rifle_texticon  $infantry_equipment$"
+ MIE_spend_support_self: "Nehmt 250 £support_texticon  $support_equipment$"
+ MIE_spend_artillery_self: "Nehmt 250 £unit_artillery_icon_small  $artillery_equipment$"
 
- MIE_invest_guns: "Investiert 500 £rifle_texticon  Infanterieausrüstung"
- MIE_invest_support: "Investiert 150 £support_texticon  Zusatzausrüstung"
- MIE_invest_artillery: "Investiert 250 £unit_artillery_icon_small  Artillerie"
+ MIE_invest_guns: "Investiert 500 £rifle_texticon  $infantry_equipment$"
+ MIE_invest_support: "Investiert 150 £support_texticon  $support_equipment$"
+ MIE_invest_artillery: "Investiert 250 £unit_artillery_icon_small  $artillery_equipment$"
 
  MIE_250_artilleryeq: "£unit_artillery_icon_small  §H250§!"
  MIE_250_artilleryeq_blocked: "£unit_artillery_icon_small  §R250§!"
@@ -126,7 +126,7 @@
  intermarium_events.7.a: "Großartig!"
 
  MIE_air_command_1: "Infrastruktur für eine gemeinschaftliche Luftabwehr"
- MIE_all_build_air_infra: "Jeder Mitgliedsstaat wird in seiner Hauptstadt den §Flughafen§! um eine Stufe und die §HLuftabwehr§! um zwei Stufen verbessern und §H50§!  £unit_fighter_icon_small erhalten.\n\nDies wird neue Entscheidungen freischalten."
+ MIE_all_build_air_infra: "Jeder Mitgliedsstaat wird in seiner Hauptstadt den §H$air_base$§! um eine Stufe und die §H$anti_air_building$§! um zwei Stufen verbessern und §H50§!  £unit_fighter_icon_small erhalten.\n\nDies wird neue Entscheidungen freischalten."
 
  intermarium_events.8.t: "Osteuropäische Kooperation"
  intermarium_events.8.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben zu nutzen, um die Infrastruktur für ein gemeinsames Luftabwehrkommando der osteuropäischen Staaten zu errichten. Dazu gehört die Konstruktion neuer Flughäfen und die Bereitstellung von Flugzeugjägern für alle Mitglieder des Kommandos."
@@ -184,4 +184,4 @@
  intermarium_events.19.b: "Wir sind dazu bereit, uns und unsere Nachbarstaaten zu verteidigen!"
  intermarium_events.19.c: "Wir sind dazu bereit, uns selbst zu verteidigen!"
  intermarium_events.19.b.tt: "Bis §H[FRA.GetNameDef]§! kapituliert hat, werden weder §HDeutschland§! noch seine Verbündeten Divisionen zur Verteidigung unserer Grenzen entsenden - wir werden den Russen allein gegenüberstehen.\nNationen der §HOsteuropäischen Verteidigungskooperation§! werden sich auch weiterhin gegenseitig verteidigen können.\n\n§RWARNUNG: Dies wird den Krieg gegen Russland schwieriger gestalten.§!"
- intermarium_events.19.c.tt: "Bis §H[FRA.GetNameDef]§! kapituliert hat, werden weder §HDeutschland§! noch seine Verbündeten Divisionen zur Verteidigung der §HOsteuropäischen Verteidigungskooperation§! entsenden.\n\n§RWARNUNG: Dies wird den Krieg gegen Russland schwieriger gestalten. Außerdem wird Russland zusätzliche Infanterieausrüstung erhalten.§!"
+ intermarium_events.19.c.tt: "Bis §H[FRA.GetNameDef]§! kapituliert hat, werden weder §HDeutschland§! noch seine Verbündeten Divisionen zur Verteidigung der §HOsteuropäischen Verteidigungskooperation§! entsenden.\n\n§RWARNUNG: Dies wird den Krieg gegen Russland schwieriger gestalten. Außerdem wird Russland zusätzliche $infantry_equipment$ erhalten.§!"
