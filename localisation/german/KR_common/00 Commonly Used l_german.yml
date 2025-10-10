@@ -65,8 +65,8 @@ state_integration_law_unlocked: "Schaltet das §H$territorial_integration$§! Be
 
 kill_character_tt: "stirbt."
 
-reduce_stability_decision_cost_twenty_five_percent_tt: "Reduziert die Kosten für £pol_power §YPolitical Power§! von £GFX_decision_icon_small §Y$generic_raise_stability$§! um §G25%§!"
-reduce_propaganda_decision_cost_twenty_five_percent_tt: "Reduziert die Kosten für £pol_power §YPolitische Macht§! von £GFX_decision_icon_small §Y$war_propaganda$§!, £GFX_decision_icon_small §Y$war_propaganda_casualties$§!, £GFX_decision_icon_small §Y$war_propaganda_convoys$§!, und £GFX_decision_icon_small §Y$war_propaganda_bombing$§! um §G25%§!"
+reduce_stability_decision_cost_twenty_five_percent_tt: "Reduziert die Kosten für £pol_power §Y$POLITICAL_POWER$§! von £GFX_decision_icon_small §Y$generic_raise_stability$§! um §G25%§!"
+reduce_propaganda_decision_cost_twenty_five_percent_tt: "Reduziert die Kosten für £pol_power §Y$POLITICAL_POWER$§! von £GFX_decision_icon_small §Y$war_propaganda$§!, £GFX_decision_icon_small §Y$war_propaganda_casualties$§!, £GFX_decision_icon_small §Y$war_propaganda_convoys$§!, und £GFX_decision_icon_small §Y$war_propaganda_bombing$§! um §G25%§!"
 
 # used to generate tooltips in dockyard or naval base foci when the country doesn't own any coastal states
 random_owned_controlled_coastal_state: "Ein zufällig besetzter und kontrollierter Küstenstaat"
@@ -110,6 +110,10 @@ tooltip_change_law_to: "Ändert $CATEGORY$ zu '$LAW|Y$', das Folgendes gewährt:
 tooltip_if_political_advisor_is_hired: "§CWenn $ADVISOR|Y$ als ein §YPolitischer Berater§! eingestellt ist:§!"
 tooltip_improves_advisor_trait: "§GVerbessert§! die Eigenschaften von $ADVISOR|Y$:"
 tooltip_disable_political_advisor: "§R$ADVISOR|Y$ wird nicht mehr als §YPolitischer Berater§! zur Verfügung stehen§!"
+
+tooltip_modify_advisor_trait: "Modifiziert $ROLE$ Eigenschaft $TRAIT|Y$ um"
+tooltip_replace_advisor_trait: "Ersetzt $ROLE$ Eigenschaft $OLD_TRAIT|Y$ mit $NEW_TRAIT|Y$\nEffektive Veränderunge:"
+# List of advisor role loc keys: second_in_command, political_advisor, theorist, army_chief, navy_chief, air_chief, high_command
 
 tooltip_has_tech: "Hat $TECH|Y$ erforscht"
 tooltip_has_tech_detailed: "Hat $NAME|Y$ ($TECH|Y$) erforscht"
@@ -179,12 +183,14 @@ tooltip_unlock_decisions_to: "Schaltet $NAME|Y$ Entscheidungen für $EFFECT$ fre
 
 add_equipment_to_stockpile_tt: "$UNITS|Y$ Einheiten von $EQUIPMENT|Y$ wird dem nationalen Vorrat hinzugefügt."
 
-tooltip_owner_of_state_with_flag: "[$STATE$.Owner.GetFlag] der Besitzer von [$STATE$.GetName]"
-tooltip_owner_of_state: "der Besitzer von [$STATE$.GetName]"
+tooltip_owner_of_state_with_flag: "[?$STATE$:owner.GetFlag] der Besitzer von [?$STATE$.GetName]"
+tooltip_owner_of_state: "der Besitzer von [?$STATE$.GetName]"
+tooltip_target_state: "[?target_state]"
+tooltip_target_state_owner_tag: "[?target_state:owner.GetTag]"
 
 tooltip_if_controlled_by: "Wenn kontrolliert von $COUNTRY|Y$:"
 
-tooltip_received_equipment: "Sie erhielten $QUANTITY|G$ Infanterieausrüstung aus diesem Land"
+tooltip_received_equipment: "Sie erhielten $QUANTITY|G$ $infantry_equipment$ aus diesem Land"
 
 may_lead_to_war_with: "§RKann zu einem Krieg mit $COUNTRY$§! führen"
 
@@ -222,13 +228,13 @@ liberate_country: "Befreit [FROM.GetNameDef]"
 cannot_enact_conscription_tt: "§RDas Wehrpflichtgesetz kann nicht verschärft werden.§!"
 cannot_train_units_tt: "§RSie können keine Einheiten ausbilden, Einheiten auflösen oder Einheitenvorlagen bearbeiten.§!"
 cannot_mobilise_tt: "§RKann die Wehrpflicht und die Mobilisierungsgesetze nicht verschärfen.§!"
-cannot_build_armour_tt: "§RKann keine Panzer herstellen.§!"
-cannot_build_aircraft_tt: "§RKann keine Flugzeuge herstellen.§!"
-cannot_build_ships_tt: "§RKann keine Schiffe bauen.§!"
-cannot_build_armor_aircraft_tt: "§RKann keine Panzer oder Flugzeuge herstellen.§!"
-cannot_build_armor_ships_tt: "§RKann keine Panzer oder Schiffe herstellen.§!"
-cannot_build_aircraft_ships_tt: "§RKann keine Flugzeuge oder Schiffe herstellen.§!"
-cannot_build_anything_tt: "§RKann keine Panzer, Flugzeuge oder Schiffe herstellen.§!"
+cannot_produce_armour_tt: "§RKann keine Panzer herstellen.§!"
+cannot_produce_aircraft_tt: "§RKann keine Flugzeuge herstellen.§!"
+cannot_produce_ships_tt: "§RKann keine Schiffe bauen.§!"
+cannot_produce_armor_aircraft_tt: "§RKann keine Panzer oder Flugzeuge herstellen.§!"
+cannot_produce_armor_ships_tt: "§RKann keine Panzer oder Schiffe herstellen.§!"
+cannot_produce_aircraft_ships_tt: "§RKann keine Flugzeuge oder Schiffe herstellen.§!"
+cannot_produce_anything_tt: "§RKann keine Panzer, Flugzeuge oder Schiffe herstellen.§!"
 
 ### Idea Names ###
 black_monday: "Schwarzer Montag"
@@ -280,11 +286,11 @@ day_friday: "Freitag"
 day_saturday: "Samstag"
 
 ### KR-added Modifiers ###
-offmap_military_factories_tooltip: "Militärfabriken außerhalb der Karte hinzufügen"
+offmap_military_factories_tooltip: "$arms_factory$ außerhalb der Karte hinzufügen"
 offmap_military_factories_change_tooltip: "$offmap_military_factories_tooltip$: $RIGHT|+=0$"
-offmap_civilian_factories_tooltip: "Zivilfabriken außerhalb der Karte hinzufügen"
+offmap_civilian_factories_tooltip: "$industrial_complex$ außerhalb der Karte hinzufügen"
 offmap_civilian_factories_change_tooltip: "$offmap_civilian_factories_tooltip$: $RIGHT|+=0$"
-offmap_dockyards_tooltip: "Schiffswerften außerhalb der Karte hinzufügen"
+offmap_dockyards_tooltip: "$dockyard$ außerhalb der Karte hinzufügen"
 daily_popularity_drift: "Tägliche Unterstützung für die regierenden Partei"
 daily_non_ruling_popularity_drift: "Tägliche Unterstützung für die Nicht-Regierungsparteien"
 
@@ -498,6 +504,10 @@ navy_xp_gain_tooltip: "$MODIFIER_XP_GAIN_ARMY$: $RIGHT|+=$ $MOD_DAILY$"
 navy_xp_gain_factor_tooltip: "$MODIFIER_XP_GAIN_ARMY_FACTOR$: $RIGHT|+=%1$"
 air_xp_gain_tooltip: "$MODIFIER_XP_GAIN_AIR$: $RIGHT|+=$ $MOD_DAILY$"
 air_xp_gain_factor_tooltip: "$MODIFIER_XP_GAIN_AIR_FACTOR$: $RIGHT|+=%1$"
+
+land_equipment_upgrade_xp_cost_tooltip: "$MODIFIER_LAND_EQUIPMENT_UPGRADE_XP_COST$: $RIGHT|-=%0$"
+naval_equipment_upgrade_xp_cost_tooltip: "$MODIFIER_NAVAL_EQUIPMENT_UPGRADE_XP_COST$: $RIGHT|-=%0$"
+air_equipment_upgrade_xp_cost_tooltip: "$MODIFIER_AIR_EQUIPMENT_UPGRADE_XP_COST$: $RIGHT|-=%0$"
 
 terrain_trait_xp_gain_factor_tooltip: "$MODIFIER_TERRAIN_TRAIT_XP_GAIN_FACTOR$: $RIGHT|+=%2$"
 

@@ -57,7 +57,7 @@ KR_welcome_splash_tab_3_content: "§YBitte beachten Sie Folgendes:§!\n£white_d
 KR_welcome_splash_tab_3_content_0: "Kaiserreich legt Beschränkungen für diplomatische Aktionen wie §Rfrühe Kriege§!, §RFraktionen§! und §RAutonomiestufen§! fest.\nKaiserreich enthält §CDivisionsgrenzen§! und eine §CDemobilisierung§! Mechanik, um die Spielbarkeit im späteren Spiel zu verbessern.\nBei §YFriedenskonferenzen§! sollten Sie darauf achten, dass Sie alle Staaten annektieren. Sie können später Länder aus den annektierten Gebieten durch §CEntscheidungen§! entlassen.\nIm Menü §YIndividuelle Spielregeln§! können Sie viele Optionen einstellen, darunter §CLänderpfade§!, §CVorrang für Spieler bei Friedenskonferenzen§!, und das §CStaat und Land Transfer Tool§!.\nDas £kr_options_icon  §YOptionsmenu im Spiel§! wird durch einen Klick auf das Symbol in der rechten oberen Ecke geöffnet. Hier können Sie die §CHäufigkeit der Nachrichtenereignisse§! einstellen und die §CDynamische Umbenennung§! von Staaten und Siegpunkten aktivieren.\n§YDieses Fenster§! kann jederzeit wieder geöffnet werden, indem Sie auf das Symbol £help_button  oben rechts klicken."
 
 ## TAB 4 ##
-KR_CURRENT_VERSION: "1.5.2"
+KR_CURRENT_VERSION: "1.5.3"
 KR_CURRENT_VERSION_NAME: "Brave New World"
 KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ \"$KR_CURRENT_VERSION_NAME$\""
 KR_welcome_splash_tab_4_upper_header: "§YWillkommen bei $KR_CURRENT_VERSION_COMBINED$§!"
@@ -425,6 +425,7 @@ country_joins_alliance_threat: "§Y[THIS.GetNonIdeologyNameDefCap]§! tritt der 
 
 second_weltkrieg_threat: "Zweiter Weltkrieg"
 second_weltkrieg_has_started: "Der Zweite Weltkrieg hat begonnen"
+second_weltkrieg_has_started_NOT: "Der Zweite Weltkrieg hat §Rnicht§! begonnen"
 second_weltkrieg_has_ended: "Der Zweite Weltkrieg ist beendet"
 
 ### Operatives ###
