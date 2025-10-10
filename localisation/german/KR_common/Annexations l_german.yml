@@ -18,7 +18,7 @@ KR_owned_and_controlled_by_ROOT_or_ally_NOT: "ist §Rnicht§! im Besitz und unte
 
  is_valid_annexation_state: "Ist Eigentum von §Y[ROOT.GetNameWithFlag]§! und §Rnicht§! ein Kern oder beansprucht"
 
- generic_annexation_resistance: "Widerstand gegen Annexion"
+ generic_annexation_resistance: "Widerstand gegen Annexion: $VALUE|=-%0$"
 
 ### Events and Decisions ###
 annexation_decisions: "Annexionsbeschlüsse"
@@ -579,7 +579,7 @@ annexation_113_desc: "[annexation_ireland_description]"
 annexation_ireland_desc_other: "Wir haben die Insel Irland gesichert. Das Schicksal der irischen Nation liegt jetzt in unseren Händen."
 annexation_ireland_desc_GBR: "Die Kontrolle über Irland war für die britische Regierung schon immer heikel. Zwischen unseren Völkern haben sich über viele Jahre hinweg Ressentiments aufgebaut, und wir haben vor langer Zeit gelernt, dass der Versuch, die Iren zu regieren, uns wenig Freude bereitet. Dennoch, die Zeiten haben sich geändert. Regieren wir Irland direkt oder kehren wir zu der Idee der "Home Rule"(Selbst-Regierung) zurück, der wir nach dem letzten Unabhängigkeitskrieg zugestimmt hatten?"
 annexation_ireland_desc_ENG: "Unsere Männer marschieren durch Dublin, und die Irisch-Republikanische Armee hat sich im Angesicht unserer Streitkräfte zerschlagen. In der Zwischenzeit müssen wir über die Zukunft von Irland entscheiden. Einige argumentieren, dass Irland in die Union Großbritanniens annektiert werden sollte, während andere argumentieren, dass dies ein Akt des unsozialistischen Imperialismus wäre und dass dies vom irischen Volk nicht unterstützt werden würde und uns in einen blutigen Guerillakrieg bringen würde."
-annexation_events.1047.a: "Sie sollen ihre Unabhängigkeit haben."
+annexation_events.1047.a: "Gewährt ihnen begrenzte Selbstverwaltung."
  annexation_events.1047.b: "Ermöglichung der Reformierung einer unabhängigen, angeglichenen Republik."
  annexation_events.1047.c: "Irland wird eine begrenzte Selbstverwaltung gewährt."
  annexation_events.1047.d: "Alle 32 Grafschaften werden zu einem Dominion der Krone."
