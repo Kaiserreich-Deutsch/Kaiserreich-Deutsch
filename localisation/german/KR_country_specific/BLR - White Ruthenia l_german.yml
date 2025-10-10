@@ -327,8 +327,6 @@
  BLR_successful_land_reform_plan_excellent: "Sehr Erfolgreiche Landreform"
  BLR_successful_land_reform_plan_excellent_desc: "Der Plan Sierada hat Früchte getragen! Jetzt, wo wir unser Landreformprogramm erfolgreich umgesetzt haben, blüht das Land mehr denn je."
 
- BLR_land_reform_idea_desc: "Beschreibung.\n§W--------------\n$MODIFIER_GLOBAL_MONTHLY_POPULATION$: [?BLR.BLR_land_reform_monthly_population|=%+1]\n$MODIFIER_STABILITY_FACTOR$: [?BLR.BLR_land_reform_stability_factor|=%+]§!"
-
  BLR_land_reform_modifier: "Fortschritte von Plan Sierada"
 
  BLR_BVZR_idea: "Weißrussischer Militärischer Zentralrat"
@@ -422,10 +420,6 @@
  BLR_import_motorised: "Import Fahrzeuge"
  BLR_import_motorised_desc: "Kraftfahrzeuge haben sich einen wichtigen Platz auf dem modernen Schlachtfeld gesichert, vom Truppentransporter bis zum Krankenwagen. Wir haben zwar eine aufstrebende Traktorindustrie, aber das hilft vielleicht dem Landwirt auf seinem Feld, aber wahrscheinlich nicht unseren tapferen Soldaten auf dem Schlachtfeld. Es sei denn..."
 
- BLR_integrate_state_easy_desc: "Die Mehrheit der Bevölkerung von [FROM.GetName] gibt sich als Weißrussen zu erkennen oder ist eindeutig Weißrusse und wird sich dieser Tatsache schnell bewusst. Es wird relativ einfach sein, die Region in [ROOT.GetNameDef] zu integrieren."
- BLR_integrate_state_medium_desc: "Ein Großteil der Bevölkerung von [FROM.GetName] erkennt sich selbst als Weißrussen an, aber ein großer Teil der Bevölkerung wurde in den letzten Jahren entweißrussifiziert. Es wird einige Zeit dauern, die Region in [ROOT.GetNameDef] zu integrieren."
- BLR_integrate_state_hard_desc: "Die weißrussische Identität in [FROM.GetName] ist entweder schwach oder wurde in den letzten Jahren gründlich unterdrückt. Es wird große Anstrengungen erfordern, die Region in [ROOT.GetNameDef] zu integrieren."
-
  BLR_expansion_decisions: "Groß-Weißrussland"
  BLR_expansion_decisions_desc: "Hier im Osten werden die Grenzen mit dem Schwert und nicht mit der Feder gezogen. Wer kühn ist, bekommt die Beute!"
  BLR_reclaim_vilnya: "Nördliche Ansprüche wieder geltend machen"
@@ -452,16 +446,13 @@
 
  BLR_Rad_minor_increase: "§YSLeichte§! Erhöhung der §GPopularität§! von Plan Sierada."
  BLR_Rad_major_increase: "§YSignifikante§! Erhöhung der §GPopularität§! von Plan Sierada."
- BLR_Rad_extreme_increase: "§YGroße§! Erhöhung der §GPopularität§! von Plan Sierada."
  BLR_Mod_minor_increase: "§YSLeichte§! Erhöhung der §CEffektivität§! von Plan Sierada."
  BLR_Mod_major_increase: "§YSignifikante§! Erhöhung der §CEffektivität§! von Plan Sierada."
- BLR_Mod_extreme_increase: "§YGroße§! Erhöhung der §CEffektivität§! von Plan Sierada."
  BLR_Rad_minor_decrease: "§RSLeichte§! Reduzierung der §GPopularität§! von Plan Sierada."
  BLR_Rad_major_decrease: "§RSignifikante§! Reduzierung der §GPopularität§! von Plan Sierada."
  BLR_Rad_extreme_decrease: "§RGroße§! Reduzierung der §GPopularität§! von Plan Sierada."
  BLR_Mod_minor_decrease: "§RSLeichte§! Reduzierung der §CEffektivität§! von Plan Sierada."
  BLR_Mod_major_decrease: "§RSignifikante§! Reduzierung der §CEffektivität§! von Plan Sierada."
- BLR_Mod_extreme_decrease: "§RGroße§! Reduzierung der §CEffektivität§! von Plan Sierada."
 
  BLR_Land_Reform_Success_Status_5: "§GÄußerst Effektiv§!"
  BLR_Land_Reform_Success_Status_4: "§GSehr Effektiv§!"
