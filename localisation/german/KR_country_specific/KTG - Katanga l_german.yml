@@ -48,7 +48,6 @@ KTG_national_populist_party: "CNK"
 KTG_national_populist_party_long: "Congrès National de Katanga"
 
 ### Tooltips ###
-KTG_TRIBUTE: "Tribut an Katanga"
 KTG_COLONIAL_RULE: "Wiederherstellung der Kolonialherrschaft"
 KTG_Mwami_Rules: "Der Mwami hat die Kontrolle übernommen"
 KTG_SWA: "Vereinbarte ein Handelsabkommen mit [SWA.GetNameDef]"
@@ -59,9 +58,7 @@ KTG_DIAM: "Diamantminen wurden erfolgreich gekauft"
 KTG_COG: "Unterzeichnung eines Nichtangriffspakts mit Kongo"
 KTG_reformist_flag_change_tooltip: "Wir werden unsere Flagge ändern, um diese neue Regierung zu feiern."
 
-KTG_Pink_Map_tt: "§GWir werden versuchen, ein Abkommen mit Portugal auszuhandeln§!"
 KTG_Sea_Access_tt: "§GDamit der Bergbaubetrieb wieder in vollem Umfang aufgenommen werden kann, müssen wir einen Exporthafen festlegen§!"
-congolese_loyalty.tt: "§GWir werden versuchen, mit den Manikongo zu verhandeln oder Gewalt anzuwenden, um das zu bekommen, was wir wollen.§!"
 uranium_sharing.tt: "\n§GUnser Herr wird die gleichen Vorteile erhalten §!"
 KTG_Naval_Base.tt: "§GWir werden den Hafen unseres gewählten Partners verbessern§!"
 
@@ -300,9 +297,6 @@ KTG_Loanda_Port_desc: "Die Portugiesen kontrollieren den angolanischen Hafen von
 KTG_Trade_Mission_Portugal: "Entsendung einer Handelsmission nach Portugal"
 KTG_Trade_Mission_Portugal_desc: "Während der deutsche Einfluss geschwunden ist, hat Portugal weiterhin die Kontrolle über seine afrikanischen Besitzungen im Osten und Westen. Ihre Unterstützung und wirtschaftliche Hilfe ist für die Aufrechterhaltung unserer Unabhängigkeit unerlässlich."
 
-KTG_Pink_Map_Negotiations: "Verhandlungen über die rosa Karte"
-KTG_Pink_Map_Negotiations_desc: "Portugal hat begonnen, seinen alten kolonialen Anspruch auf unsere Region zu verfolgen. Wir können nicht darauf hoffen, dass wir uns dagegen wehren können, aber durch proaktive Diplomatie können wir vielleicht zu einer für beide Seiten akzeptablen Vereinbarung kommen."
-
 KTG_POR_Submission: "Unterwerfung durch Portugal"
 KTG_POR_Submission_desc: "Wir haben den portugiesischen Schutz im Gegenzug für weitgehende Autonomie und wirtschaftliche Unterstützung akzeptiert. Lasst uns die Früchte dieses umstrittenen Abkommens ernten."
 
@@ -491,10 +485,6 @@ katanga_events.26.a: "Akzeptiert den Waffenstillstand."
 katanga_events.27.t: "Das Ende der Belagerung"
 katanga_events.27.d: "Nachdem die letzten Kräfte der Mwamis die Stadt verlassen haben, wird die Verwüstung, die die Belagerung angerichtet hat, endlich sichtbar. Hunderte von Häusern sind niedergebrannt, Straßen sind durch Trümmer blockiert und Tausende von tapferen Kongolesen und Kolonialisten liegen unbegraben auf dem Schlachtfeld. Der Kampf mag gewonnen sein, aber die Erholung hat gerade erst begonnen."
 katanga_events.27.a: "Die koloniale Ordnung ist wiederhergestellt!"
-
-katanga_events.29.t: "Ernennung des neuen Kolonialgouverneurs"
-katanga_events.29.d: "Nachdem der vorherige Gouverneur im Chaos des mittelafrikanischen Zusammenbruchs verstorben ist, muss ein neuer Gouverneur ernannt werden, der die Provinz Katanga regiert. Der Mwami bleibt zwar offizieller Herrscher, wird aber nur noch als Titularhäuptling eingesetzt, während die eigentliche Macht beim Kolonialamt und der UMHK liegt. Aufgrund seiner unerschütterlichen Führungsqualitäten und seines Engagements bei der Belagerung wurde Pierre Ryckmans von der Kolonialverwaltung einstimmig gewählt, bis weitere Wahlen stattfinden können. Obwohl Ryckmans im Gegensatz zu vielen seiner Vorgänger gezeigt hat, dass er sich um die einheimische Bevölkerung kümmert, befürchten die Bürger Katangs eine Fortsetzung der alten belgischen Kolonialpolitik."
-katanga_events.29.b: "Viel Glück Pierre Ryckmans!"
 
 katanga_events.28.t: "Unruhen von [879.GetCapitalVictoryPointName]"
 katanga_events.28.d: "Als sich die Mwami der Stadt nähern, sehen viele der ehemals loyalen Einwohner ihre Chance auf echte Unabhängigkeit von der Unterdrückung durch die Weißen. Es kommt zu Massenunruhen, bei denen die Häuser der Kolonialherren geplündert und in Brand gesetzt werden. Griechische und italienische Restaurants und Geschäfte werden angezündet und die Aufseher der UMHK auf offener Straße enthauptet."
