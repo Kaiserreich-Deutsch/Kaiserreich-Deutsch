@@ -254,9 +254,6 @@
  THEATER_GROUP_DISBAND_BUTTON_DESC: "Kriegsgebiet auflösen"
  THEATER_GROUP_DISBAND_TITLE: "Kriegsgebiet auflösen"
 
-### autonomy_l_english
- CONSTRUCTION_MASTER_BUILDING_REDUCE_LEVELS: "Wir dürfen diese Konstruktionsebene nur reduzieren um $LVL|R$."
-
 ### buildings_l_english
  BUILDING_SLOT_REMOVE_COOLDOWN: "In Kriegszeiten ist es nur möglich, Gebäude alle $DAYS|Y$ Tage zu entfernen. Der nächste Umzug kann am $DATE|Y$ erfolgen."
  rail_way_plural: "Eisenbahnen"
@@ -799,97 +796,6 @@
  tactic_cc_defend: "Verteidigung im Nahkampf"
  tactic_elastic_defense: "Elastische Verteidigung"
 
-### tank_modules_l_english
- EQ_MOD_CAT_tank_armor_type_TITLE: "Panzerungstyp"
- EQ_MOD_SLOT_armor_type_slot_TITLE: "Panzerungstyp"
- tank_riveted_armor: "Genietete Panzerung"
- tank_riveted_armor_desc: "Panzerplatten, die mit Schrauben am Rahmen befestigt und durch in die Kanten eingeschlagene Nieten zusammengehalten werden. Eine bewährte Technologie, die relativ kostengünstig ist, jedoch stellen die genieteten Kanten Schwachstellen in der Panzerung dar und können die Besatzung verletzen, wenn die Nieten getroffen werden."
- tank_cast_armor: "Gegossene Panzerung"
- tank_cast_armor_desc: "Das komplette Chassis inklusive Panzerung wird in einem Stück gegossen. Ein teurer und zeitaufwändiger Vorgang, der aber eine sehr viel dickere Panzerung mit weniger Schwachstellen ermöglicht."
- tank_welded_armor: "Geschweißte Panzerung"
- tank_welded_armor_desc: "Panzerplatten werden an das Chassis geschweißt. Der Vorgang geht schneller als das Gießen, bietet aber dennoch guten Schutz."
- extra_ammo_storage_desc: "Dank zusätzlicher Munition kann der Panzer länger im Einsatz bleiben. Wenn allerdings die Panzerung durchbrochen wird, kann das katastrophale Folgen haben. Das ist besonders problematisch, wenn der Panzer angreift."
-
- tank_high_velocity_cannon_desc: "Eine Kanone, die speziell dafür konzipiert wurde, mit hoher Mündungsgeschwindigkeit zu feuern. Durch den Einsatz spezieller Munition besitzt sie herausragende Panzerabwehreigenschaften. Gegen weiche Ziele ist jedoch weniger effektiv."
- tank_high_velocity_cannon_2_desc: "Eine Kanone, die speziell dafür konzipiert wurde, mit hoher Mündungsgeschwindigkeit zu feuern. Durch den Einsatz spezieller Munition besitzt sie herausragende Panzerabwehreigenschaften. Gegen weiche Ziele ist jedoch weniger effektiv."
- tank_high_velocity_cannon_3_desc: "Eine Kanone, die speziell dafür konzipiert wurde, mit hoher Mündungsgeschwindigkeit zu feuern. Durch den Einsatz spezieller Munition besitzt sie herausragende Panzerabwehreigenschaften. Gegen weiche Ziele ist jedoch weniger effektiv."
-
- tank_small_cannon_desc: "Eine kleine und günstige Kanone, die sowohl Anti-Infanterie- als auch Anti-Panzer-Geschosse abfeuern kann. Das kleine Kaliber schränkt die Nützlichkeit ein."
- tank_small_cannon_2_desc: "Eine kleine und günstige Kanone, die sowohl Anti-Infanterie- als auch Anti-Panzer-Geschosse abfeuern kann. Das kleine Kaliber schränkt die Nützlichkeit ein."
- tank_auto_cannon_desc: "Diese automatische Kanone ist aus einem schnellfeuernden Flugabwehrgeschütz hervorgegangen. Ihr Feuerhagel ist für weiche Ziele verheerend. Das kleine Kaliber beschränkt jedoch die Effektivität gegen gepanzerte Ziele."
- tank_auto_cannon_2_desc: "Diese automatische Kanone ist aus einem schnellfeuernden Flugabwehrgeschütz hervorgegangen. Ihr Feuerhagel ist für weiche Ziele verheerend. Das kleine Kaliber beschränkt jedoch die Effektivität gegen gepanzerte Ziele."
- tank_medium_howitzer_desc: "Eine mittlere Feldhaubitze, die für die Montage auf einem Fahrzeug modifiziert wurde. Ihr primärer Zweck ist das indirekte Unterstützungsfeuer gegen weiche Ziele. Sie kann aber wenn nötig auch direkt gegen ein Ziel abgefeuert werden. Sie ist nur mit einer geringen Menge an panzerbrechender Munition ausgestattet und daher nicht gut für die Panzerabwehr geeignet."
- tank_medium_howitzer_2_desc: "Eine mittlere Feldhaubitze, die für die Montage auf einem Fahrzeug modifiziert wurde. Ihr primärer Zweck ist das indirekte Unterstützungsfeuer gegen weiche Ziele. Sie kann aber wenn nötig auch direkt gegen ein Ziel abgefeuert werden. Sie ist nur mit einer geringen Menge an panzerbrechender Munition ausgestattet und daher nicht gut für die Panzerabwehr geeignet."
- tank_heavy_howitzer_desc: "Eine schwere Feldhaubitze, die für die Montage auf einem Fahrzeug modifiziert wurde. Ihr primärer Zweck ist das indirekte Unterstützungsfeuer gegen weiche Ziele. Sie kann aber wenn nötig auch direkt gegen ein Ziel abgefeuert werden. Sie ist nur mit einer geringen Menge an panzerbrechender Munition ausgestattet und daher nicht gut für die Panzerabwehr geeignet."
- tank_rocket_launcher_desc: "Ein Raketenwerfer mit mehreren Läufen, der ungelenkte, hochexplosive Raketen abfeuert. Die hohe Feuerrate macht ihn zu einem exzellenten Mittel gegen weiche Ziele. Gegen gepanzerte Ziele richten aber selbst direkte Treffer nur wenig Schaden an."
- tank_heavy_cannon_desc: "Eine Waffe, die ein großes Geschoss abfeuern kann. Sie zeichnet sich durch eine herausragende Panzerungsdurchdringung und eine ordentliche Effektivität gegen weiche Ziele aus. Die größten Nachteile sind die Größe und die Kosten, wodurch die Waffe fast ausschließlich auf Fahrzeugen montiert werden kann, die eigens für sie konzipiert wurden."
- tank_heavy_cannon_2_desc: "Eine Waffe, die ein großes Geschoss abfeuern kann. Sie zeichnet sich durch eine herausragende Panzerungsdurchdringung und eine ordentliche Effektivität gegen weiche Ziele aus. Die größten Nachteile sind die Größe und die Kosten, wodurch die Waffe fast ausschließlich auf Fahrzeugen montiert werden kann, die eigens für sie konzipiert wurden."
- tank_heavy_cannon_3_desc: "Eine Waffe, die ein großes Geschoss abfeuern kann. Sie zeichnet sich durch eine herausragende Panzerungsdurchdringung und eine ordentliche Effektivität gegen weiche Ziele aus. Die größten Nachteile sind die Größe und die Kosten, wodurch die Waffe fast ausschließlich auf Fahrzeugen montiert werden kann, die eigens für sie konzipiert wurden."
- flamethrower_desc: "Ein Gerät, das einen Strahl brennender Flüssigkeit verschießt. Im Häuserkampf und gegen Befestigungen ist das Gerät äußerst nützlich, es eignet sich jedoch nicht für den Einsatz gegen Panzerfahrzeuge und muss von einer eigens ausgebildeten Besatzung in einer separaten Einheit eingesetzt werden, um effektiv zu sein."
-
- armor_tech_1: "Einfacher Panzerschutz"
- armor_tech_1_desc: "Während des Weltkriegs mussten Panzer nur feindlichen Handfeuerwaffen trotzen. Sie kamen daher mit einer relativ dünnen Panzerung aus. Nun aber hat eine neue Generation von Panzerabwehrwaffen das Schlachtfeld für Panzer sehr viel gefährlicher gemacht, weshalb ein sehr viel stärkerer Schutz nötig ist."
- armor_tech_2: "Verbesserter Panzerschutz"
- armor_tech_3: "Weiterentwickelter Panzerschutz"
- armor_tech_4: "Moderner Panzerschutz"
- armor_tech_4_desc: "Während des Kriegs haben sich die Gefahren, denen Panzer ausgesetzt sind, vervielfacht. Von feindlichen Panzern und Panzerabwehrwaffen über dedizierte Jagdpanzer bis hin zu modernen Infanteriewaffen, deren Geschosse selbst schwere Panzerung durchschlagen können. Wir müssen neue Methoden entwickeln, wie wir unsere Panzer vor diesen Gefahren beschützen können."
- armor_skirts: "Panzerschürzen"
- engine_tech_2_desc: "Die neue Generation von Panzern besitzt größere Geschütze und eine schwerere Panzerung und benötigt daher auch einen stärkeren Motor, um mobil zu bleiben."
- engine_tech_3_desc: "Die mechanisierte Kriegsführung erfordert schnelle Entscheidungen und eine schnelle Bewegung von Truppen und Material. Wenn unsere Panzer moderne Waffen transportieren sollen und genügend Panzerung, um auf dem Schlachtfeld zu überleben, benötigen sie starke Motoren, um mit der motorisierten Infanterie mitzuhalten."
-
- armor_tech_1_tt: "Ermöglicht bei der Panzerung Verbesserungswerte von 5 und mehr."
- armor_tech_2_tt: "Ermöglicht bei der Panzerung Verbesserungswerte von 10 und mehr."
- armor_tech_3_tt: "Ermöglicht bei der Panzerung Verbesserungswerte von 15 und mehr."
- armor_tech_4_tt: "Ermöglicht bei der Panzerung Verbesserungswerte von 18 und mehr."
-
- light_tank_chassis_desc: "Ein kleines und kompaktes Chassis, ideal für ein günstiges und leichtes Fahrzeug für die Aufklärung oder Feuerunterstützung. Die begrenzte Ladekapazität macht das Fahrzeug ungeeignet für die Aufnahme von schwerer Panzerung oder großen Geschützen."
- amphibious_tank_chassis_desc: "Eine kleine Panzerhülle, die speziell dazu entworfen wurde, schwimmen zu können. Dazu wurden strenge Begrenzungen festgelegt, was die Größe der Waffen und die Dicke der Panzerung des Fahrzeugs anbelangt."
- heavy_tank_chassis_desc: "Ein großes Chassis, auf dem ein schweres Geschütz, dickere Panzerung oder auch beides montiert werden können."
- super_heavy_tank_chassis_desc: "Ein gigantisches Fahrzeug, auf dem die schwerste Panzerung und die größten Geschütze montiert werden können, das dadurch aber relativ langsam und unzuverlässig ist."
- modern_tank_chassis_desc: "Ein modernisiertes Chassis, das zwar starke Anleihen von früheren mittleren Panzern aufweist, aber mehr Wert auf Geschwindigkeit und Wendigkeit legt. Zudem ist die Montage von mehr Panzerung und größeren Geschützen möglich als mittlere Panzer sie für gewöhnlich aufweisen. So ergibt sich ein Fahrzeug, dass die unterschiedlichsten Rollen ausüben kann."
-
- tank_light_two_man_tank_turret_desc: "Ein Geschützturm, bei dem die Bedienung der Waffe und die Beobachtung der Umgebung durch zwei Besatzungsmitglieder gemeinsam ausgeführt wird. Eine wirklich effektive Arbeitsteilung zwischen der Besatzung ist aber immer noch nicht möglich."
- tank_medium_two_man_tank_turret_desc: "Ein Geschützturm, bei dem die Bedienung der Waffe und die Beobachtung der Umgebung durch zwei Besatzungsmitglieder gemeinsam ausgeführt wird. Eine wirklich effektive Arbeitsteilung zwischen der Besatzung ist aber immer noch nicht möglich."
- tank_heavy_two_man_tank_turret_desc: "Ein Geschützturm, bei dem die Bedienung der Waffe und die Beobachtung der Umgebung durch zwei Besatzungsmitglieder gemeinsam ausgeführt wird. Eine wirklich effektive Arbeitsteilung zwischen der Besatzung ist aber immer noch nicht möglich."
-
- auto_loader_desc: "Ein automatischer Mechanismus, der Granaten lädt und es dem Panzer ermöglicht, über einen längeren Zeitraum eine hohe Feuerrate beizubehalten."
-
- ### Vanilla GER equipment loc is defined in common file, had to override it here (Suffering)
- GER_light_tank_equipment_0: "Sturmpanzerwagen II"
- GER_medium_tank_equipment_0: "Sturmpanzerkampfwagen II"
- GER_heavy_tank_equipment_0: "Heerpanzerwagen II"
- GER_light_tank_flame_equipment_1: "Flammpanzer I"
- GER_light_tank_flame_equipment_2: "Flammpanzer II"
- GER_light_tank_flame_equipment_3: "Flammpanzer III"
-
- GER_light_tank_amphibious_equipment_1: "Schwimmpanzer I"
- GER_light_tank_amphibious_equipment_2: "Schwimmpanzer II"
- GER_light_tank_amphibious_equipment_3: "Schwimmpanzer III"
-
- GER_medium_tank_flame_equipment_0: "Flammpanzer II"
- GER_medium_tank_flame_equipment_1: "Flammpanzer III"
- GER_medium_tank_flame_equipment_2: "Flammpanzer IV"
- GER_medium_tank_flame_equipment_3: "Flammpanzer VI"
-
- GER_medium_tank_amphibious_equipment_0: "Schwimmpanzer II"
- GER_medium_tank_amphibious_equipment_1: "Schwimmpanzer III"
- GER_medium_tank_amphibious_equipment_2: "Schwimmpanzer IV"
- GER_medium_tank_amphibious_equipment_3: "Schwimmpanzer VI"
-
- GER_heavy_tank_flame_equipment_0: "Flammpanzer II"
- GER_heavy_tank_flame_equipment_1: "Flammpanzer III"
- GER_heavy_tank_flame_equipment_2: "Flammpanzer V"
- GER_heavy_tank_flame_equipment_3: "Flammpanzer VII"
- GER_heavy_tank_amphibious_equipment_0: "Schwimmpanzer II"
- GER_heavy_tank_amphibious_equipment_1: "Schwimmpanzer III"
- GER_heavy_tank_amphibious_equipment_2: "Schwimmpanzer V"
- GER_heavy_tank_amphibious_equipment_3: "Schwimmpanzer VII"
-
- ### Missing chassis loc
- gwtank_chassis_short: "Zwischenkriegszeit Chassis"
- super_heavy_tank_chassis_short: "Superschweres Chassis"
- main_battle_tank_chassis_short: "Modernes Chassis"
-
 ### theater_l_english
  ORDER_AREA_DEFENSE: "Gebietsverteidigung"
  ORDER_AREA_DEFENSE_STATE_VALID: "§GKlick§! um einen Staat zur Gebietsverteidigungsauftrag §Yhinzuzufügen§!."
@@ -956,6 +862,12 @@
 #Changed from vanilla
  TRIGGER_IS_SUBJECT: "Ist ein Untertan eines anderen Landes"
  TRIGGER_IS_NOT_SUBJECT: "Ist völlig unabhängig"
+
+### unit_l_english
+#Fehlende Zeilenumbrüche
+ UNIT_LEADER_ALREADY_AN_ADVISOR: "\n\n$NAME|Y$ §Rist bereits Berater.§!"
+ UNIT_LEADER_TRAIT_REQUIRES: "\n\n§RBenötigt $TRAITNAME|Y$.§!"
+ UNIT_LEADER_TRAIT_ROLE: "\n\n§RFührungspositionen können nur an Feldmarschälle vergeben werden.§!"
 
 ### units_l_english
  CURRENT_ORGANIZATION: "Organisation: $CUR|0Y$/$MAX|0Y$"
