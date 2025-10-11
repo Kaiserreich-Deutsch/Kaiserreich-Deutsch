@@ -29,9 +29,6 @@
  GER_karl_schroder: "Karl Schröder"
  GER_karl_schroder_leader_desc: "§YGeboren:§! §L13. November 1884, in Polzin, Provinz Pommern, Königreich Preußen, Deutsches Reich§!"
 
- GER_karl_korsch: "Karl Korsch"
- GER_karl_korsch_leader_desc: "§YGeboren:§! §L15. August 1886, in Tostedt, Provinz Hannover, Königreich Preußen, Deutsches Reich§!"
-
  GER_willi_munzenberg: "Wilhelm Münzenberg"
  GER_willi_munzenberg_leader_desc: "§YGeboren:§! §L14. August 1889, in Erfurt, Provinz Sachsen, Königreich Preußen, Deutsches Reich§!"
 
@@ -247,7 +244,7 @@
 
  GER_paul_lejeune_jung: "Paul Lejeune-Jung"
  GER_paul_lejeune_jung_sic_desc: "§YGeboren:§! §L16. März 1882, in Köln, Rheinprovinz, Königreich Preußen, Deutsches Reich§!\n§YHintergrund:§! §LPaul Lejeune-Jung ist ein Wirtschaftswissenschaftler und Bürokrat, der nach seiner Tätigkeit in der Rohstoffabteilung des preußischen Kriegsministeriums und der Leitung des Verbandes der deutschen Zellstoffindustrie schließlich zum Vorsitzenden der Mitteleuropäischen Kommission, der bürokratischen Exekutivbehörde der Zollunion Mitteleuropa, aufstieg. Als Befürworter der Vereinheitlichung des europäischen Marktes im Rahmen einer Zollunion und der weiteren Integration der mitteleuropäischen Volkswirtschaften ist er ein bekannter Verteidiger Mitteleuropas von rechts. Politisch steht er der DkP nahe, obwohl er sich durch seinen katholischen Glauben von der überwiegend protestantischen Partei abhebt, und er hat auch für Regierungen des Zentrums gearbeitet.§!"
- KR_mitteleuropa_advocate_tt: "Baugeschwindigkeit §HZivile Fabriken§! für §HMitteleuropa§! Mitglieder: §G+10.00%§!"
+ KR_mitteleuropa_advocate_tt: "§H$modifier_production_speed_industrial_complex_factor$§! für §HMitteleuropa§! Mitglieder: §G+10.00%§!"
 
  GER_wilhelm_groener: "Wilhelm Groener"
  GER_wilhelm_groener_advisor_desc: "§YGeboren:§! §L22. November 1867, in Ludwigsburg, Neckarkreis, Königreich Württemberg§!\n§YHintergrund:§! §LGeneral Wilhelm Groener ist ein ehemaliger preußischer Kriegsminister und Leiter des Kriegsamtes, das für die Verwaltung der Kriegswirtschaft zuständig war. Als seltenes Beispiel für einen hochrangigen General der kaiserlichen deutschen Armee, der sowohl aus einfachen Verhältnissen stammt als auch politisch relativ fortschrittlich ist, diente Groener nach der Verkündung der Märzverfassung als informelle Verbindung zwischen der Militär- und der Zivilregierung, indem er sich um die Probleme zwischen diesen beiden Säulen der Regierung kümmerte und ihre Zusammenarbeit sicherstellte. In Berlin ist er ein Verfechter der Interessen des Heeres und genießt beim gesamten politischen Establishment, selbst bei der SPD, relativ großes Vertrauen.§!"
@@ -621,9 +618,6 @@
  GER_mio_trait_high_velocity_armament: "Hochgeschwindigkeits-Waffen"
  GER_mio_trait_schachtellaufwerk: "Schachtellaufwerk"
  GER_mio_trait_mobility_design_philosophy: "Philosophie des Mobilitätsdesigns"
- GER_mio_trait_panzerjager: "Panzerjäger"
- GER_mio_trait_armoured_superstructure_specialist: "Spezialist für gepanzerte Aufbauten"
- GER_mio_trait_sturmhaubitze: "Sturmhaubitze"
  GER_mio_trait_90_degree_dives: "90-Grad-Tauchgänge"
  GER_mio_trait_long_nose_design: "Langnasen Design"
  GER_mio_trait_work_horse_design_philosophy: "Arbeittier-Konstrukteur-Philosopie"
@@ -954,20 +948,20 @@
  GER_agrarian_events_tt: "Die Kombination dieser Entscheidung mit anderen §H-Entscheidungen§! und §H-Schwerpunkten§! kann zu günstigen Ereignissen führen!"
 
  if_not_yet_hired_will_hire: "Falls noch nicht als §Berater§! eingestellt, wird eingestellt:"
- GER_panzer_divisions_tt: "Wenn §HEinfacher mittlerer Panzer§! erforscht wurde:"
- GER_mechanised_infantry_tt: "Wenn §HMechanisierte Infanterie§! erforscht wurde:"
+ GER_panzer_divisions_tt: "Wenn §H$medium_tank_chassis_1$§! erforscht wurde:"
+ GER_mechanised_infantry_tt: "Wenn §H$mechanized_equipment_1$§! erforscht wurde:"
  GER_else_tt: "\nSonst:"
  free_cryptology_dept_upgrade_tt: "Erhalte ein zufälliges §YAgenden Upgrade§! in der §YKryptologie-Abteilung§!"
  GER_second_weltkrieg_legacy_tt: "Nach Abschluss dieses nationalen Schwerpunkts wird uns jede Bewegung des Wirtschaftsgesetzes in Richtung §YZivilwirtschaft§! 5 §YZivilfabriken§! gewähren."
 
  GER_enigma_machine_tt: "Wenn ein Feind unsere Chiffre entschlüsselt und seinen Bonus für entschlüsselte Chiffren gegen uns aktiviert, ist diese Idee §Rverloren§!!"
- GER_finance_ee_cooperation_tt: "Investiert 2000 §YInfanterie-Ausrüstung§! und 250 §YUnterstützungs-Ausrüstung§! in die §YOsteuropäische Verteidigungskooperation§!"
+ GER_finance_ee_cooperation_tt: "Investiert 2000 §Y$infantry_equipment$§! und 250 §Y$support_equipment$§! in die §YOsteuropäische Verteidigungskooperation§!"
  GER_Peenemunde_tt: "Geschwindigkeit der Luftforschung: §G+10%§!"
- GER_anti_tank_development_tt: "Wenn §HAnti-Panzer Aufrüstunge§! erforscht wurde:\n"
+ GER_anti_tank_development_tt: "Wenn §H$antitank1$§! erforscht wurde:\n"
  GER_infantry_development_tt: "Reduziert die Kosten aller §HMaterialdesigner§! um §H50 Politische Macht§! für 365 Tage."
- GER_air_defence_tt: "Die Erforschung von §HVerbesserte Luftabwehr§! oder mehr vor der Aufnahme dieses Nationalen Schwerpunkts wird den Effekt auf §HLevel 3§! Luftabwehr pro Staat."
+ GER_air_defence_tt: "Die Erforschung von §H$antiair2$§! oder mehr vor der Aufnahme dieses Nationalen Schwerpunkts wird den Effekt auf §HLevel 3§! Luftabwehr pro Staat."
  GER_radar_detection_tt: "Wenn das Sonderprojekt §H$sp_air_radar$§! abgeschlossen ist:\n"
- GER_parachute_divisions_tt: "Wenn §HFallschirmspringer I§! erforscht wurde:"
+ GER_parachute_divisions_tt: "Wenn §H$paratroopers$§! erforscht wurde:"
  GER_germaniawerft_focus_tt: "Wenn §HGermaniawerft§! derzeit als §HSchiffsdesigner§! eingestellt ist:\n"
  GER_germaniawerft_focus_aat_tt: "Wenn §H$germaniawerft$§! mindestens §HGröße§! 2 ist:"
  GER_vulkan_schichau_tt: "Wenn §HSchichau-Werke§! oder §HVulkan-Werke Hamburg & Stettin§! derzeit als §HSchiffsdesigner§! eingestellt ist:\n"
@@ -1092,7 +1086,6 @@
  GER_roedern_party_long: "Kabinett Roedern - März Koalition"
  GER_schleicher_party: "Kabinett Schleicher"
  GER_schleicher_party_long: "Kabinett Schleicher\n§LNachdem bei den Wahlen von 1936 keine Mehrheit zustande gekommen war, ernannte der Kaiser den preußischen Kriegsminister Kurt von Schleicher zum Kanzler. Obwohl er als gemäßigter Kompromisskandidat in den Reichstag gewählt wurde, ist es kein Geheimnis, dass Schleicher eine eigene Agenda verfolgt und versucht, das Reich nach seinen zentralistischen Vorstellungen zu gestalten.§!\n"
- GER_schleicher_party_long_fake: "Kabinett Schleicher"
  GER_kleist_party: "Kabinett Kleist-Schmenzin"
  GER_kleist_party_long: "Kabinett Kleist-Schmenzin\n§LAls Reichskanzler steht Ewald von Kleist-Schmenzin an der Spitze der schwarz-weiß-roten Koalition, einem Bündnis der deutschen Rechten, das sich vor allem aus der DkP und der DVLP zusammensetzt. Als erste ausschließlich rechts dominierte Regierung in Deutschland seit mehr als einem Jahrzehnt versucht das neue Kabinett, die demokratischen Reformen der Märzverfassung rückgängig zu machen.§!\n"
  GER_goerdeler_party: "Kabinett Goerdeler"
@@ -1104,7 +1097,6 @@
 
  GER_schleicher_front_party: "DNEF"
  GER_schleicher_front_party_long: "Deutschnationale Einheitsfront\n§LDie Deutschnationale Einheitsfront ist eine breit angelegte Organisation, die die Vision von Reichskanzler Schleicher unterstützen soll. Sie setzt sich aus sympathisierenden Reichstagsbeamten, zivilgesellschaftlichen Gruppen und rechten Politikern zusammen und will die Zentralregierung gegenüber den Ländern stärken, das Land auf den Krieg vorbereiten und eine etatistische Wirtschaftspolitik betreiben.§!\n"
- GER_schleicher_front_party_fake: "DNEF"
  GER_schleicher_front_party_long_fake: "Deutschnationale Einheitsfront"
 
  GER_authoritarian_democrat_party_dnvu: "DNVB - Moderat"
@@ -1999,7 +1991,7 @@
  GER_SPD_prussian_budget_crisis_defeat: "Niederschlagung der Rebellion in Preußen"
  GER_SPD_prussian_budget_crisis_defeat_desc: "Wir müssen das preußische Abgeordnetenhaus zwingen, sich uns in aller Eile zu beugen und einen akzeptablen Haushalt zu verabschieden. Sollte uns dies nicht gelingen, werden wir gezwungen sein, unsere Niederlage einzugestehen - ein schmerzhafter Schlag für unsere Fähigkeit, den Staat zu reformieren.\n\nSie müssen mindestens 3 §Y-Siege§! in Verhandlungen erringen, und Sie haben derzeit [?GER_prussia_victories]."
  GER_prussia_equal_suffrage_unlocked_tt: "Der Konflikt mit Preußen ist zu unseren Gunsten gelöst worden."
- GER_government_paralysis_factor_below_25_tt: "§YLähmung der Regierung§! ist kleiner als §Y25%§! (§R-25% Politische Macht gewinnen§!)"
+ GER_government_paralysis_factor_below_25_tt: "§YLähmung der Regierung§! ist kleiner als §Y25%§! (§R-25% $MODIFIER_POLITICAL_POWER_FACTOR$§!)"
  GER_already_seeking_allies: "Verhandlungen laufen bereits."
  GER_SPD_prussia_mp_schleicher: "Der Schleicher Plan"
  GER_SPD_prussia_mp_schleicher_desc: ""
@@ -5906,6 +5898,10 @@
  germany_flavour_events.120.d: "Die Gründung der Christlich-Demokratischen Union (CDU) verschärfte die bestehenden Spaltungen innerhalb der Katholiken nur noch weiter. Vor und während des Krieges erwies sich das Zentrum als erbärmlich unfähig, die Märzverfassung zu verteidigen, die es angeblich ausgearbeitet hatte und vertrat. Nun wird sich in den Augen des progressiven Flügels ihre Toleranz gegenüber der sich entwickelnden rechten Diktatur fortsetzen, da die CDU, die vom ehemaligen rechten Flügel des Zentrums dominiert wird, bereits versucht, mit der Regierung zusammenzuarbeiten und sich als 'loyale Opposition' zu präsentieren. Die Progressiven, die sich lange dafür eingesetzt hatten, dass das Zentrum eine katholische Partei der Mitte bleibt und gemeinsam mit den Liberalen und Sozialdemokraten aktiv die deutschen Verfassungsrechte verteidigt, hatten genug.\n\nUnter der Führung von Joseph Wirth und Carl Spiecker spalteten sich die Progressiven plötzlich ab und gründeten die Zentrumspartei neu, nun mit einem neuen Programm zur Verteidigung der Verfassung und der Rechte des Volkes gemäß den Grundsätzen der katholischen Soziallehre. Zwar werden sie sicherlich nicht mehr als eine Handvoll Sitze gewinnen können, doch könnten sie in den folgenden Jahren zu einem Sammelpunkt der demokratischen Opposition werden. Vorausgesetzt natürlich, wir lassen sie überhaupt agieren."
  germany_flavour_events.120.a: "Für Wahrheit, Freiheit und Recht! Wählt Zentrum!" # - soccon support
 
+ germany_flavour_events.121.t: "Alle zusammen – gegen die SPD!"
+ germany_flavour_events.121.d: "Nun, da in Deutschland eine echte konservative Regierung an der Macht ist, kam es sofort zu Konflikten mit der Regierung Preußens, wo durch Schleichers Machenschaften eine Frankenstein-Koalition gebildet wurde, um Otto Braun zum Ministerpräsidenten zu machen. Obwohl er gegen den Adelsrat kämpfen muss, um so gut wie alles durchzubekommen, hat Braun seine Kanonen auch in unsere Richtung gerichtet und lautstark einen Plan der 'Nichtzusammenarbeit' mit dem Kleist-Kabinett verkündet. Einige gemäßigtere Stimmen, wie Gottfried Treviranus und Walter Lambach, schlugen vor, einen Deal mit dem arroganten Sozialdemokraten auszuhandeln, wurden jedoch von der Mehrheit der Koalition übertönt, die sein Blut forderte.\n\nEine landesweite Unterschriftenaktion, bei der Unterschriften von Wählern gesammelt wurden, die gegen Braun waren, wurde von der Konservativen Partei und der Vaterlandspartei ins Leben gerufen, um der Regierung und dem Kaiser das Ausmaß der Ablehnung gegen ihn vor Augen zu führen. Über den Landbund, den Marinebund, völkische Organisationen und rechte Gewerkschaften wurden innerhalb weniger Wochen über eine Million Unterschriften gesammelt. Zu ihnen gesellte sich ein überraschender Verbündeter – Aktivisten der extremen Linken, 'nationale Syndikalisten' und Kämpfer der Proletarischen Front, deren Ablehnung der Sozialdemokraten so groß war, dass sie jeden Versuch unterstützten, diese zu stürzen, selbst wenn er von der extremen Rechten angeführt wurde. Denn wenn die SPD zerstört würde, hätten die Arbeiter keine andere Wahl, als eine Revolution zu beginnen!\n\nEs dauerte nicht lange, bis Wilhelm II. Braun entließ und die Bildung einer rechten Koalition in Preußen unter der Führung von Ministerpräsident Tilo von Wilmowsky anordnete, der sofort seine Absicht bekundete, in allen Angelegenheiten mit der Kleist-Regierung zusammenzuarbeiten."
+ germany_flavour_events.121.a: "Wir werden Deutschland vom sozialistischen Fieber heilen!" # - soccon support
+
  germany_easter_egg_events.1.t: "Flucht der Hohenzollern"
  germany_easter_egg_events.1.d: "Das Undenkbare ist geschehen. Die kaiserliche deutsche Armee ist auf dem Schlachtfeld besiegt worden und wird immer tiefer ins Land getrieben, wobei Millionen unserer Bürger der Besatzung des syndikalistischen Blocks und der russischen Allianz zum Opfer fallen. Die Stimmung im Land und in der Armee ist unterschiedlich. Viele halten den Untergang des Reiches für unausweichlich und wollen entweder ihre Haut retten oder das Land zwingen, einen vernichtenden Friedensvertrag auszuhandeln, auch wenn bei der französischen und russischen Führung keine Anzeichen für eine Verhandlungsbereitschaft zu erkennen sind. Andere, darunter der Reichskanzler, glauben, dass der Krieg noch gewendet werden kann oder dass die Front durch neue Verbündete erweitert werden kann, was den Druck verringern würde. Wieder andere machen die Schwäche der Regierung verantwortlich und erklären, dass sie einfach nicht das Zeug dazu hat, die Nation auf Kriegsfuß zu bringen. Wenn sie endlich den Schein der Legalität aufgäbe und eine totalitäre Diktatur errichten würde, könnte sie die notwendigen Mittel aufbringen, um den Krieg zu wenden.\n\nDie Hoffnungen der Zweifler wurden enttäuscht, als die ersten Gerüchte über die Flucht des Kaisers durch die Straßen Berlins gingen. Das Herz und die Seele des Kaiserreichs, das Symbol seines Aufstiegs zur Weltherrschaft, soll mit seiner Familie ein U-Boot bestiegen haben, um in die Kolonien oder in ein neutrales Land in Südamerika zu fliehen - wie auch immer sein Schicksal aussehen mag, er hatte eindeutig kein Vertrauen in die Fähigkeit Deutschlands, den Krieg zu gewinnen. Noch belastender waren die Andeutungen, dass [GER.GetSecondInCommand] die Flucht von [GER.GetLeader] anordnete, um eine Exilregierung zu bilden, die den Kampf ähnlich wie die Entente-Mächte nach ihren Revolutionen fortsetzen konnte.\n\nSo, ist es vorbei?"
  germany_easter_egg_events.1.a: "Deutschland ist jetzt kopflos. Hat es noch eine Zukunft?"
@@ -5962,7 +5958,7 @@
  germany_foreign_events_new.8.t: "Deutsch-Amerikanische Selbstverteidigung Organisation"
  germany_foreign_events_new.8.d: "Weitere Nachrichten erreichen uns aus dem Deutschen Reich - dieses Mal hat unsere innere Sicherheit eine Spur zwischen der deutschen Botschaft und dem jüngsten Wachstum deutsch-amerikanischer Selbstverteidigungsgruppen in traditionell deutschen Behörden verfolgt. Millionen von Deutsch-Amerikanern, die in die Vereinigten Staaten ausgewandert sind, haben immer noch tiefe Bindungen an ihr Heimatland, und dazu gehört für sie ein tiefes Misstrauen gegenüber dem Syndikalismus, Deutschlands derzeit größtem Feind. Es ist bekannt, dass diese Gruppen über beträchtliche Waffen und Munition verfügen, offiziell nur zur Selbstverteidigung gegen \"syndikalistische Banden\". Sollten jedoch im ganzen Land groß angelegte Gewalttaten ausbrechen, könnten sie ihre vorbereitete Ausrüstung sicherlich nutzen, um sich zu erheben..."
  germany_foreign_events_new.8.a: "Noch mehr deutsche Einmischung..."
- GER_german_american_self_defence_tt: "Wenn der §YAmerikanische Bürgerkrieg§Y beginnt und wir mit der Entscheidung §YUnterstütze Bürgerkriegsfraktion§! festgelegt haben, welche amerikanische Fraktion wir unterstützen wollen, erhält diese Fraktion:"
+ GER_german_american_self_defence_tt: "Wenn der §YAmerikanische Bürgerkrieg§! beginnt und wir mit der Entscheidung §YUnterstütze Bürgerkriegsfraktion§! festgelegt haben, welche amerikanische Fraktion wir unterstützen wollen, erhält diese Fraktion:"
  GER_german_american_self_defence_usa_tt: "Während des §YAmerikanischen Bürgerkriegs§! wird [GER.GetNameWithFlag] mit der Entscheidung §YUnterstützung der Bürgerkriegsfraktion§! folgendes aufstellen, wenn sie uns unterstützen:"
 
  germany_foreign_events_new.9.t: "Internationaler Ostbefestigungsrat"
@@ -6398,10 +6394,6 @@
  germany_foreign_events.82.d: "Angesichts der Last eines kämpfenden Imperiums und eines jahrzehntelangen, nahezu ununterbrochenen Krieges, von dem es sich nicht erholen kann, hat die Sublime Porte unser Angebot abgelehnt und sich stattdessen für eine neutrale Herangehensweise an das Weltgeschehen entschieden. Obwohl sie die guten Beziehungen zum Deutschen Kaiser nicht leugnen, was sie nicht genug loben können, haben sie doch erkennen lassen, dass ihre Interessen vorläufig nicht mit unseren übereinstimmen."
  germany_foreign_events.82.a: "Verräter!"
 
- germany_foreign_events.83.t: "Unterzeichnung des Abkommens von Baku"
- germany_foreign_events.83.d: "In der Erkenntnis, dass ein freundlicher Türke wertvoller ist als ein wütender Türke, hat die Regierung von [GER.GetLeader] unserem Angebot zugestimmt und den Abzug aller deutschen Truppen aus dem aserbaidschanischen Gebiet verfügt. Zwar werden wir keinen Zugang zu den mächtigen Ölvorkommen von Baku erhalten, da der Vertrag diese Deutschland für einen Zeitraum von 25 Jahren zugesteht, aber dies ist ein großer Sieg für alle Türken und wurde in Kostantiniye mit großem Tamtam gefeiert."
- germany_foreign_events.83.a: "Wundervoll!"
-
  germany_foreign_events.143.t: "Deutschland fordert Gibraltar"
  germany_foreign_events.143.d: "Der deutsche Botschafter hat uns über die jüngsten Entwicklungen im Reich informiert. Infolge eines kürzlichen Politikwechsels in Berlin liegt ihre derzeitige Priorität in der Festigung ihrer Kontrolle über das Mittelmeer. Da sie bereits die Kontrolle über den Suez haben, verlangen sie nun, dass wir ihnen den Felsen übergeben."
  germany_foreign_events.143.a: "Nun, haben wir überhaupt eine Wahl?"
@@ -6479,7 +6471,8 @@
 
  GER_economic_health_label: "Wirtsch. Lage: [?GER_economic_health|0+]"
  GER_economic_health_label_tt: "Die aktuellen Auswirkungen unserer wirtschaftlichen Gesundheit sind:\n[GERGetCurrentEconomicHealthEffects]"
- GER_bm_consumer_goods_loss: "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?GER_consumer_goods_loss|%H1]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?GER_building_production_loss|=%+]\n $MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?GER_max_efficiency_loss|=%+]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?GER_factory_output_loss|=%+]"
+ GER_bm_consumer_goods_loss: "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?GER_consumer_goods_loss|%H1]"
+ GER_bm_all_effects_loss: "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?GER_consumer_goods_loss|%H1]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?GER_building_production_loss|=%+]\n $MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?GER_max_efficiency_loss|=%+]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?GER_factory_output_loss|=%+]"
 
  GER_debt_label: "Aktuelle Schulden: [?GER_debt|0-]% of GDP"
  GER_debt_label_tt: "Wenn unser Schuldenstand 200% des BIP erreicht, werden wir in einen §RSchuldenausfall§! geraten! Wir werden das Kartenspiel Schwarzer Montag verlieren und unsere Wirtschaft wird zusammenbrechen!"
@@ -6517,7 +6510,6 @@
  GER_stability_increase_tt: "       $RIGHT|+0$ zu ⓔ §GStabilität§! hinzugefügt."
  GER_stability_bonus_factor_tt: "       Alle Entlastungskarten geben $RIGHT|+%0$ mehr\n       ⓔ §GStabilität§!."
  GER_debt_increase_tt: "       $RIGHT|-=0$% zu ⓓ §RSchulden§! hinzugefügt."
- GER_debt_decrease_tt: "       $RIGHT|-=0$% vom ⓓ §RSchulden§! entfernt."
 
  GER_cards_number_loc: "[?GER_cards_number]"
 

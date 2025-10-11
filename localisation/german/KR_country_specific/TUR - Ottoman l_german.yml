@@ -383,6 +383,7 @@
  OTT_ahmed_nihad_common_name: "Nihad"
  OTT_osman_fuad_common_name: "Fuad"
  OTT_omer_faruk_common_name: "Faruk"
+ 
 ### Decisions
 # Syria
  ott_increase_syr_int: "Erhöhung der §YIntegration der syrischen Vilayets§! um $RIGHT|G0%%$"
@@ -409,8 +410,6 @@
  OTT_sovereign_provinces: "Souveräne Vilayets"
  OTT_autonomous_provinces: "Autonome Vilayets"
  OTT_integrated_provinces: "Integrierte Vilayets"
- OTT_vilayets: "Vilayets"
- OTT_provinces: "Osmanische Provinzen"
  OTT_conservative_areas: "Konservative Regionen"
  OTT_arab_nationalist_areas: "Arabisch-Nationalistische Regionen"
  OTT_turkish_nationalist_areas: "Türkisch-Nationalistische Regionen"
@@ -3512,7 +3511,6 @@
  OTT_CENTRALISE_HEJAZ: "§YIntegration der Vilayets der arabischen Halbinsel§! ([?OTT.hej_integration_factor|G0%%])"
  OTT_CENTRALISE_IRAQ: "§YIntegration der irakischen Vilayets§! ([?OTT.irq_integration_factor|G0%%])"
  OTT_CENTRALISE_LIBYA: "§YIntegration der libyschen Vilayets§! ([?OTT.tri_integration_factor|G0%%])"
- #OTT_CENTRALISE_EGYPT: "§YIntegration der ägyptischen Vilayets§! ([?OTT.egy_integration_factor|G0%%])"
  OTT_CENTRALISE_ANATOLIA: "§YIntegration der türkischen Vilayets§! (§G100%§!)"
 
  OTT_CENTRALISE_NO_INTEGRATION: "§RJüngste Eroberungen können nicht integriert werden§!"
@@ -3928,8 +3926,7 @@
  TUR_mehmet_nuri_conker: "Mehmet Nuri Conker"
  TUR_mehmet_nuri_conker_advisor_desc: "§YGeboren:§! §L20. September 1882, in Selânik, Vilayet von Selânik, Osmanisches Reich§!"
 
- TUR_falih_rifki_atay: "Falih Rıfkı Bey"
- TUR_falih_rifki_atay_surname: "Falih Rıfkı Atay"
+ TUR_falih_rifki_atay: "Falih Rıfkı Atay"
  TUR_falih_rifki_atay_advisor_desc: "§YGeboren:§! §Lin Kostantiniye, Vilayet von Kostantiniye, Osmanisches Reich§!"
 
  TUR_mahmut_esat_bozkurt: "Mahmut Esat Bozkurt"

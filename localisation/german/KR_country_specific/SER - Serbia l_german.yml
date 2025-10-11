@@ -691,8 +691,6 @@
  YUG_rounds_system_mission: "Aktuelle Runde"
  YUG_1PC: "§Y1§! Politische Kapitalpunkte"
  YUG_1PC_blocked: "§R1§! Politische Kapitalpunkte"
- YUG_0PC: ""
- YUG_0PC_blocked: ""
  YUG_patronage_spending_SER: "§Y1§! Politische Kapitalpunkte werden für §YSerbische§! Patronage ausgegeben.\nDerzeit haben §YSerben§! §Y[?YUG_pc_expenditure_serbia]§! Politische Kapitalpunkte Punkte investiert."
  YUG_patronage_spending_CRO: "§Y1§! Politische Kapitalpunkte werden für §YKroatisches§! Patronage ausgegeben.\nDerzeit haben §YKroaten§! §Y[?YUG_pc_expenditure_croatia]§! Politische Kapitalpunkte Punkte investiert."
  YUG_patronage_spending_BOS: "§Y1§! Politische Kapitalpunkte werden für §YBosnische§! Patronage ausgegeben.\nDerzeit haben §YBosnier§! §Y[?YUG_pc_expenditure_bosnia]§! Politische Kapitalpunkte Punkte investiert."
@@ -1905,7 +1903,8 @@
  serbia_events.31.t: "Der Fall von Mazedonien"
  serbia_events.31.d: "Aus Tagen wurden Wochen und aus Wochen wurden Monate, und der Krieg in Mazedonien hat sich immer mehr zu Serbiens Gunsten gewendet. Wellen von Soldaten werden entsandt, um die Ordnung in der Region aufrechtzuerhalten, und kehren doch in Särgen zurück. Mit jedem Opfer, mit jedem Terrorakt wendet sich die Meinung der Bevölkerung immer mehr gegen die serbischen Behörden, und da es ihnen nicht gelingt, die Situation unter Kontrolle zu bringen, gerät die Lage völlig außer Kontrolle. Schließlich wurde ein vorübergehender Rückzug aus der Region angeordnet, um die Positionen der Armee im Norden zu konsolidieren und unnötige Verluste zu vermeiden.\n\nSkopje, die Hauptstadt Mazedoniens, ist heute ein malerischer Anblick. Sie verbrennen serbische Erinnerungsstücke in Lagerfeuern, stehen triumphierend auf den Dächern von Gebäuden und Moscheen, schwenken ihre rot-schwarzen Fahnen und skandieren die Worte des \"Aufbruchs der Freiheit\", der Hymne der mazedonischen Revolutionäre. Vertreter aus allen befreiten Regionen Mazedoniens haben sich in der Hauptstadt versammelt und Ivan Mihajlov mit Stolz zum ersten Präsidenten des Unabhängigen Staates Mazedonien erklärt.\n\nAls erste Handlung erklärte die verfassungsgebende Versammlung Mazedoniens die \"Wiederherstellung der unsterblichen, historischen Bande zwischen den Völkern Vardar-Mazedoniens und Bulgariens\" und sandte eine offizielle diplomatische Note an die Regierung in Sofia, in der die Rückkehr der bulgarischen Truppen auf ihren rechtmäßigen Boden gefordert wird. Jede Kontrolle, die wir noch über Mazedonien haben, schwindet von Sekunde zu Sekunde, und wenn wir uns nicht gegen die Bulgaren stellen, könnten wir sie endgültig verlieren..."
  serbia_events.31.a: "Verdammt..."
- serbia_events.31.b: "Das werden wir nicht hinnehmen! Tod für Bulgarien!"
+ serbia_events.31.b.bulgaria: "Das werden wir nicht hinnehmen! Tod für Bulgarien!"
+ serbia_events.31.b.macedonia: "Das lassen wir uns nicht gefallen! Tod für Mazedonien!"
 
  serbia_events.310.t: "Offene Kriegsführung in Mazedonien"
  serbia_events.310.d: "Während sich der Krieg um Serbien ausbreitet, wird die mazedonische Region noch widerspenstiger als zuvor. Soldaten, die einst zur Überwachung des Landes eingesetzt wurden, sind gezwungen, anderswo eingesetzt zu werden, was der IMRO Raum zum Atmen gibt und es ihr ermöglicht, die nächste Phase ihres Plans zur Befreiung Mazedoniens in die Tat umzusetzen. In den Bergen rund um das Vardar-Tal haben sich die Woiwoden der IMRO versammelt, um die Unabhängigkeit des \"Unabhängigen Staates Mazedonien\" zu verkünden und alle Mazedonier aufzufordern, zu den Waffen zu greifen und den verhassten serbischen Eindringling ein für alle Mal aus ihrem Land zu vertreiben. Von diesen Bergen steigen ihre Komitas herab, und in der Region bricht erneut offener Krieg aus."

@@ -1033,19 +1033,6 @@ france_events.165.t: "Frankreich schlägt internationale Avantgarde vor"
 france_events.165.d: "Von der französischen Regierung wurde der Versuch unternommen, eine internationale Avantgarde zu etablieren. Das Ziel ist es, neue künstlerische Stile zu schaffen, die in ihrer unorthodoxen Präsentation einzigartig sind, etwas, das diese Welt noch nie gesehen hat.\n\nDie französische Regierung glaubt, dass es ein hilfreiches Werkzeug sein wird, um die syndikalistische Lehre mit gewaltfreien Mitteln zu verbreiten. Jetzt erwarten sie von uns, dass wir uns daran beteiligen."
 france_events.165.a: "Wir sind dabei!"
 
- france_events.170.t: "Ein Bündnis mit der Internationale?"
- france_events.170.d: "Die Internationale, das Militärbündnis der wichtigsten sozialistischen Mächte der Welt, ist diskret an uns herangetreten mit dem Angebot, sich ihr anzuschließen, da sie ein Bündnis mit unserer Nation als im Interesse aller und als einen großen Schritt nach vorn im langen Kampf für die Befreiung des internationalen Proletariats ansieht. Dieses Angebot ist mit unbestreitbaren Vorteilen verbunden, wir könnten sicherlich eine große Unterstützung erwarten: Hilfe gegen unsere Feinde und bei der Verwirklichung unserer militärischen Ziele, Schutz, sollte er jemals benötigt werden, und, was ebenso wichtig ist, Unterstützung für die Entwicklung unserer Streitkräfte und sogar unserer Wirtschaft durch das Phalanstère Programm. Allerdings ist dieses Angebot mit vielleicht entmutigenden Verpflichtungen verbunden, die uns auf einen eventuellen, aber sicheren Konflikt mit dem Kaiser und seinen Verbündeten festlegen. Wie sollten wir auf ihr Angebot reagieren?"
- france_events.170.a: "Gemeinsam sind wir stärker!"
- france_events.170.b: "Wenn ich es mir recht überlege, nein..."
-
- france_events.171.t: "[From.GetNameDefCap] Wurde akzeptiert!"
- france_events.171.d: "Zeit zu jubeln! [From.GetNameDefCap] hat unser Angebot angenommen, unserem Militärbündnis beizutreten, wie wir es uns sehnlichst erhofft hatten. Mit dieser Entscheidung haben sie sich unserer unendlichen Unterstützung als Verbündete im weltweiten Kampf für die Befreiung der Arbeiterklasse versichert, und wir haben einen wertvollen Verbündeten gegen unsere unbestreitbar mächtigen Feinde gewonnen. Bald werden ihnen viele andere folgen: "Die Internationale wird die Menschheit sein"!"
- france_events.171.a: "Exzellent!"
- 
- france_events.172.t: "[From.GetNameDefCap] Hat abgelehnt!"
- france_events.172.d: "Zu unserem Leidwesen hat [From.GetNameDef] unser Angebot, unserem Militärbündnis beizutreten, abgelehnt. Vielleicht zu eingeschüchtert von der unbestreitbaren Macht unserer Feinde, oder einfach nicht engagiert genug im Kampf für die Befreiung des Proletariats. In jedem Fall, auch wenn dies sicherlich ein bedauerliches Ergebnis unseres diplomatischen Vorstoßes ist, werden sich uns viele andere in diesem Kampf anschließen: "Die Internationale soll die Menschheit sein"!"
- france_events.172.a: "Ihr Verlust."
-
  france_events.200.t: "Das Damokles-Projekt"
  france_events.200.d: "Deutsche Spione haben vor kurzem die Unterlagen eines Forschungs- und Entwicklungsprogramms aufgedeckt, das von den Mitgliedern der Dritten Internationale finanziert wurde. Bei dem "Damokles-Projekt" handelt es sich um eine umfassende multinationale Studie über die zerstörerische Kraft der Kernspaltung mit dem Ziel, "Bomben mit einer Zerstörungskraft zu entwickeln, die alles bisher Bekannte bei weitem übertrifft". Der berühmte deutsche Physiker Albert Einstein hatte zuvor gewarnt, dass eine erfolgreiche "Atombombe" sogar in der Lage sein könnte, ganze Städte in Asche zu verwandeln.\n\nDie deutschen Geheimdienste haben die Informationen über dieses Projekt an ihre engsten Verbündeten weitergegeben, so dass nun natürlich die ganze Welt davon weiß. Einige haben das Projekt als kindische Fantasie abgetan, aber viele Experten befürchten einen Durchbruch."
  france_events.200.a: "Wenn sie Erfolg haben sollten..."
@@ -1187,7 +1174,6 @@ FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel 
  FRA_georges_valois_leader_desc: "§YGeboren:§! §L7. Oktober 1878, in Paris, Seine, Französische Republik§!\n§YHintergrund:§! §LGeorges Valois, ein Anhänger der nationalsyndikalistischen Lehren von Georges Sorel, ist Vorsitzender der Bourse Générale du Travail geworden. Valois befürwortet die Zusammenlegung der Vorsitze der Bourse Générale du Travail und des Comité de Salut Public, was in den Augen vieler Kommunarden einer Tyrannei gleichkommt.§!"
  
  FRA_marcel_cachin: "Marcel Cachin"
- FRA_marcel_cachin_leader_desc: "§YGeboren:§! §L20. September 1869, in Paimpol, Côtes-du-Nord, Französisches Kaiserreich§!\n§YHintergrund:§! §LMarcel Cachin, ehemaliger Diplomat und Büroleiter der staatlichen Zeitung Humanité, ist Vorsitzender der Kommune Frankreichs geworden. Obwohl er ein Leninist ist, erlauben ihm seine diplomatische Haltung und sein allgemeines Charisma, ein gewisses Maß an Herzlichkeit mit Syndikalisten und Anarchisten zu bewahren.§!"
  FRA_marcel_cachin_advisor_desc: "§YGeboren:§! §L20. September 1869, in Paimpol, Côtes-du-Nord, Französisches Kaiserreich§!"
 
  FRA_leon_jouhaux: "Léon Jouhaux"
@@ -1319,8 +1305,6 @@ FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel 
  FRA_raymond_moullec: "Raymond Moullec"
  FRA_raymond_moullec_high_command_desc: "§YGeboren:§! §L21. März 1901, in Brest, Finistère, Französische Republik§!"
 
- FRA_irene_and_frederic_joliot_curie_theorist_desc: "§YGeboren:§! §L12. September 1897, in Paris, Seine, Französische Republik§!\n§YGeboren:§! §L19. März 1900, in Paris, Seine, Französische Republik§!"
- FRA_robert_esnault_pelterie_theorist_desc: "§YGeboren:§! §L8. November 1881, in Paris, Seine, Französische Republik§!"
  FRA_joseph_vuillemin: "Joseph Vuillemin"
  FRA_joseph_vuillemin_air_chief_desc: "§YGeboren:§! §L14. März 1883, in Bordeaux, Gironde, Französische Republik§!"
  FRA_martial_henri_valin: "Martial Henri Valin"
@@ -1369,8 +1353,11 @@ FRA_Sabotage_desc: "Die französischen verräterischen Imperialisten haben viel 
  FRA_richard_sorge: "Richard Sorge"
 
  FRA_irene_joliot_curie: "Irène Joliot-Curie"
+ FRA_irene_joliot_curie_scientist_desc: "§YGeboren:§! §L12. September 1897 in Paris, Seine, Französische Republik§!"
  FRA_frederic_joliot_curie: "Frédéric Joliot-Curie"
+ FRA_frederic_joliot_curie_scientist_desc: "§YGeboren:§! §L19. März 1900 in Paris, Seine, Französische Republik§!"
  FRA_robert_esnault_pelterie: "Robert Esnault-Pelterie"
+ FRA_robert_esnault_pelterie_scientist_desc: "§YGeboren:§! §L8. November 1881 in Paris, Seine, Französische Republik§!"
  FRA_marcel_bloch: "Marcel Bloch"
  FRA_francois_hussenot: "François Hussenot"
  FRA_pierre_david: "Pierre David"

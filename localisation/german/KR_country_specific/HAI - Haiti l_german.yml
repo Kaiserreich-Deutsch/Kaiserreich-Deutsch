@@ -395,8 +395,8 @@
  HAI_acquire_rubber: "Erwerb von Kautschukbäumen"
  HAI_rubber_cultivation_mission: "Kautschuk-Anbau"
  HAI_clear_land: "Land für Anbau freimachen"
- HAI_expand_investment: "Investition in Kautschuk-Anbau ausbauen"
- HAI_appeal_faction_leader: "Antrag [THIS.faction_leader.GetNameDef] auf zusätzliche Investitionen"
+ HAI_expand_investment: "Erweiterung der Investitionen in den Kautschukanbau mit [FROM.GetAdjective]-Finanzierung"
+ HAI_appeal_faction_leader: "Antrag [FROM.GetNameDef] auf zusätzliche Investitionen"
  HAI_expand_rubber: "Kautschukanbau ausweiten"
 
  HAI_foreign_help: "Auslandshilfe und Modernisierung"
@@ -586,8 +586,8 @@
  haiti_events.23.d: "Aus welchen Gründen auch immer hat [From.GetNameDefCap] beschlossen, dass sie uns nicht in ihre Fraktion aufnehmen können. Offenbar ist unsere stolze Nation für die so genannten Giganten der Weltbühne kaum mehr als eine Belastung."
  haiti_events.23.a: "Verflucht seien sie!"
 
- haiti_events.24.t: "Rückfrage mit [FROM.faction_leader.GetNameDef] zu Kautschuk-Anbau."
- haiti_events.24.d: "Mit dem Fortschreiten des 2. Weltkriegs ist es klar geworden, dass Kautschuk eine lebenswichtige Ressource sein wird. Da der Zugang zu Afrika und Asien bei weitem nicht gewährleistet ist, haben wir [FROM.faction_leader.GetNameDef] vorgeschlagen, mit der Entwicklung von Kautschuk in Haiti zu beginnen."
+ haiti_events.24.t: "Rückfrage mit [?faction_leader.GetNameDef] zu Kautschuk-Anbau."
+ haiti_events.24.d: "Mit dem Fortschreiten des 2. Weltkriegs ist es klar geworden, dass Kautschuk eine lebenswichtige Ressource sein wird. Da der Zugang zu Afrika und Asien bei weitem nicht gewährleistet ist, haben wir [?faction_leader.GetNameDef] vorgeschlagen, mit der Entwicklung von Kautschuk in Haiti zu beginnen."
  haiti_events.24.a: "Hoffen wir, dass sie mit an Bord sind!"
 
  haiti_events.25.t: "Haiti schlägt ein Kautschuk-Entwicklungsprogramm vor"
@@ -595,13 +595,11 @@
  haiti_events.25.a: "Dies ist eine großartige Möglichkeit, Haiti wieder auf die Beine zu bringen!"
  haiti_events.25.b: "Eine großartige Idee, von der wir beide profitieren!"
 
- haiti_events.26.t: "[FROM.faction_leader.GetNameDefCap] Stimmt zu!"
- haiti_events.26.d: "[FROM.faction_leader.GetNameDefCap] hat unserem Vorschlag zugestimmt und freut sich darauf, die Produktion zu starten. Sie sind sogar so begeistert, dass sie zugestimmt haben, uns den gesamten Gewinn zu überlassen und das Eigentum vollständig in die Hände der haitianischen Regierung und haitianischer Unternehmen zu legen."
+ haiti_events.26.t: "[FROM.GetNameDefCap] Stimmt zu!"
+ haiti_events.26.d1: "[FROM.GetNameDefCap] hat unserem Vorschlag zugestimmt und freut sich darauf, die Produktion zu starten. Sie sind sogar so begeistert, dass sie zugestimmt haben, uns den gesamten Gewinn zu überlassen und das Eigentum vollständig in die Hände der haitianischen Regierung und haitianischer Unternehmen zu legen."
+ haiti_events.26.d2: "[FROM.GetNameDefCap] hat unserem Vorschlag zugestimmt und freut sich darauf, mit der Produktion zu beginnen. Allerdings haben sie festgelegt, dass einige [FROM.GetAdjective]-Unternehmen einen Teil der Eigentumsrechte an den Plantagen übernehmen müssen, um sicherzustellen, dass diese ordnungsgemäß betrieben werden. Wir sind zwar zuversichtlich, dass wir sie selbst betreiben könnten und der Gewinnverlust nicht groß ist, aber dadurch kann ein ausländisches Unternehmen einen Teil der Haftung übernehmen."
  haiti_events.26.a: "Fantastische Neuigkeiten!"
-
- haiti_events.27.t: "[FROM.faction_leader.GetNameDefCap] Stimmt zu!"
- haiti_events.27.d: "[FROM.faction_leader.GetNameDefCap] hat unserem Vorschlag zugestimmt und freut sich darauf, die Produktion zu starten. Sie haben jedoch festgelegt, dass einige [HAI.faction_leader.GetAdjective] Unternehmen einen Teil des Eigentums an den Plantagen übernehmen, um sicherzustellen, dass sie ordnungsgemäß betrieben werden. Wir sind zwar zuversichtlich, dass wir die Plantagen selbst betreiben können, und die Gewinneinbußen sind nicht groß, aber es ist möglich, dass ein ausländisches Unternehmen einen Teil der Haftung übernimmt."
- haiti_events.27.a: "Wie erwartet."
+ haiti_events.26.b: "Wie erwartet."
 
  haiti_events.52.t: "Chaos in der Regierung"
  haiti_events.52.d: "Nachdem die Regierung den Forderungen der Dominikaner nachgegeben hat, sind sowohl die Armee als auch die Nationalversammlung in Aufruhr, weil [HAI.GetLeader] sie nicht zur Rechenschaft gezogen hat. Um einen vollständigen Zusammenbruch zu verhindern, haben General Franck Lavaud und eine Clique von Armeeoffizieren die Kontrolle über die Regierung übernommen und [HAI.GetLeader] verhaftet. Während die Demokratie vorübergehend ausgesetzt ist, verspricht General Lavaud, dass im Jahr 1940 reguläre Wahlen stattfinden werden, um eine neue Regierung zu wählen."
@@ -710,8 +708,6 @@
  haiti_civil_war_events.23.t: "Das Schicksal der amerikanischen Einrichtungen"
  haiti_civil_war_events.23.d: "Trotz der Beschlagnahmung des amerikanischen Hauptlagers verfügen die Amerikaner immer noch über ein Netz von Einrichtungen in ganz Haiti. Ihre Vorräte werden sicherstellen, dass wir Haiti sowohl intern sichern als auch gegen die dominikanische Bedrohung helfen können."
  haiti_civil_war_events.23.a: "Wir sollten amerikanische Einrichtungen und Ausrüstung beschlagnahmen"
- HAI_american_salvage: "Amerikanische Bergung"
- HAI_american_salvage_desc: "Die Überreste der amerikanischen Einrichtungen auf der Insel haben uns bei unseren Forschungen geholfen."
 
  haiti_civil_war_events.24.t: "Demonstranten kämpfen auf der Straße"
  haiti_civil_war_events.24.d: "Unsere friedlichen Demonstranten sind nach der Bekanntgabe des Patts in der Nationalversammlung mit den Krawallmachern von Elie Lescot zusammengestoßen. Die Gewalt hat sich vom Parlamentsgebäude fast bis zum Präsidentenpalast ausgebreitet, als ihre Terroristen versuchten, in das Parlamentsgebäude einzubrechen."
