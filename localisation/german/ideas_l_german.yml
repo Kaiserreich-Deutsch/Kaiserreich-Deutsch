@@ -143,8 +143,13 @@ tactic_unexpected_thrust_preferred_weight_factor: "Zusätzliche Taktische Chance
 tactic_barrage_preferred_weight_factor: "Zusätzliche Taktische Chance §YUnterdrückendes Sperrfeuer§!, wenn es sich um eine bevorzugte Taktik handelt"
 tactic_planned_attack_preferred_weight_factor: "Zusätzliche Taktische Chance §YGut geplanter Angriff§!, wenn es sich um eine bevorzugte Taktik handelt"
 tactic_relentless_assault_preferred_weight_factor: "Zusätzliche Taktische Chance §YUnerbittlicher Angriff §!, wenn es sich um eine bevorzugte Taktik handelt"
+ tactic_tactical_withdrawal_preferred_weight_factor: "Zusätzlicher §YTaktischer Rückzug§! Taktik-Chance, wenn dies die bevorzugte Taktik ist"
+ tactic_breakthrough_preferred_weight_factor: "Zusätzliche §YDurchbruch§! Taktik-Chance, wenn es die bevorzugte Taktik ist"
  ALREADY_HAS_ADVISOR_WITH_TRAIT: "Es gibt bereits einen ernannten Berater mit dieser Eigenschaft."
  CHANGE_ADVISOR: "\nSie können diesen Berater ersetzen, indem Sie hier klicken und einen Ersatz auswählen."
  GEN_cheaper_amphib: "Verbesserte amphibische Entwürfe"
  will_turn_to: "Wird zu"
  upon_timeout: "Nach Zeitüberschreitung"
+
+# in Vanilla nicht vorhanden
+ tactic_backhand_blow_preferred_weight_factor: "Zusätzlicher §YGegenangriff§! Taktik-Chance, wenn dies die bevorzugte Taktik ist"
