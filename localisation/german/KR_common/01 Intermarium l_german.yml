@@ -2,7 +2,7 @@
 ### Übersetzt von DerEherneRächer ###
 ### EE Cooperation Mechanics ###
  intermarium_events.0.t: "Die Russische Bedrohung"
- intermarium_events.0.d: "Russlands jahrzehntelanger Niedergang ist vorüber und die Russen beginnen mit dem Wiederaufbau. Schon jetzt beanspruchen sie die ehemaligen Territorien des Zarenreiches und die osteuropäischen Staaten werden sicher eines ihrer Ziele sein.\n\nUm die Eindämmung der russischen Bedrohung und die Souveränität der Staaten Osteuropas zu garantieren, haben sich Politiker und Generäle in [MIE_leader.Capital.GetCapitalVictoryPointName] versammelt, um ein Konzept der gegenseitigen Kooperation zu erarbeiten. Eine gemeinsame militärische Verteidigung wurde etabliert und [MIE_leader.GetNameDef] wurde damit anvertraut, die gemeinsamen Verteidigungsunternehmen der Region zu finanzieren."
+ intermarium_events.0.d: "Russlands jahrzehntelanger Niedergang ist vorbei, und jetzt sind die Russen dabei, ihr Land wieder aufzubauen – bereits jetzt erheben sie Ansprüche auf ihre ehemaligen imperialen Gebiete, und osteuropäische Staaten werden sicherlich eines ihrer Ziele sein.\n\nUm die Eindämmung der russischen Bedrohung und die Souveränität der Staaten Osteuropas zu garantieren, haben sich Politiker und Generäle in [MIE_leader.Capital.GetCapitalVictoryPointName] versammelt, um ein Konzept der gegenseitigen Kooperation zu erarbeiten. Eine gemeinsame militärische Verteidigung wurde etabliert und [MIE_leader.GetNameDef] wurde damit anvertraut, die gemeinsamen Verteidigungsunternehmen der Region zu finanzieren."
  intermarium_events.0.a: "Großartig!"
 
  MIE_decisions: "Osteuropäische Verteidigungskooperation"
@@ -12,9 +12,9 @@
  MIE_member: "Ist Mitglied der §YOsteuropäischen Verteidigungs-Kooperation§!."
 
  MIE_decisions_GER: "Ostpolitik"
- MIE_decisions_GER_desc: "Der Osten unseres Reiches erstreckt sich von der Ostsee bis zum Schwarzen Meer. Die Oststaaten, unsere de facto Satellitenstaaten, werden zur einen Hälfte durch unsere militärische Stärke und zur anderen durch ihre Angst vor den Russen im Zaum gehalten. Wir sollten ihre politische Entwicklungen stets im Auge behalten und, falls nötig, entsprechend reagieren.\n\n[POL_in_RP]"
+ MIE_decisions_GER_desc: "Unser Reich im Osten erstreckt sich von der Ostsee bis zum Schwarzen Meer. Die Oststaaten sind eine pragmatische Mischung aus de facto Vasallenstaaten, die ebenso sehr durch ihre Angst vor Russland wie durch unsere Stärke in Schach gehalten werden. Wir sollten ihre politische Entwicklungen stets im Auge behalten und, falls nötig, entsprechend reagieren.\n\n[POL_in_RP]"
 
- POL_in_RP_yes: "Polen mag zurzeit zwar einer unserer loyaleren Untertanen sein, doch es ist unsicher, wie lange dies auch so bleiben wird. Wir sollten Investitionen in die polnische Nation in Betracht ziehen, um uns ihre Loyalität und Bereitwilligkeit zur wirtschaftlichen Kooperation auf Dauer zu sichern.\n\n[POL_GER_polish_loyalty]\n"
+ POL_in_RP_yes: "Polen mag derzeit einer unserer treuesten Untertanen sein, aber es gibt keine Garantie dafür, dass dies auch so bleibt. Wir sollten Investitionen in die polnische Nation in Betracht ziehen, um uns ihre Loyalität und Bereitwilligkeit zur wirtschaftlichen Kooperation auf Dauer zu sichern.\n\n[POL_GER_polish_loyalty]\n"
 
  POL_early: "Erwarteter Wahlausgang für die Unterstützer von August IV: [POL_circle_chance]"
  POL_status_stable: "§GPolen ist loyal und stabil.§!"
@@ -24,20 +24,20 @@
  POL_status_rebellious: "§RPolen rebelliert!§!"
 
  GER_sponsor_MIE: "Fördert die OEVK"
- GER_sponsor_MIE_desc: "Die Osteuropäische Verteidigungskooperation wurde ins Leben gerufen, um die militärische Aufrüstung der Oststaaten zu koordinieren. Unsere militärische Industrie ist zwar bereits involviert, eine direkte Unterstützung durch unsere Regierung könnte die Organisation jedoch noch weiter stärken."
+ GER_sponsor_MIE_desc: "Die Osteuropäische Verteidigungskooperation wurde ins Leben gerufen, um die militärische Aufrüstung der Oststaaten zu koordinieren. Unser militärisch-industrieller Komplex ist daran beteiligt, obwohl eine direktere Unterstützung durch die Regierung das Programm noch weiter stärken könnte."
  GER_fight_forest_brothers: "Formt die Baltische Feldgendarmerie"
- GER_fight_forest_brothers_desc: "Die zeitweilige Entsendung einer Militärpolizei-Einheit in das Vereinigte Baltische Herzogtum könnte diesem dabei helfen, die baltischen Separatistenbewegungen niederzuschlagen."
+ GER_fight_forest_brothers_desc: "Die Entsendung einer temporären Militärpolizei zum Vereinigten Baltischen Herzogtum könnte notwendig sein, um ihnen im Kampf gegen die baltischen Separatisten zu helfen."
  GER_fight_LAF: "Verstärkt die litauische Polizei"
  GER_fight_LAF_desc: "Die Regierung Litauens tut sich schwer im Kampf gegen die Litauische Aktivistische Front, eine angeblich von Russland unterstützte terroristische Organisation, die für zahlreiche Schreckenstaten verantwortlich ist. Wir könnten eine Spezialeinheit aus Preußen entsenden, um Litauen beim Kampf gegen die Aufständigen zu unterstützen."
  GER_BLR_coup: "Setzt die BSDP-Regierung ab"
- GER_BLR_coup_desc: "Wir haben Weißrutheniens Experiment einer linksgerichteten Demokratie nun schon seit Langem toleriert, doch dies scheint ein Fehler gewesen zu sein. Unsere Agenten haben uns über ihr Geheimabkommen mit Moskau und die weißruthenischen Pläne, uns im Kriegsfall in den Rücken zu fallen, in Kenntnis gesetzt. Wir sollten handeln, bevor es zu spät ist."
+ GER_BLR_coup_desc: "Wir haben die Experimente Weißrusslands mit linker Demokratie toleriert, aber offenbar war das ein Fehler. Unsere Geheimdienstquellen haben uns mitgeteilt, dass sie einen geheimen Pakt mit Moskau geschlossen haben und planen, uns zu verraten. Das darf nicht geschehen."
 
  POL_GER_buy: "Investitionen in Polen"
  POL_GER_buy_desc: "Durch eine Ausweitung unserer wirtschaftlichen Kontrolle über Polen können wir unseren Einfluss auf die polnische Nation festigen und sicherstellen, dass die polnische Außenpolitik in der Zukunft unseren Interessen entsprechen wird."
  POL_GER_sell: "Verkauft unsere polnischen Besitztümer"
  POL_GER_sell_desc: "Einige unserer wirtschaftlichen Erwerbe in Polen waren nicht so nützlich, wie wir uns anfangs erhofften. Glücklicherweise gibts es zahlreiche österreichische, tschechische und polnische Geschäftsmänner, die sie uns nur allzu gern abkaufen würden."
  POL_GER_lobby: "Pro-Monarchistische Kampagne in Polen"
- POL_GER_lobby_desc: "[POL.GetLeader] ist zwar nicht gerade der beliebteste aller Könige, doch das ist nichts, was unsere Werbespezialisten nicht beheben könnten."
+ POL_GER_lobby_desc: "[POL.GetLeader] war nie der beliebteste König, aber das ist nichts, was ein bisschen deutsche PR-Arbeit nicht beheben könnte."
 
  POL_GER_promises: "Versprecht Polen Autonomie"
  POL_promise_tt: "§CPolens Loyalität wird stark erhöht werden.§!"
@@ -52,7 +52,7 @@
  POL_exploit_tt: "Eine Ausbeutung Polens wird die anti-deutschen und revolutionären Bewegungen des Landes stärken."
 
  MIE_refuse_equipment_shipments: "Lehnt Ausrüstungslieferungen ab"
- MIE_refuse_equipment_shipments_desc: "Wir sollten unseren Verbündeten mitteilen, dass wir derzeit keine Ausrüstungslieferungen benötigen und die Ressourcen andernorts besser genutzt werden können."
+ MIE_refuse_equipment_shipments_desc: "Aus unseren eigenen Gründen müssen wir unseren Verbündeten mitteilen, dass wir derzeit keine Ausrüstungslieferungen benötigen und die Ressourcen daher anderweitig eingesetzt werden sollten."
  MIE_allow_equipment_shipments: "Nehmt Ausrüstungslieferungen an"
  MIE_allow_equipment_shipments_desc: "Wir haben unseren Verbündeten zwar mitgeteilt, dass wir derzeit keine Ausrüstung benötigen, können diese Entscheidung allerdings auch jederzeit rückgängig machen."
 
@@ -90,14 +90,14 @@
  MIE_joint_offensive_exercises: "Gemeinsames Militär-Training"
 
  intermarium_events.2.t: "Osteuropäische Kooperation"
- intermarium_events.2.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben für die Organisation einer gemeinsamen Militärübung der osteuropäischen Staaten zu nutzen. Generäle, die auf Offensive und Panzer spezialisiert sind, haben einen Angriff auf feindliche Truppen simuliert und untereinander Tipps und Tricks ausgetauscht."
+ intermarium_events.2.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben für die Organisation einer gemeinsamen Militärübung der osteuropäischen Staaten zu nutzen. Hier simulierten auf Offensive und Panzerung ausgerichtete Generäle einen Gegenangriff gegen feindliche Streitkräfte und tauschten untereinander Tipps und Ratschläge aus."
  intermarium_events.2.a: "Großartig!"
  MIE_all_gain_1_attack: "Alle Generäle der Mitgliedsstaaten mit der §HPanzeranführer§!-Eigenschaft werden §G1§! Angriff erhalten."
 
  MIE_joint_grand_strategy_planning: "Brilliante Strategie"
 
  intermarium_events.3.t: "Osteuropäische Kooperation"
- intermarium_events.3.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben für die Organisation von Kriegsspielen zwischen den Generälen der osteuropäischen Staaten zu nutzen. Unsere Generäle diskutierten eine vollständige Invasion der Region, haben die Rollen zwischen den Nationalstaaten aufgeteilt und Pläne ausgeklügelt, um die Invasion zu stoppen."
+ intermarium_events.3.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben für die Organisation von Kriegsspielen zwischen den Generälen der osteuropäischen Staaten zu nutzen. Hier diskutierten unsere Generäle eine vollständige Invasion der Region, teilten die Rollen zwischen den Nationalstaaten auf und beschäftigten sich mit der Planung einer groß angelegten Strategie, um den Angriff zu stoppen."
  intermarium_events.3.a: "Großartig!"
  MIE_all_gain_1_planning: "Alle Generäle der Mitgliedsstaaten mit der §HInfanterieanführer§!-Eigenschaft werden §G1§! Planung erhalten."
 
@@ -149,7 +149,7 @@
  MIE_transferable_armored_division_tt: "Diese gepanzerte Division wird zwischen den osteuropäischen Staaten transferiert, wenn sich die Nation, die für die Ressourcenverteilung verantwortlich ist, ändert."
 
  intermarium_events.11.t: "Osteuropäische Kooperation"
- intermarium_events.11.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben zu nutzen, um eine internationale Panzerdivison, bestehend aus Freiwilligen aller osteuropäischen Länder, zu erschaffen. Während [MIE_leader.GetNameDef] die Division in seine Armee integrieren wird, wird sie von Staat zu Staat transferiert, sollte der derzeitige Eigentümer fallen."
+ intermarium_events.11.d: "[MIE_leader.GetNameDefCap] hat sich dazu entschieden, einen Teil unserer gemeinschaftlichen Verteidigungsausgaben zu nutzen, um eine internationale Panzerdivison, bestehend aus Freiwilligen aller osteuropäischen Länder, zu erschaffen. Während [MIE_leader.GetNameDef] es in seine Armeestruktur integriert, wird es bei der Kapitulation von Staat zu Staat übertragen."
  intermarium_events.11.a: "Großartig!"
  
  intermarium_events.12.t: "Die russische Bedrohung neutralisiert!"
@@ -157,20 +157,20 @@
  intermarium_events.12.a: "Ein guter Tag."
  
  intermarium_events.13.t: "Deutschland spendet Ausrüstung"
- intermarium_events.13.d: "Das deutsche Kriegsministerium hat der Osteuropäischen Verteidigungskooperations-Initiative einige Ausrüstung zukommen lassen. Diese alten aber zuverlässigen Mauser werden sich in den Händen von baltischen und slawischen Patrioten, die ihre Heimat gegen die russischen Aggressoren verteidigen, als äußerst nützlich erweisen."
+ intermarium_events.13.d: "Das deutsche Kriegsministerium hat der Osteuropäischen Verteidigungskooperations-Initiative einige Ausrüstung zukommen lassen. DDiese alten, aber bewährten Mauser-Gewehre werden in den Händen der baltischen und slawischen Patrioten, die ihre Heimat gegen die russische Bedrohung verteidigen, gute Dienste leisten."
  intermarium_events.13.a: "Deutschland über alles."
 
  intermarium_events.14.t: "Ankunft der Baltischen Feldgendarmerie"
- intermarium_events.14.d: "Eine Spezialeinheit der Militärpolizei des Kaiserreichs ist eingetroffen, um unsere Sicherheitskräfte zu verstärken. Aufgrund ihrer Erfahrung im Umgang mit Guerilla-Streitkräften könnten diese Männer in der Bekämpfung des Aufstandes, der durch das Baltikum fegt, eine große Hilfe darstellen."
+ intermarium_events.14.d: "Eine Spezialeinheit der Militärpolizei des Kaiserreichs ist eingetroffen, um unsere Sicherheitskräfte zu verstärken. Aufgrund ihrer langjährigen Erfahrung im Umgang mit Guerillakämpfern wie den Waldbrüdern werden sich diese Männer sicherlich als nützlich erweisen, um den Aufstand in den baltischen Ländern einzudämmen."
  intermarium_events.14.a: "Entsendet sie nach Lettland."
  intermarium_events.14.b: "Entsendet sie nach Estland."
 
  intermarium_events.15.t: "Deutschland offeriert Unterstützung beim Gesetzesvollzug"
- intermarium_events.15.d: "Berlin hat eine Zusammenarbeit unserer Nationen bei der Bekämpfung der Litauischen Aktivistischen Front vorgeschlagen. Die Deutschen sind dazu bereit, einige militärische Polizeieinheiten aus Ostpreußen nach Litauen zu entsenden, um dort gemeinsame Schläge gegen die LAF zu organisieren. Zusammen sollten wir dazu in der Lange sein, einigen Druck auf die Kräfte der LAF auszuüben."
+ intermarium_events.15.d: "Berlin hat eine Zusammenarbeit unserer Nationen bei der Bekämpfung der Litauischen Aktivistischen Front vorgeschlagen. Die Deutschen sind dazu bereit, einige militärische Polizeieinheiten aus Ostpreußen nach Litauen zu entsenden, um dort gemeinsame Schläge gegen die LAF zu organisieren. Mit unseren vereinten Kräften werden wir die LAF mit Sicherheit unter starken Druck setzen."
  intermarium_events.15.a: "Gut."
 
  intermarium_events.17.t: "Pro-deutscher Staatsstreich in Weißruthenien!"
- intermarium_events.17.d: "Wie es scheint, hat der deutsche Geheimdienst unsere Zusammenarbeit mit der belarussischen Regierung aufgedeckt. Auf deutschen Befehl hin haben die reaktionären Elemente der belarussischen Armee die Kontrolle über Minsk übernommen, Ratsvorsitzenden Taraškievič des Hochverrates angeklagt und diesen festgenommen. Schon jetzt werden Sozialisten in ganz Weißruthenien verhaftet, während das bourgeoisie Militär die Freiheit des belarussischen Volkes weiter einschränkt. Sie können sich uns zwar nicht länger direkt im Falle eines Krieges anschließen, doch werden weiterhin ihr Bestes geben, um die Bemühungen der Militärregierung, sich uns zu widersetzen, zu sabotieren. Es ist unsere brüderliche Pflicht, die Belarussen von der preußischen Schreckensherrschaft zu befreien!"
+ intermarium_events.17.d: "Es scheint, dass die deutschen Geheimdienste unsere Verschwörung mit der Belarussischen Regierung aufgedeckt und entschiedene Maßnahmen ergriffen haben. Auf deutschen Befehl hin haben die reaktionären Elemente der belarussischen Armee die Kontrolle über Minsk übernommen, Ratsvorsitzenden Taraškievič des Hochverrates angeklagt und diesen festgenommen. Schon jetzt werden Sozialisten in ganz Weißruthenien verhaftet, während das bourgeoisie Militär die Freiheit des belarussischen Volkes weiter einschränkt. Sie können sich uns zwar nicht länger direkt im Falle eines Krieges anschließen, doch werden weiterhin ihr Bestes geben, um die Bemühungen der Militärregierung, sich uns zu widersetzen, zu sabotieren. Es ist unsere brüderliche Pflicht, die Belarussen von preußischer Schreckensherrschaft zu befreien!"
  intermarium_events.17.a: "Auf nach Minsk!"
  GER_coup_BLR: "Pro-deutscher Staatsstreich in Weißruthenien"
 
@@ -179,7 +179,7 @@
  intermarium_events.18.a: "Welch wohltätige Verbündete wir doch haben."
 
  intermarium_events.19.t: "Die Stunde rückt näher"
- intermarium_events.19.d: "Unsere Aufklärungseinheiten haben massive russische Truppenbewegungen entlang der Grenze beobachtet. Nach Jahren der zunehmenden Spannungen scheint [RUS.GetNameDef] nun die Eroberung Osteuropas und die Zerschlagung unserer Unabhängigkeit voranzutreiben. Die Osteuropäische Verteidigungskooperation hat die militärischen Kapazitäten sowohl unserer Nation als auch unserer Verbündeten gestärkt - wir blicken dem kommenden Sturm vorbereitet entgegen. Deutschland hat uns nun jedoch darüber informiert, dass sie es bevorzugen würden, wenn unsere Verteidigungsanlagen die Russen zurückhalten könnten, bis die deutsche Armee die Internationale im Westen zerschlagen hat, da eine Aufteilung des Heeres den Zweifrontenkrieg zweifelsohne erschweren würde."
+ intermarium_events.19.d: "Unsere Aufklärungseinheiten haben massive russische Truppenbewegungen entlang der Grenze beobachtet. Nach Jahren der zunehmenden Spannungen scheint [RUS.GetNameDef] nun die Eroberung Osteuropas und die Zerschlagung unserer Unabhängigkeit voranzutreiben. Die Osteuropäische Verteidigungskooperation hat die militärischen Kapazitäten sowohl unserer Nation als auch unserer Verbündeten gestärkt - wir blicken dem kommenden Sturm vorbereitet entgegen. Deutschland hat erklärt, dass es es vorziehen würde, wenn wir unsere Verteidigung gegen Russland so lange aufrechterhalten könnten, bis sie die Internationale im Westen ausschalten können, und dass eine gewaltsame Umleitung ihrer Streitkräfte nach Osten den Zweifrontenkrieg nur erschweren würde."
  intermarium_events.19.a: "Sind sie des Wahnsinns? Wir können uns Russland nicht einfach allein entgegenstellen!"
  intermarium_events.19.b: "Wir sind dazu bereit, uns und unsere Nachbarstaaten zu verteidigen!"
  intermarium_events.19.c: "Wir sind dazu bereit, uns selbst zu verteidigen!"

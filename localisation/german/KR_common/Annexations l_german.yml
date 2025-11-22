@@ -16,7 +16,7 @@ KR_owned_and_controlled_by_ROOT_or_ally: "ist im Besitz und unter der Kontrolle 
 KR_owned_and_controlled_by_ROOT_or_ally_NOT: "ist §Rnicht§! im Besitz und unter der Kontrolle von §Y[Root.GetNameDef]§! oder einem Verbündeten"
  annexation_resistance_target: "Unter Militärischer Besatzung"
 
- is_valid_annexation_state: "Ist Eigentum von §Y[ROOT.GetNameWithFlag]§! und §Rnicht§! ein Kern oder beansprucht"
+ is_valid_annexation_state: "Gehört §Y[ROOT.GetNameWithFlag]§! und §Rkein§! Kern- oder beanspruchter Staat"
 
  generic_annexation_resistance: "Widerstand gegen Annexion: $VALUE|=-%0$"
 
@@ -139,7 +139,7 @@ annexation_events.integration: "Pass euch unserem Territorium an."
  annexation_events.europe.give_to_owner_of_transdanubia: "[transdanubia.GetGrantTerritoryEventOption]"
 
  annexation_events.europe.give_to_owner_of_belgrade: "[belgrade.GetGrantTerritoryEventOption]"
- annexation_events.europe.give_to_owner_of_morava: "[morava.GetGrantTerritoryEventOption]"
+ annexation_events.europe.give_to_owner_of_kraljevo: "[kraljevo.GetGrantTerritoryEventOption]"
  annexation_events.europe.give_to_owner_of_central_croatia: "[central_croatia.GetGrantTerritoryEventOption]"
  annexation_events.europe.give_to_owner_of_muntenia: "[muntenia.GetGrantTerritoryEventOption]"
  annexation_events.europe.give_to_owner_of_varna: "[varna.GetGrantTerritoryEventOption]"
@@ -280,7 +280,7 @@ annexation_events.2.a: "Hurra!"
  annexation_events.5.t_generic: "Ein Angebot von [From.GetNameDef]"
  annexation_events.5.desc_italy: "Eine Delegation von [From.GetNameDef] ist mit einem Angebot eingetroffen: Im Gegenzug für die Übernahme der Kontrolle über den größten Teil Italiens, die Länder, die jetzt im Besitz von [From.GetAdjective] sind, bitten sie um den Beitritt von [Root.GetNameDef] zur [From.GetFactionName]. Das ist ein verlockendes Angebot, auch wenn es bedeutet, dass wir alle unsere derzeitigen Bündnisse und Kriege aufgeben müssen."
  annexation_events.5.desc_papacy: "Eine Delegation von [From.GetNameDef] ist mit einem Angebot eingetroffen: Im Gegenzug dafür, dass wir die Kontrolle über einen Großteil Mittelitaliens übernehmen, die Länder, die jetzt im Besitz von [From.GetAdjective] sind, bitten sie [Root.GetNameDef], sich der [From.GetFactionName] anzuschließen. Das ist ein verlockendes Angebot, auch wenn es bedeutet, dass wir alle unsere derzeitigen Bündnisse und Kriege aufgeben müssen."
- annexation_events.5.desc_romania: "Die geopolitische Entwicklung der letzten Jahre hat, wie so oft, einige ungewöhnliche Situationen geschaffen. Für die Rumänen hat der Eintritt Siebenbürgens in die Sphäre von [FROM.GetFactionName] den größten Widerhall gefunden - nach der tragischen Niederlage im Ersten Weltkrieg hat die Zerschlagung des österreichischen Staates viele Hoffnungen geweckt, dass die Große Union doch noch erreicht werden könnte.\n\n[FROM.GetNameDef] scheint dies zu verstehen. Die Regierung hat heute eine Mitteilung erhalten, in der sie erklärt, dass sie sehr wohl bereit ist, uns Siebenbürgen zu übergeben - unter der Bedingung, dass wir uns umgehend ihrem Bündnis anschließen. Es erübrigt sich zu sagen, dass die Gelegenheit, das Ziel zu erreichen, das viele Rumänen in den letzten Jahrzehnten verfolgt haben, sehr verlockend ist - aber sie ist nicht ohne Risiko. Eine Verflechtung mit der [FROM.GetFactionName] würde uns natürlich in alle Konflikte verwickeln, in die sie eintreten könnten, unabhängig davon, ob sie im Interesse Rumäniens liegen. Ganz zu schweigen von den diplomatischen Risiken, die eine Neuausrichtung mit sich bringt und die Gefahr mit sich bringt, dass wir unsere Freunde verprellen. Die Frage lautet also: Wie viel sind wir bereit, für die Vereinigung aller Rumänen zu riskieren?"
+ annexation_events.5.desc_romania: "Die geopolitische Entwicklung der letzten Jahre hat, wie so oft, einige ungewöhnliche Situationen geschaffen. Für die Rumänen hat der Eintritt Siebenbürgens in die Sphäre von [FROM.GetFactionName] den größten Widerhall gefunden - nach der tragischen Niederlage im Ersten Weltkrieg hat die Zerschlagung des österreichischen Staates viele Hoffnungen geweckt, dass die Große Union doch noch erreicht werden könnte.\n\n[FROM.GetNameDef] scheint dies zu verstehen. Die Regierung hat heute eine Mitteilung erhalten, in der sie erklärt, dass sie sehr wohl bereit ist, uns Siebenbürgen zu übergeben - unter der Bedingung, dass wir uns umgehend ihrem Bündnis anschließen. Es erübrigt sich zu sagen, dass die Gelegenheit, das Ziel zu erreichen, das viele Rumänen in den letzten Jahrzehnten verfolgt haben, sehr verlockend ist - aber sie ist nicht ohne Risiko. Eine Verstrickung mit der [FROM.GetFactionName] würde uns offensichtlich in alle Konflikte hineinziehen, in die sie geraten könnte, unabhängig davon, ob dies mit den Interessen Rumäniens vereinbar ist. Die Frage lautet also: Wie viel sind wir bereit, für die Vereinigung aller Rumänen zu riskieren?"
  annexation_events.5.desc_serbia: "Die serbische Führung wurde von einem Vertreter von [FROM.GetNameDef] kontaktiert. Der neue Besitz der Regierung von [FROM.GetAdjective] von Gebieten auf dem Balkan sei eine Situation, die einer längerfristigen Lösung bedürfe, sagen sie, und sie hätten wenig von einer kostspieligen Besetzung zu gewinnen. Sie wissen um die seit langem gehegten serbischen Ambitionen, die Südslawen zu einem einheitlichen Staatswesen zu vereinen, und um das anhaltende Scheitern dieser Bestrebungen, auch wenn die Idee Jugoslawiens zweifellos immer noch eine große Anziehungskraft ausübt.\n\nDas vorgelegte Angebot ist einfach. Die Gebiete, aus denen der vorgeschlagene Staat Jugoslawien besteht, im Austausch für die volle serbische Beteiligung an der [FROM.GetFactionName].\n\nDie meisten in der Regierung halten diesen Vorschlag für zu schön, um wahr zu sein, auch wenn die üblichen Gegenstimmen bereits flüstern, dass sie in weiteres unerwünschtes Blutvergießen hineingezogen werden. Das würde natürlich bedeuten, dass man sich von allen derzeitigen Verbündeten trennen müsste, was von denselben Stimmen als hochmütig bezeichnet wird, aber das wäre es mit Sicherheit wert."
  annexation_events.5.desc_generic: "Eine Delegation von [From.GetNameDef] ist mit einem Angebot eingetroffen: Im Gegenzug für die Übernahme der Kontrolle über einige unserer beanspruchten Ländereien, die jetzt im Besitz von [From.GetAdjective] sind, bitten sie [Root.GetNameDef], sich der [From.GetFactionName] anzuschließen. Es ist ein verlockendes Angebot, auch wenn es bedeutet, dass wir alle unsere derzeitigen Bündnisse und Kriege aufgeben müssen."
  annexation_events.5.a_romania: "Für die Erlösung ist kein Preis zu hoch."
@@ -298,7 +298,7 @@ annexation_events.2.a: "Hurra!"
 
  annexation_events.7.t_generic: "[From.GetNameDefCap] hat abgelehnt"
  annexation_events.7.desc_romania: "Es scheint, dass wir [FROM.GetName] nicht so gut verstehen, wie wir dachten - sie haben soeben eine Nachricht geschickt, die unseren Vorschlag, Siebenbürgen zu versetzen, höflich, aber barsch ablehnt. Das Auswärtige Amt scheint von dieser Nachricht ziemlich verblüfft zu sein."
- annexation_events.7.desc_serbia: "Mit der Begründung, dass ihre derzeitige Regierung nicht in der Lage sei, die Gebietsabtretung zu bewältigen, und mit dem Hinweis, dass sie nicht in weitere Konflikte hineingezogen werden wollen, haben die Serben das diplomatische Korps mit ihrer Ablehnung des großzügigen Angebots schockiert. Es sieht so aus, als ob wir nun lokale Regierungen unter Aufsicht einsetzen müssen, um die Region zu verwalten."
+ annexation_events.7.desc_serbia: "Unter Berufung auf die Unsicherheit darüber, ob ihre Regierung in der Lage ist, die Gebietsübertragung zu bewältigen, und mit einer unausgesprochenen Andeutung ihrer Zurückhaltung, in weitere Konflikte hineingezogen zu werden, haben die Serben das diplomatische Corps mit ihrer Ablehnung des großzügigen Angebots schockiert. Es sieht so aus, als ob wir nun lokale Regierungen unter Aufsicht einsetzen müssen, um die Region zu verwalten."
  annexation_events.7.desc_generic: "Die [From.GetAdjective]-Regierung will ihre Ländereien offenbar nicht unbedingt zurückhaben, oder sie traut unserem Angebot nicht. Auf jeden Fall haben sie sich geweigert, unserem Bündnis beizutreten."
  annexation_events.7.a_generic: "Ihr Verlust, wie es scheint."
 
@@ -319,7 +319,7 @@ annexation_events.185.d: "Jorge Maria O'Neill hat zugestimmt, als Hochkönig von
 annexation_events.185.a: "O'Neill Abú!"
 
  annexation_events.200.t: "Wem soll man Italien geben?"
- annexation_events.200.desc: "Obwohl wir über das norditalienische sozialistische Regime triumphiert haben, ist es allen in [ROOT.Capital.GetName] klar, dass wir kein Interesse daran haben und auch nicht in der Lage sind, die italienischen Ländereien, die unser Land besetzt hält, weiterhin zu besetzen. Es ist in der Tat klar, dass wir diese Gebiete an einen bestehenden italienischen Staat zurückgeben müssen. Es gibt keine Garantie, dass derjenige, dem wir diese Ländereien übergeben, jemals in der Lage sein wird, den Gefallen zu erwidern, aber die Regierung, der wir die Autorität übertragen, wird ein großes Maß an Legitimität auf dem Silbertablett serviert bekommen und kann dann schnell Italien vereinigen. [ROOT.GetLeader] sollte daher mit Bedacht vorgehen und die endgültige Entscheidung im Wissen um die möglichen Folgen eines Friedens treffen, den man leicht als einen Frieden abtun könnte, der weit weniger wichtig ist als der Krieg, der zu ihm geführt hat."
+ annexation_events.200.desc: "Obwohl wir über das norditalienische sozialistische Regime triumphiert haben, ist es allen in [ROOT.Capital.GetName] klar, dass wir kein Interesse daran haben und auch nicht in der Lage sind, die italienischen Ländereien, die unser Land besetzt hält, weiterhin zu besetzen. Es ist in der Tat klar, dass wir diese Gebiete an einen bestehenden italienischen Staat zurückgeben müssen. Es gibt keine Garantie, dass derjenige, dem wir diese Ländereien übergeben, jemals in der Lage sein wird, den Gefallen zu erwidern, aber die Regierung, der wir die Autorität übertragen, wird ein großes Maß an Legitimität auf dem Silbertablett serviert bekommen und kann dann schnell Italien vereinigen. [ROOT.GetLeader] sollte daher kritisch sein. Es wäre leicht, diesen Frieden als weit weniger wichtig abzutun als den Krieg, der dazu geführt hat, aber die endgültige Entscheidung muss in voller Kenntnis der Konsequenzen getroffen werden."
  annexation_events.200.a: "[?valid_italian_targets_grant^0.GetNonIdeologyNameDefCap]"
  annexation_events.200.b: "[?valid_italian_targets_grant^1.GetNonIdeologyNameDefCap]"
  annexation_events.200.c: "[?valid_italian_targets_grant^2.GetNonIdeologyNameDefCap]"
@@ -331,7 +331,7 @@ annexation_events.185.a: "O'Neill Abú!"
  annexation_events.200.i: "[?valid_italian_targets_grant^8.GetNonIdeologyNameDefCap]"
 
  annexation_events.201.t: "Wem soll Italien angeboten werden?"
- annexation_events.201.desc: "Obwohl wir über das norditalienische sozialistische Regime triumphiert haben, ist es allen in [ROOT.Capital.GetName] klar, dass wir kein Interesse daran haben und auch nicht in der Lage sind, die italienischen Ländereien, die unser Land besetzt hält, weiterhin zu besetzen. Es ist in der Tat klar, dass wir diese Gebiete an einen bestehenden italienischen Staat zurückgeben müssen. Es gibt keine Garantie, dass derjenige, dem wir diese Ländereien übergeben, jemals in der Lage sein wird, den Gefallen zu erwidern, aber die Regierung, der wir die Autorität übertragen, wird ein großes Maß an Legitimität auf dem Silbertablett serviert bekommen und kann dann schnell Italien vereinigen. [ROOT.GetLeader] sollte daher mit Bedacht vorgehen und die endgültige Entscheidung im Wissen um die möglichen Folgen eines Friedens treffen, den man leicht als einen Frieden abtun könnte, der weit weniger wichtig ist als der Krieg, der zu ihm geführt hat."
+ annexation_events.201.desc: "Obwohl wir über das norditalienische sozialistische Regime triumphiert haben, ist es allen in [ROOT.Capital.GetName] klar, dass wir kein Interesse daran haben und auch nicht in der Lage sind, die italienischen Ländereien, die unser Land besetzt hält, weiterhin zu besetzen. Es ist in der Tat klar, dass wir diese Gebiete an einen bestehenden italienischen Staat zurückgeben müssen. Es gibt keine Garantie, dass derjenige, dem wir diese Ländereien übergeben, jemals in der Lage sein wird, den Gefallen zu erwidern, aber die Regierung, der wir die Autorität übertragen, wird ein großes Maß an Legitimität auf dem Silbertablett serviert bekommen und kann dann schnell Italien vereinigen. [ROOT.GetLeader] sollte daher kritisch sein. Es wäre leicht, diesen Frieden als weit weniger wichtig abzutun als den Krieg, der dazu geführt hat, aber die endgültige Entscheidung muss in voller Kenntnis der Konsequenzen getroffen werden."
  annexation_events.201.a: "[?valid_italian_targets_offer^0.GetNonIdeologyNameDefCap]"
  annexation_events.201.b: "[?valid_italian_targets_offer^1.GetNonIdeologyNameDefCap]"
  annexation_events.201.c: "[?valid_italian_targets_offer^2.GetNonIdeologyNameDefCap]"
@@ -372,7 +372,7 @@ annexation_events.185.a: "O'Neill Abú!"
  annexation_8_desc: "Die Luxemburger Frage hat die Großmächte jahrhundertelang beunruhigt. Nach dem Weltkrieg und fünfundzwanzig Jahren deutscher Herrschaft streben nur wenige Luxemburger nach Unabhängigkeit, und im Zeitalter des Syndikalismus, der nahen Luftunterstützung und der kryptologischen Entschlüsselung stößt jede Erwähnung des Salischen Gesetzes nicht so sehr auf Verachtung als vielmehr auf Verblüffung. Das Großherzogtum Luxemburg wird nicht auf die europäische Landkarte zurückkehren. Es besteht aber auch keine Notwendigkeit, es an Deutschland zurückzugeben. Luxemburg gehörte vor etwas mehr als einem Jahrhundert klaglos zu Frankreich und dann zu Belgien, und sollte eine Entscheidung unserer Außenpolitik dienlich sein, so besteht kaum ein Zweifel daran, dass Luxemburg auch dieses Mal keine Schwierigkeiten bereiten würde."
 
  annexation_781: "Das Schicksal des Rheinlandes"
- annexation_781_desc: "Das schlagende Herz der deutschen Industrie, die Grundlage der preußischen Vorherrschaft in Deutschland und die brutale Bühne des Zweiten Weltkriegs - das Rheinland ist in mancher Hinsicht der Ort, der am meisten für die Schrecken des 20. Jahrhunderts verantwortlich ist. Daher haben einige Berater in unserer Regierung empfohlen, das Rheinland von Deutschland abzutrennen und sogar massive Reparationszahlungen zur Entmachtung der Region aufzuerlegen. Auf der anderen Seite ist es unwahrscheinlich, dass Deutschland uns in nächster Zeit wieder bedrohen könnte, da der Krieg gerade erst zu Ende gegangen ist, und Deutschland könnte mit den Gießereien des Ruhrgebiets ein weitaus fähigerer Verbündeter und Wirtschaftspartner sein als ohne sie. Wie auch immer wir uns entscheiden, es wäre klug, dies schnell zu tun, denn je länger wir das Rheinland besetzen, desto mehr von unseren Ressourcen wird es absorbieren, anstatt sie zu produzieren."
+ annexation_781_desc: "Das schlagende Herz der deutschen Industrie, die Grundlage der preußischen Vorherrschaft in Deutschland und die brutale Bühne des Zweiten Weltkriegs - das Rheinland ist in mancher Hinsicht der Ort, der am meisten für die Schrecken des 20. Jahrhunderts verantwortlich ist. Infolgedessen haben einige Berater unserer Regierung empfohlen, das Rheinland von Deutschland abzutrennen und sogar massive Reparationen zu verhängen, um die Region zu schwächen. Auf der anderen Seite ist es unwahrscheinlich, dass Deutschland uns in nächster Zeit wieder bedrohen könnte, da der Krieg gerade erst zu Ende gegangen ist, und Deutschland könnte mit den Gießereien des Ruhrgebiets ein weitaus fähigerer Verbündeter und Wirtschaftspartner sein als ohne sie. Wie auch immer wir uns entscheiden, es wäre klug, dies schnell zu tun, denn je länger wir das Rheinland besetzen, desto mehr von unseren Ressourcen wird es absorbieren, anstatt sie zu produzieren."
  annexation_events.1003.a: "Einen Rheinischen Staat freigeben."
  annexation_events.1003.b: "Einen Rheinischen Staat freilassen und harte Reparationen erzwingen."
  annexation_events.1003.c: "[hesse.GetGrantTerritoryEventOption]"
@@ -481,7 +481,7 @@ annexation_43_desc: "Die ungarische Nation wurde vollständig besiegt. Unsere St
  annexation_events.1024.b: "Wiederherstellung der Habsburger Herrschaft über Ungarn."
 
 annexation_70: "Das Schicksal der Slowakei"
-annexation_70_desc: "Nach einem kurzen Feldzug über die Berge der Slowakei ist es uns gelungen, die Verteidigung des Landes zu zerschlagen. Die Slowakei ist jetzt in unseren Händen! Wir müssen jetzt über seine Zukunft entscheiden."
+annexation_70_desc: "Nach einem kurzen Feldzug durch die Berge der Slowakei ist es uns gelungen, die Verteidigungsanlagen des Landes zu zerstören. Die Slowakei ist nun in unserer Hand! Wir müssen nun über ihre Zukunft entscheiden."
 annexation_events.1025.a: "Slowakei freilassen!"
 
 annexation_73: "Das Schicksal von [73.GetName]"
@@ -489,7 +489,7 @@ annexation_73_desc: "Der kleine Staat [73.GetName] ist jetzt unter unserer Kontr
 annexation_events.1026.a: "[miskolc.GetGrantTerritoryEventOption]"
 
 annexation_84: "Das Schicksal Siebenbürgens"
-annexation_84_desc: "Nach einem langen Feldzug quer durch Siebenbürgen ist es uns gelungen, die Kontrolle über das Gebiet zu übernehmen. Die Region ist jetzt in unserer Hand! Wir müssen jetzt über seine Zukunft entscheiden."
+annexation_84_desc: "Nach einem langen Feldzug durch Siebenbürgen ist es uns gelungen, die Kontrolle über das Gebiet zu übernehmen. Die Region ist nun in unseren Händen! Jetzt müssen wir über ihre Zukunft entscheiden."
 annexation_events.1027.a: "Transylvanien unter einer freundlichen Regierung freigeben!"
 annexation_events.1027.b: "Teilen Sie es zwischen[muntenia.GetNonIdeologyNameDef] und [central_hungary.GetNonIdeologyNameDef]."
  annexation_events.1027.c: "Biete es [can_offer_transylvania_to_romania.GetNonIdeologyNameDef] im Austausch für eine Allianz an."
@@ -578,7 +578,7 @@ annexation_113: "Das Schicksal von Irland"
 annexation_113_desc: "[annexation_ireland_description]"
 annexation_ireland_desc_other: "Wir haben die Insel Irland gesichert. Das Schicksal der irischen Nation liegt jetzt in unseren Händen."
 annexation_ireland_desc_GBR: "Die Kontrolle über Irland war für die britische Regierung schon immer heikel. Zwischen unseren Völkern haben sich über viele Jahre hinweg Ressentiments aufgebaut, und wir haben vor langer Zeit gelernt, dass der Versuch, die Iren zu regieren, uns wenig Freude bereitet. Dennoch, die Zeiten haben sich geändert. Regieren wir Irland direkt oder kehren wir zu der Idee der "Home Rule"(Selbst-Regierung) zurück, der wir nach dem letzten Unabhängigkeitskrieg zugestimmt hatten?"
-annexation_ireland_desc_ENG: "Unsere Männer marschieren durch Dublin, und die Irisch-Republikanische Armee hat sich im Angesicht unserer Streitkräfte zerschlagen. In der Zwischenzeit müssen wir über die Zukunft von Irland entscheiden. Einige argumentieren, dass Irland in die Union Großbritanniens annektiert werden sollte, während andere argumentieren, dass dies ein Akt des unsozialistischen Imperialismus wäre und dass dies vom irischen Volk nicht unterstützt werden würde und uns in einen blutigen Guerillakrieg bringen würde."
+annexation_ireland_desc_ENG: "Unsere Männer marschieren durch Dublin, und die Irisch-Republikanische Armee hat sich im Angesicht unserer Streitkräfte zerschlagen. In der Zwischenzeit müssen wir über die Zukunft von Irland entscheiden. Einige argumentieren, dass Irland der Union Britanniens angegliedert werden sollte, während andere behaupten, dass dies ein Akt des Imperialismus wäre, der einer sozialistischen Nation nicht würdig ist, und dass dies vom irischen Volk nicht unterstützt würde, was uns in einen blutigen Guerillakrieg führen würde."
 annexation_events.1047.a: "Gewährt ihnen begrenzte Selbstverwaltung."
  annexation_events.1047.b: "Ermöglichung der Reformierung einer unabhängigen, angeglichenen Republik."
  annexation_events.1047.c: "Irland wird eine begrenzte Selbstverwaltung gewährt."
@@ -620,7 +620,7 @@ annexation_101: "Das Schicksal von Grönland"
 annexation_101_desc: "Ein Feldzug im Nordatlantik hat sich ausgezahlt. Grönland ist in unsere Hände gefallen, und nun stellt sich die Frage, was wir mit dieser unfruchtbaren Insel im nördlichen Atlantik tun sollen."
 
 annexation_110: "Das Schicksal von Norwegen"
-annexation_110_desc: "Die norwegische Armee hat kapituliert, und wir haben die norwegische Regierung vollständig kapituliert. Unsere Flagge weht über dem ehemaligen Kapitolgebäude in Oslo, als unsere militärische Kampagne zu Ende geht. Jetzt müssen wir eine Kampagne beginnen, um die norwegischen Partisanen zu zerstören, aber vielleicht würde uns die Anwerbung norwegischer Sympathisanten zur Regierungsbildung helfen?"
+annexation_110_desc: "Die norwegische Armee hat kapituliert, und die norwegische Regierung hat sich vollständig ergeben. Unsere Flagge weht über dem ehemaligen Kapitol in Oslo, während unsere Militäraktion zu Ende geht. Jetzt müssen wir eine Kampagne beginnen, um die norwegischen Partisanen zu zerstören, aber vielleicht würde uns die Anwerbung norwegischer Sympathisanten zur Regierungsbildung helfen?"
 annexation_events.1055.a: "Stellen Sie die norwegische Monarchie wieder her."
  annexation_events.1055.b: "Errichtung einer Norwegischen Republik."
  annexation_events.1055.c: "Wiederherstellung der Union zwischen Schweden und Norwegen."
@@ -753,7 +753,7 @@ annexation_989_desc: "Nach der Besetzung des Gebietes um Südmakedonien standen 
  annexation_events.1082.b: "[epirus.GetGrantTerritoryEventOption]"
 
 annexation_183: "Das Schicksal von Zypern"
-annexation_183_desc: "Unsere Armeen haben es geschafft, die Kontrolle über Zypern zu übernehmen, und die Insel selbst ist nun von uns besetzt. Wir haben jetzt ein paar Optionen vor uns. Wir können die Insel entweder marionettieren oder sie für uns selbst einnehmen, da sie eine Schlüsselposition im Mittelmeer besitzt und entscheidend ist, um die Kontrolle über dieses Gebiet zu behalten. Was sollen wir tun?"
+annexation_183_desc: "Unsere Armeen haben es geschafft, die Kontrolle über Zypern zu übernehmen, und die Insel selbst ist nun von uns besetzt. Angesichts ihrer Schlüsselposition im Mittelmeerraum, die für die Aufrechterhaltung unserer Kontrolle über die Region von entscheidender Bedeutung ist, können wir die Insel entweder zu unserem Vasallenstaat machen oder sie für uns selbst erobern. Was sollen wir tun?"
 annexation_events.1083.a: "Zypern befreien."
 
  annexation_41: "Das Schicksal von Spanien"
@@ -766,7 +766,7 @@ annexation_events.1083.a: "Zypern befreien."
  annexation_events.1084.d: "Besetzen Sie das spanische Kernland - wir werden selbst entscheiden, was wir mit dem Rest Spaniens machen."
 
 annexation_171: "Das Schicksal von Galizien"
-annexation_171_desc: "Die galicische Sprache zeigte ab dem 12. Jahrhundert deutliche Anzeichen einer Entwicklung aus dem Lateinischen. Einige Jahrhunderte lang stand sie dem Portugiesischen nahe, bevor sich die beiden Sprachen ab dem 15. Zwischen dem 16. und 19. Jahrhundert herrschte ein dunkles Zeitalter für die galicische Sprache und Kultur; das Galicische wurde in der Schrift durch das Spanische ersetzt und hauptsächlich mündlich verwendet. Im 19. Jahrhundert setzte jedoch ein Wiederaufleben ein, um der Kultur und der Sprache einen offiziellen Status zu verleihen, was zu Forderungen nach Autonomie führte, um der zunehmenden Zentralisierung entgegenzuwirken. In den 1910er und 1920er Jahren entwickelte sich eine nationalistische Bewegung, die jedoch letztlich unbedeutend war. Eine autonome Bewegung gewann in dieser Zeit jedoch an Boden, auch wenn sie unter der Herrschaft von Primo de Rivera nichts erreichen konnte.\n\nNach der Besetzung Galiciens haben wir mehrere Möglichkeiten, was mit dem Gebiet geschehen soll."
+annexation_171_desc: "Die galicische Sprache zeigte ab dem 12. Jahrhundert deutliche Anzeichen einer Entwicklung aus dem Lateinischen. Einige Jahrhunderte lang stand sie dem Portugiesischen nahe, bevor sich die beiden Sprachen ab dem 15. Zwischen dem 16. und 19. Jahrhundert herrschte ein dunkles Zeitalter für die galicische Sprache und Kultur; das Galicische wurde in der Schrift durch das Spanische ersetzt und hauptsächlich mündlich verwendet. Im 19. Jahrhundert setzte jedoch ein Wiederaufleben ein, um der Kultur und der Sprache einen offiziellen Status zu verleihen, was zu Forderungen nach Autonomie führte, um der zunehmenden Zentralisierung entgegenzuwirken. In den 1910er und 1920er Jahren entwickelte sich eine nationalistische Bewegung, die jedoch letztlich unbedeutend war. In den letzten Jahren gewann eine autonomistische Bewegung während dieser Zeit an Einfluss, konnte jedoch unter der Herrschaft von Primo de Rivera nichts erreichen..\n\nNach der Besetzung Galiciens haben wir mehrere Möglichkeiten, was mit dem Gebiet geschehen soll."
  annexation_events.1085.a: "Galicien freigeben."
  annexation_events.1085.b: "[spain_leon.GetGrantTerritoryEventOption]"
  annexation_events.1085.c: "[spain_asturias.GetGrantTerritoryEventOption]"
@@ -787,7 +787,7 @@ annexation_165_desc: "Katalanisch, eine romanische Sprache, die sich erstmals in
  annexation_catalonia_description_greater: "Da wir katalanische Gebiete außerhalb Kataloniens besetzen, sind unsere Möglichkeiten, was mit der Region geschehen soll, vielfältiger: Einige schlagen die Schaffung eines Großkataloniens vor, das alle katalanischsprachigen Länder umfasst."
  annexation_catalonia_description_proper: "Da wir nur Katalonien selbst besetzen, sind unsere Möglichkeiten, mit der Region umzugehen, eher begrenzt"
  annexation_events.1088.a: "[annexation_catalonia_option] freigeben."
- annexation_catalonia_option_greater: "ein Groß-Katalonien"
+ annexation_catalonia_option_greater: "Groß-Katalonien"
  annexation_catalonia_option_proper: "Proper Katalonien"
  annexation_events.1088.b: "Aufteilung der Region zwischen [CAT.GetNameDef] und [spain.GetNameDef]."
 
@@ -889,7 +889,7 @@ annexation_71_desc: "Ehemals Teil des Königreichs Ungarn, ist die Donautiefeben
   annexation_events.1111.a: "[danubian_plain.GetGrantTerritoryEventOption]"
 
  annexation_817: "Das Schicksal von [817.GetName]"
- annexation_817_desc: "Die Region [817.GetName] ist von unseren Streitkräften besetzt worden. Einst unter der Krone von Aragonien, kam die Region 1516 mit der Vereinigung der Kronen von Aragonien und Kastilien formell zu Spanien. Nach dem Pyrenäenvertrag von 1659, der den französisch-spanischen Krieg beendete, wurde sie jedoch an die französische Krone abgetreten und stand seitdem unter französischer Souveränität.\n\n Die Region hat seit langem eine bedeutende katalanischsprachige Bevölkerung in ihren Grenzen. Seit Beginn des 18. Jahrhunderts wurden die Katalanen und ihre Sprache weitgehend unterdrückt, wobei einige nationalistische Stimmen eine katalanische Vertretung in der Region forderten. Es gibt also mehrere Möglichkeiten, was mit diesem umstrittenen Gebiet geschehen soll."
+ annexation_817_desc: "Die Region [817.GetName] ist von unseren Streitkräften besetzt worden. Einst unter der Krone von Aragonien, kam die Region 1516 mit der Vereinigung der Kronen von Aragonien und Kastilien formell zu Spanien. Nach dem Pyrenäenvertrag von 1659, der den Französisch-Spanischen Krieg beendete, wurde es jedoch an die französische Krone abgetreten und stand seitdem unter französischer Herrschaft.\n\n Die Region hat seit langem eine bedeutende katalanischsprachige Bevölkerung in ihren Grenzen. Seit Beginn des 18. Jahrhunderts wurden die Katalanen und ihre Sprache weitgehend unterdrückt, wobei einige nationalistische Stimmen eine katalanische Vertretung in der Region forderten. Damit bleiben uns mehrere Optionen, wie wir mit diesem umstrittenen Gebiet verfahren können."
  annexation_events.1112.a: "[languedoc.GetGrantTerritoryEventOption]"
  annexation_events.1112.b: "[catalonia.GetGrantTerritoryEventOption]"
  
@@ -898,7 +898,7 @@ annexation_71_desc: "Ehemals Teil des Königreichs Ungarn, ist die Donautiefeben
  annexation_events.1113.a: "[lublin.GetGrantTerritoryEventOption]"
 
  annexation_779: "Das Schicksal von [779.GetName]"
- annexation_779_desc: "Die Region [779.GetName], in der eine baskische Gemeinschaft lebt, ist unter unsere Kontrolle geraten. Das baskische Volk, das mindestens seit dem 15. Jahrhundert vollständig zu Frankreich gehört, genoss bis zur Abschaffung durch die Französische Revolution im späten 18. Jahrhundert eine erhebliche Autonomie. Seitdem ist die Anerkennung der Basken in der Region begrenzt, zumal sie eine Minderheit in der Region sind. Im spanischen Baskenland sind einige nationalistische Bewegungen entstanden, die darauf hoffen, dass die Region Teil eines unabhängigen Baskenlandes wird. Dies bietet uns viele Möglichkeiten, wie wir die Sache angehen können."
+ annexation_779_desc: "Die Region [779.GetName], in der eine baskische Gemeinschaft lebt, ist unter unsere Kontrolle geraten. Das baskische Volk, das mindestens seit dem 15. Jahrhundert vollständig zu Frankreich gehört, genoss bis zur Abschaffung durch die Französische Revolution im späten 18. Jahrhundert eine erhebliche Autonomie. Seitdem ist die Anerkennung der Basken in der Region begrenzt, insbesondere da sie dort eine Minderheit darstellen. Im spanischen Baskenland sind einige nationalistische Bewegungen entstanden, die darauf hoffen, dass die Region Teil eines unabhängigen Baskenlandes wird. Dies bietet uns viele Möglichkeiten, wie wir die Sache angehen können."
  annexation_events.1114.a: "[aquitaine.GetGrantTerritoryEventOption]"
  annexation_events.1114.b: "[navarre.GetGrantTerritoryEventOption]"
  annexation_events.1114.c: "[basque_country.GetGrantTerritoryEventOption]"
@@ -1027,15 +1027,15 @@ annexation_932_desc: "Die Region Neuengland ist jetzt unter unserer Kontrolle, w
 annexation_events.2002.a: "Befreien Sie die Republik Neuengland."
 
 annexation_739: "Das Schicksal von Kanada"
-annexation_739_desc: "Endlich hat das korrupte Dominion of Canada, die Heimat der britischen Exilanten, vor unseren glorreichen Armeen kapituliert. Berichte sagen, dass der König und sein enger Kreis aus dem Land geflohen sind, aber das spielt keine Rolle, wir haben jetzt die Kontrolle über diese großen Teile des Landes, was sollen wir mit ihnen machen?"
-annexation_events.2003.a: "Befreien Sie ein loyales Kanada!"
-annexation_events.2003.b: "Befreit Kanada und Quebec!"
+annexation_739_desc: "Endlich hat sich das korrupte Dominion von Kanada – Sitz der britischen Exilanten – unseren glorreichen Armeen ergeben. Berichten zufolge sind der König und sein engster Kreis aus dem Land geflohen, aber das ist jetzt kaum noch von Belang. Wir haben nun die Kontrolle über diese großen Landstriche – was sollen wir damit tun?"
+annexation_events.2003.a: "Freigabe eines loyales Kanada!"
+annexation_events.2003.b: "Kanada und Quebec freigeben!"
 annexation_events.2003.d: "Es ist unser offenkundiges Schicksal, Kanada zu annektieren!"
 annexation_events.2003.e: "Unser offenkundiges Schicksal betrifft keine Franzosen, befreit Québec und annektiert Kanada."
  annexation_events.2003.g: "Kanada freigeben und Neufundland integrieren!"
 
 annexation_277: "Das Schicksal von Mexiko"
-annexation_277_desc: "Nach einem langen Feldzug durch Mexiko haben wir es endlich geschafft, die mexikanischen Verteidigungsanlagen zu zerschlagen. Mexiko-Stadt ist nun in unserer Hand! Wir müssen nun über die Zukunft von Mexiko entscheiden."
+annexation_277_desc: "Nach einem langen Feldzug durch Mexiko ist es uns endlich gelungen, ihre Verteidigungslinien zu durchbrechen. Mexiko-Stadt ist nun in unserer Hand! Wir müssen nun über die Zukunft ihres Landes entscheiden."
 annexation_events.2004.a: "Befreien Sie Mexiko unter einer freundlichen Regierung."
 
 annexation_313: "Das Schicksal von Guatemala"
@@ -1051,11 +1051,11 @@ annexation_312_desc: "Unsere Armeen haben die honduranische Regierung gestürzt 
 annexation_events.2008.a: "Wiederherstellung eines loyalen honduranischen Staates."
 
 annexation_317: "Das Schicksal von Nicaragua"
-annexation_317_desc: "Mit Managua in unseren Händen kontrollieren wir nun Nicaragua und können entscheiden, was wir mit diesem Land machen."
+annexation_317_desc: "Mit Managua in unseren Händen kontrollieren wir nun Nicaragua und können entscheiden, was mit diesen Gebieten geschehen soll."
 annexation_events.2009.a: "Wiederherstellung eines loyalen nicaraguanischen Staates."
 
 annexation_316: "Das Schicksal von Costa Rica"
-annexation_316_desc: "Unser glorreiches Armeekorps ist durch das Land marschiert und besetzt nun die Hauptstadt der ehemaligen costaricanischen Regierung. Wir können aber nicht zulassen, dass diese Situation so lange anhält, was sollen wir mit dem Land machen?"
+annexation_316_desc: "Unser glorreiches Armeekorps ist durch das Land marschiert und besetzt nun die Hauptstadt der ehemaligen costaricanischen Regierung. Wir können diese Situation jedoch nicht lange aufrechterhalten; was sollen wir mit dem Land machen?"
 annexation_events.2010.a: "Wiederherstellung eines loyalen costaricanischen Staates."
 
 annexation_304: "Das Schicksal von Panamá"
@@ -1080,7 +1080,7 @@ annexation_events.2014.a: "Befreien Sie die Dominikanische Republik unter einer 
 annexation_events.2014.b: "Die Dominikanische Republik freigeben, aber Samana als Stützpunkt beibehalten."
 
 annexation_686: "Das Schicksal von Puerto Rico"
-annexation_686_desc: "Nach einer kurzen Kampagne ist San Juan unter unserer Kontrolle und damit ganz Puerto Rico. Was soll mit der Insel gemacht werden?"
+annexation_686_desc: "Nach einer kurzen Kampagne steht San Juan unter unserer Kontrolle, und damit ganz Puerto Rico. Was soll mit der Insel geschehen?"
 annexation_events.2015.a: "Freigabe eines unabhängigen Puerto Rico."
  annexation_events.2015.b: "[america_usa.GetGrantTerritoryEventOption]"
  annexation_events.2015.c: "[america_wca.GetGrantTerritoryEventOption]"
@@ -1089,7 +1089,7 @@ annexation_events.2015.a: "Freigabe eines unabhängigen Puerto Rico."
  annexation_events.2015.f: "[america_apg.GetGrantTerritoryEventOption]"
 
  annexation_692: "Das Schicksal der Britischen Karibik"
- annexation_692_desc: "Nach einem langen Feldzug sind die Inseln der Britischen Karibik nun unter unserer Kontrolle. Wir müssen entscheiden, was mit den vielen verstreuten Inseln geschehen soll."
+ annexation_692_desc: "Nach einer langen Kampagne stehen die Inseln der britischen Karibik nun unter unserer Kontrolle."
  annexation_events.2016.a: "Eine Föderation der Westindischen Inseln freigeben."
 
 annexation_689: "Das Schicksal von Jamaika"
@@ -1100,7 +1100,7 @@ annexation_events.2017.a: "Ein unabhängiges Jamaika freigeben."
  annexation_695_desc: "Die Insel von [695.GetName] wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen wollen."
 
 annexation_691: "Das Schicksal von Trinidad"
-annexation_691_desc: "Nach einer kurzen Kampagne ist Port of Spain und damit ganz Trinidad unter unsere Kontrolle geraten. Was soll mit der Insel geschehen?"
+annexation_691_desc: "Nach einer kurzen Kampagne steht Port of Spain unter unserer Kontrolle, und damit ganz Trinidad. Was soll mit der Insel geschehen?"
 annexation_events.2019.a: "Freigabe eines unabhängigen Trinidad."
 
 annexation_302: "Das Schicksal von Bolivien"
@@ -1131,11 +1131,11 @@ annexation_849_desc: "Nach einem Feldzug quer durch Venezuela haben wir es endli
 annexation_events.2026.a: "Venezuela freigeben."
 
 annexation_687: "Das Schicksal von Guyana"
-annexation_687_desc: "Nach einer kurzen Kampagne ist Georgetown unter unserer Kontrolle und damit ganz Guyana. Was soll mit diesem Gebiet geschehen?"
+annexation_687_desc: "Nach einer kurzen Kampagne steht Georgetown unter unserer Kontrolle, und damit ganz Guyana. Was soll mit diesem Gebiet geschehen?"
 annexation_events.2027.a: "Guyana freigeben."
 
 annexation_309: "Das Schicksal von Niederländisch-Guayana"
-annexation_309_desc: "Nach einem kurzen Feldzug sind die wichtigsten besiedelten Gebiete in Niederländisch-Guyana oder Surinam, wie es auch genannt wird, in unsere Hände gefallen. Das hat jedoch eine Frage aufgeworfen: Sollten wir in diesen unerschlossenen Gebieten eine neue Nation gründen oder ist es die Kolonie in den Amerikas, die wir immer wollten?"
+annexation_309_desc: "Nach einem kurzen Feldzug sind die wichtigsten besiedelten Gebiete in Niederländisch-Guyana oder Surinam, wie es auch genannt wird, in unsere Hände gefallen. Dies hat jedoch eine Frage aufgeworfen: Sollten wir in diesen unerschlossenen Gebieten eine neue Nation gründen, oder ist es die Kolonie in Amerika, die wir schon immer wollten?"
 annexation_events.2028.a: "Suriname freigeben"
 
 annexation_898: "Das Schicksal des Amazonasbeckens"
@@ -1145,7 +1145,7 @@ annexation_505: "Das Schicksal des brasilianischen Hinterlandes"
 annexation_505_desc: "Die weiten Gebiete des brasilianischen Landesinneren sind unter unserer Kontrolle, da die verstreuten Bevölkerungszentren dieser Staaten unseren eindringenden Kräften wenig entgegensetzen konnten. Wir müssen nun entscheiden, was die Zukunft dieser Region sein wird."
 
 annexation_498: "Das Schicksal des Nordostens von Brasilien"
-annexation_498_desc: "Der Geburtsort Brasiliens im Nordosten ist zum ersten Mal seit dem 17. Jahrhundert wieder den Invasionskräften zum Opfer gefallen. Unsere Streitkräfte besetzen jetzt die fast ein Dutzend Landeshauptstädte; Wir müssen entscheiden, wie die Zukunft dieser Region aussehen wird."
+annexation_498_desc: "Der Geburtsort Brasiliens im Nordosten ist zum ersten Mal seit dem 17. Jahrhundert wieder den Invasionskräften zum Opfer gefallen. Unsere Streitkräfte besetzen nun etwa ein Dutzend Landeshauptstädte; wir müssen entscheiden, wie die Zukunft dieser Region aussehen soll."
 
 annexation_499: "Das Schicksal von Bahia"
 annexation_499_desc: "Während die Kämpfe abklingen und nur noch verstreuter Widerstand im trockenen Landesinneren übrig bleibt, haben unsere Kräfte die volle Kontrolle über den Bundesstaat Bahia erlangt. Wir müssen nun entscheiden, was die Zukunft dieses Staates sein wird."
@@ -1270,10 +1270,10 @@ annexation_events.3007.a: "Gründung einer Afghanischen Republik."
  annexation_events.3007.b: "Das Königreich Afghanistan wiederherstellen."
 
 annexation_570: "Das Schicksal von Sibirien"
-annexation_570_desc: "Mit [570.GetCapitalVictoryPointName] in unseren Händen kontrollieren wir nun Sibirien und können entscheiden, was wir mit diesen Gebieten machen."
+annexation_570_desc: "Mit [570.GetCapitalVictoryPointName] in unseren Händen kontrollieren wir nun Sibirien und können entscheiden, was mit diesen Gebieten geschehen soll."
 
 annexation_408: "Das Schicksal des russischen Fernen Ostens"
-annexation_408_desc: "Unsere Armeen haben es geschafft, die Kontrolle über den russischen Fernen Osten zu übernehmen, und er ist nun von uns besetzt. Wir haben jetzt ein paar Optionen. Wir können das Land entweder marionettieren oder es für uns einnehmen, da es eine strategische Schlüsselposition in Ostasien besitzt. Was sollen wir tun?"
+annexation_408_desc: "Unsere Armeen haben es geschafft, die Kontrolle über den russischen Fernen Osten zu übernehmen, und er ist nun von uns besetzt. Wir haben jetzt ein paar Optionen. Wir können entweder einen loyalen Vasallenstaat in der Region schaffen oder ihn selbst einnehmen, da er eine wichtige strategische Position in Ostasien einnimmt. Was sollen wir tun?"
 annexation_events.3009.a: "Befreien Sie die fernöstliche Republik."
  annexation_events.3009.b: "Bildung der Republik der Grünen Ukraine."
  annexation_events.3009.c: "[manchuria.GetGrantTerritoryEventOption]"
@@ -1337,7 +1337,7 @@ annexation_827: "Das Schicksal von Vietnam"
 annexation_827_desc: "Unsere Armeen haben die Kontrolle über Annam übernommen, und die einheimischen Vietnamesen schreien nach Selbstverwaltung. Wir sollten entscheiden, was mit der Region gemacht werden soll."
 annexation_events.3023.a: "Vietnam freigeben."
  annexation_events.3023.b: "Ein vereinigtes Indochina freigeben."
- annexation_events.3023.c: "Besetzen Sie Kampuchea Krom und machen Sie den Rest zur Marionette."
+ annexation_events.3023.c: "Besetzt Kampuchea Krom und lasst den Rest frei."
  annexation_events.3023.d: "Okkupiert Kampuchea Krom und überlasst den Rest unserem Oberherren."
 
 annexation_670: "Das Schicksal von Laos"
@@ -1421,13 +1421,13 @@ annexation_426_desc: "Orissa ist unter unsere Kontrolle gebracht worden, da unse
 annexation_events.3041.a: "Groß-Orissa freigeben."
 annexation_events.3041.b: "Orissa freigeben."
 
-annexation_966: "Das Schicksal von Chhatisgarh"
-annexation_966_desc: "Der Bundesstaat Chhatisgarh ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
+annexation_966: "Das Schicksal von Chhattisgarh"
+annexation_966_desc: "Der Bundesstaat Chhattisgarh ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
  annexation_events.3042.a: "[raipur.GetGrantTerritoryEventOption]"
  annexation_events.3042.b: "[central_provinces.GetGrantTerritoryEventOption]"
 
 annexation_889: "Das Schicksal von Vizagapatnam"
-annexation_889_desc: "Der Streifen von Vizagapatnam ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
+annexation_889_desc: "Der Küstenstreifen von Vizagapatnam wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzt haben. Wir müssen nun entscheiden, was wir damit machen."
 
 annexation_427: "Das Schicksal von Hyderabad"
 annexation_427_desc: "Hyderabad ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
@@ -1471,18 +1471,18 @@ annexation_443_desc: "Sind ist unter unsere Kontrolle gebracht worden, da unsere
  annexation_events.3051.b: "[rajputana.GetGrantTerritoryEventOption]"
 
 annexation_323: "Das Schicksal von Nepal"
-annexation_323_desc: "Nach unserer erfolgreichen Kampagne im Himalaya haben wir nun die Aufgabe, eine neue lokale Verwaltungsbehörde aufzubauen, um den Frieden in Kathmandu wiederherzustellen. Was sollen wir tun?"
+annexation_323_desc: "Nach unserer erfolgreichen Kampagne im Himalaya haben wir nun die Aufgabe, eine neue lokale Verwaltungsbehörde einzurichten, um den Frieden in Kathmandu wiederherzustellen. Was sollen wir tun?"
 annexation_events.3052.a: "Nepal als Republik freigeben."
  annexation_events.3052.b: "Wiederherstellung der Schah-Dynastie."
  annexation_events.3052.c: "Stärkung der Rana-Dynastie."
  annexation_events.3052.d: "[oudh.GetGrantTerritoryEventOption]"
 
 annexation_324: "Das Schicksal von Bhutan"
-annexation_324_desc: "Nach unserem erfolgreichen Feldzug im Himalaya haben wir nun die Aufgabe, eine neue lokale Verwaltungsbehörde zu gründen, um den Frieden wiederherzustellen, wobei wir mehrere Optionen zur Auswahl haben..."
-annexation_events.3053.a: "Erstellen Sie eine Marionette Bhutan."
+annexation_324_desc: "Nach unserer erfolgreichen Kampagne im Himalaya stehen wir nun vor der Aufgabe, eine neue lokale Verwaltungsbehörde zu etablieren, um den Frieden wiederherzustellen. Allerdings haben wir mehrere Optionen zur Auswahl..."
+annexation_events.3053.a: "Ein loyales Bhutan schaffen."
 
 annexation_288: "Das Schicksal von Burma"
-annexation_288_desc: "Unsere Truppen marschieren durch Rangun, während die burmesische Führung entweder im Exil oder im Gefängnis ist. Was sollen wir mit diesen Ländern tun?"
+annexation_288_desc: "Unsere Truppen marschieren durch Rangun, während die burmesische Führung entweder im Exil oder im Gefängnis sitzt. Was soll mit diesen Ländern geschehen?"
  annexation_events.3054.a: "Befreiung einer burmesischen Republik."
  annexation_events.3054.b: "Wiederherstellung der Konbaung-Monarchie."
 
@@ -1491,13 +1491,13 @@ annexation_701_desc: "Die ländliche Kachin-Region ist nun fest unter unserer Ko
 annexation_events.3055.a: "Kachin freilassen."
 
 annexation_72: "Das Schicksal des Shan-Hügel"
-annexation_72_desc: "Die Shan-Hügel waren lange ein Dorn im Auge derer, die sie zu kontrollieren versuchten. Während unsere Armeen durch ihre Dörfer und Städte marschieren, ist es jedoch klar, dass die Shan-Gebiete endlich vollständig unterworfen wurden. Was soll mit diesen neu erworbenen Gebieten geschehen?"
+annexation_72_desc: "Die Shan-Hügel waren lange ein Dorn im Auge derer, die sie zu kontrollieren versuchten. Während unsere Armeen jedoch durch ihre Städte und Gemeinden marschieren, wird deutlich, dass die Shan-Gebiete nun endgültig vollständig unterworfen sind. Was soll mit diesen neu erworbenen Gebieten geschehen?"
 annexation_events.3056.a: "Freigabe eines Shan-Staates."
  annexation_events.3056.b: "[shan.GetGrantTerritoryEventOption]"
  annexation_events.3056.c: "Teilen Sie es zwischen [burma.GetNonIdeologyNameDef] und [siam.GetNonIdeologyNameDef] auf."
 
 annexation_422: "Das Schicksal von Ceylon"
-annexation_422_desc: "Wir haben es geschafft, die Deutschen von der Insel Ceylon zu vertreiben und die Hauptstadt Colombo gründlich zu sichern. Jetzt müssen wir uns allerdings überlegen, was wir mit dem verdammten Felsen machen."
+annexation_422_desc: "Wir haben die Deutschen von der Insel Ceylon vertrieben und die Hauptstadt Colombo gesichert. Nun müssen wir jedoch entscheiden, was wir mit dieser strategisch wichtigen Insel tun wollen."
 annexation_events.3057.a: "Ceylon freigeben."
 
  annexation_285: "[annexation_australia_title]"
@@ -1506,8 +1506,8 @@ annexation_events.3057.a: "Ceylon freigeben."
 annexation_australia_australasia: "Das Schicksal von Australasien"
  annexation_australia_australia: "Das Schicksal von Australien"
  annexation_australia_entente_desc: "Die Australasiatische Regierung wurde besiegt und befindet sich derzeit unter unserer Kontrolle. Die Frage, die sich uns stellt, ist, ob wir ihre Unabhängigkeit unter der Kontrolle der loyalistischen Australasiatischen Garde - trotz ihrer extremistischen Tendenzen - wiederherstellen und hoffen, dass sie in der Lage ist, die Ordnung aufrechtzuerhalten, oder ob wir die Notstandsprotokolle wieder in Kraft setzen und die direkte Herrschaft durch unseren Generalgouverneur übernehmen sollten."
-annexation_australia_australasia_desc: "Nach einem harten Feldzug durch die isolierten Inseln der Australasiatischen Konföderation erreichten unsere Armeen schließlich Canberra und mit der Kapitulation Australasiens müssen wir entscheiden, wie wir es verwalten wollen."
- annexation_australia_australia_desc: "Nach einem harten Feldzug durch die isolierten Inseln Australiens erreichten unsere Armeen schließlich Canberra, und mit der Kapitulation Australiens müssen wir entscheiden, wie wir es verwalten wollen."
+annexation_australia_australasia_desc: "Nach einem harten Feldzug durch die abgelegenen Inseln der Australasiatischen Konföderation erreichten unsere Armeen schließlich Canberra, und mit der Kapitulation Australasiens müssen wir nun entscheiden, wie wir damit umgehen wollen."
+ annexation_australia_australia_desc: "Nach einem harten Feldzug durch die abgelegenen Inseln Australiens erreichten unsere Armeen schließlich Canberra, und nach der Kapitulation Australiens müssen wir entscheiden, wie wir damit umgehen wollen."
 annexation_events.3058.a: "[annexation_australia_release_option] freigeben."
 annexation_events.3058.b: "Befreien Sie Australien und Neuseeland."
  annexation_events.3058.c: "Lassen Sie Australasien frei und geben Sie ihnen die Herrschaft über ihr Gebiet im Pazifik."
@@ -1701,7 +1701,7 @@ annexation_events.4002.a: "Erlauben Sie die Bildung einer neuen türkischen Repu
 annexation_events.4002.b: "Wiederherstellung des Osmanischen Reiches."
 
 annexation_340: "Das Schicksal der Ägäis-Küste"
-annexation_340_desc: "Die Ägäische Küste ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen."
+annexation_340_desc: "Die Ägäische Küste ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen entscheiden, was wir damit machen wollen."
 annexation_events.4003.a: "Aufteilung zwischen [turkey.GetNameDef] und [greece.GetNameDef]."
 
 annexation_446: "Das Schicksal von Ägypten"
@@ -1744,7 +1744,7 @@ annexation_998: "Das Schicksal von Karabach"
 annexation_998_desc: "Das Hochland von Karabach ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
 
 annexation_230: "Das Schicksal von Armenien"
-annexation_230_desc: "Nach erbitterten Kämpfen im Kaukasus haben wir Armenien erobert und annektiert. Die armenische Armee hat sich ergeben, und das Gebiet ist unter unserer Kontrolle, aber das Volk ist noch widerständig, aber bald wird es sich unterwerfen."
+annexation_230_desc: "Nach erbitterten Kämpfen im Kaukasus haben wir Armenien erobert und annektiert. Die armenische Armee hat kapituliert, und das Gebiet steht unter unserer Kontrolle; die Bevölkerung leistet noch Widerstand, wird sich aber bald unterwerfen."
 annexation_events.4012.a: "Befreit Armenien!"
 
 annexation_1000: "Das Schicksal von [1000.GetName]"
@@ -1781,16 +1781,16 @@ annexation_events.4020.a: "Lassen Sie einen kurdischen Staat frei."
  annexation_events.4020.f: "Teilen mit [persia.GetNonIdeologyNameDef]."
 
 annexation_266: "Das Schicksal von Persien"
-annexation_266_desc: "Nach einem langen Kampf mit den Persern haben wir eine volle Offensive gestartet und die persische Armee zur Kapitulation gezwungen. [266.GetName] ist nun in unserer Hand!"
+annexation_266_desc: "Nach einem langen Kampf auf dem bergigen Plateau haben wir eine Großoffensive gestartet und die persische Armee zur Kapitulation gezwungen. [266.GetName] ist nun in unserer Hand!"
 annexation_events.4021.a: "Eine persische Republik freigeben."
  annexation_events.4021.b: "Wiederherstellung der Kadscharen-Monarchie."
 
 annexation_294: "Das Schicksal von Maskat"
-annexation_294_desc: "Nach einem langen Kampf mit den Omani haben wir eine volle Offensive gestartet und die omanische Armee zur Kapitulation gezwungen. Muscat ist nun in unserer Hand, ebenso wie das Schicksal des Emirats."
+annexation_294_desc: "Nach einem langen Kampf am Rande der Arabischen Halbinsel haben wir eine Großoffensive gestartet und die omanische Armee zur Kapitulation gezwungen. Muscat ist nun in unserer Hand, ebenso wie das Schicksal des Emirats."
 annexation_events.4022.a: "Befreit den Maskat!"
 
 annexation_293: "Das Schicksal von Jemen"
-annexation_293_desc: "Nach einem langen Kampf mit den Jemeniten haben wir eine volle Offensive gestartet und die jemenitische Armee zur Kapitulation gezwungen. Sanaa ist jetzt in unserer Hand!"
+annexation_293_desc: "Nach einem langen Kampf am Rande der Arabischen Halbinsel haben wir eine umfassende Offensive gestartet und die jemenitische Armee zur Kapitulation gezwungen. Sanaa ist jetzt in unserer Hand!"
 annexation_events.4023.a: "Befreit Jemen!"
 
 annexation_982: "Das Schicksal von Asir"
@@ -1840,7 +1840,7 @@ annexation_982_desc: "Die Region Asir ist jetzt unter unserer Kontrolle, wir mü
 ### Africa Events ###
 
 annexation_539: "Das Schicksal von Gabun"
-annexation_539_desc: "Wir kontrollieren jetzt die ehemalige deutsche Kolonie Gabun und mit ihr Massen von Afrikanern, die sich danach sehnen, frei zu atmen. Sollten wir ihnen diese Freiheit unter unserer strengen Aufsicht geben oder ist dieser Traum vergebens?"
+annexation_539_desc: "Wir kontrollieren nun die ehemalige deutsche Kolonie Gabun und damit auch eine große Anzahl von Afrikanern, die sich nach Freiheit sehnen. Sollten wir ihnen diese Freiheit unter unserer strengen Aufsicht gewähren oder ist dieser Traum vergeblich?"
 annexation_events.5000.a: "Bilden Sie den Staat Gabun."
 
 annexation_927: "Das Schicksal von Kamerun"
@@ -1856,7 +1856,7 @@ annexation_295_desc: "Unsere Annexion der ehemaligen deutschen Kolonie der Kongo
 annexation_events.5003.a: "Bilden Sie den Staat der Kongo."
 
 annexation_813: "Das Schicksal von Zambesia"
-annexation_813_desc: "Jetzt, wo wir die Kontrolle über die ehemalige deutsche Kolonie Zambesia haben, stehen wir vor der Wahl, wie wir das Gebiet verwalten wollen: Sollen wir ein unabhängiges Zambesia gründen und, wenn ja, sollen wir Njassaland darin einbeziehen?"
+annexation_813_desc: "Jetzt, da wir die ehemalige deutsche Kolonie Sambesia unter unserer Kontrolle haben, müssen wir entscheiden, wie wir das Gebiet verwalten wollen; sollen wir ein unabhängiges Sambesia schaffen, und wenn ja, sollen wir Nyasaland darin einbeziehen?"
  annexation_events.5004.a: "Bilden Sie den Staat [ZAM.GetNameDef."
 
 annexation_540: "Das Schicksal von Angola"
@@ -1864,7 +1864,7 @@ annexation_540_desc: "Unsere Annexion der ehemaligen portugiesischen Kolonie Ang
 annexation_events.5005.a: "Bilden Sie den Staat Angola."
 
 annexation_973: "Das Schicksal von Nigeria"
-annexation_973_desc: "Die riesige und reiche Kolonie Nigeria ist nun unter unserer Kontrolle und damit kommt die Last, sie verwalten zu müssen. Könnten wir diese Aufgabe in einem gewissen Umfang an einen lokalen Marionettenstaat delegieren?"
+annexation_973_desc: "Die riesige und reiche Kolonie Nigeria steht nun unter unserer Kontrolle, und damit geht auch die Last einher, sie verwalten zu müssen. Sollten wir diese Aufgabe bis zu einem gewissen Grad an die lokale Regierung delegieren?"
 annexation_events.5006.a: "Bilden Sie den Staat Nigeria."
 
 annexation_876: "Das Schicksal von Dahomey"
@@ -1896,7 +1896,7 @@ annexation_806_desc: "Die ehemalige französische Kolonie Guinea, die zwischen e
 annexation_events.5013.a: "Bilden Sie den Staat Guinea."
 
 annexation_272: "Das Schicksal von Senegal"
-annexation_272_desc: "Der Hafen von Dakar, ehemals der wichtigste Hafen von Französisch-Westafrika, ist durch unsere wiederholten Angriffe gefallen und mit ihm die gesamte Kolonie Senegal einschließlich der 4 französischen Gemeinden. Aber mit diesem Besitzerwechsel kamen mehr Probleme, da die fähigen französischen Verwalter das Gebiet verließen und uns mit einer organisatorischen Leere zurückließen, sollten wir hier einen loyalen Satelliten schaffen, um unsere Probleme zu lindern?"
+annexation_272_desc: "Der Hafen von Dakar, ehemals der wichtigste Hafen Französisch-Westafrikas, ist unseren wiederholten Angriffen zum Opfer gefallen, und mit ihm wurde die gesamte Kolonie Senegal einschließlich der vier französischen Gemeinden besetzt. Aber mit diesem Besitzerwechsel kamen mehr Probleme, da die fähigen französischen Verwalter das Gebiet verließen und uns mit einer organisatorischen Leere zurückließen, sollten wir hier einen loyalen Satelliten schaffen, um unsere Probleme zu lindern?"
 annexation_events.5015.a: "Bilden Sie den Staat Senegambia."
 
 annexation_557: "Das Schicksal von Mauretanien"
@@ -1920,7 +1920,7 @@ annexation_515_desc: "Schließlich ist unsere Annexion der Region Tschad abgesch
 annexation_events.5020.a: "Bilden Sie den Staat Tschad."
 
 annexation_461: "Das Schicksal von Marokko"
-annexation_461_desc: "Wir haben Marokko von den Deutschen befreit und unsere Streitkräfte haben nun Schwierigkeiten, die bergigen und halbtrockenen Regionen des Landes zu besetzen. Obwohl die städtischen Zentren unter unserer Kontrolle sind, wäre es vielleicht klug, die weitere Kontrolle an Einheimische abzugeben."
+annexation_461_desc: "Wir haben Marokko von den Deutschen befreit und unsere Streitkräfte haben nun Schwierigkeiten, die bergigen und halbtrockenen Regionen des Landes zu besetzen. Obwohl die städtischen Zentren unter unserer Kontrolle stehen, könnte es sinnvoll sein, den Einheimischen mehr Kontrolle zu übertragen."
  annexation_events.5021.a: "Marokkanische Republik freigeben."
  annexation_events.5021.b: "Wiedereinsetzung des Alaouiten-Monarchen."
 
@@ -1936,26 +1936,26 @@ annexation_458_desc: "Nachdem wir die tunesische Verteidigung überwältigt habe
 annexation_events.5025.a: "Befreien Sie Tunesien."
 
 annexation_271: "Das Schicksal von Äthiopien"
-annexation_271_desc: "Nach unserer erfolgreichen Kampagne in Äthiopien haben wir nun die Aufgabe, eine neue lokale Verwaltungsbehörde zu gründen, um den Frieden wiederherzustellen, wobei wir mehrere Optionen zur Auswahl haben..."
+annexation_271_desc: "Nach unserer erfolgreichen Kampagne in Äthiopien haben wir nun die Aufgabe, eine neue lokale Verwaltungsbehörde zu gründen, um den Frieden wiederherzustellen, wobei wir mehrere Optionen zur Auswahl haben."
  annexation_events.5026.a: "Äthiopien freigeben."
 
 annexation_550: "Das Schicksal von Eritrea"
-annexation_550_desc: "Nach unserer erfolgreichen Kampagne in Eritrea haben wir nun die Aufgabe, eine neue lokale Verwaltungsbehörde zu gründen, um den Frieden wiederherzustellen, wobei uns mehrere Optionen zur Auswahl stehen..."
+annexation_550_desc: "Nach unserer erfolgreichen Kampagne in Eritrea haben wir nun die Aufgabe, eine neue lokale Verwaltungsbehörde zu gründen, um den Frieden wiederherzustellen, wobei uns mehrere Optionen zur Auswahl stehen."
 annexation_events.5027.a: "Eritrea freilassen."
 
 annexation_268: "Das Schicksal von [268.GetName]"
-annexation_268_desc: "Wir kontrollieren jetzt [268.GetName], aber wir haben eine Marionette in der Nähe, die das Gebiet besser handhaben könnte, sollten wir es ihnen geben?"
+annexation_268_desc: "Wir kontrollieren jetzt [268.GetName], aber ein benachbarter Staat, der uns loyal gegenübersteht, wäre möglicherweise besser geeignet, dieses Gebiet zu verwalten. Sollten wir es ihnen überlassen?"
 
 annexation_559: "Das Schicksal von Somalia"
 annexation_559_desc: "Wir kontrollieren jetzt die Gebiete des ehemaligen Derwisch-Staates Somalia, und dieses unwirtliche, von Somaliern bevölkerte Gebiet wird sich als schwer durch Besatzung zu erhalten erweisen, vielleicht sollten wir die Somalier sich ein Stück weit selbst organisieren lassen?"
 annexation_events.5029.a: "Somalia freigeben."
 
 annexation_547: "Das Schicksal von Kenia"
-annexation_547_desc: "Die Steppen Kenias sind jetzt in unserer gnädigen Kontrolle, was sollen wir mit ihnen machen? Werden wir sie direkt kontrollieren oder werden wir sie befreien?"
+annexation_547_desc: "Die Steppen Kenias stehen nun unter unserer gnädigen Kontrolle. Was sollen wir mit ihnen tun – das Land direkt kontrollieren oder es den Einheimischen überlassen?"
 annexation_events.5030.a: "Bilden Sie den Staat Kenia."
 
 annexation_548: "Das Schicksal von Uganda"
-annexation_548_desc: "Wir besetzen jetzt die ehemalige deutsche Kolonie Uganda und diese Region, die bevölkert ist und in der Nähe der Großen Seen liegt, ist weit entfernt von allem, was wir kontrollieren könnten. Sollten wir es ihnen leichter machen, indem wir ihnen ein gewisses Maß an Selbstständigkeit zugestehen, oder sollten wir die Besatzung fortsetzen?"
+annexation_548_desc: "Wir besetzen nun die ehemalige deutsche Kolonie Uganda. Diese Region, die dicht besiedelt ist und in der Nähe der Großen Seen liegt, ist weit entfernt von allem, was wir kontrollieren könnten. Sollten wir die Belastung verringern, indem wir ihnen ein gewisses Maß an Autonomie gewähren, oder wird die Besetzung fortgesetzt?"
 annexation_events.5031.a: "Bilden Sie den Staat Uganda."
 
 annexation_965: "Das Schicksal von East Africa"
@@ -1972,11 +1972,11 @@ annexation_870_desc: "Wir haben jetzt Urundi annektiert, einen Teil der ehemalig
 annexation_events.5034.a: "Bilden Sie den Staat Urundi."
 
 annexation_544: "Das Schicksal von Mosambik"
-annexation_544_desc: "Unsere Annexion der ehemaligen portugiesischen Kolonie Mosambik überließ uns die Verwaltung dieser Millionen von Afrikanern fernab der Meere. Sicherlich wird es für uns einfacher sein, eine lokale Regierung zu installieren, um sie zu verwalten, aber sollten wir das den Einheimischen anvertrauen?"
+annexation_544_desc: "Durch die Annexion der ehemaligen portugiesischen Kolonie Mosambik mussten wir nun Millionen von Afrikanern verwalten. Die Einrichtung einer lokalen Regierung würde uns die Verwaltung sicherlich erleichtern, aber sollten wir den Einheimischen eine solche Autorität anvertrauen?"
 annexation_events.5035.a: "Bilden Sie den Staat Mosambik!"
 
 annexation_871: "Das Schicksal von Njassaland"
-annexation_871_desc: "Mit unserer neuen Besetzung der ehemaligen deutschen Kolonie Njassaland wurde die Möglichkeit ins Spiel gebracht, anstelle einer neuen Kolonie eine teilweise von Einheimischen geführte Marionettenregierung einzurichten, sollten wir diese Idee weiterverfolgen?"
+annexation_871_desc: "Mit der Besetzung der ehemaligen deutschen Kolonie Njassaland wurde vorgeschlagen, anstelle einer neuen Kolonie eine Marionettenregierung einzurichten, die teilweise von Einheimischen geführt wird. Sollten wir diese Idee weiterverfolgen?"
 annexation_events.5036.a: "Bilden den Staat Njassaland."
  annexation_events.5036.b: "[955.owner.GetNameDef]."
 
@@ -1986,19 +1986,19 @@ annexation_events.5037.a: "Bilden Sie den Staat Madagascar."
  annexation_events.5037.b: "Wiedereinführung der Merina-Monarchie."
 
 annexation_681: "Das Schicksal von Südafrika"
-annexation_681_desc: "Endlich hat das afrikanische Herrschaftsgebiet Südafrika vor unseren glorreichen Armeen kapituliert, die nun durch das Kap marschieren. Nach dem Beginn unserer militärischen Besetzung und nun, da der Krieg beendet ist, sind einige Stimmen laut geworden, die fordern, dass wir einen südafrikanischen Marionettenstaat gründen sollten, um das Gebiet unter Kontrolle zu halten, aber während dieser Diskussionen wurde eine andere Frage auf den Tisch gebracht: Wenn wir diesen Marionettenstaat gründen, sollte er das Protektorat Bechuanaland und die desillusionierte Provinz Südrhodesien behalten, die er seit über einem Jahrzehnt kontrolliert, oder sollten wir ihre Einflusszone auf den Kern des Landes reduzieren? Es liegt nun an Ihnen, zu entscheiden."
+annexation_681_desc: "Schließlich hat sich das Dominion Südafrika unseren glorreichen Armeen ergeben, die nun durch das Kap marschieren. Nach Beginn unserer militärischen Besetzung wurden einige Stimmen laut, die forderten, wir müssten eine unterwürfige südafrikanische Nation schaffen, um die Kontrolle über das Gebiet zu behalten. Während dieser Diskussionen wurde ein weiteres Thema angesprochen: Wenn wir diesen Marionettenstaat schaffen, sollte er dann das Protektorat Bechuanaland und die desillusionierte Provinz Südrhodesien behalten, die er seit über einem Jahrzehnt kontrolliert, oder sollten wir ihren Einflussbereich auf den Kern des Landes reduzieren? Die Entscheidung liegt bei uns."
  annexation_events.5038a: "Südafrika freigeben."
 
 annexation_541: "Das Schicksal von Namibia"
-annexation_541_desc: "Wir haben die ehemalige deutsche Kolonie Südwestafrika annektiert, besser bekannt als Namibia, aber jetzt müssen wir Tausende von Afrikanern in einem Gebiet verwalten, das wir nicht kennen. Sollten wir ein gewisses Maß an Selbstbestimmung einführen oder sollten wir diesen Ort als neue Kolonie regieren?"
+annexation_541_desc: "Wir haben die ehemalige deutsche Kolonie Südwestafrika, auch bekannt als Namibia, annektiert. Nun müssen wir Tausende von Afrikanern in einem Gebiet verwalten, über das wir nur sehr wenig wissen. Sollten wir ihnen ein gewisses Maß an Selbstbestimmung gewähren oder diesen Ort als unsere neue Kolonie regieren?"
 annexation_events.5039.a: "Bilden Sie den Staat Namibia."
 
 annexation_542: "Das Schicksal von Botswana"
-annexation_542_desc: "Das Protektorat Botswana, das von britischer zu südafrikanischer Führung wechselte, hat viele Veränderungen erlebt und ist nun bereit für die Unabhängigkeit. Sollten wir einen botswanischen Satelliten schaffen?"
+annexation_542_desc: "Das Protektorat Botswana, das einst unter britischer und später unter südafrikanischer Kontrolle stand, hat viele Veränderungen erlebt und ist nun bereit für die Unabhängigkeit. Sollten wir einen botswanischen Staat gründen?"
 annexation_events.5040.a: "Bilden Sie den Staat Betschuanaland."
 
 annexation_545: "Das Schicksal von Simbabwe"
-annexation_545_desc: "Das Protektorat Simbabwe hat während seiner Zeit als Kolonie viele Bewegungen für die Unabhängigkeit gesehen, aber keine war erfolgreich, bis jetzt, mit unserer Annexion des Landes, gibt es jetzt die Hoffnung, dass die simbabwische Nation geschaffen wird, sollten wir es tun?"
+annexation_545_desc: "Das Protektorat Simbabwe hat während seiner Zeit als Kolonie viele Unabhängigkeitsbewegungen erlebt, aber bis heute war keine davon erfolgreich. Mit unserer Annexion des Landes gibt es nun Hoffnung auf die Gründung einer simbabwischen Nation. Sollten wir dies verwirklichen?"
 annexation_events.5041.a: "Bilden Sie den Staat Simbabwe."
 
  annexation_551: "Das Schicksal des Sudan"
@@ -2017,7 +2017,7 @@ annexation_events.5041.a: "Bilden Sie den Staat Simbabwe."
  annexation_events.5045.a: "Den Staat Guinea-Bissau bilden."
 
  annexation_297: "Das Schicksal von Äquatorialguinea"
- annexation_297_desc: "Im Zusammenhang mit unserer neuen Besetzung der ehemaligen spanischen Kolonie Äquatorialguinea wurde die Möglichkeit der Einrichtung einer Marionettenregierung, die teilweise von Einheimischen geführt wird, anstelle einer neuen Kolonie ins Gespräch gebracht: Sollten wir diese Idee weiterverfolgen?"
+ annexation_297_desc: "Mit unserer Besetzung der ehemaligen spanischen Kolonie Äquatorialguinea wurde vorgeschlagen, statt einer neuen Kolonie eine Marionettenregierung einzurichten, die teilweise von Einheimischen geführt wird. Sollten wir diese Idee weiterverfolgen?"
  annexation_events.5046.a: "Den Staat Äquatorialguinea bilden."
 
  annexation_290: "Das Schicksal des Rif"
