@@ -13,7 +13,7 @@ elections_in_three_months: "§HDie Wahlen finden in drei Monaten statt§!"
 characters_will_be_retired: "§RDie folgenden Personen werden aus dem Verkehr gezogen:§!"
 characters_will_be_recruited: "§GDie folgenden Personen werden rekrutiert:§!"
 character_becomes_a_general: "(Skill [?skill_level]) wird ein General.\nEigenschaften: £GFX_trait_attack [?attack_level] £GFX_trait_defense [?defense_level] £GFX_trait_planning [?planning_level] £GFX_trait_logistics [?logistics_level]"
-character_becomes_a_general_bound: "(Skill $SKILL$) wird ein General.\nEigenschaften: £GFX_trait_attack $ATTACK$ £GFX_trait_defense $DEFENSE$  £GFX_trait_planning $PLANNING$ £GFX_trait_logistics $LOGISTICS$"
+character_becomes_a_general_bound: "(Skill $SKILL$) wird ein General.\nEigenschaften: £GFX_trait_attack $ATTACK$ £GFX_trait_defense $DEFENSE$ £GFX_trait_planning $PLANNING$ £GFX_trait_logistics $LOGISTICS$"
 character_becomes_a_field_marshal: "(Skill [?skill_level]) wird ein Feldmarschall.\nEigenschaften: £GFX_trait_attack [?attack_level] £GFX_trait_defense [?defense_level] £GFX_trait_planning [?planning_level] £GFX_trait_logistics [?logistics_level]"
 character_becomes_a_field_marshal_bound: "(Skill $SKILL$) wird ein Feldmarschall.\nEigenschaften: £GFX_trait_attack $ATTACK$ £GFX_trait_defense $DEFENSE$ £GFX_trait_planning $PLANNING$ £GFX_trait_logistics $LOGISTICS$"
 character_becomes_a_naval_commander: "(Skill [?skill_level]) wird ein Marinekommandant.\nEigenschaften: £GFX_trait_attack [?attack_level] £GFX_trait_defense [?defense_level] £GFX_trait_planning [?planning_level] £GFX_trait_logistics [?logistics_level]"
@@ -108,11 +108,10 @@ tooltip_once_at_war_with_country: "§CSobald §RKrieg§! mit $COUNTRY|Y$ ausbric
 tooltip_change_law_to: "Ändert $CATEGORY$ zu '$LAW|Y$', das Folgendes gewährt:"
 
 tooltip_if_political_advisor_is_hired: "§CWenn $ADVISOR|Y$ als ein §YPolitischer Berater§! eingestellt ist:§!"
-tooltip_improves_advisor_trait: "§GVerbessert§! die Eigenschaften von $ADVISOR|Y$:"
 tooltip_disable_political_advisor: "§R$ADVISOR|Y$ wird nicht mehr als §YPolitischer Berater§! zur Verfügung stehen§!"
 
-tooltip_modify_advisor_trait: "Modifiziert $ROLE$ Eigenschaft $TRAIT|Y$ um"
-tooltip_replace_advisor_trait: "Ersetzt $ROLE$ Eigenschaft $OLD_TRAIT|Y$ mit $NEW_TRAIT|Y$\nEffektive Veränderunge:"
+tooltip_modify_character_trait: "Modifiziert $ROLE$ Eigenschaft $TRAIT|Y$ um\n"
+tooltip_replace_character_trait: "Ersetzt $ROLE$ Eigenschaft $OLD_TRAIT|Y$ mit $NEW_TRAIT|Y$\n   Effektive Veränderung:\n"
 # List of advisor role loc keys: second_in_command, political_advisor, theorist, army_chief, navy_chief, air_chief, high_command
 
 tooltip_has_tech: "Hat $TECH|Y$ erforscht"
@@ -381,7 +380,7 @@ party_popularity_stability_factor_tooltip: "$MODIFIER_STABILITY_POPULARITY_FACTO
 war_stability_factor_tooltip: "$MODIFIER_STABILITY_WAR_FACTOR$ $RIGHT|+=%1$"
 
 starting_compliance_tooltip: "$MODIFIER_COMPLIANCE_STARTING_VALUE$: $RIGHT|+=%0$"
-compliance_gain_tooltip: "$MODIFIER_COMPLIANCE_GAIN_ADD$: $RIGHT|+=2$"
+compliance_gain_tooltip: "$MODIFIER_COMPLIANCE_GAIN_ADD$: $RIGHT|+=%%$"
 compliance_growth_tooltip: "$MODIFIER_COMPLIANCE_GROWTH$: $RIGHT|+=%0$"
 resistance_target_tooltip: "$MODIFIER_RESISTANCE_TARGET$: $RIGHT|-=%0$"
 resistance_growth_tooltip: "$MODIFIER_RESISTANCE_GROWTH$: $RIGHT|-=%0$"
@@ -403,6 +402,7 @@ weekly_convoys_war_support_tooltip: "$MODIFIER_WEEKLY_CONVOYS_WAR_SUPPORT$: $RIG
 weekly_bombing_war_support_tooltip: "$MODIFIER_WEEKLY_BOMBING_WAR_SUPPORT$: $RIGHT|+=%2$"
 
 surrender_limit_tooltip: "$MODIFIER_SURRENDER_LIMIT$ $RIGHT|+=%1$"
+enemy_justify_war_goal_time_tooltip: "$MODIFIER_ENEMY_JUSTIFY_WAR_GOAL_TIME$: $RIGHT|+=%1$"
 
 max_dig_in_tooltip: "$MODIFIER_MAX_DIG_IN$: $RIGHT|+=1$"
 max_dig_in_factor_tooltip: "$MODIFIER_MAX_DIG_IN_FACTOR$: $RIGHT|=%+1$"
@@ -444,6 +444,8 @@ max_planning_factor_tooltip: "$MODIFIER_MAX_PLANNING_FACTOR$: $RIGHT|+=%1$"
 planning_speed_tooltip: "$MODIFIER_PLANNING_SPEED$: $RIGHT|+=%1$"
 
 mobilization_laws_cost_factor_tooltip: "$mobilization_laws_cost_factor$: $RIGHT|-=%1$"
+trade_laws_cost_factor_tooltip: "$trade_laws_cost_factor$: $RIGHT|-=%1$"
+economy_cost_factor_tooltip: "$economy_cost_factor$: $RIGHT|-=%1$"
 political_advisor_cost_factor_tooltip: "$political_advisor_cost_factor$: $RIGHT|-=%0$"
 air_advisor_cost_factor_tooltip: "$MODIFIER_AIR_ADVISOR_COST_FACTOR$: $RIGHT|-=%0$"
 army_advisor_cost_factor_tooltip: "$MODIFIER_ARMY_ADVISOR_COST_FACTOR$: $RIGHT|-=%0$"
@@ -498,12 +500,12 @@ naval_morale_tooltip: "$MODIFIER_NAVAL_MORALE$: $RIGHT|+=1$"
 naval_morale_factor_tooltip: "$MODIFIER_NAVAL_MORALE_FACTOR$: $RIGHT|+=%1$"
 navy_max_range_factor_tooltip: "$MODIFIER_NAVY_MAX_RANGE_FACTOR$: $RIGHT|+=%1$"
 
-army_xp_gain_tooltip: "$MODIFIER_XP_GAIN_ARMY$: $RIGHT|+=$ $MOD_DAILY$"
-army_xp_gain_factor_tooltip: "$MODIFIER_XP_GAIN_ARMY_FACTOR$: $RIGHT|+=%1$"
-navy_xp_gain_tooltip: "$MODIFIER_XP_GAIN_ARMY$: $RIGHT|+=$ $MOD_DAILY$"
-navy_xp_gain_factor_tooltip: "$MODIFIER_XP_GAIN_ARMY_FACTOR$: $RIGHT|+=%1$"
-air_xp_gain_tooltip: "$MODIFIER_XP_GAIN_AIR$: $RIGHT|+=$ $MOD_DAILY$"
-air_xp_gain_factor_tooltip: "$MODIFIER_XP_GAIN_AIR_FACTOR$: $RIGHT|+=%1$"
+experience_gain_army_tooltip: "$MODIFIER_XP_GAIN_ARMY$: $RIGHT|+=$ $MOD_DAILY$"
+experience_gain_army_factor_tooltip: "$MODIFIER_XP_GAIN_ARMY_FACTOR$: $RIGHT|+=%1$"
+experience_gain_navy_tooltip: "$MODIFIER_XP_GAIN_NAVY$: $RIGHT|+=$ $MOD_DAILY$"
+experience_gain_navy_factor_tooltip: "$MODIFIER_XP_GAIN_NAVY_FACTOR$: $RIGHT|+=%1$"
+experience_gain_air_tooltip: "$MODIFIER_XP_GAIN_AIR$: $RIGHT|+=$ $MOD_DAILY$"
+experience_gain_air_factor_tooltip: "$MODIFIER_XP_GAIN_AIR_FACTOR$: $RIGHT|+=%1$"
 
 land_equipment_upgrade_xp_cost_tooltip: "$MODIFIER_LAND_EQUIPMENT_UPGRADE_XP_COST$: $RIGHT|-=%0$"
 naval_equipment_upgrade_xp_cost_tooltip: "$MODIFIER_NAVAL_EQUIPMENT_UPGRADE_XP_COST$: $RIGHT|-=%0$"
@@ -514,11 +516,15 @@ terrain_trait_xp_gain_factor_tooltip: "$MODIFIER_TERRAIN_TRAIT_XP_GAIN_FACTOR$: 
 training_time_factor_tooltip: "$MODIFIER_TRAINING_TIME_FACTOR$: $RIGHT|Y=%1$"
 training_time_army_factor_tooltip: "$MODIFIER_TRAINING_TIME_ARMY_FACTOR$: $RIGHT|Y=%1$"
 special_forces_training_time_factor_tooltip: "$MODIFIER_SPECIAL_FORCES_TRAINING_TIME_FACTOR$: $RIGHT|-=%1$"
+max_training_tooltip: "$MODIFIER_MAX_TRAINING_XP_FACTOR$: $RIGHT|+=%1$"
 
 experience_gain_factor_tooltip: "$MODIFIER_XP_GAIN_FACTOR$: $RIGHT|+=%1$"
 
 experience_gain_army_unit_factor_tooltip: "$MODIFIER_XP_GAIN_ARMY_UNIT_FACTOR$: $RIGHT|+=%1$"
 experience_gain_navy_unit_factor_tooltip: "$MODIFIER_XP_GAIN_NAVY_UNIT_FACTOR$: $RIGHT|+=%1$"
+experience_gain_air_unit_factor_tooltip: "$MODIFIER_XP_GAIN_AIR_UNIT_FACTOR$: $RIGHT|+=%1$"
+
+experience_loss_factor_tooltip: "$MODIFIER_EXPERIENCE_LOSS_FACTOR$: $RIGHT|-=%1$"
 
 army_unit_xp_gain_tooltip: "$MODIFIER_XP_GAIN_ARMY_UNIT$: $RIGHT|+=$ $MOD_DAILY$"
 army_unit_xp_gain_factor_tooltip: "$MODIFIER_XP_GAIN_ARMY_UNIT_FACTOR$: $RIGHT|+=%1$"
@@ -530,6 +536,7 @@ command_power_gain_tooltip: "$MODIFIER_COMMAND_POWER_GAIN$: $RIGHT|+=2$"
 command_power_gain_mult_tooltip: "$MODIFIER_COMMAND_POWER_GAIN_MULT$: $RIGHT|+=%0$"
 max_command_power_tooltip: "$MODIFIER_MAX_COMMAND_POWER$: $RIGHT|+=0$"
 max_command_power_mult_tooltip: "$MODIFIER_MAX_COMMAND_POWER_MULT$: $RIGHT|+=%0$"
+command_power_increase_tooltip: "Max. Command Power increase (£command_power ): $RIGHT|+=0$"
 
 land_doctrine_cost_factor_tooltip: "$MODIFIER_LAND_DOCTRINE_COST_FACTOR$: $RIGHT|-=%2$"
 air_doctrine_cost_factor_tooltip: "$MODIFIER_AIR_DOCTRINE_COST_FACTOR$: $RIGHT|-=%2$"
@@ -546,11 +553,12 @@ enemy_army_speed_factor_tooltip: "$MODIFIER_ENEMY_ARMY_SPEED_FACTOR$: $RIGHT|-=%
 
 army_attack_factor_tooltip: "$MODIFIERS_ARMY_ATTACK_FACTOR$: $RIGHT|+=%1$"
 breakthrough_factor_tooltip: "$MODIFIER_BREAKTHROUGH$: $RIGHT|+=%$"
-army_defence_tooltip: "$MODIFIERS_ARMY_DEFENCE_FACTOR$: $RIGHT|+=%1$"
-army_core_attack_tooltip: "$MODIFIERS_ARMY_CORE_ATTACK_FACTOR$: $RIGHT|+=%1$"
-army_core_defence_tooltip: "$MODIFIERS_ARMY_CORE_DEFENCE_FACTOR$: $RIGHT|+=%1$"
+army_defence_factor_tooltip: "$MODIFIERS_ARMY_DEFENCE_FACTOR$: $RIGHT|+=%1$"
+army_core_attack_factor_tooltip: "$MODIFIERS_ARMY_CORE_ATTACK_FACTOR$: $RIGHT|+=%1$"
+army_core_defence_factor_tooltip: "$MODIFIERS_ARMY_CORE_DEFENCE_FACTOR$: $RIGHT|+=%1$"
 land_night_attack_tooltip: "$MODIFIER_LAND_NIGHT_ATTACK$: $RIGHT|+=%1$"
 army_attack_against_major_factor_tooltip: "$MODIFIERS_ARMY_ATTACK_AGAINST_MAJOR_FACTOR$: $RIGHT|+=%1$"
+army_defence_against_major_factor_tooltip: "$MODIFIERS_ARMY_DEFENCE_AGAINST_MAJOR_FACTOR$: $RIGHT|+=%1$"
 
 army_infantry_attack_factor_tooltip: "$MODIFIER_ARMY_INFANTRY_ATTACK_FACTOR$: $RIGHT|+=%1$"
 army_infantry_defence_factor_tooltip: "$MODIFIER_ARMY_INFANTRY_DEFENCE_FACTOR$: $RIGHT|+=%1$"
@@ -608,6 +616,7 @@ air_night_penalty_tooltip: "$MODIFIER_AIR_NIGHT_PENALTY$: $RIGHT|-=%2$"
 air_strategic_bomber_night_penalty_tooltip: "$MODIFIER_AIR_STRAT_BOMBER_NIGHT_PENALTY$: $RIGHT|-=%2$"
 
 air_bombing_targetting_tooltip: "$MODIFIER_AIR_BOMBING_TARGETTING$: $RIGHT|+=%1$"
+air_strategic_bomber_defence_factor_tooltip: "$MODIFIER_STRATEGIC_BOMBER_DEFENCE_FACTOR$: $RIGHT|+=%2$"
 air_strategic_bomber_bombing_factor_tooltip: "$MODIFIER_STRATEGIC_BOMBER_BOMBING_FACTOR$: $RIGHT|+=%1$"
 ground_attack_factor_tooltip: "$MODIFIER_GROUND_ATTACK_FACTOR$: $RIGHT|+=%1$"
 port_strike_tooltip: "$MODIFIER_PORT_STRIKE_ATTACK_FACTOR$: $RIGHT|+=%1$"
@@ -685,6 +694,10 @@ navy_capital_ship_defence_factor_tooltip: "$MODIFIER_NAVY_CAPITAL_SHIP_DEFENCE_F
 navy_screen_attack_factor_tooltip: "$MODIFIER_NAVY_SCREEN_ATTACK_FACTOR$: $RIGHT|+=%2$"
 navy_screen_defence_factor_tooltip: "$MODIFIER_NAVY_SCREEN_DEFENCE_FACTOR$: $RIGHT|+=%2$"
 
+navy_carrier_air_attack_factor_tooltip: "$MODIFIER_NAVAL_CARRIER_AIR_ATTACK_FACTOR$: $RIGHT|+=%2$"
+navy_carrier_air_targetting_factor_tooltip: "$MODIFIER_NAVAL_CARRIER_AIR_TARGETTING_FACTOR$: $RIGHT|+=%2$"
+navy_carrier_air_agility_factor_tooltip: "$MODIFIER_NAVAL_CARRIER_AIR_AGILITY_FACTOR$: $RIGHT|+=%2$"
+
 naval_coordination_tooltip: "$MODIFIER_NAVAL_COORDINATION$: $RIGHT|+=%0$"
 
 mines_planting_by_fleets_factor_tooltip: "$MODIFIER_MINES_PLANTING_BY_FLEETS_FACTOR$: $RIGHT|+=%0$"
@@ -706,6 +719,9 @@ intel_network_gain_tooltip: "$MODIFIER_INTEL_NETWORK_GAIN$: $RIGHT|+=1$"
 intel_network_gain_factor_tooltip: "$MODIFIER_INTEL_NETWORK_GAIN_FACTOR$: $RIGHT|+=%0$"
 enemy_intel_network_gain_factor_over_occupied_tag_tooltip: "$MODIFIER_ENEMY_INTEL_NETWORK_GAIN_FACTOR_OVER_OCCUPIED_TAG$: $RIGHT|-=%0$"
 local_intel_to_enemies_tooltip: "$MODIFIER_LOCAL_INTEL_TO_ENEMIES$: $RIGHT|-=%0$"
+intel_from_operatives_factor_tooltip: "$MODIFIER_INTEL_FROM_OPERATIVES_FACTOR$: $RIGHT|+=%0$"
+decryption_factor_tooltip: "$MODIFIER_DECRYPTION_FACTOR$: $RIGHT|+=%2$"
+encryption_factor_tooltip: "$MODIFIER_ENCRYPTION_FACTOR$: $RIGHT|+=%2$"
 
 operative_slot_tooltip: "$MODIFIER_OPERATIVE_SLOT$: $RIGHT|+=0$"
 
@@ -790,6 +806,8 @@ navy_intel_to_others_tooltip: "$MODIFIER_NAVY_INTEL_TO_OTHERS$: $RIGHT|-=%%1$"
 airforce_intel_to_others_tooltip: "$MODIFIER_AIRFORCE_INTEL_TO_OTHERS$: $RIGHT|-=%%1$"
 
 drift_defence_factor_tooltip: "$MODIFIER_DRIFT_DEFENCE_FACTOR$: $RIGHT|+=%1$"
+
+sp_tag_radar_speed_factor_tooltip: "$sp_tag_radar_speed_factor$: $RIGHT|+=%1$"
 
 totalist_drift_tooltip: "$totalist_drift$: $RIGHT|+=$"
 syndicalist_drift_tooltip: "$syndicalist_drift$: $RIGHT|+=$"

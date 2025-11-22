@@ -1,7 +1,7 @@
 ﻿l_german:
 ## Übersetzt von Thylon ##
 models_warning.1: "WARNUNG – Fehlende DLCs!"
-models_warning.1.master_event: "Du verwendest den Submod 'Kaiserreich Models' ohne die erforderlichen DLCs. Dies kann zu fehlerhaften Modellen, Bildschirmflackern und anderen visuellen Problemen führen. Bitte entferne den betroffenen Submod oder kaufe die erforderlichen DLCs.[ModelsSubmodsEasternFrontWarning][ModelsSubmodsAlliedArmorWarning]"
+models_warning.1.master_event: "Du verwendest den Submod 'Kaiserreich Models' ohne die erforderlichen DLCs. Dies kann zu fehlerhaften Modellen, Bildschirmflackern und anderen visuellen Problemen führen. Bitte entferne den betroffenen Submod oder kaufe die erforderlichen DLCs.[ModelsSubmodsEasternFrontWarning][ModelsSubmodsAlliedArmorWarning][ModelsSubmodsAxisArmorWarning]"
 models_warning.1.missing_dlc: "Fehlende DLCs:\n\n"
 models_warning.1.axis_armor_pack: "$models_warning.1.missing_dlc$§oAxis Armor Pack§!\n\n$models_warning.1.master_event$"
 models_warning.1.aat: "$models_warning.1.missing_dlc$§oArms Against Tyranny§!\n\n$models_warning.1.master_event$"
@@ -17,3 +17,4 @@ models_warning.2: "WARNUNG - Fehlender Submod!"
 models_warning.2.desc: "Sie verwenden einen oder mehrere Kaiserreich-Modell-Submods, ohne dass der Submod §oKaiserreich Models - Base Game§! aktiviert ist. Dies kann zu fehlerhaften Modellen, Bildschirmflackern und anderen visuellen Problemen führen. Bitte aktivieren Sie den Submod oder abonnieren Sie ihn auf Steam."
 models_warning_eastern_front_tt: "\n\nSie verwenden den §oEastern Front Plane Pack§! Submod. Bitte stell sicher, dass du das DLC 'Eastern Front Plane Pack' gekauft hast, oder entferne den Submod. Dieser Submod kann zu §oBildschirmflackern§! führen, wenn er ohne das Flugzeugpaket verwendet wird!"
 models_warning_allied_armor_tt: "\n\nSie verwenden den §oAllied Armor Pack§! Submod. Bitte stell sicher, dass du das DLC 'Allied Armor Pack' gekauft hast, oder entferne den Submod."
+models_warning_axis_armor_tt: "\n\nSie verwenden den Submod §oAxis Armor Pack§!. Bitte stellen Sie sicher, dass Sie den DLC 'Axis Armor Pack' erworben haben, oder melden Sie sich ab."

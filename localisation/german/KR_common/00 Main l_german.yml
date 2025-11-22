@@ -57,7 +57,7 @@ KR_welcome_splash_tab_3_content: "§YBitte beachten Sie Folgendes:§!\n£white_d
 KR_welcome_splash_tab_3_content_0: "Kaiserreich legt Beschränkungen für diplomatische Aktionen wie §Rfrühe Kriege§!, §RFraktionen§! und §RAutonomiestufen§! fest.\nKaiserreich enthält §CDivisionsgrenzen§! und eine §CDemobilisierung§! Mechanik, um die Spielbarkeit im späteren Spiel zu verbessern.\nBei §YFriedenskonferenzen§! sollten Sie darauf achten, dass Sie alle Staaten annektieren. Sie können später Länder aus den annektierten Gebieten durch §CEntscheidungen§! entlassen.\nIm Menü §YIndividuelle Spielregeln§! können Sie viele Optionen einstellen, darunter §CLänderpfade§!, §CVorrang für Spieler bei Friedenskonferenzen§!, und das §CStaat und Land Transfer Tool§!.\nDas £kr_options_icon  §YOptionsmenu im Spiel§! wird durch einen Klick auf das Symbol in der rechten oberen Ecke geöffnet. Hier können Sie die §CHäufigkeit der Nachrichtenereignisse§! einstellen und die §CDynamische Umbenennung§! von Staaten und Siegpunkten aktivieren.\n§YDieses Fenster§! kann jederzeit wieder geöffnet werden, indem Sie auf das Symbol £help_button  oben rechts klicken."
 
 ## TAB 4 ##
-KR_CURRENT_VERSION: "1.5.3"
+KR_CURRENT_VERSION: "1.5.4"
 KR_CURRENT_VERSION_NAME: "Brave New World"
 KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ \"$KR_CURRENT_VERSION_NAME$\""
 KR_welcome_splash_tab_4_upper_header: "§YWillkommen bei $KR_CURRENT_VERSION_COMBINED$§!"
@@ -70,8 +70,8 @@ KR_welcome_splash_tab_4_content_2: "Blackleaf  ·  Cassrabbit  ·  Carmain  ·  
 KR_welcome_splash_tab_4_content_3: "Cody  ·  Deliberus  ·  DerEherneRächer  ·  DidSomethingOnce  ·  DuoDex  ·  El Daddy  ·  falling_robin"
 KR_welcome_splash_tab_4_content_4: "Fedex  ·  Flamefang  ·  Frill Shark  ·  Gaboemi  ·  Georgy  ·  Gre  ·  Hamfast  ·  Hazo  ·  Hexcron"
 KR_welcome_splash_tab_4_content_5: "Ido  ·  Igor050301  ·  JazzyHugh  ·  Jeankedezeehond  ·  jerv  ·  Jonny BL  ·  Kano  ·  katieluka"
-KR_welcome_splash_tab_4_content_6: "kergely  ·  KFateweaver  ·  Klyntar King  ·  Krčo  ·  lehmannmo  ·  Matoro  ·  McOmghall  ·  MrMano"
-KR_welcome_splash_tab_4_content_7: "~mw~ // miwaco.  ·  Noot  ·  Pelmen  ·  PPsyrius  ·  Purple Jinjo  ·  Rnk ·  Sasha  ·  Shiroe  ·  Sonny O'Cad"
+KR_welcome_splash_tab_4_content_6: "kergely  ·  KFateweaver  ·  Klyntar King  ·  Krčo  ·  lehmannmo  ·  marimari  ·  Matoro  ·  McOmghall"
+KR_welcome_splash_tab_4_content_7: "MrMano  ·  ~mw~ // miwaco.  ·  Noot  ·  Pelmen  ·  PPsyrius  ·  Rnk ·  Sasha  ·  Shiroe  ·  Sonny O'Cad"
 KR_welcome_splash_tab_4_content_8: "SuperGreenBeans  ·  tan_mi.ya  ·  The Alpha Dog  ·  The Don Golian  ·  The Irredentista"
 KR_welcome_splash_tab_4_content_9: "The Italian Jojo  ·  Toaster  ·  Vidyaország  ·  VladimirLemon  ·  Zimbabwe Salt Co."
 # Deutsches Übersetzungsteam:
@@ -239,6 +239,17 @@ is_in_economic_sphere_led_by_NOT: "Ist §Rnicht§! Teil von $COUNTRY|Y$s §YWirt
 
 is_leader_of_economic_sphere_of: "Ist der Anführer von $COUNTRY|Y$s §YWirtschaftssphäre§!"
 is_leader_of_economic_sphere_of_NOT: "Ist §Rnicht§! der Anführer von $COUNTRY|Y$s §YWirtschaftssphäre§!"
+
+economic_sphere_label_text: "[GetEconomicSphereName]"
+economic_sphere_label_none: "Keine Wirtschaftssphäre"
+
+economic_sphere_label_tooltip: "[PoliticalTabEconomicSphereLabel_GetTooltip]"
+economic_sphere_label_tooltip_leader: "§Y[ROOT.GetNameWithFlag]§! ist der Anführer von §Y[GetEconomicSphereName]§!."
+economic_sphere_label_tooltip_member: "§Y[ROOT.GetNameWithFlag]§! ist ein Mitglied von §Y[GetEconomicSphereName]§!, die geführt wird von §Y[?economic_sphere:members^0.GetNameWithFlag]§!."
+economic_sphere_label_tooltip_none: "§Y[ROOT.GetNameWithFlag]§! ist kein Mitglied einer Wirtschaftssphäre."
+
+economic_sphere_label_tooltip_delayed: "[PoliticalTabEconomicSphereLabel_GetTooltipDelayed]"
+economic_sphere_label_tooltip_delayed_text: "§L[GetEconomicSphereDesc]§!"
 
 economic_sphere_button_tooltip: "§Y[GetEconomicSphereName]§!"
 economic_sphere_button_tooltip_delayed: "§L[GetEconomicSphereDesc]§!"
@@ -628,6 +639,7 @@ generic_research_advances: "Forschungsfortschritte"
 
 generic_neutral_foreign_policy: "Neutrale Außenpolitik"
 generic_neutral_foreign_policy_desc: "Ob aus Pazifismus, Notwendigkeit oder einfachem Eigeninteresse, die außenpolitischen Ziele dieses Staates sind derzeit von dem Wunsch geprägt, ausländische Verwicklungen zu vermeiden. Die militärischen Aktivitäten konzentrieren sich auf defensive Überlegungen, und alle Aktionen auf der internationalen Bühne sind darauf ausgerichtet, sich so wenige Feinde wie möglich zu machen."
+deterrence: "Abschreckung"
 
 increase_state_category_by_one_level_tt: "Dies ermöglicht §G1§! zusätzlichen Bauplatz.\n"
 increase_state_category_by_two_levels_tt: "Dies ermöglicht §G2§! zusätzlichen Bauplatz.\n"
@@ -733,10 +745,6 @@ tech_river_boats: "Flussboote"
 tech_river_boats_terrain_effect: "  §Y$river$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.1|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
 
 tech_armored_car_spearhead: "Panzerwagen Speerspitze"
-
-tech_masterful_blitz: "$tactic_masterful_blitz$"
-
-tech_human_wave_tactics: "$tactic_human_wave_tactics$"
 
 tech_improved_decryption: "Verbesserte Entschlüsselung"
 

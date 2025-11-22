@@ -12,12 +12,12 @@ capitulation_events.1.a: "Übernehmt die Kontrolle über Mittelafrika - wir werd
 capitulation_events.1.b: "Es gibt keinen Ort wohin wir fliehen können. Kapituliert!"
 
 capitulation_events.2.t: "Militaristen drängen auf direkte Kontrolle"
-capitulation_events.2.d: "Infolge des Zusammenbruchs der deutschen Kriegsanstrengungen auf dem europäischen Festland haben sich die Schutztruppen mobilisiert und versuchen nun, die Macht von den verantwortlichen Bürokraten zu übernehmen. Ihre Führung hat angeordnet, dass [MAF.GetLeader] sofort als Gouverneur von Mittelafrika zurücktritt und dass die Verwaltungsaufgaben an Schutztruppen-Beamte übergeben werden, sobald diese in [THIS.Capital.GetCapitalVictoryPointName] eintreffen. Mittelafrika soll zu einem Werkzeug für die Rückgewinnung Deutschlands gemacht werden, und unser koloniales Projekt soll auf Eis gelegt werden."
+capitulation_events.2.d: "Infolge des Zusammenbruchs der deutschen Kriegsanstrengungen auf dem europäischen Festland haben sich die Schutztruppen mobilisiert und versuchen nun, die Macht von den verantwortlichen Bürokraten zu übernehmen. Ihre Führung hat angeordnet, dass [MAF.GetLeader] sofort als Gouverneur von Mittelafrika zurücktritt und dass die Verwaltungsaufgaben an Schutztruppen-Beamte übergeben werden, sobald diese in [THIS.Capital.GetCapitalVictoryPointName] eintreffen. Mittelafrika soll zu einem Werkzeug für die Rückgewinnung Deutschlands gemacht werden, und unser koloniales Projekt soll ausgesetzt werden."
 capitulation_events.2.a: "Glauben diese Verrückten, dass wir das noch gewinnen können? Unsere Loyalität gilt Berlin, wer auch immer es halten mag."
 capitulation_events.2.b: "Begrüßt die Schutztruppe und gebt ihren Forderungen nach."
 
 capitulation_events.3.t: "Bürokraten gewinnen Machtkampf in [MAF.Capital.GetCapitalVictoryPointName]"
-capitulation_events.3.d: "Die kolonialen Verwalter in Afrika sehen keinen Grund, zu diesem Zeitpunkt nachzugeben; der Krieg ist bereits verloren. Sie haben erklärt, dass sie in zwei Wochen auf denjenigen hören werden, der für [THIS.Capital.GetCapitalVictoryPointName] zuständig ist, und lassen uns keine andere Wahl, als vor unseren Feinden zu kapitulieren!"
+capitulation_events.3.d: "Die kolonialen Verwalter in Afrika sehen keinen Grund, zu diesem Zeitpunkt nachzugeben; der Krieg ist bereits verloren. Sie haben erklärt, dass sie in zwei Wochen auf denjenigen hören werden, der für [THIS.Capital.GetCapitalVictoryPointName] verantwortlich ist, und uns damit unserem Untergang gegenüber unseren Feinden überlassen!"
 capitulation_events.3.a: "Die undankbaren Schufte!"
 
 capitulation_events.4.t: "Patrioten unter Kontrolle in Mittelafrika"
@@ -25,7 +25,7 @@ capitulation_events.4.d: "Die Kolonialverwalter haben den Militaristen Platz gem
 capitulation_events.4.a: "Wir werden wiederkommen!"
 
 capitulation_events.5.t: "Der Krieg mit [SIA.GetNameDef]"
-capitulation_events.5.d: "Es scheint, dass wir uns mit dem anhaltenden Krieg im Fernen Osten befassen müssen, wobei die [SIA.GetAdjective] Armeen immer noch gegen unsere Kolonialkräfte in [GEA.GetNameDef] kämpfen. Sollen wir den Krieg fortsetzen, einen auf den wir mit ziemlicher Sicherheit keinen Großen Einfluss haben werden, da unsere Truppen zerstreuten und angeschlagenen sind, oder um Frieden bitten?"
+capitulation_events.5.d: "Es scheint, dass wir uns mit dem anhaltenden Krieg im Fernen Osten befassen müssen, wobei die [SIA.GetAdjective] Armeen immer noch gegen unsere Kolonialkräfte in [GEA.GetNameDef] kämpfen. Sollen wir einen Krieg fortsetzen, den unsere verstreuten und geschlagenen Truppen nicht gewinnen können, oder um Frieden bitten?"
 capitulation_events.5.a: "Gebt ihnen was sie wollen."
 capitulation_events.5.b: "Wir werden diesen Krieg fortsetzen, wenn wir müssen."
 
@@ -35,7 +35,7 @@ capitulation_events.6.a: "Ein ausgezeichneter Plan."
 capitulation_events.6.b: "Viel? Wir wollen ALLES."
 
 capitulation_events.7.t: "Der Krieg mit [JAP.GetNameDef]"
-capitulation_events.7.d: "Es scheint, dass wir uns mit dem anhaltenden Krieg im Fernen Osten befassen müssen, wobeidie  [JAP.GetAdjective] Armee immer noch gegen unsere Kolonialkräfte in [GEA.GetNameDef] kämpfen. Sollen wir den Krieg fortsetzen, einen auf den wir mit ziemlicher Sicherheit keinen Großen Einfluss haben werden, da unsere Truppen zerstreuten und angeschlagenen sind, oder um Frieden bitten?"
+capitulation_events.7.d: "Es scheint, dass wir uns mit dem anhaltenden Krieg im Fernen Osten befassen müssen, wobeidie  [JAP.GetAdjective] Armee immer noch gegen unsere Kolonialkräfte in [GEA.GetNameDef] kämpfen. Sollen wir einen Krieg fortsetzen, den unsere verstreuten und geschlagenen Truppen nicht gewinnen können, oder um Frieden bitten?"
 
 capitulation_events.8.t: "[From.GetNameDefCap] bittet um Frieden"
 capitulation_events.8.d: "Die versprengten deutschen Streitkräfte, die sich jetzt unter einem provisorischen Kommando aus Afrika versammeln, haben uns einen Großteil des Kolonialgebiets angeboten, das sie in [GEA.GetNameDef] besitzen, wenn wir den Krieg jetzt beenden, bevor sie weiter hineingezogen werden. In Anbetracht dessen, dass die Ablehnung des Abkommens bedeuten würde, das wir die Deutschen bis nach Afrika jagen müssten, sollten wir vielleicht über ihr Angebot nachdenken."
@@ -43,8 +43,8 @@ capitulation_events.8.a: "Ein ausgezeichneter Plan."
 capitulation_events.8.b: "Wir werden alles nehmen, was sie besitzen."
 
 capitulation_events.9.t: "[GEX.GetNameDefCap] bittet um Frieden"
-capitulation_events.9.d.siam: "Die so genannte Freie Deutsche Regierung, die sich bemüht, den Kampf von Afrika aus fortzusetzen, hat einen Frieden mit [From.GetNameDef] vereinbart. Dies wird die Abtretung eines Großteils unseres Territoriums beinhalten, und es scheint wenig Hoffnung zu geben, den Kampf alleine fortzusetzen, da so viele Reichsbeamte bereits ihre Ämter hier in [GEA.GetNameDef] aufgeben haben. Obwohl die lokalen Streitkräfte entschlossen sind, den Kampf fortzusetzen, ist ohne Unterstützung aus dem Heimatland eine schnelle Niederlage für diese Widerstandsnester wahrscheinlich unmittelbar bevorstehend."
-capitulation_events.9.d.japan: "Die so genannte Freie Deutsche Regierung, die sich bemüht, den Kampf von Afrika aus fortzusetzen, hat einen Frieden mit [From.GetNameDef] vereinbart. Dies wird unsere vollständige Annexion beinhalten, und es scheint wenig Hoffnung zu geben, den Kampf alleine fortzusetzen, da so viele Reichsbeamte bereits ihre Ämter hier in [GEA.GetNameDef] aufgeben haben. Obwohl die lokalen Streitkräfte entschlossen sind, den Kampf fortzusetzen, ist ohne Unterstützung aus dem Heimatland eine schnelle Niederlage für diese Widerstandsnester wahrscheinlich unmittelbar bevorstehend."
+capitulation_events.9.d.siam: "Die sogenannte Freie Deutsche Regierung, die bereits darum kämpft, den Kampf von Afrika aus fortzusetzen, hat einen Frieden mit [From.GetNameDef] ausgehandelt. Dies wird die Abtretung eines Großteils unseres Territoriums beinhalten, und es scheint wenig Hoffnung zu geben, den Kampf alleine fortzusetzen, da so viele Reichsbeamte bereits ihre Ämter hier in [GEA.GetNameDef] aufgeben haben. Obwohl die lokalen Streitkräfte entschlossen sind, den Kampf fortzusetzen, ist ohne Unterstützung aus dem Heimatland eine schnelle Niederlage für diese Widerstandsnester wahrscheinlich unmittelbar bevorstehend."
+capitulation_events.9.d.japan: "Die sogenannte Freie Deutsche Regierung, die bereits darum kämpft, den Kampf von Afrika aus fortzusetzen, hat einen Frieden mit [From.GetNameDef] ausgehandelt. Dies wird unsere vollständige Annexion beinhalten, und es scheint wenig Hoffnung zu geben, den Kampf alleine fortzusetzen, da so viele Reichsbeamte bereits ihre Ämter hier in [GEA.GetNameDef] aufgeben haben. Obwohl die lokalen Streitkräfte entschlossen sind, den Kampf fortzusetzen, ist ohne Unterstützung aus dem Heimatland eine schnelle Niederlage für diese Widerstandsnester wahrscheinlich unmittelbar bevorstehend."
 capitulation_events.9.a: "Zu den Rettungsbooten! Wir fahren nach Afrika!"
 capitulation_events.9.b: "Wir werden bis zum letzten Mann kämpfen!"
 
@@ -104,12 +104,6 @@ capitulation_events.35.a: "Ist die Geschichte dazu verdammt, sich zu wiederholen
 capitulation_events.40.t: "Paris ist gefallen"
 capitulation_events.40.d: "Es scheint, dass wir uns erneut der Ungnade der Besetzung durch eine fremde Macht stellen müssen, da Paris der feindlichen Kontrolle unterworfen ist. Der Widerstand in ganz Frankreich hat begonnen, aber wie lange können wir ihn aufrechterhalten? Es gibt viele sowohl innerhalb unserer Nation als auch außerhalb, die behaupten, wir seien nie keine legitime Regierung gewesen. Solange die Leute auf unserer Seite sind, haben wir immer noch eine Chance!"
 capitulation_events.40.a: "Wir haben noch nicht verloren!"
-
-capitulation_events.41.t: "Die französische Kapitulation"
-capitulation_events.41.d.ger: "Mit der Niederlage der französischen Kommune wurden wir gebeten, die Kontrolle über unsere kontrollierten Gebiete in Frankreich an das Deutsche Reich zu übergeben, um die Besetzung der Region besser zu organisieren und eine eventuelle französische Unterwerfung zu erzwingen."
-capitulation_events.41.d.nfa: "Mit der Niederlage der französischen Kommune wurden wir gebeten, die Kontrolle über unsere kontrollierten Gebiete in Frankreich an [NFA.GetNameDef], ihren eigentlichen Eigentümer, zu übergeben. Es wird an ihnen liegen, die Besatzung zu überwachen und mit dem anhaltenden Widerstand der Communard umzugehen."
-capitulation_events.41.a: "Natürlich!"
-capitulation_events.41.b: "Nein, wir werden behalten, was wir derzeit kontrollieren."
 
 capitulation_events.42.t: "Der französische Widerstand bricht zusammen"
 capitulation_events.42.d: "Die Besetzung von Paris wurde gefestigt, und die verschiedenen Widerstandsnester wurden endgültig besiegt und die Legitimität unserer Exilregierung in Stücke gerissen. Die französische Weigerung, zuzugeben, dass wir erneut besiegt wurden, ist endlich zusammengebrochen."

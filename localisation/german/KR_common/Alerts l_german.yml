@@ -29,15 +29,15 @@ faction_joining_USA_GER: "Obwohl sich die Vereinigten Staaten kaum vom Bürgerkr
 faction_joining_WCA_INT: "Jetzt, da die [WCA.GetNameDef] siegreich sind, wenden sie sich Europa zu und treten offiziell dem syndikalistischen Bündnis bei. Die Reaktionäre zittern, da die industrielle Macht Amerikas für die Revolution umgewidmet wird."
 
 #Central America
-faction_joining_COS_GER: "Durch die Verflechtung mit den Kaffeebaronen der ZKG wurde mit der [THIS.faction_leader.GetFactionName] ein Vertrag über militärische Unterstützung und den Zugang zu den Marineeinrichtungen von Puerto Limón unterzeichnet."
+faction_joining_COS_GER: "Durch die Verflechtung mit den Kaffeebaronen der ZKG wurde mit der [ROOT.FactionLeader.GetFactionName] ein Vertrag über militärische Unterstützung und den Zugang zu den Marineeinrichtungen von Puerto Limón unterzeichnet."
 faction_joining_COS_ENT: "Von seinem vertrauten Verbündeten in Washington im Stich gelassen, war San José gezwungen, sich weiter nördlich umzusehen, um seinen Schutz vor seinen räuberischen Nachbarn zu gewährleisten. Ottawa, das immer darauf bedacht ist, Freunde in der Nähe des Kanals zu haben, hat Costa Rica umarmt."
 
 #South America
-faction_joining_ARG_GER: "Nach dem erfolgreichen Handelsabkommen und der militärischen Zusammenarbeit zwischen den beiden Nationen hat [THIS.GetLeader] seine Teilnahme an der [THIS.faction_leader.GetFactionName]"
-faction_joining_ARG_ENT: "Durch kluge Diplomatie haben [THIS.GetLeader] und der [THIS.faction_leader.GetName] die Krise auf den Islas Malvinas gelöst und ihre Differenzen zugunsten der gemeinsamen Bedrohung beiseite geschoben."
+faction_joining_ARG_GER: "Nach dem erfolgreichen Handelsabkommen und der militärischen Zusammenarbeit zwischen den beiden Nationen hat [THIS.GetLeader] seine Teilnahme an der [ROOT.FactionLeader.GetFactionName]."
+faction_joining_ARG_ENT: "Durch kluge Diplomatie haben [THIS.GetLeader] und der [ROOT.FactionLeader.GetName] die Krise auf den Islas Malvinas gelöst und ihre Differenzen zugunsten der gemeinsamen Bedrohung beiseite geschoben."
 
 #Western Europe
-faction_joining_BEL_GER: "Wie im Vertrag von Arlon vereinbart, ist die neugeborene Nation Belgien offiziell der [THIS.faction_leader.GetFactionName] beigetreten, um ihre Souveränität vor syndikalistischen Falken zu schützen."
+faction_joining_BEL_GER: "Wie im Vertrag von Arlon vereinbart, ist die neugeborene Nation Belgien offiziell der [ROOT.FactionLeader.GetFactionName] beigetreten, um ihre Souveränität vor syndikalistischen Falken zu schützen."
 faction_joining_BEL_ENT: "Die Van Belgiës, die während des Weltkriegs auf der Yzer verbündet und mit der britischen Krone blutsverwandt waren, haben ihr Schicksal in die Hände ihrer alten Verbündeten gelegt, um ihr Überleben zu sichern."
 faction_joining_BEL_INT: "Die alte Ordnung zerbröckelt, der [GER.GetName] zerfällt, erhebt euch, ihr Opfer der Unterdrückung, und stürzt den Riesen zur Vergeltung für 1914!"
 
