@@ -72,7 +72,7 @@
  SIA_education_reform_idea: "Nationales Lehrplangesetz"
  SIA_education_reform_idea_desc: "Durch die Standardisierung des Bildungssystems nach einem nationalen Lehrplan können wir die landesweite Verbesserung der Alphabetisierungsrate sicherstellen."
  SIA_chulachomklao_academy: "[ROOT.GetSIAprefixEN] Militärakademie"
- SIA_chulachomklao_academy_desc: "Durch die Zusammenlegung der [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Heereskadettenanstalt (gegr. 1887) mit dem [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Heerespolytechnikum soll die neu geschaffene \"[ROOT.GetSIAprefixEN] Militärakademie\" durch übergreifende Ausbildung mit anderen Teilstreitkräften hoffentlich bessere Absolventen hervorbringen und gleichzeitig durch die Abschaffung veralteter/doppelter Kurse im neuen Lehrplan Kosten einsparen."
+ SIA_chulachomklao_academy_desc: "Durch die Zusammenlegung der [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Heereskadettenanstalt (gegr. 1887) mit dem [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Heerespolytechnikum soll die neu geschaffene \"[ROOT.GetSIAprefixEN] Militärakademie\" durch übergreifende Ausbildung mit anderen Teilstreitkräften hoffentlich bessere Absolventen hervorbringen und gleichzeitig durch die Abschaffung veralteter und doppelter Kurse im neuen Lehrplan Kosten einsparen."
  SIA_industrialmobilizationplan: "Industriemobilisierungsplan"
  SIA_industrialmobilizationplan_desc: "Unser Industriemobilisierungsplan wurde als Notfallplan erstellt, um dem Staat eine bessere Bewältigung des Krieges zu ermöglichen, und erlaubt uns, unsere industrielle Produktion um etwa 10% zu steigern."
  SIA_taharn_pran_idea: "Taharn Pran"
@@ -279,7 +279,7 @@
 
 ## Black Monday and Early political chaos # Max Reform 7 - Lowest 0: 0-2 = Khana Ratsadon coup, 3-4 = Civil War with Prajadhipok Bias (based on Boworadet Rebellion), 5-6 = success, 7 = Reactionary coup with Paribatra as HoS
  siam_events.4.t: "Schwarzer Montag trifft [SIA.GetSIAshortname]!"
- siam_events.4.d: "Aufgrund der starken Abhängigkeit von den Wirtschaftsbeziehungen mit Deutschland hat der Schwarze Montag [SIA.GetSIAshortname] schnell in einen wirtschaftlichen Abgrund gezogen, da die Nachfrage nach den wichtigsten landwirtschaftlichen Exportgütern stark gesunken ist und Lieferungen in den Lagerhäusern verrotten. Angestellte ausländischer Unternehmen werden kontinuierlich entlassen, während sich das Volk vor dem Großen Palast versammelt und auf Hoffnung wartet. Es ist offensichtlich, dass wir etwas gegen unsere wirtschaftliche Situation unternehmen müssen, bevor sie sich verschlimmert und uns weiter abstürzen lässt."
+ siam_events.4.d: "Aufgrund der starken Abhängigkeit von den wirtschaftlichen Beziehungen zu Deutschland hat der Schwarze Montag [SIA.GetSIAshortname] schnell in einen wirtschaftlichen Abgrund gestürzt, da die Nachfrage nach ihren wichtigsten Agrarexporten stark zurückgegangen ist und die Lieferungen in ihren Lagern verrotten. Angestellte ausländischer Unternehmen werden kontinuierlich entlassen, während sich die Menschen auf der Suche nach Hoffnung um den Grand Palace versammeln. Es ist offensichtlich, dass etwas gegen unsere wirtschaftliche Lage unternommen werden muss, damit sie sich nicht weiter verschlechtert und die Wirtschaft weiter in den Abgrund stürzt."
  siam_events.4.a: "Khun Prah!"
 
  siam_events.5.t: "Jasminreis-Probleme"
@@ -310,7 +310,7 @@
  siam_events.7.c: "Wir dürfen keine Schwäche zeigen!"
 
  siam_events.8.t: "Notsteuer"
- siam_events.8.d: "Obwohl wir viele weitreichende Reformen durchgeführt haben, fehlt uns immer noch das Geld, um den diesjährigen Haushalt ausreichend auszugleichen. Eine Notsteuer sollte diese Situation beheben, wird aber mehr Leid für unsere loyalen Untertanen bedeuten."
+ siam_events.8.d: "Obwohl viele umfassende Reformen durchgeführt wurden, reicht das Geld immer noch nicht aus, um den Haushalt dieses Jahres auszugleichen. Eine Notsteuer soll Abhilfe schaffen, wird aber den treuen Untertanen der Krone noch mehr Leid bringen."
  #+50, 0 reform:
  siam_events.8.a: "Erhöht den Einkommensteuersatz!"
  #+10, +1 reform:
@@ -601,9 +601,9 @@
  # Faction leader:
  siam_events.67.d.default: "Heute sandte uns [SIA.GetSIAshortname] einen diplomatischen Gesandten, um eine bedingte Kapitulation auszuhandeln. Ihre Truppen werden die Feindseligkeiten sofort einstellen, wichtige Gebiete abtreten und uns eine beträchtliche Summe an Kriegsreparationen zahlen - als Gegenleistung erbitten sie lediglich die Garantie ihrer Unabhängigkeit gegen zukünftige ausländische Aggressionen."
  # Faction member, leader accepted peace:
- siam_events.67.d.faction_peace: "Vor einigen Tagen sandte [SIA.GetSIAshortname] unserer Fraktion einen diplomatischen Gesandten, um eine bedingte Kapitulation auszuhandeln. Während [ROOT.faction_leader.GetNameDef] das [SIA.GetProperAdjective] Friedensangebot, welches Kriegsreparationen und die sofortige Einstellung der Feindseligkeiten zwischen unseren Streitkräften und den [SIA.GetProperAdjective] beinhaltet, akzeptiert hat - es liegt nun an uns, ob wir den Krieg alleine weiterführen wollen oder nicht."
+ siam_events.67.d.faction_peace: "Vor einigen Tagen sandte [SIA.GetSIAshortname] unserer Fraktion einen diplomatischen Gesandten, um eine bedingte Kapitulation auszuhandeln. Während [ROOT.FactionLeader.GetNameDef] das [SIA.GetProperAdjective] Friedensangebot, welches Kriegsreparationen und die sofortige Einstellung der Feindseligkeiten zwischen unseren Streitkräften und den [SIA.GetProperAdjective] beinhaltet, akzeptiert hat - es liegt nun an uns, ob wir den Krieg alleine weiterführen wollen oder nicht."
  # Faction member, leader refused peace:
- siam_events.67.d.faction_war: "Vor einigen Tagen sandte [SIA.GetSIAshortname] unserer Fraktion einen diplomatischen Gesandten, um eine bedingte Kapitulation auszuhandeln. Während [ROOT.faction_leader.GetNameDef] das [SIA.GetProperAdjective] Friedensangebot, welches Kriegsreparationen und die sofortige Einstellung der Feindseligkeiten zwischen unseren Streitkräften und den [SIA.GetProperAdjective] beinhaltet, ignoriert hat - es liegt nun an uns, ob wir den Krieg alleine weiterführen wollen oder nicht."
+ siam_events.67.d.faction_war: "Vor einigen Tagen sandte [SIA.GetSIAshortname] unserer Fraktion einen diplomatischen Gesandten, um eine bedingte Kapitulation auszuhandeln. Während [ROOT.FactionLeader.GetNameDef] das [SIA.GetProperAdjective] Friedensangebot, welches Kriegsreparationen und die sofortige Einstellung der Feindseligkeiten zwischen unseren Streitkräften und den [SIA.GetProperAdjective] beinhaltet, ignoriert hat - es liegt nun an uns, ob wir den Krieg alleine weiterführen wollen oder nicht."
  siam_events.67.a: "Ja, lasst uns diesen Krieg beenden."
  siam_events.67.b: "Nein, sie werden zerschmettert."
 
@@ -1124,7 +1124,7 @@
  SIA_taharpran: "Taharn Pran"
  SIA_taharpran_desc: "Auch bekannt als '[SIA.GetProperAdjective] Rangers' im Englischen, ist Taharn Pran eine paramilitärische leichte Infanterieeinheit der [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Armee, die aus Freiwilligen besteht, die für Grenzpatrouillen ausgebildet werden. Sie fungieren als schnelle Eingreiftruppe im Falle einer ausländischen Invasion. Lokale Freiwillige stellen auch sicher, dass wir immer den Geländevorteil gegenüber dem Feind haben werden."
  SIA_royalmilitaryacademy: "[ROOT.GetSIAprefixEN] Militärakademie"
- SIA_royalmilitaryacademy_desc: "Durch die Zusammenlegung der [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Armeekadettenanstalt (gegr. 1887) mit dem [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Armeepolitechnikum soll die neu geschaffene \"[ROOT.GetSIAprefixEN] Militärakademie\" durch die übergreifende Ausbildung mit anderen Militärzweigen hoffentlich bessere Absolventen hervorbringen und uns durch die Abschaffung veralteter/doppelter Kurse im neuen Lehrplan Geld sparen."
+ SIA_royalmilitaryacademy_desc: "Durch die Zusammenlegung der [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Armeekadettenanstalt (gegr. 1887) mit dem [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] Armeepolitechnikum soll die neu geschaffene \"[ROOT.GetSIAprefixEN] Militärakademie\" durch die übergreifende Ausbildung mit anderen Militärzweigen hoffentlich bessere Absolventen hervorbringen und uns durch die Abschaffung veralteter und doppelter Kurse im neuen Lehrplan Geld sparen."
  SIA_royalmunitionsfactory: "[ROOT.GetSIAprefixEN] Munitionsfabrik"
  SIA_royalmunitionsfactory_desc: "Mit Feinden an allen Fronten hatte [SIA.GetSIAshortname] während des Weltkriegs fast ihre gesamte Artilleriemunition verbraucht, ohne Möglichkeit der Nachversorgung. Dies führte dazu, dass die paranoid gewordene Logistikabteilung über die Jahre einen massiven Vorrat an Artilleriegranaten hortete, aber zusätzliche Munitionsfabriken würden uns im Falle eines länger andauernden Konflikts definitiv helfen."
  SIA_industrialmobilization: "Industriemobilisierungsplan"
