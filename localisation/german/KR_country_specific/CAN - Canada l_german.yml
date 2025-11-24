@@ -1,9 +1,6 @@
 ﻿l_german:
 canada_focus: "Schwerpunktbaum von Kanada"
 ### Übersetzt von Proho ###
-### Factions ###
-entente: "Entente" #erstellt von history\countries\IMP - Canada und UK.txt und GBR_spawn_uk Effekt
-
 ### Parties ###
  CAN_totalist_party: "WP"
  CAN_totalist_party_long: "Worker's Party (Arbeiterpartei)"
@@ -228,8 +225,6 @@ CAN_joined_the_ACW: "Kanada intervenierte in den Amerikanischen Bürgerkrieg"
 CAN_returned_land: "§YKanada§! gab nach dem Krieg amerikanisches Land an sie zurück (ohne Alaska und Neuengland, wenn sie bei Kriegsbeginn beschlagnahmt wurden)"
 CAN_will_return_ACW_land: "§RANMERKUNG: Wenn sie unser Ersuchen annehmen, der Entente beizutreten, werden wir alles amerikanische Land zurückgeben, das wir nicht selbst beanspruchen.§!\n"
 CAN_controls_state_uob: "§Y[CAN.GetNameDefCap]§! kontrolliert mindestens einen Staat auf dem Festland §Y[ENG.GetName]§!"
-CAN_loyalists_spawn_eng: "7 Divisionen der Loyalistischen Rebellen werden in Mittelengland entstehen."
-CAN_loyalists_spawn_sct: "7 Divisionen der Loyalistischen Rebellen werden in Nordschottland entstehen."
 CAN_reconcile_with_ireland_req: "Nach Abschluss von §Y$CAN_within_arms_reach$:§!"
 CAN_contact_northern_irish_loyalists_req: "Nach Abschluss von §Y$CAN_contact_loyalists$:§!"
 CAN_release_GBR: "§Y[GBR.GetNameDefCap]§! wird erstellt"
@@ -1976,14 +1971,6 @@ canada.251.a: "Oh nein!"
  entente_events.260.a: "Ein trauriger Tag"
  entente_events.260.b: "Hurra!"
  entente_events.260.c: "Interessant"
-
- entente_events.261.t: "[CAN_king_first_name] Kehrt zurück nach [From.GetNameDef]"
- entente_events.261.d: "Erstaunlicherweise hat sich die Lage in [From.GetNameDef] verbessert... und zwar so weit, dass [CAN_king_first_name] und die königliche Familie aus ihrem Exil in [king_come_from.GetNameDef] zurückgekehrt sind.\n\nDer König winkte den versammelten [From.GetAdjective]-Bürgern fröhlich zu, die alle begeistert waren, den Herrscher wieder auf [From.GetAdjective]-Boden zu sehen. Die meisten dachten, sie würden den König nie wieder sehen, und der heutige Tag erweist sich als historisch, denn die Zweifler wurden eines Besseren belehrt."
- entente_events.261.a: "Wir heißen ihn zu Hause willkommen!"
- entente_events.261.b: "Wir wünschen ihm alles Gute!"
- entente_events.261.c: "Hurra!"
- entente_events.261.e: "Ein vorübergehender Rückschlag"
- entente_events.261.f: "Interessant"
 
  entente_events.275.t: "Der Entente-Antrag"
  entente_events.275.d: "Beamte der [From.GetAdjective]-Regierung haben offiziell um die Nutzung unserer Hafenanlagen im südlichen Afrika gebeten, die sie dringend benötigen, um ihren Krieg gegen [SAF.GetNameDef] zu führen. Wir haben immer ein freundschaftliches Verhältnis zu den Briten gehabt, aber wollen wir uns in diesen Streit einmischen?"
