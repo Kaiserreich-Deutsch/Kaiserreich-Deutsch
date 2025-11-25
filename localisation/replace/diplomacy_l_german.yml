@@ -1,5 +1,63 @@
 ﻿l_german:
+###  Übersetzt von Proho  #####################################################
+### BEHALTEN SIE DIESE IN DER GLEICHEN REIHENFOLGE WIE IN DER VANILLA-DATEI ###
+###############################################################################
 
-#vanilla tooltips that indicate potential factions to join, removed in KR due to not being applicable
+#Vanilla-Tooltips, die mögliche Fraktionen anzeigen, denen man beitreten kann, wurden in KR entfernt, da sie nicht anwendbar sind.
  DW_VERY_LIKELY_JOIN_FACTION: ""
  POSSIBLE_FACTION_INVITES: ""
+
+#Der zweite Satz wurde entfernt, da KR- Marionetten diese ablehnen können.
+ DIPLOMACY_REQUEST_EXP_FORCE_ACTION_DESC: "Beantragen Sie die Kontrolle über eine Reihe von Divisionen von einer Marionette."
+
+#geändert, um die Rückrufaktion der Freiwilligen von KR zu berücksichtigen
+ SEND_VOLUNTEERS_INFO: "\nGesendete Divisionen werden während des Transports von der Karte entfernt und kehren nach Abschluss des Transfers in das Zielland auf die Karte zurück. Divisionen kehren automatisch zurück, wenn Sie in einen Krieg geraten oder das Zielland sich im Frieden befindet."
+
+#umbenannt, um den ideologischen Gruppen von KR zu entsprechen
+ DR_US_DEMOCRATIC: "§Y$US|U$§! ist Liberal: "
+ DR_US_NEUTRAL: "§Y$US|U$§! ist Konservativ: "
+ DR_US_COMMUNIST: "§Y$US|U$§! ist Sozialistisch: "
+ DR_US_FASCIST: "§Y$US|U$§! ist Reaktionär: "
+
+#auf britische Schreibweise geändert
+ DIPLOMACY_MESSAGE_CANCELED_TITLE: "$RELATION$ abgebrochen"
+ DIPLOMACY_MESSAGE_CANCELED_MESSAGE: "Die Beziehung zu $COUNTRY$ wurde §Rabgebrochen§! $REASON$"
+ LEND_LEASE_VEHICLES_BUTTON_DISABLED: "§TWir produzieren keine Ausrüstung für gepanzerte Fahrzeuge und haben auch keine auf Lager.§!"
+ INCOMING_LEND_LEASE_VEHICLES_BUTTON_DISABLED: "§TUns sind keine gepanzerten Fahrzeuge bekannt, die für den Export verfügbar sind.§!"
+ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_TITLE: "Lizenzproduktion anfordern"
+ DIPLOMACY_MANAGE_LICENSED_PRODUCTION_EXISTING_TITLE: "Lizenzproduktion verwalten"
+ DIPLOMACY_MESSAGE_DECLINED_MESSAGE_DIPLOMACY_REQUEST_LICENSED_PRODUCTION: "Unser Antrag auf Lizenzproduktion wurde von §Y$COUNTRY$§! §Rabgelehnt§!."
+ DIPLOMACY_MESSAGE_ACCEPTED_MESSAGE_DIPLOMACY_REQUEST_LICENSED_PRODUCTION: "Unser Antrag auf Lizenzproduktion wurde von §Y$COUNTRY$§! §Ggenehmigt§!."
+ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ACTION_DESC: "Beantragen Sie eine Lizenz zur Herstellung ausländischer Ausrüstung für den Eigenbedarf."
+ DIPLOMACY_MANAGE_LICENSED_PRODUCTION_EXISTING_ACTION_DESC: "Beantragen Sie neue Lizenzen oder beenden Sie derzeit aktive Lizenzen."
+ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_REQUEST_DESC: "$COUNTRY|UY$ beantragt die Lizenzproduktion von: $LIST|Y$\nWährend der Laufzeit der Lizenz werden sie $COST|Y$ £civ_factory zahlen."
+ DIPLOMACY_SHOW_ACTIVE_LICENSES: "Zeige §aktive Lizenzen§!"
+ DIPLOMACY_SHOW_AVAILABLE_LICENSES: "Zeige §Hverfügbare Lizenzen§!"
+ DIPLOMACY_CANCEL_LICENSED_PRODUCTION_TITLE: "Produktionslizenzen stornieren"
+ DIPLOMACY_CANCEL_LICENSED_PRODUCTION_ACTION_DESC: "Alle Produktionslizenzen, die gekündigt werden können, kündigen"
+ CAN_DEACTIVATE_AFTER: "Kann nicht storniert werden bis: $DATE|H$"
+ CAN_CANCEL_ALL_AFTER: "Keine Lizenz kann gekündigt werden, bis: $DATE|H$"
+ DR_LICENSE_ACCEPTANCE: "§Y$THEM|U$§! akzeptiert eher §YLizenzproduktionsanfragen§! von §Y$US$§!: "
+ DR_HAS_CORE_ON_ANY_STATE: "$COUNTRY|UY$ hat mindestens einen der Zielstaaten als Kernland.: "
+ BORDER_WAR_POWER_RATIO: "Militärische Stärke zu unseren Gunsten: $VAL|2%H$"
+ SEND_VOL_CONTROL_OF_HOME: "@$TAG$$WHO|UH$ muss sein Heimat-Schauplatz kontrollieren."
+ alert_expeditionary_force_delayed: "Sie haben Expeditionsstreitkräfte in diesem Schauplatz."
+ DIPLOMACY_WAR_NO_WAR_WARGOAL_NO_NEIGBOR_WARS: "Wir können nur ungerechtfertigte Kriege gegen unsere Nachbarn und Länder erklären, die sich bereits im Krieg mit Mitgliedern unserer Fraktion befinden und an sie angrenzen."
+ DIPLOMACY_PEACE_PROPOSAL_NOT_WARSCORE_ENOUGH: "Der Kriegspunktestand zugunsten der anderen Seite muss mindestens $LIMIT|%0Y$ betragen, derzeit $WARSCORE|%0Y$."
+ DR_COMMUNIST_NOT_NEIGHBOUR: "$THEM|UY$ ist nicht benachbart zur Fraktion.: "
+ free_license: "Kostenlose Lizenz"
+
+#fehlt in Vanille
+ DIPLOMACY_INTERNATIONAL_MARKET_ACCESS_RIGHTS: "Marktzugang"
+
+#Entfernen des Doppelpunkts am Ende
+ puppet_opinion: "Marionette"
+
+#großgeschriebene 'Meinung'
+ small_decrease: "Rückgang der Meinung"
+ medium_decrease: "Rückgang der Meinung"
+ large_decrease: "Rückgang der Meinung"
+ small_increase: "Anstieg der Meinung"
+ medium_increase: "Anstieg der Meinung"
+ large_increase: "Anstieg der Meinung"
+ huge_increase: "Enormer Anstieg der Meinung"
