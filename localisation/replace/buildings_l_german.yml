@@ -1,5 +1,8 @@
 ﻿l_german:
 ###  Übersetzt von Proho  ###
+### BEHALTEN SIE DIESE IN DER GLEICHEN REIHENFOLGE WIE IN DER VANILLA-DATEI ###
+########################################################
+
  landmark_statue_of_liberty: "Die Freiheitsstatue"
  landmark_statue_of_liberty_plural: "$landmark_statue_of_liberty$"
  landmark_statue_of_liberty_desc: "§LDie kolossale Freiheitsstatue steht stolz im New Yorker Hafen, der für Einwanderer, die ein neues Leben beginnen wollten, eine wichtige Anlaufstelle in den Vereinigten Staaten war. Seitdem verkörpert sie das amerikanische Ethos von Leben, Freiheit und dem Streben nach Glück.§!"
@@ -32,26 +35,41 @@
  landmark_hofburg_palace_plural: "$landmark_hofburg_palace$"
  landmark_hofburg_palace_desc: "§LDie Hofburg ist die wichtigste kaiserliche Residenz der Habsburger-Dynastie und ist auf den Heldenplatz, den Volksgarten und darüber hinaus auf das Parlament und das Wiener Rathaus ausgerichtet. Umgeben von einer Fülle von Parks ist sie das Herz der Habsburgermonarchie.§!"
 
- landmark_white_house: "Das Weiße Haus"
- landmark_white_house_plural: "$landmark_white_house$"
- landmark_white_house_desc: "§LDas Weiße Haus ist der Sitz der amerikanischen Präsidentschaft. Das Weiße Haus, das im District of Columbia steht, ist seit seiner Fertigstellung im Jahr 1800 zum Symbol der Republik geworden.§!"
-
- landmark_winter_palace: "Das Winterpalais"
- landmark_winter_palace_plural: "$landmark_winter_palace$"
- landmark_winter_palace_desc: "§LDas Winterpalais ist ein prächtiger Rokoko-Palast, der bis 1917 als offizielle Residenz des Hauses Romanow diente. Im Herzen von Petrograd gelegen, war der Palast Zeuge vieler wichtiger Ereignisse der russischen Revolutionen. Ein Teil des Palastes beherbergt das Eremitage-Museum, der Rest ist ein ausgedehnter Verwaltungskomplex. Das Winterpalais bleibt ein Symbol des Stolzes für ganz Russland.§!"
-
- landmark_vozhd_liberator: "Vozhd der Befreier"
- landmark_vozhd_liberator_plural: "$landmark_vozhd_liberator$"
- landmark_vozhd_liberator_desc: "§LVozhd der Befreier steht am Ufer des Flusses Charkow und ist eine 22 Meter hohe Bronzestatue von Boris Savinkov, die auf einem 29 Meter hohen neoklassizistischen Sockel sitzt. Der Vozhd, der einen langen Mantel trägt und streng nach Westen blickt, steht als heroische Figur über seiner Heimatstadt. Im Inneren des Sockels brennt ein ewiges Feuer für die unbekannten Soldaten, die im Großen Vaterländischen Krieg ihr Leben gelassen haben.§!"
-
  landmark_sadabad_complex: "Der Sa'dabad-Komplex"
  landmark_sadabad_complex_plural: "$landmark_sadabad_complex$"
- landmark_sadabad_complex_desc: "Der Sa'dabad-Komplex im Norden Teherans wurde von der Qajar-Dynastie erbaut und diente als königliche Residenz und Sitz der Macht. Seine Paläste und Gärten spiegeln die sich wandelnde politische Landschaft Persiens wider, vom Konservatismus bis zur Moderne."
+ landmark_sadabad_complex_desc: "§LDer Sa'dabad-Komplex im Norden Teherans wurde von der Qajar-Dynastie erbaut und diente als königliche Residenz und Sitz der Macht. Seine Paläste und Gärten spiegeln die sich wandelnde politische Landschaft Persiens wider, vom Konservatismus bis zur Moderne.§!"
 
  landmark_taj_mahal: "Der Tadsch Mahal"
  landmark_taj_mahal_plural: "$landmark_taj_mahal$"
- landmark_taj_mahal_desc: "Das Tadsch Mahal ist ein Meisterwerk der Mogul-Architektur. Seine prächtigen weißen Marmorkuppeln und die kunstvollen Gärten machen es zu einem der ikonischsten Symbole Indiens, zu einem Zeugnis kaiserlicher Macht und eines bleibenden Vermächtnisses."
+ landmark_taj_mahal_desc: "§LDas Tadsch Mahal ist ein Meisterwerk der Mogul-Architektur. Seine prächtigen weißen Marmorkuppeln und die kunstvollen Gärten machen es zu einem der ikonischsten Symbole Indiens, zu einem Zeugnis kaiserlicher Macht und eines bleibenden Vermächtnisses.§!"
 
  landmark_hagia_sophia: "Die Hagia Sophia"
  landmark_hagia_sophia_plural: "$landmark_hagia_sophia$"
- landmark_hagia_sophia_desc: "Die Hagia Sophia, die an der Kreuzung von Imperien steht, war eine byzantinische Kathedrale, eine osmanische Moschee und ein Symbol für die ständig wechselnden Herrscher von Konstantinopel. Ihre gewaltige Kuppel und die großen Säle spiegeln sowohl ihre spirituelle Bedeutung als auch die Ambitionen derjenigen wider, die die Stadt als ihr Eigentum beanspruchten."
+ landmark_hagia_sophia_desc: "§LDie Hagia Sophia, die an der Kreuzung von Imperien steht, war eine byzantinische Kathedrale, eine osmanische Moschee und ein Symbol für die ständig wechselnden Herrscher von Konstantinopel. Ihre gewaltige Kuppel und die großen Säle spiegeln sowohl ihre spirituelle Bedeutung als auch die Ambitionen derjenigen wider, die die Stadt als ihr Eigentum beanspruchten.§!"
+
+ landmark_nanjing_presidential_palace: "Der Präsidentenpalast von Nanjing"
+ landmark_nanjing_presidential_palace_plural: "$landmark_nanjing_presidential_palace$"
+ landmark_nanjing_presidential_palace_desc: "Der Präsidentenpalast in Nanjing ist ein alter, prestigeträchtiger Komplex, in dem nach dem Sturz der Qing-Dynastie der große Sun Yat-sen selbst vereidigt wurde."
+
+ landmark_forbidden_city: "Die Verbotene Stadt"
+ landmark_forbidden_city_plural: "$landmark_forbidden_city$"
+ landmark_forbidden_city_desc: "Als ehemaliger Sitz der Ming-Dynastie ist die Verbotene Stadt ein Symbol für Chinas lange Geschichte der Harmonie und des Wohlstands. Heute sind die darin enthaltenen Schätze und Artefakte aus Angst vor einer weiteren japanischen Invasion versteckt worden..."
+
+ landmark_great_wall_section: "Die Große Mauer"
+ landmark_great_wall_section_plural: "$landmark_great_wall_section$"
+ landmark_great_wall_section_desc: "Die Große Mauer, die über Hunderte von Jahren und unter Dutzenden von Regierungen erbaut wurde, ist ein logistisches Meisterwerk. Heute könnte man sagen, dass sie den großen Mut und die Trotzhaltung des chinesischen Volkes angesichts von Widrigkeiten symbolisiert."
+
+ landmark_tokyo_imperial_palace: "Der Kaiserpalast"
+ landmark_tokyo_imperial_palace_plural: "$landmark_tokyo_imperial_palace$"
+ landmark_tokyo_imperial_palace_desc: "Der Kaiserpalast in Tokio ist seit der Meiji-Restauration und der Absetzung des letzten Shogunats die Hauptresidenz des Kaisers. Er ist ein Symbol des Stolzes und der Ehrfurcht für das japanische Volk und inspiriert es zu harter Arbeit."
+
+ landmark_national_diet: "Das Gebäude des Nationalparlaments"
+ landmark_national_diet_plural: "$landmark_national_diet$"
+ landmark_national_diet_desc: "Das Kokkai-gijidō ist das Gebäude, in dem beide Kammern des japanischen Parlaments tagen. Es wurde Anfang 1936 fertiggestellt und besteht bis auf wenige Ausnahmen fast ausschließlich aus japanischen Baumaterialien. Sein Vorgängerbau wurde 1925 zerstört, als ein weiterer Brand die Gegend verwüstete. Obwohl das Parlamentsgebäude schon oft zerstört wurde, wird es dieses Mal sicherlich Jahrhunderte lang stehen bleiben!"
+
+ landmark_hakko_ichiu: "Das Hakkō-Ichiu-Denkmal"
+ landmark_hakko_ichiu_plural: "$landmark_hakko_ichiu$"
+ landmark_hakko_ichiu_desc: "Der Hakkō Ichiu-Turm wurde zum Gedenken an den 2.600. Jahrestag der Gründung Japans und als Denkmal errichtet, das das japanische Schicksal symbolisiert, die acht Ecken der Welt unter einem Dach zu vereinen."
+
+#Tippfehler korrigiert
+ BUILDING_SLOT_REMOVE_COOLDOWN: "In Kriegszeiten können Gebäude nur alle $DAYS|Y$ Tage entfernt werden. Die nächste Entfernung kann am $DATE|Y$ erfolgen."
