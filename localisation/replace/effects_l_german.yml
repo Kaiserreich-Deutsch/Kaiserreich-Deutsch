@@ -4,55 +4,55 @@
 ########################################################
 
 #missing line breaks
- EFFECT_ADD_VP: "Add $VALUE|H$£victory_points£ to $PROVINCE|H$.\n"
- EFFECT_SUBTRACT_VP: "Subtract $VALUE|H$£victory_points£ from $PROVINCE|H$.\n"
- EFFECT_SET_VP: "Set victory points of $PROVINCE|H$ to $VALUE|H$£victory_points.\n"
+ EFFECT_ADD_VP: "$VALUE|H$£victory_points£ zu $PROVINCE|H$ hinzufügen.\n"
+ EFFECT_SUBTRACT_VP: "$VALUE|H$£victory_points£ von $PROVINCE|H$ abziehen.\n"
+ EFFECT_SET_VP: "Siegpunkte von $PROVINCE|H$ auf $VALUE|H$£victory_points£ festlegen.\n"
 
 #changed to British spelling
- EFFECT_EVERY_NEIGHBOR_STATE_STARTS: "Every neighbour state"
- EFFECT_EVERY_NEIGHBOR_COUNTRY_STARTS: "Every neighbour country"
+ EFFECT_EVERY_NEIGHBOR_STATE_STARTS: "Jede benachbarte Region"
+ EFFECT_EVERY_NEIGHBOR_COUNTRY_STARTS: "Jedes Nachbarland"
 
 #rewritten for clarity
- EFFECT_ADD_CLAIM_BY: "@$TAG$$COUNTRY|H$ gains claim on the state."
- EFFECT_REMOVE_CLAIM_BY: "@$TAG$$COUNTRY|H$ loses claim on the state."
+ EFFECT_ADD_CLAIM_BY: "@$TAG$$COUNTRY|H$ erhält Anspruch auf den Staat."
+ EFFECT_REMOVE_CLAIM_BY: "@$TAG$$COUNTRY|H$ verliert Anspruch auf den Staat."
 
 #changed to British spelling
- EFFECT_DEMILITARIZED_ZONE: "Becomes a demilitarised zone."
- EFFECT_NOT_DEMILITARIZED_ZONE: "Will no longer be a demilitarised zone."
- EFFECT_CHANGE_LAW_mobilization_laws: "Change Mobilisation Law to '$NAME|Y$' which grants ($DESC$)."
+ EFFECT_DEMILITARIZED_ZONE: "Wird eine entmilitarisierte Zone."
+ EFFECT_NOT_DEMILITARIZED_ZONE: "Wird keine entmilitarisierte Zone mehr sein."
+ EFFECT_CHANGE_LAW_mobilization_laws: "Wehrpflichtgesetz zu „$NAME|Y$“ ändern. Effekt: ($DESC$)."
 
 #removed references to character owner country
- EFFECT_RETIRE_CHARACTER: "Retire $NAME|H$"
+ EFFECT_RETIRE_CHARACTER: "$NAME|H$ außer Dienst setzen"
  EFFECT_CONTEXT_LEADER: "$LEADER|H$"
 
 #missing line breaks
- EFFECT_CREATE_UNIT: "Create $OWNER|H$ unit.\n"
- EFFECT_CREATE_UNIT_LOCATION: "Create $OWNER|H$ unit in $STATE|H$.\n"
- EFFECT_CREATE_UNIT_WITH_COUNT: "Create $COUNT|H$ $OWNER|H$ divisions.\n"
- EFFECT_CREATE_UNIT_LOCATION_WITH_COUNT: "Create $COUNT|H$ $OWNER|H$ divisions in $STATE|H$.\n"
+ EFFECT_CREATE_UNIT: "$OWNER|H$ Einheit erstellen.\n"
+ EFFECT_CREATE_UNIT_LOCATION: "$OWNER|H$ Einheit in $STATE|H$ erstellen.\n"
+ EFFECT_CREATE_UNIT_WITH_COUNT: "$COUNT|H$ $OWNER|H$ Einheit erstellen.\n"
+ EFFECT_CREATE_UNIT_LOCATION_WITH_COUNT: "$COUNT|H$ $OWNER|H$ Einheit in $STATE|H$ erstellen.\n"
 
 #shortened tooltip
- EFFECT_SET_STATE_CATEGORY: "State becomes $CATEGORY|Y$."
- EFFECT_SET_LEADER_NATIONALITY: "joins $COUNTRYDEF|Y$"
+ EFFECT_SET_STATE_CATEGORY: "Kategorie des Staates wird $CATEGORY|Y$."
+ EFFECT_SET_LEADER_NATIONALITY: "tritt $COUNTRYDEF|Y$ bei"
 
 #added texticon
- EFFECT_UNLOCK_DECISION: "Unlocks Decision: £decision_icon_small $NAME|H$$EFFECT$"
- EFFECT_UNLOCK_DECISION_CATEGORY: "Unlocks £decision_icon_small $NAME|H$ Decisions."
+ EFFECT_UNLOCK_DECISION: "Wenn Entscheidung ausgewählt wird: £decision_icon_small $NAME|H$$EFFECT$"
+ EFFECT_UNLOCK_DECISION_CATEGORY: "Schaltet Entscheidungen frei: £decision_icon_small $NAME|H$"
 
 #rewritten to use the same pattern as EFFECT_UNLOCK_DECISION
- EFFECT_ACTIVATE_TARGETED_DECISION: "Enables Decision: £decision_icon_small $NAME|H$"
- EFFECT_REMOVE_TARGETED_DECISION: "Disables Decision: £decision_icon_small $NAME|H$"
+ EFFECT_ACTIVATE_TARGETED_DECISION: "Schaltet Entscheidungen frei: £decision_icon_small $NAME|H$"
+ EFFECT_REMOVE_TARGETED_DECISION: "Deaktiviert Entscheidungen: £decision_icon_small $NAME|H$"
 
 #missing line breaks
- EFFECT_ADD_DYMAMIC_MODIFIER: "Add $NAME|H$ which grants:\n$DESC$\n"
- EFFECT_ADD_DYMAMIC_MODIFIER_WITH_DAYS: "Add $NAME|H$ ($NUM|H$ days) which grants:\n$DESC$\n"
- EFFECT_REMOVE_DYMAMIC_MODIFIER: "Remove $NAME|H$ which granted:\n$DESC$\n"
- EFFECT_SET_COLLABORATION: "Set collaboration in $TARGET|H$: $VALUE|+%0$\n"
- EFFECT_ADD_COLLABORATION: "Increase collaboration in $TARGET|H$: $VALUE|+%0$\n"
- EFFECT_REMOVE_COLLABORATION: "Decrease collaboration in $TARGET|H$: $VALUE|-%0$\n"
+ EFFECT_ADD_DYMAMIC_MODIFIER: "$NAME|H$ wird hinzugefügt. Verleiht:\n$DESC$\n"
+ EFFECT_ADD_DYMAMIC_MODIFIER_WITH_DAYS: "$NAME|H$ wird hinzugefügt ($NUM|H$ Tage). Verleiht:\n$DESC$\n"
+ EFFECT_REMOVE_DYMAMIC_MODIFIER: "$NAME|H$ wird entfernt. Hat verliehen:\n$DESC$\n"
+ EFFECT_SET_COLLABORATION: "Kollaboration in $TARGET|H$ festlegen: $VALUE|+%0$\n"
+ EFFECT_ADD_COLLABORATION: "Kollaboration in $TARGET|H$ erhöhen: $VALUE|+%0$\n"
+ EFFECT_REMOVE_COLLABORATION: "Kollaboration in $TARGET|H$ verringern: $VALUE|-%0$\n"
 
 #edited for clarity
- CHANGE_DIV_TEMPLATE_EFFECT: "Division switches template to $TEMPLATE|H$"
+ CHANGE_DIV_TEMPLATE_EFFECT: "Division wechselt Vorlage zu $TEMPLATE|H$"
 
 #changed to British spelling
- EFFECT_SET_UNIT_ORGANIZATION: "Set unit organisation to $VAL|H%$"
+ EFFECT_SET_UNIT_ORGANIZATION: "Setzt die Einheitenorganisation auf $VAL|H%$"

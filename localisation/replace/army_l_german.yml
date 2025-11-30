@@ -4,31 +4,31 @@
 ########################################################
 
 #changed to British spelling
- ARMY_DIVISIONS_THEATRES: "Active in $N$ Theatre(s)"
- ARMY_DIVISONS_FILTER_DESC: "Enter a part of Unit name, Division Type, Theatre, State, Leader name, Equipment name or Level name"
- ARMY_SORT_THEATRE: "Theatre"
+ ARMY_DIVISIONS_THEATRES: "Aktiv an $N$ Kriegsschauplätzen"
+ ARMY_DIVISONS_FILTER_DESC: "Geben Sie einen Teil des Einheitennamens, Divisionstyps, Kriegsschauplatzes, Regionennamens, Anführernamens, Ausrüstungsnamens oder der Stufenbezeichnung ein"
+ ARMY_SORT_THEATRE: "Kriegsschauplatz"
 
 #fixed typo
- PLAN_VALUE_NO_THREAT: "§GNo detectable threats§!"
- MILITA_ARMY_NAME: "$TEMPLATE$ Militia $NUMBER$"
+ PLAN_VALUE_NO_THREAT: "§GKeine erkennbaren Bedrohungen§!"
+ MILITA_ARMY_NAME: "$TEMPLATE$-Miliz $NUMBER$"
 
 #changed to British spelling
- SWITCH_STRATEGIC_REDEPLOYMENT_MODE_DETAILED: "Strategic redeployment is a fast way of relocating troops. They will try to utilise existing §YRailways§! and §YInfrastructure§! in order to quickly reach their destination, but will receive a $ORG|R%$ organisation penalty while moving in this mode."
- THEATER_GROUP_NAME_PATTERN: "$ADJECTIVE$ Theatre $NUMBER$"
- NEW_THEATER_GROUP: "New Theatre"
- THEATER_GROUP_ASSIGN_CLICK_BUTTON_DESC: "§GClick to select all units in the current theatre§!"
- THEATER_GROUP_ASSIGN_RIGHT_CLICK_BUTTON_DESC: "§GRight-Click to assign army to the current theatre§!"
- THEATER_GROUP_ASSIGN_TO_VOLUNTEERS_DESC: "§RCannot assign non-volunteer armies to volunteer theatre§!"
- THEATER_GROUP_ASSIGN_FROM_VOLUNTEERS_DESC: "§RCannot assign volunteer armies to non-volunteer theatre§!"
+ SWITCH_STRATEGIC_REDEPLOYMENT_MODE_DETAILED: "Die strategische Versetzung ist eine schnelle Möglichkeit, Truppen zu verlagern. Sie nutzen bestehende §YEisenbahnen§! und §YInfrastruktur§!, um den Zielort schnell zu erreichen, erhalten jedoch einen Malus von $ORG|R%$ auf die Organisation, so lange sie sich in diesem Modus bewegen."
+ THEATER_GROUP_NAME_PATTERN: "$ADJECTIVE$er Kriegsschauplatz $NUMBER$"
+ NEW_THEATER_GROUP: "Neuer Kriegsschauplatz"
+ THEATER_GROUP_ASSIGN_CLICK_BUTTON_DESC: "§GKlicken Sie, um alle Einheiten im aktuellen Kriegsschauplatz auszuwählen§!"
+ THEATER_GROUP_ASSIGN_RIGHT_CLICK_BUTTON_DESC: "§GRechtsklicken, um die Armee dem aktuellen Kriegsschauplatz zuzuweisen§!"
+ THEATER_GROUP_ASSIGN_TO_VOLUNTEERS_DESC: "§REinem freiwilligen Kriegsschauplatz können keine nicht-freiwilligen Armeen zugewiesen werden§!"
+ THEATER_GROUP_ASSIGN_FROM_VOLUNTEERS_DESC: "§REinem nicht-freiwilligen Kriegsschauplatz können keine freiwilligen Armeen zugewiesen werden§!"
 
 #fixed typo
- THEATER_ORDER_GROUP_BAD_COMBATS: "$NAME|H$: $COUNT|0R$ combats"
+ THEATER_ORDER_GROUP_BAD_COMBATS: "$NAME|H$: $COUNT|0R$ Gefechte"
 
 #changed to British spelling
- THEATER_GROUP_OFFENSIVE_TROUBLES: "§RThis theatre is having problems in $BAD_COUNT|H$ offensive combat, out of $COUNT|H$ total.\nProblematic combat:§!\n$LIST$"
- THEATER_GROUP_DEFENSIVE_TROUBLES: "§RThis theatre is having problems in $BAD_COUNT|H$ defensive combat, out of $COUNT|H$ total.\nProblematic combat:§!\n$LIST$"
- THEATER_GROUP_OFFENSIVE_NO_TROUBLES: "§GOur offence is going well§!"
- THEATER_GROUP_DEFENSIVE_NO_TROUBLES: "§GOur defence is going well§!"
- NEW_THEATER_GROUP_BUTTON_DESC: "§GClick to create new theatre and assign all selected armies to it§!"
- THEATER_GROUP_DISBAND_BUTTON_DESC: "Disband Theatre"
- THEATER_GROUP_DISBAND_TITLE: "Disband Theatre"
+ THEATER_GROUP_OFFENSIVE_TROUBLES: "§R$BAD_COUNT|H$ von $COUNT|H$ der offensiven Gefechte in diesem Kriegsschauplatz haben ein Problem.\nProblematische Gefechte:§!\n$LIST$"
+ THEATER_GROUP_DEFENSIVE_TROUBLES: "§R$BAD_COUNT|H$ von $COUNT|H$ der defensiven Gefechte in diesem Kriegsschauplatz haben ein Problem.\nProblematische Gefechte:§!\n$LIST$"
+ THEATER_GROUP_OFFENSIVE_NO_TROUBLES: "§GUnsere Offensive läuft gut§!"
+ THEATER_GROUP_DEFENSIVE_NO_TROUBLES: "§GUnsere Defensive läuft gut§!"
+ NEW_THEATER_GROUP_BUTTON_DESC: "§GKlicken Sie, um eine neue Kriegsschauplatzgruppe zu erstellen und ihr alle ausgewählten Gruppen zuzuweisen§!"
+ THEATER_GROUP_DISBAND_BUTTON_DESC: "Kriegsschauplatzgruppe auflösen"
+ THEATER_GROUP_DISBAND_TITLE: "Kriegsschauplatz auflösen"
