@@ -484,7 +484,9 @@
 
 ### Republic Decisions ###
  UKR_republic_decisions: "Republikanische Regierung"
- UKR_republic_decisions_desc: "Die letzten Wahlen haben uns gezwungen, Kompromisse einzugehen, Versprechungen zu machen und uns mit einer anderen Partei zusammenzuschließen. Es geht nur darum, Maßnahmen zu ergreifen und dafür zu sorgen, dass die Koalitionsregierung der wiederhergestellten Volksrepublik den Sturm überstehen und eine populäre, stabile Regierung gewährleisten kann.\n\n[UKR_republican_decision_category_text]\n\n"
+ UKR_republic_decisions_desc: "Die letzten Wahlen haben uns gezwungen, Kompromisse einzugehen, Versprechungen zu machen und uns mit einer anderen Partei zusammenzuschließen. Es geht nur darum, Maßnahmen zu ergreifen und dafür zu sorgen, dass die Koalitionsregierung der wiederhergestellten Volksrepublik den Sturm überstehen und eine populäre, stabile Regierung gewährleisten kann.\n\nZugeständnisse werden notwendig sein, um unsere Koalitionspartner zufrieden zu stellen [UKR_postwar_coalition_category_text]. Je nach ihrer Haltung uns gegenüber erhalten wir §Cverschiedene Modifikatoren§!. Diese Modifikatoren können sich im Laufe der Zeit durch §YSchwerpunkte§! und §YEreignisse§! verändern.\n\nDerzeit ist ihre Haltung uns gegenüber [UKR_coalition_partner_attitude] ([?UKR_coalition_partner_attitude|Y0])\n\n"
+ UKR_usdrp_coalition_tt: " in die §SUSDRP§!"
+ UKR_urdp_coalition_tt: " in die §lURDP§!"
  UKR_republic_decisions_desc_part_two: "[UKR_republic_decisions_second_half]"
  UKR_republic_decisions_part_two_urdp: "Wir müssen auch sicherstellen, dass die Fraktionsbildung innerhalb der §lURDP§! nicht außer Kontrolle gerät. Wenn eine der Fraktionen der Partei zu wenig Einfluss hat, kann dies zu einer §RRevolution von innen§! führen! - aber zuweilen kann ein §Ghoher§! Einfluss nützlich sein.\n\nDer §CEinfluss§! von §mRechts§! ist [UKR_urdp_right_influence_level].\nDer §CEinfluss§! des §lZentrums§! ist [UKR_urdp_centre_influence_level].\nDer §CEinfluss§! der §SLinken§! ist [UKR_urdp_left_influence_level]."
  UKR_republic_decisions_part_two_usdrp: "Durch §HEvents§! und §HSchwerpunkte§! können wir auch den §1Idealismus§! in der §SPartei§! beeinflussen. Jede zusätzliche Stufe wird die Auswirkungen unseres politischen Fokusbaums §Gverstärkten§!. Der §1Idealismus§! kann von §Y-4§! bis §Y+6§! variieren, wobei die Verstärkung bei §Y+4§! endet.\n\nJe höher die Stufe, desto stärker sind unsere Schwerpunkte betroffen."
@@ -505,21 +507,16 @@
  UKR_urdp_moderate: "§MModerat§!"
  UKR_urdp_low: "§PNiedrig§!"
 
- UKR_republican_decision_category_urdp: "Zugeständnisse werden notwendig sein, um unsere Koalitionspartner zu befriedigen[UKR_postwar_coalition_category_text]. Je nach ihrer Haltung uns gegenüber werden wir §CVariable Modifikatoren§! erhalten. Diese Modifikatoren werden sich im Laufe der Zeit durch §YSchwerpunkte§! und §YEreignisse§! verändern können.\n\nDerzeit ist ihre Haltung uns gegenüber [UKR_usdrp_attitude] (§Y[?UKR_usdrp_attitude]§!)."
- UKR_republican_decision_category_usdrp: "Zugeständnisse werden notwendig sein, um unsere Koalitionspartner zu befriedigen[UKR_postwar_coalition_category_text]. Je nach ihrer Haltung uns gegenüber werden wir §CVariable Modifikatoren§! erhalten. Diese Modifikatoren werden sich im Laufe der Zeit durch §YSchwerpunkte§! und §YEreignisse§! verändern können.\n\nDerzeit ist ihre Haltung uns gegenüber [UKR_urdp_attitude] (§Y[?UKR_urdp_attitude]§!)."
- UKR_usdrp_coalition_tt: " in die §SUSDRP§!"
- UKR_urdp_coalition_tt: " in die §lURDP§!"
-
- ukraine_republican_level_0: "[UKR_usdrp_uncooperative_activated]UnKooperativ§!"
- ukraine_republican_level_1: "[UKR_usdrp_indifferent_activated]Gleichgültig§!"
- ukraine_republican_level_2: "[UKR_usdrp_cooperative_activated]Kooperativ§!"
- ukraine_republican_level_3: "[UKR_usdrp_amenable_activated]Fügsam§!"
+ ukraine_republican_level_0: "[UKR_coalition_partner_uncooperative_activated]UnKooperativ§!"
+ ukraine_republican_level_1: "[UKR_coalition_partner_indifferent_activated]Gleichgültig§!"
+ ukraine_republican_level_2: "[UKR_coalition_partner_cooperative_activated]Kooperativ§!"
+ ukraine_republican_level_3: "[UKR_coalition_partner_amenable_activated]Fügsam§!"
 
  UKR_uncooperative_active: "§R"
  UKR_indifferent_active: "§O"
  UKR_cooperative_active: "§G"
  UKR_amenable_active: "§C"
- UKR_usdrp_relation_inactive: "§L"
+ UKR_relation_inactive: "§L"
 
  #Die USDRP- und URDP-Koalitionsvariablen werden gemeinsam genutzt, hoe
  ukraine_republican_level_0_desc: "Dieses Beziehungsniveau reicht von §Y0§!-§Y5§!.\n\n[UKR_coalition_partner_uncooperative_ppg] [UKR_coalition_partner_uncooperative_sf] [UKR_coalition_partner_uncooperative_wsf] [UKR_coalition_partner_uncooperative_pfsef] [UKR_coalition_partner_uncooperative_icf]" #Unkooperativ
@@ -570,10 +567,11 @@
 
  UKR_urdp_amenable_industrialisation_tt: "\nIndustriepunkte §Y+3§! Alle §Y150 Tage§!" #Soclib Only
 
- UKR_usdrp_uncooperative: "§RUnKooperativ§!"
- UKR_usdrp_indifferent: "§OGleichgültig§!"
- UKR_usdrp_cooperative: "§GKooperativ§!"
- UKR_usdrp_amenable: "§CFügsam§!"
+ UKR_coalition_partner_attitude_uncooperative: "§RUnKooperativ§!"
+ UKR_coalition_partner_attitude_indifferent: "§OGleichgültig§!"
+ UKR_coalition_partner_attitude_cooperative: "§GKooperativ§!"
+ UKR_coalition_partner_attitude_amenable: "§CFügsam§!"
+
  UKR_galician_negotiations: "Galizien Verhandlungen"
  UKR_galician_negotiations_desc: "Nachdem die Demokratie gesichert ist, ist es an der Zeit, dass wir uns mit unseren gleichgesinnten Brüdern in Galizien wiedervereinigen. Die Österreicher haben ihren Segen zur ukrainischen Vereinigung gegeben, aber wir müssen noch sehen, wie weit ihre Versprechen reichen."
  UKR_revolution_within_a_revolution: "Revolution innerhalb einer Revolution"
@@ -722,8 +720,8 @@
 #Republic Election Mechanic
  UKR_republic_election_mechanic: "Wahlen zum Nationalen Zbory"
  UKR_republic_election_mechanic_desc: "Nach fast zwei Jahrzehnten unter der diktatorischen Herrschaft des Hetman hält unser Land endlich seine ersten wirklich demokratischen Wahlen ab. Millionen von Ukrainern werden bald ihre Stimme abgeben und entscheiden, wer sie in den kommenden Jahren führen wird.\n\nParteien aller Couleur haben ihre Kandidatur angekündigt, aber nur drei haben eine Chance, eine Regierung zu bilden. Sie sind der §lURDP§!, der §SUSDRP§! und der §RRDS§!. Derjenige, der die Mehrheit erhält, wird mit den anderen Parteien im Nationalen Zbory eine Koalition aushandeln.\n\nNatürlich müssen wir, um den Sieg zu erringen, die Unterstützung des Volkes gewinnen. §CGelegenheiten, die Herzen und Köpfe der verschiedenen Wählergruppen zu gewinnen, werden sich regelmäßig bieten§!.\n\nFührende Partei: [UKR_republic_elections_get_leading_party]\n\nVoraussichtliches Wahlergebnis: [UKR_republic_elections_likely_election_result] [UKR_election_relations] [UKR_republic_rds_elections_factionalism]"
- UKR_election_relations_1: "\n\nUnsere Wahlentscheidung wird auch unsere Beziehung zu unserem wahrscheinlichen zukünftigen Koalitionspartner, der §SUSDRP§! beeinflussen. Vom Besten bis zum Schlechtesten können sie §RUnkooperativ§!, §OGleichgültig§!, §GKooperativ§!, oder §CZugänglich§! uns gegenüber sein. Es wäre klug, sie zu umwerben und gleichzeitig selbst einen Sieg zu erringen, denn positive Beziehungen haben zahlreiche positive Auswirkungen.\n\nDerzeit ist ihre Haltung uns gegenüber [UKR_usdrp_attitude]."
- UKR_election_relations_2: "\n\nUnsere Wahlentscheidung wird auch unser Verhältnis zu unserem wahrscheinlichen künftigen Koalitionspartner, der §lURDP§! beeinflussen. Von gut bis schlecht können sie uns gegenüber §RUnkooperativ§!, §OGleichgültig§!, §GKooperativ§!, oder §CZugänglich§! sein. Es wäre klug, sie zu umwerben und gleichzeitig selbst einen Sieg zu erringen, denn positive Beziehungen haben zahlreiche positive Auswirkungen.\n\nCurrently, their attitude towards us is [UKR_urdp_attitude]."
+ UKR_election_relations_1: "\n\nUnsere Wahlentscheidung wird auch unsere Beziehung zu unserem wahrscheinlichen zukünftigen Koalitionspartner, der §SUSDRP§! beeinflussen. Vom Besten bis zum Schlechtesten können sie §RUnkooperativ§!, §OGleichgültig§!, §GKooperativ§!, oder §CZugänglich§! uns gegenüber sein. Es wäre klug, sie zu umwerben und gleichzeitig selbst einen Sieg zu erringen, denn positive Beziehungen haben zahlreiche positive Auswirkungen.\n\nDerzeit ist ihre Haltung uns gegenüber [UKR_coalition_partner_attitude]."
+ UKR_election_relations_2: "\n\nUnsere Wahlentscheidung wird auch unser Verhältnis zu unserem wahrscheinlichen künftigen Koalitionspartner, der §lURDP§! beeinflussen. Von gut bis schlecht können sie uns gegenüber §RUnkooperativ§!, §OGleichgültig§!, §GKooperativ§!, oder §CZugänglich§! sein. Es wäre klug, sie zu umwerben und gleichzeitig selbst einen Sieg zu erringen, denn positive Beziehungen haben zahlreiche positive Auswirkungen.\n\nCurrently, their attitude towards us is [UKR_coalition_partner_attitude]."
  UKR_rds_factionalism_elections: "\n\nDie §CDemokratische Arbeiter-Union§!, die sich aus der §RUkrainischen Partei der Sozialistisch-Revolutionären§! und dem §RRat-Demokratische Arbeiterunion§! zusammensetzt, wird während der Wahlsaison sicherlich ihre eigenen Interessen durchsetzen. Obwohl es wichtiger sein wird, sich später mit dieser Fraktionsbildung zu befassen, können wir vielleicht für den Moment versuchen, die Interessen der beiden Parteien auszugleichen?\nEs gibt vier Hauptkräfte in der Koalition, und diejenige, die die höchste Zahl hat, wird die dominierende Kraft sein. Sie sind unten mit ihren jeweiligen aktuellen Stärken aufgeführt. Sehen Sie sich Ihren §Hfocus-Baum§! an, um einige der Auswirkungen zu verstehen, auch wenn nach unserem Sieg weitere hinzukommen werden.\n\n- §RR-RB§! §oRadikale§! (§Y[?UKR_rrb_radical_var]§!)\n- §RR-RB§! §SModerate§! (§Y[?UKR_rrb_moderate_var]§!)\n- §RUPS-R§! §oRadikale§! (§Y[?UKR_upsr_radical_var]§!)\n- §RUPS-R§! §SModerate§! (§Y[?UKR_upsr_moderate_var]§!)"
 
  UKR_republic_elections_soclib_socdem_coalition: "§lURDP§!-geführte §SKoalition§!"
@@ -738,10 +736,10 @@
  UKR_republic_socialists_gain_pop_tt: "Der §RRDS§! wird §Ggewinnen§! an Popularität."
  UKR_republic_socialists_lose_pop_tt: "Der §RRDS§! wird §Rverlieren§! an Popularität."
 
- UKR_urdp_usdrp_relationship_worsen: "Die Beziehung zwischen dem §lURDP§!und dem §SUSDRP§! wird §Rschlechter§!. (§R[?UKR_usdrp_attitude_change]§!)"
- UKR_usdrp_urdp_relationship_worsen: "Die Beziehung zwischen dem §SUSDRP§!und dem §lURDP§! wird §Rschlechter§!. (§R[?UKR_urdp_attitude_change]§!)"
- UKR_usdrp_urdp_relationship_improve: "Die Beziehung zwischen dem §SUSDRP§!und dem §lURDP§! wird §Gbesser§!. (§G+[?UKR_urdp_attitude_change]§!)"
- UKR_urdp_usdrp_relationship_improve: "Die Beziehung zwischen dem §lURDP§!und dem §SUSDRP§! wird §Gbesser§!. (§G+[?UKR_usdrp_attitude_change]§!)"
+ UKR_urdp_usdrp_relationship_worsen: "Die Beziehung zwischen dem §lURDP§!und dem §SUSDRP§! wird §Rschlechter§!. ($RIGHT|+=0$)"
+ UKR_usdrp_urdp_relationship_worsen: "Die Beziehung zwischen dem §SUSDRP§!und dem §lURDP§! wird §Rschlechter§!. ($RIGHT|+=0$)"
+ UKR_usdrp_urdp_relationship_improve: "Die Beziehung zwischen dem §SUSDRP§!und dem §lURDP§! wird §Gbesser§!. ($RIGHT|+=0$)"
+ UKR_urdp_usdrp_relationship_improve: "Die Beziehung zwischen dem §lURDP§!und dem §SUSDRP§! wird §Gbesser§!. ($RIGHT|+=0$)"
 
  UKR_republic_elections_radicals: "§lURDP§!"
  UKR_republic_elections_socdems: "§SUSDRP§!"
