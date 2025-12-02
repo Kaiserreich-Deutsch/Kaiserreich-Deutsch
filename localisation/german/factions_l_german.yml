@@ -1,5 +1,5 @@
 ﻿l_german:
- FACTION_LEADER: "Fraktionsführer: §Y$COUNTRY$§!"  ### Übersetzt von Proho  ### bis Zeile 348 Übersetzt
+ FACTION_LEADER: "Fraktionsführer: §Y$COUNTRY$§!"  ### Übersetzt von Proho  ### bis Zeile 384 Übersetzt
  FACTION_MEMBER: "Fraktionsmitglied: §Y$COUNTRY$§!"
  FACTION_CREATED_UNDER_MASTER_TITLE: "Beitritt zur Fraktion des Herrscher"
  FACTION_CREATED_UNDER_MASTER_MESSAGE: "Wir haben uns der $FACTION|H$-Fraktion unter unserem Herrscher angeschlossen"
@@ -347,40 +347,40 @@
  FACTION_COMMANDER_DESC: "Schlachtfeld-Kommandanten übertragen einen Teil der von anderen Fraktionsmitgliedern innerhalb des Kriegsschauplatzes verdienten §HFertigkeit§!-Punkte auf ihr eigenes Land, basierend auf ihren §HAngriff§!- und §HVerteidigung§!-Fähigkeiten.\nAußerdem reduzieren sie den §HVersorgungsaufwand§! aufgrund ihrer §HLogistik§!- und §HPlanungs§!-Fähigkeiten.\n\n"
 
 #SEA faction member upgrades
- FACTION_MANPOWER_CONTRIBUTION: "Mannstärke Contribution"
- FACTION_MANPOWER_CONTRIBUTION_DESC: "Contribute a portion of your monthly manpower gain to your faction's §Hgarrison§! manpower pool."
- FACTION_MANPOWER_NO_CONTRIBUTION_DESC: "Contribute £manpower_texticon $VALUE|H0%$ of your monthly manpower to your faction's §Hgarrison§! manpower pool."
- FACTION_MANPOWER_CONTRIBUTION_VALUE_DESC: "Contribute £manpower_texticon $VALUE|H0%$ of your monthly manpower gain to your faction's §Hgarrison§! manpower pool."
- REQUEST_FACTION_MANPOWER: "Request Garrison Support"
- REQUEST_FACTION_MANPOWER_BUTTON: "Request Garrison"
- REQUEST_FACTION_MANPOWER_DESC: "Mannstärke needed to maintain your occupation laws: $NEEDED|H*$ \nTotal manpower in the pool that is not from your country: $FREE|H*$\n\nContribution score: $COST|.0+=$"
+ FACTION_MANPOWER_CONTRIBUTION: "Mannstärke Beitrag"
+ FACTION_MANPOWER_CONTRIBUTION_DESC: "Steuern Sie einen Teil Ihres monatlichen Personalzuwachses zum §HGarnisons§-Personalpool Ihrer Fraktion bei!"
+ FACTION_MANPOWER_NO_CONTRIBUTION_DESC: "Steuern Sie £Mannstärke_texticon $VALUE|H0%$ Ihrer monatlichen Mannstärke zum §HGarnison§!-Mannstärke-Pool Ihrer Fraktion bei."
+ FACTION_MANPOWER_CONTRIBUTION_VALUE_DESC: "Steuern Sie £Mannstärke_texticon $VALUE|H0%$ Ihres monatlichen Personalzuwachs zum §HGarnison§! Personalpool Ihrer Fraktion bei."
+ REQUEST_FACTION_MANPOWER: "Garnison Unterstützung anfordern"
+ REQUEST_FACTION_MANPOWER_BUTTON: "Garnison anfordern"
+ REQUEST_FACTION_MANPOWER_DESC: "Mannstärke, die zur Aufrechterhaltung Ihrer Besatzungsgesetze erforderlich ist: $NEEDED|H*$ \nGesamtzahl der Mannstärke im Pool, die nicht aus Ihrem Land stammen: $FREE|H*$\n\nBeitragswert: $COST|.0+=$"
  REQUEST_FACTION_MANPOWER_VALUES: "$VAL|^1H$"
- FACTION_MANPOWER_VALUE: "£manpower_texticon£ $VALUE$"
- REQUEST_FACTION_MANPOWER_BUTTON_NO_MANPOWER: "There is no manpower to make use of!"
- REQUEST_FACTION_MANPOWER_BUTTON_NO_GARRISON_NEEDED: "You aren't in need any garrison support currently."
- REQUEST_FACTION_MANPOWER_BUTTON_DESC: "Here we can request manpower to fill any empty garrisons in territory we are currently occupying, leaving our own men to fight in our armies."
- FACTION_MANPOWER_DESC: "Total manpower in pool: $ALL|H*$ \nMannstärke you contributed: $YOUR|H*$\nMannstärke you can take from: $FREE|H*$\n"
- FACTION_MEMBER_UPGRADE_BELOW_MIN: "§RBelow minimum required by the faction.§!"
+ FACTION_MANPOWER_VALUE: "£Mannstärke_texticon£ $VALUE$"
+ REQUEST_FACTION_MANPOWER_BUTTON_NO_MANPOWER: "Es gibt keine Mannstärke, die man nutzen könnte!"
+ REQUEST_FACTION_MANPOWER_BUTTON_NO_GARRISON_NEEDED: "Sie benötigen derzeit keine Unterstützung durch eine Garnison."
+ REQUEST_FACTION_MANPOWER_BUTTON_DESC: "Hier können wir Mannstärke darum bitten, alle leeren Garnisonen in dem Gebiet, das wir derzeit besetzen, zu besetzen, sodass unsere eigenen Männer in unseren Armeen kämpfen können."
+ FACTION_MANPOWER_DESC: "Gesamte Mannstärke im Pool: $ALL|H*$ \nMannstärke, die Sie beigesteuert haben: $YOUR|H*$\nMannstärke, die Sie entnehmen können: $FREE|H*$\n"
+ FACTION_MEMBER_UPGRADE_BELOW_MIN: "§RUnterhalb der von der Fraktion geforderten Mindestanforderungen.§!"
 
 #SEA Strategic Region
- FACTION_THEATER_HEADER: "Faction Theatre"
- FACTION_THEATER_DESC: "Faction Theatres are coordinated regions led by a §HSchlachtfeld-Kommandant§!. The number of regions and participating countries depends on the commander's Skill Level. Commanders gain experience and their nations gain £doctrine_mastery §HDoctrine Fertigkeit! from allied combat within their Theatre."
- FACTION_STRAT_REGION_INSTRUCTION: "Assign faction members to regions"
- FACTION_STRAT_REGION_ARMY: "Total number of Divisions"
- FACTION_STRAT_REGION_NAVY: "Total number of Task Forces"
- FACTION_STRAT_REGION_NOT_OWNER: "§RFaction Theatres can only be controlled by its owner§! ($COUNTRY|H$)"
- FACTION_STRAT_REGION_DESC: "$THEATER_NAME|H$\n\nAppoint a §YSchlachtfeld-Kommandant§! to oversee joint operations in the selected regions, enhancing coordination and efficiency of both army and naval forces.\n\n"
+ FACTION_THEATER_HEADER: "Fraktions Schlachtfeld"
+ FACTION_THEATER_DESC: "Fraktionsschlachtfelder sind koordinierte Regionen, die von einem §HSchlachtfeld-Kommandant§ geleitet werden. Die Anzahl der Regionen und teilnehmenden Länder hängt vom Fertigkeitslevel des Kommandanten ab. Kommandanten sammeln Erfahrung und ihre Nationen erhalten £doctrine_mastery §HDoctrine Fertigkeit! durch verbündete Kämpfe innerhalb ihres Schlachtfeldes."
+ FACTION_STRAT_REGION_INSTRUCTION: "Fraktionsmitglieder Regionen zuweisen"
+ FACTION_STRAT_REGION_ARMY: "Gesamtzahl der Divisionen"
+ FACTION_STRAT_REGION_NAVY: "Gesamtzahl der Einsatzkräfte"
+ FACTION_STRAT_REGION_NOT_OWNER: "§RFraktionsschlachtfelder können nur von ihrem Besitzer kontrolliert werden.§! ($COUNTRY|H$)"
+ FACTION_STRAT_REGION_DESC: "$THEATER_NAME|H$\n\nErnennen Sie einen §YSchlachtfeld-Kommandant§!, der die gemeinsamen Operationen in den ausgewählten Regionen überwacht und so die Koordination und Effizienz sowohl der Armee als auch der Seestreitkräfte verbessert.\n\n"
  FACTION_STRAT_REGION_DESC_ENTRY: "- $REGION|H$"
- DELETE_FACTION_THEATER: "§RDelete§! Faction Theatre"
- ADD_FACTION_THEATER_TITLE: "§HCreate a new Faction Theatre§!"
- CREATE_FACTION_THEATER: "Create £faction_initiative_texticon£ $VALUE|H0$"
- FACTION_COUNTRY_ALREADY_IN_THEATER: "§RAlready assigned to a theatre§!"
- FACTION_SUPREME_COMMANDER_MAX_NUM_COUNTRY_REACHED: "§RThe commander cannot lead more countries§!"
- FACTION_THEATER_CLICK_TO_SELECT: "§GClick§! to select theatre"
- FACTION_THEATER_MISSING_COMMANDER: "§YSelect a Commander§! in order to select\ncountries and which regions they\nshould focus on.\n\nAvailable Faction Members: $AVAILABLE|H$"
+ DELETE_FACTION_THEATER: "Fraktion Schlachtfeld §Rlöschen§!"
+ ADD_FACTION_THEATER_TITLE: "§HNeues Fraktionsschlachtfeld erstellen§!"
+ CREATE_FACTION_THEATER: "Erstellung von £faction_initiative_texticon£ $VALUE|H0$"
+ FACTION_COUNTRY_ALREADY_IN_THEATER: "§RBereits einem Schlachtfeld zugewiesen§!"
+ FACTION_SUPREME_COMMANDER_MAX_NUM_COUNTRY_REACHED: "§RDer Kommandant kann nicht mehr Länder führen.§!"
+ FACTION_THEATER_CLICK_TO_SELECT: "§GKlick§! zum Auswählen des Schlachtfeld"
+ FACTION_THEATER_MISSING_COMMANDER: "§YSelect a Commander§! in order to select\ncountries and which regions they\nshould focus on.\n\nVerfügbare Fraktionsmitglieder: $AVAILABLE|H$"
 
- FACTION_THEATER_NOT_SELECTED_COUNTRIES: "At least one country must be selected."
- FACTION_THEATER_NOT_SELECTED_REGION: "At least one region on the map must be selected."
+ FACTION_THEATER_NOT_SELECTED_COUNTRIES: "Es muss mindestens ein Land ausgewählt werden."
+ FACTION_THEATER_NOT_SELECTED_REGION: "Es muss mindestens eine Region auf der Karte ausgewählt werden."
 
 #SEA Faction program
  FACTION_CANT_ASSIGN_SCIENTIST_SAME_COUNTRY: "Can't assign additional scientist to your own special project"
@@ -509,7 +509,7 @@
  CHANGE_GOAL_WINDOW_SUBTITLE: "§HSelect new goal§!"
  FACTION_GOAL_COMPLETION: "§HTo complete§!:"
  FACTION_SP_OPEN_RESEARCH_WINDOW: "§GClick§! to open §HFaction Research§!"
- FACTION_INITIATIVE_TOOLTIP: "§HFaction Initiative§!\n\nSpend §YFaction Initiative§! to reshape the faction by changing §Hgoals§!, setting §Hrules§!, creating §HFaction Theatres§!, and more."
+ FACTION_INITIATIVE_TOOLTIP: "§HFaction Initiative§!\n\nSpend §YFaction Initiative§! to reshape the faction by changing §Hgoals§!, setting §Hrules§!, creating §HFaction Schlachtfelder§!, and more."
  FACTION_INITIATIVE_EXPLANATION: "§gInitiatives are gained primarily by completing goals. Focuses, events and other world situations can sometimes grant them too.§!"
  FACTION_INITIATIVE_PROGRESS_TOOLTIP: "Progress to your next point: $PROGRESS|.3H$"
  FACTION_INITIATIVE_PASSIVE_GENERATION_TOOLTIP: "Currently generating $DAILYPROGRESS|.3H$ per day\nYou will have your next initiative point in $DAYS|.0H$ days."
@@ -644,9 +644,9 @@
 # SEA Faction Diplomacy
  DR_FACTION_POWER_PROJECTION: "Faction Power Projection: "
 
- FACTION_THEATER_DEFAULT_NAME: "Faction Theatre $NUM$"
+ FACTION_THEATER_DEFAULT_NAME: "Faction Schlachtfeld $NUM$"
  FACTION_THEATER_SELECT_ALL: "Select max capacity"
- FACTION_THEATER_NEW_THEATER_BUTTON: "New Theatre"
+ FACTION_THEATER_NEW_THEATER_BUTTON: "New Schlachtfeld"
  FACTION_THEATER_REGION_COUNT: "£state  $NUM$"
  FACTION_THEATER_EXECUTION_MODE_LABEL: "Execution mode:"
  FACTION_THEATER_TOOLTIP: "$THEATER|H$\nOwned by @$OWNER_TAG$ $OWNER_NAME|H$\n$COMMANDER$\n\nSelected $NUM_REGIONS$ regions:\n$REGIONS$\n\nAssigned $NUM_COUNTRIES$ countries:\n$COUNTRIES$"
@@ -675,8 +675,8 @@
  FACTION_THEATER_MASTERY_GAIN_TOOLTIP: "The commander's country receives $VAL|.1G%$ of the £doctrine_mastery §HFertigkeit! earned by other faction members in the theatre, based on the commander's $SKILL1|H$ ($SKILL1VAL|H$) and $SKILL2|H$ ($SKILL2VAL|H$) skills."
  THEATER_COMMANDER_MASTERY_SKILL: "$VAL|%0$"
 
- FACTION_THEATER_SWITCH_TO_FACTION_VIEW_TOOLTIP: "Show Faction Theatres"
- FACTION_THEATER_SWITCH_TO_THEATER_VIEW_TOOLTIP: "Show Country Theatres"
+ FACTION_THEATER_SWITCH_TO_FACTION_VIEW_TOOLTIP: "Show Faction Schlachtfelder"
+ FACTION_THEATER_SWITCH_TO_THEATER_VIEW_TOOLTIP: "Show Country Schlachtfelder"
 
  # Sort
  RULES_SORT_NAME: "§GClick§! to sort by name"
@@ -693,7 +693,7 @@
  FACTION_GOALS_TAB_TT: "§HFaction Goals§!\nView and change your active goals."
  FACTION_RULES_TAB_TT: "§HFaction Rules§!\nView and change the rules that your Faction must abide by."
  FACTION_RESEARCH_TAB_TT: "§HFaction Research§!\nSet up research sharing and joint research facilities."
- FACTION_ARMY_TAB_TT: "§HFaction Military Operations§!\nRequest garrison manpower, manage theatre commanders and faction theatres, and set up doctrine sharing."
+ FACTION_ARMY_TAB_TT: "§HFaction Military Operations§!\nRequest garrison Mannstärke, manage theatre commanders and faction theatres, and set up doctrine sharing."
  FACTION_INTELLIGENCE_TAB_TT: "§HFaction Intelligence§!\nSet up intelligence sharing and change faction spymaster."
  FACTION_INTELLIGENCE_TAB: "Faction Intelligence"
  #Ranking
@@ -710,13 +710,13 @@
  THEATER_COMMANDER_SUPPLY_SKILL_DESC: "This commander reduces the supply consumption by $VAL|H$ due to their planning & logistic skills"
  FACTION_THEATER_POPUP_DESC: "Are you sure you want to spend £faction_initiative_texticon£ $COST|0H$ on creating a new faction theatre?"
 
- FACTION_THEATER_SHOW_PIN_TOOLTIP: "Toggle showing §HFaction Theatres§! in §HDefault§!, §HStrategic Navy§! and §HStrategic Air§! map modes."
+ FACTION_THEATER_SHOW_PIN_TOOLTIP: "Toggle showing §HFaction Schlachtfelder§! in §HDefault§!, §HStrategic Navy§! and §HStrategic Air§! map modes."
 
  FACTION_EXECUTE_CAREFUL_DESC: "When the plan is carried out, units will not attack heavily fortified locations unless they are unmanned, and will avoid attacking provinces which will weaken the front line by making it longer.\n\n§gNote that this will only affect allied AI controlled units within the theatre, not any player controlled units.§!"
  FACTION_EXECUTE_BALANCED_DESC: "The standard rules for carrying out battle plans are in effect. Units will attempt to advance in a manner that keeps the front line as short as possible and may attack fortified locations.\n\n§gNote that this will only affect allied AI controlled units within the theatre, not any player controlled units.§!"
  FACTION_EXECUTE_RUSH_DESC: "Units will attack provinces if they are a part of the plan, even if it may mean that the front line becomes longer or may put units in exposed locations.\n\n§gNote that this will only affect allied AI controlled units within the theatre, not any player controlled units.§!"
 
- GARRISON_SUPPORT_SEND: "Requested manpower will be delivered directly to our garrisons in territory we occupy."
+ GARRISON_SUPPORT_SEND: "Requested Mannstärke will be delivered directly to our garrisons in territory we occupy."
 
  FOREIGN_MANIFEST_ENTRY: "§HManifest§!: $MANIFEST$"
  FOREIGN_GOAL_ITEM_ENTRY: "§HGoal§!: $NAME$"
