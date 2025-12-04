@@ -1,7 +1,5 @@
 ﻿l_german:
-
 ## Übersetzt von Thylon ##
-
 ### Regular Tooltips (for use in custom_effect_tooltip) ###
 tooltip_white_line: "   \n"
 tooltip_line_break: "\n"
@@ -192,6 +190,10 @@ tooltip_if_controlled_by: "Wenn kontrolliert von $COUNTRY|Y$:"
 tooltip_received_equipment: "Sie erhielten $QUANTITY|G$ $infantry_equipment$ aus diesem Land"
 
 may_lead_to_war_with: "§RKann zu einem Krieg mit $COUNTRY$§! führen"
+
+tooltip_increase_focus_completion_cost: "Erhöht die für den Schwerpunkt $FOCUS|Y$ benötigte Zeit um $DAYS|Y$ Tage"
+tooltip_increase_focus_completion_cost_many: "Erhöht die Zeit um $DAYS|Y$ Tage für:$tooltip_increase_focus_completion_cost_list$"
+tooltip_increase_focus_completion_cost_list: "\n  $FOCUS|Y$$NEXT_FOCUS$"
 
 ### Flag Loc segments ###
 tooltip_event_choice: "§CEreignis Entscheidung§!: "

@@ -1,12 +1,5 @@
 ﻿l_german:
-
 ## Übersetzt von Thylon ##
-
-### Factions ###
-democratic_alliance_of_the_caribbean: "Demokratische Allianz der Karibik" #created by CENdem_form_faction and COS_form_faction decisions and COS_Ferrer_takes_Control focus
-liberal_pact: "Liberaler Pakt" #created by CEN_found_liberal_pact decision
-peoples_vanguard: "Vorhut des Volkes" #created by CEN_found_military_pact decision
-revolutionary_front: "Revolutionäre Front" #created by CEN_found_revolutionary_pact decision
 
 ### Country Names ###
 CEN: "Zentralamerika"
@@ -370,7 +363,7 @@ CENdem_continue_integration_of_COS: "Setzt die Integration Costa Ricas fort"
 CENdem_continue_integration_of_PAN: "Setzt die Integration Panamas fort"
 
 CENdem_Democratic_Alliance_of_the_Caribbean_decisions: "Demokratische Allianz der Karibik"
-CENdem_form_faction: "Gründet die $democratic_alliance_of_the_caribbean$"
+CENdem_form_faction: "Gründet die $faction_democratic_alliance_of_the_caribbean$"
 
 #Decision only avaliable to CEN, better fit for this file
 CENdem_integrate_COS: "Knüpft engere Beziehungen zu Costa Rica"
@@ -735,6 +728,10 @@ central_america_democratic_events.245.a: "Das war von wahnhaften Imperialisten z
 central_america_democratic_events.246.t: "Die Westindischen Inseln akzeptieren"
 central_america_democratic_events.246.d: "Die Westindischen Inseln haben ihren Anspruch auf die Region aufgegeben und wir können die Region nun sicher integrieren."
 central_america_democratic_events.246.a: "Ein großer diplomatischer Erfolg."
+
+central_america_democratic_events.250.t: "[ROOT.GetName] vereint Zentralamerika"
+central_america_democratic_events.250.d: "Die letzten Jahre waren für die Länder Mittelamerikas turbulent, da die Region nach dem Ausbruch des amerikanischen Bürgerkriegs ins Chaos gestürzt wurde. Lokale Akteure nutzten die Gelegenheit und verfolgten eine Politik der aggressiven Militarisierung, um die vier Länder zu vereinen.\n\nLetztendlich hätte niemand erwartet, dass [ROOT.GetName] eine neue politische Union ausrufen würde. Schließlich hatten wir frühere Einigungsprojekte abgelehnt und galten als politisch weitaus stabiler als unsere Nachbarn. Doch nach einem kostspieligen Feldzug, bei dem unsere Truppen bis in den Norden vorrückten, kontrollieren wir nun alle größeren Städte in Mittelamerika, während unsere Feinde im Exil leben oder sich ergeben haben. [ROOT.GetLeader] hat erklärt, dass Mittelamerika sich unter einem Banner vereinen wird, um den Frieden zu wahren. Er hat weiter klargestellt, dass in Kürze eine neue Verfassung ausgearbeitet wird, in der Parteien aus dem ganzen Land fair vertreten sein werden. \n\nDennoch warnen einige vor übertriebener Begeisterung, da sie uns an die großen Unterschiede in der Urbanisierung und im Wohlstand im ganzen Land erinnern und daran, dass wir diese Gebiete nicht durch Verhandlungen, sondern durch Eroberung vereint haben. Nur die Zukunft wird zeigen, ob die neu gegründete Republik bestehen bleibt oder sich irgendwann wieder auflöst."
+central_america_democratic_events.250.a: "Wir haben noch viel Arbeit vor uns."
 
 ### Focuses ###
 ### Political Tree

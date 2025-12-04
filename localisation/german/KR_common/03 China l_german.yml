@@ -255,6 +255,42 @@ chinese_southern_republican: "§GSüdliche Republikaner§!"
 geacps: "§jGEACPS§!"
 
 ### Tooltips
+#Alignment Triggers
+china_alignment_northern_zhili: "Wird von einem §zNördlichen Zhili§! Regime regiert"
+china_alignment_northern_zhili_NOT: "Wird §Rnicht§! von einem §zNördlichen Zhili§! Regime regiert"
+
+china_alignment_southern_zhili: "Wird von einem §YSüdlichen Zhili§! Regime regiert"
+china_alignment_southern_zhili_NOT: "Wird §Rnicht§! von einem §YSüdlichen Zhili§! Regime regiert"
+
+china_alignment_zhili: "Wird von einem §LZhili§! Regime regiert"
+china_alignment_zhili_NOT: "Wird §Rnicht§! von einem §LZhili§! Regime regiert"
+
+china_alignment_manchu_qing: "Wird von einem §qManchu§! Regime regiert"
+china_alignment_manchu_qing_NOT: "Wird §Rnicht§! von einem §qManchu§! Regime regiert"
+
+china_alignment_fengtian: "Wird von einem §eFengtian§! Regime regiert"
+china_alignment_fengtian_NOT: "Wird §Rnicht§! von einem §eFengtian§! Regime regiert"
+
+china_alignment_beiyang: "Wird von einem §NBeiyang§! Regime regiert"
+china_alignment_beiyang_NOT: "Wird §Rnicht§! von einem §NBeiyang§! Regime regiert"
+
+china_alignment_federalists: "Wird von den §fFöderalisten§! regiert"
+china_alignment_federalists_NOT: "Wird §Rnicht§! von den §fFöderalisten§! regiert"
+
+china_alignment_left_kuomintang: "Wird von der §kLinken Kuomintang§! regiert"
+china_alignment_left_kuomintang_NOT: "Wird §Rnicht§! von der §kLinken Kuomintang§! regiert"
+
+china_alignment_right_kuomintang: "Wird von der §cRechten Kuomintang§! regiert"
+china_alignment_right_kuomintang_NOT: "Wird §Rnicht§! von der §cRechten Kuomintang§! regiert"
+
+china_alignment_chinese_southern_republican: "Wird von einem §RRepublikanischen§! Regime regiert"
+china_alignment_chinese_southern_republican_NOT: "Wird §Rnicht§! von einem §RRepublikanischen§! Regime regiert"
+
+china_alignment_geacps: "Wird von einem §jGEACPS§! Regime regiert"
+china_alignment_geacps_NOT: "Wird §Rnicht§! von einem §jGEACPS§! Regime regiert"
+
+#Aligned With Triggers
+
 china_is_aligned_with_northern_zhili: "Wird von einem §zNördlichen Zhili-freundlichen§! Regime regiert"
 china_is_aligned_with_northern_zhili_NOT: "Wird §Rnicht§! von einem §zNördlichen Zhili-freundlichen§! regime"
 
@@ -273,17 +309,20 @@ china_is_aligned_with_fengtian_NOT: "Wird §Rnicht§! von einem a §eFengtian-fr
 china_is_aligned_with_beiyang: "Wird von einem §NBeiyang-freundlichen§! Regime regiert"
 china_is_aligned_with_beiyang_NOT: "Wird §Rnicht§! von einem §NBeiyang-freundlichen§! Regime regiert"
 
-china_is_aligned_with_federalists: "Wird von den §HFöderalisten§! regiert"
+china_is_aligned_with_federalists: "Wird von den §HFöderalisten-freundlichen§! regiert"
 china_is_aligned_with_federalists_NOT: "Wird §Rnicht§! von den §HFöderalisten§! regiert"
 
-china_is_aligned_with_left_kmt: "Wird von der §RLinken Kuomintang§! regiert"
-china_is_aligned_with_left_kmt_NOT: "Wird §Rnicht§! von der §RLinken Kuomintang§! regiert"
+china_is_aligned_with_left_kmt: "Wird von der §RLinken Kuomintang-freundlichen§! regiert"
+china_is_aligned_with_left_kmt_NOT: "Wird §Rnicht§! von der §RLinken Kuomintang-freundlichen§! regiert"
 
-china_is_aligned_with_right_kmt: "Wird von der §RRechten Kuomintang§! regiert"
-china_is_aligned_with_right_kmt_NOT: "Wird §Rnicht§! von der §RRechten Kuomintang§! regiert"
+china_is_aligned_with_right_kmt: "Wird von der §RRechten Kuomintang-freundlichen§! regiert"
+china_is_aligned_with_right_kmt_NOT: "Wird §Rnicht§! von der §RRechten Kuomintang-freundlichen§! regiert"
 
-china_is_aligned_with_kmt: "Wird von der §RKuomintang§! regiert"
-china_is_aligned_with_kmt_NOT: "Wird §Rnicht§! von der §RKuomintang§! regiert"
+china_is_aligned_with_kmt: "Wird von der §RKuomintang-freundlichen§! regiert"
+china_is_aligned_with_kmt_NOT: "Wird §Rnicht§! von der §RKuomintang-freundlichen§! regiert"
+
+china_is_aligned_with_republicans: "Wird von einem §RRepublikanisch-freundlichen§! Regime regiert"
+china_is_aligned_with_republicans_NOT: "Wird §Rnicht§! von einem §RRepublikanisch-freundlichen§! Regime regiert"
 
 china_is_unaligned: "Ist eine unausgerichtete Clique"
 china_is_unaligned_NOT: "Ist §Rnicht§! eine unausgerichtete Clique"
@@ -986,12 +1025,12 @@ china_events.109.d: "Wir suchen Hilfe bei der russischen Regierung."
 china_events.109.e: "Wir werden die indische Regierung um Hilfe bitten."
 china_events.109.f: "Wir werden niemals kapitulieren!"
 
-china_events.110.intro: "Wir haben eine dringende Anfrage von [FROM.GetNameDef] erhalten, in der sie uns um Schutz gegen chinesischen Irredentismus und Expansionismus bitten. Während diese Regionen nominell unter der Sphäre der Qing-Dynastie standen, wurden sie nach der Revolution von 1911 unabhängig und viele von ihnen wollen sich nicht wieder in den chinesischen Staat eingliedern lassen. Daher haben sie sich an unsere Regierung gewandt, in der Hoffnung, dass wir ihnen in ihrer schweren Stunde zu Hilfe kommen."
+china_events.110.intro: "Wir haben eine dringende Anfrage von [FROM.GetNameDef] erhalten, in der sie uns um Schutz gegen chinesischen Irredentismus und Expansionismus bitten. Obwohl die Region nominell unter der Herrschaft der Qing-Dynastie stand, bildeten sie nach der Revolution von 1911 eine unabhängige Regierung, und viele von ihnen möchten nicht wieder in den chinesischen Staat integriert werden. Daher haben sie sich an unsere Regierung gewandt, in der Hoffnung, dass wir ihnen in ihrer schweren Stunde zu Hilfe kommen."
 china_events.110.t: "[FROM.GetNameDefCap] bittet um Schutz gegen China"
 china_events.110.d.russia_already_guaranteed: "$china_events.110.intro$\n\nWir garantieren derzeit die Unabhängigkeit von [FROM.GetNameDef] und können ihnen daher natürlich zu Hilfe kommen, um dem chinesischen Expansionismus zu widerstehen. Dennoch gibt es auch in unserer Regierung Stimmen, die argumentieren, dass ein geeintes China für uns zu mühsam sein könnte und dass wir in einen Krieg verwickelt werden könnten, der nicht so schnell endet. Die Chinesen werden sich zweifelsohne nicht weigern, sich zurückzuziehen, und unser Land hat möglicherweise andere Bedrohungen zu bewältigen."
-china_events.110.d.russia: "$china_events.110.intro$Falls wir zu ihren Gunsten intervenieren, haben sie erklärt, dass sie unserem Bündnis als unabhängiges Mitglied beitreten werden."
+china_events.110.d.russia: "$china_events.110.intro$ Falls wir zu ihren Gunsten intervenieren, haben sie erklärt, dass sie unserem Bündnis als unabhängiges Mitglied beitreten werden."
 china_events.110.d.india_already_guaranteed: "$china_events.110.intro$\n\nWir garantieren derzeit die Unabhängigkeit von [FROM.GetNameDef] und können ihnen daher natürlich zu Hilfe kommen, um dem chinesischen Expansionismus zu widerstehen. Dennoch gibt es auch in unserer Regierung Stimmen, die argumentieren, dass ein geeintes China für uns zu anstrengend sein könnte und dass wir in einen Krieg verwickelt werden könnten, der nicht so schnell endet. Die Chinesen werden sich zweifelsohne nicht weigern, sich zurückzuziehen, und unser Land hat möglicherweise andere Bedrohungen zu bewältigen."
-china_events.110.d.india: "$china_events.110.intro$Falls wir zu ihren Gunsten intervenieren, haben sie erklärt, dass sie unserem Bündnis als unabhängiges Mitglied beitreten werden."
+china_events.110.d.india: "$china_events.110.intro$ Falls wir zu ihren Gunsten intervenieren, haben sie erklärt, dass sie unserem Bündnis als unabhängiges Mitglied beitreten werden."
 china_events.110.a: "Wir werden ihnen zu Hilfe kommen."
 china_events.110.b: "Fordert die sofortige Einführung einer sozialistischen Regierung."
 china_events.110.c: "Sie sind auf sich allein gestellt."
@@ -1039,7 +1078,7 @@ china_events.119.compromise: "Es wurde eine Zwischenlösung vorgeschlagen, von d
 china_events.119.faction_leader_text: "Diese Situation hat sich in den letzten Tagen zugespitzt, da [FROM.GetLeader] uns unter Berufung auf unsere bestehenden militärischen Verpflichtungen gebeten hat, in ihrem Namen zu intervenieren. Es ist richtig, dass wir Interessen in diesem Gebiet haben, und dies sind die Umstände, vor denen wir versprochen haben, sie zu schützen. Es stellt sich also die Frage, ob wir bereit sind, für die Unabhängigkeit von [FROM.GetAdjective] einzutreten?"
 china_events.119.overlord: "Unsere Interessen in [FROM.Capital.GetCapitalVictoryPointName] sind ziemlich umfangreich, und die Regierung von [FROM.GetRulingParty] ist unserer Außenpolitik praktisch unterworfen. [FROM.GetLeader] hat dennoch hartnäckig darum gebeten, dass wir unseren Verpflichtungen nachkommen und eingreifen, um eine chinesische Invasion abzuwehren. Wenn wir das nicht tun, wäre das eine große Blamage für [ROOT.GetLeader] und würde die Außenpolitik von [ROOT.GetAdjective] untergraben."
 china_events.119.overlordinfaction: "$china_events.119.overlord$\n\nUnsere Verbündeten in der [ROOT.GetFactionName] werden wahrscheinlich ebenfalls in diesen Konflikt hineingezogen werden, da das, was oberflächlich betrachtet wie ein Grenzscharmützel aussehen mag, sehr wohl zu einem breiteren regionalen Konflikt eskalieren kann. Um dieses Thema voranzutreiben, werden wir wahrscheinlich gezwungen sein, auch die Führung von [ROOT.GetFactionName] zu konsultieren."
-china_events.119.d.faction_leader_can_give_lands: "$china_events.119.intro$\n\n$china_events.119.faction_leader_text$\n\nchina_events.119.compromise"
+china_events.119.d.faction_leader_can_give_lands: "$china_events.119.intro$\n\n$china_events.119.faction_leader_text$\n\n$china_events.119.compromise$"
 china_events.119.d.faction_leader_default: "$china_events.119.intro$\n\n$china_events.119.faction_leader_text$"
 china_events.119.d.overlord_not_in_faction_can_give_lands: "$china_events.119.intro$\n\n$china_events.119.overlord$\n\n$china_events.119.compromise$"
 china_events.119.d.overlord_not_in_faction: "$china_events.119.intro$\n\n$china_events.119.overlord$"
