@@ -77,6 +77,14 @@
  raid_type_CHI_huansheng_raid: "Operation Huansheng"
  raid_type_CHI_huansheng_raid_desc: "Unserem Geheimdienst zufolge sind die Stahlwerke in Yawata und das Marinearsenal in Sasebo zwar strategisch wichtige Ziele, doch unsere Luftwaffe ist zur Zeit nicht in der Lage, sie effektiv anzugreifen. Daher wurde beschlossen, dass das wirksamste Mittel zur Beendigung dieses Krieges darin liegt, das japanische Volk über die Gräueltaten der kaiserlich-japanischen Kriegstreiber in China aufzuklären, indem man Flugblätter über Städten wie Nagasaki, Fukuoka, Saga und Osaka abwirft."
 
+ raid_type_CHI_tokyo_imperial_palace_bombing: "Bombardierung des Kaiserpalasts in Tokio"
+ raid_type_CHI_tokyo_imperial_palace_bombing_desc: "Indem wir eine Gruppe von Bombern entsenden, um das Hauptquartier des Feindes und den symbolischen Ort der kaiserlichen Macht Japans anzugreifen, können wir die Moral unseres Volkes stärken und gleichzeitig der Moral unseres Feindes einen Schlag versetzen."
+ raid_type_CHI_national_diet_bombing: "Bombardierung des Nationalparlaments"
+ raid_type_CHI_national_diet_bombing_desc: "Indem wir eine Gruppe von Bombern entsenden, um das Hauptquartier des Feindes und den symbolischen Ort der Macht Japans anzugreifen, können wir die Moral unseres Volkes stärken und gleichzeitig der Moral unseres Feindes einen Schlag versetzen."
+ raid_type_CHI_hakko_ichiu_bombing: "Bombardierung von Hakko Ichiu"
+ raid_type_CHI_hakko_ichiu_bombing_desc: "Indem wir eine Gruppe von Bombern entsenden, um das Symbol des Imperialismus des Feindes anzugreifen, werden wir Japans Schwäche aufzeigen und gleichzeitig die Moral unseres eigenen Volkes stärken."
+ raid_type_CHI_great_wall_raid_land: "Große Mauer Infiltrationsangriff"
+ raid_type_CHI_great_wall_raid_land_desc: "Die Mauer hat nicht mehr denselben Verteidigungsstatus wie in der Vergangenheit, kann aber einem verschanzten Feind dennoch einen Vorteil verschaffen. Indem wir eine kleine Gruppe von Soldaten einschleusen, die feindlichen Linien infiltrieren und an strategisch günstigen Stellen Sprengsätze zünden, könnten wir ihren Vorteil zunichte machen."
  RAID_TARGET_NAME: "$WHAT|H$ in $LOCATION|H$"
  TOOLTIP_POTENTIAL_TARGET_ENTRY: "§GKlicken§!, um einen Überfall auf $CONTROLLER_FLAG$$TARGET_NAME$ zu beginnen"
  TOOLTIP_POTENTIAL_TARGET_ENTRY_NOT_ALLOWED: "Es kann §Rkein§! Überfall gegen $CONTROLLER_FLAG$$TARGET_NAME$ durchgeführt werden"
@@ -377,5 +385,6 @@
  raid_target_name_pathfinder_raid: "Landung in $LOCATION|H$"
  raid_target_name_thermonuclear: "$LOCATION|H$"
  raid_target_name_supply_hub: "§H$supply_node$§!"
+ raid_target_name_great_wall: "§H$the_great_wall$§!"
 
  raid_tooltip_trigger_title: "$TITLE|H$:"
