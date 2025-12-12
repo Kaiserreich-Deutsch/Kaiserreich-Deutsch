@@ -1,5 +1,5 @@
 ﻿l_german:
-### Übersetzt von Proho ### bis Zeile 1106
+### Übersetzt von Proho ### bis Zeile 1132
 ###   Kaiserreich Game Rules                   ###
 ##################################################
 # By El Daddy, Igor050301, Amber and many others #
@@ -1104,31 +1104,31 @@ RULE_OPTION_ECU_PATH_AUTDEM_DESC: "Nach der Märzkrise behält Gallo die Kontrol
 
 COL_PATH: "£KR_game_rule_flag_COL   Ein großes Erbe"
 RULE_OPTION_COL_PATH_RANDOM: "Standard"
-RULE_OPTION_COL_PATH_RANDOM_DESC: "Kolumbien steht vor einer großen politischen Krise, deren Ausgang nicht vorhersehbar ist."
+ RULE_OPTION_COL_PATH_RANDOM_DESC: "Kolumbien steht vor einer großen politischen Krise, deren Ausgang nicht vorhersehbar ist."
  RULE_OPTION_COL_PATH_SOCDEM: "£KR_game_rule_flag_COL  Liberales"
- RULE_OPTION_COL_PATH_SOCDEM_DESC: "Democracy is maintained and the §SPartido Liberal§!, or Liberal Party, secure victory in the election of 1938.\nLater elections see the party move more towards the §lcentre§!."
+ RULE_OPTION_COL_PATH_SOCDEM_DESC: "Die Demokratie bleibt erhalten, und die §SPartido Liberal§!, die Liberale Partei, gewinnt die Wahlen von 1938.\nBei späteren Wahlen rückt die Partei mehr in Richtung §IMitte§!."
  RULE_OPTION_COL_PATH_SOCCON: "£KR_game_rule_flag_COL  Conservadores"
- RULE_OPTION_COL_PATH_SOCCON_DESC: "Democracy is maintained and the §cLinea dura del Partido Conservador§!, or Hard Line of the Conservative Party, secure victory in the election of 1938."
+ RULE_OPTION_COL_PATH_SOCCON_DESC: "Die Demokratie bleibt erhalten, und die §cLinea dura del Partido Conservador§!, die harte Linie der Konservativen Partei, sichert sich den Sieg bei den Wahlen von 1938."
  RULE_OPTION_COL_PATH_RADSOC: "£KR_game_rule_flag_COL_syndicalist  UNIR"
- RULE_OPTION_COL_PATH_RADSOC_DESC: "Democracy is maintained and the §RUnión Nacional Izquierdista Revolucionaria§!, or National Revolutinary Leftist Union, secures victory in the election of 1938."
- RULE_OPTION_COL_PATH_PATAUT_START_DESC: "A state of emergency is declared and a dictatorship established by Gustavo Rojas Pinilla's §PMovimiento de Acción Nacional§!, or National Action Movement."
+ RULE_OPTION_COL_PATH_RADSOC_DESC: "Die Demokratie bleibt erhalten, und die §RUnión Nacional Izquierdista Revolucionaria§!, oder Nationalrevolutionäre Linke Union, sichert sich den Sieg bei den Wahlen von 1938."
+ RULE_OPTION_COL_PATH_PATAUT_START_DESC: "Der Ausnahmezustand wird ausgerufen und eine Diktatur durch Gustavo Rojas Pinillas §PMovimiento de Acción Nacional§!, oder Nationale Aktionsbewegung errichtet."
  RULE_OPTION_COL_PATH_PATAUT: "£KR_game_rule_flag_COL  Acción Nacional"
- RULE_OPTION_COL_PATH_PATAUT_DESC: "$RULE_OPTION_COL_PATH_PATAUT_START_DESC$\nColombia begins a diplomatic offensive, with the aim of creating the Andean Pact with Ecuador and Venezeula, should they not be ruled by socialists."
- RULE_OPTION_COL_PATH_PATAUT_GRAN_COLOMBIA: "£KR_game_rule_flag_COL  Acción Nacional - Gran Colombia"
- RULE_OPTION_COL_PATH_PATAUT_GRAN_COLOMBIA_DESC: "$RULE_OPTION_COL_PATH_PATAUT_START_DESC$\nIn lieu attempting to form the Andean Pact, General Pinilla seeks to reclaim the lands of Gran Colombia."
+ RULE_OPTION_COL_PATH_PATAUT_DESC: "$RULE_OPTION_COL_PATH_PATAUT_START_DESC$\nKolumbien startet eine diplomatische Offensive mit dem Ziel, den Andenpakt mit Ecuador und Venezuela zu gründen, sofern diese Länder nicht von Sozialisten regiert werden."
+ RULE_OPTION_COL_PATH_PATAUT_GRAN_COLOMBIA: "£KR_game_rule_flag_COL  Acción Nacional - Großkolumbien"
+ RULE_OPTION_COL_PATH_PATAUT_GRAN_COLOMBIA_DESC: "$RULE_OPTION_COL_PATH_PATAUT_START_DESC$\nAnstelle des Versuchs, den Andenpakt zu gründen, strebt General Pinilla die Rückeroberung der Gebiete von Großkolumbien an."
 
- VEN_PATH: "£KR_game_rule_flag_VEN  The Election of 1939"
- RULE_OPTION_VEN_PATH_RANDOM: "Default"
- RULE_OPTION_VEN_PATH_RANDOM_DESC: "The election of 1939 is pivotal to the future of Venezuela. May the hand of fate be merciful."
- RULE_OPTION_VEN_PATH_DEM_DESC: "Venezuelan democracy is maintained with the victory of"
- RULE_OPTION_VEN_PATH_SOCDEM: "£KR_game_rule_flag_VEN  Acción Democrática"
- RULE_OPTION_VEN_PATH_SOCDEM_DESC: "$RULE_OPTION_VEN_PATH_DEM_DESC$ §SAcción Democrática§!, or Democratic Action, in the 1939 elections."
+VEN_PATH: "£KR_game_rule_flag_VEN   Die Wahl von 1939"
+RULE_OPTION_VEN_PATH_RANDOM: "Standard"
+RULE_OPTION_VEN_PATH_RANDOM_DESC: "Die Wahlen von 1939 sind für die Zukunft Venezuelas von entscheidender Bedeutung. Möge die Hand des Schicksals gnädig sein."
+ RULE_OPTION_VEN_PATH_DEM_DESC: "Die venezolanische Demokratie bleibt mit dem Sieg der"
+RULE_OPTION_VEN_PATH_SOCDEM: "£KR_game_rule_flag_VEN   Acción Democrática"
+ RULE_OPTION_VEN_PATH_SOCDEM_DESC: "$RULE_OPTION_VEN_PATH_DEM_DESC$ §SAcción Democrática§!, oder Demokratische Aktion, bei den Wahlen von 1939."
  RULE_OPTION_VEN_PATH_SOCLIB: "£KR_game_rule_flag_VEN  Unión Republicana Democrática"
- RULE_OPTION_VEN_PATH_SOCLIB_DESC: "$RULE_OPTION_VEN_PATH_DEM_DESC$ the §lUnión Republicana Democrática§!, or Democratic Republican Union, in the 1939 elections."
- RULE_OPTION_VEN_PATH_SYNDIE: "£KR_game_rule_flag_VEN  Socialistas"
- RULE_OPTION_VEN_PATH_SYNDIE_DESC: "The §rPartido Socialista de Venezuela§!, or Socialist Party of Venezuela, win the 1939 Venezuelan elections, bringing Venezuela into the Internationale."
+RULE_OPTION_VEN_PATH_SOCLIB_DESC: "$RULE_OPTION_VEN_PATH_DEM_DESC$ die §lUnión Republicana Democrática§!, oder Demokratische Republikanische Union, bei den Wahlen von 1939."
+RULE_OPTION_VEN_PATH_SYNDIE: "£KR_game_rule_flag_VEN   Socialistas"
+RULE_OPTION_VEN_PATH_SYNDIE_DESC: "Die §rPartido Socialista de Venezuela§!, die Sozialistische Partei Venezuelas, gewinnt die Wahlen in Venezuela 1939 und führt Venezuela in die Internationale."
  RULE_OPTION_VEN_PATH_PATAUT: "£KR_game_rule_flag_VEN  £KR_game_rule_flag_USA  Junta Nacional"
- RULE_OPTION_VEN_PATH_PATAUT_DESC: "Venezuela continues to elect democratic governments, until such point as the Americans finish their civil war and re-enter the world stage. The Socialistas are then elected, and the Americans stage a coup, installing a §PJunta Nacional Venezuelana§!, or Venezuelan National Junta.\n\n§RRequires:§!\n§CThe Federal Government, People's Government or Constitutional Coalition are victorious in the Second American Civil War§!\n\n§RNot§! §CFortress America§! in any £KR_game_rule_flag_USA  £KR_game_rule_flag_APG  £KR_game_rule_flag_ACC  §YAmerican Foreign Policy§!"
+ RULE_OPTION_VEN_PATH_PATAUT_DESC: "Venezuela wählt weiterhin demokratische Regierungen, bis die Amerikaner ihren Bürgerkrieg beendet haben und wieder auf die Weltbühne zurückkehren. Dann werden die Sozialisten gewählt, und die Amerikaner inszenieren einen Staatsstreich und setzen eine §PJunta Nacional Venezuelana§!, oder venezolanische Nationaljunta ein.\n\n§RBenötigt:§!\n§CDie Bundesregierung, die Volksregierung oder die Pazifikstaaten siegen im Zweiten Amerikanischen Bürgerkrieg§!\n\n§RNicht§! §Festung Amerika§! in jeder £KR_game_rule_flag_USA  £KR_game_rule_flag_APG  £KR_game_rule_flag_ACC §YAmerikanische Außenpolitik§!"
 
  ### Country Paths - Western / Southern Europe ###
  RULE_GROUP_KAISERREICH_RULES_WS_EUROPE: "Country Paths - Western / Southern Europe"
