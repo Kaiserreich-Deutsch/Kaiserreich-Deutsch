@@ -55,6 +55,7 @@ annexation_events.integration: "Pass euch unserem Territorium an."
  annexation_events.americas.give_to_guatemala: "[guatemala.GetGrantTerritoryEventOption]"
  annexation_events.americas.give_to_panama: "[panama.GetGrantTerritoryEventOption]"
  annexation_events.americas.give_to_west_indies: "[west_indies.GetGrantTerritoryEventOption]"
+ annexation_events.americas.give_to_curacao: "[curacao.GetGrantTerritoryEventOption]"
 
  annexation_events.americas.give_to_colombia: "[colombia.GetGrantTerritoryEventOption]"
  annexation_events.americas.give_to_venezuela: "[venezuela.GetGrantTerritoryEventOption]"
@@ -237,6 +238,7 @@ annexation_events.integration: "Pass euch unserem Territorium an."
  annexation_events.asia.give_to_owner_of_bombay: "[bombay.GetGrantTerritoryEventOption]"
  annexation_events.asia.give_to_owner_of_madura: "[madura.GetGrantTerritoryEventOption]"
  annexation_events.asia.give_to_owner_of_andhra: "[andhra.GetGrantTerritoryEventOption]"
+ annexation_events.asia.give_to_owner_of_sikkim: "[sikkim.GetGrantTerritoryEventOption]"
 
 # Oceania
  annexation_events.oceania.give_to_australia: "[australia.GetGrantTerritoryEventOption]"
@@ -244,7 +246,7 @@ annexation_events.integration: "Pass euch unserem Territorium an."
  annexation_events.oceania.give_to_philippines: "[philippines.GetGrantTerritoryEventOption]"
 
 # China
- annexation_events.china.release_china: "[ROOT.china_annexation_release_event_option]"
+ annexation_events.china.release_china: "Lassen Sie uns unsere Optionen mit lokalen Fraktionen ausloten."
  annexation_events.china.release_china_take_coastline: "[ROOT.china_annexation_release_event_option_take_coast]"
  annexation_events.china.give_to_china: "Geben Sie es an [china.GetNameDef]."
  annexation_events.china.fading_sun_return_to_china: "Übergeben Sie es gemäß den Bedingungen unseres Friedensvertrags an [japan_forced_return.GetNameDef]."
@@ -260,16 +262,15 @@ annexation_events.integration: "Pass euch unserem Territorium an."
 
  release_china_csp: "Einsetzung einer syndikalistischen Regierung in China."
  release_china_lkmt: "Stärkung der linken Kuomintang."
- release_china_rngroc: "Lassen Sie die neu organisierte Regierung von China frei."
- release_china_fengtian: "Wiederherstellung der Fengtian-Regierung."
+ release_china_rngroc: "Lasst die Reformierte Regierung Chinas frei."
  release_china_lep: "Die Liga der acht Provinzen wiederherstellen."
- release_china_qing_empire: "Wiederherstellung des Qing-Reiches."
+ release_china_qing_empire: Die Chinesische Monarchie wiederherstellen."
  release_china_zhili: "Lasst die Pekinger Republik frei."
  release_china_rkmt: "Lasst die Rechte Kuomintang frei."
  release_china_federalist: "Lasst ein föderalistisches China frei."
 
  release_china_take_coastline_fengtian: "Übernahme der Hafenstädte und Wiederherstellung der Fengtian-Regierung!"
- release_china_take_coastline_rngroc: "Übernahme der Hafenstädte und Freilassung der neu organisierten Regierung von China!"
+ release_china_take_coastline_rngroc: "Erobert die Hafenstädte und lasst die Reformregierung Chinas frei!"
 
 annexation_events.2.t: "[granted_land.GetName] Wiedergewonnen!"
 annexation_events.2.d: "Die [From.GetAdjective]-Regierung hat beschlossen, [granted_land.GetName] an uns zurückzugeben, ohne Bedingungen zu stellen."
@@ -873,10 +874,10 @@ annexation_71_desc: "Ehemals Teil des Königreichs Ungarn, ist die Donautiefeben
 
  annexation_241: "Das Schicksal von [241.GetName]"
  annexation_241_desc: "Die Region um [241.GetName] ist jetzt unter unserer Kontrolle, wir müssen entscheiden, was wir mit ihr machen wollen."
- annexation_events.1108.a: "[krichev.GetGrantTerritoryEventOption]"
+ annexation_events.1108.a: "[chernihiv.GetGrantTerritoryEventOption]"
  annexation_events.1108.b: "[mozyr.GetGrantTerritoryEventOption]"
- annexation_events.1108.c: "[chernihiv.GetGrantTerritoryEventOption]"
- annexation_events.1108.d: "[starodub.GetGrantTerritoryEventOption]"
+ annexation_events.1108.c: "[starodub.GetGrantTerritoryEventOption]"
+ annexation_events.1108.d: "[mohilev.GetGrantTerritoryEventOption]"
 
  annexation_683: "Das Schicksal von [683.GetName]"
  annexation_683_desc: "Wir haben die Kontrolle über die ehemals österreichischen Territorien Görz und Gradis übernommen. Wir müssen entscheiden, was wir damit machen."
@@ -1097,7 +1098,8 @@ annexation_689_desc: "Nach einer kurzen Kampagne ist Kingston unter unserer Kont
 annexation_events.2017.a: "Ein unabhängiges Jamaika freigeben."
 
  annexation_695: "Das Schicksal von [695.GetName]"
- annexation_695_desc: "Die Insel von [695.GetName] wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen wollen."
+ annexation_695_desc: "Die Insel [695.GetName] und ihre Nebeninseln sind unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzt haben. Wir müssen nun entscheiden, was wir damit tun wollen."
+ annexation_events.2018.a: "Die Niederländischen Inseln zu einer unabhängigen Föderation reformieren."
 
 annexation_691: "Das Schicksal von Trinidad"
 annexation_691_desc: "Nach einer kurzen Kampagne steht Port of Spain unter unserer Kontrolle, und damit ganz Trinidad. Was soll mit der Insel geschehen?"
@@ -1210,7 +1212,8 @@ annexation_506_desc: "Die Region in [506.GetName] ist unter unsere Kontrolle geb
  annexation_events.2050.a: "Die Union der Antillen und Guyana freigeben."
  
  annexation_1077: "Das Schicksal von [1077.GetName]"
- annexation_1077_desc: "Die Insel von [1077.GetName] wurde unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir mit ihr machen wollen."
+ annexation_1077_desc: "Die Insel [1077.GetName] wurde zusammen mit Saba und Sint Eustatius unter unsere Kontrolle gebracht, da unsere Truppen die Region besetzt haben. Wir müssen nun entscheiden, was wir damit tun wollen."
+ annexation_events.2051.a: "Die Niederländischen Inseln zu einer unabhängigen Föderation reformieren."
 
  annexation_310: "Das Schicksal von Ost-Guayana"
  annexation_310_desc: "Die ehemals französische Kolonie Ost-Guayana ist durch die Besetzung der Region durch unsere Truppen unter unsere Kontrolle gebracht worden. Wir müssen nun entscheiden, was wir mit ihr machen wollen."
@@ -1306,8 +1309,8 @@ annexation_events.3015.a: "Schaffen Sie eine unabhängige Mandschurei."
 annexation_743: "Das Schicksal von changhai"
 annexation_743_desc: "Die große chinesische Hafenstadt Schanghai, die früher unter der formellen Autorität des internationalen Mandats für die chinesischen Konzessionen stand, steht nun unter unserer Kontrolle. Wir müssen nun entscheiden, ob wir sie wieder unter die Herrschaft des Legationsrates stellen, dem wir selbst angehören, ob wir die Städte an China übergeben oder sie für uns behalten."
 annexation_events.3016.a: "Den Gesandtschaftsrat wieder einführen."
- annexation_events.3016.b: "[china_qiantang.GetGrantTerritoryEventOption]"
- annexation_events.3016.c: "[china_jinling.GetGrantTerritoryEventOption]"
+ annexation_events.3016.b: "[china_hangzhou.GetGrantTerritoryEventOption]"
+ annexation_events.3016.c: "[china_nanjing.GetGrantTerritoryEventOption]"
 
 annexation_525: "Das Schicksal von Korea"
 annexation_525_desc: "Nach der endgültigen Befreiung der stolzen Nation Korea wurde uns die Verantwortung für die Organisation der Verwaltung der neu eroberten Gebiete überlassen, was sollen wir tun?"
@@ -1405,6 +1408,8 @@ annexation_events.3037.a: "Kaschmir freigeben."
 
 annexation_888: "Das Schicksal von Sikkim"
 annexation_888_desc: "Das winzige, ländliche Sikkim ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
+ annexation_events.3038.a: "Sikkim als Republik freigeben."
+ annexation_events.3038.b: "Das Königreich Sikkim freigeben."
 
 annexation_432: "Das Schicksal von Assam"
 annexation_432_desc: "Assam ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was wir damit machen."
