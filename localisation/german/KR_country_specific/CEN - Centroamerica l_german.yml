@@ -1,6 +1,5 @@
 ﻿l_german:
 ## Übersetzt von Thylon ##
-
 ### Country Names ###
 CEN: "Zentralamerika"
 CEN_ADJ: "zentralamerikanische"
@@ -267,6 +266,9 @@ central_america_unification_events.11.c: "Die Vorhut kann immer noch stark sein.
 central_america_unification_events.34.t: "[From.GetNameDefCap] bereitet sich auf den Krieg vor"
 central_america_unification_events.34.desc: "[From.GetNameDefCap] droht mit Krieg! Wir müssen sicherstellen, dass wir bereit sind, sie auf dem Feld zu treffen. Wir müssen unsere Nation, unsere Männer und Frauen und alle, die kämpfen können, mobilisieren. Nur wenn wir uns auch vorbereiten, haben wir eine Chance, sie zu besiegen."
 central_america_unification_events.34.a: "Wir müssen den Sieg sichern!"
+
+central_america_unification_events.35.t: "[FROM.FROM.GetNameDefCap] bereitet sich auf einen Krieg vor"
+central_america_unification_events.35.desc: "[FROM.FROM.GetNameDefCap] droht mit Krieg! Wir müssen sicherstellen, dass wir bereit sind, ihnen auf dem Schlachtfeld entgegenzutreten. Wir müssen unsere Nation, unsere Männer und Frauen und alle, die kämpfen können, mobilisieren. Nur wenn wir uns ebenso gut vorbereiten, haben wir eine Chance, sie zu besiegen."
 
 ################################################
 ### DEMOCRATIC REGIME
@@ -1442,9 +1444,9 @@ central_america_socialist_events.017.e: "Die Revolutionaries."
 
 central_america_socialist_events.018.t: "Die Hauptstadt-Debatte"
 central_america_socialist_events.018.d: "Eine neue Nation erfordert möglicherweise eine neue Hauptstadt. Wir müssen entscheiden, ob wir unsere Hauptstadt an einen neuen Ort verlegen wollen, der besser zu unserer neuen Regierung passt, oder ob wir an Ort und Stelle bleiben wollen. Letztendlich entscheidet der neue Kongress, welcher soeben die Türen geöffnet hat!"
-central_america_socialist_events.018.a: "San Salvador ist gut geeignet."
-central_america_socialist_events.018.b: "Tegucigalpa ist gut geeignet."
-central_america_socialist_events.018.c: "Guatemala ist gut geeignet."
+central_america_socialist_events.018.a: "Ciudad de Guatemala ist gut geeignet."
+central_america_socialist_events.018.b: "San Salvador ist gut geeignet."
+central_america_socialist_events.018.c: "Tegucigalpa ist gut geeignet."
 central_america_socialist_events.018.e: "Managua ist gut geeignet."
 central_america_socialist_events.018.f: "San José ist gut geeignet."
 
@@ -1749,7 +1751,6 @@ kaiser_shipyards_caribbean: "Kaiser Werften Karibik"
 CA_military_focus: "Schwerpunktbaum von Zentralamerika (Militär)"
 
 ### Flags ###
-cenmil_ubico_inaugurated: "Präsident Ubico ist in sein Amt vereidigt worden."
 
 CENmil_professional_army_doctrine: "Die Armee hat eine Politik der Professionalisierung verfolgt"
 CENmil_mass_assault_doctrine: "Die Armee hat eine Politik der Expansion verfolgt"

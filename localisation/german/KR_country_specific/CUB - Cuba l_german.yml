@@ -543,8 +543,6 @@
  CUB_strike_success: "Der Generalstreik von Havanna hat die Regierung gestürzt"
  CUB_socialists_consolidate: "Sozialisten festigen Macht"
  CUB_natpop_march: "Autentico Paramilitärs organisieren sich"
- CUB_chose_navy: "Marine gewählt"
- CUB_chose_airforce: "Luftstreitkräfte gewählt"
  syndiecongvic: "Syndikalisten siegreich"
  totalistcongvic: "Totalisten siegreich"
  radsoccongvic: "Radikale Sozialisten siegreich"
@@ -1456,11 +1454,6 @@
  cuba_events.94.a: "Es war ein guter Lauf."
 
 ### Military Chain
- cuba_events.97.t: "Begrenzte Militärreorganisation"
- cuba_events.97.d: "Das kubanische Militär ist trotz jahrelanger Zusammenarbeit mit amerikanischen Beratern keine effektive Kampftruppe, es mangelt an moderner Ausrüstung und einer zentralen Einsatzdoktrin. Während die Verwaltung der Armee fest etabliert und mit der Innenpolitik verwoben und damit derzeit nicht reformierbar ist, könnten das Fliegerkorps, eine weitgehend unabhängige Hilfsabteilung der Armee, und die Marine viel leichter beeinflusst werden. Welcher Zweig sollte im Fokus der Reformen stehen?"
- cuba_events.97.a: "Die Marine."
- cuba_events.97.b: "Das Fliegerkorps."
-
  cuba_events.98.t: "Ein paar gute Männer"
  cuba_events.98.d_1: "Nachdem die einst so prominenten reaktionären Kräfte im Militär am Amboss des Sozialismus zerschlagen wurden, müssen diese imperialistischen Verräter, die sich auf die Seite von Díaz und dem alten Regime stellten, zur Rechenschaft gezogen werden. Leider stellen diese Männer einen Großteil der Besten und Klügsten in unseren Streitkräften dar, und während einige von ihnen sicherlich in administrativer Funktion in den Dienst zurückkehren könnten und unsere zukünftigen militärischen Initiativen davon profitieren würden, könnte die Auswirkung solcher Milde unser Regime stark destabilisieren."
  cuba_events.98.d_2: "Der amerikanisch kontrollierte Block innerhalb der Armee, der einst unsere Nation in Geiselhaft hielt, einige dieser Männer könnten jedoch rehabilitierbar sein. Auch wenn man ihnen nie wirklich vertrauen könnte, könnten sich einige in administrativen Rollen innerhalb der Armee als wertvoll erweisen und eine Begnadigung verdienen."
@@ -1469,51 +1462,6 @@
  cuba_events.98.a: "Lasst sie im Gefängnis verrotten."
  cuba_events.98.b: "Hinrichten."
  cuba_events.98.c: "Begnadigt sie."
-
- cuba_events.99.t: "Armeereorganisation"
- cuba_events.99.d_1: "Mit der vollständigen Entfernung illoyaler Offiziere aus der Militärverwaltung kann die Armee endlich reformiert werden."
- cuba_events.99.d_2: "Mit der vollständigen Entfernung nicht rehabilitierbarer Offiziere aus der Militärverwaltung und der Versetzung anderer Beschuldigter in administrative Positionen kann die Armee endlich reformiert werden."
- cuba_events.99.d_3: "Mit der gelösten politischen Situation und gefestigter militärischer Kontrolle kann die Armee endlich reformiert werden."
- cuba_events.99.a: "Vorwärts!"
-
- cuba_events.100.t: "Die neue Armee"
- cuba_events.100.d: "Während unser Militärstab sich einig ist, dass die Armee im Kern aus Menschen besteht und der optimale Weg zur Stärkung darin liegt, sich auf die Menschen zu konzentrieren, steht die Frage, wie diese Soldaten geformt werden sollen, noch offen. Einige Offiziere glauben, dass der moderne Krieg defensive Organisationsstrukturen und Doktrinen obsolet gemacht hat, während andere entschieden widersprechen und argumentieren, dass sich Kuba als kleine Inselnation auf seine Verteidigung konzentrieren muss, anstatt auf nicht nachhaltige Kampagnen."
- cuba_events.100.a: "Der beste Schutz ist der Angriff."
- cuba_events.100.b: "Eine defensive Doktrin fördern."
-
- cuba_events.101.t: "Die Männer bewaffnen"
- cuba_events.101.d: "Unsere Offiziere sind sich einig, dass es unserer Armee an Feuerkraft mangelt, während der Erfolg in der Kriegsführung zunehmend von technologischer Parität abhängt. Bevor unsere Nation jedoch damit beginnt, moderne Waffen richtig einzusetzen, müssen wir entscheiden, ob wir uns auf die Qualität oder die Quantität der Bewaffnung konzentrieren wollen."
- cuba_events.101.a: "Auf Produktion konzentrieren."
- cuba_events.101.b: "Unsere Waffen müssen präzise sein."
-
- cuba_events.102.t: "Entwicklungsplan der Luftstreitkräfte"
- cuba_events.102.d: "Den kleinen kubanischen Luftstreitkräften mangelt es an Personal, Flugzeugen und der notwendigen Infrastruktur, um moderne Luftstreitkräfte zu unterhalten. Eine beträchtliche Summe wurde für Investitionen in all diese Bereiche bereitgestellt, und nun bleibt nur noch die Wahl, wie stark wir in die Erweiterung der Luftstreitkräfte investieren sollen."
- cuba_events.102.a: "Kleine Investition."
- cuba_events.102.b: "Beträchtliche Investition."
- cuba_events.102.c: "Massive Investition."
-
- cuba_events.103.t: "Flugzeuge beschaffen"
- cuba_events.103.d: "Die zweite Phase des Ausbaus des Fliegerkorps erfordert die Entwicklung und Beschaffung oder Produktion neuer Flugzeuge. Wie sollen wir dabei vorgehen?"
- cuba_events.103.a: "Ausländische Modelle kaufen."
- cuba_events.103.b: "In heimische Flugzeugindustrie investieren."
-
- cuba_events.117.t: "Kauf ausländischer Flugzeuge"
- cuba_events.117.d: "Wir haben uns entschieden, Flugzeuge aus dem Ausland zu kaufen und während diese Entscheidung von unseren Beratern weitgehend befürwortet wurde, haben einige noch ernsthafte Vorbehalte, die Gelegenheit zur Verbesserung unserer heimischen Produktion nicht zu nutzen."
- cuba_events.117.a: "Die Anfrage an unseren Fraktionsführer stellen."
- cuba_events.117.b: "Uns an unsere amerikanischen Freunde wenden."
-
- cuba_events.118.t: "Kuba bittet um Flugzeugkauf"
- cuba_events.118.d: "Da Kuba keine eigenen Flugzeuge besitzt, hat es darum gebeten, einen kleinen Teil unserer militärischen Monatsproduktion zu kaufen, um einige Jagdflugzeuge zu erhalten. Während solche Geschäfte nicht beispiellos sind, ist es vielleicht nicht wert, unsere eigene Produktion für Kubas Willen zu beeinträchtigen."
- cuba_events.118.a: "Den Vorschlag annehmen."
- cuba_events.118.b: "Das können wir uns nicht leisten."
-
- cuba_events.119.t: "[From.GetNameDefCap] Hat Zugestimmt"
- cuba_events.119.d: "[From.GetNameDefCap] hat zugestimmt, fünfzig neue Jagdflugzeuge für uns zu produzieren."
- cuba_events.119.a: "Ausgezeichnet!"
-
- cuba_events.120.t: "[From.GetNameDefCap] Hat Abgelehnt"
- cuba_events.120.d: "[From.GetNameDefCap] hat unsere Bitte um Unterstützung bei der Produktion neuer Flugzeuge abgelehnt. Nach diesem Verrat haben wir keine andere Wahl, als uns auf die heimische Produktion zu konzentrieren."
- cuba_events.120.a: "Verflixt!"
 
 ### Diplomatic Chain
  cuba_events.121.t: "Kuba Unterstützt Opposition"
