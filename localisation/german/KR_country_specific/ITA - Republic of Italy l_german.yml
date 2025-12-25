@@ -152,7 +152,6 @@ NAME_THEME_HISTORICAL_FHNX_SUBMARINES: "U-Boote der historischen 'F/H/N/X'-Klass
 NAME_THEME_HISTORICAL_GIACINTO_SUBMARINES: "U-Boote der historischen 'Giacinto'-Klasse"
 NAME_THEME_HISTORICAL_SEI_SUBMARINES: "U-Boote der historischen 'SEI'-Klasse"
 NAME_THEME_POPES: "Päpste"
-ITA_replacing_naval_ideas: "Kombiniere §Y$ITA_republican_navy$§! und §Y$ITA_merchant_marine$§! zu §Y$ITA_rule_the_seas$§!\nEffektive Änderung:\nFlottenkoordinierung: §G+5%§!"
 
 ITA_restore_monarchy_focus_condition: "§LWenn §Y[SRD.GetNameDef]§! nicht existiert, sind wir keine §YMonarchie§! und wir sind im Frieden mit der §YEntente§!§!"
 ITA_restore_monarchy_umberto_tt: "Der §YFürst von Piemont§! wird als §YUmberto II.§! zum König von Italien."
@@ -232,9 +231,6 @@ VNC_claim_adriatic: "Irredentistischen Anspruch auf [From.GetName] erheben"
 VNC_claim_adriatic_desc: "Einst Teil der Domäne von Venedig, ist [From.GetName] heute eigentlich [ROOT.GetAdjective]-Gebiet und es ist in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
 VNC_claim_albania: "Feststellung des irredentistischen Anspruchs auf Albanien"
 VNC_claim_albania_desc: "Albanien war einst Teil der Domäne von Venedig und ist heute eigentlich [ROOT.GetAdjective] Territorium, und es ist in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-ITA_occupation_decisions: "Italienische Okkupation"
-ITA_erode_italian_legitimacy: "Aushöhlen [From.GetAdjective] Legitimität"
-ITA_erode_italian_legitimacy_desc: "Die [From.GetAdjective]-Regierung wurde besiegt und versteckt sich nun im Exil. Da ihr Anspruch auf Legitimität alles andere als absolut ist, sollten wir in der Lage sein, den [From.GetAdjective]-Widerstand zu zermürben, wenn wir genug Zeit haben."
 
 ### Republic Path ###
 ITA_social_liberal_victory: "Die Republik überlebt"
@@ -983,10 +979,6 @@ italy_events.183.t: "[From.GetNameDefCap] bittet um Frieden"
 italy_events.183.d: "Es scheint, dass die [From.GetAdjective]-Regierung beschlossen hat, dass ihr Streben um Libyen zu einem zu hohen Preis gekommen ist. Sie haben angeboten, ihre Ansprüche auf Tripolitanien vollständig aufzugeben und jegliches Land zu übergeben, das wir oder unsere Verbündeten beanspruchen (falls es welche gibt), wenn wir den Krieg jetzt einfach beenden würden."
 italy_events.183.a: "Ja, lassen Sie uns das jetzt beenden"
 italy_events.183.b: "Sie haben es begonnen, jetzt werden wir es zu Ende bringen"
-
-italy_events.184.t: "[Root.GetAdjective] Widerstand bricht zusammen"
-italy_events.184.d: "Seit die [Root.GetAdjective]-Regierung ins Exil gegangen ist, war es schwierig, den Widerstand gegenüber unseren italienischen Mitbürgern aufrechtzuerhalten. Sie haben hart daran gearbeitet, unsere Legitimität zu untergraben, und nun scheint es, dass all unsere Bemühungen umsonst waren. Sie haben sich als siegreich erwiesen."
-italy_events.184.a: "Heilige Scheiße!"
 
 italy_events.185.t: "Der Krieg geht weiter"
 italy_events.185.d: "Der Krieg gegen [peace_country.GetNameDef] und die [peace_country.GetFactionName] zieht sich schon seit Monaten hin, und da wir bereits ihre italienischen Verbündeten besiegt haben, scheint es sinnlos, weiterzumachen. Vielleicht können wir vorschlagen, dass sie einem einfachen Waffenstillstand zustimmen, bei dem alles, was wir gewinnen, das Land ist, das wir bereits haben, und alle Ansprüche, die [peace_country.GetNameDef] oder ihre Verbündeten auf uns haben. Mehr nicht."
