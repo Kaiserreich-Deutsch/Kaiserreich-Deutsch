@@ -64,7 +64,7 @@
  EGY_inexperienced_officer_corps: "Unerfahrenes Militär"
  EGY_inexperienced_officer_corps_desc: "Das ägyptische Offizierskorps ist recht unerfahren, da die Briten und Osmanen sicherstellen wollten, dass es nicht zu mächtig wird. Viele Offiziere sind lediglich in Wegen der Kriegsführung bewandert, welche aus einer Zeit vor dem Weltkrieg stammen, wodurch unsere Armee behindert wird. Wenn wir aus Ägypten einen modernen Staat formen wollen, sollten wir auch die Streitkräfte reformieren."
  EGY_iqta: "Grundbesitzende Oberschicht"
- EGY_iqta_desc: "Der Großteil des ägyptischen Landes gehört der grundbesitzenden Oberschicht und dem Adel, welche nur 6% der Bevölkerung unserer Nation ausmachen, aber über 65% ihres Landes besitzen. Auf vielen dieser Ländereien herrschen noch immer Lebensbedingungen, die denen des alten Iqta-Systems gleichen."
+ EGY_iqta_desc: "Der Großteil des Landes in Ägypten gehört den landbesitzenden Eliten und Adligen, wobei weniger als 6 % der ägyptischen Bevölkerung über 65 % des Landes besitzen. In vielen dieser Landgüter ähneln die Bedingungen denen des alten Iqta-Systems."
  EGY_iqta_nationalized: "Nationalisiertes Land"
  EGY_royal_gendarmerie: "Vergrößerte Königliche Gendarmerie"
  EGY_military_schools: "Militärschulen"
@@ -96,7 +96,7 @@
 
 #### Decisions ####
  EGY_cairo_pact_decisions: "Kairo-Pakt"
- EGY_cairo_pact_decisions_desc: "Der Kairo-Pakt ist ein Mittel, um die ägyptischen Interessen im Nahen Osten durchzusetzen. Dabei wäre es wohl von Nutzen, Gesandte in andere Nationen zu entsenden."
+ EGY_cairo_pact_decisions_desc: "Der Kairoer Pakt wurde geschlossen, um die Interessen Ägyptens zu unterstützen. Zu diesem Zweck sollten wir Gesandte ins Ausland entsenden, um unsere Interessen zu vertreten."
 
  EGY_press_ottoman_surrender: "Zwingt die [OTT.GetFlag] §YOsmanen§! zur Kapitulation"
  EGY_press_ottoman_surrender_desc: "Nun, da unsere Verbündeten alle wichtigen arabischen Städte kontrollieren und die Türken in die Berge Anatoliens zurückgedrängt wurden, können wir endlich mit Stolz sagen, dass wir die Araber von ihren Unterdrückern befreit haben."
@@ -122,7 +122,7 @@
  EGY_libyan_egyptian_unification_decisions_desc: "Seitdem sich die Lage in der Levante beruhigt hat, haben die Ägypter ein Auge auf die von Problemen geplagte Nation Tripolitanien geworfen. Diese hat erst vor Kurzem ihre Unabhängigkeit erklärt und noch keine einheitliche Identität entwickelt, da den meisten Libyern das Konzept einer Nationalität gänzlich fremd ist. Dadurch bietet sich uns nun eine Expansionsmöglichkeit: die Behörde für arabische Angelegenheiten in Kairo hat vorgeschlagen, dass wir die HIMT an die Macht bringen, welche uns dabei helfen könnte, Tripolitanien zu annektieren und zu einem Teil eines größeren ägyptischen Staates zu machen."
  
  EGY_promote_the_HIMT: "Finanziert die HIMT"
- EGY_promote_the_HIMT_desc: "Die HIMT (die ägyptisch-tripolitanische Einheitspartei) ist ein kleiner Zweig der großen arabisch-nationalistischen Bewegung. Sie wurde von 'Ali Rajab ins Leben gerufen, welcher während seines Besuchs in Alexandria von der Großartigkeit Ägyptens beeindruckt wurde und Tripolitanien deshalb in einen großägyptischen Staat integrieren will, zumal er der Meinung ist, dass Tripolitanien weder die Ressourcen noch die Macht hat, um sich allein in dieser Welt zu behaupten."
+ EGY_promote_the_HIMT_desc: "Die Egypto-Tripolitanian Unification Party (Ägyptisch-Tripolitanische Einheitspartei) ist ein kleiner Ableger der breiteren arabischen Nationalbewegung und geht auf die Initiative von Ali Rajab zurück, der während seines Besuchs in Alexandria von der Größe Ägyptens beeindruckt war und die Integration Tripolitaniens in den größeren ägyptischen Staat anstrebt, da Tripolitanien seiner Meinung nach weder über die Ressourcen noch über die Macht verfügt, um eigenständig zu bestehen."
  TRP_promote_the_HIMT: "Ägypten finanziert die HIMT"
  
  EGY_pan_arabist_propaganda: "Panarabische Propaganda"
@@ -283,7 +283,7 @@
  EGY_Arab_Academiae: "Die Vereinten Arabischen Akademien"
  EGY_Arab_Academiae_desc: "Es waren arabische Geiser, welche die wichtigsten mathematischen und wissenschaftlichen Theorien der Welt hervorbrachten! Wenn alle Araber vereint an einem Strang ziehen, gibt es nichts, dass sie nicht erreichen können."
  EGY_Tripoli_Alexandria_Railroad: "Die Bengasi-Alexandria Eisenbahn"
- EGY_Tripoli_Alexandria_Railroad_desc: "Um die Transportwege zwischen unseren beiden Nationen zu verbessern, wurde der Bau einer neuen Eisenbahnlinie entschieden. Diese soll von Alexandria nach Bengasi verlaufen und so Libyen und Ägypten zusammenschweißen."
+ EGY_Tripoli_Alexandria_Railroad_desc: "Um die Transportwege zwischen unseren beiden Nationen zu verbessern, wurde der Bau einer neuen Eisenbahnlinie entschieden. Diese Eisenbahnstrecke wird von Alexandria nach Bengasi führen und Libyen und Ägypten besser miteinander verbinden."
  EGY_Decolonisation_Maghreb: "Dekolonialisierung des Maghrebs"
  EGY_Decolonisation_Maghreb_desc: "Die französischen Verwalter Nordafrikas haben die dortigen Einheimischen derart ausgenutzt, dass wir uns nicht länger einfach zurücklehnen und zusehen können! Es ist an der Zeit, die Menschen des Maghreb zu befreien!"
  EGY_Libyan_Egyptian_Unification: "Libysch-Ägyptische Vereinigung"
@@ -523,7 +523,7 @@
  egypt_events.29.b: "Es wird kein Frauenwahlrecht geben!"
 
  egypt_events.63.t: "Die Aufteilung Äthiopiens"
- egypt_events.63.d: "Im Äthiopischen Kaiserreich leben Menschen vieler verschiedener Kulturen, von denen nicht alle froh darüber sind, Teil des Reiches zu sein. Die Somalier, Omoro und Tigray sind die größten dieser Gruppen, doch es gibt noch viele weitere. Wir könnten Äthiopien vielleicht schwächen, indem wir die verschiedenen Kulturen gegeneinander ausspielen und die Nation so von innen heraus aufteilen."
+ egypt_events.63.d: "Das Äthiopische Reich besteht aus vielen ethnischen Stämmen, von denen nicht alle daran interessiert sind, Teil dieses Reiches zu sein. Somalier, Oromo und Tigray sind die größten Gruppen, aber es gibt noch viele andere. Wir könnten das Reich schwächen, indem wir versuchen, die verschiedenen Gruppen gegeneinander auszuspielen und Äthiopien intern zu spalten."
  egypt_events.63.a: "Sollen sie sich doch untereinander streiten."
 
  egypt_events.64.t: "Spannungen im Reich"
@@ -642,11 +642,11 @@
  egypt_events.104.b: "Wählt den Islamisten."
 
  egypt_events.105.t: "Literaturwettbewerb"
- egypt_events.105.d: "Vor Kurzem gab es in Alexandria einen Literaturwettbewerb, der die Aufmerksamkeit der gesamten Nation erregte, da die beiden Kandidaten, die am wahrscheinlichsten gewinnen werden, bedeutende Autoren sind, die jeweils mit der pharaonistischen und der islamistischen Bewegung in Verbindung gebracht werden. Wer auch immer diesen Wettbewerb gewinnt, wird seiner jeweiligen Bewegung zu weiterem Ruhm verhelfen. Wer sollte zum Sieger gekürt werden?"
+ egypt_events.105.d: "Kürzlich fand in Alexandria ein Literaturwettbewerb statt, der aufgrund der Tatsache, dass die beiden Favoriten bekannte Schriftsteller sind und mit dem Pharaonismus und der islamistischen Kulturbewegung in Verbindung stehen, nationale Aufmerksamkeit erregte. Wer auch immer den Wettbewerb gewinnen wird, wird der Bewegung neuen Schwung verleihen. Wer wird zum Sieger gekürt werden?"
  egypt_events.105.a: "Das pharaonistische Buch."
  egypt_events.105.b: "Das islamistische Buch."
 
- egypt_events.106.t: "Der neue Scheich der Al-Azhar Universität"
+ egypt_events.106.t: "Neuer Großscheich der Al-Azhar-Universität"
  egypt_events.106.d: "Die Position des Scheichs der Al-Azhar ist eine der prestigeträchtigsten und einflussreichsten in ganz Ägypten, wobei die Tatsache, dass die Al-Azhar zu den ruhmreichsten Universitäten Ägyptens gehört, der Position zu weiterem Einfluss verhilft. Heute muss ein neuer Scheich gewählt werden. Sowohl die Pharaonisten als auch die Islamisten haben bereits ihre Kandidaten gestellt. Der pharaonistische Kandidat ist Muhammad al-Zawahiri, der für seine Bemühungen, die Universität zu unterstützen, und seine reformistischen Ideen bekannt geworden ist. Der islamistische Kandidat wiederum ist Mustafa Hassan Abdul Razek, der eine Renaissance der islamischen Philosophie in der Universität verursachte und die islamische Bildung im Reich ausweiten will. Wer von den beiden sollte zum nächsten Scheich ernannt werden?"
  egypt_events.106.a: "Wählt Muhammad al-Zawahiri."
  egypt_events.106.b: "Wählt Mustafa Hassan Abdul Razek."
@@ -667,7 +667,7 @@
  egypt_events.109.b: "Die Studenten haben recht, konfisziert diesen Film!"
 
  egypt_events.110.t: "Farouks königliche Hochzeit"
- egypt_events.110.d.egypt_bride_only: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Glücklicherweise scheint eine vielversprechende Braut für den  König gefunden worden zu sein: Safinaz Zulfica, eine junge Adlige aus Alexandria."
+ egypt_events.110.d.egypt_bride_only: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Glücklicherweise scheint eine vielversprechende Braut für den  König gefunden worden zu sein: Safinaz Zulficar, eine junge Adlige aus Alexandria."
  egypt_events.110.d.egypt_arab: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Derzeit stehen zwei Frauen zur Auswahl: Safinaz Zulfica, eine junge ägyptische Adlige, und Al Bandari, die Tochter von Abdulaziz Al Saud, dem Herrscher über das Emirat Nadschd. Wen sollte unser  König zur neuen Königin küren?"
  egypt_events.110.d.egypt_iranian: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Derzeit stehen zwei Frauen zur Auswahl: Safinaz Zulfica, eine junge ägyptische Adlige, und Prinzessin Shams Aqdas Qajar, eine Tochter der [PER.GetAdjective]en Kadscharen. Wen sollte unser  König zur neuen Königin küren?"
  egypt_events.110.d.all_brides: "Unser neuer  König ist noch nicht verheiratet. Obwohl er noch jung ist, sollte sofort eine Hochzeit arrangiert werden, um die Nachfolgelinie zu sichern. Die Regierung möchte ebenfalls verhindern, dass der Thron, sollte unserem  König irgendetwas zustoßen, an Abbas II übergeht. Nun muss nur noch eine von drei Frauen ausgewählt werden. Die erste mögliche Braut ist Safinaz Zulfica, eine junge ägyptische Adlige aus Alexandria. Die zweite ist Al Bandari, die Tochter von Abdulaziz Al Saud, dem Herrscher über das Emirat Nadschd. Die dritte ist Shams Aqdas Qajar, eine Tochter der [PER.GetAdjective]en Kadscharen. Wen sollte unser  König zur neuen Königin küren?"
@@ -676,7 +676,7 @@
  egypt_events.110.c: "Prinzessin Shams Aqdas Qajar."
 
  egypt_events.111.t: "Die königliche Hochzeit"
- egypt_events.111.d.egyptian_bride: "Heute ist ein besonderer Tag: Farouk und Safinaz Zulfica wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Farida angenommen, nachdem sie zur Königin Ägyptens ernannt wurde."
+ egypt_events.111.d.egyptian_bride: "Heute ist ein besonderer Tag: Farouk und Safinaz Zulficar wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Farida angenommen, nachdem sie zur Königin Ägyptens ernannt wurde."
  egypt_events.111.d.arab_bride: "Heute ist ein besonderer Tag: Farouk und Al Bandari wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Abdulaziz Al Saud und sein Gefolge waren ebenfalls anwesend, um seiner Tochter dabei zuzusehen, wie sie zur Königin Ägyptens aufsteigt. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Farah angenommen, nachdem sie zur Königin Ägyptens ernannt wurde."
  egypt_events.111.d.persian_bride: "Heute ist ein besonderer Tag: Farouk und Prinzessin Shams Aqdas Qajar wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Der [PER.GetAdjective] Schah und sein Gefolge waren ebenfalls anwesend, um seiner Tochter dabei zuzusehen, wie sie zur Königin Ägyptens aufsteigt. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Fatimah angenommen, nachdem sie zur Königin Ägyptens ernannt wurde."
  egypt_events.111.d.arab_bride_saudi: "Heute ist ein besonderer Tag: Farouk und Al Bandari wurden in einer aufwenigen Zeremonie vermählt. Zur Feier dieses erfreulichen Ereignisses ist heute im ganzen Ägypten ein arbeitsfreier Tag. Viele der Bewohner Kairos sind auf die Straßen gegangen, um einen Blick auf das Pärchen zu werfen. Abdulaziz Al Saud und sein Gefolge waren ebenfalls anwesend, um seiner Tochter dabei zuzusehen, wie sie zur Königin Ägyptens aufsteigt. Wie es die Traditionen, die Fuad I eingeführt hat, verlangen, hat die Braut den Namen Farah angenommen, nachdem sie zur Königin Ägyptens ernannt wurde - doch für uns wird sie immer Prinzessin Al Bandari bleiben."
@@ -722,7 +722,7 @@
  egypt_events.119.a: "Wir werden einen passenderen Mann finden."
 
  egypt_events.120.t: "Wahl des koptischen Papstes"
- egypt_events.120.d: "Durch den Tod von Past Yohannes XIX von Alexandria muss die koptisch-orthodoxe Kirche Alexandrias nun einen neuen Papst auswählen. Es gibt derzeit drei potenzielle Kandidaten für dieses heilige Amt: Theophilus, Yusab und Macarius. Theophilus ist der Bischof Jerusalems und der Diözese Sharqiyyahs. Er ist ein eher konservativer Kandidat, jedoch auch energetisch und vergleichsweise reich. Er wird von der heiligen Synode der Bischöfe unterstützt, die sich erhofft, die Rolle des Patriarchen stärken zu können, um so die Majis obsolet zu machen. Yusab ist der derzeitige Patriarch und Bischof Girgas und führt eine Kampagne zur Förderung einer spirituellen Nahda (Renaissance). Macarius wiederum ist der Bischof von Asyut und setzt sich für weitreichende Reformen ein. Doch wer von ihnen wird zum nächsten Papst der koptisch-orthodoxen Kirche Alexandrias gewählt werden?"
+ egypt_events.120.d: "Mit dem Tod von Papst Johannes XIX. von Alexandria muss die koptisch-orthodoxe Kirche von Alexandria nun einen neuen Papst wählen. Es gibt drei potenzielle Kandidaten für dieses heilige Amt: Theophilus, Yusab und Macarius. Theophilus ist Bischof von Jerusalem und der Diözese Sharqiyyah. Theophilus ist ein eher konservativer Kandidat, aber ein energischer und recht wohlhabender Bischof, der von der Heiligen Synode der Bischöfe unterstützt wird, die die Rolle des Patriarchen stärken und den Laienrat abschaffen möchte. Yusab ist der amtierende Patriarch und Bischof von Girga und führt eine Kampagne, die sich auf eine spirituelle Nahda (Renaissance) konzentriert. Macarius ist Bischof von Asyut und führt eine Reformkampagne. Wer wird zum nächsten Papst der koptisch-orthodoxen Kirche von Alexandria gewählt werden?"
  egypt_events.120.a: "Und der neue Papst ist...?"
 
  egypt_events.121.t: "Der neue koptische Papst"
@@ -732,7 +732,7 @@
  egypt_events.121.a: "Möge seine Heiligkeit den Koptikern Ägyptens helfen."
 
  egypt_events.122.t: "Koptische Erneuerung"
- egypt_events.122.d: "Die Bemühungen des koptischen Papstes für eine spirituelle Erneuerung und die der ägyptischen Regierung, den Staat zu säkularisieren, haben eine Wiedergeburt des koptischen Glaubens verursacht. Die Anzahl der gläubigen Koptiker hat sich stark erhöht, wenngleich der Großteil unserer Nation noch immer aus Muslimen besteht. Die neuen Klöster der koptischen Kirche waren größtenteils einst anderen christlichen Konfessionen gedacht, vor allem der protestantischen. Außerdem werden in ganz Ägypten neue Kirchen gebaut."
+ egypt_events.122.d: "Das Engagement des neuen koptischen Papstes für eine spirituelle Erneuerung und die Politik des Säkularismus der ägyptischen Regierung haben dazu geführt, dass der Glaube eine Renaissance erlebt hat und die Zahl der Gläubigen gestiegen ist, obwohl Muslime nach wie vor die große Mehrheit bilden. Die neuen Konvertiten zur koptischen Kirche kommen in der Regel aus anderen christlichen Konfessionen, insbesondere aus protestantischen Konfessionen, und in Ägypten werden erste neue Kirchen gebaut."
  egypt_events.122.a: "Interessant."
 
  egypt_events.123.t: "Koptische Waisen"
@@ -757,7 +757,7 @@
  egypt_events.127.a: "Ausländisches Geld für Ägypten!"
 
  egypt_events.128.t: ""Liebe und Rache" kommt in die Kinos"
- egypt_events.128.d: "Der Film "Liebe und Rache" wurde vor Kurzem veröffentlicht und hat ausgezeichnete Rezensionen erhalten. Die Handlung des musikalischen Dramas lautet folgendermaßen: Sohair, eine bekannter Sängerin, entscheidet sich, ihre Karriere zu beenden, um ihre große Liebe Wahid heiraten zu können. Eine Nacht vor der geplanten Hochzeit wird Wahid jedoch ermordet. Daraufhin findet Sohair heraus, dass der Komponist Gamal Hamdy etwas mit dem Mord zu tun haben könnte. Statt die Gerichte einzuschalten, entscheidet sie sich aufgrund fehlender Beweise jedoch dazu, vorzutäuschen, ihn zu lieben, um an die Wahrheit zu gelangen.\n\nEiner der Gründe für den Erfolg des Films war der unerwartete Tod der Schauspielerin und Sängerin Asmashan, die im jungen Alter von 26 Jahren in einem Autounfall umkam. Studio Misr, die Produzenten des Films, nutzten ihren Tod daraufhin aus, damit der Film eine größere Aufmerksamkeit erregt."
+ egypt_events.128.d: "Der Film "Liebe und Rache" wurde vor Kurzem veröffentlicht und hat ausgezeichnete Rezensionen erhalten. Die Handlung des musikalischen Dramas lautet folgendermaßen: Sohair, eine bekannter Sängerin, entscheidet sich, ihre Karriere zu beenden, um ihre große Liebe Wahid heiraten zu können. Eine Nacht vor der geplanten Hochzeit wird Wahid jedoch ermordet. Daraufhin findet Sohair heraus, dass der Komponist Gamal Hamdy etwas mit dem Mord zu tun haben könnte. Statt die Gerichte einzuschalten, entscheidet sie sich aufgrund fehlender Beweise jedoch dazu, vorzutäuschen, ihn zu lieben, um an die Wahrheit zu gelangen.\n\nEiner der Gründe für den Erfolg des Films war der unerwartete Tod der Schauspielerin und Sängerin Asmahan, die im jungen Alter von 26 Jahren in einem Autounfall umkam. Studio Misr, die Produzenten des Films, nutzten ihren Tod daraufhin aus, damit der Film eine größere Aufmerksamkeit erregt."
  egypt_events.128.a: "Ein großartiger Film, doch der Tod der Schauspielerin ist tragisch."
 
  egypt_events.129.t: "Al-Azeema kommt in die Kinos"
@@ -789,7 +789,7 @@
  egypt_events.135.a: "Fußball ist sowieso der bessere Sport."
 
  egypt_events.136.t: "Das Ägyptische Geschichts- und Kulturfest"
- egypt_events.136.d: "Heute wurden in ganz Ägypten die ägyptische Geschichte und die ägyptische Kultur gefeiert. Vor 5100 Jahren hat Pharaoh Narmer Ägypten vereint und die erste unserer Dynastien gegründet, wodurch die Geschichte unserer Nation begann. Deshalb wird heute sowohl in kleinen Dörfern als auch in großen Städten die lange Geschichte Ägyptens gefeiert. Dabei hat auch geholfen, dass König Farouk die Verteilung von Almosen organisiert hat und vielen Menschen Geld geschenkt hat, um seine Großzügigkeit zu demonstrieren. Viele islamistische Intellektuelle haben diesen Feiertag als unheilig bezeichnet, doch ihre Missbilligung hindert die Menschen nicht daran, die Festlichkeiten zu genießen."
+ egypt_events.136.d: "Heute wird in ganz Ägypten die ägyptische Geschichte und Kultur groß gefeiert. Vor 5100 Jahren vereinte der alte Pharao Narmer Ägypten, gründete die erste Dynastie und begründete damit die Geschichte eines vereinten Ägyptens. Heute feiert ganz Ägypten, von den kleinen Dörfern bis zu den großen Städten, die lange Geschichte unserer großartigen Nation. Dazu hat auch beigetragen, dass König Farouk die Verteilung von Almosen gesponsert und jedem einen Bonus gegeben hat, um seine Großzügigkeit zu zeigen. Obwohl viele islamistische Intellektuelle den Feiertag als unheilig ablehnen, hat ihre Missbilligung die meisten Menschen nicht davon abgehalten, die Feierlichkeiten zu genießen."
  egypt_events.136.a: "Auf weitere 5100 Jahre!"
 
  egypt_events.137.t: "Allgemeine Wahlen von [GetYear]"
@@ -800,7 +800,7 @@
  egypt_events.137.e: "Die Ittihad-Partei."
 
  egypt_events.138.t: "Allgemeine Wahlen von [GetYear]"
- egypt_events.138.d: "Heute ist es erneut an der Zeit, den ägyptischen Premierminister zu wählen. Obwohl die Liberalen und Konservativen wie immer recht stark sind, könnte es den Sozialdemokraten unter Nasser eventuell gelingen, die Position der traditionellen Parteien einzunehmen."
+ egypt_events.138.d: "Heute ist wieder ein Wahltermin für den Premierminister Ägyptens. Während die Liberalen und Konservativen stark im Rennen liegen, wird es den Sozialdemokraten unter Nasser gelingen, die Position einer der traditionelleren Parteien zu übernehmen? Das weiß nur Gott allein."
  egypt_events.138.a: "Die §lLiberal-Konstitutionelle§! Partei."
  egypt_events.138.b: "Die Wafd-Partei."
  egypt_events.138.c: "Die Watani-Partei."
@@ -808,7 +808,7 @@
  egypt_events.138.f: "Die Sozialdemokratische Partei."
 
  egypt_events.139.t: "Die Sozialdemokratische Partei"
- egypt_events.139.d: "Die Hizb al-Masri al-Dimuqrati al-Ijtma'i (die ägyptische sozialdemokratische Partei) hatte es in den letzten Jahren nicht besonders leicht. Dies scheint sich nun allerdings zu ändern, da die Sozialdemokraten sich dazu entschieden haben, einen Großteil ihrer wichtigsten Positionen mit jüngeren Parteimitgliedern zu besetzen. Besonders interessant ist der junge und charismatische Gamel Abdel Nasser, der zum neuen Parteivorsitzenden gewählt wurde."
+ egypt_events.139.d: "Die Hizb al-Masri al-Dimuqrati al-Ijtma'i, die ägyptische Sozialdemokratische Partei, hat viele Jahre lang geschwankt und keine großen Erfolge erzielt. Dies scheint sich jedoch zu ändern, da eine neue Generation von Menschen die Führung innerhalb der Partei übernommen hat. Besonders hervorzuheben ist der junge und charismatische General Gamel Abdel Nasser, der zum Parteivorsitzenden geworden ist."
  egypt_events.139.a: "Mal sehen, wie sich das entwickelt."
 
  egypt_events.140.t: "Der Sufitische Orden Jaririya wurde gegründet"
@@ -999,11 +999,11 @@
 
 ### Characters ###
  EGY_abdel_moneim_i: "Abdel Moneim I"
- EGY_abdel_moneim_i_leader_desc: "§YGeboren:§! §L20. Februar 1899, im Montaza-Palast, Alexandria, Khedive von Ägypten§!"
+ EGY_abdel_moneim_i_leader_desc: "§YGeboren:§! §L20. Februar 1899, im Montaza-Palast, Alexandria, Gouvernement Alexandria, Khedive von Ägypten§!"
  EGY_abbas_ii: "Abbas II"
- EGY_abbas_ii_leader_desc: "§YGeboren:§! §L17. Juli 1874, in Alexandria, Gouvernement Alexandria, Khediven von Ägypten§!"
+ EGY_abbas_ii_leader_desc: "§YGeboren:§! §L14. Juli 1874, in Alexandria, Gouvernement Alexandria, Khediven von Ägypten§!"
  EGY_farouk_i: "Farouk I"
- EGY_farouk_i_leader_desc: "§YGeboren:§! §L20. Februar 1920, im Abdeen-Palast, Kairo, Gouvernement der Hauptstadt, Königreich Ägypten§!"
+ EGY_farouk_i_leader_desc: "§YGeboren:§! §L11. Februar 1920, im Abdeen-Palast, Kairo, Gouvernement der Hauptstadt, Sultanat Ägypten§!"
 
  EGY_fuad_i: "Fuad I"
  EGY_fuad_i_leader_desc: "§YGeboren:§! §L26. März 1868, im Gizeh-Palast, Kairo, Gouvernement der Hauptstadt, Khediven von Ägypteniederlagen erlitten, was einen Wachstum des ägyptischen Nationalismus zur Folge hatte. Als die Britische Revolution begann, starte auch Ägypten eine Revolte. Fuad nutzte die Revolution aus, um sich als begeisterter Nationalist zu präsentieren und ein Regierungssystem einzuführen, welches auf dem Deutschlands basiert.\nFuads soziale und wirtschaftliche Reformen haben in der ägyptischen Gesellschaft die Fragen aufkommen lassen, wer die Ägypter denn wirklich sind und wo ihr Platz in einer Region ist, die noch immer von den verhassten Türken dominiert wird. Vielleicht wird der Fortschritt, den Fuads Herrschaft mit sich brachte, das Volk der Ägypter ja zu neuem Ruhm führen. Vielleicht werden seine Nachfolger dort triumphieren, wo andere Herrscher scheiterten, und Ägypten seinen rechtmäßigen Platz als Schild und Schwert eines befreiten arabischen Volkes sichern.§!"
@@ -1011,13 +1011,13 @@
  EGY_shuhdi_atiya_shafi: "Shuhdi Atiya ash-Shafi"
  EGY_shuhdi_atiya_shafi_leader_desc: "§YGeboren:§! §L11. November 1911, in Alexandria, Gouvernement Alexandria, Khediven von Ägypten§!"
  EGY_yusuf_mudarrik: "Mohammed Yusuf al-Mudarrik"
- EGY_yusuf_mudarrik_leader_desc: "§YGeboren:§! §Lim Khedivat von Ägypten§!"
+ EGY_yusuf_mudarrik_leader_desc: "§YGeboren:§! §LFebruar 1902, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
  EGY_salama_moussa: "Salama Moussa"
  EGY_salama_moussa_leader_desc: "§YGeboren:§! §L4. Februar 1887, in Zagazig, Mudiriyah von Sharqia, Khedivate von Ägypten§!"
  EGY_mohammed_mahmoud_pasha: "Mohamed Mahmoud Pasha"
  EGY_mohammed_mahmoud_pasha_leader_desc: "§YGeboren:§! §L4. April 1877, in El-Badari, Mudiriyah von Girga, Khedivate von Ägypten§!"
  EGY_mostafa_el_nahas: "Mostafa el-Nahhas"
- EGY_mostafa_el_nahas_leader_desc: "§YGeboren:§! §L15. Juni 1879, in Gharbiyya, Mudiriyah von Gharbiyya, Khedivate von Ägypten§!"
+ EGY_mostafa_el_nahas_leader_desc: "§YGeboren:§! §L15. Juni 1879, in Samanud, Mudiriyah von Gharbiyya, Khedivate von Ägypten§!"
  EGY_hassan_banna: "Hassan al-Banna"
  EGY_hassan_banna_leader_desc: "§YGeboren:§! §L14. Oktober 1906, in Mahmoudiyah, Mudiriyah von Beheira, Khedivat von Ägypten§!"
  EGY_mohammed_naguib: "Mohammed Naguib"
@@ -1028,7 +1028,7 @@
  EGY_gamel_abdel_nasser: "Gamel Abdel Nasser"
  EGY_gamel_abdel_nasser_commander_desc: "§YGeboren:§! §L15. Januar 1918, in Alexandria, Gouvernement Alexandria, Sultanat von Ägypten§!"
  EGY_hussein_el_shafei: "Hussein el-Shafei"
- EGY_hussein_el_shafei_commander_desc: "§YGeboren:§! §L18. Februar 1918, in Tanta, Mudiriyah von Monoufiya, Sultanat von Ägypten§!"
+ EGY_hussein_el_shafei_commander_desc: "§YGeboren:§! §L8. Februar 1918, in Tanta, Mudiriyah von Gharbiyya, Sultanat von Ägypten§!"
  EGY_abdel_hakim_amer: "Abdel Hakim Amer"
  EGY_abdel_hakim_amer_commander_desc: "§YGeboren:§! §L11. Dezember 1919, in Samalut, Mudiriyah von Minya, Sultanat von Ägypten§!"
  EGY_hussein_refki: "Hussein Refki"
@@ -1036,29 +1036,29 @@
  EGY_aziz_ezzat: "Aziz Ezzat"
  EGY_aziz_ezzat_commander_desc: "§YGeboren:§! §L24. Juni 1869, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
  EGY_hassan_sabry: "Hassan Sabry"
- EGY_hassan_sabry_commander_desc: "§YGeboren:§! §L1890, in der Khedivat von Ägypten§!"
+ EGY_hassan_sabry_commander_desc: "§YGeboren:§! §L1879, in der Khedivat von Ägypten§!"
  EGY_mohamed_haidar: "Mohamed Haidar"
- EGY_mohamed_haidar_commander_desc: "§YGeboren:§! §L11. Februar 1887, in El-Minya, Mudiriyah von Minya, Khedivat von Ägypten§!"
+ EGY_mohamed_haidar_commander_desc: "§YGeboren:§! §L11. Februar 1887, in Matai, Mudiriyah von Minya, Khedivat von Ägypten§!"
  EGY_mahmoud_shokry: "Mahmoud Shokry"
  EGY_mahmoud_shokry_commander_desc: "§YGeboren:§! §Lin der Khedivat von Ägypten§!"
  EGY_ahmed_abdullah_al_mwawi: "Ahmed Abdullah Al-Mwawi"
  EGY_ahmed_abdullah_al_mwawi_army_chief_desc: "§YGeboren:§! §L1897, in Sohag, Mudiriyah von Girga, Khedivat von Ägypten§!"
  EGY_ahmed_abdel_aziz: "Ahmed Abdel Aziz"
- EGY_ahmed_abdel_aziz_army_chief_desc: "§YGeboren:§! §L29. Juli 1907, in Khartum, Khediwat von Ägypten§!"
+ EGY_ahmed_abdel_aziz_army_chief_desc: "§YGeboren:§! §L29. Juli 1907, in Khartum, Kondominium des Anglo-Ägyptischen Sudan§!"
  EGY_mohammed_ibrahim_salim: "Mohammed Ibrahim Salim"
  EGY_mohammed_ibrahim_salim_commander_desc: "§YGeboren:§! §L1916, in Kairo, Gouvernement der Hauptstadt, Sultanat von Ägypten§!"
  EGY_suleiman_ezzat: "Suleiman Ezzat"
  EGY_suleiman_ezzat_navy_chief_desc: "§YGeboren:§! §L16. April 1910, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
  EGY_ahmed_bek_badr: "Ahmed Bek Badr"
- EGY_ahmed_bek_badr_navy_chief_desc: "§YGeboren:§! §Lim Sultanat von Ägypten§!"
+ EGY_ahmed_bek_badr_navy_chief_desc: "§YGeboren:§! §LKhedivat von Ägypten§!"
  EGY_mohamed_nashid: "Mohamed Nashid"
- EGY_mohamed_nashid_admiral_desc: "§YGeboren:§! §Lim Sultanat von Ägypten§!"
+ EGY_mohamed_nashid_admiral_desc: "§YGeboren:§! §LKhedivat von Ägypten§!"
  EGY_mahmoud_hamza: "Mahmoud Hamza"
- EGY_mahmoud_hamza_pasha_navy_chief_desc: "§YGeboren:§! §Lim Sultanat von Ägypten§!"
+ EGY_mahmoud_hamza_navy_chief_desc: "§YGeboren:§! §LKhedivat von Ägypten§!"
  EGY_abdul_rahman_hassan_azzam: "Abdul Rahman Hassan Azzam"
  EGY_abdul_rahman_hassan_azzam_advisor_desc: "§YGeboren:§! §L8. März 1893, in Shubak al-Gharbi, Gouvernement Gizeh, Khedivat von Ägypten§!"
  EGY_makram_ebeid: "Makram Ebeid"
- EGY_makram_ebeid_advisor_desc: "§YGeboren:§! §L25. Oktober 1889, in Qena, Mudiriyah von Qena, Khedivat von Ägypten§!"
+ EGY_makram_ebeid_advisor_desc: "§YGeboren:§! §L25. Oktober 1889, in Qus, Mudiriyah von Qena, Khedivat von Ägypten§!"
  EGY_muhammad_ahmad_abbud: "Muhammad Ahmad Abbud"
  EGY_muhammad_ahmad_abbud_advisor_desc: "§YGeboren:§! §L2. Mai 1889, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
  EGY_hassan_allam: "Hassan Allam"
@@ -1069,12 +1069,10 @@
  EGY_ahmed_naguib_el_hilaly_advisor_desc: "§YGeboren:§! §L1. Oktober 1891, in Asyut, Mudiriyah von Asyut, Khedivat von Ägypten§!"
  EGY_ahmad_maher: "Ahmad Maher"
  EGY_ahmad_maher_advisor_desc: "§YGeboren:§! §L1888, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
- EGY_hassan_al_banna: "Hassan al Banna"
- EGY_hassan_al_banna_advisor_desc: "§YGeboren:§! §L14. Oktober 1906, in Mahmoudiyah, Mudiriyah von Beheira, Khedivat von Ägypten§!"
  EGY_saba_habachy: "Saba Habachy"
  EGY_saba_habachy_advisor_desc: "§YGeboren:§! §L2. Februar 1897, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
  EGY_youssef_seddik: "Youssef Seddik"
- EGY_youssef_seddik_high_command_desc: "§YGeboren:§! §L3. Januar 1910, in Kairo, Gouvernement der Hauptstadt, Khedivat von Ägypten§!"
+ EGY_youssef_seddik_high_command_desc: "§YGeboren:§! §L3. Januar 1910, in Al-Wasta, Gouvernement Beni Suef, Khedivat von Ägypten§!"
  EGY_rashad_mehanna: "Rashad Mehanna"
  EGY_rashad_mehanna_army_chief_desc: "§YGeboren:§! §L2. Oktober 1909, in Kom Hamada, Mudiriyah von Beheira, Khedivat von Ägypten§!"
  EGY_ahmed_abdel_raziq: "Ahmed Abdel-Raziq"
