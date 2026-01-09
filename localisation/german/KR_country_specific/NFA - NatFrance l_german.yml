@@ -211,9 +211,7 @@ NFA_reunion_fever_desc: "Mit der Hauptstadt und mehreren anderen großen Städte
 # Rebuild Legitimacy #
 
 NFA_rebuild_legitimacy_cat: "Eine neue Rückeroberung"
-NFA_rebuild_legitimacy_cat_desc: "Nach zwei Jahrzehnten sind die Feuer der Revolution endlich erloschen, und Frankreich hat wieder seinen Frieden gefunden. Doch unser Volk ist nach wie vor tief gespalten: Die einen begrüßen uns als Befreier, die anderen beklagen den Fall der Kommune, und die meisten stehen einfach unter Schock, erschöpft vom Krieg, ihr Leben zum zweiten Mal innerhalb einer Generation tiefgreifend umgeworfen. Wir haben die 'Métropole' zurückerobert, und es wird nun eine immense Anstrengung sein, die Herzen und Köpfe unserer Landsleute zu erobern.\n\nDie vollständige Entkernung der Metropole wird den §RVerbleibender kommunaler Einfluss§! nationalen Geist beseitigen.\n\nUm die Metropole vollständig zurückzuerobern, müssen wir unser Image in den Augen der Menschen wieder aufbauen, die uns in den letzten zwanzig Jahren als Dämonen dargestellt haben. Eine §GWiederaufbaukommission§! muss organisiert werden und jeder Staat in der 'Métropole' kann wieder in Frankreich eingegliedert werden, sobald §Gehorsam§! > §C80%§!\n§YWiderstand§! < §R10%§!"
-
-currently_being_cored: "Wird derzeit zur Kernprovinz gemacht"
+NFA_rebuild_legitimacy_cat_desc: "Nach zwei Jahrzehnten sind die Feuer der Revolution endlich erloschen, und Frankreich hat wieder seinen Frieden gefunden. Doch unser Volk ist nach wie vor tief gespalten: Die einen begrüßen uns als Befreier, die anderen beklagen den Fall der Kommune, und die meisten stehen einfach unter Schock, erschöpft vom Krieg, ihr Leben zum zweiten Mal innerhalb einer Generation tiefgreifend umgeworfen. Wir haben die 'Métropole' zurückerobert, und es wird nun eine immense Anstrengung sein, die Herzen und Köpfe unserer Landsleute zu erobern.\n\nDie vollständige Entkernung der Metropole wird den §RVerbleibender kommunaler Einfluss§! nationalen Geist beseitigen.\n\nUm die Metropole vollständig zurückzuerobern, müssen wir unser Image in den Augen der Menschen wieder aufbauen, die uns in den letzten zwanzig Jahren als Dämonen dargestellt haben. Eine §GWiederaufbaukommission§! muss organisiert werden und jeder Staat in der 'Métropole' wird wieder in Frankreich eingegliedert werden, sobald der\n§Gehorsam§! §C80%§! erreicht hat."
 
 NFA_Small_Propaganda: "Hilfsbemühungen"
 NFA_Small_Propaganda_desc: "Unsere erste Priorität muss Hilfe sein: Frankreich wurde durch den Krieg verwüstet, und unsere Menschen leiden, ihre Häuer sind teilweise zerstört, Familien wurden durch den Krieg auseinandergerissen, und viele kämpfen darum, auch nur Zugang zu den grundlegenden Notwendigkeiten zu haben. Es ist nicht nur unsere Pflicht, für unsere Landsleute zu sorgen und sie zu schützen, sondern eine solche Hilfsaktion wird zweifellos damit beginnen, die kommunistische Propaganda zu durchbrechen, die uns in den letzten Jahrzehnten als Monster dargestellt hat."
@@ -1413,6 +1411,8 @@ NFA_Poitou_Limo_Sabotage_tt: "Wir werden die §REisenbahnlinien§! zwischen §CA
 NFA_Dijon_Lyon_Sabotage_tt: "Wir werden die §Eisenbahnlinien§! zwischen §CBurgund§! und §Südfrankreich§! sprengen, dies sollte jede kommunardische Verstärkung, die von der §gFranzösisch-Deutschen Grenze§! kommt, aufhalten.\n"
 NFA_Metropole_Cored_tt: "Alle Staaten im Besitz von der §CMetropolregion Frankreich§!: \n   Ist eine Kernprovinz von §Y[NFA.GetNameWithFlag]§!"
 NFA_if_owned: "Wenn §H[?target.GetName]§! im Besitz und unter Kontrolle ist:"
+
+NFA_delay_la_lutte_finale_for_60_days: "§Y[FROM.GetNameWithFlag]§! wird ihre Kriegserklärung um §Ysechzig Tage§! verzögern."
 
 # CP PP Custom Costs #
 CP_20_PP_10: "£command_power §H20§! £pol_power §H10§!"

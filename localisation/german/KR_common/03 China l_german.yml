@@ -409,8 +409,11 @@ CHN_pressure_to_act_tt: "§RDer Druck, die Vereinigung voranzutreiben, wird nur 
 
 china_becomes_CHN_tt: "§YWir sind als die legitimste Regierung in China anerkannt.§!"
 china_is_CHN_tt: "§YIst die legitimste Regierung in China§!"
+china_is_CHN_tt_NOT: "§YIst§! §Rnicht§! §Ydie legitimste Regierung in China§!"
 china_is_the_chinese_unifier_tt: "§YHat China vereinigt§!"
+china_is_the_chinese_unifier_tt_NOT: "§YHat§! §Rnicht§! §YChina vereinigt§!"
 china_has_war_with_CUF_tt: "Befindet sich im Krieg mit der Chinesischen Einheitsfront"
+china_south_china_war_over_tt: "Der §YSüdchinesischer Krieg§! ist beendet."
 
 CHN_has_chosen_a_capital_flag: "§YWir haben eine dauerhafte Hauptstadt für China gewählt.§!"
 
@@ -1631,7 +1634,7 @@ china_events.302.d: "Trotz des Erfolgs der Xinhai-Revolution schien der Traum vo
 china_events.302.a: "Eine neue Ära für die Zhili-Clique."
 
 china_events.303.t: "Sieg der Fengtian-Regierung"
-china_events.303.d: "Obwohl die Fengtian-Clique im Dritten und Vierten Zhi-Feng-Krieg fast besiegt wurde, hat sie sich in der Mandschurei mehr als ein Jahrzehnt lang erfolgreich behauptet. Mit ihrem jüngsten Sieg im Fünften Zhi-Feng-Krieg und dem anschließenden [GetYear]-Verfassungsaufstand hat Marschall [ROOT.GetLeader] offiziell die Ausrufung einer vereinigten Republik China verkündet.\n\nTrotz ihrer Erfolge auf dem Schlachtfeld und der Nationalen Vereinigungskonferenz wird es für die Fengtian-Regierung nun darum gehen, die Herzen und Köpfe des chinesischen Volkes zu gewinnen. Für viele ist Marshall [ROOT.GetLeader] immer noch ein Kriegsherr, und nur die Zeit wird zeigen, ob die Fengtian-Regierung würdig ist, die Nachfolge der Xinhai-Revolution anzutreten oder nicht."
+china_events.303.d: "Obwohl die Fengtian-Clique im Dritten und Vierten Zhi-Feng-Krieg fast besiegt wurde, hat sie sich in der Mandschurei mehr als ein Jahrzehnt lang erfolgreich behauptet. Mit ihrem jüngsten Sieg im Zweiten Japanisch-Chinesischen Krieg hat Marschall [ROOT.GetLeader] offiziell die Ausrufung einer vereinigten Republik China verkündet.\n\nTrotz ihrer Erfolge auf dem Schlachtfeld können die folgenden Kämpfe, denen sich die Fengtian-Regierung stellen muss, nicht allein mit Bajonetten gewonnen werden. Für viele ist Marshall [ROOT.GetLeader] immer noch ein Kriegsherr, und nur die Zeit wird zeigen, ob die Fengtian-Regierung würdig ist, die Nachfolge der Xinhai-Revolution anzutreten oder nicht."
 china_events.303.a: "[FNG.GetLeader] hat es endlich geschafft."
 
 china_events.304.t: "Die reformierte Republik China wird ausgerufen"
@@ -2167,7 +2170,7 @@ CHN.foreignpolicy.600.cancel: "Wir werden mit einer Entscheidung noch warten."
 # Monarchy (620-639)
 CHN.foreignpolicy.620.t: "Gespräche mit chinesischen Monarchisten"
 CHN.foreignpolicy.620.d: "Im Jahr 1911 stürzten chinesische Revolutionäre den Kaiser Xuantong, den damals zweijährigen Puyi. Dies war der Höhepunkt des jahrzehntelangen politischen, wirtschaftlichen und militärischen Niedergangs der Qing-Dynastie. Die Xinhai-Revolution war geprägt vom Zusammenfluss von Republikanismus, Radikalismus und Ethnonationalismus, und der Versuch von Yuan Shikai (angestachelt von westlichen Beratern), sich einige Jahre später selbst zum Kaiser zu krönen, stürzte die Nation in eine jahrzehntelange Ära der Kriegsherren.\n\nDie politische Unterstützung für die Monarchie ist begrenzt, obwohl sich die Meinungen aufgrund des Chaos der republikanischen Herrschaft in den folgenden Jahren gemildert haben. Dennoch stehen viele dem Versuch, eine Monarchie mit Gewalt einzuführen, skeptisch gegenüber, und auch die \"Exzentrizitäten\" des angehenden Monarchen (des inzwischen erwachsenen Puyi) geben vielen zu denken. Andere Kandidaten verfügen derzeit über viel zu wenig Legitimität, um eine sinnvolle Alternative darzustellen. Dennoch glauben viele, dass die Wiederherstellung der alten Monarchie der einzige Weg sein könnte, um das Gleichgewicht und die Stabilität in China wiederherzustellen."
-CHN.foreignpolicy.620.QIE: "Wir werden den Qing-Kaiser wieder einsetzen"
+CHN.foreignpolicy.620.QIE: "Wir werden den Qing-Kaiser wieder einsetzen."
 CHN.foreignpolicy.620.cancel: "Wir werden vorerst weitermachen."
 
 # Japan Aligned (640-659)
@@ -3140,6 +3143,7 @@ zhili_province_state: "Zhili"
 china_is_potential_government: "Hat eine §Yprovisorische nationale Regierung§! gebildet."
 china_demanding_concession: "Hat innerhalb des letzten Monats ein Zugeständnis gefordert"
 CHN_south_china_war_started: "Der §YSüdchinesische Krieg§! hat begonnen."
+CHN_SCW_neutral_flag: "Ist neutral im §YSüdchinesischen Krieg§!."
 
 ### Chinese Arsenal Mechanic ###
 CHN_armour_industry_organisation: "Chinesische Rüstungsindustrie"
@@ -3268,7 +3272,7 @@ CHN_integrate_major_dockyard_fallback_desc_key: "[FROM.GetName] hat sich zu eine
 
 #Shared Industry Decisions
 CHN_build_guangxi_arsenal: "Errichtung des Guangxi-Arsenals"
-CHN_build_guangxi_arsenal_desc: "Als eine der ärmsten Provinzen Chinas ist Guangxi kaum ein geeigneter Ort für die Industrialisierung. Das Guangxi-Arsenal ist eine Idee von Li Zongren und Huang Shaohong, um die bestehenden Waffenfabriken in Guangxi neu zu organisieren, die bis zur Machtübernahme durch die Neue Guangxi-Clique lediglich minderwertige \"Erdgewehre\" oder andere fast schon archaische Gewehre herstellten. Inspiriert von den Gewehrmodellen der Yunnan-Clique, strebt das neu eröffnete Guangxi-Arsenal die Produktion von Gewehren, Schießpulver, Bomben, Granaten, Maschinengewehren und sogar deutschen Mauser-Bomben und Mörsergranaten an."
+CHN_build_guangxi_arsenal_desc: "Als eine der ärmsten Provinzen Chinas ist Guangxi kaum ein geeigneter Ort für die Industrialisierung. Das Guangxi-Arsenal ist eine Idee von Li Zongren und Huang Shaohong, um die bestehenden Waffenfabriken in Guangxi neu zu organisieren, die bis zur Machtübernahme durch die Neue Guangxi-Clique lediglich minderwertige \"Erdgewehre\" oder andere fast schon archaische Gewehre herstellten. Inspiriert von den Gewehrmodellen der Yunnan-Clique, strebt das neu eröffnete Guangxi-Arsenal die Produktion von Gewehren, Schießpulver, Bomben, Granaten, Maschinengewehren und sogar Kopien von deutschen Bomben und Mörsergranaten an."
 
 CHN_refurbish_the_shijing_arsenal: "Renovierung des Shijing-Arsenals"
 CHN_refurbish_the_shijing_arsenal_desc: "Das ursprüngliche Maschinenbauamt von Guangzhou wurde im 11. Regierungsjahr des Kaisers Guangxu gegründet und später mit dem Waffenamt Zengbu zusammengelegt, woraus das Fertigungsamt Ost hervorging. Als Ergebnis der Westisierungsbewegung wurde ein Großteil der Ausrüstung und Maschinen der Fabrik von deutschen Ingenieuren verwaltet – ein Erbe, das bis heute unverändert geblieben ist, da Deutschland nach seinem Sieg im Weltkrieg weiterhin großen Einfluss in China hat. Nichtsdestotrotz zeigt das Arsenal allmählich sein Alter, und wir sollten unsere Sorgfaltspflicht bei der Instandhaltung und Renovierung des Arsenals wahrnehmen, um eine modernere Waffenproduktion zu ermöglichen – damit wir nicht nur Gewehre, sondern auch leichte Maschinengewehre herstellen können."
