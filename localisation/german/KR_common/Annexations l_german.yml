@@ -85,6 +85,7 @@ annexation_events.integration: "Pass euch unserem Territorium an."
 
  annexation_events.europe.give_to_ireland: "[ireland.GetGrantTerritoryEventOption]"
  annexation_events.europe.give_to_england: "[england.GetGrantTerritoryEventOption]"
+ annexation_events.europe.give_to_scotland: "[scotland.GetGrantTerritoryEventOption]"
  annexation_events.europe.give_to_denmark: "[denmark.GetGrantTerritoryEventOption]"
  annexation_events.europe.give_to_norway: "[norway.GetGrantTerritoryEventOption]"
 
@@ -303,10 +304,10 @@ annexation_events.2.a: "Hurra!"
  annexation_events.7.desc_generic: "Die [From.GetAdjective]-Regierung will ihre Ländereien offenbar nicht unbedingt zurückhaben, oder sie traut unserem Angebot nicht. Auf jeden Fall haben sie sich geweigert, unserem Bündnis beizutreten."
  annexation_events.7.a_generic: "Ihr Verlust, wie es scheint."
 
- annexation_events.8.t_romania: "[From.GetNameDefCap] Verrät uns!"
- annexation_events.8.t_generic: "[From.GetNameDefCap] Gibt den [Root.GetFactionName] auf"
- annexation_events.8.desc_romania: "Verrat ist über uns hereingebrochen! Bis jetzt dachten alle, dass [FROM.GetNameDef] ein fester Verbündeter in einer chaotischen Zeit sei - aber anscheinend ist Freundschaft in der Politik eine zerbrechliche Sache. Heute kam ans Licht, dass [FROM.GetNameDef] geheime Verhandlungen mit [FROM.FROM.GetNameDef] geführt hat, um im Gegenzug für ein Bündnis ihre Ansprüche auf Transsilvanien zu befriedigen. Dies wäre vielleicht keine so dramatische Verletzung gewesen, wenn wir nicht durch eine Ankündigung des Abschlusses der Vereinbarung - und der darauf folgenden Vertreibung unserer Streitkräfte aus [FROM.GetNameDef] - davon erfahren hätten.\n\nWir wurden von dieser Nachricht völlig überrascht, und die Reaktionen innerhalb und außerhalb der Regierung reichen von Schock über Verzweiflung bis hin zu Forderungen, dass [FROM.GetNameDef] für ihre Doppelzüngigkeit bezahlen muss."
- annexation_events.8.desc_generic: "Es scheint, dass das Angebot von [From.From.GetNameDef] für die Rückgabe der beanspruchten Ländereien zu viel für [From.GetNameDef] war, um es abzulehnen. Sie haben unser Bündnis verlassen und sich der [From.From.GetFactionName] angeschlossen. Vielleicht ist es Land, das wir ihnen nie hätten geben können, aber trotzdem ist es eine bittere Pille, die man schlucken muss."
+ annexation_events.8.t_romania: "[FROM.FROM.GetNameDefCap] Verrät uns!"
+ annexation_events.8.t_generic: "[FROM.FROM.GetNameDefCap] Gibt den [Root.GetFactionName] auf"
+ annexation_events.8.desc_romania: "Verrat ist über uns hereingebrochen! Bis jetzt dachten alle, dass [FROM.FROM.GetNameDef] ein fester Verbündeter in einer chaotischen Zeit sei - aber anscheinend ist Freundschaft in der Politik eine zerbrechliche Sache. Heute kam ans Licht, dass [FROM.FROM.GetNameDef] geheime Verhandlungen mit [FROM.GetNameDef] geführt hat, um im Gegenzug für ein Bündnis ihre Ansprüche auf Transsilvanien zu befriedigen. Dies wäre vielleicht keine so dramatische Verletzung gewesen, wenn wir nicht durch eine Ankündigung des Abschlusses der Vereinbarung - und der darauf folgenden Vertreibung unserer Streitkräfte aus [FROM.FROM.GetNameDef] - davon erfahren hätten.\n\nWir wurden von dieser Nachricht völlig überrascht, und die Reaktionen innerhalb und außerhalb der Regierung reichen von Schock über Verzweiflung bis hin zu Forderungen, dass [FROM.FROM.GetNameDef] für ihre Doppelzüngigkeit bezahlen muss."
+ annexation_events.8.desc_generic: "Es scheint, dass das Angebot von [FROM.GetNameDef] für die Rückgabe der beanspruchten Ländereien zu viel für [FROM.FROM.GetNameDef] war, um es abzulehnen. Sie haben unser Bündnis verlassen und sich der [FROM.GetFactionName] angeschlossen. Vielleicht ist es Land, das wir ihnen nie hätten geben können, aber trotzdem ist es eine bittere Pille, die man schlucken muss."
  annexation_events.8.a_romania: "Und das nach allem, was wir durchgemacht haben!"
  annexation_events.8.a_generic: "Hoffentlich landen wir nicht auf gegnerischen Seiten..."
 
@@ -1007,13 +1008,16 @@ annexation_71_desc: "Ehemals Teil des Königreichs Ungarn, ist die Donautiefeben
  annexation_events.1142.b: "[komotini.GetGrantTerritoryEventOption]"
  annexation_events.1142.c: "[florina.GetGrantTerritoryEventOption]"
 
- annexation_942: "Das Schicksal von [942.GetName]"
- annexation_942_desc: "Wir haben die Kontrolle über die Gebirgsregion [942.GetName] übernommen und müssen nun entscheiden, was wir mit ihr machen wollen."
-
  annexation_119: "Das Schicksal von [119.GetName]"
  annexation_119_desc: "Wir haben die Kontrolle über die Region [119.GetName] übernommen und müssen nun entscheiden, was wir mit ihr machen."
 
-### Americas Events ###
+ annexation_942: "Das Schicksal von [942.GetName]"
+ annexation_942_desc: "Wir haben die Kontrolle über die Gebirgsregion [942.GetName] übernommen und müssen nun entscheiden, was wir mit ihr machen wollen."
+
+ annexation_1124: "The Fate of [1124.GetName]"
+ annexation_1124_desc: "We have taken control of the [1124.GetName] and must now decide what to do with it."
+
+### Ereignisse in Amerika ###
 
 annexation_361: "Das Schicksal der Vereinigten Staaten von Amerika"
 annexation_361_desc: "Nun, da der Krieg vorbei ist, müssen wir entscheiden, was wir mit unserem besetzten Land in Amerika machen."
