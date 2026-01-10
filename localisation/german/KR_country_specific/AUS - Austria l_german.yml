@@ -53,7 +53,8 @@ AUS_treaty_of_budapest: "Österreich ist durch den Belgrader Pakt geschlagen wor
 AUS_ausgleich_kingdoms: "Alle Königreiche zum Ausgleich eingeladen."
 AUS_ausgleich_peoples: "Alle Nationalitäten zum Ausgleich eingeladen."
 
- AUS_will_not_get_puppet_divisions: "§CAlle Divisionen werden §Raufgelöst§!, aber wir werden ihre Ausrüstung und ihr Personal übernehmen.§!"
+ AUS_transfer_puppet_divisions: "§CAlle [THIS.GetAdjective]-Divisionen werden §Yübernommen§!.§!"
+ AUS_transfer_puppet_equipment_and_manpower: "§CAlle [THIS.GetAdjective]-Divisionen werden §Yaufgelöst§! und ihre Ausrüstung und ihr Personal werden in unseren Bestand übernommen.§!"
 
 ### Opinion Modifiers ###
 AUS_italy_bond: "Österreichisch-italienische Freundschaft"
@@ -999,7 +1000,8 @@ AUS_ausgleich_demonstrations_cities_ROM: "Siebenbürgen"
 
  ausgleich_events.701.t: "[From.GetNameDefCap] Akzeptiert die Reintegration"
  ausgleich_events.701.d: "Die [From.GetAdjective]-Regierung hat unserem Vorschlag eines stärker zentralisierten Staates zugestimmt."
- ausgleich_events.701.a: "Wunderbar."
+ ausgleich_events.701.a: "Wunderbar.\n(Divisionen beibehalten)"
+ ausgleich_events.701.b: "Exzellent.\n(Divisionen aufgelöst)"
 
  ausgleich_events.702.t: "[From.GetNameDefCap] Einmarsch in Ungarn!"
  ausgleich_events.702.d: "Die Geier in [FROM.GetNameDef] haben beschlossen, unsere internen Schwierigkeiten auszunutzen und in das Königreich Ungarn einzufallen. Trotz ihres Zustandes der Revolte ist Ungarn in seiner Gesamtheit eines der Kernreiche der Habsburger und muss gegen unsere blutrünstigen Nachbarn verteidigt werden. Auch wenn wir bereits damit beschäftigt sind, den Aufstand der Magyaren niederzuschlagen, müssen wir ihre Invasion unabhängig von unserem Zustand als einen Angriff auf die Monarchie als Ganzes betrachten."
