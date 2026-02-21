@@ -1,7 +1,7 @@
 ﻿# Kaiserreich Version 1.6.1
 
 Vielen Dank für den Download der Deutschen Übersetzung von Kaiserreich für Hearts of Iron 4!<br>
-Diese Version wurde für Hearts of Iron IV Version 1.17.3 entwickelt.<br>
+Diese Version wurde für Hearts of Iron IV Version 1.17.4 entwickelt.<br>
 Es sollte mit allen neueren Hotfixes kompatibel sein, obwohl dies nicht garantiert werden kann.<br><br>
 
 ## Manuelle Installationsanleitung
