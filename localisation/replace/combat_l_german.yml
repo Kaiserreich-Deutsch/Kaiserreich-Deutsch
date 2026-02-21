@@ -14,7 +14,7 @@
  COMMAND_ARMY_GROUP_DESC: "Eine Armeegruppe organisiert Armeen mit hochrangigen Anweisungen und Plänen."
  NAVAL_INVASION_COMBAT_PROGRESS_DESC: "Diese Einheit führt eine Flotteninvasion aus. Ihr Angriff wird gemindert und ihre Verteidigung wird durch die Panzerung des Transports verstärkt."
  NAVAL_INVASION_DEFEND_SCALE: "Verteidigungsfähigkeit gesamt: $VALUE|=+0%$"
- LAND_COMBAT_CAS_INFO_TOOLTIP: "Etwa $NUM|Y$ Unterstützungsflugzeuge der Seite $SIDE$ konnten in diesem Kampf helfen.\nSie haben $ORG|G0$ Schaden an §YOrganisation§! verursacht. Die aktuelle §YOrganisation§! des Feindes beträgt $ORG_MAX|G0$.\nSie haben $STR|G0$ Schaden an §YStärke§! verursacht, die aktuelle §YStärke§! des Feindes beträgt $STR_MAX|G0$.\nDie §YFlugabwehr§! der feindlichen Divisionen konnte insgesamt $KILL|R$ Flugzeuge abschießen und $ORG_PREVENT|R0$ Schaden an §YOrganisation§! und $STR_PREVENT|R0$ Schaden an §YStärke§! verhindern."
+ LAND_COMBAT_CAS_INFO_TOOLTIP: "Etwa $NUM|Y$ Unterstützungsflugzeuge der Seite $SIDE$ konnten in diesem Kampf helfen.\nSie haben $ORG|G0$ Schaden an §YOrganisation§! verursacht. Die aktuelle §YOrganisation§! des Feindes beträgt $ORG_MAX|G0$.\nSie haben $STR|G0$ Schaden an §YStärke§! verursacht, die aktuelle §YStärke§! des Feindes beträgt $STR_MAX|G0$.\nDie §YLuftabwehr§! der feindlichen Divisionen schossen $KILL|R$ Flugzeuge ab und verhinderten mit einer Effektivität von $AA_EFFECTIVENESS|H%1$ $ORG_PREVENT|R0$ Schäden an der §YOrganisation§! und $STR_PREVENT|R0$ an der §YStärke§!."
  BM_PARADROP_DESC: "Nachdem sie mit dem Fallschirm abgesprungen sind, sind Einheiten desorganisiert"
  MISSION_CAS_WIN: "Neutralisierte feindliche Divisionen: $VAL|0+$"
  BM_DEFEND_VALUE: "Verteidigung: $VALUE|+=%$"
