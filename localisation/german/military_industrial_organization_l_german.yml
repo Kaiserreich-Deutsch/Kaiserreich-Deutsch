@@ -23,11 +23,16 @@
  INDUSTRIAL_ORG_OPEN_DETAILS_WINDOW_TOOLTIP: "Öffnen Sie Militärisch Industrielle Organisations Details."
  INDUSTRIAL_ORG_OPEN_DETAILS_WINDOW_TOOLTIP_DELAYED: "$NAME|Y$ has $NUMBER|Y0$ Eigenschaftspunkte zum Ausgeben."
  INDUSTRIAL_ORG_LIST_INITIAL_TRAIT_NAME: "$NAME|Y$"
- INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON: "Eigenschaft Warteschlange"
+ INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON: "Eigenschaft Liste"
+ INDUSTRIAL_ORG_DETAIL_WINDOW_SAVE_QUEUE_DESCRIPTION: "§HIn Datei speichern§!\nSpeichern Sie diese Eigenschafts-Liste in einer Datei, damit Sie bei zukünftigen Durchläufen darauf zugreifen können."
+ INDUSTRIAL_ORG_DETAIL_WINDOW_DELETE_QUEUE_DESCRIPTION: "§HGespeicherte Liste löschen§!\nKlicken Sie hier, um die aktuelle Eigendschafts-Liste zu löschen und die aktuell ausgewählte gespeicherte Eigendschafts-Liste zu löschen. Wenn eine gespeicherte Liste ausgewählt ist, wird diese §Rdauerhaft gelöscht§!."
+ INDUSTRIAL_ORG_DETAIL_WINDOW_DELETE_SPECIFIC_QUEUE_DESCRIPTION: "§HGespeicherte Liste löschen§!\n§RKlicken Sie hier, um die gespeicherte Eigendschafts-Liste dauerhaft zu löschen.§!."
+ INDUSTRIAL_ORG_DETAIL_WINDOW_IMPORT_FROM_OTHER_MIO_TOOLTIP: "Importiere gültige Merkmale aus der Eigendschafts-Liste für eine andere militärisch-industrielle Organisation: $ORG|Y$."
  INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON_WITH_ITEMS: "$INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON$ ($NUMBER_ITEMS$)"
- INDUSTRIAL_ORG_QUEUE_WINDOW_INSTRUCTION: "Wenn diese Organisation über Eigenschaftspunkte verfügt, wird die erste verfügbare Eigenschaft in dieser Warteschlange abgeschlossen.\n§GShift + Klick§! auf eine Eigenschaft, §Yum sie zu dieser Warteschlange§! hinzuzufügen.\n§GZiehen & Ablegen§! zum §YÄndern der Warteschlangenreihenfolge§!."
- INDUSTRIAL_ORG_QUEUE_WINDOW_ITEM_DRAGDROP: "§GZiehen & Ablegen§! zur Änderung der Reihenfolge in der Warteschlange"
- INDUSTRIAL_ORG_QUEUE_WINDOW_REMOVE_TOOLTIP: "Aus Warteschlange entfernen"
+ INDUSTRIAL_ORG_QUEUE_WINDOW_INSTRUCTION: "Wenn diese Organisation über Eigenschaftspunkte verfügt, wird die erste verfügbare Eigenschaft in dieser Liste abgeschlossen.\n§GShift + Klick§! auf eine Eigenschaft, §Yum sie zu dieser Liste§! hinzuzufügen.\n§GZiehen & Ablegen§! zum §YÄndern der Listenreihenfolge§!."
+ INDUSTRIAL_ORG_QUEUE_WINDOW_ITEM: "§GAbgeschlossen§!"
+ INDUSTRIAL_ORG_QUEUE_WINDOW_ITEM_DRAGDROP: "§GZiehen & Ablegen§! zur Änderung der Reihenfolge in der Liste"
+ INDUSTRIAL_ORG_QUEUE_WINDOW_REMOVE_TOOLTIP: "Aus Liste entfernen"
  INDUSTRIAL_ORG_DETAIL_WINDOW_TRAITS_TAB: "Eigenschaften"
  INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_TAB: "Geschichte"
  INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_VARIANTS_HEADER: "Forschung und Gestaltung-Geschichte"
@@ -219,6 +224,43 @@
 
  INDUSTRIAL_ORG_TOOLTIP_PRODUCTION_TASK_INFO: "Wenn Sie einer §YMilitärisch Industriellen Organisation§! eine Aufgabe für eine Produktionslinie geben, werden Produktionsboni auf diese Linie angewendet."
  INDUSTRIAL_ORG_TOOLTIP_RESEARCH_TASK_INFO: "Wenn Sie einer §YMilitärisch Industriellen Organisation§! eine Forschungsaufgabe geben, erhöht sich die Forschungsgeschwindigkeit und es können ausrüstungsspezifische Boni gewährt werden."
+
+ INDUSTRIAL_ORG_QUEUE_NAME: "Liste:"
+
+ INDUSTRIAL_ORG_QUEUE_OVERWRITE: "Überschreiben"
+ INDUSTRIAL_ORG_QUEUE_RENAME: "Umbenennen"
+ INDUSTRIAL_ORG_QUEUE_RENAME_AND_OVERWRITE: "Ersetzen"
+ INDUSTRIAL_ORG_QUEUE_SAVE_DESCRIPTION: "Speichern Sie die aktuelle Eigendschafts-Liste in einer Datei, damit sie in zukünftigen Durchläufen verwendet werden kann."
+ INDUSTRIAL_ORG_QUEUE_SAVE_OVERWRITE_DESC: "Wählen Sie aus, welche Eigendschafts-Liste überschrieben werden soll. Lassen Sie das Feld leer, um eine neue gespeicherte Eigendschafts-Liste zu erstellen:"
+ INDUSTRIAL_ORG_QUEUE_SAVE_NAME_DESC: "Geben Sie einen (neuen) Namen für die zu speichernde Eigendschafts-Liste ein:"
+ INDUSTRIAL_ORG_QUEUE_SAVE_AS: "Speichern unter"
+ INDUSTRIAL_ORG_QUEUE_SAVE: "Speichern"
+ INDUSTRIAL_ORG_QUEUE_SAVE_BUTTON_DISABLED_TOOLTIP: "§RDie Eigendschafts-Liste benötigt einen nicht leeren Namen, um gespeichert zu werden.§!"
+
+ INDUSTRIAL_ORG_QUEUE_SAVE_BUTTON_ENABLED_TOOLTIP: "§GKlicken§! um die Eigendschafts-Liste zu speichern."
+ INDUSTRIAL_ORG_QUEUE_SAVE_BUTTON_CREATE_NEW_ENABLED_TOOLTIP: "§GKlicken§! um die Eigendschafts-Liste \"$SAVED|Y$\" zu speichern und eine neue Eigendschafts-Liste zu erstellen."
+ INDUSTRIAL_ORG_QUEUE_DISCARD_BUTTON_TOOLTIP: "§GKlicken Sie§! auf §Änderungen an der aktuellen Eigendschafts-Liste verwerfen§! und laden Sie die Eigendschafts-Liste \"$LOAD|Y$\"."
+ INDUSTRIAL_ORG_QUEUE_DISCARD_BUTTON_CREATE_NEW_TOOLTIP: "§GKlicken Sie§! auf §RÄnderungen an der aktuellen Eigendschafts-Liste verwerfen§! und erstellen Sie eine neue Eigendschafts-Liste."
+
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_TITLE: "Eigendschafts-Liste vor dem Laden speichern"
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_DESC: "§YSie haben ungespeicherte Änderungen, die verloren gehen würden.§!\n\nMöchten Sie die aktuelle Eigendschafts-Liste   \"$SAVED|Y$\" speichern oder verwerfen, bevor Sie die Eigendschafts-Liste \"$LOAD|Y$\" laden?\n\nWenn Sie nicht speichern, gehen die Änderungen an der aktuellen Eigendschafts-Liste verloren!"
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_SAVE: "Speichern"
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_TOOLTIP: "§Gklicken sie§! um die Eigendschafts-Liste \"$SAVED|Y$\" zu speichern und die Eigendschafts-Liste \"$LOAD|Y$\" zu laden."
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_DISCARD_SAVE: "Verwerfen"
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_CREATE_NEW_DESC: "§YSie haben ungespeicherte Änderungen, die verloren gehen würden.§!\n\nMöchten Sie die aktuelle Eigendschafts-Liste \"$SAVED|Y$\" speichern oder verwerfen, bevor Sie eine neue Eigendschafts-Liste erstellen?\n\nWenn Sie nicht speichern, gehen §Rdie Änderungen an der aktuellen Eigendschafts-Liste verloren.§!."
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_CREATE_NEW_SAVE: "Speichern"
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_CREATE_NEW_DISCARD_SAVE: "Verwerfen"
+
+ INDUSTRIAL_ORG_QUEUE_LOAD_FROM_SIMILAR_MIO: "Gemeinsame Merkmale aus Liste für $MIO|Y$ laden"
+ INDUSTRIAL_ORG_QUEUE_LOAD_UNKNOWN_MIO: "Unbekannte Militärische Industrieorganisation"
+
+ INDUSTRIAL_ORG_DELETE_QUEUE_TITLE: "Gespeicherte Eigendschafts-Liste löschen"
+ INDUSTRIAL_ORG_DELETE_QUEUE_DESC: "Möchten Sie die gespeicherte Eigendschafts-Liste $QUEUE|Y$ für MIO $MIO|Y$ wirklich löschen?\n\nMöchten Sie die gespeicherte Eigendschafts-Liste $QUEUE|Y$ für MIO $MIO|Y$ wirklich löschen?§!."
+ INDUSTRIAL_ORG_DELETE_QUEUE_CONFIRM: "Löschen"
+
+ INDUSTRIAL_ORG_CLEAR_QUEUE_TITLE: "Eigendschafts-Liste löschen"
+ INDUSTRIAL_ORG_CLEAR_QUEUE_DESC: "Möchten Sie die aktuelle Eigenschafts-Liste wirklich löschen?"
+ INDUSTRIAL_ORG_CLEAR_QUEUE_CONFIRM: "Löschen"
 
  ###################################################################################################
  #### Lokalisierung von Inhalten
