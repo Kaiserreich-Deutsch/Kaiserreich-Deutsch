@@ -63,8 +63,9 @@ state_integration_law_unlocked: "Schaltet das §H$territorial_integration$§! Be
 
 kill_character_tt: "stirbt."
 
-reduce_stability_decision_cost_twenty_five_percent_tt: "Reduziert die Kosten für £pol_power §Y$POLITICAL_POWER$§! von £GFX_decision_icon_small §Y$generic_raise_stability$§! um §G25%§!"
-reduce_propaganda_decision_cost_twenty_five_percent_tt: "Reduziert die Kosten für £pol_power §Y$POLITICAL_POWER$§! von £GFX_decision_icon_small §Y$war_propaganda$§!, £GFX_decision_icon_small §Y$war_propaganda_casualties$§!, £GFX_decision_icon_small §Y$war_propaganda_convoys$§!, und £GFX_decision_icon_small §Y$war_propaganda_bombing$§! um §G25%§!"
+reduce_stability_decision_cost_tt: "Reduziert die Kosten für £pol_power §Y$POLITICAL_POWER$§! von £GFX_decision_icon_small §Y$generic_raise_stability$§! um $NUMBER|G$"
+reduce_support_decision_cost_tt: "Reduziert die Kosten für £pol_power §Y$POLITICAL_POWER$§! von £GFX_decision_icon_small §Y$generic_raise_support$§! um $NUMBER|G$"
+reduce_propaganda_decision_cost_tt: "Reduziert die Kosten für £pol_power §Y$POLITICAL_POWER$§! von £GFX_decision_icon_small §Y$war_propaganda$§!, £GFX_decision_icon_small §Y$war_propaganda_casualties$§!, £GFX_decision_icon_small §Y$war_propaganda_convoys$§!, und £GFX_decision_icon_small §Y$war_propaganda_bombing$§! um $NUMBER|G$"
 
 # used to generate tooltips in dockyard or naval base foci when the country doesn't own any coastal states
 random_owned_controlled_coastal_state: "Ein zufällig besetzter und kontrollierter Küstenstaat"
@@ -82,6 +83,9 @@ tooltip_if_focus_completed: "§CWenn $FOCUS|Y$ abgeschlossen wurde:§!"
 tooltip_if_focus_not_completed: "§CWenn $FOCUS|Y$ §RNICHT§! abgeschlossen wurde:§!"
 tooltip_if_two_foci_completed: "§CWenn $FOCUS1|Y$ oder $FOCUS2|Y$ abgeschlossen wurde:§!"
 tooltip_if_two_foci_not_completed: "§CWenn $FOCUS1|Y$ und $FOCUS2|Y$ §RNICHT§! abgeschlossen wurde:§!"
+
+tooltip_focus_completed_invalid_tt: "£trigger_no §CWenn $FOCUS|Y$ abgeschlossen wurde:§!"
+tooltip_focus_completed_valid_tt: "£trigger_yes §CWenn $FOCUS|Y$ abgeschlossen wurde:§!"
 
 tooltip_extra_effect_from_focus_completion: "§CZusätzlicher Effekt durch Abschluss von $FOCUS|Y$:§!"
 tooltip_strengthen_focus: "§GStärkt§! die Effekte des nationalen Schwerpunkts $FOCUS|Y$."
@@ -335,6 +339,9 @@ conversion_cost_mil_to_civ_factor_tooltip: "$MODIFIER_CONVERSION_COST_MIL_TO_CIV
 
 trade_opinion_factor_tooltip: "$MODIFIER_TRADE_OPINION_FACTOR$: $RIGHT|Y=%$"
 min_export_tooltip: "$MODIFIER_MIN_EXPORT_FACTOR$: $RIGHT|=Y%0$"
+
+opinion_gain_monthly_factor_tooltip: "$MODIFIER_OPINION_GAIN_MONTHLY_FACTOR$: $RIGHT|+=%$"
+improve_relations_maintain_cost_factor_tooltip: "$MODIFIER_IMPROVE_RELATIONS_MAINTAIN_COST_FACTOR$: $RIGHT|-=%$"
 
 production_factory_max_efficiency_factor_tooltip: "$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: $RIGHT|=%+$"
 production_factory_start_efficiency_factor_tooltip: "$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: $RIGHT|=%+$"

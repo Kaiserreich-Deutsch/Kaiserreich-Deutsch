@@ -398,9 +398,12 @@ scandinavia_formation_events.1.d: "Vertreter und Diplomaten aller drei großen s
 scandinavia_formation_events.1.a: "Ein Hoch auf unsere Brüder!"
 
 scandinavia_formation_events.2.t: "Der Vertrag von [SCA_nordic_council_leader.Capital.GetCapitalVictoryPointName]"
-scandinavia_formation_events.2.d: "Wir haben Diplomaten und Vertreter von Norwegen und Dänemark nach [SCA_nordic_council_leader.Capital.GetCapitalVictoryPointName] eingeladen, um einen - vorerst unverbindlichen - Vertrag auszuhandeln, der eine engere Zusammenarbeit zwischen den nordischen Ländern in Gang bringen soll. Wir teilen Werte, die nicht jeder in der Welt mit uns teilt, und gegen eine feindselige Welt sollten die Nationen Skandinaviens zusammenarbeiten! Zwar werden hier nur wenige verbindliche Vereinbarungen getroffen, aber die ersten Eindrücke sind positiv, und es scheint, dass die Folgemaßnahmen zu diesem Treffen eher instrumentell sein könnten."
+scandinavia_formation_events.2.d: "Wir haben Diplomaten und Vertreter von [SCA_loc_formation_countries] nach [SCA_nordic_council_leader.Capital.GetCapitalVictoryPointName] eingeladen, um einen - vorerst unverbindlichen - Vertrag auszuhandeln, der eine engere Zusammenarbeit zwischen den nordischen Ländern in Gang bringen soll. Wir teilen Werte, die nicht jeder in der Welt mit uns teilt, und gegen eine feindselige Welt sollten die Nationen Skandinaviens zusammenarbeiten!\n\nZwar werden hier nur wenige verbindliche Vereinbarungen getroffen, aber die ersten Eindrücke sind positiv, und es scheint, dass die Folgemaßnahmen zu diesem Treffen eher instrumentell sein könnten."
 scandinavia_formation_events.2.a: "Ein Hoch auf unsere Brüder!"
 scandinavia_formation_events.2.b: "Das ist reine Zeitverschwendung."
+SCA_formation_SWE: "Norwegen und Dänemark"
+SCA_formation_NOR: "Schweden und Dänemark"
+SCA_formation_DEN: "Schweden und Norwegen"
 
 scandinavia_formation_events.3.t: "[From.GetNameDefCap] lehnt unseren Vorschlag ab"
 scandinavia_formation_events.3.d: "[From.GetNameDefCap] hat uns wissen lassen, dass sie keine Vorteile in der von uns vorgeschlagenen Reform sehen. Es scheint, dass zumindest in diesem Bereich der Politik der Höhepunkt der skandinavischen Zusammenarbeit erreicht ist."

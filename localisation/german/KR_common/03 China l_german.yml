@@ -18,8 +18,6 @@ COUNTRY_governorate_DEF: "$NONIDEOLOGYDEF$"
 COUNTRY_integrated_governorate: "$NONIDEOLOGY$"
 COUNTRY_integrated_governorate_DEF: "$NONIDEOLOGYDEF$"
 
-CHN_game_rule_rigged_warning_tt: "§REs wurde eine Spielregel festgelegt, die das Ergebnis im Voraus bestimmt hat.§!"
-
 ### Dynamic Modifiers ###
 china_dense_rural_infrastructure: "Dicht besiedeltes ländliches Gebiet"
 china_dense_rural_infrastructure_desc: "Die Infrastrukturnetze in diesem Gebiet sind bereits durch eine dichte lokale Bevölkerung hochgradig gesättigt.\n\nWird durch das Erreichen der maximalen §Y$Infrastruktur$§! in diesem Staat entfernt."
@@ -219,7 +217,7 @@ CHN_expand_mongolian_autonomous_region_scripted_loc_key: "Erweitert die MAR auf 
 CHN_expand_mongolian_autonomous_region_desc_scripted_loc_key: "Als unsere Streitkräfte zum ersten Mal in der Mongolei eintrafen, wurde beschlossen, den örtlichen mongolischen Bannern Autonomie zu gewähren, was zur Bildung der Äußeren Mongolischen Autonomen Zone führte. Eine Autonome Zone der Inneren Mongolei wurde ebenfalls in Erwägung gezogen. Da in letzter Zeit weitere Gebiete mit einer bedeutenden mongolischen Bevölkerung erworben wurden, wäre es sinnvoll, diesen Gebieten die gleiche Behandlung zukommen zu lassen."
 
 CHN_expand_xinjiang_autonomous_region_scripted_loc_key: "Erweitert die XAR auf [FROM.GetName]"
-CHN_expand_xinjiang_autonomous_region_desc_scripted_loc_key: "Als unsere Streitkräfte zum ersten Mal in Xinjiang eintrafen, wurde beschlossen, der vielfältigen Provinz Autonomie zu gewähren, was zur Bildung der Autonomen Zone Xinjiang Uygur führte. Nachdem wir vor kurzem weitere Gebiete mit bedeutenden Minderheitenbevölkerungen erworben haben, wäre es sinnvoll, diesen Gebieten die gleiche Behandlung zukommen zu lassen."
+CHN_expand_xinjiang_autonomous_region_desc_scripted_loc_key: "Als unsere Streitkräfte zum ersten Mal in Xinjiang eintrafen, wurde beschlossen, der vielfältigen Provinz Autonomie zu gewähren, was zur Bildung der Autonomen Zone Xinjiang Uyghur führte. Nachdem wir vor kurzem weitere Gebiete mit bedeutenden Minderheitenbevölkerungen erworben haben, wäre es sinnvoll, diesen Gebieten die gleiche Behandlung zukommen zu lassen."
 
 CHN_expand_tibetan_autonomous_region_scripted_loc_key: "Erweitert die TAR auf [FROM.GetName]"
 CHN_expand_tibetan_autonomous_region_desc_scripted_loc_key: "Als unsere Streitkräfte zum ersten Mal in Tibet eintrafen, wurde beschlossen, den örtlichen Tibetern Autonomie zu gewähren, was zur Bildung der Autonomen Zone Äußeres Tibet führte. Auch eine Autonome Zone Innertibet wurde in Erwägung gezogen. Da wir vor kurzem weitere Gebiete in Gebieten mit einer bedeutenden tibetischen Bevölkerung erworben haben, wäre es sinnvoll, diesen Gebieten die gleiche Behandlung zukommen zu lassen."
@@ -326,8 +324,8 @@ china_alignment_left_kuomintang_NOT: "Wird §Rnicht§! von der §kLinken Kuomint
 china_alignment_right_kuomintang: "Wird von der §cRechten Kuomintang§! regiert"
 china_alignment_right_kuomintang_NOT: "Wird §Rnicht§! von der §cRechten Kuomintang§! regiert"
 
-china_alignment_chinese_southern_republican: "Wird von einem §RRepublikanischen§! Regime regiert"
-china_alignment_chinese_southern_republican_NOT: "Wird §Rnicht§! von einem §RRepublikanischen§! Regime regiert"
+china_alignment_chinese_southern_republican: "Wird von einem §GSüdlichem Republikaner§! Regime regiert"
+china_alignment_chinese_southern_republican_NOT: "Wird §Rnicht§! von einem §GSüdlichem Republikaner§! Regime regiert"
 
 china_alignment_geacps: "Wird von einem §jGEACPS§! Regime regiert"
 china_alignment_geacps_NOT: "Wird §Rnicht§! von einem §jGEACPS§! Regime regiert"
@@ -364,8 +362,8 @@ china_is_aligned_with_right_kmt_NOT: "Wird §Rnicht§! von einem §RRechten Kuom
 china_is_aligned_with_kmt: "Wird von einem §RKuomintang-freundlichen§! Regime regiert"
 china_is_aligned_with_kmt_NOT: "Wird §Rnicht§! von einem §RKuomintang-freundlichen§! Regime regiert"
 
-china_is_aligned_with_republicans: "Wird von einem §RRepublikanisch-freundlichen§! Regime regiert"
-china_is_aligned_with_republicans_NOT: "Wird §Rnicht§! von einem §RRepublikanisch-freundlichen§! Regime regiert"
+china_is_aligned_with_southern_republicans: "Wird von einem §GSüdstaaten-republikanerfreundlich§! Regime regiert"
+china_is_aligned_with_southern_republicans_NOT: "Wird §Rnicht§! von einem §GSüdstaaten-republikanerfreundlich§! Regime regiert"
 
 china_is_unaligned: "Ist eine unausgerichtete Clique"
 china_is_unaligned_NOT: "Ist §Rnicht§! eine unausgerichtete Clique"
@@ -380,7 +378,7 @@ china_from_may_seek_foreign_protection: "§R[FROM.GetNameWithFlag] kann um den S
 china_country_may_demand_regime_change: "§RSie könnten im Gegenzug eine ideologisch kompatible Regierung fordern!§!"
 
 china_refused_alliance: "Lehnte ein früheres Angebot einer Bündnisses ab"
-china_refused_alliance_NOT: "Nicht: Früheres Angebot eines Bündnisses abgelehnt"
+china_refused_alliance_NOT: "Hat §Rnicht§! ein früheres Angebot eines Bündnisses abgelehnt"
 
 all_chinese_countries_tt: "alle chinesischen Staaten"
 all_chinese_countries_tt_cap: "Alle chinesischen Staaten"
@@ -417,26 +415,29 @@ china_south_china_war_over_tt: "Der §YSüdchinesischer Krieg§! ist beendet."
 
 CHN_has_chosen_a_capital_flag: "§YWir haben eine dauerhafte Hauptstadt für China gewählt.§!"
 
-AGJ_set_leader_tt: "§eWir werden die nationale Führung von Anguojun übernehmen.§!"
-RGC_set_leader_tt: "§jWir werden die nationale Führung von der GEACPS-Ausrichtung übernehmen.§!"
-UPC_set_leader_tt: "§fWir werden die nationale Führung von den Föderalisten übernehmen.§!"
-LKT_set_leader_tt: "§kWir werden die nationale Führung von der Linken Kuomintang übernehmen.§!"
-NZH_set_leader_tt: "§zWir werden die nationale Führung von der Nördlichen Zhili-Clique übernehmen.§!"
-MCU_set_leader_tt: "§qWir werden die nationale Führung von den Restauratoren übernehmen.§!"
-RKT_set_leader_tt: "§cWir werden die nationale Führung von der Rechten Kuomintang übernehmen.§!"
-SZH_set_leader_tt: "§YWir werden die nationale Führung von der Südlichen Zhili-Clique übernehmen.§!"
+CHN_assume_tt: "Wir werden die nationale Führung von"
+AGJ_set_leader_tt: "§e$CHN_assume_tt$ Anguojun übernehmen.§!"
+RGC_set_leader_tt: "§j$CHN_assume_tt$ der GEACPS-Ausrichtung übernehmen.§!"
+UPC_set_leader_tt: "§f$CHN_assume_tt$ den Föderalisten übernehmen.§!"
+LKT_set_leader_tt: "§k$CHN_assume_tt$ der Linken Kuomintang übernehmen.§!"
+NZH_set_leader_tt: "§z$CHN_assume_tt$ der Nördlichen Zhili-Clique übernehmen.§!"
+MCU_set_leader_tt: "§q$CHN_assume_tt$ den Restauratoren übernehmen.§!"
+RKT_set_leader_tt: "§c$CHN_assume_tt$ der Rechten Kuomintang übernehmen.§!"
+SZH_set_leader_tt: "§Y$CHN_assume_tt$ der Südlichen Zhili-Clique übernehmen.§!"
 
-CHN_No_Other_AGJ_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel von §eAnguojun§! erhoben.§!"
-CHN_No_Other_RGC_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §jGEACPS§! erhoben.§!"
-CHN_No_Other_UPC_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §fFöderalisten§! erhoben.§!"
-CHN_No_Other_LKT_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §kLinken Kuomintang§! erhoben.§!"
-CHN_No_Other_NZH_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §zNördlichen Zhili-Clique§! erhoben.§!"
-CHN_No_Other_MCU_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §qRestauratoren§! erhoben.§!"
-CHN_No_Other_RKT_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §cRechten Kuomintang§! erhoben.§!"
-CHN_No_Other_SZH_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §MSüdlichen Zhili-Clique§! erhoben.§!"
-CHN_No_Other_NPA_tt: "§YKeine andere existierende Fraktion hat Anspruch auf den Mantel der §LNationalen Schutzallianz§! erhoben.§!"
+CHN_no_other_tt: "Keine andere existierende Fraktion hat Anspruch auf den Mantel von"
+CHN_No_Other_AGJ_tt: "§Y$CHN_no_other_tt$ §eAnguojun§! erhoben.§!"
+CHN_No_Other_RGC_tt: "§Y$CHN_no_other_tt$ §jGEACPS§! erhoben.§!"
+CHN_No_Other_UPC_tt: "§Y$CHN_no_other_tt$ §fFöderalisten§! erhoben.§!"
+CHN_No_Other_LKT_tt: "§Y$CHN_no_other_tt$ §kLinken Kuomintang§! erhoben.§!"
+CHN_No_Other_NZH_tt: "§Y$CHN_no_other_tt$ §zNördlichen Zhili-Clique§! erhoben.§!"
+CHN_No_Other_MCU_tt: "§Y$CHN_no_other_tt$ §qRestauratoren§! erhoben.§!"
+CHN_No_Other_RKT_tt: "§Y$CHN_no_other_tt$ §cRechten Kuomintang§! erhoben.§!"
+CHN_No_Other_SZH_tt: "§Y$CHN_no_other_tt$ §MSüdlichen Zhili-Clique§! erhoben.§!"
+CHN_No_Other_NPA_tt: "§Y$CHN_no_other_tt$ §LNationalen Schutzallianz§! erhoben.§!"
 
-CHN_has_revolted_flag: "§RHat in den letzten 90 Tagen rebelliert.§!"
+CHN_has_revolted: "Hat in den letzten 90 Tagen rebelliert."
+CHN_has_revolted_NOT: "Hat §Rnicht§! in den letzten 90 Tagen rebelliert."
 
 ### Bound Tooltips ###
 CHN_gain_stab_relative_to_ideology_tt: "§C£GFX_stability_texticon §YStabilität§! wird proportional zur $IDEOLOGY$ Parteipopularität hinzugewonnen.§!"
@@ -566,7 +567,7 @@ china_league_collapse_war_support_decisions: "League War Support"
 china_request_infantry_equipment: "Fordert [FROM.GetAdjective] Gewehre an" 
 china_request_artillery_equipment: "Fordert [FROM.GetAdjective] Artillerie an" 
 china_request_support_equipment: "Fordert [FROM.GetAdjective] Zusatzausrüstung an" 
-china_request_refused: "Not: §H[FROM.GetNameDefCap]§! hat in den letzten drei Monaten eine Anfrage abgelehnt."
+china_request_refused: "§H[FROM.GetNameDefCap]§! hat in den letzten drei Monaten §Rnicht§! eine Anfrage abgelehnt."
 china_awaiting_request: "Wartet auf eine Antwort zu einer anderen Anfrage."
 
 ### League War Decisions
@@ -3126,6 +3127,7 @@ rehe_province_state: "Rehe"
 jiangsu_province_state: "Jiangsu"
 jiangxi_province_state: "Jiangxi"
 jilin_province_state: "Jilin"
+mongolia_province_state: "Wai Menggu"
 ningxia_province_state: "Ningxia"
 qinghai_province_state: "Qinghai"
 shaanxi_province_state: "Shaanxi"
@@ -3134,6 +3136,7 @@ shanxi_province_state: "Shanxi"
 sichuan_province_state: "Sichuan"
 suiyuan_province_state: "Suiyuan"
 taiwan_province_state: "Taiwan"
+tibet_province_state: "Xizang"
 xinjiang_province_state: "Xinjiang"
 yunnan_province_state: "Yunnan"
 zhejiang_province_state: "Zhejiang"
@@ -3141,9 +3144,12 @@ zhili_province_state: "Zhili"
 
 ### Flags ###
 china_is_potential_government: "Hat eine §Yprovisorische nationale Regierung§! gebildet."
+china_is_potential_government_NOT: "Has §Rnot§! formed a §YProvisional National Government§!"
 china_demanding_concession: "Hat innerhalb des letzten Monats ein Zugeständnis gefordert"
 CHN_south_china_war_started: "Der §YSüdchinesische Krieg§! hat begonnen."
 CHN_SCW_neutral_flag: "Ist neutral im §YSüdchinesischen Krieg§!."
+CHN_tag_is_hearing_alliance_offer_flag: "§Y[FROM.GetNameDefCap] ist derzeit in diplomatische Verhandlungen (ein Bündnisangebot oder eine Unterwerfungsforderung) mit einer anderen Fraktion verwickelt.§!"
+CHN_tag_is_hearing_alliance_offer_flag_NOT: "§Y[FROM.GetNameDefCap] ist derzeit§! §Rnicht§! §Yin diplomatische Verhandlungen (ein Bündnisangebot oder eine Unterwerfungsforderung) mit einer anderen Fraktion verwickelt.§!"
 
 ### Chinese Arsenal Mechanic ###
 CHN_armour_industry_organisation: "Chinesische Rüstungsindustrie"
