@@ -76,7 +76,6 @@
  raid_type_thermonuclear_missile_strike_submarine_desc: "$raid_type_thermonuclear_missile_strike_desc$"
  raid_type_CHI_huansheng_raid: "Operation Huansheng"
  raid_type_CHI_huansheng_raid_desc: "Unserem Geheimdienst zufolge sind die Stahlwerke in Yawata und das Marinearsenal in Sasebo zwar strategisch wichtige Ziele, doch unsere Luftwaffe ist zur Zeit nicht in der Lage, sie effektiv anzugreifen. Daher wurde beschlossen, dass das wirksamste Mittel zur Beendigung dieses Krieges darin liegt, das japanische Volk über die Gräueltaten der kaiserlich-japanischen Kriegstreiber in China aufzuklären, indem man Flugblätter über Städten wie Nagasaki, Fukuoka, Saga und Osaka abwirft."
-
  raid_type_CHI_tokyo_imperial_palace_bombing: "Bombardierung des Kaiserpalasts in Tokio"
  raid_type_CHI_tokyo_imperial_palace_bombing_desc: "Indem wir eine Gruppe von Bombern entsenden, um das Hauptquartier des Feindes und den symbolischen Ort der kaiserlichen Macht Japans anzugreifen, können wir die Moral unseres Volkes stärken und gleichzeitig der Moral unseres Feindes einen Schlag versetzen."
  raid_type_CHI_national_diet_bombing: "Bombardierung des Nationalparlaments"
@@ -85,6 +84,10 @@
  raid_type_CHI_hakko_ichiu_bombing_desc: "Indem wir eine Gruppe von Bombern entsenden, um das Symbol des Imperialismus des Feindes anzugreifen, werden wir Japans Schwäche aufzeigen und gleichzeitig die Moral unseres eigenen Volkes stärken."
  raid_type_CHI_great_wall_raid_land: "Große Mauer Infiltrationsangriff"
  raid_type_CHI_great_wall_raid_land_desc: "Die Mauer hat nicht mehr denselben Verteidigungsstatus wie in der Vergangenheit, kann aber einem verschanzten Feind dennoch einen Vorteil verschaffen. Indem wir eine kleine Gruppe von Soldaten einschleusen, die feindlichen Linien infiltrieren und an strategisch günstigen Stellen Sprengsätze zünden, könnten wir ihren Vorteil zunichte machen."
+ 
+ raid_type_JAP_pearl_harbor_strike: "Angriff auf Pearl Harbor"
+ raid_type_JAP_pearl_harbor_strike_desc: "Indem wir eine Gruppe von Bombern entsenden, um das Hauptquartier der feindlichen Marine und deren Flotte im Pazifik anzugreifen, können wir die Moral unseres Volkes stärken und gleichzeitig der Moral und den maritimen Fähigkeiten unseres Feindes einen schweren Schlag versetzen. Dadurch werden unsere Seestreitkräfte sechs Monate lang ungehindert operieren können!"
+
  RAID_TARGET_NAME: "$WHAT|H$ in $LOCATION|H$"
  TOOLTIP_POTENTIAL_TARGET_ENTRY: "§GKlicken§!, um einen Überfall auf $CONTROLLER_FLAG$$TARGET_NAME$ zu beginnen"
  TOOLTIP_POTENTIAL_TARGET_ENTRY_NOT_ALLOWED: "Es kann §Rkein§! Überfall gegen $CONTROLLER_FLAG$$TARGET_NAME$ durchgeführt werden"
@@ -98,6 +101,7 @@
  TOOLTIP_TARGET_FACILITY_NO_ONGOING_PROJECT_DESC: "Keine laufenden Projekte"
  TOOLTIP_TARGET_FACILITY_PROJECT_UNKNOWN_DESC: "Derzeitiges Projekt unbekannt aufgrund unzureichender Zielinformationen ($CURRENT|R1$/$REQUIRED|H1$)"
  MAP_ICON_RAID_TARGET_HEADER: "Überfall planen"
+ RAID_SHIFT_CLICK_QUICK_START: "§GShift+Klick§! um sofort einen Überfall vorzubereiten."
  MAP_ICON_RAID_UNIT_HEADER: "Überfalltrupp auswählen"
  TOOLTIP_MAP_ICON_RAID_UNITS_HEADER: "$NUM|H$ Überfalltruppen verfügbar"
  TOOLTIP_MAP_ICON_RAID_UNIT_ENTRY: "- $NAME|H$ ($SUCCESS$)"
@@ -244,6 +248,11 @@
  kiel_canal_damaged_tt: "Kanal aufgrund von Schäden an den Schleusen gesperrt"
  kiel_canal_damaged_tt_NOT: "$kiel_canal_damaged_tt$"
  panama_canal_damaged_modifier: "Panamakanal beschädigt"
+ sokolov_raided_modifier: "Falknov wurde überfallen"
+ sokolov_raided_limited_success_modifier: "$sokolov_raided_modifier$"
+ sokolov_raided_success_modifier: "$sokolov_raided_modifier$"
+ sokolov_raided_critical_modifier: "$sokolov_raided_modifier$"
+
 
  tooltip_raid_warning_counterplay_header: "§GUm die Chancen einer erfolgreichen Verteidigung zu erhöhen:§!"
  tooltip_raid_success_chance_improvement_header: "§GUm die Chancen eines erfolgreichen Überfalls zu erhöhen:§!"
