@@ -757,3 +757,8 @@
 
  TRIGGER_HAS_ACTIVE_FACTION_RULE: "$COUNTRY_OR_FACTION|H$ hat die aktive Regel $RULE|H$"
  TRIGGER_HAS_NOT_ACTIVE_FACTION_RULE: "$COUNTRY_OR_FACTION|H$ hat keine aktive Regel $RULE|H$."
+
+# TODO: Behebung des Absturzproblems bei count_in_collection. Rückgängig machen, sobald das Problem bei count_in_collection behoben ist
+ count_in_collection_battalions_workaround_tooltip: "Mindestens $RIGHT|H*0$ §Y[?unit_type_temp.GetTokenLocalizedKey] Bataillone§! in der Fraktion. Derzeit: $LEFT|H*0$"
+ count_in_collection_marine_workaround_tooltip: "Mindestens $RIGHT|H*0$ §YMarinebataillone, Marinekommandobataillone, Amtrac-Bataillone und Amphibische Panzer§! in der Fraktion. Derzeit: $LEFT|H*0$"
+ count_in_collection_units_workaround_tooltip: "Mindestens $RIGHT|H*0$ §Y[?unit_type_temp.GetTokenLocalizedKey]§! in Fraktion. Derzeit: $LEFT|H*0$"
