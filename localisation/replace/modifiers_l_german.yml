@@ -137,7 +137,12 @@
 
 ### Fehlt in Vanilla ###
  small_plane_airframe_design_cost_factor: "Kosten für die Konstruktion kleiner Flugzeugzellen"
- modifier_state_repair_speed_infrastructure_factor: "$modifier_repair_speed_infrastructure_factor$"
  modifier_state_repair_speed_industrial_complex_factor: "$modifier_repair_speed_industrial_complex_factor$"
  modifier_state_repair_speed_arms_factory_factor: "$modifier_repair_speed_arms_factory_factor$"
  modifier_state_repair_speed_rail_way_factor: "$modifier_repair_speed_rail_way_factor$"
+
+ modifier_production_speed_commercial_nuclear_reactor_factor: "§Y$commercial_nuclear_reactor$§! Baugeschwindigkeit"
+ modifier_production_speed_commercial_nuclear_reactor_factor_desc: "Ändert die Geschwindigkeit des Baus ziviler Kernreaktoren."
+
+ modifier_state_production_speed_commercial_nuclear_reactor_factor: "§Y$commercial_nuclear_reactor$§! Baugeschwindigkeit"
+ modifier_state_production_speed_commercial_nuclear_reactor_factor_desc: "Beeinflusst das Tempo des Baus von §Y$commercial_nuclear_reactor$§! in diesem Bundesstaat."
