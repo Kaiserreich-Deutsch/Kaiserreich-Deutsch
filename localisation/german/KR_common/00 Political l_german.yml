@@ -86,7 +86,9 @@ generic_events.76.a: "Großartig!"
  government_is_not_loc: "Die derzeitige Regierungspartei ist nicht "
 
 ### Party Popularity Tooltips ###
- popularity_ideology_tooltip: "Ihre derzeitige Regierungspartei ist §H[?current_party_ideology_group.GetTokenLocalizedKey]§!"
+ popularity_ideology_tooltip: "[GetPopularityTooltip]"
+ popularity_ideology_tooltip_default: "Ihre derzeitige Regierungspartei ist §H[?current_party_ideology_group.GetTokenLocalizedKey]§!."
+ popularity_ideology_tooltip_mapped: "$popularity_ideology_tooltip_default$\nDein Standardwert für $MODIFIER_POLITICAL_POWER_GAIN$ ist an die Beliebtheit der Partei §H[?global.ideology_groups^political_power_ideology.GetTokenLocalizedKey]s§! gekoppelt."
  popularity_ideology_desc: "§L[GetPopularityTooltipDesc]§!"
  party_popularity_delayed_tooltip: "Die Popularität einer Partei steht für die Kontrolle der aktuellen Regierung über das Land und ihre Unterstützung durch die Bevölkerung. Politische Parteien mit hoher Popularität sind eher in der Lage, ihre politische Agenda durchzusetzen und die Nation zu stabilisieren."
 
