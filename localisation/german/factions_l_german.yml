@@ -276,7 +276,7 @@
  AT_LEAST_50_CIVS: "§YAlle Fraktionsmitglieder§! mit mindestens §Y50 $industrial_complex$§!"
  AT_LEAST_50_MILS: "§YAlle Fraktionsmitglieder§! mit mindestens §Y50 $arms_factory$§!"
  AT_LEAST_100_MILS_CIVS: "§YAlle Fraktionsmitglieder§! mit mindestens §Y100 $arms_factory$§!"
- AT_LEAST_500_FACTORIES: "§YJedes Fraktionsmitglied§!, das mindestens insgesamt §Y500 $arms_factory$, $industrial_complex$ und $dockyard$ kontrolliert!"
+ AT_LEAST_500_FACTORIES: "§YJedes Fraktionsmitglied§!, das mindestens insgesamt §Y500 $arms_factory$, $industrial_complex$ und $dockyard$ kontrolliert! erhält 1 Fraktions-Initiativpunkt."
  AT_LEAST_200_CONVOYS: "§YAlle Fraktionsmitglieder§! mit mindestens §Y200 $Konvois$§!"
 
  GUERILLA_TOTAL_ABOVE_THRESHOLD: "Guerilla-Aktivitäten begannen in mehr als vier Staaten."
@@ -284,8 +284,8 @@
  OWNS_LISTED_STATE: "Jedes Fraktionsmitglied, das einen der folgenden Staaten besitzt:"
  HAS_AT_LEAST_5K_INFANTRY_EQUIPMENT: "§YAlle Fraktionsmitglieder§! mit mindestens 5000 $infantry_equipment$ auf Lager"
  HAS_DEPLOYED_AT_LEAST_5M_MANPOWER: "§YAlle Fraktionsmitglieder§! mit mindestens 5 Millionen eingesetzten Manstärke"
- ONE_PANZER_GENERAL: "§YEin General§! mit entweder der Eigenschaft §Y$panzer_leader$§!,  §Y$panzer_expert$§! oder §Y$armor_officer$§!:"
- ONE_INFANTRY_GENERAL: "§YEin General§! mit entweder der Eigenschaft §Y$infantry_officer$§!, §Y$infantry_leader$§! oder §Y$infantry_expert$§!:"
+ ONE_PANZER_GENERAL: "§YEin Kommandant! mit entweder der Eigenschaft §Y$panzer_leader$§!,  §Y$panzer_expert$§! oder §Y$armor_officer$§!:"
+ ONE_INFANTRY_GENERAL: "§YEin Kommandant! mit entweder der Eigenschaft §Y$infantry_officer$§!, §Y$infantry_leader$§! oder §Y$infantry_expert$§!:"
  ONE_ADMIRAL: "§YEin Admiral§!"
  ONE_GENERAL: "§YEin General§!"
  ALL_FACTION_MEMBERS_WITH_1_AMPHIBIOUS: "§YJedes Fraktionsmitglied§!, das mindestens 1 §YAmphibische§! Division aufstellen"
@@ -584,9 +584,9 @@
  INTELLIGENCE_POPUP_DESCRIPTION: "Sind Sie sicher, dass Sie £faction_initiative_texticon $COST|H$ ausgeben möchten, um $GROUP|H$ zuzuweisen?"
  ADD_GOAL_TITLE: "Ziel hinzufügen"
  ADD_GOAL_CANNOT_AFFORD: "§RSie können es sich nicht leisten, ein Ziel hinzuzufügen, da dies £faction_initiative_texticon $COST|.0$ kostet§!"
- REPLACE_GOAL_TT_ALREADY_SELECTED: "§RZiel ist bereits aktiv§!"
- ADD_GOAL_TT_ALREADY_COMPLETED: "§RDas Ziel wurde bereits erreicht.§!"
- ADD_GOAL_TT_ALREADY_ATTEMPTED: "§RZiel wurde bereits versucht§!"
+ REPLACE_GOAL_TT_ALREADY_SELECTED: "§RZiel ist bereits aktiv§!\n"
+ ADD_GOAL_TT_ALREADY_COMPLETED: "§RDas Ziel wurde bereits erreicht.§!\n"
+ ADD_GOAL_TT_ALREADY_ATTEMPTED: "§RZiel wurde bereits versucht§!\n"
 
  IN_STOCKPILE: "$EQUIPMENTNAME|H$ im Lagerbestand"
 
@@ -762,3 +762,15 @@
  count_in_collection_battalions_workaround_tooltip: "Mindestens $RIGHT|H*0$ §Y[?unit_type_temp.GetTokenLocalizedKey] Bataillone§! in der Fraktion. Derzeit: $LEFT|H*0$"
  count_in_collection_marine_workaround_tooltip: "Mindestens $RIGHT|H*0$ §YMarinebataillone, Marinekommandobataillone, Amtrac-Bataillone und Amphibische Panzer§! in der Fraktion. Derzeit: $LEFT|H*0$"
  count_in_collection_units_workaround_tooltip: "Mindestens $RIGHT|H*0$ §Y[?unit_type_temp.GetTokenLocalizedKey]§! in Fraktion. Derzeit: $LEFT|H*0$"
+
+# TODO: Behebung der Abstürze bei collection_size. Zurücksetzen, wenn collection_size festgelegt ist.
+ faction_get_core_states_not_fully_controlled_workaround_tooltip: "Die Anzahl von §H$FACTION_CORE_STATES_NOT_FULLY_CONTROLLED$§! ($LEFT|H0$) ist kleiner als $RIGHT|H0$"
+ faction_get_enemy_core_states_controlled_by_us_workaround_tooltip: "Die Anzahl von §H$ENEMY_FACTION_CORE_STATES_CONTROLLED_BY_US$§! ($LEFT|H0$) ist größer als $RIGHT|H0$"
+ faction_get_enemy_faction_states_bombed_workaround_tooltip: "Die Anzahl von §H$ENEMY_FACTION_STATES_BOMBED$§! ($LEFT|H0$) ist größer als $RIGHT|H0$"
+ faction_casualities_inflicted_by_faction_members_workaround_tooltip: "Die Anzahl von §H$COLLECTION_CASUALTIES_INFLICTED_BY_FACTION_MEMBERS$§! ($LEFT|H0$) ist größer als $RIGHT|H0$"
+ faction_border_states_full_infrastructure_workaround_tooltip: "Die Anzahl von §H$COLLECTION_FACTION_BORDER_STATES_FULL_INFRASTRUCTURE$§! ($LEFT|H0$) ist kleiner als $RIGHT|H0$"
+
+ any_faction_member_tooltip: "Jedes Fraktionsmitglied"
+
+ faction_core_states_fully_controlled_by_faction_members: "Alle §Fraktion-eigenen Kernstaaten§! werden vollständig von §HFraktion-Mitgliedern§! kontrolliert."
+
