@@ -50,6 +50,7 @@
  MODIFIERS_ARMY_DEFENCE_FACTOR: "Division Verteidigung"
  MODIFIERS_ARMY_CORE_DEFENCE_FACTOR: "Division Verteidigung auf Kerngebiet"
  MODIFIERS_ARMY_CLAIM_DEFENCE_FACTOR: "Division Verteidigung auf beanspruchtem Gebiet"
+ MODIFIERS_ARMY_NON_CORE_DEFENCE_FACTOR: "Verteidigung in Nicht-Kerngebieten"
  MODIFIERS_ARMY_INFANTRY_DEFENCE_FACTOR: "Infanterie-Verteidigung"
  MODIFIERS_ARMY_ARMOR_ATTACK_FACTOR: "Gepanzerter Angriff"
  MODIFIERS_ARMY_ARMOR_DEFENCE_FACTOR: "Gepanzerte Verteidigung"
@@ -134,8 +135,13 @@
  modifier_army_sub_unit_artillery_brigade_speed_factor: "$artillery_brigade$ Geschwindigkeit"
  modifier_unit_militia_design_cost_factor: "$militia$ Einheitsdesignkosten"
  modifier_unit_irregular_infantry_design_cost_factor: "$irregular_infantry$ Einheitsdesignkosten"
+ MODIFIER_ORG_DAMAGE_MULTIPLIER: "Organisation Damage Taken"
+ MODIFIER_AIR_CLOSE_AIR_SUPPORT_ORG_DAMAGE_FACTOR: "Schadensfaktor der Organisation für Luftnahunterstützung"
 
 ### Fehlt in Vanilla ###
+ country_resource_cost_coal: "Kohleverbrauch"
+ state_resource_cost_coal: "Kohleverbrauch"
+
  small_plane_airframe_design_cost_factor: "Kosten für die Konstruktion kleiner Flugzeugzellen"
  modifier_state_repair_speed_industrial_complex_factor: "$modifier_repair_speed_industrial_complex_factor$"
  modifier_state_repair_speed_arms_factory_factor: "$modifier_repair_speed_arms_factory_factor$"
