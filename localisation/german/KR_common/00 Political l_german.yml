@@ -154,7 +154,7 @@ mobilisation_penalty_modifier: "Über Divisions Limit"
  unit_limit_list_item: "\n   - "
  unit_limit_list_item_detailed: "\n      - "
 
- unit_limit_reached_floor_desc: "\n(Begrenzung auf minimal [?constant:unit_limits.min|H0])"
+ unit_limit_reached_floor_desc: "\n(Begrenzung auf minimal [?constant:unit_limits.base|H0])"
  unit_limit_base_value_desc: "\nBasiswert: [?base_units|G2]"
  unit_limit_core_population_desc: "$unit_limit_list_item$Kernbevölkerung: [?core_base|G2=]"
  unit_limit_noncore_population_desc: "$unit_limit_list_item$Nicht-Kernbevölkerung: [?non_core_base|G2=]"

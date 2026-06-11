@@ -204,6 +204,7 @@ annexation_events.integration: "Pass euch unserem Territorium an."
  annexation_events.asia.give_to_khiva: "[khiva.GetGrantTerritoryEventOption]"
 
  annexation_events.asia.give_to_far_eastern_republic: "[far_eastern_republic.GetGrantTerritoryEventOption]"
+ annexation_events.asia.give_to_manchuria: "[manchuria.GetGrantTerritoryEventOption]"
 
  annexation_events.asia.release_republican_india: "Eine Indische Republik gründen."
  annexation_events.asia.release_princely_india: "Wiederherstellung des Fürstenbundes."
@@ -245,6 +246,7 @@ annexation_events.integration: "Pass euch unserem Territorium an."
  annexation_events.oceania.give_to_australia: "[australia.GetGrantTerritoryEventOption]"
  annexation_events.oceania.give_to_new_zealand: "[new_zealand.GetGrantTerritoryEventOption]"
  annexation_events.oceania.give_to_philippines: "[philippines.GetGrantTerritoryEventOption]"
+ annexation_events.oceania.give_to_hawaii: "[hawaii.GetGrantTerritoryEventOption]"
 
 # China
  annexation_events.china.release_china: "Lassen Sie uns unsere Optionen mit lokalen Fraktionen ausloten."
@@ -949,10 +951,6 @@ annexation_71_desc: "Ehemals Teil des Königreichs Ungarn, ist die Donautiefeben
  annexation_events.1127.b: "[adrianople.GetGrantTerritoryEventOption]"
  annexation_events.1127.c: "[plovdiv.GetGrantTerritoryEventOption]"
 
- annexation_1109: "Das Schicksal von [1109.GetName]"
- annexation_1109_desc: "Wir haben die Kontrolle über die kleine Grenzregion [1109.GetName] übernommen und müssen nun entscheiden, was wir mit ihr machen wollen."
- annexation_events.1128.a: "[karavanks.GetGrantTerritoryEventOption]"
-
  annexation_980: "Das Schicksal von [980.GetName]"
  annexation_980_desc: "Wir haben die Kontrolle über den Großraum [980.GetName] übernommen und müssen nun entscheiden, was wir damit machen."
 
@@ -1283,7 +1281,8 @@ annexation_408: "Das Schicksal des russischen Fernen Ostens"
 annexation_408_desc: "Unsere Armeen haben es geschafft, die Kontrolle über den russischen Fernen Osten zu übernehmen, und er ist nun von uns besetzt. Wir haben jetzt ein paar Optionen. Wir können entweder einen loyalen Vasallenstaat in der Region schaffen oder ihn selbst einnehmen, da er eine wichtige strategische Position in Ostasien einnimmt. Was sollen wir tun?"
 annexation_events.3009.a: "Befreien Sie die fernöstliche Republik."
  annexation_events.3009.b: "Bildung der Republik der Grünen Ukraine."
- annexation_events.3009.c: "[manchuria.GetGrantTerritoryEventOption]"
+ annexation_events.3009.c: "[annexation_fate_of_far_east_manchuria_option]"
+ annexation_events.3009.c.split: "Aufteilen zwischen [manchuria.GetNonIdeologyNameDef] und [?transfer_target.GetNonIdeologyNameDef]."
  annexation_events.3009.d: "Verzicht auf den Vertrag von Aigun."
  annexation_events.3009.e: "Lösen Sie sich vom Vertrag von Aigun und geben Sie das verbleibende Gebiet an unseren Oberherrn ab."
 
@@ -1307,7 +1306,7 @@ annexation_329: "Das Schicksal von [329.GetName]"
 annexation_329_desc: "Der Staat [329.GetName] ist unter unsere Kontrolle gebracht worden, da unsere Truppen die Region besetzen. Wir müssen nun entscheiden, was damit geschehen soll."
 
 annexation_716: "Das Schicksal der Mandschurei"
-annexation_716_desc: "Nach unserem erfolgreichen Feldzug in der Mandschurei haben wir nun die Aufgabe, eine neue lokale Verwaltungsbehörde aufzubauen, um den Frieden wiederherzustellen. Die Mandschurei, auf Chinesisch auch als Dongbei (Nordosten) bekannt, ist eine Region, die reich an natürlichen Ressourcen und Industrie ist. Benannt nach den Mandschu-Stämmen, die das Gebiet einst beherrschten, haben deren Eroberung Chinas und die spätere Öffnung der Region für die Han-Einwanderung ironischerweise dazu geführt, dass die ethnischen Mandschus zu einer Minderheit wurden und sich viele von ihnen inzwischen assimiliert haben. Nach der Xinhai-Revolution nutzte die von Japan unterstützte Fengtian-Clique die Region als Stützpunkt für ihre Bemühungen, China unter ihrem Banner zu vereinen. Heute jedoch gehört das Land uns, und wir haben mehrere Möglichkeiten, wie wir vorgehen können."
+annexation_716_desc: "Nach unserem erfolgreichen Feldzug in der Mandschurei haben wir nun die Aufgabe, eine neue lokale Verwaltungsbehörde aufzubauen, um den Frieden wiederherzustellen. Die Mandschurei, auf Chinesisch auch als Dongbei (Nordosten) bekannt, ist eine Region, die reich an natürlichen Ressourcen und Industrie ist. Benannt nach den Mandschu-Stämmen, die das Gebiet einst beherrschten, haben deren Eroberung Chinas und die spätere Öffnung der Region für die Han-Einwanderung ironischerweise dazu geführt, dass die ethnischen Mandschus zu einer Minderheit wurden und sich viele von ihnen inzwischen assimiliert haben. Nach der Xinhai-Revolution nutzte die von Japan unterstützte Fengtian-Clique die Region als Stützpunkt für ihre Bemühungen, China unter ihrem Banner zu vereinen. Heute jedoch gehört das Land uns, und wir haben mehrere Möglichkeiten, wie wir vorgehen können. Während die meisten darauf abzielen, in der Region ein China-freundliches Regime zu etablieren oder die Region wieder unter die Kontrolle einer China-freundlichen Regierung zu bringen, schlagen radikale Kräfte die Gründung einer neuen mandschurischen Nation vor. Diese ehrgeizige Idee kommt jedoch nur dann wirklich in Betracht, wenn es in der Region keine Stellvertreter Chinas gibt, da ein solcher Schritt unsere Beziehungen zu China dauerhaft belasten würde."
 annexation_events.3015.a: "Schaffen Sie eine unabhängige Mandschurei."
 
 annexation_743: "Das Schicksal von changhai"
@@ -1516,8 +1515,8 @@ annexation_events.3057.a: "Ceylon freigeben."
 annexation_australia_australasia: "Das Schicksal von Australasien"
  annexation_australia_australia: "Das Schicksal von Australien"
  annexation_australia_entente_desc: "Die Australasiatische Regierung wurde besiegt und befindet sich derzeit unter unserer Kontrolle. Die Frage, die sich uns stellt, ist, ob wir ihre Unabhängigkeit unter der Kontrolle der loyalistischen Australasiatischen Garde - trotz ihrer extremistischen Tendenzen - wiederherstellen und hoffen, dass sie in der Lage ist, die Ordnung aufrechtzuerhalten, oder ob wir die Notstandsprotokolle wieder in Kraft setzen und die direkte Herrschaft durch unseren Generalgouverneur übernehmen sollten."
-annexation_australia_australasia_desc: "Nach einem harten Feldzug durch die abgelegenen Inseln der Australasiatischen Konföderation erreichten unsere Armeen schließlich Canberra, und mit der Kapitulation Australasiens müssen wir nun entscheiden, wie wir damit umgehen wollen."
- annexation_australia_australia_desc: "Nach einem harten Feldzug durch die abgelegenen Inseln Australiens erreichten unsere Armeen schließlich Canberra, und nach der Kapitulation Australiens müssen wir entscheiden, wie wir damit umgehen wollen."
+annexation_australia_australasia_desc: "Nach einem hart umkämpften Feldzug gegen das Commonwealth von Australasien haben unsere Truppen endlich Canberra erreicht, und nun, da Australasien kapituliert hat, müssen wir entscheiden, wie wir damit verfahren wollen."
+ annexation_australia_australia_desc: "Nach einem hart umkämpften Feldzug gegen Australien haben unsere Truppen endlich Canberra erreicht, und nun, da Australien kapituliert hat, müssen wir entscheiden, wie wir damit umgehen wollen."
 annexation_events.3058.a: "[annexation_australia_release_option] freigeben."
 annexation_events.3058.b: "Befreien Sie Australien und Neuseeland."
  annexation_events.3058.c: "Lassen Sie Australasien frei und geben Sie ihnen die Herrschaft über ihr Gebiet im Pazifik."
