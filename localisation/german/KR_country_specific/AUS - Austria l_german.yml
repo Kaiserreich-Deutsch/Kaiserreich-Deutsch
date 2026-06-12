@@ -222,7 +222,6 @@ GAL_unite_with_poland: "Vereint mit Polen"
 SER_Ultimatum_To_Illyria: "Ultimatum an [FROM.GetNameDef]"
 SER_Ultimatum_To_Illyria_desc: "Wir haben eine einfache Forderung an die \" Illyrische\" Regierung. Einheit, oder Krieg. Da wir beide bereits im Konflikt mit den Österreichern stehen, wären sie dumm, uns die Möglichkeit zu verwehren, endlich eine Union der Südslawen zu schaffen." 
 AUS_unite_with_germany: "Vereint mit Deutschland"
- AUS_join_vienna_circle: "Join the Vienna Circle"
 
 ### Focuses ###
 AUS_eco_council: "Plan zur wirtschaftlichen Rehabilitation"
@@ -232,7 +231,7 @@ AUS_skoda: "Škoda"
 AUS_skoda_desc: "Während des Weltkrieges war das westlich von Prag gelegene Škoda-Werk unser größter Waffenproduzent, ist aber durch die übermächtige Macht der deutschen Industrie in schwere Zeiten geraten. Nachdem Deutschland am Schwarzen Montag bis ins Mark erschüttert wurde, sind die Subventionen für Škoda ein großer Schritt zur Sanierung unserer Wirtschaft."
 
 AUS_daimler: "Austro Daimler"
-AUS_daimler_desc: "Die Firma Austro Daimler stellte uns viele gepanzerte Fahrzeuge und Motoren für unsere Kriegsanstrengungen her. Deutsche Autos und Motoren haben in den letzten Jahrzehnten den Markt überschwemmt, aber da Porsche kurz vor dem Bankrott steht und Mercedes-Benz dem Beispiel folgen will, ist es an der Zeit, unserer Automobilindustrie neues Leben einzuhauchen^."
+AUS_daimler_desc: "Die Firma Austro Daimler stellte uns viele gepanzerte Fahrzeuge und Motoren für unsere Kriegsanstrengungen her. Deutsche Autos und Motoren haben in den letzten Jahrzehnten den Markt überschwemmt, aber da Porsche kurz vor dem Bankrott steht und Mercedes-Benz dem Beispiel folgen will, ist es an der Zeit, unserer Automobilindustrie neues Leben einzuhauchen."
 
 AUS_vienna_circle_1: "Institutionalisierung des Wiener Kreises"
 AUS_vienna_circle_1_desc: "Der Wiener Kreis ist ein Zusammenschluss der klügsten Köpfe der Universität Wien, brillanter Mathematiker, Philosophen, Naturwissenschaftler, die an der Spitze der wissenschaftlichen und philosophischen Forschung stehen. Wir werden ihnen staatliche Mittel zur Verfügung stellen, aber auch ihre Arbeit in neue, praktischere Bereiche verlagern."
@@ -1202,7 +1201,7 @@ joining_reichspakt_tt: "§YSie werden die Möglichkeit haben, die [Root.GetFacti
  austria_foreign_events.4026.a: "Nun denn"
 
  austria_foreign_events.4030.t: "Erweiterung des Wiener Kreises"
- austria_foreign_events.4030.d: "[From.GetNameDefCap], ein Land, mit dem wir viele Verbindungen haben, hat uns in den Wiener Kreis eingeladen - eine angesehene Gruppe von Spitzenwissenschaftlern, Mathematikern und anderen Denkern, die zusammenkommen, um die großen Themen des Tages zu diskutieren und die Forschung auch mit praktischen Mitteln voranzubringen. In dem offiziellen Papier heißt es, man freue sich auf die Zusammenarbeit mit den Intellektuellen von [Root.GetNameDef]. Unsere Aufnahme würde zu einer erheblichen Stärkung unserer eigenen technologischen Kapazitäten führen, auch wenn einige anmerken, dass es sich dabei um einen weiteren Versuch handeln könnte, die [From.GetAdjective]-Sphäre um ihr namensgebendes Mitglied zu konsolidieren.\n\nAuch diese Zyniker können nicht leugnen, dass es ein großer Schritt für den wissenschaftlichen Sektor und das internationale Ansehen unseres Landes ist, in eine Organisation von so großem Ruf aufgenommen zu werden."
+ austria_foreign_events.4030.d: "[AUS.GetNameDefCap], ein Land, mit dem wir viele Verbindungen haben, hat uns in den Wiener Kreis eingeladen - eine angesehene Gruppe von Spitzenwissenschaftlern, Mathematikern und anderen Denkern, die zusammenkommen, um die großen Themen des Tages zu diskutieren und die Forschung auch mit praktischen Mitteln voranzubringen. In dem offiziellen Papier heißt es, man freue sich auf die Zusammenarbeit mit den Intellektuellen von [ROOT.GetNameDef]. Unsere Aufnahme würde zu einer erheblichen Stärkung unserer eigenen technologischen Kapazitäten führen, auch wenn einige anmerken, dass es sich dabei um einen weiteren Versuch handeln könnte, die [AUS.GetAdjective]-Sphäre um ihr namensgebendes Mitglied zu konsolidieren.\n\nAuch diese Zyniker können nicht leugnen, dass es ein großer Schritt für den wissenschaftlichen Sektor und das internationale Ansehen unseres Landes ist, in eine Organisation von so großem Ruf aufgenommen zu werden."
  austria_foreign_events.4030.a: "Exzellent"
 
 ### Country Names ###
