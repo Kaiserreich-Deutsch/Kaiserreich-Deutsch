@@ -69,26 +69,10 @@ NFA_Those_Who_Slither_desc: "Es gibt noch einen letzten Ort, an dem wir noch nic
 NFA_fate_of_french_africa_cat: "Das Schicksal von Französisch-Afrika"
 NFA_fate_of_french_africa_cat_desc: "Zu lange wurden die Kolonien Frankreichs als wenig mehr als Land und Menschen gesehen, die ausgebeutet werden sollten. Es ist unsere heilige Pflicht, unseren Brüdern und Schwestern die Hand zu reichen und sie zu erheben. Wir werden das Licht des Christentums und der Zivilisation zu den Eingeborenen bringen, die schon zu lange durch die Dunkelheit gestolpert sind!"
 
-NFA_Focus_On_Algeria: "Konzentriert die Bemühungen auf Algerien"
-NFA_Integrate_Algeria: "Integriert Algerien in die Französische Union"
-NFA_Focus_On_Tunisia: "Konzentriert die Bemühungen auf Tunesien"
-NFA_Integrate_Tunisia: "Integriert Tunesien in die Französische Union"
-NFA_Focus_On_Guinea: "Konzentriert die Bemühungen auf Französisch-Guinea"
-NFA_Integrate_Guinea: "Integriert Guinea in die Französische Union"
-NFA_Focus_On_Mauritania: "Konzentriert die Bemühungen auf Mauretanien"
-NFA_Integrate_Mauritania: "Integriert Mauretanien in die Französische Union"
+NFA_focus_on_region: "Konzentriert die Bemühungen auf[?FROM.core_countries^0.GetNonIdeologyNameDef]"
 NFA_Focus_On_French_Sudan: "Konzentriert die Bemühungen auf Französich-Sudan"
+NFA_integrate_region: "Integriert [?FROM.core_countries^0.GetNonIdeologyNameDef] in die Französische Union"
 NFA_Integrate_French_Sudan: "Integriert Französich-Sudan in die Französische Union"
-NFA_Focus_On_Ivory_Coast: "Konzentriert die Bemühungen auf die Elfenbeinküste"
-NFA_Integrate_Ivory_Coast: "Integriert die Elfenbeinküste in die Französische Union"
-NFA_Focus_On_Upper_Volta: "Konzentriert die Bemühungen auf Obervolta"
-NFA_Integrate_Upper_Volta: "Integriert Obervolta in die Französische Union"
-NFA_Focus_On_Niger: "Konzentriert die Bemühungen auf Niger"
-NFA_Integrate_Niger: "Integriert Niger in die Französische Union"
-NFA_Focus_On_Chad: "Konzentriert die Bemühungen auf Tschad"
-NFA_Integrate_Chad: "Integriert Tschad in die Französische Union"
-NFA_Focus_On_Dahomey: "Konzentriert die Bemühungen auf Dahomey"
-NFA_Integrate_Dahomey: "Integriert Dahomey in die Französische Union"
 
 NFA_transahara_cat: "Trans-Sahara Eisenbahn"
 NFA_transahara_cat_desc: "Was von Frankreich übrig bleibt, ist effektiv in zwei Teile geteilt. Algerien und Tunesien sind durch die riesige Weite der Sahara von Französisch-Westafrika isoliert. Eine Reise zu Fuß dauert über zwei Monate festen Marsches. Das ist inakzeptabel!\n\nWährend wir im Moment Nachschub, Männer und Ressourcen über den Atlantik verschiffen können, würde dieses Arrangement schwierig bis unmöglich werden, wenn ein zukünftiger Feind den Atlantik stark patrouillieren oder, noch schlimmer, die Straße von Gibraltar für unsere Schiffe sperren würde. Wir dürfen nicht zulassen, dass jemand unseren derzeitigen Zustand ausnutzt! Wenn wir dieses Projekt abschließen, können wir der Welt auch zeigen, dass Frankreich immer noch auf Augenhöhe mit den großen Nationen der Welt ist und respektiert wird."
@@ -432,8 +416,6 @@ NATFRA_Strong_Hand_idea: "Eine starke Hand"
 NATFRA_Class_Collab_idea: "Zusammenarbeit der Klassen"
 NATFRA_Chantiers_de_Jeunesse_idea: "Chantiers de Jeunesse"
 NATFRA_Travail_Famille_Patrie_idea: "Arbeit, Familie, Land"
-
-NATFRA_TFP_Swap_tt: "Ersetzet §YWohnprogramme§!, §YZusammenarbeit der Klassen§! and §YFranzösische Erholung§! mit §YArbeit, Familie, Land§!\nEffektive Änderung:\n$MODIFIER_STABILITY_OFFENSIVE_WAR_FACTOR$: §G+10.00%§!"
 
 #Mordacq/Democracy Military Tree Ideas
 
@@ -858,7 +840,6 @@ NATFRA_Coordinated_Strikes: "Koordinierte Streiks"
 NATFRA_Coordinated_Strikes_desc: "Äußerst effektiv war in den letzten Tagen des Weltkrieges ein konzentrierter kombinierter Angriff von Panzertruppen, Luftunterstützung, Artilleriefeuer, dicht gefolgt von Infanterievorstößen, mit dem der Feind überrascht und neutralisiert wurde, bevor er überhaupt reagieren konnte. Eine neue Generation von Offizieren hat das unglaubliche Potenzial dieser Angriffe verstanden und wird angewiesen, sie voll auszuschöpfen."
 NATFRA_Ineluctable_Advance: "Unvermeidlicher Vorstoß"
 NATFRA_Ineluctable_Advance_desc: "Henri Mordacq hat endlich seine Vision der modernen Kriegsführung durchgesetzt: gepanzerte Einheiten, integrierte Artillerie- und Luftunterstützung und die ewige Macht des französischen Schützen, die gemeinsam daran arbeiten, die Feinde Frankreichs zu vernichten. Nichts wird die Macht der französischen Streitkräfte aufhalten können: Die Rückeroberung der Métropole ist nur eine Frage der Zeit."
-NATFRA_Ineluctable_Advance_tt: "Ersetzt §Y$NATFRA_Logistic_Support_idea$§! und §Y$NATFRA_Coordinated_Strikes_idea$§! durch §Y$NATFRA_Ineluctable_Advance$§!\nEffektive Veränderung:\n§YMotorisierte Infanterie§! $MODIFIER_BREAKTHROUGH$: §G+10%§!\n§YMechanisierte Infanterie§!: $MODIFIER_BREAKTHROUGH$: §G+10%§!\n§YPanzer§!: $MODIFIER_BREAKTHROUGH$: §G+10%§!\n"
 NATFRA_Aeronavale: "L'Aéronavale"
 NATFRA_Aeronavale_desc: "Ein Krieg zur See ist unvermeidlich, da wir mit unseren Verbündeten zuerst die syndikalistische Marinepräsenz im westlichen Mittelmeer loswerden müssen, wenn wir endlich mit der Rückeroberung der Métropole beginnen wollen: Obwohl die derzeitige Doktrin immer größere Schiffe vorsieht, werden wir auch unsere Marinefliegerei ausbauen und Seeflugzeuge sowohl zur Aufklärung als auch zur Bekämpfung feindlicher Schiffe aus der Luft einsetzen."
 NATFRA_War_of_Communications: "Krieg der Kommunikation"
@@ -896,7 +877,6 @@ NATFRA_Mobilise_Every_Man: "Mobilisiert jeden Mann"
 NATFRA_Mobilise_Every_Man_desc: "Frankreich ist eine Nation von Bürgersoldaten, und jeder Mann im Alter von 20 bis 45 Jahren kennt seine Pflicht: Diejenigen, die nicht in kritischen Industrien gebraucht werden, sind im Handumdrehen zum aktiven Dienst bereit. Diese tapferen Männer, allesamt Helden, von denen einige die Schrecken des Weltkriegs gesehen haben, andere zu jung sind, um sich noch an die Schönheit des Festlands zu erinnern, werden bis zum Ende kämpfen, um ihre Landsleute zu befreien."
 NATFRA_Use_Everything: "Verwendet alles"
 NATFRA_Use_Everything_desc: "Mehr, wir brauchen mehr, immer mehr. Mehr Gewehre, mehr Kriegsmaterial, mehr Männer. Alles muss in diese ultimative Anstrengung geworfen werden. Manche mögen das für Verzweiflung halten, aber wir kennen die Wahrheit: Dies ist der Antrieb von Männern, denen ihre Geburtsrechte verweigert wurden. Wie unsere Vorfahren sangen, als sie die Armeen der Tyrannen Europas bekämpften: \"Sachons vaincre ou sachons périr !\" Lasst uns den Sieg erfahren, oder lasst uns untergehen."
-NATFRA_Use_Everything_tt: "Ersetzt §YRessourcenmanagement§! und §YMobilisiert jeden Mann§! durch §YVerwendet alles§!\nEffektive Änderung:\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: §G+5.00%§!\n$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: §G+5.00%§!\nMobilisation Speed: §G+5.00%§!\nResource Gain Efficiency: §G+5.00%§!\n$MODIFIER_PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR$: §G+5.00%§!"
 NATFRA_Firestorm_Doctrine: "Die Feuersturm-Doktrin"
 NATFRA_Firestorm_Doctrine_desc: "Feuerstürme sind eine furchterregende Sache, sie rücken in Sekundenschnelle Hunderte von Metern vor, zerstören alles auf ihrem Weg und lassen nur eine Welt aus Asche zurück. Wenn Frankreich gerettet werden soll, müssen unsere Streitkräfte wie ein Feuersturm auf die kommunardischen Kräfte losgehen, alles in ihrem Kielwasser zerstören, ohne dem Feind eine Sekunde Zeit zu lassen, sich zu sammeln, und alles in ihrem Weg entschlossen zerstören, bis die Métropole befreit ist."
 NATFRA_Rain_of_Shells: "Granatenregen"
@@ -907,7 +887,6 @@ NATFRA_Incineration_idea: "Verbrennung"
 NATFRA_Death_and_Ruin: "Tod und Verderben"
 NATFRA_Death_and_Ruin_desc: "Krieg ist eine Tragödie. Als solcher muss er schnell sein, damit die Orgie der Gewalt relativ begrenzt bleiben kann. Aber wir können es uns nicht leisten, uns in diesen kritischen Zeiten, in denen es um die Rettung Frankreichs geht, von Sentimentalitäten überwältigen zu lassen: Unser Krieg wird schnell sein, weil nichts zurückgehalten wird: Jedes Artilleriesperrfeuer, jedes Bombardement, jede Offensive wird entscheidend sein, egal was es unsere Feinde kostet."
 NATFRA_Death_and_Ruin_idea: "Tod und Verderben"
-NATFRA_Death_and_Ruin_tt: "Ersetzt §YGranatenregen§! und §YVerbrennung§! durch §YTod und Verderben§!\nEffektive Änderung:\n§YGezogene Artillerie§!: Weicher Angriff: §G+10%§!\n§YGezogene Raketenartillerie§! Weicher Angriff: §G+10%§!\n§YMotorisierte Raketenartillerie§!: Weicher Angriff: §G+10%§!\nStrategische Bombardierung: §G+7.5%§!\n"
 
 # Petain/AF Military Tree #
 
@@ -1207,8 +1186,6 @@ NATFRA_Prole_no_More_desc: "Die Revolution von 1789 beraubte unser Volk seiner t
 NATFRA_Integral_Monarch: "Der König hat sie gerettet!"
 NATFRA_Integral_Monarch_desc: "Das wahre Frankreich hat lange unter der Tyrannei seiner Feinde gelitten, seien es nun parasitäre Republikaner oder gottlose Sozialisten. Es bleibt noch viel zu tun, um den Schaden zu beheben, aber die Nation erholt sich endlich unter der fürsorglichen und wachsamen Führung ihres rechtmäßigen Monarchen.\nVive le Roi! Vive la France!"
 
-NATFRA_Integral_Monarch_idea_flip_tt: "Ersetzt §YEin zurückkehrender Monarch, Cercle Proudhon, Wiederherstellung der Provinzparlamente, Erweitert die Camelots,§! und §YDurchsetzung der Sozialdoktrin§! mit §YEin integraler Monarch§!\nEffektive Nettoveränderung:\n$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y-5.0%§!"
-
 # Redressement #
 
 NATFRA_Marshal_Triumph: "Der Marschall triumphiert"
@@ -1235,8 +1212,6 @@ NATFRA_End_State_Meddle: "Beendet die staatliche Einmischung"
 NATFRA_End_State_Meddle_desc: "Unzählige Male hat die französische Republik auf pathetische Weise versucht, sich an der Wirtschaft zu beteiligen, was meistens zu einem peinlichen Scheitern geführt hat: Bürokraten, die kaum je einen richtigen Job hatten, sind einfach nicht versiert in der subtilen Kunst des Profits. Es ist an der Zeit, diese Maskerade zu beenden und die Rolle des Staates auf das zu beschränken, was er am besten kann: die Rechtsstaatlichkeit hochhalten."
 NATFRA_Marshal_Above_Liberty_Below: "Marschall oben, \nFreiheit unten"
 NATFRA_Marshal_Above_Liberty_Below_desc: "Dank der fürsorglichen Führung des Löwen ist Frankreich bereit, vorwärts zu gehen. Es bleibt noch viel zu tun, aber die Franzosen können endlich beruhigt sein, denn sie wissen, dass die klügsten und kompetentesten Köpfe unserer Zeit versammelt sind, um den Schaden, den der Syndikalismus angerichtet hat, rückgängig zu machen und die Fehler der aufgeblähten quasi-sozialistischen Dritten Republik zu vermeiden. Nie wieder wird die Rechtsstaatlichkeit bedroht sein."
-
-NATFRA_Marshal_idea_flip_tt: "Ersetzt §YNationale Wiederbelebung, Neue Politik,§! und §YAdministrative Umstrukturierung§! mit §YEin technokratischer Staat§!\nEffektive Nettoveränderung:\n$MODIFIER_RESEARCH_SPEED_FACTOR$: §G+2.50%§!"
 
 # Democratic #
 
@@ -1389,19 +1364,15 @@ bypass_african_focuses: "Wir sind in die Métropole zurückgekehrt"
 
 NFA_Autonomous_State: "Autonomer Staat"
 NFA_Colonial_Exploitation: "Koloniale Ausbeutung"
-NFA_Colonial_Exploitation_tt: "Ersetzt §HKolonialer Widerstand§! mit §HKoloniale Ausbeutung§!\nEffektive Veränderung:\n$MODIFIER_LOCAL_RESOURCES$: §G+25%§!\n$MODIFIER_LOCAL_FACTORIES$: §G+25%§!\n$MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: §G+50%§!\n$MODIFIER_RESISTANCE_TARGET$: §R+15%§!\n$MODIFIER_RESISTANCE_ACTIVITY_FACTOR$: §R+20%§!"
 NFA_Monaco: "Principality of Monaco"
 NFA_Monaco_desc: "Seit 1297 herrschen die Grimaldi-Fürsten über den Felsen von Monaco. Die kurze Unterbrechung, während der Monaco in die französische Gemeinschaft eingegliedert wurde, ist nun vorbei und Fürst Louis II Grimaldi ist zurück im Fürstenpalast. Es ist nun an der Zeit, dass er die Kasinos wieder eröffnet und Monaco wieder zu einem beliebten Reiseziel macht."
 
 NFA_Foreign_Legion: "Erweitert die Fremdenlegion"
-NFA_Foreign_Legion_tt: "Zusätzliche rekrutierbare Bevölkerung: [?0.05|+%2=]"
 
-NFA_French_West_African_States_tt: "§YFranzösische Westafrikanische Staaten§!"
+NFA_French_West_African_States_tt: "§YFranzösische Westafrikanische Staaten§!:\n Fügt folgende hinzu"
+NFA_French_West_African_States_tt2: "§YFranzösische Westafrikanische Staaten§!"
 
-NFA_Civ_Mission_Effect_tt: "§YFranzösisch-Afrikanische Koloniestaaten§!:\n Fügt Folgendes hinzu:\n    $MODIFIER_RESISTANCE_TARGET$: §R+5.0%§!\n    $MODIFIER_COMPLIANCE_GAIN_ADD$: §G+0.01%§!"
-NFA_Promote_Autonomy_Effect_tt: "§YFranzösisch-Afrikanische Koloniestaaten§!:\n Fügt Folgendes hinzu:\n    $MODIFIER_RESISTANCE_TARGET$: §G-10.0%§!\n    $MODIFIER_COMPLIANCE_GAIN_ADD$: §R-0.01%§!"
 NFA_Algiers_Conference_Civ_effect: "Sie können nun §YFranzösisch-Afrikanische Koloniestaaten§! zu §GKernprovinzen§! der Französichen Union machen"
-NFA_Algiers_Conference_AF_effect: "§YFranzösisch-Afrikanische Koloniestaaten§!:\n Entfernt den Modifikator §YKolonialer Widerstand§!\n Deaktiviert den Widerstand und Gehorsam\n Fügt Folgendes hinzu:\n    $MODIFIER_LOCAL_RESOURCES$: §G+15.0%§!\n    $MODIFIER_LOCAL_MANPOWER$: §G+20%§!"
 nfa_africa_civ_mission_in_progress: "Derzeit werden Ressourcen in eine Region in Afrika umgeleitet"
 nfa_transsaharan_rails_tt: "Mit dem §GTrans-Sahara-Eisenbahn§! fertiggestellt, werden wir nun in der Lage sein, Truppen per §CSchiene§! zwischen §YAlgiers§! und §YFranzösisch-Westafrika§! zu verlegen."
 
@@ -2012,7 +1983,8 @@ french_republic_events.156.d: "Die ehemalige französische Marionettenregierung 
 french_republic_events.156.a: "Hurra!"
 
 french_republic_events.157.t: "Die Franzosen fordern ihr Land"
-french_republic_events.157.d: "Nach dem französischen Bürgerkrieg, der nach dem Weltkrieg stattfand, wurde Frankreich in zwei Hälften geteilt. Nun, da der Zweite Weltkrieg hinter uns liegt, sind die Kommunarden besiegt und die reaktionäre [NFA.GetName] ist siegreich. Im Hinblick auf den Wiederaufbau sind sie zu uns gekommen, um über das Schicksal der Besetzung Nordfrankreichs zu sprechen. Sie sind der Meinung, dass Frankreich wieder ganz gemacht werden muss, um einen Zusammenbruch von innen heraus zu verhindern, da sich die ehemaligen Kommunarden gegen eine Regierung auflehnen, die es französischen Bürgern erlaubt, außerhalb des Vaterlandes zu bleiben.\n\nUnser Bündnis mit den Franzosen in der Entente könnte in Frage gestellt werden, wenn wir versuchen, unseren Einfluss auf das französische Land zu behalten!"
+french_republic_events.157.d1: "Nach dem französischen Bürgerkrieg, der nach dem Weltkrieg stattfand, wurde Frankreich in zwei Hälften geteilt. Nun, da der Zweite Weltkrieg hinter uns liegt, sind die Kommunarden besiegt und die reaktionäre [NFA.GetName] ist siegreich. Im Hinblick auf den Wiederaufbau sind sie zu uns gekommen, um über das Schicksal der Besetzung Nordfrankreichs zu sprechen. Sie sind der Meinung, dass Frankreich wieder ganz gemacht werden muss, um einen Zusammenbruch von innen heraus zu verhindern, da sich die ehemaligen Kommunarden gegen eine Regierung auflehnen, die es französischen Bürgern erlaubt, außerhalb des Vaterlandes zu bleiben.\n\nUnser Bündnis mit den Franzosen in der Entente könnte in Frage gestellt werden, wenn wir versuchen, unseren Einfluss auf das französische Land zu behalten!"
+french_republic_events.157.d2: "Nach dem französischen Bürgerkrieg, der auf den Ersten Weltkrieg folgte, war Frankreich in zwei Hälften gespalten. Nun, da der Zweite Weltkrieg hinter uns liegt, sind die Kommunarden besiegt und der Reaktionär [NFA.GetName] steht als Sieger da. Mit Blick auf den Wiederaufbau sind sie zu uns gekommen, um das Schicksal der Besetzung Südfrankreichs zu besprechen. Sie sind der Ansicht, dass Frankreich wieder vereint werden muss, um einen Zusammenbruch von innen heraus zu verhindern, da sich ehemalige Kommunarden gegen eine Regierung auflehnen, die es französischen Bürgern erlaubt, außerhalb der Patrie zu bleiben.\n\nUnser Bündnis mit den Franzosen in der Entente könnte in Frage gestellt werden, wenn wir versuchen, unseren Einfluss auf französischem Boden aufrechtzuerhalten!"
 french_republic_events.157.a: "Frankreich muss wiederhergestellt werden!"
 french_republic_events.157.b: "Wir werden alles außer Dünkirchen übergeben."
 french_republic_events.157.c: "Wir werden das Land behalten!"

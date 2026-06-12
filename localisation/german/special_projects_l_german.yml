@@ -1,5 +1,5 @@
 ﻿l_german:
- ESTABLISHING_PROJECT_STATE: "Gründen" ## Übersetzt von Dave ##
+ ESTABLISHING_PROJECT_STATE: "Gründen"
  INITIAL_RESEARCH_STATE: "Erste Forschung"
  PROTOTYPE_STATE: "Prototyp"
  RESEARCH_COMPLETED: "Forschung abgeschlossen"
@@ -509,7 +509,7 @@
  sp_nuclear_generic_electronics_tech_reward_desc: "Bei der letzten Iteration des Projekts ließen sich wichtige Erkenntnisse gewinnen. Wir hoffen, wir können diese in der Praxis nutzen, um die Forschung in verwandten Bereichen zu beschleunigen."
  sp_nuclear_generic_reward_option_electronics_tech_bonus_name: "Fortschrittliche Elektronikforschung."
  sp_nuclear_war_support_generic_reward: "Öffentliche Unterstützung"
- sp_nuclear_war_support_generic_reward_desc: "Ein erfolgreicher Test und die damit verbundene, streng kontrollierte Medienberichterstattung haben dazu geführt, dass die Öffentlichkeit versteht, wie unerlässlich die Entwicklung einer Art Superwaffe ist, wenn wir unsere Feinde besiegen wollen."
+ sp_nuclear_war_support_generic_reward_desc: "Ein erfolgreicher Test und eine damit verbundene, streng kontrollierte Berichterstattung in den Medien haben in der Öffentlichkeit den Eindruck erweckt, dass wir der Entwicklung einer Art Superwaffe immer näher kommen, mit der sich alle Feinde besiegen lassen."
  sp_nuclear_major_political_interference_generic_reward: "Große politische Einmischung"
  sp_nuclear_major_political_interference_generic_reward_desc: "Das Sonderprojekt „[SpecialProject.GetName]“ wurde von der politischen Führung verstärkt unter die Lupe genommen, was zu Verzögerungen geführt hat und Änderungen in der Projektleitung zur Folge hatte. [Character.GetName] ist außer sich vor Wut. Wir müssen uns mit diesen politischen Herausforderungen auseinandersetzen, um das Projekt auf Kurs zu halten"
  sp_nuclear_major_political_interference_generic_reward_option_keep: "[(Character?.GetName:'CAP_SCIENTIST)] behalten"
@@ -547,7 +547,7 @@
  sp_nuclear_bomb_test_prototype_reward_test_bomb: "Testet sie in einer kontrollierten Umgebung"
  sp_nuclear_bomb_test_prototype_reward_keep_bomb: "Wir können sie gegen unsere Feinde einsetzen"
  sp_nuclear_bomb_espionage_threats_reward: "Spionagebedrohung"
- sp_nuclear_bomb_espionage_threats_reward_desc: "Unsere für die Sicherheit zuständigen Offiziere sind der Auffassung, dass die Sicherheit am Standort des Sonderprojekts „[SpecialProject.GetName]“ und aller damit verbundenen Aktivitäten erhöht werden muss. Die Wissenschaftler, allen voran [Character.GetName], argumentieren jedoch, Bewegungsfreiheit und Kommunikation seien für den Fortschritt unerlässlich."
+ sp_nuclear_bomb_espionage_threats_reward_desc: "Unsere für die Sicherheit zuständigen Offiziere sind der Auffassung, dass die Sicherheit am Standort des Sonderprojekts [SpecialProject.GetName] und aller damit verbundenen Aktivitäten erhöht werden muss. Die Wissenschaftler, allen voran [Character.GetName], argumentieren jedoch, Bewegungsfreiheit und Kommunikation seien für den Fortschritt unerlässlich."
  sp_nuclear_bomb_espionage_threats_reward_no: "Behaltet alles so bei, wie es ist"
  sp_nuclear_bomb_espionage_threats_reward_increase_security: "Erhöht die Sicherheit"
  sp_nuclear_bomb_espionage_threats_reward_increase_security_tt: "Eine Erhöhung der Sicherheit verringert das Risiko von Informationsdiebstahl"

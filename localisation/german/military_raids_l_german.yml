@@ -21,6 +21,7 @@
  tooltip_launch_all_button_second: "$NUM|H$ Überfälle können gestartet werden"
  tooltip_launch_button_enabled: "§GKlicken§!, um den Überfall zu beginnen"
  tooltip_launch_button_disabled: "§RDie Vorbereitungen für den Überfall sind noch nicht abgeschlossen§!"
+ tooltip_launch_button_right_click: "§GRechts-klick§! um §Y$NAME$§! zu finden"
  tooltip_for_expand_button: "Zum Ausklappen §Gklicken§!"
  tooltip_for_collapse_button: "Zum Einklappen §Gklicken§!"
  tooltip_for_no_items: "§RNichts ausgewählt§!"
@@ -67,6 +68,9 @@
  raid_type_commando_facility_raid_desc: "Entsendet eine Gruppe Marineinfanteristen, um einen Forschungsstandort in einer Küstenprovinz zu beschädigen."
  raid_type_airfield_raid: "Flughafenüberfall"
  raid_type_supply_hub_raid: "Nachschubknotenüberfall"
+ raid_type_rescue_captured_general: "Rette den gefangenen Kommandanten"
+ raid_type_rescue_captured_general_desc: "Ein Trupp Soldaten dringt hinter die feindlichen Linien vor, um einen vom Feind gefangengehaltenen Kommandanten aufzuspüren und zu befreien."
+ raid_type_rescue_captured_general_captive_line: "§Y$NAME$§! wird hier gefangen gehalten."
  raid_type_demo_dam_raid: "Demo-Dammbruchüberfall"
  raid_type_thermonuclear_strike: "Wasserstoffbombenangriff"
  raid_type_thermonuclear_strike_desc: "Ein strategischer Bomber und seine Eskorte fliegen zum ausgewählten Ziel, um eine Wasserstoffbombe abzuwerfen. Der Bomber wird anschließend versuchen, aus dem Gebiet zu entkommen, bevor ihn die Druckwelle trifft."
@@ -83,7 +87,7 @@
  raid_type_CHI_hakko_ichiu_bombing: "Bombardierung von Hakko Ichiu"
  raid_type_CHI_hakko_ichiu_bombing_desc: "Indem wir eine Gruppe von Bombern entsenden, um das Symbol des Imperialismus des Feindes anzugreifen, werden wir Japans Schwäche aufzeigen und gleichzeitig die Moral unseres eigenen Volkes stärken."
  raid_type_CHI_great_wall_raid_land: "Große Mauer Infiltrationsangriff"
- raid_type_CHI_great_wall_raid_land_desc: "Die Mauer hat nicht mehr denselben Verteidigungsstatus wie in der Vergangenheit, kann aber einem verschanzten Feind dennoch einen Vorteil verschaffen. Indem wir eine kleine Gruppe von Soldaten einschleusen, die feindlichen Linien infiltrieren und an strategisch günstigen Stellen Sprengsätze zünden, könnten wir ihren Vorteil zunichte machen."
+ raid_type_CHI_great_wall_raid_land_desc: "Die Mauer hat zwar nicht mehr denselben Verteidigungswert wie früher, kann einem verschanzten Feind aber dennoch einen Vorteil verschaffen. Indem wir kleine Gruppen von Soldaten entsenden, können wir die feindlichen Linien durchbrechen und strategisch platzierte Sprengsätze zünden, um diesen Vorteil zunichte zu machen."
  
  raid_type_JAP_pearl_harbor_strike: "Angriff auf Pearl Harbor"
  raid_type_JAP_pearl_harbor_strike_desc: "Indem wir eine Gruppe von Bombern entsenden, um das Hauptquartier der feindlichen Marine und deren Flotte im Pazifik anzugreifen, können wir die Moral unseres Volkes stärken und gleichzeitig der Moral und den maritimen Fähigkeiten unseres Feindes einen schweren Schlag versetzen. Dadurch werden unsere Seestreitkräfte sechs Monate lang ungehindert operieren können!"
@@ -257,6 +261,7 @@
  tooltip_raid_warning_counterplay_header: "§GUm die Chancen einer erfolgreichen Verteidigung zu erhöhen:§!"
  tooltip_raid_success_chance_improvement_header: "§GUm die Chancen eines erfolgreichen Überfalls zu erhöhen:§!"
  tooltip_raid_modifier_effect_improvement: "  §g(derzeitige Auswirkungen: §!$VALUE$/$MAX$§g durch§! $SOURCE$§g)§!"
+ tooltip_raid_modifier_effect_improvement_no_source: "  §g(derzeitige Auswirkungen: §!$VALUE$/$MAX$§g)§!"
  tooltip_raid_warning_success_chance_header: "Chance, den Angriff abzuwehren: $VALUE|H%1$"
 
  # Success chance modifiers
@@ -395,5 +400,6 @@
  raid_target_name_thermonuclear: "$LOCATION|H$"
  raid_target_name_supply_hub: "§H$supply_node$§!"
  raid_target_name_great_wall: "§H$the_great_wall$§!"
+ raid_target_name_state: "$LOCATION|H$"
 
  raid_tooltip_trigger_title: "$TITLE|H$:"
