@@ -482,11 +482,11 @@
  JAP_influence_china_tt: "Diese Entscheidungen werden vorrangig darauf abzielen, verbündete Kriegsherren zu bewaffnen, damit sie als unsere Stellvertreter in China fungieren, und es uns ermöglichen, §junseren Einfluss§! in §Y[FNG.GetName]§! zu vergrößern."
  JAP_no_training_help: "hat Japans Hilfe abgelehnt"
  JAP_sow_chaos_tt_1: "Diese Entscheidungen werden es uns ermöglichen, nicht-han-chinesische Staaten in ihren Kriegen gegen China zu unterstützen."
- JAP_sow_chaos_tt_2: "Dieser Fokus verbessert den §YNationalgeist§!, der im Fokus §YKontinentale Kriegsführung§! gegeben wird, indem er §G15%§! mehr Angriff gegen §Yalle chinesischen Länder§! gewährt und ihn doppelt so lange dauern lässt."
+ JAP_sow_chaos_tt_2: "Dieser Schwerpunkt verbessert den im Schwerpunkt §YKontinentalkrieg§! gewährten §YNationalgeist§!, indem er §G5 %§! mehr Angriffskraft gegen §Yalle chinesischen Länder§!, §G5 %§! mehr Angriffskraft gegen §Ykleinere Länder§! gewährt und seine Wirkungsdauer verdoppelt."
  JAP_victory_with_vision_tt: "Die durch den Nationalgeist von §YMantetsu Gewinne§! erzielten Effekte werden §Gverdoppelt§! werden."
  JAP_returns_land: "§Japan wird jedes Land zurückgeben, auf das wir Anspruch erheben und das sie nicht besitzen!\n"
- JAP_no_ichigo_tooltip: "Angriffsbonus gegen §H$all_chinese_countries_tt$§!: [?0.15|+=%1]"
- JAP_ichigo_tooltip: "Angriffsbonus gegen §H$all_chinese_countries_tt$§!: [?0.25|+=%1]"
+ JAP_no_ichigo_tooltip: "Angriffsbonus gegen §H$all_chinese_countries_tt$§!: [?0.10|+=%1]"
+ JAP_ichigo_tooltip: "Angriffsbonus gegen §H$all_chinese_countries_tt$§!: [?0.15|+=%1]"
  
  chinese_tag_must_agree: "[From.GetNameDefCap] muss zustimmen, damit dies wirksam wird!\n"
  JAP_you_get_the_mils_back: "Sie bekommen die Fabriken zurück!"
@@ -647,6 +647,8 @@
  JAP_unity_through_peace_desc: "Es ist an der Zeit, dass die gesamte chinesische Nation wieder zusammensteht und nicht von machtgierigen Kriegsherren ausgebeutet wird. Wir werden die Kriegsherren auffordern, zurückzutreten und das Ideal, das sie angeblich anstreben, wirklich zu verwirklichen."
  JAP_peace_effects: "§YJedes chinesische Land, mit dem wir im Krieg sind§!:"
  JAP_finish_off_stragglers: "[FROM.GetNameDef] ausschalten"
+ JAP_campaign_into_frontier: "Kampagne in [FROM.GetNameDef"
+ JAP_campaign_into_frontier_desc: "Nach unserem Sieg in China und dem Eintritt einer verbündeten Regierung in unseren Einflussbereich können wir unsere Aufmerksamkeit nun auf die entlegenen Gebiete ihres einst mächtigen Reiches richten. In der Vergangenheit haben wir versucht, verschiedene abtrünnige Gruppen in diesen Regionen für uns zu gewinnen, doch nun ist die Zeit abgelaufen. Unsere Verbündeten verlangen lautstark die Rückeroberung ihrer verlorenen Gebiete, und wenn [FROM.GetLeader] und seine Bande nicht bereit sind, sich uns friedlich anzuschließen, dann werden wir die aufgehende Sonne tief in die westliche Grenzregion verfolgen!"
  JAP_finish_off_stragglers_desc: "Aus dem einen oder anderen Grund ist es [FROM.GetLeader] und seinen [FROM.GetRulingParty] Kumpanen gelungen, einen Konflikt mit uns zu vermeiden, vielleicht in der Hoffnung, durch Neutralität die Macht zu behalten. Aber China muss unter ordentlichen Autoritäten vereint werden, und wir haben wenig Platz für Nachzügler in unserer neuen Ordnung, und deshalb werden wir dieses letzte Überbleibsel des Warlordismus beseitigen."
 
 ### Mantetsu Projekte ###
@@ -656,6 +658,12 @@
  develop_fengtian: "Entwicklung der Rüstungsindustrie von [FNG.GetNameDef]"
  harbin_chemical_research: "Chemische Forschung in Harbin"
  changchun_industry_investment: "Die Industrieregion Jilin"
+
+### Focus Shortcuts ###
+ JAP_politics_shortcut: "Politische Angelegenheiten"
+ JAP_foreign_policy_shortcut: "Außenpolitik"
+ JAP_military_shortcut: "Militärangelegenheiten"
+ JAP_land_reform_shortcut: "Landreform"
 
 ### Schwerpunkte - Politik - Basis ###
  JAP_NSA_focus: "Das Nationales Sicherheitsgesetz"
@@ -1160,7 +1168,6 @@
  JAP_co_prosperity_member_decisions: "Die japanische Ko-Wohlstandssphäre"
  JAP_co_prosperity_member_decisions_desc: "Bei der Ko-Wohlstandssphäre handelt es sich zum einen um ein Militärbündnis und zum anderen um wirtschaftliche Zusammenarbeit - beide Aspekte werden jedoch von [JAP.GetNameDef] beherrscht, das sich über Ostasien ausbreitet. Die Japaner sind entschlossen, sich gegen das Vordringen des westlichen Imperialismus zu wehren, auch wenn das in gewissem Maße bedeutet, dass sie selbst zu Imperialisten werden."
  JAP_foreign_policy_decisions: "Außenpolitische Entscheidungen"
- JAP_join_rikagaku_kenkyusho: "Beitritt zur Riken Forschung Gruppe"
  JAP_request_nav_advisors: "Marineberater anfordern"
  JAP_withdraw_from_alliance: "Rückzug aus dem Militärbündnis"
  JAP_withdraw_from_alliance_desc: "Wir haben keinen Bedarf mehr an unserem Militärbündnis mit [JAP.GetNameDef]. Wir sollten es jetzt beenden."
@@ -1549,6 +1556,10 @@
  japan_foreign_events.1.t: "Mantetsu meldet Rekordergebnis"
  japan_foreign_events.1.d: "Japan ist seit dem Ende des Russisch-Japanischen Krieges in der Mandschurei präsent, und in den Jahren seither hat sich unser Einfluss in der Region erheblich verstärkt. Die Verhandlungen von Schanghai im Jahr 1928 zwangen die Welt, unser Recht auf "freie Hand in der Mandschurei" anzuerkennen, was unseren Bürgern unter dem wachsamen Auge der Kwantung-Armee grenzenlose Möglichkeiten eröffnete.\n\nUnsere Kontrolle ist jedoch nicht absolut, und die Fengtian-Regierung von Zhang Zuolin ist nicht immer kooperativ. Zu seinem Glück ist unser Wunsch, einen gewinnbringenden Frieden in der Mandschurei zu sichern, nach wie vor vorrangig, ebenso wie unsere Hoffnung, dass seine Regierung eines Tages als Vehikel für unsere größeren chinesischen Ambitionen dienen wird. Aus diesen Gründen ist das Herzstück unserer Bemühungen in der Mandschurei die Südmandschurische Eisenbahngesellschaft, kurz \"Mantetsu\" genannt, die für die Erschließung und Ausbeutung großer Teile der mandschurischen Wirtschaft verantwortlich ist und die Region zu Japans wichtigster Kohle- und Stahlquelle sowie zum Produzenten von mehr als der Hälfte des weltweiten Sojabohnenangebots gemacht hat.\n\nMantetsu hat heute seine bisher höchsten Gewinne bekannt gegeben."
  japan_foreign_events.1.a: "Mantetsu hat heute seine bisher höchsten Gewinne bekannt gegeben."
+
+ japan_foreign_events.2.t: "Eintritt in die $japan_research_name$"
+ japan_foreign_events.2.d: "Das Rikagaku Kenkyūsho ist der wissenschaftliche Zweig der Ko-Wohlstandssphäre. Mit unserem Beitritt zur [ROOT.GetFactionName] wurden wir eingeladen, am $japan_research_name$ teilzunehmen. Dies dürfte dazu beitragen, unsere Forschungskapazitäten zu stärken."
+ japan_foreign_events.2.a: "Wir bedanken uns herzlich für die Einladung."
 
  japan_foreign_events.3.t: "Japan bietet Truppenausbildung an"
  japan_foreign_events.3.d: "Heute ist eine Delegation von [From.GetNameDef] eingetroffen, die uns eine Ausbildung für unsere Streitkräfte anbietet, um uns "auf das erforderliche Niveau" zu bringen. Ein Angebot, das man nur schwer ablehnen kann..."

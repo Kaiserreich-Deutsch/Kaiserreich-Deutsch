@@ -17,16 +17,6 @@
  mitteleuropa_next_election_days: "§Y[?days_to_next_election]§! Tage"
  mitteleuropa_next_election_soon: "§YUnmittelbar§!"
 
- mitteleuropa_small_value: "[?global.MIT_small_value|Y=1]"
- mitteleuropa_medium_value: "[?global.MIT_medium_value|Y=1]"
- mitteleuropa_large_value: "[?global.MIT_large_value|Y=1]"
- mitteleuropa_huge_value: "[?global.MIT_huge_value|Y=1]"
-
- mitteleuropa_small_cost: "[?MIT_small_value_temp|R=1]"
- mitteleuropa_medium_cost: "[?MIT_medium_value_temp|R=1]"
- mitteleuropa_large_cost: "[?MIT_large_value_temp|R=1]"
- mitteleuropa_huge_cost: "[?MIT_huge_value_temp|R=1]"
-
  agenda_score_title: "Agenda Punktestand"
  agenda_score_tooltip: "[!agenda_score_breakdown_button_click]"
 
@@ -46,8 +36,16 @@
  agenda_add_score_desc: "Erhöhung Ihres Agendapunktestandes auf Kosten von £pol_power §YPolitische Macht§!"
  agenda_sub_score_desc: "Wiederherstellung der investierten £pol_power §YPolitische Macht§! auf Kosten der Agendapunkte."
 
- add_score_commands: "§GKlicken§! um [GetMitteleuropaSmallCost] £pol_power auszugeben, um die Punktzahl um [GetMitteleuropaSmallValue] zu erhöhen\n§GStrg + Klicken§! um [GetMitteleuropaMediumCost] £pol_power auszugeben, um die Punktzahl um [GetMitteleuropaMediumValue] zu erhöhen\n§GShift + Klicken§! um [GetMitteleuropaLargeCost] £pol_power auszugeben, um die Punktzahl um [GetMitteleuropaLargeValue] zu erhöhen\n§GStrg + Shift + Klicken§! um [GetMitteleuropaHugeCost] £pol_power auszugeben, um die Punktzahl um [GetMitteleuropaHugeValue] zu erhöhen"
- subtract_score_commands: "§GKlicken§! um [GetMitteleuropaSmallValue] £pol_power wiederherzustellen, wodurch sich die Punktzahl um [GetMitteleuropaSmallCost] reduziert\n§GStrg + Klicken§! zum Wiederherstellen von [GetMitteleuropaMediumValue] £pol_power, Verringerung der Punktzahl um [GetMitteleuropaMediumCost]\n§GShift + Klicken§! zum Wiederherstellen von [GetMitteleuropaLargeValue] £pol_power, Verringerung der Punktzahl um [GetMitteleuropaLargeCost]\n§GStrg + Shift + Klicken§! zur Wiederherstellung von [GetMitteleuropaHugeValue] £pol_power, Reduzierung der Punktzahl um [GetMitteleuropaHugeCost]"
+ add_score_commands: "[!agenda_score_increase_button_click]\n[!agenda_score_increase_button_control_click]\n[!agenda_score_increase_button_shift_click]\n[!agenda_score_increase_button_control_shift_click]"
+ MIT_add_agenda_score_tooltip: "§G[GetMitteleuropaCostHotkey]§! um [?MIT_cost|+=2Y] £pol_power auszugeben und die Punktzahl um [?MIT_value|=0Y] zu erhöhen"
+
+ subtract_score_commands: "[!agenda_score_decrease_button_click]\n[!agenda_score_decrease_button_control_click]\n[!agenda_score_decrease_button_shift_click]\n[!agenda_score_decrease_button_control_shift_click]"
+ MIT_subtract_agenda_score_tooltip: "§G[GetMitteleuropaCostHotkey]§! um [?MIT_cost|+=2Y] £pol_power wiederherzustellen und die Punktzahl um [?MIT_value|=0Y] zu verringern"
+
+ mitteleuropa_cost_hotkey_1: "Klicken"
+ mitteleuropa_cost_hotkey_5: "Ctrl + Klicken"
+ mitteleuropa_cost_hotkey_10: "Shift + Klicken"
+ mitteleuropa_cost_hotkey_50: "Ctrl + Shift + Klicken"
 
  member_entry_title: "§Y[THIS.GetName]§!"
 

@@ -437,6 +437,9 @@ l_german:
  INT_polish_exile_trait: "Polnisches Exil"
  INT_polish_exile_trait_desc: "§LEin Mitglied des polnischen sozialistischen Untergrunds, das gezwungen war, aus Polen zu fliehen, um sich in Sicherheit zu bringen, und das jetzt der Internationalen dient, in der Hoffnung, dass ein sozialistisches Polen entsteht.§!"
 
+ POL_touring_the_frontlines: "Eine Tour an die Front"
+ POL_touring_the_frontlines_desc: "§LMarschall Rydz-Śmigły besucht regelmäßig die Front und trifft sich persönlich mit seinen Untergebenen, was ihm viel Sympathie einbringt.§!"
+
  ###############
  ### Focuses ###
  ###############
@@ -2953,8 +2956,9 @@ l_german:
  poland_events.709.d: "Die Westslawen bilden eine natürliche Gruppe von Völkern mit gemeinsamen Interessen. Zwischen den imperialistischen Großmächten gelegen, hängt ihre Existenz von ihrer Zusammenarbeit ab. Und nach dieser Definition sind die Westslawen nicht nur die Polen, Tschechen und Slowaken. Nein, sie sind der gesamte Kulturraum zwischen deutschem und russischem Druck, zu dem auch der natürliche Verbündete Polens, Litauen, und sogar die Ukraine und Weißrussland gehören, deren nationale Identität von den Russen bedroht ist.\n\nRussland kann unter keinen Umständen zu den slawischen Staaten gezählt werden - es ist eine Bastardisierung von Slawen und byzantophilen Kleinfürsten, deren Kultur der der Mongolen und anderer turanischer Steppenvölker näher steht als alten Kulturzentren wie Krakau oder Prag.\n\nAuch wenn es kurzfristig notwendig sein mag, mit einer der Teilungsmächte verbündet zu sein, so kann die westslawische Sphäre niemals gedeihen, solange sie existiert."
  poland_events.709.a: "Wünschen wir uns, dass dies eines Tages geschieht!"
 
- poland_events.710.t: "$POL_konstanty_rokossowski$ Aufbruch nach Polen"
- poland_events.710.d: "Genosse Rokossowski hat all diese Jahre der Sache der internationalen Befreiung gedient - und schließlich hat sie auch für ihn persönlich Früchte getragen, da ein neuer polnischer sozialistischer Staat aus der Tyrannei der Könige und Kaiser hervorgegangen ist. Er hat darum gebeten, von seinen derzeitigen Aufgaben in den Streitkräften der Internationale entbunden zu werden, um an der polnischen Revolution teilzunehmen. Wir haben nichts dagegen, denn jemand wie Rokossowski, der so loyal und ideologisch ist wie er, würde uns bei der Führung des polnischen Sozialismus gute Dienste leisten, und es ist klar, dass noch viel Blut vergossen werden muss, bevor sich die Polen wirklich frei nennen können."
+ poland_events.710.t: "$POL_konstanty_rokossowski$ Aufbruch nach [FROM.GetNonIdeologyNameDef]"
+ poland_events.710.d1: "Genosse Rokossowski hat all diese Jahre der Sache der internationalen Befreiung gedient - und schließlich hat sie auch für ihn persönlich Früchte getragen, da ein neuer polnischer sozialistischer Staat aus der Tyrannei der Könige und Kaiser hervorgegangen ist. Er hat darum gebeten, von seinen derzeitigen Aufgaben in den Streitkräften der Internationale entbunden zu werden, um an der polnischen Revolution teilzunehmen. Wir haben nichts dagegen, denn jemand wie Rokossowski, der so loyal und ideologisch ist wie er, würde uns bei der Führung des polnischen Sozialismus gute Dienste leisten, und es ist klar, dass noch viel Blut vergossen werden muss, bevor sich die Polen wirklich frei nennen können."
+ poland_events.710.d2: "Genosse Rokossowski hat all die Jahre der Sache der internationalen Befreiung gedient – und der jüngste Erfolg der Russischen Revolution bringt ihn seinem Traum von einem freien polnischen sozialistischen Staat immer näher. Angesichts der jüngsten Einladung Russlands an das Polnische Revolutionskomitee, das derzeit in Paris ansässig ist, nach [FROM.Capital.GetCapitalVictoryPointName] zu kommen, hat er um seine Versetzung gebeten, um einen Aufstand vom Osten her vorzubereiten. Wir haben nichts dagegen, da jemand, der so loyal und ideologisch ist wie Rokossowski, unseren Zielen gut dienen würde, indem er den polnischen Aufstand anführt, und es ist klar, dass viel Blut vergossen werden muss, bevor sich die Polen als wahrhaft frei bezeichnen können."
  poland_events.710.a: "Leb wohl, Kamerad."
 
 #Socialist Russia
