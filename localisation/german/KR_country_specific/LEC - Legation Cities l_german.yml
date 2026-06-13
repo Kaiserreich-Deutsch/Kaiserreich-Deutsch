@@ -619,6 +619,13 @@ LEC_belgium_vote: "Entfernen von [BEL.GetNameDef] aus dem Gesandtschaftsrat"
 LEC_country_intro_background: "GFX_LEC_intro"
 LEC_country_intro_header: "$legation_cities_events.1.t$"
 LEC_country_intro_content: "$legation_cities_events.1.d$"
+
+ LEC_country_intro_header_1: "$CHN_country_intro_header_1$"
+ LEC_country_intro_content_1: "$CHN_country_intro_content_1$"
+
+ LEC_country_intro_header_2: "$CHN_country_intro_header_2$"
+ LEC_country_intro_content_2: "$CHN_country_intro_content_2$"
+
 LEC_guide: "§MWerkzeug des Westens§! ($paternal_autocrat_coloured$)\n£white_dot Sobald der amerikanische Bürgerkrieg beginnt, sollen die Deutschen Teil des Rates sein und mehr als 18% Unterstützung für die Partei §POstchina Direktorium§! haben und sich dafür entscheiden, die Deutschen für das Amt des Oberkommissars zu wählen.\n\n§MTor zum Osten§! (§nNationaler Populist§!)\n£white_dot Lassen Sie die Japaner Teil des Rates sein und über 18% Unterstützung für die Partei §nDie China-Agentur§! haben und entscheiden Sie sich, die Japaner für das Amt des Oberkommissars zu wählen.\n\n§MAmerikanische Herrschaft§! ($market_liberal_coloured$)\n£white_dot Choose to elect the Americans for the high commissariat position (this option will always be available).\n\n§MBritische Herrschaft§! ($social_conservative_coloured$)\n£white_dot Ignorieren Sie die britischen Forderungen bezüglich des Shanghai-Zentrismus.\n£white_dot Ein Ereignis über die Ernennung eines neuen Konsuls in Shanghai oder eines neuen Gouverneurs in Hongkong durch die Briten sollte eingetreten sein, bevor die Entscheidung zur Ernennung des neuen Kommissars angeklickt wird, andernfalls wird die Option zur Ernennung der Briten nicht angezeigt.\n£white_dot Nachdem die vorherige Bedingung erfüllt wurde, müssen Sie mehr als 18 % Unterstützung für die Partei §cDer Hong Kong Club§! erhalten und sich dafür entscheiden, die Briten für das Amt des Oberkommissars zu wählen.\n\n§MZusammenbruch§! - §MDeutsche Marionette§! / §MJapanische Marionette§! ($authoritarian_democrat_coloured$)\n£white_dot Lassen Sie die Währungsreserven den Mindeststand erreichen und lassen Sie die Mission \"Drohender Zusammenbruch\" zu Ende gehen, dies wird zu einem Zusammenbruch der Städte führen und wir fallen entweder in die deutsche oder japanische Sphäre, je nachdem, wer in den Scharmützeln in Shanghai siegreich ist."
 
 ### Events ###
@@ -1490,7 +1497,7 @@ legation_cities_british_events.20.d: "Unsere Agenten sind aus dem Haus von Gouve
 legation_cities_british_events.20.a: "Vielen Dank für Ihre Zeit, Sir."
 
 legation_cities_british_events.25.t: "Australasien demokratisiert"
-legation_cities_british_events.25.d: "Die Australasiatische Konföderation wird seit zwölf Jahren von der autoritären Hand des Generalgouverneurs Birdwood regiert. Nun aber scheint die Krone die Durchführung von Neuwahlen zu gestatten. Es ist unwahrscheinlich, dass Radikale, selbst wenn sie gewählt werden, lange bleiben dürfen, und so hat diese Nachricht den Briten einige Unterstützung in den Städten eingebracht."
+legation_cities_british_events.25.d: "Das Commonwealth von Australasien wird seit zwölf Jahren von der autoritären Hand des Generalgouverneurs Birdwood regiert. Nun aber scheint die Krone die Durchführung von Neuwahlen zu gestatten. Es ist unwahrscheinlich, dass Radikale, selbst wenn sie gewählt werden, lange bleiben dürfen, und so hat diese Nachricht den Briten einige Unterstützung in den Städten eingebracht."
 legation_cities_british_events.25.a: "Stabilität ist gut fürs Geschäft."
 
 legation_cities_british_events.26.t: "Australasien fällt an Radikale"
@@ -1691,11 +1698,11 @@ legation_cities_american_events.2.d: "Als eine Institution, die stark von der am
 legation_cities_american_events.2.a: "Hoffentlich brauchen wir sie nicht."
 
 legation_cities_american_events.3.t: "Floyd Olson wird zum Präsidenten der Vereinigten Staaten gewählt"
-legation_cities_american_events.3.d: "Als eine Institution, die stark von der amerikanischen Machtprojektion in Ostasien abhängig ist, hängt die Zukunft der Gesandtschaftsstädte von den Launen dieser Macht ab. Die Wahl von 1936 hat ein seltsames Ergebnis gebracht, die Wahl des progressiven Floyd Olson auf einem Wahlzettel der Nationalen Einheit. Es scheint, dass sich die Republikanische und die Demokratische Partei in der Hoffnung, die amerikanische Demokratie zu bewahren, vorübergehend zusammengeschlossen haben, um die radikale Bedrohung zu besiegen. Obwohl der Schwerpunkt der nationalen Einheitspartei auf innerer Stabilität und nicht auf Diplomatie oder Machtprojektion liegt, hat genau dieser Schwerpunkt viele Investoren in den Städten davon überzeugt, dass die Amerikaner für die nächsten Jahre eine stabilisierende Präsenz bleiben werden."
+legation_cities_american_events.3.d: "Als Institution, die in hohem Maße von der Machtprojektion der USA in Ostasien abhängig ist, hängt die Zukunft der Gesandtschaftsstädte von den Launen dieser Macht ab. Die Wahl von 1936 hat ein seltsames Ergebnis hervorgebracht: die Wahl des Progressiven Floyd Olson. Es scheint, als hätten sich die Republikanische und die Demokratische Partei in der Hoffnung, die amerikanische Demokratie zu bewahren, vorübergehend zusammengeschlossen, um die radikale Bedrohung abzuwehren. Während der Fokus der etablierten Parteien auf innerer Stabilität und nicht auf Diplomatie oder Machtprojektion liegt, hat genau dieser Fokus viele Investoren in den Legationsstädten davon überzeugt, dass die Amerikaner auch in den kommenden Jahren eine stabilisierende Kraft bleiben werden."
 legation_cities_american_events.3.a: "Ich hoffe, sie haben Recht..."
 
-legation_cities_american_events.4.t: "John Nance Garner wird zum Präsidenten der Vereinigten Staaten gewählt"
-legation_cities_american_events.4.d: "Als eine Institution, die stark von der amerikanischen Machtprojektion in Ostasien abhängig ist, hängt die Zukunft der Gesandtschaftsstädte von den Launen dieser Macht ab. Nach der jüngsten Wahl des demokratischen Kandidaten John Nance Garner zum künftigen zweiunddreißigsten Präsidenten der Vereinigten Staaten ist das öffentliche Vertrauen in die Gesandtschaftsstädte gestiegen, da der konservative Texaner Garner die Gesandtschaftsstädte als notwendiges Instrument zur Sicherung des Friedens im Fernen Osten zu unterstützen scheint."
+legation_cities_american_events.4.t: "Borah wird zum Präsidenten der Vereinigten Staaten gewählt"
+legation_cities_american_events.4.d: "Als eine Institution, die stark von der amerikanischen Machtprojektion in Ostasien abhängig ist, hängt die Zukunft der Gesandtschaftsstädte von den Launen dieser Macht ab. Nach der kürzlichen Wahl des republikanischen Kandidaten Borah zum künftigen zweiunddreißigsten Präsidenten der Vereinigten Staaten ist das Vertrauen der Öffentlichkeit in die Legationsstädte gestiegen, da Borah die Legationsstädte offenbar als notwendiges Instrument zur Sicherung des Friedens im Fernen Osten unterstützen wird."
 legation_cities_american_events.4.a: "Unsere Aussichten sind gut."
 
 legation_cities_american_events.5.t: "Alf Landon wird zum Präsidenten der Vereinigten Staaten gewählt"
