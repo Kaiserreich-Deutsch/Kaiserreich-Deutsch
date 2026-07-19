@@ -1,6 +1,6 @@
 ﻿l_german:
 ###  Übersetzt von Proho  ###
-albanian_focus: "Schwerpunktbaum von Albanien"
+ albanian_focus: "Schwerpunktbaum von Albanien"
 
 ### Bookmark ###
  ALB_KR_gathering_storm_desc: "Nach dem Ersten Weltkrieg stellten die Mittelmächte Albanien als Fürstentum unter Wilhelm zu Wied wieder her, doch 1924 kam es zu einer Revolution, in deren Folge der Fürst abgesetzt wurde. Seitdem dominiert die von Shefqet Vërlaci geführte Fortschrittspartei die politische Szene, was vor allem auf ihre Verbindungen zum Adel des Landes zurückzuführen ist. Sollte der Status quo ins Wanken geraten, könnte ihre Macht sehr wohl zusammenbrechen."
@@ -96,7 +96,12 @@ albanian_focus: "Schwerpunktbaum von Albanien"
  albania_events.30.t: "Die albanischen Wahlen von [GetYear]"
  albania_events.30.d: "Die albanischen Wahlen von [GetYear] haben endlich begonnen, die Menschen sitzen auf der Kante ihrer Sitze, begierig darauf, den Sieger der Wahlen zu sehen. As usual, the two parties with the best chance of winning are the Social Democratic [ALB_social_democrat_party_name] and the Social Conservative [ALB_social_conservative_party_name]. Die Stimmen wurden offiziell gezählt und der Gewinner steht fest..."
  albania_events.30.a: "Die Einheitspartei!"
- albania_events.30.b: "Die Progressive Partei!"
+ albania_events.30.b: "Die [ALB_social_conservative_party_name]!"
+ ALB_socdem_party_noli: "Sozialdemokratische Partei"
+ ALB_socdem_party_rustemi: "Einheitspartei"
+ ALB_soccon_party_zogu: "Republikanische Partei"
+ ALB_soccon_party_verlaci: "Progressive Partei"
+
  albania_events.31.t: "Die[ALB_social_democrat_party_name]"
  albania_events.31.d: "Es gibt Nachrichten über eine albanische Delegation, die offenbar ein Bündnis mit uns anstrebt. Während wir als erste Nation während des Weltkrieges ihre Unabhängigkeit anerkannt haben, ist Albanien keine Nation, die stark genug ist, uns bei möglichen Konflikten zu helfen. Es bleibt jedoch die Tatsache, dass jede Hilfe zu unseren Gunsten sich als eine kluge Wahl erweisen könnte. Was sagen wir?"
  albania_events.31.a: "Nehmt das Angebot an; wir könnten die Hilfe gebrauchen."
@@ -164,7 +169,7 @@ albanian_focus: "Schwerpunktbaum von Albanien"
 
  albania_events.50.t: "Sabotage gegen österreichische Firmen"
  albania_events.50.d: "Albanische Nationalisten und Anti-Österreicher sabotieren neue österreichische Firmen, die begonnen haben, lokale Niederlassungen in Albanien zu gründen, um ausländische Unternehmen zu vertreiben. Das verheißt nichts Gutes für uns."
-albnaia.50.a: "Wir müssen angesichts der Zerstörung standhaft bleiben."
+ albnaia.50.a: "Wir müssen angesichts der Zerstörung standhaft bleiben."
 
  albania_events.51.t: "Deutsche Schulen zeigen Fortschritt"
  albania_events.51.d: "Aufgrund unserer Politik, deutsche Schulen zu gründen und zu betreiben, müssen wir sicherstellen, dass die Bildung in Albanien, insbesondere in Bezug auf den Besuch dieser Schulen, obligatorisch ist, und wir haben es geschafft, die Analphabetenrate um ein Vielfaches zu senken. Dies wird uns natürlich in unseren Bemühungen sehr helfen, indem es dazu beiträgt, eine besser gebildete und loyale Bevölkerung hervorzubringen."
