@@ -340,10 +340,10 @@
  belgrade_pact_events.205.d: "Heute hat sich eine Schar von Diplomaten, Generälen, Beobachtern und Politikern in Belgrad versammelt, um die Eröffnungszeremonie des Zweiten Belgrader Kongresses miterleben zu können. In einer kurzen Ansprache dankte der Premierminister allen Gesandten dafür, dass sie heute hier erschienen sind und hat daraufhin auf unseren baldigen Sieg über unsere gemeinsamen Feinde in Wien angestoßen, welcher laut ihm unausweichlich ist. Morgen beginnen die Verhandlungen, wem welches Land zugesprochen wird und welche Ansprüche durchgesetzt werden können, heute wird jedoch erst einmal dieses nur selten erreichte Level der internationalen Einigkeit gefeiert!"
  belgrade_pact_events.205.a: "Möge der Kongress beginnen!"
 
- CongressMembers_Pact_minus_one: "[?SER_attending_congress^0.GetNameDef]"
- CongressMembers_Pact: "[?SER_attending_congress^0.GetNameDef] und [?SER_attending_congress^1.GetNameDef]"
- CongressMembers_Pact_plus_one: "[?SER_attending_congress^0.GetNameDef], [?SER_attending_congress^1.GetNameDef] und [?SER_attending_congress^2.GetNameDef]"
- CongressMembers_Pact_plus_two: "[?SER_attending_congress^0.GetNameDef], [?SER_attending_congress^1.GetNameDef], [?SER_attending_congress^2.GetNameDef] und [?SER_attending_congress^3.GetNameDef]"
+ CongressMembers_Pact_1: "[?SER_attending_congress^0.GetNameDef]"
+ CongressMembers_Pact_2: "[?SER_attending_congress^0.GetNameDef] und [?SER_attending_congress^1.GetNameDef]"
+ CongressMembers_Pact_3: "[?SER_attending_congress^0.GetNameDef], [?SER_attending_congress^1.GetNameDef] und [?SER_attending_congress^2.GetNameDef]"
+ CongressMembers_Pact_4: "[?SER_attending_congress^0.GetNameDef], [?SER_attending_congress^1.GetNameDef], [?SER_attending_congress^2.GetNameDef] und [?SER_attending_congress^3.GetNameDef]"
 
  belgrade_pact_events.206.t: "Die Entscheidung des Ziels"
  belgrade_pact_events.206.d: "Wir haben zwar alle ein gemeinsames Ziel, jedoch gibt es mehrere Wege, auf denen man unser Land zurückfordern kann. Die radikaleren Gesandten verlangen, die Österreicher mittels eines Krieges für ihre Taten während des Weltkrieges büßen zu lassen. Viele andere Gesandte sind jedoch der Meinung, man sollte es zuerst mit Diplomatie versuchen, in der Hoffnung, mit Wien verhandeln zu können, statt zahlreiche Leben sinnlos zu verlieren. Obwohl Diplomatie in vielerlei Hinsicht vorteilhaft wäre, ist es unwahrscheinlich, dass die Österreicher bereit sind, mit uns zu verhandeln. Letztendlich haben die serbischen Gesandten das letzte Wort darin, wie wir in dieser Angelegenheit verfahren sollten und nach mehreren Besprechungen kommen sie zurück zum Kongress, um diesem ihre Entscheidung mitzuteilen."

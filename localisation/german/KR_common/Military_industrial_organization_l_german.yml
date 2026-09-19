@@ -337,11 +337,11 @@
  KR_available_mio_tt: "$available_mio_tt$\n$MIO$ ($TYPE|H$)"
  KR_unavailable_mio_tt: "$unavailable_mio_tt$\n$MIO$ ($TYPE|H$)"
 
- KR_mio_trait_mutually_exclusive_with: "§gMutually exclusive with $TRAIT_1|H$ and $TRAIT_2|H$§!"
+ KR_mio_trait_mutually_exclusive_with: "§gSchließt sich gegenseitig aus mit $TRAIT_1|H$ und $TRAIT_2|H$§!"
 
- KR_mio_has_completed_trait: "£GFX_trigger_yes §gHas completed trait $TRAIT|Y$§!"
- KR_mio_has_completed_trait_NOT: "£GFX_trigger_no §gHas completed trait $TRAIT|Y$§!"
- KR_mio_has_completed_trait_2: "£GFX_trigger_yes §gHas completed trait $TRAIT_1|Y$ or trait $TRAIT_2|Y$§!"
- KR_mio_has_completed_trait_2_NOT: "£GFX_trigger_no §gHas completed trait $TRAIT_1|Y$ or trait $TRAIT_2|Y$§!"
+ KR_mio_has_completed_trait: "£GFX_trigger_yes §gHat die Eigenschaft $TRAIT|Y$ erfüllt§!"
+ KR_mio_has_completed_trait_NOT: "£GFX_trigger_no §gHat die Eigenschaft $TRAIT|Y$ erfüllt§!"
+ KR_mio_has_completed_trait_2: "£GFX_trigger_yes §gHat die Eigenschaft $TRAIT|Y$ oder $TRAIT_2|Y$ erfüllt§!"
+ KR_mio_has_completed_trait_2_NOT: "£GFX_trigger_no §gHat die Eigenschaft $TRAIT_1|Y$ oder $TRAIT_2|Y$ erfüllt§!"
 
- MIO_more_than_X_funds: "§Y[THIS.GetName]§! has at least $FUNDS$ §YFunds§!"
+ MIO_more_than_X_funds: "§Y[THIS.GetName]§! hat mehr als $RIGHT|0$ §YMittel§!"

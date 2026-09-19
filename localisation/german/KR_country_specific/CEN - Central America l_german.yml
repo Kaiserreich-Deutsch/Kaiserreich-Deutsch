@@ -119,9 +119,9 @@ CEN_found_military_pact: "Gründung der Vorhut des Volkes"
 CEN_found_military_pact_desc: "Die Vorhut des Volkes, die die Mittelamerikaner vor äußeren Bedrohungen schützen soll, soll hier gegründet werden und versucht, der Revolution um jeden Preis zu widerstehen."
 
 CEN_unification_join_faction: "Tretet der [ROOT.CEN_unification_join_faction_title] bei"
-CEN_unification_join_faction_socialist: "[CEN_socialist_leader.GetFactionName]"
-CEN_unification_join_faction_military: "[CEN_military_leader.GetFactionName]"
-CEN_unification_join_faction_liberal: "[CEN_liberal_leader.GetFactionName]"
+CEN_unification_join_faction_socialist: "$faction_revolutionary_front$"
+CEN_unification_join_faction_military: "$faction_peoples_vanguard$"
+CEN_unification_join_faction_liberal: "$faction_liberal_pact$"
 
 CEN_unification_join_faction_desc: "[ROOT.CEN_unification_join_faction_desc]"
 CEN_unification_join_faction_desc_socialist: "Die Revolutionäre Front wurde von Gleichgesinnten gegründet, die sich zusammenschließen wollen, um den Sozialismus nach Mittelamerika zu bringen. Es ist unsere Aufgabe, uns ihr anzuschließen, um unserer Brüder im Ausland willen."
@@ -2099,7 +2099,7 @@ central_america_dictatorship_events.42.d: "Nach einer mehr als einmonatigen Tour
 central_america_dictatorship_events.42.a: "Willkommen zurück!"
 
 central_america_dictatorship_events.43.t: "Die Statue von Jorge Ubico ist fertiggestellt"
-central_america_dictatorship_events.43.d: "Präsident Jorge Ubico, der Held des guatemaltekischen Bürgerkriegs, der Retter Zentralamerikas vor den syndikalistischen Verrätern, wird nun für immer den Präsidentenpalast bewachen. \n\nDer Bau seiner Statue, die den Platz vor dem Palast beherrscht, wurde in Angriff genommen, als die guatemaltekische Flagge noch auf dem Fahnenmast des Palastes wehte, als Mittelamerika noch durch die syndikalistischen Verräter gespalten war. Jetzt jedoch bewacht die schöne Flagge der vereinigten Republik den Eingang des Palastes, alles dank unseres Helden Jorge Ubico. Die Einweihung an diesem schönen Junitag wurde zum Feiertag erklärt, damit alle Arbeiter, Studenten und Intellektuellen Mittelamerikas die Möglichkeit haben, unseren großen Führer zu ehren. Die Menschenmenge, die sich versammelt hat, um die Statue zu sehen, wird auf mehr als zwanzigtausend tapfere Bürger geschätzt, und die republikanische Flagge weht an diesem gesegneten Tag in allen Straßen von Guatemala-Stadt."
+central_america_dictatorship_events.43.d: "Präsident Jorge Ubico, der Held des guatemaltekischen Bürgerkriegs, der Retter Zentralamerikas vor den syndikalistischen Verrätern, wird nun für immer den Präsidentenpalast bewachen. \n\nDer Bau seiner Statue, die den Platz vor dem Palast beherrscht, wurde in Angriff genommen, als die guatemaltekische Flagge noch auf dem Fahnenmast des Palastes wehte, als Mittelamerika noch durch die syndikalistischen Verräter gespalten war. Jetzt jedoch bewacht die schöne Flagge der vereinigten Republik den Eingang des Palastes, alles dank unseres Helden Jorge Ubico. Die Einweihung an diesem schönen [GetMonth]tag wurde zum Feiertag erklärt, damit alle Arbeiter, Studenten und Intellektuellen Mittelamerikas die Möglichkeit haben, unseren großen Führer zu ehren. Die Menschenmenge, die sich versammelt hat, um die Statue zu sehen, wird auf mehr als zwanzigtausend tapfere Bürger geschätzt, und die republikanische Flagge weht an diesem gesegneten Tag in allen Straßen von Guatemala-Stadt."
 central_america_dictatorship_events.43.a: "Eine beeindruckende Statue für einen beeindruckenden Führer."
 
 central_america_dictatorship_events.201.t: "Die Zentralamerikanische Republik bittet um Schutz"
@@ -2506,15 +2506,11 @@ central_america_flavour_events.5.t: "Überschwemmung in San Salvador"
 central_america_flavour_events.5.d: "Aufgrund der jüngsten Wetterverhältnisse und der schlechten Wartung des Abwassersystems von San Salvador kam es in der salvadorianischen Stadt zu Überschwemmungen. Zwar sind keine Todesopfer zu beklagen, doch die Schäden an der Infrastruktur der Stadt sind nach wie vor beträchtlich und es wird einige Zeit dauern, bis die Stadt wieder auf die Beine kommt."
 central_america_flavour_events.5.a: "Eine unglückliche Wendung der Ereignisse."
 
-central_america_flavour_events.6.t: "Ausbruch des Vulkans Paricutín in Michoacán"
-central_america_flavour_events.6.d: "Wir haben heute schlechte Nachrichten aus der Kleinstadt Paricutín erhalten. Der nahe gelegene Vulkan Paracutín ist im Laufe des Nachmittags ausgebrochen, und die Bevölkerung der Kleinstadt ist nun vom Ascheregen bedroht, und unsere Spezialisten bestätigen, dass der Lavastrom die Stadt bei der derzeitigen Geschwindigkeit der Emissionen bedecken wird. Der Präsident [Root.GetLeader] hat die sofortige Evakuierung der Stadt angeordnet, und es wird damit begonnen, sie in die Nähe von Uruapan umzusiedeln. Dies wird jedoch Zeit und Mühe kosten, aber es ist ein notwendiger Schritt, um die Sicherheit unserer Bürger vor einer Naturkatastrophe zu gewährleisten."
-central_america_flavour_events.6.a: "Eine unglückliche Wendung der Ereignisse."
-
 central_america_flavour_events.7.t: "Erdbeben erschüttert Guatemala!"
 central_america_flavour_events.7.d: "Um 17:37 Uhr begann in der Nähe der guatemaltekischen Pazifikküste ein Erdbeben der Stärke 7,7 auf der Richterskala. Das Erdbeben hat die Infrastruktur in der Region stark beschädigt, Telegrafenleitungen zum Einsturz gebracht und die Interamerikanische Straße unterbrochen. Auch die Stadt Tecpan wurde schwer beschädigt, wobei fast 60 % der zivilen Wohnhäuser durch das Erdbeben zerstört wurden. Der historische Palacio de los Capitanes Generales in Antigua Guatemala wurde ebenfalls teilweise beschädigt, ebenso wie viele alte Kirchen aus der Kolonialzeit in der Region. Leider sind achtunddreißig Menschen bei diesem tragischen Ereignis ums Leben gekommen, und wir müssen uns nun mit den Folgen einer solch schrecklichen Naturkatastrophe auseinandersetzen."
 central_america_flavour_events.7.a: "Hoffen wir, dass dies nicht der erste Fall von vielen ist."
 
-central_america_flavour_events.8.t: "Gründung des Museo Regional de Arqueología in Copan"
+central_america_flavour_events.8.t: "Gründung des Museo Regional de Arqueología in Copán"
 central_america_flavour_events.8.d: "Heute wurde das Museo Regional de Arqueologia in der Stadt Copán gegründet. Die archäologische Stätte von Copán beherbergt einen der größten erhaltenen architektonischen Komplexe aus der frühen vorklassischen Ära sowie eine der größten Städte der alten Maya-Zivilisation. Die Ausgrabungsstätte wurde 1935 für die Öffentlichkeit geschlossen und hat umfangreiche Restaurierungsarbeiten erfahren, wobei die Akropolis, der Hauptplatz, die "Treppe der Hieroglyphen", die Tempel 11 und 22 sowie die "38 Estelas" und alle Altäre im Mittelpunkt der Restaurierungsarbeiten standen. Mit der Eröffnung des Museums ist die archäologische Stätte wieder für die Öffentlichkeit zugänglich, um die Vergangenheit des präkolumbischen Mittelamerikas zu erkunden."
 central_america_flavour_events.8.a: "Ein weiterer Schritt zur Bewahrung unserer Geschichte."
 
@@ -2539,18 +2535,6 @@ central_america_flavour_events.13.a: "Wir haben gut gewählt und uns gut vorbere
 central_america_flavour_events.14.t: "Ein weiterer Hurrikan trifft die Atlantikküste Nicaraguas"
 central_america_flavour_events.14.d: "An der nicaraguanischen Atlantikküste hat erneut ein Hurrikan gewütet. Der Sturm bildete sich fast aus dem Nichts, und die unvorbereitete Zivilbevölkerung litt unter den Unwägbarkeiten des mittelamerikanischen Wetters. Glücklicherweise zog der Sturm in Richtung des Golfs von Mexiko und berührte die Küste nicht, aber die starken Winde verursachten dennoch einige Schäden an der gesamten mittelamerikanischen Atlantikküste."
 central_america_flavour_events.14.a: "Wir hatten Glück, dass er nicht in unsere Richtung kam."
-
-central_america_flavour_events.15.t: "Paricutín bedroht Santa Ana Zirosto"
-central_america_flavour_events.15.d: "Während der Ausbruch des Paracutín weitergeht, gerät eine weitere Stadt in den Pfad der Zerstörung. Die kleine Stadt Santa Ana Zirosto, die während der Kolonialzeit gegründet wurde, liegt nun auf dem Weg der Lavaemissionen. Die Stadt wurde evakuiert und soll zusammen mit der Bevölkerung des Paricutín in die Nähe von Uruapan umgesiedelt werden."
-central_america_flavour_events.15.a: "Wir können nur hoffen, dass sie sich erholen können."
-
-central_america_flavour_events.16.t: "Paricutín bedroht San Juan Parangaricutiro"
-central_america_flavour_events.16.d: "Unsere Spezialisten versichern uns zwar, dass der Ausbruch des Paricutín sich seinem Ende nähert, aber die Stadt San Juan Parangaricutiro mit ihren fast zweitausend Einwohnern befindet sich nun im Weg der Lava. Glücklicherweise hat der Bürgermeister bereits einen Notfallplan für den Fall ausgearbeitet, dass der Vulkan die Stadt bedroht, aber unsere Hilfe wäre trotzdem sehr willkommen. Die Stadt und ihre Einwohner sollen in das alte Gehöft Conejos umgesiedelt werden, das fast dreißig Kilometer vom ursprünglichen Standort der Stadt entfernt liegt. Präsident [Root.GetLeader] hat den Bürgermeister für seine Weitsicht gelobt, und die Umsiedlungsbemühungen sind bereits im Gange."
-central_america_flavour_events.16.a: "Hoffen wir, dass dies bald endet."
-
-central_america_flavour_events.17.t: "Paricutín hört endlich auf zu explodieren"
-central_america_flavour_events.17.d: "Der Vulkan Paricutín hat endlich aufgehört, Lava auszustoßen, und auch wenn der Vulkan in den kommenden Jahren noch eine Bedrohung für die Bevölkerung in der Nähe darstellen kann, haben wir durch die Evakuierung unserer Zivilbevölkerung eine größere Katastrophe vermieden, auch wenn die Aschewolken noch immer unsere nahe gelegenen Felder und Städte beeinträchtigen können. Die verschütteten Städte sollen als Gedenkstätten für die alten Bewohner eingerichtet werden und werden trotz ihrer Umsiedlung als integraler Bestandteil ihrer Verwaltung betrachtet, so dass sie mit ihren alten Städten machen können, was sie wollen."
-central_america_flavour_events.17.a: "Endlich, endlich ist es vorbei."
 
 central_america_flavour_events.18.t: "Jährliche Feierlichkeiten zum '15 de Septiembre'"
 central_america_flavour_events.18.d: "Heute feiert ganz Mittelamerika den Tag, an dem sich die Delegation von Abgeordneten aus allen ehemaligen spanischen Provinzen im Rathaus von Guatemala-Stadt versammelte und gemeinsam die von Jose Cecilio del Valle verfasste Unabhängigkeitserklärung abfasste, durch die unsere einst fremdbestimmten Länder zu freien Nationen wurden. Während des gesamten Monats September feiert ganz Mittelamerika, jedes mit seinen eigenen Traditionen, und nutzt dabei alle Arten von Unterhaltung, von Paraden und Konzerten bis hin zu öffentlichen Reden von hochrangigen Regierungsvertretern. Heute ist wirklich ein Tag der Einheit für unsere Nationen!"
