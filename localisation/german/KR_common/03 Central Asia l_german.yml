@@ -16,10 +16,7 @@
  CA_available_military_advisor_tt: "§GVerfügbar§! als §YMilitärischer Berater§!:"
  CA_industrial_recovery_unification_by_wire_tt: "§CDie Entscheidungen zur Industrialisierung werden einen kleinen Teil der §m$WAR_SUPPORT$§! ausmachen.§!"
  CA_industrial_recovery_bankroll_local_initiatives_tt: "§CIndustrialisierungsentscheidungen werden allmählich einen kleinen Beitrag zur §m$STABILITY$§! leisten.§!"
- CA_fund_local_initiatives_build_slot_karakum_tt: "§CWenn wir §Y[GetStateName_584]§! besitzen, wenn dieser Schwerpunkt abgeschlossen ist, wird dem Staat ein Bauslot hinzugefügt.§!"
- CA_fund_local_initiatives_build_slot_kyzylkum_tt: "§CWenn wir §Y[GetStateName_712]§ besitzen, wenn dieser Schwerpunkt abgeschlossen ist, wird dem Staat ein Bauslot hinzugefügt.§!"
- CA_fund_local_initiatives_build_slot_pamir_tt: "§CWenn wir §Y[GetStateName_804]§ besitzen, wenn dieser Schwerpunkt abgeschlossen ist, wird dem Staat ein Bauslot hinzugefügt.§!"
- CA_revitalise_the_cities_tt: "\n§CWenn wir nach Abschluss dieses Schwerpunkts sowohl §Y[GetStateName_407]§! als auch §Y[GetStateName_732]§! besitzen, werden beiden Staaten zivile Fabriken hinzugefügt.§!"
+ CA_revitalise_the_cities_tt: "\n§CWenn wir nach Abschluss dieses Schwerpunkts sowohl §Y[407.GetName]§! als auch §Y[732.GetName]§! besitzen, werden beiden Staaten zivile Fabriken hinzugefügt.§!"
 
  CA_prep_intro_tooltip: "§RWir müssen Entscheidungen treffen und Schwerpunkte setzen, um unsere Vorbereitung zu verbessern, bevor ein Konflikt ausbricht!§!"
  CA_prep_tooltip: "£GFX_supply_texticon $RIGHT|0=+$ Vorbereitung"
@@ -31,7 +28,7 @@
  CA_german_aid_threat: "Deutschland interveniert in Zentralasien"
 
  CA_able_to_repair: "§CWir haben den Russischen Ansturm überlebt!§!"
- CA_outlasted_trk_and_khi: "§CWir haben unsere rebellischen Nachbarn überlebt!§!"
+ BUK_CA_able_to_repair: "§CWir haben unsere rebellischen Nachbarn überlebt!§!"
  CA_internal_struggles_concluded: "§CWir haben unsere internen Konflikte beigelegt.§!"
 
  CA_ongoing_project_decision_flag: "Wir haben derzeit ein spezielles Entwicklungsprojekt laufen"

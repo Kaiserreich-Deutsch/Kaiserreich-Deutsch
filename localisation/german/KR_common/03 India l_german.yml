@@ -241,6 +241,11 @@
  india_events.1.e: "Die große Stadt Lahore wird uns gute Dienste leisten."
  india_events.1.d: "Lassen Sie uns dort bleiben, wo wir jetzt sind."
 
+ india_events.8.t: "Ausländische Invasoren besetzen Indien"
+ india_events.8.d: "Es ist zu einer Katastrophe gekommen, denn offenbar hat der Bürgerkrieg es Geiern ermöglicht, einzufallen und rechtmäßiges indianisches Gebiet zu besetzen. Uns bleibt kaum eine andere Wahl, als sie mit Gewalt zu vertreiben, und die Armee wird bereits darauf vorbereitet, diese Offensive durchzuführen."
+ india_events.8.a: "Wir müssen die Eindringlinge vertreiben!"
+ india_events.8.b: "Wir müssen ihnen das Land überlassen."
+
  india_events.10.t: "Die Verwüstung Indiens"
  india_events.10.d: "ndlich ist der Krieg, der vor über einem Jahrzehnt begann, zu Ende, aber dieser Sieg ist alles andere als glorreich. Das Land liegt in Trümmern, Tausende sind tot, die Häuser liegen in Schutt und Asche und das Wenige, was von der indischen Wirtschaft übrig geblieben ist, liegt in Scherben. Schlimmer noch, die Kämpfe sind noch nicht wirklich vorbei, denn viele, die den falschen Regierungen noch immer die Treue halten, weigern sich, ihre Waffen niederzulegen und den neuen Status quo zu akzeptieren. Ein großer Kampf liegt nun hinter uns, aber es ist klar, dass ein neuer großer Kampf begonnen hat, um sich von diesem Konflikt zu erholen."
  india_events.10.a: "Wenigstens ist die Nation wieder vereint, zumindest das, was von ihr übrig ist."
@@ -365,6 +370,25 @@
  india_events.85.d: "Die Regierung [From.GetAdjective] hat eine Botschaft gesandt, in der sie erklärt, dass sie nicht die Absicht hat, uns gegen die Forderungen von [demand_country.GetNameDef] zu verteidigen, da wir das Gebiet ursprünglich mit Gewalt erobert haben. Sie fordert uns nachdrücklich auf, die burmesischen Gebiete wie verlangt zurückzugeben."
  india_events.85.a: "Dann werden wir diese Aggressoren allein bekämpfen!"
  india_events.85.b: "Die umstrittenen Gebiete abtreten."
+
+ india_events.86.t: "Die Rückeroberung der Nordwest-Grenzprovinz"
+ india_events.86.d: "Der Vierte Anglo-Afghanische Krieg wird von vielen als Schandfleck für die Nation angesehen, da die perfiden Afghanen Indien in seiner schwächsten Phase angriffen und ihm Gebiete entrissen. Da die Nation nun wieder weitgehend vereint ist, müssen wir uns mit der Frage der von Afghanistan besetzten Gebiete auseinandersetzen. Die Rückeroberung der Nordwestgrenzprovinz dürfte durch eine militärische Intervention relativ einfach sein, und vielleicht kapitulieren sie sogar kampflos; allerdings ist es unwahrscheinlich, dass die Region unsere Rückeroberung mit offenen Armen empfängt. Es könnte sich einfach lohnen, ihnen das Gebiet zu überlassen, anstatt zu versuchen, ein uns feindlich gesinntes Gebiet wieder zu integrieren."
+ india_events.86.a: "Das Grenzgebiet muss unverzüglich zurückgegeben werden!"
+ india_events.86.b: "Das Gebiet ist wertlos, sollen sie es doch haben."
+
+ india_events.87.t: "Indien fordert das Grenzgebiet"
+ india_events.87.d: "Wie viele befürchtet hatten, hat die Wiedervereinigung Indiens nun endlich dazu geführt, dass die Inder beginnen, sich über unseren Sieg über sie im Vierten Anglo-Afghanischen Krieg zu ärgern. Sie haben eine Reihe von Forderungen übermittelt, in denen sie vor allem darauf drängen, dass wir unsere \"Besetzung\"der Grenze aufgeben und deren Eroberung durch indische Invasoren zulassen."
+ india_events.87.a: "Wir werden keinen einzigen Zentimeter paschtunischen Landes aufgeben."
+ india_events.87.b: "Welche andere Wahl haben wir denn, als uns zu ergeben?"
+
+ india_events.88.t: "Afghanistan zeigt sich unbeeindruckt"
+ india_events.88.d: "Wie erwartet zeigt sich [AFG.Capital.GetCapitalVictoryPointName] weiterhin unnachgiebig und weigert sich, seine Besetzung der Grenzprovinz zu beenden. Es scheint, als bliebe uns nur eine Invasion, wenn wir eine vollständige Wiedervereinigung erreichen wollen."
+ india_events.88.a: "Ihr Stolz wird ihr Verhängnis sein."
+ india_events.88.b: "Weißt du was? Das ist die Mühe nicht wert."
+
+ india_events.89.t: "Afghanistan gibt die Grenzregion zurück"
+ india_events.89.d: "Überraschenderweise hat die Regierung in [AFG.Capital.GetCapitalVictoryPointName] keinen Widerstand geleistet, sondern kapituliert und die Grenzprovinz geräumt. Unsere Truppen sind umgehend in die Region vorgerückt und haben damit den langen Weg zur Wiederherstellung der Ordnung in der Region eingeschlagen."
+ india_events.89.a: "Ach, jetzt bist du nicht mehr so mutig, wo es ein fairer Kampf ist, oder?"
 
 ### Aktuelle Ereignisse ###
  india_events.100.RAJ_title: "Der Sieg des Dominion"
