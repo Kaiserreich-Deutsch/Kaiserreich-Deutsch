@@ -12,6 +12,14 @@
  ANT_ADJ: "Antillen-Guyanaisch"
  ANT_DEF: "Antillen-Guyana"
 
+ ANT_guyane: "Guyana"
+ ANT_guyane_ADJ: "Guyanaisch"
+ ANT_guyane_DEF: "Guyana"
+
+ ANT_antilles: "Antillen"
+ ANT_antilles_ADJ: "Antillisch"
+ ANT_antilles_DEF: "Antillen"
+
  GYA: "Guyana"
  GYA_ADJ: "Guyanaisch"
  GYA_DEF: "Guyana"
@@ -51,6 +59,27 @@
  CUR_national_populist_party: "NF-A"
  CUR_national_populist_party_long: "Nationale Front auf den Antillen"
 
+ ANT_totalist_party: "PCOP-MG"
+ ANT_totalist_party_long: "Parti communiste ouvrier et paysan de la Martinique et Guadeloupe (Kommunistische Arbeiter- und Bauernpartei von Martinique und Guadeloupe)"
+ ANT_syndicalist_party: "$ANT_totalist_party$"
+ ANT_syndicalist_party_long: "$ANT_totalist_party_long$"
+ ANT_radical_socialist_party: "$ANT_totalist_party$"
+ ANT_radical_socialist_party_long: "$ANT_totalist_party_long$"
+ ANT_social_democrat_party: "FSA"
+ ANT_social_democrat_party_long: "Fédération socialiste des Antilles (Sozialistische Föderation der Antillen)"
+ ANT_social_liberal_party: "PR"
+ ANT_social_liberal_party_long: "Parti Radical"
+ ANT_market_liberal_party: "Indépendants"
+ ANT_market_liberal_party_long: "Rassemblement des Indépendants (Kundgebung der Unabhängigen)"
+ ANT_social_conservative_party: "BN"
+ ANT_social_conservative_party_long: "Bloc National (Nationaler Block)"
+ ANT_authoritarian_democrat_party: "ASC"
+ ANT_authoritarian_democrat_party_long: "Association des socialistes coloniaux (Vereinigung der Kolonialsozialisten)"
+ ANT_paternal_autocrat_party: "BN"
+ ANT_paternal_autocrat_party_long: "Bloc National (Nationaler Block)"
+ ANT_national_populist_party: "AC"
+ ANT_national_populist_party_long: "Action Caraïbes (Karibische Aktion)"
+
 ### Charaktere ###
 
  CUR_medardo_de_marchena: "Medardo de Marchena"
@@ -69,5 +98,14 @@
  CUR_corneille_jonckheer_leader_desc: "§YGeboren:§! §Lin Curaçao, der Kolonie Curaçao und ihren Nebengebieten§!"
  CUR_bastiaan_van_der_flier: "Bastiaan van der Flier"
  CUR_bastiaan_van_der_flier_leader_desc: "§YGeboren:§! §Lin Curaçao, der Kolonie Curaçao und ihren Nebengebieten§!"
+
+ ANT_gratien_candace: "Gratien Candace"
+ ANT_gratien_candace_leader_desc: "§YGeboren:§! §L18. Dezember 1873 in Baillif, Kolonie Guadeloupe, Französische Republik§!"
+ ANT_alexis_leger: "Alexis Leger"
+ ANT_alexis_leger_leader_desc: "§YGeboren:§! §L18. Dezember 1897 in Pointe-à-Pitre, Kolonie Guadeloupe, Französische Republik§!"
+ ANT_jacques_foccart: "Jacques Foccart"
+ ANT_jacques_foccart_leader_desc: "§YGeboren:§! §L31. August 1913 in Ambrières-les-Vallées, Mayenne, Französische Republik§!"
+ ANT_jules_marcel_monnerot: "Jules Marcel Monnerot"
+ ANT_jules_marcel_monnerot_leader_desc: "§YGeboren:§! §L28. November 1909 in Fort-de-France, Martinique, Französische Republik§!"
 
 ### Tooltips ###

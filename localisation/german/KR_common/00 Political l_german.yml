@@ -126,6 +126,8 @@ generic_events.76.a: "Großartig!"
 ### At War Notice ###
 has_scripted_peace: "Wir führen Krieg"
 has_scripted_peace_desc: "Das Land befindet sich im Krieg und ist entschlossen, den Sieg zu erringen - obwohl unser Widerstand wahrscheinlich etwas brüchiger ist, als es scheint. (Note: Dies gilt für Kriege, in denen ein geskriptetes Friedensereignis existiert, und es besteht die Möglichkeit, dass das Ereignis ausgelöst wird, lange bevor diese erhöhte Übergabegrenze erreicht wird, nur damit Sie sich dessen bewusst sind.)"
+ has_scripted_peace_2: ""
+ has_scripted_peace_2_desc: "Das Land befindet sich im Krieg und ist entschlossen, den Sieg zu erringen – auch wenn unser Widerstand wahrscheinlich etwas brüchiger ist, als es den Anschein hat. (Hinweis: Dies gilt für Kriege, in denen ein skriptgesteuertes Friedensereignis vorgesehen ist, und es ist wahrscheinlich, dass dieses Ereignis lange bevor diese erhöhte Kapitulationsgrenze erreicht wird, ausgelöst wird – nur damit Sie Bescheid wissen. Dies ist eine weitere Ausprägung desselben Nationalgeistes für den Fall, dass mehrere skriptgesteuerte Friedensereignisse gleichzeitig ausgelöst werden.)"
 
 ### Demobilisation ###
 mobilisation_penalty_modifier: "Über Divisions Limit"
@@ -159,8 +161,9 @@ mobilisation_penalty_modifier: "Über Divisions Limit"
  unit_limit_core_population_desc: "$unit_limit_list_item$Kernbevölkerung: [?core_base|G2=]"
  unit_limit_noncore_population_desc: "$unit_limit_list_item$Nicht-Kernbevölkerung: [?non_core_base|G2=]"
  unit_limit_states_desc: "$unit_limit_list_item$Eigene Staaten: [?num_owned_states|G0=]"
- unit_limit_factories_low_desc: "$unit_limit_list_item$[?factory_delta|R0]/[?factory_cutoff|R0] Fabriken: [?base_factories|R2=]"
- unit_limit_factories_high_desc: "$unit_limit_list_item$[?factory_delta|G0]/[?factory_cutoff|G0] Fabriken: [?base_factories|G2=]"
+ unit_limit_factories_low_desc: "$unit_limit_list_item$[?factory_delta|-0]/[?factory_cutoff|-0] Fabriken: [?base_factories|+=2]"
+ unit_limit_factories_high_desc: "$unit_limit_list_item$[?factory_delta|+0]/[?factory_cutoff|+0] Fabriken: [?base_factories|+=2]"
+ unit_limit_factories_equalised_desc: "$unit_limit_list_item$[?factory_delta|Y0]/[?factory_cutoff|Y0] Fabriken: §HNo change§!"
  unit_limit_subject_bonus_desc: "$unit_limit_list_item$§HUntertanen§!: [?base_subjects|G2=][unit_limit_subject_bonus_breakdown]"
  unit_limit_subject_bonus_breakdown_desc: "$unit_limit_list_item_detailed$[?scope.GetNameWithFlag]: [?scope:divisions_from_subject|G2=][unit_limit_subject_bonus_breakdown]"
  unit_limit_additional_multipliers_desc: "\n\nWeitere Multiplikatoren:"
@@ -174,7 +177,7 @@ unit_limit_faction_leader_desc: "$unit_limit_list_item$Fraktionsführer: [?const
  unit_limit_above_limit_text: "§RWir haben derzeit unsere Kapazitäten überschritten, und die einzige Möglichkeit, die Belastung für unser Land zu verringern, besteht darin, einige unserer Divisionen aufzulösen.§!\n\n$MODIFIER_ARMY_ORG_FACTOR$: [?mobilisation_penalty_var|+=%1]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?mobilisation_penalty_var_positive|=%H1]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?mobilisation_penalty_var|+=%]\n$MODIFIER_TRAINING_TIME_ARMY_FACTOR$: [?mobilisation_penalty_var_positive|-=%]\n$MODIFIER_LAND_REINFORCE_RATE$: [?mobilisation_penalty_var|+=%1]"
 
  unit_limit_breakdown_desc: "[unit_limit_breakdown_desc]"
- unit_limit_breakdown_desc_enabled: "Jedes Land ist nur in der Lage, eine bestimmte Anzahl einzelner militärischer Divisionen zu unterhalten, bevor seine Wirtschaft und seine Infrastruktur damit überfordert sind, diese zu unterhalten.\n\nDie maximale Anzahl der unterstützten Einheiten basiert auf der §YBevölkerung§!, der §YAnzahl der besessenen Staaten§! und der §YAnzahl der Fabriken§! des Landes im Verhältnis zu den beiden erstgenannten Faktoren.\n\nIn §HBürgerkriegen§! werden die Basiswerte aus der Summe aller Staaten berechnet, die allen Teilnehmern gehören."
+ unit_limit_breakdown_desc_enabled: "Jedes Land ist nur in der Lage, eine bestimmte Anzahl einzelner militärischer Divisionen zu unterhalten, bevor seine Wirtschaft und seine Infrastruktur damit überfordert sind, diese zu unterhalten.\n\nDie maximale Anzahl der unterstützten Einheiten basiert auf der §YBevölkerung§!, der §YAnzahl der besessenen Staaten§! und der §YAnzahl der Fabriken§! des Landes im Verhältnis zu den beiden erstgenannten Faktoren.\n\nIn §HBürgerkriegen§! werden die Basiswerte aus der Summe aller Staaten berechnet, die allen Teilnehmern gehören.\n\nArmeehauptquartiere sind stets von der Divisionsgrenze ausgenommen."
  unit_limit_breakdown_desc_disabled: "§HMaximal unterstützte Divisionen§! wurde durch die Spielregeln deaktiviert."
 
 ### Tooltips ###
