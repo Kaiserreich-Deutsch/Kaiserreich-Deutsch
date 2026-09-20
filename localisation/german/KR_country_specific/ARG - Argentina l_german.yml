@@ -520,11 +520,11 @@
  ARG_Vina_Dam_mission_desc: "Um Cordobas Industrialisierungsprozess weiter zu fördern, hat die lokale Verwaltung den Bau einer großen Wasserkraftanlage vorgeschlagen, die nicht nur die sich entwickelnde Industrie der Region mit Strom versorgen, sondern auch die Bewässerung von tausenden Hektar landwirtschaftlicher Fläche, dem wirtschaftlichen Hauptmotor der Provinz, ermöglichen soll. Selbst mit staatlicher Unterstützung wird der Bau Zeit in Anspruch nehmen, aber die Investitionen sollten sich langfristig auszahlen."
 
  ARG_immigration_decisions: "Europäische Einwanderung"
- ARG_immigration_decisions_desc: "Der Zusammenbruch von Nationen in ganz Europa nach dem Weltkrieg und die zunehmenden Spannungen zwischen dem sozialistischen Block der Internationale und dem Rest Europas haben zu einer erhöhten Einwanderung in unsere große Nation geführt. Weitere Krisen auf dem Kontinent könnten diese Zahlen noch weiter steigern und sich als Chance erweisen, unsere Bevölkerung weiter zu vergrößern. Um neue Einwanderer direkt anzuziehen, sollten wir zunächst den lang anhaltenden Bürgerkrieg beenden.\n\nVoraussichtlicher Einwanderungsbericht für [GetYear]: §G[?ARG.arg_im_factor]%§!"
+ ARG_immigration_decisions_desc: "Der Zusammenbruch von Nationen in ganz Europa nach dem Weltkrieg und die zunehmenden Spannungen zwischen dem sozialistischen Block der Internationale und dem Rest Europas haben zu einer erhöhten Einwanderung in unsere große Nation geführt. Weitere Krisen auf dem Kontinent könnten diese Zahlen noch weiter steigern und sich als Chance erweisen, unsere Bevölkerung weiter zu vergrößern. Um neue Einwanderer direkt anzuziehen, sollten wir zunächst den lang anhaltenden Bürgerkrieg beenden.\n\nVoraussichtlicher Einwanderungsbericht für [GetYear]: [?ARG.arg_im_factor|0G%]"
 
  ARG_Attract_Immigrants_decision: "[FROM.GetAdjective] Einwanderer anziehen"
- ARG_add_immigration_tt: "Fügt $RIGHT|Y0%%$ zum §GEinwanderungsfaktor§! hinzu."
- ARG_reduce_immigration: "Entfernt $RIGHT|Y0%%$ vom §GEinwanderungsfaktor§!."
+ ARG_add_immigration_tt: "Fügt $RIGHT|Y0%$ zum §GEinwanderungsfaktor§! hinzu."
+ ARG_reduce_immigration: "Entfernt $RIGHT|Y0%$ vom §GEinwanderungsfaktor§!."
 
  ARG_autarky_decisions: "Streben nach Autarkie"
  ARG_autarky_decisions_desc: "Während die landwirtschaftliche Stärke unserer Nation unbestritten ist, werden viele unserer Rohstoffe und Industrieanlagen aus dem Ausland importiert, wodurch wir von unseren Handelspartnern abhängig sind. Um diese Probleme zu bekämpfen, hat die Regierung Fünfjahrespläne ausgearbeitet, in denen wir unsere Schwerindustrie aufbauen und entwickeln und vor allem unser Stahldefizit beheben werden."
@@ -814,41 +814,10 @@
  argentina_foreign_events.400.b: "Sollen sie nur kommen."
 
 ## Immigration ##
- argentina_immigration_events.1.t: "Einwanderungsbericht 1936"
- argentina_immigration_events.1.d: "Aufgrund des Zusammenbruchs der Weltwirtschaft nach der Katastrophe des Schwarzen Montags und der steigenden Spannungen in ganz Europa haben sich große Teile von Einwanderern entschieden, den Ozean zu überqueren und ihr Glück in unserem Land zu suchen. Da die USA langsam ins Chaos abdriftet, ist es keine Überraschung, dass viele dieser Einwanderer unser Land als ihr primäres Ziel gewählt haben, wo sie, wie in unserer Verfassung vorgeschrieben, frei aufgenommen wurden."
+ argentina_immigration_events.1.t: "Einwanderungsbericht [GetYearBefore]"
+ argentina_immigration_events.1.d1: "Aufgrund des Zusammenbruchs der Weltwirtschaft nach der Katastrophe des Schwarzen Montags und der steigenden Spannungen in ganz Europa haben sich große Teile von Einwanderern entschieden, den Ozean zu überqueren und ihr Glück in unserem Land zu suchen. Da die USA langsam ins Chaos abdriftet, ist es keine Überraschung, dass viele dieser Einwanderer unser Land als ihr primäres Ziel gewählt haben, wo sie, wie in unserer Verfassung vorgeschrieben, frei aufgenommen wurden."
+ argentina_immigration_events.1.d2: "Ein weiteres Jahr ist vergangen, und es wurde eine neue Statistik erstellt, um die Einwanderung in unser Land detailliert darzustellen. Die weltweit zunehmenden Spannungen haben erneut viele Flüchtlinge aus Europa zu uns geführt, wenn auch weniger als im letzten Jahr."
  argentina_immigration_events.1.a: "Willkommen in Argentinien!"
-
- argentina_immigration_events.2.t: "Einwanderungsbericht 1937"
- argentina_immigration_events.2.d: "Aufgrund des Zusammenbruchs der Weltwirtschaft nach der Katastrophe des Schwarzen Montags und der steigenden Spannungen in ganz Europa haben sich große Teile von Einwanderern entschieden, den Ozean zu überqueren und ihr Glück in unserem Land zu suchen. Da die USA langsam ins Chaos abdriftet, ist es keine Überraschung, dass viele dieser Einwanderer unser Land als ihr primäres Ziel gewählt haben, wo sie, wie in unserer Verfassung vorgeschrieben, frei aufgenommen wurden."
- argentina_immigration_events.2.a: "Willkommen in Argentinien!"
-
- argentina_immigration_events.3.t: "Einwanderungsbericht 1938"
- argentina_immigration_events.3.d: "Ein weiteres Jahr ist vergangen und eine weitere Statistik wurde erstellt, um die Einwanderung in unser Land zu erfassen. Steigende Spannungen auf der ganzen Welt haben erneut viele Flüchtlinge aus Europa zu uns gebracht, wenn auch weniger als im letzten Jahr."
- argentina_immigration_events.3.a: "Willkommen in Argentinien!"
-
- argentina_immigration_events.4.t: "Einwanderungsbericht 1939"
- argentina_immigration_events.4.d: "Ein weiteres Jahr ist vergangen und eine weitere Statistik wurde erstellt, um die Einwanderung in unser Land zu erfassen. Steigende Spannungen auf der ganzen Welt haben erneut viele Flüchtlinge aus Europa zu uns gebracht, wenn auch weniger als im letzten Jahr."
- argentina_immigration_events.4.a: "Willkommen in Argentinien!"
-
- argentina_immigration_events.5.t: "Einwanderungsbericht 1940"
- argentina_immigration_events.5.d: "Ein weiteres Jahr ist vergangen und eine neue Statistik wurde erstellt, um die Einwanderung in unsere Nation zu erfassen. Die zunehmenden Spannungen weltweit haben erneut viele Flüchtlinge aus Europa zu uns gebracht, wenn auch weniger als im letzten Jahr."
- argentina_immigration_events.5.a: "Willkommen in Argentinien!"
-
- argentina_immigration_events.6.t: "Einwanderungsbericht 1941"
- argentina_immigration_events.6.d: "Ein weiteres Jahr ist vergangen und eine neue Statistik wurde erstellt, um die Einwanderung in unsere Nation zu erfassen. Die zunehmenden Spannungen weltweit haben erneut viele Flüchtlinge aus Europa zu uns gebracht, wenn auch weniger als im letzten Jahr."
- argentina_immigration_events.6.a: "Willkommen in Argentinien!"
-
- argentina_immigration_events.7.t: "Einwanderungsbericht 1942"
- argentina_immigration_events.7.d: "Ein weiteres Jahr ist vergangen und eine neue Statistik wurde erstellt, um die Einwanderung in unsere Nation zu erfassen. Die zunehmenden Spannungen weltweit haben erneut viele Flüchtlinge aus Europa zu uns gebracht, wenn auch weniger als im letzten Jahr."
- argentina_immigration_events.7.a: "Willkommen in Argentinien!"
-
- argentina_immigration_events.8.t: "Einwanderungsbericht 1943"
- argentina_immigration_events.8.d: "Ein weiteres Jahr ist vergangen und eine neue Statistik wurde erstellt, um die Einwanderung in unsere Nation zu erfassen. Die zunehmenden Spannungen weltweit haben erneut viele Flüchtlinge aus Europa zu uns gebracht, wenn auch weniger als im letzten Jahr."
- argentina_immigration_events.8.a: "Willkommen in Argentinien!"
-
- argentina_immigration_events.9.t: "Einwanderungsbericht 1944"
- argentina_immigration_events.9.d: "Ein weiteres Jahr ist vergangen und eine neue Statistik wurde erstellt, um die Einwanderung in unsere Nation zu erfassen. Die zunehmenden Spannungen weltweit haben erneut viele Flüchtlinge aus Europa zu uns gebracht, wenn auch weniger als im letzten Jahr."
- argentina_immigration_events.9.a: "Willkommen in Argentinien!"
 
 ## Black Monday ##
  argentina_black_monday_events.1.t: "Der Schwarze Montag trifft die Nation"

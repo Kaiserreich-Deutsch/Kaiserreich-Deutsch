@@ -769,7 +769,7 @@
  patagonia_events.29.d: "Die Niederlage des alten Regimes in Buenos Aires hinterließ viele Offiziere verbittert und voller Groll gegenüber unserer glorreichen Revolution. Als Reaktion darauf hat sich eine Gruppe dieser ehemaligen Offiziere, die wir nach unserem Sieg nicht fassen konnten, mit ihren noch loyalen Männern und einem Vorrat an alten Waffen und Artillerie gegen uns mobilisiert und Buenos Aires angegriffen. Wir konnten diese reaktionäre Rebellion zerschlagen, jedoch nicht ohne beträchtliche Verluste an militärischen und zivilen Ressourcen sowie Schäden an einer nahegelegenen Industriefabrik."
  patagonia_events.29.a: "Wann wird das Kämpfen enden?"
 
- patagonia_events.41.t: "Einwanderungsbericht, [GetYear]"
+ patagonia_events.41.t: "Einwanderungsbericht [GetYearBefore]"
  patagonia_events.41.d: "Angesichts der zunehmenden Spannungen in Europa und der Tatsache, dass viele Sozialisten unsere Nation als den perfekten Ort für die Fortsetzung der Revolution sehen, haben sich große Gruppen von Einwanderern entschieden, den Ozean zu überqueren und frei unter dem Sozialismus zu leben."
  patagonia_events.41.a: "Willkommen in Argentinien!"
 
@@ -1448,7 +1448,7 @@
  FOP_naval_bases_dec: "Ausbau der Südatlantischen Marinestützpunkte"
 
  FOP_immigration_decisions: "Sozialistische Einwanderung"
- FOP_immigration_decisions_desc: "Nach der Stabilisierung unserer Nation können wir nun die zunehmende Einwanderung in unser Land nutzen. Viele Sozialisten und Syndikalisten in Europa sehen die Notwendigkeit, ihre Ideologie in der Welt zu verbreiten, und wir sind die erste sozialistische Nation Südamerikas, die die Chance hat, sie über den Kontinent zu verbreiten. Dies gibt uns die Möglichkeit, unsere Bevölkerung weiter zu stärken und zur südamerikanischen Heimat des Sozialismus zu werden.\n\nVoraussichtlicher Einwanderungsbericht für [GetYear]: §G[?FOP.fop_im_factor]%§!"
+ FOP_immigration_decisions_desc: "Nach der Stabilisierung unserer Nation können wir nun die zunehmende Einwanderung in unser Land nutzen. Viele Sozialisten und Syndikalisten in Europa sehen die Notwendigkeit, ihre Ideologie in der Welt zu verbreiten, und wir sind die erste sozialistische Nation Südamerikas, die die Chance hat, sie über den Kontinent zu verbreiten. Dies gibt uns die Möglichkeit, unsere Bevölkerung weiter zu stärken und zur südamerikanischen Heimat des Sozialismus zu werden.\n\nVoraussichtlicher Einwanderungsbericht für [GetYear]: [?FOP.arg_im_factor|0G%]"
  FOP_Attract_Immigrants_decision: "[FROM.GetAdjective] Sozialisten anwerben"
 
  ARG_immigration_dynamic_modifier: "Einwanderung nach Argentina"
@@ -1537,6 +1537,8 @@
  FOP_social_democrat_rename_long: "Unión Democrática"
  FOP_market_liberal_rename: "UD"
  FOP_market_liberal_rename_long: "Unión Democrática"
+ FOP_national_populist_rename: "CA"
+ FOP_national_populist_rename_long: "Corporación Araucana"
 
 ### Cosmetic Tags ###
  FOP: "Argentinien"
@@ -1550,9 +1552,9 @@
  FOP_radical_socialist: "Sozialistische Republik Argentinien"
  FOP_radical_socialist_DEF: "die Sozialistische Republik Argentinien"
 
- FOP_puppet: "Araukanien"
+ FOP_puppet: "Araucanía"
  FOP_puppet_ADJ: "Araukanisch"
- FOP_puppet_DEF: "Araukanien"
+ FOP_puppet_DEF: "das Königreich von Araucanía und Patagonia"
 
  FOP_AND: "Andesien"
  FOP_AND_ADJ: "Andesisch"

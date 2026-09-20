@@ -2112,6 +2112,66 @@
  cuba_events.407.d_2: "In Amerika ist ein Aufstand ausgebrochen und unsere Regierung hat schnell reagiert, indem sie die moralische Rechtschaffenheit der sozialistischen Sache anerkannte, ohne [WCA.GetNameDef] vorerst formell anzuerkennen. Wir haben auch den aggressiven reaktionären [APG.GetNameDef] von Huey Long verurteilt."
  cuba_events.407.a: "Ein geteiltes Haus..."
 
+### News Events
+ cuba_events.500.t: "Vorzeitige Wahlen in Kuba"  # MarLib/SocLib/SocDem
+ cuba_events.500.d.start: "Nach einem Generalstreik in Havanna, der durch den jüngsten wirtschaftlichen Abschwung ausgelöst wurde,"
+ cuba_events.500.d.dem.start: "$cuba_events.500.d.start$ Kubas amtierende Regierung hat es geschafft, die revolutionäre Welle zu überstehen, die viele Länder erfasst hat. Nach einem gescheiterten Militärputschversuch wurden Neuwahlen angesetzt, die transparent sein sollten.\n\nDer Sieger dieser vorgezogenen Wahlen war die"
+ cuba_events.500.d.end: "Die innenpolitische Lage in Kuba hat sich stabilisiert, doch die neu gewählte Regierung wird das Land während ihrer Amtszeit weiterentwickeln und sichern müssen, und die kommenden Jahre sind mit Unsicherheiten behaftet."
+ cuba_events.500.d1: "$cuba_events.500.d.dem.start$ Republikanische Partei unter Miguel Mariano Gómez, die sich dazu verpflichtet hat, gute Beziehungen zur amerikanischen Regierung und zu ausländischen Unternehmen aufrechtzuerhalten.\n\n$cuba_events.500.d.end$" # MarLib
+ cuba_events.500.d2: "$cuba_events.500.d.dem.start$ neue Liberale Partei unter Carlos Céspedes y Quesada, die sich zur Modernisierung und zum Ausbau der staatlichen Kontrolle über die kubanische Zuckerindustrie verpflichtet hat.\n\n$cuba_events.500.d.end$" # SocLib
+ cuba_events.500.d3: "$cuba_events.500.d.dem.start$ Unionistische Partei unter Manuel Bisbe Alberni, die sich dazu verpflichtet hat, das Vermächtnis von Rafael Trejo zu bewahren und sein Engagement für die \"vergessenen Kubaner\" fortzusetzen.\n\n$cuba_events.500.d.end$" # SocDem
+ cuba_events.500.a: "Cuba Libre!"
+ cuba_events.500.b: "Das wird nicht lange so bleiben."
+ cuba_events.500.c: "Sie sind nur einen Schritt von der Revolution entfernt."
+
+ cuba_events.501.t: "Militärregierung in Kuba"  # Diaz
+ cuba_events.501.d.start: "$cuba_events.500.d.start$ die kubanische Nationalarmee hat ihre herausragende Rolle bei der Unterdrückung politischer Opposition genutzt, um sich die Kontrolle über die Hebel der Staatsmacht zu sichern."
+ cuba_events.501.d1: "$cuba_events.501.d.start$\n\nNachdem eine Notstandsaussetzung der Verfassung verhängt worden war, um eine vorübergehende Junta zu legitimieren, $cuba_events.501.d1.end$." # Diaz in through military junta
+ cuba_events.501.d1.end: "Generalmajor Martín Diaz Tamayo ist zum unangefochtenen Drahtzieher dieses Militärregimes geworden. Da das neue Kabinett fast ausschließlich aus Militärangehörigen besteht und bereits amerikanische Delegationen in Kuba empfangen werden, verspricht die Regierung unter Diaz eine Wiederherstellung der Stabilität und des Wirtschaftswachstums in Kuba, um die Wiederaufnahme der Bündnisse mit den Hegemonen aus den USA und Deutschland zu ermöglichen."
+ cuba_events.501.d2: "$cuba_events.501.d.start$\n\nNachdem er durch seinen Einfluss auf die Präsidentengarde den Rücktritt des Präsidenten erzwungen hatte, $cuba_events.501.d1.end$" # Diaz in through presidential guard coup
+ cuba_events.501.d3: "$cuba_events.501.d.start$\n\nBestärkt durch die Aussetzung der bürgerlichen Freiheiten während des Streiks nach der Verabschiedung des Nationalen Schutzgesetzes und der Besetzung wichtiger politischer Ämter mit Verbündeten des Militärs ermöglichte ein plötzlicher Rücktritt dem Senatspräsidenten Martín Diaz Tamayo den Aufstieg ins Präsidentenamt und die Festigung der militärischen Kontrolle. Das Schicksal der kubanischen Demokratie liegt nun in den Händen des Militärs, da die kubanische Verfassung bis zum Ende des sozialistischen Aufstands für außer Kraft gesetzt wurde." # Diaz in through enacting emergency powers (AutDem)
+ cuba_events.501.a: "Stabilität auf der Perle der Karibik."
+ cuba_events.501.b: "Der wahre Geist von Cuba en Armas."
+ cuba_events.501.c: "Eine weitere Nation verfällt der Reaktion."
+
+ cuba_events.502.t: "Nationalistische Regierung in Kuba"  # Autenticos
+ cuba_events.502.d.start: "$cuba_events.500.d.start$ Sowohl Kubas Zivilregierung als auch das Militär erwiesen sich als unfähig, die Revolutionäre in Schach zu halten, die die Hauptstadt rasch besetzten."
+ cuba_events.502.d: "$cuba_events.502.d.start$ Im darauf folgenden Chaos gelang es der Auténticos-Partei jedoch, unterstützt von ihrer paramilitärischen Grünhemden-Miliz, die Spaltung der Sozialisten auszunutzen und die Kontrolle über das Land zu übernehmen.\n\nAls bunte Koalition aus ehemaligen studentischen Reformern, Gewerkschaftern, nationalistischen Politikern und radikalen Paramilitärs sind die \"Auténticos\" lediglich durch ihren Slogan \"Kuba für die Kubaner\" vereint. Die Partei hat rasch versprochen, ausländischen Einfluss zu beseitigen und Wahlen wieder einzuführen, doch ob diese eklektische Partei lange genug überleben wird, um ihre Ziele zu verwirklichen, bleibt ungewiss."
+ cuba_events.502.a: "Kuba verschließt sich der Welt."
+ cuba_events.502.b: "Der authentische Geist Kubas ist allgegenwärtig!"
+ cuba_events.502.c: "Weitere schlechte Nachrichten für die angeschlagene Perle."
+
+ cuba_events.503.t: "Die Revolution in Kuba"  # Socialists - Syndies
+ cuba_events.503.d.start: "$cuba_events.502.d.start$ Obwohl die sozialistische Koalition nach ihrem Sieg schnell zusammenbrach, hat die rote Welle Kuba erfolgreich überrollt."
+ cuba_events.503.d1: "$cuba_events.503.d.start$\n\nNachdem sie einen revolutionären Kongress einberufen hatten, um die neue Regierung zu stabilisieren, haben sich die Trabajadores als führende Kraft des Staates etabliert, politische Parteien verboten und ein Kabinett aus Gewerkschaftern gebildet, um den Übergang zum Sozialismus voranzutreiben."  # There was no attempted coup
+ cuba_events.503.d2: "$cuba_events.503.d1$ Nicht alle sind mit der Herrschaft der Syndikalisten zufrieden, doch nach einem gescheiterten Putsch gibt es nur wenige, die in der Lage sind, diese in Frage zu stellen."  # There was an attempted coup
+ cuba_events.503.d.mid: "$cuba_events.503.d.start$\n\nTrotz Forderungen nach einer Wahl der Führung haben die Trabajadores ein weitgehend machtloses Parlament eingesetzt, da die Macht stattdessen in den Händen von Gewerkschaftsbürokraten und revolutionären Milizen konzentriert ist"
+ cuba_events.503.d3: "$cuba_events.503.d.mid$, während die Opposition zersplittert und machtlos zurückblieb."  # There was no congress and no attempted coup
+ cuba_events.503.d4: "$cuba_events.503.d.mid$. Nach einem gescheiterten Putschversuch der oppositionellen Comunistas wurde in Kuba erneut das Kriegsrecht verhängt."  # There was no congress and an attempted coup
+ cuba_events.503.a: "Weitere schlechte Nachrichten für die angeschlagene Perle."
+ cuba_events.503.b: "Cuba Libre!"
+
+ # Socialists - Totalists
+ cuba_events.504.d1: "$cuba_events.503.d.start$\n\nNachdem er einen Revolutionskongress einberufen hatte, um die neue Regierung zu stabilisieren, traten der ehemalige Exilant Julio Mella und seine Comunistas als führende Kräfte des Staates in Erscheinung. Der gutaussehende und charismatische Mella erfreut sich bereits großer Beliebtheit in der kubanischen Bevölkerung, doch abgesehen von Forderungen nach Industrialisierung bleibt abzuwarten, wie seine politischen Programme konkret aussehen werden."  # There was no attempted coup - Mella in charge
+ cuba_events.504.d2: "$cuba_events.503.d.start$\n\nNachdem er einen Revolutionskongress einberufen hatte, um die neue Regierung zu stabilisieren, traten die Comunistas als führende Kraft des Staates in Erscheinung. Unter der Führung des jungen Streikführers Lázaro Peña González streben die Comunistas einen staatlich gelenkten Weg der sozialen und industriellen Entwicklung an, um Kuba in die Moderne zu katapultieren."  # There was no attempted coup - Mella not in charge
+ cuba_events.504.d3: "$cuba_events.503.d.start$\n\nNachdem er einen Revolutionskongress einberufen hatte, um die neue Regierung zu stabilisieren, erwiesen sich die Trabajadores als die mächtigste Fraktion, doch es kam erneut zu chaotischen Zuständen, als Milizen, die den abtrünnigen Comunistas treu ergeben waren, auf den Präsidentenpalast marschierten. Der ehemalige Exilant Julio Mella wurde von den Milizen zum Anführer ernannt, während viele sich unsicher sind, ob Kuba jemals dem Kreislauf des Blutvergießens entkommen wird."  # There was a successful coup
+ cuba_events.504.d4: "$cuba_events.503.d.start$\n\nTrotz Forderungen nach einer Wahl der Führung versuchten die Trabajadores, das Parlament zu besetzen, wurden jedoch von Milizen zurückgedrängt, die mit den dissidenten Comunistas verbündet sind. Der ehemalige Exilant Julio Mella wurde von den Milizen zum Anführer ernannt, während viele sich weiterhin unsicher sind, ob Kuba jemals dem Kreislauf des Blutvergießens entkommen wird."  # There was no congress
+ cuba_events.504.a: "Die Comunistas wissen, was zu tun ist."
+ cuba_events.504.b: "Diese Kommunisten werden dieses großartige Land ruinieren."
+
+ # Socialists - RadSoc
+ cuba_events.505.d1: "$cuba_events.503.d.start$\n\nNachdem sie einen Revolutionskongress einberufen hatten, um die neue Regierung zu stabilisieren, haben sich die Revolucionarios als führende Kraft des Staates etabliert. Angeführt vom Guerillaführer Juan Blas Hernández werden die Revolucionarios vor allem von den Landarbeitern unterstützt, die einen Großteil der sozialistischen Bewegung ausmachen."  # Totalists are not in coalition
+ cuba_events.505.d2: "$cuba_events.503.d.start$\n\nNach der Einberufung eines Revolutionskongresses zur Stabilisierung der neuen Regierung ist eine unorthodoxe Vereinbarung zur Machtteilung zwischen dem Guerillaführer Juan Blas Hernández von den Revolucionarios und dem ehemaligen Exilanten Julio Mella von den Comunistas zustande gekommen. Angesichts ähnlicher Wirtschaftsprogramme und ihres Engagements für Landarbeiter und afro-kubanische Bürger betonen die beiden Fraktionen, dass eine Zusammenarbeit nur natürlich sei – doch ob dieses Bündnis Bestand haben wird, ist eine andere Frage."  # Totalists are in coalition
+ cuba_events.505.a: "Diese Revolution ist ein einziges Chaos, wie alle anderen auch."
+ cuba_events.505.b: "Die Revolution wird siegen!"
+
+ cuba_events.506.t: "US-unterstützter Staatsstreich in Kuba"  # US coup
+ cuba_events.506.d.start: "Nach einem Generalstreik in Havanna, der durch den jüngsten wirtschaftlichen Abschwung ausgelöst worden war, erwiesen sich sowohl Kubas Zivilregierung als auch das Militär als unfähig, die Revolutionäre in Schach zu halten, die die Hauptstadt rasch besetzten. In dem darauf folgenden Chaos gelang es den Vereinigten Staaten jedoch erneut, die Kontrolle über den Inselstaat zu erlangen, indem sie die Spaltung innerhalb der sozialistischen Bewegung ausnutzten, um einen Staatsstreich zu finanzieren."
+ cuba_events.506.d1: "$cuba_events.506.d.start$\n\nAls Oberbefehlshaber der von den Amerikanern organisierten Streitkräfte ist Generalmajor Martín Diaz Tamayo zum unangefochtenen Drahtzieher dieses Militärregimes geworden. Angesichts eines neuen Kabinetts, das fast ausschließlich aus Militärangehörigen besteht, und einer Reihe von wirtschaftlichen Zugeständnissen, die bereits an ihre Gönner abgetreten wurden, scheint es, dass die Vereinigten Staaten trotz wachsender Instabilität weiterhin die Hegemonialmacht in Amerika bleiben."
+ cuba_events.506.d2: "$cuba_events.506.d.start$\n\nDer ursprüngliche Anführer dieser Militärjunta, Generalmajor Martín Diaz Tamayo, erwies sich als zu unberechenbar, woraufhin US-Marines in Havanna landeten, um eine gefügigere Regierung zu installieren. Unter der Führung von Clemente Vázquez Bello und der Progressiven Partei hat diese bereits eine Reihe wirtschaftlicher Zugeständnisse an ihre Gönner unterzeichnet. Es scheint, dass die Vereinigten Staaten trotz wachsender Instabilität weiterhin die Hegemonialmacht in Amerika bleiben."
+ cuba_events.506.a: "Vierzig Jahre später ist Kuba immer noch nicht wirklich unabhängig."
+ cuba_events.506.b: "Sie müssen auf ihren Onkel Sam hören."
+
 ### Characters ###
  CUB_lazaro_pena_gonzalez: "Lázaro Peña González"
  CUB_lazaro_pena_gonzalez_leader_desc: "§YGeboren:§! §L§L29. Mai 1911, in Havanna, Provinz La Habana, Republik Kuba§!\n§YHintergrund:§! §LDer junge Lázaro Peña folgte Sandalio Junco als völlig unerfahrener Chef der CNOC. Peñas meteorhafter Aufstieg überraschte viele, selbst in Kubas linken Kreisen. Als Befürworter vollständiger Kollektivierung und industrieller Entwicklung trägt Peña das veraltete Label 'Kommunist' mit Stolz. Trotzdem haben die CNOC und ihre Führung, sowohl früher als auch heute, viele Aspekte des europäischen Syndikalismus übernommen und rufen paradoxerweise zur Kultivierung einer stärkeren kubanischen nationalen Identität in einem internationalistischen Kontext auf.§!"
