@@ -131,7 +131,7 @@
 
 ### Research Groups ###
  japan_research_name: "Rikagaku Kenkyūsho"
- japan_research_desc: "Rikagaku Kenkyūsho ist der wissenschaftliche Flügel der Ko-Wohlstandssphäre, der dazu beitragen soll, unsere Kolonien und Verbündeten zu entwickeln."
+ japan_research_desc: "Das Rikagaku Kenkyūsho, kurz RIKEN, ist der wissenschaftliche Zweig der Ko-Wohlstandssphäre, dessen Ziel es ist, zur Bereicherung unserer Kolonien und Verbündeten beizutragen."
 
 ### Ship Name Lists ###
  NAME_THEME_IJN_CARRIERS: "Flugzeugträger"
@@ -638,7 +638,7 @@
  support_chinese_separatists: "Unterstützung von [ From.GetAdjectiveCap] Unabhängigkeit"
  send_ETS_tartar_guy: "Senden Sie Abdurresid Ibrahim zu [ETS.GetName]"
 
- ## Frieden und Versöhnung ##
+### Frieden und Versöhnung ###
  JAP_pan_asianism: "Panasiatische Rhetorik anwenden"
  JAP_pan_asianism_desc: "Jahrelang ist China von den europäischen Mächten rücksichtslos ausgebeutet worden. Im Namen des Panasiatismus und der Brüderlichkeit werden wir die chinesische Entschlossenheit zermürben, indem wir an diese Tatsache appellieren - wenn sie nur ihre Differenzen überwinden, können China und Japan zusammenarbeiten, um einen neuen mächtigen Block zu bilden, der sich dem westlichen Imperialismus entgegenstellen kann."
  JAP_harmony_and_reconciliation: "Harmonie und Versöhnung"
@@ -650,6 +650,10 @@
  JAP_campaign_into_frontier: "Kampagne in [FROM.GetNameDef"
  JAP_campaign_into_frontier_desc: "Nach unserem Sieg in China und dem Eintritt einer verbündeten Regierung in unseren Einflussbereich können wir unsere Aufmerksamkeit nun auf die entlegenen Gebiete ihres einst mächtigen Reiches richten. In der Vergangenheit haben wir versucht, verschiedene abtrünnige Gruppen in diesen Regionen für uns zu gewinnen, doch nun ist die Zeit abgelaufen. Unsere Verbündeten verlangen lautstark die Rückeroberung ihrer verlorenen Gebiete, und wenn [FROM.GetLeader] und seine Bande nicht bereit sind, sich uns friedlich anzuschließen, dann werden wir die aufgehende Sonne tief in die westliche Grenzregion verfolgen!"
  JAP_finish_off_stragglers_desc: "Aus dem einen oder anderen Grund ist es [FROM.GetLeader] und seinen [FROM.GetRulingParty] Kumpanen gelungen, einen Konflikt mit uns zu vermeiden, vielleicht in der Hoffnung, durch Neutralität die Macht zu behalten. Aber China muss unter ordentlichen Autoritäten vereint werden, und wir haben wenig Platz für Nachzügler in unserer neuen Ordnung, und deshalb werden wir dieses letzte Überbleibsel des Warlordismus beseitigen."
+
+### Sieg mit einer Vision ###
+ JAP_take_over_qiongya: "Die militärische Besetzung in Qiongya festigen"
+ JAP_take_over_qiongya_desc: "Dank der strategisch günstigen Lage im Südchinesischen Meer und der unmittelbaren Nähe zum wirtschaftlich bedeutenden Zentrum Guangzhou wird uns die militärische Besetzung von Qiongya ermöglichen, unsere militärische Macht in der Region zur Geltung zu bringen und eine stärkere wirtschaftliche Kontrolle über Südchina auszuüben. Vielleicht wird es uns mit der Zeit durch unsere anhaltende Präsenz auf der Insel gelingen, Qiongya in den Schoß des Imperiums zu integrieren – als würdige Belohnung dafür, dass wir unseren Sieg mit Blut erkauft haben."
 
 ### Mantetsu Projekte ###
  develop_generic_tag: "Entwicklung der Rüstungsindustrie von [From.GetNameDef]"
@@ -1002,7 +1006,7 @@
 
 ### Focuses - Die neue Ordnung ###
  JAP_new_order_in_east_asia: "Neue Ordnung in Ostasien"
- JAP_new_order_in_east_asia_desc: "Da Russland jenseits des Amur keine Bedrohung darstellt und die Amerikaner in einen Bürgerkrieg verwickelt sind, ist die Zeit gekommen, unser Schicksal zu erfüllen. China ist schwach, korrupt und gespalten und muss unter der Führung Japans in das moderne Zeitalter geführt werden. Wenn die Chinesen damit nicht einverstanden sind, müssen wir ihnen einfach eine harte Lektion in Sachen Trotz erteilen."
+ JAP_new_order_in_east_asia_desc: "Da die Amerikaner in einen Bürgerkrieg verwickelt sind, hat die von ihnen vertretene Offene Türenpolitik ein Ende gefunden. China ist schwach, korrupt und gespalten und muss unter unserer Führung in die Moderne geführt werden, um die dauerhafte Stabilität Ostasiens zu gewährleisten. Sollten die Chinesen damit nicht einverstanden sein, müssen wir ihnen einfach eine harte Lektion in Sachen Ungehorsam erteilen."
  JAP_mantetsu_projects: "Mantetsu Projekte"
  JAP_mantetsu_projects_desc: "Mantetsu verwaltet in unserem Auftrag die Eisenbahnen der Mandschurei und Koreas und ist dadurch tief in die Wirtschaft Nordwestchinas eingebunden. Da wir unseren Einfluss auf das Landesinnere und die Küste unseres chinesischen Bevollmächtigten ausdehnen, werden sie sicher immer ehrgeizigere Projekte zur Entwicklung der Region vorschlagen."
  JAP_support_allies: "Verbündete des Kriegsherrn unterstützen"
@@ -1171,8 +1175,11 @@
  JAP_request_nav_advisors: "Marineberater anfordern"
  JAP_withdraw_from_alliance: "Rückzug aus dem Militärbündnis"
  JAP_withdraw_from_alliance_desc: "Wir haben keinen Bedarf mehr an unserem Militärbündnis mit [JAP.GetNameDef]. Wir sollten es jetzt beenden."
- JAP_withdraw_from_sphere: "Rückzug aus dem Wirtschaftsraum"
- JAP_withdraw_from_sphere_desc: "Trotz der Vorteile, die sie uns bietet, gibt unsere Mitgliedschaft im japanischen Wirtschaftsraum Anlass zu Bedenken hinsichtlich unserer Unabhängigkeit. Wir sollten unsere Zusammenarbeit mit den Japanern unverzüglich aufkündigen."
+
+ JAP_withdraw_from_sphere: "[JAP_GetWithdrawFromSphereName]"
+ JAP_withdraw_from_sphere_desc: "[JAP_GetWithdrawFromSphereDesc]"
+ JAP_withdraw_from_sphere_default: "Sich aus der Wirtschaftssphäre zurückziehen"
+ JAP_withdraw_from_sphere_default_desc: "Trotz der Vorteile, die sie uns bietet, gibt unsere Mitgliedschaft im japanischen Wirtschaftsraum Anlass zu Bedenken hinsichtlich unserer Unabhängigkeit. Wir sollten unsere Zusammenarbeit mit den Japanern unverzüglich aufkündigen."
  JAP_nationalize_japanese_investments: "Verstaatlichung japanischer Investitionen"
  JAP_nationalize_japanese_investments_desc: "Die wachsende Präsenz japanischer Investoren in [Root.GetNameDef] gibt Anlass zu großer Sorge. Obwohl der Preis dafür hoch sein wird und wir uns auch vollständig aus der japanischen Wirtschaft zurückziehen müssen, sollten wir ihre Investitionen verstaatlichen und verhindern, dass sie ihre Kontrolle über die Wirtschaft von [Root.GetAdjective] so weit ausdehnen, dass wir nur noch eine Marionette für ihre Interessen werden."
 
@@ -2337,10 +2344,13 @@
  JAP_hyakutake_harukichi_commander_desc: "§YGeboren:§! §L25. Mai 1888, in der Präfektur Saga, Kaiserreich Japan§!"
  JAP_iimura_jo: "Iimura Jō"
  JAP_iimura_jo_commander_desc: "§YGeboren:§! §L20. Mai 1888, in der Präfektur Ibaraki, Kaiserreich Japan§!"
+ JAP_tojo_hideki: "Tōjō Hideki"
+ JAP_tojo_hideki_bio: "Hideki Tōjō stammte aus einer Militärfamilie mit Samurai-Wurzeln und war der dritte und einzige überlebende Sohn eines begabten Generalleutnants der Kaiserlichen Japanischen Armee. Er trat 1904 in die Kaiserliche Japanische Militärakademie ein und schloss sein Studium im folgenden Jahr ab, obwohl er nur zehn Monate lang studiert hatte. Trotz seiner anfänglichen Abneigung gegen das Studium schrieb er sich 1912 nach mehreren gescheiterten Versuchen und wiederholten Überredungsversuchen seines Vaters an der Heereshochschule ein und schloss sein Studium 1915 ab.\n\nEr stieg in den Rängen auf, wurde 1920 zum Major befördert und bekleidete verschiedene Ämter im Kriegsministerium. In dieser Zeit begann er auch, sich mit den \"Drei Musketieren\" – Okamura Yasuji, Tetsuzan Nagata und Toshishiro Obata – zusammenzuschließen, um das \"Mandschurei-Mongolei-Problem\" zu lösen. Mit seiner Ernennung zum Oberbefehlshaber der Kwantung-Armee strebt Tōjō danach, Japans Einfluss in der Mandschurei zu stärken, und widersetzt sich der Absicht der Fengtian-Regierung, einen Krieg zur Wiedervereinigung Chinas zu führen."
+ JAP_tojo_hideki_commander_desc: "§YGeboren:§! §L30. Dezember 1884 in Kōjimachi, Präfektur Tokio, Kaiserreich Japan§!\n§YHintergrund:§! §L$JAP_tojo_hideki_bio$§!\n\n§YHinweis: Aufgrund seiner fürsorglichen Haltung gegenüber seinen Untergebenen während seiner Zeit als Kommandeur des 1. Infanterieregiments hat er sich den Ruf eines mitfühlenden Regimentskommandeurs und den Spitznamen \"Razor Tōjō\" erworben.§!"
  JAP_imamura_hitoshi: "Imamura Hitoshi"
  JAP_imamura_hitoshi_high_command_desc: "§YGeboren:§! §L28. Juni 1886, in Sendai, Präfektur Miyagi, Kaiserreich Japan§!"
  JAP_yamamoto_isoroku: "Yamamoto Isoroku"
- JAP_yamamoto_isoroku_high_command_desc: "§YGeboren:§! §L4. April 1884, in Nagaoka, Präfektur Niigata, Kaiserreich Japan§!"
+ JAP_yamamoto_isoroku_high_command_desc: "§YGeboren:§! §L4. April 1884, in Nagaoka, Präfektur Niigata, Kaiserreich Japan§!\n§YHintergrund:§! §LEr stammte aus der Familie Takano, einem Samurai-Geschlecht aus Nagaoka, und diente unmittelbar nach seinem Abschluss an der Marineakademie im Russisch-Japanischen Krieg, wo er unter Admiral Tōgō am entscheidenden Sieg Japans in der Schlacht von Tsushima teilnahm.\n\nEr studierte an der Harvard University und war als Marineattaché in Washington tätig; bekannt ist er für seine Fachkenntnisse über die Vereinigten Staaten und sein Engagement für die Marinefliegerei.§!"
  JAP_koga_mineichi: "Koga Mineichi"
  JAP_koga_mineichi_theorist_desc: "§YGeboren:§! §L25. September 1885, in Arita, Präfektur Saga, Kaiserreich Japan§!"
  JAP_hasegawa_kiyoshi: "Hasegawa Kiyoshi"

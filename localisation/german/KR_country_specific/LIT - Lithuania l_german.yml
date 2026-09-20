@@ -134,23 +134,23 @@
  LIT_the_warrior_king: "Der Kriegerkönig"
  
  ### Tooltips ###
- LIT_legitimacy_tooltip: "Legitimität: $RIGHT|+=%%0$."
- LIT_legitimacy_check_tooltip: "Mindestens $RIGHT|Y%%0$ Legitimität"
+ LIT_legitimacy_tooltip: "Legitimität: $RIGHT|+=%0$."
+ LIT_legitimacy_check_tooltip: "Mindestens $RIGHT|Y%0$ Legitimität"
 
- LIT_radicalism_above_60_percent: "Mehr als §H60%§! Radikalismus"
+ LIT_radicalism_above_60_percent: "Mehr als $RIGHT|H%1$ Radikalismus"
 
- LIT_federalisation_tooltip: "Federalisation: $RIGHT|+=%%0$."
- LIT_federalisation_check_tooltip: "Mindestens $RIGHT|Y%%0$ Fortschritte bei der Föderalisierung"
+ LIT_federalisation_tooltip: "Federalisation: $RIGHT|+=%0$."
+ LIT_federalisation_check_tooltip: "Mindestens $RIGHT|Y%0$ Fortschritte bei der Föderalisierung"
 
  LIT_merge_ideas_into_optimal_system: "Verschmelzung §H$LIT_political_democracy$§! und §H$LIT_economic_democracy_idea$§! zu §H$LIT_optimal_system_idea$§!\nEffektive Veränderung:\n$MODIFIER_POLITICAL_POWER_GAIN$: [?0.1|+=]\n$MODIFIER_STABILITY_FACTOR$: [?0.1|+=%]"
 
- LIT_LAF_threat_tooltip: "LAF Bedrohung: $RIGHT|-=%%0$."
- LIT_LAF_threat_check_tooltip: "Mehr als $RIGHT|Y%%0$ LAF Bedrohung"
+ LIT_LAF_threat_tooltip: "LAF Bedrohung: $RIGHT|-=%0$."
+ LIT_LAF_threat_check_tooltip: "Mehr als $RIGHT|Y%0$ LAF Bedrohung"
  LIT_LAF_guerillas_more_frequent: "§H$LIT_LAF_guerilla_activity$§! wird 30 Tage früher auslaufen."
  LIT_LAF_guerillas_less_frequent: "§H$LIT_LAF_guerilla_activity$§! wird 15 Tage früher auslaufen."
 
- LIT_centralisation_tooltip: "Centralisation: $RIGHT|+=%%0$."
- LIT_centralisation_check_tooltip: "Mehr als $RIGHT|Y%%0$ Zentralisierung"
+ LIT_centralisation_tooltip: "Centralisation: $RIGHT|+=%0$."
+ LIT_centralisation_check_tooltip: "Mehr als $RIGHT|Y%0$ Zentralisierung"
  
  LIT_Plech_plebiscite_tt: "Es wird eine §RAbstimmung§! stattfinden, die über die Zukunft Litauens entscheidet"
 
@@ -199,7 +199,7 @@
  LIT_invest_in_vawkavysk_desc: "Seit der Gründung des Königreichs Litauen ist die Industrie in Valkaviskas in Vergessenheit geraten. Wir sollten die Investitionen in die Industrie in der Region wieder fördern, wobei das Eisenwerk das Hauptziel dieser Investitionen sein sollte."
 
  LIT_architect_king_decisions: "Der Architektenkönig"
- LIT_architect_king_decisions_desc: "Die Leidenschaften des Königs waren schon immer eher die Kunst und die Architektur als das Regieren. Abseits der politischen Kämpfe des Königreichs verbringt er seine Zeit damit, immer komplexere Projekte zu entwerfen, die er als Herrscher in die Tat umsetzen kann. Einige halten dies für eine leichtfertige Zeitverschwendung, andere sind der Meinung, dass das Programm unschuldig genug ist und fortgesetzt werden sollte. Welche Sichtweise des Königs sich durchsetzen wird, wird nur die Zeit zeigen.\n\nLegitimität: [?LIT_legitimacy|+%%0]"
+ LIT_architect_king_decisions_desc: "Die Leidenschaften des Königs waren schon immer eher die Kunst und die Architektur als das Regieren. Abseits der politischen Kämpfe des Königreichs verbringt er seine Zeit damit, immer komplexere Projekte zu entwerfen, die er als Herrscher in die Tat umsetzen kann. Einige halten dies für eine leichtfertige Zeitverschwendung, andere sind der Meinung, dass das Programm unschuldig genug ist und fortgesetzt werden sollte. Welche Sichtweise des Königs sich durchsetzen wird, wird nur die Zeit zeigen.\n\nLegitimität: [?LIT_legitimacy|+%0]"
 
  LIT_monument_to_emilia_plater: "Ein Denkmal für Emilia Platter"
  LIT_monument_to_emilia_plater_desc: "Nachdem der König von der legendären Figur der Gräfin Emilia Plater erfahren hat, will er ihr ein Denkmal errichten lassen. Obwohl sich die Stadt seit den Tagen der Gräfin verändert hat, könnten seine Bemühungen bei den Einheimischen nicht so gut ankommen..."
@@ -229,7 +229,7 @@
  LIT_inaugurate_the_palace: "Einweihung des Palastes"
 
  LIT_LAF_insurgency_decisions: "Der LAF-Aufstand"
- LIT_LAF_insurgency_decisions_desc: "Die Aufständischen der LAF verstecken sich in den dichten Wäldern des Landes und sind ebenso tödlich wie schwer zu fassen. Sie greifen lebenswichtige Punkte des Landes wie Eisenbahnen und Fabriken an und führen einen brutalen Guerillakrieg, um gegen die Verbindungen unserer Regierung mit dem Deutschen Reich zu protestieren. Da nur wenige Informationen über ihren Aufenthaltsort vorliegen, ist es eine wirklich schwierige Angelegenheit, vorherzusagen, ob die Aufständischen angreifen werden oder nicht. Die LAF ist zwar nicht stark genug, um die Autorität der Regierung herauszufordern, aber die ständige Untätigkeit der Regierung könnte unvorhersehbare Folgen für die litauische Nation haben...\n\n§RLAF Bedrohung§!: [?LIT_LAF_threat|0-%%]"
+ LIT_LAF_insurgency_decisions_desc: "Die Aufständischen der LAF verstecken sich in den dichten Wäldern des Landes und sind ebenso tödlich wie schwer zu fassen. Sie greifen lebenswichtige Punkte des Landes wie Eisenbahnen und Fabriken an und führen einen brutalen Guerillakrieg, um gegen die Verbindungen unserer Regierung mit dem Deutschen Reich zu protestieren. Da nur wenige Informationen über ihren Aufenthaltsort vorliegen, ist es eine wirklich schwierige Angelegenheit, vorherzusagen, ob die Aufständischen angreifen werden oder nicht. Die LAF ist zwar nicht stark genug, um die Autorität der Regierung herauszufordern, aber die ständige Untätigkeit der Regierung könnte unvorhersehbare Folgen für die litauische Nation haben...\n\n§RLAF Bedrohung§!: [?LIT_LAF_threat|0-%]"
 
  LIT_LAF_guerilla_activity: "LAF-Guerilla-Aktivität"
  LIT_LAF_guerilla_activity_desc: "Die Litauische Aktivistenfront macht mit gewalttätigen Aktionen in litauischen Städten auf ihre nationalistische Botschaft aufmerksam. Von geheimen Guerilla-Zellen aus organisieren sie Überfälle auf Polizeistationen, Waffenlager und Regierungsmitglieder."
@@ -274,7 +274,7 @@
  LIT_Naruto_arm_polish_desc: "Die LAF hat es ausdrücklich auf Minderheiten abgesehen, die sich derzeit nicht selbst verteidigen können. Die Bewaffnung der polnischen Milizen würde den Druck auf die Regierungstruppen verringern."
 
  LIT_tears_among_the_left_decisions: "Risse bei den Linken"
- LIT_tears_among_the_left_decisions_desc: "Während sich die LKDP an den föderal-korporatistischen Grundsätzen von Šalkauskis orientiert und die LTS weiß, dass sie einen Einheitsstaat mit Smetona an der Spitze errichten will, zeichnet sich die Linkskoalition von Steponas Kairys dadurch aus, dass sie unentschieden ist, was sie erreichen will. Soll der König bleiben oder zur Abdankung gezwungen werden? Ist ihr Ziel ein sozialdemokratischer Wohlfahrtsstaat oder ein Weg zum Syndikalismus? Wollen sie Litauen von Deutschland befreien oder akzeptieren sie zähneknirschend, dass dies unmöglich ist? Diese und viele andere Fragen plagen die von Steponas Kairys gebildete lose Koalition von Anfang an, und sie werden in den kommenden Jahren beantwortet werden müssen. Für viele werden die Sozialdemokraten mit ihrer brutalen Opposition gegen die Monarchie und ihren Kontakten zum litauischen Syndikalismus in Verbindung gebracht. Im Laufe der Zeit wird sich diese Wahrnehmung des Radikalismus entweder bestätigen oder widerlegen lassen.\n\nDer aktuelle §RWahrgenommener Radikalismus§! der Regierung ist [?LIT_radicalism|1+%%]"
+ LIT_tears_among_the_left_decisions_desc: "Während sich die LKDP an den föderal-korporatistischen Grundsätzen von Šalkauskis orientiert und die LTS weiß, dass sie einen Einheitsstaat mit Smetona an der Spitze errichten will, zeichnet sich die Linkskoalition von Steponas Kairys dadurch aus, dass sie unentschieden ist, was sie erreichen will. Soll der König bleiben oder zur Abdankung gezwungen werden? Ist ihr Ziel ein sozialdemokratischer Wohlfahrtsstaat oder ein Weg zum Syndikalismus? Wollen sie Litauen von Deutschland befreien oder akzeptieren sie zähneknirschend, dass dies unmöglich ist? Diese und viele andere Fragen plagen die von Steponas Kairys gebildete lose Koalition von Anfang an, und sie werden in den kommenden Jahren beantwortet werden müssen. Für viele werden die Sozialdemokraten mit ihrer brutalen Opposition gegen die Monarchie und ihren Kontakten zum litauischen Syndikalismus in Verbindung gebracht. Im Laufe der Zeit wird sich diese Wahrnehmung des Radikalismus entweder bestätigen oder widerlegen lassen.\n\nDer aktuelle §RWahrgenommener Radikalismus§! der Regierung ist [?LIT_radicalism|1+%]"
 
  LIT_start_the_revolution: "Beginn der Revolution"
  LIT_start_the_revolution_desc: "Die Zeit ist reif! Werfen wir unsere Fesseln beiseite und schließen wir uns den Reihen der syndikalistischen Nationen als ihr neuestes Mitglied an!"
@@ -319,7 +319,7 @@
  LIT_appoint_vincas_vitkauskas_desc: "Vom litauischen Offizierskorps ist General Vincas Vitkauskas der Mann, der unseren sozialistischen Idealen am meisten zugeneigt ist. Um sicherzustellen, dass die litauischen Streitkräfte der zivilen Regierung unterstellt sind, sollten wir ihn zum Generalstabschef der Armee ernennen. Keine Sorge, er sollte in der Lage sein, die Reformen von Raštikis fortzuführen."
 
  LIT_optimal_system_decisions: "Das optimale System"
- LIT_optimal_system_decisions_desc: "Das "optimale System" des neuen Premierministers ruht auf zwei Säulen - demokratischer Korporatismus und föderale Umstrukturierung. Diese Säulen ergeben sich auch aus seinen christlichen Werten, dem Einfluss des Distributivismus und der Überzeugung, dass Litauen eine einzigartige Mischung aus östlicher und westlicher Kultur ist und beide bewahren sollte.\n\nUnter seiner Führung wird die LKDP versuchen, die Föderation der Unternehmensverbände in Wirtschaft, Kultur und Gesellschaft zu lenken, sich mit den litauischen Minderheiten zu versöhnen und ihnen weitreichende kulturelle Autonomie zu gewähren sowie das politische System von Grund auf zu reformieren. Der Seimas soll dem Projekt zufolge in drei Kammern unterteilt werden - eine allgemein gewählte "Kammer der ideologischen Gemeinschaften", einen "Kleinen Seimas", der sich aus Vertretern des Bundes zusammensetzt, und eine "Kammer der Unternehmen", die direkt von den Gewerkschaften, den Unternehmern und den landwirtschaftlichen Gemeinschaften gewählt wird. Jede der drei Kammern des Seimas wird fünf Ministerien ernennen, die alle von der staatlichen Kontrollkommission kontrolliert und schließlich vom König beaufsichtigt werden.\n\nDas ultimative Ziel des Projekts ist die Schaffung eines "optimalen Staates", in dem die Stimme jedes Bürgers gehört wird, eines Staates, dessen Bewohner sich mit "Litauen" als Konzept identifizieren und nicht mit einer der vielen ethnischen Gruppen, wie es im Großherzogtum vor Jahrhunderten der Fall war. Dieser Staat wird nach Šalkauskis' Vision als Brücke zwischen Ost und West dienen und die gesamte Menschheit in ein neues Zeitalter führen.\n\n§CFöderalisierung Fortschritte§!: [?LIT_federalisation|0+]%"
+ LIT_optimal_system_decisions_desc: "Das "optimale System" des neuen Premierministers ruht auf zwei Säulen - demokratischer Korporatismus und föderale Umstrukturierung. Diese Säulen ergeben sich auch aus seinen christlichen Werten, dem Einfluss des Distributivismus und der Überzeugung, dass Litauen eine einzigartige Mischung aus östlicher und westlicher Kultur ist und beide bewahren sollte.\n\nUnter seiner Führung wird die LKDP versuchen, die Föderation der Unternehmensverbände in Wirtschaft, Kultur und Gesellschaft zu lenken, sich mit den litauischen Minderheiten zu versöhnen und ihnen weitreichende kulturelle Autonomie zu gewähren sowie das politische System von Grund auf zu reformieren. Der Seimas soll dem Projekt zufolge in drei Kammern unterteilt werden - eine allgemein gewählte "Kammer der ideologischen Gemeinschaften", einen "Kleinen Seimas", der sich aus Vertretern des Bundes zusammensetzt, und eine "Kammer der Unternehmen", die direkt von den Gewerkschaften, den Unternehmern und den landwirtschaftlichen Gemeinschaften gewählt wird. Jede der drei Kammern des Seimas wird fünf Ministerien ernennen, die alle von der staatlichen Kontrollkommission kontrolliert und schließlich vom König beaufsichtigt werden.\n\nDas ultimative Ziel des Projekts ist die Schaffung eines "optimalen Staates", in dem die Stimme jedes Bürgers gehört wird, eines Staates, dessen Bewohner sich mit "Litauen" als Konzept identifizieren und nicht mit einer der vielen ethnischen Gruppen, wie es im Großherzogtum vor Jahrhunderten der Fall war. Dieser Staat wird nach Šalkauskis' Vision als Brücke zwischen Ost und West dienen und die gesamte Menschheit in ein neues Zeitalter führen.\n\n§CFöderalisierung Fortschritte§!: [?LIT_federalisation|0+%]"
 
  LIT_encourage_free_debate: "Förderung der freien Debatte"
  LIT_encourage_free_debate_desc: "Ein pluralistischer, demokratischer Staat kann nur dann gedeihen, wenn möglichst viele seiner Bürger die Möglichkeit haben, sich an einer freien, demokratischen Debatte und am Austausch von Ideen zu beteiligen."
@@ -355,7 +355,7 @@
  LIT_form_litvak_corporate_federations_desc: "Das Endziel des Optimalen Systems ist ein mitfühlendes und integratives System, in dem alle Bürger in der Lage sind, ihre Anliegen und ihren demokratischen Willen durch soziale, wirtschaftliche und politische Körperschaften zum Ausdruck zu bringen. Wir können dieses Experiment in den litauischen Gemeinschaften, die in ganz Litauen leben, durchführen."
 
  LIT_centralisation_decisions: "Zentralisierung von Litauen"
- LIT_centralisation_decisions_desc: "Mit List und Tücke haben Antanas Smetona und die LTS eine rechte Koalition mit der alten Garde der LKDP gebildet. Sein Ziel ist es, Litauen von den Machenschaften Berlins abzulenken, seine Unabhängigkeit in außen- und innenpolitischen Angelegenheiten zu stärken und die litauische Kultur vor unerwünschten Einflüssen zu schützen. Der ehrgeizige und machthungrige Smetona träumt davon, den Staat nach seinem Gutdünken zu zentralisieren und keine Gleichen zu akzeptieren, muss sich aber auf einem schmalen Grat bewegen. Er ist immer noch dem Willen des Königs unterworfen und seine Koalition im Seimas ist nicht einheitlich.\n\n§CZentralisierung§!: [?LIT_centralisation|0+%%]"
+ LIT_centralisation_decisions_desc: "Mit List und Tücke haben Antanas Smetona und die LTS eine rechte Koalition mit der alten Garde der LKDP gebildet. Sein Ziel ist es, Litauen von den Machenschaften Berlins abzulenken, seine Unabhängigkeit in außen- und innenpolitischen Angelegenheiten zu stärken und die litauische Kultur vor unerwünschten Einflüssen zu schützen. Der ehrgeizige und machthungrige Smetona träumt davon, den Staat nach seinem Gutdünken zu zentralisieren und keine Gleichen zu akzeptieren, muss sich aber auf einem schmalen Grat bewegen. Er ist immer noch dem Willen des Königs unterworfen und seine Koalition im Seimas ist nicht einheitlich.\n\n§CZentralisierung§!: [?LIT_centralisation|0+%]"
 
  LIT_promote_a_strong_government: "Förderung einer starken Regierung"
  LIT_promote_a_strong_government_desc: "Die früheren Reformen Smetonas haben sich bei der Überwindung des Schwarzen Montags als erfolgreich erwiesen. Es scheint, dass Smetonas Propagandamaschine dies nutzt, um die Öffentlichkeit, insbesondere in der Hauptstadt, für sich zu gewinnen."
@@ -459,7 +459,7 @@
  LIT_social_economy_idea_desc: "Der Erfolg unserer umfassenden Reformen hat es dem sozialen, wirtschaftlichen und kulturellen Leben des Landes ermöglicht, sich zu erholen und zu einem goldenen Zeitalter zu entwickeln."
 
  LIT_long_road_to_pluralism_modifier: "Langer Weg zum Pluralismus"
- LIT_long_road_to_pluralism_tooltip: "§RRadikalismus:§! [?LIT_radicalism|1+%%]"
+ LIT_long_road_to_pluralism_tooltip: "§RRadikalismus:§! [?LIT_radicalism|1+%]"
 
  LIT_military_funding_cuts: "Kürzungen der Militärausgaben"
  LIT_military_funding_cuts_desc: "Die sozialdemokratische Regierung hat beschlossen, den Haushalt der Königlichen Litauischen Verteidigungsstreitkräfte zu kürzen, um groß angelegte Programme zu finanzieren, was die Kampfkraft der Armee beeinträchtigt."

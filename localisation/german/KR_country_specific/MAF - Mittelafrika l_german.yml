@@ -35,28 +35,59 @@
  MAF_free_germany_paternal_autocrat_DEF: "die Provisorische Regierung von Deutschland"
 
 ### Colonies, Protectorates, Mandates ###
- mittelafrika_territory_title: "[THIS.MittelafrikaGetStateTerritoryTitle]"
+ MAF_state_of_interest_state_title: "[?current_state.MittelafrikaGetStateTerritoryTitle]"
+ MAF_state_of_interest_icon: "[?current_state.MittelafrikaGetStateTerritoryIcon]"
+ MAF_state_of_interest_icon_desc: "§Y[?current_state.MittelafrikaGetStateTerritoryTitleColourised]§!"
+ MAF_state_of_interest_icon_desc_delayed: "[?current_state.MittelafrikaGetStateTerritoryDesc]"
+
  ## Core Territories
  mittelafrika_territory_965: "Deutsch-Ostafrika"
+ mittelafrika_territory_965_icon: "GFX_empty_paper"
  mittelafrika_territory_927: "Protektorat Kamerun"
+ mittelafrika_territory_927_icon: "GFX_empty_paper"
  mittelafrika_territory_295: "Protektorat Kongo"
+ mittelafrika_territory_295_icon: "GFX_empty_paper"
  mittelafrika_territory_539: "Protektorat Gabun"
+ mittelafrika_territory_539_icon: "GFX_empty_paper"
+
  ## Outlying Territories
  mittelafrika_territory_877: "Protektorat Togo"
+ mittelafrika_territory_877_icon: "GFX_empty_paper"
  mittelafrika_territory_876: "Protektorat Dahomey"
+ mittelafrika_territory_876_icon: "GFX_empty_paper"
  mittelafrika_territory_541: "Deutsch-Südwestafrika"
+ mittelafrika_territory_541_icon: "GFX_empty_paper"
 
  ## British West Africa
  mittelafrika_territory_973: "Kolonie/Protektorat Nigeria"
+ mittelafrika_territory_973_icon: "GFX_idea_BritAfr_Nigeria"
+ mittelafrika_territory_973_desc: "Britisch-Nigeria ist das Paradebeispiel für Lugards Doktrin der indirekten Herrschaft, für die sich nun Gouverneur Richmond Palmer einsetzt. Während sich dieser Ansatz im Norden, wo traditionelle Emirate bestehen, als erfolgreich erwiesen hat, hat die großzügige Ernennung von Gewährsleitern im Süden, wo eine solche Hierarchie unbekannt ist, zur Entstehung alternativer Machtstrukturen geführt."
+
  mittelafrika_territory_274: "Goldküsten-Kolonie"
+ mittelafrika_territory_274_icon: "GFX_idea_BritAfr_Gold_Coast"
+ mittelafrika_territory_274_desc: "Die britische Goldküste ist das demokratischste der britischen Territorien in Afrika. Die Provinzräte und die Küstenstädte wählen afrikanische Mitglieder in den Legislativrat. Das politische Leben wird von einer Schicht westlich ausgebildeter Afrikaner dominiert, die an lokalen Einrichtungen wie dem Achimota College oder sogar an Schulen in den Vereinigten Staaten unterrichtet wurden."
+
  ## British East Africa
  mittelafrika_territory_547: "Kolonie/Protektorat Kenia"
+ mittelafrika_territory_547_icon: "GFX_idea_BritAfr_Kenya"
+ mittelafrika_territory_547_desc: "In Britisch-Kenia leben zahlreiche weiße Siedler, und deren Vorzugsbehandlung bei der Landzuteilung und anderen Verwaltungsangelegenheiten hat sowohl Afrikaner als auch Inder dazu veranlasst, sich gegen ihre Unterdrückung zu organisieren. Im Jahr 1925 musste Deutschland militärisch eingreifen, als Milizen weißer Siedler die Macht ergriffen und versuchten, die einheimische indische Bevölkerung zu vertreiben."
+
  mittelafrika_territory_548: "Protektorat Uganda"
+ mittelafrika_territory_548_icon: "GFX_idea_BritAfr_Uganda"
+ mittelafrika_territory_548_desc: "Das britische Uganda wird hauptsächlich über das Königreich Buganda regiert, dessen traditionelle Elite den Willen der britischen Krone umsetzt. Im Gegensatz zum benachbarten Kenia gibt es hier fast keine weiße Siedlerbevölkerung. Afrikanische Kleinbauern produzieren Baumwolle und Kaffee, die das Rückgrat der Wirtschaft bilden, obwohl die Entkörnung und der Handel mit dieser Baumwolle fast ausschließlich von indischen Kaufleuten kontrolliert werden."
+
  ## British Central Africa
  mittelafrika_territory_813: "Nordrhodesien"
+ mittelafrika_territory_813_icon: "GFX_idea_BritAfr_Northern_Rhodesia"
+ mittelafrika_territory_813_desc: "Nordrhodesien liegt mitten im Kupfergürtel und verfügt, ebenso wie das benachbarte Katanga, über eine Vielzahl von Bergbaubetrieben. Die Kolonie wird von Großkonzernen beherrscht, und die Bergleute kommen aus so weit südlich gelegenen Gebieten wie dem Kap."
+
  mittelafrika_territory_871: "Protektorat Njassaland"
+ mittelafrika_territory_871_icon: "GFX_idea_BritAfr_Nyasaland"
+ mittelafrika_territory_871_desc: "Britisch-Nyasaland ist ein dicht besiedeltes Gebiet. Die heutige demografische Situation ist das Ergebnis jahrzehntelanger Landenteignung, wobei 15 % der fruchtbarsten Flächen mittlerweile im Besitz von nur drei großen Landbesitzunternehmen sind. Im Jahr 1915 führte der Baptistenprediger John Chilembwe einen bewaffneten Aufstand gegen die Kolonialherrschaft an, um gegen ausbeuterische Arbeitsbedingungen und die Landenteignung auf den Siedlergütern zu protestieren. Dennoch wurden diese Praktiken fortgesetzt."
 
  mittelafrika_territory_905: "Sultanat Sansibar"
+ mittelafrika_territory_905_icon: "GFX_idea_MAF_territory_zanzibar"
+ mittelafrika_territory_905_desc: "Das Sultanat Sansibar steht seit 1890 unter britischem Protektorat, obwohl der Einfluss des deutschen Konsuls seit 1925 stetig gewachsen ist. Sultan Khalifa bin Harub ist zwar bei seinen Untertanen nach wie vor beliebt, hat jedoch auf den Inseln praktisch keine Macht mehr, und die gesamte Autorität liegt in den Händen ausländischer Beamter und des britisch-arabischen Legislativrats, ohne dass die afrikanische Mehrheit daran beteiligt ist."
 
 ### Characters ###
  MAF_karl_ritter: "Karl Ritter"
@@ -319,25 +350,8 @@
  MAF_Refused_Explain: "Weigerung, die Rebellen zu stoppen"
 
 ### State Modifiers ###
- MAF_british_kenya: "Kolonie und Schutzgebiet Kenia"
- MAF_british_kenya_desc: "Britisch-Kenia steht seit 1925 unter deutschem Mandat. Die Briten bestehen jedoch auf der Aufrechterhaltung ihrer eigenen Sicherheit. Truppen dürfen nur in Kriegszeiten einreisen."
-
- MAF_british_nigeria: "Kolonie und Schutzgebiet Nigeria"
- MAF_british_nigeria_desc: "Das britische Nigeria steht seit 1925 unter deutschem Mandat. Die Briten bestehen jedoch auf der Aufrechterhaltung ihrer eigenen Sicherheit. Truppen dürfen nur in Kriegszeiten einreisen."
-
- MAF_british_gold_coast: "Kolonie an der Goldküste"
- MAF_british_gold_coast_desc: "Die britische Goldküste steht seit 1925 unter deutschem Mandat. Die Briten bestehen jedoch auf der Aufrechterhaltung ihrer eigenen Sicherheit. Truppen dürfen nur in Kriegszeiten einreisen."
-
- MAF_british_uganda: "Schutzgebiet Uganda"
- MAF_british_uganda_desc: "Das britische Uganda steht seit 1925 unter deutschem Schutz."
-
- MAF_british_rhodesia: "Schutzgebiet Nordrhodesien"
- MAF_british_rhodesia_desc: "Britisch-Nordrhodesien steht seit 1925 unter deutschem Schutz."
-
- MAF_british_nyasaland: "Schutzgebiet Njassaland"
- MAF_british_nyasaland_desc: "Britisch-Nyasaland steht seit 1925 unter deutschem Schutz."
-
- MAF_autonomous_protectorate: "Autonomes Schutzgebiet"
+ MAF_territory_mandate: "Mandat über Britisch-Afrika"
+ MAF_territory_mandate_desc: "Seit dem Zusammenbruch des britischen Empire im Jahr 1925 wird dieses Gebiet unter einem vorläufigen deutschen Mandat verwaltet. Das britische Recht und die britische Verwaltung sind weitgehend erhalten geblieben, wodurch sich die deutschen Interessen auf eine wirtschaftliche Treuhandschaft beschränken und nicht auf einen vollständigen Besitz."
 
  ETH_dkaeb_railroad: "Deutsch geführte DKAEB-Bahn"
  ETH_better_dkaeb_railroad: "Gemeinsam betriebene DKAEB-Eisenbahn"
