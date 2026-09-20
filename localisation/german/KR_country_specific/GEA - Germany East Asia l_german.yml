@@ -3,29 +3,79 @@
 German_East_Asia: "Schwerpunktbaum von Deutsch Ostasien"
 
 ### Colonies, Protectorates, Mandates ###
- GEA_territory_title: "[THIS.GermanEastAsiaGetStateTerritoryTitle]"
+ GEA_state_of_interest_state_title: "[?current_state.GermanEastAsiaGetStateTerritoryTitle]"
+ GEA_state_of_interest_icon: "[?current_state.GermanEastAsiaGetStateTerritoryIcon]"
+ GEA_state_of_interest_icon_desc: "§Y[?current_state.GermanEastAsiaGetStateTerritoryTitleColourised]§!"
+ GEA_state_of_interest_icon_desc_delayed: "[?current_state.GermanEastAsiaGetStateTerritoryDesc]"
+
  ## Leased Territories
  GEA_territory_744: "Pachtgebiet"
+ GEA_territory_744_icon: "GFX_empty_paper"
+
  ## Indochina
  GEA_territory_671: "Protektorat Tonkin"
+ GEA_territory_671_icon: "GFX_idea_GEA_tonkin"
+ GEA_territory_671_desc: "Das Protektorat Tonkin, das sich aus dem Delta des Roten Flusses und den an die chinesischen Grenzprovinzen Liangguang und Yunnan angrenzenden Gebirgszügen zusammensetzt, bildet die bevölkerungsreichste und wirtschaftlich am weitesten entwickelte Region Vietnams. Im Gegensatz zu den relativ dezentralisierten kolonialen Netzwerken in Laos und Annam wird die deutsche Herrschaft in Tonkin durch ein wachsendes Netz aus Eisenbahnen, Bergwerken, Fabriken und Häfen erleichtert, dessen Zentrum die Städte Hanoi und Haiphong bilden. Die Entwicklung dieser beiden Städte hat Tausende Vietnamesen in die Kolonialwirtschaft integriert, während deutsche Unternehmen und Beamte die Kontrolle über einen Großteil des erwirtschafteten Reichtums behalten.\n\nTonkin ist somit die Heimat einer Gesellschaft im Wandel. Hanoi hat sich zu einem wichtigen Zentrum der vietnamesischen Kultur und Bildung entwickelt, das Studenten und Intellektuelle aus dem gesamten Norden anzieht, während Haiphongs Rolle als bedeutende Hafenstadt am Südchinesischen Meer der Region einen intensiveren Kontakt zur übrigen Welt verschafft hat. Traditionelle konfuzianische Institutionen und Bräuche haben nach wie vor ihre Bedeutung, werden jedoch zunehmend durch neue Ideen und gesellschaftliche Strömungen untergraben, die durch die Urbanisierung, den Außenhandel und die Präsenz der französischen und deutschen Kolonialherren hervorgerufen werden."
+
  GEA_territory_670: "Protektorat Luang Prabang"
+ GEA_territory_670_icon: "GFX_idea_GEA_laos"
+ GEA_territory_670_desc: "Jenseits der Grenzen Vietnams liegt das Protektorat Luang Prabang (oder Laos). Das Gebiet ist dünn besiedelt und von Bergen und Wäldern bedeckt; die deutsche Kolonialherrschaft im Protektorat ist nach wie vor schwach und wird in erster Linie durch lokale laotische Fürsten und Beamte ausgeübt. Dies hat es Laos ermöglicht, im Vergleich zu den anderen Protektoraten in Indochina weitaus mehr seiner traditionellen politischen Institutionen zu bewahren, wenngleich diese Autonomie nur so lange besteht, wie sie dazu beiträgt, dass die Region mit den deutschen Interessen vereinbar bleibt.\n\nTrotz seiner relativen Isolation ist das Protektorat den wirtschaftlichen Ambitionen von [GEA.GetNameDef] nicht entgangen. Holz, Bodenschätze und landwirtschaftliche Erzeugnisse stoßen auf zunehmendes Interesse bei deutschen Unternehmen, die neue Straßen und Handelsvorhaben finanzieren, um das laotische Hinterland schrittweise in die übergeordnete Kolonialwirtschaft einzubinden. Für die laotische Bevölkerung haben diese Entwicklungen jedoch oft wenig Wohlstand gebracht; die größten Vorteile kommen stattdessen ausländischen Unternehmen und den lokalen Eliten zugute, die deren Aktivitäten unterstützen, während ein Großteil der laotischen Bevölkerung nach wie vor als Subsistenzbauern lebt."
+
  GEA_territory_827: "Protektorat Annam"
+ GEA_territory_827_icon: "GFX_idea_GEA_annam"
+ GEA_territory_827_desc: "Das Protektorat Annam, das sich von der Kaiserstadt Hue bis zu den Hochebenen und bewaldeten Bergen Zentralvietnams erstreckt, genießt innerhalb von [GEA.GetNameDef] de facto ein gewisses Maß an Autonomie – eine Dynamik, die noch aus der Zeit der früheren französischen Oberherrschaft über Annam stammt. In einer Art Nachahmung der Unabhängigkeit regiert zwar nach wie vor ein Nguyen-Kaiser von Hue aus, doch außerhalb der Mauern der Kaiserstadt bleibt seine Autorität rein theoretischer Natur. Stattdessen liegt die politische Macht in erster Linie beim Resident Superior, einer Position, die ursprünglich von den Franzosen geschaffen wurde und nun von den Deutschen besetzt und aufrechterhalten wird.\n\nZwar hat diese Regelung einen Großteil der alten Ordnung bewahrt, doch hat sie wenig dazu beigetragen, die Legitimität oder Stabilität des Protektorats zu sichern. Der Hof bleibt vom Vertrauen des Residenten Superior abhängig, dessen Kontrolle über die Besteuerung, wirtschaftliche Konzessionen und die koloniale Entwicklung das Land zunehmend an eine Wirtschaft bindet, über die die Vietnamesen kaum Einfluss haben. Für manche stellt die Erhaltung der Nguyen-Dynastie die letzte noch bestehende Institution vietnamesischer Souveränität dar. Für andere ist sie lediglich ein weiteres Instrument der Fremdherrschaft, das nur deshalb aufrechterhalten wird, weil es billiger ist, durch vietnamesische Beamte zu regieren als durch europäische."
+
  GEA_territory_286: "Kolonie Cochinchina"
+ GEA_territory_286_icon: "GFX_idea_GEA_cochinchina"
+ GEA_territory_286_desc: "Von den Kanälen des Mekong-Deltas bis zu den überfüllten Straßen von Saigon erstreckt sich die Kolonie Cochinchina entlang der südlichen Achse Indochinas. Im Gegensatz zu Annam und Tonkin, die als Protektorate belassen wurden, war Cochinchina einst eine französische Kolonie und ist nun eine deutsche. Infolgedessen hat dieses Land eine weitaus direktere und einschneidendere Form der Fremdherrschaft erdulden müssen. Hier hat selbst das nominelle Konzept der einheimischen Souveränität jede sinnvolle Bedeutung verloren.\n\nUnter diesen harten Bedingungen fungiert Saigon als das schlagende Herz der Revolutionäre Indochinas. Als die Nachfrage nach Kautschuk nach dem Weltkrieg sprunghaft anstieg, zogen europäische Plantagen eine große Zahl von vertriebenen Arbeitskräften aus dem Delta des Roten Flusses in Tonkin und den Küstenebenen von Annam in den Süden. Doch unter diesen Arbeitern befanden sich auch unzählige Syndikalisten und nationalistische Revolutionäre, die unter dem Deckmantel einer Anstellung auf den Plantagen in den Süden gezogen waren. Sie erlebten die härteren Arbeitsbedingungen und kolonialen Widersprüche in Cochinchina hautnah mit und machten Saigon bald zum Zentrum der indochinesischen Revolutionsbewegung.\n\nGleichzeitig wird die lokale Bauernschaft zunehmend in Pachtverhältnisse, Schuldknechtschaft und Plantagenarbeit getrieben. Der Groll derjenigen, die zu landlosen Bauern geworden sind, hat sich mit dem Radikalismus der städtischen Arbeiterklasse vermischt, was dazu führt, dass es in ganz Cochinchina immer wieder zu Unruhen und Streiks kommt."
+
  GEA_territory_750: "Protektorat Kambodscha"
+ GEA_territory_750_icon: "GFX_idea_GEA_cambodia"
+ GEA_territory_750_desc: ""
+
  ## Malay Peninsula
  GEA_territory_336: "Meerengen Siedlungen"
+ GEA_territory_336_icon: "GFX_empty_paper"
+ GEA_territory_336_desc: ""
+
  GEA_territory_963: "Föderierte Malaiische Staaten"
+ GEA_territory_963_icon: "GFX_idea_GEA_federated_malay_states"
+ GEA_territory_963_desc: "Die Föderierten Malaiischen Staaten, bestehend aus den britischen Protektoraten Selangor, Perak, Negeri Sembilan und Pahang, wurden 1895 gegründet, um die Verwaltung zu vereinheitlichen und letztendlich die tatsächliche Macht in den Händen des britischen Generalresidenten – heute des Chefsekretärs – zu zentralisieren. Obwohl die Autorität der lokalen malaiischen Herrscher auf religiöse und bräuchliche Angelegenheiten beschränkt wurde, genoss die Föderation weiterhin mehr Autonomie als die Straits Settlements.\n\nDennoch hat der Gouverneur der Straits Settlements die oberste Autorität in der Föderation inne und fungiert von Amts wegen als Hochkommissar der Föderierten Malaiischen Staaten. Als Vertreter der britischen Regierung in Malaya steht er zudem an der Spitze des Bundesrats, der sich aus dem Chefsekretär, den lokalen malaiischen Herrschern und den Staatsresidenten der einzelnen Mitgliedstaaten sowie vier ernannten inoffiziellen Mitgliedern zusammensetzt.\n\nDemografisch gesehen weisen die Vereinigten malaiischen Staaten die größte Bevölkerung nicht-malaiischer Einwanderer in Malaya auf, wobei chinesische und indische Arbeiter in Selangor, Perak und Negeri Sembilan zahlenmäßig die einheimischen Malaien übertreffen. Im Gegensatz dazu wird Pahang aufgrund seiner überwiegend ländlichen, dicht bewaldeten Geografie nach wie vor vorwiegend von malaiischen Bauern und Fischern bewohnt."
+
  GEA_territory_846: "[THIS.GetName] Staat"
+ GEA_territory_846_icon: "GFX_idea_GEA_unfederated_malay_states"
+ GEA_territory_846_desc: "$GEA_unfederated_malay_states_desc$"
+
  GEA_territory_751: "Kelantan und Terengganu Staaten"
+ GEA_territory_751_icon: "GFX_idea_GEA_unfederated_malay_states"
+ GEA_territory_751_desc: "$GEA_unfederated_malay_states_desc$"
+
+ GEA_unfederated_malay_states_desc: "Während der Rest Malayas zunehmend unter britischen Einfluss geriet, behielten die nicht in der Föderation vereinigten malaiischen Staaten ihre Unabhängigkeit und Souveränität. Im Gegensatz zu ihren Nachbarn in den Föderierten Malaiischen Staaten blieben die Macht und die Autorität der lokalen Herrscher von Johor, Kedah, Kelantan, Perlis und Terengganu unberührt, wobei die innerstaatliche Verwaltung und die inneren Angelegenheiten weiterhin in der Zuständigkeit der lokalen Landesregierungen lagen.\n\nSchließlich waren sie gezwungen, den britischen Schutz anzunehmen und britische Berater zu ernennen, die auf dem Papier den lokalen Herrschern in allen Angelegenheiten außer Religion und Bräuchen beratend zur Seite standen. In der Praxis hinderte dies die Berater jedoch nicht daran, Gesetze und Änderungen durchzusetzen, die darauf abzielten, die lokalen Gesetze an die britischen anzupassen – wenn auch mit unterschiedlichen Methoden und in unterschiedlichem Maße an Subtilität. Dennoch genießen die nicht in die Föderation eingegliederten malaiischen Staaten innerhalb Malayas im Vergleich zu allen anderen Gebieten nach wie vor ein hohes Maß an Autonomie."
+
  ## Borneo
  GEA_territory_333: "Sarawak & Brunei"
+ GEA_territory_333_icon: "GFX_idea_GEA_sarawak_brunei"
+ GEA_territory_333_desc: "Die beiden britischen Protektorate Sarawak und Brunei, die den größten Teil von Nordborneo umfassen, stehen seit dem Zusammenbruch des ehemaligen Kaiserreichs unter deutschem Schutz. Beide Staaten genießen weiterhin ein hohes Maß an Autonomie in inneren Angelegenheiten, sind sich jedoch voll und ganz bewusst, dass sich ihre neuen deutschen Schutzmächte das unausgesprochene Recht vorbehalten, das letzte Wort zu haben, wenn es um die Aufrechterhaltung der Ordnung in der Region geht.\n\nUnter deutschem Schutz wurde Sarawak weiterhin von Rajah Vyner Brooke regiert, dem letzten in der Linie der Weißen Rajahs. Während der Staat historisch gesehen ausschließlich vom Rajah regiert wurde, verwandelte die Verfassung von 1935 ihn in eine konstitutionelle Monarchie, wenn auch nicht so frei, wie viele es sich wünschen würden. Für seine Kritiker hat sich Sarawak lediglich von einer Autokratie zu einer Oligarchie gewandelt, da nun Generalsekretär Edward Parnell und Finanzminister Harold MacMillan Calvert den Staat regieren statt des weit entfernten Vyner.\n\nBrunei hingegen funktioniert, ähnlich wie Sarawak, weiterhin weitgehend so wie zu Zeiten der britischen Herrschaft, wenn auch nun unter der uneingeschränkten Herrschaft von Sultan Ahmad Tajuddin. Als die alte Ordnung in Großbritannien zusammenbrach, regierte ein Regentschaftsrat anstelle des jungen Sultans und handelte die bestehende Vereinbarung mit Deutschland aus. Als Tajuddin volljährig wurde, wirkte er auf viele zunächst sehr distanziert, erfüllte jedoch weiterhin seine königlichen Pflichten, darunter einen offiziellen Staatsbesuch in Berlin. Mit zunehmendem Alter fiel es jedoch kaum jemandem schwer, seinen wachsenden Ehrgeiz und sein Selbstbewusstsein zu bemerken – sehr zum Leidwesen der deutschen Verwaltungsbeamten, die für das Sultanat abgestellt worden waren."
+
  GEA_territory_828: "Staat Nordborneo"
+ GEA_territory_828_icon: "GFX_idea_GEA_north_borneo"
+ GEA_territory_828_desc: ""
+
  ## Pacific Islands
  GEA_territory_757: "Deutsch-Neuguinea"
+ GEA_territory_757_icon: "GFX_empty_paper"
+
  GEA_territory_941: "Deutsch-Samoa"
+ GEA_territory_941_icon: "GFX_empty_paper"
+
  GEA_territory_641: "Deutsch-Polynesien"
+ GEA_territory_641_icon: "GFX_empty_paper"
+
  GEA_territory_635: "Neue Hebriden Condominium"
+ GEA_territory_635_icon: "GFX_empty_paper"
+
  GEA_territory_634: "Britisch Westpazifik"
+ GEA_territory_634_icon: "GFX_empty_paper"
 
 ### Parties ###
 GEA_totalist_party: "Ostasiatische Totalisten"
