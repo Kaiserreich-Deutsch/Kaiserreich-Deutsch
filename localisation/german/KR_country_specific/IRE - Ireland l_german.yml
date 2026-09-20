@@ -1107,18 +1107,18 @@ l_german:
 
  IRE_lessons_from_eastern_front_tt: "Zu jeder Fertigkeit hinzufügen: §G1§!"
 
- IRE_APG_guarantee_requisite: "§Y$APG_huey_long$§! oder §Y$APG_earl_kemp_long$§! sind §Rnichtt§! der derzeitige Staatschef"
- IRE_APG_alliance_exclusion: "§Y$APG_huey_long$§! oder §Y$APG_earl_kemp_long$§! sind der derzeitige Staatschef"
+ IRE_APG_guarantee_requisite: "§Y$APG_huey_long$§! oder §Y$APG_earl_long$§! sind §Rnichtt§! der derzeitige Staatschef"
+ IRE_APG_alliance_exclusion: "§Y$APG_huey_long$§! oder §Y$APG_earl_long$§! sind der derzeitige Staatschef"
 
  IRE_equal_isles: "Inseln von Gleichen"
  IRE_equal_isles_trade: "Inseln von Gleichen"
 
  # Pol Tooltips #
- IRE_nationalist_discontent_increase_tt: "§YNationalistischer Unmut§! wird §Zunähmen§!, abnehmende £Stabilität_texticon §YStabilität§! durch [?IRE_nationalist_discontent_delta|R0%]"
- IRE_nationalist_discontent_decrease_tt: "§YNationalistischer Unmut§! wird §Gabnehmen§!, wodurch £Stabilität_texticon §YStabilität§! um [?IRE_nationalist_discontent_delta|G0%] zunimmt"
+ IRE_nationalist_discontent_increase_tt: "§YNationalistischer Unmut§! wird §Zunähmen§!, abnehmende £Stabilität_texticon §YStabilität§! durch $RIGHT|R%$"
+ IRE_nationalist_discontent_decrease_tt: "§YNationalistischer Unmut§! wird §Gabnehmen§!, wodurch £Stabilität_texticon §YStabilität§! um $RIGHT|G%$ zunimmt"
 
- IRE_loyalist_anger_increase_tt: "§YLoyalistischer Zorn§! wird §Zunähmen§!, Verringerung des §Y$MODIFIER_POLITICAL_POWER_FACTOR$§! um [?IRE_loyalist_anger_delta|R2]"
- IRE_loyalist_anger_decrease_tt: "§YLoyalistischer Zorn§! wird §Gabnehmen§! und §Y$MODIFIER_POLITICAL_POWER_FACTOR$§! um [?IRE_loyalist_anger_delta|G2] erhöhen"
+ IRE_loyalist_anger_increase_tt: "§YLoyalistischer Zorn§! wird §Zunähmen§!, Verringerung des §Y$MODIFIER_POLITICAL_POWER_GAIN$§! um §R[?IRE_loyalist_anger_delta]§!"
+ IRE_loyalist_anger_decrease_tt: "§YLoyalistischer Zorn§! wird §Gabnehmen§! und §Y$MODIFIER_POLITICAL_POWER_GAIN$§! um §G[?IRE_loyalist_anger_delta]§! erhöhen"  #Ändern Sie §G nicht in |G, da dadurch der Tooltip nach zwei Dezimalstellen abgeschnitten wird.
 
  IRE_loyalist_fear_increase_tt: "§YLoyalistische Angst§! will §RZunähmen§!"
  IRE_loyalist_fear_decrease_tt: "§YLoyalistische Angst§! wird §GAbnehmen§!"
@@ -1658,7 +1658,7 @@ l_german:
  IRE_improve_loyalist_anger_plp_desc: "Der Regierungswechsel ist von den Loyalisten nicht gut aufgenommen worden. Sie könnten zwar eine demokratische Koalition tolerieren, aber wir müssen noch viel mehr Überzeugungsarbeit leisten, um den Loyalisten klar zu machen, dass ihre Lebensweise nicht so stark bedroht ist, wie sie glauben."
  IRE_improve_loyalist_anger_isp_desc: "Die Unterstützung der Loyalisten für den irischen Staat ist bestenfalls brüchig und hängt von der gegenseitigen Angst vor dem Syndikalismus ab. Wir müssen sie anhören und auf ihre Bedenken eingehen, um eine reibungslose Umsetzung unserer Politik zu gewährleisten."
  IRE_improve_loyalist_anger_se_desc: "Die Empörung der Loyalisten über unsere Machtübernahme droht das Land zu zerreißen. Diese Radikalen müssen gestoppt werden, wenn die Ordnung wiederhergestellt und unsere Position gesichert werden soll."
- IRE_improve_loyalist_anger_tt: "§YLoyalistischer Zorn§! senkt unseren §Y$MODIFIER_POLITICAL_POWER_FACTOR$§!"
+ IRE_improve_loyalist_anger_tt: "§YLoyalistischer Zorn§! senkt unseren §Y$MODIFIER_POLITICAL_POWER_GAIN$§!"
 
  IRE_federalisation: "Föderalisierung"
  IRE_federal_assembly: "Berufen Sie eine Bundesversammlung in §Y[From.GetName]§ ein!"
@@ -4241,8 +4241,8 @@ l_german:
  IRE_bop_new_guard_high_control_range: "Gefestigte Dominanz der Neuen Garde"
  IRE_bop_new_guard_total_control_range: "Totale Dominanz der Neuen Garde"
 
- IRE_bop_moving: "Da sich das Gleichgewicht der Kräfte weit vom Zentrum entfernt:\n$IRE_loyalist_anger_increase_tt$"
- IRE_bop_moving_centre: "Das Gleichgewicht der Kräfte rückt immer mehr in den Mittelpunkt:\nDer §YLoyalistische Zorn§! wird §Gverringert§!, wodurch der §Y$MODIFIER_POLITISCHE_KRAFTFAKTOR$§ erhöht wird!"
+ IRE_bop_moving_outwards: "Da sich das Gleichgewicht der Kräfte weit vom Zentrum entfernt:"
+ IRE_bop_moving_inwards: "Das Gleichgewicht der Kräfte rückt immer mehr in den Mittelpunkt:"
 
  IRE_bop_victory_EOD: "Die §PAlte Garde§! festigt ihre Kontrolle von Aontas Náisiúnta!"
  IRE_bop_victory_GOC: "Der §nradikale Flügel§! ergreift die Kontrolle von Aontas Náisiúnta!"
@@ -5311,8 +5311,8 @@ l_german:
  IRE_ulster_privleges_dotted_line: "\n§W--------------§!"
  IRE_ulster_privileges_desc: "$IRE_ulster_privileges_desc_body$[IRE_loc_dotted_line][IRE_loc_nationalist_discontent][IRE_loc_loyalist_anger][IRE_loc_ulster_loyalist_fear]"
 
- IRE_northern_stab_loss: "\nDie Unzufriedenheit der Nationalisten in Ulster verursacht [?Root.IRE_nationalist_discontent|=%+1] §Y$MODIFIER_STABILITY_FACTOR$.§!"
- IRE_northern_pp_loss: "\nDie Unzufriedenheit der Ulster-Loyalisten verursacht [?Root.IRE_loyalist_anger|=+2] §Y$MODIFIER_POLITICAL_POWER_FACTOR$.§!"
+ IRE_northern_stab_loss: "\nDie Unzufriedenheit der Nationalisten in Ulster verursacht [?Root.IRE_nationalist_discontent|=%+] §Y$MODIFIER_STABILITY_FACTOR$.§!"
+ IRE_northern_pp_loss: "\nDie Unzufriedenheit der Ulster-Loyalisten verursacht [?Root.IRE_loyalist_anger|+=3] §Y$MODIFIER_POLITICAL_POWER_GAIN$.§!"
  IRE_loyalist_fear: "\nDie Ulster-Loyalisten sind derzeit"
  IRE_loyalist_fear_level_1: "$IRE_loyalist_fear$ §Gfürchten überhaupt nicht§! die [Root.Capital.GetCapitalVictoryPointName] Regierung."
  IRE_loyalist_fear_level_2: "$IRE_loyalist_fear$ §Gfürchten nicht§! die [Root.Capital.GetCapitalVictoryPointName] Regierung."
@@ -5442,8 +5442,6 @@ l_german:
  IRE_new_constitution_temp_desc: "Die Arbeiten zur Erstellung einer völlig neuen Verfassung für die Irische Republik sind in vollem Gange. Durch eine Reihe von Parlamentsdebatten, akademischen Seminaren und die Beratung durch Rechtsexperten wird das Dokument, das die grundlegende Identität und die Werte des Staates enthalten wird, schrittweise erarbeitet.[IRE_loc_dotted_line][IRE_loc_nationalist_discontent][IRE_loc_loyalist_anger][IRE_loc_ulster_loyalist_fear]"
  IRE_new_constitution_modifier: "$IRE_new_constitution$"
 
- IRE_new_constitution_end_tt: "Ersetzten von §Y$IRE_new_constitution_temp$§! durch §Y$IRE_new_constitution$§!\nWirksame Änderung:"
-
  IRE_new_constitution_modifier_tt: "[IRE_loc_constitution_ppgain][IRE_loc_constitution_stab][IRE_loc_constitution_ws][IRE_loc_constitution_partystab]"
 
  IRE_new_constitution_ppgain_tt: "$MODIFIER_POLITICAL_POWER_GAIN$: [?IRE_new_constitution_ppgain|+=]\n"
@@ -5456,19 +5454,6 @@ l_german:
  IRE_ulster_cg_cost_tt: "$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y[?IRE_ulster_cg_cost|=%]§!\n"
  IRE_ulster_resistance_target_tt: "$MODIFIER_RESISTANCE_TARGET$: [?IRE_ulster_resistance|-=%]\n"
  IRE_ulster_compliance_tt: "$MODIFIER_COMPLIANCE_GAIN_ADD$: §G+0.025%§!"
- IRE_ulster_resistance_target_change_tt: "$MODIFIER_RESISTANCE_TARGET$: [?IRE_ulster_resistance_delta|-=%]"
- IRE_ulster_resistance_tt: "$MODIFIER_COMPLIANCE_GAIN_ADD$: §G+0.025%§!\n$MODIFIER_RESISTANCE_TARGET$: §R+5%§!\n$MODIFIER_LOCAL_RESOURCES$: §R-12.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §R-15%§!"
- IRE_soc_ulster_resistance_tt: "$MODIFIER_RESISTANCE_TARGET$: §R+10%§!\n$MODIFIER_LOCAL_RESOURCES$: §R-12.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §R-45%§!"
-
- IRE_an_ulster_remove_no_revolt_tt: "$MODIFIER_LOCAL_RESOURCES$: §G+15.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §G+15%§!"
- IRE_soc_ulster_remove_no_revolt_tt: "$MODIFIER_LOCAL_RESOURCES$: §G+15.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §G+45%§!"
- IRE_an_ulster_remove_revolt_tt: "$MODIFIER_LOCAL_RESOURCES$: §G+15.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §G+5%§!"
- IRE_soc_ulster_remove_revolt_tt: "$MODIFIER_LOCAL_RESOURCES$: §G+15.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §G+35%§!"
-
- IRE_ulster_status_quo_tt: "$MODIFIER_STABILITY_FACTOR$: §R-5.0%§!\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: §R-12.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §G+15%§!"
- IRE_ulster_devolution_tt: "$MODIFIER_POLITICAL_POWER_GAIN$: §G+0.10§!\n$MODIFIER_STABILITY_FACTOR$: §R-10.0%§!\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: §R-7.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §G+15%§!"
- IRE_ulster_unitary_tt: "$MODIFIER_POLITICAL_POWER_GAIN$: §R-0.15§!\n$MODIFIER_STABILITY_FACTOR$: §G+2.5%§!\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: §G+3.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §G+15%§!"
- IRE_ulster_federalism_tt: "$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y+10.0%§!\n$MODIFIER_STABILITY_FACTOR$: §G+5.0%§!\n$MODIFIER_LOCAL_RESOURCES_FACTOR$: §G+3.00%§!\n$MODIFIER_LOCAL_MANPOWER$: §G+15%§!"
 
  IRE_parlrep_tt: "Ein $IRE_parlrep_tt_base$"
  IRE_parlrep_postwar_tt: "Nach der Niederlage der Internationalen wird eine $IRE_parlrep_tt_base$"
@@ -5505,7 +5490,7 @@ l_german:
  IRE_consolidate_power_desc: "Die rückgratlose Vorgängerregierung hat bewiesen, dass sie nicht regierungsfähig ist, und sich von einer noch reaktionäreren Kohorte absetzen lassen, die noch weniger Rückhalt bei den Massen hat. Wir haben vielleicht noch nicht das ganze Volk auf unserer Seite, aber wir müssen zuschlagen, solange das Eisen heiß ist, und tun, was getan werden muss, um die Fortsetzung der Revolution zu gewährleisten."
  IRE_anti_socialist_agitation_local_modifier: "Örtliche Antisozialistische Bewegungen"
  IRE_anti_socialist_agitation_local_modifier_desc: "Obwohl das anfängliche Chaos auf den Straßen des Landes weitgehend abgeklungen ist, hat die irische Bevölkerung die neue sozialistische Regierung noch nicht mit offenen Armen empfangen. Während sich einige dafür entscheiden, eine aktivere Rolle in der Opposition gegen das Regime zu übernehmen, haben die meisten einfach eine passive, widerständige Haltung gegenüber den Aktivitäten der Regierung eingenommen."
- IRE_local_anti_socialist_agitation_effect_tt: "Ändern §Y$IRE_anti_socialist_agitation_local_modifier$§! durch\n$MODIFIER_LOCAL_RESOURCES$: [?temp_change_anti_socialist_agitation|.2%+]\n$MODIFIER_LOCAL_MANPOWER$: [?temp_change_anti_socialist_agitation|.2%+]"
+ IRE_local_anti_socialist_agitation_effect_tt: "$local_resources_tooltip$\n$local_manpower_tooltip$"
  IRE_meitheal: "Meitheal"
  IRE_meitheal_desc: "Unter Berufung auf das historische Erbe der Arbeitskooperation in Irland hat die irische Regierung eine Form der Landreform eingeführt, bei der die genossenschaftliche Landwirtschaft im Mittelpunkt steht und von der alle Beteiligten profitieren."
  IRE_workplace_Demokratie_idea: "Arbeitsplatz Demokratie"
