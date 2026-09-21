@@ -129,7 +129,10 @@
 # Ottoman Provinces (Vilayets and Autonomies) #
 ###############################################
 
- ottoman_province_title: "[THIS.OttomansGetStateProvinceStatus]"
+ TUR_state_of_interest_state_title: "[?current_state.OttomansGetStateProvinceStatus]"
+ TUR_state_of_interest_icon: "GFX_state_constructions"
+ TUR_state_of_interest_icon_desc: "[?current_state.OTT_GUI_POPULATION_SHORT]"
+ TUR_state_of_interest_icon_desc_delayed: "[?current_state.OTT_GUI_POPULATION_LONG]"
  OTT_vilayet_state: "Vilayet of [THIS.OttomansGetStateProvinceTitle]"
  OTT_mutasarrifate_state: "Mutasarrifate of [THIS.OttomansGetStateProvinceTitle]"
  OTT_egypt_state: "Osmanisches Ägypten"
@@ -358,7 +361,8 @@
  SUEZ_SUCCESS: "Das §GAbkommen von Port Said§! wurde unterzeichnet."
  SUEZ_CANAL_BLOCKED: "Der Suezkanal wird blockiert."
  SUEZ_REOPENED: "Der Suezkanal wird §Herneut geöffnet§! werden."
- RUSSIAN_OTTOMAN_DEAL: "Das Russisch-Osmanische Abkommen wurde unterzeichnet"
+ RUSSIAN_OTTOMAN_DEAL: "Das §YRussisch-Osmanische Abkommen§! wurde unterzeichnet"
+ RUSSIAN_OTTOMAN_DEAL_NOT: "Das §YRussisch-Osmanische Abkommen§! wurde §Rnicht§! unterzeichnet"
  OTT_defeat_levant: "§Y[OTT.GetNameWithFlag]§! was defeated in the Levant Crisis"
 
 ### State Flags
@@ -2457,7 +2461,7 @@
  ottomans_news_events.1.a: "Ist dies eine Rückkehr zu 1913?"
 
  ottomans_news_events.2.t: "Mustafa Kemal erschossen!"
- ottomans_news_events.2.d: "Der Großwesir und gefeierte Kriegsheld, der Führer der OHF Mustafa Kemal Gelibolu, wurde heute in Erzurum erschossen, als er zu einer großen Menschenmenge sprach, die sich zur Feier seiner jüngsten Reformen versammelt hatte. \n\nDer einsame Schütze, ein junger Mann georgischer Abstammung, dessen mutmaßliches Motiv die Rache für die Unterdrückung in Batumi nach der Annexion war, wird von vielen Beobachtern verdächtigt, dass eine größere sepratistische Organisation hinter dem Anschlag steckt, die wahrscheinlich die OHF schwächen und die Pforte zu einer Überreaktion in den östlichen Provinzen anstacheln will."
+ ottomans_news_events.2.d: "Der Großwesir und gefeierte Kriegsheld, der Führer der OHF Mustafa Kemal Gelibolu, wurde heute in Erzurum erschossen, als er zu einer großen Menschenmenge sprach, die sich zur Feier seiner jüngsten Reformen versammelt hatte. \n\nDer Einzeltäter, ein junger Mann georgischer Herkunft, dessen mutmaßliches Motiv offenbar die Rache für die Unterdrückung in Batumi nach dessen Annexion war; viele Beobachter vermuten jedoch, dass eine größere separatistische Organisation hinter dem Komplott steckt, die wahrscheinlich darauf abzielt, die OHF zu schwächen und die Pforte zu einer Überreaktion in den östlichen Provinzen zu provozieren."
  ottomans_news_events.2.a: "Das gesamte Osmanische Reich hält den Atem an, um die Zukunft zu sichern..."
 
  ottomans_news_events.3.t: "Fevzi Cakmak ergreift die Macht"
@@ -3170,6 +3174,7 @@
  ottomans_foreign_policy_events.65.d: "Obwohl wir uns nie in ihre Machenschaften in Afghanistan eingemischt haben, verkündeten die Russen uns dennoch ihre Ansprüche auf das antike Land, welches Zentralasien und Indien miteinander verbindet. Die russische Regierung ist sich zwar bewusst, dass wir nicht dazu in der Lage sind, ihre Ansprüche anzufechten, verlangt aber auch, dass wir nicht gegen ihre Invasion protestieren und dass der Sultan, als Kalif aller Muslime, diesen Akt nicht denunziert."
 # ->OTT 66
  ottomans_foreign_policy_events.65.a: "Wir werden ihren Einfluss auf Afghanistan nicht anfechten."
+ ottomans_foreign_policy_events.65.b: "Wir werden nicht zulassen, dass sie unseren Einfluss in Afghanistan in Frage stellen."
 
  ottomans_foreign_policy_events.66.t: "Die Zukunft Persiens"
  ottomans_foreign_policy_events.66.d: "Der Kollaps des Russischen und später auch des Britischen Reiches erlaubten Persien, welches durch den Vertag von Sankt Petersburg vor dem Weltkrieg zwischen den beiden Großmächten aufgeteilt wurde, eine Ruhepause, wodurch sich die Nation um ihren schwachen Staatsapparat kümmern konnte. Dennoch blieb Persien nicht ewig im Frieden, da Grenzkonflikte mit unserem Reich über das irakische Kurdistan und den Persischen Golf unsere alte Rivalität neu entfachten.\n\nAufgrund des wachsenden Einflusses der Russen auf Zentralasien und den Kaukasus ist unsere Regierung der Meinung, es sei notwendig, eine Expansion nach Osten zu verlangen, um sicherzustellen, dass ein Pufferstaat zwischen uns und den Russen bestehen bleibt. Während die meisten die Wiederherstellung eines unabhängigen iranischen Staates fordern, der als Puffer dienen kann, wollen einige, dass unsere Regierung eine entscheidendere Rolle einnimmt, um zu garantieren, dass Kurdistan, Aserbaidschan und Chuzestan Teil der osmanischen Einflusssphäre bleiben und nicht aufgrund des russischen Einflusses auf ein schwaches Teheran verloren gehen."
