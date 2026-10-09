@@ -124,9 +124,9 @@ generic_events.76.a: "Großartig!"
  coalition_stability_pp_change: "§$COLOUR$[?global.ideology_groups^$INDEX$.GetTokenLocalizedKey]§! Koalitionspartner tragen nun [?coalition_stability_var|Y0%] ihrer Parteipopularität zu unserem $MODIFIER_POLITICAL_POWER_GAIN$ bei."
 
 ### At War Notice ###
-has_scripted_peace: "Wir führen Krieg"
+has_scripted_peace: "Wir sind Krieg"
 has_scripted_peace_desc: "Das Land befindet sich im Krieg und ist entschlossen, den Sieg zu erringen - obwohl unser Widerstand wahrscheinlich etwas brüchiger ist, als es scheint. (Note: Dies gilt für Kriege, in denen ein geskriptetes Friedensereignis existiert, und es besteht die Möglichkeit, dass das Ereignis ausgelöst wird, lange bevor diese erhöhte Übergabegrenze erreicht wird, nur damit Sie sich dessen bewusst sind.)"
- has_scripted_peace_2: ""
+ has_scripted_peace_2: "Wir sind im 2. Krieg"
  has_scripted_peace_2_desc: "Das Land befindet sich im Krieg und ist entschlossen, den Sieg zu erringen – auch wenn unser Widerstand wahrscheinlich etwas brüchiger ist, als es den Anschein hat. (Hinweis: Dies gilt für Kriege, in denen ein skriptgesteuertes Friedensereignis vorgesehen ist, und es ist wahrscheinlich, dass dieses Ereignis lange bevor diese erhöhte Kapitulationsgrenze erreicht wird, ausgelöst wird – nur damit Sie Bescheid wissen. Dies ist eine weitere Ausprägung desselben Nationalgeistes für den Fall, dass mehrere skriptgesteuerte Friedensereignisse gleichzeitig ausgelöst werden.)"
 
 ### Demobilisation ###
@@ -135,7 +135,7 @@ mobilisation_penalty_modifier: "Über Divisions Limit"
  unit_limit_title: "Maximal unterstützte Divisionen"
 
  unit_limit_count: "[unit_limit_count_loc]"
- unit_limit_count_disabled: "UNLIMITED"
+ unit_limit_count_disabled: "UNBEGRENZT"
  unit_limit_count_above: "[?num_actual_divisions|R0]/[?max_divisions|Y0]"
  unit_limit_count_equal: "[?num_actual_divisions|Y0]/[?max_divisions|Y0]"
  unit_limit_count_below: "[?num_actual_divisions|G0]/[?max_divisions|Y0]"
