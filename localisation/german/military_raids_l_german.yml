@@ -21,7 +21,7 @@
  tooltip_launch_all_button_second: "$NUM|H$ Überfälle können gestartet werden"
  tooltip_launch_button_enabled: "§GKlicken§!, um den Überfall zu beginnen"
  tooltip_launch_button_disabled: "§RDie Vorbereitungen für den Überfall sind noch nicht abgeschlossen§!"
- tooltip_launch_button_right_click: "§GRechts-klick§! um §Y$NAME$§! zu finden"
+ tooltip_launch_button_right_click: "§GRechts-Klick§! um §Y$NAME$§! zu finden"
  tooltip_for_expand_button: "Zum Ausklappen §Gklicken§!"
  tooltip_for_collapse_button: "Zum Einklappen §Gklicken§!"
  tooltip_for_no_items: "§RNichts ausgewählt§!"
@@ -333,7 +333,7 @@
  tooltip_raid_warning_description: "$COUNTRY$: $RAID$"
  tooltip_raid_result: "Der $RAID_DESC|H$ endete mit folgendem Ergebnis: $OUTCOME_TYPE|H$"
  tooltip_raid_view_details_prompt: "§GKlicken§!, um die Details anzuzeigen"
- tooltip_raid_close_report_prompt: "§GRechtsklick§!, um den Bericht auszublenden"
+ tooltip_raid_close_report_prompt: "§GRechts-Klick§!, um den Bericht auszublenden"
 
  cancel_raid_popup_title: "Abbruch bestätigen"
  cancel_raid_popup_desc: "Soll der $RAID|H$ wirklich §Rabgebrochen§! werden?"
@@ -400,5 +400,7 @@
  raid_target_name_supply_hub: "§H$supply_node$§!"
  raid_target_name_great_wall: "§H$the_great_wall$§!"
  raid_target_name_state: "$LOCATION|H$"
+
+ early_nuclear_raid_unlock: "Bombenprototyp für den Einsatz vorbereitet"
 
  raid_tooltip_trigger_title: "$TITLE|H$:"

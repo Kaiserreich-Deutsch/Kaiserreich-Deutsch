@@ -96,9 +96,9 @@ REVOKE_EMBARGO_SCRIPTED_TT: "§RDieses Embargo kann nicht widerrufen werden.§!"
 REVOKE_EMBARGO_SAME_ECONOMIC_SPHERE_TT: "§RLänder, die demselben Wirtschaftsraum angehören, können keine Embargos gegeneinander verhängen.§!"
 REVOKE_MARKET_ACCESS_SAME_ECONOMIC_SPHERE_TT: "§RLänder, die demselben Wirtschaftsraum angehören, können sich nicht gegenseitig den Marktzugang entziehen.§!"
 
-RECALL_VOLUNTEERS_TITLE: "Freiwillige zurückrufen"
-RECALL_VOLUNTEERS_ACTION_DESC: "Rufen Sie alle in dieses Land entsandten Freiwilligen zurück."
-RECALL_VOLUNTEERS_ACTION_SEND_DESC: "Rufen Sie alle Freiwilligen zurück, die nach §Y[FROM.GetNameDef]§! geschickt wurden?"
+RECALL_VOLUNTEERS_AI_TITLE: "Freiwillige zurückrufen"
+RECALL_VOLUNTEERS_AI_ACTION_DESC: "Rufen Sie alle in dieses Land entsandten Freiwilligen zurück."
+RECALL_VOLUNTEERS_AI_ACTION_SEND_DESC: "Rufen Sie alle Freiwilligen zurück, die nach §Y[FROM.GetNameDef]§! geschickt wurden?"
 
 ### Regular Tooltips ###
 puppet_but_keep_government_tt: "([to_be_overlord.GetFlag]§H[to_be_overlord.GetName]§!) §H[marked_country.GetName]§! wird zur Marionette von §H[to_be_overlord.GetName]§!, behält aber seine aktuellen Regierungs- und Parteibeliebtheit."

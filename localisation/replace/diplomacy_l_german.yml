@@ -1,25 +1,25 @@
 ﻿l_german:
-###  Übersetzt von Proho  #####################################################
-### BEHALTEN SIE DIESE IN DER GLEICHEN REIHENFOLGE WIE IN DER VANILLA-DATEI ###
-###############################################################################
+########################################################
+### KEEP THESE IN THE SAME ORDER AS THE VANILLA FILE ###
+########################################################
 
-#Vanilla-Tooltips, die mögliche Fraktionen anzeigen, denen man beitreten kann, wurden in KR entfernt, da sie nicht anwendbar sind.
+#vanilla tooltips that indicate potential factions to join, removed in KR due to not being applicable
  DW_VERY_LIKELY_JOIN_FACTION: ""
  POSSIBLE_FACTION_INVITES: ""
 
-#Der zweite Satz wurde entfernt, da KR- Marionetten diese ablehnen können.
+#removed the second sentence, since KR puppets can refuse them
  DIPLOMACY_REQUEST_EXP_FORCE_ACTION_DESC: "Beantragen Sie die Kontrolle über eine Reihe von Divisionen von einer Marionette."
 
-#geändert, um die Rückrufaktion der Freiwilligen von KR zu berücksichtigen
+#amended to account for KR's recall volunteers diplo action. Vanilla's currently cannot be used by the AI.
  SEND_VOLUNTEERS_INFO: "\nGesendete Divisionen werden während des Transports von der Karte entfernt und kehren nach Abschluss des Transfers in das Zielland auf die Karte zurück. Divisionen kehren automatisch zurück, wenn Sie in einen Krieg geraten oder das Zielland sich im Frieden befindet."
 
-#umbenannt, um den ideologischen Gruppen von KR zu entsprechen
+#renamed to match KR's ideological groups
  DR_US_DEMOCRATIC: "§Y$US|U$§! ist Liberal: "
  DR_US_NEUTRAL: "§Y$US|U$§! ist Konservativ: "
  DR_US_COMMUNIST: "§Y$US|U$§! ist Sozialistisch: "
  DR_US_FASCIST: "§Y$US|U$§! ist Reaktionär: "
 
-#auf britische Schreibweise geändert
+#changed to British spelling
  DIPLOMACY_MESSAGE_CANCELED_TITLE: "$RELATION$ abgebrochen"
  DIPLOMACY_MESSAGE_CANCELED_MESSAGE: "Die Beziehung zu $COUNTRY$ wurde §Rabgebrochen§! $REASON$"
  LEND_LEASE_VEHICLES_BUTTON_DISABLED: "§TWir produzieren keine Ausrüstung für gepanzerte Fahrzeuge und haben auch keine auf Lager.§!"
@@ -47,13 +47,13 @@
  DR_COMMUNIST_NOT_NEIGHBOUR: "$THEM|UY$ ist nicht benachbart zur Fraktion.: "
  free_license: "Kostenlose Lizenz"
 
-#fehlt in Vanille
+#missing in vanilla
  DIPLOMACY_INTERNATIONAL_MARKET_ACCESS_RIGHTS: "Marktzugang"
 
-#Entfernen des Doppelpunkts am Ende
+#removed colon character at the end
  puppet_opinion: "Marionette"
 
-#großgeschriebene 'Meinung'
+#capitalised 'opinion'
  small_decrease: "Rückgang der Meinung"
  medium_decrease: "Rückgang der Meinung"
  large_decrease: "Rückgang der Meinung"
