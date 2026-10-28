@@ -29,7 +29,8 @@
  INDUSTRIAL_ORG_DETAIL_WINDOW_DELETE_SPECIFIC_QUEUE_DESCRIPTION: "§HGespeicherte Liste löschen§!\n§RKlicken Sie hier, um die gespeicherte Eigendschafts-Liste dauerhaft zu löschen.§!."
  INDUSTRIAL_ORG_DETAIL_WINDOW_IMPORT_FROM_OTHER_MIO_TOOLTIP: "Importiere gültige Merkmale aus der Eigendschafts-Liste für eine andere militärisch-industrielle Organisation: $ORG|Y$."
  INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON_WITH_ITEMS: "$INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON$ ($NUMBER_ITEMS$)"
- INDUSTRIAL_ORG_QUEUE_WINDOW_INSTRUCTION: "Wenn diese Organisation über Eigenschaftspunkte verfügt, wird die erste verfügbare Eigenschaft in dieser Liste abgeschlossen.\n§GShift + Klick§! auf eine Eigenschaft, §Yum sie zu dieser Liste§! hinzuzufügen.\n§GZiehen & Ablegen§! zum §YÄndern der Listenreihenfolge§!."
+ INDUSTRIAL_ORG_QUEUE_WINDOW_DESCRIPTION: "Wenn diese Organisation Eigenschaftspunkte besitzt, wird die erste verfügbare Eigenschaft in dieser Warteschlange vervollständigt."
+ INDUSTRIAL_ORG_QUEUE_WINDOW_INSTRUCTION: "§GKlick§! auf ein Merkmal, um §Yes dieser Warteschlange hinzuzufügen§!, §GRechtsklick§!, um §Yes zu entfernen§!\n§GDrag & Drop§!, um §Ydie Reihenfolge in der Warteschlange zu ändern§!."
  INDUSTRIAL_ORG_QUEUE_WINDOW_ITEM: "§GAbgeschlossen§!"
  INDUSTRIAL_ORG_QUEUE_WINDOW_ITEM_DRAGDROP: "§GZiehen & Ablegen§! zur Änderung der Reihenfolge in der Liste"
  INDUSTRIAL_ORG_QUEUE_WINDOW_REMOVE_TOOLTIP: "Aus Liste entfernen"
@@ -52,6 +53,7 @@
  INDUSTRIAL_ORG_LIST_WINDOW_ASSIGN_TO_SHIP_REFIT_TOOLTIP: "§GKlicken§! auf §YZuordnen§! zur Schiffsumrüstung."
  INDUSTRIAL_ORG_LIST_WINDOW_ASSIGN_TO_VARIANT_TOOLTIP: "§GKlicken§! zum §YZuordnen§! dieser Ausstattungsvariante."
  INDUSTRIAL_ORG_LIST_WINDOW_ASSIGN_TO_RESEARCH_TOOLTIP: "§GKlicken§! zum §YZuordnen§! dieser Technologie."
+ INDUSTRIAL_ORG_LIST_WINDOW_RIGHT_CLICK_ASSIGN_TO_RESEARCH_TOOLTIP: "§GRechtsklick§! um dieser Technologie §Yzuzuweisen§! ohne den §YForschungsbonus§! zu nutzen ($TIME_TEXT$)"
  INDUSTRIAL_ORG_LIST_WINDOW_UNASSIGN_DESIGN_TEAM_TOOLTIP: "§GKlicken§! zum §RAufheben§! der Zuweisung zu diesem Entwurf."
  INDUSTRIAL_ORG_LIST_WINDOW_UNASSIGN_MANUFACTURER_TOOLTIP: "§GKlicken§! zu §RAufheben§! von dieser Produktionslinie."
 
@@ -60,7 +62,7 @@
  INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CATEGORY_PLANE: "Flugzeuge"
  INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CATEGORY_MATERIEL: "Materielle Ausrüstung"
  INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CATEGORY_TOOLTIP: "Nur Militärisch Industrielle Organisationen für $CATEGORY|Y$ anzeigen"
- INDUSTRIAL_ORG_POLITICAL_SCREEN_OPEN_ROSTER_WITH_FILTER: "§GKlicken Sie, um Militärisch Industrielle Organisationen anzuzeigen für§! $CATEGORY|Y$"
+ INDUSTRIAL_ORG_POLITICAL_SCREEN_OPEN_ROSTER_WITH_FILTER: "§GKlicken§! um Militärisch Industrielle Organisationen anzuzeigen für $CATEGORY|Y$"
  INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CAN_UNLOCK_TOOLTIP: "Nur Militärisch Industrielle Organisationen mit Eigenschaftspunkten zum Ausgeben anzeigen"
 
  INDUSTRIAL_ORG_DETAIL_MIO_MODIFIERS: "Eigenschaften"
@@ -147,9 +149,11 @@
  INDUSTRIAL_ORG_EMPTY_GENERIC: "Do not use a §HMilitärisch Industrielle Organisation§!"
 
  INDUSTRIAL_ORG_RESEARCH_TOOLTIP: "§GKlicken§! zur Forschung"
- INDUSTRIAL_ORG_RESEARCH_TOOLTIP_MIO: "§GKlicken§! zur Forschung\n§GUmschalttaste + Klick§! zur Forschung ohne eine Militärisch Industrielle Organisation"
- INDUSTRIAL_ORG_RESEARCH_TOOLTIP_MIO_ALREADY_ASSIGNED: "§GKlicken§! zur Forschung\n§GUmschalttaste + Klick§! zur Forschung mit $ORG|H$"
- INDUSTRIAL_ORG_DELAYED_TOOLTIP_PRODUCE: "§GKlicken§! zum Start der Produktion\n§GUmschalttaste + Klick§! produzieren ohne eine Militärisch Industrielle Organisation"
+ INDUSTRIAL_ORG_RIGHT_CLICK_RESEARCH_TOOLTIP: "§GRechtsklick§!, um ohne den §YForschungsbonus§! zu forschen! ($TIME_TEXT$)"
+ INDUSTRIAL_ORG_RESEARCH_TOOLTIP_MIO: "§GKlick§! zum Forschen\n§GShift+Klick§! zum Forschen ohne militärisch-industrielle Organisation"
+ INDUSTRIAL_ORG_RIGHT_CLICK_RESEARCH_TOOLTIP_MIO: "§GShift+Rechtsklick§! um ohne eine militärisch-industrielle Organisation und ohne Verwendung des §YForschungsbonus§! zu forschen ($TIME_TEXT$)"
+ INDUSTRIAL_ORG_RESEARCH_TOOLTIP_MIO_ALREADY_ASSIGNED: "§GKlicken§! zur Forschung\n§GShift+Klick§! zur Forschung mit $ORG|H$"
+ INDUSTRIAL_ORG_DELAYED_TOOLTIP_PRODUCE: "§GKlicken§! zum Start der Produktion\n§GShift+Klick§! produzieren ohne eine Militärisch Industrielle Organisation"
 
  INDUSTRIAL_ORG_PP_GENERATION_COST: "$ORGANIZATION_NAME$: $VALUE|2+=$"
 
@@ -167,8 +171,9 @@
  INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_NOT_VALID_ANYMORE_TOOLTIP: "§RDas Freischalten dieser Eigenschaft ist nicht mehr gültig§!"
 
  INDUSTRIAL_ORG_TRAIT_TOOLTIP_UNLOCK_: "§GKlicken§! für §Ykomplette Eigenschaft§!"
- INDUSTRIAL_ORG_TRAIT_TOOLTIP_ADD_TO_QUEUE_UNLOCK: "§GUmschalttaste + Klick§! zum §YHinzufügen einer Eigenschaft zur Vervollständigungswarteschlange§!"
- INDUSTRIAL_ORG_TRAIT_TOOLTIP_REMOVE_FROM_QUEUE_UNLOCK: "§GUmschalttaste + Klick§! zum §Entferne einer Eigenschaft aus der Fertigstellungswarteschlange§!"
+ INDUSTRIAL_ORG_TRAIT_TOOLTIP_ADD_TO_QUEUE_UNLOCK: "§GKlick§! zum §Hinzufügen einer Eigenschaft zur Vervollständigungswarteschlange§!"
+ INDUSTRIAL_ORG_TRAIT_TOOLTIP_SHIFT_CLICK_ADD_TO_QUEUE_UNLOCK: "§GShift+Klick§! zum Hinzufügen einer Eigenschaft zur Vervollständigungswarteschlange§!"
+ INDUSTRIAL_ORG_TRAIT_TOOLTIP_REMOVE_FROM_QUEUE_UNLOCK: "§GRechtsklick§! um die Eigenschaft aus der Vervollständigungswarteschlange zu entfernen§!"
  INDUSTRIAL_ORG_TRAIT_TOOLTIP_NOT_ENOUGH_FUNDS: "§REigenschaften können nur durch den Erwerb von Mitteln aus der Zuweisung zu Forschungs- oder Produktionslinien vervollständigt werden.§!"
  INDUSTRIAL_ORG_TRAIT_TOOLTIP_ORGANIZATION_AVAILABLE: "§GDie Militärisch Industrielle Organisation ist verfügbar§!"
  INDUSTRIAL_ORG_TRAIT_TOOLTIP_ORGANIZATION_NOT_AVAILABLE: "§RDie Militärisch Industrielle Organisation ist nicht verfügbar§!"
