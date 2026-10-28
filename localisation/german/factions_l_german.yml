@@ -178,7 +178,7 @@
  an_infantry_army_goal_name: "Erweiterung unserer Infanterietruppen"
  an_infantry_army_goal_desc: "Das Rückgrat jeder Armee ist ihre Infanterie. Wir brauchen eine große Infanterie, um unsere Ansprüche sowohl auf diplomatischer Ebene als auch im Feld zu untermauern."
  develop_ploiesti_oil_fields_goal_name: "Ausbau der Ölfelder von Ploiesti"
- develop_ploiesti_oil_fields_goal_desc: "Als einzige Ölfelder in Europa müssen die Ölfelder von Ploiești angemessen ausgebeutet werden, um sicherzustellen, dass die Allianz über den für die Fortsetzung der Militäroperationen erforderlichen Treibstoff verfügt."
+ develop_ploiesti_oil_fields_goal_desc: "Als einzige Ölfelder in Europa müssen die Ölfelder von Ploiesti angemessen ausgebeutet werden, um sicherzustellen, dass die Allianz über den für die Fortsetzung der Militäroperationen erforderlichen Treibstoff verfügt."
  develop_baku_oil_fields_goal_name: "Ausbau der Ölfelder von Baku"
  develop_baku_oil_fields_goal_desc: "Die Erschließung der Ölregion Baku würde umfangreiche raffinierte Erdölprodukte liefern, die für militärische Operationen von entscheidender Bedeutung sind."
  fortify_panama_canal_goal_name: "Panamakanal befestigen"
@@ -231,7 +231,7 @@
  air_superiority_goal_desc: "Die Kontrolle der Luft entscheidet über den Erfolg zu Lande und zu Wasser. Wir müssen über genügend Kampfflugzeuge verfügen, um unsere Luftüberlegenheit zu sichern."
  air_superiority_tech_bonus: "$air_superiority_goal_name$ Zielbonus"
  control_ploiesti_oil_fields_goal_name: "Kontrolle über die Ölfelder von Ploiesti"
- control_ploiesti_oil_fields_goal_desc: "Als einzige Ölfelder in Europa sind die Ölfelder von Ploiești von unschätzbarem Wert für die Allianz, um die für die Fortsetzung der Militäroperationen erforderlichen Treibstoffvorräte sicherzustellen."
+ control_ploiesti_oil_fields_goal_desc: "Als einzige Ölfelder in Europa sind die Ölfelder von Ploiesti von unschätzbarem Wert für die Allianz, um die für die Fortsetzung der Militäroperationen erforderlichen Treibstoffvorräte sicherzustellen."
  control_baku_oil_fields_goal_name: "Kontrolle über die Ölfelder von Baku"
  control_baku_oil_fields_goal_desc: "Die Sicherung der Ölregion Baku würde den Zugang zu umfangreichen Erdölreserven ermöglichen, die für militärische Operationen von entscheidender Bedeutung sind."
  control_panama_canal_goal_name: "Kontrolle über den Panamakanal"
@@ -415,7 +415,7 @@
 
 #SEA Faction Intelligence Agency
  FACTION_NO_AGENCY: "Kein Geheimdienst"
- FACTION_AGENCY_ADD: "§GKlicken Sie zum Hinzufügen von $GROUP|H$§!"
+ FACTION_AGENCY_ADD: "§GKlicken Sie§! zum Hinzufügen von $GROUP|H$§!"
  FACTION_SPY_MASTER: "Spionagechef"
  FACTION_HEAD_OF_CRYPTOLOGY: "Leiter der Kryptologie"
  FACTION_HEAD_OF_COUNTER_INTELLIGENCE: "Leiter der Spionageabwehr"
@@ -502,7 +502,7 @@
 
  FACTION_INTEL_OPEN_AGENCY_WINDOW: "Geheimdienst öffnen"
  FACTION_INTEL_UNLOCK_SPYMASTER: "Spionagechef werden £faction_initiative_texticon£ $VALUE$"
- FACTION_INTEL_CLICK: "§GHier klicken, um zum Fraktionsfenster zu gelangen§!"
+ FACTION_INTEL_CLICK: "§GHier klicken§! um zum Fraktionsfenster zu gelangen§!"
  FACTION_INTEL_SPY_GAIN: "$HEADOF$ $NUM|+=$"
 
  FACTION_INTEL_SPYMASTER_BONUS: "Sie können mehr Agenten kontrollieren, wobei die Anzahl von der Größe Ihrer Fraktion abhängt."
@@ -592,13 +592,13 @@
 
  REPLACE_GOAL_LOCKED: "§R$GOALNAME|H$ kann erst nach Abschluss ersetzt werden!§!"
  ADD_GOAL_TT_LOCK_WARNING: "§YEin Ziel kann nach dem Hinzufügen erst nach seiner Erreichung geändert werden!§!"
- REPLACE_GOAL_TT: "§GKlicken, zum Ersetzen§! $GOALNAME|H$"
+ REPLACE_GOAL_TT: "§GKlicken§! zum Ersetzen§! $GOALNAME|H$"
  REPLACE_GOAL_TT_COST: "Der Austausch würde £faction_initiative_texticon $COST|H.0$ kosten."
  REPLACE_GOAL_TT_COST_CANNOT_AFFORD: "§RDas Ziel kann nicht ersetzt werden, da es £faction_initiative_texticon $COST|.0$ § kostet!"
  ADD_GOAL_DESCRIPTION: "Möchten Sie wirklich $GOALNAME|H$ hinzufügen? Das Ersetzen kostet £faction_initiative_texticon $COST|.0$."
  ADD_GOAL_DESCRIPTION_FREE: "Möchten Sie wirklich $GOALNAME|H$ hinzufügen?"
  GOAL_CONFIRMATION_DESCRIPTION_LOCKED: "§RSie können dieses Ziel erst ersetzen, wenn es abgeschlossen ist.§!"
- ADD_GOAL: "§GKlicken, um Ziel hinzuzufügen§!"
+ ADD_GOAL: "§GKlicken§! um Ziel hinzuzufügen§!"
  REPLACE_GOAL_DESCRIPTION: "Möchten Sie $GOALSTATE$$OLDGOALNAME|H$ wirklich durch $GOALNAME|H$ ersetzen? "
  REPLACE_GOAL_DESCRIPTION_COST: "Es kostet £faction_initiative_texticon $COST|.0$."
  GOAL_COMPLETED: "fertiggestellt "
