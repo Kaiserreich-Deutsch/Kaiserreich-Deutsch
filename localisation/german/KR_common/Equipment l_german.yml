@@ -4013,24 +4013,26 @@ FNG_armored_car_at_equipment_short: "Type 4 Armoured Car"
 
 #Artillery
 
-FNG_artillery_equipment_1: "Type 95 75 mm"
-FNG_artillery_equipment_1_short: "Type 95 75 mm"
-FNG_artillery_equipment_2: "Type 91 10 cm"
-FNG_artillery_equipment_3: "Type 96 15 cm"
+FNG_artillery_equipment_1: "Type 94 75 mm Mountain Gun"
+FNG_artillery_equipment_1_short: "Type 94 75 mm"
+FNG_artillery_equipment_2: "Type 96 15 cm"
+FNG_artillery_equipment_3: "Type 5 15 cm"
 
 FNG_anti_tank_equipment_1: "Type 94 37 mm"
 FNG_anti_tank_equipment_1_short: "Type 94"
 FNG_anti_tank_equipment_2: "Type 1 47 mm"
-FNG_anti_tank_equipment_3: "Type 4 75 mm"
+FNG_anti_tank_equipment_3: "Type 5 105 mm"
 
 FNG_anti_air_equipment_1: "Type 98 20 mm"
 FNG_anti_air_equipment_1_short: "Type 98 20 mm"
 FNG_anti_air_equipment_2: "Type 2 20 mm"
-FNG_anti_air_equipment_3: "Type 3 80 mm"
+FNG_anti_air_equipment_3: "Type 4 75 mm"
 
 FNG_rocket_artillery_equipment_1: "Type 4 20 cm Rocket Mortar"
 FNG_rocket_artillery_equipment_1_short: "Type 4 20 cm"
 FNG_rocket_artillery_equipment_2: "Type 4 40 cm Rocket Mortar"
+FNG_super_heavy_artillery_equipment_1: "Type 96 24 cm"
+FNG_super_heavy_artillery_equipment_1_short: "Type 96 24 cm"
 
 ###
 ### Patagonia ###
@@ -6312,54 +6314,6 @@ IKH_infantry_equipment_0: "Short Model Lee–Enfield Mk I"
 IKH_infantry_equipment_0_short: "SMLE Mk 1"
 
 ###
-### Indochina ###
-###
-
-### Land ###
-
-#Infantry Equipment
-
-INC_infantry_equipment_0: "Le fusil Mle 1902 Indochinois"
-INC_infantry_equipment_0_short: "Mle 1902 Indochinois"
-INC_infantry_equipment_0_desc: "Leichter und einfacher zu handhaben und zu laden als das Gewehr Mle 1886/M93 Lebel, erwies sich das Berthier-Füsil Mle 1902 'Indochinois' als besser geeignet für das Schießen aus der Hand und einfacher zu warten in tropischer Umgebung und wurde in Indochina eingesetzt."
-INC_infantry_equipment_1: "MAS Modèle 1936"
-INC_infantry_equipment_1_short: "MAS-36"
-INC_infantry_equipment_2: "MAS Modèle 1938"
-INC_infantry_equipment_2_short: "MAS-38"
-INC_infantry_equipment_3: "K-100M"
-INC_infantry_equipment_3_short: "K-100M"
-INC_infantry_equipment_3_desc: "Im Gegensatz zu anderen indochinesischen Standardwaffen, die aus der französischen Kommune stammen, ist die K-100M-Maschinenpistole ein Umbau der japanischen Maschinenpistole Typ 100. Der japanische Typ 100 ist typisch für die Klasse der einfachen, preiswerten Maschinenpistolen der Kriegszeit und wurde daher von lokalen indochinesischen Werkstätten nachgeahmt und in kompaktere und wendigere K-100M-Versionen umgewandelt."
-INC_support_weapons: "FM Chauchat & Stokes mortar"
-INC_support_weapons2: "Hotchkiss M1914 & Brandt Mle 1935"
-INC_support_weapons3: "FM 24/29 & Brandt Mle 27/31"
-INC_support_weapons4: "Hotchkiss M1922 & Brandt Mle 1942"
-
-#Motorised
-
-INC_motorized_equipment_1: "Citroën U23"
-INC_mechanized_equipment_2: "SOMUA MCG"
-INC_mechanized_equipment_2_short: "SOMUA MCG"
-INC_mechanized_equipment_3: "AMX-VCI"
-INC_mechanized_equipment_3_short: "AMX-VCI"
-
-#Artillery
-
-INC_artillery_equipment_1: "Canon de 75 modèle 1897"
-INC_artillery_equipment_1_short: "Canon de 75 mle 1897"
-INC_artillery_equipment_2: "Canon de 105 L mle 1936"
-INC_artillery_equipment_3: "Canon de 155mm GPF"
-
-INC_anti_tank_equipment_1: "Canon de 25 mm"
-INC_anti_tank_equipment_1_short: "Canon de 25 mm"
-INC_anti_tank_equipment_2: "47mm SA 37"
-INC_anti_tank_equipment_3: "Canon de 76 mm modèle 1943"
-
-INC_anti_air_equipment_1: "Hotchkiss 25mm"
-INC_anti_air_equipment_1_short: "Hotchkiss 25 mm"
-INC_anti_air_equipment_2: "Schneider 37 mm"
-INC_anti_air_equipment_3: "Canon de 75 CA modèle 1940"
-
-###
 ### Indonesia ###
 ###
 
@@ -6865,15 +6819,18 @@ JAP_advanced_infantry_weapons2_desc: "Diese Modifikation des Typs 100 aus dem Ja
 
 #Motorised
 
-JAP_motorized_equipment_0: "Lkw der Tokyo Gas and Electric Company"
-JAP_motorized_equipment_0_short: "TGE Truck"
-JAP_motorized_equipment_1: "Type 94"
-JAP_mechanized_equipment_1: "Type 98 So-Da"
-JAP_mechanized_equipment_1_short: "So-Da"
-JAP_mechanized_equipment_2: "Type 1 Ho-Ki"
-JAP_mechanized_equipment_2_short: "Ho-Ki"
-JAP_mechanized_equipment_3: "Type 1 Ho-Ha"
-JAP_mechanized_equipment_3_short: "Ho-Ha"
+JAP_motorized_equipment_0: "Type 94"
+JAP_motorized_equipment_0_short: "Type 94"
+JAP_motorized_equipment_1: "Type 97"
+JAP_motorized_equipment_1_short: "Type 97"
+JAP_motorbike_equipment_1: "Type 97 Rikuo"
+JAP_motorbike_equipment_1_short: "Rikuo"
+JAP_mechanized_equipment_1: "Type 1 Ho-Ki"
+JAP_mechanized_equipment_1_short: "Ho-Ki"
+JAP_mechanized_equipment_2: "Type 1 Ho-Ha"
+JAP_mechanized_equipment_2_short: "Ho-Ha"
+JAP_mechanized_equipment_3: "Type 4 Chi-So"
+JAP_mechanized_equipment_3_short: "Chi-So"
 
 #Amphibious
 JAP_amphibious_mechanized_equipment_1: "Toyota Su-Ki"
@@ -6904,23 +6861,29 @@ JAP_train_equipment_3_desc: "Der Typ 94, der auf den Erfahrungen mit dem Improvi
 JAP_railway_gun_equipment_1: "Kaiserlich Japanische Armee Typ 90 365mm Eisenbahngeschütz" # fictional combination of both the Type 90 240mm and the Vickers 14”/45 or 14”/36cm 41st year type
 JAP_railway_gun_equipment_1_short: "IJA Type 90"
 JAP_railway_gun_equipment_1_desc: "Das von der IJN erworbene, abgenutzte und zuverlässige Vickers 14 Zoll/45 Marinegeschütz wurde überholt und kurzzeitig als Küstenartillerie eingesetzt, bevor es auf eine spezielle Artillerie-Lafette montiert wurde. Das Eisenbahngeschütz war mit 360-Grad-Traversen ausgestattet und verfügte über einen Hilfsmotor, der dem Geschütz eine begrenzte Autonomie verlieh."
+JAP_super_heavy_railway_gun_equipment_1: "75-cm-Eisenbahnkanone Typ 3 der Kaiserlich Japanischen Armee" # fictional, name from Lamp's Eqpt Icons
+JAP_super_heavy_railway_gun_equipment_1_short: "IJA Type 3"
+JAP_super_heavy_railway_gun_equipment_1_desc: "Aus den Erfahrungen mit der Eisenbahnkanone vom Typ 90 lernend und zufrieden mit deren Ergebnissen (sowie der Zerstörung, die sie beim Feind angerichtet hatte), machte sich das Oberkommando der Armee daran, einen noch größeren Nachfolger zu bauen, diesmal mit einer neu entwickelten 75-cm-Kanone, die größer war als jede andere Kanone, die bei der japanischen Armee oder Marine im Einsatz stand."
 
 #Artillery
 
 JAP_artillery_equipment_1: "Type 95 75 mm"
 JAP_artillery_equipment_1_short: "Type 95 75 mm"
-JAP_artillery_equipment_2: "Type 91 10 cm"
-JAP_artillery_equipment_3: "Type 96 15 cm"
+JAP_artillery_equipment_2: "Type 96 15 cm"
+JAP_artillery_equipment_3: "Type 5 15 cm"
+JAP_super_heavy_artillery_equipment_1: "Type 96 24 cm"
+JAP_super_heavy_artillery_equipment_1_short: "Type 96 24 cm"
+JAP_super_heavy_artillery_equipment_1_desc: "Seit der Belagerung und Einnahme von Port Arthur im Jahr 1905 während des Russisch-Japanischen Krieges hat die Kaiserliche Japanische Armee erhebliche Mittel in die Entwicklung schwerer Artillerie investiert. Nach mehreren nur teilweise erfolgreichen Konstruktionen entstand die 24-cm-Haubitze vom Typ 96: größer als jede zuvor gebaute Belagerungskanone, zerstörerischer und mobiler als ihre Vorgänger, wenn auch deutlich ungenauer."
 
 JAP_anti_tank_equipment_1: "Type 94 37 mm"
 JAP_anti_tank_equipment_1_short: "Type 94 37 mm"
 JAP_anti_tank_equipment_2: "Type 1 47 mm"
-JAP_anti_tank_equipment_3: "Type 4 75 mm"
+JAP_anti_tank_equipment_3: "Type 5 105 mm"
 
 JAP_anti_air_equipment_1: "Type 98 20 mm"
 JAP_anti_air_equipment_1_short: "Type 98 20 mm"
 JAP_anti_air_equipment_2: "Type 2 20 mm"
-JAP_anti_air_equipment_3: "Type 3 80 mm"
+JAP_anti_air_equipment_3: "Type 4 75 mm"
 
 JAP_rocket_artillery_equipment_1: "Type 4 20 cm Rocket Mortar"
 JAP_rocket_artillery_equipment_1_short: "Type 4 20 cm"
@@ -13169,12 +13132,48 @@ USA_super_heavy_railway_gun_equipment_1_short: "406-mm M1936 Eisenbahngeschütz"
 ###
 
 ### Land ###
+
+#Infantry Equipment
+
 VIN_infantry_equipment_0: "Le fusil Mle 1902 Indochinois"
 VIN_infantry_equipment_0_short: "Mle 1902 Indochinois"
 VIN_infantry_equipment_0_desc: "Leichter und einfacher zu handhaben und zu laden als das Gewehr Mle 1886/M93 Lebel, erwies sich das Berthier-Füsil Mle 1902 'Indochinois' als besser geeignet für das Schießen aus der Hand und einfacher zu warten in tropischer Umgebung und wurde in Indochina eingesetzt."
-VIN_infantry_equipment_1: "$MAF_infantry_equipment_1$"
-VIN_infantry_equipment_1_short: "$MAF_infantry_equipment_1_short$"
-VIN_infantry_equipment_1_desc: "$MAF_infantry_equipment_1_desc$"
+VIN_infantry_equipment_1: "MAS Modèle 1936"
+VIN_infantry_equipment_1_short: "MAS-36"
+VIN_infantry_equipment_2: "MAS Modèle 1938"
+VIN_infantry_equipment_2_short: "MAS-38"
+VIN_infantry_equipment_3: "K-100M"
+VIN_infantry_equipment_3_short: "K-100M"
+VIN_infantry_equipment_3_desc: "Im Gegensatz zu anderen indochinesischen Standardwaffen, die ihren Ursprung in der Pariser Kommune hatten, handelt es sich bei der Maschinenpistole K-100M um eine Umbauversion der japanischen Maschinenpistole Typ 100. Der japanische Typ 100 ist ein typisches Beispiel für einfache, kostengünstige Kriegszeit-Maschinenpistolen und wurde daher von lokalen indochinesischen Werkstätten nachgebaut und zu kompakteren und wendigeren K-100M-Versionen umgebaut."
+VIN_support_weapons: "FM Chauchat & Stokes mortar"
+VIN_support_weapons2: "Hotchkiss M1914 & Brandt Mle 1935"
+VIN_support_weapons3: "FM 24/29 & Brandt Mle 27/31"
+VIN_support_weapons4: "Hotchkiss M1922 & Brandt Mle 1942"
+
+#Motorised
+
+VIN_motorized_equipment_1: "Citroën U23"
+VIN_mechanized_equipment_2: "SOMUA MCG"
+VIN_mechanized_equipment_2_short: "SOMUA MCG"
+VIN_mechanized_equipment_3: "AMX-VCI"
+VIN_mechanized_equipment_3_short: "AMX-VCI"
+
+#Artillery
+
+VIN_artillery_equipment_1: "Canon de 75 modèle 1897"
+VIN_artillery_equipment_1_short: "Canon de 75 mle 1897"
+VIN_artillery_equipment_2: "Canon de 105 L mle 1936"
+VIN_artillery_equipment_3: "Canon de 155mm GPF"
+
+VIN_anti_tank_equipment_1: "Canon de 25 mm"
+VIN_anti_tank_equipment_1_short: "Canon de 25 mm"
+VIN_anti_tank_equipment_2: "47mm SA 37"
+VIN_anti_tank_equipment_3: "Canon de 76 mm modèle 1943"
+
+VIN_anti_air_equipment_1: "Hotchkiss 25mm"
+VIN_anti_air_equipment_1_short: "Hotchkiss 25 mm"
+VIN_anti_air_equipment_2: "Schneider 37 mm"
+VIN_anti_air_equipment_3: "Canon de 75 CA modèle 1940"
 
 ###
 ### Venezuela ###

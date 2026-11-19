@@ -690,7 +690,7 @@ SHX_bop_supreme_range: "GMJ Vorherrschaft"
 ####- Variables -###
 ####################
 GMJ_strength_variable: "Guominjun Stärke"
-QIE_eco_icon_value: "[?SHX.SHX_QIE_influence_variable|0H]"
+QIE_eco_icon_value: "  [?SHX.SHX_QIE_influence_variable|0H]"
 QIE_eco_full_influence_breakdown: "[Root.GetNameDefCap] [ROOT.GetFlag] dat [?SHX.SHX_QIE_influence_variable|0]% §HWirtschaftlichen Einfluss§!\n"
 
 SHX_QIE_eco_invest_choice_small_texticon: "[QIE.GetFlag] 5% oder £pol_power [?SHX_pay_with_pp_small_variable]"
