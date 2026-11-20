@@ -223,14 +223,12 @@ WAR_NAME_VNC_ITA: "Venezianischer Freiheitskrieg"
 WAR_NAME_ITA_VNC: "Venezianische Revolte"
 
 ### Indochina War ###
-WAR_NAME_INC_GEA: "Indochinischer Anti-Deutscher Widerstandskrieg"
-WAR_NAME_INC_VIN: "Vereinigungskrieg in Vietnam"
-WAR_NAME_GEA_INC: "$ORDER$ Indochina Krieg"
-WAR_NAME_VIN_INC: "Befriedung des Vietminh"
+ WAR_NAME_VIN_GEA: "Anti-Deutsche Widerstandskrieg in Vietnam"
+ WAR_NAME_GEA_VIN: "$ORDER$ Indochina-Krieg"
 
-### SIA-INC War ###
-WAR_NAME_INC_SIA: "Indochinesische Befreiung der Mekong-Territorien"
-WAR_NAME_SIA_INC: "Mekong Krieg"
+### SIA-VIN War ###
+ WAR_NAME_VIN_SIA: "Befreiung der Mekong-Gebiete durch Vietnam"
+ WAR_NAME_SIA_VIN: "Mekong-Krieg"
 
 ### Peru-Ecuador War ###
 WAR_NAME_PRU_ECU: "Pastaza Krieg"
@@ -334,7 +332,6 @@ WAR_NAME_QIE_SZC: "Intervention Pekings in Sichuan"
 WAR_NAME_QIE_SIK: "Pekings Wiedereingliederung von Xinjiang" 
 WAR_NAME_QIE_MON: "Pekings Rückeroberung der Mongolei" 
 WAR_NAME_QIE_TIB: "Pekings Rückeroberung von Tibet" 
-WAR_NAME_QIE_INC: "Intervention Pekings in Annam"
 WAR_NAME_QIE_VIN: "Intervention Pekings in Annam"
 
 # Initiator: FNG, Fengtian Government
@@ -348,7 +345,6 @@ WAR_NAME_FNG_SZC: "Fengtian Intervention in Sichuan"
 WAR_NAME_FNG_SIK: "Fengtian Wiedereingliederung von Xinjiang" 
 WAR_NAME_FNG_MON: "Fengtian Rückeroberung von Mongolia" 
 WAR_NAME_FNG_TIB: "Fengtian Rückeroberung von Tibet" 
-WAR_NAME_FNG_INC: "Fengtian Intervention in Annam"
 WAR_NAME_FNG_VIN: "Fengtian Intervention in Annam"
 
 # Initiator: CHI, Left Kuomintang / Nationalist China
@@ -364,8 +360,7 @@ WAR_NAME_CHI_XSM: "Nordwest-Expedition"
 WAR_NAME_CHI_LEC: "Anti-Konzessionskrieg"
 WAR_NAME_CHI_SIK: "Chinese Wiedereingliederung von Xinjiang" 
 WAR_NAME_CHI_MON: "Chinese Wiedereingliederung von Mongolia" 
-WAR_NAME_CHI_TIB: "Chinese Wiedereingliederung von Tibet" 
-WAR_NAME_CHI_INC: "Chinesische Intervention in Annam"
+WAR_NAME_CHI_TIB: "Chinese Wiedereingliederung von Tibet"
 WAR_NAME_CHI_VIN: "Chinesische Intervention in Annam"
 
 # Initiator: GXC, SZC, HNN, YUN- Federalist Tags
@@ -385,13 +380,9 @@ WAR_NAME_GXC_MON: "$ORDER$$FIRST$ Wiedereingliederung von Mongolia"
 WAR_NAME_SZC_MON: "$ORDER$$FIRST$ Wiedereingliederung von Mongolia"
 WAR_NAME_HNN_MON: "$ORDER$$FIRST$ Wiedereingliederung von Mongolia"
 WAR_NAME_YUN_MON: "$ORDER$$FIRST$ Wiedereingliederung von Mongolia"
-WAR_NAME_GXC_INC: "Chinesische Intervention in Annam"
 WAR_NAME_GXC_VIN: "Chinesische Intervention in Annam"
-WAR_NAME_SZC_INC: "Chinesische Intervention in Annam"
 WAR_NAME_SZC_VIN: "Chinesische Intervention in Annam"
-WAR_NAME_HNN_INC: "Chinesische Intervention in Annam"
 WAR_NAME_HNN_VIN: "Chinesische Intervention in Annam"
-WAR_NAME_YUN_INC: "Chinesische Intervention in Annam"
 WAR_NAME_YUN_VIN: "Chinesische Intervention in Annam"
 WAR_NAME_GXC_QIE: "Chinesischer Bürgerkrieg" 
 WAR_NAME_GXC_FNG: "Chinesischer Bürgerkrieg" 
