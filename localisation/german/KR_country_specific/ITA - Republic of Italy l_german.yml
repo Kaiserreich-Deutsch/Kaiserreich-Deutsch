@@ -26,64 +26,7 @@ ITA_national_populist_party_long: "Associazione Nazionalista Italiana (Italienis
 ITA_authoritarian_democrat_federation_party: "Consiglio Federale (Förderationsrat)"
 ITA_authoritarian_democrat_federation_party_long: "Consiglio della Federazione Italiana (Rat der Italienischen Föderation)"
 
-### Companies ###
-agip: "Agip"
-italian_state_railways: "[ROOT.GetAdjective] Staatliche Eisenbahnen"
-danieli: "Danieli"
-italcementi: "Italcementi"
-astaldi: "Astaldi"
-ansaldo: "Ansaldo"
-SRI_ansaldo: "Industrie Belliche Liguri"
-ducati: "Ducati"
-ilva: "Ilva"
-edison: "Edison"
-societa_meridionale_elettricita: "Società Meridionale di Elettricità"
-
-beretta: "Beretta"
-armiguerra: "Armiguerra"
-fabbrica_darmi_torre_annunziata: "Fabbrica d'Armi di Torre Annunziata"
-
-breda: "Breda"
-
-ansaldo_artillery: "Ansaldo"
-SRI_ansaldo_artillery: "Industrie Belliche Liguri"
-acciaierie_di_terni: "Acciaierie di Terni"
-
-officine_meccaniche: "Officine Meccaniche"
-lancia: "Lancia"
-
-fiat: "FIAT"
-ansaldo_tanks: "Ansaldo"
-SRI_ansaldo_tanks: "Industrie Belliche Liguri"
-
-cantieri_navali_riuniti: "Cantieri Navali Riuniti"
-cantieri_navali_livorno: "Cantieri Navali di Livorno"
-cantiere_navale_ancona: "Cantiere Navale di Ancona"
-stabilimenti_navali_meccanici_napoletani: "Stabilimenti Navali e Meccanici Napoletani"
-cantieri_navali_tosi_di_taranto: "Cantieri Navali Tosi di Taranto"
-arsenale_venezia: "Arsenale di Venezia"
-
-macchi: "Macchi"
-savoia_marchetti: "Savoia-Marchetti"
-caproni: "Caproni"
-piaggio: "Piaggio"
-imam: "IMAM"
-fiat_aviazione: "FIAT Aviazione"
-reggiane: "Reggiane"
-cmasa: "CMASA"
-
-### MIO Traits ###
-ITALY_mio_trait_air_race_pedigree: "Luftrennen-Ahnentafel"
-ITALY_mio_trait_special_aerotorpedoes_unit: "Spezielle Luft-Torpedo-Einheit"
-ITALY_mio_trait_remote_operated: "Ferngesteuert"
-ITALY_mio_trait_high_altitude_fighter_development: "Entwicklung von Höhenjägern"
-
-### World Tension ###
-italian_wars_threat: "Italienischer Bürgerkrieg"
-
 ### Ideas ###
-italy_balance_idea: "Das prekäre Gleichgewicht"
-italy_balance_idea_desc: "Italien befindet sich derzeit in einer unangenehmen Lage zwischen den europäischen Großmächten. Jede der verschiedenen Regierungen hat ausländische Sponsoren, die möglicherweise in einen erneuten italienischen Bürgerkrieg eingreifen könnten - aber alle diese Sponsoren sind sich darüber im Klaren, dass sie damit ihre Rivalen provozieren und den gesamten Kontinent in einen Konflikt hineinziehen würden. Ihr gegenseitiger Unwille, dieses Wagnis einzugehen, hat dazu beigetragen, dass die Halbinsel weiterhin geteilt bleibt.\n\nDieses Machtgleichgewicht besteht fort: Alle ausländischen Hilfen für Italien wurden bisher auf Armlänge gehalten, nur auf der Ebene von Material und Know-how. Solange kein Staat direkt in einen italienischen Konflikt eintritt, wird dies auch so bleiben. Tritt jedoch ein ausländisches Bündnis in einen solchen Krieg ein, ist alles möglich - und es ist zu erwarten, dass sich alle anderen Geldgeber anschließen werden."
 ITA_republic_federation: "Die instabile Republik"
 ITA_republic_federation_desc: "Als unsere Nation 1920 von Österreich gerettet wurde, zwangen uns die Habsburger, viel Macht an unsere Gliedstaaten, vor allem Venetien, als Teil der Italienischen Föderation abzugeben. Diese ist jedoch seit sechs Jahren vertagt und faktisch aufgelöst, was zu einer verwirrenden bürokratischen Situation führt. Auch die Opposition sorgt immer wieder für Unruhe: Die einen fordern die Wiederherstellung der Föderation, die anderen das Ende der Demokratie und des österreichischen Einflusses insgesamt. Es ist unwahrscheinlich, dass sich die politische Situation in nächster Zeit stabilisieren wird."
 ITA_republic_unitary: "Der neue Einheitsstaat"
@@ -137,7 +80,6 @@ ITA_italian_federation_idea: "Die Italienische Föderation"
 
 ### Flags and tooltips###
 ITA_black_monday_over: "Schwarzer Montag ist vorbei"
-ITA_united_italia: "Italien ist wiedervereint"
 ITA_calling_elections_tooltip: "Die Wahlen finden später im Jahr statt"
 ITA_the_general_election_has_occured: "Die allgemeinen Wahlen von 1937 haben stattgefunden"
 ITA_anni_di_piombo: "Jahre der Führung"
@@ -146,12 +88,6 @@ ITA_republic_survives_tooltip: "Die Republik hat an ihrer Demokratie festgehalte
 ITA_monarchy_has_been_established: "Der Föderationsrat hat Verstärkung bekommen"
 ITA_venetian_dissent_eliminated: "Der Widerstand in Venedig wurde beseitigt"
 ITA_irredentist_decisions: "Darf §YIrredentistische§! Entscheidungen nutzen, um Territorium zu beanspruchen\n"
-NAME_THEME_HISTORICAL_NAUTILUS_SUBMARINES: "U-Boote der historischen 'Nautilus'-Klasse"
-NAME_THEME_HISTORICAL_SLA_SUBMARINES: "U-Boote der historischen 'SLA'-Klasse"
-NAME_THEME_HISTORICAL_FHNX_SUBMARINES: "U-Boote der historischen 'F/H/N/X'-Klasse"
-NAME_THEME_HISTORICAL_GIACINTO_SUBMARINES: "U-Boote der historischen 'Giacinto'-Klasse"
-NAME_THEME_HISTORICAL_SEI_SUBMARINES: "U-Boote der historischen 'SEI'-Klasse"
-NAME_THEME_POPES: "Päpste"
 
 ITA_restore_monarchy_focus_condition: "§LWenn §Y[SRD.GetNameDef]§! nicht existiert, sind wir keine §YMonarchie§! und wir sind im Frieden mit der §YEntente§!§!"
 ITA_restore_monarchy_umberto_tt: "Der §YFürst von Piemont§! wird als §YUmberto II.§! zum König von Italien."
@@ -159,14 +95,7 @@ ITA_restore_monarchy_amedeo_tt: "Der §YHerzog von Aosta§! wird als §YAmedeo I
 ITA_will_offer_restoration_of_monarchy: "Wir werden die §YWiederherstellung der Monarchie§! unter §YAmedeo I.§ anbieten!"
 ITA_will_offer_restoration_of_monarchy_under_umberto: "Wir werden die §YWiederherstellung der Monarchie§! unter §YUmberto II.§! anbieten"
 
-italy_irredentist_decisions_unlocked: "[Italy_GetIrredentistFocusTriggerLoc]"
- italian_unifier: "Ist ein Italienischer Einiger"
-
- collection_catholic_countries: "Katholische Länder"
-
 ### Decisions ###
-ITA_foreign_policy: "Außenpolitik"
-ITA_foreign_policy_desc: "Es ist von entscheidender Bedeutung, dass wir beginnen, unseren Fokus nach außen zu verlagern und Allianzen zu schmieden und/oder Beziehungen zu anderen Nationen aufzubauen, um unsere Position auf der Weltbühne zu festigen."
 ITA_remove_austrian_influence: "Österreichischen Einfluss entfernen"
 ITA_remove_austrian_influence_desc: "Die Österreicher haben immer noch einen starken Einfluss auf die [Root.GetAdjective]-Wirtschaft - zu stark, um genau zu sein. Auch wenn es kurzfristig schmerzhaft sein mag, wäre es langfristig lohnenswert, Unternehmen in österreichischem Besitz in [Root.GetNameDef] zu verstaatlichen und unsere vollständige wirtschaftliche Unabhängigkeit zu erklären."
 ITA_attack_austria: "Österreicher angreifen"
@@ -188,52 +117,12 @@ ITA_invite_into_federation_2: "Vorschlag zur Wiedereinführung der Monarchie"
 ITA_invite_into_federation_desc: "Da die Bedrohung durch die sozialistische Republik nun beseitigt ist, ist es vielleicht an der Zeit, die durch den Bürgerkrieg verursachten Risse zu heilen. Da wir uns auf der italienischen Halbinsel in einer klar dominierenden Position befinden, fällt es uns zu, den Weg zu weisen."
 ITA_rally_supporters: "Unterstützung innerhalb der SRI sammeln"
 ITA_rally_supporters_desc: "Es gibt ein Netzwerk des Widerstands gegen die Syndikalisten innerhalb von [SRI.GetNameDef], diejenigen, die sich erheben würden, wenn sie gerufen werden. Sie haben seit dem Bürgerkrieg gearbeitet, und obwohl ihre Kräfte das Gleichgewicht letztlich nicht zu unseren Gunsten kippen könnten, können wir jede Hilfe gebrauchen, die verfügbar ist."
-ITA_claim_libya: "Libyen beanspruchen"
-ITA_claim_libya_desc: "Bis Italien im Weltkrieg verlor und unsere libysche Kolonie wieder unter osmanische Herrschaft geriet, war sie unsere wichtigste Kolonie - eine Erweiterung Italiens selbst, nicht irgendein weit entfernter Besitz. Wir hatten große Pläne für diese Region. Jetzt, da unsere Nation wiederhergestellt ist, ist die Zeit gekommen, das einzufordern, was rechtmäßig uns gehört."
-ITA_war_for_libya: "Kriegserklärung an [From.GetNameDef]"
-ITA_war_for_libya_desc: "Die Zeit ist gekommen, Libyen zurückzuerobern, und das bedeutet einen Krieg mit [From.GetNameDef], um es zu bekommen. Viva l'Italia!"
-ITA_demand_libya: "Forderung Libyen"
-ITA_demand_libya_desc: "[From.GetNameDefCap] ist der derzeitige Oberherr unseres Libyen-Territoriums, und es ist an der Zeit, zu verlangen, dass sie es uns zurückgeben ... oder es bedeutet Krieg, genau wie im Jahr 1912."
 ITA_join_reichspakt: "Beitritt zum Reichspakt"
 ITA_join_reichspakt_desc: "Da Österreich nun aus dem Spiel ist, stehen wir als stärkster südlicher Verbündeter für die Deutschen zur Verfügung - und wir für sie."
 ITA_join_entente: "Beitritt zur Entente"
 ITA_join_entente_desc: "1915 haben wir uns auf die Seite der Westmächte gestellt, und wir tun es wieder! Wir lassen den verbannten König zurückkehren und nehmen an der Heimkehr zur Wiederherstellung der Ordnung in Europa teil."
 ITA_join_moscow_accord: "Angleichung an Russland"
 ITA_join_moscow_accord_desc: "Die verfluchten italienischen Syndikalisten gibt es nicht mehr, und mit ihrem Sturz gibt es auch keinen Grund mehr für uns, uns nicht mit den Russen zusammenzutun und den deutsch-österreichischen Block endgültig zu zerschlagen."
-ITA_resorgimento_decisions: "Risorgimento"
-ITA_resorgimento_decisions_desc: "Italien ist seit dem Italienischen Bürgerkrieg von 1920 gespalten. Monarchisten, Sozialisten, Republikaner und Exilanten blicken sich hinter ihren Festungsmauern gegenseitig an. Angesichts dieser Spaltung sind sich nur wenige der schnellen Wiedervereinigung Italiens sicher. So Gott will, werden wir jedoch bald alle Italiener in einem neuen Risorgimento vereinen, wie das von Cavour und den Savoyarden vor siebzig Jahren."
-ITA_claim_ticino: "Etablierung eines irredentistischen Anspruchs auf das Tessin"
-ITA_claim_ticino_desc: "Das Tessin ist eine überwiegend von Italienern bewohnte Region der Schweiz, und es liegt in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-ITA_claim_nice: "Irredentistischen Anspruch auf Nizza erheben"
-ITA_claim_nice_desc: "Nizza, das 1860 von Frankreich annektiert wurde, gehört eigentlich zur italienischen Domäne, und es liegt in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-ITA_claim_savoy: "Irredentistischen Anspruch auf Savoyen erheben"
-ITA_claim_savoy_desc: "Savoyen, das 1860 von Frankreich annektiert wurde, gehört rechtmäßig zur italienischen Domäne, und es ist in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-ITA_claim_upper_savoy: "Irredentistischen Anspruch auf Obersavoyen erheben"
-ITA_claim_upper_savoy_desc: "Obersavoyen, das 1860 von Frankreich annektiert wurde, gehört rechtmäßig zur italienischen Domäne, und es ist in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-ITA_claim_trentino: "Irredentistischer Anspruch auf Trentino etablieren"
-ITA_claim_trentino_desc: "Einst italienisches Territorium, wurde das Trentino nach den napoleonischen Kriegen an die Österreicher übergeben, und es liegt in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-ITA_claim_southern_tyrol: "Etablierung eines irredentistischen Anspruchs auf Südtirol"
-ITA_claim_southern_tyrol_desc: "Während unser Anspruch auf das Gebiet schwach ist, ist Südtirol eine Erweiterung des Trentino und war einst Teil der römischen Domäne. Es ist in unserem Interesse, einen dauerhafteren Anspruch auf die Region zu erheben."
-ITA_claim_trieste: "Irredentistischen Anspruch auf Triest erheben"
-ITA_claim_trieste_desc: "Lange Zeit vom österreichischen Kaiserreich beherrscht, ist Triest immer noch ein eigenes italienisches Territorium und es liegt in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-ITA_claim_gorizia: "Feststellung des irredentistischen Anspruchs auf Görz"
-ITA_claim_gorizia_desc: "Görz, das einst zum Herrschaftsgebiet Venedigs gehörte, ist heute italienisches Territorium, und es liegt in unserem Interesse, einen dauerhaften Anspruch auf diese Region zu erheben."
-ITA_claim_istria: "Begründung eines irredentistischen Anspruchs auf Istrien"
-ITA_claim_istria_desc: "Einst Teil der Domäne Venedigs, ist Istrien heute eigentlich italienisches Territorium und es liegt in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-ITA_claim_dalmatia: "Etablierung eines irredentistischen Anspruchs auf die dalmatinische Küste"
-ITA_claim_dalmatia_desc: "Einst Teil der Domäne Venedigs, ist die dalmatinische Küste heute eigentlich italienisches Territorium und es liegt in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-ITA_claim_cattaro: "Feststellung des irredentistischen Anspruchs auf Cattaro"
-ITA_claim_cattaro_desc: "Der Hafen von Cattaro, der einst zu Venedig gehörte, ist heute italienisches Hoheitsgebiet, und es liegt in unserem Interesse, einen dauerhaften Anspruch auf diese Region zu erheben."
-ITA_claim_fiume: "Irredentistischen Anspruch auf Fiume erheben"
-ITA_claim_fiume_desc: "Einst Teil der Domäne von Venedig, ist Fiume heute italienisches Territorium und es liegt in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-ITA_claim_malta: "Feststellung des irredentistischen Anspruchs auf Malta"
-ITA_claim_malta_desc: "Die Insel Malta ist ein integraler Bestandteil Italiens, und es ist in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-ITA_claim_corsica: "Irredentistischen Anspruch auf Korsika erheben"
-ITA_claim_corsica_desc: "Einst Teil des Reiches von Genua, ist Korsika heute eigentlich italienisches Territorium und es liegt in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-VNC_claim_adriatic: "Irredentistischen Anspruch auf [From.GetName] erheben"
-VNC_claim_adriatic_desc: "Einst Teil der Domäne von Venedig, ist [From.GetName] heute eigentlich [ROOT.GetAdjective]-Gebiet und es ist in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
-VNC_claim_albania: "Feststellung des irredentistischen Anspruchs auf Albanien"
-VNC_claim_albania_desc: "Albanien war einst Teil der Domäne von Venedig und ist heute eigentlich [ROOT.GetAdjective] Territorium, und es ist in unserem Interesse, einen dauerhaften Anspruch auf die Region zu erheben."
 
 ### Republic Path ###
 ITA_social_liberal_victory: "Die Republik überlebt"
@@ -485,7 +374,7 @@ ITA_country_intro_content_1: "Als sich der Bürgerkrieg hinzog, wendete sich das
 ITA_country_intro_header_2: "Der Status der Italienischen Republik: Aufschwung und Risorgimento"
 ITA_country_intro_content_2: "Obwohl die Verbindung mit Österreich den Nationalstolz erheblich beeinträchtigte, verbesserte sich die wirtschaftliche Stellung der Republik langsam, die aus dem deutschen Mitteleuropa und österreichischen Investitionen Kraft schöpfte.  Als sich Italien von den Zerstörungen des Bürgerkriegs erholte, begannen jedoch viele in der Republik den Deal ihrer Regierung mit den Habsburgern zu bereuen, und die Unterstützung der Bevölkerung für die anti-österreichische Associazione Nazionalista Italiana (Italienische Nationalistische Vereinigung) wuchs in der Lombardei und im Friaul.\n\nDie Mitte-Links-Koalition von Ivanoe Bonomi regiert das Land seit 1927, aber ihre Popularität ist hauptsächlich auf die wirtschaftliche Stabilität zurückzuführen, und sollte diese enden, könnten andere Parteien wie die standhaft republikanische Partito Liberale Italiano oder die konservative Partito Popolare Italiano genug Unterstützung gewinnen, um eine Regierung zu bilden. Sollten die Dinge völlig aus dem Ruder laufen und mit der Föderation verbündete Kräfte die Ordnung im Norden gewaltsam wiederherstellen, könnte sogar der alte Rat der Italienischen Föderation die Macht übernehmen. Eines haben jedoch alle Parteien gemeinsam: den Wunsch nach einem freien, geeinten Italien, und viele sind sich sicher, dass ein zweites Risorgimento kommen wird."
 
-ITA_guide: "§MLiberale Demokraten§! / §MLiberale§! / §MVolkspartei§! / §MDemokratische Reformisten§! ($social_liberal_coloured$ / $market_liberal_coloured$ / $social_conservative_coloured$ / $social_democrat_coloured$)\n£white_dot Bei den vorgezogenen Wahlen 1936 wählen Sie entweder §lPartito Liberale Democratico§!, §mPartito Liberale Italiano§! oder §cPartito Popolare Italiano§!.\n£white_dot Nach der Wahl wird die §nAssociazione Nazionalista Italiana§! die Wahl anfechten und schließlich versuchen, die Regierung zu stürzen.\n£white_dot Um dies zu verhindern, verbieten Sie entweder die §nANI§! verbieten, oder sie im Auge behalten und wenn sie schließlich auf Mailand marschieren, dafür sorgen, dass ihr Putsch scheitert.\n£white_dot Danach wird es ein Misstrauensvotum gegen die Regierung geben, wenn man die Abstimmung übersteht, kann die Demokratie überleben und bei der Wahl 1941 kann die §SLega Democratica Riformista§! gewählt werden, wenn sie will.\n\n§MNationalists§! ($national_populist_coloured$)\n£white_dot Wählen Sie bei den Wahlen 1936 die §nANI§!.\n£white_dot Oder gewinnen Sie die Wahlen als jede andere Partei, ohne die §nANI§! zu verbieten, und lassen Sie ihren Marsch auf Mailand gelingen.\n£white_dot Nach ihrer Machtübernahme £KR_game_rule_flag_VNC wird Venedig bald gegen die Regierung revoltieren, gewinnen Sie gegen diese Revolte, um Ihre Macht zu festigen.\n\n§MItalienische Föderation§! ($authoritarian_democrat_coloured$)\n£white_dot Wählen Sie bei den Wahlen von 1936 eine demokratische Regierung, ohne dass die §nANI§! die Macht übernehmen.\n£white_dot Lassen Sie die Regierung beim Misstrauensvotum gegen die Regierung die Abstimmung verlieren und stürzen. \n£white_dot Dadurch können Sie die Italienische Föderation wiederherstellen, entweder unter der Herrschaft von Pietro Ferdinando I. oder Marcello I.\n£white_dot Alternativ können Sie während des venezianischen Aufstands zu £KR_game_rule_flag_VNC Venedig wechseln und gewinnen, um die Föderation wiederherzustellen.\n\n§MDie Republik ist aufgelöst§! ( £KR_game_rule_flag_LOM / £KR_game_rule_flag_VNC )\n£white_dot Befolgen Sie die obige Anleitung zur Wiederherstellung der Italienischen Föderation, aber wählen Sie während des Ereignisses zur Wiederherstellung der Föderation stattdessen die vollständige Auflösung der Republik, wodurch die Republik in eine unabhängige £KR_game_rule_flag_LOM Lombardu und £KR_game_rule_flag_VNC Venedig aufgelöst wird. \n- Wenn dies als Republik geschieht, wechselt ihr zu £KR_game_rule_flag_LOM Lombardei, andernfalls, wenn dies als £KR_game_rule_flag_VNC Venedig geschieht, bleibt ihr als diese.\n"
+ITA_guide: "§MLiberale Demokraten§! / §MLiberale§! / §MVolkspartei§! / §MDemokratische Reformisten§! ($social_liberal_coloured$ / $market_liberal_coloured$ / $social_conservative_coloured$ / $social_democrat_coloured$)\n£white_dot Bei den vorgezogenen Wahlen 1936 wählen Sie entweder §lPartito Liberale Democratico§!, §mPartito Liberale Italiano§! oder §cPartito Popolare Italiano§!.\n£white_dot Nach der Wahl wird die §nAssociazione Nazionalista Italiana§! die Wahl anfechten und schließlich versuchen, die Regierung zu stürzen.\n£white_dot Um dies zu verhindern, verbieten Sie entweder die §nANI§! verbieten, oder sie im Auge behalten und wenn sie schließlich auf Mailand marschieren, dafür sorgen, dass ihr Putsch scheitert.\n£white_dot Danach wird es ein Misstrauensvotum gegen die Regierung geben, wenn man die Abstimmung übersteht, kann die Demokratie überleben und bei der Wahl 1941 kann die §SLega Democratica Riformista§! gewählt werden, wenn sie will.\n\n§MNationalists§! ($national_populist_coloured$)\n£white_dot Wählen Sie bei den Wahlen 1936 die §nANI§!.\n£white_dot Oder gewinnen Sie die Wahlen als jede andere Partei, ohne die §nANI§! zu verbieten, und lassen Sie ihren Marsch auf Mailand gelingen.\n£white_dot Nach ihrer Machtübernahme £KR_game_rule_flag_VNC wird Venedig bald gegen die Regierung revoltieren, gewinnen Sie gegen diese Revolte, um Ihre Macht zu festigen.\n\n§MItalienische Föderation§! ($authoritarian_democrat_coloured$)\n£white_dot Wählen Sie bei den Wahlen von 1936 eine demokratische Regierung, ohne dass die §nANI§! die Macht übernehmen.\n£white_dot Lassen Sie die Regierung beim Misstrauensvotum gegen die Regierung die Abstimmung verlieren und stürzen. \n£white_dot Dadurch können Sie die Italienische Föderation wiederherstellen, entweder unter der Herrschaft von Pietro Ferdinando I. oder Marcello I.\n£white_dot Alternativ können Sie während des venezianischen Aufstands zu £KR_game_rule_flag_VNC Venedig wechseln und gewinnen, um die Föderation wiederherzustellen.\n\n§MDie Republik ist aufgelöst§! ( £KR_game_rule_flag_LOM / £KR_game_rule_flag_VNC )\n£white_dot Befolgen Sie die obige Anleitung zur Wiederherstellung der Italienischen Föderation, aber wählen Sie während des Ereignisses zur Wiederherstellung der Föderation stattdessen die vollständige Auflösung der Republik, wodurch die Republik in eine unabhängige £KR_game_rule_flag_LOM Lombardei und £KR_game_rule_flag_VNC Venedig aufgelöst wird. \n- Wenn dies als Republik geschieht, wechselt ihr zu £KR_game_rule_flag_LOM Lombardei, andernfalls, wenn dies als £KR_game_rule_flag_VNC Venedig geschieht, bleibt ihr als diese.\n"
 
 ### Events ###
 
