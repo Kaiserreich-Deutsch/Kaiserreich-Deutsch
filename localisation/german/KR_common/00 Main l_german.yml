@@ -47,7 +47,7 @@ kr_intro_screen_tab_3_content: "§YBitte beachten Sie Folgendes:§!\n£white_dot
 kr_intro_screen_tab_3_content_0: "Kaiserreich legt Beschränkungen für diplomatische Aktionen wie §Rfrühe Kriege§!, §RFraktionen§! und §RAutonomiestufen§! fest.\nKaiserreich enthält §CDivisionsgrenzen§! und eine §CDemobilisierung§! Mechanik, um die Spielbarkeit im späteren Spiel zu verbessern.\nBei §YFriedenskonferenzen§! sollten Sie darauf achten, dass Sie alle Staaten annektieren. Sie können später Länder aus den annektierten Gebieten durch §CEntscheidungen§! entlassen.\nIm Menü §YIndividuelle Spielregeln§! können Sie viele Optionen einstellen, darunter §CLänderpfade§!, §CVorrang für Spieler bei Friedenskonferenzen§!, und das §CStaat und Land Transfer Tool§!.\nDas £kr_options_icon  §YOptionsmenu im Spiel§! wird durch einen Klick auf das Symbol in der rechten oberen Ecke geöffnet. Hier können Sie die §CHäufigkeit der Nachrichtenereignisse§! einstellen und die §CDynamische Umbenennung§! von Staaten und Siegpunkten aktivieren.\n§YDieses Fenster§! kann jederzeit wieder geöffnet werden, indem Sie auf das Symbol £help_button  oben rechts klicken."
 
 ## TAB 4 ##
-KR_CURRENT_VERSION: "1.7.1"
+KR_CURRENT_VERSION: "1.7.2"
 KR_CURRENT_VERSION_NAME: "Crossroads of Civilisation"
 KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ \"$KR_CURRENT_VERSION_NAME$\""
 kr_intro_screen_tab_4_upper_header: "§YWillkommen bei $KR_CURRENT_VERSION_COMBINED$§!"
@@ -668,8 +668,10 @@ generic_neutral_foreign_policy_desc: "Ob aus Pazifismus, Notwendigkeit oder einf
 deterrence: "Abschreckung"
 
 increase_state_category_by_one_level_tt: "Dies ermöglicht §G1§! zusätzlichen Bauplatz.\n"
-increase_state_category_by_two_levels_tt: "Dies ermöglicht §G2§! zusätzlichen Bauplatz.\n"
-decrease_state_category_by_one_level_tt: "Dies §Rentfernt§! einen Bauplatz vom Staat.\n"
+increase_state_category_by_two_levels_tt: "Dies ermöglicht §G2§! zusätzliche Bauplätze.\n"
+increase_state_category_by_three_levels_tt: "Dies ermöglicht §G3§! zusätzliche Bauplätze.\n"
+decrease_state_category_by_one_level_tt: "Dies §Rentfernt§! einen Bauplatz von diesem Staat.\n"
+decrease_state_category_by_two_levels_tt: "Dies entfernt §R2§! Bauplätze von diesem Staat.\n"
 
 ### General ###
 fighter_techs: "Kampfflugzeug-Technologie"
